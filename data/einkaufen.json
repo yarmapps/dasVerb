@@ -1,0 +1,68 @@
+{
+  "id": "einkaufen",
+  "infinitive": "einkaufen",
+  "translation": {
+    "ru": "делать покупки, закупаться",
+    "en": "to shop, to buy groceries"
+  },
+  "level": "A1",
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einkaufen",
+    "present_3sg": "kauft ein",
+    "praeteritum_3sg": "kaufte ein",
+    "partizip_2": "eingekauft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "kaufe ein",
+      "du": "kaufst ein",
+      "er_sie_es": "kauft ein",
+      "wir": "kaufen ein",
+      "ihr": "kauft ein",
+      "sie_Sie": "kaufen ein",
+      "root_vowel_change": null
+    },
+    "imperative": {
+      "du": "kauf ein!",
+      "ihr": "kauft ein!",
+      "Sie": "kaufen Sie ein!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": "Akkusativ",
+    "preposition": "im",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "im Supermarkt / Lebensmittel einkaufen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Wir kaufen samstags im Supermarkt ein.",
+      "translation": {
+        "ru": "По субботам мы закупаемся в супермаркете.",
+        "en": "We go shopping at the supermarket on Saturdays."
+      },
+      "bracket_parts": ["kaufen", "ein"]
+    },
+    {
+      "id": "s2",
+      "tense": "Perfekt",
+      "german": "Hast du schon für das Abendessen eingekauft?",
+      "translation": {
+        "ru": "Ты уже закупился продуктами для ужина?",
+        "en": "Have you already shopped for dinner?"
+      },
+      "bracket_parts": ["Hast", "eingekauft"]
+    }
+  ]
+}

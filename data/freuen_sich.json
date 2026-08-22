@@ -1,0 +1,68 @@
+{
+  "id": "freuen_sich",
+  "infinitive": "sich freuen",
+  "translation": {
+    "ru": "радоваться",
+    "en": "to be glad, to look forward to"
+  },
+  "level": "A2",
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich freuen",
+    "present_3sg": "freut sich",
+    "praeteritum_3sg": "freute sich",
+    "partizip_2": "gefreut"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "freue mich",
+      "du": "freust dich",
+      "er_sie_es": "freut sich",
+      "wir": "freuen uns",
+      "ihr": "freut euch",
+      "sie_Sie": "freuen sich",
+      "root_vowel_change": null
+    },
+    "imperative": {
+      "du": "freu dich!",
+      "ihr": "freut euch!",
+      "Sie": "freuen Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich auf das Wochenende freuen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich freue mich sehr auf den Urlaub.",
+      "translation": {
+        "ru": "Я очень радуюсь предстоящему отпуску.",
+        "en": "I am really looking forward to the vacation."
+      },
+      "bracket_parts": ["freue"]
+    },
+    {
+      "id": "s2",
+      "tense": "Perfekt",
+      "german": "Die Kinder haben sich über die Geschenke gefreut.",
+      "translation": {
+        "ru": "Дети обрадовались подаркам.",
+        "en": "The children were happy about the gifts."
+      },
+      "bracket_parts": ["haben", "gefreut"]
+    }
+  ]
+}
