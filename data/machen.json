@@ -52,7 +52,12 @@
         "ru": "Что ты делаешь на выходных?",
         "en": "What are you doing on the weekend?"
       },
-      "bracket_parts": ["machst"]
+      "bracket_parts": [
+        "machst"
+      ],
+      "akkusativ_parts": [
+        "Was"
+      ]
     },
     {
       "id": "s2",
@@ -62,7 +67,29 @@
         "ru": "Я уже сделал домашнее задание.",
         "en": "I have already done the homework."
       },
-      "bracket_parts": ["habe", "gemacht"]
+      "bracket_parts": [
+        "habe",
+        "gemacht"
+      ],
+      "akkusativ_parts": [
+        "seine Hausaufgaben"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Imperativ",
+      "german": "Mach bitte die Tür zu!",
+      "translation": {
+        "ru": "Закрой, пожалуйста, дверь!",
+        "en": "Please close the door!"
+      },
+      "bracket_parts": [
+        "Mach",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "die Tür"
+      ]
     }
   ]
 }

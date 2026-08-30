@@ -60,7 +60,12 @@
         "ru": "Я люблю пить черный кофе по утрам.",
         "en": "I like to drink black coffee in the morning."
       },
-      "bracket_parts": ["trinke"]
+      "bracket_parts": [
+        "trinke"
+      ],
+      "akkusativ_parts": [
+        "Kaffee"
+      ]
     },
     {
       "id": "s2",
@@ -70,7 +75,28 @@
         "ru": "Ты выпил достаточно воды?",
         "en": "Did you drink enough water?"
       },
-      "bracket_parts": ["Hast", "getrunken"]
+      "bracket_parts": [
+        "Hast",
+        "getrunken"
+      ],
+      "akkusativ_parts": [
+        "Tee"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Imperativ",
+      "german": "Trink bitte jeden Tag genug Wasser!",
+      "translation": {
+        "ru": "Пей, пожалуйста, каждый день достаточно воды!",
+        "en": "Please drink enough water every day!"
+      },
+      "bracket_parts": [
+        "Trink"
+      ],
+      "akkusativ_parts": [
+        "genug Wasser"
+      ]
     }
   ]
 }

@@ -3,11 +3,7 @@
  * Полные TypeScript-типы для карточки немецкого глагола в приложении dasVerb
  */
 
-/**
- * Поддерживаемые языки перевода
- */
-export type SupportedLanguage = 'ru' | 'en';
-export type TranslationMap = Record<SupportedLanguage, string>;
+export type TranslationMap = Record<string, string>;
 
 /**
  * Уровни владения языком по CEFR
@@ -38,7 +34,14 @@ export type GermanCase = 'Nominativ' | 'Akkusativ' | 'Dativ' | 'Genitiv';
 /**
  * Времена глаголов для примеров
  */
-export type Tense = 'Präsens' | 'Perfekt' | 'Präteritum' | 'Plusquamperfekt' | 'Futur I' | 'Futur II';
+export type Tense =
+  | 'Präsens'
+  | 'Perfekt'
+  | 'Präteritum'
+  | 'Plusquamperfekt'
+  | 'Futur I'
+  | 'Futur II'
+  | 'Imperativ';
 
 /**
  * Морфологические свойства глагола
@@ -106,12 +109,17 @@ export interface VerbConjugation {
 
 /**
  * Управление глагола (Rektion & Kasus)
+ * ПРАВИЛО: В поле preposition указываются только чистые базовые предлоги (напр. "in", "auf", "an", "mit", "zu").
+ * Слитные формы предлогов с артиклями ("im", "am", "zum", "zur", "beim", "ins") СТРОГО ЗАПРЕЩЕНЫ.
  */
 export interface VerbRektion {
   requires_object: boolean;
-  direct_case: GermanCase | null; // e.g. "Akkusativ" для anrufen, "Dativ" для helfen
-  preposition: string | null;     // e.g. "auf", "für", "an"
-  preposition_case: Extract<GermanCase, 'Akkusativ' | 'Dativ' | 'Genitiv'> | null;
+  direct_case: GermanCase | 'Dativ + Akkusativ' | null; // e.g. "Akkusativ", "Dativ", "Dativ + Akkusativ" (для geben, schenken)
+  preposition: string | null; // e.g. "auf", "für", "an", "in" (только базовые предлоги)
+  preposition_case:
+    | Extract<GermanCase, 'Akkusativ' | 'Dativ' | 'Genitiv'>
+    | 'Akkusativ + Dativ'
+    | null;
 }
 
 /**
@@ -122,7 +130,9 @@ export interface VerbSentence {
   tense: Tense;
   german: string;
   translation: TranslationMap;
-  bracket_parts?: [string, string] | [string]; // e.g. ["rufe", "an"] или ["hat", "angerufen"]
+  bracket_parts?: string[]; // e.g. ["rufe", "an"] или ["hat", "angerufen"]
+  dativ_parts?: string[]; // e.g. ["mir", "ihm", "mit dem Arzt"] (фиолетовая подсветка)
+  akkusativ_parts?: string[]; // e.g. ["das Buch", "dich", "über das Problem"] (синяя подсветка)
 }
 
 /**

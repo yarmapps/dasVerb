@@ -60,7 +60,13 @@
         "ru": "Я позвоню тебе сегодня вечером.",
         "en": "I will call you this evening."
       },
-      "bracket_parts": ["rufe", "an"]
+      "bracket_parts": [
+        "rufe",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ]
     },
     {
       "id": "s2",
@@ -70,7 +76,29 @@
         "ru": "Он вчера позвонил своему другу.",
         "en": "He called his friend yesterday."
       },
-      "bracket_parts": ["hat", "angerufen"]
+      "bracket_parts": [
+        "hat",
+        "angerufen"
+      ],
+      "akkusativ_parts": [
+        "seinen Freund"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Imperativ",
+      "german": "Ruf mich bitte morgen an!",
+      "translation": {
+        "ru": "Позвони мне, пожалуйста, завтра!",
+        "en": "Please call me tomorrow!"
+      },
+      "bracket_parts": [
+        "Ruf",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
     }
   ]
 }

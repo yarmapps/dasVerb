@@ -60,7 +60,9 @@
         "ru": "Я сегодня очень устал.",
         "en": "I am very tired today."
       },
-      "bracket_parts": ["bin"]
+      "bracket_parts": [
+        "bin"
+      ]
     },
     {
       "id": "s2",
@@ -70,7 +72,28 @@
         "ru": "Мы вчера были в кино.",
         "en": "We were at the cinema yesterday."
       },
-      "bracket_parts": ["sind", "gewesen"]
+      "bracket_parts": [
+        "sind",
+        "gewesen"
+      ],
+      "dativ_parts": [
+        "in Berlin"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Imperativ",
+      "german": "Sei bitte leise im Lesesaal!",
+      "translation": {
+        "ru": "Будь, пожалуйста, потише в читальном зале!",
+        "en": "Please be quiet in the reading room!"
+      },
+      "bracket_parts": [
+        "Sei"
+      ],
+      "dativ_parts": [
+        "im Lesesaal"
+      ]
     }
   ]
 }

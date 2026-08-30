@@ -47,30 +47,49 @@
   "rektion": {
     "requires_object": false,
     "direct_case": null,
-    "preposition": "um",
-    "preposition_case": "Akkusativ"
+    "preposition": null,
+    "preposition_case": null
   },
-  "chunk": "früh / um 7 Uhr aufstehen",
+  "chunk": "früh / pünktlich aufstehen",
   "sentences": [
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich stehe jeden Morgen um 7 Uhr auf.",
+      "german": "Ich stehe jeden Tag um sechs Uhr auf.",
       "translation": {
-        "ru": "Я встаю каждое утро в 7 часов.",
-        "en": "I get up every morning at 7 o'clock."
+        "ru": "Я каждый день встаю в шесть часов.",
+        "en": "I get up at six o clock every day."
       },
-      "bracket_parts": ["stehe", "auf"]
+      "bracket_parts": [
+        "stehe",
+        "auf"
+      ]
     },
     {
       "id": "s2",
       "tense": "Perfekt",
-      "german": "Er ist heute sehr spät aufgestanden.",
+      "german": "Er ist heute sehr früh aufgestanden.",
       "translation": {
-        "ru": "Он сегодня очень поздно встал.",
-        "en": "He got up very late today."
+        "ru": "Он сегодня встал очень рано.",
+        "en": "He got up very early today."
       },
-      "bracket_parts": ["ist", "aufgestanden"]
+      "bracket_parts": [
+        "ist",
+        "aufgestanden"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Imperativ",
+      "german": "Steh bitte morgen früh auf!",
+      "translation": {
+        "ru": "Встань, пожалуйста, завтра пораньше!",
+        "en": "Please get up early tomorrow!"
+      },
+      "bracket_parts": [
+        "Steh",
+        "auf"
+      ]
     }
   ]
 }

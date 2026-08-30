@@ -1,0 +1,97 @@
+{
+  "infinitive": "sich freuen",
+  "level": "A2",
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich freuen",
+    "present_3sg": "freut sich",
+    "praeteritum_3sg": "freute sich",
+    "partizip_2": "gefreut"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "freue mich",
+      "du": "freust dich",
+      "er_sie_es": "freut sich",
+      "wir": "freuen uns",
+      "ihr": "freut euch",
+      "sie_Sie": "freuen sich",
+      "root_vowel_change": null
+    },
+    "imperative": {
+      "du": "freu dich!",
+      "ihr": "freut euch!",
+      "Sie": "freuen Sie sich!"
+    }
+  },
+  "id": "freuen_sich_akk_ueber",
+  "translation": {
+    "ru": "радоваться (происшедшему/подарку)",
+    "en": "to be happy about (present/past event)"
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich über die Geschenke freuen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich freue mich sehr über deinen Besuch.",
+      "translation": {
+        "ru": "Я очень рад твоему визиту.",
+        "en": "I am very pleased about your visit."
+      },
+      "bracket_parts": [
+        "freue"
+      ],
+      "akkusativ_parts": [
+        "mich",
+        "über deinen Besuch"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Perfekt",
+      "german": "Die Kinder haben sich über die Geschenke gefreut.",
+      "translation": {
+        "ru": "Дети обрадовались подаркам.",
+        "en": "The children were happy about the gifts."
+      },
+      "bracket_parts": [
+        "haben",
+        "gefreut"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "über die Geschenke"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Imperativ",
+      "german": "Freu dich über deinen großen Erfolg!",
+      "translation": {
+        "ru": "Радуйся своему большому успеху!",
+        "en": "Be happy about your great success!"
+      },
+      "bracket_parts": [
+        "Freu"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "über deinen großen Erfolg"
+      ]
+    }
+  ]
+}

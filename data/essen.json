@@ -60,7 +60,9 @@
         "ru": "По утрам он всегда ест мюсли.",
         "en": "He always eats muesli in the morning."
       },
-      "bracket_parts": ["isst"]
+      "bracket_parts": [
+        "isst"
+      ]
     },
     {
       "id": "s2",
@@ -70,7 +72,28 @@
         "ru": "Мы сегодня съели вкусную пиццу.",
         "en": "We ate a delicious pizza today."
       },
-      "bracket_parts": ["haben", "gegessen"]
+      "bracket_parts": [
+        "haben",
+        "gegessen"
+      ],
+      "akkusativ_parts": [
+        "eine leckere Pizza"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Imperativ",
+      "german": "Iss bitte mehr frisches Gemüse!",
+      "translation": {
+        "ru": "Ешь, пожалуйста, больше свежих овощей!",
+        "en": "Please eat more fresh vegetables!"
+      },
+      "bracket_parts": [
+        "Iss"
+      ],
+      "akkusativ_parts": [
+        "mehr frisches Gemüse"
+      ]
     }
   ]
 }

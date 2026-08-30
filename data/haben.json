@@ -60,7 +60,12 @@
         "ru": "У меня сегодня нет времени.",
         "en": "I have no time today."
       },
-      "bracket_parts": ["habe"]
+      "bracket_parts": [
+        "habe"
+      ],
+      "akkusativ_parts": [
+        "einen Hund"
+      ]
     },
     {
       "id": "s2",
@@ -70,7 +75,28 @@
         "ru": "Ему очень повезло (он имел много удачи).",
         "en": "He had a lot of luck."
       },
-      "bracket_parts": ["hat", "gehabt"]
+      "bracket_parts": [
+        "hat",
+        "gehabt"
+      ],
+      "akkusativ_parts": [
+        "viel Zeit"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Imperativ",
+      "german": "Hab bitte etwas Geduld!",
+      "translation": {
+        "ru": "Имей, пожалуйста, немного терпения!",
+        "en": "Please have a little patience!"
+      },
+      "bracket_parts": [
+        "Hab"
+      ],
+      "akkusativ_parts": [
+        "etwas Geduld"
+      ]
     }
   ]
 }

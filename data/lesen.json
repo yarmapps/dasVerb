@@ -60,7 +60,12 @@
         "ru": "Ты любишь читать исторические романы?",
         "en": "Do you like reading historical novels?"
       },
-      "bracket_parts": ["Liest"]
+      "bracket_parts": [
+        "Liest"
+      ],
+      "akkusativ_parts": [
+        "ein Buch"
+      ]
     },
     {
       "id": "s2",
@@ -70,7 +75,29 @@
         "ru": "Я прочитал всю статью.",
         "en": "I read the whole article."
       },
-      "bracket_parts": ["habe", "gelesen"]
+      "bracket_parts": [
+        "habe",
+        "gelesen"
+      ],
+      "akkusativ_parts": [
+        "die Nachrichten"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Imperativ",
+      "german": "Lies diesen Text bitte aufmerksam durch!",
+      "translation": {
+        "ru": "Прочитай этот текст, пожалуйста, внимательно!",
+        "en": "Please read this text carefully!"
+      },
+      "bracket_parts": [
+        "Lies",
+        "durch"
+      ],
+      "akkusativ_parts": [
+        "diesen Text"
+      ]
     }
   ]
 }

@@ -60,7 +60,12 @@
         "ru": "К сожалению, я не понимаю это предложение.",
         "en": "Unfortunately I don't understand this sentence."
       },
-      "bracket_parts": ["verstehe"]
+      "bracket_parts": [
+        "verstehe"
+      ],
+      "akkusativ_parts": [
+        "diese Grammatikregel"
+      ]
     },
     {
       "id": "s2",
@@ -70,7 +75,28 @@
         "ru": "Ты хорошо понял объяснение?",
         "en": "Did you understand the explanation well?"
       },
-      "bracket_parts": ["Hast", "verstanden"]
+      "bracket_parts": [
+        "Hast",
+        "verstanden"
+      ],
+      "akkusativ_parts": [
+        "den Lehrer"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Imperativ",
+      "german": "Versteh mich bitte nicht falsch!",
+      "translation": {
+        "ru": "Не пойми меня, пожалуйста, неправильно!",
+        "en": "Please don't get me wrong!"
+      },
+      "bracket_parts": [
+        "Versteh"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
     }
   ]
 }

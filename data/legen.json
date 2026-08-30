@@ -1,0 +1,89 @@
+{
+  "id": "legen",
+  "infinitive": "legen",
+  "translation": {
+    "ru": "класть, положить (действие)",
+    "en": "to lay, to put (action)"
+  },
+  "level": "A1",
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "legen",
+    "present_3sg": "legt",
+    "praeteritum_3sg": "legte",
+    "partizip_2": "gelegt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lege",
+      "du": "legst",
+      "er_sie_es": "legt",
+      "wir": "legen",
+      "ihr": "legt",
+      "sie_Sie": "legen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "legte",
+      "du": "legtest",
+      "er_sie_es": "legte",
+      "wir": "legten",
+      "ihr": "legtet",
+      "sie_Sie": "legten"
+    },
+    "imperative": {
+      "du": "leg!",
+      "ihr": "legt!",
+      "Sie": "legen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "das Buch auf den Tisch (Akk) legen (Vgl. liegen)",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich lege das Buch auf den Tisch.",
+      "translation": {
+        "ru": "Я кладу книгу на стол.",
+        "en": "I put the book on the table."
+      },
+      "bracket_parts": ["lege"],
+      "akkusativ_parts": ["das Buch", "auf den Tisch"]
+    },
+    {
+      "id": "s2",
+      "tense": "Perfekt",
+      "german": "Er hat sein Handy auf das Sofa gelegt.",
+      "translation": {
+        "ru": "Он положил свой телефон на диван.",
+        "en": "He put his phone on the sofa."
+      },
+      "bracket_parts": ["hat", "gelegt"],
+      "akkusativ_parts": ["sein Handy", "auf das Sofa"]
+    },
+    {
+      "id": "s3",
+      "tense": "Imperativ",
+      "german": "Leg die Zeitung bitte auf das Regal!",
+      "translation": {
+        "ru": "Положи газету на полку!",
+        "en": "Please put the newspaper on the shelf!"
+      },
+      "bracket_parts": ["Leg"],
+      "akkusativ_parts": ["die Zeitung", "auf das Regal"]
+    }
+  ]
+}

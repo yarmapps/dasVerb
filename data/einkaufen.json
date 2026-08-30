@@ -37,32 +37,60 @@
     }
   },
   "rektion": {
-    "requires_object": false,
+    "requires_object": true,
     "direct_case": "Akkusativ",
-    "preposition": "im",
-    "preposition_case": "Dativ"
+    "preposition": null,
+    "preposition_case": null
   },
-  "chunk": "im Supermarkt / Lebensmittel einkaufen",
+  "chunk": "Lebensmittel / Kleidung einkaufen",
   "sentences": [
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Wir kaufen samstags im Supermarkt ein.",
+      "german": "Wir kaufen samstags frische Lebensmittel ein.",
       "translation": {
-        "ru": "По субботам мы закупаемся в супермаркете.",
-        "en": "We go shopping at the supermarket on Saturdays."
+        "ru": "По субботам мы закупаем свежие продукты.",
+        "en": "We buy fresh groceries on Saturdays."
       },
-      "bracket_parts": ["kaufen", "ein"]
+      "bracket_parts": [
+        "kaufen",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "frische Lebensmittel"
+      ]
     },
     {
       "id": "s2",
       "tense": "Perfekt",
-      "german": "Hast du schon für das Abendessen eingekauft?",
+      "german": "Hast du schon alles Nötige eingekauft?",
       "translation": {
-        "ru": "Ты уже закупился продуктами для ужина?",
-        "en": "Have you already shopped for dinner?"
+        "ru": "Ты уже закупил всё необходимое?",
+        "en": "Have you already bought everything needed?"
       },
-      "bracket_parts": ["Hast", "eingekauft"]
+      "bracket_parts": [
+        "Hast",
+        "eingekauft"
+      ],
+      "akkusativ_parts": [
+        "alles Nötige"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Imperativ",
+      "german": "Kauf bitte heute etwas Brot ein!",
+      "translation": {
+        "ru": "Купи, пожалуйста, сегодня немного хлеба!",
+        "en": "Please buy some bread today!"
+      },
+      "bracket_parts": [
+        "Kauf",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "etwas Brot"
+      ]
     }
   ]
 }

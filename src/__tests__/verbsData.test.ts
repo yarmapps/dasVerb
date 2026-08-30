@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { VerbCard } from '../types';
+import { VerbCard, VerbSentence } from '../../docs/verb.types';
 
 describe('German Verb JSON Cards Data Integrity', () => {
   const dataDir = path.resolve(__dirname, '../../data');
@@ -54,15 +54,39 @@ describe('German Verb JSON Cards Data Integrity', () => {
         expect(verb.conjugation.present.sie_Sie).toBeDefined();
       });
 
-      it('should have rektion definitions', () => {
+      it('should have imperative conjugation', () => {
+        expect(verb.conjugation).toBeDefined();
+        if (verb.conjugation.imperative) {
+          expect(verb.conjugation.imperative.du).toBeDefined();
+          expect(verb.conjugation.imperative.ihr).toBeDefined();
+          expect(verb.conjugation.imperative.Sie).toBeDefined();
+        }
+      });
+
+      it('should have valid rektion definitions and pure prepositions', () => {
         expect(verb.rektion).toBeDefined();
         expect(typeof verb.rektion.requires_object).toBe('boolean');
+        if (verb.rektion.preposition) {
+          const forbiddenContracted = [
+            'im',
+            'am',
+            'zum',
+            'zur',
+            'beim',
+            'ins',
+            'ans',
+            'vom',
+            'aufs',
+            'fürs',
+          ];
+          expect(forbiddenContracted).not.toContain(verb.rektion.preposition.toLowerCase());
+        }
       });
 
       it('should have at least 1 example sentence', () => {
         expect(Array.isArray(verb.sentences)).toBe(true);
         expect(verb.sentences.length).toBeGreaterThanOrEqual(1);
-        verb.sentences.forEach(sentence => {
+        verb.sentences.forEach((sentence: VerbSentence) => {
           expect(sentence.german).toBeDefined();
           expect(sentence.translation.ru).toBeDefined();
           expect(sentence.translation.en).toBeDefined();

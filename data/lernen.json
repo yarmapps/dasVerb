@@ -52,7 +52,12 @@
         "ru": "Мы учим немецкий каждый день.",
         "en": "We learn German every day."
       },
-      "bracket_parts": ["lernen"]
+      "bracket_parts": [
+        "lernen"
+      ],
+      "akkusativ_parts": [
+        "Deutsch"
+      ]
     },
     {
       "id": "s2",
@@ -62,7 +67,28 @@
         "ru": "Он усердно учился к экзамену.",
         "en": "He studied hard for the exam."
       },
-      "bracket_parts": ["hat", "gelernt"]
+      "bracket_parts": [
+        "hat",
+        "gelernt"
+      ],
+      "akkusativ_parts": [
+        "für die Prüfung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Imperativ",
+      "german": "Lerne jeden Tag ein paar neue Wörter!",
+      "translation": {
+        "ru": "Учи каждый день несколько новых слов!",
+        "en": "Learn a few new words every day!"
+      },
+      "bracket_parts": [
+        "Lerne"
+      ],
+      "akkusativ_parts": [
+        "ein paar neue Wörter"
+      ]
     }
   ]
 }

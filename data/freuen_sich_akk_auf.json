@@ -1,0 +1,97 @@
+{
+  "infinitive": "sich freuen",
+  "level": "A2",
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich freuen",
+    "present_3sg": "freut sich",
+    "praeteritum_3sg": "freute sich",
+    "partizip_2": "gefreut"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "freue mich",
+      "du": "freust dich",
+      "er_sie_es": "freut sich",
+      "wir": "freuen uns",
+      "ihr": "freut euch",
+      "sie_Sie": "freuen sich",
+      "root_vowel_change": null
+    },
+    "imperative": {
+      "du": "freu dich!",
+      "ihr": "freut euch!",
+      "Sie": "freuen Sie sich!"
+    }
+  },
+  "id": "freuen_sich_akk_auf",
+  "translation": {
+    "ru": "радоваться (предстоящему)",
+    "en": "to look forward to"
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich auf den Urlaub / das Wochenende freuen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich freue mich sehr auf den Urlaub.",
+      "translation": {
+        "ru": "Я очень радуюсь предстоящему отпуску.",
+        "en": "I am really looking forward to the vacation."
+      },
+      "bracket_parts": [
+        "freue"
+      ],
+      "akkusativ_parts": [
+        "mich",
+        "auf den Urlaub"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Perfekt",
+      "german": "Wir haben uns sehr auf das Fest gefreut.",
+      "translation": {
+        "ru": "Мы очень радовались предстоящему празднику.",
+        "en": "We were really looking forward to the celebration."
+      },
+      "bracket_parts": [
+        "haben",
+        "gefreut"
+      ],
+      "akkusativ_parts": [
+        "uns",
+        "auf das Fest"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Imperativ",
+      "german": "Freu dich auf das schöne Wochenende!",
+      "translation": {
+        "ru": "Радуйся прекрасному выходному!",
+        "en": "Look forward to the nice weekend!"
+      },
+      "bracket_parts": [
+        "Freu"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "auf das schöne Wochenende"
+      ]
+    }
+  ]
+}

@@ -55,7 +55,10 @@
         "ru": "Он умеет очень хорошо говорить по-немецки.",
         "en": "He can speak German very well."
       },
-      "bracket_parts": ["kann", "sprechen"]
+      "bracket_parts": [
+        "kann",
+        "sprechen"
+      ]
     },
     {
       "id": "s2",
@@ -65,7 +68,23 @@
         "ru": "Вчера я, к сожалению, не смог прийти.",
         "en": "Unfortunately I could not come yesterday."
       },
-      "bracket_parts": ["konnte", "kommen"]
+      "bracket_parts": [
+        "konnte",
+        "kommen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Imperativ",
+      "german": "Können Sie bitte kurz hier warten!",
+      "translation": {
+        "ru": "Пожалуйста, подождите здесь минутку!",
+        "en": "Could you please wait here for a moment!"
+      },
+      "bracket_parts": [
+        "Können",
+        "warten"
+      ]
     }
   ]
 }

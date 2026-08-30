@@ -46,11 +46,11 @@
   },
   "rektion": {
     "requires_object": true,
-    "direct_case": "Akkusativ",
+    "direct_case": "Dativ + Akkusativ",
     "preposition": null,
     "preposition_case": null
   },
-  "chunk": "jemandem (Dat) etwas (Akk) geben / es gibt (Akk)",
+  "chunk": "jemandem (Dat) etwas (Akk) geben",
   "sentences": [
     {
       "id": "s1",
@@ -60,7 +60,15 @@
         "ru": "Дашь мне, пожалуйста, соль?",
         "en": "Can you please give me the salt?"
       },
-      "bracket_parts": ["Gibst"]
+      "bracket_parts": [
+        "Gibst"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "das Salz"
+      ]
     },
     {
       "id": "s2",
@@ -70,7 +78,34 @@
         "ru": "Она вернула (отдала назад) ему книгу.",
         "en": "She gave the book back to him."
       },
-      "bracket_parts": ["hat", "zurückgegeben"]
+      "bracket_parts": [
+        "hat",
+        "zurückgegeben"
+      ],
+      "dativ_parts": [
+        "ihm"
+      ],
+      "akkusativ_parts": [
+        "das Buch"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Imperativ",
+      "german": "Gib mir bitte kurz das Buch!",
+      "translation": {
+        "ru": "Дай мне, пожалуйста, на минутку книгу!",
+        "en": "Please give me the book for a moment!"
+      },
+      "bracket_parts": [
+        "Gib"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "das Buch"
+      ]
     }
   ]
 }

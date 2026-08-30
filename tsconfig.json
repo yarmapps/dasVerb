@@ -4,16 +4,22 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"],
-      "@docs/*": ["docs/*"],
-      "@data/*": ["data/*"],
-      "@specs/*": ["specs/*"]
+      "@/*": [
+        "src/*"
+      ],
+      "@docs/*": [
+        "docs/*"
+      ],
+      "@data/*": [
+        "data/*"
+      ],
+      "@specs/*": [
+        "specs/*"
+      ]
     }
   },
   "include": [
     "**/*.ts",
-    "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "**/*.tsx"
   ]
 }
