@@ -13,7 +13,10 @@
     "levelsButtonTitle": "Practice Verbs",
     "levelsButtonSubtitle": "Learn verbs from A1 to B2",
     "featuredBadge": "Featured",
-    "startNow": "Start Now"
+    "startNow": "Start Now",
+    "smartQuizBadge": "Smart Review",
+    "smartQuizTitle": "Smart Algorithm",
+    "smartQuizSubtitle": "Focus on your mistakes and learn 3x faster"
   },
   "dictionaryScreen": {
     "title": "Dictionary",
@@ -44,8 +47,16 @@
     "themeSystem": "System",
     "notifications": "Notifications",
     "soundEffects": "Sound Effects",
+    "speakOnCorrectAnswer": "Pronounce Correct Answer",
+    "voiceGender": "Voice",
+    "voiceFemale": "Female",
+    "voiceMale": "Male",
+    "maleVoiceHint": "To use a male German voice, install one in iOS Settings → Accessibility → Spoken Content → Voices → German.",
     "contactUs": "Contact Us",
     "version": "Version"
+  },
+  "quizSettingsModal": {
+    "title": "Quiz Settings"
   },
   "verbsPracticeListScreen": {
     "title": "Verbs Practice",
@@ -55,6 +66,53 @@
     "bronze": "Bronze",
     "silver": "Silver",
     "trophy": "Trophy",
-    "empty": "No verbs found"
+    "empty": "No verbs found",
+    "checkpointTitle": "Checkpoint Quiz"
+  },
+  "verbQuizScreen": {
+    "title": "Practice",
+    "checkpointQuizTitle": "Checkpoint Quiz",
+    "smartQuizTitle": "Smart Quiz",
+    "level": "Level",
+    "check": "Check",
+    "continue": "Continue",
+    "exercise": "Exercise",
+    "correct": "Correct!",
+    "tryAgain": "Try again",
+    "fillCard": "Fill in the card",
+    "tapToContinue": "Tap anywhere to continue",
+    "correctAnswer": "Correct answer:",
+    "conjugationPräsens": "Conjugation in Präsens",
+    "principalParts": "Principal Parts",
+    "imperativeForms": "Imperative Forms",
+    "auxiliaryExplanationMovement": "The verb {verb} expresses movement or a change of state, so it forms the Perfekt with sein ({form}).",
+    "auxiliaryExplanationGeneral": "The verb {verb} forms the Perfekt with the auxiliary verb haben ({form})."
+  },
+  "quizResultsScreen": {
+    "title": "Results",
+    "checkpointResultsTitle": "Checkpoint Results",
+    "smartQuizResultsTitle": "Smart Quiz Results",
+    "canDoBetter": "You can do better!",
+    "almostThere": "Almost there!",
+    "closeToPerfection": "Perfectly close!",
+    "youDidIt": "You did it!",
+    "nextLevel": "Next level",
+    "tryAgain": "Try again",
+    "verbsList": "To verbs list",
+    "backToPractice": "Back to Practice",
+    "scoreSummary": "{correct} of {total}"
+  },
+  "dailyQuizLimitModal": {
+    "title": "Awesome progress!",
+    "message": "You are really determined to learn German!",
+    "instructions": "How would you like to continue?",
+    "videoButton": "Watch ads",
+    "or": "or",
+    "premiumButtonWithTrial": "Free unlimited levels\nfor {daysLabel}",
+    "premiumButtonNoTrial": "Get Premium",
+    "premiumButtonSubtitleWithTrial": "then {yearlyPrice}/year (☕️ / mo.)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice}/year (☕️ / mo.)",
+    "waitUntilTomorrow": "Wait until tomorrow",
+    "cancelAnytime": "Cancel any time"
   }
 }

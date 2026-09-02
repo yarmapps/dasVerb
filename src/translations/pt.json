@@ -55,6 +55,38 @@
     "bronze": "Bronze",
     "silver": "Prata",
     "trophy": "Troféu",
-    "empty": "Nenhum verbo encontrado"
+    "empty": "Nenhum verbo encontrado",
+    "checkpointTitle": "{number}. Teste intercalar",
+    "checkpointSubtitle": "Revisão · Verbos {from}–{to}",
+    "checkpointBadge": "10 exercícios"
+  },
+  "verbQuizScreen": {
+    "title": "Treino",
+    "checkpointQuizTitle": "Teste intercalar {number}",
+    "level": "Nível",
+    "check": "Verificar",
+    "continue": "Continuar",
+    "exercise": "Exercício",
+    "correct": "Correto!",
+    "tryAgain": "Tente novamente",
+    "fillCard": "Preencha o cartão",
+    "tapToContinue": "Toque em qualquer lugar para continuar",
+    "correctAnswer": "Resposta correta:",
+    "conjugationPräsens": "Conjugação no Präsens",
+    "principalParts": "Formas principais (Stammformen)",
+    "imperativeForms": "Modo imperativo",
+    "auxiliaryExplanationMovement": "O verbo {verb} expressa movimento ou mudança de estado, por isso forma o Perfekt com sein ({form}).",
+    "auxiliaryExplanationGeneral": "O verbo {verb} forma o Perfekt com o verbo auxiliar haben ({form})."
+  },
+  "quizResultsScreen": {
+    "title": "Resultados",
+    "checkpointResultsTitle": "Resultados do teste",
+    "canDoBetter": "Pode fazer melhor!",
+    "almostThere": "Quase lá!",
+    "closeToPerfection": "Perto da perfeição!",
+    "youDidIt": "Conseguiu!",
+    "tryAgain": "Tente novamente",
+    "verbsList": "Lista de verbos",
+    "scoreSummary": "{correct} de {total}"
   }
 }

@@ -12,13 +12,17 @@ export const createStyles = (colors: ThemeColors) =>
       width: 40,
       height: 40,
       borderRadius: 20,
-      backgroundColor: colors.blockBackground,
+      backgroundColor: colors.headerButtonBackground,
       justifyContent: 'center',
       alignItems: 'center',
     },
     content: {
       flex: 1,
+    },
+    scrollContent: {
       paddingHorizontal: Spacing.xl,
       paddingTop: Spacing.sm,
+      paddingBottom: Spacing.xxxl,
+      gap: Spacing.lg,
     },
   });

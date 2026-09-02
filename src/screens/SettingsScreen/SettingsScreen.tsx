@@ -1,16 +1,19 @@
 import React, { useState, useMemo } from 'react';
 import { View, Text, TouchableOpacity, ScrollView, Switch, Linking } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { FontAwesome5 } from '@expo/vector-icons';
 import { useIntl } from 'react-intl';
+import appConfig from '../../../app.json';
 import { ScreenHeader } from '../../components/ScreenHeader/ScreenHeader';
+import { ScreenBackground } from '../../components/ScreenBackground/ScreenBackground';
 import { RootStackParamList } from '../../types/navigation';
 import { useAppTheme } from '../../context/ThemeContext';
 import { useLocale } from '../../context/LocaleContext';
 import { LANGUAGES } from '../../types/intl';
+import { getSettings, updateSettings } from '../../services/settingsService';
+import { soundService } from '../../services/soundService';
 import { createStyles } from './SettingsScreen.styles';
 
 type SettingsScreenNavigationProp = NativeStackNavigationProp<RootStackParamList>;
@@ -22,8 +25,44 @@ export function SettingsScreen(): React.JSX.Element {
   const { locale } = useLocale();
   const styles = useMemo(() => createStyles(colors), [colors]);
 
-  const [soundEnabled, setSoundEnabled] = useState(true);
-  const [notificationsEnabled, setNotificationsEnabled] = useState(true);
+  const [soundEnabled, setSoundEnabled] = useState(() => getSettings().soundEffects);
+  const [notificationsEnabled, setNotificationsEnabled] = useState(
+    () => getSettings().notifications,
+  );
+  const [speakOnCorrectAnswer, setSpeakOnCorrectAnswer] = useState(
+    () => getSettings().speakOnCorrectAnswer,
+  );
+  const [ttsVoiceGender, setTtsVoiceGender] = useState<'female' | 'male'>(
+    () => getSettings().ttsVoiceGender,
+  );
+
+  const handleSoundToggle = (value: boolean) => {
+    setSoundEnabled(value);
+    updateSettings({ soundEffects: value });
+    if (value) {
+      soundService.playTapSound();
+    }
+  };
+
+  const handleNotificationsToggle = (value: boolean) => {
+    setNotificationsEnabled(value);
+    updateSettings({ notifications: value });
+  };
+
+  const handleSpeakToggle = (value: boolean) => {
+    setSpeakOnCorrectAnswer(value);
+    updateSettings({ speakOnCorrectAnswer: value });
+    if (value) {
+      soundService.playTapSound();
+    }
+  };
+
+  const handleVoiceGenderToggle = () => {
+    const next = ttsVoiceGender === 'female' ? 'male' : 'female';
+    setTtsVoiceGender(next);
+    updateSettings({ ttsVoiceGender: next });
+    soundService.playTapSound();
+  };
 
   const currentLanguageName = useMemo(() => {
     const found = LANGUAGES.find(l => l.code === locale);
@@ -85,13 +124,21 @@ export function SettingsScreen(): React.JSX.Element {
     }
   };
 
+  const voiceGenderLabel = useMemo(() => {
+    if (ttsVoiceGender === 'female') {
+      return intl.formatMessage({ id: 'settingsScreen.voiceFemale' });
+    }
+    return intl.formatMessage({ id: 'settingsScreen.voiceMale' });
+  }, [intl, ttsVoiceGender]);
+
   return (
-    <SafeAreaView style={styles.container} edges={['left', 'right']}>
+    <ScreenBackground>
       <StatusBar style={isDark ? 'light' : 'dark'} />
       <ScreenHeader
         title={intl.formatMessage({ id: 'settingsScreen.title' })}
         showBackButton={true}
         onBackPress={() => navigation.goBack()}
+        showStreak={false}
       />
       <ScrollView
         style={styles.content}
@@ -127,7 +174,7 @@ export function SettingsScreen(): React.JSX.Element {
               intl.formatMessage({ id: 'settingsScreen.notifications' }),
               <Switch
                 value={notificationsEnabled}
-                onValueChange={setNotificationsEnabled}
+                onValueChange={handleNotificationsToggle}
                 trackColor={{ false: colors.blockBorder, true: colors.primary }}
                 thumbColor="#ffffff"
               />,
@@ -146,11 +193,33 @@ export function SettingsScreen(): React.JSX.Element {
               intl.formatMessage({ id: 'settingsScreen.soundEffects' }),
               <Switch
                 value={soundEnabled}
-                onValueChange={setSoundEnabled}
+                onValueChange={handleSoundToggle}
                 trackColor={{ false: colors.blockBorder, true: colors.primary }}
                 thumbColor="#ffffff"
               />,
               undefined,
+              false,
+            )}
+            {renderRow(
+              'comment-dots',
+              intl.formatMessage({ id: 'settingsScreen.speakOnCorrectAnswer' }),
+              <Switch
+                value={speakOnCorrectAnswer}
+                onValueChange={handleSpeakToggle}
+                trackColor={{ false: colors.blockBorder, true: colors.primary }}
+                thumbColor="#ffffff"
+              />,
+              undefined,
+              false,
+            )}
+            {renderRow(
+              'venus-mars',
+              intl.formatMessage({ id: 'settingsScreen.voiceGender' }),
+              <View style={styles.rowRightContent}>
+                <Text style={styles.rowValue}>{voiceGenderLabel}</Text>
+                <FontAwesome5 name="chevron-right" size={12} color={colors.textMutedInverted} />
+              </View>,
+              handleVoiceGenderToggle,
               true,
             )}
           </>,
@@ -171,9 +240,10 @@ export function SettingsScreen(): React.JSX.Element {
         )}
 
         <Text style={styles.versionText}>
-          {intl.formatMessage({ id: 'settingsScreen.version' })} 1.0.0 (dasVerb)
+          {intl.formatMessage({ id: 'settingsScreen.version' })} {appConfig.expo.version} (
+          {appConfig.expo.name})
         </Text>
       </ScrollView>
-    </SafeAreaView>
+    </ScreenBackground>
   );
 }

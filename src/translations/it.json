@@ -55,6 +55,38 @@
     "bronze": "Bronzo",
     "silver": "Argento",
     "trophy": "Trofeo",
-    "empty": "Nessun verbo trovato"
+    "empty": "Nessun verbo trovato",
+    "checkpointTitle": "{number}. Quiz intermedio",
+    "checkpointSubtitle": "Ripasso · Verbi {from}–{to}",
+    "checkpointBadge": "10 esercizi"
+  },
+  "verbQuizScreen": {
+    "title": "Allenamento",
+    "checkpointQuizTitle": "Quiz intermedio {number}",
+    "level": "Livello",
+    "check": "Controlla",
+    "continue": "Continua",
+    "exercise": "Esercizio",
+    "correct": "Corretto!",
+    "tryAgain": "Riprova",
+    "fillCard": "Completa la scheda",
+    "tapToContinue": "Tocca un punto qualsiasi per continuare",
+    "correctAnswer": "Risposta corretta:",
+    "conjugationPräsens": "Coniugazione al Präsens",
+    "principalParts": "Forme fondamentali (Stammformen)",
+    "imperativeForms": "Modo imperativo",
+    "auxiliaryExplanationMovement": "Il verbo {verb} esprime un movimento o un cambiamento di stato, quindi forma il Perfekt con sein ({form}).",
+    "auxiliaryExplanationGeneral": "Il verbo {verb} forma il Perfekt con il verbo ausiliare haben ({form})."
+  },
+  "quizResultsScreen": {
+    "title": "Risultati",
+    "checkpointResultsTitle": "Risultati del test",
+    "canDoBetter": "Puoi fare di meglio!",
+    "almostThere": "Quasi!",
+    "closeToPerfection": "Quasi perfetto!",
+    "youDidIt": "Ce l'hai fatta!",
+    "tryAgain": "Riprova",
+    "verbsList": "Elenco dei verbi",
+    "scoreSummary": "{correct} su {total}"
   }
 }

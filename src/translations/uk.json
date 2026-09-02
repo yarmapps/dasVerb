@@ -55,6 +55,38 @@
     "bronze": "Бронза",
     "silver": "Срібло",
     "trophy": "Кубок",
-    "empty": "Дієслова не знайдені"
+    "empty": "Дієслова не знайдені",
+    "checkpointTitle": "{number}. Проміжний тест",
+    "checkpointSubtitle": "Повторення · Дієслова {from}–{to}",
+    "checkpointBadge": "10 вправ"
+  },
+  "verbQuizScreen": {
+    "title": "Тренування",
+    "checkpointQuizTitle": "Проміжний тест {number}",
+    "level": "Рівень",
+    "check": "Перевірити",
+    "continue": "Продовжити",
+    "exercise": "Вправа",
+    "correct": "Правильно!",
+    "tryAgain": "Спробуйте ще раз",
+    "fillCard": "Заповніть картку",
+    "tapToContinue": "Торкніться в будь-якому місці, щоб продовжити",
+    "correctAnswer": "Правильна відповідь:",
+    "conjugationPräsens": "Дієвідмінювання в Präsens",
+    "principalParts": "Основні форми (Stammformen)",
+    "imperativeForms": "Наказовий спосіб",
+    "auxiliaryExplanationMovement": "Дієслово {verb} виражає рух або зміну стану, тому в Perfekt використовується допоміжне дієслово sein ({form}).",
+    "auxiliaryExplanationGeneral": "Дієслово {verb} утворює Perfekt з допоміжним дієсловом haben ({form})."
+  },
+  "quizResultsScreen": {
+    "title": "Результати",
+    "checkpointResultsTitle": "Результати тесту",
+    "canDoBetter": "Можна краще!",
+    "almostThere": "Майже!",
+    "closeToPerfection": "Близько до ідеалу!",
+    "youDidIt": "Ви зробили це!",
+    "tryAgain": "Спробувати знову",
+    "verbsList": "До списку дієслів",
+    "scoreSummary": "{correct} з {total}"
   }
 }

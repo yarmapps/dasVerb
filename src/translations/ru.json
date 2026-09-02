@@ -13,7 +13,10 @@
     "levelsButtonTitle": "Тренируй глаголы",
     "levelsButtonSubtitle": "Изучай глаголы от A1 до B2",
     "featuredBadge": "Рекомендация",
-    "startNow": "Начать сейчас"
+    "startNow": "Начать сейчас",
+    "smartQuizBadge": "Умный режим",
+    "smartQuizTitle": "Умный алгоритм",
+    "smartQuizSubtitle": "Фокусируйтесь на своих ошибках и учитесь в 3 раза быстрее"
   },
   "dictionaryScreen": {
     "title": "Словарь",
@@ -44,8 +47,16 @@
     "themeSystem": "Системная",
     "notifications": "Уведомления",
     "soundEffects": "Звуковые эффекты",
+    "speakOnCorrectAnswer": "Произношение правильного ответа",
+    "voiceGender": "Голос",
+    "voiceFemale": "Женский",
+    "voiceMale": "Мужской",
+    "maleVoiceHint": "Чтобы использовать мужской немецкий голос, установите его в Настройки iOS → Универсальный доступ → Устный контент → Голоса → Немецкий.",
     "contactUs": "Связаться с нами",
     "version": "Версия"
+  },
+  "quizSettingsModal": {
+    "title": "Настройки теста"
   },
   "verbsPracticeListScreen": {
     "title": "Практика глаголов",
@@ -55,6 +66,53 @@
     "bronze": "Бронза",
     "silver": "Серебро",
     "trophy": "Кубок",
-    "empty": "Глаголы не найдены"
+    "empty": "Глаголы не найдены",
+    "checkpointTitle": "Промежуточный тест"
+  },
+  "verbQuizScreen": {
+    "title": "Тренировка",
+    "checkpointQuizTitle": "Промежуточный тест",
+    "smartQuizTitle": "Умный квиз",
+    "level": "Уровень",
+    "check": "Проверить",
+    "continue": "Продолжить",
+    "exercise": "Упражнение",
+    "correct": "Верно!",
+    "tryAgain": "Попробуйте снова",
+    "fillCard": "Заполните карточку",
+    "tapToContinue": "Нажмите в любом месте, чтобы продолжить",
+    "correctAnswer": "Правильный ответ:",
+    "conjugationPräsens": "Спряжение в Präsens",
+    "principalParts": "Основные формы",
+    "imperativeForms": "Повелительное наклонение",
+    "auxiliaryExplanationMovement": "Глагол {verb} выражает движение или смену состояния, поэтому в Perfekt используется вспомогательный глагол sein ({form}).",
+    "auxiliaryExplanationGeneral": "Глагол {verb} образует Perfekt со вспомогательным глаголом haben ({form})."
+  },
+  "quizResultsScreen": {
+    "title": "Результаты",
+    "checkpointResultsTitle": "Результаты теста",
+    "smartQuizResultsTitle": "Результаты умного квиза",
+    "canDoBetter": "Можно лучше!",
+    "almostThere": "Почти!",
+    "closeToPerfection": "Близко к совершенству!",
+    "youDidIt": "Вы сделали это!",
+    "nextLevel": "Следующий уровень",
+    "tryAgain": "Попробовать снова",
+    "verbsList": "К списку глаголов",
+    "backToPractice": "К практике",
+    "scoreSummary": "{correct} из {total}"
+  },
+  "dailyQuizLimitModal": {
+    "title": "Отличный прогресс!",
+    "message": "Вы действительно полны решимости выучить немецкий!",
+    "instructions": "Как вы хотите продолжить?",
+    "videoButton": "Смотреть рекламу",
+    "or": "или",
+    "premiumButtonWithTrial": "Бесплатные безлимитные уровни\nна {daysLabel}",
+    "premiumButtonNoTrial": "Купить Premium",
+    "premiumButtonSubtitleWithTrial": "потом {yearlyPrice} в год (☕️ / мес.)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} в год (☕️ / мес.)",
+    "waitUntilTomorrow": "Ждать до завтра",
+    "cancelAnytime": "Отмена в любое время"
   }
 }

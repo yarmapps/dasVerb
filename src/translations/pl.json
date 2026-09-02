@@ -55,6 +55,38 @@
     "bronze": "Brąz",
     "silver": "Srebro",
     "trophy": "Puchar",
-    "empty": "Nie znaleziono czasowników"
+    "empty": "Nie znaleziono czasowników",
+    "checkpointTitle": "{number}. Test okresowy",
+    "checkpointSubtitle": "Powtórka · Czasowniki {from}–{to}",
+    "checkpointBadge": "10 ćwiczeń"
+  },
+  "verbQuizScreen": {
+    "title": "Trening",
+    "checkpointQuizTitle": "Test okresowy {number}",
+    "level": "Poziom",
+    "check": "Sprawdź",
+    "continue": "Dalej",
+    "exercise": "Ćwiczenie",
+    "correct": "Prawidłowo!",
+    "tryAgain": "Spróbuj ponownie",
+    "fillCard": "Wypełnij kartę",
+    "tapToContinue": "Dotknij w dowolnym miejscu, aby kontynuować",
+    "correctAnswer": "Prawidłowa odpowiedź:",
+    "conjugationPräsens": "Odmiana w Präsens",
+    "principalParts": "Formy podstawowe (Stammformen)",
+    "imperativeForms": "Tryb rozkazujący",
+    "auxiliaryExplanationMovement": "Czasownik {verb} wyraża ruch lub zmianę stanu, dlatego w Perfekt łączy się z czasownikiem posiłkowym sein ({form}).",
+    "auxiliaryExplanationGeneral": "Czasownik {verb} tworzy Perfekt z czasownikiem posiłkowym haben ({form})."
+  },
+  "quizResultsScreen": {
+    "title": "Wyniki",
+    "checkpointResultsTitle": "Wyniki testu",
+    "canDoBetter": "Możesz zrobić to lepiej!",
+    "almostThere": "Prawie!",
+    "closeToPerfection": "Blisko doskonałości!",
+    "youDidIt": "Udało się!",
+    "tryAgain": "Spróbuj ponownie",
+    "verbsList": "Lista czasowników",
+    "scoreSummary": "{correct} z {total}"
   }
 }

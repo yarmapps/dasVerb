@@ -6,7 +6,7 @@ import { FontAwesome5 } from '@expo/vector-icons';
 import { useIntl } from 'react-intl';
 import { MainTabParamList } from '../types/navigation';
 import { useAppTheme } from '../context/ThemeContext';
-import { PracticeScreen } from '../screens/PracticeScreen/PracticeScreen';
+import { PracticeStackNavigator } from './PracticeStackNavigator';
 import { DictionaryScreen } from '../screens/DictionaryScreen/DictionaryScreen';
 import { createStyles } from './MainTabs.styles';
 
@@ -54,7 +54,7 @@ export function MainTabs(): React.JSX.Element {
     >
       <Tab.Screen
         name="Practice"
-        component={PracticeScreen}
+        component={PracticeStackNavigator}
         options={{
           tabBarLabel: intl.formatMessage({ id: 'navigation.practice' }),
         }}

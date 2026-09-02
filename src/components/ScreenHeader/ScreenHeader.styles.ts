@@ -7,6 +7,7 @@ export const createStyles = (colors: ThemeColors) =>
   StyleSheet.create({
     headerContainer: {
       width: '100%',
+      paddingBottom: Spacing.md,
     },
     headerContent: {
       position: 'relative',
@@ -42,13 +43,14 @@ export const createStyles = (colors: ThemeColors) =>
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'flex-end',
+      gap: Spacing.sm,
       zIndex: 2,
     },
     backButton: {
       width: 40,
       height: 40,
       borderRadius: 20,
-      backgroundColor: colors.blockBackground,
+      backgroundColor: colors.headerButtonBackground,
       justifyContent: 'center',
       alignItems: 'center',
     },
@@ -56,7 +58,7 @@ export const createStyles = (colors: ThemeColors) =>
       width: 40,
       height: 40,
       borderRadius: 20,
-      backgroundColor: colors.blockBackground,
+      backgroundColor: colors.headerButtonBackground,
       justifyContent: 'center',
       alignItems: 'center',
     },

@@ -1,6 +1,5 @@
 import React, { useMemo } from 'react';
-import { View, TouchableOpacity } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { View, TouchableOpacity, ScrollView } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -8,20 +7,35 @@ import { FontAwesome5 } from '@expo/vector-icons';
 import { useIntl } from 'react-intl';
 import { useAppTheme } from '../../context/ThemeContext';
 import { ScreenHeader } from '../../components/ScreenHeader/ScreenHeader';
+import { ScreenBackground } from '../../components/ScreenBackground/ScreenBackground';
 import { FeaturedStartCard } from '../../components/FeaturedStartCard/FeaturedStartCard';
-import { RootStackParamList } from '../../types/navigation';
+import { SmartQuizCard } from '../../components/SmartQuizCard/SmartQuizCard';
+import { soundService } from '../../services/soundService';
+import { useNavigateToQuiz } from '../../hooks/useNavigateToQuiz';
+import { RootStackParamList, PracticeStackParamList } from '../../types/navigation';
 import { createStyles } from './PracticeScreen.styles';
 
-type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
+type NavigationProp = NativeStackNavigationProp<PracticeStackParamList & RootStackParamList>;
 
 export function PracticeScreen(): React.JSX.Element {
   const intl = useIntl();
   const navigation = useNavigation<NavigationProp>();
   const { colors, isDark } = useAppTheme();
   const styles = useMemo(() => createStyles(colors), [colors]);
+  const { navigateToQuiz, dailyQuizLimitModalUI } = useNavigateToQuiz(navigation);
+
+  const handleStartStandard = () => {
+    soundService.playTapSound();
+    navigation.navigate('VerbsPracticeList');
+  };
+
+  const handleStartSmartQuiz = () => {
+    soundService.playTapSound();
+    navigateToQuiz({ isSmartQuiz: true });
+  };
 
   return (
-    <SafeAreaView style={styles.container} edges={['left', 'right']}>
+    <ScreenBackground>
       <StatusBar style={isDark ? 'light' : 'dark'} />
       <ScreenHeader
         title={intl.formatMessage({ id: 'practiceScreen.title' })}
@@ -38,9 +52,18 @@ export function PracticeScreen(): React.JSX.Element {
         }
       />
       <View style={styles.content}>
-        {/* Featured Practice Card (derArtikel style) as first element */}
-        <FeaturedStartCard onPress={() => navigation.navigate('VerbsPracticeList')} />
+        <ScrollView
+          contentContainerStyle={styles.scrollContent}
+          showsVerticalScrollIndicator={false}
+        >
+          {/* Standard Course Path */}
+          <FeaturedStartCard onPress={handleStartStandard} />
+
+          {/* Smart Quiz Mode (derArtikel style) */}
+          <SmartQuizCard onPress={handleStartSmartQuiz} />
+        </ScrollView>
       </View>
-    </SafeAreaView>
+      {dailyQuizLimitModalUI}
+    </ScreenBackground>
   );
 }

@@ -1,6 +1,5 @@
 import React, { useState, useMemo } from 'react';
 import { View, Text, TouchableOpacity, ScrollView } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import * as Haptics from 'expo-haptics';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
@@ -9,6 +8,7 @@ import { useIntl } from 'react-intl';
 import { SupportedLocales, LANGUAGES } from '../../types/intl';
 import { getMessages } from '../../services/intlService';
 import { ScreenHeader } from '../../components/ScreenHeader/ScreenHeader';
+import { ScreenBackground } from '../../components/ScreenBackground/ScreenBackground';
 import { useAppTheme } from '../../context/ThemeContext';
 import { useLocale } from '../../context/LocaleContext';
 import { RootStackParamList } from '../../types/navigation';
@@ -86,7 +86,7 @@ export function LanguageSelectorScreen(): React.JSX.Element {
   };
 
   return (
-    <SafeAreaView style={styles.wrapper} edges={['left', 'right', 'bottom']}>
+    <ScreenBackground>
       <StatusBar style={isDark ? 'light' : 'dark'} />
 
       <View testID="language-selector-screen">
@@ -94,6 +94,7 @@ export function LanguageSelectorScreen(): React.JSX.Element {
           title={screenTitle}
           showBackButton={isSettingsMode}
           onBackPress={() => navigation.goBack()}
+          showStreak={false}
         />
       </View>
 
@@ -140,6 +141,6 @@ export function LanguageSelectorScreen(): React.JSX.Element {
           </TouchableOpacity>
         </View>
       </View>
-    </SafeAreaView>
+    </ScreenBackground>
   );
 }

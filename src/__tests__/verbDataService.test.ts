@@ -7,6 +7,7 @@ describe('verbDataService', () => {
       infinitive: 'anrufen',
       infinitive_lower: 'anrufen',
       level: 'A1',
+      frequency_rank: 120,
       auxiliary: 'haben',
       morphology: JSON.stringify({
         verb_class: 'strong',
@@ -61,6 +62,7 @@ describe('verbDataService', () => {
     expect(verb.id).toBe('anrufen');
     expect(verb.infinitive).toBe('anrufen');
     expect(verb.level).toBe('A1');
+    expect(verb.frequency_rank).toBe(120);
     expect(verb.auxiliary).toBe('haben');
     expect(verb.morphology.prefix).toBe('an');
     expect(verb.principal_parts.present_3sg).toBe('ruft an');

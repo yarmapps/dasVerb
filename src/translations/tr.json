@@ -55,6 +55,38 @@
     "bronze": "Bronz",
     "silver": "Gümüş",
     "trophy": "Kupa",
-    "empty": "Fiil bulunamadı"
+    "empty": "Fiil bulunamadı",
+    "checkpointTitle": "{number}. Ara Test",
+    "checkpointSubtitle": "Tekrar · Fiiller {from}–{to}",
+    "checkpointBadge": "10 alıştırma"
+  },
+  "verbQuizScreen": {
+    "title": "Alıştırma",
+    "checkpointQuizTitle": "Ara Test {number}",
+    "level": "Seviye",
+    "check": "Kontrol et",
+    "continue": "Devam et",
+    "exercise": "Egzersiz",
+    "correct": "Doğru!",
+    "tryAgain": "Tekrar deneyin",
+    "fillCard": "Kartı doldurun",
+    "tapToContinue": "Devam etmek için herhangi bir yere dokunun",
+    "correctAnswer": "Doğru cevap:",
+    "conjugationPräsens": "Präsens Çekimi",
+    "principalParts": "Temel Formlar (Stammformen)",
+    "imperativeForms": "Emir Kipi",
+    "auxiliaryExplanationMovement": "{verb} fiili hareket veya durum değişikliği bildirdiği için Perfekt zamanını sein ({form}) yardımcı fiiliyle oluşturur.",
+    "auxiliaryExplanationGeneral": "{verb} fiili Perfekt zamanını haben ({form}) yardımcı fiiliyle oluşturur."
+  },
+  "quizResultsScreen": {
+    "title": "Sonuçlar",
+    "checkpointResultsTitle": "Test Sonuçları",
+    "canDoBetter": "Daha iyisini yapabilirsin!",
+    "almostThere": "Neredeyse!",
+    "closeToPerfection": "Mükemmele çok yakın!",
+    "youDidIt": "Başardın!",
+    "tryAgain": "Tekrar dene",
+    "verbsList": "Fiil listesi",
+    "scoreSummary": "{correct} / {total}"
   }
 }

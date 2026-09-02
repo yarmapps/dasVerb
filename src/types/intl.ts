@@ -27,6 +27,9 @@ export interface Translation {
     levelsButtonTitle: string;
     levelsButtonSubtitle: string;
     startNow: string;
+    smartQuizBadge?: string;
+    smartQuizTitle?: string;
+    smartQuizSubtitle?: string;
   };
   verbsPracticeListScreen: {
     title: string;
@@ -37,6 +40,46 @@ export interface Translation {
     silver: string;
     trophy: string;
     empty: string;
+  };
+  verbQuizScreen: {
+    title: string;
+    checkpointQuizTitle?: string;
+    smartQuizTitle?: string;
+    level: string;
+    fillCard: string;
+    check: string;
+    continue: string;
+    exercise: string;
+    correct: string;
+    tryAgain: string;
+    tapToContinue: string;
+  };
+  quizResultsScreen?: {
+    title: string;
+    checkpointResultsTitle?: string;
+    smartQuizResultsTitle?: string;
+    canDoBetter?: string;
+    almostThere?: string;
+    closeToPerfection?: string;
+    youDidIt?: string;
+    nextLevel?: string;
+    tryAgain?: string;
+    verbsList?: string;
+    backToPractice?: string;
+    scoreSummary?: string;
+  };
+  dailyQuizLimitModal?: {
+    title: string;
+    message: string;
+    instructions: string;
+    videoButton: string;
+    or: string;
+    premiumButtonWithTrial: string;
+    premiumButtonNoTrial: string;
+    premiumButtonSubtitleWithTrial: string;
+    premiumButtonSubtitleNoTrial: string;
+    waitUntilTomorrow: string;
+    cancelAnytime: string;
   };
   dictionaryScreen: {
     title: string;
@@ -67,8 +110,16 @@ export interface Translation {
     themeSystem: string;
     notifications: string;
     soundEffects: string;
+    speakOnCorrectAnswer: string;
+    voiceGender: string;
+    voiceFemale: string;
+    voiceMale: string;
+    maleVoiceHint: string;
     contactUs: string;
     version: string;
+  };
+  quizSettingsModal: {
+    title: string;
   };
 }
 

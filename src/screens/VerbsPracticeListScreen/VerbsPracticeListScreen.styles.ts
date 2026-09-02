@@ -21,7 +21,7 @@ export const createStyles = (colors: ThemeColors) =>
       marginBottom: Spacing.md,
     },
     levelSectionFirst: {
-      marginTop: Spacing.sm,
+      marginTop: Spacing.xs,
     },
     levelSectionBadge: {
       paddingHorizontal: Spacing.md,
@@ -40,12 +40,6 @@ export const createStyles = (colors: ThemeColors) =>
       flex: 1,
       height: 1,
       backgroundColor: colors.blockBorder,
-    },
-    levelCountText: {
-      fontSize: Typography.fontSize.xs,
-      color: colors.textMuted,
-      marginLeft: Spacing.md,
-      fontWeight: '500',
     },
     verbCard: {
       flexDirection: 'row',
@@ -80,8 +74,8 @@ export const createStyles = (colors: ThemeColors) =>
       borderColor: '#94A3B8',
     },
     statusBadgeTrophy: {
-      backgroundColor: '#F59E0B18',
-      borderColor: '#F59E0B',
+      backgroundColor: '#FFD70020',
+      borderColor: '#FFD700',
     },
     levelIndexText: {
       fontSize: Typography.fontSize.sm,
@@ -109,15 +103,32 @@ export const createStyles = (colors: ThemeColors) =>
       alignItems: 'center',
       marginLeft: Spacing.xs,
     },
-    scoreText: {
-      fontSize: Typography.fontSize.xs,
+    checkpointCard: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      backgroundColor: `${colors.primary}10`,
+      borderRadius: 16,
+      paddingVertical: Spacing.lg,
+      paddingHorizontal: Spacing.lg,
+      marginBottom: Spacing.md,
+      marginTop: Spacing.xs,
+      minHeight: 72,
+      borderWidth: 1.5,
+      borderColor: `${colors.primary}40`,
+    },
+    checkpointStatusBadgeUncompleted: {
+      backgroundColor: `${colors.primary}0D`,
+      borderColor: colors.primary,
+      borderStyle: 'dashed',
+    },
+    checkpointInfo: {
+      flex: 1,
+      justifyContent: 'center',
+      marginRight: Spacing.sm,
+    },
+    checkpointTitle: {
+      fontSize: Typography.fontSize.md,
       fontWeight: '700',
-      marginRight: Spacing.xs,
-    },
-    scoreTextTrophy: {
-      color: '#F59E0B',
-    },
-    scoreTextDefault: {
       color: colors.primary,
     },
     emptyContainer: {

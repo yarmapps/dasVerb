@@ -3,17 +3,23 @@ import { render, fireEvent, waitFor } from '@testing-library/react-native';
 import { PracticeScreen } from '../screens/PracticeScreen/PracticeScreen';
 import { VerbsPracticeListScreen } from '../screens/VerbsPracticeListScreen/VerbsPracticeListScreen';
 import { DictionaryScreen } from '../screens/DictionaryScreen/DictionaryScreen';
+import { VerbQuizScreen } from '../screens/VerbQuizScreen/VerbQuizScreen';
+import { QuizResultsScreen } from '../screens/QuizResultsScreen/QuizResultsScreen';
 import { SettingsScreen } from '../screens/SettingsScreen/SettingsScreen';
 import { LanguageSelectorScreen } from '../screens/LanguageSelectorScreen/LanguageSelectorScreen';
 import { ThemeProvider } from '../context/ThemeContext';
 import { LocaleProvider } from '../context/LocaleContext';
 import { verbDataService } from '../services/verbDataService';
 import { progressService } from '../services/progressService';
+import { resetDailyQuizLimits } from '../services/usageService';
+import { quizGeneratorService, QuizExercise } from '../services/quizGeneratorService';
 import { VerbCard } from '../../docs/verb.types';
 
 const mockNavigate = jest.fn();
 const mockGoBack = jest.fn();
 const mockReset = jest.fn();
+const mockReplace = jest.fn();
+let mockRouteParams: Record<string, unknown> = {};
 
 jest.mock('@react-navigation/native', () => {
   const actualNav = jest.requireActual('@react-navigation/native');
@@ -23,18 +29,170 @@ jest.mock('@react-navigation/native', () => {
       navigate: mockNavigate,
       goBack: mockGoBack,
       reset: mockReset,
+      replace: mockReplace,
+      canGoBack: () => true,
     }),
     useRoute: () => ({
-      params: {},
+      params: mockRouteParams,
     }),
+    useFocusEffect: (callback: () => void) => {
+      // eslint-disable-next-line @typescript-eslint/no-require-imports
+      const reactModule = require('react');
+      reactModule.useEffect(() => {
+        const cleanup = callback();
+        return typeof cleanup === 'function' ? cleanup : undefined;
+      }, []);
+    },
   };
 });
 
 const mockVerbs: VerbCard[] = [
   {
+    id: 'anrufen',
+    infinitive: 'anrufen',
+    level: 'A1',
+    frequency_rank: 120,
+    auxiliary: 'haben',
+    morphology: {
+      verb_class: 'strong',
+      prefix_type: 'separable',
+      prefix: 'an',
+      is_reflexive: false,
+      reflexive_case: null,
+    },
+    principal_parts: {
+      infinitive: 'anrufen',
+      present_3sg: 'ruft an',
+      praeteritum_3sg: 'rief an',
+      partizip_2: 'angerufen',
+    },
+    conjugation: {
+      present: {
+        ich: 'rufe an',
+        du: 'rufst an',
+        er_sie_es: 'ruft an',
+        wir: 'rufen an',
+        ihr: 'ruft an',
+        sie_Sie: 'rufen an',
+        root_vowel_change: null,
+      },
+      praeteritum: {
+        ich: 'rief an',
+        du: 'riefst an',
+        er_sie_es: 'rief an',
+        wir: 'riefen an',
+        ihr: 'rieft an',
+        sie_Sie: 'riefen an',
+      },
+      imperative: {
+        du: 'ruf an!',
+        ihr: 'ruft an!',
+        Sie: 'rufen Sie an!',
+      },
+    },
+    rektion: {
+      requires_object: true,
+      direct_case: 'Akkusativ',
+      preposition: null,
+      preposition_case: null,
+    },
+    sentences: [
+      {
+        id: 's1',
+        tense: 'Präsens',
+        german: 'Ich rufe dich heute Abend an',
+        translation: {
+          ru: 'Я позвоню тебе сегодня вечером',
+          en: 'I will call you this evening',
+        },
+        bracket_parts: ['rufe', 'an'],
+        akkusativ_parts: ['dich'],
+      },
+      {
+        id: 's2',
+        tense: 'Präsens',
+        german: 'Rufst du morgen den Arzt an?',
+        translation: {
+          ru: 'Ты позвонишь завтра врачу?',
+          en: 'Will you call the doctor tomorrow?',
+        },
+        bracket_parts: ['Rufst', 'an'],
+        akkusativ_parts: ['den Arzt'],
+      },
+      {
+        id: 's3',
+        tense: 'Präsens',
+        german: 'Er ruft seine Schwester an',
+        translation: {
+          ru: 'Он звонит своей сестре',
+          en: 'He is calling his sister',
+        },
+        bracket_parts: ['ruft', 'an'],
+        akkusativ_parts: ['seine Schwester'],
+      },
+      {
+        id: 's4',
+        tense: 'Präsens',
+        german: 'Wir rufen später unsere Kollegen an',
+        translation: {
+          ru: 'Мы позже позвоним нашим коллегам',
+          en: 'We will call our colleagues later',
+        },
+        bracket_parts: ['rufen', 'an'],
+        akkusativ_parts: ['unsere Kollegen'],
+      },
+      {
+        id: 's5',
+        tense: 'Präsens',
+        german: 'Ruft ihr heute eure Eltern an?',
+        translation: {
+          ru: 'Вы позвоните сегодня вашим родителям?',
+          en: 'Are you calling your parents today?',
+        },
+        bracket_parts: ['Ruft', 'an'],
+        akkusativ_parts: ['eure Eltern'],
+      },
+      {
+        id: 's6',
+        tense: 'Präteritum',
+        german: 'Gestern rief sie mich überraschend an',
+        translation: {
+          ru: 'Вчера она неожиданно позвонила мне',
+          en: 'Yesterday she called me unexpectedly',
+        },
+        bracket_parts: ['rief', 'an'],
+        akkusativ_parts: ['mich'],
+      },
+      {
+        id: 's7',
+        tense: 'Perfekt',
+        german: 'Sie haben uns gestern nicht angerufen',
+        translation: {
+          ru: 'Они вчера нам не позвонили',
+          en: 'They did not call us yesterday',
+        },
+        bracket_parts: ['haben', 'angerufen'],
+        akkusativ_parts: ['uns'],
+      },
+      {
+        id: 's8',
+        tense: 'Imperativ',
+        german: 'Ruf mich bitte morgen an!',
+        translation: {
+          ru: 'Позвони мне, пожалуйста, завтра!',
+          en: 'Please call me tomorrow!',
+        },
+        bracket_parts: ['Ruf', 'an'],
+        akkusativ_parts: ['mich'],
+      },
+    ],
+    translation: { ru: 'звонить', en: 'to call' },
+  },
+  {
     id: 'fahren_dat_mit',
     infinitive: 'fahren',
     level: 'A1',
+    frequency_rank: 33,
     auxiliary: 'sein',
     morphology: {
       verb_class: 'strong',
@@ -73,6 +231,7 @@ const mockVerbs: VerbCard[] = [
     id: 'fahren_akk_in',
     infinitive: 'fahren',
     level: 'A1',
+    frequency_rank: 33,
     auxiliary: 'sein',
     morphology: {
       verb_class: 'strong',
@@ -111,6 +270,7 @@ const mockVerbs: VerbCard[] = [
     id: 'haengen_akk',
     infinitive: 'hängen',
     level: 'A2',
+    frequency_rank: 98,
     auxiliary: 'haben',
     morphology: {
       verb_class: 'weak',
@@ -156,6 +316,13 @@ const ScreenWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) =>
 describe('Screens Integration Suite', () => {
   beforeEach(() => {
     jest.clearAllMocks();
+    jest.spyOn(verbDataService, 'getAllVerbs').mockResolvedValue(mockVerbs);
+    jest.spyOn(verbDataService, 'getVerbsOrderedByDifficulty').mockResolvedValue(mockVerbs);
+    jest
+      .spyOn(verbDataService, 'getVerbsByInfinitive')
+      .mockImplementation(async (infinitive: string) =>
+        mockVerbs.filter(v => v.infinitive.toLowerCase() === infinitive.toLowerCase()),
+      );
   });
 
   describe('PracticeScreen', () => {
@@ -168,6 +335,7 @@ describe('Screens Integration Suite', () => {
 
       expect(getByText('Практика')).toBeTruthy();
       expect(getByText('Тренируй глаголы')).toBeTruthy();
+      expect(getByText('Умный алгоритм')).toBeTruthy();
 
       const settingsBtn = getByTestId('settings-button');
       fireEvent.press(settingsBtn);
@@ -176,12 +344,15 @@ describe('Screens Integration Suite', () => {
       const featuredCard = getByTestId('featured-practice-card');
       fireEvent.press(featuredCard);
       expect(mockNavigate).toHaveBeenCalledWith('VerbsPracticeList');
+
+      const smartCard = getByTestId('smart-quiz-card');
+      fireEvent.press(smartCard);
+      expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', { isSmartQuiz: true });
     });
   });
 
   describe('VerbsPracticeListScreen', () => {
     it('should group verbs by level, deduplicate infinitives and render clean cards', async () => {
-      jest.spyOn(verbDataService, 'getVerbsOrderedByDifficulty').mockResolvedValue(mockVerbs);
       jest.spyOn(progressService, 'getVerbProgress').mockReturnValue({
         score: 100,
         status: 'trophy',
@@ -202,6 +373,285 @@ describe('Screens Integration Suite', () => {
         expect(getByText('hängen')).toBeTruthy();
         expect(getByText('to hang')).toBeTruthy();
         expect(getByTestId('verb-practice-level-fahren')).toBeTruthy();
+      });
+
+      const fahrenCard = getByTestId('verb-practice-level-fahren');
+      fireEvent.press(fahrenCard);
+      expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
+        infinitive: 'fahren',
+        level: 'A1',
+      });
+
+      const backButton = getByTestId('header-back-button');
+      fireEvent.press(backButton);
+      expect(mockGoBack).toHaveBeenCalled();
+    });
+
+    it('should render checkpoint card after 10 verbs and navigate to checkpoint quiz', async () => {
+      const tenVerbs: VerbCard[] = Array.from({ length: 10 }, (_, i) => ({
+        ...mockVerbs[0],
+        id: `verb_${i + 1}`,
+        infinitive: `verb${i + 1}`,
+        level: 'A1',
+      }));
+
+      jest.spyOn(verbDataService, 'getVerbsOrderedByDifficulty').mockResolvedValue(tenVerbs);
+
+      const { getByTestId, getByText } = render(
+        <ScreenWrapper>
+          <VerbsPracticeListScreen />
+        </ScreenWrapper>,
+      );
+
+      await waitFor(() => {
+        expect(getByTestId('checkpoint-card-1')).toBeTruthy();
+        expect(getByText('Промежуточный тест')).toBeTruthy();
+      });
+
+      const checkpointCard = getByTestId('checkpoint-card-1');
+      fireEvent.press(checkpointCard);
+      expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
+        isCheckpoint: true,
+        checkpointId: 'checkpoint-1',
+        checkpointNumber: 1,
+        fromIndex: 1,
+        toIndex: 10,
+        infinitives: tenVerbs.map(v => v.infinitive),
+        level: 'A1',
+      });
+    });
+  });
+
+  describe('VerbQuizScreen', () => {
+    const testExercises: QuizExercise[] = [
+      {
+        id: 'ex1',
+        label: 'A1 · ANRUFEN · PRÄSENS',
+        tense: 'Präsens',
+        verbCard: mockVerbs[0],
+        sentence: mockVerbs[0].sentences[0],
+        segments: [
+          { text: 'Ich' },
+          { gapIndex: 0 },
+          { text: 'dich' },
+          { text: 'heute' },
+          { text: 'Abend' },
+          { gapIndex: 1 },
+        ],
+        gaps: [
+          {
+            id: 'gap_0',
+            correctValue: 'rufe',
+            options: ['rufe', 'rufst', 'ruft', 'anrufen'],
+          },
+          {
+            id: 'gap_1',
+            correctValue: 'an',
+            options: ['an', 'auf', 'aus', 'ein'],
+          },
+        ],
+        translation: {
+          ru: 'Я позвоню тебе сегодня вечером',
+          en: 'I will call you this evening',
+        },
+      },
+      {
+        id: 'ex2',
+        label: 'A1 · ANRUFEN · PERFEKT',
+        tense: 'Perfekt',
+        verbCard: mockVerbs[0],
+        sentence: mockVerbs[0].sentences[6],
+        segments: [
+          { text: 'Sie' },
+          { gapIndex: 0 },
+          { text: 'uns' },
+          { text: 'gestern' },
+          { text: 'nicht' },
+          { gapIndex: 1 },
+        ],
+        gaps: [
+          {
+            id: 'gap_0',
+            correctValue: 'haben',
+            options: ['haben', 'sind', 'hat', 'seid'],
+          },
+          {
+            id: 'gap_1',
+            correctValue: 'angerufen',
+            options: ['angerufen', 'angeruft', 'gerufen', 'geruft'],
+          },
+        ],
+        translation: {
+          ru: 'Они вчера нам не позвонили',
+          en: 'They did not call us yesterday',
+        },
+      },
+    ];
+
+    beforeEach(() => {
+      jest.spyOn(quizGeneratorService, 'generateExercisesForVerb').mockReturnValue(testExercises);
+    });
+
+    it('should render quiz header, counter, sentence with gap and option buttons', async () => {
+      const { getByTestId, getByText } = render(
+        <ScreenWrapper>
+          <VerbQuizScreen />
+        </ScreenWrapper>,
+      );
+
+      await waitFor(() => {
+        expect(getByText('Тренировка')).toBeTruthy();
+        expect(getByText('Заполните карточку')).toBeTruthy();
+        expect(getByTestId('quiz-progress-counter')).toBeTruthy();
+        expect(getByTestId('quiz-sentence-card')).toBeTruthy();
+        expect(getByTestId('gap-slot-0')).toBeTruthy();
+        expect(getByTestId('option-button-rufe')).toBeTruthy();
+      });
+    });
+
+    it('should fill first gap on option click and advance to second gap', async () => {
+      const { getByTestId, getByText } = render(
+        <ScreenWrapper>
+          <VerbQuizScreen />
+        </ScreenWrapper>,
+      );
+
+      await waitFor(() => {
+        expect(getByTestId('option-button-rufe')).toBeTruthy();
+      });
+
+      // Select 1st gap option
+      const rufeOption = getByTestId('option-button-rufe');
+      fireEvent.press(rufeOption);
+
+      await waitFor(() => {
+        expect(getByText('rufe')).toBeTruthy();
+        expect(getByTestId('option-button-an')).toBeTruthy();
+      });
+
+      // Select 2nd gap option (correct)
+      const anOption = getByTestId('option-button-an');
+      fireEvent.press(anOption);
+
+      // Buttons are hidden after answering
+      await waitFor(() => {
+        expect(getByText('Нажмите в любом месте, чтобы продолжить')).toBeTruthy();
+      });
+
+      // Tapping anywhere advances immediately
+      const pressable = getByTestId('quiz-content-pressable');
+      fireEvent.press(pressable);
+
+      await waitFor(() => {
+        expect(getByText(/2\/\d+/)).toBeTruthy();
+      });
+    });
+
+    it('should show incorrect state and advance to next question on screen tap without repeating', async () => {
+      const { getByTestId, getByText, getAllByTestId } = render(
+        <ScreenWrapper>
+          <VerbQuizScreen />
+        </ScreenWrapper>,
+      );
+
+      await waitFor(() => {
+        expect(getByTestId('option-button-rufe')).toBeTruthy();
+      });
+
+      // Select 1st gap option (correct: rufe)
+      fireEvent.press(getByTestId('option-button-rufe'));
+
+      // Wait for 2nd gap options
+      await waitFor(() => {
+        expect(getByTestId('option-button-an')).toBeTruthy();
+      });
+
+      // Select 2nd gap wrong option (any option that is not 'an')
+      const optionButtons = getAllByTestId(/^option-button-/);
+      const wrongOptionButton = optionButtons.find(btn => !btn.props.testID?.endsWith('-an'));
+      if (wrongOptionButton) {
+        fireEvent.press(wrongOptionButton);
+      }
+
+      // Shows tap to continue, correct answer block, and conjugation hint table
+      await waitFor(() => {
+        expect(getByTestId('quiz-correct-answer-card')).toBeTruthy();
+        expect(getByText('Правильный ответ:')).toBeTruthy();
+        expect(getByTestId('conjugation-hint-table')).toBeTruthy();
+        expect(getByText('Спряжение в Präsens')).toBeTruthy();
+        expect(getByText('Нажмите в любом месте, чтобы продолжить')).toBeTruthy();
+      });
+
+      // Tap anywhere on screen to advance to next question
+      fireEvent.press(getByTestId('quiz-content-pressable'));
+
+      await waitFor(() => {
+        expect(getByText(/2\/\d+/)).toBeTruthy();
+      });
+    });
+
+    it('should show both auxiliary hint and principal parts hint when both Perfekt gaps are failed', async () => {
+      mockRouteParams = { infinitive: 'anrufen', level: 'A1' };
+
+      const { getByText, getByTestId } = render(
+        <ScreenWrapper>
+          <VerbQuizScreen />
+        </ScreenWrapper>,
+      );
+
+      await waitFor(() => {
+        expect(getByTestId('option-button-rufe')).toBeTruthy();
+      });
+
+      // Question 1: rufe + an
+      fireEvent.press(getByTestId('option-button-rufe'));
+      await waitFor(() => {
+        expect(getByTestId('option-button-an')).toBeTruthy();
+      });
+      fireEvent.press(getByTestId('option-button-an'));
+
+      await waitFor(() => {
+        expect(getByTestId('quiz-content-pressable')).toBeTruthy();
+      });
+      fireEvent.press(getByTestId('quiz-content-pressable'));
+
+      // Question 2 (Perfekt): Fail gap 0 (auxiliary) and gap 1 (participle)
+      await waitFor(() => {
+        expect(getByTestId('option-button-sind')).toBeTruthy();
+      });
+      fireEvent.press(getByTestId('option-button-sind'));
+
+      await waitFor(() => {
+        expect(getByTestId('option-button-gerufen')).toBeTruthy();
+      });
+      fireEvent.press(getByTestId('option-button-gerufen'));
+
+      // Both hints should be displayed simultaneously
+      await waitFor(() => {
+        expect(getByTestId('perfekt-hints-container')).toBeTruthy();
+        expect(getByTestId('auxiliary-hint-card')).toBeTruthy();
+        expect(getByText('Perfekt · haben')).toBeTruthy();
+        expect(getByTestId('principal-parts-hint-table')).toBeTruthy();
+        expect(getByText('Основные формы')).toBeTruthy();
+      });
+    });
+
+    it('should open QuizSettingsModal when tapping the gear icon on the sentence card', async () => {
+      const { getByTestId, getByText } = render(
+        <ScreenWrapper>
+          <VerbQuizScreen />
+        </ScreenWrapper>,
+      );
+
+      await waitFor(() => {
+        expect(getByTestId('quiz-settings-button')).toBeTruthy();
+      });
+
+      fireEvent.press(getByTestId('quiz-settings-button'));
+
+      await waitFor(() => {
+        expect(getByText('Настройки теста')).toBeTruthy();
+        expect(getByText('Произношение правильного ответа')).toBeTruthy();
       });
     });
   });
@@ -251,7 +701,7 @@ describe('Screens Integration Suite', () => {
   describe('DictionaryScreen', () => {
     it('should render dictionary list, handle search input and toggle card expansion', async () => {
       jest.spyOn(verbDataService, 'getAllVerbs').mockResolvedValue(mockVerbs);
-      jest.spyOn(verbDataService, 'searchVerbs').mockResolvedValue([mockVerbs[0]]);
+      jest.spyOn(verbDataService, 'searchVerbs').mockResolvedValue(mockVerbs);
 
       const { getByPlaceholderText, getByText, getAllByText, getByTestId } = render(
         <ScreenWrapper>
@@ -264,11 +714,11 @@ describe('Screens Integration Suite', () => {
       expect(searchInput).toBeTruthy();
 
       await waitFor(() => {
-        expect(getByTestId('verb-item-fahren_dat_mit')).toBeTruthy();
+        expect(getByTestId('verb-item-anrufen')).toBeTruthy();
       });
 
       // Toggle expand on first card
-      const cardHeader = getByTestId('verb-item-fahren_dat_mit');
+      const cardHeader = getByTestId('verb-item-anrufen');
       fireEvent.press(cardHeader);
 
       await waitFor(() => {
@@ -279,6 +729,179 @@ describe('Screens Integration Suite', () => {
       fireEvent.changeText(searchInput, 'fahren');
       await waitFor(() => {
         expect(getAllByText('fahren').length).toBeGreaterThan(0);
+      });
+    });
+  });
+
+  describe('QuizResultsScreen', () => {
+    beforeEach(() => {
+      resetDailyQuizLimits();
+      jest.clearAllMocks();
+    });
+
+    it('should render trophy and victory message for 6/6 correct answers', () => {
+      mockRouteParams = {
+        infinitive: 'anrufen',
+        level: 'A1',
+        results: Array.from({ length: 6 }, (_, i) => ({
+          sentenceGerman: `Satz ${i + 1}`,
+          isCorrect: true,
+          userAnswers: ['anrufen'],
+          correctAnswers: ['anrufen'],
+          translation: { ru: `Предложение ${i + 1}` },
+        })),
+      };
+
+      const { getByText, getByTestId } = render(
+        <ScreenWrapper>
+          <QuizResultsScreen />
+        </ScreenWrapper>,
+      );
+
+      expect(getByText('Результаты')).toBeTruthy();
+      expect(getByText('Вы сделали это!')).toBeTruthy();
+      expect(getByText('6 из 6')).toBeTruthy();
+      expect(getByTestId('next-level-button')).toBeTruthy();
+      expect(getByTestId('try-again-button')).toBeTruthy();
+      expect(getByTestId('header-back-button')).toBeTruthy();
+
+      fireEvent.press(getByTestId('header-back-button'));
+      expect(mockNavigate).toHaveBeenCalledWith('MainTabs', {
+        screen: 'Practice',
+        params: { screen: 'VerbsPracticeList' },
+      });
+    });
+
+    it('should render silver medal and next level as primary button for 5/6 correct answers', () => {
+      mockRouteParams = {
+        infinitive: 'anrufen',
+        level: 'A1',
+        results: [
+          ...Array.from({ length: 5 }, (_, i) => ({
+            sentenceGerman: `Satz ${i + 1}`,
+            isCorrect: true,
+            userAnswers: ['anrufen'],
+            correctAnswers: ['anrufen'],
+            translation: { ru: `Предложение ${i + 1}` },
+          })),
+          {
+            sentenceGerman: 'Satz 6',
+            isCorrect: false,
+            userAnswers: ['angerufen'],
+            correctAnswers: ['anrufen'],
+            translation: { ru: 'Предложение 6' },
+          },
+        ],
+      };
+
+      const { getByText, getByTestId } = render(
+        <ScreenWrapper>
+          <QuizResultsScreen />
+        </ScreenWrapper>,
+      );
+
+      expect(getByText('Близко к совершенству!')).toBeTruthy();
+      expect(getByText('5 из 6')).toBeTruthy();
+      expect(getByTestId('next-level-button')).toBeTruthy();
+      expect(getByTestId('try-again-button')).toBeTruthy();
+
+      fireEvent.press(getByTestId('try-again-button'));
+      expect(mockReplace).toHaveBeenCalledWith('VerbQuiz', { infinitive: 'anrufen', level: 'A1' });
+    });
+
+    it('should render uncompleted state with try again as primary and next level as secondary for low score (<4/6)', () => {
+      mockRouteParams = {
+        infinitive: 'anrufen',
+        level: 'A1',
+        results: [
+          {
+            sentenceGerman: 'Satz 1',
+            isCorrect: true,
+            userAnswers: ['anrufen'],
+            correctAnswers: ['anrufen'],
+            translation: { ru: 'Предложение 1' },
+          },
+          ...Array.from({ length: 5 }, (_, i) => ({
+            sentenceGerman: `Satz ${i + 2}`,
+            isCorrect: false,
+            userAnswers: ['falsch'],
+            correctAnswers: ['richtig'],
+            translation: { ru: `Предложение ${i + 2}` },
+          })),
+        ],
+      };
+
+      const { getByText, getByTestId } = render(
+        <ScreenWrapper>
+          <QuizResultsScreen />
+        </ScreenWrapper>,
+      );
+
+      expect(getByText('Можно лучше!')).toBeTruthy();
+      expect(getByText('1 из 6')).toBeTruthy();
+      expect(getByTestId('try-again-button')).toBeTruthy();
+      expect(getByTestId('next-level-button')).toBeTruthy();
+    });
+
+    it('should handle checkpoint quiz results and save checkpoint progress', () => {
+      const setCheckpointProgressSpy = jest.spyOn(progressService, 'setCheckpointProgress');
+
+      mockRouteParams = {
+        isCheckpoint: true,
+        checkpointId: 'checkpoint-1',
+        checkpointNumber: 1,
+        fromIndex: 1,
+        toIndex: 10,
+        results: Array.from({ length: 20 }, (_, i) => ({
+          sentenceGerman: `Checkpoint Satz ${i + 1}`,
+          isCorrect: i < 16,
+          userAnswers: ['anrufen'],
+          correctAnswers: ['anrufen'],
+          translation: { ru: `Предложение ${i + 1}` },
+        })),
+      };
+
+      const { getByText } = render(
+        <ScreenWrapper>
+          <QuizResultsScreen />
+        </ScreenWrapper>,
+      );
+
+      expect(getByText('Результаты теста')).toBeTruthy();
+      expect(getByText('16 из 20')).toBeTruthy();
+      expect(setCheckpointProgressSpy).toHaveBeenCalledWith('checkpoint-1', 80);
+    });
+
+    it('should handle smart quiz results and navigate back to practice', () => {
+      mockRouteParams = {
+        isSmartQuiz: true,
+        results: Array.from({ length: 50 }, (_, i) => ({
+          sentenceGerman: `Smart Satz ${i + 1}`,
+          isCorrect: i < 45,
+          userAnswers: ['lernen'],
+          correctAnswers: ['lernen'],
+          translation: { ru: `Предложение ${i + 1}` },
+        })),
+      };
+
+      const { getByText, getByTestId } = render(
+        <ScreenWrapper>
+          <QuizResultsScreen />
+        </ScreenWrapper>,
+      );
+
+      expect(getByText('Результаты умного квиза')).toBeTruthy();
+      expect(getByText('45 из 50')).toBeTruthy();
+      expect(getByTestId('try-again-button')).toBeTruthy();
+      expect(getByTestId('back-to-practice-button')).toBeTruthy();
+
+      fireEvent.press(getByTestId('try-again-button'));
+      expect(mockReplace).toHaveBeenCalledWith('VerbQuiz', { isSmartQuiz: true });
+
+      fireEvent.press(getByTestId('back-to-practice-button'));
+      expect(mockNavigate).toHaveBeenCalledWith('MainTabs', {
+        screen: 'Practice',
+        params: { screen: 'PracticeHome' },
       });
     });
   });

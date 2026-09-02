@@ -4,6 +4,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { FontAwesome5 } from '@expo/vector-icons';
 import { useAppTheme } from '../../context/ThemeContext';
 import { Spacing } from '../../styles/spacing';
+import { StreakBadge } from '../StreakBadge/StreakBadge';
 import { createStyles } from './ScreenHeader.styles';
 
 export interface ScreenHeaderProps {
@@ -14,9 +15,11 @@ export interface ScreenHeaderProps {
   onBackPress?: () => void;
   style?: ViewStyle;
   titleStyle?: TextStyle;
+  showStreak?: boolean;
+  animateStreak?: boolean;
 }
 
-export const ScreenHeader: React.FC<ScreenHeaderProps> = ({
+export function ScreenHeader({
   title,
   leftContent,
   rightContent,
@@ -24,7 +27,9 @@ export const ScreenHeader: React.FC<ScreenHeaderProps> = ({
   onBackPress,
   style,
   titleStyle,
-}) => {
+  showStreak = true,
+  animateStreak = false,
+}: ScreenHeaderProps): React.JSX.Element {
   const insets = useSafeAreaInsets();
   const { colors } = useAppTheme();
   const styles = useMemo(() => createStyles(colors), [colors]);
@@ -58,8 +63,13 @@ export const ScreenHeader: React.FC<ScreenHeaderProps> = ({
           )}
         </View>
 
-        {rightContent && <View style={styles.rightContainer}>{rightContent}</View>}
+        {(showStreak || rightContent) && (
+          <View style={styles.rightContainer}>
+            {showStreak && <StreakBadge animate={animateStreak} />}
+            {rightContent}
+          </View>
+        )}
       </View>
     </View>
   );
-};
+}

@@ -1,0 +1,623 @@
+import { VerbCard, VerbSentence, Tense } from '../../docs/verb.types';
+import { progressService, SentenceProgressStats } from './progressService';
+
+export interface QuizGap {
+  id: string;
+  correctValue: string;
+  options: string[];
+}
+
+export interface SentenceSegment {
+  text?: string;
+  gapIndex?: number;
+}
+
+export interface QuizExercise {
+  id: string;
+  label: string;
+  tense: Tense;
+  verbCard: VerbCard;
+  sentence: VerbSentence;
+  segments: SentenceSegment[];
+  gaps: QuizGap[];
+  translation: Record<string, string>;
+}
+
+const COMMON_PREFIXES = [
+  'an',
+  'auf',
+  'aus',
+  'ein',
+  'mit',
+  'ab',
+  'zu',
+  'nach',
+  'vor',
+  'bei',
+  'weg',
+  'zurück',
+];
+
+const COMMON_PREPOSITIONS = [
+  'in',
+  'an',
+  'auf',
+  'mit',
+  'nach',
+  'zu',
+  'aus',
+  'von',
+  'bei',
+  'über',
+  'für',
+  'um',
+];
+
+export const AUXILIARY_DISTRACTORS_MAP: Record<string, string[]> = {
+  // Standalone Present auxiliaries (haben / sein)
+  habe: ['bin', 'hat', 'sind'],
+  bin: ['habe', 'ist', 'sind'],
+
+  hast: ['bist', 'hat', 'ist'],
+  bist: ['hast', 'ist', 'hat'],
+
+  hat: ['ist', 'habe', 'sind'],
+  ist: ['hat', 'bin', 'habe'],
+
+  haben: ['sind', 'hat', 'seid'],
+  sind: ['haben', 'ist', 'seid'],
+
+  habt: ['seid', 'haben', 'sind'],
+  seid: ['habt', 'sind', 'haben'],
+
+  // Reflexive Present auxiliaries
+  'habe mich': ['bin mich', 'hat sich', 'sind uns'],
+  'hast dich': ['bist dich', 'hat sich', 'ist sich'],
+  'hat sich': ['ist sich', 'habe mich', 'sind sich'],
+  'haben uns': ['sind uns', 'hat sich', 'seid euch'],
+  'habt euch': ['seid euch', 'haben uns', 'sind sich'],
+  'haben sich': ['sind sich', 'hat sich', 'seid euch'],
+
+  // Standalone Präteritum auxiliaries (hatte / war)
+  hatte: ['war', 'hattest', 'waren'],
+  war: ['hatte', 'warst', 'waren'],
+  hattest: ['warst', 'hatte', 'waren'],
+  warst: ['hattest', 'war', 'waren'],
+  hatten: ['waren', 'hatte', 'wart'],
+  waren: ['hatten', 'war', 'wart'],
+  hattet: ['wart', 'hatten', 'waren'],
+  wart: ['hattet', 'waren', 'hatten'],
+};
+
+function shuffleArray<T>(array: T[]): T[] {
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+  }
+  return arr;
+}
+
+function extractVerbFormsPool(verb: VerbCard): string[] {
+  const forms: string[] = [];
+
+  if (verb.conjugation?.present) {
+    const { ich, du, er_sie_es, wir, ihr, sie_Sie } = verb.conjugation.present;
+    [ich, du, er_sie_es, wir, ihr, sie_Sie].forEach(form => {
+      if (typeof form === 'string' && form.length > 0) {
+        forms.push(form.split(' ')[0]);
+      }
+    });
+  }
+
+  if (verb.conjugation?.praeteritum) {
+    const { ich, du, er_sie_es, wir, ihr, sie_Sie } = verb.conjugation.praeteritum;
+    [ich, du, er_sie_es, wir, ihr, sie_Sie].forEach(form => {
+      if (typeof form === 'string' && form.length > 0) {
+        forms.push(form.split(' ')[0]);
+      }
+    });
+  }
+
+  if (verb.conjugation?.imperative) {
+    const { du, ihr, Sie } = verb.conjugation.imperative;
+    [du, ihr, Sie].forEach(form => {
+      if (typeof form === 'string' && form.length > 0) {
+        forms.push(form.replace(/!$/, '').split(' ')[0]);
+      }
+    });
+  }
+
+  if (verb.principal_parts) {
+    const { infinitive, present_3sg, praeteritum_3sg, partizip_2 } = verb.principal_parts;
+    [infinitive, present_3sg, praeteritum_3sg, partizip_2].forEach(form => {
+      if (typeof form === 'string' && form.length > 0) {
+        forms.push(form.split(' ')[0]);
+      }
+    });
+  }
+
+  return forms;
+}
+
+function buildDistractorOptions(
+  correctValue: string,
+  candidatesPool: string[],
+  mandatoryCandidate?: string,
+): string[] {
+  const isCapitalized = /^[A-ZÄÖÜ]/.test(correctValue);
+  const normalizedCorrect = correctValue.trim();
+  const lowerCorrect = normalizedCorrect.toLowerCase();
+
+  // 1. Dedicated pedagogical distractors for auxiliary verbs (haben / sein in all persons & tenses)
+  if (AUXILIARY_DISTRACTORS_MAP[lowerCorrect]) {
+    const distractors = AUXILIARY_DISTRACTORS_MAP[lowerCorrect].map(word => {
+      if (!isCapitalized) return word;
+      return word
+        .split(' ')
+        .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+        .join(' ');
+    });
+    return shuffleArray([normalizedCorrect, ...distractors]);
+  }
+
+  const uniqueCandidates = new Set<string>();
+  uniqueCandidates.add(normalizedCorrect);
+
+  // 2. If a mandatory candidate (e.g. infinitive for Perfekt Partizip II) is specified, include it
+  if (mandatoryCandidate && mandatoryCandidate.trim().length > 0) {
+    const cleanMandatory = mandatoryCandidate.trim().split(' ')[0];
+    const formattedMandatory = isCapitalized
+      ? cleanMandatory.charAt(0).toUpperCase() + cleanMandatory.slice(1)
+      : cleanMandatory.charAt(0).toLowerCase() + cleanMandatory.slice(1);
+    if (formattedMandatory !== normalizedCorrect) {
+      uniqueCandidates.add(formattedMandatory);
+    }
+  }
+
+  for (const candidate of candidatesPool) {
+    if (!candidate) continue;
+    const clean = candidate
+      .replace(/[!?,.]/g, '')
+      .trim()
+      .split(' ')[0];
+    if (!clean) continue;
+
+    const formatted = isCapitalized
+      ? clean.charAt(0).toUpperCase() + clean.slice(1)
+      : clean.charAt(0).toLowerCase() + clean.slice(1);
+
+    if (formatted !== normalizedCorrect && formatted.length > 0) {
+      uniqueCandidates.add(formatted);
+    }
+    if (uniqueCandidates.size >= 4) break;
+  }
+
+  // Fallback suffixes if pool was too small
+  const fallbackEndings = ['e', 'st', 't', 'en', 'te', 'tet'];
+  const base = normalizedCorrect.replace(/(st|tet|te|e|t|en)$/, '');
+  for (const ending of fallbackEndings) {
+    if (uniqueCandidates.size >= 4) break;
+    const fallback = base + ending;
+    if (fallback !== normalizedCorrect && fallback.length > 0) {
+      uniqueCandidates.add(
+        isCapitalized ? fallback.charAt(0).toUpperCase() + fallback.slice(1) : fallback,
+      );
+    }
+  }
+
+  return shuffleArray(Array.from(uniqueCandidates).slice(0, 4));
+}
+
+function splitTextIntoWordSegments(rawText: string): SentenceSegment[] {
+  const result: SentenceSegment[] = [];
+  const words = rawText.trim().split(/\s+/).filter(Boolean);
+  for (const word of words) {
+    result.push({ text: word });
+  }
+  return result;
+}
+
+function getTargetQuizParts(sentence: VerbSentence, verbCard?: VerbCard): string[] {
+  const parts = sentence.bracket_parts || [];
+  if (!verbCard || verbCard.morphology?.verb_class !== 'modal') {
+    return parts;
+  }
+
+  // Для модальных глаголов проверяем только сам модальный глагол и вспомогательный глагол в Perfekt.
+  // Зависимые смысловые инфинитивы (sprechen, helfen, schwimmen) остаются обычным контекстным текстом.
+  if (sentence.tense === 'Perfekt') {
+    const targetParts: string[] = [];
+    parts.forEach(part => {
+      const trimmed = part.trim();
+      if (!trimmed) return;
+      const lower = trimmed.toLowerCase();
+      if (AUXILIARY_DISTRACTORS_MAP[lower]) {
+        // Вспомогательный глагол (haben)
+        targetParts.push(trimmed);
+      } else {
+        // Из составной части (например, "kommen können") выделяем только модальный глагол
+        const words = trimmed.split(/\s+/);
+        const modalWord =
+          words.find(w => {
+            const wLower = w.toLowerCase();
+            return (
+              wLower === verbCard.infinitive.toLowerCase() ||
+              wLower === (verbCard.principal_parts?.partizip_2 || '').toLowerCase() ||
+              wLower === (verbCard.principal_parts?.infinitive || '').toLowerCase()
+            );
+          }) || words[words.length - 1];
+        if (modalWord) {
+          targetParts.push(modalWord);
+        }
+      }
+    });
+    return targetParts;
+  }
+
+  // В остальных временах (Präsens, Präteritum, Imperativ) проверяется только 1-я часть (личная форма модального глагола)
+  if (parts.length > 0) {
+    return [parts[0].trim()];
+  }
+
+  return [];
+}
+
+function createSegmentsAndGapsFromSentence(
+  sentence: VerbSentence,
+  distractorPool: string[],
+  infinitive?: string,
+  verbCard?: VerbCard,
+): { segments: SentenceSegment[]; gaps: QuizGap[] } {
+  const segments: SentenceSegment[] = [];
+  const gaps: QuizGap[] = [];
+
+  const rawGerman = sentence.german.trim();
+  const endsWithQuestionOrExclamation = /[?!]$/.test(rawGerman);
+  // Ensure the sentence ends with a period if it's not a question or exclamation
+  let remainingText = endsWithQuestionOrExclamation
+    ? rawGerman
+    : `${rawGerman.replace(/\.*$/, '')}.`;
+
+  let gapIndex = 0;
+
+  const parts = getTargetQuizParts(sentence, verbCard);
+
+  for (const part of parts) {
+    const trimmedPart = part.trim();
+    if (!trimmedPart) continue;
+
+    const lowerRemaining = remainingText.toLowerCase();
+    const lowerPart = trimmedPart.toLowerCase();
+    const matchIndex = lowerRemaining.indexOf(lowerPart);
+
+    if (matchIndex === -1) {
+      continue;
+    }
+
+    if (matchIndex > 0) {
+      const beforeText = remainingText.slice(0, matchIndex);
+      const beforeWords = splitTextIntoWordSegments(beforeText);
+      segments.push(...beforeWords);
+    }
+
+    const actualMatchedWord = remainingText.slice(matchIndex, matchIndex + trimmedPart.length);
+
+    const isPrefix = COMMON_PREFIXES.includes(trimmedPart.toLowerCase());
+    const isPreposition = COMMON_PREPOSITIONS.includes(trimmedPart.toLowerCase());
+    const isAuxiliary = Boolean(AUXILIARY_DISTRACTORS_MAP[trimmedPart.toLowerCase()]);
+
+    let pool: string[];
+    if (isPrefix) {
+      pool = COMMON_PREFIXES;
+    } else if (isPreposition) {
+      pool = COMMON_PREPOSITIONS;
+    } else if (isAuxiliary) {
+      pool = Object.keys(AUXILIARY_DISTRACTORS_MAP);
+    } else {
+      pool = distractorPool;
+    }
+
+    const mandatoryCandidate =
+      sentence.tense === 'Perfekt' && !isAuxiliary ? infinitive : undefined;
+    const options = buildDistractorOptions(actualMatchedWord, pool, mandatoryCandidate);
+
+    gaps.push({
+      id: `gap_${gapIndex}`,
+      correctValue: actualMatchedWord,
+      options,
+    });
+
+    segments.push({ gapIndex });
+    gapIndex++;
+
+    remainingText = remainingText.slice(matchIndex + trimmedPart.length);
+  }
+
+  remainingText = remainingText.trimEnd();
+
+  if (remainingText.length > 0) {
+    const remainingWords = splitTextIntoWordSegments(remainingText);
+    segments.push(...remainingWords);
+  }
+
+  return { segments, gaps };
+}
+
+export const quizGeneratorService = {
+  generateExercisesForVerb(verb: VerbCard, allVariants: VerbCard[] = [verb]): QuizExercise[] {
+    const formsPool = extractVerbFormsPool(verb);
+
+    // Collect all authentic sentences from current verb and variants
+    const sentenceList: { sentence: VerbSentence; verbCard: VerbCard }[] = [];
+    allVariants.forEach(variant => {
+      variant.sentences.forEach(sentence => {
+        sentenceList.push({ sentence, verbCard: variant });
+      });
+    });
+
+    const perfektItems = sentenceList.filter(item => item.sentence.tense === 'Perfekt');
+    const praetItems = sentenceList.filter(item => item.sentence.tense === 'Präteritum');
+    const imperativItems = sentenceList.filter(item => item.sentence.tense === 'Imperativ');
+    const praesensItems = sentenceList.filter(item => item.sentence.tense === 'Präsens');
+
+    const selectedSentences: { sentence: VerbSentence; verbCard: VerbCard }[] = [];
+
+    // Always include Perfekt
+    if (perfektItems.length > 0) {
+      selectedSentences.push(...shuffleArray(perfektItems).slice(0, 1));
+    }
+
+    // Always include Präteritum
+    if (praetItems.length > 0) {
+      selectedSentences.push(...shuffleArray(praetItems).slice(0, 1));
+    }
+
+    // Always include Imperativ
+    if (imperativItems.length > 0) {
+      selectedSentences.push(...shuffleArray(imperativItems).slice(0, 1));
+    }
+
+    // Fill remaining slots (up to 6) with Präsens
+    const neededPraesens = Math.max(0, 6 - selectedSentences.length);
+    if (praesensItems.length > 0) {
+      selectedSentences.push(...shuffleArray(praesensItems).slice(0, neededPraesens));
+    }
+
+    // If still under 6, add any remaining unused sentences
+    if (selectedSentences.length < 6) {
+      for (const item of sentenceList) {
+        if (selectedSentences.length >= 6) break;
+        if (!selectedSentences.includes(item)) {
+          selectedSentences.push(item);
+        }
+      }
+    }
+
+    const exercises: QuizExercise[] = [];
+    selectedSentences.forEach(({ sentence, verbCard }, idx) => {
+      const { segments, gaps } = createSegmentsAndGapsFromSentence(
+        sentence,
+        formsPool,
+        verbCard.infinitive,
+        verbCard,
+      );
+      if (gaps.length > 0) {
+        exercises.push({
+          id: `sentence_${sentence.id || idx}`,
+          label: `${verbCard.level} · ${verbCard.infinitive.toUpperCase()} · ${sentence.tense.toUpperCase()}`,
+          tense: sentence.tense,
+          verbCard,
+          sentence,
+          segments,
+          gaps,
+          translation: sentence.translation,
+        });
+      }
+    });
+
+    return shuffleArray(exercises).slice(0, 6);
+  },
+
+  generateCheckpointExercises(verbs: VerbCard[]): QuizExercise[] {
+    const TIER_ALWAYS_INCORRECT = 1;
+    const TIER_MIXED = 2;
+    const TIER_ALWAYS_CORRECT = 3;
+    const TIER_NEVER_PRACTICED = 4;
+
+    interface SentenceEntry {
+      sentence: VerbSentence;
+      verbCard: VerbCard;
+      stats: SentenceProgressStats;
+      tier: number;
+      successRate: number;
+    }
+
+    const allSentenceEntries: SentenceEntry[] = [];
+
+    verbs.forEach(verbCard => {
+      verbCard.sentences.forEach(sentence => {
+        const sentenceKey = `${verbCard.id || verbCard.infinitive}_${sentence.id}`;
+        const stats = progressService.getSentenceStats(sentenceKey);
+        let tier: number;
+        let successRate = 0;
+
+        if (stats.attempts === 0) {
+          tier = TIER_NEVER_PRACTICED;
+        } else if (stats.correct === 0) {
+          tier = TIER_ALWAYS_INCORRECT;
+        } else if (stats.incorrect === 0) {
+          tier = TIER_ALWAYS_CORRECT;
+          successRate = 1;
+        } else {
+          tier = TIER_MIXED;
+          successRate = stats.correct / stats.attempts;
+        }
+
+        allSentenceEntries.push({
+          sentence,
+          verbCard,
+          stats,
+          tier,
+          successRate,
+        });
+      });
+    });
+
+    // 1. Always incorrect: sorted by incorrect count DESC
+    const tier1Entries = shuffleArray(
+      allSentenceEntries.filter(entry => entry.tier === TIER_ALWAYS_INCORRECT),
+    ).sort((firstEntry, secondEntry) => secondEntry.stats.incorrect - firstEntry.stats.incorrect);
+
+    // 2. Mixed: sorted by successRate ASC (lowest % correct first), then incorrect count DESC
+    const tier2Entries = shuffleArray(
+      allSentenceEntries.filter(entry => entry.tier === TIER_MIXED),
+    ).sort((firstEntry, secondEntry) => {
+      if (firstEntry.successRate !== secondEntry.successRate) {
+        return firstEntry.successRate - secondEntry.successRate;
+      }
+      return secondEntry.stats.incorrect - firstEntry.stats.incorrect;
+    });
+
+    // 3. Always correct: shuffled
+    const tier3Entries = shuffleArray(
+      allSentenceEntries.filter(entry => entry.tier === TIER_ALWAYS_CORRECT),
+    );
+
+    // 4. Never practiced: shuffled (lowest priority)
+    const tier4Entries = shuffleArray(
+      allSentenceEntries.filter(entry => entry.tier === TIER_NEVER_PRACTICED),
+    );
+
+    const prioritizedEntries = [...tier1Entries, ...tier2Entries, ...tier3Entries, ...tier4Entries];
+
+    const selectedEntries = prioritizedEntries.slice(0, 20);
+
+    const exercises: QuizExercise[] = [];
+    selectedEntries.forEach(({ sentence, verbCard }, index) => {
+      const formsPool = extractVerbFormsPool(verbCard);
+      const { segments, gaps } = createSegmentsAndGapsFromSentence(
+        sentence,
+        formsPool,
+        verbCard.infinitive,
+        verbCard,
+      );
+      if (gaps.length > 0) {
+        exercises.push({
+          id: `checkpoint_sentence_${sentence.id || index}_${verbCard.infinitive}`,
+          label: `${verbCard.level} · ${verbCard.infinitive.toUpperCase()} · ${sentence.tense.toUpperCase()}`,
+          tense: sentence.tense,
+          verbCard,
+          sentence,
+          segments,
+          gaps,
+          translation: sentence.translation,
+        });
+      }
+    });
+
+    return shuffleArray(exercises).slice(0, 20);
+  },
+
+  generateSmartQuizExercises(verbs: VerbCard[], maxCount: number = 50): QuizExercise[] {
+    const TIER_ALWAYS_INCORRECT = 1;
+    const TIER_MIXED = 2;
+    const TIER_ALWAYS_CORRECT = 3;
+    const TIER_NEVER_PRACTICED = 4;
+
+    interface SentenceEntry {
+      sentence: VerbSentence;
+      verbCard: VerbCard;
+      stats: SentenceProgressStats;
+      tier: number;
+      successRate: number;
+    }
+
+    const allSentenceEntries: SentenceEntry[] = [];
+
+    verbs.forEach(verbCard => {
+      verbCard.sentences.forEach(sentence => {
+        const sentenceKey = `${verbCard.id || verbCard.infinitive}_${sentence.id}`;
+        const stats = progressService.getSentenceStats(sentenceKey);
+        let tier: number;
+        let successRate = 0;
+
+        if (stats.attempts === 0) {
+          tier = TIER_NEVER_PRACTICED;
+        } else if (stats.correct === 0) {
+          tier = TIER_ALWAYS_INCORRECT;
+        } else if (stats.incorrect === 0) {
+          tier = TIER_ALWAYS_CORRECT;
+          successRate = 1;
+        } else {
+          tier = TIER_MIXED;
+          successRate = stats.correct / stats.attempts;
+        }
+
+        allSentenceEntries.push({
+          sentence,
+          verbCard,
+          stats,
+          tier,
+          successRate,
+        });
+      });
+    });
+
+    // 1. Always incorrect: sorted by incorrect count DESC
+    const tier1Entries = shuffleArray(
+      allSentenceEntries.filter(entry => entry.tier === TIER_ALWAYS_INCORRECT),
+    ).sort((firstEntry, secondEntry) => secondEntry.stats.incorrect - firstEntry.stats.incorrect);
+
+    // 2. Mixed: sorted by successRate ASC (lowest % correct first), then incorrect count DESC
+    const tier2Entries = shuffleArray(
+      allSentenceEntries.filter(entry => entry.tier === TIER_MIXED),
+    ).sort((firstEntry, secondEntry) => {
+      if (firstEntry.successRate !== secondEntry.successRate) {
+        return firstEntry.successRate - secondEntry.successRate;
+      }
+      return secondEntry.stats.incorrect - firstEntry.stats.incorrect;
+    });
+
+    // 3. Always correct: shuffled
+    const tier3Entries = shuffleArray(
+      allSentenceEntries.filter(entry => entry.tier === TIER_ALWAYS_CORRECT),
+    );
+
+    // 4. Never practiced: sorted by frequency rank and shuffled
+    const tier4Entries = shuffleArray(
+      allSentenceEntries.filter(entry => entry.tier === TIER_NEVER_PRACTICED),
+    );
+
+    const prioritizedEntries = [...tier1Entries, ...tier2Entries, ...tier3Entries, ...tier4Entries];
+
+    const selectedEntries = prioritizedEntries.slice(0, maxCount);
+
+    const exercises: QuizExercise[] = [];
+    selectedEntries.forEach(({ sentence, verbCard }, index) => {
+      const formsPool = extractVerbFormsPool(verbCard);
+      const { segments, gaps } = createSegmentsAndGapsFromSentence(
+        sentence,
+        formsPool,
+        verbCard.infinitive,
+        verbCard,
+      );
+      if (gaps.length > 0) {
+        exercises.push({
+          id: `smart_sentence_${sentence.id || index}_${verbCard.infinitive}`,
+          label: `${verbCard.level} · ${verbCard.infinitive.toUpperCase()} · ${sentence.tense.toUpperCase()}`,
+          tense: sentence.tense,
+          verbCard,
+          sentence,
+          segments,
+          gaps,
+          translation: sentence.translation,
+        });
+      }
+    });
+
+    return shuffleArray(exercises).slice(0, maxCount);
+  },
+};

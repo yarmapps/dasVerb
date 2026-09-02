@@ -55,6 +55,38 @@
     "bronze": "برنز",
     "silver": "نقره",
     "trophy": "جام",
-    "empty": "هیچ فعلی یافت نشد"
+    "empty": "هیچ فعلی یافت نشد",
+    "checkpointTitle": "آزمون میان‌دوره‌ای {number}",
+    "checkpointSubtitle": "مرور · افعال {from}–{to}",
+    "checkpointBadge": "10 تمرین"
+  },
+  "verbQuizScreen": {
+    "title": "تمرین",
+    "checkpointQuizTitle": "آزمون میان‌دوره‌ای {number}",
+    "level": "سطح",
+    "check": "بررسی",
+    "continue": "ادامه",
+    "exercise": "تمرین",
+    "correct": "درست!",
+    "tryAgain": "دوباره امتحان کنید",
+    "fillCard": "کارت را پر کنید",
+    "tapToContinue": "برای ادامه هر جا ضربه بزنید",
+    "correctAnswer": "پاسخ صحیح:",
+    "conjugationPräsens": "صرف فعل در Präsens",
+    "principalParts": "فرم‌های اصلی فعل",
+    "imperativeForms": "حالت امری",
+    "auxiliaryExplanationMovement": "فعل {verb} نشان‌دهنده حرکت یا تغییر حالت است، بنابراین زمان Perfekt با فعل کمکی sein ({form}) ساخته می‌شود.",
+    "auxiliaryExplanationGeneral": "زمان Perfekt برای فعل {verb} با فعل کمکی haben ({form}) ساخته می‌شود."
+  },
+  "quizResultsScreen": {
+    "title": "نتایج",
+    "checkpointResultsTitle": "نتایج آزمون",
+    "canDoBetter": "می‌توانید بهتر انجام دهید!",
+    "almostThere": "تقریباً تمام است!",
+    "closeToPerfection": "نزدیک به عالی!",
+    "youDidIt": "شما موفق شدید!",
+    "tryAgain": "دوباره امتحان کنید",
+    "verbsList": "لیست افعال",
+    "scoreSummary": "{correct} از {total}"
   }
 }

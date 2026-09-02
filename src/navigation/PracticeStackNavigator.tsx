@@ -1,0 +1,31 @@
+import React from 'react';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { PracticeStackParamList } from '../types/navigation';
+import { useAppTheme } from '../context/ThemeContext';
+import { PracticeScreen } from '../screens/PracticeScreen/PracticeScreen';
+import { VerbsPracticeListScreen } from '../screens/VerbsPracticeListScreen/VerbsPracticeListScreen';
+
+const Stack = createNativeStackNavigator<PracticeStackParamList>();
+
+export function PracticeStackNavigator(): React.JSX.Element {
+  const { colors } = useAppTheme();
+
+  return (
+    <Stack.Navigator
+      screenOptions={{
+        headerShown: false,
+        animation: 'slide_from_right',
+        animationDuration: 280,
+        gestureEnabled: true,
+        freezeOnBlur: false,
+        contentStyle: {
+          backgroundColor: colors.background,
+        },
+      }}
+      initialRouteName="PracticeHome"
+    >
+      <Stack.Screen name="PracticeHome" component={PracticeScreen} />
+      <Stack.Screen name="VerbsPracticeList" component={VerbsPracticeListScreen} />
+    </Stack.Navigator>
+  );
+}

@@ -13,13 +13,22 @@ describe('settingsService with MMKV', () => {
     expect(settings.soundEffects).toBe(true);
     expect(settings.notifications).toBe(true);
     expect(settings.themeMode).toBe('system');
+    expect(settings.speakOnCorrectAnswer).toBe(true);
+    expect(settings.ttsVoiceGender).toBe('female');
   });
 
   it('should update settings properly', () => {
-    updateSettings({ soundEffects: false, themeMode: 'dark' });
+    updateSettings({
+      soundEffects: false,
+      themeMode: 'dark',
+      speakOnCorrectAnswer: false,
+      ttsVoiceGender: 'male',
+    });
     const settings = getSettings();
     expect(settings.soundEffects).toBe(false);
     expect(settings.themeMode).toBe('dark');
+    expect(settings.speakOnCorrectAnswer).toBe(false);
+    expect(settings.ttsVoiceGender).toBe('male');
   });
 
   it('should manage language settings properly', () => {

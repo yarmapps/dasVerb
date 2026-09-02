@@ -13,7 +13,7 @@ export const createStyles = (colors: ThemeColors) =>
       width: 40,
       height: 40,
       borderRadius: 20,
-      backgroundColor: colors.blockBackground,
+      backgroundColor: colors.headerButtonBackground,
       justifyContent: 'center',
       alignItems: 'center',
     },

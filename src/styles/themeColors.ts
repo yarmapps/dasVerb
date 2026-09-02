@@ -8,6 +8,7 @@ export interface ThemeColors {
   background: string; // Фон приложения
   blockBackground: string; // Фон карточек
   blockBorder: string; // Цвет рамок блоков
+  headerButtonBackground: string; // Полупрозрачный фон для кнопок хедера и действий
 
   // Текст
   textPrimary: string;
@@ -29,14 +30,15 @@ export interface ThemeColors {
 }
 
 export const lightColors: ThemeColors = {
-  background: '#F8FAFC',
-  blockBackground: '#EEF2F6',
-  blockBorder: '#CBD5E1',
+  background: '#FFF6F4',
+  blockBackground: '#FFFFFF',
+  blockBorder: '#F7DDD5',
+  headerButtonBackground: 'rgba(0, 0, 0, 0.05)',
 
-  textPrimary: '#0F172A',
-  textSecondary: '#475569',
-  textMuted: '#94A3B8',
-  textMutedInverted: '#475569',
+  textPrimary: '#1D1D1F',
+  textSecondary: '#424245',
+  textMuted: '#6E6E73',
+  textMutedInverted: '#6E6E73',
 
   primary: '#2563EB',
   secondary: '#7C3AED',
@@ -52,6 +54,7 @@ export const darkColors: ThemeColors = {
   background: '#0B1120',
   blockBackground: '#1E293B',
   blockBorder: '#334155',
+  headerButtonBackground: 'rgba(255, 255, 255, 0.12)',
 
   textPrimary: '#F8FAFC',
   textSecondary: '#CBD5E1',

@@ -23,6 +23,8 @@ describe('German Verb JSON Cards Data Integrity', () => {
         expect(verb.translation.ru).toBeDefined();
         expect(verb.translation.en).toBeDefined();
         expect(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']).toContain(verb.level);
+        expect(typeof verb.frequency_rank).toBe('number');
+        expect(verb.frequency_rank).toBeGreaterThan(0);
         expect(['haben', 'sein', 'both']).toContain(verb.auxiliary);
       });
 
@@ -83,13 +85,52 @@ describe('German Verb JSON Cards Data Integrity', () => {
         }
       });
 
-      it('should have at least 1 example sentence', () => {
+      it('should have 8 example sentences covering required tenses and valid translations', () => {
         expect(Array.isArray(verb.sentences)).toBe(true);
-        expect(verb.sentences.length).toBeGreaterThanOrEqual(1);
+        expect(verb.sentences.length).toBe(8);
         verb.sentences.forEach((sentence: VerbSentence) => {
           expect(sentence.german).toBeDefined();
           expect(sentence.translation.ru).toBeDefined();
           expect(sentence.translation.en).toBeDefined();
+        });
+      });
+
+      it('should have valid bracket_parts and literal substrings matching German grammar rules', () => {
+        const isSeparable = verb.morphology.prefix_type === 'separable';
+
+        verb.sentences.forEach((sentence: VerbSentence) => {
+          const {
+            german,
+            bracket_parts: bracketParts = [],
+            dativ_parts: dativParts = [],
+            akkusativ_parts: akkusativParts = [],
+            tense,
+          } = sentence;
+
+          // 1. Bracket parts presence in sentence
+          bracketParts.forEach(part => {
+            expect(german.toLowerCase()).toContain(part.toLowerCase());
+          });
+
+          // 2. Exact bracket parts count according to German syntax (Satzklammer)
+          if (tense === 'Perfekt') {
+            expect(bracketParts.length).toBe(2);
+          } else if (tense === 'Präsens' || tense === 'Präteritum' || tense === 'Imperativ') {
+            if (isSeparable) {
+              expect(bracketParts.length).toBe(2);
+            } else {
+              expect(bracketParts.length).toBe(1);
+            }
+          }
+
+          // 3. Dativ and Akkusativ parts must literally exist in the sentence
+          dativParts.forEach(part => {
+            expect(german.toLowerCase()).toContain(part.toLowerCase());
+          });
+
+          akkusativParts.forEach(part => {
+            expect(german.toLowerCase()).toContain(part.toLowerCase());
+          });
         });
       });
     });

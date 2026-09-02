@@ -4,7 +4,10 @@ import { IntlProvider } from 'react-intl';
 import { ScreenHeader } from '../components/ScreenHeader/ScreenHeader';
 import { FormInput } from '../components/FormInput/FormInput';
 import { FeaturedStartCard } from '../components/FeaturedStartCard/FeaturedStartCard';
+import { SmartQuizCard } from '../components/SmartQuizCard/SmartQuizCard';
 import { VerbCardDetails } from '../components/VerbCardDetails/VerbCardDetails';
+import { AnimatedCheckmark } from '../components/AnimatedCheckmark/AnimatedCheckmark';
+import { AnimatedRewardCircle } from '../components/AnimatedRewardCircle/AnimatedRewardCircle';
 import { ThemeProvider } from '../context/ThemeContext';
 import { getMessages } from '../services/intlService';
 import { VerbCard } from '../../docs/verb.types';
@@ -88,6 +91,7 @@ describe('UI Components Suite', () => {
       id: 'sprechen_dat_mit',
       infinitive: 'sprechen',
       level: 'A1',
+      frequency_rank: 30,
       auxiliary: 'haben',
       morphology: {
         verb_class: 'strong',
@@ -166,6 +170,67 @@ describe('UI Components Suite', () => {
       expect(getByText('sprich!')).toBeTruthy();
       expect(getByText('Примеры')).toBeTruthy();
       expect(getByText('Я говорю со своим другом.')).toBeTruthy();
+    });
+  });
+
+  describe('AnimatedCheckmark', () => {
+    it('should render animated checkmark svg container', () => {
+      const { getByTestId } = render(
+        <TestWrapper>
+          <AnimatedCheckmark size={96} color="#10B981" />
+        </TestWrapper>,
+      );
+
+      expect(getByTestId('animated-checkmark')).toBeTruthy();
+    });
+  });
+
+  describe('AnimatedRewardCircle', () => {
+    it('should render animated reward circle for trophy, silver, bronze and uncompleted', () => {
+      const { getByTestId, rerender } = render(
+        <TestWrapper>
+          <AnimatedRewardCircle status="trophy" size={92} />
+        </TestWrapper>,
+      );
+      expect(getByTestId('animated-reward-circle')).toBeTruthy();
+
+      rerender(
+        <TestWrapper>
+          <AnimatedRewardCircle status="silver" size={92} />
+        </TestWrapper>,
+      );
+      expect(getByTestId('animated-reward-circle')).toBeTruthy();
+
+      rerender(
+        <TestWrapper>
+          <AnimatedRewardCircle status="bronze" size={92} />
+        </TestWrapper>,
+      );
+      expect(getByTestId('animated-reward-circle')).toBeTruthy();
+
+      rerender(
+        <TestWrapper>
+          <AnimatedRewardCircle status="uncompleted" size={92} />
+        </TestWrapper>,
+      );
+      expect(getByTestId('animated-reward-circle')).toBeTruthy();
+    });
+  });
+
+  describe('SmartQuizCard', () => {
+    it('should render SmartQuizCard and handle click', () => {
+      const handlePress = jest.fn();
+      const { getByTestId, getByText } = render(
+        <TestWrapper>
+          <SmartQuizCard onPress={handlePress} />
+        </TestWrapper>,
+      );
+
+      expect(getByTestId('smart-quiz-card')).toBeTruthy();
+      expect(getByText('Умный алгоритм')).toBeTruthy();
+
+      fireEvent.press(getByTestId('smart-quiz-card'));
+      expect(handlePress).toHaveBeenCalledTimes(1);
     });
   });
 });

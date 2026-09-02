@@ -10,12 +10,16 @@ export interface AppSettings {
   soundEffects: boolean;
   notifications: boolean;
   themeMode: 'light' | 'dark' | 'system';
+  speakOnCorrectAnswer: boolean;
+  ttsVoiceGender: 'female' | 'male';
 }
 
 const DEFAULT_SETTINGS: AppSettings = {
   soundEffects: true,
   notifications: true,
   themeMode: 'system',
+  speakOnCorrectAnswer: true,
+  ttsVoiceGender: 'female',
 };
 
 export function getSettings(): AppSettings {

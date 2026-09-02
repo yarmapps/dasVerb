@@ -212,7 +212,7 @@ export function VerbCardDetails({ verb, locale }: VerbCardDetailsProps): React.J
         </>
       )}
 
-      {/* 3. Sentences */}
+      {/* 3. Sentences (limited to 3 examples in dictionary view) */}
       {verb.sentences && verb.sentences.length > 0 && (
         <>
           <View style={styles.sectionHeader}>
@@ -221,7 +221,7 @@ export function VerbCardDetails({ verb, locale }: VerbCardDetailsProps): React.J
             </Text>
           </View>
           <View style={styles.sentencesList}>
-            {verb.sentences.map((sentence, sentenceIndex) => (
+            {verb.sentences.slice(0, 3).map((sentence, sentenceIndex) => (
               <View key={sentence.id || sentenceIndex} style={styles.sentenceCard}>
                 {renderGrammarHighlightedSentence(sentence)}
                 <Text style={styles.translationSentence}>

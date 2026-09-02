@@ -8,13 +8,13 @@ import {
   StyleProp,
   TextStyle,
 } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { FontAwesome5 } from '@expo/vector-icons';
 import { useIntl } from 'react-intl';
 import { useAppTheme } from '../../context/ThemeContext';
 import { useLocale } from '../../context/LocaleContext';
 import { ScreenHeader } from '../../components/ScreenHeader/ScreenHeader';
+import { ScreenBackground } from '../../components/ScreenBackground/ScreenBackground';
 import { FormInput } from '../../components/FormInput/FormInput';
 import { VerbCardDetails } from '../../components/VerbCardDetails/VerbCardDetails';
 import { verbDataService } from '../../services/verbDataService';
@@ -212,7 +212,7 @@ export function DictionaryScreen(): React.JSX.Element {
   }, [searchQuery, fetchVerbs]);
 
   const handleToggleExpand = useCallback((id: string) => {
-    setExpandedVerbId(prev => (prev === id ? null : id));
+    setExpandedVerbId(prevId => (prevId === id ? null : id));
   }, []);
 
   const handleClearSearch = () => {
@@ -223,7 +223,7 @@ export function DictionaryScreen(): React.JSX.Element {
   const emptySearchMessage = intl.formatMessage({ id: 'dictionaryScreen.emptySearch' });
 
   return (
-    <SafeAreaView style={styles.container} edges={['left', 'right']}>
+    <ScreenBackground>
       <StatusBar style={isDark ? 'light' : 'dark'} />
       <ScreenHeader
         title={intl.formatMessage({ id: 'dictionaryScreen.title' })}
@@ -281,6 +281,6 @@ export function DictionaryScreen(): React.JSX.Element {
           ) : null
         }
       />
-    </SafeAreaView>
+    </ScreenBackground>
   );
 }

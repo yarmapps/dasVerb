@@ -14,16 +14,16 @@ import faTranslations from '../translations/fa.json';
 
 const translations: Record<SupportedLocales, Translation> = {
   en: enTranslations as Translation,
-  es: esTranslations as Translation,
-  fr: frTranslations as Translation,
-  it: itTranslations as Translation,
-  pl: plTranslations as Translation,
-  pt: ptTranslations as Translation,
+  es: esTranslations as unknown as Translation,
+  fr: frTranslations as unknown as Translation,
+  it: itTranslations as unknown as Translation,
+  pl: plTranslations as unknown as Translation,
+  pt: ptTranslations as unknown as Translation,
   ru: ruTranslations as Translation,
-  tr: trTranslations as Translation,
-  uk: ukTranslations as Translation,
-  ar: arTranslations as Translation,
-  fa: faTranslations as Translation,
+  tr: trTranslations as unknown as Translation,
+  uk: ukTranslations as unknown as Translation,
+  ar: arTranslations as unknown as Translation,
+  fa: faTranslations as unknown as Translation,
 };
 
 export function flattenMessages(
@@ -49,9 +49,14 @@ const flattenedMessagesCache: Partial<Record<SupportedLocales, Record<string, st
 export const getMessages = (locale: SupportedLocales): Record<string, string> => {
   const targetLocale = translations[locale] ? locale : 'en';
   if (!flattenedMessagesCache[targetLocale]) {
-    flattenedMessagesCache[targetLocale] = flattenMessages(
+    const enFlattened = flattenMessages(translations.en as unknown as Record<string, unknown>);
+    const targetFlattened = flattenMessages(
       translations[targetLocale] as unknown as Record<string, unknown>,
     );
+    flattenedMessagesCache[targetLocale] = {
+      ...enFlattened,
+      ...targetFlattened,
+    };
   }
   return flattenedMessagesCache[targetLocale] || {};
 };

@@ -14,6 +14,7 @@ export interface VerbRow {
   infinitive: string;
   infinitive_lower: string;
   level: string;
+  frequency_rank: number;
   auxiliary: string;
   morphology: string;
   principal_parts: string;
@@ -30,6 +31,7 @@ export function parseVerbRow(row: VerbRow): VerbCard {
     id: row.id,
     infinitive: row.infinitive,
     level: row.level as CEFRLevel,
+    frequency_rank: row.frequency_rank ?? 9999,
     auxiliary: row.auxiliary as AuxiliaryVerb,
     morphology: JSON.parse(row.morphology),
     principal_parts: JSON.parse(row.principal_parts),
@@ -136,6 +138,7 @@ export const verbDataService = {
           WHEN 'C2' THEN 6
           ELSE 7
         END ASC,
+        frequency_rank ASC,
         infinitive_lower ASC
     `;
 
@@ -197,5 +200,16 @@ export const verbDataService = {
 
     const row = await db.getFirstAsync<VerbRow>('SELECT * FROM verbs WHERE id = ?', [id]);
     return row ? parseVerbRow(row) : null;
+  },
+
+  async getVerbsByInfinitive(infinitive: string): Promise<VerbCard[]> {
+    await this.init();
+    if (!db) return [];
+
+    const rows = await db.getAllAsync<VerbRow>(
+      'SELECT * FROM verbs WHERE infinitive_lower = ? ORDER BY id ASC',
+      [infinitive.toLowerCase()],
+    );
+    return rows.map(parseVerbRow);
   },
 };

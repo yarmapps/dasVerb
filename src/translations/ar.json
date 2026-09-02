@@ -55,6 +55,38 @@
     "bronze": "برونزي",
     "silver": "فضي",
     "trophy": "كأس",
-    "empty": "لم يتم العثور على أفعال"
+    "empty": "لم يتم العثور على أفعال",
+    "checkpointTitle": "الاختبار المرحلي {number}",
+    "checkpointSubtitle": "مراجعة · الأفعال {from}–{to}",
+    "checkpointBadge": "10 تمارين"
+  },
+  "verbQuizScreen": {
+    "title": "تدريب",
+    "checkpointQuizTitle": "الاختبار المرحلي {number}",
+    "level": "المستوى",
+    "check": "تحقق",
+    "continue": "متابعة",
+    "exercise": "تمرين",
+    "correct": "صحيح!",
+    "tryAgain": "حاول مرة أخرى",
+    "fillCard": "املأ البطاقة",
+    "tapToContinue": "انقر في أي مكان للمتابعة",
+    "correctAnswer": "الإجابة الصحيحة:",
+    "conjugationPräsens": "تصريف الفعل في Präsens",
+    "principalParts": "الأشكال الأساسية للفعل",
+    "imperativeForms": "صيغة الأمر",
+    "auxiliaryExplanationMovement": "يعبر الفعل {verb} عن حركة أو تغيير في الحالة، لذا يُشتق زمن Perfekt مع الفعل المساعد sein ({form}).",
+    "auxiliaryExplanationGeneral": "يُشتق زمن Perfekt للفعل {verb} مع الفعل المساعد haben ({form})."
+  },
+  "quizResultsScreen": {
+    "title": "النتائج",
+    "checkpointResultsTitle": "نتائج الاختبار",
+    "canDoBetter": "يمكنك تقديم أداء أفضل!",
+    "almostThere": "أوشكت على النجاح!",
+    "closeToPerfection": "قريب من الكمال!",
+    "youDidIt": "لقد فعلتها!",
+    "tryAgain": "حاول مرة أخرى",
+    "verbsList": "قائمة الأفعال",
+    "scoreSummary": "{correct} من {total}"
   }
 }

@@ -55,6 +55,38 @@
     "bronze": "Bronze",
     "silver": "Argent",
     "trophy": "Trophée",
-    "empty": "Aucun verbe trouvé"
+    "empty": "Aucun verbe trouvé",
+    "checkpointTitle": "{number}. Quiz intermédiaire",
+    "checkpointSubtitle": "Révision · Verbes {from}–{to}",
+    "checkpointBadge": "10 exercices"
+  },
+  "verbQuizScreen": {
+    "title": "Entraînement",
+    "checkpointQuizTitle": "Quiz intermédiaire {number}",
+    "level": "Niveau",
+    "check": "Vérifier",
+    "continue": "Continuer",
+    "exercise": "Exercice",
+    "correct": "Correct !",
+    "tryAgain": "Réessayez",
+    "fillCard": "Remplissez la carte",
+    "tapToContinue": "Appuyez n'importe où pour continuer",
+    "correctAnswer": "Bonne réponse :",
+    "conjugationPräsens": "Conjugaison au Präsens",
+    "principalParts": "Temps primitifs (Stammformen)",
+    "imperativeForms": "Impératif",
+    "auxiliaryExplanationMovement": "Le verbe {verb} exprime un déplacement ou un changement d'état, il forme donc le Perfekt avec sein ({form}).",
+    "auxiliaryExplanationGeneral": "Le verbe {verb} forme le Perfekt avec l'auxiliaire haben ({form})."
+  },
+  "quizResultsScreen": {
+    "title": "Résultats",
+    "checkpointResultsTitle": "Résultats du test",
+    "canDoBetter": "Vous pouvez faire mieux !",
+    "almostThere": "Presque !",
+    "closeToPerfection": "Presque parfait !",
+    "youDidIt": "Vous avez réussi !",
+    "tryAgain": "Réessayer",
+    "verbsList": "Liste des verbes",
+    "scoreSummary": "{correct} sur {total}"
   }
 }
