@@ -6,6 +6,7 @@
     "en": "to hang (state)"
   },
   "level": "A2",
+  "frequency_rank": 98,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "strong",
@@ -55,48 +56,122 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Das Bild hängt an der Wand.",
+      "german": "Mein Lieblingsbild hängt an der Wand",
       "translation": {
-        "ru": "Картина висит на стене.",
-        "en": "The picture is hanging on the wall."
+        "ru": "Моя любимая картина висит на стене",
+        "en": "My favorite picture is hanging on the wall"
       },
       "bracket_parts": [
         "hängt"
       ],
       "dativ_parts": [
-        "an der Wand"
+        "der Wand"
       ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Die Jacke hat gestern am Haken gehangen.",
+      "tense": "Präsens",
+      "german": "Hängt deine Jacke noch an der Garderobe?",
       "translation": {
-        "ru": "Куртка вчера висела на крючке.",
-        "en": "The jacket was hanging on the hook yesterday."
+        "ru": "Твоя куртка все еще висит на вешалке?",
+        "en": "Is your jacket still hanging on the coat rack?"
       },
       "bracket_parts": [
-        "hat",
-        "gehangen"
+        "Hängt"
+      ],
+      "dativ_parts": [
+        "der Garderobe"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Schlüssel hängt am Haken",
+      "translation": {
+        "ru": "Ключ висит на крючке",
+        "en": "The key is hanging on the hook"
+      },
+      "bracket_parts": [
+        "hängt"
       ],
       "dativ_parts": [
         "am Haken"
       ]
     },
     {
-      "id": "s3",
-      "tense": "Imperativ",
-      "german": "Lass die Jacke bitte an dem Haken hängen!",
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir sehen, die Vorhänge hängen an den Fenstern",
       "translation": {
-        "ru": "Оставь куртку висеть на крючке!",
-        "en": "Please leave the jacket hanging on the hook!"
+        "ru": "Мы видим, что шторы висят на окнах",
+        "en": "We see that the curtains are hanging on the windows"
       },
       "bracket_parts": [
-        "Lass",
         "hängen"
       ],
       "dativ_parts": [
-        "an dem Haken"
+        "den Fenstern"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Warum hängt ihr so sehr an diesen alten Dingen?",
+      "translation": {
+        "ru": "Почему вы так сильно привязаны к этим старым вещам?",
+        "en": "Why are you so attached to these old things?"
+      },
+      "bracket_parts": [
+        "hängt"
+      ],
+      "dativ_parts": [
+        "diesen alten Dingen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Das Gemälde hing jahrelang an dieser Wand",
+      "translation": {
+        "ru": "Картина висела на этой стене годами",
+        "en": "The painting hung on this wall for years"
+      },
+      "bracket_parts": [
+        "hing"
+      ],
+      "dativ_parts": [
+        "dieser Wand"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Kleidung hat tagelang am Seil gehangen",
+      "translation": {
+        "ru": "Одежда висела на веревке несколько дней",
+        "en": "The clothes hung on the line for days"
+      },
+      "bracket_parts": [
+        "hat",
+        "gehangen"
+      ],
+      "dativ_parts": [
+        "am Seil"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Häng bitte nicht so faul an der Wand!",
+      "translation": {
+        "ru": "Не виси, пожалуйста, так лениво у стены!",
+        "en": "Please don't hang around the wall so lazily!"
+      },
+      "bracket_parts": [
+        "Häng"
+      ],
+      "dativ_parts": [
+        "der Wand"
       ]
     }
   ]

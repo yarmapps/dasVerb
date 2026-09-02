@@ -6,6 +6,7 @@
     "en": "to have"
   },
   "level": "A1",
+  "frequency_rank": 2,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "auxiliary",
@@ -55,41 +56,116 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich habe heute keine Zeit.",
+      "german": "Ich habe heute viel Zeit",
       "translation": {
-        "ru": "У меня сегодня нет времени.",
-        "en": "I have no time today."
+        "ru": "У меня сегодня много времени",
+        "en": "I have a lot of time today"
       },
       "bracket_parts": [
         "habe"
-      ],
-      "akkusativ_parts": [
-        "einen Hund"
-      ]
-    },
-    {
-      "id": "s2",
-      "tense": "Perfekt",
-      "german": "Er hat viel Glück gehabt.",
-      "translation": {
-        "ru": "Ему очень повезло (он имел много удачи).",
-        "en": "He had a lot of luck."
-      },
-      "bracket_parts": [
-        "hat",
-        "gehabt"
       ],
       "akkusativ_parts": [
         "viel Zeit"
       ]
     },
     {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Hast du heute einen freien Tag?",
+      "translation": {
+        "ru": "У тебя сегодня свободный день?",
+        "en": "Do you have a day off today?"
+      },
+      "bracket_parts": [
+        "Hast"
+      ],
+      "akkusativ_parts": [
+        "einen freien Tag"
+      ]
+    },
+    {
       "id": "s3",
+      "tense": "Präsens",
+      "german": "Er hat ein tolles neues Auto",
+      "translation": {
+        "ru": "У него отличная новая машина",
+        "en": "He has a great new car"
+      },
+      "bracket_parts": [
+        "hat"
+      ],
+      "akkusativ_parts": [
+        "ein tolles neues Auto"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir haben eine wichtige Frage",
+      "translation": {
+        "ru": "У нас есть важный вопрос",
+        "en": "We have an important question"
+      },
+      "bracket_parts": [
+        "haben"
+      ],
+      "akkusativ_parts": [
+        "eine wichtige Frage"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Habt ihr genug Geld dabei?",
+      "translation": {
+        "ru": "У вас с собой достаточно денег?",
+        "en": "Do you have enough money with you?"
+      },
+      "bracket_parts": [
+        "Habt"
+      ],
+      "akkusativ_parts": [
+        "genug Geld"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern hatte sie großes Glück",
+      "translation": {
+        "ru": "Вчера ей очень повезло",
+        "en": "Yesterday she had great luck"
+      },
+      "bracket_parts": [
+        "hatte"
+      ],
+      "akkusativ_parts": [
+        "großes Glück"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben gestern viel Spaß gehabt",
+      "translation": {
+        "ru": "Они вчера отлично провели время",
+        "en": "They had a lot of fun yesterday"
+      },
+      "bracket_parts": [
+        "haben",
+        "gehabt"
+      ],
+      "akkusativ_parts": [
+        "viel Spaß"
+      ]
+    },
+    {
+      "id": "s8",
       "tense": "Imperativ",
       "german": "Hab bitte etwas Geduld!",
       "translation": {
         "ru": "Имей, пожалуйста, немного терпения!",
-        "en": "Please have a little patience!"
+        "en": "Please have some patience!"
       },
       "bracket_parts": [
         "Hab"

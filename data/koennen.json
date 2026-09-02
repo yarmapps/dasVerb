@@ -6,6 +6,7 @@
     "en": "can, to be able to"
   },
   "level": "A1",
+  "frequency_rank": 4,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "modal",
@@ -50,40 +51,104 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Er kann sehr gut Deutsch sprechen.",
+      "german": "Ich kann gut Deutsch sprechen",
       "translation": {
-        "ru": "Он умеет очень хорошо говорить по-немецки.",
-        "en": "He can speak German very well."
+        "ru": "Я умею хорошо говорить по-немецки",
+        "en": "I can speak German well"
       },
       "bracket_parts": [
-        "kann",
-        "sprechen"
+        "kann"
       ]
     },
     {
       "id": "s2",
-      "tense": "Präteritum",
-      "german": "Gestern konnte ich leider nicht kommen.",
+      "tense": "Präsens",
+      "german": "Kannst du mir bitte helfen?",
       "translation": {
-        "ru": "Вчера я, к сожалению, не смог прийти.",
-        "en": "Unfortunately I could not come yesterday."
+        "ru": "Ты можешь мне, пожалуйста, помочь?",
+        "en": "Can you please help me?"
       },
       "bracket_parts": [
-        "konnte",
-        "kommen"
+        "Kannst"
+      ],
+      "dativ_parts": [
+        "mir"
       ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Können Sie bitte kurz hier warten!",
+      "tense": "Präsens",
+      "german": "Er kann sehr schnell schwimmen",
       "translation": {
-        "ru": "Пожалуйста, подождите здесь минутку!",
-        "en": "Could you please wait here for a moment!"
+        "ru": "Он умеет очень быстро плавать",
+        "en": "He can swim very fast"
       },
       "bracket_parts": [
-        "Können",
-        "warten"
+        "kann"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir können morgen zusammen lernen",
+      "translation": {
+        "ru": "Мы можем завтра позаниматься вместе",
+        "en": "We can study together tomorrow"
+      },
+      "bracket_parts": [
+        "können"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Könnt ihr heute Abend kommen?",
+      "translation": {
+        "ru": "Вы можете прийти сегодня вечером?",
+        "en": "Can you come tonight?"
+      },
+      "bracket_parts": [
+        "Könnt"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern konnte sie die Aufgabe leicht lösen",
+      "translation": {
+        "ru": "Вчера она смогла легко решить задачу",
+        "en": "Yesterday she was able to solve the task easily"
+      },
+      "bracket_parts": [
+        "konnte"
+      ],
+      "akkusativ_parts": [
+        "die Aufgabe"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben gestern nicht kommen können",
+      "translation": {
+        "ru": "Они вчера не смогли прийти",
+        "en": "They could not come yesterday"
+      },
+      "bracket_parts": [
+        "haben",
+        "können"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Können Sie bitte kurz warten?",
+      "translation": {
+        "ru": "Не могли бы вы, пожалуйста, подождать минутку?",
+        "en": "Could you please wait a moment?"
+      },
+      "bracket_parts": [
+        "Können"
       ]
     }
   ]

@@ -143,6 +143,7 @@ export interface VerbCard {
   infinitive: string;                 // "anrufen"
   translation: TranslationMap;        // { ru: "звонить", en: "to call" }
   level: CEFRLevel;                   // "A1" | "A2" | "B1" | "B2"
+  frequency_rank: number;             // Позиция по частотности употребления (1 = sein, 2 = haben...)
   auxiliary: AuxiliaryVerb;           // "haben" | "sein" | "both"
   
   morphology: VerbMorphology;

@@ -6,6 +6,7 @@
     "en": "to talk (about), to discuss"
   },
   "level": "A2",
+  "frequency_rank": 30,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "strong",
@@ -55,47 +56,122 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Wir sprechen oft über unsere Zukunft.",
+      "german": "Ich spreche über dieses wichtige Thema",
       "translation": {
-        "ru": "Мы часто говорим о нашем будущем.",
-        "en": "We often talk about our future."
+        "ru": "Я говорю на эту важную тему",
+        "en": "I am talking about this important topic"
+      },
+      "bracket_parts": [
+        "spreche"
+      ],
+      "akkusativ_parts": [
+        "dieses wichtige Thema"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Sprichst du gerne über Politik?",
+      "translation": {
+        "ru": "Ты любишь говорить о политике?",
+        "en": "Do you like talking about politics?"
+      },
+      "bracket_parts": [
+        "Sprichst"
+      ],
+      "akkusativ_parts": [
+        "Politik"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er spricht über seine Zukunftspläne",
+      "translation": {
+        "ru": "Он рассказывает о своих планах на будущее",
+        "en": "He speaks about his plans for the future"
+      },
+      "bracket_parts": [
+        "spricht"
+      ],
+      "akkusativ_parts": [
+        "seine Zukunftspläne"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir sprechen über das neue Projekt",
+      "translation": {
+        "ru": "Мы говорим о новом проекте",
+        "en": "We are discussing the new project"
       },
       "bracket_parts": [
         "sprechen"
       ],
       "akkusativ_parts": [
-        "über unsere Zukunft"
+        "das neue Projekt"
       ]
     },
     {
-      "id": "s2",
-      "tense": "Perfekt",
-      "german": "Sie haben gestern lange über den neuen Plan gesprochen.",
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Sprecht ihr oft über eure Hobbys?",
       "translation": {
-        "ru": "Вчера они долго говорили о новом плане.",
-        "en": "Yesterday they talked for a long time about the new plan."
+        "ru": "Вы часто говорите о своих увлечениях?",
+        "en": "Do you often talk about your hobbies?"
+      },
+      "bracket_parts": [
+        "Sprecht"
+      ],
+      "akkusativ_parts": [
+        "eure Hobbys"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern sprach sie ausführlich über den Unfall",
+      "translation": {
+        "ru": "Вчера она подробно рассказала об аварии",
+        "en": "Yesterday she spoke in detail about the accident"
+      },
+      "bracket_parts": [
+        "sprach"
+      ],
+      "akkusativ_parts": [
+        "den Unfall"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben lange über das Problem gesprochen",
+      "translation": {
+        "ru": "Они долго говорили об этой проблеме",
+        "en": "They talked about the problem for a long time"
       },
       "bracket_parts": [
         "haben",
         "gesprochen"
       ],
       "akkusativ_parts": [
-        "über den neuen Plan"
+        "das Problem"
       ]
     },
     {
-      "id": "s3",
+      "id": "s8",
       "tense": "Imperativ",
-      "german": "Sprich bitte nicht über dieses Thema!",
+      "german": "Sprich bitte offen über deine Gefühle!",
       "translation": {
-        "ru": "Не говори, пожалуйста, на эту тему!",
-        "en": "Please do not talk about this topic!"
+        "ru": "Поговори, пожалуйста, открыто о своих чувствах!",
+        "en": "Please speak openly about your feelings!"
       },
       "bracket_parts": [
         "Sprich"
       ],
       "akkusativ_parts": [
-        "über dieses Thema"
+        "deine Gefühle"
       ]
     }
   ]

@@ -1,6 +1,8 @@
 {
+  "id": "freuen_sich_akk_auf",
   "infinitive": "sich freuen",
   "level": "A2",
+  "frequency_rank": 125,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "weak",
@@ -25,13 +27,20 @@
       "sie_Sie": "freuen sich",
       "root_vowel_change": null
     },
+    "praeteritum": {
+      "ich": "freute mich",
+      "du": "freutest dich",
+      "er_sie_es": "freute sich",
+      "wir": "freuten uns",
+      "ihr": "freutet euch",
+      "sie_Sie": "freuten sich"
+    },
     "imperative": {
       "du": "freu dich!",
       "ihr": "freut euch!",
       "Sie": "freuen Sie sich!"
     }
   },
-  "id": "freuen_sich_akk_auf",
   "translation": {
     "ru": "радоваться (предстоящему)",
     "en": "to look forward to"
@@ -47,50 +56,122 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich freue mich sehr auf den Urlaub.",
+      "german": "Ich freue mich sehr auf das Wochenende",
       "translation": {
-        "ru": "Я очень радуюсь предстоящему отпуску.",
-        "en": "I am really looking forward to the vacation."
+        "ru": "Я очень радуюсь предстоящим выходным",
+        "en": "I am really looking forward to the weekend"
       },
       "bracket_parts": [
-        "freue"
+        "freue mich"
       ],
       "akkusativ_parts": [
-        "mich",
-        "auf den Urlaub"
+        "das Wochenende"
       ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Wir haben uns sehr auf das Fest gefreut.",
+      "tense": "Präsens",
+      "german": "Freust du dich schon auf die Reise?",
       "translation": {
-        "ru": "Мы очень радовались предстоящему празднику.",
-        "en": "We were really looking forward to the celebration."
+        "ru": "Ты уже предвкушаешь поездку?",
+        "en": "Are you already looking forward to the trip?"
       },
       "bracket_parts": [
-        "haben",
-        "gefreut"
+        "Freust"
       ],
       "akkusativ_parts": [
-        "uns",
-        "auf das Fest"
+        "die Reise"
       ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Freu dich auf das schöne Wochenende!",
+      "tense": "Präsens",
+      "german": "Er freut sich auf seinen Geburtstag",
       "translation": {
-        "ru": "Радуйся прекрасному выходному!",
-        "en": "Look forward to the nice weekend!"
+        "ru": "Он ждет с нетерпением свой день рождения",
+        "en": "He is looking forward to his birthday"
       },
       "bracket_parts": [
-        "Freu"
+        "freut sich"
       ],
       "akkusativ_parts": [
-        "dich",
-        "auf das schöne Wochenende"
+        "seinen Geburtstag"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir freuen uns riesig auf deinen Besuch",
+      "translation": {
+        "ru": "Мы безумно рады твоему предстоящему визиту",
+        "en": "We are extremely looking forward to your visit"
+      },
+      "bracket_parts": [
+        "freuen uns"
+      ],
+      "akkusativ_parts": [
+        "deinen Besuch"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Freut ihr euch auf die Ferien?",
+      "translation": {
+        "ru": "Вы с нетерпением ждете каникул?",
+        "en": "Are you looking forward to the holidays?"
+      },
+      "bracket_parts": [
+        "Freut"
+      ],
+      "akkusativ_parts": [
+        "die Ferien"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie freute sich tagelang auf das Konzert",
+      "translation": {
+        "ru": "Она днями напролет ждала этого концерта",
+        "en": "She looked forward to the concert for days"
+      },
+      "bracket_parts": [
+        "freute sich"
+      ],
+      "akkusativ_parts": [
+        "das Konzert"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben sich sehr auf den Urlaub gefreut",
+      "translation": {
+        "ru": "Они с большим предвкушением ждали отпуска",
+        "en": "They were really looking forward to the vacation"
+      },
+      "bracket_parts": [
+        "haben sich",
+        "gefreut"
+      ],
+      "akkusativ_parts": [
+        "den Urlaub"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Freu dich auf die schöne Zeit!",
+      "translation": {
+        "ru": "Радуйся предстоящему прекрасному времени!",
+        "en": "Look forward to the great time!"
+      },
+      "bracket_parts": [
+        "Freu dich"
+      ],
+      "akkusativ_parts": [
+        "die schöne Zeit"
       ]
     }
   ]

@@ -6,6 +6,7 @@
     "en": "to go (to someone/somewhere)"
   },
   "level": "A1",
+  "frequency_rank": 12,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,35 +56,123 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich gehe heute Nachmittag zum Arzt.",
+      "german": "Ich gehe heute zu meinem Arzt",
       "translation": {
-        "ru": "Я сегодня во второй половине дня иду к врачу.",
-        "en": "I am going to the doctor this afternoon."
+        "ru": "Я иду сегодня к своему врачу",
+        "en": "I am going to my doctor today"
       },
-      "bracket_parts": ["gehe"],
-      "dativ_parts": ["zum Arzt"]
+      "bracket_parts": [
+        "gehe"
+      ],
+      "dativ_parts": [
+        "zu meinem Arzt"
+      ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Sie ist gestern zu Fuß zur Arbeit gegangen.",
+      "tense": "Präsens",
+      "german": "Gehst du heute Abend zur Party?",
       "translation": {
-        "ru": "Она вчера пошла на работу пешком.",
-        "en": "She walked to work yesterday."
+        "ru": "Ты пойдешь сегодня вечером на вечеринку?",
+        "en": "Are you going to the party tonight?"
       },
-      "bracket_parts": ["ist", "gegangen"],
-      "dativ_parts": ["zur Arbeit"]
+      "bracket_parts": [
+        "Gehst"
+      ],
+      "dativ_parts": [
+        "zur Party"
+      ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Geh bitte sofort zu deiner Schwester!",
+      "tense": "Präsens",
+      "german": "Er geht morgen zum Vorstellungsgespräch",
       "translation": {
-        "ru": "Иди, пожалуйста, немедленно к своей сестре!",
-        "en": "Please go to your sister immediately!"
+        "ru": "Завтра он идет на собеседование",
+        "en": "He is going to a job interview tomorrow"
       },
-      "bracket_parts": ["Geh"],
-      "dativ_parts": ["zu deiner Schwester"]
+      "bracket_parts": [
+        "geht"
+      ],
+      "dativ_parts": [
+        "zum Vorstellungsgespräch"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir gehen am Wochenende zu unseren Freunden",
+      "translation": {
+        "ru": "На выходных мы идем к нашим друзьям",
+        "en": "We are visiting our friends on the weekend"
+      },
+      "bracket_parts": [
+        "gehen"
+      ],
+      "dativ_parts": [
+        "zu unseren Freunden"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Geht ihr heute zum Bahnhof?",
+      "translation": {
+        "ru": "Вы идете сегодня на вокзал?",
+        "en": "Are you walking to the station today?"
+      },
+      "bracket_parts": [
+        "Geht"
+      ],
+      "dativ_parts": [
+        "zum Bahnhof"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern ging sie eilig zum Bus",
+      "translation": {
+        "ru": "Вчера она поспешила к автобусу",
+        "en": "Yesterday she walked hurriedly to the bus"
+      },
+      "bracket_parts": [
+        "ging"
+      ],
+      "dativ_parts": [
+        "zum Bus"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind gestern zu Fuß zur Schule gegangen",
+      "translation": {
+        "ru": "Они вчера пошли пешком в школу",
+        "en": "They walked to school yesterday"
+      },
+      "bracket_parts": [
+        "sind",
+        "gegangen"
+      ],
+      "dativ_parts": [
+        "zur Schule"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Geh bitte jetzt zum Bäcker!",
+      "translation": {
+        "ru": "Сходи, пожалуйста, сейчас в булочную!",
+        "en": "Please go to the bakery now!"
+      },
+      "bracket_parts": [
+        "Geh"
+      ],
+      "dativ_parts": [
+        "zum Bäcker"
+      ]
     }
   ]
 }

@@ -6,6 +6,7 @@
     "en": "to be"
   },
   "level": "A1",
+  "frequency_rank": 1,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "auxiliary",
@@ -55,10 +56,10 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich bin heute sehr müde.",
+      "german": "Ich bin heute sehr glücklich",
       "translation": {
-        "ru": "Я сегодня очень устал.",
-        "en": "I am very tired today."
+        "ru": "Я сегодня очень счастлив",
+        "en": "I am very happy today"
       },
       "bracket_parts": [
         "bin"
@@ -66,33 +67,87 @@
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Wir sind gestern im Kino gewesen.",
+      "tense": "Präsens",
+      "german": "Bist du heute zu Hause?",
       "translation": {
-        "ru": "Мы вчера были в кино.",
-        "en": "We were at the cinema yesterday."
+        "ru": "Ты сегодня дома?",
+        "en": "Are you at home today?"
       },
       "bracket_parts": [
-        "sind",
-        "gewesen"
-      ],
-      "dativ_parts": [
-        "in Berlin"
+        "Bist"
       ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Sei bitte leise im Lesesaal!",
+      "tense": "Präsens",
+      "german": "Er ist ein sehr freundlicher Mensch",
       "translation": {
-        "ru": "Будь, пожалуйста, потише в читальном зале!",
-        "en": "Please be quiet in the reading room!"
+        "ru": "Он очень дружелюбный человек",
+        "en": "He is a very friendly person"
+      },
+      "bracket_parts": [
+        "ist"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir sind immer pünktlich im Büro",
+      "translation": {
+        "ru": "Мы всегда пунктуальны в офисе",
+        "en": "We are always on time in the office"
+      },
+      "bracket_parts": [
+        "sind"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Seid ihr bereit für den Ausflug?",
+      "translation": {
+        "ru": "Вы готовы к поездке?",
+        "en": "Are you ready for the trip?"
+      },
+      "bracket_parts": [
+        "Seid"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern war sie den ganzen Tag müde",
+      "translation": {
+        "ru": "Вчера она весь день была уставшей",
+        "en": "Yesterday she was tired all day"
+      },
+      "bracket_parts": [
+        "war"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind schon einmal in Berlin gewesen",
+      "translation": {
+        "ru": "Они уже бывали в Берлине",
+        "en": "They have been to Berlin before"
+      },
+      "bracket_parts": [
+        "sind",
+        "gewesen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Sei bitte vorsichtig!",
+      "translation": {
+        "ru": "Будь, пожалуйста, осторожен!",
+        "en": "Please be careful!"
       },
       "bracket_parts": [
         "Sei"
-      ],
-      "dativ_parts": [
-        "im Lesesaal"
       ]
     }
   ]

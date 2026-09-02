@@ -6,6 +6,7 @@
     "en": "to call, to phone"
   },
   "level": "A1",
+  "frequency_rank": 120,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "strong",
@@ -55,10 +56,10 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich rufe dich heute Abend an.",
+      "german": "Ich rufe dich heute Abend an",
       "translation": {
-        "ru": "Я позвоню тебе сегодня вечером.",
-        "en": "I will call you this evening."
+        "ru": "Я позвоню тебе сегодня вечером",
+        "en": "I will call you this evening"
       },
       "bracket_parts": [
         "rufe",
@@ -70,22 +71,102 @@
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Er hat seinen Freund gestern angerufen.",
+      "tense": "Präsens",
+      "german": "Rufst du morgen den Arzt an?",
       "translation": {
-        "ru": "Он вчера позвонил своему другу.",
-        "en": "He called his friend yesterday."
+        "ru": "Ты позвонишь завтра врачу?",
+        "en": "Will you call the doctor tomorrow?"
       },
       "bracket_parts": [
-        "hat",
-        "angerufen"
+        "Rufst",
+        "an"
       ],
       "akkusativ_parts": [
-        "seinen Freund"
+        "den Arzt"
       ]
     },
     {
       "id": "s3",
+      "tense": "Präsens",
+      "german": "Er ruft seine Schwester an",
+      "translation": {
+        "ru": "Он звонит своей сестре",
+        "en": "He is calling his sister"
+      },
+      "bracket_parts": [
+        "ruft",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "seine Schwester"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir rufen später unsere Kollegen an",
+      "translation": {
+        "ru": "Мы позже позвоним нашим коллегам",
+        "en": "We will call our colleagues later"
+      },
+      "bracket_parts": [
+        "rufen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "unsere Kollegen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Ruft ihr heute eure Eltern an?",
+      "translation": {
+        "ru": "Вы позвоните сегодня вашим родителям?",
+        "en": "Are you calling your parents today?"
+      },
+      "bracket_parts": [
+        "Ruft",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "eure Eltern"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern rief sie mich überraschend an",
+      "translation": {
+        "ru": "Вчера она неожиданно позвонила мне",
+        "en": "Yesterday she called me unexpectedly"
+      },
+      "bracket_parts": [
+        "rief",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben uns gestern nicht angerufen",
+      "translation": {
+        "ru": "Они вчера нам не позвонили",
+        "en": "They did not call us yesterday"
+      },
+      "bracket_parts": [
+        "haben",
+        "angerufen"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ]
+    },
+    {
+      "id": "s8",
       "tense": "Imperativ",
       "german": "Ruf mich bitte morgen an!",
       "translation": {

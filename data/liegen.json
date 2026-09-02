@@ -2,10 +2,11 @@
   "id": "liegen",
   "infinitive": "liegen",
   "translation": {
-    "ru": "лежать, находиться (состояние)",
-    "en": "to lie, to be situated (state)"
+    "ru": "лежать (состояние)",
+    "en": "to lie, to be lying (state)"
   },
   "level": "A1",
+  "frequency_rank": 48,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "strong",
@@ -55,47 +56,122 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Das Buch liegt auf dem Tisch.",
+      "german": "Ich liege gerne auf dem Sofa",
       "translation": {
-        "ru": "Книга лежит на столе.",
-        "en": "The book is lying on the table."
+        "ru": "Я люблю лежать на диване",
+        "en": "I like lying on the sofa"
+      },
+      "bracket_parts": [
+        "liege"
+      ],
+      "dativ_parts": [
+        "dem Sofa"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Liegst du noch auf der Liege?",
+      "translation": {
+        "ru": "Ты все еще лежишь на шезлонге?",
+        "en": "Are you still lying on the lounger?"
+      },
+      "bracket_parts": [
+        "Liegst"
+      ],
+      "dativ_parts": [
+        "der Liege"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Buch liegt auf dem Tisch",
+      "translation": {
+        "ru": "Книга лежит на столе",
+        "en": "The book is lying on the table"
       },
       "bracket_parts": [
         "liegt"
       ],
       "dativ_parts": [
-        "auf dem Tisch"
+        "dem Tisch"
       ]
     },
     {
-      "id": "s2",
-      "tense": "Perfekt",
-      "german": "Das Handy hat gestern auf dem Sofa gelegen.",
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir liegen sonntags auf dem Rasen",
       "translation": {
-        "ru": "Телефон вчера лежал на диване.",
-        "en": "The mobile phone was lying on the sofa yesterday."
+        "ru": "По воскресеньям мы лежим на газоне",
+        "en": "On Sundays we lie on the lawn"
       },
       "bracket_parts": [
-        "hat",
+        "liegen"
+      ],
+      "dativ_parts": [
+        "dem Rasen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Liegt ihr oft auf dem Balkon?",
+      "translation": {
+        "ru": "Вы часто лежите на балконе?",
+        "en": "Do you often lie on the balcony?"
+      },
+      "bracket_parts": [
+        "Liegt"
+      ],
+      "dativ_parts": [
+        "dem Balkon"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern lag der Hund auf dem Teppich",
+      "translation": {
+        "ru": "Вчера собака лежала на ковре",
+        "en": "Yesterday the dog lay on the carpet"
+      },
+      "bracket_parts": [
+        "lag"
+      ],
+      "dativ_parts": [
+        "dem Teppich"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben lange auf dem Boden gelegen",
+      "translation": {
+        "ru": "Они долго лежали на полу",
+        "en": "They lay on the floor for a long time"
+      },
+      "bracket_parts": [
+        "haben",
         "gelegen"
       ],
       "dativ_parts": [
-        "auf dem Sofa"
+        "dem Boden"
       ]
     },
     {
-      "id": "s3",
+      "id": "s8",
       "tense": "Imperativ",
-      "german": "Lieg bitte nicht den ganzen Tag auf dem Sofa!",
+      "german": "Lieg bitte ruhig auf dem Rücken!",
       "translation": {
-        "ru": "Не лежи весь день на диване!",
-        "en": "Please don't lie on the sofa all day!"
+        "ru": "Полежи, пожалуйста, спокойно на спине!",
+        "en": "Please lie calmly on your back!"
       },
       "bracket_parts": [
         "Lieg"
       ],
       "dativ_parts": [
-        "auf dem Sofa"
+        "dem Rücken"
       ]
     }
   ]

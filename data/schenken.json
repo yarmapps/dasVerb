@@ -6,6 +6,7 @@
     "en": "to give as a present, to gift"
   },
   "level": "A2",
+  "frequency_rank": 140,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "weak",
@@ -55,38 +56,149 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich schenke meiner Mutter schöne Blumen.",
+      "german": "Ich schenke dir ein schönes Buch",
       "translation": {
-        "ru": "Я дарю своей маме красивые цветы.",
-        "en": "I give my mother beautiful flowers."
+        "ru": "Я дарю тебе хорошую книгу",
+        "en": "I give you a nice book as a present"
       },
-      "bracket_parts": ["schenke"],
-      "dativ_parts": ["meiner Mutter"],
-      "akkusativ_parts": ["schöne Blumen"]
+      "bracket_parts": [
+        "schenke"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "ein schönes Buch"
+      ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Er hat seinem Freund ein Buch geschenkt.",
+      "tense": "Präsens",
+      "german": "Schenkst du deiner Mutter Blumen zum Geburtstag?",
       "translation": {
-        "ru": "Он подарил своему другу книгу.",
-        "en": "He gave his friend a book as a gift."
+        "ru": "Ты подаришь маме цветы на день рождения?",
+        "en": "Are you giving your mother flowers for her birthday?"
       },
-      "bracket_parts": ["hat", "geschenkt"],
-      "dativ_parts": ["seinem Freund"],
-      "akkusativ_parts": ["ein Buch"]
+      "bracket_parts": [
+        "Schenkst"
+      ],
+      "dativ_parts": [
+        "deiner Mutter",
+        "zum Geburtstag"
+      ],
+      "akkusativ_parts": [
+        "Blumen"
+      ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Schenk ihr doch diese schöne Kette!",
+      "tense": "Präsens",
+      "german": "Er schenkt seinem Freund eine Konzertkarte",
       "translation": {
-        "ru": "Подари ей эту красивую цепочку!",
-        "en": "Give her this beautiful necklace!"
+        "ru": "Он дарит своему другу билет на концерт",
+        "en": "He gives his friend a concert ticket"
       },
-      "bracket_parts": ["Schenk"],
-      "dativ_parts": ["ihr"],
-      "akkusativ_parts": ["diese schöne Kette"]
+      "bracket_parts": [
+        "schenkt"
+      ],
+      "dativ_parts": [
+        "seinem Freund"
+      ],
+      "akkusativ_parts": [
+        "eine Konzertkarte"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir schenken den Großeltern ein Familienfoto",
+      "translation": {
+        "ru": "Мы дарим бабушке и дедушке семейную фотографию",
+        "en": "We give our grandparents a family photo"
+      },
+      "bracket_parts": [
+        "schenken"
+      ],
+      "dativ_parts": [
+        "den Großeltern"
+      ],
+      "akkusativ_parts": [
+        "ein Familienfoto"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Schenkt ihr den Kindern Spielzeug zu Weihnachten?",
+      "translation": {
+        "ru": "Вы дарите детям игрушки на Рождество?",
+        "en": "Are you giving the children toys for Christmas?"
+      },
+      "bracket_parts": [
+        "Schenkt"
+      ],
+      "dativ_parts": [
+        "den Kindern",
+        "Weihnachten"
+      ],
+      "akkusativ_parts": [
+        "Spielzeug"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern schenkte sie ihm eine warme Mütze",
+      "translation": {
+        "ru": "Вчера она подарила ему теплую шапку",
+        "en": "Yesterday she gave him a warm beanie"
+      },
+      "bracket_parts": [
+        "schenkte"
+      ],
+      "dativ_parts": [
+        "ihm"
+      ],
+      "akkusativ_parts": [
+        "eine warme Mütze"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben uns eine wunderschöne Reise geschenkt",
+      "translation": {
+        "ru": "Они подарили нам прекрасную поездку",
+        "en": "They gave us a wonderful trip"
+      },
+      "bracket_parts": [
+        "haben",
+        "geschenkt"
+      ],
+      "dativ_parts": [
+        "uns"
+      ],
+      "akkusativ_parts": [
+        "eine wunderschöne Reise"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Schenk ihr bitte ein Lächeln!",
+      "translation": {
+        "ru": "Подари ей, пожалуйста, улыбку!",
+        "en": "Please give her a smile!"
+      },
+      "bracket_parts": [
+        "Schenk"
+      ],
+      "dativ_parts": [
+        "ihr"
+      ],
+      "akkusativ_parts": [
+        "ein Lächeln"
+      ]
     }
   ]
 }

@@ -71,6 +71,51 @@ jest.mock('expo-sqlite', () => ({
   }),
 }));
 
+jest.mock('expo-audio', () => ({
+  createAudioPlayer: jest.fn(() => ({
+    play: jest.fn(),
+    pause: jest.fn(),
+    seekTo: jest.fn(),
+    remove: jest.fn(),
+  })),
+}));
+
+jest.mock('expo-speech', () => ({
+  speak: jest.fn(),
+  stop: jest.fn(),
+  isSpeakingAsync: jest.fn().mockResolvedValue(false),
+  getAvailableVoicesAsync: jest.fn().mockResolvedValue([
+    {
+      identifier: 'com.apple.voice.compact.de-DE.Anna',
+      name: 'Anna',
+      language: 'de-DE',
+      gender: 'female',
+    },
+    {
+      identifier: 'com.apple.voice.compact.de-DE.Martin',
+      name: 'Martin',
+      language: 'de-DE',
+      gender: 'male',
+    },
+  ]),
+}));
+
+jest.mock('expo-haptics', () => ({
+  impactAsync: jest.fn().mockResolvedValue(undefined),
+  notificationAsync: jest.fn().mockResolvedValue(undefined),
+  selectionAsync: jest.fn().mockResolvedValue(undefined),
+  ImpactFeedbackStyle: {
+    Light: 'light',
+    Medium: 'medium',
+    Heavy: 'heavy',
+  },
+  NotificationFeedbackType: {
+    Success: 'success',
+    Warning: 'warning',
+    Error: 'error',
+  },
+}));
+
 jest.mock('react-intl', () => {
   const { getMessages } = require('./src/services/intlService');
   return {
@@ -92,3 +137,63 @@ jest.mock('react-intl', () => {
     },
   };
 });
+
+jest.mock('react-native-google-mobile-ads', () => {
+  const createMockAd = () => {
+    const instanceListeners = new Map();
+    let isLoaded = false;
+    return {
+      load: jest.fn(() => {
+        isLoaded = true;
+        const loadHandlers = instanceListeners.get('loaded') || [];
+        loadHandlers.forEach(h => h());
+      }),
+      show: jest.fn(() => {
+        const rewardHandlers = instanceListeners.get('rewarded_earned_reward') || [];
+        rewardHandlers.forEach(h => h({ type: 'reward', amount: 1 }));
+        const closeHandlers = instanceListeners.get('closed') || [];
+        closeHandlers.forEach(h => h());
+      }),
+      addAdEventListener: jest.fn((event, handler) => {
+        if (!instanceListeners.has(event)) {
+          instanceListeners.set(event, []);
+        }
+        instanceListeners.get(event).push(handler);
+        if (event === 'loaded' && isLoaded) {
+          handler();
+        }
+        return jest.fn(() => {
+          const handlers = instanceListeners.get(event) || [];
+          instanceListeners.set(
+            event,
+            handlers.filter(h => h !== handler),
+          );
+        });
+      }),
+    };
+  };
+
+  return {
+    TestIds: {
+      INTERSTITIAL: 'ca-app-pub-3940256099942544/1033173712',
+      REWARDED: 'ca-app-pub-3940256099942544/5224354917',
+      BANNER: 'ca-app-pub-3940256099942544/6300978111',
+    },
+    AdEventType: {
+      LOADED: 'loaded',
+      CLOSED: 'closed',
+      ERROR: 'error',
+    },
+    RewardedAdEventType: {
+      LOADED: 'loaded',
+      EARNED_REWARD: 'rewarded_earned_reward',
+    },
+    InterstitialAd: {
+      createForAdRequest: jest.fn(() => createMockAd()),
+    },
+    RewardedAd: {
+      createForAdRequest: jest.fn(() => createMockAd()),
+    },
+  };
+});
+

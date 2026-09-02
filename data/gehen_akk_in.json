@@ -6,6 +6,7 @@
     "en": "to go, to walk (into/where to)"
   },
   "level": "A1",
+  "frequency_rank": 12,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,35 +56,123 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich gehe jetzt in den Park.",
+      "german": "Ich gehe heute Abend ins Kino",
       "translation": {
-        "ru": "Я сейчас иду в парк.",
-        "en": "I am going to the park now."
+        "ru": "Я иду сегодня вечером в кино",
+        "en": "I am going to the cinema tonight"
       },
-      "bracket_parts": ["gehe"],
-      "akkusativ_parts": ["in den Park"]
+      "bracket_parts": [
+        "gehe"
+      ],
+      "akkusativ_parts": [
+        "Kino"
+      ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Wir sind gestern ins Kino gegangen.",
+      "tense": "Präsens",
+      "german": "Gehst du morgen in die Schule?",
       "translation": {
-        "ru": "Вчера мы пошли в кино.",
-        "en": "We went to the cinema yesterday."
+        "ru": "Ты пойдешь завтра в школу?",
+        "en": "Are you going to school tomorrow?"
       },
-      "bracket_parts": ["sind", "gegangen"],
-      "akkusativ_parts": ["ins Kino"]
+      "bracket_parts": [
+        "Gehst"
+      ],
+      "akkusativ_parts": [
+        "die Schule"
+      ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Geh bitte pünktlich in die Schule!",
+      "tense": "Präsens",
+      "german": "Er geht jeden Morgen in den Park",
       "translation": {
-        "ru": "Иди, пожалуйста, вовремя в школу!",
-        "en": "Please go to school on time!"
+        "ru": "Каждое утро он идет в парк",
+        "en": "He goes to the park every morning"
       },
-      "bracket_parts": ["Geh"],
-      "akkusativ_parts": ["in die Schule"]
+      "bracket_parts": [
+        "geht"
+      ],
+      "akkusativ_parts": [
+        "den Park"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir gehen am Wochenende ins Theater",
+      "translation": {
+        "ru": "На выходных мы идем в театр",
+        "en": "We are going to the theater on the weekend"
+      },
+      "bracket_parts": [
+        "gehen"
+      ],
+      "akkusativ_parts": [
+        "Theater"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Geht ihr heute in die Bibliothek?",
+      "translation": {
+        "ru": "Вы идете сегодня в библиотеку?",
+        "en": "Are you going to the library today?"
+      },
+      "bracket_parts": [
+        "Geht"
+      ],
+      "akkusativ_parts": [
+        "die Bibliothek"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern ging sie leise in das Zimmer",
+      "translation": {
+        "ru": "Вчера она тихо зашла в комнату",
+        "en": "Yesterday she went quietly into the room"
+      },
+      "bracket_parts": [
+        "ging"
+      ],
+      "akkusativ_parts": [
+        "das Zimmer"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind gestern ins Museum gegangen",
+      "translation": {
+        "ru": "Они вчера пошли в музей",
+        "en": "They went to the museum yesterday"
+      },
+      "bracket_parts": [
+        "sind",
+        "gegangen"
+      ],
+      "akkusativ_parts": [
+        "Museum"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Geh bitte schnell in die Küche!",
+      "translation": {
+        "ru": "Иди, пожалуйста, быстро на кухню!",
+        "en": "Please go quickly into the kitchen!"
+      },
+      "bracket_parts": [
+        "Geh"
+      ],
+      "akkusativ_parts": [
+        "die Küche"
+      ]
     }
   ]
 }

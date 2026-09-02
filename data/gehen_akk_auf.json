@@ -6,6 +6,7 @@
     "en": "to go (to an event/onto surface)"
   },
   "level": "A1",
+  "frequency_rank": 12,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,35 +56,123 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Wir gehen heute Abend auf eine Party.",
+      "german": "Ich gehe heute auf die Party",
       "translation": {
-        "ru": "Мы сегодня вечером идем на вечеринку.",
-        "en": "We are going to a party tonight."
+        "ru": "Я иду сегодня на вечеринку",
+        "en": "I am going to the party today"
       },
-      "bracket_parts": ["gehen"],
-      "akkusativ_parts": ["auf eine Party"]
+      "bracket_parts": [
+        "gehe"
+      ],
+      "akkusativ_parts": [
+        "die Party"
+      ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Sie ist gestern früh auf den Markt gegangen.",
+      "tense": "Präsens",
+      "german": "Gehst du morgen auf den Markt?",
       "translation": {
-        "ru": "Она вчера рано утром пошла на рынок.",
-        "en": "She went to the market early yesterday morning."
+        "ru": "Ты пойдешь завтра на рынок?",
+        "en": "Are you going to the market tomorrow?"
       },
-      "bracket_parts": ["ist", "gegangen"],
-      "akkusativ_parts": ["auf den Markt"]
+      "bracket_parts": [
+        "Gehst"
+      ],
+      "akkusativ_parts": [
+        "den Markt"
+      ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Geh bitte vorsichtig auf die Straße!",
+      "tense": "Präsens",
+      "german": "Er geht am Abend auf das Konzert",
       "translation": {
-        "ru": "Выходи, пожалуйста, осторожно на улицу/проезжую часть!",
-        "en": "Please walk carefully onto the street!"
+        "ru": "Вечером он идет на концерт",
+        "en": "He is going to the concert in the evening"
       },
-      "bracket_parts": ["Geh"],
-      "akkusativ_parts": ["auf die Straße"]
+      "bracket_parts": [
+        "geht"
+      ],
+      "akkusativ_parts": [
+        "das Konzert"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir gehen am Samstag auf ein Festival",
+      "translation": {
+        "ru": "В субботу мы идем на фестиваль",
+        "en": "We are going to a festival on Saturday"
+      },
+      "bracket_parts": [
+        "gehen"
+      ],
+      "akkusativ_parts": [
+        "ein Festival"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Geht ihr heute auf den Spielplatz?",
+      "translation": {
+        "ru": "Вы идете сегодня на игровую площадку?",
+        "en": "Are you going to the playground today?"
+      },
+      "bracket_parts": [
+        "Geht"
+      ],
+      "akkusativ_parts": [
+        "den Spielplatz"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern ging sie auf den Turm",
+      "translation": {
+        "ru": "Вчера она поднялась на башню",
+        "en": "Yesterday she went up the tower"
+      },
+      "bracket_parts": [
+        "ging"
+      ],
+      "akkusativ_parts": [
+        "den Turm"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind gestern auf die Straße gegangen",
+      "translation": {
+        "ru": "Они вчера вышли на улицу",
+        "en": "They went out onto the street yesterday"
+      },
+      "bracket_parts": [
+        "sind",
+        "gegangen"
+      ],
+      "akkusativ_parts": [
+        "die Straße"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Geh bitte auf die Seite!",
+      "translation": {
+        "ru": "Отойди, пожалуйста, в сторону!",
+        "en": "Please step to the side!"
+      },
+      "bracket_parts": [
+        "Geh"
+      ],
+      "akkusativ_parts": [
+        "die Seite"
+      ]
     }
   ]
 }

@@ -1,6 +1,7 @@
 {
   "infinitive": "helfen",
   "level": "A1",
+  "frequency_rank": 75,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "strong",
@@ -55,47 +56,122 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Kannst du mir bitte helfen?",
+      "german": "Ich helfe dir sehr gerne",
       "translation": {
-        "ru": "Можешь мне, пожалуйста, помочь?",
-        "en": "Can you please help me?"
+        "ru": "Я с удовольствием помогу тебе",
+        "en": "I am very happy to help you"
       },
       "bracket_parts": [
-        "helfen"
+        "helfe"
+      ],
+      "dativ_parts": [
+        "dir"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Hilfst du mir bitte bei den Hausaufgaben?",
+      "translation": {
+        "ru": "Поможешь мне, пожалуйста, с домашним заданием?",
+        "en": "Can you please help me with the homework?"
+      },
+      "bracket_parts": [
+        "Hilfst"
       ],
       "dativ_parts": [
         "mir"
       ]
     },
     {
-      "id": "s2",
-      "tense": "Perfekt",
-      "german": "Er hat seiner Nachbarin geholfen.",
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er hilft seinem Nachbarn im Garten",
       "translation": {
-        "ru": "Он помог своей соседке.",
-        "en": "He helped his neighbor."
+        "ru": "Он помогает своему соседу в саду",
+        "en": "He helps his neighbor in the garden"
       },
       "bracket_parts": [
-        "hat",
-        "geholfen"
+        "hilft"
       ],
       "dativ_parts": [
-        "seiner Nachbarin"
+        "seinem Nachbarn"
       ]
     },
     {
-      "id": "s3",
-      "tense": "Imperativ",
-      "german": "Hilf deinem kleinen Bruder!",
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir helfen den Touristen in der Stadt",
       "translation": {
-        "ru": "Помоги своему младшему брату!",
-        "en": "Help your little brother!"
+        "ru": "Мы помогаем туристам в городе",
+        "en": "We help the tourists in the city"
+      },
+      "bracket_parts": [
+        "helfen"
+      ],
+      "dativ_parts": [
+        "den Touristen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Helft ihr euren Freunden beim Umzug?",
+      "translation": {
+        "ru": "Вы помогаете вашим друзьям с переездом?",
+        "en": "Are you helping your friends with the move?"
+      },
+      "bracket_parts": [
+        "Helft"
+      ],
+      "dativ_parts": [
+        "euren Freunden"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern half sie einer alten Dame über die Straße",
+      "translation": {
+        "ru": "Вчера она помогла пожилой даме перейти улицу",
+        "en": "Yesterday she helped an elderly lady cross the street"
+      },
+      "bracket_parts": [
+        "half"
+      ],
+      "dativ_parts": [
+        "einer alten Dame"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben uns gestern sehr geholfen",
+      "translation": {
+        "ru": "Они вчера нам очень помогли",
+        "en": "They helped us a lot yesterday"
+      },
+      "bracket_parts": [
+        "haben",
+        "geholfen"
+      ],
+      "dativ_parts": [
+        "uns"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Hilf mir bitte kurz!",
+      "translation": {
+        "ru": "Помоги мне, пожалуйста, на минутку!",
+        "en": "Please help me for a moment!"
       },
       "bracket_parts": [
         "Hilf"
       ],
       "dativ_parts": [
-        "deinem kleinen Bruder"
+        "mir"
       ]
     }
   ]

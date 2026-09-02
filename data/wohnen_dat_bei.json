@@ -1,6 +1,7 @@
 {
   "infinitive": "wohnen",
   "level": "A1",
+  "frequency_rank": 70,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "weak",
@@ -55,47 +56,122 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Er wohnt noch bei seinen Eltern.",
+      "german": "Ich wohne zurzeit bei meinen Eltern",
       "translation": {
-        "ru": "Он всё еще живет у своих родителей.",
-        "en": "He still lives with his parents."
+        "ru": "Сейчас я живу у своих родителей",
+        "en": "I am currently living with my parents"
+      },
+      "bracket_parts": [
+        "wohne"
+      ],
+      "dativ_parts": [
+        "meinen Eltern"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Wohnst du noch bei deiner Familie?",
+      "translation": {
+        "ru": "Ты все еще живешь с семьей?",
+        "en": "Do you still live with your family?"
+      },
+      "bracket_parts": [
+        "Wohnst"
+      ],
+      "dativ_parts": [
+        "deiner Familie"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er wohnt während des Studiums bei seinem Onkel",
+      "translation": {
+        "ru": "Во время учебы он живет у своего дяди",
+        "en": "He lives with his uncle during his studies"
       },
       "bracket_parts": [
         "wohnt"
       ],
       "dativ_parts": [
-        "bei seinen Eltern"
+        "seinem Onkel"
       ]
     },
     {
-      "id": "s2",
-      "tense": "Perfekt",
-      "german": "Sie hat während des Studiums bei ihrer Tante gewohnt.",
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir wohnen im Urlaub bei guten Freunden",
       "translation": {
-        "ru": "Она во время учебы жила у своей тети.",
-        "en": "She lived with her aunt during her studies."
+        "ru": "В отпуске мы живем у хороших друзей",
+        "en": "On vacation we stay with good friends"
       },
       "bracket_parts": [
-        "hat",
+        "wohnen"
+      ],
+      "dativ_parts": [
+        "guten Freunden"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Wohnt ihr vorübergehend bei den Großeltern?",
+      "translation": {
+        "ru": "Вы временно живете у бабушки с дедушкой?",
+        "en": "Are you temporarily staying with your grandparents?"
+      },
+      "bracket_parts": [
+        "Wohnt"
+      ],
+      "dativ_parts": [
+        "den Großeltern"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie wohnte ein ganzes Jahr bei einer Gastfamilie",
+      "translation": {
+        "ru": "Она целый год прожила в принимающей семье",
+        "en": "She lived with a host family for a whole year"
+      },
+      "bracket_parts": [
+        "wohnte"
+      ],
+      "dativ_parts": [
+        "einer Gastfamilie"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben damals lange bei Verwandten gewohnt",
+      "translation": {
+        "ru": "Они тогда долго жили у родственников",
+        "en": "They lived with relatives for a long time back then"
+      },
+      "bracket_parts": [
+        "haben",
         "gewohnt"
       ],
       "dativ_parts": [
-        "bei ihrer Tante"
+        "Verwandten"
       ]
     },
     {
-      "id": "s3",
+      "id": "s8",
       "tense": "Imperativ",
-      "german": "Wohn doch für ein paar Tage bei uns!",
+      "german": "Wohn bitte während der Konferenz bei uns!",
       "translation": {
-        "ru": "Поживи пару дней у нас!",
-        "en": "Stay with us for a couple of days!"
+        "ru": "Поживи, пожалуйста, во время конференции у нас!",
+        "en": "Please stay with us during the conference!"
       },
       "bracket_parts": [
         "Wohn"
       ],
       "dativ_parts": [
-        "bei uns"
+        "uns"
       ]
     }
   ]

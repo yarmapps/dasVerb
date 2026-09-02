@@ -1,6 +1,7 @@
 {
   "infinitive": "kommen",
   "level": "A1",
+  "frequency_rank": 9,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,10 +56,25 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Kommst du heute Abend zu mir?",
+      "german": "Ich komme heute zu deiner Party",
       "translation": {
-        "ru": "Ты придешь сегодня вечером ко мне?",
-        "en": "Are you coming to my place tonight?"
+        "ru": "Я приду сегодня на твою вечеринку",
+        "en": "I am coming to your party today"
+      },
+      "bracket_parts": [
+        "komme"
+      ],
+      "dativ_parts": [
+        "zu deiner Party"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Kommst du morgen zu mir?",
+      "translation": {
+        "ru": "Ты придешь завтра ко мне?",
+        "en": "Are you coming to my place tomorrow?"
       },
       "bracket_parts": [
         "Kommst"
@@ -68,34 +84,94 @@
       ]
     },
     {
-      "id": "s2",
-      "tense": "Perfekt",
-      "german": "Wir sind pünktlich zum Treffen gekommen.",
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er kommt am Nachmittag zum Arzt",
       "translation": {
-        "ru": "Мы пришли вовремя на встречу.",
-        "en": "We came to the meeting on time."
+        "ru": "Во второй половине дня он приходит к врачу",
+        "en": "He comes to the doctor in the afternoon"
       },
       "bracket_parts": [
-        "sind",
-        "gekommen"
+        "kommt"
+      ],
+      "dativ_parts": [
+        "zum Arzt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir kommen gerne zu eurem Fest",
+      "translation": {
+        "ru": "Мы с удовольствием придем на ваш праздник",
+        "en": "We are happy to come to your celebration"
+      },
+      "bracket_parts": [
+        "kommen"
+      ],
+      "dativ_parts": [
+        "zu eurem Fest"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kommt ihr heute zum Abendessen?",
+      "translation": {
+        "ru": "Вы придете сегодня на ужин?",
+        "en": "Are you coming to dinner today?"
+      },
+      "bracket_parts": [
+        "Kommt"
+      ],
+      "dativ_parts": [
+        "zum Abendessen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern kam sie pünktlich zum Treffen",
+      "translation": {
+        "ru": "Вчера она пришла вовремя на встречу",
+        "en": "Yesterday she came on time to the meeting"
+      },
+      "bracket_parts": [
+        "kam"
       ],
       "dativ_parts": [
         "zum Treffen"
       ]
     },
     {
-      "id": "s3",
-      "tense": "Imperativ",
-      "german": "Komm bitte morgen zu meiner Party!",
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind gestern zu uns zu Besuch gekommen",
       "translation": {
-        "ru": "Приходи, пожалуйста, завтра на мою вечеринку!",
-        "en": "Please come to my party tomorrow!"
+        "ru": "Они вчера пришли к нам в гости",
+        "en": "They came to visit us yesterday"
+      },
+      "bracket_parts": [
+        "sind",
+        "gekommen"
+      ],
+      "dativ_parts": [
+        "zu uns"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Komm bitte schnell zu mir!",
+      "translation": {
+        "ru": "Подойди, пожалуйста, быстрее ко мне!",
+        "en": "Please come to me quickly!"
       },
       "bracket_parts": [
         "Komm"
       ],
       "dativ_parts": [
-        "zu meiner Party"
+        "zu mir"
       ]
     }
   ]

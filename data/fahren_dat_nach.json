@@ -1,6 +1,7 @@
 {
   "infinitive": "fahren",
   "level": "A1",
+  "frequency_rank": 33,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,47 +56,122 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich fahre heute direkt nach Hause.",
+      "german": "Ich fahre morgen nach Berlin",
       "translation": {
-        "ru": "Я сегодня еду прямо домой.",
-        "en": "I am driving straight home today."
+        "ru": "Завтра я еду в Берлин",
+        "en": "I am traveling to Berlin tomorrow"
       },
       "bracket_parts": [
         "fahre"
       ],
       "dativ_parts": [
-        "nach Hause"
+        "Berlin"
       ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Wir sind letztes Jahr nach Berlin gefahren.",
+      "tense": "Präsens",
+      "german": "Fährst du am Freitag nach Hause?",
       "translation": {
-        "ru": "В прошлом году мы ездили в Берлин.",
-        "en": "We drove to Berlin last year."
+        "ru": "Ты поедешь в пятницу домой?",
+        "en": "Are you going home on Friday?"
+      },
+      "bracket_parts": [
+        "Fährst"
+      ],
+      "dativ_parts": [
+        "Hause"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er fährt geschäftlich nach München",
+      "translation": {
+        "ru": "Он едет по делам в Мюнхен",
+        "en": "He travels to Munich on business"
+      },
+      "bracket_parts": [
+        "fährt"
+      ],
+      "dativ_parts": [
+        "München"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir fahren im Sommer nach Italien",
+      "translation": {
+        "ru": "Летом мы поедем в Италию",
+        "en": "We are going to Italy in the summer"
+      },
+      "bracket_parts": [
+        "fahren"
+      ],
+      "dativ_parts": [
+        "Italien"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Fahrt ihr bald nach Köln?",
+      "translation": {
+        "ru": "Вы скоро поедете в Кёльн?",
+        "en": "Are you traveling to Cologne soon?"
+      },
+      "bracket_parts": [
+        "Fahrt"
+      ],
+      "dativ_parts": [
+        "Köln"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern fuhr sie direkt nach Hamburg",
+      "translation": {
+        "ru": "Вчера она поехала прямо в Гамбург",
+        "en": "Yesterday she drove straight to Hamburg"
+      },
+      "bracket_parts": [
+        "fuhr"
+      ],
+      "dativ_parts": [
+        "Hamburg"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind letzte Woche nach Wien gefahren",
+      "translation": {
+        "ru": "Они на прошлой неделе поехали в Вену",
+        "en": "They traveled to Vienna last week"
       },
       "bracket_parts": [
         "sind",
         "gefahren"
       ],
       "dativ_parts": [
-        "nach Berlin"
+        "Wien"
       ]
     },
     {
-      "id": "s3",
+      "id": "s8",
       "tense": "Imperativ",
-      "german": "Fahr bitte bald nach Hause!",
+      "german": "Fahr bitte jetzt nach Hause!",
       "translation": {
-        "ru": "Езжай, пожалуйста, скорее домой!",
-        "en": "Please drive home soon!"
+        "ru": "Поезжай, пожалуйста, сейчас домой!",
+        "en": "Please drive home now!"
       },
       "bracket_parts": [
         "Fahr"
       ],
       "dativ_parts": [
-        "nach Hause"
+        "Hause"
       ]
     }
   ]

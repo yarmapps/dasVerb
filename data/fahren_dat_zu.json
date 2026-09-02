@@ -1,6 +1,7 @@
 {
   "infinitive": "fahren",
   "level": "A1",
+  "frequency_rank": 33,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,47 +56,122 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich fahre am Samstag zu meinen Großeltern.",
+      "german": "Ich fahre heute zu meinen Eltern",
       "translation": {
-        "ru": "В субботу я еду к моим бабушке и дедушке.",
-        "en": "I am driving to my grandparents on Saturday."
+        "ru": "Сегодня я еду к своим родителям",
+        "en": "I am driving to my parents today"
       },
       "bracket_parts": [
         "fahre"
       ],
       "dativ_parts": [
-        "zu meinen Großeltern"
+        "zu meinen Eltern"
       ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Er ist gestern schnell zum Arzt gefahren.",
+      "tense": "Präsens",
+      "german": "Fährst du morgen zur Arbeit?",
       "translation": {
-        "ru": "Он вчера быстро поехал к врачу.",
-        "en": "He quickly drove to the doctor yesterday."
+        "ru": "Ты поедешь завтра на работу?",
+        "en": "Are you driving to work tomorrow?"
       },
       "bracket_parts": [
-        "ist",
-        "gefahren"
+        "Fährst"
+      ],
+      "dativ_parts": [
+        "zur Arbeit"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er fährt am Nachmittag zum Arzt",
+      "translation": {
+        "ru": "Во второй половине дня он едет к врачу",
+        "en": "He is driving to the doctor in the afternoon"
+      },
+      "bracket_parts": [
+        "fährt"
       ],
       "dativ_parts": [
         "zum Arzt"
       ]
     },
     {
-      "id": "s3",
-      "tense": "Imperativ",
-      "german": "Fahr bitte heute noch zu deiner Schwester!",
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir fahren am Wochenende zur Oma",
       "translation": {
-        "ru": "Съезди, пожалуйста, сегодня еще к своей сестре!",
-        "en": "Please drive to your sister today!"
+        "ru": "На выходных мы поедем к бабушке",
+        "en": "We are going to grandma’s on the weekend"
+      },
+      "bracket_parts": [
+        "fahren"
+      ],
+      "dativ_parts": [
+        "zur Oma"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Fahrt ihr heute zum Bahnhof?",
+      "translation": {
+        "ru": "Вы поедете сегодня на вокзал?",
+        "en": "Are you driving to the station today?"
+      },
+      "bracket_parts": [
+        "Fahrt"
+      ],
+      "dativ_parts": [
+        "zum Bahnhof"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern fuhr sie spät zur Konferenz",
+      "translation": {
+        "ru": "Вчера она поздно поехала на конференцию",
+        "en": "Yesterday she drove late to the conference"
+      },
+      "bracket_parts": [
+        "fuhr"
+      ],
+      "dativ_parts": [
+        "zur Konferenz"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind gestern zum Flughafen gefahren",
+      "translation": {
+        "ru": "Они вчера поехали в аэропорт",
+        "en": "They drove to the airport yesterday"
+      },
+      "bracket_parts": [
+        "sind",
+        "gefahren"
+      ],
+      "dativ_parts": [
+        "zum Flughafen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Fahr bitte schnell zum Supermarkt!",
+      "translation": {
+        "ru": "Съезди, пожалуйста, быстро в супермаркет!",
+        "en": "Please drive quickly to the supermarket!"
       },
       "bracket_parts": [
         "Fahr"
       ],
       "dativ_parts": [
-        "zu deiner Schwester"
+        "zum Supermarkt"
       ]
     }
   ]

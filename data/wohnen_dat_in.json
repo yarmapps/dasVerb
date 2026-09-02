@@ -1,6 +1,7 @@
 {
   "infinitive": "wohnen",
   "level": "A1",
+  "frequency_rank": 70,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "weak",
@@ -55,47 +56,124 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich wohne in einer kleinen Wohnung.",
+      "german": "Ich wohne in einer gemütlichen Wohnung in Berlin",
       "translation": {
-        "ru": "Я живу в небольшой квартире.",
-        "en": "I live in a small apartment."
+        "ru": "Я живу в уютной квартире в Берлине",
+        "en": "I live in a cozy apartment in Berlin"
       },
       "bracket_parts": [
         "wohne"
       ],
       "dativ_parts": [
-        "in einer kleinen Wohnung"
+        "einer gemütlichen Wohnung",
+        "Berlin"
       ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Er hat drei Jahre in München gewohnt.",
+      "tense": "Präsens",
+      "german": "Wohnst du in einem ruhigen Stadtviertel?",
       "translation": {
-        "ru": "Он три года жил в Мюнхене.",
-        "en": "He lived in Munich for three years."
+        "ru": "Ты живешь в тихом районе города?",
+        "en": "Do you live in a quiet neighborhood?"
       },
       "bracket_parts": [
-        "hat",
-        "gewohnt"
+        "Wohnst"
       ],
       "dativ_parts": [
-        "in München"
+        "einem ruhigen Stadtviertel"
       ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Wohn am besten in der Nähe des Zentrums!",
+      "tense": "Präsens",
+      "german": "Er wohnt seit drei Jahren in München",
       "translation": {
-        "ru": "Живи лучше всего рядом с центром!",
-        "en": "Live preferably near the center!"
+        "ru": "Он живет в Мюнхене уже три года",
+        "en": "He has been living in Munich for three years"
+      },
+      "bracket_parts": [
+        "wohnt"
+      ],
+      "dativ_parts": [
+        "München"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir wohnen in einem modernen Haus auf dem Land",
+      "translation": {
+        "ru": "Мы живем в современном доме за городом",
+        "en": "We live in a modern house in the countryside"
+      },
+      "bracket_parts": [
+        "wohnen"
+      ],
+      "dativ_parts": [
+        "einem modernen Haus"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Wohnt ihr im Stadtzentrum oder am Stadtrand?",
+      "translation": {
+        "ru": "Вы живете в центре города или на окраине?",
+        "en": "Do you live in the city center or on the outskirts?"
+      },
+      "bracket_parts": [
+        "Wohnt"
+      ],
+      "dativ_parts": [
+        "im Stadtzentrum",
+        "am Stadtrand"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern erzählte sie, sie wohnte früher in Hamburg",
+      "translation": {
+        "ru": "Вчера она рассказала, что раньше жила в Гамбурге",
+        "en": "Yesterday she told us she used to live in Hamburg"
+      },
+      "bracket_parts": [
+        "wohnte"
+      ],
+      "dativ_parts": [
+        "Hamburg"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben fünf Jahre lang in Wien gewohnt",
+      "translation": {
+        "ru": "Они прожили пять лет в Вене",
+        "en": "They lived in Vienna for five years"
+      },
+      "bracket_parts": [
+        "haben",
+        "gewohnt"
+      ],
+      "dativ_parts": [
+        "Wien"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Wohn bitte in einer sicheren Gegend!",
+      "translation": {
+        "ru": "Живи, пожалуйста, в безопасном районе!",
+        "en": "Please live in a safe area!"
       },
       "bracket_parts": [
         "Wohn"
       ],
       "dativ_parts": [
-        "in der Nähe des Zentrums"
+        "einer sicheren Gegend"
       ]
     }
   ]

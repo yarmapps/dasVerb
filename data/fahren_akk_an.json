@@ -1,6 +1,7 @@
 {
   "infinitive": "fahren",
   "level": "A1",
+  "frequency_rank": 33,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,47 +56,122 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Wir fahren im Sommer an die Ostsee.",
+      "german": "Ich fahre im Sommer an den Strand",
       "translation": {
-        "ru": "Летом мы едем на Балтийское море.",
-        "en": "In summer we are driving to the Baltic Sea."
+        "ru": "Летом я еду на пляж",
+        "en": "I am driving to the beach in summer"
+      },
+      "bracket_parts": [
+        "fahre"
+      ],
+      "akkusativ_parts": [
+        "den Strand"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Fährst du morgen an die See?",
+      "translation": {
+        "ru": "Ты едешь завтра на море?",
+        "en": "Are you driving to the seaside tomorrow?"
+      },
+      "bracket_parts": [
+        "Fährst"
+      ],
+      "akkusativ_parts": [
+        "die See"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er fährt am Wochenende an den See",
+      "translation": {
+        "ru": "На выходных он едет на озеро",
+        "en": "He drives to the lake on the weekend"
+      },
+      "bracket_parts": [
+        "fährt"
+      ],
+      "akkusativ_parts": [
+        "den See"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir fahren im Urlaub ans Meer",
+      "translation": {
+        "ru": "В отпуске мы едем на море",
+        "en": "We are driving to the sea on vacation"
       },
       "bracket_parts": [
         "fahren"
       ],
       "akkusativ_parts": [
-        "an die Ostsee"
+        "Meer"
       ]
     },
     {
-      "id": "s2",
-      "tense": "Perfekt",
-      "german": "Sie sind am Wochenende ans Meer gefahren.",
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Fahrt ihr bald an den Fluss?",
       "translation": {
-        "ru": "На выходных они поехали на море.",
-        "en": "They drove to the sea on the weekend."
+        "ru": "Вы скоро поедете на реку?",
+        "en": "Are you driving to the river soon?"
+      },
+      "bracket_parts": [
+        "Fahrt"
+      ],
+      "akkusativ_parts": [
+        "den Fluss"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern fuhr sie spontan an die Küste",
+      "translation": {
+        "ru": "Вчера она спонтанно поехала на побережье",
+        "en": "Yesterday she drove spontaneously to the coast"
+      },
+      "bracket_parts": [
+        "fuhr"
+      ],
+      "akkusativ_parts": [
+        "die Küste"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind am Samstag an den See gefahren",
+      "translation": {
+        "ru": "В субботу они поехали на озеро",
+        "en": "They drove to the lake on Saturday"
       },
       "bracket_parts": [
         "sind",
         "gefahren"
       ],
       "akkusativ_parts": [
-        "ans Meer"
+        "den See"
       ]
     },
     {
-      "id": "s3",
+      "id": "s8",
       "tense": "Imperativ",
-      "german": "Fahr bitte direkt an den Bahnhof!",
+      "german": "Fahr bitte vorsichtig an die Kreuzung!",
       "translation": {
-        "ru": "Подъезжай, пожалуйста, прямо к вокзалу!",
-        "en": "Please drive straight to the train station!"
+        "ru": "Подъезжай, пожалуйста, осторожно к перекрестку!",
+        "en": "Please drive carefully up to the intersection!"
       },
       "bracket_parts": [
         "Fahr"
       ],
       "akkusativ_parts": [
-        "an den Bahnhof"
+        "die Kreuzung"
       ]
     }
   ]

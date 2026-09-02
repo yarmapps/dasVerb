@@ -6,6 +6,7 @@
     "en": "to eat"
   },
   "level": "A1",
+  "frequency_rank": 64,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "strong",
@@ -55,44 +56,110 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Er isst morgens immer Müsli.",
+      "german": "Ich esse morgens gerne ein Brötchen",
       "translation": {
-        "ru": "По утрам он всегда ест мюсли.",
-        "en": "He always eats muesli in the morning."
+        "ru": "Я ем по утрам булочку с удовольствием",
+        "en": "I like to eat a roll in the morning"
+      },
+      "bracket_parts": [
+        "esse"
+      ],
+      "akkusativ_parts": [
+        "ein Brötchen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Isst du gerne italienische Pizza?",
+      "translation": {
+        "ru": "Ты любишь есть итальянскую пиццу?",
+        "en": "Do you like to eat Italian pizza?"
+      },
+      "bracket_parts": [
+        "Isst"
+      ],
+      "akkusativ_parts": [
+        "italienische Pizza"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er isst mittags immer in der Kantine",
+      "translation": {
+        "ru": "В обед он всегда ест в столовой",
+        "en": "He always eats in the canteen at noon"
       },
       "bracket_parts": [
         "isst"
       ]
     },
     {
-      "id": "s2",
-      "tense": "Perfekt",
-      "german": "Wir haben heute eine leckere Pizza gegessen.",
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir essen sonntags gemeinsam zu Mittag",
       "translation": {
-        "ru": "Мы сегодня съели вкусную пиццу.",
-        "en": "We ate a delicious pizza today."
+        "ru": "По воскресеньям мы обедаем вместе",
+        "en": "We have lunch together on Sundays"
+      },
+      "bracket_parts": [
+        "essen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Esst ihr heute Abend im Restaurant?",
+      "translation": {
+        "ru": "Вы сегодня ужинаете в ресторане?",
+        "en": "Are you eating in the restaurant tonight?"
+      },
+      "bracket_parts": [
+        "Esst"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern aß sie nur einen kleinen Salat",
+      "translation": {
+        "ru": "Вчера она съела только маленький салат",
+        "en": "Yesterday she ate only a small salad"
+      },
+      "bracket_parts": [
+        "aß"
+      ],
+      "akkusativ_parts": [
+        "einen kleinen Salat"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben schon zu Mittag gegessen",
+      "translation": {
+        "ru": "Они уже пообедали",
+        "en": "They have already eaten lunch"
       },
       "bracket_parts": [
         "haben",
         "gegessen"
-      ],
-      "akkusativ_parts": [
-        "eine leckere Pizza"
       ]
     },
     {
-      "id": "s3",
+      "id": "s8",
       "tense": "Imperativ",
-      "german": "Iss bitte mehr frisches Gemüse!",
+      "german": "Iss bitte deinen Apfel auf!",
       "translation": {
-        "ru": "Ешь, пожалуйста, больше свежих овощей!",
-        "en": "Please eat more fresh vegetables!"
+        "ru": "Доешь, пожалуйста, свое яблоко!",
+        "en": "Please eat up your apple!"
       },
       "bracket_parts": [
         "Iss"
       ],
       "akkusativ_parts": [
-        "mehr frisches Gemüse"
+        "deinen Apfel"
       ]
     }
   ]

@@ -6,6 +6,7 @@
     "en": "to speak (with), to talk"
   },
   "level": "A1",
+  "frequency_rank": 30,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "strong",
@@ -55,47 +56,122 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich spreche gerade mit meinem Kollegen.",
+      "german": "Ich spreche heute mit meinem Chef",
       "translation": {
-        "ru": "Я сейчас говорю со своим коллегой.",
-        "en": "I am talking to my colleague right now."
+        "ru": "Сегодня я говорю со своим начальником",
+        "en": "I am speaking with my boss today"
       },
       "bracket_parts": [
         "spreche"
       ],
       "dativ_parts": [
-        "mit meinem Kollegen"
+        "meinem Chef"
       ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Ich habe gestern mit dem Arzt gesprochen.",
+      "tense": "Präsens",
+      "german": "Sprichst du oft mit deinen Nachbarn?",
       "translation": {
-        "ru": "Я вчера поговорил с врачом.",
-        "en": "I spoke with the doctor yesterday."
+        "ru": "Ты часто разговариваешь со своими соседями?",
+        "en": "Do you often talk with your neighbors?"
       },
       "bracket_parts": [
-        "habe",
-        "gesprochen"
+        "Sprichst"
       ],
       "dativ_parts": [
-        "mit dem Arzt"
+        "deinen Nachbarn"
       ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Sprich bitte etwas langsamer mit mir!",
+      "tense": "Präsens",
+      "german": "Er spricht am Telefon mit seiner Mutter",
       "translation": {
-        "ru": "Говори, пожалуйста, со мной немного медленнее!",
-        "en": "Please speak a bit slower with me!"
+        "ru": "Он говорит по телефону со своей мамой",
+        "en": "He is speaking with his mother on the phone"
+      },
+      "bracket_parts": [
+        "spricht"
+      ],
+      "dativ_parts": [
+        "seiner Mutter"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir sprechen morgen mit dem Vermieter",
+      "translation": {
+        "ru": "Завтра мы поговорим с арендодателем",
+        "en": "We will speak with the landlord tomorrow"
+      },
+      "bracket_parts": [
+        "sprechen"
+      ],
+      "dativ_parts": [
+        "dem Vermieter"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Sprecht ihr regelmäßig mit dem Lehrer?",
+      "translation": {
+        "ru": "Вы регулярно общаетесь с учителем?",
+        "en": "Do you speak with the teacher regularly?"
+      },
+      "bracket_parts": [
+        "Sprecht"
+      ],
+      "dativ_parts": [
+        "dem Lehrer"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern sprach sie ruhig mit dem Kunden",
+      "translation": {
+        "ru": "Вчера она спокойно поговорила с клиентом",
+        "en": "Yesterday she spoke calmly with the customer"
+      },
+      "bracket_parts": [
+        "sprach"
+      ],
+      "dativ_parts": [
+        "dem Kunden"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben gestern mit dem Arzt gesprochen",
+      "translation": {
+        "ru": "Они вчера поговорили с врачом",
+        "en": "They spoke with the doctor yesterday"
+      },
+      "bracket_parts": [
+        "haben",
+        "gesprochen"
+      ],
+      "dativ_parts": [
+        "dem Arzt"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Sprich bitte sofort mit ihm!",
+      "translation": {
+        "ru": "Поговори, пожалуйста, немедленно с ним!",
+        "en": "Please speak with him immediately!"
       },
       "bracket_parts": [
         "Sprich"
       ],
       "dativ_parts": [
-        "mit mir"
+        "ihm"
       ]
     }
   ]

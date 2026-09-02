@@ -6,6 +6,7 @@
     "en": "to shop, to buy groceries"
   },
   "level": "A1",
+  "frequency_rank": 190,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "weak",
@@ -47,29 +48,100 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Wir kaufen samstags frische Lebensmittel ein.",
+      "german": "Ich kaufe heute im Supermarkt ein",
       "translation": {
-        "ru": "По субботам мы закупаем свежие продукты.",
-        "en": "We buy fresh groceries on Saturdays."
+        "ru": "Я сегодня делаю покупки в супермаркете",
+        "en": "I am shopping at the supermarket today"
       },
       "bracket_parts": [
-        "kaufen",
+        "kaufe",
         "ein"
-      ],
-      "akkusativ_parts": [
-        "frische Lebensmittel"
       ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Hast du schon alles Nötige eingekauft?",
+      "tense": "Präsens",
+      "german": "Kaufst du heute fürs Abendessen ein?",
       "translation": {
-        "ru": "Ты уже закупил всё необходимое?",
-        "en": "Have you already bought everything needed?"
+        "ru": "Ты сделаешь сегодня покупки к ужину?",
+        "en": "Are you shopping for dinner today?"
       },
       "bracket_parts": [
-        "Hast",
+        "Kaufst",
+        "ein"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er kauft gerne frisches Obst ein",
+      "translation": {
+        "ru": "Он охотно покупает свежие фрукты",
+        "en": "He likes to shop for fresh fruit"
+      },
+      "bracket_parts": [
+        "kauft",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "frisches Obst"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir kaufen am Samstag zusammen ein",
+      "translation": {
+        "ru": "Мы закупаемся вместе в субботу",
+        "en": "We go shopping together on Saturday"
+      },
+      "bracket_parts": [
+        "kaufen",
+        "ein"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kauft ihr heute alle Zutaten ein?",
+      "translation": {
+        "ru": "Вы закупите сегодня все ингредиенты?",
+        "en": "Are you buying all ingredients today?"
+      },
+      "bracket_parts": [
+        "Kauft",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "alle Zutaten"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern kaufte sie viele Geschenke ein",
+      "translation": {
+        "ru": "Вчера она купила много подарков",
+        "en": "Yesterday she bought many gifts"
+      },
+      "bracket_parts": [
+        "kaufte",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "viele Geschenke"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben gestern alles Nötige eingekauft",
+      "translation": {
+        "ru": "Они вчера купили все необходимое",
+        "en": "They bought everything necessary yesterday"
+      },
+      "bracket_parts": [
+        "haben",
         "eingekauft"
       ],
       "akkusativ_parts": [
@@ -77,19 +149,19 @@
       ]
     },
     {
-      "id": "s3",
+      "id": "s8",
       "tense": "Imperativ",
-      "german": "Kauf bitte heute etwas Brot ein!",
+      "german": "Kauf bitte etwas Milch ein!",
       "translation": {
-        "ru": "Купи, пожалуйста, сегодня немного хлеба!",
-        "en": "Please buy some bread today!"
+        "ru": "Купи, пожалуйста, немного молока!",
+        "en": "Please buy some milk!"
       },
       "bracket_parts": [
         "Kauf",
         "ein"
       ],
       "akkusativ_parts": [
-        "etwas Brot"
+        "etwas Milch"
       ]
     }
   ]

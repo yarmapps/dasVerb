@@ -79,13 +79,46 @@
 * **Падеж предлога (`rektion.preposition_case`):** `'Akkusativ' | 'Dativ' | 'Genitiv' | 'Akkusativ + Dativ' | null`.
 * **Прямой падеж (`rektion.direct_case`):** `'Akkusativ' | 'Dativ' | 'Genitiv' | 'Dativ + Akkusativ' | null`.
 
-### 2.2. Примеры предложений (`sentences`) и цветовая разметка:
-* **СТРОГОЕ СООТВЕТСТВИЕ ПРЕДЛОГА В ПРИМЕРАХ:** Все 3 предложения-примера в карточке **обязаны использовать ТОЛЬКО ТОТ предлог**, который заявлен в `rektion.preposition` данной карточки (или его естественные слитные формы: *in $\rightarrow$ im/ins*, *zu $\rightarrow$ zum/zur*, *an $\rightarrow$ am/ans*). Посторонние предлоги в примерах карточки категорически запрещены.
-* Каждое предложение должно содержать:
+### 2.2. Примеры предложений (`sentences`) и охват всех местоимений (СТРОГО):
+* **ОБЯЗАТЕЛЬНАЯ СТРУКТУРА ПРИМЕРОВ (ровно 8 предложений на карточку):**
+  Каждая карточка глагола в массиве `sentences` обязана содержать **8 аутентичных предложений**:
+  1. **5 примеров в `Präsens`** (настоящее время).
+  2. **1 пример в `Präteritum`** (прошедшее повествовательное время).
+  3. **1 пример в `Perfekt`** (разговорное прошедшее время с вспомогательным *haben/sein* + *Partizip II*).
+  4. **1 пример в `Imperativ`** (повелительное наклонение, форма *du*, *ihr* или *Sie*).
+* **ОБЯЗАТЕЛЬНЫЙ ОХВАТ ВСЕХ МЕСТОИМЕНИЙ (КРИТИЧЕСКИ ВАЖНО):**
+  В совокупности эти 8 предложений **обязаны задействовать ВСЕ 6 личных местоимений** немецкого языка:
+  * `ich`, `du`, `er/sie/es`, `wir`, `ihr`, `sie/Sie`, а также форму *Imperativ*.
+  * Не допускается повторение одних и тех же местоимений в ущерб пропущенным.
+* **СТРОГОЕ СООТВЕТСТВИЕ ПРЕДЛОГА В ПРИМЕРАХ:** Все предложения в карточке **обязаны использовать ТОЛЬКО ТОТ предлог**, который заявлен в `rektion.preposition` данной карточки (или его естественные слитные формы: *in $\rightarrow$ im/ins*, *zu $\rightarrow$ zum/zur*, *an $\rightarrow$ am/ans*). Посторонние предлоги в примерах карточки категорически запрещены.
+* **Цветовая разметка и перевод:**
   1. `bracket_parts`: массив элементов глагольной рамки (*Satzklammer*, полужирный шрифт).
   2. `dativ_parts`: массив фраз в Dativ (🟣 фиолетовый цвет, `colors.secondary`).
   3. `akkusativ_parts`: массив фраз в Akkusativ (🔵 синий цвет, `colors.primary`).
-* Обязательно наличие 3-го примера в повелительном наклонении (`"tense": "Imperativ"`).
+  4. `translation`: полноценные, качественные литературные переводы (`ru`, `en`).
+
+### 2.3. Частотный ранг (`frequency_rank` — СТРОГО ОБЯЗАТЕЛЬНО):
+* Каждая карточка обязана содержать целочисленное поле `"frequency_rank": number` (позиция глагола в частотном корпусе немецкого языка, например Routledge Frequency Dictionary / Goethe-Institut).
+* Чем популярнее и употребительнее глагол, тем меньше его ранг: *sein* (1), *haben* (2), *können* (4), *machen* (7), *geben* (8), *kommen* (9), *gehen* (12) и т.д.
+* Для всех вариантов управления одного и того же глагола (например, `fahren_akk_in.json`, `fahren_dat_mit.json`) устанавливается одинаковый `frequency_rank` базового инфинитива.
+
+### 2.4. Специфика модальных глаголов (`verb_class: "modal"`):
+* **В карточках модальных глаголов тренируется и изучается ТОЛЬКО сам модальный глагол:**
+  * Зависимые смысловые инфинитивы (`sprechen`, `helfen`, `schwimmen`) являются обычным контекстным текстом предложения и **НЕ включаются в `bracket_parts`**.
+  * В `bracket_parts` предложений модальных глаголов входит **исключительно сам модальный глагол**:
+    * В `Präsens`, `Präteritum`, `Imperativ`: **ровно 1 элемент** (личная форма модального глагола: `["kann"]`, `["Kannst"]`, `["konnte"]`, `["Können"]`).
+    * В `Perfekt`: **ровно 2 элемента** (вспомогательный глагол `haben` + форма модального глагола: `["haben", "können"]` или `["hat", "gekonnt"]`).
+
+### 2.5. Строгие правила разметки `bracket_parts` (Guardrails):
+* `bracket_parts` отвечает **исключительно за целевой глагол карточки (и его рамку в Perfekt / приставку)**. Включать туда предлоги (`auf`, `über`, `in`), наречия или зависимые чужие инфинитивы **КАТЕГОРИЧЕСКИ ЗАПРЕЩЕНО**.
+* **Количество элементов в `bracket_parts` строго регламентировано:**
+  1. **Для `Perfekt` (все глаголы):** ровно **2 элемента** (`[вспомогательный глагол haben/sein, Partizip II / Ersatzinfinitiv]`, например `["haben", "gelegt"]`, `["ist", "gefahren"]`, `["haben", "können"]`, `["haben sich", "gefreut"]`).
+  2. **Для `Präsens`, `Präteritum`, `Imperativ`:**
+     * **Отделяемые глаголы (`prefix_type: "separable"`):** ровно **2 элемента** (`[спрягаемая основа, отделяемая приставка]`, например `["ruft", "an"]`, `["machte", "auf"]`, `["Komm", "mit"]`).
+     * **Все остальные глаголы (простые неотделяемые, возвратные, модальные):** ровно **1 элемент** (только форма самого изучаемого глагола, например `["lege"]`, `["kann"]`, `["konnte"]`, `["lag"]`, `["Lies"]`, `["freut sich"]`). Запрещено добавлять части других глаголов (`Bleib ... liegen`, `Mach ... zu`, `Lies ... vor`, `kann ... sprechen`)!
+* **Буквальное совпадение строк:**
+  * Каждый элемент массивов `bracket_parts`, `dativ_parts` и `akkusativ_parts` **обязан буквально присутствовать как подстрока в поле `german`**.
+  * Для слитных предлогов с артиклями в `dativ_parts` / `akkusativ_parts` указывается фактическая подстрока из предложения (например, `"im Park"`, `"zur Party"`, `"zum Arzt"`, `"am Strand"`, а не абстрактные `"dem Park"`, `"der Party"`).
 
 ---
 
@@ -100,6 +133,7 @@
     "en": "to give"
   },
   "level": "A1",
+  "frequency_rank": 8,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "strong",
@@ -149,6 +183,18 @@
     {
       "id": "s1",
       "tense": "Präsens",
+      "german": "Ich gebe dir mein Wort.",
+      "translation": {
+        "ru": "Я даю тебе свое слово.",
+        "en": "I give you my word."
+      },
+      "bracket_parts": ["gebe"],
+      "dativ_parts": ["dir"],
+      "akkusativ_parts": ["mein Wort"]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
       "german": "Gibst du mir bitte das Salz?",
       "translation": {
         "ru": "Дашь мне, пожалуйста, соль?",
@@ -159,19 +205,67 @@
       "akkusativ_parts": ["das Salz"]
     },
     {
-      "id": "s2",
-      "tense": "Perfekt",
-      "german": "Sie hat ihm das Buch zurückgegeben.",
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er gibt seinem Sohn einen guten Rat.",
       "translation": {
-        "ru": "Она вернула ему книгу.",
-        "en": "She gave the book back to him."
+        "ru": "Он дает своему сыну хороший совет.",
+        "en": "He gives his son good advice."
       },
-      "bracket_parts": ["hat", "zurückgegeben"],
-      "dativ_parts": ["ihm"],
-      "akkusativ_parts": ["das Buch"]
+      "bracket_parts": ["gibt"],
+      "dativ_parts": ["seinem Sohn"],
+      "akkusativ_parts": ["einen guten Rat"]
     },
     {
-      "id": "s3",
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir geben den Gästen frische Handtücher.",
+      "translation": {
+        "ru": "Мы даем гостям свежие полотенца.",
+        "en": "We give the guests fresh towels."
+      },
+      "bracket_parts": ["geben"],
+      "dativ_parts": ["den Gästen"],
+      "akkusativ_parts": ["frische Handtücher"]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Gebt ihr den Kindern Schokolade?",
+      "translation": {
+        "ru": "Вы даете детям шоколад?",
+        "en": "Do you give the children chocolate?"
+      },
+      "bracket_parts": ["Gebt"],
+      "dativ_parts": ["den Kindern"],
+      "akkusativ_parts": ["Schokolade"]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern gab sie mir den Schlüssel.",
+      "translation": {
+        "ru": "Вчера она отдала мне ключ.",
+        "en": "Yesterday she gave me the key."
+      },
+      "bracket_parts": ["gab"],
+      "dativ_parts": ["mir"],
+      "akkusativ_parts": ["den Schlüssel"]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben uns keine Antwort gegeben.",
+      "translation": {
+        "ru": "Они не дали нам никакого ответа.",
+        "en": "They gave us no answer."
+      },
+      "bracket_parts": ["haben", "gegeben"],
+      "dativ_parts": ["uns"],
+      "akkusativ_parts": ["keine Antwort"]
+    },
+    {
+      "id": "s8",
       "tense": "Imperativ",
       "german": "Gib mir bitte kurz das Buch!",
       "translation": {

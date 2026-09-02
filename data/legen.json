@@ -6,6 +6,7 @@
     "en": "to lay, to put (action)"
   },
   "level": "A1",
+  "frequency_rank": 77,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "weak",
@@ -55,35 +56,131 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich lege das Buch auf den Tisch.",
+      "german": "Ich lege das Buch auf den Tisch",
       "translation": {
-        "ru": "Я кладу книгу на стол.",
-        "en": "I put the book on the table."
+        "ru": "Я кладу книгу на стол",
+        "en": "I am putting the book on the table"
       },
-      "bracket_parts": ["lege"],
-      "akkusativ_parts": ["das Buch", "auf den Tisch"]
+      "bracket_parts": [
+        "lege"
+      ],
+      "akkusativ_parts": [
+        "das Buch",
+        "den Tisch"
+      ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Er hat sein Handy auf das Sofa gelegt.",
+      "tense": "Präsens",
+      "german": "Legst du dein Handy auf die Kommode?",
       "translation": {
-        "ru": "Он положил свой телефон на диван.",
-        "en": "He put his phone on the sofa."
+        "ru": "Ты положишь свой телефон на комод?",
+        "en": "Are you putting your phone on the dresser?"
       },
-      "bracket_parts": ["hat", "gelegt"],
-      "akkusativ_parts": ["sein Handy", "auf das Sofa"]
+      "bracket_parts": [
+        "Legst"
+      ],
+      "akkusativ_parts": [
+        "dein Handy",
+        "die Kommode"
+      ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Leg die Zeitung bitte auf das Regal!",
+      "tense": "Präsens",
+      "german": "Er legt den Brief auf den Schreibtisch",
       "translation": {
-        "ru": "Положи газету на полку!",
-        "en": "Please put the newspaper on the shelf!"
+        "ru": "Он кладет письмо на письменный стол",
+        "en": "He puts the letter on the desk"
       },
-      "bracket_parts": ["Leg"],
-      "akkusativ_parts": ["die Zeitung", "auf das Regal"]
+      "bracket_parts": [
+        "legt"
+      ],
+      "akkusativ_parts": [
+        "den Brief",
+        "den Schreibtisch"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir legen die Decke auf das Sofa",
+      "translation": {
+        "ru": "Мы кладем плед на диван",
+        "en": "We put the blanket on the sofa"
+      },
+      "bracket_parts": [
+        "legen"
+      ],
+      "akkusativ_parts": [
+        "die Decke",
+        "das Sofa"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Legt ihr die Schlüssel auf das Regal?",
+      "translation": {
+        "ru": "Вы кладете ключи на полку?",
+        "en": "Are you putting the keys on the shelf?"
+      },
+      "bracket_parts": [
+        "Legt"
+      ],
+      "akkusativ_parts": [
+        "die Schlüssel",
+        "das Regal"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern legte sie die Zeitung auf den Stuhl",
+      "translation": {
+        "ru": "Вчера она положила газету на стул",
+        "en": "Yesterday she put the newspaper on the chair"
+      },
+      "bracket_parts": [
+        "legte"
+      ],
+      "akkusativ_parts": [
+        "die Zeitung",
+        "den Stuhl"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben das Geld auf das Konto gelegt",
+      "translation": {
+        "ru": "Они положили деньги на счет",
+        "en": "They put the money into the account"
+      },
+      "bracket_parts": [
+        "haben",
+        "gelegt"
+      ],
+      "akkusativ_parts": [
+        "das Geld",
+        "das Konto"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Leg das Messer bitte vorsichtig auf den Tisch!",
+      "translation": {
+        "ru": "Положи, пожалуйста, нож осторожно на стол!",
+        "en": "Please put the knife carefully on the table!"
+      },
+      "bracket_parts": [
+        "Leg"
+      ],
+      "akkusativ_parts": [
+        "das Messer",
+        "den Tisch"
+      ]
     }
   ]
 }

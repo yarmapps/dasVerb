@@ -1,6 +1,7 @@
 {
   "infinitive": "kommen",
   "level": "A1",
+  "frequency_rank": 9,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,47 +56,122 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Das Kind kommt neugierig an das Fenster.",
+      "german": "Ich komme heute an die Reihe",
       "translation": {
-        "ru": "Ребенок с любопытством подходит к окну.",
-        "en": "The child curiously comes to the window."
+        "ru": "Сегодня подходит моя очередь",
+        "en": "It is my turn today"
+      },
+      "bracket_parts": [
+        "komme"
+      ],
+      "akkusativ_parts": [
+        "die Reihe"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Kommst du morgen an den Hauptbahnhof?",
+      "translation": {
+        "ru": "Ты придешь завтра на главный вокзал?",
+        "en": "Are you coming to the main station tomorrow?"
+      },
+      "bracket_parts": [
+        "Kommst"
+      ],
+      "akkusativ_parts": [
+        "den Hauptbahnhof"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er kommt pünktlich an den Treffpunkt",
+      "translation": {
+        "ru": "Он вовремя приходит на место встречи",
+        "en": "He arrives on time at the meeting point"
       },
       "bracket_parts": [
         "kommt"
       ],
       "akkusativ_parts": [
-        "an das Fenster"
+        "den Treffpunkt"
       ]
     },
     {
-      "id": "s2",
-      "tense": "Perfekt",
-      "german": "Er ist gestern an die Reihe gekommen.",
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir kommen bald an die Grenze",
       "translation": {
-        "ru": "Вчера подошла его очередь.",
-        "en": "His turn came yesterday."
+        "ru": "Мы скоро подъедем к границе",
+        "en": "We will soon reach the border"
       },
       "bracket_parts": [
-        "ist",
+        "kommen"
+      ],
+      "akkusativ_parts": [
+        "die Grenze"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kommt ihr heute an den Strand?",
+      "translation": {
+        "ru": "Вы придете сегодня на пляж?",
+        "en": "Are you coming to the beach today?"
+      },
+      "bracket_parts": [
+        "Kommt"
+      ],
+      "akkusativ_parts": [
+        "den Strand"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie kam eilig an die Haltestelle",
+      "translation": {
+        "ru": "Она поспешно пришла на остановку",
+        "en": "She hurried to the bus stop"
+      },
+      "bracket_parts": [
+        "kam"
+      ],
+      "akkusativ_parts": [
+        "die Haltestelle"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind gestern an den See gekommen",
+      "translation": {
+        "ru": "Они вчера пришли на озеро",
+        "en": "They came to the lake yesterday"
+      },
+      "bracket_parts": [
+        "sind",
         "gekommen"
       ],
       "akkusativ_parts": [
-        "an die Reihe"
+        "den See"
       ]
     },
     {
-      "id": "s3",
+      "id": "s8",
       "tense": "Imperativ",
-      "german": "Komm bitte kurz an die Tafel!",
+      "german": "Komm bitte an die Tafel!",
       "translation": {
-        "ru": "Подойди, пожалуйста, на минутку к доске!",
-        "en": "Please come to the blackboard for a moment!"
+        "ru": "Выходи, пожалуйста, к доске!",
+        "en": "Please come to the blackboard!"
       },
       "bracket_parts": [
         "Komm"
       ],
       "akkusativ_parts": [
-        "an die Tafel"
+        "die Tafel"
       ]
     }
   ]

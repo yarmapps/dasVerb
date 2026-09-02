@@ -1,6 +1,7 @@
 {
   "infinitive": "fahren",
   "level": "A1",
+  "frequency_rank": 33,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,47 +56,122 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich fahre jeden Samstag im Park Fahrrad.",
+      "german": "Ich fahre im Urlaub in den Bergen herum",
       "translation": {
-        "ru": "Я каждую субботу катаюсь на велосипеде в парке.",
-        "en": "I ride my bike in the park every Saturday."
+        "ru": "В отпуске я катаюсь в горах",
+        "en": "On vacation I drive around in the mountains"
       },
       "bracket_parts": [
         "fahre"
+      ],
+      "dativ_parts": [
+        "den Bergen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Fährst du oft in der Stadt Auto?",
+      "translation": {
+        "ru": "Ты часто водишь машину в городе?",
+        "en": "Do you often drive a car in the city?"
+      },
+      "bracket_parts": [
+        "Fährst"
+      ],
+      "dativ_parts": [
+        "der Stadt"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er fährt sonntags gerne im Park Rad",
+      "translation": {
+        "ru": "По воскресеньям он любит кататься на велосипеде в парке",
+        "en": "He likes to ride a bike in the park on Sundays"
+      },
+      "bracket_parts": [
+        "fährt"
       ],
       "dativ_parts": [
         "im Park"
       ]
     },
     {
-      "id": "s2",
-      "tense": "Perfekt",
-      "german": "Wir sind stundenlang in der schönen Stadt gefahren.",
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir fahren im Sommer in ganz Europa umher",
       "translation": {
-        "ru": "Мы часами катались по красивому городу.",
-        "en": "We drove around the beautiful city for hours."
+        "ru": "Летом мы путешествуем на машине по всей Европе",
+        "en": "In summer we drive around all over Europe"
+      },
+      "bracket_parts": [
+        "fahren"
+      ],
+      "dativ_parts": [
+        "Europa"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Fahrt ihr gerne im Wald Fahrrad?",
+      "translation": {
+        "ru": "Вам нравится кататься на велосипеде в лесу?",
+        "en": "Do you like to ride bicycles in the forest?"
+      },
+      "bracket_parts": [
+        "Fahrt"
+      ],
+      "dativ_parts": [
+        "im Wald"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie fuhr stundenlang im dichten Nebel",
+      "translation": {
+        "ru": "Она часами ехала в густом тумане",
+        "en": "She drove for hours in dense fog"
+      },
+      "bracket_parts": [
+        "fuhr"
+      ],
+      "dativ_parts": [
+        "im dichten Nebel"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind stundenlang im Kreis gefahren",
+      "translation": {
+        "ru": "Они часами ездили по кругу",
+        "en": "They drove in circles for hours"
       },
       "bracket_parts": [
         "sind",
         "gefahren"
       ],
       "dativ_parts": [
-        "in der schönen Stadt"
+        "im Kreis"
       ]
     },
     {
-      "id": "s3",
+      "id": "s8",
       "tense": "Imperativ",
-      "german": "Fahr bitte langsam in der Fußgängerzone!",
+      "german": "Fahr bitte vorsichtig in diesem Sturm!",
       "translation": {
-        "ru": "Езжай, пожалуйста, медленно в пешеходной зоне!",
-        "en": "Please drive slowly in the pedestrian zone!"
+        "ru": "Езжай, пожалуйста, осторожно в эту бурю!",
+        "en": "Please drive carefully in this storm!"
       },
       "bracket_parts": [
         "Fahr"
       ],
       "dativ_parts": [
-        "in der Fußgängerzone"
+        "diesem Sturm"
       ]
     }
   ]

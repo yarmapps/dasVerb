@@ -1,6 +1,8 @@
 {
+  "id": "freuen_sich_akk_ueber",
   "infinitive": "sich freuen",
   "level": "A2",
+  "frequency_rank": 125,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "weak",
@@ -25,13 +27,20 @@
       "sie_Sie": "freuen sich",
       "root_vowel_change": null
     },
+    "praeteritum": {
+      "ich": "freute mich",
+      "du": "freutest dich",
+      "er_sie_es": "freute sich",
+      "wir": "freuten uns",
+      "ihr": "freutet euch",
+      "sie_Sie": "freuten sich"
+    },
     "imperative": {
       "du": "freu dich!",
       "ihr": "freut euch!",
       "Sie": "freuen Sie sich!"
     }
   },
-  "id": "freuen_sich_akk_ueber",
   "translation": {
     "ru": "радоваться (происшедшему/подарку)",
     "en": "to be happy about (present/past event)"
@@ -47,50 +56,122 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich freue mich sehr über deinen Besuch.",
+      "german": "Ich freue mich über das schöne Geschenk",
       "translation": {
-        "ru": "Я очень рад твоему визиту.",
-        "en": "I am very pleased about your visit."
+        "ru": "Я радуюсь красивому подарку",
+        "en": "I am happy about the nice gift"
       },
       "bracket_parts": [
-        "freue"
+        "freue mich"
       ],
       "akkusativ_parts": [
-        "mich",
-        "über deinen Besuch"
+        "das schöne Geschenk"
       ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Die Kinder haben sich über die Geschenke gefreut.",
+      "tense": "Präsens",
+      "german": "Freust du dich über die gute Note?",
       "translation": {
-        "ru": "Дети обрадовались подаркам.",
-        "en": "The children were happy about the gifts."
+        "ru": "Ты радуешься хорошей оценке?",
+        "en": "Are you happy about the good grade?"
       },
       "bracket_parts": [
-        "haben",
-        "gefreut"
+        "Freust"
       ],
       "akkusativ_parts": [
-        "sich",
-        "über die Geschenke"
+        "die gute Note"
       ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Freu dich über deinen großen Erfolg!",
+      "tense": "Präsens",
+      "german": "Er freut sich über den unerwarteten Erfolg",
       "translation": {
-        "ru": "Радуйся своему большому успеху!",
-        "en": "Be happy about your great success!"
+        "ru": "Он радуется неожиданному успеху",
+        "en": "He is glad about the unexpected success"
       },
       "bracket_parts": [
-        "Freu"
+        "freut sich"
       ],
       "akkusativ_parts": [
-        "dich",
-        "über deinen großen Erfolg"
+        "den unerwarteten Erfolg"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir freuen uns über deine liebe Nachricht",
+      "translation": {
+        "ru": "Мы очень рады твоему милому сообщению",
+        "en": "We are happy about your kind message"
+      },
+      "bracket_parts": [
+        "freuen uns"
+      ],
+      "akkusativ_parts": [
+        "deine liebe Nachricht"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Freut ihr euch über die Blumen?",
+      "translation": {
+        "ru": "Вы рады цветам?",
+        "en": "Are you happy about the flowers?"
+      },
+      "bracket_parts": [
+        "Freut"
+      ],
+      "akkusativ_parts": [
+        "die Blumen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie freute sich sehr über die Einladung",
+      "translation": {
+        "ru": "Она очень обрадовалась приглашению",
+        "en": "She was very pleased about the invitation"
+      },
+      "bracket_parts": [
+        "freute sich"
+      ],
+      "akkusativ_parts": [
+        "die Einladung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben sich über den Sieg gefreut",
+      "translation": {
+        "ru": "Они порадовались победе",
+        "en": "They rejoiced over the victory"
+      },
+      "bracket_parts": [
+        "haben sich",
+        "gefreut"
+      ],
+      "akkusativ_parts": [
+        "den Sieg"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Freu dich über die kleinen Dinge!",
+      "translation": {
+        "ru": "Радуйся мелочам!",
+        "en": "Be happy about the small things!"
+      },
+      "bracket_parts": [
+        "Freu dich"
+      ],
+      "akkusativ_parts": [
+        "die kleinen Dinge"
       ]
     }
   ]

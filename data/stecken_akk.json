@@ -6,6 +6,7 @@
     "en": "to put, to insert (action)"
   },
   "level": "B1",
+  "frequency_rank": 160,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "weak",
@@ -55,35 +56,131 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich stecke den Schlüssel in die Tasche.",
+      "german": "Ich stecke den Schlüssel in die Tasche",
       "translation": {
-        "ru": "Я засовываю ключ в карман.",
-        "en": "I put the key into my pocket."
+        "ru": "Я кладу ключ в карман",
+        "en": "I am putting the key into my pocket"
       },
-      "bracket_parts": ["stecke"],
-      "akkusativ_parts": ["den Schlüssel", "in die Tasche"]
+      "bracket_parts": [
+        "stecke"
+      ],
+      "akkusativ_parts": [
+        "den Schlüssel",
+        "die Tasche"
+      ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Er hat das Geld in seinen Geldbeutel gesteckt.",
+      "tense": "Präsens",
+      "german": "Steckst du den Brief in den Umschlag?",
       "translation": {
-        "ru": "Он положил/засунул деньги в свой кошелек.",
-        "en": "He put the money into his wallet."
+        "ru": "Ты вложишь письмо в конверт?",
+        "en": "Are you putting the letter into the envelope?"
       },
-      "bracket_parts": ["hat", "gesteckt"],
-      "akkusativ_parts": ["das Geld", "in seinen Geldbeutel"]
+      "bracket_parts": [
+        "Steckst"
+      ],
+      "akkusativ_parts": [
+        "den Brief",
+        "den Umschlag"
+      ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Steck das Smartphone bitte in den Rucksack!",
+      "tense": "Präsens",
+      "german": "Er steckt das Geld in die Geldbörse",
       "translation": {
-        "ru": "Положи/засунь смартфон в рюкзак!",
-        "en": "Please put the smartphone into the backpack!"
+        "ru": "Он прячет деньги в кошелек",
+        "en": "He puts the money into the wallet"
       },
-      "bracket_parts": ["Steck"],
-      "akkusativ_parts": ["das Smartphone", "in den Rucksack"]
+      "bracket_parts": [
+        "steckt"
+      ],
+      "akkusativ_parts": [
+        "das Geld",
+        "die Geldbörse"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir stecken die Blumen in die Vase",
+      "translation": {
+        "ru": "Мы ставим цветы в вазу",
+        "en": "We put the flowers into the vase"
+      },
+      "bracket_parts": [
+        "stecken"
+      ],
+      "akkusativ_parts": [
+        "die Blumen",
+        "die Vase"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Steckt ihr die Dokumente in den Ordner?",
+      "translation": {
+        "ru": "Вы складываете документы в папку?",
+        "en": "Are you putting the documents into the folder?"
+      },
+      "bracket_parts": [
+        "Steckt"
+      ],
+      "akkusativ_parts": [
+        "die Dokumente",
+        "den Ordner"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern steckte sie das Buch in den Rucksack",
+      "translation": {
+        "ru": "Вчера она положила книгу в рюкзак",
+        "en": "Yesterday she put the book into the backpack"
+      },
+      "bracket_parts": [
+        "steckte"
+      ],
+      "akkusativ_parts": [
+        "das Buch",
+        "den Rucksack"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben den Ausweis in die Jacke gesteckt",
+      "translation": {
+        "ru": "Они убрали удостоверение в куртку",
+        "en": "They put the ID into the jacket"
+      },
+      "bracket_parts": [
+        "haben",
+        "gesteckt"
+      ],
+      "akkusativ_parts": [
+        "den Ausweis",
+        "die Jacke"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Steck das Handy bitte in die Tasche!",
+      "translation": {
+        "ru": "Убери, пожалуйста, телефон в карман!",
+        "en": "Please put your phone into your pocket!"
+      },
+      "bracket_parts": [
+        "Steck"
+      ],
+      "akkusativ_parts": [
+        "das Handy",
+        "die Tasche"
+      ]
     }
   ]
 }

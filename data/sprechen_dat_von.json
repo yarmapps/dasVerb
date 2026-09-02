@@ -6,6 +6,7 @@
     "en": "to speak (of), to mention"
   },
   "level": "B1",
+  "frequency_rank": 30,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "strong",
@@ -55,47 +56,119 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Er spricht oft von seiner Heimatstadt.",
+      "german": "Ich spreche oft von meiner Heimat",
       "translation": {
-        "ru": "Он часто говорит о своём родном городе.",
-        "en": "He often speaks of his hometown."
+        "ru": "Я часто рассказываю о своей родине",
+        "en": "I often speak of my homeland"
+      },
+      "bracket_parts": [
+        "spreche"
+      ],
+      "dativ_parts": [
+        "meiner Heimat"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Wovon sprichst du gerade?",
+      "translation": {
+        "ru": "О чем ты сейчас говоришь?",
+        "en": "What are you talking about right now?"
+      },
+      "bracket_parts": [
+        "sprichst"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er spricht mit Begeisterung von seiner Reise",
+      "translation": {
+        "ru": "Он с восторгом рассказывает о своем путешествии",
+        "en": "He speaks of his trip with enthusiasm"
       },
       "bracket_parts": [
         "spricht"
       ],
       "dativ_parts": [
-        "von seiner Heimatstadt"
+        "seiner Reise"
       ]
     },
     {
-      "id": "s2",
-      "tense": "Perfekt",
-      "german": "Er hat gestern lange von seinem neuen Projekt gesprochen.",
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir sprechen noch heute von diesem schönen Tag",
       "translation": {
-        "ru": "Вчера он долго говорил о своем новом проекте.",
-        "en": "Yesterday he talked for a long time about his new project."
+        "ru": "Мы и по сей день вспоминаем этот прекрасный день",
+        "en": "We still talk of that beautiful day today"
       },
       "bracket_parts": [
-        "hat",
+        "sprechen"
+      ],
+      "dativ_parts": [
+        "diesem schönen Tag"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Sprecht ihr von dem neuen Film?",
+      "translation": {
+        "ru": "Вы говорите о том новом фильме?",
+        "en": "Are you speaking of the new movie?"
+      },
+      "bracket_parts": [
+        "Sprecht"
+      ],
+      "dativ_parts": [
+        "dem neuen Film"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern sprach sie voller Stolz von ihren Erfolgen",
+      "translation": {
+        "ru": "Вчера она с гордостью рассказывала о своих успехах",
+        "en": "Yesterday she spoke of her successes with pride"
+      },
+      "bracket_parts": [
+        "sprach"
+      ],
+      "dativ_parts": [
+        "ihren Erfolgen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben oft von diesem Plan gesprochen",
+      "translation": {
+        "ru": "Они часто говорили об этом плане",
+        "en": "They often spoke of this plan"
+      },
+      "bracket_parts": [
+        "haben",
         "gesprochen"
       ],
       "dativ_parts": [
-        "von seinem neuen Projekt"
+        "diesem Plan"
       ]
     },
     {
-      "id": "s3",
+      "id": "s8",
       "tense": "Imperativ",
-      "german": "Sprich bitte nicht mehr von dieser alten Sache!",
+      "german": "Sprich bitte nicht mehr von der Vergangenheit!",
       "translation": {
-        "ru": "Не говори больше, пожалуйста, об этом старом деле!",
-        "en": "Please don't speak of this old matter anymore!"
+        "ru": "Не говори, пожалуйста, больше о прошлом!",
+        "en": "Please do not speak of the past anymore!"
       },
       "bracket_parts": [
         "Sprich"
       ],
       "dativ_parts": [
-        "von dieser alten Sache"
+        "der Vergangenheit"
       ]
     }
   ]

@@ -6,6 +6,7 @@
     "en": "to walk, to stroll (inside/where)"
   },
   "level": "A1",
+  "frequency_rank": 12,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,35 +56,123 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich gehe jeden Abend im Park spazieren.",
+      "german": "Ich gehe oft im Park spazieren",
       "translation": {
-        "ru": "Я каждый вечер гуляю в парке.",
-        "en": "I go for a walk in the park every evening."
+        "ru": "Я часто гуляю в парке",
+        "en": "I often take a walk in the park"
       },
-      "bracket_parts": ["gehe"],
-      "dativ_parts": ["im Park"]
+      "bracket_parts": [
+        "gehe"
+      ],
+      "dativ_parts": [
+        "im Park"
+      ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Wir sind gestern lange im Wald gegangen.",
+      "tense": "Präsens",
+      "german": "Gehst du gerne im Wald wandern?",
       "translation": {
-        "ru": "Вчера мы долго ходили по лесу.",
-        "en": "We walked in the forest for a long time yesterday."
+        "ru": "Ты любишь ходить в походы в лесу?",
+        "en": "Do you like hiking in the woods?"
       },
-      "bracket_parts": ["sind", "gegangen"],
-      "dativ_parts": ["im Wald"]
+      "bracket_parts": [
+        "Gehst"
+      ],
+      "dativ_parts": [
+        "im Wald"
+      ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Geh bitte ruhig im Zimmer auf und ab!",
+      "tense": "Präsens",
+      "german": "Er geht im Zimmer nervös auf und ab",
       "translation": {
-        "ru": "Походи, пожалуйста, спокойно по комнате туда-сюда!",
-        "en": "Please walk calmly up and down in the room!"
+        "ru": "Он нервно ходит взад и вперед по комнате",
+        "en": "He walks nervously back and forth in the room"
       },
-      "bracket_parts": ["Geh"],
-      "dativ_parts": ["im Zimmer"]
+      "bracket_parts": [
+        "geht"
+      ],
+      "dativ_parts": [
+        "im Zimmer"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir gehen im Garten spazieren",
+      "translation": {
+        "ru": "Мы гуляем в саду",
+        "en": "We are taking a walk in the garden"
+      },
+      "bracket_parts": [
+        "gehen"
+      ],
+      "dativ_parts": [
+        "im Garten"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Geht ihr oft in dieser Fußgängerzone?",
+      "translation": {
+        "ru": "Вы часто ходите по этой пешеходной зоне?",
+        "en": "Do you often walk in this pedestrian zone?"
+      },
+      "bracket_parts": [
+        "Geht"
+      ],
+      "dativ_parts": [
+        "in dieser Fußgängerzone"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie ging stumm im Nebel umher",
+      "translation": {
+        "ru": "Она молча бродила в тумане",
+        "en": "She walked silently around in the fog"
+      },
+      "bracket_parts": [
+        "ging"
+      ],
+      "dativ_parts": [
+        "im Nebel"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind gestern lange im Park gegangen",
+      "translation": {
+        "ru": "Они вчера долго гуляли в парке",
+        "en": "They walked in the park for a long time yesterday"
+      },
+      "bracket_parts": [
+        "sind",
+        "gegangen"
+      ],
+      "dativ_parts": [
+        "im Park"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Geh bitte im Schatten!",
+      "translation": {
+        "ru": "Иди, пожалуйста, в тени!",
+        "en": "Please walk in the shade!"
+      },
+      "bracket_parts": [
+        "Geh"
+      ],
+      "dativ_parts": [
+        "im Schatten"
+      ]
     }
   ]
 }

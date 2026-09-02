@@ -1,11 +1,8 @@
 {
   "id": "stecken_dat",
   "infinitive": "stecken",
-  "translation": {
-    "ru": "торчать, находиться (состояние)",
-    "en": "to be stuck, to be inside (state)"
-  },
-  "level": "B1",
+  "level": "A2",
+  "frequency_rank": 88,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "weak",
@@ -44,46 +41,138 @@
       "Sie": "stecken Sie!"
     }
   },
+  "translation": {
+    "ru": "торчать, находиться внутри (состояние)",
+    "en": "to be inside, to stick, to be stuck (state)"
+  },
   "rektion": {
     "requires_object": false,
     "direct_case": null,
     "preposition": "in",
     "preposition_case": "Dativ"
   },
-  "chunk": "im Stau / in der Tasche (Dat) stecken",
+  "chunk": "im Schloss (Dat) stecken (Vgl. stecken Akk)",
   "sentences": [
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Der Schlüssel steckt noch im Schloss.",
+      "german": "Der Schlüssel steckt im Schloss",
       "translation": {
-        "ru": "Ключ всё ещё торчит в замке.",
-        "en": "The key is still in the lock."
+        "ru": "Ключ торчит в замке",
+        "en": "The key is in the lock"
       },
-      "bracket_parts": ["steckt"],
-      "dativ_parts": ["im Schloss"]
+      "bracket_parts": [
+        "steckt"
+      ],
+      "dativ_parts": [
+        "im Schloss"
+      ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Wir haben heute eine Stunde im Stau gesteckt.",
+      "tense": "Präsens",
+      "german": "Steckst du schon wieder in der Klemme?",
       "translation": {
-        "ru": "Мы сегодня целый час торчали/стояли в пробке.",
-        "en": "We were stuck in traffic for an hour today."
+        "ru": "Ты снова в затруднительном положении?",
+        "en": "Are you in a pinch again?"
       },
-      "bracket_parts": ["haben", "gesteckt"],
-      "dativ_parts": ["im Stau"]
+      "bracket_parts": [
+        "Steckst"
+      ],
+      "dativ_parts": [
+        "der Klemme"
+      ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Steck nicht deine Nase in fremde Dinge!",
+      "tense": "Präsens",
+      "german": "Er steckt bis zum Hals in der Arbeit",
       "translation": {
-        "ru": "Не суй свой нос в чужие дела!",
-        "en": "Don't stick your nose into other people's business!"
+        "ru": "Он по горло завален работой",
+        "en": "He is up to his neck in work"
       },
-      "bracket_parts": ["Steck"],
-      "akkusativ_parts": ["deine Nase", "in fremde Dinge"]
+      "bracket_parts": [
+        "steckt"
+      ],
+      "dativ_parts": [
+        "der Arbeit"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir stecken mitten im Stau",
+      "translation": {
+        "ru": "Мы застряли прямо посреди пробки",
+        "en": "We are stuck in the middle of a traffic jam"
+      },
+      "bracket_parts": [
+        "stecken"
+      ],
+      "dativ_parts": [
+        "im Stau"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Steckt ihr auch in großen Schwierigkeiten?",
+      "translation": {
+        "ru": "Вы тоже попали в большие трудности?",
+        "en": "Are you in big trouble too?"
+      },
+      "bracket_parts": [
+        "Steckt"
+      ],
+      "dativ_parts": [
+        "großen Schwierigkeiten"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern steckte das Auto tief im Schnee",
+      "translation": {
+        "ru": "Вчера машина глубоко застряла в снегу",
+        "en": "Yesterday the car was stuck deep in the snow"
+      },
+      "bracket_parts": [
+        "steckte"
+      ],
+      "dativ_parts": [
+        "im Schnee"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Stecker hat fest in der Steckdose gesteckt",
+      "translation": {
+        "ru": "Штекер плотно сидел в розетке",
+        "en": "The plug was stuck firmly in the socket"
+      },
+      "bracket_parts": [
+        "hat",
+        "gesteckt"
+      ],
+      "dativ_parts": [
+        "der Steckdose"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Steck nicht so tief in den Schulden!",
+      "translation": {
+        "ru": "Не сиди так глубоко в долгах!",
+        "en": "Don't be so deep in debt!"
+      },
+      "bracket_parts": [
+        "Steck"
+      ],
+      "dativ_parts": [
+        "den Schulden"
+      ]
     }
   ]
 }

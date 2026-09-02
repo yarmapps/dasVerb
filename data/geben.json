@@ -6,6 +6,7 @@
     "en": "to give"
   },
   "level": "A1",
+  "frequency_rank": 8,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "strong",
@@ -55,6 +56,24 @@
     {
       "id": "s1",
       "tense": "Präsens",
+      "german": "Ich gebe dir mein Wort",
+      "translation": {
+        "ru": "Я даю тебе свое слово",
+        "en": "I give you my word"
+      },
+      "bracket_parts": [
+        "gebe"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "mein Wort"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
       "german": "Gibst du mir bitte das Salz?",
       "translation": {
         "ru": "Дашь мне, пожалуйста, соль?",
@@ -71,26 +90,98 @@
       ]
     },
     {
-      "id": "s2",
-      "tense": "Perfekt",
-      "german": "Sie hat ihm das Buch zurückgegeben.",
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er gibt seinem Sohn einen guten Rat",
       "translation": {
-        "ru": "Она вернула (отдала назад) ему книгу.",
-        "en": "She gave the book back to him."
+        "ru": "Он дает своему сыну хороший совет",
+        "en": "He gives his son good advice"
       },
       "bracket_parts": [
-        "hat",
-        "zurückgegeben"
+        "gibt"
       ],
       "dativ_parts": [
-        "ihm"
+        "seinem Sohn"
       ],
       "akkusativ_parts": [
-        "das Buch"
+        "einen guten Rat"
       ]
     },
     {
-      "id": "s3",
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir geben den Gästen frische Handtücher",
+      "translation": {
+        "ru": "Мы даем гостям свежие полотенца",
+        "en": "We give the guests fresh towels"
+      },
+      "bracket_parts": [
+        "geben"
+      ],
+      "dativ_parts": [
+        "den Gästen"
+      ],
+      "akkusativ_parts": [
+        "frische Handtücher"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Gebt ihr den Kindern Schokolade?",
+      "translation": {
+        "ru": "Вы даете детям шоколад?",
+        "en": "Do you give the children chocolate?"
+      },
+      "bracket_parts": [
+        "Gebt"
+      ],
+      "dativ_parts": [
+        "den Kindern"
+      ],
+      "akkusativ_parts": [
+        "Schokolade"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern gab sie mir den Schlüssel",
+      "translation": {
+        "ru": "Вчера она отдала мне ключ",
+        "en": "Yesterday she gave me the key"
+      },
+      "bracket_parts": [
+        "gab"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "den Schlüssel"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben uns keine Antwort gegeben",
+      "translation": {
+        "ru": "Они не дали нам никакого ответа",
+        "en": "They gave us no answer"
+      },
+      "bracket_parts": [
+        "haben",
+        "gegeben"
+      ],
+      "dativ_parts": [
+        "uns"
+      ],
+      "akkusativ_parts": [
+        "keine Antwort"
+      ]
+    },
+    {
+      "id": "s8",
       "tense": "Imperativ",
       "german": "Gib mir bitte kurz das Buch!",
       "translation": {

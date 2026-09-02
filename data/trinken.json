@@ -6,6 +6,7 @@
     "en": "to drink"
   },
   "level": "A1",
+  "frequency_rank": 105,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "strong",
@@ -55,41 +56,116 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich trinke morgens gerne schwarzen Kaffee.",
+      "german": "Ich trinke morgens gerne eine Tasse Kaffee",
       "translation": {
-        "ru": "Я люблю пить черный кофе по утрам.",
-        "en": "I like to drink black coffee in the morning."
+        "ru": "По утрам я люблю пить чашку кофе",
+        "en": "I like to drink a cup of coffee in the morning"
       },
       "bracket_parts": [
         "trinke"
       ],
       "akkusativ_parts": [
-        "Kaffee"
+        "eine Tasse Kaffee"
       ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Hast du genug Wasser getrunken?",
+      "tense": "Präsens",
+      "german": "Trinkst du lieber Tee oder Kaffee?",
       "translation": {
-        "ru": "Ты выпил достаточно воды?",
-        "en": "Did you drink enough water?"
+        "ru": "Ты предпочитаешь пить чай или кофе?",
+        "en": "Do you prefer to drink tea or coffee?"
       },
       "bracket_parts": [
-        "Hast",
-        "getrunken"
+        "Trinkst"
       ],
       "akkusativ_parts": [
-        "Tee"
+        "Tee oder Kaffee"
       ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Trink bitte jeden Tag genug Wasser!",
+      "tense": "Präsens",
+      "german": "Er trinkt jeden Tag viel frisches Wasser",
       "translation": {
-        "ru": "Пей, пожалуйста, каждый день достаточно воды!",
-        "en": "Please drink enough water every day!"
+        "ru": "Каждый день он пьет много свежей воды",
+        "en": "He drinks a lot of fresh water every day"
+      },
+      "bracket_parts": [
+        "trinkt"
+      ],
+      "akkusativ_parts": [
+        "viel frisches Wasser"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir trinken nach dem Sport einen Saft",
+      "translation": {
+        "ru": "После спорта мы пьем сок",
+        "en": "We drink a juice after sports"
+      },
+      "bracket_parts": [
+        "trinken"
+      ],
+      "akkusativ_parts": [
+        "einen Saft"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Trinkt ihr abends warmen Kakao?",
+      "translation": {
+        "ru": "Вы пьете по вечерам горячее какао?",
+        "en": "Do you drink warm cocoa in the evening?"
+      },
+      "bracket_parts": [
+        "Trinkt"
+      ],
+      "akkusativ_parts": [
+        "warmen Kakao"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern trank sie ein großes Glas Wasser",
+      "translation": {
+        "ru": "Вчера она выпила большой стакан воды",
+        "en": "Yesterday she drank a large glass of water"
+      },
+      "bracket_parts": [
+        "trank"
+      ],
+      "akkusativ_parts": [
+        "ein großes Glas Wasser"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben gestern köstlichen Wein getrunken",
+      "translation": {
+        "ru": "Они вчера пили вкусное вино",
+        "en": "They drank delicious wine yesterday"
+      },
+      "bracket_parts": [
+        "haben",
+        "getrunken"
+      ],
+      "akkusativ_parts": [
+        "köstlichen Wein"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Trink bitte genug Wasser bei der Hitze!",
+      "translation": {
+        "ru": "Пей, пожалуйста, достаточно воды в эту жару!",
+        "en": "Please drink enough water in this heat!"
       },
       "bracket_parts": [
         "Trink"

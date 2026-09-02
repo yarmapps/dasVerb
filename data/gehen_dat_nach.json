@@ -6,6 +6,7 @@
     "en": "to go (home/towards)"
   },
   "level": "A1",
+  "frequency_rank": 12,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,35 +56,123 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich gehe jetzt direkt nach Hause.",
+      "german": "Ich gehe nach dem Essen spazieren",
       "translation": {
-        "ru": "Я сейчас иду прямо домой.",
-        "en": "I am going straight home now."
+        "ru": "После еды я иду на прогулку",
+        "en": "I go for a walk after eating"
       },
-      "bracket_parts": ["gehe"],
-      "dativ_parts": ["nach Hause"]
+      "bracket_parts": [
+        "gehe"
+      ],
+      "dativ_parts": [
+        "dem Essen"
+      ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Er ist nach dem Unterricht nach Hause gegangen.",
+      "tense": "Präsens",
+      "german": "Gehst du heute direkt nach Hause?",
       "translation": {
-        "ru": "Он пошел домой после занятий.",
-        "en": "He went home after class."
+        "ru": "Ты сегодня идешь прямо домой?",
+        "en": "Are you going straight home today?"
       },
-      "bracket_parts": ["ist", "gegangen"],
-      "dativ_parts": ["nach Hause"]
+      "bracket_parts": [
+        "Gehst"
+      ],
+      "dativ_parts": [
+        "Hause"
+      ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Geh bitte an der Kreuzung nach links!",
+      "tense": "Präsens",
+      "german": "Er geht nach der Arbeit einkaufen",
       "translation": {
-        "ru": "Иди, пожалуйста, на перекрестке налево!",
-        "en": "Please turn left at the intersection!"
+        "ru": "После работы он идет за покупками",
+        "en": "He goes shopping after work"
       },
-      "bracket_parts": ["Geh"],
-      "dativ_parts": ["nach links"]
+      "bracket_parts": [
+        "geht"
+      ],
+      "dativ_parts": [
+        "der Arbeit"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir gehen nach der Vorlesung in die Mensa",
+      "translation": {
+        "ru": "После лекции мы идем в столовую",
+        "en": "We go to the cafeteria after the lecture"
+      },
+      "bracket_parts": [
+        "gehen"
+      ],
+      "dativ_parts": [
+        "der Vorlesung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Geht ihr nach dem Film noch etwas trinken?",
+      "translation": {
+        "ru": "Вы пойдете после фильма выпить чего-нибудь?",
+        "en": "Are you going for a drink after the movie?"
+      },
+      "bracket_parts": [
+        "Geht"
+      ],
+      "dativ_parts": [
+        "dem Film"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern ging sie nach dem Meeting sofort nach Hause",
+      "translation": {
+        "ru": "Вчера после совещания она сразу пошла домой",
+        "en": "Yesterday she went straight home after the meeting"
+      },
+      "bracket_parts": [
+        "ging"
+      ],
+      "dativ_parts": [
+        "dem Meeting"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind gestern nach Mitternacht nach Hause gegangen",
+      "translation": {
+        "ru": "Они вчера пошли домой после полуночи",
+        "en": "They went home after midnight yesterday"
+      },
+      "bracket_parts": [
+        "sind",
+        "gegangen"
+      ],
+      "dativ_parts": [
+        "Mitternacht"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Geh bitte nach dem Unterricht direkt nach Hause!",
+      "translation": {
+        "ru": "Иди, пожалуйста, после занятий сразу домой!",
+        "en": "Please go straight home after class!"
+      },
+      "bracket_parts": [
+        "Geh"
+      ],
+      "dativ_parts": [
+        "dem Unterricht"
+      ]
     }
   ]
 }

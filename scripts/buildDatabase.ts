@@ -27,6 +27,7 @@ function buildDatabase() {
       infinitive TEXT NOT NULL,
       infinitive_lower TEXT NOT NULL,
       level TEXT NOT NULL,
+      frequency_rank INTEGER NOT NULL DEFAULT 9999,
       auxiliary TEXT NOT NULL,
       morphology TEXT NOT NULL,
       principal_parts TEXT NOT NULL,
@@ -40,6 +41,7 @@ function buildDatabase() {
 
     CREATE INDEX idx_verbs_infinitive_lower ON verbs(infinitive_lower);
     CREATE INDEX idx_verbs_level ON verbs(level);
+    CREATE INDEX idx_verbs_frequency_rank ON verbs(frequency_rank);
     CREATE INDEX idx_verbs_auxiliary ON verbs(auxiliary);
   `);
 
@@ -52,6 +54,7 @@ function buildDatabase() {
       infinitive,
       infinitive_lower,
       level,
+      frequency_rank,
       auxiliary,
       morphology,
       principal_parts,
@@ -62,7 +65,7 @@ function buildDatabase() {
       translation,
       search_text
     ) VALUES (
-      ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+      ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
     )
   `);
 
@@ -97,6 +100,7 @@ function buildDatabase() {
       verb.infinitive,
       verb.infinitive.toLowerCase(),
       verb.level,
+      verb.frequency_rank ?? 9999,
       verb.auxiliary,
       JSON.stringify(verb.morphology),
       JSON.stringify(verb.principal_parts),

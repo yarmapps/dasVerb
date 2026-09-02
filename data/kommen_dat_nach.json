@@ -1,6 +1,7 @@
 {
   "infinitive": "kommen",
   "level": "A1",
+  "frequency_rank": 9,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,47 +56,123 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Wann kommst du heute nach Hause?",
+      "german": "Ich komme heute nach Berlin",
       "translation": {
-        "ru": "Когда ты придешь сегодня домой?",
-        "en": "When are you coming home today?"
+        "ru": "Я приезжаю сегодня в Берлин",
+        "en": "I am coming to Berlin today"
       },
       "bracket_parts": [
-        "kommst"
+        "komme"
       ],
       "dativ_parts": [
-        "nach Hause"
+        "Berlin"
       ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Er ist gestern spät nach Berlin gekommen.",
+      "tense": "Präsens",
+      "german": "Kommst du morgen nach Hause?",
       "translation": {
-        "ru": "Он вчера поздно приехал в Берлин.",
-        "en": "He came to Berlin late yesterday."
+        "ru": "Ты придешь завтра домой?",
+        "en": "Are you coming home tomorrow?"
       },
       "bracket_parts": [
-        "ist",
-        "gekommen"
+        "Kommst"
       ],
       "dativ_parts": [
-        "nach Berlin"
+        "Hause"
       ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Komm bitte pünktlich nach Hause!",
+      "tense": "Präsens",
+      "german": "Er kommt am Wochenende nach München",
       "translation": {
-        "ru": "Приходи, пожалуйста, вовремя домой!",
-        "en": "Please come home on time!"
+        "ru": "На выходных он приезжает в Мюнхен",
+        "en": "He is coming to Munich on the weekend"
+      },
+      "bracket_parts": [
+        "kommt"
+      ],
+      "dativ_parts": [
+        "München"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir kommen bald nach Wien",
+      "translation": {
+        "ru": "Мы скоро приедем в Вену",
+        "en": "We are coming to Vienna soon"
+      },
+      "bracket_parts": [
+        "kommen"
+      ],
+      "dativ_parts": [
+        "Wien"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kommt ihr heute nach dem Essen vorbei?",
+      "translation": {
+        "ru": "Вы зайдете сегодня после еды?",
+        "en": "Are you coming over after dinner today?"
+      },
+      "bracket_parts": [
+        "Kommt"
+      ],
+      "dativ_parts": [
+        "dem Essen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern kam sie spät nach Hause",
+      "translation": {
+        "ru": "Вчера она поздно пришла домой",
+        "en": "Yesterday she came home late"
+      },
+      "bracket_parts": [
+        "kam"
+      ],
+      "dativ_parts": [
+        "Hause"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind gestern nach Mitternacht nach Hause gekommen",
+      "translation": {
+        "ru": "Они вчера пришли домой после полуночи",
+        "en": "They came home after midnight yesterday"
+      },
+      "bracket_parts": [
+        "sind",
+        "gekommen"
+      ],
+      "dativ_parts": [
+        "Mitternacht",
+        "Hause"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Komm bitte bald nach Hause!",
+      "translation": {
+        "ru": "Приходи, пожалуйста, скорее домой!",
+        "en": "Please come home soon!"
       },
       "bracket_parts": [
         "Komm"
       ],
       "dativ_parts": [
-        "nach Hause"
+        "Hause"
       ]
     }
   ]

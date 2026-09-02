@@ -6,6 +6,7 @@
     "en": "to stand up, to get up"
   },
   "level": "A1",
+  "frequency_rank": 115,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,10 +56,10 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich stehe jeden Tag um sechs Uhr auf.",
+      "german": "Ich stehe jeden Morgen um sechs Uhr auf",
       "translation": {
-        "ru": "Я каждый день встаю в шесть часов.",
-        "en": "I get up at six o clock every day."
+        "ru": "Я встаю каждое утро в шесть часов",
+        "en": "I get up every morning at six o’clock"
       },
       "bracket_parts": [
         "stehe",
@@ -67,24 +68,89 @@
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Er ist heute sehr früh aufgestanden.",
+      "tense": "Präsens",
+      "german": "Wann stehst du am Wochenende auf?",
       "translation": {
-        "ru": "Он сегодня встал очень рано.",
-        "en": "He got up very early today."
+        "ru": "Когда ты встаешь на выходных?",
+        "en": "When do you get up on the weekend?"
       },
       "bracket_parts": [
-        "ist",
-        "aufgestanden"
+        "stehst",
+        "auf"
       ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Steh bitte morgen früh auf!",
+      "tense": "Präsens",
+      "german": "Er steht sonntags immer sehr spät auf",
       "translation": {
-        "ru": "Встань, пожалуйста, завтра пораньше!",
-        "en": "Please get up early tomorrow!"
+        "ru": "По воскресеньям он всегда встает очень поздно",
+        "en": "He always gets up very late on Sundays"
+      },
+      "bracket_parts": [
+        "steht",
+        "auf"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir stehen morgen früh zusammen auf",
+      "translation": {
+        "ru": "Мы завтра встанем рано вместе",
+        "en": "We will get up early together tomorrow"
+      },
+      "bracket_parts": [
+        "stehen",
+        "auf"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Steht ihr immer so früh auf?",
+      "translation": {
+        "ru": "Вы всегда так рано встаете?",
+        "en": "Do you always get up so early?"
+      },
+      "bracket_parts": [
+        "Steht",
+        "auf"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie stand sofort vom Stuhl auf",
+      "translation": {
+        "ru": "Она сразу встала со стула",
+        "en": "She stood up from the chair immediately"
+      },
+      "bracket_parts": [
+        "stand",
+        "auf"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind heute pünktlich aufgestanden",
+      "translation": {
+        "ru": "Они сегодня встали вовремя",
+        "en": "They got up on time today"
+      },
+      "bracket_parts": [
+        "sind",
+        "aufgestanden"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Steh bitte endlich auf!",
+      "translation": {
+        "ru": "Вставай уже, пожалуйста!",
+        "en": "Please get up finally!"
       },
       "bracket_parts": [
         "Steh",

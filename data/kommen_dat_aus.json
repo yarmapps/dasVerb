@@ -1,6 +1,7 @@
 {
   "infinitive": "kommen",
   "level": "A1",
+  "frequency_rank": 9,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,47 +56,122 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich komme aus Deutschland.",
+      "german": "Ich komme aus Deutschland",
       "translation": {
-        "ru": "Я родом из Германии.",
-        "en": "I come from Germany."
+        "ru": "Я родом из Германии",
+        "en": "I come from Germany"
       },
       "bracket_parts": [
         "komme"
       ],
       "dativ_parts": [
-        "aus Deutschland"
+        "Deutschland"
       ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Sie ist gerade aus dem Haus gekommen.",
+      "tense": "Präsens",
+      "german": "Kommst du aus der Schweiz?",
       "translation": {
-        "ru": "Она только что вышла из дома.",
-        "en": "She just came out of the house."
+        "ru": "Ты из Швейцарии?",
+        "en": "Are you from Switzerland?"
       },
       "bracket_parts": [
-        "ist",
-        "gekommen"
+        "Kommst"
       ],
       "dativ_parts": [
-        "aus dem Haus"
+        "der Schweiz"
       ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Komm bitte schnell aus dem Wasser!",
+      "tense": "Präsens",
+      "german": "Er kommt gerade aus dem Büro",
       "translation": {
-        "ru": "Выходи, пожалуйста, быстрее из воды!",
-        "en": "Please come out of the water quickly!"
+        "ru": "Он как раз выходит из офиса",
+        "en": "He is just coming out of the office"
+      },
+      "bracket_parts": [
+        "kommt"
+      ],
+      "dativ_parts": [
+        "dem Büro"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir kommen aus derselben Stadt",
+      "translation": {
+        "ru": "Мы родом из одного города",
+        "en": "We come from the same city"
+      },
+      "bracket_parts": [
+        "kommen"
+      ],
+      "dativ_parts": [
+        "derselben Stadt"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kommt ihr direkt aus dem Urlaub?",
+      "translation": {
+        "ru": "Вы прямо из отпуска?",
+        "en": "Are you coming directly from vacation?"
+      },
+      "bracket_parts": [
+        "Kommt"
+      ],
+      "dativ_parts": [
+        "dem Urlaub"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern kam sie spät aus der Arbeit",
+      "translation": {
+        "ru": "Вчера она поздно пришла с работы",
+        "en": "Yesterday she came home late from work"
+      },
+      "bracket_parts": [
+        "kam"
+      ],
+      "dativ_parts": [
+        "der Arbeit"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind gestern aus Italien gekommen",
+      "translation": {
+        "ru": "Они вчера приехали из Италии",
+        "en": "They arrived from Italy yesterday"
+      },
+      "bracket_parts": [
+        "sind",
+        "gekommen"
+      ],
+      "dativ_parts": [
+        "Italien"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Komm bitte aus dem Wasser!",
+      "translation": {
+        "ru": "Выходи, пожалуйста, из воды!",
+        "en": "Please get out of the water!"
       },
       "bracket_parts": [
         "Komm"
       ],
       "dativ_parts": [
-        "aus dem Wasser"
+        "dem Wasser"
       ]
     }
   ]

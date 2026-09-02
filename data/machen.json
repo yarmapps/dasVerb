@@ -6,6 +6,7 @@
     "en": "to do, to make"
   },
   "level": "A1",
+  "frequency_rank": 7,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "weak",
@@ -47,48 +48,122 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Was machst du am Wochenende?",
+      "german": "Ich mache heute meine Hausaufgaben",
       "translation": {
-        "ru": "Что ты делаешь на выходных?",
-        "en": "What are you doing on the weekend?"
+        "ru": "Сегодня я делаю домашнее задание",
+        "en": "I am doing my homework today"
       },
       "bracket_parts": [
-        "machst"
+        "mache"
       ],
       "akkusativ_parts": [
-        "Was"
+        "meine Hausaufgaben"
       ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Ich habe die Hausaufgaben schon gemacht.",
+      "tense": "Präsens",
+      "german": "Machst du heute Abend Sport?",
       "translation": {
-        "ru": "Я уже сделал домашнее задание.",
-        "en": "I have already done the homework."
+        "ru": "Ты занимаешься спортом сегодня вечером?",
+        "en": "Are you doing sports tonight?"
       },
       "bracket_parts": [
-        "habe",
-        "gemacht"
+        "Machst"
       ],
       "akkusativ_parts": [
-        "seine Hausaufgaben"
+        "Sport"
       ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Mach bitte die Tür zu!",
+      "tense": "Präsens",
+      "german": "Er macht ein leckeres Frühstück",
       "translation": {
-        "ru": "Закрой, пожалуйста, дверь!",
-        "en": "Please close the door!"
+        "ru": "Он готовит вкусный завтрак",
+        "en": "He is making a delicious breakfast"
       },
       "bracket_parts": [
-        "Mach",
-        "zu"
+        "macht"
       ],
       "akkusativ_parts": [
-        "die Tür"
+        "ein leckeres Frühstück"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir machen am Wochenende einen Ausflug",
+      "translation": {
+        "ru": "На выходных мы едем на загородную прогулку",
+        "en": "We are going on a trip on the weekend"
+      },
+      "bracket_parts": [
+        "machen"
+      ],
+      "akkusativ_parts": [
+        "einen Ausflug"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Macht ihr heute eine Pause?",
+      "translation": {
+        "ru": "Вы делаете сегодня перерыв?",
+        "en": "Are you taking a break today?"
+      },
+      "bracket_parts": [
+        "Macht"
+      ],
+      "akkusativ_parts": [
+        "eine Pause"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern machte sie einen großen Fehler",
+      "translation": {
+        "ru": "Вчера она совершила большую ошибку",
+        "en": "Yesterday she made a big mistake"
+      },
+      "bracket_parts": [
+        "machte"
+      ],
+      "akkusativ_parts": [
+        "einen großen Fehler"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben ihre Arbeit sehr gut gemacht",
+      "translation": {
+        "ru": "Они выполнили свою работу очень хорошо",
+        "en": "They did their work very well"
+      },
+      "bracket_parts": [
+        "haben",
+        "gemacht"
+      ],
+      "akkusativ_parts": [
+        "ihre Arbeit"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Mach bitte deine Hausaufgaben!",
+      "translation": {
+        "ru": "Сделай, пожалуйста, домашние задания!",
+        "en": "Please do your homework!"
+      },
+      "bracket_parts": [
+        "Mach"
+      ],
+      "akkusativ_parts": [
+        "deine Hausaufgaben"
       ]
     }
   ]

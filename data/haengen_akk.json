@@ -6,6 +6,7 @@
     "en": "to hang (action)"
   },
   "level": "A2",
+  "frequency_rank": 98,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "weak",
@@ -55,50 +56,130 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich hänge das Bild an die Wand.",
+      "german": "Ich hänge das Bild an die Wand",
       "translation": {
-        "ru": "Я вешаю картину на стену.",
-        "en": "I hang the picture on the wall."
+        "ru": "Я вешаю картину на стену",
+        "en": "I am hanging the picture on the wall"
       },
       "bracket_parts": [
         "hänge"
       ],
       "akkusativ_parts": [
         "das Bild",
-        "an die Wand"
+        "die Wand"
       ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Er hat seine Jacke an den Haken gehängt.",
+      "tense": "Präsens",
+      "german": "Hängst du deine Jacke an die Garderobe?",
       "translation": {
-        "ru": "Он повесил свою куртку на крючок.",
-        "en": "He hung his jacket on the hook."
+        "ru": "Ты повесишь свою куртку на вешалку?",
+        "en": "Are you hanging your jacket on the coat rack?"
       },
       "bracket_parts": [
-        "hat",
-        "gehängt"
+        "Hängst"
       ],
       "akkusativ_parts": [
-        "seine Jacke",
-        "an den Haken"
+        "deine Jacke",
+        "die Garderobe"
       ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Häng dein Bild bitte an diese Wand!",
+      "tense": "Präsens",
+      "german": "Er hängt das Plakat an die Tür",
       "translation": {
-        "ru": "Повесь свою картину на эту стену!",
-        "en": "Please hang your picture on this wall!"
+        "ru": "Он вешает плакат на дверь",
+        "en": "He is hanging the poster on the door"
+      },
+      "bracket_parts": [
+        "hängt"
+      ],
+      "akkusativ_parts": [
+        "das Plakat",
+        "die Tür"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir hängen die Fotos an die Pinnwand",
+      "translation": {
+        "ru": "Мы вешаем фотографии на доску объявлений",
+        "en": "We are hanging the photos on the pinboard"
+      },
+      "bracket_parts": [
+        "hängen"
+      ],
+      "akkusativ_parts": [
+        "die Fotos",
+        "die Pinnwand"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Hängt ihr die Lampe an die Decke?",
+      "translation": {
+        "ru": "Вы вешаете лампу на потолок?",
+        "en": "Are you hanging the lamp on the ceiling?"
+      },
+      "bracket_parts": [
+        "Hängt"
+      ],
+      "akkusativ_parts": [
+        "die Lampe",
+        "die Decke"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern hängte sie den Kalender an die Wand",
+      "translation": {
+        "ru": "Вчера она повесила календарь на стену",
+        "en": "Yesterday she hung the calendar on the wall"
+      },
+      "bracket_parts": [
+        "hängte"
+      ],
+      "akkusativ_parts": [
+        "den Kalender",
+        "die Wand"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben den Mantel an den Haken gehängt",
+      "translation": {
+        "ru": "Они повесили пальто на крючок",
+        "en": "They hung the coat on the hook"
+      },
+      "bracket_parts": [
+        "haben",
+        "gehängt"
+      ],
+      "akkusativ_parts": [
+        "den Mantel",
+        "den Haken"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Häng bitte die Jacke an den Haken!",
+      "translation": {
+        "ru": "Повесь, пожалуйста, куртку на крючок!",
+        "en": "Please hang the jacket on the hook!"
       },
       "bracket_parts": [
         "Häng"
       ],
       "akkusativ_parts": [
-        "dein Bild",
-        "an diese Wand"
+        "die Jacke",
+        "den Haken"
       ]
     }
   ]

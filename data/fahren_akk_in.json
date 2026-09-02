@@ -1,6 +1,7 @@
 {
   "infinitive": "fahren",
   "level": "A1",
+  "frequency_rank": 33,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,47 +56,122 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Wir fahren am Wochenende in die Schweiz.",
+      "german": "Ich fahre im Urlaub in die Berge",
       "translation": {
-        "ru": "На выходных мы едем в Швейцарию.",
-        "en": "We are driving to Switzerland on the weekend."
+        "ru": "В отпуск я еду в горы",
+        "en": "I am driving to the mountains on vacation"
+      },
+      "bracket_parts": [
+        "fahre"
+      ],
+      "akkusativ_parts": [
+        "die Berge"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Fährst du morgen in die Stadt?",
+      "translation": {
+        "ru": "Ты поедешь завтра в город?",
+        "en": "Are you driving into town tomorrow?"
+      },
+      "bracket_parts": [
+        "Fährst"
+      ],
+      "akkusativ_parts": [
+        "die Stadt"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er fährt jeden Morgen in das Büro",
+      "translation": {
+        "ru": "Каждое утро он едет в офис",
+        "en": "He drives to the office every morning"
+      },
+      "bracket_parts": [
+        "fährt"
+      ],
+      "akkusativ_parts": [
+        "das Büro"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir fahren im Sommer in die Schweiz",
+      "translation": {
+        "ru": "Летом мы едем в Швейцарию",
+        "en": "We are driving to Switzerland in summer"
       },
       "bracket_parts": [
         "fahren"
       ],
       "akkusativ_parts": [
-        "in die Schweiz"
+        "die Schweiz"
       ]
     },
     {
-      "id": "s2",
-      "tense": "Perfekt",
-      "german": "Er ist gestern spät in die Stadt gefahren.",
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Fahrt ihr bald in die Ferien?",
       "translation": {
-        "ru": "Он вчера поздно поехал в город.",
-        "en": "He drove into the city late yesterday."
+        "ru": "Вы скоро поедете на каникулы?",
+        "en": "Are you driving on vacation soon?"
       },
       "bracket_parts": [
-        "ist",
+        "Fahrt"
+      ],
+      "akkusativ_parts": [
+        "die Ferien"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern fuhr sie eilig in die Garage",
+      "translation": {
+        "ru": "Вчера она поспешно заехала в гараж",
+        "en": "Yesterday she drove hastily into the garage"
+      },
+      "bracket_parts": [
+        "fuhr"
+      ],
+      "akkusativ_parts": [
+        "die Garage"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind gestern in die Türkei gefahren",
+      "translation": {
+        "ru": "Они вчера уехали в Турцию",
+        "en": "They drove to Turkey yesterday"
+      },
+      "bracket_parts": [
+        "sind",
         "gefahren"
       ],
       "akkusativ_parts": [
-        "in die Stadt"
+        "die Türkei"
       ]
     },
     {
-      "id": "s3",
+      "id": "s8",
       "tense": "Imperativ",
-      "german": "Fahr bitte vorsichtig in die Garage!",
+      "german": "Fahr bitte langsam in die Einfahrt!",
       "translation": {
-        "ru": "Заезжай, пожалуйста, осторожно в гараж!",
-        "en": "Please drive carefully into the garage!"
+        "ru": "Заезжай, пожалуйста, медленно во двор!",
+        "en": "Please drive slowly into the driveway!"
       },
       "bracket_parts": [
         "Fahr"
       ],
       "akkusativ_parts": [
-        "in die Garage"
+        "die Einfahrt"
       ]
     }
   ]

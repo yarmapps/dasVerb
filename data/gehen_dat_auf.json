@@ -6,6 +6,7 @@
     "en": "to walk (on a surface)"
   },
   "level": "A2",
+  "frequency_rank": 12,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,35 +56,123 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Die Fußgänger gehen sicher auf dem Gehweg.",
+      "german": "Ich gehe langsam auf dem Gehweg",
       "translation": {
-        "ru": "Пешеходы безопасно идут по тротуару.",
-        "en": "Pedestrians walk safely on the sidewalk."
+        "ru": "Я медленно иду по тротуару",
+        "en": "I am walking slowly on the sidewalk"
       },
-      "bracket_parts": ["gehen"],
-      "dativ_parts": ["auf dem Gehweg"]
+      "bracket_parts": [
+        "gehe"
+      ],
+      "dativ_parts": [
+        "dem Gehweg"
+      ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Wir sind barfuß auf dem warmen Sand gegangen.",
+      "tense": "Präsens",
+      "german": "Gehst du oft auf dieser Straße spazieren?",
       "translation": {
-        "ru": "Мы босиком шли по теплому песку.",
-        "en": "We walked barefoot on the warm sand."
+        "ru": "Ты часто гуляешь по этой улице?",
+        "en": "Do you often walk on this street?"
       },
-      "bracket_parts": ["sind", "gegangen"],
-      "dativ_parts": ["auf dem warmen Sand"]
+      "bracket_parts": [
+        "Gehst"
+      ],
+      "dativ_parts": [
+        "dieser Straße"
+      ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Geh bitte vorsichtig auf dem nassen Boden!",
+      "tense": "Präsens",
+      "german": "Er geht nachdenklich auf dem Balkon auf und ab",
       "translation": {
-        "ru": "Иди, пожалуйста, осторожно по мокрому полу!",
-        "en": "Please walk carefully on the wet floor!"
+        "ru": "Он задумчиво ходит взад и вперед по балкону",
+        "en": "He walks thoughtfully up and down on the balcony"
       },
-      "bracket_parts": ["Geh"],
-      "dativ_parts": ["auf dem nassen Boden"]
+      "bracket_parts": [
+        "geht"
+      ],
+      "dativ_parts": [
+        "dem Balkon"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir gehen gerne auf dem Markt umher",
+      "translation": {
+        "ru": "Мы любим прогуливаться по рынку",
+        "en": "We like walking around on the market"
+      },
+      "bracket_parts": [
+        "gehen"
+      ],
+      "dativ_parts": [
+        "dem Markt"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Geht ihr sicher auf dem Eis?",
+      "translation": {
+        "ru": "Вы уверенно идете по льду?",
+        "en": "Are you walking safely on the ice?"
+      },
+      "bracket_parts": [
+        "Geht"
+      ],
+      "dativ_parts": [
+        "dem Eis"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern ging sie vorsichtig auf den Steinen",
+      "translation": {
+        "ru": "Вчера она осторожно шла по камням",
+        "en": "Yesterday she walked carefully on the stones"
+      },
+      "bracket_parts": [
+        "ging"
+      ],
+      "dativ_parts": [
+        "den Steinen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind stundenlang auf dem Pfad gegangen",
+      "translation": {
+        "ru": "Они часами шли по тропе",
+        "en": "They walked along the path for hours"
+      },
+      "bracket_parts": [
+        "sind",
+        "gegangen"
+      ],
+      "dativ_parts": [
+        "dem Pfad"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Geh bitte vorsichtig auf dieser Treppe!",
+      "translation": {
+        "ru": "Ступай, пожалуйста, осторожно по этой лестнице!",
+        "en": "Please walk carefully on these stairs!"
+      },
+      "bracket_parts": [
+        "Geh"
+      ],
+      "dativ_parts": [
+        "dieser Treppe"
+      ]
     }
   ]
 }

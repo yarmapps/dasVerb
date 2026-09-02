@@ -1,6 +1,7 @@
 {
   "infinitive": "helfen",
   "level": "A1",
+  "frequency_rank": 75,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "strong",
@@ -55,50 +56,130 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich helfe dir gerne bei den Hausaufgaben.",
+      "german": "Ich helfe dir beim Kochen",
       "translation": {
-        "ru": "Я охотно помогу тебе с домашним заданием.",
-        "en": "I am happy to help you with the homework."
+        "ru": "Я помогу тебе с готовкой",
+        "en": "I will help you with the cooking"
       },
       "bracket_parts": [
         "helfe"
       ],
       "dativ_parts": [
         "dir",
-        "bei den Hausaufgaben"
+        "beim Kochen"
       ]
     },
     {
       "id": "s2",
-      "tense": "Perfekt",
-      "german": "Sie hat ihm beim Umzug geholfen.",
+      "tense": "Präsens",
+      "german": "Hilfst du mir beim Aufräumen?",
       "translation": {
-        "ru": "Она помогла ему с переездом.",
-        "en": "She helped him with the move."
+        "ru": "Ты поможешь мне с уборкой?",
+        "en": "Will you help me with cleaning up?"
       },
       "bracket_parts": [
-        "hat",
-        "geholfen"
+        "Hilfst"
       ],
       "dativ_parts": [
-        "ihm",
-        "beim Umzug"
+        "mir",
+        "beim Aufräumen"
       ]
     },
     {
       "id": "s3",
-      "tense": "Imperativ",
-      "german": "Hilf mir bitte beim Kochen!",
+      "tense": "Präsens",
+      "german": "Er hilft seinem Bruder bei den Hausaufgaben",
       "translation": {
-        "ru": "Помоги мне, пожалуйста, с готовкой!",
-        "en": "Please help me with cooking!"
+        "ru": "Он помогает своему брату с уроками",
+        "en": "He helps his brother with homework"
+      },
+      "bracket_parts": [
+        "hilft"
+      ],
+      "dativ_parts": [
+        "seinem Bruder",
+        "den Hausaufgaben"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir helfen den Kollegen beim Projekt",
+      "translation": {
+        "ru": "Мы помогаем коллегам с проектом",
+        "en": "We help the colleagues with the project"
+      },
+      "bracket_parts": [
+        "helfen"
+      ],
+      "dativ_parts": [
+        "den Kollegen",
+        "beim Projekt"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Helft ihr den Eltern bei der Gartenarbeit?",
+      "translation": {
+        "ru": "Вы помогаете родителям с работой в саду?",
+        "en": "Are you helping your parents with gardening?"
+      },
+      "bracket_parts": [
+        "Helft"
+      ],
+      "dativ_parts": [
+        "den Eltern",
+        "der Gartenarbeit"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern half sie ihm bei der Reparatur",
+      "translation": {
+        "ru": "Вчера она помогла ему с ремонтом",
+        "en": "Yesterday she helped him with the repair"
+      },
+      "bracket_parts": [
+        "half"
+      ],
+      "dativ_parts": [
+        "ihm",
+        "der Reparatur"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben uns beim Umzug geholfen",
+      "translation": {
+        "ru": "Они помогли нам с переездом",
+        "en": "They helped us with the move"
+      },
+      "bracket_parts": [
+        "haben",
+        "geholfen"
+      ],
+      "dativ_parts": [
+        "uns",
+        "beim Umzug"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Hilf mir bitte beim Tragen!",
+      "translation": {
+        "ru": "Помоги мне, пожалуйста, донести!",
+        "en": "Please help me carry this!"
       },
       "bracket_parts": [
         "Hilf"
       ],
       "dativ_parts": [
         "mir",
-        "beim Kochen"
+        "beim Tragen"
       ]
     }
   ]

@@ -1,6 +1,7 @@
 {
   "infinitive": "fahren",
   "level": "A1",
+  "frequency_rank": 33,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,47 +56,122 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Fährst du morgen mit dem Zug?",
+      "german": "Ich fahre jeden Morgen mit dem Bus",
       "translation": {
-        "ru": "Ты поедешь завтра на поезде?",
-        "en": "Are you taking the train tomorrow?"
+        "ru": "Каждое утро я езжу на автобусе",
+        "en": "I ride the bus every morning"
+      },
+      "bracket_parts": [
+        "fahre"
+      ],
+      "dativ_parts": [
+        "dem Bus"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Fährst du heute mit dem Fahrrad zur Uni?",
+      "translation": {
+        "ru": "Ты поедешь сегодня на учебу на велосипеде?",
+        "en": "Are you riding your bicycle to university today?"
       },
       "bracket_parts": [
         "Fährst"
       ],
       "dativ_parts": [
-        "mit dem Zug"
+        "dem Fahrrad"
       ]
     },
     {
-      "id": "s2",
-      "tense": "Perfekt",
-      "german": "Wir sind gestern mit dem Bus zur Arbeit gefahren.",
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er fährt zur Arbeit immer mit dem Zug",
       "translation": {
-        "ru": "Мы вчера поехали на работу на автобусе.",
-        "en": "We went to work by bus yesterday."
+        "ru": "На работу он всегда ездит на поезде",
+        "en": "He always travels to work by train"
+      },
+      "bracket_parts": [
+        "fährt"
+      ],
+      "dativ_parts": [
+        "dem Zug"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir fahren am Wochenende mit dem Auto",
+      "translation": {
+        "ru": "На выходных мы поедем на машине",
+        "en": "We will go by car on the weekend"
+      },
+      "bracket_parts": [
+        "fahren"
+      ],
+      "dativ_parts": [
+        "dem Auto"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Fahrt ihr lieber mit der U-Bahn?",
+      "translation": {
+        "ru": "Вы предпочитаете ездить на метро?",
+        "en": "Do you prefer riding the subway?"
+      },
+      "bracket_parts": [
+        "Fahrt"
+      ],
+      "dativ_parts": [
+        "der U-Bahn"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern fuhr sie mit der Straßenbahn",
+      "translation": {
+        "ru": "Вчера она поехала на трамвае",
+        "en": "Yesterday she took the tram"
+      },
+      "bracket_parts": [
+        "fuhr"
+      ],
+      "dativ_parts": [
+        "der Straßenbahn"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind gestern mit dem Schnellzug gefahren",
+      "translation": {
+        "ru": "Они вчера поехали на скоростном поезде",
+        "en": "They traveled by express train yesterday"
       },
       "bracket_parts": [
         "sind",
         "gefahren"
       ],
       "dativ_parts": [
-        "mit dem Bus"
+        "dem Schnellzug"
       ]
     },
     {
-      "id": "s3",
+      "id": "s8",
       "tense": "Imperativ",
-      "german": "Fahr bitte vorsichtig mit diesem alten Auto!",
+      "german": "Fahr bitte mit dem Bus nach Hause!",
       "translation": {
-        "ru": "Езжай, пожалуйста, осторожно на этой старой машине!",
-        "en": "Please drive carefully with this old car!"
+        "ru": "Поезжай, пожалуйста, домой на автобусе!",
+        "en": "Please take the bus home!"
       },
       "bracket_parts": [
         "Fahr"
       ],
       "dativ_parts": [
-        "mit diesem alten Auto"
+        "dem Bus"
       ]
     }
   ]

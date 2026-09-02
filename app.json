@@ -14,18 +14,34 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yarm.apps.das-verb"
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#0F172A"
-      }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ],
+      "package": "com.yarm.apps.dasverb"
     },
     "web": {
       "bundler": "metro"
     },
     "plugins": [
-      "expo-sqlite"
+      "expo-sqlite",
+      "expo-audio",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-7651822935774581~1012442102",
+          "iosAppId": "ca-app-pub-7651822935774581~9648163377"
+        }
+      ]
     ]
   }
 }

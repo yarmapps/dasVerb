@@ -1,6 +1,7 @@
 {
   "infinitive": "kommen",
   "level": "A1",
+  "frequency_rank": 9,
   "auxiliary": "sein",
   "morphology": {
     "verb_class": "strong",
@@ -55,36 +56,111 @@
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Der Lehrer kommt jetzt in das Klassenzimmer.",
+      "german": "Ich komme heute in die Stadt",
       "translation": {
-        "ru": "Учитель заходит сейчас в класс.",
-        "en": "The teacher is coming into the classroom now."
+        "ru": "Я приезжаю сегодня в город",
+        "en": "I am coming to the city today"
+      },
+      "bracket_parts": [
+        "komme"
+      ],
+      "akkusativ_parts": [
+        "die Stadt"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Kommst du morgen in die Schule?",
+      "translation": {
+        "ru": "Ты придешь завтра в школу?",
+        "en": "Are you coming to school tomorrow?"
+      },
+      "bracket_parts": [
+        "Kommst"
+      ],
+      "akkusativ_parts": [
+        "die Schule"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er kommt bald in das neue Team",
+      "translation": {
+        "ru": "Он скоро перейдет в новую команду",
+        "en": "He is joining the new team soon"
       },
       "bracket_parts": [
         "kommt"
       ],
       "akkusativ_parts": [
-        "in das Klassenzimmer"
+        "das neue Team"
       ]
     },
     {
-      "id": "s2",
-      "tense": "Perfekt",
-      "german": "Sie ist gestern in die neue Wohnung gekommen.",
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir kommen heute Abend ins Restaurant",
       "translation": {
-        "ru": "Она вчера пришла в новую квартиру.",
-        "en": "She came into the new apartment yesterday."
+        "ru": "Мы придем сегодня вечером в ресторан",
+        "en": "We are coming to the restaurant tonight"
       },
       "bracket_parts": [
-        "ist",
+        "kommen"
+      ],
+      "akkusativ_parts": [
+        "Restaurant"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kommt ihr bald in die Schweiz?",
+      "translation": {
+        "ru": "Вы скоро приедете в Швейцарию?",
+        "en": "Are you coming to Switzerland soon?"
+      },
+      "bracket_parts": [
+        "Kommt"
+      ],
+      "akkusativ_parts": [
+        "die Schweiz"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern kam sie überraschend ins Zimmer",
+      "translation": {
+        "ru": "Вчера она неожиданно вошла в комнату",
+        "en": "Yesterday she unexpectedly entered the room"
+      },
+      "bracket_parts": [
+        "kam"
+      ],
+      "akkusativ_parts": [
+        "Zimmer"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind gestern ins Krankenhaus gekommen",
+      "translation": {
+        "ru": "Они вчера поступили в больницу",
+        "en": "They came to the hospital yesterday"
+      },
+      "bracket_parts": [
+        "sind",
         "gekommen"
       ],
       "akkusativ_parts": [
-        "in die neue Wohnung"
+        "Krankenhaus"
       ]
     },
     {
-      "id": "s3",
+      "id": "s8",
       "tense": "Imperativ",
       "german": "Komm bitte schnell ins Haus!",
       "translation": {
@@ -95,7 +171,7 @@
         "Komm"
       ],
       "akkusativ_parts": [
-        "ins Haus"
+        "Haus"
       ]
     }
   ]
