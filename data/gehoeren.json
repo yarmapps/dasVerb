@@ -1,0 +1,178 @@
+{
+  "id": "gehoeren",
+  "infinitive": "gehören",
+  "translation": {
+    "ru": "принадлежать",
+    "en": "to belong to"
+  },
+  "level": "A2",
+  "frequency_rank": 60,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ge",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "gehören",
+    "present_3sg": "gehört",
+    "praeteritum_3sg": "gehörte",
+    "partizip_2": "gehört"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehöre",
+      "du": "gehörst",
+      "er_sie_es": "gehört",
+      "wir": "gehören",
+      "ihr": "gehört",
+      "sie_Sie": "gehören",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "gehörte",
+      "du": "gehörtest",
+      "er_sie_es": "gehörte",
+      "wir": "gehörten",
+      "ihr": "gehörtet",
+      "sie_Sie": "gehörten"
+    },
+    "imperative": {
+      "du": "gehör!",
+      "ihr": "gehört!",
+      "Sie": "gehören Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemandem (Dat) gehören",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Dieser rote Regenschirm gehört mir schon seit vielen Jahren.",
+      "translation": {
+        "ru": "Этот красный зонт принадлежит мне уже много лет.",
+        "en": "This red umbrella has belonged to me for many years."
+      },
+      "bracket_parts": [
+        "gehört"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Gehört dieses alte Fahrrad auf dem Hof eigentlich dir?",
+      "translation": {
+        "ru": "Этот старый велосипед во дворе вообще-то принадлежит тебе?",
+        "en": "Does this old bicycle in the courtyard actually belong to you?"
+      },
+      "bracket_parts": [
+        "Gehört"
+      ],
+      "dativ_parts": [
+        "dir"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das große Haus am See gehört seinem wohlhabenden Onkel.",
+      "translation": {
+        "ru": "Большой дом у озера принадлежит его зажиточному дяде.",
+        "en": "The big house by the lake belongs to his wealthy uncle."
+      },
+      "bracket_parts": [
+        "gehört"
+      ],
+      "dativ_parts": [
+        "seinem wohlhabenden Onkel"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Der kleine Garten hinter dem Gebäude gehört uns allen gemeinsam.",
+      "translation": {
+        "ru": "Маленький сад за зданием принадлежит всем нам вместе.",
+        "en": "The small garden behind the building belongs to all of us together."
+      },
+      "bracket_parts": [
+        "gehört"
+      ],
+      "dativ_parts": [
+        "uns"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Gehören diese dicken Bücher auf dem Schreibtisch etwa euch?",
+      "translation": {
+        "ru": "Эти толстые книги на письменном столе случайно не вам принадлежат?",
+        "en": "Do these thick books on the desk belong to you by any chance?"
+      },
+      "bracket_parts": [
+        "Gehören"
+      ],
+      "dativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Früher gehörte dieses schöne Grundstück einer bekannten Familie.",
+      "translation": {
+        "ru": "Раньше этот красивый участок земли принадлежал одной известной семье.",
+        "en": "In the past this beautiful plot of land belonged to a well-known family."
+      },
+      "bracket_parts": [
+        "gehörte"
+      ],
+      "dativ_parts": [
+        "einer bekannten Familie"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die beiden schwarzen Koffer haben früher ihren Eltern gehört.",
+      "translation": {
+        "ru": "Оба черных чемодана раньше принадлежали их родителям.",
+        "en": "The two black suitcases previously belonged to their parents."
+      },
+      "bracket_parts": [
+        "haben",
+        "gehört"
+      ],
+      "dativ_parts": [
+        "ihren Eltern"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Gehören diese Schlüssel auf dem Tresen vielleicht Ihnen?",
+      "translation": {
+        "ru": "Эти ключи на стойке, возможно, принадлежат вам?",
+        "en": "Do these keys on the counter perhaps belong to you?"
+      },
+      "bracket_parts": [
+        "Gehören"
+      ],
+      "dativ_parts": [
+        "Ihnen"
+      ]
+    }
+  ]
+}

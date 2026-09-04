@@ -1,0 +1,178 @@
+{
+  "id": "fragen",
+  "infinitive": "fragen",
+  "translation": {
+    "ru": "спрашивать",
+    "en": "to ask"
+  },
+  "level": "A1",
+  "frequency_rank": 82,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "fragen",
+    "present_3sg": "fragt",
+    "praeteritum_3sg": "fragte",
+    "partizip_2": "gefragt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "frage",
+      "du": "fragst",
+      "er_sie_es": "fragt",
+      "wir": "fragen",
+      "ihr": "fragt",
+      "sie_Sie": "fragen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "fragte",
+      "du": "fragtest",
+      "er_sie_es": "fragte",
+      "wir": "fragten",
+      "ihr": "fragtet",
+      "sie_Sie": "fragten"
+    },
+    "imperative": {
+      "du": "frag!",
+      "ihr": "fragt!",
+      "Sie": "fragen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "den Lehrer / den Polizisten (Akk) fragen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich frage den freundlichen Lehrer nach dem Weg.",
+      "translation": {
+        "ru": "Я спрашиваю у дружелюбного учителя дорогу.",
+        "en": "I ask the friendly teacher for directions."
+      },
+      "bracket_parts": [
+        "frage"
+      ],
+      "akkusativ_parts": [
+        "den freundlichen Lehrer"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Fragst du deinen Vater heute um Erlaubnis?",
+      "translation": {
+        "ru": "Ты спросишь сегодня разрешения у отца?",
+        "en": "Are you asking your father for permission today?"
+      },
+      "bracket_parts": [
+        "Fragst"
+      ],
+      "akkusativ_parts": [
+        "deinen Vater"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er fragt den neuen Kollegen nach der Uhrzeit.",
+      "translation": {
+        "ru": "Он спрашивает у нового коллеги время.",
+        "en": "He asks the new colleague for the time."
+      },
+      "bracket_parts": [
+        "fragt"
+      ],
+      "akkusativ_parts": [
+        "den neuen Kollegen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir fragen die nette Nachbarin um Rat.",
+      "translation": {
+        "ru": "Мы спрашиваем совета у милой соседки.",
+        "en": "We ask the nice neighbour for advice."
+      },
+      "bracket_parts": [
+        "fragen"
+      ],
+      "akkusativ_parts": [
+        "die nette Nachbarin"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Fragt ihr den Busfahrer nach der richtigen Haltestelle?",
+      "translation": {
+        "ru": "Вы спросите у водителя автобуса нужную остановку?",
+        "en": "Are you asking the bus driver for the right stop?"
+      },
+      "bracket_parts": [
+        "Fragt"
+      ],
+      "akkusativ_parts": [
+        "den Busfahrer"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern fragte sie einen Passanten auf der Straße.",
+      "translation": {
+        "ru": "Вчера она спросила прохожего на улице.",
+        "en": "Yesterday she asked a passerby on the street."
+      },
+      "bracket_parts": [
+        "fragte"
+      ],
+      "akkusativ_parts": [
+        "einen Passanten"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben den bekannten Arzt um Hilfe gefragt.",
+      "translation": {
+        "ru": "Они обратились за помощью к известному врачу.",
+        "en": "They asked the well-known doctor for help."
+      },
+      "bracket_parts": [
+        "haben",
+        "gefragt"
+      ],
+      "akkusativ_parts": [
+        "den bekannten Arzt"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Frag doch bitte den Verkäufer nach dem Preis!",
+      "translation": {
+        "ru": "Спроси, пожалуйста, цену у продавца!",
+        "en": "Please ask the sales assistant for the price!"
+      },
+      "bracket_parts": [
+        "Frag"
+      ],
+      "akkusativ_parts": [
+        "den Verkäufer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "teilnehmen_dat_an",
+  "infinitive": "teilnehmen",
+  "translation": {
+    "ru": "принимать участие (в чем-то)",
+    "en": "to participate, to take part in"
+  },
+  "level": "B1",
+  "frequency_rank": 175,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "teil",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "teilnehmen",
+    "present_3sg": "nimmt teil",
+    "praeteritum_3sg": "nahm teil",
+    "partizip_2": "teilgenommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "nehme teil",
+      "du": "nimmst teil",
+      "er_sie_es": "nimmt teil",
+      "wir": "nehmen teil",
+      "ihr": "nehmt teil",
+      "sie_Sie": "nehmen teil",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "nahm teil",
+      "du": "nahmst teil",
+      "er_sie_es": "nahm teil",
+      "wir": "nahmen teil",
+      "ihr": "nahmt teil",
+      "sie_Sie": "nahmen teil"
+    },
+    "imperative": {
+      "du": "nimm teil!",
+      "ihr": "nehmt teil!",
+      "Sie": "nehmen Sie teil!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "an",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "an der Konferenz (Dat) teilnehmen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich nehme dieses Jahr aktiv an einem internationalen Forschungsprojekt teil.",
+      "translation": {
+        "ru": "В этом году я активно принимаю участие в международном исследовательском проекте.",
+        "en": "I am actively participating in an international research project this year."
+      },
+      "bracket_parts": [
+        "nehme",
+        "teil"
+      ],
+      "dativ_parts": [
+        "an einem internationalen Forschungsprojekt"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Nimmst du morgen an der wichtigen Vorstandssitzung im Rathaus teil?",
+      "translation": {
+        "ru": "Ты примешь завтра участие в важном заседании правления в ратуше?",
+        "en": "Are you taking part in the important board meeting at the town hall tomorrow?"
+      },
+      "bracket_parts": [
+        "Nimmst",
+        "teil"
+      ],
+      "dativ_parts": [
+        "an der wichtigen Vorstandssitzung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der erfahrene Ingenieur nimmt regelmäßig an wissenschaftlichen Fachkongressen teil.",
+      "translation": {
+        "ru": "Опытный инженер регулярно принимает участие в научных конгрессах специалистов.",
+        "en": "The experienced engineer regularly participates in scientific specialist congresses."
+      },
+      "bracket_parts": [
+        "nimmt",
+        "teil"
+      ],
+      "dativ_parts": [
+        "an wissenschaftlichen Fachkongressen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir nehmen gerne an dem Sprachkurs teil, um unsere Sprachkenntnisse gezielt zu verbessern.",
+      "translation": {
+        "ru": "Мы с удовольствием участвуем в языковом курсе, чтобы целенаправленно улучшить свои знания языка.",
+        "en": "We gladly take part in the language course to improve our language skills targetedly."
+      },
+      "bracket_parts": [
+        "nehmen",
+        "teil"
+      ],
+      "dativ_parts": [
+        "an dem Sprachkurs"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Nehmt ihr am Wochenende an dem städtischen Marathonlauf teil?",
+      "translation": {
+        "ru": "Вы примете участие в городском марафоне в эти выходные?",
+        "en": "Are you participating in the city marathon this weekend?"
+      },
+      "bracket_parts": [
+        "Nehmt",
+        "teil"
+      ],
+      "dativ_parts": [
+        "an dem städtischen Marathonlauf"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern nahm sie trotz einer Erkältung an der entscheidenden Abschlussprüfung teil.",
+      "translation": {
+        "ru": "Вчера, несмотря на простуду, она приняла участие в решающем выпускном экзамене.",
+        "en": "Yesterday, despite a cold, she took part in the decisive final exam."
+      },
+      "bracket_parts": [
+        "nahm",
+        "teil"
+      ],
+      "dativ_parts": [
+        "an der entscheidenden Abschlussprüfung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben mit großem Engagement an der Podiumsdiskussion teilgenommen.",
+      "translation": {
+        "ru": "Они с большой отдачей приняли участие в подиумной дискуссии.",
+        "en": "They participated with great commitment in the panel discussion."
+      },
+      "bracket_parts": [
+        "haben",
+        "teilgenommen"
+      ],
+      "dativ_parts": [
+        "an der Podiumsdiskussion"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Nehmen Sie bitte zahlreich an unserer Abstimmung teil!",
+      "translation": {
+        "ru": "Примите, пожалуйста, активное участие в нашем голосовании!",
+        "en": "Please participate in our vote in large numbers!"
+      },
+      "bracket_parts": [
+        "Nehmen",
+        "teil"
+      ],
+      "dativ_parts": [
+        "an unserer Abstimmung"
+      ]
+    }
+  ]
+}

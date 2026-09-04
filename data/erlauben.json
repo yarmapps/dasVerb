@@ -1,0 +1,199 @@
+{
+  "id": "erlauben",
+  "infinitive": "erlauben",
+  "translation": {
+    "ru": "разрешать, позволять",
+    "en": "to allow, to permit"
+  },
+  "level": "A2",
+  "frequency_rank": 250,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erlauben",
+    "present_3sg": "erlaubt",
+    "praeteritum_3sg": "erlaubte",
+    "partizip_2": "erlaubt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erlaube",
+      "du": "erlaubst",
+      "er_sie_es": "erlaubt",
+      "wir": "erlauben",
+      "ihr": "erlaubt",
+      "sie_Sie": "erlauben",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "erlaubte",
+      "du": "erlaubtest",
+      "er_sie_es": "erlaubte",
+      "wir": "erlaubten",
+      "ihr": "erlaubtet",
+      "sie_Sie": "erlaubten"
+    },
+    "imperative": {
+      "du": "erlaub!",
+      "ihr": "erlaubt!",
+      "Sie": "erlauben Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ + Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemandem (Dat) eine Ausnahme (Akk) erlauben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erlaube meinen Kindern heute ausnahmsweise eine Stunde länger fernzusehen.",
+      "translation": {
+        "ru": "Я разрешаю своим детям сегодня в виде исключения посмотреть телевизор на час дольше.",
+        "en": "I exceptionally allow my children to watch television an hour longer today."
+      },
+      "bracket_parts": [
+        "erlaube"
+      ],
+      "dativ_parts": [
+        "meinen Kindern"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erlaubst du deinem kleinen Bruder die Benutzung deines neuen Laptops?",
+      "translation": {
+        "ru": "Ты разрешаешь своему младшему брату пользоваться твоим новым ноутбуком?",
+        "en": "Do you allow your little brother to use your new laptop?"
+      },
+      "bracket_parts": [
+        "Erlaubst"
+      ],
+      "dativ_parts": [
+        "deinem kleinen Bruder"
+      ],
+      "akkusativ_parts": [
+        "die Benutzung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Vermieter erlaubt den Mietern die Haltung von kleinen Haustieren in der Wohnung.",
+      "translation": {
+        "ru": "Арендодатель разрешает жильцам содержание мелких домашних животных в квартире.",
+        "en": "The landlord allows tenants to keep small pets in the flat."
+      },
+      "bracket_parts": [
+        "erlaubt"
+      ],
+      "dativ_parts": [
+        "den Mietern"
+      ],
+      "akkusativ_parts": [
+        "die Haltung"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erlauben unseren Mitarbeitern flexibles Arbeiten von zu Hause aus.",
+      "translation": {
+        "ru": "Мы разрешаем нашим сотрудникам гибкую работу из дома.",
+        "en": "We allow our employees flexible working from home."
+      },
+      "bracket_parts": [
+        "erlauben"
+      ],
+      "dativ_parts": [
+        "unseren Mitarbeitern"
+      ],
+      "akkusativ_parts": [
+        "flexibles Arbeiten"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erlaubt ihr den Gästen das Rauchen auf dem Balkon?",
+      "translation": {
+        "ru": "Вы разрешаете гостям курить на балконе?",
+        "en": "Do you allow the guests to smoke on the balcony?"
+      },
+      "bracket_parts": [
+        "Erlaubt"
+      ],
+      "dativ_parts": [
+        "den Gästen"
+      ],
+      "akkusativ_parts": [
+        "das Rauchen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern erlaubte die Lehrerin der Klasse eine kurze zusätzliche Pause.",
+      "translation": {
+        "ru": "Вчера учительница разрешила классу короткий дополнительный перерыв.",
+        "en": "Yesterday the teacher allowed the class a short additional break."
+      },
+      "bracket_parts": [
+        "erlaubte"
+      ],
+      "dativ_parts": [
+        "der Klasse"
+      ],
+      "akkusativ_parts": [
+        "eine kurze zusätzliche Pause"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Behörden haben den Veranstaltern das große Sommerfest im Stadtpark erlaubt.",
+      "translation": {
+        "ru": "Власти разрешили организаторам большой летний праздник в городском парке.",
+        "en": "The authorities permitted the organizers the big summer festival in the city park."
+      },
+      "bracket_parts": [
+        "haben",
+        "erlaubt"
+      ],
+      "dativ_parts": [
+        "den Veranstaltern"
+      ],
+      "akkusativ_parts": [
+        "das große Sommerfest"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erlauben Sie mir bitte eine kurze persönliche Bemerkung!",
+      "translation": {
+        "ru": "Позвольте мне, пожалуйста, короткое личное замечание!",
+        "en": "Please allow me a brief personal remark!"
+      },
+      "bracket_parts": [
+        "Erlauben"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "eine kurze persönliche Bemerkung"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": "zumachen",
+  "infinitive": "zumachen",
+  "translation": {
+    "ru": "закрывать (окно, дверь, книгу)",
+    "en": "to close, to shut"
+  },
+  "level": "A2",
+  "frequency_rank": 245,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "zu",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zumachen",
+    "present_3sg": "macht zu",
+    "praeteritum_3sg": "machte zu",
+    "partizip_2": "zugemacht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "mache zu",
+      "du": "machst zu",
+      "er_sie_es": "macht zu",
+      "wir": "machen zu",
+      "ihr": "macht zu",
+      "sie_Sie": "machen zu",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "machte zu",
+      "du": "machtest zu",
+      "er_sie_es": "machte zu",
+      "wir": "machten zu",
+      "ihr": "machtet zu",
+      "sie_Sie": "machten zu"
+    },
+    "imperative": {
+      "du": "mach zu!",
+      "ihr": "macht zu!",
+      "Sie": "machen Sie zu!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Tür / das Fenster (Akk) zumachen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich mache wegen des kalten Zugwinds sofort das Küchenfenster zu.",
+      "translation": {
+        "ru": "Из-за холодного сквозняка я немедленно закрываю окно на кухне.",
+        "en": "Because of the cold draught, I immediately close the kitchen window."
+      },
+      "bracket_parts": [
+        "mache",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "das Küchenfenster"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Machst du bitte die schwere Haustür leise hinter dir zu?",
+      "translation": {
+        "ru": "Закроешь, пожалуйста, тихо за собой тяжелую входную дверь?",
+        "en": "Will you please close the heavy front door quietly behind you?"
+      },
+      "bracket_parts": [
+        "Machst",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "die schwere Haustür"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der kleine Laden an der Ecke macht samstags schon um vierzehn Uhr zu.",
+      "translation": {
+        "ru": "Маленький магазинчик на углу закрывается по субботам уже в четырнадцать часов.",
+        "en": "The small shop on the corner closes at two o'clock on Saturdays already."
+      },
+      "bracket_parts": [
+        "macht",
+        "zu"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir machen vor dem Verlassen der Wohnung alle Fenster fest zu.",
+      "translation": {
+        "ru": "Перед выходом из квартиры мы плотно закрываем все окна.",
+        "en": "Before leaving the flat, we close all windows tightly."
+      },
+      "bracket_parts": [
+        "machen",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "alle Fenster"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Macht ihr bei dem lauten Straßenlärm nicht lieber die Balkontür zu?",
+      "translation": {
+        "ru": "Не предпочтете ли вы закрыть балконную дверь из-за громкого уличного шума?",
+        "en": "Wouldn't you rather close the balcony door with the loud street noise?"
+      },
+      "bracket_parts": [
+        "Macht",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "die Balkontür"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern machte sie müde das dicke Buch zu und schaltete die Lampe aus.",
+      "translation": {
+        "ru": "Вчера она устало закрыла толстую книгу и выключила лампу.",
+        "en": "Yesterday she closed the thick book tiredly and turned off the lamp."
+      },
+      "bracket_parts": [
+        "machte",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "das dicke Buch"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben den alten Schrank nach dem Einräumen fest zugemacht.",
+      "translation": {
+        "ru": "Они плотно закрыли старый шкаф после уборки вещей.",
+        "en": "They closed the old wardrobe tightly after putting things away."
+      },
+      "bracket_parts": [
+        "haben",
+        "zugemacht"
+      ],
+      "akkusativ_parts": [
+        "den alten Schrank"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Mach bitte die Augen zu und öffne erst bei drei!",
+      "translation": {
+        "ru": "Закрой, пожалуйста, глаза и открывай только на счет три!",
+        "en": "Please close your eyes and only open them at three!"
+      },
+      "bracket_parts": [
+        "Mach",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "die Augen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "id": "unterscheiden_sich_dat_von",
+  "infinitive": "sich unterscheiden",
+  "translation": {
+    "ru": "отличаться (от кого-то/чего-то)",
+    "en": "to differ from, to be distinguished from"
+  },
+  "level": "B2",
+  "frequency_rank": 157,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "unter",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich unterscheiden",
+    "present_3sg": "unterscheidet sich",
+    "praeteritum_3sg": "unterschied sich",
+    "partizip_2": "unterschieden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "unterscheide mich",
+      "du": "unterscheidest dich",
+      "er_sie_es": "unterscheidet sich",
+      "wir": "unterscheiden uns",
+      "ihr": "unterscheidet euch",
+      "sie_Sie": "unterscheiden sich",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "unterschied mich",
+      "du": "unterschiedst dich",
+      "er_sie_es": "unterschied sich",
+      "wir": "unterschieden uns",
+      "ihr": "unterschiedet euch",
+      "sie_Sie": "unterschieden sich"
+    },
+    "imperative": {
+      "du": "unterscheid dich!",
+      "ihr": "unterscheidet euch!",
+      "Sie": "unterscheiden Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "von",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "sich deutlich von anderen Ansätzen (Dat) unterscheiden",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich unterscheide mich durch meinen unkonventionellen Arbeitsstil deutlich von den Kollegen.",
+      "translation": {
+        "ru": "Своим нестандартным стилем работы я отчетливо отличаюсь от коллег.",
+        "en": "Through my unconventional working style I clearly differ from my colleagues."
+      },
+      "bracket_parts": [
+        "unterscheide"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": [
+        "von den Kollegen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Unterscheidest du dich in deinen Ansichten grundlegend von deinen konservativen Eltern?",
+      "translation": {
+        "ru": "Отличаешься ли ты в своих взглядах принципиально от своих консервативных родителей?",
+        "en": "Do you differ fundamentally in your views from your conservative parents?"
+      },
+      "bracket_parts": [
+        "Unterscheidest"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "von deinen konservativen Eltern"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das neue Modell unterscheidet sich in puncto Energieeffizienz spürbar vom Vorgänger.",
+      "translation": {
+        "ru": "Новая модель ощутимо отличается от предшественника в плане энергоэффективности.",
+        "en": "The new model differs noticeably from its predecessor in terms of energy efficiency."
+      },
+      "bracket_parts": [
+        "unterscheidet"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "vom Vorgänger"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir unterscheiden uns als moderne Schule bewusst von traditionellen Unterrichtsformen.",
+      "translation": {
+        "ru": "Мы как современная школа осознанно отличаемся от традиционных форм обучения.",
+        "en": "As a modern school, we consciously distinguish ourselves from traditional forms of teaching."
+      },
+      "bracket_parts": [
+        "unterscheiden"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ],
+      "dativ_parts": [
+        "von traditionellen Unterrichtsformen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Unterscheidet ihr euch mit eurem Produktportfolio klar von der starken Konkurrenz?",
+      "translation": {
+        "ru": "Четко ли вы отличаетесь своим портфелем продуктов от сильных конкурентов?",
+        "en": "Do you clearly distinguish yourselves from the strong competition with your product portfolio?"
+      },
+      "bracket_parts": [
+        "Unterscheidet"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ],
+      "dativ_parts": [
+        "von der starken Konkurrenz"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals unterschied sich der ländliche Dialekt noch gravierend von der Hochsprache.",
+      "translation": {
+        "ru": "В те времена сельский диалект еще кардинально отличался от литературного языка.",
+        "en": "At that time the rural dialect still differed significantly from standard German."
+      },
+      "bracket_parts": [
+        "unterschied"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "von der Hochsprache"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die beiden Entwürfe haben sich in den wesentlichen Kernpunkten kaum voneinander unterschieden.",
+      "translation": {
+        "ru": "Оба проекта почти не отличались друг от друга в существенных ключевых пунктах.",
+        "en": "The two drafts hardly differed from each other on the essential key points."
+      },
+      "bracket_parts": [
+        "haben",
+        "unterschieden"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Unterscheiden Sie bitte stets sorgfältig zwischen Fakten und persönlichen Meinungen!",
+      "translation": {
+        "ru": "Различайте, пожалуйста, всегда тщательно факты и личные мнения!",
+        "en": "Please always distinguish carefully between facts and personal opinions!"
+      },
+      "bracket_parts": [
+        "Unterscheiden"
+      ],
+      "dativ_parts": [
+        "zwischen Fakten und persönlichen Meinungen"
+      ]
+    }
+  ]
+}

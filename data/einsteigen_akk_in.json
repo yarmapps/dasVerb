@@ -1,0 +1,185 @@
+{
+  "id": "einsteigen_akk_in",
+  "infinitive": "einsteigen",
+  "translation": {
+    "ru": "садиться (в транспорт)",
+    "en": "to board, to get into"
+  },
+  "level": "A2",
+  "frequency_rank": 260,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einsteigen",
+    "present_3sg": "steigt ein",
+    "praeteritum_3sg": "stieg ein",
+    "partizip_2": "eingestiegen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "steige ein",
+      "du": "steigst ein",
+      "er_sie_es": "steigt ein",
+      "wir": "steigen ein",
+      "ihr": "steigt ein",
+      "sie_Sie": "steigen ein",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "stieg ein",
+      "du": "stiegst ein",
+      "er_sie_es": "stieg ein",
+      "wir": "stiegen ein",
+      "ihr": "stiegt ein",
+      "sie_Sie": "stiegen ein"
+    },
+    "imperative": {
+      "du": "steig ein!",
+      "ihr": "steigt ein!",
+      "Sie": "steigen Sie ein!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "in",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "in den schnellen Zug (Akk) einsteigen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich steige morgens am Hauptbahnhof immer in die U-Bahn ein.",
+      "translation": {
+        "ru": "Я каждое утро на центральном вокзале сажусь в метро.",
+        "en": "I always get on the underground at the main station in the morning."
+      },
+      "bracket_parts": [
+        "steige",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "in die U-Bahn"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Steigst du an dieser Haltestelle schon in den Bus ein?",
+      "translation": {
+        "ru": "Ты садишься в автобус уже на этой остановке?",
+        "en": "Are you getting on the bus at this stop already?"
+      },
+      "bracket_parts": [
+        "Steigst",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "in den Bus"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Reisende steigt mit seinem schweren Koffer eilig in den Zug ein.",
+      "translation": {
+        "ru": "Пассажир с тяжелым чемоданом спешно садится в поезд.",
+        "en": "The traveller hastily boards the train with his heavy suitcase."
+      },
+      "bracket_parts": [
+        "steigt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "in den Zug"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir steigen zusammen mit vielen Pendlern in die Straßenbahn ein.",
+      "translation": {
+        "ru": "Мы садимся в трамвай вместе со многими пассажирами.",
+        "en": "We get on the tram together with many commuters."
+      },
+      "bracket_parts": [
+        "steigen",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "in die Straßenbahn"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Steigt ihr an Gleis vier in den Schnellzug nach München ein?",
+      "translation": {
+        "ru": "Вы садитесь на четвертом пути в скорый поезд до Мюнхена?",
+        "en": "Are you boarding the express train to Munich on platform four?"
+      },
+      "bracket_parts": [
+        "Steigt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "in den Schnellzug"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern stieg sie trotz des Regens gut gelaunt in das Taxi ein.",
+      "translation": {
+        "ru": "Вчера, несмотря на дождь, она в хорошем настроении села в такси.",
+        "en": "Yesterday she got into the taxi in a good mood despite the rain."
+      },
+      "bracket_parts": [
+        "stieg",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "in das Taxi"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind im letzten Moment vor der Abfahrt in den Regionalzug eingestiegen.",
+      "translation": {
+        "ru": "Они сели в региональный поезд в последний момент перед отправлением.",
+        "en": "They boarded the regional train at the very last moment before departure."
+      },
+      "bracket_parts": [
+        "sind",
+        "eingestiegen"
+      ],
+      "akkusativ_parts": [
+        "in den Regionalzug"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Steigen Sie bitte vorsichtig in den Bus ein!",
+      "translation": {
+        "ru": "Садитесь, пожалуйста, осторожно в автобус!",
+        "en": "Please get on the bus carefully!"
+      },
+      "bracket_parts": [
+        "Steigen",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "in den Bus"
+      ]
+    }
+  ]
+}

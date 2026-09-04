@@ -1,0 +1,178 @@
+{
+  "id": "laufen_akk_in",
+  "infinitive": "laufen",
+  "translation": {
+    "ru": "бежать, идти (внутрь/куда-то)",
+    "en": "to run, to walk (into somewhere)"
+  },
+  "level": "A1",
+  "frequency_rank": 165,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "laufen",
+    "present_3sg": "läuft",
+    "praeteritum_3sg": "lief",
+    "partizip_2": "gelaufen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "laufe",
+      "du": "läufst",
+      "er_sie_es": "läuft",
+      "wir": "laufen",
+      "ihr": "lauft",
+      "sie_Sie": "laufen",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "lief",
+      "du": "liefst",
+      "er_sie_es": "lief",
+      "wir": "liefen",
+      "ihr": "lieft",
+      "sie_Sie": "liefen"
+    },
+    "imperative": {
+      "du": "lauf!",
+      "ihr": "lauft!",
+      "Sie": "laufen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "in",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "in den Park (Akk) laufen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich laufe schnell in den grünen Park.",
+      "translation": {
+        "ru": "Я быстро бегу в зеленый парк.",
+        "en": "I quickly run into the green park."
+      },
+      "bracket_parts": [
+        "laufe"
+      ],
+      "akkusativ_parts": [
+        "in den grünen Park"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Läufst du jetzt in die warme Küche?",
+      "translation": {
+        "ru": "Ты бежишь сейчас в теплую кухню?",
+        "en": "Are you running into the warm kitchen now?"
+      },
+      "bracket_parts": [
+        "Läufst"
+      ],
+      "akkusativ_parts": [
+        "in die warme Küche"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der kleine Junge läuft eilig in das Haus.",
+      "translation": {
+        "ru": "Маленький мальчик спешно бежит в дом.",
+        "en": "The little boy runs hurriedly into the house."
+      },
+      "bracket_parts": [
+        "läuft"
+      ],
+      "akkusativ_parts": [
+        "in das Haus"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir laufen bei Regen schnell in den Supermarkt.",
+      "translation": {
+        "ru": "Во время дождя мы быстро бежим в супермаркет.",
+        "en": "In the rain we quickly run into the supermarket."
+      },
+      "bracket_parts": [
+        "laufen"
+      ],
+      "akkusativ_parts": [
+        "in den Supermarkt"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Lauft ihr alle zusammen in das neue Kino?",
+      "translation": {
+        "ru": "Вы все вместе идете в новый кинотеатр?",
+        "en": "Are you all walking into the new cinema together?"
+      },
+      "bracket_parts": [
+        "Lauft"
+      ],
+      "akkusativ_parts": [
+        "in das neue Kino"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern lief sie vor Kälte schnell in das gemütliche Café.",
+      "translation": {
+        "ru": "Вчера от холода она быстро забежала в уютное кафе.",
+        "en": "Yesterday from the cold she ran quickly into the cozy café."
+      },
+      "bracket_parts": [
+        "lief"
+      ],
+      "akkusativ_parts": [
+        "in das gemütliche Café"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind gestern Abend eilig in den Bahnhof gelaufen.",
+      "translation": {
+        "ru": "Они вчера вечером торопливо побежали на вокзал.",
+        "en": "They ran hurriedly into the train station yesterday evening."
+      },
+      "bracket_parts": [
+        "sind",
+        "gelaufen"
+      ],
+      "akkusativ_parts": [
+        "in den Bahnhof"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Lauf bitte nicht so schnell in das Zimmer!",
+      "translation": {
+        "ru": "Не вбегай, пожалуйста, так быстро в комнату!",
+        "en": "Please do not run into the room so fast!"
+      },
+      "bracket_parts": [
+        "Lauf"
+      ],
+      "akkusativ_parts": [
+        "in das Zimmer"
+      ]
+    }
+  ]
+}

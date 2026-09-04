@@ -1,0 +1,185 @@
+{
+  "id": "umsteigen_akk_in",
+  "infinitive": "umsteigen",
+  "translation": {
+    "ru": "пересаживаться (на другой транспорт)",
+    "en": "to change, to transfer (trains/buses)"
+  },
+  "level": "A2",
+  "frequency_rank": 280,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "um",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "umsteigen",
+    "present_3sg": "steigt um",
+    "praeteritum_3sg": "stieg um",
+    "partizip_2": "umgestiegen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "steige um",
+      "du": "steigst um",
+      "er_sie_es": "steigt um",
+      "wir": "steigen um",
+      "ihr": "steigt um",
+      "sie_Sie": "steigen um",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "stieg um",
+      "du": "stiegst um",
+      "er_sie_es": "stieg um",
+      "wir": "stiegen um",
+      "ihr": "stiegt um",
+      "sie_Sie": "stiegen um"
+    },
+    "imperative": {
+      "du": "steig um!",
+      "ihr": "steigt um!",
+      "Sie": "steigen Sie um!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "in",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "am Hauptbahnhof in den nächsten Zug (Akk) umsteigen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich steige in Frankfurt pünktlich in den schnellen ICE nach Berlin um.",
+      "translation": {
+        "ru": "Я во Франкфурте вовремя пересаживаюсь на скоростной поезд ICE до Берлина.",
+        "en": "In Frankfurt I transfer punctually to the fast ICE train to Berlin."
+      },
+      "bracket_parts": [
+        "steige",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "in den schnellen ICE"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Steigst du am Marktplatz direkt in die Linie vier um?",
+      "translation": {
+        "ru": "Ты пересаживаешься на рыночной площади прямо на линию номер четыре?",
+        "en": "Are you transferring directly to line four at the market square?"
+      },
+      "bracket_parts": [
+        "Steigst",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "in die Linie vier"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Reisende steigt am Südbahnhof zügig in den Regionalbus um.",
+      "translation": {
+        "ru": "Пассажир на Южном вокзале быстро пересаживается на региональный автобус.",
+        "en": "The traveller quickly changes to the regional bus at the south station."
+      },
+      "bracket_parts": [
+        "steigt",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "in den Regionalbus"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir steigen an der nächsten Haltestelle in die Straßenbahn um.",
+      "translation": {
+        "ru": "Мы пересаживаемся на следующей остановке на трамвай.",
+        "en": "We are transferring to the tram at the next stop."
+      },
+      "bracket_parts": [
+        "steigen",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "in die Straßenbahn"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Steigt ihr in Köln in den verspäteten Anschlusszug um?",
+      "translation": {
+        "ru": "Вы пересаживаетесь в Кёльне на опаздывающий стыковочный поезд?",
+        "en": "Are you transferring in Cologne to the delayed connecting train?"
+      },
+      "bracket_parts": [
+        "Steigt",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "in den verspäteten Anschlusszug"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern stieg sie trotz der kurzen Umsteigezeit sicher in den Anschlusszug um.",
+      "translation": {
+        "ru": "Вчера, несмотря на короткое время пересадки, она благополучно пересела на стыковочный поезд.",
+        "en": "Yesterday, despite the short transfer time, she safely transferred to the connecting train."
+      },
+      "bracket_parts": [
+        "stieg",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "in den Anschlusszug"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind am Flughafen ohne Probleme in die S-Bahn umgestiegen.",
+      "translation": {
+        "ru": "Они в аэропорту без проблем пересаживались на городскую электричку.",
+        "en": "They transferred to the suburban train at the airport without any problems."
+      },
+      "bracket_parts": [
+        "sind",
+        "umgestiegen"
+      ],
+      "akkusativ_parts": [
+        "in die S-Bahn"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Steigen Sie bitte an der Station Hauptwache in die U-Bahn um!",
+      "translation": {
+        "ru": "Пересаживайтесь, пожалуйста, на станции Хауптвахе на метро!",
+        "en": "Please change to the underground at the Hauptwache station!"
+      },
+      "bracket_parts": [
+        "Steigen",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "in die U-Bahn"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "begreifen",
+  "infinitive": "begreifen",
+  "translation": {
+    "ru": "постигать, понимать, осознавать",
+    "en": "to comprehend, to grasp, to understand"
+  },
+  "level": "B2",
+  "frequency_rank": 301,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "begreifen",
+    "present_3sg": "begreift",
+    "praeteritum_3sg": "begriff",
+    "partizip_2": "begriffen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "begreife",
+      "du": "begreifst",
+      "er_sie_es": "begreift",
+      "wir": "begreifen",
+      "ihr": "begreift",
+      "sie_Sie": "begreifen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "begriff",
+      "du": "begriffst",
+      "er_sie_es": "begriff",
+      "wir": "begriffen",
+      "ihr": "begrifft",
+      "sie_Sie": "begriffen"
+    },
+    "imperative": {
+      "du": "begreif!",
+      "ihr": "begreift!",
+      "Sie": "begreifen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die tieferen Zusammenhänge (Akk) vollkommen begreifen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich begreife nach der klaren Erklärung meines Professors endlich die komplexe mathematische Formel.",
+      "translation": {
+        "ru": "После ясного объяснения моего профессора я наконец постигаю сложную математическую формулу.",
+        "en": "After my professor's clear explanation, I finally grasp the complex mathematical formula."
+      },
+      "bracket_parts": [
+        "begreife"
+      ],
+      "akkusativ_parts": [
+        "die komplexe mathematische Formel"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Begreifst du eigentlich den wahren Ernst dieser gefährlichen Situation für uns alle?",
+      "translation": {
+        "ru": "Осознаешь ли ты на самом деле истинную серьезность этой опасной ситуации для нас всех?",
+        "en": "Do you actually comprehend the true seriousness of this dangerous situation for all of us?"
+      },
+      "bracket_parts": [
+        "Begreifst"
+      ],
+      "akkusativ_parts": [
+        "den wahren Ernst dieser gefährlichen Situation"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das kleine Kind begreift die physikalische Welt um sich herum durch aktives Tasten und Fühlen.",
+      "translation": {
+        "ru": "Маленький ребенок познает физический мир вокруг себя через активное осязание и ощупывание.",
+        "en": "The little child grasps the physical world around it through active touching and feeling."
+      },
+      "bracket_parts": [
+        "begreift"
+      ],
+      "akkusativ_parts": [
+        "die physikalische Welt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir begreifen den Umweltschutz als gemeinsame globale Aufgabe der gesamten Menschheit.",
+      "translation": {
+        "ru": "Мы понимаем охрану окружающей среды как общую глобальную задачу всего человечества.",
+        "en": "We understand environmental protection as a shared global task of all humanity."
+      },
+      "bracket_parts": [
+        "begreifen"
+      ],
+      "akkusativ_parts": [
+        "den Umweltschutz"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Begreift ihr die theoretischen Grundlagen der Quantenmechanik nach der heutigen Vorlesung besser?",
+      "translation": {
+        "ru": "Понимаете ли вы теоретические основы квантовой механики после сегодняшней лекции лучше?",
+        "en": "Do you understand the theoretical foundations of quantum mechanics better after today's lecture?"
+      },
+      "bracket_parts": [
+        "Begreift"
+      ],
+      "akkusativ_parts": [
+        "die theoretischen Grundlagen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern begriff der Ermittler plötzlich das heimtückische Motiv hinter dem Verbrechen.",
+      "translation": {
+        "ru": "Вчера следователь внезапно осознал коварный мотив преступления.",
+        "en": "Yesterday the investigator suddenly grasped the insidious motive behind the crime."
+      },
+      "bracket_parts": [
+        "begriff"
+      ],
+      "akkusativ_parts": [
+        "das heimtückische Motiv"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die meisten Menschen haben die Notwendigkeit des schnellen Handelns rechtzeitig begriffen.",
+      "translation": {
+        "ru": "Большинство людей вовремя осознали необходимость быстрых действий.",
+        "en": "Most people understood the need for prompt action in good time."
+      },
+      "bracket_parts": [
+        "haben",
+        "begriffen"
+      ],
+      "akkusativ_parts": [
+        "die Notwendigkeit des schnellen Handelns"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Begreifen Sie diese Herausforderung bitte als eine wertvolle Chance zum Lernen!",
+      "translation": {
+        "ru": "Воспринимайте этот вызов, пожалуйста, как ценную возможность учиться!",
+        "en": "Please understand this challenge as a valuable opportunity to learn!"
+      },
+      "bracket_parts": [
+        "Begreifen"
+      ],
+      "akkusativ_parts": [
+        "diese Herausforderung"
+      ]
+    }
+  ]
+}

@@ -203,7 +203,31 @@ dasVerb/
 
 ---
 
-## 9. Обязательные скрипты верификации (Yarn)
+## 9. Аналитика и телеметрия (Firebase & Google Analytics 4)
+
+1. **Единый SDK:**
+   * Сбор аналитики и поведенческих метрик мобильного приложения осуществляется через официальный SDK `@react-native-firebase/app` и `@react-native-firebase/analytics`.
+   * Отдельного Google Analytics SDK не требуется — данные из Firebase автоматически синхронизируются в Google Analytics 4 (GA4 App Data Stream).
+2. **Фасад `analyticsService` (`src/services/analyticsService.ts`):**
+   * Все события типизированы (`src/types/analytics.types.ts`), логируются через `trackEvent`, `trackScreenView`, `setUserProperty`.
+   * Префиксы событий строго разделены по функциональным областям:
+     * `dictionary_*` — поиск (`dictionary_search` с `search_term` и `results_count`, `dictionary_search_no_results`), очистка строки поиска, разворачивание/сворачивание карточки глагола.
+     * `quiz_*` — старт квиза (`quiz_started`), завершение с результатами (`quiz_completed`), досрочный выход (`quiz_interrupted`).
+     * `daily_limit_*` — показ окна лимита (`daily_limit_shown`), выбор просмотра рекламы (`daily_limit_ad_chosen`), отказ/закрытие (`daily_limit_ad_declined`), переход на Premium (`daily_limit_premium_clicked`).
+     * `ad_reward_*` — факт показа рекламы (`ad_reward_viewed`) и успешное начисление награды (`ad_reward_earned`).
+     * `settings_*` — переключение звука, уведомлений, озвучки, пола диктора, темы, выбор языка интерфейса, клик по обратной связи.
+   * Все вызовы изолированы в `try ... catch` — сбои нативного модуля никогда не приводят к падению приложения.
+3. **Expo Go & Dev-окружение:**
+   * При отключенном `ENABLE_ANALYTICS` в `src/config/features.js` бандлер Metro перенаправляет вызовы на `src/analytics/mock.ts`, обеспечивая запуск в Expo Go и прогон unit-тестов без необходимости наличия скомпилированных нативных библиотек.
+4. **Конфигурация нативной сборки iOS (CocoaPods & SPM):**
+   * В `app.json` плагин `@react-native-firebase/app` настроен с `{ "ios": { "disableSPM": true } }`, отключая Swift Package Manager в пользу стабильного CocoaPods (`$RNFirebaseDisableSPM = true`).
+   * В связке с `expo-build-properties` (`ios.useFrameworks: "static"`) подключен плагин `./plugins/withNonModularHeaders` для настройки статических библиотек и флага `CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = 'YES'`.
+5. **Автоматический трекинг экранов (`useScreenTracking`):**
+   * Хук `src/hooks/useScreenTracking.ts` подключается к `NavigationContainer` в `App.tsx` и автоматически отправляет `screen_view` при смене активного экрана.
+
+---
+
+## 10. Обязательные скрипты верификации (Yarn)
 
 Перед каждым коммитом или сдачей задачи должны выполняться проверки:
 

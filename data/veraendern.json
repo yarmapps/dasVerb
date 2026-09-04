@@ -1,0 +1,178 @@
+{
+  "id": "veraendern",
+  "infinitive": "verändern",
+  "translation": {
+    "ru": "изменять, менять",
+    "en": "to change, to alter"
+  },
+  "level": "B1",
+  "frequency_rank": 128,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verändern",
+    "present_3sg": "verändert",
+    "praeteritum_3sg": "veränderte",
+    "partizip_2": "verändert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verändere",
+      "du": "veränderst",
+      "er_sie_es": "verändert",
+      "wir": "verändern",
+      "ihr": "verändert",
+      "sie_Sie": "verändern",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "veränderte",
+      "du": "verändertest",
+      "er_sie_es": "veränderte",
+      "wir": "veränderten",
+      "ihr": "verändertet",
+      "sie_Sie": "veränderten"
+    },
+    "imperative": {
+      "du": "verändere!",
+      "ihr": "verändert!",
+      "Sie": "verändern Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das Leben / die Welt (Akk) verändern",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verändere meine täglichen Gewohnheiten schrittweise, um gesünder zu leben.",
+      "translation": {
+        "ru": "Я постепенно меняю свои ежедневные привычки, чтобы жить более здоровой жизнью.",
+        "en": "I change my daily habits step by step in order to live more healthily."
+      },
+      "bracket_parts": [
+        "verändere"
+      ],
+      "akkusativ_parts": [
+        "meine täglichen Gewohnheiten"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Veränderst du durch diesen Umzug auch deinen gesamten Freundeskreis?",
+      "translation": {
+        "ru": "Ты из-за этого переезда меняешь и весь свой круг друзей?",
+        "en": "Are you also changing your entire circle of friends through this move?"
+      },
+      "bracket_parts": [
+        "Veränderst"
+      ],
+      "akkusativ_parts": [
+        "deinen gesamten Freundeskreis"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die rasante Digitalisierung verändert unsere moderne Arbeitswelt nachhaltig.",
+      "translation": {
+        "ru": "Стремительная цифровизация основательно меняет наш современный рабочий мир.",
+        "en": "Rapid digitisation is fundamentally changing our modern working world."
+      },
+      "bracket_parts": [
+        "verändert"
+      ],
+      "akkusativ_parts": [
+        "unsere moderne Arbeitswelt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verändern das Layout der Website, damit die Navigation benutzerfreundlicher wird.",
+      "translation": {
+        "ru": "Мы меняем макет сайта, чтобы навигация стала удобнее для пользователей.",
+        "en": "We are changing the layout of the website so that navigation becomes more user-friendly."
+      },
+      "bracket_parts": [
+        "verändern"
+      ],
+      "akkusativ_parts": [
+        "das Layout"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verändert ihr eure Reisepläne wegen der schlechten Wettervorhersage?",
+      "translation": {
+        "ru": "Вы меняете свои планы на поездку из-за плохого прогноза погоды?",
+        "en": "Are you changing your travel plans because of the bad weather forecast?"
+      },
+      "bracket_parts": [
+        "Verändert"
+      ],
+      "akkusativ_parts": [
+        "eure Reisepläne"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern veränderte eine plötzliche Entscheidung der Geschäftsleitung die gesamte Strategie.",
+      "translation": {
+        "ru": "Вчера внезапное решение руководства изменило всю стратегию.",
+        "en": "Yesterday a sudden decision by management changed the entire strategy."
+      },
+      "bracket_parts": [
+        "veränderte"
+      ],
+      "akkusativ_parts": [
+        "die gesamte Strategie"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Geburt ihres ersten Kindes hat ihr Leben von Grund auf verändert.",
+      "translation": {
+        "ru": "Рождение первого ребенка коренным образом изменило их жизнь.",
+        "en": "The birth of their first child changed their life fundamentally."
+      },
+      "bracket_parts": [
+        "hat",
+        "verändert"
+      ],
+      "akkusativ_parts": [
+        "ihr Leben"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verändern Sie bitte nicht eigenmächtig die Grundeinstellungen des Systems!",
+      "translation": {
+        "ru": "Не меняйте, пожалуйста, самовольно базовые настройки системы!",
+        "en": "Please do not change the basic system settings without authorisation!"
+      },
+      "bracket_parts": [
+        "Verändern"
+      ],
+      "akkusativ_parts": [
+        "die Grundeinstellungen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": "bezahlen",
+  "infinitive": "bezahlen",
+  "translation": {
+    "ru": "оплачивать, платить",
+    "en": "to pay, to pay for"
+  },
+  "level": "A2",
+  "frequency_rank": 160,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bezahlen",
+    "present_3sg": "bezahlt",
+    "praeteritum_3sg": "bezahlte",
+    "partizip_2": "bezahlt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bezahle",
+      "du": "bezahlst",
+      "er_sie_es": "bezahlt",
+      "wir": "bezahlen",
+      "ihr": "bezahlt",
+      "sie_Sie": "bezahlen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "bezahlte",
+      "du": "bezahltest",
+      "er_sie_es": "bezahlte",
+      "wir": "bezahlten",
+      "ihr": "bezahltet",
+      "sie_Sie": "bezahlten"
+    },
+    "imperative": {
+      "du": "bezahl!",
+      "ihr": "bezahlt!",
+      "Sie": "bezahlen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Rechnung / das Essen (Akk) bezahlen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich bezahle meine Einkäufe im Supermarkt meistens mit der Bankkarte.",
+      "translation": {
+        "ru": "Я оплачиваю свои покупки в супермаркете в основном банковской картой.",
+        "en": "I usually pay for my purchases in the supermarket by debit card."
+      },
+      "bracket_parts": [
+        "bezahle"
+      ],
+      "akkusativ_parts": [
+        "meine Einkäufe"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Bezahlst du das Mittagessen heute bar oder mit dem Smartphone?",
+      "translation": {
+        "ru": "Ты оплатишь обед сегодня наличными или смартфоном?",
+        "en": "Are you paying for lunch today in cash or with your smartphone?"
+      },
+      "bracket_parts": [
+        "Bezahlst"
+      ],
+      "akkusativ_parts": [
+        "das Mittagessen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Gast bezahlt die Rechnung beim Kellner und gibt ein gutes Trinkgeld.",
+      "translation": {
+        "ru": "Гость оплачивает счет официанту и дает хорошие чаевые.",
+        "en": "The guest pays the bill to the waiter and leaves a good tip."
+      },
+      "bracket_parts": [
+        "bezahlt"
+      ],
+      "akkusativ_parts": [
+        "die Rechnung"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir bezahlen die Miete für unsere Wohnung immer am ersten Tag des Monats.",
+      "translation": {
+        "ru": "Мы оплачиваем аренду за нашу квартиру всегда в первый день месяца.",
+        "en": "We always pay the rent for our flat on the first day of the month."
+      },
+      "bracket_parts": [
+        "bezahlen"
+      ],
+      "akkusativ_parts": [
+        "die Miete"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bezahlt ihr eure Kinokarten vorher online oder erst an der Abendkasse?",
+      "translation": {
+        "ru": "Вы оплачиваете билеты в кино заранее онлайн или только в вечерней кассе?",
+        "en": "Do you pay for your cinema tickets online in advance or at the box office?"
+      },
+      "bracket_parts": [
+        "Bezahlt"
+      ],
+      "akkusativ_parts": [
+        "eure Kinokarten"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern bezahlte sie die hohe Handwerkerrechnung sofort per Überweisung.",
+      "translation": {
+        "ru": "Вчера она сразу оплатила высокий счет мастера банковским переводом.",
+        "en": "Yesterday she paid the high craftsman bill immediately by bank transfer."
+      },
+      "bracket_parts": [
+        "bezahlte"
+      ],
+      "akkusativ_parts": [
+        "die hohe Handwerkerrechnung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die Hotelkosten für den gesamten Urlaub bereits bezahlt.",
+      "translation": {
+        "ru": "Они уже оплатили расходы на отель за весь отпуск.",
+        "en": "They have already paid the hotel costs for the entire holiday."
+      },
+      "bracket_parts": [
+        "haben",
+        "bezahlt"
+      ],
+      "akkusativ_parts": [
+        "die Hotelkosten"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Bezahlen Sie bitte direkt an der Kasse im Erdgeschoss!",
+      "translation": {
+        "ru": "Оплатите, пожалуйста, прямо в кассе на первом этаже!",
+        "en": "Please pay directly at the cash desk on the ground floor!"
+      },
+      "bracket_parts": [
+        "Bezahlen"
+      ]
+    }
+  ]
+}

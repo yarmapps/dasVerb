@@ -1,0 +1,178 @@
+{
+  "id": "bestehen_dat_auf",
+  "infinitive": "bestehen",
+  "translation": {
+    "ru": "настаивать (на чем-то); состоять из; сдавать (экзамен)",
+    "en": "to insist on; to pass (an exam)"
+  },
+  "level": "B1",
+  "frequency_rank": 65,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bestehen",
+    "present_3sg": "besteht",
+    "praeteritum_3sg": "bestand",
+    "partizip_2": "bestanden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bestehe",
+      "du": "bestehst",
+      "er_sie_es": "besteht",
+      "wir": "bestehen",
+      "ihr": "besteht",
+      "sie_Sie": "bestehen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "bestand",
+      "du": "bestandest",
+      "er_sie_es": "bestand",
+      "wir": "bestanden",
+      "ihr": "bestandet",
+      "sie_Sie": "bestanden"
+    },
+    "imperative": {
+      "du": "besteh!",
+      "ihr": "besteht!",
+      "Sie": "bestehen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "auf seinem guten Recht (Dat) bestehen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich bestehe bei diesem Vertrag ganz klar auf der Einhaltung aller Fristen.",
+      "translation": {
+        "ru": "В этом договоре я совершенно четко настаиваю на соблюдении всех сроков.",
+        "en": "In this contract I clearly insist on compliance with all deadlines."
+      },
+      "bracket_parts": [
+        "bestehe"
+      ],
+      "dativ_parts": [
+        "auf der Einhaltung"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Bestehst du bei dem Verkäufer weiterhin auf einer sofortigen Rückzahlung?",
+      "translation": {
+        "ru": "Ты продолжаешь настаивать перед продавцом на немедленном возврате денег?",
+        "en": "Do you continue to insist on an immediate refund from the seller?"
+      },
+      "bracket_parts": [
+        "Bestehst"
+      ],
+      "dativ_parts": [
+        "auf einer sofortigen Rückzahlung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Chef besteht aus Sicherheitsgründen auf dem Tragen von Schutzhelmen.",
+      "translation": {
+        "ru": "Начальник из соображений безопасности настаивает на ношении защитных касок.",
+        "en": "The boss insists on wearing safety helmets for safety reasons."
+      },
+      "bracket_parts": [
+        "besteht"
+      ],
+      "dativ_parts": [
+        "auf dem Tragen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir bestehen bei allen Verhandlungen auf einer fairen und partnerschaftlichen Lösung.",
+      "translation": {
+        "ru": "На всех переговорах мы настаиваем на справедливом и партнерском решении.",
+        "en": "In all negotiations we insist on a fair and cooperative solution."
+      },
+      "bracket_parts": [
+        "bestehen"
+      ],
+      "dativ_parts": [
+        "auf einer fairen und partnerschaftlichen Lösung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Besteht ihr im Streitfall immer noch stur auf eurer ursprünglichen Forderung?",
+      "translation": {
+        "ru": "В случае спора вы всё еще упрямо настаиваете на своем первоначальном требовании?",
+        "en": "In a dispute, do you still stubbornly insist on your original demand?"
+      },
+      "bracket_parts": [
+        "Besteht"
+      ],
+      "dativ_parts": [
+        "auf eurer ursprünglichen Forderung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern bestand der Kunde trotz aller Erklärungen auf einer schriftlichen Entschuldigung.",
+      "translation": {
+        "ru": "Вчера клиент, несмотря на все объяснения, настоял на письменном извинении.",
+        "en": "Yesterday, despite all explanations, the customer insisted on a written apology."
+      },
+      "bracket_parts": [
+        "bestand"
+      ],
+      "dativ_parts": [
+        "auf einer schriftlichen Entschuldigung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Mieter haben vor Gericht erfolgreich auf der Mängelbeseitigung bestanden.",
+      "translation": {
+        "ru": "Жильцы успешно настояли в суде на устранении недостатков.",
+        "en": "The tenants successfully insisted in court on rectifying the defects."
+      },
+      "bracket_parts": [
+        "haben",
+        "bestanden"
+      ],
+      "dativ_parts": [
+        "auf der Mängelbeseitigung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Bestehen Sie bei wichtigen Vereinbarungen immer auf der Schriftform!",
+      "translation": {
+        "ru": "При важных соглашениях всегда настаивайте на письменной форме!",
+        "en": "Always insist on written form for important agreements!"
+      },
+      "bracket_parts": [
+        "Bestehen"
+      ],
+      "dativ_parts": [
+        "auf der Schriftform"
+      ]
+    }
+  ]
+}

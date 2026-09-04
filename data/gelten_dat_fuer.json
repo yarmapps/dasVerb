@@ -1,0 +1,166 @@
+{
+  "id": "gelten_dat_fuer",
+  "infinitive": "gelten",
+  "translation": {
+    "ru": "действовать (о законе), считаться, относиться к",
+    "en": "to be valid, to apply to, to be considered"
+  },
+  "level": "B2",
+  "frequency_rank": 38,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "gelten",
+    "present_3sg": "gilt",
+    "praeteritum_3sg": "galt",
+    "partizip_2": "gegolten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gelte",
+      "du": "giltst",
+      "er_sie_es": "gilt",
+      "wir": "gelten",
+      "ihr": "geltet",
+      "sie_Sie": "gelten",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "galt",
+      "du": "galtst",
+      "er_sie_es": "galt",
+      "wir": "galten",
+      "ihr": "galtet",
+      "sie_Sie": "galten"
+    },
+    "imperative": {
+      "du": "gilt!",
+      "ihr": "geltet!",
+      "Sie": "gelten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "für",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "für alle Bürger (Akk) verbindlich gelten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich weiß genau, dass diese strenge Regelung auch für mich persönlich gilt.",
+      "translation": {
+        "ru": "Я прекрасно знаю, что это строгое правило действует и для меня лично.",
+        "en": "I know very well that this strict regulation also applies to me personally."
+      },
+      "bracket_parts": [
+        "gilt"
+      ],
+      "akkusativ_parts": [
+        "für mich"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Gilt dein Monatsticket für die öffentlichen Verkehrsmittel eigentlich im gesamten Verkehrsverbund?",
+      "translation": {
+        "ru": "Твой месячный проездной на общественный транспорт на самом деле действует во всей транспортной сети?",
+        "en": "Is your monthly ticket for public transport actually valid throughout the entire transport association?"
+      },
+      "bracket_parts": [
+        "Gilt"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die neue Geschwindigkeitsbegrenzung gilt ausnahmslos für alle motorisierten Verkehrsteilnehmer.",
+      "translation": {
+        "ru": "Новое ограничение скорости действует без исключения для всех участников дорожного движения на транспорте.",
+        "en": "The new speed limit applies without exception to all motorized road users."
+      },
+      "bracket_parts": [
+        "gilt"
+      ],
+      "akkusativ_parts": [
+        "für alle motorisierten Verkehrsteilnehmer"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir betonen stets, dass die Menschenrechte uneingeschränkt für jeden einzelnen Menschen gelten.",
+      "translation": {
+        "ru": "Мы всегда подчеркиваем, что права человека безоговорочно действуют для каждого отдельного человека.",
+        "en": "We always emphasize that human rights apply unconditionally to every single human being."
+      },
+      "bracket_parts": [
+        "gelten"
+      ],
+      "akkusativ_parts": [
+        "für jeden einzelnen Menschen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Geltet ihr nach den Richtlinien des Sportverbands noch als offizielle Juniorenmannschaft?",
+      "translation": {
+        "ru": "Считаетесь ли вы по правилам спортивной ассоциации всё еще официальной юниорской командой?",
+        "en": "According to the guidelines of the sports association, are you still considered an official junior team?"
+      },
+      "bracket_parts": [
+        "Geltet"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals galt dieses alte Gesetz noch im gesamten Staatsgebiet des Landes.",
+      "translation": {
+        "ru": "В те времена этот старый закон еще действовал на всей территории государства.",
+        "en": "At that time this old law was still valid throughout the entire territory of the country."
+      },
+      "bracket_parts": [
+        "galt"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Sonderregelung hat nur für die Dauer der vorübergehenden Notlage gegolten.",
+      "translation": {
+        "ru": "Особый порядок действовал только на период временной чрезвычайной ситуации.",
+        "en": "The special regulation was valid only for the duration of the temporary emergency."
+      },
+      "bracket_parts": [
+        "hat",
+        "gegolten"
+      ],
+      "akkusativ_parts": [
+        "für die Dauer"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Gilt als Vorbild für andere und haltet euch an die Vereinbarungen!",
+      "translation": {
+        "ru": "Служите примером для других и придерживайтесь договоренностей!",
+        "en": "Serve as a role model for others and stick to the agreements!"
+      },
+      "bracket_parts": [
+        "Gilt"
+      ]
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import { useIntl } from 'react-intl';
 import { useAppTheme } from '../../context/ThemeContext';
 import { useRewardedAd } from '../../ads/useRewardedAd';
 import { grantExtraQuiz } from '../../services/usageService';
+import { trackEvent } from '../../services/analyticsService';
 import { createStyles } from './DailyQuizLimitModal.styles';
 
 export interface DailyQuizLimitModalProps {
@@ -31,6 +32,7 @@ export function DailyQuizLimitModal({
   const handleVideoPress = async () => {
     if (isVideoLoading || isAdLoading) return;
 
+    trackEvent('daily_limit_ad_chosen', {});
     setIsVideoLoading(true);
     const rewardEarned = await showRewardedAd();
     setIsVideoLoading(false);
@@ -42,10 +44,24 @@ export function DailyQuizLimitModal({
   };
 
   const handlePremiumPress = () => {
+    trackEvent('daily_limit_premium_clicked', {});
     if (onPremiumCTA) {
       onPremiumCTA();
     } else {
       onDismiss();
+    }
+  };
+
+  const handleDismissWithReason = (reason: 'close_button' | 'backdrop' | 'wait_button') => {
+    trackEvent('daily_limit_ad_declined', { reason });
+    onDismiss();
+  };
+
+  const handleSecondaryButtonPress = () => {
+    if (canWatchAd) {
+      handleVideoPress();
+    } else {
+      handleDismissWithReason('wait_button');
     }
   };
 
@@ -85,7 +101,7 @@ export function DailyQuizLimitModal({
         <TouchableOpacity
           style={styles.backdrop}
           activeOpacity={1}
-          onPress={onDismiss}
+          onPress={() => handleDismissWithReason('backdrop')}
           testID="daily-limit-backdrop"
         />
 
@@ -93,7 +109,7 @@ export function DailyQuizLimitModal({
           <View style={styles.gradient}>
             <TouchableOpacity
               style={styles.closeButton}
-              onPress={onDismiss}
+              onPress={() => handleDismissWithReason('close_button')}
               testID="daily-limit-close-button"
             >
               <Ionicons name="close" size={20} color={colors.textMuted} />
@@ -144,7 +160,7 @@ export function DailyQuizLimitModal({
               <TouchableOpacity
                 style={styles.videoButton}
                 activeOpacity={0.85}
-                onPress={canWatchAd ? handleVideoPress : onDismiss}
+                onPress={handleSecondaryButtonPress}
                 disabled={isVideoLoading || isAdLoading}
                 testID="daily-limit-video-button"
               >

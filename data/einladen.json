@@ -1,0 +1,209 @@
+{
+  "id": "einladen",
+  "infinitive": "einladen",
+  "translation": {
+    "ru": "приглашать",
+    "en": "to invite"
+  },
+  "level": "A2",
+  "frequency_rank": 190,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einladen",
+    "present_3sg": "lädt ein",
+    "praeteritum_3sg": "lud ein",
+    "partizip_2": "eingeladen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lade ein",
+      "du": "lädst ein",
+      "er_sie_es": "lädt ein",
+      "wir": "laden ein",
+      "ihr": "ladet ein",
+      "sie_Sie": "laden ein",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "lud ein",
+      "du": "ludst ein",
+      "er_sie_es": "lud ein",
+      "wir": "luden ein",
+      "ihr": "ludet ein",
+      "sie_Sie": "luden ein"
+    },
+    "imperative": {
+      "du": "lad ein!",
+      "ihr": "ladet ein!",
+      "Sie": "laden Sie ein!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "zu",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "jemanden (Akk) zum Geburtstag (Dat) einladen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich lade dich herzlich zu meiner Geburtstagsfeier ein.",
+      "translation": {
+        "ru": "Я от всего сердца приглашаю тебя на мой день рождения.",
+        "en": "I cordially invite you to my birthday party."
+      },
+      "bracket_parts": [
+        "lade",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "zu meiner Geburtstagsfeier"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Lädst du deinen neuen Kollegen auch zur Hochzeit ein?",
+      "translation": {
+        "ru": "Ты тоже пригласишь своего нового коллегу на свадьбу?",
+        "en": "Are you also inviting your new colleague to the wedding?"
+      },
+      "bracket_parts": [
+        "Lädst",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "deinen neuen Kollegen"
+      ],
+      "dativ_parts": [
+        "zur Hochzeit"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Chef lädt das ganze Team zum festlichen Abendessen ein.",
+      "translation": {
+        "ru": "Начальник приглашает всю команду на праздничный ужин.",
+        "en": "The boss invites the whole team to the festive dinner."
+      },
+      "bracket_parts": [
+        "lädt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "das ganze Team"
+      ],
+      "dativ_parts": [
+        "zum festlichen Abendessen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir laden unsere lieben Nachbarn am Wochenende zum Grillen ein.",
+      "translation": {
+        "ru": "Мы приглашаем наших дорогих соседей на барбекю в выходные.",
+        "en": "We are inviting our dear neighbours to a barbecue at the weekend."
+      },
+      "bracket_parts": [
+        "laden",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "unsere lieben Nachbarn"
+      ],
+      "dativ_parts": [
+        "zum Grillen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Ladet ihr eure Schulfreunde alle zur Party ein?",
+      "translation": {
+        "ru": "Вы всех своих школьных друзей приглашаете на вечеринку?",
+        "en": "Are you inviting all your school friends to the party?"
+      },
+      "bracket_parts": [
+        "Ladet",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "eure Schulfreunde"
+      ],
+      "dativ_parts": [
+        "zur Party"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern lud sie ihre beste Freundin zu einem Kaffee ein.",
+      "translation": {
+        "ru": "Вчера она пригласила свою лучшую подругу на кофе.",
+        "en": "Yesterday she invited her best friend for a coffee."
+      },
+      "bracket_parts": [
+        "lud",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "ihre beste Freundin"
+      ],
+      "dativ_parts": [
+        "zu einem Kaffee"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die ganze Familie zum gemeinsamen Urlaub eingeladen.",
+      "translation": {
+        "ru": "Они пригласили всю семью в совместный отпуск.",
+        "en": "They invited the whole family on a vacation together."
+      },
+      "bracket_parts": [
+        "haben",
+        "eingeladen"
+      ],
+      "akkusativ_parts": [
+        "die ganze Familie"
+      ],
+      "dativ_parts": [
+        "zum gemeinsamen Urlaub"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Laden Sie bitte alle Teilnehmer zu dem Vortrag ein!",
+      "translation": {
+        "ru": "Пригласите, пожалуйста, всех участников на доклад!",
+        "en": "Please invite all participants to the lecture!"
+      },
+      "bracket_parts": [
+        "Laden",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "alle Teilnehmer"
+      ],
+      "dativ_parts": [
+        "zu dem Vortrag"
+      ]
+    }
+  ]
+}

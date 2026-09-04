@@ -1,0 +1,193 @@
+{
+  "id": "verbinden_akk_mit",
+  "infinitive": "verbinden",
+  "translation": {
+    "ru": "соединять, связывать, перевязывать (рану)",
+    "en": "to connect, to link, to bandage"
+  },
+  "level": "B1",
+  "frequency_rank": 96,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verbinden",
+    "present_3sg": "verbindet",
+    "praeteritum_3sg": "verband",
+    "partizip_2": "verbunden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verbinde",
+      "du": "verbindest",
+      "er_sie_es": "verbindet",
+      "wir": "verbinden",
+      "ihr": "verbindet",
+      "sie_Sie": "verbinden",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "verband",
+      "du": "verbandest",
+      "er_sie_es": "verband",
+      "wir": "verbanden",
+      "ihr": "verbandet",
+      "sie_Sie": "verbanden"
+    },
+    "imperative": {
+      "du": "verbind!",
+      "ihr": "verbindet!",
+      "Sie": "verbinden Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "zwei wichtige Städte (Akk) miteinander verbinden",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verbinde meinen Laptop über ein schnelles Kabel mit dem großen Bildschirm.",
+      "translation": {
+        "ru": "Я подключаю свой ноутбук через быстрый кабель к большому монитору.",
+        "en": "I connect my laptop to the large screen via a fast cable."
+      },
+      "bracket_parts": [
+        "verbinde"
+      ],
+      "akkusativ_parts": [
+        "meinen Laptop"
+      ],
+      "dativ_parts": [
+        "mit dem großen Bildschirm"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verbindest du die beiden Bauteile mit besonders starkem Spezialkleber?",
+      "translation": {
+        "ru": "Ты соединяешь обе детали особо прочным специальным клеем?",
+        "en": "Are you connecting the two components with particularly strong special glue?"
+      },
+      "bracket_parts": [
+        "Verbindest"
+      ],
+      "akkusativ_parts": [
+        "die beiden Bauteile"
+      ],
+      "dativ_parts": [
+        "mit besonders starkem Spezialkleber"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die neue Brücke verbindet die beiden Ufer der Stadt auf elegante Weise miteinander.",
+      "translation": {
+        "ru": "Новый мост изящным образом связывает оба берега города друг с другом.",
+        "en": "The new bridge elegantly connects the two banks of the city with each other."
+      },
+      "bracket_parts": [
+        "verbindet"
+      ],
+      "akkusativ_parts": [
+        "die beiden Ufer"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verbinden angenehmes Reisen mit dem Kennenlernen neuer faszinierender Kulturen.",
+      "translation": {
+        "ru": "Мы совмещаем приятные путешествия со знакомством с новыми увлекательными культурами.",
+        "en": "We combine pleasant travel with getting to know new fascinating cultures."
+      },
+      "bracket_parts": [
+        "verbinden"
+      ],
+      "akkusativ_parts": [
+        "angenehmes Reisen"
+      ],
+      "dativ_parts": [
+        "mit dem Kennenlernen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verbindet ihr eure Smartphones im Zug mit dem kostenlosen WLAN-Netzwerk?",
+      "translation": {
+        "ru": "Вы подключаете свои смартфоны в поезде к бесплатной сети Wi-Fi?",
+        "en": "Are you connecting your smartphones to the free Wi-Fi network on the train?"
+      },
+      "bracket_parts": [
+        "Verbindet"
+      ],
+      "akkusativ_parts": [
+        "eure Smartphones"
+      ],
+      "dativ_parts": [
+        "mit dem kostenlosen WLAN-Netzwerk"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern verband die Krankenschwester vorsichtig die blutende Schnittwunde des Patienten.",
+      "translation": {
+        "ru": "Вчера медсестра осторожно перевязала кровоточащую порезанную рану пациента.",
+        "en": "Yesterday the nurse carefully bandaged the patient's bleeding cut."
+      },
+      "bracket_parts": [
+        "verband"
+      ],
+      "akkusativ_parts": [
+        "die blutende Schnittwunde"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die gemeinsame Musik hat die Menschen im Saal über alle Grenzen hinweg verbunden.",
+      "translation": {
+        "ru": "Общая музыка объединила людей в зале поверх всех границ.",
+        "en": "The shared music connected the people in the hall across all boundaries."
+      },
+      "bracket_parts": [
+        "hat",
+        "verbunden"
+      ],
+      "akkusativ_parts": [
+        "die Menschen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verbinden Sie mich bitte telefonisch mit der zuständigen Abteilungsleiterin!",
+      "translation": {
+        "ru": "Соедините меня по телефону, пожалуйста, с компетентной руководительницей отдела!",
+        "en": "Please connect me by phone to the responsible head of department!"
+      },
+      "bracket_parts": [
+        "Verbinden"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": [
+        "mit der zuständigen Abteilungsleiterin"
+      ]
+    }
+  ]
+}

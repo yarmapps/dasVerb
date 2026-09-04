@@ -1,0 +1,184 @@
+{
+  "id": "beschreiben",
+  "infinitive": "beschreiben",
+  "translation": {
+    "ru": "описывать",
+    "en": "to describe"
+  },
+  "level": "A2",
+  "frequency_rank": 127,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beschreiben",
+    "present_3sg": "beschreibt",
+    "praeteritum_3sg": "beschrieb",
+    "partizip_2": "beschrieben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beschreibe",
+      "du": "beschreibst",
+      "er_sie_es": "beschreibt",
+      "wir": "beschreiben",
+      "ihr": "beschreibt",
+      "sie_Sie": "beschreiben",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "beschrieb",
+      "du": "beschriebst",
+      "er_sie_es": "beschrieb",
+      "wir": "beschrieben",
+      "ihr": "beschriebt",
+      "sie_Sie": "beschrieben"
+    },
+    "imperative": {
+      "du": "beschreib!",
+      "ihr": "beschreibt!",
+      "Sie": "beschreiben Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "den Weg / ein Foto (Akk) beschreiben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich beschreibe dem Touristen den kürzesten Weg zum Schloss.",
+      "translation": {
+        "ru": "Я описываю туристу кратчайший путь к замку.",
+        "en": "I describe the shortest way to the castle to the tourist."
+      },
+      "bracket_parts": [
+        "beschreibe"
+      ],
+      "dativ_parts": [
+        "dem Touristen"
+      ],
+      "akkusativ_parts": [
+        "den kürzesten Weg"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Beschreibst du im Deutschunterricht heute dein eigenes Zimmer?",
+      "translation": {
+        "ru": "Ты опишешь сегодня на уроке немецкого свою собственную комнату?",
+        "en": "Are you describing your own room in German class today?"
+      },
+      "bracket_parts": [
+        "Beschreibst"
+      ],
+      "akkusativ_parts": [
+        "dein eigenes Zimmer"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Augenzeuge beschreibt der Polizei das Aussehen des Täters sehr genau.",
+      "translation": {
+        "ru": "Очевидец описывает полиции внешность преступника очень точно.",
+        "en": "The eyewitness describes the appearance of the culprit to the police very accurately."
+      },
+      "bracket_parts": [
+        "beschreibt"
+      ],
+      "dativ_parts": [
+        "der Polizei"
+      ],
+      "akkusativ_parts": [
+        "das Aussehen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beschreiben in dem Aufsatz unsere schönsten Ferienerlebnisse am Meer.",
+      "translation": {
+        "ru": "Мы описываем в сочинении наши самые прекрасные впечатления от каникул на море.",
+        "en": "In the essay we describe our finest holiday experiences at the seaside."
+      },
+      "bracket_parts": [
+        "beschreiben"
+      ],
+      "akkusativ_parts": [
+        "unsere schönsten Ferienerlebnisse"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Beschreibt ihr bei dieser Übung die abgebildeten Personen im Lehrbuch?",
+      "translation": {
+        "ru": "Вы описываете в этом упражнении людей, изображенных в учебнике?",
+        "en": "In this exercise, are you describing the people pictured in the textbook?"
+      },
+      "bracket_parts": [
+        "Beschreibt"
+      ],
+      "akkusativ_parts": [
+        "die abgebildeten Personen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern beschrieb der Autor ausführlich die Landschaft seiner Kindheit.",
+      "translation": {
+        "ru": "Вчера автор подробно описал пейзаж своего детства.",
+        "en": "Yesterday the author described in detail the landscape of his childhood."
+      },
+      "bracket_parts": [
+        "beschrieb"
+      ],
+      "akkusativ_parts": [
+        "die Landschaft"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben das Problem in dem Bericht sehr detailliert beschrieben.",
+      "translation": {
+        "ru": "Они очень детально описали проблему в этом отчете.",
+        "en": "They described the problem very in detail in the report."
+      },
+      "bracket_parts": [
+        "haben",
+        "beschrieben"
+      ],
+      "akkusativ_parts": [
+        "das Problem"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Beschreiben Sie bitte kurz Ihren bisherigen beruflichen Werdegang!",
+      "translation": {
+        "ru": "Опишите, пожалуйста, кратко ваш предыдущий профессиональный путь!",
+        "en": "Please briefly describe your previous professional career!"
+      },
+      "bracket_parts": [
+        "Beschreiben"
+      ],
+      "akkusativ_parts": [
+        "Ihren bisherigen beruflichen Werdegang"
+      ]
+    }
+  ]
+}

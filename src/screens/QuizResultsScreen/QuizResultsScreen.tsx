@@ -1,7 +1,8 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import { View, Text, TouchableOpacity, FlatList } from 'react-native';
+import React, { useEffect, useMemo, useState, useCallback } from 'react';
+import { View, Text, TouchableOpacity, FlatList, Platform, BackHandler } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
-import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
+import { useNavigation, useRoute, RouteProp, useFocusEffect } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { Ionicons } from '@expo/vector-icons';
 import { useIntl } from 'react-intl';
@@ -30,6 +31,14 @@ export function QuizResultsScreen(): React.JSX.Element {
   const { locale } = useLocale();
   const styles = useMemo(() => createStyles(colors), [colors]);
   const { navigateToQuiz, dailyQuizLimitModalUI } = useNavigateToQuiz(navigation);
+  const insets = useSafeAreaInsets();
+
+  const bottomPadding = useMemo(() => {
+    if (Platform.OS === 'android') {
+      return Math.max(insets.bottom, 20) + 16;
+    }
+    return Math.max(insets.bottom, 16) + 8;
+  }, [insets.bottom]);
 
   const languageCode = locale.split('-')[0];
   const {
@@ -110,19 +119,32 @@ export function QuizResultsScreen(): React.JSX.Element {
     }
   };
 
-  const handleGoToVerbsList = () => {
-    navigation.navigate('MainTabs', {
-      screen: 'Practice',
-      params: { screen: 'VerbsPracticeList' },
-    });
-  };
+  const handleGoToVerbsList = useCallback(() => {
+    if (navigation.canGoBack()) {
+      navigation.popToTop();
+    } else {
+      navigation.navigate('MainTabs', {
+        screen: 'Practice',
+        params: {
+          state: {
+            routes: [{ name: 'PracticeHome' }, { name: 'VerbsPracticeList' }],
+            index: 1,
+          },
+        },
+      });
+    }
+  }, [navigation]);
 
-  const handleGoToPractice = () => {
-    navigation.navigate('MainTabs', {
-      screen: 'Practice',
-      params: { screen: 'PracticeHome' },
-    });
-  };
+  const handleGoToPractice = useCallback(() => {
+    if (navigation.canGoBack()) {
+      navigation.popToTop();
+    } else {
+      navigation.navigate('MainTabs', {
+        screen: 'Practice',
+        params: { screen: 'PracticeHome' },
+      });
+    }
+  }, [navigation]);
 
   const handleNextLevel = () => {
     if (nextTarget) {
@@ -291,13 +313,25 @@ export function QuizResultsScreen(): React.JSX.Element {
     return intl.formatMessage({ id: 'quizResultsScreen.title' });
   }, [isSmartQuiz, isCheckpoint, intl]);
 
-  const handleBack = () => {
+  const handleBack = useCallback(() => {
     if (isSmartQuiz) {
       handleGoToPractice();
     } else {
       handleGoToVerbsList();
     }
-  };
+  }, [isSmartQuiz, handleGoToPractice, handleGoToVerbsList]);
+
+  useFocusEffect(
+    useCallback(() => {
+      const onHardwareBack = () => {
+        handleBack();
+        return true;
+      };
+
+      const subscription = BackHandler.addEventListener('hardwareBackPress', onHardwareBack);
+      return () => subscription.remove();
+    }, [handleBack]),
+  );
 
   return (
     <ScreenBackground>
@@ -340,7 +374,9 @@ export function QuizResultsScreen(): React.JSX.Element {
         )}
 
         {/* Action Buttons (Fixed at bottom) */}
-        <View style={styles.bottomActions}>{renderActionButtons()}</View>
+        <View style={[styles.bottomActions, { paddingBottom: bottomPadding }]}>
+          {renderActionButtons()}
+        </View>
       </View>
       {dailyQuizLimitModalUI}
     </ScreenBackground>

@@ -1,0 +1,187 @@
+{
+  "id": "bedeuten",
+  "infinitive": "bedeuten",
+  "translation": {
+    "ru": "означать, значить",
+    "en": "to mean, to signify"
+  },
+  "level": "B1",
+  "frequency_rank": 99,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bedeuten",
+    "present_3sg": "bedeutet",
+    "praeteritum_3sg": "bedeutete",
+    "partizip_2": "bedeutet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bedeute",
+      "du": "bedeutest",
+      "er_sie_es": "bedeutet",
+      "wir": "bedeuten",
+      "ihr": "bedeutet",
+      "sie_Sie": "bedeuten",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "bedeutete",
+      "du": "bedeutetest",
+      "er_sie_es": "bedeutete",
+      "wir": "bedeuteten",
+      "ihr": "bedeutetet",
+      "sie_Sie": "bedeuteten"
+    },
+    "imperative": {
+      "du": "bedeute!",
+      "ihr": "bedeutet!",
+      "Sie": "bedeuten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine Chance / viel (Akk) bedeuten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich bedeute meinen langjährigen Freunden sehr viel, obwohl wir in verschiedenen Städten wohnen.",
+      "translation": {
+        "ru": "Я очень много значу для своих давних друзей, хотя мы и живем в разных городах.",
+        "en": "I mean a great deal to my longtime friends, although we live in different cities."
+      },
+      "bracket_parts": [
+        "bedeute"
+      ],
+      "dativ_parts": [
+        "meinen langjährigen Freunden"
+      ],
+      "akkusativ_parts": [
+        "sehr viel"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Bedeutet dir diese berufliche Weiterbildung wirklich so viel, wie du immer sagst?",
+      "translation": {
+        "ru": "Это профессиональное повышение квалификации действительно значит для тебя так много, как ты всегда говоришь?",
+        "en": "Does this professional development really mean as much to you as you always say?"
+      },
+      "bracket_parts": [
+        "Bedeutet"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "so viel"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Dieser neue Arbeitsvertrag bedeutet für ihn eine hervorragende Chance in seiner Karriere.",
+      "translation": {
+        "ru": "Этот новый трудовой договор означает для него отличный шанс в карьере.",
+        "en": "This new employment contract means an outstanding opportunity in his career for him."
+      },
+      "bracket_parts": [
+        "bedeutet"
+      ],
+      "akkusativ_parts": [
+        "eine hervorragende Chance"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir wissen genau, dass diese neuen Umweltgesetze eine wichtige Veränderung für die Zukunft bedeuten.",
+      "translation": {
+        "ru": "Мы точно знаем, что эти новые законы об экологии означают важные перемены для будущего.",
+        "en": "We know for certain that these new environmental laws mean an important change for the future."
+      },
+      "bracket_parts": [
+        "bedeuten"
+      ],
+      "akkusativ_parts": [
+        "eine wichtige Veränderung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bedeutet euch dieser sportliche Erfolg mehr als die Gesundheit eurer Teamkollegen?",
+      "translation": {
+        "ru": "Этот спортивный успех значит для вас больше, чем здоровье товарищей по команде?",
+        "en": "Does this sporting success mean more to you than the health of your teammates?"
+      },
+      "bracket_parts": [
+        "Bedeutet"
+      ],
+      "dativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals bedeutete der Umzug ins Ausland für sie einen völlig neuen Lebensabschnitt.",
+      "translation": {
+        "ru": "В то время переезд за границу означал для нее совершенно новый этап жизни.",
+        "en": "At that time, moving abroad signified a completely new phase of life for her."
+      },
+      "bracket_parts": [
+        "bedeutete"
+      ],
+      "akkusativ_parts": [
+        "einen völlig neuen Lebensabschnitt"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die klaren Worte des Bürgermeisters haben für die Bürger eine große Hoffnung bedeutet.",
+      "translation": {
+        "ru": "Ясные слова мэра означали для граждан большую надежду.",
+        "en": "The clear words of the mayor signified great hope for the citizens."
+      },
+      "bracket_parts": [
+        "haben",
+        "bedeutet"
+      ],
+      "akkusativ_parts": [
+        "eine große Hoffnung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Bedeuten Sie Ihren Mitarbeitern bitte stets ein faires und verlässliches Vorbild!",
+      "translation": {
+        "ru": "Будьте, пожалуйста, всегда для своих сотрудников справедливым и надежным образцом для подражания!",
+        "en": "Please always represent a fair and dependable role model for your employees!"
+      },
+      "bracket_parts": [
+        "Bedeuten"
+      ],
+      "dativ_parts": [
+        "Ihren Mitarbeitern"
+      ],
+      "akkusativ_parts": [
+        "ein faires und verlässliches Vorbild"
+      ]
+    }
+  ]
+}

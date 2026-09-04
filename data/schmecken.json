@@ -1,0 +1,178 @@
+{
+  "id": "schmecken",
+  "infinitive": "schmecken",
+  "translation": {
+    "ru": "быть по вкусу, нравиться (о еде)",
+    "en": "to taste (good to someone)"
+  },
+  "level": "A2",
+  "frequency_rank": 210,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "schmecken",
+    "present_3sg": "schmeckt",
+    "praeteritum_3sg": "schmeckte",
+    "partizip_2": "geschmeckt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schmecke",
+      "du": "schmeckst",
+      "er_sie_es": "schmeckt",
+      "wir": "schmecken",
+      "ihr": "schmeckt",
+      "sie_Sie": "schmecken",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "schmeckte",
+      "du": "schmecktest",
+      "er_sie_es": "schmeckte",
+      "wir": "schmeckten",
+      "ihr": "schmecktet",
+      "sie_Sie": "schmeckten"
+    },
+    "imperative": {
+      "du": "schmeck!",
+      "ihr": "schmeckt!",
+      "Sie": "schmecken Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemandem (Dat) gut schmecken",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Dieser frische Apfelkuchen schmeckt mir heute besonders gut.",
+      "translation": {
+        "ru": "Этот свежий яблочный пирог мне сегодня особенно нравится на вкус.",
+        "en": "This fresh apple cake tastes especially good to me today."
+      },
+      "bracket_parts": [
+        "schmeckt"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Schmeckt dir die heiße Gemüsesuppe im Restaurant?",
+      "translation": {
+        "ru": "Тебе нравится горячий овощной суп в ресторане?",
+        "en": "Do you like the hot vegetable soup in the restaurant?"
+      },
+      "bracket_parts": [
+        "Schmeckt"
+      ],
+      "dativ_parts": [
+        "dir"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Dem kleinen Jungen schmeckt das süße Erdbeereis am besten.",
+      "translation": {
+        "ru": "Маленькому мальчику сладкое клубничное мороженое нравится больше всего.",
+        "en": "The sweet strawberry ice cream tastes best to the little boy."
+      },
+      "bracket_parts": [
+        "schmeckt"
+      ],
+      "dativ_parts": [
+        "Dem kleinen Jungen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Das traditionelle Abendessen schmeckt uns allen hervorragend.",
+      "translation": {
+        "ru": "Традиционный ужин нравится нам всем на вкус великолепно.",
+        "en": "The traditional dinner tastes excellent to all of us."
+      },
+      "bracket_parts": [
+        "schmeckt"
+      ],
+      "dativ_parts": [
+        "uns allen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Schmeckt euch der italienische Kaffee mit Milch?",
+      "translation": {
+        "ru": "Вам нравится итальянский кофе с молоком?",
+        "en": "Do you like the Italian coffee with milk?"
+      },
+      "bracket_parts": [
+        "Schmeckt"
+      ],
+      "dativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern schmeckte ihr der gebratene Fisch überhaupt nicht.",
+      "translation": {
+        "ru": "Вчера жареная рыба ей совсем не понравилась на вкус.",
+        "en": "Yesterday the fried fish did not taste good to her at all."
+      },
+      "bracket_parts": [
+        "schmeckte"
+      ],
+      "dativ_parts": [
+        "ihr"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Den Gästen hat das festliche Menü gestern wunderbar geschmeckt.",
+      "translation": {
+        "ru": "Гостям вчера праздничное меню понравилось замечательно.",
+        "en": "The festive menu tasted wonderful to the guests yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "geschmeckt"
+      ],
+      "dativ_parts": [
+        "Den Gästen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Lassen Sie es sich bitte gut schmecken!",
+      "translation": {
+        "ru": "Приятного вам аппетита!",
+        "en": "Please enjoy your meal!"
+      },
+      "bracket_parts": [
+        "schmecken"
+      ],
+      "dativ_parts": [
+        "sich"
+      ]
+    }
+  ]
+}

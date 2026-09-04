@@ -1,0 +1,185 @@
+{
+  "id": "ausdruecken_sich",
+  "infinitive": "sich ausdrücken",
+  "translation": {
+    "ru": "выражаться, изъясняться",
+    "en": "to express oneself"
+  },
+  "level": "B2",
+  "frequency_rank": 170,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich ausdrücken",
+    "present_3sg": "drückt sich aus",
+    "praeteritum_3sg": "drückte sich aus",
+    "partizip_2": "ausgedrückt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "drücke mich aus",
+      "du": "drückst dich aus",
+      "er_sie_es": "drückt sich aus",
+      "wir": "drücken uns aus",
+      "ihr": "drückt euch aus",
+      "sie_Sie": "drücken sich aus",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "drückte mich aus",
+      "du": "drücktest dich aus",
+      "er_sie_es": "drückte sich aus",
+      "wir": "drückten uns aus",
+      "ihr": "drücktet euch aus",
+      "sie_Sie": "drückten sich aus"
+    },
+    "imperative": {
+      "du": "drück dich aus!",
+      "ihr": "drückt euch aus!",
+      "Sie": "drücken Sie sich aus!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich gewählt und präzise ausdrücken",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich drücke mich in offiziellen Schreiben stets sehr gewählt und präzise aus.",
+      "translation": {
+        "ru": "В официальных письмах я всегда выражаюсь очень изысканно и точно.",
+        "en": "In official letters I always express myself very choice and precisely."
+      },
+      "bracket_parts": [
+        "drücke",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Drückst du dich in der deutschen Fremdsprache mittlerweile ganz natürlich und fließend aus?",
+      "translation": {
+        "ru": "Ты выражаешься на немецком иностранном языке теперь вполне естественно и бегло?",
+        "en": "Do you now express yourself quite naturally and fluently in the German foreign language?"
+      },
+      "bracket_parts": [
+        "Drückst",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Redner drückt sich vor dem Publikum verständlich und bildhaft aus.",
+      "translation": {
+        "ru": "Оратор выражается перед аудиторией понятно и образно.",
+        "en": "The speaker expresses himself understandably and vividly in front of the audience."
+      },
+      "bracket_parts": [
+        "drückt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir drücken uns in der internen Kommunikation immer direkt und ehrlich aus.",
+      "translation": {
+        "ru": "Во внутренней коммуникации мы всегда выражаемся прямо и честно.",
+        "en": "In internal communication we always express ourselves directly and honestly."
+      },
+      "bracket_parts": [
+        "drücken",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Drückt ihr euch in euren Songtexten bewusst poetisch und metaphorisch aus?",
+      "translation": {
+        "ru": "Вы выражаетесь в текстах своих песен осознанно поэтично и метафорично?",
+        "en": "Do you consciously express yourselves poetically and metaphorically in your lyrics?"
+      },
+      "bracket_parts": [
+        "Drückt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern drückte sie sich bei der schwierigen Diskussion bemerkenswert diplomatisch aus.",
+      "translation": {
+        "ru": "Вчера во время сложной дискуссии она выразилась примечательно дипломатично.",
+        "en": "Yesterday she expressed herself remarkably diplomatically during the difficult discussion."
+      },
+      "bracket_parts": [
+        "drückte",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Minister hat sich zu den strittigen Plänen bisher nur sehr vage ausgedrückt.",
+      "translation": {
+        "ru": "Министр по поводу спорных планов до сих пор выражался лишь очень туманно.",
+        "en": "The minister has so far expressed himself only very vaguely regarding the controversial plans."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgedrückt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Drücken Sie sich bitte klar und unmissverständlich aus!",
+      "translation": {
+        "ru": "Выражайтесь, пожалуйста, ясно и недвусмысленно!",
+        "en": "Please express yourself clearly and unmistakably!"
+      },
+      "bracket_parts": [
+        "Drücken",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "id": "erklaeren",
+  "infinitive": "erklären",
+  "translation": {
+    "ru": "объяснять",
+    "en": "to explain"
+  },
+  "level": "A2",
+  "frequency_rank": 54,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erklären",
+    "present_3sg": "erklärt",
+    "praeteritum_3sg": "erklärte",
+    "partizip_2": "erklärt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erkläre",
+      "du": "erklärst",
+      "er_sie_es": "erklärt",
+      "wir": "erklären",
+      "ihr": "erklärt",
+      "sie_Sie": "erklären",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "erklärte",
+      "du": "erklärtest",
+      "er_sie_es": "erklärte",
+      "wir": "erklärten",
+      "ihr": "erklärtet",
+      "sie_Sie": "erklärten"
+    },
+    "imperative": {
+      "du": "erklär!",
+      "ihr": "erklärt!",
+      "Sie": "erklären Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ + Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemandem (Dat) die Regel (Akk) erklären",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erkläre dir die deutsche Grammatikregel gerne noch einmal.",
+      "translation": {
+        "ru": "Я с удовольствием объясню тебе это немецкое грамматическое правило еще раз.",
+        "en": "I will gladly explain the German grammar rule to you once more."
+      },
+      "bracket_parts": [
+        "erkläre"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "die deutsche Grammatikregel"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erklärst du mir bitte, wie dieser neue Fahrkartenautomat funktioniert?",
+      "translation": {
+        "ru": "Объясни мне, пожалуйста, как работает этот новый автомат для билетов?",
+        "en": "Will you please explain to me how this new ticket machine works?"
+      },
+      "bracket_parts": [
+        "Erklärst"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der freundliche Arzt erklärt dem Patienten den genauen Behandlungsplan.",
+      "translation": {
+        "ru": "Дружелюбный врач объясняет пациенту точный план лечения.",
+        "en": "The friendly doctor explains the exact treatment plan to the patient."
+      },
+      "bracket_parts": [
+        "erklärt"
+      ],
+      "dativ_parts": [
+        "dem Patienten"
+      ],
+      "akkusativ_parts": [
+        "den genauen Behandlungsplan"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erklären den neuen Nachbarn die Hausordnung in unserem Gebäude.",
+      "translation": {
+        "ru": "Мы объясняем новым соседям правила проживания в нашем доме.",
+        "en": "We explain the house rules to the new neighbours in our building."
+      },
+      "bracket_parts": [
+        "erklären"
+      ],
+      "dativ_parts": [
+        "den neuen Nachbarn"
+      ],
+      "akkusativ_parts": [
+        "die Hausordnung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erklärt ihr euren Mitschülern die schwere Mathematikaufgabe?",
+      "translation": {
+        "ru": "Вы объясните своим одноклассникам трудную задачу по математике?",
+        "en": "Are you explaining the difficult maths problem to your classmates?"
+      },
+      "bracket_parts": [
+        "Erklärt"
+      ],
+      "dativ_parts": [
+        "euren Mitschülern"
+      ],
+      "akkusativ_parts": [
+        "die schwere Mathematikaufgabe"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern erklärte sie dem Touristen den kürzesten Weg zum Bahnhof.",
+      "translation": {
+        "ru": "Вчера она объяснила туристу кратчайший путь к вокзалу.",
+        "en": "Yesterday she explained the shortest way to the station to the tourist."
+      },
+      "bracket_parts": [
+        "erklärte"
+      ],
+      "dativ_parts": [
+        "dem Touristen"
+      ],
+      "akkusativ_parts": [
+        "den kürzesten Weg"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben uns gestern die neue Software sehr gut erklärt.",
+      "translation": {
+        "ru": "Они вчера очень хорошо объяснили нам новую программу.",
+        "en": "They explained the new software to us very well yesterday."
+      },
+      "bracket_parts": [
+        "haben",
+        "erklärt"
+      ],
+      "dativ_parts": [
+        "uns"
+      ],
+      "akkusativ_parts": [
+        "die neue Software"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erklären Sie mir bitte diesen wichtigen Vertragspunkt!",
+      "translation": {
+        "ru": "Объясните мне, пожалуйста, этот важный пункт договора!",
+        "en": "Please explain this important contract clause to me!"
+      },
+      "bracket_parts": [
+        "Erklären"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "diesen wichtigen Vertragspunkt"
+      ]
+    }
+  ]
+}

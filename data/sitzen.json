@@ -1,0 +1,178 @@
+{
+  "id": "sitzen",
+  "infinitive": "sitzen",
+  "translation": {
+    "ru": "сидеть (состояние)",
+    "en": "to sit, to be sitting (state)"
+  },
+  "level": "A1",
+  "frequency_rank": 56,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "sitzen",
+    "present_3sg": "sitzt",
+    "praeteritum_3sg": "saß",
+    "partizip_2": "gesessen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "sitze",
+      "du": "sitzt",
+      "er_sie_es": "sitzt",
+      "wir": "sitzen",
+      "ihr": "sitzt",
+      "sie_Sie": "sitzen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "saß",
+      "du": "saßest",
+      "er_sie_es": "saß",
+      "wir": "saßen",
+      "ihr": "saßt",
+      "sie_Sie": "saßen"
+    },
+    "imperative": {
+      "du": "sitz!",
+      "ihr": "sitzt!",
+      "Sie": "sitzen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "auf dem bequemen Stuhl (Dat) sitzen (Vgl. setzen)",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich sitze gerne auf dem weichen Sofa.",
+      "translation": {
+        "ru": "Я с удовольствием сижу на мягком диване.",
+        "en": "I like sitting on the soft sofa."
+      },
+      "bracket_parts": [
+        "sitze"
+      ],
+      "dativ_parts": [
+        "auf dem weichen Sofa"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Sitzt du schon auf deinem Platz im Zug?",
+      "translation": {
+        "ru": "Ты уже сидишь на своем месте в поезде?",
+        "en": "Are you already sitting in your seat on the train?"
+      },
+      "bracket_parts": [
+        "Sitzt"
+      ],
+      "dativ_parts": [
+        "auf deinem Platz"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Katze sitzt friedlich auf dem warmen Teppich.",
+      "translation": {
+        "ru": "Кошка мирно сидит на теплом ковре.",
+        "en": "The cat sits peacefully on the warm carpet."
+      },
+      "bracket_parts": [
+        "sitzt"
+      ],
+      "dativ_parts": [
+        "auf dem warmen Teppich"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir sitzen jeden Tag auf den neuen Holzstühlen.",
+      "translation": {
+        "ru": "Мы каждый день сидим на новых деревянных стульях.",
+        "en": "We sit on the new wooden chairs every day."
+      },
+      "bracket_parts": [
+        "sitzen"
+      ],
+      "dativ_parts": [
+        "auf den neuen Holzstühlen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Sitzt ihr im Garten auf der Holzbank?",
+      "translation": {
+        "ru": "Вы сидите в саду на деревянной скамейке?",
+        "en": "Are you sitting in the garden on the wooden bench?"
+      },
+      "bracket_parts": [
+        "Sitzt"
+      ],
+      "dativ_parts": [
+        "auf der Holzbank"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern saß sie den ganzen Nachmittag auf dem Balkon.",
+      "translation": {
+        "ru": "Вчера она всю вторую половину дня сидела на балконе.",
+        "en": "Yesterday she sat on the balcony all afternoon."
+      },
+      "bracket_parts": [
+        "saß"
+      ],
+      "dativ_parts": [
+        "auf dem Balkon"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben zwei Stunden auf den harten Sitzen gesessen.",
+      "translation": {
+        "ru": "Они два часа просидели на жестких сиденьях.",
+        "en": "They sat on the hard seats for two hours."
+      },
+      "bracket_parts": [
+        "haben",
+        "gesessen"
+      ],
+      "dativ_parts": [
+        "auf den harten Sitzen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Sitz bitte gerade auf deinem Stuhl!",
+      "translation": {
+        "ru": "Сиди, пожалуйста, прямо на своем стуле!",
+        "en": "Please sit upright on your chair!"
+      },
+      "bracket_parts": [
+        "Sitz"
+      ],
+      "dativ_parts": [
+        "auf deinem Stuhl"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "id": "entschuldigen_sich_akk_fuer",
+  "infinitive": "sich entschuldigen",
+  "translation": {
+    "ru": "извиняться (за что-то)",
+    "en": "to apologise (for something)"
+  },
+  "level": "B1",
+  "frequency_rank": 198,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ent",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich entschuldigen",
+    "present_3sg": "entschuldigt sich",
+    "praeteritum_3sg": "entschuldigte sich",
+    "partizip_2": "entschuldigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entschuldige mich",
+      "du": "entschuldigst dich",
+      "er_sie_es": "entschuldigt sich",
+      "wir": "entschuldigen uns",
+      "ihr": "entschuldigt euch",
+      "sie_Sie": "entschuldigen sich",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "entschuldigte mich",
+      "du": "entschuldigtest dich",
+      "er_sie_es": "entschuldigte sich",
+      "wir": "entschuldigten uns",
+      "ihr": "entschuldigtet euch",
+      "sie_Sie": "entschuldigten sich"
+    },
+    "imperative": {
+      "du": "entschuldige dich!",
+      "ihr": "entschuldigt euch!",
+      "Sie": "entschuldigen Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "für",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich für die Verspätung (Akk) entschuldigen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich entschuldige mich aufrichtig für mein gestriges unüberlegtes Verhalten.",
+      "translation": {
+        "ru": "Я искренне извиняюсь за свое вчерашнее необдуманное поведение.",
+        "en": "I sincerely apologise for my thoughtless behaviour yesterday."
+      },
+      "bracket_parts": [
+        "entschuldige"
+      ],
+      "akkusativ_parts": [
+        "mich",
+        "für mein gestriges unüberlegtes Verhalten"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Entschuldigst du dich bei deiner Kollegin für dieses Missverständnis?",
+      "translation": {
+        "ru": "Ты извинишься перед своей коллегой за это недоразумение?",
+        "en": "Are you apologising to your colleague for this misunderstanding?"
+      },
+      "bracket_parts": [
+        "Entschuldigst"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "für dieses Missverständnis"
+      ],
+      "dativ_parts": [
+        "bei deiner Kollegin"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Kellner entschuldigt sich höflich für die lange Wartezeit beim Essen.",
+      "translation": {
+        "ru": "Официант вежливо извиняется за долгое ожидание еды.",
+        "en": "The waiter politely apologises for the long wait for the meal."
+      },
+      "bracket_parts": [
+        "entschuldigt"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "für die lange Wartezeit"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir entschuldigen uns bei allen Gästen für die technischen Unannehmlichkeiten.",
+      "translation": {
+        "ru": "Мы извиняемся перед всеми гостями за технические неудобства.",
+        "en": "We apologise to all guests for the technical inconveniences."
+      },
+      "bracket_parts": [
+        "entschuldigen"
+      ],
+      "akkusativ_parts": [
+        "uns",
+        "für die technischen Unannehmlichkeiten"
+      ],
+      "dativ_parts": [
+        "bei allen Gästen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Entschuldigt ihr euch bei den Nachbarn für den versehentlichen Schaden?",
+      "translation": {
+        "ru": "Вы извинитесь перед соседями за случайный ущерб?",
+        "en": "Are you apologising to the neighbours for the accidental damage?"
+      },
+      "bracket_parts": [
+        "Entschuldigt"
+      ],
+      "akkusativ_parts": [
+        "euch",
+        "für den versehentlichen Schaden"
+      ],
+      "dativ_parts": [
+        "bei den Nachbarn"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern entschuldigte sie sich beim Chef persönlich für das Versäumnis.",
+      "translation": {
+        "ru": "Вчера она лично извинилась перед начальником за упущение.",
+        "en": "Yesterday she personally apologised to the boss for the oversight."
+      },
+      "bracket_parts": [
+        "entschuldigte"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "für das Versäumnis"
+      ],
+      "dativ_parts": [
+        "beim Chef"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Fluggesellschaft hat sich bei den Passagieren für den verspäteten Flug entschuldigt.",
+      "translation": {
+        "ru": "Авиакомпания извинилась перед пассажирами за задержанный рейс.",
+        "en": "The airline apologised to the passengers for the delayed flight."
+      },
+      "bracket_parts": [
+        "hat",
+        "entschuldigt"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "für den verspäteten Flug"
+      ],
+      "dativ_parts": [
+        "bei den Passagieren"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Entschuldigen Sie sich bitte für den unhöflichen Ton!",
+      "translation": {
+        "ru": "Извинитесь, пожалуйста, за грубый тон!",
+        "en": "Please apologise for the impolite tone!"
+      },
+      "bracket_parts": [
+        "Entschuldigen"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "für den unhöflichen Ton"
+      ]
+    }
+  ]
+}

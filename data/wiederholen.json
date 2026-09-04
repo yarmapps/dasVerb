@@ -1,0 +1,178 @@
+{
+  "id": "wiederholen",
+  "infinitive": "wiederholen",
+  "translation": {
+    "ru": "повторять",
+    "en": "to repeat"
+  },
+  "level": "A2",
+  "frequency_rank": 215,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "wieder",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "wiederholen",
+    "present_3sg": "wiederholt",
+    "praeteritum_3sg": "wiederholte",
+    "partizip_2": "wiederholt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wiederhole",
+      "du": "wiederholst",
+      "er_sie_es": "wiederholt",
+      "wir": "wiederholen",
+      "ihr": "wiederholt",
+      "sie_Sie": "wiederholen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "wiederholte",
+      "du": "wiederholtest",
+      "er_sie_es": "wiederholte",
+      "wir": "wiederholten",
+      "ihr": "wiederholtet",
+      "sie_Sie": "wiederholten"
+    },
+    "imperative": {
+      "du": "wiederhol!",
+      "ihr": "wiederholt!",
+      "Sie": "wiederholen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "den Satz / neue Vokabeln (Akk) wiederholen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich wiederhole jeden Abend die neuen Vokabeln vor dem Schlafen.",
+      "translation": {
+        "ru": "Я повторяю каждый вечер новые слова перед сном.",
+        "en": "I repeat the new vocabulary every evening before sleeping."
+      },
+      "bracket_parts": [
+        "wiederhole"
+      ],
+      "akkusativ_parts": [
+        "die neuen Vokabeln"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Wiederholst du bitte noch einmal deine Telefonnummer für mich?",
+      "translation": {
+        "ru": "Повторишь, пожалуйста, еще раз свой номер телефона для меня?",
+        "en": "Will you please repeat your phone number once more for me?"
+      },
+      "bracket_parts": [
+        "Wiederholst"
+      ],
+      "akkusativ_parts": [
+        "deine Telefonnummer"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die geduldige Lehrerin wiederholt die schwierige Grammatikregel für alle Schüler.",
+      "translation": {
+        "ru": "Терпеливая учительница повторяет трудное грамматическое правило для всех учеников.",
+        "en": "The patient teacher repeats the difficult grammar rule for all pupils."
+      },
+      "bracket_parts": [
+        "wiederholt"
+      ],
+      "akkusativ_parts": [
+        "die schwierige Grammatikregel"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir wiederholen den wichtigen Stoff vor der morgigen Klassenarbeit gründlich.",
+      "translation": {
+        "ru": "Мы основательно повторяем важный материал перед завтрашней контрольной работой.",
+        "en": "We repeat the important material thoroughly before tomorrow's class test."
+      },
+      "bracket_parts": [
+        "wiederholen"
+      ],
+      "akkusativ_parts": [
+        "den wichtigen Stoff"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Wiederholt ihr den Dialog im Lehrbuch jetzt noch einmal zu zweit?",
+      "translation": {
+        "ru": "Вы повторяете теперь диалог в учебнике еще раз вдвоем?",
+        "en": "Are you repeating the dialogue in the textbook once more in pairs now?"
+      },
+      "bracket_parts": [
+        "Wiederholt"
+      ],
+      "akkusativ_parts": [
+        "den Dialog"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern wiederholte der Nachrichtensprecher die Eilmeldung mehrmals hintereinander.",
+      "translation": {
+        "ru": "Вчера диктор новостей повторил экстренное сообщение несколько раз подряд.",
+        "en": "Yesterday the newsreader repeated the breaking news several times in a row."
+      },
+      "bracket_parts": [
+        "wiederholte"
+      ],
+      "akkusativ_parts": [
+        "die Eilmeldung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die fehlerhafte Übung noch einmal von vorne wiederholt.",
+      "translation": {
+        "ru": "Они повторили ошибочное упражнение еще раз сначала.",
+        "en": "They repeated the flawed exercise once more from the beginning."
+      },
+      "bracket_parts": [
+        "haben",
+        "wiederholt"
+      ],
+      "akkusativ_parts": [
+        "die fehlerhafte Übung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Wiederholen Sie bitte die letzte Frage etwas lauter!",
+      "translation": {
+        "ru": "Повторите, пожалуйста, последний вопрос немного громче!",
+        "en": "Please repeat the last question a little louder!"
+      },
+      "bracket_parts": [
+        "Wiederholen"
+      ],
+      "akkusativ_parts": [
+        "die letzte Frage"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "verhindern",
+  "infinitive": "verhindern",
+  "translation": {
+    "ru": "предотвращать, мешать, препятствовать",
+    "en": "to prevent, to avert"
+  },
+  "level": "B2",
+  "frequency_rank": 175,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verhindern",
+    "present_3sg": "verhindert",
+    "praeteritum_3sg": "verhinderte",
+    "partizip_2": "verhindert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verhindere",
+      "du": "verhinderst",
+      "er_sie_es": "verhindert",
+      "wir": "verhindern",
+      "ihr": "verhindert",
+      "sie_Sie": "verhindern",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "verhinderte",
+      "du": "verhindertest",
+      "er_sie_es": "verhinderte",
+      "wir": "verhinderten",
+      "ihr": "verhindertet",
+      "sie_Sie": "verhinderten"
+    },
+    "imperative": {
+      "du": "verhindere!",
+      "ihr": "verhindert!",
+      "Sie": "verhindern Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine drohende Katastrophe (Akk) rechtzeitig verhindern",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verhindere durch regelmäßige Backups zuverlässig den Verlust wichtiger Daten.",
+      "translation": {
+        "ru": "Регулярным резервным копированием я надежно предотвращаю потерю важных данных.",
+        "en": "Through regular backups I reliably prevent the loss of important data."
+      },
+      "bracket_parts": [
+        "verhindere"
+      ],
+      "akkusativ_parts": [
+        "den Verlust wichtiger Daten"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verhinderst du durch dein umsichtiges Eingreifen einen unnötigen Streit im Team?",
+      "translation": {
+        "ru": "Предотвратишь ли ты своим осмотрительным вмешательством ненужную ссору в команде?",
+        "en": "Will you prevent an unnecessary argument in the team through your prudent intervention?"
+      },
+      "bracket_parts": [
+        "Verhinderst"
+      ],
+      "akkusativ_parts": [
+        "einen unnötigen Streit"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das moderne Sicherheitssystem im Auto verhindert gefährliche Unfälle beim Rückwärtsfahren.",
+      "translation": {
+        "ru": "Современная система безопасности в автомобиле предотвращает опасные аварии при движении задним ходом.",
+        "en": "The modern safety system in the car prevents dangerous accidents when reversing."
+      },
+      "bracket_parts": [
+        "verhindert"
+      ],
+      "akkusativ_parts": [
+        "gefährliche Unfälle"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verhindern durch strenge Kontrollen die Ausbreitung von schädlichen Computerviren.",
+      "translation": {
+        "ru": "Строгим контролем мы предотвращаем распространение вредоносных компьютерных вирусов.",
+        "en": "Through strict controls we prevent the spread of harmful computer viruses."
+      },
+      "bracket_parts": [
+        "verhindern"
+      ],
+      "akkusativ_parts": [
+        "die Ausbreitung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verhindert ihr durch gute Planung die Überschreitung des vorgegebenen Budgets?",
+      "translation": {
+        "ru": "Предотвратите ли вы хорошим планированием превышение заданного бюджета?",
+        "en": "Are you preventing exceeding the set budget through good planning?"
+      },
+      "bracket_parts": [
+        "Verhindert"
+      ],
+      "akkusativ_parts": [
+        "die Überschreitung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern verhinderte die mutige Passantin durch ihren schnellen Hilferuf einen Diebstahl.",
+      "translation": {
+        "ru": "Вчера смелая прохожая своим быстрым криком о помощи предотвратила кражу.",
+        "en": "Yesterday the brave pedestrian prevented a theft with her quick call for help."
+      },
+      "bracket_parts": [
+        "verhinderte"
+      ],
+      "akkusativ_parts": [
+        "einen Diebstahl"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die aufmerksame Feuerwehr hat ein Übergreifen der Flammen auf Nachbarhäuser verhindert.",
+      "translation": {
+        "ru": "Внимательная пожарная команда предотвратила перекидывание пламени на соседние дома.",
+        "en": "The attentive fire brigade prevented the flames from spreading to neighbouring houses."
+      },
+      "bracket_parts": [
+        "hat",
+        "verhindert"
+      ],
+      "akkusativ_parts": [
+        "ein Übergreifen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verhindern Sie bitte jede Verzögerung bei der Bearbeitung dieser Notfälle!",
+      "translation": {
+        "ru": "Предотвратите, пожалуйста, любую задержку при обработке этих экстренных случаев!",
+        "en": "Please prevent any delay in processing these emergencies!"
+      },
+      "bracket_parts": [
+        "Verhindern"
+      ],
+      "akkusativ_parts": [
+        "jede Verzögerung"
+      ]
+    }
+  ]
+}

@@ -121,6 +121,67 @@ export interface Translation {
   quizSettingsModal: {
     title: string;
   };
+  premiumSheets?: {
+    subscribeTitle: string;
+    subscribeSubtitle: string;
+    subscribeNow: string;
+    buyNow: string;
+    viewPlans: string;
+    premiumFeaturesLabel: string;
+    disclaimerAutoRenew: string;
+    disclaimerAutoRenewTrial: string;
+    disclaimerOneTime: string;
+    freeTrialDays: string;
+    freeTrialWeeks: string;
+    freeTrialMonths: string;
+    freeTrialYears: string;
+    trialUnit: {
+      day: string;
+      week: string;
+      month: string;
+      year: string;
+    };
+    periodMonth: string;
+    periodYear: string;
+    restorePurchases: string;
+    errorTitle: string;
+    errorUnavailable: string;
+    errorPurchase: string;
+    errorRestore: string;
+    restoreSuccessTitle: string;
+    restoreSuccessMessage: string;
+    restoreNothingTitle: string;
+    restoreNothingMessage: string;
+    termsOfService: string;
+    privacyPolicy: string;
+    plans: {
+      monthlyLabel: string;
+      monthlyPer: string;
+      yearlyLabel: string;
+      yearlyBadge: string;
+      perMonth: string;
+      lifetimeLabel: string;
+      lifetimePer: string;
+      lifetimeBadge: string;
+    };
+    features: {
+      noAdsTitle: string;
+      noAdsShort: string;
+      noAdsDescription: string;
+      unlimitedQuizzesTitle: string;
+      unlimitedQuizzesShort: string;
+      unlimitedQuizzesDescription: string;
+      allLevelsTitle: string;
+      allLevelsShort: string;
+      allLevelsDescription: string;
+      smartQuizModeTitle: string;
+      smartQuizModeShort: string;
+      smartQuizModeDescription: string;
+      naturalVoiceTitle: string;
+      naturalVoiceShort: string;
+      naturalVoiceDescription: string;
+    };
+  };
 }
 
 export interface LanguageOption {

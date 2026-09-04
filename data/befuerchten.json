@@ -1,0 +1,178 @@
+{
+  "id": "befuerchten",
+  "infinitive": "befürchten",
+  "translation": {
+    "ru": "опасаться, бояться (чего-то)",
+    "en": "to fear, to apprehend"
+  },
+  "level": "B2",
+  "frequency_rank": 190,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "befürchten",
+    "present_3sg": "befürchtet",
+    "praeteritum_3sg": "befürchtete",
+    "partizip_2": "befürchtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "befürchte",
+      "du": "befürchtest",
+      "er_sie_es": "befürchtet",
+      "wir": "befürchten",
+      "ihr": "befürchtet",
+      "sie_Sie": "befürchten",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "befürchtete",
+      "du": "befürchtetest",
+      "er_sie_es": "befürchtete",
+      "wir": "befürchteten",
+      "ihr": "befürchtetet",
+      "sie_Sie": "befürchteten"
+    },
+    "imperative": {
+      "du": "befürchte!",
+      "ihr": "befürchtet!",
+      "Sie": "befürchten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das Schlimmste / negative Folgen (Akk) befürchten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich befürchte bei dieser heiklen Entwicklung erhebliche Nachteile für unser Unternehmen.",
+      "translation": {
+        "ru": "При этом щекотливом развитии событий я опасаюсь значительных минусов для нашего предприятия.",
+        "en": "In this delicate development I fear significant disadvantages for our company."
+      },
+      "bracket_parts": [
+        "befürchte"
+      ],
+      "akkusativ_parts": [
+        "erhebliche Nachteile"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Befürchtest du nach der Ankündigung des Chefs ernsthaft den Verlust deines Arbeitsplatzes?",
+      "translation": {
+        "ru": "Опасаешься ли ты после объявления начальника всерьез потери своего рабочего места?",
+        "en": "Do you seriously fear the loss of your job after the boss's announcement?"
+      },
+      "bracket_parts": [
+        "Befürchtest"
+      ],
+      "akkusativ_parts": [
+        "den Verlust deines Arbeitsplatzes"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Bevölkerung befürchtet durch die Inflation einen weiteren Anstieg der Lebenshaltungskosten.",
+      "translation": {
+        "ru": "Население опасается дальнейшего роста стоимости жизни из-за инфляции.",
+        "en": "The population fears a further increase in the cost of living due to inflation."
+      },
+      "bracket_parts": [
+        "befürchtet"
+      ],
+      "akkusativ_parts": [
+        "einen weiteren Anstieg"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir befürchten für das kommende Geschäftsjahr drastische Einbrüche bei den Exporten.",
+      "translation": {
+        "ru": "На предстоящий финансовый год мы опасаемся резких спадов в экспорте.",
+        "en": "For the upcoming financial year we fear drastic slumps in exports."
+      },
+      "bracket_parts": [
+        "befürchten"
+      ],
+      "akkusativ_parts": [
+        "drastische Einbrüche"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Befürchtet ihr wegen des heranziehenden Sturms schwere Schäden an eurem Hausdach?",
+      "translation": {
+        "ru": "Опасаетесь ли вы тяжелых повреждений крыши дома из-за приближающегося шторма?",
+        "en": "Do you fear severe damage to your house roof because of the approaching storm?"
+      },
+      "bracket_parts": [
+        "Befürchtet"
+      ],
+      "akkusativ_parts": [
+        "schwere Schäden"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern befürchtete der Arzt nach dem Befund eine gefährliche Infektion der Lunge.",
+      "translation": {
+        "ru": "Вчера после заключения врач опасался опасной инфекции легких.",
+        "en": "Yesterday, following the diagnosis, the doctor feared a dangerous infection of the lungs."
+      },
+      "bracket_parts": [
+        "befürchtete"
+      ],
+      "akkusativ_parts": [
+        "eine gefährliche Infektion"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Viele Beobachter haben nach dem Wahlausgang eine tiefe gesellschaftliche Krise befürchtet.",
+      "translation": {
+        "ru": "Многие наблюдатели после исхода выборов опасались глубокого общественного кризиса.",
+        "en": "Many observers feared a deep social crisis following the election outcome."
+      },
+      "bracket_parts": [
+        "haben",
+        "befürchtet"
+      ],
+      "akkusativ_parts": [
+        "eine tiefe gesellschaftliche Krise"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Befürchten Sie bitte nicht das Schlimmste, alles wird gut ausgehen!",
+      "translation": {
+        "ru": "Не бойтесь, пожалуйста, худшего, все закончится хорошо!",
+        "en": "Please do not fear the worst, everything will turn out well!"
+      },
+      "bracket_parts": [
+        "Befürchten"
+      ],
+      "akkusativ_parts": [
+        "das Schlimmste"
+      ]
+    }
+  ]
+}

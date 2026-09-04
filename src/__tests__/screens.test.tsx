@@ -19,6 +19,7 @@ const mockNavigate = jest.fn();
 const mockGoBack = jest.fn();
 const mockReset = jest.fn();
 const mockReplace = jest.fn();
+const mockPopToTop = jest.fn();
 let mockRouteParams: Record<string, unknown> = {};
 
 jest.mock('@react-navigation/native', () => {
@@ -30,6 +31,7 @@ jest.mock('@react-navigation/native', () => {
       goBack: mockGoBack,
       reset: mockReset,
       replace: mockReplace,
+      popToTop: mockPopToTop,
       canGoBack: () => true,
     }),
     useRoute: () => ({
@@ -766,10 +768,7 @@ describe('Screens Integration Suite', () => {
       expect(getByTestId('header-back-button')).toBeTruthy();
 
       fireEvent.press(getByTestId('header-back-button'));
-      expect(mockNavigate).toHaveBeenCalledWith('MainTabs', {
-        screen: 'Practice',
-        params: { screen: 'VerbsPracticeList' },
-      });
+      expect(mockPopToTop).toHaveBeenCalled();
     });
 
     it('should render silver medal and next level as primary button for 5/6 correct answers', () => {
@@ -899,10 +898,7 @@ describe('Screens Integration Suite', () => {
       expect(mockReplace).toHaveBeenCalledWith('VerbQuiz', { isSmartQuiz: true });
 
       fireEvent.press(getByTestId('back-to-practice-button'));
-      expect(mockNavigate).toHaveBeenCalledWith('MainTabs', {
-        screen: 'Practice',
-        params: { screen: 'PracticeHome' },
-      });
+      expect(mockPopToTop).toHaveBeenCalled();
     });
   });
 });

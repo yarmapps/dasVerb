@@ -1,0 +1,193 @@
+{
+  "id": "vorbereiten_sich_akk_auf",
+  "infinitive": "sich vorbereiten",
+  "translation": {
+    "ru": "готовиться (к чему-то)",
+    "en": "to prepare (for something)"
+  },
+  "level": "B1",
+  "frequency_rank": 242,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "vor",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich vorbereiten",
+    "present_3sg": "bereitet vor",
+    "praeteritum_3sg": "bereitete vor",
+    "partizip_2": "vorbereitet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bereite mich vor",
+      "du": "bereitest dich vor",
+      "er_sie_es": "bereitet sich vor",
+      "wir": "bereiten uns vor",
+      "ihr": "bereitet euch vor",
+      "sie_Sie": "bereiten sich vor",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "bereitete mich vor",
+      "du": "bereitetest dich vor",
+      "er_sie_es": "bereitete sich vor",
+      "wir": "bereiteten uns vor",
+      "ihr": "bereitetet euch vor",
+      "sie_Sie": "bereiteten sich vor"
+    },
+    "imperative": {
+      "du": "bereit dich vor!",
+      "ihr": "bereitet euch vor!",
+      "Sie": "bereiten Sie sich vor!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich auf die schwierige Prüfung (Akk) vorbereiten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich bereite mich intensiv auf das morgige Bewerbungsgespräch vor.",
+      "translation": {
+        "ru": "Я интенсивно готовлюсь к завтрашнему собеседованию при приеме на работу.",
+        "en": "I am preparing intensively for tomorrow's job interview."
+      },
+      "bracket_parts": [
+        "bereite",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "mich",
+        "auf das morgige Bewerbungsgespräch"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Bereitest du dich gründlich auf die bevorstehende Führerscheinprüfung vor?",
+      "translation": {
+        "ru": "Ты основательно готовишься к предстоящему экзамену по вождению?",
+        "en": "Are you preparing thoroughly for the upcoming driving test?"
+      },
+      "bracket_parts": [
+        "Bereitest",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "auf die bevorstehende Führerscheinprüfung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der erfahrene Schauspieler bereitet sich sorgfältig auf seine neue Theaterrolle vor.",
+      "translation": {
+        "ru": "Опытный актер тщательно готовится к своей новой театральной роли.",
+        "en": "The experienced actor prepares carefully for his new theatre role."
+      },
+      "bracket_parts": [
+        "bereitet",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "auf seine neue Theaterrolle"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir bereiten uns schon jetzt gewissenhaft auf die nächste Konferenz vor.",
+      "translation": {
+        "ru": "Мы уже сейчас добросовестно готовимся к следующей конференции.",
+        "en": "We are already preparing conscientiously for the next conference."
+      },
+      "bracket_parts": [
+        "bereiten",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "uns",
+        "auf die nächste Konferenz"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bereitet ihr euch gemeinsam in der Gruppe auf die Präsentation vor?",
+      "translation": {
+        "ru": "Вы готовитесь к презентации вместе в группе?",
+        "en": "Are you preparing for the presentation together in the group?"
+      },
+      "bracket_parts": [
+        "Bereitet",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "euch",
+        "auf die Präsentation"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern bereitete sie sich den ganzen Tag auf den schwierigen Test vor.",
+      "translation": {
+        "ru": "Вчера она весь день готовилась к сложному тесту.",
+        "en": "Yesterday she prepared all day for the difficult test."
+      },
+      "bracket_parts": [
+        "bereitete",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "auf den schwierigen Test"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben sich monatelang auf die herausfordernde Expedition vorbereitet.",
+      "translation": {
+        "ru": "Они месяцами готовились к этой непростой экспедиции.",
+        "en": "They prepared for months for the challenging expedition."
+      },
+      "bracket_parts": [
+        "haben",
+        "vorbereitet"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "auf die herausfordernde Expedition"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Bereiten Sie sich bitte rechtzeitig auf Ihre Reise vor!",
+      "translation": {
+        "ru": "Подготовьтесь, пожалуйста, вовремя к вашей поездке!",
+        "en": "Please prepare for your trip in good time!"
+      },
+      "bracket_parts": [
+        "Bereiten",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "auf Ihre Reise"
+      ]
+    }
+  ]
+}

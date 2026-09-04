@@ -13,6 +13,7 @@ import { useAppTheme } from '../../context/ThemeContext';
 import { useLocale } from '../../context/LocaleContext';
 import { RootStackParamList } from '../../types/navigation';
 import { updateLanguageSettings } from '../../services/settingsService';
+import { trackEvent, setUserProperty } from '../../services/analyticsService';
 import { createStyles } from './LanguageSelectorScreen.styles';
 
 export function LanguageSelectorScreen(): React.JSX.Element {
@@ -66,6 +67,12 @@ export function LanguageSelectorScreen(): React.JSX.Element {
     setIsSaving(true);
 
     try {
+      trackEvent('settings_language_selected', {
+        new_language: selectedLanguage,
+        previous_language: locale,
+      });
+      setUserProperty('app_language', selectedLanguage).catch(() => {});
+
       setLocale(selectedLanguage);
       updateLanguageSettings(true, selectedLanguage);
 

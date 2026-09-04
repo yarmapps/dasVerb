@@ -1,0 +1,209 @@
+{
+  "id": "abholen",
+  "infinitive": "abholen",
+  "translation": {
+    "ru": "забирать, встречать (с вокзала и т. д.)",
+    "en": "to pick up, to collect"
+  },
+  "level": "A2",
+  "frequency_rank": 220,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "ab",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "abholen",
+    "present_3sg": "holt ab",
+    "praeteritum_3sg": "holte ab",
+    "partizip_2": "abgeholt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "hole ab",
+      "du": "holst ab",
+      "er_sie_es": "holt ab",
+      "wir": "holen ab",
+      "ihr": "holt ab",
+      "sie_Sie": "holen ab",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "holte ab",
+      "du": "holtest ab",
+      "er_sie_es": "holte ab",
+      "wir": "holten ab",
+      "ihr": "holtet ab",
+      "sie_Sie": "holten ab"
+    },
+    "imperative": {
+      "du": "hol ab!",
+      "ihr": "holt ab!",
+      "Sie": "holen Sie ab!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "von",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "jemanden (Akk) vom Bahnhof (Dat) abholen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich hole meine Schwester heute um fünf Uhr vom Flughafen ab.",
+      "translation": {
+        "ru": "Я встречаю свою сестру сегодня в пять часов в аэропорту.",
+        "en": "I am picking up my sister from the airport at five o'clock today."
+      },
+      "bracket_parts": [
+        "hole",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "meine Schwester"
+      ],
+      "dativ_parts": [
+        "vom Flughafen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Holst du dein neues Fahrrad morgen aus der Reparaturwerkstatt ab?",
+      "translation": {
+        "ru": "Ты заберешь свой новый велосипед завтра из ремонтной мастерской?",
+        "en": "Are you picking up your new bicycle from the repair shop tomorrow?"
+      },
+      "bracket_parts": [
+        "Holst",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "dein neues Fahrrad"
+      ],
+      "dativ_parts": [
+        "aus der Reparaturwerkstatt"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Vater holt seine beiden Kinder pünktlich von der Schule ab.",
+      "translation": {
+        "ru": "Отец вовремя забирает обоих своих детей из школы.",
+        "en": "The father picks up both his children from school punctually."
+      },
+      "bracket_parts": [
+        "holt",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "seine beiden Kinder"
+      ],
+      "dativ_parts": [
+        "von der Schule"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir holen das wichtige Paket gleich nach Feierabend von der Post ab.",
+      "translation": {
+        "ru": "Мы заберем важную посылку с почты сразу после окончания работы.",
+        "en": "We are collecting the important parcel from the post office right after work."
+      },
+      "bracket_parts": [
+        "holen",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "das wichtige Paket"
+      ],
+      "dativ_parts": [
+        "von der Post"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Holt ihr eure Gäste am Abend mit dem Auto vom Hauptbahnhof ab?",
+      "translation": {
+        "ru": "Вы встретите своих гостей вечером на машине с главного вокзала?",
+        "en": "Are you picking up your guests from the main station by car in the evening?"
+      },
+      "bracket_parts": [
+        "Holt",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "eure Gäste"
+      ],
+      "dativ_parts": [
+        "vom Hauptbahnhof"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern holte sie ihren kranken Freund mit dem Wagen von der Arbeit ab.",
+      "translation": {
+        "ru": "Вчера она забрала своего заболевшего друга на машине с работы.",
+        "en": "Yesterday she picked up her sick boyfriend from work by car."
+      },
+      "bracket_parts": [
+        "holte",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "ihren kranken Freund"
+      ],
+      "dativ_parts": [
+        "von der Arbeit"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die bestellten Konzertkarten gestern an der Theaterkasse abgeholt.",
+      "translation": {
+        "ru": "Они вчера забрали заказанные билеты на концерт в кассе театра.",
+        "en": "They collected the ordered concert tickets at the box office yesterday."
+      },
+      "bracket_parts": [
+        "haben",
+        "abgeholt"
+      ],
+      "akkusativ_parts": [
+        "die bestellten Konzertkarten"
+      ],
+      "dativ_parts": [
+        "an der Theaterkasse"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Hol mich bitte nach dem Unterricht an der Haltestelle ab!",
+      "translation": {
+        "ru": "Встреть меня, пожалуйста, после занятий на остановке!",
+        "en": "Please pick me up at the stop after class!"
+      },
+      "bracket_parts": [
+        "Hol",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": [
+        "an der Haltestelle"
+      ]
+    }
+  ]
+}

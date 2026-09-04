@@ -1,0 +1,202 @@
+{
+  "id": "warnen_akk_vor",
+  "infinitive": "warnen",
+  "translation": {
+    "ru": "предупреждать (кого-то об опасности)",
+    "en": "to warn (someone of something)"
+  },
+  "level": "B1",
+  "frequency_rank": 230,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "warnen",
+    "present_3sg": "warnt",
+    "praeteritum_3sg": "warnte",
+    "partizip_2": "gewarnt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "warne",
+      "du": "warnst",
+      "er_sie_es": "warnt",
+      "wir": "warnen",
+      "ihr": "warnt",
+      "sie_Sie": "warnen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "warnte",
+      "du": "warntest",
+      "er_sie_es": "warnte",
+      "wir": "warnten",
+      "ihr": "warntet",
+      "sie_Sie": "warnten"
+    },
+    "imperative": {
+      "du": "warn!",
+      "ihr": "warnt!",
+      "Sie": "warnen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "vor",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "jemanden (Akk) vor einer großen Gefahr (Dat) warnen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich warne dich eindringlich vor den gefährlichen Strömungen in diesem Fluss.",
+      "translation": {
+        "ru": "Я настойчиво предупреждаю тебя об опасных течениях в этой реке.",
+        "en": "I urgently warn you about the dangerous currents in this river."
+      },
+      "bracket_parts": [
+        "warne"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "vor den gefährlichen Strömungen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Warnst du deine Freunde rechtzeitig vor den betrügerischen E-Mails im Internet?",
+      "translation": {
+        "ru": "Ты вовремя предупредишь своих друзей о мошеннических письмах в интернете?",
+        "en": "Are you warning your friends in time about the fraudulent emails on the internet?"
+      },
+      "bracket_parts": [
+        "Warnst"
+      ],
+      "akkusativ_parts": [
+        "deine Freunde"
+      ],
+      "dativ_parts": [
+        "vor den betrügerischen E-Mails"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Wetterdienst warnt die Bevölkerung heute vor schweren Unwettern und Hagel.",
+      "translation": {
+        "ru": "Метеослужба предупреждает население сегодня о сильных штормах и граде.",
+        "en": "The weather service is warning the population today of severe storms and hail."
+      },
+      "bracket_parts": [
+        "warnt"
+      ],
+      "akkusativ_parts": [
+        "die Bevölkerung"
+      ],
+      "dativ_parts": [
+        "vor schweren Unwettern und Hagel"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir warnen alle Wanderer vor dem plötzlichen Wetterumschwung in den Bergen.",
+      "translation": {
+        "ru": "Мы предупреждаем всех туристов о внезапной перемене погоды в горах.",
+        "en": "We warn all hikers about the sudden change in weather in the mountains."
+      },
+      "bracket_parts": [
+        "warnen"
+      ],
+      "akkusativ_parts": [
+        "alle Wanderer"
+      ],
+      "dativ_parts": [
+        "vor dem plötzlichen Wetterumschwung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Warnt ihr die Autofahrer vor der gefährlichen Glätte auf den Landstraßen?",
+      "translation": {
+        "ru": "Вы предупреждаете автомобилистов об опасной гололедице на загородных дорогах?",
+        "en": "Are you warning motorists about the hazardous ice on the country roads?"
+      },
+      "bracket_parts": [
+        "Warnt"
+      ],
+      "akkusativ_parts": [
+        "die Autofahrer"
+      ],
+      "dativ_parts": [
+        "vor der gefährlichen Glätte"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern warnte die Feuerwehr die Anwohner vor dem dichten Rauch des Brandes.",
+      "translation": {
+        "ru": "Вчера пожарная служба предупредила жителей о густом дыме от пожара.",
+        "en": "Yesterday the fire brigade warned residents about the dense smoke from the fire."
+      },
+      "bracket_parts": [
+        "warnte"
+      ],
+      "akkusativ_parts": [
+        "die Anwohner"
+      ],
+      "dativ_parts": [
+        "vor dem dichten Rauch"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Experten haben die Anleger seit Monaten vor riskanten Spekulationen gewarnt.",
+      "translation": {
+        "ru": "Эксперты месяцами предупреждали инвесторов о рискованных спекуляциях.",
+        "en": "Experts have been warning investors about risky speculations for months."
+      },
+      "bracket_parts": [
+        "haben",
+        "gewarnt"
+      ],
+      "akkusativ_parts": [
+        "die Anleger"
+      ],
+      "dativ_parts": [
+        "vor riskanten Spekulationen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Warnen Sie die Touristen bitte vor den hohen Wellen am Strand!",
+      "translation": {
+        "ru": "Предупредите туристов, пожалуйста, о высоких волнах на пляже!",
+        "en": "Please warn the tourists about the high waves on the beach!"
+      },
+      "bracket_parts": [
+        "Warnen"
+      ],
+      "akkusativ_parts": [
+        "die Touristen"
+      ],
+      "dativ_parts": [
+        "vor den hohen Wellen"
+      ]
+    }
+  ]
+}

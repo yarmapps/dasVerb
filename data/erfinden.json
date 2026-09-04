@@ -1,0 +1,178 @@
+{
+  "id": "erfinden",
+  "infinitive": "erfinden",
+  "translation": {
+    "ru": "изобретать, выдумывать",
+    "en": "to invent, to make up"
+  },
+  "level": "B1",
+  "frequency_rank": 255,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erfinden",
+    "present_3sg": "erfindet",
+    "praeteritum_3sg": "erfand",
+    "partizip_2": "erfunden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erfinde",
+      "du": "erfindest",
+      "er_sie_es": "erfindet",
+      "wir": "erfinden",
+      "ihr": "erfindet",
+      "sie_Sie": "erfinden",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "erfand",
+      "du": "erfandest",
+      "er_sie_es": "erfand",
+      "wir": "erfanden",
+      "ihr": "erfandet",
+      "sie_Sie": "erfanden"
+    },
+    "imperative": {
+      "du": "erfind!",
+      "ihr": "erfindet!",
+      "Sie": "erfinden Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine geniale Technologie / Geschichten (Akk) erfinden",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erfinde abends für meine Kinder gerne lustige und fantasievolle Gute-Nacht-Geschichten.",
+      "translation": {
+        "ru": "Вечером для своих детей я с удовольствием сочиняю веселые и полные фантазии сказки на ночь.",
+        "en": "In the evening I like to invent funny and imaginative bedtime stories for my children."
+      },
+      "bracket_parts": [
+        "erfinde"
+      ],
+      "akkusativ_parts": [
+        "lustige und fantasievolle Gute-Nacht-Geschichten"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erfindest du bei deinen häufigen Verspätungen etwa jedes Mal eine neue Ausrede?",
+      "translation": {
+        "ru": "Неужели при своих частых опозданиях ты каждый раз выдумываешь новую отговорку?",
+        "en": "Do you actually make up a new excuse every time for your frequent delays?"
+      },
+      "bracket_parts": [
+        "Erfindest"
+      ],
+      "akkusativ_parts": [
+        "eine neue Ausrede"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der kreative Ingenieur erfindet regelmäßig innovative Hilfsmittel für den Alltag.",
+      "translation": {
+        "ru": "Творческий инженер регулярно изобретает инновационные приспособления для повседневной жизни.",
+        "en": "The creative engineer regularly invents innovative aids for everyday life."
+      },
+      "bracket_parts": [
+        "erfindet"
+      ],
+      "akkusativ_parts": [
+        "innovative Hilfsmittel"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erfinden als Team ständig neue Spiele für unsere Jugendgruppe.",
+      "translation": {
+        "ru": "Мы как команда постоянно придумываем новые игры для нашей молодежной группы.",
+        "en": "As a team, we constantly invent new games for our youth group."
+      },
+      "bracket_parts": [
+        "erfinden"
+      ],
+      "akkusativ_parts": [
+        "neue Spiele"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erfindet ihr im Workshop auch praktische Lösungen für den Umweltschutz?",
+      "translation": {
+        "ru": "Вы придумываете на воркшопе также практичные решения для охраны окружающей среды?",
+        "en": "Are you also inventing practical solutions for environmental protection in the workshop?"
+      },
+      "bracket_parts": [
+        "Erfindet"
+      ],
+      "akkusativ_parts": [
+        "praktische Lösungen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals erfand der geniale Tüftler eine bahnbrechende Vorrichtung zur Wassereinsparung.",
+      "translation": {
+        "ru": "В те времена гениальный изобретатель придумал революционное устройство для экономии воды.",
+        "en": "At that time the ingenious tinkerer invented a breakthrough device for saving water."
+      },
+      "bracket_parts": [
+        "erfand"
+      ],
+      "akkusativ_parts": [
+        "eine bahnbrechende Vorrichtung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Johannes Gutenberg hat im fünfzehnten Jahrhundert den modernen Buchdruck erfunden.",
+      "translation": {
+        "ru": "Иоганн Гутенберг в пятнадцатом веке изобрел современное книгопечатание.",
+        "en": "Johannes Gutenberg invented modern book printing in the fifteenth century."
+      },
+      "bracket_parts": [
+        "hat",
+        "erfunden"
+      ],
+      "akkusativ_parts": [
+        "den modernen Buchdruck"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erfinden Sie das Rad bitte nicht neu, sondern nutzen Sie bewährte Methoden!",
+      "translation": {
+        "ru": "Не изобретайте велосипед, пожалуйста, а используйте проверенные методы!",
+        "en": "Please do not reinvent the wheel, but use tried and tested methods!"
+      },
+      "bracket_parts": [
+        "Erfinden"
+      ],
+      "akkusativ_parts": [
+        "das Rad"
+      ]
+    }
+  ]
+}

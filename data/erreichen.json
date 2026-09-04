@@ -1,0 +1,178 @@
+{
+  "id": "erreichen",
+  "infinitive": "erreichen",
+  "translation": {
+    "ru": "достигать, дозваниваться",
+    "en": "to reach, to achieve"
+  },
+  "level": "B1",
+  "frequency_rank": 68,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erreichen",
+    "present_3sg": "erreicht",
+    "praeteritum_3sg": "erreichte",
+    "partizip_2": "erreicht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erreiche",
+      "du": "erreichst",
+      "er_sie_es": "erreicht",
+      "wir": "erreichen",
+      "ihr": "erreicht",
+      "sie_Sie": "erreichen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "erreichte",
+      "du": "erreichtest",
+      "er_sie_es": "erreichte",
+      "wir": "erreichten",
+      "ihr": "erreichtet",
+      "sie_Sie": "erreichten"
+    },
+    "imperative": {
+      "du": "erreich!",
+      "ihr": "erreicht!",
+      "Sie": "erreichen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das Ziel / jemanden (Akk) erreichen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erreiche meine Kollegen heute nur per E-Mail, da sie im Homeoffice arbeiten.",
+      "translation": {
+        "ru": "Я связываюсь сегодня с коллегами только по электронной почте, так как они работают из дома.",
+        "en": "I can only reach my colleagues by email today since they are working from home."
+      },
+      "bracket_parts": [
+        "erreiche"
+      ],
+      "akkusativ_parts": [
+        "meine Kollegen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erreichst du den Bahnhof noch rechtzeitig vor der Abfahrt des Zuges?",
+      "translation": {
+        "ru": "Ты доберешься до вокзала еще вовремя до отправления поезда?",
+        "en": "Will you reach the station in time before the train departs?"
+      },
+      "bracket_parts": [
+        "Erreichst"
+      ],
+      "akkusativ_parts": [
+        "den Bahnhof"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der fleißige Student erreicht mit großer Ausdauer alle seine akademischen Ziele.",
+      "translation": {
+        "ru": "Прилежный студент с большим упорством достигает всех своих академических целей.",
+        "en": "The diligent student achieves all his academic goals with great endurance."
+      },
+      "bracket_parts": [
+        "erreicht"
+      ],
+      "akkusativ_parts": [
+        "alle seine akademischen Ziele"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erreichen das abgelegene Dorf am besten mit dem Regionalbus.",
+      "translation": {
+        "ru": "Мы добираемся до этой отдаленной деревни лучше всего на региональном автобусе.",
+        "en": "We reach the remote village best with the regional bus."
+      },
+      "bracket_parts": [
+        "erreichen"
+      ],
+      "akkusativ_parts": [
+        "das abgelegene Dorf"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erreicht ihr eure Kunden auch am späten Freitagnachmittag noch telefonisch?",
+      "translation": {
+        "ru": "Вы дозваниваетесь до своих клиентов по телефону даже поздним днем в пятницу?",
+        "en": "Can you still reach your clients by phone late on Friday afternoon?"
+      },
+      "bracket_parts": [
+        "Erreicht"
+      ],
+      "akkusativ_parts": [
+        "eure Kunden"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern erreichte sie nach einer anstrengenden Wanderung den höchsten Berggipfel.",
+      "translation": {
+        "ru": "Вчера после утомительного похода она достигла высочайшей вершины горы.",
+        "en": "Yesterday after an exhausting hike she reached the highest mountain summit."
+      },
+      "bracket_parts": [
+        "erreichte"
+      ],
+      "akkusativ_parts": [
+        "den höchsten Berggipfel"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben bei den schwierigen Verhandlungen eine tragfähige Einigung erreicht.",
+      "translation": {
+        "ru": "На сложных переговорах они достигли жизнеспособного соглашения.",
+        "en": "They reached a viable agreement during the difficult negotiations."
+      },
+      "bracket_parts": [
+        "haben",
+        "erreicht"
+      ],
+      "akkusativ_parts": [
+        "eine tragfähige Einigung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erreichen Sie mich bitte unter meiner privaten Handynummer!",
+      "translation": {
+        "ru": "Свяжитесь со мной, пожалуйста, по моему личному номеру мобильного!",
+        "en": "Please reach me on my personal mobile number!"
+      },
+      "bracket_parts": [
+        "Erreichen"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
+    }
+  ]
+}

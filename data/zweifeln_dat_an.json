@@ -1,0 +1,178 @@
+{
+  "id": "zweifeln_dat_an",
+  "infinitive": "zweifeln",
+  "translation": {
+    "ru": "сомневаться (в чем-то/ком-то)",
+    "en": "to doubt"
+  },
+  "level": "B2",
+  "frequency_rank": 165,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zweifeln",
+    "present_3sg": "zweifelt",
+    "praeteritum_3sg": "zweifelte",
+    "partizip_2": "gezweifelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "zweifle",
+      "du": "zweifelst",
+      "er_sie_es": "zweifelt",
+      "wir": "zweifeln",
+      "ihr": "zweifelt",
+      "sie_Sie": "zweifeln",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "zweifelte",
+      "du": "zweifeltest",
+      "er_sie_es": "zweifelte",
+      "wir": "zweifelten",
+      "ihr": "zweifeltet",
+      "sie_Sie": "zweifelten"
+    },
+    "imperative": {
+      "du": "zweifle!",
+      "ihr": "zweifelt!",
+      "Sie": "zweifeln Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "an",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "an der Richtigkeit der Aussage (Dat) zweifeln",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich zweifle keineswegs an den aufrichtigen Absichten meines Partners.",
+      "translation": {
+        "ru": "Я ни в коем случае не сомневаюсь в искренних намерениях моего партнера.",
+        "en": "I in no way doubt my partner's sincere intentions."
+      },
+      "bracket_parts": [
+        "zweifle"
+      ],
+      "dativ_parts": [
+        "an den aufrichtigen Absichten"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Zweifelst du nach den neuen Erkenntnissen immer noch an seiner Version der Geschichte?",
+      "translation": {
+        "ru": "Ты после новых данных всё еще сомневаешься в его версии событий?",
+        "en": "Do you still doubt his version of the story after the new findings?"
+      },
+      "bracket_parts": [
+        "Zweifelst"
+      ],
+      "dativ_parts": [
+        "an seiner Version"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Fachwelt zweifelt zunehmend an der Belastbarkeit dieser veralteten Studie.",
+      "translation": {
+        "ru": "Научное сообщество всё больше сомневается в надежности этого устаревшего исследования.",
+        "en": "The scientific community increasingly doubts the validity of this outdated study."
+      },
+      "bracket_parts": [
+        "zweifelt"
+      ],
+      "dativ_parts": [
+        "an der Belastbarkeit"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir zweifeln nicht an der großen Entschlossenheit unserer gesamten Mannschaft.",
+      "translation": {
+        "ru": "Мы не сомневаемся в огромной решимости всей нашей команды.",
+        "en": "We do not doubt the great determination of our entire team."
+      },
+      "bracket_parts": [
+        "zweifeln"
+      ],
+      "dativ_parts": [
+        "an der großen Entschlossenheit"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Zweifelt ihr trotz aller Vorbereitung etwa an eurem eigenen Können?",
+      "translation": {
+        "ru": "Неужели вы, несмотря на всю подготовку, сомневаетесь в своих собственных способностях?",
+        "en": "Despite all preparation, do you really doubt your own abilities?"
+      },
+      "bracket_parts": [
+        "Zweifelt"
+      ],
+      "dativ_parts": [
+        "an eurem eigenen Können"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern zweifelte der Richter an der Glaubwürdigkeit des nervösen Zeugen.",
+      "translation": {
+        "ru": "Вчера судья усомнился в достоверности показаний нервничающего свидетеля.",
+        "en": "Yesterday the judge doubted the credibility of the nervous witness."
+      },
+      "bracket_parts": [
+        "zweifelte"
+      ],
+      "dativ_parts": [
+        "an der Glaubwürdigkeit"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Niemand im Saal hat an der Kompetenz der renommierten Rednerin gezweifelt.",
+      "translation": {
+        "ru": "Никто в зале не усомнился в компетентности авторитетного докладчика.",
+        "en": "Nobody in the room doubted the competence of the renowned speaker."
+      },
+      "bracket_parts": [
+        "hat",
+        "gezweifelt"
+      ],
+      "dativ_parts": [
+        "an der Kompetenz"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Zweifle niemals an deinen eigenen Fähigkeiten und Träumen!",
+      "translation": {
+        "ru": "Никогда не сомневайся в своих собственных способностях и мечтах!",
+        "en": "Never doubt your own abilities and dreams!"
+      },
+      "bracket_parts": [
+        "Zweifle"
+      ],
+      "dativ_parts": [
+        "an deinen eigenen Fähigkeiten"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "festlegen",
+  "infinitive": "festlegen",
+  "translation": {
+    "ru": "устанавливать, определять, назначать",
+    "en": "to fix, to determine, to lay down"
+  },
+  "level": "B2",
+  "frequency_rank": 320,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "fest",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "festlegen",
+    "present_3sg": "legt fest",
+    "praeteritum_3sg": "legte fest",
+    "partizip_2": "festgelegt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lege fest",
+      "du": "legst fest",
+      "er_sie_es": "legt fest",
+      "wir": "legen fest",
+      "ihr": "legt fest",
+      "sie_Sie": "legen fest",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "legte fest",
+      "du": "legtest fest",
+      "er_sie_es": "legte fest",
+      "wir": "legten fest",
+      "ihr": "legtet fest",
+      "sie_Sie": "legten fest"
+    },
+    "imperative": {
+      "du": "leg fest!",
+      "ihr": "legt fest!",
+      "Sie": "legen Sie fest!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen verbindlichen Zeitplan (Akk) gemeinsam festlegen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich lege die genauen Termine für unsere Teambesprechungen immer am Monatsanfang fest.",
+      "translation": {
+        "ru": "Я всегда в начале месяца назначаю точные сроки для наших командных совещаний.",
+        "en": "I always set the exact dates for our team meetings at the beginning of the month."
+      },
+      "bracket_parts": [
+        "lege",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "die genauen Termine"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Legst du die Reiseroute für unseren gemeinsamen Sommerurlaub schon heute Abend fest?",
+      "translation": {
+        "ru": "Определишь ли ты маршрут для нашего совместного летнего отпуска уже сегодня вечером?",
+        "en": "Are you fixing the itinerary for our joint summer holiday tonight already?"
+      },
+      "bracket_parts": [
+        "Legst",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "die Reiseroute"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Geschäftsführung legt die verbindlichen Jahresziele für alle Filialen fest.",
+      "translation": {
+        "ru": "Руководство компании устанавливает обязательные годовые цели для всех филиалов.",
+        "en": "Management sets the binding annual targets for all branches."
+      },
+      "bracket_parts": [
+        "legt",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "die verbindlichen Jahresziele"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir legen gemeinsam transparente Kriterien für die faire Bewertung der Prüfungen fest.",
+      "translation": {
+        "ru": "Мы совместно определяем прозрачные критерии для справедливой оценки экзаменов.",
+        "en": "Together we lay down transparent criteria for the fair assessment of exams."
+      },
+      "bracket_parts": [
+        "legen",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "transparente Kriterien"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Legt ihr im Arbeitskreis heute die konkrete Aufgabenverteilung für das Projekt fest?",
+      "translation": {
+        "ru": "Определите ли вы в рабочей группе сегодня конкретное распределение задач по проекту?",
+        "en": "Are you determining the specific distribution of tasks for the project in the working group today?"
+      },
+      "bracket_parts": [
+        "Legt",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "die konkrete Aufgabenverteilung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern legte der Richter nach der Anhörung die Höhe der Kaution verbindlich fest.",
+      "translation": {
+        "ru": "Вчера судья после слушания окончательно определил размер залога.",
+        "en": "Yesterday, following the hearing, the judge fixed the amount of bail definitively."
+      },
+      "bracket_parts": [
+        "legte",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "die Höhe der Kaution"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Kommission hat die neuen Richtlinien für den Arbeits- und Gesundheitsschutz festgelegt.",
+      "translation": {
+        "ru": "Комиссия утвердила новые правила охраны труда и здоровья.",
+        "en": "The commission laid down the new guidelines for occupational health and safety."
+      },
+      "bracket_parts": [
+        "hat",
+        "festgelegt"
+      ],
+      "akkusativ_parts": [
+        "die neuen Richtlinien"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Legen Sie die wichtigsten Prioritäten für die kommende Woche bitte klar fest!",
+      "translation": {
+        "ru": "Определите важнейшие приоритеты на предстоящую неделю, пожалуйста, четко!",
+        "en": "Please set the most important priorities for the coming week clearly!"
+      },
+      "bracket_parts": [
+        "Legen",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "die wichtigsten Prioritäten"
+      ]
+    }
+  ]
+}

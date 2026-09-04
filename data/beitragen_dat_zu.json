@@ -1,0 +1,185 @@
+{
+  "id": "beitragen_dat_zu",
+  "infinitive": "beitragen",
+  "translation": {
+    "ru": "вносить вклад, способствовать",
+    "en": "to contribute to"
+  },
+  "level": "B1",
+  "frequency_rank": 215,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "bei",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beitragen",
+    "present_3sg": "trägt bei",
+    "praeteritum_3sg": "trug bei",
+    "partizip_2": "beigetragen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "trage bei",
+      "du": "trägst bei",
+      "er_sie_es": "trägt bei",
+      "wir": "tragen bei",
+      "ihr": "tragt bei",
+      "sie_Sie": "tragen bei",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "trug bei",
+      "du": "trugst bei",
+      "er_sie_es": "trug bei",
+      "wir": "trugen bei",
+      "ihr": "trugt bei",
+      "sie_Sie": "trugen bei"
+    },
+    "imperative": {
+      "du": "trag bei!",
+      "ihr": "tragt bei!",
+      "Sie": "tragen Sie bei!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "zu",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "zum großen Erfolg des Projekts (Dat) beitragen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich trage mit meiner täglichen Arbeit gerne zum gemeinsamen Erfolg der Firma bei.",
+      "translation": {
+        "ru": "Я своей ежедневной работой с удовольствием вношу вклад в общий успех компании.",
+        "en": "With my daily work I gladly contribute to the joint success of the company."
+      },
+      "bracket_parts": [
+        "trage",
+        "bei"
+      ],
+      "dativ_parts": [
+        "zum gemeinsamen Erfolg"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Trägst du mit deinen kreativen Vorschlägen zur Lösung des Problems bei?",
+      "translation": {
+        "ru": "Ты вносишь вклад своими творческими предложениями в решение проблемы?",
+        "en": "Do you contribute to solving the problem with your creative suggestions?"
+      },
+      "bracket_parts": [
+        "Trägst",
+        "bei"
+      ],
+      "dativ_parts": [
+        "zur Lösung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Regelmäßiger Sport trägt erwiesenermaßen zur Erhaltung der Gesundheit bei.",
+      "translation": {
+        "ru": "Регулярный спорт, как доказано, способствует сохранению здоровья.",
+        "en": "Regular exercise is proven to contribute to maintaining health."
+      },
+      "bracket_parts": [
+        "trägt",
+        "bei"
+      ],
+      "dativ_parts": [
+        "zur Erhaltung"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir tragen durch umweltbewusstes Verhalten aktiv zum Schutz des Klimas bei.",
+      "translation": {
+        "ru": "Благодаря экологически сознательному поведению мы активно вносим вклад в защиту климата.",
+        "en": "Through environmentally conscious behavior we actively contribute to climate protection."
+      },
+      "bracket_parts": [
+        "tragen",
+        "bei"
+      ],
+      "dativ_parts": [
+        "zum Schutz"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Tragt ihr mit einer Spende zur Renovierung des historischen Gebäudes bei?",
+      "translation": {
+        "ru": "Вы вносите пожертвованием вклад в ремонт исторического здания?",
+        "en": "Are you contributing to the renovation of the historic building with a donation?"
+      },
+      "bracket_parts": [
+        "Tragt",
+        "bei"
+      ],
+      "dativ_parts": [
+        "zur Renovierung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern trug ihre sachliche Vermittlung entscheidend zum friedlichen Kompromiss bei.",
+      "translation": {
+        "ru": "Вчера ее предметное посредничество решительно способствовало мирному компромиссу.",
+        "en": "Yesterday her objective mediation contributed decisively to the peaceful compromise."
+      },
+      "bracket_parts": [
+        "trug",
+        "bei"
+      ],
+      "dativ_parts": [
+        "zum friedlichen Kompromiss"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Viele freiwillige Helfer haben maßgeblich zur Bewältigung der Flutkatastrophe beigetragen.",
+      "translation": {
+        "ru": "Многие волонтеры внесли решающий вклад в преодоление последствий наводнения.",
+        "en": "Many volunteer helpers contributed significantly to overcoming the flood disaster."
+      },
+      "bracket_parts": [
+        "haben",
+        "beigetragen"
+      ],
+      "dativ_parts": [
+        "zur Bewältigung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Tragen Sie bitte aktiv zu einer angenehmen Arbeitsatmosphäre bei!",
+      "translation": {
+        "ru": "Вносите, пожалуйста, активный вклад в приятную рабочую атмосферу!",
+        "en": "Please contribute actively to a pleasant working atmosphere!"
+      },
+      "bracket_parts": [
+        "Tragen",
+        "bei"
+      ],
+      "dativ_parts": [
+        "zu einer angenehmen Arbeitsatmosphäre"
+      ]
+    }
+  ]
+}

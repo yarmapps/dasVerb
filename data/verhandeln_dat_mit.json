@@ -1,0 +1,193 @@
+{
+  "id": "verhandeln_dat_mit",
+  "infinitive": "verhandeln",
+  "translation": {
+    "ru": "вести переговоры, договариваться",
+    "en": "to negotiate"
+  },
+  "level": "B2",
+  "frequency_rank": 190,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verhandeln",
+    "present_3sg": "verhandelt",
+    "praeteritum_3sg": "verhandelte",
+    "partizip_2": "verhandelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verhandle",
+      "du": "verhandelst",
+      "er_sie_es": "verhandelt",
+      "wir": "verhandeln",
+      "ihr": "verhandelt",
+      "sie_Sie": "verhandeln",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "verhandelte",
+      "du": "verhandeltest",
+      "er_sie_es": "verhandelte",
+      "wir": "verhandelten",
+      "ihr": "verhandeltet",
+      "sie_Sie": "verhandelten"
+    },
+    "imperative": {
+      "du": "verhandle!",
+      "ihr": "verhandelt!",
+      "Sie": "verhandeln Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "mit den Kunden (Dat) über bessere Konditionen (Akk) verhandeln",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verhandle mit dem neuen Lieferanten über einen spürbaren Mengenrabatt.",
+      "translation": {
+        "ru": "Я веду переговоры с новым поставщиком об ощутимой скидке за объем.",
+        "en": "I am negotiating with the new supplier for a noticeable quantity discount."
+      },
+      "bracket_parts": [
+        "verhandle"
+      ],
+      "dativ_parts": [
+        "mit dem neuen Lieferanten"
+      ],
+      "akkusativ_parts": [
+        "über einen spürbaren Mengenrabatt"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verhandelst du mit deinem zukünftigen Arbeitgeber eigentlich auch über flexible Arbeitszeiten?",
+      "translation": {
+        "ru": "Ты ведешь переговоры со своим будущим работодателем на самом деле и о гибком графике?",
+        "en": "Are you actually negotiating with your future employer about flexible working hours too?"
+      },
+      "bracket_parts": [
+        "Verhandelst"
+      ],
+      "dativ_parts": [
+        "mit deinem zukünftigen Arbeitgeber"
+      ],
+      "akkusativ_parts": [
+        "über flexible Arbeitszeiten"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Delegation verhandelt mit den Vertretern des Nachbarlandes über ein neues Abkommen.",
+      "translation": {
+        "ru": "Делегация ведет переговоры с представителями соседней страны о новом соглашении.",
+        "en": "The delegation is negotiating a new agreement with representatives of the neighbouring country."
+      },
+      "bracket_parts": [
+        "verhandelt"
+      ],
+      "dativ_parts": [
+        "mit den Vertretern"
+      ],
+      "akkusativ_parts": [
+        "über ein neues Abkommen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verhandeln mit den Banken über eine zinsgünstige Finanzierung unseres Projekts.",
+      "translation": {
+        "ru": "Мы ведем переговоры с банками о льготном финансировании нашего проекта.",
+        "en": "We are negotiating with the banks for low-interest financing for our project."
+      },
+      "bracket_parts": [
+        "verhandeln"
+      ],
+      "dativ_parts": [
+        "mit den Banken"
+      ],
+      "akkusativ_parts": [
+        "über eine zinsgünstige Finanzierung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verhandelt ihr mit dem Vermieter über eine Renovierung der alten Wohnung?",
+      "translation": {
+        "ru": "Вы ведете переговоры с арендодателем о ремонте старой квартиры?",
+        "en": "Are you negotiating with the landlord about renovating the old flat?"
+      },
+      "bracket_parts": [
+        "Verhandelt"
+      ],
+      "dativ_parts": [
+        "mit dem Vermieter"
+      ],
+      "akkusativ_parts": [
+        "über eine Renovierung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern verhandelte der Minister stundenlang mit den streikenden Lokführern.",
+      "translation": {
+        "ru": "Вчера министр часами вел переговоры с бастующими машинистами поездов.",
+        "en": "Yesterday the minister negotiated for hours with the striking train drivers."
+      },
+      "bracket_parts": [
+        "verhandelte"
+      ],
+      "dativ_parts": [
+        "mit den streikenden Lokführern"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Gewerkschaften haben mit den Arbeitgebern bis tief in die Nacht verhandelt.",
+      "translation": {
+        "ru": "Профсоюзы вели переговоры с работодателями до глубокой ночи.",
+        "en": "The trade unions negotiated with the employers until deep into the night."
+      },
+      "bracket_parts": [
+        "haben",
+        "verhandelt"
+      ],
+      "dativ_parts": [
+        "mit den Arbeitgebern"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verhandeln Sie stets mit Respekt und klaren Zielvorstellungen!",
+      "translation": {
+        "ru": "Ведите переговоры всегда с уважением и четкими целями!",
+        "en": "Always negotiate with respect and clear goals!"
+      },
+      "bracket_parts": [
+        "Verhandeln"
+      ],
+      "dativ_parts": [
+        "mit Respekt"
+      ]
+    }
+  ]
+}

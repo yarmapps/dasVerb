@@ -1,0 +1,184 @@
+{
+  "id": "putzen",
+  "infinitive": "putzen",
+  "translation": {
+    "ru": "чистить, убирать, мыть",
+    "en": "to clean, to brush (teeth)"
+  },
+  "level": "A2",
+  "frequency_rank": 230,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "putzen",
+    "present_3sg": "putzt",
+    "praeteritum_3sg": "putzte",
+    "partizip_2": "geputzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "putze",
+      "du": "putzt",
+      "er_sie_es": "putzt",
+      "wir": "putzen",
+      "ihr": "putzt",
+      "sie_Sie": "putzen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "putzte",
+      "du": "putztest",
+      "er_sie_es": "putzte",
+      "wir": "putzten",
+      "ihr": "putztet",
+      "sie_Sie": "putzten"
+    },
+    "imperative": {
+      "du": "putz!",
+      "ihr": "putzt!",
+      "Sie": "putzen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Zähne / die Fenster (Akk) putzen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich putze mir jeden Morgen und jeden Abend gründlich die Zähne.",
+      "translation": {
+        "ru": "Я каждое утро и каждый вечер тщательно чищу зубы.",
+        "en": "I brush my teeth thoroughly every morning and every evening."
+      },
+      "bracket_parts": [
+        "putze"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "die Zähne"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Putzt du heute noch die großen Fenster im Wohnzimmer?",
+      "translation": {
+        "ru": "Ты помоешь сегодня еще большие окна в гостиной?",
+        "en": "Are you still cleaning the large windows in the living room today?"
+      },
+      "bracket_parts": [
+        "Putzt"
+      ],
+      "akkusativ_parts": [
+        "die großen Fenster"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der fleißige Hausmann putzt die Küche nach dem Kochen blitzblank.",
+      "translation": {
+        "ru": "Прилежный домохозяин отмывает кухню после готовки до блеска.",
+        "en": "The diligent househusband cleans the kitchen sparkling clean after cooking."
+      },
+      "bracket_parts": [
+        "putzt"
+      ],
+      "akkusativ_parts": [
+        "die Küche"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir putzen vor dem Frühlingsbeginn gemeinsam das gesamte Treppenhaus.",
+      "translation": {
+        "ru": "Перед началом весны мы вместе моем всю лестничную клетку.",
+        "en": "Before spring begins, we clean the entire staircase together."
+      },
+      "bracket_parts": [
+        "putzen"
+      ],
+      "akkusativ_parts": [
+        "das gesamte Treppenhaus"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Putzt ihr eure dreckigen Wanderschuhe nach der Bergtour draußen im Hof?",
+      "translation": {
+        "ru": "Вы почистите свои грязные походные ботинки после похода на улице во дворе?",
+        "en": "Are you cleaning your dirty hiking boots outside in the yard after the mountain tour?"
+      },
+      "bracket_parts": [
+        "Putzt"
+      ],
+      "akkusativ_parts": [
+        "eure dreckigen Wanderschuhe"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern putzte sie stundenlang das Badezimmer und die Spiegel.",
+      "translation": {
+        "ru": "Вчера она часами мыла ванную комнату и зеркала.",
+        "en": "Yesterday she cleaned the bathroom and the mirrors for hours."
+      },
+      "bracket_parts": [
+        "putzte"
+      ],
+      "akkusativ_parts": [
+        "das Badezimmer und die Spiegel"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Kinder haben ihre Zähne vor dem Schlafengehen brav geputzt.",
+      "translation": {
+        "ru": "Дети послушно почистили зубы перед отходом ко сну.",
+        "en": "The children cleaned their teeth well before going to bed."
+      },
+      "bracket_parts": [
+        "haben",
+        "geputzt"
+      ],
+      "akkusativ_parts": [
+        "ihre Zähne"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Putz dir bitte vor dem Verlassen des Hauses die Schuhe!",
+      "translation": {
+        "ru": "Почисти себе, пожалуйста, обувь перед выходом из дома!",
+        "en": "Please clean your shoes before leaving the house!"
+      },
+      "bracket_parts": [
+        "Putz"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "die Schuhe"
+      ]
+    }
+  ]
+}

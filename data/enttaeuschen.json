@@ -1,0 +1,178 @@
+{
+  "id": "enttaeuschen",
+  "infinitive": "enttäuschen",
+  "translation": {
+    "ru": "разочаровывать",
+    "en": "to disappoint"
+  },
+  "level": "B1",
+  "frequency_rank": 290,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ent",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "enttäuschen",
+    "present_3sg": "enttäuscht",
+    "praeteritum_3sg": "enttäuschte",
+    "partizip_2": "enttäuscht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "enttäusche",
+      "du": "enttäuschst",
+      "er_sie_es": "enttäuscht",
+      "wir": "enttäuschen",
+      "ihr": "enttäuscht",
+      "sie_Sie": "enttäuschen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "enttäuschte",
+      "du": "enttäuschtest",
+      "er_sie_es": "enttäuschte",
+      "wir": "enttäuschten",
+      "ihr": "enttäuschtet",
+      "sie_Sie": "enttäuschten"
+    },
+    "imperative": {
+      "du": "enttäusch!",
+      "ihr": "enttäuscht!",
+      "Sie": "enttäuschen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die hohen Erwartungen / jemanden (Akk) enttäuschen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich enttäusche meine treuen Freunde niemals mit Absicht.",
+      "translation": {
+        "ru": "Я никогда намеренно не разочаровываю своих верных друзей.",
+        "en": "I never disappoint my loyal friends intentionally."
+      },
+      "bracket_parts": [
+        "enttäusche"
+      ],
+      "akkusativ_parts": [
+        "meine treuen Freunde"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Enttäuschst du deine Eltern durch diese leichtfertige Entscheidung?",
+      "translation": {
+        "ru": "Ты разочаруешь своих родителей этим легкомысленным решением?",
+        "en": "Are you disappointing your parents with this frivolous decision?"
+      },
+      "bracket_parts": [
+        "Enttäuschst"
+      ],
+      "akkusativ_parts": [
+        "deine Eltern"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das schwache Finale der Serie enttäuscht viele begeisterte Fans weltweit.",
+      "translation": {
+        "ru": "Слабый финал сериала разочаровывает многих восторженных фанатов по всему миру.",
+        "en": "The weak finale of the series disappoints many enthusiastic fans worldwide."
+      },
+      "bracket_parts": [
+        "enttäuscht"
+      ],
+      "akkusativ_parts": [
+        "viele begeisterte Fans"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir enttäuschen das Vertrauen unserer treuen Kunden keinesfalls.",
+      "translation": {
+        "ru": "Мы ни в коем случае не обманываем доверие наших постоянных клиентов.",
+        "en": "We in no way disappoint the trust of our loyal customers."
+      },
+      "bracket_parts": [
+        "enttäuschen"
+      ],
+      "akkusativ_parts": [
+        "das Vertrauen unserer treuen Kunden"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Enttäuscht ihr die Hoffnung eurer Mannschaft auf den Pokalsieg?",
+      "translation": {
+        "ru": "Вы разочаруете надежду своей команды на победу в кубке?",
+        "en": "Are you disappointing your team's hope for the cup victory?"
+      },
+      "bracket_parts": [
+        "Enttäuscht"
+      ],
+      "akkusativ_parts": [
+        "die Hoffnung eurer Mannschaft"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern enttäuschte der teure Film die hohen Erwartungen der Kritiker.",
+      "translation": {
+        "ru": "Вчера дорогой фильм не оправдал высоких ожиданий критиков.",
+        "en": "Yesterday the expensive film disappointed the critics' high expectations."
+      },
+      "bracket_parts": [
+        "enttäuschte"
+      ],
+      "akkusativ_parts": [
+        "die hohen Erwartungen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die schlechte Leistung im Test hat die strenge Lehrerin sehr enttäuscht.",
+      "translation": {
+        "ru": "Плохой результат в тесте очень разочаровал строгую учительницу.",
+        "en": "The poor performance on the test disappointed the strict teacher greatly."
+      },
+      "bracket_parts": [
+        "hat",
+        "enttäuscht"
+      ],
+      "akkusativ_parts": [
+        "die strenge Lehrerin"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Enttäuschen Sie bitte nicht das in Sie gesetzte Vertrauen!",
+      "translation": {
+        "ru": "Не обманите, пожалуйста, возложенное на вас доверие!",
+        "en": "Please do not disappoint the trust placed in you!"
+      },
+      "bracket_parts": [
+        "Enttäuschen"
+      ],
+      "akkusativ_parts": [
+        "das in Sie gesetzte Vertrauen"
+      ]
+    }
+  ]
+}

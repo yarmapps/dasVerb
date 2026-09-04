@@ -1,0 +1,181 @@
+{
+  "id": "vergleichen",
+  "infinitive": "vergleichen",
+  "translation": {
+    "ru": "сравнивать",
+    "en": "to compare"
+  },
+  "level": "B1",
+  "frequency_rank": 100,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vergleichen",
+    "present_3sg": "vergleicht",
+    "praeteritum_3sg": "verglich",
+    "partizip_2": "verglichen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vergleiche",
+      "du": "vergleichst",
+      "er_sie_es": "vergleicht",
+      "wir": "vergleichen",
+      "ihr": "vergleicht",
+      "sie_Sie": "vergleichen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "verglich",
+      "du": "verglichst",
+      "er_sie_es": "verglich",
+      "wir": "verglichen",
+      "ihr": "verglicht",
+      "sie_Sie": "verglichen"
+    },
+    "imperative": {
+      "du": "vergleich!",
+      "ihr": "vergleicht!",
+      "Sie": "vergleichen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "Preise (Akk) mit anderen Anbietern (Dat) vergleichen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich vergleiche vor jeder größeren Anschaffung die Preise im Internet sehr genau.",
+      "translation": {
+        "ru": "Я перед любой крупной покупкой очень внимательно сравниваю цены в интернете.",
+        "en": "Before any major purchase, I compare prices on the internet very carefully."
+      },
+      "bracket_parts": [
+        "vergleiche"
+      ],
+      "akkusativ_parts": [
+        "die Preise"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Vergleichst du oft die verschiedenen Angebote für Strom und Gas?",
+      "translation": {
+        "ru": "Ты часто сравниваешь различные предложения по электричеству и газу?",
+        "en": "Do you often compare the different offers for electricity and gas?"
+      },
+      "bracket_parts": [
+        "Vergleichst"
+      ],
+      "akkusativ_parts": [
+        "die verschiedenen Angebote"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Wissenschaftler vergleicht die neuen Messergebnisse mit den Daten aus dem Vorjahr.",
+      "translation": {
+        "ru": "Ученый сравнивает новые результаты измерений с данными предыдущего года.",
+        "en": "The scientist compares the new measurement results with the data from the previous year."
+      },
+      "bracket_parts": [
+        "vergleicht"
+      ],
+      "akkusativ_parts": [
+        "die neuen Messergebnisse"
+      ],
+      "dativ_parts": [
+        "mit den Daten"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir vergleichen die beiden Smartphone-Modelle, um das bessere Gerät auszuwählen.",
+      "translation": {
+        "ru": "Мы сравниваем обе модели смартфонов, чтобы выбрать лучшее устройство.",
+        "en": "We compare the two smartphone models in order to select the better device."
+      },
+      "bracket_parts": [
+        "vergleichen"
+      ],
+      "akkusativ_parts": [
+        "die beiden Smartphone-Modelle"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Vergleicht ihr die Konditionen der Banken vor Abschluss eines Kredits?",
+      "translation": {
+        "ru": "Вы сравниваете условия банков перед оформлением кредита?",
+        "en": "Do you compare the terms of the banks before taking out a loan?"
+      },
+      "bracket_parts": [
+        "Vergleicht"
+      ],
+      "akkusativ_parts": [
+        "die Konditionen der Banken"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern verglich sie ausführlich die verschiedenen Vor- und Nachteile beider Stellenangebote.",
+      "translation": {
+        "ru": "Вчера она подробно сравнила различные плюсы и минусы обоих предложений о работе.",
+        "en": "Yesterday she extensively compared the various pros and cons of both job offers."
+      },
+      "bracket_parts": [
+        "verglich"
+      ],
+      "akkusativ_parts": [
+        "die verschiedenen Vor- und Nachteile"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die statistischen Berichte sorgfältig miteinander verglichen.",
+      "translation": {
+        "ru": "Они тщательно сравнили между собой статистические отчеты.",
+        "en": "They carefully compared the statistical reports with one another."
+      },
+      "bracket_parts": [
+        "haben",
+        "verglichen"
+      ],
+      "akkusativ_parts": [
+        "die statistischen Berichte"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Vergleichen Sie bitte die beiden Vertragsentwürfe Zeile für Zeile!",
+      "translation": {
+        "ru": "Сравните, пожалуйста, оба проекта договора строчка за строчкой!",
+        "en": "Please compare the two draft contracts line by line!"
+      },
+      "bracket_parts": [
+        "Vergleichen"
+      ],
+      "akkusativ_parts": [
+        "die beiden Vertragsentwürfe"
+      ]
+    }
+  ]
+}

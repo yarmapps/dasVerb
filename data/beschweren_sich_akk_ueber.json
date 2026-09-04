@@ -1,0 +1,203 @@
+{
+  "id": "beschweren_sich_akk_ueber",
+  "infinitive": "sich beschweren",
+  "translation": {
+    "ru": "жаловаться (на что-то/кого-то)",
+    "en": "to complain (about something/someone)"
+  },
+  "level": "B1",
+  "frequency_rank": 210,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich beschweren",
+    "present_3sg": "beschwert sich",
+    "praeteritum_3sg": "beschwerte sich",
+    "partizip_2": "beschwert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beschwere mich",
+      "du": "beschwerst dich",
+      "er_sie_es": "beschwert sich",
+      "wir": "beschweren uns",
+      "ihr": "beschwert euch",
+      "sie_Sie": "beschweren sich",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "beschwerte mich",
+      "du": "beschwertest dich",
+      "er_sie_es": "beschwerte sich",
+      "wir": "beschwerten uns",
+      "ihr": "beschwertet euch",
+      "sie_Sie": "beschwerten sich"
+    },
+    "imperative": {
+      "du": "beschwer dich!",
+      "ihr": "beschwert euch!",
+      "Sie": "beschweren Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich über den ständigen Lärm (Akk) beschweren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich beschwere mich beim Kundenservice über die fehlerhafte Rechnung.",
+      "translation": {
+        "ru": "Я жалуюсь в службу поддержки на ошибочный счет.",
+        "en": "I am complaining to customer service about the incorrect bill."
+      },
+      "bracket_parts": [
+        "beschwere"
+      ],
+      "akkusativ_parts": [
+        "mich",
+        "über die fehlerhafte Rechnung"
+      ],
+      "dativ_parts": [
+        "beim Kundenservice"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Beschwerst du dich beim Vermieter über die kaputte Heizung im Winter?",
+      "translation": {
+        "ru": "Ты пожалуешься арендодателю на сломанное отопление зимой?",
+        "en": "Are you complaining to the landlord about the broken heating in winter?"
+      },
+      "bracket_parts": [
+        "Beschwerst"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "über die kaputte Heizung"
+      ],
+      "dativ_parts": [
+        "beim Vermieter"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Nachbar beschwert sich regelmäßig über die laute Musik am Wochenende.",
+      "translation": {
+        "ru": "Сосед регулярно жалуется на громкую музыку по выходным.",
+        "en": "The neighbour regularly complains about the loud music at the weekend."
+      },
+      "bracket_parts": [
+        "beschwert"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "über die laute Musik"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beschweren uns beim Reiseveranstalter über die schlechte Organisation der Tour.",
+      "translation": {
+        "ru": "Мы жалуемся туроператору на плохую организацию тура.",
+        "en": "We are complaining to the tour operator about the poor organisation of the tour."
+      },
+      "bracket_parts": [
+        "beschweren"
+      ],
+      "akkusativ_parts": [
+        "uns",
+        "über die schlechte Organisation"
+      ],
+      "dativ_parts": [
+        "beim Reiseveranstalter"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Beschwert ihr euch bei der Schulleitung über die überfüllten Busse?",
+      "translation": {
+        "ru": "Вы пожалуетесь руководству школы на переполненные автобусы?",
+        "en": "Are you complaining to the school management about the overcrowded buses?"
+      },
+      "bracket_parts": [
+        "Beschwert"
+      ],
+      "akkusativ_parts": [
+        "euch",
+        "über die überfüllten Busse"
+      ],
+      "dativ_parts": [
+        "bei der Schulleitung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern beschwerte sie sich im Hotel über das kalte Wasser in der Dusche.",
+      "translation": {
+        "ru": "Вчера она пожаловалась в отеле на холодную воду в душе.",
+        "en": "Yesterday she complained in the hotel about the cold water in the shower."
+      },
+      "bracket_parts": [
+        "beschwerte"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "über das kalte Wasser"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Mehrere Gäste haben sich beim Kellner über das versalzene Essen beschwert.",
+      "translation": {
+        "ru": "Несколько гостей пожаловались официанту на пересоленную еду.",
+        "en": "Several guests complained to the waiter about the oversalted food."
+      },
+      "bracket_parts": [
+        "haben",
+        "beschwert"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "über das versalzene Essen"
+      ],
+      "dativ_parts": [
+        "beim Kellner"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Beschweren Sie sich bitte schriftlich bei der Geschäftsleitung!",
+      "translation": {
+        "ru": "Пожалуйтесь, пожалуйста, письменно руководству компании!",
+        "en": "Please complain in writing to the management!"
+      },
+      "bracket_parts": [
+        "Beschweren"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "bei der Geschäftsleitung"
+      ]
+    }
+  ]
+}

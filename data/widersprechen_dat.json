@@ -1,0 +1,178 @@
+{
+  "id": "widersprechen_dat",
+  "infinitive": "widersprechen",
+  "translation": {
+    "ru": "возражать, противоречить",
+    "en": "to contradict, to object to"
+  },
+  "level": "B1",
+  "frequency_rank": 280,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "wider",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "widersprechen",
+    "present_3sg": "widerspricht",
+    "praeteritum_3sg": "widersprach",
+    "partizip_2": "widersprochen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "widerspreche",
+      "du": "widersprichst",
+      "er_sie_es": "widerspricht",
+      "wir": "widersprechen",
+      "ihr": "widersprecht",
+      "sie_Sie": "widersprechen",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "widersprach",
+      "du": "widersprachst",
+      "er_sie_es": "widersprach",
+      "wir": "widersprachen",
+      "ihr": "widerspracht",
+      "sie_Sie": "widersprachen"
+    },
+    "imperative": {
+      "du": "widersprich!",
+      "ihr": "widersprecht!",
+      "Sie": "widersprechen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "der Aussage des Zeugen (Dat) widersprechen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich widerspreche deiner gewagten These in diesem Punkt ganz entschieden.",
+      "translation": {
+        "ru": "Я в этом пункте совершенно решительно возражаю против твоего смелого тезиса.",
+        "en": "I contradict your daring thesis on this point quite decidedly."
+      },
+      "bracket_parts": [
+        "widerspreche"
+      ],
+      "dativ_parts": [
+        "deiner gewagten These"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Widersprichst du dem erfahrenen Abteilungsleiter bei solchen Entscheidungen nie?",
+      "translation": {
+        "ru": "Ты никогда не возражаешь опытному руководителю отдела при таких решениях?",
+        "en": "Do you never contradict the experienced head of department on such decisions?"
+      },
+      "bracket_parts": [
+        "Widersprichst"
+      ],
+      "dativ_parts": [
+        "dem erfahrenen Abteilungsleiter"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das neue Untersuchungsergebnis widerspricht den bisherigen wissenschaftlichen Annahmen.",
+      "translation": {
+        "ru": "Новый результат исследования противоречит прежним научным предположениям.",
+        "en": "The new investigation result contradicts previous scientific assumptions."
+      },
+      "bracket_parts": [
+        "widerspricht"
+      ],
+      "dativ_parts": [
+        "den bisherigen wissenschaftlichen Annahmen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir widersprechen der unfairen Kritik an unserer geleisteten Arbeit.",
+      "translation": {
+        "ru": "Мы возражаем против несправедливой критики нашей проделанной работы.",
+        "en": "We object to the unfair criticism of our accomplished work."
+      },
+      "bracket_parts": [
+        "widersprechen"
+      ],
+      "dativ_parts": [
+        "der unfairen Kritik"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Widersprecht ihr den unbegründeten Vorwürfen des Nachbarn vor Gericht?",
+      "translation": {
+        "ru": "Вы возражаете против необоснованных обвинений соседа в суде?",
+        "en": "Are you contesting the neighbour's unfounded accusations in court?"
+      },
+      "bracket_parts": [
+        "Widersprecht"
+      ],
+      "dativ_parts": [
+        "den unbegründeten Vorwürfen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern widersprach der mutige Bürger dem falschen Bericht in der Zeitung.",
+      "translation": {
+        "ru": "Вчера смелый гражданин возразил против ложного отчета в газете.",
+        "en": "Yesterday the brave citizen contradicted the false report in the newspaper."
+      },
+      "bracket_parts": [
+        "widersprach"
+      ],
+      "dativ_parts": [
+        "dem falschen Bericht"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Mehrere Fachleute haben der Darstellung des Ministers öffentlich widersprochen.",
+      "translation": {
+        "ru": "Несколько специалистов публично возразили версии министра.",
+        "en": "Several experts publicly contradicted the minister's account."
+      },
+      "bracket_parts": [
+        "haben",
+        "widersprochen"
+      ],
+      "dativ_parts": [
+        "der Darstellung des Ministers"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Widersprechen Sie falschen Gerüchten bitte immer mit belegten Tatsachen!",
+      "translation": {
+        "ru": "Возражайте ложным слухам, пожалуйста, всегда подтвержденными фактами!",
+        "en": "Please always counter false rumours with proven facts!"
+      },
+      "bracket_parts": [
+        "Widersprechen"
+      ],
+      "dativ_parts": [
+        "falschen Gerüchten"
+      ]
+    }
+  ]
+}

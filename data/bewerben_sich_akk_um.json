@@ -1,0 +1,187 @@
+{
+  "id": "bewerben_sich_akk_um",
+  "infinitive": "sich bewerben",
+  "translation": {
+    "ru": "подавать заявку, претендовать (на должность, вакансию)",
+    "en": "to apply (for a job/position)"
+  },
+  "level": "B1",
+  "frequency_rank": 240,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich bewerben",
+    "present_3sg": "bewirbt sich",
+    "praeteritum_3sg": "bewarb sich",
+    "partizip_2": "beworben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bewerbe mich",
+      "du": "bewirbst dich",
+      "er_sie_es": "bewirbt sich",
+      "wir": "bewerben uns",
+      "ihr": "bewerbt euch",
+      "sie_Sie": "bewerben sich",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "bewarb mich",
+      "du": "bewarbst dich",
+      "er_sie_es": "bewarb sich",
+      "wir": "bewarben uns",
+      "ihr": "bewarbt euch",
+      "sie_Sie": "bewarben sich"
+    },
+    "imperative": {
+      "du": "bewirb dich!",
+      "ihr": "bewerbt euch!",
+      "Sie": "bewerben Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "um",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich um einen interessanten Arbeitsplatz (Akk) bewerben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich bewerbe mich heute um eine attraktive Stelle im Marketingbereich.",
+      "translation": {
+        "ru": "Я подаю сегодня заявку на привлекательную должность в сфере маркетинга.",
+        "en": "I am applying today for an attractive position in marketing."
+      },
+      "bracket_parts": [
+        "bewerbe"
+      ],
+      "akkusativ_parts": [
+        "mich",
+        "um eine attraktive Stelle"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Bewirbst du dich nach dem Abschluss um einen Studienplatz in Heidelberg?",
+      "translation": {
+        "ru": "Ты подашь после выпуска заявку на учебное место в Гейдельберге?",
+        "en": "Are you applying for a university place in Heidelberg after graduation?"
+      },
+      "bracket_parts": [
+        "Bewirbst"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "um einen Studienplatz"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die qualifizierte Ingenieurin bewirbt sich bei einem führenden Technologiekonzern.",
+      "translation": {
+        "ru": "Квалифицированный инженер подает заявление о приеме на работу в ведущий технологический концерн.",
+        "en": "The qualified engineer is applying to a leading technology group."
+      },
+      "bracket_parts": [
+        "bewirbt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "bei einem führenden Technologiekonzern"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir bewerben uns als Team um das begehrte Stipendium der Stiftung.",
+      "translation": {
+        "ru": "Мы как команда претендуем на заветную стипендию фонда.",
+        "en": "As a team, we are applying for the coveted scholarship from the foundation."
+      },
+      "bracket_parts": [
+        "bewerben"
+      ],
+      "akkusativ_parts": [
+        "uns",
+        "um das begehrte Stipendium"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bewerbt ihr euch dieses Jahr um die begehrten Praktikumsplätze im Auswärtigen Amt?",
+      "translation": {
+        "ru": "Вы претендуете в этом году на желанные места стажировки в министерстве иностранных дел?",
+        "en": "Are you applying for the coveted internships at the Foreign Office this year?"
+      },
+      "bracket_parts": [
+        "Bewerbt"
+      ],
+      "akkusativ_parts": [
+        "euch",
+        "um die begehrten Praktikumsplätze"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern bewarb sie sich kurz vor Fristende um das internationale Förderprogramm.",
+      "translation": {
+        "ru": "Вчера незадолго до окончания срока она подала заявку на международную программу поддержки.",
+        "en": "Yesterday shortly before the deadline she applied for the international grant programme."
+      },
+      "bracket_parts": [
+        "bewarb"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "um das internationale Förderprogramm"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Hunderte Kandidaten haben sich um die freie Führungsposition beworben.",
+      "translation": {
+        "ru": "Сотни кандидатов претендовали на открытую руководящую должность.",
+        "en": "Hundreds of candidates applied for the vacant management position."
+      },
+      "bracket_parts": [
+        "haben",
+        "beworben"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "um die freie Führungsposition"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Bewerben Sie sich bitte online über unser Karriereportal!",
+      "translation": {
+        "ru": "Подавайте, пожалуйста, заявку онлайн через наш карьерный портал!",
+        "en": "Please apply online via our career portal!"
+      },
+      "bracket_parts": [
+        "Bewerben"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    }
+  ]
+}

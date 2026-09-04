@@ -1,0 +1,178 @@
+{
+  "id": "verpassen",
+  "infinitive": "verpassen",
+  "translation": {
+    "ru": "пропускать, опаздывать (на поезд, встречу)",
+    "en": "to miss (train, opportunity)"
+  },
+  "level": "B1",
+  "frequency_rank": 225,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verpassen",
+    "present_3sg": "verpasst",
+    "praeteritum_3sg": "verpasste",
+    "partizip_2": "verpasst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verpasse",
+      "du": "verpasst",
+      "er_sie_es": "verpasst",
+      "wir": "verpassen",
+      "ihr": "verpasst",
+      "sie_Sie": "verpassen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "verpasste",
+      "du": "verpasstest",
+      "er_sie_es": "verpasste",
+      "wir": "verpassten",
+      "ihr": "verpasstet",
+      "sie_Sie": "verpassten"
+    },
+    "imperative": {
+      "du": "verpass!",
+      "ihr": "verpasst!",
+      "Sie": "verpassen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "den Zug / eine Chance (Akk) verpassen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verpasse morgens wegen des dichten Verkehrs oft meinen Anschlussbus.",
+      "translation": {
+        "ru": "Я по утрам из-за плотного дорожного движения часто опаздываю на свой пересадочный автобус.",
+        "en": "In the morning I often miss my connecting bus because of heavy traffic."
+      },
+      "bracket_parts": [
+        "verpasse"
+      ],
+      "akkusativ_parts": [
+        "meinen Anschlussbus"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verpasst du wegen dieser Verzögerung nicht deinen Flug nach London?",
+      "translation": {
+        "ru": "Разве ты не опоздаешь из-за этой задержки на свой рейс в Лондон?",
+        "en": "Won't you miss your flight to London because of this delay?"
+      },
+      "bracket_parts": [
+        "Verpasst"
+      ],
+      "akkusativ_parts": [
+        "deinen Flug"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Wer nicht aufmerksam ist, verpasst im Leben leicht eine einmalige Chance.",
+      "translation": {
+        "ru": "Кто невнимателен, легко упускает в жизни уникальный шанс.",
+        "en": "Whoever is not attentive easily misses a unique opportunity in life."
+      },
+      "bracket_parts": [
+        "verpasst"
+      ],
+      "akkusativ_parts": [
+        "eine einmalige Chance"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verpassen die ersten zwanzig Minuten des Films, wenn wir uns nicht beeilen.",
+      "translation": {
+        "ru": "Мы пропустим первые двадцать минут фильма, если не поторопимся.",
+        "en": "We will miss the first twenty minutes of the movie if we do not hurry."
+      },
+      "bracket_parts": [
+        "verpassen"
+      ],
+      "akkusativ_parts": [
+        "die ersten zwanzig Minuten"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verpasst ihr durch die späte Abfahrt nicht den wichtigen Anschlusszug?",
+      "translation": {
+        "ru": "Разве вы из-за позднего выезда не опоздаете на важный стыковочный поезд?",
+        "en": "Won't you miss the important connecting train due to the late departure?"
+      },
+      "bracket_parts": [
+        "Verpasst"
+      ],
+      "akkusativ_parts": [
+        "den wichtigen Anschlusszug"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern verpasste sie durch einen Stau auf der Autobahn den Beginn der Konferenz.",
+      "translation": {
+        "ru": "Вчера из-за пробки на автобане она пропустила начало конференции.",
+        "en": "Yesterday she missed the start of the conference due to a traffic jam on the motorway."
+      },
+      "bracket_parts": [
+        "verpasste"
+      ],
+      "akkusativ_parts": [
+        "den Beginn"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben den letzten Zug nach Hause um wenige Sekunden verpasst.",
+      "translation": {
+        "ru": "Они опоздали на последний поезд домой на считанные секунды.",
+        "en": "They missed the last train home by a few seconds."
+      },
+      "bracket_parts": [
+        "haben",
+        "verpasst"
+      ],
+      "akkusativ_parts": [
+        "den letzten Zug"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verpassen Sie auf keinen Fall diese einmalige Gelegenheit!",
+      "translation": {
+        "ru": "Ни в коем случае не упустите эту уникальную возможность!",
+        "en": "Do not miss this unique opportunity under any circumstances!"
+      },
+      "bracket_parts": [
+        "Verpassen"
+      ],
+      "akkusativ_parts": [
+        "diese einmalige Gelegenheit"
+      ]
+    }
+  ]
+}

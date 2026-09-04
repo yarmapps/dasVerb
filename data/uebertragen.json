@@ -1,0 +1,181 @@
+{
+  "id": "uebertragen",
+  "infinitive": "übertragen",
+  "translation": {
+    "ru": "передавать (полномочия, болезнь, сигнал), транслировать",
+    "en": "to transfer, to transmit, to broadcast"
+  },
+  "level": "B2",
+  "frequency_rank": 325,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "über",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "übertragen",
+    "present_3sg": "überträgt",
+    "praeteritum_3sg": "übertrug",
+    "partizip_2": "übertragen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "übertrage",
+      "du": "überträgst",
+      "er_sie_es": "überträgt",
+      "wir": "übertragen",
+      "ihr": "übertragt",
+      "sie_Sie": "übertragen",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "übertrug",
+      "du": "übertrugst",
+      "er_sie_es": "übertrug",
+      "wir": "übertrugen",
+      "ihr": "übertrugt",
+      "sie_Sie": "übertrugen"
+    },
+    "imperative": {
+      "du": "übertrag!",
+      "ihr": "übertragt!",
+      "Sie": "übertragen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine verantwortungsvolle Aufgabe (Akk) übertragen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich übertrage die gesammelten Umfragedaten gewissenhaft in die zentrale Datenbank.",
+      "translation": {
+        "ru": "Я добросовестно переношу собранные данные опроса в центральную базу данных.",
+        "en": "I conscientiously transfer the collected survey data into the central database."
+      },
+      "bracket_parts": [
+        "übertrage"
+      ],
+      "akkusativ_parts": [
+        "die gesammelten Umfragedaten"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Überträgst du diese anspruchsvolle Führungsaufgabe wirklich deinem jüngsten Mitarbeiter?",
+      "translation": {
+        "ru": "Неужели ты поручишь эту сложную руководящую задачу своему самому молодому сотруднику?",
+        "en": "Are you really delegating this demanding leadership task to your youngest employee?"
+      },
+      "bracket_parts": [
+        "Überträgst"
+      ],
+      "akkusativ_parts": [
+        "diese anspruchsvolle Führungsaufgabe"
+      ],
+      "dativ_parts": [
+        "deinem jüngsten Mitarbeiter"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der öffentlich-rechtliche Sender überträgt das Finale der Fußball-Weltmeisterschaft live.",
+      "translation": {
+        "ru": "Общественно-правовой телеканал транслирует финал чемпионата мира по футболу в прямом эфире.",
+        "en": "The public broadcaster is televising the final of the football World Cup live."
+      },
+      "bracket_parts": [
+        "überträgt"
+      ],
+      "akkusativ_parts": [
+        "das Finale"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir übertragen bewährte Methoden aus der Industrie erfolgreich auf den Bildungsbereich.",
+      "translation": {
+        "ru": "Мы успешно переносим проверенные методы из промышленности в сферу образования.",
+        "en": "We successfully transfer proven methods from industry to the education sector."
+      },
+      "bracket_parts": [
+        "übertragen"
+      ],
+      "akkusativ_parts": [
+        "bewährte Methoden"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Übertragt ihr das Konzert eurer Band heute Abend auch live auf Social Media?",
+      "translation": {
+        "ru": "Транслируете ли вы концерт вашей группы сегодня вечером также в прямом эфире в соцсетях?",
+        "en": "Are you also broadcasting your band's concert live on social media tonight?"
+      },
+      "bracket_parts": [
+        "Übertragt"
+      ],
+      "akkusativ_parts": [
+        "das Konzert eurer Band"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern übertrug der erkrankte Bürgermeister die Amtsgeschäfte vorübergehend an seine Stellvertreterin.",
+      "translation": {
+        "ru": "Вчера заболевший мэр временно передал служебные дела своей заместительнице.",
+        "en": "Yesterday the sick mayor temporarily transferred official business to his deputy."
+      },
+      "bracket_parts": [
+        "übertrug"
+      ],
+      "akkusativ_parts": [
+        "die Amtsgeschäfte"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Insekten haben das gefährliche Virus in den heißen Sommermonaten rasch übertragen.",
+      "translation": {
+        "ru": "Насекомые в жаркие летние месяцы быстро перенесли опасный вирус.",
+        "en": "Insects rapidly transmitted the dangerous virus during the hot summer months."
+      },
+      "bracket_parts": [
+        "haben",
+        "übertragen"
+      ],
+      "akkusativ_parts": [
+        "das gefährliche Virus"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Übertragen Sie die Ergebnisse bitte vollständig in die offizielle Tabelle!",
+      "translation": {
+        "ru": "Перенесите результаты, пожалуйста, полностью в официальную таблицу!",
+        "en": "Please transfer the results completely into the official table!"
+      },
+      "bracket_parts": [
+        "Übertragen"
+      ],
+      "akkusativ_parts": [
+        "die Ergebnisse"
+      ]
+    }
+  ]
+}

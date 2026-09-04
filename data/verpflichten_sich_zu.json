@@ -1,0 +1,202 @@
+{
+  "id": "verpflichten_sich_zu",
+  "infinitive": "sich verpflichten",
+  "translation": {
+    "ru": "обязываться, брать на себя обязательство",
+    "en": "to commit oneself to, to undertake to"
+  },
+  "level": "B2",
+  "frequency_rank": 314,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich verpflichten",
+    "present_3sg": "verpflichtet sich",
+    "praeteritum_3sg": "verpflichtete sich",
+    "partizip_2": "verpflichtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verpflichte mich",
+      "du": "verpflichtest dich",
+      "er_sie_es": "verpflichtet sich",
+      "wir": "verpflichten uns",
+      "ihr": "verpflichtet euch",
+      "sie_Sie": "verpflichten sich",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "verpflichtete mich",
+      "du": "verpflichtetest dich",
+      "er_sie_es": "verpflichtete sich",
+      "wir": "verpflichteten uns",
+      "ihr": "verpflichtetet euch",
+      "sie_Sie": "verpflichteten sich"
+    },
+    "imperative": {
+      "du": "verpflichte dich!",
+      "ihr": "verpflichtet euch!",
+      "Sie": "verpflichten Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "zu",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "sich zur Verschwiegenheit (Dat) vertraglich verpflichten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verpflichte mich im Arbeitsvertrag ausdrücklich zur absoluten Verschwiegenheit über interne Daten.",
+      "translation": {
+        "ru": "В трудовом договоре я прямо обязуюсь сохранять абсолютную конфиденциальность внутренних данных.",
+        "en": "In the employment contract I explicitly commit myself to absolute confidentiality regarding internal data."
+      },
+      "bracket_parts": [
+        "verpflichte"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": [
+        "zur absoluten Verschwiegenheit"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verpflichtest du dich mit deiner Unterschrift zur regelmäßigen Zahlung der Vereinsbeiträge?",
+      "translation": {
+        "ru": "Обязуешься ли ты своей подписью регулярно выплачивать членские взносы в клуб?",
+        "en": "Do you commit yourself with your signature to the regular payment of membership fees?"
+      },
+      "bracket_parts": [
+        "Verpflichtest"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "zur regelmäßigen Zahlung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Bauunternehmer verpflichtet sich vertraglich zur pünktlichen Fertigstellung des Gebäudes.",
+      "translation": {
+        "ru": "Застройщик по договору обязуется своевременно завершить строительство здания.",
+        "en": "The building contractor contractually commits himself to the punctual completion of the building."
+      },
+      "bracket_parts": [
+        "verpflichtet"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "zur pünktlichen Fertigstellung"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verpflichten uns als Gemeinschaft zur Einhaltung aller vereinbarten Umweltstandards.",
+      "translation": {
+        "ru": "Мы как сообщество берем на себя обязательство соблюдать все согласованные экологические стандарты.",
+        "en": "As a community, we commit ourselves to complying with all agreed environmental standards."
+      },
+      "bracket_parts": [
+        "verpflichten"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ],
+      "dativ_parts": [
+        "zur Einhaltung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verpflichtet ihr euch beim Beitritt zur freiwilligen Feuerwehr zu regelmäßigen Übungen?",
+      "translation": {
+        "ru": "Берете ли вы на себя обязательство при вступлении в добровольную пожарную дружину регулярно тренироваться?",
+        "en": "When joining the voluntary fire brigade, do you commit yourselves to regular drills?"
+      },
+      "bracket_parts": [
+        "Verpflichtet"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ],
+      "dativ_parts": [
+        "zu regelmäßigen Übungen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern verpflichtete sich die Stadtverwaltung zur schnellen Beseitigung der Straßenschäden.",
+      "translation": {
+        "ru": "Вчера городская администрация обязалась быстро устранить повреждения дорог.",
+        "en": "Yesterday the city administration committed itself to the prompt elimination of road damage."
+      },
+      "bracket_parts": [
+        "verpflichtete"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "zur schnellen Beseitigung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Alle beteiligten Staaten haben sich auf dem Gipfel zur drastischen Senkung der Emissionen verpflichtet.",
+      "translation": {
+        "ru": "Все участвующие государства на саммите обязались резко снизить выбросы.",
+        "en": "At the summit, all participating countries committed themselves to drastically reducing emissions."
+      },
+      "bracket_parts": [
+        "haben",
+        "verpflichtet"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "zur drastischen Senkung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verpflichten Sie sich bitte stets zur wahrheitsgemäßen Auskunft vor Gericht!",
+      "translation": {
+        "ru": "Обязуйтесь, пожалуйста, всегда давать правдивые показания в суде!",
+        "en": "Please always commit yourself to truthful testimony in court!"
+      },
+      "bracket_parts": [
+        "Verpflichten"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "zur wahrheitsgemäßen Auskunft"
+      ]
+    }
+  ]
+}

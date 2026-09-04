@@ -1,0 +1,161 @@
+{
+  "id": "einschlafen",
+  "infinitive": "einschlafen",
+  "translation": {
+    "ru": "засыпать",
+    "en": "to fall asleep"
+  },
+  "level": "A2",
+  "frequency_rank": 275,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einschlafen",
+    "present_3sg": "schläft ein",
+    "praeteritum_3sg": "schlief ein",
+    "partizip_2": "eingeschlafen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schlafe ein",
+      "du": "schläfst ein",
+      "er_sie_es": "schläft ein",
+      "wir": "schlafen ein",
+      "ihr": "schlaft ein",
+      "sie_Sie": "schlafen ein",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "schlief ein",
+      "du": "schliefst ein",
+      "er_sie_es": "schlief ein",
+      "wir": "schliefen ein",
+      "ihr": "schlieft ein",
+      "sie_Sie": "schliefen ein"
+    },
+    "imperative": {
+      "du": "schlaf ein!",
+      "ihr": "schlaft ein!",
+      "Sie": "schlafen Sie ein!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "schnell / vor dem Fernseher einschlafen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich schlafe nach einem langen Arbeitstag meistens sehr schnell ein.",
+      "translation": {
+        "ru": "После долгого рабочего дня я обычно засыпаю очень быстро.",
+        "en": "After a long working day I usually fall asleep very quickly."
+      },
+      "bracket_parts": [
+        "schlafe",
+        "ein"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Schläfst du bei leiser Musik am Abend besser ein als in völliger Stille?",
+      "translation": {
+        "ru": "Ты засыпаешь под тихую музыку вечером лучше, чем в полной тишине?",
+        "en": "Do you fall asleep better with quiet music in the evening than in total silence?"
+      },
+      "bracket_parts": [
+        "Schläfst",
+        "ein"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das müde Kind schläft beim Vorlesen der Gutenachtgeschichte ruhig ein.",
+      "translation": {
+        "ru": "Уставший ребенок спокойно засыпает во время чтения сказки на ночь.",
+        "en": "The tired child falls asleep quietly while reading the bedtime story."
+      },
+      "bracket_parts": [
+        "schläft",
+        "ein"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir schlafen im bequemen Hotelbett nach der Wanderung sofort ein.",
+      "translation": {
+        "ru": "Мы в удобной кровати отеля после похода сразу засыпаем.",
+        "en": "We fall asleep immediately in the comfortable hotel bed after the hike."
+      },
+      "bracket_parts": [
+        "schlafen",
+        "ein"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Schlaft ihr bei offenem Fenster im Sommer auch so gut ein?",
+      "translation": {
+        "ru": "Вы при открытом окне летом тоже так хорошо засыпаете?",
+        "en": "Do you also fall asleep so well with the window open in summer?"
+      },
+      "bracket_parts": [
+        "Schlaft",
+        "ein"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern schlief sie vor großer Erschöpfung schon um neun Uhr abends ein.",
+      "translation": {
+        "ru": "Вчера от сильного истощения она уснула уже в девять вечера.",
+        "en": "Yesterday from sheer exhaustion she fell asleep at nine o'clock in the evening already."
+      },
+      "bracket_parts": [
+        "schlief",
+        "ein"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die erschöpften Wanderer sind gestern im Zelt sofort tief eingeschlafen.",
+      "translation": {
+        "ru": "Уставшие туристы вчера в палатке сразу глубоко уснули.",
+        "en": "The exhausted hikers immediately fell deeply asleep in the tent yesterday."
+      },
+      "bracket_parts": [
+        "sind",
+        "eingeschlafen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Schlaf gut ein und träum etwas Schönes!",
+      "translation": {
+        "ru": "Засыпай хорошо и пусть тебе приснится что-нибудь приятное!",
+        "en": "Fall asleep well and dream something nice!"
+      },
+      "bracket_parts": [
+        "Schlaf",
+        "ein"
+      ]
+    }
+  ]
+}

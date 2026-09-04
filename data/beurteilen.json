@@ -1,0 +1,178 @@
+{
+  "id": "beurteilen",
+  "infinitive": "beurteilen",
+  "translation": {
+    "ru": "оценивать, судить о чем-то",
+    "en": "to assess, to judge"
+  },
+  "level": "B2",
+  "frequency_rank": 195,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beurteilen",
+    "present_3sg": "beurteilt",
+    "praeteritum_3sg": "beurteilte",
+    "partizip_2": "beurteilt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beurteile",
+      "du": "beurteilst",
+      "er_sie_es": "beurteilt",
+      "wir": "beurteilen",
+      "ihr": "beurteilt",
+      "sie_Sie": "beurteilen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "beurteilte",
+      "du": "beurteiltest",
+      "er_sie_es": "beurteilte",
+      "wir": "beurteilten",
+      "ihr": "beurteiltet",
+      "sie_Sie": "beurteilten"
+    },
+    "imperative": {
+      "du": "beurteil!",
+      "ihr": "beurteilt!",
+      "Sie": "beurteilen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Situation / die Leistung (Akk) objektiv beurteilen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich beurteile die fachliche Leistung meiner Mitarbeiter stets fair und transparent.",
+      "translation": {
+        "ru": "Я оцениваю профессиональные результаты своих сотрудников всегда справедливо и прозрачно.",
+        "en": "I always assess the professional performance of my employees fairly and transparently."
+      },
+      "bracket_parts": [
+        "beurteile"
+      ],
+      "akkusativ_parts": [
+        "die fachliche Leistung meiner Mitarbeiter"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Beurteilst du das neue Theaterstück nach der gestrigen Premiere positiv oder kritisch?",
+      "translation": {
+        "ru": "Ты оцениваешь новую пьесу после вчерашней премьеры положительно или критически?",
+        "en": "Do you judge the new play positively or critically after yesterday's premiere?"
+      },
+      "bracket_parts": [
+        "Beurteilst"
+      ],
+      "akkusativ_parts": [
+        "das neue Theaterstück"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die unabhängige Kommission beurteilt die Umweltauswirkungen des Großprojekts sehr streng.",
+      "translation": {
+        "ru": "Независимая комиссия очень строго оценивает экологические последствия масштабного проекта.",
+        "en": "The independent commission assesses the environmental impact of the major project very strictly."
+      },
+      "bracket_parts": [
+        "beurteilt"
+      ],
+      "akkusativ_parts": [
+        "die Umweltauswirkungen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beurteilen die Chancen auf einen Wahlsieg angesichts der Umfragen vorsichtig optimistisch.",
+      "translation": {
+        "ru": "В свете опросов мы оцениваем шансы на победу в выборах с осторожным оптимизмом.",
+        "en": "In light of the polls, we assess the chances of an election victory with cautious optimism."
+      },
+      "bracket_parts": [
+        "beurteilen"
+      ],
+      "akkusativ_parts": [
+        "die Chancen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Beurteilt ihr die wirtschaftliche Lage eurer Branche zurzeit eher zurückhaltend?",
+      "translation": {
+        "ru": "Вы оцениваете экономическую ситуацию в вашей отрасли в настоящее время скорее сдержанно?",
+        "en": "Do you currently assess the economic situation in your industry rather cautiously?"
+      },
+      "bracket_parts": [
+        "Beurteilt"
+      ],
+      "akkusativ_parts": [
+        "die wirtschaftliche Lage"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern beurteilte die renommierte Kritikerin das Werk des jungen Schriftstellers wohlwollend.",
+      "translation": {
+        "ru": "Вчера авторитетный критик благосклонно оценила произведение молодого писателя.",
+        "en": "Yesterday the renowned critic judged the young writer's work benevolently."
+      },
+      "bracket_parts": [
+        "beurteilte"
+      ],
+      "akkusativ_parts": [
+        "das Werk des jungen Schriftstellers"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Mehrere Fachärzte haben den Zustand des verletzten Patienten übereinstimmend beurteilt.",
+      "translation": {
+        "ru": "Несколько врачей-специалистов единодушно оценили состояние пострадавшего пациента.",
+        "en": "Several medical specialists assessed the injured patient's condition consistently."
+      },
+      "bracket_parts": [
+        "haben",
+        "beurteilt"
+      ],
+      "akkusativ_parts": [
+        "den Zustand des verletzten Patienten"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Beurteilen Sie Menschen bitte nach ihren Taten und nicht nach Vorurteilen!",
+      "translation": {
+        "ru": "Судите о людях, пожалуйста, по их поступкам, а не по предрассудкам!",
+        "en": "Please judge people by their actions and not by prejudices!"
+      },
+      "bracket_parts": [
+        "Beurteilen"
+      ],
+      "akkusativ_parts": [
+        "Menschen"
+      ]
+    }
+  ]
+}

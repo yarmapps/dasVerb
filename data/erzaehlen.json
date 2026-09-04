@@ -1,0 +1,196 @@
+{
+  "id": "erzaehlen",
+  "infinitive": "erzählen",
+  "translation": {
+    "ru": "рассказывать",
+    "en": "to tell, to narrate"
+  },
+  "level": "A2",
+  "frequency_rank": 50,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erzählen",
+    "present_3sg": "erzählt",
+    "praeteritum_3sg": "erzählte",
+    "partizip_2": "erzählt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erzähle",
+      "du": "erzählst",
+      "er_sie_es": "erzählt",
+      "wir": "erzählen",
+      "ihr": "erzählt",
+      "sie_Sie": "erzählen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "erzählte",
+      "du": "erzähltest",
+      "er_sie_es": "erzählte",
+      "wir": "erzählten",
+      "ihr": "erzähltet",
+      "sie_Sie": "erzählten"
+    },
+    "imperative": {
+      "du": "erzähl!",
+      "ihr": "erzählt!",
+      "Sie": "erzählen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ + Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemandem (Dat) eine Geschichte (Akk) erzählen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erzähle dir heute eine spannende Geschichte aus meinem Urlaub.",
+      "translation": {
+        "ru": "Я расскажу тебе сегодня захватывающую историю из моего отпуска.",
+        "en": "I will tell you an exciting story from my vacation today."
+      },
+      "bracket_parts": [
+        "erzähle"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "eine spannende Geschichte"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erzählst du mir bitte, warum du gestern so spät warst?",
+      "translation": {
+        "ru": "Расскажи мне, пожалуйста, почему ты вчера так опоздал?",
+        "en": "Will you please tell me why you were so late yesterday?"
+      },
+      "bracket_parts": [
+        "Erzählst"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Großvater erzählt den kleinen Kindern gerne alte Märchen.",
+      "translation": {
+        "ru": "Дедушка с удовольствием рассказывает маленьким детям старые сказки.",
+        "en": "The grandfather likes telling the little children old fairy tales."
+      },
+      "bracket_parts": [
+        "erzählt"
+      ],
+      "dativ_parts": [
+        "den kleinen Kindern"
+      ],
+      "akkusativ_parts": [
+        "alte Märchen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erzählen unseren Freunden immer die Wahrheit über unsere Pläne.",
+      "translation": {
+        "ru": "Мы всегда рассказываем нашим друзьям правду о наших планах.",
+        "en": "We always tell our friends the truth about our plans."
+      },
+      "bracket_parts": [
+        "erzählen"
+      ],
+      "dativ_parts": [
+        "unseren Freunden"
+      ],
+      "akkusativ_parts": [
+        "die Wahrheit"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erzählt ihr euren Eltern alles von der gestrigen Party?",
+      "translation": {
+        "ru": "Вы расскажете своим родителям всё о вчерашней вечеринке?",
+        "en": "Are you telling your parents everything about yesterday's party?"
+      },
+      "bracket_parts": [
+        "Erzählt"
+      ],
+      "dativ_parts": [
+        "euren Eltern"
+      ],
+      "akkusativ_parts": [
+        "alles"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern erzählte sie der Lehrerin den wahren Grund für das Fehlen.",
+      "translation": {
+        "ru": "Вчера она рассказала учительнице истинную причину отсутствия.",
+        "en": "Yesterday she told the teacher the true reason for her absence."
+      },
+      "bracket_parts": [
+        "erzählte"
+      ],
+      "dativ_parts": [
+        "der Lehrerin"
+      ],
+      "akkusativ_parts": [
+        "den wahren Grund"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben uns gestern einen sehr lustigen Witz erzählt.",
+      "translation": {
+        "ru": "Они вчера рассказали нам очень смешной анекдот.",
+        "en": "They told us a very funny joke yesterday."
+      },
+      "bracket_parts": [
+        "haben",
+        "erzählt"
+      ],
+      "dativ_parts": [
+        "uns"
+      ],
+      "akkusativ_parts": [
+        "einen sehr lustigen Witz"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erzähl mir bitte genau, was im Büro passiert ist!",
+      "translation": {
+        "ru": "Расскажи мне, пожалуйста, подробно, что произошло в офисе!",
+        "en": "Please tell me exactly what happened in the office!"
+      },
+      "bracket_parts": [
+        "Erzähl"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    }
+  ]
+}

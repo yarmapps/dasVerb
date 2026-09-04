@@ -1,0 +1,180 @@
+{
+  "id": "ueberpruefen",
+  "infinitive": "überprüfen",
+  "translation": {
+    "ru": "проверять, контролировать, перепроверять",
+    "en": "to check, to verify, to review"
+  },
+  "level": "B2",
+  "frequency_rank": 381,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "über",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "überprüfen",
+    "present_3sg": "überprüft",
+    "praeteritum_3sg": "überprüfte",
+    "partizip_2": "überprüft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "überprüfe",
+      "du": "überprüfst",
+      "er_sie_es": "überprüft",
+      "wir": "überprüfen",
+      "ihr": "überprüft",
+      "sie_Sie": "überprüfen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "überprüfte",
+      "du": "überprüftest",
+      "er_sie_es": "überprüfte",
+      "wir": "überprüften",
+      "ihr": "überprüftet",
+      "sie_Sie": "überprüften"
+    },
+    "imperative": {
+      "du": "überprüf!",
+      "ihr": "überprüft!",
+      "Sie": "überprüfen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "alle Angaben und Zahlen (Akk) genau überprüfen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich überprüfe alle eingehenden Rechnungen vor der Freigabe stets penibel auf ihre Richtigkeit.",
+      "translation": {
+        "ru": "Я всегда педантично проверяю все входящие счета на правильность перед утверждением.",
+        "en": "I always meticulously check all incoming invoices for accuracy before approval."
+      },
+      "bracket_parts": [
+        "überprüfe"
+      ],
+      "akkusativ_parts": [
+        "alle eingehenden Rechnungen",
+        "auf ihre Richtigkeit"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Überprüfst du den Reifendruck deines Autos eigentlich vor jeder längeren Urlaubsreise?",
+      "translation": {
+        "ru": "Проверяешь ли ты давление в шинах своего автомобиля на самом деле перед каждой дальней поездкой в отпуск?",
+        "en": "Do you actually check the tyre pressure of your car before every long holiday trip?"
+      },
+      "bracket_parts": [
+        "Überprüfst"
+      ],
+      "akkusativ_parts": [
+        "den Reifendruck deines Autos"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Zulassungsbehörde überprüft die gesetzlichen Sicherheitsvorschriften bei jedem neuen Fahrzeugtyp.",
+      "translation": {
+        "ru": "Орган по сертификации проверяет законные правила безопасности для каждого нового типа транспортных средств.",
+        "en": "The licensing authority reviews the legal safety regulations for every new vehicle type."
+      },
+      "bracket_parts": [
+        "überprüft"
+      ],
+      "akkusativ_parts": [
+        "die gesetzlichen Sicherheitsvorschriften"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir überprüfen regelmäßig die Wirksamkeit unserer internen Datenschutzmaßnahmen im Unternehmen.",
+      "translation": {
+        "ru": "Мы регулярно проверяем эффективность наших внутренних мер защиты данных в компании.",
+        "en": "We regularly check the effectiveness of our internal data protection measures in the company."
+      },
+      "bracket_parts": [
+        "überprüfen"
+      ],
+      "akkusativ_parts": [
+        "die Wirksamkeit unserer internen Datenschutzmaßnahmen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Überprüft ihr vor dem Absenden der Bewerbung alle Anhänge und Zeugnisse auf Vollständigkeit?",
+      "translation": {
+        "ru": "Проверяете ли вы перед отправкой заявления все приложения и свидетельства на полноту?",
+        "en": "Do you check all attachments and certificates for completeness before submitting the application?"
+      },
+      "bracket_parts": [
+        "Überprüft"
+      ],
+      "akkusativ_parts": [
+        "alle Anhänge und Zeugnisse"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern überprüfte der TÜV-Prüfer die Bremsen und die Lenkung des Lastwagens eingehend.",
+      "translation": {
+        "ru": "Вчера инспектор техосмотра досконально проверил тормоза и рулевое управление грузовика.",
+        "en": "Yesterday the vehicle inspector examined the brakes and steering of the lorry thoroughly."
+      },
+      "bracket_parts": [
+        "überprüfte"
+      ],
+      "akkusativ_parts": [
+        "die Bremsen und die Lenkung des Lastwagens"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Unabhängige Journalisten haben die Aussagen des Politikers auf ihren Wahrheitsgehalt überprüft.",
+      "translation": {
+        "ru": "Независимые журналисты проверили высказывания политика на предмет достоверности.",
+        "en": "Independent journalists verified the politician's statements for their truthfulness."
+      },
+      "bracket_parts": [
+        "haben",
+        "überprüft"
+      ],
+      "akkusativ_parts": [
+        "die Aussagen des Politikers",
+        "auf ihren Wahrheitsgehalt"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Überprüfen Sie Ihre persönlichen Kontodaten bitte vor der Bestätigung der Transaktion!",
+      "translation": {
+        "ru": "Проверьте свои персональные банковские реквизиты, пожалуйста, перед подтверждением транзакции!",
+        "en": "Please check your personal account details before confirming the transaction!"
+      },
+      "bracket_parts": [
+        "Überprüfen"
+      ],
+      "akkusativ_parts": [
+        "Ihre persönlichen Kontodaten"
+      ]
+    }
+  ]
+}

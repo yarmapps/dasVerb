@@ -1,0 +1,185 @@
+{
+  "id": "ausmachen",
+  "infinitive": "ausmachen",
+  "translation": {
+    "ru": "выключать (свет, прибор)",
+    "en": "to turn off, to switch off"
+  },
+  "level": "A2",
+  "frequency_rank": 255,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ausmachen",
+    "present_3sg": "macht aus",
+    "praeteritum_3sg": "machte aus",
+    "partizip_2": "ausgemacht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "mache aus",
+      "du": "machst aus",
+      "er_sie_es": "macht aus",
+      "wir": "machen aus",
+      "ihr": "macht aus",
+      "sie_Sie": "machen aus",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "machte aus",
+      "du": "machtest aus",
+      "er_sie_es": "machte aus",
+      "wir": "machten aus",
+      "ihr": "machtet aus",
+      "sie_Sie": "machten aus"
+    },
+    "imperative": {
+      "du": "mach aus!",
+      "ihr": "macht aus!",
+      "Sie": "machen Sie aus!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das Licht / den Herd (Akk) ausmachen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich mache vor dem Verlassen der Wohnung immer alle Lichter sorgfältig aus.",
+      "translation": {
+        "ru": "Перед выходом из квартиры я всегда тщательно выключаю весь свет.",
+        "en": "Before leaving the flat, I always turn off all lights carefully."
+      },
+      "bracket_parts": [
+        "mache",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "alle Lichter"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Machst du bitte den Fernseher aus, wenn du nicht mehr hinschaust?",
+      "translation": {
+        "ru": "Выключишь, пожалуйста, телевизор, если ты больше не смотришь?",
+        "en": "Will you please turn off the television if you are no longer watching?"
+      },
+      "bracket_parts": [
+        "Machst",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "den Fernseher"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Koch macht nach der Zubereitung der Speisen sofort den heißen Herd aus.",
+      "translation": {
+        "ru": "Повар после приготовления блюд сразу выключает горячую плиту.",
+        "en": "After preparing the dishes, the cook immediately turns off the hot stove."
+      },
+      "bracket_parts": [
+        "macht",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "den heißen Herd"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir machen vor der langen Reise alle elektrischen Geräte im Haus aus.",
+      "translation": {
+        "ru": "Перед дальней поездкой мы выключаем все электроприборы в доме.",
+        "en": "Before the long trip we turn off all electrical appliances in the house."
+      },
+      "bracket_parts": [
+        "machen",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "alle elektrischen Geräte"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Macht ihr während des Unterrichts bitte eure Smartphones komplett aus?",
+      "translation": {
+        "ru": "Вы выключите, пожалуйста, во время урока свои смартфоны полностью?",
+        "en": "Will you please turn off your smartphones completely during class?"
+      },
+      "bracket_parts": [
+        "Macht",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "eure Smartphones"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern machte sie vor dem Einschlafen noch die kleine Nachttischlampe aus.",
+      "translation": {
+        "ru": "Вчера перед сном она еще выключила маленькую прикроватную лампу.",
+        "en": "Yesterday before falling asleep she turned off the small bedside lamp."
+      },
+      "bracket_parts": [
+        "machte",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "die kleine Nachttischlampe"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die laute Musik nach Mitternacht rücksichtsvoll ausgemacht.",
+      "translation": {
+        "ru": "Они после полуночи предусмотрительно выключили громкую музыку.",
+        "en": "They considerately turned off the loud music after midnight."
+      },
+      "bracket_parts": [
+        "haben",
+        "ausgemacht"
+      ],
+      "akkusativ_parts": [
+        "die laute Musik"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Mach bitte den Computer aus, wenn du fertig bist!",
+      "translation": {
+        "ru": "Выключи, пожалуйста, компьютер, когда закончишь!",
+        "en": "Please turn off the computer when you are finished!"
+      },
+      "bracket_parts": [
+        "Mach",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "den Computer"
+      ]
+    }
+  ]
+}

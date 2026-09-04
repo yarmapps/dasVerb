@@ -1,0 +1,196 @@
+{
+  "id": "entwickeln_sich_zu",
+  "infinitive": "sich entwickeln",
+  "translation": {
+    "ru": "развиваться, превращаться (во что-то)",
+    "en": "to develop into, to evolve"
+  },
+  "level": "B2",
+  "frequency_rank": 75,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ent",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich entwickeln",
+    "present_3sg": "entwickelt sich",
+    "praeteritum_3sg": "entwickelte sich",
+    "partizip_2": "entwickelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entwickle mich",
+      "du": "entwickelst dich",
+      "er_sie_es": "entwickelt sich",
+      "wir": "entwickeln uns",
+      "ihr": "entwickelt euch",
+      "sie_Sie": "entwickeln sich",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "entwickelte mich",
+      "du": "entwickeltest dich",
+      "er_sie_es": "entwickelte sich",
+      "wir": "entwickelten uns",
+      "ihr": "entwickeltet euch",
+      "sie_Sie": "entwickelten sich"
+    },
+    "imperative": {
+      "du": "entwickle dich!",
+      "ihr": "entwickelt euch!",
+      "Sie": "entwickeln Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "zu",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "sich zu einem großen Erfolg (Dat) entwickeln",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich entwickle mich durch kontinuierliche Weiterbildung beruflich und persönlich weiter.",
+      "translation": {
+        "ru": "Благодаря непрерывному повышению квалификации я развиваюсь профессионально и личностно.",
+        "en": "Through continuous further training I develop further professionally and personally."
+      },
+      "bracket_parts": [
+        "entwickle"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Entwickelst du dich in deiner neuen Führungsposition zu einer souveränen Persönlichkeit?",
+      "translation": {
+        "ru": "Развиваешься ли ты на своей новой руководящей должности в уверенную личность?",
+        "en": "Are you developing into a confident personality in your new management position?"
+      },
+      "bracket_parts": [
+        "Entwickelst"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "zu einer souveränen Persönlichkeit"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die kleine Firma entwickelt sich rasch zu einem führenden Anbieter in der Region.",
+      "translation": {
+        "ru": "Небольшая компания быстро развивается в ведущего поставщика в регионе.",
+        "en": "The small company is rapidly developing into a leading provider in the region."
+      },
+      "bracket_parts": [
+        "entwickelt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "zu einem führenden Anbieter"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beobachten begeistert, wie sich die Technologie im Bereich der erneuerbaren Energien entwickelt.",
+      "translation": {
+        "ru": "Мы с восторгом наблюдаем, как развиваются технологии в области возобновляемой энергетики.",
+        "en": "We watch with enthusiasm how technology in the field of renewable energies is developing."
+      },
+      "bracket_parts": [
+        "entwickelt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Entwickelt ihr euch in der gemeinsamen musikalischen Arbeit zu einem echten Ensemble?",
+      "translation": {
+        "ru": "Превращаетесь ли вы в совместной музыкальной работе в настоящий ансамбль?",
+        "en": "Are you developing into a real ensemble in your joint musical work?"
+      },
+      "bracket_parts": [
+        "Entwickelt"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ],
+      "dativ_parts": [
+        "zu einem echten Ensemble"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals entwickelte sich der kleine Marktplatz zum pulsierenden Zentrum der Stadt.",
+      "translation": {
+        "ru": "В те времена маленькая рыночная площадь превратилась в пульсирующий центр города.",
+        "en": "At that time the small marketplace developed into the vibrant centre of the town."
+      },
+      "bracket_parts": [
+        "entwickelte"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "zum pulsierenden Zentrum"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das anfängliche Missverständnis hat sich leider zu einem handfesten Streit entwickelt.",
+      "translation": {
+        "ru": "Первоначальное недоразумение, к сожалению, переросло в настоящий спор.",
+        "en": "The initial misunderstanding unfortunately developed into a downright argument."
+      },
+      "bracket_parts": [
+        "hat",
+        "entwickelt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "zu einem handfesten Streit"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Entwickeln Sie sich stets zum Besseren und bleiben Sie neugierig!",
+      "translation": {
+        "ru": "Постоянно развивайтесь к лучшему и оставайтесь любознательными!",
+        "en": "Always develop for the better and stay curious!"
+      },
+      "bracket_parts": [
+        "Entwickeln"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "zum Besseren"
+      ]
+    }
+  ]
+}

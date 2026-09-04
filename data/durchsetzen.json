@@ -1,0 +1,185 @@
+{
+  "id": "durchsetzen",
+  "infinitive": "durchsetzen",
+  "translation": {
+    "ru": "проводить, добиваться, настоять на своем",
+    "en": "to enforce, to push through"
+  },
+  "level": "B2",
+  "frequency_rank": 185,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "durch",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "durchsetzen",
+    "present_3sg": "setzt durch",
+    "praeteritum_3sg": "setzte durch",
+    "partizip_2": "durchgesetzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "setze durch",
+      "du": "setzt durch",
+      "er_sie_es": "setzt durch",
+      "wir": "setzen durch",
+      "ihr": "setzt durch",
+      "sie_Sie": "setzen durch",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "setzte durch",
+      "du": "setztest durch",
+      "er_sie_es": "setzte durch",
+      "wir": "setzten durch",
+      "ihr": "setztet durch",
+      "sie_Sie": "setzten durch"
+    },
+    "imperative": {
+      "du": "setz durch!",
+      "ihr": "setzt durch!",
+      "Sie": "setzen Sie durch!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "seine persönlichen Interessen (Akk) erfolgreich durchsetzen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich setze meine fundierten Vorschläge in der Abteilung mit überzeugenden Argumenten durch.",
+      "translation": {
+        "ru": "Я провожу свои обоснованные предложения в отделе с помощью убедительных аргументов.",
+        "en": "I push through my well-founded suggestions in the department with convincing arguments."
+      },
+      "bracket_parts": [
+        "setze",
+        "durch"
+      ],
+      "akkusativ_parts": [
+        "meine fundierten Vorschläge"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Setzt du deine berechtigten Forderungen nach mehr Gehalt beim nächsten Gespräch durch?",
+      "translation": {
+        "ru": "Добьешься ли ты своих законных требований о повышении зарплаты на следующей беседе?",
+        "en": "Will you push through your justified demands for more salary at the next meeting?"
+      },
+      "bracket_parts": [
+        "Setzt",
+        "durch"
+      ],
+      "akkusativ_parts": [
+        "deine berechtigten Forderungen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die mutige Gewerkschaft setzt spürbare Lohnerhöhungen für alle Beschäftigten durch.",
+      "translation": {
+        "ru": "Смелый профсоюз добивается ощутимого повышения зарплаты для всех работников.",
+        "en": "The courageous trade union pushes through noticeable wage increases for all employees."
+      },
+      "bracket_parts": [
+        "setzt",
+        "durch"
+      ],
+      "akkusativ_parts": [
+        "spürbare Lohnerhöhungen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir setzen als Gemeinschaft strengere Umweltauflagen für den lokalen Industriepark durch.",
+      "translation": {
+        "ru": "Мы как сообщество добиваемся более строгих экологических требований для местного индустриального парка.",
+        "en": "As a community, we enforce stricter environmental regulations for the local industrial park."
+      },
+      "bracket_parts": [
+        "setzen",
+        "durch"
+      ],
+      "akkusativ_parts": [
+        "strengere Umweltauflagen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Setzt ihr eure kreative Projektidee gegen alle internen Widerstände durch?",
+      "translation": {
+        "ru": "Проведете ли вы свою творческую идею проекта против всех внутренних сопротивлений?",
+        "en": "Will you push through your creative project idea against all internal resistance?"
+      },
+      "bracket_parts": [
+        "Setzt",
+        "durch"
+      ],
+      "akkusativ_parts": [
+        "eure kreative Projektidee"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern setzte die Schulleiterin das neue Handyverbot im Unterricht konsequent durch.",
+      "translation": {
+        "ru": "Вчера директор школы последовательно ввела новый запрет на мобильные телефоны на уроках.",
+        "en": "Yesterday the headmistress consistently enforced the new mobile phone ban in class."
+      },
+      "bracket_parts": [
+        "setzte",
+        "durch"
+      ],
+      "akkusativ_parts": [
+        "das neue Handyverbot"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Bürgerinitiative hat den Erhalt des alten Stadtparks erfolgreich durchgesetzt.",
+      "translation": {
+        "ru": "Гражданская инициатива успешно отстояла сохранение старого городского парка.",
+        "en": "The citizens' initiative successfully enforced the preservation of the old city park."
+      },
+      "bracket_parts": [
+        "hat",
+        "durchgesetzt"
+      ],
+      "akkusativ_parts": [
+        "den Erhalt"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Setzen Sie Ihre Rechte bitte immer auf legalem und fairem Weg durch!",
+      "translation": {
+        "ru": "Отстаивайте ваши права, пожалуйста, всегда законным и честным путем!",
+        "en": "Please always enforce your rights in a legal and fair manner!"
+      },
+      "bracket_parts": [
+        "Setzen",
+        "durch"
+      ],
+      "akkusativ_parts": [
+        "Ihre Rechte"
+      ]
+    }
+  ]
+}

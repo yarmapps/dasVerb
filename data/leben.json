@@ -1,0 +1,178 @@
+{
+  "id": "leben",
+  "infinitive": "leben",
+  "translation": {
+    "ru": "жить",
+    "en": "to live"
+  },
+  "level": "A1",
+  "frequency_rank": 71,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "leben",
+    "present_3sg": "lebt",
+    "praeteritum_3sg": "lebte",
+    "partizip_2": "gelebt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lebe",
+      "du": "lebst",
+      "er_sie_es": "lebt",
+      "wir": "leben",
+      "ihr": "lebt",
+      "sie_Sie": "leben",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "lebte",
+      "du": "lebtest",
+      "er_sie_es": "lebte",
+      "wir": "lebten",
+      "ihr": "lebtet",
+      "sie_Sie": "lebten"
+    },
+    "imperative": {
+      "du": "leb!",
+      "ihr": "lebt!",
+      "Sie": "leben Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "in",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "in einer großen Stadt (Dat) leben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich lebe gerne in dieser ruhigen Stadt.",
+      "translation": {
+        "ru": "Я с удовольствием живу в этом тихом городе.",
+        "en": "I like living in this quiet town."
+      },
+      "bracket_parts": [
+        "lebe"
+      ],
+      "dativ_parts": [
+        "in dieser ruhigen Stadt"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Lebst du noch immer in dem kleinen Haus?",
+      "translation": {
+        "ru": "Ты все еще живешь в том маленьком доме?",
+        "en": "Do you still live in the small house?"
+      },
+      "bracket_parts": [
+        "Lebst"
+      ],
+      "dativ_parts": [
+        "in dem kleinen Haus"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er lebt seit zwei Jahren in Deutschland.",
+      "translation": {
+        "ru": "Он живет в Германии уже два года.",
+        "en": "He has been living in Germany for two years."
+      },
+      "bracket_parts": [
+        "lebt"
+      ],
+      "dativ_parts": [
+        "in Deutschland"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir leben sehr glücklich in unserem neuen Dorf.",
+      "translation": {
+        "ru": "Мы очень счастливо живем в нашей новой деревне.",
+        "en": "We live very happily in our new village."
+      },
+      "bracket_parts": [
+        "leben"
+      ],
+      "dativ_parts": [
+        "in unserem neuen Dorf"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Lebt ihr zusammen in einer WG?",
+      "translation": {
+        "ru": "Вы живете вместе в студенческой квартире?",
+        "en": "Do you live together in a flatshare?"
+      },
+      "bracket_parts": [
+        "Lebt"
+      ],
+      "dativ_parts": [
+        "in einer WG"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern las ich, sie lebte viele Jahre in Spanien.",
+      "translation": {
+        "ru": "Вчера я прочитал, что она много лет жила в Испании.",
+        "en": "Yesterday I read that she lived in Spain for many years."
+      },
+      "bracket_parts": [
+        "lebte"
+      ],
+      "dativ_parts": [
+        "in Spanien"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben zehn Jahre lang in Österreich gelebt.",
+      "translation": {
+        "ru": "Они прожили в Австрии десять лет.",
+        "en": "They lived in Austria for ten years."
+      },
+      "bracket_parts": [
+        "haben",
+        "gelebt"
+      ],
+      "dativ_parts": [
+        "in Österreich"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Leben Sie gut in Ihrem neuen Zuhause!",
+      "translation": {
+        "ru": "Живите счастливо в вашем новом доме!",
+        "en": "Live well in your new home!"
+      },
+      "bracket_parts": [
+        "Leben"
+      ],
+      "dativ_parts": [
+        "in Ihrem neuen Zuhause"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "id": "schaetzen_akk_auf",
+  "infinitive": "schätzen",
+  "translation": {
+    "ru": "оценивать (стоимость, размер), ценить (человека, совет)",
+    "en": "to estimate at, to value, to appreciate"
+  },
+  "level": "B2",
+  "frequency_rank": 312,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "schätzen",
+    "present_3sg": "schätzt",
+    "praeteritum_3sg": "schätzte",
+    "partizip_2": "geschätzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schätze",
+      "du": "schätzt",
+      "er_sie_es": "schätzt",
+      "wir": "schätzen",
+      "ihr": "schätzt",
+      "sie_Sie": "schätzen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "schätzte",
+      "du": "schätztest",
+      "er_sie_es": "schätzte",
+      "wir": "schätzten",
+      "ihr": "schätztet",
+      "sie_Sie": "schätzten"
+    },
+    "imperative": {
+      "du": "schätz!",
+      "ihr": "schätzt!",
+      "Sie": "schätzen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "den Gesamtschaden (Akk) auf eine Million Euro (Akk) schätzen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich schätze die verlässliche Zusammenarbeit mit meinen treuen Geschäftspartnern überaus.",
+      "translation": {
+        "ru": "Я чрезвычайно ценю надежное сотрудничество со своими верными деловыми партнерами.",
+        "en": "I greatly appreciate the reliable cooperation with my loyal business partners."
+      },
+      "bracket_parts": [
+        "schätze"
+      ],
+      "akkusativ_parts": [
+        "die verlässliche Zusammenarbeit"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Schätzt du die Gesamtkosten für die geplante Hausrenovierung auf über fünfzigtausend Euro?",
+      "translation": {
+        "ru": "Оцениваешь ли ты общую стоимость планируемого ремонта дома более чем в пятьдесят тысяч евро?",
+        "en": "Do you estimate the total cost of the planned house renovation at over fifty thousand euros?"
+      },
+      "bracket_parts": [
+        "Schätzt"
+      ],
+      "akkusativ_parts": [
+        "die Gesamtkosten",
+        "auf über fünfzigtausend Euro"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Polizei schätzt die Zahl der friedlichen Demonstrationsteilnehmer auf mindestens zehntausend Menschen.",
+      "translation": {
+        "ru": "Полиция оценивает число мирных участников демонстрации как минимум в десять тысяч человек.",
+        "en": "The police estimate the number of peaceful demonstration participants at at least ten thousand people."
+      },
+      "bracket_parts": [
+        "schätzt"
+      ],
+      "akkusativ_parts": [
+        "die Zahl",
+        "auf mindestens zehntausend Menschen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir schätzen ehrliches und konstruktives Feedback unserer Kunden als wertvollen Impuls.",
+      "translation": {
+        "ru": "Мы ценим честную и конструктивную обратную связь наших клиентов как ценный импульс.",
+        "en": "We value honest and constructive feedback from our customers as a valuable impulse."
+      },
+      "bracket_parts": [
+        "schätzen"
+      ],
+      "akkusativ_parts": [
+        "ehrliches und konstruktives Feedback"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Schätzt ihr die Dauer der morgigen Zugfahrt auf ungefähr drei Stunden?",
+      "translation": {
+        "ru": "Оцениваете ли вы продолжительность завтрашней поездки на поезде примерно в три часа?",
+        "en": "Do you estimate the duration of tomorrow's train journey at about three hours?"
+      },
+      "bracket_parts": [
+        "Schätzt"
+      ],
+      "akkusativ_parts": [
+        "die Dauer",
+        "auf ungefähr drei Stunden"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern schätzte der erfahrene Gutachter den Brandschaden auf mehrere tausend Euro.",
+      "translation": {
+        "ru": "Вчера опытный оценщик оценил ущерб от пожара в несколько тысяч евро.",
+        "en": "Yesterday the experienced appraiser estimated the fire damage at several thousand euros."
+      },
+      "bracket_parts": [
+        "schätzte"
+      ],
+      "akkusativ_parts": [
+        "den Brandschaden",
+        "auf mehrere tausend Euro"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Versicherung hat die schweren Unwetterschäden auf mehrere Millionen Euro geschätzt.",
+      "translation": {
+        "ru": "Страховая компания оценила тяжелый ущерб от непогоды в несколько миллионов евро.",
+        "en": "The insurance company estimated the severe storm damage at several million euros."
+      },
+      "bracket_parts": [
+        "hat",
+        "geschätzt"
+      ],
+      "akkusativ_parts": [
+        "die schweren Unwetterschäden",
+        "auf mehrere Millionen Euro"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Schätzen Sie die täglichen kleinen Freuden des Lebens immer aufrichtig!",
+      "translation": {
+        "ru": "Цените всегда искренне ежедневные маленькие радости жизни!",
+        "en": "Always sincerely appreciate the daily small joys of life!"
+      },
+      "bracket_parts": [
+        "Schätzen"
+      ],
+      "akkusativ_parts": [
+        "die täglichen kleinen Freuden"
+      ]
+    }
+  ]
+}

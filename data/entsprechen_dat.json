@@ -1,0 +1,178 @@
+{
+  "id": "entsprechen_dat",
+  "infinitive": "entsprechen",
+  "translation": {
+    "ru": "соответствовать, отвечать (требованиям, ожиданиям)",
+    "en": "to correspond to, to match, to meet (expectations)"
+  },
+  "level": "B2",
+  "frequency_rank": 55,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ent",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "entsprechen",
+    "present_3sg": "entspricht",
+    "praeteritum_3sg": "entsprach",
+    "partizip_2": "entsprochen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entspreche",
+      "du": "entsprichst",
+      "er_sie_es": "entspricht",
+      "wir": "entsprechen",
+      "ihr": "entsprecht",
+      "sie_Sie": "entsprechen",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "entsprach",
+      "du": "entsprachst",
+      "er_sie_es": "entsprach",
+      "wir": "entsprachen",
+      "ihr": "entspracht",
+      "sie_Sie": "entsprachen"
+    },
+    "imperative": {
+      "du": "entsprich!",
+      "ihr": "entsprecht!",
+      "Sie": "entsprechen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "den hohen Erwartungen (Dat) voll und ganz entsprechen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich entspreche mit meinen Qualifikationen genau dem gesuchten Profil der Stellenanzeige.",
+      "translation": {
+        "ru": "Своей квалификацией я точно соответствую искомому профилю вакансии.",
+        "en": "With my qualifications I match exactly the desired profile of the job advertisement."
+      },
+      "bracket_parts": [
+        "entspreche"
+      ],
+      "dativ_parts": [
+        "dem gesuchten Profil"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Entspricht die neu renovierte Wohnung deinen persönlichen Vorstellungen und Bedürfnissen?",
+      "translation": {
+        "ru": "Соответствует ли свежеотремонтированная квартира твоим личным представлениям и потребностям?",
+        "en": "Does the newly renovated flat correspond to your personal ideas and needs?"
+      },
+      "bracket_parts": [
+        "Entspricht"
+      ],
+      "dativ_parts": [
+        "deinen persönlichen Vorstellungen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die gelieferte Ware entspricht in allen Punkten den strengen gesetzlichen Qualitätsstandards.",
+      "translation": {
+        "ru": "Доставленный товар во всех пунктах соответствует строгим законодательным стандартам качества.",
+        "en": "The delivered goods correspond in all points to the strict statutory quality standards."
+      },
+      "bracket_parts": [
+        "entspricht"
+      ],
+      "dativ_parts": [
+        "den strengen gesetzlichen Qualitätsstandards"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir entsprechen den Wünschen unserer Kunden durch individuelle und maßgeschneiderte Lösungen.",
+      "translation": {
+        "ru": "Мы идем навстречу желаниям наших клиентов благодаря индивидуальным и адаптированным решениям.",
+        "en": "We meet the wishes of our customers through individual and tailor-made solutions."
+      },
+      "bracket_parts": [
+        "entsprechen"
+      ],
+      "dativ_parts": [
+        "den Wünschen unserer Kunden"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Entsprecht ihr mit eurem Bauvorhaben allen aktuellen Vorschriften des Umweltschutzes?",
+      "translation": {
+        "ru": "Соответствуете ли вы своим строительным проектом всем актуальным предписаниям охраны окружающей среды?",
+        "en": "Does your building project comply with all current environmental protection regulations?"
+      },
+      "bracket_parts": [
+        "Entsprecht"
+      ],
+      "dativ_parts": [
+        "allen aktuellen Vorschriften"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern entsprach das tatsächliche Wahlergebnis erstaunlich genau den vorherigen Prognosen.",
+      "translation": {
+        "ru": "Вчера фактический результат выборов удивительно точно соответствовал прежним прогнозам.",
+        "en": "Yesterday the actual election result corresponded remarkably closely to the previous forecasts."
+      },
+      "bracket_parts": [
+        "entsprach"
+      ],
+      "dativ_parts": [
+        "den vorherigen Prognosen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die gezeigte Leistung der Mannschaft hat den hohen Erwartungen der Fans entsprochen.",
+      "translation": {
+        "ru": "Показанная командой игра соответствовала высоким ожиданиям болельщиков.",
+        "en": "The team's performance matched the high expectations of the fans."
+      },
+      "bracket_parts": [
+        "hat",
+        "entsprochen"
+      ],
+      "dativ_parts": [
+        "den hohen Erwartungen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Entsprechen Sie bitte den formellen Vorgaben beim Ausfüllen des Antrags!",
+      "translation": {
+        "ru": "Следуйте, пожалуйста, формальным предписаниям при заполнении заявления!",
+        "en": "Please comply with the formal requirements when completing the application!"
+      },
+      "bracket_parts": [
+        "Entsprechen"
+      ],
+      "dativ_parts": [
+        "den formellen Vorgaben"
+      ]
+    }
+  ]
+}

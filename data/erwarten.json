@@ -1,0 +1,178 @@
+{
+  "id": "erwarten",
+  "infinitive": "erwarten",
+  "translation": {
+    "ru": "ожидать, ждать (кого-то/что-то)",
+    "en": "to expect, to anticipate"
+  },
+  "level": "B1",
+  "frequency_rank": 81,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erwarten",
+    "present_3sg": "erwartet",
+    "praeteritum_3sg": "erwartete",
+    "partizip_2": "erwartet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erwarte",
+      "du": "erwartest",
+      "er_sie_es": "erwartet",
+      "wir": "erwarten",
+      "ihr": "erwartet",
+      "sie_Sie": "erwarten",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "erwartete",
+      "du": "erwartetest",
+      "er_sie_es": "erwartete",
+      "wir": "erwarteten",
+      "ihr": "erwartetet",
+      "sie_Sie": "erwarteten"
+    },
+    "imperative": {
+      "du": "erwarte!",
+      "ihr": "erwartet!",
+      "Sie": "erwarten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine baldige Antwort / Gäste (Akk) erwarten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erwarte heute Nachmittag eine dringende und wichtige geschäftliche E-Mail.",
+      "translation": {
+        "ru": "Сегодня днем я ожидаю срочное и важное деловое электронное письмо.",
+        "en": "This afternoon I am expecting an urgent and important business email."
+      },
+      "bracket_parts": [
+        "erwarte"
+      ],
+      "akkusativ_parts": [
+        "eine dringende und wichtige geschäftliche E-Mail"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erwartest du von deinen Freunden bei diesem Streit bedingungslose Unterstützung?",
+      "translation": {
+        "ru": "Ожидаешь ли ты от своих друзей в этом споре безоговорочной поддержки?",
+        "en": "Do you expect unconditional support from your friends in this dispute?"
+      },
+      "bracket_parts": [
+        "Erwartest"
+      ],
+      "akkusativ_parts": [
+        "bedingungslose Unterstützung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das junge Paar erwartet im kommenden Frühjahr voller Vorfreude sein erstes Kind.",
+      "translation": {
+        "ru": "Молодая пара предстоящей весной с радостным предвкушением ждет своего первенца.",
+        "en": "The young couple is expecting their first child next spring full of anticipation."
+      },
+      "bracket_parts": [
+        "erwartet"
+      ],
+      "akkusativ_parts": [
+        "sein erstes Kind"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erwarten für das Wochenende strahlenden Sonnenschein und milde Frühlingstemperaturen.",
+      "translation": {
+        "ru": "На выходные мы ожидаем яркое солнце и мягкие весенние температуры.",
+        "en": "For the weekend we expect bright sunshine and mild spring temperatures."
+      },
+      "bracket_parts": [
+        "erwarten"
+      ],
+      "akkusativ_parts": [
+        "strahlenden Sonnenschein und milde Frühlingstemperaturen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erwartet ihr heute Abend noch ausländische Gäste im Hotel?",
+      "translation": {
+        "ru": "Вы ожидаете сегодня вечером еще иностранных гостей в отеле?",
+        "en": "Are you still expecting foreign guests at the hotel tonight?"
+      },
+      "bracket_parts": [
+        "Erwartet"
+      ],
+      "akkusativ_parts": [
+        "ausländische Gäste"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals erwartete die Bevölkerung ungeduldig das baldige Kriegsende.",
+      "translation": {
+        "ru": "В те времена население с нетерпением ждало скорого окончания войны.",
+        "en": "At that time the population impatiently awaited the imminent end of the war."
+      },
+      "bracket_parts": [
+        "erwartete"
+      ],
+      "akkusativ_parts": [
+        "das baldige Kriegsende"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Niemand im Saal hat einen derart schnellen Ausgang der Verhandlung erwartet.",
+      "translation": {
+        "ru": "Никто в зале не ожидал столь быстрого исхода судебного заседания.",
+        "en": "Nobody in the room expected such a quick outcome of the hearing."
+      },
+      "bracket_parts": [
+        "hat",
+        "erwartet"
+      ],
+      "akkusativ_parts": [
+        "einen derart schnellen Ausgang"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erwarten Sie bitte keine Wunder über Nacht!",
+      "translation": {
+        "ru": "Не ожидайте, пожалуйста, чудес за одну ночь!",
+        "en": "Please do not expect miracles overnight!"
+      },
+      "bracket_parts": [
+        "Erwarten"
+      ],
+      "akkusativ_parts": [
+        "keine Wunder"
+      ]
+    }
+  ]
+}

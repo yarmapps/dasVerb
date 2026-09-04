@@ -1,0 +1,190 @@
+{
+  "id": "erkennen_dat_an",
+  "infinitive": "erkennen",
+  "translation": {
+    "ru": "узнавать (кого-то/что-то по признаку), распознавать",
+    "en": "to recognize (by something)"
+  },
+  "level": "B1",
+  "frequency_rank": 74,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "mixed",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erkennen",
+    "present_3sg": "erkennt",
+    "praeteritum_3sg": "erkannte",
+    "partizip_2": "erkannt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erkenne",
+      "du": "erkennst",
+      "er_sie_es": "erkennt",
+      "wir": "erkennen",
+      "ihr": "erkennt",
+      "sie_Sie": "erkennen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "erkannte",
+      "du": "erkanntest",
+      "er_sie_es": "erkannte",
+      "wir": "erkannten",
+      "ihr": "erkanntet",
+      "sie_Sie": "erkannten"
+    },
+    "imperative": {
+      "du": "erkenn!",
+      "ihr": "erkennt!",
+      "Sie": "erkennen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "an",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "jemanden (Akk) an der Stimme (Dat) erkennen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erkenne meinen alten Schulfreund sofort an seinem herzlichen Lachen.",
+      "translation": {
+        "ru": "Я сразу узнаю своего старого школьного друга по его искреннему смеху.",
+        "en": "I recognize my old school friend immediately by his warm laugh."
+      },
+      "bracket_parts": [
+        "erkenne"
+      ],
+      "akkusativ_parts": [
+        "meinen alten Schulfreund"
+      ],
+      "dativ_parts": [
+        "an seinem herzlichen Lachen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erkennst du den berühmten Schauspieler auf diesem alten Foto wieder?",
+      "translation": {
+        "ru": "Ты узнаешь знаменитого актера на этой старой фотографии?",
+        "en": "Do you recognize the famous actor on this old photo again?"
+      },
+      "bracket_parts": [
+        "Erkennst"
+      ],
+      "akkusativ_parts": [
+        "den berühmten Schauspieler"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der erfahrene Arzt erkennt die seltene Krankheit an den typischen Symptomen.",
+      "translation": {
+        "ru": "Опытный врач распознает редкую болезнь по типичным симптомам.",
+        "en": "The experienced doctor recognizes the rare disease by the typical symptoms."
+      },
+      "bracket_parts": [
+        "erkennt"
+      ],
+      "akkusativ_parts": [
+        "die seltene Krankheit"
+      ],
+      "dativ_parts": [
+        "an den typischen Symptomen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erkennen die große Bedeutung von sauberer Energie für die Zukunft unseres Planeten.",
+      "translation": {
+        "ru": "Мы осознаем огромное значение чистой энергии для будущего нашей планеты.",
+        "en": "We recognize the great importance of clean energy for the future of our planet."
+      },
+      "bracket_parts": [
+        "erkennen"
+      ],
+      "akkusativ_parts": [
+        "die große Bedeutung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erkennt ihr eure Lehrerin auch nach vielen Jahren noch an ihrer Stimme?",
+      "translation": {
+        "ru": "Вы узнаете свою учительницу даже спустя много лет по ее голосу?",
+        "en": "Do you still recognize your teacher by her voice even after many years?"
+      },
+      "bracket_parts": [
+        "Erkennt"
+      ],
+      "akkusativ_parts": [
+        "eure Lehrerin"
+      ],
+      "dativ_parts": [
+        "an ihrer Stimme"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern erkannte sie den Touristen am Bahnhof an seiner auffälligen roten Mütze.",
+      "translation": {
+        "ru": "Вчера она узнала туриста на вокзале по его броской красной шапке.",
+        "en": "Yesterday she recognized the tourist at the station by his striking red cap."
+      },
+      "bracket_parts": [
+        "erkannte"
+      ],
+      "akkusativ_parts": [
+        "den Touristen"
+      ],
+      "dativ_parts": [
+        "an seiner auffälligen roten Mütze"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Experten haben das historische Gemälde eindeutig als Original erkannt.",
+      "translation": {
+        "ru": "Эксперты однозначно признали историческую картину оригиналом.",
+        "en": "The experts clearly recognized the historic painting as an original."
+      },
+      "bracket_parts": [
+        "haben",
+        "erkannt"
+      ],
+      "akkusativ_parts": [
+        "das historische Gemälde"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erkennen Sie bitte die harte Arbeit Ihrer Mitarbeiter an!",
+      "translation": {
+        "ru": "Признайте, пожалуйста, тяжелый труд своих сотрудников!",
+        "en": "Please acknowledge the hard work of your employees!"
+      },
+      "bracket_parts": [
+        "Erkennen"
+      ],
+      "akkusativ_parts": [
+        "die harte Arbeit"
+      ]
+    }
+  ]
+}

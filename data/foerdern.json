@@ -1,0 +1,181 @@
+{
+  "id": "foerdern",
+  "infinitive": "fördern",
+  "translation": {
+    "ru": "способствовать, поощрять, добывать (ископаемые)",
+    "en": "to promote, to foster, to extract"
+  },
+  "level": "B2",
+  "frequency_rank": 215,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "fördern",
+    "present_3sg": "fördert",
+    "praeteritum_3sg": "förderte",
+    "partizip_2": "gefördert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "fördere",
+      "du": "förderst",
+      "er_sie_es": "fördert",
+      "wir": "fördern",
+      "ihr": "fördert",
+      "sie_Sie": "fördern",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "förderte",
+      "du": "fördertest",
+      "er_sie_es": "förderte",
+      "wir": "förderten",
+      "ihr": "fördertet",
+      "sie_Sie": "förderten"
+    },
+    "imperative": {
+      "du": "fördere!",
+      "ihr": "fördert!",
+      "Sie": "fördern Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "junge Talente / die Gesundheit (Akk) gezielt fördern",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich fördere junge Nachwuchskräfte in meinem Team durch gezieltes Mentoring und Coaching.",
+      "translation": {
+        "ru": "Я поддерживаю молодые кадры в своей команде с помощью целевого наставничества и коучинга.",
+        "en": "I promote young junior staff in my team through targeted mentoring and coaching."
+      },
+      "bracket_parts": [
+        "fördere"
+      ],
+      "akkusativ_parts": [
+        "junge Nachwuchskräfte"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Förderst du die musikalische Begabung deiner Tochter mit individuellem Klavierunterricht?",
+      "translation": {
+        "ru": "Развиваешь ли ты музыкальную одаренность своей дочери индивидуальными уроками игры на фортепиано?",
+        "en": "Do you foster your daughter's musical talent with individual piano lessons?"
+      },
+      "bracket_parts": [
+        "Förderst"
+      ],
+      "akkusativ_parts": [
+        "die musikalische Begabung deiner Tochter"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Staat fördert die energetische Sanierung alter Wohngebäude mit attraktiven Zuschüssen.",
+      "translation": {
+        "ru": "Государство поощряет энергетическую санацию старых жилых домов привлекательными субсидиями.",
+        "en": "The state promotes the energy-efficient renovation of old residential buildings with attractive grants."
+      },
+      "bracket_parts": [
+        "fördert"
+      ],
+      "akkusativ_parts": [
+        "die energetische Sanierung"
+      ],
+      "dativ_parts": [
+        "mit attraktiven Zuschüssen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir fördern die kreative Problemlösungskompetenz unserer Studierenden durch praxisnahe Projekte.",
+      "translation": {
+        "ru": "Мы развиваем творческую способность решать проблемы у наших студентов через практические проекты.",
+        "en": "We foster our students' creative problem-solving skills through practical projects."
+      },
+      "bracket_parts": [
+        "fördern"
+      ],
+      "akkusativ_parts": [
+        "die kreative Problemlösungskompetenz"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Fördert ihr in eurer gemeinnützigen Stiftung soziale Bildungsinitiativen in Brennpunktschulen?",
+      "translation": {
+        "ru": "Поддерживаете ли вы в своем благотворительном фонде социальные образовательные инициативы в проблемных школах?",
+        "en": "Do you support social educational initiatives in disadvantaged schools through your charitable foundation?"
+      },
+      "bracket_parts": [
+        "Fördert"
+      ],
+      "akkusativ_parts": [
+        "soziale Bildungsinitiativen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals förderte das Bergwerk täglich tausende Tonnen hochwertige Steinkohle aus der Tiefe.",
+      "translation": {
+        "ru": "В те времена шахта ежедневно добывала из глубин тысячи тонн высококачественного каменного угля.",
+        "en": "At that time the mine extracted thousands of tons of high-grade hard coal daily from the depths."
+      },
+      "bracket_parts": [
+        "förderte"
+      ],
+      "akkusativ_parts": [
+        "tausende Tonnen hochwertige Steinkohle"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Europäische Union hat grenzüberschreitende Forschungsprojekte mit hohen Summen gefördert.",
+      "translation": {
+        "ru": "Европейский союз профинансировал трансграничные исследовательские проекты крупными суммами.",
+        "en": "The European Union has funded cross-border research projects with large sums."
+      },
+      "bracket_parts": [
+        "hat",
+        "gefördert"
+      ],
+      "akkusativ_parts": [
+        "grenzüberschreitende Forschungsprojekte"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Fördern Sie die Selbstständigkeit Ihrer Auszubildenden von Anfang an!",
+      "translation": {
+        "ru": "Поощряйте самостоятельность ваших учеников с самого начала!",
+        "en": "Foster the independence of your trainees right from the start!"
+      },
+      "bracket_parts": [
+        "Fördern"
+      ],
+      "akkusativ_parts": [
+        "die Selbstständigkeit Ihrer Auszubildenden"
+      ]
+    }
+  ]
+}

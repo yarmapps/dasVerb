@@ -1,0 +1,178 @@
+{
+  "id": "zerstoeren",
+  "infinitive": "zerstören",
+  "translation": {
+    "ru": "разрушать, уничтожать",
+    "en": "to destroy, to ruin"
+  },
+  "level": "B1",
+  "frequency_rank": 260,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "zer",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zerstören",
+    "present_3sg": "zerstört",
+    "praeteritum_3sg": "zerstörte",
+    "partizip_2": "zerstört"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "zerstöre",
+      "du": "zerstörst",
+      "er_sie_es": "zerstört",
+      "wir": "zerstören",
+      "ihr": "zerstört",
+      "sie_Sie": "zerstören",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "zerstörte",
+      "du": "zerstörtest",
+      "er_sie_es": "zerstörte",
+      "wir": "zerstörten",
+      "ihr": "zerstörtet",
+      "sie_Sie": "zerstörten"
+    },
+    "imperative": {
+      "du": "zerstör!",
+      "ihr": "zerstört!",
+      "Sie": "zerstören Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "wertvolle Natur / das Vertrauen (Akk) zerstören",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich zerstöre durch unbedachte und verletzende Worte niemals das Vertrauen meiner Freunde.",
+      "translation": {
+        "ru": "Необдуманными и обидными словами я никогда не разрушаю доверие своих друзей.",
+        "en": "Through thoughtless and hurtful words I never destroy the trust of my friends."
+      },
+      "bracket_parts": [
+        "zerstöre"
+      ],
+      "akkusativ_parts": [
+        "das Vertrauen meiner Freunde"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Zerstörst du mit deiner ständigen Eifersucht nicht eure liebevolle Beziehung?",
+      "translation": {
+        "ru": "Разве своей постоянной ревностью ты не разрушаешь ваши теплые отношения?",
+        "en": "Aren't you destroying your loving relationship with your constant jealousy?"
+      },
+      "bracket_parts": [
+        "Zerstörst"
+      ],
+      "akkusativ_parts": [
+        "eure liebevolle Beziehung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der heftige Sturm zerstört an der Küste viele Dächer und entwurzelt Bäume.",
+      "translation": {
+        "ru": "Свирепый шторм на побережье срывает много крыш и вырывает с корнем деревья.",
+        "en": "The violent storm destroys many roofs on the coast and uproots trees."
+      },
+      "bracket_parts": [
+        "zerstört"
+      ],
+      "akkusativ_parts": [
+        "viele Dächer"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir zerstören durch Plastikmüll und Abgase die natürlichen Lebensräume vieler Tierarten.",
+      "translation": {
+        "ru": "Пластиковым мусором и выхлопными газами мы разрушаем естественную среду обитания многих видов животных.",
+        "en": "Through plastic waste and exhaust fumes we destroy the natural habitats of many animal species."
+      },
+      "bracket_parts": [
+        "zerstören"
+      ],
+      "akkusativ_parts": [
+        "die natürlichen Lebensräume"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Zerstört ihr bei euren wilden Spielen draußen im Garten nicht die schönen Blumenbeete?",
+      "translation": {
+        "ru": "Не разрушите ли вы во время своих шумных игр на улице в саду красивые клумбы?",
+        "en": "Aren't you destroying the pretty flowerbeds in your wild games outside in the garden?"
+      },
+      "bracket_parts": [
+        "Zerstört"
+      ],
+      "akkusativ_parts": [
+        "die schönen Blumenbeete"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern zerstörte das verheerende Feuer die historische Scheune bis auf die Grundmauern.",
+      "translation": {
+        "ru": "Вчера разрушительный пожар уничтожил исторический амбар до самого фундамента.",
+        "en": "Yesterday the devastating fire destroyed the historic barn down to its foundation walls."
+      },
+      "bracket_parts": [
+        "zerstörte"
+      ],
+      "akkusativ_parts": [
+        "die historische Scheune"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das schwere Erdbeben hat vor vielen Jahren mehrere Dörfer in der Region zerstört.",
+      "translation": {
+        "ru": "Сильное землетрясение много лет назад разрушило несколько деревень в этом регионе.",
+        "en": "The severe earthquake destroyed several villages in the region many years ago."
+      },
+      "bracket_parts": [
+        "hat",
+        "zerstört"
+      ],
+      "akkusativ_parts": [
+        "mehrere Dörfer"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Zerstören Sie bitte nicht die Hoffnungen dieser jungen Talente!",
+      "translation": {
+        "ru": "Не разрушайте, пожалуйста, надежды этих молодых талантов!",
+        "en": "Please do not destroy the hopes of these young talents!"
+      },
+      "bracket_parts": [
+        "Zerstören"
+      ],
+      "akkusativ_parts": [
+        "die Hoffnungen dieser jungen Talente"
+      ]
+    }
+  ]
+}

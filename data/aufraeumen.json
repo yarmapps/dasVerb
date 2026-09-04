@@ -1,0 +1,185 @@
+{
+  "id": "aufraeumen",
+  "infinitive": "aufräumen",
+  "translation": {
+    "ru": "убирать, наводить порядок",
+    "en": "to tidy up, to clean up"
+  },
+  "level": "A2",
+  "frequency_rank": 260,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufräumen",
+    "present_3sg": "räumt auf",
+    "praeteritum_3sg": "räumte auf",
+    "partizip_2": "aufgeräumt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "räume auf",
+      "du": "räumst auf",
+      "er_sie_es": "räumt auf",
+      "wir": "räumen auf",
+      "ihr": "räumt auf",
+      "sie_Sie": "räumen auf",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "räumte auf",
+      "du": "räumtest auf",
+      "er_sie_es": "räumte auf",
+      "wir": "räumten auf",
+      "ihr": "räumtet auf",
+      "sie_Sie": "räumten auf"
+    },
+    "imperative": {
+      "du": "räum auf!",
+      "ihr": "räumt auf!",
+      "Sie": "räumen Sie auf!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das Zimmer / die Küche (Akk) aufräumen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich räume jeden Samstagvormittag gründlich meine gesamte Wohnung auf.",
+      "translation": {
+        "ru": "Я каждую субботу утром основательно убираю всю свою квартиру.",
+        "en": "I clean up my entire flat thoroughly every Saturday morning."
+      },
+      "bracket_parts": [
+        "räume",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "meine gesamte Wohnung"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Räumst du bitte endlich dein unordentliches Kinderzimmer auf?",
+      "translation": {
+        "ru": "Уберешь, пожалуйста, наконец в своей неприбранной детской комнате?",
+        "en": "Will you please finally tidy up your messy bedroom?"
+      },
+      "bracket_parts": [
+        "Räumst",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "dein unordentliches Kinderzimmer"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der kleine Junge räumt seine vielen Spielsachen vor dem Schlafen auf.",
+      "translation": {
+        "ru": "Маленький мальчик убирает свои многочисленные игрушки перед сном.",
+        "en": "The little boy puts away his many toys before going to sleep."
+      },
+      "bracket_parts": [
+        "räumt",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "seine vielen Spielsachen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir räumen nach dem festlichen Abendessen gemeinsam die Küche auf.",
+      "translation": {
+        "ru": "После праздничного ужина мы вместе убираем кухню.",
+        "en": "After the festive dinner we tidy up the kitchen together."
+      },
+      "bracket_parts": [
+        "räumen",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die Küche"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Räumt ihr nach der großen Feier den Partyraum wieder auf?",
+      "translation": {
+        "ru": "Вы уберете зал для вечеринок после большого праздника?",
+        "en": "Are you cleaning up the party room after the big celebration?"
+      },
+      "bracket_parts": [
+        "Räumt",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "den Partyraum"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern räumte sie nach der langen Renovierung den Keller auf.",
+      "translation": {
+        "ru": "Вчера после долгого ремонта она навела порядок в подвале.",
+        "en": "Yesterday she tidied up the cellar after the long renovation."
+      },
+      "bracket_parts": [
+        "räumte",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "den Keller"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Kinder haben ihre Spielzeuge vor dem Besuch brav aufgeräumt.",
+      "translation": {
+        "ru": "Дети послушно убрали свои игрушки перед приходом гостей.",
+        "en": "The children tidied up their toys well before the guests arrived."
+      },
+      "bracket_parts": [
+        "haben",
+        "aufgeräumt"
+      ],
+      "akkusativ_parts": [
+        "ihre Spielzeuge"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Räum bitte sofort deinen Schreibtisch auf!",
+      "translation": {
+        "ru": "Убери, пожалуйста, немедленно на своем письменном столе!",
+        "en": "Please tidy up your desk immediately!"
+      },
+      "bracket_parts": [
+        "Räum",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "deinen Schreibtisch"
+      ]
+    }
+  ]
+}

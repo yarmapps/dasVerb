@@ -1,0 +1,152 @@
+{
+  "id": "muessen",
+  "infinitive": "müssen",
+  "translation": {
+    "ru": "быть обязанным, долженствовать",
+    "en": "to have to, must"
+  },
+  "level": "A1",
+  "frequency_rank": 6,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "modal",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "müssen",
+    "present_3sg": "muss",
+    "praeteritum_3sg": "musste",
+    "partizip_2": "gemusst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "muss",
+      "du": "musst",
+      "er_sie_es": "muss",
+      "wir": "müssen",
+      "ihr": "müsst",
+      "sie_Sie": "müssen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "musste",
+      "du": "musstest",
+      "er_sie_es": "musste",
+      "wir": "mussten",
+      "ihr": "musstet",
+      "sie_Sie": "mussten"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "viel lernen / nach Hause gehen müssen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich muss heute für die Schule lernen.",
+      "translation": {
+        "ru": "Мне нужно сегодня учиться для школы.",
+        "en": "I have to study for school today."
+      },
+      "bracket_parts": [
+        "muss"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Musst du jetzt sofort nach Hause gehen?",
+      "translation": {
+        "ru": "Тебе нужно прямо сейчас идти домой?",
+        "en": "Do you have to go home right now?"
+      },
+      "bracket_parts": [
+        "Musst"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er muss jeden Morgen sehr früh aufstehen.",
+      "translation": {
+        "ru": "Он должен каждое утро очень рано вставать.",
+        "en": "He has to get up very early every morning."
+      },
+      "bracket_parts": [
+        "muss"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir müssen heute unsere Hausaufgaben machen.",
+      "translation": {
+        "ru": "Мы должны сегодня сделать наши домашние задания.",
+        "en": "We have to do our homework today."
+      },
+      "bracket_parts": [
+        "müssen"
+      ],
+      "akkusativ_parts": [
+        "unsere Hausaufgaben"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Müsst ihr am Wochenende auch arbeiten?",
+      "translation": {
+        "ru": "Вы должны в выходные тоже работать?",
+        "en": "Do you also have to work on the weekend?"
+      },
+      "bracket_parts": [
+        "Müsst"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern musste sie lange im Büro bleiben.",
+      "translation": {
+        "ru": "Вчера ей пришлось долго оставаться в офисе.",
+        "en": "Yesterday she had to stay in the office for a long time."
+      },
+      "bracket_parts": [
+        "musste"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben gestern bis in die Nacht arbeiten müssen.",
+      "translation": {
+        "ru": "Они вчера должны были работать до ночи.",
+        "en": "They had to work into the night yesterday."
+      },
+      "bracket_parts": [
+        "haben",
+        "müssen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Müssen Sie jetzt wirklich schon gehen?",
+      "translation": {
+        "ru": "Вам действительно уже нужно уходить?",
+        "en": "Do you really have to go already?"
+      },
+      "bracket_parts": [
+        "Müssen"
+      ]
+    }
+  ]
+}

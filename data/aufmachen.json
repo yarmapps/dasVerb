@@ -1,0 +1,188 @@
+{
+  "id": "aufmachen",
+  "infinitive": "aufmachen",
+  "translation": {
+    "ru": "открывать (окно, дверь, банку)",
+    "en": "to open (door, window, jar)"
+  },
+  "level": "A2",
+  "frequency_rank": 240,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufmachen",
+    "present_3sg": "macht auf",
+    "praeteritum_3sg": "machte auf",
+    "partizip_2": "aufgemacht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "mache auf",
+      "du": "machst auf",
+      "er_sie_es": "macht auf",
+      "wir": "machen auf",
+      "ihr": "macht auf",
+      "sie_Sie": "machen auf",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "machte auf",
+      "du": "machtest auf",
+      "er_sie_es": "machte auf",
+      "wir": "machten auf",
+      "ihr": "machtet auf",
+      "sie_Sie": "machten auf"
+    },
+    "imperative": {
+      "du": "mach auf!",
+      "ihr": "macht auf!",
+      "Sie": "machen Sie auf!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das Fenster / die Flasche (Akk) aufmachen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich mache wegen der heißen Luft im Raum kurz das Fenster auf.",
+      "translation": {
+        "ru": "Из-за горячего воздуха в комнате я ненадолго открываю окно.",
+        "en": "Because of the hot air in the room, I briefly open the window."
+      },
+      "bracket_parts": [
+        "mache",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "das Fenster"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Machst du mir bitte schnell dieses fest verschlossene Glas auf?",
+      "translation": {
+        "ru": "Откроешь мне, пожалуйста, быстро эту плотно закрытую банку?",
+        "en": "Will you please quickly open this tightly closed jar for me?"
+      },
+      "bracket_parts": [
+        "Machst",
+        "auf"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "dieses fest verschlossene Glas"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Kellner macht für die Gäste eine Flasche kühlen Mineralwassers auf.",
+      "translation": {
+        "ru": "Официант открывает для гостей бутылку прохладной минеральной воды.",
+        "en": "The waiter opens a bottle of cool mineral water for the guests."
+      },
+      "bracket_parts": [
+        "macht",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "eine Flasche"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir machen die Balkontür auf, um frische Abendluft hereinzulassen.",
+      "translation": {
+        "ru": "Мы открываем балконную дверь, чтобы впустить свежий вечерний воздух.",
+        "en": "We open the balcony door to let in fresh evening air."
+      },
+      "bracket_parts": [
+        "machen",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die Balkontür"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Macht ihr am Heiligen Abend die Geschenke unter dem Baum auf?",
+      "translation": {
+        "ru": "Вы открываете в Сочельник подарки под елкой?",
+        "en": "Do you open the presents under the tree on Christmas Eve?"
+      },
+      "bracket_parts": [
+        "Macht",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die Geschenke"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern machte sie neugierig das kleine Päckchen ihrer Freundin auf.",
+      "translation": {
+        "ru": "Вчера она с любопытством открыла маленькую посылочку от своей подруги.",
+        "en": "Yesterday she curiously opened the small parcel from her friend."
+      },
+      "bracket_parts": [
+        "machte",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "das kleine Päckchen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die Wohnungstür für den Besuch sofort aufgemacht.",
+      "translation": {
+        "ru": "Они сразу открыли дверь квартиры гостям.",
+        "en": "They opened the flat door for the visitors immediately."
+      },
+      "bracket_parts": [
+        "haben",
+        "aufgemacht"
+      ],
+      "akkusativ_parts": [
+        "die Wohnungstür"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Mach bitte das Fenster auf, es ist stickig hier!",
+      "translation": {
+        "ru": "Открой, пожалуйста, окно, здесь душно!",
+        "en": "Please open the window, it is stuffy in here!"
+      },
+      "bracket_parts": [
+        "Mach",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "das Fenster"
+      ]
+    }
+  ]
+}

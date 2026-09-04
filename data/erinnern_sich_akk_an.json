@@ -1,0 +1,186 @@
+{
+  "id": "erinnern_sich_akk_an",
+  "infinitive": "sich erinnern",
+  "translation": {
+    "ru": "вспоминать (о чем-то/ком-то)",
+    "en": "to remember (something/someone)"
+  },
+  "level": "B1",
+  "frequency_rank": 92,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich erinnern",
+    "present_3sg": "erinnert sich",
+    "praeteritum_3sg": "erinnerte sich",
+    "partizip_2": "erinnert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erinnere mich",
+      "du": "erinnerst dich",
+      "er_sie_es": "erinnert sich",
+      "wir": "erinnern uns",
+      "ihr": "erinnert euch",
+      "sie_Sie": "erinnern sich",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "erinnerte mich",
+      "du": "erinnertest dich",
+      "er_sie_es": "erinnerte sich",
+      "wir": "erinnerten uns",
+      "ihr": "erinnertet euch",
+      "sie_Sie": "erinnerten sich"
+    },
+    "imperative": {
+      "du": "erinnere dich!",
+      "ihr": "erinnert euch!",
+      "Sie": "erinnern Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "an",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich an die schöne Schulzeit (Akk) erinnern",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erinnere mich noch sehr lebhaft an meinen ersten Schultag.",
+      "translation": {
+        "ru": "Я еще очень живо помню свой первый школьный день.",
+        "en": "I still remember my first day of school very vividly."
+      },
+      "bracket_parts": [
+        "erinnere"
+      ],
+      "akkusativ_parts": [
+        "mich",
+        "an meinen ersten Schultag"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erinnerst du dich an den Namen des freundlichen Kellners in Rom?",
+      "translation": {
+        "ru": "Ты помнишь имя того приветливого официанта в Риме?",
+        "en": "Do you remember the name of the friendly waiter in Rome?"
+      },
+      "bracket_parts": [
+        "Erinnerst"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "an den Namen des freundlichen Kellners"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der alte Herr erinnert sich gerne an seine aufregenden Reisen in die Ferne.",
+      "translation": {
+        "ru": "Пожилой господин с удовольствием вспоминает свои захватывающие путешествия в дальние края.",
+        "en": "The elderly gentleman likes remembering his exciting journeys to faraway places."
+      },
+      "bracket_parts": [
+        "erinnert"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "an seine aufregenden Reisen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erinnern uns oft an die gemeinsamen Abende am warmen Kaminfeuer.",
+      "translation": {
+        "ru": "Мы часто вспоминаем совместные вечера у теплого камина.",
+        "en": "We often remember the evenings together by the warm fireplace."
+      },
+      "bracket_parts": [
+        "erinnern"
+      ],
+      "akkusativ_parts": [
+        "uns",
+        "an die gemeinsamen Abende"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erinnert ihr euch noch genau an die Abfahrtszeit unseres Zuges?",
+      "translation": {
+        "ru": "Вы еще точно помните время отправления нашего поезда?",
+        "en": "Do you still remember the exact departure time of our train?"
+      },
+      "bracket_parts": [
+        "Erinnert"
+      ],
+      "akkusativ_parts": [
+        "euch",
+        "an die Abfahrtszeit unseres Zuges"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern erinnerte sie sich plötzlich an die vergessene Verabredung mit dem Arzt.",
+      "translation": {
+        "ru": "Вчера она внезапно вспомнила о забытой записи к врачу.",
+        "en": "Yesterday she suddenly remembered the forgotten appointment with the doctor."
+      },
+      "bracket_parts": [
+        "erinnerte"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "an die vergessene Verabredung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben sich beim Klassentreffen an viele lustige Streiche erinnert.",
+      "translation": {
+        "ru": "На встрече выпускников они вспомнили множество веселых шалостей.",
+        "en": "At the class reunion they remembered many funny pranks."
+      },
+      "bracket_parts": [
+        "haben",
+        "erinnert"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "an viele lustige Streiche"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erinnern Sie sich bitte an unsere getroffene Vereinbarung!",
+      "translation": {
+        "ru": "Вспомните, пожалуйста, о нашей достигнутой договоренности!",
+        "en": "Please remember our agreed arrangement!"
+      },
+      "bracket_parts": [
+        "Erinnern"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "an unsere getroffene Vereinbarung"
+      ]
+    }
+  ]
+}

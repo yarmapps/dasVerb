@@ -1,0 +1,172 @@
+{
+  "id": "bemerken",
+  "infinitive": "bemerken",
+  "translation": {
+    "ru": "замечать, подмечать",
+    "en": "to notice, to remark"
+  },
+  "level": "B1",
+  "frequency_rank": 108,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bemerken",
+    "present_3sg": "bemerkt",
+    "praeteritum_3sg": "bemerkte",
+    "partizip_2": "bemerkt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bemerke",
+      "du": "bemerkst",
+      "er_sie_es": "bemerkt",
+      "wir": "bemerken",
+      "ihr": "bemerkt",
+      "sie_Sie": "bemerken",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "bemerkte",
+      "du": "bemerktest",
+      "er_sie_es": "bemerkte",
+      "wir": "bemerkten",
+      "ihr": "bemerktet",
+      "sie_Sie": "bemerkten"
+    },
+    "imperative": {
+      "du": "bemerk!",
+      "ihr": "bemerkt!",
+      "Sie": "bemerken Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen kleinen Fehler (Akk) sofort bemerken",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich bemerke sofort, wenn in meiner gewohnten Arbeitsumgebung etwas nicht stimmt.",
+      "translation": {
+        "ru": "Я сразу замечаю, когда в моей привычной рабочей обстановке что-то не так.",
+        "en": "I notice immediately when something is wrong in my usual work environment."
+      },
+      "bracket_parts": [
+        "bemerke"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Bemerkst du die neue Frisur deiner besten Freundin heute eigentlich gar nicht?",
+      "translation": {
+        "ru": "Ты новую прическу своей лучшей подруги сегодня вообще не замечаешь?",
+        "en": "Do you actually not notice your best friend's new hairstyle today at all?"
+      },
+      "bracket_parts": [
+        "Bemerkst"
+      ],
+      "akkusativ_parts": [
+        "die neue Frisur deiner besten Freundin"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der erfahrene Lektor bemerkt selbst kleinste Tippfehler im langen Manuskript.",
+      "translation": {
+        "ru": "Опытный корректор замечает даже мельчайшие опечатки в длинной рукописи.",
+        "en": "The experienced editor notices even the smallest typos in the long manuscript."
+      },
+      "bracket_parts": [
+        "bemerkt"
+      ],
+      "akkusativ_parts": [
+        "selbst kleinste Tippfehler"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir bemerken in den letzten Monaten eine spürbare Verbesserung der Kommunikation im Betrieb.",
+      "translation": {
+        "ru": "В последние месяцы мы замечаем ощутимое улучшение коммуникации на предприятии.",
+        "en": "In recent months we have noticed a noticeable improvement in communication within the company."
+      },
+      "bracket_parts": [
+        "bemerken"
+      ],
+      "akkusativ_parts": [
+        "eine spürbare Verbesserung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bemerkt ihr den angenehmen Duft von frischem Kaffee im ganzen Treppenhaus?",
+      "translation": {
+        "ru": "Вы замечаете приятный аромат свежего кофе во всем подъезде?",
+        "en": "Do you notice the pleasant scent of fresh coffee throughout the stairwell?"
+      },
+      "bracket_parts": [
+        "Bemerkt"
+      ],
+      "akkusativ_parts": [
+        "den angenehmen Duft"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern bemerkte sie erst an der Kasse, dass sie ihr Portemonnaie vergessen hatte.",
+      "translation": {
+        "ru": "Вчера только у кассы она заметила, что забыла свой кошелек.",
+        "en": "Yesterday she only noticed at the checkout that she had forgotten her wallet."
+      },
+      "bracket_parts": [
+        "bemerkte"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Autofahrer haben das neue Verkehrsschild an der Kreuzung rechtzeitig bemerkt.",
+      "translation": {
+        "ru": "Водители вовремя заметили новый дорожный знак на перекрестке.",
+        "en": "Drivers noticed the new traffic sign at the intersection in good time."
+      },
+      "bracket_parts": [
+        "haben",
+        "bemerkt"
+      ],
+      "akkusativ_parts": [
+        "das neue Verkehrsschild"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Bemerken Sie bitte auch die kleinen Fortschritte Ihrer Kursteilnehmer!",
+      "translation": {
+        "ru": "Замечайте, пожалуйста, также маленькие успехи участников вашего курса!",
+        "en": "Please also notice the small progress of your course participants!"
+      },
+      "bracket_parts": [
+        "Bemerken"
+      ],
+      "akkusativ_parts": [
+        "die kleinen Fortschritte"
+      ]
+    }
+  ]
+}

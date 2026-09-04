@@ -1,0 +1,185 @@
+{
+  "id": "einfallen_dat",
+  "infinitive": "einfallen",
+  "translation": {
+    "ru": "приходить на ум, вспоминаться",
+    "en": "to occur to, to come to mind"
+  },
+  "level": "A2",
+  "frequency_rank": 140,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einfallen",
+    "present_3sg": "fällt ein",
+    "praeteritum_3sg": "fiel ein",
+    "partizip_2": "eingefallen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "falle ein",
+      "du": "fällst ein",
+      "er_sie_es": "fällt ein",
+      "wir": "fallen ein",
+      "ihr": "fallt ein",
+      "sie_Sie": "fallen ein",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "fiel ein",
+      "du": "fielst ein",
+      "er_sie_es": "fiel ein",
+      "wir": "fielen ein",
+      "ihr": "fielt ein",
+      "sie_Sie": "fielen ein"
+    },
+    "imperative": {
+      "du": "fall ein!",
+      "ihr": "fallt ein!",
+      "Sie": "fallen Sie ein!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "mir (Dat) fällt kein passendes Wort ein",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Mir fällt in diesem Moment einfach keine passende Antwort ein.",
+      "translation": {
+        "ru": "Мне в этот момент просто никакой подходящий ответ не приходит на ум.",
+        "en": "At this moment no suitable answer simply comes to my mind."
+      },
+      "bracket_parts": [
+        "fällt",
+        "ein"
+      ],
+      "dativ_parts": [
+        "Mir"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Fällt dir spontan ein schönes Geschenk für unsere Mutter ein?",
+      "translation": {
+        "ru": "Тебе спонтанно приходит на ум какой-нибудь хороший подарок для нашей мамы?",
+        "en": "Does a nice gift for our mother come to your mind spontaneously?"
+      },
+      "bracket_parts": [
+        "Fällt",
+        "ein"
+      ],
+      "dativ_parts": [
+        "dir"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Dem Schüler fällt die gesuchte Lösung nach kurzem Nachdenken ein.",
+      "translation": {
+        "ru": "Ученику после недолгого размышления приходит на ум искомое решение.",
+        "en": "The desired solution occurs to the student after brief reflection."
+      },
+      "bracket_parts": [
+        "fällt",
+        "ein"
+      ],
+      "dativ_parts": [
+        "Dem Schüler"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Uns fällt bestimmt bald ein kreativer Name für das neue Projekt ein.",
+      "translation": {
+        "ru": "Нам наверняка скоро придет в голову креативное название для нового проекта.",
+        "en": "A creative name for the new project will certainly occur to us soon."
+      },
+      "bracket_parts": [
+        "fällt",
+        "ein"
+      ],
+      "dativ_parts": [
+        "Uns"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Fällt euch zu dieser schwierigen Frage noch ein weiteres Argument ein?",
+      "translation": {
+        "ru": "Вам по этому сложному вопросу приходит на ум еще один аргумент?",
+        "en": "Does another argument occur to you on this difficult question?"
+      },
+      "bracket_parts": [
+        "Fällt",
+        "ein"
+      ],
+      "dativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern fiel ihr der Name ihres früheren Lehrers plötzlich wieder ein.",
+      "translation": {
+        "ru": "Вчера ей внезапно снова вспомнилось имя ее прежнего учителя.",
+        "en": "Yesterday her former teacher's name suddenly came back to her."
+      },
+      "bracket_parts": [
+        "fiel",
+        "ein"
+      ],
+      "dativ_parts": [
+        "ihr"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Den Forschern ist bei dem Experiment eine völlig neue Methode eingefallen.",
+      "translation": {
+        "ru": "Исследователям во время эксперимента пришел в голову совершенно новый метод.",
+        "en": "A completely new method occurred to the researchers during the experiment."
+      },
+      "bracket_parts": [
+        "ist",
+        "eingefallen"
+      ],
+      "dativ_parts": [
+        "Den Forschern"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Lass dir bitte bis morgen eine gute Lösung einfallen!",
+      "translation": {
+        "ru": "Придумай, пожалуйста, к завтрашнему дню хорошее решение!",
+        "en": "Please come up with a good solution by tomorrow!"
+      },
+      "bracket_parts": [
+        "Lass",
+        "einfallen"
+      ],
+      "dativ_parts": [
+        "dir"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "uebernehmen",
+  "infinitive": "übernehmen",
+  "translation": {
+    "ru": "брать на себя (ответственность, руководство, расходы)",
+    "en": "to take over, to assume (responsibility/costs)"
+  },
+  "level": "B1",
+  "frequency_rank": 210,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "über",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "übernehmen",
+    "present_3sg": "übernimmt",
+    "praeteritum_3sg": "übernahm",
+    "partizip_2": "übernommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "übernehme",
+      "du": "übernimmst",
+      "er_sie_es": "übernimmt",
+      "wir": "übernehmen",
+      "ihr": "übernehmt",
+      "sie_Sie": "übernehmen",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "übernahm",
+      "du": "übernahmst",
+      "er_sie_es": "übernahm",
+      "wir": "übernahmen",
+      "ihr": "übernahmt",
+      "sie_Sie": "übernahmen"
+    },
+    "imperative": {
+      "du": "übernimm!",
+      "ihr": "übernehmt!",
+      "Sie": "übernehmen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die volle Verantwortung / alle Kosten (Akk) übernehmen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich übernehme gerne die Leitung dieser neuen Arbeitsgruppe im Betrieb.",
+      "translation": {
+        "ru": "Я с удовольствием беру на себя руководство этой новой рабочей группой на предприятии.",
+        "en": "I gladly take over the leadership of this new working group in the company."
+      },
+      "bracket_parts": [
+        "übernehme"
+      ],
+      "akkusativ_parts": [
+        "die Leitung"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Übernimmst du bei diesem wichtigen Kundenauftrag die Endkontrolle?",
+      "translation": {
+        "ru": "Ты возьмешь на себя окончательный контроль в этом важном заказе клиента?",
+        "en": "Are you taking over the final inspection on this important customer order?"
+      },
+      "bracket_parts": [
+        "Übernimmst"
+      ],
+      "akkusativ_parts": [
+        "die Endkontrolle"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Krankenversicherung übernimmt in diesem Fall alle anfallenden Behandlungskosten.",
+      "translation": {
+        "ru": "Медицинская страховка берет на себя в этом случае все возникающие расходы на лечение.",
+        "en": "The health insurance covers all treatment costs incurred in this case."
+      },
+      "bracket_parts": [
+        "übernimmt"
+      ],
+      "akkusativ_parts": [
+        "alle anfallenden Behandlungskosten"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir übernehmen als Team die volle Verantwortung für das Gelingen des Projekts.",
+      "translation": {
+        "ru": "Мы как команда берем на себя полную ответственность за успех проекта.",
+        "en": "As a team, we take full responsibility for the success of the project."
+      },
+      "bracket_parts": [
+        "übernehmen"
+      ],
+      "akkusativ_parts": [
+        "die volle Verantwortung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Übernehmt ihr bei der Organisation der Feier die Vorbereitung des Buffets?",
+      "translation": {
+        "ru": "Вы возьмете на себя при организации праздника подготовку шведского стола?",
+        "en": "Are you taking over the preparation of the buffet in organising the celebration?"
+      },
+      "bracket_parts": [
+        "Übernehmt"
+      ],
+      "akkusativ_parts": [
+        "die Vorbereitung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern übernahm der jüngere Sohn offiziell die Führung des traditionsreichen Familienunternehmens.",
+      "translation": {
+        "ru": "Вчера младший сын официально взял на себя руководство традиционным семейным предприятием.",
+        "en": "Yesterday the younger son officially took over the management of the traditional family business."
+      },
+      "bracket_parts": [
+        "übernahm"
+      ],
+      "akkusativ_parts": [
+        "die Führung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die zusätzlichen Reisekosten für ihre Gäste großzügig übernommen.",
+      "translation": {
+        "ru": "Они щедро взяли на себя дополнительные дорожные расходы за своих гостей.",
+        "en": "They generously covered the additional travel expenses for their guests."
+      },
+      "bracket_parts": [
+        "haben",
+        "übernommen"
+      ],
+      "akkusativ_parts": [
+        "die zusätzlichen Reisekosten"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Übernehmen Sie bitte die Koordination der Termine für nächste Woche!",
+      "translation": {
+        "ru": "Возьмите на себя, пожалуйста, координацию встреч на следующую неделю!",
+        "en": "Please take over the coordination of appointments for next week!"
+      },
+      "bracket_parts": [
+        "Übernehmen"
+      ],
+      "akkusativ_parts": [
+        "die Koordination"
+      ]
+    }
+  ]
+}

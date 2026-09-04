@@ -1,0 +1,161 @@
+{
+  "id": "mitkommen",
+  "infinitive": "mitkommen",
+  "translation": {
+    "ru": "идти вместе, пойти за компанию",
+    "en": "to come along, to join"
+  },
+  "level": "A2",
+  "frequency_rank": 270,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "mit",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "mitkommen",
+    "present_3sg": "kommt mit",
+    "praeteritum_3sg": "kam mit",
+    "partizip_2": "mitgekommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "komme mit",
+      "du": "kommst mit",
+      "er_sie_es": "kommt mit",
+      "wir": "kommen mit",
+      "ihr": "kommt mit",
+      "sie_Sie": "kommen mit",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "kam mit",
+      "du": "kamst mit",
+      "er_sie_es": "kam mit",
+      "wir": "kamen mit",
+      "ihr": "kamt mit",
+      "sie_Sie": "kamen mit"
+    },
+    "imperative": {
+      "du": "komm mit!",
+      "ihr": "kommt mit!",
+      "Sie": "kommen Sie mit!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ins Kino / zum Konzert mitkommen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich komme heute Abend sehr gerne mit ins Kino.",
+      "translation": {
+        "ru": "Я с большим удовольствием пойду сегодня вечером с вами в кино.",
+        "en": "I would love to come along to the cinema tonight."
+      },
+      "bracket_parts": [
+        "komme",
+        "mit"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Kommst du morgen Nachmittag mit uns in die Stadt?",
+      "translation": {
+        "ru": "Пойдешь завтра днем с нами за компанию в город?",
+        "en": "Are you coming along to the city with us tomorrow afternoon?"
+      },
+      "bracket_parts": [
+        "Kommst",
+        "mit"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der kleine Junge kommt trotz der Kälte fröhlich mit zum Spielplatz.",
+      "translation": {
+        "ru": "Маленький мальчик, несмотря на холод, весело идет за компанию на детскую площадку.",
+        "en": "The little boy cheerfully comes along to the playground despite the cold."
+      },
+      "bracket_parts": [
+        "kommt",
+        "mit"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir kommen am Wochenende gerne mit zu eurer Bergwanderung.",
+      "translation": {
+        "ru": "Мы на выходных с удовольствием пойдем с вами в горный поход.",
+        "en": "We would gladly come along on your mountain hike at the weekend."
+      },
+      "bracket_parts": [
+        "kommen",
+        "mit"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kommt ihr heute Abend alle mit in das neue Restaurant am Fluss?",
+      "translation": {
+        "ru": "Вы пойдете сегодня вечером все за компанию в новый ресторан у реки?",
+        "en": "Are you all coming along to the new restaurant by the river tonight?"
+      },
+      "bracket_parts": [
+        "Kommt",
+        "mit"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern kam sie spontan mit zur Geburtstagsfeier meiner Schwester.",
+      "translation": {
+        "ru": "Вчера она спонтанно пошла за компанию на день рождения моей сестры.",
+        "en": "Yesterday she spontaneously came along to my sister's birthday party."
+      },
+      "bracket_parts": [
+        "kam",
+        "mit"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Alle unsere Freunde sind gestern Abend gerne mit ins Theater mitgekommen.",
+      "translation": {
+        "ru": "Все наши друзья вчера вечером с удовольствием пошли с нами в театр.",
+        "en": "All our friends gladly came along to the theatre yesterday evening."
+      },
+      "bracket_parts": [
+        "sind",
+        "mitgekommen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Komm bitte mit, wir brauchen deine Unterstützung!",
+      "translation": {
+        "ru": "Пойдем, пожалуйста, с нами, нам нужна твоя поддержка!",
+        "en": "Please come along, we need your support!"
+      },
+      "bracket_parts": [
+        "Komm",
+        "mit"
+      ]
+    }
+  ]
+}

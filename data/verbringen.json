@@ -1,0 +1,178 @@
+{
+  "id": "verbringen",
+  "infinitive": "verbringen",
+  "translation": {
+    "ru": "проводить (время)",
+    "en": "to spend (time)"
+  },
+  "level": "A2",
+  "frequency_rank": 178,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "mixed",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verbringen",
+    "present_3sg": "verbringt",
+    "praeteritum_3sg": "verbrachte",
+    "partizip_2": "verbracht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verbringe",
+      "du": "verbringst",
+      "er_sie_es": "verbringt",
+      "wir": "verbringen",
+      "ihr": "verbringt",
+      "sie_Sie": "verbringen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "verbrachte",
+      "du": "verbrachtest",
+      "er_sie_es": "verbrachte",
+      "wir": "verbrachten",
+      "ihr": "verbrachtet",
+      "sie_Sie": "verbrachten"
+    },
+    "imperative": {
+      "du": "verbring!",
+      "ihr": "verbringt!",
+      "Sie": "verbringen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Zeit / den Urlaub (Akk) verbringen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verbringe meine freien Wochenenden am liebsten in der Natur.",
+      "translation": {
+        "ru": "Я провожу свои свободные выходные охотнее всего на природе.",
+        "en": "I prefer to spend my free weekends in nature."
+      },
+      "bracket_parts": [
+        "verbringe"
+      ],
+      "akkusativ_parts": [
+        "meine freien Wochenenden"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verbringst du deinen nächsten Urlaub wieder bei Verwandten in Spanien?",
+      "translation": {
+        "ru": "Ты проведешь свой следующий отпуск снова у родственников в Испании?",
+        "en": "Are you spending your next holiday with relatives in Spain again?"
+      },
+      "bracket_parts": [
+        "Verbringst"
+      ],
+      "akkusativ_parts": [
+        "deinen nächsten Urlaub"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der fleißige Student verbringt jeden Nachmittag viele Stunden in der Universitätsbibliothek.",
+      "translation": {
+        "ru": "Прилежный студент проводит каждый день после обеда много часов в университетской библиотеке.",
+        "en": "The diligent student spends many hours in the university library every afternoon."
+      },
+      "bracket_parts": [
+        "verbringt"
+      ],
+      "akkusativ_parts": [
+        "viele Stunden"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verbringen die Feiertage dieses Jahr gemütlich mit der ganzen Familie.",
+      "translation": {
+        "ru": "Мы проводим праздники в этом году уютно со всей семьей.",
+        "en": "We are spending the holidays cosily with the whole family this year."
+      },
+      "bracket_parts": [
+        "verbringen"
+      ],
+      "akkusativ_parts": [
+        "die Feiertage"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verbringt ihr eure Sommerferien am Strand oder wandert ihr lieber in den Bergen?",
+      "translation": {
+        "ru": "Вы проводите свои летние каникулы на пляже или предпочитаете походы в горах?",
+        "en": "Are you spending your summer holidays on the beach or do you prefer hiking in the mountains?"
+      },
+      "bracket_parts": [
+        "Verbringt"
+      ],
+      "akkusativ_parts": [
+        "eure Sommerferien"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern verbrachte sie den gesamten Nachmittag mit einem spannenden Buch im Garten.",
+      "translation": {
+        "ru": "Вчера она провела всю вторую половину дня с захватывающей книгой в саду.",
+        "en": "Yesterday she spent the whole afternoon with an exciting book in the garden."
+      },
+      "bracket_parts": [
+        "verbrachte"
+      ],
+      "akkusativ_parts": [
+        "den gesamten Nachmittag"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben zwei unvergessliche Wochen in der wunderschönen Stadt Wien verbracht.",
+      "translation": {
+        "ru": "Они провели две незабываемые недели в прекрасном городе Вене.",
+        "en": "They spent two unforgettable weeks in the wonderful city of Vienna."
+      },
+      "bracket_parts": [
+        "haben",
+        "verbracht"
+      ],
+      "akkusativ_parts": [
+        "zwei unvergessliche Wochen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verbringen Sie eine erholsame Zeit bei uns im Hotel!",
+      "translation": {
+        "ru": "Проведите время с пользой для отдыха у нас в отеле!",
+        "en": "Spend a relaxing time with us in the hotel!"
+      },
+      "bracket_parts": [
+        "Verbringen"
+      ],
+      "akkusativ_parts": [
+        "eine erholsame Zeit"
+      ]
+    }
+  ]
+}

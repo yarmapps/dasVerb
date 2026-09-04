@@ -1,0 +1,202 @@
+{
+  "id": "beschaeftigen_sich_dat_mit",
+  "infinitive": "sich beschäftigen",
+  "translation": {
+    "ru": "заниматься (чем-то), уделять внимание",
+    "en": "to deal with, to occupy oneself with"
+  },
+  "level": "B1",
+  "frequency_rank": 150,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich beschäftigen",
+    "present_3sg": "beschäftigt sich",
+    "praeteritum_3sg": "beschäftigte sich",
+    "partizip_2": "beschäftigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beschäftige mich",
+      "du": "beschäftigst dich",
+      "er_sie_es": "beschäftigt sich",
+      "wir": "beschäftigen uns",
+      "ihr": "beschäftigt euch",
+      "sie_Sie": "beschäftigen sich",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "beschäftigte mich",
+      "du": "beschäftigtest dich",
+      "er_sie_es": "beschäftigte sich",
+      "wir": "beschäftigten uns",
+      "ihr": "beschäftigtet euch",
+      "sie_Sie": "beschäftigten sich"
+    },
+    "imperative": {
+      "du": "beschäftige dich!",
+      "ihr": "beschäftigt euch!",
+      "Sie": "beschäftigen Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "sich mit einem interessanten Thema (Dat) beschäftigen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich beschäftige mich in meiner Freizeit intensiv mit deutscher Grammatik.",
+      "translation": {
+        "ru": "В свободное время я интенсивно занимаюсь немецкой грамматикой.",
+        "en": "In my spare time I deal intensively with German grammar."
+      },
+      "bracket_parts": [
+        "beschäftige"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": [
+        "mit deutscher Grammatik"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Beschäftigst du dich in deiner Masterarbeit mit künstlicher Intelligenz?",
+      "translation": {
+        "ru": "Ты занимаешься в своей магистерской работе искусственным интеллектом?",
+        "en": "Are you dealing with artificial intelligence in your master's thesis?"
+      },
+      "bracket_parts": [
+        "Beschäftigst"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "mit künstlicher Intelligenz"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Forschungsgruppe beschäftigt sich mit den Folgen der globalen Erwärmung.",
+      "translation": {
+        "ru": "Исследовательская группа занимается последствиями глобального потепления.",
+        "en": "The research group is dealing with the consequences of global warming."
+      },
+      "bracket_parts": [
+        "beschäftigt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "mit den Folgen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beschäftigen uns im Seminar ausführlich mit zeitgenössischer Philosophie.",
+      "translation": {
+        "ru": "Мы подробно занимаемся на семинаре современной философией.",
+        "en": "In the seminar we deal in detail with contemporary philosophy."
+      },
+      "bracket_parts": [
+        "beschäftigen"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ],
+      "dativ_parts": [
+        "mit zeitgenössischer Philosophie"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Beschäftigt ihr euch bei eurem Projekt mit nachhaltiger Stadtentwicklung?",
+      "translation": {
+        "ru": "Вы занимаетесь в своем проекте устойчивым развитием городов?",
+        "en": "Are you dealing with sustainable urban development in your project?"
+      },
+      "bracket_parts": [
+        "Beschäftigt"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ],
+      "dativ_parts": [
+        "mit nachhaltiger Stadtentwicklung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern beschäftigte sie sich den ganzen Nachmittag mit alten Dokumenten im Archiv.",
+      "translation": {
+        "ru": "Вчера она весь день занималась старыми документами в архиве.",
+        "en": "Yesterday she occupied herself all afternoon with old documents in the archive."
+      },
+      "bracket_parts": [
+        "beschäftigte"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "mit alten Dokumenten"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Ausschuss hat sich wochenlang mit dem heiklen Gesetzesentwurf beschäftigt.",
+      "translation": {
+        "ru": "Комитет неделями занимался деликатным законопроектом.",
+        "en": "The committee dealt with the delicate draft bill for weeks."
+      },
+      "bracket_parts": [
+        "hat",
+        "beschäftigt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "mit dem heiklen Gesetzesentwurf"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Beschäftigen Sie sich bitte intensiv mit den Sicherheitsvorschriften!",
+      "translation": {
+        "ru": "Ознакомьтесь, пожалуйста, внимательно с правилами техники безопасности!",
+        "en": "Please deal intensively with the safety regulations!"
+      },
+      "bracket_parts": [
+        "Beschäftigen"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "mit den Sicherheitsvorschriften"
+      ]
+    }
+  ]
+}

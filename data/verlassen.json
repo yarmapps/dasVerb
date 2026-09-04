@@ -1,0 +1,178 @@
+{
+  "id": "verlassen",
+  "infinitive": "verlassen",
+  "translation": {
+    "ru": "покидать, оставлять",
+    "en": "to leave, to abandon"
+  },
+  "level": "B1",
+  "frequency_rank": 104,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verlassen",
+    "present_3sg": "verlässt",
+    "praeteritum_3sg": "verließ",
+    "partizip_2": "verlassen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verlasse",
+      "du": "verlässt",
+      "er_sie_es": "verlässt",
+      "wir": "verlassen",
+      "ihr": "verlasst",
+      "sie_Sie": "verlassen",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "verließ",
+      "du": "verließt",
+      "er_sie_es": "verließ",
+      "wir": "verließen",
+      "ihr": "verließt",
+      "sie_Sie": "verließen"
+    },
+    "imperative": {
+      "du": "verlass!",
+      "ihr": "verlasst!",
+      "Sie": "verlassen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das Gebäude / die Heimat (Akk) verlassen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verlasse morgens um halb acht das Haus, um den frühen Zug nicht zu verpassen.",
+      "translation": {
+        "ru": "Я выхожу из дома утром в половине восьмого, чтобы не опоздать на ранний поезд.",
+        "en": "I leave the house at half past seven in the morning in order not to miss the early train."
+      },
+      "bracket_parts": [
+        "verlasse"
+      ],
+      "akkusativ_parts": [
+        "das Haus"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verlässt du das Büro heute pünktlich oder musst du wieder Überstunden machen?",
+      "translation": {
+        "ru": "Ты уйдешь из офиса сегодня вовремя или тебе снова придется работать сверхурочно?",
+        "en": "Are you leaving the office on time today or do you have to do overtime again?"
+      },
+      "bracket_parts": [
+        "Verlässt"
+      ],
+      "akkusativ_parts": [
+        "das Büro"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der letzte Fahrgast verlässt den Zug am Endbahnhof in aller Ruhe.",
+      "translation": {
+        "ru": "Последний пассажир совершенно спокойно покидает поезд на конечной станции.",
+        "en": "The last passenger leaves the train at the terminus in complete peace."
+      },
+      "bracket_parts": [
+        "verlässt"
+      ],
+      "akkusativ_parts": [
+        "den Zug"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verlassen nach dem langen Meeting den modernen Konferenzraum.",
+      "translation": {
+        "ru": "После долгой встречи мы покидаем современный конференц-зал.",
+        "en": "We leave the modern conference room after the long meeting."
+      },
+      "bracket_parts": [
+        "verlassen"
+      ],
+      "akkusativ_parts": [
+        "den modernen Konferenzraum"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verlasst ihr den Saal erst nach dem offiziellen Ende der Veranstaltung?",
+      "translation": {
+        "ru": "Вы выйдете из зала только после официального окончания мероприятия?",
+        "en": "Are you leaving the hall only after the official end of the event?"
+      },
+      "bracket_parts": [
+        "Verlasst"
+      ],
+      "akkusativ_parts": [
+        "den Saal"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern verließ sie wegen des Alarms unverzüglich das gesamte Gebäude.",
+      "translation": {
+        "ru": "Вчера из-за тревоги она незамедлительно покинула всё здание.",
+        "en": "Yesterday she immediately left the entire building due to the alarm."
+      },
+      "bracket_parts": [
+        "verließ"
+      ],
+      "akkusativ_parts": [
+        "das gesamte Gebäude"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben ihre geliebte Heimatstadt vor vielen Jahren schweren Herzens verlassen.",
+      "translation": {
+        "ru": "Они много лет назад с тяжелым сердцем покинули свой любимый родной город.",
+        "en": "They left their beloved hometown many years ago with a heavy heart."
+      },
+      "bracket_parts": [
+        "haben",
+        "verlassen"
+      ],
+      "akkusativ_parts": [
+        "ihre geliebte Heimatstadt"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verlassen Sie im Notfall bitte geordnet das Gebäude!",
+      "translation": {
+        "ru": "В экстренном случае покидайте, пожалуйста, здание организованно!",
+        "en": "In an emergency, please leave the building in an orderly manner!"
+      },
+      "bracket_parts": [
+        "Verlassen"
+      ],
+      "akkusativ_parts": [
+        "das Gebäude"
+      ]
+    }
+  ]
+}

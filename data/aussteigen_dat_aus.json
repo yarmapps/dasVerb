@@ -1,0 +1,185 @@
+{
+  "id": "aussteigen_dat_aus",
+  "infinitive": "aussteigen",
+  "translation": {
+    "ru": "выходить (из транспорта)",
+    "en": "to alight, to get out of"
+  },
+  "level": "A2",
+  "frequency_rank": 265,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aussteigen",
+    "present_3sg": "steigt aus",
+    "praeteritum_3sg": "stieg aus",
+    "partizip_2": "ausgestiegen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "steige aus",
+      "du": "steigst aus",
+      "er_sie_es": "steigt aus",
+      "wir": "steigen aus",
+      "ihr": "steigt aus",
+      "sie_Sie": "steigen aus",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "stieg aus",
+      "du": "stiegst aus",
+      "er_sie_es": "stieg aus",
+      "wir": "stiegen aus",
+      "ihr": "stiegt aus",
+      "sie_Sie": "stiegen aus"
+    },
+    "imperative": {
+      "du": "steig aus!",
+      "ihr": "steigt aus!",
+      "Sie": "steigen Sie aus!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "aus",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "an der nächsten Haltestelle aus dem Bus (Dat) aussteigen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich steige an der nächsten Station aus der U-Bahn aus.",
+      "translation": {
+        "ru": "Я выхожу из метро на следующей станции.",
+        "en": "I get off the underground at the next station."
+      },
+      "bracket_parts": [
+        "steige",
+        "aus"
+      ],
+      "dativ_parts": [
+        "aus der U-Bahn"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Steigst du schon an dieser Haltestelle aus dem Bus aus?",
+      "translation": {
+        "ru": "Ты выходишь из автобуса уже на этой остановке?",
+        "en": "Are you getting off the bus at this stop already?"
+      },
+      "bracket_parts": [
+        "Steigst",
+        "aus"
+      ],
+      "dativ_parts": [
+        "aus dem Bus"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der alte Herr steigt an der Endstation langsam aus dem Zug aus.",
+      "translation": {
+        "ru": "Пожилой господин медленно выходит из поезда на конечной станции.",
+        "en": "The elderly gentleman slowly gets off the train at the terminus."
+      },
+      "bracket_parts": [
+        "steigt",
+        "aus"
+      ],
+      "dativ_parts": [
+        "aus dem Zug"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir steigen direkt am Marktplatz aus der Straßenbahn aus.",
+      "translation": {
+        "ru": "Мы выходим из трамвая прямо на рыночной площади.",
+        "en": "We get off the tram right at the market square."
+      },
+      "bracket_parts": [
+        "steigen",
+        "aus"
+      ],
+      "dativ_parts": [
+        "aus der Straßenbahn"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Steigt ihr nach der langen Fahrt erleichtert aus dem Auto aus?",
+      "translation": {
+        "ru": "Вы с облегчением выходите из машины после долгой поездки?",
+        "en": "Are you getting out of the car with relief after the long drive?"
+      },
+      "bracket_parts": [
+        "Steigt",
+        "aus"
+      ],
+      "dativ_parts": [
+        "aus dem Auto"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern stieg sie versehentlich an der falschen Haltestelle aus dem Bus aus.",
+      "translation": {
+        "ru": "Вчера она по ошибке вышла из автобуса не на той остановке.",
+        "en": "Yesterday she mistakenly got off the bus at the wrong stop."
+      },
+      "bracket_parts": [
+        "stieg",
+        "aus"
+      ],
+      "dativ_parts": [
+        "aus dem Bus"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die vielen Touristen sind am Schloss aus dem Reisebus ausgestiegen.",
+      "translation": {
+        "ru": "Многие туристы вышли из туристического автобуса у замка.",
+        "en": "Many tourists got off the tour bus at the castle."
+      },
+      "bracket_parts": [
+        "sind",
+        "ausgestiegen"
+      ],
+      "dativ_parts": [
+        "aus dem Reisebus"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Steigen Sie bitte zügig aus der Bahn aus!",
+      "translation": {
+        "ru": "Выходите, пожалуйста, быстрее из поезда!",
+        "en": "Please get off the train quickly!"
+      },
+      "bracket_parts": [
+        "Steigen",
+        "aus"
+      ],
+      "dativ_parts": [
+        "aus der Bahn"
+      ]
+    }
+  ]
+}

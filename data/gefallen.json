@@ -1,0 +1,178 @@
+{
+  "id": "gefallen",
+  "infinitive": "gefallen",
+  "translation": {
+    "ru": "нравиться",
+    "en": "to please, to appeal to"
+  },
+  "level": "A2",
+  "frequency_rank": 123,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ge",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "gefallen",
+    "present_3sg": "gefällt",
+    "praeteritum_3sg": "gefiel",
+    "partizip_2": "gefallen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gefalle",
+      "du": "gefällst",
+      "er_sie_es": "gefällt",
+      "wir": "gefallen",
+      "ihr": "gefallt",
+      "sie_Sie": "gefallen",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "gefiel",
+      "du": "gefielst",
+      "er_sie_es": "gefiel",
+      "wir": "gefielen",
+      "ihr": "gefielt",
+      "sie_Sie": "gefielen"
+    },
+    "imperative": {
+      "du": "gefall!",
+      "ihr": "gefallt!",
+      "Sie": "gefallen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemandem (Dat) gut gefallen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Diese neue Wohnung gefällt mir außerordentlich gut.",
+      "translation": {
+        "ru": "Эта новая квартира мне исключительно сильно нравится.",
+        "en": "I like this new flat exceptionally well."
+      },
+      "bracket_parts": [
+        "gefällt"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Gefällt dir das moderne Design von diesem Auto?",
+      "translation": {
+        "ru": "Тебе нравится современный дизайн этого автомобиля?",
+        "en": "Do you like the modern design of this car?"
+      },
+      "bracket_parts": [
+        "Gefällt"
+      ],
+      "dativ_parts": [
+        "dir"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der spannende Roman gefällt dem Lehrer besonders.",
+      "translation": {
+        "ru": "Увлекательный роман особенно нравится учителю.",
+        "en": "The teacher especially likes the exciting novel."
+      },
+      "bracket_parts": [
+        "gefällt"
+      ],
+      "dativ_parts": [
+        "dem Lehrer"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Das schöne Urlaubsziel in den Bergen gefällt uns allen.",
+      "translation": {
+        "ru": "Красивое место отдыха в горах нравится нам всем.",
+        "en": "We all like the beautiful holiday destination in the mountains."
+      },
+      "bracket_parts": [
+        "gefällt"
+      ],
+      "dativ_parts": [
+        "uns allen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Gefällt euch das leckere Essen in diesem Gasthof?",
+      "translation": {
+        "ru": "Вам нравится вкусная еда в этом трактире?",
+        "en": "Do you like the delicious food in this inn?"
+      },
+      "bracket_parts": [
+        "Gefällt"
+      ],
+      "dativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern gefiel ihr das festliche Konzert im Theater sehr.",
+      "translation": {
+        "ru": "Вчера ей очень понравился праздничный концерт в театре.",
+        "en": "Yesterday she liked the festive concert in the theatre very much."
+      },
+      "bracket_parts": [
+        "gefiel"
+      ],
+      "dativ_parts": [
+        "ihr"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Den Gästen hat die Stadtführung gestern ausgezeichnet gefallen.",
+      "translation": {
+        "ru": "Гостям вчера превосходно понравилась экскурсия по городу.",
+        "en": "The guests enjoyed the city tour yesterday immensely."
+      },
+      "bracket_parts": [
+        "hat",
+        "gefallen"
+      ],
+      "dativ_parts": [
+        "Den Gästen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Gefällt Ihnen dieses helle Zimmer mit Balkon?",
+      "translation": {
+        "ru": "Вам нравится эта светлая комната с балконом?",
+        "en": "Do you like this bright room with a balcony?"
+      },
+      "bracket_parts": [
+        "Gefällt"
+      ],
+      "dativ_parts": [
+        "Ihnen"
+      ]
+    }
+  ]
+}

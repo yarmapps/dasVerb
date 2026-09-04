@@ -1,0 +1,202 @@
+{
+  "id": "leisten_sich_dat",
+  "infinitive": "sich leisten",
+  "translation": {
+    "ru": "позволять себе (финансово или морально)",
+    "en": "to afford, to treat oneself to"
+  },
+  "level": "B2",
+  "frequency_rank": 130,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "Dativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich leisten",
+    "present_3sg": "leistet sich",
+    "praeteritum_3sg": "leistete sich",
+    "partizip_2": "geleistet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "leiste mir",
+      "du": "leistest dir",
+      "er_sie_es": "leistet sich",
+      "wir": "leisten uns",
+      "ihr": "leistet euch",
+      "sie_Sie": "leisten sich",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "leistete mir",
+      "du": "leistetest dir",
+      "er_sie_es": "leistete sich",
+      "wir": "leisteten uns",
+      "ihr": "leistetet euch",
+      "sie_Sie": "leisteten sich"
+    },
+    "imperative": {
+      "du": "leiste dir!",
+      "ihr": "leistet euch!",
+      "Sie": "leisten Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich (Dat) eine erholsame Auszeit (Akk) leisten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich leiste mir nach dem anstrengenden Monat gerne ein verlängertes Wellnesswochenende.",
+      "translation": {
+        "ru": "После напряженного месяца я с удовольствием позволяю себе продленные велнес-выходные.",
+        "en": "After the exhausting month I gladly afford myself an extended wellness weekend."
+      },
+      "bracket_parts": [
+        "leiste"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "ein verlängertes Wellnesswochenende"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Kannst du dir mit deinem aktuellen Studentengehalt diese teure Mietwohnung überhaupt leisten?",
+      "translation": {
+        "ru": "Можешь ли ты с твоим текущим студенческим заработком вообще позволить себе эту дорогую съемную квартиру?",
+        "en": "Can you even afford this expensive rented flat with your current student salary?"
+      },
+      "bracket_parts": [
+        "leisten"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "diese teure Mietwohnung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der fleißige Unternehmer leistet sich endlich den lang ersehnten Traumurlaub in Kanada.",
+      "translation": {
+        "ru": "Прилежный предприниматель наконец позволяет себе долгожданный отпуск мечты в Канаде.",
+        "en": "The hardworking entrepreneur finally treats himself to the long-awaited dream vacation in Canada."
+      },
+      "bracket_parts": [
+        "leistet"
+      ],
+      "dativ_parts": [
+        "sich"
+      ],
+      "akkusativ_parts": [
+        "den lang ersehnten Traumurlaub"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir leisten uns als Familie selten teuren Luxus, aber immer gute Bio-Lebensmittel.",
+      "translation": {
+        "ru": "Мы семьей редко позволяем себе дорогую роскошь, но всегда — хорошие органические продукты.",
+        "en": "As a family, we rarely afford expensive luxury, but always good organic groceries."
+      },
+      "bracket_parts": [
+        "leisten"
+      ],
+      "dativ_parts": [
+        "uns"
+      ],
+      "akkusativ_parts": [
+        "selten teuren Luxus"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Leistet ihr euch nach den bestandenen Prüfungen eine gemeinsame Reise nach Italien?",
+      "translation": {
+        "ru": "Позволите ли вы себе после сданных экзаменов совместную поездку в Италию?",
+        "en": "Are you treating yourselves to a joint trip to Italy after passing the exams?"
+      },
+      "bracket_parts": [
+        "Leistet"
+      ],
+      "dativ_parts": [
+        "euch"
+      ],
+      "akkusativ_parts": [
+        "eine gemeinsame Reise"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern leistete sie sich spontan eine elegante Designertasche im Einkaufszentrum.",
+      "translation": {
+        "ru": "Вчера она спонтанно позволила себе элегантную дизайнерскую сумку в торговом центре.",
+        "en": "Yesterday she spontaneously treated herself to an elegant designer handbag in the mall."
+      },
+      "bracket_parts": [
+        "leistete"
+      ],
+      "dativ_parts": [
+        "sich"
+      ],
+      "akkusativ_parts": [
+        "eine elegante Designertasche"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben sich vor wenigen Tagen ein modernes Elektroauto für die Stadt geleistet.",
+      "translation": {
+        "ru": "Несколько дней назад они позволили себе современный электромобиль для города.",
+        "en": "A few days ago they treated themselves to a modern electric car for the city."
+      },
+      "bracket_parts": [
+        "haben",
+        "geleistet"
+      ],
+      "dativ_parts": [
+        "sich"
+      ],
+      "akkusativ_parts": [
+        "ein modernes Elektroauto"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Leisten Sie sich ab und zu eine kleine Auszeit vom stressigen Alltag!",
+      "translation": {
+        "ru": "Позволяйте себе время от времени небольшую передышку от напряженных будней!",
+        "en": "Treat yourself to a little break from stressful everyday life now and then!"
+      },
+      "bracket_parts": [
+        "Leisten"
+      ],
+      "dativ_parts": [
+        "sich"
+      ],
+      "akkusativ_parts": [
+        "eine kleine Auszeit"
+      ]
+    }
+  ]
+}

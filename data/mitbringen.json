@@ -1,0 +1,209 @@
+{
+  "id": "mitbringen",
+  "infinitive": "mitbringen",
+  "translation": {
+    "ru": "приносить с собой, привозить",
+    "en": "to bring along"
+  },
+  "level": "A2",
+  "frequency_rank": 235,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "mixed",
+    "prefix_type": "separable",
+    "prefix": "mit",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "mitbringen",
+    "present_3sg": "bringt mit",
+    "praeteritum_3sg": "brachte mit",
+    "partizip_2": "mitgebracht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bringe mit",
+      "du": "bringst mit",
+      "er_sie_es": "bringt mit",
+      "wir": "bringen mit",
+      "ihr": "bringt mit",
+      "sie_Sie": "bringen mit",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "brachte mit",
+      "du": "brachtest mit",
+      "er_sie_es": "brachte mit",
+      "wir": "brachten mit",
+      "ihr": "brachtet mit",
+      "sie_Sie": "brachten mit"
+    },
+    "imperative": {
+      "du": "bring mit!",
+      "ihr": "bringt mit!",
+      "Sie": "bringen Sie mit!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ + Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemandem (Dat) ein Geschenk (Akk) mitbringen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich bringe dir zur heutigen Einweihungsfeier eine schöne Pflanze mit.",
+      "translation": {
+        "ru": "Я принесу тебе на сегодняшнее новоселье красивое растение.",
+        "en": "I am bringing you a nice plant for today's housewarming party."
+      },
+      "bracket_parts": [
+        "bringe",
+        "mit"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "eine schöne Pflanze"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Bringst du deiner Schwester aus dem Urlaub ein kleines Souvenir mit?",
+      "translation": {
+        "ru": "Ты привезешь своей сестре из отпуска маленький сувенир?",
+        "en": "Are you bringing your sister a small souvenir from vacation?"
+      },
+      "bracket_parts": [
+        "Bringst",
+        "mit"
+      ],
+      "dativ_parts": [
+        "deiner Schwester"
+      ],
+      "akkusativ_parts": [
+        "ein kleines Souvenir"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Kollege bringt dem ganzen Team frische Brötchen zum Frühstück mit.",
+      "translation": {
+        "ru": "Коллега приносит всей команде свежие булочки к завтраку.",
+        "en": "The colleague brings fresh bread rolls for breakfast to the whole team."
+      },
+      "bracket_parts": [
+        "bringt",
+        "mit"
+      ],
+      "dativ_parts": [
+        "dem ganzen Team"
+      ],
+      "akkusativ_parts": [
+        "frische Brötchen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir bringen unseren Gastgebern eine Flasche guten Wein zum Abendessen mit.",
+      "translation": {
+        "ru": "Мы приносим нашим хозяевам бутылку хорошего вина к ужину.",
+        "en": "We bring a bottle of good wine to our hosts for dinner."
+      },
+      "bracket_parts": [
+        "bringen",
+        "mit"
+      ],
+      "dativ_parts": [
+        "unseren Gastgebern"
+      ],
+      "akkusativ_parts": [
+        "eine Flasche guten Wein"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bringt ihr den Kindern aus dem Zoo bunte Postkarten mit?",
+      "translation": {
+        "ru": "Вы привезете детям из зоопарка красочные открытки?",
+        "en": "Are you bringing colourful postcards to the children from the zoo?"
+      },
+      "bracket_parts": [
+        "Bringt",
+        "mit"
+      ],
+      "dativ_parts": [
+        "den Kindern"
+      ],
+      "akkusativ_parts": [
+        "bunte Postkarten"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern brachte sie ihrer kranken Oma frische Hühnersuppe mit.",
+      "translation": {
+        "ru": "Вчера она принесла своей больной бабушке свежий куриный суп.",
+        "en": "Yesterday she brought fresh chicken soup to her sick grandma."
+      },
+      "bracket_parts": [
+        "brachte",
+        "mit"
+      ],
+      "dativ_parts": [
+        "ihrer kranken Oma"
+      ],
+      "akkusativ_parts": [
+        "frische Hühnersuppe"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben ihren Freunden leckere Spezialitäten aus Italien mitgebracht.",
+      "translation": {
+        "ru": "Они привезли своим друзьям вкусные деликатесы из Италии.",
+        "en": "They brought delicious specialities from Italy for their friends."
+      },
+      "bracket_parts": [
+        "haben",
+        "mitgebracht"
+      ],
+      "dativ_parts": [
+        "ihren Freunden"
+      ],
+      "akkusativ_parts": [
+        "leckere Spezialitäten"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Bring mir bitte die Unterlagen aus dem Büro mit!",
+      "translation": {
+        "ru": "Захвати мне, пожалуйста, документы из офиса!",
+        "en": "Please bring me the documents from the office!"
+      },
+      "bracket_parts": [
+        "Bring",
+        "mit"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "die Unterlagen"
+      ]
+    }
+  ]
+}

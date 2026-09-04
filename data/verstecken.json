@@ -1,0 +1,190 @@
+{
+  "id": "verstecken",
+  "infinitive": "verstecken",
+  "translation": {
+    "ru": "прятать, скрывать, прятаться",
+    "en": "to hide, to conceal"
+  },
+  "level": "B1",
+  "frequency_rank": 270,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verstecken",
+    "present_3sg": "versteckt",
+    "praeteritum_3sg": "versteckte",
+    "partizip_2": "versteckt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verstecke",
+      "du": "versteckst",
+      "er_sie_es": "versteckt",
+      "wir": "verstecken",
+      "ihr": "versteckt",
+      "sie_Sie": "verstecken",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "versteckte",
+      "du": "verstecktest",
+      "er_sie_es": "versteckte",
+      "wir": "versteckten",
+      "ihr": "verstecktet",
+      "sie_Sie": "versteckten"
+    },
+    "imperative": {
+      "du": "versteck!",
+      "ihr": "versteckt!",
+      "Sie": "verstecken Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Geschenke vor den Kindern (Akk) verstecken",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verstecke die Geburtstagsgeschenke sorgfältig im oberen Schrank vor den Kindern.",
+      "translation": {
+        "ru": "Я тщательно прячу подарки ко дню рождения в верхнем шкафу от детей.",
+        "en": "I carefully hide the birthday presents in the top cupboard from the children."
+      },
+      "bracket_parts": [
+        "verstecke"
+      ],
+      "akkusativ_parts": [
+        "die Geburtstagsgeschenke"
+      ],
+      "dativ_parts": [
+        "vor den Kindern"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Versteckst du deine wahren Gefühle hinter einer kühlen und distanzierten Fassade?",
+      "translation": {
+        "ru": "Ты прячешь свои истинные чувства за холодной и отстраненной маской?",
+        "en": "Are you hiding your true feelings behind a cool and distant facade?"
+      },
+      "bracket_parts": [
+        "Versteckst"
+      ],
+      "akkusativ_parts": [
+        "deine wahren Gefühle"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das kleine Eichhörnchen versteckt fleißig Nüsse für den kalten Winter im Waldboden.",
+      "translation": {
+        "ru": "Маленькая белочка прилежно прячет орехи на холодную зиму в лесной почве.",
+        "en": "The little squirrel diligently hides nuts for the cold winter in the forest soil."
+      },
+      "bracket_parts": [
+        "versteckt"
+      ],
+      "akkusativ_parts": [
+        "Nüsse"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verstecken uns im Park hinter den dichten Büschen beim Fangenspielen.",
+      "translation": {
+        "ru": "Мы прячемся в парке за густыми кустами во время игры в салки.",
+        "en": "We hide behind the thick bushes in the park while playing tag."
+      },
+      "bracket_parts": [
+        "verstecken"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ],
+      "dativ_parts": [
+        "hinter den dichten Büschen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Versteckt ihr die Ostereier dieses Jahr wieder draußen im blühenden Garten?",
+      "translation": {
+        "ru": "Вы прячете пасхальные яйца в этом году снова на улице в цветущем саду?",
+        "en": "Are you hiding the Easter eggs outside in the blooming garden again this year?"
+      },
+      "bracket_parts": [
+        "Versteckt"
+      ],
+      "akkusativ_parts": [
+        "die Ostereier"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern versteckte der scheue Hund sich ängstlich unter dem Sofa vor dem Gewitter.",
+      "translation": {
+        "ru": "Вчера пугливая собака со страху спряталась под диваном от грозы.",
+        "en": "Yesterday the timid dog hid fearfully under the sofa from the thunderstorm."
+      },
+      "bracket_parts": [
+        "versteckte"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "vor dem Gewitter"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Kinder haben die bunten Eier sehr geschickt im Garten versteckt.",
+      "translation": {
+        "ru": "Дети очень искусно спрятали разноцветные яйца в саду.",
+        "en": "The children hid the colourful eggs very cleverly in the garden."
+      },
+      "bracket_parts": [
+        "haben",
+        "versteckt"
+      ],
+      "akkusativ_parts": [
+        "die bunten Eier"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Versteck dich schnell hinter der Tür, er kommt gleich!",
+      "translation": {
+        "ru": "Спрячься скорее за дверью, он сейчас придет!",
+        "en": "Hide quickly behind the door, he is coming soon!"
+      },
+      "bracket_parts": [
+        "Versteck"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "hinter der Tür"
+      ]
+    }
+  ]
+}

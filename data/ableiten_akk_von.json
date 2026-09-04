@@ -1,0 +1,209 @@
+{
+  "id": "ableiten_akk_von",
+  "infinitive": "ableiten",
+  "translation": {
+    "ru": "выводить, делать вывод (из чего-то), отводить (воду)",
+    "en": "to derive from, to deduce, to divert"
+  },
+  "level": "B2",
+  "frequency_rank": 360,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "ab",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ableiten",
+    "present_3sg": "leitet ab",
+    "praeteritum_3sg": "leitete ab",
+    "partizip_2": "abgeleitet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "leite ab",
+      "du": "leitest ab",
+      "er_sie_es": "leitet ab",
+      "wir": "leiten ab",
+      "ihr": "leitet ab",
+      "sie_Sie": "leiten ab",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "leitete ab",
+      "du": "leitetest ab",
+      "er_sie_es": "leitete ab",
+      "wir": "leiteten ab",
+      "ihr": "leitetet ab",
+      "sie_Sie": "leiteten ab"
+    },
+    "imperative": {
+      "du": "leit ab!",
+      "ihr": "leitet ab!",
+      "Sie": "leiten Sie ab!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "von",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "eine logische Schlussfolgerung (Akk) von den Fakten (Dat) ableiten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich leite aus den vorliegenden Testergebnissen eine logische und begründete Hypothese ab.",
+      "translation": {
+        "ru": "Из имеющихся результатов тестов я вывожу логичную и обоснованную гипотезу.",
+        "en": "From the available test results I derive a logical and substantiated hypothesis."
+      },
+      "bracket_parts": [
+        "leite",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "eine logische und begründete Hypothese"
+      ],
+      "dativ_parts": [
+        "aus den vorliegenden Testergebnissen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Leitest du das deutsche Fremdwort etymologisch von einem lateinischen Verb ab?",
+      "translation": {
+        "ru": "Выводишь ли ты это немецкое иностранное слово этимологически из латинского глагола?",
+        "en": "Do you derive the German foreign word etymologically from a Latin verb?"
+      },
+      "bracket_parts": [
+        "Leitest",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "das deutsche Fremdwort"
+      ],
+      "dativ_parts": [
+        "von einem lateinischen Verb"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Mathematiker leitet die universelle Formel schrittweise von den Grundaxiomen ab.",
+      "translation": {
+        "ru": "Математик пошагово выводит универсальную формулу из базовых аксиом.",
+        "en": "The mathematician derives the universal formula step by step from the basic axioms."
+      },
+      "bracket_parts": [
+        "leitet",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "die universelle Formel"
+      ],
+      "dativ_parts": [
+        "von den Grundaxiomen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir leiten konkrete Handlungsempfehlungen direkt von den wissenschaftlichen Studienergebnissen ab.",
+      "translation": {
+        "ru": "Мы выводим конкретные практические рекомендации непосредственно из результатов научных исследований.",
+        "en": "We derive concrete recommendations for action directly from the scientific study results."
+      },
+      "bracket_parts": [
+        "leiten",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "konkrete Handlungsempfehlungen"
+      ],
+      "dativ_parts": [
+        "von den wissenschaftlichen Studienergebnissen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Leitet ihr aus den statistischen Zahlen vorschnelle Schlüsse für die Zukunft ab?",
+      "translation": {
+        "ru": "Делаете ли вы из статистических цифр поспешные выводы на будущее?",
+        "en": "Do you derive premature conclusions for the future from the statistical figures?"
+      },
+      "bracket_parts": [
+        "Leitet",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "vorschnelle Schlüsse"
+      ],
+      "dativ_parts": [
+        "aus den statistischen Zahlen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern leitete der Ingenieur das überschüssige Regenwasser sicher vom Fabrikdach ab.",
+      "translation": {
+        "ru": "Вчера инженер безопасно отвел избыточную дождевую воду с крыши завода.",
+        "en": "Yesterday the engineer safely diverted the excess rainwater from the factory roof."
+      },
+      "bracket_parts": [
+        "leitete",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "das überschüssige Regenwasser"
+      ],
+      "dativ_parts": [
+        "vom Fabrikdach"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Experten haben aus den beobachteten Fakten eine überzeugende Gesamttheorie abgeleitet.",
+      "translation": {
+        "ru": "Эксперты вывели из наблюдаемых фактов убедительную общую теорию.",
+        "en": "The experts derived a convincing overall theory from the observed facts."
+      },
+      "bracket_parts": [
+        "haben",
+        "abgeleitet"
+      ],
+      "akkusativ_parts": [
+        "eine überzeugende Gesamttheorie"
+      ],
+      "dativ_parts": [
+        "aus den beobachteten Fakten"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Leiten Sie Ihre Schlussfolgerungen bitte stets nachvollziehbar von gesicherten Daten ab!",
+      "translation": {
+        "ru": "Выводите свои заключения, пожалуйста, всегда понятно из проверенных данных!",
+        "en": "Please always derive your conclusions comprehensibly from verified data!"
+      },
+      "bracket_parts": [
+        "Leiten",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "Ihre Schlussfolgerungen"
+      ],
+      "dativ_parts": [
+        "von gesicherten Daten"
+      ]
+    }
+  ]
+}

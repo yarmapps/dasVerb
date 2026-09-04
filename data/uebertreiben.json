@@ -1,0 +1,157 @@
+{
+  "id": "uebertreiben",
+  "infinitive": "übertreiben",
+  "translation": {
+    "ru": "преувеличивать, перегибать палку",
+    "en": "to exaggerate, to overdo"
+  },
+  "level": "B2",
+  "frequency_rank": 250,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "über",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "übertreiben",
+    "present_3sg": "übertreibt",
+    "praeteritum_3sg": "übertrieb",
+    "partizip_2": "übertrieben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "übertreibe",
+      "du": "übertreibst",
+      "er_sie_es": "übertreibt",
+      "wir": "übertreiben",
+      "ihr": "übertreibt",
+      "sie_Sie": "übertreiben",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "übertrieb",
+      "du": "übertriebst",
+      "er_sie_es": "übertrieb",
+      "wir": "übertrieben",
+      "ihr": "übertriebt",
+      "sie_Sie": "übertrieben"
+    },
+    "imperative": {
+      "du": "übertreib!",
+      "ihr": "übertreibt!",
+      "Sie": "übertreiben Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "bei der Schilderung maßlos übertreiben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich übertreibe bei meinen Erzählungen manchmal ein wenig, um die Zuhörer zu unterhalten.",
+      "translation": {
+        "ru": "В своих рассказах я иногда немного преувеличиваю, чтобы развлечь слушателей.",
+        "en": "In my stories I sometimes exaggerate a little to entertain the listeners."
+      },
+      "bracket_parts": [
+        "übertreibe"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Übertreibst du mit deinen dramatischen Schilderungen der Gefahr nicht völlig maßlos?",
+      "translation": {
+        "ru": "Разве ты совершенно безмерно не преувеличиваешь со своими драматическими описаниями опасности?",
+        "en": "Aren't you exaggerating completely immoderately with your dramatic descriptions of the danger?"
+      },
+      "bracket_parts": [
+        "Übertreibst"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Boulevardpresse übertreibt bei Schlagzeilen gerne, um mehr Aufmerksamkeit zu erregen.",
+      "translation": {
+        "ru": "Бульварная пресса охотно преувеличивает в заголовках, чтобы привлечь больше внимания.",
+        "en": "The tabloid press likes to exaggerate in headlines to attract more attention."
+      },
+      "bracket_parts": [
+        "übertreibt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir übertreiben beim täglichen Sporttraining keinesfalls, um Verletzungen zu vermeiden.",
+      "translation": {
+        "ru": "На ежедневных спортивных тренировках мы ни в коем случае не перегибаем палку, чтобы избежать травм.",
+        "en": "In daily sports training we in no way overdo it in order to avoid injuries."
+      },
+      "bracket_parts": [
+        "übertreiben"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Übertreibt ihr mit eurer übertriebenen Vorsicht vor Krankheitserregern nicht ein wenig?",
+      "translation": {
+        "ru": "Не перегибаете ли вы немного палку со своей чрезмерной осторожностью перед микробами?",
+        "en": "Aren't you overdoing it a bit with your exaggerated caution about germs?"
+      },
+      "bracket_parts": [
+        "Übertreibt"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern übertrieb der aufgeregte Zeuge bei seiner Aussage vor der Polizei gewaltig.",
+      "translation": {
+        "ru": "Вчера взволнованный свидетель сильно преувеличил в своих показаниях перед полицией.",
+        "en": "Yesterday the excited witness exaggerated greatly in his testimony to the police."
+      },
+      "bracket_parts": [
+        "übertrieb"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Medien haben die tatsächlichen Ausmaße des Skandals stark übertrieben.",
+      "translation": {
+        "ru": "СМИ сильно преувеличили реальные масштабы скандала.",
+        "en": "The media greatly exaggerated the actual scale of the scandal."
+      },
+      "bracket_parts": [
+        "haben",
+        "übertrieben"
+      ],
+      "akkusativ_parts": [
+        "die tatsächlichen Ausmaße"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Übertreiben Sie bitte nicht, die Sache ist halb so schlimm!",
+      "translation": {
+        "ru": "Не преувеличивайте, пожалуйста, дело не так уж плохо!",
+        "en": "Please do not exaggerate, the matter is not half as bad!"
+      },
+      "bracket_parts": [
+        "Übertreiben"
+      ]
+    }
+  ]
+}

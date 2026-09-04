@@ -1,0 +1,193 @@
+{
+  "id": "zurueckfuehren_akk_auf",
+  "infinitive": "zurückführen",
+  "translation": {
+    "ru": "объяснять чем-то, сводить к (причине)",
+    "en": "to attribute to, to trace back to"
+  },
+  "level": "B2",
+  "frequency_rank": 345,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "zurück",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zurückführen",
+    "present_3sg": "führt zurück",
+    "praeteritum_3sg": "führte zurück",
+    "partizip_2": "zurückgeführt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "führe zurück",
+      "du": "führst zurück",
+      "er_sie_es": "führt zurück",
+      "wir": "führen zurück",
+      "ihr": "führt zurück",
+      "sie_Sie": "führen zurück",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "führte zurück",
+      "du": "führtest zurück",
+      "er_sie_es": "führte zurück",
+      "wir": "führten zurück",
+      "ihr": "führtet zurück",
+      "sie_Sie": "führten zurück"
+    },
+    "imperative": {
+      "du": "führ zurück!",
+      "ihr": "führt zurück!",
+      "Sie": "führen Sie zurück!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "das Problem (Akk) auf mangelnde Kommunikation (Akk) zurückführen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich führe meine guten Lernerfolge vor allem auf tägliche Disziplin und Neugier zurück.",
+      "translation": {
+        "ru": "Свои хорошие успехи в учебе я объясняю прежде всего ежедневной дисциплиной и любознательностью.",
+        "en": "I attribute my good learning success primarily to daily discipline and curiosity."
+      },
+      "bracket_parts": [
+        "führe",
+        "zurück"
+      ],
+      "akkusativ_parts": [
+        "meine guten Lernerfolge",
+        "auf tägliche Disziplin und Neugier"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Führst du deine ständige Müdigkeit eigentlich auf den anhaltenden Schlafmangel zurück?",
+      "translation": {
+        "ru": "Связываешь ли ты свою постоянную усталость на самом деле с затяжным недосыпанием?",
+        "en": "Do you actually attribute your constant tiredness to the ongoing lack of sleep?"
+      },
+      "bracket_parts": [
+        "Führst",
+        "zurück"
+      ],
+      "akkusativ_parts": [
+        "deine ständige Müdigkeit",
+        "auf den anhaltenden Schlafmangel"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der erfahrene Arzt führt die plötzliche Besserung des Patienten auf das neue Medikament zurück.",
+      "translation": {
+        "ru": "Опытный врач объясняет внезапное улучшение пациента новым лекарством.",
+        "en": "The experienced doctor attributes the patient's sudden improvement to the new medication."
+      },
+      "bracket_parts": [
+        "führt",
+        "zurück"
+      ],
+      "akkusativ_parts": [
+        "die plötzliche Besserung des Patienten",
+        "auf das neue Medikament"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir führen den enormen Umsatzzuwachs der Filiale auf die kundenfreundliche Beratung zurück.",
+      "translation": {
+        "ru": "Мы объясняем огромный прирост оборота филиала клиентоориентированными консультациями.",
+        "en": "We trace the branch's enormous increase in sales back to customer-friendly advice."
+      },
+      "bracket_parts": [
+        "führen",
+        "zurück"
+      ],
+      "akkusativ_parts": [
+        "den enormen Umsatzzuwachs der Filiale",
+        "auf die kundenfreundliche Beratung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Führt ihr das Scheitern des Projekts im Team auf die knappe Vorbereitungszeit zurück?",
+      "translation": {
+        "ru": "Связываете ли вы провал проекта в команде со сжатым временем подготовки?",
+        "en": "Do you in the team attribute the failure of the project to the short preparation time?"
+      },
+      "bracket_parts": [
+        "Führt",
+        "zurück"
+      ],
+      "akkusativ_parts": [
+        "das Scheitern des Projekts",
+        "auf die knappe Vorbereitungszeit"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern führte der Historiker die Ursachen der Revolution auf tiefe soziale Ungerechtigkeit zurück.",
+      "translation": {
+        "ru": "Вчера историк объяснил причины революции глубокой социальной несправедливостью.",
+        "en": "Yesterday the historian traced the causes of the revolution back to deep social injustice."
+      },
+      "bracket_parts": [
+        "führte",
+        "zurück"
+      ],
+      "akkusativ_parts": [
+        "die Ursachen der Revolution",
+        "auf tiefe soziale Ungerechtigkeit"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Gutachter haben den technischen Defekt der Anlage auf mangelhafte Wartung zurückgeführt.",
+      "translation": {
+        "ru": "Эксперты связали технический дефект установки с ненадлежащим техническим обслуживанием.",
+        "en": "The experts attributed the technical defect of the system to inadequate maintenance."
+      },
+      "bracket_parts": [
+        "haben",
+        "zurückgeführt"
+      ],
+      "akkusativ_parts": [
+        "den technischen Defekt der Anlage",
+        "auf mangelhafte Wartung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Führen Sie Missverständnisse im Gespräch bitte nicht voreilig auf böse Absichten zurück!",
+      "translation": {
+        "ru": "Не приписывайте недоразумения в разговоре, пожалуйста, поспешно злым намерениям!",
+        "en": "Please do not hastily attribute misunderstandings in conversation to bad intentions!"
+      },
+      "bracket_parts": [
+        "Führen",
+        "zurück"
+      ],
+      "akkusativ_parts": [
+        "Missverständnisse",
+        "auf böse Absichten"
+      ]
+    }
+  ]
+}

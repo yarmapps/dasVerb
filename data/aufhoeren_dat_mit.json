@@ -1,0 +1,179 @@
+{
+  "id": "aufhoeren_dat_mit",
+  "infinitive": "aufhören",
+  "translation": {
+    "ru": "прекращать, переставать",
+    "en": "to stop, to cease"
+  },
+  "level": "A2",
+  "frequency_rank": 195,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufhören",
+    "present_3sg": "hört auf",
+    "praeteritum_3sg": "hörte auf",
+    "partizip_2": "aufgehört"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "höre auf",
+      "du": "hörst auf",
+      "er_sie_es": "hört auf",
+      "wir": "hören auf",
+      "ihr": "hört auf",
+      "sie_Sie": "hören auf",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "hörte auf",
+      "du": "hörtest auf",
+      "er_sie_es": "hörte auf",
+      "wir": "hörten auf",
+      "ihr": "hörtet auf",
+      "sie_Sie": "hörten auf"
+    },
+    "imperative": {
+      "du": "hör auf!",
+      "ihr": "hört auf!",
+      "Sie": "hören Sie auf!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "mit dem lauten Streit (Dat) aufhören",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich höre ab morgen endlich mit dieser ungesunden Gewohnheit auf.",
+      "translation": {
+        "ru": "С завтрашнего дня я наконец прекращаю эту нездоровую привычку.",
+        "en": "Starting tomorrow, I am finally stopping this unhealthy habit."
+      },
+      "bracket_parts": [
+        "höre",
+        "auf"
+      ],
+      "dativ_parts": [
+        "mit dieser ungesunden Gewohnheit"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Hörst du bitte endlich mit dem nervigen Lärm auf?",
+      "translation": {
+        "ru": "Прекратишь, пожалуйста, наконец этот раздражающий шум?",
+        "en": "Will you please finally stop the annoying noise?"
+      },
+      "bracket_parts": [
+        "Hörst",
+        "auf"
+      ],
+      "dativ_parts": [
+        "mit dem nervigen Lärm"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der starke Regen hört hoffentlich bald vor dem Nachmittag auf.",
+      "translation": {
+        "ru": "Сильный дождь, надеемся, скоро прекратится до второй половины дня.",
+        "en": "Hopefully the heavy rain will stop soon before the afternoon."
+      },
+      "bracket_parts": [
+        "hört",
+        "auf"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir hören nach diesem Kapitel mit dem gemeinsamen Lernen auf.",
+      "translation": {
+        "ru": "После этой главы мы заканчиваем совместную учебу.",
+        "en": "After this chapter we are stopping studying together."
+      },
+      "bracket_parts": [
+        "hören",
+        "auf"
+      ],
+      "dativ_parts": [
+        "mit dem gemeinsamen Lernen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Hört ihr jetzt bitte mit dem sinnlosen Streit auf?",
+      "translation": {
+        "ru": "Прекратите теперь, пожалуйста, этот бессмысленный спор?",
+        "en": "Will you please stop the pointless quarrel now?"
+      },
+      "bracket_parts": [
+        "Hört",
+        "auf"
+      ],
+      "dativ_parts": [
+        "mit dem sinnlosen Streit"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern hörte der Wind am späten Abend plötzlich ganz auf.",
+      "translation": {
+        "ru": "Вчера поздним вечером ветер внезапно совсем стих.",
+        "en": "Yesterday late in the evening the wind suddenly stopped completely."
+      },
+      "bracket_parts": [
+        "hörte",
+        "auf"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben vor einem Jahr erfolgreich mit dem Rauchen aufgehört.",
+      "translation": {
+        "ru": "Они год назад успешно бросили курить.",
+        "en": "They successfully stopped smoking a year ago."
+      },
+      "bracket_parts": [
+        "haben",
+        "aufgehört"
+      ],
+      "dativ_parts": [
+        "mit dem Rauchen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Hör bitte sofort mit dem Quatsch auf!",
+      "translation": {
+        "ru": "Прекрати, пожалуйста, немедленно эти глупости!",
+        "en": "Please stop that nonsense immediately!"
+      },
+      "bracket_parts": [
+        "Hör",
+        "auf"
+      ],
+      "dativ_parts": [
+        "mit dem Quatsch"
+      ]
+    }
+  ]
+}

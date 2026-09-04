@@ -1,0 +1,199 @@
+{
+  "id": "ueberzeugen_akk_von",
+  "infinitive": "überzeugen",
+  "translation": {
+    "ru": "убеждать (кого-то в чем-то)",
+    "en": "to convince (someone of something)"
+  },
+  "level": "B1",
+  "frequency_rank": 245,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "über",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "überzeugen",
+    "present_3sg": "überzeugt",
+    "praeteritum_3sg": "überzeugte",
+    "partizip_2": "überzeugt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "überzeuge",
+      "du": "überzeugst",
+      "er_sie_es": "überzeugt",
+      "wir": "überzeugen",
+      "ihr": "überzeugt",
+      "sie_Sie": "überzeugen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "überzeugte",
+      "du": "überzeugtest",
+      "er_sie_es": "überzeugte",
+      "wir": "überzeugten",
+      "ihr": "überzeugtet",
+      "sie_Sie": "überzeugten"
+    },
+    "imperative": {
+      "du": "überzeuge!",
+      "ihr": "überzeugt!",
+      "Sie": "überzeugen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "von",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "jemanden (Akk) von einem guten Plan (Dat) überzeugen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich überzeuge meinen Chef heute mit starken Argumenten von dem neuen Konzept.",
+      "translation": {
+        "ru": "Я убеждаю своего начальника сегодня сильными аргументами в пользе новой концепции.",
+        "en": "I convince my boss today of the new concept with strong arguments."
+      },
+      "bracket_parts": [
+        "überzeuge"
+      ],
+      "akkusativ_parts": [
+        "meinen Chef"
+      ],
+      "dativ_parts": [
+        "von dem neuen Konzept"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Überzeugst du deine Eltern von deinen ehrgeizigen Plänen für das Auslandstudium?",
+      "translation": {
+        "ru": "Ты убедишь родителей в своих амбициозных планах учебы за границей?",
+        "en": "Are you convincing your parents of your ambitious plans for studying abroad?"
+      },
+      "bracket_parts": [
+        "Überzeugst"
+      ],
+      "akkusativ_parts": [
+        "deine Eltern"
+      ],
+      "dativ_parts": [
+        "von deinen ehrgeizigen Plänen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der erfahrene Verkäufer überzeugt die Kunden schnell von der hohen Qualität der Ware.",
+      "translation": {
+        "ru": "Опытный продавец быстро убеждает покупателей в высоком качестве товара.",
+        "en": "The experienced salesman quickly convinces customers of the high quality of the goods."
+      },
+      "bracket_parts": [
+        "überzeugt"
+      ],
+      "akkusativ_parts": [
+        "die Kunden"
+      ],
+      "dativ_parts": [
+        "von der hohen Qualität"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir überzeugen die skeptischen Mitglieder des Vereins von den Vorteilen des Umbaus.",
+      "translation": {
+        "ru": "Мы убеждаем скептически настроенных членов клуба в преимуществах перестройки.",
+        "en": "We convince the sceptical club members of the advantages of the renovation."
+      },
+      "bracket_parts": [
+        "überzeugen"
+      ],
+      "akkusativ_parts": [
+        "die skeptischen Mitglieder des Vereins"
+      ],
+      "dativ_parts": [
+        "von den Vorteilen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Überzeugt ihr das gesamte Team endlich von der Notwendigkeit dieser Veränderung?",
+      "translation": {
+        "ru": "Вы убедите наконец всю команду в необходимости этих перемен?",
+        "en": "Are you finally convincing the whole team of the necessity of this change?"
+      },
+      "bracket_parts": [
+        "Überzeugt"
+      ],
+      "akkusativ_parts": [
+        "das gesamte Team"
+      ],
+      "dativ_parts": [
+        "von der Notwendigkeit"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern überzeugte sie das strenge Prüfungskomitee von ihrem fundierten Fachwissen.",
+      "translation": {
+        "ru": "Вчера она убедила строгую экзаменационную комиссию в своих глубоких профессиональных знаниях.",
+        "en": "Yesterday she convinced the strict examination board of her sound specialist knowledge."
+      },
+      "bracket_parts": [
+        "überzeugte"
+      ],
+      "akkusativ_parts": [
+        "das strenge Prüfungskomitee"
+      ],
+      "dativ_parts": [
+        "von ihrem fundierten Fachwissen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die kritischen Wähler mit klaren Fakten von ihrem Programm überzeugt.",
+      "translation": {
+        "ru": "Они убедили критически настроенных избирателей четкими фактами в своей программе.",
+        "en": "They convinced the critical voters of their programme with clear facts."
+      },
+      "bracket_parts": [
+        "haben",
+        "überzeugt"
+      ],
+      "akkusativ_parts": [
+        "die kritischen Wähler"
+      ],
+      "dativ_parts": [
+        "von ihrem Programm"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Überzeugen Sie das Publikum durch Ihre Begeisterung für das Thema!",
+      "translation": {
+        "ru": "Убедите аудиторию своей увлеченностью этой темой!",
+        "en": "Convince the audience through your enthusiasm for the topic!"
+      },
+      "bracket_parts": [
+        "Überzeugen"
+      ],
+      "akkusativ_parts": [
+        "das Publikum"
+      ]
+    }
+  ]
+}

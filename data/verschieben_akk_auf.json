@@ -1,0 +1,184 @@
+{
+  "id": "verschieben_akk_auf",
+  "infinitive": "verschieben",
+  "translation": {
+    "ru": "переносить, откладывать (на другой срок)",
+    "en": "to postpone, to reschedule (to a later date)"
+  },
+  "level": "B1",
+  "frequency_rank": 235,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verschieben",
+    "present_3sg": "verschiebt",
+    "praeteritum_3sg": "verschob",
+    "partizip_2": "verschoben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verschiebe",
+      "du": "verschiebst",
+      "er_sie_es": "verschiebt",
+      "wir": "verschieben",
+      "ihr": "verschiebt",
+      "sie_Sie": "verschieben",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "verschob",
+      "du": "verschobst",
+      "er_sie_es": "verschob",
+      "wir": "verschoben",
+      "ihr": "verschobt",
+      "sie_Sie": "verschoben"
+    },
+    "imperative": {
+      "du": "verschieb!",
+      "ihr": "verschiebt!",
+      "Sie": "verschieben Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "den Termin (Akk) auf nächsten Montag (Akk) verschieben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verschiebe das wichtige Treffen wegen einer Erkrankung auf nächsten Dienstag.",
+      "translation": {
+        "ru": "Я переношу важную встречу из-за болезни на следующий вторник.",
+        "en": "I am postponing the important meeting to next Tuesday due to illness."
+      },
+      "bracket_parts": [
+        "verschiebe"
+      ],
+      "akkusativ_parts": [
+        "das wichtige Treffen",
+        "auf nächsten Dienstag"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verschiebst du deine mündliche Prüfung wirklich auf das nächste Semester?",
+      "translation": {
+        "ru": "Ты действительно переносишь свой устный экзамен на следующий семестр?",
+        "en": "Are you really postponing your oral exam to next semester?"
+      },
+      "bracket_parts": [
+        "Verschiebst"
+      ],
+      "akkusativ_parts": [
+        "deine mündliche Prüfung",
+        "auf das nächste Semester"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Veranstalter verschiebt das Konzert im Freien wegen des Unwetters auf das Wochenende.",
+      "translation": {
+        "ru": "Организатор переносит концерт на открытом воздухе из-за грозы на выходные.",
+        "en": "The organizer is postponing the outdoor concert to the weekend due to the storm."
+      },
+      "bracket_parts": [
+        "verschiebt"
+      ],
+      "akkusativ_parts": [
+        "das Konzert",
+        "auf das Wochenende"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verschieben die geplante Besprechung auf einen späteren Zeitpunkt im Monat.",
+      "translation": {
+        "ru": "Мы переносим запланированное совещание на более позднее время в этом месяце.",
+        "en": "We are rescheduling the planned meeting to a later date this month."
+      },
+      "bracket_parts": [
+        "verschieben"
+      ],
+      "akkusativ_parts": [
+        "die geplante Besprechung",
+        "auf einen späteren Zeitpunkt"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verschiebt ihr eure Abreise in den Urlaub wegen des Streiks auf morgen?",
+      "translation": {
+        "ru": "Вы переносите свой отъезд в отпуск из-за забастовки на завтра?",
+        "en": "Are you postponing your departure on vacation to tomorrow because of the strike?"
+      },
+      "bracket_parts": [
+        "Verschiebt"
+      ],
+      "akkusativ_parts": [
+        "eure Abreise",
+        "auf morgen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern verschob der Schiedsrichter das Fußballspiel wegen des dichten Nebels.",
+      "translation": {
+        "ru": "Вчера судья перенес футбольный матч из-за густого тумана.",
+        "en": "Yesterday the referee postponed the football match because of dense fog."
+      },
+      "bracket_parts": [
+        "verschob"
+      ],
+      "akkusativ_parts": [
+        "das Fußballspiel"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die Veröffentlichung des neuen Buches auf den Herbst verschoben.",
+      "translation": {
+        "ru": "Они перенесли публикацию новой книги на осень.",
+        "en": "They postponed the publication of the new book to autumn."
+      },
+      "bracket_parts": [
+        "haben",
+        "verschoben"
+      ],
+      "akkusativ_parts": [
+        "die Veröffentlichung",
+        "auf den Herbst"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verschieben Sie bitte die Frist für die Abgabe der Berichte!",
+      "translation": {
+        "ru": "Перенесите, пожалуйста, срок сдачи отчетов!",
+        "en": "Please postpone the deadline for submitting the reports!"
+      },
+      "bracket_parts": [
+        "Verschieben"
+      ],
+      "akkusativ_parts": [
+        "die Frist"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "begruenden",
+  "infinitive": "begründen",
+  "translation": {
+    "ru": "обосновывать, аргументировать",
+    "en": "to justify, to give reasons for"
+  },
+  "level": "B1",
+  "frequency_rank": 205,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "begründen",
+    "present_3sg": "begründet",
+    "praeteritum_3sg": "begründete",
+    "partizip_2": "begründet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "begründe",
+      "du": "begründest",
+      "er_sie_es": "begründet",
+      "wir": "begründen",
+      "ihr": "begründet",
+      "sie_Sie": "begründen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "begründete",
+      "du": "begründetest",
+      "er_sie_es": "begründete",
+      "wir": "begründeten",
+      "ihr": "begründetet",
+      "sie_Sie": "begründeten"
+    },
+    "imperative": {
+      "du": "begründe!",
+      "ihr": "begründet!",
+      "Sie": "begründen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die persönliche Meinung / eine Entscheidung (Akk) begründen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich begründe meine persönliche Ansicht immer mit verlässlichen Zahlen und Fakten.",
+      "translation": {
+        "ru": "Я всегда обосновываю свой личный взгляд надежными цифрами и фактами.",
+        "en": "I always justify my personal view with reliable figures and facts."
+      },
+      "bracket_parts": [
+        "begründe"
+      ],
+      "akkusativ_parts": [
+        "meine persönliche Ansicht"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Begründest du deine Kündigung gegenüber der Firma in einem offiziellen Schreiben?",
+      "translation": {
+        "ru": "Ты обоснуешь свое увольнение компании в официальном письме?",
+        "en": "Are you justifying your resignation to the company in an official letter?"
+      },
+      "bracket_parts": [
+        "Begründest"
+      ],
+      "akkusativ_parts": [
+        "deine Kündigung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Richter begründet das Urteil ausführlich und nachvollziehbar für die Öffentlichkeit.",
+      "translation": {
+        "ru": "Судья подробно и понятно для общественности обосновывает приговор.",
+        "en": "The judge justifies the verdict in detail and comprehensibly for the public."
+      },
+      "bracket_parts": [
+        "begründet"
+      ],
+      "akkusativ_parts": [
+        "das Urteil"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir begründen unseren Förderantrag mit den konkreten Vorteilen für das Stadtviertel.",
+      "translation": {
+        "ru": "Мы обосновываем нашу заявку на финансирование конкретной пользой для городского района.",
+        "en": "We justify our funding application with the concrete benefits for the district."
+      },
+      "bracket_parts": [
+        "begründen"
+      ],
+      "akkusativ_parts": [
+        "unseren Förderantrag"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Begründet ihr eure Bedenken gegen das neue Projekt in der nächsten Teamsitzung?",
+      "translation": {
+        "ru": "Вы обоснуете свои опасения против нового проекта на следующем заседании команды?",
+        "en": "Are you justifying your concerns against the new project in the next team meeting?"
+      },
+      "bracket_parts": [
+        "Begründet"
+      ],
+      "akkusativ_parts": [
+        "eure Bedenken"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern begründete die Ministerin ihren überraschenden Rücktritt vor der Presse.",
+      "translation": {
+        "ru": "Вчера министр обосновала свою неожиданную отставку перед прессой.",
+        "en": "Yesterday the minister justified her surprising resignation to the press."
+      },
+      "bracket_parts": [
+        "begründete"
+      ],
+      "akkusativ_parts": [
+        "ihren überraschenden Rücktritt"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Wissenschaftler hat seine gewagte Theorie mit überzeugenden Beweisen begründet.",
+      "translation": {
+        "ru": "Ученый обосновал свою смелую теорию убедительными доказательствами.",
+        "en": "The scientist supported his bold theory with convincing evidence."
+      },
+      "bracket_parts": [
+        "hat",
+        "begründet"
+      ],
+      "akkusativ_parts": [
+        "seine gewagte Theorie"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Begründen Sie Ihre Antwort bitte in zwei bis drei vollständigen Sätzen!",
+      "translation": {
+        "ru": "Обоснуйте ваш ответ, пожалуйста, в двух-трех полных предложениях!",
+        "en": "Please justify your answer in two to three complete sentences!"
+      },
+      "bracket_parts": [
+        "Begründen"
+      ],
+      "akkusativ_parts": [
+        "Ihre Antwort"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 import { useEffect, useCallback, useState } from 'react';
 import { RewardedAd, RewardedAdEventType, AdEventType } from 'react-native-google-mobile-ads';
 import { ENABLE_ADS, REWARDED_AD_UNIT_ID } from './adConfig';
+import { trackEvent } from '../services/analyticsService';
+import { getAdGrantsToday } from '../services/usageService';
 
 const AD_LOAD_TIMEOUT_MS = 8000;
 
@@ -116,6 +118,10 @@ export function useRewardedAd(): UseRewardedAdResult {
         // eslint-disable-next-line no-console
         console.log('[Ads] Rewarded ad earned reward');
         rewardEarned = true;
+        trackEvent('ad_reward_earned', {
+          placement: 'daily_limit',
+          grant_number_today: getAdGrantsToday() + 1,
+        });
       };
 
       if (isSingletonLoaded) {
@@ -132,6 +138,10 @@ export function useRewardedAd(): UseRewardedAdResult {
         });
 
         try {
+          trackEvent('ad_reward_viewed', {
+            placement: 'daily_limit',
+            ad_unit_id: REWARDED_AD_UNIT_ID,
+          });
           singletonRewardedAd.show();
         } catch (error) {
           // eslint-disable-next-line no-console
@@ -170,6 +180,10 @@ export function useRewardedAd(): UseRewardedAdResult {
           });
 
           try {
+            trackEvent('ad_reward_viewed', {
+              placement: 'daily_limit',
+              ad_unit_id: REWARDED_AD_UNIT_ID,
+            });
             singletonRewardedAd.show();
           } catch (error) {
             // eslint-disable-next-line no-console

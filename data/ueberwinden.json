@@ -1,0 +1,178 @@
+{
+  "id": "ueberwinden",
+  "infinitive": "überwinden",
+  "translation": {
+    "ru": "преодолевать, справляться (с трудностями, страхом)",
+    "en": "to overcome, to surmount"
+  },
+  "level": "B2",
+  "frequency_rank": 220,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "über",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "überwinden",
+    "present_3sg": "überwindet",
+    "praeteritum_3sg": "überwand",
+    "partizip_2": "überwunden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "überwinde",
+      "du": "überwindest",
+      "er_sie_es": "überwindet",
+      "wir": "überwinden",
+      "ihr": "überwindet",
+      "sie_Sie": "überwinden",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "überwand",
+      "du": "überwandest",
+      "er_sie_es": "überwand",
+      "wir": "überwanden",
+      "ihr": "überwandet",
+      "sie_Sie": "überwanden"
+    },
+    "imperative": {
+      "du": "überwinde!",
+      "ihr": "überwindet!",
+      "Sie": "überwinden Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "große Hindernisse / die Angst (Akk) mutig überwinden",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich überwinde meine anfängliche Prüfungsangst durch gezielte Atemübungen und Entspannung.",
+      "translation": {
+        "ru": "Я преодолеваю свой первоначальный страх перед экзаменом с помощью дыхательных упражнений и расслабления.",
+        "en": "I overcome my initial exam anxiety through targeted breathing exercises and relaxation."
+      },
+      "bracket_parts": [
+        "überwinde"
+      ],
+      "akkusativ_parts": [
+        "meine anfängliche Prüfungsangst"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Überwindest du deine Höhenangst bei dieser anspruchsvollen Klettertour in den Alpen?",
+      "translation": {
+        "ru": "Преодолеешь ли ты свой страх высоты в этом сложном альпинистском восхождении в Альпах?",
+        "en": "Are you overcoming your fear of heights on this challenging climbing tour in the Alps?"
+      },
+      "bracket_parts": [
+        "Überwindest"
+      ],
+      "akkusativ_parts": [
+        "deine Höhenangst"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die mutige Gesellschaft überwindet tiefe politische Spaltungen durch echten Dialog.",
+      "translation": {
+        "ru": "Смелое общество преодолевает глубокие политические расколы благодаря подлинному диалогу.",
+        "en": "The brave society overcomes deep political divisions through genuine dialogue."
+      },
+      "bracket_parts": [
+        "überwindet"
+      ],
+      "akkusativ_parts": [
+        "tiefe politische Spaltungen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir überwinden gemeinsam alle unerwarteten bürokratischen Hürden auf unserem Weg.",
+      "translation": {
+        "ru": "Мы вместе преодолеваем все неожиданные бюрократические преграды на нашем пути.",
+        "en": "Together we overcome all unexpected bureaucratic hurdles on our way."
+      },
+      "bracket_parts": [
+        "überwinden"
+      ],
+      "akkusativ_parts": [
+        "alle unerwarteten bürokratischen Hürden"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Überwindet ihr eure Differenzen im Team endlich für das gemeinsame Ziel?",
+      "translation": {
+        "ru": "Преодолеете ли вы наконец свои разногласия в команде ради общей цели?",
+        "en": "Will you finally overcome your differences in the team for the common goal?"
+      },
+      "bracket_parts": [
+        "Überwindet"
+      ],
+      "akkusativ_parts": [
+        "eure Differenzen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern überwand der verletzte Läufer die Schmerzen und erreichte tapfer das Ziel.",
+      "translation": {
+        "ru": "Вчера травмированный бегун преодолел боль и мужественно добрался до финиша.",
+        "en": "Yesterday the injured runner overcame the pain and bravely reached the finish line."
+      },
+      "bracket_parts": [
+        "überwand"
+      ],
+      "akkusativ_parts": [
+        "die Schmerzen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das Land hat die schwere Wirtschaftskrise nach einigen Jahren erfolgreich überwunden.",
+      "translation": {
+        "ru": "Страна спустя несколько лет успешно преодолела тяжелый экономический кризис.",
+        "en": "The country successfully overcame the severe economic crisis after a few years."
+      },
+      "bracket_parts": [
+        "hat",
+        "überwunden"
+      ],
+      "akkusativ_parts": [
+        "die schwere Wirtschaftskrise"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Überwinden Sie Ihre Zweifel und wagen Sie den Neuanfang!",
+      "translation": {
+        "ru": "Преодолейте свои сомнения и отважьтесь на новое начало!",
+        "en": "Overcome your doubts and dare to make a fresh start!"
+      },
+      "bracket_parts": [
+        "Überwinden"
+      ],
+      "akkusativ_parts": [
+        "Ihre Zweifel"
+      ]
+    }
+  ]
+}

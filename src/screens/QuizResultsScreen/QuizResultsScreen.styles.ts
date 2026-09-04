@@ -12,13 +12,12 @@ export const createStyles = (colors: ThemeColors) =>
     mainContent: {
       flex: 1,
       paddingHorizontal: Spacing.xl,
-      paddingBottom: Spacing.md,
       justifyContent: 'space-between',
     },
     heroSection: {
       alignItems: 'center',
       marginTop: Spacing.sm,
-      marginBottom: Spacing.xl,
+      marginBottom: Spacing.md,
     },
     headline: {
       fontSize: 24,
@@ -38,7 +37,7 @@ export const createStyles = (colors: ThemeColors) =>
       flex: 1,
       justifyContent: 'center',
       marginTop: Spacing.sm,
-      marginBottom: Spacing.xl,
+      marginBottom: Spacing.md,
     },
     reviewCard: {
       flexGrow: 0,
@@ -94,7 +93,6 @@ export const createStyles = (colors: ThemeColors) =>
     },
     bottomActions: {
       marginTop: Spacing.sm,
-      marginBottom: Spacing.xs,
       gap: Spacing.md,
     },
     primaryButton: {

@@ -1,0 +1,178 @@
+{
+  "id": "bekommen",
+  "infinitive": "bekommen",
+  "translation": {
+    "ru": "получать",
+    "en": "to get, to receive"
+  },
+  "level": "A2",
+  "frequency_rank": 48,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bekommen",
+    "present_3sg": "bekommt",
+    "praeteritum_3sg": "bekam",
+    "partizip_2": "bekommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bekomme",
+      "du": "bekommst",
+      "er_sie_es": "bekommt",
+      "wir": "bekommen",
+      "ihr": "bekommt",
+      "sie_Sie": "bekommen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "bekam",
+      "du": "bekamst",
+      "er_sie_es": "bekam",
+      "wir": "bekamen",
+      "ihr": "bekamt",
+      "sie_Sie": "bekamen"
+    },
+    "imperative": {
+      "du": "bekomm!",
+      "ihr": "bekommt!",
+      "Sie": "bekommen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein Geschenk / einen Brief (Akk) bekommen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich bekomme jeden Monat einen interessanten Brief von meiner Tante.",
+      "translation": {
+        "ru": "Я каждый месяц получаю интересное письмо от своей тети.",
+        "en": "I receive an interesting letter from my aunt every month."
+      },
+      "bracket_parts": [
+        "bekomme"
+      ],
+      "akkusativ_parts": [
+        "einen interessanten Brief"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Bekommst du bei deiner neuen Arbeit ein gutes Gehalt?",
+      "translation": {
+        "ru": "Ты получаешь хорошую зарплату на своей новой работе?",
+        "en": "Do you get a good salary at your new job?"
+      },
+      "bracket_parts": [
+        "Bekommst"
+      ],
+      "akkusativ_parts": [
+        "ein gutes Gehalt"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er bekommt von seinem Chef eine wichtige Aufgabe für morgen.",
+      "translation": {
+        "ru": "Он получает от своего начальника важное задание на завтра.",
+        "en": "He gets an important task for tomorrow from his boss."
+      },
+      "bracket_parts": [
+        "bekommt"
+      ],
+      "akkusativ_parts": [
+        "eine wichtige Aufgabe"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir bekommen heute Besuch, weil meine Schwester aus Hamburg anreist.",
+      "translation": {
+        "ru": "К нам сегодня придут гости, потому что моя сестра приезжает из Гамбурга.",
+        "en": "We are having visitors today because my sister is arriving from Hamburg."
+      },
+      "bracket_parts": [
+        "bekommen"
+      ],
+      "akkusativ_parts": [
+        "Besuch"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bekommt ihr regelmäßig wichtige Nachrichten von eurer Schule?",
+      "translation": {
+        "ru": "Вы регулярно получаете важные новости из вашей школы?",
+        "en": "Do you regularly receive important news from your school?"
+      },
+      "bracket_parts": [
+        "Bekommt"
+      ],
+      "akkusativ_parts": [
+        "wichtige Nachrichten"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern bekam sie zum Geburtstag ein wunderschönes Geschenk von Freunden.",
+      "translation": {
+        "ru": "Вчера она получила на день рождения прекрасный подарок от друзей.",
+        "en": "Yesterday she received a wonderful birthday present from friends."
+      },
+      "bracket_parts": [
+        "bekam"
+      ],
+      "akkusativ_parts": [
+        "ein wunderschönes Geschenk"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben gestern eine sehr erfreuliche E-Mail bekommen.",
+      "translation": {
+        "ru": "Они получили вчера очень приятное электронное письмо.",
+        "en": "They received a very pleasant email yesterday."
+      },
+      "bracket_parts": [
+        "haben",
+        "bekommen"
+      ],
+      "akkusativ_parts": [
+        "eine sehr erfreuliche E-Mail"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Bekommen Sie bitte nicht sofort Angst vor der Prüfung!",
+      "translation": {
+        "ru": "Пожалуйста, не пугайтесь сразу перед экзаменом!",
+        "en": "Please do not get scared right away before the exam!"
+      },
+      "bracket_parts": [
+        "Bekommen"
+      ],
+      "akkusativ_parts": [
+        "Angst"
+      ]
+    }
+  ]
+}

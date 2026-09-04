@@ -1,0 +1,199 @@
+{
+  "id": "kaufen",
+  "infinitive": "kaufen",
+  "translation": {
+    "ru": "покупать",
+    "en": "to buy"
+  },
+  "level": "A1",
+  "frequency_rank": 108,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "kaufen",
+    "present_3sg": "kauft",
+    "praeteritum_3sg": "kaufte",
+    "partizip_2": "gekauft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "kaufe",
+      "du": "kaufst",
+      "er_sie_es": "kauft",
+      "wir": "kaufen",
+      "ihr": "kauft",
+      "sie_Sie": "kaufen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "kaufte",
+      "du": "kauftest",
+      "er_sie_es": "kaufte",
+      "wir": "kauften",
+      "ihr": "kauftet",
+      "sie_Sie": "kauften"
+    },
+    "imperative": {
+      "du": "kauf!",
+      "ihr": "kauft!",
+      "Sie": "kaufen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ + Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemandem (Dat) ein Geschenk (Akk) kaufen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich kaufe meiner Mutter einen schönen Blumenstrauß.",
+      "translation": {
+        "ru": "Я покупаю своей маме красивый букет цветов.",
+        "en": "I buy my mother a beautiful bouquet of flowers."
+      },
+      "bracket_parts": [
+        "kaufe"
+      ],
+      "dativ_parts": [
+        "meiner Mutter"
+      ],
+      "akkusativ_parts": [
+        "einen schönen Blumenstrauß"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Kaufst du deinem Bruder ein spannendes Buch?",
+      "translation": {
+        "ru": "Ты купишь своему брату увлекательную книгу?",
+        "en": "Are you buying your brother an exciting book?"
+      },
+      "bracket_parts": [
+        "Kaufst"
+      ],
+      "dativ_parts": [
+        "deinem Bruder"
+      ],
+      "akkusativ_parts": [
+        "ein spannendes Buch"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er kauft im Supermarkt frisches Brot und Käse.",
+      "translation": {
+        "ru": "Он покупает в супермаркете свежий хлеб и сыр.",
+        "en": "He buys fresh bread and cheese in the supermarket."
+      },
+      "bracket_parts": [
+        "kauft"
+      ],
+      "akkusativ_parts": [
+        "frisches Brot und Käse"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir kaufen den Kindern leckeres Eis am Kiosk.",
+      "translation": {
+        "ru": "Мы покупаем детям вкусное мороженое в киоске.",
+        "en": "We buy the children delicious ice cream at the kiosk."
+      },
+      "bracket_parts": [
+        "kaufen"
+      ],
+      "dativ_parts": [
+        "den Kindern"
+      ],
+      "akkusativ_parts": [
+        "leckeres Eis"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kauft ihr euch neue Schuhe für den Sport?",
+      "translation": {
+        "ru": "Вы покупаете себе новые кроссовки для спорта?",
+        "en": "Are you buying yourselves new shoes for sports?"
+      },
+      "bracket_parts": [
+        "Kauft"
+      ],
+      "dativ_parts": [
+        "euch"
+      ],
+      "akkusativ_parts": [
+        "neue Schuhe"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern kaufte sie ihrem Vater eine warme Mütze.",
+      "translation": {
+        "ru": "Вчера она купила своему отцу теплую шапку.",
+        "en": "Yesterday she bought her father a warm hat."
+      },
+      "bracket_parts": [
+        "kaufte"
+      ],
+      "dativ_parts": [
+        "ihrem Vater"
+      ],
+      "akkusativ_parts": [
+        "eine warme Mütze"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben dem Gast ein kleines Geschenk gekauft.",
+      "translation": {
+        "ru": "Они купили гостю маленький подарок.",
+        "en": "They bought the guest a small present."
+      },
+      "bracket_parts": [
+        "haben",
+        "gekauft"
+      ],
+      "dativ_parts": [
+        "dem Gast"
+      ],
+      "akkusativ_parts": [
+        "ein kleines Geschenk"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Kauf mir bitte einen warmen Kaffee!",
+      "translation": {
+        "ru": "Купи мне, пожалуйста, горячий кофе!",
+        "en": "Please buy me a hot coffee!"
+      },
+      "bracket_parts": [
+        "Kauf"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "einen warmen Kaffee"
+      ]
+    }
+  ]
+}

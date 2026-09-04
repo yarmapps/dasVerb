@@ -1,0 +1,185 @@
+{
+  "id": "zuhoeren_dat",
+  "infinitive": "zuhören",
+  "translation": {
+    "ru": "слушать (внимательно), прислушиваться",
+    "en": "to listen to"
+  },
+  "level": "A2",
+  "frequency_rank": 215,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "zu",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zuhören",
+    "present_3sg": "hört zu",
+    "praeteritum_3sg": "hörte zu",
+    "partizip_2": "zugehört"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "höre zu",
+      "du": "hörst zu",
+      "er_sie_es": "hört zu",
+      "wir": "hören zu",
+      "ihr": "hört zu",
+      "sie_Sie": "hören zu",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "hörte zu",
+      "du": "hörtest zu",
+      "er_sie_es": "hörte zu",
+      "wir": "hörten zu",
+      "ihr": "hörtet zu",
+      "sie_Sie": "hörten zu"
+    },
+    "imperative": {
+      "du": "hör zu!",
+      "ihr": "hört zu!",
+      "Sie": "hören Sie zu!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "dem Lehrer (Dat) aufmerksam zuhören",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich höre meinem besten Freund bei Problemen immer geduldig zu.",
+      "translation": {
+        "ru": "Я всегда терпеливо выслушиваю своего лучшего друга при проблемах.",
+        "en": "I always listen patiently to my best friend when there are problems."
+      },
+      "bracket_parts": [
+        "höre",
+        "zu"
+      ],
+      "dativ_parts": [
+        "meinem besten Freund"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Hörst du mir eigentlich überhaupt aufmerksam zu?",
+      "translation": {
+        "ru": "Ты вообще слушаешь меня внимательно?",
+        "en": "Are you actually listening to me attentively at all?"
+      },
+      "bracket_parts": [
+        "Hörst",
+        "zu"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Klasse hört der Lehrerin während der spannenden Geschichte mucksmäuschenstill zu.",
+      "translation": {
+        "ru": "Класс слушает учительницу во время увлекательного рассказа ни жив ни мертв от тишины.",
+        "en": "The class listens to the teacher as quiet as a mouse during the exciting story."
+      },
+      "bracket_parts": [
+        "hört",
+        "zu"
+      ],
+      "dativ_parts": [
+        "der Lehrerin"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir hören dem Vortrag des Gastprofessors mit großem Interesse zu.",
+      "translation": {
+        "ru": "Мы слушаем доклад приглашенного профессора с большим интересом.",
+        "en": "We listen to the guest professor's lecture with great interest."
+      },
+      "bracket_parts": [
+        "hören",
+        "zu"
+      ],
+      "dativ_parts": [
+        "dem Vortrag"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Hört ihr euren Eltern bei ihren wichtigen Ratschlägen auch immer gut zu?",
+      "translation": {
+        "ru": "Вы всегда хорошо прислушиваетесь к важным советам своих родителей?",
+        "en": "Do you always listen well to your parents' important advice too?"
+      },
+      "bracket_parts": [
+        "Hört",
+        "zu"
+      ],
+      "dativ_parts": [
+        "euren Eltern"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern hörte das Publikum der Musikerin zwei Stunden lang begeistert zu.",
+      "translation": {
+        "ru": "Вчера публика два часа с восторгом слушала музыкантшу.",
+        "en": "Yesterday the audience listened enthusiastically to the musician for two hours."
+      },
+      "bracket_parts": [
+        "hörte",
+        "zu"
+      ],
+      "dativ_parts": [
+        "der Musikerin"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Alle Teilnehmer haben dem Referenten bis zur letzten Minute aufmerksam zugehört.",
+      "translation": {
+        "ru": "Все участники внимательно слушали докладчика до последней минуты.",
+        "en": "All participants listened attentively to the speaker until the last minute."
+      },
+      "bracket_parts": [
+        "haben",
+        "zugehört"
+      ],
+      "dativ_parts": [
+        "dem Referenten"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Hör mir bitte einmal ganz genau zu!",
+      "translation": {
+        "ru": "Послушай меня, пожалуйста, один раз очень внимательно!",
+        "en": "Please listen to me very carefully for once!"
+      },
+      "bracket_parts": [
+        "Hör",
+        "zu"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    }
+  ]
+}

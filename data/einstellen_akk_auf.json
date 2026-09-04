@@ -1,0 +1,193 @@
+{
+  "id": "einstellen_akk_auf",
+  "infinitive": "sich einstellen",
+  "translation": {
+    "ru": "настраиваться, готовиться (к чему-то)",
+    "en": "to adjust, to prepare oneself for"
+  },
+  "level": "B1",
+  "frequency_rank": 105,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich einstellen",
+    "present_3sg": "stellt sich ein",
+    "praeteritum_3sg": "stellte sich ein",
+    "partizip_2": "eingestellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stelle mich ein",
+      "du": "stellst dich ein",
+      "er_sie_es": "stellt sich ein",
+      "wir": "stellen uns ein",
+      "ihr": "stellt euch ein",
+      "sie_Sie": "stellen sich ein",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "stellte mich ein",
+      "du": "stelltest dich ein",
+      "er_sie_es": "stellte sich ein",
+      "wir": "stellten uns ein",
+      "ihr": "stelltet euch ein",
+      "sie_Sie": "stellten sich ein"
+    },
+    "imperative": {
+      "du": "stell dich ein!",
+      "ihr": "stellt euch ein!",
+      "Sie": "stellen Sie sich ein!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich auf neue Bedingungen (Akk) einstellen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich stelle mich mental schon frühzeitig auf die anspruchsvollen Prüfungen ein.",
+      "translation": {
+        "ru": "Я морально заблаговременно настраиваюсь на сложные экзамены.",
+        "en": "I prepare myself mentally early on for the demanding exams."
+      },
+      "bracket_parts": [
+        "stelle",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "mich",
+        "auf die anspruchsvollen Prüfungen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Stellst du dich bei deiner Reise nach Skandinavien auf sehr kühles Wetter ein?",
+      "translation": {
+        "ru": "Ты настраиваешься в поездке в Скандинавию на очень прохладную погоду?",
+        "en": "Are you preparing yourself for very cool weather on your trip to Scandinavia?"
+      },
+      "bracket_parts": [
+        "Stellst",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "auf sehr kühles Wetter"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Firma stellt sich flexibel auf die veränderten Wünsche der Kunden ein.",
+      "translation": {
+        "ru": "Компания гибко подстраивается под изменившиеся желания клиентов.",
+        "en": "The company flexibly adjusts to the changed wishes of the customers."
+      },
+      "bracket_parts": [
+        "stellt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "auf die veränderten Wünsche"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir stellen uns auf eine längere Wartezeit am internationalen Flughafen ein.",
+      "translation": {
+        "ru": "Мы настраиваемся на более длительное время ожидания в международном аэропорту.",
+        "en": "We are preparing ourselves for a longer wait at the international airport."
+      },
+      "bracket_parts": [
+        "stellen",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "uns",
+        "auf eine längere Wartezeit"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Stellt ihr euch beim Auslandssemester auf ungewohnte kulturelle Unterschiede ein?",
+      "translation": {
+        "ru": "Вы настраиваетесь во время семестра за границей на непривычные культурные различия?",
+        "en": "Are you preparing yourselves for unfamiliar cultural differences during your semester abroad?"
+      },
+      "bracket_parts": [
+        "Stellt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "euch",
+        "auf ungewohnte kulturelle Unterschiede"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern stellte sich die Stadtverwaltung rasch auf den plötzlichen Wintereinbruch ein.",
+      "translation": {
+        "ru": "Вчера городская администрация быстро перестроилась на внезапный приход зимы.",
+        "en": "Yesterday the city administration quickly adjusted to the sudden onset of winter."
+      },
+      "bracket_parts": [
+        "stellte",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "auf den plötzlichen Wintereinbruch"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Autofahrer haben sich rechtzeitig auf die winterlichen Straßenverhältnisse eingestellt.",
+      "translation": {
+        "ru": "Автомобилисты вовремя приготовились к зимним дорожным условиям.",
+        "en": "Drivers prepared themselves in good time for the wintry road conditions."
+      },
+      "bracket_parts": [
+        "haben",
+        "eingestellt"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "auf die winterlichen Straßenverhältnisse"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Stellen Sie sich bitte auf mögliche Verspätungen im Zugverkehr ein!",
+      "translation": {
+        "ru": "Настройтесь, пожалуйста, на возможные опоздания в движении поездов!",
+        "en": "Please prepare yourselves for possible delays in train traffic!"
+      },
+      "bracket_parts": [
+        "Stellen",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "auf mögliche Verspätungen"
+      ]
+    }
+  ]
+}

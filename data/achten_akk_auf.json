@@ -1,0 +1,178 @@
+{
+  "id": "achten_akk_auf",
+  "infinitive": "achten",
+  "translation": {
+    "ru": "обращать внимание (на что-то), следить",
+    "en": "to pay attention to, to watch out for"
+  },
+  "level": "B1",
+  "frequency_rank": 140,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "achten",
+    "present_3sg": "achtet",
+    "praeteritum_3sg": "achtete",
+    "partizip_2": "geachtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "achte",
+      "du": "achtest",
+      "er_sie_es": "achtet",
+      "wir": "achten",
+      "ihr": "achtet",
+      "sie_Sie": "achten",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "achtete",
+      "du": "achtetest",
+      "er_sie_es": "achtete",
+      "wir": "achteten",
+      "ihr": "achtetet",
+      "sie_Sie": "achteten"
+    },
+    "imperative": {
+      "du": "achte!",
+      "ihr": "achtet!",
+      "Sie": "achten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "auf eine gesunde Ernährung (Akk) achten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich achte im Alltag stets auf eine ausgewogene und gesunde Ernährung.",
+      "translation": {
+        "ru": "В повседневной жизни я всегда обращаю внимание на сбалансированное и здоровое питание.",
+        "en": "In everyday life I always pay attention to a balanced and healthy diet."
+      },
+      "bracket_parts": [
+        "achte"
+      ],
+      "akkusativ_parts": [
+        "auf eine ausgewogene und gesunde Ernährung"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Achtest du beim Einkaufen immer auf regionale und biologische Produkte?",
+      "translation": {
+        "ru": "Ты при покупках всегда обращаешь внимание на региональные и био-продукты?",
+        "en": "Do you always look out for regional and organic products when shopping?"
+      },
+      "bracket_parts": [
+        "Achtest"
+      ],
+      "akkusativ_parts": [
+        "auf regionale und biologische Produkte"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Autofahrer achtet an der unübersichtlichen Kreuzung besonders auf spielende Kinder.",
+      "translation": {
+        "ru": "Водитель на плохо просматриваемом перекрестке особенно следит за играющими детьми.",
+        "en": "The driver pays special attention to playing children at the confusing intersection."
+      },
+      "bracket_parts": [
+        "achtet"
+      ],
+      "akkusativ_parts": [
+        "auf spielende Kinder"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir achten bei allen Arbeitsschritten streng auf die Einhaltung der Sicherheitsvorschriften.",
+      "translation": {
+        "ru": "На всех этапах работы мы строго следим за соблюдением правил техники безопасности.",
+        "en": "In all work steps we strictly pay attention to compliance with safety regulations."
+      },
+      "bracket_parts": [
+        "achten"
+      ],
+      "akkusativ_parts": [
+        "auf die Einhaltung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Achtet ihr bei der Auswahl eurer Reiseziele auf Nachhaltigkeit und Umweltschutz?",
+      "translation": {
+        "ru": "Вы при выборе целей путешествий обращаете внимание на экологичность и охрану природы?",
+        "en": "Do you pay attention to sustainability and environmental protection when choosing your travel destinations?"
+      },
+      "bracket_parts": [
+        "Achtet"
+      ],
+      "akkusativ_parts": [
+        "auf Nachhaltigkeit und Umweltschutz"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern achtete der Schiedsrichter sehr genau auf die Einhaltung aller Fairplay-Regeln.",
+      "translation": {
+        "ru": "Вчера судья очень внимательно следил за соблюдением всех правил честной игры.",
+        "en": "Yesterday the referee paid very close attention to compliance with all fair play rules."
+      },
+      "bracket_parts": [
+        "achtete"
+      ],
+      "akkusativ_parts": [
+        "auf die Einhaltung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Eltern haben immer liebevoll auf das Wohl ihrer Kinder geachtet.",
+      "translation": {
+        "ru": "Родители всегда заботливо следили за благополучием своих детей.",
+        "en": "The parents have always lovingly cared for the well-being of their children."
+      },
+      "bracket_parts": [
+        "haben",
+        "geachtet"
+      ],
+      "akkusativ_parts": [
+        "auf das Wohl"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Achten Sie beim Aussteigen bitte auf den Abstand zwischen Zug und Bahnsteig!",
+      "translation": {
+        "ru": "Обратите внимание при выходе, пожалуйста, на расстояние между поездом и платформой!",
+        "en": "Please mind the gap between train and platform when disembarking!"
+      },
+      "bracket_parts": [
+        "Achten"
+      ],
+      "akkusativ_parts": [
+        "auf den Abstand"
+      ]
+    }
+  ]
+}

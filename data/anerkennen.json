@@ -1,0 +1,185 @@
+{
+  "id": "anerkennen",
+  "infinitive": "anerkennen",
+  "translation": {
+    "ru": "признавать (диплом, права, заслуги)",
+    "en": "to recognize, to acknowledge"
+  },
+  "level": "B2",
+  "frequency_rank": 200,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "mixed",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "anerkennen",
+    "present_3sg": "erkennt an",
+    "praeteritum_3sg": "erkannte an",
+    "partizip_2": "anerkannt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erkenne an",
+      "du": "erkennst an",
+      "er_sie_es": "erkennt an",
+      "wir": "erkennen an",
+      "ihr": "erkennt an",
+      "sie_Sie": "erkennen an",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "erkannte an",
+      "du": "erkanntest an",
+      "er_sie_es": "erkannte an",
+      "wir": "erkannten an",
+      "ihr": "erkanntet an",
+      "sie_Sie": "erkannten an"
+    },
+    "imperative": {
+      "du": "erkenn an!",
+      "ihr": "erkennt an!",
+      "Sie": "erkennen Sie an!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen Berufsabschluss / die Leistung (Akk) anerkennen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erkenne die außergewöhnliche Leistung meines Kollegen ohne jeden Neid an.",
+      "translation": {
+        "ru": "Я без всякой зависти признаю выдающиеся достижения своего коллеги.",
+        "en": "I acknowledge my colleague's extraordinary achievement without any envy."
+      },
+      "bracket_parts": [
+        "erkenne",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die außergewöhnliche Leistung"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erkennst du die neue Grenzziehung zwischen den beiden Bundesländern völkerrechtlich an?",
+      "translation": {
+        "ru": "Признаешь ли ты новую демаркацию границы между двумя федеральными землями?",
+        "en": "Do you legally recognize the new border demarcation between the two federal states?"
+      },
+      "bracket_parts": [
+        "Erkennst",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die neue Grenzziehung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die zuständige Behörde erkennt ausländische Hochschulabschlüsse nach sorgfältiger Prüfung an.",
+      "translation": {
+        "ru": "Компетентное ведомство признает иностранные дипломы о высшем образовании после тщательной проверки.",
+        "en": "The responsible authority recognizes foreign university degrees after careful examination."
+      },
+      "bracket_parts": [
+        "erkennt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "ausländische Hochschulabschlüsse"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erkennen die große Bedeutung ehrenamtlicher Arbeit für unsere Gesellschaft voll an.",
+      "translation": {
+        "ru": "Мы полностью признаем огромное значение волонтерской работы для нашего общества.",
+        "en": "We fully acknowledge the great importance of voluntary work for our society."
+      },
+      "bracket_parts": [
+        "erkennen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die große Bedeutung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erkennt ihr die offizielle Schiedsrichterentscheidung nach dem Spielausgang an?",
+      "translation": {
+        "ru": "Признаете ли вы официальное решение судьи после исхода игры?",
+        "en": "Do you accept the official referee decision after the outcome of the game?"
+      },
+      "bracket_parts": [
+        "Erkennt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die offizielle Schiedsrichterentscheidung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern erkannte das Gericht die berechtigten Schadensersatzansprüche des Klägers an.",
+      "translation": {
+        "ru": "Вчера суд признал законные требования истца о возмещении ущерба.",
+        "en": "Yesterday the court recognized the plaintiff's justified claims for damages."
+      },
+      "bracket_parts": [
+        "erkannte",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die berechtigten Schadensersatzansprüche"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Staat hat die Unabhängigkeit der jungen Republik völkerrechtlich anerkannt.",
+      "translation": {
+        "ru": "Государство признало независимость молодой республики по международному праву.",
+        "en": "The state recognized the independence of the young republic under international law."
+      },
+      "bracket_parts": [
+        "hat",
+        "anerkannt"
+      ],
+      "akkusativ_parts": [
+        "die Unabhängigkeit"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erkennen Sie bitte die harte Arbeit des gesamten Teams an!",
+      "translation": {
+        "ru": "Признайте, пожалуйста, тяжелую работу всей команды!",
+        "en": "Please acknowledge the hard work of the entire team!"
+      },
+      "bracket_parts": [
+        "Erkennen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die harte Arbeit"
+      ]
+    }
+  ]
+}

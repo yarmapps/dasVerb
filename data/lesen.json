@@ -6,7 +6,7 @@
     "en": "to read"
   },
   "level": "A1",
-  "frequency_rank": 82,
+  "frequency_rank": 115,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "strong",
@@ -51,15 +51,15 @@
     "preposition": null,
     "preposition_case": null
   },
-  "chunk": "ein Buch / die Zeitung lesen",
+  "chunk": "ein Buch / die Zeitung (Akk) lesen",
   "sentences": [
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich lese abends gerne ein spannendes Buch",
+      "german": "Ich lese jeden Abend ein spannendes Buch.",
       "translation": {
-        "ru": "По вечерам я люблю читать увлекательную книгу",
-        "en": "I like reading an exciting book in the evening"
+        "ru": "Я каждый вечер читаю увлекательную книгу.",
+        "en": "I read an exciting book every evening."
       },
       "bracket_parts": [
         "lese"
@@ -71,10 +71,10 @@
     {
       "id": "s2",
       "tense": "Präsens",
-      "german": "Liest du morgens die Zeitung?",
+      "german": "Liest du morgens die Zeitung beim Frühstück?",
       "translation": {
-        "ru": "Ты читаешь газету по утрам?",
-        "en": "Do you read the newspaper in the morning?"
+        "ru": "Ты читаешь утром газету за завтраком?",
+        "en": "Do you read the newspaper in the morning at breakfast?"
       },
       "bracket_parts": [
         "Liest"
@@ -86,92 +86,92 @@
     {
       "id": "s3",
       "tense": "Präsens",
-      "german": "Er liest jeden Tag interessante Artikel",
+      "german": "Er liest die kurze Nachricht von seinem Freund.",
       "translation": {
-        "ru": "Каждый день он читает интересные статьи",
-        "en": "He reads interesting articles every day"
+        "ru": "Он читает короткое сообщение от своего друга.",
+        "en": "He reads the short message from his friend."
       },
       "bracket_parts": [
         "liest"
       ],
       "akkusativ_parts": [
-        "interessante Artikel"
+        "die kurze Nachricht"
       ]
     },
     {
       "id": "s4",
       "tense": "Präsens",
-      "german": "Wir lesen gemeinsam ein deutsches Gedicht",
+      "german": "Wir lesen im Deutschkurs deutsche Texte.",
       "translation": {
-        "ru": "Мы вместе читаем немецкое стихотворение",
-        "en": "We are reading a German poem together"
+        "ru": "Мы читаем на курсе немецкого языка немецкие тексты.",
+        "en": "We read German texts in the German course."
       },
       "bracket_parts": [
         "lesen"
       ],
       "akkusativ_parts": [
-        "ein deutsches Gedicht"
+        "deutsche Texte"
       ]
     },
     {
       "id": "s5",
       "tense": "Präsens",
-      "german": "Lest ihr gerne historische Romane?",
+      "german": "Lest ihr gerne bunte Comics am Nachmittag?",
       "translation": {
-        "ru": "Вам нравится читать исторические романы?",
-        "en": "Do you like reading historical novels?"
+        "ru": "Вы любите читать красочные комиксы днем?",
+        "en": "Do you like reading colorful comics in the afternoon?"
       },
       "bracket_parts": [
         "Lest"
       ],
       "akkusativ_parts": [
-        "historische Romane"
+        "bunte Comics"
       ]
     },
     {
       "id": "s6",
       "tense": "Präteritum",
-      "german": "Gestern las sie den ganzen Brief aufmerksam",
+      "german": "Gestern las sie einen sehr interessanten Artikel.",
       "translation": {
-        "ru": "Вчера она внимательно прочитала все письмо",
-        "en": "Yesterday she read the whole letter attentively"
+        "ru": "Вчера она прочитала очень интересную статью.",
+        "en": "Yesterday she read a very interesting article."
       },
       "bracket_parts": [
         "las"
       ],
       "akkusativ_parts": [
-        "den ganzen Brief"
+        "einen sehr interessanten Artikel"
       ]
     },
     {
       "id": "s7",
       "tense": "Perfekt",
-      "german": "Sie haben dieses Buch schon gelesen",
+      "german": "Sie haben die ganze Geschichte aufmerksam gelesen.",
       "translation": {
-        "ru": "Они уже прочитали эту книгу",
-        "en": "They have already read this book"
+        "ru": "Они внимательно прочитали всю эту историю.",
+        "en": "They read the whole story attentively."
       },
       "bracket_parts": [
         "haben",
         "gelesen"
       ],
       "akkusativ_parts": [
-        "dieses Buch"
+        "die ganze Geschichte"
       ]
     },
     {
       "id": "s8",
       "tense": "Imperativ",
-      "german": "Lies bitte den Text laut!",
+      "german": "Lies bitte diesen Satz laut vor!",
       "translation": {
-        "ru": "Прочитай, пожалуйста, текст вслух!",
-        "en": "Please read the text aloud!"
+        "ru": "Прочитай, пожалуйста, это предложение вслух!",
+        "en": "Please read this sentence out loud!"
       },
       "bracket_parts": [
         "Lies"
       ],
       "akkusativ_parts": [
-        "den Text"
+        "diesen Satz"
       ]
     }
   ]

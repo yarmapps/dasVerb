@@ -1,0 +1,206 @@
+{
+  "id": "vorschlagen",
+  "infinitive": "vorschlagen",
+  "translation": {
+    "ru": "предлагать (идею, план)",
+    "en": "to suggest, to propose"
+  },
+  "level": "B1",
+  "frequency_rank": 240,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "vor",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vorschlagen",
+    "present_3sg": "schlägt vor",
+    "praeteritum_3sg": "schlug vor",
+    "partizip_2": "vorgeschlagen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schlage vor",
+      "du": "schlägst vor",
+      "er_sie_es": "schlägt vor",
+      "wir": "schlagen vor",
+      "ihr": "schlagt vor",
+      "sie_Sie": "schlagen vor",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "schlug vor",
+      "du": "schlugst vor",
+      "er_sie_es": "schlug vor",
+      "wir": "schlugen vor",
+      "ihr": "schlugt vor",
+      "sie_Sie": "schlugen vor"
+    },
+    "imperative": {
+      "du": "schlag vor!",
+      "ihr": "schlagt vor!",
+      "Sie": "schlagen Sie vor!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ + Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemandem (Dat) eine Lösung (Akk) vorschlagen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich schlage dir für das gemeinsame Wochenende einen Ausflug an den See vor.",
+      "translation": {
+        "ru": "Я предлагаю тебе поездку на озеро на наши совместные выходные.",
+        "en": "I suggest a trip to the lake to you for the weekend together."
+      },
+      "bracket_parts": [
+        "schlage",
+        "vor"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "einen Ausflug"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Schlägst du deinen Kollegen eine andere Strategie für die Verhandlungen vor?",
+      "translation": {
+        "ru": "Ты предложишь своим коллегам другую стратегию для переговоров?",
+        "en": "Are you suggesting a different strategy for the negotiations to your colleagues?"
+      },
+      "bracket_parts": [
+        "Schlägst",
+        "vor"
+      ],
+      "dativ_parts": [
+        "deinen Kollegen"
+      ],
+      "akkusativ_parts": [
+        "eine andere Strategie"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Architekt schlägt dem Bauherrn ein modernes und nachhaltiges Konzept vor.",
+      "translation": {
+        "ru": "Архитектор предлагает застройщику современную и устойчивую концепцию.",
+        "en": "The architect proposes a modern and sustainable concept to the client."
+      },
+      "bracket_parts": [
+        "schlägt",
+        "vor"
+      ],
+      "dativ_parts": [
+        "dem Bauherrn"
+      ],
+      "akkusativ_parts": [
+        "ein modernes und nachhaltiges Konzept"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir schlagen der Geschäftsleitung eine Verlängerung der Abgabefrist vor.",
+      "translation": {
+        "ru": "Мы предлагаем руководству компании продление срока сдачи.",
+        "en": "We suggest an extension of the deadline to the management."
+      },
+      "bracket_parts": [
+        "schlagen",
+        "vor"
+      ],
+      "dativ_parts": [
+        "der Geschäftsleitung"
+      ],
+      "akkusativ_parts": [
+        "eine Verlängerung der Abgabefrist"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Schlagt ihr euren Freunden ein Treffen im neuen Café am Markt vor?",
+      "translation": {
+        "ru": "Вы предложите своим друзьям встречу в новом кафе у рынка?",
+        "en": "Are you proposing a meeting to your friends in the new café by the market?"
+      },
+      "bracket_parts": [
+        "Schlagt",
+        "vor"
+      ],
+      "dativ_parts": [
+        "euren Freunden"
+      ],
+      "akkusativ_parts": [
+        "ein Treffen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern schlug sie dem gesamten Team eine völlig überraschende Lösung vor.",
+      "translation": {
+        "ru": "Вчера она предложила всей команде совершенно неожиданное решение.",
+        "en": "Yesterday she proposed a completely surprising solution to the entire team."
+      },
+      "bracket_parts": [
+        "schlug",
+        "vor"
+      ],
+      "dativ_parts": [
+        "dem gesamten Team"
+      ],
+      "akkusativ_parts": [
+        "eine völlig überraschende Lösung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben dem Kunden ein sehr faires Zahlungsmodell vorgeschlagen.",
+      "translation": {
+        "ru": "Они предложили клиенту очень справедливую модель оплаты.",
+        "en": "They suggested a very fair payment model to the client."
+      },
+      "bracket_parts": [
+        "haben",
+        "vorgeschlagen"
+      ],
+      "dativ_parts": [
+        "dem Kunden"
+      ],
+      "akkusativ_parts": [
+        "ein sehr faires Zahlungsmodell"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Schlagen Sie bitte einen geeigneten Termin für die Nachbesprechung vor!",
+      "translation": {
+        "ru": "Предложите, пожалуйста, подходящую дату для повторной встречи!",
+        "en": "Please propose a suitable date for the follow-up meeting!"
+      },
+      "bracket_parts": [
+        "Schlagen",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "einen geeigneten Termin"
+      ]
+    }
+  ]
+}

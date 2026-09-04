@@ -1,0 +1,185 @@
+{
+  "id": "durchfuehren",
+  "infinitive": "durchführen",
+  "translation": {
+    "ru": "проводить, осуществлять, выполнять (исследование, операцию)",
+    "en": "to carry out, to execute, to perform"
+  },
+  "level": "B2",
+  "frequency_rank": 200,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "durch",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "durchführen",
+    "present_3sg": "führt durch",
+    "praeteritum_3sg": "führte durch",
+    "partizip_2": "durchgeführt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "führe durch",
+      "du": "führst durch",
+      "er_sie_es": "führt durch",
+      "wir": "führen durch",
+      "ihr": "führt durch",
+      "sie_Sie": "führen durch",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "führte durch",
+      "du": "führtest durch",
+      "er_sie_es": "führte durch",
+      "wir": "führten durch",
+      "ihr": "führtet durch",
+      "sie_Sie": "führten durch"
+    },
+    "imperative": {
+      "du": "führ durch!",
+      "ihr": "führt durch!",
+      "Sie": "führen Sie durch!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine wissenschaftliche Studie (Akk) sorgfältig durchführen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich führe im Labor täglich komplexe chemische Analysen nach strengen Sicherheitsstandards durch.",
+      "translation": {
+        "ru": "В лаборатории я ежедневно провожу сложные химические анализы по строгим стандартам безопасности.",
+        "en": "In the laboratory I carry out complex chemical analyses daily according to strict safety standards."
+      },
+      "bracket_parts": [
+        "führe",
+        "durch"
+      ],
+      "akkusativ_parts": [
+        "komplexe chemische Analysen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Führst du die geplanten Wartungsarbeiten an den Servern heute Nacht persönlich durch?",
+      "translation": {
+        "ru": "Проведешь ли ты запланированные регламентные работы на серверах сегодня ночью лично?",
+        "en": "Will you carry out the planned maintenance work on the servers personally tonight?"
+      },
+      "bracket_parts": [
+        "Führst",
+        "durch"
+      ],
+      "akkusativ_parts": [
+        "die geplanten Wartungsarbeiten"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das erfahrene Ärzteteam führt die schwierige Herzoperation mit modernster Lasertechnik durch.",
+      "translation": {
+        "ru": "Опытная команда врачей проводит сложную операцию на сердце с помощью новейшей лазерной техники.",
+        "en": "The experienced medical team performs the difficult heart surgery with state-of-the-art laser technology."
+      },
+      "bracket_parts": [
+        "führt",
+        "durch"
+      ],
+      "akkusativ_parts": [
+        "die schwierige Herzoperation"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir führen regelmäßig praxisnahe Schulungen für alle neuen Mitarbeiter im Betrieb durch.",
+      "translation": {
+        "ru": "Мы регулярно проводим практические тренинги для всех новых сотрудников на предприятии.",
+        "en": "We regularly conduct practical training courses for all new employees in the company."
+      },
+      "bracket_parts": [
+        "führen",
+        "durch"
+      ],
+      "akkusativ_parts": [
+        "regelmäßig praxisnahe Schulungen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Führt ihr als Forschungsgruppe die weltweite Online-Umfrage in mehreren Sprachen durch?",
+      "translation": {
+        "ru": "Проводите ли вы как исследовательская группа глобальный онлайн-опрос на нескольких языках?",
+        "en": "Are you as a research group conducting the worldwide online survey in multiple languages?"
+      },
+      "bracket_parts": [
+        "Führt",
+        "durch"
+      ],
+      "akkusativ_parts": [
+        "die weltweite Online-Umfrage"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern führte die Polizei an der Landesgrenze überraschende Kontrollen bei allen Fahrzeugen durch.",
+      "translation": {
+        "ru": "Вчера полиция на границе земли провела неожиданные проверки всех транспортных средств.",
+        "en": "Yesterday the police carried out surprise checks on all vehicles at the state border."
+      },
+      "bracket_parts": [
+        "führte",
+        "durch"
+      ],
+      "akkusativ_parts": [
+        "überraschende Kontrollen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Experten haben eine gründliche Sicherheitsüberprüfung der alten Brücke erfolgreich durchgeführt.",
+      "translation": {
+        "ru": "Эксперты успешно провели тщательную проверку безопасности старого моста.",
+        "en": "The experts have successfully carried out a thorough safety inspection of the old bridge."
+      },
+      "bracket_parts": [
+        "haben",
+        "durchgeführt"
+      ],
+      "akkusativ_parts": [
+        "eine gründliche Sicherheitsüberprüfung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Führen Sie die Qualitätskontrolle bitte gewissenhaft nach dem vorgegebenen Protokoll durch!",
+      "translation": {
+        "ru": "Проведите контроль качества, пожалуйста, добросовестно по заданному протоколу!",
+        "en": "Please carry out the quality control conscientiously according to the specified protocol!"
+      },
+      "bracket_parts": [
+        "Führen",
+        "durch"
+      ],
+      "akkusativ_parts": [
+        "die Qualitätskontrolle"
+      ]
+    }
+  ]
+}

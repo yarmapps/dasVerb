@@ -6,7 +6,7 @@
     "en": "to understand"
   },
   "level": "A1",
-  "frequency_rank": 45,
+  "frequency_rank": 128,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "strong",
@@ -51,60 +51,60 @@
     "preposition": null,
     "preposition_case": null
   },
-  "chunk": "den Satz / die Grammatik verstehen",
+  "chunk": "den Satz / die Frage (Akk) verstehen",
   "sentences": [
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich verstehe diese schwierige Grammatikregel ganz genau",
+      "german": "Ich verstehe diesen deutschen Satz sehr gut.",
       "translation": {
-        "ru": "Я совершенно точно понимаю это сложное грамматическое правило",
-        "en": "I understand this difficult grammar rule very clearly"
+        "ru": "Я очень хорошо понимаю это немецкое предложение.",
+        "en": "I understand this German sentence very well."
       },
       "bracket_parts": [
         "verstehe"
       ],
       "akkusativ_parts": [
-        "diese schwierige Grammatikregel"
+        "diesen deutschen Satz"
       ]
     },
     {
       "id": "s2",
       "tense": "Präsens",
-      "german": "Verstehst du den deutschen Text ohne Wörterbuch?",
+      "german": "Verstehst du die schwere Frage von der Lehrerin?",
       "translation": {
-        "ru": "Ты понимаешь немецкий текст без словаря?",
-        "en": "Do you understand the German text without a dictionary?"
+        "ru": "Ты понимаешь трудный вопрос учительницы?",
+        "en": "Do you understand the difficult question from the teacher?"
       },
       "bracket_parts": [
         "Verstehst"
       ],
       "akkusativ_parts": [
-        "den deutschen Text"
+        "die schwere Frage"
       ]
     },
     {
       "id": "s3",
       "tense": "Präsens",
-      "german": "Er versteht die Frage des Lehrers sofort",
+      "german": "Er versteht die ganze Grammatikregel sofort.",
       "translation": {
-        "ru": "Он сразу понимает вопрос учителя",
-        "en": "He understands the teacher’s question immediately"
+        "ru": "Он сразу понимает всё грамматическое правило.",
+        "en": "He understands the whole grammar rule immediately."
       },
       "bracket_parts": [
         "versteht"
       ],
       "akkusativ_parts": [
-        "die Frage des Lehrers"
+        "die ganze Grammatikregel"
       ]
     },
     {
       "id": "s4",
       "tense": "Präsens",
-      "german": "Wir verstehen uns alle sehr gut",
+      "german": "Wir verstehen uns ohne viele Worte.",
       "translation": {
-        "ru": "Мы все отлично ладим друг с другом",
-        "en": "We all get along very well with each other"
+        "ru": "Мы понимаем друг друга без лишних слов.",
+        "en": "We understand each other without many words."
       },
       "bracket_parts": [
         "verstehen"
@@ -116,59 +116,59 @@
     {
       "id": "s5",
       "tense": "Präsens",
-      "german": "Versteht ihr die heutige Aufgabe?",
+      "german": "Versteht ihr das neue Thema in der Schule?",
       "translation": {
-        "ru": "Вы понимаете сегодняшнее задание?",
-        "en": "Do you understand today’s task?"
+        "ru": "Вы понимаете новую тему в школе?",
+        "en": "Do you understand the new topic at school?"
       },
       "bracket_parts": [
         "Versteht"
       ],
       "akkusativ_parts": [
-        "die heutige Aufgabe"
+        "das neue Thema"
       ]
     },
     {
       "id": "s6",
       "tense": "Präteritum",
-      "german": "Gestern verstand sie die Erklärung auf Anhieb",
+      "german": "Gestern verstand sie den schwierigen Text problemlos.",
       "translation": {
-        "ru": "Вчера она с первого раза поняла объяснение",
-        "en": "Yesterday she understood the explanation right away"
+        "ru": "Вчера она без проблем поняла этот сложный текст.",
+        "en": "Yesterday she understood the difficult text without problems."
       },
       "bracket_parts": [
         "verstand"
       ],
       "akkusativ_parts": [
-        "die Erklärung"
+        "den schwierigen Text"
       ]
     },
     {
       "id": "s7",
       "tense": "Perfekt",
-      "german": "Sie haben das Problem vollkommen verstanden",
+      "german": "Sie haben die wichtige Information schnell verstanden.",
       "translation": {
-        "ru": "Они полностью поняли проблему",
-        "en": "They have understood the problem completely"
+        "ru": "Они быстро поняли важную информацию.",
+        "en": "They understood the important information quickly."
       },
       "bracket_parts": [
         "haben",
         "verstanden"
       ],
       "akkusativ_parts": [
-        "das Problem"
+        "die wichtige Information"
       ]
     },
     {
       "id": "s8",
       "tense": "Imperativ",
-      "german": "Versteh mich bitte nicht falsch!",
+      "german": "Verstehen Sie mich bitte nicht falsch!",
       "translation": {
-        "ru": "Пойми меня, пожалуйста, правильно!",
+        "ru": "Не поймите меня, пожалуйста, неправильно!",
         "en": "Please do not misunderstand me!"
       },
       "bracket_parts": [
-        "Versteh"
+        "Verstehen"
       ],
       "akkusativ_parts": [
         "mich"

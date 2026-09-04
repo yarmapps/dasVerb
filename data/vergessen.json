@@ -1,0 +1,175 @@
+{
+  "id": "vergessen",
+  "infinitive": "vergessen",
+  "translation": {
+    "ru": "забывать",
+    "en": "to forget"
+  },
+  "level": "A2",
+  "frequency_rank": 139,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vergessen",
+    "present_3sg": "vergisst",
+    "praeteritum_3sg": "vergaß",
+    "partizip_2": "vergessen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vergesse",
+      "du": "vergisst",
+      "er_sie_es": "vergisst",
+      "wir": "vergessen",
+      "ihr": "vergesst",
+      "sie_Sie": "vergessen",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "vergaß",
+      "du": "vergaßest",
+      "er_sie_es": "vergaß",
+      "wir": "vergaßen",
+      "ihr": "vergaßt",
+      "sie_Sie": "vergaßen"
+    },
+    "imperative": {
+      "du": "vergiss!",
+      "ihr": "vergesst!",
+      "Sie": "vergessen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "den Schlüssel / den Geburtstag (Akk) vergessen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich vergesse leider manchmal die Namen neuer Bekannter.",
+      "translation": {
+        "ru": "Я, к сожалению, иногда забываю имена новых знакомых.",
+        "en": "Unfortunately I sometimes forget the names of new acquaintances."
+      },
+      "bracket_parts": [
+        "vergesse"
+      ],
+      "akkusativ_parts": [
+        "die Namen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Vergisst du oft deinen Regenschirm im Bus oder Zug?",
+      "translation": {
+        "ru": "Ты часто забываешь свой зонт в автобусе или поезде?",
+        "en": "Do you often forget your umbrella on the bus or train?"
+      },
+      "bracket_parts": [
+        "Vergisst"
+      ],
+      "akkusativ_parts": [
+        "deinen Regenschirm"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der gestresste Kollege vergisst heute ständig wichtige Telefonnummern.",
+      "translation": {
+        "ru": "Коллега в стрессе сегодня постоянно забывает важные телефонные номера.",
+        "en": "The stressed colleague constantly forgets important phone numbers today."
+      },
+      "bracket_parts": [
+        "vergisst"
+      ],
+      "akkusativ_parts": [
+        "wichtige Telefonnummern"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir vergessen niemals den wunderschönen Urlaub in den Schweizer Alpen.",
+      "translation": {
+        "ru": "Мы никогда не забудем прекрасный отпуск в швейцарских Альпах.",
+        "en": "We will never forget the wonderful holiday in the Swiss Alps."
+      },
+      "bracket_parts": [
+        "vergessen"
+      ],
+      "akkusativ_parts": [
+        "den wunderschönen Urlaub"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Vergesst ihr beim Verlassen des Hauses nicht eure Schlüssel?",
+      "translation": {
+        "ru": "Вы не забываете свои ключи при выходе из дома?",
+        "en": "Don't you forget your keys when leaving the house?"
+      },
+      "bracket_parts": [
+        "Vergesst"
+      ],
+      "akkusativ_parts": [
+        "eure Schlüssel"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern vergaß sie in der Eile ihre Brieftasche auf dem Schreibtisch.",
+      "translation": {
+        "ru": "Вчера в спешке она забыла свой кошелек на письменном столе.",
+        "en": "Yesterday in a hurry she forgot her wallet on the desk."
+      },
+      "bracket_parts": [
+        "vergaß"
+      ],
+      "akkusativ_parts": [
+        "ihre Brieftasche"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben den wichtigen Termin beim Zahnarzt völlig vergessen.",
+      "translation": {
+        "ru": "Они совершенно забыли о важном приеме у стоматолога.",
+        "en": "They completely forgot the important dentist appointment."
+      },
+      "bracket_parts": [
+        "haben",
+        "vergessen"
+      ],
+      "akkusativ_parts": [
+        "den wichtigen Termin"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Vergiss bitte nicht, die Blumen im Garten zu gießen!",
+      "translation": {
+        "ru": "Не забудь, пожалуйста, полить цветы в саду!",
+        "en": "Please do not forget to water the flowers in the garden!"
+      },
+      "bracket_parts": [
+        "Vergiss"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "id": "konzentrieren_sich_akk_auf",
+  "infinitive": "sich konzentrieren",
+  "translation": {
+    "ru": "концентрироваться, сосредоточиваться (на чем-то)",
+    "en": "to concentrate, to focus on"
+  },
+  "level": "B1",
+  "frequency_rank": 309,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich konzentrieren",
+    "present_3sg": "konzentriert sich",
+    "praeteritum_3sg": "konzentrierte sich",
+    "partizip_2": "konzentriert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "konzentriere mich",
+      "du": "konzentrierst dich",
+      "er_sie_es": "konzentriert sich",
+      "wir": "konzentrieren uns",
+      "ihr": "konzentriert euch",
+      "sie_Sie": "konzentrieren sich",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "konzentrierte mich",
+      "du": "konzentriertest dich",
+      "er_sie_es": "konzentrierte sich",
+      "wir": "konzentrierten uns",
+      "ihr": "konzentriertet euch",
+      "sie_Sie": "konzentrierten sich"
+    },
+    "imperative": {
+      "du": "konzentrier dich!",
+      "ihr": "konzentriert euch!",
+      "Sie": "konzentrieren Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich auf die anstehende Prüfung (Akk) konzentrieren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich konzentriere mich in der ruhigen Bibliothek vollkommen auf meine Masterarbeit.",
+      "translation": {
+        "ru": "В тихой библиотеке я полностью сосредоточиваюсь на своей магистерской диссертации.",
+        "en": "In the quiet library I concentrate completely on my master's thesis."
+      },
+      "bracket_parts": [
+        "konzentriere"
+      ],
+      "akkusativ_parts": [
+        "mich",
+        "auf meine Masterarbeit"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Konzentrierst du dich trotz der lauten Musik im Nebenzimmer auf deine Hausaufgaben?",
+      "translation": {
+        "ru": "Сосредоточиваешься ли ты на домашнем задании, несмотря на громкую музыку в соседней комнате?",
+        "en": "Do you concentrate on your homework despite the loud music in the next room?"
+      },
+      "bracket_parts": [
+        "Konzentrierst"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "auf deine Hausaufgaben"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der erfahrene Chirurg konzentriert sich während der schwierigen Operation auf jedes Detail.",
+      "translation": {
+        "ru": "Опытный хирург во время сложной операции концентрируется на каждой детали.",
+        "en": "The experienced surgeon concentrates on every detail during the difficult surgery."
+      },
+      "bracket_parts": [
+        "konzentriert"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "auf jedes Detail"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir konzentrieren uns in diesem Quartal vor allem auf die Entwicklung neuer Produkte.",
+      "translation": {
+        "ru": "В этом квартале мы концентрируемся прежде всего на разработке новых продуктов.",
+        "en": "In this quarter we concentrate primarily on the development of new products."
+      },
+      "bracket_parts": [
+        "konzentrieren"
+      ],
+      "akkusativ_parts": [
+        "uns",
+        "auf die Entwicklung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Konzentriert ihr euch beim Schachturnier auf jeden einzelnen Zug eures Gegners?",
+      "translation": {
+        "ru": "Концентрируетесь ли вы на шахматном турнире на каждом отдельном ходе своего соперника?",
+        "en": "Do you concentrate on every single move of your opponent at the chess tournament?"
+      },
+      "bracket_parts": [
+        "Konzentriert"
+      ],
+      "akkusativ_parts": [
+        "euch",
+        "auf jeden einzelnen Zug"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern konzentrierte sich die Schülerin stundenlang auf die kniffligen Matheaufgaben.",
+      "translation": {
+        "ru": "Вчера школьница часами концентрировалась на каверзных задачах по математике.",
+        "en": "Yesterday the pupil concentrated for hours on the tricky maths problems."
+      },
+      "bracket_parts": [
+        "konzentrierte"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "auf die kniffligen Matheaufgaben"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Entwickler haben sich ganz auf die Behebung der kritischen Sicherheitslücke konzentriert.",
+      "translation": {
+        "ru": "Разработчики полностью сосредоточились на устранении критической уязвимости безопасности.",
+        "en": "The developers concentrated entirely on fixing the critical security vulnerability."
+      },
+      "bracket_parts": [
+        "haben",
+        "konzentriert"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "auf die Behebung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Konzentrieren Sie sich bitte ganz auf den Straßenverkehr vor Ihnen!",
+      "translation": {
+        "ru": "Сосредоточьтесь, пожалуйста, полностью на дорожном движении перед вами!",
+        "en": "Please concentrate fully on the road traffic in front of you!"
+      },
+      "bracket_parts": [
+        "Konzentrieren"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "auf den Straßenverkehr"
+      ]
+    }
+  ]
+}

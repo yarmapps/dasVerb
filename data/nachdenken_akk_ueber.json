@@ -1,0 +1,182 @@
+{
+  "id": "nachdenken_akk_ueber",
+  "infinitive": "nachdenken",
+  "translation": {
+    "ru": "размышлять, обдумывать",
+    "en": "to reflect, to think about"
+  },
+  "level": "B1",
+  "frequency_rank": 110,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "mixed",
+    "prefix_type": "separable",
+    "prefix": "nach",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "nachdenken",
+    "present_3sg": "denkt nach",
+    "praeteritum_3sg": "dachte nach",
+    "partizip_2": "nachgedacht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "denke nach",
+      "du": "denkst nach",
+      "er_sie_es": "denkt nach",
+      "wir": "denken nach",
+      "ihr": "denkt nach",
+      "sie_Sie": "denken nach",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "dachte nach",
+      "du": "dachtest nach",
+      "er_sie_es": "dachte nach",
+      "wir": "dachten nach",
+      "ihr": "dachtet nach",
+      "sie_Sie": "dachten nach"
+    },
+    "imperative": {
+      "du": "denk nach!",
+      "ihr": "denkt nach!",
+      "Sie": "denken Sie nach!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "über ein schwieriges Problem (Akk) nachdenken",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich denke oft und gründlich über meine berufliche Zukunft nach.",
+      "translation": {
+        "ru": "Я часто и основательно размышляю о своем профессиональном будущем.",
+        "en": "I often and thoroughly think about my professional future."
+      },
+      "bracket_parts": [
+        "denke",
+        "nach"
+      ],
+      "akkusativ_parts": [
+        "über meine berufliche Zukunft"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Denkst du vor deiner Entscheidung in Ruhe über alle Konsequenzen nach?",
+      "translation": {
+        "ru": "Ты спокойно обдумываешь перед решением все последствия?",
+        "en": "Do you calmly think about all the consequences before your decision?"
+      },
+      "bracket_parts": [
+        "Denkst",
+        "nach"
+      ],
+      "akkusativ_parts": [
+        "über alle Konsequenzen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Philosoph denkt tief über den tieferen Sinn des menschlichen Daseins nach.",
+      "translation": {
+        "ru": "Философ глубоко размышляет о глубинном смысле человеческого бытия.",
+        "en": "The philosopher reflects deeply on the deeper meaning of human existence."
+      },
+      "bracket_parts": [
+        "denkt",
+        "nach"
+      ],
+      "akkusativ_parts": [
+        "über den tieferen Sinn"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir denken intensiv über alternative Lösungen für unser Projekt nach.",
+      "translation": {
+        "ru": "Мы интенсивно обдумываем альтернативные решения для нашего проекта.",
+        "en": "We are thinking intensively about alternative solutions for our project."
+      },
+      "bracket_parts": [
+        "denken",
+        "nach"
+      ],
+      "akkusativ_parts": [
+        "über alternative Lösungen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Denkt ihr am Wochenende manchmal über eure Lebensgewohnheiten nach?",
+      "translation": {
+        "ru": "Вы размышляете на выходных иногда о своих жизненных привычках?",
+        "en": "Do you sometimes reflect on your lifestyle habits at the weekend?"
+      },
+      "bracket_parts": [
+        "Denkt",
+        "nach"
+      ],
+      "akkusativ_parts": [
+        "über eure Lebensgewohnheiten"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern dachte sie stundenlang über das verlockende Stellenangebot nach.",
+      "translation": {
+        "ru": "Вчера она часами обдумывала заманчивое предложение о работе.",
+        "en": "Yesterday she thought for hours about the tempting job offer."
+      },
+      "bracket_parts": [
+        "dachte",
+        "nach"
+      ],
+      "akkusativ_parts": [
+        "über das verlockende Stellenangebot"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben lange über den klugen Vorschlag des Beraters nachgedacht.",
+      "translation": {
+        "ru": "Они долго размышляли над разумным предложением консультанта.",
+        "en": "They thought for a long time about the consultant's clever suggestion."
+      },
+      "bracket_parts": [
+        "haben",
+        "nachgedacht"
+      ],
+      "akkusativ_parts": [
+        "über den klugen Vorschlag"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Denk bitte erst gründlich nach, bevor du voreilig antwortest!",
+      "translation": {
+        "ru": "Подумай, пожалуйста, сначала основательно, прежде чем поспешно отвечать!",
+        "en": "Please think carefully first before answering hastily!"
+      },
+      "bracket_parts": [
+        "Denk",
+        "nach"
+      ]
+    }
+  ]
+}

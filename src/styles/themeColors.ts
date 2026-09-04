@@ -27,6 +27,23 @@ export interface ThemeColors {
     haben: string;
     sein: string;
   };
+
+  // Премиум токены (derArtikel style)
+  premiumDiamond: string;
+  premiumHighlight: string;
+  premiumHighlightText: string;
+  premiumSecondarySurface: string;
+  premiumGradient: readonly [string, string, ...string[]];
+  featureBadges: {
+    blue: string;
+    purple: string;
+    cyan: string;
+    pink: string;
+    green: string;
+    yellow: string;
+  };
+  white: string;
+  textDisabled: string;
 }
 
 export const lightColors: ThemeColors = {
@@ -48,6 +65,22 @@ export const lightColors: ThemeColors = {
     haben: '#0284C7', // haben
     sein: '#E11D48', // sein
   },
+
+  premiumDiamond: '#A05BFA',
+  premiumHighlight: '#FACC15',
+  premiumHighlightText: '#241641',
+  premiumSecondarySurface: '#F0F0F2',
+  premiumGradient: ['#1E1145', '#2D1B69', '#1A0B2E'] as const,
+  featureBadges: {
+    blue: '#3B5EF5',
+    purple: '#8B5CF6',
+    cyan: '#0EA5E9',
+    pink: '#EC4899',
+    green: '#22C55E',
+    yellow: '#FACC15',
+  },
+  white: '#FFFFFF',
+  textDisabled: 'rgba(60, 60, 67, 0.3)',
 };
 
 export const darkColors: ThemeColors = {
@@ -69,6 +102,22 @@ export const darkColors: ThemeColors = {
     haben: '#38BDF8',
     sein: '#FB7185',
   },
+
+  premiumDiamond: '#D5B4FF',
+  premiumHighlight: '#FACC15',
+  premiumHighlightText: '#241641',
+  premiumSecondarySurface: '#241641',
+  premiumGradient: ['#1E1145', '#2D1B69', '#1A0B2E'] as const,
+  featureBadges: {
+    blue: '#3B5EF5',
+    purple: '#8B5CF6',
+    cyan: '#0EA5E9',
+    pink: '#EC4899',
+    green: '#22C55E',
+    yellow: '#FACC15',
+  },
+  white: '#FFFFFF',
+  textDisabled: 'rgba(255, 255, 255, 0.3)',
 };
 
 export const Colors = darkColors;

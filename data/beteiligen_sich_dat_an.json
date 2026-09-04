@@ -1,0 +1,202 @@
+{
+  "id": "beteiligen_sich_dat_an",
+  "infinitive": "sich beteiligen",
+  "translation": {
+    "ru": "участвовать, принимать участие (в чем-то)",
+    "en": "to participate in, to take part in"
+  },
+  "level": "B2",
+  "frequency_rank": 185,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich beteiligen",
+    "present_3sg": "beteiligt sich",
+    "praeteritum_3sg": "beteiligte sich",
+    "partizip_2": "beteiligt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beteilige mich",
+      "du": "beteiligst dich",
+      "er_sie_es": "beteiligt sich",
+      "wir": "beteiligen uns",
+      "ihr": "beteiligt euch",
+      "sie_Sie": "beteiligen sich",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "beteiligte mich",
+      "du": "beteiligtest dich",
+      "er_sie_es": "beteiligte sich",
+      "wir": "beteiligten uns",
+      "ihr": "beteiligtet euch",
+      "sie_Sie": "beteiligten sich"
+    },
+    "imperative": {
+      "du": "beteilige dich!",
+      "ihr": "beteiligt euch!",
+      "Sie": "beteiligen Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "an",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "sich an der lebhaften Diskussion (Dat) aktiv beteiligen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich beteilige mich gerne aktiv an konstruktiven Diskussionen über die Stadtentwicklung.",
+      "translation": {
+        "ru": "Я с удовольствием активно участвую в конструктивных дискуссиях о развитии города.",
+        "en": "I gladly participate actively in constructive discussions about urban development."
+      },
+      "bracket_parts": [
+        "beteilige"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": [
+        "an konstruktiven Diskussionen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Beteiligst du dich finanziell an den gemeinsamen Geschenkkosten für den Kollegen?",
+      "translation": {
+        "ru": "Участвуешь ли ты финансово в общих расходах на подарок для коллеги?",
+        "en": "Are you participating financially in the shared gift costs for the colleague?"
+      },
+      "bracket_parts": [
+        "Beteiligst"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "an den gemeinsamen Geschenkkosten"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das engagierte Unternehmen beteiligt sich großzügig an gemeinnützigen Projekten der Stadt.",
+      "translation": {
+        "ru": "Неравнодушная компания щедро участвует в благотворительных проектах города.",
+        "en": "The committed company participates generously in charitable projects in the city."
+      },
+      "bracket_parts": [
+        "beteiligt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "an gemeinnützigen Projekten"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beteiligen uns jedes Jahr mit Begeisterung an der großen Aufräumaktion im Park.",
+      "translation": {
+        "ru": "Мы каждый год с воодушевлением участвуем в большой уборке в парке.",
+        "en": "Every year we enthusiastically take part in the big clean-up operation in the park."
+      },
+      "bracket_parts": [
+        "beteiligen"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ],
+      "dativ_parts": [
+        "an der großen Aufräumaktion"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Beteiligt ihr euch als Klasse am bundesweiten Vorlesewettbewerb für Jugendliche?",
+      "translation": {
+        "ru": "Участвуете ли вы классом во всегерманском конкурсе чтения вслух для молодежи?",
+        "en": "Are you participating as a class in the nationwide reading competition for teenagers?"
+      },
+      "bracket_parts": [
+        "Beteiligt"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ],
+      "dativ_parts": [
+        "am bundesweiten Vorlesewettbewerb"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern beteiligte sich die Studentin mit klugen Nachfragen an dem wissenschaftlichen Symposium.",
+      "translation": {
+        "ru": "Вчера студентка умными вопросами участвовала в научном симпозиуме.",
+        "en": "Yesterday the student participated in the scientific symposium with clever questions."
+      },
+      "bracket_parts": [
+        "beteiligte"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "an dem wissenschaftlichen Symposium"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Tausende Bürger haben sich friedlich an den landesweiten Demonstrationen beteiligt.",
+      "translation": {
+        "ru": "Тысячи граждан мирно приняли участие в общенациональных демонстрациях.",
+        "en": "Thousands of citizens participated peacefully in the nationwide demonstrations."
+      },
+      "bracket_parts": [
+        "haben",
+        "beteiligt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "an den landesweiten Demonstrationen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Beteiligen Sie sich bitte aktiv an der Abstimmung über den Haushaltsplan!",
+      "translation": {
+        "ru": "Примите активное участие, пожалуйста, в голосовании по бюджетному плану!",
+        "en": "Please participate actively in the vote on the budget plan!"
+      },
+      "bracket_parts": [
+        "Beteiligen"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "an der Abstimmung"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "erzielen",
+  "infinitive": "erzielen",
+  "translation": {
+    "ru": "достигать, добиваться (результата, прибыли)",
+    "en": "to achieve, to attain, to generate (profit)"
+  },
+  "level": "B2",
+  "frequency_rank": 337,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erzielen",
+    "present_3sg": "erzielt",
+    "praeteritum_3sg": "erzielte",
+    "partizip_2": "erzielt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erziele",
+      "du": "erzielst",
+      "er_sie_es": "erzielt",
+      "wir": "erzielen",
+      "ihr": "erzielt",
+      "sie_Sie": "erzielen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "erzielte",
+      "du": "erzieltest",
+      "er_sie_es": "erzielte",
+      "wir": "erzielten",
+      "ihr": "erzieltet",
+      "sie_Sie": "erzielten"
+    },
+    "imperative": {
+      "du": "erziele!",
+      "ihr": "erzielt!",
+      "Sie": "erzielen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "hervorragende Ergebnisse (Akk) bei den Verhandlungen erzielen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erziele durch diszipliniertes Lernen und kontinuierliche Wiederholung hervorragende Prüfungsergebnisse.",
+      "translation": {
+        "ru": "Благодаря дисциплинированной учебе и постоянному повторению я достигаю выдающихся результатов на экзаменах.",
+        "en": "Through disciplined studying and continuous repetition I achieve outstanding exam results."
+      },
+      "bracket_parts": [
+        "erziele"
+      ],
+      "akkusativ_parts": [
+        "hervorragende Prüfungsergebnisse"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erzielst du beim Verkauf deines gebrauchten Motorrads eigentlich den gewünschten Preis?",
+      "translation": {
+        "ru": "Выручишь ли ты при продаже своего подержанного мотоцикла на самом деле желаемую цену?",
+        "en": "Are you actually obtaining the desired price when selling your used motorbike?"
+      },
+      "bracket_parts": [
+        "Erzielst"
+      ],
+      "akkusativ_parts": [
+        "den gewünschten Preis"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das erfolgreiche Pharmaunternehmen erzielt im laufenden Geschäftsjahr beträchtliche Milliardengewinne.",
+      "translation": {
+        "ru": "Успешная фармацевтическая компания достигает в текущем финансовом году внушительной миллиардной прибыли.",
+        "en": "The successful pharmaceutical company is generating considerable billions in profits in the current financial year."
+      },
+      "bracket_parts": [
+        "erzielt"
+      ],
+      "akkusativ_parts": [
+        "beträchtliche Milliardengewinne"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erzielen bei den schwierigen Tarifverhandlungen einen tragfähigen und gerechten Kompromiss.",
+      "translation": {
+        "ru": "На сложных тарифных переговорах мы достигаем жизнеспособного и справедливого компромисса.",
+        "en": "In the difficult collective bargaining negotiations we reach a viable and fair compromise."
+      },
+      "bracket_parts": [
+        "erzielen"
+      ],
+      "akkusativ_parts": [
+        "einen tragfähigen und gerechten Kompromiss"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erzielt ihr mit eurer gezielten Online-Werbekampagne spürbar höhere Verkaufszahlen?",
+      "translation": {
+        "ru": "Добиваетесь ли вы своей таргетированной онлайн-рекламой ощутимо более высоких показателей продаж?",
+        "en": "Are you achieving noticeably higher sales figures with your targeted online advertising campaign?"
+      },
+      "bracket_parts": [
+        "Erzielt"
+      ],
+      "akkusativ_parts": [
+        "spürbar höhere Verkaufszahlen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern erzielte der Stürmer in der letzten Spielminute das entscheidende Siegtor.",
+      "translation": {
+        "ru": "Вчера нападающий на последней минуте матча забил решающий победный гол.",
+        "en": "Yesterday the striker scored the decisive winning goal in the final minute of the match."
+      },
+      "bracket_parts": [
+        "erzielte"
+      ],
+      "akkusativ_parts": [
+        "das entscheidende Siegtor"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Forscher haben bei ihren Laborexperimenten einen bahnbrechenden medizinischen Durchbruch erzielt.",
+      "translation": {
+        "ru": "Исследователи в своих лабораторных экспериментах добились революционного медицинского прорыва.",
+        "en": "The researchers achieved a breakthrough medical advance in their laboratory experiments."
+      },
+      "bracket_parts": [
+        "haben",
+        "erzielt"
+      ],
+      "akkusativ_parts": [
+        "einen bahnbrechenden medizinischen Durchbruch"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erzielen Sie durch gute Kooperation bitte den größtmöglichen Nutzen für alle!",
+      "translation": {
+        "ru": "Добейтесь благодаря хорошему сотрудничеству, пожалуйста, наибольшей пользы для всех!",
+        "en": "Please achieve the greatest possible benefit for everyone through good cooperation!"
+      },
+      "bracket_parts": [
+        "Erzielen"
+      ],
+      "akkusativ_parts": [
+        "den größtmöglichen Nutzen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "bezeichnen_akk_als",
+  "infinitive": "bezeichnen",
+  "translation": {
+    "ru": "называть, обозначать, характеризовать (как)",
+    "en": "to designate, to describe as"
+  },
+  "level": "B2",
+  "frequency_rank": 82,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bezeichnen",
+    "present_3sg": "bezeichnet",
+    "praeteritum_3sg": "bezeichnete",
+    "partizip_2": "bezeichnet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bezeichne",
+      "du": "bezeichnest",
+      "er_sie_es": "bezeichnet",
+      "wir": "bezeichnen",
+      "ihr": "bezeichnet",
+      "sie_Sie": "bezeichnen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "bezeichnete",
+      "du": "bezeichnetest",
+      "er_sie_es": "bezeichnete",
+      "wir": "bezeichneten",
+      "ihr": "bezeichnetet",
+      "sie_Sie": "bezeichneten"
+    },
+    "imperative": {
+      "du": "bezeichne!",
+      "ihr": "bezeichnet!",
+      "Sie": "bezeichnen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "als",
+    "preposition_case": null
+  },
+  "chunk": "jemanden (Akk) als Experten bezeichnen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich bezeichne diesen erfahrenen Kollegen gerne als mein wichtigstes Vorbild im Beruf.",
+      "translation": {
+        "ru": "Я с удовольствием называю этого опытного коллегу моим главным примером для подражания в профессии.",
+        "en": "I gladly describe this experienced colleague as my most important role model in the profession."
+      },
+      "bracket_parts": [
+        "bezeichne"
+      ],
+      "akkusativ_parts": [
+        "diesen erfahrenen Kollegen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Bezeichnest du das gestrige Verhandlungsergebnis wirklich als vollen Erfolg?",
+      "translation": {
+        "ru": "Ты действительно называешь вчерашний результат переговоров полным успехом?",
+        "en": "Do you really describe yesterday's negotiation result as a complete success?"
+      },
+      "bracket_parts": [
+        "Bezeichnest"
+      ],
+      "akkusativ_parts": [
+        "das gestrige Verhandlungsergebnis"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Presse bezeichnet die junge Wissenschaftlerin als Pionierin der modernen Genforschung.",
+      "translation": {
+        "ru": "Пресса называет молодую ученую пионером современных генетических исследований.",
+        "en": "The press describes the young scientist as a pioneer of modern genetic research."
+      },
+      "bracket_parts": [
+        "bezeichnet"
+      ],
+      "akkusativ_parts": [
+        "die junge Wissenschaftlerin"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir bezeichnen die Erhaltung der Natur als unsere dringlichste gesellschaftliche Aufgabe.",
+      "translation": {
+        "ru": "Мы называем сохранение природы нашей самой неотложной общественной задачей.",
+        "en": "We designate the preservation of nature as our most urgent societal task."
+      },
+      "bracket_parts": [
+        "bezeichnen"
+      ],
+      "akkusativ_parts": [
+        "die Erhaltung der Natur"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bezeichnet ihr euren gemeinsamen Musikstil als eine Mischung aus Jazz und Pop?",
+      "translation": {
+        "ru": "Вы определяете свой совместный музыкальный стиль как смесь джаза и попа?",
+        "en": "Do you describe your shared music style as a mixture of jazz and pop?"
+      },
+      "bracket_parts": [
+        "Bezeichnet"
+      ],
+      "akkusativ_parts": [
+        "euren gemeinsamen Musikstil"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern bezeichnete der Minister den neuen Kompromiss als historischen Meilenstein.",
+      "translation": {
+        "ru": "Вчера министр назвал новый компромисс исторической вехой.",
+        "en": "Yesterday the minister described the new compromise as a historic milestone."
+      },
+      "bracket_parts": [
+        "bezeichnete"
+      ],
+      "akkusativ_parts": [
+        "den neuen Kompromiss"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Fachkritiker haben das Buch einhellig als Meisterwerk der Gegenwartsliteratur bezeichnet.",
+      "translation": {
+        "ru": "Профессиональные критики единодушно назвали книгу шедевром современной литературы.",
+        "en": "The critics unanimously described the book as a masterpiece of contemporary literature."
+      },
+      "bracket_parts": [
+        "haben",
+        "bezeichnet"
+      ],
+      "akkusativ_parts": [
+        "das Buch"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Bezeichnen Sie die Grafik bitte mit einer präzisen Beschriftung!",
+      "translation": {
+        "ru": "Обозначьте график, пожалуйста, точной подписью!",
+        "en": "Please label the graphic with a precise caption!"
+      },
+      "bracket_parts": [
+        "Bezeichnen"
+      ],
+      "akkusativ_parts": [
+        "die Grafik"
+      ]
+    }
+  ]
+}

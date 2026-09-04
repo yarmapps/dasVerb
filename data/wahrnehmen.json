@@ -1,0 +1,185 @@
+{
+  "id": "wahrnehmen",
+  "infinitive": "wahrnehmen",
+  "translation": {
+    "ru": "воспринимать, замечать, использовать (шанс, встречу)",
+    "en": "to perceive, to take advantage of (chance/appointment)"
+  },
+  "level": "B2",
+  "frequency_rank": 175,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "wahr",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "wahrnehmen",
+    "present_3sg": "nimmt wahr",
+    "praeteritum_3sg": "nahm wahr",
+    "partizip_2": "wahrgenommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "nehme wahr",
+      "du": "nimmst wahr",
+      "er_sie_es": "nimmt wahr",
+      "wir": "nehmen wahr",
+      "ihr": "nehmt wahr",
+      "sie_Sie": "nehmen wahr",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "nahm wahr",
+      "du": "nahmst wahr",
+      "er_sie_es": "nahm wahr",
+      "wir": "nahmen wahr",
+      "ihr": "nahmt wahr",
+      "sie_Sie": "nahmen wahr"
+    },
+    "imperative": {
+      "du": "nimm wahr!",
+      "ihr": "nehmt wahr!",
+      "Sie": "nehmen Sie wahr!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen Termin / eine seltene Chance (Akk) wahrnehmen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich nehme die feinen Stimmungen und Gefühle meiner Mitmenschen sehr sensibel wahr.",
+      "translation": {
+        "ru": "Я очень чутко воспринимаю тонкие настроения и чувства окружающих.",
+        "en": "I perceive the subtle moods and feelings of my fellow human beings very sensitively."
+      },
+      "bracket_parts": [
+        "nehme",
+        "wahr"
+      ],
+      "akkusativ_parts": [
+        "die feinen Stimmungen und Gefühle"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Nimmst du den wichtigen Arzttermin morgen Vormittag trotz deiner vielen Arbeit wahr?",
+      "translation": {
+        "ru": "Пойдешь ли ты завтра утром на важный прием к врачу, несмотря на множество работы?",
+        "en": "Will you attend the important doctor's appointment tomorrow morning despite all your work?"
+      },
+      "bracket_parts": [
+        "Nimmst",
+        "wahr"
+      ],
+      "akkusativ_parts": [
+        "den wichtigen Arzttermin"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das kleine Kind nimmt die Welt um sich herum voller Neugier und Staunen wahr.",
+      "translation": {
+        "ru": "Маленький ребенок воспринимает мир вокруг себя с любопытством и удивлением.",
+        "en": "The little child perceives the world around it full of curiosity and wonder."
+      },
+      "bracket_parts": [
+        "nimmt",
+        "wahr"
+      ],
+      "akkusativ_parts": [
+        "die Welt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir nehmen als Bürger unsere demokratische Verantwortung bei den Wahlen wahr.",
+      "translation": {
+        "ru": "Мы как граждане реализуем свою демократическую ответственность на выборах.",
+        "en": "As citizens, we exercise our democratic responsibility in the elections."
+      },
+      "bracket_parts": [
+        "nehmen",
+        "wahr"
+      ],
+      "akkusativ_parts": [
+        "unsere demokratische Verantwortung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Nehmt ihr die einmalige Gelegenheit für ein Auslandssemester in Paris wahr?",
+      "translation": {
+        "ru": "Воспользуетесь ли вы уникальной возможностью для семестра за границей в Париже?",
+        "en": "Will you take advantage of the unique opportunity for a semester abroad in Paris?"
+      },
+      "bracket_parts": [
+        "Nehmt",
+        "wahr"
+      ],
+      "akkusativ_parts": [
+        "die einmalige Gelegenheit"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern nahm sie im dunklen Flur ein leises und verdächtiges Rascheln wahr.",
+      "translation": {
+        "ru": "Вчера в темной прихожей она уловила тихий и подозрительный шорох.",
+        "en": "Yesterday in the dark corridor she perceived a quiet and suspicious rustling."
+      },
+      "bracket_parts": [
+        "nahm",
+        "wahr"
+      ],
+      "akkusativ_parts": [
+        "ein leises und verdächtiges Rascheln"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Delegation hat die Einladung zum internationalen Gipfeltreffen dankend wahrgenommen.",
+      "translation": {
+        "ru": "Делегация с благодарностью приняла приглашение на международный саммит.",
+        "en": "The delegation gratefully took up the invitation to the international summit."
+      },
+      "bracket_parts": [
+        "hat",
+        "wahrgenommen"
+      ],
+      "akkusativ_parts": [
+        "die Einladung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Nehmen Sie Ihre Bürgerrechte bitte aktiv und gewissenhaft wahr!",
+      "translation": {
+        "ru": "Реализуйте свои гражданские права, пожалуйста, активно и добросовестно!",
+        "en": "Please exercise your civil rights actively and conscientiously!"
+      },
+      "bracket_parts": [
+        "Nehmen",
+        "wahr"
+      ],
+      "akkusativ_parts": [
+        "Ihre Bürgerrechte"
+      ]
+    }
+  ]
+}

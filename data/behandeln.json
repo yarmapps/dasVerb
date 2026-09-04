@@ -1,0 +1,178 @@
+{
+  "id": "behandeln",
+  "infinitive": "behandeln",
+  "translation": {
+    "ru": "обращаться (с кем-то), лечить, обсуждать (тему)",
+    "en": "to treat, to handle"
+  },
+  "level": "B1",
+  "frequency_rank": 134,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "behandeln",
+    "present_3sg": "behandelt",
+    "praeteritum_3sg": "behandelte",
+    "partizip_2": "behandelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "behandle",
+      "du": "behandelst",
+      "er_sie_es": "behandelt",
+      "wir": "behandeln",
+      "ihr": "behandelt",
+      "sie_Sie": "behandeln",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "behandelte",
+      "du": "behandeltest",
+      "er_sie_es": "behandelte",
+      "wir": "behandelten",
+      "ihr": "behandeltet",
+      "sie_Sie": "behandelten"
+    },
+    "imperative": {
+      "du": "behandle!",
+      "ihr": "behandelt!",
+      "Sie": "behandeln Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Patienten / ein Thema (Akk) behandeln",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich behandle alle meine Kollegen stets mit Respekt und Fairness.",
+      "translation": {
+        "ru": "Я всегда обращаюсь со всеми своими коллегами с уважением и справедливостью.",
+        "en": "I always treat all my colleagues with respect and fairness."
+      },
+      "bracket_parts": [
+        "behandle"
+      ],
+      "akkusativ_parts": [
+        "alle meine Kollegen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Behandelst du dieses empfindliche Musikinstrument auch vorsichtig genug?",
+      "translation": {
+        "ru": "Ты обращаешься с этим чувствительным музыкальным инструментом достаточно бережно?",
+        "en": "Are you handling this delicate musical instrument carefully enough?"
+      },
+      "bracket_parts": [
+        "Behandelst"
+      ],
+      "akkusativ_parts": [
+        "dieses empfindliche Musikinstrument"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die erfahrene Zahnärztin behandelt ihre Patienten sehr einfühlsam.",
+      "translation": {
+        "ru": "Опытный стоматолог лечит своих пациентов очень чутко.",
+        "en": "The experienced dentist treats her patients very empathetically."
+      },
+      "bracket_parts": [
+        "behandelt"
+      ],
+      "akkusativ_parts": [
+        "ihre Patienten"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir behandeln im heutigen Seminar ein hochaktuelles gesellschaftliches Thema.",
+      "translation": {
+        "ru": "Мы обсуждаем на сегодняшнем семинаре весьма актуальную общественную тему.",
+        "en": "In today's seminar we are dealing with a highly topical social theme."
+      },
+      "bracket_parts": [
+        "behandeln"
+      ],
+      "akkusativ_parts": [
+        "ein hochaktuelles gesellschaftliches Thema"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Behandelt ihr eure Haustiere immer liebevoll und aufmerksam?",
+      "translation": {
+        "ru": "Вы всегда заботливо и внимательно обращаетесь со своими домашними животными?",
+        "en": "Do you always treat your pets lovingly and attentively?"
+      },
+      "bracket_parts": [
+        "Behandelt"
+      ],
+      "akkusativ_parts": [
+        "eure Haustiere"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern behandelte der Arzt die schwere Wunde des Sportlers fachgerecht.",
+      "translation": {
+        "ru": "Вчера врач квалифицированно обработал тяжелую рану спортсмена.",
+        "en": "Yesterday the doctor properly treated the athlete's severe wound."
+      },
+      "bracket_parts": [
+        "behandelte"
+      ],
+      "akkusativ_parts": [
+        "die schwere Wunde"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die Beschwerde des Kunden äußerst zuvorkommend behandelt.",
+      "translation": {
+        "ru": "Они рассмотрели жалобу клиента исключительно любезно.",
+        "en": "They handled the customer's complaint extremely courteously."
+      },
+      "bracket_parts": [
+        "haben",
+        "behandelt"
+      ],
+      "akkusativ_parts": [
+        "die Beschwerde des Kunden"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Behandeln Sie andere Menschen immer so, wie Sie selbst behandelt werden möchten!",
+      "translation": {
+        "ru": "Относитесь к другим людям всегда так, как хотите, чтобы относились к вам!",
+        "en": "Always treat other people the way you would like to be treated yourself!"
+      },
+      "bracket_parts": [
+        "Behandeln"
+      ],
+      "akkusativ_parts": [
+        "andere Menschen"
+      ]
+    }
+  ]
+}

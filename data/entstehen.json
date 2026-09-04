@@ -1,0 +1,154 @@
+{
+  "id": "entstehen",
+  "infinitive": "entstehen",
+  "translation": {
+    "ru": "возникать, образовываться",
+    "en": "to arise, to originate, to develop"
+  },
+  "level": "B1",
+  "frequency_rank": 61,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ent",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "entstehen",
+    "present_3sg": "entsteht",
+    "praeteritum_3sg": "entstand",
+    "partizip_2": "entstanden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entstehe",
+      "du": "entstehst",
+      "er_sie_es": "entsteht",
+      "wir": "entstehen",
+      "ihr": "entsteht",
+      "sie_Sie": "entstehen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "entstand",
+      "du": "entstandest",
+      "er_sie_es": "entstand",
+      "wir": "entstanden",
+      "ihr": "entstandet",
+      "sie_Sie": "entstanden"
+    },
+    "imperative": {
+      "du": "entsteh!",
+      "ihr": "entsteht!",
+      "Sie": "entstehen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "durch ein Missverständnis / neu entstehen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich sehe genau, wie hier Schritt für Schritt ein wunderschöner Garten entsteht.",
+      "translation": {
+        "ru": "Я прекрасно вижу, как здесь шаг за шагом возникает прекрасный сад.",
+        "en": "I see clearly how a beautiful garden is developing here step by step."
+      },
+      "bracket_parts": [
+        "entsteht"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Entsteht durch diese Baustelle auf der Hauptstraße nicht jeden Morgen ein Stau?",
+      "translation": {
+        "ru": "Разве из-за этой стройки на главной улице не возникает каждое утро пробка?",
+        "en": "Doesn't a traffic jam develop every morning because of this construction site on the main street?"
+      },
+      "bracket_parts": [
+        "Entsteht"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "In diesem Stadtviertel entsteht derzeit ein hochmodernes Kulturzentrum für Jugendliche.",
+      "translation": {
+        "ru": "В этом городском районе сейчас строится ультрасовременный культурный центр для молодежи.",
+        "en": "An ultra-modern cultural centre for young people is currently being developed in this district."
+      },
+      "bracket_parts": [
+        "entsteht"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beobachten begeistert, welche innovativen Ideen aus dieser Kooperation entstehen.",
+      "translation": {
+        "ru": "Мы с восторгом наблюдаем, какие инновационные идеи возникают из этого сотрудничества.",
+        "en": "We observe with excitement what innovative ideas arise from this cooperation."
+      },
+      "bracket_parts": [
+        "entstehen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Entstehen bei euch in der Firma durch die Umstellung neue Arbeitsplätze?",
+      "translation": {
+        "ru": "Возникают ли у вас в компании новые рабочие места в результате реорганизации?",
+        "en": "Are new jobs being created in your company as a result of the reorganization?"
+      },
+      "bracket_parts": [
+        "Entstehen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern entstand durch eine Unachtsamkeit ein kleiner Brand in der Küche.",
+      "translation": {
+        "ru": "Вчера из-за невнимательности возник небольшой пожар на кухне.",
+        "en": "Yesterday a small fire started in the kitchen due to carelessness."
+      },
+      "bracket_parts": [
+        "entstand"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Aus dem kleinen Start-up ist über die Jahre ein weltweit erfolgreicher Konzern entstanden.",
+      "translation": {
+        "ru": "Из маленького стартапа за эти годы возник глобально успешный концерн.",
+        "en": "Over the years, a globally successful corporation has emerged from the small start-up."
+      },
+      "bracket_parts": [
+        "ist",
+        "entstanden"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Lassen Sie durch offene Kommunikation kein unnötiges Misstrauen entstehen!",
+      "translation": {
+        "ru": "Не допускайте возникновения ненужного недоверия благодаря открытому общению!",
+        "en": "Do not let unnecessary distrust arise through open communication!"
+      },
+      "bracket_parts": [
+        "entstehen"
+      ]
+    }
+  ]
+}

@@ -10,6 +10,9 @@ import { RootNavigator } from './src/navigation/RootNavigator';
 import { ENABLE_ADS } from './src/ads/adConfig';
 import { preloadRewardedAdOnAppStart } from './src/ads/useRewardedAd';
 import { fetchRemoteConfig } from './src/services/appConfigService';
+import { initializeAnalytics } from './src/services/analyticsService';
+import { initRevenueCat } from './src/services/revenueCatService';
+import { useScreenTracking } from './src/hooks/useScreenTracking';
 
 enableFreeze(false);
 
@@ -19,6 +22,7 @@ LogBox.ignoreLogs([
 
 function AppContent(): React.JSX.Element {
   const { colors, isDark } = useAppTheme();
+  const { navigationRef, onNavigationReady, onNavigationStateChange } = useScreenTracking();
 
   const navigationTheme = useMemo(() => {
     const baseTheme = isDark ? DarkTheme : DefaultTheme;
@@ -36,7 +40,12 @@ function AppContent(): React.JSX.Element {
   }, [colors, isDark]);
 
   return (
-    <NavigationContainer theme={navigationTheme}>
+    <NavigationContainer
+      ref={navigationRef}
+      onReady={onNavigationReady}
+      onStateChange={onNavigationStateChange}
+      theme={navigationTheme}
+    >
       <RootNavigator />
     </NavigationContainer>
   );
@@ -44,7 +53,9 @@ function AppContent(): React.JSX.Element {
 
 export function App(): React.JSX.Element {
   useEffect(() => {
+    initializeAnalytics().catch(() => {});
     fetchRemoteConfig().catch(() => {});
+    initRevenueCat().catch(() => {});
 
     if (ENABLE_ADS) {
       try {

@@ -1,0 +1,199 @@
+{
+  "id": "versprechen",
+  "infinitive": "versprechen",
+  "translation": {
+    "ru": "обещать",
+    "en": "to promise"
+  },
+  "level": "B1",
+  "frequency_rank": 112,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "versprechen",
+    "present_3sg": "verspricht",
+    "praeteritum_3sg": "versprach",
+    "partizip_2": "versprochen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verspreche",
+      "du": "versprichst",
+      "er_sie_es": "verspricht",
+      "wir": "versprechen",
+      "ihr": "versprecht",
+      "sie_Sie": "versprechen",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "versprach",
+      "du": "versprachst",
+      "er_sie_es": "versprach",
+      "wir": "versprachen",
+      "ihr": "verspracht",
+      "sie_Sie": "versprachen"
+    },
+    "imperative": {
+      "du": "versprich!",
+      "ihr": "versprecht!",
+      "Sie": "versprechen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ + Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemandem (Dat) volle Unterstützung (Akk) versprechen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verspreche dir meine volle Unterstützung bei deiner schwierigen Prüfung.",
+      "translation": {
+        "ru": "Я обещаю тебе свою полную поддержку на твоем сложном экзамене.",
+        "en": "I promise you my full support for your difficult exam."
+      },
+      "bracket_parts": [
+        "verspreche"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "meine volle Unterstützung"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Versprichst du deinen Eltern einen regelmäßigen Anruf am Wochenende?",
+      "translation": {
+        "ru": "Ты обещаешь родителям регулярный звонок по выходным?",
+        "en": "Do you promise your parents a regular phone call at the weekend?"
+      },
+      "bracket_parts": [
+        "Versprichst"
+      ],
+      "dativ_parts": [
+        "deinen Eltern"
+      ],
+      "akkusativ_parts": [
+        "einen regelmäßigen Anruf"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Politiker verspricht den Bürgern vor der Wahl spürbare Steuersenkungen.",
+      "translation": {
+        "ru": "Политик перед выборами обещает гражданам ощутимые снижения налогов.",
+        "en": "The politician promises citizens noticeable tax cuts before the election."
+      },
+      "bracket_parts": [
+        "verspricht"
+      ],
+      "dativ_parts": [
+        "den Bürgern"
+      ],
+      "akkusativ_parts": [
+        "spürbare Steuersenkungen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir versprechen unseren Kunden höchste Qualität und pünktliche Lieferung.",
+      "translation": {
+        "ru": "Мы обещаем нашим клиентам высочайшее качество и своевременную доставку.",
+        "en": "We promise our customers top quality and prompt delivery."
+      },
+      "bracket_parts": [
+        "versprechen"
+      ],
+      "dativ_parts": [
+        "unseren Kunden"
+      ],
+      "akkusativ_parts": [
+        "höchste Qualität"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Versprecht ihr euren Freunden eine pünktliche Ankunft am Treffpunkt?",
+      "translation": {
+        "ru": "Вы обещаете своим друзьям пунктуальное прибытие к месту встречи?",
+        "en": "Do you promise your friends a punctual arrival at the meeting point?"
+      },
+      "bracket_parts": [
+        "Versprecht"
+      ],
+      "dativ_parts": [
+        "euren Freunden"
+      ],
+      "akkusativ_parts": [
+        "eine pünktliche Ankunft"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern versprach der Chef allen Mitarbeitern einen zusätzlichen Urlaubstag.",
+      "translation": {
+        "ru": "Вчера начальник пообещал всем сотрудникам дополнительный выходной день.",
+        "en": "Yesterday the boss promised all employees an additional day off."
+      },
+      "bracket_parts": [
+        "versprach"
+      ],
+      "dativ_parts": [
+        "allen Mitarbeitern"
+      ],
+      "akkusativ_parts": [
+        "einen zusätzlichen Urlaubstag"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben mir gestern feierlich ihre Verschwiegenheit versprochen.",
+      "translation": {
+        "ru": "Они вчера торжественно пообещали мне сохранить молчание.",
+        "en": "They solemnly promised me their discretion yesterday."
+      },
+      "bracket_parts": [
+        "haben",
+        "versprochen"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "ihre Verschwiegenheit"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Versprechen Sie bitte nichts, was Sie später nicht halten können!",
+      "translation": {
+        "ru": "Не обещайте, пожалуйста, ничего, что вы позже не сможете сдержать!",
+        "en": "Please do not promise anything that you cannot keep later!"
+      },
+      "bracket_parts": [
+        "Versprechen"
+      ],
+      "akkusativ_parts": [
+        "nichts"
+      ]
+    }
+  ]
+}

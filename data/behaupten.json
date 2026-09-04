@@ -1,0 +1,166 @@
+{
+  "id": "behaupten",
+  "infinitive": "behaupten",
+  "translation": {
+    "ru": "утверждать",
+    "en": "to claim, to assert"
+  },
+  "level": "B1",
+  "frequency_rank": 140,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "behaupten",
+    "present_3sg": "behauptet",
+    "praeteritum_3sg": "behauptete",
+    "partizip_2": "behauptet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "behaupte",
+      "du": "behauptest",
+      "er_sie_es": "behauptet",
+      "wir": "behaupten",
+      "ihr": "behauptet",
+      "sie_Sie": "behaupten",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "behauptete",
+      "du": "behauptetest",
+      "er_sie_es": "behauptete",
+      "wir": "behaupteten",
+      "ihr": "behauptetet",
+      "sie_Sie": "behaupteten"
+    },
+    "imperative": {
+      "du": "behaupte!",
+      "ihr": "behauptet!",
+      "Sie": "behaupten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das Gegenteil / die Unwahrheit (Akk) behaupten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich behaupte keineswegs, dass diese schwierige Aufgabe leicht zu lösen ist.",
+      "translation": {
+        "ru": "Я ни в коем случае не утверждаю, что эту трудную задачу легко решить.",
+        "en": "I by no means claim that this difficult task is easy to solve."
+      },
+      "bracket_parts": [
+        "behaupte"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Behauptest du wirklich im Ernst, dass du von diesem Problem nichts wusstest?",
+      "translation": {
+        "ru": "Ты действительно серьезно утверждаешь, что ничего не знал об этой проблеме?",
+        "en": "Do you really seriously claim that you knew nothing about this problem?"
+      },
+      "bracket_parts": [
+        "Behauptest"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Politiker behauptet in seiner Rede das genaue Gegenteil der Tatsachen.",
+      "translation": {
+        "ru": "Политик в своей речи утверждает точную противоположность фактам.",
+        "en": "The politician claims the exact opposite of the facts in his speech."
+      },
+      "bracket_parts": [
+        "behauptet"
+      ],
+      "akkusativ_parts": [
+        "das genaue Gegenteil"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir behaupten mit voller Überzeugung, dass Bildung der Schlüssel zum Erfolg ist.",
+      "translation": {
+        "ru": "Мы с полной убежденностью утверждаем, что образование — это ключ к успеху.",
+        "en": "We assert with full conviction that education is the key to success."
+      },
+      "bracket_parts": [
+        "behaupten"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Behauptet ihr etwa immer noch, dass der Vorfall reine Einbildung war?",
+      "translation": {
+        "ru": "Вы что, все еще утверждаете, что этот инцидент был чистой выдумкой?",
+        "en": "Are you still claiming that the incident was pure imagination?"
+      },
+      "bracket_parts": [
+        "Behauptet"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern behauptete der Angeklagte vor Gericht seine völlige Unschuld.",
+      "translation": {
+        "ru": "Вчера обвиняемый в суде утверждал свою полную невиновность.",
+        "en": "Yesterday the accused asserted his complete innocence before the court."
+      },
+      "bracket_parts": [
+        "behauptete"
+      ],
+      "akkusativ_parts": [
+        "seine völlige Unschuld"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Mehrere Zeugen haben unabhängig voneinander denselben Ablauf behauptet.",
+      "translation": {
+        "ru": "Несколько свидетелей независимо друг от друга утверждали один и тот же ход событий.",
+        "en": "Several witnesses independently asserted the same course of events."
+      },
+      "bracket_parts": [
+        "haben",
+        "behauptet"
+      ],
+      "akkusativ_parts": [
+        "denselben Ablauf"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Behaupten Sie bitte vor Publikum nur überprüfte Fakten!",
+      "translation": {
+        "ru": "Утверждайте перед публикой, пожалуйста, только проверенные факты!",
+        "en": "Please assert only verified facts in front of the audience!"
+      },
+      "bracket_parts": [
+        "Behaupten"
+      ],
+      "akkusativ_parts": [
+        "nur überprüfte Fakten"
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
 import { View, TouchableOpacity, ScrollView } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native';
@@ -10,8 +10,10 @@ import { ScreenHeader } from '../../components/ScreenHeader/ScreenHeader';
 import { ScreenBackground } from '../../components/ScreenBackground/ScreenBackground';
 import { FeaturedStartCard } from '../../components/FeaturedStartCard/FeaturedStartCard';
 import { SmartQuizCard } from '../../components/SmartQuizCard/SmartQuizCard';
+import { PremiumSubscribeSheet } from '../../components/PremiumSubscribeSheet/PremiumSubscribeSheet';
 import { soundService } from '../../services/soundService';
 import { useNavigateToQuiz } from '../../hooks/useNavigateToQuiz';
+import { usePremiumStatus } from '../../hooks/usePremiumStatus';
 import { RootStackParamList, PracticeStackParamList } from '../../types/navigation';
 import { createStyles } from './PracticeScreen.styles';
 
@@ -23,6 +25,8 @@ export function PracticeScreen(): React.JSX.Element {
   const { colors, isDark } = useAppTheme();
   const styles = useMemo(() => createStyles(colors), [colors]);
   const { navigateToQuiz, dailyQuizLimitModalUI } = useNavigateToQuiz(navigation);
+  const isPremium = usePremiumStatus();
+  const [showPremiumSheet, setShowPremiumSheet] = useState(false);
 
   const handleStartStandard = () => {
     soundService.playTapSound();
@@ -41,14 +45,26 @@ export function PracticeScreen(): React.JSX.Element {
         title={intl.formatMessage({ id: 'practiceScreen.title' })}
         showBackButton={false}
         leftContent={
-          <TouchableOpacity
-            style={styles.headerButton}
-            onPress={() => navigation.navigate('Settings')}
-            testID="settings-button"
-            hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
-          >
-            <FontAwesome5 name="cog" size={18} color={colors.textPrimary} />
-          </TouchableOpacity>
+          <View style={styles.headerLeftRow}>
+            {!isPremium && (
+              <TouchableOpacity
+                style={styles.headerButton}
+                onPress={() => setShowPremiumSheet(true)}
+                testID="premium-gem-button"
+                hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+              >
+                <FontAwesome5 name="gem" size={18} color={colors.premiumDiamond} />
+              </TouchableOpacity>
+            )}
+            <TouchableOpacity
+              style={styles.headerButton}
+              onPress={() => navigation.navigate('Settings')}
+              testID="settings-button"
+              hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+            >
+              <FontAwesome5 name="cog" size={18} color={colors.textPrimary} />
+            </TouchableOpacity>
+          </View>
         }
       />
       <View style={styles.content}>
@@ -64,6 +80,11 @@ export function PracticeScreen(): React.JSX.Element {
         </ScrollView>
       </View>
       {dailyQuizLimitModalUI}
+      <PremiumSubscribeSheet
+        visible={showPremiumSheet}
+        onClose={() => setShowPremiumSheet(false)}
+        source="home_header_gem"
+      />
     </ScreenBackground>
   );
 }

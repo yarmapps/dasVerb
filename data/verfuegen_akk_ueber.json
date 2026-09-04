@@ -1,0 +1,178 @@
+{
+  "id": "verfuegen_akk_ueber",
+  "infinitive": "verfügen",
+  "translation": {
+    "ru": "располагать, обладать (средствами, знаниями)",
+    "en": "to have at one's disposal, to command"
+  },
+  "level": "B2",
+  "frequency_rank": 170,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verfügen",
+    "present_3sg": "verfügt",
+    "praeteritum_3sg": "verfügte",
+    "partizip_2": "verfügt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verfüge",
+      "du": "verfügst",
+      "er_sie_es": "verfügt",
+      "wir": "verfügen",
+      "ihr": "verfügt",
+      "sie_Sie": "verfügen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "verfügte",
+      "du": "verfügtest",
+      "er_sie_es": "verfügte",
+      "wir": "verfügten",
+      "ihr": "verfügtet",
+      "sie_Sie": "verfügten"
+    },
+    "imperative": {
+      "du": "verfüg!",
+      "ihr": "verfügt!",
+      "Sie": "verfügen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "über fundierte Fachkenntnisse (Akk) verfügen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verfüge in meinem Spezialgebiet über langjährige praktische Berufserfahrung.",
+      "translation": {
+        "ru": "В своей специальности я обладаю многолетним практическим профессиональным опытом.",
+        "en": "In my specialty I command many years of practical professional experience."
+      },
+      "bracket_parts": [
+        "verfüge"
+      ],
+      "akkusativ_parts": [
+        "über langjährige praktische Berufserfahrung"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verfügst du für das geplante Vorhaben über die notwendigen finanziellen Mittel?",
+      "translation": {
+        "ru": "Располагаешь ли ты необходимыми финансовыми средствами для запланированного проекта?",
+        "en": "Do you have the necessary financial means at your disposal for the planned undertaking?"
+      },
+      "bracket_parts": [
+        "Verfügst"
+      ],
+      "akkusativ_parts": [
+        "über die notwendigen finanziellen Mittel"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das moderne Forschungsinstitut verfügt über modernste Laborausrüstung weltweit.",
+      "translation": {
+        "ru": "Современный научно-исследовательский институт располагает самым передовым лабораторным оборудованием в мире.",
+        "en": "The modern research institute has state-of-the-art laboratory equipment at its disposal worldwide."
+      },
+      "bracket_parts": [
+        "verfügt"
+      ],
+      "akkusativ_parts": [
+        "über modernste Laborausrüstung"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verfügen in unserer Kanzlei über ein hervorragendes Netzwerk an Fachleuten.",
+      "translation": {
+        "ru": "Мы в нашей адвокатской конторе располагаем превосходной сетью специалистов.",
+        "en": "In our law firm we have an outstanding network of experts at our disposal."
+      },
+      "bracket_parts": [
+        "verfügen"
+      ],
+      "akkusativ_parts": [
+        "über ein hervorragendes Netzwerk"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verfügt ihr als neu gegründeter Verein schon über eigene Räumlichkeiten?",
+      "translation": {
+        "ru": "Располагаете ли вы как новообразованное объединение уже собственными помещениями?",
+        "en": "As a newly founded association, do you already have your own premises?"
+      },
+      "bracket_parts": [
+        "Verfügt"
+      ],
+      "akkusativ_parts": [
+        "über eigene Räumlichkeiten"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals verfügte die kleine Stadt noch nicht über ein eigenes städtisches Krankenhaus.",
+      "translation": {
+        "ru": "В те времена маленький городок еще не располагал собственной городской больницей.",
+        "en": "At that time the small town did not yet have its own municipal hospital."
+      },
+      "bracket_parts": [
+        "verfügte"
+      ],
+      "akkusativ_parts": [
+        "über ein eigenes städtisches Krankenhaus"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der erfahrene Ingenieur hat stets über herausragende Problemlösungskompetenz verfügt.",
+      "translation": {
+        "ru": "Опытный инженер всегда обладал выдающейся компетенцией в решении проблем.",
+        "en": "The experienced engineer always commanded outstanding problem-solving skills."
+      },
+      "bracket_parts": [
+        "hat",
+        "verfügt"
+      ],
+      "akkusativ_parts": [
+        "über herausragende Problemlösungskompetenz"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verfügen Sie frei über die bereitgestellten Unterlagen für Ihre Recherche!",
+      "translation": {
+        "ru": "Свободно распоряжайтесь предоставленными материалами для вашего исследования!",
+        "en": "Make free use of the documents provided for your research!"
+      },
+      "bracket_parts": [
+        "Verfügen"
+      ],
+      "akkusativ_parts": [
+        "über die bereitgestellten Unterlagen"
+      ]
+    }
+  ]
+}

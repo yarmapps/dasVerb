@@ -1,0 +1,188 @@
+{
+  "id": "nachweisen",
+  "infinitive": "nachweisen",
+  "translation": {
+    "ru": "доказывать, подтверждать документально",
+    "en": "to prove, to substantiate, to verify"
+  },
+  "level": "B2",
+  "frequency_rank": 340,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "nach",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "nachweisen",
+    "present_3sg": "weist nach",
+    "praeteritum_3sg": "wies nach",
+    "partizip_2": "nachgewiesen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "weise nach",
+      "du": "weist nach",
+      "er_sie_es": "weist nach",
+      "wir": "weisen nach",
+      "ihr": "weist nach",
+      "sie_Sie": "weisen nach",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "wies nach",
+      "du": "wiesest nach",
+      "er_sie_es": "wies nach",
+      "wir": "wiesen nach",
+      "ihr": "wiest nach",
+      "sie_Sie": "wiesen nach"
+    },
+    "imperative": {
+      "du": "weis nach!",
+      "ihr": "weist nach!",
+      "Sie": "weisen Sie nach!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "seine Unschuld / fundierte Kenntnisse (Akk) eindeutig nachweisen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich weise meine beruflichen Qualifikationen bei der Bewerbung durch beglaubigte Zeugnisse nach.",
+      "translation": {
+        "ru": "Я подтверждаю свои профессиональные квалификации при подаче заявления заверенными свидетельствами.",
+        "en": "I verify my professional qualifications in my application with certified references."
+      },
+      "bracket_parts": [
+        "weise",
+        "nach"
+      ],
+      "akkusativ_parts": [
+        "meine beruflichen Qualifikationen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Weist du der gegnerischen Versicherung die genaue Schadenshöhe mit Quittungen nach?",
+      "translation": {
+        "ru": "Подтвердишь ли ты страховой компании оппонента точный размер ущерба квитанциями?",
+        "en": "Will you prove the exact amount of damage to the opposing insurance company with receipts?"
+      },
+      "bracket_parts": [
+        "Weist",
+        "nach"
+      ],
+      "akkusativ_parts": [
+        "die genaue Schadenshöhe"
+      ],
+      "dativ_parts": [
+        "der gegnerischen Versicherung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das moderne Labor weist selbst kleinste Spuren von Giftstoffen im Trinkwasser nach.",
+      "translation": {
+        "ru": "Современная лаборатория обнаруживает даже мельчайшие следы токсинов в питьевой воде.",
+        "en": "The modern laboratory detects even the smallest traces of toxic substances in drinking water."
+      },
+      "bracket_parts": [
+        "weist",
+        "nach"
+      ],
+      "akkusativ_parts": [
+        "selbst kleinste Spuren von Giftstoffen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir weisen den wirtschaftlichen Erfolg unserer Maßnahmen durch transparente Kennzahlen nach.",
+      "translation": {
+        "ru": "Мы доказываем экономический успех наших мер прозрачными показателями.",
+        "en": "We prove the economic success of our measures through transparent key performance indicators."
+      },
+      "bracket_parts": [
+        "weisen",
+        "nach"
+      ],
+      "akkusativ_parts": [
+        "den wirtschaftlichen Erfolg unserer Maßnahmen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Weist ihr vor Gericht die Echtheit des historischen Testaments durch Experten nach?",
+      "translation": {
+        "ru": "Докажете ли вы в суде подлинность исторического завещания с помощью экспертов?",
+        "en": "Are you proving the authenticity of the historic will in court through experts?"
+      },
+      "bracket_parts": [
+        "Weist",
+        "nach"
+      ],
+      "akkusativ_parts": [
+        "die Echtheit des historischen Testaments"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern wies der Verteidiger die vollkommene Unschuld seines Mandanten überzeugend nach.",
+      "translation": {
+        "ru": "Вчера защитник убедительно доказал полную невиновность своего подзащитного.",
+        "en": "Yesterday the defence lawyer convincingly proved his client's complete innocence."
+      },
+      "bracket_parts": [
+        "wies",
+        "nach"
+      ],
+      "akkusativ_parts": [
+        "die vollkommene Unschuld seines Mandanten"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Forscher haben die Wirksamkeit des neuen Medikaments in mehreren klinischen Studien nachgewiesen.",
+      "translation": {
+        "ru": "Исследователи доказали эффективность нового медикамента в нескольких клинических исследованиях.",
+        "en": "The researchers have proven the effectiveness of the new medication in several clinical trials."
+      },
+      "bracket_parts": [
+        "haben",
+        "nachgewiesen"
+      ],
+      "akkusativ_parts": [
+        "die Wirksamkeit des neuen Medikaments"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Weisen Sie Ihre Identität bitte durch einen gültigen Personalausweis nach!",
+      "translation": {
+        "ru": "Подтвердите свою личность, пожалуйста, действительным удостоверением личности!",
+        "en": "Please verify your identity with a valid identity card!"
+      },
+      "bracket_parts": [
+        "Weisen",
+        "nach"
+      ],
+      "akkusativ_parts": [
+        "Ihre Identität"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "verlieren",
+  "infinitive": "verlieren",
+  "translation": {
+    "ru": "терять, проигрывать",
+    "en": "to lose"
+  },
+  "level": "A2",
+  "frequency_rank": 72,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verlieren",
+    "present_3sg": "verliert",
+    "praeteritum_3sg": "verlor",
+    "partizip_2": "verloren"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verliere",
+      "du": "verlierst",
+      "er_sie_es": "verliert",
+      "wir": "verlieren",
+      "ihr": "verliert",
+      "sie_Sie": "verlieren",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "verlor",
+      "du": "verlorst",
+      "er_sie_es": "verlor",
+      "wir": "verloren",
+      "ihr": "verlort",
+      "sie_Sie": "verloren"
+    },
+    "imperative": {
+      "du": "verlier!",
+      "ihr": "verliert!",
+      "Sie": "verlieren Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "den Schlüssel / die Geduld (Akk) verlieren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verliere unterwegs leider sehr oft meine Handschuhe.",
+      "translation": {
+        "ru": "Я в дороге, к сожалению, очень часто теряю свои перчатки.",
+        "en": "Unfortunately I very often lose my gloves on the way."
+      },
+      "bracket_parts": [
+        "verliere"
+      ],
+      "akkusativ_parts": [
+        "meine Handschuhe"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verlierst du beim langen Warten auch so schnell die Geduld?",
+      "translation": {
+        "ru": "Ты при долгом ожидании тоже так быстро теряешь терпение?",
+        "en": "Do you also lose patience so quickly when waiting for a long time?"
+      },
+      "bracket_parts": [
+        "Verlierst"
+      ],
+      "akkusativ_parts": [
+        "die Geduld"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Unsere Mannschaft verliert heute hoffentlich nicht das wichtige Spiel.",
+      "translation": {
+        "ru": "Наша команда, надеемся, не проиграет сегодня этот важный матч.",
+        "en": "Hopefully our team does not lose the important match today."
+      },
+      "bracket_parts": [
+        "verliert"
+      ],
+      "akkusativ_parts": [
+        "das wichtige Spiel"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verlieren im dichten Nebel leicht die richtige Orientierung.",
+      "translation": {
+        "ru": "В густом тумане мы легко теряем правильную ориентацию.",
+        "en": "In dense fog we easily lose our orientation."
+      },
+      "bracket_parts": [
+        "verlieren"
+      ],
+      "akkusativ_parts": [
+        "die richtige Orientierung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verliert ihr bei diesem Kartenspiel jedes Mal eure Punkte?",
+      "translation": {
+        "ru": "Вы в этой карточной игре каждый раз теряете свои очки?",
+        "en": "Do you lose your points every time in this card game?"
+      },
+      "bracket_parts": [
+        "Verliert"
+      ],
+      "akkusativ_parts": [
+        "eure Punkte"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern verlor sie ihren teuren Ring im Schwimmbad.",
+      "translation": {
+        "ru": "Вчера она потеряла свое дорогое кольцо в бассейне.",
+        "en": "Yesterday she lost her expensive ring in the swimming pool."
+      },
+      "bracket_parts": [
+        "verlor"
+      ],
+      "akkusativ_parts": [
+        "ihren teuren Ring"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben gestern das Finale knapp mit zwei Toren verloren.",
+      "translation": {
+        "ru": "Они вчера уступили в финале с разницей в два мяча.",
+        "en": "They lost the final yesterday narrowly by two goals."
+      },
+      "bracket_parts": [
+        "haben",
+        "verloren"
+      ],
+      "akkusativ_parts": [
+        "das Finale"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verlieren Sie bitte in dieser Situation nicht die Ruhe!",
+      "translation": {
+        "ru": "Не теряйте, пожалуйста, спокойствия в этой ситуации!",
+        "en": "Please do not lose your calm in this situation!"
+      },
+      "bracket_parts": [
+        "Verlieren"
+      ],
+      "akkusativ_parts": [
+        "die Ruhe"
+      ]
+    }
+  ]
+}

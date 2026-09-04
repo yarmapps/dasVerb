@@ -1,0 +1,178 @@
+{
+  "id": "unterstuetzen",
+  "infinitive": "unterstützen",
+  "translation": {
+    "ru": "поддерживать, оказывать помощь",
+    "en": "to support, to back"
+  },
+  "level": "B1",
+  "frequency_rank": 192,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "unter",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "unterstützen",
+    "present_3sg": "unterstützt",
+    "praeteritum_3sg": "unterstützte",
+    "partizip_2": "unterstützt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "unterstütze",
+      "du": "unterstützt",
+      "er_sie_es": "unterstützt",
+      "wir": "unterstützen",
+      "ihr": "unterstützt",
+      "sie_Sie": "unterstützen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "unterstützte",
+      "du": "unterstütztest",
+      "er_sie_es": "unterstützte",
+      "wir": "unterstützten",
+      "ihr": "unterstütztet",
+      "sie_Sie": "unterstützten"
+    },
+    "imperative": {
+      "du": "unterstütz!",
+      "ihr": "unterstützt!",
+      "Sie": "unterstützen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "bedürftige Familien / das Projekt (Akk) unterstützen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich unterstütze lokale Hilfsorganisationen regelmäßig mit einer kleinen monatlichen Spende.",
+      "translation": {
+        "ru": "Я регулярно поддерживаю местные благотворительные организации небольшим ежемесячным пожертвованием.",
+        "en": "I regularly support local aid organizations with a small monthly donation."
+      },
+      "bracket_parts": [
+        "unterstütze"
+      ],
+      "akkusativ_parts": [
+        "lokale Hilfsorganisationen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Unterstützt du deinen jüngeren Bruder bei der Vorbereitung auf seine Abschlussprüfung?",
+      "translation": {
+        "ru": "Поддерживаешь ли ты своего младшего брата при подготовке к его выпускному экзамену?",
+        "en": "Do you support your younger brother in preparing for his final exam?"
+      },
+      "bracket_parts": [
+        "Unterstützt"
+      ],
+      "akkusativ_parts": [
+        "deinen jüngeren Bruder"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Staat unterstützt junge Familien durch zinsgünstige Kredite beim Hauskauf.",
+      "translation": {
+        "ru": "Государство поддерживает молодые семьи льготными кредитами при покупке дома.",
+        "en": "The state supports young families with low-interest loans when buying a house."
+      },
+      "bracket_parts": [
+        "unterstützt"
+      ],
+      "akkusativ_parts": [
+        "junge Familien"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir unterstützen diese mutige Initiative für mehr Umweltschutz mit voller Überzeugung.",
+      "translation": {
+        "ru": "Мы поддерживаем эту смелую инициативу за большую защиту окружающей среды с полной убежденностью.",
+        "en": "We support this bold initiative for better environmental protection with full conviction."
+      },
+      "bracket_parts": [
+        "unterstützen"
+      ],
+      "akkusativ_parts": [
+        "diese mutige Initiative"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Unterstützt ihr eure Freunde beim anstrengenden Umzug in die neue Wohnung?",
+      "translation": {
+        "ru": "Помогаете ли вы своим друзьям при утомительном переезде в новую квартиру?",
+        "en": "Are you supporting your friends during the strenuous move into the new flat?"
+      },
+      "bracket_parts": [
+        "Unterstützt"
+      ],
+      "akkusativ_parts": [
+        "eure Freunde"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals unterstützte der Mentor die junge Wissenschaftlerin bei ihrer ersten Publikation.",
+      "translation": {
+        "ru": "В те времена наставник поддержал молодую ученую при ее первой публикации.",
+        "en": "At that time the mentor supported the young scientist with her first publication."
+      },
+      "bracket_parts": [
+        "unterstützte"
+      ],
+      "akkusativ_parts": [
+        "die junge Wissenschaftlerin"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Viele freiwillige Helfer haben die Flutopfer in den betroffenen Gebieten tatkräftig unterstützt.",
+      "translation": {
+        "ru": "Многие волонтеры деятельно поддержали пострадавших от наводнения в затронутых районах.",
+        "en": "Many volunteers actively supported the flood victims in the affected areas."
+      },
+      "bracket_parts": [
+        "haben",
+        "unterstützt"
+      ],
+      "akkusativ_parts": [
+        "die Flutopfer"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Unterstützen Sie bitte lokale Geschäfte in Ihrer Nachbarschaft!",
+      "translation": {
+        "ru": "Поддерживайте, пожалуйста, местные магазины в вашем районе!",
+        "en": "Please support local businesses in your neighbourhood!"
+      },
+      "bracket_parts": [
+        "Unterstützen"
+      ],
+      "akkusativ_parts": [
+        "lokale Geschäfte"
+      ]
+    }
+  ]
+}

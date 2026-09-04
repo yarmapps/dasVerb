@@ -1,0 +1,175 @@
+{
+  "id": "spielen",
+  "infinitive": "spielen",
+  "translation": {
+    "ru": "играть",
+    "en": "to play"
+  },
+  "level": "A1",
+  "frequency_rank": 101,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "spielen",
+    "present_3sg": "spielt",
+    "praeteritum_3sg": "spielte",
+    "partizip_2": "gespielt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "spiele",
+      "du": "spielst",
+      "er_sie_es": "spielt",
+      "wir": "spielen",
+      "ihr": "spielt",
+      "sie_Sie": "spielen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "spielte",
+      "du": "spieltest",
+      "er_sie_es": "spielte",
+      "wir": "spielten",
+      "ihr": "spieltet",
+      "sie_Sie": "spielten"
+    },
+    "imperative": {
+      "du": "spiel!",
+      "ihr": "spielt!",
+      "Sie": "spielen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Fußball / Gitarre (Akk) spielen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich spiele jeden Samstag Fußball im Verein.",
+      "translation": {
+        "ru": "Я каждую субботу играю в футбол в клубе.",
+        "en": "I play football at the club every Saturday."
+      },
+      "bracket_parts": [
+        "spiele"
+      ],
+      "akkusativ_parts": [
+        "Fußball"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Spielst du gerne Gitarre oder Klavier?",
+      "translation": {
+        "ru": "Ты любишь играть на гитаре или пианино?",
+        "en": "Do you like playing guitar or piano?"
+      },
+      "bracket_parts": [
+        "Spielst"
+      ],
+      "akkusativ_parts": [
+        "Gitarre oder Klavier"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das kleine Kind spielt fröhlich im Garten.",
+      "translation": {
+        "ru": "Маленький ребенок весело играет в саду.",
+        "en": "The little child plays cheerfully in the garden."
+      },
+      "bracket_parts": [
+        "spielt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir spielen am Abend oft lustige Brettspiele.",
+      "translation": {
+        "ru": "Мы по вечерам часто играем в веселые настольные игры.",
+        "en": "We often play fun board games in the evening."
+      },
+      "bracket_parts": [
+        "spielen"
+      ],
+      "akkusativ_parts": [
+        "lustige Brettspiele"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Spielt ihr zusammen Tennis auf dem Sportplatz?",
+      "translation": {
+        "ru": "Вы играете вместе в теннис на спортплощадке?",
+        "en": "Do you play tennis together on the sports field?"
+      },
+      "bracket_parts": [
+        "Spielt"
+      ],
+      "akkusativ_parts": [
+        "Tennis"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern spielte sie wunderbar eine schwere Sonate.",
+      "translation": {
+        "ru": "Вчера она замечательно сыграла трудную сонату.",
+        "en": "Yesterday she played a difficult sonata wonderfully."
+      },
+      "bracket_parts": [
+        "spielte"
+      ],
+      "akkusativ_parts": [
+        "eine schwere Sonate"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben gestern den ganzen Nachmittag Karten gespielt.",
+      "translation": {
+        "ru": "Они вчера всю вторую половину дня играли в карты.",
+        "en": "They played cards all afternoon yesterday."
+      },
+      "bracket_parts": [
+        "haben",
+        "gespielt"
+      ],
+      "akkusativ_parts": [
+        "Karten"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Spiel bitte nicht so laut Trompete!",
+      "translation": {
+        "ru": "Не играй, пожалуйста, так громко на трубе!",
+        "en": "Please do not play the trumpet so loudly!"
+      },
+      "bracket_parts": [
+        "Spiel"
+      ],
+      "akkusativ_parts": [
+        "Trompete"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "id": "eignen_sich_fuer",
+  "infinitive": "sich eignen",
+  "translation": {
+    "ru": "годиться, подходить (для чего-то)",
+    "en": "to be suitable for, to be suited for"
+  },
+  "level": "B2",
+  "frequency_rank": 188,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich eignen",
+    "present_3sg": "eignet sich",
+    "praeteritum_3sg": "eignete sich",
+    "partizip_2": "geeignet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "eigne mich",
+      "du": "eignest dich",
+      "er_sie_es": "eignet sich",
+      "wir": "eignen uns",
+      "ihr": "eignet euch",
+      "sie_Sie": "eignen sich",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "eignete mich",
+      "du": "eignetest dich",
+      "er_sie_es": "eignete sich",
+      "wir": "eigneten uns",
+      "ihr": "eignetet euch",
+      "sie_Sie": "eigneten sich"
+    },
+    "imperative": {
+      "du": "eigne dich!",
+      "ihr": "eignet euch!",
+      "Sie": "eignen Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "für",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich hervorragend für die Position (Akk) eignen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich eigne mich dank meiner mehrjährigen Erfahrung im Ausland bestens für dieses internationale Projekt.",
+      "translation": {
+        "ru": "Благодаря многолетнему опыту за границей я отлично подхожу для этого международного проекта.",
+        "en": "Thanks to my several years of experience abroad, I am ideally suited for this international project."
+      },
+      "bracket_parts": [
+        "eigne"
+      ],
+      "akkusativ_parts": [
+        "mich",
+        "für dieses internationale Projekt"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Eignest du dich mit deiner ruhigen und geduldigen Art nicht perfekt für die Arbeit mit Kindern?",
+      "translation": {
+        "ru": "Разве своим спокойным и терпеливым характером ты не идеально подходишь для работы с детьми?",
+        "en": "With your calm and patient nature, aren't you perfectly suited for working with children?"
+      },
+      "bracket_parts": [
+        "Eignest"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "für die Arbeit mit Kindern"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das leichte und robuste Material eignet sich hervorragend für moderne Sportkleidung.",
+      "translation": {
+        "ru": "Легкий и прочный материал превосходно подходит для современной спортивной одежды.",
+        "en": "The lightweight and robust material is ideally suited for modern sportswear."
+      },
+      "bracket_parts": [
+        "eignet"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "für moderne Sportkleidung"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir eignen uns durch unsere interdisziplinäre Ausbildung ideal für diese anspruchsvolle Schnittstellenfunktion.",
+      "translation": {
+        "ru": "Благодаря нашему междисциплинарному образованию мы идеально подходим для этой ответственной координационной роли.",
+        "en": "Due to our interdisciplinary training, we are ideally suited for this demanding interface function."
+      },
+      "bracket_parts": [
+        "eignen"
+      ],
+      "akkusativ_parts": [
+        "uns",
+        "für diese anspruchsvolle Schnittstellenfunktion"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Eignet ihr euch mit eurem Fachwissen im Team wirklich für die Leitung der neuen Abteilung?",
+      "translation": {
+        "ru": "Действительно ли вы со своими экспертными знаниями в команде подходите для руководства новым отделом?",
+        "en": "Are you really suited in the team with your expertise to lead the new department?"
+      },
+      "bracket_parts": [
+        "Eignet"
+      ],
+      "akkusativ_parts": [
+        "euch",
+        "für die Leitung der neuen Abteilung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals eignete sich das historische Gebäude perfekt als stimmungsvoller Drehort für den Spielfilm.",
+      "translation": {
+        "ru": "В те времена историческое здание прекрасно подошло в качестве атмосферного места съемок для художественного фильма.",
+        "en": "At that time the historic building was perfectly suited as an atmospheric filming location for the feature film."
+      },
+      "bracket_parts": [
+        "eignete"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das Grundstück hat sich wegen der verkehrsgünstigen Lage optimal für den Neubau der Klinik geeignet.",
+      "translation": {
+        "ru": "Земельный участок из-за удобной транспортной развязки оптимально подошел для строительства новой клиники.",
+        "en": "Due to its convenient location, the plot of land was ideally suited for the construction of the new clinic."
+      },
+      "bracket_parts": [
+        "hat",
+        "geeignet"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "für den Neubau"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Eignen Sie sich im Alltag bitte stets als verlässliches Vorbild für andere!",
+      "translation": {
+        "ru": "Служите в повседневной жизни, пожалуйста, всегда надежным примером для других!",
+        "en": "In everyday life, please always be suitable as a reliable role model for others!"
+      },
+      "bracket_parts": [
+        "Eignen"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    }
+  ]
+}

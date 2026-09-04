@@ -1,0 +1,184 @@
+{
+  "id": "erfuellen",
+  "infinitive": "erfüllen",
+  "translation": {
+    "ru": "выполнять, исполнять (желание, долг, требования)",
+    "en": "to fulfill, to meet (criteria/wishes)"
+  },
+  "level": "B2",
+  "frequency_rank": 184,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erfüllen",
+    "present_3sg": "erfüllt",
+    "praeteritum_3sg": "erfüllte",
+    "partizip_2": "erfüllt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erfülle",
+      "du": "erfüllst",
+      "er_sie_es": "erfüllt",
+      "wir": "erfüllen",
+      "ihr": "erfüllt",
+      "sie_Sie": "erfüllen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "erfüllte",
+      "du": "erfülltest",
+      "er_sie_es": "erfüllte",
+      "wir": "erfüllten",
+      "ihr": "erfülltet",
+      "sie_Sie": "erfüllten"
+    },
+    "imperative": {
+      "du": "erfüll!",
+      "ihr": "erfüllt!",
+      "Sie": "erfüllen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "alle gesetzlichen Anforderungen (Akk) voll erfüllen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erfülle meine vertraglichen Pflichten gegenüber dem Arbeitgeber stets gewissenhaft.",
+      "translation": {
+        "ru": "Я всегда добросовестно выполняю свои договорные обязательства перед работодателем.",
+        "en": "I always conscientiously fulfill my contractual obligations towards the employer."
+      },
+      "bracket_parts": [
+        "erfülle"
+      ],
+      "akkusativ_parts": [
+        "meine vertraglichen Pflichten"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erfüllst du dir mit der Reise nach Südamerika endlich einen großen Jugendtraum?",
+      "translation": {
+        "ru": "Исполняешь ли ты поездкой в Южную Америку наконец свою большую юношескую мечту?",
+        "en": "Are you finally fulfilling a big childhood dream with your trip to South America?"
+      },
+      "bracket_parts": [
+        "Erfüllst"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "einen großen Jugendtraum"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der moderne Bewerber erfüllt sämtliche Voraussetzungen für das internationale Stipendium.",
+      "translation": {
+        "ru": "Современный соискатель выполняет абсолютно все предпосылки для международной стипендии.",
+        "en": "The modern applicant fulfills all requirements for the international scholarship."
+      },
+      "bracket_parts": [
+        "erfüllt"
+      ],
+      "akkusativ_parts": [
+        "sämtliche Voraussetzungen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erfüllen die anspruchsvollen Wünsche unserer Kunden durch erstklassigen Service.",
+      "translation": {
+        "ru": "Мы выполняем требовательные желания наших клиентов благодаря первоклассному сервису.",
+        "en": "We fulfill the demanding wishes of our customers through first-class service."
+      },
+      "bracket_parts": [
+        "erfüllen"
+      ],
+      "akkusativ_parts": [
+        "die anspruchsvollen Wünsche"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erfüllt ihr mit eurem neuen Softwareprodukt alle geltenden Richtlinien des Datenschutzes?",
+      "translation": {
+        "ru": "Отвечаете ли вы своим новым программным продуктом всем действующим правилам защиты данных?",
+        "en": "Does your new software product meet all applicable data protection guidelines?"
+      },
+      "bracket_parts": [
+        "Erfüllt"
+      ],
+      "akkusativ_parts": [
+        "alle geltenden Richtlinien"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern erfüllte der Großvater seiner kleinen Enkelin einen sehnlichen Herzenswunsch.",
+      "translation": {
+        "ru": "Вчера дедушка исполнил своей маленькой внучке заветное сердечное желание.",
+        "en": "Yesterday grandfather fulfilled an ardent heartfelt wish for his little granddaughter."
+      },
+      "bracket_parts": [
+        "erfüllte"
+      ],
+      "dativ_parts": [
+        "seiner kleinen Enkelin"
+      ],
+      "akkusativ_parts": [
+        "einen sehnlichen Herzenswunsch"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das innovative Projekt hat alle gesteckten Erwartungen und Zielvorgaben voll erfüllt.",
+      "translation": {
+        "ru": "Инновационный проект полностью оправдал все возложенные ожидания и поставленные цели.",
+        "en": "The innovative project fully met all expectations and set targets."
+      },
+      "bracket_parts": [
+        "hat",
+        "erfüllt"
+      ],
+      "akkusativ_parts": [
+        "alle gesteckten Erwartungen und Zielvorgaben"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erfüllen Sie die vereinbarten Kriterien bitte bis zum Ende des Monats!",
+      "translation": {
+        "ru": "Выполните согласованные критерии, пожалуйста, до конца месяца!",
+        "en": "Please fulfill the agreed criteria by the end of the month!"
+      },
+      "bracket_parts": [
+        "Erfüllen"
+      ],
+      "akkusativ_parts": [
+        "die vereinbarten Kriterien"
+      ]
+    }
+  ]
+}

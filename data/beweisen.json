@@ -1,0 +1,178 @@
+{
+  "id": "beweisen",
+  "infinitive": "beweisen",
+  "translation": {
+    "ru": "доказывать",
+    "en": "to prove, to demonstrate"
+  },
+  "level": "B1",
+  "frequency_rank": 140,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beweisen",
+    "present_3sg": "beweist",
+    "praeteritum_3sg": "bewies",
+    "partizip_2": "bewiesen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beweise",
+      "du": "beweist",
+      "er_sie_es": "beweist",
+      "wir": "beweisen",
+      "ihr": "beweist",
+      "sie_Sie": "beweisen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "bewies",
+      "du": "bewiesest",
+      "er_sie_es": "bewies",
+      "wir": "bewiesen",
+      "ihr": "bewiest",
+      "sie_Sie": "bewiesen"
+    },
+    "imperative": {
+      "du": "beweis!",
+      "ihr": "beweist!",
+      "Sie": "beweisen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Unschuld / großes Können (Akk) beweisen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich beweise meine fachliche Kompetenz jeden Tag durch qualitativ hochwertige Arbeit.",
+      "translation": {
+        "ru": "Я доказываю свою профессиональную компетентность каждый день качественной работой.",
+        "en": "I prove my professional competence every day through high-quality work."
+      },
+      "bracket_parts": [
+        "beweise"
+      ],
+      "akkusativ_parts": [
+        "meine fachliche Kompetenz"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Beweist du deine kühne Behauptung auch mit überzeugenden wissenschaftlichen Belegen?",
+      "translation": {
+        "ru": "Ты докажешь свое смелое утверждение также убедительными научными свидетельствами?",
+        "en": "Are you proving your bold claim with convincing scientific evidence too?"
+      },
+      "bracket_parts": [
+        "Beweist"
+      ],
+      "akkusativ_parts": [
+        "deine kühne Behauptung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der geschickte Anwalt beweist vor Gericht zweifelsfrei die Unschuld seines Mandanten.",
+      "translation": {
+        "ru": "Искусный адвокат без сомнения доказывает в суде невиновность своего подзащитного.",
+        "en": "The skillful lawyer proves his client's innocence in court beyond doubt."
+      },
+      "bracket_parts": [
+        "beweist"
+      ],
+      "akkusativ_parts": [
+        "die Unschuld seines Mandanten"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beweisen in dieser schwierigen Krise echten Zusammenhalt und gegenseitiges Vertrauen.",
+      "translation": {
+        "ru": "Мы доказываем в этот трудный кризис настоящую сплоченность и взаимное доверие.",
+        "en": "In this difficult crisis we demonstrate real solidarity and mutual trust."
+      },
+      "bracket_parts": [
+        "beweisen"
+      ],
+      "akkusativ_parts": [
+        "echten Zusammenhalt"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Beweist ihr euren sportlichen Ehrgeiz im morgigen Meisterschaftsspiel?",
+      "translation": {
+        "ru": "Вы докажете свои спортивные амбиции в завтрашнем матче чемпионата?",
+        "en": "Will you prove your sporting ambition in tomorrow's championship game?"
+      },
+      "bracket_parts": [
+        "Beweist"
+      ],
+      "akkusativ_parts": [
+        "euren sportlichen Ehrgeiz"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern bewies der junge Sportler im Finale erstaunliche mentale Stärke.",
+      "translation": {
+        "ru": "Вчера молодой спортсмен в финале продемонстрировал удивительную моральную стойкость.",
+        "en": "Yesterday the young athlete demonstrated astonishing mental strength in the final."
+      },
+      "bracket_parts": [
+        "bewies"
+      ],
+      "akkusativ_parts": [
+        "erstaunliche mentale Stärke"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Forscher haben die Wirksamkeit des neuen Medikaments in vielen Tests bewiesen.",
+      "translation": {
+        "ru": "Исследователи доказали эффективность нового лекарства во многих тестах.",
+        "en": "The researchers proved the efficacy of the new medicine in many tests."
+      },
+      "bracket_parts": [
+        "haben",
+        "bewiesen"
+      ],
+      "akkusativ_parts": [
+        "die Wirksamkeit"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Beweisen Sie Ihre Identität bitte mit einem gültigen Lichtbildausweis!",
+      "translation": {
+        "ru": "Подтвердите вашу личность, пожалуйста, действительным удостоверением с фотографией!",
+        "en": "Please prove your identity with a valid photo ID!"
+      },
+      "bracket_parts": [
+        "Beweisen"
+      ],
+      "akkusativ_parts": [
+        "Ihre Identität"
+      ]
+    }
+  ]
+}

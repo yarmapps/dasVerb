@@ -38,12 +38,26 @@ import {
 } from '../../services/quizGeneratorService';
 import { CEFRLevel } from '../../../docs/verb.types';
 import { RootStackParamList, VerbQuizQuestionResult } from '../../types/navigation';
+import { trackEvent } from '../../services/analyticsService';
 import { createStyles } from './VerbQuizScreen.styles';
 
 type VerbQuizRouteProp = RouteProp<RootStackParamList, 'VerbQuiz'>;
 type VerbQuizNavProp = NativeStackNavigationProp<RootStackParamList, 'VerbQuiz'>;
 
 const EMPTY_INFINITIVES: string[] = [];
+
+function resolveQuizType(
+  isSmartQuiz: boolean,
+  isCheckpoint: boolean,
+): 'smart' | 'checkpoint' | 'verb' {
+  if (isSmartQuiz) {
+    return 'smart';
+  }
+  if (isCheckpoint) {
+    return 'checkpoint';
+  }
+  return 'verb';
+}
 
 export function VerbQuizScreen(): React.JSX.Element {
   const intl = useIntl();
@@ -236,6 +250,17 @@ export function VerbQuizScreen(): React.JSX.Element {
     };
   }, [status, pulseAnim, activeGapIndex]);
 
+  useEffect(() => {
+    const quizType = resolveQuizType(isSmartQuiz, isCheckpoint);
+    trackEvent('quiz_started', {
+      quiz_type: quizType,
+      infinitive,
+      level,
+      total_questions: exercises.length,
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const resultsRef = useRef<VerbQuizQuestionResult[]>([]);
 
   const goToNextQuestion = useCallback(() => {
@@ -246,6 +271,20 @@ export function VerbQuizScreen(): React.JSX.Element {
       setUserAnswers([]);
       setStatus('idle');
     } else {
+      const quizType = resolveQuizType(isSmartQuiz, isCheckpoint);
+      const results = resultsRef.current;
+      const correctCount = results.filter(r => r.isCorrect).length;
+      const percentage = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
+      trackEvent('quiz_completed', {
+        quiz_type: quizType,
+        infinitive,
+        level,
+        score: correctCount,
+        total_questions: totalQuestions,
+        percentage,
+        is_passed: percentage >= 80,
+      });
+
       navigation.replace('QuizResults', {
         infinitive,
         level,
@@ -453,7 +492,16 @@ export function VerbQuizScreen(): React.JSX.Element {
       <ScreenHeader
         title={screenTitle}
         showBackButton
-        onBackPress={() => navigation.goBack()}
+        onBackPress={() => {
+          const quizType = resolveQuizType(isSmartQuiz, isCheckpoint);
+          trackEvent('quiz_interrupted', {
+            quiz_type: quizType,
+            infinitive,
+            questions_answered: currentExerciseIndex,
+            total_questions: totalQuestions,
+          });
+          navigation.goBack();
+        }}
         showStreak={false}
         rightContent={
           <Text style={styles.headerRightText} testID="quiz-progress-counter">

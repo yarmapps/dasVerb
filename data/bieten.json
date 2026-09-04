@@ -1,0 +1,202 @@
+{
+  "id": "bieten",
+  "infinitive": "bieten",
+  "translation": {
+    "ru": "предлагать, предоставлять",
+    "en": "to offer, to provide"
+  },
+  "level": "A2",
+  "frequency_rank": 90,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bieten",
+    "present_3sg": "bietet",
+    "praeteritum_3sg": "bot",
+    "partizip_2": "geboten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "biete",
+      "du": "bietest",
+      "er_sie_es": "bietet",
+      "wir": "bieten",
+      "ihr": "bietet",
+      "sie_Sie": "bieten",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "bot",
+      "du": "botest",
+      "er_sie_es": "bot",
+      "wir": "boten",
+      "ihr": "botet",
+      "sie_Sie": "boten"
+    },
+    "imperative": {
+      "du": "biete!",
+      "ihr": "bietet!",
+      "Sie": "bieten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ + Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemandem (Dat) Hilfe / eine Chance (Akk) bieten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich biete dir bei diesem schwierigen Problem gerne meine Unterstützung.",
+      "translation": {
+        "ru": "Я с удовольствием предлагаю тебе свою поддержку в этой сложной проблеме.",
+        "en": "I gladly offer you my support with this difficult problem."
+      },
+      "bracket_parts": [
+        "biete"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "meine Unterstützung"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Bietest du deinen Gästen etwas zu trinken an?",
+      "translation": {
+        "ru": "Предложишь своим гостям что-нибудь выпить?",
+        "en": "Do you offer your guests something to drink?"
+      },
+      "bracket_parts": [
+        "Bietest"
+      ],
+      "dativ_parts": [
+        "deinen Gästen"
+      ],
+      "akkusativ_parts": [
+        "etwas zu trinken"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Hotel bietet den Reisenden einen kostenlosen Transport zum Flughafen.",
+      "translation": {
+        "ru": "Отель предлагает путешественникам бесплатный трансфер в аэропорт.",
+        "en": "The hotel offers travellers free transport to the airport."
+      },
+      "bracket_parts": [
+        "bietet"
+      ],
+      "dativ_parts": [
+        "den Reisenden"
+      ],
+      "akkusativ_parts": [
+        "einen kostenlosen Transport"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir bieten unseren Kunden erstklassigen Service rund um die Uhr.",
+      "translation": {
+        "ru": "Мы предлагаем нашим клиентам первоклассный сервис круглые сутки.",
+        "en": "We offer our customers first-class service around the clock."
+      },
+      "bracket_parts": [
+        "bieten"
+      ],
+      "dativ_parts": [
+        "unseren Kunden"
+      ],
+      "akkusativ_parts": [
+        "erstklassigen Service"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bietet ihr den neuen Nachbarn eure freundliche Hilfe an?",
+      "translation": {
+        "ru": "Вы предложите новым соседям свою дружескую помощь?",
+        "en": "Are you offering the new neighbours your friendly help?"
+      },
+      "bracket_parts": [
+        "Bietet"
+      ],
+      "dativ_parts": [
+        "den neuen Nachbarn"
+      ],
+      "akkusativ_parts": [
+        "eure freundliche Hilfe"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern bot die Schule allen Schülern einen kostenlosen Computerkurs.",
+      "translation": {
+        "ru": "Вчера школа предложила всем ученикам бесплатный компьютерный курс.",
+        "en": "Yesterday the school offered all pupils a free computer course."
+      },
+      "bracket_parts": [
+        "bot"
+      ],
+      "dativ_parts": [
+        "allen Schülern"
+      ],
+      "akkusativ_parts": [
+        "einen kostenlosen Computerkurs"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben dem Bewerber gestern eine sehr gute Stelle geboten.",
+      "translation": {
+        "ru": "Они вчера предложили кандидату очень хорошую должность.",
+        "en": "They offered the applicant a very good position yesterday."
+      },
+      "bracket_parts": [
+        "haben",
+        "geboten"
+      ],
+      "dativ_parts": [
+        "dem Bewerber"
+      ],
+      "akkusativ_parts": [
+        "eine sehr gute Stelle"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Bieten Sie dem müden Gast bitte einen bequemen Platz!",
+      "translation": {
+        "ru": "Предложите уставшему гостю, пожалуйста, удобное место!",
+        "en": "Please offer the tired guest a comfortable seat!"
+      },
+      "bracket_parts": [
+        "Bieten"
+      ],
+      "dativ_parts": [
+        "dem müden Gast"
+      ],
+      "akkusativ_parts": [
+        "einen bequemen Platz"
+      ]
+    }
+  ]
+}

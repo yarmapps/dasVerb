@@ -1,0 +1,175 @@
+{
+  "id": "schliessen",
+  "infinitive": "schließen",
+  "translation": {
+    "ru": "закрывать",
+    "en": "to close, to shut"
+  },
+  "level": "A2",
+  "frequency_rank": 88,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "schließen",
+    "present_3sg": "schließt",
+    "praeteritum_3sg": "schloss",
+    "partizip_2": "geschlossen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schließe",
+      "du": "schließt",
+      "er_sie_es": "schließt",
+      "wir": "schließen",
+      "ihr": "schließt",
+      "sie_Sie": "schließen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "schloss",
+      "du": "schlossest",
+      "er_sie_es": "schloss",
+      "wir": "schlossen",
+      "ihr": "schlosst",
+      "sie_Sie": "schlossen"
+    },
+    "imperative": {
+      "du": "schließ!",
+      "ihr": "schließt!",
+      "Sie": "schließen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Tür / die Augen (Akk) schließen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich schließe am Abend immer alle Fenster im Haus.",
+      "translation": {
+        "ru": "Я по вечерам всегда закрываю все окна в доме.",
+        "en": "I always close all the windows in the house in the evening."
+      },
+      "bracket_parts": [
+        "schließe"
+      ],
+      "akkusativ_parts": [
+        "alle Fenster"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Schließt du bitte die schwere Haustür mit dem Schlüssel?",
+      "translation": {
+        "ru": "Закроешь, пожалуйста, тяжелую входную дверь ключом?",
+        "en": "Will you please lock the heavy front door with the key?"
+      },
+      "bracket_parts": [
+        "Schließt"
+      ],
+      "akkusativ_parts": [
+        "die schwere Haustür"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der kleine Supermarkt um die Ecke schließt heute schon um achtzehn Uhr.",
+      "translation": {
+        "ru": "Маленький супермаркет за углом закрывается сегодня уже в восемнадцать часов.",
+        "en": "The small supermarket around the corner closes today at six o'clock already."
+      },
+      "bracket_parts": [
+        "schließt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir schließen vor dem Verlassen der Wohnung alle Türen sorgfältig ab.",
+      "translation": {
+        "ru": "Перед уходом из квартиры мы тщательно закрываем все двери.",
+        "en": "We close all doors carefully before leaving the flat."
+      },
+      "bracket_parts": [
+        "schließen"
+      ],
+      "akkusativ_parts": [
+        "alle Türen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Schließt ihr die Bibliothek heute wegen der Feiertage früher?",
+      "translation": {
+        "ru": "Вы закроете библиотеку сегодня раньше из-за праздников?",
+        "en": "Are you closing the library earlier today due to the holidays?"
+      },
+      "bracket_parts": [
+        "Schließt"
+      ],
+      "akkusativ_parts": [
+        "die Bibliothek"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern schloss sie müde die Augen und schlief schnell ein.",
+      "translation": {
+        "ru": "Вчера она устало закрыла глаза и быстро заснула.",
+        "en": "Yesterday she closed her eyes tiredly and fell asleep quickly."
+      },
+      "bracket_parts": [
+        "schloss"
+      ],
+      "akkusativ_parts": [
+        "die Augen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Geschäftsführung hat gestern einen wichtigen Kooperationsvertrag geschlossen.",
+      "translation": {
+        "ru": "Руководство компании вчера заключило важный договор о сотрудничестве.",
+        "en": "The management concluded an important cooperation agreement yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "geschlossen"
+      ],
+      "akkusativ_parts": [
+        "einen wichtigen Kooperationsvertrag"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Schließen Sie bitte leise die Konferenztür!",
+      "translation": {
+        "ru": "Закройте, пожалуйста, тихо дверь конференц-зала!",
+        "en": "Please close the conference door quietly!"
+      },
+      "bracket_parts": [
+        "Schließen"
+      ],
+      "akkusativ_parts": [
+        "die Konferenztür"
+      ]
+    }
+  ]
+}

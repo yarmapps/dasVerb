@@ -1,0 +1,186 @@
+{
+  "id": "bitten_akk_um",
+  "infinitive": "bitten",
+  "translation": {
+    "ru": "просить (кого-то о чем-то)",
+    "en": "to ask, to request (someone for something)"
+  },
+  "level": "A2",
+  "frequency_rank": 79,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bitten",
+    "present_3sg": "bittet",
+    "praeteritum_3sg": "bat",
+    "partizip_2": "gebeten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bitte",
+      "du": "bittest",
+      "er_sie_es": "bittet",
+      "wir": "bitten",
+      "ihr": "bittet",
+      "sie_Sie": "bitten",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "bat",
+      "du": "batest",
+      "er_sie_es": "bat",
+      "wir": "baten",
+      "ihr": "batet",
+      "sie_Sie": "baten"
+    },
+    "imperative": {
+      "du": "bitte!",
+      "ihr": "bittet!",
+      "Sie": "bitten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "um",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "jemanden (Akk) um Hilfe (Akk) bitten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich bitte dich herzlich um einen kleinen Gefallen.",
+      "translation": {
+        "ru": "Я от всего сердца прошу тебя о маленьком одолжении.",
+        "en": "I cordially ask you for a small favour."
+      },
+      "bracket_parts": [
+        "bitte"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "um einen kleinen Gefallen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Bittest du deinen Vater um Rat bei dieser Entscheidung?",
+      "translation": {
+        "ru": "Ты попросишь отца о совете при этом решении?",
+        "en": "Are you asking your father for advice with this decision?"
+      },
+      "bracket_parts": [
+        "Bittest"
+      ],
+      "akkusativ_parts": [
+        "deinen Vater",
+        "um Rat"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Gast bittet die Kellnerin höflich um die Rechnung.",
+      "translation": {
+        "ru": "Гость вежливо просит официантку о счете.",
+        "en": "The guest politely asks the waitress for the bill."
+      },
+      "bracket_parts": [
+        "bittet"
+      ],
+      "akkusativ_parts": [
+        "die Kellnerin",
+        "um die Rechnung"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir bitten alle Nachbarn um Verständnis für den lauten Umzug.",
+      "translation": {
+        "ru": "Мы просим всех соседей о понимании из-за шумного переезда.",
+        "en": "We ask all neighbours for understanding regarding the noisy move."
+      },
+      "bracket_parts": [
+        "bitten"
+      ],
+      "akkusativ_parts": [
+        "alle Nachbarn",
+        "um Verständnis"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bittet ihr den Lehrer um eine kurze Pause nach dem Test?",
+      "translation": {
+        "ru": "Вы попросите учителя о коротком перерыве после теста?",
+        "en": "Are you asking the teacher for a short break after the test?"
+      },
+      "bracket_parts": [
+        "Bittet"
+      ],
+      "akkusativ_parts": [
+        "den Lehrer",
+        "um eine kurze Pause"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern bat sie den hilfsbereiten Polizisten um den richtigen Weg.",
+      "translation": {
+        "ru": "Вчера она попросила отзывчивого полицейского подсказать правильный путь.",
+        "en": "Yesterday she asked the helpful policeman for the right way."
+      },
+      "bracket_parts": [
+        "bat"
+      ],
+      "akkusativ_parts": [
+        "den hilfsbereiten Polizisten",
+        "um den richtigen Weg"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben den Vermieter dringend um eine Reparatur gebeten.",
+      "translation": {
+        "ru": "Они настоятельно попросили арендодателя о ремонте.",
+        "en": "They urgently asked the landlord for a repair."
+      },
+      "bracket_parts": [
+        "haben",
+        "gebeten"
+      ],
+      "akkusativ_parts": [
+        "den Vermieter",
+        "um eine Reparatur"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Bitten Sie die Kollegin bitte um das Protokoll!",
+      "translation": {
+        "ru": "Попросите, пожалуйста, коллегу о протоколе!",
+        "en": "Please ask the colleague for the minutes!"
+      },
+      "bracket_parts": [
+        "Bitten"
+      ],
+      "akkusativ_parts": [
+        "die Kollegin",
+        "um das Protokoll"
+      ]
+    }
+  ]
+}

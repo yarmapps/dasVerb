@@ -1,0 +1,161 @@
+{
+  "id": "aufwachen",
+  "infinitive": "aufwachen",
+  "translation": {
+    "ru": "просыпаться",
+    "en": "to wake up"
+  },
+  "level": "A2",
+  "frequency_rank": 285,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufwachen",
+    "present_3sg": "wacht auf",
+    "praeteritum_3sg": "wachte auf",
+    "partizip_2": "aufgewacht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wache auf",
+      "du": "wachst auf",
+      "er_sie_es": "wacht auf",
+      "wir": "wachen auf",
+      "ihr": "wacht auf",
+      "sie_Sie": "wachen auf",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "wachte auf",
+      "du": "wachtest auf",
+      "er_sie_es": "wachte auf",
+      "wir": "wachten auf",
+      "ihr": "wachtet auf",
+      "sie_Sie": "wachten auf"
+    },
+    "imperative": {
+      "du": "wach auf!",
+      "ihr": "wacht auf!",
+      "Sie": "wachen Sie auf!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "durch das Vogelgezwitscher / früh aufwachen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich wache jeden Sommermorgen schon vor dem Weckerklingeln auf.",
+      "translation": {
+        "ru": "Каждым летним утром я просыпаюсь еще до звонка будильника.",
+        "en": "Every summer morning I wake up before the alarm clock rings."
+      },
+      "bracket_parts": [
+        "wache",
+        "auf"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Wachst du am Wochenende auch so früh wie unter der Woche auf?",
+      "translation": {
+        "ru": "Ты на выходных тоже просыпаешься так же рано, как среди недели?",
+        "en": "Do you wake up as early on the weekend as during the week?"
+      },
+      "bracket_parts": [
+        "Wachst",
+        "auf"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Nachbar wacht regelmäßig durch den lauten Straßenverkehr auf.",
+      "translation": {
+        "ru": "Сосед регулярно просыпается из-за громкого уличного движения.",
+        "en": "The neighbour regularly wakes up because of the loud street traffic."
+      },
+      "bracket_parts": [
+        "wacht",
+        "auf"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir wachen im Urlaub gerne durch die wärmenden Sonnenstrahlen auf.",
+      "translation": {
+        "ru": "В отпуске мы с удовольствием просыпаемся от согревающих лучей солнца.",
+        "en": "On vacation we like to wake up to the warming rays of the sun."
+      },
+      "bracket_parts": [
+        "wachen",
+        "auf"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Wacht ihr morgen rechtzeitig für den frühen Flug nach Mallorca auf?",
+      "translation": {
+        "ru": "Вы проснетесь завтра вовремя к раннему рейсу на Майорку?",
+        "en": "Will you wake up in time tomorrow for the early flight to Majorca?"
+      },
+      "bracket_parts": [
+        "Wacht",
+        "auf"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern wachte sie durch das laute Gewitter mitten in der Nacht auf.",
+      "translation": {
+        "ru": "Вчера посреди ночи она проснулась из-за громкой грозы.",
+        "en": "Yesterday she woke up in the middle of the night due to the loud thunderstorm."
+      },
+      "bracket_parts": [
+        "wachte",
+        "auf"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Kinder sind heute Morgen alle sehr fröhlich und ausgeruht aufgewacht.",
+      "translation": {
+        "ru": "Дети сегодня утром все проснулись очень веселыми и отдохнувшими.",
+        "en": "The children all woke up very cheerful and well-rested this morning."
+      },
+      "bracket_parts": [
+        "sind",
+        "aufgewacht"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Wach bitte auf, das Frühstück steht schon auf dem Tisch!",
+      "translation": {
+        "ru": "Просыпайся, пожалуйста, завтрак уже на столе!",
+        "en": "Please wake up, breakfast is already on the table!"
+      },
+      "bracket_parts": [
+        "Wach",
+        "auf"
+      ]
+    }
+  ]
+}

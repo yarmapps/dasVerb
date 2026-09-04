@@ -20,6 +20,7 @@ import { VerbCardDetails } from '../../components/VerbCardDetails/VerbCardDetail
 import { verbDataService } from '../../services/verbDataService';
 import { VerbCard } from '../../../docs/verb.types';
 import { ThemeColors } from '../../styles/themeColors';
+import { trackEvent } from '../../services/analyticsService';
 import { createStyles } from './DictionaryScreen.styles';
 
 interface VerbItemProps {
@@ -197,6 +198,20 @@ export function DictionaryScreen(): React.JSX.Element {
       try {
         const data = await verbDataService.searchVerbs(query, locale, 50);
         setVerbs(data);
+        const trimmed = query.trim();
+        if (trimmed.length > 0) {
+          trackEvent('dictionary_search', {
+            search_term: trimmed,
+            query_length: trimmed.length,
+            results_count: data.length,
+          });
+          if (data.length === 0) {
+            trackEvent('dictionary_search_no_results', {
+              search_term: trimmed,
+              query_length: trimmed.length,
+            });
+          }
+        }
       } catch (error) {
         // eslint-disable-next-line no-console
         console.error('[DictionaryScreen] Error searching verbs:', error);
@@ -211,11 +226,31 @@ export function DictionaryScreen(): React.JSX.Element {
     fetchVerbs(searchQuery);
   }, [searchQuery, fetchVerbs]);
 
-  const handleToggleExpand = useCallback((id: string) => {
-    setExpandedVerbId(prevId => (prevId === id ? null : id));
-  }, []);
+  const handleToggleExpand = useCallback(
+    (id: string) => {
+      setExpandedVerbId(prevId => {
+        const willExpand = prevId !== id;
+        const targetVerb = verbs.find(v => v.id === id);
+        if (targetVerb) {
+          if (willExpand) {
+            trackEvent('dictionary_verb_expanded', {
+              infinitive: targetVerb.infinitive,
+              level: targetVerb.level,
+            });
+          } else {
+            trackEvent('dictionary_verb_collapsed', {
+              infinitive: targetVerb.infinitive,
+            });
+          }
+        }
+        return willExpand ? id : null;
+      });
+    },
+    [verbs],
+  );
 
   const handleClearSearch = () => {
+    trackEvent('dictionary_search_cleared', {});
     setSearchQuery('');
     Keyboard.dismiss();
   };

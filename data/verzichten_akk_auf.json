@@ -1,0 +1,178 @@
+{
+  "id": "verzichten_akk_auf",
+  "infinitive": "verzichten",
+  "translation": {
+    "ru": "отказываться (от чего-то добровольно), воздерживаться",
+    "en": "to forgo, to do without, to waive"
+  },
+  "level": "B2",
+  "frequency_rank": 155,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verzichten",
+    "present_3sg": "verzichtet",
+    "praeteritum_3sg": "verzichtete",
+    "partizip_2": "verzichtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verzichte",
+      "du": "verzichtest",
+      "er_sie_es": "verzichtet",
+      "wir": "verzichten",
+      "ihr": "verzichtet",
+      "sie_Sie": "verzichten",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "verzichtete",
+      "du": "verzichtetest",
+      "er_sie_es": "verzichtete",
+      "wir": "verzichteten",
+      "ihr": "verrichtetet",
+      "sie_Sie": "verzichteten"
+    },
+    "imperative": {
+      "du": "verzichte!",
+      "ihr": "verzichtet!",
+      "Sie": "verzichten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "auf die eigenen Ansprüche (Akk) verzichten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verzichte aus gesundheitlichen Gründen seit vielen Monaten ganz auf Zucker.",
+      "translation": {
+        "ru": "По состоянию здоровья я уже много месяцев полностью отказываюсь от сахара.",
+        "en": "For health reasons I have been completely doing without sugar for many months."
+      },
+      "bracket_parts": [
+        "verzichte"
+      ],
+      "akkusativ_parts": [
+        "auf Zucker"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verzichtest du zugunsten deiner kleinen Schwester freiwillig auf das letzte Stück Kuchen?",
+      "translation": {
+        "ru": "Ты добровольно отказываешься от последнего куска пирога в пользу младшей сестры?",
+        "en": "Are you voluntarily forgoing the last piece of cake in favour of your little sister?"
+      },
+      "bracket_parts": [
+        "Verzichtest"
+      ],
+      "akkusativ_parts": [
+        "auf das letzte Stück Kuchen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der umweltbewusste Pendler verzichtet im Alltag komplett auf das eigene Auto.",
+      "translation": {
+        "ru": "Экологически сознательный пассажир в повседневной жизни полностью обходится без личного автомобиля.",
+        "en": "The environmentally conscious commuter completely does without a personal car in everyday life."
+      },
+      "bracket_parts": [
+        "verzichtet"
+      ],
+      "akkusativ_parts": [
+        "auf das eigene Auto"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verzichten bei unserem Projekt bewusst auf den Einsatz von Plastikverpackungen.",
+      "translation": {
+        "ru": "В нашем проекте мы осознанно отказываемся от использования пластиковой упаковки.",
+        "en": "In our project we consciously forgo the use of plastic packaging."
+      },
+      "bracket_parts": [
+        "verzichten"
+      ],
+      "akkusativ_parts": [
+        "auf den Einsatz"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verzichtet ihr in der Fastenzeit auf den Konsum von Süßigkeiten?",
+      "translation": {
+        "ru": "Вы отказываетесь во время поста от употребления сладостей?",
+        "en": "Do you forgo the consumption of sweets during Lent?"
+      },
+      "bracket_parts": [
+        "Verzichtet"
+      ],
+      "akkusativ_parts": [
+        "auf den Konsum"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern verzichtete der Unternehmer großzügig auf seine vertragliche Abfindung.",
+      "translation": {
+        "ru": "Вчера предприниматель великодушно отказался от своей договорной компенсации.",
+        "en": "Yesterday the entrepreneur generously waived his contractual severance package."
+      },
+      "bracket_parts": [
+        "verzichtete"
+      ],
+      "akkusativ_parts": [
+        "auf seine vertragliche Abfindung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Viele Familien haben im Urlaub wegen der hohen Preise auf teure Restaurants verzichtet.",
+      "translation": {
+        "ru": "Многие семьи в отпуске из-за высоких цен отказались от дорогих ресторанов.",
+        "en": "Many families did without expensive restaurants on vacation because of high prices."
+      },
+      "bracket_parts": [
+        "haben",
+        "verzichtet"
+      ],
+      "akkusativ_parts": [
+        "auf teure Restaurants"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verzichten Sie bitte auf das Rauchen in allen geschlossenen Räumen!",
+      "translation": {
+        "ru": "Воздержитесь, пожалуйста, от курения во всех закрытых помещениях!",
+        "en": "Please refrain from smoking in all enclosed spaces!"
+      },
+      "bracket_parts": [
+        "Verzichten"
+      ],
+      "akkusativ_parts": [
+        "auf das Rauchen"
+      ]
+    }
+  ]
+}

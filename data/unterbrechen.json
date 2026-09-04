@@ -1,0 +1,178 @@
+{
+  "id": "unterbrechen",
+  "infinitive": "unterbrechen",
+  "translation": {
+    "ru": "прерывать, перебивать (собеседника, процесс)",
+    "en": "to interrupt, to suspend"
+  },
+  "level": "B2",
+  "frequency_rank": 439,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "unter",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "unterbrechen",
+    "present_3sg": "unterbricht",
+    "praeteritum_3sg": "unterbrach",
+    "partizip_2": "unterbrochen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "unterbreche",
+      "du": "unterbrichst",
+      "er_sie_es": "unterbricht",
+      "wir": "unterbrechen",
+      "ihr": "unterbrecht",
+      "sie_Sie": "unterbrechen",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "unterbrach",
+      "du": "unterbrachst",
+      "er_sie_es": "unterbrach",
+      "wir": "unterbrachen",
+      "ihr": "unterbracht",
+      "sie_Sie": "unterbrachen"
+    },
+    "imperative": {
+      "du": "unterbrich!",
+      "ihr": "unterbrecht!",
+      "Sie": "unterbrechen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemanden beim Sprechen unhöflich (Akk) unterbrechen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich unterbreche meine anstrengende Bildschirmarbeit jede Stunde für fünf Minuten Dehnübungen.",
+      "translation": {
+        "ru": "Я прерываю свою напряженную работу за монитором каждый час на пять минут упражнений на растяжку.",
+        "en": "I interrupt my strenuous screen work every hour for five minutes of stretching exercises."
+      },
+      "bracket_parts": [
+        "unterbreche"
+      ],
+      "akkusativ_parts": [
+        "meine anstrengende Bildschirmarbeit"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Unterbrichst du deinen Gesprächspartner bei Meinungsverschiedenheiten eigentlich immer so ungeduldig?",
+      "translation": {
+        "ru": "Перебиваешь ли ты своего собеседника при разногласиях на самом деле всегда так нетерпеливо?",
+        "en": "Do you actually always interrupt your conversation partner so impatiently when there are disagreements?"
+      },
+      "bracket_parts": [
+        "Unterbrichst"
+      ],
+      "akkusativ_parts": [
+        "deinen Gesprächspartner"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Richter unterbricht die hitzige Gerichtsverhandlung wegen lautstarker Zwischenrufe für eine Pause.",
+      "translation": {
+        "ru": "Судья прерывает жаркое судебное заседание из-за громких выкриков с места на перерыв.",
+        "en": "The judge suspends the heated court hearing for a break because of loud heckling."
+      },
+      "bracket_parts": [
+        "unterbricht"
+      ],
+      "akkusativ_parts": [
+        "die hitzige Gerichtsverhandlung"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir unterbrechen unsere lange Autofahrt nach Italien für ein gemütliches Picknick an einem See.",
+      "translation": {
+        "ru": "Мы прерываем нашу долгую поездку на машине в Италию ради уютного пикника у озера.",
+        "en": "We interrupt our long car journey to Italy for a cosy picnic by a lake."
+      },
+      "bracket_parts": [
+        "unterbrechen"
+      ],
+      "akkusativ_parts": [
+        "unsere lange Autofahrt"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Unterbrecht ihr die laufende Bandprobe wegen des plötzlichen Gewitters draußen im Garten?",
+      "translation": {
+        "ru": "Прерываете ли вы текущую репетицию группы из-за внезапной грозы на улице в саду?",
+        "en": "Are you interrupting the ongoing band rehearsal because of the sudden thunderstorm outside in the garden?"
+      },
+      "bracket_parts": [
+        "Unterbrecht"
+      ],
+      "akkusativ_parts": [
+        "die laufende Bandprobe"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern unterbrach ein plötzlicher Stromausfall den gesamten U-Bahn-Verkehr der Großstadt.",
+      "translation": {
+        "ru": "Вчера внезапное отключение электричества прервало всё движение метро в мегаполисе.",
+        "en": "Yesterday a sudden power cut interrupted the entire underground train traffic in the metropolis."
+      },
+      "bracket_parts": [
+        "unterbrach"
+      ],
+      "akkusativ_parts": [
+        "den gesamten U-Bahn-Verkehr"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Fluggesellschaft hat alle Flüge in das Krisengebiet bis auf Weiteres unterbrochen.",
+      "translation": {
+        "ru": "Авиакомпания до особого распоряжения приостановила все полеты в зону кризиса.",
+        "en": "The airline has suspended all flights to the crisis area until further notice."
+      },
+      "bracket_parts": [
+        "hat",
+        "unterbrochen"
+      ],
+      "akkusativ_parts": [
+        "alle Flüge"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Unterbrechen Sie andere Redner bitte niemals mitten im Satz!",
+      "translation": {
+        "ru": "Не перебивайте других выступающих, пожалуйста, на полуслове!",
+        "en": "Please never interrupt other speakers mid-sentence!"
+      },
+      "bracket_parts": [
+        "Unterbrechen"
+      ],
+      "akkusativ_parts": [
+        "andere Redner"
+      ]
+    }
+  ]
+}

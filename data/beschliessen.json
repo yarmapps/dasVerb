@@ -1,0 +1,175 @@
+{
+  "id": "beschliessen",
+  "infinitive": "beschließen",
+  "translation": {
+    "ru": "принимать решение, постановлять",
+    "en": "to decide, to resolve"
+  },
+  "level": "B2",
+  "frequency_rank": 308,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beschließen",
+    "present_3sg": "beschließt",
+    "praeteritum_3sg": "beschloss",
+    "partizip_2": "beschlossen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beschließe",
+      "du": "beschließt",
+      "er_sie_es": "beschließt",
+      "wir": "beschließen",
+      "ihr": "beschließt",
+      "sie_Sie": "beschließen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "beschloss",
+      "du": "beschlossest",
+      "er_sie_es": "beschloss",
+      "wir": "beschlossen",
+      "ihr": "beschlosst",
+      "sie_Sie": "beschlossen"
+    },
+    "imperative": {
+      "du": "beschließe!",
+      "ihr": "beschließt!",
+      "Sie": "beschließen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein neues Gesetz / Maßnahmen (Akk) beschließen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich beschließe diesen anstrengenden Arbeitstag heute mit einem erholsamen Waldspaziergang.",
+      "translation": {
+        "ru": "Я завершаю этот напряженный рабочий день сегодня спокойной лесной прогулкой.",
+        "en": "I conclude this exhausting workday today with a relaxing walk in the forest."
+      },
+      "bracket_parts": [
+        "beschließe"
+      ],
+      "akkusativ_parts": [
+        "diesen anstrengenden Arbeitstag"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Beschließt du nach reichlicher Überlegung wirklich den Verkauf deines geliebten Autos?",
+      "translation": {
+        "ru": "Решаешься ли ты после долгих размышлений действительно на продажу своего любимого автомобиля?",
+        "en": "After much consideration, are you really deciding on the sale of your beloved car?"
+      },
+      "bracket_parts": [
+        "Beschließt"
+      ],
+      "akkusativ_parts": [
+        "den Verkauf deines geliebten Autos"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Stadtrat beschließt heute Abend ein umfassendes Sanierungsprogramm für Schulen.",
+      "translation": {
+        "ru": "Городской совет принимает сегодня вечером комплексную программу санации школ.",
+        "en": "The city council is resolving a comprehensive renovation program for schools tonight."
+      },
+      "bracket_parts": [
+        "beschließt"
+      ],
+      "akkusativ_parts": [
+        "ein umfassendes Sanierungsprogramm"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beschließen als Familie, unseren nächsten Sommerurlaub umweltfreundlich in den Bergen zu verbringen.",
+      "translation": {
+        "ru": "Мы семьей принимаем решение провести следующий летний отпуск экологично в горах.",
+        "en": "As a family, we decide to spend our next summer holiday environmentally friendly in the mountains."
+      },
+      "bracket_parts": [
+        "beschließen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Beschließt ihr im Vorstand heute die langfristige strategische Neuausrichtung des Betriebs?",
+      "translation": {
+        "ru": "Принимаете ли вы в правлении сегодня решение о долгосрочной стратегической переориентации предприятия?",
+        "en": "Are you on the board deciding today on the long-term strategic reorientation of the company?"
+      },
+      "bracket_parts": [
+        "Beschließt"
+      ],
+      "akkusativ_parts": [
+        "die langfristige strategische Neuausrichtung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern beschloss das Kabinett nach stundenlangen Beratungen ein neues Gesetzespaket.",
+      "translation": {
+        "ru": "Вчера кабинет министров после многочасовых совещаний утвердил новый пакет законов.",
+        "en": "Yesterday the cabinet decided on a new legislative package after hours of deliberations."
+      },
+      "bracket_parts": [
+        "beschloss"
+      ],
+      "akkusativ_parts": [
+        "ein neues Gesetzespaket"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Mitglieder des Vereins haben eine wichtige Satzungsänderung mehrheitlich beschlossen.",
+      "translation": {
+        "ru": "Члены объединения большинством голосов приняли важное изменение в уставе.",
+        "en": "The members of the association decided on an important change to the statutes by a majority."
+      },
+      "bracket_parts": [
+        "haben",
+        "beschlossen"
+      ],
+      "akkusativ_parts": [
+        "eine wichtige Satzungsänderung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Beschließen Sie solche weitreichenden Maßnahmen bitte niemals unüberlegt!",
+      "translation": {
+        "ru": "Не принимайте такие далекоидущие меры, пожалуйста, необдуманно!",
+        "en": "Please never decide on such far-reaching measures without consideration!"
+      },
+      "bracket_parts": [
+        "Beschließen"
+      ],
+      "akkusativ_parts": [
+        "solche weitreichenden Maßnahmen"
+      ]
+    }
+  ]
+}

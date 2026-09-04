@@ -1,0 +1,178 @@
+{
+  "id": "beraten_akk",
+  "infinitive": "beraten",
+  "translation": {
+    "ru": "консультировать, давать советы",
+    "en": "to advise, to consult"
+  },
+  "level": "B1",
+  "frequency_rank": 175,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beraten",
+    "present_3sg": "berät",
+    "praeteritum_3sg": "beriet",
+    "partizip_2": "beraten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "berate",
+      "du": "berätst",
+      "er_sie_es": "berät",
+      "wir": "beraten",
+      "ihr": "beratet",
+      "sie_Sie": "beraten",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "beriet",
+      "du": "berietst",
+      "er_sie_es": "beriet",
+      "wir": "berieten",
+      "ihr": "berietet",
+      "sie_Sie": "berieten"
+    },
+    "imperative": {
+      "du": "berat!",
+      "ihr": "beratet!",
+      "Sie": "beraten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "neue Kunden (Akk) kompetent beraten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich berate meine anspruchsvollen Kunden stets individuell und fachlich kompetent.",
+      "translation": {
+        "ru": "Я консультирую своих требовательных клиентов всегда индивидуально и профессионально грамотно.",
+        "en": "I always advise my demanding clients individually and professionally."
+      },
+      "bracket_parts": [
+        "berate"
+      ],
+      "akkusativ_parts": [
+        "meine anspruchsvollen Kunden"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Berätst du ratsuchende Studienanfänger bei der Zusammenstellung ihres Stundenplans?",
+      "translation": {
+        "ru": "Ты консультируешь ищущих совета первокурсников при составлении их расписания?",
+        "en": "Do you advise freshmen seeking advice on putting together their timetable?"
+      },
+      "bracket_parts": [
+        "Berätst"
+      ],
+      "akkusativ_parts": [
+        "ratsuchende Studienanfänger"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der erfahrene Rechtsanwalt berät das Unternehmen in allen juristischen Fragen.",
+      "translation": {
+        "ru": "Опытный адвокат консультирует предприятие по всем юридическим вопросам.",
+        "en": "The experienced lawyer advises the company on all legal matters."
+      },
+      "bracket_parts": [
+        "berät"
+      ],
+      "akkusativ_parts": [
+        "das Unternehmen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beraten internationale Urlauber gerne über die schönsten Sehenswürdigkeiten der Region.",
+      "translation": {
+        "ru": "Мы с удовольствием консультируем иностранных туристов о самых красивых достопримечательностях региона.",
+        "en": "We gladly advise international holidaymakers on the most beautiful sights in the region."
+      },
+      "bracket_parts": [
+        "beraten"
+      ],
+      "akkusativ_parts": [
+        "internationale Urlauber"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Beratet ihr Bürger in eurer Beratungsstelle auch kostenlos zu Energiefragen?",
+      "translation": {
+        "ru": "Консультируете ли вы граждан в своем консультационном центре также бесплатно по вопросам энергии?",
+        "en": "Do you also advise citizens free of charge on energy issues at your advice centre?"
+      },
+      "bracket_parts": [
+        "Beratet"
+      ],
+      "akkusativ_parts": [
+        "Bürger"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern beriet die Finanzexpertin die junge Familie ausführlich beim Hauskauf.",
+      "translation": {
+        "ru": "Вчера финансовый эксперт подробно проконсультировала молодую семью при покупке дома.",
+        "en": "Yesterday the financial expert advised the young family in detail on buying a house."
+      },
+      "bracket_parts": [
+        "beriet"
+      ],
+      "akkusativ_parts": [
+        "die junge Familie"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Verkäufer im Fachgeschäft hat uns bei der Auswahl sehr gut beraten.",
+      "translation": {
+        "ru": "Продавец в специализированном магазине очень хорошо проконсультировал нас при выборе.",
+        "en": "The shop assistant in the specialist store advised us very well on the selection."
+      },
+      "bracket_parts": [
+        "hat",
+        "beraten"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Beraten Sie die Besucher bitte mit Geduld und Freundlichkeit!",
+      "translation": {
+        "ru": "Консультируйте посетителей, пожалуйста, с терпением и дружелюбием!",
+        "en": "Please advise visitors with patience and friendliness!"
+      },
+      "bracket_parts": [
+        "Beraten"
+      ],
+      "akkusativ_parts": [
+        "die Besucher"
+      ]
+    }
+  ]
+}

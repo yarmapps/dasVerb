@@ -1,38 +1,58 @@
 {
   "expo": {
-    "name": "dasVerb",
+    "name": "das Verb",
     "slug": "das-verb",
+    "scheme": "dasverb",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/icons/base-icon.png",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
+      "image": "./assets/icons/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#0F172A"
+      "backgroundColor": "#fff6f4"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yarm.apps.das-verb"
+      "bundleIdentifier": "com.yarm.apps.dasverb",
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#0F172A"
+        "foregroundImage": "./assets/icons/android-adaptive-icon.png",
+        "backgroundColor": "#fff6f4"
       },
       "permissions": [
-        "android.permission.RECORD_AUDIO",
-        "android.permission.MODIFY_AUDIO_SETTINGS",
-        "android.permission.RECORD_AUDIO",
-        "android.permission.MODIFY_AUDIO_SETTINGS"
+        "com.android.vending.BILLING"
       ],
-      "package": "com.yarm.apps.dasverb"
+      "package": "com.yarm.apps.dasverb",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "bundler": "metro"
     },
     "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      "./plugins/withNonModularHeaders",
+      [
+        "@react-native-firebase/app",
+        {
+          "ios": {
+            "disableSPM": true
+          }
+        }
+      ],
       "expo-sqlite",
       "expo-audio",
       [
@@ -42,6 +62,12 @@
           "iosAppId": "ca-app-pub-7651822935774581~9648163377"
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "48bab158-a93b-43b0-b1b9-0e9e092635d1"
+      }
+    },
+    "owner": "yarm.apps"
   }
 }

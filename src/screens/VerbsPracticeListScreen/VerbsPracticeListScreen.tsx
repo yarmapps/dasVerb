@@ -1,5 +1,12 @@
 import React, { useState, useMemo, useCallback, useRef, useEffect } from 'react';
-import { View, Text, TouchableOpacity, FlatList, InteractionManager } from 'react-native';
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  FlatList,
+  InteractionManager,
+  BackHandler,
+} from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -394,15 +401,33 @@ export function VerbsPracticeListScreen(): React.JSX.Element {
     ],
   );
 
+  const handleBackToMain = useCallback(() => {
+    if (navigation.canGoBack()) {
+      navigation.goBack();
+    } else {
+      navigation.navigate('PracticeHome');
+    }
+  }, [navigation]);
+
+  useFocusEffect(
+    useCallback(() => {
+      const onHardwareBack = () => {
+        handleBackToMain();
+        return true;
+      };
+
+      const subscription = BackHandler.addEventListener('hardwareBackPress', onHardwareBack);
+      return () => subscription.remove();
+    }, [handleBackToMain]),
+  );
+
   return (
     <ScreenBackground>
       <StatusBar style={isDark ? 'light' : 'dark'} />
       <ScreenHeader
         title={intl.formatMessage({ id: 'verbsPracticeListScreen.title' })}
         showBackButton
-        onBackPress={() => {
-          navigation.goBack();
-        }}
+        onBackPress={handleBackToMain}
       />
 
       <FlatList

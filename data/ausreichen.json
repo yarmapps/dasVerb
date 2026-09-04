@@ -1,0 +1,182 @@
+{
+  "id": "ausreichen",
+  "infinitive": "ausreichen",
+  "translation": {
+    "ru": "хватать, быть достаточным",
+    "en": "to suffice, to be enough"
+  },
+  "level": "B1",
+  "frequency_rank": 180,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ausreichen",
+    "present_3sg": "reicht aus",
+    "praeteritum_3sg": "reichte aus",
+    "partizip_2": "ausgereicht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "reiche aus",
+      "du": "reichst aus",
+      "er_sie_es": "reicht aus",
+      "wir": "reichen aus",
+      "ihr": "reicht aus",
+      "sie_Sie": "reichen aus",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "reichte aus",
+      "du": "reichtest aus",
+      "er_sie_es": "reichte aus",
+      "wir": "reichten aus",
+      "ihr": "reichtet aus",
+      "sie_Sie": "reichten aus"
+    },
+    "imperative": {
+      "du": "reich aus!",
+      "ihr": "reicht aus!",
+      "Sie": "reichen Sie aus!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "für",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "für alle Gäste (Akk) vollkommen ausreichen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich glaube fest daran, dass mein mühsam Erspartes für die geplante Reise ausreicht.",
+      "translation": {
+        "ru": "Я твердо верю, что моих с трудом накопленных сбережений хватит на запланированную поездку.",
+        "en": "I firmly believe that my hard-earned savings will suffice for the planned trip."
+      },
+      "bracket_parts": [
+        "reicht",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "für die geplante Reise"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Reichst du mit deinem monatlichen Gehalt für alle anfallenden Lebenshaltungskosten aus?",
+      "translation": {
+        "ru": "Хватает ли тебе твоей ежемесячной зарплаты на все текущие расходы на жизнь?",
+        "en": "Is your monthly salary sufficient for all living expenses incurred?"
+      },
+      "bracket_parts": [
+        "Reichst",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "für alle anfallenden Lebenshaltungskosten"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Proviant im Rucksack reicht locker für eine zweitägige Bergtour aus.",
+      "translation": {
+        "ru": "Провизии в рюкзаке вполне хватит на двухдневный горный поход.",
+        "en": "The provisions in the backpack easily suffice for a two-day mountain tour."
+      },
+      "bracket_parts": [
+        "reicht",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "für eine zweitägige Bergtour"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir hoffen sehr, dass unsere finanziellen Mittel für die komplette Renovierung ausreichen.",
+      "translation": {
+        "ru": "Мы очень надеемся, что наших финансовых средств хватит на полный ремонт.",
+        "en": "We very much hope that our financial resources will be sufficient for the complete renovation."
+      },
+      "bracket_parts": [
+        "reichen",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "für die komplette Renovierung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Reicht ihr mit eurer knappen Zeit für die gründliche Vorbereitung der Präsentation aus?",
+      "translation": {
+        "ru": "Укладываетесь ли вы со своим ограниченным временем в основательную подготовку презентации?",
+        "en": "Will your tight time be enough for the thorough preparation of the presentation?"
+      },
+      "bracket_parts": [
+        "Reicht",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "für die gründliche Vorbereitung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals reichte das wenige Essen kaum für die vielen hungrigen Kinder aus.",
+      "translation": {
+        "ru": "В те времена скудной еды едва хватало на множество голодных детей.",
+        "en": "At that time the little food hardly sufficed for the many hungry children."
+      },
+      "bracket_parts": [
+        "reichte",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "für die vielen hungrigen Kinder"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die gesammelten Spenden haben für den dringenden Bau der neuen Schule vollkommen ausgereicht.",
+      "translation": {
+        "ru": "Собранных пожертвований вполне хватило на неотложное строительство новой школы.",
+        "en": "The collected donations were completely sufficient for the urgent construction of the new school."
+      },
+      "bracket_parts": [
+        "haben",
+        "ausgereicht"
+      ],
+      "akkusativ_parts": [
+        "für den dringenden Bau"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Reicht bitte mit den Vorräten sparsam aus, wir sind noch drei Tage unterwegs!",
+      "translation": {
+        "ru": "Расходуйте, пожалуйста, запасы экономно, мы в пути еще три дня!",
+        "en": "Please manage the supplies sparingly, we will be on the road for another three days!"
+      },
+      "bracket_parts": [
+        "Reicht",
+        "aus"
+      ]
+    }
+  ]
+}

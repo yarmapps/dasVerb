@@ -1,0 +1,178 @@
+{
+  "id": "verbreiten",
+  "infinitive": "verbreiten",
+  "translation": {
+    "ru": "распространять (новости, слухи), распространяться",
+    "en": "to spread, to disseminate"
+  },
+  "level": "B2",
+  "frequency_rank": 419,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verbreiten",
+    "present_3sg": "verbreitet",
+    "praeteritum_3sg": "verbreitete",
+    "partizip_2": "verbreitet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verbreite",
+      "du": "verbreitest",
+      "er_sie_es": "verbreitet",
+      "wir": "verbreiten",
+      "ihr": "verbreitet",
+      "sie_Sie": "verbreiten",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "verbreitete",
+      "du": "verbreitetest",
+      "er_sie_es": "verbreitete",
+      "wir": "verbreiteten",
+      "ihr": "verbreitetet",
+      "sie_Sie": "verbreiteten"
+    },
+    "imperative": {
+      "du": "verbreite!",
+      "ihr": "verbreitet!",
+      "Sie": "verbreiten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "wichtige Nachrichten / falsche Gerüchte (Akk) verbreiten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verbreite über meine reichweitenstarken Social-Media-Kanäle nur fundierte und verifizierte Informationen.",
+      "translation": {
+        "ru": "Через свои популярные каналы в соцсетях я распространяю только проверенную и подтвержденную информацию.",
+        "en": "Through my high-reach social media channels I disseminate only substantiated and verified information."
+      },
+      "bracket_parts": [
+        "verbreite"
+      ],
+      "akkusativ_parts": [
+        "nur fundierte und verifizierte Informationen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verbreitest du in der Firma etwa böswillige Gerüchte über die private Trennung des Chefs?",
+      "translation": {
+        "ru": "Неужели ты распространяешь в компании злонамеренные слухи о разводе шефа?",
+        "en": "Are you spreading malicious rumours in the company about the boss's personal separation?"
+      },
+      "bracket_parts": [
+        "Verbreitest"
+      ],
+      "akkusativ_parts": [
+        "böswillige Gerüchte"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das virale Video verbreitet sich im Internet innerhalb weniger Stunden wie ein Lauffeuer.",
+      "translation": {
+        "ru": "Вирусное видео распространяется в интернете за несколько часов со скоростью лесного пожара.",
+        "en": "The viral video spreads on the internet like wildfire within a few hours."
+      },
+      "bracket_parts": [
+        "verbreitet"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verbreiten Freude und gute Laune mit unseren kostenlosen Straßenkonzerten in der Innenstadt.",
+      "translation": {
+        "ru": "Мы дарим (распространяем) радость и хорошее настроение нашими бесплатными уличными концертами в центре города.",
+        "en": "We spread joy and good spirits with our free street concerts in the city centre."
+      },
+      "bracket_parts": [
+        "verbreiten"
+      ],
+      "akkusativ_parts": [
+        "Freude und gute Laune"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verbreitet ihr mit eurer aktuellen Plakatkampagne wichtige Aufklärung über gesunde Ernährung?",
+      "translation": {
+        "ru": "Распространяете ли вы своей текущей плакатной кампанией важное просвещение о здоровом питании?",
+        "en": "Are you spreading important education about healthy nutrition with your current poster campaign?"
+      },
+      "bracket_parts": [
+        "Verbreitet"
+      ],
+      "akkusativ_parts": [
+        "wichtige Aufklärung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern verbreitete die Nachrichtenagentur die erlösende Eilmeldung über die Rettung der Bergleute.",
+      "translation": {
+        "ru": "Вчера информационное агентство распространило спасительную молнию о спасении шахтеров.",
+        "en": "Yesterday the news agency disseminated the relieving breaking news about the rescue of the miners."
+      },
+      "bracket_parts": [
+        "verbreitete"
+      ],
+      "akkusativ_parts": [
+        "die erlösende Eilmeldung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Unbekannte Täter haben im Vorfeld der Wahl gezielt gefährliche Falschmeldungen im Netz verbreitet.",
+      "translation": {
+        "ru": "Неизвестные злоумышленники в преддверии выборов целенаправленно распространили опасные фейки в сети.",
+        "en": "Unknown perpetrators deliberately spread dangerous fake news online in the run-up to the election."
+      },
+      "bracket_parts": [
+        "haben",
+        "verbreitet"
+      ],
+      "akkusativ_parts": [
+        "gefährliche Falschmeldungen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verbreiten Sie bitte keine ungeprüften Panikmeldungen in den Gruppenchats!",
+      "translation": {
+        "ru": "Не распространяйте, пожалуйста, непроверенные панические сообщения в групповых чатах!",
+        "en": "Please do not spread unverified panic messages in the group chats!"
+      },
+      "bracket_parts": [
+        "Verbreiten"
+      ],
+      "akkusativ_parts": [
+        "keine ungeprüften Panikmeldungen"
+      ]
+    }
+  ]
+}

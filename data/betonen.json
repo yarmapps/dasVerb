@@ -1,0 +1,178 @@
+{
+  "id": "betonen",
+  "infinitive": "betonen",
+  "translation": {
+    "ru": "подчеркивать, акцентировать, делать ударение",
+    "en": "to emphasize, to stress"
+  },
+  "level": "B2",
+  "frequency_rank": 183,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "betonen",
+    "present_3sg": "betont",
+    "praeteritum_3sg": "betonte",
+    "partizip_2": "betont"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "betone",
+      "du": "betonst",
+      "er_sie_es": "betont",
+      "wir": "betonen",
+      "ihr": "betont",
+      "sie_Sie": "betonen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "betonte",
+      "du": "betontest",
+      "er_sie_es": "betonte",
+      "wir": "betonten",
+      "ihr": "betontet",
+      "sie_Sie": "betonten"
+    },
+    "imperative": {
+      "du": "betone!",
+      "ihr": "betont!",
+      "Sie": "betonen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Notwendigkeit einer Reform (Akk) betonen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich betone bei jeder Gelegenheit die herausragende Bedeutung guter Teamarbeit.",
+      "translation": {
+        "ru": "При каждой возможности я подчеркиваю выдающееся значение хорошей командной работы.",
+        "en": "At every opportunity I emphasize the outstanding importance of good teamwork."
+      },
+      "bracket_parts": [
+        "betone"
+      ],
+      "akkusativ_parts": [
+        "die herausragende Bedeutung"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Betonst du in deinem Vortrag auch die finanziellen Risiken des Projekts deutlich?",
+      "translation": {
+        "ru": "Подчеркнешь ли ты в своем докладе также финансовые риски проекта отчетливо?",
+        "en": "Do you also clearly emphasize the financial risks of the project in your presentation?"
+      },
+      "bracket_parts": [
+        "Betonst"
+      ],
+      "akkusativ_parts": [
+        "die finanziellen Risiken"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Kanzler betont vor den Medien die unerschütterliche Einigkeit der Regierung.",
+      "translation": {
+        "ru": "Канцлер перед СМИ подчеркивает непоколебимое единство правительства.",
+        "en": "The Chancellor emphasizes the unwavering unity of the government in front of the media."
+      },
+      "bracket_parts": [
+        "betont"
+      ],
+      "akkusativ_parts": [
+        "die unerschütterliche Einigkeit"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir betonen in unseren Richtlinien stets den hohen Wert von gegenseitigem Respekt.",
+      "translation": {
+        "ru": "В наших правилах мы всегда подчеркиваем высокую ценность взаимного уважения.",
+        "en": "In our guidelines we always emphasize the high value of mutual respect."
+      },
+      "bracket_parts": [
+        "betonen"
+      ],
+      "akkusativ_parts": [
+        "den hohen Wert"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Betont ihr bei der Aussprache deutscher Wörter immer die richtige Silbe?",
+      "translation": {
+        "ru": "Выделяете ли вы при произношении немецких слов всегда правильный слог?",
+        "en": "Do you always stress the correct syllable when pronouncing German words?"
+      },
+      "bracket_parts": [
+        "Betont"
+      ],
+      "akkusativ_parts": [
+        "die richtige Silbe"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern betonte die Expertin in der Diskussionsrunde die Dringlichkeit schneller Klimamaßnahmen.",
+      "translation": {
+        "ru": "Вчера эксперт на панельной дискуссии подчеркнула неотложность быстрых мер по климату.",
+        "en": "Yesterday the expert emphasized the urgency of swift climate measures in the discussion panel."
+      },
+      "bracket_parts": [
+        "betonte"
+      ],
+      "akkusativ_parts": [
+        "die Dringlichkeit"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Staatschefs haben auf dem Gipfel die Notwendigkeit friedlicher Verhandlungen betont.",
+      "translation": {
+        "ru": "Главы государств на саммите подчеркнули необходимость мирных переговоров.",
+        "en": "The heads of state emphasized the need for peaceful negotiations at the summit."
+      },
+      "bracket_parts": [
+        "haben",
+        "betont"
+      ],
+      "akkusativ_parts": [
+        "die Notwendigkeit"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Betonen Sie dieses Schlüsselwort im Satz bitte mit besonderem Nachdruck!",
+      "translation": {
+        "ru": "Выделите это ключевое слово в предложении, пожалуйста, с особым ударением!",
+        "en": "Please stress this keyword in the sentence with special emphasis!"
+      },
+      "bracket_parts": [
+        "Betonen"
+      ],
+      "akkusativ_parts": [
+        "dieses Schlüsselwort"
+      ]
+    }
+  ]
+}

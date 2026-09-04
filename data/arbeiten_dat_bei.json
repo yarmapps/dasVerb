@@ -1,0 +1,178 @@
+{
+  "id": "arbeiten_dat_bei",
+  "infinitive": "arbeiten",
+  "translation": {
+    "ru": "работать (в фирме, у кого-то)",
+    "en": "to work (at a company, for someone)"
+  },
+  "level": "A1",
+  "frequency_rank": 102,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "arbeiten",
+    "present_3sg": "arbeitet",
+    "praeteritum_3sg": "arbeitete",
+    "partizip_2": "gearbeitet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "arbeite",
+      "du": "arbeitest",
+      "er_sie_es": "arbeitet",
+      "wir": "arbeiten",
+      "ihr": "arbeitet",
+      "sie_Sie": "arbeiten",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "arbeitete",
+      "du": "arbeitetest",
+      "er_sie_es": "arbeitete",
+      "wir": "arbeiteten",
+      "ihr": "arbeitetet",
+      "sie_Sie": "arbeiteten"
+    },
+    "imperative": {
+      "du": "arbeite!",
+      "ihr": "arbeitet!",
+      "Sie": "arbeiten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "bei",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "bei einer großen Firma (Dat) arbeiten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich arbeite bei einer bekannten Firma in München.",
+      "translation": {
+        "ru": "Я работаю в известной фирме в Мюнхене.",
+        "en": "I work at a well-known company in Munich."
+      },
+      "bracket_parts": [
+        "arbeite"
+      ],
+      "dativ_parts": [
+        "bei einer bekannten Firma"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Arbeitest du noch immer bei deinem Onkel?",
+      "translation": {
+        "ru": "Ты все еще работаешь у своего дяди?",
+        "en": "Do you still work for your uncle?"
+      },
+      "bracket_parts": [
+        "Arbeitest"
+      ],
+      "dativ_parts": [
+        "bei deinem Onkel"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er arbeitet gerne bei der deutschen Post.",
+      "translation": {
+        "ru": "Он с удовольствием работает на немецкой почте.",
+        "en": "He likes working at the German post office."
+      },
+      "bracket_parts": [
+        "arbeitet"
+      ],
+      "dativ_parts": [
+        "bei der deutschen Post"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir arbeiten zusammen bei einem modernen Start-up.",
+      "translation": {
+        "ru": "Мы работаем вместе в современном стартапе.",
+        "en": "We work together at a modern start-up."
+      },
+      "bracket_parts": [
+        "arbeiten"
+      ],
+      "dativ_parts": [
+        "bei einem modernen Start-up"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Arbeitet ihr bei der internationalen Bank?",
+      "translation": {
+        "ru": "Вы работаете в международном банке?",
+        "en": "Do you work at the international bank?"
+      },
+      "bracket_parts": [
+        "Arbeitet"
+      ],
+      "dativ_parts": [
+        "bei der internationalen Bank"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern erzählte sie, sie arbeitete früher bei BMW.",
+      "translation": {
+        "ru": "Вчера она рассказала, что раньше работала в BMW.",
+        "en": "Yesterday she told that she used to work at BMW."
+      },
+      "bracket_parts": [
+        "arbeitete"
+      ],
+      "dativ_parts": [
+        "bei BMW"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben viele Jahre lang bei Siemens gearbeitet.",
+      "translation": {
+        "ru": "Они много лет проработали в компании Siemens.",
+        "en": "They worked at Siemens for many years."
+      },
+      "bracket_parts": [
+        "haben",
+        "gearbeitet"
+      ],
+      "dativ_parts": [
+        "bei Siemens"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Arbeite bitte fleißig bei diesem wichtigen Projekt!",
+      "translation": {
+        "ru": "Работай, пожалуйста, усердно над этим важным проектом!",
+        "en": "Please work diligently on this important project!"
+      },
+      "bracket_parts": [
+        "Arbeite"
+      ],
+      "dativ_parts": [
+        "bei diesem wichtigen Projekt"
+      ]
+    }
+  ]
+}

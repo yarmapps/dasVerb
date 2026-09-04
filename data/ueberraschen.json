@@ -1,0 +1,193 @@
+{
+  "id": "ueberraschen",
+  "infinitive": "überraschen",
+  "translation": {
+    "ru": "удивлять, делать сюрприз",
+    "en": "to surprise"
+  },
+  "level": "B1",
+  "frequency_rank": 265,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "über",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "überraschen",
+    "present_3sg": "überrascht",
+    "praeteritum_3sg": "überraschte",
+    "partizip_2": "überrascht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "überrasche",
+      "du": "überraschst",
+      "er_sie_es": "überrascht",
+      "wir": "überraschen",
+      "ihr": "überrascht",
+      "sie_Sie": "überraschen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "überraschte",
+      "du": "überraschtest",
+      "er_sie_es": "überraschte",
+      "wir": "überraschten",
+      "ihr": "überraschtet",
+      "sie_Sie": "überraschten"
+    },
+    "imperative": {
+      "du": "überrasch!",
+      "ihr": "überrascht!",
+      "Sie": "überraschen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "jemanden (Akk) mit einem Geschenk (Dat) überraschen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich überrasche meine beste Freundin heute mit einem selbst gebackenen Kuchen.",
+      "translation": {
+        "ru": "Я удивляю свою лучшую подругу сегодня собственноручно испеченным пирогом.",
+        "en": "I am surprising my best friend today with a home-baked cake."
+      },
+      "bracket_parts": [
+        "überrasche"
+      ],
+      "akkusativ_parts": [
+        "meine beste Freundin"
+      ],
+      "dativ_parts": [
+        "mit einem selbst gebackenen Kuchen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Überraschst du deine Eltern am Wochenende mit einem spontanen Besuch?",
+      "translation": {
+        "ru": "Ты удивишь родителей на выходных спонтанным визитом?",
+        "en": "Are you surprising your parents at the weekend with a spontaneous visit?"
+      },
+      "bracket_parts": [
+        "Überraschst"
+      ],
+      "akkusativ_parts": [
+        "deine Eltern"
+      ],
+      "dativ_parts": [
+        "mit einem spontanen Besuch"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der plötzliche Wintereinbruch im April überrascht viele Autofahrer jedes Jahr.",
+      "translation": {
+        "ru": "Внезапный приход зимы в апреле застает врасплох многих автомобилистов каждый год.",
+        "en": "The sudden onset of winter in April surprises many motorists every year."
+      },
+      "bracket_parts": [
+        "überrascht"
+      ],
+      "akkusativ_parts": [
+        "viele Autofahrer"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir überraschen unseren geschätzten Kollegen zum Jubiläum mit einer großen Feier.",
+      "translation": {
+        "ru": "Мы устраиваем нашему уважаемому коллеге сюрприз к юбилею с большим праздником.",
+        "en": "We surprise our esteemed colleague on his anniversary with a big celebration."
+      },
+      "bracket_parts": [
+        "überraschen"
+      ],
+      "akkusativ_parts": [
+        "unseren geschätzten Kollegen"
+      ],
+      "dativ_parts": [
+        "mit einer großen Feier"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Überrascht ihr die Kinder zu Ostern mit einer spannenden Schatzsuche im Garten?",
+      "translation": {
+        "ru": "Вы удивите детей на Пасху захватывающим поиском сокровищ в саду?",
+        "en": "Are you surprising the children at Easter with an exciting treasure hunt in the garden?"
+      },
+      "bracket_parts": [
+        "Überrascht"
+      ],
+      "akkusativ_parts": [
+        "die Kinder"
+      ],
+      "dativ_parts": [
+        "mit einer spannenden Schatzsuche"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern überraschte das schlechte Wetter die Wanderer mitten auf dem Berg.",
+      "translation": {
+        "ru": "Вчера плохая погода застала туристов врасплох прямо на горе.",
+        "en": "Yesterday the bad weather surprised the hikers in the middle of the mountain."
+      },
+      "bracket_parts": [
+        "überraschte"
+      ],
+      "akkusativ_parts": [
+        "die Wanderer"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die unerwartete Nachricht hat die gesamte Belegschaft der Firma sehr überrascht.",
+      "translation": {
+        "ru": "Неожиданная новость очень удивила весь коллектив компании.",
+        "en": "The unexpected news greatly surprised the entire staff of the company."
+      },
+      "bracket_parts": [
+        "hat",
+        "überrascht"
+      ],
+      "akkusativ_parts": [
+        "die gesamte Belegschaft"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Überraschen Sie Ihre Lieben doch mal mit einem netten Frühstück im Bett!",
+      "translation": {
+        "ru": "Удивите своих близких приятным завтраком в постель!",
+        "en": "Surprise your loved ones with a nice breakfast in bed!"
+      },
+      "bracket_parts": [
+        "Überraschen"
+      ],
+      "akkusativ_parts": [
+        "Ihre Lieben"
+      ],
+      "dativ_parts": [
+        "mit einem netten Frühstück"
+      ]
+    }
+  ]
+}

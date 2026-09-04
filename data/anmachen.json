@@ -1,0 +1,185 @@
+{
+  "id": "anmachen",
+  "infinitive": "anmachen",
+  "translation": {
+    "ru": "включать (свет, прибор, музыку)",
+    "en": "to turn on, to switch on"
+  },
+  "level": "A2",
+  "frequency_rank": 250,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "anmachen",
+    "present_3sg": "macht an",
+    "praeteritum_3sg": "machte an",
+    "partizip_2": "angemacht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "mache an",
+      "du": "machst an",
+      "er_sie_es": "macht an",
+      "wir": "machen an",
+      "ihr": "macht an",
+      "sie_Sie": "machen an",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "machte an",
+      "du": "machtest an",
+      "er_sie_es": "machte an",
+      "wir": "machten an",
+      "ihr": "machtet an",
+      "sie_Sie": "machten an"
+    },
+    "imperative": {
+      "du": "mach an!",
+      "ihr": "macht an!",
+      "Sie": "machen Sie an!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das Licht / die Musik (Akk) anmachen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich mache morgens nach dem Aufstehen als Erstes die Kaffeemaschine an.",
+      "translation": {
+        "ru": "Утром после подъема я первым делом включаю кофемашину.",
+        "en": "First thing after getting up in the morning I turn on the coffee machine."
+      },
+      "bracket_parts": [
+        "mache",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Kaffeemaschine"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Machst du bitte das Licht im Flur an, weil es hier so dunkel ist?",
+      "translation": {
+        "ru": "Включишь, пожалуйста, свет в прихожей, потому что здесь так темно?",
+        "en": "Will you please turn on the light in the hallway because it is so dark here?"
+      },
+      "bracket_parts": [
+        "Machst",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das Licht"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Fahrer macht bei Regen sofort die Scheibenwischer am Auto an.",
+      "translation": {
+        "ru": "Водитель во время дождя сразу включает стеклоочистители на автомобиле.",
+        "en": "The driver immediately turns on the windscreen wipers on the car in the rain."
+      },
+      "bracket_parts": [
+        "macht",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Scheibenwischer"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir machen am Abend gemütliche Musik an, während wir gemeinsam kochen.",
+      "translation": {
+        "ru": "Вечером мы включаем уютную музыку, пока готовим вместе.",
+        "en": "In the evening we turn on cozy music while we cook together."
+      },
+      "bracket_parts": [
+        "machen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "gemütliche Musik"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Macht ihr bei dieser Kälte im Zimmer nicht endlich die Heizung an?",
+      "translation": {
+        "ru": "Вы не включите наконец отопление при таком холоде в комнате?",
+        "en": "Aren't you finally turning on the heating with this cold in the room?"
+      },
+      "bracket_parts": [
+        "Macht",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Heizung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern machte sie am späten Abend noch den Fernseher für die Nachrichten an.",
+      "translation": {
+        "ru": "Вчера поздним вечером она еще включила телевизор ради новостей.",
+        "en": "Yesterday late in the evening she turned on the television for the news."
+      },
+      "bracket_parts": [
+        "machte",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den Fernseher"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die schöne Gartenbeleuchtung für das Sommerfest angemacht.",
+      "translation": {
+        "ru": "Они включили красивое освещение сада для летнего праздника.",
+        "en": "They turned on the pretty garden lighting for the summer festival."
+      },
+      "bracket_parts": [
+        "haben",
+        "angemacht"
+      ],
+      "akkusativ_parts": [
+        "die schöne Gartenbeleuchtung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Mach bitte das Radio an, die Nachrichten beginnen gleich!",
+      "translation": {
+        "ru": "Включи, пожалуйста, радио, новости скоро начинаются!",
+        "en": "Please turn on the radio, the news is starting shortly!"
+      },
+      "bracket_parts": [
+        "Mach",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das Radio"
+      ]
+    }
+  ]
+}

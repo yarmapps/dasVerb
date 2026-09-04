@@ -1,0 +1,175 @@
+{
+  "id": "vermuten",
+  "infinitive": "vermuten",
+  "translation": {
+    "ru": "предполагать, подозревать",
+    "en": "to suppose, to suspect"
+  },
+  "level": "B1",
+  "frequency_rank": 170,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vermuten",
+    "present_3sg": "vermutet",
+    "praeteritum_3sg": "vermutete",
+    "partizip_2": "vermutet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vermute",
+      "du": "vermutest",
+      "er_sie_es": "vermutet",
+      "wir": "vermuten",
+      "ihr": "vermutet",
+      "sie_Sie": "vermuten",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "vermutete",
+      "du": "vermutetest",
+      "er_sie_es": "vermutete",
+      "wir": "vermuteten",
+      "ihr": "vermutetet",
+      "sie_Sie": "vermuteten"
+    },
+    "imperative": {
+      "du": "vermute!",
+      "ihr": "vermutet!",
+      "Sie": "vermuten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Ursache / einen technischen Fehler (Akk) vermuten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich vermute als Ursache des Ausfalls einen Defekt an der Stromleitung.",
+      "translation": {
+        "ru": "Я предполагаю в качестве причины сбоя дефект в линии электропередачи.",
+        "en": "I suspect a defect in the power line as the cause of the failure."
+      },
+      "bracket_parts": [
+        "vermute"
+      ],
+      "akkusativ_parts": [
+        "einen Defekt"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Vermutest du hinter dieser plötzlichen Absage eine persönliche Ausrede?",
+      "translation": {
+        "ru": "Ты подозреваешь за этим внезапным отказом личную отговорку?",
+        "en": "Do you suspect a personal excuse behind this sudden cancellation?"
+      },
+      "bracket_parts": [
+        "Vermutest"
+      ],
+      "akkusativ_parts": [
+        "eine persönliche Ausrede"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der erfahrene Mechaniker vermutet das Problem direkt im Getriebe des Wagens.",
+      "translation": {
+        "ru": "Опытный механик предполагает проблему прямо в коробке передач автомобиля.",
+        "en": "The experienced mechanic suspects the problem directly in the car's transmission."
+      },
+      "bracket_parts": [
+        "vermutet"
+      ],
+      "akkusativ_parts": [
+        "das Problem"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir vermuten, dass die Nachfrage nach diesem Produkt im Herbst stark ansteigen wird.",
+      "translation": {
+        "ru": "Мы предполагаем, что спрос на этот продукт осенью сильно вырастет.",
+        "en": "We suspect that demand for this product will rise sharply in autumn."
+      },
+      "bracket_parts": [
+        "vermuten"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Vermutet ihr bei dieser merkwürdigen Preisänderung einen Rechenfehler?",
+      "translation": {
+        "ru": "Вы подозреваете ошибку в расчетах при этом странном изменении цены?",
+        "en": "Do you suspect a calculation error in this strange price change?"
+      },
+      "bracket_parts": [
+        "Vermutet"
+      ],
+      "akkusativ_parts": [
+        "einen Rechenfehler"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern vermutete die Polizei die Täter bereits in einem anderen Bundesland.",
+      "translation": {
+        "ru": "Вчера полиция предполагала, что преступники уже в другой федеральной земле.",
+        "en": "Yesterday the police suspected the perpetrators were already in another federal state."
+      },
+      "bracket_parts": [
+        "vermutete"
+      ],
+      "akkusativ_parts": [
+        "die Täter"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Wissenschaftler haben einen Zusammenhang zwischen den beiden Phänomenen vermutet.",
+      "translation": {
+        "ru": "Ученые предположили взаимосвязь между обоими явлениями.",
+        "en": "Scientists have suspected a connection between the two phenomena."
+      },
+      "bracket_parts": [
+        "haben",
+        "vermutet"
+      ],
+      "akkusativ_parts": [
+        "einen Zusammenhang"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Vermuten Sie bitte nicht vorschnell böse Absichten bei Ihren Kollegen!",
+      "translation": {
+        "ru": "Не подозревайте, пожалуйста, поспешно злых намерений у своих коллег!",
+        "en": "Please do not hastily suspect bad intentions in your colleagues!"
+      },
+      "bracket_parts": [
+        "Vermuten"
+      ],
+      "akkusativ_parts": [
+        "böse Absichten"
+      ]
+    }
+  ]
+}

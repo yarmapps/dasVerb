@@ -1,0 +1,161 @@
+{
+  "id": "aussehen",
+  "infinitive": "aussehen",
+  "translation": {
+    "ru": "выглядеть",
+    "en": "to look, to appear"
+  },
+  "level": "A2",
+  "frequency_rank": 77,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aussehen",
+    "present_3sg": "sieht aus",
+    "praeteritum_3sg": "sah aus",
+    "partizip_2": "ausgesehen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "sehe aus",
+      "du": "siehst aus",
+      "er_sie_es": "sieht aus",
+      "wir": "sehen aus",
+      "ihr": "seht aus",
+      "sie_Sie": "sehen aus",
+      "root_vowel_change": "e -> ie"
+    },
+    "praeteritum": {
+      "ich": "sah aus",
+      "du": "sahst aus",
+      "er_sie_es": "sah aus",
+      "wir": "sahen aus",
+      "ihr": "saht aus",
+      "sie_Sie": "sahen aus"
+    },
+    "imperative": {
+      "du": "sieh aus!",
+      "ihr": "seht aus!",
+      "Sie": "sehen Sie aus!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "müde / gut aussehen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich sehe heute nach der langen Reise ziemlich müde aus.",
+      "translation": {
+        "ru": "Я выгляжу сегодня после долгой поездки довольно уставшим.",
+        "en": "I look quite tired today after the long journey."
+      },
+      "bracket_parts": [
+        "sehe",
+        "aus"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Siehst du in diesem neuen blauen Anzug nicht fantastisch aus?",
+      "translation": {
+        "ru": "Разве ты не выглядишь фантастически в этом новом синем костюме?",
+        "en": "Don't you look fantastic in this new blue suit?"
+      },
+      "bracket_parts": [
+        "Siehst",
+        "aus"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der dunkle Himmel sieht heute sehr nach einem Unwetter aus.",
+      "translation": {
+        "ru": "Темное небо сегодня очень похоже на приближение грозы.",
+        "en": "The dark sky looks very much like a storm today."
+      },
+      "bracket_parts": [
+        "sieht",
+        "aus"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir sehen auf diesem alten Urlaubsfoto alle sehr glücklich aus.",
+      "translation": {
+        "ru": "Мы на этой старой фотографии из отпуска выглядим все очень счастливыми.",
+        "en": "We all look very happy in this old holiday photo."
+      },
+      "bracket_parts": [
+        "sehen",
+        "aus"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Seht ihr nach dem anstrengenden Fußballtraining nicht ziemlich erschöpft aus?",
+      "translation": {
+        "ru": "Разве вы не выглядите довольно изнуренными после тяжелой футбольной тренировки?",
+        "en": "Don't you look quite exhausted after the strenuous football training?"
+      },
+      "bracket_parts": [
+        "Seht",
+        "aus"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern sah sie in ihrem festlichen Kleid einfach zauberhaft aus.",
+      "translation": {
+        "ru": "Вчера она в своем праздничном платье выглядела просто очаровательно.",
+        "en": "Yesterday she looked simply enchanting in her festive dress."
+      },
+      "bracket_parts": [
+        "sah",
+        "aus"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die alten Häuser haben nach der Renovierung wie neu ausgesehen.",
+      "translation": {
+        "ru": "Старые дома после ремонта выглядели как новенькие.",
+        "en": "The old houses looked like new after the renovation."
+      },
+      "bracket_parts": [
+        "haben",
+        "ausgesehen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Sehen Sie vor dem Kundentermin bitte stets gepflegt aus!",
+      "translation": {
+        "ru": "Перед встречей с клиентом выглядите, пожалуйста, всегда опрятно!",
+        "en": "Please always look neat before the appointment with the client!"
+      },
+      "bracket_parts": [
+        "Sehen",
+        "aus"
+      ]
+    }
+  ]
+}

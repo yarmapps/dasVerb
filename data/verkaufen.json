@@ -1,0 +1,184 @@
+{
+  "id": "verkaufen",
+  "infinitive": "verkaufen",
+  "translation": {
+    "ru": "продавать",
+    "en": "to sell"
+  },
+  "level": "A2",
+  "frequency_rank": 145,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verkaufen",
+    "present_3sg": "verkauft",
+    "praeteritum_3sg": "verkaufte",
+    "partizip_2": "verkauft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verkaufe",
+      "du": "verkaufst",
+      "er_sie_es": "verkauft",
+      "wir": "verkaufen",
+      "ihr": "verkauft",
+      "sie_Sie": "verkaufen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "verkaufte",
+      "du": "verkauftest",
+      "er_sie_es": "verkaufte",
+      "wir": "verkauften",
+      "ihr": "verkauftet",
+      "sie_Sie": "verkauften"
+    },
+    "imperative": {
+      "du": "verkauf!",
+      "ihr": "verkauft!",
+      "Sie": "verkaufen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ + Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemandem (Dat) das alte Auto (Akk) verkaufen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verkaufe meinem Nachbarn mein altes Fahrrad zu einem fairen Preis.",
+      "translation": {
+        "ru": "Я продаю своему соседу свой старый велосипед по справедливой цене.",
+        "en": "I am selling my old bicycle to my neighbour at a fair price."
+      },
+      "bracket_parts": [
+        "verkaufe"
+      ],
+      "dativ_parts": [
+        "meinem Nachbarn"
+      ],
+      "akkusativ_parts": [
+        "mein altes Fahrrad"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verkaufst du deine gebrauchten Lehrbücher auf dem Flohmarkt?",
+      "translation": {
+        "ru": "Ты продаешь свои подержанные учебники на блошином рынке?",
+        "en": "Are you selling your used textbooks at the flea market?"
+      },
+      "bracket_parts": [
+        "Verkaufst"
+      ],
+      "akkusativ_parts": [
+        "deine gebrauchten Lehrbücher"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Bauer verkauft den Kunden täglich frisches Obst und Gemüse aus eigenem Anbau.",
+      "translation": {
+        "ru": "Фермер ежедневно продает покупателям свежие фрукты и овощи собственного урожая.",
+        "en": "The farmer sells fresh home-grown fruit and vegetables to customers daily."
+      },
+      "bracket_parts": [
+        "verkauft"
+      ],
+      "dativ_parts": [
+        "den Kunden"
+      ],
+      "akkusativ_parts": [
+        "frisches Obst und Gemüse"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verkaufen unsere Produkte mittlerweile weltweit über das Internet.",
+      "translation": {
+        "ru": "Мы теперь продаем наши товары по всему миру через интернет.",
+        "en": "We now sell our products worldwide via the internet."
+      },
+      "bracket_parts": [
+        "verkaufen"
+      ],
+      "akkusativ_parts": [
+        "unsere Produkte"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verkauft ihr euren alten Kleinwagen noch vor dem Umzug?",
+      "translation": {
+        "ru": "Вы продадите свою старую малолитражку еще до переезда?",
+        "en": "Are you selling your old small car before the move?"
+      },
+      "bracket_parts": [
+        "Verkauft"
+      ],
+      "akkusativ_parts": [
+        "euren alten Kleinwagen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern verkaufte der Händler ein seltenes altes Gemälde an einen Sammler.",
+      "translation": {
+        "ru": "Вчера торговец продал редкую старинную картину коллекционеру.",
+        "en": "Yesterday the dealer sold a rare old painting to a collector."
+      },
+      "bracket_parts": [
+        "verkaufte"
+      ],
+      "akkusativ_parts": [
+        "ein seltenes altes Gemälde"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben ihr schönes Haus am See für einen guten Betrag verkauft.",
+      "translation": {
+        "ru": "Они продали свой красивый дом у озера за хорошую сумму.",
+        "en": "They sold their beautiful house by the lake for a good amount."
+      },
+      "bracket_parts": [
+        "haben",
+        "verkauft"
+      ],
+      "akkusativ_parts": [
+        "ihr schönes Haus"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verkaufen Sie die Tickets bitte nur an registrierte Besucher!",
+      "translation": {
+        "ru": "Продавайте билеты, пожалуйста, только зарегистрированным посетителям!",
+        "en": "Please sell the tickets only to registered visitors!"
+      },
+      "bracket_parts": [
+        "Verkaufen"
+      ],
+      "akkusativ_parts": [
+        "die Tickets"
+      ]
+    }
+  ]
+}

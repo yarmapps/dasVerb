@@ -1,0 +1,185 @@
+{
+  "id": "voraussetzen",
+  "infinitive": "voraussetzen",
+  "translation": {
+    "ru": "предполагать, требовать в качестве условия",
+    "en": "to require, to presuppose, to take for granted"
+  },
+  "level": "B2",
+  "frequency_rank": 350,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "voraus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "voraussetzen",
+    "present_3sg": "setzt voraus",
+    "praeteritum_3sg": "setzte voraus",
+    "partizip_2": "vorausgesetzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "setze voraus",
+      "du": "setzt voraus",
+      "er_sie_es": "setzt voraus",
+      "wir": "setzen voraus",
+      "ihr": "setzt voraus",
+      "sie_Sie": "setzen voraus",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "setzte voraus",
+      "du": "setztest voraus",
+      "er_sie_es": "setzte voraus",
+      "wir": "setzten voraus",
+      "ihr": "setztet voraus",
+      "sie_Sie": "setzten voraus"
+    },
+    "imperative": {
+      "du": "setz voraus!",
+      "ihr": "setzt voraus!",
+      "Sie": "setzen Sie voraus!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "hervorragende Sprachkenntnisse (Akk) zwingend voraussetzen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich setze bei allen Bewerbern für diese Position fließende Deutschkenntnisse in Wort und Schrift voraus.",
+      "translation": {
+        "ru": "Я предполагаю у всех кандидатов на эту должность свободное владение немецким языком устно и письменно.",
+        "en": "I require fluent German skills in speaking and writing from all applicants for this position."
+      },
+      "bracket_parts": [
+        "setze",
+        "voraus"
+      ],
+      "akkusativ_parts": [
+        "fließende Deutschkenntnisse"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Setzt du bei deiner wissenschaftlichen Arbeit fundierte mathematische Grundkenntnisse voraus?",
+      "translation": {
+        "ru": "Предполагаешь ли ты в своей научной работе основательные базовые знания математики?",
+        "en": "Do you presuppose sound basic mathematical knowledge in your scientific work?"
+      },
+      "bracket_parts": [
+        "Setzt",
+        "voraus"
+      ],
+      "akkusativ_parts": [
+        "fundierte mathematische Grundkenntnisse"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die anspruchsvolle Stelle als Projektleiter setzt mehrjährige internationale Berufserfahrung voraus.",
+      "translation": {
+        "ru": "Ответственная должность руководителя проекта требует многолетнего международного опыта работы.",
+        "en": "The demanding position as project manager presupposes several years of international professional experience."
+      },
+      "bracket_parts": [
+        "setzt",
+        "voraus"
+      ],
+      "akkusativ_parts": [
+        "mehrjährige internationale Berufserfahrung"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir setzen gegenseitiges Vertrauen und absolute Ehrlichkeit als feste Basis unserer Zusammenarbeit voraus.",
+      "translation": {
+        "ru": "Мы предполагаем взаимное доверие и абсолютную честность в качестве прочной основы нашего сотрудничества.",
+        "en": "We presuppose mutual trust and absolute honesty as the firm foundation of our cooperation."
+      },
+      "bracket_parts": [
+        "setzen",
+        "voraus"
+      ],
+      "akkusativ_parts": [
+        "gegenseitiges Vertrauen und absolute Ehrlichkeit"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Setzt ihr für die Teilnahme am Fortgeschrittenenkurs das Bestehen des B1-Zertifikats voraus?",
+      "translation": {
+        "ru": "Требуете ли вы для участия в продвинутом курсе наличие сданного сертификата B1?",
+        "en": "Do you require passing the B1 certificate for participation in the advanced course?"
+      },
+      "bracket_parts": [
+        "Setzt",
+        "voraus"
+      ],
+      "akkusativ_parts": [
+        "das Bestehen des B1-Zertifikats"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals setzte die Universität für das Medizinstudium noch das große Latinum zwingend voraus.",
+      "translation": {
+        "ru": "В те времена университет для изучения медицины еще обязательно требовал продвинутую латынь.",
+        "en": "At that time the university still compulsorily required advanced Latin for medical studies."
+      },
+      "bracket_parts": [
+        "setzte",
+        "voraus"
+      ],
+      "akkusativ_parts": [
+        "das große Latinum"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Abschluss des Kaufvertrags hat die vorherige Zustimmung beider Aufsichtsräte vorausgesetzt.",
+      "translation": {
+        "ru": "Заключение договора купли-продажи предполагало предварительное согласие обоих наблюдательных советов.",
+        "en": "The conclusion of the purchase contract presupposed the prior approval of both supervisory boards."
+      },
+      "bracket_parts": [
+        "hat",
+        "vorausgesetzt"
+      ],
+      "akkusativ_parts": [
+        "die vorherige Zustimmung beider Aufsichtsräte"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Setzen Sie das Einverständnis der Kunden bitte niemals stillschweigend voraus!",
+      "translation": {
+        "ru": "Никогда не считайте согласие клиентов, пожалуйста, само собой разумеющимся по умолчанию!",
+        "en": "Please never silently presuppose the consent of customers!"
+      },
+      "bracket_parts": [
+        "Setzen",
+        "voraus"
+      ],
+      "akkusativ_parts": [
+        "das Einverständnis der Kunden"
+      ]
+    }
+  ]
+}

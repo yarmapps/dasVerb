@@ -1,0 +1,178 @@
+{
+  "id": "vertrauen_dat",
+  "infinitive": "vertrauen",
+  "translation": {
+    "ru": "доверять (кому-то)",
+    "en": "to trust (someone)"
+  },
+  "level": "B1",
+  "frequency_rank": 180,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vertrauen",
+    "present_3sg": "vertraut",
+    "praeteritum_3sg": "vertraute",
+    "partizip_2": "vertraut"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vertraue",
+      "du": "vertraust",
+      "er_sie_es": "vertraut",
+      "wir": "vertrauen",
+      "ihr": "vertraut",
+      "sie_Sie": "vertrauen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "vertraute",
+      "du": "vertrautest",
+      "er_sie_es": "vertraute",
+      "wir": "vertrauten",
+      "ihr": "vertrautet",
+      "sie_Sie": "vertrauten"
+    },
+    "imperative": {
+      "du": "vertraue!",
+      "ihr": "vertraut!",
+      "Sie": "vertrauen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemandem (Dat) voll und ganz vertrauen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich vertraue meinem besten Freund seit vielen Jahren blind.",
+      "translation": {
+        "ru": "Я уже много лет слепо доверяю своему лучшему другу.",
+        "en": "I have trusted my best friend blindly for many years."
+      },
+      "bracket_parts": [
+        "vertraue"
+      ],
+      "dativ_parts": [
+        "meinem besten Freund"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Vertraust du den Versprechungen der Politiker vor den Wahlen?",
+      "translation": {
+        "ru": "Ты доверяешь обещаниям политиков перед выборами?",
+        "en": "Do you trust the promises of politicians before elections?"
+      },
+      "bracket_parts": [
+        "Vertraust"
+      ],
+      "dativ_parts": [
+        "den Versprechungen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Chef vertraut seiner fähigen Assistentin in allen vertraulichen Angelegenheiten.",
+      "translation": {
+        "ru": "Начальник доверяет своей способной ассистентке во всех конфиденциальных вопросах.",
+        "en": "The boss trusts his capable assistant in all confidential matters."
+      },
+      "bracket_parts": [
+        "vertraut"
+      ],
+      "dativ_parts": [
+        "seiner fähigen Assistentin"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir vertrauen bei technischen Problemen stets der Erfahrung unserer Ingenieure.",
+      "translation": {
+        "ru": "При технических проблемах мы всегда доверяем опыту наших инженеров.",
+        "en": "In case of technical problems, we always trust the experience of our engineers."
+      },
+      "bracket_parts": [
+        "vertrauen"
+      ],
+      "dativ_parts": [
+        "der Erfahrung unserer Ingenieure"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Vertraut ihr den neuen Nachbarn nach diesem seltsamen Vorfall noch?",
+      "translation": {
+        "ru": "Вы еще доверяете новым соседям после этого странного инцидента?",
+        "en": "Do you still trust the new neighbours after this strange incident?"
+      },
+      "bracket_parts": [
+        "Vertraut"
+      ],
+      "dativ_parts": [
+        "den neuen Nachbarn"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals vertraute sie leider der falschen Person und verlor viel Geld.",
+      "translation": {
+        "ru": "В то время она, к сожалению, доверилась не тому человеку и потеряла много денег.",
+        "en": "At that time she unfortunately trusted the wrong person and lost a lot of money."
+      },
+      "bracket_parts": [
+        "vertraute"
+      ],
+      "dativ_parts": [
+        "der falschen Person"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Wähler haben dem erfahrenen Bürgermeister viele Jahre lang voll vertraut.",
+      "translation": {
+        "ru": "Избиратели много лет полностью доверяли опытному мэру.",
+        "en": "The voters fully trusted the experienced mayor for many years."
+      },
+      "bracket_parts": [
+        "haben",
+        "vertraut"
+      ],
+      "dativ_parts": [
+        "dem erfahrenen Bürgermeister"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Vertrauen Sie in schwierigen Zeiten Ihren eigenen Stärken!",
+      "translation": {
+        "ru": "В трудные времена доверяйте своим собственным силам!",
+        "en": "Trust your own strengths in difficult times!"
+      },
+      "bracket_parts": [
+        "Vertrauen"
+      ],
+      "dativ_parts": [
+        "Ihren eigenen Stärken"
+      ]
+    }
+  ]
+}

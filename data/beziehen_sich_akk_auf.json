@@ -1,0 +1,186 @@
+{
+  "id": "beziehen_sich_akk_auf",
+  "infinitive": "sich beziehen",
+  "translation": {
+    "ru": "ссылаться (на что-то), относиться (к чему-то)",
+    "en": "to refer to, to relate to"
+  },
+  "level": "B2",
+  "frequency_rank": 176,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich beziehen",
+    "present_3sg": "bezieht sich",
+    "praeteritum_3sg": "bezog sich",
+    "partizip_2": "bezogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beziehe mich",
+      "du": "beziehst dich",
+      "er_sie_es": "bezieht sich",
+      "wir": "beziehen uns",
+      "ihr": "bezieht euch",
+      "sie_Sie": "beziehen sich",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "bezog mich",
+      "du": "bezogst dich",
+      "er_sie_es": "bezog sich",
+      "wir": "bezogen uns",
+      "ihr": "bezogt euch",
+      "sie_Sie": "bezogen sich"
+    },
+    "imperative": {
+      "du": "bezieh dich!",
+      "ihr": "bezieht euch!",
+      "Sie": "beziehen Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich auf ein offizielles Dokument (Akk) beziehen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich beziehe mich in meinem Schreiben ausdrücklich auf unser gestriges Telefonat.",
+      "translation": {
+        "ru": "В своем письме я прямо ссылаюсь на наш вчерашний телефонный разговор.",
+        "en": "In my letter I refer explicitly to our telephone conversation yesterday."
+      },
+      "bracket_parts": [
+        "beziehe"
+      ],
+      "akkusativ_parts": [
+        "mich",
+        "auf unser gestriges Telefonat"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Beziehst du dich bei deinen Argumenten auf wissenschaftlich gesicherte Quellen?",
+      "translation": {
+        "ru": "Ссылаешься ли ты в своих аргументах на научно проверенные источники?",
+        "en": "Are you referring to scientifically proven sources in your arguments?"
+      },
+      "bracket_parts": [
+        "Beziehst"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "auf wissenschaftlich gesicherte Quellen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Artikel bezieht sich auf eine aktuelle statistische Erhebung des Bundesamtes.",
+      "translation": {
+        "ru": "Статья ссылается на актуальный статистический опрос федерального ведомства.",
+        "en": "The article refers to a current statistical survey by the federal office."
+      },
+      "bracket_parts": [
+        "bezieht"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "auf eine aktuelle statistische Erhebung"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beziehen uns bei unseren vertraglichen Forderungen auf geltendes europäisches Recht.",
+      "translation": {
+        "ru": "В наших договорных требованиях мы опираемся на действующее европейское право.",
+        "en": "In our contractual demands we refer to applicable European law."
+      },
+      "bracket_parts": [
+        "beziehen"
+      ],
+      "akkusativ_parts": [
+        "uns",
+        "auf geltendes europäisches Recht"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bezieht ihr euch bei eurer Kritik auf konkrete Vorfälle oder nur auf Hörensagen?",
+      "translation": {
+        "ru": "Ссылаетесь ли вы в своей критике на конкретные инциденты или только на слухи?",
+        "en": "Are you referring to concrete incidents in your criticism or just to hearsay?"
+      },
+      "bracket_parts": [
+        "Bezieht"
+      ],
+      "akkusativ_parts": [
+        "euch",
+        "auf konkrete Vorfälle"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern bezog sich der Anwalt vor Gericht auf ein wichtiges Präzedenzurteil.",
+      "translation": {
+        "ru": "Вчера адвокат в суде сослался на важный прецедентный приговор.",
+        "en": "Yesterday the lawyer referred in court to an important precedent ruling."
+      },
+      "bracket_parts": [
+        "bezog"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "auf ein wichtiges Präzedenzurteil"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Ministerin hat sich in ihrer Rede auf die neuesten Wirtschaftsdaten bezogen.",
+      "translation": {
+        "ru": "Министр в своей речи сослалась на новейшие экономические данные.",
+        "en": "The minister referred in her speech to the latest economic data."
+      },
+      "bracket_parts": [
+        "hat",
+        "bezogen"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "auf die neuesten Wirtschaftsdaten"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Beziehen Sie sich bitte immer auf die korrekte Rechnungsnummer!",
+      "translation": {
+        "ru": "Ссылайтесь, пожалуйста, всегда на правильный номер счета!",
+        "en": "Please always refer to the correct invoice number!"
+      },
+      "bracket_parts": [
+        "Beziehen"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "auf die korrekte Rechnungsnummer"
+      ]
+    }
+  ]
+}

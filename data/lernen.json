@@ -2,11 +2,11 @@
   "id": "lernen",
   "infinitive": "lernen",
   "translation": {
-    "ru": "учить, изучать",
+    "ru": "учить, учиться",
     "en": "to learn, to study"
   },
   "level": "A1",
-  "frequency_rank": 43,
+  "frequency_rank": 135,
   "auxiliary": "haben",
   "morphology": {
     "verb_class": "weak",
@@ -31,6 +31,14 @@
       "sie_Sie": "lernen",
       "root_vowel_change": null
     },
+    "praeteritum": {
+      "ich": "lernte",
+      "du": "lerntest",
+      "er_sie_es": "lernte",
+      "wir": "lernten",
+      "ihr": "lerntet",
+      "sie_Sie": "lernten"
+    },
     "imperative": {
       "du": "lern!",
       "ihr": "lernt!",
@@ -43,15 +51,15 @@
     "preposition": null,
     "preposition_case": null
   },
-  "chunk": "Deutsch / Wörter lernen",
+  "chunk": "Deutsch / neue Wörter (Akk) lernen",
   "sentences": [
     {
       "id": "s1",
       "tense": "Präsens",
-      "german": "Ich lerne jeden Tag neue deutsche Wörter",
+      "german": "Ich lerne jeden Tag neue deutsche Wörter.",
       "translation": {
-        "ru": "Каждый день я учу новые немецкие слова",
-        "en": "I learn new German words every day"
+        "ru": "Я каждый день учу новые немецкие слова.",
+        "en": "I learn new German words every day."
       },
       "bracket_parts": [
         "lerne"
@@ -63,10 +71,10 @@
     {
       "id": "s2",
       "tense": "Präsens",
-      "german": "Lernst du heute für die Prüfung?",
+      "german": "Lernst du heute für den schwierigen Test?",
       "translation": {
-        "ru": "Ты учишься сегодня к экзамену?",
-        "en": "Are you studying for the exam today?"
+        "ru": "Ты учишься сегодня к трудному тесту?",
+        "en": "Are you studying for the difficult test today?"
       },
       "bracket_parts": [
         "Lernst"
@@ -75,25 +83,25 @@
     {
       "id": "s3",
       "tense": "Präsens",
-      "german": "Er lernt sehr fleißig Grammatik",
+      "german": "Er lernt an der Universität moderne Sprachen.",
       "translation": {
-        "ru": "Он очень прилежно учит грамматику",
-        "en": "He studies grammar very diligently"
+        "ru": "Он учит современные языки в университете.",
+        "en": "He learns modern languages at the university."
       },
       "bracket_parts": [
         "lernt"
       ],
       "akkusativ_parts": [
-        "Grammatik"
+        "moderne Sprachen"
       ]
     },
     {
       "id": "s4",
       "tense": "Präsens",
-      "german": "Wir lernen zusammen in der Bibliothek",
+      "german": "Wir lernen gemeinsam in der gemütlichen Bibliothek.",
       "translation": {
-        "ru": "Мы занимаемся вместе в библиотеке",
-        "en": "We study together in the library"
+        "ru": "Мы занимаемся вместе в уютной библиотеке.",
+        "en": "We study together in the cozy library."
       },
       "bracket_parts": [
         "lernen"
@@ -102,25 +110,25 @@
     {
       "id": "s5",
       "tense": "Präsens",
-      "german": "Lernt ihr in der Schule Fremdsprachen?",
+      "german": "Lernt ihr die Grammatik mit einer App?",
       "translation": {
-        "ru": "Вы учите в школе иностранные языки?",
-        "en": "Do you learn foreign languages at school?"
+        "ru": "Вы учите грамматику с помощью приложения?",
+        "en": "Are you learning the grammar with an app?"
       },
       "bracket_parts": [
         "Lernt"
       ],
       "akkusativ_parts": [
-        "Fremdsprachen"
+        "die Grammatik"
       ]
     },
     {
       "id": "s6",
       "tense": "Präteritum",
-      "german": "Gestern lernte sie den ganzen Tag für den Test",
+      "german": "Gestern lernte sie fleißig den ganzen Nachmittag.",
       "translation": {
-        "ru": "Вчера она весь день училась к тесту",
-        "en": "Yesterday she studied all day for the test"
+        "ru": "Вчера она прилежно училась всю вторую половину дня.",
+        "en": "Yesterday she studied diligently all afternoon."
       },
       "bracket_parts": [
         "lernte"
@@ -129,10 +137,10 @@
     {
       "id": "s7",
       "tense": "Perfekt",
-      "german": "Sie haben viel für die Prüfung gelernt",
+      "german": "Sie haben fleißig für die schwere Prüfung gelernt.",
       "translation": {
-        "ru": "Они много учили к экзамену",
-        "en": "They studied hard for the exam"
+        "ru": "Они усердно готовились к трудному экзамену.",
+        "en": "They studied hard for the difficult exam."
       },
       "bracket_parts": [
         "haben",
@@ -142,16 +150,16 @@
     {
       "id": "s8",
       "tense": "Imperativ",
-      "german": "Lern bitte die unregelmäßigen Verben!",
+      "german": "Lern bitte regelmäßig die neuen Verben!",
       "translation": {
-        "ru": "Выучи, пожалуйста, неправильные глаголы!",
-        "en": "Please learn the irregular verbs!"
+        "ru": "Учи, пожалуйста, регулярно новые глаголы!",
+        "en": "Please study the new verbs regularly!"
       },
       "bracket_parts": [
         "Lern"
       ],
       "akkusativ_parts": [
-        "die unregelmäßigen Verben"
+        "die neuen Verben"
       ]
     }
   ]

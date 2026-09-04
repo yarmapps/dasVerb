@@ -1,0 +1,166 @@
+{
+  "id": "schlafen",
+  "infinitive": "schlafen",
+  "translation": {
+    "ru": "спать",
+    "en": "to sleep"
+  },
+  "level": "A1",
+  "frequency_rank": 124,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "schlafen",
+    "present_3sg": "schläft",
+    "praeteritum_3sg": "schlief",
+    "partizip_2": "geschlafen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schlafe",
+      "du": "schläfst",
+      "er_sie_es": "schläft",
+      "wir": "schlafen",
+      "ihr": "schlaft",
+      "sie_Sie": "schlafen",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "schlief",
+      "du": "schliefst",
+      "er_sie_es": "schlief",
+      "wir": "schliefen",
+      "ihr": "schlieft",
+      "sie_Sie": "schliefen"
+    },
+    "imperative": {
+      "du": "schlaf!",
+      "ihr": "schlaft!",
+      "Sie": "schlafen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "in",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "im Bett (Dat) / tief schlafen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich schlafe am Wochenende gerne sehr lange.",
+      "translation": {
+        "ru": "Я с удовольствием сплю на выходных очень долго.",
+        "en": "I like to sleep very late at the weekend."
+      },
+      "bracket_parts": [
+        "schlafe"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Schläfst du gut in diesem neuen Bett?",
+      "translation": {
+        "ru": "Ты хорошо спишь в этой новой кровати?",
+        "en": "Do you sleep well in this new bed?"
+      },
+      "bracket_parts": [
+        "Schläfst"
+      ],
+      "dativ_parts": [
+        "in diesem neuen Bett"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das kleine Baby schläft ruhig in seinem Zimmer.",
+      "translation": {
+        "ru": "Маленький ребенок спокойно спит в своей комнате.",
+        "en": "The little baby sleeps quietly in its room."
+      },
+      "bracket_parts": [
+        "schläft"
+      ],
+      "dativ_parts": [
+        "in seinem Zimmer"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir schlafen im Urlaub immer in einem Zelt.",
+      "translation": {
+        "ru": "В отпуске мы всегда спим в палатке.",
+        "en": "On holiday we always sleep in a tent."
+      },
+      "bracket_parts": [
+        "schlafen"
+      ],
+      "dativ_parts": [
+        "in einem Zelt"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Schlaft ihr heute Nacht im Hotel?",
+      "translation": {
+        "ru": "Вы ночуете сегодня в отеле?",
+        "en": "Are you sleeping in the hotel tonight?"
+      },
+      "bracket_parts": [
+        "Schlaft"
+      ],
+      "dativ_parts": [
+        "im Hotel"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern schlief sie nach der langen Reise sofort ein.",
+      "translation": {
+        "ru": "Вчера после долгой поездки она сразу же заснула.",
+        "en": "Yesterday after the long journey she fell asleep immediately."
+      },
+      "bracket_parts": [
+        "schlief"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben zehn Stunden lang tief geschlafen.",
+      "translation": {
+        "ru": "Они крепко проспали десять часов.",
+        "en": "They slept deeply for ten hours."
+      },
+      "bracket_parts": [
+        "haben",
+        "geschlafen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Schlaf gut und träum etwas Schönes!",
+      "translation": {
+        "ru": "Спи спокойно и пусть тебе приснится что-нибудь хорошее!",
+        "en": "Sleep well and dream something sweet!"
+      },
+      "bracket_parts": [
+        "Schlaf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "id": "empfehlen",
+  "infinitive": "empfehlen",
+  "translation": {
+    "ru": "рекомендовать, советовать",
+    "en": "to recommend"
+  },
+  "level": "A2",
+  "frequency_rank": 230,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "emp",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "empfehlen",
+    "present_3sg": "empfiehlt",
+    "praeteritum_3sg": "empfahl",
+    "partizip_2": "empfohlen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "empfehle",
+      "du": "empfiehlst",
+      "er_sie_es": "empfiehlt",
+      "wir": "empfehlen",
+      "ihr": "empfehlt",
+      "sie_Sie": "empfehlen",
+      "root_vowel_change": "e -> ie"
+    },
+    "praeteritum": {
+      "ich": "empfahl",
+      "du": "empfahlst",
+      "er_sie_es": "empfahl",
+      "wir": "empfahlen",
+      "ihr": "empfahlt",
+      "sie_Sie": "empfahlen"
+    },
+    "imperative": {
+      "du": "empfiehl!",
+      "ihr": "empfehlt!",
+      "Sie": "empfehlen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ + Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemandem (Dat) ein gutes Buch (Akk) empfehlen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich empfehle dir diesen hervorragenden Kriminalroman von ganzem Herzen.",
+      "translation": {
+        "ru": "Я от всего сердца рекомендую тебе этот превосходный детективный роман.",
+        "en": "I wholeheartedly recommend this outstanding detective novel to you."
+      },
+      "bracket_parts": [
+        "empfehle"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "diesen hervorragenden Kriminalroman"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Empfiehlst du deinen Gästen das gemütliche Restaurant am Fluss?",
+      "translation": {
+        "ru": "Ты порекомендуешь своим гостям этот уютный ресторан у реки?",
+        "en": "Do you recommend the cozy restaurant by the river to your guests?"
+      },
+      "bracket_parts": [
+        "Empfiehlst"
+      ],
+      "dativ_parts": [
+        "deinen Gästen"
+      ],
+      "akkusativ_parts": [
+        "das gemütliche Restaurant"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der erfahrene Arzt empfiehlt dem Patienten tägliche Bewegung an der frischen Luft.",
+      "translation": {
+        "ru": "Опытный врач рекомендует пациенту ежедневные прогулки на свежем воздухе.",
+        "en": "The experienced doctor recommends daily exercise in the fresh air to the patient."
+      },
+      "bracket_parts": [
+        "empfiehlt"
+      ],
+      "dativ_parts": [
+        "dem Patienten"
+      ],
+      "akkusativ_parts": [
+        "tägliche Bewegung"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir empfehlen unseren Kunden immer die umweltfreundlichere Alternative.",
+      "translation": {
+        "ru": "Мы всегда рекомендуем нашим клиентам более экологичную альтернативу.",
+        "en": "We always recommend the more environmentally friendly alternative to our customers."
+      },
+      "bracket_parts": [
+        "empfehlen"
+      ],
+      "dativ_parts": [
+        "unseren Kunden"
+      ],
+      "akkusativ_parts": [
+        "die umweltfreundlichere Alternative"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Empfehlt ihr den Touristen die historische Stadtführung am Vormittag?",
+      "translation": {
+        "ru": "Вы порекомендуете туристам историческую экскурсию по городу утром?",
+        "en": "Do you recommend the historical city tour in the morning to the tourists?"
+      },
+      "bracket_parts": [
+        "Empfehlt"
+      ],
+      "dativ_parts": [
+        "den Touristen"
+      ],
+      "akkusativ_parts": [
+        "die historische Stadtführung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern empfahl der freundliche Kellner uns die Spezialität des Hauses.",
+      "translation": {
+        "ru": "Вчера приветливый официант посоветовал нам фирменное блюдо заведения.",
+        "en": "Yesterday the friendly waiter recommended the house specialty to us."
+      },
+      "bracket_parts": [
+        "empfahl"
+      ],
+      "dativ_parts": [
+        "uns"
+      ],
+      "akkusativ_parts": [
+        "die Spezialität des Hauses"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben mir für die Reise nach Berlin ein sehr ruhiges Hotel empfohlen.",
+      "translation": {
+        "ru": "Они порекомендовали мне для поездки в Берлин очень тихий отель.",
+        "en": "They recommended a very quiet hotel to me for the trip to Berlin."
+      },
+      "bracket_parts": [
+        "haben",
+        "empfohlen"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "ein sehr ruhiges Hotel"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Empfehlen Sie mir bitte ein gutes deutsches Wörterbuch!",
+      "translation": {
+        "ru": "Посоветуйте мне, пожалуйста, хороший словарь немецкого языка!",
+        "en": "Please recommend a good German dictionary to me!"
+      },
+      "bracket_parts": [
+        "Empfehlen"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "ein gutes deutsches Wörterbuch"
+      ]
+    }
+  ]
+}

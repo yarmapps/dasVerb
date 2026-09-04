@@ -1,0 +1,178 @@
+{
+  "id": "betreffen",
+  "infinitive": "betreffen",
+  "translation": {
+    "ru": "касаться (кого-то/чего-то), затрагивать",
+    "en": "to concern, to affect"
+  },
+  "level": "B1",
+  "frequency_rank": 85,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "betreffen",
+    "present_3sg": "betrifft",
+    "praeteritum_3sg": "betraf",
+    "partizip_2": "betroffen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "betreffe",
+      "du": "betriffst",
+      "er_sie_es": "betrifft",
+      "wir": "betreffen",
+      "ihr": "betrefft",
+      "sie_Sie": "betreffen",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "betraf",
+      "du": "betrafst",
+      "er_sie_es": "betraf",
+      "wir": "betrafen",
+      "ihr": "betraft",
+      "sie_Sie": "betrafen"
+    },
+    "imperative": {
+      "du": "betriff!",
+      "ihr": "betrefft!",
+      "Sie": "betreffen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "alle Mitarbeiter / das ganze Land (Akk) betreffen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich spüre genau, dass diese organisatorische Änderung mich ganz persönlich betrifft.",
+      "translation": {
+        "ru": "Я прекрасно чувствую, что это организационное изменение касается меня вполне лично.",
+        "en": "I sense clearly that this organizational change affects me personally."
+      },
+      "bracket_parts": [
+        "betrifft"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Betrifft diese neue Regelung zur Parkgebühr eigentlich auch dich als Anwohner?",
+      "translation": {
+        "ru": "Касается ли это новое правило платы за парковку на самом деле и тебя как жителя?",
+        "en": "Does this new regulation on parking fees actually affect you as a resident too?"
+      },
+      "bracket_parts": [
+        "Betrifft"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Klimawandel betrifft mittlerweile alle Regionen unseres Planeten unmittelbar.",
+      "translation": {
+        "ru": "Изменение климата теперь непосредственно касается всех регионов нашей планеты.",
+        "en": "Climate change now directly affects all regions of our planet."
+      },
+      "bracket_parts": [
+        "betrifft"
+      ],
+      "akkusativ_parts": [
+        "alle Regionen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir wissen, dass diese Sparmaßnahmen im Haushalt uns alle gleichermaßen betreffen.",
+      "translation": {
+        "ru": "Мы знаем, что эти меры жесткой экономии в бюджете касаются нас всех в равной степени.",
+        "en": "We know that these austerity measures in the budget affect all of us equally."
+      },
+      "bracket_parts": [
+        "betreffen"
+      ],
+      "akkusativ_parts": [
+        "uns alle"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Betrifft die Verspätung des Zuges euch bei eurem wichtigen Anschlussflug?",
+      "translation": {
+        "ru": "Затронет ли вас опоздание поезда на вашем важном пересадочном рейсе?",
+        "en": "Does the train's delay affect you on your important connecting flight?"
+      },
+      "bracket_parts": [
+        "Betrifft"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern betraf die plötzliche Streckensperrung Tausende von Pendlern im Berufsverkehr.",
+      "translation": {
+        "ru": "Вчера внезапное перекрытие маршрута затронуло тысячи пассажиров в часы пик.",
+        "en": "Yesterday the sudden line closure affected thousands of commuters during rush hour."
+      },
+      "bracket_parts": [
+        "betraf"
+      ],
+      "akkusativ_parts": [
+        "Tausende von Pendlern"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die unerwartete Kürzung des Budgets hat mehrere wichtige Forschungsprojekte betroffen.",
+      "translation": {
+        "ru": "Неожиданное сокращение бюджета затронуло несколько важных исследовательских проектов.",
+        "en": "The unexpected budget cut affected several important research projects."
+      },
+      "bracket_parts": [
+        "hat",
+        "betroffen"
+      ],
+      "akkusativ_parts": [
+        "mehrere wichtige Forschungsprojekte"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Was diese Angelegenheit betrifft, fragen Sie bitte die zuständige Abteilungsleiterin!",
+      "translation": {
+        "ru": "Что касается этого дела, спросите, пожалуйста, компетентную начальницу отдела!",
+        "en": "As far as this matter is concerned, please ask the responsible head of department!"
+      },
+      "bracket_parts": [
+        "betrifft"
+      ],
+      "akkusativ_parts": [
+        "diese Angelegenheit"
+      ]
+    }
+  ]
+}

@@ -197,3 +197,59 @@ jest.mock('react-native-google-mobile-ads', () => {
   };
 });
 
+const mockFirebaseAnalyticsInstance = {
+  app: { name: '[DEFAULT]' },
+};
+
+jest.mock('@react-native-firebase/analytics', () => ({
+  getAnalytics: jest.fn(() => mockFirebaseAnalyticsInstance),
+  logEvent: jest.fn().mockResolvedValue(undefined),
+  logScreenView: jest.fn().mockResolvedValue(undefined),
+  setUserId: jest.fn().mockResolvedValue(undefined),
+  setUserProperty: jest.fn().mockResolvedValue(undefined),
+  setUserProperties: jest.fn().mockResolvedValue(undefined),
+  setAnalyticsCollectionEnabled: jest.fn().mockResolvedValue(undefined),
+  resetAnalyticsData: jest.fn().mockResolvedValue(undefined),
+}));
+
+jest.mock('@react-native-firebase/app', () => ({
+  getApp: jest.fn(() => ({ name: '[DEFAULT]' })),
+  initializeApp: jest.fn(() => ({ name: '[DEFAULT]' })),
+}));
+
+jest.mock('react-native-purchases', () => {
+  const mockPurchases = {
+    configure: jest.fn(),
+    setLogLevel: jest.fn(),
+    getOfferings: jest.fn().mockResolvedValue({ current: null, all: {} }),
+    getCustomerInfo: jest.fn().mockResolvedValue({ entitlements: { active: {} } }),
+    purchasePackage: jest.fn(),
+    restorePurchases: jest.fn().mockResolvedValue({ entitlements: { active: {} } }),
+    addCustomerInfoUpdateListener: jest.fn(() => jest.fn()),
+  };
+  return {
+    __esModule: true,
+    default: mockPurchases,
+    LOG_LEVEL: {
+      VERBOSE: 'VERBOSE',
+      DEBUG: 'DEBUG',
+      INFO: 'INFO',
+      WARN: 'WARN',
+      ERROR: 'ERROR',
+    },
+    PACKAGE_TYPE: {
+      UNKNOWN: 'UNKNOWN',
+      CUSTOM: 'CUSTOM',
+      LIFETIME: 'LIFETIME',
+      ANNUAL: 'ANNUAL',
+      SIX_MONTH: 'SIX_MONTH',
+      THREE_MONTH: 'THREE_MONTH',
+      TWO_MONTH: 'TWO_MONTH',
+      MONTHLY: 'MONTHLY',
+      WEEKLY: 'WEEKLY',
+    },
+  };
+});
+
+
+

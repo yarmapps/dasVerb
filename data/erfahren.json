@@ -1,0 +1,172 @@
+{
+  "id": "erfahren",
+  "infinitive": "erfahren",
+  "translation": {
+    "ru": "узнавать (новость), испытывать на опыте",
+    "en": "to experience, to find out"
+  },
+  "level": "B1",
+  "frequency_rank": 138,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erfahren",
+    "present_3sg": "erfährt",
+    "praeteritum_3sg": "erfuhr",
+    "partizip_2": "erfahren"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erfahre",
+      "du": "erfährst",
+      "er_sie_es": "erfährt",
+      "wir": "erfahren",
+      "ihr": "erfahrt",
+      "sie_Sie": "erfahren",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "erfuhr",
+      "du": "erfuhrst",
+      "er_sie_es": "erfuhr",
+      "wir": "erfuhren",
+      "ihr": "erfuhrt",
+      "sie_Sie": "erfuhren"
+    },
+    "imperative": {
+      "du": "erfahr!",
+      "ihr": "erfahrt!",
+      "Sie": "erfahren Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Wahrheit / Neuigkeiten (Akk) erfahren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erfahre erst heute von der geplanten Umstrukturierung unserer Abteilung.",
+      "translation": {
+        "ru": "Я только сегодня узнаю о запланированной реструктуризации нашего отдела.",
+        "en": "I am only finding out today about the planned restructuring of our department."
+      },
+      "bracket_parts": [
+        "erfahre"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erfährst du morgen die offiziellen Prüfungsergebnisse an der Universität?",
+      "translation": {
+        "ru": "Ты узнаешь завтра официальные результаты экзамена в университете?",
+        "en": "Will you find out the official exam results at university tomorrow?"
+      },
+      "bracket_parts": [
+        "Erfährst"
+      ],
+      "akkusativ_parts": [
+        "die offiziellen Prüfungsergebnisse"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die neugierige Journalistin erfährt durch ihre Recherchen brisante Details.",
+      "translation": {
+        "ru": "Любознательная журналистка благодаря своим расследованиям узнает острые подробности.",
+        "en": "The curious journalist learns explosive details through her research."
+      },
+      "bracket_parts": [
+        "erfährt"
+      ],
+      "akkusativ_parts": [
+        "brisante Details"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erfahren in den Abendnachrichten die neuesten Entwicklungen der Krise.",
+      "translation": {
+        "ru": "Мы узнаем в вечерних новостях о последних событиях кризиса.",
+        "en": "We learn the latest developments of the crisis in the evening news."
+      },
+      "bracket_parts": [
+        "erfahren"
+      ],
+      "akkusativ_parts": [
+        "die neuesten Entwicklungen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erfahrt ihr bei der heutigen Teambesprechung den genauen Zeitplan?",
+      "translation": {
+        "ru": "Вы узнаете на сегодняшнем командном совещании точный график?",
+        "en": "Are you finding out the exact schedule at today's team meeting?"
+      },
+      "bracket_parts": [
+        "Erfahrt"
+      ],
+      "akkusativ_parts": [
+        "den genauen Zeitplan"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern erfuhr sie durch einen Anruf die frohe Botschaft von ihrer Beförderung.",
+      "translation": {
+        "ru": "Вчера по телефону она узнала радостную весть о своем повышении.",
+        "en": "Yesterday she learned the joyful news of her promotion through a phone call."
+      },
+      "bracket_parts": [
+        "erfuhr"
+      ],
+      "akkusativ_parts": [
+        "die frohe Botschaft"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die bittere Wahrheit leider erst viel zu spät erfahren.",
+      "translation": {
+        "ru": "Они, к сожалению, узнали горькую правду лишь слишком поздно.",
+        "en": "Unfortunately they only found out the bitter truth much too late."
+      },
+      "bracket_parts": [
+        "haben",
+        "erfahren"
+      ],
+      "akkusativ_parts": [
+        "die bittere Wahrheit"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erfahren Sie mehr über unsere innovativen Angebote auf der Website!",
+      "translation": {
+        "ru": "Узнайте больше о наших инновационных предложениях на сайте!",
+        "en": "Learn more about our innovative offers on the website!"
+      },
+      "bracket_parts": [
+        "Erfahren"
+      ]
+    }
+  ]
+}

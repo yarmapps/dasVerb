@@ -1,0 +1,157 @@
+{
+  "id": "erscheinen",
+  "infinitive": "erscheinen",
+  "translation": {
+    "ru": "появляться, выходить из печати, казаться",
+    "en": "to appear, to be published, to seem"
+  },
+  "level": "B2",
+  "frequency_rank": 78,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erscheinen",
+    "present_3sg": "erscheint",
+    "praeteritum_3sg": "erschien",
+    "partizip_2": "erschienen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erscheine",
+      "du": "erscheinst",
+      "er_sie_es": "erscheint",
+      "wir": "erscheinen",
+      "ihr": "erscheint",
+      "sie_Sie": "erscheinen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "erschien",
+      "du": "erschienst",
+      "er_sie_es": "erschien",
+      "wir": "erschienen",
+      "ihr": "erschient",
+      "sie_Sie": "erschienen"
+    },
+    "imperative": {
+      "du": "erschein!",
+      "ihr": "erscheint!",
+      "Sie": "erscheinen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "pünktlich zum Termin / vor Gericht erscheinen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erscheine zu allen wichtigen Besprechungen stets absolut pünktlich und gut vorbereitet.",
+      "translation": {
+        "ru": "На все важные совещания я всегда являюсь абсолютно вовремя и хорошо подготовленным.",
+        "en": "I always appear at all important meetings absolutely punctually and well prepared."
+      },
+      "bracket_parts": [
+        "erscheine"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erscheinst du morgen als geladener Zeuge vor dem Amtsgericht?",
+      "translation": {
+        "ru": "Явишься ли ты завтра в качестве вызванного свидетеля в участковый суд?",
+        "en": "Are you appearing as a summoned witness before the district court tomorrow?"
+      },
+      "bracket_parts": [
+        "Erscheinst"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das neue Buch des bekannten Autors erscheint nächsten Monat im Handel.",
+      "translation": {
+        "ru": "Новая книга известного автора выходит в продажу в следующем месяце.",
+        "en": "The famous author's new book is being published in shops next month."
+      },
+      "bracket_parts": [
+        "erscheint"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Diese theoretische Erklärung erscheint uns allen in der Praxis vollkommen plausibel.",
+      "translation": {
+        "ru": "Это теоретическое объяснение кажется нам всем на практике совершенно правдоподобным.",
+        "en": "This theoretical explanation seems completely plausible to all of us in practice."
+      },
+      "bracket_parts": [
+        "erscheint"
+      ],
+      "dativ_parts": [
+        "uns allen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erscheint ihr heute Abend alle pünktlich zur feierlichen Eröffnung der Kunstgalerie?",
+      "translation": {
+        "ru": "Вы придете сегодня вечером все вовремя на торжественное открытие художественной галереи?",
+        "en": "Are you all appearing punctually tonight for the ceremonial opening of the art gallery?"
+      },
+      "bracket_parts": [
+        "Erscheint"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern erschien der berühmte Schauspieler überraschend persönlich auf der Bühne.",
+      "translation": {
+        "ru": "Вчера знаменитый актер неожиданно лично появился на сцене.",
+        "en": "Yesterday the famous actor surprisingly appeared in person on stage."
+      },
+      "bracket_parts": [
+        "erschien"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der lang erwartete wissenschaftliche Bericht ist gestern endlich im Internet erschienen.",
+      "translation": {
+        "ru": "Долгожданный научный отчет вчера наконец появился в интернете.",
+        "en": "The long-awaited scientific report finally appeared on the internet yesterday."
+      },
+      "bracket_parts": [
+        "ist",
+        "erschienen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erscheinen Sie bitte rechtzeitig vor dem Beginn der Verhandlung!",
+      "translation": {
+        "ru": "Явитесь, пожалуйста, заблаговременно до начала судебного заседания!",
+        "en": "Please appear in good time before the hearing begins!"
+      },
+      "bracket_parts": [
+        "Erscheinen"
+      ]
+    }
+  ]
+}

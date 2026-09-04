@@ -1,0 +1,185 @@
+{
+  "id": "ausloesen",
+  "infinitive": "auslösen",
+  "translation": {
+    "ru": "вызывать, провоцировать, приводить в действие (сигнализацию)",
+    "en": "to trigger, to set off, to cause"
+  },
+  "level": "B2",
+  "frequency_rank": 340,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "auslösen",
+    "present_3sg": "löst aus",
+    "praeteritum_3sg": "löste aus",
+    "partizip_2": "ausgelöst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "löse aus",
+      "du": "löst aus",
+      "er_sie_es": "löst aus",
+      "wir": "lösen aus",
+      "ihr": "löst aus",
+      "sie_Sie": "lösen aus",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "löste aus",
+      "du": "löstest aus",
+      "er_sie_es": "löste aus",
+      "wir": "lösten aus",
+      "ihr": "löstet aus",
+      "sie_Sie": "lösten aus"
+    },
+    "imperative": {
+      "du": "lös aus!",
+      "ihr": "löst aus!",
+      "Sie": "lösen Sie aus!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine heftige gesellschaftliche Debatte (Akk) auslösen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich löse mit meinen kritischen Fragen in der Teamsitzung eine konstruktive Diskussion aus.",
+      "translation": {
+        "ru": "Своими критическими вопросами на совещании команды я вызываю конструктивную дискуссию.",
+        "en": "With my critical questions in the team meeting I trigger a constructive discussion."
+      },
+      "bracket_parts": [
+        "löse",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "eine konstruktive Diskussion"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Löst du mit deinen unbedachten Bemerkungen in der Familie nicht schon wieder unnötigen Streit aus?",
+      "translation": {
+        "ru": "Разве своими необдуманными замечаниями ты снова не провоцируешь в семье ненужную ссору?",
+        "en": "Aren't you triggering unnecessary arguments in the family again with your thoughtless remarks?"
+      },
+      "bracket_parts": [
+        "Löst",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "unnötigen Streit"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Rauchmelder im Treppenhaus löst bei der kleinsten Rauchentwicklung sofort lauten Alarm aus.",
+      "translation": {
+        "ru": "Датчик дыма на лестничной клетке при малейшем появлении дыма сразу вызывает громкую тревогу.",
+        "en": "The smoke detector in the stairwell immediately triggers a loud alarm at the slightest development of smoke."
+      },
+      "bracket_parts": [
+        "löst",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "lauten Alarm"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir lösen durch unsere nachhaltigen Firmeninitiativen einen spürbaren Wandel in der Branche aus.",
+      "translation": {
+        "ru": "Своими экологическими инициативами компании мы вызываем ощутимые перемены в отрасли.",
+        "en": "Through our sustainable company initiatives we trigger a noticeable change in the industry."
+      },
+      "bracket_parts": [
+        "lösen",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "einen spürbaren Wandel"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Löst ihr mit eurem provokanten Theaterstück beim Publikum starke Emotionen aus?",
+      "translation": {
+        "ru": "Вызываете ли вы своей провокационной пьесой сильные эмоции у публики?",
+        "en": "Are you triggering strong emotions in the audience with your provocative play?"
+      },
+      "bracket_parts": [
+        "Löst",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "starke Emotionen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern löste die unerwartete Ankündigung des Ministers große Verunsicherung an den Börsen aus.",
+      "translation": {
+        "ru": "Вчера неожиданное заявление министра вызвало сильную неуверенность на биржах.",
+        "en": "Yesterday the minister's unexpected announcement triggered great uncertainty on the stock markets."
+      },
+      "bracket_parts": [
+        "löste",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "große Verunsicherung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die plötzliche Schließung der Fabrik hat heftige Proteste der Beschäftigten ausgelöst.",
+      "translation": {
+        "ru": "Внезапное закрытие фабрики вызвало яростные протесты работников.",
+        "en": "The sudden closure of the factory triggered fierce protests from the employees."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgelöst"
+      ],
+      "akkusativ_parts": [
+        "heftige Proteste der Beschäftigten"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Lösen Sie den Feueralarm bitte nur im absoluten Notfall aus!",
+      "translation": {
+        "ru": "Включайте пожарную тревогу, пожалуйста, только в случае крайней необходимости!",
+        "en": "Please trigger the fire alarm only in an absolute emergency!"
+      },
+      "bracket_parts": [
+        "Lösen",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "den Feueralarm"
+      ]
+    }
+  ]
+}

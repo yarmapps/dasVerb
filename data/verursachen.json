@@ -1,0 +1,178 @@
+{
+  "id": "verursachen",
+  "infinitive": "verursachen",
+  "translation": {
+    "ru": "вызывать, причинять, быть причиной",
+    "en": "to cause, to provoke"
+  },
+  "level": "B2",
+  "frequency_rank": 160,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verursachen",
+    "present_3sg": "verursacht",
+    "praeteritum_3sg": "verursachte",
+    "partizip_2": "verursacht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verursache",
+      "du": "verursachst",
+      "er_sie_es": "verursacht",
+      "wir": "verursachen",
+      "ihr": "verursacht",
+      "sie_Sie": "verursachen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "verursachte",
+      "du": "verursachtest",
+      "er_sie_es": "verursachte",
+      "wir": "verursachten",
+      "ihr": "verursachtet",
+      "sie_Sie": "verursachten"
+    },
+    "imperative": {
+      "du": "verursache!",
+      "ihr": "verursacht!",
+      "Sie": "verursachen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen schweren Verkehrsunfall (Akk) verursachen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verursache durch umsichtiges und vorausschauendes Fahren niemals gefährliche Situationen.",
+      "translation": {
+        "ru": "Благодаря осмотрительному и предусмотрительному вождению я никогда не создаю опасных ситуаций.",
+        "en": "Through prudent and anticipatory driving I never cause dangerous situations."
+      },
+      "bracket_parts": [
+        "verursache"
+      ],
+      "akkusativ_parts": [
+        "gefährliche Situationen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verursachst du durch deine Unachtsamkeit im Labor nicht schon wieder unnötige Mehrkosten?",
+      "translation": {
+        "ru": "Разве своей невнимательностью в лаборатории ты снова не вызываешь лишних дополнительных расходов?",
+        "en": "Aren't you causing unnecessary extra costs again through your carelessness in the laboratory?"
+      },
+      "bracket_parts": [
+        "Verursachst"
+      ],
+      "akkusativ_parts": [
+        "unnötige Mehrkosten"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der starke Schneefall verursacht auf den Autobahnen im Süden kilometerlange Staus.",
+      "translation": {
+        "ru": "Сильный снегопад вызывает на автобанах на юге многокилометровые пробки.",
+        "en": "The heavy snowfall causes traffic jams kilometers long on the motorways in the south."
+      },
+      "bracket_parts": [
+        "verursacht"
+      ],
+      "akkusativ_parts": [
+        "kilometerlange Staus"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir wissen alle, dass alte Fabrikanlagen erhebliche Umweltbelastungen in der Region verursachen.",
+      "translation": {
+        "ru": "Мы все знаем, что старые фабричные установки вызывают значительную нагрузку на окружающую среду в регионе.",
+        "en": "We all know that old factory plants cause considerable environmental pollution in the region."
+      },
+      "bracket_parts": [
+        "verursachen"
+      ],
+      "akkusativ_parts": [
+        "erhebliche Umweltbelastungen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verursacht ihr mit dem lauten Schlagzeugspiel im Keller keine Beschwerden der Nachbarn?",
+      "translation": {
+        "ru": "Разве громкой игрой на барабанах в подвале вы не вызываете жалоб соседей?",
+        "en": "Aren't you causing complaints from the neighbours with the loud drumming in the basement?"
+      },
+      "bracket_parts": [
+        "Verursacht"
+      ],
+      "akkusativ_parts": [
+        "keine Beschwerden der Nachbarn"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern verursachte ein technischer Defekt am Server den Ausfall der gesamten Firmen-Website.",
+      "translation": {
+        "ru": "Вчера технический сбой на сервере вызвал отключение всего сайта компании.",
+        "en": "Yesterday a technical defect on the server caused the failure of the entire company website."
+      },
+      "bracket_parts": [
+        "verursachte"
+      ],
+      "akkusativ_parts": [
+        "den Ausfall"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der heftige Hagelsturm hat an den landwirtschaftlichen Ernten immense Schäden verursacht.",
+      "translation": {
+        "ru": "Сильный град нанес огромный ущерб сельскохозяйственным посевам.",
+        "en": "The violent hailstorm caused immense damage to agricultural crops."
+      },
+      "bracket_parts": [
+        "hat",
+        "verursacht"
+      ],
+      "akkusativ_parts": [
+        "immense Schäden"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verursachen Sie bitte keinen unnötigen Lärm im Treppenhaus!",
+      "translation": {
+        "ru": "Не создавайте, пожалуйста, лишнего шума на лестничной клетке!",
+        "en": "Please do not cause unnecessary noise in the stairwell!"
+      },
+      "bracket_parts": [
+        "Verursachen"
+      ],
+      "akkusativ_parts": [
+        "keinen unnötigen Lärm"
+      ]
+    }
+  ]
+}

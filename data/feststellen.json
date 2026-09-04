@@ -1,0 +1,185 @@
+{
+  "id": "feststellen",
+  "infinitive": "feststellen",
+  "translation": {
+    "ru": "устанавливать, констатировать, замечать",
+    "en": "to determine, to notice, to ascertain"
+  },
+  "level": "B1",
+  "frequency_rank": 95,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "fest",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "feststellen",
+    "present_3sg": "stellt fest",
+    "praeteritum_3sg": "stellte fest",
+    "partizip_2": "festgestellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stelle fest",
+      "du": "stellst fest",
+      "er_sie_es": "stellt fest",
+      "wir": "stellen fest",
+      "ihr": "stellt fest",
+      "sie_Sie": "stellen fest",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "stellte fest",
+      "du": "stelltest fest",
+      "er_sie_es": "stellte fest",
+      "wir": "stellten fest",
+      "ihr": "stelltet fest",
+      "sie_Sie": "stellten fest"
+    },
+    "imperative": {
+      "du": "stell fest!",
+      "ihr": "stellt fest!",
+      "Sie": "stellen Sie fest!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen gravierenden Fehler (Akk) feststellen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich stelle bei der täglichen Qualitätskontrolle immer wieder kleine Verbesserungen fest.",
+      "translation": {
+        "ru": "При ежедневном контроле качества я снова и снова констатирую небольшие улучшения.",
+        "en": "During daily quality control I repeatedly notice small improvements."
+      },
+      "bracket_parts": [
+        "stelle",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "kleine Verbesserungen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Stellst du bei der monatlichen Abrechnung eigentlich regelmäßig Differenzen fest?",
+      "translation": {
+        "ru": "Ты при ежемесячном расчете на самом деле регулярно выявляешь расхождения?",
+        "en": "Do you actually regularly find discrepancies in the monthly statement?"
+      },
+      "bracket_parts": [
+        "Stellst",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "Differenzen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Arzt stellt bei der Untersuchung eine erfreuliche Besserung der Gesundheit fest.",
+      "translation": {
+        "ru": "Врач при осмотре констатирует радостное улучшение здоровья.",
+        "en": "Upon examination, the doctor notes a pleasing improvement in health."
+      },
+      "bracket_parts": [
+        "stellt",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "eine erfreuliche Besserung"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir stellen mit großer Freude das wachsende Interesse an unserer Initiative fest.",
+      "translation": {
+        "ru": "Мы с большой радостью констатируем растущий интерес к нашей инициативе.",
+        "en": "With great pleasure we note the growing interest in our initiative."
+      },
+      "bracket_parts": [
+        "stellen",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "das wachsende Interesse"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Stellt ihr bei euren Berechnungen auch deutliche Abweichungen vom Plan fest?",
+      "translation": {
+        "ru": "Вы в своих расчетах тоже фиксируете значительные отклонения от плана?",
+        "en": "Do you also notice significant deviations from the plan in your calculations?"
+      },
+      "bracket_parts": [
+        "Stellt",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "deutliche Abweichungen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern stellte der Mechaniker einen gefährlichen Schaden an den Bremsen fest.",
+      "translation": {
+        "ru": "Вчера механик обнаружил опасное повреждение тормозов.",
+        "en": "Yesterday the mechanic found dangerous damage to the brakes."
+      },
+      "bracket_parts": [
+        "stellte",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "einen gefährlichen Schaden"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Prüfer haben keine wesentlichen Mängel am Neubau festgestellt.",
+      "translation": {
+        "ru": "Проверяющие не выявили никаких существенных недостатков в новостройке.",
+        "en": "The inspectors found no significant defects in the new building."
+      },
+      "bracket_parts": [
+        "haben",
+        "festgestellt"
+      ],
+      "akkusativ_parts": [
+        "keine wesentlichen Mängel"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Stellen Sie bitte unverzüglich die genaue Schadensursache fest!",
+      "translation": {
+        "ru": "Установите, пожалуйста, незамедлительно точную причину ущерба!",
+        "en": "Please determine the exact cause of damage without delay!"
+      },
+      "bracket_parts": [
+        "Stellen",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "die genaue Schadensursache"
+      ]
+    }
+  ]
+}

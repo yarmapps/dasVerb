@@ -1,7 +1,14 @@
 import React, { useState, useCallback } from 'react';
-import { canStartQuiz, canWatchAdToday } from '../services/usageService';
+import {
+  canStartQuiz,
+  canWatchAdToday,
+  getDailyCompletedQuizzesCount,
+  getFreeDailyQuizzes,
+} from '../services/usageService';
 import { isPremiumEnabled } from '../services/premiumAccessService';
+import { trackEvent } from '../services/analyticsService';
 import { DailyQuizLimitModal } from '../components/DailyQuizLimitModal/DailyQuizLimitModal';
+import { PremiumSubscribeSheet } from '../components/PremiumSubscribeSheet/PremiumSubscribeSheet';
 import { RootStackParamList } from '../types/navigation';
 
 export type VerbQuizParams = RootStackParamList['VerbQuiz'];
@@ -18,6 +25,7 @@ export interface UseNavigateToQuizResult {
 
 export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQuizResult {
   const [showLimitModal, setShowLimitModal] = useState(false);
+  const [showPaywall, setShowPaywall] = useState(false);
   const [pendingParams, setPendingParams] = useState<{
     params: VerbQuizParams;
     mode: 'navigate' | 'replace';
@@ -40,6 +48,10 @@ export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQ
         startActualQuiz(params, mode);
       } else {
         setPendingParams({ params, mode });
+        trackEvent('daily_limit_shown', {
+          completed_today: getDailyCompletedQuizzesCount(),
+          free_limit: getFreeDailyQuizzes(),
+        });
         setShowLimitModal(true);
       }
     },
@@ -51,6 +63,24 @@ export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQ
     setPendingParams(null);
   }, []);
 
+  const handlePremiumCTA = useCallback(() => {
+    setShowLimitModal(false);
+    setShowPaywall(true);
+  }, []);
+
+  const handlePaywallClose = useCallback(() => {
+    setShowPaywall(false);
+    setPendingParams(null);
+  }, []);
+
+  const handlePurchaseSuccess = useCallback(() => {
+    setShowPaywall(false);
+    if (pendingParams) {
+      startActualQuiz(pendingParams.params, pendingParams.mode);
+      setPendingParams(null);
+    }
+  }, [pendingParams, startActualQuiz]);
+
   const handleVideoSuccess = useCallback(() => {
     setShowLimitModal(false);
     if (pendingParams) {
@@ -60,12 +90,21 @@ export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQ
   }, [pendingParams, startActualQuiz]);
 
   const dailyQuizLimitModalUI = (
-    <DailyQuizLimitModal
-      visible={showLimitModal}
-      onDismiss={handleDismiss}
-      onVideoSuccess={handleVideoSuccess}
-      canWatchAd={canWatchAdToday()}
-    />
+    <>
+      <DailyQuizLimitModal
+        visible={showLimitModal}
+        onDismiss={handleDismiss}
+        onPremiumCTA={handlePremiumCTA}
+        onVideoSuccess={handleVideoSuccess}
+        canWatchAd={canWatchAdToday()}
+      />
+      <PremiumSubscribeSheet
+        visible={showPaywall}
+        onClose={handlePaywallClose}
+        onPurchaseSuccess={handlePurchaseSuccess}
+        source="daily_quiz_limit"
+      />
+    </>
   );
 
   return { navigateToQuiz, dailyQuizLimitModalUI };

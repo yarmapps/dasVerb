@@ -1,0 +1,196 @@
+{
+  "id": "unterhalten_sich_akk_ueber",
+  "infinitive": "sich unterhalten",
+  "translation": {
+    "ru": "беседовать, общаться (о чем-то)",
+    "en": "to converse, to chat (about something)"
+  },
+  "level": "B1",
+  "frequency_rank": 230,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "unter",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich unterhalten",
+    "present_3sg": "unterhält sich",
+    "praeteritum_3sg": "unterhielt sich",
+    "partizip_2": "unterhalten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "unterhalte mich",
+      "du": "unterhältst dich",
+      "er_sie_es": "unterhält sich",
+      "wir": "unterhalten uns",
+      "ihr": "unterhaltet euch",
+      "sie_Sie": "unterhalten sich",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "unterhielt mich",
+      "du": "unterhieltst dich",
+      "er_sie_es": "unterhielt sich",
+      "wir": "unterhielten uns",
+      "ihr": "unterhieltet euch",
+      "sie_Sie": "unterhielten sich"
+    },
+    "imperative": {
+      "du": "unterhalte dich!",
+      "ihr": "unterhaltet euch!",
+      "Sie": "unterhalten Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich über interessante Bücher (Akk) unterhalten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich unterhalte mich in der Kaffeepause gerne mit Kollegen über neue Filme.",
+      "translation": {
+        "ru": "В перерыве на кофе я с удовольствием беседую с коллегами о новых фильмах.",
+        "en": "During the coffee break I enjoy chatting with colleagues about new movies."
+      },
+      "bracket_parts": [
+        "unterhalte"
+      ],
+      "akkusativ_parts": [
+        "mich",
+        "über neue Filme"
+      ],
+      "dativ_parts": [
+        "mit Kollegen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Unterhältst du dich mit deinem Nachbarn oft über die Gartenarbeit?",
+      "translation": {
+        "ru": "Ты часто беседуешь со своим соседом о работе в саду?",
+        "en": "Do you often chat with your neighbour about gardening?"
+      },
+      "bracket_parts": [
+        "Unterhältst"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "über die Gartenarbeit"
+      ],
+      "dativ_parts": [
+        "mit deinem Nachbarn"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Professorin unterhält sich mit den Studenten angeregt über wissenschaftliche Theorien.",
+      "translation": {
+        "ru": "Профессор оживленно беседует со студентами о научных теориях.",
+        "en": "The professor converses animatedly with the students about scientific theories."
+      },
+      "bracket_parts": [
+        "unterhält"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "über wissenschaftliche Theorien"
+      ],
+      "dativ_parts": [
+        "mit den Studenten"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir unterhalten uns am Abend gemütlich über die schönsten Momente des Tages.",
+      "translation": {
+        "ru": "Вечером мы уютно беседуем о самых прекрасных моментах дня.",
+        "en": "In the evening we chat cosily about the finest moments of the day."
+      },
+      "bracket_parts": [
+        "unterhalten"
+      ],
+      "akkusativ_parts": [
+        "uns",
+        "über die schönsten Momente"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Unterhaltet ihr euch bei euren Treffen auch manchmal über ernste Zukunftspläne?",
+      "translation": {
+        "ru": "Вы на своих встречах общаетесь иногда и о серьезных планах на будущее?",
+        "en": "At your meetings, do you sometimes chat about serious future plans too?"
+      },
+      "bracket_parts": [
+        "Unterhaltet"
+      ],
+      "akkusativ_parts": [
+        "euch",
+        "über ernste Zukunftspläne"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern unterhielt sie sich stundenlang mit ihrer Freundin über alte Schulzeiten.",
+      "translation": {
+        "ru": "Вчера она часами беседовала со своей подругой о старых школьных временах.",
+        "en": "Yesterday she talked for hours with her friend about old school days."
+      },
+      "bracket_parts": [
+        "unterhielt"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "über alte Schulzeiten"
+      ],
+      "dativ_parts": [
+        "mit ihrer Freundin"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben sich beim feierlichen Abendessen angeregt miteinander unterhalten.",
+      "translation": {
+        "ru": "Они за праздничным ужином оживленно пообщались друг с другом.",
+        "en": "They had an animated conversation with one another at the celebratory dinner."
+      },
+      "bracket_parts": [
+        "haben",
+        "unterhalten"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Unterhalten Sie sich bitte ruhig im Foyer!",
+      "translation": {
+        "ru": "Беседуйте, пожалуйста, спокойно в фойе!",
+        "en": "Please converse quietly in the foyer!"
+      },
+      "bracket_parts": [
+        "Unterhalten"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "darstellen",
+  "infinitive": "darstellen",
+  "translation": {
+    "ru": "представлять собой, изображать, описывать",
+    "en": "to represent, to depict, to constitute"
+  },
+  "level": "B2",
+  "frequency_rank": 73,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "dar",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "darstellen",
+    "present_3sg": "stellt dar",
+    "praeteritum_3sg": "stellte dar",
+    "partizip_2": "dargestellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stelle dar",
+      "du": "stellst dar",
+      "er_sie_es": "stellt dar",
+      "wir": "stellen dar",
+      "ihr": "stellt dar",
+      "sie_Sie": "stellen dar",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "stellte dar",
+      "du": "stelltest dar",
+      "er_sie_es": "stellte dar",
+      "wir": "stellten dar",
+      "ihr": "stelltet dar",
+      "sie_Sie": "stellten dar"
+    },
+    "imperative": {
+      "du": "stell dar!",
+      "ihr": "stellt dar!",
+      "Sie": "stellen Sie dar!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein großes Sicherheitsrisiko (Akk) darstellen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich stelle die komplizierten Zusammenhänge in meinem Vortrag anschaulich und verständlich dar.",
+      "translation": {
+        "ru": "Я наглядно и понятно представляю сложные взаимосвязи в своем докладе.",
+        "en": "I present the complicated connections clearly and comprehensibly in my lecture."
+      },
+      "bracket_parts": [
+        "stelle",
+        "dar"
+      ],
+      "akkusativ_parts": [
+        "die komplizierten Zusammenhänge"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Stellst du die dramatischen Ereignisse in deinem Bericht nicht etwas übertrieben dar?",
+      "translation": {
+        "ru": "Не слишком ли преувеличенно ты изображаешь драматические события в своем отчете?",
+        "en": "Aren't you portraying the dramatic events somewhat exaggeratedly in your report?"
+      },
+      "bracket_parts": [
+        "Stellst",
+        "dar"
+      ],
+      "akkusativ_parts": [
+        "die dramatischen Ereignisse"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die steigende Inflation stellt eine erhebliche Belastung für einkommensschwache Haushalte dar.",
+      "translation": {
+        "ru": "Растущая инфляция представляет собой значительное бремя для малообеспеченных семей.",
+        "en": "Rising inflation represents a significant burden for low-income households."
+      },
+      "bracket_parts": [
+        "stellt",
+        "dar"
+      ],
+      "akkusativ_parts": [
+        "eine erhebliche Belastung"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir stellen in dieser wissenschaftlichen Publikation die neuesten Forschungsergebnisse detailliert dar.",
+      "translation": {
+        "ru": "Мы подробно представляем в этой научной публикации новейшие результаты исследований.",
+        "en": "In this scientific publication we present the latest research findings in detail."
+      },
+      "bracket_parts": [
+        "stellen",
+        "dar"
+      ],
+      "akkusativ_parts": [
+        "die neuesten Forschungsergebnisse"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Stellt ihr in dem Theaterstück historische Persönlichkeiten oder frei erfundene Figuren dar?",
+      "translation": {
+        "ru": "Изображаете ли вы в пьесе исторических личностей или вымышленных персонажей?",
+        "en": "Do you portray historical figures or fictional characters in the play?"
+      },
+      "bracket_parts": [
+        "Stellt",
+        "dar"
+      ],
+      "akkusativ_parts": [
+        "historische Persönlichkeiten"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern stellte der Sachverständige vor Gericht die genauen Abläufe des Unfalls dar.",
+      "translation": {
+        "ru": "Вчера эксперт представил в суде точный ход аварии.",
+        "en": "Yesterday the expert presented the exact sequence of the accident in court."
+      },
+      "bracket_parts": [
+        "stellte",
+        "dar"
+      ],
+      "akkusativ_parts": [
+        "die genauen Abläufe"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Künstlerin hat die tiefe Trauer der Menschen in ihren Gemälden eindrucksvoll dargestellt.",
+      "translation": {
+        "ru": "Художница выразительно запечатлела глубокую скорбь людей в своих картинах.",
+        "en": "The artist impressively depicted the deep grief of the people in her paintings."
+      },
+      "bracket_parts": [
+        "hat",
+        "dargestellt"
+      ],
+      "akkusativ_parts": [
+        "die tiefe Trauer der Menschen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Stellen Sie Ihre Argumente bitte kurz und prägnant dar!",
+      "translation": {
+        "ru": "Изложите ваши аргументы, пожалуйста, кратко и емко!",
+        "en": "Please present your arguments briefly and concisely!"
+      },
+      "bracket_parts": [
+        "Stellen",
+        "dar"
+      ],
+      "akkusativ_parts": [
+        "Ihre Argumente"
+      ]
+    }
+  ]
+}

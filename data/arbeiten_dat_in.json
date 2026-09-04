@@ -1,0 +1,178 @@
+{
+  "id": "arbeiten_dat_in",
+  "infinitive": "arbeiten",
+  "translation": {
+    "ru": "работать (где-то)",
+    "en": "to work (in a place)"
+  },
+  "level": "A1",
+  "frequency_rank": 102,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "arbeiten",
+    "present_3sg": "arbeitet",
+    "praeteritum_3sg": "arbeitete",
+    "partizip_2": "gearbeitet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "arbeite",
+      "du": "arbeitest",
+      "er_sie_es": "arbeitet",
+      "wir": "arbeiten",
+      "ihr": "arbeitet",
+      "sie_Sie": "arbeiten",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "arbeitete",
+      "du": "arbeitetest",
+      "er_sie_es": "arbeitete",
+      "wir": "arbeiteten",
+      "ihr": "arbeitetet",
+      "sie_Sie": "arbeiteten"
+    },
+    "imperative": {
+      "du": "arbeite!",
+      "ihr": "arbeitet!",
+      "Sie": "arbeiten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "in",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "in einem Büro (Dat) arbeiten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich arbeite jeden Tag in einem großen Büro.",
+      "translation": {
+        "ru": "Я каждый день работаю в большом офисе.",
+        "en": "I work in a large office every day."
+      },
+      "bracket_parts": [
+        "arbeite"
+      ],
+      "dativ_parts": [
+        "in einem großen Büro"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Arbeitest du gerne in der Schule als Lehrer?",
+      "translation": {
+        "ru": "Ты с удовольствием работаешь в школе учителем?",
+        "en": "Do you like working in the school as a teacher?"
+      },
+      "bracket_parts": [
+        "Arbeitest"
+      ],
+      "dativ_parts": [
+        "in der Schule"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er arbeitet oft bis spät am Abend in der Werkstatt.",
+      "translation": {
+        "ru": "Он часто работает до позднего вечера в мастерской.",
+        "en": "He often works until late in the evening in the workshop."
+      },
+      "bracket_parts": [
+        "arbeitet"
+      ],
+      "dativ_parts": [
+        "in der Werkstatt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir arbeiten heute alle im ruhigen Homeoffice.",
+      "translation": {
+        "ru": "Мы сегодня все работаем в тихом домашнем офисе.",
+        "en": "We are all working in the quiet home office today."
+      },
+      "bracket_parts": [
+        "arbeiten"
+      ],
+      "dativ_parts": [
+        "im ruhigen Homeoffice"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Arbeitet ihr im Sommer in einem Restaurant?",
+      "translation": {
+        "ru": "Вы летом работаете в ресторане?",
+        "en": "Do you work in a restaurant in the summer?"
+      },
+      "bracket_parts": [
+        "Arbeitet"
+      ],
+      "dativ_parts": [
+        "in einem Restaurant"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern arbeitete sie konzentriert im stillen Labor.",
+      "translation": {
+        "ru": "Вчера она сосредоточенно работала в тихой лаборатории.",
+        "en": "Yesterday she worked focused in the quiet laboratory."
+      },
+      "bracket_parts": [
+        "arbeitete"
+      ],
+      "dativ_parts": [
+        "im stillen Labor"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben den ganzen Tag fleißig im Garten gearbeitet.",
+      "translation": {
+        "ru": "Они весь день прилежно работали в саду.",
+        "en": "They worked hard in the garden all day."
+      },
+      "bracket_parts": [
+        "haben",
+        "gearbeitet"
+      ],
+      "dativ_parts": [
+        "im Garten"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Arbeiten Sie bitte ruhig in diesem Raum!",
+      "translation": {
+        "ru": "Работайте, пожалуйста, спокойно в этой комнате!",
+        "en": "Please work quietly in this room!"
+      },
+      "bracket_parts": [
+        "Arbeiten"
+      ],
+      "dativ_parts": [
+        "in diesem Raum"
+      ]
+    }
+  ]
+}

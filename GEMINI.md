@@ -41,7 +41,13 @@
    * **СТРОГИЙ ЗАПРЕТ `defaultMessage`:** категорически запрещено передавать свойство `defaultMessage` в `formatMessage` или `<FormattedMessage>`. Все тексты обязаны находиться исключительно в файлах `src/translations/*.json`. Отсутствие `defaultMessage` контролируется unit-тестом `src/__tests__/i18n.test.ts`.
    * **Языки по умолчанию (ТОЛЬКО EN и RU):** новые ключи и переводы по умолчанию добавляются **СТРОГО ТОЛЬКО для английского (`en.json`) и русского (`ru.json`) языков** (а также в `Translation` тип). Переводы на все остальные языки (`es`, `fr`, `it`, `pl`, `pt`, `tr`, `uk`, `ar`, `fa`) выполняются **только по прямому и явному указанию пользователя** (для остальных языков работает автоматический fallback на английский).
 
-6. **Синхронизация и актуализация правил (Строго):**
+6. **Аналитика и телеметрия (Firebase & Google Analytics 4):**
+   * См. спецификацию: [`specs/project-architecture.md`](file:///Users/alexander.yarmosh/yapps/dasVerb/specs/project-architecture.md)
+   * Мобильная аналитика работает через единый SDK `@react-native-firebase/app` и `@react-native-firebase/analytics` (GA4 App stream).
+   * Трекинг осуществляется строго через фасад [`src/services/analyticsService.ts`](file:///Users/alexander.yarmosh/yapps/dasVerb/src/services/analyticsService.ts) с типизированными событиями [`src/types/analytics.types.ts`](file:///Users/alexander.yarmosh/yapps/dasVerb/src/types/analytics.types.ts).
+   * Для тестирования и Expo Go предусмотрен fallback-мок (`src/analytics/mock.ts`), управляемый флагом `ENABLE_ANALYTICS` в `src/config/features.js`.
+
+7. **Синхронизация и актуализация правил (Строго):**
    * При любых изменениях логики, архитектурных решений, структуры данных или формата именования **ОБЯЗАТЕЛЬНО немедленно обновлять соответствующие файлы спецификаций (`specs/*.md`) и данный `GEMINI.md`**.
    * Все правила, гайдлайны и спецификации проекта **всегда обязаны поддерживаться в 100% актуальном состоянии**.
 

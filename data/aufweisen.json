@@ -1,0 +1,185 @@
+{
+  "id": "aufweisen",
+  "infinitive": "aufweisen",
+  "translation": {
+    "ru": "обнаруживать, показывать, иметь (признаки, дефекты, успехи)",
+    "en": "to exhibit, to show, to feature"
+  },
+  "level": "B2",
+  "frequency_rank": 332,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufweisen",
+    "present_3sg": "weist auf",
+    "praeteritum_3sg": "wies auf",
+    "partizip_2": "aufgewiesen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "weise auf",
+      "du": "weist auf",
+      "er_sie_es": "weist auf",
+      "wir": "weisen auf",
+      "ihr": "weist auf",
+      "sie_Sie": "weisen auf",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "wies auf",
+      "du": "wiesest auf",
+      "er_sie_es": "wies auf",
+      "wir": "wiesen auf",
+      "ihr": "wiest auf",
+      "sie_Sie": "wiesen auf"
+    },
+    "imperative": {
+      "du": "weis auf!",
+      "ihr": "weist auf!",
+      "Sie": "weisen Sie auf!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "erhebliche Mängel / positive Ergebnisse (Akk) aufweisen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich weise in meiner aktuellen Bilanz erfreulicherweise ein deutliches Plus an Neukunden auf.",
+      "translation": {
+        "ru": "В своем актуальном отчете я, к радости, демонстрирую ощутимый прирост новых клиентов.",
+        "en": "In my current balance sheet I happily exhibit a significant increase in new customers."
+      },
+      "bracket_parts": [
+        "weise",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "ein deutliches Plus an Neukunden"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Weist dein altes Auto nach der langen Fahrt schon wieder verdächtige Geräusche auf?",
+      "translation": {
+        "ru": "Издает ли твоя старая машина после долгой поездки снова подозрительные звуки?",
+        "en": "Is your old car exhibiting suspicious noises again after the long journey?"
+      },
+      "bracket_parts": [
+        "Weist",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "verdächtige Geräusche"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das historische Bauwerk weist an der Fassade erhebliche Risse und Witterungsschäden auf.",
+      "translation": {
+        "ru": "Историческое здание имеет на фасаде значительные трещины и повреждения от погоды.",
+        "en": "The historic building exhibits significant cracks and weather damage on the facade."
+      },
+      "bracket_parts": [
+        "weist",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "erhebliche Risse und Witterungsschäden"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir weisen als Vorzeigeunternehmen eine besonders hohe Zufriedenheit unserer Belegschaft auf.",
+      "translation": {
+        "ru": "Как образцовая компания мы демонстрируем особенно высокую удовлетворенность нашего персонала.",
+        "en": "As a model company, we exhibit a particularly high level of employee satisfaction."
+      },
+      "bracket_parts": [
+        "weisen",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "eine besonders hohe Zufriedenheit"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Weist ihr mit eurem neuen Software-Update spürbare Verbesserungen bei der Performance auf?",
+      "translation": {
+        "ru": "Показываете ли вы с новым обновлением софта ощутимые улучшения производительности?",
+        "en": "Do you exhibit noticeable improvements in performance with your new software update?"
+      },
+      "bracket_parts": [
+        "Weist",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "spürbare Verbesserungen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern wies der Gutachterbericht bei der technischen Prüfung gravierende Mängel am Flugzeug auf.",
+      "translation": {
+        "ru": "Вчера экспертный отчет при технической проверке выявил серьезные дефекты самолета.",
+        "en": "Yesterday the expert report exhibited serious defects in the aircraft during technical inspection."
+      },
+      "bracket_parts": [
+        "wies",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "gravierende Mängel"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die wissenschaftliche Studie hat viele methodische Schwachstellen und Unklarheiten aufgewiesen.",
+      "translation": {
+        "ru": "Научное исследование обнаружило много методических слабых мест и неясностей.",
+        "en": "The scientific study exhibited many methodological weaknesses and ambiguities."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgewiesen"
+      ],
+      "akkusativ_parts": [
+        "viele methodische Schwachstellen und Unklarheiten"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Weisen Sie bei der Bewerbung bitte alle relevanten Qualifikationen und Zeugnisse auf!",
+      "translation": {
+        "ru": "Предъявите при подаче заявления, пожалуйста, все необходимые квалификации и свидетельства!",
+        "en": "Please present all relevant qualifications and certificates with your application!"
+      },
+      "bracket_parts": [
+        "Weisen",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "alle relevanten Qualifikationen und Zeugnisse"
+      ]
+    }
+  ]
+}

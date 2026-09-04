@@ -1,0 +1,178 @@
+{
+  "id": "umfassen",
+  "infinitive": "umfassen",
+  "translation": {
+    "ru": "охватывать, содержать в себе, включать",
+    "en": "to comprise, to encompass, to include"
+  },
+  "level": "B2",
+  "frequency_rank": 190,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "um",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "umfassen",
+    "present_3sg": "umfasst",
+    "praeteritum_3sg": "umfasste",
+    "partizip_2": "umfasst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "umfasse",
+      "du": "umfasst",
+      "er_sie_es": "umfasst",
+      "wir": "umfassen",
+      "ihr": "umfasst",
+      "sie_Sie": "umfassen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "umfasste",
+      "du": "umfasstest",
+      "er_sie_es": "umfasste",
+      "wir": "umfassten",
+      "ihr": "umfasstet",
+      "sie_Sie": "umfassten"
+    },
+    "imperative": {
+      "du": "umfasse!",
+      "ihr": "umfasst!",
+      "Sie": "umfassen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein breites Themenspektrum (Akk) umfassen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich umfasse in meiner wissenschaftlichen Publikation alle relevanten Aspekte des Klimawandels.",
+      "translation": {
+        "ru": "В своей научной публикации я охватываю все актуальные аспекты изменения климата.",
+        "en": "In my scientific publication I encompass all relevant aspects of climate change."
+      },
+      "bracket_parts": [
+        "umfasse"
+      ],
+      "akkusativ_parts": [
+        "alle relevanten Aspekte"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Umfasst dein täglicher Aufgabenbereich eigentlich auch die Betreuung der internationalen Kunden?",
+      "translation": {
+        "ru": "Включает ли твой ежедневный круг обязанностей на самом деле и обслуживание международных клиентов?",
+        "en": "Does your daily scope of duties actually include looking after international clients?"
+      },
+      "bracket_parts": [
+        "Umfasst"
+      ],
+      "akkusativ_parts": [
+        "die Betreuung der internationalen Kunden"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das umfangreiche Lexikon umfasst mehr als einhunderttausend detaillierte Einträge.",
+      "translation": {
+        "ru": "Объемная энциклопедия включает более ста тысяч подробных статей.",
+        "en": "The extensive encyclopedia comprises more than one hundred thousand detailed entries."
+      },
+      "bracket_parts": [
+        "umfasst"
+      ],
+      "akkusativ_parts": [
+        "mehr als einhunderttausend detaillierte Einträge"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir umfassen mit unserem breit gefächerten Bildungsangebot alle Altersgruppen in der Gemeinde.",
+      "translation": {
+        "ru": "Своим широким спектром образовательных предложений мы охватываем все возрастные группы в общине.",
+        "en": "With our wide range of educational offers we encompass all age groups in the community."
+      },
+      "bracket_parts": [
+        "umfassen"
+      ],
+      "akkusativ_parts": [
+        "alle Altersgruppen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Umfasst ihr bei eurer aktuellen Marktstudie auch kleinere Start-up-Unternehmen der Branche?",
+      "translation": {
+        "ru": "Охватываете ли вы в своем актуальном исследовании рынка также небольшие стартапы отрасли?",
+        "en": "Do you also include smaller start-ups in the industry in your current market study?"
+      },
+      "bracket_parts": [
+        "Umfasst"
+      ],
+      "akkusativ_parts": [
+        "auch kleinere Start-up-Unternehmen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals umfasste das historische Reich riesige Gebiete auf drei verschiedenen Kontinenten.",
+      "translation": {
+        "ru": "В те времена историческая империя охватывала огромные территории на трех разных континентах.",
+        "en": "At that time the historic empire encompassed vast territories on three different continents."
+      },
+      "bracket_parts": [
+        "umfasste"
+      ],
+      "akkusativ_parts": [
+        "riesige Gebiete"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Abschlussbericht der Kommission hat insgesamt über fünfhundert Seiten umfasst.",
+      "translation": {
+        "ru": "Итоговый отчет комиссии составил в общей сложности более пятисот страниц.",
+        "en": "The commission's final report comprised a total of over five hundred pages."
+      },
+      "bracket_parts": [
+        "hat",
+        "umfasst"
+      ],
+      "akkusativ_parts": [
+        "über fünfhundert Seiten"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Umfassen Sie bei der Analyse bitte auch die langfristigen ökonomischen Folgen!",
+      "translation": {
+        "ru": "Включите в анализ, пожалуйста, также долгосрочные экономические последствия!",
+        "en": "Please also encompass the long-term economic consequences in the analysis!"
+      },
+      "bracket_parts": [
+        "Umfassen"
+      ],
+      "akkusativ_parts": [
+        "die langfristigen ökonomischen Folgen"
+      ]
+    }
+  ]
+}

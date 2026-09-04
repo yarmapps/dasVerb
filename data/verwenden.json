@@ -1,0 +1,178 @@
+{
+  "id": "verwenden",
+  "infinitive": "verwenden",
+  "translation": {
+    "ru": "использовать, применять",
+    "en": "to use, to utilise"
+  },
+  "level": "B1",
+  "frequency_rank": 130,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verwenden",
+    "present_3sg": "verwendet",
+    "praeteritum_3sg": "verwendete",
+    "partizip_2": "verwendet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verwende",
+      "du": "verwendest",
+      "er_sie_es": "verwendet",
+      "wir": "verwenden",
+      "ihr": "verwendet",
+      "sie_Sie": "verwenden",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "verwendete",
+      "du": "verwendetest",
+      "er_sie_es": "verwendete",
+      "wir": "verwendeten",
+      "ihr": "verwendetet",
+      "sie_Sie": "verwendeten"
+    },
+    "imperative": {
+      "du": "verwende!",
+      "ihr": "verwendet!",
+      "Sie": "verwenden Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine neue Methode / Werkzeuge (Akk) verwenden",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verwende beim Kochen am liebsten frische Kräuter aus dem eigenen Garten.",
+      "translation": {
+        "ru": "При готовке я охотнее всего использую свежие травы из собственного сада.",
+        "en": "When cooking, I prefer using fresh herbs from my own garden."
+      },
+      "bracket_parts": [
+        "verwende"
+      ],
+      "akkusativ_parts": [
+        "frische Kräuter"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verwendest du für deine schriftlichen Arbeiten eine spezielle Software?",
+      "translation": {
+        "ru": "Ты используешь для своих письменных работ специальное программное обеспечение?",
+        "en": "Do you use special software for your written papers?"
+      },
+      "bracket_parts": [
+        "Verwendest"
+      ],
+      "akkusativ_parts": [
+        "eine spezielle Software"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Handwerker verwendet für diese anspruchsvolle Reparatur nur hochwertiges Werkzeug.",
+      "translation": {
+        "ru": "Мастер использует для этого сложного ремонта только высококачественный инструмент.",
+        "en": "The craftsman uses only high-quality tools for this demanding repair."
+      },
+      "bracket_parts": [
+        "verwendet"
+      ],
+      "akkusativ_parts": [
+        "nur hochwertiges Werkzeug"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verwenden in unserem Unternehmen modernste Technologien zur Datenanalyse.",
+      "translation": {
+        "ru": "Мы используем в нашей компании самые современные технологии для анализа данных.",
+        "en": "In our enterprise we use cutting-edge technologies for data analysis."
+      },
+      "bracket_parts": [
+        "verwenden"
+      ],
+      "akkusativ_parts": [
+        "modernste Technologien"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verwendet ihr bei der Präsentation anschauliche Grafiken und Diagramme?",
+      "translation": {
+        "ru": "Вы используете в презентации наглядные графики и диаграммы?",
+        "en": "Are you using clear graphics and diagrams in the presentation?"
+      },
+      "bracket_parts": [
+        "Verwendet"
+      ],
+      "akkusativ_parts": [
+        "anschauliche Grafiken und Diagramme"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern verwendete sie für das Backen ein traditionelles Familienrezept ihrer Großmutter.",
+      "translation": {
+        "ru": "Вчера она использовала для выпечки традиционный семейный рецепт своей бабушки.",
+        "en": "Yesterday she used a traditional family recipe from her grandmother for baking."
+      },
+      "bracket_parts": [
+        "verwendete"
+      ],
+      "akkusativ_parts": [
+        "ein traditionelles Familienrezept"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Forscher haben eine völlig neuartige Messmethode erfolgreich verwendet.",
+      "translation": {
+        "ru": "Исследователи успешно применили совершенно новый метод измерений.",
+        "en": "The researchers successfully utilised a completely new measuring method."
+      },
+      "bracket_parts": [
+        "haben",
+        "verwendet"
+      ],
+      "akkusativ_parts": [
+        "eine völlig neuartige Messmethode"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verwenden Sie bitte für jedes Online-Konto ein sicheres Passwort!",
+      "translation": {
+        "ru": "Используйте, пожалуйста, для каждого онлайн-аккаунта надежный пароль!",
+        "en": "Please use a secure password for every online account!"
+      },
+      "bracket_parts": [
+        "Verwenden"
+      ],
+      "akkusativ_parts": [
+        "ein sicheres Passwort"
+      ]
+    }
+  ]
+}

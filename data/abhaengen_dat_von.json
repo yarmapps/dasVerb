@@ -1,0 +1,185 @@
+{
+  "id": "abhaengen_dat_von",
+  "infinitive": "abhängen",
+  "translation": {
+    "ru": "зависеть (от чего-то/кого-то)",
+    "en": "to depend on"
+  },
+  "level": "B1",
+  "frequency_rank": 145,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ab",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "abhängen",
+    "present_3sg": "hängt ab",
+    "praeteritum_3sg": "hing ab",
+    "partizip_2": "abgehangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "hänge ab",
+      "du": "hängst ab",
+      "er_sie_es": "hängt ab",
+      "wir": "hängen ab",
+      "ihr": "hängt ab",
+      "sie_Sie": "hängen ab",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "hing ab",
+      "du": "hingst ab",
+      "er_sie_es": "hing ab",
+      "wir": "hingen ab",
+      "ihr": "hingt ab",
+      "sie_Sie": "hingen ab"
+    },
+    "imperative": {
+      "du": "häng ab!",
+      "ihr": "hängt ab!",
+      "Sie": "hängen Sie ab!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "von",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "vom Wetter / von der Entscheidung (Dat) abhängen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich hänge in dieser wichtigen Frage stark von der Zustimmung meiner Familie ab.",
+      "translation": {
+        "ru": "В этом важном вопросе я сильно завишу от согласия моей семьи.",
+        "en": "In this important matter I depend heavily on my family's approval."
+      },
+      "bracket_parts": [
+        "hänge",
+        "ab"
+      ],
+      "dativ_parts": [
+        "von der Zustimmung"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Hängst du bei deinen Reiseplänen sehr vom aktuellen Wetterbericht ab?",
+      "translation": {
+        "ru": "Ты в своих планах на поездку очень зависишь от текущего прогноза погоды?",
+        "en": "Do you depend very much on the current weather forecast for your travel plans?"
+      },
+      "bracket_parts": [
+        "Hängst",
+        "ab"
+      ],
+      "dativ_parts": [
+        "vom aktuellen Wetterbericht"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Gesamterfolg des Projekts hängt maßgeblich von einer guten Planung ab.",
+      "translation": {
+        "ru": "Общий успех проекта решающим образом зависит от хорошего планирования.",
+        "en": "The overall success of the project depends decisively on good planning."
+      },
+      "bracket_parts": [
+        "hängt",
+        "ab"
+      ],
+      "dativ_parts": [
+        "von einer guten Planung"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir hängen bei dieser Entscheidung vollkommen von den gesetzlichen Vorgaben ab.",
+      "translation": {
+        "ru": "При этом решении мы полностью зависим от законодательных предписаний.",
+        "en": "In this decision we depend completely on the statutory requirements."
+      },
+      "bracket_parts": [
+        "hängen",
+        "ab"
+      ],
+      "dativ_parts": [
+        "von den gesetzlichen Vorgaben"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Hängt ihr finanziell immer noch von der Unterstützung eurer Eltern ab?",
+      "translation": {
+        "ru": "Вы в финансовом плане всё еще зависите от поддержки родителей?",
+        "en": "Do you still depend financially on your parents' support?"
+      },
+      "bracket_parts": [
+        "Hängt",
+        "ab"
+      ],
+      "dativ_parts": [
+        "von der Unterstützung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals hing die Ernte der Bauern vollständig von den regelmäßigen Regenfällen ab.",
+      "translation": {
+        "ru": "В те времена урожай крестьян полностью зависел от регулярных дождей.",
+        "en": "At that time the farmers' harvest depended entirely on regular rainfall."
+      },
+      "bracket_parts": [
+        "hing",
+        "ab"
+      ],
+      "dativ_parts": [
+        "von den regelmäßigen Regenfällen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Termin hat letztlich von der schnellen Genehmigung der Behörden abgehangen.",
+      "translation": {
+        "ru": "Срок в конечном итоге зависел от быстрого разрешения властей.",
+        "en": "The date ultimately depended on the swift approval from the authorities."
+      },
+      "bracket_parts": [
+        "hat",
+        "abgehangen"
+      ],
+      "dativ_parts": [
+        "von der schnellen Genehmigung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Hängen Sie bei Ihren Plänen bitte nicht nur von einer einzigen Option ab!",
+      "translation": {
+        "ru": "Не зависьте в своих планах, пожалуйста, только от одного единственного варианта!",
+        "en": "Please do not depend on just a single option in your plans!"
+      },
+      "bracket_parts": [
+        "Hängen",
+        "ab"
+      ],
+      "dativ_parts": [
+        "von einer einzigen Option"
+      ]
+    }
+  ]
+}

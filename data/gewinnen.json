@@ -1,0 +1,175 @@
+{
+  "id": "gewinnen",
+  "infinitive": "gewinnen",
+  "translation": {
+    "ru": "выигрывать, побеждать",
+    "en": "to win"
+  },
+  "level": "A2",
+  "frequency_rank": 87,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ge",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "gewinnen",
+    "present_3sg": "gewinnt",
+    "praeteritum_3sg": "gewann",
+    "partizip_2": "gewonnen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gewinne",
+      "du": "gewinnst",
+      "er_sie_es": "gewinnt",
+      "wir": "gewinnen",
+      "ihr": "gewinnt",
+      "sie_Sie": "gewinnen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "gewann",
+      "du": "gewannst",
+      "er_sie_es": "gewann",
+      "wir": "gewannen",
+      "ihr": "gewannt",
+      "sie_Sie": "gewannen"
+    },
+    "imperative": {
+      "du": "gewinn!",
+      "ihr": "gewinnt!",
+      "Sie": "gewinnen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das Spiel / einen Preis (Akk) gewinnen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich gewinne beim Schachspiel oft gegen meinen älteren Bruder.",
+      "translation": {
+        "ru": "Я в шахматах часто выигрываю у своего старшего брата.",
+        "en": "I often win against my older brother at chess."
+      },
+      "bracket_parts": [
+        "gewinne"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Gewinnst du bei diesem Wettbewerb den ersten Preis?",
+      "translation": {
+        "ru": "Ты выиграешь первый приз в этом конкурсе?",
+        "en": "Are you winning the first prize in this competition?"
+      },
+      "bracket_parts": [
+        "Gewinnst"
+      ],
+      "akkusativ_parts": [
+        "den ersten Preis"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der junge Sportler gewinnt heute verdient die Goldmedaille.",
+      "translation": {
+        "ru": "Молодой спортсмен сегодня заслуженно выигрывает золотую медаль.",
+        "en": "The young athlete deservedly wins the gold medal today."
+      },
+      "bracket_parts": [
+        "gewinnt"
+      ],
+      "akkusativ_parts": [
+        "die Goldmedaille"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir gewinnen dieses schwere Fußballspiel dank unseres neuen Torwarts.",
+      "translation": {
+        "ru": "Мы выигрываем этот трудный футбольный матч благодаря новому вратарю.",
+        "en": "We are winning this difficult football match thanks to our new goalkeeper."
+      },
+      "bracket_parts": [
+        "gewinnen"
+      ],
+      "akkusativ_parts": [
+        "dieses schwere Fußballspiel"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Gewinnt ihr bei der großen Tombola schöne Geschenke?",
+      "translation": {
+        "ru": "Вы выигрываете в большой лотерее красивые подарки?",
+        "en": "Are you winning nice presents in the big raffle?"
+      },
+      "bracket_parts": [
+        "Gewinnt"
+      ],
+      "akkusativ_parts": [
+        "schöne Geschenke"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern gewann sie überraschend eine wertvolle Reise nach Rom.",
+      "translation": {
+        "ru": "Вчера она неожиданно выиграла ценную поездку в Рим.",
+        "en": "Yesterday she surprisingly won a valuable trip to Rome."
+      },
+      "bracket_parts": [
+        "gewann"
+      ],
+      "akkusativ_parts": [
+        "eine wertvolle Reise"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben das spannende Match im letzten Moment gewonnen.",
+      "translation": {
+        "ru": "Они выиграли этот захватывающий матч в последний момент.",
+        "en": "They won the exciting match at the very last moment."
+      },
+      "bracket_parts": [
+        "haben",
+        "gewonnen"
+      ],
+      "akkusativ_parts": [
+        "das spannende Match"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Gewinn bitte dieses wichtige Turnier für unsere Schule!",
+      "translation": {
+        "ru": "Выиграй, пожалуйста, этот важный турнир для нашей школы!",
+        "en": "Please win this important tournament for our school!"
+      },
+      "bracket_parts": [
+        "Gewinn"
+      ],
+      "akkusativ_parts": [
+        "dieses wichtige Turnier"
+      ]
+    }
+  ]
+}

@@ -14,6 +14,7 @@ import { useLocale } from '../../context/LocaleContext';
 import { LANGUAGES } from '../../types/intl';
 import { getSettings, updateSettings } from '../../services/settingsService';
 import { soundService } from '../../services/soundService';
+import { trackEvent } from '../../services/analyticsService';
 import { createStyles } from './SettingsScreen.styles';
 
 type SettingsScreenNavigationProp = NativeStackNavigationProp<RootStackParamList>;
@@ -37,6 +38,7 @@ export function SettingsScreen(): React.JSX.Element {
   );
 
   const handleSoundToggle = (value: boolean) => {
+    trackEvent('settings_sound_toggled', { enabled: value });
     setSoundEnabled(value);
     updateSettings({ soundEffects: value });
     if (value) {
@@ -45,11 +47,13 @@ export function SettingsScreen(): React.JSX.Element {
   };
 
   const handleNotificationsToggle = (value: boolean) => {
+    trackEvent('settings_notifications_toggled', { enabled: value });
     setNotificationsEnabled(value);
     updateSettings({ notifications: value });
   };
 
   const handleSpeakToggle = (value: boolean) => {
+    trackEvent('settings_speak_on_correct_toggled', { enabled: value });
     setSpeakOnCorrectAnswer(value);
     updateSettings({ speakOnCorrectAnswer: value });
     if (value) {
@@ -59,6 +63,7 @@ export function SettingsScreen(): React.JSX.Element {
 
   const handleVoiceGenderToggle = () => {
     const next = ttsVoiceGender === 'female' ? 'male' : 'female';
+    trackEvent('settings_voice_gender_changed', { gender: next });
     setTtsVoiceGender(next);
     updateSettings({ ttsVoiceGender: next });
     soundService.playTapSound();
@@ -73,10 +78,13 @@ export function SettingsScreen(): React.JSX.Element {
     const modes: ('light' | 'dark' | 'system')[] = ['system', 'light', 'dark'];
     const currentIndex = modes.indexOf(themeMode);
     const nextIndex = (currentIndex + 1) % modes.length;
-    setThemeMode(modes[nextIndex]);
+    const newTheme = modes[nextIndex];
+    trackEvent('settings_theme_changed', { theme: newTheme });
+    setThemeMode(newTheme);
   };
 
   const handleContactUs = () => {
+    trackEvent('settings_contact_us_clicked', {});
     Linking.openURL('mailto:yarm.apps@gmail.com');
   };
 

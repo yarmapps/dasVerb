@@ -1,0 +1,173 @@
+{
+  "id": "moegen",
+  "infinitive": "mögen",
+  "translation": {
+    "ru": "любить, нравиться",
+    "en": "to like"
+  },
+  "level": "A1",
+  "frequency_rank": 60,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "modal",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "mögen",
+    "present_3sg": "mag",
+    "praeteritum_3sg": "mochte",
+    "partizip_2": "gemocht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "mag",
+      "du": "magst",
+      "er_sie_es": "mag",
+      "wir": "mögen",
+      "ihr": "mögt",
+      "sie_Sie": "mögen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "mochte",
+      "du": "mochtest",
+      "er_sie_es": "mochte",
+      "wir": "mochten",
+      "ihr": "mochtet",
+      "sie_Sie": "mochten"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Schokolade / Hunde mögen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich mag süße Schokolade sehr.",
+      "translation": {
+        "ru": "Я очень люблю сладкий шоколад.",
+        "en": "I like sweet chocolate very much."
+      },
+      "bracket_parts": [
+        "mag"
+      ],
+      "akkusativ_parts": [
+        "süße Schokolade"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Magst du frischen Kaffee am Morgen?",
+      "translation": {
+        "ru": "Ты любишь свежий кофе по утрам?",
+        "en": "Do you like fresh coffee in the morning?"
+      },
+      "bracket_parts": [
+        "Magst"
+      ],
+      "akkusativ_parts": [
+        "frischen Kaffee"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er mag kleine Hunde und Katzen.",
+      "translation": {
+        "ru": "Он любит маленьких собак и кошек.",
+        "en": "He likes small dogs and cats."
+      },
+      "bracket_parts": [
+        "mag"
+      ],
+      "akkusativ_parts": [
+        "kleine Hunde und Katzen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir mögen spannende Bücher über Tiere.",
+      "translation": {
+        "ru": "Мы любим увлекательные книги о животных.",
+        "en": "We like exciting books about animals."
+      },
+      "bracket_parts": [
+        "mögen"
+      ],
+      "akkusativ_parts": [
+        "spannende Bücher"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Mögt ihr heißen Tee mit Zitrone?",
+      "translation": {
+        "ru": "Вы любите горячий чай с лимоном?",
+        "en": "Do you like hot tea with lemon?"
+      },
+      "bracket_parts": [
+        "Mögt"
+      ],
+      "akkusativ_parts": [
+        "heißen Tee"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Als Kind mochte sie überhaupt keine Suppe.",
+      "translation": {
+        "ru": "В детстве она совсем не любила суп.",
+        "en": "As a child she did not like soup at all."
+      },
+      "bracket_parts": [
+        "mochte"
+      ],
+      "akkusativ_parts": [
+        "keine Suppe"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben dieses alte Haus schon immer gemocht.",
+      "translation": {
+        "ru": "Они всегда любили этот старый дом.",
+        "en": "They have always liked this old house."
+      },
+      "bracket_parts": [
+        "haben",
+        "gemocht"
+      ],
+      "akkusativ_parts": [
+        "dieses alte Haus"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Mögen Sie bitte dieses schöne Lied hören?",
+      "translation": {
+        "ru": "Не хотите ли послушать эту красивую песню?",
+        "en": "Would you like to listen to this beautiful song?"
+      },
+      "bracket_parts": [
+        "Mögen"
+      ],
+      "akkusativ_parts": [
+        "dieses schöne Lied"
+      ]
+    }
+  ]
+}

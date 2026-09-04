@@ -1,0 +1,185 @@
+{
+  "id": "ablehnen",
+  "infinitive": "ablehnen",
+  "translation": {
+    "ru": "отклонять, отвергать (предложение, просьбу)",
+    "en": "to reject, to decline"
+  },
+  "level": "B2",
+  "frequency_rank": 165,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "ab",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ablehnen",
+    "present_3sg": "lehnt ab",
+    "praeteritum_3sg": "lehnte ab",
+    "partizip_2": "abgelehnt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lehne ab",
+      "du": "lehnst ab",
+      "er_sie_es": "lehnt ab",
+      "wir": "lehnen ab",
+      "ihr": "lehnt ab",
+      "sie_Sie": "lehnen ab",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "lehnte ab",
+      "du": "lehntest ab",
+      "er_sie_es": "lehnte ab",
+      "wir": "lehnten ab",
+      "ihr": "lehntet ab",
+      "sie_Sie": "lehnten ab"
+    },
+    "imperative": {
+      "du": "lehn ab!",
+      "ihr": "lehnt ab!",
+      "Sie": "lehnen Sie ab!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein unverschämtes Angebot (Akk) entschieden ablehnen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich lehne unethische und zweifelhafte Geschäftsangebote grundsätzlich und entschieden ab.",
+      "translation": {
+        "ru": "Неэтичные и сомнительные деловые предложения я принципиально и решительно отвергаю.",
+        "en": "I reject unethical and dubious business offers on principle and decisively."
+      },
+      "bracket_parts": [
+        "lehne",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "unethische und zweifelhafte Geschäftsangebote"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Lehnst du die Einladung zur Geburtstagsfeier deines Chefs wirklich höflich ab?",
+      "translation": {
+        "ru": "Ты действительно вежливо отклонишь приглашение на день рождения своего начальника?",
+        "en": "Are you really politely declining the invitation to your boss's birthday party?"
+      },
+      "bracket_parts": [
+        "Lehnst",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "die Einladung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Vorstand lehnt den riskanten Fusionsplan nach eingehender Prüfung einstimmig ab.",
+      "translation": {
+        "ru": "Правление после детальной проверки единогласно отклоняет рискованный план слияния.",
+        "en": "The board unanimously rejects the risky merger plan after thorough examination."
+      },
+      "bracket_parts": [
+        "lehnt",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "den riskanten Fusionsplan"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir lehnen jegliche Form von Gewalt und Diskriminierung in unserer Gesellschaft ab.",
+      "translation": {
+        "ru": "Мы отвергаем любую форму насилия и дискриминации в нашем обществе.",
+        "en": "We reject any form of violence and discrimination in our society."
+      },
+      "bracket_parts": [
+        "lehnen",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "jegliche Form von Gewalt und Diskriminierung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Lehnt ihr den unfairen Vergleichsvorschlag der gegnerischen Versicherung vor Gericht ab?",
+      "translation": {
+        "ru": "Вы отклоните в суде несправедливое мировое предложение страховой компании оппонента?",
+        "en": "Are you rejecting the unfair settlement proposal of the opposing insurance in court?"
+      },
+      "bracket_parts": [
+        "Lehnt",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "den unfairen Vergleichsvorschlag"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern lehnte die Behörde den Bauantrag wegen fehlender Brandschutzmaßnahmen ab.",
+      "translation": {
+        "ru": "Вчера ведомство отклонило заявку на строительство из-за отсутствия мер противопожарной безопасности.",
+        "en": "Yesterday the authority rejected the building application due to a lack of fire protection measures."
+      },
+      "bracket_parts": [
+        "lehnte",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "den Bauantrag"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das Parlament hat das umstrittene Gesetz nach langer Debatte mehrheitlich abgelehnt.",
+      "translation": {
+        "ru": "Парламент после долгих дебатов большинством голосов отклонил спорный закон.",
+        "en": "Parliament rejected the controversial law by majority after a long debate."
+      },
+      "bracket_parts": [
+        "hat",
+        "abgelehnt"
+      ],
+      "akkusativ_parts": [
+        "das umstrittene Gesetz"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Lehnen Sie unbegründete Forderungen bitte stets schriftlich und bestimmt ab!",
+      "translation": {
+        "ru": "Отклоняйте необоснованные требования, пожалуйста, всегда письменно и твердо!",
+        "en": "Please always reject unfounded demands in writing and firmly!"
+      },
+      "bracket_parts": [
+        "Lehnen",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "unbegründete Forderungen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": "beeinflussen",
+  "infinitive": "beeinflussen",
+  "translation": {
+    "ru": "влиять на, оказывать воздействие",
+    "en": "to influence, to affect"
+  },
+  "level": "B1",
+  "frequency_rank": 185,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beeinflussen",
+    "present_3sg": "beeinflusst",
+    "praeteritum_3sg": "beeinflusste",
+    "partizip_2": "beeinflusst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beeinflusse",
+      "du": "beeinflusst",
+      "er_sie_es": "beeinflusst",
+      "wir": "beeinflussen",
+      "ihr": "beeinflusst",
+      "sie_Sie": "beeinflussen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "beeinflusste",
+      "du": "beeinflusstest",
+      "er_sie_es": "beeinflusste",
+      "wir": "beeinflussten",
+      "ihr": "beeinflusstet",
+      "sie_Sie": "beeinflussten"
+    },
+    "imperative": {
+      "du": "beeinfluss!",
+      "ihr": "beeinflusst!",
+      "Sie": "beeinflussen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Entscheidung / die Meinung (Akk) stark beeinflussen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich beeinflusse meine Mitmenschen am liebsten durch ein positives persönliches Vorbild.",
+      "translation": {
+        "ru": "Я охотнее всего влияю на окружающих своим положительным личным примером.",
+        "en": "I prefer to influence my fellow human beings through a positive personal role model."
+      },
+      "bracket_parts": [
+        "beeinflusse"
+      ],
+      "akkusativ_parts": [
+        "meine Mitmenschen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Beeinflusst du die wichtige Entscheidung deiner Kollegen bei der Abstimmung?",
+      "translation": {
+        "ru": "Ты влияешь на важное решение своих коллег при голосовании?",
+        "en": "Are you influencing your colleagues' important decision in the vote?"
+      },
+      "bracket_parts": [
+        "Beeinflusst"
+      ],
+      "akkusativ_parts": [
+        "die wichtige Entscheidung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die ständige Werbung in den sozialen Medien beeinflusst das Kaufverhalten junger Leute.",
+      "translation": {
+        "ru": "Постоянная реклама в социальных сетях влияет на покупательское поведение молодежи.",
+        "en": "Constant advertising on social media influences the purchasing behavior of young people."
+      },
+      "bracket_parts": [
+        "beeinflusst"
+      ],
+      "akkusativ_parts": [
+        "das Kaufverhalten"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beeinflussen das Betriebsklima positiv, indem wir offen miteinander kommunizieren.",
+      "translation": {
+        "ru": "Мы положительно влияем на климат в коллективе, открыто общаясь друг с другом.",
+        "en": "We influence the work atmosphere positively by communicating openly with one another."
+      },
+      "bracket_parts": [
+        "beeinflussen"
+      ],
+      "akkusativ_parts": [
+        "das Betriebsklima"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Beeinflusst ihr das Wahlergebnis durch eure engagierte Kampagne an der Universität?",
+      "translation": {
+        "ru": "Вы влияете на результат выборов своей активной кампанией в университете?",
+        "en": "Are you influencing the election result through your dedicated campaign at university?"
+      },
+      "bracket_parts": [
+        "Beeinflusst"
+      ],
+      "akkusativ_parts": [
+        "das Wahlergebnis"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern beeinflusste das schlechte Wetter die Besucherzahlen des Festivals spürbar.",
+      "translation": {
+        "ru": "Вчера плохая погода заметно повлияла на посещаемость фестиваля.",
+        "en": "Yesterday the bad weather noticeably influenced the festival's attendance figures."
+      },
+      "bracket_parts": [
+        "beeinflusste"
+      ],
+      "akkusativ_parts": [
+        "die Besucherzahlen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Seine fundierten Ratschläge haben meine berufliche Laufbahn sehr positiv beeinflusst.",
+      "translation": {
+        "ru": "Его обоснованные советы очень положительно повлияли на мою профессиональную карьеру.",
+        "en": "His sound advice influenced my professional career very positively."
+      },
+      "bracket_parts": [
+        "haben",
+        "beeinflusst"
+      ],
+      "akkusativ_parts": [
+        "meine berufliche Laufbahn"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Lassen Sie sich bei Ihrer Wahl bitte nicht von Gerüchten beeinflussen!",
+      "translation": {
+        "ru": "Не позволяйте слухам влиять на ваш выбор!",
+        "en": "Please do not let rumours influence you in your choice!"
+      },
+      "bracket_parts": [
+        "beeinflussen"
+      ]
+    }
+  ]
+}
