@@ -10,6 +10,8 @@ import { trackEvent } from '../services/analyticsService';
 import { DailyQuizLimitModal } from '../components/DailyQuizLimitModal/DailyQuizLimitModal';
 import { PremiumSubscribeSheet } from '../components/PremiumSubscribeSheet/PremiumSubscribeSheet';
 import { RootStackParamList } from '../types/navigation';
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const { ENABLE_PREMIUM } = require('../config/features');
 
 export type VerbQuizParams = RootStackParamList['VerbQuiz'];
 
@@ -94,16 +96,18 @@ export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQ
       <DailyQuizLimitModal
         visible={showLimitModal}
         onDismiss={handleDismiss}
-        onPremiumCTA={handlePremiumCTA}
+        onPremiumCTA={ENABLE_PREMIUM ? handlePremiumCTA : undefined}
         onVideoSuccess={handleVideoSuccess}
         canWatchAd={canWatchAdToday()}
       />
-      <PremiumSubscribeSheet
-        visible={showPaywall}
-        onClose={handlePaywallClose}
-        onPurchaseSuccess={handlePurchaseSuccess}
-        source="daily_quiz_limit"
-      />
+      {ENABLE_PREMIUM && (
+        <PremiumSubscribeSheet
+          visible={showPaywall}
+          onClose={handlePaywallClose}
+          onPurchaseSuccess={handlePurchaseSuccess}
+          source="daily_quiz_limit"
+        />
+      )}
     </>
   );
 

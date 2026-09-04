@@ -7,6 +7,8 @@ import { useRewardedAd } from '../../ads/useRewardedAd';
 import { grantExtraQuiz } from '../../services/usageService';
 import { trackEvent } from '../../services/analyticsService';
 import { createStyles } from './DailyQuizLimitModal.styles';
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const { ENABLE_PREMIUM } = require('../../config/features');
 
 export interface DailyQuizLimitModalProps {
   visible: boolean;
@@ -132,29 +134,32 @@ export function DailyQuizLimitModal({
                 {intl.formatMessage({ id: 'dailyQuizLimitModal.instructions' })}
               </Text>
 
-              {/* Premium Button */}
-              <TouchableOpacity
-                style={styles.premiumButton}
-                activeOpacity={0.85}
-                onPress={handlePremiumPress}
-                testID="daily-limit-premium-button"
-              >
-                <View style={styles.premiumButtonIcon}>
-                  <FontAwesome5 name="gem" size={16} color="#FFFFFF" />
-                </View>
-                <Text style={styles.premiumButtonText}>
-                  {intl.formatMessage({ id: 'dailyQuizLimitModal.premiumButtonNoTrial' })}
-                </Text>
-              </TouchableOpacity>
+              {/* Premium Button & Divider */}
+              {ENABLE_PREMIUM && onPremiumCTA && (
+                <>
+                  <TouchableOpacity
+                    style={styles.premiumButton}
+                    activeOpacity={0.85}
+                    onPress={handlePremiumPress}
+                    testID="daily-limit-premium-button"
+                  >
+                    <View style={styles.premiumButtonIcon}>
+                      <FontAwesome5 name="gem" size={16} color="#FFFFFF" />
+                    </View>
+                    <Text style={styles.premiumButtonText}>
+                      {intl.formatMessage({ id: 'dailyQuizLimitModal.premiumButtonNoTrial' })}
+                    </Text>
+                  </TouchableOpacity>
 
-              {/* Divider */}
-              <View style={styles.divider}>
-                <View style={styles.dividerLine} />
-                <Text style={styles.dividerText}>
-                  {intl.formatMessage({ id: 'dailyQuizLimitModal.or' })}
-                </Text>
-                <View style={styles.dividerLine} />
-              </View>
+                  <View style={styles.divider}>
+                    <View style={styles.dividerLine} />
+                    <Text style={styles.dividerText}>
+                      {intl.formatMessage({ id: 'dailyQuizLimitModal.or' })}
+                    </Text>
+                    <View style={styles.dividerLine} />
+                  </View>
+                </>
+              )}
 
               {/* Rewarded Video / Ad Button */}
               <TouchableOpacity

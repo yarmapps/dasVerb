@@ -16,6 +16,8 @@ import { useNavigateToQuiz } from '../../hooks/useNavigateToQuiz';
 import { usePremiumStatus } from '../../hooks/usePremiumStatus';
 import { RootStackParamList, PracticeStackParamList } from '../../types/navigation';
 import { createStyles } from './PracticeScreen.styles';
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const { ENABLE_PREMIUM } = require('../../config/features');
 
 type NavigationProp = NativeStackNavigationProp<PracticeStackParamList & RootStackParamList>;
 
@@ -46,7 +48,7 @@ export function PracticeScreen(): React.JSX.Element {
         showBackButton={false}
         leftContent={
           <View style={styles.headerLeftRow}>
-            {!isPremium && (
+            {ENABLE_PREMIUM && !isPremium && (
               <TouchableOpacity
                 style={styles.headerButton}
                 onPress={() => setShowPremiumSheet(true)}
@@ -80,11 +82,13 @@ export function PracticeScreen(): React.JSX.Element {
         </ScrollView>
       </View>
       {dailyQuizLimitModalUI}
-      <PremiumSubscribeSheet
-        visible={showPremiumSheet}
-        onClose={() => setShowPremiumSheet(false)}
-        source="home_header_gem"
-      />
+      {ENABLE_PREMIUM && (
+        <PremiumSubscribeSheet
+          visible={showPremiumSheet}
+          onClose={() => setShowPremiumSheet(false)}
+          source="home_header_gem"
+        />
+      )}
     </ScreenBackground>
   );
 }

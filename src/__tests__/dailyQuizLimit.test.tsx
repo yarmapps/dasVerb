@@ -29,12 +29,12 @@ describe('DailyQuizLimit Component & Hook', () => {
   });
 
   describe('DailyQuizLimitModal', () => {
-    it('should render modal with title, message, premium and video ad buttons', () => {
+    it('should render modal with title, message, and video ad button when ENABLE_PREMIUM is false', () => {
       const onDismiss = jest.fn();
       const onVideoSuccess = jest.fn();
       const onPremiumCTA = jest.fn();
 
-      const { getByText, getByTestId } = render(
+      const { getByText, getByTestId, queryByTestId, queryByText } = render(
         <ScreenWrapper>
           <DailyQuizLimitModal
             visible={true}
@@ -47,11 +47,9 @@ describe('DailyQuizLimit Component & Hook', () => {
       );
 
       expect(getByText('Отличный прогресс!')).toBeTruthy();
-      expect(getByText('Купить Premium')).toBeTruthy();
+      expect(queryByText('Купить Premium')).toBeNull();
+      expect(queryByTestId('daily-limit-premium-button')).toBeNull();
       expect(getByText('Смотреть рекламу')).toBeTruthy();
-
-      fireEvent.press(getByTestId('daily-limit-premium-button'));
-      expect(onPremiumCTA).toHaveBeenCalled();
 
       fireEvent.press(getByTestId('daily-limit-close-button'));
       expect(onDismiss).toHaveBeenCalled();

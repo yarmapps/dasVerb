@@ -6,7 +6,9 @@ import Purchases, {
   PurchasesOfferings,
   PACKAGE_TYPE,
 } from 'react-native-purchases';
-import { setPremiumEnabled } from './premiumAccessService';
+import { setPremiumEnabled, isPremiumEnabled } from './premiumAccessService';
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const { ENABLE_PREMIUM } = require('../config/features');
 
 /* ── API keys ──────────────────────────────────────────────── */
 const API_KEYS = {
@@ -49,6 +51,13 @@ function formatPrice(amount: number, currencyCode: string): string {
  * Call once at app startup (before any purchase-related UI).
  */
 export async function initRevenueCat(): Promise<void> {
+  if (!ENABLE_PREMIUM) {
+    if (__DEV__) {
+      console.log('[RevenueCat] ENABLE_PREMIUM is false, skipping initialization');
+    }
+    return;
+  }
+
   const apiKey = Platform.OS === 'ios' ? API_KEYS.ios : API_KEYS.android;
 
   if (!apiKey) {
@@ -58,23 +67,41 @@ export async function initRevenueCat(): Promise<void> {
     return;
   }
 
-  if (__DEV__) {
-    Purchases.setLogLevel(LOG_LEVEL.VERBOSE);
+  // Guard against using test_ keys in non-dev builds where native billing might throw
+  if (!__DEV__ && apiKey.startsWith('test_')) {
+    console.warn(
+      '[RevenueCat] Skipping Purchases.configure: test keys cannot be used in release builds',
+    );
+    return;
   }
 
-  Purchases.configure({ apiKey });
+  try {
+    if (__DEV__) {
+      Purchases.setLogLevel(LOG_LEVEL.VERBOSE);
+    }
 
-  // Listen for subscription status changes (renewals, cancellations, etc.)
-  Purchases.addCustomerInfoUpdateListener(updatePremiumFromCustomerInfo);
+    Purchases.configure({ apiKey });
 
-  // Sync current status on launch
-  await checkPremiumStatus();
+    // Listen for subscription status changes (renewals, cancellations, etc.)
+    Purchases.addCustomerInfoUpdateListener(updatePremiumFromCustomerInfo);
+
+    // Sync current status on launch
+    await checkPremiumStatus();
+  } catch (error) {
+    if (__DEV__) {
+      console.warn('[RevenueCat] Purchases.configure failed:', error);
+    }
+  }
 }
 
 /**
  * Check current entitlement status and update the local flag.
  */
 export async function checkPremiumStatus(): Promise<boolean> {
+  if (!ENABLE_PREMIUM) {
+    return isPremiumEnabled();
+  }
+
   try {
     const customerInfo = await Purchases.getCustomerInfo();
     const isPremium = customerInfo.entitlements.active[PREMIUM_ENTITLEMENT] !== undefined;

@@ -12,4 +12,5 @@
 module.exports = {
   ENABLE_ADS: true,
   ENABLE_ANALYTICS: true,
+  ENABLE_PREMIUM: false,
 };

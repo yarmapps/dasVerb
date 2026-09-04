@@ -47,7 +47,12 @@
    * Трекинг осуществляется строго через фасад [`src/services/analyticsService.ts`](file:///Users/alexander.yarmosh/yapps/dasVerb/src/services/analyticsService.ts) с типизированными событиями [`src/types/analytics.types.ts`](file:///Users/alexander.yarmosh/yapps/dasVerb/src/types/analytics.types.ts).
    * Для тестирования и Expo Go предусмотрен fallback-мок (`src/analytics/mock.ts`), управляемый флагом `ENABLE_ANALYTICS` в `src/config/features.js`.
 
-7. **Синхронизация и актуализация правил (Строго):**
+7. **Feature Flags и монетизация (`src/config/features.js`):**
+   * `ENABLE_ADS` — флаг доступности рекламы AdMob.
+   * `ENABLE_ANALYTICS` — флаг доступности Firebase Analytics.
+   * `ENABLE_PREMIUM` — флаг встроенных покупок и подписок (RevenueCat). При `false` отключает инициализацию RevenueCat, скрывает иконку бриллианта, убирает опцию покупки из диалога дневного лимита (оставляя только просмотр рекламы) и не открывает пейволл.
+
+8. **Синхронизация и актуализация правил (Строго):**
    * При любых изменениях логики, архитектурных решений, структуры данных или формата именования **ОБЯЗАТЕЛЬНО немедленно обновлять соответствующие файлы спецификаций (`specs/*.md`) и данный `GEMINI.md`**.
    * Все правила, гайдлайны и спецификации проекта **всегда обязаны поддерживаться в 100% актуальном состоянии**.
 

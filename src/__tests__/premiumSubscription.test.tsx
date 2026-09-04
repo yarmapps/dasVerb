@@ -83,17 +83,14 @@ describe('Premium Subscription Suite', () => {
       expect(PREMIUM_ENTITLEMENT).toBe('premium');
     });
 
-    it('checkPremiumStatus should update premiumAccessService', async () => {
-      (Purchases.getCustomerInfo as jest.Mock).mockResolvedValueOnce({
-        entitlements: {
-          active: { premium: {} },
-          all: { premium: {} },
-        },
-      });
+    it('checkPremiumStatus should return isPremiumEnabled when ENABLE_PREMIUM is false', async () => {
+      setPremiumEnabled(false);
+      let result = await checkPremiumStatus();
+      expect(result).toBe(false);
 
-      const result = await checkPremiumStatus();
+      setPremiumEnabled(true);
+      result = await checkPremiumStatus();
       expect(result).toBe(true);
-      expect(isPremiumEnabled()).toBe(true);
     });
 
     it('getMappedPackages should map packages from offerings', async () => {
@@ -203,32 +200,13 @@ describe('Premium Subscription Suite', () => {
   });
 
   describe('PracticeScreen diamond icon', () => {
-    it('shows diamond icon in header for free users and hides it for premium users', async () => {
+    it('does not show diamond icon in header when ENABLE_PREMIUM is false', async () => {
       setPremiumEnabled(false);
-      const { queryByTestId, rerender } = renderWithProviders(<PracticeScreen />);
+      const { queryByTestId } = renderWithProviders(<PracticeScreen />);
 
-      // Diamond button should be visible for free users
-      expect(queryByTestId('premium-gem-button')).toBeTruthy();
-
-      // Tap diamond button to open paywall
-      fireEvent.press(queryByTestId('premium-gem-button')!);
-      expect(queryByTestId('premium-subscribe-sheet')).toBeTruthy();
-
-      // Upgrade to premium
-      act(() => {
-        setPremiumEnabled(true);
-      });
-
-      rerender(
-        <ThemeProvider>
-          <LocaleProvider>
-            <PracticeScreen />
-          </LocaleProvider>
-        </ThemeProvider>,
-      );
-
-      // Diamond button should now be hidden
+      // Diamond button should be hidden when ENABLE_PREMIUM is false
       expect(queryByTestId('premium-gem-button')).toBeNull();
+      expect(queryByTestId('premium-subscribe-sheet')).toBeNull();
     });
   });
 });

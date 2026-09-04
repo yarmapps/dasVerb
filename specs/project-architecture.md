@@ -217,8 +217,10 @@ dasVerb/
      * `ad_reward_*` — факт показа рекламы (`ad_reward_viewed`) и успешное начисление награды (`ad_reward_earned`).
      * `settings_*` — переключение звука, уведомлений, озвучки, пола диктора, темы, выбор языка интерфейса, клик по обратной связи.
    * Все вызовы изолированы в `try ... catch` — сбои нативного модуля никогда не приводят к падению приложения.
-3. **Expo Go & Dev-окружение:**
-   * При отключенном `ENABLE_ANALYTICS` в `src/config/features.js` бандлер Metro перенаправляет вызовы на `src/analytics/mock.ts`, обеспечивая запуск в Expo Go и прогон unit-тестов без необходимости наличия скомпилированных нативных библиотек.
+3. **Expo Go, Dev-окружение и Feature Flags (`src/config/features.js`):**
+   * `ENABLE_ADS` — управление показом и загрузкой мобильной рекламы AdMob.
+   * `ENABLE_ANALYTICS` — при отключении бандлер Metro перенаправляет вызовы на `src/analytics/mock.ts`, обеспечивая запуск в Expo Go и прогон unit-тестов без необходимости наличия скомпилированных нативных библиотек.
+   * `ENABLE_PREMIUM` — при значении `false` полностью отключает логику RevenueCat (не вызывает `Purchases.configure`), скрывает иконку бриллианта (алмаза) в шапке, убирает кнопку покупки Premium и разделитель из модального окна лимита квизов (оставляя только просмотр рекламы) и не открывает экран пейволла (`PremiumSubscribeSheet`).
 4. **Конфигурация нативной сборки iOS (CocoaPods & SPM):**
    * В `app.json` плагин `@react-native-firebase/app` настроен с `{ "ios": { "disableSPM": true } }`, отключая Swift Package Manager в пользу стабильного CocoaPods (`$RNFirebaseDisableSPM = true`).
    * В связке с `expo-build-properties` (`ios.useFrameworks: "static"`) подключен плагин `./plugins/withNonModularHeaders` для настройки статических библиотек и флага `CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = 'YES'`.
