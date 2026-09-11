@@ -1,0 +1,193 @@
+{
+  "id": "informieren_akk_ueber",
+  "infinitive": "informieren",
+  "translation": {
+    "ru": "осведомляться о, узнавать о",
+    "en": "to inform oneself about, find out about"
+  },
+  "level": "B1",
+  "frequency_rank": 288,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "informieren",
+    "present_3sg": "informiert",
+    "praeteritum_3sg": "informierte",
+    "partizip_2": "informiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "informiere mich",
+      "du": "informierst dich",
+      "er_sie_es": "informiert sich",
+      "wir": "informieren uns",
+      "ihr": "informiert euch",
+      "sie_Sie": "informieren sich"
+    },
+    "praeteritum": {
+      "ich": "informierte mich",
+      "du": "informiertest dich",
+      "er_sie_es": "informierte sich",
+      "wir": "informierten uns",
+      "ihr": "informiertet euch",
+      "sie_Sie": "informierten sich"
+    },
+    "imperative": {
+      "du": "informiere dich!",
+      "ihr": "informiert euch!",
+      "Sie": "informieren Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich über das Angebot informieren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich informiere mich gründlich über das neue Studienangebot.",
+      "translation": {
+        "ru": "Я подробно узнаю о новой программе обучения.",
+        "en": "I inform myself thoroughly about the new study program."
+      },
+      "bracket_parts": [
+        "informiere"
+      ],
+      "akkusativ_parts": [
+        "mich",
+        "das neue Studienangebot"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Informierst du dich im Internet über die aktuellen Preise?",
+      "translation": {
+        "ru": "Ты узнаешь в интернете об актуальных ценах?",
+        "en": "Do you inform yourself on the internet about current prices?"
+      },
+      "bracket_parts": [
+        "Informierst"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "die aktuellen Preise"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Tourist informiert sich am Schalter über die Fahrpläne.",
+      "translation": {
+        "ru": "Турист справляется у кассы о расписании.",
+        "en": "The tourist informs himself at the counter about the timetables."
+      },
+      "bracket_parts": [
+        "informiert"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "die Fahrpläne"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir informieren uns regelmäßig über neue Technologien.",
+      "translation": {
+        "ru": "Мы регулярно узнаем о новых технологиях.",
+        "en": "We regularly inform ourselves about new technologies."
+      },
+      "bracket_parts": [
+        "informieren"
+      ],
+      "akkusativ_parts": [
+        "uns",
+        "neue Technologien"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Informiert ihr euch vor der Reise über die Einreisebestimmungen?",
+      "translation": {
+        "ru": "Вы узнаете перед поездкой о правилах въезда?",
+        "en": "Do you guys find out about entry requirements before traveling?"
+      },
+      "bracket_parts": [
+        "Informiert"
+      ],
+      "akkusativ_parts": [
+        "euch",
+        "die Einreisebestimmungen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Familie informierte sich damals genau über die Lage der Wohnung.",
+      "translation": {
+        "ru": "Семья тогда точно навела справки о расположении квартиры.",
+        "en": "The family gathered precise information about the apartment's location back then."
+      },
+      "bracket_parts": [
+        "informierte"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "die Lage der Wohnung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Viele Kunden haben sich bereits über die neue Dienstleistung informiert.",
+      "translation": {
+        "ru": "Многие клиенты уже узнали о новой услуге.",
+        "en": "Many customers have already informed themselves about the new service."
+      },
+      "bracket_parts": [
+        "haben",
+        "informiert"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "die neue Dienstleistung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Informiere dich bitte vor dem Kauf über die Garantiebedingungen!",
+      "translation": {
+        "ru": "Ознакомься перед покупкой с условиями гарантии, пожалуйста!",
+        "en": "Please inform yourself about the warranty terms before purchasing!"
+      },
+      "bracket_parts": [
+        "Informiere"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "die Garantiebedingungen"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

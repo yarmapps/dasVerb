@@ -1,0 +1,154 @@
+{
+  "id": "fallen",
+  "infinitive": "fallen",
+  "translation": {
+    "ru": "падать",
+    "en": "to fall, to drop"
+  },
+  "level": "A2",
+  "frequency_rank": 59,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "fallen",
+    "present_3sg": "fällt",
+    "praeteritum_3sg": "fiel",
+    "partizip_2": "gefallen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "falle",
+      "du": "fällst",
+      "er_sie_es": "fällt",
+      "wir": "fallen",
+      "ihr": "fallt",
+      "sie_Sie": "fallen",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "fiel",
+      "du": "fielst",
+      "er_sie_es": "fiel",
+      "wir": "fielen",
+      "ihr": "fielt",
+      "sie_Sie": "fielen"
+    },
+    "imperative": {
+      "du": "falle",
+      "ihr": "fallt",
+      "Sie": "fallen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "zu Boden fallen",
+  "sentences": [
+    {
+      "id": "fallen_1",
+      "tense": "Präsens",
+      "german": "Ich falle fast um vor Müdigkeit.",
+      "translation": {
+        "ru": "Я почти падаю от усталости.",
+        "en": "I am almost falling over from exhaustion."
+      },
+      "bracket_parts": [
+        "falle"
+      ]
+    },
+    {
+      "id": "fallen_2",
+      "tense": "Präsens",
+      "german": "Fällst du oft beim Eislaufen hin?",
+      "translation": {
+        "ru": "Ты часто падаешь при катании на коньках?",
+        "en": "Do you often fall while ice skating?"
+      },
+      "bracket_parts": [
+        "Fällst"
+      ]
+    },
+    {
+      "id": "fallen_3",
+      "tense": "Präsens",
+      "german": "Das gelbe Blatt fällt langsam vom Baum.",
+      "translation": {
+        "ru": "Желтый лист медленно падает с дерева.",
+        "en": "The yellow leaf falls slowly from the tree."
+      },
+      "bracket_parts": [
+        "fällt"
+      ]
+    },
+    {
+      "id": "fallen_4",
+      "tense": "Präsens",
+      "german": "Wir fallen vor Lachen fast vom Stuhl.",
+      "translation": {
+        "ru": "Мы от смеха чуть не падаем со стула.",
+        "en": "We almost fall off the chair laughing."
+      },
+      "bracket_parts": [
+        "fallen"
+      ]
+    },
+    {
+      "id": "fallen_5",
+      "tense": "Präsens",
+      "german": "Fallt ihr nicht auf dem rutschigen Eis aus?",
+      "translation": {
+        "ru": "Разве вы не падаете на скользком льду?",
+        "en": "Don't you fall on the slippery ice?"
+      },
+      "bracket_parts": [
+        "Fallt"
+      ]
+    },
+    {
+      "id": "fallen_6",
+      "tense": "Präteritum",
+      "german": "Die Temperaturen fielen in der Nacht sehr schnell.",
+      "translation": {
+        "ru": "Температура ночью упала очень быстро.",
+        "en": "Temperatures dropped very quickly during the night."
+      },
+      "bracket_parts": [
+        "fielen"
+      ]
+    },
+    {
+      "id": "fallen_7",
+      "tense": "Perfekt",
+      "german": "Das Glas ist gestern aus Versehen zu Boden gefallen.",
+      "translation": {
+        "ru": "Стакан вчера случайно упал на пол.",
+        "en": "The glass accidentally fell to the floor yesterday."
+      },
+      "bracket_parts": [
+        "ist",
+        "gefallen"
+      ]
+    },
+    {
+      "id": "fallen_8",
+      "tense": "Imperativ",
+      "german": "Falle bitte nicht die steile Treppe hinab!",
+      "translation": {
+        "ru": "Смотри не упади с этой крутой лестницы!",
+        "en": "Please don't fall down the steep stairs!"
+      },
+      "bracket_parts": [
+        "Falle"
+      ]
+    }
+  ]
+}

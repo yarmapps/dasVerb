@@ -1,0 +1,147 @@
+{
+  "id": "waschen_sich",
+  "infinitive": "waschen",
+  "translation": {
+    "ru": "умываться, мыться",
+    "en": "to wash oneself"
+  },
+  "level": "A1",
+  "frequency_rank": 461,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "waschen",
+    "present_3sg": "wäscht sich",
+    "praeteritum_3sg": "wusch sich",
+    "partizip_2": "gewaschen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wasche mich",
+      "du": "wäschst dich",
+      "er_sie_es": "wäscht sich",
+      "wir": "waschen uns",
+      "ihr": "wascht euch",
+      "sie_Sie": "waschen sich"
+    },
+    "praeteritum": {
+      "ich": "wusch mich",
+      "du": "wuschst dich",
+      "er_sie_es": "wusch sich",
+      "wir": "wuschen uns",
+      "ihr": "wuscht euch",
+      "sie_Sie": "wuschen sich"
+    },
+    "perfekt": {
+      "ich": "habe mich gewaschen",
+      "du": "hast dich gewaschen",
+      "er_sie_es": "hat sich gewaschen",
+      "wir": "haben uns gewaschen",
+      "ihr": "habt euch gewaschen",
+      "sie_Sie": "haben sich gewaschen"
+    }
+  },
+  "rektion": {
+    "case": "none",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich wasche mich morgens immer mit eiskaltem Wasser.",
+      "translation": {
+        "ru": "По утрам я всегда умываюсь ледяной водой.",
+        "en": "In the morning I always wash myself with ice-cold water."
+      },
+      "bracket_parts": [
+        "wasche"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du wäschst dich gründlich nach der schweren Gartenarbeit.",
+      "translation": {
+        "ru": "Ты тщательно моешься после тяжелой работы в саду.",
+        "en": "You wash yourself thoroughly after the hard garden work."
+      },
+      "bracket_parts": [
+        "wäschst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das kleine Kätzchen wäscht sich ausgiebig mit der Pfote.",
+      "translation": {
+        "ru": "Маленький котенок усердно умывается лапкой.",
+        "en": "The little kitten washes itself extensively with its paw."
+      },
+      "bracket_parts": [
+        "wäscht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir waschen uns nach dem langen Spaziergang durch den Wald.",
+      "translation": {
+        "ru": "Мы умываемся после долгой прогулки по лесу.",
+        "en": "We wash ourselves after the long walk through the forest."
+      },
+      "bracket_parts": [
+        "waschen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr wascht euch im klaren Bergsee nach der Wanderung.",
+      "translation": {
+        "ru": "Вы моетесь в прозрачном горном озере после похода.",
+        "en": "You wash yourselves in the clear mountain lake after the hike."
+      },
+      "bracket_parts": [
+        "wascht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie wuschen sich damals an einem kleinen Dorfbrunnen.",
+      "translation": {
+        "ru": "Они тогда умывались у маленького деревенского колодца.",
+        "en": "They washed themselves at a small village fountain back then."
+      },
+      "bracket_parts": [
+        "wuschen"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Sportler hat sich nach dem harten Training gewaschen.",
+      "translation": {
+        "ru": "Спортсмен помылся после тяжелой тренировки.",
+        "en": "The athlete washed himself after the hard workout."
+      },
+      "bracket_parts": [
+        "hat",
+        "gewaschen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Wasch dich bitte schnell vor dem gemeinsamen Essen!",
+      "translation": {
+        "ru": "Умойся пожалуйста быстро перед совместным обедом!",
+        "en": "Please wash yourself quickly before the joint meal!"
+      },
+      "bracket_parts": [
+        "Wasch"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "id": "orientieren_dat_an",
+  "infinitive": "orientieren",
+  "translation": {
+    "ru": "ориентироваться на, руководствоваться (чем-то)",
+    "en": "to align with, model oneself on, follow"
+  },
+  "level": "B2",
+  "frequency_rank": 321,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "orientieren",
+    "present_3sg": "orientiert",
+    "praeteritum_3sg": "orientierte",
+    "partizip_2": "orientiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "orientiere mich",
+      "du": "orientierst dich",
+      "er_sie_es": "orientiert sich",
+      "wir": "orientieren uns",
+      "ihr": "orientiert euch",
+      "sie_Sie": "orientieren sich"
+    },
+    "praeteritum": {
+      "ich": "orientierte mich",
+      "du": "orientiertest dich",
+      "er_sie_es": "orientierte sich",
+      "wir": "orientierten uns",
+      "ihr": "orientiertet euch",
+      "sie_Sie": "orientierten sich"
+    },
+    "imperative": {
+      "du": "orientiere dich!",
+      "ihr": "orientiert euch!",
+      "Sie": "orientieren Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "an",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "sich an Vorbildern orientieren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich orientiere mich bei der Arbeit gern an erfahrenen Kollegen.",
+      "translation": {
+        "ru": "В работе я охотно ориентируюсь на опытных коллег.",
+        "en": "In my work, I like to model myself on experienced colleagues."
+      },
+      "bracket_parts": [
+        "orientiere"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": [
+        "erfahrenen Kollegen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Orientierst du dich beim Schreiben an den Vorgaben des Chefs?",
+      "translation": {
+        "ru": "Ты при написании руководствуешься требованиями шефа?",
+        "en": "Do you align yourself with the boss's specifications when writing?"
+      },
+      "bracket_parts": [
+        "Orientierst"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "den Vorgaben des Chefs"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das junge Unternehmen orientiert sich an den Marktführern.",
+      "translation": {
+        "ru": "Молодое предприятие равняется на лидеров рынка.",
+        "en": "The young company aligns itself with market leaders."
+      },
+      "bracket_parts": [
+        "orientiert"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "den Marktführern"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir orientieren uns bei den Preisen an dem Branchendurchschnitt.",
+      "translation": {
+        "ru": "В ценах мы ориентируемся на среднеотраслевой показатель.",
+        "en": "We orient our prices to the industry average."
+      },
+      "bracket_parts": [
+        "orientieren"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ],
+      "dativ_parts": [
+        "dem Branchendurchschnitt"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Orientiert ihr euch im Studium an den Empfehlungen der Professoren?",
+      "translation": {
+        "ru": "Вы в учебе ориентируетесь на рекомендации профессоров?",
+        "en": "Do you guys guide yourselves by professors' recommendations in your studies?"
+      },
+      "bracket_parts": [
+        "Orientiert"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ],
+      "dativ_parts": [
+        "den Empfehlungen der Professoren"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Partei orientierte sich damals stark an internationalen Vorbildern.",
+      "translation": {
+        "ru": "Партия тогда сильно ориентировалась на международные примеры.",
+        "en": "The party aligned itself strongly with international models back then."
+      },
+      "bracket_parts": [
+        "orientierte"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "internationalen Vorbildern"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Forscher haben sich stets an strengen ethischen Richtlinien orientiert.",
+      "translation": {
+        "ru": "Исследователи всегда руководствовались строгими этическими принципами.",
+        "en": "The researchers have always adhered to strict ethical guidelines."
+      },
+      "bracket_parts": [
+        "haben",
+        "orientiert"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "strengen ethischen Richtlinien"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Orientiere dich bitte immer an den Tatsachen!",
+      "translation": {
+        "ru": "Руководствуйся всегда фактами, пожалуйста!",
+        "en": "Please always let the facts guide you!"
+      },
+      "bracket_parts": [
+        "Orientiere"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "den Tatsachen"
+      ]
+    }
+  ]
+}

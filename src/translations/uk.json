@@ -1,4 +1,43 @@
 {
+  "appUpdate": {
+    "title": "Доступне оновлення",
+    "softMessage": "Доступна нова версія das Verb! Будь ласка, оновіться для отримання останніх функцій та покращень.",
+    "forceMessage": "Для продовження використання das Verb потрібне критичне оновлення. Будь ласка, оновіться зараз.",
+    "button": "Оновити зараз",
+    "close": "Закрити"
+  },
+  "debugScreen": {
+    "title": "Debug Menu",
+    "sectionState": "App State Summary",
+    "sectionDailyLimit": "Daily Quiz Limit",
+    "sectionStreak": "Daily Streak",
+    "sectionSettings": "Settings & Storage",
+    "sectionAppUpdate": "App Update Dialog",
+    "sectionReview": "In-App Review & Rating",
+    "dailyQuizzes": "Completed quizzes today: {count} / {limit}",
+    "totalQuizzes": "Total completed quizzes: {count}",
+    "extraQuizzes": "Extra quizzes available: {count}",
+    "adGrants": "Ad grants today: {count} / {limit}",
+    "streakSummary": "Current streak: {streak} days (Best: {best})",
+    "resetDailyLimit": "Reset Daily Limit",
+    "grantExtraQuiz": "Grant +1 Extra Quiz",
+    "consumeQuiz": "Consume 1 Daily Quiz",
+    "resetStreak": "Reset Streak",
+    "incrementStreak": "Increment Streak (+1 Day)",
+    "resetAllSettings": "Reset Settings to Default",
+    "triggerSoftUpdate": "Trigger Soft Update (Dismissible)",
+    "triggerForceUpdate": "Trigger Force Update (Blocking)",
+    "resetUpdateState": "Reset Update State",
+    "triggerReview": "Trigger In-App Review (StoreReview)",
+    "resetReviewCooldown": "Reset Review Cooldown",
+    "addCompletedQuizzes": "Add +5 Completed Quizzes",
+    "alertSuccess": "Success",
+    "dailyLimitResetSuccess": "Daily quiz limits have been reset.",
+    "streakResetSuccess": "Streak data has been reset.",
+    "settingsResetSuccess": "All settings have been reset to defaults.",
+    "reviewTriggerSuccess": "Store review requested to OS.",
+    "reviewCooldownResetSuccess": "Review prompt cooldown reset."
+  },
   "navigation": {
     "practice": "Практика",
     "dictionary": "Словник"
@@ -9,22 +48,66 @@
   },
   "practiceScreen": {
     "title": "Практика",
-    "subtitle": "Тренуйте дієслова, відмінювання та порядок слів",
-    "levelsButtonTitle": "Тренуй дієслова",
-    "levelsButtonSubtitle": "Вивчай дієслова від A1 до B2",
-    "featuredBadge": "Рекомендовані",
-    "startNow": "Почати зараз"
+    "subtitle": "Тренуйте дієслова, відмінювання та порядок слів у реченнях",
+    "levelsButtonTitle": "Тренування дієслів",
+    "levelsButtonSubtitle": "Вивчайте дієслова від A1 до B2",
+    "featuredBadge": "Рекомендовано",
+    "startNow": "Почати зараз",
+    "smartQuizBadge": "Розумний режим",
+    "smartQuizTitle": "Розумний алгоритм",
+    "smartQuizSubtitle": "Фокусуйтеся на власних помилках та вчіться в 3 рази швидше"
+  },
+  "categories": {
+    "sectionTitle": "Тематичні категорії",
+    "sectionSubtitle": "Тренуйте дієслова за реальними життєвими ситуаціями",
+    "verbsCount": "дієслів",
+    "movement": {
+      "title": "Рух і транспорт",
+      "subtitle": "gehen, fahren, fliegen, ankommen..."
+    },
+    "communication": {
+      "title": "Спілкування та мовлення",
+      "subtitle": "sprechen, sagen, fragen, antworten..."
+    },
+    "homeDaily": {
+      "title": "Побут і дім",
+      "subtitle": "wohnen, schlafen, aufstehen, kochen..."
+    },
+    "foodDrink": {
+      "title": "Їжа та ресторани",
+      "subtitle": "essen, trinken, bestellen, probieren..."
+    },
+    "workStudy": {
+      "title": "Робота та навчання",
+      "subtitle": "arbeiten, lernen, studieren, schreiben..."
+    },
+    "shoppingMoney": {
+      "title": "Покупки та гроші",
+      "subtitle": "kaufen, bezahlen, kosten, sparen..."
+    },
+    "thoughtsFeelings": {
+      "title": "Думки та почуття",
+      "subtitle": "denken, glauben, fühlen, lieben..."
+    },
+    "leisureHobbies": {
+      "title": "Дозвілля та хобі",
+      "subtitle": "spielen, reisen, schwimmen, wandern..."
+    },
+    "health": {
+      "title": "Здоров'я та самопочуття",
+      "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    }
   },
   "dictionaryScreen": {
     "title": "Словник",
     "searchPlaceholder": "Пошук дієслів...",
-    "emptySearch": "Дієслова не знайдено",
+    "emptySearch": "Дієслова не знайдені",
     "stammformen": "Основні форми",
     "infinitive": "Інфінітив (Infinitiv)",
     "present3sg": "Präsens",
     "praeteritum3sg": "Минулий час (Präteritum)",
     "perfekt": "Перфект (Perfekt)",
-    "conjugation": "Дієвідміна",
+    "conjugation": "Відмінювання дієслова",
     "person": "Особа",
     "present": "Präsens",
     "praeteritum": "Präteritum",
@@ -37,15 +120,27 @@
     "generalSection": "ЗАГАЛЬНІ",
     "audioSection": "АУДІО",
     "supportSection": "ПІДТРИМКА",
-    "appLanguage": "Мова додатку",
+    "appLanguage": "Мова програми",
     "theme": "Тема",
     "themeLight": "Світла",
     "themeDark": "Темна",
     "themeSystem": "Системна",
     "notifications": "Сповіщення",
     "soundEffects": "Звукові ефекти",
+    "speakOnCorrectAnswer": "Вимова правильної відповіді",
+    "voiceGender": "Голос",
+    "voiceFemale": "Жіночий",
+    "voiceMale": "Чоловічий",
+    "maleVoiceHint": "Щоб використовувати чоловічий німецький голос, встановіть його в Параметри iOS → Спеціальні можливості → Озвучення тексту → Голоси → Німецька.",
     "contactUs": "Зв'язатися з нами",
-    "version": "Версія"
+    "version": "Версія",
+    "notificationsPermissionRequiredTitle": "Увімкніть сповіщення",
+    "notificationsPermissionRequiredMessage": "Щоб отримувати щоденні нагадування про заняття та серію, будь ласка, увімкніть сповіщення в налаштуваннях пристрою.",
+    "openSettings": "Налаштування",
+    "cancel": "Скасувати"
+  },
+  "quizSettingsModal": {
+    "title": "Налаштування тесту"
   },
   "verbsPracticeListScreen": {
     "title": "Практика дієслів",
@@ -56,24 +151,24 @@
     "silver": "Срібло",
     "trophy": "Кубок",
     "empty": "Дієслова не знайдені",
-    "checkpointTitle": "{number}. Проміжний тест",
-    "checkpointSubtitle": "Повторення · Дієслова {from}–{to}",
-    "checkpointBadge": "10 вправ"
+    "checkpointTitle": "Проміжний тест",
+    "finalTestTitle": "Фінальний тест"
   },
   "verbQuizScreen": {
     "title": "Тренування",
-    "checkpointQuizTitle": "Проміжний тест {number}",
+    "checkpointQuizTitle": "Проміжний тест",
+    "smartQuizTitle": "Розумний квіз",
     "level": "Рівень",
     "check": "Перевірити",
     "continue": "Продовжити",
     "exercise": "Вправа",
-    "correct": "Правильно!",
+    "correct": "Вірно!",
     "tryAgain": "Спробуйте ще раз",
     "fillCard": "Заповніть картку",
-    "tapToContinue": "Торкніться в будь-якому місці, щоб продовжити",
+    "tapToContinue": "Торкніться будь-де, щоб продовжити",
     "correctAnswer": "Правильна відповідь:",
-    "conjugationPräsens": "Дієвідмінювання в Präsens",
-    "principalParts": "Основні форми (Stammformen)",
+    "conjugationPräsens": "Відмінювання в Präsens",
+    "principalParts": "Основні форми",
     "imperativeForms": "Наказовий спосіб",
     "auxiliaryExplanationMovement": "Дієслово {verb} виражає рух або зміну стану, тому в Perfekt використовується допоміжне дієслово sein ({form}).",
     "auxiliaryExplanationGeneral": "Дієслово {verb} утворює Perfekt з допоміжним дієсловом haben ({form})."
@@ -81,12 +176,186 @@
   "quizResultsScreen": {
     "title": "Результати",
     "checkpointResultsTitle": "Результати тесту",
+    "smartQuizResultsTitle": "Результати розумного квізу",
     "canDoBetter": "Можна краще!",
-    "almostThere": "Майже!",
-    "closeToPerfection": "Близько до ідеалу!",
-    "youDidIt": "Ви зробили це!",
+    "almostThere": "Майже вдалося!",
+    "closeToPerfection": "Близько до досконалості!",
+    "youDidIt": "У вас вийшло!",
+    "nextLevel": "Наступний рівень",
     "tryAgain": "Спробувати знову",
     "verbsList": "До списку дієслів",
+    "backToPractice": "До практики",
     "scoreSummary": "{correct} з {total}"
+  },
+  "dailyQuizLimitModal": {
+    "title": "Чудовий прогрес!",
+    "message": "Ви дійсно рішуче налаштовані вивчити німецьку!",
+    "instructions": "Як ви бажаєте продовжити?",
+    "videoButton": "Дивитись рекламу",
+    "or": "або",
+    "premiumButtonWithTrial": "Безкоштовні безлімітні рівні на {daysLabel}",
+    "premiumButtonNoTrial": "Купити Premium",
+    "premiumButtonSubtitleWithTrial": "потім {yearlyPrice} на рік (☕️ / міс.)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} на рік (☕️ / міс.)",
+    "waitUntilTomorrow": "Чекати до завтра",
+    "cancelAnytime": "Скасування будь-коли"
+  },
+  "premiumSheets": {
+    "subscribeTitle": "Відкрийте Premium",
+    "subscribeSubtitle": "Прискорте вивчення німецьких дієслів за допомогою просунутих інструментів.",
+    "subscribeNow": "Підписатися зараз",
+    "buyNow": "Купити зараз",
+    "viewPlans": "Переглянути плани",
+    "premiumFeaturesLabel": "ПРЕМІУМ ФУНКЦІЇ",
+    "disclaimerAutoRenew": "Автоматичне поновлення за {price}/{period}. Скасуйте в будь-який час у налаштуваннях облікового запису.",
+    "disclaimerAutoRenewTrial": "Безкоштовно {trialDuration}, потім {price}/{period}. Скасуйте в будь-який час.",
+    "disclaimerOneTime": "Одноразова покупка. Без регулярних платежів.",
+    "freeTrialDays": "Безкоштовно {count} дн.",
+    "freeTrialWeeks": "Безкоштовно {count} тижн.",
+    "freeTrialMonths": "Безкоштовно {count} міс.",
+    "freeTrialYears": "Безкоштовно {count} р.",
+    "trialUnit": {
+      "day": "днів",
+      "week": "тижнів",
+      "month": "місяців",
+      "year": "років"
+    },
+    "periodMonth": "місяць",
+    "periodYear": "рік",
+    "restorePurchases": "Відновити покупки",
+    "errorTitle": "Помилка",
+    "errorUnavailable": "Цей план наразі недоступний. Будь ласка, спробуйте пізніше.",
+    "errorPurchase": "Помилка покупки. Будь ласка, спробуйте ще раз.",
+    "errorRestore": "Помилка відновлення. Будь ласка, спробуйте ще раз.",
+    "restoreSuccessTitle": "Відновлено!",
+    "restoreSuccessMessage": "Ваш преміум-доступ відновлено.",
+    "restoreNothingTitle": "Покупки не знайдено",
+    "restoreNothingMessage": "Ми не змогли знайти попередні покупки для відновлення.",
+    "termsOfService": "Умови використання",
+    "privacyPolicy": "Політика конфіденційності",
+    "plans": {
+      "monthlyLabel": "1 місяць",
+      "monthlyPer": "Щомісяця",
+      "yearlyLabel": "12 місяців",
+      "yearlyBadge": "НАЙКРАЩА ЦІНА",
+      "perMonth": "{price}/місяць",
+      "lifetimeLabel": "Назавжди",
+      "lifetimePer": "Сплатіть один раз",
+      "lifetimeBadge": "ОДНОРАЗОВО"
+    },
+    "features": {
+      "noAdsTitle": "Без реклами",
+      "noAdsShort": "Без\nреклами",
+      "noAdsDescription": "Залишайтеся зосередженими та навчайтеся без відволікань.",
+      "unlimitedQuizzesTitle": "Безлімітні тести",
+      "unlimitedQuizzesShort": "Безлімітні\nтести",
+      "unlimitedQuizzesDescription": "Практикуйтеся скільки завгодно без денних лімітів.",
+      "allLevelsTitle": "All Levels Unlocked",
+      "allLevelsShort": "All\nLevels",
+      "allLevelsDescription": "Миттєвий доступ до всіх рівнів A1-B2 та контрольних точок.",
+      "smartQuizModeTitle": "Розумний алгоритм",
+      "smartQuizModeShort": "Розумний\nалгоритм",
+      "smartQuizModeDescription": "Тренуйте лише власні помилки та вчіться в 3 рази швидше!",
+      "naturalVoiceTitle": "Природні голоси",
+      "naturalVoiceShort": "Природні\nголоси",
+      "naturalVoiceDescription": "Слухайте дієслова та приклади речень з природною німецькою вимовою.",
+      "unlimitedCustomListsAndWordsTitle": "Створюйте власні списки",
+      "unlimitedCustomListsAndWordsShort": "Власні списки\nслів",
+      "unlimitedCustomListsAndWordsDescription": "Додавайте необмежену кількість слів і тренуйте саме той словниковий запас, який вам потрібен",
+      "photoScannerTitle": "Зображення у слова",
+      "photoScannerShort": "Зображення\nу слова",
+      "photoScannerDescription": "Миттєво імпортуйте німецькі іменники з фотографій за допомогою ШІ."
+    },
+    "trialTitle": "Ваша 3-денна пробна версія Premium активна",
+    "trialSubtitle": "Відкрийте свій найшвидший прогрес без реклами та з потужними інструментами для навчання.",
+    "trialCta": "Поїхали!"
+  },
+  "notifications": {
+    "reminderTitle": "Час практикуватися!",
+    "reminderBody": "Коротке тренування німецьких дієслів та структури речень допоможе швидше довести їх до автоматизму.",
+    "trialReminderTitle": "Ваша безкоштовна пробна версія скоро закінчується",
+    "trialReminderBody": "Отримайте максимум від Premium сьогодні! Ваша пробна версія закінчується через 24 години.",
+    "streakReminderTitle": "Не втратьте серію! 🔥",
+    "streakReminderBody": "Ви ще не займалися сьогодні. Пройдіть швидкий 2-хвилинний квіз, щоб зберегти свою серію!"
+  },
+  "firstOpenPaywall": {
+    "trialBadge": "ПРОБНА ВЕРСІЯ · 3 ДНІ",
+    "title": "Спробуйте Premium перед оплатою",
+    "subtitle": "Як працює ваш безкоштовний період.",
+    "cta": "Почати Premium безкоштовно",
+    "restore": "Відновити покупки",
+    "proceedLimited": "Продовжити з обмеженою версією",
+    "priceYearlyWithCoffee": "{price}/рік, чашка кави/міс.",
+    "disclaimer": "Автоподовження за {price}/рік. Скасуйте будь-коли в налаштуваннях.",
+    "disclaimerFallback": "Автоподовження раз на рік. Скасуйте будь-коли в налаштуваннях.",
+    "priceWithTrial": "Безкоштовно на {trialDuration}, потім {price}/рік",
+    "priceYearly": "{price}/рік",
+    "timeline": {
+      "today": {
+        "day": "Сьогодні",
+        "headline": "Відкрийте все",
+        "benefits": {
+          "noAds": {
+            "title": "100% Ad-Free Learning",
+            "text": "Stay focused on your goals with a clean, zero-distraction study experience."
+          },
+          "unlimitedQuizzes": {
+            "title": "Unlimited Quizzes",
+            "text": "Practice as much as you want with no daily limits or waiting."
+          },
+          "allLevels": {
+            "title": "Всі рівні A1–B2 відкриті",
+            "text": "Миттєвий доступ до всіх карток дієслів, граматичних чеклистів та тестів."
+          },
+          "smartQuizMode": {
+            "title": "Розумний алгоритм помилок",
+            "text": "Фокусуйтеся на складних для вас формах та вивчайте дієслова в 3 рази швидше."
+          },
+          "adFree": {
+            "title": "100% без реклами",
+            "text": "Зосередьтеся на цілях завдяки чистому навчанню без відволікаючих факторів."
+          },
+          "grammar": {
+            "title": "Засвоєння граматики",
+            "text": "Безлімітна практика артиклів, відмінювання та закінчень для вироблення звичок."
+          },
+          "correction": {
+            "title": "Розумне виправлення",
+            "text": "Отримуйте миттєві правила та пояснення, щоб швидко вчитися на кожній помилці."
+          },
+          "translations": {
+            "title": "Контекстні переклади",
+            "text": "Отримуйте точні переклади для кожного слова, щоб завжди розуміти справжній сенс."
+          },
+          "customLists": {
+            "title": "Безлімітні списки",
+            "text": "Створюйте набори слів, щоб впорядкувати та вивчити свій унікальний словниковий запас."
+          },
+          "photoScanner": {
+            "title": "Розумний фотосканер",
+            "text": "Перетворюйте фотографії тексту на списки слів для вивчення реального матеріалу."
+          },
+          "visualMemory": {
+            "title": "Візуальна пам'ять",
+            "text": "Покращуйте навчання за допомогою ілюстрацій, які допоможуть закріпити слова в пам'яті."
+          },
+          "voices": {
+            "title": "Аудіо-занурення",
+            "text": "Розвивайте сприйняття на слух за допомогою якісних людських нейроголосів."
+          }
+        },
+        "description": ""
+      },
+      "day2": {
+        "day": "День 3",
+        "headline": "Ми нагадаємо",
+        "description": "Дружнє нагадування до завершення пробного періоду — жодних сюрпризів."
+      },
+      "day3": {
+        "day": "День 4",
+        "headline": "Початок підписки",
+        "description": "Тільки якщо ви не скасуєте її. Скасовуйте будь-коли в налаштуваннях."
+      }
+    }
   }
 }

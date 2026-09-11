@@ -1,0 +1,184 @@
+{
+  "id": "angeben_dat_mit",
+  "infinitive": "angeben",
+  "translation": {
+    "ru": "хвастаться, хвалиться (чем-то)",
+    "en": "to boast (about), show off (with)"
+  },
+  "level": "B1",
+  "frequency_rank": 249,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "angeben",
+    "present_3sg": "gibt an",
+    "praeteritum_3sg": "gab an",
+    "partizip_2": "angegeben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gebe an",
+      "du": "gibst an",
+      "er_sie_es": "gibt an",
+      "wir": "geben an",
+      "ihr": "gebt an",
+      "sie_Sie": "geben an"
+    },
+    "praeteritum": {
+      "ich": "gab an",
+      "du": "gabst an",
+      "er_sie_es": "gab an",
+      "wir": "gaben an",
+      "ihr": "gabt an",
+      "sie_Sie": "gaben an"
+    },
+    "imperative": {
+      "du": "gib an!",
+      "ihr": "gebt an!",
+      "Sie": "geben Sie an!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "mit dem neuen Auto angeben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich gebe niemals mit meinen teuren Einkäufen an.",
+      "translation": {
+        "ru": "Я никогда не хвастаюсь своими дорогими покупками.",
+        "en": "I never show off with my expensive purchases."
+      },
+      "bracket_parts": [
+        "gebe",
+        "an"
+      ],
+      "dativ_parts": [
+        "meinen teuren Einkäufen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Gibst du schon wieder mit deinem neuen Smartphone an?",
+      "translation": {
+        "ru": "Ты опять хвастаешься своим новым смартфоном?",
+        "en": "Are you showing off with your new smartphone again?"
+      },
+      "bracket_parts": [
+        "Gibst",
+        "an"
+      ],
+      "dativ_parts": [
+        "deinem neuen Smartphone"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er gibt gerne mit seinen sportlichen Erfolgen an.",
+      "translation": {
+        "ru": "Он любит хвастаться своими спортивными успехами.",
+        "en": "He likes showing off with his athletic successes."
+      },
+      "bracket_parts": [
+        "gibt",
+        "an"
+      ],
+      "dativ_parts": [
+        "seinen sportlichen Erfolgen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir geben nicht mit unserem Wohlstand an.",
+      "translation": {
+        "ru": "Мы не хвастаемся нашим достатком.",
+        "en": "We do not show off with our wealth."
+      },
+      "bracket_parts": [
+        "geben",
+        "an"
+      ],
+      "dativ_parts": [
+        "unserem Wohlstand"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Gebt ihr vor den Schulkameraden mit teuren Marken an?",
+      "translation": {
+        "ru": "Вы хвастаетесь перед одноклассниками дорогими брендами?",
+        "en": "Do you guys show off with expensive brands in front of classmates?"
+      },
+      "bracket_parts": [
+        "Gebt",
+        "an"
+      ],
+      "dativ_parts": [
+        "teuren Marken"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie gaben damals ununterbrochen mit ihrem Wissen an.",
+      "translation": {
+        "ru": "В то время они беспрестанно кичились своими знаниями.",
+        "en": "They constantly showed off with their knowledge back then."
+      },
+      "bracket_parts": [
+        "gaben",
+        "an"
+      ],
+      "dativ_parts": [
+        "ihrem Wissen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Nachbar hat überall mit seinem neuen Wagen angegeben.",
+      "translation": {
+        "ru": "Сосед везде хвастался своей новой машиной.",
+        "en": "The neighbor showed off everywhere with his new car."
+      },
+      "bracket_parts": [
+        "hat",
+        "angegeben"
+      ],
+      "dativ_parts": [
+        "seinem neuen Wagen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Gib bitte nicht so peinlich mit deinem Geld an!",
+      "translation": {
+        "ru": "Не хвастайся так неловко своими деньгами, пожалуйста!",
+        "en": "Please don't show off so embarrassingly with your money!"
+      },
+      "bracket_parts": [
+        "Gib",
+        "an"
+      ],
+      "dativ_parts": [
+        "deinem Geld"
+      ]
+    }
+  ]
+}

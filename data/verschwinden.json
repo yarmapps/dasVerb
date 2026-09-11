@@ -1,0 +1,154 @@
+{
+  "id": "verschwinden",
+  "infinitive": "verschwinden",
+  "translation": {
+    "ru": "исчезать, пропадать",
+    "en": "to disappear, to vanish"
+  },
+  "level": "A2",
+  "frequency_rank": 143,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verschwinden",
+    "present_3sg": "verschwindet",
+    "praeteritum_3sg": "verschwand",
+    "partizip_2": "verschwunden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verschwinde",
+      "du": "verschwindest",
+      "er_sie_es": "verschwindet",
+      "wir": "verschwinden",
+      "ihr": "verschwindet",
+      "sie_Sie": "verschwinden",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "verschwand",
+      "du": "verschwandest",
+      "er_sie_es": "verschwand",
+      "wir": "verschwanden",
+      "ihr": "verschwandet",
+      "sie_Sie": "verschwanden"
+    },
+    "imperative": {
+      "du": "verschwinde",
+      "ihr": "verschwindet",
+      "Sie": "verschwinden Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "spurlos verschwinden",
+  "sentences": [
+    {
+      "id": "verschwinden_1",
+      "tense": "Präsens",
+      "german": "Ich verschwinde jetzt schnell nach Hause, weil es spät ist.",
+      "translation": {
+        "ru": "Я сейчас быстро исчезаю домой, потому что уже поздно.",
+        "en": "I am quickly disappearing home now because it is late."
+      },
+      "bracket_parts": [
+        "verschwinde"
+      ]
+    },
+    {
+      "id": "verschwinden_2",
+      "tense": "Präsens",
+      "german": "Verschwindest du immer so heimlich von den Feiern?",
+      "translation": {
+        "ru": "Ты всегда так незаметно исчезаешь с вечеринок?",
+        "en": "Do you always disappear so secretly from parties?"
+      },
+      "bracket_parts": [
+        "Verschwindest"
+      ]
+    },
+    {
+      "id": "verschwinden_3",
+      "tense": "Präsens",
+      "german": "Die Sonne verschwindet langsam hinter den Bergen.",
+      "translation": {
+        "ru": "Солнце медленно скрывается (исчезает) за горами.",
+        "en": "The sun disappears slowly behind the mountains."
+      },
+      "bracket_parts": [
+        "verschwindet"
+      ]
+    },
+    {
+      "id": "verschwinden_4",
+      "tense": "Präsens",
+      "german": "Wir sehen zu, wie die Sorgen langsam verschwinden.",
+      "translation": {
+        "ru": "Мы наблюдаем, как заботы медленно рассеиваются (исчезают).",
+        "en": "We watch as worries slowly disappear."
+      },
+      "bracket_parts": [
+        "verschwinden"
+      ]
+    },
+    {
+      "id": "verschwinden_5",
+      "tense": "Präsens",
+      "german": "Verschwindet ihr vor dem einsetzenden Regen ins Haus?",
+      "translation": {
+        "ru": "Вы прячетесь (исчезаете) в дом от начинающегося дождя?",
+        "en": "Are you disappearing into the house before the starting rain?"
+      },
+      "bracket_parts": [
+        "Verschwindet"
+      ]
+    },
+    {
+      "id": "verschwinden_6",
+      "tense": "Präteritum",
+      "german": "Das Schiff verschwand damals im dichten Nebel.",
+      "translation": {
+        "ru": "Корабль скрылся тогда в густом тумане.",
+        "en": "The ship disappeared into the dense fog back then."
+      },
+      "bracket_parts": [
+        "verschwand"
+      ]
+    },
+    {
+      "id": "verschwinden_7",
+      "tense": "Perfekt",
+      "german": "Mein Schlüssel ist spurlos aus meiner Tasche verschwunden.",
+      "translation": {
+        "ru": "Мой ключ бесследно пропал из кармана.",
+        "en": "My key vanished without a trace from my pocket."
+      },
+      "bracket_parts": [
+        "ist",
+        "verschwunden"
+      ]
+    },
+    {
+      "id": "verschwinden_8",
+      "tense": "Imperativ",
+      "german": "Verschwinde bitte sofort aus meinem Blickfeld!",
+      "translation": {
+        "ru": "Исчезни немедленно из поля моего зрения!",
+        "en": "Please disappear from my sight immediately!"
+      },
+      "bracket_parts": [
+        "Verschwinde"
+      ]
+    }
+  ]
+}

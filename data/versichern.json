@@ -1,0 +1,189 @@
+{
+  "id": "versichern",
+  "infinitive": "versichern",
+  "translation": {
+    "ru": "страховать, заверять, уверять",
+    "en": "to insure, assure, declare"
+  },
+  "level": "B1",
+  "frequency_rank": 366,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "versichern",
+    "present_3sg": "versichert",
+    "praeteritum_3sg": "versicherte",
+    "partizip_2": "versichert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "versichere",
+      "du": "versicherst",
+      "er_sie_es": "versichert",
+      "wir": "versichern",
+      "ihr": "versichert",
+      "sie_Sie": "versichern"
+    },
+    "praeteritum": {
+      "ich": "versicherte",
+      "du": "versichertest",
+      "er_sie_es": "versicherte",
+      "wir": "versicherten",
+      "ihr": "versichertet",
+      "sie_Sie": "versicherten"
+    },
+    "imperative": {
+      "du": "versichere!",
+      "ihr": "versichert!",
+      "Sie": "versichern Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das Auto gegen Diebstahl versichern",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich versichere dir meine uneingeschränkte Unterstützung.",
+      "translation": {
+        "ru": "Я заверяю тебя в своей безоговорочной поддержке.",
+        "en": "I assure you of my unconditional support."
+      },
+      "bracket_parts": [
+        "versichere"
+      ],
+      "akkusativ_parts": [
+        "meine uneingeschränkte Unterstützung"
+      ],
+      "dativ_parts": [
+        "dir"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Versicherst du dein teures Fahrrad gegen Diebstahl?",
+      "translation": {
+        "ru": "Ты страхуешь свой дорогой велосипед от кражи?",
+        "en": "Are you insuring your expensive bicycle against theft?"
+      },
+      "bracket_parts": [
+        "Versicherst"
+      ],
+      "akkusativ_parts": [
+        "dein teures Fahrrad"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Vermieter versichert das Gebäude gegen Feuerschäden.",
+      "translation": {
+        "ru": "Арендодатель страхует здание от пожара.",
+        "en": "The landlord insures the building against fire damage."
+      },
+      "bracket_parts": [
+        "versichert"
+      ],
+      "akkusativ_parts": [
+        "das Gebäude"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir versichern unseren Kunden stets beste Qualität.",
+      "translation": {
+        "ru": "Мы всегда заверяем наших клиентов в наилучшем качестве.",
+        "en": "We always assure our customers of the best quality."
+      },
+      "bracket_parts": [
+        "versichern"
+      ],
+      "akkusativ_parts": [
+        "beste Qualität"
+      ],
+      "dativ_parts": [
+        "unseren Kunden"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Versichert ihr euer Gepäck vor der Flugreise?",
+      "translation": {
+        "ru": "Вы страхуете багаж перед перелетом?",
+        "en": "Do you guys insure your luggage before the flight?"
+      },
+      "bracket_parts": [
+        "Versichert"
+      ],
+      "akkusativ_parts": [
+        "euer Gepäck"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Verkäufer versicherte damals die Echtheit des antiken Gemäldes.",
+      "translation": {
+        "ru": "Продавец заверил тогда подлинность старинной картины.",
+        "en": "The seller assured the authenticity of the antique painting back then."
+      },
+      "bracket_parts": [
+        "versicherte"
+      ],
+      "akkusativ_parts": [
+        "die Echtheit des antiken Gemäldes"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie hat ihr Haus gegen Überschwemmungen versichert.",
+      "translation": {
+        "ru": "Она застраховала свой дом от наводнений.",
+        "en": "She has insured her house against flooding."
+      },
+      "bracket_parts": [
+        "hat",
+        "versichert"
+      ],
+      "akkusativ_parts": [
+        "ihr Haus"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Versichere mir bitte, dass du morgen pünktlich bist!",
+      "translation": {
+        "ru": "Заверь меня, пожалуйста, что завтра ты будешь вовремя!",
+        "en": "Please assure me that you will be on time tomorrow!"
+      },
+      "bracket_parts": [
+        "Versichere"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": [
+        "mir"
+      ]
+    }
+  ]
+}

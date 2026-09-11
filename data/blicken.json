@@ -1,0 +1,153 @@
+{
+  "id": "blicken",
+  "infinitive": "blicken",
+  "translation": {
+    "ru": "глядеть, смотреть",
+    "en": "to look, gaze"
+  },
+  "level": "B1",
+  "frequency_rank": 205,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "blicken",
+    "present_3sg": "blickt",
+    "praeteritum_3sg": "blickte",
+    "partizip_2": "geblickt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "blicke",
+      "du": "blickst",
+      "er_sie_es": "blickt",
+      "wir": "blicken",
+      "ihr": "blickt",
+      "sie_Sie": "blicken"
+    },
+    "praeteritum": {
+      "ich": "blickte",
+      "du": "blicktest",
+      "er_sie_es": "blickte",
+      "wir": "blickten",
+      "ihr": "blicktet",
+      "sie_Sie": "blickten"
+    },
+    "imperative": {
+      "du": "blicke!",
+      "ihr": "blickt!",
+      "Sie": "blicken Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "aus dem Fenster blicken",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich blicke gerne nachdenklich aus dem Fenster.",
+      "translation": {
+        "ru": "Я люблю задумчиво смотреть из окна.",
+        "en": "I like looking thoughtfully out of the window."
+      },
+      "bracket_parts": [
+        "blicke"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Blickst du oft in den weiten Sternenhimmel?",
+      "translation": {
+        "ru": "Ты часто вглядываешься в бескрайнее звездное небо?",
+        "en": "Do you often gaze into the vast starry sky?"
+      },
+      "bracket_parts": [
+        "Blickst"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Wanderer blickt hinunter ins grüne Tal.",
+      "translation": {
+        "ru": "Путник смотрит вниз на зеленую долину.",
+        "en": "The hiker looks down into the green valley."
+      },
+      "bracket_parts": [
+        "blickt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir blicken voller Zuversicht in das neue Jahr.",
+      "translation": {
+        "ru": "Мы смотрим в новый год с полной уверенностью.",
+        "en": "We look into the new year full of confidence."
+      },
+      "bracket_parts": [
+        "blicken"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Blickt ihr neugierig hinter die Kulissen?",
+      "translation": {
+        "ru": "Вы с любопытством заглядываете за кулисы?",
+        "en": "Are you guys looking curiously behind the scenes?"
+      },
+      "bracket_parts": [
+        "Blickt"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie blickten stumm auf die alte Fotografie.",
+      "translation": {
+        "ru": "Они молча смотрели на старую фотографию.",
+        "en": "They gazed silently at the old photograph."
+      },
+      "bracket_parts": [
+        "blickten"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Junge hat ängstlich um die Ecke geblickt.",
+      "translation": {
+        "ru": "Мальчик со страхом выглянул из-за угла.",
+        "en": "The boy looked around the corner fearfully."
+      },
+      "bracket_parts": [
+        "hat",
+        "geblickt"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Blicke stets mutig nach vorn!",
+      "translation": {
+        "ru": "Всегда смело смотри вперед!",
+        "en": "Always look ahead bravely!"
+      },
+      "bracket_parts": [
+        "Blicke"
+      ]
+    }
+  ]
+}

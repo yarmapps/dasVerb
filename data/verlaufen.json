@@ -1,0 +1,179 @@
+{
+  "id": "verlaufen",
+  "infinitive": "verlaufen",
+  "translation": {
+    "ru": "протекать, проходить, теряться (заблудиться)",
+    "en": "to proceed, run, get lost"
+  },
+  "level": "B1",
+  "frequency_rank": 405,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verlaufen",
+    "present_3sg": "verläuft",
+    "praeteritum_3sg": "verlief",
+    "partizip_2": "verlaufen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verlaufe",
+      "du": "verläufst",
+      "er_sie_es": "verläuft",
+      "wir": "verlaufen",
+      "ihr": "verlauft",
+      "sie_Sie": "verlaufen"
+    },
+    "praeteritum": {
+      "ich": "verlief",
+      "du": "verliefst",
+      "er_sie_es": "verlief",
+      "wir": "verliefen",
+      "ihr": "verlieft",
+      "sie_Sie": "verliefen"
+    },
+    "imperative": {
+      "du": "verlauf!",
+      "ihr": "verlauft!",
+      "Sie": "verlaufen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "reibungslos verlaufen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verlaufe mich in der fremden Altstadt fast jedes Mal.",
+      "translation": {
+        "ru": "В незнакомом старом городе я почти каждый раз сбиваюсь с пути.",
+        "en": "I get lost in the unfamiliar old town almost every time."
+      },
+      "bracket_parts": [
+        "verlaufe"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verläufst du dich im dichten Nebel nicht auch leicht?",
+      "translation": {
+        "ru": "Разве ты в густом тумане тоже не легко заблудишься?",
+        "en": "Don't you also get lost easily in dense fog?"
+      },
+      "bracket_parts": [
+        "Verläufst"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Landesgrenze verläuft genau mitten durch den Fluss.",
+      "translation": {
+        "ru": "Государственная граница проходит точно посередине реки.",
+        "en": "The national border runs right through the middle of the river."
+      },
+      "bracket_parts": [
+        "verläuft"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir sehen erfreut, wie die Verhandlungen ohne Probleme verlaufen.",
+      "translation": {
+        "ru": "Мы с радостью видим, как переговоры проходят без проблем.",
+        "en": "We are pleased to see negotiations proceeding without problems."
+      },
+      "bracket_parts": [
+        "verlaufen"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verlauft ihr euch auf dem großen Campus noch manchmal?",
+      "translation": {
+        "ru": "Вы в большом кампусе еще иногда плутаете?",
+        "en": "Do you guys still get lost on the big campus sometimes?"
+      },
+      "bracket_parts": [
+        "Verlauft"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die schwierige Operation verlief damals zum Glück erfolgreich.",
+      "translation": {
+        "ru": "Сложная операция прошла тогда, к счастью, успешно.",
+        "en": "The difficult surgery went successfully back then, fortunately."
+      },
+      "bracket_parts": [
+        "verlief"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Touristen haben sich im Wald ohne GPS verlaufen.",
+      "translation": {
+        "ru": "Туристы заблудились в лесу без GPS.",
+        "en": "The tourists got lost in the woods without GPS."
+      },
+      "bracket_parts": [
+        "haben",
+        "verlaufen"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verlauf dich bitte nicht in diesem unübersichtlichen Gebäude!",
+      "translation": {
+        "ru": "Не заблудись в этом запутанном здании, пожалуйста!",
+        "en": "Please do not get lost in this confusing building!"
+      },
+      "bracket_parts": [
+        "Verlauf"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

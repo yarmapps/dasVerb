@@ -1,0 +1,185 @@
+{
+  "id": "begrenzen",
+  "infinitive": "begrenzen",
+  "translation": {
+    "ru": "ограничивать, служить границей",
+    "en": "to limit, border, restrict"
+  },
+  "level": "B1",
+  "frequency_rank": 368,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "begrenzen",
+    "present_3sg": "begrenzt",
+    "praeteritum_3sg": "begrenzte",
+    "partizip_2": "begrenzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "begrenze",
+      "du": "begrenzt",
+      "er_sie_es": "begrenzt",
+      "wir": "begrenzen",
+      "ihr": "begrenzt",
+      "sie_Sie": "begrenzen"
+    },
+    "praeteritum": {
+      "ich": "begrenzte",
+      "du": "begrenztest",
+      "er_sie_es": "begrenzte",
+      "wir": "begrenzten",
+      "ihr": "begrenztet",
+      "sie_Sie": "begrenzten"
+    },
+    "imperative": {
+      "du": "begrenze!",
+      "ihr": "begrenzt!",
+      "Sie": "begrenzen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Geschwindigkeit begrenzen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich begrenze meine tägliche Bildschirmzeit auf zwei Stunden.",
+      "translation": {
+        "ru": "Я ограничиваю свое ежедневное экранное время двумя часами.",
+        "en": "I limit my daily screen time to two hours."
+      },
+      "bracket_parts": [
+        "begrenze"
+      ],
+      "akkusativ_parts": [
+        "meine tägliche Bildschirmzeit"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Begrenzt du deine monatlichen Ausgaben für Kleidung strikt?",
+      "translation": {
+        "ru": "Ты строго ограничиваешь свои ежемесячные траты на одежду?",
+        "en": "Do you strictly limit your monthly expenses on clothing?"
+      },
+      "bracket_parts": [
+        "Begrenzt"
+      ],
+      "akkusativ_parts": [
+        "deine monatlichen Ausgaben"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Ein hoher Zaun begrenzt das gesamte Grundstück des Nachbarn.",
+      "translation": {
+        "ru": "Высокий забор огораживает весь участок соседа.",
+        "en": "A tall fence encloses the neighbor's entire property."
+      },
+      "bracket_parts": [
+        "begrenzt"
+      ],
+      "akkusativ_parts": [
+        "das gesamte Grundstück des Nachbarn"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir begrenzen die Zahl der Teilnehmer wegen des Platzmangels.",
+      "translation": {
+        "ru": "Мы ограничиваем число участников из-за нехватки места.",
+        "en": "We limit the number of participants due to a lack of space."
+      },
+      "bracket_parts": [
+        "begrenzen"
+      ],
+      "akkusativ_parts": [
+        "die Zahl der Teilnehmer"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Begrenzt ihr die Redezeit bei der Diskussion im Kurs?",
+      "translation": {
+        "ru": "Вы ограничиваете время выступления при дискуссии на курсе?",
+        "en": "Are you guys limiting the speaking time during class discussions?"
+      },
+      "bracket_parts": [
+        "Begrenzt"
+      ],
+      "akkusativ_parts": [
+        "die Redezeit"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Stadt begrenzte damals die Höchstgeschwindigkeit auf dreißig km/h.",
+      "translation": {
+        "ru": "Город ограничил тогда максимальную скорость тридцатью км/ч.",
+        "en": "The city limited the maximum speed to thirty km/h back then."
+      },
+      "bracket_parts": [
+        "begrenzte"
+      ],
+      "akkusativ_parts": [
+        "die Höchstgeschwindigkeit"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Behörden haben den Zutritt zum Waldgebiet begrenzt.",
+      "translation": {
+        "ru": "Власти ограничили доступ в лесной массив.",
+        "en": "The authorities have restricted access to the forest area."
+      },
+      "bracket_parts": [
+        "haben",
+        "begrenzt"
+      ],
+      "akkusativ_parts": [
+        "den Zutritt"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Begrenze bitte deine Ausführungen auf die wesentlichen Fakten!",
+      "translation": {
+        "ru": "Ограничь свои высказывания существенными фактами, пожалуйста!",
+        "en": "Please limit your remarks to the essential facts!"
+      },
+      "bracket_parts": [
+        "Begrenze"
+      ],
+      "akkusativ_parts": [
+        "deine Ausführungen"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

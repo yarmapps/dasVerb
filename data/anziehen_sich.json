@@ -1,0 +1,197 @@
+{
+  "id": "anziehen_sich",
+  "infinitive": "sich anziehen",
+  "translation": {
+    "ru": "одеваться, надевать одежду",
+    "en": "to get dressed, to put on (clothes)"
+  },
+  "level": "A1",
+  "frequency_rank": 220,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich anziehen",
+    "present_3sg": "zieht sich an",
+    "praeteritum_3sg": "zog sich an",
+    "partizip_2": "angezogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ziehe mich an",
+      "du": "ziehst dich an",
+      "er_sie_es": "zieht sich an",
+      "wir": "ziehen uns an",
+      "ihr": "zieht euch an",
+      "sie_Sie": "ziehen sich an",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "zog mich an",
+      "du": "zogst dich an",
+      "er_sie_es": "zog sich an",
+      "wir": "zogen uns an",
+      "ihr": "zogt euch an",
+      "sie_Sie": "zogen sich an"
+    },
+    "imperative": {
+      "du": "zieh dich an!",
+      "ihr": "zieht euch an!",
+      "Sie": "ziehen Sie sich an!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich für den kalten Wintertag warm anziehen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich ziehe mich morgens nach einer erfrischenden Dusche schnell und bequem an.",
+      "translation": {
+        "ru": "Утром после освежающего душа я быстро и удобно одеваюсь.",
+        "en": "In the morning after a refreshing shower I get dressed quickly and comfortably."
+      },
+      "bracket_parts": [
+        "ziehe",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Ziehst du dich für die heutige Theaterpremiere eigentlich besonders elegant an?",
+      "translation": {
+        "ru": "Оденешься ли ты для сегодняшней театральной премьеры на самом деле особенно элегантно?",
+        "en": "Are you actually dressing particularly elegantly for today's theatre premiere?"
+      },
+      "bracket_parts": [
+        "Ziehst",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das kleine Kind zieht sich zum ersten Mal ganz allein seine warmen Winterschuhe an.",
+      "translation": {
+        "ru": "Маленький ребенок впервые совершенно самостоятельно надевает свои теплые зимние ботинки.",
+        "en": "The little child is putting on its warm winter shoes all by itself for the first time."
+      },
+      "bracket_parts": [
+        "zieht",
+        "an"
+      ],
+      "dativ_parts": [
+        "sich"
+      ],
+      "akkusativ_parts": [
+        "seine warmen Winterschuhe"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir ziehen uns für den langen Waldspaziergang im Regen wetterfeste Regenjacken an.",
+      "translation": {
+        "ru": "Мы надеваем непромокаемые куртки для долгой лесной прогулки под дождем.",
+        "en": "We put on weatherproof rain jackets for the long forest walk in the rain."
+      },
+      "bracket_parts": [
+        "ziehen",
+        "an"
+      ],
+      "dativ_parts": [
+        "uns"
+      ],
+      "akkusativ_parts": [
+        "wetterfeste Regenjacken"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Zieht ihr euch für das Fußballspiel draußen im Schnee wirklich warm genug an?",
+      "translation": {
+        "ru": "Одеваетесь ли вы для футбольного матча на улице в снегу действительно достаточно тепло?",
+        "en": "Are you really dressing warmly enough for the football match outside in the snow?"
+      },
+      "bracket_parts": [
+        "Zieht",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern zog sich die Schauspielerin in der Garderobe ein prachtvolles historisches Kostüm an.",
+      "translation": {
+        "ru": "Вчера актриса надела в гардеробной роскошный исторический костюм.",
+        "en": "Yesterday the actress put on a magnificent historical costume in the dressing room."
+      },
+      "bracket_parts": [
+        "zog",
+        "an"
+      ],
+      "dativ_parts": [
+        "sich"
+      ],
+      "akkusativ_parts": [
+        "ein prachtvolles historisches Kostüm"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Kinder haben sich nach dem Baden im See schnell trockene Kleidung angezogen.",
+      "translation": {
+        "ru": "Дети после купания в озере быстро надели сухую одежду.",
+        "en": "After swimming in the lake, the children quickly put on dry clothes."
+      },
+      "bracket_parts": [
+        "haben",
+        "angezogen"
+      ],
+      "dativ_parts": [
+        "sich"
+      ],
+      "akkusativ_parts": [
+        "trockene Kleidung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Zieh dich bitte warm an, draußen weht ein eisiger Wind!",
+      "translation": {
+        "ru": "Оденься, пожалуйста, потеплее, на улице дует ледяной ветер!",
+        "en": "Please dress warmly, an icy wind is blowing outside!"
+      },
+      "bracket_parts": [
+        "Zieh",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ]
+    }
+  ]
+}

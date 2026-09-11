@@ -1,0 +1,171 @@
+{
+  "id": "vereinbaren",
+  "infinitive": "vereinbaren",
+  "translation": {
+    "ru": "договариваться, согласовывать",
+    "en": "to agree, arrange"
+  },
+  "level": "A2",
+  "frequency_rank": 481,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vereinbaren",
+    "present_3sg": "vereinbart",
+    "praeteritum_3sg": "vereinbarte",
+    "partizip_2": "vereinbart"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vereinbare",
+      "du": "vereinbarst",
+      "er_sie_es": "vereinbart",
+      "wir": "vereinbaren",
+      "ihr": "vereinbart",
+      "sie_Sie": "vereinbaren"
+    },
+    "praeteritum": {
+      "ich": "vereinbarte",
+      "du": "vereinbartest",
+      "er_sie_es": "vereinbarte",
+      "wir": "vereinbarten",
+      "ihr": "vereinbartet",
+      "sie_Sie": "vereinbarten"
+    },
+    "perfekt": {
+      "ich": "habe vereinbart",
+      "du": "hast vereinbart",
+      "er_sie_es": "hat vereinbart",
+      "wir": "haben vereinbart",
+      "ihr": "habt vereinbart",
+      "sie_Sie": "haben vereinbart"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich vereinbare einen neuen Termin beim Zahnarzt.",
+      "translation": {
+        "ru": "Я согласовываю новую запись к стоматологу.",
+        "en": "I arrange a new appointment at the dentist."
+      },
+      "bracket_parts": [
+        "vereinbare"
+      ],
+      "akkusativ_parts": [
+        "einen neuen Termin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du vereinbarst ein persönliches Treffen mit dem Kunden.",
+      "translation": {
+        "ru": "Ты договариваешься о личной встрече с клиентом.",
+        "en": "You arrange a personal meeting with the client."
+      },
+      "bracket_parts": [
+        "vereinbarst"
+      ],
+      "akkusativ_parts": [
+        "ein persönliches Treffen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Firma vereinbart feste Lieferzeiten mit ihren Partnern.",
+      "translation": {
+        "ru": "Фирма согласовывает фиксированные сроки поставки со своими партнерами.",
+        "en": "The company agrees on fixed delivery dates with its partners."
+      },
+      "bracket_parts": [
+        "vereinbart"
+      ],
+      "akkusativ_parts": [
+        "feste Lieferzeiten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir vereinbaren eine angemessene Probezeit im Arbeitsvertrag.",
+      "translation": {
+        "ru": "Мы согласовываем разумный испытательный срок в трудовом договоре.",
+        "en": "We agree on an appropriate probationary period in the work contract."
+      },
+      "bracket_parts": [
+        "vereinbaren"
+      ],
+      "akkusativ_parts": [
+        "eine angemessene Probezeit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr vereinbart die genauen Spielregeln vor Beginn.",
+      "translation": {
+        "ru": "Вы согласовываете точные правила игры перед началом.",
+        "en": "You agree on the exact rules of the game before starting."
+      },
+      "bracket_parts": [
+        "vereinbart"
+      ],
+      "akkusativ_parts": [
+        "die genauen Spielregeln"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie vereinbarten damals einen sofortigen Waffenstillstand.",
+      "translation": {
+        "ru": "Они тогда договорились о немедленном перемирии.",
+        "en": "They agreed on an immediate ceasefire back then."
+      },
+      "bracket_parts": [
+        "vereinbarten"
+      ],
+      "akkusativ_parts": [
+        "einen sofortigen Waffenstillstand"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die beiden Parteien haben einen soliden Kompromiss vereinbart.",
+      "translation": {
+        "ru": "Обе стороны согласовали надежный компромисс.",
+        "en": "Both parties agreed on a solid compromise."
+      },
+      "bracket_parts": [
+        "haben",
+        "vereinbart"
+      ],
+      "akkusativ_parts": [
+        "einen soliden Kompromiss"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Vereinbare bitte heute noch einen passenden Beratungstermin!",
+      "translation": {
+        "ru": "Согласуй пожалуйста еще сегодня подходящее время консультации!",
+        "en": "Please arrange a suitable consultation appointment today!"
+      },
+      "bracket_parts": [
+        "Vereinbare"
+      ],
+      "akkusativ_parts": [
+        "einen passenden Beratungstermin"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

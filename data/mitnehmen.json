@@ -1,0 +1,178 @@
+{
+  "id": "mitnehmen",
+  "infinitive": "mitnehmen",
+  "translation": {
+    "ru": "брать с собой, захватить",
+    "en": "to take along"
+  },
+  "level": "A1",
+  "frequency_rank": 448,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "mit",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "mitnehmen",
+    "present_3sg": "nimmt mit",
+    "praeteritum_3sg": "nahm mit",
+    "partizip_2": "mitgenommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "nehme mit",
+      "du": "nimmst mit",
+      "er_sie_es": "nimmt mit",
+      "wir": "nehmen mit",
+      "ihr": "nehmt mit",
+      "sie_Sie": "nehmen mit"
+    },
+    "praeteritum": {
+      "ich": "nahm mit",
+      "du": "nahmst mit",
+      "er_sie_es": "nahm mit",
+      "wir": "nahmen mit",
+      "ihr": "nahmt mit",
+      "sie_Sie": "nahmen mit"
+    },
+    "perfekt": {
+      "ich": "habe mitgenommen",
+      "du": "hast mitgenommen",
+      "er_sie_es": "hat mitgenommen",
+      "wir": "haben mitgenommen",
+      "ihr": "habt mitgenommen",
+      "sie_Sie": "haben mitgenommen"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich nehme einen Regenschirm zur Sicherheit mit.",
+      "translation": {
+        "ru": "Я беру зонт для подстраховки с собой.",
+        "en": "I take an umbrella along just in case."
+      },
+      "bracket_parts": [
+        "nehme",
+        "mit"
+      ],
+      "akkusativ_parts": [
+        "einen Regenschirm"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du nimmst deine warme Jacke auf den Ausflug mit.",
+      "translation": {
+        "ru": "Ты берешь свою теплую куртку на прогулку.",
+        "en": "You take your warm jacket along on the trip."
+      },
+      "bracket_parts": [
+        "nimmst",
+        "mit"
+      ],
+      "akkusativ_parts": [
+        "deine warme Jacke"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er nimmt seinen kleinen Hund überallhin mit.",
+      "translation": {
+        "ru": "Он берет свою маленькую собаку повсюду с собой.",
+        "en": "He takes his small dog along everywhere."
+      },
+      "bracket_parts": [
+        "nimmt",
+        "mit"
+      ],
+      "akkusativ_parts": [
+        "seinen kleinen Hund"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir nehmen genügend Proviant für die Wanderung mit.",
+      "translation": {
+        "ru": "Мы берем с собой достаточно провизии в поход.",
+        "en": "We take enough provisions along for the hike."
+      },
+      "bracket_parts": [
+        "nehmen",
+        "mit"
+      ],
+      "akkusativ_parts": [
+        "genügend Proviant"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr nehmt eure Freunde zur Party mit.",
+      "translation": {
+        "ru": "Вы берете своих друзей с собой на вечеринку.",
+        "en": "You bring your friends along to the party."
+      },
+      "bracket_parts": [
+        "nehmt",
+        "mit"
+      ],
+      "akkusativ_parts": [
+        "eure Freunde"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie nahmen damals nur das Nötigste auf die Reise mit.",
+      "translation": {
+        "ru": "Они взяли тогда в путешествие только самое необходимое.",
+        "en": "They only took the bare essentials along on the trip back then."
+      },
+      "bracket_parts": [
+        "nahmen",
+        "mit"
+      ],
+      "akkusativ_parts": [
+        "das Nötigste"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Kollege hat mich gestern im Auto mitgenommen.",
+      "translation": {
+        "ru": "Коллега вчера подвез меня на машине.",
+        "en": "The colleague gave me a ride in his car yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "mitgenommen"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Nimm deinen Reisepass unbedingt mit!",
+      "translation": {
+        "ru": "Обязательно возьми свой загранпаспорт с собой!",
+        "en": "Definitely take your passport along!"
+      },
+      "bracket_parts": [
+        "Nimm",
+        "mit"
+      ],
+      "akkusativ_parts": [
+        "deinen Reisepass"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

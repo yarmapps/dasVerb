@@ -10,8 +10,7 @@ import { trackEvent } from '../services/analyticsService';
 import { DailyQuizLimitModal } from '../components/DailyQuizLimitModal/DailyQuizLimitModal';
 import { PremiumSubscribeSheet } from '../components/PremiumSubscribeSheet/PremiumSubscribeSheet';
 import { RootStackParamList } from '../types/navigation';
-// eslint-disable-next-line @typescript-eslint/no-require-imports
-const { ENABLE_PREMIUM } = require('../config/features');
+import { useFeatureFlag } from '../services/featuresService';
 
 export type VerbQuizParams = RootStackParamList['VerbQuiz'];
 
@@ -26,6 +25,7 @@ export interface UseNavigateToQuizResult {
 }
 
 export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQuizResult {
+  const isPremiumFeature = useFeatureFlag('ENABLE_PREMIUM');
   const [showLimitModal, setShowLimitModal] = useState(false);
   const [showPaywall, setShowPaywall] = useState(false);
   const [pendingParams, setPendingParams] = useState<{
@@ -96,11 +96,11 @@ export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQ
       <DailyQuizLimitModal
         visible={showLimitModal}
         onDismiss={handleDismiss}
-        onPremiumCTA={ENABLE_PREMIUM ? handlePremiumCTA : undefined}
+        onPremiumCTA={isPremiumFeature ? handlePremiumCTA : undefined}
         onVideoSuccess={handleVideoSuccess}
         canWatchAd={canWatchAdToday()}
       />
-      {ENABLE_PREMIUM && (
+      {isPremiumFeature && (
         <PremiumSubscribeSheet
           visible={showPaywall}
           onClose={handlePaywallClose}

@@ -1,0 +1,175 @@
+{
+  "id": "heiraten",
+  "infinitive": "heiraten",
+  "translation": {
+    "ru": "жениться, выходить замуж",
+    "en": "to marry, get married"
+  },
+  "level": "A1",
+  "frequency_rank": 333,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "heiraten",
+    "present_3sg": "heiratet",
+    "praeteritum_3sg": "heiratete",
+    "partizip_2": "geheiratet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "heirate",
+      "du": "heiratest",
+      "er_sie_es": "heiratet",
+      "wir": "heiraten",
+      "ihr": "heiratet",
+      "sie_Sie": "heiraten"
+    },
+    "praeteritum": {
+      "ich": "heiratete",
+      "du": "heiratetest",
+      "er_sie_es": "heiratete",
+      "wir": "heirateten",
+      "ihr": "heiratetet",
+      "sie_Sie": "heirateten"
+    },
+    "imperative": {
+      "du": "heirate!",
+      "ihr": "heiratet!",
+      "Sie": "heiraten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "aus Liebe heiraten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich heirate im kommenden Sommer meine beste Freundin.",
+      "translation": {
+        "ru": "Следующим летом я женюсь на своей лучшей подруге.",
+        "en": "I am marrying my best friend next summer."
+      },
+      "bracket_parts": [
+        "heirate"
+      ],
+      "akkusativ_parts": [
+        "meine beste Freundin"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Heiratest du deinen Verlobten in einer romantischen Kirche?",
+      "translation": {
+        "ru": "Ты выходишь замуж за своего жениха в романтичной церкви?",
+        "en": "Are you marrying your fiancé in a romantic church?"
+      },
+      "bracket_parts": [
+        "Heiratest"
+      ],
+      "akkusativ_parts": [
+        "deinen Verlobten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Mein Bruder heiratet eine wunderbare Frau aus Spanien.",
+      "translation": {
+        "ru": "Мой брат женится на замечательной женщине из Испании.",
+        "en": "My brother is marrying a wonderful woman from Spain."
+      },
+      "bracket_parts": [
+        "heiratet"
+      ],
+      "akkusativ_parts": [
+        "eine wunderbare Frau"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir heiraten ganz privat nur im engsten Familienkreis.",
+      "translation": {
+        "ru": "Мы женимся скромно, только в самом узком семейном кругу.",
+        "en": "We are getting married privately only in the closest family circle."
+      },
+      "bracket_parts": [
+        "heiraten"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Heiratet ihr noch in diesem Jahr oder erst nächstes Jahr?",
+      "translation": {
+        "ru": "Вы женитесь еще в этом году или только в следующем?",
+        "en": "Are you guys getting married this year or only next year?"
+      },
+      "bracket_parts": [
+        "Heiratet"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Das junge Paar heiratete damals heimlich am Strand.",
+      "translation": {
+        "ru": "Молодая пара поженилась тогда тайно на пляже.",
+        "en": "The young couple got married secretly on the beach back then."
+      },
+      "bracket_parts": [
+        "heiratete"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Meine Eltern haben vor genau vierzig Jahren geheiratet.",
+      "translation": {
+        "ru": "Мои родители поженились ровно сорок лет назад.",
+        "en": "My parents got married exactly forty years ago."
+      },
+      "bracket_parts": [
+        "haben",
+        "geheiratet"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Heirate bitte nur aus wahrer Liebe!",
+      "translation": {
+        "ru": "Женись только по настоящей любви, пожалуйста!",
+        "en": "Please only marry for true love!"
+      },
+      "bracket_parts": [
+        "Heirate"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    }
+  ]
+}

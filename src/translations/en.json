@@ -1,4 +1,43 @@
 {
+  "appUpdate": {
+    "title": "Update Available",
+    "softMessage": "To enjoy the best experience and latest improvements, please update your app now.",
+    "forceMessage": "A critical update is required to continue using das Verb. Please update now.",
+    "button": "Update Now",
+    "close": "Close"
+  },
+  "debugScreen": {
+    "title": "Debug Menu",
+    "sectionState": "App State Summary",
+    "sectionDailyLimit": "Daily Quiz Limit",
+    "sectionStreak": "Daily Streak",
+    "sectionSettings": "Settings & Storage",
+    "sectionAppUpdate": "App Update Dialog",
+    "sectionReview": "In-App Review & Rating",
+    "dailyQuizzes": "Completed quizzes today: {count} / {limit}",
+    "totalQuizzes": "Total completed quizzes: {count}",
+    "extraQuizzes": "Extra quizzes available: {count}",
+    "adGrants": "Ad grants today: {count} / {limit}",
+    "streakSummary": "Current streak: {streak} days (Best: {best})",
+    "resetDailyLimit": "Reset Daily Limit",
+    "grantExtraQuiz": "Grant +1 Extra Quiz",
+    "consumeQuiz": "Consume 1 Daily Quiz",
+    "resetStreak": "Reset Streak",
+    "incrementStreak": "Increment Streak (+1 Day)",
+    "resetAllSettings": "Reset Settings to Default",
+    "triggerSoftUpdate": "Trigger Soft Update (Dismissible)",
+    "triggerForceUpdate": "Trigger Force Update (Blocking)",
+    "resetUpdateState": "Reset Update State",
+    "triggerReview": "Trigger In-App Review (StoreReview)",
+    "resetReviewCooldown": "Reset Review Cooldown",
+    "addCompletedQuizzes": "Add +5 Completed Quizzes",
+    "alertSuccess": "Success",
+    "dailyLimitResetSuccess": "Daily quiz limits have been reset.",
+    "streakResetSuccess": "Streak data has been reset.",
+    "settingsResetSuccess": "All settings have been reset to defaults.",
+    "reviewTriggerSuccess": "Store review requested to OS.",
+    "reviewCooldownResetSuccess": "Review prompt cooldown reset."
+  },
   "navigation": {
     "practice": "Practice",
     "dictionary": "Dictionary"
@@ -16,7 +55,51 @@
     "startNow": "Start Now",
     "smartQuizBadge": "Smart Review",
     "smartQuizTitle": "Smart Algorithm",
-    "smartQuizSubtitle": "Focus on your mistakes and learn 3x faster"
+    "smartQuizSubtitle": "Focus on your mistakes and learn 3x faster",
+    "prefixBannerBadge": "A1 – B2",
+    "prefixBannerTitle": "Prefix Verbs",
+    "prefixBannerSubtitle": "Separable, inseparable and dual prefixes"
+  },
+  "categories": {
+    "sectionTitle": "Topics & Categories",
+    "sectionSubtitle": "Practice verbs grouped by real-life situations",
+    "verbsCount": "verbs",
+    "movement": {
+      "title": "Movement & Transport",
+      "subtitle": "gehen, fahren, fliegen, ankommen..."
+    },
+    "communication": {
+      "title": "Communication & Speech",
+      "subtitle": "sprechen, sagen, fragen, antworten..."
+    },
+    "homeDaily": {
+      "title": "Daily Life & Home",
+      "subtitle": "wohnen, schlafen, aufstehen, kochen..."
+    },
+    "foodDrink": {
+      "title": "Food & Restaurants",
+      "subtitle": "essen, trinken, bestellen, probieren..."
+    },
+    "workStudy": {
+      "title": "Work & Study",
+      "subtitle": "arbeiten, lernen, studieren, schreiben..."
+    },
+    "shoppingMoney": {
+      "title": "Shopping & Money",
+      "subtitle": "kaufen, bezahlen, kosten, sparen..."
+    },
+    "thoughtsFeelings": {
+      "title": "Thoughts & Feelings",
+      "subtitle": "denken, glauben, fühlen, lieben..."
+    },
+    "leisureHobbies": {
+      "title": "Leisure & Hobbies",
+      "subtitle": "spielen, reisen, schwimmen, wandern..."
+    },
+    "health": {
+      "title": "Health & Well-being",
+      "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    }
   },
   "dictionaryScreen": {
     "title": "Dictionary",
@@ -53,7 +136,23 @@
     "voiceMale": "Male",
     "maleVoiceHint": "To use a male German voice, install one in iOS Settings → Accessibility → Spoken Content → Voices → German.",
     "contactUs": "Contact Us",
-    "version": "Version"
+    "version": "Version",
+    "notificationsPermissionRequiredTitle": "Enable Notifications",
+    "notificationsPermissionRequiredMessage": "To receive daily practice and streak reminders, please enable notifications in your device settings.",
+    "openSettings": "Settings",
+    "cancel": "Cancel",
+    "dataSection": "DATA MANAGEMENT",
+    "resetProgress": "Reset Learning Progress",
+    "resetProgressTitle": "Reset Learning Progress?",
+    "resetProgressMessage": "All your verb and prefix level learning progress will be permanently deleted. This action cannot be undone.",
+    "resetProgressConfirm": "Reset Progress",
+    "resetProgressSuccess": "Learning progress has been reset.",
+    "resetSettings": "Reset App Settings",
+    "resetSettingsTitle": "Reset App Settings?",
+    "resetSettingsMessage": "All sound, theme, and notification settings will be restored to defaults. Your learning progress will be kept.",
+    "resetSettingsConfirm": "Reset Settings",
+    "resetSettingsSuccess": "Settings have been reset to defaults.",
+    "resetSuccessTitle": "Done"
   },
   "quizSettingsModal": {
     "title": "Quiz Settings"
@@ -67,7 +166,35 @@
     "silver": "Silver",
     "trophy": "Trophy",
     "empty": "No verbs found",
-    "checkpointTitle": "Checkpoint Quiz"
+    "checkpointTitle": "Checkpoint Quiz",
+    "finalTestTitle": "Final Test",
+    "finalTestTitleWithLevel": "Final Test {level}",
+    "finalTestSubtitle": "Comprehensive 20-question test for this level",
+    "categoryFinalTestSubtitle": "Comprehensive 20-question test for this topic",
+    "checkpointSubtitle": "Verbs {from} – {to}"
+  },
+  "prefixPracticeListScreen": {
+    "title": "Prefix Verbs",
+    "levelNumber": "Level {number}",
+    "checkpointTitle": "Checkpoint {level}",
+    "checkpointSubtitle": "Comprehensive 20-question test for this level",
+    "subgroupSeparable": "Separable Prefixes",
+    "subgroupInseparable": "Inseparable Prefixes",
+    "subgroupOpposites": "Opposites Pairs",
+    "subgroupDual": "Dual Prefixes"
+  },
+  "prefixPractice": {
+    "title": "Prefix Verbs",
+    "levelTitle": "Level {number}",
+    "checkpointTitle": "Checkpoint {level}"
+  },
+  "prefixGrammarHint": {
+    "separableTitle": "Separable Prefix",
+    "inseparableTitle": "Inseparable Prefix",
+    "dualTitle": "Dual Prefix",
+    "separableRule": "In Präsens and Präteritum, separable prefixes move to the very end of the clause.",
+    "inseparableRule": "Inseparable prefixes (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) never separate from the verb stem.",
+    "dualRule": "Prefixes like über-, um-, unter-, durch- can be separable or inseparable depending on the verb meaning."
   },
   "verbQuizScreen": {
     "title": "Practice",
@@ -174,6 +301,61 @@
       "naturalVoiceTitle": "Natural Audio",
       "naturalVoiceShort": "Natural\nGerman",
       "naturalVoiceDescription": "Hear verbs and sentences pronounced with natural German voice."
+    }
+  },
+  "notifications": {
+    "reminderTitle": "Time to practice!",
+    "reminderBody": "A quick session with German verbs and sentence structures will help you master them.",
+    "trialReminderTitle": "Your free trial is ending soon",
+    "trialReminderBody": "Make the most of Premium today! Your trial ends in 24 hours.",
+    "streakReminderTitle": "Don't break your streak! 🔥",
+    "streakReminderBody": "You haven't practiced today. Take a quick 2-minute quiz to keep your streak going!"
+  },
+  "firstOpenPaywall": {
+    "trialBadge": "3-DAY FREE TRIAL",
+    "title": "Try Premium Before You Pay",
+    "subtitle": "How your free trial works.",
+    "cta": "Start Free Trial",
+    "restore": "Restore Purchases",
+    "proceedLimited": "Proceed with limited version",
+    "priceYearlyWithCoffee": "{price}/year, a coffee/mo.",
+    "disclaimer": "Auto-renews at {price}/year. Cancel anytime in account settings.",
+    "disclaimerFallback": "Auto-renews yearly. Cancel anytime in settings.",
+    "priceWithTrial": "Free for {trialDuration}, then {price}/year",
+    "priceYearly": "{price}/year",
+    "timeline": {
+      "today": {
+        "day": "Today",
+        "headline": "Unlock Everything",
+        "benefits": {
+          "noAds": {
+            "title": "100% Ad-Free Learning",
+            "text": "Stay focused on your goals with a clean, zero-distraction study experience."
+          },
+          "unlimitedQuizzes": {
+            "title": "Unlimited Quizzes",
+            "text": "Practice as much as you want with no daily limits or waiting."
+          },
+          "allLevels": {
+            "title": "All A1–B2 Levels Unlocked",
+            "text": "Instant access to all verb cards, grammar checkpoints, and tests."
+          },
+          "smartQuizMode": {
+            "title": "Smart Error Correction",
+            "text": "Target your personal weak spots to master German verbs 3x faster."
+          }
+        }
+      },
+      "day2": {
+        "day": "Day 2",
+        "headline": "Trial Reminder",
+        "description": "We'll send you a friendly reminder before your trial ends — no surprises."
+      },
+      "day3": {
+        "day": "Day 3",
+        "headline": "Yearly Access Starts",
+        "description": "Your trial converts to annual access. Cancel anytime in settings."
+      }
     }
   }
 }

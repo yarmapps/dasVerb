@@ -1,0 +1,187 @@
+{
+  "id": "sichern",
+  "infinitive": "sichern",
+  "translation": {
+    "ru": "обеспечивать, сохранять, страховать",
+    "en": "to secure, save, protect"
+  },
+  "level": "B1",
+  "frequency_rank": 285,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "sichern",
+    "present_3sg": "sichert",
+    "praeteritum_3sg": "sicherte",
+    "partizip_2": "gesichert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "sichere",
+      "du": "sicherst",
+      "er_sie_es": "sichert",
+      "wir": "sichern",
+      "ihr": "sichert",
+      "sie_Sie": "sichern"
+    },
+    "praeteritum": {
+      "ich": "sicherte",
+      "du": "sichertest",
+      "er_sie_es": "sicherte",
+      "wir": "sicherten",
+      "ihr": "sichertet",
+      "sie_Sie": "sicherten"
+    },
+    "imperative": {
+      "du": "sichere!",
+      "ihr": "sichert!",
+      "Sie": "sichern Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Daten sichern",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich sichere jeden Abend alle wichtigen Dateien auf der Festplatte.",
+      "translation": {
+        "ru": "Каждый вечер я сохраняю все важные файлы на жестком диске.",
+        "en": "I back up all important files to the hard drive every evening."
+      },
+      "bracket_parts": [
+        "sichere"
+      ],
+      "akkusativ_parts": [
+        "alle wichtigen Dateien"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Sicherst du regelmäßig deinen Computer mit einem Passwort?",
+      "translation": {
+        "ru": "Ты регулярно защищаешь свой компьютер паролем?",
+        "en": "Do you regularly secure your computer with a password?"
+      },
+      "bracket_parts": [
+        "Sicherst"
+      ],
+      "akkusativ_parts": [
+        "deinen Computer"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Polizei sichert sorgfältig die Spuren am Unfallort.",
+      "translation": {
+        "ru": "Полиция тщательно фиксирует следы на месте происшествия.",
+        "en": "The police carefully secure the evidence at the accident scene."
+      },
+      "bracket_parts": [
+        "sichert"
+      ],
+      "akkusativ_parts": [
+        "die Spuren"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir sichern uns rechtzeitig gute Plätze für das Konzert.",
+      "translation": {
+        "ru": "Мы вовремя обеспечиваем себе хорошие места на концерт.",
+        "en": "We secure good seats for the concert in good time."
+      },
+      "bracket_parts": [
+        "sichern"
+      ],
+      "akkusativ_parts": [
+        "gute Plätze"
+      ],
+      "dativ_parts": [
+        "uns"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Sichert ihr beim Klettern eure Partner immer aufmerksam?",
+      "translation": {
+        "ru": "Вы при скалолазании всегда внимательно страхуете своих напарников?",
+        "en": "Do you guys always attentively belay your partners while climbing?"
+      },
+      "bracket_parts": [
+        "Sichert"
+      ],
+      "akkusativ_parts": [
+        "eure Partner"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Soldaten sicherten damals die gesamte Grenze vor Eindringlingen.",
+      "translation": {
+        "ru": "Солдаты охраняли тогда всю границу от нарушителей.",
+        "en": "The soldiers secured the entire border against intruders back then."
+      },
+      "bracket_parts": [
+        "sicherten"
+      ],
+      "akkusativ_parts": [
+        "die gesamte Grenze"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Betrieb hat viele Arbeitsplätze für die Zukunft gesichert.",
+      "translation": {
+        "ru": "Предприятие сохранило много рабочих мест на будущее.",
+        "en": "The company has secured many jobs for the future."
+      },
+      "bracket_parts": [
+        "hat",
+        "gesichert"
+      ],
+      "akkusativ_parts": [
+        "viele Arbeitsplätze"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Sichere bitte sofort deine Dokumente im Büro!",
+      "translation": {
+        "ru": "Сохрани, пожалуйста, сейчас же свои документы в офисе!",
+        "en": "Please save your documents in the office right away!"
+      },
+      "bracket_parts": [
+        "Sichere"
+      ],
+      "akkusativ_parts": [
+        "deine Dokumente"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

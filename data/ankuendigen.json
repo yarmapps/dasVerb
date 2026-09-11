@@ -1,0 +1,192 @@
+{
+  "id": "ankuendigen",
+  "infinitive": "ankündigen",
+  "translation": {
+    "ru": "объявлять, анонсировать",
+    "en": "to announce, declare"
+  },
+  "level": "B1",
+  "frequency_rank": 295,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ankündigen",
+    "present_3sg": "kündigt an",
+    "praeteritum_3sg": "kündigte an",
+    "partizip_2": "angekündigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "kündige an",
+      "du": "kündigst an",
+      "er_sie_es": "kündigt an",
+      "wir": "kündigen an",
+      "ihr": "kündigt an",
+      "sie_Sie": "kündigen an"
+    },
+    "praeteritum": {
+      "ich": "kündigte an",
+      "du": "kündigtest an",
+      "er_sie_es": "kündigte an",
+      "wir": "kündigten an",
+      "ihr": "kündigtet an",
+      "sie_Sie": "kündigten an"
+    },
+    "imperative": {
+      "du": "kündige an!",
+      "ihr": "kündigt an!",
+      "Sie": "kündigen Sie an!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein neues Produkt ankündigen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich kündige meinen bevorstehenden Besuch rechtzeitig an.",
+      "translation": {
+        "ru": "Я заблаговременно сообщаю о своем предстоящем визите.",
+        "en": "I announce my upcoming visit well in advance."
+      },
+      "bracket_parts": [
+        "kündige",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "meinen bevorstehenden Besuch"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Kündigst du deinen baldigen Rücktritt heute offiziell an?",
+      "translation": {
+        "ru": "Ты сегодня официально объявляешь о своей скорой отставке?",
+        "en": "Are you officially announcing your upcoming resignation today?"
+      },
+      "bracket_parts": [
+        "Kündigst",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "deinen baldigen Rücktritt"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Unternehmen kündigt eine neue Smartphone-Serie an.",
+      "translation": {
+        "ru": "Компания анонсирует новую серию смартфонов.",
+        "en": "The company announces a new series of smartphones."
+      },
+      "bracket_parts": [
+        "kündigt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "eine neue Smartphone-Serie"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir kündigen wichtige Reformen für das Schulsystem an.",
+      "translation": {
+        "ru": "Мы объявляем о важных реформах школьной системы.",
+        "en": "We announce important reforms for the school system."
+      },
+      "bracket_parts": [
+        "kündigen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "wichtige Reformen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kündigt ihr das Konzert im Radio an?",
+      "translation": {
+        "ru": "Вы объявляете концерт по радио?",
+        "en": "Are you announcing the concert on the radio?"
+      },
+      "bracket_parts": [
+        "Kündigt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das Konzert"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Gewerkschaft kündigte damals einen landesweiten Streik an.",
+      "translation": {
+        "ru": "Профсоюз объявил тогда об общенациональной забастовке.",
+        "en": "The trade union announced a nationwide strike back then."
+      },
+      "bracket_parts": [
+        "kündigte",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "einen landesweiten Streik"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die Schließung des Werkes bereits gestern angekündigt.",
+      "translation": {
+        "ru": "Они объявили о закрытии завода еще вчера.",
+        "en": "They already announced the closure of the plant yesterday."
+      },
+      "bracket_parts": [
+        "haben",
+        "angekündigt"
+      ],
+      "akkusativ_parts": [
+        "die Schließung des Werkes"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Kündige den nächsten Gast auf der Bühne an!",
+      "translation": {
+        "ru": "Объяви следующего гостя на сцене!",
+        "en": "Announce the next guest on stage!"
+      },
+      "bracket_parts": [
+        "Kündige",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den nächsten Gast"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

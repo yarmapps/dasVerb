@@ -1,0 +1,178 @@
+{
+  "id": "entwickeln",
+  "infinitive": "entwickeln",
+  "translation": {
+    "ru": "развивать, разрабатывать",
+    "en": "to develop, to design"
+  },
+  "level": "B1",
+  "frequency_rank": 75,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ent",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "entwickeln",
+    "present_3sg": "entwickelt",
+    "praeteritum_3sg": "entwickelte",
+    "partizip_2": "entwickelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entwickle",
+      "du": "entwickelst",
+      "er_sie_es": "entwickelt",
+      "wir": "entwickeln",
+      "ihr": "entwickelt",
+      "sie_Sie": "entwickeln",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "entwickelte",
+      "du": "entwickeltest",
+      "er_sie_es": "entwickelte",
+      "wir": "entwickelten",
+      "ihr": "entwickeltet",
+      "sie_Sie": "entwickelten"
+    },
+    "imperative": {
+      "du": "entwickle",
+      "ihr": "entwickelt",
+      "Sie": "entwickeln Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen Plan / ein Konzept (Akk) entwickeln",
+  "sentences": [
+    {
+      "id": "entwickeln_1",
+      "tense": "Präsens",
+      "german": "Ich entwickle eine moderne App für Sprachenlerner.",
+      "translation": {
+        "ru": "Я разрабатываю современное приложение для изучающих языки.",
+        "en": "I am developing a modern app for language learners."
+      },
+      "bracket_parts": [
+        "entwickle"
+      ],
+      "akkusativ_parts": [
+        "eine moderne App"
+      ]
+    },
+    {
+      "id": "entwickeln_2",
+      "tense": "Präsens",
+      "german": "Entwickelst du gerade eine neue Strategie für die Firma?",
+      "translation": {
+        "ru": "Ты разрабатываешь сейчас новую стратегию для компании?",
+        "en": "Are you currently developing a new strategy for the company?"
+      },
+      "bracket_parts": [
+        "Entwickelst"
+      ],
+      "akkusativ_parts": [
+        "eine neue Strategie"
+      ]
+    },
+    {
+      "id": "entwickeln_3",
+      "tense": "Präsens",
+      "german": "Das Team entwickelt ein umweltfreundliches Auto.",
+      "translation": {
+        "ru": "Команда разрабатывает экологически чистый автомобиль.",
+        "en": "The team is developing an eco-friendly car."
+      },
+      "bracket_parts": [
+        "entwickelt"
+      ],
+      "akkusativ_parts": [
+        "ein umweltfreundliches Auto"
+      ]
+    },
+    {
+      "id": "entwickeln_4",
+      "tense": "Präsens",
+      "german": "Wir entwickeln Schritt für Schritt ein stabiles Programm.",
+      "translation": {
+        "ru": "Мы шаг за шагом разрабатываем стабильную программу.",
+        "en": "We are developing a stable program step by step."
+      },
+      "bracket_parts": [
+        "entwickeln"
+      ],
+      "akkusativ_parts": [
+        "ein stabiles Programm"
+      ]
+    },
+    {
+      "id": "entwickeln_5",
+      "tense": "Präsens",
+      "german": "Entwickelt ihr neue Ideen für das Projekt?",
+      "translation": {
+        "ru": "Вы развиваете новые идеи для проекта?",
+        "en": "Are you developing new ideas for the project?"
+      },
+      "bracket_parts": [
+        "Entwickelt"
+      ],
+      "akkusativ_parts": [
+        "neue Ideen"
+      ]
+    },
+    {
+      "id": "entwickeln_6",
+      "tense": "Präteritum",
+      "german": "Die Wissenschaftler entwickelten damals einen wirksamen Impfstoff.",
+      "translation": {
+        "ru": "Ученые разработали тогда эффективную вакцину.",
+        "en": "The scientists developed an effective vaccine back then."
+      },
+      "bracket_parts": [
+        "entwickelten"
+      ],
+      "akkusativ_parts": [
+        "einen wirksamen Impfstoff"
+      ]
+    },
+    {
+      "id": "entwickeln_7",
+      "tense": "Perfekt",
+      "german": "Ich habe ein klares Konzept für den Unterricht entwickelt.",
+      "translation": {
+        "ru": "Я разработал четкую концепцию для занятий.",
+        "en": "I have developed a clear concept for the lessons."
+      },
+      "bracket_parts": [
+        "habe",
+        "entwickelt"
+      ],
+      "akkusativ_parts": [
+        "ein klares Konzept"
+      ]
+    },
+    {
+      "id": "entwickeln_8",
+      "tense": "Imperativ",
+      "german": "Entwickle deinen eigenen Stil beim Schreiben!",
+      "translation": {
+        "ru": "Развивай свой собственный стиль при письме!",
+        "en": "Develop your own style when writing!"
+      },
+      "bracket_parts": [
+        "Entwickle"
+      ],
+      "akkusativ_parts": [
+        "deinen eigenen Stil"
+      ]
+    }
+  ]
+}

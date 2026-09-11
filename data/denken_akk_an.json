@@ -1,0 +1,203 @@
+{
+  "id": "denken_akk_an",
+  "infinitive": "denken",
+  "translation": {
+    "ru": "думать, мыслить, вспоминать (о ком-то/чем-то)",
+    "en": "to think, to think of"
+  },
+  "level": "A1",
+  "frequency_rank": 21,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "mixed",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "denken",
+    "present_3sg": "denkt",
+    "praeteritum_3sg": "dachte",
+    "partizip_2": "gedacht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "denke",
+      "du": "denkst",
+      "er_sie_es": "denkt",
+      "wir": "denken",
+      "ihr": "denkt",
+      "sie_Sie": "denken",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "dachte",
+      "du": "dachtest",
+      "er_sie_es": "dachte",
+      "wir": "dachten",
+      "ihr": "dachtet",
+      "sie_Sie": "dachten"
+    },
+    "imperative": {
+      "du": "denk!",
+      "ihr": "denkt!",
+      "Sie": "denken Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "an",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "an die Zukunft / an seine Freunde (Akk) denken",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich denke auf meinen langen Spaziergängen am Abend oft an meine alte Heimat.",
+      "translation": {
+        "ru": "На своих долгих вечерних прогулках я часто думаю о своей старой родине.",
+        "en": "On my long walks in the evening I often think of my old homeland."
+      },
+      "bracket_parts": [
+        "denke"
+      ],
+      "akkusativ_parts": [
+        "an meine alte Heimat"
+      ],
+      "dativ_parts": [
+        "auf meinen langen Spaziergängen",
+        "am Abend"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Denkst du vor deiner Abreise bitte rechtzeitig an deinen gültigen Reisepass?",
+      "translation": {
+        "ru": "Вспомнишь ли ты перед своим отъездом, пожалуйста, вовремя о своем действующем загранпаспорте?",
+        "en": "Will you please remember your valid passport in good time before your departure?"
+      },
+      "bracket_parts": [
+        "Denkst"
+      ],
+      "akkusativ_parts": [
+        "an deinen gültigen Reisepass"
+      ],
+      "dativ_parts": [
+        "vor deiner Abreise"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die weise Großmutter denkt bei ihren Entscheidungen immer an das Wohl der gesamten Familie.",
+      "translation": {
+        "ru": "Мудрая бабушка в своих решениях всегда думает о благе всей семьи.",
+        "en": "The wise grandmother always thinks of the well-being of the whole family in her decisions."
+      },
+      "bracket_parts": [
+        "denkt"
+      ],
+      "akkusativ_parts": [
+        "an das Wohl der gesamten Familie"
+      ],
+      "dativ_parts": [
+        "bei ihren Entscheidungen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir denken bei der nachhaltigen Stadtplanung vor allem an die Bedürfnisse zukünftiger Generationen.",
+      "translation": {
+        "ru": "При экологичном городском планировании мы думаем прежде всего о потребностях будущих поколений.",
+        "en": "In sustainable urban planning we think above all of the needs of future generations."
+      },
+      "bracket_parts": [
+        "denken"
+      ],
+      "akkusativ_parts": [
+        "an die Bedürfnisse"
+      ],
+      "dativ_parts": [
+        "bei der nachhaltigen Stadtplanung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Denkt ihr beim Verlassen der Ferienwohnung an das Abschließen aller Fenster und Türen?",
+      "translation": {
+        "ru": "Помните ли вы, уходя из квартиры для отпуска, о закрытии всех окон и дверей на замок?",
+        "en": "Do you remember to lock all windows and doors when leaving the holiday flat?"
+      },
+      "bracket_parts": [
+        "Denkt"
+      ],
+      "akkusativ_parts": [
+        "an das Abschließen aller Fenster und Türen"
+      ],
+      "dativ_parts": [
+        "beim Verlassen der Ferienwohnung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals dachte niemand im Traum an eine derart dramatische Wendung der Ereignisse.",
+      "translation": {
+        "ru": "В те времена никто и во сне не думал о столь драматичном повороте событий.",
+        "en": "At that time nobody even dreamed of such a dramatic turn of events."
+      },
+      "bracket_parts": [
+        "dachte"
+      ],
+      "akkusativ_parts": [
+        "an eine derart dramatische Wendung"
+      ],
+      "dativ_parts": [
+        "im Traum"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Kinder haben bei den Vorbereitungen für das Schulfest an jedes kleine Detail gedacht.",
+      "translation": {
+        "ru": "Дети при подготовке к школьному празднику подумали о каждой мелкой детали.",
+        "en": "The children thought of every single detail when preparing for the school festival."
+      },
+      "bracket_parts": [
+        "haben",
+        "gedacht"
+      ],
+      "akkusativ_parts": [
+        "an jedes kleine Detail"
+      ],
+      "dativ_parts": [
+        "bei den Vorbereitungen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Denken Sie bei allen Schritten bitte immer an die geltenden Sicherheitsregeln!",
+      "translation": {
+        "ru": "Думайте при всех шагах, пожалуйста, всегда о действующих правилах безопасности!",
+        "en": "Please always think of the applicable safety rules during all steps!"
+      },
+      "bracket_parts": [
+        "Denken"
+      ],
+      "akkusativ_parts": [
+        "an die geltenden Sicherheitsregeln"
+      ],
+      "dativ_parts": [
+        "bei allen Schritten"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": "ergeben",
+  "infinitive": "ergeben",
+  "translation": {
+    "ru": "давать в итоге, составлять",
+    "en": "to yield, to result in"
+  },
+  "level": "B1",
+  "frequency_rank": 93,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ergeben",
+    "present_3sg": "ergibt",
+    "praeteritum_3sg": "ergab",
+    "partizip_2": "ergeben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ergebe",
+      "du": "ergibst",
+      "er_sie_es": "ergibt",
+      "wir": "ergeben",
+      "ihr": "ergebt",
+      "sie_Sie": "ergeben",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "ergab",
+      "du": "ergabst",
+      "er_sie_es": "ergab",
+      "wir": "ergaben",
+      "ihr": "ergabt",
+      "sie_Sie": "ergaben"
+    },
+    "imperative": {
+      "du": "ergib",
+      "ihr": "ergebt",
+      "Sie": "ergeben Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen Sinn / ein Ergebnis (Akk) ergeben",
+  "sentences": [
+    {
+      "id": "ergeben_1",
+      "tense": "Präsens",
+      "german": "Ich rechne alles nach, und zwei plus zwei ergibt vier.",
+      "translation": {
+        "ru": "Я все пересчитываю, и два плюс два дает четыре.",
+        "en": "I recalculate everything, and two plus two yields four."
+      },
+      "bracket_parts": [
+        "ergibt"
+      ],
+      "akkusativ_parts": [
+        "vier"
+      ]
+    },
+    {
+      "id": "ergeben_2",
+      "tense": "Präsens",
+      "german": "Ergibst du dich deinen ängstlichen Gedanken?",
+      "translation": {
+        "ru": "Ты сдаешься своим тревожным мыслям?",
+        "en": "Do you surrender to your anxious thoughts?"
+      },
+      "bracket_parts": [
+        "Ergibst"
+      ],
+      "dativ_parts": [
+        "deinen ängstlichen Gedanken"
+      ]
+    },
+    {
+      "id": "ergeben_3",
+      "tense": "Präsens",
+      "german": "Diese neue Rechnung ergibt einen ganz klaren Sinn.",
+      "translation": {
+        "ru": "Этот новый расчет дает совершенно ясный смысл.",
+        "en": "This new calculation makes complete sense."
+      },
+      "bracket_parts": [
+        "ergibt"
+      ],
+      "akkusativ_parts": [
+        "einen ganz klaren Sinn"
+      ]
+    },
+    {
+      "id": "ergeben_4",
+      "tense": "Präsens",
+      "german": "Wir sehen, dass alle Teile zusammen ein harmonisches Bild ergeben.",
+      "translation": {
+        "ru": "Мы видим, что все части вместе дают гармоничную картину.",
+        "en": "We see that all the pieces together form a harmonious picture."
+      },
+      "bracket_parts": [
+        "ergeben"
+      ],
+      "akkusativ_parts": [
+        "ein harmonisches Bild"
+      ]
+    },
+    {
+      "id": "ergeben_5",
+      "tense": "Präsens",
+      "german": "Ergebt ihr euch bei dieser Übung ohne Widerstand?",
+      "translation": {
+        "ru": "Вы сдаетесь в этом упражнении без сопротивления?",
+        "en": "Do you surrender in this exercise without resistance?"
+      },
+      "bracket_parts": [
+        "Ergebt"
+      ]
+    },
+    {
+      "id": "ergeben_6",
+      "tense": "Präteritum",
+      "german": "Die Untersuchungen ergaben damals keine neuen Erkenntnisse.",
+      "translation": {
+        "ru": "Исследования тогда не дали никаких новых результатов.",
+        "en": "The investigations yielded no new findings back then."
+      },
+      "bracket_parts": [
+        "ergaben"
+      ],
+      "akkusativ_parts": [
+        "keine neuen Erkenntnisse"
+      ]
+    },
+    {
+      "id": "ergeben_7",
+      "tense": "Perfekt",
+      "german": "Die gründliche Umfrage hat ein überraschendes Ergebnis ergeben.",
+      "translation": {
+        "ru": "Тщательный опрос дал неожиданный результат.",
+        "en": "The thorough survey yielded a surprising result."
+      },
+      "bracket_parts": [
+        "hat",
+        "ergeben"
+      ],
+      "akkusativ_parts": [
+        "ein überraschendes Ergebnis"
+      ]
+    },
+    {
+      "id": "ergeben_8",
+      "tense": "Imperativ",
+      "german": "Ergib dich nicht so leicht den Schwierigkeiten!",
+      "translation": {
+        "ru": "Не сдавайся так легко перед трудностями!",
+        "en": "Don't surrender so easily to difficulties!"
+      },
+      "bracket_parts": [
+        "Ergib"
+      ],
+      "dativ_parts": [
+        "den Schwierigkeiten"
+      ]
+    }
+  ]
+}

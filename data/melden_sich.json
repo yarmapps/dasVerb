@@ -1,0 +1,153 @@
+{
+  "id": "melden_sich",
+  "infinitive": "sich melden",
+  "translation": {
+    "ru": "отзываться, выходить на связь, поднимать руку (на уроке)",
+    "en": "to get in touch, report, raise one's hand"
+  },
+  "level": "A2",
+  "frequency_rank": 180,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich melden",
+    "present_3sg": "meldet sich",
+    "praeteritum_3sg": "meldete sich",
+    "partizip_2": "gemeldet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "melde mich",
+      "du": "meldest dich",
+      "er_sie_es": "meldet sich",
+      "wir": "melden uns",
+      "ihr": "meldet euch",
+      "sie_Sie": "melden sich"
+    },
+    "praeteritum": {
+      "ich": "meldete mich",
+      "du": "meldetest dich",
+      "er_sie_es": "meldete sich",
+      "wir": "meldeten uns",
+      "ihr": "meldetet euch",
+      "sie_Sie": "meldeten sich"
+    },
+    "imperative": {
+      "du": "melde dich!",
+      "ihr": "meldet euch!",
+      "Sie": "melden Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich bald wieder melden",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich melde mich morgen telefonisch bei dir.",
+      "translation": {
+        "ru": "Я выйду на связь с тобой завтра по телефону.",
+        "en": "I will get in touch with you by phone tomorrow."
+      },
+      "bracket_parts": [
+        "melde"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Meldest du dich im Unterricht oft freiwillig?",
+      "translation": {
+        "ru": "Ты часто тянешь руку на уроке добровольно?",
+        "en": "Do you often raise your hand voluntarily in class?"
+      },
+      "bracket_parts": [
+        "Meldest"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Bewerber meldet sich pünktlich an der Rezeption.",
+      "translation": {
+        "ru": "Соискатель вовремя отмечается на стойке регистрации.",
+        "en": "The applicant checks in on time at reception."
+      },
+      "bracket_parts": [
+        "meldet"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir melden uns sofort nach unserer Ankunft.",
+      "translation": {
+        "ru": "Мы выйдем на связь сразу после нашего приезда.",
+        "en": "We will get in touch right after our arrival."
+      },
+      "bracket_parts": [
+        "melden"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Meldet ihr euch, sobald ihr in Wien ankommt?",
+      "translation": {
+        "ru": "Вы дадите о себе знать, как только приедете в Вену?",
+        "en": "Will you guys get in touch as soon as you arrive in Vienna?"
+      },
+      "bracket_parts": [
+        "Meldet"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie meldeten sich wochenlang überhaupt nicht.",
+      "translation": {
+        "ru": "Они неделями совершенно не выходили на связь.",
+        "en": "They did not get in touch at all for weeks."
+      },
+      "bracket_parts": [
+        "meldeten"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Mein alter Schulfreund hat sich gestern überraschend gemeldet.",
+      "translation": {
+        "ru": "Мой старый школьный друг вчера неожиданно дал о себе знать.",
+        "en": "My old school friend surprisingly got in touch yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "gemeldet"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Melde dich bitte, wenn du zu Hause bist!",
+      "translation": {
+        "ru": "Дай знать, пожалуйста, когда будешь дома!",
+        "en": "Please get in touch when you are home!"
+      },
+      "bracket_parts": [
+        "Melde"
+      ]
+    }
+  ]
+}

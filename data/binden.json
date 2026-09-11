@@ -1,0 +1,187 @@
+{
+  "id": "binden",
+  "infinitive": "binden",
+  "translation": {
+    "ru": "связывать, привязывать, завязывать",
+    "en": "to tie, bind, knot"
+  },
+  "level": "B1",
+  "frequency_rank": 349,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "binden",
+    "present_3sg": "bindet",
+    "praeteritum_3sg": "band",
+    "partizip_2": "gebunden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "binde",
+      "du": "bindest",
+      "er_sie_es": "bindet",
+      "wir": "binden",
+      "ihr": "bindet",
+      "sie_Sie": "binden"
+    },
+    "praeteritum": {
+      "ich": "band",
+      "du": "bandest",
+      "er_sie_es": "band",
+      "wir": "banden",
+      "ihr": "bandet",
+      "sie_Sie": "banden"
+    },
+    "imperative": {
+      "du": "binde!",
+      "ihr": "bindet!",
+      "Sie": "binden Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen Knoten binden",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich binde mir morgens immer eine elegante Krawatte um.",
+      "translation": {
+        "ru": "По утрам я всегда повязываю элегантный галстук.",
+        "en": "I always tie an elegant tie around in the morning."
+      },
+      "bracket_parts": [
+        "binde"
+      ],
+      "akkusativ_parts": [
+        "eine elegante Krawatte"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Bindest du deine Schnürsenkel vor dem Laufen fest zu?",
+      "translation": {
+        "ru": "Ты крепко завязываешь шнурки перед бегом?",
+        "en": "Do you tie your shoelaces tightly before running?"
+      },
+      "bracket_parts": [
+        "Bindest"
+      ],
+      "akkusativ_parts": [
+        "deine Schnürsenkel"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Floristin bindet einen prachtvollen Blumenstrauß für das Jubiläum.",
+      "translation": {
+        "ru": "Флористка собирает великолепный букет цветов к юбилею.",
+        "en": "The florist binds a gorgeous bouquet of flowers for the anniversary."
+      },
+      "bracket_parts": [
+        "bindet"
+      ],
+      "akkusativ_parts": [
+        "einen prachtvollen Blumenstrauß"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir binden das Boot mit einem dicken Seil am Steg fest.",
+      "translation": {
+        "ru": "Мы привязываем лодку толстым канатом к пирсу.",
+        "en": "We tie the boat securely to the dock with a thick rope."
+      },
+      "bracket_parts": [
+        "binden"
+      ],
+      "akkusativ_parts": [
+        "das Boot"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bindet ihr den Hund vor dem Supermarkt an?",
+      "translation": {
+        "ru": "Вы привязываете собаку перед супермаркетом?",
+        "en": "Do you guys tie the dog outside the supermarket?"
+      },
+      "bracket_parts": [
+        "Bindet"
+      ],
+      "akkusativ_parts": [
+        "den Hund"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Gärtner band damals die jungen Bäume an Holzpfähle.",
+      "translation": {
+        "ru": "Садовник привязал тогда молодые деревья к деревянным кольям.",
+        "en": "The gardener tied the young trees to wooden stakes back then."
+      },
+      "bracket_parts": [
+        "band"
+      ],
+      "akkusativ_parts": [
+        "die jungen Bäume"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Vertrag hat beide Parteien für fünf Jahre fest gebunden.",
+      "translation": {
+        "ru": "Договор крепко связал обе стороны обязательствами на пять лет.",
+        "en": "The contract bound both parties firmly for five years."
+      },
+      "bracket_parts": [
+        "hat",
+        "gebunden"
+      ],
+      "akkusativ_parts": [
+        "beide Parteien"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Binde bitte das schwere Paket mit Schnur zusammen!",
+      "translation": {
+        "ru": "Перевяжи тяжелую посылку бечевкой, пожалуйста!",
+        "en": "Please tie the heavy package together with twine!"
+      },
+      "bracket_parts": [
+        "Binde"
+      ],
+      "akkusativ_parts": [
+        "das schwere Paket"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

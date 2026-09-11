@@ -1,0 +1,177 @@
+{
+  "id": "vermitteln",
+  "infinitive": "vermitteln",
+  "translation": {
+    "ru": "быть посредником, находить (работу/жилье), передавать (знания)",
+    "en": "to mediate, convey, find (a job/flat)"
+  },
+  "level": "B1",
+  "frequency_rank": 260,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vermitteln",
+    "present_3sg": "vermittelt",
+    "praeteritum_3sg": "vermittelte",
+    "partizip_2": "vermittelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vermittle",
+      "du": "vermittelst",
+      "er_sie_es": "vermittelt",
+      "wir": "vermitteln",
+      "ihr": "vermittelt",
+      "sie_Sie": "vermitteln"
+    },
+    "praeteritum": {
+      "ich": "vermittelte",
+      "du": "vermitteltest",
+      "er_sie_es": "vermittelte",
+      "wir": "vermittelten",
+      "ihr": "vermitteltet",
+      "sie_Sie": "vermittelten"
+    },
+    "imperative": {
+      "du": "vermittle!",
+      "ihr": "vermittelt!",
+      "Sie": "vermitteln Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Wissen verständlich vermitteln",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich vermittle den Schülern Freude an der deutschen Sprache.",
+      "translation": {
+        "ru": "Я передаю ученикам радость изучения немецкого языка.",
+        "en": "I convey the joy of the German language to the students."
+      },
+      "bracket_parts": [
+        "vermittle"
+      ],
+      "dativ_parts": [
+        "den Schülern"
+      ],
+      "akkusativ_parts": [
+        "Freude an der deutschen Sprache"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Vermittelst du zwischen den beiden zerstrittenen Parteien?",
+      "translation": {
+        "ru": "Выступаешь ли ты посредником между двумя поссорившимися сторонами?",
+        "en": "Do you mediate between the two feuding parties?"
+      },
+      "bracket_parts": [
+        "Vermittelst"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Agentur vermittelt erfahrene Fachkräfte an Unternehmen.",
+      "translation": {
+        "ru": "Агентство подбирает опытных специалистов компаниям.",
+        "en": "The agency places experienced specialists with companies."
+      },
+      "bracket_parts": [
+        "vermittelt"
+      ],
+      "akkusativ_parts": [
+        "erfahrene Fachkräfte"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir vermitteln fundiertes Wissen in praktischen Kursen.",
+      "translation": {
+        "ru": "Мы даем глубокие знания на практических курсах.",
+        "en": "We convey solid knowledge in practical courses."
+      },
+      "bracket_parts": [
+        "vermitteln"
+      ],
+      "akkusativ_parts": [
+        "fundiertes Wissen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Vermittelt ihr auch Ferienwohnungen an der Ostsee?",
+      "translation": {
+        "ru": "Вы также сдаете в аренду курортные квартиры на Балтийском море?",
+        "en": "Do you guys also arrange holiday apartments on the Baltic Sea?"
+      },
+      "bracket_parts": [
+        "Vermittelt"
+      ],
+      "akkusativ_parts": [
+        "Ferienwohnungen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie vermittelten damals erfolgreich im Tarifstreit.",
+      "translation": {
+        "ru": "В то время они успешно выступили посредниками в тарифном споре.",
+        "en": "They mediated successfully in the wage dispute back then."
+      },
+      "bracket_parts": [
+        "vermittelten"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Beraterin hat meiner Freundin eine schöne Wohnung vermittelt.",
+      "translation": {
+        "ru": "Консультант нашла моей подруге прекрасную квартиру.",
+        "en": "The agent found a nice apartment for my friend."
+      },
+      "bracket_parts": [
+        "hat",
+        "vermittelt"
+      ],
+      "dativ_parts": [
+        "meiner Freundin"
+      ],
+      "akkusativ_parts": [
+        "eine schöne Wohnung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Vermittle bitte einen friedlichen Kompromiss!",
+      "translation": {
+        "ru": "Посодействуй мирному компромиссу, пожалуйста!",
+        "en": "Please mediate a peaceful compromise!"
+      },
+      "bracket_parts": [
+        "Vermittle"
+      ],
+      "akkusativ_parts": [
+        "einen friedlichen Kompromiss"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "regeln",
+  "infinitive": "regeln",
+  "translation": {
+    "ru": "регулировать, улаживать, настраивать",
+    "en": "to regulate, settle, control, manage"
+  },
+  "level": "B1",
+  "frequency_rank": 353,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "regeln",
+    "present_3sg": "regelt",
+    "praeteritum_3sg": "regelte",
+    "partizip_2": "geregelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "regele",
+      "du": "regelst",
+      "er_sie_es": "regelt",
+      "wir": "regeln",
+      "ihr": "regelt",
+      "sie_Sie": "regeln"
+    },
+    "praeteritum": {
+      "ich": "regelte",
+      "du": "regeltest",
+      "er_sie_es": "regelte",
+      "wir": "regelten",
+      "ihr": "regeltet",
+      "sie_Sie": "regelten"
+    },
+    "imperative": {
+      "du": "regele!",
+      "ihr": "regelt!",
+      "Sie": "regeln Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "den Streit gütlich regeln",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich regele diese schwierige Angelegenheit noch heute persönlich.",
+      "translation": {
+        "ru": "Я улажу это трудное дело еще сегодня лично.",
+        "en": "I will settle this difficult matter personally today."
+      },
+      "bracket_parts": [
+        "regele"
+      ],
+      "akkusativ_parts": [
+        "diese schwierige Angelegenheit"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Regelst du die Temperatur im Zimmer mit dem Thermostat?",
+      "translation": {
+        "ru": "Ты регулируешь температуру в комнате с помощью термостата?",
+        "en": "Do you control the temperature in the room with the thermostat?"
+      },
+      "bracket_parts": [
+        "Regelst"
+      ],
+      "akkusativ_parts": [
+        "die Temperatur"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Ein Polizist regelt den dichten Verkehr an der Kreuzung.",
+      "translation": {
+        "ru": "Полицейский регулирует плотное движение на перекрестке.",
+        "en": "A police officer directs the heavy traffic at the intersection."
+      },
+      "bracket_parts": [
+        "regelt"
+      ],
+      "akkusativ_parts": [
+        "den dichten Verkehr"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir regeln alle offenen Fragen vor Vertragsabschluss.",
+      "translation": {
+        "ru": "Мы улаживаем все открытые вопросы до заключения договора.",
+        "en": "We settle all open questions before concluding the contract."
+      },
+      "bracket_parts": [
+        "regeln"
+      ],
+      "akkusativ_parts": [
+        "alle offenen Fragen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Regelt ihr die Finanzen der Wohngemeinschaft immer gemeinsam?",
+      "translation": {
+        "ru": "Вы всегда вместе урегулируете финансы вашей квартиры?",
+        "en": "Do you guys always manage the flat share finances together?"
+      },
+      "bracket_parts": [
+        "Regelt"
+      ],
+      "akkusativ_parts": [
+        "die Finanzen der Wohngemeinschaft"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Das alte Gesetz regelte damals den Handel zwischen den Städten.",
+      "translation": {
+        "ru": "Старый закон регулировал тогда торговлю между городами.",
+        "en": "The old law governed trade between the cities back then."
+      },
+      "bracket_parts": [
+        "regelte"
+      ],
+      "akkusativ_parts": [
+        "den Handel"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die Nachfolge im Unternehmen erfolgreich geregelt.",
+      "translation": {
+        "ru": "Они успешно уладили вопрос преемственности в компании.",
+        "en": "They have successfully settled succession in the company."
+      },
+      "bracket_parts": [
+        "haben",
+        "geregelt"
+      ],
+      "akkusativ_parts": [
+        "die Nachfolge"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Regele bitte sofort das Problem mit der Heizung!",
+      "translation": {
+        "ru": "Уладь, пожалуйста, проблему с отоплением немедленно!",
+        "en": "Please fix the issue with the heating immediately!"
+      },
+      "bracket_parts": [
+        "Regele"
+      ],
+      "akkusativ_parts": [
+        "das Problem"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

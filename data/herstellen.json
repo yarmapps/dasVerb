@@ -1,0 +1,184 @@
+{
+  "id": "herstellen",
+  "infinitive": "herstellen",
+  "translation": {
+    "ru": "производить, изготавливать; устанавливать (контакт)",
+    "en": "to produce, manufacture, establish"
+  },
+  "level": "B1",
+  "frequency_rank": 230,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "her",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "herstellen",
+    "present_3sg": "stellt her",
+    "praeteritum_3sg": "stellte her",
+    "partizip_2": "hergestellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stelle her",
+      "du": "stellst her",
+      "er_sie_es": "stellt her",
+      "wir": "stellen her",
+      "ihr": "stellt her",
+      "sie_Sie": "stellen her"
+    },
+    "praeteritum": {
+      "ich": "stellte her",
+      "du": "stelltest her",
+      "er_sie_es": "stellte her",
+      "wir": "stellten her",
+      "ihr": "stelltet her",
+      "sie_Sie": "stellten her"
+    },
+    "imperative": {
+      "du": "stelle her!",
+      "ihr": "stellt her!",
+      "Sie": "stellen Sie her!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "hochwertige Produkte herstellen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich stelle handgemachte Seifen aus reinen Naturstoffen her.",
+      "translation": {
+        "ru": "Я произвожу мыло ручной работы из чистых натуральных веществ.",
+        "en": "I manufacture handmade soaps from pure natural substances."
+      },
+      "bracket_parts": [
+        "stelle",
+        "her"
+      ],
+      "akkusativ_parts": [
+        "handgemachte Seifen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Stellst du biologische Marmelade in der eigenen Küche her?",
+      "translation": {
+        "ru": "Ты варишь органический джем на собственной кухне?",
+        "en": "Do you make organic jam in your own kitchen?"
+      },
+      "bracket_parts": [
+        "Stellst",
+        "her"
+      ],
+      "akkusativ_parts": [
+        "biologische Marmelade"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Fabrik stellt jährlich hunderttausend Fahrräder her.",
+      "translation": {
+        "ru": "Фабрика производит сто тысяч велосипедов в год.",
+        "en": "The factory produces a hundred thousand bicycles annually."
+      },
+      "bracket_parts": [
+        "stellt",
+        "her"
+      ],
+      "akkusativ_parts": [
+        "hunderttausend Fahrräder"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir stellen sofort den Kontakt zur Kundenbetreuung her.",
+      "translation": {
+        "ru": "Мы немедленно устанавливаем связь со службой заботы о клиентах.",
+        "en": "We immediately establish contact with customer support."
+      },
+      "bracket_parts": [
+        "stellen",
+        "her"
+      ],
+      "akkusativ_parts": [
+        "den Kontakt"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Stellt ihr alle Bauteile im eigenen Werk her?",
+      "translation": {
+        "ru": "Вы производите все детали на собственном заводе?",
+        "en": "Do you guys manufacture all components in your own plant?"
+      },
+      "bracket_parts": [
+        "Stellt",
+        "her"
+      ],
+      "akkusativ_parts": [
+        "alle Bauteile"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie stellten damals feine Uhren in traditioneller Handarbeit her.",
+      "translation": {
+        "ru": "В то время они вручную изготавливали изысканные часы по традиционной технологии.",
+        "en": "They produced fine watches in traditional craftsmanship back then."
+      },
+      "bracket_parts": [
+        "stellten",
+        "her"
+      ],
+      "akkusativ_parts": [
+        "feine Uhren"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das Unternehmen hat hochwertige Möbel aus Echtholz hergestellt.",
+      "translation": {
+        "ru": "Компания изготовила высококачественную мебель из натурального дерева.",
+        "en": "The company manufactured high-quality furniture from real wood."
+      },
+      "bracket_parts": [
+        "hat",
+        "hergestellt"
+      ],
+      "akkusativ_parts": [
+        "hochwertige Möbel"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Stelle bitte die Verbindung zum Hauptserver her!",
+      "translation": {
+        "ru": "Установи соединение с главным сервером, пожалуйста!",
+        "en": "Please establish the connection to the main server!"
+      },
+      "bracket_parts": [
+        "Stelle",
+        "her"
+      ],
+      "akkusativ_parts": [
+        "die Verbindung"
+      ]
+    }
+  ]
+}

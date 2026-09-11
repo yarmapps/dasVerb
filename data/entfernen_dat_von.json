@@ -1,0 +1,201 @@
+{
+  "id": "entfernen_dat_von",
+  "infinitive": "entfernen",
+  "translation": {
+    "ru": "удаляться (от чего-то), убирать (откуда-то)",
+    "en": "to distance oneself (from), remove (from)"
+  },
+  "level": "B1",
+  "frequency_rank": 283,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ent",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "entfernen",
+    "present_3sg": "entfernt",
+    "praeteritum_3sg": "entfernte",
+    "partizip_2": "entfernt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entferne",
+      "du": "entfernst",
+      "er_sie_es": "entfernt",
+      "wir": "entfernen",
+      "ihr": "entfernt",
+      "sie_Sie": "entfernen"
+    },
+    "praeteritum": {
+      "ich": "entfernte",
+      "du": "entferntest",
+      "er_sie_es": "entfernte",
+      "wir": "entfernten",
+      "ihr": "entferntet",
+      "sie_Sie": "entfernten"
+    },
+    "imperative": {
+      "du": "entferne!",
+      "ihr": "entfernt!",
+      "Sie": "entfernen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "von",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "sich vom Tatort entfernen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich entferne mich bei Gefahr sofort von der Straße.",
+      "translation": {
+        "ru": "При опасности я немедленно ухожу с проезжей части.",
+        "en": "In danger I immediately move away from the street."
+      },
+      "bracket_parts": [
+        "entferne"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": [
+        "der Straße"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Entfernst du dich im Wald niemals von der Gruppe?",
+      "translation": {
+        "ru": "Ты в лесу никогда не отходишь далеко от группы?",
+        "en": "Do you never distance yourself from the group in the forest?"
+      },
+      "bracket_parts": [
+        "Entfernst"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "der Gruppe"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Schiff entfernt sich langsam von der Küste.",
+      "translation": {
+        "ru": "Корабль медленно отдаляется от берега.",
+        "en": "The ship is moving slowly away from the coast."
+      },
+      "bracket_parts": [
+        "entfernt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "der Küste"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir entfernen den Schmutz von den Fensterscheiben.",
+      "translation": {
+        "ru": "Мы удаляем грязь с оконных стекол.",
+        "en": "We remove the dirt from the window panes."
+      },
+      "bracket_parts": [
+        "entfernen"
+      ],
+      "akkusativ_parts": [
+        "den Schmutz"
+      ],
+      "dativ_parts": [
+        "den Fensterscheiben"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Entfernt ihr euch während der Pause weit von dem Schulgelände?",
+      "translation": {
+        "ru": "Вы на перемене далеко уходите от школьного двора?",
+        "en": "Do you guys move far away from the school grounds during the break?"
+      },
+      "bracket_parts": [
+        "Entfernt"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ],
+      "dativ_parts": [
+        "dem Schulgelände"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Verdächtige entfernte sich damals eilig von dem Tatort.",
+      "translation": {
+        "ru": "Подозреваемый поспешно скрылся тогда с места преступления.",
+        "en": "The suspect hurried away from the crime scene back then."
+      },
+      "bracket_parts": [
+        "entfernte"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "dem Tatort"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das Boot hat sich weit von dem sicheren Hafen entfernt.",
+      "translation": {
+        "ru": "Лодка ушла далеко от безопасной гавани.",
+        "en": "The boat has moved far away from the safe harbor."
+      },
+      "bracket_parts": [
+        "hat",
+        "entfernt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "dem sicheren Hafen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Entferne dich bitte nicht von deinen Begleitern!",
+      "translation": {
+        "ru": "Не отходи от своих спутников, пожалуйста!",
+        "en": "Please do not wander away from your companions!"
+      },
+      "bracket_parts": [
+        "Entferne"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "deinen Begleitern"
+      ]
+    }
+  ]
+}

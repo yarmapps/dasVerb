@@ -1,0 +1,171 @@
+{
+  "id": "betreuen",
+  "infinitive": "betreuen",
+  "translation": {
+    "ru": "курировать, опекать, заботиться",
+    "en": "to look after, take care of, supervise"
+  },
+  "level": "B1",
+  "frequency_rank": 483,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "betreuen",
+    "present_3sg": "betreut",
+    "praeteritum_3sg": "betreute",
+    "partizip_2": "betreut"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "betreue",
+      "du": "betreust",
+      "er_sie_es": "betreut",
+      "wir": "betreuen",
+      "ihr": "betreut",
+      "sie_Sie": "betreuen"
+    },
+    "praeteritum": {
+      "ich": "betreute",
+      "du": "betreutest",
+      "er_sie_es": "betreute",
+      "wir": "betreuten",
+      "ihr": "betreutet",
+      "sie_Sie": "betreuten"
+    },
+    "perfekt": {
+      "ich": "habe betreut",
+      "du": "hast betreut",
+      "er_sie_es": "hat betreut",
+      "wir": "haben betreut",
+      "ihr": "habt betreut",
+      "sie_Sie": "haben betreut"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich betreue mehrere wichtige Kunden im Ausland.",
+      "translation": {
+        "ru": "Я курирую нескольких важных клиентов за рубежом.",
+        "en": "I look after several important clients abroad."
+      },
+      "bracket_parts": [
+        "betreue"
+      ],
+      "akkusativ_parts": [
+        "mehrere wichtige Kunden"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du betreust die kleinen Kinder am Nachmittag liebevoll.",
+      "translation": {
+        "ru": "Ты заботливо присматриваешь за маленькими детьми после обеда.",
+        "en": "You care for the small children lovingly in the afternoon."
+      },
+      "bracket_parts": [
+        "betreust"
+      ],
+      "akkusativ_parts": [
+        "die kleinen Kinder"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Pflegerin betreut ältere Menschen in der Seniorenresidenz.",
+      "translation": {
+        "ru": "Сиделка ухаживает за пожилыми людьми в доме престарелых.",
+        "en": "The caregiver looks after elderly people in the retirement home."
+      },
+      "bracket_parts": [
+        "betreut"
+      ],
+      "akkusativ_parts": [
+        "ältere Menschen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir betreuen internationale Austauschstudenten an der Universität.",
+      "translation": {
+        "ru": "Мы курируем иностранных студентов по обмену в университете.",
+        "en": "We supervise international exchange students at the university."
+      },
+      "bracket_parts": [
+        "betreuen"
+      ],
+      "akkusativ_parts": [
+        "internationale Austauschstudenten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr betreut dieses anspruchsvolle IT-Projekt sehr kompetent.",
+      "translation": {
+        "ru": "Вы очень компетентно ведете этот сложный ИТ-проект.",
+        "en": "You manage this demanding IT project very competently."
+      },
+      "bracket_parts": [
+        "betreut"
+      ],
+      "akkusativ_parts": [
+        "dieses anspruchsvolle IT-Projekt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie betreuten damals viele hilfsbedürftige Flüchtlinge.",
+      "translation": {
+        "ru": "Они тогда опекали многих нуждающихся беженцев.",
+        "en": "They cared for many needy refugees back then."
+      },
+      "bracket_parts": [
+        "betreuten"
+      ],
+      "akkusativ_parts": [
+        "viele hilfsbedürftige Flüchtlinge"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Mein Kollege hat das schwierige Kundenkonto jahrelang betreut.",
+      "translation": {
+        "ru": "Мой коллега годами вел этот сложный клиентский аккаунт.",
+        "en": "My colleague managed the difficult customer account for years."
+      },
+      "bracket_parts": [
+        "hat",
+        "betreut"
+      ],
+      "akkusativ_parts": [
+        "das schwierige Kundenkonto"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Betreue den neuen Praktikanten während seiner ersten Woche!",
+      "translation": {
+        "ru": "Курируй нового стажера во время его первой недели!",
+        "en": "Supervise the new intern during his first week!"
+      },
+      "bracket_parts": [
+        "Betreue"
+      ],
+      "akkusativ_parts": [
+        "den neuen Praktikanten"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

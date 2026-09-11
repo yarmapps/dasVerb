@@ -1,0 +1,169 @@
+{
+  "id": "kaempfen",
+  "infinitive": "kämpfen",
+  "translation": {
+    "ru": "бороться, драться, сражаться",
+    "en": "to fight, battle, struggle"
+  },
+  "level": "A2",
+  "frequency_rank": 344,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "kämpfen",
+    "present_3sg": "kämpft",
+    "praeteritum_3sg": "kämpfte",
+    "partizip_2": "gekämpft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "kämpfe",
+      "du": "kämpfst",
+      "er_sie_es": "kämpft",
+      "wir": "kämpfen",
+      "ihr": "kämpft",
+      "sie_Sie": "kämpfen"
+    },
+    "praeteritum": {
+      "ich": "kämpfte",
+      "du": "kämpftest",
+      "er_sie_es": "kämpfte",
+      "wir": "kämpften",
+      "ihr": "kämpftet",
+      "sie_Sie": "kämpften"
+    },
+    "imperative": {
+      "du": "kämpfe!",
+      "ihr": "kämpft!",
+      "Sie": "kämpfen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "um den Sieg kämpfen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich kämpfe bis zur letzten Minute für mein Ziel.",
+      "translation": {
+        "ru": "Я борюсь до последней минуты за свою цель.",
+        "en": "I fight until the last minute for my goal."
+      },
+      "bracket_parts": [
+        "kämpfe"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Kämpfst du im Sportverein regelmäßig gegen starke Gegner?",
+      "translation": {
+        "ru": "Ты регулярно сражаешься в спортивном клубе против сильных соперников?",
+        "en": "Do you regularly fight against strong opponents in the sports club?"
+      },
+      "bracket_parts": [
+        "Kämpfst"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der kranke Mann kämpft tapfer um sein Überleben.",
+      "translation": {
+        "ru": "Больной мужчина храбро борется за свое выживание.",
+        "en": "The sick man fights bravely for his survival."
+      },
+      "bracket_parts": [
+        "kämpft"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir kämpfen gemeinsam für mehr Gerechtigkeit auf der Welt.",
+      "translation": {
+        "ru": "Мы вместе боремся за большую справедливость в мире.",
+        "en": "Together we fight for more justice in the world."
+      },
+      "bracket_parts": [
+        "kämpfen"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kämpft ihr im Finale mit ganzer Kraft um den Pokal?",
+      "translation": {
+        "ru": "Вы в финале изо всех сил боретесь за кубок?",
+        "en": "Are you guys fighting with all your might for the trophy in the final?"
+      },
+      "bracket_parts": [
+        "Kämpft"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Soldaten kämpften damals mutig in der schweren Schlacht.",
+      "translation": {
+        "ru": "Солдаты мужественно сражались тогда в тяжелой битве.",
+        "en": "The soldiers fought courageously in the fierce battle back then."
+      },
+      "bracket_parts": [
+        "kämpften"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Mannschaft hat bis zum Schlusspfiff leidenschaftlich gekämpft.",
+      "translation": {
+        "ru": "Команда страстно боролась до финального свистка.",
+        "en": "The team fought passionately until the final whistle."
+      },
+      "bracket_parts": [
+        "hat",
+        "gekämpft"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Kämpfe bitte immer für deine Träume und gib nicht auf!",
+      "translation": {
+        "ru": "Борись всегда за свои мечты и не сдавайся!",
+        "en": "Please always fight for your dreams and do not give up!"
+      },
+      "bracket_parts": [
+        "Kämpfe"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    }
+  ]
+}

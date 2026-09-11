@@ -1,0 +1,185 @@
+{
+  "id": "kuemmern",
+  "infinitive": "kümmern",
+  "translation": {
+    "ru": "волновать, трогать, беспокоить",
+    "en": "to concern, matter to"
+  },
+  "level": "B1",
+  "frequency_rank": 289,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "kümmern",
+    "present_3sg": "kümmert",
+    "praeteritum_3sg": "kümmerte",
+    "partizip_2": "gekümmert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "kümmere",
+      "du": "k действуешь kümmerst",
+      "er_sie_es": "kümmert",
+      "wir": "kümmern",
+      "ihr": "kümmert",
+      "sie_Sie": "kümmern"
+    },
+    "praeteritum": {
+      "ich": "kümmerte",
+      "du": "kümmertest",
+      "er_sie_es": "kümmerte",
+      "wir": "kümmerten",
+      "ihr": "kümmertet",
+      "sie_Sie": "kümmerten"
+    },
+    "imperative": {
+      "du": "kümmere!",
+      "ihr": "kümmert!",
+      "Sie": "kümmern Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das kümmert mich nicht",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Mich kümmert das Gerede der Nachbarn überhaupt nicht.",
+      "translation": {
+        "ru": "Меня разговоры соседей совершенно не волнуют.",
+        "en": "The talk of the neighbors does not bother me at all."
+      },
+      "bracket_parts": [
+        "kümmert"
+      ],
+      "akkusativ_parts": [
+        "Mich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Kümmert dich die Meinung der anderen wirklich so sehr?",
+      "translation": {
+        "ru": "Тебя действительно так сильно волнует чужое мнение?",
+        "en": "Does the opinion of others really concern you so much?"
+      },
+      "bracket_parts": [
+        "Kümmert"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Den egoistischen Mann kümmert das Schicksal seiner Verwandten wenig.",
+      "translation": {
+        "ru": "Эгоистичного мужчину мало заботит судьба его родственников.",
+        "en": "The selfish man cares little about the fate of his relatives."
+      },
+      "bracket_parts": [
+        "kümmert"
+      ],
+      "akkusativ_parts": [
+        "Den egoistischen Mann"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Uns kümmert diese alte Vorschrift schon lange nicht mehr.",
+      "translation": {
+        "ru": "Нас это старое предписание уже давно не волнует.",
+        "en": "This old rule has not concerned us for a long time."
+      },
+      "bracket_parts": [
+        "kümmert"
+      ],
+      "akkusativ_parts": [
+        "Uns"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kümmert euch der hohe Benzinpreis denn gar nicht?",
+      "translation": {
+        "ru": "Вас разве вовсе не волнует высокая цена на бензин?",
+        "en": "Doesn't the high gasoline price bother you at all?"
+      },
+      "bracket_parts": [
+        "Kümmert"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Ihn kümmerte der Lärm auf der Straße damals überhaupt nicht.",
+      "translation": {
+        "ru": "Его шум на улице тогда совершенно не беспокоил.",
+        "en": "The noise on the street didn't bother him at all back then."
+      },
+      "bracket_parts": [
+        "kümmerte"
+      ],
+      "akkusativ_parts": [
+        "Ihn"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Ihre schlechte Laune hat ihn den ganzen Tag gekümmert.",
+      "translation": {
+        "ru": "Ее плохое настроение беспокоило его весь день.",
+        "en": "Her bad mood concerned him the whole day."
+      },
+      "bracket_parts": [
+        "hat",
+        "gekümmert"
+      ],
+      "akkusativ_parts": [
+        "ihn"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Kümmere dich nicht um solche Kleinigkeiten!",
+      "translation": {
+        "ru": "Не беспокойся о таких мелочах!",
+        "en": "Do not worry about such trivialities!"
+      },
+      "bracket_parts": [
+        "Kümmere"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

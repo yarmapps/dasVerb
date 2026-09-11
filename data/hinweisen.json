@@ -1,0 +1,184 @@
+{
+  "id": "hinweisen",
+  "infinitive": "hinweisen",
+  "translation": {
+    "ru": "указывать, обращать внимание",
+    "en": "to point out, indicate, draw attention to"
+  },
+  "level": "B1",
+  "frequency_rank": 352,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "hin",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "hinweisen",
+    "present_3sg": "weist hin",
+    "praeteritum_3sg": "wies hin",
+    "partizip_2": "hingewiesen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "weise hin",
+      "du": "weist hin",
+      "er_sie_es": "weist hin",
+      "wir": "weisen hin",
+      "ihr": "weist hin",
+      "sie_Sie": "weisen hin"
+    },
+    "praeteritum": {
+      "ich": "wies hin",
+      "du": "wiesest hin",
+      "er_sie_es": "wies hin",
+      "wir": "wiesen hin",
+      "ihr": "wiest hin",
+      "sie_Sie": "wiesen hin"
+    },
+    "imperative": {
+      "du": "weise hin!",
+      "ihr": "weist hin!",
+      "Sie": "weisen Sie hin!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "auf eine Gefahr hinweisen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich weise gern auf die wichtigsten Punkte des Berichts hin.",
+      "translation": {
+        "ru": "Я охотно обращаю внимание на самые важные пункты отчета.",
+        "en": "I gladly point out the most important points of the report."
+      },
+      "bracket_parts": [
+        "weise",
+        "hin"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Weist du den Fahrer rechtzeitig auf die rote Ampel hin?",
+      "translation": {
+        "ru": "Ты вовремя указываешь водителю на красный свет светофора?",
+        "en": "Do you point out the red light to the driver in good time?"
+      },
+      "bracket_parts": [
+        "Weist",
+        "hin"
+      ],
+      "akkusativ_parts": [
+        "den Fahrer"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das gelbe Schild weist deutlich auf eine Baustelle hin.",
+      "translation": {
+        "ru": "Желтый знак четко указывает на стройплощадку.",
+        "en": "The yellow sign clearly points to a construction site."
+      },
+      "bracket_parts": [
+        "weist",
+        "hin"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir weisen die Kunden stets auf unsere Öffnungszeiten hin.",
+      "translation": {
+        "ru": "Мы всегда обращаем внимание клиентов на часы нашей работы.",
+        "en": "We always inform customers of our opening hours."
+      },
+      "bracket_parts": [
+        "weisen",
+        "hin"
+      ],
+      "akkusativ_parts": [
+        "die Kunden"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Weist ihr die Touristen auf die Gefahren im Gebirge hin?",
+      "translation": {
+        "ru": "Вы предупреждаете туристов об опасностях в горах?",
+        "en": "Do you guys point out the dangers in the mountains to tourists?"
+      },
+      "bracket_parts": [
+        "Weist",
+        "hin"
+      ],
+      "akkusativ_parts": [
+        "die Touristen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Lehrer wies damals ausdrücklich auf den Prüfungstermin hin.",
+      "translation": {
+        "ru": "Учитель тогда особо подчеркнул дату экзамена.",
+        "en": "The teacher explicitly drew attention to the exam date back then."
+      },
+      "bracket_parts": [
+        "wies",
+        "hin"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Experten haben mehrfach auf das Risiko hingewiesen.",
+      "translation": {
+        "ru": "Эксперты неоднократно указывали на этот риск.",
+        "en": "The experts pointed out the risk multiple times."
+      },
+      "bracket_parts": [
+        "haben",
+        "hingewiesen"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Weise bitte die neuen Gäste auf die Hausordnung hin!",
+      "translation": {
+        "ru": "Обрати внимание новых гостей на правила дома, пожалуйста!",
+        "en": "Please point out the house rules to the new guests!"
+      },
+      "bracket_parts": [
+        "Weise",
+        "hin"
+      ],
+      "akkusativ_parts": [
+        "die neuen Gäste"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

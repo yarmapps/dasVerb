@@ -1,0 +1,195 @@
+{
+  "id": "wehtun_dat",
+  "infinitive": "wehtun",
+  "translation": {
+    "ru": "болеть, причинять боль (кому-то)",
+    "en": "to hurt, to ache"
+  },
+  "level": "A1",
+  "frequency_rank": 290,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "weh",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "wehtun",
+    "present_3sg": "tut weh",
+    "praeteritum_3sg": "tat weh",
+    "partizip_2": "wehgetan"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "tue weh",
+      "du": "tust weh",
+      "er_sie_es": "tut weh",
+      "wir": "tun weh",
+      "ihr": "tut weh",
+      "sie_Sie": "tun weh",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "tat weh",
+      "du": "tatest weh",
+      "er_sie_es": "tat weh",
+      "wir": "taten weh",
+      "ihr": "tatet weh",
+      "sie_Sie": "taten weh"
+    },
+    "imperative": {
+      "du": "tu weh!",
+      "ihr": "tut weh!",
+      "Sie": "tun Sie weh!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": "Dativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "dem Kopf / dem Rücken (Dat) furchtbar wehtun",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich tue mir beim anstrengenden Sportunterricht manchmal am Knie weh.",
+      "translation": {
+        "ru": "На напряженном уроке физкультуры я иногда ушибаю (делаю больно) себе колено.",
+        "en": "In strenuous PE class I sometimes hurt my knee."
+      },
+      "bracket_parts": [
+        "tue",
+        "weh"
+      ],
+      "dativ_parts": [
+        "mir",
+        "beim anstrengenden Sportunterricht",
+        "am Knie"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Tut dir der Hals beim Schlucken und Sprechen heute eigentlich noch immer weh?",
+      "translation": {
+        "ru": "Болит ли у тебя горло при глотании и разговоре сегодня на самом деле всё еще?",
+        "en": "Does your throat actually still hurt when swallowing and speaking today?"
+      },
+      "bracket_parts": [
+        "Tut",
+        "weh"
+      ],
+      "dativ_parts": [
+        "dir",
+        "beim Schlucken"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Dem kleinen Mädchen tut nach dem unglücklichen Sturz vom Fahrrad das rechte Knie weh.",
+      "translation": {
+        "ru": "У маленькой девочки после неудачного падения с велосипеда болит правое колено.",
+        "en": "The little girl's right knee hurts after the unfortunate fall from her bicycle."
+      },
+      "bracket_parts": [
+        "tut",
+        "weh"
+      ],
+      "dativ_parts": [
+        "Dem kleinen Mädchen",
+        "nach dem unglücklichen Sturz",
+        "vom Fahrrad"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir tun uns bei den vorsichtigen Yoga-Übungen zum Glück niemals weh.",
+      "translation": {
+        "ru": "При осторожных упражнениях йогой мы, к счастью, никогда не причиняем себе боли.",
+        "en": "During careful yoga exercises we fortunately never hurt ourselves."
+      },
+      "bracket_parts": [
+        "tun",
+        "weh"
+      ],
+      "dativ_parts": [
+        "uns",
+        "bei den vorsichtigen Yoga-Übungen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Tut euch der Rücken nach der schweren Gartenarbeit am Wochenende auch so weh?",
+      "translation": {
+        "ru": "Болит ли у вас спина после тяжелой работы в саду на выходных тоже так сильно?",
+        "en": "Does your back also hurt so much after the heavy garden work at the weekend?"
+      },
+      "bracket_parts": [
+        "Tut",
+        "weh"
+      ],
+      "dativ_parts": [
+        "euch",
+        "nach der schweren Gartenarbeit",
+        "am Wochenende"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern tat dem verletzten Fußballspieler das Sprunggelenk nach dem Foul extrem weh.",
+      "translation": {
+        "ru": "Вчера у травмированного футболиста после фола чрезвычайно болел голеностоп.",
+        "en": "Yesterday the injured footballer's ankle hurt extremely after the foul."
+      },
+      "bracket_parts": [
+        "tat",
+        "weh"
+      ],
+      "dativ_parts": [
+        "dem verletzten Fußballspieler",
+        "nach dem Foul"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der gezogene Zahn hat dem tapferen Patienten noch zwei Tage lang wehgetan.",
+      "translation": {
+        "ru": "Удаленный зуб болел у храброго пациента еще два дня.",
+        "en": "The extracted tooth hurt the brave patient for another two days."
+      },
+      "bracket_parts": [
+        "hat",
+        "wehgetan"
+      ],
+      "dativ_parts": [
+        "dem tapferen Patienten"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Tu dir bitte nicht weh und pass beim Klettern gut auf!",
+      "translation": {
+        "ru": "Не сделай себе, пожалуйста, больно и будь осторожен при лазании!",
+        "en": "Please don't hurt yourself and take good care when climbing!"
+      },
+      "bracket_parts": [
+        "Tu",
+        "weh"
+      ],
+      "dativ_parts": [
+        "dir",
+        "beim Klettern"
+      ]
+    }
+  ]
+}

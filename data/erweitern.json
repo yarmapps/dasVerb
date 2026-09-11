@@ -1,0 +1,185 @@
+{
+  "id": "erweitern",
+  "infinitive": "erweitern",
+  "translation": {
+    "ru": "расширять, увеличивать",
+    "en": "to expand, extend, broaden"
+  },
+  "level": "B1",
+  "frequency_rank": 376,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erweitern",
+    "present_3sg": "erweitert",
+    "praeteritum_3sg": "erweiterte",
+    "partizip_2": "erweitert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erweitere",
+      "du": "erweiterst",
+      "er_sie_es": "erweitert",
+      "wir": "erweitern",
+      "ihr": "erweitert",
+      "sie_Sie": "erweitern"
+    },
+    "praeteritum": {
+      "ich": "erweiterte",
+      "du": "erweitertest",
+      "er_sie_es": "erweiterte",
+      "wir": "erweiterten",
+      "ihr": "erweitertet",
+      "sie_Sie": "erweiterten"
+    },
+    "imperative": {
+      "du": "erweitere!",
+      "ihr": "erweitert!",
+      "Sie": "erweitern Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "seinen Wortschatz erweitern",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erweitere jeden Tag meinen deutschen Wortschatz durch Lesen.",
+      "translation": {
+        "ru": "Каждый день я расширяю свой словарный запас немецкого через чтение.",
+        "en": "I expand my German vocabulary every day by reading."
+      },
+      "bracket_parts": [
+        "erweitere"
+      ],
+      "akkusativ_parts": [
+        "meinen deutschen Wortschatz"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erweiterst du dein Geschäft im nächsten Jahr um eine Filiale?",
+      "translation": {
+        "ru": "Ты расширяешь свой бизнес в следующем году на один филиал?",
+        "en": "Are you expanding your business with a branch next year?"
+      },
+      "bracket_parts": [
+        "Erweiterst"
+      ],
+      "akkusativ_parts": [
+        "dein Geschäft"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Stadtverwaltung erweitert das Netz der Fahrradwege spürbar.",
+      "translation": {
+        "ru": "Городская администрация заметно расширяет сеть велосипедных дорожек.",
+        "en": "The city council is noticeably expanding the network of bicycle lanes."
+      },
+      "bracket_parts": [
+        "erweitert"
+      ],
+      "akkusativ_parts": [
+        "das Netz der Fahrradwege"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erweitern unser Angebot um mehrere vegetarische Speisen.",
+      "translation": {
+        "ru": "Мы расширяем наш ассортимент несколькими вегетарианскими блюдами.",
+        "en": "We are expanding our menu with several vegetarian dishes."
+      },
+      "bracket_parts": [
+        "erweitern"
+      ],
+      "akkusativ_parts": [
+        "unser Angebot"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erweitert ihr die Öffnungszeiten eures Cafés im Sommer?",
+      "translation": {
+        "ru": "Вы продлеваете часы работы своего кафе летом?",
+        "en": "Are you guys extending the opening hours of your café in summer?"
+      },
+      "bracket_parts": [
+        "Erweitert"
+      ],
+      "akkusativ_parts": [
+        "die Öffnungszeiten eures Cafés"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Das Museum erweiterte damals seine Ausstellung um moderne Kunstwerke.",
+      "translation": {
+        "ru": "Музей тогда расширил свою экспозицию современными произведениями искусства.",
+        "en": "The museum expanded its exhibition with modern works of art back then."
+      },
+      "bracket_parts": [
+        "erweiterte"
+      ],
+      "akkusativ_parts": [
+        "seine Ausstellung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Firma hat ihre Produktionskapazitäten im Werk verdoppelt und erweitert.",
+      "translation": {
+        "ru": "Компания удвоила и расширила свои производственные мощности на заводе.",
+        "en": "The company has doubled and expanded its production capacity at the plant."
+      },
+      "bracket_parts": [
+        "hat",
+        "erweitert"
+      ],
+      "akkusativ_parts": [
+        "ihre Produktionskapazitäten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erweitere bitte deinen Horizont durch Auslandsreisen!",
+      "translation": {
+        "ru": "Расширяй свой кругозор через поездки за границу, пожалуйста!",
+        "en": "Please broaden your horizons through foreign travel!"
+      },
+      "bracket_parts": [
+        "Erweitere"
+      ],
+      "akkusativ_parts": [
+        "deinen Horizont"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

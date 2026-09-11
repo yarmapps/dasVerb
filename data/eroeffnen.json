@@ -1,0 +1,185 @@
+{
+  "id": "eroeffnen",
+  "infinitive": "eröffnen",
+  "translation": {
+    "ru": "открывать (бизнес, счет, выставку)",
+    "en": "to open, inaugurate, start"
+  },
+  "level": "A2",
+  "frequency_rank": 304,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "eröffnen",
+    "present_3sg": "eröffnet",
+    "praeteritum_3sg": "eröffnete",
+    "partizip_2": "eröffnet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "eröffne",
+      "du": "eröffnest",
+      "er_sie_es": "eröffnet",
+      "wir": "eröffnen",
+      "ihr": "eröffnet",
+      "sie_Sie": "eröffnen"
+    },
+    "praeteritum": {
+      "ich": "eröffnete",
+      "du": "eröffnetest",
+      "er_sie_es": "eröffnete",
+      "wir": "eröffneten",
+      "ihr": "eröffnetet",
+      "sie_Sie": "eröffneten"
+    },
+    "imperative": {
+      "du": "eröffne!",
+      "ihr": "eröffnet!",
+      "Sie": "eröffnen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein Konto eröffnen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich eröffne heute ein neues Bankkonto für meine Ersparnisse.",
+      "translation": {
+        "ru": "Я открываю сегодня новый банковский счет для своих сбережений.",
+        "en": "I am opening a new bank account for my savings today."
+      },
+      "bracket_parts": [
+        "eröffne"
+      ],
+      "akkusativ_parts": [
+        "ein neues Bankkonto"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Eröffnest du bald dein eigenes Restaurant im Stadtzentrum?",
+      "translation": {
+        "ru": "Ты скоро открываешь собственный ресторан в центре города?",
+        "en": "Are you opening your own restaurant in the city center soon?"
+      },
+      "bracket_parts": [
+        "Eröffnest"
+      ],
+      "akkusativ_parts": [
+        "dein eigenes Restaurant"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Bürgermeister eröffnet die Ausstellung mit einer Rede.",
+      "translation": {
+        "ru": "Мэр открывает выставку речью.",
+        "en": "The mayor opens the exhibition with a speech."
+      },
+      "bracket_parts": [
+        "eröffnet"
+      ],
+      "akkusativ_parts": [
+        "die Ausstellung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir eröffnen die feierliche Konferenz pünktlich um zehn Uhr.",
+      "translation": {
+        "ru": "Мы открываем торжественную конференцию ровно в десять часов.",
+        "en": "We open the festive conference promptly at ten o'clock."
+      },
+      "bracket_parts": [
+        "eröffnen"
+      ],
+      "akkusativ_parts": [
+        "die feierliche Konferenz"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Eröffnet ihr morgen die neue Filiale für die Kunden?",
+      "translation": {
+        "ru": "Вы завтра открываете новый филиал для клиентов?",
+        "en": "Are you opening the new branch for customers tomorrow?"
+      },
+      "bracket_parts": [
+        "Eröffnet"
+      ],
+      "akkusativ_parts": [
+        "die neue Filiale"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Richterin eröffnete damals sofort das Gerichtsverfahren.",
+      "translation": {
+        "ru": "Судья тогда немедленно открыла судебное заседание.",
+        "en": "The judge opened the legal proceedings immediately back then."
+      },
+      "bracket_parts": [
+        "eröffnete"
+      ],
+      "akkusativ_parts": [
+        "das Gerichtsverfahren"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben ein modernes Einkaufszentrum am Stadtrand eröffnet.",
+      "translation": {
+        "ru": "Они открыли современный торговый центр на окраине города.",
+        "en": "They have opened a modern shopping center on the outskirts."
+      },
+      "bracket_parts": [
+        "haben",
+        "eröffnet"
+      ],
+      "akkusativ_parts": [
+        "ein modernes Einkaufszentrum"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Eröffne bitte sofort die Sitzung für alle Teilnehmer!",
+      "translation": {
+        "ru": "Открой, пожалуйста, заседание для всех участников прямо сейчас!",
+        "en": "Please open the meeting for all participants right now!"
+      },
+      "bracket_parts": [
+        "Eröffne"
+      ],
+      "akkusativ_parts": [
+        "die Sitzung"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "pruefen",
+  "infinitive": "prüfen",
+  "translation": {
+    "ru": "проверять, экзаменовать, исследовать",
+    "en": "to check, examine, test, inspect"
+  },
+  "level": "B1",
+  "frequency_rank": 311,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "prüfen",
+    "present_3sg": "prüft",
+    "praeteritum_3sg": "prüfte",
+    "partizip_2": "geprüft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "prüfe",
+      "du": "prüfst",
+      "er_sie_es": "prüft",
+      "wir": "prüfen",
+      "ihr": "prüft",
+      "sie_Sie": "prüfen"
+    },
+    "praeteritum": {
+      "ich": "prüfte",
+      "du": "prüftest",
+      "er_sie_es": "prüfte",
+      "wir": "prüften",
+      "ihr": "prüftet",
+      "sie_Sie": "prüften"
+    },
+    "imperative": {
+      "du": "prüfe!",
+      "ihr": "prüft!",
+      "Sie": "prüfen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Unterlagen sorgfältig prüfen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich prüfe alle Rechnungen vor der Bezahlung ganz genau.",
+      "translation": {
+        "ru": "Я очень точно проверяю все счета перед оплатой.",
+        "en": "I check all invoices very closely before payment."
+      },
+      "bracket_parts": [
+        "prüfe"
+      ],
+      "akkusativ_parts": [
+        "alle Rechnungen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Prüfst du den Reifendruck vor der langen Fahrt?",
+      "translation": {
+        "ru": "Ты проверяешь давление в шинах перед дальней поездкой?",
+        "en": "Are you checking the tire pressure before the long drive?"
+      },
+      "bracket_parts": [
+        "Prüfst"
+      ],
+      "akkusativ_parts": [
+        "den Reifendruck"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Mechaniker prüft die Bremsen des alten Wagens.",
+      "translation": {
+        "ru": "Механик проверяет тормоза старой машины.",
+        "en": "The mechanic inspects the brakes of the old car."
+      },
+      "bracket_parts": [
+        "prüft"
+      ],
+      "akkusativ_parts": [
+        "die Bremsen des alten Wagens"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir prüfen verschiedene Möglichkeiten für den Umbau.",
+      "translation": {
+        "ru": "Мы рассматриваем различные возможности для перепланировки.",
+        "en": "We examine various possibilities for the renovation."
+      },
+      "bracket_parts": [
+        "prüfen"
+      ],
+      "akkusativ_parts": [
+        "verschiedene Möglichkeiten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Prüft ihr die Qualität der Produkte vor dem Versand?",
+      "translation": {
+        "ru": "Вы проверяете качество продукции перед отправкой?",
+        "en": "Do you test the quality of the products before shipping?"
+      },
+      "bracket_parts": [
+        "Prüft"
+      ],
+      "akkusativ_parts": [
+        "die Qualität der Produkte"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Professor prüfte die Studenten damals sehr streng.",
+      "translation": {
+        "ru": "Профессор тогда очень строго экзаменовал студентов.",
+        "en": "The professor examined the students very strictly back then."
+      },
+      "bracket_parts": [
+        "prüfte"
+      ],
+      "akkusativ_parts": [
+        "die Studenten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Ein unabhängiger Experte hat den Vertrag gründlich geprüft.",
+      "translation": {
+        "ru": "Независимый эксперт тщательно проверил договор.",
+        "en": "An independent expert has thoroughly examined the contract."
+      },
+      "bracket_parts": [
+        "hat",
+        "geprüft"
+      ],
+      "akkusativ_parts": [
+        "den Vertrag"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Prüfe bitte noch einmal alle Angaben im Formular!",
+      "translation": {
+        "ru": "Проверь, пожалуйста, еще раз все данные в формуляре!",
+        "en": "Please check all details on the form once again!"
+      },
+      "bracket_parts": [
+        "Prüfe"
+      ],
+      "akkusativ_parts": [
+        "alle Angaben"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

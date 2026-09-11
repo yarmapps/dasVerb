@@ -1,0 +1,168 @@
+{
+  "id": "singen",
+  "infinitive": "singen",
+  "translation": {
+    "ru": "петь",
+    "en": "to sing"
+  },
+  "level": "A1",
+  "frequency_rank": 241,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "singen",
+    "present_3sg": "singt",
+    "praeteritum_3sg": "sang",
+    "partizip_2": "gesungen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "singe",
+      "du": "singst",
+      "er_sie_es": "singt",
+      "wir": "singen",
+      "ihr": "singt",
+      "sie_Sie": "singen"
+    },
+    "praeteritum": {
+      "ich": "sang",
+      "du": "sangst",
+      "er_sie_es": "sang",
+      "wir": "sangen",
+      "ihr": "sangt",
+      "sie_Sie": "sangen"
+    },
+    "imperative": {
+      "du": "sing!",
+      "ihr": "singt!",
+      "Sie": "singen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein schönes Lied singen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich singe unter der Dusche immer fröhliche Lieder.",
+      "translation": {
+        "ru": "Под душем я всегда пою веселые песни.",
+        "en": "I always sing cheerful songs in the shower."
+      },
+      "bracket_parts": [
+        "singe"
+      ],
+      "akkusativ_parts": [
+        "fröhliche Lieder"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Singst du gerne im städtischen Chor mit?",
+      "translation": {
+        "ru": "Тебе нравится петь в городском хоре?",
+        "en": "Do you like singing along in the city choir?"
+      },
+      "bracket_parts": [
+        "Singst"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Vogel singt früh am Morgen im Baum.",
+      "translation": {
+        "ru": "Птица поет рано утром на дереве.",
+        "en": "The bird sings early in the morning in the tree."
+      },
+      "bracket_parts": [
+        "singt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir singen gemeinsam alte Volkslieder am Lagerfeuer.",
+      "translation": {
+        "ru": "Мы вместе поем старые народные песни у костра.",
+        "en": "We sing old folk songs together by the campfire."
+      },
+      "bracket_parts": [
+        "singen"
+      ],
+      "akkusativ_parts": [
+        "alte Volkslieder"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Singt ihr ein Ständchen zum Geburtstag?",
+      "translation": {
+        "ru": "Вы поете серенаду на день рождения?",
+        "en": "Are you guys singing a serenade for the birthday?"
+      },
+      "bracket_parts": [
+        "Singt"
+      ],
+      "akkusativ_parts": [
+        "ein Ständchen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie sangen das Lied mit großer Leidenschaft.",
+      "translation": {
+        "ru": "Они пели песню с огромной страстью.",
+        "en": "They sang the song with great passion."
+      },
+      "bracket_parts": [
+        "sangen"
+      ],
+      "akkusativ_parts": [
+        "das Lied"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die bekannte Opernsängerin hat fantastisch gesungen.",
+      "translation": {
+        "ru": "Знаменитая оперная певица спела фантастически.",
+        "en": "The famous opera singer sang fantastically."
+      },
+      "bracket_parts": [
+        "hat",
+        "gesungen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Sing bitte noch einmal diesen Refrain!",
+      "translation": {
+        "ru": "Спой еще раз этот припев, пожалуйста!",
+        "en": "Please sing this chorus once more!"
+      },
+      "bracket_parts": [
+        "Sing"
+      ],
+      "akkusativ_parts": [
+        "diesen Refrain"
+      ]
+    }
+  ]
+}

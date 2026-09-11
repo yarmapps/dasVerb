@@ -1,0 +1,177 @@
+{
+  "id": "trennen",
+  "infinitive": "trennen",
+  "translation": {
+    "ru": "разделять, сортировать",
+    "en": "to separate, divide"
+  },
+  "level": "A2",
+  "frequency_rank": 197,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "trennen",
+    "present_3sg": "trennt",
+    "praeteritum_3sg": "trennte",
+    "partizip_2": "getrennt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "trenne",
+      "du": "trennst",
+      "er_sie_es": "trennt",
+      "wir": "trennen",
+      "ihr": "trennt",
+      "sie_Sie": "trennen"
+    },
+    "praeteritum": {
+      "ich": "trennte",
+      "du": "trenntest",
+      "er_sie_es": "trennte",
+      "wir": "trennten",
+      "ihr": "trenntet",
+      "sie_Sie": "trennten"
+    },
+    "imperative": {
+      "du": "trenne!",
+      "ihr": "trennt!",
+      "Sie": "trennen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "den Müll trennen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich trenne den Müll zu Hause immer sehr sorgfältig.",
+      "translation": {
+        "ru": "Дома я всегда очень аккуратно сортирую мусор.",
+        "en": "I always separate trash very carefully at home."
+      },
+      "bracket_parts": [
+        "trenne"
+      ],
+      "akkusativ_parts": [
+        "den Müll"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Trennst du das Eigelb vom Eiweiß beim Backen?",
+      "translation": {
+        "ru": "Ты отделяешь желток от белка при выпечке?",
+        "en": "Do you separate egg yolk from egg white when baking?"
+      },
+      "bracket_parts": [
+        "Trennst"
+      ],
+      "akkusativ_parts": [
+        "das Eigelb"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Ein breiter Fluss trennt die beiden Nachbarstädte.",
+      "translation": {
+        "ru": "Широкая река разделяет два соседних города.",
+        "en": "A wide river separates the two neighboring cities."
+      },
+      "bracket_parts": [
+        "trennt"
+      ],
+      "akkusativ_parts": [
+        "die beiden Nachbarstädte"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir trennen private und berufliche Dinge konsequent.",
+      "translation": {
+        "ru": "Мы последовательно разделяем личные и рабочие дела.",
+        "en": "We strictly separate private and professional matters."
+      },
+      "bracket_parts": [
+        "trennen"
+      ],
+      "akkusativ_parts": [
+        "private und berufliche Dinge"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Trennt ihr Papier und Plastik in der Schule?",
+      "translation": {
+        "ru": "Вы разделяете бумагу и пластик в школе?",
+        "en": "Do you guys separate paper and plastic at school?"
+      },
+      "bracket_parts": [
+        "Trennt"
+      ],
+      "akkusativ_parts": [
+        "Papier und Plastik"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie trennten die streitenden Hunde sofort voneinander.",
+      "translation": {
+        "ru": "Они тут же разняли дерущихся собак.",
+        "en": "They immediately separated the fighting dogs from each other."
+      },
+      "bracket_parts": [
+        "trennten"
+      ],
+      "akkusativ_parts": [
+        "die streitenden Hunde"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Schiedsrichterin hat die beiden Boxer rechtzeitig getrennt.",
+      "translation": {
+        "ru": "Судья вовремя разняла обоих боксеров.",
+        "en": "The referee separated the two boxers in time."
+      },
+      "bracket_parts": [
+        "hat",
+        "getrennt"
+      ],
+      "akkusativ_parts": [
+        "die beiden Boxer"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Trenne bitte den Müll in die richtigen Behälter!",
+      "translation": {
+        "ru": "Сортируй мусор в правильные контейнеры, пожалуйста!",
+        "en": "Please separate trash into the correct bins!"
+      },
+      "bracket_parts": [
+        "Trenne"
+      ],
+      "akkusativ_parts": [
+        "den Müll"
+      ]
+    }
+  ]
+}

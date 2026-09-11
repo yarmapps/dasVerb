@@ -1,0 +1,185 @@
+{
+  "id": "aufnehmen",
+  "infinitive": "aufnehmen",
+  "translation": {
+    "ru": "принимать, записывать (аудио/видео)",
+    "en": "to record, to admit, to absorb"
+  },
+  "level": "B1",
+  "frequency_rank": 119,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufnehmen",
+    "present_3sg": "nimmt auf",
+    "praeteritum_3sg": "nahm auf",
+    "partizip_2": "aufgenommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "nehme auf",
+      "du": "nimmst auf",
+      "er_sie_es": "nimmt auf",
+      "wir": "nehmen auf",
+      "ihr": "nehmt auf",
+      "sie_Sie": "nehmen auf",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "nahm auf",
+      "du": "nahmst auf",
+      "er_sie_es": "nahm auf",
+      "wir": "nahmen auf",
+      "ihr": "nahmt auf",
+      "sie_Sie": "nahmen auf"
+    },
+    "imperative": {
+      "du": "nimm auf",
+      "ihr": "nehmt auf",
+      "Sie": "nehmen Sie auf"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein Video / einen Podcast (Akk) aufnehmen",
+  "sentences": [
+    {
+      "id": "aufnehmen_1",
+      "tense": "Präsens",
+      "german": "Ich nehme heute einen neuen Podcast auf.",
+      "translation": {
+        "ru": "Я записываю сегодня новый подкаст.",
+        "en": "I am recording a new podcast today."
+      },
+      "bracket_parts": [
+        "nehme",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "einen neuen Podcast"
+      ]
+    },
+    {
+      "id": "aufnehmen_2",
+      "tense": "Präsens",
+      "german": "Nimmst du die wichtige Vorlesung auf?",
+      "translation": {
+        "ru": "Ты записываешь эту важную лекцию?",
+        "en": "Are you recording the important lecture?"
+      },
+      "bracket_parts": [
+        "Nimmst",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die wichtige Vorlesung"
+      ]
+    },
+    {
+      "id": "aufnehmen_3",
+      "tense": "Präsens",
+      "german": "Das Krankenhaus nimmt jeden Notfallpatienten auf.",
+      "translation": {
+        "ru": "Больница принимает каждого экстренного пациента.",
+        "en": "The hospital admits every emergency patient."
+      },
+      "bracket_parts": [
+        "nimmt",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "jeden Notfallpatienten"
+      ]
+    },
+    {
+      "id": "aufnehmen_4",
+      "tense": "Präsens",
+      "german": "Wir nehmen die neuen Mitglieder herzlich in unseren Verein auf.",
+      "translation": {
+        "ru": "Мы сердечно принимаем новых членов в наш клуб.",
+        "en": "We warmly admit the new members into our club."
+      },
+      "bracket_parts": [
+        "nehmen",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die neuen Mitglieder"
+      ]
+    },
+    {
+      "id": "aufnehmen_5",
+      "tense": "Präsens",
+      "german": "Nehmt ihr das Konzert mit euren Handys auf?",
+      "translation": {
+        "ru": "Вы записываете концерт на свои телефоны?",
+        "en": "Are you recording the concert with your phones?"
+      },
+      "bracket_parts": [
+        "Nehmt",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "das Konzert"
+      ]
+    },
+    {
+      "id": "aufnehmen_6",
+      "tense": "Präteritum",
+      "german": "Sie nahmen damals einen hohen Kredit bei der Bank auf.",
+      "translation": {
+        "ru": "Они взяли тогда крупный кредит в банке.",
+        "en": "They took out a large loan from the bank back then."
+      },
+      "bracket_parts": [
+        "nahmen",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "einen hohen Kredit"
+      ]
+    },
+    {
+      "id": "aufnehmen_7",
+      "tense": "Perfekt",
+      "german": "Ich habe ein schönes Foto von der Landschaft aufgenommen.",
+      "translation": {
+        "ru": "Я сделал красивую фотографию пейзажа.",
+        "en": "I took a nice photo of the landscape."
+      },
+      "bracket_parts": [
+        "habe",
+        "aufgenommen"
+      ],
+      "akkusativ_parts": [
+        "ein schönes Foto"
+      ]
+    },
+    {
+      "id": "aufnehmen_8",
+      "tense": "Imperativ",
+      "german": "Nimm das Gespräch bitte deutlich auf!",
+      "translation": {
+        "ru": "Запиши, пожалуйста, разговор отчетливо!",
+        "en": "Please record the conversation clearly!"
+      },
+      "bracket_parts": [
+        "Nimm",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "das Gespräch"
+      ]
+    }
+  ]
+}

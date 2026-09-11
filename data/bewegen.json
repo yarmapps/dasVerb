@@ -1,0 +1,178 @@
+{
+  "id": "bewegen",
+  "infinitive": "bewegen",
+  "translation": {
+    "ru": "двигать, шевелить",
+    "en": "to move, to stir"
+  },
+  "level": "A2",
+  "frequency_rank": 141,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bewegen",
+    "present_3sg": "bewegt",
+    "praeteritum_3sg": "bewegte",
+    "partizip_2": "bewegt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bewege",
+      "du": "bewegst",
+      "er_sie_es": "bewegt",
+      "wir": "bewegen",
+      "ihr": "bewegt",
+      "sie_Sie": "bewegen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "bewegte",
+      "du": "bewegtest",
+      "er_sie_es": "bewegte",
+      "wir": "bewegten",
+      "ihr": "bewegtet",
+      "sie_Sie": "bewegten"
+    },
+    "imperative": {
+      "du": "bewege",
+      "ihr": "bewegt",
+      "Sie": "bewegen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Hand / den schweren Stein (Akk) bewegen",
+  "sentences": [
+    {
+      "id": "bewegen_1",
+      "tense": "Präsens",
+      "german": "Ich bewege vorsichtig meine verletzte Hand.",
+      "translation": {
+        "ru": "Я осторожно шевелю своей травмированной рукой.",
+        "en": "I carefully move my injured hand."
+      },
+      "bracket_parts": [
+        "bewege"
+      ],
+      "akkusativ_parts": [
+        "meine verletzte Hand"
+      ]
+    },
+    {
+      "id": "bewegen_2",
+      "tense": "Präsens",
+      "german": "Bewegst du diesen schweren Schrank allein von der Wand weg?",
+      "translation": {
+        "ru": "Ты отодвигаешь этот тяжелый шкаф от стены один?",
+        "en": "Are you moving this heavy wardrobe away from the wall alone?"
+      },
+      "bracket_parts": [
+        "Bewegst"
+      ],
+      "akkusativ_parts": [
+        "diesen schweren Schrank"
+      ]
+    },
+    {
+      "id": "bewegen_3",
+      "tense": "Präsens",
+      "german": "Der Wind bewegt sanft die Blätter der Bäume.",
+      "translation": {
+        "ru": "Ветер мягко колышет (двигает) листья деревьев.",
+        "en": "The wind gently moves the leaves of the trees."
+      },
+      "bracket_parts": [
+        "bewegt"
+      ],
+      "akkusativ_parts": [
+        "die Blätter"
+      ]
+    },
+    {
+      "id": "bewegen_4",
+      "tense": "Präsens",
+      "german": "Wir bewegen viele Menschen mit unserer Musik.",
+      "translation": {
+        "ru": "Мы трогаем (волнуем) многих людей своей музыкой.",
+        "en": "We move many people with our music."
+      },
+      "bracket_parts": [
+        "bewegen"
+      ],
+      "akkusativ_parts": [
+        "viele Menschen"
+      ]
+    },
+    {
+      "id": "bewegen_5",
+      "tense": "Präsens",
+      "german": "Bewegt ihr die Kiste gemeinsam in den Keller?",
+      "translation": {
+        "ru": "Вы перемещаете этот ящик вместе в подвал?",
+        "en": "Are you moving the box into the basement together?"
+      },
+      "bracket_parts": [
+        "Bewegt"
+      ],
+      "akkusativ_parts": [
+        "die Kiste"
+      ]
+    },
+    {
+      "id": "bewegen_6",
+      "tense": "Präteritum",
+      "german": "Die traurige Geschichte bewegte alle Zuhörer tief.",
+      "translation": {
+        "ru": "Печальная история глубоко тронула всех слушателей.",
+        "en": "The sad story deeply moved all listeners."
+      },
+      "bracket_parts": [
+        "bewegte"
+      ],
+      "akkusativ_parts": [
+        "alle Zuhörer"
+      ]
+    },
+    {
+      "id": "bewegen_7",
+      "tense": "Perfekt",
+      "german": "Ich habe den schweren Hebel mit Mühe bewegt.",
+      "translation": {
+        "ru": "Я с трудом сдвинул этот тяжелый рычаг.",
+        "en": "I moved the heavy lever with difficulty."
+      },
+      "bracket_parts": [
+        "habe",
+        "bewegt"
+      ],
+      "akkusativ_parts": [
+        "den schweren Hebel"
+      ]
+    },
+    {
+      "id": "bewegen_8",
+      "tense": "Imperativ",
+      "german": "Bewege den Arm bitte ganz langsam!",
+      "translation": {
+        "ru": "Пошевели, пожалуйста, рукой очень медленно!",
+        "en": "Please move your arm very slowly!"
+      },
+      "bracket_parts": [
+        "Bewege"
+      ],
+      "akkusativ_parts": [
+        "den Arm"
+      ]
+    }
+  ]
+}

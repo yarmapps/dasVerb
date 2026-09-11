@@ -1,0 +1,178 @@
+{
+  "id": "gelingen_dat",
+  "infinitive": "gelingen",
+  "translation": {
+    "ru": "удаваться кому-то",
+    "en": "to succeed, to manage"
+  },
+  "level": "B1",
+  "frequency_rank": 136,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ge",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "gelingen",
+    "present_3sg": "gelingt",
+    "praeteritum_3sg": "gelang",
+    "partizip_2": "gelungen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gelinge",
+      "du": "gelingst",
+      "er_sie_es": "gelingt",
+      "wir": "gelingen",
+      "ihr": "gelingt",
+      "sie_Sie": "gelingen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "gelang",
+      "du": "gelangst",
+      "er_sie_es": "gelang",
+      "wir": "gelangen",
+      "ihr": "gelangt",
+      "sie_Sie": "gelangen"
+    },
+    "imperative": {
+      "du": "gelinge",
+      "ihr": "gelingt",
+      "Sie": "gelingen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemandem (Dat) gut gelingen",
+  "sentences": [
+    {
+      "id": "gelingen_dat_1",
+      "tense": "Präsens",
+      "german": "Der Kuchen gelingt mir dieses Mal besonders gut.",
+      "translation": {
+        "ru": "Пирог удается мне в этот раз особенно хорошо.",
+        "en": "The cake turns out particularly well for me this time."
+      },
+      "bracket_parts": [
+        "gelingt"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    },
+    {
+      "id": "gelingen_dat_2",
+      "tense": "Präsens",
+      "german": "Gelingt dir diese schwierige mathematische Rechnung?",
+      "translation": {
+        "ru": "Тебе удается этот сложный математический расчет?",
+        "en": "Are you succeeding with this difficult mathematical calculation?"
+      },
+      "bracket_parts": [
+        "Gelingt"
+      ],
+      "dativ_parts": [
+        "dir"
+      ]
+    },
+    {
+      "id": "gelingen_dat_3",
+      "tense": "Präsens",
+      "german": "Dem jungen Koch gelingt das neue Rezept auf Anhieb.",
+      "translation": {
+        "ru": "Молодому повару удается новый рецепт с первой попытки.",
+        "en": "The young chef succeeds with the new recipe right away."
+      },
+      "bracket_parts": [
+        "gelingt"
+      ],
+      "dativ_parts": [
+        "Dem jungen Koch"
+      ]
+    },
+    {
+      "id": "gelingen_dat_4",
+      "tense": "Präsens",
+      "german": "Wir freuen uns, dass uns das Vorhaben so leicht gelingt.",
+      "translation": {
+        "ru": "Мы рады, что задуманное удается нам так легко.",
+        "en": "We are glad that the venture succeeds so easily for us."
+      },
+      "bracket_parts": [
+        "gelingt"
+      ],
+      "dativ_parts": [
+        "uns"
+      ]
+    },
+    {
+      "id": "gelingen_dat_5",
+      "tense": "Präsens",
+      "german": "Gelingt euch der Aufbau des Schrankes ohne Anleitung?",
+      "translation": {
+        "ru": "Вам удается сборка шкафа без инструкции?",
+        "en": "Are you managing the assembly of the wardrobe without instructions?"
+      },
+      "bracket_parts": [
+        "Gelingt"
+      ],
+      "dativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "gelingen_dat_6",
+      "tense": "Präteritum",
+      "german": "Den Forschern gelang damals der entscheidende Durchbruch.",
+      "translation": {
+        "ru": "Исследователям удался тогда решающий прорыв.",
+        "en": "The researchers succeeded in making the decisive breakthrough back then."
+      },
+      "bracket_parts": [
+        "gelang"
+      ],
+      "dativ_parts": [
+        "Den Forschern"
+      ]
+    },
+    {
+      "id": "gelingen_dat_7",
+      "tense": "Perfekt",
+      "german": "Das Experiment ist mir gestern hervorragend gelungen.",
+      "translation": {
+        "ru": "Эксперимент вчера удался мне превосходно.",
+        "en": "The experiment succeeded brilliantly for me yesterday."
+      },
+      "bracket_parts": [
+        "ist",
+        "gelungen"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    },
+    {
+      "id": "gelingen_dat_8",
+      "tense": "Imperativ",
+      "german": "Gelinge jedem mutigen Menschen bei seinem Traum!",
+      "translation": {
+        "ru": "Удавайся каждому смелому человеку в его мечте!",
+        "en": "Succeed for every courageous person in their dream!"
+      },
+      "bracket_parts": [
+        "Gelinge"
+      ],
+      "dativ_parts": [
+        "jedem mutigen Menschen"
+      ]
+    }
+  ]
+}

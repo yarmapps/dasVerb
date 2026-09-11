@@ -1,0 +1,177 @@
+{
+  "id": "drohen_dat",
+  "infinitive": "drohen",
+  "translation": {
+    "ru": "угрожать (кому-то)",
+    "en": "to threaten (someone)"
+  },
+  "level": "B1",
+  "frequency_rank": 215,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "drohen",
+    "present_3sg": "droht",
+    "praeteritum_3sg": "drohte",
+    "partizip_2": "gedroht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "drohe",
+      "du": "drohst",
+      "er_sie_es": "droht",
+      "wir": "drohen",
+      "ihr": "droht",
+      "sie_Sie": "drohen"
+    },
+    "praeteritum": {
+      "ich": "drohte",
+      "du": "drohtest",
+      "er_sie_es": "drohte",
+      "wir": "drohten",
+      "ihr": "drohtet",
+      "sie_Sie": "drohten"
+    },
+    "imperative": {
+      "du": "drohe!",
+      "ihr": "droht!",
+      "Sie": "drohen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "dem Feind drohen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich drohe dir keineswegs mit rechtlichen Konsequenzen.",
+      "translation": {
+        "ru": "Я вовсе не угрожаю тебе юридическими последствиями.",
+        "en": "I am by no means threatening you with legal consequences."
+      },
+      "bracket_parts": [
+        "drohe"
+      ],
+      "dativ_parts": [
+        "dir"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Drohst du dem Nachbarn wegen der Ruhestörung?",
+      "translation": {
+        "ru": "Ты угрожаешь соседу из-за нарушения тишины?",
+        "en": "Are you threatening the neighbor because of the noise?"
+      },
+      "bracket_parts": [
+        "Drohst"
+      ],
+      "dativ_parts": [
+        "dem Nachbarn"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Dem alten Baum droht der plötzliche Einsturz.",
+      "translation": {
+        "ru": "Старому дереву грозит внезапное падение.",
+        "en": "The old tree is threatened with sudden collapse."
+      },
+      "bracket_parts": [
+        "droht"
+      ],
+      "dativ_parts": [
+        "Dem alten Baum"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir drohen niemandem, sondern suchen friedliche Lösungen.",
+      "translation": {
+        "ru": "Мы никому не угрожаем, а ищем мирные решения.",
+        "en": "We threaten nobody, but seek peaceful solutions."
+      },
+      "bracket_parts": [
+        "drohen"
+      ],
+      "dativ_parts": [
+        "niemandem"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Droht ihr den säumigen Kunden mit einer Mahnung?",
+      "translation": {
+        "ru": "Вы угрожаете неплательщикам напоминанием о задолженности?",
+        "en": "Are you guys threatening overdue clients with a reminder?"
+      },
+      "bracket_parts": [
+        "Droht"
+      ],
+      "dativ_parts": [
+        "den säumigen Kunden"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Ein schweres Unwetter drohte den Bewohnern der Küste.",
+      "translation": {
+        "ru": "Сильная непогода угрожала жителям побережья.",
+        "en": "A severe storm threatened the residents of the coast."
+      },
+      "bracket_parts": [
+        "drohte"
+      ],
+      "dativ_parts": [
+        "den Bewohnern der Küste"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Räuber hat den Angestellten mit Gewalt gedroht.",
+      "translation": {
+        "ru": "Грабитель угрожал служащим насилием.",
+        "en": "The robber threatened the employees with violence."
+      },
+      "bracket_parts": [
+        "hat",
+        "gedroht"
+      ],
+      "dativ_parts": [
+        "den Angestellten"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Drohe mir bitte nicht mit der Polizei!",
+      "translation": {
+        "ru": "Не угрожай мне полицией, пожалуйста!",
+        "en": "Please don't threaten me with the police!"
+      },
+      "bracket_parts": [
+        "Drohe"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    }
+  ]
+}

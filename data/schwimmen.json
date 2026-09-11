@@ -1,0 +1,197 @@
+{
+  "id": "schwimmen",
+  "infinitive": "schwimmen",
+  "translation": {
+    "ru": "плавать",
+    "en": "to swim"
+  },
+  "level": "A1",
+  "frequency_rank": 130,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "schwimmen",
+    "present_3sg": "schwimmt",
+    "praeteritum_3sg": "schwamm",
+    "partizip_2": "geschwommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schwimme",
+      "du": "schwimmst",
+      "er_sie_es": "schwimmt",
+      "wir": "schwimmen",
+      "ihr": "schwimmt",
+      "sie_Sie": "schwimmen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "schwamm",
+      "du": "schwammst",
+      "er_sie_es": "schwamm",
+      "wir": "schwammen",
+      "ihr": "schwammt",
+      "sie_Sie": "schwammen"
+    },
+    "imperative": {
+      "du": "schwimm!",
+      "ihr": "schwimmt!",
+      "Sie": "schwimmen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "in",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "im kühlen See / im Hallenbad (Dat) schwimmen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich schwimme jeden Dienstagmorgen vor der Arbeit zwanzig Bahnen im städtischen Hallenbad.",
+      "translation": {
+        "ru": "Каждое утро вторника перед работой я проплываю двадцать дорожек в городском крытом бассейне.",
+        "en": "Every Tuesday morning before work I swim twenty lengths in the municipal indoor pool."
+      },
+      "bracket_parts": [
+        "schwimme"
+      ],
+      "akkusativ_parts": [
+        "zwanzig Bahnen"
+      ],
+      "dativ_parts": [
+        "vor der Arbeit",
+        "im städtischen Hallenbad"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Schwimmst du im warmen Sommer eigentlich lieber im klaren Badesee oder im Meer?",
+      "translation": {
+        "ru": "Плавать ли ты теплым летом предпочитаешь в чистом озере или в море?",
+        "en": "Do you actually prefer to swim in the clear swimming lake or in the sea in warm summer?"
+      },
+      "bracket_parts": [
+        "Schwimmst"
+      ],
+      "dativ_parts": [
+        "im warmen Sommer",
+        "im klaren Badesee",
+        "im Meer"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der kleine Junge schwimmt mit seinen bunten Schwimmflügeln stolz durch das flache Wasser.",
+      "translation": {
+        "ru": "Маленький мальчик в своих ярких нарукавниках гордо плывет по мелководью.",
+        "en": "The little boy swims proudly through the shallow water with his colourful armbands."
+      },
+      "bracket_parts": [
+        "schwimmt"
+      ],
+      "dativ_parts": [
+        "mit seinen bunten Schwimmflügeln"
+      ],
+      "akkusativ_parts": [
+        "durch das flache Wasser"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir schwimmen zur Vorbereitung auf den Triathlon mehrmals pro Woche im Freibad.",
+      "translation": {
+        "ru": "Для подготовки к триатлону мы плаваем несколько раз в неделю в открытом бассейне.",
+        "en": "To prepare for the triathlon we swim several times a week in the outdoor pool."
+      },
+      "bracket_parts": [
+        "schwimmen"
+      ],
+      "dativ_parts": [
+        "zur Vorbereitung",
+        "im Freibad"
+      ],
+      "akkusativ_parts": [
+        "auf den Triathlon"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Schwimmt ihr bei den kühlen Temperaturen draußen wirklich noch freiwillig im Fluss?",
+      "translation": {
+        "ru": "Плавать ли вы при такой прохладной температуре на улице действительно еще добровольно в реке?",
+        "en": "Are you really still swimming voluntarily in the river in the cool outdoor temperatures?"
+      },
+      "bracket_parts": [
+        "Schwimmt"
+      ],
+      "dativ_parts": [
+        "bei den kühlen Temperaturen",
+        "im Fluss"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern schwamm der mutige Rettungsschwimmer blitzschnell zur hilflosen Person im Wasser.",
+      "translation": {
+        "ru": "Вчера отважный спасатель молниеносно поплыл к беспомощному человеку в воде.",
+        "en": "Yesterday the brave lifeguard swam lightning fast to the helpless person in the water."
+      },
+      "bracket_parts": [
+        "schwamm"
+      ],
+      "dativ_parts": [
+        "zur hilflosen Person",
+        "im Wasser"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die mutigen Sportler sind am Wochenende einmal quer durch den Bodensee geschwommen.",
+      "translation": {
+        "ru": "Отважные спортсмены на выходных переплыли Боденское озеро поперек.",
+        "en": "The brave athletes swam right across Lake Constance at the weekend."
+      },
+      "bracket_parts": [
+        "sind",
+        "geschwommen"
+      ],
+      "dativ_parts": [
+        "am Wochenende"
+      ],
+      "akkusativ_parts": [
+        "durch den Bodensee"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Schwimmen Sie bitte niemals bei roter Flagge oder Gewitter im offenen Meer!",
+      "translation": {
+        "ru": "Никогда не плавайте, пожалуйста, при красном флаге или грозе в открытом море!",
+        "en": "Please never swim in the open sea during a red flag or thunderstorm!"
+      },
+      "bracket_parts": [
+        "Schwimmen"
+      ],
+      "dativ_parts": [
+        "bei roter Flagge",
+        "im offenen Meer"
+      ]
+    }
+  ]
+}

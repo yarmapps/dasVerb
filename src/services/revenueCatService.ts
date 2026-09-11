@@ -7,8 +7,9 @@ import Purchases, {
   PACKAGE_TYPE,
 } from 'react-native-purchases';
 import { setPremiumEnabled, isPremiumEnabled } from './premiumAccessService';
-// eslint-disable-next-line @typescript-eslint/no-require-imports
-const { ENABLE_PREMIUM } = require('../config/features');
+import { setTrialStartDate } from './usageService';
+import { scheduleTrialReminder } from './notificationService';
+import { isFeatureEnabled } from './featuresService';
 
 /* ── API keys ──────────────────────────────────────────────── */
 const API_KEYS = {
@@ -51,7 +52,7 @@ function formatPrice(amount: number, currencyCode: string): string {
  * Call once at app startup (before any purchase-related UI).
  */
 export async function initRevenueCat(): Promise<void> {
-  if (!ENABLE_PREMIUM) {
+  if (!isFeatureEnabled('ENABLE_PREMIUM')) {
     if (__DEV__) {
       console.log('[RevenueCat] ENABLE_PREMIUM is false, skipping initialization');
     }
@@ -98,7 +99,7 @@ export async function initRevenueCat(): Promise<void> {
  * Check current entitlement status and update the local flag.
  */
 export async function checkPremiumStatus(): Promise<boolean> {
-  if (!ENABLE_PREMIUM) {
+  if (!isFeatureEnabled('ENABLE_PREMIUM')) {
     return isPremiumEnabled();
   }
 
@@ -318,12 +319,12 @@ export async function getMappedPackages(): Promise<MappedPackages | null> {
           packageType: PACKAGE_TYPE.LIFETIME,
           product: {
             identifier: 'premium_lifetime',
-            priceString: '$59.99',
-            price: 59.99,
+            priceString: '$49.99',
+            price: 49.99,
             currencyCode: 'USD',
           },
         } as unknown as PurchasesPackage,
-        priceString: '$59.99',
+        priceString: '$49.99',
       },
     };
   }
@@ -343,6 +344,16 @@ export async function purchasePackage(pkg: PurchasesPackage): Promise<boolean> {
     const { customerInfo } = await Purchases.purchasePackage(pkg);
     updatePremiumFromCustomerInfo(customerInfo);
     const hasPremium = customerInfo.entitlements.active[PREMIUM_ENTITLEMENT] !== undefined;
+
+    if (hasPremium) {
+      const intro = pkg.product?.introPrice;
+      if (intro && intro.price === 0 && intro.periodNumberOfUnits > 0) {
+        const nowMs = Date.now();
+        setTrialStartDate(nowMs);
+        scheduleTrialReminder(nowMs).catch(() => {});
+      }
+    }
+
     return hasPremium;
   } catch (error: unknown) {
     const errorRecord = error as { userCancelled?: boolean; message?: string };

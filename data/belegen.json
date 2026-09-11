@@ -1,0 +1,185 @@
+{
+  "id": "belegen",
+  "infinitive": "belegen",
+  "translation": {
+    "ru": "подтверждать (документами), занимать (место), покрывать (бутерброд)",
+    "en": "to prove, occupy, take (a course), cover"
+  },
+  "level": "B1",
+  "frequency_rank": 399,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "belegen",
+    "present_3sg": "belegt",
+    "praeteritum_3sg": "belegte",
+    "partizip_2": "belegt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "belege",
+      "du": "belegst",
+      "er_sie_es": "belegt",
+      "wir": "belegen",
+      "ihr": "belegt",
+      "sie_Sie": "belegen"
+    },
+    "praeteritum": {
+      "ich": "belegte",
+      "du": "belegtest",
+      "er_sie_es": "belegte",
+      "wir": "belegten",
+      "ihr": "belegtet",
+      "sie_Sie": "belegten"
+    },
+    "imperative": {
+      "du": "belege!",
+      "ihr": "belegt!",
+      "Sie": "belegen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "mit Fakten belegen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich belege in diesem Semester zwei interessante Sprachkurse.",
+      "translation": {
+        "ru": "В этом семестре я беру два интересных языковых курса.",
+        "en": "I am taking two interesting language courses this semester."
+      },
+      "bracket_parts": [
+        "belege"
+      ],
+      "akkusativ_parts": [
+        "zwei interessante Sprachkurse"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Belegst du deine Brötchen am liebsten mit Käse und Tomaten?",
+      "translation": {
+        "ru": "Ты больше всего любишь делать бутерброды с сыром и помидорами?",
+        "en": "Do you prefer topping your rolls with cheese and tomatoes?"
+      },
+      "bracket_parts": [
+        "Belegst"
+      ],
+      "akkusativ_parts": [
+        "deine Brötchen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Wissenschaftler belegt seine Theorie mit neuen Experimenten.",
+      "translation": {
+        "ru": "Ученый подтверждает свою теорию новыми экспериментами.",
+        "en": "The scientist proves his theory with new experiments."
+      },
+      "bracket_parts": [
+        "belegt"
+      ],
+      "akkusativ_parts": [
+        "seine Theorie"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir belegen alle Ausgaben mit offiziellen Quittungen.",
+      "translation": {
+        "ru": "Мы подтверждаем все расходы официальными чеками.",
+        "en": "We document all expenses with official receipts."
+      },
+      "bracket_parts": [
+        "belegen"
+      ],
+      "akkusativ_parts": [
+        "alle Ausgaben"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Belegt ihr bei der Meisterschaft den ersten Platz?",
+      "translation": {
+        "ru": "Вы занимаете первое место на чемпионате?",
+        "en": "Are you guys taking first place in the championship?"
+      },
+      "bracket_parts": [
+        "Belegt"
+      ],
+      "akkusativ_parts": [
+        "den ersten Platz"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Studie belegte damals eindeutig den Nutzen der Impfung.",
+      "translation": {
+        "ru": "Исследование тогда однозначно доказало пользу вакцинации.",
+        "en": "The study clearly proved the benefit of vaccination back then."
+      },
+      "bracket_parts": [
+        "belegte"
+      ],
+      "akkusativ_parts": [
+        "den Nutzen der Impfung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Sportlerin hat im Wettkampf einen hervorragenden zweiten Rang belegt.",
+      "translation": {
+        "ru": "Спортсменка заняла на соревнованиях прекрасное второе место.",
+        "en": "The athlete achieved an outstanding second place in the competition."
+      },
+      "bracket_parts": [
+        "hat",
+        "belegt"
+      ],
+      "akkusativ_parts": [
+        "einen hervorragenden zweiten Rang"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Belege bitte deine Behauptung mit verlässlichen Quellen!",
+      "translation": {
+        "ru": "Подтверди свое утверждение надежными источниками, пожалуйста!",
+        "en": "Please substantiate your claim with reliable sources!"
+      },
+      "bracket_parts": [
+        "Belege"
+      ],
+      "akkusativ_parts": [
+        "deine Behauptung"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

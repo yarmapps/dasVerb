@@ -1,0 +1,199 @@
+{
+  "id": "vorlegen",
+  "infinitive": "vorlegen",
+  "translation": {
+    "ru": "предъявлять, представлять (документ)",
+    "en": "to present, submit, produce"
+  },
+  "level": "B1",
+  "frequency_rank": 453,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "vor",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vorlegen",
+    "present_3sg": "legt vor",
+    "praeteritum_3sg": "legte vor",
+    "partizip_2": "vorgelegt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lege vor",
+      "du": "legst vor",
+      "er_sie_es": "legt vor",
+      "wir": "legen vor",
+      "ihr": "legt vor",
+      "sie_Sie": "legen vor"
+    },
+    "praeteritum": {
+      "ich": "legte vor",
+      "du": "legtest vor",
+      "er_sie_es": "legte vor",
+      "wir": "legten vor",
+      "ihr": "legtet vor",
+      "sie_Sie": "legten vor"
+    },
+    "perfekt": {
+      "ich": "habe vorgelegt",
+      "du": "hast vorgelegt",
+      "er_sie_es": "hat vorgelegt",
+      "wir": "haben vorgelegt",
+      "ihr": "habt vorgelegt",
+      "sie_Sie": "haben vorgelegt"
+    }
+  },
+  "rektion": {
+    "case": "dativ_akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich lege der Behörde alle erforderlichen Nachweise vor.",
+      "translation": {
+        "ru": "Я предъявляю ведомству все необходимые подтверждения.",
+        "en": "I present all required evidence to the authority."
+      },
+      "bracket_parts": [
+        "lege",
+        "vor"
+      ],
+      "dativ_parts": [
+        "der Behörde"
+      ],
+      "akkusativ_parts": [
+        "alle erforderlichen Nachweise"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du legst dem Beamten deinen gültigen Reisepass vor.",
+      "translation": {
+        "ru": "Ты предъявляешь чиновнику свой действующий загранпаспорт.",
+        "en": "You show the official your valid passport."
+      },
+      "bracket_parts": [
+        "legst",
+        "vor"
+      ],
+      "dativ_parts": [
+        "dem Beamten"
+      ],
+      "akkusativ_parts": [
+        "deinen gültigen Reisepass"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Architekt legt dem Bauherrn den neuen Entwurf vor.",
+      "translation": {
+        "ru": "Архитектор представляет заказчику новый проект.",
+        "en": "The architect presents the new draft to the client."
+      },
+      "bracket_parts": [
+        "legt",
+        "vor"
+      ],
+      "dativ_parts": [
+        "dem Bauherrn"
+      ],
+      "akkusativ_parts": [
+        "den neuen Entwurf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir legen der Kommission einen detaillierten Bericht vor.",
+      "translation": {
+        "ru": "Мы представляем комиссии подробный отчет.",
+        "en": "We submit a detailed report to the commission."
+      },
+      "bracket_parts": [
+        "legen",
+        "vor"
+      ],
+      "dativ_parts": [
+        "der Kommission"
+      ],
+      "akkusativ_parts": [
+        "einen detaillierten Bericht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr legt dem Chef die aktuellen Verkaufszahlen vor.",
+      "translation": {
+        "ru": "Вы представляете шефу актуальные показатели продаж.",
+        "en": "You present the latest sales figures to the boss."
+      },
+      "bracket_parts": [
+        "legt",
+        "vor"
+      ],
+      "dativ_parts": [
+        "dem Chef"
+      ],
+      "akkusativ_parts": [
+        "die aktuellen Verkaufszahlen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie legten damals dem Gericht entscheidende Beweise vor.",
+      "translation": {
+        "ru": "Они представили тогда суду решающие доказательства.",
+        "en": "They presented decisive evidence to the court back then."
+      },
+      "bracket_parts": [
+        "legten",
+        "vor"
+      ],
+      "dativ_parts": [
+        "dem Gericht"
+      ],
+      "akkusativ_parts": [
+        "entscheidende Beweise"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Ministerin hat der Presse ihren Reformplan vorgelegt.",
+      "translation": {
+        "ru": "Министр представила прессе свой план реформ.",
+        "en": "The minister presented her reform plan to the press."
+      },
+      "bracket_parts": [
+        "hat",
+        "vorgelegt"
+      ],
+      "dativ_parts": [
+        "der Presse"
+      ],
+      "akkusativ_parts": [
+        "ihren Reformplan"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lege bitte deine Ausweispapiere an der Kontrolle vor!",
+      "translation": {
+        "ru": "Предъяви пожалуйста свои документы на контроле!",
+        "en": "Please present your identity papers at the control point!"
+      },
+      "bracket_parts": [
+        "Lege",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "deine Ausweispapiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

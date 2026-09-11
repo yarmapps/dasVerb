@@ -1,0 +1,169 @@
+{
+  "id": "lauten",
+  "infinitive": "lauten",
+  "translation": {
+    "ru": "гласить, звучать (о тексте/ответе)",
+    "en": "to read, sound, run (word for word)"
+  },
+  "level": "B1",
+  "frequency_rank": 402,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "lauten",
+    "present_3sg": "lautet",
+    "praeteritum_3sg": "lautete",
+    "partizip_2": "gelautet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "laute",
+      "du": "lautest",
+      "er_sie_es": "lautet",
+      "wir": "lauten",
+      "ihr": "lautet",
+      "sie_Sie": "lauten"
+    },
+    "praeteritum": {
+      "ich": "lautete",
+      "du": "lautetest",
+      "er_sie_es": "lautete",
+      "wir": "lauteten",
+      "ihr": "lautetet",
+      "sie_Sie": "lauteten"
+    },
+    "imperative": {
+      "du": "laute!",
+      "ihr": "lautet!",
+      "Sie": "lauten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "wie lautet die Frage",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Meine Telefonnummer lautet null eins sieben zwei drei vier.",
+      "translation": {
+        "ru": "Мой номер телефона: ноль один семь два три четыре.",
+        "en": "My phone number is zero one seven two three four."
+      },
+      "bracket_parts": [
+        "lautet"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Lautet deine genaue Adresse immer noch Gartenstraße zehn?",
+      "translation": {
+        "ru": "Твой точный адрес по-прежнему Гартенштрассе, десять?",
+        "en": "Is your exact address still Gartenstrasse ten?"
+      },
+      "bracket_parts": [
+        "Lautet"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die offizielle Antwort der Behörde lautet leider negativ.",
+      "translation": {
+        "ru": "Официальный ответ ведомства, к сожалению, отрицательный.",
+        "en": "The official response from the authority unfortunately reads negative."
+      },
+      "bracket_parts": [
+        "lautet"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Unsere klaren Bedingungen lauten stets fair für alle Beteiligten.",
+      "translation": {
+        "ru": "Наши четкие условия всегда справедливы для всех участников.",
+        "en": "Our clear terms are always fair to all parties involved."
+      },
+      "bracket_parts": [
+        "lauten"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Lautet euer Fazit nach der Konferenz durchweg positiv?",
+      "translation": {
+        "ru": "Ваш итог после конференции звучит исключительно положительно?",
+        "en": "Is your conclusion after the conference entirely positive?"
+      },
+      "bracket_parts": [
+        "Lautet"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Das Urteil der Richter lautete damals auf Freispruch.",
+      "translation": {
+        "ru": "Приговор судей тогда гласил: оправдание.",
+        "en": "The judges' verdict read acquittal back then."
+      },
+      "bracket_parts": [
+        "lautete"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Parole hat schon immer Freiheit und Brüderlichkeit gelautet.",
+      "translation": {
+        "ru": "Девиз всегда гласил: свобода и братство.",
+        "en": "The motto has always been freedom and brotherhood."
+      },
+      "bracket_parts": [
+        "hat",
+        "gelautet"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Laute bitte ganz präzise in deiner Formulierung!",
+      "translation": {
+        "ru": "Звучи максимально точно в своих формулировках, пожалуйста!",
+        "en": "Please be very precise in your phrasing!"
+      },
+      "bracket_parts": [
+        "Laute"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    }
+  ]
+}

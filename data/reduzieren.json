@@ -1,0 +1,185 @@
+{
+  "id": "reduzieren",
+  "infinitive": "reduzieren",
+  "translation": {
+    "ru": "сокращать, снижать, уменьшать",
+    "en": "to reduce, decrease, cut down"
+  },
+  "level": "B1",
+  "frequency_rank": 358,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "reduzieren",
+    "present_3sg": "reduziert",
+    "praeteritum_3sg": "reduzierte",
+    "partizip_2": "reduziert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "reduziere",
+      "du": "reduzierst",
+      "er_sie_es": "reduziert",
+      "wir": "reduzieren",
+      "ihr": "reduziert",
+      "sie_Sie": "reduzieren"
+    },
+    "praeteritum": {
+      "ich": "reduzierte",
+      "du": "reduziertest",
+      "er_sie_es": "reduzierte",
+      "wir": "reduzierten",
+      "ihr": "reduziertet",
+      "sie_Sie": "reduzierten"
+    },
+    "imperative": {
+      "du": "reduziere!",
+      "ihr": "reduziert!",
+      "Sie": "reduzieren Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Kosten drastisch reduzieren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich reduziere meinen täglichen Zuckerkonsum um die Hälfte.",
+      "translation": {
+        "ru": "Я снижаю ежедневное потребление сахара наполовину.",
+        "en": "I reduce my daily sugar intake by half."
+      },
+      "bracket_parts": [
+        "reduziere"
+      ],
+      "akkusativ_parts": [
+        "meinen täglichen Zuckerkonsum"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Reduzierst du im Winter die Heizung beim Verlassen des Hauses?",
+      "translation": {
+        "ru": "Ты уменьшаешь отопление зимой, когда уходишь из дома?",
+        "en": "Do you turn down the heating in winter when leaving the house?"
+      },
+      "bracket_parts": [
+        "Reduzierst"
+      ],
+      "akkusativ_parts": [
+        "die Heizung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Kaufhaus reduziert die Preise vieler Winterkleider.",
+      "translation": {
+        "ru": "Универмаг снижает цены на многие зимние вещи.",
+        "en": "The department store is reducing prices on many winter clothes."
+      },
+      "bracket_parts": [
+        "reduziert"
+      ],
+      "akkusativ_parts": [
+        "die Preise vieler Winterkleider"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir reduzieren den Energieverbrauch im gesamten Betrieb spürbar.",
+      "translation": {
+        "ru": "Мы ощутимо сокращаем потребление энергии на всем предприятии.",
+        "en": "We noticeably reduce energy consumption throughout the company."
+      },
+      "bracket_parts": [
+        "reduzieren"
+      ],
+      "akkusativ_parts": [
+        "den Energieverbrauch"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Reduziert ihr eure Arbeitszeit im nächsten Quartal?",
+      "translation": {
+        "ru": "Вы сокращаете рабочее время в следующем квартале?",
+        "en": "Are you guys reducing your working hours next quarter?"
+      },
+      "bracket_parts": [
+        "Reduziert"
+      ],
+      "akkusativ_parts": [
+        "eure Arbeitszeit"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Fluggesellschaft reduzierte damals die Zahl der Flüge deutlich.",
+      "translation": {
+        "ru": "Авиакомпания тогда значительно сократила число рейсов.",
+        "en": "The airline significantly reduced the number of flights back then."
+      },
+      "bracket_parts": [
+        "reduzierte"
+      ],
+      "akkusativ_parts": [
+        "die Zahl der Flüge"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Regierung hat die Steuern für kleine Betriebe reduziert.",
+      "translation": {
+        "ru": "Правительство снизило налоги для малых предприятий.",
+        "en": "The government has reduced taxes for small businesses."
+      },
+      "bracket_parts": [
+        "hat",
+        "reduziert"
+      ],
+      "akkusativ_parts": [
+        "die Steuern"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Reduziere bitte das Tempo vor der gefährlichen Kurve!",
+      "translation": {
+        "ru": "Снизь скорость перед опасным поворотом, пожалуйста!",
+        "en": "Please reduce your speed before the dangerous curve!"
+      },
+      "bracket_parts": [
+        "Reduziere"
+      ],
+      "akkusativ_parts": [
+        "das Tempo"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

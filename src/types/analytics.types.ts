@@ -42,14 +42,14 @@ export interface DictionaryVerbCollapsedParams {
 // ==========================================
 
 export interface QuizStartedParams {
-  quiz_type: 'verb' | 'checkpoint' | 'smart';
+  quiz_type: 'verb' | 'checkpoint' | 'smart' | 'category' | 'prefix';
   infinitive?: string;
   level?: string;
   total_questions: number;
 }
 
 export interface QuizCompletedParams {
-  quiz_type: 'verb' | 'checkpoint' | 'smart';
+  quiz_type: 'verb' | 'checkpoint' | 'smart' | 'category' | 'prefix';
   infinitive?: string;
   level?: string;
   score: number;
@@ -60,7 +60,7 @@ export interface QuizCompletedParams {
 }
 
 export interface QuizInterruptedParams {
-  quiz_type: 'verb' | 'checkpoint' | 'smart';
+  quiz_type: 'verb' | 'checkpoint' | 'smart' | 'category' | 'prefix';
   infinitive?: string;
   questions_answered: number;
   total_questions: number;
@@ -157,6 +157,25 @@ export interface AnalyticsEventMap {
   settings_theme_changed: SettingsThemeChangedParams;
   settings_language_selected: SettingsLanguageSelectedParams;
   settings_contact_us_clicked: Record<string, never>;
+  settings_progress_reset: Record<string, never>;
+  settings_all_reset: Record<string, never>;
+
+  // Rating & Review
+  rating_popup_shown: Record<string, never>;
+
+  // First Open Paywall
+  first_open_paywall_shown: Record<string, never>;
+  first_open_paywall_close_clicked: Record<string, never>;
+  first_open_paywall_limited_clicked: Record<string, never>;
+  first_open_paywall_buy_clicked: Record<string, never>;
+  first_open_paywall_purchase_complete: Record<string, never>;
+  first_open_paywall_restore_clicked: Record<string, never>;
+  first_open_paywall_restore_complete: Record<string, never>;
+
+  // Premium Subscriptions
+  premium_sheet_shown: Record<string, never>;
+  premium_purchase_success: Record<string, never>;
+  premium_restore_success: Record<string, never>;
 }
 
 export type AnalyticsEventName = keyof AnalyticsEventMap;

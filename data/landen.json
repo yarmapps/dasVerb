@@ -1,0 +1,169 @@
+{
+  "id": "landen",
+  "infinitive": "landen",
+  "translation": {
+    "ru": "приземляться, совершать посадку, оказываться (где-то)",
+    "en": "to land, touch down, end up"
+  },
+  "level": "A2",
+  "frequency_rank": 415,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "landen",
+    "present_3sg": "landet",
+    "praeteritum_3sg": "landete",
+    "partizip_2": "gelandet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lande",
+      "du": "landest",
+      "er_sie_es": "landet",
+      "wir": "landen",
+      "ihr": "landet",
+      "sie_Sie": "landen"
+    },
+    "praeteritum": {
+      "ich": "landete",
+      "du": "landetest",
+      "er_sie_es": "landete",
+      "wir": "landeten",
+      "ihr": "landetet",
+      "sie_Sie": "landeten"
+    },
+    "imperative": {
+      "du": "lande!",
+      "ihr": "landet!",
+      "Sie": "landen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sicher auf dem Flughafen landen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich lande nach dem kurzen Flug pünktlich um zehn Uhr in Berlin.",
+      "translation": {
+        "ru": "После короткого перелета я приземляюсь ровно в десять часов в Берлине.",
+        "en": "After the short flight, I land promptly at ten o'clock in Berlin."
+      },
+      "bracket_parts": [
+        "lande"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Landest du heute Abend direkt auf dem Hauptflughafen?",
+      "translation": {
+        "ru": "Ты приземляешься сегодня вечером прямо в главном аэропорту?",
+        "en": "Are you landing directly at the main airport tonight?"
+      },
+      "bracket_parts": [
+        "Landest"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Flugzeug landet trotz des starken Windes ganz sanft.",
+      "translation": {
+        "ru": "Самолет приземляется очень мягко, несмотря на сильный ветер.",
+        "en": "The plane touches down very smoothly despite the strong wind."
+      },
+      "bracket_parts": [
+        "landet"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir landen bei dieser unüberlegten Reise noch im Chaos.",
+      "translation": {
+        "ru": "С этой непродуманной поездкой мы еще окажемся в хаосе.",
+        "en": "We will end up in chaos with this ill-considered trip."
+      },
+      "bracket_parts": [
+        "landen"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Landet ihr mit dem Hubschrauber direkt auf dem Dach?",
+      "translation": {
+        "ru": "Вы приземляетесь на вертолете прямо на крышу?",
+        "en": "Are you guys landing directly on the roof with the helicopter?"
+      },
+      "bracket_parts": [
+        "Landet"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Raumkapsel landete damals wohlbehalten im Ozean.",
+      "translation": {
+        "ru": "Космическая капсула тогда благополучно приводнилась в океане.",
+        "en": "The space capsule landed safely in the ocean back then."
+      },
+      "bracket_parts": [
+        "landete"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der verletzte Skifahrer ist nach dem Sturz im Krankenhaus gelandet.",
+      "translation": {
+        "ru": "Травмированный лыжник после падения оказался в больнице.",
+        "en": "The injured skier ended up in the hospital after the fall."
+      },
+      "bracket_parts": [
+        "ist",
+        "gelandet"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Lande bitte vorsichtig auf der markierten Piste!",
+      "translation": {
+        "ru": "Приземляйся осторожно на размеченную полосу, пожалуйста!",
+        "en": "Please land carefully on the marked runway!"
+      },
+      "bracket_parts": [
+        "Lande"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    }
+  ]
+}

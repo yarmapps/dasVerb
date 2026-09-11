@@ -1,0 +1,178 @@
+{
+  "id": "auswaehlen",
+  "infinitive": "auswählen",
+  "translation": {
+    "ru": "выбирать, подбирать",
+    "en": "to choose, select"
+  },
+  "level": "A2",
+  "frequency_rank": 496,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "auswählen",
+    "present_3sg": "wählt aus",
+    "praeteritum_3sg": "wählte aus",
+    "partizip_2": "ausgewählt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wähle aus",
+      "du": "wählst aus",
+      "er_sie_es": "wählt aus",
+      "wir": "wählen aus",
+      "ihr": "wählt aus",
+      "sie_Sie": "wählen aus"
+    },
+    "praeteritum": {
+      "ich": "wählte aus",
+      "du": "wähltest aus",
+      "er_sie_es": "wählte aus",
+      "wir": "wählten aus",
+      "ihr": "wähltet aus",
+      "sie_Sie": "wählten aus"
+    },
+    "perfekt": {
+      "ich": "habe ausgewählt",
+      "du": "hast ausgewählt",
+      "er_sie_es": "hat ausgewählt",
+      "wir": "haben ausgewählt",
+      "ihr": "habt ausgewählt",
+      "sie_Sie": "haben ausgewählt"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich wähle ein schönes Geschenk für meine Schwester aus.",
+      "translation": {
+        "ru": "Я выбираю красивый подарок для своей сестры.",
+        "en": "I select a nice gift for my sister."
+      },
+      "bracket_parts": [
+        "wähle",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "ein schönes Geschenk"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du wählst die besten Fotos für das Album aus.",
+      "translation": {
+        "ru": "Ты отбираешь лучшие фотографии для альбома.",
+        "en": "You select the best photos for the album."
+      },
+      "bracket_parts": [
+        "wählst",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "die besten Fotos"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Jury wählt den besten Kandidaten für den Preis aus.",
+      "translation": {
+        "ru": "Жюри выбирает лучшего кандидата на получение премии.",
+        "en": "The jury selects the best candidate for the award."
+      },
+      "bracket_parts": [
+        "wählt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "den besten Kandidaten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir wählen ein gemütliches Restaurant für heute Abend aus.",
+      "translation": {
+        "ru": "Мы выбираем уютный ресторан на сегодняшний вечер.",
+        "en": "We choose a cozy restaurant for tonight."
+      },
+      "bracket_parts": [
+        "wählen",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "ein gemütliches Restaurant"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr wählt die passenden Farben für das Schlafzimmer aus.",
+      "translation": {
+        "ru": "Вы подбираете подходящие цвета для спальни.",
+        "en": "You select the matching colors for the bedroom."
+      },
+      "bracket_parts": [
+        "wählt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "die passenden Farben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie wählten damals die besten Bewerber für die Stellen aus.",
+      "translation": {
+        "ru": "Они тогда отобрали лучших претендентов на вакансии.",
+        "en": "They selected the best applicants for the positions back then."
+      },
+      "bracket_parts": [
+        "wählten",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "die besten Bewerber"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Mein Vater hat einen praktischen Neuwagen sorgfältig ausgewählt.",
+      "translation": {
+        "ru": "Мой отец тщательно выбрал практичный новый автомобиль.",
+        "en": "My father carefully chose a practical new car."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgewählt"
+      ],
+      "akkusativ_parts": [
+        "einen praktischen Neuwagen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Wähle bitte ein leckeres Gericht von der Karte aus!",
+      "translation": {
+        "ru": "Выбери пожалуйста вкусное блюдо из меню!",
+        "en": "Please choose a delicious dish from the menu!"
+      },
+      "bracket_parts": [
+        "Wähle",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "ein leckeres Gericht"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

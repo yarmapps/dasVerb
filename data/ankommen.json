@@ -1,0 +1,161 @@
+{
+  "id": "ankommen",
+  "infinitive": "ankommen",
+  "translation": {
+    "ru": "прибывать, приезжать",
+    "en": "to arrive"
+  },
+  "level": "A1",
+  "frequency_rank": 175,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ankommen",
+    "present_3sg": "kommt an",
+    "praeteritum_3sg": "kam an",
+    "partizip_2": "angekommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "komme an",
+      "du": "kommst an",
+      "er_sie_es": "kommt an",
+      "wir": "kommen an",
+      "ihr": "kommt an",
+      "sie_Sie": "kommen an",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "kam an",
+      "du": "kamst an",
+      "er_sie_es": "kam an",
+      "wir": "kamen an",
+      "ihr": "kamt an",
+      "sie_Sie": "kamen an"
+    },
+    "imperative": {
+      "du": "komm an",
+      "ihr": "kommt an",
+      "Sie": "kommen Sie an"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "pünktlich / wohlbehalten ankommen",
+  "sentences": [
+    {
+      "id": "ankommen_base_1",
+      "tense": "Präsens",
+      "german": "Ich komme heute Abend gegen acht Uhr an.",
+      "translation": {
+        "ru": "Я приезжаю сегодня вечером около восьми часов.",
+        "en": "I arrive tonight around eight o'clock."
+      },
+      "bracket_parts": [
+        "komme",
+        "an"
+      ]
+    },
+    {
+      "id": "ankommen_base_2",
+      "tense": "Präsens",
+      "german": "Kommst du nach der langen Reise gut an?",
+      "translation": {
+        "ru": "Ты хорошо добираешься после долгой поездки?",
+        "en": "Are you arriving well after the long trip?"
+      },
+      "bracket_parts": [
+        "Kommst",
+        "an"
+      ]
+    },
+    {
+      "id": "ankommen_base_3",
+      "tense": "Präsens",
+      "german": "Der Schnellzug kommt absolut pünktlich an.",
+      "translation": {
+        "ru": "Скоростной поезд прибывает абсолютно вовремя.",
+        "en": "The high-speed train arrives right on time."
+      },
+      "bracket_parts": [
+        "kommt",
+        "an"
+      ]
+    },
+    {
+      "id": "ankommen_base_4",
+      "tense": "Präsens",
+      "german": "Wir kommen hoffentlich noch vor Einbruch der Dunkelheit an.",
+      "translation": {
+        "ru": "Мы, будем надеяться, приедем еще до наступления темноты.",
+        "en": "We will hopefully arrive before darkness falls."
+      },
+      "bracket_parts": [
+        "kommen",
+        "an"
+      ]
+    },
+    {
+      "id": "ankommen_base_5",
+      "tense": "Präsens",
+      "german": "Kommt ihr morgen rechtzeitig zum Mittagessen an?",
+      "translation": {
+        "ru": "Вы приедете завтра вовремя к обеду?",
+        "en": "Will you arrive in time for lunch tomorrow?"
+      },
+      "bracket_parts": [
+        "Kommt",
+        "an"
+      ]
+    },
+    {
+      "id": "ankommen_base_6",
+      "tense": "Präteritum",
+      "german": "Die Bergsteiger kamen müde, aber glücklich an.",
+      "translation": {
+        "ru": "Альпинисты добрались уставшими, но счастливыми.",
+        "en": "The mountaineers arrived tired but happy."
+      },
+      "bracket_parts": [
+        "kamen",
+        "an"
+      ]
+    },
+    {
+      "id": "ankommen_base_7",
+      "tense": "Perfekt",
+      "german": "Mein wichtiges Paket ist gestern unversehrt angekommen.",
+      "translation": {
+        "ru": "Моя важная посылка прибыла вчера в целости и сохранности.",
+        "en": "My important package arrived intact yesterday."
+      },
+      "bracket_parts": [
+        "ist",
+        "angekommen"
+      ]
+    },
+    {
+      "id": "ankommen_base_8",
+      "tense": "Imperativ",
+      "german": "Komm bitte gut und sicher am Ziel an!",
+      "translation": {
+        "ru": "Доберись, пожалуйста, благополучно и безопасно до цели!",
+        "en": "Please arrive safely and well at your destination!"
+      },
+      "bracket_parts": [
+        "Komm",
+        "an"
+      ]
+    }
+  ]
+}

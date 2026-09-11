@@ -1,0 +1,163 @@
+{
+  "id": "antworten",
+  "infinitive": "antworten",
+  "translation": {
+    "ru": "отвечать",
+    "en": "to answer, to reply"
+  },
+  "level": "A1",
+  "frequency_rank": 196,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "antworten",
+    "present_3sg": "antwortet",
+    "praeteritum_3sg": "antwortete",
+    "partizip_2": "geantwortet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "antworte",
+      "du": "antwortest",
+      "er_sie_es": "antwortet",
+      "wir": "antworten",
+      "ihr": "antwortet",
+      "sie_Sie": "antworten",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "antwortete",
+      "du": "antwortetest",
+      "er_sie_es": "antwortete",
+      "wir": "antworteten",
+      "ihr": "antwortetet",
+      "sie_Sie": "antworteten"
+    },
+    "imperative": {
+      "du": "antworte",
+      "ihr": "antwortet",
+      "Sie": "antworten Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "schnell / ehrlich antworten",
+  "sentences": [
+    {
+      "id": "antworten_base_1",
+      "tense": "Präsens",
+      "german": "Ich antworte immer sofort auf wichtige E-Mails.",
+      "translation": {
+        "ru": "Я всегда сразу отвечаю на важные электронные письма.",
+        "en": "I always reply immediately to important emails."
+      },
+      "bracket_parts": [
+        "antworte"
+      ]
+    },
+    {
+      "id": "antworten_base_2",
+      "tense": "Präsens",
+      "german": "Warum antwortest du mir nicht auf meine Nachricht?",
+      "translation": {
+        "ru": "Почему ты не отвечаешь мне на мое сообщение?",
+        "en": "Why don't you answer my message?"
+      },
+      "bracket_parts": [
+        "antwortest"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    },
+    {
+      "id": "antworten_base_3",
+      "tense": "Präsens",
+      "german": "Der Schüler antwortet ruhig und sachlich auf die Frage.",
+      "translation": {
+        "ru": "Ученик отвечает спокойно и по делу на этот вопрос.",
+        "en": "The student answers the question calmly and factually."
+      },
+      "bracket_parts": [
+        "antwortet"
+      ]
+    },
+    {
+      "id": "antworten_base_4",
+      "tense": "Präsens",
+      "german": "Wir antworten gerne auf alle Anfragen unserer Kunden.",
+      "translation": {
+        "ru": "Мы с радостью отвечаем на все запросы наших клиентов.",
+        "en": "We gladly answer all inquiries from our customers."
+      },
+      "bracket_parts": [
+        "antworten"
+      ]
+    },
+    {
+      "id": "antworten_base_5",
+      "tense": "Präsens",
+      "german": "Antwortet ihr bitte kurz mit Ja oder Nein?",
+      "translation": {
+        "ru": "Ответите, пожалуйста, коротко «да» или «нет»?",
+        "en": "Will you please answer briefly with yes or no?"
+      },
+      "bracket_parts": [
+        "Antwortet"
+      ]
+    },
+    {
+      "id": "antworten_base_6",
+      "tense": "Präteritum",
+      "german": "Sie antworteten damals sehr zögerlich auf den Vorwurf.",
+      "translation": {
+        "ru": "Они отвечали тогда очень нерешительно на это обвинение.",
+        "en": "They answered very hesitantly to the accusation back then."
+      },
+      "bracket_parts": [
+        "antworteten"
+      ]
+    },
+    {
+      "id": "antworten_base_7",
+      "tense": "Perfekt",
+      "german": "Ich habe ihm gestern ausführlich auf den Brief geantwortet.",
+      "translation": {
+        "ru": "Вчера я подробно ответил ему на письмо.",
+        "en": "I answered his letter in detail yesterday."
+      },
+      "bracket_parts": [
+        "habe",
+        "geantwortet"
+      ],
+      "dativ_parts": [
+        "ihm"
+      ]
+    },
+    {
+      "id": "antworten_base_8",
+      "tense": "Imperativ",
+      "german": "Antworte mir bitte ehrlich auf diese Frage!",
+      "translation": {
+        "ru": "Ответь мне, пожалуйста, честно на этот вопрос!",
+        "en": "Please answer me honestly to this question!"
+      },
+      "bracket_parts": [
+        "Antworte"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    }
+  ]
+}

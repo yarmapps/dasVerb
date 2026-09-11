@@ -1,0 +1,182 @@
+{
+  "id": "annehmen",
+  "infinitive": "annehmen",
+  "translation": {
+    "ru": "принимать, предполагать",
+    "en": "to accept, to assume"
+  },
+  "level": "A2",
+  "frequency_rank": 111,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "annehmen",
+    "present_3sg": "nimmt an",
+    "praeteritum_3sg": "nahm an",
+    "partizip_2": "angenommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "nehme an",
+      "du": "nimmst an",
+      "er_sie_es": "nimmt an",
+      "wir": "nehmen an",
+      "ihr": "nehmt an",
+      "sie_Sie": "nehmen an",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "nahm an",
+      "du": "nahmst an",
+      "er_sie_es": "nahm an",
+      "wir": "nahmen an",
+      "ihr": "nahmt an",
+      "sie_Sie": "nahmen an"
+    },
+    "imperative": {
+      "du": "nimm an",
+      "ihr": "nehmt an",
+      "Sie": "nehmen Sie an"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein Angebot / Paket (Akk) annehmen",
+  "sentences": [
+    {
+      "id": "annehmen_1",
+      "tense": "Präsens",
+      "german": "Ich nehme das gute Stellenangebot gerne an.",
+      "translation": {
+        "ru": "Я с удовольствием принимаю это хорошее предложение о работе.",
+        "en": "I gladly accept the good job offer."
+      },
+      "bracket_parts": [
+        "nehme",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das gute Stellenangebot"
+      ]
+    },
+    {
+      "id": "annehmen_2",
+      "tense": "Präsens",
+      "german": "Nimmst du das Paket für deinen Nachbarn an?",
+      "translation": {
+        "ru": "Ты примешь посылку для своего соседа?",
+        "en": "Will you accept the package for your neighbor?"
+      },
+      "bracket_parts": [
+        "Nimmst",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das Paket"
+      ]
+    },
+    {
+      "id": "annehmen_3",
+      "tense": "Präsens",
+      "german": "Der Chef nimmt die Entschuldigung des Mitarbeiters an.",
+      "translation": {
+        "ru": "Начальник принимает извинение сотрудника.",
+        "en": "The boss accepts the employee's apology."
+      },
+      "bracket_parts": [
+        "nimmt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Entschuldigung"
+      ]
+    },
+    {
+      "id": "annehmen_4",
+      "tense": "Präsens",
+      "german": "Wir nehmen an, dass der Zug pünktlich ankommt.",
+      "translation": {
+        "ru": "Мы предполагаем, что поезд прибудет вовремя.",
+        "en": "We assume that the train will arrive on time."
+      },
+      "bracket_parts": [
+        "nehmen",
+        "an"
+      ]
+    },
+    {
+      "id": "annehmen_5",
+      "tense": "Präsens",
+      "german": "Nehmt ihr die Einladung zur Geburtstagsfeier an?",
+      "translation": {
+        "ru": "Вы принимаете приглашение на день рождения?",
+        "en": "Do you accept the invitation to the birthday party?"
+      },
+      "bracket_parts": [
+        "Nehmt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Einladung"
+      ]
+    },
+    {
+      "id": "annehmen_6",
+      "tense": "Präteritum",
+      "german": "Sie nahmen damals den Vorschlag ohne Einwände an.",
+      "translation": {
+        "ru": "Они приняли тогда предложение без возражений.",
+        "en": "They accepted the proposal without objections back then."
+      },
+      "bracket_parts": [
+        "nahmen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den Vorschlag"
+      ]
+    },
+    {
+      "id": "annehmen_7",
+      "tense": "Perfekt",
+      "german": "Ich habe seine Entschuldigung sofort angenommen.",
+      "translation": {
+        "ru": "Я сразу принял его извинения.",
+        "en": "I accepted his apology immediately."
+      },
+      "bracket_parts": [
+        "habe",
+        "angenommen"
+      ],
+      "akkusativ_parts": [
+        "seine Entschuldigung"
+      ]
+    },
+    {
+      "id": "annehmen_8",
+      "tense": "Imperativ",
+      "german": "Nimm diesen freundlichen Rat bitte an!",
+      "translation": {
+        "ru": "Прими, пожалуйста, этот дружеский совет!",
+        "en": "Please accept this friendly advice!"
+      },
+      "bracket_parts": [
+        "Nimm",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "diesen freundlichen Rat"
+      ]
+    }
+  ]
+}

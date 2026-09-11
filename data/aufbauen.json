@@ -1,0 +1,184 @@
+{
+  "id": "aufbauen",
+  "infinitive": "aufbauen",
+  "translation": {
+    "ru": "строить, собирать (мебель/палатку), развивать (бизнес)",
+    "en": "to build up, erect, assemble"
+  },
+  "level": "A2",
+  "frequency_rank": 201,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufbauen",
+    "present_3sg": "baut auf",
+    "praeteritum_3sg": "baute auf",
+    "partizip_2": "aufgebaut"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "baue auf",
+      "du": "baust auf",
+      "er_sie_es": "baut auf",
+      "wir": "bauen auf",
+      "ihr": "baut auf",
+      "sie_Sie": "bauen auf"
+    },
+    "praeteritum": {
+      "ich": "baute auf",
+      "du": "bautest auf",
+      "er_sie_es": "baute auf",
+      "wir": "bauten auf",
+      "ihr": "bautet auf",
+      "sie_Sie": "bauten auf"
+    },
+    "imperative": {
+      "du": "baue auf!",
+      "ihr": "baut auf!",
+      "Sie": "bauen Sie auf!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein Zelt im Garten aufbauen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich baue den neuen Schrank heute im Schlafzimmer auf.",
+      "translation": {
+        "ru": "Я собираю новый шкаф сегодня в спальне.",
+        "en": "I am assembling the new wardrobe in the bedroom today."
+      },
+      "bracket_parts": [
+        "baue",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "den neuen Schrank"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Baust du das Zelt am Campingplatz alleine auf?",
+      "translation": {
+        "ru": "Ты ставишь палатку в кемпинге один?",
+        "en": "Are you pitching the tent at the campsite by yourself?"
+      },
+      "bracket_parts": [
+        "Baust",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "das Zelt"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Gründerin baut ein erfolgreiches Startup auf.",
+      "translation": {
+        "ru": "Основательница создает успешный стартап.",
+        "en": "The founder is building up a successful startup."
+      },
+      "bracket_parts": [
+        "baut",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "ein erfolgreiches Startup"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir bauen die Bühne für das Stadtfest gemeinsam auf.",
+      "translation": {
+        "ru": "Мы вместе монтируем сцену для городского праздника.",
+        "en": "We set up the stage for the city festival together."
+      },
+      "bracket_parts": [
+        "bauen",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die Bühne"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Baut ihr die Messestände schon heute Nachmittag auf?",
+      "translation": {
+        "ru": "Вы монтируете выставочные стенды уже сегодня после обеда?",
+        "en": "Are you guys setting up the exhibition booths this afternoon?"
+      },
+      "bracket_parts": [
+        "Baut",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die Messestände"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie bauten nach dem Krieg die zerstörte Stadt wieder auf.",
+      "translation": {
+        "ru": "После войны они восстановили разрушенный город.",
+        "en": "They rebuilt the destroyed city after the war."
+      },
+      "bracket_parts": [
+        "bauten",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die zerstörte Stadt"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das Team hat eine neue Zweigstelle in Hamburg aufgebaut.",
+      "translation": {
+        "ru": "Команда построила новый филиал в Гамбурге.",
+        "en": "The team built up a new branch in Hamburg."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgebaut"
+      ],
+      "akkusativ_parts": [
+        "eine neue Zweigstelle"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Baue bitte den Tisch nach der Anleitung auf!",
+      "translation": {
+        "ru": "Собери стол по инструкции, пожалуйста!",
+        "en": "Please assemble the table following the manual!"
+      },
+      "bracket_parts": [
+        "Baue",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "den Tisch"
+      ]
+    }
+  ]
+}

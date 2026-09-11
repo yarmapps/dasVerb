@@ -1,0 +1,192 @@
+{
+  "id": "aufstellen",
+  "infinitive": "aufstellen",
+  "translation": {
+    "ru": "расставлять, устанавливать, выдвигать (кандидата/правило)",
+    "en": "to put up, erect, establish, nominate"
+  },
+  "level": "B1",
+  "frequency_rank": 382,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufstellen",
+    "present_3sg": "stellt auf",
+    "praeteritum_3sg": "stellte auf",
+    "partizip_2": "aufgestellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stelle auf",
+      "du": "stellst auf",
+      "er_sie_es": "stellt auf",
+      "wir": "stellen auf",
+      "ihr": "stellt auf",
+      "sie_Sie": "stellen auf"
+    },
+    "praeteritum": {
+      "ich": "stellte auf",
+      "du": "stelltest auf",
+      "er_sie_es": "stellte auf",
+      "wir": "stellten auf",
+      "ihr": "stelltet auf",
+      "sie_Sie": "stellten auf"
+    },
+    "imperative": {
+      "du": "stelle auf!",
+      "ihr": "stellt auf!",
+      "Sie": "stellen Sie auf!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "klare Regeln aufstellen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich stelle das neue Bücherregal an der Wand auf.",
+      "translation": {
+        "ru": "Я устанавливаю новый книжный шкаф у стены.",
+        "en": "I put up the new bookshelf against the wall."
+      },
+      "bracket_parts": [
+        "stelle",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "das neue Bücherregal"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Stellst du für das Spiel heute eine neue Taktik auf?",
+      "translation": {
+        "ru": "Ты выстраиваешь на сегодняшнюю игру новую тактику?",
+        "en": "Are you setting up a new tactic for today's game?"
+      },
+      "bracket_parts": [
+        "Stellst",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "eine neue Taktik"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Trainer stellt die stärkste Mannschaft für das Finale auf.",
+      "translation": {
+        "ru": "Тренер выставляет сильнейший состав команды на финал.",
+        "en": "The coach fields the strongest team for the final."
+      },
+      "bracket_parts": [
+        "stellt",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die stärkste Mannschaft"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir stellen klare Regeln für die Zusammenarbeit im Team auf.",
+      "translation": {
+        "ru": "Мы устанавливаем четкие правила для совместной работы в команде.",
+        "en": "We establish clear rules for teamwork in the team."
+      },
+      "bracket_parts": [
+        "stellen",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "klare Regeln"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Stellt ihr im Garten das Zelt für die Kinder auf?",
+      "translation": {
+        "ru": "Вы ставите в саду палатку для детей?",
+        "en": "Are you pitching the tent in the garden for the kids?"
+      },
+      "bracket_parts": [
+        "Stellt",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "das Zelt"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Arbeiter stellten damals ein großes Gerüst an der Fassade auf.",
+      "translation": {
+        "ru": "Рабочие тогда установили большие строительные леса на фасаде.",
+        "en": "The workers erected large scaffolding on the facade back then."
+      },
+      "bracket_parts": [
+        "stellten",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "ein großes Gerüst"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Sportler hat einen neuen Weltrekord im Weitsprung aufgestellt.",
+      "translation": {
+        "ru": "Спортсмен установил новый мировой рекорд в прыжках в длину.",
+        "en": "The athlete set a new world record in the long jump."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgestellt"
+      ],
+      "akkusativ_parts": [
+        "einen neuen Weltrekord"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Stelle bitte die Stühle im Kreis auf!",
+      "translation": {
+        "ru": "Расставь стулья по кругу, пожалуйста!",
+        "en": "Please set up the chairs in a circle!"
+      },
+      "bracket_parts": [
+        "Stelle",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die Stühle"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

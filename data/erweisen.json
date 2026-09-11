@@ -1,0 +1,193 @@
+{
+  "id": "erweisen",
+  "infinitive": "erweisen",
+  "translation": {
+    "ru": "оказывать (услугу/честь), оказываться",
+    "en": "to prove (oneself), render (favor), show"
+  },
+  "level": "B2",
+  "frequency_rank": 375,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "erweisen",
+    "present_3sg": "erweist",
+    "praeteritum_3sg": "erwies",
+    "partizip_2": "erwiesen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erweise mich",
+      "du": "erweist dich",
+      "er_sie_es": "erweist sich",
+      "wir": "erweisen uns",
+      "ihr": "erweist euch",
+      "sie_Sie": "erweisen sich"
+    },
+    "praeteritum": {
+      "ich": "erwies mich",
+      "du": "erwiesest dich",
+      "er_sie_es": "erwies sich",
+      "wir": "erwiesen uns",
+      "ihr": "erwiest euch",
+      "sie_Sie": "erwiesen sich"
+    },
+    "imperative": {
+      "du": "erweise dich!",
+      "ihr": "erweist euch!",
+      "Sie": "erweisen Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich als wahr erweisen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erweise meinem besten Freund heute einen großen Gefallen.",
+      "translation": {
+        "ru": "Я оказываю сегодня своему лучшему другу большую услугу.",
+        "en": "I am doing my best friend a big favor today."
+      },
+      "bracket_parts": [
+        "erweise"
+      ],
+      "akkusativ_parts": [
+        "einen großen Gefallen"
+      ],
+      "dativ_parts": [
+        "meinem besten Freund"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erweist du dem Ehrengast den gebührenden Respekt?",
+      "translation": {
+        "ru": "Ты оказываешь почетному гостю подобающее уважение?",
+        "en": "Do you show the guest of honor due respect?"
+      },
+      "bracket_parts": [
+        "Erweist"
+      ],
+      "akkusativ_parts": [
+        "den gebührenden Respekt"
+      ],
+      "dativ_parts": [
+        "dem Ehrengast"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die neue Methode erweist sich als äußerst wirksam.",
+      "translation": {
+        "ru": "Новый метод оказывается чрезвычайно эффективным.",
+        "en": "The new method proves to be extremely effective."
+      },
+      "bracket_parts": [
+        "erweist"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erweisen uns im Notfall als verlässliche Partner.",
+      "translation": {
+        "ru": "В экстренном случае мы проявляем себя надежными партнерами.",
+        "en": "In an emergency, we prove to be reliable partners."
+      },
+      "bracket_parts": [
+        "erweisen"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erweist ihr der verstorbenen Persönlichkeit die letzte Ehre?",
+      "translation": {
+        "ru": "Вы отдаете усопшему деятелю последнюю дань уважения?",
+        "en": "Are you guys paying your last respects to the deceased figure?"
+      },
+      "bracket_parts": [
+        "Erweist"
+      ],
+      "akkusativ_parts": [
+        "die letzte Ehre"
+      ],
+      "dativ_parts": [
+        "der verstorbenen Persönlichkeit"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Vermutung erwies sich damals als völlig richtig.",
+      "translation": {
+        "ru": "Предположение оказалось тогда абсолютно верным.",
+        "en": "The assumption proved to be completely correct back then."
+      },
+      "bracket_parts": [
+        "erwies"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der angebliche Vorteil hat sich als schwerer Nachteil erwiesen.",
+      "translation": {
+        "ru": "Мнимое преимущество обернулось серьезным недостатком.",
+        "en": "The alleged advantage turned out to be a major disadvantage."
+      },
+      "bracket_parts": [
+        "hat",
+        "erwiesen"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erweise bitte deinem Nachbarn einen kleinen Gefallen!",
+      "translation": {
+        "ru": "Окажи своему соседу небольшую услугу, пожалуйста!",
+        "en": "Please do your neighbor a small favor!"
+      },
+      "bracket_parts": [
+        "Erweise"
+      ],
+      "akkusativ_parts": [
+        "einen kleinen Gefallen"
+      ],
+      "dativ_parts": [
+        "deinem Nachbarn"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "id": "vorsehen",
+  "infinitive": "vorsehen",
+  "translation": {
+    "ru": "предусматривать, планировать",
+    "en": "to provide for, plan, earmark"
+  },
+  "level": "B2",
+  "frequency_rank": 298,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "vor",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vorsehen",
+    "present_3sg": "sieht vor",
+    "praeteritum_3sg": "sah vor",
+    "partizip_2": "vorgesehen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "sehe vor",
+      "du": "siehst vor",
+      "er_sie_es": "sieht vor",
+      "wir": "sehen vor",
+      "ihr": "seht vor",
+      "sie_Sie": "sehen vor"
+    },
+    "praeteritum": {
+      "ich": "sah vor",
+      "du": "sahst vor",
+      "er_sie_es": "sah vor",
+      "wir": "sahen vor",
+      "ihr": "saht vor",
+      "sie_Sie": "sahen vor"
+    },
+    "imperative": {
+      "du": "sieh vor!",
+      "ihr": "seht vor!",
+      "Sie": "sehen Sie vor!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine Ausnahme vorsehen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich sehe im Budget einen festen Betrag für Notfälle vor.",
+      "translation": {
+        "ru": "Я предусматриваю в бюджете фиксированную сумму на экстренные случаи.",
+        "en": "I provide for a fixed amount in the budget for emergencies."
+      },
+      "bracket_parts": [
+        "sehe",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "einen festen Betrag"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Siehst du im Zeitplan genug Pausen für Erholung vor?",
+      "translation": {
+        "ru": "Ты предусматриваешь в расписании достаточно пауз для отдыха?",
+        "en": "Do you provide for enough breaks for rest in the schedule?"
+      },
+      "bracket_parts": [
+        "Siehst",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "genug Pausen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der neue Vertrag sieht strenge Strafen für Verspätungen vor.",
+      "translation": {
+        "ru": "Новый договор предусматривает строгие штрафы за задержки.",
+        "en": "The new contract provides for strict penalties for delays."
+      },
+      "bracket_parts": [
+        "sieht",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "strenge Strafen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir sehen für jedes Kind ein persönliches Geschenk vor.",
+      "translation": {
+        "ru": "Мы предусматриваем для каждого ребенка личный подарок.",
+        "en": "We provide for a personal gift for each child."
+      },
+      "bracket_parts": [
+        "sehen",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "ein persönliches Geschenk"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Seht ihr im Bauplan auch einen Aufzug vor?",
+      "translation": {
+        "ru": "Вы предусматриваете в плане здания также лифт?",
+        "en": "Do you guys also provide for an elevator in the building plan?"
+      },
+      "bracket_parts": [
+        "Seht",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "einen Aufzug"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Das Gesetz sah damals keine Entschädigung für die Opfer vor.",
+      "translation": {
+        "ru": "Закон тогда не предусматривал никакой компенсации для жертв.",
+        "en": "The law provided for no compensation for the victims back then."
+      },
+      "bracket_parts": [
+        "sah",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "keine Entschädigung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Planer haben einen modernen Spielplatz im Park vorgesehen.",
+      "translation": {
+        "ru": "Проектировщики предусмотрели современную детскую площадку в парке.",
+        "en": "The planners have provided for a modern playground in the park."
+      },
+      "bracket_parts": [
+        "haben",
+        "vorgesehen"
+      ],
+      "akkusativ_parts": [
+        "einen modernen Spielplatz"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Sieh bitte genug Zeit für die Vorbereitung vor!",
+      "translation": {
+        "ru": "Предусмотри, пожалуйста, достаточно времени на подготовку!",
+        "en": "Please plan enough time for preparation!"
+      },
+      "bracket_parts": [
+        "Sieh",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "genug Zeit"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

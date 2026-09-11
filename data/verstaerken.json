@@ -1,0 +1,185 @@
+{
+  "id": "verstaerken",
+  "infinitive": "verstärken",
+  "translation": {
+    "ru": "усиливать, укреплять",
+    "en": "to strengthen, reinforce, intensify"
+  },
+  "level": "B1",
+  "frequency_rank": 297,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verstärken",
+    "present_3sg": "verstärkt",
+    "praeteritum_3sg": "verstärkte",
+    "partizip_2": "verstärkt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verstärke",
+      "du": "verstärkst",
+      "er_sie_es": "verstärkt",
+      "wir": "verstärken",
+      "ihr": "verstärkt",
+      "sie_Sie": "verstärken"
+    },
+    "praeteritum": {
+      "ich": "verstärkte",
+      "du": "verstärktest",
+      "er_sie_es": "verstärkte",
+      "wir": "verstärkten",
+      "ihr": "verstärktet",
+      "sie_Sie": "verstärkten"
+    },
+    "imperative": {
+      "du": "verstärke!",
+      "ihr": "verstärkt!",
+      "Sie": "verstärken Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Sicherheitsmaßnahmen verstärken",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verstärke mein Engagement für den Umweltschutz in der Region.",
+      "translation": {
+        "ru": "Я усиливаю свое участие в защите окружающей среды в регионе.",
+        "en": "I am strengthening my commitment to environmental protection in the region."
+      },
+      "bracket_parts": [
+        "verstärke"
+      ],
+      "akkusativ_parts": [
+        "mein Engagement"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verstärkst du das schwache Signal mit einer zusätzlichen Antenne?",
+      "translation": {
+        "ru": "Ты усиливаешь слабый сигнал дополнительной антенной?",
+        "en": "Are you boosting the weak signal with an extra antenna?"
+      },
+      "bracket_parts": [
+        "Verstärkst"
+      ],
+      "akkusativ_parts": [
+        "das schwache Signal"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Polizei verstärkt die Kontrollen an den Grenzen.",
+      "translation": {
+        "ru": "Полиция усиливает проверки на границах.",
+        "en": "The police are intensifying checks at the borders."
+      },
+      "bracket_parts": [
+        "verstärkt"
+      ],
+      "akkusativ_parts": [
+        "die Kontrollen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verstärken unser Team mit zwei erfahrenen Entwicklern.",
+      "translation": {
+        "ru": "Мы усиливаем нашу команду двумя опытными разработчиками.",
+        "en": "We reinforce our team with two experienced developers."
+      },
+      "bracket_parts": [
+        "verstärken"
+      ],
+      "akkusativ_parts": [
+        "unser Team"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verstärkt ihr die Schutzmauern vor dem Hochwasser?",
+      "translation": {
+        "ru": "Вы укрепляете защитные стены перед паводком?",
+        "en": "Are you reinforcing the protective walls against the flood?"
+      },
+      "bracket_parts": [
+        "Verstärkt"
+      ],
+      "akkusativ_parts": [
+        "die Schutzmauern"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Wind verstärkte sich damals am Nachmittag stetig.",
+      "translation": {
+        "ru": "Ветер во второй половине дня тогда постоянно усиливался.",
+        "en": "The wind intensified steadily in the afternoon back then."
+      },
+      "bracket_parts": [
+        "verstärkte"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Organisation hat ihre Hilfsmaßnahmen im Krisengebiet verstärkt.",
+      "translation": {
+        "ru": "Организация усилила меры помощи в зоне кризиса.",
+        "en": "The organization has reinforced its relief efforts in the crisis area."
+      },
+      "bracket_parts": [
+        "hat",
+        "verstärkt"
+      ],
+      "akkusativ_parts": [
+        "ihre Hilfsmaßnahmen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verstärke bitte die Balken unter dem Dach!",
+      "translation": {
+        "ru": "Укрепи, пожалуйста, балки под крышей!",
+        "en": "Please reinforce the beams under the roof!"
+      },
+      "bracket_parts": [
+        "Verstärke"
+      ],
+      "akkusativ_parts": [
+        "die Balken"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

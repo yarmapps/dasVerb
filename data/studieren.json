@@ -1,0 +1,187 @@
+{
+  "id": "studieren",
+  "infinitive": "studieren",
+  "translation": {
+    "ru": "учиться в вузе, изучать (науку, специальность)",
+    "en": "to study at university, to major in"
+  },
+  "level": "A1",
+  "frequency_rank": 95,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "studieren",
+    "present_3sg": "studiert",
+    "praeteritum_3sg": "studierte",
+    "partizip_2": "studiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "studiere",
+      "du": "studierst",
+      "er_sie_es": "studiert",
+      "wir": "studieren",
+      "ihr": "studiert",
+      "sie_Sie": "studieren",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "studierte",
+      "du": "studiertest",
+      "er_sie_es": "studierte",
+      "wir": "studierten",
+      "ihr": "studiertet",
+      "sie_Sie": "studierten"
+    },
+    "imperative": {
+      "du": "studier!",
+      "ihr": "studiert!",
+      "Sie": "studieren Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Informatik an der renommierten Universität (Akk) studieren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich studiere seit zwei Semestern mit großer Begeisterung Informatik an der TU München.",
+      "translation": {
+        "ru": "Я уже два семестра с огромным воодушевлением изучаю информатику в Мюнхенском техническом университете.",
+        "en": "I have been studying computer science at TU Munich with great enthusiasm for two semesters."
+      },
+      "bracket_parts": [
+        "studiere"
+      ],
+      "akkusativ_parts": [
+        "Informatik"
+      ],
+      "dativ_parts": [
+        "an der TU München"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Studierst du nach dem Abitur eigentlich Humanmedizin oder Pharmazie in Heidelberg?",
+      "translation": {
+        "ru": "Изучаешь ли ты после окончания школы на самом деле общую медицину или фармацию в Гейдельберге?",
+        "en": "Are you actually studying human medicine or pharmacy in Heidelberg after graduating from school?"
+      },
+      "bracket_parts": [
+        "Studierst"
+      ],
+      "akkusativ_parts": [
+        "Humanmedizin oder Pharmazie"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die fleißige Studentin studiert täglich viele Stunden in der modernen Universitätsbibliothek.",
+      "translation": {
+        "ru": "Прилежная студентка ежедневно занимается много часов в современной университетской библиотеке.",
+        "en": "The hardworking student studies for many hours every day in the modern university library."
+      },
+      "bracket_parts": [
+        "studiert"
+      ],
+      "dativ_parts": [
+        "in der modernen Universitätsbibliothek"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir studieren als internationale Lerngruppe gemeinsam für die anspruchsvolle Abschlussklausur.",
+      "translation": {
+        "ru": "Как международная учебная группа мы вместе занимаемся для сложного выпускного экзамена.",
+        "en": "As an international study group, we study together for the demanding final exam."
+      },
+      "bracket_parts": [
+        "studieren"
+      ],
+      "akkusativ_parts": [
+        "für die anspruchsvolle Abschlussklausur"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Studiert ihr an der Kunsthochschule freie Malerei oder zeitgenössisches Grafikdesign?",
+      "translation": {
+        "ru": "Изучаете ли вы в академии искусств свободную живопись или современный графический дизайн?",
+        "en": "Are you studying fine art painting or contemporary graphic design at the art academy?"
+      },
+      "bracket_parts": [
+        "Studiert"
+      ],
+      "dativ_parts": [
+        "an der Kunsthochschule"
+      ],
+      "akkusativ_parts": [
+        "freie Malerei oder zeitgenössisches Grafikdesign"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals studierte der berühmte Philosoph jahrelang klassische Literatur in Berlin.",
+      "translation": {
+        "ru": "В те времена знаменитый философ годами изучал классическую литературу в Берлине.",
+        "en": "At that time the famous philosopher studied classical literature in Berlin for years."
+      },
+      "bracket_parts": [
+        "studierte"
+      ],
+      "akkusativ_parts": [
+        "klassische Literatur"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Mein älterer Bruder hat fünf Jahre lang Betriebswirtschaftslehre in Köln studiert.",
+      "translation": {
+        "ru": "Мой старший брат пять лет изучал экономику предприятия в Кёльне.",
+        "en": "My older brother studied business administration in Cologne for five years."
+      },
+      "bracket_parts": [
+        "hat",
+        "studiert"
+      ],
+      "akkusativ_parts": [
+        "Betriebswirtschaftslehre"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Studieren Sie die Vertragsbedingungen vor der Unterschrift bitte ganz genau!",
+      "translation": {
+        "ru": "Изучите условия договора перед подписью, пожалуйста, очень внимательно!",
+        "en": "Please study the contract terms very carefully before signing!"
+      },
+      "bracket_parts": [
+        "Studieren"
+      ],
+      "akkusativ_parts": [
+        "die Vertragsbedingungen"
+      ],
+      "dativ_parts": [
+        "vor der Unterschrift"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "zunehmen",
+  "infinitive": "zunehmen",
+  "translation": {
+    "ru": "увеличиваться, прибавлять в весе",
+    "en": "to increase, to gain weight"
+  },
+  "level": "A2",
+  "frequency_rank": 120,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "zu",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zunehmen",
+    "present_3sg": "nimmt zu",
+    "praeteritum_3sg": "nahm zu",
+    "partizip_2": "zugenommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "nehme zu",
+      "du": "nimmst zu",
+      "er_sie_es": "nimmt zu",
+      "wir": "nehmen zu",
+      "ihr": "nehmt zu",
+      "sie_Sie": "nehmen zu",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "nahm zu",
+      "du": "nahmst zu",
+      "er_sie_es": "nahm zu",
+      "wir": "nahmen zu",
+      "ihr": "nahmt zu",
+      "sie_Sie": "nahmen zu"
+    },
+    "imperative": {
+      "du": "nimm zu",
+      "ihr": "nehmt zu",
+      "Sie": "nehmen Sie zu"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "an Gewicht zunehmen",
+  "sentences": [
+    {
+      "id": "zunehmen_1",
+      "tense": "Präsens",
+      "german": "Ich nehme im Winter immer ein paar Kilo zu.",
+      "translation": {
+        "ru": "Зимой я всегда прибавляю пару килограммов.",
+        "en": "I always gain a few pounds in winter."
+      },
+      "bracket_parts": [
+        "nehme",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "ein paar Kilo"
+      ]
+    },
+    {
+      "id": "zunehmen_2",
+      "tense": "Präsens",
+      "german": "Nimmst du durch das viele Training an Muskelmasse zu?",
+      "translation": {
+        "ru": "Ты набираешь мышечную массу от частых тренировок?",
+        "en": "Are you gaining muscle mass from all the training?"
+      },
+      "bracket_parts": [
+        "Nimmst",
+        "zu"
+      ]
+    },
+    {
+      "id": "zunehmen_3",
+      "tense": "Präsens",
+      "german": "Der Verkehr auf den Straßen nimmt täglich zu.",
+      "translation": {
+        "ru": "Движение на улицах растет с каждым днем.",
+        "en": "Traffic on the streets is increasing daily."
+      },
+      "bracket_parts": [
+        "nimmt",
+        "zu"
+      ]
+    },
+    {
+      "id": "zunehmen_4",
+      "tense": "Präsens",
+      "german": "Wir nehmen an Erfahrung und Weisheit stetig zu.",
+      "translation": {
+        "ru": "Мы непрерывно прибавляем в опыте и мудрости.",
+        "en": "We are steadily gaining in experience and wisdom."
+      },
+      "bracket_parts": [
+        "nehmen",
+        "zu"
+      ]
+    },
+    {
+      "id": "zunehmen_5",
+      "tense": "Präsens",
+      "german": "Nehmt ihr an Wissen und Erfahrung spürbar zu?",
+      "translation": {
+        "ru": "Вы ощутимо прибавляете в знаниях и опыте?",
+        "en": "Are you noticeably gaining knowledge and experience?"
+      },
+      "bracket_parts": [
+        "Nehmt",
+        "zu"
+      ]
+    },
+    {
+      "id": "zunehmen_6",
+      "tense": "Präteritum",
+      "german": "Der Wind nahm während des Sturms stetig zu.",
+      "translation": {
+        "ru": "Ветер во время бури непрерывно усиливался.",
+        "en": "The wind increased steadily during the storm."
+      },
+      "bracket_parts": [
+        "nahm",
+        "zu"
+      ]
+    },
+    {
+      "id": "zunehmen_7",
+      "tense": "Perfekt",
+      "german": "Die Bevölkerung dieser Stadt hat stark zugenommen.",
+      "translation": {
+        "ru": "Население этого города сильно увеличилось.",
+        "en": "The population of this city has increased greatly."
+      },
+      "bracket_parts": [
+        "hat",
+        "zugenommen"
+      ]
+    },
+    {
+      "id": "zunehmen_8",
+      "tense": "Imperativ",
+      "german": "Nimm nach der langen Krankheit wieder an Kräften zu!",
+      "translation": {
+        "ru": "Набирайся сил после долгой болезни!",
+        "en": "Regain your strength after the long illness!"
+      },
+      "bracket_parts": [
+        "Nimm",
+        "zu"
+      ]
+    }
+  ]
+}

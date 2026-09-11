@@ -1,4 +1,43 @@
 {
+  "appUpdate": {
+    "title": "به‌روزرسانی در دسترس است",
+    "softMessage": "نسخه جدیدی از das Verb در دسترس است! لطفاً برای بهره‌مندی از آخرین قابلیت‌ها به‌روزرسانی کنید.",
+    "forceMessage": "برای ادامه استفاده از das Verb به یک به‌روزرسانی ضروری نیاز است. لطفاً اکنون به‌روزرسانی کنید.",
+    "button": "به‌روزرسانی",
+    "close": "بستن"
+  },
+  "debugScreen": {
+    "title": "Debug Menu",
+    "sectionState": "App State Summary",
+    "sectionDailyLimit": "Daily Quiz Limit",
+    "sectionStreak": "Daily Streak",
+    "sectionSettings": "Settings & Storage",
+    "sectionAppUpdate": "App Update Dialog",
+    "sectionReview": "In-App Review & Rating",
+    "dailyQuizzes": "Completed quizzes today: {count} / {limit}",
+    "totalQuizzes": "Total completed quizzes: {count}",
+    "extraQuizzes": "Extra quizzes available: {count}",
+    "adGrants": "Ad grants today: {count} / {limit}",
+    "streakSummary": "Current streak: {streak} days (Best: {best})",
+    "resetDailyLimit": "Reset Daily Limit",
+    "grantExtraQuiz": "Grant +1 Extra Quiz",
+    "consumeQuiz": "Consume 1 Daily Quiz",
+    "resetStreak": "Reset Streak",
+    "incrementStreak": "Increment Streak (+1 Day)",
+    "resetAllSettings": "Reset Settings to Default",
+    "triggerSoftUpdate": "Trigger Soft Update (Dismissible)",
+    "triggerForceUpdate": "Trigger Force Update (Blocking)",
+    "resetUpdateState": "Reset Update State",
+    "triggerReview": "Trigger In-App Review (StoreReview)",
+    "resetReviewCooldown": "Reset Review Cooldown",
+    "addCompletedQuizzes": "Add +5 Completed Quizzes",
+    "alertSuccess": "Success",
+    "dailyLimitResetSuccess": "Daily quiz limits have been reset.",
+    "streakResetSuccess": "Streak data has been reset.",
+    "settingsResetSuccess": "All settings have been reset to defaults.",
+    "reviewTriggerSuccess": "Store review requested to OS.",
+    "reviewCooldownResetSuccess": "Review prompt cooldown reset."
+  },
   "navigation": {
     "practice": "تمرین",
     "dictionary": "دیکشنری"
@@ -9,26 +48,70 @@
   },
   "practiceScreen": {
     "title": "تمرین",
-    "subtitle": "صرف افعال آلمانی را تمرین کنید",
+    "subtitle": "افعال، صرف و ساختار جملات را تمرین کنید",
     "levelsButtonTitle": "تمرین افعال",
     "levelsButtonSubtitle": "افعال را از A1 تا B2 یاد بگیرید",
     "featuredBadge": "ویژه",
-    "startNow": "شروع کنید"
+    "startNow": "شروع کنید",
+    "smartQuizBadge": "حالت هوشمند",
+    "smartQuizTitle": "الگوریتم هوشمند",
+    "smartQuizSubtitle": "روی اشتباهات خود تمرکز کنید و ۳ برابر سریع‌تر یاد بگیرید"
+  },
+  "categories": {
+    "sectionTitle": "موضوعات و دسته‌بندی‌ها",
+    "sectionSubtitle": "تمرین افعال بر اساس موقعیت‌های واقعی زندگی",
+    "verbsCount": "فعل",
+    "movement": {
+      "title": "حرکت و حمل‌ونقل",
+      "subtitle": "gehen, fahren, fliegen, ankommen..."
+    },
+    "communication": {
+      "title": "ارتباط و گفتار",
+      "subtitle": "sprechen, sagen, fragen, antworten..."
+    },
+    "homeDaily": {
+      "title": "زندگی روزمره و خانه",
+      "subtitle": "wohnen, schlafen, aufstehen, kochen..."
+    },
+    "foodDrink": {
+      "title": "غذا و رستوران",
+      "subtitle": "essen, trinken, bestellen, probieren..."
+    },
+    "workStudy": {
+      "title": "کار و تحصیل",
+      "subtitle": "arbeiten, lernen, studieren, schreiben..."
+    },
+    "shoppingMoney": {
+      "title": "خرید و پول",
+      "subtitle": "kaufen, bezahlen, kosten, sparen..."
+    },
+    "thoughtsFeelings": {
+      "title": "افکار و احساسات",
+      "subtitle": "denken, glauben, fühlen, lieben..."
+    },
+    "leisureHobbies": {
+      "title": "اوقات فراغت و سرگرمی",
+      "subtitle": "spielen, reisen, schwimmen, wandern..."
+    },
+    "health": {
+      "title": "سلامتی و تندرستی",
+      "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    }
   },
   "dictionaryScreen": {
     "title": "دیکشنری",
     "searchPlaceholder": "جستجوی افعال...",
-    "emptySearch": "هیچ فعلی یافت نشد",
-    "stammformen": "اشکال اصلی فعل",
+    "emptySearch": "فعلی یافت نشد",
+    "stammformen": "فرم‌های اصلی",
     "infinitive": "مصدر (Infinitiv)",
-    "present3sg": "Präsens",
-    "praeteritum3sg": "زمان گذشته (Präteritum)",
-    "perfekt": "Perfekt",
+    "present3sg": "زمان حال (Präsens)",
+    "praeteritum3sg": "گذشته ساده (Präteritum)",
+    "perfekt": "گذشته کامل (Perfekt)",
     "conjugation": "صرف فعل",
     "person": "شخص",
     "present": "Präsens",
     "praeteritum": "Präteritum",
-    "rektion": "حروف اضافه و مفعول (Rektion)",
+    "rektion": "حروف اضافه و حالت‌ها (Rektion)",
     "imperative": "حالت امری (Imperativ)",
     "examples": "مثال‌ها"
   },
@@ -38,14 +121,26 @@
     "audioSection": "صدا",
     "supportSection": "پشتیبانی",
     "appLanguage": "زبان برنامه",
-    "theme": "طرح زمینه",
+    "theme": "پوسته",
     "themeLight": "روشن",
     "themeDark": "تاریک",
     "themeSystem": "سیستم",
     "notifications": "اعلان‌ها",
-    "soundEffects": "جلوه‌های صوتی",
+    "soundEffects": "افکت‌های صوتی",
+    "speakOnCorrectAnswer": "تلفظ پاسخ صحیح",
+    "voiceGender": "صدا",
+    "voiceFemale": "زن",
+    "voiceMale": "مرد",
+    "maleVoiceHint": "برای استفاده از صدای مرد آلمانی، آن را در تنظیمات iOS ← دسترس‌پذیری ← محتوای خوانده‌شده ← صداها ← آلمانی نصب کنید.",
     "contactUs": "تماس با ما",
-    "version": "نسخه"
+    "version": "نسخه",
+    "notificationsPermissionRequiredTitle": "فعال‌سازی اعلان‌ها",
+    "notificationsPermissionRequiredMessage": "برای دریافت یادآورهای تمرین روزانه و حفظ استریک، لطفاً اعلان‌ها را در تنظیمات دستگاه خود فعال کنید.",
+    "openSettings": "تنظیمات",
+    "cancel": "لغو"
+  },
+  "quizSettingsModal": {
+    "title": "تنظیمات آزمون"
   },
   "verbsPracticeListScreen": {
     "title": "تمرین افعال",
@@ -55,38 +150,212 @@
     "bronze": "برنز",
     "silver": "نقره",
     "trophy": "جام",
-    "empty": "هیچ فعلی یافت نشد",
-    "checkpointTitle": "آزمون میان‌دوره‌ای {number}",
-    "checkpointSubtitle": "مرور · افعال {from}–{to}",
-    "checkpointBadge": "10 تمرین"
+    "empty": "فعلی یافت نشد",
+    "checkpointTitle": "آزمون ارزیابی",
+    "finalTestTitle": "آزمون نهایی"
   },
   "verbQuizScreen": {
     "title": "تمرین",
-    "checkpointQuizTitle": "آزمون میان‌دوره‌ای {number}",
+    "checkpointQuizTitle": "آزمون ارزیابی",
+    "smartQuizTitle": "آزمون هوشمند",
     "level": "سطح",
     "check": "بررسی",
     "continue": "ادامه",
     "exercise": "تمرین",
-    "correct": "درست!",
+    "correct": "درست است!",
     "tryAgain": "دوباره امتحان کنید",
     "fillCard": "کارت را پر کنید",
-    "tapToContinue": "برای ادامه هر جا ضربه بزنید",
+    "tapToContinue": "برای ادامه روی صفحه ضربه بزنید",
     "correctAnswer": "پاسخ صحیح:",
-    "conjugationPräsens": "صرف فعل در Präsens",
-    "principalParts": "فرم‌های اصلی فعل",
-    "imperativeForms": "حالت امری",
-    "auxiliaryExplanationMovement": "فعل {verb} نشان‌دهنده حرکت یا تغییر حالت است، بنابراین زمان Perfekt با فعل کمکی sein ({form}) ساخته می‌شود.",
-    "auxiliaryExplanationGeneral": "زمان Perfekt برای فعل {verb} با فعل کمکی haben ({form}) ساخته می‌شود."
+    "conjugationPräsens": "صرف در Präsens",
+    "principalParts": "فرم‌های اصلی",
+    "imperativeForms": "فرم‌های امری",
+    "auxiliaryExplanationMovement": "فعل {verb} بیانگر حرکت یا تغییر وضعیت است، بنابراین Perfekt را با sein ({form}) می‌سازد.",
+    "auxiliaryExplanationGeneral": "فعل {verb} زمان Perfekt را با فعل کمکی haben ({form}) می‌سازد."
   },
   "quizResultsScreen": {
     "title": "نتایج",
-    "checkpointResultsTitle": "نتایج آزمون",
-    "canDoBetter": "می‌توانید بهتر انجام دهید!",
+    "checkpointResultsTitle": "نتایج آزمون ارزیابی",
+    "smartQuizResultsTitle": "نتایج آزمون هوشمند",
+    "canDoBetter": "می‌توانید بهتر عمل کنید!",
     "almostThere": "تقریباً تمام است!",
     "closeToPerfection": "نزدیک به عالی!",
-    "youDidIt": "شما موفق شدید!",
-    "tryAgain": "دوباره امتحان کنید",
-    "verbsList": "لیست افعال",
+    "youDidIt": "موفق شدید!",
+    "nextLevel": "سطح بعدی",
+    "tryAgain": "تلاش دوباره",
+    "verbsList": "به لیست افعال",
+    "backToPractice": "بازگشت به تمرین",
     "scoreSummary": "{correct} از {total}"
+  },
+  "dailyQuizLimitModal": {
+    "title": "پیشرفت عالی!",
+    "message": "شما واقعا مصمم به یادگیری آلمانی هستید!",
+    "instructions": "چگونه می‌خواهید ادامه دهید؟",
+    "videoButton": "تماشای تبلیغات",
+    "or": "یا",
+    "premiumButtonWithTrial": "سطوح نامحدود رایگان\nبرای {daysLabel}",
+    "premiumButtonNoTrial": "دریافت Premium",
+    "premiumButtonSubtitleWithTrial": "سپس {yearlyPrice} در سال (☕️ / ماه)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} در سال (☕️ / ماه)",
+    "waitUntilTomorrow": "تا فردا صبر کنید",
+    "cancelAnytime": "لغو در هر زمان"
+  },
+  "premiumSheets": {
+    "subscribeTitle": "باز کردن Premium",
+    "subscribeSubtitle": "یادگیری افعال آلمانی خود را با ابزارهای پیشرفته متحول کنید.",
+    "subscribeNow": "اشتراک ویژه",
+    "buyNow": "خرید",
+    "viewPlans": "مشاهده پلن‌ها",
+    "premiumFeaturesLabel": "ویژگی‌های پرمیوم",
+    "disclaimerAutoRenew": "تمدید خودکار با قیمت {price}/{period}. هر زمان که بخواهید می‌توانید در تنظیمات حساب خود لغو کنید.",
+    "disclaimerAutoRenewTrial": "{trialDuration} رایگان، سپس {price}/{period}. هر زمان لغو کنید.",
+    "disclaimerOneTime": "خرید یک‌باره. بدون هزینه تکراری.",
+    "freeTrialDays": "{count} روز آزمایشی رایگان",
+    "freeTrialWeeks": "{count} هفته آزمایشی رایگان",
+    "freeTrialMonths": "{count} ماه آزمایشی رایگان",
+    "freeTrialYears": "{count} سال آزمایشی رایگان",
+    "trialUnit": {
+      "day": "روز",
+      "week": "هفته",
+      "month": "ماه",
+      "year": "سال"
+    },
+    "periodMonth": "ماه",
+    "periodYear": "سال",
+    "restorePurchases": "بازیابی خریدها",
+    "errorTitle": "خطا",
+    "errorUnavailable": "این پلن در حال حاضر در دسترس نیست. لطفاً بعداً دوباره امتحان کنید.",
+    "errorPurchase": "خرید ناموفق بود. لطفاً دوباره امتحان کنید.",
+    "errorRestore": "بازیابی ناموفق بود. لطفاً دوباره امتحان کنید.",
+    "restoreSuccessTitle": "بازیابی شد!",
+    "restoreSuccessMessage": "دسترسی پرمیوم شما بازیابی شد.",
+    "restoreNothingTitle": "خریدی یافت نشد",
+    "restoreNothingMessage": "ما هیچ خرید قبلی برای بازیابی پیدا نکردیم.",
+    "termsOfService": "شرایط خدمات",
+    "privacyPolicy": "سیاست حریم خصوصی",
+    "plans": {
+      "monthlyLabel": "۱ ماهه",
+      "monthlyPer": "ماهانه",
+      "yearlyLabel": "۱۲ ماهه",
+      "yearlyBadge": "بهترین ارزش",
+      "perMonth": "{price}/ماه",
+      "lifetimeLabel": "مادام‌العمر",
+      "lifetimePer": "پرداخت یک‌باره",
+      "lifetimeBadge": "یک‌باره"
+    },
+    "features": {
+      "noAdsTitle": "بدون تبلیغات",
+      "noAdsShort": "بدون\nتبلیغات",
+      "noAdsDescription": "با تمرکز کامل و بدون مزاحمت یاد بگیرید.",
+      "unlimitedQuizzesTitle": "آزمون‌های نامحدود",
+      "unlimitedQuizzesShort": "آزمون‌های\nنامحدود",
+      "unlimitedQuizzesDescription": "بدون محدودیت روزانه هر چقدر می‌خواهید تمرین کنید.",
+      "allLevelsTitle": "All Levels Unlocked",
+      "allLevelsShort": "All\nLevels",
+      "allLevelsDescription": "دسترسی فوری به تمام سطوح افعال A1-B2 و آزمون‌ها.",
+      "smartQuizModeTitle": "الگوریتم هوشمند",
+      "smartQuizModeShort": "الگوریتم\nهوشمند",
+      "smartQuizModeDescription": "فقط روی اشتباهات خود تمرکز کنید و ۳ برابر سریع‌تر یاد بگیرید!",
+      "naturalVoiceTitle": "صداهای طبیعی",
+      "naturalVoiceShort": "صداهای\nطبیعی",
+      "naturalVoiceDescription": "به افعال و جملات با تلفظ طبیعی زبان آلمانی گوش دهید.",
+      "unlimitedCustomListsAndWordsTitle": "ساخت لیست‌های دلخواه",
+      "unlimitedCustomListsAndWordsShort": "لیست‌ کلمات\nدلخواه",
+      "unlimitedCustomListsAndWordsDescription": "کلمات نامحدود اضافه کنید و دقیقاً همان لغاتی را که نیاز دارید تمرین کنید.",
+      "photoScannerTitle": "تصویر به کلمات",
+      "photoScannerShort": "تصویر به\nکلمات",
+      "photoScannerDescription": "اسم‌های آلمانی را فوراً از عکس‌ها با استفاده از هوش مصنوعی وارد کنید."
+    },
+    "trialTitle": "دوره آزمایشی ۳ روزه پرمیوم شما فعال است",
+    "trialSubtitle": "با ابزارهای یادگیری قدرتمند و بدون تبلیغات، سریع‌ترین پیشرفت را تجربه کنید.",
+    "trialCta": "بزن بریم!"
+  },
+  "notifications": {
+    "reminderTitle": "زمان تمرین است!",
+    "reminderBody": "یک جلسه کوتاه با افعال و ساختار جملات آلمانی به تسلط شما کمک می‌کند.",
+    "trialReminderTitle": "دوره آزمایشی رایگان شما به زودی به پایان می‌رسد",
+    "trialReminderBody": "امروز از Premium نهایت استفاده را ببرید! دوره آزمایشی شما در 24 ساعت آینده به پایان می‌رسد.",
+    "streakReminderTitle": "استریک خود را حفظ کنید! 🔥",
+    "streakReminderBody": "امروز هنوز تمرین نکرده‌اید. یک آزمون سریع ۲ دقیقه‌ای بدهید تا استریک شما حفظ شود!"
+  },
+  "firstOpenPaywall": {
+    "trialBadge": "آزمایشی · 3 روز",
+    "title": "قبل از پرداخت Premium را امتحان کنید",
+    "subtitle": "نحوه کار آزمایش رایگان شما.",
+    "cta": "شروع رایگان Premium",
+    "restore": "بازیابی خریدها",
+    "proceedLimited": "ادامه با نسخه محدود",
+    "priceYearlyWithCoffee": "{price}/سال، یک فنجان قهوه/ماه",
+    "disclaimer": "تمدید خودکار با {price}/سال. لغو در هر زمان در تنظیمات حساب.",
+    "disclaimerFallback": "تمدید خودکار سالانه. لغو در هر زمان در تنظیمات حساب.",
+    "priceWithTrial": "رایگان برای {trialDuration}، سپس {price}/سال",
+    "priceYearly": "{price}/سال",
+    "timeline": {
+      "today": {
+        "day": "امروز",
+        "headline": "باز کردن همه چیز",
+        "benefits": {
+          "noAds": {
+            "title": "100% Ad-Free Learning",
+            "text": "Stay focused on your goals with a clean, zero-distraction study experience."
+          },
+          "unlimitedQuizzes": {
+            "title": "Unlimited Quizzes",
+            "text": "Practice as much as you want with no daily limits or waiting."
+          },
+          "allLevels": {
+            "title": "تمام سطوح A1–B2 باز شد",
+            "text": "دسترسی فوری به تمام کارت‌های افعال، ایستگاه‌های گرامر و آزمون‌ها."
+          },
+          "smartQuizMode": {
+            "title": "اصلاح هوشمند اشتباهات",
+            "text": "روی نقاط ضعف خود تمرکز کنید تا افعال آلمانی را ۳ برابر سریع‌تر یاد بگیرید."
+          },
+          "adFree": {
+            "title": "۱۰۰٪ بدون تبلیغات",
+            "text": "با یک تجربه مطالعه تمیز و بدون حواس‌پرتی، کاملاً روی اهداف زبانی خود تمرکز کنید."
+          },
+          "grammar": {
+            "title": "تسلط بر گرامر",
+            "text": "برای ایجاد عادت‌های زبانی، تمرین نامحدود آرتیکل‌ها، صرف‌ها و پسوندها را باز کنید."
+          },
+          "correction": {
+            "title": "اصلاح هوشمند",
+            "text": "هنگام اشتباه، فوراً قوانین و توضیحات را دریافت کنید تا از هر خطایی سریع درس بگیرید."
+          },
+          "translations": {
+            "title": "ترجمه‌های متنی",
+            "text": "برای هر کلمه ترجمه‌های دقیق و بومی دریافت کنید تا هرگز معنی واقعی را از دست ندهید."
+          },
+          "customLists": {
+            "title": "لیست‌های نامحدود",
+            "text": "مجموعه‌های کلمات سفارشی ایجاد کنید تا دایره لغات منحصر به فرد خود را سازماندهی کنید."
+          },
+          "photoScanner": {
+            "title": "اسکنر عکس هوشمند",
+            "text": "فوراً عکس‌های متن را به لیست کلمات سفارشی تبدیل کنید تا محتوای واقعی را مطالعه کنید."
+          },
+          "visualMemory": {
+            "title": "پشتیبانی بصری",
+            "text": "یادگیری خود را با تصاویر واضح که به تثبیت اسم‌ها در ذهن کمک می‌کنند، تقویت کنید."
+          },
+          "voices": {
+            "title": "صدای طبیعی",
+            "text": "با آموزش گوش دادن به صداهای عصبی با کیفیت بالا، مهارت‌های شنیداری کامل را پرورش دهید."
+          }
+        },
+        "description": ""
+      },
+      "day2": {
+        "day": "روز 3",
+        "headline": "به شما یادآوری می‌کنیم",
+        "description": "اعلان دوستانه قبل از پایان دوره آزمایشی - بدون شگفتی."
+      },
+      "day3": {
+        "day": "روز 4",
+        "headline": "شروع اشتراک",
+        "description": "فقط اگر لغو نکنید. در هر زمان در تنظیمات حساب لغو کنید."
+      }
+    }
   }
 }

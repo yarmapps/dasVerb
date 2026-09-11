@@ -1,0 +1,154 @@
+{
+  "id": "aufloesen_sich",
+  "infinitive": "auflösen",
+  "translation": {
+    "ru": "растворяться, рассеиваться",
+    "en": "to dissolve, disperse"
+  },
+  "level": "B1",
+  "frequency_rank": 474,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "auflösen",
+    "present_3sg": "löst sich auf",
+    "praeteritum_3sg": "löste sich auf",
+    "partizip_2": "aufgelöst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "löse mich auf",
+      "du": "löst dich auf",
+      "er_sie_es": "löst sich auf",
+      "wir": "lösen uns auf",
+      "ihr": "löst euch auf",
+      "sie_Sie": "lösen sich auf"
+    },
+    "praeteritum": {
+      "ich": "löste mich auf",
+      "du": "löstest dich auf",
+      "er_sie_es": "löste sich auf",
+      "wir": "lösten uns auf",
+      "ihr": "löstet euch auf",
+      "sie_Sie": "lösten sich auf"
+    },
+    "perfekt": {
+      "ich": "habe mich aufgelöst",
+      "du": "hast dich aufgelöst",
+      "er_sie_es": "hat sich aufgelöst",
+      "wir": "haben uns aufgelöst",
+      "ihr": "habt euch aufgelöst",
+      "sie_Sie": "haben sich aufgelöst"
+    }
+  },
+  "rektion": {
+    "case": "none",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich fühle mich so müde, als löse ich mich gleich auf.",
+      "translation": {
+        "ru": "Я чувствую себя настолько усталым, словно вот-вот растворюсь.",
+        "en": "I feel so tired as if I am dissolving right away."
+      },
+      "bracket_parts": [
+        "löse",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du siehst zu, wie die Tablette sich im Wasser auflöst.",
+      "translation": {
+        "ru": "Ты наблюдаешь, как таблетка растворяется в воде.",
+        "en": "You watch as the tablet dissolves in the water."
+      },
+      "bracket_parts": [
+        "löst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der dichte Morgennebel löst sich bei Sonnenaufgang schnell auf.",
+      "translation": {
+        "ru": "Густой утренний туман быстро рассеивается при восходе солнца.",
+        "en": "The dense morning fog dissolves quickly at sunrise."
+      },
+      "bracket_parts": [
+        "löst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beobachten, wie die Wolken am blauen Himmel sich auflösen.",
+      "translation": {
+        "ru": "Мы наблюдаем, как облака рассеиваются на синем небе.",
+        "en": "We watch as the clouds dissolve in the blue sky."
+      },
+      "bracket_parts": [
+        "lösen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr seht, wie eure Sorgen sich in Luft auflösen.",
+      "translation": {
+        "ru": "Вы видите, как ваши тревоги растворяются в воздухе.",
+        "en": "You see how your worries dissolve into thin air."
+      },
+      "bracket_parts": [
+        "lösen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Menschenmenge löste sich damals nach dem Platzregen rasch auf.",
+      "translation": {
+        "ru": "Толпа людей тогда быстро рассеялась после проливного дождя.",
+        "en": "The crowd dissolved quickly after the downpour back then."
+      },
+      "bracket_parts": [
+        "löste",
+        "auf"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das Problem hat sich nach dem offenen Gespräch von selbst aufgelöst.",
+      "translation": {
+        "ru": "Проблема решилась сама собой после откровенного разговора.",
+        "en": "The problem resolved itself after the open conversation."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgelöst"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Löse dich im warmen Badewasser von allen Sorgen auf!",
+      "translation": {
+        "ru": "Растворись в теплой воде ванны, отпустив все заботы!",
+        "en": "Dissolve away from all worries in the warm bath water!"
+      },
+      "bracket_parts": [
+        "Löse",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

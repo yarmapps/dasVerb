@@ -1,0 +1,192 @@
+{
+  "id": "angehen",
+  "infinitive": "angehen",
+  "translation": {
+    "ru": "касаться (кого-то), браться за (дело), включаться",
+    "en": "to concern, tackle, turn on"
+  },
+  "level": "B1",
+  "frequency_rank": 361,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "angehen",
+    "present_3sg": "geht an",
+    "praeteritum_3sg": "ging an",
+    "partizip_2": "angegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe an",
+      "du": "gehst an",
+      "er_sie_es": "geht an",
+      "wir": "gehen an",
+      "ihr": "geht an",
+      "sie_Sie": "gehen an"
+    },
+    "praeteritum": {
+      "ich": "ging an",
+      "du": "gingst an",
+      "er_sie_es": "ging an",
+      "wir": "gingen an",
+      "ihr": "gingt an",
+      "sie_Sie": "gingen an"
+    },
+    "imperative": {
+      "du": "geh an!",
+      "ihr": "geht an!",
+      "Sie": "gehen Sie an!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das geht mich an",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich gehe diese schwere Aufgabe mit Zuversicht an.",
+      "translation": {
+        "ru": "Я берусь за эту тяжелую задачу с уверенностью.",
+        "en": "I tackle this difficult task with confidence."
+      },
+      "bracket_parts": [
+        "gehe",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "diese schwere Aufgabe"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Das Thema geht dich genauso viel an wie mich.",
+      "translation": {
+        "ru": "Эта тема касается тебя точно так же, как и меня.",
+        "en": "The topic concerns you just as much as me."
+      },
+      "bracket_parts": [
+        "geht",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Seine private Angelegenheit geht niemanden etwas an.",
+      "translation": {
+        "ru": "Его личное дело никого не касается.",
+        "en": "His private affair is none of anyone's business."
+      },
+      "bracket_parts": [
+        "geht",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "niemanden"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir gehen die Renovierung des Hauses endlich gemeinsam an.",
+      "translation": {
+        "ru": "Мы наконец вместе беремся за ремонт дома.",
+        "en": "We are finally tackling the renovation of the house together."
+      },
+      "bracket_parts": [
+        "gehen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Renovierung des Hauses"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Geht ihr die Probleme im Team jetzt offen an?",
+      "translation": {
+        "ru": "Вы открыто беретесь за решение проблем в команде прямо сейчас?",
+        "en": "Are you guys tackling the problems in the team openly now?"
+      },
+      "bracket_parts": [
+        "Geht",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Probleme im Team"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Angelegenheit ging damals alle Bürger der Stadt an.",
+      "translation": {
+        "ru": "Это дело касалось тогда всех жителей города.",
+        "en": "The matter concerned all citizens of the city back then."
+      },
+      "bracket_parts": [
+        "ging",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "alle Bürger der Stadt"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Stadtverwaltung hat das Verkehrsproblem mutig angegangen.",
+      "translation": {
+        "ru": "Городская администрация смело взялась за транспортную проблему.",
+        "en": "The city council tackled the traffic problem bravely."
+      },
+      "bracket_parts": [
+        "hat",
+        "angegangen"
+      ],
+      "akkusativ_parts": [
+        "das Verkehrsproblem"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Geh die Sache bitte ganz ruhig und besonnen an!",
+      "translation": {
+        "ru": "Подойди к делу спокойно и рассудительно, пожалуйста!",
+        "en": "Please approach the matter very calmly and sensibly!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Sache"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

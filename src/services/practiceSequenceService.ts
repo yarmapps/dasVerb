@@ -40,47 +40,66 @@ export async function buildPracticeSequence(): Promise<PracticeSequenceItem[]> {
   const allVerbs = await verbDataService.getVerbsOrderedByDifficulty();
 
   // Group by level and unique infinitive preserving difficulty order
-  const uniqueVerbs: { infinitive: string; level: string }[] = [];
+  const levelMap = new Map<string, { infinitive: string; level: string }[]>();
   const seenInfinitives = new Set<string>();
 
   allVerbs.forEach((verb: VerbCard) => {
     if (!seenInfinitives.has(verb.infinitive)) {
       seenInfinitives.add(verb.infinitive);
-      uniqueVerbs.push({ infinitive: verb.infinitive, level: verb.level });
+      if (!levelMap.has(verb.level)) {
+        levelMap.set(verb.level, []);
+      }
+      levelMap.get(verb.level)!.push({ infinitive: verb.infinitive, level: verb.level });
     }
   });
 
   const sequence: PracticeSequenceItem[] = [];
-  let currentBatch: { infinitive: string; level: string }[] = [];
 
-  uniqueVerbs.forEach((verbItem, index) => {
-    const globalIndex = index + 1;
-    sequence.push({
-      type: 'verb',
-      infinitive: verbItem.infinitive,
-      level: verbItem.level,
-      globalIndex,
-    });
+  levelMap.forEach((verbs, level) => {
+    let currentBatch: { infinitive: string; level: string }[] = [];
 
-    currentBatch.push(verbItem);
-
-    if (globalIndex % 10 === 0) {
-      const checkpointNumber = globalIndex / 10;
-      const checkpointId = `checkpoint-${checkpointNumber}`;
-      const fromIndex = (checkpointNumber - 1) * 10 + 1;
-      const toIndex = checkpointNumber * 10;
-
+    verbs.forEach((verbItem, index) => {
+      const levelIndex = index + 1;
       sequence.push({
-        type: 'checkpoint',
-        checkpointId,
-        checkpointNumber,
-        fromIndex,
-        toIndex,
+        type: 'verb',
+        infinitive: verbItem.infinitive,
         level: verbItem.level,
-        infinitives: currentBatch.map(v => v.infinitive),
+        globalIndex: levelIndex,
       });
 
-      currentBatch = [];
+      currentBatch.push(verbItem);
+
+      if (levelIndex % 10 === 0) {
+        const checkpointNumber = levelIndex / 10;
+        const checkpointId = `checkpoint-${level.toLowerCase()}-${checkpointNumber}`;
+        const fromIndex = (checkpointNumber - 1) * 10 + 1;
+        const toIndex = checkpointNumber * 10;
+
+        sequence.push({
+          type: 'checkpoint',
+          checkpointId,
+          checkpointNumber,
+          fromIndex,
+          toIndex,
+          level,
+          infinitives: currentBatch.map(v => v.infinitive),
+        });
+
+        currentBatch = [];
+      }
+    });
+
+    if (verbs.length > 0) {
+      const finalCheckpointId = `checkpoint-${level.toLowerCase()}-final`;
+      sequence.push({
+        type: 'checkpoint',
+        checkpointId: finalCheckpointId,
+        checkpointNumber: Math.ceil(verbs.length / 10),
+        fromIndex: 1,
+        toIndex: verbs.length,
+        level,
+        infinitives: verbs.map(v => v.infinitive),
+      });
     }
   });
 

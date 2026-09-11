@@ -1,0 +1,200 @@
+{
+  "id": "vermissen",
+  "infinitive": "vermissen",
+  "translation": {
+    "ru": "скучать (по кому-то/чему-то), не досчитываться",
+    "en": "to miss (someone/something)"
+  },
+  "level": "A2",
+  "frequency_rank": 250,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vermissen",
+    "present_3sg": "vermisst",
+    "praeteritum_3sg": "vermisste",
+    "partizip_2": "vermisst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vermisse",
+      "du": "vermisst",
+      "er_sie_es": "vermisst",
+      "wir": "vermissen",
+      "ihr": "vermisst",
+      "sie_Sie": "vermissen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "vermisste",
+      "du": "vermisstest",
+      "er_sie_es": "vermisste",
+      "wir": "vermissten",
+      "ihr": "vermisstet",
+      "sie_Sie": "vermissten"
+    },
+    "imperative": {
+      "du": "vermiss!",
+      "ihr": "vermisst!",
+      "Sie": "vermissen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "seine besten Freunde (Akk) während der Reise vermissen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich vermisse während meines langen Auslandsjahres in Asien meine Familie und Freunde sehr.",
+      "translation": {
+        "ru": "Во время моего долгого года за границей в Азии я очень скучаю по своей семье и друзьям.",
+        "en": "During my long year abroad in Asia I miss my family and friends very much."
+      },
+      "bracket_parts": [
+        "vermisse"
+      ],
+      "akkusativ_parts": [
+        "meine Familie und Freunde"
+      ],
+      "dativ_parts": [
+        "in Asien"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Vermisst du das köstliche selbstgekochte Essen deiner Mutter in deiner Studenten-WG?",
+      "translation": {
+        "ru": "Скучаешь ли ты по вкусной домашней еде своей мамы в своей студенческой квартире?",
+        "en": "Do you miss your mother's delicious home-cooked food in your student flat-share?"
+      },
+      "bracket_parts": [
+        "Vermisst"
+      ],
+      "akkusativ_parts": [
+        "das köstliche selbstgekochte Essen deiner Mutter"
+      ],
+      "dativ_parts": [
+        "in deiner Studenten-WG"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der kleine Junge vermisst seinen treuen Hund schon nach einem einzigen Schultag.",
+      "translation": {
+        "ru": "Маленький мальчик скучает по своей верной собаке уже после одного-единственного школьного дня.",
+        "en": "The little boy misses his faithful dog after just a single school day."
+      },
+      "bracket_parts": [
+        "vermisst"
+      ],
+      "akkusativ_parts": [
+        "seinen treuen Hund"
+      ],
+      "dativ_parts": [
+        "nach einem einzigen Schultag"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir vermissen die warmen und sonnigen Sommertage im nasskalten und grauen November.",
+      "translation": {
+        "ru": "В сыром, холодном и сером ноябре мы скучаем по теплым и солнечным летним дням.",
+        "en": "In wet, cold and grey November we miss the warm and sunny summer days."
+      },
+      "bracket_parts": [
+        "vermissen"
+      ],
+      "akkusativ_parts": [
+        "die warmen und sonnigen Sommertage"
+      ],
+      "dativ_parts": [
+        "im nasskalten und grauen November"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Vermisst ihr nach eurem Umzug aufs Land das reichhaltige Kulturangebot der Großstadt?",
+      "translation": {
+        "ru": "Скучаете ли вы после своего переезда в деревню по богатому культурному предложению мегаполиса?",
+        "en": "Do you miss the rich cultural offerings of the big city after moving to the countryside?"
+      },
+      "bracket_parts": [
+        "Vermisst"
+      ],
+      "akkusativ_parts": [
+        "das reichhaltige Kulturangebot der Großstadt",
+        "aufs Land"
+      ],
+      "dativ_parts": [
+        "nach eurem Umzug"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern vermisste der Reisende am Flughafen plötzlich seine teure Lederbrieftasche.",
+      "translation": {
+        "ru": "Вчера путешественник в аэропорту внезапно не обнаружил (хватился) своего дорогого кожаного бумажника.",
+        "en": "Yesterday the traveller at the airport suddenly missed his expensive leather wallet."
+      },
+      "bracket_parts": [
+        "vermisste"
+      ],
+      "akkusativ_parts": [
+        "seine teure Lederbrieftasche"
+      ],
+      "dativ_parts": [
+        "am Flughafen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Großeltern haben ihre Enkelkinder während der langen Wintermonate schmerzlich vermisst.",
+      "translation": {
+        "ru": "Бабушка и дедушка мучительно скучали по своим внукам в течение долгих зимних месяцев.",
+        "en": "The grandparents sorely missed their grandchildren during the long winter months."
+      },
+      "bracket_parts": [
+        "haben",
+        "vermisst"
+      ],
+      "akkusativ_parts": [
+        "ihre Enkelkinder"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Vermiss uns nicht zu sehr und melde dich bald wieder bei uns!",
+      "translation": {
+        "ru": "Не скучай по нам слишком сильно и свяжись с нами снова в скором времени!",
+        "en": "Don't miss us too much and get in touch with us again soon!"
+      },
+      "bracket_parts": [
+        "Vermiss"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ],
+      "dativ_parts": [
+        "bei uns"
+      ]
+    }
+  ]
+}

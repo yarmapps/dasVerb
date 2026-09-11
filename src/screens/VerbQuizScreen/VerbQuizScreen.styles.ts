@@ -33,17 +33,19 @@ export const createStyles = (colors: ThemeColors) =>
     content: {
       flex: 1,
       justifyContent: 'space-between',
-      paddingBottom: Platform.OS === 'ios' ? Spacing.xxxl : 40,
+    },
+    scrollArea: {
+      flex: 1,
+    },
+    scrollContent: {
+      flexGrow: 1,
+      justifyContent: 'flex-start',
+      paddingTop: Spacing.md,
+      paddingBottom: Spacing.sm,
     },
     topSection: {
       flex: 1,
       justifyContent: 'flex-start',
-      paddingTop: Spacing.xxxl,
-    },
-    feedbackArea: {
-      flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
     },
     sentenceCard: {
       marginHorizontal: Spacing.xl,
@@ -51,7 +53,7 @@ export const createStyles = (colors: ThemeColors) =>
       borderRadius: 18,
       borderWidth: 1,
       borderColor: colors.blockBorder,
-      paddingTop: 18,
+      paddingTop: 16,
       overflow: 'hidden',
       shadowColor: '#000',
       shadowOffset: { width: 0, height: 4 },
@@ -226,19 +228,20 @@ export const createStyles = (colors: ThemeColors) =>
       color: '#EF4444',
     },
     tapToContinueContainer: {
-      minHeight: 128,
+      minHeight: 48,
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
       paddingHorizontal: Spacing.xl,
-      paddingTop: Spacing.lg,
+      paddingTop: 4,
+      paddingBottom: Platform.OS === 'ios' ? 4 : 2,
     },
     tapToContinueIcon: {
-      marginBottom: 14,
+      marginBottom: Spacing.sm,
       opacity: 0.85,
     },
     tapToContinueText: {
-      fontSize: Typography.fontSize.sm,
+      fontSize: 12,
       fontWeight: '500',
       color: colors.textMuted,
       opacity: 0.85,
@@ -246,7 +249,7 @@ export const createStyles = (colors: ThemeColors) =>
     },
     correctAnswerCard: {
       marginHorizontal: Spacing.xl,
-      marginTop: Spacing.lg,
+      marginTop: Spacing.md,
       backgroundColor: colors.blockBackground,
       borderRadius: 14,
       borderWidth: 1,

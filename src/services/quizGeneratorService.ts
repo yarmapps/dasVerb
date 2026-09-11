@@ -12,8 +12,16 @@ export interface SentenceSegment {
   gapIndex?: number;
 }
 
+export interface PrefixGrammarHintData {
+  prefix: string;
+  prefixType: 'separable' | 'inseparable' | 'dual';
+  infinitive: string;
+  ruleExplanationKey: string;
+}
+
 export interface QuizExercise {
   id: string;
+  type?: 'sentence_fill' | 'prefix_dual_slot';
   label: string;
   tense: Tense;
   verbCard: VerbCard;
@@ -21,6 +29,7 @@ export interface QuizExercise {
   segments: SentenceSegment[];
   gaps: QuizGap[];
   translation: Record<string, string>;
+  grammarHint?: PrefixGrammarHintData;
 }
 
 const COMMON_PREFIXES = [
@@ -52,6 +61,12 @@ const COMMON_PREPOSITIONS = [
   'für',
   'um',
 ];
+
+const PREFIX_RULE_MAP: Record<'separable' | 'inseparable' | 'dual', string> = {
+  separable: 'prefixGrammarHint.separableRule',
+  inseparable: 'prefixGrammarHint.inseparableRule',
+  dual: 'prefixGrammarHint.dualRule',
+};
 
 export const AUXILIARY_DISTRACTORS_MAP: Record<string, string[]> = {
   // Standalone Present auxiliaries (haben / sein)
@@ -346,7 +361,185 @@ function createSegmentsAndGapsFromSentence(
   return { segments, gaps };
 }
 
+function createSegmentsAndGapsFromPrefixSentence(
+  sentence: VerbSentence,
+  verbCard: VerbCard,
+): { segments: SentenceSegment[]; gaps: QuizGap[] } | null {
+  const segments: SentenceSegment[] = [];
+  const gaps: QuizGap[] = [];
+
+  const rawGerman = sentence.german.trim();
+  const endsWithPunct = /[.?!]$/.test(rawGerman);
+  const punctuation = endsWithPunct ? rawGerman.slice(-1) : '.';
+  const sentenceBody = endsWithPunct ? rawGerman.slice(0, -1).trimEnd() : rawGerman;
+
+  const isSeparable = verbCard.morphology?.prefix_type === 'separable';
+  const prefix = verbCard.morphology?.prefix || '';
+  const parts = sentence.bracket_parts || [];
+
+  const part0 = parts[0]?.trim() || '';
+  const part1 = isSeparable && parts.length >= 2 ? parts[1]?.trim() || '' : '';
+
+  const lowerBody = sentenceBody.toLowerCase();
+  const lowerPart0 = part0.toLowerCase();
+  const matchIndex0 = lowerBody.indexOf(lowerPart0);
+
+  if (matchIndex0 === -1) {
+    return null;
+  }
+
+  const before0 = sentenceBody.slice(0, matchIndex0);
+  if (before0.trim()) {
+    segments.push(...splitTextIntoWordSegments(before0));
+  }
+
+  const actualPart0 = sentenceBody.slice(matchIndex0, matchIndex0 + part0.length);
+  const isCap0 = /^[A-ZÄÖÜ]/.test(actualPart0);
+
+  // Distractors for Slot 1
+  const slot1Candidates = new Set<string>([actualPart0]);
+  if (isSeparable && prefix) {
+    const joined = prefix + actualPart0.toLowerCase();
+    slot1Candidates.add(isCap0 ? joined.charAt(0).toUpperCase() + joined.slice(1) : joined);
+  } else if (!isSeparable && prefix && actualPart0.toLowerCase().startsWith(prefix.toLowerCase())) {
+    const stripped = actualPart0.slice(prefix.length);
+    if (stripped.length >= 2) {
+      slot1Candidates.add(
+        isCap0 ? stripped.charAt(0).toUpperCase() + stripped.slice(1) : stripped.toLowerCase(),
+      );
+    }
+  }
+  slot1Candidates.add(
+    isCap0
+      ? verbCard.infinitive.charAt(0).toUpperCase() + verbCard.infinitive.slice(1)
+      : verbCard.infinitive.toLowerCase(),
+  );
+
+  const fallbackEndings = ['e', 'st', 't', 'en'];
+  const base = actualPart0.replace(/(st|tet|te|e|t|en)$/, '');
+  for (const ending of fallbackEndings) {
+    if (slot1Candidates.size >= 4) break;
+    const fb = base + ending;
+    if (fb !== actualPart0 && fb.length > 0) {
+      slot1Candidates.add(isCap0 ? fb.charAt(0).toUpperCase() + fb.slice(1) : fb);
+    }
+  }
+
+  gaps.push({
+    id: 'gap_0',
+    correctValue: actualPart0,
+    options: shuffleArray(Array.from(slot1Candidates).slice(0, 4)),
+  });
+  segments.push({ gapIndex: 0 });
+
+  if (isSeparable && part1) {
+    const after0 = sentenceBody.slice(matchIndex0 + part0.length);
+    const lowerAfter0 = after0.toLowerCase();
+    const lowerPart1 = part1.toLowerCase();
+    const matchIndex1 = lowerAfter0.lastIndexOf(lowerPart1);
+
+    if (matchIndex1 !== -1) {
+      const between = after0.slice(0, matchIndex1);
+      if (between.trim()) {
+        segments.push(...splitTextIntoWordSegments(between));
+      }
+
+      const actualPart1 = after0.slice(matchIndex1, matchIndex1 + part1.length);
+      const prefixPool = COMMON_PREFIXES.filter(p => p.toLowerCase() !== actualPart1.toLowerCase());
+      const slot2Candidates = [actualPart1, '—', ...shuffleArray(prefixPool).slice(0, 2)];
+
+      gaps.push({
+        id: 'gap_1',
+        correctValue: actualPart1,
+        options: shuffleArray(slot2Candidates),
+      });
+      segments.push({ gapIndex: 1 });
+
+      const after1 = after0.slice(matchIndex1 + part1.length);
+      if (after1.trim()) {
+        segments.push(...splitTextIntoWordSegments(after1));
+      }
+    } else {
+      if (after0.trim()) segments.push(...splitTextIntoWordSegments(after0));
+    }
+  } else {
+    const after0 = sentenceBody.slice(matchIndex0 + part0.length);
+    if (after0.trim()) {
+      segments.push(...splitTextIntoWordSegments(after0));
+    }
+    const competitorPrefixes = prefix
+      ? [prefix, ...COMMON_PREFIXES.filter(p => p.toLowerCase() !== prefix.toLowerCase())]
+      : COMMON_PREFIXES;
+    const slot2Candidates = ['—', ...shuffleArray(competitorPrefixes).slice(0, 3)];
+    gaps.push({
+      id: 'gap_1',
+      correctValue: '—',
+      options: shuffleArray(slot2Candidates),
+    });
+    segments.push({ gapIndex: 1 });
+  }
+
+  segments.push({ text: punctuation });
+  return { segments, gaps };
+}
+
 export const quizGeneratorService = {
+  generatePrefixExercises(
+    entries: Array<{ verbCard: VerbCard; sentence: VerbSentence }>,
+  ): QuizExercise[] {
+    const exercises: QuizExercise[] = [];
+
+    entries.forEach(({ verbCard, sentence }, index) => {
+      const prefixRes = createSegmentsAndGapsFromPrefixSentence(sentence, verbCard);
+      const prefixType =
+        (verbCard.morphology?.prefix_type as 'separable' | 'inseparable' | 'dual') || 'separable';
+      const ruleKey = PREFIX_RULE_MAP[prefixType] || 'prefixGrammarHint.separableRule';
+
+      const grammarHint: PrefixGrammarHintData = {
+        prefix: verbCard.morphology?.prefix || '',
+        prefixType,
+        infinitive: verbCard.infinitive,
+        ruleExplanationKey: ruleKey,
+      };
+
+      if (prefixRes && prefixRes.gaps.length === 2) {
+        exercises.push({
+          id: `prefix_${verbCard.id || verbCard.infinitive}_${sentence.id || index}`,
+          type: 'prefix_dual_slot',
+          label: `${verbCard.level} · ${verbCard.infinitive.toUpperCase()} · ${sentence.tense.toUpperCase()}`,
+          tense: sentence.tense,
+          verbCard,
+          sentence,
+          segments: prefixRes.segments,
+          gaps: prefixRes.gaps,
+          translation: sentence.translation,
+          grammarHint,
+        });
+      } else {
+        const formsPool = extractVerbFormsPool(verbCard);
+        const { segments, gaps } = createSegmentsAndGapsFromSentence(
+          sentence,
+          formsPool,
+          verbCard.infinitive,
+          verbCard,
+        );
+        exercises.push({
+          id: `prefix_${verbCard.id || verbCard.infinitive}_${sentence.id || index}`,
+          type: 'sentence_fill',
+          label: `${verbCard.level} · ${verbCard.infinitive.toUpperCase()} · ${sentence.tense.toUpperCase()}`,
+          tense: sentence.tense,
+          verbCard,
+          sentence,
+          segments,
+          gaps,
+          translation: sentence.translation,
+          grammarHint,
+        });
+      }
+    });
+
+    return shuffleArray(exercises);
+  },
   generateExercisesForVerb(verb: VerbCard, allVariants: VerbCard[] = [verb]): QuizExercise[] {
     const formsPool = extractVerbFormsPool(verb);
 
@@ -597,6 +790,37 @@ export const quizGeneratorService = {
 
     const exercises: QuizExercise[] = [];
     selectedEntries.forEach(({ sentence, verbCard }, index) => {
+      const isPrefixVerb =
+        verbCard.morphology?.prefix_type && verbCard.morphology.prefix_type !== 'none';
+      if (isPrefixVerb && sentence.tense !== 'Perfekt') {
+        const prefixRes = createSegmentsAndGapsFromPrefixSentence(sentence, verbCard);
+        if (prefixRes && prefixRes.gaps.length === 2) {
+          const prefixType =
+            (verbCard.morphology?.prefix_type as 'separable' | 'inseparable' | 'dual') ||
+            'separable';
+          const ruleKey = PREFIX_RULE_MAP[prefixType] || 'prefixGrammarHint.separableRule';
+
+          exercises.push({
+            id: `smart_sentence_${sentence.id || index}_${verbCard.infinitive}`,
+            type: 'prefix_dual_slot',
+            label: `${verbCard.level} · ${verbCard.infinitive.toUpperCase()} · ${sentence.tense.toUpperCase()}`,
+            tense: sentence.tense,
+            verbCard,
+            sentence,
+            segments: prefixRes.segments,
+            gaps: prefixRes.gaps,
+            translation: sentence.translation,
+            grammarHint: {
+              prefix: verbCard.morphology?.prefix || '',
+              prefixType,
+              infinitive: verbCard.infinitive,
+              ruleExplanationKey: ruleKey,
+            },
+          });
+          return;
+        }
+      }
+
       const formsPool = extractVerbFormsPool(verbCard);
       const { segments, gaps } = createSegmentsAndGapsFromSentence(
         sentence,
@@ -607,6 +831,7 @@ export const quizGeneratorService = {
       if (gaps.length > 0) {
         exercises.push({
           id: `smart_sentence_${sentence.id || index}_${verbCard.infinitive}`,
+          type: 'sentence_fill',
           label: `${verbCard.level} · ${verbCard.infinitive.toUpperCase()} · ${sentence.tense.toUpperCase()}`,
           tense: sentence.tense,
           verbCard,

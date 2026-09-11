@@ -1,0 +1,178 @@
+{
+  "id": "ausfuehren",
+  "infinitive": "ausführen",
+  "translation": {
+    "ru": "выполнять, экспортировать, выгуливать",
+    "en": "to carry out, execute, export"
+  },
+  "level": "B1",
+  "frequency_rank": 475,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ausführen",
+    "present_3sg": "führt aus",
+    "praeteritum_3sg": "führte aus",
+    "partizip_2": "ausgeführt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "führe aus",
+      "du": "führst aus",
+      "er_sie_es": "führt aus",
+      "wir": "führen aus",
+      "ihr": "führt aus",
+      "sie_Sie": "führen aus"
+    },
+    "praeteritum": {
+      "ich": "führte aus",
+      "du": "führtest aus",
+      "er_sie_es": "führte aus",
+      "wir": "führten aus",
+      "ihr": "führtet aus",
+      "sie_Sie": "führten aus"
+    },
+    "perfekt": {
+      "ich": "habe ausgeführt",
+      "du": "hast ausgeführt",
+      "er_sie_es": "hat ausgeführt",
+      "wir": "haben ausgeführt",
+      "ihr": "habt ausgeführt",
+      "sie_Sie": "haben ausgeführt"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich führe jeden Auftrag meines Kunden gewissenhaft aus.",
+      "translation": {
+        "ru": "Я добросовестно выполняю каждый заказ своего клиента.",
+        "en": "I carry out every order from my client conscientiously."
+      },
+      "bracket_parts": [
+        "führe",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "jeden Auftrag meines Kunden"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du führst den kleinen Hund am Abend im Park aus.",
+      "translation": {
+        "ru": "Ты выгуливаешь маленькую собаку вечером в парке.",
+        "en": "You walk the small dog in the park in the evening."
+      },
+      "bracket_parts": [
+        "führst",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "den kleinen Hund"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Computer führt das anspruchsvolle Programm fehlerfrei aus.",
+      "translation": {
+        "ru": "Компьютер безошибочно выполняет сложную программу.",
+        "en": "The computer executes the demanding program without errors."
+      },
+      "bracket_parts": [
+        "führt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "das anspruchsvolle Programm"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir führen hochwertige Maschinen in viele Länder aus.",
+      "translation": {
+        "ru": "Мы экспортируем высококачественные станки во многие страны.",
+        "en": "We export high-quality machines to many countries."
+      },
+      "bracket_parts": [
+        "führen",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "hochwertige Maschinen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr führt alle Anweisungen des Trainers präzise aus.",
+      "translation": {
+        "ru": "Вы точно выполняете все указания тренера.",
+        "en": "You execute all instructions of the trainer precisely."
+      },
+      "bracket_parts": [
+        "führt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "alle Anweisungen des Trainers"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie führten damals den schwierigen Bauplan termingerecht aus.",
+      "translation": {
+        "ru": "Они тогда выполнили трудный план строительства в срок.",
+        "en": "They carried out the difficult building plan on schedule back then."
+      },
+      "bracket_parts": [
+        "führten",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "den schwierigen Bauplan"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Handwerker hat die anfallende Reparatur fachgerecht ausgeführt.",
+      "translation": {
+        "ru": "Мастер профессионально выполнил необходимый ремонт.",
+        "en": "The craftsman performed the necessary repair professionally."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgeführt"
+      ],
+      "akkusativ_parts": [
+        "die anfallende Reparatur"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Führe den Befehl sofort ohne Verzögerung aus!",
+      "translation": {
+        "ru": "Выполни команду немедленно без задержки!",
+        "en": "Execute the command immediately without delay!"
+      },
+      "bracket_parts": [
+        "Führe",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "den Befehl"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

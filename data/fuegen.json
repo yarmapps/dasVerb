@@ -1,0 +1,171 @@
+{
+  "id": "fuegen",
+  "infinitive": "fügen",
+  "translation": {
+    "ru": "соединять, связывать, слагать",
+    "en": "to join, add, fit together"
+  },
+  "level": "B2",
+  "frequency_rank": 477,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "fügen",
+    "present_3sg": "fügt",
+    "praeteritum_3sg": "fügte",
+    "partizip_2": "gefügt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "füge",
+      "du": "fügst",
+      "er_sie_es": "fügt",
+      "wir": "fügen",
+      "ihr": "fügt",
+      "sie_Sie": "fügen"
+    },
+    "praeteritum": {
+      "ich": "fügte",
+      "du": "fügtest",
+      "er_sie_es": "fügte",
+      "wir": "fügten",
+      "ihr": "fügtet",
+      "sie_Sie": "fügten"
+    },
+    "perfekt": {
+      "ich": "habe gefügt",
+      "du": "hast gefügt",
+      "er_sie_es": "hat gefügt",
+      "wir": "haben gefügt",
+      "ihr": "habt gefügt",
+      "sie_Sie": "haben gefügt"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich füge die beiden Holzteile exakt zusammen.",
+      "translation": {
+        "ru": "Я точно соединяю обе деревянные детали.",
+        "en": "I join the two wooden pieces together exactly."
+      },
+      "bracket_parts": [
+        "füge"
+      ],
+      "akkusativ_parts": [
+        "die beiden Holzteile"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du fügst dem Text einen wichtigen Absatz hinzu.",
+      "translation": {
+        "ru": "Ты добавляешь к тексту важный абзац.",
+        "en": "You add an important paragraph to the text."
+      },
+      "bracket_parts": [
+        "fügst"
+      ],
+      "akkusativ_parts": [
+        "einen wichtigen Absatz"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Handwerker fügt Stein an Stein beim Mauerbau.",
+      "translation": {
+        "ru": "Мастер кладет камень к камню при строительстве стены.",
+        "en": "The mason fits stone to stone when building the wall."
+      },
+      "bracket_parts": [
+        "fügt"
+      ],
+      "akkusativ_parts": [
+        "Stein an Stein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir fügen die gesammelten Daten zu einem Bericht.",
+      "translation": {
+        "ru": "Мы сводим собранные данные в один отчет.",
+        "en": "We join the collected data into a report."
+      },
+      "bracket_parts": [
+        "fügen"
+      ],
+      "akkusativ_parts": [
+        "die gesammelten Daten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr fügt die Puzzleteile mit viel Geduld aneinander.",
+      "translation": {
+        "ru": "Вы с большим терпением соединяете кусочки пазла друг с другом.",
+        "en": "You fit the puzzle pieces together with great patience."
+      },
+      "bracket_parts": [
+        "fügt"
+      ],
+      "akkusativ_parts": [
+        "die Puzzleteile"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie fügten damals alle Elemente zu einem Ganzen.",
+      "translation": {
+        "ru": "Они соединили тогда все элементы в единое целое.",
+        "en": "They joined all elements into a single whole back then."
+      },
+      "bracket_parts": [
+        "fügten"
+      ],
+      "akkusativ_parts": [
+        "alle Elemente"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Tischler hat die Holzbretter nahtlos aneinander gefügt.",
+      "translation": {
+        "ru": "Столяр бесшовно подогнал доски друг к другу.",
+        "en": "The carpenter joined the wooden boards together seamlessly."
+      },
+      "bracket_parts": [
+        "hat",
+        "gefügt"
+      ],
+      "akkusativ_parts": [
+        "die Holzbretter"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Füge die Bauteile vorsichtig in die passende Öffnung!",
+      "translation": {
+        "ru": "Осторожно вставь детали в подходящий паз!",
+        "en": "Fit the components carefully into the matching opening!"
+      },
+      "bracket_parts": [
+        "Füge"
+      ],
+      "akkusativ_parts": [
+        "die Bauteile"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

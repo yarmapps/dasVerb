@@ -1,0 +1,175 @@
+{
+  "id": "anhalten",
+  "infinitive": "anhalten",
+  "translation": {
+    "ru": "останавливать, прекращать, длиться",
+    "en": "to stop, halt, last"
+  },
+  "level": "A2",
+  "frequency_rank": 462,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "anhalten",
+    "present_3sg": "hält an",
+    "praeteritum_3sg": "hielt an",
+    "partizip_2": "angehalten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "halte an",
+      "du": "hältst an",
+      "er_sie_es": "hält an",
+      "wir": "halten an",
+      "ihr": "haltet an",
+      "sie_Sie": "halten an"
+    },
+    "praeteritum": {
+      "ich": "hielt an",
+      "du": "hieltst an",
+      "er_sie_es": "hielt an",
+      "wir": "hielten an",
+      "ihr": "hieltet an",
+      "sie_Sie": "hielten an"
+    },
+    "perfekt": {
+      "ich": "habe angehalten",
+      "du": "hast angehalten",
+      "er_sie_es": "hat angehalten",
+      "wir": "haben angehalten",
+      "ihr": "habt angehalten",
+      "sie_Sie": "haben angehalten"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich halte den vollen Bus an der Haltestelle an.",
+      "translation": {
+        "ru": "Я останавливаю полный автобус на остановке.",
+        "en": "I stop the full bus at the bus stop."
+      },
+      "bracket_parts": [
+        "halte",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den vollen Bus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du hältst den rollenden Ball mit dem Fuß an.",
+      "translation": {
+        "ru": "Ты останавливаешь катящийся мяч ногой.",
+        "en": "You stop the rolling ball with your foot."
+      },
+      "bracket_parts": [
+        "hältst",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den rollenden Ball"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Autofahrer hält seinen Wagen vor der roten Ampel an.",
+      "translation": {
+        "ru": "Водитель останавливает машину перед красным светофором.",
+        "en": "The driver stops his car in front of the red light."
+      },
+      "bracket_parts": [
+        "hält",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "seinen Wagen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir halten den Taxifahrer für eine kurze Pause an.",
+      "translation": {
+        "ru": "Мы останавливаем таксиста для короткой паузы.",
+        "en": "We stop the taxi driver for a short break."
+      },
+      "bracket_parts": [
+        "halten",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den Taxifahrer"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr haltet die lauten Maschinen rechtzeitig vor Feierabend an.",
+      "translation": {
+        "ru": "Вы вовремя останавливаете шумные станки перед концом смены.",
+        "en": "You stop the loud machines in good time before the end of the shift."
+      },
+      "bracket_parts": [
+        "haltet",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die lauten Maschinen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie hielten damals an jeder Raststätte für einen Kaffee an.",
+      "translation": {
+        "ru": "Они тогда останавливались у каждой зоны отдыха ради кофе.",
+        "en": "They stopped at every service area for a coffee back then."
+      },
+      "bracket_parts": [
+        "hielten",
+        "an"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Polizei hat gestern viele verdächtige Fahrzeuge angehalten.",
+      "translation": {
+        "ru": "Полиция вчера остановила много подозрительных автомобилей.",
+        "en": "The police stopped many suspicious vehicles yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "angehalten"
+      ],
+      "akkusativ_parts": [
+        "viele verdächtige Fahrzeuge"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Halte das Auto sofort am rechten Straßenrand an!",
+      "translation": {
+        "ru": "Останови автомобиль немедленно у правого края дороги!",
+        "en": "Stop the car immediately at the right edge of the road!"
+      },
+      "bracket_parts": [
+        "Halte",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das Auto"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

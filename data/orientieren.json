@@ -1,0 +1,185 @@
+{
+  "id": "orientieren",
+  "infinitive": "orientieren",
+  "translation": {
+    "ru": "ориентироваться",
+    "en": "to orient oneself, find one's way"
+  },
+  "level": "B1",
+  "frequency_rank": 321,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "orientieren",
+    "present_3sg": "orientiert",
+    "praeteritum_3sg": "orientierte",
+    "partizip_2": "orientiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "orientiere mich",
+      "du": "orientierst dich",
+      "er_sie_es": "orientiert sich",
+      "wir": "orientieren uns",
+      "ihr": "orientiert euch",
+      "sie_Sie": "orientieren sich"
+    },
+    "praeteritum": {
+      "ich": "orientierte mich",
+      "du": "orientiertest dich",
+      "er_sie_es": "orientierte sich",
+      "wir": "orientierten uns",
+      "ihr": "orientiertet euch",
+      "sie_Sie": "orientierten sich"
+    },
+    "imperative": {
+      "du": "orientiere dich!",
+      "ihr": "orientiert euch!",
+      "Sie": "orientieren Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich in einer fremden Stadt orientieren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich orientiere mich in der fremden Stadt mit einem Stadtplan.",
+      "translation": {
+        "ru": "Я ориентируюсь в незнакомом городе по карте.",
+        "en": "I orient myself in the unfamiliar city using a map."
+      },
+      "bracket_parts": [
+        "orientiere"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Orientierst du dich im Wald nach den Himmelsrichtungen?",
+      "translation": {
+        "ru": "Ты ориентируешься в лесу по сторонам света?",
+        "en": "Do you find your way in the forest using cardinal directions?"
+      },
+      "bracket_parts": [
+        "Orientierst"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Wanderer orientiert sich an markanten Bergen und Flüssen.",
+      "translation": {
+        "ru": "Путник ориентируется по приметным горам и рекам.",
+        "en": "The hiker orients himself by prominent mountains and rivers."
+      },
+      "bracket_parts": [
+        "orientiert"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir orientieren uns kurz über die aktuelle Situation auf dem Markt.",
+      "translation": {
+        "ru": "Мы кратко сориентируемся в текущей ситуации на рынке.",
+        "en": "We briefly orient ourselves about the current market situation."
+      },
+      "bracket_parts": [
+        "orientieren"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Orientiert ihr euch auf dem Campus mithilfe der App?",
+      "translation": {
+        "ru": "Вы ориентируетесь в кампусе с помощью приложения?",
+        "en": "Do you find your way around campus using the app?"
+      },
+      "bracket_parts": [
+        "Orientiert"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Kapitän orientierte sich damals nachts an den Sternen.",
+      "translation": {
+        "ru": "Капитан тогда ориентировался ночью по звездам.",
+        "en": "The captain navigated by the stars at night back then."
+      },
+      "bracket_parts": [
+        "orientierte"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Touristen haben sich am großen Turm der Kirche orientiert.",
+      "translation": {
+        "ru": "Туристы сориентировались по большой башне церкви.",
+        "en": "The tourists oriented themselves by the church's large tower."
+      },
+      "bracket_parts": [
+        "haben",
+        "orientiert"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Orientiere dich bitte zuerst auf dem Lageplan des Bahnhofs!",
+      "translation": {
+        "ru": "Сориентируйся сначала по схеме вокзала, пожалуйста!",
+        "en": "Please find your bearings on the station map first!"
+      },
+      "bracket_parts": [
+        "Orientiere"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

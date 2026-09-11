@@ -1,0 +1,193 @@
+{
+  "id": "ersetzen_akk_durch",
+  "infinitive": "ersetzen",
+  "translation": {
+    "ru": "заменять (что-то чем-то)",
+    "en": "to replace (something with something)"
+  },
+  "level": "B1",
+  "frequency_rank": 342,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ersetzen",
+    "present_3sg": "ersetzt",
+    "praeteritum_3sg": "ersetzte",
+    "partizip_2": "ersetzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ersetze",
+      "du": "ersetzt",
+      "er_sie_es": "ersetzt",
+      "wir": "ersetzen",
+      "ihr": "ersetzt",
+      "sie_Sie": "ersetzen"
+    },
+    "praeteritum": {
+      "ich": "ersetzte",
+      "du": "ersetztest",
+      "er_sie_es": "ersetzte",
+      "wir": "ersetzten",
+      "ihr": "ersetztet",
+      "sie_Sie": "ersetzten"
+    },
+    "imperative": {
+      "du": "ersetze!",
+      "ihr": "ersetzt!",
+      "Sie": "ersetzen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "durch",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "etwas durch Neues ersetzen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich ersetze die Butter beim Backen durch pflanzliches Öl.",
+      "translation": {
+        "ru": "При выпечке я заменяю сливочное масло растительным.",
+        "en": "I replace butter with vegetable oil when baking."
+      },
+      "bracket_parts": [
+        "ersetze"
+      ],
+      "akkusativ_parts": [
+        "die Butter",
+        "pflanzliches Öl"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Ersetzt du die alte Gasheizung durch eine moderne Wärmepumpe?",
+      "translation": {
+        "ru": "Ты заменяешь старое газовое отопление современным тепловым насосом?",
+        "en": "Are you replacing the old gas heating with a modern heat pump?"
+      },
+      "bracket_parts": [
+        "Ersetzt"
+      ],
+      "akkusativ_parts": [
+        "die alte Gasheizung",
+        "eine moderne Wärmepumpe"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Firma ersetzt veraltete Maschinen durch vollautomatische Roboter.",
+      "translation": {
+        "ru": "Фирма заменяет устаревшие станки полностью автоматическими роботами.",
+        "en": "The company replaces outdated machines with fully automated robots."
+      },
+      "bracket_parts": [
+        "ersetzt"
+      ],
+      "akkusativ_parts": [
+        "veraltete Maschinen",
+        "vollautomatische Roboter"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir ersetzen Einwegplastik durch umweltfreundliche Materialien.",
+      "translation": {
+        "ru": "Мы заменяем одноразовый пластик экологичными материалами.",
+        "en": "We replace single-use plastic with eco-friendly materials."
+      },
+      "bracket_parts": [
+        "ersetzen"
+      ],
+      "akkusativ_parts": [
+        "Einwegplastik",
+        "umweltfreundliche Materialien"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Ersetzt ihr den Zucker im Tee durch gesunden Honig?",
+      "translation": {
+        "ru": "Вы заменяете сахар в чае полезным медом?",
+        "en": "Do you replace sugar in tea with healthy honey?"
+      },
+      "bracket_parts": [
+        "Ersetzt"
+      ],
+      "akkusativ_parts": [
+        "den Zucker",
+        "gesunden Honig"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Stadt ersetzte damals alte Glühbirnen durch sparsame LEDs.",
+      "translation": {
+        "ru": "Город тогда заменил старые лампы накаливания экономными светодиодами.",
+        "en": "The city replaced old lightbulbs with energy-saving LEDs back then."
+      },
+      "bracket_parts": [
+        "ersetzte"
+      ],
+      "akkusativ_parts": [
+        "alte Glühbirnen",
+        "sparsame LEDs"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die Holzfenster durch neue Kunststofffenster ersetzt.",
+      "translation": {
+        "ru": "Они заменили деревянные окна новыми пластиковыми.",
+        "en": "They have replaced the wooden windows with new plastic windows."
+      },
+      "bracket_parts": [
+        "haben",
+        "ersetzt"
+      ],
+      "akkusativ_parts": [
+        "die Holzfenster",
+        "neue Kunststofffenster"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Ersetze das falsche Wort bitte durch den richtigen Begriff!",
+      "translation": {
+        "ru": "Замени неправильное слово правильным термином, пожалуйста!",
+        "en": "Please replace the incorrect word with the correct term!"
+      },
+      "bracket_parts": [
+        "Ersetze"
+      ],
+      "akkusativ_parts": [
+        "das falsche Wort",
+        "den richtigen Begriff"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

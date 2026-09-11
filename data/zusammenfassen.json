@@ -1,0 +1,178 @@
+{
+  "id": "zusammenfassen",
+  "infinitive": "zusammenfassen",
+  "translation": {
+    "ru": "обобщать, резюмировать, объединять",
+    "en": "to summarize, combine"
+  },
+  "level": "B1",
+  "frequency_rank": 454,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "zusammen",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zusammenfassen",
+    "present_3sg": "fasst zusammen",
+    "praeteritum_3sg": "fasste zusammen",
+    "partizip_2": "zusammengefasst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "fasse zusammen",
+      "du": "fasst zusammen",
+      "er_sie_es": "fasst zusammen",
+      "wir": "fassen zusammen",
+      "ihr": "fasst zusammen",
+      "sie_Sie": "fassen zusammen"
+    },
+    "praeteritum": {
+      "ich": "fasste zusammen",
+      "du": "fasstest zusammen",
+      "er_sie_es": "fasste zusammen",
+      "wir": "fassten zusammen",
+      "ihr": "fasstet zusammen",
+      "sie_Sie": "fassten zusammen"
+    },
+    "perfekt": {
+      "ich": "habe zusammengefasst",
+      "du": "hast zusammengefasst",
+      "er_sie_es": "hat zusammengefasst",
+      "wir": "haben zusammengefasst",
+      "ihr": "habt zusammengefasst",
+      "sie_Sie": "haben zusammengefasst"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich fasse die wichtigsten Punkte des Meetings kurz zusammen.",
+      "translation": {
+        "ru": "Я кратко резюмирую важнейшие пункты встречи.",
+        "en": "I briefly summarize the main points of the meeting."
+      },
+      "bracket_parts": [
+        "fasse",
+        "zusammen"
+      ],
+      "akkusativ_parts": [
+        "die wichtigsten Punkte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du fasst den Inhalt des Kapitels treffend zusammen.",
+      "translation": {
+        "ru": "Ты метко обобщаешь содержание этой главы.",
+        "en": "You summarize the content of the chapter accurately."
+      },
+      "bracket_parts": [
+        "fasst",
+        "zusammen"
+      ],
+      "akkusativ_parts": [
+        "den Inhalt des Kapitels"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Moderatorin fasst das Ergebnis der Debatte zusammen.",
+      "translation": {
+        "ru": "Ведущая подводит итог дебатов.",
+        "en": "The presenter summarizes the outcome of the debate."
+      },
+      "bracket_parts": [
+        "fasst",
+        "zusammen"
+      ],
+      "akkusativ_parts": [
+        "das Ergebnis der Debatte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir fassen die Daten in einer übersichtlichen Tabelle zusammen.",
+      "translation": {
+        "ru": "Мы объединяем данные в наглядной таблице.",
+        "en": "We combine the data in a clear table."
+      },
+      "bracket_parts": [
+        "fassen",
+        "zusammen"
+      ],
+      "akkusativ_parts": [
+        "die Daten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr fasst eure Argumente für die Diskussion zusammen.",
+      "translation": {
+        "ru": "Вы обобщаете свои аргументы для дискуссии.",
+        "en": "You summarize your arguments for the discussion."
+      },
+      "bracket_parts": [
+        "fasst",
+        "zusammen"
+      ],
+      "akkusativ_parts": [
+        "eure Argumente"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie fassten damals alle Erkenntnisse in einem Buch zusammen.",
+      "translation": {
+        "ru": "Они тогда объединили все выводы в одной книге.",
+        "en": "They summarized all findings in a book back then."
+      },
+      "bracket_parts": [
+        "fassten",
+        "zusammen"
+      ],
+      "akkusativ_parts": [
+        "alle Erkenntnisse"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Professor hat die Kernbotschaft der Vorlesung zusammengefasst.",
+      "translation": {
+        "ru": "Профессор подытожил ключевую мысль лекции.",
+        "en": "The professor summarized the core message of the lecture."
+      },
+      "bracket_parts": [
+        "hat",
+        "zusammengefasst"
+      ],
+      "akkusativ_parts": [
+        "die Kernbotschaft der Vorlesung"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Fasse deine Gedanken in zwei klaren Sätzen zusammen!",
+      "translation": {
+        "ru": "Сформулируй свои мысли в двух понятных предложениях!",
+        "en": "Summarize your thoughts in two clear sentences!"
+      },
+      "bracket_parts": [
+        "Fasse",
+        "zusammen"
+      ],
+      "akkusativ_parts": [
+        "deine Gedanken"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

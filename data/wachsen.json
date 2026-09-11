@@ -1,0 +1,154 @@
+{
+  "id": "wachsen",
+  "infinitive": "wachsen",
+  "translation": {
+    "ru": "расти, увеличиваться",
+    "en": "to grow, to increase"
+  },
+  "level": "A2",
+  "frequency_rank": 107,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "wachsen",
+    "present_3sg": "wächst",
+    "praeteritum_3sg": "wuchs",
+    "partizip_2": "gewachsen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wachse",
+      "du": "wächst",
+      "er_sie_es": "wächst",
+      "wir": "wachsen",
+      "ihr": "wachst",
+      "sie_Sie": "wachsen",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "wuchs",
+      "du": "wuchsest",
+      "er_sie_es": "wuchs",
+      "wir": "wuchsen",
+      "ihr": "wuchst",
+      "sie_Sie": "wuchsen"
+    },
+    "imperative": {
+      "du": "wachse",
+      "ihr": "wachst",
+      "Sie": "wachsen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "schnell / heran wachsen",
+  "sentences": [
+    {
+      "id": "wachsen_1",
+      "tense": "Präsens",
+      "german": "Ich wachse jeden Tag an meinen neuen Aufgaben.",
+      "translation": {
+        "ru": "Я каждый день расту благодаря своим новым задачам.",
+        "en": "I grow every day with my new tasks."
+      },
+      "bracket_parts": [
+        "wachse"
+      ]
+    },
+    {
+      "id": "wachsen_2",
+      "tense": "Präsens",
+      "german": "Wächst dein kleiner Sohn wirklich so schnell?",
+      "translation": {
+        "ru": "Твой маленький сын правда так быстро растет?",
+        "en": "Is your little son really growing so fast?"
+      },
+      "bracket_parts": [
+        "Wächst"
+      ]
+    },
+    {
+      "id": "wachsen_3",
+      "tense": "Präsens",
+      "german": "Der Baum im Garten wächst jedes Jahr ein Stück höher.",
+      "translation": {
+        "ru": "Дерево в саду с каждым годом растет немного выше.",
+        "en": "The tree in the garden grows a bit taller every year."
+      },
+      "bracket_parts": [
+        "wächst"
+      ]
+    },
+    {
+      "id": "wachsen_4",
+      "tense": "Präsens",
+      "german": "Wir sehen, wie die Pflanzen im Frühling rasch wachsen.",
+      "translation": {
+        "ru": "Мы видим, как растения весной стремительно растут.",
+        "en": "We see how the plants grow rapidly in spring."
+      },
+      "bracket_parts": [
+        "wachsen"
+      ]
+    },
+    {
+      "id": "wachsen_5",
+      "tense": "Präsens",
+      "german": "Wachst ihr an euren täglichen Herausforderungen?",
+      "translation": {
+        "ru": "Вы растете на своих ежедневных вызовах?",
+        "en": "Are you growing through your daily challenges?"
+      },
+      "bracket_parts": [
+        "Wachst"
+      ]
+    },
+    {
+      "id": "wachsen_6",
+      "tense": "Präteritum",
+      "german": "Die Stadt wuchs in den letzten Jahrzehnten enorm.",
+      "translation": {
+        "ru": "Город невероятно вырос за последние десятилетия.",
+        "en": "The city grew enormously in recent decades."
+      },
+      "bracket_parts": [
+        "wuchs"
+      ]
+    },
+    {
+      "id": "wachsen_7",
+      "tense": "Perfekt",
+      "german": "Mein Neffe ist in diesem Jahr sehr viel gewachsen.",
+      "translation": {
+        "ru": "Мой племянник в этом году очень сильно вырос.",
+        "en": "My nephew has grown a lot this year."
+      },
+      "bracket_parts": [
+        "ist",
+        "gewachsen"
+      ]
+    },
+    {
+      "id": "wachsen_8",
+      "tense": "Imperativ",
+      "german": "Wachse und gedeihe, kleine Blume!",
+      "translation": {
+        "ru": "Расти и цвети, маленький цветочек!",
+        "en": "Grow and flourish, little flower!"
+      },
+      "bracket_parts": [
+        "Wachse"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "erwaehnen",
+  "infinitive": "erwähnen",
+  "translation": {
+    "ru": "упоминать, касаться (темы)",
+    "en": "to mention, bring up"
+  },
+  "level": "B1",
+  "frequency_rank": 243,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erwähnen",
+    "present_3sg": "erwähnt",
+    "praeteritum_3sg": "erwähnte",
+    "partizip_2": "erwähnt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erwähne",
+      "du": "erwähnst",
+      "er_sie_es": "erwähnt",
+      "wir": "erwähnen",
+      "ihr": "erwähnt",
+      "sie_Sie": "erwähnen"
+    },
+    "praeteritum": {
+      "ich": "erwähnte",
+      "du": "erwähntest",
+      "er_sie_es": "erwähnte",
+      "wir": "erwähnten",
+      "ihr": "erwähntet",
+      "sie_Sie": "erwähnten"
+    },
+    "imperative": {
+      "du": "erwähne!",
+      "ihr": "erwähnt!",
+      "Sie": "erwähnen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "nur kurz erwähnen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erwähne diesen Punkt nur ganz am Rande.",
+      "translation": {
+        "ru": "Я упоминаю этот пункт лишь вскользь.",
+        "en": "I mention this point only briefly in passing."
+      },
+      "bracket_parts": [
+        "erwähne"
+      ],
+      "akkusativ_parts": [
+        "diesen Punkt"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erwähnst du deinen früheren Arbeitgeber im Lebenslauf?",
+      "translation": {
+        "ru": "Ты упоминаешь своего прежнего работодателя в резюме?",
+        "en": "Do you mention your former employer in the resume?"
+      },
+      "bracket_parts": [
+        "Erwähnst"
+      ],
+      "akkusativ_parts": [
+        "deinen früheren Arbeitgeber"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Redner erwähnt die Verdienste der Mitarbeiter lobend.",
+      "translation": {
+        "ru": "Оратор с похвалой упоминает заслуги сотрудников.",
+        "en": "The speaker mentions the employees' merits with praise."
+      },
+      "bracket_parts": [
+        "erwähnt"
+      ],
+      "akkusativ_parts": [
+        "die Verdienste der Mitarbeiter"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erwähnen alle Quellen am Ende der wissenschaftlichen Arbeit.",
+      "translation": {
+        "ru": "Мы указываем все источники в конце научной работы.",
+        "en": "We mention all sources at the end of the academic paper."
+      },
+      "bracket_parts": [
+        "erwähnen"
+      ],
+      "akkusativ_parts": [
+        "alle Quellen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erwähnt ihr diese Tatsache in eurem Vortrag?",
+      "translation": {
+        "ru": "Вы упоминаете этот факт в своем докладе?",
+        "en": "Do you guys mention this fact in your presentation?"
+      },
+      "bracket_parts": [
+        "Erwähnt"
+      ],
+      "akkusativ_parts": [
+        "diese Tatsache"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie erwähnten die Vorfälle damals mit keinem Wort.",
+      "translation": {
+        "ru": "Они ни словом не обмолвились тогда об этих происшествиях.",
+        "en": "They did not mention the incidents with a single word back then."
+      },
+      "bracket_parts": [
+        "erwähnten"
+      ],
+      "akkusativ_parts": [
+        "die Vorfälle"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Zeitung hat den Vorfall heute kurz erwähnt.",
+      "translation": {
+        "ru": "Газета сегодня кратко упомянула об этом происшествии.",
+        "en": "The newspaper briefly mentioned the incident today."
+      },
+      "bracket_parts": [
+        "hat",
+        "erwähnt"
+      ],
+      "akkusativ_parts": [
+        "den Vorfall"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erwähne bitte diesen Namen vor den anderen nicht!",
+      "translation": {
+        "ru": "Не называй это имя при других, пожалуйста!",
+        "en": "Please do not mention this name in front of the others!"
+      },
+      "bracket_parts": [
+        "Erwähne"
+      ],
+      "akkusativ_parts": [
+        "diesen Namen"
+      ]
+    }
+  ]
+}

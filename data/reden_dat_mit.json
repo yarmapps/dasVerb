@@ -1,0 +1,178 @@
+{
+  "id": "reden_dat_mit",
+  "infinitive": "reden",
+  "translation": {
+    "ru": "разговаривать с",
+    "en": "to talk to / with"
+  },
+  "level": "A2",
+  "frequency_rank": 76,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "reden",
+    "present_3sg": "redet",
+    "praeteritum_3sg": "redete",
+    "partizip_2": "geredet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "rede",
+      "du": "redest",
+      "er_sie_es": "redet",
+      "wir": "reden",
+      "ihr": "redet",
+      "sie_Sie": "reden",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "redete",
+      "du": "redetest",
+      "er_sie_es": "redete",
+      "wir": "redeten",
+      "ihr": "redetet",
+      "sie_Sie": "redeten"
+    },
+    "imperative": {
+      "du": "rede",
+      "ihr": "redet",
+      "Sie": "reden Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "mit einem Freund (Dat) reden",
+  "sentences": [
+    {
+      "id": "reden_dat_mit_1",
+      "tense": "Präsens",
+      "german": "Ich rede gern mit meiner besten Freundin.",
+      "translation": {
+        "ru": "Я с удовольствием разговариваю со своей лучшей подругой.",
+        "en": "I like talking to my best friend."
+      },
+      "bracket_parts": [
+        "rede"
+      ],
+      "dativ_parts": [
+        "mit meiner besten Freundin"
+      ]
+    },
+    {
+      "id": "reden_dat_mit_2",
+      "tense": "Präsens",
+      "german": "Redest du heute noch mit deinem Chef?",
+      "translation": {
+        "ru": "Ты поговоришь сегодня со своим начальником?",
+        "en": "Are you talking to your boss today?"
+      },
+      "bracket_parts": [
+        "Redest"
+      ],
+      "dativ_parts": [
+        "mit deinem Chef"
+      ]
+    },
+    {
+      "id": "reden_dat_mit_3",
+      "tense": "Präsens",
+      "german": "Er redet immer sehr freundlich mit den Kunden.",
+      "translation": {
+        "ru": "Он всегда очень приветливо разговаривает с клиентами.",
+        "en": "He always speaks very kindly with the customers."
+      },
+      "bracket_parts": [
+        "redet"
+      ],
+      "dativ_parts": [
+        "mit den Kunden"
+      ]
+    },
+    {
+      "id": "reden_dat_mit_4",
+      "tense": "Präsens",
+      "german": "Wir reden offen mit unseren Nachbarn.",
+      "translation": {
+        "ru": "Мы открыто разговариваем с нашими соседями.",
+        "en": "We talk openly with our neighbors."
+      },
+      "bracket_parts": [
+        "reden"
+      ],
+      "dativ_parts": [
+        "mit unseren Nachbarn"
+      ]
+    },
+    {
+      "id": "reden_dat_mit_5",
+      "tense": "Präsens",
+      "german": "Redet ihr oft mit euren Großeltern am Telefon?",
+      "translation": {
+        "ru": "Вы часто разговариваете со своими бабушкой и дедушкой по телефону?",
+        "en": "Do you often talk to your grandparents on the phone?"
+      },
+      "bracket_parts": [
+        "Redet"
+      ],
+      "dativ_parts": [
+        "mit euren Großeltern"
+      ]
+    },
+    {
+      "id": "reden_dat_mit_6",
+      "tense": "Präteritum",
+      "german": "Sie redeten damals stundenlang mit dem Berater.",
+      "translation": {
+        "ru": "Они разговаривали тогда часами с консультантом.",
+        "en": "They talked with the advisor for hours back then."
+      },
+      "bracket_parts": [
+        "redeten"
+      ],
+      "dativ_parts": [
+        "mit dem Berater"
+      ]
+    },
+    {
+      "id": "reden_dat_mit_7",
+      "tense": "Perfekt",
+      "german": "Ich habe gestern ausführlich mit dem Arzt geredet.",
+      "translation": {
+        "ru": "Вчера я подробно поговорил с врачом.",
+        "en": "I talked extensively with the doctor yesterday."
+      },
+      "bracket_parts": [
+        "habe",
+        "geredet"
+      ],
+      "dativ_parts": [
+        "mit dem Arzt"
+      ]
+    },
+    {
+      "id": "reden_dat_mit_8",
+      "tense": "Imperativ",
+      "german": "Rede bitte ruhig mit ihm!",
+      "translation": {
+        "ru": "Поговори с ним спокойно, пожалуйста!",
+        "en": "Please talk to him calmly!"
+      },
+      "bracket_parts": [
+        "Rede"
+      ],
+      "dativ_parts": [
+        "mit ihm"
+      ]
+    }
+  ]
+}

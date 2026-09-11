@@ -1,0 +1,185 @@
+{
+  "id": "besetzen",
+  "infinitive": "besetzen",
+  "translation": {
+    "ru": "занимать (место, должность), оккупировать",
+    "en": "to occupy, fill (position), cast (role)"
+  },
+  "level": "B1",
+  "frequency_rank": 369,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "besetzen",
+    "present_3sg": "besetzt",
+    "praeteritum_3sg": "besetzte",
+    "partizip_2": "besetzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "besetze",
+      "du": "besetzt",
+      "er_sie_es": "besetzt",
+      "wir": "besetzen",
+      "ihr": "besetzt",
+      "sie_Sie": "besetzen"
+    },
+    "praeteritum": {
+      "ich": "besetzte",
+      "du": "besetztest",
+      "er_sie_es": "besetzte",
+      "wir": "besetzten",
+      "ihr": "besetztet",
+      "sie_Sie": "besetzten"
+    },
+    "imperative": {
+      "du": "besetze!",
+      "ihr": "besetzt!",
+      "Sie": "besetzen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine freie Stelle besetzen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich besetze im Zug schnell den freien Fensterplatz.",
+      "translation": {
+        "ru": "Я быстро занимаю в поезде свободное место у окна.",
+        "en": "I quickly take the empty window seat on the train."
+      },
+      "bracket_parts": [
+        "besetze"
+      ],
+      "akkusativ_parts": [
+        "den freien Fensterplatz"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Besetzt du diesen Stuhl am Tisch für deine Freundin?",
+      "translation": {
+        "ru": "Ты занимаешь этот стул за столом для своей подруги?",
+        "en": "Are you saving this chair at the table for your girlfriend?"
+      },
+      "bracket_parts": [
+        "Besetzt"
+      ],
+      "akkusativ_parts": [
+        "diesen Stuhl"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Firma besetzt die offene Führungsposition mit einer internen Kraft.",
+      "translation": {
+        "ru": "Фирма заполняет открытую руководящую должность внутренним кандидатом.",
+        "en": "The company fills the open executive position with an internal hire."
+      },
+      "bracket_parts": [
+        "besetzt"
+      ],
+      "akkusativ_parts": [
+        "die offene Führungsposition"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir besetzen die Hauptrollen im Theaterstück mit jungen Talenten.",
+      "translation": {
+        "ru": "Мы распределяем главные роли в пьесе среди молодых талантов.",
+        "en": "We cast the main roles in the play with young talents."
+      },
+      "bracket_parts": [
+        "besetzen"
+      ],
+      "akkusativ_parts": [
+        "die Hauptrollen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Besetzt ihr die vorderen Reihen im Kino schon vor dem Filmbeginn?",
+      "translation": {
+        "ru": "Вы занимаете передние ряды в кинотеатре еще до начала фильма?",
+        "en": "Are you occupying the front rows in the cinema before the movie starts?"
+      },
+      "bracket_parts": [
+        "Besetzt"
+      ],
+      "akkusativ_parts": [
+        "die vorderen Reihen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Demonstranten besetzten damals friedlich das Universitätsgebäude.",
+      "translation": {
+        "ru": "Демонстранты мирно заняли тогда здание университета.",
+        "en": "The demonstrators peacefully occupied the university building back then."
+      },
+      "bracket_parts": [
+        "besetzten"
+      ],
+      "akkusativ_parts": [
+        "das Universitätsgebäude"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Feindliche Truppen haben die historische Stadt über Monate besetzt.",
+      "translation": {
+        "ru": "Вражеские войска удерживали исторический город месяцами.",
+        "en": "Enemy troops occupied the historic city for months."
+      },
+      "bracket_parts": [
+        "haben",
+        "besetzt"
+      ],
+      "akkusativ_parts": [
+        "die historische Stadt"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Besetze bitte rechtzeitig zwei Plätze für uns im Saal!",
+      "translation": {
+        "ru": "Займи для нас, пожалуйста, вовремя два места в зале!",
+        "en": "Please save two seats for us in the hall in good time!"
+      },
+      "bracket_parts": [
+        "Besetze"
+      ],
+      "akkusativ_parts": [
+        "zwei Plätze"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

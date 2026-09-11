@@ -1,0 +1,161 @@
+{
+  "id": "ausgehen",
+  "infinitive": "ausgehen",
+  "translation": {
+    "ru": "выходить в свет, гаснуть",
+    "en": "to go out, to turn off"
+  },
+  "level": "A2",
+  "frequency_rank": 108,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ausgehen",
+    "present_3sg": "geht aus",
+    "praeteritum_3sg": "ging aus",
+    "partizip_2": "ausgegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe aus",
+      "du": "gehst aus",
+      "er_sie_es": "geht aus",
+      "wir": "gehen aus",
+      "ihr": "geht aus",
+      "sie_Sie": "gehen aus",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "ging aus",
+      "du": "gingst aus",
+      "er_sie_es": "ging aus",
+      "wir": "gingen aus",
+      "ihr": "gingt aus",
+      "sie_Sie": "gingen aus"
+    },
+    "imperative": {
+      "du": "geh aus",
+      "ihr": "geht aus",
+      "Sie": "gehen Sie aus"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "am Abend ausgehen",
+  "sentences": [
+    {
+      "id": "ausgehen_1",
+      "tense": "Präsens",
+      "german": "Ich gehe am Wochenende gern mit Freunden aus.",
+      "translation": {
+        "ru": "Я люблю на выходных выбираться куда-нибудь с друзьями.",
+        "en": "I like going out with friends on the weekend."
+      },
+      "bracket_parts": [
+        "gehe",
+        "aus"
+      ]
+    },
+    {
+      "id": "ausgehen_2",
+      "tense": "Präsens",
+      "german": "Gehst du heute Abend noch in die Stadt aus?",
+      "translation": {
+        "ru": "Ты пойдешь сегодня вечером куда-нибудь в город?",
+        "en": "Are you going out into town tonight?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "aus"
+      ]
+    },
+    {
+      "id": "ausgehen_3",
+      "tense": "Präsens",
+      "german": "Das Licht im Zimmer geht plötzlich von selbst aus.",
+      "translation": {
+        "ru": "Свет в комнате внезапно гаснет сам по себе.",
+        "en": "The light in the room suddenly goes out by itself."
+      },
+      "bracket_parts": [
+        "geht",
+        "aus"
+      ]
+    },
+    {
+      "id": "ausgehen_4",
+      "tense": "Präsens",
+      "german": "Wir gehen freitags oft in ein schönes Restaurant aus.",
+      "translation": {
+        "ru": "По пятницам мы часто ходим в хороший ресторан.",
+        "en": "We often go out to a nice restaurant on Fridays."
+      },
+      "bracket_parts": [
+        "gehen",
+        "aus"
+      ]
+    },
+    {
+      "id": "ausgehen_5",
+      "tense": "Präsens",
+      "german": "Geht ihr nach der Arbeit noch zusammen aus?",
+      "translation": {
+        "ru": "Вы идете после работы куда-нибудь вместе?",
+        "en": "Are you going out together after work?"
+      },
+      "bracket_parts": [
+        "Geht",
+        "aus"
+      ]
+    },
+    {
+      "id": "ausgehen_6",
+      "tense": "Präteritum",
+      "german": "Die Kerzen auf dem Tisch gingen im leichten Wind aus.",
+      "translation": {
+        "ru": "Свечи на столе погасли от легкого ветра.",
+        "en": "The candles on the table went out in the light breeze."
+      },
+      "bracket_parts": [
+        "gingen",
+        "aus"
+      ]
+    },
+    {
+      "id": "ausgehen_7",
+      "tense": "Perfekt",
+      "german": "Ich bin gestern Abend mit meinen Kollegen ausgegangen.",
+      "translation": {
+        "ru": "Вчера вечером я сходил развеяться со своими коллегами.",
+        "en": "I went out with my colleagues yesterday evening."
+      },
+      "bracket_parts": [
+        "bin",
+        "ausgegangen"
+      ]
+    },
+    {
+      "id": "ausgehen_8",
+      "tense": "Imperativ",
+      "german": "Geh heute Abend mal aus und entspanne dich!",
+      "translation": {
+        "ru": "Сходи сегодня куда-нибудь развеяться и отдохни!",
+        "en": "Go out tonight and relax!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "aus"
+      ]
+    }
+  ]
+}

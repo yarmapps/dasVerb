@@ -1,0 +1,189 @@
+{
+  "id": "ueberlegen",
+  "infinitive": "überlegen",
+  "translation": {
+    "ru": "обдумывать, соображать, размышлять",
+    "en": "to consider, think over, reflect"
+  },
+  "level": "A2",
+  "frequency_rank": 242,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "über",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "überlegen",
+    "present_3sg": "überlegt",
+    "praeteritum_3sg": "überlegte",
+    "partizip_2": "überlegt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "überlege",
+      "du": "überlegst",
+      "er_sie_es": "überlegt",
+      "wir": "überlegen",
+      "ihr": "überlegt",
+      "sie_Sie": "überlegen"
+    },
+    "praeteritum": {
+      "ich": "überlegte",
+      "du": "überlegtest",
+      "er_sie_es": "überlegte",
+      "wir": "überlegten",
+      "ihr": "überlegtet",
+      "sie_Sie": "überlegten"
+    },
+    "imperative": {
+      "du": "überlege!",
+      "ihr": "überlegt!",
+      "Sie": "überlegen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich die Sache gut überlegen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich überlege mir die Entscheidung bis morgen ganz in Ruhe.",
+      "translation": {
+        "ru": "Я совершенно спокойно обдумаю решение до завтра.",
+        "en": "I will consider the decision completely calmly until tomorrow."
+      },
+      "bracket_parts": [
+        "überlege"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "die Entscheidung"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Überlegst du dir einen Wechsel der Arbeitsstelle?",
+      "translation": {
+        "ru": "Ты обдумываешь смену места работы?",
+        "en": "Are you considering a change of job?"
+      },
+      "bracket_parts": [
+        "Überlegst"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "einen Wechsel der Arbeitsstelle"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Chef überlegt eine passende Strategie für das neue Jahr.",
+      "translation": {
+        "ru": "Начальник обдумывает подходящую стратегию на новый год.",
+        "en": "The boss is considering a suitable strategy for the new year."
+      },
+      "bracket_parts": [
+        "überlegt"
+      ],
+      "akkusativ_parts": [
+        "eine passende Strategie"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir überlegen jeden Schritt vor der großen Investition.",
+      "translation": {
+        "ru": "Мы обдумываем каждый шаг перед крупной инвестицией.",
+        "en": "We consider every step before the big investment."
+      },
+      "bracket_parts": [
+        "überlegen"
+      ],
+      "akkusativ_parts": [
+        "jeden Schritt"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Überlegt ihr euch das Angebot der Firma gründlich?",
+      "translation": {
+        "ru": "Вы тщательно обдумываете предложение компании?",
+        "en": "Are you guys thoroughly considering the company's offer?"
+      },
+      "bracket_parts": [
+        "Überlegt"
+      ],
+      "dativ_parts": [
+        "euch"
+      ],
+      "akkusativ_parts": [
+        "das Angebot der Firma"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie überlegten lange, bevor sie die Antwort gaben.",
+      "translation": {
+        "ru": "Они долго раздумывали, прежде чем дать ответ.",
+        "en": "They thought for a long time before giving the answer."
+      },
+      "bracket_parts": [
+        "überlegten"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Mein Kollege hat sich die Sache sehr reiflich überlegt.",
+      "translation": {
+        "ru": "Мой коллега очень зрело обдумал это дело.",
+        "en": "My colleague considered the matter very maturely."
+      },
+      "bracket_parts": [
+        "hat",
+        "überlegt"
+      ],
+      "dativ_parts": [
+        "sich"
+      ],
+      "akkusativ_parts": [
+        "die Sache"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Überlege dir deine nächsten Schritte genau!",
+      "translation": {
+        "ru": "Точно обдумай свои следующие шаги!",
+        "en": "Consider your next steps carefully!"
+      },
+      "bracket_parts": [
+        "Überlege"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "deine nächsten Schritte"
+      ]
+    }
+  ]
+}

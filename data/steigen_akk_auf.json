@@ -1,0 +1,178 @@
+{
+  "id": "steigen_akk_auf",
+  "infinitive": "steigen",
+  "translation": {
+    "ru": "подниматься на, взбираться на",
+    "en": "to climb onto, to mount"
+  },
+  "level": "A2",
+  "frequency_rank": 101,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "steigen",
+    "present_3sg": "steigt",
+    "praeteritum_3sg": "stieg",
+    "partizip_2": "gestiegen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "steige",
+      "du": "steigst",
+      "er_sie_es": "steigt",
+      "wir": "steigen",
+      "ihr": "steigt",
+      "sie_Sie": "steigen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "stieg",
+      "du": "stiegst",
+      "er_sie_es": "stieg",
+      "wir": "stiegen",
+      "ihr": "stiegt",
+      "sie_Sie": "stiegen"
+    },
+    "imperative": {
+      "du": "steige",
+      "ihr": "steigt",
+      "Sie": "steigen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "auf den Berg (Akk) steigen",
+  "sentences": [
+    {
+      "id": "steigen_akk_auf_1",
+      "tense": "Präsens",
+      "german": "Ich steige morgens früh auf den Berg.",
+      "translation": {
+        "ru": "Я рано утром поднимаюсь на гору.",
+        "en": "I climb the mountain early in the morning."
+      },
+      "bracket_parts": [
+        "steige"
+      ],
+      "akkusativ_parts": [
+        "auf den Berg"
+      ]
+    },
+    {
+      "id": "steigen_akk_auf_2",
+      "tense": "Präsens",
+      "german": "Steigst du jetzt auf dein Fahrrad?",
+      "translation": {
+        "ru": "Ты сейчас садишься на свой велосипед?",
+        "en": "Are you getting onto your bike now?"
+      },
+      "bracket_parts": [
+        "Steigst"
+      ],
+      "akkusativ_parts": [
+        "auf dein Fahrrad"
+      ]
+    },
+    {
+      "id": "steigen_akk_auf_3",
+      "tense": "Präsens",
+      "german": "Der Reiter steigt geschickt auf das Pferd.",
+      "translation": {
+        "ru": "Всадник ловко садится на лошадь.",
+        "en": "The rider skillfully mounts the horse."
+      },
+      "bracket_parts": [
+        "steigt"
+      ],
+      "akkusativ_parts": [
+        "auf das Pferd"
+      ]
+    },
+    {
+      "id": "steigen_akk_auf_4",
+      "tense": "Präsens",
+      "german": "Wir steigen gemeinsam auf das Dach des Hauses.",
+      "translation": {
+        "ru": "Мы вместе поднимаемся на крышу дома.",
+        "en": "We climb onto the roof of the house together."
+      },
+      "bracket_parts": [
+        "steigen"
+      ],
+      "akkusativ_parts": [
+        "auf das Dach"
+      ]
+    },
+    {
+      "id": "steigen_akk_auf_5",
+      "tense": "Präsens",
+      "german": "Steigt ihr auf diese wackelige Leiter?",
+      "translation": {
+        "ru": "Вы залезаете на эту шаткую стремянку?",
+        "en": "Are you climbing onto this wobbly ladder?"
+      },
+      "bracket_parts": [
+        "Steigt"
+      ],
+      "akkusativ_parts": [
+        "auf diese wackelige Leiter"
+      ]
+    },
+    {
+      "id": "steigen_akk_auf_6",
+      "tense": "Präteritum",
+      "german": "Die Bergsteiger stiegen mutig auf den steilen Gipfel.",
+      "translation": {
+        "ru": "Альпинисты смело поднялись на крутую вершину.",
+        "en": "The mountaineers bravely climbed onto the steep summit."
+      },
+      "bracket_parts": [
+        "stiegen"
+      ],
+      "akkusativ_parts": [
+        "auf den steilen Gipfel"
+      ]
+    },
+    {
+      "id": "steigen_akk_auf_7",
+      "tense": "Perfekt",
+      "german": "Ich bin gestern zum ersten Mal auf ein Snowboard gestiegen.",
+      "translation": {
+        "ru": "Вчера я впервые встал на сноуборд.",
+        "en": "I stepped onto a snowboard for the first time yesterday."
+      },
+      "bracket_parts": [
+        "bin",
+        "gestiegen"
+      ],
+      "akkusativ_parts": [
+        "auf ein Snowboard"
+      ]
+    },
+    {
+      "id": "steigen_akk_auf_8",
+      "tense": "Imperativ",
+      "german": "Steige bitte vorsichtig auf den nassen Felsen!",
+      "translation": {
+        "ru": "Поднимайся, пожалуйста, осторожно на мокрую скалу!",
+        "en": "Please step carefully onto the wet rock!"
+      },
+      "bracket_parts": [
+        "Steige"
+      ],
+      "akkusativ_parts": [
+        "auf den nassen Felsen"
+      ]
+    }
+  ]
+}

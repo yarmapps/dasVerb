@@ -1,0 +1,192 @@
+{
+  "id": "absehen",
+  "infinitive": "absehen",
+  "translation": {
+    "ru": "предвидеть, обозревать",
+    "en": "to foresee, anticipate"
+  },
+  "level": "B2",
+  "frequency_rank": 408,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ab",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "absehen",
+    "present_3sg": "sieht ab",
+    "praeteritum_3sg": "sah ab",
+    "partizip_2": "abgesehen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "sehe ab",
+      "du": "siehst ab",
+      "er_sie_es": "sieht ab",
+      "wir": "sehen ab",
+      "ihr": "seht ab",
+      "sie_Sie": "sehen ab"
+    },
+    "praeteritum": {
+      "ich": "sah ab",
+      "du": "sahst ab",
+      "er_sie_es": "sah ab",
+      "wir": "sahen ab",
+      "ihr": "saht ab",
+      "sie_Sie": "sahen ab"
+    },
+    "imperative": {
+      "du": "sieh ab!",
+      "ihr": "seht ab!",
+      "Sie": "sehen Sie ab!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Folgen nicht absehen können",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich sehe die langfristigen Folgen dieser Krise noch nicht ab.",
+      "translation": {
+        "ru": "Я еще не могу предвидеть долгосрочных последствий этого кризиса.",
+        "en": "I cannot yet foresee the long-term consequences of this crisis."
+      },
+      "bracket_parts": [
+        "sehe",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "die langfristigen Folgen dieser Krise"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Siehst du das Ende dieser schwierigen Verhandlungen schon ab?",
+      "translation": {
+        "ru": "Ты уже предвидишь окончание этих трудных переговоров?",
+        "en": "Do you already foresee the end of these difficult negotiations?"
+      },
+      "bracket_parts": [
+        "Siehst",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "das Ende dieser schwierigen Verhandlungen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Niemand sieht die weitere Entwicklung an den Börsen genau ab.",
+      "translation": {
+        "ru": "Никто точно не предвидит дальнейшего развития событий на биржах.",
+        "en": "Nobody precisely foresees further development on the stock exchanges."
+      },
+      "bracket_parts": [
+        "sieht",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "die weitere Entwicklung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir sehen alle Risiken vor der großen Investition sorgfältig ab.",
+      "translation": {
+        "ru": "Мы тщательно оцениваем все риски перед крупной инвестицией.",
+        "en": "We carefully evaluate all risks before the major investment."
+      },
+      "bracket_parts": [
+        "sehen",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "alle Risiken"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Seht ihr die Gefahren dieses gewagten Experiments rechtzeitig ab?",
+      "translation": {
+        "ru": "Вы вовремя предвидите опасности этого рискованного эксперимента?",
+        "en": "Do you guys foresee the dangers of this daring experiment in time?"
+      },
+      "bracket_parts": [
+        "Seht",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "die Gefahren dieses gewagten Experiments"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Experten sahen damals die verheerende Flut leider nicht ab.",
+      "translation": {
+        "ru": "Эксперты, к сожалению, не предвидели тогда разрушительного наводнения.",
+        "en": "The experts unfortunately did not foresee the devastating flood back then."
+      },
+      "bracket_parts": [
+        "sahen",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "die verheerende Flut"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Vorstand hat die schwere Finanzkrise rechtzeitig abgesehen.",
+      "translation": {
+        "ru": "Правление вовремя предвидело тяжелый финансовый кризис.",
+        "en": "The executive board foresaw the severe financial crisis in time."
+      },
+      "bracket_parts": [
+        "hat",
+        "abgesehen"
+      ],
+      "akkusativ_parts": [
+        "die schwere Finanzkrise"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Sieh bitte die möglichen Konsequenzen deiner Taten rechtzeitig ab!",
+      "translation": {
+        "ru": "Оценивай возможные последствия своих поступков вовремя, пожалуйста!",
+        "en": "Please anticipate the possible consequences of your actions in good time!"
+      },
+      "bracket_parts": [
+        "Sieh",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "die möglichen Konsequenzen deiner Taten"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

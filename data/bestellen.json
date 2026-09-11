@@ -1,0 +1,191 @@
+{
+  "id": "bestellen",
+  "infinitive": "bestellen",
+  "translation": {
+    "ru": "заказывать (еду, товары)",
+    "en": "to order"
+  },
+  "level": "A1",
+  "frequency_rank": 210,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bestellen",
+    "present_3sg": "bestellt",
+    "praeteritum_3sg": "bestellte",
+    "partizip_2": "bestellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bestelle",
+      "du": "bestellst",
+      "er_sie_es": "bestellt",
+      "wir": "bestellen",
+      "ihr": "bestellt",
+      "sie_Sie": "bestellen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "bestellte",
+      "du": "bestelltest",
+      "er_sie_es": "bestellte",
+      "wir": "bestellten",
+      "ihr": "bestelltet",
+      "sie_Sie": "bestellten"
+    },
+    "imperative": {
+      "du": "bestell!",
+      "ihr": "bestellt!",
+      "Sie": "bestellen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine knusprige Pizza / Getränke (Akk) bestellen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich bestelle im italienischen Restaurant gerne eine knusprige Pizza mit frischem Basilikum.",
+      "translation": {
+        "ru": "В итальянском ресторане я с удовольствием заказываю хрустящую пиццу со свежим базиликом.",
+        "en": "In the Italian restaurant I like to order a crispy pizza with fresh basil."
+      },
+      "bracket_parts": [
+        "bestelle"
+      ],
+      "akkusativ_parts": [
+        "eine knusprige Pizza"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Bestellst du dir beim Kellner auch einen großen Cappuccino mit extra viel Milchschaum?",
+      "translation": {
+        "ru": "Закажешь ли ты себе у официанта также большой капучино с очень большим количеством молочной пенки?",
+        "en": "Are you also ordering a large cappuccino with extra milk froth from the waiter?"
+      },
+      "bracket_parts": [
+        "Bestellst"
+      ],
+      "dativ_parts": [
+        "dir",
+        "beim Kellner"
+      ],
+      "akkusativ_parts": [
+        "einen großen Cappuccino"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die hungrige Familie bestellt online ein leckeres Abendessen beim Lieferservice.",
+      "translation": {
+        "ru": "Голодная семья заказывает онлайн вкусный ужин в службе доставки.",
+        "en": "The hungry family orders a delicious dinner online from the delivery service."
+      },
+      "bracket_parts": [
+        "bestellt"
+      ],
+      "akkusativ_parts": [
+        "ein leckeres Abendessen"
+      ],
+      "dativ_parts": [
+        "beim Lieferservice"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir bestellen für unsere kleine Firmenfeier verschiedene kalte und warme Vorspeisen.",
+      "translation": {
+        "ru": "Для нашего небольшого корпоративного праздника мы заказываем различные холодные и горячие закуски.",
+        "en": "For our small company party we are ordering various cold and warm starters."
+      },
+      "bracket_parts": [
+        "bestellen"
+      ],
+      "akkusativ_parts": [
+        "verschiedene kalte und warme Vorspeisen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bestellt ihr eure Fachbücher und Zeitschriften regelmäßig im Internet?",
+      "translation": {
+        "ru": "Заказываете ли вы свои специальные книги и журналы регулярно в интернете?",
+        "en": "Do you order your textbooks and magazines online regularly?"
+      },
+      "bracket_parts": [
+        "Bestellt"
+      ],
+      "akkusativ_parts": [
+        "eure Fachbücher und Zeitschriften"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern bestellte der Gast beim Ober ein Glas erlesenen Rotwein aus Frankreich.",
+      "translation": {
+        "ru": "Вчера гость заказал у официанта бокал изысканного красного вина из Франции.",
+        "en": "Yesterday the guest ordered a glass of exquisite red wine from France from the waiter."
+      },
+      "bracket_parts": [
+        "bestellte"
+      ],
+      "dativ_parts": [
+        "beim Ober"
+      ],
+      "akkusativ_parts": [
+        "ein Glas erlesenen Rotwein"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Firma hat vor wenigen Tagen neue ergonomische Bürostühle für alle Mitarbeiter bestellt.",
+      "translation": {
+        "ru": "Компания несколько дней назад заказала новые эргономичные офисные кресла для всех сотрудников.",
+        "en": "A few days ago the company ordered new ergonomic office chairs for all employees."
+      },
+      "bracket_parts": [
+        "hat",
+        "bestellt"
+      ],
+      "akkusativ_parts": [
+        "neue ergonomische Bürostühle"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Bestellen Sie bitte schöne Grüße an Ihre liebe Familie von mir!",
+      "translation": {
+        "ru": "Передайте, пожалуйста, большой привет вашей дорогой семье от меня!",
+        "en": "Please send my best regards to your lovely family!"
+      },
+      "bracket_parts": [
+        "Bestellen"
+      ],
+      "akkusativ_parts": [
+        "schöne Grüße"
+      ],
+      "dativ_parts": [
+        "an Ihre liebe Familie"
+      ]
+    }
+  ]
+}

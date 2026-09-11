@@ -1,0 +1,154 @@
+{
+  "id": "vergehen",
+  "infinitive": "vergehen",
+  "translation": {
+    "ru": "проходить, протекать (о времени)",
+    "en": "to pass, to elapse (of time)"
+  },
+  "level": "B1",
+  "frequency_rank": 85,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vergehen",
+    "present_3sg": "vergeht",
+    "praeteritum_3sg": "verging",
+    "partizip_2": "vergangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vergehe",
+      "du": "vergehst",
+      "er_sie_es": "vergeht",
+      "wir": "vergehen",
+      "ihr": "vergeht",
+      "sie_Sie": "vergehen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "verging",
+      "du": "vergingst",
+      "er_sie_es": "verging",
+      "wir": "vergingen",
+      "ihr": "vergingt",
+      "sie_Sie": "vergingen"
+    },
+    "imperative": {
+      "du": "vergehe",
+      "ihr": "vergeht",
+      "Sie": "vergehen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "wie im Flug vergehen",
+  "sentences": [
+    {
+      "id": "vergehen_1",
+      "tense": "Präsens",
+      "german": "Ich merke oft gar nicht, wie schnell die Stunden vergehen.",
+      "translation": {
+        "ru": "Я часто даже не замечаю, как быстро проходят часы.",
+        "en": "I often don't even notice how quickly the hours pass."
+      },
+      "bracket_parts": [
+        "vergehen"
+      ]
+    },
+    {
+      "id": "vergehen_2",
+      "tense": "Präsens",
+      "german": "Vergehst du fast vor Ungeduld beim Warten?",
+      "translation": {
+        "ru": "Ты почти сгораешь от нетерпения во время ожидания?",
+        "en": "Are you almost perishing with impatience while waiting?"
+      },
+      "bracket_parts": [
+        "Vergehst"
+      ]
+    },
+    {
+      "id": "vergehen_3",
+      "tense": "Präsens",
+      "german": "Die Zeit vergeht wie im Flug beim Lernen.",
+      "translation": {
+        "ru": "Время пролетает как птица во время учебы.",
+        "en": "Time flies by while studying."
+      },
+      "bracket_parts": [
+        "vergeht"
+      ]
+    },
+    {
+      "id": "vergehen_4",
+      "tense": "Präsens",
+      "german": "Wir sehen erstaunt, wie rasch die Tage vergehen.",
+      "translation": {
+        "ru": "Мы с удивлением видим, как быстро проходят дни.",
+        "en": "We see with astonishment how quickly the days pass."
+      },
+      "bracket_parts": [
+        "vergehen"
+      ]
+    },
+    {
+      "id": "vergehen_5",
+      "tense": "Präsens",
+      "german": "Vergeht euer Urlaub auch immer so blitzschnell?",
+      "translation": {
+        "ru": "Ваш отпуск тоже всегда проходит так молниеносно?",
+        "en": "Does your vacation always pass so lightning fast too?"
+      },
+      "bracket_parts": [
+        "Vergeht"
+      ]
+    },
+    {
+      "id": "vergehen_6",
+      "tense": "Präteritum",
+      "german": "Die Jahre vergingen ohne nennenswerte Zwischenfälle.",
+      "translation": {
+        "ru": "Годы шли без примечательных происшествий.",
+        "en": "The years passed without noteworthy incidents."
+      },
+      "bracket_parts": [
+        "vergingen"
+      ]
+    },
+    {
+      "id": "vergehen_7",
+      "tense": "Perfekt",
+      "german": "Ein ganzer Monat ist wie ein einziger Tag vergangen.",
+      "translation": {
+        "ru": "Целый месяц прошел как один-единственный день.",
+        "en": "A whole month has passed like a single day."
+      },
+      "bracket_parts": [
+        "ist",
+        "vergangen"
+      ]
+    },
+    {
+      "id": "vergehen_8",
+      "tense": "Imperativ",
+      "german": "Vergehe nicht nutzlos, kostbare Zeit!",
+      "translation": {
+        "ru": "Не проходи впустую, драгоценное время!",
+        "en": "Do not pass uselessly, precious time!"
+      },
+      "bracket_parts": [
+        "Vergehe"
+      ]
+    }
+  ]
+}

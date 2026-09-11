@@ -1,0 +1,193 @@
+{
+  "id": "wenden_akk_an",
+  "infinitive": "wenden",
+  "translation": {
+    "ru": "обращаться к (кому-то)",
+    "en": "to turn to, consult (someone)"
+  },
+  "level": "B1",
+  "frequency_rank": 286,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "mixed",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "wenden",
+    "present_3sg": "wendet",
+    "praeteritum_3sg": "wandte",
+    "partizip_2": "gewandt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wende mich",
+      "du": "wendest dich",
+      "er_sie_es": "wendet sich",
+      "wir": "wenden uns",
+      "ihr": "wendet euch",
+      "sie_Sie": "wenden sich"
+    },
+    "praeteritum": {
+      "ich": "wandte mich",
+      "du": "wandtest dich",
+      "er_sie_es": "wandte sich",
+      "wir": "wandten uns",
+      "ihr": "wandtet euch",
+      "sie_Sie": "wandten sich"
+    },
+    "imperative": {
+      "du": "wende dich!",
+      "ihr": "wendet euch!",
+      "Sie": "wenden Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "an",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich an den Experten wenden",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich wende mich bei Fragen direkt an den Kundendienst.",
+      "translation": {
+        "ru": "При вопросах я обращаюсь напрямую в службу поддержки.",
+        "en": "For questions, I turn directly to customer service."
+      },
+      "bracket_parts": [
+        "wende"
+      ],
+      "akkusativ_parts": [
+        "mich",
+        "den Kundendienst"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Wendest du dich im Notfall an die Polizei?",
+      "translation": {
+        "ru": "В экстренном случае ты обращаешься в полицию?",
+        "en": "Do you turn to the police in an emergency?"
+      },
+      "bracket_parts": [
+        "Wendest"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "die Polizei"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Patient wendet sich vertrauensvoll an seinen Arzt.",
+      "translation": {
+        "ru": "Пациент с доверием обращается к своему врачу.",
+        "en": "The patient turns with confidence to his doctor."
+      },
+      "bracket_parts": [
+        "wendet"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "seinen Arzt"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir wenden uns bei Problemen stets an unsere Berater.",
+      "translation": {
+        "ru": "При проблемах мы всегда обращаемся к нашим консультантам.",
+        "en": "In case of problems, we always consult our advisors."
+      },
+      "bracket_parts": [
+        "wenden"
+      ],
+      "akkusativ_parts": [
+        "uns",
+        "unsere Berater"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Wendet ihr euch mit euren Wünschen an die Schulleitung?",
+      "translation": {
+        "ru": "Вы обращаетесь со своими пожеланиями к руководству школы?",
+        "en": "Do you turn to the school administration with your requests?"
+      },
+      "bracket_parts": [
+        "Wendet"
+      ],
+      "akkusativ_parts": [
+        "euch",
+        "die Schulleitung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Bürger wandten sich mit einer Petition an die Behörde.",
+      "translation": {
+        "ru": "Граждане обратились с петицией в ведомство.",
+        "en": "The citizens turned to the authority with a petition."
+      },
+      "bracket_parts": [
+        "wandten"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "die Behörde"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Er hat sich wegen des Vertrages an einen Anwalt gewandt.",
+      "translation": {
+        "ru": "Он обратился к адвокату по поводу договора.",
+        "en": "He consulted a lawyer regarding the contract."
+      },
+      "bracket_parts": [
+        "hat",
+        "gewandt"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "einen Anwalt"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Wende dich bitte vertrauensvoll an deine Eltern!",
+      "translation": {
+        "ru": "Обратись с доверием к своим родителям, пожалуйста!",
+        "en": "Please confide in your parents!"
+      },
+      "bracket_parts": [
+        "Wende"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "deine Eltern"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

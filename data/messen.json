@@ -1,0 +1,185 @@
+{
+  "id": "messen",
+  "infinitive": "messen",
+  "translation": {
+    "ru": "мерить, измерять",
+    "en": "to measure, gauge"
+  },
+  "level": "A2",
+  "frequency_rank": 334,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "messen",
+    "present_3sg": "misst",
+    "praeteritum_3sg": "maß",
+    "partizip_2": "gemessen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "messe",
+      "du": "misst",
+      "er_sie_es": "misst",
+      "wir": "messen",
+      "ihr": "messt",
+      "sie_Sie": "messen"
+    },
+    "praeteritum": {
+      "ich": "maß",
+      "du": "maßest",
+      "er_sie_es": "maß",
+      "wir": "maßen",
+      "ihr": "maßt",
+      "sie_Sie": "maßen"
+    },
+    "imperative": {
+      "du": "miss!",
+      "ihr": "messt!",
+      "Sie": "messen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Fieber messen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich messe bei meinem kranken Kind regelmäßig das Fieber.",
+      "translation": {
+        "ru": "Я регулярно меряю температуру своему больному ребенку.",
+        "en": "I regularly take my sick child's temperature."
+      },
+      "bracket_parts": [
+        "messe"
+      ],
+      "akkusativ_parts": [
+        "das Fieber"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Misst du die genaue Länge des Tisches mit dem Maßband?",
+      "translation": {
+        "ru": "Ты измеряешь точную длину стола рулеткой?",
+        "en": "Are you measuring the exact length of the table with the tape measure?"
+      },
+      "bracket_parts": [
+        "Misst"
+      ],
+      "akkusativ_parts": [
+        "die genaue Länge des Tisches"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Arzt misst heute den Blutdruck des Patienten.",
+      "translation": {
+        "ru": "Врач измеряет сегодня кровяное давление пациента.",
+        "en": "The doctor measures the patient's blood pressure today."
+      },
+      "bracket_parts": [
+        "misst"
+      ],
+      "akkusativ_parts": [
+        "den Blutdruck des Patienten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir messen die Zimmer vor dem Kauf der Möbel genau aus.",
+      "translation": {
+        "ru": "Мы тщательно замеряем комнаты перед покупкой мебели.",
+        "en": "We measure the rooms carefully before buying the furniture."
+      },
+      "bracket_parts": [
+        "messen"
+      ],
+      "akkusativ_parts": [
+        "die Zimmer"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Messt ihr die Zeit bei diesem sportlichen Wettkampf?",
+      "translation": {
+        "ru": "Вы засекаете время на этих спортивных соревнованиях?",
+        "en": "Are you guys timing this sports competition?"
+      },
+      "bracket_parts": [
+        "Messt"
+      ],
+      "akkusativ_parts": [
+        "die Zeit"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Schneider maß damals sorgfältig meine Armlänge für den Anzug.",
+      "translation": {
+        "ru": "Портной тогда тщательно измерил длину моих рук для костюма.",
+        "en": "The tailor carefully measured my arm length for the suit back then."
+      },
+      "bracket_parts": [
+        "maß"
+      ],
+      "akkusativ_parts": [
+        "meine Armlänge"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Forscher haben die Wassertemperatur im See genau gemessen.",
+      "translation": {
+        "ru": "Исследователи точно измерили температуру воды в озере.",
+        "en": "The researchers precisely measured the water temperature in the lake."
+      },
+      "bracket_parts": [
+        "haben",
+        "gemessen"
+      ],
+      "akkusativ_parts": [
+        "die Wassertemperatur"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Miss bitte noch einmal die Breite der Tür!",
+      "translation": {
+        "ru": "Измерь еще раз ширину двери, пожалуйста!",
+        "en": "Please measure the width of the door once more!"
+      },
+      "bracket_parts": [
+        "Miss"
+      ],
+      "akkusativ_parts": [
+        "die Breite der Tür"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

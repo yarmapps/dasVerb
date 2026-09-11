@@ -1,0 +1,182 @@
+{
+  "id": "ablaufen",
+  "infinitive": "ablaufen",
+  "translation": {
+    "ru": "истекать (о сроке), протекать/проходить, стекать",
+    "en": "to expire, run, pass, drain"
+  },
+  "level": "B1",
+  "frequency_rank": 386,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ab",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ablaufen",
+    "present_3sg": "läuft ab",
+    "praeteritum_3sg": "lief ab",
+    "partizip_2": "abgelaufen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "laufe ab",
+      "du": "läufst ab",
+      "er_sie_es": "läuft ab",
+      "wir": "laufen ab",
+      "ihr": "lauft ab",
+      "sie_Sie": "laufen ab"
+    },
+    "praeteritum": {
+      "ich": "lief ab",
+      "du": "liefst ab",
+      "er_sie_es": "lief ab",
+      "wir": "liefen ab",
+      "ihr": "lieft ab",
+      "sie_Sie": "liefen ab"
+    },
+    "imperative": {
+      "du": "lauf ab!",
+      "ihr": "lauft ab!",
+      "Sie": "laufen Sie ab!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "wie geplant ablaufen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Mein alter Reisepass läuft im nächsten Monat ab.",
+      "translation": {
+        "ru": "Срок действия моего старого загранпаспорта истекает в следующем месяце.",
+        "en": "My old passport expires next month."
+      },
+      "bracket_parts": [
+        "läuft",
+        "ab"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Läuft deine Frist für die Bewerbung heute um Mitternacht ab?",
+      "translation": {
+        "ru": "Твой срок подачи заявки истекает сегодня в полночь?",
+        "en": "Does your application deadline expire tonight at midnight?"
+      },
+      "bracket_parts": [
+        "Läuft",
+        "ab"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Wasser im Waschbecken läuft wegen einer Verstopfung langsam ab.",
+      "translation": {
+        "ru": "Вода в раковине медленно стекает из-за засора.",
+        "en": "The water in the sink drains slowly because of a clog."
+      },
+      "bracket_parts": [
+        "läuft",
+        "ab"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir laufen heute alle Stationen im Park zur Probe ab.",
+      "translation": {
+        "ru": "Мы проходим сегодня все станции в парке для пробы.",
+        "en": "We pace out all the stations in the park for practice today."
+      },
+      "bracket_parts": [
+        "laufen",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "alle Stationen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Lauft ihr das gesamte Gelände vor der Feier noch einmal ab?",
+      "translation": {
+        "ru": "Вы обойдете всю территорию перед праздником еще раз?",
+        "en": "Are you guys pacing out the entire area once more before the party?"
+      },
+      "bracket_parts": [
+        "Lauft",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "das gesamte Gelände"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Veranstaltung lief damals erfreulicherweise ganz nach Plan ab.",
+      "translation": {
+        "ru": "Мероприятие прошло тогда, к счастью, точно по плану.",
+        "en": "The event happily went entirely according to plan back then."
+      },
+      "bracket_parts": [
+        "lief",
+        "ab"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Gültigkeit seiner Fahrkarte ist bereits gestern abgelaufen.",
+      "translation": {
+        "ru": "Действие его билета истекло еще вчера.",
+        "en": "The validity of his ticket already expired yesterday."
+      },
+      "bracket_parts": [
+        "ist",
+        "abgelaufen"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Lauf bitte noch kurz die Straße bis zur Kreuzung ab!",
+      "translation": {
+        "ru": "Пройдись по улице до перекрестка, пожалуйста!",
+        "en": "Please check the street up to the crossroads!"
+      },
+      "bracket_parts": [
+        "Lauf",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "die Straße"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

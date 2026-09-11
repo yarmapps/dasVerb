@@ -1,0 +1,204 @@
+{
+  "id": "anschauen",
+  "infinitive": "anschauen",
+  "translation": {
+    "ru": "смотреть, разглядывать",
+    "en": "to look at, watch"
+  },
+  "level": "A1",
+  "frequency_rank": 326,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "anschauen",
+    "present_3sg": "schaut an",
+    "praeteritum_3sg": "schaute an",
+    "partizip_2": "angeschaut"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schaue an",
+      "du": "schaust an",
+      "er_sie_es": "schaut an",
+      "wir": "schauen an",
+      "ihr": "schaut an",
+      "sie_Sie": "schauen an"
+    },
+    "praeteritum": {
+      "ich": "schaute an",
+      "du": "schautest an",
+      "er_sie_es": "schaute an",
+      "wir": "schauten an",
+      "ihr": "schautet an",
+      "sie_Sie": "schauten an"
+    },
+    "imperative": {
+      "du": "schaue an!",
+      "ihr": "schaut an!",
+      "Sie": "schauen Sie an!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein Foto anschauen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich schaue mir das alte Fotoalbum meiner Großmutter an.",
+      "translation": {
+        "ru": "Я рассматриваю старый фотоальбом моей бабушки.",
+        "en": "I look at my grandmother's old photo album."
+      },
+      "bracket_parts": [
+        "schaue",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das alte Fotoalbum"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Schaust du dir heute Abend den neuen Kinofilm an?",
+      "translation": {
+        "ru": "Ты посмотришь сегодня вечером новый фильм?",
+        "en": "Are you watching the new movie tonight?"
+      },
+      "bracket_parts": [
+        "Schaust",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den neuen Kinofilm"
+      ],
+      "dativ_parts": [
+        "dir"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Kunstliebhaber schaut das Gemälde im Museum aufmerksam an.",
+      "translation": {
+        "ru": "Любитель искусства внимательно разглядывает картину в музее.",
+        "en": "The art lover attentively looks at the painting in the museum."
+      },
+      "bracket_parts": [
+        "schaut",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das Gemälde"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir schauen uns gemeinsam die Sehenswürdigkeiten der Stadt an.",
+      "translation": {
+        "ru": "Мы вместе осматриваем достопримечательности города.",
+        "en": "We view the sights of the city together."
+      },
+      "bracket_parts": [
+        "schauen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Sehenswürdigkeiten der Stadt"
+      ],
+      "dativ_parts": [
+        "uns"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Schaut ihr euch das Video auf dem Handy an?",
+      "translation": {
+        "ru": "Вы смотрите видео на телефоне?",
+        "en": "Are you guys watching the video on the phone?"
+      },
+      "bracket_parts": [
+        "Schaut",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das Video"
+      ],
+      "dativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie schaute ihn damals überrascht mit großen Augen an.",
+      "translation": {
+        "ru": "Она тогда удивленно посмотрела на него большими глазами.",
+        "en": "She looked at him with big, surprised eyes back then."
+      },
+      "bracket_parts": [
+        "schaute",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "ihn"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Wir haben uns alle Wohnungen in diesem Viertel angeschaut.",
+      "translation": {
+        "ru": "Мы посмотрели все квартиры в этом районе.",
+        "en": "We looked at all the apartments in this neighborhood."
+      },
+      "bracket_parts": [
+        "haben",
+        "angeschaut"
+      ],
+      "akkusativ_parts": [
+        "alle Wohnungen"
+      ],
+      "dativ_parts": [
+        "uns"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Schau dir bitte diese wunderschöne Aussicht an!",
+      "translation": {
+        "ru": "Посмотри на этот прекрасный вид, пожалуйста!",
+        "en": "Please look at this wonderful view!"
+      },
+      "bracket_parts": [
+        "Schau",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "diese wunderschöne Aussicht"
+      ],
+      "dativ_parts": [
+        "dir"
+      ]
+    }
+  ]
+}

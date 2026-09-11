@@ -1,0 +1,178 @@
+{
+  "id": "betrachten",
+  "infinitive": "betrachten",
+  "translation": {
+    "ru": "рассматривать, считать",
+    "en": "to look at, to observe, to consider"
+  },
+  "level": "B1",
+  "frequency_rank": 134,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "betrachten",
+    "present_3sg": "betrachtet",
+    "praeteritum_3sg": "betrachtete",
+    "partizip_2": "betrachtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "betrachte",
+      "du": "betrachtest",
+      "er_sie_es": "betrachtet",
+      "wir": "betrachten",
+      "ihr": "betrachtet",
+      "sie_Sie": "betrachten",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "betrachtete",
+      "du": "betrachtetest",
+      "er_sie_es": "betrachtete",
+      "wir": "betrachteten",
+      "ihr": "betrachtetet",
+      "sie_Sie": "betrachteten"
+    },
+    "imperative": {
+      "du": "betrachte",
+      "ihr": "betrachtet",
+      "Sie": "betrachten Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein Gemälde / ein Problem (Akk) betrachten",
+  "sentences": [
+    {
+      "id": "betrachten_1",
+      "tense": "Präsens",
+      "german": "Ich betrachte das berühmte Gemälde im Museum sehr aufmerksam.",
+      "translation": {
+        "ru": "Я очень внимательно рассматриваю знаменитую картину в музее.",
+        "en": "I observe the famous painting in the museum very attentively."
+      },
+      "bracket_parts": [
+        "betrachte"
+      ],
+      "akkusativ_parts": [
+        "das berühmte Gemälde"
+      ]
+    },
+    {
+      "id": "betrachten_2",
+      "tense": "Präsens",
+      "german": "Betrachtest du diese Angelegenheit als erledigt?",
+      "translation": {
+        "ru": "Ты считаешь это дело улаженным?",
+        "en": "Do you consider this matter settled?"
+      },
+      "bracket_parts": [
+        "Betrachtest"
+      ],
+      "akkusativ_parts": [
+        "diese Angelegenheit"
+      ]
+    },
+    {
+      "id": "betrachten_3",
+      "tense": "Präsens",
+      "german": "Der Forscher betrachtet die winzigen Zellen unter dem Mikroskop.",
+      "translation": {
+        "ru": "Исследователь рассматривает крошечные клетки под микроскопом.",
+        "en": "The researcher observes the tiny cells under the microscope."
+      },
+      "bracket_parts": [
+        "betrachtet"
+      ],
+      "akkusativ_parts": [
+        "die winzigen Zellen"
+      ]
+    },
+    {
+      "id": "betrachten_4",
+      "tense": "Präsens",
+      "german": "Wir betrachten die Situation aus einer ganz neuen Perspektive.",
+      "translation": {
+        "ru": "Мы рассматриваем ситуацию с совершенно новой перспективы.",
+        "en": "We view the situation from a completely new perspective."
+      },
+      "bracket_parts": [
+        "betrachten"
+      ],
+      "akkusativ_parts": [
+        "die Situation"
+      ]
+    },
+    {
+      "id": "betrachten_5",
+      "tense": "Präsens",
+      "german": "Betrachtet ihr diesen Vorschlag als eine echte Chance?",
+      "translation": {
+        "ru": "Вы рассматриваете это предложение как реальный шанс?",
+        "en": "Do you consider this proposal a real opportunity?"
+      },
+      "bracket_parts": [
+        "Betrachtet"
+      ],
+      "akkusativ_parts": [
+        "diesen Vorschlag"
+      ]
+    },
+    {
+      "id": "betrachten_6",
+      "tense": "Präteritum",
+      "german": "Sie betrachteten die alte Skulptur mit großer Ehrfurcht.",
+      "translation": {
+        "ru": "Они рассматривали старинную скульптуру с глубоким почтением.",
+        "en": "They observed the old sculpture with great reverence."
+      },
+      "bracket_parts": [
+        "betrachteten"
+      ],
+      "akkusativ_parts": [
+        "die alte Skulptur"
+      ]
+    },
+    {
+      "id": "betrachten_7",
+      "tense": "Perfekt",
+      "german": "Ich habe den Sonnenuntergang am Strand lange betrachtet.",
+      "translation": {
+        "ru": "Я долго наблюдал за закатом солнца на пляже.",
+        "en": "I watched the sunset on the beach for a long time."
+      },
+      "bracket_parts": [
+        "habe",
+        "betrachtet"
+      ],
+      "akkusativ_parts": [
+        "den Sonnenuntergang"
+      ]
+    },
+    {
+      "id": "betrachten_8",
+      "tense": "Imperativ",
+      "german": "Betrachte die Sache doch einmal ganz ruhig!",
+      "translation": {
+        "ru": "Взгляни на это дело совершенно спокойно!",
+        "en": "Look at the matter quite calmly for once!"
+      },
+      "bracket_parts": [
+        "Betrachte"
+      ],
+      "akkusativ_parts": [
+        "die Sache"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "id": "beschraenken_akk_auf",
+  "infinitive": "beschränken",
+  "translation": {
+    "ru": "ограничиваться (чем-то)",
+    "en": "to restrict oneself to, limit oneself to"
+  },
+  "level": "B2",
+  "frequency_rank": 299,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "beschränken",
+    "present_3sg": "beschränkt",
+    "praeteritum_3sg": "beschränkte",
+    "partizip_2": "beschränkt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beschränke mich",
+      "du": "beschränkst dich",
+      "er_sie_es": "beschränkt sich",
+      "wir": "beschränken uns",
+      "ihr": "beschränkt euch",
+      "sie_Sie": "beschränken sich"
+    },
+    "praeteritum": {
+      "ich": "beschränkte mich",
+      "du": "beschränktest dich",
+      "er_sie_es": "beschränkte sich",
+      "wir": "beschränkten uns",
+      "ihr": "beschränktet euch",
+      "sie_Sie": "beschränkten sich"
+    },
+    "imperative": {
+      "du": "beschränke dich!",
+      "ihr": "beschränkt euch!",
+      "Sie": "beschränken Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich auf das Wesentliche beschränken",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich beschränke mich bei der Antwort auf die wichtigsten Fakten.",
+      "translation": {
+        "ru": "В ответе я ограничиваюсь самыми важными фактами.",
+        "en": "In my answer, I restrict myself to the most important facts."
+      },
+      "bracket_parts": [
+        "beschränke"
+      ],
+      "akkusativ_parts": [
+        "mich",
+        "die wichtigsten Fakten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Beschränkst du dich beim Essen auf vegetarische Gerichte?",
+      "translation": {
+        "ru": "Ты ограничиваешься в еде вегетарианскими блюдами?",
+        "en": "Do you limit yourself to vegetarian dishes when eating?"
+      },
+      "bracket_parts": [
+        "Beschränkst"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "vegetarische Gerichte"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Redner beschränkt sich bewusst auf eine kurze Einleitung.",
+      "translation": {
+        "ru": "Оратор сознательно ограничивается кратким вступлением.",
+        "en": "The speaker deliberately confines himself to a brief introduction."
+      },
+      "bracket_parts": [
+        "beschränkt"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "eine kurze Einleitung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beschränken uns im Moment auf die dringenden Reparaturen.",
+      "translation": {
+        "ru": "В данный момент мы ограничиваемся неотложным ремонтом.",
+        "en": "At the moment we restrict ourselves to urgent repairs."
+      },
+      "bracket_parts": [
+        "beschränken"
+      ],
+      "akkusativ_parts": [
+        "uns",
+        "die dringenden Reparaturen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Beschränkt ihr euch während der Besprechung auf dieses eine Thema?",
+      "translation": {
+        "ru": "Вы ограничиваетесь во время совещания этой одной темой?",
+        "en": "Do you guys restrict yourselves to this single topic during the meeting?"
+      },
+      "bracket_parts": [
+        "Beschränkt"
+      ],
+      "akkusativ_parts": [
+        "euch",
+        "dieses eine Thema"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Bericht beschränkte sich damals auf allgemeine Beobachtungen.",
+      "translation": {
+        "ru": "Отчет ограничился тогда общими наблюдениями.",
+        "en": "The report was limited to general observations back then."
+      },
+      "bracket_parts": [
+        "beschränkte"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "allgemeine Beobachtungen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben sich in ihrer Kritik auf konkrete Fehler beschränkt.",
+      "translation": {
+        "ru": "В своей критике они ограничились конкретными ошибками.",
+        "en": "In their criticism they restricted themselves to specific errors."
+      },
+      "bracket_parts": [
+        "haben",
+        "beschränkt"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "konkrete Fehler"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Beschränke dich bei deiner Ausführung bitte auf das Wesentliche!",
+      "translation": {
+        "ru": "Ограничься в своем изложении самым существенным, пожалуйста!",
+        "en": "Please confine yourself to essentials in your presentation!"
+      },
+      "bracket_parts": [
+        "Beschränke"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "das Wesentliche"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "richten_akk_auf",
+  "infinitive": "richten",
+  "translation": {
+    "ru": "направлять (на что-то), ориентировать",
+    "en": "to direct (at/toward), focus on"
+  },
+  "level": "B1",
+  "frequency_rank": 189,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "richten",
+    "present_3sg": "richtet",
+    "praeteritum_3sg": "richtete",
+    "partizip_2": "gerichtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "richte",
+      "du": "richtest",
+      "er_sie_es": "richtet",
+      "wir": "richten",
+      "ihr": "richtet",
+      "sie_Sie": "richten"
+    },
+    "praeteritum": {
+      "ich": "richtete",
+      "du": "richtetest",
+      "er_sie_es": "richtete",
+      "wir": "richteten",
+      "ihr": "richtetet",
+      "sie_Sie": "richteten"
+    },
+    "imperative": {
+      "du": "richte!",
+      "ihr": "richtet!",
+      "Sie": "richten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "den Blick auf das Ziel richten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich richte meine Aufmerksamkeit ganz auf die Arbeit.",
+      "translation": {
+        "ru": "Я полностью направляю свое внимание на работу.",
+        "en": "I focus my attention entirely on work."
+      },
+      "bracket_parts": [
+        "richte"
+      ],
+      "akkusativ_parts": [
+        "meine Aufmerksamkeit",
+        "die Arbeit"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Richtest du die Kamera auf den Redner?",
+      "translation": {
+        "ru": "Ты направляешь камеру на оратора?",
+        "en": "Are you pointing the camera at the speaker?"
+      },
+      "bracket_parts": [
+        "Richtest"
+      ],
+      "akkusativ_parts": [
+        "die Kamera",
+        "den Redner"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Scheinwerfer richtet sein Licht auf den Eingang.",
+      "translation": {
+        "ru": "Прожектор направляет свой свет на вход.",
+        "en": "The spotlight directs its light at the entrance."
+      },
+      "bracket_parts": [
+        "richtet"
+      ],
+      "akkusativ_parts": [
+        "sein Licht",
+        "den Eingang"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir richten den Fokus auf die wichtigen Details.",
+      "translation": {
+        "ru": "Мы направляем фокус на важные детали.",
+        "en": "We direct the focus to the important details."
+      },
+      "bracket_parts": [
+        "richten"
+      ],
+      "akkusativ_parts": [
+        "den Fokus",
+        "die wichtigen Details"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Richtet ihr eure Fragen direkt auf diesen Punkt?",
+      "translation": {
+        "ru": "Вы направляете свои вопросы прямо на этот пункт?",
+        "en": "Do you guys direct your questions right at this point?"
+      },
+      "bracket_parts": [
+        "Richtet"
+      ],
+      "akkusativ_parts": [
+        "eure Fragen",
+        "diesen Punkt"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie richteten alle Augen auf das neue Denkmal.",
+      "translation": {
+        "ru": "Они устремили все взоры на новый памятник.",
+        "en": "They directed all eyes toward the new monument."
+      },
+      "bracket_parts": [
+        "richteten"
+      ],
+      "akkusativ_parts": [
+        "alle Augen",
+        "das neue Denkmal"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Trainer hat die Hoffnungen auf das nächste Spiel gerichtet.",
+      "translation": {
+        "ru": "Тренер возложил надежды на следующую игру.",
+        "en": "The coach directed hopes toward the next game."
+      },
+      "bracket_parts": [
+        "hat",
+        "gerichtet"
+      ],
+      "akkusativ_parts": [
+        "die Hoffnungen",
+        "das nächste Spiel"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Richte deinen Blick immer auf die Zukunft!",
+      "translation": {
+        "ru": "Всегда направляй свой взор в будущее!",
+        "en": "Always direct your gaze toward the future!"
+      },
+      "bracket_parts": [
+        "Richte"
+      ],
+      "akkusativ_parts": [
+        "deinen Blick",
+        "die Zukunft"
+      ]
+    }
+  ]
+}

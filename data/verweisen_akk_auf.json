@@ -1,0 +1,185 @@
+{
+  "id": "verweisen_akk_auf",
+  "infinitive": "verweisen",
+  "translation": {
+    "ru": "ссылаться на (что-то), указывать на",
+    "en": "to refer to, point to"
+  },
+  "level": "B2",
+  "frequency_rank": 372,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verweisen",
+    "present_3sg": "verweist",
+    "praeteritum_3sg": "verwies",
+    "partizip_2": "verwiesen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verweise",
+      "du": "verweist",
+      "er_sie_es": "verweist",
+      "wir": "verweisen",
+      "ihr": "verweist",
+      "sie_Sie": "verweisen"
+    },
+    "praeteritum": {
+      "ich": "verwies",
+      "du": "verwiesest",
+      "er_sie_es": "verwies",
+      "wir": "verwiesen",
+      "ihr": "verwiest",
+      "sie_Sie": "verwiesen"
+    },
+    "imperative": {
+      "du": "verweise!",
+      "ihr": "verweist!",
+      "Sie": "verweisen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "auf Paragrafen verweisen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verweise in meiner wissenschaftlichen Arbeit auf aktuelle Studien.",
+      "translation": {
+        "ru": "В своей научной работе я ссылаюсь на актуальные исследования.",
+        "en": "In my academic paper I refer to current studies."
+      },
+      "bracket_parts": [
+        "verweise"
+      ],
+      "akkusativ_parts": [
+        "aktuelle Studien"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verweist du in deinem Argument auf die geltenden Gesetze?",
+      "translation": {
+        "ru": "Ты ссылаешься в своем аргументе на действующие законы?",
+        "en": "Do you refer to applicable laws in your argument?"
+      },
+      "bracket_parts": [
+        "Verweist"
+      ],
+      "akkusativ_parts": [
+        "die geltenden Gesetze"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Dozent verweist auf die Literaturliste am Ende des Buches.",
+      "translation": {
+        "ru": "Преподаватель ссылается на список литературы в конце книги.",
+        "en": "The lecturer refers to the bibliography at the end of the book."
+      },
+      "bracket_parts": [
+        "verweist"
+      ],
+      "akkusativ_parts": [
+        "die Literaturliste"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verweisen bei Fragen auf unsere ausführlichen Richtlinien.",
+      "translation": {
+        "ru": "При вопросах мы ссылаемся на наши подробные рекомендации.",
+        "en": "In case of questions, we refer to our detailed guidelines."
+      },
+      "bracket_parts": [
+        "verweisen"
+      ],
+      "akkusativ_parts": [
+        "unsere ausführlichen Richtlinien"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verweist ihr in der Diskussion auf historische Ereignisse?",
+      "translation": {
+        "ru": "Вы ссылаетесь в дискуссии на исторические события?",
+        "en": "Do you guys refer to historical events in the discussion?"
+      },
+      "bracket_parts": [
+        "Verweist"
+      ],
+      "akkusativ_parts": [
+        "historische Ereignisse"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Anwalt verwies damals ausdrücklich auf den bestehenden Vertrag.",
+      "translation": {
+        "ru": "Адвокат тогда прямо сослался на существующий договор.",
+        "en": "The lawyer explicitly referred to the existing contract back then."
+      },
+      "bracket_parts": [
+        "verwies"
+      ],
+      "akkusativ_parts": [
+        "den bestehenden Vertrag"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Sprecherin hat auf offizielle Zahlen des Ministeriums verwiesen.",
+      "translation": {
+        "ru": "Пресс-секретарь сослалась на официальные цифры министерства.",
+        "en": "The spokeswoman referred to official figures from the ministry."
+      },
+      "bracket_parts": [
+        "hat",
+        "verwiesen"
+      ],
+      "akkusativ_parts": [
+        "offizielle Zahlen des Ministeriums"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verweise bitte im Text direkt auf die Quelle!",
+      "translation": {
+        "ru": "Сошлись в тексте прямо на источник, пожалуйста!",
+        "en": "Please refer directly to the source in the text!"
+      },
+      "bracket_parts": [
+        "Verweise"
+      ],
+      "akkusativ_parts": [
+        "die Quelle"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "id": "untersuchen",
+  "infinitive": "untersuchen",
+  "translation": {
+    "ru": "обследовать (пациента), исследовать, расследовать",
+    "en": "to examine, to investigate, to inspect"
+  },
+  "level": "A2",
+  "frequency_rank": 230,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "unter",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "untersuchen",
+    "present_3sg": "untersucht",
+    "praeteritum_3sg": "untersuchte",
+    "partizip_2": "untersucht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "untersuche",
+      "du": "untersuchst",
+      "er_sie_es": "untersucht",
+      "wir": "untersuchen",
+      "ihr": "untersucht",
+      "sie_Sie": "untersuchen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "untersuchte",
+      "du": "untersuchtest",
+      "er_sie_es": "untersuchte",
+      "wir": "untersuchten",
+      "ihr": "untersuchtet",
+      "sie_Sie": "untersuchten"
+    },
+    "imperative": {
+      "du": "untersuche!",
+      "ihr": "untersucht!",
+      "Sie": "untersuchen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "den erkrankten Patienten (Akk) gründlich untersuchen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich untersuche als Assistenzarzt in der Notaufnahme jeden Patienten sehr gründlich.",
+      "translation": {
+        "ru": "Как врач-ассистент в приемном отделении я очень тщательно осматриваю каждого пациента.",
+        "en": "As an assistant doctor in the emergency room I examine every patient very thoroughly."
+      },
+      "bracket_parts": [
+        "untersuche"
+      ],
+      "akkusativ_parts": [
+        "jeden Patienten"
+      ],
+      "dativ_parts": [
+        "in der Notaufnahme"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Untersuchst du die Ursache des plötzlichen Motorschadens heute noch persönlich?",
+      "translation": {
+        "ru": "Расследуешь ли ты причину внезапной поломки двигателя сегодня еще лично?",
+        "en": "Are you personally investigating the cause of the sudden engine failure today?"
+      },
+      "bracket_parts": [
+        "Untersuchst"
+      ],
+      "akkusativ_parts": [
+        "die Ursache des plötzlichen Motorschadens"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der erfahrene Zahnarzt untersucht die Zähne und das Zahnfleisch mit modernen Instrumenten.",
+      "translation": {
+        "ru": "Опытный стоматолог осматривает зубы и десны современными инструментами.",
+        "en": "The experienced dentist examines the teeth and gums with modern instruments."
+      },
+      "bracket_parts": [
+        "untersucht"
+      ],
+      "akkusativ_parts": [
+        "die Zähne und das Zahnfleisch"
+      ],
+      "dativ_parts": [
+        "mit modernen Instrumenten"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir untersuchen als unabhängiges Forschungsinstitut die Wasserqualität in den Flüssen.",
+      "translation": {
+        "ru": "Как независимый научно-исследовательский институт мы исследуем качество воды в реках.",
+        "en": "As an independent research institute we investigate water quality in rivers."
+      },
+      "bracket_parts": [
+        "untersuchen"
+      ],
+      "akkusativ_parts": [
+        "die Wasserqualität"
+      ],
+      "dativ_parts": [
+        "in den Flüssen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Untersucht ihr im Schullabor die Wirkung von Vitamin C auf Pflanzenzellen?",
+      "translation": {
+        "ru": "Исследуете ли вы в школьной лаборатории действие витамина C на клетки растений?",
+        "en": "Are you investigating the effect of vitamin C on plant cells in the school laboratory?"
+      },
+      "bracket_parts": [
+        "Untersucht"
+      ],
+      "akkusativ_parts": [
+        "die Wirkung von Vitamin C",
+        "auf Pflanzenzellen"
+      ],
+      "dativ_parts": [
+        "im Schullabor"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern untersuchte der leitende Kommissar den verdächtigen Tatort bis ins kleinste Detail.",
+      "translation": {
+        "ru": "Вчера ведущий комиссар осмотрел подозрительное место преступления до мельчайших деталей.",
+        "en": "Yesterday the chief inspector examined the suspicious crime scene down to the smallest detail."
+      },
+      "bracket_parts": [
+        "untersuchte"
+      ],
+      "akkusativ_parts": [
+        "den verdächtigen Tatort",
+        "ins kleinste Detail"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Gutachter haben die Statik des alten Gebäudes nach dem Erdbeben genau untersucht.",
+      "translation": {
+        "ru": "Эксперты точно обследовали статику старого здания после землетрясения.",
+        "en": "The surveyors examined the structural stability of the old building closely after the earthquake."
+      },
+      "bracket_parts": [
+        "haben",
+        "untersucht"
+      ],
+      "akkusativ_parts": [
+        "die Statik des alten Gebäudes"
+      ],
+      "dativ_parts": [
+        "nach dem Erdbeben"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Untersuchen Sie die chemische Probe bitte vorsichtig unter dem Mikroskop!",
+      "translation": {
+        "ru": "Исследуйте химический образец, пожалуйста, осторожно под микроскопом!",
+        "en": "Please examine the chemical sample carefully under the microscope!"
+      },
+      "bracket_parts": [
+        "Untersuchen"
+      ],
+      "akkusativ_parts": [
+        "die chemische Probe"
+      ],
+      "dativ_parts": [
+        "unter dem Mikroskop"
+      ]
+    }
+  ]
+}

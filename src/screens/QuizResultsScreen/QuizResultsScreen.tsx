@@ -13,6 +13,7 @@ import { ScreenHeader } from '../../components/ScreenHeader/ScreenHeader';
 import { ScreenBackground } from '../../components/ScreenBackground/ScreenBackground';
 import { AnimatedRewardCircle } from '../../components/AnimatedRewardCircle/AnimatedRewardCircle';
 import { progressService, calculateVerbStatus } from '../../services/progressService';
+import { tryRequestReview } from '../../services/reviewService';
 import { soundService } from '../../services/soundService';
 import { incrementDailyCompletedQuizzes } from '../../services/usageService';
 import { recordStreakActivity } from '../../services/streakService';
@@ -50,18 +51,26 @@ export function QuizResultsScreen(): React.JSX.Element {
     fromIndex,
     toIndex,
     isSmartQuiz = false,
+    categoryId,
+    prefixLevelId,
+    isPrefixCheckpoint = false,
+    prefixCefrLevel,
+    nextQuizParams,
+    returnRouteName,
     results = [],
   } = route.params || {};
 
   const [nextTarget, setNextTarget] = useState<PracticeNextTarget | null>(null);
+  const [isTargetChecked, setIsTargetChecked] = useState(false);
   const [isNewStreakDay, setIsNewStreakDay] = useState(false);
 
   const correctCount = useMemo(() => results.filter(result => result.isCorrect).length, [results]);
   const defaultTotalCount = useMemo(() => {
     if (isSmartQuiz) return 50;
-    if (isCheckpoint) return 10;
+    if (isCheckpoint || isPrefixCheckpoint) return 20;
+    if (prefixLevelId) return 10;
     return 6;
-  }, [isSmartQuiz, isCheckpoint]);
+  }, [isSmartQuiz, isCheckpoint, isPrefixCheckpoint, prefixLevelId]);
   const totalCount = results.length || defaultTotalCount;
   const percentage = Math.round((correctCount / totalCount) * 100);
   const status = calculateVerbStatus(percentage);
@@ -78,29 +87,66 @@ export function QuizResultsScreen(): React.JSX.Element {
   }, []);
 
   useEffect(() => {
-    if (isSmartQuiz) return;
+    if (isSmartQuiz || prefixLevelId || isPrefixCheckpoint) return;
     let isMounted = true;
     getNextPracticeTarget({ infinitive, level, isCheckpoint, checkpointId }).then(target => {
       if (isMounted) {
         setNextTarget(target);
+        setIsTargetChecked(true);
       }
     });
     return () => {
       isMounted = false;
     };
-  }, [infinitive, level, isCheckpoint, checkpointId, isSmartQuiz]);
+  }, [
+    infinitive,
+    level,
+    isCheckpoint,
+    checkpointId,
+    isSmartQuiz,
+    prefixLevelId,
+    isPrefixCheckpoint,
+  ]);
 
   useEffect(() => {
     if (isSmartQuiz) return;
-    if (isCheckpoint && checkpointId) {
+    if (prefixLevelId) {
+      progressService.setPrefixLevelProgress(prefixLevelId, percentage);
+    } else if (isPrefixCheckpoint && (checkpointId || prefixCefrLevel)) {
+      const id = checkpointId || `prefix_checkpoint_${(prefixCefrLevel || 'a1').toLowerCase()}`;
+      progressService.setPrefixLevelProgress(id, percentage);
+    } else if (isCheckpoint && checkpointId) {
       progressService.setCheckpointProgress(checkpointId, percentage);
     } else if (infinitive) {
       progressService.setVerbProgress(infinitive, percentage);
     }
-  }, [infinitive, percentage, isCheckpoint, checkpointId, isSmartQuiz]);
+  }, [
+    infinitive,
+    percentage,
+    isCheckpoint,
+    checkpointId,
+    isSmartQuiz,
+    prefixLevelId,
+    isPrefixCheckpoint,
+    prefixCefrLevel,
+  ]);
+
+  useEffect(() => {
+    const verbStatus = calculateVerbStatus(percentage);
+    tryRequestReview(verbStatus).catch(() => {});
+  }, [percentage]);
 
   const handleTryAgain = () => {
-    if (isSmartQuiz) {
+    if (prefixLevelId || isPrefixCheckpoint) {
+      navigateToQuiz(
+        {
+          prefixLevelId,
+          isPrefixCheckpoint,
+          prefixCefrLevel,
+        },
+        'replace',
+      );
+    } else if (isSmartQuiz) {
       navigateToQuiz({ isSmartQuiz: true }, 'replace');
     } else if (isCheckpoint) {
       navigateToQuiz(
@@ -119,7 +165,23 @@ export function QuizResultsScreen(): React.JSX.Element {
     }
   };
 
-  const handleGoToVerbsList = useCallback(() => {
+  const handleGoToList = useCallback(() => {
+    if (returnRouteName === 'PrefixPracticeList') {
+      if (navigation.canGoBack()) {
+        navigation.popToTop();
+      } else {
+        navigation.navigate('MainTabs', {
+          screen: 'Practice',
+          params: {
+            state: {
+              routes: [{ name: 'PracticeHome' }, { name: 'PrefixPracticeList' }],
+              index: 1,
+            },
+          },
+        });
+      }
+      return;
+    }
     if (navigation.canGoBack()) {
       navigation.popToTop();
     } else {
@@ -133,7 +195,7 @@ export function QuizResultsScreen(): React.JSX.Element {
         },
       });
     }
-  }, [navigation]);
+  }, [navigation, returnRouteName]);
 
   const handleGoToPractice = useCallback(() => {
     if (navigation.canGoBack()) {
@@ -147,6 +209,10 @@ export function QuizResultsScreen(): React.JSX.Element {
   }, [navigation]);
 
   const handleNextLevel = () => {
+    if (nextQuizParams) {
+      navigateToQuiz(nextQuizParams, 'replace');
+      return;
+    }
     if (nextTarget) {
       if (nextTarget.type === 'checkpoint') {
         navigateToQuiz(
@@ -171,7 +237,7 @@ export function QuizResultsScreen(): React.JSX.Element {
         );
       }
     } else {
-      handleGoToVerbsList();
+      handleGoToList();
     }
   };
 
@@ -188,10 +254,39 @@ export function QuizResultsScreen(): React.JSX.Element {
     return intl.formatMessage({ id: 'quizResultsScreen.canDoBetter' });
   }, [percentage, intl]);
 
+  const hasNext = useMemo(() => {
+    if (isSmartQuiz) return false;
+    if (prefixLevelId || isPrefixCheckpoint) {
+      return Boolean(nextQuizParams);
+    }
+    if (nextQuizParams) return true;
+    if (isTargetChecked) {
+      return Boolean(nextTarget);
+    }
+    return true;
+  }, [isSmartQuiz, prefixLevelId, isPrefixCheckpoint, nextQuizParams, isTargetChecked, nextTarget]);
+
   const renderActionButtons = () => {
     if (isSmartQuiz) {
       return (
-        <>
+        <TouchableOpacity
+          style={styles.primaryButton}
+          activeOpacity={0.8}
+          onPress={handleTryAgain}
+          testID="try-again-button"
+        >
+          <Text style={styles.primaryButtonText}>
+            {intl.formatMessage({ id: 'quizResultsScreen.tryAgain' })}
+          </Text>
+        </TouchableOpacity>
+      );
+    }
+
+    const isGoldOrSilver = status === 'trophy' || status === 'silver';
+
+    if (isGoldOrSilver) {
+      if (!hasNext) {
+        return (
           <TouchableOpacity
             style={styles.primaryButton}
             activeOpacity={0.8}
@@ -202,23 +297,9 @@ export function QuizResultsScreen(): React.JSX.Element {
               {intl.formatMessage({ id: 'quizResultsScreen.tryAgain' })}
             </Text>
           </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.secondaryButton}
-            activeOpacity={0.8}
-            onPress={handleGoToPractice}
-            testID="back-to-practice-button"
-          >
-            <Text style={styles.secondaryButtonText}>
-              {intl.formatMessage({ id: 'quizResultsScreen.backToPractice' })}
-            </Text>
-          </TouchableOpacity>
-        </>
-      );
-    }
+        );
+      }
 
-    const isGoldOrSilver = status === 'trophy' || status === 'silver';
-
-    if (isGoldOrSilver) {
       return (
         <>
           <TouchableOpacity
@@ -257,16 +338,18 @@ export function QuizResultsScreen(): React.JSX.Element {
             {intl.formatMessage({ id: 'quizResultsScreen.tryAgain' })}
           </Text>
         </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.secondaryButton}
-          activeOpacity={0.8}
-          onPress={handleNextLevel}
-          testID="next-level-button"
-        >
-          <Text style={styles.secondaryButtonText}>
-            {intl.formatMessage({ id: 'quizResultsScreen.nextLevel' })}
-          </Text>
-        </TouchableOpacity>
+        {hasNext ? (
+          <TouchableOpacity
+            style={styles.secondaryButton}
+            activeOpacity={0.8}
+            onPress={handleNextLevel}
+            testID="next-level-button"
+          >
+            <Text style={styles.secondaryButtonText}>
+              {intl.formatMessage({ id: 'quizResultsScreen.nextLevel' })}
+            </Text>
+          </TouchableOpacity>
+        ) : null}
       </>
     );
   };
@@ -307,19 +390,22 @@ export function QuizResultsScreen(): React.JSX.Element {
     if (isSmartQuiz) {
       return intl.formatMessage({ id: 'quizResultsScreen.smartQuizResultsTitle' });
     }
-    if (isCheckpoint) {
+    if (isCheckpoint || isPrefixCheckpoint) {
+      if (categoryId) {
+        return intl.formatMessage({ id: 'verbsPracticeListScreen.finalTestTitle' });
+      }
       return intl.formatMessage({ id: 'quizResultsScreen.checkpointResultsTitle' });
     }
     return intl.formatMessage({ id: 'quizResultsScreen.title' });
-  }, [isSmartQuiz, isCheckpoint, intl]);
+  }, [isSmartQuiz, isCheckpoint, isPrefixCheckpoint, categoryId, intl]);
 
   const handleBack = useCallback(() => {
     if (isSmartQuiz) {
       handleGoToPractice();
     } else {
-      handleGoToVerbsList();
+      handleGoToList();
     }
-  }, [isSmartQuiz, handleGoToPractice, handleGoToVerbsList]);
+  }, [isSmartQuiz, handleGoToPractice, handleGoToList]);
 
   useFocusEffect(
     useCallback(() => {

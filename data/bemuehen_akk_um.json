@@ -1,0 +1,193 @@
+{
+  "id": "bemuehen_akk_um",
+  "infinitive": "bemühen",
+  "translation": {
+    "ru": "хлопотать о, добиваться (чего-то)",
+    "en": "to strive for, seek, apply for"
+  },
+  "level": "B2",
+  "frequency_rank": 307,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "bemühen",
+    "present_3sg": "bemüht",
+    "praeteritum_3sg": "bemühte",
+    "partizip_2": "bemüht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bemühe mich",
+      "du": "bemühst dich",
+      "er_sie_es": "bemüht sich",
+      "wir": "bemühen uns",
+      "ihr": "bemüht euch",
+      "sie_Sie": "bemühen sich"
+    },
+    "praeteritum": {
+      "ich": "bemühte mich",
+      "du": "bemühtest dich",
+      "er_sie_es": "bemühte sich",
+      "wir": "bemühten uns",
+      "ihr": "bemühtet euch",
+      "sie_Sie": "bemühten sich"
+    },
+    "imperative": {
+      "du": "bemühe dich!",
+      "ihr": "bemüht euch!",
+      "Sie": "bemühen Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "um",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich um eine Stelle bemühen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich bemühe mich intensiv um ein Stipendium für mein Studium.",
+      "translation": {
+        "ru": "Я усиленно добиваюсь стипендии на учебу.",
+        "en": "I am actively applying for a scholarship for my studies."
+      },
+      "bracket_parts": [
+        "bemühe"
+      ],
+      "akkusativ_parts": [
+        "mich",
+        "ein Stipendium"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Bemühst du dich schon um einen neuen Arbeitsplatz?",
+      "translation": {
+        "ru": "Ты уже подыскиваешь себе новое рабочее место?",
+        "en": "Are you already trying to get a new job?"
+      },
+      "bracket_parts": [
+        "Bemühst"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "einen neuen Arbeitsplatz"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Student bemüht sich eifrig um ein Zimmer im Wohnheim.",
+      "translation": {
+        "ru": "Студент усердно хлопочет о комнате в общежитии.",
+        "en": "The student is eagerly seeking a room in the dormitory."
+      },
+      "bracket_parts": [
+        "bemüht"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "ein Zimmer"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir bemühen uns seit Wochen um ein klärendes Gespräch.",
+      "translation": {
+        "ru": "Мы уже недели добиваемся разъяснительной беседы.",
+        "en": "We have been striving for a clarifying conversation for weeks."
+      },
+      "bracket_parts": [
+        "bemühen"
+      ],
+      "akkusativ_parts": [
+        "uns",
+        "ein klärendes Gespräch"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bemüht ihr euch um die Gunst des Publikums?",
+      "translation": {
+        "ru": "Вы добиваетесь расположения публики?",
+        "en": "Are you striving for the audience's favor?"
+      },
+      "bracket_parts": [
+        "Bemüht"
+      ],
+      "akkusativ_parts": [
+        "euch",
+        "die Gunst des Publikums"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Diplomat bemühte sich damals vergeblich um Frieden.",
+      "translation": {
+        "ru": "Дипломат тогда тщетно добивался мира.",
+        "en": "The diplomat sought peace in vain back then."
+      },
+      "bracket_parts": [
+        "bemühte"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "Frieden"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben sich jahrelang um eine dauerhafte Aufenthaltsgenehmigung bemüht.",
+      "translation": {
+        "ru": "Они годами добивались постоянного вида на жительство.",
+        "en": "They sought a permanent residence permit for years."
+      },
+      "bracket_parts": [
+        "haben",
+        "bemüht"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "eine dauerhafte Aufenthaltsgenehmigung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Bemühe dich rechtzeitig um ein Visum für deine Reise!",
+      "translation": {
+        "ru": "Хлопочи о визе для своей поездки заблаговременно!",
+        "en": "Apply for a visa for your trip in good time!"
+      },
+      "bracket_parts": [
+        "Bemühe"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "ein Visum"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

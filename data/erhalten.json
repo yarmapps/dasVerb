@@ -1,0 +1,181 @@
+{
+  "id": "erhalten",
+  "infinitive": "erhalten",
+  "translation": {
+    "ru": "получать, сохранять",
+    "en": "to receive, to preserve"
+  },
+  "level": "B1",
+  "frequency_rank": 62,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erhalten",
+    "present_3sg": "erhält",
+    "praeteritum_3sg": "erhielt",
+    "partizip_2": "erhalten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erhalte",
+      "du": "erhältst",
+      "er_sie_es": "erhält",
+      "wir": "erhalten",
+      "ihr": "erhaltet",
+      "sie_Sie": "erhalten",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "erhielt",
+      "du": "erhieltst",
+      "er_sie_es": "erhielt",
+      "wir": "erhielten",
+      "ihr": "erhieltet",
+      "sie_Sie": "erhielten"
+    },
+    "imperative": {
+      "du": "erhalte",
+      "ihr": "erhaltet",
+      "Sie": "erhalten Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen Brief / eine Nachricht (Akk) erhalten",
+  "sentences": [
+    {
+      "id": "erhalten_1",
+      "tense": "Präsens",
+      "german": "Ich erhalte jeden Tag viele wichtige E-Mails.",
+      "translation": {
+        "ru": "Я получаю каждый день много важных электронных писем.",
+        "en": "I receive many important emails every day."
+      },
+      "bracket_parts": [
+        "erhalte"
+      ],
+      "akkusativ_parts": [
+        "viele wichtige E-Mails"
+      ]
+    },
+    {
+      "id": "erhalten_2",
+      "tense": "Präsens",
+      "german": "Erhältst du regelmäßig deine monatliche Abrechnung?",
+      "translation": {
+        "ru": "Ты регулярно получаешь свою ежемесячную выписку?",
+        "en": "Do you regularly receive your monthly statement?"
+      },
+      "bracket_parts": [
+        "Erhältst"
+      ],
+      "akkusativ_parts": [
+        "deine monatliche Abrechnung"
+      ]
+    },
+    {
+      "id": "erhalten_3",
+      "tense": "Präsens",
+      "german": "Er erhält für seine hervorragende Leistung einen Preis.",
+      "translation": {
+        "ru": "Он получает награду за свои выдающиеся достижения.",
+        "en": "He receives an award for his outstanding performance."
+      },
+      "bracket_parts": [
+        "erhält"
+      ],
+      "akkusativ_parts": [
+        "einen Preis"
+      ]
+    },
+    {
+      "id": "erhalten_4",
+      "tense": "Präsens",
+      "german": "Wir erhalten heute eine Bestätigung vom Amt.",
+      "translation": {
+        "ru": "Мы получаем сегодня подтверждение из ведомства.",
+        "en": "We are receiving a confirmation from the office today."
+      },
+      "bracket_parts": [
+        "erhalten"
+      ],
+      "akkusativ_parts": [
+        "eine Bestätigung"
+      ]
+    },
+    {
+      "id": "erhalten_5",
+      "tense": "Präsens",
+      "german": "Erhaltet ihr bald das bestellte Paket?",
+      "translation": {
+        "ru": "Вы скоро получите заказанную посылку?",
+        "en": "Will you receive the ordered package soon?"
+      },
+      "bracket_parts": [
+        "Erhaltet"
+      ],
+      "akkusativ_parts": [
+        "das bestellte Paket"
+      ]
+    },
+    {
+      "id": "erhalten_6",
+      "tense": "Präteritum",
+      "german": "Sie erhielten gestern die traurige Nachricht.",
+      "translation": {
+        "ru": "Они получили вчера печальную весть.",
+        "en": "They received the sad news yesterday."
+      },
+      "bracket_parts": [
+        "erhielten"
+      ],
+      "akkusativ_parts": [
+        "die traurige Nachricht"
+      ]
+    },
+    {
+      "id": "erhalten_7",
+      "tense": "Perfekt",
+      "german": "Ich habe den offiziellen Brief noch rechtzeitig erhalten.",
+      "translation": {
+        "ru": "Я получил официальное письмо ещё вовремя.",
+        "en": "I received the official letter just in time."
+      },
+      "bracket_parts": [
+        "habe",
+        "erhalten"
+      ],
+      "akkusativ_parts": [
+        "den offiziellen Brief"
+      ]
+    },
+    {
+      "id": "erhalten_8",
+      "tense": "Imperativ",
+      "german": "Erhalte dir stets deine Lebensfreude!",
+      "translation": {
+        "ru": "Сохраняй всегда свою жизнерадостность!",
+        "en": "Always preserve your joy of life!"
+      },
+      "bracket_parts": [
+        "Erhalte"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "deine Lebensfreude"
+      ]
+    }
+  ]
+}

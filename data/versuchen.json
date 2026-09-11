@@ -1,0 +1,178 @@
+{
+  "id": "versuchen",
+  "infinitive": "versuchen",
+  "translation": {
+    "ru": "пробовать, пытаться",
+    "en": "to try, to attempt"
+  },
+  "level": "A2",
+  "frequency_rank": 51,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "versuchen",
+    "present_3sg": "versucht",
+    "praeteritum_3sg": "versuchte",
+    "partizip_2": "versucht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "versuche",
+      "du": "versuchst",
+      "er_sie_es": "versucht",
+      "wir": "versuchen",
+      "ihr": "versucht",
+      "sie_Sie": "versuchen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "versuchte",
+      "du": "versuchtest",
+      "er_sie_es": "versuchte",
+      "wir": "versuchten",
+      "ihr": "versuchtet",
+      "sie_Sie": "versuchten"
+    },
+    "imperative": {
+      "du": "versuche",
+      "ihr": "versucht",
+      "Sie": "versuchen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "etwas (Akk) versuchen",
+  "sentences": [
+    {
+      "id": "versuchen_1",
+      "tense": "Präsens",
+      "german": "Ich versuche jeden Tag etwas Neues.",
+      "translation": {
+        "ru": "Я каждый день пробую что-то новое.",
+        "en": "I try something new every day."
+      },
+      "bracket_parts": [
+        "versuche"
+      ],
+      "akkusativ_parts": [
+        "etwas Neues"
+      ]
+    },
+    {
+      "id": "versuchen_2",
+      "tense": "Präsens",
+      "german": "Versuchst du dieses schwere Rätsel zu lösen?",
+      "translation": {
+        "ru": "Ты пытаешься разгадать эту сложную загадку?",
+        "en": "Are you trying to solve this difficult puzzle?"
+      },
+      "bracket_parts": [
+        "Versuchst"
+      ],
+      "akkusativ_parts": [
+        "dieses schwere Rätsel"
+      ]
+    },
+    {
+      "id": "versuchen_3",
+      "tense": "Präsens",
+      "german": "Er versucht diese schwierige Übung noch einmal.",
+      "translation": {
+        "ru": "Он пытается сделать это трудное упражнение ещё раз.",
+        "en": "He is trying this difficult exercise once more."
+      },
+      "bracket_parts": [
+        "versucht"
+      ],
+      "akkusativ_parts": [
+        "diese schwierige Übung"
+      ]
+    },
+    {
+      "id": "versuchen_4",
+      "tense": "Präsens",
+      "german": "Wir versuchen eine friedliche Lösung.",
+      "translation": {
+        "ru": "Мы пытаемся найти мирное решение.",
+        "en": "We are trying a peaceful solution."
+      },
+      "bracket_parts": [
+        "versuchen"
+      ],
+      "akkusativ_parts": [
+        "eine friedliche Lösung"
+      ]
+    },
+    {
+      "id": "versuchen_5",
+      "tense": "Präsens",
+      "german": "Versucht ihr diesen leckeren Kuchen?",
+      "translation": {
+        "ru": "Попробуете этот вкусный пирог?",
+        "en": "Will you try this delicious cake?"
+      },
+      "bracket_parts": [
+        "Versucht"
+      ],
+      "akkusativ_parts": [
+        "diesen leckeren Kuchen"
+      ]
+    },
+    {
+      "id": "versuchen_6",
+      "tense": "Präteritum",
+      "german": "Sie versuchten damals einen neuen Ansatz.",
+      "translation": {
+        "ru": "Они попробовали тогда новый подход.",
+        "en": "They tried a new approach back then."
+      },
+      "bracket_parts": [
+        "versuchten"
+      ],
+      "akkusativ_parts": [
+        "einen neuen Ansatz"
+      ]
+    },
+    {
+      "id": "versuchen_7",
+      "tense": "Perfekt",
+      "german": "Ich habe den Sprung mutig versucht.",
+      "translation": {
+        "ru": "Я смело попытался сделать прыжок.",
+        "en": "I bravely attempted the jump."
+      },
+      "bracket_parts": [
+        "habe",
+        "versucht"
+      ],
+      "akkusativ_parts": [
+        "den Sprung"
+      ]
+    },
+    {
+      "id": "versuchen_8",
+      "tense": "Imperativ",
+      "german": "Versuche bitte diesen leisen Ton!",
+      "translation": {
+        "ru": "Попробуй, пожалуйста, эту тихую ноту!",
+        "en": "Please try this quiet tone!"
+      },
+      "bracket_parts": [
+        "Versuche"
+      ],
+      "akkusativ_parts": [
+        "diesen leisen Ton"
+      ]
+    }
+  ]
+}

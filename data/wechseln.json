@@ -1,0 +1,179 @@
+{
+  "id": "wechseln",
+  "infinitive": "wechseln",
+  "translation": {
+    "ru": "менять, обменивать (деньги, работу, колесо)",
+    "en": "to change, to exchange, to switch"
+  },
+  "level": "A2",
+  "frequency_rank": 220,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "wechseln",
+    "present_3sg": "wechselt",
+    "praeteritum_3sg": "wechselte",
+    "partizip_2": "gewechselt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wechsle",
+      "du": "wechselst",
+      "er_sie_es": "wechselt",
+      "wir": "wechseln",
+      "ihr": "wechselt",
+      "sie_Sie": "wechseln",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "wechselte",
+      "du": "wechseltest",
+      "er_sie_es": "wechselte",
+      "wir": "wechselten",
+      "ihr": "wechseltet",
+      "sie_Sie": "wechselten"
+    },
+    "imperative": {
+      "du": "wechsle!",
+      "ihr": "wechselt!",
+      "Sie": "wechseln Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Geld in eine andere Währung (Akk) wechseln",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich wechsle vor meiner Urlaubsreise nach London etwas Bargeld in britische Pfund.",
+      "translation": {
+        "ru": "Перед поездкой в отпуск в Лондон я меняю немного наличных денег на британские фунты.",
+        "en": "Before my holiday trip to London I exchange some cash into British pounds."
+      },
+      "bracket_parts": [
+        "wechsle"
+      ],
+      "akkusativ_parts": [
+        "etwas Bargeld",
+        "in britische Pfund"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Wechselst du nach fünf Jahren im selben Betrieb eigentlich bald deinen Arbeitsplatz?",
+      "translation": {
+        "ru": "Сменишь ли ты после пяти лет на одном предприятии на самом деле скоро свое место работы?",
+        "en": "Are you actually switching your job soon after five years in the same company?"
+      },
+      "bracket_parts": [
+        "Wechselst"
+      ],
+      "akkusativ_parts": [
+        "deinen Arbeitsplatz"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der erfahrene Mechaniker in der Werkstatt wechselt die abgenutzten Bremsbeläge in dreißig Minuten.",
+      "translation": {
+        "ru": "Опытный механик в мастерской меняет изношенные тормозные колодки за тридцать минут.",
+        "en": "The experienced mechanic in the workshop changes the worn brake pads in thirty minutes."
+      },
+      "bracket_parts": [
+        "wechselt"
+      ],
+      "akkusativ_parts": [
+        "die abgenutzten Bremsbeläge"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir wechseln im Frühling und im Herbst pünktlich die Reifen an unseren Familienautos.",
+      "translation": {
+        "ru": "Весной и осенью мы вовремя меняем шины на наших семейных автомобилях.",
+        "en": "In spring and autumn we change the tyres on our family cars on time."
+      },
+      "bracket_parts": [
+        "wechseln"
+      ],
+      "akkusativ_parts": [
+        "die Reifen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Wechselt ihr in der Halbzeitpause beim Basketballspiel eure Mannschaftsaufstellung?",
+      "translation": {
+        "ru": "Меняете ли вы в перерыве баскетбольного матча расстановку вашей команды?",
+        "en": "Do you change your team line-up during half-time in the basketball game?"
+      },
+      "bracket_parts": [
+        "Wechselt"
+      ],
+      "akkusativ_parts": [
+        "eure Mannschaftsaufstellung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern wechselte der verletzte Läufer die Schuhe und setzte das Rennen tapfer fort.",
+      "translation": {
+        "ru": "Вчера травмированный бегун сменил обувь и мужественно продолжил гонку.",
+        "en": "Yesterday the injured runner changed his shoes and bravely continued the race."
+      },
+      "bracket_parts": [
+        "wechselte"
+      ],
+      "akkusativ_parts": [
+        "die Schuhe"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Familie hat wegen des Umzugs in eine andere Stadt den Stromanbieter gewechselt.",
+      "translation": {
+        "ru": "Семья из-за переезда в другой город сменила поставщика электроэнергии.",
+        "en": "The family changed electricity suppliers because of moving to another city."
+      },
+      "bracket_parts": [
+        "hat",
+        "gewechselt"
+      ],
+      "akkusativ_parts": [
+        "den Stromanbieter"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Wechseln Sie das Passwort für Ihr Online-Banking bitte in regelmäßigen Abständen!",
+      "translation": {
+        "ru": "Меняйте пароль для вашего онлайн-банкинга, пожалуйста, через регулярные промежутки времени!",
+        "en": "Please change the password for your online banking at regular intervals!"
+      },
+      "bracket_parts": [
+        "Wechseln"
+      ],
+      "akkusativ_parts": [
+        "das Passwort"
+      ]
+    }
+  ]
+}

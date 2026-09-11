@@ -1,0 +1,201 @@
+{
+  "id": "zwingen_dat_zu",
+  "infinitive": "zwingen",
+  "translation": {
+    "ru": "вынуждать (к чему-то), принуждать",
+    "en": "to force (into/to)"
+  },
+  "level": "B1",
+  "frequency_rank": 272,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zwingen",
+    "present_3sg": "zwingt",
+    "praeteritum_3sg": "zwang",
+    "partizip_2": "gezwungen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "zwinge",
+      "du": "zwingst",
+      "er_sie_es": "zwingt",
+      "wir": "zwingen",
+      "ihr": "zwingt",
+      "sie_Sie": "zwingen"
+    },
+    "praeteritum": {
+      "ich": "zwang",
+      "du": "zwangst",
+      "er_sie_es": "zwang",
+      "wir": "zwangen",
+      "ihr": "zwangt",
+      "sie_Sie": "zwangen"
+    },
+    "imperative": {
+      "du": "zwinge!",
+      "ihr": "zwingt!",
+      "Sie": "zwingen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "zu",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "zu einer Entscheidung zwingen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich zwinge den Gegner zu vielen Fehlern.",
+      "translation": {
+        "ru": "Я вынуждаю соперника совершать много ошибок.",
+        "en": "I force the opponent into many errors."
+      },
+      "bracket_parts": [
+        "zwinge"
+      ],
+      "akkusativ_parts": [
+        "den Gegner"
+      ],
+      "dativ_parts": [
+        "vielen Fehlern"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Zwingst du deinen Partner zu einer schnellen Antwort?",
+      "translation": {
+        "ru": "Ты принуждаешь своего партнера к быстрому ответу?",
+        "en": "Are you forcing your partner into a quick answer?"
+      },
+      "bracket_parts": [
+        "Zwingst"
+      ],
+      "akkusativ_parts": [
+        "deinen Partner"
+      ],
+      "dativ_parts": [
+        "einer schnellen Antwort"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Situation zwingt die Regierung zu drastischen Schritten.",
+      "translation": {
+        "ru": "Ситуация вынуждает правительство к решительным шагам.",
+        "en": "The situation forces the government into drastic steps."
+      },
+      "bracket_parts": [
+        "zwingt"
+      ],
+      "akkusativ_parts": [
+        "die Regierung"
+      ],
+      "dativ_parts": [
+        "drastischen Schritten"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir zwingen die Firmen zu mehr Umweltschutz.",
+      "translation": {
+        "ru": "Мы принуждаем компании к большей защите природы.",
+        "en": "We force companies into more environmental protection."
+      },
+      "bracket_parts": [
+        "zwingen"
+      ],
+      "akkusativ_parts": [
+        "die Firmen"
+      ],
+      "dativ_parts": [
+        "mehr Umweltschutz"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Zwingt ihr die Mitarbeiter zu unbezahlten Überstunden?",
+      "translation": {
+        "ru": "Вы принуждаете сотрудников к неоплачиваемым переработкам?",
+        "en": "Are you guys forcing the employees into unpaid overtime?"
+      },
+      "bracket_parts": [
+        "Zwingt"
+      ],
+      "akkusativ_parts": [
+        "die Mitarbeiter"
+      ],
+      "dativ_parts": [
+        "unbezahlten Überstunden"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der dichte Nebel zwang den Kapitän zu einem Notstopp.",
+      "translation": {
+        "ru": "Густой туман вынудил капитана совершить экстренную остановку.",
+        "en": "The dense fog forced the captain to an emergency stop."
+      },
+      "bracket_parts": [
+        "zwang"
+      ],
+      "akkusativ_parts": [
+        "den Kapitän"
+      ],
+      "dativ_parts": [
+        "einem Notstopp"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Krise hat das Unternehmen zu harten Sparmaßnahmen gezwungen.",
+      "translation": {
+        "ru": "Кризис вынудил предприятие пойти на жесткие меры экономии.",
+        "en": "The crisis forced the company into severe austerity measures."
+      },
+      "bracket_parts": [
+        "hat",
+        "gezwungen"
+      ],
+      "akkusativ_parts": [
+        "das Unternehmen"
+      ],
+      "dativ_parts": [
+        "harten Sparmaßnahmen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Zwinge niemanden zu seinem Unglück!",
+      "translation": {
+        "ru": "Не толкай никого на его несчастье!",
+        "en": "Do not force anyone into their misfortune!"
+      },
+      "bracket_parts": [
+        "Zwinge"
+      ],
+      "akkusativ_parts": [
+        "niemanden"
+      ],
+      "dativ_parts": [
+        "seinem Unglück"
+      ]
+    }
+  ]
+}

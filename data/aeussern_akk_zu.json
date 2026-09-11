@@ -1,0 +1,201 @@
+{
+  "id": "aeussern_akk_zu",
+  "infinitive": "äußern",
+  "translation": {
+    "ru": "высказываться по поводу (чего-то)",
+    "en": "to comment on, express views on"
+  },
+  "level": "B2",
+  "frequency_rank": 363,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "äußern",
+    "present_3sg": "äußert",
+    "praeteritum_3sg": "äußerte",
+    "partizip_2": "geäußert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "äußere mich",
+      "du": "äußerst dich",
+      "er_sie_es": "äußert sich",
+      "wir": "äußern uns",
+      "ihr": "äußert euch",
+      "sie_Sie": "äußern sich"
+    },
+    "praeteritum": {
+      "ich": "äußerte mich",
+      "du": "äußertest dich",
+      "er_sie_es": "äußerte sich",
+      "wir": "äußerten uns",
+      "ihr": "äußertet euch",
+      "sie_Sie": "äußerten sich"
+    },
+    "imperative": {
+      "du": "äußere dich!",
+      "ihr": "äußert euch!",
+      "Sie": "äußern Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "zu",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "sich zu Vorwürfen äußern",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich äußere mich gern ausführlich zu diesem wichtigen Thema.",
+      "translation": {
+        "ru": "Я охотно подробно выскажусь по этой важной теме.",
+        "en": "I gladly comment in detail on this important topic."
+      },
+      "bracket_parts": [
+        "äußere"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": [
+        "diesem wichtigen Thema"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Äußerst du dich heute noch zu den Vorwürfen der Presse?",
+      "translation": {
+        "ru": "Ты выскажешься еще сегодня по поводу обвинений в прессе?",
+        "en": "Are you going to comment on the press allegations today?"
+      },
+      "bracket_parts": [
+        "Äußerst"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "den Vorwürfen der Presse"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Minister äußert sich vorsichtig zu den neuen Plänen.",
+      "translation": {
+        "ru": "Министр осторожно высказывается по поводу новых планов.",
+        "en": "The minister comments cautiously on the new plans."
+      },
+      "bracket_parts": [
+        "äußert"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "den neuen Plänen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir äußern uns im Moment nicht zu dem laufenden Verfahren.",
+      "translation": {
+        "ru": "В данный момент мы не высказываемся по текущему процессу.",
+        "en": "We are currently not commenting on the ongoing proceedings."
+      },
+      "bracket_parts": [
+        "äußern"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ],
+      "dativ_parts": [
+        "dem laufenden Verfahren"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Äußert ihr euch in der Sitzung zu den geplanten Kürzungen?",
+      "translation": {
+        "ru": "Вы выскажетесь на заседании по поводу запланированных сокращений?",
+        "en": "Will you guys comment in the meeting on the planned cuts?"
+      },
+      "bracket_parts": [
+        "Äußert"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ],
+      "dativ_parts": [
+        "den geplanten Kürzungen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Sprecher äußerte sich damals nur knapp zu dem Vorfall.",
+      "translation": {
+        "ru": "Спикер высказался тогда лишь кратко по поводу инцидента.",
+        "en": "The spokesperson commented only briefly on the incident back then."
+      },
+      "bracket_parts": [
+        "äußerte"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "dem Vorfall"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Niemand aus dem Vorstand hat sich zu dem Skandal geäußert.",
+      "translation": {
+        "ru": "Никто из руководства не высказался по поводу скандала.",
+        "en": "No one from the executive board commented on the scandal."
+      },
+      "bracket_parts": [
+        "hat",
+        "geäußert"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "dem Skandal"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Äußere dich bitte sachlich zu den vorgebrachten Argumenten!",
+      "translation": {
+        "ru": "Выскажись по существу приведенных аргументов, пожалуйста!",
+        "en": "Please comment objectively on the arguments presented!"
+      },
+      "bracket_parts": [
+        "Äußere"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "den vorgebrachten Argumenten"
+      ]
+    }
+  ]
+}

@@ -4,13 +4,17 @@ export interface StorageInterface {
   getString(key: string): string | undefined;
   set(key: string, value: string): void;
   delete(key: string): void;
+  clearAll(): void;
 }
 
 interface MMKVInstance {
   getString(key: string): string | undefined;
   set(key: string, value: string): void;
   delete(key: string): void;
+  clearAll?(): void;
 }
+
+const storageRegistry = new Set<UniversalStorage>();
 
 class UniversalStorage implements StorageInterface {
   private mmkv: MMKVInstance | null = null;
@@ -83,8 +87,34 @@ class UniversalStorage implements StorageInterface {
     this.memoryStore.delete(key);
     AsyncStorage.removeItem(`${this.prefix}:${key}`).catch(() => {});
   }
+
+  clearAll(): void {
+    if (this.mmkv) {
+      try {
+        this.mmkv.clearAll?.();
+      } catch {
+        // Fallback to memory
+      }
+    }
+    this.memoryStore.clear();
+    AsyncStorage.getAllKeys()
+      .then(keys => {
+        const prefixKey = `${this.prefix}:`;
+        const filteredKeys = keys.filter(k => k.startsWith(prefixKey));
+        return AsyncStorage.multiRemove(filteredKeys);
+      })
+      .catch(() => {});
+  }
 }
 
 export function createStorage(id: string): StorageInterface {
-  return new UniversalStorage(id);
+  const storage = new UniversalStorage(id);
+  storageRegistry.add(storage);
+  return storage;
+}
+
+export function resetAllStorages(): void {
+  storageRegistry.forEach(storage => {
+    storage.clearAll();
+  });
 }

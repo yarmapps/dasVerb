@@ -1,0 +1,153 @@
+{
+  "id": "fahren",
+  "infinitive": "fahren",
+  "translation": {
+    "ru": "ехать, ехать на транспорте, водить машину",
+    "en": "to drive, ride, go by vehicle"
+  },
+  "level": "A1",
+  "frequency_rank": 34,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "fahren",
+    "present_3sg": "fährt",
+    "praeteritum_3sg": "fuhr",
+    "partizip_2": "gefahren"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "fahre",
+      "du": "fährst",
+      "er_sie_es": "fährt",
+      "wir": "fahren",
+      "ihr": "fahrt",
+      "sie_Sie": "fahren"
+    },
+    "praeteritum": {
+      "ich": "fuhr",
+      "du": "fuhrst",
+      "er_sie_es": "fuhr",
+      "wir": "fuhren",
+      "ihr": "fuhrt",
+      "sie_Sie": "fuhren"
+    },
+    "imperative": {
+      "du": "fahr!",
+      "ihr": "fahrt!",
+      "Sie": "fahren Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "mit dem Auto fahren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich fahre jeden Morgen mit dem Bus zur Uni.",
+      "translation": {
+        "ru": "Каждое утро я езжу на автобусе в университет.",
+        "en": "I take the bus to university every morning."
+      },
+      "bracket_parts": [
+        "fahre"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Fährst du lieber Fahrrad oder Zug?",
+      "translation": {
+        "ru": "Ты предпочитаешь ездить на велосипеде или на поезде?",
+        "en": "Do you prefer riding a bike or taking a train?"
+      },
+      "bracket_parts": [
+        "Fährst"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er fährt immer sehr vorsichtig.",
+      "translation": {
+        "ru": "Он всегда водит очень осторожно.",
+        "en": "He always drives very carefully."
+      },
+      "bracket_parts": [
+        "fährt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir fahren im Sommer an die Ostsee.",
+      "translation": {
+        "ru": "Летом мы поедем на Балтийское море.",
+        "en": "We are traveling to the Baltic Sea in summer."
+      },
+      "bracket_parts": [
+        "fahren"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Fahrt ihr am Wochenende in die Berge?",
+      "translation": {
+        "ru": "Вы едете на выходных в горы?",
+        "en": "Are you guys driving to the mountains on the weekend?"
+      },
+      "bracket_parts": [
+        "Fahrt"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie fuhren stundenlang über die leere Autobahn.",
+      "translation": {
+        "ru": "Они часами ехали по пустому автобану.",
+        "en": "They drove for hours along the empty highway."
+      },
+      "bracket_parts": [
+        "fuhren"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Mein Vater ist heute mit dem Zug gefahren.",
+      "translation": {
+        "ru": "Мой папа сегодня поехал на поезде.",
+        "en": "My father traveled by train today."
+      },
+      "bracket_parts": [
+        "ist",
+        "gefahren"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Fahr vorsichtig bei diesem Glatteis!",
+      "translation": {
+        "ru": "Езжай осторожно по такому гололеду!",
+        "en": "Drive carefully on this black ice!"
+      },
+      "bracket_parts": [
+        "Fahr"
+      ]
+    }
+  ]
+}

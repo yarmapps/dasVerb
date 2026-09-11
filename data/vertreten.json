@@ -1,0 +1,177 @@
+{
+  "id": "vertreten",
+  "infinitive": "vertreten",
+  "translation": {
+    "ru": "заменять (коллегу), представлять (интересы), отстаивать (мнение)",
+    "en": "to represent, substitute for, advocate"
+  },
+  "level": "B1",
+  "frequency_rank": 228,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vertreten",
+    "present_3sg": "vertritt",
+    "praeteritum_3sg": "vertrat",
+    "partizip_2": "vertreten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vertrete",
+      "du": "vertrittst",
+      "er_sie_es": "vertritt",
+      "wir": "vertreten",
+      "ihr": "vertretet",
+      "sie_Sie": "vertreten"
+    },
+    "praeteritum": {
+      "ich": "vertrat",
+      "du": "vertratest",
+      "er_sie_es": "vertrat",
+      "wir": "vertraten",
+      "ihr": "vertratet",
+      "sie_Sie": "vertraten"
+    },
+    "imperative": {
+      "du": "vertritt!",
+      "ihr": "vertretet!",
+      "Sie": "vertreten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Interessen vertreten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich vertrete meine kranke Kollegin diese Woche im Büro.",
+      "translation": {
+        "ru": "На этой неделе я заменяю в офисе заболевшую коллегу.",
+        "en": "I am substituting for my sick colleague in the office this week."
+      },
+      "bracket_parts": [
+        "vertrete"
+      ],
+      "akkusativ_parts": [
+        "meine kranke Kollegin"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Vertrittst du immer noch diesen veralteten Standpunkt?",
+      "translation": {
+        "ru": "Ты по-прежнему придерживаешься этой устаревшей точки зрения?",
+        "en": "Do you still represent this outdated point of view?"
+      },
+      "bracket_parts": [
+        "Vertrittst"
+      ],
+      "akkusativ_parts": [
+        "diesen veralteten Standpunkt"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Rechtsanwalt vertritt den Angeklagten vor Gericht.",
+      "translation": {
+        "ru": "Адвокат представляет подсудимого в суде.",
+        "en": "The lawyer represents the defendant in court."
+      },
+      "bracket_parts": [
+        "vertritt"
+      ],
+      "akkusativ_parts": [
+        "den Angeklagten"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir vertreten die gemeinsamen Interessen der Bürger.",
+      "translation": {
+        "ru": "Мы представляем общие интересы граждан.",
+        "en": "We represent the common interests of the citizens."
+      },
+      "bracket_parts": [
+        "vertreten"
+      ],
+      "akkusativ_parts": [
+        "die gemeinsamen Interessen der Bürger"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Vertretet ihr eure Universität bei diesem Wettbewerb?",
+      "translation": {
+        "ru": "Вы представляете свой университет на этом конкурсе?",
+        "en": "Are you guys representing your university at this competition?"
+      },
+      "bracket_parts": [
+        "Vertretet"
+      ],
+      "akkusativ_parts": [
+        "eure Universität"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie vertraten damals eine sehr progressive Ansicht.",
+      "translation": {
+        "ru": "Они придерживались в то время очень прогрессивных взглядов.",
+        "en": "They held a very progressive view back then."
+      },
+      "bracket_parts": [
+        "vertraten"
+      ],
+      "akkusativ_parts": [
+        "eine sehr progressive Ansicht"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Botschafter hat unser Land vorbildlich vertreten.",
+      "translation": {
+        "ru": "Посол образцово представлял нашу страну.",
+        "en": "The ambassador represented our country in an exemplary manner."
+      },
+      "bracket_parts": [
+        "hat",
+        "vertreten"
+      ],
+      "akkusativ_parts": [
+        "unser Land"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Vertritt deine eigene Meinung mit Stolz!",
+      "translation": {
+        "ru": "Отстаивай собственное мнение с гордостью!",
+        "en": "Advocate your own opinion with pride!"
+      },
+      "bracket_parts": [
+        "Vertritt"
+      ],
+      "akkusativ_parts": [
+        "deine eigene Meinung"
+      ]
+    }
+  ]
+}

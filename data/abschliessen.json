@@ -1,0 +1,184 @@
+{
+  "id": "abschliessen",
+  "infinitive": "abschließen",
+  "translation": {
+    "ru": "запирать на замок; завершать, заключать (договор)",
+    "en": "to lock, conclude, complete, sign"
+  },
+  "level": "A2",
+  "frequency_rank": 239,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ab",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "abschließen",
+    "present_3sg": "schließt ab",
+    "praeteritum_3sg": "schloss ab",
+    "partizip_2": "abgeschlossen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schließe ab",
+      "du": "schließt ab",
+      "er_sie_es": "schließt ab",
+      "wir": "schließen ab",
+      "ihr": "schließt ab",
+      "sie_Sie": "schließen ab"
+    },
+    "praeteritum": {
+      "ich": "schloss ab",
+      "du": "schlossest ab",
+      "er_sie_es": "schloss ab",
+      "wir": "schlossen ab",
+      "ihr": "schlosst ab",
+      "sie_Sie": "schlossen ab"
+    },
+    "imperative": {
+      "du": "schließe ab!",
+      "ihr": "schließt ab!",
+      "Sie": "schließen Sie ab!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen Vertrag abschließen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich schließe die Haustür am Abend immer sorgfältig ab.",
+      "translation": {
+        "ru": "Вечером я всегда тщательно запираю входную дверь.",
+        "en": "I always lock the front door carefully in the evening."
+      },
+      "bracket_parts": [
+        "schließe",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "die Haustür"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Schließt du die Versicherung für das Auto heute ab?",
+      "translation": {
+        "ru": "Ты оформишь страховку на машину сегодня?",
+        "en": "Are you taking out insurance for the car today?"
+      },
+      "bracket_parts": [
+        "Schließt",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "die Versicherung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Studentin schließt ihr Studium in diesem Semester ab.",
+      "translation": {
+        "ru": "Студентка завершает учебу в этом семестре.",
+        "en": "The student is completing her studies this semester."
+      },
+      "bracket_parts": [
+        "schließt",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "ihr Studium"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir schließen einen lukrativen Vertrag mit dem Partner ab.",
+      "translation": {
+        "ru": "Мы заключаем выгодный договор с партнером.",
+        "en": "We are concluding a lucrative contract with the partner."
+      },
+      "bracket_parts": [
+        "schließen",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "einen lukrativen Vertrag"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Schließt ihr die Fahrradschlösser vor dem Gebäude ab?",
+      "translation": {
+        "ru": "Вы запираете велосипедные замки перед зданием?",
+        "en": "Do you guys lock the bike locks in front of the building?"
+      },
+      "bracket_parts": [
+        "Schließt",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "die Fahrradschlösser"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie schlossen das Geschäft mit einem kräftigen Händedruck ab.",
+      "translation": {
+        "ru": "Они заключили сделку крепким рукопожатием.",
+        "en": "They concluded the deal with a firm handshake."
+      },
+      "bracket_parts": [
+        "schlossen",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "das Geschäft"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Mein Bruder hat seine Ausbildung mit Bestnoten abgeschlossen.",
+      "translation": {
+        "ru": "Мой брат закончил профессиональное обучение с отличием.",
+        "en": "My brother completed his vocational training with top grades."
+      },
+      "bracket_parts": [
+        "hat",
+        "abgeschlossen"
+      ],
+      "akkusativ_parts": [
+        "seine Ausbildung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Schließe bitte die Tür ab, wenn du gehst!",
+      "translation": {
+        "ru": "Запри дверь на ключ, когда будешь уходить, пожалуйста!",
+        "en": "Please lock the door when you leave!"
+      },
+      "bracket_parts": [
+        "Schließe",
+        "ab"
+      ],
+      "akkusativ_parts": [
+        "die Tür"
+      ]
+    }
+  ]
+}

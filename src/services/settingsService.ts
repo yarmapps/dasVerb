@@ -12,6 +12,8 @@ export interface AppSettings {
   themeMode: 'light' | 'dark' | 'system';
   speakOnCorrectAnswer: boolean;
   ttsVoiceGender: 'female' | 'male';
+  completedQuizCount: number;
+  lastReviewPromptDate: string | null;
 }
 
 const DEFAULT_SETTINGS: AppSettings = {
@@ -20,6 +22,8 @@ const DEFAULT_SETTINGS: AppSettings = {
   themeMode: 'system',
   speakOnCorrectAnswer: true,
   ttsVoiceGender: 'female',
+  completedQuizCount: 0,
+  lastReviewPromptDate: null,
 };
 
 export function getSettings(): AppSettings {
@@ -45,6 +49,25 @@ export function updateSettings(newSettings: Partial<AppSettings>): void {
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Error updating settings:', error);
+  }
+}
+
+export function resetLanguageSettings(): void {
+  try {
+    storage.delete(LANGUAGE_KEY);
+  } catch (e) {
+    // eslint-disable-next-line no-console
+    console.error(e);
+  }
+}
+
+export function resetAllSettings(): void {
+  try {
+    storage.set(SETTINGS_KEY, JSON.stringify(DEFAULT_SETTINGS));
+    storage.delete(LANGUAGE_KEY);
+  } catch (error) {
+    // eslint-disable-next-line no-console
+    console.error('Error resetting settings:', error);
   }
 }
 

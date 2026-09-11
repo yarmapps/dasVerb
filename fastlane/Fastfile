@@ -1,0 +1,527 @@
+def archive_metadata_history(platform)
+  date_str = Time.now.strftime("%d.%m.%Y")
+  meta_src_dir = File.expand_path("metadata/#{platform}", __dir__)
+  shots_src_dir = File.expand_path("screenshots/#{platform}", __dir__)
+  base_history_dir = File.expand_path("metadata_history/#{platform}", __dir__)
+  dest_dir = File.join(base_history_dir, date_str)
+
+  unless File.exist?(meta_src_dir)
+    UI.error("Could not find metadata at #{meta_src_dir}")
+    return
+  end
+
+  existing_snapshots = Dir.glob(File.join(base_history_dir, "*")).select { |f| File.directory?(f) }
+  latest_snapshot = existing_snapshots.sort_by { |f| File.mtime(f) }.last
+
+  if latest_snapshot
+    has_changes = false
+
+    Dir.glob(File.join(meta_src_dir, "**", "*")).each do |src_file|
+      next if File.directory?(src_file)
+
+      rel_path = src_file.sub("#{meta_src_dir}/", "")
+      next if rel_path.end_with?("release_notes.txt") || rel_path.include?("changelogs/")
+
+      snapshot_file = File.join(latest_snapshot, rel_path)
+      snapshot_file_nested = File.join(latest_snapshot, "metadata", rel_path)
+
+      unless (File.exist?(snapshot_file) && File.read(src_file) == File.read(snapshot_file)) ||
+             (File.exist?(snapshot_file_nested) && File.read(src_file) == File.read(snapshot_file_nested))
+        has_changes = true
+        break
+      end
+    end
+
+    if !has_changes && File.exist?(shots_src_dir)
+      Dir.glob(File.join(shots_src_dir, "**", "*")).each do |src_file|
+        next if File.directory?(src_file)
+
+        rel_path = src_file.sub("#{shots_src_dir}/", "")
+        snapshot_file = File.join(latest_snapshot, "screenshots", rel_path)
+
+        unless File.exist?(snapshot_file) && File.read(src_file) == File.read(snapshot_file)
+          has_changes = true
+          break
+        end
+      end
+    end
+
+    unless has_changes
+      UI.message("Skipped archiving #{platform} history (no changes to core metadata or screenshots detected).")
+      return
+    end
+  end
+
+  meta_dest = File.join(dest_dir, "metadata")
+  FileUtils.mkdir_p(meta_dest)
+  FileUtils.cp_r("#{meta_src_dir}/.", meta_dest)
+
+  if File.exist?(shots_src_dir)
+    shots_dest = File.join(dest_dir, "screenshots")
+    FileUtils.mkdir_p(shots_dest)
+    FileUtils.cp_r("#{shots_src_dir}/.", shots_dest)
+  end
+
+  UI.success("Archived #{platform} core metadata & screenshots to ./fastlane/metadata_history/#{platform}/#{date_str} 📦")
+end
+
+default_platform(:ios)
+
+platform :ios do
+  before_all do
+    key_id = ENV["APP_STORE_CONNECT_API_KEY_KEY_ID"] || "3P98PH5M24"
+    issuer_id = ENV["APP_STORE_CONNECT_API_KEY_ISSUER_ID"] || "4222448c-08ac-4305-b6b8-471b102c1dbf"
+    key_filepath = ENV["APP_STORE_CONNECT_API_KEY_KEY_FILEPATH"] || "./credentials/ios/AuthKey_#{key_id}.p8"
+
+    if issuer_id && !issuer_id.empty?
+      app_store_connect_api_key(
+        key_id: key_id,
+        issuer_id: issuer_id,
+        key_filepath: key_filepath
+      )
+    end
+  end
+
+  desc "Download live App Store metadata directly into fastlane/metadata/ios"
+  lane :download_metadata do
+    app = Spaceship::ConnectAPI::App.find("com.yarm.apps.dasverb")
+    unless app
+      UI.user_error!("Could not find app com.yarm.apps.dasverb on App Store Connect")
+    end
+
+    # 1. Fetch Version Localizations (description, keywords, release_notes, promo text, URLs)
+    versions = app.get_app_store_versions
+    versions.each do |v|
+      locs = v.get_app_store_version_localizations rescue []
+      locs.each do |loc|
+        locale = loc.locale
+        dir = File.join("./metadata/ios", locale)
+        FileUtils.mkdir_p(dir)
+
+        desc_text = loc.description rescue nil
+        keywords_text = loc.keywords rescue nil
+        notes_text = loc.whats_new rescue nil
+        promo_text = loc.promotional_text rescue nil
+        support_text = loc.support_url rescue nil
+        marketing_text = loc.marketing_url rescue nil
+
+        File.write(File.join(dir, "description.txt"), desc_text.to_s) if desc_text && !desc_text.to_s.empty?
+        File.write(File.join(dir, "keywords.txt"), keywords_text.to_s) if keywords_text && !keywords_text.to_s.empty?
+        File.write(File.join(dir, "release_notes.txt"), notes_text.to_s) if notes_text && !notes_text.to_s.empty?
+        File.write(File.join(dir, "promotional_text.txt"), promo_text.to_s) if promo_text && !promo_text.to_s.empty?
+        File.write(File.join(dir, "support_url.txt"), support_text.to_s) if support_text && !support_text.to_s.empty?
+        File.write(File.join(dir, "marketing_url.txt"), marketing_text.to_s) if marketing_text && !marketing_text.to_s.empty?
+      end
+    end
+
+    # 2. Fetch App Info Localizations (Name, Subtitle, Privacy URL)
+    begin
+      app_infos = Spaceship::ConnectAPI.get_app_infos(app_id: app.id)
+      if app_infos && app_infos.first
+        info_locs = app_infos.first.get_app_info_localizations rescue []
+        info_locs.each do |info_loc|
+          locale = info_loc.locale
+          dir = File.join("./metadata/ios", locale)
+          FileUtils.mkdir_p(dir)
+
+          name_text = info_loc.name rescue nil
+          subtitle_text = info_loc.subtitle rescue nil
+          privacy_text = info_loc.privacy_policy_url rescue nil
+
+          File.write(File.join(dir, "name.txt"), name_text.to_s) if name_text && !name_text.to_s.empty?
+          File.write(File.join(dir, "subtitle.txt"), subtitle_text.to_s) if subtitle_text && !subtitle_text.to_s.empty?
+          File.write(File.join(dir, "privacy_url.txt"), privacy_text.to_s) if privacy_text && !privacy_text.to_s.empty?
+        end
+      end
+    rescue => e
+      UI.error("App Info fetch error: #{e.message}")
+    end
+
+    UI.success("Successfully downloaded all live App Store metadata into ./fastlane/metadata/ios 🎉")
+  end
+
+  desc "Download live App Store screenshots into fastlane/screenshots/ios"
+  lane :download_screenshots do
+    require 'open-uri'
+    app = Spaceship::ConnectAPI::App.find("com.yarm.apps.dasverb")
+    unless app
+      UI.user_error!("Could not find app com.yarm.apps.dasverb on App Store Connect")
+    end
+
+    version = app.get_edit_app_store_version || app.get_live_app_store_version
+    unless version
+      UI.user_error!("Could not find active version on App Store Connect")
+    end
+
+    UI.message("Fetching screenshots for #{app.name} (Version #{version.version_string})...")
+
+    localizations = version.get_app_store_version_localizations
+    localizations.each do |loc|
+      locale = loc.locale
+      screenshot_sets = loc.get_app_screenshot_sets rescue []
+
+      screenshot_sets.each do |set|
+        display_type = set.screenshot_display_type
+        screenshots = set.app_screenshots rescue []
+
+        screenshots.each_with_index do |shot, index|
+          image_url = shot.image_asset_url rescue nil
+          next unless image_url
+
+          dir = File.join("./screenshots/ios", locale)
+          FileUtils.mkdir_p(dir)
+
+          file_name = "#{display_type}_#{index + 1}.png"
+          file_path = File.join(dir, file_name)
+
+          begin
+            URI.open(image_url) do |image|
+              File.open(file_path, 'wb') do |file|
+                file.write(image.read)
+              end
+            end
+            UI.success("Downloaded screenshot for [#{locale}]: #{file_name}")
+          rescue => e
+            UI.error("Failed downloading screenshot #{file_name}: #{e.message}")
+          end
+        end
+      end
+    end
+
+    UI.success("Successfully downloaded all live App Store screenshots into ./fastlane/screenshots/ios 🎉")
+  end
+
+  desc "Upload updated text metadata from fastlane/metadata/ios to App Store Connect"
+  lane :sync_metadata do
+    archive_metadata_history("ios")
+    deliver(
+      metadata_path: "./fastlane/metadata/ios",
+      skip_binary_upload: true,
+      skip_screenshots: true,
+      precheck_include_in_app_purchases: false,
+      force: true
+    )
+  end
+
+  desc "Upload screenshots from fastlane/screenshots/ios to App Store Connect"
+  lane :sync_screenshots do
+    archive_metadata_history("ios")
+    deliver(
+      metadata_path: "./fastlane/metadata/ios",
+      screenshots_path: "./fastlane/screenshots/ios",
+      skip_binary_upload: true,
+      skip_metadata: true,
+      overwrite_screenshots: true,
+      precheck_include_in_app_purchases: false,
+      force: true
+    )
+  end
+
+  desc "Upload production build.ipa and metadata to App Store Connect"
+  lane :release_production do |options|
+    archive_metadata_history("ios")
+    ipa_path = options[:ipa] || "build.ipa"
+    deliver(
+      metadata_path: "./fastlane/metadata/ios",
+      screenshots_path: "./fastlane/screenshots/ios",
+      ipa: ipa_path,
+      overwrite_screenshots: true,
+      precheck_include_in_app_purchases: false,
+      force: true,
+      submit_for_review: false
+    )
+  end
+
+  desc "Check existing in-app purchases and subscriptions on App Store Connect"
+  lane :check_iap do
+    app = Spaceship::ConnectAPI::App.find("com.yarm.apps.dasverb")
+    UI.message("Found App: #{app.name} (ID: #{app.id})")
+
+    iaps = Spaceship::ConnectAPI.get_in_app_purchases(filter: { app: app.id }).all_pages rescue []
+    UI.message("Existing In-App Purchases (#{iaps.length}):")
+    iaps.each do |iap|
+      UI.message(" - #{iap.name} (#{iap.product_id}) [#{iap.in_app_purchase_type}] - #{iap.state}")
+    end
+
+    groups = Spaceship::ConnectAPI.get_subscription_groups(filter: { app: app.id }).all_pages rescue []
+    UI.message("Existing Subscription Groups (#{groups.length}):")
+    groups.each do |group|
+      UI.message(" Group: #{group.reference_name} (ID: #{group.id})")
+      subs = Spaceship::ConnectAPI.get_subscriptions(filter: { subscription_group: group.id }).all_pages rescue []
+      subs.each do |sub|
+        UI.message("   - #{sub.name} (#{sub.product_id}) [#{sub.subscription_period}] - #{sub.state}")
+      end
+    end
+  end
+
+  desc "Create subscription group, subscriptions and lifetime IAP on App Store Connect"
+  lane :setup_iap do
+    app = Spaceship::ConnectAPI::App.find("com.yarm.apps.dasverb")
+    UI.message("Setting up IAP and Subscriptions for: #{app.name} (ID: #{app.id})")
+    client = Spaceship::ConnectAPI.client.tunes_request_client
+    UI.message("tunes client methods: #{client.methods - Object.methods}")
+    UI.message("client hostname: #{client.hostname rescue 'none'}")
+    UI.message("client url_builder: #{client.url_builder rescue 'none'}")
+
+    # 1. Lifetime Non-Consumable IAP
+    begin
+      iaps = Spaceship::ConnectAPI.get_in_app_purchases(filter: { app: app.id }).all_pages rescue []
+      lifetime = iaps.find { |i| i.product_id == "premium_lifetime" }
+      if lifetime
+        UI.success("Lifetime product already exists: #{lifetime.product_id} (ID: #{lifetime.id})")
+      else
+        body = {
+          data: {
+            type: "inAppPurchases",
+            attributes: {
+              name: "Lifetime Premium",
+              productId: "premium_lifetime",
+              inAppPurchaseType: "NON_CONSUMABLE"
+            },
+            relationships: {
+              app: {
+                data: {
+                  type: "apps",
+                  id: app.id
+                }
+              }
+            }
+          }
+        }
+        res = Spaceship::ConnectAPI.client.tunes_request_client.post("inAppPurchasesV2", body)
+        UI.success("Created Lifetime In-App Purchase: premium_lifetime 🎉")
+      end
+    rescue => e
+      UI.error("Error creating Lifetime IAP: #{e.message}")
+    end
+
+    # 2. Subscription Group
+    group_id = nil
+    begin
+      groups = Spaceship::ConnectAPI.get_subscription_groups(filter: { app: app.id }).all_pages rescue []
+      group = groups.find { |g| g.reference_name == "dasVerb Premium" }
+      if group
+        group_id = group.id
+        UI.success("Subscription Group already exists: #{group.reference_name} (ID: #{group_id})")
+      else
+        body = {
+          data: {
+            type: "subscriptionGroups",
+            attributes: {
+              referenceName: "dasVerb Premium"
+            },
+            relationships: {
+              app: {
+                data: {
+                  type: "apps",
+                  id: app.id
+                }
+              }
+            }
+          }
+        }
+        res = Spaceship::ConnectAPI.client.tunes_request_client.post("subscriptionGroups", body)
+        group_id = res.body["data"]["id"]
+        UI.success("Created Subscription Group: dasVerb Premium (ID: #{group_id}) 🎉")
+      end
+    rescue => e
+      UI.error("Error creating Subscription Group: #{e.message}")
+    end
+
+    # 3. Subscriptions (Monthly & Yearly)
+    if group_id
+      existing_subs = Spaceship::ConnectAPI.get_subscriptions(filter: { subscription_group: group_id }).all_pages rescue []
+
+      # Monthly
+      monthly = existing_subs.find { |s| s.product_id == "premium_monthly" }
+      if monthly
+        UI.success("Monthly subscription already exists: premium_monthly (ID: #{monthly.id})")
+      else
+        begin
+          body = {
+            data: {
+              type: "subscriptions",
+              attributes: {
+                name: "Monthly Premium",
+                productId: "premium_monthly",
+                subscriptionPeriod: "ONE_MONTH",
+                groupLevel: 2
+              },
+              relationships: {
+                group: {
+                  data: {
+                    type: "subscriptionGroups",
+                    id: group_id
+                  }
+                }
+              }
+            }
+          }
+          res = Spaceship::ConnectAPI.client.tunes_request_client.post("subscriptions", body)
+          UI.success("Created Monthly Subscription: premium_monthly 🎉")
+        rescue => e
+          UI.error("Error creating Monthly Subscription: #{e.message}")
+        end
+      end
+
+      # Yearly
+      yearly = existing_subs.find { |s| s.product_id == "premium_yearly" }
+      if yearly
+        UI.success("Yearly subscription already exists: premium_yearly (ID: #{yearly.id})")
+      else
+        begin
+          body = {
+            data: {
+              type: "subscriptions",
+              attributes: {
+                name: "Yearly Premium",
+                productId: "premium_yearly",
+                subscriptionPeriod: "ONE_YEAR",
+                groupLevel: 1
+              },
+              relationships: {
+                group: {
+                  data: {
+                    type: "subscriptionGroups",
+                    id: group_id
+                  }
+                }
+              }
+            }
+          }
+          res = Spaceship::ConnectAPI.client.tunes_request_client.post("subscriptions", body)
+          UI.success("Created Yearly Subscription: premium_yearly 🎉")
+        rescue => e
+          UI.error("Error creating Yearly Subscription: #{e.message}")
+        end
+      end
+    end
+
+    UI.success("All App Store Connect IAPs and Subscriptions configured successfully! 🚀")
+  end
+
+  desc "Create Subscription Group Localizations on App Store Connect"
+  lane :setup_subscription_group_localizations do
+    app = Spaceship::ConnectAPI::App.find("com.yarm.apps.dasverb")
+    unless app
+      UI.user_error!("Could not find app com.yarm.apps.dasverb on App Store Connect")
+    end
+
+    resp = Spaceship::ConnectAPI.client.tunes_request_client.get("subscriptionGroups", { "filter[app]" => app.id })
+    groups_data = (resp.body && resp.body["data"]) || []
+    if groups_data.empty?
+      UI.user_error!("No subscription groups found for app #{app.name}")
+    end
+
+    localizations_map = {
+      "en-US" => "dasVerb Premium",
+      "ru" => "dasVerb Премиум",
+      "de-DE" => "dasVerb Premium",
+      "fr-FR" => "dasVerb Premium",
+      "es-ES" => "dasVerb Premium",
+      "es-MX" => "dasVerb Premium",
+      "it" => "dasVerb Premium",
+      "pt-BR" => "dasVerb Premium",
+      "pt-PT" => "dasVerb Premium",
+      "uk" => "dasVerb Преміум",
+      "tr" => "dasVerb Premium",
+      "pl" => "dasVerb Premium",
+      "vi" => "dasVerb Premium",
+      "nl-NL" => "dasVerb Premium",
+      "ar-SA" => "dasVerb Premium",
+      "zh-Hans" => "dasVerb Premium"
+    }
+
+    groups_data.each do |group_json|
+      group_id = group_json["id"]
+      group_name = group_json["attributes"]["referenceName"]
+      UI.message("Processing Subscription Group: #{group_name} (ID: #{group_id})")
+
+      # Fetch existing localizations
+      existing_locs = []
+      begin
+        loc_resp = Spaceship::ConnectAPI.client.tunes_request_client.get("subscriptionGroups/#{group_id}/subscriptionGroupLocalizations")
+        if loc_resp && loc_resp.body && loc_resp.body["data"]
+          existing_locs = loc_resp.body["data"].map { |d| d["attributes"]["locale"] }
+        end
+      rescue => e
+        UI.important("Could not fetch existing localizations: #{e.message}")
+      end
+
+      localizations_map.each do |locale, display_name|
+        if existing_locs.include?(locale)
+          UI.success("Localization '#{locale}' already exists for group #{group_name}")
+          next
+        end
+
+        body = {
+          data: {
+            type: "subscriptionGroupLocalizations",
+            attributes: {
+              locale: locale,
+              name: display_name
+            },
+            relationships: {
+              subscriptionGroup: {
+                data: {
+                  type: "subscriptionGroups",
+                  id: group_id
+                }
+              }
+            }
+          }
+        }
+
+        begin
+          Spaceship::ConnectAPI.client.tunes_request_client.post("subscriptionGroupLocalizations", body)
+          UI.success("Successfully created localization '#{locale}' ('#{display_name}') for group #{group_name} 🎉")
+        rescue => e
+          UI.error("Failed to create localization '#{locale}': #{e.message}")
+        end
+      end
+    end
+
+    UI.success("Finished configuring subscription group localizations! 🚀")
+  end
+end
+
+platform :android do
+  desc "Download Google Play Store metadata into fastlane/metadata/android"
+  lane :download_metadata do
+    json_key_file = ENV["PLAY_STORE_JSON_KEY"] || File.expand_path("../credentials/android/play-service-account.json", __dir__)
+    sh("rm -rf ./fastlane/metadata/android && fastlane supply init --metadata_path ./fastlane/metadata/android --json_key '#{json_key_file}' --package_name com.yarm.apps.dasverb")
+  end
+
+  desc "Upload updated text metadata & changelogs to Google Play"
+  lane :sync_metadata do |options|
+    archive_metadata_history("android")
+    json_key_file = ENV["PLAY_STORE_JSON_KEY"] || File.expand_path("../credentials/android/play-service-account.json", __dir__)
+    version_code = options[:version_code] || "1"
+
+    supply(
+      json_key: json_key_file,
+      package_name: "com.yarm.apps.dasverb",
+      metadata_path: "./fastlane/metadata/android",
+      version_code: version_code,
+      skip_upload_apk: true,
+      skip_upload_aab: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true
+    )
+  end
+
+  desc "Upload production build.aab to Google Play Store"
+  lane :release_production do |options|
+    archive_metadata_history("android")
+    aab_path = options[:aab] || "build.aab"
+    json_key_file = ENV["PLAY_STORE_JSON_KEY"] || File.expand_path("../credentials/android/play-service-account.json", __dir__)
+
+    supply(
+      json_key: json_key_file,
+      package_name: "com.yarm.apps.dasverb",
+      metadata_path: "./fastlane/metadata/android",
+      aab: aab_path,
+      track: "production"
+    )
+  end
+end

@@ -1,0 +1,171 @@
+{
+  "id": "beherrschen",
+  "infinitive": "beherrschen",
+  "translation": {
+    "ru": "владеть, господствовать, контролировать",
+    "en": "to control, master, dominate"
+  },
+  "level": "B1",
+  "frequency_rank": 445,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beherrschen",
+    "present_3sg": "beherrscht",
+    "praeteritum_3sg": "beherrschte",
+    "partizip_2": "beherrscht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beherrsche",
+      "du": "beherrschst",
+      "er_sie_es": "beherrscht",
+      "wir": "beherrschen",
+      "ihr": "beherrscht",
+      "sie_Sie": "beherrschen"
+    },
+    "praeteritum": {
+      "ich": "beherrschte",
+      "du": "beherrschtest",
+      "er_sie_es": "beherrschte",
+      "wir": "beherrschten",
+      "ihr": "beherrschtet",
+      "sie_Sie": "beherrschten"
+    },
+    "perfekt": {
+      "ich": "habe beherrscht",
+      "du": "hast beherrscht",
+      "er_sie_es": "hat beherrscht",
+      "wir": "haben beherrscht",
+      "ihr": "habt beherrscht",
+      "sie_Sie": "haben beherrscht"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich beherrsche drei verschiedene Fremdsprachen fließend.",
+      "translation": {
+        "ru": "Я свободно владею тремя иностранными языками.",
+        "en": "I master three different foreign languages fluently."
+      },
+      "bracket_parts": [
+        "beherrsche"
+      ],
+      "akkusativ_parts": [
+        "drei verschiedene Fremdsprachen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du beherrschst dein Musikinstrument wirklich meisterhaft.",
+      "translation": {
+        "ru": "Ты действительно виртуозно владеешь своим музыкальным инструментом.",
+        "en": "You truly master your musical instrument masterfully."
+      },
+      "bracket_parts": [
+        "beherrschst"
+      ],
+      "akkusativ_parts": [
+        "dein Musikinstrument"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der erfahrene Kapitän beherrscht das Schiff bei Sturm.",
+      "translation": {
+        "ru": "Опытный капитан справляется с кораблем во время шторма.",
+        "en": "The experienced captain controls the ship in a storm."
+      },
+      "bracket_parts": [
+        "beherrscht"
+      ],
+      "akkusativ_parts": [
+        "das Schiff"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beherrschen die Grundlagen der modernen Programmierung.",
+      "translation": {
+        "ru": "Мы владеем основами современного программирования.",
+        "en": "We master the basics of modern programming."
+      },
+      "bracket_parts": [
+        "beherrschen"
+      ],
+      "akkusativ_parts": [
+        "die Grundlagen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr beherrscht die Regeln des Spiels ganz genau.",
+      "translation": {
+        "ru": "Вы точно знаете и соблюдаете правила игры.",
+        "en": "You master the rules of the game very precisely."
+      },
+      "bracket_parts": [
+        "beherrscht"
+      ],
+      "akkusativ_parts": [
+        "die Regeln des Spiels"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie beherrschten damals ein riesiges Weltreich.",
+      "translation": {
+        "ru": "Они господствовали тогда над огромной мировой империей.",
+        "en": "They ruled a vast world empire back then."
+      },
+      "bracket_parts": [
+        "beherrschten"
+      ],
+      "akkusativ_parts": [
+        "ein riesiges Weltreich"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Politiker hat seine Gefühle in der Debatte gut beherrscht.",
+      "translation": {
+        "ru": "Политик хорошо контролировал свои эмоции на дебатах.",
+        "en": "The politician controlled his emotions well in the debate."
+      },
+      "bracket_parts": [
+        "hat",
+        "beherrscht"
+      ],
+      "akkusativ_parts": [
+        "seine Gefühle"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Beherrsche deine Wut in solchen Momenten!",
+      "translation": {
+        "ru": "Контролируй свой гнев в такие моменты!",
+        "en": "Control your anger in such moments!"
+      },
+      "bracket_parts": [
+        "Beherrsche"
+      ],
+      "akkusativ_parts": [
+        "deine Wut"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "id": "reissen",
+  "infinitive": "reißen",
+  "translation": {
+    "ru": "рвать, рваться, вырывать",
+    "en": "to tear, rip, snap, pull"
+  },
+  "level": "B1",
+  "frequency_rank": 371,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "reißen",
+    "present_3sg": "reißt",
+    "praeteritum_3sg": "riss",
+    "partizip_2": "gerissen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "reiße",
+      "du": "reißt",
+      "er_sie_es": "reißt",
+      "wir": "reißen",
+      "ihr": "reißt",
+      "sie_Sie": "reißen"
+    },
+    "praeteritum": {
+      "ich": "riss",
+      "du": "risst",
+      "er_sie_es": "riss",
+      "wir": "rissen",
+      "ihr": "risst",
+      "sie_Sie": "rissen"
+    },
+    "imperative": {
+      "du": "reiß!",
+      "ihr": "reißt!",
+      "Sie": "reißen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein Blatt Papier zerreißen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich reiße den alten Brief voller Wut in zwei Hälften.",
+      "translation": {
+        "ru": "В ярости я разрываю старое письмо пополам.",
+        "en": "I tear the old letter in two halves in anger."
+      },
+      "bracket_parts": [
+        "reiße"
+      ],
+      "akkusativ_parts": [
+        "den alten Brief"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Reißt du das Klebeband vorsichtig mit den Händen ab?",
+      "translation": {
+        "ru": "Ты осторожно отрываешь скотч руками?",
+        "en": "Do you tear off the adhesive tape carefully with your hands?"
+      },
+      "bracket_parts": [
+        "Reißt"
+      ],
+      "akkusativ_parts": [
+        "das Klebeband"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Hund reißt vor Freude an der Leine seines Besitzers.",
+      "translation": {
+        "ru": "Собака от радости рвется на поводке своего хозяина.",
+        "en": "The dog pulls at the owner's leash with joy."
+      },
+      "bracket_parts": [
+        "reißt"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir reißen das Plakat von der feuchten Wand ab.",
+      "translation": {
+        "ru": "Мы срываем плакат со сырой стены.",
+        "en": "We tear down the poster from the damp wall."
+      },
+      "bracket_parts": [
+        "reißen"
+      ],
+      "akkusativ_parts": [
+        "das Plakat"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Reißt ihr den Karton einfach so auf?",
+      "translation": {
+        "ru": "Вы просто так разрываете картонную коробку?",
+        "en": "Are you guys simply ripping open the box like that?"
+      },
+      "bracket_parts": [
+        "Reißt"
+      ],
+      "akkusativ_parts": [
+        "den Karton"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Dieb riss damals der alten Dame plötzlich die Handtasche weg.",
+      "translation": {
+        "ru": "Вор тогда внезапно вырвал сумочку у пожилой дамы.",
+        "en": "The thief suddenly snatched the handbag from the elderly lady back then."
+      },
+      "bracket_parts": [
+        "riss"
+      ],
+      "akkusativ_parts": [
+        "die Handtasche"
+      ],
+      "dativ_parts": [
+        "der alten Dame"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Beim schnellen Laufen ist ihm die dünne Sehne im Fuß gerissen.",
+      "translation": {
+        "ru": "При быстром беге у него порвалось тонкое сухожилие в ноге.",
+        "en": "The thin tendon in his foot snapped while running fast."
+      },
+      "bracket_parts": [
+        "ist",
+        "gerissen"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": [
+        "ihm"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Reiß bitte nicht so fest an diesem Faden!",
+      "translation": {
+        "ru": "Не тяни так сильно за эту нить, пожалуйста!",
+        "en": "Please do not pull so hard on this thread!"
+      },
+      "bracket_parts": [
+        "Reiß"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    }
+  ]
+}

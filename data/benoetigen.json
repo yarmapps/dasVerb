@@ -1,0 +1,177 @@
+{
+  "id": "benoetigen",
+  "infinitive": "benötigen",
+  "translation": {
+    "ru": "нуждаться (в чём-то), требовать",
+    "en": "to need, require"
+  },
+  "level": "B1",
+  "frequency_rank": 236,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "benötigen",
+    "present_3sg": "benötigt",
+    "praeteritum_3sg": "benötigte",
+    "partizip_2": "benötigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "benötige",
+      "du": "benötigst",
+      "er_sie_es": "benötigt",
+      "wir": "benötigen",
+      "ihr": "benötigt",
+      "sie_Sie": "benötigen"
+    },
+    "praeteritum": {
+      "ich": "benötigte",
+      "du": "benötigtest",
+      "er_sie_es": "benötigte",
+      "wir": "benötigten",
+      "ihr": "benötigtet",
+      "sie_Sie": "benötigten"
+    },
+    "imperative": {
+      "du": "benötige!",
+      "ihr": "benötigt!",
+      "Sie": "benötigen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "dringend Hilfe benötigen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich benötige heute Ihre Unterstützung bei dem Projekt.",
+      "translation": {
+        "ru": "Мне сегодня нужна ваша поддержка в этом проекте.",
+        "en": "I need your support on the project today."
+      },
+      "bracket_parts": [
+        "benötige"
+      ],
+      "akkusativ_parts": [
+        "Ihre Unterstützung"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Benötigst du weitere Informationen über den Ablauf?",
+      "translation": {
+        "ru": "Тебе нужна дополнительная информация о регламенте?",
+        "en": "Do you require further information about the procedure?"
+      },
+      "bracket_parts": [
+        "Benötigst"
+      ],
+      "akkusativ_parts": [
+        "weitere Informationen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der kranke Patient benötigt ständige medizinische Pflege.",
+      "translation": {
+        "ru": "Больной пациент нуждается в постоянном медицинском уходе.",
+        "en": "The sick patient requires constant medical care."
+      },
+      "bracket_parts": [
+        "benötigt"
+      ],
+      "akkusativ_parts": [
+        "ständige medizinische Pflege"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir benötigen eine schriftliche Bestätigung Ihrer Bank.",
+      "translation": {
+        "ru": "Нам требуется письменное подтверждение вашего банка.",
+        "en": "We require written confirmation from your bank."
+      },
+      "bracket_parts": [
+        "benötigen"
+      ],
+      "akkusativ_parts": [
+        "eine schriftliche Bestätigung Ihrer Bank"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Benötigt ihr noch mehr Zeit für die Hausaufgabe?",
+      "translation": {
+        "ru": "Вам нужно еще больше времени на домашнее задание?",
+        "en": "Do you guys need more time for the homework?"
+      },
+      "bracket_parts": [
+        "Benötigt"
+      ],
+      "akkusativ_parts": [
+        "noch mehr Zeit"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie benötigten damals dringend finanzielle Mittel.",
+      "translation": {
+        "ru": "В то время они срочно нуждались в финансовых средствах.",
+        "en": "They urgently needed financial resources back then."
+      },
+      "bracket_parts": [
+        "benötigten"
+      ],
+      "akkusativ_parts": [
+        "finanzielle Mittel"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das Team hat für die Fertigstellung drei Monate benötigt.",
+      "translation": {
+        "ru": "Команде потребовалось три месяца на завершение.",
+        "en": "The team required three months for completion."
+      },
+      "bracket_parts": [
+        "hat",
+        "benötigt"
+      ],
+      "akkusativ_parts": [
+        "drei Monate"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Benötige nicht zu viele Worte für eine einfache Sache!",
+      "translation": {
+        "ru": "Не трать слишком много слов на простую вещь!",
+        "en": "Do not require too many words for a simple matter!"
+      },
+      "bracket_parts": [
+        "Benötige"
+      ],
+      "akkusativ_parts": [
+        "nicht zu viele Worte"
+      ]
+    }
+  ]
+}

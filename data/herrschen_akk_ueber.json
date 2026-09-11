@@ -1,0 +1,177 @@
+{
+  "id": "herrschen_akk_ueber",
+  "infinitive": "herrschen",
+  "translation": {
+    "ru": "править, господствовать (над кем-то/чем-то)",
+    "en": "to rule (over), reign (over)"
+  },
+  "level": "B1",
+  "frequency_rank": 266,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "herrschen",
+    "present_3sg": "herrscht",
+    "praeteritum_3sg": "herrschte",
+    "partizip_2": "geherrscht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "herrsche",
+      "du": "herrschst",
+      "er_sie_es": "herrscht",
+      "wir": "herrschen",
+      "ihr": "herrscht",
+      "sie_Sie": "herrschen"
+    },
+    "praeteritum": {
+      "ich": "herrschte",
+      "du": "herrschtest",
+      "er_sie_es": "herrschte",
+      "wir": "herrschten",
+      "ihr": "herrschtet",
+      "sie_Sie": "herrschten"
+    },
+    "imperative": {
+      "du": "herrsche!",
+      "ihr": "herrscht!",
+      "Sie": "herrschen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "über das Land herrschen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich herrsche über meine eigenen Gedanken und Gefühle.",
+      "translation": {
+        "ru": "Я властвую над своими собственными мыслями и чувствами.",
+        "en": "I rule over my own thoughts and feelings."
+      },
+      "bracket_parts": [
+        "herrsche"
+      ],
+      "akkusativ_parts": [
+        "meine eigenen Gedanken und Gefühle"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Herrschst du unumschränkt über das Familienunternehmen?",
+      "translation": {
+        "ru": "Ты безраздельно правишь семейным бизнесом?",
+        "en": "Do you rule supreme over the family business?"
+      },
+      "bracket_parts": [
+        "Herrschst"
+      ],
+      "akkusativ_parts": [
+        "das Familienunternehmen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Königin herrscht weise über das gesamte Volk.",
+      "translation": {
+        "ru": "Королева мудро правит всем народом.",
+        "en": "The queen rules wisely over the entire people."
+      },
+      "bracket_parts": [
+        "herrscht"
+      ],
+      "akkusativ_parts": [
+        "das gesamte Volk"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir herrschen nicht über andere, sondern arbeiten partnerschaftlich.",
+      "translation": {
+        "ru": "Мы не господствуем над другими, а работаем на равных.",
+        "en": "We do not rule over others, but work in partnership."
+      },
+      "bracket_parts": [
+        "herrschen"
+      ],
+      "akkusativ_parts": [
+        "andere"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Herrscht ihr gerne über eine große Gruppe von Menschen?",
+      "translation": {
+        "ru": "Вам нравится командовать большой группой людей?",
+        "en": "Do you guys like ruling over a large group of people?"
+      },
+      "bracket_parts": [
+        "Herrscht"
+      ],
+      "akkusativ_parts": [
+        "eine große Gruppe von Menschen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Kaiser und Könige herrschten damals über riesige Reiche.",
+      "translation": {
+        "ru": "Императоры и короли правили в то время огромными империями.",
+        "en": "Emperors and kings ruled over vast empires back then."
+      },
+      "bracket_parts": [
+        "herrschten"
+      ],
+      "akkusativ_parts": [
+        "riesige Reiche"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Diktator hat viele Jahrzehnte grausam über das Land geherrscht.",
+      "translation": {
+        "ru": "Диктатор жестоко правил страной много десятилетий.",
+        "en": "The dictator ruled cruelly over the country for many decades."
+      },
+      "bracket_parts": [
+        "hat",
+        "geherrscht"
+      ],
+      "akkusativ_parts": [
+        "das Land"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Herrsche gerecht über dein eigenes Reich!",
+      "translation": {
+        "ru": "Справедливо правь своим собственным королевством!",
+        "en": "Rule justly over your own realm!"
+      },
+      "bracket_parts": [
+        "Herrsche"
+      ],
+      "akkusativ_parts": [
+        "dein eigenes Reich"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "id": "vorbereiten",
+  "infinitive": "vorbereiten",
+  "translation": {
+    "ru": "готовить, подготавливать",
+    "en": "to prepare"
+  },
+  "level": "A2",
+  "frequency_rank": 256,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "vor",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vorbereiten",
+    "present_3sg": "bereitet vor",
+    "praeteritum_3sg": "bereitete vor",
+    "partizip_2": "vorbereitet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bereite vor",
+      "du": "bereitest vor",
+      "er_sie_es": "bereitet vor",
+      "wir": "bereiten vor",
+      "ihr": "bereitet vor",
+      "sie_Sie": "bereiten vor"
+    },
+    "praeteritum": {
+      "ich": "bereitete vor",
+      "du": "bereitetest vor",
+      "er_sie_es": "bereitete vor",
+      "wir": "bereiteten vor",
+      "ihr": "bereitetet vor",
+      "sie_Sie": "bereiteten vor"
+    },
+    "imperative": {
+      "du": "bereite vor!",
+      "ihr": "bereitet vor!",
+      "Sie": "bereiten Sie vor!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das Abendessen vorbereiten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich bereite die Präsentation für morgen gründlich vor.",
+      "translation": {
+        "ru": "Я тщательно готовлю презентацию на завтра.",
+        "en": "I prepare the presentation for tomorrow thoroughly."
+      },
+      "bracket_parts": [
+        "bereite",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "die Präsentation für morgen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Bereitest du das Abendessen schon vor?",
+      "translation": {
+        "ru": "Ты уже готовишь ужин?",
+        "en": "Are you already preparing dinner?"
+      },
+      "bracket_parts": [
+        "Bereitest",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "das Abendessen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Koch bereitet die frischen Zutaten sorgfältig vor.",
+      "translation": {
+        "ru": "Повар тщательно подготавливает свежие ингредиенты.",
+        "en": "The chef prepares the fresh ingredients carefully."
+      },
+      "bracket_parts": [
+        "bereitet",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "die frischen Zutaten"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir bereiten die Verträge für die Verhandlung vor.",
+      "translation": {
+        "ru": "Мы готовим договоры к переговорам.",
+        "en": "We prepare the contracts for the negotiation."
+      },
+      "bracket_parts": [
+        "bereiten",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "die Verträge"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bereitet ihr die Party für das Wochenende vor?",
+      "translation": {
+        "ru": "Вы готовите вечеринку на выходные?",
+        "en": "Are you guys preparing the party for the weekend?"
+      },
+      "bracket_parts": [
+        "Bereitet",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "die Party"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie bereiteten die Überraschung heimlich vor.",
+      "translation": {
+        "ru": "Они втайне готовили сюрприз.",
+        "en": "They prepared the surprise secretly."
+      },
+      "bracket_parts": [
+        "bereiteten",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "die Überraschung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Lehrer hat alle Übungsblätter rechtzeitig vorbereitet.",
+      "translation": {
+        "ru": "Учитель вовремя подготовил все тренировочные листы.",
+        "en": "The teacher prepared all exercise sheets in time."
+      },
+      "bracket_parts": [
+        "hat",
+        "vorbereitet"
+      ],
+      "akkusativ_parts": [
+        "alle Übungsblätter"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Bereite bitte den Konferenzraum für das Meeting vor!",
+      "translation": {
+        "ru": "Подготовь конференц-зал к встрече, пожалуйста!",
+        "en": "Please prepare the conference room for the meeting!"
+      },
+      "bracket_parts": [
+        "Bereite",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "den Konferenzraum"
+      ]
+    }
+  ]
+}

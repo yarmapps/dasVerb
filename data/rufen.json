@@ -1,0 +1,178 @@
+{
+  "id": "rufen",
+  "infinitive": "rufen",
+  "translation": {
+    "ru": "звать, вызывать",
+    "en": "to call, to shout"
+  },
+  "level": "A1",
+  "frequency_rank": 118,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "rufen",
+    "present_3sg": "ruft",
+    "praeteritum_3sg": "rief",
+    "partizip_2": "gerufen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "rufe",
+      "du": "rufst",
+      "er_sie_es": "ruft",
+      "wir": "rufen",
+      "ihr": "ruft",
+      "sie_Sie": "rufen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "rief",
+      "du": "riefst",
+      "er_sie_es": "rief",
+      "wir": "riefen",
+      "ihr": "rieft",
+      "sie_Sie": "riefen"
+    },
+    "imperative": {
+      "du": "rufe",
+      "ihr": "ruft",
+      "Sie": "rufen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen Arzt / ein Taxi (Akk) rufen",
+  "sentences": [
+    {
+      "id": "rufen_1",
+      "tense": "Präsens",
+      "german": "Ich rufe sofort ein Taxi für uns.",
+      "translation": {
+        "ru": "Я сейчас же вызываю такси для нас.",
+        "en": "I am calling a taxi for us immediately."
+      },
+      "bracket_parts": [
+        "rufe"
+      ],
+      "akkusativ_parts": [
+        "ein Taxi"
+      ]
+    },
+    {
+      "id": "rufen_2",
+      "tense": "Präsens",
+      "german": "Rufst du deinen Hund im Park?",
+      "translation": {
+        "ru": "Ты зовешь свою собаку в парке?",
+        "en": "Are you calling your dog in the park?"
+      },
+      "bracket_parts": [
+        "Rufst"
+      ],
+      "akkusativ_parts": [
+        "deinen Hund"
+      ]
+    },
+    {
+      "id": "rufen_3",
+      "tense": "Präsens",
+      "german": "Die Mutter ruft die spielenden Kinder zum Essen.",
+      "translation": {
+        "ru": "Мать зовет играющих детей кушать.",
+        "en": "The mother calls the playing children to eat."
+      },
+      "bracket_parts": [
+        "ruft"
+      ],
+      "akkusativ_parts": [
+        "die spielenden Kinder"
+      ]
+    },
+    {
+      "id": "rufen_4",
+      "tense": "Präsens",
+      "german": "Wir rufen bei einem Notfall sofort die Polizei.",
+      "translation": {
+        "ru": "В экстренном случае мы сразу вызываем полицию.",
+        "en": "In an emergency, we call the police immediately."
+      },
+      "bracket_parts": [
+        "rufen"
+      ],
+      "akkusativ_parts": [
+        "die Polizei"
+      ]
+    },
+    {
+      "id": "rufen_5",
+      "tense": "Präsens",
+      "german": "Ruft ihr den Kellner für die Rechnung?",
+      "translation": {
+        "ru": "Вы зовете официанта для счета?",
+        "en": "Are you calling the waiter for the bill?"
+      },
+      "bracket_parts": [
+        "Ruft"
+      ],
+      "akkusativ_parts": [
+        "den Kellner"
+      ]
+    },
+    {
+      "id": "rufen_6",
+      "tense": "Präteritum",
+      "german": "Sie riefen laut meinen Namen durch den Flur.",
+      "translation": {
+        "ru": "Они громко кричали мое имя по коридору.",
+        "en": "They called my name loudly through the hallway."
+      },
+      "bracket_parts": [
+        "riefen"
+      ],
+      "akkusativ_parts": [
+        "meinen Namen"
+      ]
+    },
+    {
+      "id": "rufen_7",
+      "tense": "Perfekt",
+      "german": "Ich habe gestern schnell den Notarzt gerufen.",
+      "translation": {
+        "ru": "Вчера я быстро вызвал скорую помощь.",
+        "en": "I called the emergency doctor quickly yesterday."
+      },
+      "bracket_parts": [
+        "habe",
+        "gerufen"
+      ],
+      "akkusativ_parts": [
+        "den Notarzt"
+      ]
+    },
+    {
+      "id": "rufen_8",
+      "tense": "Imperativ",
+      "german": "Rufe bitte gleich den Kundendienst an!",
+      "translation": {
+        "ru": "Позови (вызови), пожалуйста, службу поддержки!",
+        "en": "Please call customer service right away!"
+      },
+      "bracket_parts": [
+        "Rufe"
+      ],
+      "akkusativ_parts": [
+        "den Kundendienst"
+      ]
+    }
+  ]
+}

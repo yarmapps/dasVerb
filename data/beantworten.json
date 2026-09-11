@@ -1,0 +1,171 @@
+{
+  "id": "beantworten",
+  "infinitive": "beantworten",
+  "translation": {
+    "ru": "отвечать (на вопрос/письмо)",
+    "en": "to answer, reply to"
+  },
+  "level": "A2",
+  "frequency_rank": 464,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beantworten",
+    "present_3sg": "beantwortet",
+    "praeteritum_3sg": "beantwortete",
+    "partizip_2": "beantwortet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beantworte",
+      "du": "beantwortest",
+      "er_sie_es": "beantwortet",
+      "wir": "beantworten",
+      "ihr": "beantwortet",
+      "sie_Sie": "beantworten"
+    },
+    "praeteritum": {
+      "ich": "beantwortete",
+      "du": "beantwortetest",
+      "er_sie_es": "beantwortete",
+      "wir": "beantworteten",
+      "ihr": "beantwortetet",
+      "sie_Sie": "beantworteten"
+    },
+    "perfekt": {
+      "ich": "habe beantwortet",
+      "du": "hast beantwortet",
+      "er_sie_es": "hat beantwortet",
+      "wir": "haben beantwortet",
+      "ihr": "habt beantwortet",
+      "sie_Sie": "haben beantwortet"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich beantworte deine dringende E-Mail noch heute Abend.",
+      "translation": {
+        "ru": "Я отвечу на твое срочное письмо еще сегодня вечером.",
+        "en": "I will answer your urgent email this evening."
+      },
+      "bracket_parts": [
+        "beantworte"
+      ],
+      "akkusativ_parts": [
+        "deine dringende E-Mail"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du beantwortest alle Prüfungsfragen sehr überlegt.",
+      "translation": {
+        "ru": "Ты очень обдуманно отвечаешь на все вопросы экзамена.",
+        "en": "You answer all exam questions very deliberately."
+      },
+      "bracket_parts": [
+        "beantwortest"
+      ],
+      "akkusativ_parts": [
+        "alle Prüfungsfragen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Pressesprecherin beantwortet jede Frage der Journalisten geduldig.",
+      "translation": {
+        "ru": "Пресс-секретарь терпеливо отвечает на каждый вопрос журналистов.",
+        "en": "The press spokesperson patiently answers every question from journalists."
+      },
+      "bracket_parts": [
+        "beantwortet"
+      ],
+      "akkusativ_parts": [
+        "jede Frage der Journalisten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beantworten Kundenanfragen stets innerhalb weniger Stunden.",
+      "translation": {
+        "ru": "Мы всегда отвечаем на запросы клиентов в течение нескольких часов.",
+        "en": "We always answer customer inquiries within a few hours."
+      },
+      "bracket_parts": [
+        "beantworten"
+      ],
+      "akkusativ_parts": [
+        "Kundenanfragen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr beantwortet die Umfrage zur Kundenzufriedenheit ehrlich.",
+      "translation": {
+        "ru": "Вы честно отвечаете на опрос о satisfacción клиентов.",
+        "en": "You answer the customer satisfaction survey honestly."
+      },
+      "bracket_parts": [
+        "beantwortet"
+      ],
+      "akkusativ_parts": [
+        "die Umfrage"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie beantworteten damals jeden einzelnen Brief der Bürger.",
+      "translation": {
+        "ru": "Они тогда отвечали на каждое отдельное письмо граждан.",
+        "en": "They answered every single letter from citizens back then."
+      },
+      "bracket_parts": [
+        "beantworteten"
+      ],
+      "akkusativ_parts": [
+        "jeden einzelnen Brief der Bürger"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Spezialist hat meine schwierige Fachfrage sofort beantwortet.",
+      "translation": {
+        "ru": "Специалист сразу ответил на мой трудный профессиональный вопрос.",
+        "en": "The specialist answered my difficult technical question immediately."
+      },
+      "bracket_parts": [
+        "hat",
+        "beantwortet"
+      ],
+      "akkusativ_parts": [
+        "meine schwierige Fachfrage"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Beantworte diese wichtige Nachricht bitte unverzüglich!",
+      "translation": {
+        "ru": "Ответь на это важное сообщение без промедления, пожалуйста!",
+        "en": "Please answer this important message without delay!"
+      },
+      "bracket_parts": [
+        "Beantworte"
+      ],
+      "akkusativ_parts": [
+        "diese wichtige Nachricht"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

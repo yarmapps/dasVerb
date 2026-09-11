@@ -1,0 +1,192 @@
+{
+  "id": "anlegen",
+  "infinitive": "anlegen",
+  "translation": {
+    "ru": "создавать, вкладывать (деньги), надевать",
+    "en": "to invest, create, put on"
+  },
+  "level": "B1",
+  "frequency_rank": 306,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "anlegen",
+    "present_3sg": "legt an",
+    "praeteritum_3sg": "legte an",
+    "partizip_2": "angelegt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lege an",
+      "du": "legst an",
+      "er_sie_es": "legt an",
+      "wir": "legen an",
+      "ihr": "legt an",
+      "sie_Sie": "legen an"
+    },
+    "praeteritum": {
+      "ich": "legte an",
+      "du": "legtest an",
+      "er_sie_es": "legte an",
+      "wir": "legten an",
+      "ihr": "legtet an",
+      "sie_Sie": "legten an"
+    },
+    "imperative": {
+      "du": "lege an!",
+      "ihr": "legt an!",
+      "Sie": "legen Sie an!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Geld gewinnbringend anlegen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich lege mein gespartes Geld gewinnbringend in Aktien an.",
+      "translation": {
+        "ru": "Я выгодно вкладываю свои сбережения в акции.",
+        "en": "I invest my saved money profitably in shares."
+      },
+      "bracket_parts": [
+        "lege",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "mein gespartes Geld"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Legst du im Auto vor der Fahrt immer den Sicherheitsgurt an?",
+      "translation": {
+        "ru": "Ты всегда пристегиваешь в машине ремень безопасности перед поездкой?",
+        "en": "Do you always put on your seatbelt in the car before driving?"
+      },
+      "bracket_parts": [
+        "Legst",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den Sicherheitsgurt"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Gärtner legt hinter dem Haus einen schönen Blumengarten an.",
+      "translation": {
+        "ru": "Садовник разбивает за домом красивый цветник.",
+        "en": "The gardener creates a beautiful flower garden behind the house."
+      },
+      "bracket_parts": [
+        "legt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "einen schönen Blumengarten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir legen eine genaue Tabelle für die Projektausgaben an.",
+      "translation": {
+        "ru": "Мы создаем подробную таблицу расходов по проекту.",
+        "en": "We create a detailed spreadsheet for project expenses."
+      },
+      "bracket_parts": [
+        "legen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "eine genaue Tabelle"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Legt ihr im Labor stets die Schutzkleidung an?",
+      "translation": {
+        "ru": "Вы всегда надеваете защитную одежду в лаборатории?",
+        "en": "Do you guys always put on protective clothing in the laboratory?"
+      },
+      "bracket_parts": [
+        "Legt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Schutzkleidung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Gemeinde legte damals einen neuen Fußweg durch den Wald an.",
+      "translation": {
+        "ru": "Община тогда проложила новую пешеходную дорожку через лес.",
+        "en": "The municipality created a new footpath through the forest back then."
+      },
+      "bracket_parts": [
+        "legte",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "einen neuen Fußweg"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben ihr gesamtes Vermögen sehr sicher angelegt.",
+      "translation": {
+        "ru": "Они вложили все свое состояние очень надежно.",
+        "en": "They have invested their entire fortune very securely."
+      },
+      "bracket_parts": [
+        "haben",
+        "angelegt"
+      ],
+      "akkusativ_parts": [
+        "ihr gesamtes Vermögen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Lege bitte zuerst den Sicherheitsgurt an!",
+      "translation": {
+        "ru": "Пристегни сначала ремень безопасности, пожалуйста!",
+        "en": "Please put on the seat belt first!"
+      },
+      "bracket_parts": [
+        "Lege",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den Sicherheitsgurt"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

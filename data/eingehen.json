@@ -1,0 +1,175 @@
+{
+  "id": "eingehen",
+  "infinitive": "eingehen",
+  "translation": {
+    "ru": "входить (в историю); поступать (о платежах); усаживаться (о ткани); погибать (о растении)",
+    "en": "to enter, shrink, arrive (funds), perish"
+  },
+  "level": "B1",
+  "frequency_rank": 207,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "eingehen",
+    "present_3sg": "geht ein",
+    "praeteritum_3sg": "ging ein",
+    "partizip_2": "eingegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe ein",
+      "du": "gehst ein",
+      "er_sie_es": "geht ein",
+      "wir": "gehen ein",
+      "ihr": "geht ein",
+      "sie_Sie": "gehen ein"
+    },
+    "praeteritum": {
+      "ich": "ging ein",
+      "du": "gingst ein",
+      "er_sie_es": "ging ein",
+      "wir": "gingen ein",
+      "ihr": "gingt ein",
+      "sie_Sie": "gingen ein"
+    },
+    "imperative": {
+      "du": "geh ein!",
+      "ihr": "geht ein!",
+      "Sie": "gehen Sie ein!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein Risiko eingehen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich gehe für meine Träume gerne ein gewisses Risiko ein.",
+      "translation": {
+        "ru": "Ради своей мечты я охотно иду на определенный риск.",
+        "en": "I gladly take a certain risk for my dreams."
+      },
+      "bracket_parts": [
+        "gehe",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "ein gewisses Risiko"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Gehst du diesen schwierigen Kompromiss wirklich ein?",
+      "translation": {
+        "ru": "Ты действительно идешь на этот трудный компромисс?",
+        "en": "Are you really entering into this difficult compromise?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "diesen schwierigen Kompromiss"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Ohne Wasser geht die Zimmerpflanze schnell ein.",
+      "translation": {
+        "ru": "Без воды комнатное растение быстро погибает.",
+        "en": "Without water the houseplant quickly perishes."
+      },
+      "bracket_parts": [
+        "geht",
+        "ein"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir gehen eine langfristige Partnerschaft mit der Firma ein.",
+      "translation": {
+        "ru": "Мы вступаем в долгосрочное партнерство с этой фирмой.",
+        "en": "We enter into a long-term partnership with the company."
+      },
+      "bracket_parts": [
+        "gehen",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "eine langfristige Partnerschaft"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Geht ihr dieses hohe finanzielle Wagnis ein?",
+      "translation": {
+        "ru": "Вы идете на эту высокую финансовую авантюру?",
+        "en": "Are you guys taking this high financial venture?"
+      },
+      "bracket_parts": [
+        "Geht",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "dieses hohe finanzielle Wagnis"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Viele Spenden gingen damals auf dem Hilfskonto ein.",
+      "translation": {
+        "ru": "В то время на благотворительный счет поступило много пожертвований.",
+        "en": "Many donations arrived on the aid account back then."
+      },
+      "bracket_parts": [
+        "gingen",
+        "ein"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das Ereignis ist als Meilenstein in die Geschichte eingegangen.",
+      "translation": {
+        "ru": "Событие вошло в историю как веха.",
+        "en": "The event went down in history as a milestone."
+      },
+      "bracket_parts": [
+        "ist",
+        "eingegangen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Geh kein unnötiges Wagnis ein!",
+      "translation": {
+        "ru": "Не иди на ненужный риск!",
+        "en": "Do not take any unnecessary risk!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "kein unnötiges Wagnis"
+      ]
+    }
+  ]
+}

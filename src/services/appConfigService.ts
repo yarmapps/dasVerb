@@ -105,6 +105,10 @@ export function getFeaturesConfig(): FeaturesConfig {
   return currentConfig.features;
 }
 
+export function isFirstOpenPaywallDisabled(): boolean {
+  return currentConfig.features.disable_first_open_paywall === true;
+}
+
 export function getFreeDailyQuizzesLimit(): number {
   const customLimit = currentConfig.features.free_daily_quizzes;
   return typeof customLimit === 'number' ? customLimit : defaultConfig.features.free_daily_quizzes;

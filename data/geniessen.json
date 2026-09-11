@@ -1,0 +1,171 @@
+{
+  "id": "geniessen",
+  "infinitive": "genießen",
+  "translation": {
+    "ru": "наслаждаться, пользоваться",
+    "en": "to enjoy, relish"
+  },
+  "level": "A2",
+  "frequency_rank": 432,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ge",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "genießen",
+    "present_3sg": "genießt",
+    "praeteritum_3sg": "genoss",
+    "partizip_2": "genossen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "genieße",
+      "du": "genießt",
+      "er_sie_es": "genießt",
+      "wir": "genießen",
+      "ihr": "genießt",
+      "sie_Sie": "genießen"
+    },
+    "praeteritum": {
+      "ich": "genoss",
+      "du": "genossest",
+      "er_sie_es": "genoss",
+      "wir": "genossen",
+      "ihr": "genosst",
+      "sie_Sie": "genossen"
+    },
+    "perfekt": {
+      "ich": "habe genossen",
+      "du": "hast genossen",
+      "er_sie_es": "hat genossen",
+      "wir": "haben genossen",
+      "ihr": "habt genossen",
+      "sie_Sie": "haben genossen"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich genieße jeden Morgen eine Tasse frischen Kaffee.",
+      "translation": {
+        "ru": "Каждое утро я наслаждаюсь чашкой свежего кофе.",
+        "en": "Every morning I enjoy a cup of fresh coffee."
+      },
+      "bracket_parts": [
+        "genieße"
+      ],
+      "akkusativ_parts": [
+        "eine Tasse frischen Kaffee"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du genießt den warmen Sonnenschein im Garten.",
+      "translation": {
+        "ru": "Ты наслаждаешься теплым солнечным светом в саду.",
+        "en": "You enjoy the warm sunshine in the garden."
+      },
+      "bracket_parts": [
+        "genießt"
+      ],
+      "akkusativ_parts": [
+        "den warmen Sonnenschein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er genießt seinen wohlverdienten Feierabend auf dem Sofa.",
+      "translation": {
+        "ru": "Он наслаждается своим заслуженным отдыхом на диване.",
+        "en": "He enjoys his well-deserved evening off on the couch."
+      },
+      "bracket_parts": [
+        "genießt"
+      ],
+      "akkusativ_parts": [
+        "seinen wohlverdienten Feierabend"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir genießen die herrliche Aussicht auf den See.",
+      "translation": {
+        "ru": "Мы наслаждаемся великолепным видом на озеро.",
+        "en": "We enjoy the wonderful view of the lake."
+      },
+      "bracket_parts": [
+        "genießen"
+      ],
+      "akkusativ_parts": [
+        "die herrliche Aussicht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr genießt das leckere Essen in vollen Zügen.",
+      "translation": {
+        "ru": "Вы наслаждаетесь вкусной едой в полной мере.",
+        "en": "You enjoy the delicious food to the fullest."
+      },
+      "bracket_parts": [
+        "genießt"
+      ],
+      "akkusativ_parts": [
+        "das leckere Essen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie genossen damals ihren langen Sommerurlaub in den Bergen.",
+      "translation": {
+        "ru": "Они наслаждались тогда своим длинным летним отпуском в горах.",
+        "en": "They enjoyed their long summer vacation in the mountains back then."
+      },
+      "bracket_parts": [
+        "genossen"
+      ],
+      "akkusativ_parts": [
+        "ihren langen Sommerurlaub"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Ich habe das fantastische Konzert gestern sehr genossen.",
+      "translation": {
+        "ru": "Я вчера получил огромное удовольствие от фантастического концерта.",
+        "en": "I enjoyed the fantastic concert yesterday very much."
+      },
+      "bracket_parts": [
+        "habe",
+        "genossen"
+      ],
+      "akkusativ_parts": [
+        "das fantastische Konzert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Genieße jeden Augenblick auf dieser Reise!",
+      "translation": {
+        "ru": "Наслаждайся каждым мгновением в этой поездке!",
+        "en": "Enjoy every moment on this journey!"
+      },
+      "bracket_parts": [
+        "Genieße"
+      ],
+      "akkusativ_parts": [
+        "jeden Augenblick"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

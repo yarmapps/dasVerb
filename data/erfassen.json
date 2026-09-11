@@ -1,0 +1,185 @@
+{
+  "id": "erfassen",
+  "infinitive": "erfassen",
+  "translation": {
+    "ru": "учитывать, регистрировать, осознавать, сбивать (о машине)",
+    "en": "to record, register, grasp, hit (by car)"
+  },
+  "level": "B2",
+  "frequency_rank": 350,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erfassen",
+    "present_3sg": "erfasst",
+    "praeteritum_3sg": "erfasste",
+    "partizip_2": "erfasst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erfasse",
+      "du": "erfasst",
+      "er_sie_es": "erfasst",
+      "wir": "erfassen",
+      "ihr": "erfasst",
+      "sie_Sie": "erfassen"
+    },
+    "praeteritum": {
+      "ich": "erfasste",
+      "du": "erfasstest",
+      "er_sie_es": "erfasste",
+      "wir": "erfassten",
+      "ihr": "erfasstet",
+      "sie_Sie": "erfassten"
+    },
+    "imperative": {
+      "du": "erfasse!",
+      "ihr": "erfasst!",
+      "Sie": "erfassen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "alle Daten digital erfassen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erfasse alle neuen Kundendaten sorgfältig im Computersystem.",
+      "translation": {
+        "ru": "Я тщательно вношу все данные новых клиентов в компьютерную систему.",
+        "en": "I carefully enter all new customer data into the computer system."
+      },
+      "bracket_parts": [
+        "erfasse"
+      ],
+      "akkusativ_parts": [
+        "alle neuen Kundendaten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erfasst du die Tragweite dieser Entscheidung überhaupt nicht?",
+      "translation": {
+        "ru": "Ты совсем не осознаешь масштаба этого решения?",
+        "en": "Don't you grasp the significance of this decision at all?"
+      },
+      "bracket_parts": [
+        "Erfasst"
+      ],
+      "akkusativ_parts": [
+        "die Tragweite dieser Entscheidung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Statistische Bundesamt erfasst die monatliche Inflationsrate.",
+      "translation": {
+        "ru": "Федеральное статистическое ведомство фиксирует ежемесячный уровень инфляции.",
+        "en": "The Federal Statistical Office records the monthly inflation rate."
+      },
+      "bracket_parts": [
+        "erfasst"
+      ],
+      "akkusativ_parts": [
+        "die monatliche Inflationsrate"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erfassen die Arbeitszeiten der Mitarbeiter mit einer modernen App.",
+      "translation": {
+        "ru": "Мы ведем учет рабочего времени сотрудников с помощью современного приложения.",
+        "en": "We track employee working hours with a modern app."
+      },
+      "bracket_parts": [
+        "erfassen"
+      ],
+      "akkusativ_parts": [
+        "die Arbeitszeiten der Mitarbeiter"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erfasst ihr die genauen Kosten für das Bauvorhaben?",
+      "translation": {
+        "ru": "Вы учитываете точные расходы на строительный проект?",
+        "en": "Do you guys register the exact costs for the construction project?"
+      },
+      "bracket_parts": [
+        "Erfasst"
+      ],
+      "akkusativ_parts": [
+        "die genauen Kosten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Ein schnelles Auto erfasste damals den Fußgänger an der Kreuzung.",
+      "translation": {
+        "ru": "Быстрая машина сбила тогда пешехода на перекрестке.",
+        "en": "A speeding car struck the pedestrian at the intersection back then."
+      },
+      "bracket_parts": [
+        "erfasste"
+      ],
+      "akkusativ_parts": [
+        "den Fußgänger"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Forscher haben die wichtigsten Faktoren vollständig erfasst.",
+      "translation": {
+        "ru": "Исследователи полностью учли самые важные факторы.",
+        "en": "The researchers have fully grasped the most important factors."
+      },
+      "bracket_parts": [
+        "haben",
+        "erfasst"
+      ],
+      "akkusativ_parts": [
+        "die wichtigsten Faktoren"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erfasse bitte sofort die Quittungen für die Buchhaltung!",
+      "translation": {
+        "ru": "Внеси в систему чеки для бухгалтерии прямо сейчас, пожалуйста!",
+        "en": "Please record the receipts for bookkeeping immediately!"
+      },
+      "bracket_parts": [
+        "Erfasse"
+      ],
+      "akkusativ_parts": [
+        "die Quittungen"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

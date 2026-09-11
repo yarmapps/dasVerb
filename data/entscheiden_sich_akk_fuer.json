@@ -1,11 +1,11 @@
 {
   "id": "entscheiden_sich_akk_fuer",
-  "infinitive": "sich entscheiden",
+  "infinitive": "entscheiden",
   "translation": {
-    "ru": "решаться, делать выбор (в пользу чего-то)",
-    "en": "to decide (on something)"
+    "ru": "решаться на, делать выбор в пользу",
+    "en": "to decide on, to opt for"
   },
-  "level": "B1",
+  "level": "A2",
   "frequency_rank": 135,
   "auxiliary": "haben",
   "morphology": {
@@ -16,10 +16,10 @@
     "reflexive_case": "Akkusativ"
   },
   "principal_parts": {
-    "infinitive": "sich entscheiden",
+    "infinitive": "entscheiden",
     "present_3sg": "entscheidet sich",
     "praeteritum_3sg": "entschied sich",
-    "partizip_2": "entschieden"
+    "partizip_2": "sich entschieden"
   },
   "conjugation": {
     "present": {
@@ -40,9 +40,9 @@
       "sie_Sie": "entschieden sich"
     },
     "imperative": {
-      "du": "entscheid dich!",
-      "ihr": "entscheidet euch!",
-      "Sie": "entscheiden Sie sich!"
+      "du": "entscheide dich",
+      "ihr": "entscheidet euch",
+      "Sie": "entscheiden Sie sich"
     }
   },
   "rektion": {
@@ -51,114 +51,97 @@
     "preposition": "für",
     "preposition_case": "Akkusativ"
   },
-  "chunk": "sich für ein Studium (Akk) entscheiden",
+  "chunk": "sich für ein Angebot (Akk) entscheiden",
   "sentences": [
     {
-      "id": "s1",
+      "id": "entscheiden_sich_akk_fuer_1",
       "tense": "Präsens",
-      "german": "Ich entscheide mich nach langer Überlegung für das Studium der Informatik.",
+      "german": "Ich entscheide mich für das rote Kleid.",
       "translation": {
-        "ru": "После долгих размышлений я делаю выбор в пользу изучения информатики.",
-        "en": "After long deliberation, I decide on studying computer science."
+        "ru": "Я делаю выбор в пользу красного платья.",
+        "en": "I decide on the red dress."
       },
       "bracket_parts": [
         "entscheide"
       ],
       "akkusativ_parts": [
         "mich",
-        "für das Studium"
+        "für das rote Kleid"
       ]
     },
     {
-      "id": "s2",
+      "id": "entscheiden_sich_akk_fuer_2",
       "tense": "Präsens",
-      "german": "Entscheidest du dich bei der morgigen Wahl für den neuen Kandidaten?",
+      "german": "Entscheidest du dich für diesen Studiengang?",
       "translation": {
-        "ru": "Ты решишься сделать выбор в пользу нового кандидата на завтрашних выборах?",
-        "en": "Are you deciding on the new candidate in tomorrow's election?"
+        "ru": "Ты выбираешь эту специальность в вузе?",
+        "en": "Are you opting for this degree course?"
       },
       "bracket_parts": [
         "Entscheidest"
       ],
       "akkusativ_parts": [
         "dich",
-        "für den neuen Kandidaten"
+        "für diesen Studiengang"
       ]
     },
     {
-      "id": "s3",
+      "id": "entscheiden_sich_akk_fuer_3",
       "tense": "Präsens",
-      "german": "Der erfahrene Kunde entscheidet sich stets für hochwertige Produkte aus der Region.",
+      "german": "Mein Kollege entscheidet sich für eine gesündere Ernährung.",
       "translation": {
-        "ru": "Опытный покупатель всегда делает выбор в пользу качественных региональных продуктов.",
-        "en": "The experienced customer always decides on high-quality regional products."
+        "ru": "Мой коллега делает выбор в пользу более здорового питания.",
+        "en": "My colleague opts for a healthier diet."
       },
       "bracket_parts": [
         "entscheidet"
       ],
       "akkusativ_parts": [
         "sich",
-        "für hochwertige Produkte"
+        "für eine gesündere Ernährung"
       ]
     },
     {
-      "id": "s4",
+      "id": "entscheiden_sich_akk_fuer_4",
       "tense": "Präsens",
-      "german": "Wir entscheiden uns für diese ruhige Wohnung, weil die Lage verkehrsgünstig ist.",
+      "german": "Wir entscheiden uns für den kürzeren Reiseweg.",
       "translation": {
-        "ru": "Мы выбираем эту тихую квартиру, потому что ее расположение удобно с точки зрения транспорта.",
-        "en": "We are deciding on this quiet flat because the location is convenient."
+        "ru": "Мы выбираем более короткий маршрут поездки.",
+        "en": "We decide on the shorter travel route."
       },
       "bracket_parts": [
         "entscheiden"
       ],
       "akkusativ_parts": [
         "uns",
-        "für diese ruhige Wohnung"
+        "für den kürzeren Reiseweg"
       ]
     },
     {
-      "id": "s5",
+      "id": "entscheiden_sich_akk_fuer_5",
       "tense": "Präsens",
-      "german": "Entscheidet ihr euch nun endgültig für die angebotene Bildungsreise?",
+      "german": "Entscheidet ihr euch für das kleinere Hotel am Strand?",
       "translation": {
-        "ru": "Вы теперь окончательно делаете выбор в пользу предложенной образовательной поездки?",
-        "en": "Are you now finally deciding on the offered educational trip?"
+        "ru": "Вы выбираете небольшой отель у пляжа?",
+        "en": "Are you deciding on the smaller hotel on the beach?"
       },
       "bracket_parts": [
         "Entscheidet"
       ],
       "akkusativ_parts": [
         "euch",
-        "für die angebotene Bildungsreise"
+        "für das kleinere Hotel"
       ]
     },
     {
-      "id": "s6",
+      "id": "entscheiden_sich_akk_fuer_6",
       "tense": "Präteritum",
-      "german": "Gestern entschied sie sich ganz spontan für das elegante rote Abendkleid.",
+      "german": "Sie entschieden sich damals für ein Leben auf dem Land.",
       "translation": {
-        "ru": "Вчера она совершенно спонтанно выбрала элегантное красное вечернее платье.",
-        "en": "Yesterday she decided quite spontaneously on the elegant red evening dress."
+        "ru": "Они сделали тогда выбор в пользу жизни в деревне.",
+        "en": "They opted for a life in the countryside back then."
       },
       "bracket_parts": [
-        "entschied"
-      ],
-      "akkusativ_parts": [
-        "sich",
-        "für das elegante rote Abendkleid"
-      ]
-    },
-    {
-      "id": "s7",
-      "tense": "Perfekt",
-      "german": "Sie haben sich vor vielen Jahren für ein Leben auf dem Land entschieden.",
-      "translation": {
-        "ru": "Они много лет назад сделали выбор в пользу жизни в деревне.",
-        "en": "They decided on a life in the countryside many years ago."
-      },
-      "bracket_parts": [
-        "haben",
         "entschieden"
       ],
       "akkusativ_parts": [
@@ -167,19 +150,36 @@
       ]
     },
     {
-      "id": "s8",
-      "tense": "Imperativ",
-      "german": "Entscheiden Sie sich bitte bald für eine der vorgeschlagenen Optionen!",
+      "id": "entscheiden_sich_akk_fuer_7",
+      "tense": "Perfekt",
+      "german": "Ich habe mich endlich für die neue Arbeitsstelle entschieden.",
       "translation": {
-        "ru": "Сделайте, пожалуйста, скорее выбор в пользу одного из предложенных вариантов!",
-        "en": "Please decide soon on one of the proposed options!"
+        "ru": "Я наконец решился на новую работу.",
+        "en": "I finally decided on the new job."
       },
       "bracket_parts": [
-        "Entscheiden"
+        "habe",
+        "entschieden"
       ],
       "akkusativ_parts": [
-        "sich",
-        "für eine der vorgeschlagenen Optionen"
+        "mich",
+        "für die neue Arbeitsstelle"
+      ]
+    },
+    {
+      "id": "entscheiden_sich_akk_fuer_8",
+      "tense": "Imperativ",
+      "german": "Entscheide dich bitte jetzt für eine Option!",
+      "translation": {
+        "ru": "Определись, пожалуйста, сейчас с выбором опции!",
+        "en": "Please decide on an option now!"
+      },
+      "bracket_parts": [
+        "Entscheide"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "für eine Option"
       ]
     }
   ]

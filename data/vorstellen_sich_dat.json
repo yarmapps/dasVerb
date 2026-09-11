@@ -1,0 +1,209 @@
+{
+  "id": "vorstellen_sich_dat",
+  "infinitive": "vorstellen",
+  "translation": {
+    "ru": "представлять себе, воображать",
+    "en": "to imagine"
+  },
+  "level": "B1",
+  "frequency_rank": 66,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "vor",
+    "is_reflexive": true,
+    "reflexive_case": "Dativ"
+  },
+  "principal_parts": {
+    "infinitive": "vorstellen",
+    "present_3sg": "stellt sich vor",
+    "praeteritum_3sg": "stellte sich vor",
+    "partizip_2": "sich vorgestellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stelle mir vor",
+      "du": "stellst dir vor",
+      "er_sie_es": "stellt sich vor",
+      "wir": "stellen uns vor",
+      "ihr": "stellt euch vor",
+      "sie_Sie": "stellen sich vor",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "stellte mir vor",
+      "du": "stelltest dir vor",
+      "er_sie_es": "stellte sich vor",
+      "wir": "stellten uns vor",
+      "ihr": "stelltet euch vor",
+      "sie_Sie": "stellten sich vor"
+    },
+    "imperative": {
+      "du": "stell dir vor",
+      "ihr": "stellt euch vor",
+      "Sie": "stellen Sie sich vor"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich (Dat) etwas (Akk) vorstellen",
+  "sentences": [
+    {
+      "id": "vorstellen_sich_dat_1",
+      "tense": "Präsens",
+      "german": "Ich stelle mir eine Reise um die Welt vor.",
+      "translation": {
+        "ru": "Я представляю себе кругосветное путешествие.",
+        "en": "I imagine a trip around the world."
+      },
+      "bracket_parts": [
+        "stelle",
+        "vor"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "eine Reise um die Welt"
+      ]
+    },
+    {
+      "id": "vorstellen_sich_dat_2",
+      "tense": "Präsens",
+      "german": "Stellst du dir das schöne Haus bildhaft vor?",
+      "translation": {
+        "ru": "Ты представляешь себе этот красивый дом во всех деталях?",
+        "en": "Do you imagine the beautiful house vividly?"
+      },
+      "bracket_parts": [
+        "Stellst",
+        "vor"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "das schöne Haus"
+      ]
+    },
+    {
+      "id": "vorstellen_sich_dat_3",
+      "tense": "Präsens",
+      "german": "Er stellt sich seine berufliche Zukunft sehr erfolgreich vor.",
+      "translation": {
+        "ru": "Он представляет своё профессиональное будущее очень успешным.",
+        "en": "He imagines his professional future to be very successful."
+      },
+      "bracket_parts": [
+        "stellt",
+        "vor"
+      ],
+      "dativ_parts": [
+        "sich"
+      ],
+      "akkusativ_parts": [
+        "seine berufliche Zukunft"
+      ]
+    },
+    {
+      "id": "vorstellen_sich_dat_4",
+      "tense": "Präsens",
+      "german": "Wir stellen uns das fertige Gebäude bereits vor.",
+      "translation": {
+        "ru": "Мы уже представляем себе готовое здание.",
+        "en": "We are already imagining the finished building."
+      },
+      "bracket_parts": [
+        "stellen",
+        "vor"
+      ],
+      "dativ_parts": [
+        "uns"
+      ],
+      "akkusativ_parts": [
+        "das fertige Gebäude"
+      ]
+    },
+    {
+      "id": "vorstellen_sich_dat_5",
+      "tense": "Präsens",
+      "german": "Stellt ihr euch das Leben in den Bergen vor?",
+      "translation": {
+        "ru": "Вы представляете себе жизнь в горах?",
+        "en": "Do you imagine life in the mountains?"
+      },
+      "bracket_parts": [
+        "Stellt",
+        "vor"
+      ],
+      "dativ_parts": [
+        "euch"
+      ],
+      "akkusativ_parts": [
+        "das Leben in den Bergen"
+      ]
+    },
+    {
+      "id": "vorstellen_sich_dat_6",
+      "tense": "Präteritum",
+      "german": "Sie stellten sich die Prüfung viel schwerer vor.",
+      "translation": {
+        "ru": "Они представляли себе экзамен гораздо более сложным.",
+        "en": "They imagined the exam to be much harder."
+      },
+      "bracket_parts": [
+        "stellten",
+        "vor"
+      ],
+      "dativ_parts": [
+        "sich"
+      ],
+      "akkusativ_parts": [
+        "die Prüfung"
+      ]
+    },
+    {
+      "id": "vorstellen_sich_dat_7",
+      "tense": "Perfekt",
+      "german": "Ich habe mir die neue Stadt ganz anders vorgestellt.",
+      "translation": {
+        "ru": "Я представлял себе этот новый город совсем по-другому.",
+        "en": "I had imagined the new city completely differently."
+      },
+      "bracket_parts": [
+        "habe",
+        "vorgestellt"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "die neue Stadt"
+      ]
+    },
+    {
+      "id": "vorstellen_sich_dat_8",
+      "tense": "Imperativ",
+      "german": "Stell dir diese unglaubliche Geschichte einmal vor!",
+      "translation": {
+        "ru": "Представь себе только эту невероятную историю!",
+        "en": "Just imagine this incredible story!"
+      },
+      "bracket_parts": [
+        "Stell",
+        "vor"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "diese unglaubliche Geschichte"
+      ]
+    }
+  ]
+}

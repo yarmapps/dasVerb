@@ -1,0 +1,169 @@
+{
+  "id": "springen",
+  "infinitive": "springen",
+  "translation": {
+    "ru": "прыгать, скакать, лопаться",
+    "en": "to jump, leap, spring"
+  },
+  "level": "A2",
+  "frequency_rank": 379,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "springen",
+    "present_3sg": "springt",
+    "praeteritum_3sg": "sprang",
+    "partizip_2": "gesprungen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "springe",
+      "du": "springst",
+      "er_sie_es": "springt",
+      "wir": "springen",
+      "ihr": "springt",
+      "sie_Sie": "springen"
+    },
+    "praeteritum": {
+      "ich": "sprang",
+      "du": "sprangst",
+      "er_sie_es": "sprang",
+      "wir": "sprangen",
+      "ihr": "sprangt",
+      "sie_Sie": "sprangen"
+    },
+    "imperative": {
+      "du": "spring!",
+      "ihr": "springt!",
+      "Sie": "springen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ins kalte Wasser springen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich springe an heißen Sommertagen begeistert ins kühle Wasser.",
+      "translation": {
+        "ru": "В жаркие летние дни я с восторгом прыгаю в прохладную воду.",
+        "en": "On hot summer days I enthusiastically jump into the cool water."
+      },
+      "bracket_parts": [
+        "springe"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Springst du beim Leichtathletiktraining oft über die Latte?",
+      "translation": {
+        "ru": "Ты на тренировке по легкой атлетике часто прыгаешь через планку?",
+        "en": "Do you often jump over the bar in track and field practice?"
+      },
+      "bracket_parts": [
+        "Springst"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Katze springt lautlos vom Tisch auf den weichen Teppich.",
+      "translation": {
+        "ru": "Кошка бесшумно спрыгивает со стола на мягкий ковер.",
+        "en": "The cat leaps silently from the table onto the soft carpet."
+      },
+      "bracket_parts": [
+        "springt"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir springen gemeinsam vor Freude über den Sieg in die Luft.",
+      "translation": {
+        "ru": "Мы вместе подпрыгиваем в воздух от радости победы.",
+        "en": "We jump into the air together with joy over the victory."
+      },
+      "bracket_parts": [
+        "springen"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Springt ihr vom Zehnmeterturm im Schwimmbad?",
+      "translation": {
+        "ru": "Вы прыгаете с десятиметровой вышки в бассейне?",
+        "en": "Are you guys jumping from the ten-meter tower at the pool?"
+      },
+      "bracket_parts": [
+        "Springt"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Das Pferd sprang damals mühelos über das hohe Hindernis.",
+      "translation": {
+        "ru": "Лошадь тогда без труда перепрыгнула высокое препятствие.",
+        "en": "The horse leapt effortlessly over the high obstacle back then."
+      },
+      "bracket_parts": [
+        "sprang"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Sportler ist mit dem Fallschirm aus dem Flugzeug gesprungen.",
+      "translation": {
+        "ru": "Спортсмен прыгнул с парашютом из самолета.",
+        "en": "The athlete jumped from the airplane with a parachute."
+      },
+      "bracket_parts": [
+        "ist",
+        "gesprungen"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Spring bitte vorsichtig über diese tiefe Pfütze!",
+      "translation": {
+        "ru": "Перепрыгни эту глубокую лужу осторожно, пожалуйста!",
+        "en": "Please jump carefully over this deep puddle!"
+      },
+      "bracket_parts": [
+        "Spring"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    }
+  ]
+}

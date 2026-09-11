@@ -1,0 +1,185 @@
+{
+  "id": "verbessern",
+  "infinitive": "verbessern",
+  "translation": {
+    "ru": "улучшать, исправлять",
+    "en": "to improve, correct"
+  },
+  "level": "A2",
+  "frequency_rank": 336,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verbessern",
+    "present_3sg": "verbessert",
+    "praeteritum_3sg": "verbesserte",
+    "partizip_2": "verbessert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verbessere",
+      "du": "verbesserst",
+      "er_sie_es": "verbessert",
+      "wir": "verbessern",
+      "ihr": "verbessert",
+      "sie_Sie": "verbessern"
+    },
+    "praeteritum": {
+      "ich": "verbesserte",
+      "du": "verbessertest",
+      "er_sie_es": "verbesserte",
+      "wir": "verbesserten",
+      "ihr": "verbessertet",
+      "sie_Sie": "verbesserten"
+    },
+    "imperative": {
+      "du": "verbessere!",
+      "ihr": "verbessert!",
+      "Sie": "verbessern Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "seine Sprachkenntnisse verbessern",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verbessere meine Deutschkenntnisse durch tägliches Üben.",
+      "translation": {
+        "ru": "Я улучшаю свои знания немецкого ежедневными упражнениями.",
+        "en": "I improve my German skills through daily practice."
+      },
+      "bracket_parts": [
+        "verbessere"
+      ],
+      "akkusativ_parts": [
+        "meine Deutschkenntnisse"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verbesserst du deine Fehler im Aufsatz vor der Abgabe?",
+      "translation": {
+        "ru": "Ты исправляешь свои ошибки в сочинении перед сдачей?",
+        "en": "Are you correcting your mistakes in the essay before handing it in?"
+      },
+      "bracket_parts": [
+        "Verbesserst"
+      ],
+      "akkusativ_parts": [
+        "deine Fehler"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Sportler verbessert seinen eigenen Rekord um zwei Sekunden.",
+      "translation": {
+        "ru": "Спортсмен улучшает собственный рекорд на две секунды.",
+        "en": "The athlete improves his own record by two seconds."
+      },
+      "bracket_parts": [
+        "verbessert"
+      ],
+      "akkusativ_parts": [
+        "seinen eigenen Rekord"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verbessern kontinuierlich die Qualität unserer Dienstleistungen.",
+      "translation": {
+        "ru": "Мы непрерывно улучшаем качество наших услуг.",
+        "en": "We continually improve the quality of our services."
+      },
+      "bracket_parts": [
+        "verbessern"
+      ],
+      "akkusativ_parts": [
+        "die Qualität unserer Dienstleistungen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verbessert ihr eure Noten im nächsten Zeugnis?",
+      "translation": {
+        "ru": "Вы улучшите свои оценки в следующем аттестате?",
+        "en": "Are you guys improving your grades on the next report card?"
+      },
+      "bracket_parts": [
+        "Verbessert"
+      ],
+      "akkusativ_parts": [
+        "eure Noten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die neue Software verbesserte damals die Arbeitsabläufe in der Firma.",
+      "translation": {
+        "ru": "Новое программное обеспечение улучшило тогда рабочие процессы в компании.",
+        "en": "The new software improved company workflows back then."
+      },
+      "bracket_parts": [
+        "verbesserte"
+      ],
+      "akkusativ_parts": [
+        "die Arbeitsabläufe"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Lebensbedingungen der Menschen haben sich spürbar verbessert.",
+      "translation": {
+        "ru": "Условия жизни людей заметно улучшились.",
+        "en": "People's living conditions have improved noticeably."
+      },
+      "bracket_parts": [
+        "haben",
+        "verbessert"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verbessere bitte sofort den Tippfehler im Dokument!",
+      "translation": {
+        "ru": "Исправь опечатку в документе, пожалуйста!",
+        "en": "Please correct the typo in the document right away!"
+      },
+      "bracket_parts": [
+        "Verbessere"
+      ],
+      "akkusativ_parts": [
+        "den Tippfehler"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

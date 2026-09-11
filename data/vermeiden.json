@@ -1,0 +1,185 @@
+{
+  "id": "vermeiden",
+  "infinitive": "vermeiden",
+  "translation": {
+    "ru": "избегать, уклоняться",
+    "en": "to avoid, prevent"
+  },
+  "level": "B1",
+  "frequency_rank": 294,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vermeiden",
+    "present_3sg": "vermeidet",
+    "praeteritum_3sg": "vermied",
+    "partizip_2": "vermieden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vermeide",
+      "du": "vermeidest",
+      "er_sie_es": "vermeidet",
+      "wir": "vermeiden",
+      "ihr": "vermeidet",
+      "sie_Sie": "vermeiden"
+    },
+    "praeteritum": {
+      "ich": "vermied",
+      "du": "vermiedest",
+      "er_sie_es": "vermied",
+      "wir": "vermieden",
+      "ihr": "vermiedet",
+      "sie_Sie": "vermieden"
+    },
+    "imperative": {
+      "du": "vermeide!",
+      "ihr": "vermeidet!",
+      "Sie": "vermeiden Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Fehler vermeiden",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich vermeide zuckerhaltige Getränke während meiner Diät.",
+      "translation": {
+        "ru": "Я избегаю сладких напитков во время своей диеты.",
+        "en": "I avoid sugary drinks during my diet."
+      },
+      "bracket_parts": [
+        "vermeide"
+      ],
+      "akkusativ_parts": [
+        "zuckerhaltige Getränke"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Vermeidest du auf dem Weg zur Arbeit den dichten Berufsverkehr?",
+      "translation": {
+        "ru": "Ты избегаешь плотного часа пик по дороге на работу?",
+        "en": "Do you avoid heavy rush-hour traffic on your way to work?"
+      },
+      "bracket_parts": [
+        "Vermeidest"
+      ],
+      "akkusativ_parts": [
+        "den dichten Berufsverkehr"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der kluge Politiker vermeidet jeden offenen Konflikt mit der Presse.",
+      "translation": {
+        "ru": "Умный политик избегает любого открытого конфликта с прессой.",
+        "en": "The clever politician avoids any open conflict with the press."
+      },
+      "bracket_parts": [
+        "vermeidet"
+      ],
+      "akkusativ_parts": [
+        "jeden offenen Konflikt"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir vermeiden unnötige Ausgaben in dieser schwierigen Phase.",
+      "translation": {
+        "ru": "Мы избегаем лишних расходов на этом сложном этапе.",
+        "en": "We avoid unnecessary expenses during this difficult period."
+      },
+      "bracket_parts": [
+        "vermeiden"
+      ],
+      "akkusativ_parts": [
+        "unnötige Ausgaben"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Vermeidet ihr beim Sprechen typische grammatische Fehler?",
+      "translation": {
+        "ru": "Вы избегаете типичных грамматических ошибок в речи?",
+        "en": "Do you guys avoid typical grammatical errors when speaking?"
+      },
+      "bracket_parts": [
+        "Vermeidet"
+      ],
+      "akkusativ_parts": [
+        "typische grammatische Fehler"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie vermied damals jedes Gespräch über ihre Vergangenheit.",
+      "translation": {
+        "ru": "Она тогда избегала любого разговора о своем прошлом.",
+        "en": "She avoided any conversation about her past back then."
+      },
+      "bracket_parts": [
+        "vermied"
+      ],
+      "akkusativ_parts": [
+        "jedes Gespräch"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der aufmerksame Fahrer hat einen schweren Unfall vermieden.",
+      "translation": {
+        "ru": "Внимательный водитель избежал тяжелой аварии.",
+        "en": "The attentive driver prevented a serious accident."
+      },
+      "bracket_parts": [
+        "hat",
+        "vermieden"
+      ],
+      "akkusativ_parts": [
+        "einen schweren Unfall"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Vermeide bitte jegliche Missverständnisse im Brief!",
+      "translation": {
+        "ru": "Избегай любых недоразумений в письме, пожалуйста!",
+        "en": "Please avoid any misunderstandings in the letter!"
+      },
+      "bracket_parts": [
+        "Vermeide"
+      ],
+      "akkusativ_parts": [
+        "jegliche Missverständnisse"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

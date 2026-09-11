@@ -1,0 +1,178 @@
+{
+  "id": "entscheiden_akk_ueber",
+  "infinitive": "entscheiden",
+  "translation": {
+    "ru": "решать о, принимать решение по",
+    "en": "to decide on / about"
+  },
+  "level": "B1",
+  "frequency_rank": 135,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ent",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "entscheiden",
+    "present_3sg": "entscheidet",
+    "praeteritum_3sg": "entschied",
+    "partizip_2": "entschieden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entscheide",
+      "du": "entscheidest",
+      "er_sie_es": "entscheidet",
+      "wir": "entscheiden",
+      "ihr": "entscheidet",
+      "sie_Sie": "entscheiden",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "entschied",
+      "du": "entschiedest",
+      "er_sie_es": "entschied",
+      "wir": "entschieden",
+      "ihr": "entschiedet",
+      "sie_Sie": "entschieden"
+    },
+    "imperative": {
+      "du": "entscheide",
+      "ihr": "entscheidet",
+      "Sie": "entscheiden Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "über den Antrag (Akk) entscheiden",
+  "sentences": [
+    {
+      "id": "entscheiden_akk_ueber_1",
+      "tense": "Präsens",
+      "german": "Ich entscheide nicht allein über dieses große Budget.",
+      "translation": {
+        "ru": "Я не единолично принимаю решение по этому крупному бюджету.",
+        "en": "I do not decide alone on this large budget."
+      },
+      "bracket_parts": [
+        "entscheide"
+      ],
+      "akkusativ_parts": [
+        "über dieses große Budget"
+      ]
+    },
+    {
+      "id": "entscheiden_akk_ueber_2",
+      "tense": "Präsens",
+      "german": "Entscheidest du heute über die Vergabe des Auftrags?",
+      "translation": {
+        "ru": "Ты принимаешь сегодня решение о присуждении заказа?",
+        "en": "Are you deciding on the award of the contract today?"
+      },
+      "bracket_parts": [
+        "Entscheidest"
+      ],
+      "akkusativ_parts": [
+        "über die Vergabe"
+      ]
+    },
+    {
+      "id": "entscheiden_akk_ueber_3",
+      "tense": "Präsens",
+      "german": "Der Stadtrat entscheidet morgen über das Bauprojekt.",
+      "translation": {
+        "ru": "Городской совет принимает решение завтра по строительному проекту.",
+        "en": "The city council decides tomorrow on the construction project."
+      },
+      "bracket_parts": [
+        "entscheidet"
+      ],
+      "akkusativ_parts": [
+        "über das Bauprojekt"
+      ]
+    },
+    {
+      "id": "entscheiden_akk_ueber_4",
+      "tense": "Präsens",
+      "german": "Wir entscheiden gemeinsam über die nächsten Schritte.",
+      "translation": {
+        "ru": "Мы вместе решаем вопрос о следующих шагах.",
+        "en": "We decide together on the next steps."
+      },
+      "bracket_parts": [
+        "entscheiden"
+      ],
+      "akkusativ_parts": [
+        "über die nächsten Schritte"
+      ]
+    },
+    {
+      "id": "entscheiden_akk_ueber_5",
+      "tense": "Präsens",
+      "german": "Entscheidet ihr über die Auswahl der neuen Mitarbeiter?",
+      "translation": {
+        "ru": "Вы принимаете решение по отбору новых сотрудников?",
+        "en": "Are you deciding on the selection of the new employees?"
+      },
+      "bracket_parts": [
+        "Entscheidet"
+      ],
+      "akkusativ_parts": [
+        "über die Auswahl"
+      ]
+    },
+    {
+      "id": "entscheiden_akk_ueber_6",
+      "tense": "Präteritum",
+      "german": "Die Jury entschied damals sehr schnell über den Gewinner.",
+      "translation": {
+        "ru": "Жюри решило тогда очень быстро вопрос о победителе.",
+        "en": "The jury decided very quickly on the winner back then."
+      },
+      "bracket_parts": [
+        "entschied"
+      ],
+      "akkusativ_parts": [
+        "über den Gewinner"
+      ]
+    },
+    {
+      "id": "entscheiden_akk_ueber_7",
+      "tense": "Perfekt",
+      "german": "Der Richter hat gestern über den schwierigen Fall entschieden.",
+      "translation": {
+        "ru": "Судья вынес вчера решение по сложному делу.",
+        "en": "The judge decided on the difficult case yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "entschieden"
+      ],
+      "akkusativ_parts": [
+        "über den schwierigen Fall"
+      ]
+    },
+    {
+      "id": "entscheiden_akk_ueber_8",
+      "tense": "Imperativ",
+      "german": "Entscheide bitte gerecht über diesen Streitfall!",
+      "translation": {
+        "ru": "Прими, пожалуйста, справедливое решение по этой спорной ситуации!",
+        "en": "Please decide fairly on this dispute!"
+      },
+      "bracket_parts": [
+        "Entscheide"
+      ],
+      "akkusativ_parts": [
+        "über diesen Streitfall"
+      ]
+    }
+  ]
+}

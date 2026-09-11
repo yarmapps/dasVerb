@@ -1,0 +1,186 @@
+{
+  "id": "merken",
+  "infinitive": "merken",
+  "translation": {
+    "ru": "замечать, ощущать; запоминать (себе)",
+    "en": "to notice, remember, memorize"
+  },
+  "level": "A2",
+  "frequency_rank": 186,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "merken",
+    "present_3sg": "merkt",
+    "praeteritum_3sg": "merkte",
+    "partizip_2": "gemerkt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "merke",
+      "du": "merkst",
+      "er_sie_es": "merkt",
+      "wir": "merken",
+      "ihr": "merkt",
+      "sie_Sie": "merken"
+    },
+    "praeteritum": {
+      "ich": "merkte",
+      "du": "merktest",
+      "er_sie_es": "merkte",
+      "wir": "merkten",
+      "ihr": "merktet",
+      "sie_Sie": "merkten"
+    },
+    "imperative": {
+      "du": "merk!",
+      "ihr": "merkt!",
+      "Sie": "merken Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich die Nummer merken",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich merke mir diese wichtige Telefonnummer sofort.",
+      "translation": {
+        "ru": "Я сразу запоминаю этот важный номер телефона.",
+        "en": "I memorize this important phone number immediately."
+      },
+      "bracket_parts": [
+        "merke"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "diese wichtige Telefonnummer"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Merkst du den großen Unterschied zwischen den beiden?",
+      "translation": {
+        "ru": "Ты замечаешь большую разницу между ними двумя?",
+        "en": "Do you notice the big difference between the two?"
+      },
+      "bracket_parts": [
+        "Merkst"
+      ],
+      "akkusativ_parts": [
+        "den großen Unterschied"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er merkt die zunehmende Kälte am Abend.",
+      "translation": {
+        "ru": "Он чувствует усиливающийся холод к вечеру.",
+        "en": "He notices the increasing cold in the evening."
+      },
+      "bracket_parts": [
+        "merkt"
+      ],
+      "akkusativ_parts": [
+        "die zunehmende Kälte"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir merken uns alle neuen Vokabeln im Unterricht.",
+      "translation": {
+        "ru": "Мы запоминаем все новые слова на уроке.",
+        "en": "We memorize all the new vocabulary in class."
+      },
+      "bracket_parts": [
+        "merken"
+      ],
+      "dativ_parts": [
+        "uns"
+      ],
+      "akkusativ_parts": [
+        "alle neuen Vokabeln"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Merkt ihr den frischen Duft im Wald?",
+      "translation": {
+        "ru": "Вы чувствуете свежий запах в лесу?",
+        "en": "Do you guys notice the fresh scent in the forest?"
+      },
+      "bracket_parts": [
+        "Merkt"
+      ],
+      "akkusativ_parts": [
+        "den frischen Duft"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie merkten die Gefahr leider viel zu spät.",
+      "translation": {
+        "ru": "Они заметили опасность, к сожалению, слишком поздно.",
+        "en": "They unfortunately noticed the danger far too late."
+      },
+      "bracket_parts": [
+        "merkten"
+      ],
+      "akkusativ_parts": [
+        "die Gefahr"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Niemand hat die kleine Veränderung am Bild gemerkt.",
+      "translation": {
+        "ru": "Никто не заметил небольшого изменения на картине.",
+        "en": "Nobody noticed the small change in the picture."
+      },
+      "bracket_parts": [
+        "hat",
+        "gemerkt"
+      ],
+      "akkusativ_parts": [
+        "die kleine Veränderung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Merk dir diesen nützlichen Ratschlag gut!",
+      "translation": {
+        "ru": "Запомни этот полезный совет хорошенько!",
+        "en": "Remember this useful piece of advice well!"
+      },
+      "bracket_parts": [
+        "Merk"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "diesen nützlichen Ratschlag"
+      ]
+    }
+  ]
+}

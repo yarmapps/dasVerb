@@ -1,0 +1,184 @@
+{
+  "id": "einstellen",
+  "infinitive": "einstellen",
+  "translation": {
+    "ru": "нанимать на работу; настраивать; прекращать",
+    "en": "to hire, employ, adjust, stop"
+  },
+  "level": "B1",
+  "frequency_rank": 198,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einstellen",
+    "present_3sg": "stellt ein",
+    "praeteritum_3sg": "stellte ein",
+    "partizip_2": "eingestellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stelle ein",
+      "du": "stellst ein",
+      "er_sie_es": "stellt ein",
+      "wir": "stellen ein",
+      "ihr": "stellt ein",
+      "sie_Sie": "stellen ein"
+    },
+    "praeteritum": {
+      "ich": "stellte ein",
+      "du": "stelltest ein",
+      "er_sie_es": "stellte ein",
+      "wir": "stellten ein",
+      "ihr": "stelltet ein",
+      "sie_Sie": "stellten ein"
+    },
+    "imperative": {
+      "du": "stelle ein!",
+      "ihr": "stellt ein!",
+      "Sie": "stellen Sie ein!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "neue Mitarbeiter einstellen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich stelle den Wecker auf sieben Uhr ein.",
+      "translation": {
+        "ru": "Я завожу будильник на семь часов.",
+        "en": "I set the alarm clock for seven o'clock."
+      },
+      "bracket_parts": [
+        "stelle",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "den Wecker"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Stellst du morgen einen neuen Entwickler ein?",
+      "translation": {
+        "ru": "Ты нанимаешь завтра нового разработчика?",
+        "en": "Are you hiring a new developer tomorrow?"
+      },
+      "bracket_parts": [
+        "Stellst",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "einen neuen Entwickler"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Firma stellt in diesem Quartal viele Fachkräfte ein.",
+      "translation": {
+        "ru": "В этом квартале фирма нанимает много специалистов.",
+        "en": "The company is hiring many specialists this quarter."
+      },
+      "bracket_parts": [
+        "stellt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "viele Fachkräfte"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir stellen die laute Musik sofort ein.",
+      "translation": {
+        "ru": "Мы немедленно прекращаем громкую музыку.",
+        "en": "We stop the loud music immediately."
+      },
+      "bracket_parts": [
+        "stellen",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "die laute Musik"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Stellt ihr den Thermostat auf zwanzig Grad ein?",
+      "translation": {
+        "ru": "Вы устанавливаете термостат на двадцать градусов?",
+        "en": "Do you guys set the thermostat to twenty degrees?"
+      },
+      "bracket_parts": [
+        "Stellt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "den Thermostat"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie stellten die Produktion wegen Materialmangels vorübergehend ein.",
+      "translation": {
+        "ru": "Они временно остановили производство из-за нехватки материалов.",
+        "en": "They temporarily halted production due to lack of materials."
+      },
+      "bracket_parts": [
+        "stellten",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "die Produktion"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Agentur hat heute zwei talentierte Designer eingestellt.",
+      "translation": {
+        "ru": "Агентство сегодня наняло двух талантливых дизайнеров.",
+        "en": "The agency hired two talented designers today."
+      },
+      "bracket_parts": [
+        "hat",
+        "eingestellt"
+      ],
+      "akkusativ_parts": [
+        "zwei talentierte Designer"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Stelle bitte die richtige Temperatur ein!",
+      "translation": {
+        "ru": "Установи правильную температуру, пожалуйста!",
+        "en": "Please adjust the right temperature!"
+      },
+      "bracket_parts": [
+        "Stelle",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "die richtige Temperatur"
+      ]
+    }
+  ]
+}

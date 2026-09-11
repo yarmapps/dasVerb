@@ -55,14 +55,14 @@ const PLANS: Plan[] = [
   {
     id: 'monthly',
     labelKey: 'premiumSheets.plans.monthlyLabel',
-    fallbackPrice: '€7.99',
+    fallbackPrice: '€4.99',
     perKey: 'premiumSheets.plans.monthlyPer',
   },
   {
     id: 'yearly',
     labelKey: 'premiumSheets.plans.yearlyLabel',
-    fallbackPrice: '€49.99',
-    fallbackPerMonthPrice: '€4.16',
+    fallbackPrice: '€29.99',
+    fallbackPerMonthPrice: '€2.50',
     perMonthKey: 'premiumSheets.plans.perMonth',
     badgeKey: 'premiumSheets.plans.yearlyBadge',
     badgeStyle: 'yellow',
@@ -70,7 +70,7 @@ const PLANS: Plan[] = [
   {
     id: 'lifetime',
     labelKey: 'premiumSheets.plans.lifetimeLabel',
-    fallbackPrice: '€79.99',
+    fallbackPrice: '€49.99',
     perKey: 'premiumSheets.plans.lifetimePer',
     badgeKey: 'premiumSheets.plans.lifetimeBadge',
     badgeStyle: 'solid',

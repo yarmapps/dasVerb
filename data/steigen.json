@@ -1,0 +1,157 @@
+{
+  "id": "steigen",
+  "infinitive": "steigen",
+  "translation": {
+    "ru": "подниматься, расти",
+    "en": "to rise, to climb, to increase"
+  },
+  "level": "A2",
+  "frequency_rank": 101,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "steigen",
+    "present_3sg": "steigt",
+    "praeteritum_3sg": "stieg",
+    "partizip_2": "gestiegen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "steige",
+      "du": "steigst",
+      "er_sie_es": "steigt",
+      "wir": "steigen",
+      "ihr": "steigt",
+      "sie_Sie": "steigen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "stieg",
+      "du": "stiegst",
+      "er_sie_es": "stieg",
+      "wir": "stiegen",
+      "ihr": "stiegt",
+      "sie_Sie": "stiegen"
+    },
+    "imperative": {
+      "du": "steige",
+      "ihr": "steigt",
+      "Sie": "steigen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "schnell steigen",
+  "sentences": [
+    {
+      "id": "steigen_1",
+      "tense": "Präsens",
+      "german": "Ich steige vorsichtig die alte Holztreppe hinauf.",
+      "translation": {
+        "ru": "Я осторожно поднимаюсь по старой деревянной лестнице вверх.",
+        "en": "I carefully climb up the old wooden stairs."
+      },
+      "bracket_parts": [
+        "steige"
+      ],
+      "akkusativ_parts": [
+        "die alte Holztreppe"
+      ]
+    },
+    {
+      "id": "steigen_2",
+      "tense": "Präsens",
+      "german": "Steigst du heute auf den Aussichtsturm?",
+      "translation": {
+        "ru": "Ты поднимаешься сегодня на смотровую вышку?",
+        "en": "Are you climbing up the observation tower today?"
+      },
+      "bracket_parts": [
+        "Steigst"
+      ]
+    },
+    {
+      "id": "steigen_3",
+      "tense": "Präsens",
+      "german": "Die Temperatur steigt im Sommer auf dreißig Grad.",
+      "translation": {
+        "ru": "Температура летом поднимается до тридцати градусов.",
+        "en": "The temperature rises to thirty degrees in summer."
+      },
+      "bracket_parts": [
+        "steigt"
+      ]
+    },
+    {
+      "id": "steigen_4",
+      "tense": "Präsens",
+      "german": "Wir sehen, wie die Preise für Energie ständig steigen.",
+      "translation": {
+        "ru": "Мы видим, как цены на энергию постоянно растут.",
+        "en": "We see how energy prices are constantly rising."
+      },
+      "bracket_parts": [
+        "steigen"
+      ]
+    },
+    {
+      "id": "steigen_5",
+      "tense": "Präsens",
+      "german": "Steigt ihr mit uns auf diesen hohen Hügel?",
+      "translation": {
+        "ru": "Подниметесь с нами на этот высокий холм?",
+        "en": "Will you climb up this high hill with us?"
+      },
+      "bracket_parts": [
+        "Steigt"
+      ]
+    },
+    {
+      "id": "steigen_6",
+      "tense": "Präteritum",
+      "german": "Der Rauch stieg langsam aus dem Kamin empor.",
+      "translation": {
+        "ru": "Дым медленно поднимался из трубы.",
+        "en": "The smoke rose slowly from the chimney."
+      },
+      "bracket_parts": [
+        "stieg"
+      ]
+    },
+    {
+      "id": "steigen_7",
+      "tense": "Perfekt",
+      "german": "Die Mieten sind im letzten Jahr stark gestiegen.",
+      "translation": {
+        "ru": "Арендная плата в прошлом году сильно выросла.",
+        "en": "Rents rose sharply last year."
+      },
+      "bracket_parts": [
+        "sind",
+        "gestiegen"
+      ]
+    },
+    {
+      "id": "steigen_8",
+      "tense": "Imperativ",
+      "german": "Steige bitte langsam und halte dich am Geländer fest!",
+      "translation": {
+        "ru": "Поднимайся, пожалуйста, медленно и держись за перила!",
+        "en": "Please climb slowly and hold onto the railing!"
+      },
+      "bracket_parts": [
+        "Steige"
+      ]
+    }
+  ]
+}

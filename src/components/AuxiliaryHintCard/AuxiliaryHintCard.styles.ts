@@ -19,6 +19,12 @@ export const createStyles = (colors: ThemeColors) =>
       shadowRadius: 6,
       elevation: 2,
     },
+    embeddedContainer: {
+      marginTop: Spacing.md,
+      paddingTop: Spacing.md,
+      borderTopWidth: 1,
+      borderTopColor: colors.blockBorder,
+    },
     header: {
       flexDirection: 'row',
       alignItems: 'center',

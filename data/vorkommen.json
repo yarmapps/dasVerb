@@ -1,0 +1,175 @@
+{
+  "id": "vorkommen",
+  "infinitive": "vorkommen",
+  "translation": {
+    "ru": "происходить, случаться; казаться (кому-то)",
+    "en": "to happen, occur, seem"
+  },
+  "level": "A2",
+  "frequency_rank": 181,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "vor",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vorkommen",
+    "present_3sg": "kommt vor",
+    "praeteritum_3sg": "kam vor",
+    "partizip_2": "vorgekommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "komme vor",
+      "du": "kommst vor",
+      "er_sie_es": "kommt vor",
+      "wir": "kommen vor",
+      "ihr": "kommt vor",
+      "sie_Sie": "kommen vor"
+    },
+    "praeteritum": {
+      "ich": "kam vor",
+      "du": "kamst vor",
+      "er_sie_es": "kam vor",
+      "wir": "kamen vor",
+      "ihr": "kamt vor",
+      "sie_Sie": "kamen vor"
+    },
+    "imperative": {
+      "du": "komm vor!",
+      "ihr": "kommt vor!",
+      "Sie": "kommen Sie vor!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "komisch vorkommen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Mir kommt diese ganze Geschichte sehr seltsam vor.",
+      "translation": {
+        "ru": "Мне вся эта история кажется очень странной.",
+        "en": "This whole story seems very strange to me."
+      },
+      "bracket_parts": [
+        "kommt",
+        "vor"
+      ],
+      "dativ_parts": [
+        "Mir"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Kommt dir der Name dieser Straße bekannt vor?",
+      "translation": {
+        "ru": "Кажется ли тебе знакомым название этой улицы?",
+        "en": "Does the name of this street seem familiar to you?"
+      },
+      "bracket_parts": [
+        "Kommt",
+        "vor"
+      ],
+      "dativ_parts": [
+        "dir"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Solche Fehler kommen im Alltag immer wieder vor.",
+      "translation": {
+        "ru": "Такие ошибки случаются в повседневной жизни снова и снова.",
+        "en": "Such mistakes happen again and again in everyday life."
+      },
+      "bracket_parts": [
+        "kommen",
+        "vor"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Uns kommt der Preis für dieses Auto extrem hoch vor.",
+      "translation": {
+        "ru": "Нам цена за эту машину кажется чрезвычайно высокой.",
+        "en": "The price for this car seems extremely high to us."
+      },
+      "bracket_parts": [
+        "kommt",
+        "vor"
+      ],
+      "dativ_parts": [
+        "Uns"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kommt euch diese Stimme aus dem Fernsehen bekannt vor?",
+      "translation": {
+        "ru": "Кажется ли вам этот голос из телевизора знакомым?",
+        "en": "Does this voice from TV seem familiar to you guys?"
+      },
+      "bracket_parts": [
+        "Kommt",
+        "vor"
+      ],
+      "dativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Ihnen kamen die langen Wochen wie eine Ewigkeit vor.",
+      "translation": {
+        "ru": "Им эти долгие недели показались целой вечностью.",
+        "en": "The long weeks seemed like an eternity to them."
+      },
+      "bracket_parts": [
+        "kamen",
+        "vor"
+      ],
+      "dativ_parts": [
+        "Ihnen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Ein solcher Unfall ist hier noch nie vorgekommen.",
+      "translation": {
+        "ru": "Такая авария здесь еще ни разу не случалась.",
+        "en": "Such an accident has never occurred here before."
+      },
+      "bracket_parts": [
+        "ist",
+        "vorgekommen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Komm bitte an die Tafel vor!",
+      "translation": {
+        "ru": "Выйди к доске, пожалуйста!",
+        "en": "Please come forward to the board!"
+      },
+      "bracket_parts": [
+        "Komm",
+        "vor"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "sprechen",
+  "infinitive": "sprechen",
+  "translation": {
+    "ru": "говорить, разговаривать",
+    "en": "to speak, talk"
+  },
+  "level": "A1",
+  "frequency_rank": 31,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "sprechen",
+    "present_3sg": "spricht",
+    "praeteritum_3sg": "sprach",
+    "partizip_2": "gesprochen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "spreche",
+      "du": "sprichst",
+      "er_sie_es": "spricht",
+      "wir": "sprechen",
+      "ihr": "sprecht",
+      "sie_Sie": "sprechen"
+    },
+    "praeteritum": {
+      "ich": "sprach",
+      "du": "sprachst",
+      "er_sie_es": "sprach",
+      "wir": "sprachen",
+      "ihr": "spracht",
+      "sie_Sie": "sprachen"
+    },
+    "imperative": {
+      "du": "sprich!",
+      "ihr": "sprecht!",
+      "Sie": "sprechen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine Sprache sprechen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich spreche drei Sprachen fließend.",
+      "translation": {
+        "ru": "Я бегло говорю на трёх языках.",
+        "en": "I speak three languages fluently."
+      },
+      "bracket_parts": [
+        "spreche"
+      ],
+      "akkusativ_parts": [
+        "drei Sprachen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Sprichst du gut Deutsch?",
+      "translation": {
+        "ru": "Ты хорошо говоришь по-немецки?",
+        "en": "Do you speak German well?"
+      },
+      "bracket_parts": [
+        "Sprichst"
+      ],
+      "akkusativ_parts": [
+        "gut Deutsch"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er spricht sehr leise und deutlich.",
+      "translation": {
+        "ru": "Он говорит очень тихо и разборчиво.",
+        "en": "He speaks very quietly and clearly."
+      },
+      "bracket_parts": [
+        "spricht"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir sprechen im Unterricht nur Deutsch.",
+      "translation": {
+        "ru": "На уроке мы говорим только по-немецки.",
+        "en": "We speak only German in class."
+      },
+      "bracket_parts": [
+        "sprechen"
+      ],
+      "akkusativ_parts": [
+        "nur Deutsch"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Sprecht ihr auch Spanisch?",
+      "translation": {
+        "ru": "Вы тоже говорите по-испански?",
+        "en": "Do you guys also speak Spanish?"
+      },
+      "bracket_parts": [
+        "Sprecht"
+      ],
+      "akkusativ_parts": [
+        "auch Spanisch"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie sprachen den ganzen Abend kein einziges Wort.",
+      "translation": {
+        "ru": "За весь вечер они не проронили ни слова.",
+        "en": "They didn't speak a single word all evening."
+      },
+      "bracket_parts": [
+        "sprachen"
+      ],
+      "akkusativ_parts": [
+        "kein einziges Wort"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Dozent hat heute sehr lange gesprochen.",
+      "translation": {
+        "ru": "Преподаватель сегодня выступал очень долго.",
+        "en": "The lecturer spoke for a very long time today."
+      },
+      "bracket_parts": [
+        "hat",
+        "gesprochen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Sprich bitte etwas lauter!",
+      "translation": {
+        "ru": "Говори, пожалуйста, немного громче!",
+        "en": "Please speak a bit louder!"
+      },
+      "bracket_parts": [
+        "Sprich"
+      ]
+    }
+  ]
+}

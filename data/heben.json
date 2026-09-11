@@ -1,0 +1,177 @@
+{
+  "id": "heben",
+  "infinitive": "heben",
+  "translation": {
+    "ru": "поднимать, приподнимать",
+    "en": "to lift, raise"
+  },
+  "level": "B1",
+  "frequency_rank": 226,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "heben",
+    "present_3sg": "hebt",
+    "praeteritum_3sg": "hob",
+    "partizip_2": "gehoben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "hebe",
+      "du": "hebst",
+      "er_sie_es": "hebt",
+      "wir": "heben",
+      "ihr": "hebt",
+      "sie_Sie": "heben"
+    },
+    "praeteritum": {
+      "ich": "hob",
+      "du": "hobst",
+      "er_sie_es": "hob",
+      "wir": "hoben",
+      "ihr": "hobt",
+      "sie_Sie": "hoben"
+    },
+    "imperative": {
+      "du": "heb!",
+      "ihr": "hebt!",
+      "Sie": "heben Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Hand heben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich hebe die schwere Kiste vorsichtig vom Boden auf.",
+      "translation": {
+        "ru": "Я осторожно поднимаю тяжелый ящик с пола.",
+        "en": "I carefully lift the heavy box from the floor."
+      },
+      "bracket_parts": [
+        "hebe"
+      ],
+      "akkusativ_parts": [
+        "die schwere Kiste"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Hebst du die Hand, wenn du eine Frage hast?",
+      "translation": {
+        "ru": "Ты поднимаешь руку, когда у тебя вопрос?",
+        "en": "Do you raise your hand when you have a question?"
+      },
+      "bracket_parts": [
+        "Hebst"
+      ],
+      "akkusativ_parts": [
+        "die Hand"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Kran hebt schwere Betonplatten auf das Dach.",
+      "translation": {
+        "ru": "Кран поднимает тяжелые бетонные плиты на крышу.",
+        "en": "The crane lifts heavy concrete slabs onto the roof."
+      },
+      "bracket_parts": [
+        "hebt"
+      ],
+      "akkusativ_parts": [
+        "schwere Betonplatten"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir heben das Glas auf die Gesundheit unseres Freundes.",
+      "translation": {
+        "ru": "Мы поднимаем бокал за здоровье нашего друга.",
+        "en": "We raise our glass to the health of our friend."
+      },
+      "bracket_parts": [
+        "heben"
+      ],
+      "akkusativ_parts": [
+        "das Glas"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Hebt ihr die Gewichte im Fitnessstudio regelmäßig?",
+      "translation": {
+        "ru": "Вы регулярно поднимаете веса в спортзале?",
+        "en": "Do you guys lift weights in the gym regularly?"
+      },
+      "bracket_parts": [
+        "Hebt"
+      ],
+      "akkusativ_parts": [
+        "die Gewichte"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie hoben den verletzten Vogel behutsam auf.",
+      "translation": {
+        "ru": "Они бережно подобрали раненую птицу.",
+        "en": "They gently lifted up the injured bird."
+      },
+      "bracket_parts": [
+        "hoben"
+      ],
+      "akkusativ_parts": [
+        "den verletzten Vogel"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Sportler hat ein enormes Gewicht gehoben.",
+      "translation": {
+        "ru": "Спортсмен поднял колоссальный вес.",
+        "en": "The athlete lifted an enormous weight."
+      },
+      "bracket_parts": [
+        "hat",
+        "gehoben"
+      ],
+      "akkusativ_parts": [
+        "ein enormes Gewicht"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Heb bitte den Müll vom Boden auf!",
+      "translation": {
+        "ru": "Подними мусор с пола, пожалуйста!",
+        "en": "Please pick up the trash from the floor!"
+      },
+      "bracket_parts": [
+        "Heb"
+      ],
+      "akkusativ_parts": [
+        "den Müll"
+      ]
+    }
+  ]
+}

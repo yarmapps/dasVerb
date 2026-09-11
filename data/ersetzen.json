@@ -1,0 +1,185 @@
+{
+  "id": "ersetzen",
+  "infinitive": "ersetzen",
+  "translation": {
+    "ru": "заменять, возмещать",
+    "en": "to replace, substitute, compensate"
+  },
+  "level": "B1",
+  "frequency_rank": 342,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ersetzen",
+    "present_3sg": "ersetzt",
+    "praeteritum_3sg": "ersetzte",
+    "partizip_2": "ersetzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ersetze",
+      "du": "ersetzt",
+      "er_sie_es": "ersetzt",
+      "wir": "ersetzen",
+      "ihr": "ersetzt",
+      "sie_Sie": "ersetzen"
+    },
+    "praeteritum": {
+      "ich": "ersetzte",
+      "du": "ersetztest",
+      "er_sie_es": "ersetzte",
+      "wir": "ersetzten",
+      "ihr": "ersetztet",
+      "sie_Sie": "ersetzten"
+    },
+    "imperative": {
+      "du": "ersetze!",
+      "ihr": "ersetzt!",
+      "Sie": "ersetzen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein altes Gerät ersetzen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich ersetze die kaputte Lampe durch ein modernes Modell.",
+      "translation": {
+        "ru": "Я заменяю сломанную лампу современной моделью.",
+        "en": "I replace the broken lamp with a modern model."
+      },
+      "bracket_parts": [
+        "ersetze"
+      ],
+      "akkusativ_parts": [
+        "die kaputte Lampe"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Ersetzt du den kranken Kollegen bei der heutigen Schicht?",
+      "translation": {
+        "ru": "Ты подменяешь заболевшего коллегу на сегодняшней смене?",
+        "en": "Are you replacing the sick colleague on today's shift?"
+      },
+      "bracket_parts": [
+        "Ersetzt"
+      ],
+      "akkusativ_parts": [
+        "den kranken Kollegen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Künstliche Intelligenz ersetzt niemals echte menschliche Empathie.",
+      "translation": {
+        "ru": "Искусственный интеллект никогда не заменит подлинную человеческую эмпатию.",
+        "en": "Artificial intelligence never replaces genuine human empathy."
+      },
+      "bracket_parts": [
+        "ersetzt"
+      ],
+      "akkusativ_parts": [
+        "echte menschliche Empathie"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir ersetzen die alten Computer durch neue Geräte.",
+      "translation": {
+        "ru": "Мы заменяем старые компьютеры новыми устройствами.",
+        "en": "We replace the old computers with new devices."
+      },
+      "bracket_parts": [
+        "ersetzen"
+      ],
+      "akkusativ_parts": [
+        "die alten Computer"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Ersetzt ihr den ausgefallenen Trainer für die Mannschaft?",
+      "translation": {
+        "ru": "Вы заменяете выбывшего тренера для команды?",
+        "en": "Are you guys replacing the missing coach for the team?"
+      },
+      "bracket_parts": [
+        "Ersetzt"
+      ],
+      "akkusativ_parts": [
+        "den ausgefallenen Trainer"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Versicherung ersetzte damals den gesamten Schaden problemlos.",
+      "translation": {
+        "ru": "Страховка тогда без проблем возместила весь ущерб.",
+        "en": "The insurance compensated the entire damage without problems back then."
+      },
+      "bracket_parts": [
+        "ersetzte"
+      ],
+      "akkusativ_parts": [
+        "den gesamten Schaden"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die defekte Dichtung an der Maschine ersetzt.",
+      "translation": {
+        "ru": "Они заменили неисправную прокладку на машине.",
+        "en": "They have replaced the defective seal on the machine."
+      },
+      "bracket_parts": [
+        "haben",
+        "ersetzt"
+      ],
+      "akkusativ_parts": [
+        "die defekte Dichtung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Ersetze bitte sofort die leere Druckerpatrone!",
+      "translation": {
+        "ru": "Замени пустой картридж принтера, пожалуйста!",
+        "en": "Please replace the empty printer cartridge immediately!"
+      },
+      "bracket_parts": [
+        "Ersetze"
+      ],
+      "akkusativ_parts": [
+        "die leere Druckerpatrone"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

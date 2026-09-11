@@ -1,0 +1,178 @@
+{
+  "id": "aufgeben",
+  "infinitive": "aufgeben",
+  "translation": {
+    "ru": "сдаваться, отказываться; отправлять (письмо/багаж); задавать (урок)",
+    "en": "to give up, surrender, post (mail), assign"
+  },
+  "level": "A2",
+  "frequency_rank": 246,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufgeben",
+    "present_3sg": "gibt auf",
+    "praeteritum_3sg": "gab auf",
+    "partizip_2": "aufgegeben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gebe auf",
+      "du": "gibst auf",
+      "er_sie_es": "gibt auf",
+      "wir": "geben auf",
+      "ihr": "gebt auf",
+      "sie_Sie": "geben auf"
+    },
+    "praeteritum": {
+      "ich": "gab auf",
+      "du": "gabst auf",
+      "er_sie_es": "gab auf",
+      "wir": "gaben auf",
+      "ihr": "gabt auf",
+      "sie_Sie": "gaben auf"
+    },
+    "imperative": {
+      "du": "gib auf!",
+      "ihr": "gebt auf!",
+      "Sie": "geben Sie auf!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "niemals aufgeben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich gebe meine sportlichen Ziele niemals auf.",
+      "translation": {
+        "ru": "Я никогда не отказываюсь от своих спортивных целей.",
+        "en": "I never give up on my athletic goals."
+      },
+      "bracket_parts": [
+        "gebe",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "meine sportlichen Ziele"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Gibst du dein Gepäck am Schalter auf?",
+      "translation": {
+        "ru": "Ты сдаешь свой багаж у стойки?",
+        "en": "Are you checking in your luggage at the counter?"
+      },
+      "bracket_parts": [
+        "Gibst",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "dein Gepäck"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Lehrer gibt uns heute viele Hausaufgaben auf.",
+      "translation": {
+        "ru": "Учитель задает нам сегодня много домашних заданий.",
+        "en": "The teacher assigns us a lot of homework today."
+      },
+      "bracket_parts": [
+        "gibt",
+        "auf"
+      ],
+      "dativ_parts": [
+        "uns"
+      ],
+      "akkusativ_parts": [
+        "viele Hausaufgaben"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir geben die Hoffnung auf eine Besserung nicht auf.",
+      "translation": {
+        "ru": "Мы не теряем надежду на улучшение.",
+        "en": "We do not give up hope for improvement."
+      },
+      "bracket_parts": [
+        "geben",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die Hoffnung auf eine Besserung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Gebt ihr bei den ersten Schwierigkeiten schon auf?",
+      "translation": {
+        "ru": "Вы сдаетесь уже при первых трудностях?",
+        "en": "Do you guys give up at the first difficulties?"
+      },
+      "bracket_parts": [
+        "Gebt",
+        "auf"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie gaben das schwere Rennen kurz vor dem Ziel auf.",
+      "translation": {
+        "ru": "Они сошли с тяжелой дистанции незадолго до финиша.",
+        "en": "They gave up the difficult race just before the finish line."
+      },
+      "bracket_parts": [
+        "gaben",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "das schwere Rennen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Boxer hat nach der fünften Runde erschöpft aufgegeben.",
+      "translation": {
+        "ru": "Боксер изнеможенно сдался после пятого раунда.",
+        "en": "The boxer exhausted gave up after the fifth round."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgegeben"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Gib jetzt bitte nicht so kurz vor dem Ziel auf!",
+      "translation": {
+        "ru": "Не сдавайся так близко к цели, пожалуйста!",
+        "en": "Please do not give up so close to the goal!"
+      },
+      "bracket_parts": [
+        "Gib",
+        "auf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "id": "reisen",
+  "infinitive": "reisen",
+  "translation": {
+    "ru": "путешествовать, совершать поездки",
+    "en": "to travel, to journey"
+  },
+  "level": "A1",
+  "frequency_rank": 120,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "reisen",
+    "present_3sg": "reist",
+    "praeteritum_3sg": "reiste",
+    "partizip_2": "gereist"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "reise",
+      "du": "reist",
+      "er_sie_es": "reist",
+      "wir": "reisen",
+      "ihr": "reist",
+      "sie_Sie": "reisen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "reiste",
+      "du": "reistest",
+      "er_sie_es": "reiste",
+      "wir": "reisten",
+      "ihr": "reistet",
+      "sie_Sie": "reisten"
+    },
+    "imperative": {
+      "du": "reise!",
+      "ihr": "reist!",
+      "Sie": "reisen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "nach",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "mit dem Zug durch ganz Europa reisen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich reise im kommenden Sommerurlaub mit dem Rucksack durch die skandinavischen Länder.",
+      "translation": {
+        "ru": "В предстоящем летнем отпуске я путешествую с рюкзаком по скандинавским странам.",
+        "en": "In the coming summer holiday I travel backpacking through the Scandinavian countries."
+      },
+      "bracket_parts": [
+        "reise"
+      ],
+      "dativ_parts": [
+        "im kommenden Sommerurlaub",
+        "mit dem Rucksack"
+      ],
+      "akkusativ_parts": [
+        "durch die skandinavischen Länder"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Reist du aus beruflichen Gründen eigentlich häufig mit dem Flugzeug nach Asien?",
+      "translation": {
+        "ru": "Путешествуешь ли ты по служебным делам на самом деле часто на самолете в Азию?",
+        "en": "Do you actually often travel to Asia by plane for business reasons?"
+      },
+      "bracket_parts": [
+        "Reist"
+      ],
+      "dativ_parts": [
+        "aus beruflichen Gründen",
+        "mit dem Flugzeug",
+        "nach Asien"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die abenteuerlustige Fotografin reist seit vielen Monaten ganz allein um die Welt.",
+      "translation": {
+        "ru": "Любящая приключения фотограф уже много месяцев совершенно одна путешествует вокруг света.",
+        "en": "The adventurous photographer has been travelling the world all alone for many months."
+      },
+      "bracket_parts": [
+        "reist"
+      ],
+      "dativ_parts": [
+        "seit vielen Monaten"
+      ],
+      "akkusativ_parts": [
+        "um die Welt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir reisen zur Schonung des Klimas am liebsten mit der modernen Eisenbahn durch Deutschland.",
+      "translation": {
+        "ru": "Для защиты климата мы охотнее всего путешествуем на современной железной дороге по Германии.",
+        "en": "To protect the climate we prefer to travel through Germany on the modern railway."
+      },
+      "bracket_parts": [
+        "reisen"
+      ],
+      "dativ_parts": [
+        "zur Schonung des Klimas",
+        "mit der modernen Eisenbahn"
+      ],
+      "akkusativ_parts": [
+        "durch Deutschland"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Reist ihr in den kommenden Winterferien wieder zum Skifahren in die Schweizer Alpen?",
+      "translation": {
+        "ru": "Едете ли вы на предстоящих зимних каникулах снова кататься на лыжах в швейцарские Альпы?",
+        "en": "Are you travelling to the Swiss Alps again for skiing in the coming winter holidays?"
+      },
+      "bracket_parts": [
+        "Reist"
+      ],
+      "dativ_parts": [
+        "in den kommenden Winterferien",
+        "zum Skifahren"
+      ],
+      "akkusativ_parts": [
+        "in die Schweizer Alpen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals reiste der bekannte Naturforscher jahrelang durch die dichten Regenwälder Südamerikas.",
+      "translation": {
+        "ru": "В те времена известный натуралист годами путешествовал по густым тропическим лесам Южной Америки.",
+        "en": "At that time the well-known naturalist travelled through the dense rainforests of South America for years."
+      },
+      "bracket_parts": [
+        "reiste"
+      ],
+      "akkusativ_parts": [
+        "durch die dichten Regenwälder Südamerikas"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die beiden Freunde sind im letzten Jahr gemeinsam quer durch ganz Australien gereist.",
+      "translation": {
+        "ru": "Двое друзей в прошлом году вместе пропутешествовали через всю Австралию.",
+        "en": "The two friends travelled right across Australia together last year."
+      },
+      "bracket_parts": [
+        "sind",
+        "gereist"
+      ],
+      "dativ_parts": [
+        "im letzten Jahr"
+      ],
+      "akkusativ_parts": [
+        "durch ganz Australien"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Reisen Sie stets mit offenen Augen und lernen Sie neue Kulturen kennen!",
+      "translation": {
+        "ru": "Путешествуйте всегда с открытыми глазами и знакомьтесь с новыми культурами!",
+        "en": "Always travel with open eyes and get to know new cultures!"
+      },
+      "bracket_parts": [
+        "Reisen"
+      ],
+      "dativ_parts": [
+        "mit offenen Augen"
+      ]
+    }
+  ]
+}

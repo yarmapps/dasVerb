@@ -1,0 +1,147 @@
+{
+  "id": "erschrecken",
+  "infinitive": "erschrecken",
+  "translation": {
+    "ru": "пугаться, испугаться",
+    "en": "to be frightened, be startled"
+  },
+  "level": "B1",
+  "frequency_rank": 423,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erschrecken",
+    "present_3sg": "erschrickt",
+    "praeteritum_3sg": "erschrak",
+    "partizip_2": "erschrocken"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erschrecke",
+      "du": "erschrickst",
+      "er_sie_es": "erschrickt",
+      "wir": "erschrecken",
+      "ihr": "erschreckt",
+      "sie_Sie": "erschrecken"
+    },
+    "praeteritum": {
+      "ich": "erschrak",
+      "du": "erschrakst",
+      "er_sie_es": "erschrak",
+      "wir": "erschraken",
+      "ihr": "erschrakt",
+      "sie_Sie": "erschraken"
+    },
+    "perfekt": {
+      "ich": "bin erschrocken",
+      "du": "bist erschrocken",
+      "er_sie_es": "ist erschrocken",
+      "wir": "sind erschrocken",
+      "ihr": "seid erschrocken",
+      "sie_Sie": "sind erschrocken"
+    }
+  },
+  "rektion": {
+    "case": "none",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich erschrecke immer bei plötzlichem Lärm.",
+      "translation": {
+        "ru": "Я всегда пугаюсь внезапного шума.",
+        "en": "I always get startled at sudden noise."
+      },
+      "bracket_parts": [
+        "erschrecke"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du erschrickst jedes Mal vor der kleinen Maus.",
+      "translation": {
+        "ru": "Ты каждый раз пугаешься маленькой мышки.",
+        "en": "You get startled every time by the little mouse."
+      },
+      "bracket_parts": [
+        "erschrickst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das kleine Kind erschrickt vor dem großen Hund.",
+      "translation": {
+        "ru": "Маленький ребенок пугается большой собаки.",
+        "en": "The little child is frightened of the big dog."
+      },
+      "bracket_parts": [
+        "erschrickt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erschrecken bei jedem lauten Donnerschlag.",
+      "translation": {
+        "ru": "Мы пугаемся каждого громкого удара грома.",
+        "en": "We get startled at every loud thunderclap."
+      },
+      "bracket_parts": [
+        "erschrecken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr erschreckt über jede unerwartete Nachricht.",
+      "translation": {
+        "ru": "Вы пугаетесь любой неожиданной новости.",
+        "en": "You get startled at every unexpected piece of news."
+      },
+      "bracket_parts": [
+        "erschreckt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie erschraken über das dumpfe Geräusch im Keller.",
+      "translation": {
+        "ru": "Они испугались глухого звука в подвале.",
+        "en": "They were startled by the dull noise in the basement."
+      },
+      "bracket_parts": [
+        "erschraken"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Wanderer ist vor der Schlange im Wald tief erschrocken.",
+      "translation": {
+        "ru": "Путник сильно испугался змеи в лесу.",
+        "en": "The hiker was deeply frightened of the snake in the forest."
+      },
+      "bracket_parts": [
+        "ist",
+        "erschrocken"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erschrick nicht so heftig vor diesem kleinen Schatten!",
+      "translation": {
+        "ru": "Не пугайся так сильно этой маленькой тени!",
+        "en": "Do not get so startled by this little shadow!"
+      },
+      "bracket_parts": [
+        "Erschrick"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

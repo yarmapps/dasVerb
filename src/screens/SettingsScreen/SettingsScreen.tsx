@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { View, Text, TouchableOpacity, ScrollView, Switch, Linking } from 'react-native';
+import { View, Text, TouchableOpacity, ScrollView, Switch, Linking, Alert } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -12,9 +12,17 @@ import { RootStackParamList } from '../../types/navigation';
 import { useAppTheme } from '../../context/ThemeContext';
 import { useLocale } from '../../context/LocaleContext';
 import { LANGUAGES } from '../../types/intl';
-import { getSettings, updateSettings } from '../../services/settingsService';
+import { getSettings, updateSettings, resetAllSettings } from '../../services/settingsService';
+import { progressService } from '../../services/progressService';
 import { soundService } from '../../services/soundService';
 import { trackEvent } from '../../services/analyticsService';
+import {
+  requestPermissions,
+  scheduleDailyReminder,
+  cancelDailyReminder,
+  scheduleStreakReminder,
+  cancelStreakReminder,
+} from '../../services/notificationService';
 import { createStyles } from './SettingsScreen.styles';
 
 type SettingsScreenNavigationProp = NativeStackNavigationProp<RootStackParamList>;
@@ -46,10 +54,46 @@ export function SettingsScreen(): React.JSX.Element {
     }
   };
 
-  const handleNotificationsToggle = (value: boolean) => {
+  const handleNotificationsToggle = async (value: boolean) => {
     trackEvent('settings_notifications_toggled', { enabled: value });
-    setNotificationsEnabled(value);
-    updateSettings({ notifications: value });
+    if (value) {
+      const hasPermission = await requestPermissions();
+      if (hasPermission) {
+        setNotificationsEnabled(true);
+        updateSettings({ notifications: true });
+        await scheduleDailyReminder();
+        await scheduleStreakReminder();
+        soundService.playTapSound();
+      } else {
+        setNotificationsEnabled(false);
+        updateSettings({ notifications: false });
+        Alert.alert(
+          intl.formatMessage({
+            id: 'settingsScreen.notificationsPermissionRequiredTitle',
+          }),
+          intl.formatMessage({
+            id: 'settingsScreen.notificationsPermissionRequiredMessage',
+          }),
+          [
+            {
+              text: intl.formatMessage({ id: 'settingsScreen.cancel' }),
+              style: 'cancel',
+            },
+            {
+              text: intl.formatMessage({ id: 'settingsScreen.openSettings' }),
+              onPress: () => {
+                Linking.openSettings().catch(() => {});
+              },
+            },
+          ],
+        );
+      }
+    } else {
+      setNotificationsEnabled(false);
+      updateSettings({ notifications: false });
+      await cancelDailyReminder();
+      await cancelStreakReminder();
+    }
   };
 
   const handleSpeakToggle = (value: boolean) => {
@@ -88,6 +132,63 @@ export function SettingsScreen(): React.JSX.Element {
     Linking.openURL('mailto:yarm.apps@gmail.com');
   };
 
+  const handleResetProgress = () => {
+    Alert.alert(
+      intl.formatMessage({ id: 'settingsScreen.resetProgressTitle' }),
+      intl.formatMessage({ id: 'settingsScreen.resetProgressMessage' }),
+      [
+        {
+          text: intl.formatMessage({ id: 'settingsScreen.cancel' }),
+          style: 'cancel',
+        },
+        {
+          text: intl.formatMessage({ id: 'settingsScreen.resetProgressConfirm' }),
+          style: 'destructive',
+          onPress: () => {
+            progressService.clearAllProgress();
+            trackEvent('settings_progress_reset', {});
+            soundService.playTapSound();
+            Alert.alert(
+              intl.formatMessage({ id: 'settingsScreen.resetSuccessTitle' }),
+              intl.formatMessage({ id: 'settingsScreen.resetProgressSuccess' }),
+            );
+          },
+        },
+      ],
+    );
+  };
+
+  const handleResetSettings = () => {
+    Alert.alert(
+      intl.formatMessage({ id: 'settingsScreen.resetSettingsTitle' }),
+      intl.formatMessage({ id: 'settingsScreen.resetSettingsMessage' }),
+      [
+        {
+          text: intl.formatMessage({ id: 'settingsScreen.cancel' }),
+          style: 'cancel',
+        },
+        {
+          text: intl.formatMessage({ id: 'settingsScreen.resetSettingsConfirm' }),
+          style: 'destructive',
+          onPress: () => {
+            resetAllSettings();
+            setSoundEnabled(true);
+            setNotificationsEnabled(true);
+            setSpeakOnCorrectAnswer(true);
+            setTtsVoiceGender('female');
+            setThemeMode('system');
+            trackEvent('settings_all_reset', {});
+            soundService.playTapSound();
+            Alert.alert(
+              intl.formatMessage({ id: 'settingsScreen.resetSuccessTitle' }),
+              intl.formatMessage({ id: 'settingsScreen.resetSettingsSuccess' }),
+            );
+          },
+        },
+      ],
+    );
+  };
+
   const renderSection = (title: string, children: React.ReactNode) => (
     <View>
       <Text style={styles.sectionTitle}>{title}</Text>
@@ -101,6 +202,7 @@ export function SettingsScreen(): React.JSX.Element {
     rightElement: React.ReactNode,
     onPress?: () => void,
     isLast: boolean = false,
+    isDanger: boolean = false,
   ) => {
     const Component = onPress ? TouchableOpacity : View;
 
@@ -108,10 +210,10 @@ export function SettingsScreen(): React.JSX.Element {
       <View>
         <Component style={styles.row} onPress={onPress} activeOpacity={onPress ? 0.7 : 1}>
           <View style={styles.rowLeft}>
-            <View style={styles.iconContainer}>
-              <FontAwesome5 name={icon} size={14} color={colors.primary} />
+            <View style={[styles.iconContainer, isDanger && styles.dangerIconContainer]}>
+              <FontAwesome5 name={icon} size={14} color={isDanger ? '#EF4444' : colors.primary} />
             </View>
-            <Text style={styles.rowLabel}>{label}</Text>
+            <Text style={[styles.rowLabel, isDanger && styles.dangerRowLabel]}>{label}</Text>
           </View>
           <View style={styles.rowRight}>{rightElement}</View>
         </Component>
@@ -247,10 +349,44 @@ export function SettingsScreen(): React.JSX.Element {
           </>,
         )}
 
-        <Text style={styles.versionText}>
-          {intl.formatMessage({ id: 'settingsScreen.version' })} {appConfig.expo.version} (
-          {appConfig.expo.name})
-        </Text>
+        {/* DATA MANAGEMENT SECTION */}
+        {renderSection(
+          intl.formatMessage({ id: 'settingsScreen.dataSection' }),
+          <>
+            {renderRow(
+              'trash-alt',
+              intl.formatMessage({ id: 'settingsScreen.resetProgress' }),
+              <FontAwesome5 name="chevron-right" size={12} color={colors.textMutedInverted} />,
+              handleResetProgress,
+              false,
+              true,
+            )}
+            {renderRow(
+              'redo-alt',
+              intl.formatMessage({ id: 'settingsScreen.resetSettings' }),
+              <FontAwesome5 name="chevron-right" size={12} color={colors.textMutedInverted} />,
+              handleResetSettings,
+              true,
+              true,
+            )}
+          </>,
+        )}
+
+        <TouchableOpacity
+          onLongPress={() => {
+            if (__DEV__) {
+              soundService.playTapSound();
+              navigation.navigate('Debug');
+            }
+          }}
+          delayLongPress={350}
+          activeOpacity={0.8}
+        >
+          <Text style={styles.versionText}>
+            {intl.formatMessage({ id: 'settingsScreen.version' })} {appConfig.expo.version} (
+            {appConfig.expo.name})
+          </Text>
+        </TouchableOpacity>
       </ScrollView>
     </ScreenBackground>
   );

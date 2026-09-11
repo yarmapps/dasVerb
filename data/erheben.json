@@ -1,0 +1,177 @@
+{
+  "id": "erheben",
+  "infinitive": "erheben",
+  "translation": {
+    "ru": "поднимать (голос/бокал); взимать (плату/налог); выдвигать (обвинение)",
+    "en": "to raise, lift, levy (fees), lodge (a complaint)"
+  },
+  "level": "B1",
+  "frequency_rank": 269,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erheben",
+    "present_3sg": "erhebt",
+    "praeteritum_3sg": "erhob",
+    "partizip_2": "erhoben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erhebe",
+      "du": "erhebst",
+      "er_sie_es": "erhebt",
+      "wir": "erheben",
+      "ihr": "erhebt",
+      "sie_Sie": "erheben"
+    },
+    "praeteritum": {
+      "ich": "erhob",
+      "du": "erhobst",
+      "er_sie_es": "erhob",
+      "wir": "erhoben",
+      "ihr": "erhobt",
+      "sie_Sie": "erhoben"
+    },
+    "imperative": {
+      "du": "erhebe!",
+      "ihr": "erhebt!",
+      "Sie": "erheben Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Anklage erheben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erhebe meine Stimme für die Schwachen.",
+      "translation": {
+        "ru": "Я возвышаю голос в защиту слабых.",
+        "en": "I raise my voice for the weak."
+      },
+      "bracket_parts": [
+        "erhebe"
+      ],
+      "akkusativ_parts": [
+        "meine Stimme"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erhebst du heute Einspruch gegen den Bescheid?",
+      "translation": {
+        "ru": "Ты подаешь сегодня протест против решения?",
+        "en": "Are you raising an objection to the notice today?"
+      },
+      "bracket_parts": [
+        "Erhebst"
+      ],
+      "akkusativ_parts": [
+        "Einspruch"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Bank erhebt hohe Gebühren für die Überweisung.",
+      "translation": {
+        "ru": "Банк взимает высокую комиссию за перевод.",
+        "en": "The bank levies high fees for the transfer."
+      },
+      "bracket_parts": [
+        "erhebt"
+      ],
+      "akkusativ_parts": [
+        "hohe Gebühren"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erheben das Glas auf das Geburtstagskind.",
+      "translation": {
+        "ru": "Мы поднимаем бокал за именинника.",
+        "en": "We raise our glass to the birthday boy."
+      },
+      "bracket_parts": [
+        "erheben"
+      ],
+      "akkusativ_parts": [
+        "das Glas"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erhebt ihr Vorwürfe gegen die Leitung?",
+      "translation": {
+        "ru": "Вы выдвигаете обвинения против руководства?",
+        "en": "Are you guys leveling accusations against management?"
+      },
+      "bracket_parts": [
+        "Erhebt"
+      ],
+      "akkusativ_parts": [
+        "Vorwürfe"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie erhoben damals schwere Klage gegen den Konzern.",
+      "translation": {
+        "ru": "Они подали тогда серьезный иск против концерна.",
+        "en": "They brought a serious lawsuit against the corporation back then."
+      },
+      "bracket_parts": [
+        "erhoben"
+      ],
+      "akkusativ_parts": [
+        "schwere Klage"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Staatsanwaltschaft hat gestern Anklage erhoben.",
+      "translation": {
+        "ru": "Прокуратура вчера предъявила обвинение.",
+        "en": "The prosecutor's office brought charges yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "erhoben"
+      ],
+      "akkusativ_parts": [
+        "Anklage"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erhebe bitte sofort Einspruch bei der Behörde!",
+      "translation": {
+        "ru": "Подай возражение в ведомство немедленно, пожалуйста!",
+        "en": "Please file an objection with the authority immediately!"
+      },
+      "bracket_parts": [
+        "Erhebe"
+      ],
+      "akkusativ_parts": [
+        "Einspruch"
+      ]
+    }
+  ]
+}

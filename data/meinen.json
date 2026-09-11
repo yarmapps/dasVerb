@@ -1,0 +1,178 @@
+{
+  "id": "meinen",
+  "infinitive": "meinen",
+  "translation": {
+    "ru": "иметь в виду, полагать",
+    "en": "to mean, to think, to believe"
+  },
+  "level": "A1",
+  "frequency_rank": 35,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "meinen",
+    "present_3sg": "meint",
+    "praeteritum_3sg": "meinte",
+    "partizip_2": "gemeint"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "meine",
+      "du": "meinst",
+      "er_sie_es": "meint",
+      "wir": "meinen",
+      "ihr": "meint",
+      "sie_Sie": "meinen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "meinte",
+      "du": "meintest",
+      "er_sie_es": "meinte",
+      "wir": "meinten",
+      "ihr": "meintet",
+      "sie_Sie": "meinten"
+    },
+    "imperative": {
+      "du": "meine",
+      "ihr": "meint",
+      "Sie": "meinen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "etwas (Akk) meinen",
+  "sentences": [
+    {
+      "id": "meinen_1",
+      "tense": "Präsens",
+      "german": "Ich meine dieses blaue Buch dort drüben.",
+      "translation": {
+        "ru": "Я имею в виду ту синюю книгу вон там.",
+        "en": "I mean that blue book over there."
+      },
+      "bracket_parts": [
+        "meine"
+      ],
+      "akkusativ_parts": [
+        "dieses blaue Buch"
+      ]
+    },
+    {
+      "id": "meinen_2",
+      "tense": "Präsens",
+      "german": "Wen meinst du eigentlich genau?",
+      "translation": {
+        "ru": "Кого ты, собственно, имеешь в виду?",
+        "en": "Whom exactly do you actually mean?"
+      },
+      "bracket_parts": [
+        "meinst"
+      ],
+      "akkusativ_parts": [
+        "Wen"
+      ]
+    },
+    {
+      "id": "meinen_3",
+      "tense": "Präsens",
+      "german": "Er meint immer das Gegenteil von dem, was er sagt.",
+      "translation": {
+        "ru": "Он всегда имеет в виду противоположное тому, что говорит.",
+        "en": "He always means the opposite of what he says."
+      },
+      "bracket_parts": [
+        "meint"
+      ],
+      "akkusativ_parts": [
+        "das Gegenteil"
+      ]
+    },
+    {
+      "id": "meinen_4",
+      "tense": "Präsens",
+      "german": "Wir meinen es wirklich nur gut mit dir.",
+      "translation": {
+        "ru": "Мы правда желаем тебе только добра.",
+        "en": "We truly only mean well with you."
+      },
+      "bracket_parts": [
+        "meinen"
+      ],
+      "akkusativ_parts": [
+        "es"
+      ]
+    },
+    {
+      "id": "meinen_5",
+      "tense": "Präsens",
+      "german": "Meint ihr wirklich diesen ernsten Vorschlag?",
+      "translation": {
+        "ru": "Вы действительно имеете в виду это серьезное предложение?",
+        "en": "Do you really mean this serious proposal?"
+      },
+      "bracket_parts": [
+        "Meint"
+      ],
+      "akkusativ_parts": [
+        "diesen ernsten Vorschlag"
+      ]
+    },
+    {
+      "id": "meinen_6",
+      "tense": "Präteritum",
+      "german": "Sie meinten damals etwas völlig anderes.",
+      "translation": {
+        "ru": "Они тогда имели в виду совершенно другое.",
+        "en": "They meant something completely different back then."
+      },
+      "bracket_parts": [
+        "meinten"
+      ],
+      "akkusativ_parts": [
+        "etwas völlig anderes"
+      ]
+    },
+    {
+      "id": "meinen_7",
+      "tense": "Perfekt",
+      "german": "Ich habe das keineswegs böse gemeint.",
+      "translation": {
+        "ru": "Я вовсе не имел в виду ничего дурного.",
+        "en": "I did not mean that maliciously at all."
+      },
+      "bracket_parts": [
+        "habe",
+        "gemeint"
+      ],
+      "akkusativ_parts": [
+        "das"
+      ]
+    },
+    {
+      "id": "meinen_8",
+      "tense": "Imperativ",
+      "german": "Meine es ehrlich, wenn du etwas sagst!",
+      "translation": {
+        "ru": "Имей это в виду искренне, когда что-то говоришь!",
+        "en": "Mean it honestly when you say something!"
+      },
+      "bracket_parts": [
+        "Meine"
+      ],
+      "akkusativ_parts": [
+        "es"
+      ]
+    }
+  ]
+}

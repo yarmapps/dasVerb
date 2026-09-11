@@ -1,0 +1,154 @@
+{
+  "id": "zurueckziehen_sich",
+  "infinitive": "zurückziehen",
+  "translation": {
+    "ru": "уединяться, удаляться, отступать",
+    "en": "to withdraw, retreat"
+  },
+  "level": "B1",
+  "frequency_rank": 428,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "zurück",
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "zurückziehen",
+    "present_3sg": "zieht sich zurück",
+    "praeteritum_3sg": "zog sich zurück",
+    "partizip_2": "zurückgezogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ziehe mich zurück",
+      "du": "ziehst dich zurück",
+      "er_sie_es": "zieht sich zurück",
+      "wir": "ziehen uns zurück",
+      "ihr": "zieht euch zurück",
+      "sie_Sie": "ziehen sich zurück"
+    },
+    "praeteritum": {
+      "ich": "zog mich zurück",
+      "du": "zogst dich zurück",
+      "er_sie_es": "zog sich zurück",
+      "wir": "zogen uns zurück",
+      "ihr": "zogt euch zurück",
+      "sie_Sie": "zogen sich zurück"
+    },
+    "perfekt": {
+      "ich": "habe mich zurückgezogen",
+      "du": "hast dich zurückgezogen",
+      "er_sie_es": "hat sich zurückgezogen",
+      "wir": "haben uns zurückgezogen",
+      "ihr": "habt euch zurückgezogen",
+      "sie_Sie": "haben sich zurückgezogen"
+    }
+  },
+  "rektion": {
+    "case": "none",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich ziehe mich am Wochenende gern in mein Arbeitszimmer zurück.",
+      "translation": {
+        "ru": "В выходные я охотно уединяюсь в своем кабинете.",
+        "en": "On weekends I like to retreat to my study."
+      },
+      "bracket_parts": [
+        "ziehe",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du ziehst dich nach der anstrengenden Schicht sofort zurück.",
+      "translation": {
+        "ru": "Ты сразу уединяешься после утомительной смены.",
+        "en": "You retreat immediately after the exhausting shift."
+      },
+      "bracket_parts": [
+        "ziehst",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schriftsteller zieht sich oft zum Schreiben aufs Land zurück.",
+      "translation": {
+        "ru": "Писатель часто уезжает за город, чтобы писать в уединении.",
+        "en": "The writer often retreats to the countryside to write."
+      },
+      "bracket_parts": [
+        "zieht",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir ziehen uns bei einem starken Gewitter ins Haus zurück.",
+      "translation": {
+        "ru": "Во время сильной грозы мы укрываемся в доме.",
+        "en": "During a heavy thunderstorm we retreat into the house."
+      },
+      "bracket_parts": [
+        "ziehen",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr zieht euch aus der stressigen Großstadt zurück.",
+      "translation": {
+        "ru": "Вы уезжаете из стрессового мегаполиса.",
+        "en": "You retreat from the stressful big city."
+      },
+      "bracket_parts": [
+        "zieht",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie zogen sich damals völlig aus der Öffentlichkeit zurück.",
+      "translation": {
+        "ru": "Они тогда полностью удалились от общественной жизни.",
+        "en": "They completely withdrew from public life back then."
+      },
+      "bracket_parts": [
+        "zogen",
+        "zurück"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Minister hat sich aus gesundheitlichen Gründen ganz zurückgezogen.",
+      "translation": {
+        "ru": "Министр полностью ушел в отставку по состоянию здоровья.",
+        "en": "The minister completely stepped back for health reasons."
+      },
+      "bracket_parts": [
+        "hat",
+        "zurückgezogen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Zieh dich für eine Stunde in dein Zimmer zurück!",
+      "translation": {
+        "ru": "Уединись на час в своей комнате!",
+        "en": "Retreat to your room for an hour!"
+      },
+      "bracket_parts": [
+        "Zieh",
+        "zurück"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

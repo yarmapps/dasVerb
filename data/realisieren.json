@@ -1,0 +1,185 @@
+{
+  "id": "realisieren",
+  "infinitive": "realisieren",
+  "translation": {
+    "ru": "реализовать, воплощать, осознавать",
+    "en": "to realize, implement, achieve"
+  },
+  "level": "B2",
+  "frequency_rank": 416,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "realisieren",
+    "present_3sg": "realisiert",
+    "praeteritum_3sg": "realisierte",
+    "partizip_2": "realisiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "realisiere",
+      "du": "realisierst",
+      "er_sie_es": "realisiert",
+      "wir": "realisieren",
+      "ihr": "realisiert",
+      "sie_Sie": "realisieren"
+    },
+    "praeteritum": {
+      "ich": "realisierte",
+      "du": "realisiertest",
+      "er_sie_es": "realisierte",
+      "wir": "realisierten",
+      "ihr": "realisiertet",
+      "sie_Sie": "realisierten"
+    },
+    "imperative": {
+      "du": "realisiere!",
+      "ihr": "realisiert!",
+      "Sie": "realisieren Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen Plan erfolgreich realisieren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich realisiere meinen Lebenstraum mit einer Reise um die Welt.",
+      "translation": {
+        "ru": "Я воплощаю мечту всей своей жизни кругосветным путешествием.",
+        "en": "I realize my lifelong dream with a trip around the world."
+      },
+      "bracket_parts": [
+        "realisiere"
+      ],
+      "akkusativ_parts": [
+        "meinen Lebenstraum"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Realisierst du eigentlich den Ernst der aktuellen Lage?",
+      "translation": {
+        "ru": "Ты вообще осознаешь всю серьезность текущего положения?",
+        "en": "Do you actually realize the gravity of the current situation?"
+      },
+      "bracket_parts": [
+        "Realisierst"
+      ],
+      "akkusativ_parts": [
+        "den Ernst der aktuellen Lage"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Bauunternehmen realisiert das Großprojekt innerhalb von zwei Jahren.",
+      "translation": {
+        "ru": "Строительная компания реализует масштабный проект в течение двух лет.",
+        "en": "The construction company implements the major project within two years."
+      },
+      "bracket_parts": [
+        "realisiert"
+      ],
+      "akkusativ_parts": [
+        "das Großprojekt"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir realisieren neue Ideen zur Einsparung von Energie im Betrieb.",
+      "translation": {
+        "ru": "Мы внедряем новые идеи по экономии энергии на предприятии.",
+        "en": "We implement new ideas for saving energy in the company."
+      },
+      "bracket_parts": [
+        "realisieren"
+      ],
+      "akkusativ_parts": [
+        "neue Ideen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Realisiert ihr den Bau des neuen Sportplatzes schon in diesem Sommer?",
+      "translation": {
+        "ru": "Вы реализуете строительство новой спортивной площадки уже этим летом?",
+        "en": "Are you guys carrying out the construction of the new sports field this summer?"
+      },
+      "bracket_parts": [
+        "Realisiert"
+      ],
+      "akkusativ_parts": [
+        "den Bau des neuen Sportplatzes"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Architekt realisierte damals viele moderne Wohnsiedlungen in der Stadt.",
+      "translation": {
+        "ru": "Архитектор реализовал тогда множество современных жилых кварталов в городе.",
+        "en": "The architect built many modern housing estates in the city back then."
+      },
+      "bracket_parts": [
+        "realisierte"
+      ],
+      "akkusativ_parts": [
+        "viele moderne Wohnsiedlungen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Gemeinde hat ein wichtiges Umweltprojekt erfolgreich realisiert.",
+      "translation": {
+        "ru": "Община успешно реализовала важный экологический проект.",
+        "en": "The municipality successfully carried out an important environmental project."
+      },
+      "bracket_parts": [
+        "hat",
+        "realisiert"
+      ],
+      "akkusativ_parts": [
+        "ein wichtiges Umweltprojekt"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Realisiere bitte deine Pläne mit vollem Einsatz!",
+      "translation": {
+        "ru": "Воплощай свои планы с полной отдачей, пожалуйста!",
+        "en": "Please realize your plans with full commitment!"
+      },
+      "bracket_parts": [
+        "Realisiere"
+      ],
+      "akkusativ_parts": [
+        "deine Pläne"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

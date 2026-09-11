@@ -13,6 +13,7 @@ import { useAppTheme } from '../../context/ThemeContext';
 import { useLocale } from '../../context/LocaleContext';
 import { RootStackParamList } from '../../types/navigation';
 import { updateLanguageSettings } from '../../services/settingsService';
+import { shouldShowFirstOpenPaywall } from '../../services/usageService';
 import { trackEvent, setUserProperty } from '../../services/analyticsService';
 import { createStyles } from './LanguageSelectorScreen.styles';
 
@@ -79,9 +80,11 @@ export function LanguageSelectorScreen(): React.JSX.Element {
       if (isSettingsMode) {
         navigation.goBack();
       } else {
+        const showPaywall = shouldShowFirstOpenPaywall();
+        const nextRoute = showPaywall ? 'FirstOpenPaywall' : 'MainTabs';
         navigation.reset({
           index: 0,
-          routes: [{ name: 'MainTabs' }],
+          routes: [{ name: nextRoute }],
         });
       }
     } catch (error) {

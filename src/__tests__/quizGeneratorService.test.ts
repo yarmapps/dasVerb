@@ -417,4 +417,123 @@ describe('quizGeneratorService', () => {
       expect(exercise.gaps.length).toBeGreaterThan(0);
     });
   });
+
+  describe('generatePrefixExercises', () => {
+    it('should generate dual slot exercise for separable verbs in Präsens', () => {
+      const sentence = mockAnrufenCard.sentences[0]; // Ich rufe dich heute Abend an
+      const exercises = quizGeneratorService.generatePrefixExercises([
+        {
+          verbCard: mockAnrufenCard,
+          sentence,
+        },
+      ]);
+
+      expect(exercises.length).toBe(1);
+      const ex = exercises[0];
+      expect(ex.type).toBe('prefix_dual_slot');
+      expect(ex.gaps.length).toBe(2);
+      expect(ex.gaps[0].correctValue).toBe('rufe');
+      expect(ex.gaps[1].correctValue).toBe('an');
+      expect(ex.grammarHint).toBeDefined();
+      expect(ex.grammarHint?.prefixType).toBe('separable');
+      expect(ex.grammarHint?.prefix).toBe('an');
+    });
+
+    it('should generate dual slot exercise for inseparable verbs with — as second slot', () => {
+      const mockVerstehenCard: VerbCard = {
+        ...mockAnrufenCard,
+        id: 'verstehen',
+        infinitive: 'verstehen',
+        morphology: {
+          verb_class: 'strong',
+          prefix_type: 'inseparable',
+          prefix: 'ver',
+          is_reflexive: false,
+          reflexive_case: null,
+        },
+        principal_parts: {
+          infinitive: 'verstehen',
+          present_3sg: 'versteht',
+          praeteritum_3sg: 'verstand',
+          partizip_2: 'verstanden',
+        },
+      };
+
+      const sentence = {
+        id: 's_insep_1',
+        tense: 'Präsens' as const,
+        german: 'Ich verstehe die Frage nicht.',
+        translation: { ru: 'Я не понимаю вопрос', en: 'I do not understand the question' },
+        bracket_parts: ['verstehe'],
+      };
+
+      const exercises = quizGeneratorService.generatePrefixExercises([
+        {
+          verbCard: mockVerstehenCard,
+          sentence,
+        },
+      ]);
+
+      expect(exercises.length).toBe(1);
+      const ex = exercises[0];
+      expect(ex.type).toBe('prefix_dual_slot');
+      expect(ex.gaps.length).toBe(2);
+      expect(ex.gaps[0].correctValue).toBe('verstehe');
+      expect(ex.gaps[1].correctValue).toBe('—');
+      expect(ex.gaps[1].options).toContain('—');
+      expect(ex.grammarHint?.prefixType).toBe('inseparable');
+    });
+
+    it('should shuffle exercise order when generating multiple prefix exercises', () => {
+      const entries = [
+        {
+          verbCard: mockAnrufenCard,
+          sentence: mockAnrufenCard.sentences[0],
+        },
+        {
+          verbCard: mockAnrufenCard,
+          sentence: mockAnrufenCard.sentences[1],
+        },
+        {
+          verbCard: mockAnrufenCard,
+          sentence: mockAnrufenCard.sentences[2],
+        },
+        {
+          verbCard: mockAnrufenCard,
+          sentence: {
+            id: 's4',
+            tense: 'Präsens' as const,
+            german: 'Wir rufen später an.',
+            translation: { ru: 'Мы позвоним позже', en: 'We will call later' },
+            bracket_parts: ['rufen', 'an'],
+          },
+        },
+        {
+          verbCard: mockAnrufenCard,
+          sentence: {
+            id: 's5',
+            tense: 'Präsens' as const,
+            german: 'Er ruft seine Mutter an.',
+            translation: { ru: 'Он звонит своей маме', en: 'He calls his mother' },
+            bracket_parts: ['ruft', 'an'],
+          },
+        },
+      ];
+
+      const ex1 = quizGeneratorService.generatePrefixExercises(entries);
+      expect(ex1.length).toBe(5);
+
+      let differentOrderFound = false;
+      for (let i = 0; i < 20; i++) {
+        const nextEx = quizGeneratorService.generatePrefixExercises(entries);
+        const order1 = ex1.map(e => e.id).join(',');
+        const order2 = nextEx.map(e => e.id).join(',');
+        if (order1 !== order2) {
+          differentOrderFound = true;
+          break;
+        }
+      }
+      expect(differentOrderFound).toBe(true);
+    });
+  });
 });

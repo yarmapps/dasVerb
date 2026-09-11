@@ -1,0 +1,177 @@
+{
+  "id": "empfinden",
+  "infinitive": "empfinden",
+  "translation": {
+    "ru": "чувствовать, испытывать (эмоции/ощущения)",
+    "en": "to feel, perceive, sense"
+  },
+  "level": "B1",
+  "frequency_rank": 282,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "emp",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "empfinden",
+    "present_3sg": "empfindet",
+    "praeteritum_3sg": "empfand",
+    "partizip_2": "empfunden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "empfinde",
+      "du": "empfindest",
+      "er_sie_es": "empfindet",
+      "wir": "empfinden",
+      "ihr": "empfindet",
+      "sie_Sie": "empfinden"
+    },
+    "praeteritum": {
+      "ich": "empfand",
+      "du": "empfandest",
+      "er_sie_es": "empfand",
+      "wir": "empfanden",
+      "ihr": "empfandet",
+      "sie_Sie": "empfanden"
+    },
+    "imperative": {
+      "du": "empfinde!",
+      "ihr": "empfindet!",
+      "Sie": "empfinden Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "große Freude empfinden",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich empfinde tiefe Dankbarkeit für deine uneigennützige Hilfe.",
+      "translation": {
+        "ru": "Я испытываю глубокую благодарность за твою бескорыстную помощь.",
+        "en": "I feel deep gratitude for your selfless help."
+      },
+      "bracket_parts": [
+        "empfinde"
+      ],
+      "akkusativ_parts": [
+        "tiefe Dankbarkeit"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Empfindest du Mitleid mit den hilfsbedürftigen Menschen?",
+      "translation": {
+        "ru": "Ты чувствуешь сострадание к нуждающимся людям?",
+        "en": "Do you feel pity for the needy people?"
+      },
+      "bracket_parts": [
+        "Empfindest"
+      ],
+      "akkusativ_parts": [
+        "Mitleid"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Patient empfindet bei der Untersuchung kaum Schmerzen.",
+      "translation": {
+        "ru": "Пациент почти не чувствует боли при осмотре.",
+        "en": "The patient feels hardly any pain during the examination."
+      },
+      "bracket_parts": [
+        "empfindet"
+      ],
+      "akkusativ_parts": [
+        "kaum Schmerzen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir empfinden große Bewunderung für diese sportliche Leistung.",
+      "translation": {
+        "ru": "Мы испытываем огромное восхищение перед этим спортивным достижением.",
+        "en": "We feel great admiration for this athletic achievement."
+      },
+      "bracket_parts": [
+        "empfinden"
+      ],
+      "akkusativ_parts": [
+        "große Bewunderung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Empfindet ihr die strenge Kritik als ungerecht?",
+      "translation": {
+        "ru": "Вы воспринимаете эту суровую критику как несправедливую?",
+        "en": "Do you guys perceive the harsh criticism as unfair?"
+      },
+      "bracket_parts": [
+        "Empfindet"
+      ],
+      "akkusativ_parts": [
+        "die strenge Kritik"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie empfanden damals eine unbeschreibliche Erleichterung.",
+      "translation": {
+        "ru": "Они испытали в тот момент неописуемое облегчение.",
+        "en": "They felt an indescribable relief back then."
+      },
+      "bracket_parts": [
+        "empfanden"
+      ],
+      "akkusativ_parts": [
+        "eine unbeschreibliche Erleichterung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Musiker hat den tosenden Applaus als großes Geschenk empfunden.",
+      "translation": {
+        "ru": "Музыкант воспринял бурные аплодисменты как огромный подарок.",
+        "en": "The musician perceived the thunderous applause as a great gift."
+      },
+      "bracket_parts": [
+        "hat",
+        "empfunden"
+      ],
+      "akkusativ_parts": [
+        "den tosenden Applaus"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Empfinde keinen Groll gegen alte Freunde!",
+      "translation": {
+        "ru": "Не держи обиды на старых друзей!",
+        "en": "Do not feel any resentment towards old friends!"
+      },
+      "bracket_parts": [
+        "Empfinde"
+      ],
+      "akkusativ_parts": [
+        "keinen Groll"
+      ]
+    }
+  ]
+}

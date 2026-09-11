@@ -1,19 +1,102 @@
 {
+  "appUpdate": {
+    "title": "Dostępna aktualizacja",
+    "softMessage": "Dostępna jest nowa wersja das Verb! Zaktualizuj aplikację, aby korzystać z najnowszych funkcji.",
+    "forceMessage": "Wymagana jest krytyczna aktualizacja, aby kontynuować korzystanie z das Verb. Zaktualizuj teraz.",
+    "button": "Zaktualizuj teraz",
+    "close": "Zamknij"
+  },
+  "debugScreen": {
+    "title": "Debug Menu",
+    "sectionState": "App State Summary",
+    "sectionDailyLimit": "Daily Quiz Limit",
+    "sectionStreak": "Daily Streak",
+    "sectionSettings": "Settings & Storage",
+    "sectionAppUpdate": "App Update Dialog",
+    "sectionReview": "In-App Review & Rating",
+    "dailyQuizzes": "Completed quizzes today: {count} / {limit}",
+    "totalQuizzes": "Total completed quizzes: {count}",
+    "extraQuizzes": "Extra quizzes available: {count}",
+    "adGrants": "Ad grants today: {count} / {limit}",
+    "streakSummary": "Current streak: {streak} days (Best: {best})",
+    "resetDailyLimit": "Reset Daily Limit",
+    "grantExtraQuiz": "Grant +1 Extra Quiz",
+    "consumeQuiz": "Consume 1 Daily Quiz",
+    "resetStreak": "Reset Streak",
+    "incrementStreak": "Increment Streak (+1 Day)",
+    "resetAllSettings": "Reset Settings to Default",
+    "triggerSoftUpdate": "Trigger Soft Update (Dismissible)",
+    "triggerForceUpdate": "Trigger Force Update (Blocking)",
+    "resetUpdateState": "Reset Update State",
+    "triggerReview": "Trigger In-App Review (StoreReview)",
+    "resetReviewCooldown": "Reset Review Cooldown",
+    "addCompletedQuizzes": "Add +5 Completed Quizzes",
+    "alertSuccess": "Success",
+    "dailyLimitResetSuccess": "Daily quiz limits have been reset.",
+    "streakResetSuccess": "Streak data has been reset.",
+    "settingsResetSuccess": "All settings have been reset to defaults.",
+    "reviewTriggerSuccess": "Store review requested to OS.",
+    "reviewCooldownResetSuccess": "Review prompt cooldown reset."
+  },
   "navigation": {
     "practice": "Ćwiczenia",
     "dictionary": "Słownik"
   },
   "languageSelectorScreen": {
     "title": "Jaki jest Twój język ojczysty?",
-    "continue": "Kontynuuj"
+    "continue": "Dalej"
   },
   "practiceScreen": {
     "title": "Ćwiczenia",
-    "subtitle": "Trenuj czasowniki i odmianę",
-    "levelsButtonTitle": "Trenuj czasowniki",
+    "subtitle": "Ćwicz czasowniki, koniugację i szyk zdań",
+    "levelsButtonTitle": "Ćwicz czasowniki",
     "levelsButtonSubtitle": "Ucz się czasowników od A1 do B2",
     "featuredBadge": "Polecane",
-    "startNow": "Zacznij teraz"
+    "startNow": "Rozpocznij",
+    "smartQuizBadge": "Inteligentny tryb",
+    "smartQuizTitle": "Inteligentny algorytm",
+    "smartQuizSubtitle": "Skup się na błędach i ucz się 3 razy szybciej"
+  },
+  "categories": {
+    "sectionTitle": "Tematy i kategorie",
+    "sectionSubtitle": "Ćwicz czasowniki pogrupowane według sytuacji życiowych",
+    "verbsCount": "czasowników",
+    "movement": {
+      "title": "Ruch i transport",
+      "subtitle": "gehen, fahren, fliegen, ankommen..."
+    },
+    "communication": {
+      "title": "Komunikacja i mowa",
+      "subtitle": "sprechen, sagen, fragen, antworten..."
+    },
+    "homeDaily": {
+      "title": "Życie codzienne i dom",
+      "subtitle": "wohnen, schlafen, aufstehen, kochen..."
+    },
+    "foodDrink": {
+      "title": "Jedzenie i restauracje",
+      "subtitle": "essen, trinken, bestellen, probieren..."
+    },
+    "workStudy": {
+      "title": "Praca i nauka",
+      "subtitle": "arbeiten, lernen, studieren, schreiben..."
+    },
+    "shoppingMoney": {
+      "title": "Zakupy i pieniądze",
+      "subtitle": "kaufen, bezahlen, kosten, sparen..."
+    },
+    "thoughtsFeelings": {
+      "title": "Myśli i uczucia",
+      "subtitle": "denken, glauben, fühlen, lieben..."
+    },
+    "leisureHobbies": {
+      "title": "Czas wolny i hobby",
+      "subtitle": "spielen, reisen, schwimmen, wandern..."
+    },
+    "health": {
+      "title": "Zdrowie i samopoczucie",
+      "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    }
   },
   "dictionaryScreen": {
     "title": "Słownik",
@@ -22,13 +105,13 @@
     "stammformen": "Formy podstawowe",
     "infinitive": "Bezokolicznik (Infinitiv)",
     "present3sg": "Präsens",
-    "praeteritum3sg": "Czas przeszły (Präteritum)",
+    "praeteritum3sg": "Präteritum",
     "perfekt": "Perfekt",
-    "conjugation": "Odmiana czasownika",
+    "conjugation": "Koniugacja",
     "person": "Osoba",
     "present": "Präsens",
     "praeteritum": "Präteritum",
-    "rektion": "Rekcja (Rektion)",
+    "rektion": "Rekcja i przypadki (Rektion)",
     "imperative": "Tryb rozkazujący (Imperativ)",
     "examples": "Przykłady"
   },
@@ -37,15 +120,27 @@
     "generalSection": "OGÓLNE",
     "audioSection": "DŹWIĘK",
     "supportSection": "POMOC",
-    "appLanguage": "Język Aplikacji",
+    "appLanguage": "Język aplikacji",
     "theme": "Motyw",
     "themeLight": "Jasny",
     "themeDark": "Ciemny",
     "themeSystem": "Systemowy",
     "notifications": "Powiadomienia",
-    "soundEffects": "Efekty Dźwiękowe",
-    "contactUs": "Skontaktuj się z nami",
-    "version": "Wersja"
+    "soundEffects": "Efekty dźwiękowe",
+    "speakOnCorrectAnswer": "Wymawiaj poprawną odpowiedź",
+    "voiceGender": "Głos",
+    "voiceFemale": "Żeński",
+    "voiceMale": "Męski",
+    "maleVoiceHint": "Aby używać męskiego głosu niemieckiego, zainstaluj go w Ustawienia iOS → Dostępność → Przeczytaj zawartość → Głosy → Niemiecki.",
+    "contactUs": "Kontakt",
+    "version": "Wersja",
+    "notificationsPermissionRequiredTitle": "Włącz powiadomienia",
+    "notificationsPermissionRequiredMessage": "Aby otrzymywać codzienne przypomnienia o nauce i passie, włącz powiadomienia w ustawieniach urządzenia.",
+    "openSettings": "Ustawienia",
+    "cancel": "Anuluj"
+  },
+  "quizSettingsModal": {
+    "title": "Ustawienia testu"
   },
   "verbsPracticeListScreen": {
     "title": "Ćwiczenia czasowników",
@@ -56,37 +151,211 @@
     "silver": "Srebro",
     "trophy": "Puchar",
     "empty": "Nie znaleziono czasowników",
-    "checkpointTitle": "{number}. Test okresowy",
-    "checkpointSubtitle": "Powtórka · Czasowniki {from}–{to}",
-    "checkpointBadge": "10 ćwiczeń"
+    "checkpointTitle": "Test kontrolny",
+    "finalTestTitle": "Test końcowy"
   },
   "verbQuizScreen": {
-    "title": "Trening",
-    "checkpointQuizTitle": "Test okresowy {number}",
+    "title": "Ćwiczenia",
+    "checkpointQuizTitle": "Test kontrolny",
+    "smartQuizTitle": "Inteligentny quiz",
     "level": "Poziom",
     "check": "Sprawdź",
     "continue": "Dalej",
     "exercise": "Ćwiczenie",
     "correct": "Prawidłowo!",
     "tryAgain": "Spróbuj ponownie",
-    "fillCard": "Wypełnij kartę",
+    "fillCard": "Uzupełnij kartę",
     "tapToContinue": "Dotknij w dowolnym miejscu, aby kontynuować",
     "correctAnswer": "Prawidłowa odpowiedź:",
-    "conjugationPräsens": "Odmiana w Präsens",
-    "principalParts": "Formy podstawowe (Stammformen)",
-    "imperativeForms": "Tryb rozkazujący",
-    "auxiliaryExplanationMovement": "Czasownik {verb} wyraża ruch lub zmianę stanu, dlatego w Perfekt łączy się z czasownikiem posiłkowym sein ({form}).",
-    "auxiliaryExplanationGeneral": "Czasownik {verb} tworzy Perfekt z czasownikiem posiłkowym haben ({form})."
+    "conjugationPräsens": "Koniugacja w Präsens",
+    "principalParts": "Formy podstawowe",
+    "imperativeForms": "Formy trybu rozkazującego",
+    "auxiliaryExplanationMovement": "Czasownik {verb} wyraża ruch lub zmianę stanu, dlatego czas Perfekt tworzy z sein ({form}).",
+    "auxiliaryExplanationGeneral": "Czasownik {verb} tworzy czas Perfekt z czasownikiem posiłkowym haben ({form})."
   },
   "quizResultsScreen": {
     "title": "Wyniki",
-    "checkpointResultsTitle": "Wyniki testu",
-    "canDoBetter": "Możesz zrobić to lepiej!",
-    "almostThere": "Prawie!",
-    "closeToPerfection": "Blisko doskonałości!",
+    "checkpointResultsTitle": "Wyniki testu kontrolnego",
+    "smartQuizResultsTitle": "Wyniki inteligentnego quizu",
+    "canDoBetter": "Może być lepiej!",
+    "almostThere": "Prawie się udało!",
+    "closeToPerfection": "Prawie idealnie!",
     "youDidIt": "Udało się!",
+    "nextLevel": "Następny poziom",
     "tryAgain": "Spróbuj ponownie",
-    "verbsList": "Lista czasowników",
+    "verbsList": "Do listy czasowników",
+    "backToPractice": "Powrót do ćwiczeń",
     "scoreSummary": "{correct} z {total}"
+  },
+  "dailyQuizLimitModal": {
+    "title": "Niesamowity postęp!",
+    "message": "Jesteś naprawdę zdeterminowany, by uczyć się niemieckiego!",
+    "instructions": "Jak chcesz kontynuować?",
+    "videoButton": "Obejrzyj reklamy",
+    "or": "lub",
+    "premiumButtonWithTrial": "Bezpłatne nieograniczone poziomy\nna {daysLabel}",
+    "premiumButtonNoTrial": "Kup Premium",
+    "premiumButtonSubtitleWithTrial": "potem {yearlyPrice}/rok (☕️ / mies.)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice}/rok (☕️ / mies.)",
+    "waitUntilTomorrow": "Poczekaj do jutra",
+    "cancelAnytime": "Anuluj w dowolnym momencie"
+  },
+  "premiumSheets": {
+    "subscribeTitle": "Odblokuj Premium",
+    "subscribeSubtitle": "Przyspiesz naukę niemieckich czasowników dzięki zaawansowanym narzędziom.",
+    "subscribeNow": "Subskrybuj teraz",
+    "buyNow": "Kup teraz",
+    "viewPlans": "Zobacz plany",
+    "premiumFeaturesLabel": "FUNKCJE PREMIUM",
+    "disclaimerAutoRenew": "Automatyczne odnowienie za {price}/{period}. Anuluj w dowolnym momencie w ustawieniach konta.",
+    "disclaimerAutoRenewTrial": "Bezpłatnie przez {trialDuration}, potem {price}/{period}. Anuluj w dowolnym momencie.",
+    "disclaimerOneTime": "Jednorazowy zakup. Bez opłat cyklicznych.",
+    "freeTrialDays": "Bezpłatnie przez {count} dni",
+    "freeTrialWeeks": "Bezpłatnie przez {count} tyg.",
+    "freeTrialMonths": "Bezpłatnie przez {count} mies.",
+    "freeTrialYears": "Bezpłatnie przez {count} lat",
+    "trialUnit": {
+      "day": "dni",
+      "week": "tygodni",
+      "month": "miesięcy",
+      "year": "lat"
+    },
+    "periodMonth": "mies.",
+    "periodYear": "rok",
+    "restorePurchases": "Przywróć zakupy",
+    "errorTitle": "Błąd",
+    "errorUnavailable": "Ten plan jest obecnie niedostępny. Spróbuj ponownie później.",
+    "errorPurchase": "Zakup nie powiódł się. Spróbuj ponownie.",
+    "errorRestore": "Przywracanie nie powiodło się. Spróbuj ponownie.",
+    "restoreSuccessTitle": "Przywrócono!",
+    "restoreSuccessMessage": "Twój dostęp premium został przywrócony.",
+    "restoreNothingTitle": "Nie znaleziono zakupów",
+    "restoreNothingMessage": "Nie znaleźliśmy żadnych wcześniejszych zakupów do przywrócenia.",
+    "termsOfService": "Regulamin",
+    "privacyPolicy": "Polityka prywatności",
+    "plans": {
+      "monthlyLabel": "1 Miesiąc",
+      "monthlyPer": "Miesięcznie",
+      "yearlyLabel": "12 Miesięcy",
+      "yearlyBadge": "NAJLEPSZA OFERTA",
+      "perMonth": "{price}/mies.",
+      "lifetimeLabel": "Na zawsze",
+      "lifetimePer": "Jednorazowo",
+      "lifetimeBadge": "JEDNORAZOWO"
+    },
+    "features": {
+      "noAdsTitle": "Zero reklam",
+      "noAdsShort": "Zero\nreklam",
+      "noAdsDescription": "Skup się i ucz bez żadnych rozpraszaczy.",
+      "unlimitedQuizzesTitle": "Nielimitowane quizy",
+      "unlimitedQuizzesShort": "Nielimitowane\nquizy",
+      "unlimitedQuizzesDescription": "Ćwicz ile chcesz bez dziennych limitów.",
+      "allLevelsTitle": "All Levels Unlocked",
+      "allLevelsShort": "All\nLevels",
+      "allLevelsDescription": "Natychmiastowy dostęp do wszystkich poziomów czasowników A1-B2 i testów.",
+      "smartQuizModeTitle": "Inteligentny algorytm",
+      "smartQuizModeShort": "Inteligentny\nalgorytm",
+      "smartQuizModeDescription": "Skup się wyłącznie na swoich błędach i ucz się 3 razy szybciej!",
+      "naturalVoiceTitle": "Naturalne Głosy",
+      "naturalVoiceShort": "Naturalne\ngłosy",
+      "naturalVoiceDescription": "Słuchaj czasowników i zdań z naturalną niemiecką wymową.",
+      "unlimitedCustomListsAndWordsTitle": "Twórz własne listy",
+      "unlimitedCustomListsAndWordsShort": "Własne listy\nsłów",
+      "unlimitedCustomListsAndWordsDescription": "Dodawaj nielimitowaną liczbę słów i ćwicz dokładnie to słownictwo, którego potrzebujesz.",
+      "photoScannerTitle": "Obraz na słowa",
+      "photoScannerShort": "Z obrazu\nna słowa",
+      "photoScannerDescription": "Natychmiast importuj niemieckie rzeczowniki ze zdjęć za pomocą SI."
+    },
+    "trialTitle": "Twój 3-dniowy okres próbny Premium jest aktywny",
+    "trialSubtitle": "Przyspiesz naukę dzięki brakowi reklam i zaawansowanym narzędziom.",
+    "trialCta": "Zaczynajmy!"
+  },
+  "notifications": {
+    "reminderTitle": "Czas na ćwiczenia!",
+    "reminderBody": "Krótka sesja z niemieckimi czasownikami i szykiem zdań pomoże Ci je opanować.",
+    "trialReminderTitle": "Twój bezpłatny okres próbny wkrótce się kończy",
+    "trialReminderBody": "Wykorzystaj maksymalnie Premium już dziś! Twój okres próbny kończy się za 24 godziny.",
+    "streakReminderTitle": "Nie przerywaj passy! 🔥",
+    "streakReminderBody": "Nie ćwiczyłeś jeszcze dzisiaj. Rozwiąż szybki 2-minutowy quiz, aby zachować passę!"
+  },
+  "firstOpenPaywall": {
+    "trialBadge": "PRÓBA · 3 DNI",
+    "title": "Wypróbuj Premium przed płatnością",
+    "subtitle": "Oto jak działa twój bezpłatny okres próbny.",
+    "cta": "Rozpocznij Premium za darmo",
+    "restore": "Przywróć zakupy",
+    "proceedLimited": "Kontynuuj z wersją ograniczoną",
+    "priceYearlyWithCoffee": "{price}/rok, filiżanka kawy/mies.",
+    "disclaimer": "Automatyczne odnawianie za {price}/rok. Anuluj w dowolnym momencie w ustawieniach.",
+    "disclaimerFallback": "Automatyczne odnawianie co rok. Anuluj w dowolnym momencie w ustawieniach.",
+    "priceWithTrial": "Za darmo przez {trialDuration}, potem {price}/rok",
+    "priceYearly": "{price}/rok",
+    "timeline": {
+      "today": {
+        "day": "Dzisiaj",
+        "headline": "Odblokuj wszystko",
+        "benefits": {
+          "noAds": {
+            "title": "100% Ad-Free Learning",
+            "text": "Stay focused on your goals with a clean, zero-distraction study experience."
+          },
+          "unlimitedQuizzes": {
+            "title": "Unlimited Quizzes",
+            "text": "Practice as much as you want with no daily limits or waiting."
+          },
+          "allLevels": {
+            "title": "Wszystkie poziomy A1–B2 odblokowane",
+            "text": "Natychmiastowy dostęp do wszystkich kart czasowników, sprawdzianów i testów."
+          },
+          "smartQuizMode": {
+            "title": "Inteligentna korekta błędów",
+            "text": "Skup się na swoich słabych stronach i opanuj niemieckie czasowniki 3 razy szybciej."
+          },
+          "adFree": {
+            "title": "100% bez reklam",
+            "text": "Skup się na celach językowych dzięki nauce w czystym środowisku bez rozpraszaczy."
+          },
+          "grammar": {
+            "title": "Opanuj gramatykę",
+            "text": "Odblokuj nielimitowane ćwiczenia przedimków, deklinacji i końcówek przymiotników."
+          },
+          "correction": {
+            "title": "Inteligentna korekta",
+            "text": "Otrzymuj natychmiastowe zasady i wyjaśnienia, aby błyskawicznie uczyć się na błędach."
+          },
+          "translations": {
+            "title": "Tłumaczenia w kontekście",
+            "text": "Otrzymuj precyzyjne tłumaczenia dla każdego słowa, aby nigdy nie zgubić sensu."
+          },
+          "customLists": {
+            "title": "Nielimitowane listy",
+            "text": "Twórz własne zestawy słów, aby uporządkować i opanować swoje unikalne słownictwo."
+          },
+          "photoScanner": {
+            "title": "Skaner AI",
+            "text": "Konwertuj zdjęcia tekstu na listy słów, aby uczyć się na prawdziwych treściach."
+          },
+          "visualMemory": {
+            "title": "Wsparcie wizualne",
+            "text": "Wzbogać naukę dzięki ilustracjom, które pomogą Ci zakotwiczyć rzeczowniki w umyśle."
+          },
+          "voices": {
+            "title": "Zanurzenie w dźwięku",
+            "text": "Rozwijaj umiejętności słuchania, trenując uszy dzięki wysokiej jakości głosom AI."
+          }
+        },
+        "description": ""
+      },
+      "day2": {
+        "day": "Dzień 3",
+        "headline": "Przypomnimy ci",
+        "description": "Przyjazne powiadomienie przed końcem próby — bez niespodzianek."
+      },
+      "day3": {
+        "day": "Dzień 4",
+        "headline": "Rozpoczęcie subskrypcji",
+        "description": "Tylko jeśli nie anulujesz. Anuluj w dowolnym momencie w ustawieniach."
+      }
+    }
   }
 }

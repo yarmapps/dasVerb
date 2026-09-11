@@ -1,0 +1,202 @@
+{
+  "id": "mitteilen",
+  "infinitive": "mitteilen",
+  "translation": {
+    "ru": "сообщать, извещать",
+    "en": "to inform, announce, communicate"
+  },
+  "level": "A2",
+  "frequency_rank": 479,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "mit",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "mitteilen",
+    "present_3sg": "teilt mit",
+    "praeteritum_3sg": "teilte mit",
+    "partizip_2": "mitgeteilt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "teile mit",
+      "du": "teilst mit",
+      "er_sie_es": "teilt mit",
+      "wir": "teilen mit",
+      "ihr": "teilt mit",
+      "sie_Sie": "teilen mit"
+    },
+    "praeteritum": {
+      "ich": "teilte mit",
+      "du": "teiltest mit",
+      "er_sie_es": "teilte mit",
+      "wir": "teilten mit",
+      "ihr": "teiltet mit",
+      "sie_Sie": "teilten mit"
+    },
+    "perfekt": {
+      "ich": "habe mitgeteilt",
+      "du": "hast mitgeteilt",
+      "er_sie_es": "hat mitgeteilt",
+      "wir": "haben mitgeteilt",
+      "ihr": "habt mitgeteilt",
+      "sie_Sie": "haben mitgeteilt"
+    }
+  },
+  "rektion": {
+    "case": "dativ_akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich teile dir die genaue Uhrzeit per Nachricht mit.",
+      "translation": {
+        "ru": "Я сообщу тебе точное время в сообщении.",
+        "en": "I will inform you of the exact time by message."
+      },
+      "bracket_parts": [
+        "teile",
+        "mit"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "die genaue Uhrzeit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du teilst dem Team deine guten Ideen sofort mit.",
+      "translation": {
+        "ru": "Ты сразу сообщаешь команде свои хорошие идеи.",
+        "en": "You immediately communicate your good ideas to the team."
+      },
+      "bracket_parts": [
+        "teilst",
+        "mit"
+      ],
+      "dativ_parts": [
+        "dem Team"
+      ],
+      "akkusativ_parts": [
+        "deine guten Ideen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Bahn teilt den Fahrgästen die Verspätung rechtzeitig mit.",
+      "translation": {
+        "ru": "Железная дорога вовремя сообщает пассажирам об опоздании.",
+        "en": "The railway informs passengers of the delay in good time."
+      },
+      "bracket_parts": [
+        "teilt",
+        "mit"
+      ],
+      "dativ_parts": [
+        "den Fahrgästen"
+      ],
+      "akkusativ_parts": [
+        "die Verspätung"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir teilen Ihnen unsere Entscheidung in Kürze schriftlich mit.",
+      "translation": {
+        "ru": "Мы сообщим вам наше решение в скором времени письменно.",
+        "en": "We will inform you of our decision in writing shortly."
+      },
+      "bracket_parts": [
+        "teilen",
+        "mit"
+      ],
+      "dativ_parts": [
+        "Ihnen"
+      ],
+      "akkusativ_parts": [
+        "unsere Entscheidung"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr teilt euren Eltern die erfreuliche Nachricht mit.",
+      "translation": {
+        "ru": "Вы сообщаете родителям радостную новость.",
+        "en": "You share the pleasing news with your parents."
+      },
+      "bracket_parts": [
+        "teilt",
+        "mit"
+      ],
+      "dativ_parts": [
+        "euren Eltern"
+      ],
+      "akkusativ_parts": [
+        "die erfreuliche Nachricht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie teilten damals allen Mitarbeitern die Kündigung mit.",
+      "translation": {
+        "ru": "Они тогда сообщили всем сотрудникам об увольнении.",
+        "en": "They announced the dismissal to all employees back then."
+      },
+      "bracket_parts": [
+        "teilten",
+        "mit"
+      ],
+      "dativ_parts": [
+        "allen Mitarbeitern"
+      ],
+      "akkusativ_parts": [
+        "die Kündigung"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Arzt hat mir die Laborbefunde telefonisch mitgeteilt.",
+      "translation": {
+        "ru": "Врач сообщил мне результаты анализов по телефону.",
+        "en": "The doctor informed me of the lab results by phone."
+      },
+      "bracket_parts": [
+        "hat",
+        "mitgeteilt"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "die Laborbefunde"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Teile mir bitte deine neue Adresse bald mit!",
+      "translation": {
+        "ru": "Сообщи мне, пожалуйста, свой новый адрес в скором времени!",
+        "en": "Please inform me of your new address soon!"
+      },
+      "bracket_parts": [
+        "Teile",
+        "mit"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "deine neue Adresse"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

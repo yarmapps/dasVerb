@@ -1,0 +1,177 @@
+{
+  "id": "betreiben",
+  "infinitive": "betreiben",
+  "translation": {
+    "ru": "заниматься (деятельностью), управлять, вести (бизнес)",
+    "en": "to operate, run, engage in"
+  },
+  "level": "B1",
+  "frequency_rank": 224,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "betreiben",
+    "present_3sg": "betreibt",
+    "praeteritum_3sg": "betrieb",
+    "partizip_2": "betrieben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "betreibe",
+      "du": "betreibst",
+      "er_sie_es": "betreibt",
+      "wir": "betreiben",
+      "ihr": "betreibt",
+      "sie_Sie": "betreiben"
+    },
+    "praeteritum": {
+      "ich": "betrieb",
+      "du": "betriebst",
+      "er_sie_es": "betrieb",
+      "wir": "betrieben",
+      "ihr": "betriebt",
+      "sie_Sie": "betrieben"
+    },
+    "imperative": {
+      "du": "betreibe!",
+      "ihr": "betreibt!",
+      "Sie": "betreiben Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein Restaurant betreiben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich betreibe seit zwei Jahren ein kleines Café in Köln.",
+      "translation": {
+        "ru": "Я уже два года содержу маленькое кафе в Кёльне.",
+        "en": "I have been running a small cafe in Cologne for two years."
+      },
+      "bracket_parts": [
+        "betreibe"
+      ],
+      "akkusativ_parts": [
+        "ein kleines Café in Köln"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Betreibst du aktiv Sport im Verein?",
+      "translation": {
+        "ru": "Ты активно занимаешься спортом в клубе?",
+        "en": "Do you actively do sports in a club?"
+      },
+      "bracket_parts": [
+        "Betreibst"
+      ],
+      "akkusativ_parts": [
+        "Sport"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Unternehmen betreibt mehrere Windparks in der Region.",
+      "translation": {
+        "ru": "Компания эксплуатирует несколько ветропарков в регионе.",
+        "en": "The company operates several wind farms in the region."
+      },
+      "bracket_parts": [
+        "betreibt"
+      ],
+      "akkusativ_parts": [
+        "mehrere Windparks"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir betreiben intensive Marktforschung vor dem Verkaufsstart.",
+      "translation": {
+        "ru": "Перед стартом продаж мы проводим глубокое исследование рынка.",
+        "en": "We conduct intensive market research before the product launch."
+      },
+      "bracket_parts": [
+        "betreiben"
+      ],
+      "akkusativ_parts": [
+        "intensive Marktforschung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Betreibt ihr diesen Online-Shop ganz alleine?",
+      "translation": {
+        "ru": "Вы управляете этим интернет-магазином совершенно одни?",
+        "en": "Are you guys running this online store all by yourselves?"
+      },
+      "bracket_parts": [
+        "Betreibt"
+      ],
+      "akkusativ_parts": [
+        "diesen Online-Shop"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie betrieben damals eine florierende Buchhandlung.",
+      "translation": {
+        "ru": "В то время они держали процветающий книжный магазин.",
+        "en": "They operated a thriving bookstore back then."
+      },
+      "bracket_parts": [
+        "betrieben"
+      ],
+      "akkusativ_parts": [
+        "eine florierende Buchhandlung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Mein Großvater hat das Familienhotel vierzig Jahre lang betrieben.",
+      "translation": {
+        "ru": "Мой дедушка управлял семейным отелем сорок лет.",
+        "en": "My grandfather operated the family hotel for forty years."
+      },
+      "bracket_parts": [
+        "hat",
+        "betrieben"
+      ],
+      "akkusativ_parts": [
+        "das Familienhotel"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Betreibe die Anlage stets nach den Vorschriften!",
+      "translation": {
+        "ru": "Всегда эксплуатируй установку в строгом соответствии с предписаниями!",
+        "en": "Always operate the facility according to regulations!"
+      },
+      "bracket_parts": [
+        "Betreibe"
+      ],
+      "akkusativ_parts": [
+        "die Anlage"
+      ]
+    }
+  ]
+}

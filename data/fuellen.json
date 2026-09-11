@@ -1,0 +1,185 @@
+{
+  "id": "fuellen",
+  "infinitive": "füllen",
+  "translation": {
+    "ru": "наполнять, заполнять",
+    "en": "to fill, fill up"
+  },
+  "level": "A2",
+  "frequency_rank": 328,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "füllen",
+    "present_3sg": "füllt",
+    "praeteritum_3sg": "füllte",
+    "partizip_2": "gefüllt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "fülle",
+      "du": "füllst",
+      "er_sie_es": "füllt",
+      "wir": "füllen",
+      "ihr": "füllt",
+      "sie_Sie": "füllen"
+    },
+    "praeteritum": {
+      "ich": "füllte",
+      "du": "fülltest",
+      "er_sie_es": "füllte",
+      "wir": "füllten",
+      "ihr": "fülltet",
+      "sie_Sie": "füllten"
+    },
+    "imperative": {
+      "du": "fülle!",
+      "ihr": "füllt!",
+      "Sie": "füllen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein Glas füllen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich fülle die leere Flasche mit frischem Leitungswasser.",
+      "translation": {
+        "ru": "Я наполняю пустую бутылку свежей водой из-под крана.",
+        "en": "I fill the empty bottle with fresh tap water."
+      },
+      "bracket_parts": [
+        "fülle"
+      ],
+      "akkusativ_parts": [
+        "die leere Flasche"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Füllst du die Gläser der Gäste mit feinem Wein?",
+      "translation": {
+        "ru": "Ты наполняешь бокалы гостей изысканным вином?",
+        "en": "Are you filling the guests' glasses with fine wine?"
+      },
+      "bracket_parts": [
+        "Füllst"
+      ],
+      "akkusativ_parts": [
+        "die Gläser der Gäste"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Koch füllt die Pfannkuchen mit süßer Marmelade.",
+      "translation": {
+        "ru": "Повар наполняет блинчики сладким джемом.",
+        "en": "The cook fills the pancakes with sweet jam."
+      },
+      "bracket_parts": [
+        "füllt"
+      ],
+      "akkusativ_parts": [
+        "die Pfannkuchen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir füllen den Korb mit reifen Äpfeln aus dem Garten.",
+      "translation": {
+        "ru": "Мы наполняем корзину спелыми яблоками из сада.",
+        "en": "We fill the basket with ripe apples from the garden."
+      },
+      "bracket_parts": [
+        "füllen"
+      ],
+      "akkusativ_parts": [
+        "den Korb"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Füllt ihr den Tank des Autos vor der langen Fahrt?",
+      "translation": {
+        "ru": "Вы заправляете бак автомобиля перед дальней поездкой?",
+        "en": "Do you guys fill the car's tank before the long drive?"
+      },
+      "bracket_parts": [
+        "Füllt"
+      ],
+      "akkusativ_parts": [
+        "den Tank des Autos"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Dichter Nebel füllte damals das gesamte Tal am Morgen.",
+      "translation": {
+        "ru": "Густой туман заполнил тогда утром всю долину.",
+        "en": "Thick fog filled the entire valley in the morning back then."
+      },
+      "bracket_parts": [
+        "füllte"
+      ],
+      "akkusativ_parts": [
+        "das gesamte Tal"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Viele begeisterte Zuschauer haben den Saal bis auf den letzten Platz gefüllt.",
+      "translation": {
+        "ru": "Многие восторженные зрители заполнили зал до последнего места.",
+        "en": "Many enthusiastic spectators filled the hall to the last seat."
+      },
+      "bracket_parts": [
+        "haben",
+        "gefüllt"
+      ],
+      "akkusativ_parts": [
+        "den Saal"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Fülle bitte sofort die Wasserschale für die Katze!",
+      "translation": {
+        "ru": "Наполни миску с водой для кошки, пожалуйста!",
+        "en": "Please fill the water bowl for the cat right away!"
+      },
+      "bracket_parts": [
+        "Fülle"
+      ],
+      "akkusativ_parts": [
+        "die Wasserschale"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

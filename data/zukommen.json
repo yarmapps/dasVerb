@@ -1,0 +1,176 @@
+{
+  "id": "zukommen",
+  "infinitive": "zukommen",
+  "translation": {
+    "ru": "подходить, причитаться, предназначаться",
+    "en": "to approach, be due to, come toward"
+  },
+  "level": "B1",
+  "frequency_rank": 407,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "zu",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zukommen",
+    "present_3sg": "kommt zu",
+    "praeteritum_3sg": "kam zu",
+    "partizip_2": "zugekommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "komme zu",
+      "du": "kommst zu",
+      "er_sie_es": "kommt zu",
+      "wir": "kommen zu",
+      "ihr": "kommt zu",
+      "sie_Sie": "kommen zu"
+    },
+    "praeteritum": {
+      "ich": "kam zu",
+      "du": "kamst zu",
+      "er_sie_es": "kam zu",
+      "wir": "kamen zu",
+      "ihr": "kamt zu",
+      "sie_Sie": "kamen zu"
+    },
+    "imperative": {
+      "du": "komm zu!",
+      "ihr": "kommt zu!",
+      "Sie": "kommen Sie zu!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "auf jemanden zukommen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich komme bei Fragen gern direkt auf dich zu.",
+      "translation": {
+        "ru": "При возникновении вопросов я охотно обращусь прямо к тебе.",
+        "en": "If I have questions, I will gladly approach you directly."
+      },
+      "bracket_parts": [
+        "komme",
+        "zu"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Kommst du im Notfall mit deinen Sorgen auf mich zu?",
+      "translation": {
+        "ru": "В экстренном случае ты обратишься ко мне со своими тревогами?",
+        "en": "Will you come to me with your worries in an emergency?"
+      },
+      "bracket_parts": [
+        "Kommst",
+        "zu"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Ein freundlicher Polizist kommt langsam auf den Touristen zu.",
+      "translation": {
+        "ru": "Дружелюбный полицейский медленно подходит к туристу.",
+        "en": "A friendly police officer slowly approaches the tourist."
+      },
+      "bracket_parts": [
+        "kommt",
+        "zu"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir kommen heute mit einer wichtigen Bitte auf Sie zu.",
+      "translation": {
+        "ru": "Мы обращаемся сегодня к вам с важной просьбой.",
+        "en": "We are approaching you today with an important request."
+      },
+      "bracket_parts": [
+        "kommen",
+        "zu"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kommt ihr mit eurem Anliegen bitte direkt auf die Leitung zu?",
+      "translation": {
+        "ru": "Обратитесь с вашей просьбой прямо к руководству, пожалуйста!",
+        "en": "Will you guys please approach management directly with your request?"
+      },
+      "bracket_parts": [
+        "Kommt",
+        "zu"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Ein fremder Hund kam damals plötzlich auf die Kinder zu.",
+      "translation": {
+        "ru": "Незнакомая собака тогда внезапно подошла к детям.",
+        "en": "A strange dog suddenly approached the children back then."
+      },
+      "bracket_parts": [
+        "kam",
+        "zu"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Viele unerwartete Kosten sind in diesem Jahr auf die Familie zugekommen.",
+      "translation": {
+        "ru": "Многие неожиданные расходы свалились на семью в этом году.",
+        "en": "Many unexpected costs came upon the family this year."
+      },
+      "bracket_parts": [
+        "sind",
+        "zugekommen"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Komm bitte ohne jede Scheu auf mich zu!",
+      "translation": {
+        "ru": "Подходи ко мне без всякого стеснения, пожалуйста!",
+        "en": "Please approach me without any hesitation!"
+      },
+      "bracket_parts": [
+        "Komm",
+        "zu"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "leuchten",
+  "infinitive": "leuchten",
+  "translation": {
+    "ru": "светить, сиять, озарять",
+    "en": "to shine, glow"
+  },
+  "level": "A2",
+  "frequency_rank": 447,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "leuchten",
+    "present_3sg": "leuchtet",
+    "praeteritum_3sg": "leuchtete",
+    "partizip_2": "geleuchtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "leuchte",
+      "du": "leuchtest",
+      "er_sie_es": "leuchtet",
+      "wir": "leuchten",
+      "ihr": "leuchtet",
+      "sie_Sie": "leuchten"
+    },
+    "praeteritum": {
+      "ich": "leuchtete",
+      "du": "leuchtetest",
+      "er_sie_es": "leuchtete",
+      "wir": "leuchteten",
+      "ihr": "leuchtetet",
+      "sie_Sie": "leuchteten"
+    },
+    "perfekt": {
+      "ich": "habe geleuchtet",
+      "du": "hast geleuchtet",
+      "er_sie_es": "hat geleuchtet",
+      "wir": "haben geleuchtet",
+      "ihr": "habt geleuchtet",
+      "sie_Sie": "haben geleuchtet"
+    }
+  },
+  "rektion": {
+    "case": "none",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich leuchte dir den dunklen Weg mit der Taschenlampe.",
+      "translation": {
+        "ru": "Я освещаю тебе темный путь фонариком.",
+        "en": "I illuminate the dark path for you with the flashlight."
+      },
+      "bracket_parts": [
+        "leuchte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du leuchtest vor Freude über das tolle Geschenk.",
+      "translation": {
+        "ru": "Ты сияешь от радости из-за замечательного подарка.",
+        "en": "You glow with joy over the great gift."
+      },
+      "bracket_parts": [
+        "leuchtest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der helle Mond leuchtet am klaren Nachthimmel.",
+      "translation": {
+        "ru": "Яркая луна сияет на чистом ночном небе.",
+        "en": "The bright moon shines in the clear night sky."
+      },
+      "bracket_parts": [
+        "leuchtet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir leuchten in den dunklen Keller hinab.",
+      "translation": {
+        "ru": "Мы светим вниз в темный подвал.",
+        "en": "We shine light down into the dark basement."
+      },
+      "bracket_parts": [
+        "leuchten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr leuchtet den Gästen den Weg zum Ausgang.",
+      "translation": {
+        "ru": "Вы освещаете гостям путь к выходу.",
+        "en": "You light the way to the exit for the guests."
+      },
+      "bracket_parts": [
+        "leuchtet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie leuchteten damals mit Fackeln durch die Nacht.",
+      "translation": {
+        "ru": "Они тогда освещали факелами свой путь сквозь ночь.",
+        "en": "They shone torches through the night back then."
+      },
+      "bracket_parts": [
+        "leuchteten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Leuchtturm hat den Schiffen die ganze Nacht geleuchtet.",
+      "translation": {
+        "ru": "Маяк светил кораблям всю ночь.",
+        "en": "The lighthouse shone for the ships all night."
+      },
+      "bracket_parts": [
+        "hat",
+        "geleuchtet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Leuchte mir bitte kurz auf das Schlüsselloch!",
+      "translation": {
+        "ru": "Посвети мне пожалуйста на замочную скважину!",
+        "en": "Please shine a light on the keyhole for me for a moment!"
+      },
+      "bracket_parts": [
+        "Leuchte"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

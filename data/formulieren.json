@@ -1,0 +1,185 @@
+{
+  "id": "formulieren",
+  "infinitive": "formulieren",
+  "translation": {
+    "ru": "формулировать, излагать",
+    "en": "to formulate, phrase, word"
+  },
+  "level": "B1",
+  "frequency_rank": 343,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "formulieren",
+    "present_3sg": "formuliert",
+    "praeteritum_3sg": "formulierte",
+    "partizip_2": "formuliert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "formuliere",
+      "du": "formulierst",
+      "er_sie_es": "formuliert",
+      "wir": "formulieren",
+      "ihr": "formuliert",
+      "sie_Sie": "formulieren"
+    },
+    "praeteritum": {
+      "ich": "formulierte",
+      "du": "formuliertest",
+      "er_sie_es": "formulierte",
+      "wir": "formulierten",
+      "ihr": "formuliertet",
+      "sie_Sie": "formulierten"
+    },
+    "imperative": {
+      "du": "formuliere!",
+      "ihr": "formuliert!",
+      "Sie": "formulieren Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine Frage präzise formulieren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich formuliere meinen schriftlichen Antrag ganz genau.",
+      "translation": {
+        "ru": "Я очень точно формулирую свое письменное заявление.",
+        "en": "I formulate my written application very precisely."
+      },
+      "bracket_parts": [
+        "formuliere"
+      ],
+      "akkusativ_parts": [
+        "meinen schriftlichen Antrag"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Formulierst du deine Kritik immer so höflich?",
+      "translation": {
+        "ru": "Ты всегда формулируешь свою критику так вежливо?",
+        "en": "Do you always phrase your criticism so politely?"
+      },
+      "bracket_parts": [
+        "Formulierst"
+      ],
+      "akkusativ_parts": [
+        "deine Kritik"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Anwalt formuliert die Bedingungen des Kaufvertrags.",
+      "translation": {
+        "ru": "Адвокат формулирует условия договора купли-продажи.",
+        "en": "The lawyer formulates the terms of the purchase contract."
+      },
+      "bracket_parts": [
+        "formuliert"
+      ],
+      "akkusativ_parts": [
+        "die Bedingungen des Kaufvertrags"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir formulieren gemeinsam eine klare Antwort an den Vorstand.",
+      "translation": {
+        "ru": "Мы вместе формулируем четкий ответ совету директоров.",
+        "en": "Together we phrase a clear response to the executive board."
+      },
+      "bracket_parts": [
+        "formulieren"
+      ],
+      "akkusativ_parts": [
+        "eine klare Antwort"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Formuliert ihr eure Thesen für die Abschlussarbeit verständlich?",
+      "translation": {
+        "ru": "Вы формулируете тезисы для дипломной работы понятно?",
+        "en": "Are you formulating your thesis points clearly for the final paper?"
+      },
+      "bracket_parts": [
+        "Formuliert"
+      ],
+      "akkusativ_parts": [
+        "eure Thesen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Kommission formulierte damals eine neue Richtlinie für den Umweltschutz.",
+      "translation": {
+        "ru": "Комиссия сформулировала тогда новую директиву по защите окружающей среды.",
+        "en": "The commission formulated a new directive for environmental protection back then."
+      },
+      "bracket_parts": [
+        "formulierte"
+      ],
+      "akkusativ_parts": [
+        "eine neue Richtlinie"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Sprecher hat seine Gedanken sehr treffend formuliert.",
+      "translation": {
+        "ru": "Оратор очень метко сформулировал свои мысли.",
+        "en": "The speaker phrased his thoughts very aptly."
+      },
+      "bracket_parts": [
+        "hat",
+        "formuliert"
+      ],
+      "akkusativ_parts": [
+        "seine Gedanken"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Formuliere bitte jeden Satz kurz und verständlich!",
+      "translation": {
+        "ru": "Формулируй каждое предложение кратко и понятно, пожалуйста!",
+        "en": "Please phrase each sentence briefly and clearly!"
+      },
+      "bracket_parts": [
+        "Formuliere"
+      ],
+      "akkusativ_parts": [
+        "jeden Satz"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

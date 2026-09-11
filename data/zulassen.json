@@ -1,0 +1,192 @@
+{
+  "id": "zulassen",
+  "infinitive": "zulassen",
+  "translation": {
+    "ru": "допускать, разрешать, ставить на учет (автомобиль)",
+    "en": "to allow, permit, register (vehicle)"
+  },
+  "level": "B1",
+  "frequency_rank": 354,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "zu",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zulassen",
+    "present_3sg": "lässt zu",
+    "praeteritum_3sg": "ließ zu",
+    "partizip_2": "zugelassen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lasse zu",
+      "du": "lässt zu",
+      "er_sie_es": "lässt zu",
+      "wir": "lassen zu",
+      "ihr": "lasst zu",
+      "sie_Sie": "lassen zu"
+    },
+    "praeteritum": {
+      "ich": "ließ zu",
+      "du": "ließest zu",
+      "er_sie_es": "ließ zu",
+      "wir": "ließen zu",
+      "ihr": "ließt zu",
+      "sie_Sie": "ließen zu"
+    },
+    "imperative": {
+      "du": "lass zu!",
+      "ihr": "lasst zu!",
+      "Sie": "lassen Sie zu!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "keine Zweifel zulassen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich lasse mein neues Auto heute bei der Behörde zu.",
+      "translation": {
+        "ru": "Я сегодня регистрирую свой новый автомобиль в ведомстве.",
+        "en": "I am registering my new car at the licensing office today."
+      },
+      "bracket_parts": [
+        "lasse",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "mein neues Auto"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Lässt du solche Unhöflichkeiten in deinem Team wirklich zu?",
+      "translation": {
+        "ru": "Ты действительно допускаешь такие грубости в своей команде?",
+        "en": "Do you really permit such impoliteness in your team?"
+      },
+      "bracket_parts": [
+        "Lässt",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "solche Unhöflichkeiten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das strenge Prüfungsverfahren lässt keine Ausnahmen zu.",
+      "translation": {
+        "ru": "Строгая процедура экзамена не допускает никаких исключений.",
+        "en": "The strict examination procedure allows no exceptions."
+      },
+      "bracket_parts": [
+        "lässt",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "keine Ausnahmen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir lassen nur geprüfte Kandidaten zur Abschlussprüfung zu.",
+      "translation": {
+        "ru": "Мы допускаем к выпускному экзамену только проверенных кандидатов.",
+        "en": "We only admit verified candidates to the final examination."
+      },
+      "bracket_parts": [
+        "lassen",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "nur geprüfte Kandidaten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Lasst ihr Besucher während des Experiments im Labor zu?",
+      "translation": {
+        "ru": "Вы разрешаете посетителям находиться в лаборатории во время эксперимента?",
+        "en": "Do you allow visitors into the lab during the experiment?"
+      },
+      "bracket_parts": [
+        "Lasst",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "Besucher"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Schiedsrichter ließ damals das harte Spiel der Gäste zu.",
+      "translation": {
+        "ru": "Судья допустил тогда жесткую игру гостей.",
+        "en": "The referee allowed the rough play of the visiting team back then."
+      },
+      "bracket_parts": [
+        "ließ",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "das harte Spiel der Gäste"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Europäische Behörde hat das neue Medikament endlich zugelassen.",
+      "translation": {
+        "ru": "Европейское ведомство наконец допустило к применению новое лекарство.",
+        "en": "The European authority has finally approved the new medicine."
+      },
+      "bracket_parts": [
+        "hat",
+        "zugelassen"
+      ],
+      "akkusativ_parts": [
+        "das neue Medikament"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Lass bitte keine fremden Personen in das Wohnhaus zu!",
+      "translation": {
+        "ru": "Не впускай посторонних людей в жилой дом, пожалуйста!",
+        "en": "Please do not admit strangers into the apartment building!"
+      },
+      "bracket_parts": [
+        "Lass",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "keine fremden Personen"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

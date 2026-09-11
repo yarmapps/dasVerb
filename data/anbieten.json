@@ -1,0 +1,209 @@
+{
+  "id": "anbieten",
+  "infinitive": "anbieten",
+  "translation": {
+    "ru": "предлагать",
+    "en": "to offer"
+  },
+  "level": "A2",
+  "frequency_rank": 94,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "anbieten",
+    "present_3sg": "bietet an",
+    "praeteritum_3sg": "bot an",
+    "partizip_2": "angeboten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "biete an",
+      "du": "bietest an",
+      "er_sie_es": "bietet an",
+      "wir": "bieten an",
+      "ihr": "bietet an",
+      "sie_Sie": "bieten an",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "bot an",
+      "du": "botest an",
+      "er_sie_es": "bot an",
+      "wir": "boten an",
+      "ihr": "botet an",
+      "sie_Sie": "boten an"
+    },
+    "imperative": {
+      "du": "biete an",
+      "ihr": "bietet an",
+      "Sie": "bieten Sie an"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ + Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemandem (Dat) seine Hilfe (Akk) anbieten",
+  "sentences": [
+    {
+      "id": "anbieten_1",
+      "tense": "Präsens",
+      "german": "Ich biete meinem Nachbarn gern meine Hilfe an.",
+      "translation": {
+        "ru": "Я с радостью предлагаю соседу свою помощь.",
+        "en": "I gladly offer my neighbor my help."
+      },
+      "bracket_parts": [
+        "biete",
+        "an"
+      ],
+      "dativ_parts": [
+        "meinem Nachbarn"
+      ],
+      "akkusativ_parts": [
+        "meine Hilfe"
+      ]
+    },
+    {
+      "id": "anbieten_2",
+      "tense": "Präsens",
+      "german": "Bietest du dem Gast eine Tasse Tee an?",
+      "translation": {
+        "ru": "Предложишь гостю чашку чая?",
+        "en": "Will you offer the guest a cup of tea?"
+      },
+      "bracket_parts": [
+        "Bietest",
+        "an"
+      ],
+      "dativ_parts": [
+        "dem Gast"
+      ],
+      "akkusativ_parts": [
+        "eine Tasse Tee"
+      ]
+    },
+    {
+      "id": "anbieten_3",
+      "tense": "Präsens",
+      "german": "Das Hotel bietet seinen Kunden einen kostenlosen Service an.",
+      "translation": {
+        "ru": "Отель предлагает своим клиентам бесплатный сервис.",
+        "en": "The hotel offers its customers a free service."
+      },
+      "bracket_parts": [
+        "bietet",
+        "an"
+      ],
+      "dativ_parts": [
+        "seinen Kunden"
+      ],
+      "akkusativ_parts": [
+        "einen kostenlosen Service"
+      ]
+    },
+    {
+      "id": "anbieten_4",
+      "tense": "Präsens",
+      "german": "Wir bieten euch heute einen besonderen Rabatt an.",
+      "translation": {
+        "ru": "Мы предлагаем вам сегодня особую скидку.",
+        "en": "We offer you a special discount today."
+      },
+      "bracket_parts": [
+        "bieten",
+        "an"
+      ],
+      "dativ_parts": [
+        "euch"
+      ],
+      "akkusativ_parts": [
+        "einen besonderen Rabatt"
+      ]
+    },
+    {
+      "id": "anbieten_5",
+      "tense": "Präsens",
+      "german": "Bietet ihr den Besuchern bequeme Plätze an?",
+      "translation": {
+        "ru": "Вы предлагаете посетителям удобные места?",
+        "en": "Do you offer the visitors comfortable seats?"
+      },
+      "bracket_parts": [
+        "Bietet",
+        "an"
+      ],
+      "dativ_parts": [
+        "den Besuchern"
+      ],
+      "akkusativ_parts": [
+        "bequeme Plätze"
+      ]
+    },
+    {
+      "id": "anbieten_6",
+      "tense": "Präteritum",
+      "german": "Sie boten dem Partner damals eine faire Lösung an.",
+      "translation": {
+        "ru": "Они предложили партнеру тогда справедливое решение.",
+        "en": "They offered the partner a fair solution back then."
+      },
+      "bracket_parts": [
+        "boten",
+        "an"
+      ],
+      "dativ_parts": [
+        "dem Partner"
+      ],
+      "akkusativ_parts": [
+        "eine faire Lösung"
+      ]
+    },
+    {
+      "id": "anbieten_7",
+      "tense": "Perfekt",
+      "german": "Ich habe ihm sofort einen neuen Job angeboten.",
+      "translation": {
+        "ru": "Я сразу предложил ему новую работу.",
+        "en": "I immediately offered him a new job."
+      },
+      "bracket_parts": [
+        "habe",
+        "angeboten"
+      ],
+      "dativ_parts": [
+        "ihm"
+      ],
+      "akkusativ_parts": [
+        "einen neuen Job"
+      ]
+    },
+    {
+      "id": "anbieten_8",
+      "tense": "Imperativ",
+      "german": "Biete den müden Reisenden etwas Wasser an!",
+      "translation": {
+        "ru": "Предложи уставшим путникам немного воды!",
+        "en": "Offer the tired travelers some water!"
+      },
+      "bracket_parts": [
+        "Biete",
+        "an"
+      ],
+      "dativ_parts": [
+        "den müden Reisenden"
+      ],
+      "akkusativ_parts": [
+        "etwas Wasser"
+      ]
+    }
+  ]
+}

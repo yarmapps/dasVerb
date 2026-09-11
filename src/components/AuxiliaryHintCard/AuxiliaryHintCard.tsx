@@ -10,12 +10,14 @@ interface AuxiliaryHintCardProps {
   infinitive: string;
   auxiliary: AuxiliaryVerb;
   correctForm: string;
+  embedded?: boolean;
 }
 
 export function AuxiliaryHintCard({
   infinitive,
   auxiliary,
   correctForm,
+  embedded = false,
 }: AuxiliaryHintCardProps): React.JSX.Element {
   const intl = useIntl();
   const { colors } = useAppTheme();
@@ -33,7 +35,10 @@ export function AuxiliaryHintCard({
         );
 
   return (
-    <View style={styles.container} testID="auxiliary-hint-card">
+    <View
+      style={embedded ? styles.embeddedContainer : styles.container}
+      testID="auxiliary-hint-card"
+    >
       <View style={styles.header}>
         <Ionicons name="information-circle" size={16} color={colors.primary} />
         <Text style={styles.title}>Perfekt · {auxiliary === 'sein' ? 'sein' : 'haben'}</Text>

@@ -1,0 +1,177 @@
+{
+  "id": "erkennen",
+  "infinitive": "erkennen",
+  "translation": {
+    "ru": "узнавать, распознавать",
+    "en": "to recognize, spot"
+  },
+  "level": "B1",
+  "frequency_rank": 74,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "mixed",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erkennen",
+    "present_3sg": "erkennt",
+    "praeteritum_3sg": "erkannte",
+    "partizip_2": "erkannt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erkenne",
+      "du": "erkennst",
+      "er_sie_es": "erkennt",
+      "wir": "erkennen",
+      "ihr": "erkennt",
+      "sie_Sie": "erkennen"
+    },
+    "praeteritum": {
+      "ich": "erkannte",
+      "du": "erkanntest",
+      "er_sie_es": "erkannte",
+      "wir": "erkannten",
+      "ihr": "erkanntet",
+      "sie_Sie": "erkannten"
+    },
+    "imperative": {
+      "du": "erkenne!",
+      "ihr": "erkennt!",
+      "Sie": "erkennen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemanden auf der Straße erkennen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erkenne meinen alten Schulfreund sofort wieder.",
+      "translation": {
+        "ru": "Я сразу же узнаю своего старого школьного друга.",
+        "en": "I recognize my old school friend right away."
+      },
+      "bracket_parts": [
+        "erkenne"
+      ],
+      "akkusativ_parts": [
+        "meinen alten Schulfreund"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erkennst du diese Melodie aus dem Radio?",
+      "translation": {
+        "ru": "Ты узнаешь эту мелодию по радио?",
+        "en": "Do you recognize this melody from the radio?"
+      },
+      "bracket_parts": [
+        "Erkennst"
+      ],
+      "akkusativ_parts": [
+        "diese Melodie"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Polizist erkennt den flüchtigen Täter.",
+      "translation": {
+        "ru": "Полицейский узнает скрывающегося преступника.",
+        "en": "The police officer recognizes the fleeing perpetrator."
+      },
+      "bracket_parts": [
+        "erkennt"
+      ],
+      "akkusativ_parts": [
+        "den flüchtigen Täter"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erkennen die Handschrift unserer Großmutter.",
+      "translation": {
+        "ru": "Мы узнаем почерк нашей бабушки.",
+        "en": "We recognize our grandmother's handwriting."
+      },
+      "bracket_parts": [
+        "erkennen"
+      ],
+      "akkusativ_parts": [
+        "die Handschrift unserer Großmutter"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erkennt ihr das Gebäude auf diesem alten Foto?",
+      "translation": {
+        "ru": "Вы узнаете здание на этой старой фотографии?",
+        "en": "Do you guys recognize the building in this old photo?"
+      },
+      "bracket_parts": [
+        "Erkennt"
+      ],
+      "akkusativ_parts": [
+        "das Gebäude"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie erkannten den Ernst der Lage erst viel später.",
+      "translation": {
+        "ru": "Они осознали всю серьезность положения намного позже.",
+        "en": "They recognized the seriousness of the situation only much later."
+      },
+      "bracket_parts": [
+        "erkannten"
+      ],
+      "akkusativ_parts": [
+        "den Ernst der Lage"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Mein Bruder hat mich trotz der Mütze sofort erkannt.",
+      "translation": {
+        "ru": "Брат сразу узнал меня, несмотря на шапку.",
+        "en": "My brother recognized me right away despite the beanie."
+      },
+      "bracket_parts": [
+        "hat",
+        "erkannt"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erkenne deine eigenen Fehler rechtzeitig an!",
+      "translation": {
+        "ru": "Признай свои собственные ошибки вовремя!",
+        "en": "Recognize your own mistakes in time!"
+      },
+      "bracket_parts": [
+        "Erkenne"
+      ],
+      "akkusativ_parts": [
+        "deine eigenen Fehler"
+      ]
+    }
+  ]
+}

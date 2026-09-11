@@ -1,0 +1,178 @@
+{
+  "id": "weitergehen",
+  "infinitive": "weitergehen",
+  "translation": {
+    "ru": "идти дальше, продолжаться",
+    "en": "to go on, continue, keep walking"
+  },
+  "level": "A2",
+  "frequency_rank": 315,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "weiter",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "weitergehen",
+    "present_3sg": "geht weiter",
+    "praeteritum_3sg": "ging weiter",
+    "partizip_2": "weitergegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe weiter",
+      "du": "gehst weiter",
+      "er_sie_es": "geht weiter",
+      "wir": "gehen weiter",
+      "ihr": "geht weiter",
+      "sie_Sie": "gehen weiter"
+    },
+    "praeteritum": {
+      "ich": "ging weiter",
+      "du": "gingst weiter",
+      "er_sie_es": "ging weiter",
+      "wir": "gingen weiter",
+      "ihr": "gingt weiter",
+      "sie_Sie": "gingen weiter"
+    },
+    "imperative": {
+      "du": "geh weiter!",
+      "ihr": "geht weiter!",
+      "Sie": "gehen Sie weiter!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "der Weg geht weiter",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich gehe nach der kurzen Pause zügig weiter.",
+      "translation": {
+        "ru": "После короткой паузы я быстро иду дальше.",
+        "en": "I continue walking briskly after the short break."
+      },
+      "bracket_parts": [
+        "gehe",
+        "weiter"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Gehst du trotz des Regens einfach weiter?",
+      "translation": {
+        "ru": "Ты просто идешь дальше, несмотря на дождь?",
+        "en": "Are you simply walking on despite the rain?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "weiter"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Leben geht auch nach schweren Zeiten weiter.",
+      "translation": {
+        "ru": "Жизнь продолжается и после тяжелых времен.",
+        "en": "Life goes on even after hard times."
+      },
+      "bracket_parts": [
+        "geht",
+        "weiter"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir gehen gemeinsam den steinigen Bergpfad weiter.",
+      "translation": {
+        "ru": "Мы вместе идем дальше по каменистой горной тропе.",
+        "en": "We continue along the rocky mountain path together."
+      },
+      "bracket_parts": [
+        "gehen",
+        "weiter"
+      ],
+      "akkusativ_parts": [
+        "den steinigen Bergpfad"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Geht ihr sofort nach der Durchsage weiter zum Ausgang?",
+      "translation": {
+        "ru": "Вы сразу после объявления идете дальше к выходу?",
+        "en": "Do you proceed to the exit immediately after the announcement?"
+      },
+      "bracket_parts": [
+        "Geht",
+        "weiter"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Verhandlung ging damals trotz der Proteste weiter.",
+      "translation": {
+        "ru": "Переговоры продолжались тогда, несмотря на протесты.",
+        "en": "The negotiations continued back then despite the protests."
+      },
+      "bracket_parts": [
+        "ging",
+        "weiter"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Show ist nach der Unterbrechung wie gewohnt weitergegangen.",
+      "translation": {
+        "ru": "Шоу после перерыва продолжилось как обычно.",
+        "en": "The show continued as usual after the interruption."
+      },
+      "bracket_parts": [
+        "ist",
+        "weitergegangen"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Geh bitte zügig weiter und bleib nicht stehen!",
+      "translation": {
+        "ru": "Иди быстрее дальше, пожалуйста, и не останавливайся!",
+        "en": "Please keep moving briskly and do not stop!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "weiter"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    }
+  ]
+}

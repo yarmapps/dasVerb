@@ -1,0 +1,171 @@
+{
+  "id": "unternehmen",
+  "infinitive": "unternehmen",
+  "translation": {
+    "ru": "предпринимать, совершать",
+    "en": "to undertake, do, take steps"
+  },
+  "level": "B1",
+  "frequency_rank": 469,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "unter",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "unternehmen",
+    "present_3sg": "unternimmt",
+    "praeteritum_3sg": "unternahm",
+    "partizip_2": "unternommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "unternehme",
+      "du": "unternimmst",
+      "er_sie_es": "unternimmt",
+      "wir": "unternehmen",
+      "ihr": "unternehmt",
+      "sie_Sie": "unternehmen"
+    },
+    "praeteritum": {
+      "ich": "unternahm",
+      "du": "unternahmst",
+      "er_sie_es": "unternahm",
+      "wir": "unternahmen",
+      "ihr": "unternahmt",
+      "sie_Sie": "unternahmen"
+    },
+    "perfekt": {
+      "ich": "habe unternommen",
+      "du": "hast unternommen",
+      "er_sie_es": "hat unternommen",
+      "wir": "haben unternommen",
+      "ihr": "habt unternommen",
+      "sie_Sie": "haben unternommen"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich unternehme am Wochenende einen langen Fahrradausflug.",
+      "translation": {
+        "ru": "В выходные я совершаю долгую велосипедную прогулку.",
+        "en": "I undertake a long bike trip on the weekend."
+      },
+      "bracket_parts": [
+        "unternehme"
+      ],
+      "akkusativ_parts": [
+        "einen langen Fahrradausflug"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du unternimmst etwas Wirksames gegen die Müdigkeit.",
+      "translation": {
+        "ru": "Ты предпринимаешь что-то эффективное против усталости.",
+        "en": "You do something effective against fatigue."
+      },
+      "bracket_parts": [
+        "unternimmst"
+      ],
+      "akkusativ_parts": [
+        "etwas Wirksames"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Stadtverwaltung unternimmt rasche Schritte zum Hochwasserschutz.",
+      "translation": {
+        "ru": "Городская администрация предпринимает быстрые шаги по защите от наводнений.",
+        "en": "City administration takes swift steps toward flood protection."
+      },
+      "bracket_parts": [
+        "unternimmt"
+      ],
+      "akkusativ_parts": [
+        "rasche Schritte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir unternehmen eine spannende Reise nach Skandinavien.",
+      "translation": {
+        "ru": "Мы совершаем увлекательное путешествие в Скандинавию.",
+        "en": "We undertake an exciting journey to Scandinavia."
+      },
+      "bracket_parts": [
+        "unternehmen"
+      ],
+      "akkusativ_parts": [
+        "eine spannende Reise"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr unternehmt am Feiertag viel Schönes mit Freunden.",
+      "translation": {
+        "ru": "В праздник вы занимаетесь многими приятными вещами с друзьями.",
+        "en": "You do many nice things with friends on the holiday."
+      },
+      "bracket_parts": [
+        "unternehmt"
+      ],
+      "akkusativ_parts": [
+        "viel Schönes"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie unternahmen damals keinen weiteren Versuch zur Rettung.",
+      "translation": {
+        "ru": "Они тогда не предприняли дальнейших попыток к спасению.",
+        "en": "They undertook no further attempt at rescue back then."
+      },
+      "bracket_parts": [
+        "unternahmen"
+      ],
+      "akkusativ_parts": [
+        "keinen weiteren Versuch"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Stadtrat hat sofort wirksame Gegenmaßnahmen unternommen.",
+      "translation": {
+        "ru": "Городской совет сразу предпринял действенные контрмеры.",
+        "en": "The city council undertook effective countermeasures immediately."
+      },
+      "bracket_parts": [
+        "hat",
+        "unternommen"
+      ],
+      "akkusativ_parts": [
+        "wirksame Gegenmaßnahmen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Unternimm endlich etwas gegen die vielen Fehler!",
+      "translation": {
+        "ru": "Предприми наконец что-нибудь против многочисленных ошибок!",
+        "en": "Finally do something about the many mistakes!"
+      },
+      "bracket_parts": [
+        "Unternimm"
+      ],
+      "akkusativ_parts": [
+        "etwas"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "ueberzeugen",
+  "infinitive": "überzeugen",
+  "translation": {
+    "ru": "убеждать",
+    "en": "to convince, persuade"
+  },
+  "level": "B1",
+  "frequency_rank": 213,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "über",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "überzeugen",
+    "present_3sg": "überzeugt",
+    "praeteritum_3sg": "überzeugte",
+    "partizip_2": "überzeugt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "überzeuge",
+      "du": "überzeugst",
+      "er_sie_es": "überzeugt",
+      "wir": "überzeugen",
+      "ihr": "überzeugt",
+      "sie_Sie": "überzeugen"
+    },
+    "praeteritum": {
+      "ich": "überzeugte",
+      "du": "überzeugtest",
+      "er_sie_es": "überzeugte",
+      "wir": "überzeugten",
+      "ihr": "überzeugtet",
+      "sie_Sie": "überzeugten"
+    },
+    "imperative": {
+      "du": "überzeuge!",
+      "ihr": "überzeugt!",
+      "Sie": "überzeugen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Kunden überzeugen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich überzeuge meine Kollegen mit klaren Fakten.",
+      "translation": {
+        "ru": "Я убеждаю своих коллег четкими фактами.",
+        "en": "I convince my colleagues with clear facts."
+      },
+      "bracket_parts": [
+        "überzeuge"
+      ],
+      "akkusativ_parts": [
+        "meine Kollegen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Überzeugst du das Publikum mit deinem Vortrag?",
+      "translation": {
+        "ru": "Убедишь ли ты публику своим докладом?",
+        "en": "Do you convince the audience with your lecture?"
+      },
+      "bracket_parts": [
+        "Überzeugst"
+      ],
+      "akkusativ_parts": [
+        "das Publikum"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Seine hervorragende Leistung überzeugt den Trainer.",
+      "translation": {
+        "ru": "Его выдающееся выступление убеждает тренера.",
+        "en": "His outstanding performance convinces the coach."
+      },
+      "bracket_parts": [
+        "überzeugt"
+      ],
+      "akkusativ_parts": [
+        "den Trainer"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir überzeugen die Jury durch Kreativität.",
+      "translation": {
+        "ru": "Мы убеждаем жюри своей креативностью.",
+        "en": "We convince the jury through creativity."
+      },
+      "bracket_parts": [
+        "überzeugen"
+      ],
+      "akkusativ_parts": [
+        "die Jury"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Überzeugt ihr die Wähler mit diesem Programm?",
+      "translation": {
+        "ru": "Убедите ли вы избирателей этой программой?",
+        "en": "Do you guys convince the voters with this program?"
+      },
+      "bracket_parts": [
+        "Überzeugt"
+      ],
+      "akkusativ_parts": [
+        "die Wähler"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie überzeugten die Investoren in wenigen Minuten.",
+      "translation": {
+        "ru": "Они убедили инвесторов за считанные минуты.",
+        "en": "They convinced the investors in a few minutes."
+      },
+      "bracket_parts": [
+        "überzeugten"
+      ],
+      "akkusativ_parts": [
+        "die Investoren"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das neue Produkt hat alle Kritiker restlos überzeugt.",
+      "translation": {
+        "ru": "Новый продукт окончательно убедил всех критиков.",
+        "en": "The new product completely convinced all critics."
+      },
+      "bracket_parts": [
+        "hat",
+        "überzeugt"
+      ],
+      "akkusativ_parts": [
+        "alle Kritiker"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Überzeuge die Chefs durch gute Argumente!",
+      "translation": {
+        "ru": "Убеди руководителей вескими аргументами!",
+        "en": "Convince the bosses with good arguments!"
+      },
+      "bracket_parts": [
+        "Überzeuge"
+      ],
+      "akkusativ_parts": [
+        "die Chefs"
+      ]
+    }
+  ]
+}

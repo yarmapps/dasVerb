@@ -1,0 +1,177 @@
+{
+  "id": "bauen",
+  "infinitive": "bauen",
+  "translation": {
+    "ru": "строить, сооружать",
+    "en": "to build, construct"
+  },
+  "level": "A1",
+  "frequency_rank": 164,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bauen",
+    "present_3sg": "baut",
+    "praeteritum_3sg": "baute",
+    "partizip_2": "gebaut"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "baue",
+      "du": "baust",
+      "er_sie_es": "baut",
+      "wir": "bauen",
+      "ihr": "baut",
+      "sie_Sie": "bauen"
+    },
+    "praeteritum": {
+      "ich": "baute",
+      "du": "bautest",
+      "er_sie_es": "baute",
+      "wir": "bauten",
+      "ihr": "bautet",
+      "sie_Sie": "bauten"
+    },
+    "imperative": {
+      "du": "bau!",
+      "ihr": "baut!",
+      "Sie": "bauen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein Haus bauen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich baue ein kleines Holzhaus im Garten.",
+      "translation": {
+        "ru": "Я строю небольшой деревянный домик в саду.",
+        "en": "I am building a small wooden house in the garden."
+      },
+      "bracket_parts": [
+        "baue"
+      ],
+      "akkusativ_parts": [
+        "ein kleines Holzhaus"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Baust du gerne Modelle aus Legosteinen?",
+      "translation": {
+        "ru": "Тебе нравится собирать модели из кубиков лего?",
+        "en": "Do you like building models out of Lego bricks?"
+      },
+      "bracket_parts": [
+        "Baust"
+      ],
+      "akkusativ_parts": [
+        "Modelle"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Stadt baut eine moderne Brücke über den Fluss.",
+      "translation": {
+        "ru": "Город строит современный мост через реку.",
+        "en": "The city is building a modern bridge over the river."
+      },
+      "bracket_parts": [
+        "baut"
+      ],
+      "akkusativ_parts": [
+        "eine moderne Brücke"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir bauen bald unser eigenes Einfamilienhaus.",
+      "translation": {
+        "ru": "Скоро мы построим наш собственный особняк.",
+        "en": "We will soon build our own single-family house."
+      },
+      "bracket_parts": [
+        "bauen"
+      ],
+      "akkusativ_parts": [
+        "unser eigenes Einfamilienhaus"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Baut ihr eine Rampe für Rollstühle am Eingang?",
+      "translation": {
+        "ru": "Вы строите пандус для инвалидных колясок у входа?",
+        "en": "Are you guys building a wheelchair ramp at the entrance?"
+      },
+      "bracket_parts": [
+        "Baut"
+      ],
+      "akkusativ_parts": [
+        "eine Rampe"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie bauten damals viele Straßen in Rekordzeit.",
+      "translation": {
+        "ru": "В то время они построили много дорог в рекордные сроки.",
+        "en": "They built many roads in record time back then."
+      },
+      "bracket_parts": [
+        "bauten"
+      ],
+      "akkusativ_parts": [
+        "viele Straßen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Mein Onkel hat sein Haus komplett selbst gebaut.",
+      "translation": {
+        "ru": "Мой дядя построил свой дом полностью сам.",
+        "en": "My uncle built his house completely by himself."
+      },
+      "bracket_parts": [
+        "hat",
+        "gebaut"
+      ],
+      "akkusativ_parts": [
+        "sein Haus"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Bau bitte ein stabiles Regal für die Werkstatt!",
+      "translation": {
+        "ru": "Построй, пожалуйста, прочную полку для мастерской!",
+        "en": "Please build a sturdy shelf for the workshop!"
+      },
+      "bracket_parts": [
+        "Bau"
+      ],
+      "akkusativ_parts": [
+        "ein stabiles Regal"
+      ]
+    }
+  ]
+}

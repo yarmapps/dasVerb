@@ -1,0 +1,175 @@
+{
+  "id": "bestimmen",
+  "infinitive": "bestimmen",
+  "translation": {
+    "ru": "определять, устанавливать",
+    "en": "to determine, to decide"
+  },
+  "level": "B1",
+  "frequency_rank": 121,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bestimmen",
+    "present_3sg": "bestimmt",
+    "praeteritum_3sg": "bestimmte",
+    "partizip_2": "bestimmt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bestimme",
+      "du": "bestimmst",
+      "er_sie_es": "bestimmt",
+      "wir": "bestimmen",
+      "ihr": "bestimmt",
+      "sie_Sie": "bestimmen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "bestimmte",
+      "du": "bestimmtest",
+      "er_sie_es": "bestimmte",
+      "wir": "bestimmten",
+      "ihr": "bestimmtet",
+      "sie_Sie": "bestimmten"
+    },
+    "imperative": {
+      "du": "bestimme",
+      "ihr": "bestimmt",
+      "Sie": "bestimmen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "den Preis / die Regeln (Akk) bestimmen",
+  "sentences": [
+    {
+      "id": "bestimmen_1",
+      "tense": "Präsens",
+      "german": "Ich bestimme selbst über mein Leben und meine Zukunft.",
+      "translation": {
+        "ru": "Я сам определяю свою жизнь и свое будущее.",
+        "en": "I determine my own life and my future."
+      },
+      "bracket_parts": [
+        "bestimme"
+      ]
+    },
+    {
+      "id": "bestimmen_2",
+      "tense": "Präsens",
+      "german": "Bestimmst du die genauen Regeln für das Spiel?",
+      "translation": {
+        "ru": "Ты устанавливаешь точные правила для этой игры?",
+        "en": "Do you determine the exact rules for the game?"
+      },
+      "bracket_parts": [
+        "Bestimmst"
+      ],
+      "akkusativ_parts": [
+        "die genauen Regeln"
+      ]
+    },
+    {
+      "id": "bestimmen_3",
+      "tense": "Präsens",
+      "german": "Der Markt bestimmt den Preis für dieses seltene Produkt.",
+      "translation": {
+        "ru": "Рынок определяет цену на этот редкий продукт.",
+        "en": "The market determines the price of this rare product."
+      },
+      "bracket_parts": [
+        "bestimmt"
+      ],
+      "akkusativ_parts": [
+        "den Preis"
+      ]
+    },
+    {
+      "id": "bestimmen_4",
+      "tense": "Präsens",
+      "german": "Wir bestimmen gemeinsam den nächsten Urlaubsort.",
+      "translation": {
+        "ru": "Мы вместе выбираем (определяем) следующее место для отдыха.",
+        "en": "We determine the next vacation destination together."
+      },
+      "bracket_parts": [
+        "bestimmen"
+      ],
+      "akkusativ_parts": [
+        "den nächsten Urlaubsort"
+      ]
+    },
+    {
+      "id": "bestimmen_5",
+      "tense": "Präsens",
+      "german": "Bestimmt ihr den neuen Leiter der Arbeitsgruppe?",
+      "translation": {
+        "ru": "Вы назначаете нового руководителя рабочей группы?",
+        "en": "Are you designating the new leader of the working group?"
+      },
+      "bracket_parts": [
+        "Bestimmt"
+      ],
+      "akkusativ_parts": [
+        "den neuen Leiter"
+      ]
+    },
+    {
+      "id": "bestimmen_6",
+      "tense": "Präteritum",
+      "german": "Die Richter bestimmten damals das faire Urteil.",
+      "translation": {
+        "ru": "Судьи вынесли (определили) тогда справедливый приговор.",
+        "en": "The judges determined the fair verdict back then."
+      },
+      "bracket_parts": [
+        "bestimmten"
+      ],
+      "akkusativ_parts": [
+        "das faire Urteil"
+      ]
+    },
+    {
+      "id": "bestimmen_7",
+      "tense": "Perfekt",
+      "german": "Der Arzt hat die genaue Ursache der Krankheit bestimmt.",
+      "translation": {
+        "ru": "Врач определил точную причину болезни.",
+        "en": "The doctor determined the exact cause of the illness."
+      },
+      "bracket_parts": [
+        "hat",
+        "bestimmt"
+      ],
+      "akkusativ_parts": [
+        "die genaue Ursache"
+      ]
+    },
+    {
+      "id": "bestimmen_8",
+      "tense": "Imperativ",
+      "german": "Bestimme deinen eigenen Weg mit Mut!",
+      "translation": {
+        "ru": "Определяй свой собственный путь со смелостью!",
+        "en": "Determine your own path with courage!"
+      },
+      "bracket_parts": [
+        "Bestimme"
+      ],
+      "akkusativ_parts": [
+        "deinen eigenen Weg"
+      ]
+    }
+  ]
+}

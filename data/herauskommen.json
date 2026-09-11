@@ -1,0 +1,176 @@
+{
+  "id": "herauskommen",
+  "infinitive": "herauskommen",
+  "translation": {
+    "ru": "выходить наружу, публиковаться, выявляться",
+    "en": "to come out, emerge, be published"
+  },
+  "level": "A2",
+  "frequency_rank": 400,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "heraus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "herauskommen",
+    "present_3sg": "kommt heraus",
+    "praeteritum_3sg": "kam heraus",
+    "partizip_2": "herausgekommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "komme heraus",
+      "du": "kommst heraus",
+      "er_sie_es": "kommt heraus",
+      "wir": "kommen heraus",
+      "ihr": "kommt heraus",
+      "sie_Sie": "kommen heraus"
+    },
+    "praeteritum": {
+      "ich": "kam heraus",
+      "du": "kamst heraus",
+      "er_sie_es": "kam heraus",
+      "wir": "kamen heraus",
+      "ihr": "kamt heraus",
+      "sie_Sie": "kamen heraus"
+    },
+    "imperative": {
+      "du": "komm heraus!",
+      "ihr": "kommt heraus!",
+      "Sie": "kommen Sie heraus!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "aus dem Haus herauskommen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich komme nach getaner Arbeit endlich aus dem Büro heraus.",
+      "translation": {
+        "ru": "После завершения работы я наконец выхожу из офиса.",
+        "en": "I finally come out of the office after work is done."
+      },
+      "bracket_parts": [
+        "komme",
+        "heraus"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Kommst du bei diesem sonnigen Wetter gar nicht heraus?",
+      "translation": {
+        "ru": "Ты в такую солнечную погоду совсем не выходишь на улицу?",
+        "en": "Don't you come outside at all in this sunny weather?"
+      },
+      "bracket_parts": [
+        "Kommst",
+        "heraus"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das neue Buch des bekannten Autors kommt im Herbst heraus.",
+      "translation": {
+        "ru": "Новая книга известного автора выходит осенью.",
+        "en": "The famous author's new book comes out in autumn."
+      },
+      "bracket_parts": [
+        "kommt",
+        "heraus"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir kommen trotz der Schwierigkeiten gut aus der Sache heraus.",
+      "translation": {
+        "ru": "Несмотря на трудности, мы благополучно выходим из этого положения.",
+        "en": "Despite difficulties, we come out of the matter well."
+      },
+      "bracket_parts": [
+        "kommen",
+        "heraus"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kommt ihr bitte kurz aus dem Zimmer heraus?",
+      "translation": {
+        "ru": "Выйдите ненадолго из комнаты, пожалуйста!",
+        "en": "Will you guys please come out of the room for a moment?"
+      },
+      "bracket_parts": [
+        "Kommt",
+        "heraus"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Wahrheit kam damals erst nach vielen Jahren heraus.",
+      "translation": {
+        "ru": "Правда тогда открылась лишь спустя много лет.",
+        "en": "The truth came out only after many years back then."
+      },
+      "bracket_parts": [
+        "kam",
+        "heraus"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Ein wunderbares Ergebnis ist bei unserer Forschung herausgekommen.",
+      "translation": {
+        "ru": "В нашем исследовании получился замечательный результат.",
+        "en": "A wonderful result came out of our research."
+      },
+      "bracket_parts": [
+        "ist",
+        "herausgekommen"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Komm bitte sofort aus dem kalten Wasser heraus!",
+      "translation": {
+        "ru": "Вылезай из холодной воды прямо сейчас, пожалуйста!",
+        "en": "Please come out of the cold water right now!"
+      },
+      "bracket_parts": [
+        "Komm",
+        "heraus"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    }
+  ]
+}

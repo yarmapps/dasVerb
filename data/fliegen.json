@@ -1,0 +1,176 @@
+{
+  "id": "fliegen",
+  "infinitive": "fliegen",
+  "translation": {
+    "ru": "летать, лететь",
+    "en": "to fly"
+  },
+  "level": "A1",
+  "frequency_rank": 80,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "fliegen",
+    "present_3sg": "fliegt",
+    "praeteritum_3sg": "flog",
+    "partizip_2": "geflogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "fliege",
+      "du": "fliegst",
+      "er_sie_es": "fliegt",
+      "wir": "fliegen",
+      "ihr": "fliegt",
+      "sie_Sie": "fliegen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "flog",
+      "du": "flogst",
+      "er_sie_es": "flog",
+      "wir": "flogen",
+      "ihr": "flogt",
+      "sie_Sie": "flogen"
+    },
+    "imperative": {
+      "du": "flieg!",
+      "ihr": "fliegt!",
+      "Sie": "fliegen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "nach",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "in den Urlaub nach Spanien fliegen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich fliege nächsten Monat für zwei Wochen in den wohlverdienten Urlaub nach Mallorca.",
+      "translation": {
+        "ru": "В следующем месяце я лечу на две недели в заслуженный отпуск на Майорку.",
+        "en": "Next month I am flying to Mallorca for two weeks for a well-deserved vacation."
+      },
+      "bracket_parts": [
+        "fliege"
+      ],
+      "akkusativ_parts": [
+        "in den wohlverdienten Urlaub"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Fliegst du dieses Jahr zur internationalen Buchmesse wieder direkt nach Frankfurt?",
+      "translation": {
+        "ru": "Ты летишь в этом году на международную книжную ярмарку снова прямо во Франкфурт?",
+        "en": "Are you flying directly to Frankfurt again this year for the international book fair?"
+      },
+      "bracket_parts": [
+        "Fliegst"
+      ],
+      "dativ_parts": [
+        "zur internationalen Buchmesse"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der bunte Schmetterling fliegt im Sommer von einer duftenden Blüte zur nächsten.",
+      "translation": {
+        "ru": "Разноцветная бабочка летом летает с одного ароматного цветка на другой.",
+        "en": "The colourful butterfly flies from one fragrant flower to the next in summer."
+      },
+      "bracket_parts": [
+        "fliegt"
+      ],
+      "dativ_parts": [
+        "von einer duftenden Blüte"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir fliegen als gesamte Familie zum ersten Mal gemeinsam über den Atlantik.",
+      "translation": {
+        "ru": "Мы всей семьей впервые вместе летим через Атлантику.",
+        "en": "As a whole family, we are flying across the Atlantic together for the first time."
+      },
+      "bracket_parts": [
+        "fliegen"
+      ],
+      "akkusativ_parts": [
+        "über den Atlantik"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Fliegt ihr für das Auslandssemester im kommenden Herbst nach Kanada oder in die USA?",
+      "translation": {
+        "ru": "Вы летите на семестр за границей предстоящей осенью в Канаду или в США?",
+        "en": "Are you flying to Canada or the USA for your semester abroad this coming autumn?"
+      },
+      "bracket_parts": [
+        "Fliegt"
+      ],
+      "akkusativ_parts": [
+        "für das Auslandssemester",
+        "in die USA"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals flog der berühmte Flugpionier als erster Mensch allein über das weite Meer.",
+      "translation": {
+        "ru": "В те времена знаменитый пионер авиации первым в одиночку перелетел через бескрайнее море.",
+        "en": "At that time the famous aviation pioneer flew alone across the wide sea as the first human."
+      },
+      "bracket_parts": [
+        "flog"
+      ],
+      "akkusativ_parts": [
+        "über das weite Meer"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die vielen Zugvögel sind vor wenigen Tagen pünktlich in den warmen Süden geflogen.",
+      "translation": {
+        "ru": "Многие перелетные птицы несколько дней назад вовремя улетели на теплый юг.",
+        "en": "The many migratory birds flew to the warm south on time a few days ago."
+      },
+      "bracket_parts": [
+        "sind",
+        "geflogen"
+      ],
+      "akkusativ_parts": [
+        "in den warmen Süden"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Fliegen Sie bitte vorsichtig und halten Sie sich an alle Sicherheitsanweisungen!",
+      "translation": {
+        "ru": "Летайте, пожалуйста, осторожно и соблюдайте все правила безопасности!",
+        "en": "Please fly carefully and adhere to all safety instructions!"
+      },
+      "bracket_parts": [
+        "Fliegen"
+      ]
+    }
+  ]
+}

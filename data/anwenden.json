@@ -1,0 +1,184 @@
+{
+  "id": "anwenden",
+  "infinitive": "anwenden",
+  "translation": {
+    "ru": "применять, использовать (на практике)",
+    "en": "to apply, utilize"
+  },
+  "level": "B1",
+  "frequency_rank": 274,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "mixed",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "anwenden",
+    "present_3sg": "wendet an",
+    "praeteritum_3sg": "wandte an",
+    "partizip_2": "angewandt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wende an",
+      "du": "wendest an",
+      "er_sie_es": "wendet an",
+      "wir": "wenden an",
+      "ihr": "wendet an",
+      "sie_Sie": "wenden an"
+    },
+    "praeteritum": {
+      "ich": "wandte an",
+      "du": "wandtest an",
+      "er_sie_es": "wandte an",
+      "wir": "wandten an",
+      "ihr": "wandtet an",
+      "sie_Sie": "wandten an"
+    },
+    "imperative": {
+      "du": "wende an!",
+      "ihr": "wendet an!",
+      "Sie": "wenden Sie an!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine Methode anwenden",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich wende die neuen Grammatikregeln im Aufsatz sofort an.",
+      "translation": {
+        "ru": "Я сразу применяю новые правила грамматики в сочинении.",
+        "en": "I immediately apply the new grammar rules in the essay."
+      },
+      "bracket_parts": [
+        "wende",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die neuen Grammatikregeln"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Wendest du dieses praktische Verfahren regelmäßig an?",
+      "translation": {
+        "ru": "Ты регулярно применяешь этот практический метод?",
+        "en": "Do you apply this practical procedure regularly?"
+      },
+      "bracket_parts": [
+        "Wendest",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "dieses praktische Verfahren"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Arzt wendet eine moderne Therapieform bei der Behandlung an.",
+      "translation": {
+        "ru": "Врач применяет современную форму терапии при лечении.",
+        "en": "The doctor applies a modern form of therapy in treatment."
+      },
+      "bracket_parts": [
+        "wendet",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "eine moderne Therapieform"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir wenden das theoretische Wissen in der Praxis an.",
+      "translation": {
+        "ru": "Мы применяем теоретические знания на практике.",
+        "en": "We apply theoretical knowledge in practice."
+      },
+      "bracket_parts": [
+        "wenden",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das theoretische Wissen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Wendet ihr die Sicherheitsvorschriften im Labor strikt an?",
+      "translation": {
+        "ru": "Вы строго соблюдаете правила безопасности в лаборатории?",
+        "en": "Do you guys apply safety regulations in the laboratory strictly?"
+      },
+      "bracket_parts": [
+        "Wendet",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Sicherheitsvorschriften"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie wandten damals ein innovatives Testverfahren erfolgreich an.",
+      "translation": {
+        "ru": "Они применили тогда инновационный метод тестирования весьма успешно.",
+        "en": "They successfully applied an innovative test method back then."
+      },
+      "bracket_parts": [
+        "wandten",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "ein innovatives Testverfahren"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Ingenieur hat die neue Technologie zum ersten Mal angewandt.",
+      "translation": {
+        "ru": "Инженер впервые применил новую технологию.",
+        "en": "The engineer applied the new technology for the first time."
+      },
+      "bracket_parts": [
+        "hat",
+        "angewandt"
+      ],
+      "akkusativ_parts": [
+        "die neue Technologie"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Wende die gelernten Tipps im Alltag an!",
+      "translation": {
+        "ru": "Применяй усвоенные советы в повседневной жизни!",
+        "en": "Apply the learned tips in everyday life!"
+      },
+      "bracket_parts": [
+        "Wende",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die gelernten Tipps"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "zurueckkommen",
+  "infinitive": "zurückkommen",
+  "translation": {
+    "ru": "возвращаться",
+    "en": "to come back, return"
+  },
+  "level": "A2",
+  "frequency_rank": 271,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "zurück",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zurückkommen",
+    "present_3sg": "kommt zurück",
+    "praeteritum_3sg": "kam zurück",
+    "partizip_2": "zurückgekommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "komme zurück",
+      "du": "kommst zurück",
+      "er_sie_es": "kommt zurück",
+      "wir": "kommen zurück",
+      "ihr": "kommt zurück",
+      "sie_Sie": "kommen zurück"
+    },
+    "praeteritum": {
+      "ich": "kam zurück",
+      "du": "kamst zurück",
+      "er_sie_es": "kam zurück",
+      "wir": "kamen zurück",
+      "ihr": "kamt zurück",
+      "sie_Sie": "kamen zurück"
+    },
+    "imperative": {
+      "du": "komm zurück!",
+      "ihr": "kommt zurück!",
+      "Sie": "kommen Sie zurück!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "gesund zurückkommen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich komme heute Abend um acht Uhr nach Hause zurück.",
+      "translation": {
+        "ru": "Я возвращаюсь сегодня домой в восемь вечера.",
+        "en": "I am coming back home at eight o'clock tonight."
+      },
+      "bracket_parts": [
+        "komme",
+        "zurück"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Kommst du bald aus deinem Urlaub zurück?",
+      "translation": {
+        "ru": "Ты скоро вернешься из отпуска?",
+        "en": "Are you coming back from your vacation soon?"
+      },
+      "bracket_parts": [
+        "Kommst",
+        "zurück"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Kollege kommt nach der Mittagspause sofort ins Büro zurück.",
+      "translation": {
+        "ru": "Коллега сразу после обеда возвращается в офис.",
+        "en": "The colleague returns to the office immediately after lunch."
+      },
+      "bracket_parts": [
+        "kommt",
+        "zurück"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir kommen gerne auf diesen wichtigen Punkt zurück.",
+      "translation": {
+        "ru": "Мы с удовольствием вернемся к этому важному пункту.",
+        "en": "We will gladly return to this important point."
+      },
+      "bracket_parts": [
+        "kommen",
+        "zurück"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kommt ihr pünktlich zum Abendessen zurück?",
+      "translation": {
+        "ru": "Вы вернетесь вовремя к ужину?",
+        "en": "Are you guys coming back on time for dinner?"
+      },
+      "bracket_parts": [
+        "Kommt",
+        "zurück"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie kamen spät in der Nacht von der langen Reise zurück.",
+      "translation": {
+        "ru": "Они вернулись поздно ночью из долгой поездки.",
+        "en": "They returned late at night from the long trip."
+      },
+      "bracket_parts": [
+        "kamen",
+        "zurück"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Meine Eltern sind gestern wohlbehalten aus Italien zurückgekommen.",
+      "translation": {
+        "ru": "Мои родители вчера благополучно вернулись из Италии.",
+        "en": "My parents returned safely from Italy yesterday."
+      },
+      "bracket_parts": [
+        "sind",
+        "zurückgekommen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Komm bitte heil und gesund zurück!",
+      "translation": {
+        "ru": "Возвращайся целым и невредимым, пожалуйста!",
+        "en": "Please come back safe and sound!"
+      },
+      "bracket_parts": [
+        "Komm",
+        "zurück"
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { parseVerbRow, VerbRow } from '../services/verbDataService';
+import { parseVerbRow, parsePrefixLevelRow, VerbRow } from '../services/verbDataService';
 
 describe('verbDataService', () => {
   it('should correctly parse VerbRow into VerbCard', () => {
@@ -9,6 +9,8 @@ describe('verbDataService', () => {
       level: 'A1',
       frequency_rank: 120,
       auxiliary: 'haben',
+      prefix_type: 'separable',
+      prefix: 'an',
       morphology: JSON.stringify({
         verb_class: 'strong',
         prefix_type: 'separable',
@@ -70,5 +72,28 @@ describe('verbDataService', () => {
     expect(verb.rektion.direct_case).toBe('Akkusativ');
     expect(verb.translation.ru).toBe('звонить');
     expect(verb.sentences[0].bracket_parts).toEqual(['rufe', 'an']);
+  });
+
+  it('should correctly parse PrefixLevelRow into PrefixLevelData', () => {
+    const mockLevelRow = {
+      id: 'prefix_a1_separable_1',
+      cefr_level: 'A1',
+      subgroup_type: 'separable',
+      level_number: 1,
+      title: 'Level 1',
+      verbs_json: JSON.stringify(['aufstehen', 'anrufen']),
+      exercise_sentence_ids_json: JSON.stringify([
+        { verbId: 'aufstehen', sentenceId: 's1' },
+        { verbId: 'anrufen', sentenceId: 's1' },
+      ]),
+    };
+
+    const parsed = parsePrefixLevelRow(mockLevelRow);
+    expect(parsed.id).toBe('prefix_a1_separable_1');
+    expect(parsed.cefrLevel).toBe('A1');
+    expect(parsed.subgroupType).toBe('separable');
+    expect(parsed.levelNumber).toBe(1);
+    expect(parsed.verbs).toEqual(['aufstehen', 'anrufen']);
+    expect(parsed.exerciseSentenceIds).toHaveLength(2);
   });
 });

@@ -7,11 +7,13 @@ import mobileAds from 'react-native-google-mobile-ads';
 import { ThemeProvider, useAppTheme } from './src/context/ThemeContext';
 import { LocaleProvider } from './src/context/LocaleContext';
 import { RootNavigator } from './src/navigation/RootNavigator';
+import { AppUpdateModal } from './src/components/AppUpdateModal/AppUpdateModal';
 import { ENABLE_ADS } from './src/ads/adConfig';
 import { preloadRewardedAdOnAppStart } from './src/ads/useRewardedAd';
 import { fetchRemoteConfig } from './src/services/appConfigService';
 import { initializeAnalytics } from './src/services/analyticsService';
 import { initRevenueCat } from './src/services/revenueCatService';
+import { initializeNotifications } from './src/services/notificationService';
 import { useScreenTracking } from './src/hooks/useScreenTracking';
 
 enableFreeze(false);
@@ -47,6 +49,7 @@ function AppContent(): React.JSX.Element {
       theme={navigationTheme}
     >
       <RootNavigator />
+      <AppUpdateModal />
     </NavigationContainer>
   );
 }
@@ -56,6 +59,7 @@ export function App(): React.JSX.Element {
     initializeAnalytics().catch(() => {});
     fetchRemoteConfig().catch(() => {});
     initRevenueCat().catch(() => {});
+    initializeNotifications().catch(() => {});
 
     if (ENABLE_ADS) {
       try {

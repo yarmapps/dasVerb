@@ -1,0 +1,154 @@
+{
+  "id": "eintragen_sich",
+  "infinitive": "eintragen",
+  "translation": {
+    "ru": "записываться, регистрироваться",
+    "en": "to sign up, register oneself"
+  },
+  "level": "A2",
+  "frequency_rank": 498,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "eintragen",
+    "present_3sg": "trägt sich ein",
+    "praeteritum_3sg": "trug sich ein",
+    "partizip_2": "eingetragen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "trage mich ein",
+      "du": "trägst dich ein",
+      "er_sie_es": "trägt sich ein",
+      "wir": "tragen uns ein",
+      "ihr": "tragt euch ein",
+      "sie_Sie": "tragen sich ein"
+    },
+    "praeteritum": {
+      "ich": "trug mich ein",
+      "du": "trugst dich ein",
+      "er_sie_es": "trug sich ein",
+      "wir": "trugen uns ein",
+      "ihr": "trugt euch ein",
+      "sie_Sie": "trugen sich ein"
+    },
+    "perfekt": {
+      "ich": "habe mich eingetragen",
+      "du": "hast dich eingetragen",
+      "er_sie_es": "hat sich eingetragen",
+      "wir": "haben uns eingetragen",
+      "ihr": "habt euch eingetragen",
+      "sie_Sie": "haben sich eingetragen"
+    }
+  },
+  "rektion": {
+    "case": "none",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich trage mich gleich in die Liste für den Sprachkurs ein.",
+      "translation": {
+        "ru": "Я сейчас же записываюсь в список на языковой курс.",
+        "en": "I am signing up in the list for the language course right away."
+      },
+      "bracket_parts": [
+        "trage",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du trägst dich freiwillig für den Wochenenddienst ein.",
+      "translation": {
+        "ru": "Ты добровольно записываешься на дежурство в выходные.",
+        "en": "You volunteer to sign up for the weekend shift."
+      },
+      "bracket_parts": [
+        "trägst",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der neue Schüler trägt sich in den Sportverein ein.",
+      "translation": {
+        "ru": "Новый ученик записывается в спортивный клуб.",
+        "en": "The new student registers with the sports club."
+      },
+      "bracket_parts": [
+        "trägt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir tragen uns für den beliebten Ausflug am Samstag ein.",
+      "translation": {
+        "ru": "Мы записываемся на популярную экскурсию в субботу.",
+        "en": "We sign up for the popular outing on Saturday."
+      },
+      "bracket_parts": [
+        "tragen",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr tragt euch pünktlich im digitalen Gästebuch ein.",
+      "translation": {
+        "ru": "Вы вовремя отмечаетесь в цифровой гостевой книге.",
+        "en": "You sign into the digital guestbook on time."
+      },
+      "bracket_parts": [
+        "tragt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie trugen sich damals alle in die Spenderliste ein.",
+      "translation": {
+        "ru": "Они тогда все записались в список доноров.",
+        "en": "They all signed up on the donor list back then."
+      },
+      "bracket_parts": [
+        "trugen",
+        "ein"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Mein Kollege hat sich schon für das Seminar eingetragen.",
+      "translation": {
+        "ru": "Мой коллега уже записался на этот семинар.",
+        "en": "My colleague has already registered for the seminar."
+      },
+      "bracket_parts": [
+        "hat",
+        "eingetragen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Trage dich bitte vor Ablauf der Frist online ein!",
+      "translation": {
+        "ru": "Запишись онлайн до истечения срока, пожалуйста!",
+        "en": "Please register online before the deadline expires!"
+      },
+      "bracket_parts": [
+        "Trage",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

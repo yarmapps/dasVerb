@@ -1,0 +1,185 @@
+{
+  "id": "erzeugen",
+  "infinitive": "erzeugen",
+  "translation": {
+    "ru": "производить, вырабатывать, порождать",
+    "en": "to generate, produce, create"
+  },
+  "level": "B1",
+  "frequency_rank": 414,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erzeugen",
+    "present_3sg": "erzeugt",
+    "praeteritum_3sg": "erzeugte",
+    "partizip_2": "erzeugt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erzeuge",
+      "du": "erzeugst",
+      "er_sie_es": "erzeugt",
+      "wir": "erzeugen",
+      "ihr": "erzeugt",
+      "sie_Sie": "erzeugen"
+    },
+    "praeteritum": {
+      "ich": "erzeugte",
+      "du": "erzeugtest",
+      "er_sie_es": "erzeugte",
+      "wir": "erzeugten",
+      "ihr": "erzeugtet",
+      "sie_Sie": "erzeugten"
+    },
+    "imperative": {
+      "du": "erzeuge!",
+      "ihr": "erzeugt!",
+      "Sie": "erzeugen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "umweltfreundlichen Strom erzeugen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erzeuge mit der Solaranlage auf dem Dach meinen eigenen Strom.",
+      "translation": {
+        "ru": "С помощью солнечной батареи на крыше я вырабатываю собственное электричество.",
+        "en": "I generate my own electricity with the solar panel on the roof."
+      },
+      "bracket_parts": [
+        "erzeuge"
+      ],
+      "akkusativ_parts": [
+        "meinen eigenen Strom"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erzeugst du auf deinem Hof Bio-Lebensmittel für die Region?",
+      "translation": {
+        "ru": "Ты производишь на своей ферме биопродукты для региона?",
+        "en": "Do you produce organic food for the region on your farm?"
+      },
+      "bracket_parts": [
+        "Erzeugst"
+      ],
+      "akkusativ_parts": [
+        "Bio-Lebensmittel"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das moderne Windrad erzeugt saubere Energie für tausende Haushalte.",
+      "translation": {
+        "ru": "Современный ветрогенератор вырабатывает чистую энергию для тысяч семей.",
+        "en": "The modern wind turbine generates clean energy for thousands of households."
+      },
+      "bracket_parts": [
+        "erzeugt"
+      ],
+      "akkusativ_parts": [
+        "saubere Energie"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erzeugen eine angenehme Atmosphäre durch warmes Licht.",
+      "translation": {
+        "ru": "Мы создаем приятную атмосферу теплым освещением.",
+        "en": "We create a pleasant atmosphere with warm lighting."
+      },
+      "bracket_parts": [
+        "erzeugen"
+      ],
+      "akkusativ_parts": [
+        "eine angenehme Atmosphäre"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erzeugt ihr in eurem Kraftwerk auch Fernwärme für die Stadt?",
+      "translation": {
+        "ru": "Вы на своей электростанции также вырабатываете центральное отопление для города?",
+        "en": "Do you also generate district heating for the city in your power plant?"
+      },
+      "bracket_parts": [
+        "Erzeugt"
+      ],
+      "akkusativ_parts": [
+        "Fernwärme"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Rede des Politikers erzeugte damals große Empörung im Volk.",
+      "translation": {
+        "ru": "Речь политика вызвала тогда сильное возмущение в народе.",
+        "en": "The politician's speech generated great outrage among the people back then."
+      },
+      "bracket_parts": [
+        "erzeugte"
+      ],
+      "akkusativ_parts": [
+        "große Empörung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der laute Knall hat überall in den Straßen Panik erzeugt.",
+      "translation": {
+        "ru": "Громкий хлопок породил панику повсюду на улицах.",
+        "en": "The loud bang caused panic everywhere in the streets."
+      },
+      "bracket_parts": [
+        "hat",
+        "erzeugt"
+      ],
+      "akkusativ_parts": [
+        "Panik"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erzeuge bitte keine unnötigen Spannungen im Team!",
+      "translation": {
+        "ru": "Не создавай ненужного напряжения в команде, пожалуйста!",
+        "en": "Please do not create unnecessary tension in the team!"
+      },
+      "bracket_parts": [
+        "Erzeuge"
+      ],
+      "akkusativ_parts": [
+        "keine unnötigen Spannungen"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

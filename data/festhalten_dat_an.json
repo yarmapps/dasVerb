@@ -1,0 +1,184 @@
+{
+  "id": "festhalten_dat_an",
+  "infinitive": "festhalten",
+  "translation": {
+    "ru": "придерживаться (традиций, плана)",
+    "en": "to cling to, adhere to, stick to"
+  },
+  "level": "B1",
+  "frequency_rank": 252,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "fest",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "festhalten",
+    "present_3sg": "hält fest",
+    "praeteritum_3sg": "hielt fest",
+    "partizip_2": "festgehalten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "halte fest",
+      "du": "hältst fest",
+      "er_sie_es": "hält fest",
+      "wir": "halten fest",
+      "ihr": "haltet fest",
+      "sie_Sie": "halten fest"
+    },
+    "praeteritum": {
+      "ich": "hielt fest",
+      "du": "hieltst fest",
+      "er_sie_es": "hielt fest",
+      "wir": "hielten fest",
+      "ihr": "hieltet fest",
+      "sie_Sie": "hielten fest"
+    },
+    "imperative": {
+      "du": "halte fest!",
+      "ihr": "haltet fest!",
+      "Sie": "halten Sie fest!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "an",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "an den Plänen festhalten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich halte fest an meiner ursprünglichen Überzeugung fest.",
+      "translation": {
+        "ru": "Я твердо держусь своего первоначального убеждения.",
+        "en": "I firmly stick to my original conviction."
+      },
+      "bracket_parts": [
+        "halte",
+        "fest"
+      ],
+      "dativ_parts": [
+        "meiner ursprünglichen Überzeugung"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Hältst du immer noch an diesem veralteten Plan fest?",
+      "translation": {
+        "ru": "Ты все еще цепляешься за этот устаревший план?",
+        "en": "Are you still sticking to this outdated plan?"
+      },
+      "bracket_parts": [
+        "Hältst",
+        "fest"
+      ],
+      "dativ_parts": [
+        "diesem veralteten Plan"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Regierung hält trotz Kritik an der Reform fest.",
+      "translation": {
+        "ru": "Правительство, несмотря на критику, придерживается реформы.",
+        "en": "The government sticks to the reform despite criticism."
+      },
+      "bracket_parts": [
+        "hält",
+        "fest"
+      ],
+      "dativ_parts": [
+        "der Reform"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir halten an den bewährten Werten unseres Hauses fest.",
+      "translation": {
+        "ru": "Мы остаемся верны проверенным ценностям нашего дома.",
+        "en": "We hold on to the proven values of our house."
+      },
+      "bracket_parts": [
+        "halten",
+        "fest"
+      ],
+      "dativ_parts": [
+        "den bewährten Werten"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Haltet ihr an der traditionellen Feier an Heiligabend fest?",
+      "translation": {
+        "ru": "Вы придерживаетесь традиционного празднования в сочельник?",
+        "en": "Do you guys stick to the traditional celebration on Christmas Eve?"
+      },
+      "bracket_parts": [
+        "Haltet",
+        "fest"
+      ],
+      "dativ_parts": [
+        "der traditionellen Feier"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie hielten trotz der Verluste stur an der Strategie fest.",
+      "translation": {
+        "ru": "Они, несмотря на убытки, упрямо держались этой стратегии.",
+        "en": "They stubbornly stuck to the strategy despite the losses."
+      },
+      "bracket_parts": [
+        "hielten",
+        "fest"
+      ],
+      "dativ_parts": [
+        "der Strategie"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Vorstand hat an den bisherigen Zielen festgehalten.",
+      "translation": {
+        "ru": "Правление сохранило прежние цели.",
+        "en": "The board adhered to the previous goals."
+      },
+      "bracket_parts": [
+        "hat",
+        "festgehalten"
+      ],
+      "dativ_parts": [
+        "den bisherigen Zielen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Halte an deinen guten Vorsätzen für das neue Jahr fest!",
+      "translation": {
+        "ru": "Держись своих добрых намерений на новый год!",
+        "en": "Stick to your good resolutions for the new year!"
+      },
+      "bracket_parts": [
+        "Halte",
+        "fest"
+      ],
+      "dativ_parts": [
+        "deinen guten Vorsätzen"
+      ]
+    }
+  ]
+}

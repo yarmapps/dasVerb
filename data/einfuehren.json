@@ -1,0 +1,192 @@
+{
+  "id": "einfuehren",
+  "infinitive": "einführen",
+  "translation": {
+    "ru": "вводить, внедрять, импортировать",
+    "en": "to introduce, implement, import"
+  },
+  "level": "B1",
+  "frequency_rank": 364,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einführen",
+    "present_3sg": "führt ein",
+    "praeteritum_3sg": "führte ein",
+    "partizip_2": "eingeführt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "führe ein",
+      "du": "führst ein",
+      "er_sie_es": "führt ein",
+      "wir": "führen ein",
+      "ihr": "führt ein",
+      "sie_Sie": "führen ein"
+    },
+    "praeteritum": {
+      "ich": "führte ein",
+      "du": "führtest ein",
+      "er_sie_es": "führte ein",
+      "wir": "führten ein",
+      "ihr": "führtet ein",
+      "sie_Sie": "führten ein"
+    },
+    "imperative": {
+      "du": "führe ein!",
+      "ihr": "führt ein!",
+      "Sie": "führen Sie ein!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein neues System einführen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich führe den neuen Kollegen in seine täglichen Aufgaben ein.",
+      "translation": {
+        "ru": "Я ввожу нового коллегу в курс его ежедневных обязанностей.",
+        "en": "I introduce the new colleague to his daily duties."
+      },
+      "bracket_parts": [
+        "führe",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "den neuen Kollegen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Führst du in deinem Betrieb bald die Vier-Tage-Woche ein?",
+      "translation": {
+        "ru": "Ты скоро введешь на своем предприятии четырехдневную неделю?",
+        "en": "Are you introducing the four-day workweek in your company soon?"
+      },
+      "bracket_parts": [
+        "Führst",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "die Vier-Tage-Woche"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Staat führt eine neue Steuer auf Plastikverpackungen ein.",
+      "translation": {
+        "ru": "Государство вводит новый налог на пластиковую упаковку.",
+        "en": "The state is introducing a new tax on plastic packaging."
+      },
+      "bracket_parts": [
+        "führt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "eine neue Steuer"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir führen modernste Technologie in der Produktion ein.",
+      "translation": {
+        "ru": "Мы внедряем передовые технологии в производство.",
+        "en": "We introduce cutting-edge technology into production."
+      },
+      "bracket_parts": [
+        "führen",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "modernste Technologie"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Führt ihr ausländische Waren ohne Zollgebühren ein?",
+      "translation": {
+        "ru": "Вы ввозите иностранные товары без таможенных пошлин?",
+        "en": "Do you import foreign goods without customs duties?"
+      },
+      "bracket_parts": [
+        "Führt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "ausländische Waren"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Das Land führte damals eine gemeinsame europäische Währung ein.",
+      "translation": {
+        "ru": "Страна ввела тогда единую европейскую валюту.",
+        "en": "The country introduced a common European currency back then."
+      },
+      "bracket_parts": [
+        "führte",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "eine gemeinsame europäische Währung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das Spital hat strenge Hygieneregeln für alle Besucher eingeführt.",
+      "translation": {
+        "ru": "Больница ввела строгие правила гигиены для всех посетителей.",
+        "en": "The hospital has introduced strict hygiene rules for all visitors."
+      },
+      "bracket_parts": [
+        "hat",
+        "eingeführt"
+      ],
+      "akkusativ_parts": [
+        "strenge Hygieneregeln"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Führe bitte den Praktikanten gründlich in das Computerprogramm ein!",
+      "translation": {
+        "ru": "Введи практиканта обстоятельно в компьютерную программу, пожалуйста!",
+        "en": "Please introduce the intern thoroughly to the computer program!"
+      },
+      "bracket_parts": [
+        "Führe",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "den Praktikanten"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

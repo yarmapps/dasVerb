@@ -1,0 +1,178 @@
+{
+  "id": "lassen",
+  "infinitive": "lassen",
+  "translation": {
+    "ru": "оставлять, позволять",
+    "en": "to let, to leave, to allow"
+  },
+  "level": "A2",
+  "frequency_rank": 15,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "lassen",
+    "present_3sg": "lässt",
+    "praeteritum_3sg": "ließ",
+    "partizip_2": "gelassen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lasse",
+      "du": "lässt",
+      "er_sie_es": "lässt",
+      "wir": "lassen",
+      "ihr": "lasst",
+      "sie_Sie": "lassen",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "ließ",
+      "du": "ließest",
+      "er_sie_es": "ließ",
+      "wir": "ließen",
+      "ihr": "ließt",
+      "sie_Sie": "ließen"
+    },
+    "imperative": {
+      "du": "lass",
+      "ihr": "lasst",
+      "Sie": "lassen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "etwas (Akk) lassen",
+  "sentences": [
+    {
+      "id": "lassen_1",
+      "tense": "Präsens",
+      "german": "Ich lasse meinen Schlüssel immer zu Hause.",
+      "translation": {
+        "ru": "Я всегда оставляю свой ключ дома.",
+        "en": "I always leave my key at home."
+      },
+      "bracket_parts": [
+        "lasse"
+      ],
+      "akkusativ_parts": [
+        "meinen Schlüssel"
+      ]
+    },
+    {
+      "id": "lassen_2",
+      "tense": "Präsens",
+      "german": "Lässt du deine Tasche im Büro?",
+      "translation": {
+        "ru": "Ты оставляешь свою сумку в офисе?",
+        "en": "Are you leaving your bag in the office?"
+      },
+      "bracket_parts": [
+        "Lässt"
+      ],
+      "akkusativ_parts": [
+        "deine Tasche"
+      ]
+    },
+    {
+      "id": "lassen_3",
+      "tense": "Präsens",
+      "german": "Er lässt das Fenster offen.",
+      "translation": {
+        "ru": "Он оставляет окно открытым.",
+        "en": "He leaves the window open."
+      },
+      "bracket_parts": [
+        "lässt"
+      ],
+      "akkusativ_parts": [
+        "das Fenster"
+      ]
+    },
+    {
+      "id": "lassen_4",
+      "tense": "Präsens",
+      "german": "Wir lassen das Auto in der Garage.",
+      "translation": {
+        "ru": "Мы оставляем машину в гараже.",
+        "en": "We leave the car in the garage."
+      },
+      "bracket_parts": [
+        "lassen"
+      ],
+      "akkusativ_parts": [
+        "das Auto"
+      ]
+    },
+    {
+      "id": "lassen_5",
+      "tense": "Präsens",
+      "german": "Lasst ihr den Hund im Garten?",
+      "translation": {
+        "ru": "Вы оставляете собаку в саду?",
+        "en": "Are you leaving the dog in the garden?"
+      },
+      "bracket_parts": [
+        "Lasst"
+      ],
+      "akkusativ_parts": [
+        "den Hund"
+      ]
+    },
+    {
+      "id": "lassen_6",
+      "tense": "Präteritum",
+      "german": "Sie ließen alle Dokumente auf dem Tisch.",
+      "translation": {
+        "ru": "Они оставили все документы на столе.",
+        "en": "They left all documents on the table."
+      },
+      "bracket_parts": [
+        "ließen"
+      ],
+      "akkusativ_parts": [
+        "alle Dokumente"
+      ]
+    },
+    {
+      "id": "lassen_7",
+      "tense": "Perfekt",
+      "german": "Ich habe meinen Regenschirm im Bus gelassen.",
+      "translation": {
+        "ru": "Я оставил свой зонт в автобусе.",
+        "en": "I left my umbrella on the bus."
+      },
+      "bracket_parts": [
+        "habe",
+        "gelassen"
+      ],
+      "akkusativ_parts": [
+        "meinen Regenschirm"
+      ]
+    },
+    {
+      "id": "lassen_8",
+      "tense": "Imperativ",
+      "german": "Lass den Koffer bitte hier!",
+      "translation": {
+        "ru": "Оставь чемодан здесь, пожалуйста!",
+        "en": "Please leave the suitcase here!"
+      },
+      "bracket_parts": [
+        "Lass"
+      ],
+      "akkusativ_parts": [
+        "den Koffer"
+      ]
+    }
+  ]
+}

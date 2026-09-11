@@ -1,0 +1,177 @@
+{
+  "id": "erleben",
+  "infinitive": "erleben",
+  "translation": {
+    "ru": "переживать (событие), испытывать, видеть своими глазами",
+    "en": "to experience, witness"
+  },
+  "level": "A2",
+  "frequency_rank": 152,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erleben",
+    "present_3sg": "erlebt",
+    "praeteritum_3sg": "erlebte",
+    "partizip_2": "erlebt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erlebe",
+      "du": "erlebst",
+      "er_sie_es": "erlebt",
+      "wir": "erleben",
+      "ihr": "erlebt",
+      "sie_Sie": "erleben"
+    },
+    "praeteritum": {
+      "ich": "erlebte",
+      "du": "erlebtest",
+      "er_sie_es": "erlebte",
+      "wir": "erlebten",
+      "ihr": "erlebtet",
+      "sie_Sie": "erlebten"
+    },
+    "imperative": {
+      "du": "erlebe!",
+      "ihr": "erlebt!",
+      "Sie": "erleben Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein Abenteuer erleben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erlebe auf meinen Reisen immer spannende Dinge.",
+      "translation": {
+        "ru": "В своих путешествиях я всегда переживаю увлекательные вещи.",
+        "en": "I always experience exciting things on my travels."
+      },
+      "bracket_parts": [
+        "erlebe"
+      ],
+      "akkusativ_parts": [
+        "spannende Dinge"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erlebst du in der Großstadt viel Neues?",
+      "translation": {
+        "ru": "Ты открываешь для себя много нового в большом городе?",
+        "en": "Do you experience many new things in the big city?"
+      },
+      "bracket_parts": [
+        "Erlebst"
+      ],
+      "akkusativ_parts": [
+        "viel Neues"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der junge Musiker erlebt seinen größten Erfolg.",
+      "translation": {
+        "ru": "Молодой музыкант переживает свой самый большой успех.",
+        "en": "The young musician experiences his greatest success."
+      },
+      "bracket_parts": [
+        "erlebt"
+      ],
+      "akkusativ_parts": [
+        "seinen größten Erfolg"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erleben einen wunderschönen Urlaub am See.",
+      "translation": {
+        "ru": "Мы проводим чудесный отпуск на озере.",
+        "en": "We are experiencing a wonderful vacation at the lake."
+      },
+      "bracket_parts": [
+        "erleben"
+      ],
+      "akkusativ_parts": [
+        "einen wunderschönen Urlaub"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erlebt ihr den Karneval zum ersten Mal?",
+      "translation": {
+        "ru": "Вы впервые видите карнавал своими глазами?",
+        "en": "Are you guys experiencing carnival for the first time?"
+      },
+      "bracket_parts": [
+        "Erlebt"
+      ],
+      "akkusativ_parts": [
+        "den Karneval"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie erlebten damals eine sehr schwere Zeit.",
+      "translation": {
+        "ru": "Они пережили в то время очень тяжелый период.",
+        "en": "They experienced a very difficult time back then."
+      },
+      "bracket_parts": [
+        "erlebten"
+      ],
+      "akkusativ_parts": [
+        "eine sehr schwere Zeit"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Meine Großeltern haben viele historische Ereignisse erlebt.",
+      "translation": {
+        "ru": "Мои бабушка и дедушка стали свидетелями многих исторических событий.",
+        "en": "My grandparents experienced many historical events."
+      },
+      "bracket_parts": [
+        "haben",
+        "erlebt"
+      ],
+      "akkusativ_parts": [
+        "viele historische Ereignisse"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erlebe die Schönheit der Natur mit offenen Augen!",
+      "translation": {
+        "ru": "Ощути красоту природы открытыми глазами!",
+        "en": "Experience the beauty of nature with open eyes!"
+      },
+      "bracket_parts": [
+        "Erlebe"
+      ],
+      "akkusativ_parts": [
+        "die Schönheit der Natur"
+      ]
+    }
+  ]
+}

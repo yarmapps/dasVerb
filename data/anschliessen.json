@@ -1,0 +1,192 @@
+{
+  "id": "anschliessen",
+  "infinitive": "anschließen",
+  "translation": {
+    "ru": "подключать, присоединять, пристегивать",
+    "en": "to connect, hook up, lock (bike)"
+  },
+  "level": "B1",
+  "frequency_rank": 393,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "anschließen",
+    "present_3sg": "schließt an",
+    "praeteritum_3sg": "schloss an",
+    "partizip_2": "angeschlossen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schließe an",
+      "du": "schließt an",
+      "er_sie_es": "schließt an",
+      "wir": "schließen an",
+      "ihr": "schließt an",
+      "sie_Sie": "schließen an"
+    },
+    "praeteritum": {
+      "ich": "schloss an",
+      "du": "schlossest an",
+      "er_sie_es": "schloss an",
+      "wir": "schlossen an",
+      "ihr": "schlosst an",
+      "sie_Sie": "schlossen an"
+    },
+    "imperative": {
+      "du": "schließe an!",
+      "ihr": "schließt an!",
+      "Sie": "schließen Sie an!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das Gerät an den Strom anschließen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich schließe den neuen Monitor mit einem Kabel an den Computer an.",
+      "translation": {
+        "ru": "Я подключаю новый монитор кабелем к компьютеру.",
+        "en": "I connect the new monitor to the computer with a cable."
+      },
+      "bracket_parts": [
+        "schließe",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den neuen Monitor"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Schließt du dein Fahrrad am Bahnhof immer mit einem Schloss an?",
+      "translation": {
+        "ru": "Ты всегда пристегиваешь велосипед на вокзале замком?",
+        "en": "Do you always lock your bike at the station with a lock?"
+      },
+      "bracket_parts": [
+        "Schließt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "dein Fahrrad"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Handwerker schließt die Waschmaschine fachgerecht an.",
+      "translation": {
+        "ru": "Мастер профессионально подключает стиральную машину.",
+        "en": "The technician connects the washing machine properly."
+      },
+      "bracket_parts": [
+        "schließt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Waschmaschine"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir schließen alle Lampen im Wohnzimmer an das Smart-Home-System an.",
+      "translation": {
+        "ru": "Мы подключаем все лампы в гостиной к системе умного дома.",
+        "en": "We connect all lamps in the living room to the smart home system."
+      },
+      "bracket_parts": [
+        "schließen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "alle Lampen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Schließt ihr die Lautsprecher für die Party an?",
+      "translation": {
+        "ru": "Вы подключаете колонки для вечеринки?",
+        "en": "Are you guys connecting the speakers for the party?"
+      },
+      "bracket_parts": [
+        "Schließt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Lautsprecher"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Techniker schlossen damals das gesamte Viertel an das Glasfasernetz an.",
+      "translation": {
+        "ru": "Техники тогда подключили весь квартал к оптоволоконной сети.",
+        "en": "The technicians connected the whole district to the fiber optic network back then."
+      },
+      "bracket_parts": [
+        "schlossen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das gesamte Viertel"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben den Fernseher erfolgreich an das Internet angeschlossen.",
+      "translation": {
+        "ru": "Они успешно подключили телевизор к интернету.",
+        "en": "They have successfully connected the television to the internet."
+      },
+      "bracket_parts": [
+        "haben",
+        "angeschlossen"
+      ],
+      "akkusativ_parts": [
+        "den Fernseher"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Schließe bitte sofort das Ladekabel an dein Handy an!",
+      "translation": {
+        "ru": "Подключи зарядный кабель к телефону прямо сейчас, пожалуйста!",
+        "en": "Please connect the charging cable to your phone immediately!"
+      },
+      "bracket_parts": [
+        "Schließe",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das Ladekabel"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

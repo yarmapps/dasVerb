@@ -1,0 +1,171 @@
+{
+  "id": "uebersetzen",
+  "infinitive": "übersetzen",
+  "translation": {
+    "ru": "переводить (текст, язык)",
+    "en": "to translate"
+  },
+  "level": "A2",
+  "frequency_rank": 490,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "über",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "übersetzen",
+    "present_3sg": "übersetzt",
+    "praeteritum_3sg": "übersetzte",
+    "partizip_2": "übersetzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "übersetze",
+      "du": "übersetzt",
+      "er_sie_es": "übersetzt",
+      "wir": "übersetzen",
+      "ihr": "übersetzt",
+      "sie_Sie": "übersetzen"
+    },
+    "praeteritum": {
+      "ich": "übersetzte",
+      "du": "übersetztest",
+      "er_sie_es": "übersetzte",
+      "wir": "übersetzten",
+      "ihr": "übersetztet",
+      "sie_Sie": "übersetzten"
+    },
+    "perfekt": {
+      "ich": "habe übersetzt",
+      "du": "hast übersetzt",
+      "er_sie_es": "hat übersetzt",
+      "wir": "haben übersetzt",
+      "ihr": "habt übersetzt",
+      "sie_Sie": "haben übersetzt"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich übersetze diesen Fachtext aus dem Englischen ins Deutsche.",
+      "translation": {
+        "ru": "Я перевожу этот специальный текст с английского на немецкий.",
+        "en": "I translate this technical text from English into German."
+      },
+      "bracket_parts": [
+        "übersetze"
+      ],
+      "akkusativ_parts": [
+        "diesen Fachtext"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du übersetzt die kurzen Dialoge für deine Mitschüler.",
+      "translation": {
+        "ru": "Ты переводишь короткие диалоги для своих одноклассников.",
+        "en": "You translate the short dialogues for your classmates."
+      },
+      "bracket_parts": [
+        "übersetzt"
+      ],
+      "akkusativ_parts": [
+        "die kurzen Dialoge"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Programm übersetzt den Text in Sekundenschnelle.",
+      "translation": {
+        "ru": "Программа переводит текст за считанные секунды.",
+        "en": "The program translates the text in a matter of seconds."
+      },
+      "bracket_parts": [
+        "übersetzt"
+      ],
+      "akkusativ_parts": [
+        "den Text"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir übersetzen das neue Buch gemeinsam mit Kollegen.",
+      "translation": {
+        "ru": "Мы переводим новую книгу вместе с коллегами.",
+        "en": "We translate the new book together with colleagues."
+      },
+      "bracket_parts": [
+        "übersetzen"
+      ],
+      "akkusativ_parts": [
+        "das neue Buch"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr übersetzt die Speisekarte für ausländische Touristen.",
+      "translation": {
+        "ru": "Вы переводите меню для иностранных туристов.",
+        "en": "You translate the menu for foreign tourists."
+      },
+      "bracket_parts": [
+        "übersetzt"
+      ],
+      "akkusativ_parts": [
+        "die Speisekarte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie übersetzten damals klassische Werke der Weltliteratur.",
+      "translation": {
+        "ru": "Они тогда переводили классические произведения мировой литературы.",
+        "en": "They translated classic works of world literature back then."
+      },
+      "bracket_parts": [
+        "übersetzten"
+      ],
+      "akkusativ_parts": [
+        "klassische Werke der Weltliteratur"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Dolmetscher hat die lange Rede fehlerfrei übersetzt.",
+      "translation": {
+        "ru": "Переводчик безошибочно перевел длинную речь.",
+        "en": "The interpreter translated the long speech flawlessly."
+      },
+      "bracket_parts": [
+        "hat",
+        "übersetzt"
+      ],
+      "akkusativ_parts": [
+        "die lange Rede"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Übersetze diesen wichtigen Absatz bitte ganz genau!",
+      "translation": {
+        "ru": "Переведи этот важный абзац, пожалуйста, очень точно!",
+        "en": "Please translate this important paragraph very accurately!"
+      },
+      "bracket_parts": [
+        "Übersetze"
+      ],
+      "akkusativ_parts": [
+        "diesen wichtigen Absatz"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

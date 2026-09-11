@@ -1,0 +1,191 @@
+{
+  "id": "wandern",
+  "infinitive": "wandern",
+  "translation": {
+    "ru": "ходить в поход, совершать пешие прогулки",
+    "en": "to hike, to walk"
+  },
+  "level": "A1",
+  "frequency_rank": 140,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "wandern",
+    "present_3sg": "wandert",
+    "praeteritum_3sg": "wanderte",
+    "partizip_2": "gewandert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wandere",
+      "du": "wanderst",
+      "er_sie_es": "wandert",
+      "wir": "wandern",
+      "ihr": "wandert",
+      "sie_Sie": "wandern",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "wanderte",
+      "du": "wandertest",
+      "er_sie_es": "wanderte",
+      "wir": "wanderten",
+      "ihr": "wandertet",
+      "sie_Sie": "wanderten"
+    },
+    "imperative": {
+      "du": "wandere!",
+      "ihr": "wandert!",
+      "Sie": "wandern Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "in",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "am Wochenende in den Bergen (Dat) wandern",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich wandere im goldenen Herbst für mein Leben gern auf gut markierten Bergpfaden.",
+      "translation": {
+        "ru": "Золотой осенью я больше всего на свете люблю ходить в походы по хорошо размеченным горным тропам.",
+        "en": "In the golden autumn I love hiking on well-marked mountain paths more than anything."
+      },
+      "bracket_parts": [
+        "wandere"
+      ],
+      "dativ_parts": [
+        "im goldenen Herbst",
+        "für mein Leben",
+        "auf gut markierten Bergpfaden"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Wanderst du mit deinen festen Wanderschuhen eigentlich auch bei regnerischem Wetter?",
+      "translation": {
+        "ru": "Ходишь ли ты в своих крепких походных ботинках на самом деле даже в дождливую погоду?",
+        "en": "Do you actually hike in your sturdy hiking boots even in rainy weather?"
+      },
+      "bracket_parts": [
+        "Wanderst"
+      ],
+      "dativ_parts": [
+        "mit deinen festen Wanderschuhen",
+        "bei regnerischem Wetter"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die gesellige Wandergruppe wandert stundenlang durch den dichten und ruhigen Schwarzwald.",
+      "translation": {
+        "ru": "Дружная группа туристов часами идет по густому и тихому Шварцвальду.",
+        "en": "The sociable hiking group walks for hours through the dense and quiet Black Forest."
+      },
+      "bracket_parts": [
+        "wandert"
+      ],
+      "akkusativ_parts": [
+        "durch den dichten und ruhigen Schwarzwald"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir wandern zur Erholung vom stressigen Arbeitsalltag am liebsten sonntags im Naturpark.",
+      "translation": {
+        "ru": "Для отдыха от напряженных рабочих будней мы охотнее всего ходим по воскресеньям в природный парк.",
+        "en": "To recover from stressful everyday work we prefer to hike in the nature park on Sundays."
+      },
+      "bracket_parts": [
+        "wandern"
+      ],
+      "dativ_parts": [
+        "zur Erholung",
+        "vom stressigen Arbeitsalltag",
+        "im Naturpark"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Wandert ihr in eurem Jahresurlaub wieder von einer urigen Berghütte zur nächsten?",
+      "translation": {
+        "ru": "Ходите ли вы в своем годовом отпуске снова от одной колоритной горной хижины к другой?",
+        "en": "Are you hiking again from one rustic mountain hut to the next in your annual holiday?"
+      },
+      "bracket_parts": [
+        "Wandert"
+      ],
+      "dativ_parts": [
+        "in eurem Jahresurlaub",
+        "von einer urigen Berghütte",
+        "zur nächsten"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern wanderte die kleine Schulklasse mit dem Biologielehrer durch das Naturschutzgebiet.",
+      "translation": {
+        "ru": "Вчера небольшой школьный класс с учителем биологии совершил пеший поход по заповеднику.",
+        "en": "Yesterday the small school class hiked through the nature reserve with the biology teacher."
+      },
+      "bracket_parts": [
+        "wanderte"
+      ],
+      "dativ_parts": [
+        "mit dem Biologielehrer"
+      ],
+      "akkusativ_parts": [
+        "durch das Naturschutzgebiet"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die beiden Bergsteiger sind heute früh auf den höchsten Gipfel der Region gewandert.",
+      "translation": {
+        "ru": "Оба альпиниста сегодня рано утром поднялись пешком на самую высокую вершину региона.",
+        "en": "The two mountaineers hiked up to the highest peak in the region early this morning."
+      },
+      "bracket_parts": [
+        "sind",
+        "gewandert"
+      ],
+      "akkusativ_parts": [
+        "auf den höchsten Gipfel der Region"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Wandern Sie bitte nur auf ausgewiesenen Wegen und schützen Sie die Natur!",
+      "translation": {
+        "ru": "Ходите, пожалуйста, только по обозначенным тропам и берегите природу!",
+        "en": "Please hike only on designated paths and protect nature!"
+      },
+      "bracket_parts": [
+        "Wandern"
+      ],
+      "dativ_parts": [
+        "auf ausgewiesenen Wegen"
+      ],
+      "akkusativ_parts": [
+        "die Natur"
+      ]
+    }
+  ]
+}

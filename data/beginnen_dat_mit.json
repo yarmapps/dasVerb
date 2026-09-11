@@ -1,0 +1,184 @@
+{
+  "id": "beginnen_dat_mit",
+  "infinitive": "beginnen",
+  "translation": {
+    "ru": "начинать с",
+    "en": "to begin with, to start with"
+  },
+  "level": "A1",
+  "frequency_rank": 49,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beginnen",
+    "present_3sg": "beginnt",
+    "praeteritum_3sg": "begann",
+    "partizip_2": "begonnen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beginne",
+      "du": "beginnst",
+      "er_sie_es": "beginnt",
+      "wir": "beginnen",
+      "ihr": "beginnt",
+      "sie_Sie": "beginnen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "begann",
+      "du": "begannst",
+      "er_sie_es": "begann",
+      "wir": "begannen",
+      "ihr": "begannt",
+      "sie_Sie": "begannen"
+    },
+    "imperative": {
+      "du": "beginne",
+      "ihr": "beginnt",
+      "Sie": "beginnen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "mit der Arbeit (Dat) beginnen",
+  "sentences": [
+    {
+      "id": "beginnen_dat_mit_1",
+      "tense": "Präsens",
+      "german": "Ich beginne den Morgen immer mit einer Tasse Kaffee.",
+      "translation": {
+        "ru": "Я всегда начинаю утро с чашки кофе.",
+        "en": "I always start the morning with a cup of coffee."
+      },
+      "bracket_parts": [
+        "beginne"
+      ],
+      "akkusativ_parts": [
+        "den Morgen"
+      ],
+      "dativ_parts": [
+        "mit einer Tasse Kaffee"
+      ]
+    },
+    {
+      "id": "beginnen_dat_mit_2",
+      "tense": "Präsens",
+      "german": "Wann beginnst du mit deiner Hausaufgabe?",
+      "translation": {
+        "ru": "Когда ты начнешь делать свое домашнее задание?",
+        "en": "When do you start with your homework?"
+      },
+      "bracket_parts": [
+        "beginnst"
+      ],
+      "dativ_parts": [
+        "mit deiner Hausaufgabe"
+      ]
+    },
+    {
+      "id": "beginnen_dat_mit_3",
+      "tense": "Präsens",
+      "german": "Der Unterricht beginnt pünktlich mit einer Wiederholung.",
+      "translation": {
+        "ru": "Урок начинается вовремя с повторения.",
+        "en": "The class starts promptly with a review."
+      },
+      "bracket_parts": [
+        "beginnt"
+      ],
+      "dativ_parts": [
+        "mit einer Wiederholung"
+      ]
+    },
+    {
+      "id": "beginnen_dat_mit_4",
+      "tense": "Präsens",
+      "german": "Wir beginnen heute mit einem ganz neuen Thema.",
+      "translation": {
+        "ru": "Мы начинаем сегодня с совершенно новой темы.",
+        "en": "We are starting today with a completely new topic."
+      },
+      "bracket_parts": [
+        "beginnen"
+      ],
+      "dativ_parts": [
+        "mit einem ganz neuen Thema"
+      ]
+    },
+    {
+      "id": "beginnen_dat_mit_5",
+      "tense": "Präsens",
+      "german": "Beginnt ihr endlich mit den Vorbereitungen?",
+      "translation": {
+        "ru": "Вы наконец начинаете приготовления?",
+        "en": "Are you finally starting with the preparations?"
+      },
+      "bracket_parts": [
+        "Beginnt"
+      ],
+      "dativ_parts": [
+        "mit den Vorbereitungen"
+      ]
+    },
+    {
+      "id": "beginnen_dat_mit_6",
+      "tense": "Präteritum",
+      "german": "Sie begannen das Konzert mit einem klassischen Lied.",
+      "translation": {
+        "ru": "Они начали концерт с классической песни.",
+        "en": "They began the concert with a classical song."
+      },
+      "bracket_parts": [
+        "begannen"
+      ],
+      "akkusativ_parts": [
+        "das Konzert"
+      ],
+      "dativ_parts": [
+        "mit einem klassischen Lied"
+      ]
+    },
+    {
+      "id": "beginnen_dat_mit_7",
+      "tense": "Perfekt",
+      "german": "Ich habe schon früh mit dem Deutschlernen begonnen.",
+      "translation": {
+        "ru": "Я уже давно начал учить немецкий.",
+        "en": "I started learning German early."
+      },
+      "bracket_parts": [
+        "habe",
+        "begonnen"
+      ],
+      "dativ_parts": [
+        "mit dem Deutschlernen"
+      ]
+    },
+    {
+      "id": "beginnen_dat_mit_8",
+      "tense": "Imperativ",
+      "german": "Beginne bitte sofort mit dieser Aufgabe!",
+      "translation": {
+        "ru": "Начни, пожалуйста, немедленно с этого задания!",
+        "en": "Please start with this task immediately!"
+      },
+      "bracket_parts": [
+        "Beginne"
+      ],
+      "dativ_parts": [
+        "mit dieser Aufgabe"
+      ]
+    }
+  ]
+}

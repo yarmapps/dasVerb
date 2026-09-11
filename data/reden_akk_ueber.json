@@ -1,0 +1,178 @@
+{
+  "id": "reden_akk_ueber",
+  "infinitive": "reden",
+  "translation": {
+    "ru": "разговаривать о",
+    "en": "to talk about"
+  },
+  "level": "A2",
+  "frequency_rank": 76,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "reden",
+    "present_3sg": "redet",
+    "praeteritum_3sg": "redete",
+    "partizip_2": "geredet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "rede",
+      "du": "redest",
+      "er_sie_es": "redet",
+      "wir": "reden",
+      "ihr": "redet",
+      "sie_Sie": "reden",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "redete",
+      "du": "redetest",
+      "er_sie_es": "redete",
+      "wir": "redeten",
+      "ihr": "redetet",
+      "sie_Sie": "redeten"
+    },
+    "imperative": {
+      "du": "rede",
+      "ihr": "redet",
+      "Sie": "reden Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "über das Problem (Akk) reden",
+  "sentences": [
+    {
+      "id": "reden_akk_ueber_1",
+      "tense": "Präsens",
+      "german": "Ich rede ungern über persönliche Probleme.",
+      "translation": {
+        "ru": "Я неохотно говорю о личных проблемах.",
+        "en": "I dislike talking about personal problems."
+      },
+      "bracket_parts": [
+        "rede"
+      ],
+      "akkusativ_parts": [
+        "über persönliche Probleme"
+      ]
+    },
+    {
+      "id": "reden_akk_ueber_2",
+      "tense": "Präsens",
+      "german": "Redest du gern über deine Reise nach Rom?",
+      "translation": {
+        "ru": "Ты охотно рассказываешь о своей поездке в Рим?",
+        "en": "Do you like talking about your trip to Rome?"
+      },
+      "bracket_parts": [
+        "Redest"
+      ],
+      "akkusativ_parts": [
+        "über deine Reise"
+      ]
+    },
+    {
+      "id": "reden_akk_ueber_3",
+      "tense": "Präsens",
+      "german": "Er redet den ganzen Tag über Politik.",
+      "translation": {
+        "ru": "Он весь день говорит о политике.",
+        "en": "He talks about politics all day."
+      },
+      "bracket_parts": [
+        "redet"
+      ],
+      "akkusativ_parts": [
+        "über Politik"
+      ]
+    },
+    {
+      "id": "reden_akk_ueber_4",
+      "tense": "Präsens",
+      "german": "Wir reden gemeinsam über die zukünftigen Pläne.",
+      "translation": {
+        "ru": "Мы вместе обсуждаем будущие планы.",
+        "en": "We are talking together about the future plans."
+      },
+      "bracket_parts": [
+        "reden"
+      ],
+      "akkusativ_parts": [
+        "über die zukünftigen Pläne"
+      ]
+    },
+    {
+      "id": "reden_akk_ueber_5",
+      "tense": "Präsens",
+      "german": "Redet ihr oft über das Wetter?",
+      "translation": {
+        "ru": "Вы часто говорите о погоде?",
+        "en": "Do you often talk about the weather?"
+      },
+      "bracket_parts": [
+        "Redet"
+      ],
+      "akkusativ_parts": [
+        "über das Wetter"
+      ]
+    },
+    {
+      "id": "reden_akk_ueber_6",
+      "tense": "Präteritum",
+      "german": "Sie redeten lange über die schwierige Lage.",
+      "translation": {
+        "ru": "Они долго говорили о трудном положении.",
+        "en": "They talked for a long time about the difficult situation."
+      },
+      "bracket_parts": [
+        "redeten"
+      ],
+      "akkusativ_parts": [
+        "über die schwierige Lage"
+      ]
+    },
+    {
+      "id": "reden_akk_ueber_7",
+      "tense": "Perfekt",
+      "german": "Ich habe gestern mit ihm über den Fehler geredet.",
+      "translation": {
+        "ru": "Я поговорил с ним вчера об этой ошибке.",
+        "en": "I talked with him about the mistake yesterday."
+      },
+      "bracket_parts": [
+        "habe",
+        "geredet"
+      ],
+      "akkusativ_parts": [
+        "über den Fehler"
+      ]
+    },
+    {
+      "id": "reden_akk_ueber_8",
+      "tense": "Imperativ",
+      "german": "Rede bitte offen über deine Sorgen!",
+      "translation": {
+        "ru": "Поговори, пожалуйста, открыто о своих тревогах!",
+        "en": "Please talk openly about your worries!"
+      },
+      "bracket_parts": [
+        "Rede"
+      ],
+      "akkusativ_parts": [
+        "über deine Sorgen"
+      ]
+    }
+  ]
+}

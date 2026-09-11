@@ -1,0 +1,193 @@
+{
+  "id": "sichern_akk_gegen",
+  "infinitive": "sichern",
+  "translation": {
+    "ru": "защищать от, страховать от",
+    "en": "to safeguard against, protect against"
+  },
+  "level": "B2",
+  "frequency_rank": 285,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "sichern",
+    "present_3sg": "sichert",
+    "praeteritum_3sg": "sicherte",
+    "partizip_2": "gesichert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "sichere",
+      "du": "sicherst",
+      "er_sie_es": "sichert",
+      "wir": "sichern",
+      "ihr": "sichert",
+      "sie_Sie": "sichern"
+    },
+    "praeteritum": {
+      "ich": "sicherte",
+      "du": "sichertest",
+      "er_sie_es": "sicherte",
+      "wir": "sicherten",
+      "ihr": "sichertet",
+      "sie_Sie": "sicherten"
+    },
+    "imperative": {
+      "du": "sichere!",
+      "ihr": "sichert!",
+      "Sie": "sichern Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "gegen",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich gegen Risiken sichern",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich sichere mein Haus zuverlässig gegen Einbrüche.",
+      "translation": {
+        "ru": "Я надежно защищаю свой дом от краж со взломом.",
+        "en": "I reliably safeguard my house against break-ins."
+      },
+      "bracket_parts": [
+        "sichere"
+      ],
+      "akkusativ_parts": [
+        "mein Haus",
+        "Einbrüche"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Sicherst du deinen Betrieb ausreichend gegen finanzielle Verluste?",
+      "translation": {
+        "ru": "Ты достаточно страхуешь свое предприятие от финансовых убытков?",
+        "en": "Do you adequately protect your company against financial losses?"
+      },
+      "bracket_parts": [
+        "Sicherst"
+      ],
+      "akkusativ_parts": [
+        "deinen Betrieb",
+        "finanzielle Verluste"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Versicherung sichert Kunden gegen unvorhersehbare Schäden.",
+      "translation": {
+        "ru": "Страховая компания защищает клиентов от непредвиденных убытков.",
+        "en": "The insurance safeguards clients against unforeseen damages."
+      },
+      "bracket_parts": [
+        "sichert"
+      ],
+      "akkusativ_parts": [
+        "Kunden",
+        "unvorhersehbare Schäden"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir sichern uns mit Verträgen gegen böse Überraschungen.",
+      "translation": {
+        "ru": "Мы страхуем себя договорами от неприятных сюрпризов.",
+        "en": "We protect ourselves with contracts against bad surprises."
+      },
+      "bracket_parts": [
+        "sichern"
+      ],
+      "akkusativ_parts": [
+        "uns",
+        "böse Überraschungen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Sichert ihr das Dach vor dem Winter gegen starken Frost?",
+      "translation": {
+        "ru": "Вы защищаете крышу до зимы от сильного мороза?",
+        "en": "Do you secure the roof against severe frost before winter?"
+      },
+      "bracket_parts": [
+        "Sichert"
+      ],
+      "akkusativ_parts": [
+        "das Dach",
+        "starken Frost"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Staat sicherte damals die Küste gegen schwere Sturmfluten.",
+      "translation": {
+        "ru": "Государство защищало тогда побережье от сильных наводнений.",
+        "en": "The state protected the coast against severe storm surges back then."
+      },
+      "bracket_parts": [
+        "sicherte"
+      ],
+      "akkusativ_parts": [
+        "die Küste",
+        "schwere Sturmfluten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die Anlage perfekt gegen Stromausfälle gesichert.",
+      "translation": {
+        "ru": "Они отлично защитили установку от перебоев в электроснабжении.",
+        "en": "They have perfectly protected the plant against power failures."
+      },
+      "bracket_parts": [
+        "haben",
+        "gesichert"
+      ],
+      "akkusativ_parts": [
+        "die Anlage",
+        "Stromausfälle"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Sichere deine Investition unbedingt gegen mögliche Risiken!",
+      "translation": {
+        "ru": "Непременно застрахуй свои инвестиции от возможных рисков!",
+        "en": "Be sure to secure your investment against possible risks!"
+      },
+      "bracket_parts": [
+        "Sichere"
+      ],
+      "akkusativ_parts": [
+        "deine Investition",
+        "mögliche Risiken"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

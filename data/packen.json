@@ -1,0 +1,171 @@
+{
+  "id": "packen",
+  "infinitive": "packen",
+  "translation": {
+    "ru": "упаковывать, паковать, схватить",
+    "en": "to pack, grab"
+  },
+  "level": "A2",
+  "frequency_rank": 424,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "packen",
+    "present_3sg": "packt",
+    "praeteritum_3sg": "packte",
+    "partizip_2": "gepackt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "packe",
+      "du": "packst",
+      "er_sie_es": "packt",
+      "wir": "packen",
+      "ihr": "packt",
+      "sie_Sie": "packen"
+    },
+    "praeteritum": {
+      "ich": "packte",
+      "du": "packtest",
+      "er_sie_es": "packte",
+      "wir": "packten",
+      "ihr": "packtet",
+      "sie_Sie": "packten"
+    },
+    "perfekt": {
+      "ich": "habe gepackt",
+      "du": "hast gepackt",
+      "er_sie_es": "hat gepackt",
+      "wir": "haben gepackt",
+      "ihr": "habt gepackt",
+      "sie_Sie": "haben gepackt"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich packe heute Abend meinen Koffer für die Reise.",
+      "translation": {
+        "ru": "Сегодня вечером я собираю свой чемодан в поездку.",
+        "en": "Tonight I am packing my suitcase for the trip."
+      },
+      "bracket_parts": [
+        "packe"
+      ],
+      "akkusativ_parts": [
+        "meinen Koffer"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du packst deine Bücher in den Schulranzen.",
+      "translation": {
+        "ru": "Ты складываешь свои книги в ранец.",
+        "en": "You pack your books into the school bag."
+      },
+      "bracket_parts": [
+        "packst"
+      ],
+      "akkusativ_parts": [
+        "deine Bücher"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er packt die günstige Gelegenheit sofort beim Schopf.",
+      "translation": {
+        "ru": "Он сразу хватает удобную возможность за хохолок.",
+        "en": "He seizes the favorable opportunity immediately."
+      },
+      "bracket_parts": [
+        "packt"
+      ],
+      "akkusativ_parts": [
+        "die günstige Gelegenheit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir packen die schweren Kisten für den Umzug.",
+      "translation": {
+        "ru": "Мы упаковываем тяжелые коробки для переезда.",
+        "en": "We pack the heavy boxes for the move."
+      },
+      "bracket_parts": [
+        "packen"
+      ],
+      "akkusativ_parts": [
+        "die schweren Kisten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr packt eure Taschen viel zu spät vor der Abreise.",
+      "translation": {
+        "ru": "Вы собираете свои сумки слишком поздно перед отъездом.",
+        "en": "You pack your bags much too late before departure."
+      },
+      "bracket_parts": [
+        "packt"
+      ],
+      "akkusativ_parts": [
+        "eure Taschen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie packten damals alle Vorräte in das alte Auto.",
+      "translation": {
+        "ru": "Они упаковали тогда все припасы в старую машину.",
+        "en": "They packed all supplies into the old car back then."
+      },
+      "bracket_parts": [
+        "packten"
+      ],
+      "akkusativ_parts": [
+        "alle Vorräte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Ich habe die schwierige Prüfung endlich erfolgreich gepackt.",
+      "translation": {
+        "ru": "Я наконец успешно справился с трудным экзаменом.",
+        "en": "I finally successfully passed the difficult exam."
+      },
+      "bracket_parts": [
+        "habe",
+        "gepackt"
+      ],
+      "akkusativ_parts": [
+        "die schwierige Prüfung"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Packe deinen Rucksack zügig vor der langen Wanderung!",
+      "translation": {
+        "ru": "Собери свой рюкзак быстро перед долгим походом!",
+        "en": "Pack your backpack swiftly before the long hike!"
+      },
+      "bracket_parts": [
+        "Packe"
+      ],
+      "akkusativ_parts": [
+        "deinen Rucksack"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

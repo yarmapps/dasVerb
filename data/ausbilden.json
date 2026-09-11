@@ -1,0 +1,178 @@
+{
+  "id": "ausbilden",
+  "infinitive": "ausbilden",
+  "translation": {
+    "ru": "обучать, готовить специалистов",
+    "en": "to train, instruct, educate"
+  },
+  "level": "B1",
+  "frequency_rank": 463,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ausbilden",
+    "present_3sg": "bildet aus",
+    "praeteritum_3sg": "bildete aus",
+    "partizip_2": "ausgebildet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bilde aus",
+      "du": "bildest aus",
+      "er_sie_es": "bildet aus",
+      "wir": "bilden aus",
+      "ihr": "bildet aus",
+      "sie_Sie": "bilden aus"
+    },
+    "praeteritum": {
+      "ich": "bildete aus",
+      "du": "bildetest aus",
+      "er_sie_es": "bildete aus",
+      "wir": "bildeten aus",
+      "ihr": "bildetet aus",
+      "sie_Sie": "bildeten aus"
+    },
+    "perfekt": {
+      "ich": "habe ausgebildet",
+      "du": "hast ausgebildet",
+      "er_sie_es": "hat ausgebildet",
+      "wir": "haben ausgebildet",
+      "ihr": "habt ausgebildet",
+      "sie_Sie": "haben ausgebildet"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich bilde junge Nachwuchskräfte im Betrieb aus.",
+      "translation": {
+        "ru": "Я обучаю молодые перспективные кадры на предприятии.",
+        "en": "I train young junior staff in the company."
+      },
+      "bracket_parts": [
+        "bilde",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "junge Nachwuchskräfte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du bildest die neuen Lehrlinge sehr gewissenhaft aus.",
+      "translation": {
+        "ru": "Ты очень добросовестно обучаешь новых учеников.",
+        "en": "You train the new apprentices very conscientiously."
+      },
+      "bracket_parts": [
+        "bildest",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "die neuen Lehrlinge"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Unternehmen bildet jedes Jahr neue Fachkräfte aus.",
+      "translation": {
+        "ru": "Компания каждый год готовит новых специалистов.",
+        "en": "The enterprise trains new skilled workers every year."
+      },
+      "bracket_parts": [
+        "bildet",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "neue Fachkräfte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bilden engagierte Studenten zu fähigen Entwicklern aus.",
+      "translation": {
+        "ru": "Мы готовим из увлеченных студентов способных разработчиков.",
+        "en": "We train engaged students into capable developers."
+      },
+      "bracket_parts": [
+        "bilden",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "engagierte Studenten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr bildet Rettungshunde für schwierige Einsätze aus.",
+      "translation": {
+        "ru": "Вы обучаете собак-спасателей для сложных операций.",
+        "en": "You train rescue dogs for challenging missions."
+      },
+      "bracket_parts": [
+        "bildet",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "Rettungshunde"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie bildeten damals viele Generationen von Meistern aus.",
+      "translation": {
+        "ru": "Они тогда подготовили много поколений мастеров.",
+        "en": "They trained many generations of master craftsmen back then."
+      },
+      "bracket_parts": [
+        "bildeten",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "viele Generationen von Meistern"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die renommierte Flugschule hat Hunderte von Piloten ausgebildet.",
+      "translation": {
+        "ru": "Известная летная школа обучила сотни пилотов.",
+        "en": "The renowned flight school trained hundreds of pilots."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgebildet"
+      ],
+      "akkusativ_parts": [
+        "Hunderte von Piloten"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bilde den neuen Auszubildenden sorgfältig aus!",
+      "translation": {
+        "ru": "Обучай нового стажера тщательно!",
+        "en": "Train the new trainee carefully!"
+      },
+      "bracket_parts": [
+        "Bilde",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "den neuen Auszubildenden"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

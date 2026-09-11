@@ -1,0 +1,186 @@
+{
+  "id": "sparen",
+  "infinitive": "sparen",
+  "translation": {
+    "ru": "копить, экономить (деньги, время, энергию)",
+    "en": "to save, to economize"
+  },
+  "level": "A2",
+  "frequency_rank": 230,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "sparen",
+    "present_3sg": "spart",
+    "praeteritum_3sg": "sparte",
+    "partizip_2": "gespart"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "spare",
+      "du": "sparst",
+      "er_sie_es": "spart",
+      "wir": "sparen",
+      "ihr": "spart",
+      "sie_Sie": "sparen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "sparte",
+      "du": "spartest",
+      "er_sie_es": "sparte",
+      "wir": "sparten",
+      "ihr": "spartet",
+      "sie_Sie": "sparten"
+    },
+    "imperative": {
+      "du": "spar!",
+      "ihr": "spart!",
+      "Sie": "sparen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "für",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "Geld für eine eigene Wohnung (Akk) sparen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich spare jeden Monat einen festen Geldbetrag für meine spätere Altersvorsorge.",
+      "translation": {
+        "ru": "Каждый месяц я откладываю фиксированную сумму денег на свое пенсионное обеспечение.",
+        "en": "Every month I save a fixed amount of money for my future retirement provision."
+      },
+      "bracket_parts": [
+        "spare"
+      ],
+      "akkusativ_parts": [
+        "einen festen Geldbetrag",
+        "für meine spätere Altersvorsorge"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Sparst du mit deinem sparsamen Kleinwagen eigentlich viel Geld beim Tanken?",
+      "translation": {
+        "ru": "Экономишь ли ты со своей экономной малолитражкой на самом деле много денег на заправке?",
+        "en": "Do you actually save a lot of money on fuel with your economical small car?"
+      },
+      "bracket_parts": [
+        "Sparst"
+      ],
+      "akkusativ_parts": [
+        "viel Geld"
+      ],
+      "dativ_parts": [
+        "beim Tanken"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der fleißige Auszubildende spart jeden Cent für seinen allerersten Sommerurlaub am Meer.",
+      "translation": {
+        "ru": "Прилежный ученик копит каждый цент на свой самый первый летний отпуск на море.",
+        "en": "The hardworking apprentice saves every cent for his very first summer holiday by the sea."
+      },
+      "bracket_parts": [
+        "spart"
+      ],
+      "akkusativ_parts": [
+        "jeden Cent",
+        "für seinen allerersten Sommerurlaub"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir sparen im Haushalt durch energieeffiziente Haushaltsgeräte spürbar Strom und Heizkosten.",
+      "translation": {
+        "ru": "В быту благодаря энергоэффективным приборам мы ощутимо экономим электричество и расходы на отопление.",
+        "en": "At home we noticeably save electricity and heating costs through energy-efficient household appliances."
+      },
+      "bracket_parts": [
+        "sparen"
+      ],
+      "akkusativ_parts": [
+        "spürbar Strom und Heizkosten"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Spart ihr durch den Großeinkauf im Großmarkt wirklich Zeit und bares Geld?",
+      "translation": {
+        "ru": "Экономите ли вы оптовыми закупками в гипермаркете действительно время и живые деньги?",
+        "en": "Do you really save time and hard cash through bulk shopping at the wholesale market?"
+      },
+      "bracket_parts": [
+        "Spart"
+      ],
+      "akkusativ_parts": [
+        "Zeit und bares Geld"
+      ],
+      "dativ_parts": [
+        "im Großmarkt"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals sparte die junge Familie jahrelang eisern für das ersehnte Eigenheim im Grünen.",
+      "translation": {
+        "ru": "В те времена молодая семья годами железно копила на желанный собственный дом на природе.",
+        "en": "At that time the young family saved ironclad for years for their longed-for home in the countryside."
+      },
+      "bracket_parts": [
+        "sparte"
+      ],
+      "akkusativ_parts": [
+        "für das ersehnte Eigenheim"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das Unternehmen hat durch moderne digitale Prozesse viel wertvolle Arbeitszeit gespart.",
+      "translation": {
+        "ru": "Компания благодаря современным цифровым процессам сэкономила много ценного рабочего времени.",
+        "en": "Through modern digital processes the company saved a lot of valuable working time."
+      },
+      "bracket_parts": [
+        "hat",
+        "gespart"
+      ],
+      "akkusativ_parts": [
+        "viel wertvolle Arbeitszeit"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Sparen Sie wertvolle Ressourcen und schalten Sie das Licht beim Verlassen des Raumes aus!",
+      "translation": {
+        "ru": "Экономьте ценные ресурсы и выключайте свет, выходя из комнаты!",
+        "en": "Save valuable resources and switch off the light when leaving the room!"
+      },
+      "bracket_parts": [
+        "Sparen"
+      ],
+      "akkusativ_parts": [
+        "wertvolle Ressourcen"
+      ]
+    }
+  ]
+}

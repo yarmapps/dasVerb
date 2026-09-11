@@ -1,0 +1,183 @@
+{
+  "id": "ueberleben",
+  "infinitive": "überleben",
+  "translation": {
+    "ru": "выживать, переживать",
+    "en": "to survive, outlive"
+  },
+  "level": "B1",
+  "frequency_rank": 411,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "über",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "überleben",
+    "present_3sg": "überlebt",
+    "praeteritum_3sg": "überlebte",
+    "partizip_2": "überlebt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "überlebe",
+      "du": "überlebst",
+      "er_sie_es": "überlebt",
+      "wir": "überleben",
+      "ihr": "überlebt",
+      "sie_Sie": "überleben"
+    },
+    "praeteritum": {
+      "ich": "überlebte",
+      "du": "überlebtest",
+      "er_sie_es": "überlebte",
+      "wir": "überlebten",
+      "ihr": "überlebtet",
+      "sie_Sie": "überlebten"
+    },
+    "imperative": {
+      "du": "überlebe!",
+      "ihr": "überlebt!",
+      "Sie": "überleben Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine Katastrophe überleben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich überlebe diesen stressigen Tag nur mit viel Kaffee.",
+      "translation": {
+        "ru": "Я переживаю этот напряженный день только благодаря кофе.",
+        "en": "I only survive this stressful day with lots of coffee."
+      },
+      "bracket_parts": [
+        "überlebe"
+      ],
+      "akkusativ_parts": [
+        "diesen stressigen Tag"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Überlebst du den kalten Winter ohne funktionierende Heizung?",
+      "translation": {
+        "ru": "Ты переживешь холодную зиму без работающего отопления?",
+        "en": "Can you survive the cold winter without functioning heating?"
+      },
+      "bracket_parts": [
+        "Überlebst"
+      ],
+      "akkusativ_parts": [
+        "den kalten Winter"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die seltene Pflanze überlebt selbst in extrem trockenen Wüsten.",
+      "translation": {
+        "ru": "Редкое растение выживает даже в экстремально сухих пустынях.",
+        "en": "The rare plant survives even in extremely dry deserts."
+      },
+      "bracket_parts": [
+        "überlebt"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir überleben die harte Phase dank unseres starken Zusammenhalts.",
+      "translation": {
+        "ru": "Мы переживаем трудный период благодаря нашей сильной сплоченности.",
+        "en": "We survive the hard phase thanks to our strong solidarity."
+      },
+      "bracket_parts": [
+        "überleben"
+      ],
+      "akkusativ_parts": [
+        "die harte Phase"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Überlebt ihr die Prüfungswoche ohne größere Panik?",
+      "translation": {
+        "ru": "Вы переживаете экзаменационную неделю без особой паники?",
+        "en": "Are you guys surviving exam week without major panic?"
+      },
+      "bracket_parts": [
+        "Überlebt"
+      ],
+      "akkusativ_parts": [
+        "die Prüfungswoche"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Bergsteiger überlebte damals wie durch ein Wunder die Lawine.",
+      "translation": {
+        "ru": "Альпинист тогда как по волшебству выжил в лавине.",
+        "en": "The mountaineer miraculously survived the avalanche back then."
+      },
+      "bracket_parts": [
+        "überlebte"
+      ],
+      "akkusativ_parts": [
+        "die Lawine"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Alle Passagiere haben den schweren Flugzeugabsturz unversehrt überlebt.",
+      "translation": {
+        "ru": "Все пассажиры выжили невредимыми в тяжелой авиакатастрофе.",
+        "en": "All passengers survived the severe plane crash unharmed."
+      },
+      "bracket_parts": [
+        "haben",
+        "überlebt"
+      ],
+      "akkusativ_parts": [
+        "den schweren Flugzeugabsturz"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Überlebe bitte die schwere Zeit mit Zuversicht!",
+      "translation": {
+        "ru": "Переживи это тяжелое время с уверенностью, пожалуйста!",
+        "en": "Please survive the difficult time with confidence!"
+      },
+      "bracket_parts": [
+        "Überlebe"
+      ],
+      "akkusativ_parts": [
+        "die schwere Zeit"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

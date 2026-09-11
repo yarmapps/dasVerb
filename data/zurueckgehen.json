@@ -1,0 +1,178 @@
+{
+  "id": "zurueckgehen",
+  "infinitive": "zurückgehen",
+  "translation": {
+    "ru": "идти назад, снижаться, возвращаться",
+    "en": "to go back, decline, decrease"
+  },
+  "level": "B1",
+  "frequency_rank": 392,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "zurück",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zurückgehen",
+    "present_3sg": "geht zurück",
+    "praeteritum_3sg": "ging zurück",
+    "partizip_2": "zurückgegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe zurück",
+      "du": "gehst zurück",
+      "er_sie_es": "geht zurück",
+      "wir": "gehen zurück",
+      "ihr": "geht zurück",
+      "sie_Sie": "gehen zurück"
+    },
+    "praeteritum": {
+      "ich": "ging zurück",
+      "du": "gingst zurück",
+      "er_sie_es": "ging zurück",
+      "wir": "gingen zurück",
+      "ihr": "gingt zurück",
+      "sie_Sie": "gingen zurück"
+    },
+    "imperative": {
+      "du": "geh zurück!",
+      "ihr": "geht zurück!",
+      "Sie": "gehen Sie zurück!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "an den Startpunkt zurückgehen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich gehe nach der Pause sofort an meinen Schreibtisch zurück.",
+      "translation": {
+        "ru": "После перерыва я сразу же возвращаюсь за рабочий стол.",
+        "en": "I return to my desk immediately after the break."
+      },
+      "bracket_parts": [
+        "gehe",
+        "zurück"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Gehst du wegen des Regens wieder ins Haus zurück?",
+      "translation": {
+        "ru": "Ты возвращаешься обратно в дом из-за дождя?",
+        "en": "Are you going back into the house because of the rain?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "zurück"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Arbeitslosigkeit in der Region geht in diesem Monat spürbar zurück.",
+      "translation": {
+        "ru": "Безработица в регионе в этом месяце ощутимо снижается.",
+        "en": "Unemployment in the region is declining noticeably this month."
+      },
+      "bracket_parts": [
+        "geht",
+        "zurück"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir gehen den gesamten Weg gemeinsam zum Ausgangspunkt zurück.",
+      "translation": {
+        "ru": "Мы возвращаемся весь путь вместе к отправной точке.",
+        "en": "We walk the entire path back to the starting point together."
+      },
+      "bracket_parts": [
+        "gehen",
+        "zurück"
+      ],
+      "akkusativ_parts": [
+        "den gesamten Weg"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Geht ihr nach dem Kinobesuch direkt nach Hause zurück?",
+      "translation": {
+        "ru": "Вы после кино идете сразу домой?",
+        "en": "Are you guys going straight back home after the movie?"
+      },
+      "bracket_parts": [
+        "Geht",
+        "zurück"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Verkaufszahlen gingen damals während der Krise drastisch zurück.",
+      "translation": {
+        "ru": "Показатели продаж тогда резко упали во время кризиса.",
+        "en": "Sales figures dropped drastically during the crisis back then."
+      },
+      "bracket_parts": [
+        "gingen",
+        "zurück"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das Fieber des Patienten ist nach dem Medikament schnell zurückgegangen.",
+      "translation": {
+        "ru": "Температура у пациента быстро спала после лекарства.",
+        "en": "The patient's fever dropped quickly after the medication."
+      },
+      "bracket_parts": [
+        "ist",
+        "zurückgegangen"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Geh bitte ein paar Schritte zurück!",
+      "translation": {
+        "ru": "Сделай пару шагов назад, пожалуйста!",
+        "en": "Please take a few steps back!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "zurück"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    }
+  ]
+}

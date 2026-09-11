@@ -1,0 +1,154 @@
+{
+  "id": "hoffen",
+  "infinitive": "hoffen",
+  "translation": {
+    "ru": "надеяться",
+    "en": "to hope"
+  },
+  "level": "A2",
+  "frequency_rank": 166,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "hoffen",
+    "present_3sg": "hofft",
+    "praeteritum_3sg": "hoffte",
+    "partizip_2": "gehofft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "hoffe",
+      "du": "hoffst",
+      "er_sie_es": "hofft",
+      "wir": "hoffen",
+      "ihr": "hofft",
+      "sie_Sie": "hoffen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "hoffte",
+      "du": "hofftest",
+      "er_sie_es": "hoffte",
+      "wir": "hofften",
+      "ihr": "hofftet",
+      "sie_Sie": "hofften"
+    },
+    "imperative": {
+      "du": "hoffe",
+      "ihr": "hofft",
+      "Sie": "hoffen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sehr / auf das Beste hoffen",
+  "sentences": [
+    {
+      "id": "hoffen_base_1",
+      "tense": "Präsens",
+      "german": "Ich hoffe sehr, dass alles gut klappt.",
+      "translation": {
+        "ru": "Я очень надеюсь, что все сложится хорошо.",
+        "en": "I really hope that everything works out well."
+      },
+      "bracket_parts": [
+        "hoffe"
+      ]
+    },
+    {
+      "id": "hoffen_base_2",
+      "tense": "Präsens",
+      "german": "Hoffst du auch auf baldige Besserung des Wetters?",
+      "translation": {
+        "ru": "Ты тоже надеешься на скорое улучшение погоды?",
+        "en": "Do you also hope for an early improvement in the weather?"
+      },
+      "bracket_parts": [
+        "Hoffst"
+      ]
+    },
+    {
+      "id": "hoffen_base_3",
+      "tense": "Präsens",
+      "german": "Der Kranke hofft auf eine schnelle Genesung.",
+      "translation": {
+        "ru": "Больной надеется на быстрое выздоровление.",
+        "en": "The sick person hopes for a quick recovery."
+      },
+      "bracket_parts": [
+        "hofft"
+      ]
+    },
+    {
+      "id": "hoffen_base_4",
+      "tense": "Präsens",
+      "german": "Wir hoffen von ganzem Herzen auf ein baldiges Wiedersehen.",
+      "translation": {
+        "ru": "Мы от всего сердца надеемся на скорую встречу.",
+        "en": "We hope with all our hearts for an early reunion."
+      },
+      "bracket_parts": [
+        "hoffen"
+      ]
+    },
+    {
+      "id": "hoffen_base_5",
+      "tense": "Präsens",
+      "german": "Hofft ihr immer noch auf eine friedliche Einigung?",
+      "translation": {
+        "ru": "Вы все еще надеетесь на мирное соглашение?",
+        "en": "Do you still hope for a peaceful agreement?"
+      },
+      "bracket_parts": [
+        "Hofft"
+      ]
+    },
+    {
+      "id": "hoffen_base_6",
+      "tense": "Präteritum",
+      "german": "Sie hofften damals vergeblich auf ein Wunder.",
+      "translation": {
+        "ru": "Они напрасно надеялись тогда на чудо.",
+        "en": "They hoped in vain for a miracle back then."
+      },
+      "bracket_parts": [
+        "hofften"
+      ]
+    },
+    {
+      "id": "hoffen_base_7",
+      "tense": "Perfekt",
+      "german": "Ich habe die ganze Zeit auf eine zweite Chance gehofft.",
+      "translation": {
+        "ru": "Я все время надеялся на второй шанс.",
+        "en": "I hoped for a second chance all along."
+      },
+      "bracket_parts": [
+        "habe",
+        "gehofft"
+      ]
+    },
+    {
+      "id": "hoffen_base_8",
+      "tense": "Imperativ",
+      "german": "Hoffe immer auf das Beste und sei zuversichtlich!",
+      "translation": {
+        "ru": "Всегда надейся на лучшее и будь уверен!",
+        "en": "Always hope for the best and be confident!"
+      },
+      "bracket_parts": [
+        "Hoffe"
+      ]
+    }
+  ]
+}

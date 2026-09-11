@@ -1,0 +1,193 @@
+{
+  "id": "ausrichten",
+  "infinitive": "ausrichten",
+  "translation": {
+    "ru": "передавать (привет/сообщение), организовывать",
+    "en": "to deliver (message), host, align"
+  },
+  "level": "B1",
+  "frequency_rank": 455,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ausrichten",
+    "present_3sg": "richtet aus",
+    "praeteritum_3sg": "richtete aus",
+    "partizip_2": "ausgerichtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "richte aus",
+      "du": "richtest aus",
+      "er_sie_es": "richtet aus",
+      "wir": "richten aus",
+      "ihr": "richtet aus",
+      "sie_Sie": "richten aus"
+    },
+    "praeteritum": {
+      "ich": "richtete aus",
+      "du": "richtetest aus",
+      "er_sie_es": "richtete aus",
+      "wir": "richteten aus",
+      "ihr": "richtetet aus",
+      "sie_Sie": "richteten aus"
+    },
+    "perfekt": {
+      "ich": "habe ausgerichtet",
+      "du": "hast ausgerichtet",
+      "er_sie_es": "hat ausgerichtet",
+      "wir": "haben ausgerichtet",
+      "ihr": "habt ausgerichtet",
+      "sie_Sie": "haben ausgerichtet"
+    }
+  },
+  "rektion": {
+    "case": "dativ_akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich richte meiner Mutter herzliche Grüße von dir aus.",
+      "translation": {
+        "ru": "Я передаю маме сердечный привет от тебя.",
+        "en": "I deliver warm greetings to my mother from you."
+      },
+      "bracket_parts": [
+        "richte",
+        "aus"
+      ],
+      "dativ_parts": [
+        "meiner Mutter"
+      ],
+      "akkusativ_parts": [
+        "herzliche Grüße"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du richtest deinem Chef die wichtige Nachricht aus.",
+      "translation": {
+        "ru": "Ты передаешь своему шефу важную новость.",
+        "en": "You pass the important message on to your boss."
+      },
+      "bracket_parts": [
+        "richtest",
+        "aus"
+      ],
+      "dativ_parts": [
+        "deinem Chef"
+      ],
+      "akkusativ_parts": [
+        "die wichtige Nachricht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Stadt richtet das große Sportfest in diesem Sommer aus.",
+      "translation": {
+        "ru": "Город организует большой спортивный праздник этим летом.",
+        "en": "The city hosts the big sports festival this summer."
+      },
+      "bracket_parts": [
+        "richtet",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "das große Sportfest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir richten den Kollegen die freundliche Einladung aus.",
+      "translation": {
+        "ru": "Мы передаем коллегам дружеское приглашение.",
+        "en": "We pass the kind invitation on to the colleagues."
+      },
+      "bracket_parts": [
+        "richten",
+        "aus"
+      ],
+      "dativ_parts": [
+        "den Kollegen"
+      ],
+      "akkusativ_parts": [
+        "die freundliche Einladung"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr richtet eure Aufmerksamkeit auf die wichtigen Details aus.",
+      "translation": {
+        "ru": "Вы направляете свое внимание на важные детали.",
+        "en": "You align your attention to the important details."
+      },
+      "bracket_parts": [
+        "richtet",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "eure Aufmerksamkeit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie richteten damals ein unvergessliches Festival aus.",
+      "translation": {
+        "ru": "Они тогда организовали незабываемый фестиваль.",
+        "en": "They hosted an unforgettable festival back then."
+      },
+      "bracket_parts": [
+        "richteten",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "ein unvergessliches Festival"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Meine Schwester hat mir die Neuigkeit sofort ausgerichtet.",
+      "translation": {
+        "ru": "Сестра сразу же передала мне эту новость.",
+        "en": "My sister passed the news on to me immediately."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgerichtet"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "die Neuigkeit"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Richte deinem Bruder bitte einen schönen Gruß aus!",
+      "translation": {
+        "ru": "Передай пожалуйста брату большой привет!",
+        "en": "Please deliver a warm greeting to your brother!"
+      },
+      "bracket_parts": [
+        "Richte",
+        "aus"
+      ],
+      "dativ_parts": [
+        "deinem Bruder"
+      ],
+      "akkusativ_parts": [
+        "einen schönen Gruß"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

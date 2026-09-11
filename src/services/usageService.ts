@@ -1,6 +1,11 @@
-import { getFreeDailyQuizzesLimit, getMaxAdGrantsPerDayLimit } from './appConfigService';
+import {
+  getFreeDailyQuizzesLimit,
+  getMaxAdGrantsPerDayLimit,
+  isFirstOpenPaywallDisabled,
+} from './appConfigService';
 import { createStorage } from './storageService';
 import { isPremiumEnabled } from './premiumAccessService';
+import { isFeatureEnabled } from './featuresService';
 
 const storage = createStorage('app-usage');
 
@@ -112,4 +117,44 @@ export function resetDailyQuizLimits(): void {
   } catch {
     // ignore
   }
+}
+
+/* ── Trial Tracking ────────────────────────────────────────── */
+const TRIAL_START_DATE_KEY = 'trial_start_date';
+
+export function setTrialStartDate(dateMs: number): void {
+  storage.set(TRIAL_START_DATE_KEY, String(dateMs));
+}
+
+export function getTrialStartDate(): number | null {
+  const value = storage.getString(TRIAL_START_DATE_KEY);
+  return value ? Number(value) : null;
+}
+
+/* ── First Open Paywall ────────────────────────────────────── */
+const FIRST_OPEN_PAYWALL_SEEN_KEY = 'first_open_paywall_seen';
+
+export function hasSeenFirstOpenPaywall(): boolean {
+  return storage.getString(FIRST_OPEN_PAYWALL_SEEN_KEY) === 'true';
+}
+
+export function markFirstOpenPaywallSeen(): void {
+  storage.set(FIRST_OPEN_PAYWALL_SEEN_KEY, 'true');
+}
+
+export function shouldShowFirstOpenPaywall(): boolean {
+  if (!isFeatureEnabled('ENABLE_PREMIUM')) {
+    return false;
+  }
+  if (isPremiumEnabled()) {
+    return false;
+  }
+  if (isFirstOpenPaywallDisabled()) {
+    return false;
+  }
+  return !hasSeenFirstOpenPaywall();
+}
+
+export function resetFirstOpenPaywall(): void {
+  storage.delete(FIRST_OPEN_PAYWALL_SEEN_KEY);
 }

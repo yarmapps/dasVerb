@@ -1,0 +1,177 @@
+{
+  "id": "betragen",
+  "infinitive": "betragen",
+  "translation": {
+    "ru": "составлять (сумму, число); вести себя",
+    "en": "to amount to, be, behave"
+  },
+  "level": "B1",
+  "frequency_rank": 247,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "betragen",
+    "present_3sg": "beträgt",
+    "praeteritum_3sg": "betrug",
+    "partizip_2": "betragen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "betrage",
+      "du": "beträgst",
+      "er_sie_es": "beträgt",
+      "wir": "betragen",
+      "ihr": "betragt",
+      "sie_Sie": "betragen"
+    },
+    "praeteritum": {
+      "ich": "betrug",
+      "du": "betrugst",
+      "er_sie_es": "betrug",
+      "wir": "betrugen",
+      "ihr": "betrugt",
+      "sie_Sie": "betrugen"
+    },
+    "imperative": {
+      "du": "betrage!",
+      "ihr": "betragt!",
+      "Sie": "betragen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "fünfzig Euro betragen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Die Gesamtsumme beträgt genau hundert Euro.",
+      "translation": {
+        "ru": "Общая сумма составляет ровно сто евро.",
+        "en": "The total amount is exactly one hundred euros."
+      },
+      "bracket_parts": [
+        "beträgt"
+      ],
+      "akkusativ_parts": [
+        "genau hundert Euro"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Beträgst du dich in der Schule immer anständig?",
+      "translation": {
+        "ru": "Ты всегда ведешь себя в школе прилично?",
+        "en": "Do you always behave decently at school?"
+      },
+      "bracket_parts": [
+        "Beträgst"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Wartezeit beträgt im Moment zwanzig Minuten.",
+      "translation": {
+        "ru": "Время ожидания в данный момент составляет двадцать минут.",
+        "en": "The waiting time is currently twenty minutes."
+      },
+      "bracket_parts": [
+        "beträgt"
+      ],
+      "akkusativ_parts": [
+        "zwanzig Minuten"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir betragen uns stets vorbildlich bei offiziellen Anlässen.",
+      "translation": {
+        "ru": "Мы всегда ведем себя образцово на официальных мероприятиях.",
+        "en": "We always behave exemplary on official occasions."
+      },
+      "bracket_parts": [
+        "betragen"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Betragt ihr euch auch bei den Großeltern brav?",
+      "translation": {
+        "ru": "Вы тоже ведете себя хорошо у бабушки и дедушки?",
+        "en": "Do you guys also behave well at the grandparents'?"
+      },
+      "bracket_parts": [
+        "Betragt"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Kosten betrugen damals mehrere tausend Franken.",
+      "translation": {
+        "ru": "Расходы составляли в то время несколько тысяч франков.",
+        "en": "The costs amounted to several thousand francs back then."
+      },
+      "bracket_parts": [
+        "betrugen"
+      ],
+      "akkusativ_parts": [
+        "mehrere tausend Franken"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Schaden hat laut Gutachten zehntausend Euro betragen.",
+      "translation": {
+        "ru": "Ущерб по оценке экспертов составил десять тысяч евро.",
+        "en": "According to the report, the damage amounted to ten thousand euros."
+      },
+      "bracket_parts": [
+        "hat",
+        "betragen"
+      ],
+      "akkusativ_parts": [
+        "zehntausend Euro"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Betrage dich bitte höflich gegenüber den Gästen!",
+      "translation": {
+        "ru": "Веди себя вежливо по отношению к гостям, пожалуйста!",
+        "en": "Please behave politely towards the guests!"
+      },
+      "bracket_parts": [
+        "Betrage"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ]
+    }
+  ]
+}

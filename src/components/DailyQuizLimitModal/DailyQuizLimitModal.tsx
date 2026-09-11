@@ -7,8 +7,7 @@ import { useRewardedAd } from '../../ads/useRewardedAd';
 import { grantExtraQuiz } from '../../services/usageService';
 import { trackEvent } from '../../services/analyticsService';
 import { createStyles } from './DailyQuizLimitModal.styles';
-// eslint-disable-next-line @typescript-eslint/no-require-imports
-const { ENABLE_PREMIUM } = require('../../config/features');
+import { isFeatureEnabled } from '../../services/featuresService';
 
 export interface DailyQuizLimitModalProps {
   visible: boolean;
@@ -135,7 +134,7 @@ export function DailyQuizLimitModal({
               </Text>
 
               {/* Premium Button & Divider */}
-              {ENABLE_PREMIUM && onPremiumCTA && (
+              {isFeatureEnabled('ENABLE_PREMIUM') && onPremiumCTA && (
                 <>
                   <TouchableOpacity
                     style={styles.premiumButton}

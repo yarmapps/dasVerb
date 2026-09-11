@@ -1,19 +1,102 @@
 {
+  "appUpdate": {
+    "title": "Güncelleme Mevcut",
+    "softMessage": "das Verb uygulamasının yeni bir sürümü mevcut! En yeni özellikler ve iyileştirmeler için lütfen güncelleyin.",
+    "forceMessage": "das Verb kullanmaya devam etmek için kritik bir güncelleme gerekiyor. Lütfen şimdi güncelleyin.",
+    "button": "Şimdi Güncelle",
+    "close": "Kapat"
+  },
+  "debugScreen": {
+    "title": "Debug Menu",
+    "sectionState": "App State Summary",
+    "sectionDailyLimit": "Daily Quiz Limit",
+    "sectionStreak": "Daily Streak",
+    "sectionSettings": "Settings & Storage",
+    "sectionAppUpdate": "App Update Dialog",
+    "sectionReview": "In-App Review & Rating",
+    "dailyQuizzes": "Completed quizzes today: {count} / {limit}",
+    "totalQuizzes": "Total completed quizzes: {count}",
+    "extraQuizzes": "Extra quizzes available: {count}",
+    "adGrants": "Ad grants today: {count} / {limit}",
+    "streakSummary": "Current streak: {streak} days (Best: {best})",
+    "resetDailyLimit": "Reset Daily Limit",
+    "grantExtraQuiz": "Grant +1 Extra Quiz",
+    "consumeQuiz": "Consume 1 Daily Quiz",
+    "resetStreak": "Reset Streak",
+    "incrementStreak": "Increment Streak (+1 Day)",
+    "resetAllSettings": "Reset Settings to Default",
+    "triggerSoftUpdate": "Trigger Soft Update (Dismissible)",
+    "triggerForceUpdate": "Trigger Force Update (Blocking)",
+    "resetUpdateState": "Reset Update State",
+    "triggerReview": "Trigger In-App Review (StoreReview)",
+    "resetReviewCooldown": "Reset Review Cooldown",
+    "addCompletedQuizzes": "Add +5 Completed Quizzes",
+    "alertSuccess": "Success",
+    "dailyLimitResetSuccess": "Daily quiz limits have been reset.",
+    "streakResetSuccess": "Streak data has been reset.",
+    "settingsResetSuccess": "All settings have been reset to defaults.",
+    "reviewTriggerSuccess": "Store review requested to OS.",
+    "reviewCooldownResetSuccess": "Review prompt cooldown reset."
+  },
   "navigation": {
-    "practice": "Alıştırma",
+    "practice": "Pratik",
     "dictionary": "Sözlük"
   },
   "languageSelectorScreen": {
     "title": "Ana diliniz nedir?",
-    "continue": "Devam Et"
+    "continue": "Devam et"
   },
   "practiceScreen": {
-    "title": "Alıştırma",
-    "subtitle": "Almanca fiilleri ve çekimleri pratik yapın",
-    "levelsButtonTitle": "Fiilleri Çalış",
-    "levelsButtonSubtitle": "A1'den B2'ye fiilleri öğren",
+    "title": "Pratik",
+    "subtitle": "Fiilleri, çekimleri ve cümle yapılarını çalışın",
+    "levelsButtonTitle": "Fiil Pratiği",
+    "levelsButtonSubtitle": "A1'den B2'ye fiilleri öğrenin",
     "featuredBadge": "Öne Çıkan",
-    "startNow": "Şimdi Başla"
+    "startNow": "Hemen Başla",
+    "smartQuizBadge": "Akıllı Mod",
+    "smartQuizTitle": "Akıllı Algoritma",
+    "smartQuizSubtitle": "Hatalarınıza odaklanın ve 3 kat daha hızlı öğrenin"
+  },
+  "categories": {
+    "sectionTitle": "Konular ve Kategoriler",
+    "sectionSubtitle": "Günlük yaşam durumlarına göre gruplandırılmış fiillerle pratik yapın",
+    "verbsCount": "fiil",
+    "movement": {
+      "title": "Hareket ve Ulaşım",
+      "subtitle": "gehen, fahren, fliegen, ankommen..."
+    },
+    "communication": {
+      "title": "İletişim ve Konuşma",
+      "subtitle": "sprechen, sagen, fragen, antworten..."
+    },
+    "homeDaily": {
+      "title": "Günlük Yaşam ve Ev",
+      "subtitle": "wohnen, schlafen, aufstehen, kochen..."
+    },
+    "foodDrink": {
+      "title": "Yiyecek ve Restoranlar",
+      "subtitle": "essen, trinken, bestellen, probieren..."
+    },
+    "workStudy": {
+      "title": "İş ve Eğitim",
+      "subtitle": "arbeiten, lernen, studieren, schreiben..."
+    },
+    "shoppingMoney": {
+      "title": "Alışveriş ve Para",
+      "subtitle": "kaufen, bezahlen, kosten, sparen..."
+    },
+    "thoughtsFeelings": {
+      "title": "Düşünceler ve Duygular",
+      "subtitle": "denken, glauben, fühlen, lieben..."
+    },
+    "leisureHobbies": {
+      "title": "Boş Zaman ve Hobiler",
+      "subtitle": "spielen, reisen, schwimmen, wandern..."
+    },
+    "health": {
+      "title": "Sağlık ve Zindelik",
+      "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    }
   },
   "dictionaryScreen": {
     "title": "Sözlük",
@@ -22,13 +105,13 @@
     "stammformen": "Temel Formlar",
     "infinitive": "Mastar (Infinitiv)",
     "present3sg": "Präsens",
-    "praeteritum3sg": "Geçmiş Zaman (Präteritum)",
+    "praeteritum3sg": "Präteritum",
     "perfekt": "Perfekt",
     "conjugation": "Fiil Çekimi",
-    "person": "Şahıs",
+    "person": "Kişi",
     "present": "Präsens",
     "praeteritum": "Präteritum",
-    "rektion": "Fiil Yönetimi (Rektion)",
+    "rektion": "Edat ve İsmin Halleri (Rektion)",
     "imperative": "Emir Kipi (Imperativ)",
     "examples": "Örnekler"
   },
@@ -44,11 +127,23 @@
     "themeSystem": "Sistem",
     "notifications": "Bildirimler",
     "soundEffects": "Ses Efektleri",
+    "speakOnCorrectAnswer": "Doğru Cevabı Seslendir",
+    "voiceGender": "Ses",
+    "voiceFemale": "Kadın",
+    "voiceMale": "Erkek",
+    "maleVoiceHint": "Erkek Almanca sesi kullanmak için iOS Ayarları → Erişilebilirlik → Seslendirilen İçerik → Sesler → Almanca bölümünden yükleyin.",
     "contactUs": "Bize Ulaşın",
-    "version": "Sürüm"
+    "version": "Sürüm",
+    "notificationsPermissionRequiredTitle": "Bildirimleri Açın",
+    "notificationsPermissionRequiredMessage": "Günlük pratik ve seri hatırlatıcılarını almak için lütfen cihaz ayarlarınızdan bildirimleri etkinleştirin.",
+    "openSettings": "Ayarlar",
+    "cancel": "İptal"
+  },
+  "quizSettingsModal": {
+    "title": "Test Ayarları"
   },
   "verbsPracticeListScreen": {
-    "title": "Fiil Alıştırması",
+    "title": "Fiil Pratiği",
     "levelHeader": "SEVİYE",
     "verbCount": "fiil",
     "uncompleted": "Tamamlanmadı",
@@ -56,37 +151,211 @@
     "silver": "Gümüş",
     "trophy": "Kupa",
     "empty": "Fiil bulunamadı",
-    "checkpointTitle": "{number}. Ara Test",
-    "checkpointSubtitle": "Tekrar · Fiiller {from}–{to}",
-    "checkpointBadge": "10 alıştırma"
+    "checkpointTitle": "Ara Test",
+    "finalTestTitle": "Final Testi"
   },
   "verbQuizScreen": {
-    "title": "Alıştırma",
-    "checkpointQuizTitle": "Ara Test {number}",
+    "title": "Pratik",
+    "checkpointQuizTitle": "Ara Test",
+    "smartQuizTitle": "Akıllı Test",
     "level": "Seviye",
-    "check": "Kontrol et",
-    "continue": "Devam et",
-    "exercise": "Egzersiz",
+    "check": "Kontrol Et",
+    "continue": "Devam Et",
+    "exercise": "Alıştırma",
     "correct": "Doğru!",
-    "tryAgain": "Tekrar deneyin",
-    "fillCard": "Kartı doldurun",
-    "tapToContinue": "Devam etmek için herhangi bir yere dokunun",
+    "tryAgain": "Tekrar dene",
+    "fillCard": "Kartı doldur",
+    "tapToContinue": "Devam etmek için ekrana dokunun",
     "correctAnswer": "Doğru cevap:",
     "conjugationPräsens": "Präsens Çekimi",
-    "principalParts": "Temel Formlar (Stammformen)",
-    "imperativeForms": "Emir Kipi",
-    "auxiliaryExplanationMovement": "{verb} fiili hareket veya durum değişikliği bildirdiği için Perfekt zamanını sein ({form}) yardımcı fiiliyle oluşturur.",
-    "auxiliaryExplanationGeneral": "{verb} fiili Perfekt zamanını haben ({form}) yardımcı fiiliyle oluşturur."
+    "principalParts": "Temel Formlar",
+    "imperativeForms": "Emir Kipi Formları",
+    "auxiliaryExplanationMovement": "{verb} fiili hareket veya durum değişikliği bildirdiği için Perfekt zamanında sein ({form}) yardımcı fiilini alır.",
+    "auxiliaryExplanationGeneral": "{verb} fiili Perfekt zamanını haben ({form}) yardımcı fiili ile oluşturur."
   },
   "quizResultsScreen": {
     "title": "Sonuçlar",
-    "checkpointResultsTitle": "Test Sonuçları",
+    "checkpointResultsTitle": "Ara Test Sonuçları",
+    "smartQuizResultsTitle": "Akıllı Test Sonuçları",
     "canDoBetter": "Daha iyisini yapabilirsin!",
-    "almostThere": "Neredeyse!",
+    "almostThere": "Neredeyse oldu!",
     "closeToPerfection": "Mükemmele çok yakın!",
     "youDidIt": "Başardın!",
+    "nextLevel": "Sonraki seviye",
     "tryAgain": "Tekrar dene",
-    "verbsList": "Fiil listesi",
+    "verbsList": "Fiil listesine dön",
+    "backToPractice": "Pratiğe dön",
     "scoreSummary": "{correct} / {total}"
+  },
+  "dailyQuizLimitModal": {
+    "title": "Harika ilerleme!",
+    "message": "Almanca öğrenmekte gerçekten kararlısınız!",
+    "instructions": "Nasıl devam etmek istersiniz?",
+    "videoButton": "Reklam izle",
+    "or": "veya",
+    "premiumButtonWithTrial": "Ücretsiz Sınırsız Seviye\n{daysLabel}",
+    "premiumButtonNoTrial": "Premium Al",
+    "premiumButtonSubtitleWithTrial": "sonra {yearlyPrice}/yıl (☕️ / ay)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice}/yıl (☕️ / ay)",
+    "waitUntilTomorrow": "Yarına kadar bekle",
+    "cancelAnytime": "İstediğin zaman iptal et"
+  },
+  "premiumSheets": {
+    "subscribeTitle": "Premium'u Açın",
+    "subscribeSubtitle": "Gelişmiş araçlarla Almanca fiil öğreniminizi hızlandırın.",
+    "subscribeNow": "Şimdi abone ol",
+    "buyNow": "Şimdi Satın Al",
+    "viewPlans": "Planları görüntüle",
+    "premiumFeaturesLabel": "PREMİUM ÖZELLİKLER",
+    "disclaimerAutoRenew": "{price}/{period} otomatik yenilenir. Hesap ayarlarınızdan istediğiniz zaman iptal edebilirsiniz.",
+    "disclaimerAutoRenewTrial": "{trialDuration} ücretsiz, sonra {price}/{period}. İstediğiniz zaman iptal edin.",
+    "disclaimerOneTime": "Tek seferlik satın alma. Yinelenen ücret yok.",
+    "freeTrialDays": "{count} gün ücretsiz deneme",
+    "freeTrialWeeks": "{count} hafta ücretsiz deneme",
+    "freeTrialMonths": "{count} ay ücretsiz deneme",
+    "freeTrialYears": "{count} yıl ücretsiz deneme",
+    "trialUnit": {
+      "day": "gün",
+      "week": "hafta",
+      "month": "ay",
+      "year": "yıl"
+    },
+    "periodMonth": "ay",
+    "periodYear": "yıl",
+    "restorePurchases": "Satın Alımları Geri Yükle",
+    "errorTitle": "Hata",
+    "errorUnavailable": "Bu plan şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyin.",
+    "errorPurchase": "Satın alma başarısız oldu. Lütfen tekrar deneyin.",
+    "errorRestore": "Geri yükleme başarısız oldu. Lütfen tekrar deneyin.",
+    "restoreSuccessTitle": "Geri Yüklendi!",
+    "restoreSuccessMessage": "Premium erişiminiz geri yüklendi.",
+    "restoreNothingTitle": "Satın Alma Bulunamadı",
+    "restoreNothingMessage": "Geri yüklenecek önceki satın alma bulunamadı.",
+    "termsOfService": "Kullanım Koşulları",
+    "privacyPolicy": "Gizlilik Politikası",
+    "plans": {
+      "monthlyLabel": "1 Ay",
+      "monthlyPer": "Aylık",
+      "yearlyLabel": "12 Ay",
+      "yearlyBadge": "EN İYİ DEĞER",
+      "perMonth": "{price}/ay",
+      "lifetimeLabel": "Ömür Boyu",
+      "lifetimePer": "Tek Ödeme",
+      "lifetimeBadge": "TEK SEFERLIK"
+    },
+    "features": {
+      "noAdsTitle": "Sıfır Reklam",
+      "noAdsShort": "Sıfır\nReklam",
+      "noAdsDescription": "Odaklanın ve dikkatiniz dağılmadan öğrenin.",
+      "unlimitedQuizzesTitle": "Sınırsız Test",
+      "unlimitedQuizzesShort": "Sınırsız\nTest",
+      "unlimitedQuizzesDescription": "Günlük sınır olmadan istediğiniz kadar pratik yapın.",
+      "allLevelsTitle": "All Levels Unlocked",
+      "allLevelsShort": "All\nLevels",
+      "allLevelsDescription": "Tüm A1-B2 fiil seviyelerine ve kontrol testlerine anında erişim.",
+      "smartQuizModeTitle": "Akıllı Algoritma",
+      "smartQuizModeShort": "Akıllı\nAlgoritma",
+      "smartQuizModeDescription": "Yalnızca hatalarınıza odaklanın ve 3 kat daha hızlı öğrenin!",
+      "naturalVoiceTitle": "Doğal Sesler",
+      "naturalVoiceShort": "Doğal\nSesler",
+      "naturalVoiceDescription": "Fiilleri ve örnek cümleleri doğal Almanca telaffuzla dinleyin.",
+      "unlimitedCustomListsAndWordsTitle": "Kendi Listelerinizi Oluşturun",
+      "unlimitedCustomListsAndWordsShort": "Özel Kelime\nListeleri",
+      "unlimitedCustomListsAndWordsDescription": "Sınırsız kelime ekleyin ve tam olarak ihtiyacınız olan kelimeleri çalışın.",
+      "photoScannerTitle": "Görüntüden Kelimeye",
+      "photoScannerShort": "Resimden\nKelimeye",
+      "photoScannerDescription": "Yapay zeka kullanarak Almanca isimleri fotoğraflardan anında içe aktarın."
+    },
+    "trialTitle": "3 günlük Premium denemeniz aktif",
+    "trialSubtitle": "Reklamsız ve güçlü öğrenme araçlarıyla en hızlı ilerlemenizi açın.",
+    "trialCta": "Hadi gidelim!"
+  },
+  "notifications": {
+    "reminderTitle": "Pratik yapma zamanı!",
+    "reminderBody": "Almanca fiiller ve cümle yapılarıyla kısa bir çalışma onları kolayca öğrenmenize yardımcı olur.",
+    "trialReminderTitle": "Ücretsiz deneme süreniz yakında sona eriyor",
+    "trialReminderBody": "Bugün Premium'un tadını çıkarın! Deneme süreniz 24 saat içinde sona eriyor.",
+    "streakReminderTitle": "Serini kaybetme! 🔥",
+    "streakReminderBody": "Bugün henüz pratik yapmadın. Serini korumak için 2 dakikalık hızlı bir test çöz!"
+  },
+  "firstOpenPaywall": {
+    "trialBadge": "DENEME · 3 GÜN",
+    "title": "Ödemeden önce Premium'u deneyin",
+    "subtitle": "Ücretsiz deneme süreniz böyle çalışır.",
+    "cta": "Premium'u Ücretsiz Başlat",
+    "restore": "Satın Alımları Geri Yükle",
+    "proceedLimited": "Sınırlı sürümle devam et",
+    "priceYearlyWithCoffee": "{price}/yıl, bir fincan kahve/ay",
+    "disclaimer": "Otomatik olarak {price}/yıl yenilenir. İstediğiniz zaman ayarlardan iptal edin.",
+    "disclaimerFallback": "Otomatik olarak yıllık yenilenir. İstediğiniz zaman ayarlardan iptal edin.",
+    "priceWithTrial": "{trialDuration} için ücretsiz, sonra {price}/yıl",
+    "priceYearly": "{price}/yıl",
+    "timeline": {
+      "today": {
+        "day": "Bugün",
+        "headline": "Her Şeyi Aç",
+        "benefits": {
+          "noAds": {
+            "title": "100% Ad-Free Learning",
+            "text": "Stay focused on your goals with a clean, zero-distraction study experience."
+          },
+          "unlimitedQuizzes": {
+            "title": "Unlimited Quizzes",
+            "text": "Practice as much as you want with no daily limits or waiting."
+          },
+          "allLevels": {
+            "title": "Tüm A1–B2 Seviyeleri Açık",
+            "text": "Tüm fiil kartlarına, dilbilgisi kontrol noktalarına ve testlere anında erişim."
+          },
+          "smartQuizMode": {
+            "title": "Akıllı Hata Düzeltme",
+            "text": "Almanca fiillerde uzmanlaşmak için zayıf olduğunuz noktalara odaklanın ve 3 kat hızlı öğrenin."
+          },
+          "adFree": {
+            "title": "%100 Reklamsız",
+            "text": "Temiz ve dikkat dağıtmayan bir deneyimle tamamen dil hedeflerinize odaklanın."
+          },
+          "grammar": {
+            "title": "Dilbilgisinde Ustalaş",
+            "text": "Alışkanlık oluşturmak için artikeller, çekimler ve sıfat eklerinde sınırsız pratik yapın."
+          },
+          "correction": {
+            "title": "Akıllı Hata Düzeltme",
+            "text": "Her hatadan ders çıkarmak için anında gramer kuralları ve açıklamaları alın."
+          },
+          "translations": {
+            "title": "Bağlamsal Çeviriler",
+            "text": "Anlamı asla kaybetmemek için her kelimeye özel kesin ve yerel çeviriler elde edin."
+          },
+          "customLists": {
+            "title": "Sınırsız Listeler",
+            "text": "Kendi kelime dağarcığınızı düzenlemek ve ustalaşmak için özel kelime setleri oluşturun."
+          },
+          "photoScanner": {
+            "title": "Yapay Zeka Tarayıcı",
+            "text": "Gerçek içerikleri çalışmak için metin fotoğraflarını anında kelime listelerine dönüştürün."
+          },
+          "visualMemory": {
+            "title": "Görsel Hafıza",
+            "text": "İsimleri zihninize kazımanıza yardımcı olacak canlı illüstrasyonlarla öğreniminizi geliştirin."
+          },
+          "voices": {
+            "title": "Doğal Ses Deneyimi",
+            "text": "İnsan benzeri nöral seslerle kulaklarınızı eğiterek mükemmel dinleme becerileri geliştirin."
+          }
+        },
+        "description": ""
+      },
+      "day2": {
+        "day": "Gün 3",
+        "headline": "Size hatırlatacağız",
+        "description": "Deneme süreniz bitmeden dostça bir bildirim — sürpriz yok."
+      },
+      "day3": {
+        "day": "Gün 4",
+        "headline": "Abonelik başlar",
+        "description": "Sadece iptal etmezseniz. İstediğiniz zaman hesap ayarlarından iptal edebilirsiniz."
+      }
+    }
   }
 }

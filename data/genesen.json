@@ -1,0 +1,186 @@
+{
+  "id": "genesen",
+  "infinitive": "genesen",
+  "translation": {
+    "ru": "выздоравливать, оправляться от болезни",
+    "en": "to recover, to convalesce"
+  },
+  "level": "B1",
+  "frequency_rank": 420,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ge",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "genesen",
+    "present_3sg": "genest",
+    "praeteritum_3sg": "genas",
+    "partizip_2": "genesen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "genese",
+      "du": "genest",
+      "er_sie_es": "genest",
+      "wir": "genesen",
+      "ihr": "genest",
+      "sie_Sie": "genesen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "genas",
+      "du": "genast",
+      "er_sie_es": "genas",
+      "wir": "genasen",
+      "ihr": "genast",
+      "sie_Sie": "genasen"
+    },
+    "imperative": {
+      "du": "genese!",
+      "ihr": "genest!",
+      "Sie": "genesen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "von",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "von einer schweren Grippe (Dat) vollständig genesen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich genese nach der anstrengenden Operation dank guter Pflege von Tag zu Tag besser.",
+      "translation": {
+        "ru": "После тяжелой операции благодаря хорошему уходу я выздоравливаю день ото дня лучше.",
+        "en": "After the strenuous operation I am recovering better day by day thanks to good care."
+      },
+      "bracket_parts": [
+        "genese"
+      ],
+      "dativ_parts": [
+        "nach der anstrengenden Operation",
+        "dank guter Pflege"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Genest du von deiner langwierigen Lungenentzündung in der frischen Bergluft eigentlich gut?",
+      "translation": {
+        "ru": "Выздоравливаешь ли ты от затяжной пневмонии на свежем горном воздухе на самом деле хорошо?",
+        "en": "Are you actually recovering well from your protracted pneumonia in the fresh mountain air?"
+      },
+      "bracket_parts": [
+        "Genest"
+      ],
+      "dativ_parts": [
+        "von deiner langwierigen Lungenentzündung",
+        "in der frischen Bergluft"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der geschwächte Patient genest in der renommierten Reha-Klinik erfreulich rasch.",
+      "translation": {
+        "ru": "Ослабленный пациент в известной реабилитационной клинике выздоравливает отрадно быстро.",
+        "en": "The weakened patient is recovering pleasingly quickly in the renowned rehabilitation clinic."
+      },
+      "bracket_parts": [
+        "genest"
+      ],
+      "dativ_parts": [
+        "in der renommierten Reha-Klinik"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir genesen bei diesem heilsamen Thermalbad-Aufenthalt von den Strapazen des vergangenen Winters.",
+      "translation": {
+        "ru": "Во время этого целебного пребывания на термальном курорте мы оправляемся от тягот прошедшей зимы.",
+        "en": "During this healing thermal bath stay we are recovering from the hardships of the past winter."
+      },
+      "bracket_parts": [
+        "genesen"
+      ],
+      "dativ_parts": [
+        "bei diesem heilsamen Thermalbad-Aufenthalt",
+        "von den Strapazen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Genest ihr nach dem ansteckenden Magen-Darm-Infekt mit schonender Schonkost zu Hause?",
+      "translation": {
+        "ru": "Поправляетесь ли вы после заразной кишечной инфекции с щадящей диетой дома?",
+        "en": "Are you recovering at home with gentle light food after the infectious gastrointestinal infection?"
+      },
+      "bracket_parts": [
+        "Genest"
+      ],
+      "dativ_parts": [
+        "nach dem ansteckenden Magen-Darm-Infekt",
+        "mit schonender Schonkost"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals genas der berühmte Komponist im milden Klima Italiens vollkommen von seiner Krankheit.",
+      "translation": {
+        "ru": "В те времена знаменитый композитор в мягком климате Италии полностью оправился от болезни.",
+        "en": "At that time the famous composer recovered completely from his illness in Italy's mild climate."
+      },
+      "bracket_parts": [
+        "genas"
+      ],
+      "dativ_parts": [
+        "im milden Klima",
+        "von seiner Krankheit"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die erkrankten Kinder sind nach zwei Wochen Bettruhe glücklicherweise wieder vollständig genesen.",
+      "translation": {
+        "ru": "Заболевшие дети после двух недель постельного режима, к счастью, снова полностью выздоровели.",
+        "en": "The sick children have fortunately recovered completely after two weeks of bed rest."
+      },
+      "bracket_parts": [
+        "sind",
+        "genesen"
+      ],
+      "dativ_parts": [
+        "nach zwei Wochen Bettruhe"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Genesen Sie bitte in aller Ruhe und schonen Sie Ihre Kräfte!",
+      "translation": {
+        "ru": "Выздоравливайте, пожалуйста, в полном покое и берегите свои силы!",
+        "en": "Please recover in complete peace and conserve your strength!"
+      },
+      "bracket_parts": [
+        "Genesen"
+      ],
+      "dativ_parts": [
+        "in aller Ruhe"
+      ],
+      "akkusativ_parts": [
+        "Ihre Kräfte"
+      ]
+    }
+  ]
+}

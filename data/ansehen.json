@@ -1,0 +1,200 @@
+{
+  "id": "ansehen",
+  "infinitive": "ansehen",
+  "translation": {
+    "ru": "смотреть на, осматривать",
+    "en": "to look at, to watch"
+  },
+  "level": "A2",
+  "frequency_rank": 97,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ansehen",
+    "present_3sg": "sieht an",
+    "praeteritum_3sg": "sah an",
+    "partizip_2": "angesehen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "sehe an",
+      "du": "siehst an",
+      "er_sie_es": "sieht an",
+      "wir": "sehen an",
+      "ihr": "seht an",
+      "sie_Sie": "sehen an",
+      "root_vowel_change": "e -> ie"
+    },
+    "praeteritum": {
+      "ich": "sah an",
+      "du": "sahst an",
+      "er_sie_es": "sah an",
+      "wir": "sahen an",
+      "ihr": "saht an",
+      "sie_Sie": "sahen an"
+    },
+    "imperative": {
+      "du": "sieh an",
+      "ihr": "seht an",
+      "Sie": "sehen Sie an"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich (Dat) einen Film (Akk) ansehen",
+  "sentences": [
+    {
+      "id": "ansehen_1",
+      "tense": "Präsens",
+      "german": "Ich sehe mir heute Abend einen interessanten Film an.",
+      "translation": {
+        "ru": "Я посмотрю сегодня вечером интересный фильм.",
+        "en": "I am watching an interesting movie tonight."
+      },
+      "bracket_parts": [
+        "sehe",
+        "an"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "einen interessanten Film"
+      ]
+    },
+    {
+      "id": "ansehen_2",
+      "tense": "Präsens",
+      "german": "Siehst du dir die neuen Fotos vom Urlaub an?",
+      "translation": {
+        "ru": "Посмотришь новые фотографии из отпуска?",
+        "en": "Are you looking at the new photos from vacation?"
+      },
+      "bracket_parts": [
+        "Siehst",
+        "an"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "die neuen Fotos"
+      ]
+    },
+    {
+      "id": "ansehen_3",
+      "tense": "Präsens",
+      "german": "Der Arzt sieht sich die Wunde genau an.",
+      "translation": {
+        "ru": "Врач внимательно осматривает рану.",
+        "en": "The doctor examines the wound closely."
+      },
+      "bracket_parts": [
+        "sieht",
+        "an"
+      ],
+      "dativ_parts": [
+        "sich"
+      ],
+      "akkusativ_parts": [
+        "die Wunde"
+      ]
+    },
+    {
+      "id": "ansehen_4",
+      "tense": "Präsens",
+      "german": "Wir sehen die berühmte Gemäldegalerie gemeinsam an.",
+      "translation": {
+        "ru": "Мы вместе осматриваем знаменитую картинную галерею.",
+        "en": "We are viewing the famous art gallery together."
+      },
+      "bracket_parts": [
+        "sehen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die berühmte Gemäldegalerie"
+      ]
+    },
+    {
+      "id": "ansehen_5",
+      "tense": "Präsens",
+      "german": "Seht ihr das alte Schloss in der Stadt an?",
+      "translation": {
+        "ru": "Вы осматриваете старый замок в городе?",
+        "en": "Are you looking at the old castle in the city?"
+      },
+      "bracket_parts": [
+        "Seht",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das alte Schloss"
+      ]
+    },
+    {
+      "id": "ansehen_6",
+      "tense": "Präteritum",
+      "german": "Sie sahen die Skulptur mit großer Bewunderung an.",
+      "translation": {
+        "ru": "Они смотрели на скульптуру с большим восхищением.",
+        "en": "They looked at the sculpture with great admiration."
+      },
+      "bracket_parts": [
+        "sahen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Skulptur"
+      ]
+    },
+    {
+      "id": "ansehen_7",
+      "tense": "Perfekt",
+      "german": "Ich habe mir die neue Ausstellung gestern angesehen.",
+      "translation": {
+        "ru": "Вчера я посмотрел новую выставку.",
+        "en": "I looked at the new exhibition yesterday."
+      },
+      "bracket_parts": [
+        "habe",
+        "angesehen"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "die neue Ausstellung"
+      ]
+    },
+    {
+      "id": "ansehen_8",
+      "tense": "Imperativ",
+      "german": "Sieh dir diesen bunten Schmetterling an!",
+      "translation": {
+        "ru": "Посмотри на эту пеструю бабочку!",
+        "en": "Look at this colorful butterfly!"
+      },
+      "bracket_parts": [
+        "Sieh",
+        "an"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "diesen bunten Schmetterling"
+      ]
+    }
+  ]
+}

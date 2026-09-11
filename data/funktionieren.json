@@ -1,0 +1,153 @@
+{
+  "id": "funktionieren",
+  "infinitive": "funktionieren",
+  "translation": {
+    "ru": "функционировать, работать (об устройстве/плане)",
+    "en": "to function, work"
+  },
+  "level": "A1",
+  "frequency_rank": 264,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "funktionieren",
+    "present_3sg": "funktioniert",
+    "praeteritum_3sg": "funktionierte",
+    "partizip_2": "funktioniert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "funktioniere",
+      "du": "funktionierst",
+      "er_sie_es": "funktioniert",
+      "wir": "funktionieren",
+      "ihr": "funktioniert",
+      "sie_Sie": "funktionieren"
+    },
+    "praeteritum": {
+      "ich": "funktionierte",
+      "du": "funktioniertest",
+      "er_sie_es": "funktionierte",
+      "wir": "funktionierten",
+      "ihr": "funktioniertet",
+      "sie_Sie": "funktionierten"
+    },
+    "imperative": {
+      "du": "funktioniere!",
+      "ihr": "funktioniert!",
+      "Sie": "funktionieren Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einwandfrei funktionieren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich funktioniere unter Druck erstaunlich gut.",
+      "translation": {
+        "ru": "Под давлением я функционирую удивительно продуктивно.",
+        "en": "I function remarkably well under pressure."
+      },
+      "bracket_parts": [
+        "funktioniere"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Funktioniert deine neue Kaffeemaschine einwandfrei?",
+      "translation": {
+        "ru": "Твоя новая кофемашина работает безупречно?",
+        "en": "Does your new coffee machine work flawlessly?"
+      },
+      "bracket_parts": [
+        "Funktioniert"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das WLAN-Netzwerk funktioniert heute leider überhaupt nicht.",
+      "translation": {
+        "ru": "Сеть Wi-Fi сегодня, к сожалению, совсем не работает.",
+        "en": "The Wi-Fi network unfortunately does not work at all today."
+      },
+      "bracket_parts": [
+        "funktioniert"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir funktionieren als eingespieltes Team hervorragend.",
+      "translation": {
+        "ru": "Как сплоченная команда мы работаем превосходно.",
+        "en": "We function excellently as a well-rehearsed team."
+      },
+      "bracket_parts": [
+        "funktionieren"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Funktioniert ihr auch an stressigen Tagen harmonisch zusammen?",
+      "translation": {
+        "ru": "Вы и в напряженные дни слаженно работаете вместе?",
+        "en": "Do you guys also work harmoniously together on stressful days?"
+      },
+      "bracket_parts": [
+        "Funktioniert"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der alte Fernseher funktionierte damals viele Jahre problemlos.",
+      "translation": {
+        "ru": "Старый телевизор в то время работал без проблем много лет.",
+        "en": "The old TV worked without problems for many years back then."
+      },
+      "bracket_parts": [
+        "funktionierte"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der neue Plan hat vom ersten Tag an super funktioniert.",
+      "translation": {
+        "ru": "Новый план с первого дня сработал суперски.",
+        "en": "The new plan worked great from day one."
+      },
+      "bracket_parts": [
+        "hat",
+        "funktioniert"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Funktioniere bitte endlich wieder, du blödes Gerät!",
+      "translation": {
+        "ru": "Заработай же наконец снова, дурацкий прибор!",
+        "en": "Please function again at last, you stupid device!"
+      },
+      "bracket_parts": [
+        "Funktioniere"
+      ]
+    }
+  ]
+}

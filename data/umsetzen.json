@@ -1,0 +1,178 @@
+{
+  "id": "umsetzen",
+  "infinitive": "umsetzen",
+  "translation": {
+    "ru": "реализовывать, воплощать в жизнь, пересаживать",
+    "en": "to put into practice, implement, realize"
+  },
+  "level": "B1",
+  "frequency_rank": 491,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "um",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "umsetzen",
+    "present_3sg": "setzt um",
+    "praeteritum_3sg": "setzte um",
+    "partizip_2": "umgesetzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "setze um",
+      "du": "setzt um",
+      "er_sie_es": "setzt um",
+      "wir": "setzen um",
+      "ihr": "setzt um",
+      "sie_Sie": "setzen um"
+    },
+    "praeteritum": {
+      "ich": "setzte um",
+      "du": "setztest um",
+      "er_sie_es": "setzte um",
+      "wir": "setzten um",
+      "ihr": "setztet um",
+      "sie_Sie": "setzten um"
+    },
+    "perfekt": {
+      "ich": "habe umgesetzt",
+      "du": "hast umgesetzt",
+      "er_sie_es": "hat umgesetzt",
+      "wir": "haben umgesetzt",
+      "ihr": "habt umgesetzt",
+      "sie_Sie": "haben umgesetzt"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich setze meine kreativen Pläne schrittweise in die Tat um.",
+      "translation": {
+        "ru": "Я постепенно воплощаю свои творческие планы в жизнь.",
+        "en": "I put my creative plans into practice step by step."
+      },
+      "bracket_parts": [
+        "setze",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "meine kreativen Pläne"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du setzt die guten Ratschläge deines Lehrers sofort um.",
+      "translation": {
+        "ru": "Ты сразу претворяешь в жизнь хорошие советы своего учителя.",
+        "en": "You immediately put the good advice of your teacher into practice."
+      },
+      "bracket_parts": [
+        "setzt",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "die guten Ratschläge deines Lehrers"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Firma setzt ein modernes Sicherheitskonzept erfolgreich um.",
+      "translation": {
+        "ru": "Компания успешно внедряет современную концепцию безопасности.",
+        "en": "The company successfully implements a modern security concept."
+      },
+      "bracket_parts": [
+        "setzt",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "ein modernes Sicherheitskonzept"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir setzen die neuen gesetzlichen Vorschriften zügig um.",
+      "translation": {
+        "ru": "Мы быстро внедряем новые законодательные нормы.",
+        "en": "We swiftly implement the new statutory regulations."
+      },
+      "bracket_parts": [
+        "setzen",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "die neuen gesetzlichen Vorschriften"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr setzt eure theoretischen Ideen in der Praxis um.",
+      "translation": {
+        "ru": "Вы реализуете свои теоретические идеи на практике.",
+        "en": "You implement your theoretical ideas in practice."
+      },
+      "bracket_parts": [
+        "setzt",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "eure theoretischen Ideen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie setzten damals die schwierige Reform trotz Widerstands um.",
+      "translation": {
+        "ru": "Они тогда провели трудную реформу, несмотря на сопротивление.",
+        "en": "They implemented the difficult reform despite resistance back then."
+      },
+      "bracket_parts": [
+        "setzten",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "die schwierige Reform"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das Projektteam hat die Vorgaben des Kunden perfekt umgesetzt.",
+      "translation": {
+        "ru": "Проектная команда идеально реализовала требования заказчика.",
+        "en": "The project team implemented the client's specifications perfectly."
+      },
+      "bracket_parts": [
+        "hat",
+        "umgesetzt"
+      ],
+      "akkusativ_parts": [
+        "die Vorgaben des Kunden"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Setze deine klugen Gedanken endlich mutig um!",
+      "translation": {
+        "ru": "Воплоти наконец свои умные мысли смело в жизнь!",
+        "en": "Finally implement your clever thoughts courageously!"
+      },
+      "bracket_parts": [
+        "Setze",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "deine klugen Gedanken"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "bewegen_sich",
+  "infinitive": "bewegen",
+  "translation": {
+    "ru": "двигаться, двигаться физически",
+    "en": "to move (physically), to exercise"
+  },
+  "level": "A2",
+  "frequency_rank": 141,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "bewegen",
+    "present_3sg": "bewegt sich",
+    "praeteritum_3sg": "bewegte sich",
+    "partizip_2": "sich bewegt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bewege mich",
+      "du": "bewegst dich",
+      "er_sie_es": "bewegt sich",
+      "wir": "bewegen uns",
+      "ihr": "bewegt euch",
+      "sie_Sie": "bewegen sich",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "bewegte mich",
+      "du": "bewegtest dich",
+      "er_sie_es": "bewegte sich",
+      "wir": "bewegten uns",
+      "ihr": "bewegtet euch",
+      "sie_Sie": "bewegten sich"
+    },
+    "imperative": {
+      "du": "bewege dich",
+      "ihr": "bewegt euch",
+      "Sie": "bewegen Sie sich"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich regelmäßig an der frischen Luft bewegen",
+  "sentences": [
+    {
+      "id": "bewegen_sich_1",
+      "tense": "Präsens",
+      "german": "Ich bewege mich jeden Tag mindestens eine halbe Stunde.",
+      "translation": {
+        "ru": "Я двигаюсь каждый день как минимум полчаса.",
+        "en": "I exercise for at least half an hour every day."
+      },
+      "bracket_parts": [
+        "bewege"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
+    },
+    {
+      "id": "bewegen_sich_2",
+      "tense": "Präsens",
+      "german": "Bewegst du dich regelmäßig an der frischen Luft?",
+      "translation": {
+        "ru": "Ты регулярно двигаешься на свежем воздухе?",
+        "en": "Do you exercise regularly in the fresh air?"
+      },
+      "bracket_parts": [
+        "Bewegst"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ]
+    },
+    {
+      "id": "bewegen_sich_3",
+      "tense": "Präsens",
+      "german": "Die Schlange bewegt sich lautlos durch das Gras.",
+      "translation": {
+        "ru": "Змея бесшумно движется сквозь траву.",
+        "en": "The snake moves silently through the grass."
+      },
+      "bracket_parts": [
+        "bewegt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    },
+    {
+      "id": "bewegen_sich_4",
+      "tense": "Präsens",
+      "german": "Wir bewegen uns rhythmisch zur Musik.",
+      "translation": {
+        "ru": "Мы ритмично двигаемся под музыку.",
+        "en": "We move rhythmically to the music."
+      },
+      "bracket_parts": [
+        "bewegen"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ]
+    },
+    {
+      "id": "bewegen_sich_5",
+      "tense": "Präsens",
+      "german": "Bewegt ihr euch beim Sport intensiv?",
+      "translation": {
+        "ru": "Вы активно двигаетесь во время спорта?",
+        "en": "Do you move intensively during sports?"
+      },
+      "bracket_parts": [
+        "Bewegt"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "bewegen_sich_6",
+      "tense": "Präteritum",
+      "german": "Die Schatten bewegten sich unheimlich an der Wand.",
+      "translation": {
+        "ru": "Тени жутко двигались по стене.",
+        "en": "The shadows moved eerily on the wall."
+      },
+      "bracket_parts": [
+        "bewegten"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    },
+    {
+      "id": "bewegen_sich_7",
+      "tense": "Perfekt",
+      "german": "Ich habe mich heute bei der Wanderung viel bewegt.",
+      "translation": {
+        "ru": "Я сегодня много двигался во время похода.",
+        "en": "I moved a lot during the hike today."
+      },
+      "bracket_parts": [
+        "habe",
+        "bewegt"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
+    },
+    {
+      "id": "bewegen_sich_8",
+      "tense": "Imperativ",
+      "german": "Bewege dich mehr für deine Gesundheit!",
+      "translation": {
+        "ru": "Двигайся больше ради своего здоровья!",
+        "en": "Move more for your health!"
+      },
+      "bracket_parts": [
+        "Bewege"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ]
+    }
+  ]
+}

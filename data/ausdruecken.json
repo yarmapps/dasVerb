@@ -1,0 +1,184 @@
+{
+  "id": "ausdruecken",
+  "infinitive": "ausdrücken",
+  "translation": {
+    "ru": "выражать (мысли/чувства); выжимать",
+    "en": "to express, convey, squeeze out"
+  },
+  "level": "B1",
+  "frequency_rank": 394,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ausdrücken",
+    "present_3sg": "drückt aus",
+    "praeteritum_3sg": "drückte aus",
+    "partizip_2": "ausgedrückt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "drücke aus",
+      "du": "drückst aus",
+      "er_sie_es": "drückt aus",
+      "wir": "drücken aus",
+      "ihr": "drückt aus",
+      "sie_Sie": "drücken aus"
+    },
+    "praeteritum": {
+      "ich": "drückte aus",
+      "du": "drücktest aus",
+      "er_sie_es": "drückte aus",
+      "wir": "drückten aus",
+      "ihr": "drücktet aus",
+      "sie_Sie": "drückten aus"
+    },
+    "imperative": {
+      "du": "drücke aus!",
+      "ihr": "drückt aus!",
+      "Sie": "drücken Sie aus!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "seine Gefühle ausdrücken",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich drücke meine Dankbarkeit ganz herzlich aus.",
+      "translation": {
+        "ru": "Я от всего сердца выражаю свою благодарность.",
+        "en": "I express my gratitude very warmly."
+      },
+      "bracket_parts": [
+        "drücke",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "meine Dankbarkeit"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Drückst du deine Gedanken immer präzise aus?",
+      "translation": {
+        "ru": "Ты всегда точно выражаешь свои мысли?",
+        "en": "Do you always express your thoughts precisely?"
+      },
+      "bracket_parts": [
+        "Drückst",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "deine Gedanken"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Gemälde drückt tiefe Trauer aus.",
+      "translation": {
+        "ru": "Картина выражает глубокую печаль.",
+        "en": "The painting expresses deep sorrow."
+      },
+      "bracket_parts": [
+        "drückt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "tiefe Trauer"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir drücken unser volles Vertrauen in Sie aus.",
+      "translation": {
+        "ru": "Мы выражаем вам наше полное доверие.",
+        "en": "We express our complete trust in you."
+      },
+      "bracket_parts": [
+        "drücken",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "unser volles Vertrauen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Drückt ihr eure Kritik in einem Brief aus?",
+      "translation": {
+        "ru": "Вы выражаете свою критику в письме?",
+        "en": "Are you guys expressing your criticism in a letter?"
+      },
+      "bracket_parts": [
+        "Drückt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "eure Kritik"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie drückten ihr tiefes Mitgefühl persönlich aus.",
+      "translation": {
+        "ru": "Они лично выразили свое глубокое соболезнование.",
+        "en": "They expressed their deep sympathy in person."
+      },
+      "bracket_parts": [
+        "drückten",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "ihr tiefes Mitgefühl"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Sprecherin hat die Sorgen der Bürger klar ausgedrückt.",
+      "translation": {
+        "ru": "Представительница четко выразила тревоги граждан.",
+        "en": "The spokesperson clearly expressed the citizens' concerns."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgedrückt"
+      ],
+      "akkusativ_parts": [
+        "die Sorgen der Bürger"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Drücke deine Meinung stets respektvoll aus!",
+      "translation": {
+        "ru": "Всегда выражай свое мнение уважительно!",
+        "en": "Always express your opinion respectfully!"
+      },
+      "bracket_parts": [
+        "Drücke",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "deine Meinung"
+      ]
+    }
+  ]
+}

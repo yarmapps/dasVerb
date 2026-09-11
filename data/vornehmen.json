@@ -1,0 +1,202 @@
+{
+  "id": "vornehmen",
+  "infinitive": "vornehmen",
+  "translation": {
+    "ru": "намереваться, предпринимать, производить (изменения)",
+    "en": "to undertake, make (changes), plan to do"
+  },
+  "level": "B2",
+  "frequency_rank": 330,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "vor",
+    "is_reflexive": true,
+    "reflexive_case": "Dativ"
+  },
+  "principal_parts": {
+    "infinitive": "vornehmen",
+    "present_3sg": "nimmt vor",
+    "praeteritum_3sg": "nahm vor",
+    "partizip_2": "vorgenommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "nehme mir vor",
+      "du": "nimmst dir vor",
+      "er_sie_es": "nimmt sich vor",
+      "wir": "nehmen uns vor",
+      "ihr": "nehmt euch vor",
+      "sie_Sie": "nehmen sich vor"
+    },
+    "praeteritum": {
+      "ich": "nahm mir vor",
+      "du": "nahmst dir vor",
+      "er_sie_es": "nahm sich vor",
+      "wir": "nahmen uns vor",
+      "ihr": "nahmt euch vor",
+      "sie_Sie": "nahmen sich vor"
+    },
+    "imperative": {
+      "du": "nimm dir vor!",
+      "ihr": "nehmt euch vor!",
+      "Sie": "nehmen Sie sich vor!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich etwas Großes vornehmen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich nehme mir für das neue Jahr mehr Sport vor.",
+      "translation": {
+        "ru": "На новый год я планирую больше заниматься спортом.",
+        "en": "I plan to do more sports in the new year."
+      },
+      "bracket_parts": [
+        "nehme",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "mehr Sport"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Nimmst du dir für das Wochenende eine gründliche Aufräumaktion vor?",
+      "translation": {
+        "ru": "Ты планируешь на выходные основательную уборку?",
+        "en": "Are you planning a thorough cleanup for the weekend?"
+      },
+      "bracket_parts": [
+        "Nimmst",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "eine gründliche Aufräumaktion"
+      ],
+      "dativ_parts": [
+        "dir"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Arzt nimmt eine gründliche Untersuchung des Patienten vor.",
+      "translation": {
+        "ru": "Врач проводит тщательное обследование пациента.",
+        "en": "The doctor carries out a thorough examination of the patient."
+      },
+      "bracket_parts": [
+        "nimmt",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "eine gründliche Untersuchung des Patienten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir nehmen wichtige Anpassungen an der Software vor.",
+      "translation": {
+        "ru": "Мы производим важные корректировки в программном обеспечении.",
+        "en": "We make important adjustments to the software."
+      },
+      "bracket_parts": [
+        "nehmen",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "wichtige Anpassungen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Nehmt ihr euch für die Ferien eine weite Reise vor?",
+      "translation": {
+        "ru": "Вы планируете на каникулы дальнее путешествие?",
+        "en": "Are you guys planning a long journey for the holidays?"
+      },
+      "bracket_parts": [
+        "Nehmt",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "eine weite Reise"
+      ],
+      "dativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Techniker nahmen damals sofort die notwendige Reparatur vor.",
+      "translation": {
+        "ru": "Техники тогда сразу же произвели необходимый ремонт.",
+        "en": "The technicians carried out the necessary repair immediately back then."
+      },
+      "bracket_parts": [
+        "nahmen",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "die notwendige Reparatur"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Er hat sich für sein Examen sehr viel vorgenommen.",
+      "translation": {
+        "ru": "Он наметил себе очень многое к экзамену.",
+        "en": "He set himself a lot of goals for his exam."
+      },
+      "bracket_parts": [
+        "hat",
+        "vorgenommen"
+      ],
+      "akkusativ_parts": [
+        "sehr viel"
+      ],
+      "dativ_parts": [
+        "sich"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Nimm dir bitte nicht zu viele Aufgaben auf einmal vor!",
+      "translation": {
+        "ru": "Не бери на себя слишком много задач одновременно, пожалуйста!",
+        "en": "Please do not take on too many tasks at once!"
+      },
+      "bracket_parts": [
+        "Nimm",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "zu viele Aufgaben"
+      ],
+      "dativ_parts": [
+        "dir"
+      ]
+    }
+  ]
+}

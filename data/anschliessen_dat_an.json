@@ -1,0 +1,208 @@
+{
+  "id": "anschliessen_dat_an",
+  "infinitive": "anschließen",
+  "translation": {
+    "ru": "присоединяться к (мнению/группе)",
+    "en": "to join, endorse, agree with"
+  },
+  "level": "B2",
+  "frequency_rank": 393,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "anschließen",
+    "present_3sg": "schließt an",
+    "praeteritum_3sg": "schloss an",
+    "partizip_2": "angeschlossen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schließe mich an",
+      "du": "schließt dich an",
+      "er_sie_es": "schließt sich an",
+      "wir": "schließen uns an",
+      "ihr": "schließt euch an",
+      "sie_Sie": "schließen sich an"
+    },
+    "praeteritum": {
+      "ich": "schloss mich an",
+      "du": "schlossest dich an",
+      "er_sie_es": "schloss sich an",
+      "wir": "schlossen uns an",
+      "ihr": "schlosst euch an",
+      "sie_Sie": "schlossen sich an"
+    },
+    "imperative": {
+      "du": "schließe dich an!",
+      "ihr": "schließt euch an!",
+      "Sie": "schließen Sie sich an!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "an",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "sich einer Meinung anschließen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich schließe mich vollkommen der Meinung meines Vorredners an.",
+      "translation": {
+        "ru": "Я полностью присоединяюсь к мнению предыдущего оратора.",
+        "en": "I completely endorse the opinion of the previous speaker."
+      },
+      "bracket_parts": [
+        "schließe",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": [
+        "der Meinung meines Vorredners"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Schließt du dich unserer Wandergruppe am Samstag an?",
+      "translation": {
+        "ru": "Ты присоединишься к нашей группе туристов в субботу?",
+        "en": "Will you join our hiking group on Saturday?"
+      },
+      "bracket_parts": [
+        "Schließt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "unserer Wandergruppe"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Kollegin schließt sich dem Vorschlag des Chefs gerne an.",
+      "translation": {
+        "ru": "Коллега охотно соглашается с предложением шефа.",
+        "en": "The colleague gladly agrees with the boss's suggestion."
+      },
+      "bracket_parts": [
+        "schließt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "dem Vorschlag des Chefs"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir schließen uns der allgemeinen Kritik an dem Gesetz an.",
+      "translation": {
+        "ru": "Мы присоединяемся к общей критике этого закона.",
+        "en": "We join the general criticism of the law."
+      },
+      "bracket_parts": [
+        "schließen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ],
+      "dativ_parts": [
+        "der allgemeinen Kritik an dem Gesetz"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Schließt ihr euch dem Protestmarsch durch die Innenstadt an?",
+      "translation": {
+        "ru": "Вы присоединяетесь к маршу протеста через центр города?",
+        "en": "Are you joining the protest march through the city center?"
+      },
+      "bracket_parts": [
+        "Schließt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ],
+      "dativ_parts": [
+        "dem Protestmarsch"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Viele Studenten schlossen sich damals der friedlichen Demonstration an.",
+      "translation": {
+        "ru": "Многие студенты присоединились тогда к мирной демонстрации.",
+        "en": "Many students joined the peaceful demonstration back then."
+      },
+      "bracket_parts": [
+        "schlossen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "der friedlichen Demonstration"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie hat sich der Begründung des Gerichts voll und ganz angeschlossen.",
+      "translation": {
+        "ru": "Она целиком и полностью согласилась с обоснованием суда.",
+        "en": "She fully endorsed the court's reasoning."
+      },
+      "bracket_parts": [
+        "hat",
+        "angeschlossen"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "der Begründung des Gerichts"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Schließe dich bitte unserer Initiative für den Umweltschutz an!",
+      "translation": {
+        "ru": "Присоединяйся к нашей инициативе по защите окружающей среды, пожалуйста!",
+        "en": "Please join our initiative for environmental protection!"
+      },
+      "bracket_parts": [
+        "Schließe",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "unserer Initiative für den Umweltschutz"
+      ]
+    }
+  ]
+}

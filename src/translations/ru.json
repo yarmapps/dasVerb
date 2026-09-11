@@ -1,4 +1,43 @@
 {
+  "appUpdate": {
+    "title": "Доступно обновление",
+    "softMessage": "Доступна новая версия das Verb! Пожалуйста, обновитесь для получения новых функций.",
+    "forceMessage": "Для продолжения использования das Verb требуется критическое обновление. Пожалуйста, обновитесь.",
+    "button": "Обновить сейчас",
+    "close": "Закрыть"
+  },
+  "debugScreen": {
+    "title": "Меню отладки",
+    "sectionState": "Текущее состояние",
+    "sectionDailyLimit": "Дневной лимит квизов",
+    "sectionStreak": "Дневной стрик",
+    "sectionSettings": "Настройки и хранилище",
+    "sectionAppUpdate": "Диалог обновления приложения",
+    "sectionReview": "Запрос оценки приложения (StoreReview)",
+    "dailyQuizzes": "Пройдено сегодня квизов: {count} / {limit}",
+    "totalQuizzes": "Всего завершено квизов: {count}",
+    "extraQuizzes": "Дополнительных квизов: {count}",
+    "adGrants": "Просмотров рекламы сегодня: {count} / {limit}",
+    "streakSummary": "Текущий стрик: {streak} дн. (Рекорд: {best})",
+    "resetDailyLimit": "Сбросить дневной лимит",
+    "grantExtraQuiz": "Добавить +1 квиз",
+    "consumeQuiz": "Использовать 1 квиз",
+    "resetStreak": "Сбросить стрик",
+    "incrementStreak": "Увеличить стрик (+1 день)",
+    "resetAllSettings": "Сбросить настройки к дефолтным",
+    "triggerSoftUpdate": "Показать Soft Update (можно закрыть)",
+    "triggerForceUpdate": "Показать Force Update (нельзя закрыть)",
+    "resetUpdateState": "Сбросить состояние обновления",
+    "triggerReview": "Запросить оценку (StoreReview)",
+    "resetReviewCooldown": "Сбросить кулдаун оценки",
+    "addCompletedQuizzes": "Добавить +5 к счетчику квизов",
+    "alertSuccess": "Успешно",
+    "dailyLimitResetSuccess": "Дневной лимит квизов успешно сброшен.",
+    "streakResetSuccess": "Данные стрика успешно сброшены.",
+    "settingsResetSuccess": "Все настройки сброшены до значений по умолчанию.",
+    "reviewTriggerSuccess": "Запрос отзыва отправлен в ОС.",
+    "reviewCooldownResetSuccess": "Кулдаун запроса отзыва сброшен."
+  },
   "navigation": {
     "practice": "Практика",
     "dictionary": "Словарь"
@@ -16,7 +55,51 @@
     "startNow": "Начать сейчас",
     "smartQuizBadge": "Умный режим",
     "smartQuizTitle": "Умный алгоритм",
-    "smartQuizSubtitle": "Фокусируйтесь на своих ошибках и учитесь в 3 раза быстрее"
+    "smartQuizSubtitle": "Фокусируйтесь на своих ошибках и учитесь в 3 раза быстрее",
+    "prefixBannerBadge": "A1 – B2",
+    "prefixBannerTitle": "Глаголы с приставками",
+    "prefixBannerSubtitle": "Отделяемые, неотделяемые и двойные приставки"
+  },
+  "categories": {
+    "sectionTitle": "Тематические категории",
+    "sectionSubtitle": "Тренируйте глаголы по реальным жизненным темам",
+    "verbsCount": "глаголов",
+    "movement": {
+      "title": "Движение и транспорт",
+      "subtitle": "gehen, fahren, fliegen, ankommen..."
+    },
+    "communication": {
+      "title": "Общение и речь",
+      "subtitle": "sprechen, sagen, fragen, antworten..."
+    },
+    "homeDaily": {
+      "title": "Быт и дом",
+      "subtitle": "wohnen, schlafen, aufstehen, kochen..."
+    },
+    "foodDrink": {
+      "title": "Еда и рестораны",
+      "subtitle": "essen, trinken, bestellen, probieren..."
+    },
+    "workStudy": {
+      "title": "Работа и учеба",
+      "subtitle": "arbeiten, lernen, studieren, schreiben..."
+    },
+    "shoppingMoney": {
+      "title": "Покупки и деньги",
+      "subtitle": "kaufen, bezahlen, kosten, sparen..."
+    },
+    "thoughtsFeelings": {
+      "title": "Мысли и чувства",
+      "subtitle": "denken, glauben, fühlen, lieben..."
+    },
+    "leisureHobbies": {
+      "title": "Досуг и отдых",
+      "subtitle": "spielen, reisen, schwimmen, wandern..."
+    },
+    "health": {
+      "title": "Здоровье и самочувствие",
+      "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    }
   },
   "dictionaryScreen": {
     "title": "Словарь",
@@ -53,7 +136,23 @@
     "voiceMale": "Мужской",
     "maleVoiceHint": "Чтобы использовать мужской немецкий голос, установите его в Настройки iOS → Универсальный доступ → Устный контент → Голоса → Немецкий.",
     "contactUs": "Связаться с нами",
-    "version": "Версия"
+    "version": "Версия",
+    "notificationsPermissionRequiredTitle": "Включите уведомления",
+    "notificationsPermissionRequiredMessage": "Чтобы получать ежедневные напоминания и сохранять серию занятий, пожалуйста, включите уведомления в настройках устройства.",
+    "openSettings": "Настройки",
+    "cancel": "Отмена",
+    "dataSection": "УПРАВЛЕНИЕ ДАННЫМИ",
+    "resetProgress": "Сбросить прогресс обучения",
+    "resetProgressTitle": "Сбросить прогресс обучения?",
+    "resetProgressMessage": "Весь ваш прогресс изучения глаголов и уровней с приставками будет безвозвратно удален. Это действие нельзя отменить.",
+    "resetProgressConfirm": "Сбросить прогресс",
+    "resetProgressSuccess": "Прогресс обучения успешно сброшен.",
+    "resetSettings": "Сбросить настройки",
+    "resetSettingsTitle": "Сбросить настройки?",
+    "resetSettingsMessage": "Все настройки звука, темы и уведомлений вернутся к значениям по умолчанию. Прогресс обучения сохранится.",
+    "resetSettingsConfirm": "Сбросить настройки",
+    "resetSettingsSuccess": "Настройки успешно возвращены к значениям по умолчанию.",
+    "resetSuccessTitle": "Готово"
   },
   "quizSettingsModal": {
     "title": "Настройки теста"
@@ -67,7 +166,35 @@
     "silver": "Серебро",
     "trophy": "Кубок",
     "empty": "Глаголы не найдены",
-    "checkpointTitle": "Промежуточный тест"
+    "checkpointTitle": "Промежуточный тест",
+    "finalTestTitle": "Финальный тест",
+    "finalTestTitleWithLevel": "Итоговый тест {level}",
+    "finalTestSubtitle": "Большой проверочный тест из 20 вопросов",
+    "categoryFinalTestSubtitle": "Итоговый проверочный тест по всей теме",
+    "checkpointSubtitle": "Глаголы {from} – {to}"
+  },
+  "prefixPracticeListScreen": {
+    "title": "Глаголы с приставками",
+    "levelNumber": "Уровень {number}",
+    "checkpointTitle": "Контрольный тест {level}",
+    "checkpointSubtitle": "Большой проверочный тест из 20 вопросов",
+    "subgroupSeparable": "Отделяемые приставки",
+    "subgroupInseparable": "Неотделяемые приставки",
+    "subgroupOpposites": "Пары антонимов",
+    "subgroupDual": "Двойные приставки"
+  },
+  "prefixPractice": {
+    "title": "Глаголы с приставками",
+    "levelTitle": "Уровень {number}",
+    "checkpointTitle": "Контрольный тест {level}"
+  },
+  "prefixGrammarHint": {
+    "separableTitle": "Отделяемая приставка",
+    "inseparableTitle": "Неотделяемая приставка",
+    "dualTitle": "Двойная приставка",
+    "separableRule": "В Präsens и Präteritum отделяемая приставка уходит в самый конец предложения.",
+    "inseparableRule": "Неотделяемые приставки (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) никогда не отделяются от корня.",
+    "dualRule": "Приставки über-, um-, unter-, durch- могут быть отделяемыми или неотделяемыми в зависимости от значения."
   },
   "verbQuizScreen": {
     "title": "Тренировка",
@@ -174,6 +301,61 @@
       "naturalVoiceTitle": "Живое произношение",
       "naturalVoiceShort": "Живое\nаудио",
       "naturalVoiceDescription": "Слушайте глаголы и примеры предложений с естественным немецким произношением."
+    }
+  },
+  "notifications": {
+    "reminderTitle": "Время практиковаться!",
+    "reminderBody": "Короткая тренировка немецких глаголов и порядка слов поможет быстрее довести их до автоматизма.",
+    "trialReminderTitle": "Ваша бесплатная пробная версия скоро заканчивается",
+    "trialReminderBody": "Получите максимум от Premium сегодня! Ваша пробная версия заканчивается через 24 часа.",
+    "streakReminderTitle": "Не потеряйте серию! 🔥",
+    "streakReminderBody": "Вы еще не занимались сегодня. Пройдите короткий 2-минутный квиз, чтобы сохранить серию!"
+  },
+  "firstOpenPaywall": {
+    "trialBadge": "ПРОБНАЯ ВЕРСИЯ · 3 ДНЯ",
+    "title": "Попробуйте Premium перед оплатой",
+    "subtitle": "Как работает бесплатный пробный период.",
+    "cta": "Начать Premium бесплатно",
+    "restore": "Восстановить покупки",
+    "proceedLimited": "Продолжить с ограниченной версией",
+    "priceYearlyWithCoffee": "{price}/год, чашка кофе/мес.",
+    "disclaimer": "Автопродление за {price}/год. Отмените в любой момент в настройках аккаунта.",
+    "disclaimerFallback": "Автопродление раз в год. Отмените в любой момент в настройках.",
+    "priceWithTrial": "Бесплатно на {trialDuration}, затем {price}/год",
+    "priceYearly": "{price}/год",
+    "timeline": {
+      "today": {
+        "day": "Сегодня",
+        "headline": "Полный доступ",
+        "benefits": {
+          "noAds": {
+            "title": "100% без рекламы",
+            "text": "Сосредоточьтесь на обучении благодаря полному отсутствию пауз и рекламы."
+          },
+          "unlimitedQuizzes": {
+            "title": "Безлимитная практика",
+            "text": "Тренируйтесь сколько хотите без дневных лимитов и ожидания."
+          },
+          "allLevels": {
+            "title": "Все уровни A1–B2 открыты",
+            "text": "Мгновенный доступ ко всем глаголам, грамматическим чекпоинтам и тестам."
+          },
+          "smartQuizMode": {
+            "title": "Умный алгоритм ошибок",
+            "text": "Фокусируйтесь на сложных для вас формах и учите глаголы в 3 раза быстрее."
+          }
+        }
+      },
+      "day2": {
+        "day": "День 2",
+        "headline": "Напоминание о триале",
+        "description": "Мы пришлем вам уведомление перед окончанием пробного периода — никаких сюрпризов."
+      },
+      "day3": {
+        "day": "День 3",
+        "headline": "Старт годового доступа",
+        "description": "Пробный период переходит в годовой доступ. Отмените в любой момент в настройках."
+      }
     }
   }
 }

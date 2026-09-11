@@ -1,0 +1,177 @@
+{
+  "id": "beschaeftigen",
+  "infinitive": "beschäftigen",
+  "translation": {
+    "ru": "занимать (мысли/время), давать работу, нанимать",
+    "en": "to employ, occupy, engage"
+  },
+  "level": "B1",
+  "frequency_rank": 194,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beschäftigen",
+    "present_3sg": "beschäftigt",
+    "praeteritum_3sg": "beschäftigte",
+    "partizip_2": "beschäftigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beschäftige",
+      "du": "beschäftigst",
+      "er_sie_es": "beschäftigt",
+      "wir": "beschäftigen",
+      "ihr": "beschäftigt",
+      "sie_Sie": "beschäftigen"
+    },
+    "praeteritum": {
+      "ich": "beschäftigte",
+      "du": "beschäftigtest",
+      "er_sie_es": "beschäftigte",
+      "wir": "beschäftigten",
+      "ihr": "beschäftigtet",
+      "sie_Sie": "beschäftigten"
+    },
+    "imperative": {
+      "du": "beschäftige!",
+      "ihr": "beschäftigt!",
+      "Sie": "beschäftigen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "viele Mitarbeiter beschäftigen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich beschäftige die Kinder mit einem lustigen Malspiel.",
+      "translation": {
+        "ru": "Я занимаю детей веселой игрой в рисование.",
+        "en": "I keep the children occupied with a fun drawing game."
+      },
+      "bracket_parts": [
+        "beschäftige"
+      ],
+      "akkusativ_parts": [
+        "die Kinder"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Beschäftigst du neue Assistenten in deiner Kanzlei?",
+      "translation": {
+        "ru": "Ты нанимаешь новых ассистентов в свою канцелярию?",
+        "en": "Do you employ new assistants in your office?"
+      },
+      "bracket_parts": [
+        "Beschäftigst"
+      ],
+      "akkusativ_parts": [
+        "neue Assistenten"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Dieses Thema beschäftigt die Öffentlichkeit schon lange.",
+      "translation": {
+        "ru": "Эта тема волнует общественность уже давно.",
+        "en": "This topic has occupied the public for a long time."
+      },
+      "bracket_parts": [
+        "beschäftigt"
+      ],
+      "akkusativ_parts": [
+        "die Öffentlichkeit"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beschäftigen über fünfzig Fachkräfte in der Fabrik.",
+      "translation": {
+        "ru": "Мы трудоустраиваем более пятидесяти специалистов на фабрике.",
+        "en": "We employ over fifty specialists in the factory."
+      },
+      "bracket_parts": [
+        "beschäftigen"
+      ],
+      "akkusativ_parts": [
+        "über fünfzig Fachkräfte"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Beschäftigt ihr noch weitere Praktikanten im Sommer?",
+      "translation": {
+        "ru": "Вы трудоустраиваете еще практикантов этим летом?",
+        "en": "Are you guys employing more interns this summer?"
+      },
+      "bracket_parts": [
+        "Beschäftigt"
+      ],
+      "akkusativ_parts": [
+        "noch weitere Praktikanten"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie beschäftigten die Touristen mit interessanten Geschichten.",
+      "translation": {
+        "ru": "Они развлекали туристов интересными историями.",
+        "en": "They kept the tourists occupied with interesting stories."
+      },
+      "bracket_parts": [
+        "beschäftigten"
+      ],
+      "akkusativ_parts": [
+        "die Touristen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das Unternehmen hat letztes Jahr hundert Ingenieure beschäftigt.",
+      "translation": {
+        "ru": "В прошлом году компания трудоустроила сотню инженеров.",
+        "en": "The company employed a hundred engineers last year."
+      },
+      "bracket_parts": [
+        "hat",
+        "beschäftigt"
+      ],
+      "akkusativ_parts": [
+        "hundert Ingenieure"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Beschäftige die unruhigen Gäste mit Musik!",
+      "translation": {
+        "ru": "Займи беспокойных гостей музыкой!",
+        "en": "Keep the restless guests occupied with music!"
+      },
+      "bracket_parts": [
+        "Beschäftige"
+      ],
+      "akkusativ_parts": [
+        "die unruhigen Gäste"
+      ]
+    }
+  ]
+}

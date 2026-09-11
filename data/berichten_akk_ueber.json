@@ -1,0 +1,177 @@
+{
+  "id": "berichten_akk_ueber",
+  "infinitive": "berichten",
+  "translation": {
+    "ru": "сообщать (о чём-то), освещать",
+    "en": "to report (on/about)"
+  },
+  "level": "B1",
+  "frequency_rank": 149,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "berichten",
+    "present_3sg": "berichtet",
+    "praeteritum_3sg": "berichtete",
+    "partizip_2": "berichtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "berichte",
+      "du": "berichtest",
+      "er_sie_es": "berichtet",
+      "wir": "berichten",
+      "ihr": "berichtet",
+      "sie_Sie": "berichten"
+    },
+    "praeteritum": {
+      "ich": "berichtete",
+      "du": "berichtetest",
+      "er_sie_es": "berichtete",
+      "wir": "berichteten",
+      "ihr": "berichtetet",
+      "sie_Sie": "berichteten"
+    },
+    "imperative": {
+      "du": "berichte!",
+      "ihr": "berichtet!",
+      "Sie": "berichten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "über den Unfall berichten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich berichte über das neue Schulprojekt.",
+      "translation": {
+        "ru": "Я рассказываю о новом школьном проекте.",
+        "en": "I am reporting on the new school project."
+      },
+      "bracket_parts": [
+        "berichte"
+      ],
+      "akkusativ_parts": [
+        "das neue Schulprojekt"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Berichtest du heute über die Verhandlungen?",
+      "translation": {
+        "ru": "Ты сообщаешь сегодня о переговорах?",
+        "en": "Are you reporting on the negotiations today?"
+      },
+      "bracket_parts": [
+        "Berichtest"
+      ],
+      "akkusativ_parts": [
+        "die Verhandlungen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Reporter berichtet über den schweren Unfall.",
+      "translation": {
+        "ru": "Репортер сообщает о тяжелой аварии.",
+        "en": "The reporter is reporting on the serious accident."
+      },
+      "bracket_parts": [
+        "berichtet"
+      ],
+      "akkusativ_parts": [
+        "den schweren Unfall"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir berichten über die neuesten Forschungsergebnisse.",
+      "translation": {
+        "ru": "Мы рассказываем о новейших результатах исследований.",
+        "en": "We report on the latest research findings."
+      },
+      "bracket_parts": [
+        "berichten"
+      ],
+      "akkusativ_parts": [
+        "die neuesten Forschungsergebnisse"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Berichtet ihr über den gestrigen Streik?",
+      "translation": {
+        "ru": "Вы рассказываете о вчерашней забастовке?",
+        "en": "Are you guys reporting on yesterday's strike?"
+      },
+      "bracket_parts": [
+        "Berichtet"
+      ],
+      "akkusativ_parts": [
+        "den gestrigen Streik"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie berichteten über die politische Krise im Land.",
+      "translation": {
+        "ru": "Они сообщали о политическом кризисе в стране.",
+        "en": "They reported on the political crisis in the country."
+      },
+      "bracket_parts": [
+        "berichteten"
+      ],
+      "akkusativ_parts": [
+        "die politische Krise im Land"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Medien haben ausführlich über die Wahl berichtet.",
+      "translation": {
+        "ru": "СМИ подробно сообщили о выборах.",
+        "en": "The media reported extensively on the election."
+      },
+      "bracket_parts": [
+        "haben",
+        "berichtet"
+      ],
+      "akkusativ_parts": [
+        "die Wahl"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Berichte bitte sofort über die aktuelle Lage!",
+      "translation": {
+        "ru": "Сообщи немедленно о текущей обстановке, пожалуйста!",
+        "en": "Please report immediately on the current situation!"
+      },
+      "bracket_parts": [
+        "Berichte"
+      ],
+      "akkusativ_parts": [
+        "die aktuelle Lage"
+      ]
+    }
+  ]
+}

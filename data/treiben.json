@@ -1,0 +1,174 @@
+{
+  "id": "treiben",
+  "infinitive": "treiben",
+  "translation": {
+    "ru": "гнать, приводить в движение; заниматься (спортом)",
+    "en": "to drive, drift, pursue, do (sports)"
+  },
+  "level": "A2",
+  "frequency_rank": 212,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "treiben",
+    "present_3sg": "treibt",
+    "praeteritum_3sg": "trieb",
+    "partizip_2": "getrieben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "treibe",
+      "du": "treibst",
+      "er_sie_es": "treibt",
+      "wir": "treiben",
+      "ihr": "treibt",
+      "sie_Sie": "treiben"
+    },
+    "praeteritum": {
+      "ich": "trieb",
+      "du": "triebst",
+      "er_sie_es": "trieb",
+      "wir": "trieben",
+      "ihr": "triebt",
+      "sie_Sie": "trieben"
+    },
+    "imperative": {
+      "du": "treibe!",
+      "ihr": "treibt!",
+      "Sie": "treiben Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "regelmäßig Sport treiben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich treibe jede Woche dreimal intensiv Sport.",
+      "translation": {
+        "ru": "Я трижды в неделю интенсивно занимаюсь спортом.",
+        "en": "I do intense sports three times every week."
+      },
+      "bracket_parts": [
+        "treibe"
+      ],
+      "akkusativ_parts": [
+        "Sport"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Treibst du gerne Sport an der frischen Luft?",
+      "translation": {
+        "ru": "Тебе нравится заниматься спортом на свежем воздухе?",
+        "en": "Do you like doing sports in the fresh air?"
+      },
+      "bracket_parts": [
+        "Treibst"
+      ],
+      "akkusativ_parts": [
+        "Sport"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Wind treibt die bunten Blätter über die Straße.",
+      "translation": {
+        "ru": "Ветер гонит разноцветные листья по улице.",
+        "en": "The wind drives the colorful leaves across the street."
+      },
+      "bracket_parts": [
+        "treibt"
+      ],
+      "akkusativ_parts": [
+        "die bunten Blätter"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir treiben Handel mit vielen europäischen Ländern.",
+      "translation": {
+        "ru": "Мы ведем торговлю со многими европейскими странами.",
+        "en": "We trade with many European countries."
+      },
+      "bracket_parts": [
+        "treiben"
+      ],
+      "akkusativ_parts": [
+        "Handel"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Treibt ihr die Schafherde am Abend in den Stall?",
+      "translation": {
+        "ru": "Вы загоняете отару овец вечером в хлев?",
+        "en": "Are you guys driving the flock of sheep into the barn in the evening?"
+      },
+      "bracket_parts": [
+        "Treibt"
+      ],
+      "akkusativ_parts": [
+        "die Schafherde"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Das kleine Holzboot trieb stundenlang auf dem ruhigen See.",
+      "translation": {
+        "ru": "Маленькая деревянная лодка часами дрейфовала по спокойному озеру.",
+        "en": "The little wooden boat drifted for hours on the calm lake."
+      },
+      "bracket_parts": [
+        "trieb"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Mein Bruder hat sein ganzes Leben lang begeistert Sport getrieben.",
+      "translation": {
+        "ru": "Мой брат всю свою жизнь с воодушевлением занимался спортом.",
+        "en": "My brother enthusiastically played sports all his life."
+      },
+      "bracket_parts": [
+        "hat",
+        "getrieben"
+      ],
+      "akkusativ_parts": [
+        "Sport"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Treibe regelmäßig Sport für deine Gesundheit!",
+      "translation": {
+        "ru": "Занимайся регулярно спортом ради своего здоровья!",
+        "en": "Do sports regularly for your health!"
+      },
+      "bracket_parts": [
+        "Treibe"
+      ],
+      "akkusativ_parts": [
+        "Sport"
+      ]
+    }
+  ]
+}

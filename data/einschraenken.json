@@ -1,0 +1,178 @@
+{
+  "id": "einschraenken",
+  "infinitive": "einschränken",
+  "translation": {
+    "ru": "ограничивать, сокращать",
+    "en": "to restrict, limit, reduce"
+  },
+  "level": "B1",
+  "frequency_rank": 446,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einschränken",
+    "present_3sg": "schränkt ein",
+    "praeteritum_3sg": "schränkte ein",
+    "partizip_2": "eingeschränkt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schränke ein",
+      "du": "schränkst ein",
+      "er_sie_es": "schränkt ein",
+      "wir": "schränken ein",
+      "ihr": "schränkt ein",
+      "sie_Sie": "schränken ein"
+    },
+    "praeteritum": {
+      "ich": "schränkte ein",
+      "du": "schränktest ein",
+      "er_sie_es": "schränkte ein",
+      "wir": "schränkten ein",
+      "ihr": "schränktet ein",
+      "sie_Sie": "schränkten ein"
+    },
+    "perfekt": {
+      "ich": "habe eingeschränkt",
+      "du": "hast eingeschränkt",
+      "er_sie_es": "hat eingeschränkt",
+      "wir": "haben eingeschränkt",
+      "ihr": "habt eingeschränkt",
+      "sie_Sie": "haben eingeschränkt"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich schränke meinen Zuckerkonsum aus Gesundheitsgründen ein.",
+      "translation": {
+        "ru": "Я ограничиваю потребление сахара по состоянию здоровья.",
+        "en": "I restrict my sugar consumption for health reasons."
+      },
+      "bracket_parts": [
+        "schränke",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "meinen Zuckerkonsum"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du schränkst deine Arbeitszeit zugunsten der Familie ein.",
+      "translation": {
+        "ru": "Ты сокращаешь рабочее время в пользу семьи.",
+        "en": "You reduce your working hours in favor of the family."
+      },
+      "bracket_parts": [
+        "schränkst",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "deine Arbeitszeit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Baustelle schränkt den Verkehr auf der Straße ein.",
+      "translation": {
+        "ru": "Стройка ограничивает движение на улице.",
+        "en": "The construction site restricts traffic on the street."
+      },
+      "bracket_parts": [
+        "schränkt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "den Verkehr"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schränken unsere monatlichen Ausgaben spürbar ein.",
+      "translation": {
+        "ru": "Мы ощутимо сокращаем наши ежемесячные расходы.",
+        "en": "We noticeably reduce our monthly expenses."
+      },
+      "bracket_parts": [
+        "schränken",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "unsere monatlichen Ausgaben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr schränkt eure Freizeitaktivitäten vor der Prüfung ein.",
+      "translation": {
+        "ru": "Вы сокращаете свой досуг перед экзаменом.",
+        "en": "You restrict your leisure activities before the exam."
+      },
+      "bracket_parts": [
+        "schränkt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "eure Freizeitaktivitäten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie schränkten damals die Bürgerrechte massiv ein.",
+      "translation": {
+        "ru": "Они тогда сильно ограничили гражданские права.",
+        "en": "They heavily restricted civil rights back then."
+      },
+      "bracket_parts": [
+        "schränkten",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "die Bürgerrechte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Regierung hat den Export bestimmter Güter stark eingeschränkt.",
+      "translation": {
+        "ru": "Правительство сильно ограничило экспорт определенных товаров.",
+        "en": "The government heavily restricted the export of certain goods."
+      },
+      "bracket_parts": [
+        "hat",
+        "eingeschränkt"
+      ],
+      "akkusativ_parts": [
+        "den Export bestimmter Güter"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schränke deine Bildschirmzeit am Abend deutlich ein!",
+      "translation": {
+        "ru": "Значительно сократи время перед экраном по вечерам!",
+        "en": "Significantly reduce your screen time in the evening!"
+      },
+      "bracket_parts": [
+        "Schränke",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "deine Bildschirmzeit"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

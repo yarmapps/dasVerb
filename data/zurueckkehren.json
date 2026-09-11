@@ -1,0 +1,176 @@
+{
+  "id": "zurueckkehren",
+  "infinitive": "zurückkehren",
+  "translation": {
+    "ru": "возвращаться",
+    "en": "to return, come back"
+  },
+  "level": "B1",
+  "frequency_rank": 316,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "zurück",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zurückkehren",
+    "present_3sg": "kehrt zurück",
+    "praeteritum_3sg": "kehrte zurück",
+    "partizip_2": "zurückgekehrt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "kehre zurück",
+      "du": "kehrst zurück",
+      "er_sie_es": "kehrt zurück",
+      "wir": "kehren zurück",
+      "ihr": "kehrt zurück",
+      "sie_Sie": "kehren zurück"
+    },
+    "praeteritum": {
+      "ich": "kehrte zurück",
+      "du": "kehrtest zurück",
+      "er_sie_es": "kehrte zurück",
+      "wir": "kehrten zurück",
+      "ihr": "kehrtet zurück",
+      "sie_Sie": "kehrten zurück"
+    },
+    "imperative": {
+      "du": "kehre zurück!",
+      "ihr": "kehrt zurück!",
+      "Sie": "kehren Sie zurück!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "in die Heimat zurückkehren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich kehre nach vielen Jahren endlich in meine Heimat zurück.",
+      "translation": {
+        "ru": "Спустя много лет я наконец возвращаюсь на родину.",
+        "en": "After many years, I am finally returning to my homeland."
+      },
+      "bracket_parts": [
+        "kehre",
+        "zurück"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Kehrst du heute Abend rechtzeitig zum Abendessen zurück?",
+      "translation": {
+        "ru": "Ты возвращаешься сегодня вечером вовремя к ужину?",
+        "en": "Are you returning in time for dinner tonight?"
+      },
+      "bracket_parts": [
+        "Kehrst",
+        "zurück"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Friede kehrt langsam in das vom Krieg zerstörte Land zurück.",
+      "translation": {
+        "ru": "Мир медленно возвращается в разрушенную войной страну.",
+        "en": "Peace is slowly returning to the war-torn country."
+      },
+      "bracket_parts": [
+        "kehrt",
+        "zurück"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir kehren morgen aus dem Urlaub an den Schreibtisch zurück.",
+      "translation": {
+        "ru": "Мы завтра возвращаемся из отпуска за рабочий стол.",
+        "en": "We return from vacation to our desks tomorrow."
+      },
+      "bracket_parts": [
+        "kehren",
+        "zurück"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kehrt ihr nach der langen Reise bald wieder zurück?",
+      "translation": {
+        "ru": "Вы скоро возвращаетесь обратно после долгой поездки?",
+        "en": "Are you guys returning soon after the long trip?"
+      },
+      "bracket_parts": [
+        "Kehrt",
+        "zurück"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Expedition kehrte damals erschöpft von den Bergen zurück.",
+      "translation": {
+        "ru": "Экспедиция тогда вернулась с гор обессиленной.",
+        "en": "The expedition returned exhausted from the mountains back then."
+      },
+      "bracket_parts": [
+        "kehrte",
+        "zurück"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind gestern wohlbehalten von ihrer Dienstreise zurückgekehrt.",
+      "translation": {
+        "ru": "Они вчера благополучно вернулись из командировки.",
+        "en": "They returned safely from their business trip yesterday."
+      },
+      "bracket_parts": [
+        "sind",
+        "zurückgekehrt"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Kehre bitte vor Einbruch der Dunkelheit sicher zurück!",
+      "translation": {
+        "ru": "Пожалуйста, вернись благополучно до наступления темноты!",
+        "en": "Please return safely before darkness falls!"
+      },
+      "bracket_parts": [
+        "Kehre",
+        "zurück"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    }
+  ]
+}

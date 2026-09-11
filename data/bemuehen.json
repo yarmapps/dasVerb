@@ -1,0 +1,185 @@
+{
+  "id": "bemuehen",
+  "infinitive": "bemühen",
+  "translation": {
+    "ru": "стараться, прилагать усилия",
+    "en": "to strive, try hard, make an effort"
+  },
+  "level": "B1",
+  "frequency_rank": 307,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "bemühen",
+    "present_3sg": "bemüht",
+    "praeteritum_3sg": "bemühte",
+    "partizip_2": "bemüht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bemühe mich",
+      "du": "bemühst dich",
+      "er_sie_es": "bemüht sich",
+      "wir": "bemühen uns",
+      "ihr": "bemüht euch",
+      "sie_Sie": "bemühen sich"
+    },
+    "praeteritum": {
+      "ich": "bemühte mich",
+      "du": "bemühtest dich",
+      "er_sie_es": "bemühte sich",
+      "wir": "bemühten uns",
+      "ihr": "bemühtet euch",
+      "sie_Sie": "bemühten sich"
+    },
+    "imperative": {
+      "du": "bemühe dich!",
+      "ihr": "bemüht euch!",
+      "Sie": "bemühen Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich nach Kräften bemühen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich bemühe mich jeden Tag um eine bessere Aussprache.",
+      "translation": {
+        "ru": "Я каждый день стараюсь улучшить свое произношение.",
+        "en": "I make an effort every day to improve my pronunciation."
+      },
+      "bracket_parts": [
+        "bemühe"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Bemühst du dich wirklich ernsthaft in der Schule?",
+      "translation": {
+        "ru": "Ты действительно серьезно стараешься в школе?",
+        "en": "Are you really making a serious effort in school?"
+      },
+      "bracket_parts": [
+        "Bemühst"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Angestellte bemüht sich stets um freundlichen Service.",
+      "translation": {
+        "ru": "Сотрудница всегда старается предоставить дружелюбный сервис.",
+        "en": "The employee always strives for friendly service."
+      },
+      "bracket_parts": [
+        "bemüht"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir bemühen uns nach Kräften um eine schnelle Lösung.",
+      "translation": {
+        "ru": "Мы изо всех сил стараемся найти быстрое решение.",
+        "en": "We make every effort to find a quick solution."
+      },
+      "bracket_parts": [
+        "bemühen"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bemüht ihr euch im Unterricht um mehr Aufmerksamkeit?",
+      "translation": {
+        "ru": "Вы стараетесь на уроках быть внимательнее?",
+        "en": "Do you guys try to pay more attention in class?"
+      },
+      "bracket_parts": [
+        "Bemüht"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Arzt bemühte sich damals stundenlang um das Leben des Patienten.",
+      "translation": {
+        "ru": "Врач тогда часами боролся за жизнь пациента.",
+        "en": "The doctor struggled for hours for the patient's life back then."
+      },
+      "bracket_parts": [
+        "bemühte"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Alle Beteiligten haben sich sehr um einen Kompromiss bemüht.",
+      "translation": {
+        "ru": "Все участники очень старались достичь компромисса.",
+        "en": "All parties made great efforts to reach a compromise."
+      },
+      "bracket_parts": [
+        "haben",
+        "bemüht"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Bemühe dich bitte um mehr Pünktlichkeit bei der Arbeit!",
+      "translation": {
+        "ru": "Старайся быть более пунктуальным на работе, пожалуйста!",
+        "en": "Please try to be more punctual at work!"
+      },
+      "bracket_parts": [
+        "Bemühe"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

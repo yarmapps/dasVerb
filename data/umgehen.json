@@ -1,0 +1,185 @@
+{
+  "id": "umgehen",
+  "infinitive": "umgehen",
+  "translation": {
+    "ru": "обходить, избегать (препятствие/закон)",
+    "en": "to bypass, circumvent, avoid"
+  },
+  "level": "B2",
+  "frequency_rank": 404,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "um",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "umgehen",
+    "present_3sg": "umgeht",
+    "praeteritum_3sg": "umging",
+    "partizip_2": "umgangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "umgehe",
+      "du": "umgehst",
+      "er_sie_es": "umgeht",
+      "wir": "umgehen",
+      "ihr": "umgeht",
+      "sie_Sie": "umgehen"
+    },
+    "praeteritum": {
+      "ich": "umging",
+      "du": "umgingst",
+      "er_sie_es": "umging",
+      "wir": "umgingen",
+      "ihr": "umgingt",
+      "sie_Sie": "umgingen"
+    },
+    "imperative": {
+      "du": "umgehe!",
+      "ihr": "umgeht!",
+      "Sie": "umgehen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein Hindernis geschickt umgehen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich umgehe den morgendlichen Stau über kleine Nebenstraßen.",
+      "translation": {
+        "ru": "Я объезжаю утреннюю пробку по небольшим второстепенным дорогам.",
+        "en": "I bypass the morning traffic jam via small side streets."
+      },
+      "bracket_parts": [
+        "umgehe"
+      ],
+      "akkusativ_parts": [
+        "den morgendlichen Stau"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Umgehst du mit diesem Trick geschickt die Sicherheitsvorschriften?",
+      "translation": {
+        "ru": "Ты этой уловкой ловко обходишь правила безопасности?",
+        "en": "Are you cleverly circumventing the safety regulations with this trick?"
+      },
+      "bracket_parts": [
+        "Umgehst"
+      ],
+      "akkusativ_parts": [
+        "die Sicherheitsvorschriften"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der kluge Wanderer umgeht die gefährliche Schlammzone im Moor.",
+      "translation": {
+        "ru": "Умный путник обходит опасную грязевую зону на болоте.",
+        "en": "The smart hiker skirts the dangerous mud zone in the bog."
+      },
+      "bracket_parts": [
+        "umgeht"
+      ],
+      "akkusativ_parts": [
+        "die gefährliche Schlammzone"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir umgehen unnötige Bürokratie durch direkte Absprachen.",
+      "translation": {
+        "ru": "Мы избегаем лишней бюрократии прямыми договоренностями.",
+        "en": "We bypass unnecessary bureaucracy through direct agreements."
+      },
+      "bracket_parts": [
+        "umgehen"
+      ],
+      "akkusativ_parts": [
+        "unnötige Bürokratie"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Umgeht ihr das Problem einfach oder löst ihr es?",
+      "translation": {
+        "ru": "Вы просто обходите проблему или решаете ее?",
+        "en": "Are you guys simply bypassing the problem or solving it?"
+      },
+      "bracket_parts": [
+        "Umgeht"
+      ],
+      "akkusativ_parts": [
+        "das Problem"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Das Unternehmen umging damals geschickt die steuerlichen Pflichten.",
+      "translation": {
+        "ru": "Компания тогда ловко обошла налоговые обязательства.",
+        "en": "The company cleverly circumvented tax obligations back then."
+      },
+      "bracket_parts": [
+        "umging"
+      ],
+      "akkusativ_parts": [
+        "die steuerlichen Pflichten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Autofahrer haben die gesperrte Brücke weiträumig umgangen.",
+      "translation": {
+        "ru": "Водители объехали перекрытый мост по широкой дуге.",
+        "en": "The drivers gave the closed bridge a wide berth."
+      },
+      "bracket_parts": [
+        "haben",
+        "umgangen"
+      ],
+      "akkusativ_parts": [
+        "die gesperrte Brücke"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Umgehe bitte jede direkte Konfrontation mit dem Chef!",
+      "translation": {
+        "ru": "Избегай любой прямой конфронтации с шефом, пожалуйста!",
+        "en": "Please avoid any direct confrontation with the boss!"
+      },
+      "bracket_parts": [
+        "Umgehe"
+      ],
+      "akkusativ_parts": [
+        "jede direkte Konfrontation"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

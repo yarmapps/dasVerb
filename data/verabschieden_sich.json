@@ -1,0 +1,147 @@
+{
+  "id": "verabschieden_sich",
+  "infinitive": "verabschieden",
+  "translation": {
+    "ru": "прощаться",
+    "en": "to say goodbye, take leave"
+  },
+  "level": "B1",
+  "frequency_rank": 451,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "verabschieden",
+    "present_3sg": "verabschiedet sich",
+    "praeteritum_3sg": "verabschiedete sich",
+    "partizip_2": "verabschiedet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verabschiede mich",
+      "du": "verabschiedest dich",
+      "er_sie_es": "verabschiedet sich",
+      "wir": "verabschieden uns",
+      "ihr": "verabschiedet euch",
+      "sie_Sie": "verabschieden sich"
+    },
+    "praeteritum": {
+      "ich": "verabschiedete mich",
+      "du": "verabschiedetest dich",
+      "er_sie_es": "verabschiedete sich",
+      "wir": "verabschiedeten uns",
+      "ihr": "verabschiedetet euch",
+      "sie_Sie": "verabschiedeten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich verabschiedet",
+      "du": "hast dich verabschiedet",
+      "er_sie_es": "hat sich verabschiedet",
+      "wir": "haben uns verabschiedet",
+      "ihr": "habt euch verabschiedet",
+      "sie_Sie": "haben sich verabschiedet"
+    }
+  },
+  "rektion": {
+    "case": "none",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich verabschiede mich nun von allen Kollegen.",
+      "translation": {
+        "ru": "Я прощаюсь сейчас со всеми коллегами.",
+        "en": "I am now saying goodbye to all colleagues."
+      },
+      "bracket_parts": [
+        "verabschiede"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du verabschiedest dich immer sehr herzlich.",
+      "translation": {
+        "ru": "Ты всегда прощаешься очень тепло.",
+        "en": "You always say goodbye very warmly."
+      },
+      "bracket_parts": [
+        "verabschiedest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Gast verabschiedet sich mit einer Umarmung.",
+      "translation": {
+        "ru": "Гость прощается объятием.",
+        "en": "The guest says goodbye with a hug."
+      },
+      "bracket_parts": [
+        "verabschiedet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verabschieden uns vor unserer langen Reise.",
+      "translation": {
+        "ru": "Мы прощаемся перед нашим дальним путешествием.",
+        "en": "We say goodbye before our long journey."
+      },
+      "bracket_parts": [
+        "verabschieden"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr verabschiedet euch von euren alten Schulfreunden.",
+      "translation": {
+        "ru": "Вы прощаетесь со своими старыми школьными друзьями.",
+        "en": "You say goodbye to your old school friends."
+      },
+      "bracket_parts": [
+        "verabschiedet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie verabschiedeten sich damals mit Tränen in den Augen.",
+      "translation": {
+        "ru": "Они прощались тогда со слезами на глазах.",
+        "en": "They said goodbye with tears in their eyes back then."
+      },
+      "bracket_parts": [
+        "verabschiedeten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Mein Nachbar hat sich gestern vor dem Umzug verabschiedet.",
+      "translation": {
+        "ru": "Мой сосед попрощался вчера перед переездом.",
+        "en": "My neighbor said goodbye yesterday before moving."
+      },
+      "bracket_parts": [
+        "hat",
+        "verabschiedet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verabschiede dich bitte höflich von den Großeltern!",
+      "translation": {
+        "ru": "Попрощайся вежливо с дедушкой и бабушкой!",
+        "en": "Please say goodbye politely to the grandparents!"
+      },
+      "bracket_parts": [
+        "Verabschiede"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

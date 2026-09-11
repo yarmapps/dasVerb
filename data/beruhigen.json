@@ -1,0 +1,171 @@
+{
+  "id": "beruhigen",
+  "infinitive": "beruhigen",
+  "translation": {
+    "ru": "успокаивать",
+    "en": "to calm, soothe"
+  },
+  "level": "A2",
+  "frequency_rank": 476,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beruhigen",
+    "present_3sg": "beruhigt",
+    "praeteritum_3sg": "beruhigte",
+    "partizip_2": "beruhigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beruhige",
+      "du": "beruhigst",
+      "er_sie_es": "beruhigt",
+      "wir": "beruhigen",
+      "ihr": "beruhigt",
+      "sie_Sie": "beruhigen"
+    },
+    "praeteritum": {
+      "ich": "beruhigte",
+      "du": "beruhigtest",
+      "er_sie_es": "beruhigte",
+      "wir": "beruhigten",
+      "ihr": "beruhigtet",
+      "sie_Sie": "beruhigten"
+    },
+    "perfekt": {
+      "ich": "habe beruhigt",
+      "du": "hast beruhigt",
+      "er_sie_es": "hat beruhigt",
+      "wir": "haben beruhigt",
+      "ihr": "habt beruhigt",
+      "sie_Sie": "haben beruhigt"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich beruhige mein weinendes Kind mit einer Umarmung.",
+      "translation": {
+        "ru": "Я успокаиваю своего плачущего ребенка объятием.",
+        "en": "I calm my crying child with a hug."
+      },
+      "bracket_parts": [
+        "beruhige"
+      ],
+      "akkusativ_parts": [
+        "mein weinendes Kind"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du beruhigst den aufgeregten Gast mit sanften Worten.",
+      "translation": {
+        "ru": "Ты успокаиваешь взволнованного гостя мягкими словами.",
+        "en": "You calm the agitated guest with gentle words."
+      },
+      "bracket_parts": [
+        "beruhigst"
+      ],
+      "akkusativ_parts": [
+        "den aufgeregten Gast"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sanfte Musik beruhigt die nervösen Patienten im Wartezimmer.",
+      "translation": {
+        "ru": "Мягкая музыка успокаивает нервных пациентов в приемной.",
+        "en": "Gentle music calms the nervous patients in the waiting room."
+      },
+      "bracket_parts": [
+        "beruhigt"
+      ],
+      "akkusativ_parts": [
+        "die nervösen Patienten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beruhigen die besorgten Eltern über den Zustand.",
+      "translation": {
+        "ru": "Мы успокаиваем встревоженных родителей по поводу состояния.",
+        "en": "We calm the worried parents about the situation."
+      },
+      "bracket_parts": [
+        "beruhigen"
+      ],
+      "akkusativ_parts": [
+        "die besorgten Eltern"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr beruhigt das ängstliche Tier durch leises Zureden.",
+      "translation": {
+        "ru": "Вы успокаиваете испуганное животное тихим ласковым голосом.",
+        "en": "You calm the fearful animal with quiet words."
+      },
+      "bracket_parts": [
+        "beruhigt"
+      ],
+      "akkusativ_parts": [
+        "das ängstliche Tier"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie beruhigten damals die aufgebrachte Menge mit Versprechungen.",
+      "translation": {
+        "ru": "Они тогда успокоили возмущенную толпу обещаниями.",
+        "en": "They calmed the agitated crowd with promises back then."
+      },
+      "bracket_parts": [
+        "beruhigten"
+      ],
+      "akkusativ_parts": [
+        "die aufgebrachte Menge"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Ärztin hat den verletzten Sportler rasch beruhigt.",
+      "translation": {
+        "ru": "Врач быстро успокоила травмированного спортсмена.",
+        "en": "The doctor quickly calmed the injured athlete."
+      },
+      "bracket_parts": [
+        "hat",
+        "beruhigt"
+      ],
+      "akkusativ_parts": [
+        "den verletzten Sportler"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Beruhige bitte deinen ungeduldigen Freund vor dem Termin!",
+      "translation": {
+        "ru": "Успокой пожалуйста своего нетерпеливого друга перед встречей!",
+        "en": "Please calm your impatient friend before the appointment!"
+      },
+      "bracket_parts": [
+        "Beruhige"
+      ],
+      "akkusativ_parts": [
+        "deinen ungeduldigen Freund"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

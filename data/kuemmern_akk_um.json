@@ -1,0 +1,193 @@
+{
+  "id": "kuemmern_akk_um",
+  "infinitive": "kümmern",
+  "translation": {
+    "ru": "заботиться о, ухаживать за",
+    "en": "to look after, take care of"
+  },
+  "level": "A2",
+  "frequency_rank": 289,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "kümmern",
+    "present_3sg": "kümmert",
+    "praeteritum_3sg": "kümmerte",
+    "partizip_2": "gekümmert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "kümmere mich",
+      "du": "kümmerst dich",
+      "er_sie_es": "kümmert sich",
+      "wir": "kümmern uns",
+      "ihr": "kümmert euch",
+      "sie_Sie": "kümmern sich"
+    },
+    "praeteritum": {
+      "ich": "kümmerte mich",
+      "du": "kümmertest dich",
+      "er_sie_es": "kümmerte sich",
+      "wir": "kümmerten uns",
+      "ihr": "kümmertet euch",
+      "sie_Sie": "kümmerten sich"
+    },
+    "imperative": {
+      "du": "kümmere dich!",
+      "ihr": "kümmert euch!",
+      "Sie": "kümmern Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "um",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "sich um die Kinder kümmern",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich kümmere mich heute liebevoll um den kranken Hund.",
+      "translation": {
+        "ru": "Сегодня я с любовью забочусь о больной собаке.",
+        "en": "I am lovingly taking care of the sick dog today."
+      },
+      "bracket_parts": [
+        "kümmere"
+      ],
+      "akkusativ_parts": [
+        "mich",
+        "den kranken Hund"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Kümmerst du dich am Wochenende um den Garten?",
+      "translation": {
+        "ru": "Ты позаботишься на выходных о саде?",
+        "en": "Are you taking care of the garden at the weekend?"
+      },
+      "bracket_parts": [
+        "Kümmerst"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "den Garten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Mutter kümmert sich aufmerksam um ihre Kinder.",
+      "translation": {
+        "ru": "Мать внимательно заботится о своих детях.",
+        "en": "The mother attentively takes care of her children."
+      },
+      "bracket_parts": [
+        "kümmert"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "ihre Kinder"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir kümmern uns gemeinsam um die Organisation des Festes.",
+      "translation": {
+        "ru": "Мы вместе занимаемся организацией праздника.",
+        "en": "We take care of organizing the party together."
+      },
+      "bracket_parts": [
+        "kümmern"
+      ],
+      "akkusativ_parts": [
+        "uns",
+        "die Organisation des Festes"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kümmert ihr euch während der Reise um unsere Katze?",
+      "translation": {
+        "ru": "Вы присмотрите во время поездки за нашей кошкой?",
+        "en": "Will you guys take care of our cat during the trip?"
+      },
+      "bracket_parts": [
+        "Kümmert"
+      ],
+      "akkusativ_parts": [
+        "euch",
+        "unsere Katze"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Er kümmerte sich viele Jahre rührend um seine alten Großeltern.",
+      "translation": {
+        "ru": "Он много лет трогательно заботился о своих пожилых дедушке и бабушке.",
+        "en": "He took touching care of his elderly grandparents for many years."
+      },
+      "bracket_parts": [
+        "kümmerte"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "seine alten Großeltern"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben sich gewissenhaft um alle Gäste gekümmert.",
+      "translation": {
+        "ru": "Они добросовестно позаботились обо всех гостях.",
+        "en": "They conscientiously looked after all the guests."
+      },
+      "bracket_parts": [
+        "haben",
+        "gekümmert"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "alle Gäste"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Kümmere dich bitte pünktlich um die Rechnungen!",
+      "translation": {
+        "ru": "Позаботься, пожалуйста, вовремя о счетах!",
+        "en": "Please take care of the bills on time!"
+      },
+      "bracket_parts": [
+        "Kümmere"
+      ],
+      "akkusativ_parts": [
+        "dich",
+        "die Rechnungen"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

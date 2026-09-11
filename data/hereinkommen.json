@@ -1,0 +1,176 @@
+{
+  "id": "hereinkommen",
+  "infinitive": "hereinkommen",
+  "translation": {
+    "ru": "входить внутрь (сюда)",
+    "en": "to come in, enter"
+  },
+  "level": "A1",
+  "frequency_rank": 338,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "herein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "hereinkommen",
+    "present_3sg": "kommt herein",
+    "praeteritum_3sg": "kam herein",
+    "partizip_2": "hereingekommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "komme herein",
+      "du": "kommst herein",
+      "er_sie_es": "kommt herein",
+      "wir": "kommen herein",
+      "ihr": "kommt herein",
+      "sie_Sie": "kommen herein"
+    },
+    "praeteritum": {
+      "ich": "kam herein",
+      "du": "kamst herein",
+      "er_sie_es": "kam herein",
+      "wir": "kamen herein",
+      "ihr": "kamt herein",
+      "sie_Sie": "kamen herein"
+    },
+    "imperative": {
+      "du": "komm herein!",
+      "ihr": "kommt herein!",
+      "Sie": "kommen Sie herein!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ins warme Zimmer hereinkommen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich komme leise ins warme Zimmer herein.",
+      "translation": {
+        "ru": "Я тихо вхожу в теплую комнату.",
+        "en": "I come quietly into the warm room."
+      },
+      "bracket_parts": [
+        "komme",
+        "herein"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Kommst du endlich aus der Kälte herein?",
+      "translation": {
+        "ru": "Ты зайдешь наконец с холода внутрь?",
+        "en": "Are you finally coming inside out of the cold?"
+      },
+      "bracket_parts": [
+        "Kommst",
+        "herein"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Arzt kommt nach der Untersuchung ins Wartezimmer herein.",
+      "translation": {
+        "ru": "Врач входит после осмотра в приемную.",
+        "en": "The doctor comes into the waiting room after the examination."
+      },
+      "bracket_parts": [
+        "kommt",
+        "herein"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir kommen durch den Hintereingang ins Gebäude herein.",
+      "translation": {
+        "ru": "Мы заходим в здание через черный ход.",
+        "en": "We come into the building through the back entrance."
+      },
+      "bracket_parts": [
+        "kommen",
+        "herein"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kommt ihr bitte schnell herein, es regnet draußen!",
+      "translation": {
+        "ru": "Заходите скорее внутрь, на улице идет дождь!",
+        "en": "Please come inside quickly, it is raining outside!"
+      },
+      "bracket_parts": [
+        "Kommt",
+        "herein"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Ein unerwarteter Gast kam damals spät am Abend herein.",
+      "translation": {
+        "ru": "Неожиданный гость вошел тогда поздно вечером.",
+        "en": "An unexpected guest came in late in the evening back then."
+      },
+      "bracket_parts": [
+        "kam",
+        "herein"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie sind alle zusammen fröhlich ins Haus hereingekommen.",
+      "translation": {
+        "ru": "Они все вместе весело вошли в дом.",
+        "en": "They all came cheerfully into the house together."
+      },
+      "bracket_parts": [
+        "sind",
+        "hereingekommen"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Komm bitte herein und nimm Platz!",
+      "translation": {
+        "ru": "Входи, пожалуйста, и присаживайся!",
+        "en": "Please come in and take a seat!"
+      },
+      "bracket_parts": [
+        "Komm",
+        "herein"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    }
+  ]
+}

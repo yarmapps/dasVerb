@@ -1,0 +1,185 @@
+{
+  "id": "verbergen",
+  "infinitive": "verbergen",
+  "translation": {
+    "ru": "скрывать, прятать, таить",
+    "en": "to hide, conceal"
+  },
+  "level": "B2",
+  "frequency_rank": 418,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verbergen",
+    "present_3sg": "verbirgt",
+    "praeteritum_3sg": "verbarg",
+    "partizip_2": "verborgen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verberge",
+      "du": "verbirgst",
+      "er_sie_es": "verbirgt",
+      "wir": "verbergen",
+      "ihr": "verbergt",
+      "sie_Sie": "verbergen"
+    },
+    "praeteritum": {
+      "ich": "verbarg",
+      "du": "verbargst",
+      "er_sie_es": "verbarg",
+      "wir": "verbargen",
+      "ihr": "verbargt",
+      "sie_Sie": "verbargen"
+    },
+    "imperative": {
+      "du": "verbirg!",
+      "ihr": "verbergt!",
+      "Sie": "verbergen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein Geheimnis verbergen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verberge meine tiefe Enttäuschung hinter einem Lächeln.",
+      "translation": {
+        "ru": "Я скрываю свое глубокое разочарование за улыбкой.",
+        "en": "I hide my deep disappointment behind a smile."
+      },
+      "bracket_parts": [
+        "verberge"
+      ],
+      "akkusativ_parts": [
+        "meine tiefe Enttäuschung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verbirgst du ein wichtiges Geheimnis vor deinen Eltern?",
+      "translation": {
+        "ru": "Ты скрываешь важный секрет от своих родителей?",
+        "en": "Are you hiding an important secret from your parents?"
+      },
+      "bracket_parts": [
+        "Verbirgst"
+      ],
+      "akkusativ_parts": [
+        "ein wichtiges Geheimnis"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Dichter Nebel verbirgt die hohen Gipfel der Berge vor den Augen der Wanderer.",
+      "translation": {
+        "ru": "Густой туман скрывает высокие вершины гор от глаз путников.",
+        "en": "Thick fog hides the high peaks of the mountains from the hikers' eyes."
+      },
+      "bracket_parts": [
+        "verbirgt"
+      ],
+      "akkusativ_parts": [
+        "die hohen Gipfel der Berge"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verbergen unsere wahren Absichten nicht vor unseren Partnern.",
+      "translation": {
+        "ru": "Мы не скрываем наших истинных намерений от наших партнеров.",
+        "en": "We do not conceal our true intentions from our partners."
+      },
+      "bracket_parts": [
+        "verbergen"
+      ],
+      "akkusativ_parts": [
+        "unsere wahren Absichten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verbergt ihr eure Gefühle immer so geschickt vor anderen?",
+      "translation": {
+        "ru": "Вы всегда так ловко скрываете свои чувства от других?",
+        "en": "Do you guys always hide your feelings so skillfully from others?"
+      },
+      "bracket_parts": [
+        "Verbergt"
+      ],
+      "akkusativ_parts": [
+        "eure Gefühle"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Schatzsucher verbarg damals die gefundenen Goldmünzen im Keller.",
+      "translation": {
+        "ru": "Кладоискатель спрятал тогда найденные золотые монеты в подвале.",
+        "en": "The treasure hunter hid the found gold coins in the cellar back then."
+      },
+      "bracket_parts": [
+        "verbarg"
+      ],
+      "akkusativ_parts": [
+        "die gefundenen Goldmünzen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Er hat seine wahre Identität über viele Jahre erfolgreich verborgen.",
+      "translation": {
+        "ru": "Он много лет успешно скрывал свою истинную личность.",
+        "en": "He successfully concealed his true identity for many years."
+      },
+      "bracket_parts": [
+        "hat",
+        "verborgen"
+      ],
+      "akkusativ_parts": [
+        "seine wahre Identität"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verbirg bitte nicht die Wahrheit vor deinen Freunden!",
+      "translation": {
+        "ru": "Не скрывай правду от своих друзей, пожалуйста!",
+        "en": "Please do not conceal the truth from your friends!"
+      },
+      "bracket_parts": [
+        "Verbirg"
+      ],
+      "akkusativ_parts": [
+        "die Wahrheit"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

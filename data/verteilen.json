@@ -1,0 +1,185 @@
+{
+  "id": "verteilen",
+  "infinitive": "verteilen",
+  "translation": {
+    "ru": "раздавать, распределять",
+    "en": "to distribute, divide, spread"
+  },
+  "level": "B1",
+  "frequency_rank": 329,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verteilen",
+    "present_3sg": "verteilt",
+    "praeteritum_3sg": "verteilte",
+    "partizip_2": "verteilt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verteile",
+      "du": "verteilst",
+      "er_sie_es": "verteilt",
+      "wir": "verteilen",
+      "ihr": "verteilt",
+      "sie_Sie": "verteilen"
+    },
+    "praeteritum": {
+      "ich": "verteilte",
+      "du": "verteiltest",
+      "er_sie_es": "verteilte",
+      "wir": "verteilten",
+      "ihr": "verteiltet",
+      "sie_Sie": "verteilten"
+    },
+    "imperative": {
+      "du": "verteile!",
+      "ihr": "verteilt!",
+      "Sie": "verteilen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Aufgaben gerecht verteilen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verteile heute die Arbeitsblätter an alle Schüler in der Klasse.",
+      "translation": {
+        "ru": "Сегодня я раздаю рабочие листы всем ученикам в классе.",
+        "en": "Today I distribute the worksheets to all students in the class."
+      },
+      "bracket_parts": [
+        "verteile"
+      ],
+      "akkusativ_parts": [
+        "die Arbeitsblätter"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verteilst du die Geschenke gerecht unter den Kindern?",
+      "translation": {
+        "ru": "Ты справедливо распределяешь подарки среди детей?",
+        "en": "Are you distributing the gifts fairly among the children?"
+      },
+      "bracket_parts": [
+        "Verteilst"
+      ],
+      "akkusativ_parts": [
+        "die Geschenke"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Organisation verteilt Lebensmittel an bedürftige Familien.",
+      "translation": {
+        "ru": "Организация раздает продукты нуждающимся семьям.",
+        "en": "The organization distributes food to families in need."
+      },
+      "bracket_parts": [
+        "verteilt"
+      ],
+      "akkusativ_parts": [
+        "Lebensmittel"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verteilen die Aufgaben im Team nach Fähigkeiten.",
+      "translation": {
+        "ru": "Мы распределяем задачи в команде по способностям.",
+        "en": "We divide the tasks in the team according to skills."
+      },
+      "bracket_parts": [
+        "verteilen"
+      ],
+      "akkusativ_parts": [
+        "die Aufgaben"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verteilt ihr die Flyer in der Fußgängerzone?",
+      "translation": {
+        "ru": "Вы раздаете флаеры в пешеходной зоне?",
+        "en": "Are you guys distributing flyers in the pedestrian zone?"
+      },
+      "bracket_parts": [
+        "Verteilt"
+      ],
+      "akkusativ_parts": [
+        "die Flyer"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Großvater verteilte damals Süßigkeiten an alle Enkel.",
+      "translation": {
+        "ru": "Дедушка тогда раздал сладости всем внукам.",
+        "en": "The grandfather distributed sweets to all grandchildren back then."
+      },
+      "bracket_parts": [
+        "verteilte"
+      ],
+      "akkusativ_parts": [
+        "Süßigkeiten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Helfer haben sauberes Trinkwasser im Katastrophengebiet verteilt.",
+      "translation": {
+        "ru": "Помощники раздали чистую питьевую воду в зоне бедствия.",
+        "en": "The helpers distributed clean drinking water in the disaster area."
+      },
+      "bracket_parts": [
+        "haben",
+        "verteilt"
+      ],
+      "akkusativ_parts": [
+        "sauberes Trinkwasser"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verteile bitte die Einladungen noch vor dem Wochenende!",
+      "translation": {
+        "ru": "Раздай приглашения до выходных, пожалуйста!",
+        "en": "Please hand out the invitations before the weekend!"
+      },
+      "bracket_parts": [
+        "Verteile"
+      ],
+      "akkusativ_parts": [
+        "die Einladungen"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

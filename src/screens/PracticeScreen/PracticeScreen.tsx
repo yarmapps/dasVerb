@@ -9,15 +9,17 @@ import { useAppTheme } from '../../context/ThemeContext';
 import { ScreenHeader } from '../../components/ScreenHeader/ScreenHeader';
 import { ScreenBackground } from '../../components/ScreenBackground/ScreenBackground';
 import { FeaturedStartCard } from '../../components/FeaturedStartCard/FeaturedStartCard';
+import { PrefixPracticeCard } from '../../components/PrefixPracticeCard/PrefixPracticeCard';
 import { SmartQuizCard } from '../../components/SmartQuizCard/SmartQuizCard';
+import { ThematicCategoriesSection } from '../../components/ThematicCategoriesSection/ThematicCategoriesSection';
+import { ThematicCategory } from '../../config/categories';
 import { PremiumSubscribeSheet } from '../../components/PremiumSubscribeSheet/PremiumSubscribeSheet';
 import { soundService } from '../../services/soundService';
 import { useNavigateToQuiz } from '../../hooks/useNavigateToQuiz';
 import { usePremiumStatus } from '../../hooks/usePremiumStatus';
 import { RootStackParamList, PracticeStackParamList } from '../../types/navigation';
 import { createStyles } from './PracticeScreen.styles';
-// eslint-disable-next-line @typescript-eslint/no-require-imports
-const { ENABLE_PREMIUM } = require('../../config/features');
+import { useFeatureFlag } from '../../services/featuresService';
 
 type NavigationProp = NativeStackNavigationProp<PracticeStackParamList & RootStackParamList>;
 
@@ -28,6 +30,7 @@ export function PracticeScreen(): React.JSX.Element {
   const styles = useMemo(() => createStyles(colors), [colors]);
   const { navigateToQuiz, dailyQuizLimitModalUI } = useNavigateToQuiz(navigation);
   const isPremium = usePremiumStatus();
+  const isPremiumFeature = useFeatureFlag('ENABLE_PREMIUM');
   const [showPremiumSheet, setShowPremiumSheet] = useState(false);
 
   const handleStartStandard = () => {
@@ -35,9 +38,23 @@ export function PracticeScreen(): React.JSX.Element {
     navigation.navigate('VerbsPracticeList');
   };
 
+  const handleStartPrefixPractice = () => {
+    soundService.playTapSound();
+    navigation.navigate('PrefixPracticeList');
+  };
+
   const handleStartSmartQuiz = () => {
     soundService.playTapSound();
     navigateToQuiz({ isSmartQuiz: true });
+  };
+
+  const handleSelectCategory = (category: ThematicCategory) => {
+    soundService.playTapSound();
+    navigation.navigate('VerbsPracticeList', {
+      categoryId: category.id,
+      categoryTitle: intl.formatMessage({ id: category.titleKey }),
+      infinitives: category.verbInfinitives,
+    });
   };
 
   return (
@@ -48,7 +65,7 @@ export function PracticeScreen(): React.JSX.Element {
         showBackButton={false}
         leftContent={
           <View style={styles.headerLeftRow}>
-            {ENABLE_PREMIUM && !isPremium && (
+            {isPremiumFeature && !isPremium && (
               <TouchableOpacity
                 style={styles.headerButton}
                 onPress={() => setShowPremiumSheet(true)}
@@ -61,6 +78,13 @@ export function PracticeScreen(): React.JSX.Element {
             <TouchableOpacity
               style={styles.headerButton}
               onPress={() => navigation.navigate('Settings')}
+              onLongPress={() => {
+                if (__DEV__) {
+                  soundService.playTapSound();
+                  navigation.navigate('Debug');
+                }
+              }}
+              delayLongPress={350}
               testID="settings-button"
               hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
             >
@@ -77,12 +101,18 @@ export function PracticeScreen(): React.JSX.Element {
           {/* Standard Course Path */}
           <FeaturedStartCard onPress={handleStartStandard} />
 
+          {/* Prefix Verbs Practice Mode */}
+          <PrefixPracticeCard onPress={handleStartPrefixPractice} />
+
           {/* Smart Quiz Mode (derArtikel style) */}
           <SmartQuizCard onPress={handleStartSmartQuiz} />
+
+          {/* Thematic Categories Section */}
+          <ThematicCategoriesSection onSelectCategory={handleSelectCategory} />
         </ScrollView>
       </View>
       {dailyQuizLimitModalUI}
-      {ENABLE_PREMIUM && (
+      {isPremiumFeature && (
         <PremiumSubscribeSheet
           visible={showPremiumSheet}
           onClose={() => setShowPremiumSheet(false)}

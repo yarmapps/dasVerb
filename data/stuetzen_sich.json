@@ -1,0 +1,147 @@
+{
+  "id": "stuetzen_sich",
+  "infinitive": "stützen",
+  "translation": {
+    "ru": "опираться, полагаться",
+    "en": "to lean on, rely upon, base on"
+  },
+  "level": "B1",
+  "frequency_rank": 500,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "stützen",
+    "present_3sg": "stützt sich",
+    "praeteritum_3sg": "stützte sich",
+    "partizip_2": "gestützt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stütze mich",
+      "du": "stützt dich",
+      "er_sie_es": "stützt sich",
+      "wir": "stützen uns",
+      "ihr": "stützt euch",
+      "sie_Sie": "stützen sich"
+    },
+    "praeteritum": {
+      "ich": "stützte mich",
+      "du": "stütztest dich",
+      "er_sie_es": "stützte sich",
+      "wir": "stützten uns",
+      "ihr": "stütztet euch",
+      "sie_Sie": "stützten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich gestützt",
+      "du": "hast dich gestützt",
+      "er_sie_es": "hat sich gestützt",
+      "wir": "haben uns gestützt",
+      "ihr": "habt euch gestützt",
+      "sie_Sie": "haben sich gestützt"
+    }
+  },
+  "rektion": {
+    "case": "none",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich stütze mich beim Aufstehen auf die Armlehnen des Stuhls.",
+      "translation": {
+        "ru": "При вставании я опираюсь на подлокотники стула.",
+        "en": "I lean on the chair's armrests when getting up."
+      },
+      "bracket_parts": [
+        "stütze"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du stützt dich mit beiden Händen auf den Küchentisch.",
+      "translation": {
+        "ru": "Ты опираешься обеими руками на кухонный стол.",
+        "en": "You lean on the kitchen table with both hands."
+      },
+      "bracket_parts": [
+        "stützt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der alte Herr stützt sich beim Gehen auf einen Spazierstock.",
+      "translation": {
+        "ru": "Пожилой господин опирается при ходьбе на трость.",
+        "en": "The old gentleman leans on a walking stick when walking."
+      },
+      "bracket_parts": [
+        "stützt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir stützen uns bei unserer Untersuchung auf aktuelle Daten.",
+      "translation": {
+        "ru": "В своем исследовании мы опираемся на актуальные данные.",
+        "en": "In our study we rely on current data."
+      },
+      "bracket_parts": [
+        "stützen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr stützt euch gegenseitig in dieser schwierigen Phase.",
+      "translation": {
+        "ru": "Вы взаимно поддерживаете друг друга в этот трудный период.",
+        "en": "You support each other mutually in this difficult phase."
+      },
+      "bracket_parts": [
+        "stützt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie stützten sich damals voll und ganz auf verlässliche Freunde.",
+      "translation": {
+        "ru": "Они тогда целиком и полностью полагались на надежных друзей.",
+        "en": "They relied completely on dependable friends back then."
+      },
+      "bracket_parts": [
+        "stützten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Wissenschaftlerin hat sich auf langjährige Experimente gestützt.",
+      "translation": {
+        "ru": "Ученая опиралась на многолетние эксперименты.",
+        "en": "The scientist relied on many years of experiments."
+      },
+      "bracket_parts": [
+        "hat",
+        "gestützt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Stütze dich vorsichtig an der Wand ab!",
+      "translation": {
+        "ru": "Осторожно обопрись о стену!",
+        "en": "Carefully steady yourself against the wall!"
+      },
+      "bracket_parts": [
+        "Stütze"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

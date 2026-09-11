@@ -1,0 +1,162 @@
+{
+  "id": "stattfinden",
+  "infinitive": "stattfinden",
+  "translation": {
+    "ru": "состояться, происходить",
+    "en": "to take place, to happen"
+  },
+  "level": "A2",
+  "frequency_rank": 140,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "statt",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "stattfinden",
+    "present_3sg": "findet statt",
+    "praeteritum_3sg": "fand statt",
+    "partizip_2": "stattgefunden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "finde statt",
+      "du": "findest statt",
+      "er_sie_es": "findet statt",
+      "wir": "finden statt",
+      "ihr": "findet statt",
+      "sie_Sie": "finden statt",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "fand statt",
+      "du": "fandest statt",
+      "er_sie_es": "fand statt",
+      "wir": "fanden statt",
+      "ihr": "fandet statt",
+      "sie_Sie": "fanden statt"
+    },
+    "imperative": {
+      "du": "finde statt",
+      "ihr": "findet statt",
+      "Sie": "finden Sie statt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "morgen / pünktlich stattfinden",
+  "sentences": [
+    {
+      "id": "stattfinden_1",
+      "tense": "Präsens",
+      "german": "Die Konferenz findet heute um zehn Uhr statt.",
+      "translation": {
+        "ru": "Конференция состоится сегодня в десять часов.",
+        "en": "The conference takes place today at ten o'clock."
+      },
+      "bracket_parts": [
+        "findet",
+        "statt"
+      ]
+    },
+    {
+      "id": "stattfinden_2",
+      "tense": "Präsens",
+      "german": "Findet deine Geburtstagsparty am Samstag statt?",
+      "translation": {
+        "ru": "Твоя вечеринка по случаю дня рождения состоится в субботу?",
+        "en": "Is your birthday party taking place on Saturday?"
+      },
+      "bracket_parts": [
+        "Findet",
+        "statt"
+      ]
+    },
+    {
+      "id": "stattfinden_3",
+      "tense": "Präsens",
+      "german": "Das Konzert findet bei jedem Wetter draußen statt.",
+      "translation": {
+        "ru": "Концерт состоится на открытом воздухе при любой погоде.",
+        "en": "The concert takes place outside in any weather."
+      },
+      "bracket_parts": [
+        "findet",
+        "statt"
+      ]
+    },
+    {
+      "id": "stattfinden_4",
+      "tense": "Präsens",
+      "german": "Unsere regelmäßigen Treffen finden jeden Dienstag statt.",
+      "translation": {
+        "ru": "Наши регулярные встречи проходят каждый вторник.",
+        "en": "Our regular meetings take place every Tuesday."
+      },
+      "bracket_parts": [
+        "finden",
+        "statt"
+      ]
+    },
+    {
+      "id": "stattfinden_5",
+      "tense": "Präsens",
+      "german": "Findet euer Deutschkurs auch in den Ferien statt?",
+      "translation": {
+        "ru": "Ваш курс немецкого проходит также во время каникул?",
+        "en": "Does your German course also take place during the holidays?"
+      },
+      "bracket_parts": [
+        "Findet",
+        "statt"
+      ]
+    },
+    {
+      "id": "stattfinden_6",
+      "tense": "Präteritum",
+      "german": "Die Olympischen Spiele fanden damals in Berlin statt.",
+      "translation": {
+        "ru": "Олимпийские игры состоялись тогда в Берлине.",
+        "en": "The Olympic Games took place in Berlin back then."
+      },
+      "bracket_parts": [
+        "fanden",
+        "statt"
+      ]
+    },
+    {
+      "id": "stattfinden_7",
+      "tense": "Perfekt",
+      "german": "Die feierliche Zeremonie hat gestern Abend stattgefunden.",
+      "translation": {
+        "ru": "Торжественная церемония состоялась вчера вечером.",
+        "en": "The festive ceremony took place yesterday evening."
+      },
+      "bracket_parts": [
+        "hat",
+        "stattgefunden"
+      ]
+    },
+    {
+      "id": "stattfinden_8",
+      "tense": "Imperativ",
+      "german": "Finde bitte wie geplant pünktlich statt!",
+      "translation": {
+        "ru_ru": "Состойся, пожалуйста, вовремя, как и запланировано!",
+        "ru": "Состойся, пожалуйста, вовремя, как запланировано!",
+        "en": "Please take place on time as planned!"
+      },
+      "bracket_parts": [
+        "Finde",
+        "statt"
+      ]
+    }
+  ]
+}

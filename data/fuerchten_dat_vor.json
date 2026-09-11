@@ -1,0 +1,201 @@
+{
+  "id": "fuerchten_dat_vor",
+  "infinitive": "fürchten",
+  "translation": {
+    "ru": "бояться (чего-то/кого-то)",
+    "en": "to be afraid of, fear"
+  },
+  "level": "B1",
+  "frequency_rank": 377,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "fürchten",
+    "present_3sg": "fürchtet",
+    "praeteritum_3sg": "fürchtete",
+    "partizip_2": "gefürchtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "fürchte mich",
+      "du": "fürchtest dich",
+      "er_sie_es": "fürchtet sich",
+      "wir": "fürchten uns",
+      "ihr": "fürchtet euch",
+      "sie_Sie": "fürchten sich"
+    },
+    "praeteritum": {
+      "ich": "fürchtete mich",
+      "du": "fürchtetest dich",
+      "er_sie_es": "fürchtete sich",
+      "wir": "fürchteten uns",
+      "ihr": "fürchtetet euch",
+      "sie_Sie": "fürchteten sich"
+    },
+    "imperative": {
+      "du": "fürchte dich!",
+      "ihr": "fürchtet euch!",
+      "Sie": "fürchten Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "vor",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "sich vor Hunden fürchten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich fürchte mich überhaupt nicht vor großen Hunden.",
+      "translation": {
+        "ru": "Я совершенно не боюсь больших собак.",
+        "en": "I am not afraid of big dogs at all."
+      },
+      "bracket_parts": [
+        "fürchte"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": [
+        "großen Hunden"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Fürchtest du dich nachts vor Gewittern mit Blitzen?",
+      "translation": {
+        "ru": "Ты боишься ночью гроз с молниями?",
+        "en": "Are you afraid of thunderstorms with lightning at night?"
+      },
+      "bracket_parts": [
+        "Fürchtest"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "Gewittern mit Blitzen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das kleine Kind fürchtet sich vor dem lauten Staubsauger.",
+      "translation": {
+        "ru": "Маленький ребенок боится громкого пылесоса.",
+        "en": "The little child is afraid of the loud vacuum cleaner."
+      },
+      "bracket_parts": [
+        "fürchtet"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "dem lauten Staubsauger"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir fürchten uns vor den Folgen des Klimawandels.",
+      "translation": {
+        "ru": "Мы боимся последствий изменения климата.",
+        "en": "We fear the consequences of climate change."
+      },
+      "bracket_parts": [
+        "fürchten"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ],
+      "dativ_parts": [
+        "den Folgen des Klimawandels"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Fürchtet ihr euch vor langen Reisen mit dem Flugzeug?",
+      "translation": {
+        "ru": "Вы боитесь дальних перелетов на самолете?",
+        "en": "Are you guys afraid of long plane journeys?"
+      },
+      "bracket_parts": [
+        "Fürchtet"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ],
+      "dativ_parts": [
+        "langen Reisen mit dem Flugzeug"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Bewohner fürchteten sich damals vor wilden Tieren im Wald.",
+      "translation": {
+        "ru": "Жители тогда боялись диких зверей в лесу.",
+        "en": "The inhabitants were afraid of wild animals in the forest back then."
+      },
+      "bracket_parts": [
+        "fürchteten"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "wilden Tieren"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Patienten haben sich lange vor dem Eingriff gefürchtet.",
+      "translation": {
+        "ru": "Пациенты долго боялись хирургического вмешательства.",
+        "en": "The patients were afraid of the procedure for a long time."
+      },
+      "bracket_parts": [
+        "haben",
+        "gefürchtet"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "dem Eingriff"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Fürchte dich bitte niemals vor neuen Herausforderungen!",
+      "translation": {
+        "ru": "Никогда не бойся новых вызовов, пожалуйста!",
+        "en": "Please never be afraid of new challenges!"
+      },
+      "bracket_parts": [
+        "Fürchte"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "neuen Herausforderungen"
+      ]
+    }
+  ]
+}

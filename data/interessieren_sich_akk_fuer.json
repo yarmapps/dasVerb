@@ -1,11 +1,11 @@
 {
   "id": "interessieren_sich_akk_fuer",
-  "infinitive": "sich interessieren",
+  "infinitive": "interessieren",
   "translation": {
-    "ru": "интересоваться (чем-то)",
+    "ru": "интересоваться чем-то",
     "en": "to be interested in"
   },
-  "level": "B1",
+  "level": "A1",
   "frequency_rank": 91,
   "auxiliary": "haben",
   "morphology": {
@@ -16,10 +16,10 @@
     "reflexive_case": "Akkusativ"
   },
   "principal_parts": {
-    "infinitive": "sich interessieren",
+    "infinitive": "interessieren",
     "present_3sg": "interessiert sich",
     "praeteritum_3sg": "interessierte sich",
-    "partizip_2": "interessiert"
+    "partizip_2": "sich interessiert"
   },
   "conjugation": {
     "present": {
@@ -40,9 +40,9 @@
       "sie_Sie": "interessierten sich"
     },
     "imperative": {
-      "du": "interessier dich!",
-      "ihr": "interessiert euch!",
-      "Sie": "interessieren Sie sich!"
+      "du": "interessiere dich",
+      "ihr": "interessiert euch",
+      "Sie": "interessieren Sie sich"
     }
   },
   "rektion": {
@@ -51,135 +51,135 @@
     "preposition": "für",
     "preposition_case": "Akkusativ"
   },
-  "chunk": "sich für zeitgenössische Kunst (Akk) interessieren",
+  "chunk": "sich für Sprachen (Akk) interessieren",
   "sentences": [
     {
-      "id": "s1",
+      "id": "interessieren_sich_akk_fuer_1",
       "tense": "Präsens",
-      "german": "Ich interessiere mich schon seit meiner Jugend für moderne Astronomie.",
+      "german": "Ich interessiere mich sehr für fremde Sprachen und Kulturen.",
       "translation": {
-        "ru": "Я уже с юности интересуюсь современной астрономией.",
-        "en": "I have been interested in modern astronomy since my youth."
+        "ru": "Я очень интересуюсь иностранными языками и культурами.",
+        "en": "I am very interested in foreign languages and cultures."
       },
       "bracket_parts": [
         "interessiere"
       ],
       "akkusativ_parts": [
         "mich",
-        "für moderne Astronomie"
+        "für fremde Sprachen"
       ]
     },
     {
-      "id": "s2",
+      "id": "interessieren_sich_akk_fuer_2",
       "tense": "Präsens",
-      "german": "Interessierst du dich eigentlich für europäische Politik und Wirtschaft?",
+      "german": "Interessierst du dich für klassische Musik?",
       "translation": {
-        "ru": "Ты вообще интересуешься европейской политикой и экономикой?",
-        "en": "Are you actually interested in European politics and economics?"
+        "ru": "Ты интересуешься классической музыкой?",
+        "en": "Are you interested in classical music?"
       },
       "bracket_parts": [
         "Interessierst"
       ],
       "akkusativ_parts": [
         "dich",
-        "für europäische Politik und Wirtschaft"
+        "für klassische Musik"
       ]
     },
     {
-      "id": "s3",
+      "id": "interessieren_sich_akk_fuer_3",
       "tense": "Präsens",
-      "german": "Der junge Forscher interessiert sich leidenschaftlich für den Schutz der Meere.",
+      "german": "Mein Bruder interessiert sich für moderne Architektur.",
       "translation": {
-        "ru": "Молодой исследователь страстно интересуется защитой морей.",
-        "en": "The young researcher is passionately interested in protecting the oceans."
+        "ru": "Мой брат интересуется современной архитектурой.",
+        "en": "My brother is interested in modern architecture."
       },
       "bracket_parts": [
         "interessiert"
       ],
       "akkusativ_parts": [
         "sich",
-        "für den Schutz der Meere"
+        "für moderne Architektur"
       ]
     },
     {
-      "id": "s4",
+      "id": "interessieren_sich_akk_fuer_4",
       "tense": "Präsens",
-      "german": "Wir interessieren uns für diese neue Methode, weil sie sehr effizient ist.",
+      "german": "Wir interessieren uns für die Geschichte dieser Stadt.",
       "translation": {
-        "ru": "Мы интересуемся этой новой методикой, потому что она очень эффективна.",
-        "en": "We are interested in this new method because it is very efficient."
+        "ru": "Мы интересуемся историей этого города.",
+        "en": "We are interested in the history of this city."
       },
       "bracket_parts": [
         "interessieren"
       ],
       "akkusativ_parts": [
         "uns",
-        "für diese neue Methode"
+        "für die Geschichte"
       ]
     },
     {
-      "id": "s5",
+      "id": "interessieren_sich_akk_fuer_5",
       "tense": "Präsens",
-      "german": "Interessiert ihr euch in eurer Freizeit für klassische Architektur?",
+      "german": "Interessiert ihr euch für diesen neuen Sportkurs?",
       "translation": {
-        "ru": "Вы в свободное время интересуетесь классической архитектурой?",
-        "en": "Are you interested in classical architecture in your spare time?"
+        "ru": "Вы интересуетесь этим новым спортивным курсом?",
+        "en": "Are you interested in this new sports class?"
       },
       "bracket_parts": [
         "Interessiert"
       ],
       "akkusativ_parts": [
         "euch",
-        "für klassische Architektur"
+        "für diesen neuen Sportkurs"
       ]
     },
     {
-      "id": "s6",
+      "id": "interessieren_sich_akk_fuer_6",
       "tense": "Präteritum",
-      "german": "Gestern interessierte sie sich bei der Führung besonders für alte Gemälde.",
+      "german": "Sie interessierten sich damals für biologische Landwirtschaft.",
       "translation": {
-        "ru": "Вчера на экскурсии она особенно интересовалась старинными картинами.",
-        "en": "Yesterday on the tour she was particularly interested in old paintings."
+        "ru": "Они интересовались тогда органическим сельским хозяйством.",
+        "en": "They were interested in organic farming back then."
       },
       "bracket_parts": [
-        "interessierte"
+        "interessierten"
       ],
       "akkusativ_parts": [
         "sich",
-        "für alte Gemälde"
+        "für biologische Landwirtschaft"
       ]
     },
     {
-      "id": "s7",
+      "id": "interessieren_sich_akk_fuer_7",
       "tense": "Perfekt",
-      "german": "Sie haben sich schon immer für fremde Kulturen und Sprachen interessiert.",
+      "german": "Ich habe mich schon als Kind für Astronomie interessiert.",
       "translation": {
-        "ru": "Они всегда интересовались чужими культурами и языками.",
-        "en": "They have always been interested in foreign cultures and languages."
+        "ru": "Я еще ребенком интересовался астрономией.",
+        "en": "I was already interested in astronomy as a child."
       },
       "bracket_parts": [
-        "haben",
+        "habe",
         "interessiert"
       ],
       "akkusativ_parts": [
-        "sich",
-        "für fremde Kulturen und Sprachen"
+        "mich",
+        "für Astronomie"
       ]
     },
     {
-      "id": "s8",
+      "id": "interessieren_sich_akk_fuer_8",
       "tense": "Imperativ",
-      "german": "Interessieren Sie sich doch bitte auch für die Meinung der Kollegen!",
+      "german": "Interessiere dich mehr für deine Umwelt!",
       "translation": {
-        "ru": "Поинтересуйтесь, пожалуйста, также мнением коллег!",
-        "en": "Please also take an interest in the opinion of your colleagues!"
+        "ru": "Интересуйся больше окружающей средой!",
+        "en": "Be more interested in your environment!"
       },
       "bracket_parts": [
-        "Interessieren"
+        "Interessiere"
       ],
       "akkusativ_parts": [
-        "sich",
-        "für die Meinung der Kollegen"
+        "dich",
+        "für deine Umwelt"
       ]
     }
   ]

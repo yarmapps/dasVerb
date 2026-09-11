@@ -11,6 +11,7 @@ export interface VerbProgress {
 const progressStorage = createStorage('verb_progress');
 const sentenceErrorsStorage = createStorage('sentence_error_stats');
 const checkpointStorage = createStorage('checkpoint_progress');
+const prefixLevelsStorage = createStorage('prefix_levels_progress');
 
 export function calculateVerbStatus(score: number): VerbProgressStatus {
   if (score < 60) return 'uncompleted';
@@ -148,7 +149,11 @@ export const progressService = {
   },
 
   getCheckpointProgress(checkpointId: string): VerbProgress {
-    const rawData = checkpointStorage.getString(checkpointId);
+    let rawData = checkpointStorage.getString(checkpointId);
+    if (!rawData && checkpointId.startsWith('checkpoint-a1-')) {
+      const legacyId = checkpointId.replace('checkpoint-a1-', 'checkpoint-');
+      rawData = checkpointStorage.getString(legacyId);
+    }
     if (rawData) {
       try {
         const parsed = JSON.parse(rawData);
@@ -183,6 +188,44 @@ export const progressService = {
   },
 
   clearAllProgress(): void {
-    // Used for tests and resets
+    progressStorage.clearAll();
+    sentenceErrorsStorage.clearAll();
+    checkpointStorage.clearAll();
+    prefixLevelsStorage.clearAll();
+  },
+
+  getPrefixLevelProgress(levelId: string): VerbProgress {
+    const rawData = prefixLevelsStorage.getString(levelId);
+    if (rawData) {
+      try {
+        const parsed = JSON.parse(rawData);
+        const score = typeof parsed.score === 'number' ? parsed.score : 0;
+        return {
+          score,
+          status: calculateVerbStatus(score),
+          lastPracticedAt: parsed.lastPracticedAt,
+        };
+      } catch {
+        // ignore corrupted json
+      }
+    }
+
+    return {
+      score: 0,
+      status: 'uncompleted',
+    };
+  },
+
+  setPrefixLevelProgress(levelId: string, score: number): void {
+    const clampedScore = Math.max(0, Math.min(100, score));
+    const previousProgress = this.getPrefixLevelProgress(levelId);
+    const bestScore = Math.max(previousProgress.score, clampedScore);
+    const status = calculateVerbStatus(bestScore);
+    const progressData: VerbProgress = {
+      score: bestScore,
+      status,
+      lastPracticedAt: Date.now(),
+    };
+    prefixLevelsStorage.set(levelId, JSON.stringify(progressData));
   },
 };

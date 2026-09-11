@@ -1,0 +1,184 @@
+{
+  "id": "einrichten",
+  "infinitive": "einrichten",
+  "translation": {
+    "ru": "обустраивать, обставлять (мебелью); настраивать (аккаунт)",
+    "en": "to furnish, arrange, set up"
+  },
+  "level": "A2",
+  "frequency_rank": 251,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einrichten",
+    "present_3sg": "richtet ein",
+    "praeteritum_3sg": "richtete ein",
+    "partizip_2": "eingerichtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "richte ein",
+      "du": "richtest ein",
+      "er_sie_es": "richtet ein",
+      "wir": "richten ein",
+      "ihr": "richtet ein",
+      "sie_Sie": "richten ein"
+    },
+    "praeteritum": {
+      "ich": "richtete ein",
+      "du": "richtetest ein",
+      "er_sie_es": "richtete ein",
+      "wir": "richteten ein",
+      "ihr": "richtetet ein",
+      "sie_Sie": "richteten ein"
+    },
+    "imperative": {
+      "du": "richte ein!",
+      "ihr": "richtet ein!",
+      "Sie": "richten Sie ein!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine Wohnung gemütlich einrichten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich richte mein neues Arbeitszimmer sehr modern ein.",
+      "translation": {
+        "ru": "Я очень современно обустраиваю свой новый рабочий кабинет.",
+        "en": "I furnish my new study very modernly."
+      },
+      "bracket_parts": [
+        "richte",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "mein neues Arbeitszimmer"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Richtest du dein E-Mail-Konto auf dem Handy ein?",
+      "translation": {
+        "ru": "Ты настраиваешь свою почту на телефоне?",
+        "en": "Are you setting up your email account on your phone?"
+      },
+      "bracket_parts": [
+        "Richtest",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "dein E-Mail-Konto"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die junge Familie richtet die helle Wohnung liebevoll ein.",
+      "translation": {
+        "ru": "Молодая семья с любовью обставляет светлую квартиру.",
+        "en": "The young family lovingly furnishes the bright apartment."
+      },
+      "bracket_parts": [
+        "richtet",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "die helle Wohnung"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir richten eine zusätzliche Sprechstunde für Studenten ein.",
+      "translation": {
+        "ru": "Мы организуем дополнительные часы приема для студентов.",
+        "en": "We set up an additional office hour for students."
+      },
+      "bracket_parts": [
+        "richten",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "eine zusätzliche Sprechstunde"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Richtet ihr das Kinderzimmer schon vor der Geburt ein?",
+      "translation": {
+        "ru": "Вы обустраиваете детскую комнату уже до рождения?",
+        "en": "Are you guys furnishing the nursery before the birth?"
+      },
+      "bracket_parts": [
+        "Richtet",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "das Kinderzimmer"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie richteten damals ein kleines Büro im Keller ein.",
+      "translation": {
+        "ru": "В то время они оборудовали маленький офис в подвале.",
+        "en": "They set up a small office in the basement back then."
+      },
+      "bracket_parts": [
+        "richteten",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "ein kleines Büro"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Mein Vater hat die Werkstatt perfekt für Holzarbeiten eingerichtet.",
+      "translation": {
+        "ru": "Мой папа прекрасно оборудовал мастерскую для работы с деревом.",
+        "en": "My father equipped the workshop perfectly for woodworking."
+      },
+      "bracket_parts": [
+        "hat",
+        "eingerichtet"
+      ],
+      "akkusativ_parts": [
+        "die Werkstatt"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Richte bitte das neue Benutzerkonto für den Gast ein!",
+      "translation": {
+        "ru": "Настрой новую учетную запись для гостя, пожалуйста!",
+        "en": "Please set up the new user account for the guest!"
+      },
+      "bracket_parts": [
+        "Richte",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "das neue Benutzerkonto"
+      ]
+    }
+  ]
+}

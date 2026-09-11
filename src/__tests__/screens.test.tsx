@@ -1,4 +1,5 @@
 import React from 'react';
+import { FlatList } from 'react-native';
 import { render, fireEvent, waitFor } from '@testing-library/react-native';
 import { PracticeScreen } from '../screens/PracticeScreen/PracticeScreen';
 import { VerbsPracticeListScreen } from '../screens/VerbsPracticeListScreen/VerbsPracticeListScreen';
@@ -368,12 +369,10 @@ describe('Screens Integration Suite', () => {
 
       await waitFor(() => {
         expect(getByText('Практика глаголов')).toBeTruthy();
-        expect(getByText(/A1/i)).toBeTruthy();
-        expect(getByText(/A2/i)).toBeTruthy();
+        expect(getByTestId('verbs-tab-A1')).toBeTruthy();
+        expect(getByTestId('verbs-tab-A2')).toBeTruthy();
         expect(getByText('fahren')).toBeTruthy();
         expect(getByText('to drive')).toBeTruthy();
-        expect(getByText('hängen')).toBeTruthy();
-        expect(getByText('to hang')).toBeTruthy();
         expect(getByTestId('verb-practice-level-fahren')).toBeTruthy();
       });
 
@@ -382,6 +381,13 @@ describe('Screens Integration Suite', () => {
       expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
         infinitive: 'fahren',
         level: 'A1',
+      });
+
+      // Switch to A2 tab to verify A2 verbs
+      fireEvent.press(getByTestId('verbs-tab-A2'));
+      await waitFor(() => {
+        expect(getByText('hängen')).toBeTruthy();
+        expect(getByText('to hang')).toBeTruthy();
       });
 
       const backButton = getByTestId('header-back-button');
@@ -408,19 +414,106 @@ describe('Screens Integration Suite', () => {
       await waitFor(() => {
         expect(getByTestId('checkpoint-card-1')).toBeTruthy();
         expect(getByText('Промежуточный тест')).toBeTruthy();
+        expect(getByTestId('level-final-test-A1')).toBeTruthy();
+        expect(getByText('Итоговый тест A1')).toBeTruthy();
       });
 
       const checkpointCard = getByTestId('checkpoint-card-1');
       fireEvent.press(checkpointCard);
       expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
         isCheckpoint: true,
-        checkpointId: 'checkpoint-1',
+        checkpointId: 'checkpoint-a1-1',
         checkpointNumber: 1,
         fromIndex: 1,
         toIndex: 10,
         infinitives: tenVerbs.map(v => v.infinitive),
         level: 'A1',
       });
+    });
+
+    it('should render unified list without level headers and with final test card at the end', async () => {
+      mockRouteParams = {
+        categoryId: 'movement',
+        categoryTitle: 'Движение и транспорт',
+        infinitives: ['fahren'],
+      };
+
+      const { getByText, queryByText, getByTestId } = render(
+        <ScreenWrapper>
+          <VerbsPracticeListScreen />
+        </ScreenWrapper>,
+      );
+
+      await waitFor(() => {
+        expect(getByText('Движение и транспорт')).toBeTruthy();
+        expect(getByText('fahren')).toBeTruthy();
+        expect(queryByText('hängen')).toBeNull();
+        // Level header should NOT be rendered in category mode
+        expect(queryByText(/УРОВЕНЬ/i)).toBeNull();
+        // Final test card should be rendered at the end
+        expect(getByTestId('category-final-test-movement')).toBeTruthy();
+        expect(getByText('Финальный тест')).toBeTruthy();
+      });
+
+      const finalTestCard = getByTestId('category-final-test-movement');
+      fireEvent.press(finalTestCard);
+      expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
+        isCheckpoint: true,
+        checkpointId: 'category-movement-final',
+        checkpointNumber: 1,
+        fromIndex: 1,
+        toIndex: 1,
+        infinitives: ['fahren'],
+        level: 'A1',
+        categoryId: 'movement',
+      });
+
+      mockRouteParams = {};
+    });
+
+    it('should auto-scroll to furthest completed verb when entering the screen at index around 50', async () => {
+      const sixtyVerbs: VerbCard[] = Array.from({ length: 60 }, (_, i) => ({
+        ...mockVerbs[0],
+        id: `verb_${i + 1}`,
+        infinitive: `verb${i + 1}`,
+        level: 'A1',
+      }));
+
+      jest.spyOn(verbDataService, 'getVerbsOrderedByDifficulty').mockResolvedValue(sixtyVerbs);
+      jest.spyOn(progressService, 'getVerbProgress').mockImplementation((id: string) => {
+        const num = Number(id.replace('verb_', ''));
+        if (num <= 50) {
+          return { score: 100, status: 'trophy' };
+        }
+        return { score: 0, status: 'uncompleted' };
+      });
+      jest.spyOn(progressService, 'getCheckpointProgress').mockReturnValue({
+        score: 100,
+        status: 'trophy',
+      });
+
+      const scrollToIndexSpy = jest.spyOn(FlatList.prototype, 'scrollToIndex');
+
+      render(
+        <ScreenWrapper>
+          <VerbsPracticeListScreen />
+        </ScreenWrapper>,
+      );
+
+      await waitFor(() => {
+        expect(scrollToIndexSpy).toHaveBeenCalledWith(
+          expect.objectContaining({
+            index: expect.any(Number),
+            viewPosition: 0.5,
+            animated: true,
+          }),
+        );
+      });
+
+      const calledWith = scrollToIndexSpy.mock.calls[0]?.[0];
+      expect(calledWith?.index).toBeGreaterThanOrEqual(50);
+
+      scrollToIndexSpy.mockRestore();
     });
   });
 
@@ -741,7 +834,7 @@ describe('Screens Integration Suite', () => {
       jest.clearAllMocks();
     });
 
-    it('should render trophy and victory message for 6/6 correct answers', () => {
+    it('should render trophy and victory message for 6/6 correct answers', async () => {
       mockRouteParams = {
         infinitive: 'anrufen',
         level: 'A1',
@@ -760,18 +853,20 @@ describe('Screens Integration Suite', () => {
         </ScreenWrapper>,
       );
 
-      expect(getByText('Результаты')).toBeTruthy();
-      expect(getByText('Вы сделали это!')).toBeTruthy();
-      expect(getByText('6 из 6')).toBeTruthy();
-      expect(getByTestId('next-level-button')).toBeTruthy();
-      expect(getByTestId('try-again-button')).toBeTruthy();
-      expect(getByTestId('header-back-button')).toBeTruthy();
+      await waitFor(() => {
+        expect(getByText('Результаты')).toBeTruthy();
+        expect(getByText('Вы сделали это!')).toBeTruthy();
+        expect(getByText('6 из 6')).toBeTruthy();
+        expect(getByTestId('next-level-button')).toBeTruthy();
+        expect(getByTestId('try-again-button')).toBeTruthy();
+        expect(getByTestId('header-back-button')).toBeTruthy();
+      });
 
       fireEvent.press(getByTestId('header-back-button'));
       expect(mockPopToTop).toHaveBeenCalled();
     });
 
-    it('should render silver medal and next level as primary button for 5/6 correct answers', () => {
+    it('should render silver medal and next level as primary button for 5/6 correct answers', async () => {
       mockRouteParams = {
         infinitive: 'anrufen',
         level: 'A1',
@@ -799,16 +894,18 @@ describe('Screens Integration Suite', () => {
         </ScreenWrapper>,
       );
 
-      expect(getByText('Близко к совершенству!')).toBeTruthy();
-      expect(getByText('5 из 6')).toBeTruthy();
-      expect(getByTestId('next-level-button')).toBeTruthy();
-      expect(getByTestId('try-again-button')).toBeTruthy();
+      await waitFor(() => {
+        expect(getByText('Близко к совершенству!')).toBeTruthy();
+        expect(getByText('5 из 6')).toBeTruthy();
+        expect(getByTestId('next-level-button')).toBeTruthy();
+        expect(getByTestId('try-again-button')).toBeTruthy();
+      });
 
       fireEvent.press(getByTestId('try-again-button'));
       expect(mockReplace).toHaveBeenCalledWith('VerbQuiz', { infinitive: 'anrufen', level: 'A1' });
     });
 
-    it('should render uncompleted state with try again as primary and next level as secondary for low score (<4/6)', () => {
+    it('should render uncompleted state with try again as primary and next level as secondary for low score (<4/6)', async () => {
       mockRouteParams = {
         infinitive: 'anrufen',
         level: 'A1',
@@ -836,13 +933,15 @@ describe('Screens Integration Suite', () => {
         </ScreenWrapper>,
       );
 
-      expect(getByText('Можно лучше!')).toBeTruthy();
-      expect(getByText('1 из 6')).toBeTruthy();
-      expect(getByTestId('try-again-button')).toBeTruthy();
-      expect(getByTestId('next-level-button')).toBeTruthy();
+      await waitFor(() => {
+        expect(getByText('Можно лучше!')).toBeTruthy();
+        expect(getByText('1 из 6')).toBeTruthy();
+        expect(getByTestId('try-again-button')).toBeTruthy();
+        expect(getByTestId('next-level-button')).toBeTruthy();
+      });
     });
 
-    it('should handle checkpoint quiz results and save checkpoint progress', () => {
+    it('should handle checkpoint quiz results and save checkpoint progress', async () => {
       const setCheckpointProgressSpy = jest.spyOn(progressService, 'setCheckpointProgress');
 
       mockRouteParams = {
@@ -866,9 +965,11 @@ describe('Screens Integration Suite', () => {
         </ScreenWrapper>,
       );
 
-      expect(getByText('Результаты теста')).toBeTruthy();
-      expect(getByText('16 из 20')).toBeTruthy();
-      expect(setCheckpointProgressSpy).toHaveBeenCalledWith('checkpoint-1', 80);
+      await waitFor(() => {
+        expect(getByText('Результаты теста')).toBeTruthy();
+        expect(getByText('16 из 20')).toBeTruthy();
+        expect(setCheckpointProgressSpy).toHaveBeenCalledWith('checkpoint-1', 80);
+      });
     });
 
     it('should handle smart quiz results and navigate back to practice', () => {
@@ -892,12 +993,12 @@ describe('Screens Integration Suite', () => {
       expect(getByText('Результаты умного квиза')).toBeTruthy();
       expect(getByText('45 из 50')).toBeTruthy();
       expect(getByTestId('try-again-button')).toBeTruthy();
-      expect(getByTestId('back-to-practice-button')).toBeTruthy();
+      expect(getByTestId('header-back-button')).toBeTruthy();
 
       fireEvent.press(getByTestId('try-again-button'));
       expect(mockReplace).toHaveBeenCalledWith('VerbQuiz', { isSmartQuiz: true });
 
-      fireEvent.press(getByTestId('back-to-practice-button'));
+      fireEvent.press(getByTestId('header-back-button'));
       expect(mockPopToTop).toHaveBeenCalled();
     });
   });

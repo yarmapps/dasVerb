@@ -1,0 +1,177 @@
+{
+  "id": "erhoehen",
+  "infinitive": "erhöhen",
+  "translation": {
+    "ru": "повышать, увеличивать",
+    "en": "to raise, increase"
+  },
+  "level": "B1",
+  "frequency_rank": 178,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erhöhen",
+    "present_3sg": "erhöht",
+    "praeteritum_3sg": "erhöhte",
+    "partizip_2": "erhöht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erhöhe",
+      "du": "erhöhst",
+      "er_sie_es": "erhöht",
+      "wir": "erhöhen",
+      "ihr": "erhöht",
+      "sie_Sie": "erhöhen"
+    },
+    "praeteritum": {
+      "ich": "erhöhte",
+      "du": "erhöhtest",
+      "er_sie_es": "erhöhte",
+      "wir": "erhöhten",
+      "ihr": "erhöhtet",
+      "sie_Sie": "erhöhten"
+    },
+    "imperative": {
+      "du": "erhöhe!",
+      "ihr": "erhöht!",
+      "Sie": "erhöhen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Preise erhöhen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erhöhe mein monatliches Budget für Bildung.",
+      "translation": {
+        "ru": "Я повышаю свой ежемесячный бюджет на образование.",
+        "en": "I am increasing my monthly budget for education."
+      },
+      "bracket_parts": [
+        "erhöhe"
+      ],
+      "akkusativ_parts": [
+        "mein monatliches Budget"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erhöhst du die Geschwindigkeit auf der Autobahn?",
+      "translation": {
+        "ru": "Ты увеличиваешь скорость на автобане?",
+        "en": "Are you increasing your speed on the highway?"
+      },
+      "bracket_parts": [
+        "Erhöhst"
+      ],
+      "akkusativ_parts": [
+        "die Geschwindigkeit"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Vermieter erhöht die Miete ab nächstem Monat.",
+      "translation": {
+        "ru": "Арендодатель повышает арендную плату со следующего месяца.",
+        "en": "The landlord is increasing the rent starting next month."
+      },
+      "bracket_parts": [
+        "erhöht"
+      ],
+      "akkusativ_parts": [
+        "die Miete"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erhöhen das Gehalt aller tüchtigen Angestellten.",
+      "translation": {
+        "ru": "Мы повышаем зарплату всем старательным сотрудникам.",
+        "en": "We are increasing the salary of all hardworking employees."
+      },
+      "bracket_parts": [
+        "erhöhen"
+      ],
+      "akkusativ_parts": [
+        "das Gehalt aller tüchtigen Angestellten"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erhöht ihr den Druck bei den Verhandlungen?",
+      "translation": {
+        "ru": "Вы усиливаете давление на переговорах?",
+        "en": "Are you guys increasing the pressure in the negotiations?"
+      },
+      "bracket_parts": [
+        "Erhöht"
+      ],
+      "akkusativ_parts": [
+        "den Druck"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie erhöhten die Sicherheitsmaßnahmen am Flughafen.",
+      "translation": {
+        "ru": "Они усилили меры безопасности в аэропорту.",
+        "en": "They increased security measures at the airport."
+      },
+      "bracket_parts": [
+        "erhöhten"
+      ],
+      "akkusativ_parts": [
+        "die Sicherheitsmaßnahmen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Zentralbank hat die Zinsen gestern spürbar erhöht.",
+      "translation": {
+        "ru": "Центральный банк вчера ощутимо повысил процентные ставки.",
+        "en": "The central bank noticeably raised interest rates yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "erhöht"
+      ],
+      "akkusativ_parts": [
+        "die Zinsen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erhöhe bitte die Lautstärke am Fernseher!",
+      "translation": {
+        "ru": "Прибавь громкость на телевизоре, пожалуйста!",
+        "en": "Please turn up the volume on the television!"
+      },
+      "bracket_parts": [
+        "Erhöhe"
+      ],
+      "akkusativ_parts": [
+        "die Lautstärke"
+      ]
+    }
+  ]
+}

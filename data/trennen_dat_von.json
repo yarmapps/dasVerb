@@ -1,0 +1,198 @@
+{
+  "id": "trennen_dat_von",
+  "infinitive": "trennen",
+  "translation": {
+    "ru": "отделять (от чего-то); расставаться (с кем-то)",
+    "en": "to separate (from), break up (with)"
+  },
+  "level": "B1",
+  "frequency_rank": 197,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "trennen",
+    "present_3sg": "trennt",
+    "praeteritum_3sg": "trennte",
+    "partizip_2": "getrennt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "trenne",
+      "du": "trennst",
+      "er_sie_es": "trennt",
+      "wir": "trennen",
+      "ihr": "trennt",
+      "sie_Sie": "trennen"
+    },
+    "praeteritum": {
+      "ich": "trennte",
+      "du": "trenntest",
+      "er_sie_es": "trennte",
+      "wir": "trennten",
+      "ihr": "trenntet",
+      "sie_Sie": "trennten"
+    },
+    "imperative": {
+      "du": "trenne!",
+      "ihr": "trennt!",
+      "Sie": "trennen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "von",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "sich von alten Sachen trennen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich trenne mich schwer von meinen alten Büchern.",
+      "translation": {
+        "ru": "Мне тяжело расставаться со своими старыми книгами.",
+        "en": "I find it hard to part with my old books."
+      },
+      "bracket_parts": [
+        "trenne"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": [
+        "meinen alten Büchern"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Trennst du dich von deinem kaputten Auto?",
+      "translation": {
+        "ru": "Ты расстаешься со своей сломанной машиной?",
+        "en": "Are you parting with your broken car?"
+      },
+      "bracket_parts": [
+        "Trennst"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "deinem kaputten Auto"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Sportler trennt sich von seinem langjährigen Trainer.",
+      "translation": {
+        "ru": "Спортсмен расстается со своим многолетним тренером.",
+        "en": "The athlete parts ways with his longtime coach."
+      },
+      "bracket_parts": [
+        "trennt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "seinem langjährigen Trainer"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir trennen die Spreu von dem Weizen bei der Auswahl.",
+      "translation": {
+        "ru": "При отборе мы отделяем зерна от плевел.",
+        "en": "We separate the wheat from the chaff during selection."
+      },
+      "bracket_parts": [
+        "trennen"
+      ],
+      "akkusativ_parts": [
+        "die Spreu"
+      ],
+      "dativ_parts": [
+        "dem Weizen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Trennt ihr euch von den ungenutzten Möbeln?",
+      "translation": {
+        "ru": "Вы избавляетесь от неиспользуемой мебели?",
+        "en": "Are you guys parting with the unused furniture?"
+      },
+      "bracket_parts": [
+        "Trennt"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ],
+      "dativ_parts": [
+        "den ungenutzten Möbeln"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie trennten das kranke Tier von der Herde.",
+      "translation": {
+        "ru": "Они отделили больное животное от стада.",
+        "en": "They separated the sick animal from the herd."
+      },
+      "bracket_parts": [
+        "trennten"
+      ],
+      "akkusativ_parts": [
+        "das kranke Tier"
+      ],
+      "dativ_parts": [
+        "der Herde"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das Paar hat sich nach zehn Jahren im Guten getrennt.",
+      "translation": {
+        "ru": "Пара мирно рассталась после десяти лет отношений.",
+        "en": "The couple parted on good terms after ten years."
+      },
+      "bracket_parts": [
+        "hat",
+        "getrennt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Trenne dich rechtzeitig von schlechten Gewohnheiten!",
+      "translation": {
+        "ru": "Вовремя избавляйся от плохих привычек!",
+        "en": "Part with bad habits in good time!"
+      },
+      "bracket_parts": [
+        "Trenne"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "schlechten Gewohnheiten"
+      ]
+    }
+  ]
+}

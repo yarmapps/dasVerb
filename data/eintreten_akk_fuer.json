@@ -1,0 +1,192 @@
+{
+  "id": "eintreten_akk_fuer",
+  "infinitive": "eintreten",
+  "translation": {
+    "ru": "выступать за, заступаться за",
+    "en": "to advocate for, champion, stand up for"
+  },
+  "level": "B2",
+  "frequency_rank": 388,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "eintreten",
+    "present_3sg": "tritt ein",
+    "praeteritum_3sg": "trat ein",
+    "partizip_2": "eingetreten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "trete ein",
+      "du": "trittst ein",
+      "er_sie_es": "tritt ein",
+      "wir": "treten ein",
+      "ihr": "tretet ein",
+      "sie_Sie": "treten ein"
+    },
+    "praeteritum": {
+      "ich": "trat ein",
+      "du": "tratest ein",
+      "er_sie_es": "trat ein",
+      "wir": "traten ein",
+      "ihr": "tratet ein",
+      "sie_Sie": "traten ein"
+    },
+    "imperative": {
+      "du": "tritt ein!",
+      "ihr": "tretet ein!",
+      "Sie": "treten Sie ein!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "für",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "für Menschenrechte eintreten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich trete entschieden für die Einhaltung der Menschenrechte ein.",
+      "translation": {
+        "ru": "Я решительно выступаю за соблюдение прав человека.",
+        "en": "I decisively advocate for the observance of human rights."
+      },
+      "bracket_parts": [
+        "trete",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "die Einhaltung der Menschenrechte"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Trittst du mutig für deine benachteiligten Mitschüler ein?",
+      "translation": {
+        "ru": "Ты смело заступаешься за своих ущемленных одноклассников?",
+        "en": "Do you courageously stand up for your disadvantaged classmates?"
+      },
+      "bracket_parts": [
+        "Trittst",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "deine benachteiligten Mitschüler"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Partei tritt für den Ausbau erneuerbarer Energien ein.",
+      "translation": {
+        "ru": "Партия выступает за расширение возобновляемых источников энергии.",
+        "en": "The party advocates for the expansion of renewable energies."
+      },
+      "bracket_parts": [
+        "tritt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "den Ausbau erneuerbarer Energien"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir treten leidenschaftlich für den Tierschutz in unserer Stadt ein.",
+      "translation": {
+        "ru": "Мы страстно выступаем за защиту животных в нашем городе.",
+        "en": "We passionately advocate for animal welfare in our city."
+      },
+      "bracket_parts": [
+        "treten",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "den Tierschutz"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Tretet ihr bei der Debatte für strengere Umweltgesetze ein?",
+      "translation": {
+        "ru": "Вы выступаете на дебатах за более строгие экологические законы?",
+        "en": "Are you guys advocating for stricter environmental laws in the debate?"
+      },
+      "bracket_parts": [
+        "Tretet",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "strengere Umweltgesetze"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Aktivisten traten damals unerschrocken für Pressefreiheit ein.",
+      "translation": {
+        "ru": "Активисты тогда бесстрашно выступали за свободу прессы.",
+        "en": "The activists fearlessly stood up for freedom of the press back then."
+      },
+      "bracket_parts": [
+        "traten",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "Pressefreiheit"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Viele Bürger sind öffentlich für den Erhalt des Parks eingetreten.",
+      "translation": {
+        "ru": "Многие граждане публично выступили за сохранение парка.",
+        "en": "Many citizens publicly championed the preservation of the park."
+      },
+      "bracket_parts": [
+        "sind",
+        "eingetreten"
+      ],
+      "akkusativ_parts": [
+        "den Erhalt des Parks"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Tritt bitte immer für schwächere Menschen ein!",
+      "translation": {
+        "ru": "Всегда заступайся за более слабых людей, пожалуйста!",
+        "en": "Please always stand up for weaker people!"
+      },
+      "bracket_parts": [
+        "Tritt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "schwächere Menschen"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

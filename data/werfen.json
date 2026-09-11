@@ -1,0 +1,180 @@
+{
+  "id": "werfen",
+  "infinitive": "werfen",
+  "translation": {
+    "ru": "бросать, кидать",
+    "en": "to throw"
+  },
+  "level": "A2",
+  "frequency_rank": 160,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "werfen",
+    "present_3sg": "wirft",
+    "praeteritum_3sg": "warf",
+    "partizip_2": "geworfen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "werfe",
+      "du": "wirfst",
+      "er_sie_es": "wirft",
+      "wir": "werfen",
+      "ihr": "werft",
+      "sie_Sie": "werfen"
+    },
+    "praeteritum": {
+      "ich": "warf",
+      "du": "warfst",
+      "er_sie_es": "warf",
+      "wir": "warfen",
+      "ihr": "warft",
+      "sie_Sie": "warfen"
+    },
+    "imperative": {
+      "du": "wirf!",
+      "ihr": "werft!",
+      "Sie": "werfen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "den Ball werfen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich werfe den Ball weit über das Spielfeld.",
+      "translation": {
+        "ru": "Я бросаю мяч далеко через поле.",
+        "en": "I throw the ball far across the playing field."
+      },
+      "bracket_parts": [
+        "werfe"
+      ],
+      "akkusativ_parts": [
+        "den Ball"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Wirfst du alte Zeitungen in den Papiermüll?",
+      "translation": {
+        "ru": "Ты выбрасываешь старые газеты в макулатуру?",
+        "en": "Do you throw old newspapers into paper waste?"
+      },
+      "bracket_parts": [
+        "Wirfst"
+      ],
+      "akkusativ_parts": [
+        "alte Zeitungen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Junge wirft Steine ins Wasser.",
+      "translation": {
+        "ru": "Мальчик бросает камешки в воду.",
+        "en": "The boy throws stones into the water."
+      },
+      "bracket_parts": [
+        "wirft"
+      ],
+      "akkusativ_parts": [
+        "Steine"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir werfen einen kurzen Blick auf die Karte.",
+      "translation": {
+        "ru": "Мы бросаем короткий взгляд на карту.",
+        "en": "We take a quick glance at the map."
+      },
+      "bracket_parts": [
+        "werfen"
+      ],
+      "akkusativ_parts": [
+        "einen kurzen Blick"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Werft ihr den Müll in den richtigen Behälter?",
+      "translation": {
+        "ru": "Вы бросаете мусор в правильный контейнер?",
+        "en": "Are you guys throwing the trash into the correct bin?"
+      },
+      "bracket_parts": [
+        "Werft"
+      ],
+      "akkusativ_parts": [
+        "den Müll"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie warfen Schneebälle gegeneinander im Hof.",
+      "translation": {
+        "ru": "Они кидали снежки друг в друга во дворе.",
+        "en": "They threw snowballs at each other in the yard."
+      },
+      "bracket_parts": [
+        "warfen"
+      ],
+      "akkusativ_parts": [
+        "Schneebälle"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Spieler hat den Ball zielsicher ins Tor geworfen.",
+      "translation": {
+        "ru": "Игрок метко забросил мяч в ворота.",
+        "en": "The player accurately threw the ball into the goal."
+      },
+      "bracket_parts": [
+        "hat",
+        "geworfen"
+      ],
+      "akkusativ_parts": [
+        "den Ball"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Wirf mir bitte den Schlüssel zu!",
+      "translation": {
+        "ru": "Брось мне ключ, пожалуйста!",
+        "en": "Please throw me the key!"
+      },
+      "bracket_parts": [
+        "Wirf"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "den Schlüssel"
+      ]
+    }
+  ]
+}

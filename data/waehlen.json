@@ -1,0 +1,178 @@
+{
+  "id": "waehlen",
+  "infinitive": "wählen",
+  "translation": {
+    "ru": "выбирать, голосовать",
+    "en": "to choose, to elect, to vote"
+  },
+  "level": "A2",
+  "frequency_rank": 131,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "wählen",
+    "present_3sg": "wählt",
+    "praeteritum_3sg": "wählte",
+    "partizip_2": "gewählt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wähle",
+      "du": "wählst",
+      "er_sie_es": "wählt",
+      "wir": "wählen",
+      "ihr": "wählt",
+      "sie_Sie": "wählen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "wählte",
+      "du": "wähltest",
+      "er_sie_es": "wählte",
+      "wir": "wählten",
+      "ihr": "wähltet",
+      "sie_Sie": "wählten"
+    },
+    "imperative": {
+      "du": "wähle",
+      "ihr": "wählt",
+      "Sie": "wählen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen Kandidaten / eine Nummer (Akk) wählen",
+  "sentences": [
+    {
+      "id": "waehlen_1",
+      "tense": "Präsens",
+      "german": "Ich wähle im Restaurant immer den frischen Fisch.",
+      "translation": {
+        "ru": "В ресторане я всегда выбираю свежую рыбу.",
+        "en": "In the restaurant, I always choose the fresh fish."
+      },
+      "bracket_parts": [
+        "wähle"
+      ],
+      "akkusativ_parts": [
+        "den frischen Fisch"
+      ]
+    },
+    {
+      "id": "waehlen_2",
+      "tense": "Präsens",
+      "german": "Wählst du bei der Wahl den grünen Kandidaten?",
+      "translation": {
+        "ru": "Ты голосуешь на выборах за зеленого кандидата?",
+        "en": "Are you voting for the green candidate in the election?"
+      },
+      "bracket_parts": [
+        "Wählst"
+      ],
+      "akkusativ_parts": [
+        "den grünen Kandidaten"
+      ]
+    },
+    {
+      "id": "waehlen_3",
+      "tense": "Präsens",
+      "german": "Der Kunde wählt ein passendes Hemd aus dem Regal.",
+      "translation": {
+        "ru": "Покупатель выбирает подходящую рубашку с полки.",
+        "en": "The customer chooses a suitable shirt from the shelf."
+      },
+      "bracket_parts": [
+        "wählt"
+      ],
+      "akkusativ_parts": [
+        "ein passendes Hemd"
+      ]
+    },
+    {
+      "id": "waehlen_4",
+      "tense": "Präsens",
+      "german": "Wir wählen den besten Weg zur Lösung des Problems.",
+      "translation": {
+        "ru": "Мы выбираем лучший путь для решения проблемы.",
+        "en": "We choose the best way to solve the problem."
+      },
+      "bracket_parts": [
+        "wählen"
+      ],
+      "akkusativ_parts": [
+        "den besten Weg"
+      ]
+    },
+    {
+      "id": "waehlen_5",
+      "tense": "Präsens",
+      "german": "Wählt ihr eure Vertrauensperson für die Klasse?",
+      "translation": {
+        "ru": "Вы выбираете доверенное лицо для класса?",
+        "en": "Are you electing your representative for the class?"
+      },
+      "bracket_parts": [
+        "Wählt"
+      ],
+      "akkusativ_parts": [
+        "eure Vertrauensperson"
+      ]
+    },
+    {
+      "id": "waehlen_6",
+      "tense": "Präteritum",
+      "german": "Die Bürger wählten damals eine neue Regierung.",
+      "translation": {
+        "ru": "Граждане избрали тогда новое правительство.",
+        "en": "The citizens elected a new government back then."
+      },
+      "bracket_parts": [
+        "wählten"
+      ],
+      "akkusativ_parts": [
+        "eine neue Regierung"
+      ]
+    },
+    {
+      "id": "waehlen_7",
+      "tense": "Perfekt",
+      "german": "Ich habe versehentlich die falsche Telefonnummer gewählt.",
+      "translation": {
+        "ru": "Я случайно набрал неправильный номер телефона.",
+        "en": "I accidentally dialed the wrong phone number."
+      },
+      "bracket_parts": [
+        "habe",
+        "gewählt"
+      ],
+      "akkusativ_parts": [
+        "die falsche Telefonnummer"
+      ]
+    },
+    {
+      "id": "waehlen_8",
+      "tense": "Imperativ",
+      "german": "Wähle deine Worte bitte mit Bedacht!",
+      "translation": {
+        "ru": "Выбирай слова осмотрительно, пожалуйста!",
+        "en": "Please choose your words with care!"
+      },
+      "bracket_parts": [
+        "Wähle"
+      ],
+      "akkusativ_parts": [
+        "deine Worte"
+      ]
+    }
+  ]
+}

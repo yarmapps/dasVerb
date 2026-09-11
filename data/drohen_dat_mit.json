@@ -1,0 +1,177 @@
+{
+  "id": "drohen_dat_mit",
+  "infinitive": "drohen",
+  "translation": {
+    "ru": "грозить, угрожать (чем-то)",
+    "en": "to threaten (with)"
+  },
+  "level": "B1",
+  "frequency_rank": 215,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "drohen",
+    "present_3sg": "droht",
+    "praeteritum_3sg": "drohte",
+    "partizip_2": "gedroht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "drohe",
+      "du": "drohst",
+      "er_sie_es": "droht",
+      "wir": "drohen",
+      "ihr": "droht",
+      "sie_Sie": "drohen"
+    },
+    "praeteritum": {
+      "ich": "drohte",
+      "du": "drohtest",
+      "er_sie_es": "drohte",
+      "wir": "drohten",
+      "ihr": "drohtet",
+      "sie_Sie": "drohten"
+    },
+    "imperative": {
+      "du": "drohe!",
+      "ihr": "droht!",
+      "Sie": "drohen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "mit Streik drohen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich drohe bei Vertragsbruch mit einer Klage.",
+      "translation": {
+        "ru": "При нарушении договора я угрожаю судебным иском.",
+        "en": "In case of breach of contract I threaten with a lawsuit."
+      },
+      "bracket_parts": [
+        "drohe"
+      ],
+      "dativ_parts": [
+        "einer Klage"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Drohst du deinen Kindern mit Hausarrest?",
+      "translation": {
+        "ru": "Ты угрожаешь детям домашним арестом?",
+        "en": "Do you threaten your children with house arrest?"
+      },
+      "bracket_parts": [
+        "Drohst"
+      ],
+      "dativ_parts": [
+        "Hausarrest"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Gewerkschaft droht mit einem unbefristeten Streik.",
+      "translation": {
+        "ru": "Профсоюз угрожает бессрочной забастовкой.",
+        "en": "The labor union threatens with an indefinite strike."
+      },
+      "bracket_parts": [
+        "droht"
+      ],
+      "dativ_parts": [
+        "einem unbefristeten Streik"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir drohen mit rechtlichen Schritten gegen die Firma.",
+      "translation": {
+        "ru": "Мы грозим юридическими мерами против компании.",
+        "en": "We threaten legal action against the company."
+      },
+      "bracket_parts": [
+        "drohen"
+      ],
+      "dativ_parts": [
+        "rechtlichen Schritten"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Droht ihr den Betrügern mit einer Anzeige?",
+      "translation": {
+        "ru": "Вы угрожаете мошенникам заявлением в полицию?",
+        "en": "Are you guys threatening the fraudsters with a criminal complaint?"
+      },
+      "bracket_parts": [
+        "Droht"
+      ],
+      "dativ_parts": [
+        "einer Anzeige"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie drohten den Händlern damals mit hohen Strafen.",
+      "translation": {
+        "ru": "Они угрожали торговцам в то время крупными штрафами.",
+        "en": "They threatened the merchants with high penalties back then."
+      },
+      "bracket_parts": [
+        "drohten"
+      ],
+      "dativ_parts": [
+        "hohen Strafen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Opposition hat mit einem Boykott der Wahl gedroht.",
+      "translation": {
+        "ru": "Оппозиция пригрозила бойкотом выборов.",
+        "en": "The opposition threatened a boycott of the election."
+      },
+      "bracket_parts": [
+        "hat",
+        "gedroht"
+      ],
+      "dativ_parts": [
+        "einem Boykott"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Drohe niemals mit leeren Worten!",
+      "translation": {
+        "ru": "Никогда не бросайся пустыми угрозами!",
+        "en": "Never threaten with empty words!"
+      },
+      "bracket_parts": [
+        "Drohe"
+      ],
+      "dativ_parts": [
+        "leeren Worten"
+      ]
+    }
+  ]
+}

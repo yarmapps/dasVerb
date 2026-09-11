@@ -1,0 +1,178 @@
+{
+  "id": "schaffen",
+  "infinitive": "schaffen",
+  "translation": {
+    "ru": "справляться, успевать, создавать",
+    "en": "to manage, to accomplish, to create"
+  },
+  "level": "A2",
+  "frequency_rank": 70,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "schaffen",
+    "present_3sg": "schafft",
+    "praeteritum_3sg": "schaffte",
+    "partizip_2": "geschafft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schaffe",
+      "du": "schaffst",
+      "er_sie_es": "schafft",
+      "wir": "schaffen",
+      "ihr": "schafft",
+      "sie_Sie": "schaffen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "schaffte",
+      "du": "schafftest",
+      "er_sie_es": "schaffte",
+      "wir": "schafften",
+      "ihr": "schafftet",
+      "sie_Sie": "schafften"
+    },
+    "imperative": {
+      "du": "schaffe",
+      "ihr": "schafft",
+      "Sie": "schaffen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Prüfung (Akk) schaffen",
+  "sentences": [
+    {
+      "id": "schaffen_1",
+      "tense": "Präsens",
+      "german": "Ich schaffe diese schwere Arbeit heute noch.",
+      "translation": {
+        "ru": "Я справлюсь с этой тяжелой работой еще сегодня.",
+        "en": "I will manage this hard work today."
+      },
+      "bracket_parts": [
+        "schaffe"
+      ],
+      "akkusativ_parts": [
+        "diese schwere Arbeit"
+      ]
+    },
+    {
+      "id": "schaffen_2",
+      "tense": "Präsens",
+      "german": "Schaffst du den Zug um acht Uhr?",
+      "translation": {
+        "ru": "Успеешь на поезд в восемь часов?",
+        "en": "Will you make the eight o'clock train?"
+      },
+      "bracket_parts": [
+        "Schaffst"
+      ],
+      "akkusativ_parts": [
+        "den Zug"
+      ]
+    },
+    {
+      "id": "schaffen_3",
+      "tense": "Präsens",
+      "german": "Er schafft die schwere Prüfung mit einer guten Note.",
+      "translation": {
+        "ru": "Он сдаст сложный экзамен с хорошей оценкой.",
+        "en": "He passes the difficult exam with a good grade."
+      },
+      "bracket_parts": [
+        "schafft"
+      ],
+      "akkusativ_parts": [
+        "die schwere Prüfung"
+      ]
+    },
+    {
+      "id": "schaffen_4",
+      "tense": "Präsens",
+      "german": "Wir schaffen das gemeinsam als Team.",
+      "translation": {
+        "ru": "Мы справимся с этим вместе как команда.",
+        "en": "We will manage this together as a team."
+      },
+      "bracket_parts": [
+        "schaffen"
+      ],
+      "akkusativ_parts": [
+        "das"
+      ]
+    },
+    {
+      "id": "schaffen_5",
+      "tense": "Präsens",
+      "german": "Schafft ihr alle Hausaufgaben bis morgen?",
+      "translation": {
+        "ru": "Вы успеете сделать все домашние задания до завтра?",
+        "en": "Will you manage all homework by tomorrow?"
+      },
+      "bracket_parts": [
+        "Schafft"
+      ],
+      "akkusativ_parts": [
+        "alle Hausaufgaben"
+      ]
+    },
+    {
+      "id": "schaffen_6",
+      "tense": "Präteritum",
+      "german": "Sie schafften damals eine beachtliche Leistung.",
+      "translation": {
+        "ru": "Они тогда достигли внушительного результата.",
+        "en": "They accomplished a remarkable achievement back then."
+      },
+      "bracket_parts": [
+        "schafften"
+      ],
+      "akkusativ_parts": [
+        "eine beachtliche Leistung"
+      ]
+    },
+    {
+      "id": "schaffen_7",
+      "tense": "Perfekt",
+      "german": "Ich habe den steilen Berg endlich geschafft.",
+      "translation": {
+        "ru": "Я наконец одолел эту крутую гору.",
+        "en": "I finally made it up the steep mountain."
+      },
+      "bracket_parts": [
+        "habe",
+        "geschafft"
+      ],
+      "akkusativ_parts": [
+        "den steilen Berg"
+      ]
+    },
+    {
+      "id": "schaffen_8",
+      "tense": "Imperativ",
+      "german": "Schaffe Ordnung in deinem Zimmer!",
+      "translation": {
+        "ru": "Наведи порядок в своей комнате!",
+        "en": "Create order in your room!"
+      },
+      "bracket_parts": [
+        "Schaffe"
+      ],
+      "akkusativ_parts": [
+        "Ordnung"
+      ]
+    }
+  ]
+}

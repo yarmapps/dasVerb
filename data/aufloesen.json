@@ -1,0 +1,178 @@
+{
+  "id": "aufloesen",
+  "infinitive": "auflösen",
+  "translation": {
+    "ru": "растворять, распускать, расторгать",
+    "en": "to dissolve, disperse, cancel"
+  },
+  "level": "B1",
+  "frequency_rank": 474,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "auflösen",
+    "present_3sg": "löst auf",
+    "praeteritum_3sg": "löste auf",
+    "partizip_2": "aufgelöst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "löse auf",
+      "du": "löst auf",
+      "er_sie_es": "löst auf",
+      "wir": "lösen auf",
+      "ihr": "löst auf",
+      "sie_Sie": "lösen auf"
+    },
+    "praeteritum": {
+      "ich": "löste auf",
+      "du": "löstest auf",
+      "er_sie_es": "löste auf",
+      "wir": "lösten auf",
+      "ihr": "löstet auf",
+      "sie_Sie": "lösten auf"
+    },
+    "perfekt": {
+      "ich": "habe aufgelöst",
+      "du": "hast aufgelöst",
+      "er_sie_es": "hat aufgelöst",
+      "wir": "haben aufgelöst",
+      "ihr": "habt aufgelöst",
+      "sie_Sie": "haben aufgelöst"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich löse die Tablette in einem Glas Wasser auf.",
+      "translation": {
+        "ru": "Я растворяю таблетку в стакане воды.",
+        "en": "I dissolve the tablet in a glass of water."
+      },
+      "bracket_parts": [
+        "löse",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die Tablette"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du löst den alten Vertrag fristgerecht auf.",
+      "translation": {
+        "ru": "Ты расторгаешь старый договор в установленный срок.",
+        "en": "You cancel the old contract in due time."
+      },
+      "bracket_parts": [
+        "löst",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "den alten Vertrag"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Bundespräsident löst das Parlament vor den Neuwahlen auf.",
+      "translation": {
+        "ru": "Федеральный президент распускает парламент перед новыми выборами.",
+        "en": "The Federal President dissolves parliament before the new elections."
+      },
+      "bracket_parts": [
+        "löst",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "das Parlament"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir lösen den Haushalt der verstorbenen Tante auf.",
+      "translation": {
+        "ru": "Мы ликвидируем домашнее хозяйство умершей тети.",
+        "en": "We clear out the household of the deceased aunt."
+      },
+      "bracket_parts": [
+        "lösen",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "den Haushalt der verstorbenen Tante"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr löst den Zucker im heißen Tee auf.",
+      "translation": {
+        "ru": "Вы растворяете сахар в горячем чае.",
+        "en": "You dissolve the sugar in hot tea."
+      },
+      "bracket_parts": [
+        "löst",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "den Zucker"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie lösten damals die unrentable Abteilung komplett auf.",
+      "translation": {
+        "ru": "Они тогда полностью расформировали нерентабельный отдел.",
+        "en": "They completely dissolved the unprofitable department back then."
+      },
+      "bracket_parts": [
+        "lösten",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die unrentable Abteilung"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Polizei hat die verbotene Versammlung friedlich aufgelöst.",
+      "translation": {
+        "ru": "Полиция мирно распустила запрещенное собрание.",
+        "en": "The police peacefully dispersed the banned gathering."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgelöst"
+      ],
+      "akkusativ_parts": [
+        "die verbotene Versammlung"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Löse das Pulver gründlich in warmem Wasser auf!",
+      "translation": {
+        "ru": "Тщательно раствори порошок в теплой воде!",
+        "en": "Thoroughly dissolve the powder in warm water!"
+      },
+      "bracket_parts": [
+        "Löse",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "das Pulver"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "laecheln",
+  "infinitive": "lächeln",
+  "translation": {
+    "ru": "улыбаться",
+    "en": "to smile"
+  },
+  "level": "A2",
+  "frequency_rank": 193,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "lächeln",
+    "present_3sg": "lächelt",
+    "praeteritum_3sg": "lächelte",
+    "partizip_2": "gelächelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lächle",
+      "du": "lächelst",
+      "er_sie_es": "lächelt",
+      "wir": "lächeln",
+      "ihr": "lächelt",
+      "sie_Sie": "lächeln"
+    },
+    "praeteritum": {
+      "ich": "lächelte",
+      "du": "lächeltest",
+      "er_sie_es": "lächelte",
+      "wir": "lächelten",
+      "ihr": "lächeltet",
+      "sie_Sie": "lächelten"
+    },
+    "imperative": {
+      "du": "lächle!",
+      "ihr": "lächelt!",
+      "Sie": "lächeln Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "freundlich lächeln",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich lächle jeden Morgen freundlich in den Spiegel.",
+      "translation": {
+        "ru": "Я каждое утро приветливо улыбаюсь в зеркало.",
+        "en": "I smile friendly in the mirror every morning."
+      },
+      "bracket_parts": [
+        "lächle"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Lächelst du immer so herzlich beim Begrüßen?",
+      "translation": {
+        "ru": "Ты всегда так искренне улыбаешься при приветствии?",
+        "en": "Do you always smile so warmly when greeting?"
+      },
+      "bracket_parts": [
+        "Lächelst"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das kleine Kind lächelt im Schlaf ganz selig.",
+      "translation": {
+        "ru": "Маленький ребенок блаженно улыбается во сне.",
+        "en": "The little child smiles blissfully in its sleep."
+      },
+      "bracket_parts": [
+        "lächelt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir lächeln glücklich auf dem Hochzeitsfoto.",
+      "translation": {
+        "ru": "Мы счастливо улыбаемся на свадебной фотографии.",
+        "en": "We smile happily on the wedding photo."
+      },
+      "bracket_parts": [
+        "lächeln"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Lächelt ihr für das gemeinsame Gruppenbild?",
+      "translation": {
+        "ru": "Вы улыбаетесь для общего группового снимка?",
+        "en": "Are you guys smiling for the group picture?"
+      },
+      "bracket_parts": [
+        "Lächelt"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie lächelten einander dankbar und erleichtert zu.",
+      "translation": {
+        "ru": "Они улыбнулись друг другу с благодарностью и облегчением.",
+        "en": "They smiled at each other gratefully and relieved."
+      },
+      "bracket_parts": [
+        "lächelten"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Verkäuferin hat den Kunden freundlich angelächelt.",
+      "translation": {
+        "ru": "Продавщица приветливо улыбнулась покупателям.",
+        "en": "The saleswoman smiled kindly at the customers."
+      },
+      "bracket_parts": [
+        "hat",
+        "angelächelt"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Lächle bitte für die Kamera!",
+      "translation": {
+        "ru": "Улыбнись в камеру, пожалуйста!",
+        "en": "Please smile for the camera!"
+      },
+      "bracket_parts": [
+        "Lächle"
+      ]
+    }
+  ]
+}

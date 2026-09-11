@@ -1,0 +1,189 @@
+{
+  "id": "verbieten",
+  "infinitive": "verbieten",
+  "translation": {
+    "ru": "запрещать",
+    "en": "to forbid, prohibit"
+  },
+  "level": "A2",
+  "frequency_rank": 452,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verbieten",
+    "present_3sg": "verbietet",
+    "praeteritum_3sg": "verbot",
+    "partizip_2": "verboten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verbiete",
+      "du": "verbietest",
+      "er_sie_es": "verbietet",
+      "wir": "verbieten",
+      "ihr": "verbietet",
+      "sie_Sie": "verbieten"
+    },
+    "praeteritum": {
+      "ich": "verbot",
+      "du": "verbotest",
+      "er_sie_es": "verbot",
+      "wir": "verboten",
+      "ihr": "verbotet",
+      "sie_Sie": "verboten"
+    },
+    "perfekt": {
+      "ich": "habe verboten",
+      "du": "hast verboten",
+      "er_sie_es": "hat verboten",
+      "wir": "haben verboten",
+      "ihr": "habt verboten",
+      "sie_Sie": "haben verboten"
+    }
+  },
+  "rektion": {
+    "case": "dativ_akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich verbiete dir diesen unhöflichen Ton im Haus.",
+      "translation": {
+        "ru": "Я запрещаю тебе такой грубый тон в доме.",
+        "en": "I forbid you this rude tone in the house."
+      },
+      "bracket_parts": [
+        "verbiete"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "diesen unhöflichen Ton"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du verbietest deinem Kind das lange Fernsehen.",
+      "translation": {
+        "ru": "Ты запрещаешь своему ребенку долгий просмотр телевизора.",
+        "en": "You forbid your child from watching television for too long."
+      },
+      "bracket_parts": [
+        "verbietest"
+      ],
+      "dativ_parts": [
+        "deinem Kind"
+      ],
+      "akkusativ_parts": [
+        "das lange Fernsehen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Gesetz verbietet das Rauchen in öffentlichen Gebäuden.",
+      "translation": {
+        "ru": "Закон запрещает курение в общественных зданиях.",
+        "en": "The law prohibits smoking in public buildings."
+      },
+      "bracket_parts": [
+        "verbietet"
+      ],
+      "akkusativ_parts": [
+        "das Rauchen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verbieten den Teilnehmern die Nutzung von Handys.",
+      "translation": {
+        "ru": "Мы запрещаем участникам использование мобильных телефонов.",
+        "en": "We forbid participants from using cell phones."
+      },
+      "bracket_parts": [
+        "verbieten"
+      ],
+      "dativ_parts": [
+        "den Teilnehmern"
+      ],
+      "akkusativ_parts": [
+        "die Nutzung von Handys"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr verbietet den Hunden den Zutritt zum Spielplatz.",
+      "translation": {
+        "ru": "Вы запрещаете собакам доступ на игровую площадку.",
+        "en": "You forbid dogs entry to the playground."
+      },
+      "bracket_parts": [
+        "verbietet"
+      ],
+      "dativ_parts": [
+        "den Hunden"
+      ],
+      "akkusativ_parts": [
+        "den Zutritt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Behörden verboten damals jegliche Demonstrationen.",
+      "translation": {
+        "ru": "Власти тогда запретили любые демонстрации.",
+        "en": "The authorities forbade any demonstrations back then."
+      },
+      "bracket_parts": [
+        "verboten"
+      ],
+      "akkusativ_parts": [
+        "jegliche Demonstrationen"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Arzt hat dem Patienten das schwere Heben streng verboten.",
+      "translation": {
+        "ru": "Врач строго запретил пациенту подъем тяжестей.",
+        "en": "The doctor strictly forbade the patient from heavy lifting."
+      },
+      "bracket_parts": [
+        "hat",
+        "verboten"
+      ],
+      "dativ_parts": [
+        "dem Patienten"
+      ],
+      "akkusativ_parts": [
+        "das schwere Heben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verbiete deinen Kindern nicht jede kleine Freude!",
+      "translation": {
+        "ru": "Не запрещай своим детям каждую маленькую радость!",
+        "en": "Do not forbid your children every little joy!"
+      },
+      "bracket_parts": [
+        "Verbiete"
+      ],
+      "dativ_parts": [
+        "deinen Kindern"
+      ],
+      "akkusativ_parts": [
+        "jede kleine Freude"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

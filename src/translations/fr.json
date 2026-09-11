@@ -1,51 +1,146 @@
 {
+  "appUpdate": {
+    "title": "Mise à jour disponible",
+    "softMessage": "Une nouvelle version de das Verb est disponible ! Veuillez mettre à jour pour profiter des dernières fonctionnalités.",
+    "forceMessage": "Une mise à jour critique est requise pour continuer à utiliser das Verb. Veuillez mettre à jour maintenant.",
+    "button": "Mettre à jour",
+    "close": "Fermer"
+  },
+  "debugScreen": {
+    "title": "Debug Menu",
+    "sectionState": "App State Summary",
+    "sectionDailyLimit": "Daily Quiz Limit",
+    "sectionStreak": "Daily Streak",
+    "sectionSettings": "Settings & Storage",
+    "sectionAppUpdate": "App Update Dialog",
+    "sectionReview": "In-App Review & Rating",
+    "dailyQuizzes": "Completed quizzes today: {count} / {limit}",
+    "totalQuizzes": "Total completed quizzes: {count}",
+    "extraQuizzes": "Extra quizzes available: {count}",
+    "adGrants": "Ad grants today: {count} / {limit}",
+    "streakSummary": "Current streak: {streak} days (Best: {best})",
+    "resetDailyLimit": "Reset Daily Limit",
+    "grantExtraQuiz": "Grant +1 Extra Quiz",
+    "consumeQuiz": "Consume 1 Daily Quiz",
+    "resetStreak": "Reset Streak",
+    "incrementStreak": "Increment Streak (+1 Day)",
+    "resetAllSettings": "Reset Settings to Default",
+    "triggerSoftUpdate": "Trigger Soft Update (Dismissible)",
+    "triggerForceUpdate": "Trigger Force Update (Blocking)",
+    "resetUpdateState": "Reset Update State",
+    "triggerReview": "Trigger In-App Review (StoreReview)",
+    "resetReviewCooldown": "Reset Review Cooldown",
+    "addCompletedQuizzes": "Add +5 Completed Quizzes",
+    "alertSuccess": "Success",
+    "dailyLimitResetSuccess": "Daily quiz limits have been reset.",
+    "streakResetSuccess": "Streak data has been reset.",
+    "settingsResetSuccess": "All settings have been reset to defaults.",
+    "reviewTriggerSuccess": "Store review requested to OS.",
+    "reviewCooldownResetSuccess": "Review prompt cooldown reset."
+  },
   "navigation": {
-    "practice": "Entraînement",
+    "practice": "Pratique",
     "dictionary": "Dictionnaire"
   },
   "languageSelectorScreen": {
-    "title": "Quelle est votre langue maternelle?",
+    "title": "Quelle est votre langue maternelle ?",
     "continue": "Continuer"
   },
   "practiceScreen": {
-    "title": "Entraînement",
-    "subtitle": "Entraînez-vous aux verbes et à la conjugaison",
-    "levelsButtonTitle": "Entraînez les verbes",
+    "title": "Pratique",
+    "subtitle": "Entraînez-vous sur les verbes, les conjugaisons et les structures de phrases",
+    "levelsButtonTitle": "Pratiquer les verbes",
     "levelsButtonSubtitle": "Apprenez les verbes de A1 à B2",
     "featuredBadge": "En vedette",
-    "startNow": "Commencer"
+    "startNow": "Commencer",
+    "smartQuizBadge": "Mode intelligent",
+    "smartQuizTitle": "Algorithme intelligent",
+    "smartQuizSubtitle": "Ciblez vos erreurs et apprenez 3 fois plus vite"
+  },
+  "categories": {
+    "sectionTitle": "Thèmes et catégories",
+    "sectionSubtitle": "Pratiquez les verbes regroupés par situations de la vie courante",
+    "verbsCount": "verbes",
+    "movement": {
+      "title": "Mouvement et transport",
+      "subtitle": "gehen, fahren, fliegen, ankommen..."
+    },
+    "communication": {
+      "title": "Communication et parole",
+      "subtitle": "sprechen, sagen, fragen, antworten..."
+    },
+    "homeDaily": {
+      "title": "Vie quotidienne et maison",
+      "subtitle": "wohnen, schlafen, aufstehen, kochen..."
+    },
+    "foodDrink": {
+      "title": "Nourriture et restaurants",
+      "subtitle": "essen, trinken, bestellen, probieren..."
+    },
+    "workStudy": {
+      "title": "Travail et études",
+      "subtitle": "arbeiten, lernen, studieren, schreiben..."
+    },
+    "shoppingMoney": {
+      "title": "Achats et argent",
+      "subtitle": "kaufen, bezahlen, kosten, sparen..."
+    },
+    "thoughtsFeelings": {
+      "title": "Pensées et sentiments",
+      "subtitle": "denken, glauben, fühlen, lieben..."
+    },
+    "leisureHobbies": {
+      "title": "Loisirs et passe-temps",
+      "subtitle": "spielen, reisen, schwimmen, wandern..."
+    },
+    "health": {
+      "title": "Santé et bien-être",
+      "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    }
   },
   "dictionaryScreen": {
     "title": "Dictionnaire",
     "searchPlaceholder": "Rechercher des verbes...",
     "emptySearch": "Aucun verbe trouvé",
-    "stammformen": "Formes de base",
+    "stammformen": "Temps primitifs",
     "infinitive": "Infinitif (Infinitiv)",
     "present3sg": "Präsens",
-    "praeteritum3sg": "Passé simple (Präteritum)",
+    "praeteritum3sg": "Präteritum",
     "perfekt": "Perfekt",
     "conjugation": "Conjugaison",
     "person": "Personne",
     "present": "Präsens",
     "praeteritum": "Präteritum",
-    "rektion": "Régime verbal (Rektion)",
+    "rektion": "Régime et cas (Rektion)",
     "imperative": "Impératif (Imperativ)",
     "examples": "Exemples"
   },
   "settingsScreen": {
     "title": "Paramètres",
     "generalSection": "GÉNÉRAL",
-    "audioSection": "SON",
+    "audioSection": "AUDIO",
     "supportSection": "ASSISTANCE",
-    "appLanguage": "Langue de l'app",
+    "appLanguage": "Langue de l'application",
     "theme": "Thème",
     "themeLight": "Clair",
     "themeDark": "Sombre",
     "themeSystem": "Système",
     "notifications": "Notifications",
     "soundEffects": "Effets sonores",
+    "speakOnCorrectAnswer": "Prononcer la bonne réponse",
+    "voiceGender": "Voix",
+    "voiceFemale": "Féminine",
+    "voiceMale": "Masculine",
+    "maleVoiceHint": "Pour utiliser une voix allemande masculine, installez-en une dans Réglages iOS → Accessibilité → Contenu énoncé → Voix → Allemand.",
     "contactUs": "Contactez-nous",
-    "version": "Version"
+    "version": "Version",
+    "notificationsPermissionRequiredTitle": "Activer les notifications",
+    "notificationsPermissionRequiredMessage": "Pour recevoir des rappels quotidiens d'entraînement et de série, activez les notifications dans les réglages de votre appareil.",
+    "openSettings": "Réglages",
+    "cancel": "Annuler"
+  },
+  "quizSettingsModal": {
+    "title": "Paramètres du quiz"
   },
   "verbsPracticeListScreen": {
     "title": "Pratique des verbes",
@@ -56,13 +151,13 @@
     "silver": "Argent",
     "trophy": "Trophée",
     "empty": "Aucun verbe trouvé",
-    "checkpointTitle": "{number}. Quiz intermédiaire",
-    "checkpointSubtitle": "Révision · Verbes {from}–{to}",
-    "checkpointBadge": "10 exercices"
+    "checkpointTitle": "Test intermédiaire",
+    "finalTestTitle": "Test final"
   },
   "verbQuizScreen": {
-    "title": "Entraînement",
-    "checkpointQuizTitle": "Quiz intermédiaire {number}",
+    "title": "Pratique",
+    "checkpointQuizTitle": "Test intermédiaire",
+    "smartQuizTitle": "Quiz intelligent",
     "level": "Niveau",
     "check": "Vérifier",
     "continue": "Continuer",
@@ -73,20 +168,194 @@
     "tapToContinue": "Appuyez n'importe où pour continuer",
     "correctAnswer": "Bonne réponse :",
     "conjugationPräsens": "Conjugaison au Präsens",
-    "principalParts": "Temps primitifs (Stammformen)",
-    "imperativeForms": "Impératif",
-    "auxiliaryExplanationMovement": "Le verbe {verb} exprime un déplacement ou un changement d'état, il forme donc le Perfekt avec sein ({form}).",
+    "principalParts": "Temps primitifs",
+    "imperativeForms": "Formes de l'impératif",
+    "auxiliaryExplanationMovement": "Le verbe {verb} exprime un mouvement ou un changement d'état, il forme donc le Perfekt avec sein ({form}).",
     "auxiliaryExplanationGeneral": "Le verbe {verb} forme le Perfekt avec l'auxiliaire haben ({form})."
   },
   "quizResultsScreen": {
     "title": "Résultats",
     "checkpointResultsTitle": "Résultats du test",
+    "smartQuizResultsTitle": "Résultats du quiz intelligent",
     "canDoBetter": "Vous pouvez faire mieux !",
     "almostThere": "Presque !",
-    "closeToPerfection": "Presque parfait !",
-    "youDidIt": "Vous avez réussi !",
+    "closeToPerfection": "Proche de la perfection !",
+    "youDidIt": "Bravo, vous avez réussi !",
+    "nextLevel": "Niveau suivant",
     "tryAgain": "Réessayer",
-    "verbsList": "Liste des verbes",
+    "verbsList": "Vers la liste des verbes",
+    "backToPractice": "Retour à la pratique",
     "scoreSummary": "{correct} sur {total}"
+  },
+  "dailyQuizLimitModal": {
+    "title": "Super progression !",
+    "message": "Vous êtes vraiment déterminé à apprendre l'allemand !",
+    "instructions": "Comment souhaitez-vous continuer ?",
+    "videoButton": "Regarder les pubs",
+    "or": "ou",
+    "premiumButtonWithTrial": "Niveaux illimités gratuits\npendant {daysLabel}",
+    "premiumButtonNoTrial": "Obtenir Premium",
+    "premiumButtonSubtitleWithTrial": "puis {yearlyPrice}/an (☕️ / mois)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice}/an (☕️ / mois)",
+    "waitUntilTomorrow": "Attendre jusqu'à demain",
+    "cancelAnytime": "Annuler à tout moment"
+  },
+  "premiumSheets": {
+    "subscribeTitle": "Débloquez Premium",
+    "subscribeSubtitle": "Accélérez votre apprentissage des verbes allemands avec des outils avancés.",
+    "subscribeNow": "S'abonner maintenant",
+    "buyNow": "Acheter maintenant",
+    "viewPlans": "Voir les offres",
+    "premiumFeaturesLabel": "FONCTIONNALITÉS PREMIUM",
+    "disclaimerAutoRenew": "Renouvellement auto à {price}/{period}. Annulez à tout moment dans les paramètres de votre compte.",
+    "disclaimerAutoRenewTrial": "Gratuit pendant {trialDuration}, puis {price}/{period}. Annulez à tout moment.",
+    "disclaimerOneTime": "Achat unique. Aucun frais récurrent.",
+    "freeTrialDays": "Essai gratuit de {count} jours",
+    "freeTrialWeeks": "Essai gratuit de {count} sem.",
+    "freeTrialMonths": "Essai gratuit de {count} mois",
+    "freeTrialYears": "Essai gratuit de {count} ans",
+    "trialUnit": {
+      "day": "jours",
+      "week": "semaines",
+      "month": "mois",
+      "year": "ans"
+    },
+    "periodMonth": "mois",
+    "periodYear": "an",
+    "restorePurchases": "Restaurer les achats",
+    "errorTitle": "Erreur",
+    "errorUnavailable": "Ce plan n'est pas disponible pour le moment. Veuillez réessayer plus tard.",
+    "errorPurchase": "L'achat a échoué. Veuillez réessayer.",
+    "errorRestore": "La restauration a échoué. Veuillez réessayer.",
+    "restoreSuccessTitle": "Restauré !",
+    "restoreSuccessMessage": "Votre accès premium a été restauré.",
+    "restoreNothingTitle": "Aucun achat trouvé",
+    "restoreNothingMessage": "Nous n'avons trouvé aucun achat précédent à restaurer.",
+    "termsOfService": "Conditions d'utilisation",
+    "privacyPolicy": "Politique de confidentialité",
+    "plans": {
+      "monthlyLabel": "1 Mois",
+      "monthlyPer": "Mensuel",
+      "yearlyLabel": "12 Mois",
+      "yearlyBadge": "MEILLEURE OFFRE",
+      "perMonth": "{price}/mois",
+      "lifetimeLabel": "À vie",
+      "lifetimePer": "Paiement unique",
+      "lifetimeBadge": "UNE FOIS"
+    },
+    "features": {
+      "noAdsTitle": "Zéro publicité",
+      "noAdsShort": "Zéro\npub",
+      "noAdsDescription": "Restez concentré et apprenez sans distractions.",
+      "unlimitedQuizzesTitle": "Quiz illimités",
+      "unlimitedQuizzesShort": "Quiz\nillimités",
+      "unlimitedQuizzesDescription": "Pratiquez autant que vous le souhaitez sans limite quotidienne.",
+      "allLevelsTitle": "All Levels Unlocked",
+      "allLevelsShort": "All\nLevels",
+      "allLevelsDescription": "Accès instantané à tous les niveaux de verbes A1-B2 et points de contrôle.",
+      "smartQuizModeTitle": "Algorithme intelligent",
+      "smartQuizModeShort": "Algorithme\nintelligent",
+      "smartQuizModeDescription": "Concentrez-vous uniquement sur vos erreurs et apprenez 3 fois plus vite !",
+      "naturalVoiceTitle": "Voix Naturelles",
+      "naturalVoiceShort": "Voix\nnaturelles",
+      "naturalVoiceDescription": "Écoutez les verbes et les phrases avec une prononciation allemande naturelle.",
+      "unlimitedCustomListsAndWordsTitle": "Créez vos propres listes",
+      "unlimitedCustomListsAndWordsShort": "Listes de\nmots",
+      "unlimitedCustomListsAndWordsDescription": "Ajoutez un nombre illimité de mots et pratiquez exactement le vocabulaire dont vous avez besoin.",
+      "photoScannerTitle": "Image vers mots",
+      "photoScannerShort": "Image vers\nmots",
+      "photoScannerDescription": "Importez instantanément des noms allemands à partir de photos grâce à l’IA."
+    },
+    "trialTitle": "Votre essai Premium de 3 jours est actif",
+    "trialSubtitle": "Débloquez votre progression la plus rapide avec zéro pub et des outils d'apprentissage puissants.",
+    "trialCta": "C'est parti !"
+  },
+  "notifications": {
+    "reminderTitle": "C'est l'heure de s'entraîner !",
+    "reminderBody": "Une courte session avec les verbes et structures de phrases allemands vous aidera à les maîtriser.",
+    "trialReminderTitle": "Votre essai gratuit se termine bientôt",
+    "trialReminderBody": "Profitez au maximum de Premium aujourd'hui ! Votre essai se termine dans 24 heures.",
+    "streakReminderTitle": "Ne brisez pas votre série ! 🔥",
+    "streakReminderBody": "Vous ne vous êtes pas encore entraîné aujourd'hui. Faites un quiz de 2 minutes pour conserver votre série !"
+  },
+  "firstOpenPaywall": {
+    "trialBadge": "ESSAI · 3 JOURS",
+    "title": "Essayez Premium avant de payer",
+    "subtitle": "Voici comment fonctionne votre essai gratuit.",
+    "cta": "Commencer Premium gratuitement",
+    "restore": "Restaurer les achats",
+    "proceedLimited": "Continuer avec la version limitée",
+    "priceYearlyWithCoffee": "{price}/an, une tasse de café/mois",
+    "disclaimer": "Renouvellement automatique à {price}/an. Annulez à tout moment dans les paramètres.",
+    "disclaimerFallback": "Renouvellement automatique annuel. Annulez à tout moment dans les paramètres.",
+    "priceWithTrial": "Gratuit pendant {trialDuration}, puis {price}/an",
+    "priceYearly": "{price}/an",
+    "timeline": {
+      "today": {
+        "day": "Aujourd'hui",
+        "headline": "Tout débloquer",
+        "benefits": {
+          "noAds": {
+            "title": "100% Ad-Free Learning",
+            "text": "Stay focused on your goals with a clean, zero-distraction study experience."
+          },
+          "unlimitedQuizzes": {
+            "title": "Unlimited Quizzes",
+            "text": "Practice as much as you want with no daily limits or waiting."
+          },
+          "allLevels": {
+            "title": "Tous les niveaux A1–B2 débloqués",
+            "text": "Accès instantané à toutes les cartes de verbes, points de contrôle grammaticaux et tests."
+          },
+          "smartQuizMode": {
+            "title": "Correction intelligente des erreurs",
+            "text": "Ciblez vos points faibles personnels pour maîtriser les verbes allemands 3 fois plus vite."
+          },
+          "adFree": {
+            "title": "100% Sans Publicité",
+            "text": "Restez concentré sur vos objectifs avec une expérience d'étude sans distraction."
+          },
+          "grammar": {
+            "title": "Maîtrisez la Grammaire",
+            "text": "Débloquez la pratique illimitée des articles, des déclinaisons et des terminaisons."
+          },
+          "correction": {
+            "title": "Correction Intelligente",
+            "text": "Recevez des règles et explications instantanées pour apprendre de chaque erreur."
+          },
+          "translations": {
+            "title": "Traductions Précises",
+            "text": "Obtenez des traductions natives pour chaque mot et ne perdez jamais le sens."
+          },
+          "customLists": {
+            "title": "Listes Illimitées",
+            "text": "Créez des listes de mots personnalisées pour organiser et maîtriser votre vocabulaire."
+          },
+          "photoScanner": {
+            "title": "Scanner Photo IA",
+            "text": "Convertissez des photos de texte en listes de mots pour étudier du vrai contenu."
+          },
+          "visualMemory": {
+            "title": "Soutien Visuel",
+            "text": "Améliorez l'apprentissage avec des illustrations pour ancrer chaque nom dans votre esprit."
+          },
+          "voices": {
+            "title": "Immersion Audio",
+            "text": "Développez une écoute parfaite en entraînant votre oreille avec des voix neuronales."
+          }
+        },
+        "description": ""
+      },
+      "day2": {
+        "day": "Jour 3",
+        "headline": "Nous vous rappellerons",
+        "description": "Notification amicale avant la fin de votre essai — pas de surprises."
+      },
+      "day3": {
+        "day": "Jour 4",
+        "headline": "L'abonnement commence",
+        "description": "Seulement si vous n'annulez pas. Annulez à tout moment dans les paramètres."
+      }
+    }
   }
 }

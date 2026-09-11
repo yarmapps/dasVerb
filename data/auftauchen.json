@@ -1,0 +1,160 @@
+{
+  "id": "auftauchen",
+  "infinitive": "auftauchen",
+  "translation": {
+    "ru": "всплывать, появляться, объявляться",
+    "en": "to surface, appear, emerge"
+  },
+  "level": "B1",
+  "frequency_rank": 275,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "auftauchen",
+    "present_3sg": "taucht auf",
+    "praeteritum_3sg": "tauchte auf",
+    "partizip_2": "aufgetaucht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "tauche auf",
+      "du": "tauchst auf",
+      "er_sie_es": "taucht auf",
+      "wir": "tauchen auf",
+      "ihr": "taucht auf",
+      "sie_Sie": "tauchen auf"
+    },
+    "praeteritum": {
+      "ich": "tauchte auf",
+      "du": "tauchtest auf",
+      "er_sie_es": "tauchte auf",
+      "wir": "tauchten auf",
+      "ihr": "tauchtet auf",
+      "sie_Sie": "tauchten auf"
+    },
+    "imperative": {
+      "du": "tauche auf!",
+      "ihr": "taucht auf!",
+      "Sie": "tauchen Sie auf!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "plötzlich auftauchen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich tauche nach einem langen Tauchgang langsam aus dem Wasser auf.",
+      "translation": {
+        "ru": "После долгого погружения я медленно выныриваю из воды.",
+        "en": "After a long dive I slowly surface from the water."
+      },
+      "bracket_parts": [
+        "tauche",
+        "auf"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Tauchst du heute Abend ganz überraschend auf dem Fest auf?",
+      "translation": {
+        "ru": "Ты появишься сегодня вечером сюрпризом на празднике?",
+        "en": "Are you turning up unexpectedly at the party tonight?"
+      },
+      "bracket_parts": [
+        "Tauchst",
+        "auf"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Ein alter Bekannter taucht plötzlich in der Stadt auf.",
+      "translation": {
+        "ru": "Старый знакомый внезапно объявляется в городе.",
+        "en": "An old acquaintance suddenly turns up in the city."
+      },
+      "bracket_parts": [
+        "taucht",
+        "auf"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir tauchen pünktlich zum Start der Konferenz auf.",
+      "translation": {
+        "ru": "Мы появляемся точно к началу конференции.",
+        "en": "We show up right on time for the start of the conference."
+      },
+      "bracket_parts": [
+        "tauchen",
+        "auf"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Taucht ihr auch bei der Geburtstagsfeier auf?",
+      "translation": {
+        "ru": "Вы тоже объявитесь на праздновании дня рождения?",
+        "en": "Are you guys also showing up at the birthday party?"
+      },
+      "bracket_parts": [
+        "Taucht",
+        "auf"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Das verschollene U-Boot tauchte damals unerwartet wieder auf.",
+      "translation": {
+        "ru": "Пропавшая подлодка тогда неожиданно снова всплыла.",
+        "en": "The missing submarine unexpectedly surfaced again back then."
+      },
+      "bracket_parts": [
+        "tauchte",
+        "auf"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der verlorene Schlüssel ist gestern im Garten wieder aufgetaucht.",
+      "translation": {
+        "ru": "Потерянный ключ вчера снова нашелся в саду.",
+        "en": "The lost key turned up again in the garden yesterday."
+      },
+      "bracket_parts": [
+        "ist",
+        "aufgetaucht"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Tauche bitte rechtzeitig vor dem Beginn des Meetings auf!",
+      "translation": {
+        "ru": "Появись вовремя до начала совещания, пожалуйста!",
+        "en": "Please show up in good time before the meeting starts!"
+      },
+      "bracket_parts": [
+        "Tauche",
+        "auf"
+      ]
+    }
+  ]
+}

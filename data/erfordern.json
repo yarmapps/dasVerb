@@ -1,0 +1,171 @@
+{
+  "id": "erfordern",
+  "infinitive": "erfordern",
+  "translation": {
+    "ru": "требовать, вызывать необходимость",
+    "en": "to require, demand"
+  },
+  "level": "B1",
+  "frequency_rank": 422,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erfordern",
+    "present_3sg": "erfordert",
+    "praeteritum_3sg": "erforderte",
+    "partizip_2": "erfordert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erfordere",
+      "du": "erforderst",
+      "er_sie_es": "erfordert",
+      "wir": "erfordern",
+      "ihr": "erfordert",
+      "sie_Sie": "erfordern"
+    },
+    "praeteritum": {
+      "ich": "erforderte",
+      "du": "erfordertest",
+      "er_sie_es": "erforderte",
+      "wir": "erforderten",
+      "ihr": "erfordertet",
+      "sie_Sie": "erforderten"
+    },
+    "perfekt": {
+      "ich": "habe erfordert",
+      "du": "hast erfordert",
+      "er_sie_es": "hat erfordert",
+      "wir": "haben erfordert",
+      "ihr": "habt erfordert",
+      "sie_Sie": "haben erfordert"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich erfordere als Teamleiter volle Konzentration von allen.",
+      "translation": {
+        "ru": "Как руководитель команды, я требую от всех полной концентрации.",
+        "en": "As team lead, I require full concentration from everyone."
+      },
+      "bracket_parts": [
+        "erfordere"
+      ],
+      "akkusativ_parts": [
+        "volle Konzentration"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du erforderst keine Hilfe für diese einfache Aufgabe.",
+      "translation": {
+        "ru": "Тебе не требуется помощь для этого простого задания.",
+        "en": "You do not require any help for this simple task."
+      },
+      "bracket_parts": [
+        "erforderst"
+      ],
+      "akkusativ_parts": [
+        "keine Hilfe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dieser komplizierte Fall erfordert viel Geduld von den Experten.",
+      "translation": {
+        "ru": "Этот сложный случай требует много терпения от экспертов.",
+        "en": "This complicated case requires a lot of patience from the experts."
+      },
+      "bracket_parts": [
+        "erfordert"
+      ],
+      "akkusativ_parts": [
+        "viel Geduld"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erfordern klare Antworten von der Firmenleitung.",
+      "translation": {
+        "ru": "Мы требуем четких ответов от руководства компании.",
+        "en": "We demand clear answers from company management."
+      },
+      "bracket_parts": [
+        "erfordern"
+      ],
+      "akkusativ_parts": [
+        "klare Antworten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr erfordert zu viele Zugeständnisse von den Partnern.",
+      "translation": {
+        "ru": "Вы требуете слишком много уступок от партнеров.",
+        "en": "You require too many concessions from the partners."
+      },
+      "bracket_parts": [
+        "erfordert"
+      ],
+      "akkusativ_parts": [
+        "zu viele Zugeständnisse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie erforderten damals eine sofortige Entscheidung des Chefs.",
+      "translation": {
+        "ru": "Они требовали тогда немедленного решения шефа.",
+        "en": "They required an immediate decision from the boss back then."
+      },
+      "bracket_parts": [
+        "erforderten"
+      ],
+      "akkusativ_parts": [
+        "eine sofortige Entscheidung"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das neue Projekt hat enorme finanzielle Mittel erfordert.",
+      "translation": {
+        "ru": "Новый проект потребовал огромных финансовых средств.",
+        "en": "The new project required enormous financial resources."
+      },
+      "bracket_parts": [
+        "hat",
+        "erfordert"
+      ],
+      "akkusativ_parts": [
+        "enorme finanzielle Mittel"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erfordere nicht das Unmögliche von deinen Mitarbeitern!",
+      "translation": {
+        "ru": "Не требуй невозможного от своих сотрудников!",
+        "en": "Do not demand the impossible from your employees!"
+      },
+      "bracket_parts": [
+        "Erfordere"
+      ],
+      "akkusativ_parts": [
+        "das Unmögliche"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

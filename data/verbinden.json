@@ -1,0 +1,177 @@
+{
+  "id": "verbinden",
+  "infinitive": "verbinden",
+  "translation": {
+    "ru": "соединять, связывать; перевязывать (рану)",
+    "en": "to connect, link, bandage"
+  },
+  "level": "B1",
+  "frequency_rank": 96,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verbinden",
+    "present_3sg": "verbindet",
+    "praeteritum_3sg": "verband",
+    "partizip_2": "verbunden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verbinde",
+      "du": "verbindest",
+      "er_sie_es": "verbindet",
+      "wir": "verbinden",
+      "ihr": "verbindet",
+      "sie_Sie": "verbinden"
+    },
+    "praeteritum": {
+      "ich": "verband",
+      "du": "verbandest",
+      "er_sie_es": "verband",
+      "wir": "verbanden",
+      "ihr": "verbandet",
+      "sie_Sie": "verbanden"
+    },
+    "imperative": {
+      "du": "verbinde!",
+      "ihr": "verbindet!",
+      "Sie": "verbinden Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "zwei Städte verbinden",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verbinde den Drucker über das Netzwerk mit dem Laptop.",
+      "translation": {
+        "ru": "Я подключаю принтер к ноутбуку через сеть.",
+        "en": "I connect the printer to the laptop via the network."
+      },
+      "bracket_parts": [
+        "verbinde"
+      ],
+      "akkusativ_parts": [
+        "den Drucker"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verbindest du diese beiden Kabel richtig?",
+      "translation": {
+        "ru": "Ты правильно соединяешь эти два кабеля?",
+        "en": "Are you connecting these two cables correctly?"
+      },
+      "bracket_parts": [
+        "Verbindest"
+      ],
+      "akkusativ_parts": [
+        "diese beiden Kabel"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Brücke verbindet zwei Teile der Stadt.",
+      "translation": {
+        "ru": "Мост соединяет две части города.",
+        "en": "The bridge connects two parts of the city."
+      },
+      "bracket_parts": [
+        "verbindet"
+      ],
+      "akkusativ_parts": [
+        "zwei Teile der Stadt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verbinden Theorie und praktische Übungen.",
+      "translation": {
+        "ru": "Мы сочетаем теорию и практические упражнения.",
+        "en": "We combine theory and practical exercises."
+      },
+      "bracket_parts": [
+        "verbinden"
+      ],
+      "akkusativ_parts": [
+        "Theorie und praktische Übungen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verbindet ihr das Gerät mit dem Internet?",
+      "translation": {
+        "ru": "Вы подключаете устройство к интернету?",
+        "en": "Are you guys connecting the device to the internet?"
+      },
+      "bracket_parts": [
+        "Verbindet"
+      ],
+      "akkusativ_parts": [
+        "das Gerät"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie verbanden die blutende Wunde sehr sorgfältig.",
+      "translation": {
+        "ru": "Они очень аккуратно перевязали кровоточащую рану.",
+        "en": "They bandaged the bleeding wound very carefully."
+      },
+      "bracket_parts": [
+        "verbanden"
+      ],
+      "akkusativ_parts": [
+        "die blutende Wunde"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Ärztin hat den gebrochenen Arm schnell verbunden.",
+      "translation": {
+        "ru": "Врач быстро перевязала сломанную руку.",
+        "en": "The doctor quickly bandaged the fractured arm."
+      },
+      "bracket_parts": [
+        "hat",
+        "verbunden"
+      ],
+      "akkusativ_parts": [
+        "den gebrochenen Arm"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verbinde mich bitte mit der Zentrale!",
+      "translation": {
+        "ru": "Соедините меня с коммутатором, пожалуйста!",
+        "en": "Please connect me to the switchboard!"
+      },
+      "bracket_parts": [
+        "Verbinde"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
+    }
+  ]
+}

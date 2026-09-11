@@ -1,0 +1,178 @@
+{
+  "id": "lachen_akk_ueber",
+  "infinitive": "lachen",
+  "translation": {
+    "ru": "смеяться над",
+    "en": "to laugh at / about"
+  },
+  "level": "A1",
+  "frequency_rank": 129,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "lachen",
+    "present_3sg": "lacht",
+    "praeteritum_3sg": "lachte",
+    "partizip_2": "gelacht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lache",
+      "du": "lachst",
+      "er_sie_es": "lacht",
+      "wir": "lachen",
+      "ihr": "lacht",
+      "sie_Sie": "lachen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "lachte",
+      "du": "lachtest",
+      "er_sie_es": "lachte",
+      "wir": "lachten",
+      "ihr": "lachtet",
+      "sie_Sie": "lachten"
+    },
+    "imperative": {
+      "du": "lache",
+      "ihr": "lacht",
+      "Sie": "lachen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "über einen Witz (Akk) lachen",
+  "sentences": [
+    {
+      "id": "lachen_akk_ueber_1",
+      "tense": "Präsens",
+      "german": "Ich lache herzlich über diesen lustigen Witz.",
+      "translation": {
+        "ru": "Я от всего сердца смеюсь над этой забавной шуткой.",
+        "en": "I laugh heartily at this funny joke."
+      },
+      "bracket_parts": [
+        "lache"
+      ],
+      "akkusativ_parts": [
+        "über diesen lustigen Witz"
+      ]
+    },
+    {
+      "id": "lachen_akk_ueber_2",
+      "tense": "Präsens",
+      "german": "Lachst du etwa über meine kleine Tollpatschigkeit?",
+      "translation": {
+        "ru": "Ты что, смеешься над моей легкой неуклюжестью?",
+        "en": "Are you laughing at my little clumsiness?"
+      },
+      "bracket_parts": [
+        "Lachst"
+      ],
+      "akkusativ_parts": [
+        "über meine kleine Tollpatschigkeit"
+      ]
+    },
+    {
+      "id": "lachen_akk_ueber_3",
+      "tense": "Präsens",
+      "german": "Das ganze Publikum lacht über die humorvolle Szene.",
+      "translation": {
+        "ru": "Вся публика смеется над этой юмористической сценой.",
+        "en": "The entire audience laughs at the humorous scene."
+      },
+      "bracket_parts": [
+        "lacht"
+      ],
+      "akkusativ_parts": [
+        "über die humorvolle Szene"
+      ]
+    },
+    {
+      "id": "lachen_akk_ueber_4",
+      "tense": "Präsens",
+      "german": "Wir lachen oft über unsere alten Fehler aus der Schulzeit.",
+      "translation": {
+        "ru": "Мы часто смеемся над нашими старыми школьными ошибками.",
+        "en": "We often laugh about our old mistakes from school days."
+      },
+      "bracket_parts": [
+        "lachen"
+      ],
+      "akkusativ_parts": [
+        "über unsere alten Fehler"
+      ]
+    },
+    {
+      "id": "lachen_akk_ueber_5",
+      "tense": "Präsens",
+      "german": "Lacht ihr über die lustige Komödie im Kino?",
+      "translation": {
+        "ru": "Вы смеетесь над этой забавной комедией в кино?",
+        "en": "Are you laughing at the funny comedy in the cinema?"
+      },
+      "bracket_parts": [
+        "Lacht"
+      ],
+      "akkusativ_parts": [
+        "über die lustige Komödie"
+      ]
+    },
+    {
+      "id": "lachen_akk_ueber_6",
+      "tense": "Präteritum",
+      "german": "Sie lachten damals stundenlang über seine Anekdoten.",
+      "translation": {
+        "ru": "Они часами смеялись тогда над его анекдотами.",
+        "en": "They laughed for hours about his anecdotes back then."
+      },
+      "bracket_parts": [
+        "lachten"
+      ],
+      "akkusativ_parts": [
+        "über seine Anekdoten"
+      ]
+    },
+    {
+      "id": "lachen_akk_ueber_7",
+      "tense": "Perfekt",
+      "german": "Ich habe gestern Tränen über das Missgeschick gelacht.",
+      "translation": {
+        "ru": "Вчера я до слез смеялся над этой нелепицей.",
+        "en": "I laughed tears about the mishap yesterday."
+      },
+      "bracket_parts": [
+        "habe",
+        "gelacht"
+      ],
+      "akkusativ_parts": [
+        "über das Missgeschick"
+      ]
+    },
+    {
+      "id": "lachen_akk_ueber_8",
+      "tense": "Imperativ",
+      "german": "Lache öfter über dich selbst!",
+      "translation": {
+        "ru": "Смейся почаще над самим собой!",
+        "en": "Laugh at yourself more often!"
+      },
+      "bracket_parts": [
+        "Lache"
+      ],
+      "akkusativ_parts": [
+        "über dich selbst"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "beschraenken",
+  "infinitive": "beschränken",
+  "translation": {
+    "ru": "ограничивать, сокращать",
+    "en": "to restrict, limit"
+  },
+  "level": "B2",
+  "frequency_rank": 299,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beschränken",
+    "present_3sg": "beschränkt",
+    "praeteritum_3sg": "beschränkte",
+    "partizip_2": "beschränkt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beschränke",
+      "du": "beschränkst",
+      "er_sie_es": "beschränkt",
+      "wir": "beschränken",
+      "ihr": "beschränkt",
+      "sie_Sie": "beschränken"
+    },
+    "praeteritum": {
+      "ich": "beschränkte",
+      "du": "beschränktest",
+      "er_sie_es": "beschränkte",
+      "wir": "beschränkten",
+      "ihr": "beschränktet",
+      "sie_Sie": "beschränkten"
+    },
+    "imperative": {
+      "du": "beschränke!",
+      "ihr": "beschränkt!",
+      "Sie": "beschränken Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Ausgaben beschränken",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich beschränke meinen Konsum von Kaffee auf eine Tasse am Tag.",
+      "translation": {
+        "ru": "Я ограничиваю потребление кофе одной чашкой в день.",
+        "en": "I limit my coffee consumption to one cup a day."
+      },
+      "bracket_parts": [
+        "beschränke"
+      ],
+      "akkusativ_parts": [
+        "meinen Konsum von Kaffee"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Beschränkst du deine Reisezeit auf das Nötigste?",
+      "translation": {
+        "ru": "Ты ограничиваешь время поездки самым необходимым?",
+        "en": "Do you limit your travel time to the bare essentials?"
+      },
+      "bracket_parts": [
+        "Beschränkst"
+      ],
+      "akkusativ_parts": [
+        "deine Reisezeit"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Stadtverwaltung beschränkt den Autoverkehr in der Innenstadt.",
+      "translation": {
+        "ru": "Городская администрация ограничивает движение автомобилей в центре города.",
+        "en": "The city administration restricts car traffic in the city center."
+      },
+      "bracket_parts": [
+        "beschränkt"
+      ],
+      "akkusativ_parts": [
+        "den Autoverkehr"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beschränken den Zugang zu vertraulichen Akten.",
+      "translation": {
+        "ru": "Мы ограничиваем доступ к конфиденциальным документам.",
+        "en": "We restrict access to confidential files."
+      },
+      "bracket_parts": [
+        "beschränken"
+      ],
+      "akkusativ_parts": [
+        "den Zugang"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Beschränkt ihr die Redezeit der einzelnen Teilnehmer?",
+      "translation": {
+        "ru": "Вы ограничиваете время выступления отдельных участников?",
+        "en": "Do you guys restrict the speaking time of individual participants?"
+      },
+      "bracket_parts": [
+        "Beschränkt"
+      ],
+      "akkusativ_parts": [
+        "die Redezeit der einzelnen Teilnehmer"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der König beschränkte damals die Rechte des Adels erheblich.",
+      "translation": {
+        "ru": "Король значительно ограничил тогда права дворянства.",
+        "en": "The king significantly restricted the rights of the nobility back then."
+      },
+      "bracket_parts": [
+        "beschränkte"
+      ],
+      "akkusativ_parts": [
+        "die Rechte des Adels"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Behörden haben die Teilnehmerzahl für die Demonstration beschränkt.",
+      "translation": {
+        "ru": "Власти ограничили число участников демонстрации.",
+        "en": "The authorities have restricted the number of participants for the demonstration."
+      },
+      "bracket_parts": [
+        "haben",
+        "beschränkt"
+      ],
+      "akkusativ_parts": [
+        "die Teilnehmerzahl"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Beschränke bitte deinen Vortrag auf maximal fünfzehn Minuten!",
+      "translation": {
+        "ru": "Ограничь свой доклад максимум пятнадцатью минутами, пожалуйста!",
+        "en": "Please limit your presentation to fifteen minutes at most!"
+      },
+      "bracket_parts": [
+        "Beschränke"
+      ],
+      "akkusativ_parts": [
+        "deinen Vortrag"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

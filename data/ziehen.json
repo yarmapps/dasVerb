@@ -1,0 +1,172 @@
+{
+  "id": "ziehen",
+  "infinitive": "ziehen",
+  "translation": {
+    "ru": "тянуть, тащить",
+    "en": "to pull, to drag"
+  },
+  "level": "A2",
+  "frequency_rank": 57,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ziehen",
+    "present_3sg": "zieht",
+    "praeteritum_3sg": "zog",
+    "partizip_2": "gezogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ziehe",
+      "du": "ziehst",
+      "er_sie_es": "zieht",
+      "wir": "ziehen",
+      "ihr": "zieht",
+      "sie_Sie": "ziehen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "zog",
+      "du": "zogst",
+      "er_sie_es": "zog",
+      "wir": "zogen",
+      "ihr": "zogt",
+      "sie_Sie": "zogen"
+    },
+    "imperative": {
+      "du": "ziehe",
+      "ihr": "zieht",
+      "Sie": "ziehen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "an einem Seil / den Koffer (Akk) ziehen",
+  "sentences": [
+    {
+      "id": "ziehen_1",
+      "tense": "Präsens",
+      "german": "Ich ziehe den schweren Koffer hinter mir her.",
+      "translation": {
+        "ru": "Я тяну тяжелый чемодан за собой.",
+        "en": "I pull the heavy suitcase behind me."
+      },
+      "bracket_parts": [
+        "ziehe"
+      ],
+      "akkusativ_parts": [
+        "den schweren Koffer"
+      ]
+    },
+    {
+      "id": "ziehen_2",
+      "tense": "Präsens",
+      "german": "Ziehst du an diesem langen Seil?",
+      "translation": {
+        "ru": "Ты тянешь за эту длинную веревку?",
+        "en": "Are you pulling on this long rope?"
+      },
+      "bracket_parts": [
+        "Ziehst"
+      ]
+    },
+    {
+      "id": "ziehen_3",
+      "tense": "Präsens",
+      "german": "Das Pferd zieht den alten Wagen über das Feld.",
+      "translation": {
+        "ru": "Лошадь тянет старую телегу по полю.",
+        "en": "The horse pulls the old cart across the field."
+      },
+      "bracket_parts": [
+        "zieht"
+      ],
+      "akkusativ_parts": [
+        "den alten Wagen"
+      ]
+    },
+    {
+      "id": "ziehen_4",
+      "tense": "Präsens",
+      "german": "Wir ziehen gemeinsam die schwere Kiste.",
+      "translation": {
+        "ru": "Мы вместе тянем тяжелый ящик.",
+        "en": "We pull the heavy box together."
+      },
+      "bracket_parts": [
+        "ziehen"
+      ],
+      "akkusativ_parts": [
+        "die schwere Kiste"
+      ]
+    },
+    {
+      "id": "ziehen_5",
+      "tense": "Präsens",
+      "german": "Zieht ihr den Vorhang vor dem Fenster zu?",
+      "translation": {
+        "ru": "Вы задергиваете штору перед окном?",
+        "en": "Are you drawing the curtain in front of the window?"
+      },
+      "bracket_parts": [
+        "Zieht"
+      ],
+      "akkusativ_parts": [
+        "den Vorhang"
+      ]
+    },
+    {
+      "id": "ziehen_6",
+      "tense": "Präteritum",
+      "german": "Sie zogen damals wichtige Schlüsse aus dem Vorfall.",
+      "translation": {
+        "ru": "Они тогда сделали важные выводы из этого инцидента.",
+        "en": "They drew important conclusions from the incident back then."
+      },
+      "bracket_parts": [
+        "zogen"
+      ],
+      "akkusativ_parts": [
+        "wichtige Schlüsse"
+      ]
+    },
+    {
+      "id": "ziehen_7",
+      "tense": "Perfekt",
+      "german": "Ich habe die Schublade vorsichtig auf mich gezogen.",
+      "translation": {
+        "ru": "Я осторожно потянул ящик стола на себя.",
+        "en": "I carefully pulled the drawer toward myself."
+      },
+      "bracket_parts": [
+        "habe",
+        "gezogen"
+      ],
+      "akkusativ_parts": [
+        "die Schublade"
+      ]
+    },
+    {
+      "id": "ziehen_8",
+      "tense": "Imperativ",
+      "german": "Zieh nicht so fest an der Schnur!",
+      "translation": {
+        "ru": "Не тяни так сильно за шнур!",
+        "en": "Don't pull so hard on the string!"
+      },
+      "bracket_parts": [
+        "Zieh"
+      ]
+    }
+  ]
+}

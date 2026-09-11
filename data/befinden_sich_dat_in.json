@@ -1,0 +1,202 @@
+{
+  "id": "befinden_sich_dat_in",
+  "infinitive": "befinden",
+  "translation": {
+    "ru": "находиться в, пребывать",
+    "en": "to be located in"
+  },
+  "level": "A2",
+  "frequency_rank": 116,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "befinden",
+    "present_3sg": "befindet sich",
+    "praeteritum_3sg": "befand sich",
+    "partizip_2": "sich befunden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "befinde mich",
+      "du": "befindest dich",
+      "er_sie_es": "befindet sich",
+      "wir": "befinden uns",
+      "ihr": "befindet euch",
+      "sie_Sie": "befinden sich",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "befand mich",
+      "du": "befandest dich",
+      "er_sie_es": "befand sich",
+      "wir": "befanden uns",
+      "ihr": "befandet euch",
+      "sie_Sie": "befanden sich"
+    },
+    "imperative": {
+      "du": "befinde dich",
+      "ihr": "befindet euch",
+      "Sie": "befinden Sie sich"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "in",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "sich im Zentrum (Dat) befinden",
+  "sentences": [
+    {
+      "id": "befinden_sich_dat_in_1",
+      "tense": "Präsens",
+      "german": "Ich befinde mich gerade in einer sehr schwierigen Lage.",
+      "translation": {
+        "ru": "Я нахожусь сейчас в очень трудном положении.",
+        "en": "I am currently in a very difficult situation."
+      },
+      "bracket_parts": [
+        "befinde"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": [
+        "in einer sehr schwierigen Lage"
+      ]
+    },
+    {
+      "id": "befinden_sich_dat_in_2",
+      "tense": "Präsens",
+      "german": "Befindest du dich zurzeit in der deutschen Hauptstadt?",
+      "translation": {
+        "ru": "Ты находишься сейчас в немецкой столице?",
+        "en": "Are you currently in the German capital?"
+      },
+      "bracket_parts": [
+        "Befindest"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "in der deutschen Hauptstadt"
+      ]
+    },
+    {
+      "id": "befinden_sich_dat_in_3",
+      "tense": "Präsens",
+      "german": "Das moderne Museum befindet sich direkt im Zentrum der Altstadt.",
+      "translation": {
+        "ru": "Современный музей находится прямо в центре старого города.",
+        "en": "The modern museum is located right in the center of the old town."
+      },
+      "bracket_parts": [
+        "befindet"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "im Zentrum"
+      ]
+    },
+    {
+      "id": "befinden_sich_dat_in_4",
+      "tense": "Präsens",
+      "german": "Wir befinden uns mitten im Umbau unseres Hauses.",
+      "translation": {
+        "ru": "Мы находимся прямо посреди перестройки нашего дома.",
+        "en": "We are right in the middle of remodeling our house."
+      },
+      "bracket_parts": [
+        "befinden"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ],
+      "dativ_parts": [
+        "im Umbau"
+      ]
+    },
+    {
+      "id": "befinden_sich_dat_in_5",
+      "tense": "Präsens",
+      "german": "Befindet ihr euch schon in dem reservierten Hotelzimmer?",
+      "translation": {
+        "ru": "Вы уже находитесь в забронированном номере отеля?",
+        "en": "Are you already in the reserved hotel room?"
+      },
+      "bracket_parts": [
+        "Befindet"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ],
+      "dativ_parts": [
+        "in dem reservierten Hotelzimmer"
+      ]
+    },
+    {
+      "id": "befinden_sich_dat_in_6",
+      "tense": "Präteritum",
+      "german": "Das Schiff befand sich damals in schwerer Seenot.",
+      "translation": {
+        "ru": "Судно находилось тогда в тяжелом бедствии на море.",
+        "en": "The ship was in serious distress at sea back then."
+      },
+      "bracket_parts": [
+        "befand"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": [
+        "in schwerer Seenot"
+      ]
+    },
+    {
+      "id": "befinden_sich_dat_in_7",
+      "tense": "Perfekt",
+      "german": "Ich habe mich lange in einem tiefen Irrtum befunden.",
+      "translation": {
+        "ru": "Я долго находился в глубоком заблуждении.",
+        "en": "I was in deep error for a long time."
+      },
+      "bracket_parts": [
+        "habe",
+        "befunden"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": [
+        "in einem tiefen Irrtum"
+      ]
+    },
+    {
+      "id": "befinden_sich_dat_in_8",
+      "tense": "Imperativ",
+      "german": "Befinde dich stets im Einklang mit dir selbst!",
+      "translation": {
+        "ru": "Всегда пребывай в согласии с самим собой!",
+        "en": "Always be in harmony with yourself!"
+      },
+      "bracket_parts": [
+        "Befinde"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "dativ_parts": [
+        "im Einklang"
+      ]
+    }
+  ]
+}

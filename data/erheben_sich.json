@@ -1,0 +1,153 @@
+{
+  "id": "erheben_sich",
+  "infinitive": "sich erheben",
+  "translation": {
+    "ru": "подниматься (с места), вставать; возвышаться (о горах)",
+    "en": "to rise, stand up, tower"
+  },
+  "level": "B1",
+  "frequency_rank": 269,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich erheben",
+    "present_3sg": "erhebt sich",
+    "praeteritum_3sg": "erhob sich",
+    "partizip_2": "erhoben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erhebe mich",
+      "du": "erhebst dich",
+      "er_sie_es": "erhebt sich",
+      "wir": "erheben uns",
+      "ihr": "erhebt euch",
+      "sie_Sie": "erheben sich"
+    },
+    "praeteritum": {
+      "ich": "erhob mich",
+      "du": "erhobst dich",
+      "er_sie_es": "erhob sich",
+      "wir": "erhoben uns",
+      "ihr": "erhobt euch",
+      "sie_Sie": "erhoben sich"
+    },
+    "imperative": {
+      "du": "erhebe dich!",
+      "ihr": "erhebt euch!",
+      "Sie": "erheben Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich von den Plätzen erheben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erhebe mich respektvoll von meinem Stuhl.",
+      "translation": {
+        "ru": "Я с уважением поднимаюсь со своего стула.",
+        "en": "I rise respectfully from my chair."
+      },
+      "bracket_parts": [
+        "erhebe"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erhebst du dich bei der Nationalhymne?",
+      "translation": {
+        "ru": "Ты встаешь при исполнении национального гимна?",
+        "en": "Do you stand up during the national anthem?"
+      },
+      "bracket_parts": [
+        "Erhebst"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Am Horizont erhebt sich eine gewaltige Bergkette.",
+      "translation": {
+        "ru": "На горизонте возвышается величественная горная цепь.",
+        "en": "On the horizon rises a massive mountain range."
+      },
+      "bracket_parts": [
+        "erhebt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erheben uns zur Begrüßung der Gäste.",
+      "translation": {
+        "ru": "Мы встаем, чтобы поприветствовать гостей.",
+        "en": "We stand up to welcome the guests."
+      },
+      "bracket_parts": [
+        "erheben"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erhebt ihr euch feierlich beim Einzug des Brautpaars?",
+      "translation": {
+        "ru": "Вы торжественно встаете при входе молодоженов?",
+        "en": "Do you guys stand up solemnly as the bridal couple enters?"
+      },
+      "bracket_parts": [
+        "Erhebt"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Das Volk erhob sich damals gegen den grausamen Herrscher.",
+      "translation": {
+        "ru": "Народ поднялся тогда против жестокого правителя.",
+        "en": "The people rose up against the cruel ruler back then."
+      },
+      "bracket_parts": [
+        "erhob"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Alle Zuschauer haben sich im Saal begeistert erhoben.",
+      "translation": {
+        "ru": "Все зрители в зале с восторгом поднялись со своих мест.",
+        "en": "All spectators in the hall rose enthusiastically."
+      },
+      "bracket_parts": [
+        "haben",
+        "erhoben"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erhebe dich bitte für eine Schweigeminute!",
+      "translation": {
+        "ru": "Встань на минуту молчания, пожалуйста!",
+        "en": "Please rise for a minute of silence!"
+      },
+      "bracket_parts": [
+        "Erhebe"
+      ]
+    }
+  ]
+}

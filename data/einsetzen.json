@@ -1,0 +1,185 @@
+{
+  "id": "einsetzen",
+  "infinitive": "einsetzen",
+  "translation": {
+    "ru": "применять, использовать, вставлять",
+    "en": "to use, to deploy, to insert"
+  },
+  "level": "B1",
+  "frequency_rank": 105,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einsetzen",
+    "present_3sg": "setzt ein",
+    "praeteritum_3sg": "setzte ein",
+    "partizip_2": "eingesetzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "setze ein",
+      "du": "setzt ein",
+      "er_sie_es": "setzt ein",
+      "wir": "setzen ein",
+      "ihr": "setzt ein",
+      "sie_Sie": "setzen ein",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "setzte ein",
+      "du": "setztest ein",
+      "er_sie_es": "setzte ein",
+      "wir": "setzten ein",
+      "ihr": "setztet ein",
+      "sie_Sie": "setzten ein"
+    },
+    "imperative": {
+      "du": "setze ein",
+      "ihr": "setzt ein",
+      "Sie": "setzen Sie ein"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Mittel / Methoden (Akk) einsetzen",
+  "sentences": [
+    {
+      "id": "einsetzen_1",
+      "tense": "Präsens",
+      "german": "Ich setze neue Methoden im Unterricht ein.",
+      "translation": {
+        "ru": "Я применяю новые методы на занятиях.",
+        "en": "I use new methods in class."
+      },
+      "bracket_parts": [
+        "setze",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "neue Methoden"
+      ]
+    },
+    {
+      "id": "einsetzen_2",
+      "tense": "Präsens",
+      "german": "Setzt du das passende Wort in die Lücke ein?",
+      "translation": {
+        "ru": "Ты вставляешь подходящее слово в пропуск?",
+        "en": "Are you inserting the suitable word into the gap?"
+      },
+      "bracket_parts": [
+        "Setzt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "das passende Wort"
+      ]
+    },
+    {
+      "id": "einsetzen_3",
+      "tense": "Präsens",
+      "german": "Die Polizei setzt einen Spürhund bei der Suche ein.",
+      "translation": {
+        "ru": "Полиция задействует служебную собаку при поиске.",
+        "en": "The police deploy a sniffer dog in the search."
+      },
+      "bracket_parts": [
+        "setzt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "einen Spürhund"
+      ]
+    },
+    {
+      "id": "einsetzen_4",
+      "tense": "Präsens",
+      "german": "Wir setzen alle finanziellen Mittel für das Projekt ein.",
+      "translation": {
+        "ru": "Мы задействуем все финансовые средства для этого проекта.",
+        "en": "We deploy all financial resources for the project."
+      },
+      "bracket_parts": [
+        "setzen",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "alle finanziellen Mittel"
+      ]
+    },
+    {
+      "id": "einsetzen_5",
+      "tense": "Präsens",
+      "german": "Setzt ihr die neue Software in eurer Firma ein?",
+      "translation": {
+        "ru": "Вы внедряете (используете) новое программное обеспечение в вашей компании?",
+        "en": "Are you using the new software in your company?"
+      },
+      "bracket_parts": [
+        "Setzt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "die neue Software"
+      ]
+    },
+    {
+      "id": "einsetzen_6",
+      "tense": "Präteritum",
+      "german": "Sie setzten damals modernste Geräte zur Messung ein.",
+      "translation": {
+        "ru": "Они применили тогда самые современные приборы для измерения.",
+        "en": "They used state-of-the-art measuring equipment back then."
+      },
+      "bracket_parts": [
+        "setzten",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "modernste Geräte"
+      ]
+    },
+    {
+      "id": "einsetzen_7",
+      "tense": "Perfekt",
+      "german": "Ich habe meine ganze Kraft für diesen Erfolg eingesetzt.",
+      "translation": {
+        "ru": "Я вложил все свои силы в этот успех.",
+        "en": "I put all my effort into this success."
+      },
+      "bracket_parts": [
+        "habe",
+        "eingesetzt"
+      ],
+      "akkusativ_parts": [
+        "meine ganze Kraft"
+      ]
+    },
+    {
+      "id": "einsetzen_8",
+      "tense": "Imperativ",
+      "german": "Setze deine Energie für etwas Gutes ein!",
+      "translation": {
+        "ru": "Направь свою энергию на доброе дело!",
+        "en": "Deploy your energy for something good!"
+      },
+      "bracket_parts": [
+        "Setze",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "deine Energie"
+      ]
+    }
+  ]
+}

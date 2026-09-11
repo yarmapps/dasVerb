@@ -1,0 +1,177 @@
+{
+  "id": "verlangen",
+  "infinitive": "verlangen",
+  "translation": {
+    "ru": "требовать, запрашивать",
+    "en": "to demand, require, ask for"
+  },
+  "level": "B1",
+  "frequency_rank": 159,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verlangen",
+    "present_3sg": "verlangt",
+    "praeteritum_3sg": "verlangte",
+    "partizip_2": "verlangt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verlange",
+      "du": "verlangst",
+      "er_sie_es": "verlangt",
+      "wir": "verlangen",
+      "ihr": "verlangt",
+      "sie_Sie": "verlangen"
+    },
+    "praeteritum": {
+      "ich": "verlangte",
+      "du": "verlangtest",
+      "er_sie_es": "verlangte",
+      "wir": "verlangten",
+      "ihr": "verlangtet",
+      "sie_Sie": "verlangten"
+    },
+    "imperative": {
+      "du": "verlange!",
+      "ihr": "verlangt!",
+      "Sie": "verlangen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine Erklärung verlangen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verlange eine klare und ehrliche Antwort.",
+      "translation": {
+        "ru": "Я требую ясного и честного ответа.",
+        "en": "I demand a clear and honest answer."
+      },
+      "bracket_parts": [
+        "verlange"
+      ],
+      "akkusativ_parts": [
+        "eine klare und ehrliche Antwort"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verlangst du zu viel von deinen Schülern?",
+      "translation": {
+        "ru": "Ты требуешь слишком многого от своих учеников?",
+        "en": "Do you demand too much from your students?"
+      },
+      "bracket_parts": [
+        "Verlangst"
+      ],
+      "akkusativ_parts": [
+        "zu viel"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Vermieter verlangt eine höhere Miete.",
+      "translation": {
+        "ru": "Арендодатель требует более высокую арендную плату.",
+        "en": "The landlord demands higher rent."
+      },
+      "bracket_parts": [
+        "verlangt"
+      ],
+      "akkusativ_parts": [
+        "eine höhere Miete"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verlangen gerechte Arbeitsbedingungen für alle.",
+      "translation": {
+        "ru": "Мы требуем справедливых условий труда для всех.",
+        "en": "We demand fair working conditions for all."
+      },
+      "bracket_parts": [
+        "verlangen"
+      ],
+      "akkusativ_parts": [
+        "gerechte Arbeitsbedingungen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verlangt ihr Schadensersatz für den Ausfall?",
+      "translation": {
+        "ru": "Вы требуете возмещения ущерба за простой?",
+        "en": "Are you guys demanding compensation for the downtime?"
+      },
+      "bracket_parts": [
+        "Verlangt"
+      ],
+      "akkusativ_parts": [
+        "Schadensersatz"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie verlangten sofortige Hilfe von den Behörden.",
+      "translation": {
+        "ru": "Они требовали немедленной помощи от властей.",
+        "en": "They demanded immediate help from the authorities."
+      },
+      "bracket_parts": [
+        "verlangten"
+      ],
+      "akkusativ_parts": [
+        "sofortige Hilfe"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Kunde hat sein Geld wütend zurück verlangt.",
+      "translation": {
+        "ru": "Клиент в гневе потребовал свои деньги назад.",
+        "en": "The customer angrily demanded his money back."
+      },
+      "bracket_parts": [
+        "hat",
+        "verlangt"
+      ],
+      "akkusativ_parts": [
+        "sein Geld"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verlange nicht das Unmögliche von den Leuten!",
+      "translation": {
+        "ru": "Не требуй невозможного от людей!",
+        "en": "Do not demand the impossible from people!"
+      },
+      "bracket_parts": [
+        "Verlange"
+      ],
+      "akkusativ_parts": [
+        "das Unmögliche"
+      ]
+    }
+  ]
+}

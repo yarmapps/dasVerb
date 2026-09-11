@@ -1,0 +1,184 @@
+{
+  "id": "festhalten",
+  "infinitive": "festhalten",
+  "translation": {
+    "ru": "крепко держать, удерживать; фиксировать (в протоколе)",
+    "en": "to hold tight, detain, record"
+  },
+  "level": "B1",
+  "frequency_rank": 252,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "fest",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "festhalten",
+    "present_3sg": "hält fest",
+    "praeteritum_3sg": "hielt fest",
+    "partizip_2": "festgehalten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "halte fest",
+      "du": "hältst fest",
+      "er_sie_es": "hält fest",
+      "wir": "halten fest",
+      "ihr": "haltet fest",
+      "sie_Sie": "halten fest"
+    },
+    "praeteritum": {
+      "ich": "hielt fest",
+      "du": "hieltst fest",
+      "er_sie_es": "hielt fest",
+      "wir": "hielten fest",
+      "ihr": "hieltet fest",
+      "sie_Sie": "hielten fest"
+    },
+    "imperative": {
+      "du": "halte fest!",
+      "ihr": "haltet fest!",
+      "Sie": "halten Sie fest!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Erinnerungen festhalten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich halte die schöne Erinnerung auf einem Foto fest.",
+      "translation": {
+        "ru": "Я запечатлеваю прекрасное воспоминание на фотографии.",
+        "en": "I capture the beautiful memory in a photograph."
+      },
+      "bracket_parts": [
+        "halte",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "die schöne Erinnerung"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Hältst du die Leiter bitte ganz sicher fest?",
+      "translation": {
+        "ru": "Подержишь лестницу совершенно надежно, пожалуйста?",
+        "en": "Will you please hold the ladder securely?"
+      },
+      "bracket_parts": [
+        "Hältst",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "die Leiter"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Mutter hält ihr kleines Kind fest an der Hand.",
+      "translation": {
+        "ru": "Мать крепко держит своего маленького ребенка за руку.",
+        "en": "The mother holds her small child firmly by the hand."
+      },
+      "bracket_parts": [
+        "hält",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "ihr kleines Kind"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir halten die wichtigsten Ergebnisse im Protokoll schriftlich fest.",
+      "translation": {
+        "ru": "Мы письменно фиксируем важнейшие результаты в протоколе.",
+        "en": "We record the most important results in writing in the minutes."
+      },
+      "bracket_parts": [
+        "halten",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "die wichtigsten Ergebnisse"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Haltet ihr euch im Bus an den Haltestangen fest?",
+      "translation": {
+        "ru": "Вы держитесь за поручни в автобусе?",
+        "en": "Do you guys hold on to the handrails in the bus?"
+      },
+      "bracket_parts": [
+        "Haltet",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Wachleute hielten den Verdächtigen bis zum Eintreffen der Polizei fest.",
+      "translation": {
+        "ru": "Охранники удерживали подозреваемого до прибытия полиции.",
+        "en": "The guards detained the suspect until the police arrived."
+      },
+      "bracket_parts": [
+        "hielten",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "den Verdächtigen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Passant hat den flüchtenden Dieb beherzt festgehalten.",
+      "translation": {
+        "ru": "Прохожий мужественно задержал убегающего вора.",
+        "en": "The passerby courageously held the fleeing thief."
+      },
+      "bracket_parts": [
+        "hat",
+        "festgehalten"
+      ],
+      "akkusativ_parts": [
+        "den flüchtenden Dieb"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Halte dich beim Abstieg bitte gut fest!",
+      "translation": {
+        "ru": "Держись крепко при спуске, пожалуйста!",
+        "en": "Please hold on tight during the descent!"
+      },
+      "bracket_parts": [
+        "Halte",
+        "fest"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ]
+    }
+  ]
+}

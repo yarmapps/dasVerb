@@ -1,0 +1,178 @@
+{
+  "id": "anzeigen",
+  "infinitive": "anzeigen",
+  "translation": {
+    "ru": "заявлять (в полицию), показывать, отображать",
+    "en": "to report, indicate, display"
+  },
+  "level": "B1",
+  "frequency_rank": 494,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "anzeigen",
+    "present_3sg": "zeigt an",
+    "praeteritum_3sg": "zeigte an",
+    "partizip_2": "angezeigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "zeige an",
+      "du": "zeigst an",
+      "er_sie_es": "zeigt an",
+      "wir": "zeigen an",
+      "ihr": "zeigt an",
+      "sie_Sie": "zeigen an"
+    },
+    "praeteritum": {
+      "ich": "zeigte an",
+      "du": "zeigtest an",
+      "er_sie_es": "zeigte an",
+      "wir": "zeigten an",
+      "ihr": "zeigtet an",
+      "sie_Sie": "zeigten an"
+    },
+    "perfekt": {
+      "ich": "habe angezeigt",
+      "du": "hast angezeigt",
+      "er_sie_es": "hat angezeigt",
+      "wir": "haben angezeigt",
+      "ihr": "habt angezeigt",
+      "sie_Sie": "haben angezeigt"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich zeige den Diebstahl sofort bei der Polizei an.",
+      "translation": {
+        "ru": "Я немедленно заявляю о краже в полицию.",
+        "en": "I report the theft to the police immediately."
+      },
+      "bracket_parts": [
+        "zeige",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den Diebstahl"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du zeigst jede kleine Änderung im Dokument verlässlich an.",
+      "translation": {
+        "ru": "Ты надежно отображаешь каждое мелкое изменение в документе.",
+        "en": "You reliably indicate every small change in the document."
+      },
+      "bracket_parts": [
+        "zeigst",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "jede kleine Änderung"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Thermometer zeigt eine angenehme Temperatur von zwanzig Grad an.",
+      "translation": {
+        "ru": "Термометр показывает комфортную температуру двадцать градусов.",
+        "en": "The thermometer displays a comfortable temperature of twenty degrees."
+      },
+      "bracket_parts": [
+        "zeigt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "eine angenehme Temperatur"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir zeigen den Umzug rechtzeitig beim Einwohnermeldeamt an.",
+      "translation": {
+        "ru": "Мы вовремя сообщаем о переезде в паспортный стол.",
+        "en": "We announce the change of address to the registry office in good time."
+      },
+      "bracket_parts": [
+        "zeigen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den Umzug"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr zeigt die Testergebnisse auf der großen Leinwand an.",
+      "translation": {
+        "ru": "Вы выводите результаты теста на большой экран.",
+        "en": "You display the test results on the large screen."
+      },
+      "bracket_parts": [
+        "zeigt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Testergebnisse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie zeigten damals den Vorfall bei der zuständigen Behörde an.",
+      "translation": {
+        "ru": "Они тогда заявили об инциденте в компетентный орган.",
+        "en": "They reported the incident to the competent authority back then."
+      },
+      "bracket_parts": [
+        "zeigten",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den Vorfall"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das Navigationsgerät hat den schnellsten Weg zuverlässig angezeigt.",
+      "translation": {
+        "ru": "Навигатор надежно показал самый быстрый маршрут.",
+        "en": "The navigation device reliably displayed the fastest route."
+      },
+      "bracket_parts": [
+        "hat",
+        "angezeigt"
+      ],
+      "akkusativ_parts": [
+        "den schnellsten Weg"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Zeige den Betrug unverzüglich bei den Beamten an!",
+      "translation": {
+        "ru": "Немедленно заяви о мошенничестве сотрудникам органов!",
+        "en": "Report the fraud immediately to the officers!"
+      },
+      "bracket_parts": [
+        "Zeige",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den Betrug"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

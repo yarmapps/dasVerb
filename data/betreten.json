@@ -1,0 +1,185 @@
+{
+  "id": "betreten",
+  "infinitive": "betreten",
+  "translation": {
+    "ru": "входить в, ступать на",
+    "en": "to enter, step onto"
+  },
+  "level": "A2",
+  "frequency_rank": 413,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "betreten",
+    "present_3sg": "betritt",
+    "praeteritum_3sg": "betrat",
+    "partizip_2": "betreten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "betrete",
+      "du": "betrittst",
+      "er_sie_es": "betritt",
+      "wir": "betreten",
+      "ihr": "betretet",
+      "sie_Sie": "betreten"
+    },
+    "praeteritum": {
+      "ich": "betrat",
+      "du": "betratest",
+      "er_sie_es": "betrat",
+      "wir": "betraten",
+      "ihr": "betratet",
+      "sie_Sie": "betraten"
+    },
+    "imperative": {
+      "du": "betritt!",
+      "ihr": "betretet!",
+      "Sie": "betreten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "den Raum leise betreten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich betrete das historische Gebäude voller Ehrfurcht.",
+      "translation": {
+        "ru": "Я вхожу в историческое здание с благоговением.",
+        "en": "I enter the historic building full of awe."
+      },
+      "bracket_parts": [
+        "betrete"
+      ],
+      "akkusativ_parts": [
+        "das historische Gebäude"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Betrittst du den heiligen Tempel immer ohne Schuhe?",
+      "translation": {
+        "ru": "Ты всегда входишь в священный храм без обуви?",
+        "en": "Do you always enter the sacred temple without shoes?"
+      },
+      "bracket_parts": [
+        "Betrittst"
+      ],
+      "akkusativ_parts": [
+        "den heiligen Tempel"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Zeuge betritt pünktlich den voll besetzten Gerichtssaal.",
+      "translation": {
+        "ru": "Свидетель вовремя входит в переполненный зал суда.",
+        "en": "The witness enters the crowded courtroom on time."
+      },
+      "bracket_parts": [
+        "betritt"
+      ],
+      "akkusativ_parts": [
+        "den voll besetzten Gerichtssaal"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir betreten den frisch gewischten Boden nur auf Socken.",
+      "translation": {
+        "ru": "Мы ступаем на свежевымытый пол только в носках.",
+        "en": "We step onto the freshly mopped floor only in socks."
+      },
+      "bracket_parts": [
+        "betreten"
+      ],
+      "akkusativ_parts": [
+        "den frisch gewischten Boden"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Betretet ihr den Rasen trotz des Verbotsschildes?",
+      "translation": {
+        "ru": "Вы наступаете на газон, несмотря на запрещающий знак?",
+        "en": "Are you guys stepping onto the lawn despite the warning sign?"
+      },
+      "bracket_parts": [
+        "Betretet"
+      ],
+      "akkusativ_parts": [
+        "den Rasen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Astronaut betrat damals als erster Mensch die Mondoberfläche.",
+      "translation": {
+        "ru": "Астронавт тогда первым из людей ступил на поверхность Луны.",
+        "en": "The astronaut stepped onto the lunar surface as the first human back then."
+      },
+      "bracket_parts": [
+        "betrat"
+      ],
+      "akkusativ_parts": [
+        "die Mondoberfläche"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Niemand hat die verlassene Wohnung seit vielen Jahren betreten.",
+      "translation": {
+        "ru": "Никто не входил в заброшенную квартиру много лет.",
+        "en": "Nobody has entered the abandoned apartment for many years."
+      },
+      "bracket_parts": [
+        "hat",
+        "betreten"
+      ],
+      "akkusativ_parts": [
+        "die verlassene Wohnung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Betritt bitte leise das Zimmer des schlafenden Kindes!",
+      "translation": {
+        "ru": "Входи тихо в комнату спящего ребенка, пожалуйста!",
+        "en": "Please enter the sleeping child's room quietly!"
+      },
+      "bracket_parts": [
+        "Betritt"
+      ],
+      "akkusativ_parts": [
+        "das Zimmer"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

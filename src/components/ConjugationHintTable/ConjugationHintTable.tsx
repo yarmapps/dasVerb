@@ -8,10 +8,12 @@ import { createStyles } from './ConjugationHintTable.styles';
 
 interface ConjugationHintTableProps {
   conjugation: PresentConjugation;
+  embedded?: boolean;
 }
 
 export function ConjugationHintTable({
   conjugation,
+  embedded = false,
 }: ConjugationHintTableProps): React.JSX.Element {
   const intl = useIntl();
   const { colors } = useAppTheme();
@@ -28,7 +30,10 @@ export function ConjugationHintTable({
   } = conjugation;
 
   return (
-    <View style={styles.container} testID="conjugation-hint-table">
+    <View
+      style={embedded ? styles.embeddedContainer : styles.container}
+      testID="conjugation-hint-table"
+    >
       <View style={styles.header}>
         <View style={styles.headerLeft}>
           <Ionicons name="list-outline" size={16} color={colors.textSecondary} />

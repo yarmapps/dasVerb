@@ -1,0 +1,192 @@
+{
+  "id": "ermoeglichen",
+  "infinitive": "ermöglichen",
+  "translation": {
+    "ru": "делать возможным, способствовать, позволять",
+    "en": "to enable, make possible, facilitate"
+  },
+  "level": "B1",
+  "frequency_rank": 229,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ermöglichen",
+    "present_3sg": "ermöglicht",
+    "praeteritum_3sg": "ermöglichte",
+    "partizip_2": "ermöglicht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ermögliche",
+      "du": "ermöglichst",
+      "er_sie_es": "ermöglicht",
+      "wir": "ermöglichen",
+      "ihr": "ermöglicht",
+      "sie_Sie": "ermöglichen"
+    },
+    "praeteritum": {
+      "ich": "ermöglichte",
+      "du": "ermöglichtest",
+      "er_sie_es": "ermöglichte",
+      "wir": "ermöglichten",
+      "ihr": "ermöglichtet",
+      "sie_Sie": "ermöglichten"
+    },
+    "imperative": {
+      "du": "ermögliche!",
+      "ihr": "ermöglicht!",
+      "Sie": "ermöglichen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine Reise ermöglichen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich ermögliche meiner Schwester ein Auslandsstudium.",
+      "translation": {
+        "ru": "Я делаю возможным для моей сестры обучение за границей.",
+        "en": "I make study abroad possible for my sister."
+      },
+      "bracket_parts": [
+        "ermögliche"
+      ],
+      "dativ_parts": [
+        "meiner Schwester"
+      ],
+      "akkusativ_parts": [
+        "ein Auslandsstudium"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Ermöglichst du deinem Team flexible Arbeitszeiten?",
+      "translation": {
+        "ru": "Ты обеспечиваешь своей команде гибкий график работы?",
+        "en": "Do you enable flexible working hours for your team?"
+      },
+      "bracket_parts": [
+        "Ermöglichst"
+      ],
+      "dativ_parts": [
+        "deinem Team"
+      ],
+      "akkusativ_parts": [
+        "flexible Arbeitszeiten"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Stipendium ermöglicht vielen Begabten ein sorgenfreies Studium.",
+      "translation": {
+        "ru": "Стипендия дает возможность многим одаренным студентам учиться без забот.",
+        "en": "The scholarship allows many talented people worry-free study."
+      },
+      "bracket_parts": [
+        "ermöglicht"
+      ],
+      "dativ_parts": [
+        "vielen Begabten"
+      ],
+      "akkusativ_parts": [
+        "ein sorgenfreies Studium"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir ermöglichen einen schnellen und sicheren Datenaustausch.",
+      "translation": {
+        "ru": "Мы обеспечиваем быстрый и безопасный обмен данными.",
+        "en": "We enable fast and secure data exchange."
+      },
+      "bracket_parts": [
+        "ermöglichen"
+      ],
+      "akkusativ_parts": [
+        "einen schnellen und sicheren Datenaustausch"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Ermöglicht ihr den Kunden eine einfache Ratenzahlung?",
+      "translation": {
+        "ru": "Вы предоставляете клиентам простую рассрочку платежей?",
+        "en": "Do you guys enable simple installment payments for customers?"
+      },
+      "bracket_parts": [
+        "Ermöglicht"
+      ],
+      "dativ_parts": [
+        "den Kunden"
+      ],
+      "akkusativ_parts": [
+        "eine einfache Ratenzahlung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Großzügige Spender ermöglichten den Bau des neuen Krankenhauses.",
+      "translation": {
+        "ru": "Щедрые жертвователи сделали возможным строительство новой больницы.",
+        "en": "Generous donors made the construction of the new hospital possible."
+      },
+      "bracket_parts": [
+        "ermöglichten"
+      ],
+      "akkusativ_parts": [
+        "den Bau des neuen Krankenhauses"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die moderne Technologie hat enorme Fortschritte in der Medizin ermöglicht.",
+      "translation": {
+        "ru": "Современные технологии сделали возможными колоссальные успехи в медицине.",
+        "en": "Modern technology has enabled enormous progress in medicine."
+      },
+      "bracket_parts": [
+        "hat",
+        "ermöglicht"
+      ],
+      "akkusativ_parts": [
+        "enorme Fortschritte"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Ermögliche deinen Kindern eine gute Ausbildung!",
+      "translation": {
+        "ru": "Обеспечь своим детям хорошее образование!",
+        "en": "Make a good education possible for your children!"
+      },
+      "bracket_parts": [
+        "Ermögliche"
+      ],
+      "dativ_parts": [
+        "deinen Kindern"
+      ],
+      "akkusativ_parts": [
+        "eine gute Ausbildung"
+      ]
+    }
+  ]
+}

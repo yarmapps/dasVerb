@@ -1,0 +1,154 @@
+{
+  "id": "lachen",
+  "infinitive": "lachen",
+  "translation": {
+    "ru": "смеяться",
+    "en": "to laugh"
+  },
+  "level": "A1",
+  "frequency_rank": 129,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "lachen",
+    "present_3sg": "lacht",
+    "praeteritum_3sg": "lachte",
+    "partizip_2": "gelacht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lache",
+      "du": "lachst",
+      "er_sie_es": "lacht",
+      "wir": "lachen",
+      "ihr": "lacht",
+      "sie_Sie": "lachen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "lachte",
+      "du": "lachtest",
+      "er_sie_es": "lachte",
+      "wir": "lachten",
+      "ihr": "lachtet",
+      "sie_Sie": "lachten"
+    },
+    "imperative": {
+      "du": "lache",
+      "ihr": "lacht",
+      "Sie": "lachen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "laut / fröhlich lachen",
+  "sentences": [
+    {
+      "id": "lachen_base_1",
+      "tense": "Präsens",
+      "german": "Ich lache gern und oft mit meinen Freunden.",
+      "translation": {
+        "ru": "Я охотно и часто смеюсь со своими друзьями.",
+        "en": "I like to laugh often with my friends."
+      },
+      "bracket_parts": [
+        "lache"
+      ]
+    },
+    {
+      "id": "lachen_base_2",
+      "tense": "Präsens",
+      "german": "Warum lachst du heute so fröhlich?",
+      "translation": {
+        "ru": "Почему ты сегодня так весело смеешься?",
+        "en": "Why are you laughing so happily today?"
+      },
+      "bracket_parts": [
+        "lachst"
+      ]
+    },
+    {
+      "id": "lachen_base_3",
+      "tense": "Präsens",
+      "german": "Das kleine Baby lacht zum ersten Mal laut.",
+      "translation": {
+        "ru": "Маленький ребенок впервые громко смеется.",
+        "en": "The little baby is laughing out loud for the first time."
+      },
+      "bracket_parts": [
+        "lacht"
+      ]
+    },
+    {
+      "id": "lachen_base_4",
+      "tense": "Präsens",
+      "german": "Wir lachen gemeinsam über die lustige Situation.",
+      "translation": {
+        "ru": "Мы вместе смеемся над забавной ситуацией.",
+        "en": "We laugh together about the funny situation."
+      },
+      "bracket_parts": [
+        "lachen"
+      ]
+    },
+    {
+      "id": "lachen_base_5",
+      "tense": "Präsens",
+      "german": "Lacht ihr wieder so laut im Nebenzimmer?",
+      "translation": {
+        "ru": "Вы опять так громко смеетесь в соседней комнате?",
+        "en": "Are you laughing so loudly in the next room again?"
+      },
+      "bracket_parts": [
+        "Lacht"
+      ]
+    },
+    {
+      "id": "lachen_base_6",
+      "tense": "Präteritum",
+      "german": "Sie lachten den ganzen Abend ohne Pause.",
+      "translation": {
+        "ru": "Они смеялись весь вечер без перерыва.",
+        "en": "They laughed all evening without a break."
+      },
+      "bracket_parts": [
+        "lachten"
+      ]
+    },
+    {
+      "id": "lachen_base_7",
+      "tense": "Perfekt",
+      "german": "Ich habe gestern bei der Komödie Tränen gelacht.",
+      "translation": {
+        "ru": "Вчера на комедии я смеялся до слез.",
+        "en": "I laughed tears at the comedy yesterday."
+      },
+      "bracket_parts": [
+        "habe",
+        "gelacht"
+      ]
+    },
+    {
+      "id": "lachen_base_8",
+      "tense": "Imperativ",
+      "german": "Lache jeden Tag und bleib gesund!",
+      "translation": {
+        "ru": "Смейся каждый день и оставайся здоровым!",
+        "en": "Laugh every day and stay healthy!"
+      },
+      "bracket_parts": [
+        "Lache"
+      ]
+    }
+  ]
+}

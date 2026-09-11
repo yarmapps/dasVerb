@@ -1,0 +1,177 @@
+{
+  "id": "gruenden",
+  "infinitive": "gründen",
+  "translation": {
+    "ru": "основывать, учреждать (фирму/семью)",
+    "en": "to found, establish"
+  },
+  "level": "B1",
+  "frequency_rank": 265,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "gründen",
+    "present_3sg": "gründet",
+    "praeteritum_3sg": "gründete",
+    "partizip_2": "gegründet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gründe",
+      "du": "gründest",
+      "er_sie_es": "gründet",
+      "wir": "gründen",
+      "ihr": "gründet",
+      "sie_Sie": "gründen"
+    },
+    "praeteritum": {
+      "ich": "gründete",
+      "du": "gründetest",
+      "er_sie_es": "gründete",
+      "wir": "gründeten",
+      "ihr": "gründetet",
+      "sie_Sie": "gründeten"
+    },
+    "imperative": {
+      "du": "gründe!",
+      "ihr": "gründet!",
+      "Sie": "gründen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine Familie gründen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich gründe im nächsten Frühjahr mein erstes eigenes Unternehmen.",
+      "translation": {
+        "ru": "Следующей весной я основываю свое первое собственное предприятие.",
+        "en": "I am founding my first own business next spring."
+      },
+      "bracket_parts": [
+        "gründe"
+      ],
+      "akkusativ_parts": [
+        "mein erstes eigenes Unternehmen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Gründest du mit deinen Studienfreunden ein Startup?",
+      "translation": {
+        "ru": "Ты создаешь стартап со своими университетскими друзьями?",
+        "en": "Are you founding a startup with your college friends?"
+      },
+      "bracket_parts": [
+        "Gründest"
+      ],
+      "akkusativ_parts": [
+        "ein Startup"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das junge Paar gründet bald eine glückliche Familie.",
+      "translation": {
+        "ru": "Молодая пара скоро создаст счастливую семью.",
+        "en": "The young couple will soon start a happy family."
+      },
+      "bracket_parts": [
+        "gründet"
+      ],
+      "akkusativ_parts": [
+        "eine glückliche Familie"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir gründen einen gemeinnützigen Verein für Tierschutz.",
+      "translation": {
+        "ru": "Мы основываем некоммерческое общество по защите животных.",
+        "en": "We are founding a non-profit association for animal welfare."
+      },
+      "bracket_parts": [
+        "gründen"
+      ],
+      "akkusativ_parts": [
+        "einen gemeinnützigen Verein"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Gründet ihr eine neue Musikgruppe an der Universität?",
+      "translation": {
+        "ru": "Вы создаете новую музыкальную группу в университете?",
+        "en": "Are you guys forming a new music band at the university?"
+      },
+      "bracket_parts": [
+        "Gründet"
+      ],
+      "akkusativ_parts": [
+        "eine neue Musikgruppe"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie gründeten die berühmte Organisation vor sechzig Jahren.",
+      "translation": {
+        "ru": "Они основали знаменитую организацию шестьдесят лет назад.",
+        "en": "They founded the famous organization sixty years ago."
+      },
+      "bracket_parts": [
+        "gründeten"
+      ],
+      "akkusativ_parts": [
+        "die berühmte Organisation"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Mein Großvater hat die Handwerksfirma 1950 gegründet.",
+      "translation": {
+        "ru": "Мой дедушка основал ремесленную фирму в 1950 году.",
+        "en": "My grandfather founded the artisan firm in 1950."
+      },
+      "bracket_parts": [
+        "hat",
+        "gegründet"
+      ],
+      "akkusativ_parts": [
+        "die Handwerksfirma"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Gründe deine eigene Firma mit Leidenschaft!",
+      "translation": {
+        "ru": "Создавай свою собственную компанию со страстью!",
+        "en": "Found your own company with passion!"
+      },
+      "bracket_parts": [
+        "Gründe"
+      ],
+      "akkusativ_parts": [
+        "deine eigene Firma"
+      ]
+    }
+  ]
+}

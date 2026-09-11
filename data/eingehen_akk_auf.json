@@ -1,0 +1,184 @@
+{
+  "id": "eingehen_akk_auf",
+  "infinitive": "eingehen",
+  "translation": {
+    "ru": "подробно останавливаться (на теме), соглашаться (на предложение)",
+    "en": "to address, respond to, agree to"
+  },
+  "level": "B1",
+  "frequency_rank": 207,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "eingehen",
+    "present_3sg": "geht ein",
+    "praeteritum_3sg": "ging ein",
+    "partizip_2": "eingegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe ein",
+      "du": "gehst ein",
+      "er_sie_es": "geht ein",
+      "wir": "gehen ein",
+      "ihr": "geht ein",
+      "sie_Sie": "gehen ein"
+    },
+    "praeteritum": {
+      "ich": "ging ein",
+      "du": "gingst ein",
+      "er_sie_es": "ging ein",
+      "wir": "gingen ein",
+      "ihr": "gingt ein",
+      "sie_Sie": "gingen ein"
+    },
+    "imperative": {
+      "du": "geh ein!",
+      "ihr": "geht ein!",
+      "Sie": "gehen Sie ein!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "auf ein Angebot eingehen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich gehe gerne auf deine Frage im Detail ein.",
+      "translation": {
+        "ru": "Я с удовольствием подробно отвечу на твой вопрос.",
+        "en": "I gladly address your question in detail."
+      },
+      "bracket_parts": [
+        "gehe",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "deine Frage"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Gehst du auf das faire Angebot des Verkäufers ein?",
+      "translation": {
+        "ru": "Ты соглашаешься на справедливое предложение продавца?",
+        "en": "Are you accepting the seller's fair offer?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "das faire Angebot des Verkäufers"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Professor geht auf alle Einwände der Studenten ein.",
+      "translation": {
+        "ru": "Профессор отвечает на все возражения студентов.",
+        "en": "The professor responds to all objections of the students."
+      },
+      "bracket_parts": [
+        "geht",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "alle Einwände der Studenten"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir gehen auf die Wünsche unserer Kunden stets ein.",
+      "translation": {
+        "ru": "Мы всегда идем навстречу пожеланиям наших клиентов.",
+        "en": "We always accommodate our customers' wishes."
+      },
+      "bracket_parts": [
+        "gehen",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "die Wünsche unserer Kunden"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Geht ihr auf die Kritik im Prüfungsbericht ein?",
+      "translation": {
+        "ru": "Вы учитываете критику в отчете проверки?",
+        "en": "Are you guys responding to the criticism in the audit report?"
+      },
+      "bracket_parts": [
+        "Geht",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "die Kritik im Prüfungsbericht"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie gingen leider überhaupt nicht auf unsere Vorschläge ein.",
+      "translation": {
+        "ru": "Они, к сожалению, совсем не обратили внимания на наши предложения.",
+        "en": "They unfortunately did not address our suggestions at all."
+      },
+      "bracket_parts": [
+        "gingen",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "unsere Vorschläge"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Politikerin ist auf die drängenden Probleme eingegangen.",
+      "translation": {
+        "ru": "Политик уделила внимание насущным проблемам.",
+        "en": "The politician addressed the pressing problems."
+      },
+      "bracket_parts": [
+        "ist",
+        "eingegangen"
+      ],
+      "akkusativ_parts": [
+        "die drängenden Probleme"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Geh bitte verständnisvoll auf die Sorgen ein!",
+      "translation": {
+        "ru": "Отнесись к этим тревогам с пониманием, пожалуйста!",
+        "en": "Please address the concerns with understanding!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "die Sorgen"
+      ]
+    }
+  ]
+}

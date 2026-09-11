@@ -1,0 +1,166 @@
+{
+  "id": "stimmen",
+  "infinitive": "stimmen",
+  "translation": {
+    "ru": "соответствовать действительности, быть верным",
+    "en": "to be correct, to be right"
+  },
+  "level": "A1",
+  "frequency_rank": 147,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "stimmen",
+    "present_3sg": "stimmt",
+    "praeteritum_3sg": "stimmte",
+    "partizip_2": "gestimmt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stimme",
+      "du": "stimmst",
+      "er_sie_es": "stimmt",
+      "wir": "stimmen",
+      "ihr": "stimmt",
+      "sie_Sie": "stimmen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "stimmte",
+      "du": "stimmtest",
+      "er_sie_es": "stimmte",
+      "wir": "stimmten",
+      "ihr": "stimmtet",
+      "sie_Sie": "stimmten"
+    },
+    "imperative": {
+      "du": "stimme",
+      "ihr": "stimmt",
+      "Sie": "stimmen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das stimmt genau",
+  "sentences": [
+    {
+      "id": "stimmen_1",
+      "tense": "Präsens",
+      "german": "Ich stimme meine Gitarre vor dem Konzert ganz genau.",
+      "translation": {
+        "ru": "Я точно настраиваю свою гитару перед концертом.",
+        "en": "I tune my guitar very precisely before the concert."
+      },
+      "bracket_parts": [
+        "stimme"
+      ],
+      "akkusativ_parts": [
+        "meine Gitarre"
+      ]
+    },
+    {
+      "id": "stimmen_2",
+      "tense": "Präsens",
+      "german": "Stimmst du deiner Schwester bei diesem Streit zu?",
+      "translation": {
+        "ru": "Ты соглашаешься с сестрой в этом споре?",
+        "en": "Do you agree with your sister in this argument?"
+      },
+      "bracket_parts": [
+        "Stimmst"
+      ],
+      "dativ_parts": [
+        "deiner Schwester"
+      ]
+    },
+    {
+      "id": "stimmen_3",
+      "tense": "Präsens",
+      "german": "Diese Rechnung stimmt bis auf den letzten Cent genau.",
+      "translation": {
+        "ru": "Этот счет сходится (верен) точно до последнего цента.",
+        "en": "This bill is correct down to the last cent."
+      },
+      "bracket_parts": [
+        "stimmt"
+      ]
+    },
+    {
+      "id": "stimmen_4",
+      "tense": "Präsens",
+      "german": "Wir wissen sicher, dass alle diese Angaben stimmen.",
+      "translation": {
+        "ru": "Мы точно знаем, что все эти данные верны.",
+        "en": "We know for sure that all these details are correct."
+      },
+      "bracket_parts": [
+        "stimmen"
+      ]
+    },
+    {
+      "id": "stimmen_5",
+      "tense": "Präsens",
+      "german": "Stimmt ihr mir bei diesem Vorschlag vollkommen zu?",
+      "translation": {
+        "ru": "Вы полностью согласны со мной в этом предложении?",
+        "en": "Do you completely agree with me on this proposal?"
+      },
+      "bracket_parts": [
+        "Stimmt"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    },
+    {
+      "id": "stimmen_6",
+      "tense": "Präteritum",
+      "german": "Die alten Vorhersagen stimmten erstaunlich genau.",
+      "translation": {
+        "ru": "Старые предсказания сбылись (оказались верными) удивительно точно.",
+        "en": "The old predictions were astonishingly accurate."
+      },
+      "bracket_parts": [
+        "stimmten"
+      ]
+    },
+    {
+      "id": "stimmen_7",
+      "tense": "Perfekt",
+      "german": "Alles hat bis ins kleinste Detail perfekt gestimmt.",
+      "translation": {
+        "ru": "Все сошлось (было верно) идеально до мельчайших деталей.",
+        "en": "Everything was perfectly right down to the smallest detail."
+      },
+      "bracket_parts": [
+        "hat",
+        "gestimmt"
+      ]
+    },
+    {
+      "id": "stimmen_8",
+      "tense": "Imperativ",
+      "german": "Stimme das Instrument bitte sorgfältig!",
+      "translation": {
+        "ru": "Настрой инструмент тщательно, пожалуйста!",
+        "en": "Please tune the instrument carefully!"
+      },
+      "bracket_parts": [
+        "Stimme"
+      ],
+      "akkusativ_parts": [
+        "das Instrument"
+      ]
+    }
+  ]
+}

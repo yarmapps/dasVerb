@@ -1,0 +1,171 @@
+{
+  "id": "zeichnen",
+  "infinitive": "zeichnen",
+  "translation": {
+    "ru": "рисовать, чертить",
+    "en": "to draw, sketch"
+  },
+  "level": "A2",
+  "frequency_rank": 472,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zeichnen",
+    "present_3sg": "zeichnet",
+    "praeteritum_3sg": "zeichnete",
+    "partizip_2": "gezeichnet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "zeichne",
+      "du": "zeichnest",
+      "er_sie_es": "zeichnet",
+      "wir": "zeichnen",
+      "ihr": "zeichnet",
+      "sie_Sie": "zeichnen"
+    },
+    "praeteritum": {
+      "ich": "zeichnete",
+      "du": "zeichnetest",
+      "er_sie_es": "zeichnete",
+      "wir": "zeichneten",
+      "ihr": "zeichnetet",
+      "sie_Sie": "zeichneten"
+    },
+    "perfekt": {
+      "ich": "habe gezeichnet",
+      "du": "hast gezeichnet",
+      "er_sie_es": "hat gezeichnet",
+      "wir": "haben gezeichnet",
+      "ihr": "habt gezeichnet",
+      "sie_Sie": "haben gezeichnet"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich zeichne gern Porträts von interessanten Menschen.",
+      "translation": {
+        "ru": "Я охотно рисую портреты интересных людей.",
+        "en": "I like drawing portraits of interesting people."
+      },
+      "bracket_parts": [
+        "zeichne"
+      ],
+      "akkusativ_parts": [
+        "Porträts von interessanten Menschen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du zeichnest einen maßstabsgetreuen Plan für das Gebäude.",
+      "translation": {
+        "ru": "Ты чертишь точный масштабный план здания.",
+        "en": "You draw a scaled plan for the building."
+      },
+      "bracket_parts": [
+        "zeichnest"
+      ],
+      "akkusativ_parts": [
+        "einen maßstabsgetreuen Plan"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Künstlerin zeichnet beeindruckende Landschaften mit Kreide.",
+      "translation": {
+        "ru": "Художница рисует впечатляющие пейзажи мелками.",
+        "en": "The artist draws impressive landscapes with chalk."
+      },
+      "bracket_parts": [
+        "zeichnet"
+      ],
+      "akkusativ_parts": [
+        "beeindruckende Landschaften"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir zeichnen eine genaue Skizze des neuen Hauses.",
+      "translation": {
+        "ru": "Мы чертим точный эскиз нового дома.",
+        "en": "We draw an exact sketch of the new house."
+      },
+      "bracket_parts": [
+        "zeichnen"
+      ],
+      "akkusativ_parts": [
+        "eine genaue Skizze"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr zeichnet lustige Karikaturen für die Schülerzeitung.",
+      "translation": {
+        "ru": "Вы рисуете забавные карикатуры для школьной газеты.",
+        "en": "You draw funny caricatures for the school newspaper."
+      },
+      "bracket_parts": [
+        "zeichnet"
+      ],
+      "akkusativ_parts": [
+        "lustige Karikaturen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie zeichneten damals eine genaue Landkarte der Insel.",
+      "translation": {
+        "ru": "Они тогда начертили точную карту острова.",
+        "en": "They drew an exact map of the island back then."
+      },
+      "bracket_parts": [
+        "zeichneten"
+      ],
+      "akkusativ_parts": [
+        "eine genaue Landkarte der Insel"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Mein Sohn hat gestern ein schönes Tierbild gezeichnet.",
+      "translation": {
+        "ru": "Мой сын вчера нарисовал красивый рисунок животного.",
+        "en": "My son drew a nice animal picture yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "gezeichnet"
+      ],
+      "akkusativ_parts": [
+        "ein schönes Tierbild"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Zeichne bitte einen sauberen Kreis auf dieses Blatt!",
+      "translation": {
+        "ru": "Нарисуй пожалуйста ровный круг на этом листе!",
+        "en": "Please draw a neat circle on this sheet!"
+      },
+      "bracket_parts": [
+        "Zeichne"
+      ],
+      "akkusativ_parts": [
+        "einen sauberen Kreis"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "greifen",
+  "infinitive": "greifen",
+  "translation": {
+    "ru": "хватать, браться (за дело), действовать (о правилах)",
+    "en": "to grasp, grip, reach"
+  },
+  "level": "B1",
+  "frequency_rank": 244,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "greifen",
+    "present_3sg": "greift",
+    "praeteritum_3sg": "griff",
+    "partizip_2": "gegriffen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "greife",
+      "du": "greifst",
+      "er_sie_es": "greift",
+      "wir": "greifen",
+      "ihr": "greift",
+      "sie_Sie": "greifen"
+    },
+    "praeteritum": {
+      "ich": "griff",
+      "du": "griffst",
+      "er_sie_es": "griff",
+      "wir": "griffen",
+      "ihr": "grifft",
+      "sie_Sie": "griffen"
+    },
+    "imperative": {
+      "du": "greif!",
+      "ihr": "greift!",
+      "Sie": "greifen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "nach den Sternen greifen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich greife meine Jacke und laufe schnell zur Tür.",
+      "translation": {
+        "ru": "Я хватаю куртку и быстро бегу к двери.",
+        "en": "I grab my jacket and run quickly to the door."
+      },
+      "bracket_parts": [
+        "greife"
+      ],
+      "akkusativ_parts": [
+        "meine Jacke"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Greifst du die Chance beim Schopf?",
+      "translation": {
+        "ru": "Хватаешь ли ты шанс обеими руками?",
+        "en": "Do you seize the opportunity by the forelock?"
+      },
+      "bracket_parts": [
+        "Greifst"
+      ],
+      "akkusativ_parts": [
+        "die Chance"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die neue Sicherheitsmaßnahme greift ab nächster Woche.",
+      "translation": {
+        "ru": "Новая мера безопасности вступает в силу со следующей недели.",
+        "en": "The new security measure takes effect next week."
+      },
+      "bracket_parts": [
+        "greift"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir greifen das wichtige Thema im nächsten Seminar auf.",
+      "translation": {
+        "ru": "Мы поднимем эту важную тему на следующем семинаре.",
+        "en": "We take up the important topic in the next seminar."
+      },
+      "bracket_parts": [
+        "greifen"
+      ],
+      "akkusativ_parts": [
+        "das wichtige Thema"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Greift ihr die Griffe am Klettergerüst fest an?",
+      "translation": {
+        "ru": "Вы крепко хватаетесь за ручки на гимнастическом комплексе?",
+        "en": "Are you guys gripping the handles on the climbing frame firmly?"
+      },
+      "bracket_parts": [
+        "Greift"
+      ],
+      "akkusativ_parts": [
+        "die Griffe"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie griffen den Dieb noch am Tatort.",
+      "translation": {
+        "ru": "Они схватили вора прямо на месте преступления.",
+        "en": "They caught the thief right at the scene of the crime."
+      },
+      "bracket_parts": [
+        "griffen"
+      ],
+      "akkusativ_parts": [
+        "den Dieb"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Polizei hat den Flüchtigen endlich gegriffen.",
+      "translation": {
+        "ru": "Полиция наконец поймала беглеца.",
+        "en": "The police finally caught the fugitive."
+      },
+      "bracket_parts": [
+        "hat",
+        "gegriffen"
+      ],
+      "akkusativ_parts": [
+        "den Flüchtigen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Greif fest zu, damit nichts herunterfällt!",
+      "translation": {
+        "ru": "Хватайся крепко, чтобы ничего не упало!",
+        "en": "Grip firmly so that nothing falls down!"
+      },
+      "bracket_parts": [
+        "Greif"
+      ]
+    }
+  ]
+}

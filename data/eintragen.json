@@ -1,0 +1,178 @@
+{
+  "id": "eintragen",
+  "infinitive": "eintragen",
+  "translation": {
+    "ru": "вносить, записывать, регистрировать",
+    "en": "to enter, register, record"
+  },
+  "level": "A2",
+  "frequency_rank": 498,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "eintragen",
+    "present_3sg": "trägt ein",
+    "praeteritum_3sg": "trug ein",
+    "partizip_2": "eingetragen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "trage ein",
+      "du": "trägst ein",
+      "er_sie_es": "trägt ein",
+      "wir": "tragen ein",
+      "ihr": "tragt ein",
+      "sie_Sie": "tragen ein"
+    },
+    "praeteritum": {
+      "ich": "trug ein",
+      "du": "trugst ein",
+      "er_sie_es": "trug ein",
+      "wir": "trugen ein",
+      "ihr": "trugt ein",
+      "sie_Sie": "trugen ein"
+    },
+    "perfekt": {
+      "ich": "habe eingetragen",
+      "du": "hast eingetragen",
+      "er_sie_es": "hat eingetragen",
+      "wir": "haben eingetragen",
+      "ihr": "habt eingetragen",
+      "sie_Sie": "haben eingetragen"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich trage den wichtigen Arzttermin in meinen Kalender ein.",
+      "translation": {
+        "ru": "Я вношу важную запись к врачу в свой календарь.",
+        "en": "I enter the important doctor's appointment into my calendar."
+      },
+      "bracket_parts": [
+        "trage",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "den wichtigen Arzttermin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du trägst deine Adresse sorgfältig in das Formular ein.",
+      "translation": {
+        "ru": "Ты тщательно вносишь свой адрес в формуляр.",
+        "en": "You enter your address carefully into the form."
+      },
+      "bracket_parts": [
+        "trägst",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "deine Adresse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Notar trägt den neuen Eigentümer ins Grundbuch ein.",
+      "translation": {
+        "ru": "Нотариус вносит нового собственника в поземельную книгу.",
+        "en": "The notary enters the new owner in the land register."
+      },
+      "bracket_parts": [
+        "trägt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "den neuen Eigentümer"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir tragen alle Ausgaben in eine gemeinsame Tabelle ein.",
+      "translation": {
+        "ru": "Мы вносим все расходы в общую таблицу.",
+        "en": "We enter all expenses into a shared spreadsheet."
+      },
+      "bracket_parts": [
+        "tragen",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "alle Ausgaben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr tragt eure Namen in die Anwesenheitsliste ein.",
+      "translation": {
+        "ru": "Вы вписываете свои имена в список присутствующих.",
+        "en": "You enter your names in the attendance list."
+      },
+      "bracket_parts": [
+        "tragt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "eure Namen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie trugen damals alle Daten per Hand in das Buch ein.",
+      "translation": {
+        "ru": "Они тогда вносили все данные вручную в книгу.",
+        "en": "They entered all data by hand into the book back then."
+      },
+      "bracket_parts": [
+        "trugen",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "alle Daten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Beamtin hat meine Personalien fehlerfrei eingetragen.",
+      "translation": {
+        "ru": "Служащая безошибочно внесла мои персональные данные.",
+        "en": "The official entered my personal details without errors."
+      },
+      "bracket_parts": [
+        "hat",
+        "eingetragen"
+      ],
+      "akkusativ_parts": [
+        "meine Personalien"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Trage deinen Namen bitte deutlich in die Teilnehmerliste ein!",
+      "translation": {
+        "ru": "Впиши свое имя разборчиво в список участников, пожалуйста!",
+        "en": "Please write your name clearly into the participant list!"
+      },
+      "bracket_parts": [
+        "Trage",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "deinen Namen"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

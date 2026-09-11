@@ -1,0 +1,192 @@
+{
+  "id": "einnehmen",
+  "infinitive": "einnehmen",
+  "translation": {
+    "ru": "принимать (лекарство), занимать (место), получать (доход)",
+    "en": "to take (medicine), occupy (place), take in (revenue)"
+  },
+  "level": "B1",
+  "frequency_rank": 323,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einnehmen",
+    "present_3sg": "nimmt ein",
+    "praeteritum_3sg": "nahm ein",
+    "partizip_2": "eingenommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "nehme ein",
+      "du": "nimmst ein",
+      "er_sie_es": "nimmt ein",
+      "wir": "nehmen ein",
+      "ihr": "nehmt ein",
+      "sie_Sie": "nehmen ein"
+    },
+    "praeteritum": {
+      "ich": "nahm ein",
+      "du": "nahmst ein",
+      "er_sie_es": "nahm ein",
+      "wir": "nahmen ein",
+      "ihr": "nahmt ein",
+      "sie_Sie": "nahmen ein"
+    },
+    "imperative": {
+      "du": "nimm ein!",
+      "ihr": "nehmt ein!",
+      "Sie": "nehmen Sie ein!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Medizin einnehmen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich nehme die verordneten Tabletten dreimal täglich ein.",
+      "translation": {
+        "ru": "Я принимаю назначенные таблетки три раза в день.",
+        "en": "I take the prescribed tablets three times a day."
+      },
+      "bracket_parts": [
+        "nehme",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "die verordneten Tabletten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Nimmst du deine Tropfen immer vor dem Essen ein?",
+      "translation": {
+        "ru": "Ты всегда принимаешь капли перед едой?",
+        "en": "Do you always take your drops before eating?"
+      },
+      "bracket_parts": [
+        "Nimmst",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "deine Tropfen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Gast nimmt den freien Platz am Fenster ein.",
+      "translation": {
+        "ru": "Гость занимает свободное место у окна.",
+        "en": "The guest takes the vacant seat by the window."
+      },
+      "bracket_parts": [
+        "nimmt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "den freien Platz"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir nehmen durch den Verkauf viel Geld ein.",
+      "translation": {
+        "ru": "Мы выручаем много денег от продажи.",
+        "en": "We take in a lot of money through the sale."
+      },
+      "bracket_parts": [
+        "nehmen",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "viel Geld"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Nehmt ihr bitte eure Plätze im Saal ein?",
+      "translation": {
+        "ru": "Займите, пожалуйста, свои места в зале!",
+        "en": "Please take your seats in the hall!"
+      },
+      "bracket_parts": [
+        "Nehmt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "eure Plätze"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Armee nahm damals die feindliche Festung im Sturm ein.",
+      "translation": {
+        "ru": "Армия тогда штурмом захватила вражескую крепость.",
+        "en": "The army captured the enemy fortress by storm back then."
+      },
+      "bracket_parts": [
+        "nahm",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "die feindliche Festung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Patient hat das neue Medikament regelmäßig eingenommen.",
+      "translation": {
+        "ru": "Пациент регулярно принимал новое лекарство.",
+        "en": "The patient took the new medication regularly."
+      },
+      "bracket_parts": [
+        "hat",
+        "eingenommen"
+      ],
+      "akkusativ_parts": [
+        "das neue Medikament"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Nimm bitte die Kapsel mit einem Glas Wasser ein!",
+      "translation": {
+        "ru": "Прими капсулу со стаканом воды, пожалуйста!",
+        "en": "Please take the capsule with a glass of water!"
+      },
+      "bracket_parts": [
+        "Nimm",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "die Kapsel"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

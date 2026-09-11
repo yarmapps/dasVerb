@@ -1,0 +1,185 @@
+{
+  "id": "husten",
+  "infinitive": "husten",
+  "translation": {
+    "ru": "кашлять",
+    "en": "to cough"
+  },
+  "level": "A2",
+  "frequency_rank": 350,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "husten",
+    "present_3sg": "hustet",
+    "praeteritum_3sg": "hustete",
+    "partizip_2": "gehustet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "huste",
+      "du": "hustest",
+      "er_sie_es": "hustet",
+      "wir": "husten",
+      "ihr": "hustet",
+      "sie_Sie": "husten",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "hustete",
+      "du": "hustetest",
+      "er_sie_es": "hustete",
+      "wir": "husteten",
+      "ihr": "hustetet",
+      "sie_Sie": "husteten"
+    },
+    "imperative": {
+      "du": "huste!",
+      "ihr": "hustet!",
+      "Sie": "husten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "bei einer Erkältung in der Nacht stark husten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich huste wegen meiner hartnäckigen Erkältung seit drei Tagen vor allem nachts sehr stark.",
+      "translation": {
+        "ru": "Из-за упорной простуды я уже три дня очень сильно кашляю, особенно по ночам.",
+        "en": "Because of my stubborn cold I have been coughing very heavily for three days, especially at night."
+      },
+      "bracket_parts": [
+        "huste"
+      ],
+      "dativ_parts": [
+        "wegen meiner hartnäckigen Erkältung"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Hustest du bei trockenem Hals im Winter eigentlich auch immer so unangenehm?",
+      "translation": {
+        "ru": "Кашляешь ли ты при сухости в горле зимой на самом деле тоже всегда так неприятно?",
+        "en": "Do you actually always cough so uncomfortably when your throat is dry in winter?"
+      },
+      "bracket_parts": [
+        "Hustest"
+      ],
+      "dativ_parts": [
+        "bei trockenem Hals",
+        "im Winter"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der kleine Junge im Kindergarten hustet leise in seine Armbeuge.",
+      "translation": {
+        "ru": "Маленький мальчик в детском саду тихо кашляет в сгиб локтя.",
+        "en": "The little boy in kindergarten coughs quietly into the crook of his arm."
+      },
+      "bracket_parts": [
+        "hustet"
+      ],
+      "dativ_parts": [
+        "im Kindergarten"
+      ],
+      "akkusativ_parts": [
+        "in seine Armbeuge"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir husten im verrauchten Raum sofort wegen der schlechten und staubigen Luft.",
+      "translation": {
+        "ru": "В накуренном помещении мы сразу кашляем из-за плохого и пыльного воздуха.",
+        "en": "In the smoky room we cough immediately because of the bad and dusty air."
+      },
+      "bracket_parts": [
+        "husten"
+      ],
+      "dativ_parts": [
+        "im verrauchten Raum",
+        "wegen der schlechten und staubigen Luft"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Hustet ihr bei eurer aktuellen Erkältung auch nachts so oft?",
+      "translation": {
+        "ru": "Кашляете ли вы при текущей простуде также по ночам так часто?",
+        "en": "Do you also cough so often at night with your current cold?"
+      },
+      "bracket_parts": [
+        "Hustet"
+      ],
+      "dativ_parts": [
+        "bei eurer aktuellen Erkältung"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern hustete der erkältete Zuschauer im Theater mehrmals laut während der Vorstellung.",
+      "translation": {
+        "ru": "Вчера простуженный зритель в театре несколько раз громко кашлял во время спектакля.",
+        "en": "Yesterday the sick spectator coughed loudly several times in the theatre during the performance."
+      },
+      "bracket_parts": [
+        "hustete"
+      ],
+      "dativ_parts": [
+        "im Theater",
+        "während der Vorstellung"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die kranke Patientin hat die ganze vergangene Nacht ohne Unterlass gehustet.",
+      "translation": {
+        "ru": "Больная пациентка всю прошлую ночь кашляла без перерыва.",
+        "en": "The sick patient coughed incessantly throughout the past night."
+      },
+      "bracket_parts": [
+        "hat",
+        "gehustet"
+      ],
+      "akkusativ_parts": [
+        "die ganze vergangene Nacht"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Husten Sie bitte stets in ein Papiertaschentuch oder in Ihre Armbeuge!",
+      "translation": {
+        "ru": "Кашляйте, пожалуйста, всегда в бумажный платок или в сгиб локтя!",
+        "en": "Please always cough into a paper handkerchief or into the crook of your arm!"
+      },
+      "bracket_parts": [
+        "Husten"
+      ],
+      "akkusativ_parts": [
+        "in ein Papiertaschentuch",
+        "in Ihre Armbeuge"
+      ]
+    }
+  ]
+}

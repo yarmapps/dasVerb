@@ -1,0 +1,177 @@
+{
+  "id": "verdienen",
+  "infinitive": "verdienen",
+  "translation": {
+    "ru": "зарабатывать; заслуживать",
+    "en": "to earn, deserve"
+  },
+  "level": "A2",
+  "frequency_rank": 221,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verdienen",
+    "present_3sg": "verdient",
+    "praeteritum_3sg": "verdiente",
+    "partizip_2": "verdient"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verdiene",
+      "du": "verdienst",
+      "er_sie_es": "verdient",
+      "wir": "verdienen",
+      "ihr": "verdient",
+      "sie_Sie": "verdienen"
+    },
+    "praeteritum": {
+      "ich": "verdiente",
+      "du": "verdientest",
+      "er_sie_es": "verdiente",
+      "wir": "verdienten",
+      "ihr": "verdientet",
+      "sie_Sie": "verdienten"
+    },
+    "imperative": {
+      "du": "verdiene!",
+      "ihr": "verdient!",
+      "Sie": "verdienen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "gut verdienen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verdiene in meinem neuen Beruf gutes Geld.",
+      "translation": {
+        "ru": "В своей новой профессии я зарабатываю хорошие деньги.",
+        "en": "I earn good money in my new profession."
+      },
+      "bracket_parts": [
+        "verdiene"
+      ],
+      "akkusativ_parts": [
+        "gutes Geld"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verdienst du genug für den Lebensunterhalt?",
+      "translation": {
+        "ru": "Ты достаточно зарабатываешь на жизнь?",
+        "en": "Do you earn enough for living expenses?"
+      },
+      "bracket_parts": [
+        "Verdienst"
+      ],
+      "akkusativ_parts": [
+        "genug"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er verdient nach harter Arbeit eine Pause.",
+      "translation": {
+        "ru": "После тяжелой работы он заслуживает перерыва.",
+        "en": "He deserves a break after hard work."
+      },
+      "bracket_parts": [
+        "verdient"
+      ],
+      "akkusativ_parts": [
+        "eine Pause"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verdienen unseren Respekt durch Zuverlässigkeit.",
+      "translation": {
+        "ru": "Мы заслуживаем уважение своей надежностью.",
+        "en": "We earn our respect through reliability."
+      },
+      "bracket_parts": [
+        "verdienen"
+      ],
+      "akkusativ_parts": [
+        "unseren Respekt"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verdient ihr im Sommer etwas nebenbei?",
+      "translation": {
+        "ru": "Вы подрабатываете летом?",
+        "en": "Do you guys earn something on the side in summer?"
+      },
+      "bracket_parts": [
+        "Verdient"
+      ],
+      "akkusativ_parts": [
+        "etwas"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie verdienten damals noch sehr wenig in der Fabrik.",
+      "translation": {
+        "ru": "В то время они зарабатывали еще очень мало на фабрике.",
+        "en": "They earned very little in the factory back then."
+      },
+      "bracket_parts": [
+        "verdienten"
+      ],
+      "akkusativ_parts": [
+        "sehr wenig"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Sportlerin hat die Goldmedaille absolut verdient.",
+      "translation": {
+        "ru": "Спортсменка абсолютно заслужила золотую медаль.",
+        "en": "The athlete absolutely deserved the gold medal."
+      },
+      "bracket_parts": [
+        "hat",
+        "verdient"
+      ],
+      "akkusativ_parts": [
+        "die Goldmedaille"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verdiene dein eigenes Geld mit Fleiß!",
+      "translation": {
+        "ru": "Зарабатывай свои собственные деньги усердием!",
+        "en": "Earn your own money with diligence!"
+      },
+      "bracket_parts": [
+        "Verdiene"
+      ],
+      "akkusativ_parts": [
+        "dein eigenes Geld"
+      ]
+    }
+  ]
+}

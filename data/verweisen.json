@@ -1,0 +1,185 @@
+{
+  "id": "verweisen",
+  "infinitive": "verweisen",
+  "translation": {
+    "ru": "ссылаться, отсылать, делать выговор",
+    "en": "to refer, banish, point to"
+  },
+  "level": "B2",
+  "frequency_rank": 372,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verweisen",
+    "present_3sg": "verweist",
+    "praeteritum_3sg": "verwies",
+    "partizip_2": "verwiesen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verweise",
+      "du": "verweist",
+      "er_sie_es": "verweist",
+      "wir": "verweisen",
+      "ihr": "verweist",
+      "sie_Sie": "verweisen"
+    },
+    "praeteritum": {
+      "ich": "verwies",
+      "du": "verwiesest",
+      "er_sie_es": "verwies",
+      "wir": "verwiesen",
+      "ihr": "verwiest",
+      "sie_Sie": "verwiesen"
+    },
+    "imperative": {
+      "du": "verweise!",
+      "ihr": "verweist!",
+      "Sie": "verweisen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "des Saales verweisen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verweise den unhöflichen Gast sofort des Hauses.",
+      "translation": {
+        "ru": "Я немедленно выдворяю невежливого гостя из дома.",
+        "en": "I immediately expel the rude guest from the house."
+      },
+      "bracket_parts": [
+        "verweise"
+      ],
+      "akkusativ_parts": [
+        "den unhöflichen Gast"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verweist du den unruhigen Schüler für heute aus dem Klassenzimmer?",
+      "translation": {
+        "ru": "Ты удаляешь беспокойного ученика на сегодня из класса?",
+        "en": "Are you dismissing the unruly student from the classroom for today?"
+      },
+      "bracket_parts": [
+        "Verweist"
+      ],
+      "akkusativ_parts": [
+        "den unruhigen Schüler"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Schiedsrichter verweist den foulenden Spieler des Feldes.",
+      "translation": {
+        "ru": "Судья удаляет грубого игрока с поля.",
+        "en": "The referee sends the fouling player off the pitch."
+      },
+      "bracket_parts": [
+        "verweist"
+      ],
+      "akkusativ_parts": [
+        "den foulenden Spieler"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verweisen ungeduldige Bürger stets an das Bürgerbüro.",
+      "translation": {
+        "ru": "Мы всегда направляем нетерпеливых граждан в бюро обслуживания населения.",
+        "en": "We always refer impatient citizens to the citizen center."
+      },
+      "bracket_parts": [
+        "verweisen"
+      ],
+      "akkusativ_parts": [
+        "ungeduldige Bürger"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verweist ihr die Beschwerden direkt an den Kundenservice weiter?",
+      "translation": {
+        "ru": "Вы перенаправляете жалобы напрямую в службу поддержки клиентов?",
+        "en": "Do you forward the complaints directly to customer service?"
+      },
+      "bracket_parts": [
+        "Verweist"
+      ],
+      "akkusativ_parts": [
+        "die Beschwerden"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Richter verwies damals den unruhigen Angeklagten aus dem Saal.",
+      "translation": {
+        "ru": "Судья тогда удалил беспокойного обвиняемого из зала.",
+        "en": "The judge expelled the unruly defendant from the courtroom back then."
+      },
+      "bracket_parts": [
+        "verwies"
+      ],
+      "akkusativ_parts": [
+        "den unruhigen Angeklagten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Schulleitung hat zwei Störer für eine Woche der Schule verwiesen.",
+      "translation": {
+        "ru": "Руководство школы отстранило двух нарушителей на неделю от занятий.",
+        "en": "The school administration suspended two troublemakers from school for a week."
+      },
+      "bracket_parts": [
+        "hat",
+        "verwiesen"
+      ],
+      "akkusativ_parts": [
+        "zwei Störer"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verweise bitte den Störenfried sofort aus dem Gebäude!",
+      "translation": {
+        "ru": "Удали нарушителя спокойствия из здания немедленно, пожалуйста!",
+        "en": "Please expel the troublemaker from the building immediately!"
+      },
+      "bracket_parts": [
+        "Verweise"
+      ],
+      "akkusativ_parts": [
+        "den Störenfried"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

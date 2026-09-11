@@ -1,0 +1,177 @@
+{
+  "id": "spueren",
+  "infinitive": "spüren",
+  "translation": {
+    "ru": "чувствовать, ощущать (физически/интуитивно)",
+    "en": "to feel, sense"
+  },
+  "level": "B1",
+  "frequency_rank": 177,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "spüren",
+    "present_3sg": "spürt",
+    "praeteritum_3sg": "spürte",
+    "partizip_2": "gespürt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "spüre",
+      "du": "spürst",
+      "er_sie_es": "spürt",
+      "wir": "spüren",
+      "ihr": "spürt",
+      "sie_Sie": "spüren"
+    },
+    "praeteritum": {
+      "ich": "spürte",
+      "du": "spürtest",
+      "er_sie_es": "spürte",
+      "wir": "spürten",
+      "ihr": "spürtet",
+      "sie_Sie": "spürten"
+    },
+    "imperative": {
+      "du": "spüre!",
+      "ihr": "spürt!",
+      "Sie": "spüren Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Kälte deutlich spüren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich spüre den kalten Wind sofort im Gesicht.",
+      "translation": {
+        "ru": "Я сразу чувствую холодный ветер на лице.",
+        "en": "I immediately feel the cold wind on my face."
+      },
+      "bracket_parts": [
+        "spüre"
+      ],
+      "akkusativ_parts": [
+        "den kalten Wind"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Spürst du die Schmerzen im linken Knie noch?",
+      "translation": {
+        "ru": "Ты еще чувствуешь боль в левом колене?",
+        "en": "Do you still feel the pain in your left knee?"
+      },
+      "bracket_parts": [
+        "Spürst"
+      ],
+      "akkusativ_parts": [
+        "die Schmerzen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Patient spürt nach der Operation keine Schmerzen.",
+      "translation": {
+        "ru": "Пациент не чувствует боли после операции.",
+        "en": "The patient feels no pain after the surgery."
+      },
+      "bracket_parts": [
+        "spürt"
+      ],
+      "akkusativ_parts": [
+        "keine Schmerzen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir spüren eine wachsende Begeisterung für das Thema.",
+      "translation": {
+        "ru": "Мы ощущаем растущий энтузиазм к этой теме.",
+        "en": "We sense a growing enthusiasm for the topic."
+      },
+      "bracket_parts": [
+        "spüren"
+      ],
+      "akkusativ_parts": [
+        "eine wachsende Begeisterung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Spürt ihr den Herzschlag nach dem schnellen Lauf?",
+      "translation": {
+        "ru": "Вы чувствуете биение сердца после быстрого бега?",
+        "en": "Do you guys feel your heartbeat after the fast run?"
+      },
+      "bracket_parts": [
+        "Spürt"
+      ],
+      "akkusativ_parts": [
+        "den Herzschlag"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie spürten eine drohende Gefahr im dunklen Wald.",
+      "translation": {
+        "ru": "Они ощущали надвигающуюся опасность в темном лесу.",
+        "en": "They sensed an impending danger in the dark forest."
+      },
+      "bracket_parts": [
+        "spürten"
+      ],
+      "akkusativ_parts": [
+        "eine drohende Gefahr"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Menschen haben das Erdbeben in der ganzen Region gespürt.",
+      "translation": {
+        "ru": "Люди почувствовали землетрясение во всем регионе.",
+        "en": "People felt the earthquake in the entire region."
+      },
+      "bracket_parts": [
+        "haben",
+        "gespürt"
+      ],
+      "akkusativ_parts": [
+        "das Erdbeben"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Spüre die Wärme der Sonne auf deiner Haut!",
+      "translation": {
+        "ru": "Почувствуй тепло солнца на своей коже!",
+        "en": "Feel the warmth of the sun on your skin!"
+      },
+      "bracket_parts": [
+        "Spüre"
+      ],
+      "akkusativ_parts": [
+        "die Wärme der Sonne"
+      ]
+    }
+  ]
+}

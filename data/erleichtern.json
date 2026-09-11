@@ -1,0 +1,186 @@
+{
+  "id": "erleichtern",
+  "infinitive": "erleichtern",
+  "translation": {
+    "ru": "облегчать",
+    "en": "to relieve, make easier"
+  },
+  "level": "B1",
+  "frequency_rank": 431,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erleichtern",
+    "present_3sg": "erleichtert",
+    "praeteritum_3sg": "erleichterte",
+    "partizip_2": "erleichtert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erleichtere",
+      "du": "erleichterst",
+      "er_sie_es": "erleichtert",
+      "wir": "erleichtern",
+      "ihr": "erleichtert",
+      "sie_Sie": "erleichtern"
+    },
+    "praeteritum": {
+      "ich": "erleichterte",
+      "du": "erleichtertest",
+      "er_sie_es": "erleichterte",
+      "wir": "erleichterten",
+      "ihr": "erleichtertet",
+      "sie_Sie": "erleichterten"
+    },
+    "perfekt": {
+      "ich": "habe erleichtert",
+      "du": "hast erleichtert",
+      "er_sie_es": "hat erleichtert",
+      "wir": "haben erleichtert",
+      "ihr": "habt erleichtert",
+      "sie_Sie": "haben erleichtert"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich erleichtere dir die schwere Arbeit mit diesem Werkzeug.",
+      "translation": {
+        "ru": "Я облегчаю тебе тяжелую работу этим инструментом.",
+        "en": "I make the hard work easier for you with this tool."
+      },
+      "bracket_parts": [
+        "erleichtere"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "die schwere Arbeit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du erleichterst meinen Alltag durch deine wertvolle Hilfe.",
+      "translation": {
+        "ru": "Ты облегчаешь мои будни своей ценной помощью.",
+        "en": "You make my everyday life easier with your valuable help."
+      },
+      "bracket_parts": [
+        "erleichterst"
+      ],
+      "akkusativ_parts": [
+        "meinen Alltag"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das neue Gesetz erleichtert vielen Einwanderern den Alltag.",
+      "translation": {
+        "ru": "Новый закон облегчает многим иммигрантам повседневную жизнь.",
+        "en": "The new law makes daily life easier for many immigrants."
+      },
+      "bracket_parts": [
+        "erleichtert"
+      ],
+      "dativ_parts": [
+        "vielen Einwanderern"
+      ],
+      "akkusativ_parts": [
+        "den Alltag"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erleichtern den Schülern das Erlernen der Grammatik.",
+      "translation": {
+        "ru": "Мы облегчаем ученикам изучение грамматики.",
+        "en": "We make learning grammar easier for the students."
+      },
+      "bracket_parts": [
+        "erleichtern"
+      ],
+      "dativ_parts": [
+        "den Schülern"
+      ],
+      "akkusativ_parts": [
+        "das Erlernen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr erleichtert dem Team die tägliche Kommunikation.",
+      "translation": {
+        "ru": "Вы облегчаете команде ежедневную коммуникацию.",
+        "en": "You facilitate daily communication for the team."
+      },
+      "bracket_parts": [
+        "erleichtert"
+      ],
+      "dativ_parts": [
+        "dem Team"
+      ],
+      "akkusativ_parts": [
+        "die tägliche Kommunikation"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie erleichterten damals den Zugang zu allen Dokumenten.",
+      "translation": {
+        "ru": "Они облегчили тогда доступ ко всем документам.",
+        "en": "They made access to all documents easier back then."
+      },
+      "bracket_parts": [
+        "erleichterten"
+      ],
+      "akkusativ_parts": [
+        "den Zugang"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Diese praktische Erfindung hat das Leben der Menschen spürbar erleichtert.",
+      "translation": {
+        "ru": "Это практичное изобретение ощутимо облегчило жизнь людей.",
+        "en": "This practical invention significantly relieved people's lives."
+      },
+      "bracket_parts": [
+        "hat",
+        "erleichtert"
+      ],
+      "akkusativ_parts": [
+        "das Leben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erleichtere dir die Aufgabe mit einer guten Vorbereitung!",
+      "translation": {
+        "ru": "Облегчи себе задачу хорошей подготовкой!",
+        "en": "Make the task easier for yourself with good preparation!"
+      },
+      "bracket_parts": [
+        "Erleichtere"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "die Aufgabe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

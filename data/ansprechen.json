@@ -1,0 +1,184 @@
+{
+  "id": "ansprechen",
+  "infinitive": "ansprechen",
+  "translation": {
+    "ru": "обращаться, заговаривать (с кем-то); поднимать (тему); нравиться",
+    "en": "to address, speak to, raise (a topic), appeal to"
+  },
+  "level": "A2",
+  "frequency_rank": 280,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ansprechen",
+    "present_3sg": "spricht an",
+    "praeteritum_3sg": "sprach an",
+    "partizip_2": "angesprochen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "spreche an",
+      "du": "sprichst an",
+      "er_sie_es": "spricht an",
+      "wir": "sprechen an",
+      "ihr": "sprecht an",
+      "sie_Sie": "sprechen an"
+    },
+    "praeteritum": {
+      "ich": "sprach an",
+      "du": "sprachst an",
+      "er_sie_es": "sprach an",
+      "wir": "sprachen an",
+      "ihr": "spracht an",
+      "sie_Sie": "sprachen an"
+    },
+    "imperative": {
+      "du": "sprich an!",
+      "ihr": "sprecht an!",
+      "Sie": "sprechen Sie an!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein heikles Thema ansprechen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich spreche den Chef heute wegen einer Gehaltserhöhung an.",
+      "translation": {
+        "ru": "Я заговорю сегодня с начальником о повышении зарплаты.",
+        "en": "I am speaking to the boss today about a raise."
+      },
+      "bracket_parts": [
+        "spreche",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den Chef"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Sprichst du fremde Menschen auf der Straße leicht an?",
+      "translation": {
+        "ru": "Ты легко заговариваешь с незнакомыми людьми на улице?",
+        "en": "Do you easily approach strangers on the street?"
+      },
+      "bracket_parts": [
+        "Sprichst",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "fremde Menschen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Design des Autos spricht viele junge Käufer an.",
+      "translation": {
+        "ru": "Дизайн автомобиля привлекает многих молодых покупателей.",
+        "en": "The car design appeals to many young buyers."
+      },
+      "bracket_parts": [
+        "spricht",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "viele junge Käufer"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir sprechen die offenen Probleme in der nächsten Besprechung an.",
+      "translation": {
+        "ru": "Мы поднимем нерешенные проблемы на следующем совещании.",
+        "en": "We will address the open problems in the next meeting."
+      },
+      "bracket_parts": [
+        "sprechen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die offenen Probleme"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Sprecht ihr den Dozenten nach der Vorlesung an?",
+      "translation": {
+        "ru": "Вы подойдете к преподавателю после лекции?",
+        "en": "Are you guys speaking to the lecturer after the lecture?"
+      },
+      "bracket_parts": [
+        "Sprecht",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den Dozenten"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie sprachen damals die schwierige Situation ehrlich an.",
+      "translation": {
+        "ru": "Они честно подняли тогда непростой вопрос.",
+        "en": "They addressed the difficult situation honestly back then."
+      },
+      "bracket_parts": [
+        "sprachen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die schwierige Situation"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Ein Tourist hat mich auf Englisch nach dem Weg angesprochen.",
+      "translation": {
+        "ru": "Турист спросил у меня дорогу по-английски.",
+        "en": "A tourist approached me in English asking for directions."
+      },
+      "bracket_parts": [
+        "hat",
+        "angesprochen"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Sprich das Problem bitte direkt und offen an!",
+      "translation": {
+        "ru": "Подними эту проблему прямо и открыто, пожалуйста!",
+        "en": "Please address the problem directly and openly!"
+      },
+      "bracket_parts": [
+        "Sprich",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das Problem"
+      ]
+    }
+  ]
+}

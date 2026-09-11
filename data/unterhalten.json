@@ -1,0 +1,177 @@
+{
+  "id": "unterhalten",
+  "infinitive": "unterhalten",
+  "translation": {
+    "ru": "развлекать; содержать (семью/хозяйство)",
+    "en": "to entertain, maintain, support"
+  },
+  "level": "B1",
+  "frequency_rank": 313,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "unter",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "unterhalten",
+    "present_3sg": "unterhält",
+    "praeteritum_3sg": "unterhielt",
+    "partizip_2": "unterhalten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "unterhalte",
+      "du": "unterhältst",
+      "er_sie_es": "unterhält",
+      "wir": "unterhalten",
+      "ihr": "unterhaltet",
+      "sie_Sie": "unterhalten"
+    },
+    "praeteritum": {
+      "ich": "unterhielt",
+      "du": "unterhieltst",
+      "er_sie_es": "unterhielt",
+      "wir": "unterhielten",
+      "ihr": "unterhieltet",
+      "sie_Sie": "unterhielten"
+    },
+    "imperative": {
+      "du": "unterhalte!",
+      "ihr": "unterhaltet!",
+      "Sie": "unterhalten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das Publikum unterhalten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich unterhalte die Gäste mit lustigen Zaubertricks.",
+      "translation": {
+        "ru": "Я развлекаю гостей забавными фокусами.",
+        "en": "I entertain the guests with funny magic tricks."
+      },
+      "bracket_parts": [
+        "unterhalte"
+      ],
+      "akkusativ_parts": [
+        "die Gäste"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Unterhältst du deine Familie ganz alleine?",
+      "translation": {
+        "ru": "Ты содержишь семью совершенно один?",
+        "en": "Do you support your family all by yourself?"
+      },
+      "bracket_parts": [
+        "Unterhältst"
+      ],
+      "akkusativ_parts": [
+        "deine Familie"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Clown unterhält die kleinen Kinder im Zirkus.",
+      "translation": {
+        "ru": "Клоун развлекает маленьких детей в цирке.",
+        "en": "The clown entertains the little children in the circus."
+      },
+      "bracket_parts": [
+        "unterhält"
+      ],
+      "akkusativ_parts": [
+        "die kleinen Kinder"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir unterhalten gute Kontakte zu unseren Partnern.",
+      "translation": {
+        "ru": "Мы поддерживаем хорошие контакты с нашими партнерами.",
+        "en": "We maintain good contacts with our partners."
+      },
+      "bracket_parts": [
+        "unterhalten"
+      ],
+      "akkusativ_parts": [
+        "gute Kontakte"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Unterhaltet ihr das gesamte Sportzentrum selbst?",
+      "translation": {
+        "ru": "Вы содержите весь спортивный центр сами?",
+        "en": "Do you guys maintain the entire sports center yourselves?"
+      },
+      "bracket_parts": [
+        "Unterhaltet"
+      ],
+      "akkusativ_parts": [
+        "das gesamte Sportzentrum"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie unterhielten das Publikum mit wunderbaren Liedern.",
+      "translation": {
+        "ru": "Они развлекали публику замечательными песнями.",
+        "en": "They entertained the audience with wonderful songs."
+      },
+      "bracket_parts": [
+        "unterhielten"
+      ],
+      "akkusativ_parts": [
+        "das Publikum"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Komiker hat den ganzen Saal zwei Stunden lang unterhalten.",
+      "translation": {
+        "ru": "Комик развлекал весь зал на протяжении двух часов.",
+        "en": "The comedian entertained the entire hall for two hours."
+      },
+      "bracket_parts": [
+        "hat",
+        "unterhalten"
+      ],
+      "akkusativ_parts": [
+        "den ganzen Saal"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Unterhalte die wartenden Kunden freundlich!",
+      "translation": {
+        "ru": "Развлекай ожидающих клиентов вежливо!",
+        "en": "Entertain the waiting customers friendly!"
+      },
+      "bracket_parts": [
+        "Unterhalte"
+      ],
+      "akkusativ_parts": [
+        "die wartenden Kunden"
+      ]
+    }
+  ]
+}

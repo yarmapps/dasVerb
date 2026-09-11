@@ -1,0 +1,189 @@
+{
+  "id": "praegen",
+  "infinitive": "prägen",
+  "translation": {
+    "ru": "чеканить, формировать, накладывать отпечаток",
+    "en": "to shape, mold, stamp, coin"
+  },
+  "level": "B2",
+  "frequency_rank": 292,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "prägen",
+    "present_3sg": "prägt",
+    "praeteritum_3sg": "prägte",
+    "partizip_2": "geprägt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "präge",
+      "du": "prägst",
+      "er_sie_es": "prägt",
+      "wir": "prägen",
+      "ihr": "prägt",
+      "sie_Sie": "prägen"
+    },
+    "praeteritum": {
+      "ich": "prägte",
+      "du": "prägtest",
+      "er_sie_es": "prägte",
+      "wir": "prägten",
+      "ihr": "prägtet",
+      "sie_Sie": "prägten"
+    },
+    "imperative": {
+      "du": "präge!",
+      "ihr": "prägt!",
+      "Sie": "prägen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine Epoche prägen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich präge mir diese schwierigen Vokabeln gut ein.",
+      "translation": {
+        "ru": "Я хорошо запечатлеваю в памяти эти трудные слова.",
+        "en": "I memorize these difficult vocabulary words well."
+      },
+      "bracket_parts": [
+        "präge"
+      ],
+      "akkusativ_parts": [
+        "diese schwierigen Vokabeln"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Prägst du mit deinen Ideen die Zukunft unseres Unternehmens?",
+      "translation": {
+        "ru": "Ты формируешь своими идеями будущее нашей компании?",
+        "en": "Are you shaping the future of our company with your ideas?"
+      },
+      "bracket_parts": [
+        "Prägst"
+      ],
+      "akkusativ_parts": [
+        "die Zukunft unseres Unternehmens"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Diese Erfahrung prägt den Charakter eines jungen Menschen.",
+      "translation": {
+        "ru": "Этот опыт формирует характер молодого человека.",
+        "en": "This experience shapes the character of a young person."
+      },
+      "bracket_parts": [
+        "prägt"
+      ],
+      "akkusativ_parts": [
+        "den Charakter eines jungen Menschen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir prägen neue Münzen in der staatlichen Fabrik.",
+      "translation": {
+        "ru": "Мы чеканим новые монеты на государственном заводе.",
+        "en": "We mint new coins in the state factory."
+      },
+      "bracket_parts": [
+        "prägen"
+      ],
+      "akkusativ_parts": [
+        "neue Münzen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Prägt ihr die Kultur eurer Stadt durch eure Kunst?",
+      "translation": {
+        "ru": "Вы накладываете отпечаток на культуру своего города своим искусством?",
+        "en": "Do you guys shape the culture of your city through your art?"
+      },
+      "bracket_parts": [
+        "Prägt"
+      ],
+      "akkusativ_parts": [
+        "die Kultur eurer Stadt"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der berühmte Maler prägte damals eine ganze Generation von Künstlern.",
+      "translation": {
+        "ru": "Знаменитый художник оказал тогда влияние на целое поколение творцов.",
+        "en": "The famous painter shaped a whole generation of artists back then."
+      },
+      "bracket_parts": [
+        "prägte"
+      ],
+      "akkusativ_parts": [
+        "eine ganze Generation von Künstlern"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Dieser Konflikt hat die gesamte Region nachhaltig geprägt.",
+      "translation": {
+        "ru": "Этот конфликт наложил глубокий отпечаток на весь регион.",
+        "en": "This conflict has profoundly shaped the entire region."
+      },
+      "bracket_parts": [
+        "hat",
+        "geprägt"
+      ],
+      "akkusativ_parts": [
+        "die gesamte Region"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Präge dir diesen wichtigen Leitsatz für immer ein!",
+      "translation": {
+        "ru": "Запомни этот важный принцип навсегда!",
+        "en": "Memorize this important guiding principle forever!"
+      },
+      "bracket_parts": [
+        "Präge"
+      ],
+      "akkusativ_parts": [
+        "diesen wichtigen Leitsatz"
+      ],
+      "dativ_parts": [
+        "dir"
+      ]
+    }
+  ]
+}

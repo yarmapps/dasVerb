@@ -1,0 +1,177 @@
+{
+  "id": "laecheln_akk_ueber",
+  "infinitive": "lächeln",
+  "translation": {
+    "ru": "усмехаться (над чем-то), относиться с улыбкой",
+    "en": "to smile (at/about)"
+  },
+  "level": "B1",
+  "frequency_rank": 193,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "lächeln",
+    "present_3sg": "lächelt",
+    "praeteritum_3sg": "lächelte",
+    "partizip_2": "gelächelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lächle",
+      "du": "lächelst",
+      "er_sie_es": "lächelt",
+      "wir": "lächeln",
+      "ihr": "lächelt",
+      "sie_Sie": "lächeln"
+    },
+    "praeteritum": {
+      "ich": "lächelte",
+      "du": "lächeltest",
+      "er_sie_es": "lächelte",
+      "wir": "lächelten",
+      "ihr": "lächeltet",
+      "sie_Sie": "lächelten"
+    },
+    "imperative": {
+      "du": "lächle!",
+      "ihr": "lächelt!",
+      "Sie": "lächeln Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "über den Witz lächeln",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich lächle oft über alte Erinnerungen.",
+      "translation": {
+        "ru": "Я часто с улыбкой вспоминаю старые времена.",
+        "en": "I often smile about old memories."
+      },
+      "bracket_parts": [
+        "lächle"
+      ],
+      "akkusativ_parts": [
+        "alte Erinnerungen"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Lächelst du über seine lustige Bemerkung?",
+      "translation": {
+        "ru": "Ты улыбаешься его забавному замечанию?",
+        "en": "Are you smiling at his funny remark?"
+      },
+      "bracket_parts": [
+        "Lächelst"
+      ],
+      "akkusativ_parts": [
+        "seine lustige Bemerkung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Chef lächelt milde über die anfänglichen Fehler.",
+      "translation": {
+        "ru": "Начальник снисходительно улыбается первым ошибкам.",
+        "en": "The boss smiles mildly at the initial mistakes."
+      },
+      "bracket_parts": [
+        "lächelt"
+      ],
+      "akkusativ_parts": [
+        "die anfänglichen Fehler"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir lächeln über die Streiche der kleinen Katzen.",
+      "translation": {
+        "ru": "Мы улыбаемся проделкам маленьких котят.",
+        "en": "We smile at the antics of the little kittens."
+      },
+      "bracket_parts": [
+        "lächeln"
+      ],
+      "akkusativ_parts": [
+        "die Streiche der kleinen Katzen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Lächelt ihr über die alten Modefotos?",
+      "translation": {
+        "ru": "Вы посмеиваетесь над старыми модными фотографиями?",
+        "en": "Are you guys smiling at the old fashion photos?"
+      },
+      "bracket_parts": [
+        "Lächelt"
+      ],
+      "akkusativ_parts": [
+        "die alten Modefotos"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie lächelten heimlich über das Missgeschick.",
+      "translation": {
+        "ru": "Они тайком усмехались над этой оплошностью.",
+        "en": "They secretly smiled at the mishap."
+      },
+      "bracket_parts": [
+        "lächelten"
+      ],
+      "akkusativ_parts": [
+        "das Missgeschick"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Mein Großvater hat herzlich über die Geschichte gelächelt.",
+      "translation": {
+        "ru": "Мой дедушка от души улыбнулся этой истории.",
+        "en": "My grandfather smiled warmly at the story."
+      },
+      "bracket_parts": [
+        "hat",
+        "gelächelt"
+      ],
+      "akkusativ_parts": [
+        "die Geschichte"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Lächle einfach über kleine Pannen!",
+      "translation": {
+        "ru": "Просто улыбнись мелким неурядицам!",
+        "en": "Just smile at little mishaps!"
+      },
+      "bracket_parts": [
+        "Lächle"
+      ],
+      "akkusativ_parts": [
+        "kleine Pannen"
+      ]
+    }
+  ]
+}

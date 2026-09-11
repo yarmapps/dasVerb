@@ -1,0 +1,184 @@
+{
+  "id": "angeben",
+  "infinitive": "angeben",
+  "translation": {
+    "ru": "указывать, сообщать (данные); хвастаться",
+    "en": "to state, indicate, show off"
+  },
+  "level": "A2",
+  "frequency_rank": 249,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "angeben",
+    "present_3sg": "gibt an",
+    "praeteritum_3sg": "gab an",
+    "partizip_2": "angegeben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gebe an",
+      "du": "gibst an",
+      "er_sie_es": "gibt an",
+      "wir": "geben an",
+      "ihr": "gebt an",
+      "sie_Sie": "geben an"
+    },
+    "praeteritum": {
+      "ich": "gab an",
+      "du": "gabst an",
+      "er_sie_es": "gab an",
+      "wir": "gaben an",
+      "ihr": "gabt an",
+      "sie_Sie": "gaben an"
+    },
+    "imperative": {
+      "du": "gib an!",
+      "ihr": "gebt an!",
+      "Sie": "geben Sie an!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "seine Adresse angeben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich gebe meine Adresse im Formular genau an.",
+      "translation": {
+        "ru": "Я точно указываю свой адрес в бланке.",
+        "en": "I state my address precisely in the form."
+      },
+      "bracket_parts": [
+        "gebe",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "meine Adresse"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Gibst du immer den genauen Betrag bei der Steuer an?",
+      "translation": {
+        "ru": "Ты всегда указываешь точную сумму в налоговой декларации?",
+        "en": "Do you always state the exact amount in taxes?"
+      },
+      "bracket_parts": [
+        "Gibst",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den genauen Betrag"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Zeuge gibt wichtige Details bei der Polizei an.",
+      "translation": {
+        "ru": "Свидетель указывает важные детали в полиции.",
+        "en": "The witness states important details to the police."
+      },
+      "bracket_parts": [
+        "gibt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "wichtige Details"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir geben die Reisedaten auf der Buchungsseite an.",
+      "translation": {
+        "ru": "Мы указываем даты поездки на странице бронирования.",
+        "en": "We indicate the travel dates on the booking page."
+      },
+      "bracket_parts": [
+        "geben",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Reisedaten"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Gebt ihr eure Telefonnummer bei der Registrierung an?",
+      "translation": {
+        "ru": "Вы указываете свой номер телефона при регистрации?",
+        "en": "Do you guys provide your phone number upon registration?"
+      },
+      "bracket_parts": [
+        "Gebt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "eure Telefonnummer"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie gaben damals einen falschen Namen im Hotel an.",
+      "translation": {
+        "ru": "Они назвали тогда фальшивое имя в отеле.",
+        "en": "They gave a false name at the hotel back then."
+      },
+      "bracket_parts": [
+        "gaben",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "einen falschen Namen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Bewerber hat alle Qualifikationen wahrheitsgemäß angegeben.",
+      "translation": {
+        "ru": "Соискатель правдиво указал все квалификации.",
+        "en": "The applicant truthfully stated all qualifications."
+      },
+      "bracket_parts": [
+        "hat",
+        "angegeben"
+      ],
+      "akkusativ_parts": [
+        "alle Qualifikationen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Gib bitte dein Geburtsdatum deutlich an!",
+      "translation": {
+        "ru": "Укажи дату своего рождения четко, пожалуйста!",
+        "en": "Please state your date of birth clearly!"
+      },
+      "bracket_parts": [
+        "Gib",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "dein Geburtsdatum"
+      ]
+    }
+  ]
+}

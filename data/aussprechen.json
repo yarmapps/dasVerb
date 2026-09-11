@@ -1,0 +1,178 @@
+{
+  "id": "aussprechen",
+  "infinitive": "aussprechen",
+  "translation": {
+    "ru": "произносить, высказывать",
+    "en": "to pronounce, express"
+  },
+  "level": "B1",
+  "frequency_rank": 443,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aussprechen",
+    "present_3sg": "spricht aus",
+    "praeteritum_3sg": "sprach aus",
+    "partizip_2": "ausgesprochen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "spreche aus",
+      "du": "sprichst aus",
+      "er_sie_es": "spricht aus",
+      "wir": "sprechen aus",
+      "ihr": "sprecht aus",
+      "sie_Sie": "sprechen aus"
+    },
+    "praeteritum": {
+      "ich": "sprach aus",
+      "du": "sprachst aus",
+      "er_sie_es": "sprach aus",
+      "wir": "sprachen aus",
+      "ihr": "spracht aus",
+      "sie_Sie": "sprachen aus"
+    },
+    "perfekt": {
+      "ich": "habe ausgesprochen",
+      "du": "hast ausgesprochen",
+      "er_sie_es": "hat ausgesprochen",
+      "wir": "haben ausgesprochen",
+      "ihr": "habt ausgesprochen",
+      "sie_Sie": "haben ausgesprochen"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich spreche meinen Dank für die Hilfe aus.",
+      "translation": {
+        "ru": "Я выражаю благодарность за помощь.",
+        "en": "I express my gratitude for the help."
+      },
+      "bracket_parts": [
+        "spreche",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "meinen Dank"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du sprichst das deutsche Wort ganz richtig aus.",
+      "translation": {
+        "ru": "Ты произносишь это немецкое слово совершенно правильно.",
+        "en": "You pronounce the German word completely correctly."
+      },
+      "bracket_parts": [
+        "sprichst",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "das deutsche Wort"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er spricht eine deutliche Warnung vor Gefahren aus.",
+      "translation": {
+        "ru": "Он высказывает четкое предупреждение об опасностях.",
+        "en": "He issues a clear warning about dangers."
+      },
+      "bracket_parts": [
+        "spricht",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "eine deutliche Warnung"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir sprechen die schwierigen Laute im Sprachkurs aus.",
+      "translation": {
+        "ru": "Мы произносим трудные звуки на языковом курсе.",
+        "en": "We pronounce the difficult sounds in the language course."
+      },
+      "bracket_parts": [
+        "sprechen",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "die schwierigen Laute"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr sprecht euer Mitgefühl für die Familie aus.",
+      "translation": {
+        "ru": "Вы выражаете свое сочувствие семье.",
+        "en": "You express your sympathy for the family."
+      },
+      "bracket_parts": [
+        "sprecht",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "euer Mitgefühl"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie sprachen damals ihre ehrliche Meinung offen aus.",
+      "translation": {
+        "ru": "Они тогда открыто высказали свое честное мнение.",
+        "en": "They expressed their honest opinion openly back then."
+      },
+      "bracket_parts": [
+        "sprachen",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "ihre ehrliche Meinung"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Chef hat gestern eine offizielle Kündigung ausgesprochen.",
+      "translation": {
+        "ru": "Шеф вчера озвучил официальное увольнение.",
+        "en": "The boss issued an official dismissal yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgesprochen"
+      ],
+      "akkusativ_parts": [
+        "eine offizielle Kündigung"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Sprich den Satz noch einmal ganz langsam aus!",
+      "translation": {
+        "ru": "Произнеси предложение еще раз очень медленно!",
+        "en": "Pronounce the sentence once more very slowly!"
+      },
+      "bracket_parts": [
+        "Sprich",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "den Satz"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

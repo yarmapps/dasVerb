@@ -5,6 +5,8 @@ import { useAppTheme } from '../context/ThemeContext';
 import { PracticeScreen } from '../screens/PracticeScreen/PracticeScreen';
 import { VerbsPracticeListScreen } from '../screens/VerbsPracticeListScreen/VerbsPracticeListScreen';
 
+import { PrefixPracticeListScreen } from '../screens/PrefixPracticeListScreen/PrefixPracticeListScreen';
+
 const Stack = createNativeStackNavigator<PracticeStackParamList>();
 
 export function PracticeStackNavigator(): React.JSX.Element {
@@ -26,6 +28,7 @@ export function PracticeStackNavigator(): React.JSX.Element {
     >
       <Stack.Screen name="PracticeHome" component={PracticeScreen} />
       <Stack.Screen name="VerbsPracticeList" component={VerbsPracticeListScreen} />
+      <Stack.Screen name="PrefixPracticeList" component={PrefixPracticeListScreen} />
     </Stack.Navigator>
   );
 }

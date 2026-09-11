@@ -1,0 +1,177 @@
+{
+  "id": "entfernen",
+  "infinitive": "entfernen",
+  "translation": {
+    "ru": "удалять, устранять; отдаляться",
+    "en": "to remove, delete, distance"
+  },
+  "level": "B1",
+  "frequency_rank": 283,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ent",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "entfernen",
+    "present_3sg": "entfernt",
+    "praeteritum_3sg": "entfernte",
+    "partizip_2": "entfernt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entferne",
+      "du": "entfernst",
+      "er_sie_es": "entfernt",
+      "wir": "entfernen",
+      "ihr": "entfernt",
+      "sie_Sie": "entfernen"
+    },
+    "praeteritum": {
+      "ich": "entfernte",
+      "du": "entferntest",
+      "er_sie_es": "entfernte",
+      "wir": "entfernten",
+      "ihr": "entferntet",
+      "sie_Sie": "entfernten"
+    },
+    "imperative": {
+      "du": "entferne!",
+      "ihr": "entfernt!",
+      "Sie": "entfernen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen Fleck entfernen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich entferne den hartnäckigen Kaffeefleck mit Seife.",
+      "translation": {
+        "ru": "Я удаляю стойкое пятно от кофе с помощью мыла.",
+        "en": "I remove the stubborn coffee stain with soap."
+      },
+      "bracket_parts": [
+        "entferne"
+      ],
+      "akkusativ_parts": [
+        "den hartnäckigen Kaffeefleck"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Entfernst du die alten Dateien vom Computer?",
+      "translation": {
+        "ru": "Ты удаляешь старые файлы с компьютера?",
+        "en": "Are you removing the old files from the computer?"
+      },
+      "bracket_parts": [
+        "Entfernst"
+      ],
+      "akkusativ_parts": [
+        "die alten Dateien"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Zahnarzt entfernt den schmerzenden Zahn schmerzfrei.",
+      "translation": {
+        "ru": "Стоматолог безболезненно удаляет ноющий зуб.",
+        "en": "The dentist removes the aching tooth painlessly."
+      },
+      "bracket_parts": [
+        "entfernt"
+      ],
+      "akkusativ_parts": [
+        "den schmerzenden Zahn"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir entfernen den Staub gründlich von allen Möbeln.",
+      "translation": {
+        "ru": "Мы тщательно удаляем пыль со всей мебели.",
+        "en": "We remove the dust thoroughly from all furniture."
+      },
+      "bracket_parts": [
+        "entfernen"
+      ],
+      "akkusativ_parts": [
+        "den Staub"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Entfernt ihr das Unkraut im Gemüsegarten regelmäßig?",
+      "translation": {
+        "ru": "Вы регулярно удаляете сорняки на огороде?",
+        "en": "Do you guys remove the weeds in the vegetable garden regularly?"
+      },
+      "bracket_parts": [
+        "Entfernt"
+      ],
+      "akkusativ_parts": [
+        "das Unkraut"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie entfernten die alte Tapete in wenigen Stunden.",
+      "translation": {
+        "ru": "Они сняли старые обои за несколько часов.",
+        "en": "They removed the old wallpaper in a few hours."
+      },
+      "bracket_parts": [
+        "entfernten"
+      ],
+      "akkusativ_parts": [
+        "die alte Tapete"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Chirurg hat den Tumor erfolgreich entfernt.",
+      "translation": {
+        "ru": "Хирург успешно удалил опухоль.",
+        "en": "The surgeon successfully removed the tumor."
+      },
+      "bracket_parts": [
+        "hat",
+        "entfernt"
+      ],
+      "akkusativ_parts": [
+        "den Tumor"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Entferne bitte die Schutzfolie vom neuen Display!",
+      "translation": {
+        "ru": "Сними защитную пленку с нового экрана, пожалуйста!",
+        "en": "Please remove the protective film from the new display!"
+      },
+      "bracket_parts": [
+        "Entferne"
+      ],
+      "akkusativ_parts": [
+        "die Schutzfolie"
+      ]
+    }
+  ]
+}

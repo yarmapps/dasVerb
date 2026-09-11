@@ -1,0 +1,178 @@
+{
+  "id": "zurueckziehen",
+  "infinitive": "zurückziehen",
+  "translation": {
+    "ru": "отзывать, оттягивать назад",
+    "en": "to withdraw, pull back"
+  },
+  "level": "B1",
+  "frequency_rank": 428,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "zurück",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zurückziehen",
+    "present_3sg": "zieht zurück",
+    "praeteritum_3sg": "zog zurück",
+    "partizip_2": "zurückgezogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ziehe zurück",
+      "du": "ziehst zurück",
+      "er_sie_es": "zieht zurück",
+      "wir": "ziehen zurück",
+      "ihr": "zieht zurück",
+      "sie_Sie": "ziehen zurück"
+    },
+    "praeteritum": {
+      "ich": "zog zurück",
+      "du": "zogst zurück",
+      "er_sie_es": "zog zurück",
+      "wir": "zogen zurück",
+      "ihr": "zogt zurück",
+      "sie_Sie": "zogen zurück"
+    },
+    "perfekt": {
+      "ich": "habe zurückgezogen",
+      "du": "hast zurückgezogen",
+      "er_sie_es": "hat zurückgezogen",
+      "wir": "haben zurückgezogen",
+      "ihr": "habt zurückgezogen",
+      "sie_Sie": "haben zurückgezogen"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich ziehe mein Angebot vorerst zurück.",
+      "translation": {
+        "ru": "Я пока отзываю свое предложение.",
+        "en": "I withdraw my offer for now."
+      },
+      "bracket_parts": [
+        "ziehe",
+        "zurück"
+      ],
+      "akkusativ_parts": [
+        "mein Angebot"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du ziehst deine Hand schnell von der Flamme zurück.",
+      "translation": {
+        "ru": "Ты быстро отдергиваешь руку от пламени.",
+        "en": "You quickly pull back your hand from the flame."
+      },
+      "bracket_parts": [
+        "ziehst",
+        "zurück"
+      ],
+      "akkusativ_parts": [
+        "deine Hand"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Regierung zieht das umstrittene Gesetz zurück.",
+      "translation": {
+        "ru": "Правительство отзывает спорный закон.",
+        "en": "The government withdraws the controversial bill."
+      },
+      "bracket_parts": [
+        "zieht",
+        "zurück"
+      ],
+      "akkusativ_parts": [
+        "das umstrittene Gesetz"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir ziehen unsere Mannschaft aus dem Turnier zurück.",
+      "translation": {
+        "ru": "Мы отзываем нашу команду из турнира.",
+        "en": "We withdraw our team from the tournament."
+      },
+      "bracket_parts": [
+        "ziehen",
+        "zurück"
+      ],
+      "akkusativ_parts": [
+        "unsere Mannschaft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr zieht den gestellten Antrag freiwillig zurück.",
+      "translation": {
+        "ru": "Вы добровольно отзываете поданное заявление.",
+        "en": "You withdraw the submitted application voluntarily."
+      },
+      "bracket_parts": [
+        "zieht",
+        "zurück"
+      ],
+      "akkusativ_parts": [
+        "den gestellten Antrag"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie zogen damals die Klage vor Gericht zurück.",
+      "translation": {
+        "ru": "Они тогда отозвали иск в суде.",
+        "en": "They withdrew the lawsuit in court back then."
+      },
+      "bracket_parts": [
+        "zogen",
+        "zurück"
+      ],
+      "akkusativ_parts": [
+        "die Klage"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Kandidat hat seine Kandidatur gestern offiziell zurückgezogen.",
+      "translation": {
+        "ru": "Кандидат вчера официально снял свою кандидатуру.",
+        "en": "The candidate officially withdrew his candidacy yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "zurückgezogen"
+      ],
+      "akkusativ_parts": [
+        "seine Kandidatur"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Zieh deine falsche Behauptung sofort zurück!",
+      "translation": {
+        "ru": "Немедленно забери свое ложное утверждение назад!",
+        "en": "Withdraw your false claim immediately!"
+      },
+      "bracket_parts": [
+        "Zieh",
+        "zurück"
+      ],
+      "akkusativ_parts": [
+        "deine falsche Behauptung"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

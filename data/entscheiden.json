@@ -1,0 +1,168 @@
+{
+  "id": "entscheiden",
+  "infinitive": "entscheiden",
+  "translation": {
+    "ru": "решать, принимать решение",
+    "en": "to decide, determine"
+  },
+  "level": "B1",
+  "frequency_rank": 135,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ent",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "entscheiden",
+    "present_3sg": "entscheidet",
+    "praeteritum_3sg": "entschied",
+    "partizip_2": "entschieden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entscheide",
+      "du": "entscheidest",
+      "er_sie_es": "entscheidet",
+      "wir": "entscheiden",
+      "ihr": "entscheidet",
+      "sie_Sie": "entscheiden"
+    },
+    "praeteritum": {
+      "ich": "entschied",
+      "du": "entschiedest",
+      "er_sie_es": "entschied",
+      "wir": "entschieden",
+      "ihr": "entschiedet",
+      "sie_Sie": "entschieden"
+    },
+    "imperative": {
+      "du": "entscheide!",
+      "ihr": "entscheidet!",
+      "Sie": "entscheiden Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen Fall entscheiden",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich entscheide diese Frage nicht alleine.",
+      "translation": {
+        "ru": "Я не решаю этот вопрос в одиночку.",
+        "en": "I am not deciding this question alone."
+      },
+      "bracket_parts": [
+        "entscheide"
+      ],
+      "akkusativ_parts": [
+        "diese Frage"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Entscheidest du das ganz spontan?",
+      "translation": {
+        "ru": "Ты решаешь это совершенно спонтанно?",
+        "en": "Do you decide that completely spontaneously?"
+      },
+      "bracket_parts": [
+        "Entscheidest"
+      ],
+      "akkusativ_parts": [
+        "das"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Gericht entscheidet heute über die Klage.",
+      "translation": {
+        "ru": "Суд выносит решение сегодня по данному иску.",
+        "en": "The court is deciding on the lawsuit today."
+      },
+      "bracket_parts": [
+        "entscheidet"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir entscheiden den weiteren Verlauf gemeinsam.",
+      "translation": {
+        "ru": "Мы определяем дальнейший ход событий вместе.",
+        "en": "We decide the further course together."
+      },
+      "bracket_parts": [
+        "entscheiden"
+      ],
+      "akkusativ_parts": [
+        "den weiteren Verlauf"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Entscheidet ihr nach gründlicher Beratung?",
+      "translation": {
+        "ru": "Вы принимаете решение после тщательного обсуждения?",
+        "en": "Do you guys decide after thorough consultation?"
+      },
+      "bracket_parts": [
+        "Entscheidet"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie entschieden die Meisterschaft im letzten Spiel.",
+      "translation": {
+        "ru": "Они решили исход чемпионата в последней игре.",
+        "en": "They decided the championship in the final game."
+      },
+      "bracket_parts": [
+        "entschieden"
+      ],
+      "akkusativ_parts": [
+        "die Meisterschaft"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Chef hat die schwierige Sache gestern entschieden.",
+      "translation": {
+        "ru": "Начальник разрешил этот сложный вопрос вчера.",
+        "en": "The boss decided the difficult matter yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "entschieden"
+      ],
+      "akkusativ_parts": [
+        "die schwierige Sache"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Entscheide jetzt bitte endlich!",
+      "translation": {
+        "ru": "Прими решение наконец, пожалуйста!",
+        "en": "Please finally make up your mind!"
+      },
+      "bracket_parts": [
+        "Entscheide"
+      ]
+    }
+  ]
+}

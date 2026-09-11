@@ -1,0 +1,147 @@
+{
+  "id": "beruhigen_sich",
+  "infinitive": "beruhigen",
+  "translation": {
+    "ru": "успокаиваться",
+    "en": "to calm down"
+  },
+  "level": "A2",
+  "frequency_rank": 476,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "beruhigen",
+    "present_3sg": "beruhigt sich",
+    "praeteritum_3sg": "beruhigte sich",
+    "partizip_2": "beruhigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beruhige mich",
+      "du": "beruhigst dich",
+      "er_sie_es": "beruhigt sich",
+      "wir": "beruhigen uns",
+      "ihr": "beruhigt euch",
+      "sie_Sie": "beruhigen sich"
+    },
+    "praeteritum": {
+      "ich": "beruhigte mich",
+      "du": "beruhigtest dich",
+      "er_sie_es": "beruhigte sich",
+      "wir": "beruhigten uns",
+      "ihr": "beruhigtet euch",
+      "sie_Sie": "beruhigten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich beruhigt",
+      "du": "hast dich beruhigt",
+      "er_sie_es": "hat sich beruhigt",
+      "wir": "haben uns beruhigt",
+      "ihr": "habt euch beruhigt",
+      "sie_Sie": "haben sich beruhigt"
+    }
+  },
+  "rektion": {
+    "case": "none",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich beruhige mich bei einem Spaziergang am See.",
+      "translation": {
+        "ru": "Я успокаиваюсь во время прогулки у озера.",
+        "en": "I calm down during a walk by the lake."
+      },
+      "bracket_parts": [
+        "beruhige"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du beruhigst dich nach dem großen Schreck schnell wieder.",
+      "translation": {
+        "ru": "Ты быстро снова успокаиваешься после сильного испуга.",
+        "en": "You quickly calm down again after the big scare."
+      },
+      "bracket_parts": [
+        "beruhigst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das weinende Baby beruhigt sich auf dem Arm der Mutter.",
+      "translation": {
+        "ru": "Плачущий малыш успокаивается на руках у мамы.",
+        "en": "The crying baby calms down in the mother's arms."
+      },
+      "bracket_parts": [
+        "beruhigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beruhigen uns nach der stressigen Prüfungsphase.",
+      "translation": {
+        "ru": "Мы успокаиваемся после стрессовой сессии.",
+        "en": "We calm down after the stressful exam period."
+      },
+      "bracket_parts": [
+        "beruhigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr beruhigt euch bei einer Tasse heißem Kräutertee.",
+      "translation": {
+        "ru": "Вы успокаиваетесь за чашкой горячего травяного чая.",
+        "en": "You calm down over a cup of hot herbal tea."
+      },
+      "bracket_parts": [
+        "beruhigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der stürmische Wind beruhigte sich damals erst am Abend.",
+      "translation": {
+        "ru": "Штормовой ветер тогда стих только к вечеру.",
+        "en": "The stormy wind only calmed down in the evening back then."
+      },
+      "bracket_parts": [
+        "beruhigte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die aufgeregte Situation hat sich glücklicherweise bald beruhigt.",
+      "translation": {
+        "ru": "Напряженная ситуация к счастью скоро успокоилась.",
+        "en": "Fortunately, the agitated situation soon calmed down."
+      },
+      "bracket_parts": [
+        "hat",
+        "beruhigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Beruhige dich bitte und atme erst einmal tief durch!",
+      "translation": {
+        "ru": "Успокойся, пожалуйста, и сначала глубоко вдохни!",
+        "en": "Please calm down and take a deep breath first!"
+      },
+      "bracket_parts": [
+        "Beruhige"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "besuchen",
+  "infinitive": "besuchen",
+  "translation": {
+    "ru": "навещать, посещать (мероприятие, школу)",
+    "en": "to visit, attend"
+  },
+  "level": "A1",
+  "frequency_rank": 172,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "besuchen",
+    "present_3sg": "besucht",
+    "praeteritum_3sg": "besuchte",
+    "partizip_2": "besucht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "besuche",
+      "du": "besuchst",
+      "er_sie_es": "besucht",
+      "wir": "besuchen",
+      "ihr": "besucht",
+      "sie_Sie": "besuchen"
+    },
+    "praeteritum": {
+      "ich": "besuchte",
+      "du": "besuchtest",
+      "er_sie_es": "besuchte",
+      "wir": "besuchten",
+      "ihr": "besuchtet",
+      "sie_Sie": "besuchten"
+    },
+    "imperative": {
+      "du": "besuche!",
+      "ihr": "besucht!",
+      "Sie": "besuchen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Freunde am Wochenende besuchen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich besuche meine Großmutter jeden Sonntag.",
+      "translation": {
+        "ru": "Я навещаю свою бабушку каждое воскресенье.",
+        "en": "I visit my grandmother every Sunday."
+      },
+      "bracket_parts": [
+        "besuche"
+      ],
+      "akkusativ_parts": [
+        "meine Großmutter"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Besuchst du morgen das Kunstmuseum in der Stadt?",
+      "translation": {
+        "ru": "Ты пойдешь завтра в художественный музей в городе?",
+        "en": "Are you visiting the art museum in the city tomorrow?"
+      },
+      "bracket_parts": [
+        "Besuchst"
+      ],
+      "akkusativ_parts": [
+        "das Kunstmuseum in der Stadt"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Mein Sohn besucht die dritte Klasse des Gymnasiums.",
+      "translation": {
+        "ru": "Мой сын ходит в третий класс гимназии.",
+        "en": "My son attends the third grade of gymnasium."
+      },
+      "bracket_parts": [
+        "besucht"
+      ],
+      "akkusativ_parts": [
+        "die dritte Klasse des Gymnasiums"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir besuchen einen intensiven Deutschkurs am Abend.",
+      "translation": {
+        "ru": "Мы посещаем интенсивный курс немецкого по вечерам.",
+        "en": "We attend an intensive German course in the evening."
+      },
+      "bracket_parts": [
+        "besuchen"
+      ],
+      "akkusativ_parts": [
+        "einen intensiven Deutschkurs"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Besucht ihr eure Verwandten im Ausland oft?",
+      "translation": {
+        "ru": "Вы часто навещаете родственников за границей?",
+        "en": "Do you guys visit your relatives abroad often?"
+      },
+      "bracket_parts": [
+        "Besucht"
+      ],
+      "akkusativ_parts": [
+        "eure Verwandten im Ausland"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie besuchten damals viele Konzerte und Opern.",
+      "translation": {
+        "ru": "В то время они посещали много концертов и опер.",
+        "en": "They attended many concerts and operas back then."
+      },
+      "bracket_parts": [
+        "besuchten"
+      ],
+      "akkusativ_parts": [
+        "viele Konzerte und Opern"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Touristen haben den Kölner Dom millionenfach besucht.",
+      "translation": {
+        "ru": "Туристы посещали Кёльнский собор миллионы раз.",
+        "en": "Tourists have visited Cologne Cathedral millions of times."
+      },
+      "bracket_parts": [
+        "haben",
+        "besucht"
+      ],
+      "akkusativ_parts": [
+        "den Kölner Dom"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Besuche uns bald wieder in München!",
+      "translation": {
+        "ru": "Приезжай к нам снова в Мюнхен в скором времени!",
+        "en": "Visit us again soon in Munich!"
+      },
+      "bracket_parts": [
+        "Besuche"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ]
+    }
+  ]
+}

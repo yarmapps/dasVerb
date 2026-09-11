@@ -1,0 +1,184 @@
+{
+  "id": "kritisieren",
+  "infinitive": "kritisieren",
+  "translation": {
+    "ru": "критиковать, осуждать",
+    "en": "to criticize"
+  },
+  "level": "B1",
+  "frequency_rank": 384,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "kritisieren",
+    "present_3sg": "kritisiert",
+    "praeteritum_3sg": "kritisierte",
+    "partizip_2": "kritisiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "kritisiere",
+      "du": "kritisierst",
+      "er_sie_es": "kritisiert",
+      "wir": "kritisieren",
+      "ihr": "kritisiert",
+      "sie_Sie": "kritisieren"
+    },
+    "praeteritum": {
+      "ich": "kritisierte",
+      "du": "kritisiertest",
+      "er_sie_es": "kritisierte",
+      "wir": "kritisierten",
+      "ihr": "kritisiertet",
+      "sie_Sie": "kritisierten"
+    },
+    "imperative": {
+      "du": "kritisiere!",
+      "ihr": "kritisiert!",
+      "Sie": "kritisieren Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das Vorgehen scharf kritisieren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich kritisiere nicht die Person, sondern nur die schlechte Leistung.",
+      "translation": {
+        "ru": "Я критикую не человека, а исключительно плохой результат.",
+        "en": "I do not criticize the person, but only the poor performance."
+      },
+      "bracket_parts": [
+        "kritisiere"
+      ],
+      "akkusativ_parts": [
+        "die Person",
+        "die schlechte Leistung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Kritisierst du das Verhalten deiner Freunde immer so hart?",
+      "translation": {
+        "ru": "Ты всегда так жестко критикуешь поведение своих друзей?",
+        "en": "Do you always criticize your friends' behavior so harshly?"
+      },
+      "bracket_parts": [
+        "Kritisierst"
+      ],
+      "akkusativ_parts": [
+        "das Verhalten deiner Freunde"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Zeitung kritisiert die unzureichende Vorbereitung des Projekts.",
+      "translation": {
+        "ru": "Газета критикует недостаточную подготовку проекта.",
+        "en": "The newspaper criticizes the inadequate preparation of the project."
+      },
+      "bracket_parts": [
+        "kritisiert"
+      ],
+      "akkusativ_parts": [
+        "die unzureichende Vorbereitung des Projekts"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir kritisieren die hohen Preise für die öffentlichen Verkehrsmittel.",
+      "translation": {
+        "ru": "Мы критикуем высокие цены на общественный транспорт.",
+        "en": "We criticize the high prices for public transport."
+      },
+      "bracket_parts": [
+        "kritisieren"
+      ],
+      "akkusativ_parts": [
+        "die hohen Preise"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Kritisiert ihr im Seminar die Thesen des Professors?",
+      "translation": {
+        "ru": "Вы на семинаре критикуете тезисы профессора?",
+        "en": "Are you guys criticizing the professor's theses in the seminar?"
+      },
+      "bracket_parts": [
+        "Kritisiert"
+      ],
+      "akkusativ_parts": [
+        "die Thesen des Professors"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Opposition kritisierte damals die Außenpolitik der Regierung heftig.",
+      "translation": {
+        "ru": "Оппозиция резко критиковала тогда внешнюю политику правительства.",
+        "en": "The opposition sharply criticized the government's foreign policy back then."
+      },
+      "bracket_parts": [
+        "kritisierte"
+      ],
+      "akkusativ_parts": [
+        "die Außenpolitik der Regierung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Experten haben die Entscheidung der Bankleitung scharf kritisiert.",
+      "translation": {
+        "ru": "Эксперты резко раскритиковали решение руководства банка.",
+        "en": "Experts have sharply criticized the bank management's decision."
+      },
+      "bracket_parts": [
+        "haben",
+        "kritisiert"
+      ],
+      "akkusativ_parts": [
+        "die Entscheidung der Bankleitung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Kritisiere bitte stets fair und konstruktiv!",
+      "translation": {
+        "ru": "Критикуй честно и конструктивно, пожалуйста!",
+        "en": "Please always criticize fairly and constructively!"
+      },
+      "bracket_parts": [
+        "Kritisiere"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "definieren",
+  "infinitive": "definieren",
+  "translation": {
+    "ru": "определять, формулировать понятие",
+    "en": "to define, determine"
+  },
+  "level": "B2",
+  "frequency_rank": 319,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "definieren",
+    "present_3sg": "definiert",
+    "praeteritum_3sg": "definierte",
+    "partizip_2": "definiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "definiere",
+      "du": "definierst",
+      "er_sie_es": "definiert",
+      "wir": "definieren",
+      "ihr": "definiert",
+      "sie_Sie": "definieren"
+    },
+    "praeteritum": {
+      "ich": "definierte",
+      "du": "definiertest",
+      "er_sie_es": "definierte",
+      "wir": "definierten",
+      "ihr": "definiertet",
+      "sie_Sie": "definierten"
+    },
+    "imperative": {
+      "du": "definiere!",
+      "ihr": "definiert!",
+      "Sie": "definieren Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen Begriff genau definieren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich definiere in meiner Einleitung alle zentralen Begriffe.",
+      "translation": {
+        "ru": "В своем введении я определяю все ключевые понятия.",
+        "en": "I define all core terms in my introduction."
+      },
+      "bracket_parts": [
+        "definiere"
+      ],
+      "akkusativ_parts": [
+        "alle zentralen Begriffe"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Definierst du den Erfolg in deinem Leben nur über Geld?",
+      "translation": {
+        "ru": "Ты определяешь успех в своей жизни только через деньги?",
+        "en": "Do you define success in your life only in terms of money?"
+      },
+      "bracket_parts": [
+        "Definierst"
+      ],
+      "akkusativ_parts": [
+        "den Erfolg"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Wörterbuch definiert das fremde Wort sehr verständlich.",
+      "translation": {
+        "ru": "Словарь очень понятно определяет незнакомое слово.",
+        "en": "The dictionary defines the foreign word very clearly."
+      },
+      "bracket_parts": [
+        "definiert"
+      ],
+      "akkusativ_parts": [
+        "das fremde Wort"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir definieren klare Ziele für das kommende Geschäftsjahr.",
+      "translation": {
+        "ru": "Мы определяем четкие цели на предстоящий финансовый год.",
+        "en": "We define clear goals for the upcoming fiscal year."
+      },
+      "bracket_parts": [
+        "definieren"
+      ],
+      "akkusativ_parts": [
+        "klare Ziele"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Definiert ihr die technischen Anforderungen im Pflichtenheft?",
+      "translation": {
+        "ru": "Вы определяете технические требования в техническом задании?",
+        "en": "Do you define the technical requirements in the specifications?"
+      },
+      "bracket_parts": [
+        "Definiert"
+      ],
+      "akkusativ_parts": [
+        "die technischen Anforderungen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Philosoph definierte damals den Sinn der menschlichen Existenz.",
+      "translation": {
+        "ru": "Философ тогда дал определение смыслу человеческого существования.",
+        "en": "The philosopher defined the meaning of human existence back then."
+      },
+      "bracket_parts": [
+        "definierte"
+      ],
+      "akkusativ_parts": [
+        "den Sinn der menschlichen Existenz"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Experten haben neue Standards für die Industrie definiert.",
+      "translation": {
+        "ru": "Эксперты определили новые стандарты для промышленности.",
+        "en": "The experts have defined new standards for the industry."
+      },
+      "bracket_parts": [
+        "haben",
+        "definiert"
+      ],
+      "akkusativ_parts": [
+        "neue Standards"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Definiere bitte deine Kriterien für das Projekt genau!",
+      "translation": {
+        "ru": "Определи точно свои критерии для проекта, пожалуйста!",
+        "en": "Please define your criteria for the project precisely!"
+      },
+      "bracket_parts": [
+        "Definiere"
+      ],
+      "akkusativ_parts": [
+        "deine Kriterien"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

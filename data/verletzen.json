@@ -1,0 +1,185 @@
+{
+  "id": "verletzen",
+  "infinitive": "verletzen",
+  "translation": {
+    "ru": "ранить, повреждать, обижать, нарушать",
+    "en": "to injure, hurt, violate"
+  },
+  "level": "A2",
+  "frequency_rank": 300,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verletzen",
+    "present_3sg": "verletzt",
+    "praeteritum_3sg": "verletzte",
+    "partizip_2": "verletzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verletze",
+      "du": "verletzt",
+      "er_sie_es": "verletzt",
+      "wir": "verletzen",
+      "ihr": "verletzt",
+      "sie_Sie": "verletzen"
+    },
+    "praeteritum": {
+      "ich": "verletzte",
+      "du": "verletztest",
+      "er_sie_es": "verletzte",
+      "wir": "verletzten",
+      "ihr": "verletztet",
+      "sie_Sie": "verletzten"
+    },
+    "imperative": {
+      "du": "verletze!",
+      "ihr": "verletzt!",
+      "Sie": "verletzen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich am Bein verletzen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verletze mich beim Kochen manchmal am Finger.",
+      "translation": {
+        "ru": "При готовке я иногда раню себе палец.",
+        "en": "I sometimes hurt my finger while cooking."
+      },
+      "bracket_parts": [
+        "verletze"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verletzt du mit diesen Worten nicht seine Gefühle?",
+      "translation": {
+        "ru": "Разве ты этими словами не ранишь его чувства?",
+        "en": "Aren't you hurting his feelings with these words?"
+      },
+      "bracket_parts": [
+        "Verletzt"
+      ],
+      "akkusativ_parts": [
+        "seine Gefühle"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Sportler verletzt sich beim letzten Training schwer am Knie.",
+      "translation": {
+        "ru": "Спортсмен тяжело травмирует колено на последней тренировке.",
+        "en": "The athlete injures his knee badly during the last practice."
+      },
+      "bracket_parts": [
+        "verletzt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verletzen mit dieser Entscheidung keine geltenden Gesetze.",
+      "translation": {
+        "ru": "Этим решением мы не нарушаем действующих законов.",
+        "en": "We do not violate any applicable laws with this decision."
+      },
+      "bracket_parts": [
+        "verletzen"
+      ],
+      "akkusativ_parts": [
+        "keine geltenden Gesetze"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verletzt ihr eure Pflichten als Mitglieder des Vereins?",
+      "translation": {
+        "ru": "Вы нарушаете свои обязанности как члены клуба?",
+        "en": "Are you violating your duties as club members?"
+      },
+      "bracket_parts": [
+        "Verletzt"
+      ],
+      "akkusativ_parts": [
+        "eure Pflichten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Autofahrer verletzte damals bei dem Unfall zwei Fußgänger.",
+      "translation": {
+        "ru": "Водитель тогда травмировал двух пешеходов в аварии.",
+        "en": "The driver injured two pedestrians in the accident back then."
+      },
+      "bracket_parts": [
+        "verletzte"
+      ],
+      "akkusativ_parts": [
+        "zwei Fußgänger"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben sich beim Skifahren an der Schulter verletzt.",
+      "translation": {
+        "ru": "Они повредили плечо при катании на лыжах.",
+        "en": "They injured their shoulder while skiing."
+      },
+      "bracket_parts": [
+        "haben",
+        "verletzt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verletze bitte niemals das Vertrauen deiner Freunde!",
+      "translation": {
+        "ru": "Пожалуйста, никогда не предавай доверие своих друзей!",
+        "en": "Please never breach the trust of your friends!"
+      },
+      "bracket_parts": [
+        "Verletze"
+      ],
+      "akkusativ_parts": [
+        "das Vertrauen deiner Freunde"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

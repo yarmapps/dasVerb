@@ -127,8 +127,8 @@ describe('Premium Subscription Suite', () => {
               packageType: 'LIFETIME',
               product: {
                 identifier: 'premium_lifetime',
-                priceString: '$59.99',
-                price: 59.99,
+                priceString: '$49.99',
+                price: 49.99,
                 currencyCode: 'USD',
               },
             },
@@ -141,7 +141,7 @@ describe('Premium Subscription Suite', () => {
       expect(mapped?.monthly?.priceString).toBe('$4.99');
       expect(mapped?.yearly?.priceString).toBe('$29.99');
       expect(mapped?.yearly?.freeTrialInfo).toEqual({ count: 3, unit: 'day' });
-      expect(mapped?.lifetime?.priceString).toBe('$59.99');
+      expect(mapped?.lifetime?.priceString).toBe('$49.99');
     });
 
     it('purchasePackage should execute purchase and activate premium on success', async () => {

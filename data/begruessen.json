@@ -1,0 +1,171 @@
+{
+  "id": "begruessen",
+  "infinitive": "begrüßen",
+  "translation": {
+    "ru": "приветствовать, здороваться",
+    "en": "to greet, welcome"
+  },
+  "level": "A1",
+  "frequency_rank": 497,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "begrüßen",
+    "present_3sg": "begrüßt",
+    "praeteritum_3sg": "begrüßte",
+    "partizip_2": "begrüßt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "begrüße",
+      "du": "begrüßt",
+      "er_sie_es": "begrüßt",
+      "wir": "begrüßen",
+      "ihr": "begrüßt",
+      "sie_Sie": "begrüßen"
+    },
+    "praeteritum": {
+      "ich": "begrüßte",
+      "du": "begrüßtest",
+      "er_sie_es": "begrüßte",
+      "wir": "begrüßten",
+      "ihr": "begrüßtet",
+      "sie_Sie": "begrüßten"
+    },
+    "perfekt": {
+      "ich": "habe begrüßt",
+      "du": "hast begrüßt",
+      "er_sie_es": "hat begrüßt",
+      "wir": "haben begrüßt",
+      "ihr": "habt begrüßt",
+      "sie_Sie": "haben begrüßt"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich begrüße alle anwesenden Gäste sehr herzlich.",
+      "translation": {
+        "ru": "Я очень тепло приветствую всех присутствующих гостей.",
+        "en": "I greet all attending guests very warmly."
+      },
+      "bracket_parts": [
+        "begrüße"
+      ],
+      "akkusativ_parts": [
+        "alle anwesenden Gäste"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du begrüßt deinen besten Schulfreund mit einer Umarmung.",
+      "translation": {
+        "ru": "Ты приветствуешь своего лучшего школьного друга объятием.",
+        "en": "You greet your best school friend with a hug."
+      },
+      "bracket_parts": [
+        "begrüßt"
+      ],
+      "akkusativ_parts": [
+        "deinen besten Schulfreund"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Gastgeber begrüßt jeden Neuankömmling an der Tür.",
+      "translation": {
+        "ru": "Хозяин приветствует каждого вновь прибывшего у двери.",
+        "en": "The host welcomes every newcomer at the door."
+      },
+      "bracket_parts": [
+        "begrüßt"
+      ],
+      "akkusativ_parts": [
+        "jeden Neuankömmling"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir begrüßen die neue Schulleiterin mit einem Blumenstrauß.",
+      "translation": {
+        "ru": "Мы приветствуем нового директора школы букетом цветов.",
+        "en": "We welcome the new headmistress with a bouquet of flowers."
+      },
+      "bracket_parts": [
+        "begrüßen"
+      ],
+      "akkusativ_parts": [
+        "die neue Schulleiterin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr begrüßt eure Verwandten auf dem Bahnsteig.",
+      "translation": {
+        "ru": "Вы приветствуете своих родственников на перроне.",
+        "en": "You greet your relatives on the train platform."
+      },
+      "bracket_parts": [
+        "begrüßt"
+      ],
+      "akkusativ_parts": [
+        "eure Verwandten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie begrüßten damals die mutige Entscheidung der Bürger.",
+      "translation": {
+        "ru": "Они тогда приветствовали смелое решение граждан.",
+        "en": "They welcomed the courageous decision of the citizens back then."
+      },
+      "bracket_parts": [
+        "begrüßten"
+      ],
+      "akkusativ_parts": [
+        "die mutige Entscheidung der Bürger"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Bürgermeister hat die Staatsgäste am Flughafen persönlich begrüßt.",
+      "translation": {
+        "ru": "Мэр лично поприветствовал государственных гостей в аэропорту.",
+        "en": "The mayor greeted the state guests at the airport in person."
+      },
+      "bracket_parts": [
+        "hat",
+        "begrüßt"
+      ],
+      "akkusativ_parts": [
+        "die Staatsgäste"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Begrüße die neuen Nachbarn mit einem freundlichen Lächeln!",
+      "translation": {
+        "ru": "Поприветствуй новых соседей дружелюбной улыбкой!",
+        "en": "Greet the new neighbors with a friendly smile!"
+      },
+      "bracket_parts": [
+        "Begrüße"
+      ],
+      "akkusativ_parts": [
+        "die neuen Nachbarn"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

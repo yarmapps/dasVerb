@@ -1,0 +1,192 @@
+{
+  "id": "umgehen_dat_mit",
+  "infinitive": "umgehen",
+  "translation": {
+    "ru": "обращаться с (кем-то/чем-то)",
+    "en": "to deal with, handle, treat"
+  },
+  "level": "B1",
+  "frequency_rank": 404,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "um",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "umgehen",
+    "present_3sg": "geht um",
+    "praeteritum_3sg": "ging um",
+    "partizip_2": "umgegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe um",
+      "du": "gehst um",
+      "er_sie_es": "geht um",
+      "wir": "gehen um",
+      "ihr": "geht um",
+      "sie_Sie": "gehen um"
+    },
+    "praeteritum": {
+      "ich": "ging um",
+      "du": "gingst um",
+      "er_sie_es": "ging um",
+      "wir": "gingen um",
+      "ihr": "gingt um",
+      "sie_Sie": "gingen um"
+    },
+    "imperative": {
+      "du": "geh um!",
+      "ihr": "geht um!",
+      "Sie": "gehen Sie um!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "gut mit Geld umgehen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich gehe stets sehr sparsam mit meinem Gehalt um.",
+      "translation": {
+        "ru": "Я всегда очень экономно обращаюсь со своей зарплатой.",
+        "en": "I always handle my salary very sparingly."
+      },
+      "bracket_parts": [
+        "gehe",
+        "um"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": [
+        "meinem Gehalt"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Gehst du immer so respektvoll mit deinen Mitarbeitern um?",
+      "translation": {
+        "ru": "Ты всегда так уважительно обращаешься со своими сотрудниками?",
+        "en": "Do you always treat your employees so respectfully?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "um"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": [
+        "deinen Mitarbeitern"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Lehrerin geht sehr geduldig mit unruhigen Kindern um.",
+      "translation": {
+        "ru": "Учительница очень терпеливо обращается с беспокойными детьми.",
+        "en": "The teacher handles restless children very patiently."
+      },
+      "bracket_parts": [
+        "geht",
+        "um"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": [
+        "unruhigen Kindern"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir gehen vorsichtig mit gefährlichen Chemikalien im Labor um.",
+      "translation": {
+        "ru": "Мы осторожно обращаемся с опасными химикатами в лаборатории.",
+        "en": "We handle hazardous chemicals in the laboratory carefully."
+      },
+      "bracket_parts": [
+        "gehen",
+        "um"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": [
+        "gefährlichen Chemikalien"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Geht ihr im Streit immer fair mit anderen Meinungen um?",
+      "translation": {
+        "ru": "Вы в споре всегда справедливо относитесь к чужому мнению?",
+        "en": "Do you always deal fairly with differing opinions in an argument?"
+      },
+      "bracket_parts": [
+        "Geht",
+        "um"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": [
+        "anderen Meinungen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Chef ging damals sehr hart mit Nachlässigkeiten um.",
+      "translation": {
+        "ru": "Шеф тогда очень жестко обходился с небрежностями.",
+        "en": "The boss dealt very harshly with carelessness back then."
+      },
+      "bracket_parts": [
+        "ging",
+        "um"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": [
+        "Nachlässigkeiten"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Er ist vorbildlich mit der schwierigen Situation umgegangen.",
+      "translation": {
+        "ru": "Он образцово справился с трудной ситуацией.",
+        "en": "He handled the difficult situation in an exemplary manner."
+      },
+      "bracket_parts": [
+        "ist",
+        "umgegangen"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": [
+        "der schwierigen Situation"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Geh bitte behutsam mit dem empfindlichen Gerät um!",
+      "translation": {
+        "ru": "Обращайся бережно с чувствительным прибором, пожалуйста!",
+        "en": "Please handle the sensitive device carefully!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "um"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": [
+        "dem empfindlichen Gerät"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "beachten",
+  "infinitive": "beachten",
+  "translation": {
+    "ru": "обращать внимание, соблюдать (правила)",
+    "en": "to pay attention to, observe, heed"
+  },
+  "level": "B1",
+  "frequency_rank": 281,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beachten",
+    "present_3sg": "beachtet",
+    "praeteritum_3sg": "beachtete",
+    "partizip_2": "beachtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beachte",
+      "du": "beachtest",
+      "er_sie_es": "beachtet",
+      "wir": "beachten",
+      "ihr": "beachtet",
+      "sie_Sie": "beachten"
+    },
+    "praeteritum": {
+      "ich": "beachtete",
+      "du": "beachtetest",
+      "er_sie_es": "beachtete",
+      "wir": "beachteten",
+      "ihr": "beachtetet",
+      "sie_Sie": "beachteten"
+    },
+    "imperative": {
+      "du": "beachte!",
+      "ihr": "beachtet!",
+      "Sie": "beachten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Verkehrsregeln beachten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich beachte die Verkehrsregeln beim Autofahren sehr genau.",
+      "translation": {
+        "ru": "При вождении я очень строго соблюдаю правила дорожного движения.",
+        "en": "I observe the traffic rules very closely when driving."
+      },
+      "bracket_parts": [
+        "beachte"
+      ],
+      "akkusativ_parts": [
+        "die Verkehrsregeln"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Beachtest du die Hinweise auf der Verpackung?",
+      "translation": {
+        "ru": "Ты обращаешь внимание на указания на упаковке?",
+        "en": "Do you pay attention to the instructions on the package?"
+      },
+      "bracket_parts": [
+        "Beachtest"
+      ],
+      "akkusativ_parts": [
+        "die Hinweise"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Radfahrer beachtet die rote Ampel leider nicht.",
+      "translation": {
+        "ru": "Велосипедист, к сожалению, игнорирует красный сигнал светофора.",
+        "en": "The cyclist unfortunately disregards the red light."
+      },
+      "bracket_parts": [
+        "beachtet"
+      ],
+      "akkusativ_parts": [
+        "die rote Ampel"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beachten alle Sicherheitsvorschriften im Betrieb.",
+      "translation": {
+        "ru": "Мы соблюдаем все правила техники безопасности на предприятии.",
+        "en": "We observe all safety regulations in the company."
+      },
+      "bracket_parts": [
+        "beachten"
+      ],
+      "akkusativ_parts": [
+        "alle Sicherheitsvorschriften"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Beachtet ihr die Fristen bei der Abgabe des Berichts?",
+      "translation": {
+        "ru": "Вы соблюдаете сроки сдачи отчета?",
+        "en": "Do you guys observe the deadlines for submitting the report?"
+      },
+      "bracket_parts": [
+        "Beachtet"
+      ],
+      "akkusativ_parts": [
+        "die Fristen"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie beachteten damals die Warnungen der Experten überhaupt nicht.",
+      "translation": {
+        "ru": "В то время они совершенно не обратили внимания на предупреждения экспертов.",
+        "en": "They did not heed the warnings of the experts at all back then."
+      },
+      "bracket_parts": [
+        "beachteten"
+      ],
+      "akkusativ_parts": [
+        "die Warnungen der Experten"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Bauherr hat alle Bauvorschriften strikt beachtet.",
+      "translation": {
+        "ru": "Застройщик строго соблюдал все строительные нормы.",
+        "en": "The builder strictly complied with all building regulations."
+      },
+      "bracket_parts": [
+        "hat",
+        "beachtet"
+      ],
+      "akkusativ_parts": [
+        "alle Bauvorschriften"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Beachte bitte die Hinweise auf dem Beipackzettel!",
+      "translation": {
+        "ru": "Обрати внимание на указания в инструкции к лекарству, пожалуйста!",
+        "en": "Please observe the instructions in the package leaflet!"
+      },
+      "bracket_parts": [
+        "Beachte"
+      ],
+      "akkusativ_parts": [
+        "die Hinweise"
+      ]
+    }
+  ]
+}

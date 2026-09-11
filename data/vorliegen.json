@@ -1,0 +1,178 @@
+{
+  "id": "vorliegen",
+  "infinitive": "vorliegen",
+  "translation": {
+    "ru": "иметься в наличии, быть представленным",
+    "en": "to exist, be available, be present"
+  },
+  "level": "B1",
+  "frequency_rank": 161,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "vor",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vorliegen",
+    "present_3sg": "liegt vor",
+    "praeteritum_3sg": "lag vor",
+    "partizip_2": "vorgelegen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "liege vor",
+      "du": "liegst vor",
+      "er_sie_es": "liegt vor",
+      "wir": "liegen vor",
+      "ihr": "liegt vor",
+      "sie_Sie": "liegen vor"
+    },
+    "praeteritum": {
+      "ich": "lag vor",
+      "du": "lagst vor",
+      "er_sie_es": "lag vor",
+      "wir": "lagen vor",
+      "ihr": "lagt vor",
+      "sie_Sie": "lagen vor"
+    },
+    "imperative": {
+      "du": "liege vor!",
+      "ihr": "liegt vor!",
+      "Sie": "liegen Sie vor!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Ergebnisse liegen vor",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Mir liegt heute der vollständige Bericht schriftlich vor.",
+      "translation": {
+        "ru": "У меня сегодня есть полный отчет в письменном виде.",
+        "en": "The complete report is available to me in writing today."
+      },
+      "bracket_parts": [
+        "liegt",
+        "vor"
+      ],
+      "dativ_parts": [
+        "Mir"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Liegt dir der unterschriebene Mietvertrag schon vor?",
+      "translation": {
+        "ru": "У тебя уже имеется подписанный договор аренды?",
+        "en": "Do you already have the signed lease contract?"
+      },
+      "bracket_parts": [
+        "Liegt",
+        "vor"
+      ],
+      "dativ_parts": [
+        "dir"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Ein schwerer Fehler liegt in diesem Dokument vor.",
+      "translation": {
+        "ru": "В этом документе имеется грубая ошибка.",
+        "en": "A serious error is present in this document."
+      },
+      "bracket_parts": [
+        "liegt",
+        "vor"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Uns liegen alle notwendigen Genehmigungen offiziell vor.",
+      "translation": {
+        "ru": "У нас имеются все необходимые разрешения официально.",
+        "en": "All necessary permits are officially available to us."
+      },
+      "bracket_parts": [
+        "liegen",
+        "vor"
+      ],
+      "dativ_parts": [
+        "Uns"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Liegt euch die Einladung zur Tagung bereits vor?",
+      "translation": {
+        "ru": "У вас уже имеется приглашение на конференцию?",
+        "en": "Do you guys already have the invitation to the conference?"
+      },
+      "bracket_parts": [
+        "Liegt",
+        "vor"
+      ],
+      "dativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Ihnen lagen damals noch keine verlässlichen Daten vor.",
+      "translation": {
+        "ru": "В то время у них еще не было надежных данных.",
+        "en": "No reliable data was available to them back then."
+      },
+      "bracket_parts": [
+        "lagen",
+        "vor"
+      ],
+      "dativ_parts": [
+        "Ihnen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Laborbericht hat der Ärztin gestern endlich vorgelegen.",
+      "translation": {
+        "ru": "Отчет лаборатории вчера наконец поступил к врачу.",
+        "en": "The lab report was finally available to the doctor yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "vorgelegen"
+      ],
+      "dativ_parts": [
+        "der Ärztin"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Liege als klares Beispiel für alle Kollegen vor!",
+      "translation": {
+        "ru": "Служи наглядным примером для всех коллег!",
+        "en": "Stand before all colleagues as a clear example!"
+      },
+      "bracket_parts": [
+        "Liege",
+        "vor"
+      ]
+    }
+  ]
+}

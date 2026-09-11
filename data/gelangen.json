@@ -1,0 +1,169 @@
+{
+  "id": "gelangen",
+  "infinitive": "gelangen",
+  "translation": {
+    "ru": "добираться, попадать, достигать",
+    "en": "to reach, get to, arrive at"
+  },
+  "level": "B1",
+  "frequency_rank": 370,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ge",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "gelangen",
+    "present_3sg": "gelangt",
+    "praeteritum_3sg": "gelangte",
+    "partizip_2": "gelangt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gelange",
+      "du": "gelangst",
+      "er_sie_es": "gelangt",
+      "wir": "gelangen",
+      "ihr": "gelangt",
+      "sie_Sie": "gelangen"
+    },
+    "praeteritum": {
+      "ich": "gelangte",
+      "du": "gelangtest",
+      "er_sie_es": "gelangte",
+      "wir": "gelangten",
+      "ihr": "gelangtet",
+      "sie_Sie": "gelangten"
+    },
+    "imperative": {
+      "du": "gelange!",
+      "ihr": "gelangt!",
+      "Sie": "gelangen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "an das Ziel gelangen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich gelange über diesen schmalen Pfad direkt zum See.",
+      "translation": {
+        "ru": "По этой узкой тропинке я выхожу прямо к озеру.",
+        "en": "I reach the lake directly via this narrow path."
+      },
+      "bracket_parts": [
+        "gelange"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Gelangst du mit der U-Bahn schneller in die Innenstadt?",
+      "translation": {
+        "ru": "На метро ты быстрее добираешься в центр города?",
+        "en": "Do you get to the city center faster by subway?"
+      },
+      "bracket_parts": [
+        "Gelangst"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Wasser gelangt durch alte Rohre in das Gebäude.",
+      "translation": {
+        "ru": "Вода попадает в здание по старым трубам.",
+        "en": "The water enters the building through old pipes."
+      },
+      "bracket_parts": [
+        "gelangt"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir gelangen nach einer langen Wanderung endlich an die Berghütte.",
+      "translation": {
+        "ru": "После долгого похода мы наконец добираемся до горного домика.",
+        "en": "After a long hike we finally arrive at the mountain hut."
+      },
+      "bracket_parts": [
+        "gelangen"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Gelangt ihr mit dem Auto trotz der Sperrung dorthin?",
+      "translation": {
+        "ru": "Вы доберетесь туда на машине, несмотря на перекрытие дороги?",
+        "en": "Will you guys get there by car despite the roadblock?"
+      },
+      "bracket_parts": [
+        "Gelangt"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die vertraulichen Dokumente gelangten damals heimlich an die Öffentlichkeit.",
+      "translation": {
+        "ru": "Конфиденциальные документы тогда тайно попали к общественности.",
+        "en": "The confidential documents leaked to the public back then."
+      },
+      "bracket_parts": [
+        "gelangten"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Bergsteiger sind sicher an ihr hoch gestecktes Ziel gelangt.",
+      "translation": {
+        "ru": "Альпинисты благополучно достигли своей высокой цели.",
+        "en": "The mountaineers have safely reached their ambitious goal."
+      },
+      "bracket_parts": [
+        "sind",
+        "gelangt"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Gelange bitte ohne Umwege direkt zum Haupteingang!",
+      "translation": {
+        "ru": "Доберись без объездов прямо к главному входу, пожалуйста!",
+        "en": "Please get directly to the main entrance without detours!"
+      },
+      "bracket_parts": [
+        "Gelange"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "verraten",
+  "infinitive": "verraten",
+  "translation": {
+    "ru": "предавать, выдавать (тайну)",
+    "en": "to betray, give away, reveal"
+  },
+  "level": "B1",
+  "frequency_rank": 470,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verraten",
+    "present_3sg": "verrät",
+    "praeteritum_3sg": "verriet",
+    "partizip_2": "verraten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verrate",
+      "du": "verrätst",
+      "er_sie_es": "verrät",
+      "wir": "verraten",
+      "ihr": "verratet",
+      "sie_Sie": "verraten"
+    },
+    "praeteritum": {
+      "ich": "verriet",
+      "du": "verrietest",
+      "er_sie_es": "verriet",
+      "wir": "verrieten",
+      "ihr": "verrietet",
+      "sie_Sie": "verrieten"
+    },
+    "perfekt": {
+      "ich": "habe verraten",
+      "du": "hast verraten",
+      "er_sie_es": "hat verraten",
+      "wir": "haben verraten",
+      "ihr": "habt verraten",
+      "sie_Sie": "haben verraten"
+    }
+  },
+  "rektion": {
+    "case": "dativ_akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich verrate dir das geheime Rezept meiner Großmutter.",
+      "translation": {
+        "ru": "Я выдаю тебе секретный рецепт моей бабушки.",
+        "en": "I reveal my grandmother's secret recipe to you."
+      },
+      "bracket_parts": [
+        "verrate"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "das geheime Rezept"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du verrätst niemandem das geheime Passwort deines Handys.",
+      "translation": {
+        "ru": "Ты никому не выдаешь секретный пароль от своего телефона.",
+        "en": "You betray to no one the secret password of your phone."
+      },
+      "bracket_parts": [
+        "verrätst"
+      ],
+      "dativ_parts": [
+        "niemandem"
+      ],
+      "akkusativ_parts": [
+        "das geheime Passwort"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sein nervöser Blick verrät seine innere Unruhe.",
+      "translation": {
+        "ru": "Его нервный взгляд выдает его внутреннее беспокойство.",
+        "en": "His nervous glance reveals his inner unrest."
+      },
+      "bracket_parts": [
+        "verrät"
+      ],
+      "akkusativ_parts": [
+        "seine innere Unruhe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verraten den Kindern die schöne Überraschung noch nicht.",
+      "translation": {
+        "ru": "Мы пока не выдаем детям приятный сюрприз.",
+        "en": "We do not reveal the nice surprise to the children yet."
+      },
+      "bracket_parts": [
+        "verraten"
+      ],
+      "dativ_parts": [
+        "den Kindern"
+      ],
+      "akkusativ_parts": [
+        "die schöne Überraschung"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr verratet euren besten Freunden alle Reisepläne.",
+      "translation": {
+        "ru": "Вы рассказываете своим лучшим друзьям все планы на поездку.",
+        "en": "You reveal all travel plans to your best friends."
+      },
+      "bracket_parts": [
+        "verratet"
+      ],
+      "dativ_parts": [
+        "euren besten Freunden"
+      ],
+      "akkusativ_parts": [
+        "alle Reisepläne"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie verrieten damals wichtige militärische Geheimnisse an Spione.",
+      "translation": {
+        "ru": "Они тогда выдали шпионам важные военные тайны.",
+        "en": "They revealed important military secrets to spies back then."
+      },
+      "bracket_parts": [
+        "verrieten"
+      ],
+      "akkusativ_parts": [
+        "wichtige militärische Geheimnisse"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Zeuge hat der Polizei den genauen Tathergang verraten.",
+      "translation": {
+        "ru": "Свидетель раскрыл полиции точный ход преступления.",
+        "en": "The witness revealed the exact course of the crime to the police."
+      },
+      "bracket_parts": [
+        "hat",
+        "verraten"
+      ],
+      "dativ_parts": [
+        "der Polizei"
+      ],
+      "akkusativ_parts": [
+        "den genauen Tathergang"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verrate bitte niemandem diese vertrauliche Mitteilung!",
+      "translation": {
+        "ru": "Не раскрывай никому это конфиденциальное сообщение, пожалуйста!",
+        "en": "Please reveal this confidential notice to no one!"
+      },
+      "bracket_parts": [
+        "Verrate"
+      ],
+      "dativ_parts": [
+        "niemandem"
+      ],
+      "akkusativ_parts": [
+        "diese vertrauliche Mitteilung"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

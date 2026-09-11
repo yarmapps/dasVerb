@@ -1,0 +1,178 @@
+{
+  "id": "auffordern",
+  "infinitive": "auffordern",
+  "translation": {
+    "ru": "призывать, приглашать, требовать",
+    "en": "to call upon, ask, prompt"
+  },
+  "level": "B1",
+  "frequency_rank": 495,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "auffordern",
+    "present_3sg": "fordert auf",
+    "praeteritum_3sg": "forderte auf",
+    "partizip_2": "aufgefordert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "fordere auf",
+      "du": "forderst auf",
+      "er_sie_es": "fordert auf",
+      "wir": "fordern auf",
+      "ihr": "fordert auf",
+      "sie_Sie": "fordern auf"
+    },
+    "praeteritum": {
+      "ich": "forderte auf",
+      "du": "fordertest auf",
+      "er_sie_es": "forderte auf",
+      "wir": "forderten auf",
+      "ihr": "fordertet auf",
+      "sie_Sie": "forderten auf"
+    },
+    "perfekt": {
+      "ich": "habe aufgefordert",
+      "du": "hast aufgefordert",
+      "er_sie_es": "hat aufgefordert",
+      "wir": "haben aufgefordert",
+      "ihr": "habt aufgefordert",
+      "sie_Sie": "haben aufgefordert"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich fordere dich zur Mithilfe bei diesem Projekt auf.",
+      "translation": {
+        "ru": "Я призываю тебя помочь в этом проекте.",
+        "en": "I ask you to help out with this project."
+      },
+      "bracket_parts": [
+        "fordere",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du forderst die Gäste zum Tanzen auf dem Fest auf.",
+      "translation": {
+        "ru": "Ты приглашаешь гостей потанцевать на празднике.",
+        "en": "You invite the guests to dance at the celebration."
+      },
+      "bracket_parts": [
+        "forderst",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die Gäste"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Lehrerin fordert die Schüler zur Ruhe im Klassenraum auf.",
+      "translation": {
+        "ru": "Учительница призывает учеников к тишине в классе.",
+        "en": "The teacher calls the students to be quiet in the classroom."
+      },
+      "bracket_parts": [
+        "fordert",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die Schüler"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir fordern die Regierung zu schnellen Maßnahmen auf.",
+      "translation": {
+        "ru": "Мы призываем правительство к быстрым мерам.",
+        "en": "We urge the government to take swift measures."
+      },
+      "bracket_parts": [
+        "fordern",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die Regierung"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr fordert alle Teilnehmer zum pünktlichen Erscheinen auf.",
+      "translation": {
+        "ru": "Вы призываете всех участников явиться вовремя.",
+        "en": "You ask all participants to appear promptly."
+      },
+      "bracket_parts": [
+        "fordert",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "alle Teilnehmer"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie forderten damals die Bürger zur Abstimmung auf.",
+      "translation": {
+        "ru": "Они тогда призвали граждан к голосованию.",
+        "en": "They called upon citizens to vote back then."
+      },
+      "bracket_parts": [
+        "forderten",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die Bürger"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Polizei hat den Fahrer zum Aussteigen aufgefordert.",
+      "translation": {
+        "ru": "Полиция потребовала от водителя выйти из машины.",
+        "en": "The police instructed the driver to get out of the vehicle."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgefordert"
+      ],
+      "akkusativ_parts": [
+        "den Fahrer"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Fordere ihn freundlich zur Rückgabe des Buches auf!",
+      "translation": {
+        "ru": "Вежливо попроси его вернуть книгу!",
+        "en": "Kindly ask him to return the book!"
+      },
+      "bracket_parts": [
+        "Fordere",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "ihn"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

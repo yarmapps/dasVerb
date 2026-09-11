@@ -1,0 +1,168 @@
+{
+  "id": "unterrichten",
+  "infinitive": "unterrichten",
+  "translation": {
+    "ru": "преподавать, обучать, осведомлять",
+    "en": "to teach, instruct, inform"
+  },
+  "level": "B1",
+  "frequency_rank": 433,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "unter",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "unterrichten",
+    "present_3sg": "unterrichtet",
+    "praeteritum_3sg": "unterrichtete",
+    "partizip_2": "unterrichtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "unterrichte",
+      "du": "unterrichtest",
+      "er_sie_es": "unterrichtet",
+      "wir": "unterrichten",
+      "ihr": "unterrichtet",
+      "sie_Sie": "unterrichten"
+    },
+    "praeteritum": {
+      "ich": "unterrichtete",
+      "du": "unterrichtetest",
+      "er_sie_es": "unterrichtete",
+      "wir": "unterrichteten",
+      "ihr": "unterrichtetet",
+      "sie_Sie": "unterrichteten"
+    },
+    "perfekt": {
+      "ich": "habe unterrichtet",
+      "du": "hast unterrichtet",
+      "er_sie_es": "hat unterrichtet",
+      "wir": "haben unterrichtet",
+      "ihr": "habt unterrichtet",
+      "sie_Sie": "haben unterrichtet"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich unterrichte seit vielen Jahren Deutsch an einer Sprachschule.",
+      "translation": {
+        "ru": "Я преподаю немецкий в языковой школе уже много лет.",
+        "en": "I have been teaching German at a language school for many years."
+      },
+      "bracket_parts": [
+        "unterrichte"
+      ],
+      "akkusativ_parts": [
+        "Deutsch"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du unterrichtest die Kinder mit sehr viel Geduld.",
+      "translation": {
+        "ru": "Ты учишь детей с очень большим терпением.",
+        "en": "You teach the children with a lot of patience."
+      },
+      "bracket_parts": [
+        "unterrichtest"
+      ],
+      "akkusativ_parts": [
+        "die Kinder"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Professor unterrichtet moderne Geschichte an der Universität.",
+      "translation": {
+        "ru": "Профессор преподает новейшую историю в университете.",
+        "en": "The professor teaches modern history at the university."
+      },
+      "bracket_parts": [
+        "unterrichtet"
+      ],
+      "akkusativ_parts": [
+        "moderne Geschichte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir unterrichten die neue Gruppe jeden Dienstag.",
+      "translation": {
+        "ru": "Мы ведем уроки у новой группы каждый вторник.",
+        "en": "We teach the new group every Tuesday."
+      },
+      "bracket_parts": [
+        "unterrichten"
+      ],
+      "akkusativ_parts": [
+        "die neue Gruppe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr unterrichtet Mathematik an einem großen Gymnasium.",
+      "translation": {
+        "ru": "Вы преподаете математику в большой гимназии.",
+        "en": "You teach mathematics at a large secondary school."
+      },
+      "bracket_parts": [
+        "unterrichtet"
+      ],
+      "akkusativ_parts": [
+        "Mathematik"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie unterrichteten damals an einer kleinen Landschule.",
+      "translation": {
+        "ru": "Они преподавали тогда в маленькой сельской школе.",
+        "en": "They taught at a small country school back then."
+      },
+      "bracket_parts": [
+        "unterrichteten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Meine Tante hat viele Generationen von Schülern unterrichtet.",
+      "translation": {
+        "ru": "Моя тетя обучила множество поколений учеников.",
+        "en": "My aunt taught many generations of pupils."
+      },
+      "bracket_parts": [
+        "hat",
+        "unterrichtet"
+      ],
+      "akkusativ_parts": [
+        "viele Generationen von Schülern"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Unterrichte die Klasse nach dem neuen Lehrplan!",
+      "translation": {
+        "ru": "Веди класс по новому учебному плану!",
+        "en": "Teach the class according to the new curriculum!"
+      },
+      "bracket_parts": [
+        "Unterrichte"
+      ],
+      "akkusativ_parts": [
+        "die Klasse"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

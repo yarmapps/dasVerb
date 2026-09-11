@@ -1,0 +1,171 @@
+{
+  "id": "stuetzen",
+  "infinitive": "stützen",
+  "translation": {
+    "ru": "поддерживать, подпирать",
+    "en": "to support, prop up"
+  },
+  "level": "B1",
+  "frequency_rank": 500,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "stützen",
+    "present_3sg": "stützt",
+    "praeteritum_3sg": "stützte",
+    "partizip_2": "gestützt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stütze",
+      "du": "stützt",
+      "er_sie_es": "stützt",
+      "wir": "stützen",
+      "ihr": "stützt",
+      "sie_Sie": "stützen"
+    },
+    "praeteritum": {
+      "ich": "stützte",
+      "du": "stütztest",
+      "er_sie_es": "stützte",
+      "wir": "stützten",
+      "ihr": "stütztet",
+      "sie_Sie": "stützten"
+    },
+    "perfekt": {
+      "ich": "habe gestützt",
+      "du": "hast gestützt",
+      "er_sie_es": "hat gestützt",
+      "wir": "haben gestützt",
+      "ihr": "habt gestützt",
+      "sie_Sie": "haben gestützt"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich stütze die schwere Last mit beiden Händen.",
+      "translation": {
+        "ru": "Я поддерживаю тяжелый груз обеими руками.",
+        "en": "I support the heavy load with both hands."
+      },
+      "bracket_parts": [
+        "stütze"
+      ],
+      "akkusativ_parts": [
+        "die schwere Last"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du stützt den verletzten Freund auf dem Heimweg.",
+      "translation": {
+        "ru": "Ты поддерживаешь травмированного друга по дороге домой.",
+        "en": "You support the injured friend on the way home."
+      },
+      "bracket_parts": [
+        "stützt"
+      ],
+      "akkusativ_parts": [
+        "den verletzten Freund"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein kräftiger Pfeiler stützt die alte Decke der Kirche.",
+      "translation": {
+        "ru": "Мощная колонна подпирает старый свод церкви.",
+        "en": "A sturdy pillar supports the old ceiling of the church."
+      },
+      "bracket_parts": [
+        "stützt"
+      ],
+      "akkusativ_parts": [
+        "die alte Decke der Kirche"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir stützen schwache Schüler durch gezielten Nachhilfeunterricht.",
+      "translation": {
+        "ru": "Мы поддерживаем слабых учеников целенаправленными дополнительными занятиями.",
+        "en": "We support struggling students through targeted tutoring."
+      },
+      "bracket_parts": [
+        "stützen"
+      ],
+      "akkusativ_parts": [
+        "schwache Schüler"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr stützt eure Thesen mit überzeugenden wissenschaftlichen Belegen.",
+      "translation": {
+        "ru": "Вы подкрепляете свои тезисы убедительными научными доказательствами.",
+        "en": "You support your theses with convincing scientific evidence."
+      },
+      "bracket_parts": [
+        "stützt"
+      ],
+      "akkusativ_parts": [
+        "eure Thesen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie stützten damals die wackelige Mauer mit Holzbalken ab.",
+      "translation": {
+        "ru": "Они тогда подперли шаткую стену деревянными балками.",
+        "en": "They propped up the shaky wall with wooden beams back then."
+      },
+      "bracket_parts": [
+        "stützten"
+      ],
+      "akkusativ_parts": [
+        "die wackelige Mauer"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Staat hat die kriselnde Wirtschaft mit Milliardenhilfen gestützt.",
+      "translation": {
+        "ru": "Государство поддержало кризисную экономику миллиардной помощью.",
+        "en": "The state supported the struggling economy with billions in aid."
+      },
+      "bracket_parts": [
+        "hat",
+        "gestützt"
+      ],
+      "akkusativ_parts": [
+        "die kriselnde Wirtschaft"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Stütze die junge Pflanze mit einem Holzstab!",
+      "translation": {
+        "ru": "Подвяжи молодое растение к деревянному колышку!",
+        "en": "Support the young plant with a wooden stake!"
+      },
+      "bracket_parts": [
+        "Stütze"
+      ],
+      "akkusativ_parts": [
+        "die junge Pflanze"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

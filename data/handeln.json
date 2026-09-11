@@ -1,0 +1,153 @@
+{
+  "id": "handeln",
+  "infinitive": "handeln",
+  "translation": {
+    "ru": "действовать, поступать; торговать",
+    "en": "to act; to trade, bargain"
+  },
+  "level": "B1",
+  "frequency_rank": 67,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "handeln",
+    "present_3sg": "handelt",
+    "praeteritum_3sg": "handelte",
+    "partizip_2": "gehandelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "handle",
+      "du": "handelst",
+      "er_sie_es": "handelt",
+      "wir": "handeln",
+      "ihr": "handelt",
+      "sie_Sie": "handeln"
+    },
+    "praeteritum": {
+      "ich": "handelte",
+      "du": "handeltest",
+      "er_sie_es": "handelte",
+      "wir": "handelten",
+      "ihr": "handeltet",
+      "sie_Sie": "handelten"
+    },
+    "imperative": {
+      "du": "handle!",
+      "ihr": "handelt!",
+      "Sie": "handeln Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "schnell und klug handeln",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich handle stets nach bestem Wissen und Gewissen.",
+      "translation": {
+        "ru": "Я всегда действую по совести и лучшим убеждениям.",
+        "en": "I always act to the best of my knowledge and conscience."
+      },
+      "bracket_parts": [
+        "handle"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Handelst du in dieser Krise überlegt?",
+      "translation": {
+        "ru": "Ты действуешь обдуманно в этот кризис?",
+        "en": "Do you act thoughtfully in this crisis?"
+      },
+      "bracket_parts": [
+        "Handelst"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Kaufmann handelt an der internationalen Börse.",
+      "translation": {
+        "ru": "Купец торгует на международной бирже.",
+        "en": "The merchant trades on the international stock exchange."
+      },
+      "bracket_parts": [
+        "handelt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir handeln sofort, um Schäden zu vermeiden.",
+      "translation": {
+        "ru": "Мы действуем незамедлительно, чтобы избежать ущерба.",
+        "en": "We act immediately to avoid damage."
+      },
+      "bracket_parts": [
+        "handeln"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Handelt ihr immer nach den geltenden Regeln?",
+      "translation": {
+        "ru": "Вы всегда действуете по действующим правилам?",
+        "en": "Do you always act according to the applicable rules?"
+      },
+      "bracket_parts": [
+        "Handelt"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie handelten mutig und retteten die Katze.",
+      "translation": {
+        "ru": "Они действовали смело и спасли кошку.",
+        "en": "They acted bravely and saved the cat."
+      },
+      "bracket_parts": [
+        "handelten"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Regierung hat in der Notsituation rasch gehandelt.",
+      "translation": {
+        "ru": "Правительство оперативно отреагировало в чрезвычайной ситуации.",
+        "en": "The government acted quickly in the emergency situation."
+      },
+      "bracket_parts": [
+        "hat",
+        "gehandelt"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Handle jetzt nicht unüberlegt!",
+      "translation": {
+        "ru": "Не действуй сейчас опрометчиво!",
+        "en": "Don't act rashly right now!"
+      },
+      "bracket_parts": [
+        "Handle"
+      ]
+    }
+  ]
+}

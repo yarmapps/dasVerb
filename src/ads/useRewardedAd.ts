@@ -1,8 +1,9 @@
 import { useEffect, useCallback, useState } from 'react';
 import { RewardedAd, RewardedAdEventType, AdEventType } from 'react-native-google-mobile-ads';
-import { ENABLE_ADS, REWARDED_AD_UNIT_ID } from './adConfig';
+import { REWARDED_AD_UNIT_ID } from './adConfig';
 import { trackEvent } from '../services/analyticsService';
 import { getAdGrantsToday } from '../services/usageService';
+import { isFeatureEnabled } from '../services/featuresService';
 
 const AD_LOAD_TIMEOUT_MS = 8000;
 
@@ -13,7 +14,7 @@ let isLoadingInProgress = false;
 const loadListeners = new Set<(loaded: boolean) => void>();
 
 function initSingletonRewardedAd() {
-  if (!ENABLE_ADS || singletonRewardedAd) return;
+  if (!isFeatureEnabled('ENABLE_ADS') || singletonRewardedAd) return;
 
   try {
     const ad = RewardedAd.createForAdRequest(REWARDED_AD_UNIT_ID);
@@ -53,7 +54,14 @@ function initSingletonRewardedAd() {
 }
 
 function preloadRewardedAd() {
-  if (!ENABLE_ADS || !singletonRewardedAd || isSingletonLoaded || isLoadingInProgress) return;
+  if (
+    !isFeatureEnabled('ENABLE_ADS') ||
+    !singletonRewardedAd ||
+    isSingletonLoaded ||
+    isLoadingInProgress
+  ) {
+    return;
+  }
   try {
     isLoadingInProgress = true;
     // eslint-disable-next-line no-console
@@ -94,7 +102,7 @@ export function useRewardedAd(): UseRewardedAdResult {
   }, []);
 
   const showRewardedAd = useCallback((): Promise<boolean> => {
-    if (!ENABLE_ADS) {
+    if (!isFeatureEnabled('ENABLE_ADS')) {
       return Promise.resolve(true);
     }
 

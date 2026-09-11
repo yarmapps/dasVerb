@@ -1,0 +1,171 @@
+{
+  "id": "belasten",
+  "infinitive": "belasten",
+  "translation": {
+    "ru": "нагружать, обременять, отягощать",
+    "en": "to burden, weigh upon, strain"
+  },
+  "level": "B1",
+  "frequency_rank": 435,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "belasten",
+    "present_3sg": "belastet",
+    "praeteritum_3sg": "belastete",
+    "partizip_2": "belastet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "belaste",
+      "du": "belastest",
+      "er_sie_es": "belastet",
+      "wir": "belasten",
+      "ihr": "belastet",
+      "sie_Sie": "belasten"
+    },
+    "praeteritum": {
+      "ich": "belastete",
+      "du": "belastetest",
+      "er_sie_es": "belastete",
+      "wir": "belasteten",
+      "ihr": "belastetet",
+      "sie_Sie": "belasteten"
+    },
+    "perfekt": {
+      "ich": "habe belastet",
+      "du": "hast belastet",
+      "er_sie_es": "hat belastet",
+      "wir": "haben belastet",
+      "ihr": "habt belastet",
+      "sie_Sie": "haben belastet"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich belaste mein Konto diesen Monat nicht übermäßig.",
+      "translation": {
+        "ru": "Я не слишком сильно нагружаю свой счет в этом месяце.",
+        "en": "I do not burden my account excessively this month."
+      },
+      "bracket_parts": [
+        "belaste"
+      ],
+      "akkusativ_parts": [
+        "mein Konto"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du belastest deinen Rücken durch das schwere Tragen.",
+      "translation": {
+        "ru": "Ты перегружаешь спину ношением тяжестей.",
+        "en": "You strain your back by carrying heavy things."
+      },
+      "bracket_parts": [
+        "belastest"
+      ],
+      "akkusativ_parts": [
+        "deinen Rücken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der ständige Arbeitsstress belastet seine Gesundheit spürbar.",
+      "translation": {
+        "ru": "Постоянный рабочий стресс ощутимо отягощает его здоровье.",
+        "en": "Constant work stress noticeably strains his health."
+      },
+      "bracket_parts": [
+        "belastet"
+      ],
+      "akkusativ_parts": [
+        "seine Gesundheit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir belasten die Umwelt durch zu viel Plastikmüll.",
+      "translation": {
+        "ru": "Мы отягощаем окружающую среду слишком большим количеством пластика.",
+        "en": "We burden the environment with too much plastic waste."
+      },
+      "bracket_parts": [
+        "belasten"
+      ],
+      "akkusativ_parts": [
+        "die Umwelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr belastet eure Eltern mit endlosen Forderungen.",
+      "translation": {
+        "ru": "Вы обременяете своих родителей бесконечными требованиями.",
+        "en": "You burden your parents with endless demands."
+      },
+      "bracket_parts": [
+        "belastet"
+      ],
+      "akkusativ_parts": [
+        "eure Eltern"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie belasteten damals die Zeugen mit unangenehmen Fragen.",
+      "translation": {
+        "ru": "Они тогда давили на свидетелей неприятными вопросами.",
+        "en": "They burdened the witnesses with unpleasant questions back then."
+      },
+      "bracket_parts": [
+        "belasteten"
+      ],
+      "akkusativ_parts": [
+        "die Zeugen"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die schweren Vorwürfe haben den Angeklagten psychisch belastet.",
+      "translation": {
+        "ru": "Тяжелые обвинения психологически давили на подсудимого.",
+        "en": "The serious accusations burdened the defendant psychologically."
+      },
+      "bracket_parts": [
+        "haben",
+        "belastet"
+      ],
+      "akkusativ_parts": [
+        "den Angeklagten"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Belaste deinen Körper nicht mit zu harter Arbeit!",
+      "translation": {
+        "ru": "Не перегружай свое тело слишком тяжелой работой!",
+        "en": "Do not strain your body with work that is too hard!"
+      },
+      "bracket_parts": [
+        "Belaste"
+      ],
+      "akkusativ_parts": [
+        "deinen Körper"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "id": "erlaeutern",
+  "infinitive": "erläutern",
+  "translation": {
+    "ru": "разъяснять, пояснять",
+    "en": "to explain, elucidate"
+  },
+  "level": "B1",
+  "frequency_rank": 466,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erläutern",
+    "present_3sg": "erläutert",
+    "praeteritum_3sg": "erläuterte",
+    "partizip_2": "erläutert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erläutere",
+      "du": "erläuterst",
+      "er_sie_es": "erläutert",
+      "wir": "erläutern",
+      "ihr": "erläutert",
+      "sie_Sie": "erläutern"
+    },
+    "praeteritum": {
+      "ich": "erläuterte",
+      "du": "erläutertest",
+      "er_sie_es": "erläuterte",
+      "wir": "erläuterten",
+      "ihr": "erläutertet",
+      "sie_Sie": "erläuterten"
+    },
+    "perfekt": {
+      "ich": "habe erläutert",
+      "du": "hast erläutert",
+      "er_sie_es": "hat erläutert",
+      "wir": "haben erläutert",
+      "ihr": "habt erläutert",
+      "sie_Sie": "haben erläutert"
+    }
+  },
+  "rektion": {
+    "case": "dativ_akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich erläutere dem Kunden den neuen Vertrag im Detail.",
+      "translation": {
+        "ru": "Я подробно разъясняю клиенту новый договор.",
+        "en": "I explain the new contract in detail to the customer."
+      },
+      "bracket_parts": [
+        "erläutere"
+      ],
+      "dativ_parts": [
+        "dem Kunden"
+      ],
+      "akkusativ_parts": [
+        "den neuen Vertrag"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du erläuterst deine Vorgehensweise sehr verständlich.",
+      "translation": {
+        "ru": "Ты очень понятно разъясняешь свой подход.",
+        "en": "You explain your approach very clearly."
+      },
+      "bracket_parts": [
+        "erläuterst"
+      ],
+      "akkusativ_parts": [
+        "deine Vorgehensweise"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Professor erläutert die komplexe mathematische Formel.",
+      "translation": {
+        "ru": "Профессор объясняет сложную математическую формулу.",
+        "en": "The professor explains the complex mathematical formula."
+      },
+      "bracket_parts": [
+        "erläutert"
+      ],
+      "akkusativ_parts": [
+        "die komplexe mathematische Formel"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erläutern den Teilnehmern die Seminarregeln.",
+      "translation": {
+        "ru": "Мы разъясняем участникам правила семинара.",
+        "en": "We explain the seminar rules to the participants."
+      },
+      "bracket_parts": [
+        "erläutern"
+      ],
+      "dativ_parts": [
+        "den Teilnehmern"
+      ],
+      "akkusativ_parts": [
+        "die Seminarregeln"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr erläutert eure Argumente in der Präsentation überzeugend.",
+      "translation": {
+        "ru": "Вы убедительно поясняете свои аргументы в презентации.",
+        "en": "You explain your arguments convincingly in the presentation."
+      },
+      "bracket_parts": [
+        "erläutert"
+      ],
+      "akkusativ_parts": [
+        "eure Argumente"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie erläuterten damals den historischen Hintergrund des Gesetzes.",
+      "translation": {
+        "ru": "Они тогда разъяснили историческую подоплеку закона.",
+        "en": "They explained the historical background of the law back then."
+      },
+      "bracket_parts": [
+        "erläuterten"
+      ],
+      "akkusativ_parts": [
+        "den historischen Hintergrund des Gesetzes"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Ärztin hat der Patientin die Diagnose ausführlich erläutert.",
+      "translation": {
+        "ru": "Врач подробно разъяснила пациентке диагноз.",
+        "en": "The doctor explained the diagnosis in detail to the patient."
+      },
+      "bracket_parts": [
+        "hat",
+        "erläutert"
+      ],
+      "dativ_parts": [
+        "der Patientin"
+      ],
+      "akkusativ_parts": [
+        "die Diagnose"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erläutere deinen Standpunkt bitte in klaren Worten!",
+      "translation": {
+        "ru": "Разъясни свою позицию понятными словами, пожалуйста!",
+        "en": "Please explain your point of view in clear words!"
+      },
+      "bracket_parts": [
+        "Erläutere"
+      ],
+      "akkusativ_parts": [
+        "deinen Standpunkt"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

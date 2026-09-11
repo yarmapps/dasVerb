@@ -1,0 +1,154 @@
+{
+  "id": "erfolgen",
+  "infinitive": "erfolgen",
+  "translation": {
+    "ru": "происходить, осуществляться",
+    "en": "to take place, to occur, to follow"
+  },
+  "level": "B1",
+  "frequency_rank": 132,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erfolgen",
+    "present_3sg": "erfolgt",
+    "praeteritum_3sg": "erfolgte",
+    "partizip_2": "erfolgt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erfolge",
+      "du": "erfolgst",
+      "er_sie_es": "erfolgt",
+      "wir": "erfolgen",
+      "ihr": "erfolgt",
+      "sie_Sie": "erfolgen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "erfolgte",
+      "du": "erfolgtest",
+      "er_sie_es": "erfolgte",
+      "wir": "erfolgten",
+      "ihr": "erfolgtet",
+      "sie_Sie": "erfolgten"
+    },
+    "imperative": {
+      "du": "erfolge",
+      "ihr": "erfolgt",
+      "Sie": "erfolgen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "fristgerecht erfolgen",
+  "sentences": [
+    {
+      "id": "erfolgen_1",
+      "tense": "Präsens",
+      "german": "Die Bezahlung erfolgt ganz einfach per Kreditkarte.",
+      "translation": {
+        "ru": "Оплата осуществляется очень просто с помощью кредитной карты.",
+        "en": "Payment is made very simply by credit card."
+      },
+      "bracket_parts": [
+        "erfolgt"
+      ]
+    },
+    {
+      "id": "erfolgen_2",
+      "tense": "Präsens",
+      "german": "Erfolgt deine Anmeldung zu der Prüfung noch rechtzeitig?",
+      "translation": {
+        "ru": "Твоя регистрация на экзамен пройдет вовремя?",
+        "en": "Will your registration for the exam take place in time?"
+      },
+      "bracket_parts": [
+        "Erfolgt"
+      ]
+    },
+    {
+      "id": "erfolgen_3",
+      "tense": "Präsens",
+      "german": "Die Lieferung der bestellten Ware erfolgt innerhalb weniger Tage.",
+      "translation": {
+        "ru": "Доставка заказанного товара осуществляется в течение нескольких дней.",
+        "en": "Delivery of the ordered goods takes place within a few days."
+      },
+      "bracket_parts": [
+        "erfolgt"
+      ]
+    },
+    {
+      "id": "erfolgen_4",
+      "tense": "Präsens",
+      "german": "Wir warten darauf, dass alle Mitteilungen schriftlich erfolgen.",
+      "translation": {
+        "ru": "Мы ждем, чтобы все сообщения поступали (осуществлялись) в письменном виде.",
+        "en": "We wait for all notifications to be made in writing."
+      },
+      "bracket_parts": [
+        "erfolgen"
+      ]
+    },
+    {
+      "id": "erfolgen_5",
+      "tense": "Präsens",
+      "german": "Erfolgt die Bestätigung eurer Buchung per E-Mail?",
+      "translation": {
+        "ru": "Подтверждение вашего бронирования приходит по электронной почте?",
+        "en": "Does confirmation of your booking take place via email?"
+      },
+      "bracket_parts": [
+        "Erfolgt"
+      ]
+    },
+    {
+      "id": "erfolgen_6",
+      "tense": "Präteritum",
+      "german": "Die Abreise der Delegation erfolgte am frühen Morgen.",
+      "translation": {
+        "ru": "Отъезд делегации состоялся ранним утром.",
+        "en": "The departure of the delegation took place early in the morning."
+      },
+      "bracket_parts": [
+        "erfolgte"
+      ]
+    },
+    {
+      "id": "erfolgen_7",
+      "tense": "Perfekt",
+      "german": "Die Auszahlung des Betrags ist gestern fehlerfrei erfolgt.",
+      "translation": {
+        "ru": "Выплата суммы прошла вчера безошибочно.",
+        "en": "The payout of the amount took place without error yesterday."
+      },
+      "bracket_parts": [
+        "ist",
+        "erfolgt"
+      ]
+    },
+    {
+      "id": "erfolgen_8",
+      "tense": "Imperativ",
+      "german": "Erfolge stets nach den strengen gesetzlichen Vorschriften!",
+      "translation": {
+        "ru": "Осуществляйся всегда согласно строгим предписаниям закона!",
+        "en": "Always take place according to strict legal regulations!"
+      },
+      "bracket_parts": [
+        "Erfolge"
+      ]
+    }
+  ]
+}

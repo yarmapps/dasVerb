@@ -1,0 +1,190 @@
+{
+  "id": "abfahren",
+  "infinitive": "abfahren",
+  "translation": {
+    "ru": "отправляться, отъезжать (о транспорте)",
+    "en": "to depart, to set off"
+  },
+  "level": "A1",
+  "frequency_rank": 180,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ab",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "abfahren",
+    "present_3sg": "fährt ab",
+    "praeteritum_3sg": "fuhr ab",
+    "partizip_2": "abgefahren"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "fahre ab",
+      "du": "fährst ab",
+      "er_sie_es": "fährt ab",
+      "wir": "fahren ab",
+      "ihr": "fahrt ab",
+      "sie_Sie": "fahren ab",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "fuhr ab",
+      "du": "fuhrst ab",
+      "er_sie_es": "fuhr ab",
+      "wir": "fuhren ab",
+      "ihr": "fuhrt ab",
+      "sie_Sie": "fuhren ab"
+    },
+    "imperative": {
+      "du": "fahr ab!",
+      "ihr": "fahrt ab!",
+      "Sie": "fahren Sie ab!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "von",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "pünktlich vom Bahnsteig (Dat) abfahren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich fahre morgens um Punkt sieben Uhr mit dem Regionalzug zur Arbeit ab.",
+      "translation": {
+        "ru": "Утром ровно в семь часов я отправляюсь на региональном поезде на работу.",
+        "en": "In the morning at seven o'clock sharp I depart for work by regional train."
+      },
+      "bracket_parts": [
+        "fahre",
+        "ab"
+      ],
+      "dativ_parts": [
+        "mit dem Regionalzug",
+        "zur Arbeit"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Fährst du mit deinem vollgepackten Auto schon in aller Frühe in den Urlaub ab?",
+      "translation": {
+        "ru": "Отправляешься ли ты на своей забитой вещами машине ни свет ни заря в отпуск?",
+        "en": "Are you setting off on holiday in your fully packed car early in the morning?"
+      },
+      "bracket_parts": [
+        "Fährst",
+        "ab"
+      ],
+      "dativ_parts": [
+        "mit deinem vollgepackten Auto"
+      ],
+      "akkusativ_parts": [
+        "in den Urlaub"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der moderne Fernbus nach Wien fährt pünktlich vom zentralen Busbahnhof ab.",
+      "translation": {
+        "ru": "Современный междугородний автобус в Вену отправляется вовремя с центрального автовокзала.",
+        "en": "The modern long-distance bus to Vienna departs on time from the central bus station."
+      },
+      "bracket_parts": [
+        "fährt",
+        "ab"
+      ],
+      "dativ_parts": [
+        "vom zentralen Busbahnhof"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir fahren nach einer kurzen Rast an der Autobahn gemeinsam wieder ab.",
+      "translation": {
+        "ru": "После короткого отдыха на автобане мы вместе снова трогаемся в путь.",
+        "en": "After a short break on the motorway, we set off again together."
+      },
+      "bracket_parts": [
+        "fahren",
+        "ab"
+      ],
+      "dativ_parts": [
+        "an der Autobahn"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Fahrt ihr mit euren Fahrrädern direkt nach dem gemeinsamen Frühstück im Hotel ab?",
+      "translation": {
+        "ru": "Вы отправляетесь на своих велосипедах прямо после совместного завтрака в отеле?",
+        "en": "Are you setting off on your bicycles straight after having breakfast together at the hotel?"
+      },
+      "bracket_parts": [
+        "Fahrt",
+        "ab"
+      ],
+      "dativ_parts": [
+        "mit euren Fahrrädern",
+        "nach dem gemeinsamen Frühstück"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Gestern fuhr der vollbesetzte Sonderzug mit den Fußballfans ohne jede Verzögerung ab.",
+      "translation": {
+        "ru": "Вчера переполненный спецпоезд с футбольными болельщиками отправился без всякой задержки.",
+        "en": "Yesterday the crowded special train with the football fans departed without any delay."
+      },
+      "bracket_parts": [
+        "fuhr",
+        "ab"
+      ],
+      "dativ_parts": [
+        "mit den Fußballfans"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das große Kreuzfahrtschiff ist gestern Abend feierlich aus dem Hamburger Hafen abgefahren.",
+      "translation": {
+        "ru": "Большой круизный лайнер вчера вечером торжественно отплыл из порта Гамбурга.",
+        "en": "The large cruise ship departed ceremoniously from the port of Hamburg yesterday evening."
+      },
+      "bracket_parts": [
+        "ist",
+        "abgefahren"
+      ],
+      "dativ_parts": [
+        "aus dem Hamburger Hafen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Fahren Sie bitte vorsichtig und vorausschauend vom Parkplatz ab!",
+      "translation": {
+        "ru": "Выезжайте, пожалуйста, осторожно и осмотрительно с парковки!",
+        "en": "Please depart carefully and with foresight from the car park!"
+      },
+      "bracket_parts": [
+        "Fahren",
+        "ab"
+      ],
+      "dativ_parts": [
+        "vom Parkplatz"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "erinnern_akk",
+  "infinitive": "erinnern",
+  "translation": {
+    "ru": "напоминать кому-то",
+    "en": "to remind"
+  },
+  "level": "A2",
+  "frequency_rank": 92,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erinnern",
+    "present_3sg": "erinnert",
+    "praeteritum_3sg": "erinnerte",
+    "partizip_2": "erinnert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erinnere",
+      "du": "erinnerst",
+      "er_sie_es": "erinnert",
+      "wir": "erinnern",
+      "ihr": "erinnert",
+      "sie_Sie": "erinnern",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "erinnerte",
+      "du": "erinnertest",
+      "er_sie_es": "erinnerte",
+      "wir": "erinnerten",
+      "ihr": "erinnertet",
+      "sie_Sie": "erinnerten"
+    },
+    "imperative": {
+      "du": "erinnere",
+      "ihr": "erinnert",
+      "Sie": "erinnern Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemanden (Akk) an einen Termin erinnern",
+  "sentences": [
+    {
+      "id": "erinnern_akk_1",
+      "tense": "Präsens",
+      "german": "Ich erinnere meinen Kollegen rechtzeitig an das Meeting.",
+      "translation": {
+        "ru": "Я вовремя напоминаю коллеге о собрании.",
+        "en": "I remind my colleague about the meeting in time."
+      },
+      "bracket_parts": [
+        "erinnere"
+      ],
+      "akkusativ_parts": [
+        "meinen Kollegen"
+      ]
+    },
+    {
+      "id": "erinnern_akk_2",
+      "tense": "Präsens",
+      "german": "Erinnerst du mich morgen früh an den Zahnarzttermin?",
+      "translation": {
+        "ru": "Напомнишь мне завтра утром о визите к зубному?",
+        "en": "Will you remind me about the dentist appointment tomorrow morning?"
+      },
+      "bracket_parts": [
+        "Erinnerst"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
+    },
+    {
+      "id": "erinnern_akk_3",
+      "tense": "Präsens",
+      "german": "Dieses Lied erinnert ihn an seine Jugendzeit.",
+      "translation": {
+        "ru": "Эта песня напоминает ему о его юности.",
+        "en": "This song reminds him of his youth."
+      },
+      "bracket_parts": [
+        "erinnert"
+      ],
+      "akkusativ_parts": [
+        "ihn"
+      ]
+    },
+    {
+      "id": "erinnern_akk_4",
+      "tense": "Präsens",
+      "german": "Wir erinnern unsere Freunde an das gemeinsame Fest.",
+      "translation": {
+        "ru": "Мы напоминаем нашим друзьям об общем празднике.",
+        "en": "We remind our friends about the joint party."
+      },
+      "bracket_parts": [
+        "erinnern"
+      ],
+      "akkusativ_parts": [
+        "unsere Freunde"
+      ]
+    },
+    {
+      "id": "erinnern_akk_5",
+      "tense": "Präsens",
+      "german": "Erinnert ihr die Kinder an ihre Hausaufgaben?",
+      "translation": {
+        "ru": "Вы напоминаете детям об их домашних заданиях?",
+        "en": "Do you remind the children about their homework?"
+      },
+      "bracket_parts": [
+        "Erinnert"
+      ],
+      "akkusativ_parts": [
+        "die Kinder"
+      ]
+    },
+    {
+      "id": "erinnern_akk_6",
+      "tense": "Präteritum",
+      "german": "Sie erinnerten den Gast an die vereinbarte Uhrzeit.",
+      "translation": {
+        "ru": "Они напомнили гостю о согласованном времени.",
+        "en": "They reminded the guest about the agreed time."
+      },
+      "bracket_parts": [
+        "erinnerten"
+      ],
+      "akkusativ_parts": [
+        "den Gast"
+      ]
+    },
+    {
+      "id": "erinnern_akk_7",
+      "tense": "Perfekt",
+      "german": "Ich habe meinen Vater an seinen Geburtstagswunsch erinnert.",
+      "translation": {
+        "ru": "Я напомнил отцу о его желании на день рождения.",
+        "en": "I reminded my father about his birthday wish."
+      },
+      "bracket_parts": [
+        "habe",
+        "erinnert"
+      ],
+      "akkusativ_parts": [
+        "meinen Vater"
+      ]
+    },
+    {
+      "id": "erinnern_akk_8",
+      "tense": "Imperativ",
+      "german": "Erinnere mich bitte vor der Abfahrt!",
+      "translation": {
+        "ru": "Напомни мне, пожалуйста, перед отъездом!",
+        "en": "Please remind me before departure!"
+      },
+      "bracket_parts": [
+        "Erinnere"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
+    }
+  ]
+}

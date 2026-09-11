@@ -1,0 +1,177 @@
+{
+  "id": "sorgen_akk_fuer",
+  "infinitive": "sorgen",
+  "translation": {
+    "ru": "заботиться (о ком-то/чём-то), обеспечивать",
+    "en": "to care (for), look after, provide"
+  },
+  "level": "B1",
+  "frequency_rank": 174,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "sorgen",
+    "present_3sg": "sorgt",
+    "praeteritum_3sg": "sorgte",
+    "partizip_2": "gesorgt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "sorge",
+      "du": "sorgst",
+      "er_sie_es": "sorgt",
+      "wir": "sorgen",
+      "ihr": "sorgt",
+      "sie_Sie": "sorgen"
+    },
+    "praeteritum": {
+      "ich": "sorgte",
+      "du": "sorgtest",
+      "er_sie_es": "sorgte",
+      "wir": "sorgten",
+      "ihr": "sorgtet",
+      "sie_Sie": "sorgten"
+    },
+    "imperative": {
+      "du": "sorge!",
+      "ihr": "sorgt!",
+      "Sie": "sorgen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "für",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "für die Familie sorgen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich sorge für die Getränke auf unserer Party.",
+      "translation": {
+        "ru": "Я беру на себя напитки для нашей вечеринки.",
+        "en": "I provide the drinks for our party."
+      },
+      "bracket_parts": [
+        "sorge"
+      ],
+      "akkusativ_parts": [
+        "die Getränke"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Sorgst du für die frischen Blumen auf dem Tisch?",
+      "translation": {
+        "ru": "Ты позаботишься о свежих цветах на столе?",
+        "en": "Will you take care of the fresh flowers on the table?"
+      },
+      "bracket_parts": [
+        "Sorgst"
+      ],
+      "akkusativ_parts": [
+        "die frischen Blumen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Vater sorgt für seine ganze Familie.",
+      "translation": {
+        "ru": "Отец обеспечивает всю свою семью.",
+        "en": "The father provides for his whole family."
+      },
+      "bracket_parts": [
+        "sorgt"
+      ],
+      "akkusativ_parts": [
+        "seine ganze Familie"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir sorgen für eine angenehme Atmosphäre im Team.",
+      "translation": {
+        "ru": "Мы обеспечиваем приятную атмосферу в команде.",
+        "en": "We ensure a pleasant atmosphere in the team."
+      },
+      "bracket_parts": [
+        "sorgen"
+      ],
+      "akkusativ_parts": [
+        "eine angenehme Atmosphäre"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Sorgt ihr für die Sicherheit der Besucher?",
+      "translation": {
+        "ru": "Вы заботитесь о безопасности посетителей?",
+        "en": "Do you guys take care of the visitors' safety?"
+      },
+      "bracket_parts": [
+        "Sorgt"
+      ],
+      "akkusativ_parts": [
+        "die Sicherheit der Besucher"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie sorgten für eine pünktliche Lieferung der Waren.",
+      "translation": {
+        "ru": "Они обеспечили своевременную доставку товаров.",
+        "en": "They ensured the punctual delivery of the goods."
+      },
+      "bracket_parts": [
+        "sorgten"
+      ],
+      "akkusativ_parts": [
+        "eine pünktliche Lieferung der Waren"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Vorfall hat für großes Aufsehen in den Medien gesorgt.",
+      "translation": {
+        "ru": "Инцидент вызвал большую шумиху в СМИ.",
+        "en": "The incident caused a huge sensation in the media."
+      },
+      "bracket_parts": [
+        "hat",
+        "gesorgt"
+      ],
+      "akkusativ_parts": [
+        "großes Aufsehen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Sorge für eine gute Stimmung bei den Gästen!",
+      "translation": {
+        "ru": "Обеспечь хорошее настроение у гостей!",
+        "en": "Ensure a good mood among the guests!"
+      },
+      "bracket_parts": [
+        "Sorge"
+      ],
+      "akkusativ_parts": [
+        "eine gute Stimmung"
+      ]
+    }
+  ]
+}

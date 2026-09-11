@@ -1,0 +1,178 @@
+{
+  "id": "fuehlen_sich",
+  "infinitive": "fühlen",
+  "translation": {
+    "ru": "чувствовать себя",
+    "en": "to feel (well/bad/happy)"
+  },
+  "level": "A1",
+  "frequency_rank": 89,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "fühlen",
+    "present_3sg": "fühlt sich",
+    "praeteritum_3sg": "fühlte sich",
+    "partizip_2": "sich gefühlt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "fühle mich",
+      "du": "fühlst dich",
+      "er_sie_es": "fühlt sich",
+      "wir": "fühlen uns",
+      "ihr": "fühlt euch",
+      "sie_Sie": "fühlen sich",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "fühlte mich",
+      "du": "fühltest dich",
+      "er_sie_es": "fühlte sich",
+      "wir": "fühlten uns",
+      "ihr": "fühltet euch",
+      "sie_Sie": "fühlten sich"
+    },
+    "imperative": {
+      "du": "fühle dich",
+      "ihr": "fühlt euch",
+      "Sie": "fühlen Sie sich"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich gut / wohl fühlen",
+  "sentences": [
+    {
+      "id": "fuehlen_sich_1",
+      "tense": "Präsens",
+      "german": "Ich fühle mich heute richtig gesund und fit.",
+      "translation": {
+        "ru": "Я чувствую себя сегодня по-настоящему здоровым и бодрым.",
+        "en": "I feel really healthy and fit today."
+      },
+      "bracket_parts": [
+        "fühle"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
+    },
+    {
+      "id": "fuehlen_sich_2",
+      "tense": "Präsens",
+      "german": "Fühlst du dich nach dem langen Schlaf besser?",
+      "translation": {
+        "ru": "Ты чувствуешь себя лучше после долгого сна?",
+        "en": "Do you feel better after the long sleep?"
+      },
+      "bracket_parts": [
+        "Fühlst"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ]
+    },
+    {
+      "id": "fuehlen_sich_3",
+      "tense": "Präsens",
+      "german": "Er fühlt sich in seiner neuen Wohnung sehr wohl.",
+      "translation": {
+        "ru": "Он чувствует себя очень уютно в своей новой квартире.",
+        "en": "He feels very comfortable in his new apartment."
+      },
+      "bracket_parts": [
+        "fühlt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    },
+    {
+      "id": "fuehlen_sich_4",
+      "tense": "Präsens",
+      "german": "Wir fühlen uns in dieser gastfreundlichen Stadt wie zu Hause.",
+      "translation": {
+        "ru": "Мы чувствуем себя в этом гостеприимном городе как дома.",
+        "en": "We feel at home in this hospitable city."
+      },
+      "bracket_parts": [
+        "fühlen"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ]
+    },
+    {
+      "id": "fuehlen_sich_5",
+      "tense": "Präsens",
+      "german": "Fühlt ihr euch bereit für das große Abenteuer?",
+      "translation": {
+        "ru": "Вы чувствуете себя готовыми к большому приключению?",
+        "en": "Do you feel ready for the great adventure?"
+      },
+      "bracket_parts": [
+        "Fühlt"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "fuehlen_sich_6",
+      "tense": "Präteritum",
+      "german": "Sie fühlten sich damals etwas unsicher in der neuen Rolle.",
+      "translation": {
+        "ru": "Они чувствовали себя тогда немного неуверенно в новой роли.",
+        "en": "They felt a bit insecure in the new role back then."
+      },
+      "bracket_parts": [
+        "fühlten"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    },
+    {
+      "id": "fuehlen_sich_7",
+      "tense": "Perfekt",
+      "german": "Ich habe mich gestern Abend ziemlich müde gefühlt.",
+      "translation": {
+        "ru": "Вчера вечером я чувствовал себя довольно усталым.",
+        "en": "I felt quite tired yesterday evening."
+      },
+      "bracket_parts": [
+        "habe",
+        "gefühlt"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
+    },
+    {
+      "id": "fuehlen_sich_8",
+      "tense": "Imperativ",
+      "german": "Fühle dich wie zu Hause!",
+      "translation": {
+        "ru": "Чувствуй себя как дома!",
+        "en": "Make yourself at home!"
+      },
+      "bracket_parts": [
+        "Fühle"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ]
+    }
+  ]
+}

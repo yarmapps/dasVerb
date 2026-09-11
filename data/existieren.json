@@ -1,0 +1,153 @@
+{
+  "id": "existieren",
+  "infinitive": "existieren",
+  "translation": {
+    "ru": "существовать",
+    "en": "to exist"
+  },
+  "level": "B1",
+  "frequency_rank": 278,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "existieren",
+    "present_3sg": "existiert",
+    "praeteritum_3sg": "existierte",
+    "partizip_2": "existiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "existiere",
+      "du": "existierst",
+      "er_sie_es": "existiert",
+      "wir": "existieren",
+      "ihr": "existiert",
+      "sie_Sie": "existieren"
+    },
+    "praeteritum": {
+      "ich": "existierte",
+      "du": "existiertest",
+      "er_sie_es": "existierte",
+      "wir": "existierten",
+      "ihr": "existiertet",
+      "sie_Sie": "existierten"
+    },
+    "imperative": {
+      "du": "existiere!",
+      "ihr": "existiert!",
+      "Sie": "existieren Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "seit vielen Jahren existieren",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich existiere nicht nur für die Arbeit, sondern genieße das Leben.",
+      "translation": {
+        "ru": "Я существую не только ради работы, но и наслаждаюсь жизнью.",
+        "en": "I don't just exist for work, but enjoy life."
+      },
+      "bracket_parts": [
+        "existiere"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Existiert dieser kleine Laden in der Innenstadt noch?",
+      "translation": {
+        "ru": "Этот маленький магазинчик в центре города еще существует?",
+        "en": "Does this small shop in the city center still exist?"
+      },
+      "bracket_parts": [
+        "Existiert"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Viele seltene Tierarten existieren nur noch in Naturschutzgebieten.",
+      "translation": {
+        "ru": "Многие редкие виды животных существуют уже только в заповедниках.",
+        "en": "Many rare animal species now exist only in nature reserves."
+      },
+      "bracket_parts": [
+        "existieren"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir existieren als Unternehmen bereits seit über hundert Jahren.",
+      "translation": {
+        "ru": "Как компания мы существуем уже более ста лет.",
+        "en": "We have already existed as a company for over a hundred years."
+      },
+      "bracket_parts": [
+        "existieren"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Existiert ihr mit eurem Club schon seit der Schulzeit?",
+      "translation": {
+        "ru": "Ваш клуб существует еще со школьных времен?",
+        "en": "Has your club existed since school days?"
+      },
+      "bracket_parts": [
+        "Existiert"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals existierten noch keine Mobiltelefone oder Computer.",
+      "translation": {
+        "ru": "В то время еще не существовало ни мобильных телефонов, ни компьютеров.",
+        "en": "Back then neither cell phones nor computers existed yet."
+      },
+      "bracket_parts": [
+        "existierten"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die alte Bibliothek hat mehrere Jahrhunderte lang existiert.",
+      "translation": {
+        "ru": "Старинная библиотека просуществовала несколько веков.",
+        "en": "The old library existed for several centuries."
+      },
+      "bracket_parts": [
+        "hat",
+        "existiert"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Existiere mit Freude und vollem Herzen jeden Tag!",
+      "translation": {
+        "ru": "Живи с радостью и открытым сердцем каждый день!",
+        "en": "Exist with joy and a full heart every day!"
+      },
+      "bracket_parts": [
+        "Existiere"
+      ]
+    }
+  ]
+}

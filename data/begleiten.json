@@ -1,0 +1,185 @@
+{
+  "id": "begleiten",
+  "infinitive": "begleiten",
+  "translation": {
+    "ru": "провожать, сопровождать, аккомпанировать",
+    "en": "to accompany, escort"
+  },
+  "level": "A2",
+  "frequency_rank": 367,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "begleiten",
+    "present_3sg": "begleitet",
+    "praeteritum_3sg": "begleitete",
+    "partizip_2": "begleitet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "begleite",
+      "du": "begleitest",
+      "er_sie_es": "begleitet",
+      "wir": "begleiten",
+      "ihr": "begleitet",
+      "sie_Sie": "begleiten"
+    },
+    "praeteritum": {
+      "ich": "begleitete",
+      "du": "begleitetest",
+      "er_sie_es": "begleitete",
+      "wir": "begleiteten",
+      "ihr": "begleitetet",
+      "sie_Sie": "begleiteten"
+    },
+    "imperative": {
+      "du": "begleite!",
+      "ihr": "begleitet!",
+      "Sie": "begleiten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen Gast nach Hause begleiten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich begleite meinen kleinen Sohn jeden Morgen zur Grundschule.",
+      "translation": {
+        "ru": "Каждое утро я провожаю маленького сына в начальную школу.",
+        "en": "I accompany my little son to primary school every morning."
+      },
+      "bracket_parts": [
+        "begleite"
+      ],
+      "akkusativ_parts": [
+        "meinen kleinen Sohn"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Begleitest du mich heute Abend zum Zahnarzt?",
+      "translation": {
+        "ru": "Ты пойдешь со мной сегодня вечером к стоматологу?",
+        "en": "Will you accompany me to the dentist tonight?"
+      },
+      "bracket_parts": [
+        "Begleitest"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Pianist begleitet die begabte Sängerin auf dem Flügel.",
+      "translation": {
+        "ru": "Пианист аккомпанирует талантливой певице на рояле.",
+        "en": "The pianist accompanies the talented singer on the grand piano."
+      },
+      "bracket_parts": [
+        "begleitet"
+      ],
+      "akkusativ_parts": [
+        "die begabte Sängerin"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir begleiten unsere ausländischen Gäste bis zum Flughafen.",
+      "translation": {
+        "ru": "Мы провожаем наших иностранных гостей до аэропорта.",
+        "en": "We escort our foreign guests all the way to the airport."
+      },
+      "bracket_parts": [
+        "begleiten"
+      ],
+      "akkusativ_parts": [
+        "unsere ausländischen Gäste"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Begleitet ihr eure Großeltern am Wochenende ins Theater?",
+      "translation": {
+        "ru": "Вы идете с бабушкой и дедушкой на выходных в театр?",
+        "en": "Are you guys accompanying your grandparents to the theater at the weekend?"
+      },
+      "bracket_parts": [
+        "Begleitet"
+      ],
+      "akkusativ_parts": [
+        "eure Großeltern"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Leibwächter begleiteten damals den Staatspräsidenten überallhin.",
+      "translation": {
+        "ru": "Телохранители сопровождали тогда президента повсюду.",
+        "en": "The bodyguards accompanied the state president everywhere back then."
+      },
+      "bracket_parts": [
+        "begleiteten"
+      ],
+      "akkusativ_parts": [
+        "den Staatspräsidenten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Ein erfahrener Bergführer hat die Gruppe sicher begleitet.",
+      "translation": {
+        "ru": "Опытный горный гид безопасно провел группу.",
+        "en": "An experienced mountain guide safely accompanied the group."
+      },
+      "bracket_parts": [
+        "hat",
+        "begleitet"
+      ],
+      "akkusativ_parts": [
+        "die Gruppe"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Begleite bitte deine Schwester zur Bushaltestelle!",
+      "translation": {
+        "ru": "Проводи сестру до автобусной остановки, пожалуйста!",
+        "en": "Please accompany your sister to the bus stop!"
+      },
+      "bracket_parts": [
+        "Begleite"
+      ],
+      "akkusativ_parts": [
+        "deine Schwester"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

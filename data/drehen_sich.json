@@ -1,0 +1,153 @@
+{
+  "id": "drehen_sich",
+  "infinitive": "sich drehen",
+  "translation": {
+    "ru": "вращаться, поворачиваться; идти речь (о чём-то)",
+    "en": "to turn, revolve, be about"
+  },
+  "level": "A2",
+  "frequency_rank": 222,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "sich drehen",
+    "present_3sg": "dreht sich",
+    "praeteritum_3sg": "drehte sich",
+    "partizip_2": "gedreht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "drehe mich",
+      "du": "drehst dich",
+      "er_sie_es": "dreht sich",
+      "wir": "drehen uns",
+      "ihr": "dreht euch",
+      "sie_Sie": "drehen sich"
+    },
+    "praeteritum": {
+      "ich": "drehte mich",
+      "du": "drehtest dich",
+      "er_sie_es": "drehte sich",
+      "wir": "drehten uns",
+      "ihr": "drehtet euch",
+      "sie_Sie": "drehten sich"
+    },
+    "imperative": {
+      "du": "drehe dich!",
+      "ihr": "dreht euch!",
+      "Sie": "drehen Sie sich!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich im Kreis drehen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich drehe mich einmal um die eigene Achse.",
+      "translation": {
+        "ru": "Я один раз оборачиваюсь вокруг своей оси.",
+        "en": "I turn around once on my own axis."
+      },
+      "bracket_parts": [
+        "drehe"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Drehst du dich nach jedem Geräusch um?",
+      "translation": {
+        "ru": "Ты оборачиваешься на каждый шорох?",
+        "en": "Do you turn around after every noise?"
+      },
+      "bracket_parts": [
+        "Drehst"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Erde dreht sich kontinuierlich um die Sonne.",
+      "translation": {
+        "ru": "Земля непрерывно вращается вокруг Солнца.",
+        "en": "The earth continuously rotates around the sun."
+      },
+      "bracket_parts": [
+        "dreht"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir drehen uns im Kreis bei dieser endlosen Debatte.",
+      "translation": {
+        "ru": "Мы ходим по кругу в этих бесконечных дебатах.",
+        "en": "We are going in circles in this endless debate."
+      },
+      "bracket_parts": [
+        "drehen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Dreht ihr euch gerne auf dem Karussell?",
+      "translation": {
+        "ru": "Вам нравится кружиться на карусели?",
+        "en": "Do you guys like spinning on the carousel?"
+      },
+      "bracket_parts": [
+        "Dreht"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Wind drehte sich plötzlich nach Norden.",
+      "translation": {
+        "ru": "Ветер внезапно переменился на северный.",
+        "en": "The wind suddenly turned north."
+      },
+      "bracket_parts": [
+        "drehte"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Das Blatt hat sich im Spiel komplett gedreht.",
+      "translation": {
+        "ru": "Ход игры полностью переменился.",
+        "en": "The tide turned completely in the game."
+      },
+      "bracket_parts": [
+        "hat",
+        "gedreht"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Dreh dich bitte kurz zu mir um!",
+      "translation": {
+        "ru": "Повернись ко мне ненадолго, пожалуйста!",
+        "en": "Please turn around to me for a moment!"
+      },
+      "bracket_parts": [
+        "Dreh"
+      ]
+    }
+  ]
+}

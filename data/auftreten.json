@@ -1,0 +1,161 @@
+{
+  "id": "auftreten",
+  "infinitive": "auftreten",
+  "translation": {
+    "ru": "выступать (на сцене), возникать",
+    "en": "to perform, to appear, to occur"
+  },
+  "level": "B1",
+  "frequency_rank": 146,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "auftreten",
+    "present_3sg": "tritt auf",
+    "praeteritum_3sg": "trat auf",
+    "partizip_2": "aufgetreten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "trete auf",
+      "du": "trittst auf",
+      "er_sie_es": "tritt auf",
+      "wir": "treten auf",
+      "ihr": "tretet auf",
+      "sie_Sie": "treten auf",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "trat auf",
+      "du": "tratest auf",
+      "er_sie_es": "trat auf",
+      "wir": "traten auf",
+      "ihr": "tratet auf",
+      "sie_Sie": "traten auf"
+    },
+    "imperative": {
+      "du": "tritt auf",
+      "ihr": "tretet auf",
+      "Sie": "treten Sie auf"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "auf der Bühne / sicher auftreten",
+  "sentences": [
+    {
+      "id": "auftreten_1",
+      "tense": "Präsens",
+      "german": "Ich trete heute zum ersten Mal auf der großen Bühne auf.",
+      "translation": {
+        "ru": "Я выступаю сегодня впервые на большой сцене.",
+        "en": "I perform on the big stage for the first time today."
+      },
+      "bracket_parts": [
+        "trete",
+        "auf"
+      ]
+    },
+    {
+      "id": "auftreten_2",
+      "tense": "Präsens",
+      "german": "Trittst du bei Prüfungen immer so selbstbewusst auf?",
+      "translation": {
+        "ru": "Ты всегда держишься (выступаешь) так уверенно на экзаменах?",
+        "en": "Do you always appear so confident during exams?"
+      },
+      "bracket_parts": [
+        "Trittst",
+        "auf"
+      ]
+    },
+    {
+      "id": "auftreten_3",
+      "tense": "Präsens",
+      "german": "Ein unerwartetes Problem tritt bei der Software auf.",
+      "translation": {
+        "ru": "В программе возникает неожиданная проблема.",
+        "en": "An unexpected problem occurs in the software."
+      },
+      "bracket_parts": [
+        "tritt",
+        "auf"
+      ]
+    },
+    {
+      "id": "auftreten_4",
+      "tense": "Präsens",
+      "german": "Wir treten gemeinsam als Band im Club auf.",
+      "translation": {
+        "ru": "Мы выступаем вместе как группа в клубе.",
+        "en": "We perform together as a band in the club."
+      },
+      "bracket_parts": [
+        "treten",
+        "auf"
+      ]
+    },
+    {
+      "id": "auftreten_5",
+      "tense": "Präsens",
+      "german": "Tretet ihr beim Schulfest mit einem Tanz auf?",
+      "translation": {
+        "ru": "Вы выступаете с танцем на школьном празднике?",
+        "en": "Are you performing with a dance at the school festival?"
+      },
+      "bracket_parts": [
+        "Tretet",
+        "auf"
+      ]
+    },
+    {
+      "id": "auftreten_6",
+      "tense": "Präteritum",
+      "german": "Die bekannte Sängerin trat damals vor tausenden Zuschauern auf.",
+      "translation": {
+        "ru": "Известная певица выступила тогда перед тысячами зрителей.",
+        "en": "The famous singer performed in front of thousands of spectators back then."
+      },
+      "bracket_parts": [
+        "trat",
+        "auf"
+      ]
+    },
+    {
+      "id": "auftreten_7",
+      "tense": "Perfekt",
+      "german": "Es sind leider einige unvorhergesehene Komplikationen aufgetreten.",
+      "translation": {
+        "ru": "К сожалению, возникли некоторые непредвиденные осложнения.",
+        "en": "Unfortunately, some unforeseen complications have occurred."
+      },
+      "bracket_parts": [
+        "sind",
+        "aufgetreten"
+      ]
+    },
+    {
+      "id": "auftreten_8",
+      "tense": "Imperativ",
+      "german": "Tritt vor dem Publikum stets ruhig und sicher auf!",
+      "translation": {
+        "ru": "Держись перед публикой всегда спокойно и уверенно!",
+        "en": "Always appear calm and confident in front of the audience!"
+      },
+      "bracket_parts": [
+        "Tritt",
+        "auf"
+      ]
+    }
+  ]
+}

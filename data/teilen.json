@@ -1,0 +1,177 @@
+{
+  "id": "teilen",
+  "infinitive": "teilen",
+  "translation": {
+    "ru": "делить, разделять, делиться",
+    "en": "to divide, share, split"
+  },
+  "level": "A2",
+  "frequency_rank": 168,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "teilen",
+    "present_3sg": "teilt",
+    "praeteritum_3sg": "teilte",
+    "partizip_2": "geteilt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "teile",
+      "du": "teilst",
+      "er_sie_es": "teilt",
+      "wir": "teilen",
+      "ihr": "teilt",
+      "sie_Sie": "teilen"
+    },
+    "praeteritum": {
+      "ich": "teilte",
+      "du": "teiltest",
+      "er_sie_es": "teilte",
+      "wir": "teilten",
+      "ihr": "teiltet",
+      "sie_Sie": "teilten"
+    },
+    "imperative": {
+      "du": "teile!",
+      "ihr": "teilt!",
+      "Sie": "teilen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Rechnung teilen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich teile die Pizza gerne in vier gleiche Stücke.",
+      "translation": {
+        "ru": "Я с удовольствием разделю пиццу на четыре равных куска.",
+        "en": "I gladly divide the pizza into four equal pieces."
+      },
+      "bracket_parts": [
+        "teile"
+      ],
+      "akkusativ_parts": [
+        "die Pizza"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Teilst du dein Pausenbrot mit deiner Schwester?",
+      "translation": {
+        "ru": "Ты делишься своим бутербродом с сестрой?",
+        "en": "Do you share your sandwich with your sister?"
+      },
+      "bracket_parts": [
+        "Teilst"
+      ],
+      "akkusativ_parts": [
+        "dein Pausenbrot"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Zaun teilt den Garten in zwei Hälften.",
+      "translation": {
+        "ru": "Забор делит сад на две половины.",
+        "en": "The fence divides the garden into two halves."
+      },
+      "bracket_parts": [
+        "teilt"
+      ],
+      "akkusativ_parts": [
+        "den Garten"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir teilen die Gesamtkosten fair durch alle Personen.",
+      "translation": {
+        "ru": "Мы делим общие расходы поровну на всех.",
+        "en": "We divide the total costs fairly among everyone."
+      },
+      "bracket_parts": [
+        "teilen"
+      ],
+      "akkusativ_parts": [
+        "die Gesamtkosten"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Teilt ihr das Zimmer während der Reise?",
+      "translation": {
+        "ru": "Вы живете в одной комнате во время поездки?",
+        "en": "Are you guys sharing the room during the trip?"
+      },
+      "bracket_parts": [
+        "Teilt"
+      ],
+      "akkusativ_parts": [
+        "das Zimmer"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie teilten den Gewinn gerecht untereinander auf.",
+      "translation": {
+        "ru": "Они справедливо разделили выигрыш между собой.",
+        "en": "They divided the profit fairly among themselves."
+      },
+      "bracket_parts": [
+        "teilten"
+      ],
+      "akkusativ_parts": [
+        "den Gewinn"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Wir haben die Rechnung im Restaurant genau geteilt.",
+      "translation": {
+        "ru": "Мы точно разделили счет в ресторане.",
+        "en": "We divided the bill in the restaurant exactly."
+      },
+      "bracket_parts": [
+        "haben",
+        "geteilt"
+      ],
+      "akkusativ_parts": [
+        "die Rechnung"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Teile den Kuchen gerecht unter den Kindern auf!",
+      "translation": {
+        "ru": "Раздели пирог поровну между детьми!",
+        "en": "Divide the cake fairly among the children!"
+      },
+      "bracket_parts": [
+        "Teile"
+      ],
+      "akkusativ_parts": [
+        "den Kuchen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "id": "lieben",
+  "infinitive": "lieben",
+  "translation": {
+    "ru": "любить",
+    "en": "to love"
+  },
+  "level": "A1",
+  "frequency_rank": 160,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "lieben",
+    "present_3sg": "liebt",
+    "praeteritum_3sg": "liebte",
+    "partizip_2": "geliebt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "liebe",
+      "du": "liebst",
+      "er_sie_es": "liebt",
+      "wir": "lieben",
+      "ihr": "liebt",
+      "sie_Sie": "lieben",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "liebte",
+      "du": "liebtest",
+      "er_sie_es": "liebte",
+      "wir": "liebten",
+      "ihr": "liebtet",
+      "sie_Sie": "liebten"
+    },
+    "imperative": {
+      "du": "lieb!",
+      "ihr": "liebt!",
+      "Sie": "lieben Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "seine Familie / klassische Musik (Akk) von Herzen lieben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich liebe klassische Musik und gehe regelmäßig in die traditionsreiche Oper.",
+      "translation": {
+        "ru": "Я люблю классическую музыку и регулярно хожу в старинную оперу.",
+        "en": "I love classical music and regularly go to the traditional opera."
+      },
+      "bracket_parts": [
+        "liebe"
+      ],
+      "akkusativ_parts": [
+        "klassische Musik",
+        "in die traditionsreiche Oper"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Liebst du lange Spaziergänge am menschenleeren Strand bei Sonnenuntergang auch so sehr?",
+      "translation": {
+        "ru": "Любишь ли ты долгие прогулки по безлюдному пляжу на закате тоже так сильно?",
+        "en": "Do you also love long walks on the deserted beach at sunset so much?"
+      },
+      "bracket_parts": [
+        "Liebst"
+      ],
+      "akkusativ_parts": [
+        "lange Spaziergänge"
+      ],
+      "dativ_parts": [
+        "am menschenleeren Strand",
+        "bei Sonnenuntergang"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die kleine Tochter liebt ihre bunte Puppe und nimmt sie überallhin mit.",
+      "translation": {
+        "ru": "Маленькая дочка любит свою яркую куклу и берет ее с собой повсюду.",
+        "en": "The little daughter loves her colourful doll and takes it everywhere."
+      },
+      "bracket_parts": [
+        "liebt"
+      ],
+      "akkusativ_parts": [
+        "ihre bunte Puppe"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir lieben gutes Essen und kochen am Wochenende gerne gemeinsam für unsere Freunde.",
+      "translation": {
+        "ru": "Мы любим хорошую еду и на выходных с удовольствием готовим вместе для наших друзей.",
+        "en": "We love good food and enjoy cooking together for our friends at the weekend."
+      },
+      "bracket_parts": [
+        "lieben"
+      ],
+      "akkusativ_parts": [
+        "gutes Essen",
+        "für unsere Freunde"
+      ],
+      "dativ_parts": [
+        "am Wochenende"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Liebt ihr das Leben in der pulsierenden Großstadt oder bevorzugt ihr die Ruhe auf dem Land?",
+      "translation": {
+        "ru": "Любите ли вы жизнь в бурлящем мегаполисе или предпочитаете тишину в деревне?",
+        "en": "Do you love life in the bustling metropolis or do you prefer the peace in the country?"
+      },
+      "bracket_parts": [
+        "Liebt"
+      ],
+      "akkusativ_parts": [
+        "das Leben"
+      ],
+      "dativ_parts": [
+        "in der pulsierenden Großstadt",
+        "auf dem Land"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Damals liebte der Dichter eine geheimnisvolle Dame und schrieb ihr romantische Gedichte.",
+      "translation": {
+        "ru": "В те времена поэт любил таинственную даму и писал ей романтические стихи.",
+        "en": "At that time the poet loved a mysterious lady and wrote her romantic poems."
+      },
+      "bracket_parts": [
+        "liebte"
+      ],
+      "akkusativ_parts": [
+        "eine geheimnisvolle Dame"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Großeltern haben einander über fünfzig glückliche Jahre lang aufrichtig geliebt.",
+      "translation": {
+        "ru": "Бабушка с дедушкой искренне любили друг друга на протяжении более пятидесяти счастливых лет.",
+        "en": "The grandparents truly loved each other for over fifty happy years."
+      },
+      "bracket_parts": [
+        "haben",
+        "geliebt"
+      ],
+      "akkusativ_parts": [
+        "einander"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Liebe deine Nächsten wie dich selbst und begegne jedem mit Respekt!",
+      "translation": {
+        "ru": "Люби ближних своих, как самого себя, и относись ко всем с уважением!",
+        "en": "Love your neighbours as yourself and treat everyone with respect!"
+      },
+      "bracket_parts": [
+        "Liebe"
+      ],
+      "akkusativ_parts": [
+        "deine Nächsten",
+        "dich"
+      ],
+      "dativ_parts": [
+        "mit Respekt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "erwerben",
+  "infinitive": "erwerben",
+  "translation": {
+    "ru": "приобретать, осваивать, зарабатывать",
+    "en": "to acquire, purchase, gain"
+  },
+  "level": "B2",
+  "frequency_rank": 390,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erwerben",
+    "present_3sg": "erwirbt",
+    "praeteritum_3sg": "erwarb",
+    "partizip_2": "erworben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erwerbe",
+      "du": "erwirbst",
+      "er_sie_es": "erwirbt",
+      "wir": "erwerben",
+      "ihr": "erwerbt",
+      "sie_Sie": "erwerben"
+    },
+    "praeteritum": {
+      "ich": "erwarb",
+      "du": "erwarbst",
+      "er_sie_es": "erwarb",
+      "wir": "erwarben",
+      "ihr": "erwarbt",
+      "sie_Sie": "erwarben"
+    },
+    "imperative": {
+      "du": "erwirb!",
+      "ihr": "erwerbt!",
+      "Sie": "erwerben Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Kenntnisse erwerben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich erwerbe in diesem Kurs vertiefte Kenntnisse in Programmierung.",
+      "translation": {
+        "ru": "На этом курсе я приобретаю углубленные знания по программированию.",
+        "en": "I acquire advanced knowledge in programming in this course."
+      },
+      "bracket_parts": [
+        "erwerbe"
+      ],
+      "akkusativ_parts": [
+        "vertiefte Kenntnisse"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Erwirbst du dieses Jahr endlich den Führerschein?",
+      "translation": {
+        "ru": "Ты получишь в этом году наконец водительские права?",
+        "en": "Are you finally acquiring your driver's license this year?"
+      },
+      "bracket_parts": [
+        "Erwirbst"
+      ],
+      "akkusativ_parts": [
+        "den Führerschein"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Investor erwirbt eine historische Immobilie in der Innenstadt.",
+      "translation": {
+        "ru": "Инвестор приобретает историческую недвижимость в центре города.",
+        "en": "The investor acquires a historic property in the city center."
+      },
+      "bracket_parts": [
+        "erwirbt"
+      ],
+      "akkusativ_parts": [
+        "eine historische Immobilie"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir erwerben die nötigen Lizenzen für unsere neue Software.",
+      "translation": {
+        "ru": "Мы приобретаем необходимые лицензии для нашего нового ПО.",
+        "en": "We acquire the necessary licenses for our new software."
+      },
+      "bracket_parts": [
+        "erwerben"
+      ],
+      "akkusativ_parts": [
+        "die nötigen Lizenzen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Erwerbt ihr im Auslandssemester auch wertvolle Sprachpraxis?",
+      "translation": {
+        "ru": "Вы в семестре за рубежом приобретаете также ценную языковую практику?",
+        "en": "Do you guys also gain valuable language practice during your semester abroad?"
+      },
+      "bracket_parts": [
+        "Erwerbt"
+      ],
+      "akkusativ_parts": [
+        "wertvolle Sprachpraxis"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Familie erwarb damals ein schönes Grundstück am See.",
+      "translation": {
+        "ru": "Семья приобрела тогда красивый участок у озера.",
+        "en": "The family purchased a beautiful plot of land by the lake back then."
+      },
+      "bracket_parts": [
+        "erwarb"
+      ],
+      "akkusativ_parts": [
+        "ein schönes Grundstück"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie hat durch Fleiß das Vertrauen der Kollegen erworben.",
+      "translation": {
+        "ru": "Своим усердием она заслужила доверие коллег.",
+        "en": "She gained the trust of her colleagues through diligence."
+      },
+      "bracket_parts": [
+        "hat",
+        "erworben"
+      ],
+      "akkusativ_parts": [
+        "das Vertrauen der Kollegen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Erwirb bitte rechtzeitig die Eintrittskarten für das Theater!",
+      "translation": {
+        "ru": "Приобрети билеты в театр заблаговременно, пожалуйста!",
+        "en": "Please purchase the tickets for the theater in good time!"
+      },
+      "bracket_parts": [
+        "Erwirb"
+      ],
+      "akkusativ_parts": [
+        "die Eintrittskarten"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

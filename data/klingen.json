@@ -1,0 +1,153 @@
+{
+  "id": "klingen",
+  "infinitive": "klingen",
+  "translation": {
+    "ru": "звучать, звенеть",
+    "en": "to sound, ring"
+  },
+  "level": "A2",
+  "frequency_rank": 218,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "klingen",
+    "present_3sg": "klingt",
+    "praeteritum_3sg": "klang",
+    "partizip_2": "geklungen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "klinge",
+      "du": "klingst",
+      "er_sie_es": "klingt",
+      "wir": "klingen",
+      "ihr": "klingt",
+      "sie_Sie": "klingen"
+    },
+    "praeteritum": {
+      "ich": "klang",
+      "du": "klangst",
+      "er_sie_es": "klang",
+      "wir": "klangen",
+      "ihr": "klangt",
+      "sie_Sie": "klangen"
+    },
+    "imperative": {
+      "du": "klinge!",
+      "ihr": "klingt!",
+      "Sie": "klingen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sehr gut klingen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich klinge heute wegen der Erkältung etwas heiser.",
+      "translation": {
+        "ru": "Из-за простуды я сегодня звучу немного охрипшим.",
+        "en": "I sound a bit hoarse today because of the cold."
+      },
+      "bracket_parts": [
+        "klinge"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Klingst du immer so fröhlich am Telefon?",
+      "translation": {
+        "ru": "Ты всегда звучишь так радостно по телефону?",
+        "en": "Do you always sound so cheerful on the phone?"
+      },
+      "bracket_parts": [
+        "Klingst"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das neue Lied klingt fantastisch im Radio.",
+      "translation": {
+        "ru": "Новая песня великолепно звучит по радио.",
+        "en": "The new song sounds fantastic on the radio."
+      },
+      "bracket_parts": [
+        "klingt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir klingen im Chor schon sehr harmonisch zusammen.",
+      "translation": {
+        "ru": "В хоре мы звучим вместе уже очень гармонично.",
+        "en": "We already sound very harmonious together in the choir."
+      },
+      "bracket_parts": [
+        "klingen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Klingt ihr mit den neuen Instrumenten viel lauter?",
+      "translation": {
+        "ru": "С новыми инструментами вы звучите намного громче?",
+        "en": "Do you guys sound much louder with the new instruments?"
+      },
+      "bracket_parts": [
+        "Klingt"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Kirchenglocken klangen feierlich durch das ganze Dorf.",
+      "translation": {
+        "ru": "Церковные колокола торжественно звенели по всей деревне.",
+        "en": "The church bells rang solemnly throughout the village."
+      },
+      "bracket_parts": [
+        "klangen"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Seine Worte haben damals sehr beruhigend geklungen.",
+      "translation": {
+        "ru": "Его слова тогда прозвучали очень успокаивающе.",
+        "en": "His words sounded very reassuring back then."
+      },
+      "bracket_parts": [
+        "haben",
+        "geklungen"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Klinge bei der Rede stets selbstsicher!",
+      "translation": {
+        "ru": "Звучи в своей речи всегда уверенно!",
+        "en": "Always sound confident during your speech!"
+      },
+      "bracket_parts": [
+        "Klinge"
+      ]
+    }
+  ]
+}

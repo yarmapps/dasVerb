@@ -1,0 +1,184 @@
+{
+  "id": "ausschliessen",
+  "infinitive": "ausschließen",
+  "translation": {
+    "ru": "исключать (возможность/человека)",
+    "en": "to exclude, rule out"
+  },
+  "level": "B1",
+  "frequency_rank": 262,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ausschließen",
+    "present_3sg": "schließt aus",
+    "praeteritum_3sg": "schloss aus",
+    "partizip_2": "ausgeschlossen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schließe aus",
+      "du": "schließt aus",
+      "er_sie_es": "schließt aus",
+      "wir": "schließen aus",
+      "ihr": "schließt aus",
+      "sie_Sie": "schließen aus"
+    },
+    "praeteritum": {
+      "ich": "schloss aus",
+      "du": "schlossest aus",
+      "er_sie_es": "schloss aus",
+      "wir": "schlossen aus",
+      "ihr": "schlosst aus",
+      "sie_Sie": "schlossen aus"
+    },
+    "imperative": {
+      "du": "schließe aus!",
+      "ihr": "schließt aus!",
+      "Sie": "schließen Sie aus!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen Fehler ausschließen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich schließe ein Missverständnis in diesem Fall völlig aus.",
+      "translation": {
+        "ru": "Я полностью исключаю недоразумение в этом случае.",
+        "en": "I completely rule out a misunderstanding in this case."
+      },
+      "bracket_parts": [
+        "schließe",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "ein Missverständnis"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Schließt du weitere Risiken bei dem Projekt aus?",
+      "translation": {
+        "ru": "Ты исключаешь дальнейшие риски в этом проекте?",
+        "en": "Do you rule out further risks in the project?"
+      },
+      "bracket_parts": [
+        "Schließt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "weitere Risiken"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Verein schließt unfaire Mitglieder aus der Gemeinschaft aus.",
+      "translation": {
+        "ru": "Клуб исключает нечестных участников из своего сообщества.",
+        "en": "The club excludes unfair members from the community."
+      },
+      "bracket_parts": [
+        "schließt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "unfaire Mitglieder"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir schließen eine Preiserhöhung vorerst aus.",
+      "translation": {
+        "ru": "Пока мы исключаем повышение цен.",
+        "en": "We rule out a price increase for the time being."
+      },
+      "bracket_parts": [
+        "schließen",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "eine Preiserhöhung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Schließt ihr technische Mängel an dem Gerät aus?",
+      "translation": {
+        "ru": "Вы исключаете технические дефекты в приборе?",
+        "en": "Do you guys rule out technical defects on the device?"
+      },
+      "bracket_parts": [
+        "Schließt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "technische Mängel an dem Gerät"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie schlossen damals jede Beteiligung an der Tat aus.",
+      "translation": {
+        "ru": "В то время они исключали какую-либо причастность к преступлению.",
+        "en": "They ruled out any involvement in the deed back then."
+      },
+      "bracket_parts": [
+        "schlossen",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "jede Beteiligung an der Tat"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Ermittler haben einen Unfall als Ursache ausgeschlossen.",
+      "translation": {
+        "ru": "Следователи исключили несчастный случай как причину.",
+        "en": "The investigators ruled out an accident as the cause."
+      },
+      "bracket_parts": [
+        "haben",
+        "ausgeschlossen"
+      ],
+      "akkusativ_parts": [
+        "einen Unfall"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Schließe alle Fehlerquellen sorgfältig aus!",
+      "translation": {
+        "ru": "Тщательно исключи все источники ошибок!",
+        "en": "Carefully rule out all sources of error!"
+      },
+      "bracket_parts": [
+        "Schließe",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "alle Fehlerquellen"
+      ]
+    }
+  ]
+}

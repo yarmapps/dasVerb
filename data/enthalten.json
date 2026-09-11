@@ -1,0 +1,172 @@
+{
+  "id": "enthalten",
+  "infinitive": "enthalten",
+  "translation": {
+    "ru": "содержать в себе",
+    "en": "to contain, to include"
+  },
+  "level": "A2",
+  "frequency_rank": 133,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ent",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "enthalten",
+    "present_3sg": "enthält",
+    "praeteritum_3sg": "enthielt",
+    "partizip_2": "enthalten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "enthalte",
+      "du": "enthältst",
+      "er_sie_es": "enthält",
+      "wir": "enthalten",
+      "ihr": "enthaltet",
+      "sie_Sie": "enthalten",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "enthielt",
+      "du": "enthieltst",
+      "er_sie_es": "enthielt",
+      "wir": "enthielten",
+      "ihr": "enthieltet",
+      "sie_Sie": "enthielten"
+    },
+    "imperative": {
+      "du": "enthalte",
+      "ihr": "enthaltet",
+      "Sie": "enthalten Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "viele Vitamine / wichtige Informationen (Akk) enthalten",
+  "sentences": [
+    {
+      "id": "enthalten_1",
+      "tense": "Präsens",
+      "german": "Mein gesundes Frühstück enthält viele wichtige Vitamine.",
+      "translation": {
+        "ru": "Мой здоровый завтрак содержит много важных витаминов.",
+        "en": "My healthy breakfast contains many important vitamins."
+      },
+      "bracket_parts": [
+        "enthält"
+      ],
+      "akkusativ_parts": [
+        "viele wichtige Vitamine"
+      ]
+    },
+    {
+      "id": "enthalten_2",
+      "tense": "Präsens",
+      "german": "Enthältst du dich bei dieser Abstimmung deiner Stimme?",
+      "translation": {
+        "ru": "Воздерживаешься ли ты при этом голосовании от своего голоса?",
+        "en": "Are you abstaining from your vote in this ballot?"
+      },
+      "bracket_parts": [
+        "Enthältst"
+      ]
+    },
+    {
+      "id": "enthalten_3",
+      "tense": "Präsens",
+      "german": "Dieser frische Apfelsaft enthält überhaupt keinen Zucker.",
+      "translation": {
+        "ru": "Этот свежий яблочный сок не содержит сахара вообще.",
+        "en": "This fresh apple juice contains no sugar at all."
+      },
+      "bracket_parts": [
+        "enthält"
+      ],
+      "akkusativ_parts": [
+        "überhaupt keinen Zucker"
+      ]
+    },
+    {
+      "id": "enthalten_4",
+      "tense": "Präsens",
+      "german": "Wir wissen, dass diese Dokumente geheime Daten enthalten.",
+      "translation": {
+        "ru": "Мы знаем, что эти документы содержат секретные данные.",
+        "en": "We know that these documents contain secret data."
+      },
+      "bracket_parts": [
+        "enthalten"
+      ],
+      "akkusativ_parts": [
+        "geheime Daten"
+      ]
+    },
+    {
+      "id": "enthalten_5",
+      "tense": "Präsens",
+      "german": "Enthaltet ihr in eurem Angebot auch die Versandkosten?",
+      "translation": {
+        "ru": "Включаете (содержите) ли вы в ваше предложение стоимость доставки?",
+        "en": "Do you also include shipping costs in your offer?"
+      },
+      "bracket_parts": [
+        "Enthaltet"
+      ],
+      "akkusativ_parts": [
+        "die Versandkosten"
+      ]
+    },
+    {
+      "id": "enthalten_6",
+      "tense": "Präteritum",
+      "german": "Der alte Brief enthielt eine berührende Nachricht.",
+      "translation": {
+        "ru": "Старое письмо содержало трогательное послание.",
+        "en": "The old letter contained a touching message."
+      },
+      "bracket_parts": [
+        "enthielt"
+      ],
+      "akkusativ_parts": [
+        "eine berührende Nachricht"
+      ]
+    },
+    {
+      "id": "enthalten_7",
+      "tense": "Perfekt",
+      "german": "Das Paket hat alle bestellten Bücher vollständig enthalten.",
+      "translation": {
+        "ru": "Посылка полностью содержала все заказанные книги.",
+        "en": "The package completely contained all the ordered books."
+      },
+      "bracket_parts": [
+        "hat",
+        "enthalten"
+      ],
+      "akkusativ_parts": [
+        "alle bestellten Bücher"
+      ]
+    },
+    {
+      "id": "enthalten_8",
+      "tense": "Imperativ",
+      "german": "Enthalte dich bitte aller voreiligen Urteile!",
+      "translation": {
+        "ru": "Воздержись, пожалуйста, от всех поспешных суждений!",
+        "en": "Please abstain from all hasty judgments!"
+      },
+      "bracket_parts": [
+        "Enthalte"
+      ]
+    }
+  ]
+}

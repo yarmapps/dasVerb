@@ -1,0 +1,147 @@
+{
+  "id": "enden",
+  "infinitive": "enden",
+  "translation": {
+    "ru": "заканчиваться, завершаться",
+    "en": "to end, finish"
+  },
+  "level": "A2",
+  "frequency_rank": 485,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "enden",
+    "present_3sg": "endet",
+    "praeteritum_3sg": "endete",
+    "partizip_2": "geendet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ende",
+      "du": "endest",
+      "er_sie_es": "endet",
+      "wir": "enden",
+      "ihr": "endet",
+      "sie_Sie": "enden"
+    },
+    "praeteritum": {
+      "ich": "endete",
+      "du": "endetest",
+      "er_sie_es": "endete",
+      "wir": "endeten",
+      "ihr": "endetet",
+      "sie_Sie": "endeten"
+    },
+    "perfekt": {
+      "ich": "habe geendet",
+      "du": "hast geendet",
+      "er_sie_es": "hat geendet",
+      "wir": "haben geendet",
+      "ihr": "habt geendet",
+      "sie_Sie": "haben geendet"
+    }
+  },
+  "rektion": {
+    "case": "none",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich ende meinen langen Vortrag mit einer offenen Frage.",
+      "translation": {
+        "ru": "Я завершаю свой длинный доклад открытым вопросом.",
+        "en": "I end my long presentation with an open question."
+      },
+      "bracket_parts": [
+        "ende"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du endest deine Rede mit einem herzlichen Dankeschön.",
+      "translation": {
+        "ru": "Ты заканчиваешь свою речь сердечным спасибо.",
+        "en": "You finish your speech with a warm thank you."
+      },
+      "bracket_parts": [
+        "endest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der spannende Film endet mit einer großen Überraschung.",
+      "translation": {
+        "ru": "Увлекательный фильм заканчивается большим сюрпризом.",
+        "en": "The exciting movie ends with a big surprise."
+      },
+      "bracket_parts": [
+        "endet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir enden das Projekt planmäßig zum Monatsende.",
+      "translation": {
+        "ru": "Мы завершаем проект по плану к концу месяца.",
+        "en": "We end the project as planned by the end of the month."
+      },
+      "bracket_parts": [
+        "enden"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr endet die Besprechung immer pünktlich um zwölf.",
+      "translation": {
+        "ru": "Вы всегда заканчиваете совещание пунктуально в двенадцать.",
+        "en": "You always end the meeting punctually at twelve."
+      },
+      "bracket_parts": [
+        "endet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die lange Verhandlung endete damals ohne konkretes Ergebnis.",
+      "translation": {
+        "ru": "Долгие переговоры закончились тогда без конкретного результата.",
+        "en": "The long negotiation ended without a concrete result back then."
+      },
+      "bracket_parts": [
+        "endete"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das turbulente Fußballspiel hat unentschieden geendet.",
+      "translation": {
+        "ru": "Бурный футбольный матч закончился вничью.",
+        "en": "The turbulent football game ended in a draw."
+      },
+      "bracket_parts": [
+        "hat",
+        "geendet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Ende das Kapitel mit einem passenden Schlusswort!",
+      "translation": {
+        "ru": "Заверши главу подходящим заключительным словом!",
+        "en": "End the chapter with an appropriate concluding word!"
+      },
+      "bracket_parts": [
+        "Ende"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

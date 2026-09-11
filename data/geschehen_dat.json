@@ -1,0 +1,178 @@
+{
+  "id": "geschehen_dat",
+  "infinitive": "geschehen",
+  "translation": {
+    "ru": "случаться с, происходить",
+    "en": "to happen to, to occur"
+  },
+  "level": "A2",
+  "frequency_rank": 109,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ge",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "geschehen",
+    "present_3sg": "geschieht",
+    "praeteritum_3sg": "geschah",
+    "partizip_2": "geschehen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "geschehe",
+      "du": "geschiehst",
+      "er_sie_es": "geschieht",
+      "wir": "geschehen",
+      "ihr": "gescheht",
+      "sie_Sie": "geschehen",
+      "root_vowel_change": "e -> ie"
+    },
+    "praeteritum": {
+      "ich": "geschah",
+      "du": "geschahst",
+      "er_sie_es": "geschah",
+      "wir": "geschahen",
+      "ihr": "geschaht",
+      "sie_Sie": "geschahen"
+    },
+    "imperative": {
+      "du": "geschehe",
+      "ihr": "gescheht",
+      "Sie": "geschehen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "jemandem (Dat) geschehen",
+  "sentences": [
+    {
+      "id": "geschehen_dat_1",
+      "tense": "Präsens",
+      "german": "Mir geschieht nichts Schlimmes auf dieser Reise.",
+      "translation": {
+        "ru": "Со мной не случится ничего плохого в этой поездке.",
+        "en": "Nothing bad happens to me on this trip."
+      },
+      "bracket_parts": [
+        "geschieht"
+      ],
+      "dativ_parts": [
+        "Mir"
+      ]
+    },
+    {
+      "id": "geschehen_dat_2",
+      "tense": "Präsens",
+      "german": "Geschieht dir manchmal etwas völlig Unerwartetes?",
+      "translation": {
+        "ru": "С тобой случается иногда что-то совершенно неожиданное?",
+        "en": "Does something completely unexpected ever happen to you?"
+      },
+      "bracket_parts": [
+        "Geschieht"
+      ],
+      "dativ_parts": [
+        "dir"
+      ]
+    },
+    {
+      "id": "geschehen_dat_3",
+      "tense": "Präsens",
+      "german": "Dem alten Mann geschieht großes Unrecht.",
+      "translation": {
+        "ru": "С пожилым мужчиной обходятся очень несправедливо (творится несправедливость).",
+        "en": "Great injustice is happening to the old man."
+      },
+      "bracket_parts": [
+        "geschieht"
+      ],
+      "dativ_parts": [
+        "Dem alten Mann"
+      ]
+    },
+    {
+      "id": "geschehen_dat_4",
+      "tense": "Präsens",
+      "german": "Wir hoffen, dass uns allen nur Gutes geschieht.",
+      "translation": {
+        "ru": "Мы надеемся, что со всеми нами будет случаться только хорошее.",
+        "en": "We hope that only good things happen to all of us."
+      },
+      "bracket_parts": [
+        "geschieht"
+      ],
+      "dativ_parts": [
+        "uns allen"
+      ]
+    },
+    {
+      "id": "geschehen_dat_5",
+      "tense": "Präsens",
+      "german": "Geschieht euch so etwas zum ersten Mal?",
+      "translation": {
+        "ru": "С вами такое происходит в первый раз?",
+        "en": "Is something like this happening to you for the first time?"
+      },
+      "bracket_parts": [
+        "Geschieht"
+      ],
+      "dativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "geschehen_dat_6",
+      "tense": "Präteritum",
+      "german": "Ihnen geschah glücklicherweise kein großes Leid.",
+      "translation": {
+        "ru": "С ними, к счастью, не случилось никакой большой беды.",
+        "en": "Fortunately, no great harm came to them."
+      },
+      "bracket_parts": [
+        "geschah"
+      ],
+      "dativ_parts": [
+        "Ihnen"
+      ]
+    },
+    {
+      "id": "geschehen_dat_7",
+      "tense": "Perfekt",
+      "german": "Es ist mir gestern ein seltsames Wunder geschehen.",
+      "translation": {
+        "ru": "Вчера со мной произошло странное чудо.",
+        "en": "A strange miracle happened to me yesterday."
+      },
+      "bracket_parts": [
+        "ist",
+        "geschehen"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    },
+    {
+      "id": "geschehen_dat_8",
+      "tense": "Imperativ",
+      "german": "Geschehe mir nach deinem Willen!",
+      "translation": {
+        "ru": "Да будет со мной по твоей воле!",
+        "en": "Let it happen to me according to your will!"
+      },
+      "bracket_parts": [
+        "Geschehe"
+      ],
+      "dativ_parts": [
+        "mir"
+      ]
+    }
+  ]
+}

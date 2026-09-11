@@ -1,0 +1,185 @@
+{
+  "id": "beenden",
+  "infinitive": "beenden",
+  "translation": {
+    "ru": "завершать, оканчивать",
+    "en": "to end, finish, conclude"
+  },
+  "level": "A2",
+  "frequency_rank": 357,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beenden",
+    "present_3sg": "beendet",
+    "praeteritum_3sg": "beendete",
+    "partizip_2": "beendet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beende",
+      "du": "beendest",
+      "er_sie_es": "beendet",
+      "wir": "beenden",
+      "ihr": "beendet",
+      "sie_Sie": "beenden"
+    },
+    "praeteritum": {
+      "ich": "beendete",
+      "du": "beendetest",
+      "er_sie_es": "beendete",
+      "wir": "beendeten",
+      "ihr": "beendetet",
+      "sie_Sie": "beendeten"
+    },
+    "imperative": {
+      "du": "beende!",
+      "ihr": "beendet!",
+      "Sie": "beenden Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "das Studium erfolgreich beenden",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich beende meine Arbeit heute pünktlich um siebzehn Uhr.",
+      "translation": {
+        "ru": "Сегодня я заканчиваю работу ровно в семнадцать часов.",
+        "en": "I finish my work punctually at five o'clock today."
+      },
+      "bracket_parts": [
+        "beende"
+      ],
+      "akkusativ_parts": [
+        "meine Arbeit"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Beendest du dein Medizinstudium noch in diesem Semester?",
+      "translation": {
+        "ru": "Ты заканчиваешь учебу на медика еще в этом семестре?",
+        "en": "Are you finishing your medical studies this semester?"
+      },
+      "bracket_parts": [
+        "Beendest"
+      ],
+      "akkusativ_parts": [
+        "dein Medizinstudium"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Schiedsrichter beendet das spannende Spiel nach der Nachspielzeit.",
+      "translation": {
+        "ru": "Судья заканчивает захватывающий матч после добавленного времени.",
+        "en": "The referee ends the exciting game after extra time."
+      },
+      "bracket_parts": [
+        "beendet"
+      ],
+      "akkusativ_parts": [
+        "das spannende Spiel"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beenden die Diskussion mit einem gemeinsamen Entschluss.",
+      "translation": {
+        "ru": "Мы завершаем дискуссию совместным решением.",
+        "en": "We conclude the discussion with a joint decision."
+      },
+      "bracket_parts": [
+        "beenden"
+      ],
+      "akkusativ_parts": [
+        "die Diskussion"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Beendet ihr den Vertrag wegen der ständigen Verzögerungen?",
+      "translation": {
+        "ru": "Вы расторгаете договор из-за постоянных задержек?",
+        "en": "Are you terminating the contract because of constant delays?"
+      },
+      "bracket_parts": [
+        "Beendet"
+      ],
+      "akkusativ_parts": [
+        "den Vertrag"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Politiker beendeten damals den jahrelangen Krieg durch Verhandlungen.",
+      "translation": {
+        "ru": "Политики тогда положили конец многолетней войне путем переговоров.",
+        "en": "The politicians ended the years-long war through negotiations back then."
+      },
+      "bracket_parts": [
+        "beendeten"
+      ],
+      "akkusativ_parts": [
+        "den jahrelangen Krieg"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie hat ihre Ausbildung zur Buchhalterin mit Bestnote beendet.",
+      "translation": {
+        "ru": "Она окончила обучение на бухгалтера с высшим баллом.",
+        "en": "She finished her training as an accountant with top marks."
+      },
+      "bracket_parts": [
+        "hat",
+        "beendet"
+      ],
+      "akkusativ_parts": [
+        "ihre Ausbildung"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Beende bitte sofort dieses unnötige Telefongespräch!",
+      "translation": {
+        "ru": "Заверши этот ненужный телефонный разговор прямо сейчас, пожалуйста!",
+        "en": "Please end this unnecessary phone call immediately!"
+      },
+      "bracket_parts": [
+        "Beende"
+      ],
+      "akkusativ_parts": [
+        "dieses unnötige Telefongespräch"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

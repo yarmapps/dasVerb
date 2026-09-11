@@ -10,6 +10,7 @@ export interface CloseIconButtonProps {
   iconColor?: string;
   backgroundColor?: string;
   size?: number;
+  testID?: string;
 }
 
 export function CloseIconButton({
@@ -18,6 +19,7 @@ export function CloseIconButton({
   iconColor,
   backgroundColor,
   size = 16,
+  testID = 'close-icon-button',
 }: CloseIconButtonProps): React.JSX.Element {
   const { colors } = useAppTheme();
   const styles = useMemo(() => createStyles(), []);
@@ -31,7 +33,7 @@ export function CloseIconButton({
       activeOpacity={0.7}
       onPress={onPress}
       hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
-      testID="close-icon-button"
+      testID={testID}
     >
       <FontAwesome5 name="times" size={size} color={effectiveIconColor} />
     </TouchableOpacity>

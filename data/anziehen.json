@@ -1,0 +1,184 @@
+{
+  "id": "anziehen",
+  "infinitive": "anziehen",
+  "translation": {
+    "ru": "надевать (одежду); притягивать",
+    "en": "to put on (clothes), attract"
+  },
+  "level": "A1",
+  "frequency_rank": 356,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "anziehen",
+    "present_3sg": "zieht an",
+    "praeteritum_3sg": "zog an",
+    "partizip_2": "angezogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ziehe an",
+      "du": "ziehst an",
+      "er_sie_es": "zieht an",
+      "wir": "ziehen an",
+      "ihr": "zieht an",
+      "sie_Sie": "ziehen an"
+    },
+    "praeteritum": {
+      "ich": "zog an",
+      "du": "zogst an",
+      "er_sie_es": "zog an",
+      "wir": "zogen an",
+      "ihr": "zogt an",
+      "sie_Sie": "zogen an"
+    },
+    "imperative": {
+      "du": "ziehe an!",
+      "ihr": "zieht an!",
+      "Sie": "ziehen Sie an!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen warmen Mantel anziehen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich ziehe heute meine feste Jacke an.",
+      "translation": {
+        "ru": "Я надеваю сегодня свою прочную куртку.",
+        "en": "I put on my sturdy jacket today."
+      },
+      "bracket_parts": [
+        "ziehe",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "meine feste Jacke"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Ziehst du bei der Kälte einen Schal an?",
+      "translation": {
+        "ru": "Ты надеваешь шарф в такой холод?",
+        "en": "Do you put on a scarf in the cold?"
+      },
+      "bracket_parts": [
+        "Ziehst",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "einen Schal"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Ausstellung zieht tausende Touristen an.",
+      "translation": {
+        "ru": "Выставка привлекает тысячи туристов.",
+        "en": "The exhibition attracts thousands of tourists."
+      },
+      "bracket_parts": [
+        "zieht",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "tausende Touristen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir ziehen die bequemen Wanderschuhe an.",
+      "translation": {
+        "ru": "Мы надеваем удобные трекинговые ботинки.",
+        "en": "We put on the comfortable hiking boots."
+      },
+      "bracket_parts": [
+        "ziehen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die bequemen Wanderschuhe"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Zieht ihr heute Abend ein schickes Kleid an?",
+      "translation": {
+        "ru": "Вы надеваете сегодня вечером нарядное платье?",
+        "en": "Are you guys putting on a chic dress this evening?"
+      },
+      "bracket_parts": [
+        "Zieht",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "ein schickes Kleid"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie zogen sofort ihre dicken Wintermäntel an.",
+      "translation": {
+        "ru": "Они сразу надели свои теплые зимние пальто.",
+        "en": "They immediately put on their thick winter coats."
+      },
+      "bracket_parts": [
+        "zogen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "ihre dicken Wintermäntel"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Mein Sohn hat heute ganz alleine seine Schuhe angezogen.",
+      "translation": {
+        "ru": "Мой сын сегодня сам надел свои туфли.",
+        "en": "My son put on his shoes all by himself today."
+      },
+      "bracket_parts": [
+        "hat",
+        "angezogen"
+      ],
+      "akkusativ_parts": [
+        "seine Schuhe"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Zieh bitte eine Mütze an!",
+      "translation": {
+        "ru": "Надень шапку, пожалуйста!",
+        "en": "Please put on a beanie!"
+      },
+      "bracket_parts": [
+        "Zieh",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "eine Mütze"
+      ]
+    }
+  ]
+}

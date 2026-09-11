@@ -1,0 +1,198 @@
+{
+  "id": "wuenschen",
+  "infinitive": "wünschen",
+  "translation": {
+    "ru": "желать (кому-то что-то), хотеть (себе)",
+    "en": "to wish, desire"
+  },
+  "level": "A1",
+  "frequency_rank": 163,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "wünschen",
+    "present_3sg": "wünscht",
+    "praeteritum_3sg": "wünschte",
+    "partizip_2": "gewünscht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wünsche",
+      "du": "wünschst",
+      "er_sie_es": "wünscht",
+      "wir": "wünschen",
+      "ihr": "wünscht",
+      "sie_Sie": "wünschen"
+    },
+    "praeteritum": {
+      "ich": "wünschte",
+      "du": "wünschtest",
+      "er_sie_es": "wünschte",
+      "wir": "wünschten",
+      "ihr": "wünschtet",
+      "sie_Sie": "wünschten"
+    },
+    "imperative": {
+      "du": "wünsche!",
+      "ihr": "wünscht!",
+      "Sie": "wünschen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "alles Gute wünschen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich wünsche dir alles Gute zum Geburtstag.",
+      "translation": {
+        "ru": "Я желаю тебе всего наилучшего на день рождения.",
+        "en": "I wish you all the best for your birthday."
+      },
+      "bracket_parts": [
+        "wünsche"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "alles Gute"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Wünschst du dir ein neues Fahrrad zu Weihnachten?",
+      "translation": {
+        "ru": "Ты хочешь себе новый велосипед на Рождество?",
+        "en": "Do you wish for a new bike for Christmas?"
+      },
+      "bracket_parts": [
+        "Wünschst"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "ein neues Fahrrad"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Lehrerin wünscht den Schülern schöne Ferien.",
+      "translation": {
+        "ru": "Учительница желает ученикам хороших каникул.",
+        "en": "The teacher wishes the students nice holidays."
+      },
+      "bracket_parts": [
+        "wünscht"
+      ],
+      "dativ_parts": [
+        "den Schülern"
+      ],
+      "akkusativ_parts": [
+        "schöne Ferien"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir wünschen Ihnen einen angenehmen Flug.",
+      "translation": {
+        "ru": "Мы желаем вам приятного полета.",
+        "en": "We wish you a pleasant flight."
+      },
+      "bracket_parts": [
+        "wünschen"
+      ],
+      "dativ_parts": [
+        "Ihnen"
+      ],
+      "akkusativ_parts": [
+        "einen angenehmen Flug"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Wünscht ihr euch mehr Freizeit im Alltag?",
+      "translation": {
+        "ru": "Вы хотите себе больше свободного времени в будни?",
+        "en": "Do you guys wish for more free time in everyday life?"
+      },
+      "bracket_parts": [
+        "Wünscht"
+      ],
+      "dativ_parts": [
+        "euch"
+      ],
+      "akkusativ_parts": [
+        "mehr Freizeit"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie wünschten einander viel Erfolg bei der Prüfung.",
+      "translation": {
+        "ru": "Они пожелали друг другу больших успехов на экзамене.",
+        "en": "They wished each other much success on the exam."
+      },
+      "bracket_parts": [
+        "wünschten"
+      ],
+      "akkusativ_parts": [
+        "viel Erfolg"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Meine Eltern haben mir eine gute Reise gewünscht.",
+      "translation": {
+        "ru": "Родители пожелали мне счастливого пути.",
+        "en": "My parents wished me a good trip."
+      },
+      "bracket_parts": [
+        "haben",
+        "gewünscht"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "eine gute Reise"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Wünsche deinen Gästen einen schönen Abend!",
+      "translation": {
+        "ru": "Пожелай своим гостям приятного вечера!",
+        "en": "Wish your guests a pleasant evening!"
+      },
+      "bracket_parts": [
+        "Wünsche"
+      ],
+      "dativ_parts": [
+        "deinen Gästen"
+      ],
+      "akkusativ_parts": [
+        "einen schönen Abend"
+      ]
+    }
+  ]
+}

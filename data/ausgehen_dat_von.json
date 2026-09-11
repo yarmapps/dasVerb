@@ -1,0 +1,185 @@
+{
+  "id": "ausgehen_dat_von",
+  "infinitive": "ausgehen",
+  "translation": {
+    "ru": "исходить из",
+    "en": "to assume, to be based on"
+  },
+  "level": "B1",
+  "frequency_rank": 108,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ausgehen",
+    "present_3sg": "geht aus",
+    "praeteritum_3sg": "ging aus",
+    "partizip_2": "ausgegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe aus",
+      "du": "gehst aus",
+      "er_sie_es": "geht aus",
+      "wir": "gehen aus",
+      "ihr": "geht aus",
+      "sie_Sie": "gehen aus",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "ging aus",
+      "du": "gingst aus",
+      "er_sie_es": "ging aus",
+      "wir": "gingen aus",
+      "ihr": "gingt aus",
+      "sie_Sie": "gingen aus"
+    },
+    "imperative": {
+      "du": "geh aus",
+      "ihr": "geht aus",
+      "Sie": "gehen Sie aus"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "von",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "von einer Annahme (Dat) ausgehen",
+  "sentences": [
+    {
+      "id": "ausgehen_dat_von_1",
+      "tense": "Präsens",
+      "german": "Ich gehe fest von seinem pünktlichen Erscheinen aus.",
+      "translation": {
+        "ru": "Я твердо исхожу из его пунктуального появления.",
+        "en": "I firmly assume he will appear on time."
+      },
+      "bracket_parts": [
+        "gehe",
+        "aus"
+      ],
+      "dativ_parts": [
+        "von seinem pünktlichen Erscheinen"
+      ]
+    },
+    {
+      "id": "ausgehen_dat_von_2",
+      "tense": "Präsens",
+      "german": "Gehst du von einer schnellen Besserung des Wetters aus?",
+      "translation": {
+        "ru": "Ты исходишь из скорого улучшения погоды?",
+        "en": "Are you assuming a quick improvement in the weather?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "aus"
+      ],
+      "dativ_parts": [
+        "von einer schnellen Besserung"
+      ]
+    },
+    {
+      "id": "ausgehen_dat_von_3",
+      "tense": "Präsens",
+      "german": "Der Experte geht von steigenden Kosten für das Projekt aus.",
+      "translation": {
+        "ru": "Эксперт исходит из растущих затрат на проект.",
+        "en": "The expert assumes rising costs for the project."
+      },
+      "bracket_parts": [
+        "geht",
+        "aus"
+      ],
+      "dativ_parts": [
+        "von steigenden Kosten"
+      ]
+    },
+    {
+      "id": "ausgehen_dat_von_4",
+      "tense": "Präsens",
+      "german": "Wir gehen bei dieser Planung von den besten Bedingungen aus.",
+      "translation": {
+        "ru": "При этом планировании мы исходим из наилучших условий.",
+        "en": "We assume the best conditions in this planning."
+      },
+      "bracket_parts": [
+        "gehen",
+        "aus"
+      ],
+      "dativ_parts": [
+        "von den besten Bedingungen"
+      ]
+    },
+    {
+      "id": "ausgehen_dat_von_5",
+      "tense": "Präsens",
+      "german": "Geht ihr von einem baldigen Vertragsabschluss aus?",
+      "translation": {
+        "ru": "Вы рассчитываете (исходите из) скорого заключения договора?",
+        "en": "Are you assuming an early contract conclusion?"
+      },
+      "bracket_parts": [
+        "Geht",
+        "aus"
+      ],
+      "dativ_parts": [
+        "von einem baldigen Vertragsabschluss"
+      ]
+    },
+    {
+      "id": "ausgehen_dat_von_6",
+      "tense": "Präteritum",
+      "german": "Sie gingen damals von ganz anderen Voraussetzungen aus.",
+      "translation": {
+        "ru": "Они исходили тогда из совершенно других предпосылок.",
+        "en": "They assumed completely different conditions back then."
+      },
+      "bracket_parts": [
+        "gingen",
+        "aus"
+      ],
+      "dativ_parts": [
+        "von ganz anderen Voraussetzungen"
+      ]
+    },
+    {
+      "id": "ausgehen_dat_von_7",
+      "tense": "Perfekt",
+      "german": "Ich bin immer von seiner Ehrlichkeit ausgegangen.",
+      "translation": {
+        "ru": "Я всегда исходил из его честности.",
+        "en": "I have always assumed his honesty."
+      },
+      "bracket_parts": [
+        "bin",
+        "ausgegangen"
+      ],
+      "dativ_parts": [
+        "von seiner Ehrlichkeit"
+      ]
+    },
+    {
+      "id": "ausgehen_dat_von_8",
+      "tense": "Imperativ",
+      "german": "Geh im Zweifel immer von den Tatsachen aus!",
+      "translation": {
+        "ru": "В случае сомнений всегда исходи из фактов!",
+        "en": "When in doubt, always proceed from the facts!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "aus"
+      ],
+      "dativ_parts": [
+        "von den Tatsachen"
+      ]
+    }
+  ]
+}

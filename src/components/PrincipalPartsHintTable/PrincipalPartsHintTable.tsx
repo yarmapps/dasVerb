@@ -114,11 +114,12 @@ function detectPronounInfo(
   };
 }
 
-interface PrincipalPartsHintTableProps {
+export interface PrincipalPartsHintTableProps {
   principalParts: PrincipalParts;
-  auxiliary: AuxiliaryVerb;
+  auxiliary?: AuxiliaryVerb;
   conjugation?: VerbConjugation;
   sentenceText?: string;
+  embedded?: boolean;
 }
 
 export function PrincipalPartsHintTable({
@@ -126,6 +127,7 @@ export function PrincipalPartsHintTable({
   auxiliary,
   conjugation,
   sentenceText,
+  embedded = false,
 }: PrincipalPartsHintTableProps): React.JSX.Element {
   const intl = useIntl();
   const { colors } = useAppTheme();
@@ -164,7 +166,10 @@ export function PrincipalPartsHintTable({
   const perfektForm = `${auxWord} ${partizip2}`;
 
   return (
-    <View style={styles.container} testID="principal-parts-hint-table">
+    <View
+      style={embedded ? styles.embeddedContainer : styles.container}
+      testID="principal-parts-hint-table"
+    >
       <View style={styles.header}>
         <Ionicons name="layers-outline" size={16} color={colors.textSecondary} />
         <Text style={styles.title}>

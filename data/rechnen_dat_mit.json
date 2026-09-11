@@ -1,0 +1,177 @@
+{
+  "id": "rechnen_dat_mit",
+  "infinitive": "rechnen",
+  "translation": {
+    "ru": "рассчитывать (на что-то), ожидать",
+    "en": "to reckon with, count on, expect"
+  },
+  "level": "B1",
+  "frequency_rank": 150,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "rechnen",
+    "present_3sg": "rechnet",
+    "praeteritum_3sg": "rechnete",
+    "partizip_2": "gerechnet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "rechne",
+      "du": "rechnest",
+      "er_sie_es": "rechnet",
+      "wir": "rechnen",
+      "ihr": "rechnet",
+      "sie_Sie": "rechnen"
+    },
+    "praeteritum": {
+      "ich": "rechnete",
+      "du": "rechnetest",
+      "er_sie_es": "rechnete",
+      "wir": "rechneten",
+      "ihr": "rechnetet",
+      "sie_Sie": "rechneten"
+    },
+    "imperative": {
+      "du": "rechne!",
+      "ihr": "rechnet!",
+      "Sie": "rechnen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "chunk": "mit Schwierigkeiten rechnen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich rechne fest mit deiner tatkräftigen Hilfe.",
+      "translation": {
+        "ru": "Я твердо рассчитываю на твою деятельную помощь.",
+        "en": "I firmly count on your energetic help."
+      },
+      "bracket_parts": [
+        "rechne"
+      ],
+      "dativ_parts": [
+        "deiner tatkräftigen Hilfe"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Rechnest du mit Verspätungen bei der Bahn?",
+      "translation": {
+        "ru": "Ты ожидаешь опозданий на железной дороге?",
+        "en": "Do you expect delays with the train?"
+      },
+      "bracket_parts": [
+        "Rechnest"
+      ],
+      "dativ_parts": [
+        "Verspätungen"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Meteorologe rechnet mit starkem Regen am Abend.",
+      "translation": {
+        "ru": "Метеоролог ожидает сильный дождь вечером.",
+        "en": "The meteorologist expects heavy rain in the evening."
+      },
+      "bracket_parts": [
+        "rechnet"
+      ],
+      "dativ_parts": [
+        "starkem Regen"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir rechnen mit einer schnellen Einigung.",
+      "translation": {
+        "ru": "Мы рассчитываем на быстрое соглашение.",
+        "en": "We count on a quick agreement."
+      },
+      "bracket_parts": [
+        "rechnen"
+      ],
+      "dativ_parts": [
+        "einer schnellen Einigung"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Rechnet ihr mit weiteren Kosten für das Projekt?",
+      "translation": {
+        "ru": "Вы рассчитываете на дополнительные расходы по проекту?",
+        "en": "Do you guys expect further costs for the project?"
+      },
+      "bracket_parts": [
+        "Rechnet"
+      ],
+      "dativ_parts": [
+        "weiteren Kosten"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie rechneten damals nicht mit einem solchen Erfolg.",
+      "translation": {
+        "ru": "Они тогда не рассчитывали на такой успех.",
+        "en": "They did not expect such success at the time."
+      },
+      "bracket_parts": [
+        "rechneten"
+      ],
+      "dativ_parts": [
+        "einem solchen Erfolg"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Niemand hat mit diesem plötzlichen Ergebnis gerechnet.",
+      "translation": {
+        "ru": "Никто не ожидал такого внезапного результата.",
+        "en": "Nobody counted on this sudden result."
+      },
+      "bracket_parts": [
+        "hat",
+        "gerechnet"
+      ],
+      "dativ_parts": [
+        "diesem plötzlichen Ergebnis"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Rechne immer mit dem Unerwarteten!",
+      "translation": {
+        "ru": "Всегда рассчитывай на неожиданности!",
+        "en": "Always expect the unexpected!"
+      },
+      "bracket_parts": [
+        "Rechne"
+      ],
+      "dativ_parts": [
+        "dem Unerwarteten"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "rechnen",
+  "infinitive": "rechnen",
+  "translation": {
+    "ru": "считать, вычислять",
+    "en": "to calculate, do math"
+  },
+  "level": "A2",
+  "frequency_rank": 150,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "rechnen",
+    "present_3sg": "rechnet",
+    "praeteritum_3sg": "rechnete",
+    "partizip_2": "gerechnet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "rechne",
+      "du": "rechnest",
+      "er_sie_es": "rechnet",
+      "wir": "rechnen",
+      "ihr": "rechnet",
+      "sie_Sie": "rechnen"
+    },
+    "praeteritum": {
+      "ich": "rechnete",
+      "du": "rechnetest",
+      "er_sie_es": "rechnete",
+      "wir": "rechneten",
+      "ihr": "rechnetet",
+      "sie_Sie": "rechneten"
+    },
+    "imperative": {
+      "du": "rechne!",
+      "ihr": "rechnet!",
+      "Sie": "rechnen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "schnell im Kopf rechnen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich rechne die Gesamtsumme schnell im Kopf aus.",
+      "translation": {
+        "ru": "Я быстро вычисляю общую сумму в уме.",
+        "en": "I calculate the total sum quickly in my head."
+      },
+      "bracket_parts": [
+        "rechne"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Rechnest du lieber mit dem Taschenrechner?",
+      "translation": {
+        "ru": "Ты предпочитаешь считать на калькуляторе?",
+        "en": "Do you prefer calculating with a calculator?"
+      },
+      "bracket_parts": [
+        "Rechnest"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Das Kind rechnet schon bis hundert.",
+      "translation": {
+        "ru": "Ребенок уже считает до ста.",
+        "en": "The child already counts up to a hundred."
+      },
+      "bracket_parts": [
+        "rechnet"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir rechnen alle Ausgaben für den Monat zusammen.",
+      "translation": {
+        "ru": "Мы подсчитываем все расходы за месяц.",
+        "en": "We calculate all expenses for the month."
+      },
+      "bracket_parts": [
+        "rechnen"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Rechnet ihr die Steuern selbst aus?",
+      "translation": {
+        "ru": "Вы сами рассчитываете налоги?",
+        "en": "Do you guys calculate the taxes yourselves?"
+      },
+      "bracket_parts": [
+        "Rechnet"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie rechneten den ganzen Vormittag an der schwierigen Aufgabe.",
+      "translation": {
+        "ru": "Они все утро считали сложную задачу.",
+        "en": "They calculated the difficult task all morning."
+      },
+      "bracket_parts": [
+        "rechneten"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Der Ingenieur hat die genauen Werte sorgfältig gerechnet.",
+      "translation": {
+        "ru": "Инженер тщательно рассчитал точные значения.",
+        "en": "The engineer calculated the exact values carefully."
+      },
+      "bracket_parts": [
+        "hat",
+        "gerechnet"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Rechne bitte noch einmal genau nach!",
+      "translation": {
+        "ru": "Пересчитай точно еще раз, пожалуйста!",
+        "en": "Please calculate again carefully!"
+      },
+      "bracket_parts": [
+        "Rechne"
+      ]
+    }
+  ]
+}

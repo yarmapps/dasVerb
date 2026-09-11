@@ -1,0 +1,200 @@
+{
+  "id": "vorstellen_akk",
+  "infinitive": "vorstellen",
+  "translation": {
+    "ru": "представлять, знакомить",
+    "en": "to introduce, to present"
+  },
+  "level": "A2",
+  "frequency_rank": 66,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "vor",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vorstellen",
+    "present_3sg": "stellt vor",
+    "praeteritum_3sg": "stellte vor",
+    "partizip_2": "vorgestellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stelle vor",
+      "du": "stellst vor",
+      "er_sie_es": "stellt vor",
+      "wir": "stellen vor",
+      "ihr": "stellt vor",
+      "sie_Sie": "stellen vor",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "stellte vor",
+      "du": "stelltest vor",
+      "er_sie_es": "stellte vor",
+      "wir": "stellten vor",
+      "ihr": "stelltet vor",
+      "sie_Sie": "stellten vor"
+    },
+    "imperative": {
+      "du": "stell vor",
+      "ihr": "stellt vor",
+      "Sie": "stellen Sie vor"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen Freund (Akk) vorstellen",
+  "sentences": [
+    {
+      "id": "vorstellen_akk_1",
+      "tense": "Präsens",
+      "german": "Ich stelle meinen besten Freund meinen Eltern vor.",
+      "translation": {
+        "ru": "Я представляю своего лучшего друга моим родителям.",
+        "en": "I introduce my best friend to my parents."
+      },
+      "bracket_parts": [
+        "stelle",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "meinen besten Freund"
+      ],
+      "dativ_parts": [
+        "meinen Eltern"
+      ]
+    },
+    {
+      "id": "vorstellen_akk_2",
+      "tense": "Präsens",
+      "german": "Stellst du uns deinen neuen Kollegen vor?",
+      "translation": {
+        "ru": "Ты познакомишь нас со своим новым коллегой?",
+        "en": "Will you introduce your new colleague to us?"
+      },
+      "bracket_parts": [
+        "Stellst",
+        "vor"
+      ],
+      "dativ_parts": [
+        "uns"
+      ],
+      "akkusativ_parts": [
+        "deinen neuen Kollegen"
+      ]
+    },
+    {
+      "id": "vorstellen_akk_3",
+      "tense": "Präsens",
+      "german": "Der Chef stellt den neuen Mitarbeiter vor.",
+      "translation": {
+        "ru": "Начальник представляет нового сотрудника.",
+        "en": "The boss introduces the new employee."
+      },
+      "bracket_parts": [
+        "stellt",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "den neuen Mitarbeiter"
+      ]
+    },
+    {
+      "id": "vorstellen_akk_4",
+      "tense": "Präsens",
+      "german": "Wir stellen heute unser neues Projekt vor.",
+      "translation": {
+        "ru": "Мы представляем сегодня наш новый проект.",
+        "en": "We are presenting our new project today."
+      },
+      "bracket_parts": [
+        "stellen",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "unser neues Projekt"
+      ]
+    },
+    {
+      "id": "vorstellen_akk_5",
+      "tense": "Präsens",
+      "german": "Stellt ihr der Gruppe eure Idee vor?",
+      "translation": {
+        "ru": "Вы представите группе вашу идею?",
+        "en": "Will you introduce your idea to the group?"
+      },
+      "bracket_parts": [
+        "Stellt",
+        "vor"
+      ],
+      "dativ_parts": [
+        "der Gruppe"
+      ],
+      "akkusativ_parts": [
+        "eure Idee"
+      ]
+    },
+    {
+      "id": "vorstellen_akk_6",
+      "tense": "Präteritum",
+      "german": "Sie stellten damals ein innovatives Produkt vor.",
+      "translation": {
+        "ru": "Они представили тогда инновационный продукт.",
+        "en": "They presented an innovative product back then."
+      },
+      "bracket_parts": [
+        "stellten",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "ein innovatives Produkt"
+      ]
+    },
+    {
+      "id": "vorstellen_akk_7",
+      "tense": "Perfekt",
+      "german": "Ich habe der Familie meine Verlobte vorgestellt.",
+      "translation": {
+        "ru": "Я представил семье свою невесту.",
+        "en": "I introduced my fiancée to the family."
+      },
+      "bracket_parts": [
+        "habe",
+        "vorgestellt"
+      ],
+      "dativ_parts": [
+        "der Familie"
+      ],
+      "akkusativ_parts": [
+        "meine Verlobte"
+      ]
+    },
+    {
+      "id": "vorstellen_akk_8",
+      "tense": "Imperativ",
+      "german": "Stell den neuen Gast bitte allen vor!",
+      "translation": {
+        "ru": "Представь нового гостя всем, пожалуйста!",
+        "en": "Please introduce the new guest to everyone!"
+      },
+      "bracket_parts": [
+        "Stell",
+        "vor"
+      ],
+      "akkusativ_parts": [
+        "den neuen Gast"
+      ],
+      "dativ_parts": [
+        "allen"
+      ]
+    }
+  ]
+}

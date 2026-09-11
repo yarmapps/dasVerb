@@ -1,0 +1,178 @@
+{
+  "id": "anstreben",
+  "infinitive": "anstreben",
+  "translation": {
+    "ru": "стремиться к чему-либо, добиваться",
+    "en": "to aim at, strive for"
+  },
+  "level": "B2",
+  "frequency_rank": 473,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "anstreben",
+    "present_3sg": "strebt an",
+    "praeteritum_3sg": "strebte an",
+    "partizip_2": "angestrebt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "strebe an",
+      "du": "strebst an",
+      "er_sie_es": "strebt an",
+      "wir": "streben an",
+      "ihr": "strebt an",
+      "sie_Sie": "streben an"
+    },
+    "praeteritum": {
+      "ich": "strebte an",
+      "du": "strebtest an",
+      "er_sie_es": "strebte an",
+      "wir": "strebten an",
+      "ihr": "strebtet an",
+      "sie_Sie": "strebten an"
+    },
+    "perfekt": {
+      "ich": "habe angestrebt",
+      "du": "hast angestrebt",
+      "er_sie_es": "hat angestrebt",
+      "wir": "haben angestrebt",
+      "ihr": "habt angestrebt",
+      "sie_Sie": "haben angestrebt"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich strebe einen schnellen Abschluss meines Studiums an.",
+      "translation": {
+        "ru": "Я стремлюсь к быстрому завершению учебы.",
+        "en": "I aim for a speedy completion of my studies."
+      },
+      "bracket_parts": [
+        "strebe",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "einen schnellen Abschluss"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du strebst eine Beförderung in deiner Abteilung an.",
+      "translation": {
+        "ru": "Ты стремишься к повышению в своем отделе.",
+        "en": "You strive for a promotion in your department."
+      },
+      "bracket_parts": [
+        "strebst",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "eine Beförderung"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Unternehmen strebt eine deutliche Gewinnsteigerung an.",
+      "translation": {
+        "ru": "Компания стремится к значительному росту прибыли.",
+        "en": "The enterprise aims for a significant increase in profits."
+      },
+      "bracket_parts": [
+        "strebt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "eine deutliche Gewinnsteigerung"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir streben eine friedliche Lösung des Konflikts an.",
+      "translation": {
+        "ru": "Мы стремимся к мирному решению конфликта.",
+        "en": "We aim for a peaceful solution to the conflict."
+      },
+      "bracket_parts": [
+        "streben",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "eine friedliche Lösung des Konflikts"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr strebt immer hervorragende Noten bei Prüfungen an.",
+      "translation": {
+        "ru": "Вы всегда стремитесь к отличным оценкам на экзаменах.",
+        "en": "You always strive for excellent grades on exams."
+      },
+      "bracket_parts": [
+        "strebt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "hervorragende Noten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie strebten damals eine enge Zusammenarbeit mit Nachbarn an.",
+      "translation": {
+        "ru": "Они тогда стремились к тесному сотрудничеству с соседями.",
+        "en": "They aimed for close cooperation with neighbors back then."
+      },
+      "bracket_parts": [
+        "strebten",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "eine enge Zusammenarbeit"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Forscher haben eine internationale Kooperation angestrebt.",
+      "translation": {
+        "ru": "Исследователи стремились к международному сотрудничеству.",
+        "en": "The researchers aimed for international cooperation."
+      },
+      "bracket_parts": [
+        "haben",
+        "angestrebt"
+      ],
+      "akkusativ_parts": [
+        "eine internationale Kooperation"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Strebe stets ein klares Ziel vor Augen an!",
+      "translation": {
+        "ru": "Всегда стремись к четкой цели перед глазами!",
+        "en": "Always strive for a clear goal in sight!"
+      },
+      "bracket_parts": [
+        "Strebe",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "ein klares Ziel"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

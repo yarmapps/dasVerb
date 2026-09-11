@@ -1,0 +1,177 @@
+{
+  "id": "verfolgen",
+  "infinitive": "verfolgen",
+  "translation": {
+    "ru": "преследовать; внимательно следить (за ходом событий)",
+    "en": "to pursue, follow, track"
+  },
+  "level": "B1",
+  "frequency_rank": 270,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verfolgen",
+    "present_3sg": "verfolgt",
+    "praeteritum_3sg": "verfolgte",
+    "partizip_2": "verfolgt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verfolge",
+      "du": "verfolgst",
+      "er_sie_es": "verfolgt",
+      "wir": "verfolgen",
+      "ihr": "verfolgt",
+      "sie_Sie": "verfolgen"
+    },
+    "praeteritum": {
+      "ich": "verfolgte",
+      "du": "verfolgtest",
+      "er_sie_es": "verfolgte",
+      "wir": "verfolgten",
+      "ihr": "verfolgtet",
+      "sie_Sie": "verfolgten"
+    },
+    "imperative": {
+      "du": "verfolge!",
+      "ihr": "verfolgt!",
+      "Sie": "verfolgen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein Ziel konsequent verfolgen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verfolge die aktuellen Nachrichten jeden Tag im Internet.",
+      "translation": {
+        "ru": "Я каждый день слежу за актуальными новостями в интернете.",
+        "en": "I follow the current news on the internet every day."
+      },
+      "bracket_parts": [
+        "verfolge"
+      ],
+      "akkusativ_parts": [
+        "die aktuellen Nachrichten"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verfolgst du das Fußballspiel live im Fernsehen?",
+      "translation": {
+        "ru": "Ты смотришь футбольный матч в прямом эфире по телевизору?",
+        "en": "Are you watching the football match live on TV?"
+      },
+      "bracket_parts": [
+        "Verfolgst"
+      ],
+      "akkusativ_parts": [
+        "das Fußballspiel"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Polizei verfolgt die Spur des Täters mit Spürhunden.",
+      "translation": {
+        "ru": "Полиция идет по следу преступника со служебными собаками.",
+        "en": "The police pursue the perpetrator's trail with sniffer dogs."
+      },
+      "bracket_parts": [
+        "verfolgt"
+      ],
+      "akkusativ_parts": [
+        "die Spur des Täters"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verfolgen unsere beruflichen Ziele sehr konsequent.",
+      "translation": {
+        "ru": "Мы очень последовательно идем к своим профессиональным целям.",
+        "en": "We pursue our professional goals very consistently."
+      },
+      "bracket_parts": [
+        "verfolgen"
+      ],
+      "akkusativ_parts": [
+        "unsere beruflichen Ziele"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verfolgt ihr die Debatte im Parlament aufmerksam?",
+      "translation": {
+        "ru": "Вы внимательно следите за дебатами в парламенте?",
+        "en": "Do you guys follow the debate in parliament attentively?"
+      },
+      "bracket_parts": [
+        "Verfolgt"
+      ],
+      "akkusativ_parts": [
+        "die Debatte im Parlament"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie verfolgten das Fluchtfahrzeug über viele Kilometer.",
+      "translation": {
+        "ru": "Они преследовали машину беглецов на протяжении многих километров.",
+        "en": "They pursued the getaway vehicle over many kilometers."
+      },
+      "bracket_parts": [
+        "verfolgten"
+      ],
+      "akkusativ_parts": [
+        "das Fluchtfahrzeug"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Millionen Menschen haben das Sportereignis am Bildschirm verfolgt.",
+      "translation": {
+        "ru": "Миллионы людей следили за спортивным событием у экранов.",
+        "en": "Millions of people followed the sports event on screen."
+      },
+      "bracket_parts": [
+        "haben",
+        "verfolgt"
+      ],
+      "akkusativ_parts": [
+        "das Sportereignis"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verfolge deine eigenen Träume mit Mut!",
+      "translation": {
+        "ru": "Смело следуй за своими мечтами!",
+        "en": "Pursue your own dreams with courage!"
+      },
+      "bracket_parts": [
+        "Verfolge"
+      ],
+      "akkusativ_parts": [
+        "deine eigenen Träume"
+      ]
+    }
+  ]
+}

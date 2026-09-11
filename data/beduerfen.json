@@ -1,0 +1,169 @@
+{
+  "id": "beduerfen",
+  "infinitive": "bedürfen",
+  "translation": {
+    "ru": "нуждаться, требовать (чего-то)",
+    "en": "to require, need"
+  },
+  "level": "B2",
+  "frequency_rank": 397,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "mixed",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bedürfen",
+    "present_3sg": "bedarf",
+    "praeteritum_3sg": "bedurfte",
+    "partizip_2": "bedurft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bedarf",
+      "du": "bedarfst",
+      "er_sie_es": "bedarf",
+      "wir": "bedürfen",
+      "ihr": "bedürft",
+      "sie_Sie": "bedürfen"
+    },
+    "praeteritum": {
+      "ich": "bedurfte",
+      "du": "bedurftest",
+      "er_sie_es": "bedurfte",
+      "wir": "bedurften",
+      "ihr": "bedurftet",
+      "sie_Sie": "bedurften"
+    },
+    "imperative": {
+      "du": "bedürfe!",
+      "ihr": "bedürft!",
+      "Sie": "bedürfen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Genitiv",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einer Erklärung bedürfen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich bedarf in dieser schwierigen Phase der Unterstützung meiner Freunde.",
+      "translation": {
+        "ru": "На этом трудном этапе я нуждаюсь в поддержке моих друзей.",
+        "en": "In this difficult phase I require the support of my friends."
+      },
+      "bracket_parts": [
+        "bedarf"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Bedarfst du bei dieser komplizierten Arbeit fachlicher Hilfe?",
+      "translation": {
+        "ru": "Тебе требуется квалифицированная помощь в этой сложной работе?",
+        "en": "Do you need expert help with this complicated work?"
+      },
+      "bracket_parts": [
+        "Bedarfst"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Diese klare Situation bedarf keiner weiteren Erklärung.",
+      "translation": {
+        "ru": "Эта ясная ситуация не требует дальнейших объяснений.",
+        "en": "This clear situation requires no further explanation."
+      },
+      "bracket_parts": [
+        "bedarf"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir bedürfen für das Projekt dringend finanzieller Mittel.",
+      "translation": {
+        "ru": "Для проекта нам срочно требуются финансовые средства.",
+        "en": "We urgently require financial means for the project."
+      },
+      "bracket_parts": [
+        "bedürfen"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bedürft ihr noch zusätzlicher Zeit für die Bearbeitung?",
+      "translation": {
+        "ru": "Вам требуется дополнительное время для обработки?",
+        "en": "Do you guys need additional time for processing?"
+      },
+      "bracket_parts": [
+        "Bedürft"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Plan bedurfte damals der Zustimmung des gesamten Parlaments.",
+      "translation": {
+        "ru": "План тогда требовал одобрения всего парламента.",
+        "en": "The plan required the approval of the entire parliament back then."
+      },
+      "bracket_parts": [
+        "bedurfte"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Heilung hat vieler Wochen voller Geduld und Ruhe bedurft.",
+      "translation": {
+        "ru": "Выздоровление потребовало многих недель терпения и покоя.",
+        "en": "Healing required many weeks of patience and rest."
+      },
+      "bracket_parts": [
+        "hat",
+        "bedurft"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Bedarf nicht zu vieler Worte, sondern handle sofort!",
+      "translation": {
+        "ru": "Не трать лишних слов, а действуй немедленно!",
+        "en": "Do not waste many words, act immediately!"
+      },
+      "bracket_parts": [
+        "Bedarf"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    }
+  ]
+}

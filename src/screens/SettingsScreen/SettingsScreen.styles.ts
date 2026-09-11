@@ -57,11 +57,17 @@ export const createStyles = (colors: ThemeColors) =>
       marginRight: Spacing.md,
       overflow: 'hidden',
     },
+    dangerIconContainer: {
+      backgroundColor: '#EF444420',
+    },
     rowLabel: {
       fontSize: Typography.fontSize.sm,
       color: colors.textPrimary,
       fontWeight: '500',
       flex: 1,
+    },
+    dangerRowLabel: {
+      color: '#EF4444',
     },
     rowRight: {
       flexDirection: 'row',

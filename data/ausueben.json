@@ -1,0 +1,192 @@
+{
+  "id": "ausueben",
+  "infinitive": "ausüben",
+  "translation": {
+    "ru": "осуществлять, исполнять (профессию), оказывать (влияние/давление)",
+    "en": "to practice (profession), exert, exercise"
+  },
+  "level": "B2",
+  "frequency_rank": 412,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ausüben",
+    "present_3sg": "übt aus",
+    "praeteritum_3sg": "übte aus",
+    "partizip_2": "ausgeübt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "übe aus",
+      "du": "übst aus",
+      "er_sie_es": "übt aus",
+      "wir": "üben aus",
+      "ihr": "übt aus",
+      "sie_Sie": "üben aus"
+    },
+    "praeteritum": {
+      "ich": "übte aus",
+      "du": "übtest aus",
+      "er_sie_es": "übte aus",
+      "wir": "übten aus",
+      "ihr": "übtet aus",
+      "sie_Sie": "übten aus"
+    },
+    "imperative": {
+      "du": "übe aus!",
+      "ihr": "übt aus!",
+      "Sie": "üben Sie aus!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "einen Beruf ausüben",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich übe meinen erlernten Beruf als Ingenieur mit Freude aus.",
+      "translation": {
+        "ru": "Я с радостью работаю по своей полученной профессии инженера.",
+        "en": "I practice my learned profession as an engineer with joy."
+      },
+      "bracket_parts": [
+        "übe",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "meinen erlernten Beruf"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Übst du auf deine Mitarbeiter oft unnötigen Druck aus?",
+      "translation": {
+        "ru": "Ты часто оказываешь на своих сотрудников лишнее давление?",
+        "en": "Do you often exert unnecessary pressure on your employees?"
+      },
+      "bracket_parts": [
+        "Übst",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "unnötigen Druck"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Präsident übt sein verfassungsmäßiges Amt gewissenhaft aus.",
+      "translation": {
+        "ru": "Президент добросовестно исполняет свои конституционные обязанности.",
+        "en": "The president exercises his constitutional office conscientiously."
+      },
+      "bracket_parts": [
+        "übt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "sein verfassungsmäßiges Amt"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir üben unser verfassungsmäßiges Recht auf freie Meinungsäußerung aus.",
+      "translation": {
+        "ru": "Мы пользуемся нашим конституционным правом на свободу выражения мнений.",
+        "en": "We exercise our constitutional right to freedom of expression."
+      },
+      "bracket_parts": [
+        "üben",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "unser verfassungsmäßiges Recht"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Übt ihr im Vorstand großen Einfluss auf die Entscheidungen aus?",
+      "translation": {
+        "ru": "Вы в совете директоров оказываете большое влияние на решения?",
+        "en": "Do you guys exert great influence on decisions on the board?"
+      },
+      "bracket_parts": [
+        "Übt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "großen Einfluss"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Arzt übte damals seine medizinische Praxis auf dem Land aus.",
+      "translation": {
+        "ru": "Врач тогда вел свою медицинскую практику в сельской местности.",
+        "en": "The doctor practiced his medical practice in the countryside back then."
+      },
+      "bracket_parts": [
+        "übte",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "seine medizinische Praxis"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Gewerkschaften haben starken Druck auf die Verhandlungen ausgeübt.",
+      "translation": {
+        "ru": "Профсоюзы оказали сильное давление на переговоры.",
+        "en": "The unions exerted strong pressure on the negotiations."
+      },
+      "bracket_parts": [
+        "haben",
+        "ausgeübt"
+      ],
+      "akkusativ_parts": [
+        "starken Druck"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Übe bitte dein Stimmrecht bei der morgigen Wahl aus!",
+      "translation": {
+        "ru": "Воспользуйся своим правом голоса на завтрашних выборах, пожалуйста!",
+        "en": "Please exercise your right to vote in tomorrow's election!"
+      },
+      "bracket_parts": [
+        "Übe",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "dein Stimmrecht"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

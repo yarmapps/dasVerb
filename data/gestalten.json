@@ -1,0 +1,185 @@
+{
+  "id": "gestalten",
+  "infinitive": "gestalten",
+  "translation": {
+    "ru": "оформлять, придавать форму, организовывать",
+    "en": "to design, shape, organize"
+  },
+  "level": "B1",
+  "frequency_rank": 351,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ge",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "gestalten",
+    "present_3sg": "gestaltet",
+    "praeteritum_3sg": "gestaltete",
+    "partizip_2": "gestaltet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gestalte",
+      "du": "gestaltest",
+      "er_sie_es": "gestaltet",
+      "wir": "gestalten",
+      "ihr": "gestaltet",
+      "sie_Sie": "gestalten"
+    },
+    "praeteritum": {
+      "ich": "gestaltete",
+      "du": "gestaltetest",
+      "er_sie_es": "gestaltete",
+      "wir": "gestalteten",
+      "ihr": "gestaltetet",
+      "sie_Sie": "gestalteten"
+    },
+    "imperative": {
+      "du": "gestalte!",
+      "ihr": "gestaltet!",
+      "Sie": "gestalten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Zukunft aktiv gestalten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich gestalte mein Arbeitszimmer ganz nach meinen eigenen Wünschen.",
+      "translation": {
+        "ru": "Я обустраиваю свой рабочий кабинет в соответствии со своими пожеланиями.",
+        "en": "I design my study entirely according to my own wishes."
+      },
+      "bracket_parts": [
+        "gestalte"
+      ],
+      "akkusativ_parts": [
+        "mein Arbeitszimmer"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Gestaltest du das Titelbild für unser neues Magazin?",
+      "translation": {
+        "ru": "Ты оформляешь обложку для нашего нового журнала?",
+        "en": "Are you designing the cover picture for our new magazine?"
+      },
+      "bracket_parts": [
+        "Gestaltest"
+      ],
+      "akkusativ_parts": [
+        "das Titelbild"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Künstlerin gestaltet eine eindrucksvolle Skulptur aus Marmor.",
+      "translation": {
+        "ru": "Художница создает впечатляющую скульптуру из мрамора.",
+        "en": "The artist shapes an impressive sculpture out of marble."
+      },
+      "bracket_parts": [
+        "gestaltet"
+      ],
+      "akkusativ_parts": [
+        "eine eindrucksvolle Skulptur"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir gestalten den Unterricht abwechslungsreich und interaktiv.",
+      "translation": {
+        "ru": "Мы делаем уроки разнообразными и интерактивными.",
+        "en": "We make the lessons varied and interactive."
+      },
+      "bracket_parts": [
+        "gestalten"
+      ],
+      "akkusativ_parts": [
+        "den Unterricht"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Gestaltet ihr die Feier für eure Großeltern gemeinsam?",
+      "translation": {
+        "ru": "Вы организуете праздник для дедушки и бабушки вместе?",
+        "en": "Are you guys organizing the celebration for your grandparents together?"
+      },
+      "bracket_parts": [
+        "Gestaltet"
+      ],
+      "akkusativ_parts": [
+        "die Feier"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Architekt gestaltete damals den modernen Neubau der Universität.",
+      "translation": {
+        "ru": "Архитектор спроектировал тогда современное новое здание университета.",
+        "en": "The architect designed the modern new university building back then."
+      },
+      "bracket_parts": [
+        "gestaltete"
+      ],
+      "akkusativ_parts": [
+        "den modernen Neubau der Universität"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Bürger haben ihren Stadtteil mit vielen Ideen aktiv gestaltet.",
+      "translation": {
+        "ru": "Жители активно благоустроили свой район множеством идей.",
+        "en": "The citizens actively shaped their district with many ideas."
+      },
+      "bracket_parts": [
+        "haben",
+        "gestaltet"
+      ],
+      "akkusativ_parts": [
+        "ihren Stadtteil"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Gestalte bitte deine Präsentation übersichtlich und ansprechend!",
+      "translation": {
+        "ru": "Оформи свою презентацию наглядно и привлекательно, пожалуйста!",
+        "en": "Please design your presentation clearly and appealingly!"
+      },
+      "bracket_parts": [
+        "Gestalte"
+      ],
+      "akkusativ_parts": [
+        "deine Präsentation"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "verzichten",
+  "infinitive": "verzichten",
+  "translation": {
+    "ru": "отказываться, воздерживаться",
+    "en": "to do without, forgo, refrain"
+  },
+  "level": "B1",
+  "frequency_rank": 245,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verzichten",
+    "present_3sg": "verzichtet",
+    "praeteritum_3sg": "verzichtete",
+    "partizip_2": "verzichtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verzichte",
+      "du": "verzichtest",
+      "er_sie_es": "verzichtet",
+      "wir": "verzichten",
+      "ihr": "verzichtet",
+      "sie_Sie": "verzichten"
+    },
+    "praeteritum": {
+      "ich": "verzichtete",
+      "du": "verzichtetest",
+      "er_sie_es": "verzichtete",
+      "wir": "verzichteten",
+      "ihr": "verzichtetet",
+      "sie_Sie": "verzichteten"
+    },
+    "imperative": {
+      "du": "verzichte!",
+      "ihr": "verzichtet!",
+      "Sie": "verzichten Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "freiwillig verzichten",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich verzichte heute dankend auf das Dessert.",
+      "translation": {
+        "ru": "Я сегодня с благодарностью откажусь от десерта.",
+        "en": "I gratefully pass on dessert today."
+      },
+      "bracket_parts": [
+        "verzichte"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Verzichtest du im Alltag bewusst auf Plastik?",
+      "translation": {
+        "ru": "Ты осознанно обходишься в быту без пластика?",
+        "en": "Do you consciously do without plastic in everyday life?"
+      },
+      "bracket_parts": [
+        "Verzichtest"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Sportler verzichtet auf süße Getränke.",
+      "translation": {
+        "ru": "Спортсмен отказывается от сладких напитков.",
+        "en": "The athlete forgoes sugary drinks."
+      },
+      "bracket_parts": [
+        "verzichtet"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir verzichten gerne zugunsten der Kinder.",
+      "translation": {
+        "ru": "Мы с удовольствием уступим в пользу детей.",
+        "en": "We gladly forgo in favor of the children."
+      },
+      "bracket_parts": [
+        "verzichten"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Verzichtet ihr bei dieser Hitze auf Kaffee?",
+      "translation": {
+        "ru": "Вы отказываетесь от кофе в такую жару?",
+        "en": "Do you guys do without coffee in this heat?"
+      },
+      "bracket_parts": [
+        "Verzichtet"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie verzichteten freiwillig auf ihren Jahresbonus.",
+      "translation": {
+        "ru": "Они добровольно отказались от своего годового бонуса.",
+        "en": "They voluntarily gave up their annual bonus."
+      },
+      "bracket_parts": [
+        "verzichteten"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Er hat im Urlaub komplett auf sein Smartphone verzichtet.",
+      "translation": {
+        "ru": "В отпуске он полностью обходился без смартфона.",
+        "en": "He completely did without his smartphone during vacation."
+      },
+      "bracket_parts": [
+        "hat",
+        "verzichtet"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Verzichte einen Tag lang auf dein Auto!",
+      "translation": {
+        "ru": "Откажись на один день от машины!",
+        "en": "Do without your car for one day!"
+      },
+      "bracket_parts": [
+        "Verzichte"
+      ]
+    }
+  ]
+}

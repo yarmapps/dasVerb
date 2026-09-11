@@ -1,0 +1,171 @@
+{
+  "id": "verabschieden",
+  "infinitive": "verabschieden",
+  "translation": {
+    "ru": "провожать, принимать (закон)",
+    "en": "to see off, pass (a law)"
+  },
+  "level": "B1",
+  "frequency_rank": 451,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verabschieden",
+    "present_3sg": "verabschiedet",
+    "praeteritum_3sg": "verabschiedete",
+    "partizip_2": "verabschiedet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verabschiede",
+      "du": "verabschiedest",
+      "er_sie_es": "verabschiedet",
+      "wir": "verabschieden",
+      "ihr": "verabschiedet",
+      "sie_Sie": "verabschieden"
+    },
+    "praeteritum": {
+      "ich": "verabschiedete",
+      "du": "verabschiedetest",
+      "er_sie_es": "verabschiedete",
+      "wir": "verabschiedeten",
+      "ihr": "verabschiedetet",
+      "sie_Sie": "verabschiedeten"
+    },
+    "perfekt": {
+      "ich": "habe verabschiedet",
+      "du": "hast verabschiedet",
+      "er_sie_es": "hat verabschiedet",
+      "wir": "haben verabschiedet",
+      "ihr": "habt verabschiedet",
+      "sie_Sie": "haben verabschiedet"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich verabschiede die Abreisenden am Bahnhof.",
+      "translation": {
+        "ru": "Я провожаю отъезжающих на вокзале.",
+        "en": "I see off the departing people at the train station."
+      },
+      "bracket_parts": [
+        "verabschiede"
+      ],
+      "akkusativ_parts": [
+        "die Abreisenden"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du verabschiedest deinen Besuch herzlich an der Haustür.",
+      "translation": {
+        "ru": "Ты сердечно провожаешь своих гостей у входной двери.",
+        "en": "You see your visitors off warmly at the front door."
+      },
+      "bracket_parts": [
+        "verabschiedest"
+      ],
+      "akkusativ_parts": [
+        "deinen Besuch"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Parlament verabschiedet heute einen neuen Haushaltsplan.",
+      "translation": {
+        "ru": "Парламент принимает сегодня новый бюджетный план.",
+        "en": "Parliament passes a new budget plan today."
+      },
+      "bracket_parts": [
+        "verabschiedet"
+      ],
+      "akkusativ_parts": [
+        "einen neuen Haushaltsplan"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verabschieden unseren geschätzten Direktor in den Ruhestand.",
+      "translation": {
+        "ru": "Мы провожаем нашего уважаемого директора на пенсию.",
+        "en": "We see our valued director off into retirement."
+      },
+      "bracket_parts": [
+        "verabschieden"
+      ],
+      "akkusativ_parts": [
+        "unseren geschätzten Direktor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr verabschiedet die Gäste nach dem Abendessen.",
+      "translation": {
+        "ru": "Вы провожаете гостей после ужина.",
+        "en": "You see the guests off after dinner."
+      },
+      "bracket_parts": [
+        "verabschiedet"
+      ],
+      "akkusativ_parts": [
+        "die Gäste"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie verabschiedeten damals eine wichtige Resolution.",
+      "translation": {
+        "ru": "Они приняли тогда важную резолюцию.",
+        "en": "They passed an important resolution back then."
+      },
+      "bracket_parts": [
+        "verabschiedeten"
+      ],
+      "akkusativ_parts": [
+        "eine wichtige Resolution"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Minister haben das Gesetz einstimmig verabschiedet.",
+      "translation": {
+        "ru": "Министры единогласно приняли этот закон.",
+        "en": "The ministers passed the law unanimously."
+      },
+      "bracket_parts": [
+        "haben",
+        "verabschiedet"
+      ],
+      "akkusativ_parts": [
+        "das Gesetz"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verabschiede die Kollegen vor deiner Abreise!",
+      "translation": {
+        "ru": "Проводи коллег перед своим отъездом!",
+        "en": "Say goodbye to your colleagues before your departure!"
+      },
+      "bracket_parts": [
+        "Verabschiede"
+      ],
+      "akkusativ_parts": [
+        "die Kollegen"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

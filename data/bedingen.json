@@ -1,0 +1,171 @@
+{
+  "id": "bedingen",
+  "infinitive": "bedingen",
+  "translation": {
+    "ru": "обусловливать, вызывать",
+    "en": "to cause, necessitate, determine"
+  },
+  "level": "B2",
+  "frequency_rank": 456,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bedingen",
+    "present_3sg": "bedingt",
+    "praeteritum_3sg": "bedingte",
+    "partizip_2": "bedingt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bedinge",
+      "du": "bedingst",
+      "er_sie_es": "bedingt",
+      "wir": "bedingen",
+      "ihr": "bedingt",
+      "sie_Sie": "bedingen"
+    },
+    "praeteritum": {
+      "ich": "bedingte",
+      "du": "bedingtest",
+      "er_sie_es": "bedingte",
+      "wir": "bedingten",
+      "ihr": "bedingtet",
+      "sie_Sie": "bedingten"
+    },
+    "perfekt": {
+      "ich": "habe bedingt",
+      "du": "hast bedingt",
+      "er_sie_es": "hat bedingt",
+      "wir": "haben bedingt",
+      "ihr": "habt bedingt",
+      "sie_Sie": "haben bedingt"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich bedinge mit meiner Entscheidung den weiteren Ablauf.",
+      "translation": {
+        "ru": "Своим решением я обусловливаю дальнейший ход событий.",
+        "en": "With my decision I determine the further course of events."
+      },
+      "bracket_parts": [
+        "bedinge"
+      ],
+      "akkusativ_parts": [
+        "den weiteren Ablauf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du bedingst mit deiner Haltung das gemeinsame Vertrauen.",
+      "translation": {
+        "ru": "Своей позицией ты обусловливаешь взаимное доверие.",
+        "en": "With your attitude you determine mutual trust."
+      },
+      "bracket_parts": [
+        "bedingst"
+      ],
+      "akkusativ_parts": [
+        "das gemeinsame Vertrauen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die wirtschaftliche Krise bedingt viele Entlassungen in Firmen.",
+      "translation": {
+        "ru": "Экономический кризис влечет за собой много увольнений в фирмах.",
+        "en": "The economic crisis causes many layoffs in companies."
+      },
+      "bracket_parts": [
+        "bedingt"
+      ],
+      "akkusativ_parts": [
+        "viele Entlassungen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bedingen durch unsere Nachfrage das breite Angebot.",
+      "translation": {
+        "ru": "Своим спросом мы обусловливаем широкое предложение.",
+        "en": "Through our demand we condition the broad offer."
+      },
+      "bracket_parts": [
+        "bedingen"
+      ],
+      "akkusativ_parts": [
+        "das breite Angebot"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr bedingt mit eurem Fleiß den schulischen Erfolg.",
+      "translation": {
+        "ru": "Своим прилежанием вы обусловливаете школьный успех.",
+        "en": "With your diligence you determine school success."
+      },
+      "bracket_parts": [
+        "bedingt"
+      ],
+      "akkusativ_parts": [
+        "den schulischen Erfolg"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie bedingten damals einander in allen politischen Fragen.",
+      "translation": {
+        "ru": "Они тогда обусловливали друг друга во всех политических вопросах.",
+        "en": "They mutually conditioned each other in all political matters back then."
+      },
+      "bracket_parts": [
+        "bedingten"
+      ],
+      "akkusativ_parts": [
+        "einander"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der heftige Schneesturm hat viele Zugverspätungen bedingt.",
+      "translation": {
+        "ru": "Сильная метель вызвала задержки многих поездов.",
+        "en": "The heavy blizzard caused many train delays."
+      },
+      "bracket_parts": [
+        "hat",
+        "bedingt"
+      ],
+      "akkusativ_parts": [
+        "viele Zugverspätungen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bedinge nicht zu viele neue Vorgaben für das Vorhaben!",
+      "translation": {
+        "ru": "Не обусловливай слишком много новых требований для этого начинания!",
+        "en": "Do not condition too many new specifications for the endeavor!"
+      },
+      "bracket_parts": [
+        "Bedinge"
+      ],
+      "akkusativ_parts": [
+        "zu viele neue Vorgaben"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

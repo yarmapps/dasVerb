@@ -1,0 +1,177 @@
+{
+  "id": "entdecken",
+  "infinitive": "entdecken",
+  "translation": {
+    "ru": "открывать, обнаруживать, находить",
+    "en": "to discover, spot, detect"
+  },
+  "level": "A2",
+  "frequency_rank": 217,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ent",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "entdecken",
+    "present_3sg": "entdeckt",
+    "praeteritum_3sg": "entdeckte",
+    "partizip_2": "entdeckt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entdecke",
+      "du": "entdeckst",
+      "er_sie_es": "entdeckt",
+      "wir": "entdecken",
+      "ihr": "entdeckt",
+      "sie_Sie": "entdecken"
+    },
+    "praeteritum": {
+      "ich": "entdeckte",
+      "du": "entdecktest",
+      "er_sie_es": "entdeckte",
+      "wir": "entdeckten",
+      "ihr": "entdecktet",
+      "sie_Sie": "entdeckten"
+    },
+    "imperative": {
+      "du": "entdecke!",
+      "ihr": "entdeckt!",
+      "Sie": "entdecken Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "neue Orte entdecken",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich entdecke auf dem Spaziergang ein gemütliches Café.",
+      "translation": {
+        "ru": "Во время прогулки я открываю для себя уютное кафе.",
+        "en": "On the walk I discover a cozy cafe."
+      },
+      "bracket_parts": [
+        "entdecke"
+      ],
+      "akkusativ_parts": [
+        "ein gemütliches Café"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Entdeckst du die kleine Katze unter dem Busch?",
+      "translation": {
+        "ru": "Ты видишь маленькую кошку под кустом?",
+        "en": "Do you spot the little cat under the bush?"
+      },
+      "bracket_parts": [
+        "Entdeckst"
+      ],
+      "akkusativ_parts": [
+        "die kleine Katze"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Forscher entdeckt eine bisher unbekannte Tierart.",
+      "translation": {
+        "ru": "Исследователь открывает ранее неизвестный вид животных.",
+        "en": "The researcher discovers a previously unknown animal species."
+      },
+      "bracket_parts": [
+        "entdeckt"
+      ],
+      "akkusativ_parts": [
+        "eine bisher unbekannte Tierart"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir entdecken die historische Altstadt auf eigene Faust.",
+      "translation": {
+        "ru": "Мы исследуем старинный центр города самостоятельно.",
+        "en": "We discover the historic old town on our own."
+      },
+      "bracket_parts": [
+        "entdecken"
+      ],
+      "akkusativ_parts": [
+        "die historische Altstadt"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Entdeckt ihr versteckte Schönheiten in der Natur?",
+      "translation": {
+        "ru": "Вы находите скрытые красоты в природе?",
+        "en": "Do you guys discover hidden beauties in nature?"
+      },
+      "bracket_parts": [
+        "Entdeckt"
+      ],
+      "akkusativ_parts": [
+        "versteckte Schönheiten"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie entdeckten damals wertvolle Schätze im Boden.",
+      "translation": {
+        "ru": "В то время они обнаружили в земле ценные сокровища.",
+        "en": "They discovered valuable treasures in the ground back then."
+      },
+      "bracket_parts": [
+        "entdeckten"
+      ],
+      "akkusativ_parts": [
+        "wertvolle Schätze"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Kolumbus hat im Jahr 1492 Amerika entdeckt.",
+      "translation": {
+        "ru": "Колумб открыл Америку в 1492 году.",
+        "en": "Columbus discovered America in 1492."
+      },
+      "bracket_parts": [
+        "hat",
+        "entdeckt"
+      ],
+      "akkusativ_parts": [
+        "Amerika"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Entdecke die faszinierende Welt der Wissenschaft!",
+      "translation": {
+        "ru": "Открой для себя увлекательный мир науки!",
+        "en": "Discover the fascinating world of science!"
+      },
+      "bracket_parts": [
+        "Entdecke"
+      ],
+      "akkusativ_parts": [
+        "die faszinierende Welt der Wissenschaft"
+      ]
+    }
+  ]
+}

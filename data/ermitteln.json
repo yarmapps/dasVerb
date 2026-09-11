@@ -1,0 +1,181 @@
+{
+  "id": "ermitteln",
+  "infinitive": "ermitteln",
+  "translation": {
+    "ru": "расследовать, определять, вычислять",
+    "en": "to investigate, determine, ascertain"
+  },
+  "level": "B1",
+  "frequency_rank": 383,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ermitteln",
+    "present_3sg": "ermittelt",
+    "praeteritum_3sg": "ermittelte",
+    "partizip_2": "ermittelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ermittele",
+      "du": "ermittelst",
+      "er_sie_es": "ermittelt",
+      "wir": "ermitteln",
+      "ihr": "ermittelt",
+      "sie_Sie": "ermitteln"
+    },
+    "praeteritum": {
+      "ich": "ermittelte",
+      "du": "ermitteltest",
+      "er_sie_es": "ermittelte",
+      "wir": "ermittelten",
+      "ihr": "ermitteltet",
+      "sie_Sie": "ermittelten"
+    },
+    "imperative": {
+      "du": "ermittele!",
+      "ihr": "ermittelt!",
+      "Sie": "ermitteln Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "den Täter ermitteln",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich ermittle den genauen Stromverbrauch unseres Haushalts.",
+      "translation": {
+        "ru": "Я выясняю точное потребление электроэнергии в нашем доме.",
+        "en": "I determine the exact power consumption of our household."
+      },
+      "bracket_parts": [
+        "ermittle"
+      ],
+      "akkusativ_parts": [
+        "den genauen Stromverbrauch unseres Haushalts"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Ermittelst du den besten Preis im Internet?",
+      "translation": {
+        "ru": "Ты выясняешь лучшую цену в интернете?",
+        "en": "Are you determining the best price on the internet?"
+      },
+      "bracket_parts": [
+        "Ermittelst"
+      ],
+      "akkusativ_parts": [
+        "den besten Preis"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Die Polizei ermittelt fieberhaft nach dem flüchtigen Einbrecher.",
+      "translation": {
+        "ru": "Полиция лихорадочно ведет розыск сбежавшего взломщика.",
+        "en": "The police are feverishly investigating the runaway burglar."
+      },
+      "bracket_parts": [
+        "ermittelt"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir ermitteln den Sieger des Wettbewerbs durch eine Abstimmung.",
+      "translation": {
+        "ru": "Мы определяем победителя конкурса путем голосования.",
+        "en": "We determine the winner of the competition through a vote."
+      },
+      "bracket_parts": [
+        "ermitteln"
+      ],
+      "akkusativ_parts": [
+        "den Sieger des Wettbewerbs"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Ermittelt ihr die Schadenshöhe für die Versicherung?",
+      "translation": {
+        "ru": "Вы рассчитываете сумму ущерба для страховой компании?",
+        "en": "Are you calculating the amount of damage for the insurance?"
+      },
+      "bracket_parts": [
+        "Ermittelt"
+      ],
+      "akkusativ_parts": [
+        "die Schadenshöhe"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Detektiv ermittelte damals wochenlang im Fall des Diebstahls.",
+      "translation": {
+        "ru": "Детектив неделями вел тогда расследование по делу о краже.",
+        "en": "The detective investigated the case of theft for weeks back then."
+      },
+      "bracket_parts": [
+        "ermittelte"
+      ],
+      "akkusativ_parts": [],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die Kriminalpolizei hat die Identität des Unbekannten rasch ermittelt.",
+      "translation": {
+        "ru": "Уголовная полиция быстро установила личность неизвестного.",
+        "en": "The criminal investigation department quickly established the unknown person's identity."
+      },
+      "bracket_parts": [
+        "hat",
+        "ermittelt"
+      ],
+      "akkusativ_parts": [
+        "die Identität des Unbekannten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Ermittle bitte den durchschnittlichen Wert dieser Messungen!",
+      "translation": {
+        "ru": "Вычисли среднее значение этих измерений, пожалуйста!",
+        "en": "Please calculate the average value of these measurements!"
+      },
+      "bracket_parts": [
+        "Ermittle"
+      ],
+      "akkusativ_parts": [
+        "den durchschnittlichen Wert dieser Messungen"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

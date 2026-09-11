@@ -1,0 +1,185 @@
+{
+  "id": "sammeln",
+  "infinitive": "sammeln",
+  "translation": {
+    "ru": "собирать, коллекционировать",
+    "en": "to collect, gather"
+  },
+  "level": "A2",
+  "frequency_rank": 339,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "sammeln",
+    "present_3sg": "sammelt",
+    "praeteritum_3sg": "sammelte",
+    "partizip_2": "gesammelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "sammele",
+      "du": "sammelst",
+      "er_sie_es": "sammelt",
+      "wir": "sammeln",
+      "ihr": "sammelt",
+      "sie_Sie": "sammeln"
+    },
+    "praeteritum": {
+      "ich": "sammelte",
+      "du": "sammeltest",
+      "er_sie_es": "sammelte",
+      "wir": "sammelten",
+      "ihr": "sammeltet",
+      "sie_Sie": "sammelten"
+    },
+    "imperative": {
+      "du": "sammele!",
+      "ihr": "sammelt!",
+      "Sie": "sammeln Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "Erfahrungen sammeln",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich sammle seit meiner Kindheit seltene Münzen.",
+      "translation": {
+        "ru": "Я с детства собираю редкие монеты.",
+        "en": "I have been collecting rare coins since my childhood."
+      },
+      "bracket_parts": [
+        "sammle"
+      ],
+      "akkusativ_parts": [
+        "seltene Münzen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Sammelst du im Herbst gern Pilze im Wald?",
+      "translation": {
+        "ru": "Ты любишь осенью собирать грибы в лесу?",
+        "en": "Do you like gathering mushrooms in the woods in autumn?"
+      },
+      "bracket_parts": [
+        "Sammelst"
+      ],
+      "akkusativ_parts": [
+        "Pilze"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Student sammelt im Praktikum wertvolle Erfahrungen.",
+      "translation": {
+        "ru": "Студент на практике набирается ценного опыта.",
+        "en": "The student gains valuable experience during the internship."
+      },
+      "bracket_parts": [
+        "sammelt"
+      ],
+      "akkusativ_parts": [
+        "wertvolle Erfahrungen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir sammeln Spenden für das örtliche Tierheim.",
+      "translation": {
+        "ru": "Мы собираем пожертвования для местного приюта для животных.",
+        "en": "We collect donations for the local animal shelter."
+      },
+      "bracket_parts": [
+        "sammeln"
+      ],
+      "akkusativ_parts": [
+        "Spenden"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Sammelt ihr Altpapier für das Recycling?",
+      "translation": {
+        "ru": "Вы собираете макулатуру для переработки?",
+        "en": "Do you collect waste paper for recycling?"
+      },
+      "bracket_parts": [
+        "Sammelt"
+      ],
+      "akkusativ_parts": [
+        "Altpapier"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Kinder sammelten damals bunte Muscheln am Strand.",
+      "translation": {
+        "ru": "Дети тогда собирали разноцветные ракушки на пляже.",
+        "en": "The children collected colorful seashells on the beach back then."
+      },
+      "bracket_parts": [
+        "sammelten"
+      ],
+      "akkusativ_parts": [
+        "bunte Muscheln"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben viele wichtige Daten für die Studie gesammelt.",
+      "translation": {
+        "ru": "Они собрали много важных данных для исследования.",
+        "en": "They have collected a lot of important data for the study."
+      },
+      "bracket_parts": [
+        "haben",
+        "gesammelt"
+      ],
+      "akkusativ_parts": [
+        "viele wichtige Daten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Sammle bitte alle Unterlagen für das Treffen zusammen!",
+      "translation": {
+        "ru": "Собери, пожалуйста, все документы для встречи!",
+        "en": "Please gather all documents for the meeting together!"
+      },
+      "bracket_parts": [
+        "Sammle"
+      ],
+      "akkusativ_parts": [
+        "alle Unterlagen"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

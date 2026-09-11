@@ -1,0 +1,185 @@
+{
+  "id": "ergaenzen",
+  "infinitive": "ergänzen",
+  "translation": {
+    "ru": "дополнять, восполнять",
+    "en": "to supplement, complete, add"
+  },
+  "level": "A2",
+  "frequency_rank": 389,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ergänzen",
+    "present_3sg": "ergänzt",
+    "praeteritum_3sg": "ergänzte",
+    "partizip_2": "ergänzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ergänze",
+      "du": "ergänzt",
+      "er_sie_es": "ergänzt",
+      "wir": "ergänzen",
+      "ihr": "ergänzt",
+      "sie_Sie": "ergänzen"
+    },
+    "praeteritum": {
+      "ich": "ergänzte",
+      "du": "ergänztest",
+      "er_sie_es": "ergänzte",
+      "wir": "ergänzten",
+      "ihr": "ergänztet",
+      "sie_Sie": "ergänzten"
+    },
+    "imperative": {
+      "du": "ergänze!",
+      "ihr": "ergänzt!",
+      "Sie": "ergänzen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "fehlende Angaben ergänzen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich ergänze die fehlenden Angaben im Antragsformular sorgfältig.",
+      "translation": {
+        "ru": "Я тщательно дополняю недостающие данные в бланке заявления.",
+        "en": "I carefully add the missing information to the application form."
+      },
+      "bracket_parts": [
+        "ergänze"
+      ],
+      "akkusativ_parts": [
+        "die fehlenden Angaben"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Ergänzt du die Lücken im Text mit den passenden Verben?",
+      "translation": {
+        "ru": "Ты заполняешь пропуски в тексте подходящими глаголами?",
+        "en": "Do you fill in the blanks in the text with matching verbs?"
+      },
+      "bracket_parts": [
+        "Ergänzt"
+      ],
+      "akkusativ_parts": [
+        "die Lücken"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der erfahrene Berater ergänzt die fehlenden Daten im Bericht.",
+      "translation": {
+        "ru": "Опытный консультант дополняет недостающие данные в отчете.",
+        "en": "The experienced consultant adds the missing data to the report."
+      },
+      "bracket_parts": [
+        "ergänzt"
+      ],
+      "akkusativ_parts": [
+        "die fehlenden Daten"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir ergänzen unseren Vorrat mit frischen Lebensmitteln.",
+      "translation": {
+        "ru": "Мы пополняем наши запасы свежими продуктами питания.",
+        "en": "We replenish our stock with fresh groceries."
+      },
+      "bracket_parts": [
+        "ergänzen"
+      ],
+      "akkusativ_parts": [
+        "unseren Vorrat"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Ergänzt ihr eure Aufzeichnungen nach der Vorlesung?",
+      "translation": {
+        "ru": "Вы дополняете свои конспекты после лекции?",
+        "en": "Do you guys complete your notes after the lecture?"
+      },
+      "bracket_parts": [
+        "Ergänzt"
+      ],
+      "akkusativ_parts": [
+        "eure Aufzeichnungen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Der Autor ergänzte damals das letzte Kapitel seines Romans.",
+      "translation": {
+        "ru": "Автор дополнил тогда последнюю главу своего романа.",
+        "en": "The author expanded the final chapter of his novel back then."
+      },
+      "bracket_parts": [
+        "ergänzte"
+      ],
+      "akkusativ_parts": [
+        "das letzte Kapitel seines Romans"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die Tabelle um zwei wichtige Spalten ergänzt.",
+      "translation": {
+        "ru": "Они дополнили таблицу двумя важными колонками.",
+        "en": "They supplemented the table with two important columns."
+      },
+      "bracket_parts": [
+        "haben",
+        "ergänzt"
+      ],
+      "akkusativ_parts": [
+        "die Tabelle"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Ergänze bitte noch deine Telefonnummer auf der Liste!",
+      "translation": {
+        "ru": "Допиши свой номер телефона в список, пожалуйста!",
+        "en": "Please add your phone number to the list!"
+      },
+      "bracket_parts": [
+        "Ergänze"
+      ],
+      "akkusativ_parts": [
+        "deine Telefonnummer"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

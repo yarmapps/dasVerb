@@ -1,0 +1,184 @@
+{
+  "id": "handeln_akk_um",
+  "infinitive": "handeln",
+  "translation": {
+    "ru": "речь идёт о",
+    "en": "to be about, to concern"
+  },
+  "level": "B1",
+  "frequency_rank": 67,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "handeln",
+    "present_3sg": "handelt sich",
+    "praeteritum_3sg": "handelte sich",
+    "partizip_2": "sich gehandelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "handle mich",
+      "du": "handelst dich",
+      "er_sie_es": "handelt sich",
+      "wir": "handeln uns",
+      "ihr": "handelt euch",
+      "sie_Sie": "handeln sich",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "handelte mich",
+      "du": "handeltest dich",
+      "er_sie_es": "handelte sich",
+      "wir": "handelten uns",
+      "ihr": "handeltet euch",
+      "sie_Sie": "handelten sich"
+    },
+    "imperative": {
+      "du": "handle dich",
+      "ihr": "handelt euch",
+      "Sie": "handeln Sie sich"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "um",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "es handelt sich um etwas (Akk)",
+  "sentences": [
+    {
+      "id": "handeln_akk_um_1",
+      "tense": "Präsens",
+      "german": "Hier handelt es sich um ein ernstes Problem.",
+      "translation": {
+        "ru": "Здесь речь идет о серьезной проблеме.",
+        "en": "This is a serious problem."
+      },
+      "bracket_parts": [
+        "handelt"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "um ein ernstes Problem"
+      ]
+    },
+    {
+      "id": "handeln_akk_um_2",
+      "tense": "Präsens",
+      "german": "Worum handelt es sich bei dieser neuen Entdeckung?",
+      "translation": {
+        "ru": "О чем идет речь в этом новом открытии?",
+        "en": "What is this new discovery about?"
+      },
+      "bracket_parts": [
+        "handelt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    },
+    {
+      "id": "handeln_akk_um_3",
+      "tense": "Präsens",
+      "german": "Bei dem Fund handelt es sich um eine seltene Münze.",
+      "translation": {
+        "ru": "В случае этой находки речь идет о редкой монете.",
+        "en": "The find is a rare coin."
+      },
+      "bracket_parts": [
+        "handelt"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "um eine seltene Münze"
+      ]
+    },
+    {
+      "id": "handeln_akk_um_4",
+      "tense": "Präsens",
+      "german": "Wir wissen alle, dass es sich um eine wichtige Frage handelt.",
+      "translation": {
+        "ru": "Мы все знаем, что речь идет о важном вопросе.",
+        "en": "We all know that this is an important question."
+      },
+      "bracket_parts": [
+        "handelt"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "um eine wichtige Frage"
+      ]
+    },
+    {
+      "id": "handeln_akk_um_5",
+      "tense": "Präsens",
+      "german": "Handelt es sich bei eurem Plan wirklich um die beste Idee?",
+      "translation": {
+        "ru": "Действительно ли в вашем плане речь идет о наилучшей идее?",
+        "en": "Is your plan really about the best idea?"
+      },
+      "bracket_parts": [
+        "Handelt"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "um die beste Idee"
+      ]
+    },
+    {
+      "id": "handeln_akk_um_6",
+      "tense": "Präteritum",
+      "german": "Damals handelte es sich um ein großes Missverständnis.",
+      "translation": {
+        "ru": "Тогда речь шла о большом недоразумении.",
+        "en": "Back then it was about a big misunderstanding."
+      },
+      "bracket_parts": [
+        "handelte"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "um ein großes Missverständnis"
+      ]
+    },
+    {
+      "id": "handeln_akk_um_7",
+      "tense": "Perfekt",
+      "german": "Es hat sich gestern um einen technischen Fehler gehandelt.",
+      "translation": {
+        "ru": "Вчера речь шла о технической ошибке.",
+        "en": "Yesterday it was a technical error."
+      },
+      "bracket_parts": [
+        "hat",
+        "gehandelt"
+      ],
+      "akkusativ_parts": [
+        "sich",
+        "um einen technischen Fehler"
+      ]
+    },
+    {
+      "id": "handeln_akk_um_8",
+      "tense": "Imperativ",
+      "german": "Erkenne deutlich, worum es sich hier handelt!",
+      "translation": {
+        "ru": "Осознай четко, о чем здесь идет речь!",
+        "en": "Clearly recognize what this is about!"
+      },
+      "bracket_parts": [
+        "handelt"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    }
+  ]
+}

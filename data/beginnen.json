@@ -1,0 +1,169 @@
+{
+  "id": "beginnen",
+  "infinitive": "beginnen",
+  "translation": {
+    "ru": "начинать, начинаться",
+    "en": "to begin, to start"
+  },
+  "level": "A1",
+  "frequency_rank": 49,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beginnen",
+    "present_3sg": "beginnt",
+    "praeteritum_3sg": "begann",
+    "partizip_2": "begonnen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beginne",
+      "du": "beginnst",
+      "er_sie_es": "beginnt",
+      "wir": "beginnen",
+      "ihr": "beginnt",
+      "sie_Sie": "beginnen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "begann",
+      "du": "begannst",
+      "er_sie_es": "begann",
+      "wir": "begannen",
+      "ihr": "begannt",
+      "sie_Sie": "begannen"
+    },
+    "imperative": {
+      "du": "beginne",
+      "ihr": "beginnt",
+      "Sie": "beginnen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "die Arbeit / den Tag (Akk) beginnen",
+  "sentences": [
+    {
+      "id": "beginnen_base_1",
+      "tense": "Präsens",
+      "german": "Ich beginne heute meine neue Ausbildung.",
+      "translation": {
+        "ru": "Я начинаю сегодня свое новое обучение.",
+        "en": "I am starting my new apprenticeship today."
+      },
+      "bracket_parts": [
+        "beginne"
+      ],
+      "akkusativ_parts": [
+        "meine neue Ausbildung"
+      ]
+    },
+    {
+      "id": "beginnen_base_2",
+      "tense": "Präsens",
+      "german": "Beginnst du jetzt endlich die Hausaufgabe?",
+      "translation": {
+        "ru": "Ты начнешь наконец домашнее задание?",
+        "en": "Are you finally starting the homework?"
+      },
+      "bracket_parts": [
+        "Beginnst"
+      ],
+      "akkusativ_parts": [
+        "die Hausaufgabe"
+      ]
+    },
+    {
+      "id": "beginnen_base_3",
+      "tense": "Präsens",
+      "german": "Der spannende Film beginnt um acht Uhr.",
+      "translation": {
+        "ru": "Захватывающий фильм начинается в восемь часов.",
+        "en": "The exciting movie starts at eight o'clock."
+      },
+      "bracket_parts": [
+        "beginnt"
+      ]
+    },
+    {
+      "id": "beginnen_base_4",
+      "tense": "Präsens",
+      "german": "Wir beginnen die Sitzung ganz pünktlich.",
+      "translation": {
+        "ru": "Мы начинаем заседание совершенно вовремя.",
+        "en": "We are starting the meeting promptly."
+      },
+      "bracket_parts": [
+        "beginnen"
+      ],
+      "akkusativ_parts": [
+        "die Sitzung"
+      ]
+    },
+    {
+      "id": "beginnen_base_5",
+      "tense": "Präsens",
+      "german": "Beginnt ihr den Tag immer mit Frühsport?",
+      "translation": {
+        "ru": "Вы всегда начинаете день с утренней зарядки?",
+        "en": "Do you always start the day with morning exercise?"
+      },
+      "bracket_parts": [
+        "Beginnt"
+      ],
+      "akkusativ_parts": [
+        "den Tag"
+      ]
+    },
+    {
+      "id": "beginnen_base_6",
+      "tense": "Präteritum",
+      "german": "Sie begannen damals ein völlig neues Kapitel ihres Lebens.",
+      "translation": {
+        "ru": "Они начали тогда совершенно новую главу своей жизни.",
+        "en": "They began a completely new chapter of their lives back then."
+      },
+      "bracket_parts": [
+        "begannen"
+      ],
+      "akkusativ_parts": [
+        "ein völlig neues Kapitel"
+      ]
+    },
+    {
+      "id": "beginnen_base_7",
+      "tense": "Perfekt",
+      "german": "Der Unterricht hat vor zehn Minuten begonnen.",
+      "translation": {
+        "ru": "Урок начался десять минут назад.",
+        "en": "The class started ten minutes ago."
+      },
+      "bracket_parts": [
+        "hat",
+        "begonnen"
+      ]
+    },
+    {
+      "id": "beginnen_base_8",
+      "tense": "Imperativ",
+      "german": "Beginne jetzt sofort mit dem Lesen!",
+      "translation": {
+        "ru": "Начни читать прямо сейчас!",
+        "en": "Start reading right now!"
+      },
+      "bracket_parts": [
+        "Beginne"
+      ]
+    }
+  ]
+}

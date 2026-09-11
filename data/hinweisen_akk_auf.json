@@ -1,0 +1,198 @@
+{
+  "id": "hinweisen_akk_auf",
+  "infinitive": "hinweisen",
+  "translation": {
+    "ru": "указывать на (что-то)",
+    "en": "to point to, indicate, refer to"
+  },
+  "level": "B2",
+  "frequency_rank": 352,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "hin",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "hinweisen",
+    "present_3sg": "weist hin",
+    "praeteritum_3sg": "wies hin",
+    "partizip_2": "hingewiesen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "weise hin",
+      "du": "weist hin",
+      "er_sie_es": "weist hin",
+      "wir": "weisen hin",
+      "ihr": "weist hin",
+      "sie_Sie": "weisen hin"
+    },
+    "praeteritum": {
+      "ich": "wies hin",
+      "du": "wiesest hin",
+      "er_sie_es": "wies hin",
+      "wir": "wiesen hin",
+      "ihr": "wiest hin",
+      "sie_Sie": "wiesen hin"
+    },
+    "imperative": {
+      "du": "weise hin!",
+      "ihr": "weist hin!",
+      "Sie": "weisen Sie hin!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "chunk": "auf den Fehler hinweisen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich weise sofort auf diesen gravierenden Fehler im Text hin.",
+      "translation": {
+        "ru": "Я сразу же указываю на эту грубую ошибку в тексте.",
+        "en": "I point out this serious mistake in the text immediately."
+      },
+      "bracket_parts": [
+        "weise",
+        "hin"
+      ],
+      "akkusativ_parts": [
+        "diesen gravierenden Fehler"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Weist du die Touristen auf die Gefahren im Gebirge hin?",
+      "translation": {
+        "ru": "Ты указываешь туристам на опасности в горах?",
+        "en": "Do you point out the hazards in the mountains to the tourists?"
+      },
+      "bracket_parts": [
+        "Weist",
+        "hin"
+      ],
+      "akkusativ_parts": [
+        "die Touristen",
+        "die Gefahren"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Der Arzt weist auf die Notwendigkeit einer gesunden Ernährung hin.",
+      "translation": {
+        "ru": "Врач указывает на необходимость здорового питания.",
+        "en": "The doctor points to the necessity of healthy nutrition."
+      },
+      "bracket_parts": [
+        "weist",
+        "hin"
+      ],
+      "akkusativ_parts": [
+        "die Notwendigkeit"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir weisen die Besucher auf das Rauchverbot im Gebäude hin.",
+      "translation": {
+        "ru": "Мы указываем посетителям на запрет курения в здании.",
+        "en": "We point out the smoking ban in the building to visitors."
+      },
+      "bracket_parts": [
+        "weisen",
+        "hin"
+      ],
+      "akkusativ_parts": [
+        "die Besucher",
+        "das Rauchverbot"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Weist ihr die Fahrgäste auf eventuelle Verspätungen hin?",
+      "translation": {
+        "ru": "Вы указываете пассажирам на возможные задержки?",
+        "en": "Are you guys pointing out possible delays to the passengers?"
+      },
+      "bracket_parts": [
+        "Weist",
+        "hin"
+      ],
+      "akkusativ_parts": [
+        "die Fahrgäste",
+        "eventuelle Verspätungen"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Die Zeugin wies damals die Polizei auf verdächtige Spuren hin.",
+      "translation": {
+        "ru": "Свидетельница указала тогда полиции на подозрительные следы.",
+        "en": "The witness pointed the police toward suspicious tracks back then."
+      },
+      "bracket_parts": [
+        "wies",
+        "hin"
+      ],
+      "akkusativ_parts": [
+        "die Polizei",
+        "verdächtige Spuren"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Sie haben die Teilnehmer auf alle wichtigen Sicherheitsregeln hingewiesen.",
+      "translation": {
+        "ru": "Они обратили внимание участников на все важные правила безопасности.",
+        "en": "They pointed out all important safety rules to the participants."
+      },
+      "bracket_parts": [
+        "haben",
+        "hingewiesen"
+      ],
+      "akkusativ_parts": [
+        "die Teilnehmer",
+        "alle wichtigen Sicherheitsregeln"
+      ],
+      "dativ_parts": []
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Weise bitte deinen Kollegen höflich auf das Versehen hin!",
+      "translation": {
+        "ru": "Укажи своему коллеге вежливо на оплошность, пожалуйста!",
+        "en": "Please politely point out the oversight to your colleague!"
+      },
+      "bracket_parts": [
+        "Weise",
+        "hin"
+      ],
+      "akkusativ_parts": [
+        "deinen Kollegen",
+        "das Versehen"
+      ],
+      "dativ_parts": []
+    }
+  ]
+}

@@ -1,12 +1,86 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { DatabaseSync } from 'node:sqlite';
-import { VerbCard } from '../docs/verb.types';
+import { VerbCard, VerbSentence } from '../docs/verb.types';
 
 const ROOT_DIR = path.resolve(__dirname, '..');
 const DATA_DIR = path.join(ROOT_DIR, 'data');
 const ASSETS_DIR = path.join(ROOT_DIR, 'assets');
 const DB_PATH = path.join(ASSETS_DIR, 'main.db');
+
+const CEFR_LEVELS = ['A1', 'A2', 'B1', 'B2'] as const;
+
+const OPPOSITES_A2 = [
+  'aufmachen',
+  'zumachen',
+  'anmachen',
+  'ausmachen',
+  'einsteigen',
+  'aussteigen',
+  'aufbauen',
+  'abnehmen',
+  'zunehmen',
+  'anhalten',
+];
+
+const DUAL_PREFIXES = ['durch', 'über', 'ueber', 'um', 'unter', 'wieder', 'wider'];
+
+function normalizeTense(tense: string): string {
+  switch (tense) {
+    case 'present':
+      return 'Präsens';
+    case 'past':
+      return 'Präteritum';
+    case 'perfect':
+      return 'Perfekt';
+    case 'imperative':
+      return 'Imperativ';
+    default:
+      return tense;
+  }
+}
+
+function getChunkSizes(n: number): number[] {
+  if (n <= 5) return [n];
+  for (let a = Math.floor(n / 5); a >= 0; a--) {
+    const rem = n - 5 * a;
+    if (rem % 4 === 0) {
+      const b = rem / 4;
+      return [...Array(a).fill(5), ...Array(b).fill(4)];
+    }
+  }
+  const numChunks = Math.ceil(n / 5);
+  const base = Math.floor(n / numChunks);
+  const extra = n % numChunks;
+  const result: number[] = [];
+  for (let i = 0; i < numChunks; i++) {
+    result.push(base + (i < extra ? 1 : 0));
+  }
+  return result;
+}
+
+function getSeparationSentences(card: VerbCard): VerbSentence[] {
+  return (card.sentences || [])
+    .map((s, idx) => ({
+      ...s,
+      id: s.id || `s${idx + 1}`,
+      tense: normalizeTense(s.tense) as any,
+    }))
+    .filter(s => {
+      if (s.tense === 'Perfekt') return false;
+      const bp = s.bracket_parts || [];
+      if (card.morphology?.prefix_type === 'separable') {
+        if (bp.length < 2) return false;
+        const part0 = bp[0].trim().toLowerCase();
+        const part1 = bp[1].trim().toLowerCase();
+        const text = s.german.toLowerCase();
+        const idx0 = text.indexOf(part0);
+        const idx1 = text.lastIndexOf(part1);
+        return idx0 !== -1 && idx1 !== -1 && idx0 + part0.length < idx1;
+      }
+      return bp.length >= 1 && s.german.toLowerCase().includes(bp[0].trim().toLowerCase());
+    });
+}
 
 function buildDatabase() {
   console.log('📦 Starting SQLite database compilation...');
@@ -29,6 +103,8 @@ function buildDatabase() {
       level TEXT NOT NULL,
       frequency_rank INTEGER NOT NULL DEFAULT 9999,
       auxiliary TEXT NOT NULL,
+      prefix_type TEXT NOT NULL DEFAULT 'none',
+      prefix TEXT,
       morphology TEXT NOT NULL,
       principal_parts TEXT NOT NULL,
       conjugation TEXT NOT NULL,
@@ -43,6 +119,21 @@ function buildDatabase() {
     CREATE INDEX idx_verbs_level ON verbs(level);
     CREATE INDEX idx_verbs_frequency_rank ON verbs(frequency_rank);
     CREATE INDEX idx_verbs_auxiliary ON verbs(auxiliary);
+    CREATE INDEX idx_verbs_prefix_type ON verbs(prefix_type);
+    CREATE INDEX idx_verbs_prefix ON verbs(prefix);
+
+    CREATE TABLE prefix_levels (
+      id TEXT PRIMARY KEY,
+      cefr_level TEXT NOT NULL,
+      subgroup_type TEXT NOT NULL,
+      level_number INTEGER NOT NULL,
+      title TEXT NOT NULL,
+      verbs_json TEXT NOT NULL,
+      exercise_sentence_ids_json TEXT NOT NULL
+    );
+
+    CREATE INDEX idx_prefix_levels_cefr ON prefix_levels(cefr_level);
+    CREATE INDEX idx_prefix_levels_subgroup ON prefix_levels(subgroup_type);
   `);
 
   const files = fs.readdirSync(DATA_DIR).filter(f => f.endsWith('.json'));
@@ -56,6 +147,8 @@ function buildDatabase() {
       level,
       frequency_rank,
       auxiliary,
+      prefix_type,
+      prefix,
       morphology,
       principal_parts,
       conjugation,
@@ -65,16 +158,28 @@ function buildDatabase() {
       translation,
       search_text
     ) VALUES (
-      ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+      ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
     )
   `);
 
   let count = 0;
+  const loadedCards: VerbCard[] = [];
 
   for (const file of files) {
     const filePath = path.join(DATA_DIR, file);
     const content = fs.readFileSync(filePath, 'utf-8');
     const verb: VerbCard = JSON.parse(content);
+
+    // Normalize sentences in card
+    const normalizedSentences = (verb.sentences || []).map((s, idx) => ({
+      ...s,
+      id: s.id || `s${idx + 1}`,
+      tense: normalizeTense(s.tense) as any,
+    }));
+    verb.sentences = normalizedSentences;
+
+    const prefixType = verb.morphology?.prefix_type || 'none';
+    const prefix = verb.morphology?.prefix || null;
 
     const translationTexts = verb.translation ? Object.values(verb.translation).join(' ') : '';
     const principalPartsTexts = verb.principal_parts
@@ -102,6 +207,8 @@ function buildDatabase() {
       verb.level,
       verb.frequency_rank ?? 9999,
       verb.auxiliary,
+      prefixType,
+      prefix,
       JSON.stringify(verb.morphology),
       JSON.stringify(verb.principal_parts),
       JSON.stringify(verb.conjugation),
@@ -112,11 +219,213 @@ function buildDatabase() {
       searchText,
     );
 
+    loadedCards.push(verb);
     count++;
   }
 
-  console.log(`✅ Successfully compiled ${count} verbs into assets/main.db`);
+  console.log(`✅ Successfully compiled ${count} verbs into verbs table.`);
+
+  // Deduplicate prefix verbs by infinitive
+  const uniqueByInf = new Map<string, VerbCard[]>();
+  for (const card of loadedCards) {
+    const pType = card.morphology?.prefix_type || 'none';
+    if (pType === 'none') continue;
+
+    const inf = card.infinitive.toLowerCase();
+    if (!uniqueByInf.has(inf)) {
+      uniqueByInf.set(inf, []);
+    }
+    uniqueByInf.get(inf)!.push(card);
+  }
+
+  // Representative card for each unique infinitive (prefer exact id match or lowest frequency rank)
+  const prefixVerbs: VerbCard[] = [];
+  for (const [inf, cards] of uniqueByInf.entries()) {
+    const baseCard =
+      cards.find(c => c.id.toLowerCase() === inf) ||
+      cards.sort((a, b) => (a.frequency_rank ?? 9999) - (b.frequency_rank ?? 9999))[0];
+    prefixVerbs.push(baseCard);
+  }
+
+  const insertLevelStmt = db.prepare(`
+    INSERT INTO prefix_levels (
+      id,
+      cefr_level,
+      subgroup_type,
+      level_number,
+      title,
+      verbs_json,
+      exercise_sentence_ids_json
+    ) VALUES (
+      ?, ?, ?, ?, ?, ?, ?
+    )
+  `);
+
+  let totalLevelsCreated = 0;
+
+  for (const cefr of CEFR_LEVELS) {
+    const levelCards = prefixVerbs.filter(v => v.level === cefr);
+    levelCards.sort((a, b) => (a.frequency_rank ?? 9999) - (b.frequency_rank ?? 9999));
+
+    const subgroups: Array<{ type: string; verbs: VerbCard[] }> = [];
+
+    if (cefr === 'A1') {
+      subgroups.push({
+        type: 'separable',
+        verbs: levelCards.filter(v => v.morphology?.prefix_type === 'separable'),
+      });
+      subgroups.push({
+        type: 'inseparable',
+        verbs: levelCards.filter(v => v.morphology?.prefix_type === 'inseparable'),
+      });
+    } else if (cefr === 'A2') {
+      subgroups.push({
+        type: 'opposites',
+        verbs: levelCards.filter(v => OPPOSITES_A2.includes(v.infinitive.toLowerCase())),
+      });
+      subgroups.push({
+        type: 'separable',
+        verbs: levelCards.filter(
+          v =>
+            v.morphology?.prefix_type === 'separable' &&
+            !OPPOSITES_A2.includes(v.infinitive.toLowerCase()),
+        ),
+      });
+      subgroups.push({
+        type: 'inseparable',
+        verbs: levelCards.filter(v => v.morphology?.prefix_type === 'inseparable'),
+      });
+    } else {
+      const dualCards = levelCards.filter(v => {
+        const p = (v.morphology?.prefix || '').toLowerCase();
+        return DUAL_PREFIXES.some(dp => p.startsWith(dp)) || v.morphology?.prefix_type === 'dual';
+      });
+      const dualIds = new Set(dualCards.map(v => v.id));
+
+      subgroups.push({
+        type: 'dual',
+        verbs: dualCards,
+      });
+      subgroups.push({
+        type: 'separable',
+        verbs: levelCards.filter(
+          v => v.morphology?.prefix_type === 'separable' && !dualIds.has(v.id),
+        ),
+      });
+      subgroups.push({
+        type: 'inseparable',
+        verbs: levelCards.filter(
+          v => v.morphology?.prefix_type === 'inseparable' && !dualIds.has(v.id),
+        ),
+      });
+    }
+
+    for (const subgroup of subgroups) {
+      const { type, verbs } = subgroup;
+      if (verbs.length === 0) continue;
+
+      const chunkSizes = getChunkSizes(verbs.length);
+      let verbCursor = 0;
+      let levelNum = 1;
+
+      for (const size of chunkSizes) {
+        const chunkVerbs = verbs.slice(verbCursor, verbCursor + size);
+        verbCursor += size;
+
+        // Allocate sentences to hit exactly 10 questions
+        // Distribute 10 sentences across chunkVerbs
+        const baseSentenceCount = Math.floor(10 / chunkVerbs.length);
+        const extraSentences = 10 % chunkVerbs.length;
+
+        const exerciseSentenceEntries: Array<{ verbId: string; sentenceId: string }> = [];
+
+        chunkVerbs.forEach((verb, idx) => {
+          const quota = baseSentenceCount + (idx < extraSentences ? 1 : 0);
+          const validSentences = getSeparationSentences(verb);
+          const picked = validSentences.slice(0, quota);
+
+          // If a verb somehow had fewer than quota (should never happen), fallback to any sentence
+          if (picked.length < quota) {
+            for (const s of verb.sentences) {
+              if (picked.length >= quota) break;
+              if (!picked.some(p => p.id === s.id)) {
+                picked.push(s);
+              }
+            }
+          }
+
+          picked.forEach(s => {
+            exerciseSentenceEntries.push({
+              verbId: verb.id,
+              sentenceId: s.id,
+            });
+          });
+        });
+
+        // Ensure exactly 10 entries
+        if (exerciseSentenceEntries.length !== 10) {
+          throw new Error(
+            `Level ${cefr} ${type} ${levelNum} has ${exerciseSentenceEntries.length} exercises instead of 10!`,
+          );
+        }
+
+        const levelId = `prefix_${cefr.toLowerCase()}_${type}_${levelNum}`;
+        const title = `Level ${levelNum}`;
+
+        insertLevelStmt.run(
+          levelId,
+          cefr,
+          type,
+          levelNum,
+          title,
+          JSON.stringify(chunkVerbs.map(v => v.infinitive)),
+          JSON.stringify(exerciseSentenceEntries),
+        );
+
+        totalLevelsCreated++;
+        levelNum++;
+      }
+    }
+
+    // Build Section Checkpoint (20 questions picked evenly across all section verbs)
+    const checkpointExerciseEntries: Array<{ verbId: string; sentenceId: string }> = [];
+    let checkpointVerbIndex = 0;
+
+    // Pick 1 sentence per verb in round-robin until 20 questions reached
+    const verbSentenceCounters = new Map<string, number>();
+
+    while (checkpointExerciseEntries.length < 20) {
+      const verb = levelCards[checkpointVerbIndex % levelCards.length];
+      const countUsed = verbSentenceCounters.get(verb.id) || 0;
+      const validSentences = getSeparationSentences(verb);
+
+      if (countUsed < validSentences.length) {
+        const sentence = validSentences[countUsed];
+        checkpointExerciseEntries.push({
+          verbId: verb.id,
+          sentenceId: sentence.id,
+        });
+        verbSentenceCounters.set(verb.id, countUsed + 1);
+      }
+      checkpointVerbIndex++;
+    }
+
+    const checkpointId = `prefix_checkpoint_${cefr.toLowerCase()}`;
+    insertLevelStmt.run(
+      checkpointId,
+      cefr,
+      'checkpoint',
+      0,
+      `Checkpoint ${cefr}`,
+      JSON.stringify(levelCards.map(v => v.infinitive)),
+      JSON.stringify(checkpointExerciseEntries),
+    );
+    totalLevelsCreated++;
+  }
+
+  console.log(`✅ Successfully compiled ${totalLevelsCreated} prefix levels into assets/main.db`);
   db.close();
 }
 
 buildDatabase();
+

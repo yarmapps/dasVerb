@@ -1,0 +1,177 @@
+{
+  "id": "beziehen",
+  "infinitive": "beziehen",
+  "translation": {
+    "ru": "въезжать (в жильё); получать (зарплату/пособие); застилать (постель)",
+    "en": "to move into, obtain, receive, cover (bed)"
+  },
+  "level": "B1",
+  "frequency_rank": 176,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beziehen",
+    "present_3sg": "bezieht",
+    "praeteritum_3sg": "bezog",
+    "partizip_2": "bezogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beziehe",
+      "du": "beziehst",
+      "er_sie_es": "bezieht",
+      "wir": "beziehen",
+      "ihr": "bezieht",
+      "sie_Sie": "beziehen"
+    },
+    "praeteritum": {
+      "ich": "bezog",
+      "du": "bezogst",
+      "er_sie_es": "bezog",
+      "wir": "bezogen",
+      "ihr": "bezogt",
+      "sie_Sie": "bezogen"
+    },
+    "imperative": {
+      "du": "beziehe!",
+      "ihr": "bezieht!",
+      "Sie": "beziehen Sie!"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "eine neue Wohnung beziehen",
+  "sentences": [
+    {
+      "id": "s1",
+      "tense": "Präsens",
+      "german": "Ich beziehe nächsten Monat eine neue Wohnung in Berlin.",
+      "translation": {
+        "ru": "В следующем месяце я въезжаю в новую квартиру в Берлине.",
+        "en": "I am moving into a new apartment in Berlin next month."
+      },
+      "bracket_parts": [
+        "beziehe"
+      ],
+      "akkusativ_parts": [
+        "eine neue Wohnung in Berlin"
+      ]
+    },
+    {
+      "id": "s2",
+      "tense": "Präsens",
+      "german": "Beziehst du regelmäßig staatliche Unterstützung?",
+      "translation": {
+        "ru": "Ты регулярно получаешь государственную помощь?",
+        "en": "Do you regularly receive government support?"
+      },
+      "bracket_parts": [
+        "Beziehst"
+      ],
+      "akkusativ_parts": [
+        "regelmäßig staatliche Unterstützung"
+      ]
+    },
+    {
+      "id": "s3",
+      "tense": "Präsens",
+      "german": "Er bezieht ein gutes Gehalt als Ingenieur.",
+      "translation": {
+        "ru": "Он получает хорошую зарплату в качестве инженера.",
+        "en": "He receives a good salary as an engineer."
+      },
+      "bracket_parts": [
+        "bezieht"
+      ],
+      "akkusativ_parts": [
+        "ein gutes Gehalt"
+      ]
+    },
+    {
+      "id": "s4",
+      "tense": "Präsens",
+      "german": "Wir beziehen das frische Bett für unsere Gäste.",
+      "translation": {
+        "ru": "Мы застилаем свежую постель для наших гостей.",
+        "en": "We cover the fresh bed for our guests."
+      },
+      "bracket_parts": [
+        "beziehen"
+      ],
+      "akkusativ_parts": [
+        "das frische Bett"
+      ]
+    },
+    {
+      "id": "s5",
+      "tense": "Präsens",
+      "german": "Bezieht ihr eure Waren direkt vom Hersteller?",
+      "translation": {
+        "ru": "Вы закупаете товары напрямую у производителя?",
+        "en": "Do you guys source your goods directly from the manufacturer?"
+      },
+      "bracket_parts": [
+        "Bezieht"
+      ],
+      "akkusativ_parts": [
+        "eure Waren"
+      ]
+    },
+    {
+      "id": "s6",
+      "tense": "Präteritum",
+      "german": "Sie bezogen das renovierte Bürogebäude vor zwei Jahren.",
+      "translation": {
+        "ru": "Они въехали в отремонтированное офисное здание два года назад.",
+        "en": "They moved into the renovated office building two years ago."
+      },
+      "bracket_parts": [
+        "bezogen"
+      ],
+      "akkusativ_parts": [
+        "das renovierte Bürogebäude"
+      ]
+    },
+    {
+      "id": "s7",
+      "tense": "Perfekt",
+      "german": "Die junge Familie hat gestern ihr neues Haus bezogen.",
+      "translation": {
+        "ru": "Молодая семья вчера въехала в свой новый дом.",
+        "en": "The young family moved into their new house yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "bezogen"
+      ],
+      "akkusativ_parts": [
+        "ihr neues Haus"
+      ]
+    },
+    {
+      "id": "s8",
+      "tense": "Imperativ",
+      "german": "Beziehe bitte heute noch das Gästebett!",
+      "translation": {
+        "ru": "Застели, пожалуйста, гостевую постель еще сегодня!",
+        "en": "Please make the guest bed today!"
+      },
+      "bracket_parts": [
+        "Beziehe"
+      ],
+      "akkusativ_parts": [
+        "das Gästebett"
+      ]
+    }
+  ]
+}

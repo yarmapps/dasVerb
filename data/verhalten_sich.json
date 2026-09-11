@@ -1,0 +1,178 @@
+{
+  "id": "verhalten_sich",
+  "infinitive": "verhalten",
+  "translation": {
+    "ru": "вести себя",
+    "en": "to behave, to act"
+  },
+  "level": "A2",
+  "frequency_rank": 148,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": true,
+    "reflexive_case": "Akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "verhalten",
+    "present_3sg": "verhält sich",
+    "praeteritum_3sg": "verhielt sich",
+    "partizip_2": "sich verhalten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verhalte mich",
+      "du": "verhältst dich",
+      "er_sie_es": "verhält sich",
+      "wir": "verhalten uns",
+      "ihr": "verhaltet euch",
+      "sie_Sie": "verhalten sich",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "verhielt mich",
+      "du": "verhieltst dich",
+      "er_sie_es": "verhielt sich",
+      "wir": "verhielten uns",
+      "ihr": "verhieltet euch",
+      "sie_Sie": "verhielten sich"
+    },
+    "imperative": {
+      "du": "verhalte dich",
+      "ihr": "verhaltet euch",
+      "Sie": "verhalten Sie sich"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "sich ruhig / vorbildlich verhalten",
+  "sentences": [
+    {
+      "id": "verhalten_sich_1",
+      "tense": "Präsens",
+      "german": "Ich verhalte mich in der Bibliothek immer sehr leise.",
+      "translation": {
+        "ru": "В библиотеке я всегда веду себя очень тихо.",
+        "en": "I always behave very quietly in the library."
+      },
+      "bracket_parts": [
+        "verhalte"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
+    },
+    {
+      "id": "verhalten_sich_2",
+      "tense": "Präsens",
+      "german": "Verhältst du dich in schwierigen Situationen immer so besonnen?",
+      "translation": {
+        "ru": "Ты в трудных ситуациях всегда ведешь себя так благоразумно?",
+        "en": "Do you always behave so prudently in difficult situations?"
+      },
+      "bracket_parts": [
+        "Verhältst"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ]
+    },
+    {
+      "id": "verhalten_sich_3",
+      "tense": "Präsens",
+      "german": "Der Schüler verhält sich im Unterricht stets vorbildlich.",
+      "translation": {
+        "ru": "Ученик ведет себя на уроке всегда образцово.",
+        "en": "The student always behaves exemplarily in class."
+      },
+      "bracket_parts": [
+        "verhält"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    },
+    {
+      "id": "verhalten_sich_4",
+      "tense": "Präsens",
+      "german": "Wir verhalten uns den neuen Gästen gegenüber sehr höflich.",
+      "translation": {
+        "ru": "Мы ведем себя очень вежливо по отношению к новым гостям.",
+        "en": "We behave very politely toward the new guests."
+      },
+      "bracket_parts": [
+        "verhalten"
+      ],
+      "akkusativ_parts": [
+        "uns"
+      ]
+    },
+    {
+      "id": "verhalten_sich_5",
+      "tense": "Präsens",
+      "german": "Verhaltet ihr euch bei der Besichtigung der Kirche respektvoll?",
+      "translation": {
+        "ru": "Вы ведете себя уважительно при осмотре церкви?",
+        "en": "Do you behave respectfully when visiting the church?"
+      },
+      "bracket_parts": [
+        "Verhaltet"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ]
+    },
+    {
+      "id": "verhalten_sich_6",
+      "tense": "Präteritum",
+      "german": "Sie verhielten sich während der Verhandlung äußerst professionell.",
+      "translation": {
+        "ru": "Они вели себя во время переговоров исключительно профессионально.",
+        "en": "They behaved extremely professionally during the negotiation."
+      },
+      "bracket_parts": [
+        "verhielten"
+      ],
+      "akkusativ_parts": [
+        "sich"
+      ]
+    },
+    {
+      "id": "verhalten_sich_7",
+      "tense": "Perfekt",
+      "german": "Ich habe mich gestern in dem Konflikt ganz neutral verhalten.",
+      "translation": {
+        "ru": "Вчера я держался совершенно нейтрально в этом конфликте.",
+        "en": "I behaved completely neutrally in the conflict yesterday."
+      },
+      "bracket_parts": [
+        "habe",
+        "verhalten"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ]
+    },
+    {
+      "id": "verhalten_sich_8",
+      "tense": "Imperativ",
+      "german": "Verhalte dich bitte ruhig im Wartezimmer!",
+      "translation": {
+        "ru": "Веди себя, пожалуйста, тихо в приемной!",
+        "en": "Please behave quietly in the waiting room!"
+      },
+      "bracket_parts": [
+        "Verhalte"
+      ],
+      "akkusativ_parts": [
+        "dich"
+      ]
+    }
+  ]
+}

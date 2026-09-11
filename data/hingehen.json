@@ -1,0 +1,154 @@
+{
+  "id": "hingehen",
+  "infinitive": "hingehen",
+  "translation": {
+    "ru": "идти туда, проходить (о времени)",
+    "en": "to go there, pass (time)"
+  },
+  "level": "A2",
+  "frequency_rank": 478,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "hin",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "hingehen",
+    "present_3sg": "geht hin",
+    "praeteritum_3sg": "ging hin",
+    "partizip_2": "hingegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe hin",
+      "du": "gehst hin",
+      "er_sie_es": "geht hin",
+      "wir": "gehen hin",
+      "ihr": "geht hin",
+      "sie_Sie": "gehen hin"
+    },
+    "praeteritum": {
+      "ich": "ging hin",
+      "du": "gingst hin",
+      "er_sie_es": "ging hin",
+      "wir": "gingen hin",
+      "ihr": "gingt hin",
+      "sie_Sie": "gingen hin"
+    },
+    "perfekt": {
+      "ich": "bin hingegangen",
+      "du": "bist hingegangen",
+      "er_sie_es": "ist hingegangen",
+      "wir": "sind hingegangen",
+      "ihr": "seid hingegangen",
+      "sie_Sie": "sind hingegangen"
+    }
+  },
+  "rektion": {
+    "case": "none",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich gehe heute Abend trotz Müdigkeit zu der Feier hin.",
+      "translation": {
+        "ru": "Сегодня вечером, несмотря на усталость, я пойду на праздник.",
+        "en": "I am going to the celebration tonight despite being tired."
+      },
+      "bracket_parts": [
+        "gehe",
+        "hin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du gehst gerne zu solchen spannenden Ausstellungen hin.",
+      "translation": {
+        "ru": "Ты охотно ходишь на такие увлекательные выставки.",
+        "en": "You gladly go to such exciting exhibitions."
+      },
+      "bracket_parts": [
+        "gehst",
+        "hin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Zeit geht bei interessanter Arbeit wie im Flug hin.",
+      "translation": {
+        "ru": "Время при интересной работе пролетает незаметно.",
+        "en": "Time passes in a flash during interesting work."
+      },
+      "bracket_parts": [
+        "geht",
+        "hin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gehen morgen alle gemeinsam zum neuen Sportplatz hin.",
+      "translation": {
+        "ru": "Завтра мы все вместе пойдем на новую спортплощадку.",
+        "en": "Tomorrow we are all going to the new sports field together."
+      },
+      "bracket_parts": [
+        "gehen",
+        "hin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr geht freiwillig zu diesem schweren Seminar hin.",
+      "translation": {
+        "ru": "Вы добровольно идете на этот трудный семинар.",
+        "en": "You go to this difficult seminar voluntarily."
+      },
+      "bracket_parts": [
+        "geht",
+        "hin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie gingen damals regelmäßig zu den Bürgerversammlungen hin.",
+      "translation": {
+        "ru": "Они тогда регулярно ходили на собрания граждан.",
+        "en": "They regularly went to the citizens' meetings back then."
+      },
+      "bracket_parts": [
+        "gingen",
+        "hin"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Mein Bruder ist gestern spontan zum Arzt hingegangen.",
+      "translation": {
+        "ru": "Мой брат вчера спонтанно сходил к врачу.",
+        "en": "My brother spontaneously went to the doctor yesterday."
+      },
+      "bracket_parts": [
+        "ist",
+        "hingegangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Geh einfach ohne Furcht zur Beratung hin!",
+      "translation": {
+        "ru": "Просто сходи без страха на консультацию!",
+        "en": "Just go to the consultation without fear!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "hin"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "kriegen",
+  "infinitive": "kriegen",
+  "translation": {
+    "ru": "получать, доставать",
+    "en": "to get, to receive"
+  },
+  "level": "A2",
+  "frequency_rank": 112,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "kriegen",
+    "present_3sg": "kriegt",
+    "praeteritum_3sg": "kriegte",
+    "partizip_2": "gekriegt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "kriege",
+      "du": "kriegst",
+      "er_sie_es": "kriegt",
+      "wir": "kriegen",
+      "ihr": "kriegt",
+      "sie_Sie": "kriegen",
+      "root_vowel_change": null
+    },
+    "praeteritum": {
+      "ich": "kriegte",
+      "du": "kriegtest",
+      "er_sie_es": "kriegte",
+      "wir": "kriegten",
+      "ihr": "kriegtet",
+      "sie_Sie": "kriegten"
+    },
+    "imperative": {
+      "du": "kriege",
+      "ihr": "kriegt",
+      "Sie": "kriegen Sie"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "chunk": "ein Geschenk / Geld (Akk) kriegen",
+  "sentences": [
+    {
+      "id": "kriegen_1",
+      "tense": "Präsens",
+      "german": "Ich kriege zum Geburtstag ein schönes Geschenk.",
+      "translation": {
+        "ru": "Я получаю на день рождения красивый подарок.",
+        "en": "I get a nice gift for my birthday."
+      },
+      "bracket_parts": [
+        "kriege"
+      ],
+      "akkusativ_parts": [
+        "ein schönes Geschenk"
+      ]
+    },
+    {
+      "id": "kriegen_2",
+      "tense": "Präsens",
+      "german": "Kriegst du heute noch eine Antwort vom Vermieter?",
+      "translation": {
+        "ru": "Ты получишь сегодня ответ от арендодателя?",
+        "en": "Are you getting an answer from the landlord today?"
+      },
+      "bracket_parts": [
+        "Kriegst"
+      ],
+      "akkusativ_parts": [
+        "eine Antwort"
+      ]
+    },
+    {
+      "id": "kriegen_3",
+      "tense": "Präsens",
+      "german": "Er kriegt jeden Monat sein Gehalt pünktlich.",
+      "translation": {
+        "ru": "Он каждый месяц вовремя получает свою зарплату.",
+        "en": "He gets his salary on time every month."
+      },
+      "bracket_parts": [
+        "kriegt"
+      ],
+      "akkusativ_parts": [
+        "sein Gehalt"
+      ]
+    },
+    {
+      "id": "kriegen_4",
+      "tense": "Präsens",
+      "german": "Wir kriegen bald Besuch von unserer Familie.",
+      "translation": {
+        "ru": "К нам скоро приедут гости из нашей семьи.",
+        "en": "We are getting visitors from our family soon."
+      },
+      "bracket_parts": [
+        "kriegen"
+      ],
+      "akkusativ_parts": [
+        "Besuch"
+      ]
+    },
+    {
+      "id": "kriegen_5",
+      "tense": "Präsens",
+      "german": "Kriegt ihr noch zwei Plätze im Konzertsaal?",
+      "translation": {
+        "ru": "Вы достанете еще два места в концертном зале?",
+        "en": "Will you get two more seats in the concert hall?"
+      },
+      "bracket_parts": [
+        "Kriegt"
+      ],
+      "akkusativ_parts": [
+        "zwei Plätze"
+      ]
+    },
+    {
+      "id": "kriegen_6",
+      "tense": "Präteritum",
+      "german": "Sie kriegten damals sofort einen neuen Termin.",
+      "translation": {
+        "ru": "Они получили тогда сразу новую запись.",
+        "en": "They got a new appointment immediately back then."
+      },
+      "bracket_parts": [
+        "kriegten"
+      ],
+      "akkusativ_parts": [
+        "einen neuen Termin"
+      ]
+    },
+    {
+      "id": "kriegen_7",
+      "tense": "Perfekt",
+      "german": "Ich habe gestern endlich die Nachricht gekriegt.",
+      "translation": {
+        "ru": "Я вчера наконец получил это сообщение.",
+        "en": "I finally got the message yesterday."
+      },
+      "bracket_parts": [
+        "habe",
+        "gekriegt"
+      ],
+      "akkusativ_parts": [
+        "die Nachricht"
+      ]
+    },
+    {
+      "id": "kriegen_8",
+      "tense": "Imperativ",
+      "german": "Kriege bitte keinen Schreck wegen der Neuigkeit!",
+      "translation": {
+        "ru": "Пожалуйста, не пугайся из-за этой новости!",
+        "en": "Please don't get a fright because of the news!"
+      },
+      "bracket_parts": [
+        "Kriege"
+      ],
+      "akkusativ_parts": [
+        "keinen Schreck"
+      ]
+    }
+  ]
+}

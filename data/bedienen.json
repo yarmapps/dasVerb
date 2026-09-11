@@ -1,0 +1,171 @@
+{
+  "id": "bedienen",
+  "infinitive": "bedienen",
+  "translation": {
+    "ru": "обслуживать, управлять",
+    "en": "to serve, operate"
+  },
+  "level": "A2",
+  "frequency_rank": 444,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bedienen",
+    "present_3sg": "bedient",
+    "praeteritum_3sg": "bediente",
+    "partizip_2": "bedient"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bediene",
+      "du": "bedienst",
+      "er_sie_es": "bedient",
+      "wir": "bedienen",
+      "ihr": "bedient",
+      "sie_Sie": "bedienen"
+    },
+    "praeteritum": {
+      "ich": "bediente",
+      "du": "bedientest",
+      "er_sie_es": "bediente",
+      "wir": "bedienten",
+      "ihr": "bedientet",
+      "sie_Sie": "bedienten"
+    },
+    "perfekt": {
+      "ich": "habe bedient",
+      "du": "hast bedient",
+      "er_sie_es": "hat bedient",
+      "wir": "haben bedient",
+      "ihr": "habt bedient",
+      "sie_Sie": "haben bedient"
+    }
+  },
+  "rektion": {
+    "case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null,
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich bediene die komplizierte Kaffeemaschine im Büro.",
+      "translation": {
+        "ru": "Я управляю сложной кофемашиной в офисе.",
+        "en": "I operate the complicated coffee machine in the office."
+      },
+      "bracket_parts": [
+        "bediene"
+      ],
+      "akkusativ_parts": [
+        "die komplizierte Kaffeemaschine"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du bedienst die Gäste im Restaurant sehr aufmerksam.",
+      "translation": {
+        "ru": "Ты очень внимательно обслуживаешь гостей в ресторане.",
+        "en": "You serve the guests in the restaurant very attentively."
+      },
+      "bracket_parts": [
+        "bedienst"
+      ],
+      "akkusativ_parts": [
+        "die Gäste"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Kellner bedient den Tisch am Fenster freundlich.",
+      "translation": {
+        "ru": "Официант приветливо обслуживает столик у окна.",
+        "en": "The waiter serves the table by the window friendly."
+      },
+      "bracket_parts": [
+        "bedient"
+      ],
+      "akkusativ_parts": [
+        "den Tisch"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bedienen unsere Kunden immer schnell und zuverlässig.",
+      "translation": {
+        "ru": "Мы всегда быстро и надежно обслуживаем наших клиентов.",
+        "en": "We always serve our customers quickly and reliably."
+      },
+      "bracket_parts": [
+        "bedienen"
+      ],
+      "akkusativ_parts": [
+        "unsere Kunden"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr bedient diese moderne Werkzeugmaschine ohne Probleme.",
+      "translation": {
+        "ru": "Вы без проблем управляете этим современным станком.",
+        "en": "You operate this modern machine tool without problems."
+      },
+      "bracket_parts": [
+        "bedient"
+      ],
+      "akkusativ_parts": [
+        "diese moderne Werkzeugmaschine"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie bedienten damals alle Passagiere an Bord des Schiffes.",
+      "translation": {
+        "ru": "Они обслуживали тогда всех пассажиров на борту корабля.",
+        "en": "They served all passengers aboard the ship back then."
+      },
+      "bracket_parts": [
+        "bedienten"
+      ],
+      "akkusativ_parts": [
+        "alle Passagiere"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der erfahrene Facharbeiter hat den großen Kran sicher bedient.",
+      "translation": {
+        "ru": "Опытный рабочий уверенно управлял большим краном.",
+        "en": "The experienced skilled worker operated the large crane safely."
+      },
+      "bracket_parts": [
+        "hat",
+        "bedient"
+      ],
+      "akkusativ_parts": [
+        "den großen Kran"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bediene das Gerät genau nach der Anleitung!",
+      "translation": {
+        "ru": "Управляй прибором строго по инструкции!",
+        "en": "Operate the device strictly according to the instructions!"
+      },
+      "bracket_parts": [
+        "Bediene"
+      ],
+      "akkusativ_parts": [
+        "das Gerät"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}
