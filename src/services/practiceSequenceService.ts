@@ -116,12 +116,13 @@ export async function getNextPracticeTarget(
 
   if (current.isCheckpoint && current.checkpointId) {
     currentIndex = sequence.findIndex(
-      item => item.type === 'checkpoint' && item.checkpointId === current.checkpointId,
+      item => item?.type === 'checkpoint' && item.checkpointId === current.checkpointId,
     );
   } else if (current.infinitive) {
     currentIndex = sequence.findIndex(
       item =>
-        item.type === 'verb' && item.infinitive.toLowerCase() === current.infinitive?.toLowerCase(),
+        item?.type === 'verb' &&
+        item.infinitive?.toLowerCase() === current.infinitive?.toLowerCase(),
     );
   }
 
@@ -131,7 +132,7 @@ export async function getNextPracticeTarget(
 
   const nextItem = sequence[currentIndex + 1];
 
-  if (nextItem.type === 'checkpoint') {
+  if (nextItem?.type === 'checkpoint') {
     return {
       type: 'checkpoint',
       level: nextItem.level,

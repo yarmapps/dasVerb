@@ -1,5 +1,13 @@
 import React, { useEffect, useMemo, useState, useCallback } from 'react';
-import { View, Text, TouchableOpacity, FlatList, Platform, BackHandler } from 'react-native';
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  FlatList,
+  Platform,
+  BackHandler,
+  Switch,
+} from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation, useRoute, RouteProp, useFocusEffect } from '@react-navigation/native';
@@ -55,6 +63,8 @@ export function QuizResultsScreen(): React.JSX.Element {
     prefixLevelId,
     isPrefixCheckpoint = false,
     prefixCefrLevel,
+    conjugationLevelId,
+    isConjugationQuiz = false,
     nextQuizParams,
     returnRouteName,
     results = [],
@@ -63,14 +73,31 @@ export function QuizResultsScreen(): React.JSX.Element {
   const [nextTarget, setNextTarget] = useState<PracticeNextTarget | null>(null);
   const [isTargetChecked, setIsTargetChecked] = useState(false);
   const [isNewStreakDay, setIsNewStreakDay] = useState(false);
+  const [showAllAnswers, setShowAllAnswers] = useState(false);
+
+  const hasErrors = useMemo(() => results.some(result => !result.isCorrect), [results]);
+  const displayedResults = useMemo(() => {
+    if (!hasErrors || showAllAnswers) {
+      return results;
+    }
+    return results.filter(result => !result.isCorrect);
+  }, [results, hasErrors, showAllAnswers]);
 
   const correctCount = useMemo(() => results.filter(result => result.isCorrect).length, [results]);
   const defaultTotalCount = useMemo(() => {
     if (isSmartQuiz) return 50;
     if (isCheckpoint || isPrefixCheckpoint) return 20;
     if (prefixLevelId) return 10;
+    if (conjugationLevelId || isConjugationQuiz) return 30;
     return 6;
-  }, [isSmartQuiz, isCheckpoint, isPrefixCheckpoint, prefixLevelId]);
+  }, [
+    isSmartQuiz,
+    isCheckpoint,
+    isPrefixCheckpoint,
+    prefixLevelId,
+    conjugationLevelId,
+    isConjugationQuiz,
+  ]);
   const totalCount = results.length || defaultTotalCount;
   const percentage = Math.round((correctCount / totalCount) * 100);
   const status = calculateVerbStatus(percentage);
@@ -87,7 +114,14 @@ export function QuizResultsScreen(): React.JSX.Element {
   }, []);
 
   useEffect(() => {
-    if (isSmartQuiz || prefixLevelId || isPrefixCheckpoint) return;
+    if (
+      isSmartQuiz ||
+      prefixLevelId ||
+      isPrefixCheckpoint ||
+      conjugationLevelId ||
+      isConjugationQuiz
+    )
+      return;
     let isMounted = true;
     getNextPracticeTarget({ infinitive, level, isCheckpoint, checkpointId }).then(target => {
       if (isMounted) {
@@ -106,11 +140,15 @@ export function QuizResultsScreen(): React.JSX.Element {
     isSmartQuiz,
     prefixLevelId,
     isPrefixCheckpoint,
+    conjugationLevelId,
+    isConjugationQuiz,
   ]);
 
   useEffect(() => {
     if (isSmartQuiz) return;
-    if (prefixLevelId) {
+    if (conjugationLevelId) {
+      progressService.setConjugationLevelProgress(conjugationLevelId, percentage);
+    } else if (prefixLevelId) {
       progressService.setPrefixLevelProgress(prefixLevelId, percentage);
     } else if (isPrefixCheckpoint && (checkpointId || prefixCefrLevel)) {
       const id = checkpointId || `prefix_checkpoint_${(prefixCefrLevel || 'a1').toLowerCase()}`;
@@ -129,6 +167,7 @@ export function QuizResultsScreen(): React.JSX.Element {
     prefixLevelId,
     isPrefixCheckpoint,
     prefixCefrLevel,
+    conjugationLevelId,
   ]);
 
   useEffect(() => {
@@ -137,7 +176,16 @@ export function QuizResultsScreen(): React.JSX.Element {
   }, [percentage]);
 
   const handleTryAgain = () => {
-    if (prefixLevelId || isPrefixCheckpoint) {
+    if (conjugationLevelId || isConjugationQuiz) {
+      navigateToQuiz(
+        {
+          conjugationLevelId,
+          isConjugationQuiz: true,
+          level,
+        },
+        'replace',
+      );
+    } else if (prefixLevelId || isPrefixCheckpoint) {
       navigateToQuiz(
         {
           prefixLevelId,
@@ -166,18 +214,24 @@ export function QuizResultsScreen(): React.JSX.Element {
   };
 
   const handleGoToList = useCallback(() => {
+    if (returnRouteName === 'ConjugationPracticeList') {
+      if (navigation.canGoBack()) {
+        navigation.popToTop();
+      } else {
+        navigation.navigate('MainTabs', {
+          screen: 'Practice',
+          params: { screen: 'ConjugationPracticeList' },
+        });
+      }
+      return;
+    }
     if (returnRouteName === 'PrefixPracticeList') {
       if (navigation.canGoBack()) {
         navigation.popToTop();
       } else {
         navigation.navigate('MainTabs', {
           screen: 'Practice',
-          params: {
-            state: {
-              routes: [{ name: 'PracticeHome' }, { name: 'PrefixPracticeList' }],
-              index: 1,
-            },
-          },
+          params: { screen: 'PrefixPracticeList' },
         });
       }
       return;
@@ -187,12 +241,7 @@ export function QuizResultsScreen(): React.JSX.Element {
     } else {
       navigation.navigate('MainTabs', {
         screen: 'Practice',
-        params: {
-          state: {
-            routes: [{ name: 'PracticeHome' }, { name: 'VerbsPracticeList' }],
-            index: 1,
-          },
-        },
+        params: { screen: 'VerbsPracticeList' },
       });
     }
   }, [navigation, returnRouteName]);
@@ -227,7 +276,7 @@ export function QuizResultsScreen(): React.JSX.Element {
           },
           'replace',
         );
-      } else {
+      } else if (nextTarget.type === 'verb') {
         navigateToQuiz(
           {
             infinitive: nextTarget.infinitive,
@@ -241,6 +290,27 @@ export function QuizResultsScreen(): React.JSX.Element {
     }
   };
 
+  const hasNext = useMemo(() => {
+    if (isSmartQuiz) return false;
+    if (prefixLevelId || isPrefixCheckpoint || conjugationLevelId || isConjugationQuiz) {
+      return Boolean(nextQuizParams);
+    }
+    if (nextQuizParams) return true;
+    if (isTargetChecked) {
+      return Boolean(nextTarget);
+    }
+    return true;
+  }, [
+    isSmartQuiz,
+    prefixLevelId,
+    isPrefixCheckpoint,
+    conjugationLevelId,
+    isConjugationQuiz,
+    nextQuizParams,
+    isTargetChecked,
+    nextTarget,
+  ]);
+
   const headlineMessage = useMemo(() => {
     if (percentage >= 100) {
       return intl.formatMessage({ id: 'quizResultsScreen.youDidIt' });
@@ -253,18 +323,6 @@ export function QuizResultsScreen(): React.JSX.Element {
     }
     return intl.formatMessage({ id: 'quizResultsScreen.canDoBetter' });
   }, [percentage, intl]);
-
-  const hasNext = useMemo(() => {
-    if (isSmartQuiz) return false;
-    if (prefixLevelId || isPrefixCheckpoint) {
-      return Boolean(nextQuizParams);
-    }
-    if (nextQuizParams) return true;
-    if (isTargetChecked) {
-      return Boolean(nextTarget);
-    }
-    return true;
-  }, [isSmartQuiz, prefixLevelId, isPrefixCheckpoint, nextQuizParams, isTargetChecked, nextTarget]);
 
   const renderActionButtons = () => {
     if (isSmartQuiz) {
@@ -354,6 +412,8 @@ export function QuizResultsScreen(): React.JSX.Element {
     );
   };
 
+  const isConjugation = Boolean(conjugationLevelId || isConjugationQuiz);
+
   const renderReviewItem = ({
     item,
     index,
@@ -361,8 +421,63 @@ export function QuizResultsScreen(): React.JSX.Element {
     item: VerbQuizQuestionResult;
     index: number;
   }): React.JSX.Element => {
-    const isLast = index === results.length - 1;
-    const translationText = item.translation[languageCode] || item.translation.en || '';
+    const isLast = index === displayedResults.length - 1;
+    const translationText = !isConjugation
+      ? item?.translation?.[languageCode] || item?.translation?.en || ''
+      : '';
+
+    if (isConjugation) {
+      if (item.isCorrect) {
+        return (
+          <View
+            style={[styles.reviewItem, isLast && styles.reviewItemLast]}
+            testID={`result-item-${index}`}
+          >
+            <View style={styles.reviewIconContainer}>
+              <Ionicons name="checkmark-circle" size={20} color="#10B981" />
+            </View>
+            <View style={styles.reviewContent}>
+              <Text style={styles.reviewGermanText}>{item.sentenceGerman}</Text>
+            </View>
+          </View>
+        );
+      }
+
+      const userAns = item.userAnswers?.[0] || '—';
+      const correctAns = item.correctAnswers?.[0] || '';
+      let pronoun = '';
+      let afterCorrect = '';
+      if (correctAns && item.sentenceGerman.includes(correctAns)) {
+        const correctIndex = item.sentenceGerman.indexOf(correctAns);
+        pronoun = item.sentenceGerman.slice(0, correctIndex);
+        afterCorrect = item.sentenceGerman.slice(correctIndex + correctAns.length);
+      } else {
+        const words = item.sentenceGerman.split(' ');
+        pronoun = words.length > 1 ? `${words[0]} ` : '';
+      }
+
+      return (
+        <View
+          style={[styles.reviewItem, isLast && styles.reviewItemLast]}
+          testID={`result-item-${index}`}
+        >
+          <View style={styles.reviewIconContainer}>
+            <Ionicons name="close-circle" size={20} color="#EF4444" />
+          </View>
+          <View style={styles.reviewContent}>
+            <Text style={styles.reviewGermanText}>
+              {pronoun}
+              <Text style={styles.wrongAnswerStrikethrough}>{userAns}</Text>{' '}
+              <Text style={styles.correctAnswerText}>{correctAns || item.sentenceGerman}</Text>
+              {afterCorrect}
+            </Text>
+          </View>
+        </View>
+      );
+    }
+
+    const userAns = item.userAnswers?.filter(Boolean).join(' / ') || '';
+    const correctAns = item.correctAnswers?.filter(Boolean).join(' / ') || '';
 
     return (
       <View
@@ -378,6 +493,15 @@ export function QuizResultsScreen(): React.JSX.Element {
         </View>
         <View style={styles.reviewContent}>
           <Text style={styles.reviewGermanText}>{item.sentenceGerman}</Text>
+          {!item.isCorrect && (userAns || correctAns) ? (
+            <View style={styles.correctionRow}>
+              {userAns ? <Text style={styles.wrongAnswerStrikethrough}>{userAns}</Text> : null}
+              {userAns && correctAns ? (
+                <Ionicons name="arrow-forward" size={12} color={colors.textMuted} />
+              ) : null}
+              {correctAns ? <Text style={styles.correctAnswerText}>{correctAns}</Text> : null}
+            </View>
+          ) : null}
           {translationText ? (
             <Text style={styles.reviewTranslationText}>{translationText}</Text>
           ) : null}
@@ -448,7 +572,7 @@ export function QuizResultsScreen(): React.JSX.Element {
           <View style={styles.reviewSection}>
             <View style={styles.reviewCard}>
               <FlatList
-                data={results}
+                data={displayedResults}
                 keyExtractor={(_, index) => `result-${index}`}
                 renderItem={renderReviewItem}
                 showsVerticalScrollIndicator={false}
@@ -456,6 +580,20 @@ export function QuizResultsScreen(): React.JSX.Element {
                 contentContainerStyle={styles.reviewListContent}
               />
             </View>
+            {hasErrors && (
+              <View style={styles.toggleRowContainer}>
+                <Text style={styles.toggleRowLabel}>
+                  {intl.formatMessage({ id: 'quizResultsScreen.showCorrectAnswers' })}
+                </Text>
+                <Switch
+                  value={showAllAnswers}
+                  onValueChange={setShowAllAnswers}
+                  trackColor={{ false: colors.blockBorder, true: colors.primary }}
+                  thumbColor="#ffffff"
+                  testID="toggle-answers-switch"
+                />
+              </View>
+            )}
           </View>
         )}
 

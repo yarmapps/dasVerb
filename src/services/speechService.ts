@@ -138,6 +138,10 @@ class SpeechService {
       const { identifier: voiceId, isExactGenderMatch } =
         await this.getGermanVoiceIdentifier(gender);
 
+      if (!this.isSpeaking) {
+        return;
+      }
+
       let pitch: number;
       let rate: number;
       if (isExactGenderMatch) {

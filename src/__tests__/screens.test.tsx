@@ -515,6 +515,38 @@ describe('Screens Integration Suite', () => {
 
       scrollToIndexSpy.mockRestore();
     });
+
+    it('should scroll to offset 0 when switching to a level with no completed verbs', async () => {
+      const a1AndB1Verbs: VerbCard[] = [
+        { ...mockVerbs[0], id: 'a1_verb', level: 'A1' },
+        { ...mockVerbs[0], id: 'b1_verb', level: 'B1' },
+      ];
+      jest.spyOn(verbDataService, 'getVerbsOrderedByDifficulty').mockResolvedValue(a1AndB1Verbs);
+      jest.spyOn(progressService, 'getVerbProgress').mockReturnValue({ score: 0, status: 'uncompleted' });
+      jest.spyOn(progressService, 'getCheckpointProgress').mockReturnValue({ score: 0, status: 'uncompleted' });
+
+      const scrollToOffsetSpy = jest.spyOn(FlatList.prototype, 'scrollToOffset');
+
+      const { getByTestId } = render(
+        <ScreenWrapper>
+          <VerbsPracticeListScreen />
+        </ScreenWrapper>,
+      );
+
+      const b1Tab = getByTestId('verbs-tab-B1');
+      fireEvent.press(b1Tab);
+
+      await waitFor(() => {
+        expect(scrollToOffsetSpy).toHaveBeenCalledWith(
+          expect.objectContaining({
+            offset: 0,
+            animated: true,
+          }),
+        );
+      });
+
+      scrollToOffsetSpy.mockRestore();
+    });
   });
 
   describe('VerbQuizScreen', () => {

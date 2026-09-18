@@ -10,6 +10,7 @@ import { ScreenHeader } from '../../components/ScreenHeader/ScreenHeader';
 import { ScreenBackground } from '../../components/ScreenBackground/ScreenBackground';
 import { FeaturedStartCard } from '../../components/FeaturedStartCard/FeaturedStartCard';
 import { PrefixPracticeCard } from '../../components/PrefixPracticeCard/PrefixPracticeCard';
+import { ConjugationPracticeCard } from '../../components/ConjugationPracticeCard/ConjugationPracticeCard';
 import { SmartQuizCard } from '../../components/SmartQuizCard/SmartQuizCard';
 import { ThematicCategoriesSection } from '../../components/ThematicCategoriesSection/ThematicCategoriesSection';
 import { ThematicCategory } from '../../config/categories';
@@ -41,6 +42,11 @@ export function PracticeScreen(): React.JSX.Element {
   const handleStartPrefixPractice = () => {
     soundService.playTapSound();
     navigation.navigate('PrefixPracticeList');
+  };
+
+  const handleStartConjugationPractice = () => {
+    soundService.playTapSound();
+    navigation.navigate('ConjugationPracticeList');
   };
 
   const handleStartSmartQuiz = () => {
@@ -103,6 +109,9 @@ export function PracticeScreen(): React.JSX.Element {
 
           {/* Prefix Verbs Practice Mode */}
           <PrefixPracticeCard onPress={handleStartPrefixPractice} />
+
+          {/* Conjugation Practice Mode */}
+          <ConjugationPracticeCard onPress={handleStartConjugationPractice} />
 
           {/* Smart Quiz Mode (derArtikel style) */}
           <SmartQuizCard onPress={handleStartSmartQuiz} />

@@ -33,6 +33,8 @@ export interface Translation {
     prefixBannerBadge?: string;
     prefixBannerTitle?: string;
     prefixBannerSubtitle?: string;
+    conjugationBannerTitle?: string;
+    conjugationBannerSubtitle?: string;
   };
   categories?: {
     sectionTitle: string;
@@ -114,10 +116,32 @@ export interface Translation {
     inseparableRule: string;
     dualRule: string;
   };
+  conjugationPracticeListScreen?: {
+    title: string;
+    levelNumber: string;
+    checkpointTitle: string;
+    checkpointSubtitle: string;
+    finalTestTitle: string;
+    finalTestSubtitle: string;
+  };
+  conjugationPractice?: {
+    title: string;
+    levelTitle: string;
+    checkpointNumberTitle: string;
+    finalTestTitle: string;
+  };
+  conjugationGrammarHint?: {
+    ruleTag: string;
+    eToIRule: string;
+    eToIeRule: string;
+    aToAeRule: string;
+    auToAeuRule: string;
+  };
   verbQuizScreen: {
     title: string;
     checkpointQuizTitle?: string;
     smartQuizTitle?: string;
+    conjugateVerbTitle?: string;
     level: string;
     fillCard: string;
     check: string;
@@ -140,6 +164,9 @@ export interface Translation {
     verbsList?: string;
     backToPractice?: string;
     scoreSummary?: string;
+    showCorrectAnswers?: string;
+    showAllAnswers?: string;
+    showErrorsOnly?: string;
   };
   dailyQuizLimitModal?: {
     title: string;

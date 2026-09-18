@@ -134,6 +134,20 @@ function buildDatabase() {
 
     CREATE INDEX idx_prefix_levels_cefr ON prefix_levels(cefr_level);
     CREATE INDEX idx_prefix_levels_subgroup ON prefix_levels(subgroup_type);
+
+    CREATE TABLE conjugation_levels (
+      id TEXT PRIMARY KEY,
+      cefr_level TEXT NOT NULL,
+      subgroup_type TEXT NOT NULL,
+      level_number INTEGER NOT NULL,
+      order_index INTEGER NOT NULL,
+      title TEXT NOT NULL,
+      verbs_json TEXT NOT NULL
+    );
+
+    CREATE INDEX idx_conjugation_levels_cefr ON conjugation_levels(cefr_level);
+    CREATE INDEX idx_conjugation_levels_subgroup ON conjugation_levels(subgroup_type);
+    CREATE INDEX idx_conjugation_levels_order ON conjugation_levels(order_index);
   `);
 
   const files = fs.readdirSync(DATA_DIR).filter(f => f.endsWith('.json'));
@@ -424,6 +438,130 @@ function buildDatabase() {
   }
 
   console.log(`✅ Successfully compiled ${totalLevelsCreated} prefix levels into assets/main.db`);
+
+  // Deduplicate all verbs by infinitive for conjugation levels
+  const allUniqueByInf = new Map<string, VerbCard[]>();
+  for (const card of loadedCards) {
+    const inf = card.infinitive.toLowerCase();
+    if (!allUniqueByInf.has(inf)) {
+      allUniqueByInf.set(inf, []);
+    }
+    allUniqueByInf.get(inf)!.push(card);
+  }
+
+  const allUniqueVerbs: VerbCard[] = [];
+  for (const [inf, cards] of allUniqueByInf.entries()) {
+    const baseCard =
+      cards.find(c => c.id.toLowerCase() === inf) ||
+      cards.sort((a, b) => (a.frequency_rank ?? 9999) - (b.frequency_rank ?? 9999))[0];
+    allUniqueVerbs.push(baseCard);
+  }
+
+  const insertConjugationLevelStmt = db.prepare(`
+    INSERT INTO conjugation_levels (
+      id,
+      cefr_level,
+      subgroup_type,
+      level_number,
+      order_index,
+      title,
+      verbs_json
+    ) VALUES (
+      ?, ?, ?, ?, ?, ?, ?
+    )
+  `);
+
+  let totalConjugationLevelsCreated = 0;
+
+  for (const cefr of CEFR_LEVELS) {
+    const levelVerbs = allUniqueVerbs.filter(v => v.level === cefr);
+    levelVerbs.sort((a, b) => (a.frequency_rank ?? 9999) - (b.frequency_rank ?? 9999));
+
+    let levelNumber = 1;
+    let checkpointNumber = 1;
+    let orderIndex = 1;
+    const accumulatedVerbsInBlock: string[] = [];
+
+    for (let i = 0; i < levelVerbs.length; i += 5) {
+      const chunk = levelVerbs.slice(i, i + 5);
+      const chunkInfinitives = chunk.map(v => v.infinitive);
+      accumulatedVerbsInBlock.push(...chunkInfinitives);
+
+      const levelId = `conjugation_${cefr.toLowerCase()}_level_${levelNumber}`;
+      insertConjugationLevelStmt.run(
+        levelId,
+        cefr,
+        'standard',
+        levelNumber,
+        orderIndex,
+        `Level ${levelNumber}`,
+        JSON.stringify(chunkInfinitives),
+      );
+      totalConjugationLevelsCreated++;
+      orderIndex++;
+
+      // Every 10 levels, if there are more verbs ahead, insert an intermediate checkpoint
+      if (levelNumber % 10 === 0 && i + 5 < levelVerbs.length) {
+        const checkpointVerbs: string[] = [];
+        const step = Math.max(1, Math.floor(accumulatedVerbsInBlock.length / 10));
+        for (let k = 0; k < 10 && k * step < accumulatedVerbsInBlock.length; k++) {
+          checkpointVerbs.push(accumulatedVerbsInBlock[k * step]);
+        }
+        for (const v of accumulatedVerbsInBlock) {
+          if (checkpointVerbs.length >= 10) break;
+          if (!checkpointVerbs.includes(v)) {
+            checkpointVerbs.push(v);
+          }
+        }
+
+        const cpId = `conjugation_${cefr.toLowerCase()}_checkpoint_${checkpointNumber}`;
+        insertConjugationLevelStmt.run(
+          cpId,
+          cefr,
+          'checkpoint',
+          checkpointNumber,
+          orderIndex,
+          `Checkpoint ${checkpointNumber}`,
+          JSON.stringify(checkpointVerbs),
+        );
+        totalConjugationLevelsCreated++;
+        checkpointNumber++;
+        orderIndex++;
+        accumulatedVerbsInBlock.length = 0;
+      }
+
+      levelNumber++;
+    }
+
+    // Final Test Checkpoint at the end of CEFR level: 15 verbs
+    const allInfinitives = levelVerbs.map(v => v.infinitive);
+    const finalVerbs: string[] = [];
+    const stepFinal = Math.max(1, Math.floor(allInfinitives.length / 15));
+    for (let k = 0; k < 15 && k * stepFinal < allInfinitives.length; k++) {
+      finalVerbs.push(allInfinitives[k * stepFinal]);
+    }
+    for (const v of allInfinitives) {
+      if (finalVerbs.length >= 15) break;
+      if (!finalVerbs.includes(v)) {
+        finalVerbs.push(v);
+      }
+    }
+
+    const finalTestId = `conjugation_${cefr.toLowerCase()}_final`;
+    insertConjugationLevelStmt.run(
+      finalTestId,
+      cefr,
+      'final_test',
+      0,
+      orderIndex,
+      `Final Test ${cefr}`,
+      JSON.stringify(finalVerbs),
+    );
+    totalConjugationLevelsCreated++;
+    orderIndex++;
+  }
+
+  console.log(`✅ Successfully compiled ${totalConjugationLevelsCreated} conjugation levels into assets/main.db`);
   db.close();
 }
 

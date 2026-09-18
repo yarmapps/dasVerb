@@ -22,6 +22,10 @@ export function PrefixDualSlotExercise({
   const { colors } = useAppTheme();
   const styles = useMemo(() => createStyles(colors), [colors]);
 
+  if (!exercise) {
+    return <View />;
+  }
+
   const elements: React.JSX.Element[] = [];
   const renderedIndices = new Set<number>();
 

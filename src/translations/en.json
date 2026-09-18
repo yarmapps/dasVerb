@@ -58,7 +58,9 @@
     "smartQuizSubtitle": "Focus on your mistakes and learn 3x faster",
     "prefixBannerBadge": "A1 – B2",
     "prefixBannerTitle": "Prefix Verbs",
-    "prefixBannerSubtitle": "Separable, inseparable and dual prefixes"
+    "prefixBannerSubtitle": "Separable, inseparable and dual prefixes",
+    "conjugationBannerTitle": "Conjugation Trainer",
+    "conjugationBannerSubtitle": "Train verb forms for all pronouns in Präsens"
   },
   "categories": {
     "sectionTitle": "Topics & Categories",
@@ -196,10 +198,32 @@
     "inseparableRule": "Inseparable prefixes (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) never separate from the verb stem.",
     "dualRule": "Prefixes like über-, um-, unter-, durch- can be separable or inseparable depending on the verb meaning."
   },
+  "conjugationPracticeListScreen": {
+    "title": "Conjugation Trainer",
+    "levelNumber": "Level {number}",
+    "checkpointTitle": "Checkpoint {number}",
+    "checkpointSubtitle": "Review quiz with 10 random verbs",
+    "finalTestTitle": "Final Test {level}",
+    "finalTestSubtitle": "Comprehensive 15-verb test for this level"
+  },
+  "conjugationPractice": {
+    "title": "Conjugation",
+    "levelTitle": "Level {number}",
+    "checkpointNumberTitle": "Checkpoint {number}",
+    "finalTestTitle": "Final Test {level}"
+  },
+  "conjugationGrammarHint": {
+    "ruleTag": "Vowel Change",
+    "eToIRule": "e → i vowel change in 2nd and 3rd person singular (du, er/sie/es).",
+    "eToIeRule": "e → ie vowel change in 2nd and 3rd person singular (du, er/sie/es).",
+    "aToAeRule": "a → ä vowel change in 2nd and 3rd person singular (du, er/sie/es).",
+    "auToAeuRule": "au → äu vowel change in 2nd and 3rd person singular (du, er/sie/es)."
+  },
   "verbQuizScreen": {
     "title": "Practice",
     "checkpointQuizTitle": "Checkpoint Quiz",
     "smartQuizTitle": "Smart Quiz",
+    "conjugateVerbTitle": "Conjugate the verb {verb}",
     "level": "Level",
     "check": "Check",
     "continue": "Continue",
@@ -227,7 +251,10 @@
     "tryAgain": "Try again",
     "verbsList": "To verbs list",
     "backToPractice": "Back to Practice",
-    "scoreSummary": "{correct} of {total}"
+    "scoreSummary": "{correct} of {total}",
+    "showCorrectAnswers": "Show correct answers",
+    "showAllAnswers": "Show all answers",
+    "showErrorsOnly": "Show errors only"
   },
   "dailyQuizLimitModal": {
     "title": "Awesome progress!",

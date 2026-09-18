@@ -12,6 +12,7 @@ const progressStorage = createStorage('verb_progress');
 const sentenceErrorsStorage = createStorage('sentence_error_stats');
 const checkpointStorage = createStorage('checkpoint_progress');
 const prefixLevelsStorage = createStorage('prefix_levels_progress');
+const conjugationLevelsStorage = createStorage('conjugation_levels_progress');
 
 export function calculateVerbStatus(score: number): VerbProgressStatus {
   if (score < 60) return 'uncompleted';
@@ -192,6 +193,7 @@ export const progressService = {
     sentenceErrorsStorage.clearAll();
     checkpointStorage.clearAll();
     prefixLevelsStorage.clearAll();
+    conjugationLevelsStorage.clearAll();
   },
 
   getPrefixLevelProgress(levelId: string): VerbProgress {
@@ -227,5 +229,40 @@ export const progressService = {
       lastPracticedAt: Date.now(),
     };
     prefixLevelsStorage.set(levelId, JSON.stringify(progressData));
+  },
+
+  getConjugationLevelProgress(levelId: string): VerbProgress {
+    const rawData = conjugationLevelsStorage.getString(levelId);
+    if (rawData) {
+      try {
+        const parsed = JSON.parse(rawData);
+        const score = typeof parsed.score === 'number' ? parsed.score : 0;
+        return {
+          score,
+          status: calculateVerbStatus(score),
+          lastPracticedAt: parsed.lastPracticedAt,
+        };
+      } catch {
+        // ignore corrupted json
+      }
+    }
+
+    return {
+      score: 0,
+      status: 'uncompleted',
+    };
+  },
+
+  setConjugationLevelProgress(levelId: string, score: number): void {
+    const clampedScore = Math.max(0, Math.min(100, score));
+    const previousProgress = this.getConjugationLevelProgress(levelId);
+    const bestScore = Math.max(previousProgress.score, clampedScore);
+    const status = calculateVerbStatus(bestScore);
+    const progressData: VerbProgress = {
+      score: bestScore,
+      status,
+      lastPracticedAt: Date.now(),
+    };
+    conjugationLevelsStorage.set(levelId, JSON.stringify(progressData));
   },
 };

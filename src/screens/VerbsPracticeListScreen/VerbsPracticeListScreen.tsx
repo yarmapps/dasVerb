@@ -98,12 +98,10 @@ export function VerbsPracticeListScreen(): React.JSX.Element {
   const baseGroupsRef = useRef<BaseLevelGroup[] | null>(null);
   const lastCacheKeyRef = useRef<string>('');
   const flatListRef = useRef<FlatList<PracticeListItem>>(null);
-  const hasAutoScrolledRef = useRef(false);
 
   const handleTabChange = useCallback((tab: CefrTab) => {
     soundService.playTapSound();
     setActiveCefr(tab);
-    flatListRef.current?.scrollToOffset({ offset: 0, animated: false });
   }, []);
 
   const flatListItems = useMemo<PracticeListItem[]>(() => {
@@ -257,35 +255,44 @@ export function VerbsPracticeListScreen(): React.JSX.Element {
     [itemLayouts],
   );
 
-  const scrollTargetToCenter = useCallback(() => {
-    if (furthestCompletedIndex > 0 && flatListRef.current) {
+  const scrollToTargetForTab = useCallback(() => {
+    if (!flatListRef.current || flatListItems.length === 0) return;
+
+    const targetIndex = furthestCompletedIndex > 0 ? furthestCompletedIndex : 0;
+
+    if (targetIndex > 0) {
       try {
         flatListRef.current.scrollToIndex({
-          index: furthestCompletedIndex,
+          index: targetIndex,
           viewPosition: 0.5,
           animated: true,
         });
       } catch {
-        const targetOffset = itemLayouts[furthestCompletedIndex]?.offset;
+        const targetOffset = itemLayouts[targetIndex]?.offset;
         if (typeof targetOffset === 'number') {
           flatListRef.current.scrollToOffset({
-            offset: targetOffset,
+            offset: Math.max(0, targetOffset - 150),
             animated: true,
           });
         }
       }
+    } else {
+      flatListRef.current.scrollToOffset({
+        offset: 0,
+        animated: true,
+      });
     }
-  }, [furthestCompletedIndex, itemLayouts]);
+  }, [flatListItems.length, furthestCompletedIndex, itemLayouts]);
 
   useEffect(() => {
-    if (!hasAutoScrolledRef.current && furthestCompletedIndex > 0 && flatListItems.length > 0) {
-      hasAutoScrolledRef.current = true;
-      const timer = setTimeout(() => {
-        scrollTargetToCenter();
-      }, 150);
-      return () => clearTimeout(timer);
-    }
-  }, [furthestCompletedIndex, flatListItems.length, scrollTargetToCenter]);
+    if (flatListItems.length === 0) return;
+
+    const timer = setTimeout(() => {
+      scrollToTargetForTab();
+    }, 150);
+
+    return () => clearTimeout(timer);
+  }, [activeCefr, levelGroups, flatListItems.length, scrollToTargetForTab]);
 
   const handleVerbPress = useCallback(
     (infinitive: string, level: string) => {
@@ -337,9 +344,9 @@ export function VerbsPracticeListScreen(): React.JSX.Element {
           const baseVerbItems: BaseVerbPracticeItem[] = [];
 
           infinitiveMap.forEach((variants, infinitive) => {
-            const primaryVariant = variants[0];
+            const primaryVariant = variants?.[0];
             const rawTranslation =
-              primaryVariant.translation?.[languageCode] || primaryVariant.translation?.en || '';
+              primaryVariant?.translation?.[languageCode] || primaryVariant?.translation?.en || '';
 
             // Очистка перевода от грамматических скобок
             const cleanTranslation = rawTranslation.split('(')[0].trim() || rawTranslation;
@@ -470,7 +477,9 @@ export function VerbsPracticeListScreen(): React.JSX.Element {
         );
       }
 
-      const verbItem = item.item;
+      const verbItem = item?.item;
+      if (!verbItem) return null;
+
       return (
         <PracticeVerbCard
           infinitive={verbItem.infinitive}

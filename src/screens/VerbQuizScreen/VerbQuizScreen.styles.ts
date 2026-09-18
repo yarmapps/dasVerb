@@ -200,6 +200,9 @@ export const createStyles = (colors: ThemeColors) =>
       alignItems: 'center',
       paddingHorizontal: Spacing.sm,
     },
+    optionButtonFullWidth: {
+      width: '100%',
+    },
     optionButtonSelected: {
       borderColor: colors.primary,
       backgroundColor: `${colors.primary}15`,
@@ -291,5 +294,29 @@ export const createStyles = (colors: ThemeColors) =>
       fontSize: 17,
       fontWeight: '700',
       color: '#10B981',
+    },
+    correctConjugationContainer: {
+      flexDirection: 'row',
+      marginTop: 4,
+    },
+    correctConjugationColumn: {
+      flex: 1,
+      paddingRight: Spacing.xs,
+    },
+    correctConjugationRow: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      paddingVertical: 2,
+    },
+    correctConjugationPronoun: {
+      fontSize: 15,
+      fontWeight: '600',
+      color: colors.textSecondary,
+      width: 72,
+    },
+    loadingContainer: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
     },
   });

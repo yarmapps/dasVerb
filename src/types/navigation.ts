@@ -11,6 +11,7 @@ export type PracticeStackParamList = {
       }
     | undefined;
   PrefixPracticeList: undefined;
+  ConjugationPracticeList: undefined;
 };
 
 export type MainTabParamList = {
@@ -41,8 +42,14 @@ export interface QuizResultsParams {
   prefixLevelId?: string;
   isPrefixCheckpoint?: boolean;
   prefixCefrLevel?: string;
+  conjugationLevelId?: string;
+  isConjugationQuiz?: boolean;
   nextQuizParams?: RootStackParamList['VerbQuiz'] | null;
-  returnRouteName?: 'PrefixPracticeList' | 'VerbsPracticeList' | 'PracticeHome';
+  returnRouteName?:
+    | 'PrefixPracticeList'
+    | 'VerbsPracticeList'
+    | 'PracticeHome'
+    | 'ConjugationPracticeList';
   results: VerbQuizQuestionResult[];
 }
 
@@ -68,6 +75,8 @@ export type RootStackParamList = {
     prefixLevelId?: string;
     isPrefixCheckpoint?: boolean;
     prefixCefrLevel?: string;
+    conjugationLevelId?: string;
+    isConjugationQuiz?: boolean;
   };
   QuizResults: QuizResultsParams;
 };

@@ -58,7 +58,9 @@
     "smartQuizSubtitle": "Фокусируйтесь на своих ошибках и учитесь в 3 раза быстрее",
     "prefixBannerBadge": "A1 – B2",
     "prefixBannerTitle": "Глаголы с приставками",
-    "prefixBannerSubtitle": "Отделяемые, неотделяемые и двойные приставки"
+    "prefixBannerSubtitle": "Отделяемые, неотделяемые и двойные приставки",
+    "conjugationBannerTitle": "Тренажёр спряжений",
+    "conjugationBannerSubtitle": "Тренируйте формы глаголов для всех местоимений в Präsens"
   },
   "categories": {
     "sectionTitle": "Тематические категории",
@@ -196,10 +198,32 @@
     "inseparableRule": "Неотделяемые приставки (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) никогда не отделяются от корня.",
     "dualRule": "Приставки über-, um-, unter-, durch- могут быть отделяемыми или неотделяемыми в зависимости от значения."
   },
+  "conjugationPracticeListScreen": {
+    "title": "Тренажёр спряжений",
+    "levelNumber": "Уровень {number}",
+    "checkpointTitle": "Чекпоинт {number}",
+    "checkpointSubtitle": "Проверочный тест по 10 случайным глаголам",
+    "finalTestTitle": "Финальный тест {level}",
+    "finalTestSubtitle": "Большой тест по 15 глаголам уровня"
+  },
+  "conjugationPractice": {
+    "title": "Спряжение",
+    "levelTitle": "Уровень {number}",
+    "checkpointNumberTitle": "Чекпоинт {number}",
+    "finalTestTitle": "Финальный тест {level}"
+  },
+  "conjugationGrammarHint": {
+    "ruleTag": "Чередование гласной",
+    "eToIRule": "Чередование e → i во 2-м и 3-м лице единственного числа (du, er/sie/es).",
+    "eToIeRule": "Чередование e → ie во 2-м и 3-м лице единственного числа (du, er/sie/es).",
+    "aToAeRule": "Чередование a → ä во 2-м и 3-м лице единственного числа (du, er/sie/es).",
+    "auToAeuRule": "Чередование au → äu во 2-м и 3-м лице единственного числа (du, er/sie/es)."
+  },
   "verbQuizScreen": {
     "title": "Тренировка",
     "checkpointQuizTitle": "Промежуточный тест",
     "smartQuizTitle": "Умный квиз",
+    "conjugateVerbTitle": "Проспрягайте глагол {verb}",
     "level": "Уровень",
     "check": "Проверить",
     "continue": "Продолжить",
@@ -227,7 +251,10 @@
     "tryAgain": "Попробовать снова",
     "verbsList": "К списку глаголов",
     "backToPractice": "К практике",
-    "scoreSummary": "{correct} из {total}"
+    "scoreSummary": "{correct} из {total}",
+    "showCorrectAnswers": "Показать правильные ответы",
+    "showAllAnswers": "Показать все ответы",
+    "showErrorsOnly": "Показать только ошибки"
   },
   "dailyQuizLimitModal": {
     "title": "Отличный прогресс!",

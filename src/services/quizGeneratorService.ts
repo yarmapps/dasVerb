@@ -19,9 +19,22 @@ export interface PrefixGrammarHintData {
   ruleExplanationKey: string;
 }
 
+export interface ConjugationRowData {
+  pronoun: string;
+  gapIndex: number;
+  correctValue: string;
+  reflexivePronoun?: string;
+}
+
+export interface ConjugationGrammarHintData {
+  infinitive: string;
+  rootVowelChange?: 'e -> i' | 'e -> ie' | 'a -> ä' | 'au -> äu' | null;
+  ruleExplanationKey?: string;
+}
+
 export interface QuizExercise {
   id: string;
-  type?: 'sentence_fill' | 'prefix_dual_slot';
+  type?: 'sentence_fill' | 'prefix_dual_slot' | 'conjugation_fill';
   label: string;
   tense: Tense;
   verbCard: VerbCard;
@@ -30,6 +43,8 @@ export interface QuizExercise {
   gaps: QuizGap[];
   translation: Record<string, string>;
   grammarHint?: PrefixGrammarHintData;
+  conjugationRows?: ConjugationRowData[];
+  conjugationGrammarHint?: ConjugationGrammarHintData;
 }
 
 const COMMON_PREFIXES = [
@@ -844,5 +859,115 @@ export const quizGeneratorService = {
     });
 
     return shuffleArray(exercises).slice(0, maxCount);
+  },
+
+  generateConjugationExercises(verbs: VerbCard[]): QuizExercise[] {
+    const PRONOUNS: Array<{
+      key: 'ich' | 'du' | 'er_sie_es' | 'wir' | 'ihr' | 'sie_Sie';
+      label: string;
+    }> = [
+      { key: 'ich', label: 'ich' },
+      { key: 'du', label: 'du' },
+      { key: 'er_sie_es', label: 'er/sie/es' },
+      { key: 'wir', label: 'wir' },
+      { key: 'ihr', label: 'ihr' },
+      { key: 'sie_Sie', label: 'sie/Sie' },
+    ];
+
+    const randomizedVerbs = shuffleArray(verbs);
+    const exercises: QuizExercise[] = [];
+
+    randomizedVerbs.forEach((verbCard, verbIndex) => {
+      const present = verbCard.conjugation?.present;
+      if (!present) return;
+
+      const isReflexive = Boolean(verbCard.morphology?.is_reflexive);
+      const rows: ConjugationRowData[] = [];
+      const gaps: QuizGap[] = [];
+      const uniqueFormValuesSet = new Set<string>();
+
+      PRONOUNS.forEach((pronounItem, gapIndex) => {
+        const rawForm = (present[pronounItem.key] as string) || '';
+        let correctValue = rawForm.trim();
+        let reflexivePronoun: string | undefined;
+
+        if (isReflexive) {
+          const match = rawForm.match(/^(.*?)\s+(mich|dich|sich|uns|euch|mir|dir)$/i);
+          if (match) {
+            correctValue = match[1].trim();
+            reflexivePronoun = match[2].trim();
+          }
+        }
+
+        uniqueFormValuesSet.add(correctValue);
+
+        rows.push({
+          pronoun: pronounItem.label,
+          gapIndex,
+          correctValue,
+          reflexivePronoun,
+        });
+      });
+
+      const optionsPool = shuffleArray(Array.from(uniqueFormValuesSet));
+
+      rows.forEach(row => {
+        gaps.push({
+          id: `gap_${row.gapIndex}`,
+          correctValue: row.correctValue,
+          options: [...optionsPool],
+        });
+      });
+
+      const segments: SentenceSegment[] = [];
+      rows.forEach(row => {
+        segments.push({ text: `${row.pronoun} ` });
+        segments.push({ gapIndex: row.gapIndex });
+        if (row.reflexivePronoun) {
+          segments.push({ text: ` ${row.reflexivePronoun}` });
+        }
+        segments.push({ text: '\n' });
+      });
+
+      const rootVowelChange = present.root_vowel_change || null;
+      let ruleExplanationKey: string | undefined;
+      if (rootVowelChange === 'e -> i') {
+        ruleExplanationKey = 'conjugationGrammarHint.eToIRule';
+      } else if (rootVowelChange === 'e -> ie') {
+        ruleExplanationKey = 'conjugationGrammarHint.eToIeRule';
+      } else if (rootVowelChange === 'a -> ä') {
+        ruleExplanationKey = 'conjugationGrammarHint.aToAeRule';
+      } else if (rootVowelChange === 'au -> äu') {
+        ruleExplanationKey = 'conjugationGrammarHint.auToAeuRule';
+      }
+
+      const translation = verbCard.translation || { ru: '', en: '' };
+      const dummySentence: VerbSentence = {
+        id: `conj_${verbCard.id || verbCard.infinitive}_${verbIndex}`,
+        tense: 'Präsens',
+        german: `${verbCard.infinitive} (Präsens)`,
+        translation,
+      };
+
+      exercises.push({
+        id: `conjugation_exercise_${verbCard.id || verbCard.infinitive}_${verbIndex}`,
+        type: 'conjugation_fill',
+        label: `${verbCard.level} · ${verbCard.infinitive.toUpperCase()} · PRÄSENS`,
+        tense: 'Präsens',
+        verbCard,
+        sentence: dummySentence,
+        segments,
+        gaps,
+        translation,
+        conjugationRows: rows,
+        conjugationGrammarHint: {
+          infinitive: verbCard.infinitive,
+          rootVowelChange,
+          ruleExplanationKey,
+        },
+      });
+    });
+
+    return exercises;
   },
 };

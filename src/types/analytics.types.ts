@@ -42,14 +42,14 @@ export interface DictionaryVerbCollapsedParams {
 // ==========================================
 
 export interface QuizStartedParams {
-  quiz_type: 'verb' | 'checkpoint' | 'smart' | 'category' | 'prefix';
+  quiz_type: 'verb' | 'checkpoint' | 'smart' | 'category' | 'prefix' | 'conjugation';
   infinitive?: string;
   level?: string;
   total_questions: number;
 }
 
 export interface QuizCompletedParams {
-  quiz_type: 'verb' | 'checkpoint' | 'smart' | 'category' | 'prefix';
+  quiz_type: 'verb' | 'checkpoint' | 'smart' | 'category' | 'prefix' | 'conjugation';
   infinitive?: string;
   level?: string;
   score: number;
@@ -60,7 +60,7 @@ export interface QuizCompletedParams {
 }
 
 export interface QuizInterruptedParams {
-  quiz_type: 'verb' | 'checkpoint' | 'smart' | 'category' | 'prefix';
+  quiz_type: 'verb' | 'checkpoint' | 'smart' | 'category' | 'prefix' | 'conjugation';
   infinitive?: string;
   questions_answered: number;
   total_questions: number;

@@ -1,4 +1,4 @@
-import { createAudioPlayer, AudioPlayer } from 'expo-audio';
+import { createAudioPlayer, setAudioModeAsync, AudioPlayer } from 'expo-audio';
 import { getSettings } from './settingsService';
 
 export class SoundService {
@@ -17,15 +17,28 @@ export class SoundService {
     if (this.isInitialized) return;
 
     try {
-      // Load sounds using expo-audio createAudioPlayer API
+      await setAudioModeAsync({
+        playsInSilentMode: false,
+        interruptionMode: 'mixWithOthers',
+      });
+
+      // Load sounds using expo-audio createAudioPlayer API with keepAudioSessionActive
       // eslint-disable-next-line @typescript-eslint/no-require-imports
-      this.correctSound = createAudioPlayer(require('../../assets/sounds/correct.mp3'));
+      this.correctSound = createAudioPlayer(require('../../assets/sounds/correct.mp3'), {
+        keepAudioSessionActive: true,
+      });
       // eslint-disable-next-line @typescript-eslint/no-require-imports
-      this.incorrectSound = createAudioPlayer(require('../../assets/sounds/incorrect.mp3'));
+      this.incorrectSound = createAudioPlayer(require('../../assets/sounds/incorrect.mp3'), {
+        keepAudioSessionActive: true,
+      });
       // eslint-disable-next-line @typescript-eslint/no-require-imports
-      this.tapSound = createAudioPlayer(require('../../assets/sounds/tap.mp3'));
+      this.tapSound = createAudioPlayer(require('../../assets/sounds/tap.mp3'), {
+        keepAudioSessionActive: true,
+      });
       // eslint-disable-next-line @typescript-eslint/no-require-imports
-      this.levelFinishedSound = createAudioPlayer(require('../../assets/sounds/level-finish.mp3'));
+      this.levelFinishedSound = createAudioPlayer(require('../../assets/sounds/level-finish.mp3'), {
+        keepAudioSessionActive: true,
+      });
 
       this.isInitialized = true;
     } catch (error) {

@@ -10,6 +10,7 @@ let isInitializing = false;
 let initPromise: Promise<void> | null = null;
 let cachedOrderedVerbs: VerbCard[] | null = null;
 let cachedPrefixLevels: PrefixLevelData[] | null = null;
+let cachedConjugationLevels: ConjugationLevelData[] | null = null;
 
 export interface VerbRow {
   id: string;
@@ -48,6 +49,38 @@ export interface PrefixLevelData {
   title: string;
   verbs: string[];
   exerciseSentenceIds: Array<{ verbId: string; sentenceId: string }>;
+}
+
+export interface ConjugationLevelRow {
+  id: string;
+  cefr_level: string;
+  subgroup_type: string;
+  level_number: number;
+  order_index: number;
+  title: string;
+  verbs_json: string;
+}
+
+export interface ConjugationLevelData {
+  id: string;
+  cefrLevel: string;
+  subgroupType: 'standard' | 'checkpoint' | 'final_test';
+  levelNumber: number;
+  orderIndex: number;
+  title: string;
+  verbs: string[];
+}
+
+export function parseConjugationLevelRow(row: ConjugationLevelRow): ConjugationLevelData {
+  return {
+    id: row.id,
+    cefrLevel: row.cefr_level,
+    subgroupType: row.subgroup_type as ConjugationLevelData['subgroupType'],
+    levelNumber: row.level_number,
+    orderIndex: row.order_index,
+    title: row.title,
+    verbs: JSON.parse(row.verbs_json),
+  };
 }
 
 export function parsePrefixLevelRow(row: PrefixLevelRow): PrefixLevelData {
@@ -322,6 +355,54 @@ export const verbDataService = {
     return null;
   },
 
+  async getAllConjugationLevels(): Promise<ConjugationLevelData[]> {
+    if (cachedConjugationLevels) return cachedConjugationLevels;
+
+    await this.init();
+    if (!db) return [];
+
+    const sql = `
+      SELECT * FROM conjugation_levels
+      ORDER BY
+        CASE cefr_level
+          WHEN 'A1' THEN 1
+          WHEN 'A2' THEN 2
+          WHEN 'B1' THEN 3
+          WHEN 'B2' THEN 4
+          ELSE 5
+        END ASC,
+        order_index ASC
+    `;
+    const rows = await db.getAllAsync<ConjugationLevelRow>(sql);
+    cachedConjugationLevels = rows.map(parseConjugationLevelRow);
+    return cachedConjugationLevels;
+  },
+
+  async getConjugationLevelsByCefr(cefrLevel: string): Promise<ConjugationLevelData[]> {
+    const allLevels = await this.getAllConjugationLevels();
+    return allLevels.filter(lvl => lvl.cefrLevel === cefrLevel);
+  },
+
+  async getConjugationLevelById(id: string): Promise<ConjugationLevelData | null> {
+    await this.init();
+    if (!db) return null;
+
+    const row = await db.getFirstAsync<ConjugationLevelRow>(
+      'SELECT * FROM conjugation_levels WHERE id = ?',
+      [id],
+    );
+    return row ? parseConjugationLevelRow(row) : null;
+  },
+
+  async getNextConjugationLevel(currentLevelId: string): Promise<ConjugationLevelData | null> {
+    const all = await this.getAllConjugationLevels();
+    const currentIndex = all.findIndex(lvl => lvl.id === currentLevelId);
+    if (currentIndex >= 0 && currentIndex + 1 < all.length) {
+      return all[currentIndex + 1];
+    }
+    return null;
+  },
+
   async getSentencesByIds(
     entries: Array<{ verbId: string; sentenceId: string }>,
   ): Promise<Array<{ verbCard: VerbCard; sentence: VerbSentence }>> {
@@ -354,5 +435,6 @@ export const verbDataService = {
   clearCache(): void {
     cachedOrderedVerbs = null;
     cachedPrefixLevels = null;
+    cachedConjugationLevels = null;
   },
 };

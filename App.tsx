@@ -14,6 +14,7 @@ import { fetchRemoteConfig } from './src/services/appConfigService';
 import { initializeAnalytics } from './src/services/analyticsService';
 import { initRevenueCat } from './src/services/revenueCatService';
 import { initializeNotifications } from './src/services/notificationService';
+import { soundService } from './src/services/soundService';
 import { useScreenTracking } from './src/hooks/useScreenTracking';
 
 enableFreeze(false);
@@ -60,6 +61,7 @@ export function App(): React.JSX.Element {
     fetchRemoteConfig().catch(() => {});
     initRevenueCat().catch(() => {});
     initializeNotifications().catch(() => {});
+    soundService.initialize().catch(() => {});
 
     if (ENABLE_ADS) {
       try {

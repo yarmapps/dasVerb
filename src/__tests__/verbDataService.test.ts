@@ -1,4 +1,9 @@
-import { parseVerbRow, parsePrefixLevelRow, VerbRow } from '../services/verbDataService';
+import {
+  parseVerbRow,
+  parsePrefixLevelRow,
+  parseConjugationLevelRow,
+  VerbRow,
+} from '../services/verbDataService';
 
 describe('verbDataService', () => {
   it('should correctly parse VerbRow into VerbCard', () => {
@@ -95,5 +100,26 @@ describe('verbDataService', () => {
     expect(parsed.levelNumber).toBe(1);
     expect(parsed.verbs).toEqual(['aufstehen', 'anrufen']);
     expect(parsed.exerciseSentenceIds).toHaveLength(2);
+  });
+
+  it('should correctly parse ConjugationLevelRow into ConjugationLevelData', () => {
+    const mockConjugationRow = {
+      id: 'conjugation_a1_checkpoint_1',
+      cefr_level: 'A1',
+      subgroup_type: 'checkpoint',
+      level_number: 1,
+      order_index: 11,
+      title: 'Checkpoint 1',
+      verbs_json: JSON.stringify(['machen', 'haben', 'sein']),
+    };
+
+    const parsed = parseConjugationLevelRow(mockConjugationRow);
+    expect(parsed.id).toBe('conjugation_a1_checkpoint_1');
+    expect(parsed.cefrLevel).toBe('A1');
+    expect(parsed.subgroupType).toBe('checkpoint');
+    expect(parsed.levelNumber).toBe(1);
+    expect(parsed.orderIndex).toBe(11);
+    expect(parsed.title).toBe('Checkpoint 1');
+    expect(parsed.verbs).toEqual(['machen', 'haben', 'sein']);
   });
 });

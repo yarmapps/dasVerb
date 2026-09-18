@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useCallback } from 'react';
+import React, { useState, useMemo, useCallback, useRef, useEffect } from 'react';
 import { View, Text, TouchableOpacity, ScrollView } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
@@ -32,6 +32,8 @@ export function PrefixPracticeListScreen(): React.JSX.Element {
   const [levels, setLevels] = useState<PrefixLevelData[]>([]);
   const [checkpoint, setCheckpoint] = useState<PrefixLevelData | null>(null);
   const [levelProgressMap, setLevelProgressMap] = useState<Record<string, VerbProgress>>({});
+  const scrollViewRef = useRef<ScrollView>(null);
+  const itemPositionsRef = useRef<Record<string, number>>({});
 
   const loadData = useCallback(
     async (targetCefr?: CefrTab) => {
@@ -69,6 +71,7 @@ export function PrefixPracticeListScreen(): React.JSX.Element {
   const handleTabChange = (tab: CefrTab) => {
     soundService.playTapSound();
     setActiveCefr(tab);
+    itemPositionsRef.current = {};
     loadData(tab);
   };
 
@@ -118,6 +121,67 @@ export function PrefixPracticeListScreen(): React.JSX.Element {
 
     return groups;
   }, [levels]);
+
+  const allLevelsInOrder = useMemo(() => {
+    const list: PrefixLevelData[] = [];
+    groupedLevels.forEach(group => {
+      group.items.forEach(item => {
+        list.push(item);
+      });
+    });
+    if (checkpoint) {
+      list.push(checkpoint);
+    }
+    return list;
+  }, [groupedLevels, checkpoint]);
+
+  const furthestCompletedPrefixId = useMemo(() => {
+    let lastCompletedIndex = -1;
+    allLevelsInOrder.forEach((lvl, index) => {
+      const progress = levelProgressMap[lvl.id];
+      if (progress && progress.status !== 'uncompleted') {
+        lastCompletedIndex = index;
+      }
+    });
+
+    if (lastCompletedIndex >= 0 && lastCompletedIndex < allLevelsInOrder.length - 1) {
+      return allLevelsInOrder[lastCompletedIndex + 1].id;
+    }
+    if (lastCompletedIndex >= 0) {
+      return allLevelsInOrder[lastCompletedIndex].id;
+    }
+    return null;
+  }, [allLevelsInOrder, levelProgressMap]);
+
+  const scrollToTargetForPrefix = useCallback(() => {
+    if (!scrollViewRef.current) return;
+
+    if (
+      furthestCompletedPrefixId &&
+      typeof itemPositionsRef.current[furthestCompletedPrefixId] === 'number'
+    ) {
+      const targetY = itemPositionsRef.current[furthestCompletedPrefixId];
+      scrollViewRef.current.scrollTo({
+        y: Math.max(0, targetY - 120),
+        animated: true,
+      });
+    } else {
+      scrollViewRef.current.scrollTo({
+        y: 0,
+        animated: true,
+      });
+    }
+  }, [furthestCompletedPrefixId]);
+
+  useEffect(() => {
+    if (allLevelsInOrder.length === 0) return;
+
+    const timer = setTimeout(() => {
+      scrollToTargetForPrefix();
+    }, 150);
+
+    return () => clearTimeout(timer);
+  }, [activeCefr, allLevelsInOrder, scrollToTargetForPrefix]);
 
   const renderStatusIcon = (status: VerbProgress['status'], index: number) => {
     if (status === 'trophy') {
@@ -176,7 +240,11 @@ export function PrefixPracticeListScreen(): React.JSX.Element {
         })}
       </View>
 
-      <ScrollView contentContainerStyle={styles.listContent} showsVerticalScrollIndicator={false}>
+      <ScrollView
+        ref={scrollViewRef}
+        contentContainerStyle={styles.listContent}
+        showsVerticalScrollIndicator={false}
+      >
         {groupedLevels.map((group, groupIdx) => (
           <View key={group.type}>
             <View style={[styles.subgroupHeader, groupIdx === 0 && styles.subgroupHeaderFirst]}>
@@ -194,6 +262,9 @@ export function PrefixPracticeListScreen(): React.JSX.Element {
                   style={styles.levelCard}
                   activeOpacity={0.7}
                   onPress={() => handleLevelPress(lvl)}
+                  onLayout={e => {
+                    itemPositionsRef.current[lvl.id] = e.nativeEvent.layout.y;
+                  }}
                   testID={`prefix-level-${lvl.id}`}
                 >
                   {renderStatusIcon(progress.status, idx)}
@@ -219,17 +290,25 @@ export function PrefixPracticeListScreen(): React.JSX.Element {
 
         {/* Section Checkpoint Card */}
         {checkpoint && (
-          <PracticeCheckpointCard
-            title={intl.formatMessage(
-              { id: 'prefixPracticeListScreen.checkpointTitle' },
-              { level: activeCefr },
-            )}
-            subtitle={intl.formatMessage({ id: 'prefixPracticeListScreen.checkpointSubtitle' })}
-            status={levelProgressMap[checkpoint.id]?.status || 'uncompleted'}
-            isFinal={true}
-            onPress={handleCheckpointPress}
-            testID={`prefix-checkpoint-${activeCefr}`}
-          />
+          <View
+            onLayout={e => {
+              if (checkpoint) {
+                itemPositionsRef.current[checkpoint.id] = e.nativeEvent.layout.y;
+              }
+            }}
+          >
+            <PracticeCheckpointCard
+              title={intl.formatMessage(
+                { id: 'prefixPracticeListScreen.checkpointTitle' },
+                { level: activeCefr },
+              )}
+              subtitle={intl.formatMessage({ id: 'prefixPracticeListScreen.checkpointSubtitle' })}
+              status={levelProgressMap[checkpoint.id]?.status || 'uncompleted'}
+              isFinal={true}
+              onPress={handleCheckpointPress}
+              testID={`prefix-checkpoint-${activeCefr}`}
+            />
+          </View>
         )}
       </ScrollView>
 

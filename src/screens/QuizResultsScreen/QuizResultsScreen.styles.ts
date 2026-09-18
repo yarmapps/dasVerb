@@ -91,6 +91,38 @@ export const createStyles = (colors: ThemeColors) =>
       marginTop: 2,
       lineHeight: 18,
     },
+    wrongAnswerStrikethrough: {
+      textDecorationLine: 'line-through',
+      color: colors.textMuted,
+      fontWeight: '500',
+    },
+    correctAnswerText: {
+      color: colors.textPrimary,
+      fontWeight: '600',
+    },
+    correctionRow: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 6,
+      marginTop: 4,
+    },
+    toggleRowContainer: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      backgroundColor: colors.blockBackground,
+      borderRadius: 14,
+      borderWidth: 1,
+      borderColor: colors.blockBorder,
+      paddingHorizontal: Spacing.md,
+      paddingVertical: Spacing.xs + 2,
+      marginTop: Spacing.sm,
+    },
+    toggleRowLabel: {
+      fontSize: Typography.fontSize.sm,
+      fontWeight: '600',
+      color: colors.textPrimary,
+    },
     bottomActions: {
       marginTop: Spacing.sm,
       gap: Spacing.md,
