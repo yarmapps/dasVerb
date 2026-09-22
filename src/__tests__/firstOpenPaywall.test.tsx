@@ -48,26 +48,28 @@ function renderWithProviders(component: React.ReactElement) {
 }
 
 const mockPackages: revenueCatService.MappedPackages = {
-  yearly: {
-    priceString: '$19.99',
-    monthlyPriceString: '$1.67',
+  threeMonth: {
+    priceString: '$8.99',
+    monthlyPriceString: '$3.00',
     freeTrialInfo: {
       count: 3,
       unit: 'day',
     },
     pkg: {
-      identifier: '$rc_annual',
-      packageType: 'ANNUAL',
+      identifier: '$rc_three_month',
+      packageType: 'THREE_MONTH',
       product: {
-        identifier: 'premium_yearly',
-        priceString: '$19.99',
-        price: 19.99,
+        identifier: 'dasverb_premium_3months',
+        priceString: '$8.99',
+        price: 8.99,
         currencyCode: 'USD',
       },
       offeringIdentifier: 'default',
     } as unknown as PurchasesPackage,
   },
   monthly: null,
+  sixMonth: null,
+  yearly: null,
   lifetime: null,
 };
 
@@ -162,28 +164,30 @@ describe('First Open Paywall Suite', () => {
 
   describe('FirstOpenPaywallScreen UI & Interactions', () => {
     const mockPackages: revenueCatService.MappedPackages = {
-      yearly: {
-        priceString: '$19.99',
-        monthlyPriceString: '$1.67',
+      threeMonth: {
+        priceString: '$8.99',
+        monthlyPriceString: '$3.00',
         freeTrialInfo: {
           count: 3,
           unit: 'day',
         },
         pkg: {
-          identifier: 'yearly_subscription',
-          packageType: 'ANNUAL',
+          identifier: 'three_month_subscription',
+          packageType: 'THREE_MONTH',
           product: {
-            identifier: 'yearly_sub',
-            description: 'Yearly Plan',
-            title: 'Yearly',
-            price: 19.99,
-            priceString: '$19.99',
+            identifier: 'dasverb_premium_3months',
+            description: '3-Month Plan',
+            title: '3-Month',
+            price: 8.99,
+            priceString: '$8.99',
             currencyCode: 'USD',
           },
           offeringIdentifier: 'default',
         } as unknown as PurchasesPackage,
       },
       monthly: null,
+      sixMonth: null,
+      yearly: null,
       lifetime: null,
     };
 
@@ -261,7 +265,7 @@ describe('First Open Paywall Suite', () => {
         'first_open_paywall_buy_clicked',
         {},
       );
-      expect(revenueCatService.purchasePackage).toHaveBeenCalledWith(mockPackages.yearly!.pkg);
+      expect(revenueCatService.purchasePackage).toHaveBeenCalledWith(mockPackages.threeMonth!.pkg);
       expect(analyticsService.trackEvent).toHaveBeenCalledWith(
         'first_open_paywall_purchase_complete',
         {},

@@ -12,6 +12,8 @@ export type PracticeStackParamList = {
     | undefined;
   PrefixPracticeList: undefined;
   ConjugationPracticeList: undefined;
+  VerbFormsPracticeList: undefined;
+  PrepositionsPracticeList: { initialCefrLevel?: 'A1' | 'A2' | 'B1' | 'B2' } | undefined;
 };
 
 export type MainTabParamList = {
@@ -25,6 +27,7 @@ export interface VerbQuizQuestionResult {
   userAnswers: string[];
   correctAnswers: string[];
   translation: Record<string, string>;
+  prepositionRuleBadge?: string;
 }
 
 export interface QuizResultsParams {
@@ -44,12 +47,18 @@ export interface QuizResultsParams {
   prefixCefrLevel?: string;
   conjugationLevelId?: string;
   isConjugationQuiz?: boolean;
+  verbFormsLevelId?: string;
+  isVerbFormsQuiz?: boolean;
+  prepositionLevelId?: string;
+  isPrepositionQuiz?: boolean;
   nextQuizParams?: RootStackParamList['VerbQuiz'] | null;
   returnRouteName?:
     | 'PrefixPracticeList'
     | 'VerbsPracticeList'
     | 'PracticeHome'
-    | 'ConjugationPracticeList';
+    | 'ConjugationPracticeList'
+    | 'VerbFormsPracticeList'
+    | 'PrepositionsPracticeList';
   results: VerbQuizQuestionResult[];
 }
 
@@ -77,6 +86,10 @@ export type RootStackParamList = {
     prefixCefrLevel?: string;
     conjugationLevelId?: string;
     isConjugationQuiz?: boolean;
+    verbFormsLevelId?: string;
+    isVerbFormsQuiz?: boolean;
+    prepositionLevelId?: string;
+    isPrepositionQuiz?: boolean;
   };
   QuizResults: QuizResultsParams;
 };

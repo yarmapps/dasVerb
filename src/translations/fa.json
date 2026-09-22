@@ -55,7 +55,19 @@
     "startNow": "شروع کنید",
     "smartQuizBadge": "حالت هوشمند",
     "smartQuizTitle": "الگوریتم هوشمند",
-    "smartQuizSubtitle": "روی اشتباهات خود تمرکز کنید و ۳ برابر سریع‌تر یاد بگیرید"
+    "smartQuizSubtitle": "روی اشتباهات خود تمرکز کنید و ۳ برابر سریع‌تر یاد بگیرید",
+    "prefixBannerBadge": "A1 – B2",
+    "prefixBannerTitle": "افعال با پیشوند",
+    "prefixBannerSubtitle": "پیشوندهای جداشدنی، جدانشدنی و دوگانه",
+    "conjugationBannerTitle": "تمرین صرف فعل",
+    "conjugationBannerSubtitle": "صرف افعال را برای تمام ضمایر در زمان Präsens تمرین کنید",
+    "verbFormsBannerTitle": "افعال بی‌قاعده",
+    "verbFormsBannerSubtitle": "تمرین Infinitiv – Präteritum – Perfekt",
+    "prepositionsBannerTitle": "افعال با حروف اضافه",
+    "prepositionsBannerSubtitle": "بر حروف اضافه و حالت‌های گرامری افعال مسلط شوید",
+    "adBadge": "تبلیغ",
+    "sectionModes": "بر اساس حالت‌ها",
+    "sectionTopics": "بر اساس موضوعات"
   },
   "categories": {
     "sectionTitle": "موضوعات و دسته‌بندی‌ها",
@@ -133,11 +145,28 @@
     "voiceMale": "مرد",
     "maleVoiceHint": "برای استفاده از صدای مرد آلمانی، آن را در تنظیمات iOS ← دسترس‌پذیری ← محتوای خوانده‌شده ← صداها ← آلمانی نصب کنید.",
     "contactUs": "تماس با ما",
+    "subscriptionSection": "اشتراک",
+    "manageSubscription": "مدیریت اشتراک",
+    "rateApp": "امتیاز به برنامه",
+    "privacyPolicy": "سیاست حفظ حریم خصوصی",
+    "termsOfService": "شرایط استفاده",
     "version": "نسخه",
     "notificationsPermissionRequiredTitle": "فعال‌سازی اعلان‌ها",
     "notificationsPermissionRequiredMessage": "برای دریافت یادآورهای تمرین روزانه و حفظ استریک، لطفاً اعلان‌ها را در تنظیمات دستگاه خود فعال کنید.",
     "openSettings": "تنظیمات",
-    "cancel": "لغو"
+    "cancel": "لغو",
+    "dataSection": "مدیریت داده‌ها",
+    "resetProgress": "بازنشانی پیشرفت یادگیری",
+    "resetProgressTitle": "پیشرفت یادگیری بازنشانی شود؟",
+    "resetProgressMessage": "تمام پیشرفت یادگیری افعال و سطوح پیشوند شما برای همیشه حذف خواهد شد. این عمل قابل بازگشت نیست.",
+    "resetProgressConfirm": "بازنشانی پیشرفت",
+    "resetProgressSuccess": "پیشرفت یادگیری با موفقیت بازنشانی شد.",
+    "resetSettings": "بازنشانی تنظیمات برنامه",
+    "resetSettingsTitle": "تنظیمات برنامه بازنشانی شود؟",
+    "resetSettingsMessage": "تمام تنظیمات صدا، تم و اعلان‌ها به حالت پیش‌فرض برمی‌گردند. پیشرفت یادگیری شما حفظ خواهد شد.",
+    "resetSettingsConfirm": "بازنشانی تنظیمات",
+    "resetSettingsSuccess": "تنظیمات به حالت پیش‌فرض بازگردانده شدند.",
+    "resetSuccessTitle": "انجام شد"
   },
   "quizSettingsModal": {
     "title": "تنظیمات آزمون"
@@ -152,12 +181,112 @@
     "trophy": "جام",
     "empty": "فعلی یافت نشد",
     "checkpointTitle": "آزمون ارزیابی",
-    "finalTestTitle": "آزمون نهایی"
+    "finalTestTitle": "آزمون نهایی",
+    "finalTestTitleWithLevel": "آزمون نهایی {level}",
+    "finalTestSubtitle": "آزمون جامع ۲۰ سوالی برای این سطح",
+    "categoryFinalTestSubtitle": "آزمون جامع ۲۰ سوالی برای این موضوع",
+    "checkpointSubtitle": "افعال {from} – {to}"
+  },
+  "prefixPracticeListScreen": {
+    "title": "افعال با پیشوند",
+    "levelNumber": "سطح {number}",
+    "checkpointTitle": "نقطه بازبینی {level}",
+    "checkpointSubtitle": "آزمون جامع ۲۰ سوالی برای این سطح",
+    "subgroupSeparable": "پیشوندهای جداشدنی",
+    "subgroupInseparable": "پیشوندهای جدانشدنی",
+    "subgroupOpposites": "جفت‌های متضاد",
+    "subgroupDual": "پیشوندهای دوگانه"
+  },
+  "prefixPractice": {
+    "title": "افعال با پیشوند",
+    "levelTitle": "سطح {number}",
+    "checkpointTitle": "نقطه بازبینی {level}"
+  },
+  "prefixGrammarHint": {
+    "separableTitle": "پیشوند جداشدنی",
+    "inseparableTitle": "پیشوند جدانشدنی",
+    "dualTitle": "پیشوند دوگانه",
+    "separableRule": "در زمان‌های Präsens و Präteritum پیشوند جداشدنی به انتهای جمله می‌رود.",
+    "inseparableRule": "پیشوندهای جدانشدنی (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) هرگز از ریشه فعل جدا نمی‌شوند.",
+    "dualRule": "پیشوندهایی مانند über-, um-, unter-, durch- بسته به معنای فعل می‌توانند جداشدنی یا جدانشدنی باشند."
+  },
+  "conjugationPracticeListScreen": {
+    "title": "تمرین صرف فعل",
+    "levelNumber": "سطح {number}",
+    "checkpointTitle": "نقطه بازبینی {number}",
+    "checkpointSubtitle": "آزمون مرور با ۱۰ فعل تصادفی",
+    "finalTestTitle": "آزمون نهایی {level}",
+    "finalTestSubtitle": "آزمون جامع ۱۵ فعل برای این سطح"
+  },
+  "conjugationPractice": {
+    "title": "صرف فعل",
+    "levelTitle": "سطح {number}",
+    "checkpointNumberTitle": "نقطه بازبینی {number}",
+    "finalTestTitle": "آزمون نهایی {level}"
+  },
+  "conjugationGrammarHint": {
+    "ruleTag": "تغییر حرف صدادار",
+    "eToIRule": "تغییر حرف صدادار e → i در دوم شخص و سوم شخص مفرد (du, er/sie/es).",
+    "eToIeRule": "تغییر حرف صدادار e → ie در دوم شخص و سوم شخص مفرد (du, er/sie/es).",
+    "aToAeRule": "تغییر حرف صدادار a → ä در دوم شخص و سوم شخص مفرد (du, er/sie/es).",
+    "auToAeuRule": "تغییر حرف صدادار au → äu در دوم شخص و سوم شخص مفرد (du, er/sie/es)."
+  },
+  "verbFormsPracticeListScreen": {
+    "title": "افعال بی‌قاعده",
+    "levelNumber": "سطح {number}",
+    "checkpointTitle": "نقطه بازبینی {number}",
+    "checkpointSubtitle": "آزمون مرور با ۱۰ فعل تصادفی",
+    "finalTestTitle": "آزمون نهایی {level}",
+    "finalTestSubtitle": "آزمون جامع ۱۵ فعل برای این سطح"
+  },
+  "verbFormsPractice": {
+    "title": "افعال بی‌قاعده",
+    "levelTitle": "سطح {number}",
+    "checkpointNumberTitle": "نقطه بازبینی {number}",
+    "finalTestTitle": "آزمون نهایی {level}"
+  },
+  "verbFormsGrammarHint": {
+    "ruleTag": "قاعده گرامری",
+    "strongVerbTag": "فعل قوی",
+    "weakVerbTag": "فعل ضعیف",
+    "mixedVerbTag": "فعل آمیخته",
+    "irregularVerbTag": "فعل بی‌قاعده",
+    "modalVerbTag": "فعل کمکی وجهی",
+    "seinRule": "افعال حرکتی، تغییر حالت و sein/bleiben زمان Perfekt را با «sein» می‌سازند.",
+    "habenRule": "افعال متعدی، انعکاسی و حالتی زمان Perfekt را با «haben» می‌سازند.",
+    "strongVerbRule": "افعال قوی در Präteritum حرف صدادار ریشه را تغییر می‌دهند و در Partizip II به -en ختم می‌شوند.",
+    "weakVerbRule": "افعال ضعیف باقاعده در Präteritum پسوند -te و در Partizip II پیشوند و پسوند ge-...-t می‌گیرند.",
+    "mixedVerbRule": "افعال آمیخته تغییر حرف صدادار را با پسوندهای افعال باقاعده (-te, -t) ترکیب می‌کنند."
+  },
+  "verbFormsExercise": {
+    "infinitive": "مصدر",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt"
+  },
+  "prepositionsPracticeListScreen": {
+    "title": "افعال با حروف اضافه",
+    "levelNumber": "سطح {number}",
+    "checkpointTitle": "نقطه بازبینی {number}",
+    "checkpointSubtitle": "آزمون مرور با ۱۰ فعل تصادفی",
+    "finalTestTitle": "آزمون نهایی {level}",
+    "finalTestSubtitle": "آزمون جامع ۱۵ فعل برای این سطح"
+  },
+  "prepositionsPractice": {
+    "title": "حروف اضافه",
+    "levelTitle": "سطح {number}",
+    "checkpointNumberTitle": "نقطه بازبینی {number}",
+    "finalTestTitle": "آزمون نهایی {level}"
+  },
+  "prepositionGrammarHint": {
+    "ruleTag": "حرف اضافه و مفعول",
+    "questionLabel": "سوال مربوط به مفعول:"
   },
   "verbQuizScreen": {
     "title": "تمرین",
     "checkpointQuizTitle": "آزمون ارزیابی",
     "smartQuizTitle": "آزمون هوشمند",
+    "conjugateVerbTitle": "فعل {verb} را صرف کنید",
+    "prepositionTaskTitle": "حرف اضافه را انتخاب کنید",
     "level": "سطح",
     "check": "بررسی",
     "continue": "ادامه",
@@ -185,18 +314,21 @@
     "tryAgain": "تلاش دوباره",
     "verbsList": "به لیست افعال",
     "backToPractice": "بازگشت به تمرین",
-    "scoreSummary": "{correct} از {total}"
+    "scoreSummary": "{correct} از {total}",
+    "showCorrectAnswers": "نمایش پاسخ‌های درست",
+    "showAllAnswers": "نمایش همه پاسخ‌ها",
+    "showErrorsOnly": "فقط نمایش خطاها"
   },
   "dailyQuizLimitModal": {
-    "title": "پیشرفت عالی!",
-    "message": "شما واقعا مصمم به یادگیری آلمانی هستید!",
+    "title": "همینطور ادامه بده!",
+    "message": "شما واقعاً مصمم به یادگیری آلمانی هستید!",
     "instructions": "چگونه می‌خواهید ادامه دهید؟",
     "videoButton": "تماشای تبلیغات",
     "or": "یا",
     "premiumButtonWithTrial": "سطوح نامحدود رایگان\nبرای {daysLabel}",
-    "premiumButtonNoTrial": "دریافت Premium",
-    "premiumButtonSubtitleWithTrial": "سپس {yearlyPrice} در سال (☕️ / ماه)",
-    "premiumButtonSubtitleNoTrial": "{yearlyPrice} در سال (☕️ / ماه)",
+    "premiumButtonNoTrial": "بدون تبلیغات",
+    "premiumButtonSubtitleWithTrial": "سپس {yearlyPrice} برای ۳ ماه (☕️ / ماه)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} برای ۳ ماه (☕️ / ماه)",
     "waitUntilTomorrow": "تا فردا صبر کنید",
     "cancelAnytime": "لغو در هر زمان"
   },
@@ -222,6 +354,8 @@
     },
     "periodMonth": "ماه",
     "periodYear": "سال",
+    "period3Months": "۳ ماه",
+    "period6Months": "۶ ماه",
     "restorePurchases": "بازیابی خریدها",
     "errorTitle": "خطا",
     "errorUnavailable": "این پلن در حال حاضر در دسترس نیست. لطفاً بعداً دوباره امتحان کنید.",
@@ -241,7 +375,11 @@
       "perMonth": "{price}/ماه",
       "lifetimeLabel": "مادام‌العمر",
       "lifetimePer": "پرداخت یک‌باره",
-      "lifetimeBadge": "یک‌باره"
+      "lifetimeBadge": "یک‌باره",
+      "threeMonthLabel": "۳ ماه",
+      "sixMonthLabel": "۶ ماه",
+      "bestValueBadge": "بهترین قیمت",
+      "popularBadge": "محبوب"
     },
     "features": {
       "noAdsTitle": "بدون تبلیغات",
@@ -264,7 +402,10 @@
       "unlimitedCustomListsAndWordsDescription": "کلمات نامحدود اضافه کنید و دقیقاً همان لغاتی را که نیاز دارید تمرین کنید.",
       "photoScannerTitle": "تصویر به کلمات",
       "photoScannerShort": "تصویر به\nکلمات",
-      "photoScannerDescription": "اسم‌های آلمانی را فوراً از عکس‌ها با استفاده از هوش مصنوعی وارد کنید."
+      "photoScannerDescription": "اسم‌های آلمانی را فوراً از عکس‌ها با استفاده از هوش مصنوعی وارد کنید.",
+      "offlineModeTitle": "تمرین آفلاین",
+      "offlineModeShort": "تمرین\nآفلاین",
+      "offlineModeDescription": "در هر زمان و هر مکان بدون نیاز به اینترنت افعال را تمرین کنید."
     },
     "trialTitle": "دوره آزمایشی ۳ روزه پرمیوم شما فعال است",
     "trialSubtitle": "با ابزارهای یادگیری قدرتمند و بدون تبلیغات، سریع‌ترین پیشرفت را تجربه کنید.",
@@ -286,6 +427,7 @@
     "restore": "بازیابی خریدها",
     "proceedLimited": "ادامه با نسخه محدود",
     "priceYearlyWithCoffee": "{price}/سال، یک فنجان قهوه/ماه",
+    "price3MonthsWithCoffee": "فقط {price} برای ۳ ماه — کمتر از قیمت یک فنجان قهوه در ماه",
     "disclaimer": "تمدید خودکار با {price}/سال. لغو در هر زمان در تنظیمات حساب.",
     "disclaimerFallback": "تمدید خودکار سالانه. لغو در هر زمان در تنظیمات حساب.",
     "priceWithTrial": "رایگان برای {trialDuration}، سپس {price}/سال",
@@ -342,6 +484,10 @@
           "voices": {
             "title": "صدای طبیعی",
             "text": "با آموزش گوش دادن به صداهای عصبی با کیفیت بالا، مهارت‌های شنیداری کامل را پرورش دهید."
+          },
+          "offlineMode": {
+            "title": "تمرین آفلاین",
+            "text": "در هر زمان و هر مکان بدون نیاز به اینترنت افعال آلمانی را یاد بگیرید."
           }
         },
         "description": ""
@@ -357,5 +503,14 @@
         "description": "فقط اگر لغو نکنید. در هر زمان در تنظیمات حساب لغو کنید."
       }
     }
+  },
+  "offlineModal": {
+    "title": "اینترنت لازم است",
+    "message": "برای تمرین آفلاین در هر زمان به نسخه پریمیوم ارتقا دهید.",
+    "getPremium": "دریافت پریمیوم",
+    "retry": "تلاش دوباره",
+    "enableOffline": "فعال‌سازی آفلاین",
+    "premiumButtonWithTrial": "پریمیوم رایگان برای {daysLabel}",
+    "premiumButtonNoTrial": "دریافت پریمیوم"
   }
 }

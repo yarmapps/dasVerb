@@ -1,3 +1,4 @@
+import { Platform, Linking } from 'react-native';
 import * as StoreReview from 'expo-store-review';
 import { getSettings, updateSettings } from './settingsService';
 import { VerbProgressStatus } from './progressService';
@@ -81,4 +82,47 @@ export async function forceRequestReview(): Promise<boolean> {
   });
 
   return true;
+}
+
+/**
+ * Manually trigger app review from settings ("Rate Your App").
+ * Attempts in-app review prompt first, then falls back to direct App Store / Play Store page.
+ */
+export async function openStoreReviewPage(): Promise<void> {
+  trackEvent('settings_rate_app_clicked', {});
+
+  try {
+    const isAvailable = await StoreReview.isAvailableAsync();
+    if (isAvailable && (await StoreReview.hasAction())) {
+      await StoreReview.requestReview();
+      return;
+    }
+  } catch (error) {
+    if (__DEV__) {
+      // eslint-disable-next-line no-console
+      console.warn('[reviewService] In-app review request failed, opening store URL:', error);
+    }
+  }
+
+  try {
+    const isIos = Platform.OS === 'ios';
+    if (isIos) {
+      const appStoreUrl = 'https://apps.apple.com/app/id6807915857?action=write-review';
+      await Linking.openURL(appStoreUrl);
+    } else {
+      const playMarketUrl = 'market://details?id=com.yarm.apps.dasverb';
+      const playWebUrl = 'https://play.google.com/store/apps/details?id=com.yarm.apps.dasverb';
+      const canOpen = await Linking.canOpenURL(playMarketUrl).catch(() => false);
+      if (canOpen) {
+        await Linking.openURL(playMarketUrl);
+      } else {
+        await Linking.openURL(playWebUrl);
+      }
+    }
+  } catch (error) {
+    if (__DEV__) {
+      // eslint-disable-next-line no-console
+      console.warn('[reviewService] Failed to open store URL:', error);
+    }
+  }
 }

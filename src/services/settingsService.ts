@@ -21,7 +21,7 @@ const DEFAULT_SETTINGS: AppSettings = {
   notifications: true,
   themeMode: 'system',
   speakOnCorrectAnswer: true,
-  ttsVoiceGender: 'female',
+  ttsVoiceGender: 'male',
   completedQuizCount: 0,
   lastReviewPromptDate: null,
 };

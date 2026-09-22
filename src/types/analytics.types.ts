@@ -42,14 +42,30 @@ export interface DictionaryVerbCollapsedParams {
 // ==========================================
 
 export interface QuizStartedParams {
-  quiz_type: 'verb' | 'checkpoint' | 'smart' | 'category' | 'prefix' | 'conjugation';
+  quiz_type:
+    | 'verb'
+    | 'checkpoint'
+    | 'smart'
+    | 'category'
+    | 'prefix'
+    | 'conjugation'
+    | 'verb_forms'
+    | 'prepositions';
   infinitive?: string;
   level?: string;
   total_questions: number;
 }
 
 export interface QuizCompletedParams {
-  quiz_type: 'verb' | 'checkpoint' | 'smart' | 'category' | 'prefix' | 'conjugation';
+  quiz_type:
+    | 'verb'
+    | 'checkpoint'
+    | 'smart'
+    | 'category'
+    | 'prefix'
+    | 'conjugation'
+    | 'verb_forms'
+    | 'prepositions';
   infinitive?: string;
   level?: string;
   score: number;
@@ -60,7 +76,15 @@ export interface QuizCompletedParams {
 }
 
 export interface QuizInterruptedParams {
-  quiz_type: 'verb' | 'checkpoint' | 'smart' | 'category' | 'prefix' | 'conjugation';
+  quiz_type:
+    | 'verb'
+    | 'checkpoint'
+    | 'smart'
+    | 'category'
+    | 'prefix'
+    | 'conjugation'
+    | 'verb_forms'
+    | 'prepositions';
   infinitive?: string;
   questions_answered: number;
   total_questions: number;
@@ -80,7 +104,23 @@ export interface DailyLimitAdDeclinedParams {
 }
 
 // ==========================================
-// 4. AD REWARD EVENTS (prefix: ad_reward_)
+// 4. OFFLINE LIMIT EVENTS (prefix: offline_limit_)
+// ==========================================
+
+export interface OfflineLimitCloseParams {
+  reason: 'close_button' | 'backdrop';
+}
+
+export interface OfflineLimitPremiumParams {
+  has_trial: boolean;
+}
+
+export interface PremiumLimitPurchaseSuccessParams {
+  type: 'daily_quiz_limit' | 'offline_limit';
+}
+
+// ==========================================
+// 5. AD REWARD EVENTS (prefix: ad_reward_)
 // ==========================================
 
 export interface AdRewardViewedParams {
@@ -145,6 +185,12 @@ export interface AnalyticsEventMap {
   daily_limit_ad_declined: DailyLimitAdDeclinedParams;
   daily_limit_premium_clicked: Record<string, never>;
 
+  // Offline Limit
+  offline_limit_modal_shown: Record<string, never>;
+  offline_limit_modal_close_clicked: OfflineLimitCloseParams;
+  offline_limit_modal_premium_clicked: OfflineLimitPremiumParams;
+  premium_limit_modal_purchase_success: PremiumLimitPurchaseSuccessParams;
+
   // Ad Reward
   ad_reward_viewed: AdRewardViewedParams;
   ad_reward_earned: AdRewardEarnedParams;
@@ -156,7 +202,11 @@ export interface AnalyticsEventMap {
   settings_voice_gender_changed: SettingsVoiceGenderChangedParams;
   settings_theme_changed: SettingsThemeChangedParams;
   settings_language_selected: SettingsLanguageSelectedParams;
+  settings_rate_app_clicked: Record<string, never>;
   settings_contact_us_clicked: Record<string, never>;
+  settings_privacy_policy_clicked: Record<string, never>;
+  settings_terms_of_service_clicked: Record<string, never>;
+  settings_manage_subscription_clicked: Record<string, never>;
   settings_progress_reset: Record<string, never>;
   settings_all_reset: Record<string, never>;
 

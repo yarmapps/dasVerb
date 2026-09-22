@@ -318,6 +318,7 @@ const ScreenWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) =>
 
 describe('Screens Integration Suite', () => {
   beforeEach(() => {
+    mockRouteParams = {};
     jest.clearAllMocks();
     jest.spyOn(verbDataService, 'getAllVerbs').mockResolvedValue(mockVerbs);
     jest.spyOn(verbDataService, 'getVerbsOrderedByDifficulty').mockResolvedValue(mockVerbs);
@@ -329,7 +330,7 @@ describe('Screens Integration Suite', () => {
   });
 
   describe('PracticeScreen', () => {
-    it('should render header, settings button and navigate to VerbsPracticeList on featured card press', () => {
+    it('should render header, settings button and navigate to VerbsPracticeList on featured card press', async () => {
       const { getByTestId, getByText } = render(
         <ScreenWrapper>
           <PracticeScreen />
@@ -339,6 +340,8 @@ describe('Screens Integration Suite', () => {
       expect(getByText('Практика')).toBeTruthy();
       expect(getByText('Тренируй глаголы')).toBeTruthy();
       expect(getByText('Умный алгоритм')).toBeTruthy();
+      expect(getByText('По режимам')).toBeTruthy();
+      expect(getByText('По темам')).toBeTruthy();
 
       const settingsBtn = getByTestId('settings-button');
       fireEvent.press(settingsBtn);
@@ -350,7 +353,9 @@ describe('Screens Integration Suite', () => {
 
       const smartCard = getByTestId('smart-quiz-card');
       fireEvent.press(smartCard);
-      expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', { isSmartQuiz: true });
+      await waitFor(() => {
+        expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', { isSmartQuiz: true });
+      });
     });
   });
 
@@ -378,9 +383,11 @@ describe('Screens Integration Suite', () => {
 
       const fahrenCard = getByTestId('verb-practice-level-fahren');
       fireEvent.press(fahrenCard);
-      expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
-        infinitive: 'fahren',
-        level: 'A1',
+      await waitFor(() => {
+        expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
+          infinitive: 'fahren',
+          level: 'A1',
+        });
       });
 
       // Switch to A2 tab to verify A2 verbs
@@ -420,14 +427,16 @@ describe('Screens Integration Suite', () => {
 
       const checkpointCard = getByTestId('checkpoint-card-1');
       fireEvent.press(checkpointCard);
-      expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
-        isCheckpoint: true,
-        checkpointId: 'checkpoint-a1-1',
-        checkpointNumber: 1,
-        fromIndex: 1,
-        toIndex: 10,
-        infinitives: tenVerbs.map(v => v.infinitive),
-        level: 'A1',
+      await waitFor(() => {
+        expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
+          isCheckpoint: true,
+          checkpointId: 'checkpoint-a1-1',
+          checkpointNumber: 1,
+          fromIndex: 1,
+          toIndex: 10,
+          infinitives: tenVerbs.map(v => v.infinitive),
+          level: 'A1',
+        });
       });
     });
 
@@ -457,15 +466,17 @@ describe('Screens Integration Suite', () => {
 
       const finalTestCard = getByTestId('category-final-test-movement');
       fireEvent.press(finalTestCard);
-      expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
-        isCheckpoint: true,
-        checkpointId: 'category-movement-final',
-        checkpointNumber: 1,
-        fromIndex: 1,
-        toIndex: 1,
-        infinitives: ['fahren'],
-        level: 'A1',
-        categoryId: 'movement',
+      await waitFor(() => {
+        expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
+          isCheckpoint: true,
+          checkpointId: 'category-movement-final',
+          checkpointNumber: 1,
+          fromIndex: 1,
+          toIndex: 1,
+          infinitives: ['fahren'],
+          level: 'A1',
+          categoryId: 'movement',
+        });
       });
 
       mockRouteParams = {};
@@ -522,8 +533,12 @@ describe('Screens Integration Suite', () => {
         { ...mockVerbs[0], id: 'b1_verb', level: 'B1' },
       ];
       jest.spyOn(verbDataService, 'getVerbsOrderedByDifficulty').mockResolvedValue(a1AndB1Verbs);
-      jest.spyOn(progressService, 'getVerbProgress').mockReturnValue({ score: 0, status: 'uncompleted' });
-      jest.spyOn(progressService, 'getCheckpointProgress').mockReturnValue({ score: 0, status: 'uncompleted' });
+      jest
+        .spyOn(progressService, 'getVerbProgress')
+        .mockReturnValue({ score: 0, status: 'uncompleted' });
+      jest
+        .spyOn(progressService, 'getCheckpointProgress')
+        .mockReturnValue({ score: 0, status: 'uncompleted' });
 
       const scrollToOffsetSpy = jest.spyOn(FlatList.prototype, 'scrollToOffset');
 
@@ -934,7 +949,12 @@ describe('Screens Integration Suite', () => {
       });
 
       fireEvent.press(getByTestId('try-again-button'));
-      expect(mockReplace).toHaveBeenCalledWith('VerbQuiz', { infinitive: 'anrufen', level: 'A1' });
+      await waitFor(() => {
+        expect(mockReplace).toHaveBeenCalledWith('VerbQuiz', {
+          infinitive: 'anrufen',
+          level: 'A1',
+        });
+      });
     });
 
     it('should render uncompleted state with try again as primary and next level as secondary for low score (<4/6)', async () => {
@@ -1004,7 +1024,7 @@ describe('Screens Integration Suite', () => {
       });
     });
 
-    it('should handle smart quiz results and navigate back to practice', () => {
+    it('should handle smart quiz results and navigate back to practice', async () => {
       mockRouteParams = {
         isSmartQuiz: true,
         results: Array.from({ length: 50 }, (_, i) => ({
@@ -1028,7 +1048,9 @@ describe('Screens Integration Suite', () => {
       expect(getByTestId('header-back-button')).toBeTruthy();
 
       fireEvent.press(getByTestId('try-again-button'));
-      expect(mockReplace).toHaveBeenCalledWith('VerbQuiz', { isSmartQuiz: true });
+      await waitFor(() => {
+        expect(mockReplace).toHaveBeenCalledWith('VerbQuiz', { isSmartQuiz: true });
+      });
 
       fireEvent.press(getByTestId('header-back-button'));
       expect(mockPopToTop).toHaveBeenCalled();

@@ -55,7 +55,19 @@
     "startNow": "Почати зараз",
     "smartQuizBadge": "Розумний режим",
     "smartQuizTitle": "Розумний алгоритм",
-    "smartQuizSubtitle": "Фокусуйтеся на власних помилках та вчіться в 3 рази швидше"
+    "smartQuizSubtitle": "Фокусуйтеся на власних помилках та вчіться в 3 рази швидше",
+    "prefixBannerBadge": "A1 – B2",
+    "prefixBannerTitle": "Дієслова з префіксами",
+    "prefixBannerSubtitle": "Відокремлювані, невідокремлювані та подвійні префікси",
+    "conjugationBannerTitle": "Тренажер відмінювання",
+    "conjugationBannerSubtitle": "Тренуйте форми дієслів для всіх займенників у Präsens",
+    "verbFormsBannerTitle": "Неправильні дієслова",
+    "verbFormsBannerSubtitle": "Тренування Infinitiv – Präteritum – Perfekt",
+    "prepositionsBannerTitle": "Дієслова з прийменниками",
+    "prepositionsBannerSubtitle": "Тренуйте прийменники та відмінки дієслів",
+    "adBadge": "Реклама",
+    "sectionModes": "За режимами",
+    "sectionTopics": "За темами"
   },
   "categories": {
     "sectionTitle": "Тематичні категорії",
@@ -133,11 +145,28 @@
     "voiceMale": "Чоловічий",
     "maleVoiceHint": "Щоб використовувати чоловічий німецький голос, встановіть його в Параметри iOS → Спеціальні можливості → Озвучення тексту → Голоси → Німецька.",
     "contactUs": "Зв'язатися з нами",
+    "subscriptionSection": "ПІДПИСКА",
+    "manageSubscription": "Керування підпискою",
+    "rateApp": "Оцінити додаток",
+    "privacyPolicy": "Політика конфіденційності",
+    "termsOfService": "Умови використання",
     "version": "Версія",
     "notificationsPermissionRequiredTitle": "Увімкніть сповіщення",
     "notificationsPermissionRequiredMessage": "Щоб отримувати щоденні нагадування про заняття та серію, будь ласка, увімкніть сповіщення в налаштуваннях пристрою.",
     "openSettings": "Налаштування",
-    "cancel": "Скасувати"
+    "cancel": "Скасувати",
+    "dataSection": "КЕРУВАННЯ ДАНИМИ",
+    "resetProgress": "Скинути прогрес навчання",
+    "resetProgressTitle": "Скинути прогрес навчання?",
+    "resetProgressMessage": "Весь ваш прогрес вивчення дієслів і рівнів із префіксами буде видалено назавжди. Цю дію неможливо скасувати.",
+    "resetProgressConfirm": "Скинути прогрес",
+    "resetProgressSuccess": "Прогрес навчання успішно скинуто.",
+    "resetSettings": "Скинути налаштування додатку",
+    "resetSettingsTitle": "Скинути налаштування додатку?",
+    "resetSettingsMessage": "Усі налаштування звуку, теми та сповіщень повернуться до значень за замовчуванням. Прогрес навчання збережеться.",
+    "resetSettingsConfirm": "Скинути налаштування",
+    "resetSettingsSuccess": "Налаштування успішно скинуто до початкових.",
+    "resetSuccessTitle": "Готово"
   },
   "quizSettingsModal": {
     "title": "Налаштування тесту"
@@ -152,12 +181,112 @@
     "trophy": "Кубок",
     "empty": "Дієслова не знайдені",
     "checkpointTitle": "Проміжний тест",
-    "finalTestTitle": "Фінальний тест"
+    "finalTestTitle": "Фінальний тест",
+    "finalTestTitleWithLevel": "Підсумковий тест {level}",
+    "finalTestSubtitle": "Великий перевірочний тест із 20 запитань",
+    "categoryFinalTestSubtitle": "Підсумковий перевірочний тест за всією темою",
+    "checkpointSubtitle": "Дієслова {from} – {to}"
+  },
+  "prefixPracticeListScreen": {
+    "title": "Дієслова з префіксами",
+    "levelNumber": "Рівень {number}",
+    "checkpointTitle": "Контрольний тест {level}",
+    "checkpointSubtitle": "Великий перевірочний тест із 20 запитань",
+    "subgroupSeparable": "Відокремлювані префікси",
+    "subgroupInseparable": "Невідокремлювані префікси",
+    "subgroupOpposites": "Пари антонімів",
+    "subgroupDual": "Подвійні префікси"
+  },
+  "prefixPractice": {
+    "title": "Дієслова з префіксами",
+    "levelTitle": "Рівень {number}",
+    "checkpointTitle": "Контрольний тест {level}"
+  },
+  "prefixGrammarHint": {
+    "separableTitle": "Відокремлюваний префікс",
+    "inseparableTitle": "Невідокремлюваний префікс",
+    "dualTitle": "Подвійний префікс",
+    "separableRule": "У Präsens та Präteritum відокремлюваний префікс переходить у самий кінець речення.",
+    "inseparableRule": "Невідокремлювані префікси (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) ніколи не відокремлюються від кореня.",
+    "dualRule": "Префікси über-, um-, unter-, durch- можуть бути відокремлюваними або невідокремлюваними залежно від значення."
+  },
+  "conjugationPracticeListScreen": {
+    "title": "Тренажер відмінювання",
+    "levelNumber": "Рівень {number}",
+    "checkpointTitle": "Чекпоїнт {number}",
+    "checkpointSubtitle": "Перевірочний тест за 10 випадковими дієсловами",
+    "finalTestTitle": "Фінальний тест {level}",
+    "finalTestSubtitle": "Великий тест за 15 дієсловами рівня"
+  },
+  "conjugationPractice": {
+    "title": "Відмінювання",
+    "levelTitle": "Рівень {number}",
+    "checkpointNumberTitle": "Чекпоїнт {number}",
+    "finalTestTitle": "Фінальний тест {level}"
+  },
+  "conjugationGrammarHint": {
+    "ruleTag": "Чергування голосних",
+    "eToIRule": "Чергування e → i у 2-й та 3-й особі однини (du, er/sie/es).",
+    "eToIeRule": "Чергування e → ie у 2-й та 3-й особі однини (du, er/sie/es).",
+    "aToAeRule": "Чергування a → ä у 2-й та 3-й особі однини (du, er/sie/es).",
+    "auToAeuRule": "Чергування au → äu у 2-й та 3-й особі однини (du, er/sie/es)."
+  },
+  "verbFormsPracticeListScreen": {
+    "title": "Неправильні дієслова",
+    "levelNumber": "Рівень {number}",
+    "checkpointTitle": "Чекпоїнт {number}",
+    "checkpointSubtitle": "Повторення 10 випадкових дієслів",
+    "finalTestTitle": "Фінальний тест {level}",
+    "finalTestSubtitle": "Великий тест за 15 дієсловами рівня"
+  },
+  "verbFormsPractice": {
+    "title": "Неправильні дієслова",
+    "levelTitle": "Рівень {number}",
+    "checkpointNumberTitle": "Чекпоїнт {number}",
+    "finalTestTitle": "Фінальний тест {level}"
+  },
+  "verbFormsGrammarHint": {
+    "ruleTag": "Правило",
+    "strongVerbTag": "Сильне дієслово",
+    "weakVerbTag": "Слабке дієслово",
+    "mixedVerbTag": "Змішане дієслово",
+    "irregularVerbTag": "Неправильне дієслово",
+    "modalVerbTag": "Модальне дієслово",
+    "seinRule": "Дієслова руху, зміни стану, а також sein і bleiben утворюють Perfekt із «sein».",
+    "habenRule": "Перехідні, зворотні дієслова та стани утворюють Perfekt із «haben».",
+    "strongVerbRule": "Сильні дієслова змінюють кореневу голосну в Präteritum і закінчуються на -en у Partizip II.",
+    "weakVerbRule": "Слабкі дієслова отримують суфікс -te в Präteritum і ge-...-t у Partizip II.",
+    "mixedVerbRule": "Змішані дієслова змінюють голосну, але приймають закінчення слабких дієслів (-te, -t)."
+  },
+  "verbFormsExercise": {
+    "infinitive": "Інфінітив",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt"
+  },
+  "prepositionsPracticeListScreen": {
+    "title": "Дієслова з прийменниками",
+    "levelNumber": "Рівень {number}",
+    "checkpointTitle": "Чекпоїнт {number}",
+    "checkpointSubtitle": "Повторення 10 випадкових дієслів",
+    "finalTestTitle": "Фінальний тест {level}",
+    "finalTestSubtitle": "Великий тест за 15 дієсловами рівня"
+  },
+  "prepositionsPractice": {
+    "title": "Прийменники",
+    "levelTitle": "Рівень {number}",
+    "checkpointNumberTitle": "Чекпоїнт {number}",
+    "finalTestTitle": "Фінальний тест {level}"
+  },
+  "prepositionGrammarHint": {
+    "ruleTag": "Керування",
+    "questionLabel": "Питання до об'єкта:"
   },
   "verbQuizScreen": {
     "title": "Тренування",
     "checkpointQuizTitle": "Проміжний тест",
     "smartQuizTitle": "Розумний квіз",
+    "conjugateVerbTitle": "Провідміняйте дієслово {verb}",
+    "prepositionTaskTitle": "Виберіть прийменник",
     "level": "Рівень",
     "check": "Перевірити",
     "continue": "Продовжити",
@@ -185,18 +314,21 @@
     "tryAgain": "Спробувати знову",
     "verbsList": "До списку дієслів",
     "backToPractice": "До практики",
-    "scoreSummary": "{correct} з {total}"
+    "scoreSummary": "{correct} з {total}",
+    "showCorrectAnswers": "Показати правильні відповіді",
+    "showAllAnswers": "Показати всі відповіді",
+    "showErrorsOnly": "Показати тільки помилки"
   },
   "dailyQuizLimitModal": {
-    "title": "Чудовий прогрес!",
-    "message": "Ви дійсно рішуче налаштовані вивчити німецьку!",
-    "instructions": "Як ви бажаєте продовжити?",
+    "title": "Так тримати!",
+    "message": "Ви справді налаштовані вивчити німецьку!",
+    "instructions": "Як ви хочете продовжити?",
     "videoButton": "Дивитись рекламу",
     "or": "або",
     "premiumButtonWithTrial": "Безкоштовні безлімітні рівні на {daysLabel}",
-    "premiumButtonNoTrial": "Купити Premium",
-    "premiumButtonSubtitleWithTrial": "потім {yearlyPrice} на рік (☕️ / міс.)",
-    "premiumButtonSubtitleNoTrial": "{yearlyPrice} на рік (☕️ / міс.)",
+    "premiumButtonNoTrial": "Без реклами",
+    "premiumButtonSubtitleWithTrial": "потім {yearlyPrice} за 3 місяці (☕️ / міс.)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} за 3 місяці (☕️ / міс.)",
     "waitUntilTomorrow": "Чекати до завтра",
     "cancelAnytime": "Скасування будь-коли"
   },
@@ -222,6 +354,8 @@
     },
     "periodMonth": "місяць",
     "periodYear": "рік",
+    "period3Months": "3 місяці",
+    "period6Months": "6 місяців",
     "restorePurchases": "Відновити покупки",
     "errorTitle": "Помилка",
     "errorUnavailable": "Цей план наразі недоступний. Будь ласка, спробуйте пізніше.",
@@ -241,7 +375,11 @@
       "perMonth": "{price}/місяць",
       "lifetimeLabel": "Назавжди",
       "lifetimePer": "Сплатіть один раз",
-      "lifetimeBadge": "ОДНОРАЗОВО"
+      "lifetimeBadge": "ОДНОРАЗОВО",
+      "threeMonthLabel": "3 місяці",
+      "sixMonthLabel": "6 місяців",
+      "bestValueBadge": "ВИГІДНО",
+      "popularBadge": "ПОПУЛЯРНИЙ"
     },
     "features": {
       "noAdsTitle": "Без реклами",
@@ -264,7 +402,10 @@
       "unlimitedCustomListsAndWordsDescription": "Додавайте необмежену кількість слів і тренуйте саме той словниковий запас, який вам потрібен",
       "photoScannerTitle": "Зображення у слова",
       "photoScannerShort": "Зображення\nу слова",
-      "photoScannerDescription": "Миттєво імпортуйте німецькі іменники з фотографій за допомогою ШІ."
+      "photoScannerDescription": "Миттєво імпортуйте німецькі іменники з фотографій за допомогою ШІ.",
+      "offlineModeTitle": "Офлайн-режим",
+      "offlineModeShort": "Офлайн-\nрежим",
+      "offlineModeDescription": "Тренуйте дієслова будь-коли та будь-де без інтернету."
     },
     "trialTitle": "Ваша 3-денна пробна версія Premium активна",
     "trialSubtitle": "Відкрийте свій найшвидший прогрес без реклами та з потужними інструментами для навчання.",
@@ -286,6 +427,7 @@
     "restore": "Відновити покупки",
     "proceedLimited": "Продовжити з обмеженою версією",
     "priceYearlyWithCoffee": "{price}/рік, чашка кави/міс.",
+    "price3MonthsWithCoffee": "Всього {price} за 3 місяці — менше чашки кави на місяць",
     "disclaimer": "Автоподовження за {price}/рік. Скасуйте будь-коли в налаштуваннях.",
     "disclaimerFallback": "Автоподовження раз на рік. Скасуйте будь-коли в налаштуваннях.",
     "priceWithTrial": "Безкоштовно на {trialDuration}, потім {price}/рік",
@@ -342,6 +484,10 @@
           "voices": {
             "title": "Аудіо-занурення",
             "text": "Розвивайте сприйняття на слух за допомогою якісних людських нейроголосів."
+          },
+          "offlineMode": {
+            "title": "Офлайн-режим",
+            "text": "Вчіть німецькі дієслова будь-коли та будь-де без підключення до інтернету."
           }
         },
         "description": ""
@@ -357,5 +503,14 @@
         "description": "Тільки якщо ви не скасуєте її. Скасовуйте будь-коли в налаштуваннях."
       }
     }
+  },
+  "offlineModal": {
+    "title": "Потрібен інтернет",
+    "message": "Оформіть Premium для практики офлайн у будь-який час.",
+    "getPremium": "Отримати Premium",
+    "retry": "Повторити",
+    "enableOffline": "Увімкнути офлайн",
+    "premiumButtonWithTrial": "Безкоштовний Premium на {daysLabel}",
+    "premiumButtonNoTrial": "Отримати Premium"
   }
 }

@@ -133,7 +133,7 @@ class SpeechService {
 
       this.isSpeaking = true;
       const settings = getSettings();
-      const gender = settings.ttsVoiceGender || 'female';
+      const gender = settings.ttsVoiceGender || 'male';
 
       const { identifier: voiceId, isExactGenderMatch } =
         await this.getGermanVoiceIdentifier(gender);

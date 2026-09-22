@@ -21,7 +21,6 @@ describe('QuizSettingsModal', () => {
   it('should render modal content when visible is true', () => {
     const handleClose = jest.fn();
     const handleToggleSpeak = jest.fn();
-    const handleToggleVoice = jest.fn();
 
     const { getByText } = render(
       <TestWrapper>
@@ -30,37 +29,35 @@ describe('QuizSettingsModal', () => {
           onClose={handleClose}
           speakOnCorrectAnswer={true}
           onToggleSpeakOnCorrectAnswer={handleToggleSpeak}
-          ttsVoiceGender="female"
-          onToggleTtsVoiceGender={handleToggleVoice}
         />
       </TestWrapper>,
     );
 
     expect(getByText('Настройки теста')).toBeTruthy();
     expect(getByText('Произношение правильного ответа')).toBeTruthy();
-    expect(getByText('Голос')).toBeTruthy();
-    expect(getByText('Женский')).toBeTruthy();
   });
 
-  it('should trigger onToggleTtsVoiceGender on voice row press', () => {
+  it('should trigger onToggleSpeakOnCorrectAnswer on switch toggle', () => {
     const handleClose = jest.fn();
     const handleToggleSpeak = jest.fn();
-    const handleToggleVoice = jest.fn();
 
-    const { getByText } = render(
+    const { getByTestId } = render(
       <TestWrapper>
         <QuizSettingsModal
           visible={true}
           onClose={handleClose}
           speakOnCorrectAnswer={true}
           onToggleSpeakOnCorrectAnswer={handleToggleSpeak}
-          ttsVoiceGender="female"
-          onToggleTtsVoiceGender={handleToggleVoice}
         />
       </TestWrapper>,
     );
 
-    fireEvent.press(getByText('Голос'));
-    expect(handleToggleVoice).toHaveBeenCalled();
+    const switchComponent = getByTestId('speak-switch');
+    fireEvent(switchComponent, 'valueChange', false);
+    expect(handleToggleSpeak).toHaveBeenCalledWith(false);
+
+    const closeBtn = getByTestId('quiz-settings-close-btn');
+    fireEvent.press(closeBtn);
+    expect(handleClose).toHaveBeenCalled();
   });
 });

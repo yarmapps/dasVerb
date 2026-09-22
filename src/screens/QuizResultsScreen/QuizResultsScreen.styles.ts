@@ -48,11 +48,6 @@ export const createStyles = (colors: ThemeColors) =>
       borderWidth: 1,
       borderColor: colors.blockBorder,
       overflow: 'hidden',
-      shadowColor: '#000',
-      shadowOffset: { width: 0, height: 2 },
-      shadowOpacity: 0.04,
-      shadowRadius: 8,
-      elevation: 2,
     },
     reviewList: {
       flexGrow: 0,
@@ -81,7 +76,7 @@ export const createStyles = (colors: ThemeColors) =>
     },
     reviewGermanText: {
       fontSize: Typography.fontSize.md,
-      fontWeight: '600',
+      fontWeight: Typography.fontWeight.regular,
       color: colors.textPrimary,
       lineHeight: 22,
     },
@@ -94,11 +89,30 @@ export const createStyles = (colors: ThemeColors) =>
     wrongAnswerStrikethrough: {
       textDecorationLine: 'line-through',
       color: colors.textMuted,
-      fontWeight: '500',
+      fontWeight: Typography.fontWeight.regular,
     },
     correctAnswerText: {
       color: colors.textPrimary,
-      fontWeight: '600',
+      fontWeight: Typography.fontWeight.bold,
+    },
+    correctAnswerBold: {
+      color: colors.textPrimary,
+      fontWeight: Typography.fontWeight.bold,
+    },
+    ruleBadge: {
+      alignSelf: 'flex-start',
+      paddingHorizontal: Spacing.sm,
+      paddingVertical: 2,
+      borderRadius: 6,
+      backgroundColor: `${colors.primary}18`,
+      borderWidth: 1,
+      borderColor: `${colors.primary}40`,
+      marginTop: 4,
+    },
+    ruleBadgeText: {
+      fontSize: 11,
+      fontWeight: '700',
+      color: colors.primary,
     },
     correctionRow: {
       flexDirection: 'row',

@@ -148,6 +148,34 @@ function buildDatabase() {
     CREATE INDEX idx_conjugation_levels_cefr ON conjugation_levels(cefr_level);
     CREATE INDEX idx_conjugation_levels_subgroup ON conjugation_levels(subgroup_type);
     CREATE INDEX idx_conjugation_levels_order ON conjugation_levels(order_index);
+
+    CREATE TABLE verb_forms_levels (
+      id TEXT PRIMARY KEY,
+      cefr_level TEXT NOT NULL,
+      subgroup_type TEXT NOT NULL,
+      level_number INTEGER NOT NULL,
+      order_index INTEGER NOT NULL,
+      title TEXT NOT NULL,
+      verbs_json TEXT NOT NULL
+    );
+
+    CREATE INDEX idx_verb_forms_levels_cefr ON verb_forms_levels(cefr_level);
+    CREATE INDEX idx_verb_forms_levels_subgroup ON verb_forms_levels(subgroup_type);
+    CREATE INDEX idx_verb_forms_levels_order ON verb_forms_levels(order_index);
+
+    CREATE TABLE preposition_levels (
+      id TEXT PRIMARY KEY,
+      cefr_level TEXT NOT NULL,
+      subgroup_type TEXT NOT NULL,
+      level_number INTEGER NOT NULL,
+      order_index INTEGER NOT NULL,
+      title TEXT NOT NULL,
+      verbs_json TEXT NOT NULL
+    );
+
+    CREATE INDEX idx_preposition_levels_cefr ON preposition_levels(cefr_level);
+    CREATE INDEX idx_preposition_levels_subgroup ON preposition_levels(subgroup_type);
+    CREATE INDEX idx_preposition_levels_order ON preposition_levels(order_index);
   `);
 
   const files = fs.readdirSync(DATA_DIR).filter(f => f.endsWith('.json'));
@@ -562,6 +590,236 @@ function buildDatabase() {
   }
 
   console.log(`✅ Successfully compiled ${totalConjugationLevelsCreated} conjugation levels into assets/main.db`);
+
+  const insertVerbFormsLevelStmt = db.prepare(`
+    INSERT INTO verb_forms_levels (
+      id,
+      cefr_level,
+      subgroup_type,
+      level_number,
+      order_index,
+      title,
+      verbs_json
+    ) VALUES (
+      ?, ?, ?, ?, ?, ?, ?
+    )
+  `);
+
+  let totalVerbFormsLevelsCreated = 0;
+
+  const irregularUniqueVerbs = allUniqueVerbs.filter(
+    v => v.morphology?.verb_class && v.morphology.verb_class !== 'weak'
+  );
+
+  for (const cefr of CEFR_LEVELS) {
+    const levelVerbs = irregularUniqueVerbs.filter(v => v.level === cefr);
+    levelVerbs.sort((a, b) => (a.frequency_rank ?? 9999) - (b.frequency_rank ?? 9999));
+
+    let levelNumber = 1;
+    let checkpointNumber = 1;
+    let orderIndex = 1;
+    const accumulatedVerbsInBlock: string[] = [];
+
+    for (let i = 0; i < levelVerbs.length; i += 5) {
+      const chunk = levelVerbs.slice(i, i + 5);
+      const chunkInfinitives = chunk.map(v => v.infinitive);
+      accumulatedVerbsInBlock.push(...chunkInfinitives);
+
+      const levelId = `verb_forms_${cefr.toLowerCase()}_level_${levelNumber}`;
+      insertVerbFormsLevelStmt.run(
+        levelId,
+        cefr,
+        'standard',
+        levelNumber,
+        orderIndex,
+        `Level ${levelNumber}`,
+        JSON.stringify(chunkInfinitives),
+      );
+      totalVerbFormsLevelsCreated++;
+      orderIndex++;
+
+      // Every 10 levels, if there are more verbs ahead, insert an intermediate checkpoint
+      if (levelNumber % 10 === 0 && i + 5 < levelVerbs.length) {
+        const checkpointVerbs: string[] = [];
+        const step = Math.max(1, Math.floor(accumulatedVerbsInBlock.length / 10));
+        for (let k = 0; k < 10 && k * step < accumulatedVerbsInBlock.length; k++) {
+          checkpointVerbs.push(accumulatedVerbsInBlock[k * step]);
+        }
+        for (const v of accumulatedVerbsInBlock) {
+          if (checkpointVerbs.length >= 10) break;
+          if (!checkpointVerbs.includes(v)) {
+            checkpointVerbs.push(v);
+          }
+        }
+
+        const cpId = `verb_forms_${cefr.toLowerCase()}_checkpoint_${checkpointNumber}`;
+        insertVerbFormsLevelStmt.run(
+          cpId,
+          cefr,
+          'checkpoint',
+          checkpointNumber,
+          orderIndex,
+          `Checkpoint ${checkpointNumber}`,
+          JSON.stringify(checkpointVerbs),
+        );
+        totalVerbFormsLevelsCreated++;
+        checkpointNumber++;
+        orderIndex++;
+        accumulatedVerbsInBlock.length = 0;
+      }
+
+      levelNumber++;
+    }
+
+    // Final Test Checkpoint at the end of CEFR level: 15 verbs
+    const allInfinitives = levelVerbs.map(v => v.infinitive);
+    const finalVerbs: string[] = [];
+    const stepFinal = Math.max(1, Math.floor(allInfinitives.length / 15));
+    for (let k = 0; k < 15 && k * stepFinal < allInfinitives.length; k++) {
+      finalVerbs.push(allInfinitives[k * stepFinal]);
+    }
+    for (const v of allInfinitives) {
+      if (finalVerbs.length >= 15) break;
+      if (!finalVerbs.includes(v)) {
+        finalVerbs.push(v);
+      }
+    }
+
+    const finalTestId = `verb_forms_${cefr.toLowerCase()}_final`;
+    insertVerbFormsLevelStmt.run(
+      finalTestId,
+      cefr,
+      'final_test',
+      0,
+      orderIndex,
+      `Final Test ${cefr}`,
+      JSON.stringify(finalVerbs),
+    );
+    totalVerbFormsLevelsCreated++;
+    orderIndex++;
+  }
+
+  console.log(`✅ Successfully compiled ${totalVerbFormsLevelsCreated} verb forms levels into assets/main.db`);
+
+  const insertPrepositionLevelStmt = db.prepare(`
+    INSERT INTO preposition_levels (
+      id,
+      cefr_level,
+      subgroup_type,
+      level_number,
+      order_index,
+      title,
+      verbs_json
+    ) VALUES (
+      ?, ?, ?, ?, ?, ?, ?
+    )
+  `);
+
+  let totalPrepositionLevelsCreated = 0;
+
+  const prepositionCards = loadedCards.filter(
+    v => Boolean(v.rektion?.preposition)
+  );
+
+  for (const cefr of CEFR_LEVELS) {
+    const levelCards = prepositionCards.filter(v => v.level === cefr);
+    levelCards.sort((a, b) => (a.frequency_rank ?? 9999) - (b.frequency_rank ?? 9999));
+
+    let levelNumber = 1;
+    let checkpointNumber = 1;
+    let orderIndex = 1;
+    const accumulatedVerbsInBlock: Array<{ id: string; infinitive: string; prep: string; case: string }> = [];
+
+    for (let i = 0; i < levelCards.length; i += 5) {
+      const chunk = levelCards.slice(i, i + 5);
+      const chunkItems = chunk.map(v => ({
+        id: v.id,
+        infinitive: v.infinitive,
+        prep: v.rektion!.preposition!,
+        case: v.rektion!.preposition_case!,
+      }));
+      accumulatedVerbsInBlock.push(...chunkItems);
+
+      const levelId = `preposition_${cefr.toLowerCase()}_level_${levelNumber}`;
+      insertPrepositionLevelStmt.run(
+        levelId,
+        cefr,
+        'standard',
+        levelNumber,
+        orderIndex,
+        `Level ${levelNumber}`,
+        JSON.stringify(chunkItems),
+      );
+      totalPrepositionLevelsCreated++;
+      orderIndex++;
+
+      // Every 10 levels, if there are more verbs ahead, insert an intermediate checkpoint
+      if (levelNumber % 10 === 0 && i + 5 < levelCards.length) {
+        const checkpointItems: Array<{ id: string; infinitive: string; prep: string; case: string }> = [];
+        const step = Math.max(1, Math.floor(accumulatedVerbsInBlock.length / 10));
+        for (let k = 0; k < 10 && k * step < accumulatedVerbsInBlock.length; k++) {
+          checkpointItems.push(accumulatedVerbsInBlock[k * step]);
+        }
+        for (const item of accumulatedVerbsInBlock) {
+          if (checkpointItems.length >= 10) break;
+          if (!checkpointItems.some(x => x.id === item.id)) {
+            checkpointItems.push(item);
+          }
+        }
+
+        const cpId = `preposition_${cefr.toLowerCase()}_checkpoint_${checkpointNumber}`;
+        insertPrepositionLevelStmt.run(
+          cpId,
+          cefr,
+          'checkpoint',
+          checkpointNumber,
+          orderIndex,
+          `Checkpoint ${checkpointNumber}`,
+          JSON.stringify(checkpointItems),
+        );
+        totalPrepositionLevelsCreated++;
+        checkpointNumber++;
+        orderIndex++;
+        accumulatedVerbsInBlock.length = 0;
+      }
+
+      levelNumber++;
+    }
+
+    // Final Test Checkpoint at the end of CEFR level: 15 verbs
+    const allItems = levelCards.map(v => ({
+      id: v.id,
+      infinitive: v.infinitive,
+      prep: v.rektion!.preposition!,
+      case: v.rektion!.preposition_case!,
+    }));
+    const finalItems: Array<{ id: string; infinitive: string; prep: string; case: string }> = [];
+    const stepFinal = Math.max(1, Math.floor(allItems.length / 15));
+    for (let k = 0; k < 15 && k * stepFinal < allItems.length; k++) {
+      finalItems.push(allItems[k * stepFinal]);
+    }
+    for (const item of allItems) {
+      if (finalItems.length >= 15) break;
+      if (!finalItems.some(x => x.id === item.id)) {
+        finalItems.push(item);
+      }
+    }
+
+    const finalTestId = `preposition_${cefr.toLowerCase()}_final`;
+    insertPrepositionLevelStmt.run(
+      finalTestId,
+      cefr,
+      'final_test',
+      0,
+      orderIndex,
+      `Final Test ${cefr}`,
+      JSON.stringify(finalItems),
+    );
+    totalPrepositionLevelsCreated++;
+    orderIndex++;
+  }
+
+  console.log(`✅ Successfully compiled ${totalPrepositionLevelsCreated} preposition levels into assets/main.db`);
   db.close();
 }
 

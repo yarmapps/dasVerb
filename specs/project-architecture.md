@@ -193,13 +193,13 @@ dasVerb/
 ## 8. Синтез речи (TTS) и настройки тренировки
 
 1. **Озвучивание правильного ответа (`speechService`):**
-   * При правильном заполнении карточки немецкое предложение озвучивается вслух через `expo-speech` на немецком языке (`de-DE`).
-   * В `settingsService` сохраняется настройка `speakOnCorrectAnswer: boolean` (по умолчанию `true`) и `ttsVoiceGender: 'female' | 'male'` (по умолчанию `'female'`).
+   * При правильном заполнении карточки немецкое предложение озвучивается вслух через `expo-speech` на немецком языке (`de-DE`) мужским голосом (`male`).
+   * В `settingsService` сохраняется настройка `speakOnCorrectAnswer: boolean` (по умолчанию `true`).
 2. **Переход к следующему вопросу:**
    * Автопереход по таймеру отключен. Переход осуществляется **исключительно по тапу пользователя** на экран или кнопку «Продолжить».
 3. **Модальное окно настроек квиза (`QuizSettingsModal`):**
    * В правом верхнем углу карточки задания размещена кнопка с иконкой шестеренки.
-   * Открывает shared-компонент `QuizSettingsModal`, позволяющий переключать произношение и голос прямо во время тренировки.
+   * Открывает shared-компонент `QuizSettingsModal`, позволяющий управлять произношением правильного ответа во время тренировки.
 
 ---
 
@@ -313,9 +313,150 @@ dasVerb/
 
 ---
 
-## 14. Актуализация спецификаций и документации (Строго)
+### 14. Режим тренировки неправильных глаголов (Irregular Verbs / 3 Verb Forms Practice)
+
+1. **Архитектура уровней и база данных:**
+   * В SQLite создана таблица `verb_forms_levels`: `id`, `cefr_level`, `subgroup_type` (`'standard' | 'checkpoint' | 'final_test'`), `level_number`, `order_index`, `title`, `verbs_json`.
+   * На этапе сборки базы (`scripts/buildDatabase.ts`) массив уникальных инфинитивов **неправильных/сильных глаголов** (`verb_class !== 'weak'`, ~230 глаголов A1–B2) компилируется в 51 уровень:
+     * Стандартные уровни: по 5 глаголов (5 упражнений, 1 раунд).
+     * Промежуточные чекпоинты: по 10 глаголов из ранее пройденного диапазона (10 упражнений, 1 раунд).
+     * Финальные тесты CEFR: по 15 глаголов соответствующего уровня (15 упражнений, 1 раунд).
+2. **Формат упражнения (`verb_forms_fill`):**
+   * Карточка упражнения `VerbFormsFillExercise` отображает:
+     * Заголовок карточки: «Заполните карточку» (`verbQuizScreen.fillCard`).
+     * Верхний статичный блок с инфинитивом глагола.
+     * Слот Präteritum (3-е лицо ед.ч., например, `[ ging ]`).
+     * Слот вспомогательного глагола (`[ hat ]` / `[ ist ]`).
+     * Слот Partizip II (например, `[ gegangen ]`).
+   * Взаимодействие и управление:
+     * Пользователь может нажимать на любой слот для смены фокуса и перевыбора варианта.
+     * Снизу выводится сетка из 4 опций (для Präteritum и Partizip II) или панель выбора из 2 кнопок (`hat` / `ist`).
+     * Отделяемые глаголы отображают приставку в чипе (`[ rief an ]`, `[ angerufen ]`).
+     * Возвратные глаголы отображают местоимение в чипе (`[ freute sich ]`, `[ sich gefreut ]`).
+   * Дистракторы: генерируются динамически в `quizGeneratorService` с ловушками слабых окончаний (`-te`, `ge-...-t`), аблаутными сдвигами корневых гласных и формами соседних глаголов.
+   * Валидация:
+     * Выполняется автоматически только при заполнении всех 3 слотов.
+     * При успехе: позитивная тактильная отдача, задержка 1.2 с для перехода к следующему вопросу. TTS отключен (`speakOnCorrectAnswer` игнорируется).
+     * При ошибке: негативная тактильная отдача, подсветка ошибочных слотов красным, отображение грамматической подсказки `VerbFormsGrammarHint` (бейдж класса глагола, аблаутный паттерн гласных `e → i → a`, локализованное правило без дублирования 3 форм).
+3. **Хранение прогресса и экран результатов:**
+   * Прогресс хранится в MMKV по ключу `@verb_forms_levels_progress` (`Record<string, VerbProgress>`).
+   * На экране `QuizResultsScreen`:
+     * Успешные упражнения: `gehen — ging — ist gegangen` с зеленой галочкой.
+     * Ошибочные упражнения: `gehen — ging — ~hat gegangen~ ist gegangen` с зачеркиванием неверных вариантов и полужирным зеленым шрифтом для исправлений (без скобок).
+   * Баннер на экране практики озаглавлен «Неправильные глаголы» (`verbFormsBannerTitle`).
+   * Кнопка «Следующий уровень» бесшовно ведет на следующий уровень или чекпоинт.
+   * Сброс прогресса интегрирован в `progressService.clearAllProgress()`.
+
+---
+
+### 15. Режим тренировки глаголов с предлогами (Verbs with Prepositions / Preposition Practice)
+
+1. **Архитектура уровней и база данных:**
+   * В SQLite создана таблица `preposition_levels`: `id`, `cefr_level`, `subgroup_type` (`'standard' | 'checkpoint' | 'final_test'`), `level_number`, `order_index`, `title`, `verbs_json`.
+   * На этапе сборки базы (`scripts/buildDatabase.ts`) 169 глаголов с предложным управлением компилируются в 41 уровень (A1–B2):
+     * Стандартные уровни: по 5 глаголов (1 раунд = 5 упражнений).
+     * Промежуточные чекпоинты: по 10 глаголов из ранее пройденного диапазона (10 упражнений, 1 раунд).
+     * Финальные тесты CEFR: по 15 глаголов соответствующего уровня (15 упражнений, 1 раунд).
+2. **Формат упражнения (`preposition_fill`):**
+   * Выполняется на базе компонента `SentenceFillExercise` в `VerbQuizScreen`.
+   * Адаптивный слот на месте предложной группы в аутентичном предложении:
+     * Предлог + артикль / притяжательное местоимение (например, `[ auf den ]`).
+     * Слитные формы (например, `[ vom ]`, `[ ins ]`, `[ beim ]`).
+     * Одиночный предлог без артикля (например, `[ auf ]`).
+   * Генерация дистракторов: 4 варианта в чипах (1 верный + 3 дистрактора):
+     * Падежная ловушка (тот же предлог + противоположный падеж: `auf den` vs `auf dem`).
+     * Альтернативный предлог того же падежа.
+     * Альтернативный предлог противоположного падежа.
+     * Слитные формы Dativ vs Akkusativ (`vom` vs `ans`).
+   * Озвучка TTS: при правильном ответе озвучивается полное законченное предложение на немецком языке.
+   * Подсказка при ошибке: компонент `PrepositionGrammarHint` показывает:
+     * Бейдж правила: `[ auf + Akkusativ ]`.
+     * Полную грамматическую конструкцию: `warten auf + Akkusativ`.
+     * Вопрос к предложной группе: `Worauf? / Auf wen?` (или `Wovon? / Von wem?`).
+3. **Хранение прогресса и экран результатов:**
+   * Прогресс хранится в MMKV по ключу `@preposition_levels_progress` (`Record<string, VerbProgress>`).
+   * На экране `QuizResultsScreen`:
+     * Успешные упражнения: полное предложение с полужирным выделением правильного ответа (`Er wartet **auf den** Bus.`) + бейдж правила (`[ auf + Akkusativ ]`) с зеленой галочкой.
+     * Ошибочные упражнения: предложение с зачеркиванием неверного ответа и полужирным выделением правильного (`Er kommt bald ~mit dem~ **in das** neue Team.`) + бейдж правила (`[ auf + Akkusativ ]`).
+   * Экран списка `PrepositionsPracticeListScreen` оснащен вкладками CEFR (A1–B2), независимой нумерацией с 1 и автоскроллом к актуальному уровню.
+   * Промо-карточка `PrepositionPracticeCard` отображается на `PracticeScreen`.
+   * Сброс прогресса интегрирован в `progressService.clearAllProgress()`.
+
+---
+
+## 16. Удаленная конфигурация (Remote App Config / `appConfigService`)
+
+1. **Архитектура и таймаут старта (500ms Race):**
+   * При старте приложения (`appConfigService.init(500)`) выполняется гонка запроса к удаленному конфигу (`https://das-verb.yapps.studio/app-config.json`) и таймера на 500 мс.
+   * Если запрос успешен за $\le 500$ мс: конфиг применяется в памяти и сохраняется в MMKV кэш (`cached_remote_config`).
+   * Если запрос превышает 500 мс или падает с ошибкой: приложение не блокируется и мгновенно использует данные из MMKV кэша (или встроенный `assets/app-config.json`, если кэша еще нет).
+   * При этом фоновый запрос **не прерывается**: при успешном завершении в фоне он обновляет `currentConfig` в памяти и записывает свежие данные в MMKV кэш для последующих сессий и проверок.
+2. **Параметры и управление фичами:**
+   * Минимальные и актуальные версии приложения для iOS/Android (`minimum_version`, `latest_version`, `update_url`).
+   * Управление дневными лимитами бесплатных квизов (`free_daily_quizzes`) и рекламы (`max_ad_grants_per_day`).
+   * Динамическое отключение First-Open Paywall (`disable_first_open_paywall`).
+
+---
+
+## 17. Рекламная архитектура (AdManager, Native Ad, Interstitial Fallback)
+
+1. **Фоновый менеджер рекламы (`AdManager`):**
+   * Синглтон `src/ads/adManager.ts` инициализируется при старте приложения (`adManager.init()`).
+   * В фоновом режиме параллельно кэширует `RewardedAd` и `InterstitialAd`.
+   * Каскадный показ (`showRewardedOrFallback()`):
+     1. Если загружен `RewardedAd` $\rightarrow$ показ видео с вознаграждением;
+     2. Если `RewardedAd` не готов, но доступен `InterstitialAd` $\rightarrow$ показ межстраничной рекламы как фолбэка;
+     3. Если оба не готовы $\rightarrow$ ожидание до 8 секунд (`FALLBACK_TIMEOUT_MS = 8000`);
+     4. Если реклама не заполнена за 8 секунд $\rightarrow$ предоставление бесплатного доступа (*grace access*) и аналитическое событие `ad_no_fill`.
+2. **Нативный рекламный блок (`PracticeNativeAdCard`):**
+   * Размещается на экране практики `PracticeScreen` строго между карточкой смарт-алгоритма (`SmartQuizCard`) и остальными режимами.
+   * Скрывается для Premium-пользователей (`isPremium`) и при отключенном флаге `ENABLE_ADS`.
+3. **Редизайн главного экрана (`PracticeScreen`):**
+   * Порядок блоков: `FeaturedStartCard` $\rightarrow$ `SmartQuizCard` $\rightarrow$ `PracticeNativeAdCard` $\rightarrow$ Сетка 2x2 (`PrefixPracticeCard` + `ConjugationPracticeCard` / `VerbFormsPracticeCard` + `PrepositionPracticeCard`) $\rightarrow$ `ThematicCategoriesSection`.
+   * Карточки очищены от всех теней (`shadowColor`, `shadowOffset`, `shadowOpacity`, `shadowRadius`, `elevation`) для строгого плоского дизайна.
+
+---
+
+## 18. Управление согласием пользователей (Consent Management: Google UMP & iOS ATT)
+
+1. **Единый сервис согласия (`adConsentService`):**
+   * Сервис `src/ads/consentService.ts` реализует обязательный протокол согласия Google (GDPR, EEA, UK, Швейцария) и Apple App Tracking Transparency (iOS ATT).
+2. **Последовательность инициализации при старте:**
+   * При старте приложения (`App.tsx`) вызывается `adConsentService.initialize()`:
+     1. Запрашивает статус согласия через `AdsConsent.requestInfoUpdate()`.
+     2. Если требуется — загружает и отображает нативную форму согласия Google (`loadAndShowConsentFormIfRequired()`).
+     3. На iOS строго соблюдается правило Apple Review 5.1.1(iv): системный диалог `TrackingTransparency.requestTrackingPermissionsAsync()` вызывается **только если согласие в GDPR получено (`OBTAINED`) или не требуется для региона (`NOT_REQUIRED`)**; при отказе в GDPR вызов ATT пропускается.
+     4. Инициализирует Google Mobile Ads SDK и фоновый `AdManager`.
+3. **Управление конфиденциальностью в Настройках:**
+   * В экран `SettingsScreen` добавлен пункт «Настройки конфиденциальности» (`settingsScreen.privacySettings`), вызывающий `adConsentService.showPrivacyOptions()` для изменения настроек согласия пользователем в любой момент.
+
+---
+
+## 19. Офлайн-режим и проверка сети (Offline Mode & `OfflineLimitModal`)
+
+1. **Архитектура проверки подключения к сети:**
+   * Сервис `src/services/networkService.ts` использует `@react-native-community/netinfo` (`NetInfo.fetch()`) для проверки `isConnected && isInternetReachable !== false`.
+   * При сбоях вызова NetInfo сервис безопасно возвращает `true` (graceful fallback).
+2. **Правила запуска квизов в офлайн-режиме:**
+   * Пользователи с активной подпиской Premium (`isPremiumEnabled() === true`) имеют неограниченный доступ к тренировкам и квизам в офлайн-режиме.
+   * Бесплатные пользователи при отсутствии интернет-соединения не могут запустить квиз; вместо этого отображается модальное окно `OfflineLimitModal`.
+   * Вся логика проверки централизована в хуке `useNavigateToQuiz.tsx`, который обслуживает 100% точек входа в квизы приложения (`PracticeScreen`, `QuizResultsScreen`, `VerbsPracticeListScreen`, `PrefixPracticeListScreen`, `ConjugationPracticeListScreen`, `VerbFormsPracticeListScreen`, `PrepositionsPracticeListScreen`).
+3. **Модальное окно `OfflineLimitModal`:**
+   * Расположено в `src/components/OfflineLimitModal/OfflineLimitModal.tsx` со стилями `OfflineLimitModal.styles.ts`.
+   * Содержит:
+     * Иконку `cloud-offline`, заголовок (`offlineModal.title`) и пояснительный текст (`offlineModal.message`).
+     * Кнопку перехода к оформлению Premium (`offlineModal.premiumButtonWithTrial` / `offlineModal.premiumButtonNoTrial`), управляемую флагом `ENABLE_PREMIUM` и наличием обработчика `onPremiumCTA`.
+     * Кнопку «Повторить» (`offlineModal.retry`), которая при восстановлении соединения автоматически закрывает модалку и запускает отложенный квиз (`pendingQuizParamsRef`).
+     * Кнопку закрытия и закрытие по тапу на бэкдроп с отправкой аналитических событий.
+4. **Отображение преимуществ офлайн-режима в Paywall:**
+   * В пейволлах (`PremiumSubscribeSheet` и `FirstOpenPaywallScreen`) добавлен пункт о возможности тренировок офлайн (`premiumSheets.features.offlineModeTitle` / `offlineModeDesc` и `firstOpenPaywall.timeline.today.benefits.offlineMode`).
+5. **Телеметрия офлайн-режима:**
+   * События: `offline_limit_modal_shown`, `offline_limit_modal_close_clicked`, `offline_limit_modal_premium_clicked`, `premium_limit_modal_purchase_success`.
+
+---
+
+## 20. Актуализация спецификаций и документации (Строго)
 
 * При любых изменениях архитектурных решений, правил именования, форматов файлов или моделей данных **обязательно немедленно обновлять соответствующие спецификации (`specs/*.md`) и данный `GEMINI.md`**.
 * Все спецификации и правила проекта **всегда обязаны поддерживаться в 100% актуальном состоянии**.
-
 

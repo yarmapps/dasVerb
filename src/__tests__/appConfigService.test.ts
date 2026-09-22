@@ -1,9 +1,11 @@
 import {
+  appConfigService,
   fetchRemoteConfig,
   getAppConfig,
   getFeaturesConfig,
   getFreeDailyQuizzesLimit,
   getMaxAdGrantsPerDayLimit,
+  isFirstOpenPaywallDisabled,
   resetAppConfigForTesting,
 } from '../services/appConfigService';
 import defaultConfig from '../../assets/app-config.json';
@@ -20,9 +22,10 @@ describe('appConfigService', () => {
     expect(getFreeDailyQuizzesLimit()).toBe(defaultConfig.features.free_daily_quizzes);
     expect(getMaxAdGrantsPerDayLimit()).toBe(defaultConfig.features.max_ad_grants_per_day);
     expect(getFeaturesConfig().disable_first_open_paywall).toBe(false);
+    expect(isFirstOpenPaywallDisabled()).toBe(false);
   });
 
-  it('should fetch and merge remote config successfully', async () => {
+  it('should fetch and merge remote config successfully within timeout', async () => {
     const mockRemote = {
       features: {
         free_daily_quizzes: 4,
@@ -36,11 +39,44 @@ describe('appConfigService', () => {
       json: jest.fn().mockResolvedValue(mockRemote),
     });
 
-    const updated = await fetchRemoteConfig('https://fake-url.com/app-config.json', 1000);
+    await appConfigService.init(500);
 
-    expect(updated.features.free_daily_quizzes).toBe(4);
+    const current = getAppConfig();
+    expect(current.features.free_daily_quizzes).toBe(4);
     expect(getFreeDailyQuizzesLimit()).toBe(4);
     expect(getMaxAdGrantsPerDayLimit()).toBe(8);
+    expect(isFirstOpenPaywallDisabled()).toBe(true);
+  });
+
+  it('should unblock on timeout (500ms) and update cache in background when slow fetch finishes', async () => {
+    let resolveSlowFetch: (value: unknown) => void;
+    const slowFetchPromise = new Promise(resolve => {
+      resolveSlowFetch = resolve;
+    });
+
+    global.fetch = jest.fn().mockReturnValue(slowFetchPromise);
+
+    const initPromise = appConfigService.init(50);
+    await initPromise;
+
+    // Timeout fired, still on default config
+    expect(getFreeDailyQuizzesLimit()).toBe(defaultConfig.features.free_daily_quizzes);
+
+    // Now slow fetch completes in the background
+    resolveSlowFetch!({
+      ok: true,
+      json: () =>
+        Promise.resolve({
+          features: {
+            free_daily_quizzes: 10,
+          },
+        }),
+    });
+
+    // Wait for microtasks
+    await new Promise(resolve => setTimeout(resolve, 50));
+
+    expect(getFreeDailyQuizzesLimit()).toBe(10);
   });
 
   it('should fallback to bundled default on network error without crashing', async () => {

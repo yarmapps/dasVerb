@@ -24,18 +24,15 @@ export function ConjugationPracticeCard({
       testID="conjugation-practice-card"
     >
       <View style={styles.iconContainer}>
-        <FontAwesome5 name="layer-group" size={20} color={colors.primary} />
+        <FontAwesome5 name="layer-group" size={18} color={colors.primary} />
       </View>
       <View style={styles.textContainer}>
-        <Text style={styles.title}>
+        <Text style={styles.title} numberOfLines={2}>
           {intl.formatMessage({ id: 'practiceScreen.conjugationBannerTitle' })}
         </Text>
         <Text style={styles.subtitle} numberOfLines={2}>
           {intl.formatMessage({ id: 'practiceScreen.conjugationBannerSubtitle' })}
         </Text>
-      </View>
-      <View style={styles.actionArrow}>
-        <FontAwesome5 name="chevron-right" size={14} color={colors.textSecondary} />
       </View>
     </TouchableOpacity>
   );

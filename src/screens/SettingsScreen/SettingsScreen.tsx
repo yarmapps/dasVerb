@@ -16,6 +16,11 @@ import { getSettings, updateSettings, resetAllSettings } from '../../services/se
 import { progressService } from '../../services/progressService';
 import { soundService } from '../../services/soundService';
 import { trackEvent } from '../../services/analyticsService';
+import { openManageSubscriptions } from '../../services/revenueCatService';
+import { openStoreReviewPage } from '../../services/reviewService';
+import { useFeatureFlag } from '../../services/featuresService';
+import { adConsentService } from '../../ads/consentService';
+import { ENABLE_ADS } from '../../ads/adConfig';
 import {
   requestPermissions,
   scheduleDailyReminder,
@@ -33,6 +38,7 @@ export function SettingsScreen(): React.JSX.Element {
   const { colors, themeMode, setThemeMode, isDark } = useAppTheme();
   const { locale } = useLocale();
   const styles = useMemo(() => createStyles(colors), [colors]);
+  const isPremiumFeatureEnabled = useFeatureFlag('ENABLE_PREMIUM');
 
   const [soundEnabled, setSoundEnabled] = useState(() => getSettings().soundEffects);
   const [notificationsEnabled, setNotificationsEnabled] = useState(
@@ -40,9 +46,6 @@ export function SettingsScreen(): React.JSX.Element {
   );
   const [speakOnCorrectAnswer, setSpeakOnCorrectAnswer] = useState(
     () => getSettings().speakOnCorrectAnswer,
-  );
-  const [ttsVoiceGender, setTtsVoiceGender] = useState<'female' | 'male'>(
-    () => getSettings().ttsVoiceGender,
   );
 
   const handleSoundToggle = (value: boolean) => {
@@ -105,14 +108,6 @@ export function SettingsScreen(): React.JSX.Element {
     }
   };
 
-  const handleVoiceGenderToggle = () => {
-    const next = ttsVoiceGender === 'female' ? 'male' : 'female';
-    trackEvent('settings_voice_gender_changed', { gender: next });
-    setTtsVoiceGender(next);
-    updateSettings({ ttsVoiceGender: next });
-    soundService.playTapSound();
-  };
-
   const currentLanguageName = useMemo(() => {
     const found = LANGUAGES.find(l => l.code === locale);
     return found ? found.name : 'English';
@@ -130,6 +125,41 @@ export function SettingsScreen(): React.JSX.Element {
   const handleContactUs = () => {
     trackEvent('settings_contact_us_clicked', {});
     Linking.openURL('mailto:yarm.apps@gmail.com');
+  };
+
+  const handleRateApp = () => {
+    soundService.playTapSound();
+    openStoreReviewPage();
+  };
+
+  const handlePrivacyPolicy = () => {
+    soundService.playTapSound();
+    trackEvent('settings_privacy_policy_clicked', {});
+    Linking.openURL('https://das-verb.yapps.studio/legal/privacy-policy.html');
+  };
+
+  const handlePrivacyOptions = async () => {
+    soundService.playTapSound();
+    try {
+      await adConsentService.showPrivacyOptions();
+    } catch {
+      Alert.alert(
+        intl.formatMessage({ id: 'settingsScreen.error' }),
+        intl.formatMessage({ id: 'settingsScreen.privacyOptionsError' }),
+      );
+    }
+  };
+
+  const handleTermsOfService = () => {
+    soundService.playTapSound();
+    trackEvent('settings_terms_of_service_clicked', {});
+    Linking.openURL('https://das-verb.yapps.studio/legal/terms-of-service.html');
+  };
+
+  const handleManageSubscription = () => {
+    soundService.playTapSound();
+    trackEvent('settings_manage_subscription_clicked', {});
+    openManageSubscriptions();
   };
 
   const handleResetProgress = () => {
@@ -175,7 +205,6 @@ export function SettingsScreen(): React.JSX.Element {
             setSoundEnabled(true);
             setNotificationsEnabled(true);
             setSpeakOnCorrectAnswer(true);
-            setTtsVoiceGender('female');
             setThemeMode('system');
             trackEvent('settings_all_reset', {});
             soundService.playTapSound();
@@ -233,13 +262,6 @@ export function SettingsScreen(): React.JSX.Element {
         return intl.formatMessage({ id: 'settingsScreen.themeSystem' });
     }
   };
-
-  const voiceGenderLabel = useMemo(() => {
-    if (ttsVoiceGender === 'female') {
-      return intl.formatMessage({ id: 'settingsScreen.voiceFemale' });
-    }
-    return intl.formatMessage({ id: 'settingsScreen.voiceMale' });
-  }, [intl, ttsVoiceGender]);
 
   return (
     <ScreenBackground>
@@ -320,30 +342,69 @@ export function SettingsScreen(): React.JSX.Element {
                 thumbColor="#ffffff"
               />,
               undefined,
-              false,
-            )}
-            {renderRow(
-              'venus-mars',
-              intl.formatMessage({ id: 'settingsScreen.voiceGender' }),
-              <View style={styles.rowRightContent}>
-                <Text style={styles.rowValue}>{voiceGenderLabel}</Text>
-                <FontAwesome5 name="chevron-right" size={12} color={colors.textMutedInverted} />
-              </View>,
-              handleVoiceGenderToggle,
               true,
             )}
           </>,
         )}
 
-        {/* SUPPORT SECTION */}
+        {/* SUBSCRIPTION SECTION */}
+        {isPremiumFeatureEnabled
+          ? renderSection(
+              intl.formatMessage({ id: 'settingsScreen.subscriptionSection' }),
+              <>
+                {renderRow(
+                  'gem',
+                  intl.formatMessage({ id: 'settingsScreen.manageSubscription' }),
+                  <FontAwesome5
+                    name="external-link-alt"
+                    size={12}
+                    color={colors.textMutedInverted}
+                  />,
+                  handleManageSubscription,
+                  true,
+                )}
+              </>,
+            )
+          : null}
+
+        {/* SUPPORT & LEGAL SECTION */}
         {renderSection(
           intl.formatMessage({ id: 'settingsScreen.supportSection' }),
           <>
+            {renderRow(
+              'star',
+              intl.formatMessage({ id: 'settingsScreen.rateApp' }),
+              <FontAwesome5 name="chevron-right" size={12} color={colors.textMutedInverted} />,
+              handleRateApp,
+              false,
+            )}
             {renderRow(
               'envelope',
               intl.formatMessage({ id: 'settingsScreen.contactUs' }),
               <FontAwesome5 name="chevron-right" size={12} color={colors.textMutedInverted} />,
               handleContactUs,
+              false,
+            )}
+            {ENABLE_ADS &&
+              renderRow(
+                'shield-alt',
+                intl.formatMessage({ id: 'settingsScreen.privacySettings' }),
+                <FontAwesome5 name="chevron-right" size={12} color={colors.textMutedInverted} />,
+                handlePrivacyOptions,
+                false,
+              )}
+            {renderRow(
+              'file-contract',
+              intl.formatMessage({ id: 'settingsScreen.termsOfService' }),
+              <FontAwesome5 name="external-link-alt" size={12} color={colors.textMutedInverted} />,
+              handleTermsOfService,
+              false,
+            )}
+            {renderRow(
+              'user-shield',
+              intl.formatMessage({ id: 'settingsScreen.privacyPolicy' }),
+              <FontAwesome5 name="external-link-alt" size={12} color={colors.textMutedInverted} />,
+              handlePrivacyPolicy,
               true,
             )}
           </>,

@@ -82,27 +82,4 @@ export const createStyles = (colors: ThemeColors) =>
       flexDirection: 'row',
       alignItems: 'center',
     },
-    rowValueContainer: {
-      flexDirection: 'row',
-      alignItems: 'center',
-    },
-    rowValue: {
-      fontSize: Typography.fontSize.md,
-      color: colors.textSecondary,
-      marginRight: Spacing.xs,
-    },
-    separator: {
-      height: 1,
-      backgroundColor: colors.blockBorder,
-    },
-    maleVoiceHintContainer: {
-      paddingTop: Spacing.xs,
-      paddingBottom: Spacing.sm,
-      paddingHorizontal: Spacing.xs,
-    },
-    maleVoiceHintText: {
-      fontSize: Typography.fontSize.xs,
-      color: colors.textMuted,
-      lineHeight: 16,
-    },
   });

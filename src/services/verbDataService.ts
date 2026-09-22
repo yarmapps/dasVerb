@@ -11,6 +11,47 @@ let initPromise: Promise<void> | null = null;
 let cachedOrderedVerbs: VerbCard[] | null = null;
 let cachedPrefixLevels: PrefixLevelData[] | null = null;
 let cachedConjugationLevels: ConjugationLevelData[] | null = null;
+let cachedVerbFormsLevels: VerbFormsLevelData[] | null = null;
+let cachedPrepositionLevels: PrepositionLevelData[] | null = null;
+
+export interface PrepositionVerbItem {
+  id: string;
+  infinitive: string;
+  prep: string;
+  case: string;
+}
+
+export interface PrepositionLevelRow {
+  id: string;
+  cefr_level: string;
+  subgroup_type: string;
+  level_number: number;
+  order_index: number;
+  title: string;
+  verbs_json: string;
+}
+
+export interface PrepositionLevelData {
+  id: string;
+  cefrLevel: string;
+  subgroupType: 'standard' | 'checkpoint' | 'final_test';
+  levelNumber: number;
+  orderIndex: number;
+  title: string;
+  verbs: PrepositionVerbItem[];
+}
+
+export function parsePrepositionLevelRow(row: PrepositionLevelRow): PrepositionLevelData {
+  return {
+    id: row.id,
+    cefrLevel: row.cefr_level,
+    subgroupType: row.subgroup_type as PrepositionLevelData['subgroupType'],
+    levelNumber: row.level_number,
+    orderIndex: row.order_index,
+    title: row.title,
+    verbs: JSON.parse(row.verbs_json),
+  };
+}
 
 export interface VerbRow {
   id: string;
@@ -69,6 +110,38 @@ export interface ConjugationLevelData {
   orderIndex: number;
   title: string;
   verbs: string[];
+}
+
+export interface VerbFormsLevelRow {
+  id: string;
+  cefr_level: string;
+  subgroup_type: string;
+  level_number: number;
+  order_index: number;
+  title: string;
+  verbs_json: string;
+}
+
+export interface VerbFormsLevelData {
+  id: string;
+  cefrLevel: string;
+  subgroupType: 'standard' | 'checkpoint' | 'final_test';
+  levelNumber: number;
+  orderIndex: number;
+  title: string;
+  verbs: string[];
+}
+
+export function parseVerbFormsLevelRow(row: VerbFormsLevelRow): VerbFormsLevelData {
+  return {
+    id: row.id,
+    cefrLevel: row.cefr_level,
+    subgroupType: row.subgroup_type as VerbFormsLevelData['subgroupType'],
+    levelNumber: row.level_number,
+    orderIndex: row.order_index,
+    title: row.title,
+    verbs: JSON.parse(row.verbs_json),
+  };
 }
 
 export function parseConjugationLevelRow(row: ConjugationLevelRow): ConjugationLevelData {
@@ -403,6 +476,102 @@ export const verbDataService = {
     return null;
   },
 
+  async getAllVerbFormsLevels(): Promise<VerbFormsLevelData[]> {
+    if (cachedVerbFormsLevels) return cachedVerbFormsLevels;
+
+    await this.init();
+    if (!db) return [];
+
+    const sql = `
+      SELECT * FROM verb_forms_levels
+      ORDER BY
+        CASE cefr_level
+          WHEN 'A1' THEN 1
+          WHEN 'A2' THEN 2
+          WHEN 'B1' THEN 3
+          WHEN 'B2' THEN 4
+          ELSE 5
+        END ASC,
+        order_index ASC
+    `;
+    const rows = await db.getAllAsync<VerbFormsLevelRow>(sql);
+    cachedVerbFormsLevels = rows.map(parseVerbFormsLevelRow);
+    return cachedVerbFormsLevels;
+  },
+
+  async getVerbFormsLevelsByCefr(cefrLevel: string): Promise<VerbFormsLevelData[]> {
+    const allLevels = await this.getAllVerbFormsLevels();
+    return allLevels.filter(lvl => lvl.cefrLevel === cefrLevel);
+  },
+
+  async getVerbFormsLevelById(id: string): Promise<VerbFormsLevelData | null> {
+    await this.init();
+    if (!db) return null;
+
+    const row = await db.getFirstAsync<VerbFormsLevelRow>(
+      'SELECT * FROM verb_forms_levels WHERE id = ?',
+      [id],
+    );
+    return row ? parseVerbFormsLevelRow(row) : null;
+  },
+
+  async getNextVerbFormsLevel(currentLevelId: string): Promise<VerbFormsLevelData | null> {
+    const all = await this.getAllVerbFormsLevels();
+    const currentIndex = all.findIndex(lvl => lvl.id === currentLevelId);
+    if (currentIndex >= 0 && currentIndex + 1 < all.length) {
+      return all[currentIndex + 1];
+    }
+    return null;
+  },
+
+  async getAllPrepositionLevels(): Promise<PrepositionLevelData[]> {
+    if (cachedPrepositionLevels) return cachedPrepositionLevels;
+
+    await this.init();
+    if (!db) return [];
+
+    const sql = `
+      SELECT * FROM preposition_levels
+      ORDER BY
+        CASE cefr_level
+          WHEN 'A1' THEN 1
+          WHEN 'A2' THEN 2
+          WHEN 'B1' THEN 3
+          WHEN 'B2' THEN 4
+          ELSE 5
+        END ASC,
+        order_index ASC
+    `;
+    const rows = await db.getAllAsync<PrepositionLevelRow>(sql);
+    cachedPrepositionLevels = rows.map(parsePrepositionLevelRow);
+    return cachedPrepositionLevels;
+  },
+
+  async getPrepositionLevelsByCefr(cefrLevel: string): Promise<PrepositionLevelData[]> {
+    const allLevels = await this.getAllPrepositionLevels();
+    return allLevels.filter(lvl => lvl.cefrLevel === cefrLevel);
+  },
+
+  async getPrepositionLevelById(id: string): Promise<PrepositionLevelData | null> {
+    await this.init();
+    if (!db) return null;
+
+    const row = await db.getFirstAsync<PrepositionLevelRow>(
+      'SELECT * FROM preposition_levels WHERE id = ?',
+      [id],
+    );
+    return row ? parsePrepositionLevelRow(row) : null;
+  },
+
+  async getNextPrepositionLevel(currentLevelId: string): Promise<PrepositionLevelData | null> {
+    const all = await this.getAllPrepositionLevels();
+    const currentIndex = all.findIndex(lvl => lvl.id === currentLevelId);
+    if (currentIndex >= 0 && currentIndex + 1 < all.length) {
+      return all[currentIndex + 1];
+    }
+    return null;
+  },
+
   async getSentencesByIds(
     entries: Array<{ verbId: string; sentenceId: string }>,
   ): Promise<Array<{ verbCard: VerbCard; sentence: VerbSentence }>> {
@@ -436,5 +605,7 @@ export const verbDataService = {
     cachedOrderedVerbs = null;
     cachedPrefixLevels = null;
     cachedConjugationLevels = null;
+    cachedVerbFormsLevels = null;
+    cachedPrepositionLevels = null;
   },
 };

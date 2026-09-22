@@ -32,9 +32,40 @@ export interface ConjugationGrammarHintData {
   ruleExplanationKey?: string;
 }
 
+export interface VerbFormsExerciseData {
+  infinitive: string;
+  correctPraeteritum: string;
+  correctAuxiliary: 'hat' | 'ist';
+  correctPartizipII: string;
+  praeteritumOptions: string[];
+  partizipIIOptions: string[];
+}
+
+export interface VerbFormsGrammarHintData {
+  infinitive: string;
+  fullChain: string;
+  verbClass: string;
+  rootVowelPattern?: string;
+  auxiliary: 'haben' | 'sein';
+  ruleExplanationKey: string;
+}
+
+export interface PrepositionGrammarHintData {
+  infinitive: string;
+  preposition: string;
+  prepositionCase: 'Akkusativ' | 'Dativ';
+  questions?: string;
+  ruleExplanationKey?: string;
+}
+
 export interface QuizExercise {
   id: string;
-  type?: 'sentence_fill' | 'prefix_dual_slot' | 'conjugation_fill';
+  type?:
+    | 'sentence_fill'
+    | 'prefix_dual_slot'
+    | 'conjugation_fill'
+    | 'verb_forms_fill'
+    | 'preposition_fill';
   label: string;
   tense: Tense;
   verbCard: VerbCard;
@@ -45,6 +76,9 @@ export interface QuizExercise {
   grammarHint?: PrefixGrammarHintData;
   conjugationRows?: ConjugationRowData[];
   conjugationGrammarHint?: ConjugationGrammarHintData;
+  verbFormsData?: VerbFormsExerciseData;
+  verbFormsGrammarHint?: VerbFormsGrammarHintData;
+  prepositionGrammarHint?: PrepositionGrammarHintData;
 }
 
 const COMMON_PREFIXES = [
@@ -970,4 +1004,797 @@ export const quizGeneratorService = {
 
     return exercises;
   },
+
+  generateVerbFormsExercises(verbs: VerbCard[], _isCheckpointOrFinal = false): QuizExercise[] {
+    const exercises: QuizExercise[] = [];
+    if (verbs.length === 0) return exercises;
+
+    const verbsList = shuffleArray([...verbs]);
+
+    verbsList.forEach((card, index) => {
+      const isReflexive = Boolean(card.morphology?.is_reflexive);
+      const isSeparable = card.morphology?.prefix_type === 'separable';
+      const prefix = card.morphology?.prefix || '';
+      const verbClass = card.morphology?.verb_class || 'strong';
+      const auxiliary = (card.auxiliary === 'sein' ? 'sein' : 'haben') as 'haben' | 'sein';
+      const correctAuxiliary = (auxiliary === 'sein' ? 'ist' : 'hat') as 'hat' | 'ist';
+
+      let correctPraeteritum = (card.principal_parts?.praeteritum_3sg || '').trim();
+      if (isReflexive && !correctPraeteritum.includes('sich')) {
+        correctPraeteritum = `${correctPraeteritum} sich`;
+      }
+
+      let correctPartizipII = (card.principal_parts?.partizip_2 || '').trim();
+      if (isReflexive && !correctPartizipII.startsWith('sich ')) {
+        correctPartizipII = `sich ${correctPartizipII}`;
+      }
+
+      // 1. Generate Präteritum distractors
+      const praetDistractors = new Set<string>();
+
+      // Heuristic A: Regular weak "-te" ending
+      const baseInf = card.infinitive
+        .replace(/^(sich|mich|dich)\s+/i, '')
+        .replace(/\s+sich$/i, '')
+        .trim();
+      const rawStem =
+        isSeparable && prefix && baseInf.startsWith(prefix)
+          ? baseInf.slice(prefix.length)
+          : baseInf;
+      const stem = rawStem.replace(/(en|n)$/, '');
+
+      if (stem.length > 1) {
+        let weakTrap = `${stem}te`;
+        if (isSeparable && prefix) {
+          weakTrap = `${stem}te ${prefix}`;
+        }
+        if (isReflexive) {
+          weakTrap = `${weakTrap} sich`;
+        }
+        if (weakTrap !== correctPraeteritum) {
+          praetDistractors.add(weakTrap);
+        }
+      }
+
+      // Heuristic B: Ablaut swap
+      const mainPraet = correctPraeteritum
+        .replace(/\s+sich$/, '')
+        .replace(new RegExp(`\\s+${prefix}$`), '');
+      const ablautReplacements: Record<string, string[]> = {
+        i: ['a', 'o'],
+        ie: ['a', 'o'],
+        a: ['e', 'o', 'u'],
+        u: ['a', 'o'],
+        o: ['a', 'e'],
+        e: ['a', 'o'],
+      };
+      for (const [vowel, replacements] of Object.entries(ablautReplacements)) {
+        if (mainPraet.includes(vowel)) {
+          for (const rep of replacements) {
+            const swapped = mainPraet.replace(vowel, rep);
+            let ablautTrap = swapped;
+            if (isSeparable && prefix) {
+              ablautTrap = `${swapped} ${prefix}`;
+            }
+            if (isReflexive) {
+              ablautTrap = `${ablautTrap} sich`;
+            }
+            if (ablautTrap !== correctPraeteritum && ablautTrap.length > 2) {
+              praetDistractors.add(ablautTrap);
+              if (praetDistractors.size >= 2) break;
+            }
+          }
+          if (praetDistractors.size >= 2) break;
+        }
+      }
+
+      // Heuristic C: Other verbs from the list
+      for (const other of verbs) {
+        if (praetDistractors.size >= 3) break;
+        if (other.infinitive.toLowerCase() === card.infinitive.toLowerCase()) continue;
+        let otherPraet = (other.principal_parts?.praeteritum_3sg || '').trim();
+        if (isReflexive && !otherPraet.includes('sich')) {
+          otherPraet = `${otherPraet} sich`;
+        } else if (!isReflexive && otherPraet.includes('sich')) {
+          otherPraet = otherPraet.replace(/\s+sich$/, '').trim();
+        }
+        if (otherPraet && otherPraet !== correctPraeteritum) {
+          praetDistractors.add(otherPraet);
+        }
+      }
+
+      // Fallback
+      const fallbackPraet = [
+        'stand',
+        'sagte',
+        'nahm',
+        'gab',
+        'sah',
+        'fuhr',
+        'blieb',
+        'hatte',
+        'kam',
+        'rief',
+      ];
+      for (const fallback of fallbackPraet) {
+        if (praetDistractors.size >= 3) break;
+        const item = isReflexive ? `${fallback} sich` : fallback;
+        if (item !== correctPraeteritum) {
+          praetDistractors.add(item);
+        }
+      }
+
+      const praeteritumOptions = shuffleArray([
+        correctPraeteritum,
+        ...Array.from(praetDistractors).slice(0, 3),
+      ]);
+
+      // 2. Generate Partizip II distractors
+      const part2Distractors = new Set<string>();
+      const corePart2 = correctPartizipII.replace(/^sich\s+/, '');
+
+      // Heuristic A: Weak vs strong ending swap
+      if (corePart2.endsWith('en')) {
+        const weakTrap = `${corePart2.slice(0, -2)}t`;
+        const fullWeakTrap = isReflexive ? `sich ${weakTrap}` : weakTrap;
+        if (fullWeakTrap !== correctPartizipII) {
+          part2Distractors.add(fullWeakTrap);
+        }
+      } else if (corePart2.endsWith('t')) {
+        const strongTrap = `${corePart2.slice(0, -1)}en`;
+        const fullStrongTrap = isReflexive ? `sich ${strongTrap}` : strongTrap;
+        if (fullStrongTrap !== correctPartizipII) {
+          part2Distractors.add(fullStrongTrap);
+        }
+      }
+
+      // Heuristic B: Prefix / ge- placement trap
+      if (isSeparable && prefix && corePart2.includes(prefix)) {
+        const afterPrefix = corePart2.slice(prefix.length).replace(/^ge/, '');
+        const wrongGeTrap = `ge${prefix}${afterPrefix}`;
+        const fullWrongGe = isReflexive ? `sich ${wrongGeTrap}` : wrongGeTrap;
+        if (fullWrongGe !== correctPartizipII) {
+          part2Distractors.add(fullWrongGe);
+        }
+      } else if (
+        corePart2.startsWith('ver') ||
+        corePart2.startsWith('be') ||
+        corePart2.startsWith('er')
+      ) {
+        const redundantGeTrap = `ge${corePart2}`;
+        const fullRedundantGe = isReflexive ? `sich ${redundantGeTrap}` : redundantGeTrap;
+        if (fullRedundantGe !== correctPartizipII) {
+          part2Distractors.add(fullRedundantGe);
+        }
+      } else if (corePart2.startsWith('ge')) {
+        const noGeTrap = corePart2.slice(2);
+        if (noGeTrap.length > 2) {
+          const fullNoGe = isReflexive ? `sich ${noGeTrap}` : noGeTrap;
+          if (fullNoGe !== correctPartizipII) {
+            part2Distractors.add(fullNoGe);
+          }
+        }
+      }
+
+      // Heuristic C: Other verbs from the list
+      for (const other of verbs) {
+        if (part2Distractors.size >= 3) break;
+        if (other.infinitive.toLowerCase() === card.infinitive.toLowerCase()) continue;
+        let otherPart2 = (other.principal_parts?.partizip_2 || '').trim();
+        if (isReflexive && !otherPart2.startsWith('sich ')) {
+          otherPart2 = `sich ${otherPart2}`;
+        } else if (!isReflexive && otherPart2.startsWith('sich ')) {
+          otherPart2 = otherPart2.replace(/^sich\s+/, '').trim();
+        }
+        if (otherPart2 && otherPart2 !== correctPartizipII) {
+          part2Distractors.add(otherPart2);
+        }
+      }
+
+      // Fallback
+      const fallbackPart2 = [
+        'gesagt',
+        'genommen',
+        'gegeben',
+        'geblieben',
+        'gemacht',
+        'gefahren',
+        'gekommen',
+        'gesehen',
+      ];
+      for (const fallback of fallbackPart2) {
+        if (part2Distractors.size >= 3) break;
+        const item = isReflexive ? `sich ${fallback}` : fallback;
+        if (item !== correctPartizipII) {
+          part2Distractors.add(item);
+        }
+      }
+
+      const partizipIIOptions = shuffleArray([
+        correctPartizipII,
+        ...Array.from(part2Distractors).slice(0, 3),
+      ]);
+
+      // Vowel pattern derivation
+      const extractVowel = (word: string): string | null => {
+        const clean = word
+          .toLowerCase()
+          .replace(/^(ge|be|ver|er|zer|ent|emp|miss|an|auf|aus|ein|mit|ab|zu)/, '');
+        const match = clean.match(/(ei|ie|au|eu|äu|[aeiouäöü])/);
+        return match ? match[1] : null;
+      };
+
+      const v1 = extractVowel(card.infinitive);
+      const v2 = extractVowel(correctPraeteritum);
+      const v3 = extractVowel(correctPartizipII);
+      const rootVowelPattern =
+        v1 && v2 && v3 && (v1 !== v2 || v2 !== v3) ? `${v1} → ${v2} → ${v3}` : undefined;
+
+      let ruleExplanationKey = 'verbFormsGrammarHint.weakVerbRule';
+      if (auxiliary === 'sein') {
+        ruleExplanationKey = 'verbFormsGrammarHint.seinRule';
+      } else if (verbClass === 'strong') {
+        ruleExplanationKey = 'verbFormsGrammarHint.strongVerbRule';
+      } else if (verbClass === 'mixed') {
+        ruleExplanationKey = 'verbFormsGrammarHint.mixedVerbRule';
+      }
+
+      const translation = card.translation || { ru: '', en: '' };
+      const fullChain = `${card.infinitive} — ${correctPraeteritum} — ${correctAuxiliary} ${correctPartizipII}`;
+
+      const dummySentence: VerbSentence = {
+        id: `verb_forms_${card.id || card.infinitive}_${index}`,
+        tense: 'Perfekt',
+        german: fullChain,
+        translation,
+      };
+
+      const gaps: QuizGap[] = [
+        {
+          id: `gap_praeteritum`,
+          correctValue: correctPraeteritum,
+          options: praeteritumOptions,
+        },
+        {
+          id: `gap_auxiliary`,
+          correctValue: correctAuxiliary,
+          options: ['hat', 'ist'],
+        },
+        {
+          id: `gap_partizip_2`,
+          correctValue: correctPartizipII,
+          options: partizipIIOptions,
+        },
+      ];
+
+      const segments: SentenceSegment[] = [
+        { gapIndex: 0 },
+        { text: ' — ' },
+        { gapIndex: 1 },
+        { text: ' ' },
+        { gapIndex: 2 },
+      ];
+
+      exercises.push({
+        id: `verb_forms_exercise_${card.id || card.infinitive}_${index}`,
+        type: 'verb_forms_fill',
+        label: `${card.level} · ${card.infinitive.toUpperCase()} · 3 VERB FORMS`,
+        tense: 'Perfekt',
+        verbCard: card,
+        sentence: dummySentence,
+        segments,
+        gaps,
+        translation,
+        verbFormsData: {
+          infinitive: card.infinitive,
+          correctPraeteritum,
+          correctAuxiliary,
+          correctPartizipII,
+          praeteritumOptions,
+          partizipIIOptions,
+        },
+        verbFormsGrammarHint: {
+          infinitive: card.infinitive,
+          fullChain,
+          verbClass,
+          rootVowelPattern,
+          auxiliary,
+          ruleExplanationKey,
+        },
+      });
+    });
+
+    return exercises;
+  },
+
+  generatePrepositionExercises(cards: VerbCard[]): QuizExercise[] {
+    const exercises: QuizExercise[] = [];
+
+    cards.forEach((card, cardIndex) => {
+      const prep = card.rektion?.preposition;
+      const prepositionCase: 'Akkusativ' | 'Dativ' =
+        card.rektion?.preposition_case === 'Akkusativ' ? 'Akkusativ' : 'Dativ';
+      if (!prep) return;
+
+      const matchingSentences: Array<{
+        sentence: VerbSentence;
+        matchResult: PrepositionMatchResult;
+      }> = [];
+
+      for (const sentenceItem of card.sentences || []) {
+        const matchResult = findPrepositionMatch(sentenceItem.german, prep);
+        if (matchResult) {
+          matchingSentences.push({ sentence: sentenceItem, matchResult });
+        }
+      }
+
+      if (matchingSentences.length === 0) return;
+
+      const randomIdx = Math.floor(Math.random() * matchingSentences.length);
+      const { sentence, matchResult } = matchingSentences[randomIdx];
+
+      const distractors = generatePrepositionDistractors(
+        matchResult.matchedText,
+        prep,
+        prepositionCase,
+        matchResult.isFused,
+        matchResult.hasArticle,
+        matchResult.article,
+      );
+
+      const options = shuffleArray([matchResult.matchedText, ...distractors]);
+
+      const beforeText = sentence.german.slice(0, matchResult.index);
+      const afterText = sentence.german.slice(matchResult.index + matchResult.matchedText.length);
+
+      const segments: SentenceSegment[] = [];
+      if (beforeText.trim().length > 0) {
+        segments.push(...splitTextIntoWordSegments(beforeText));
+      }
+      segments.push({ gapIndex: 0 });
+      if (afterText.trim().length > 0) {
+        segments.push(...splitTextIntoWordSegments(afterText));
+      }
+
+      const gaps: QuizGap[] = [
+        {
+          id: `gap_preposition_${cardIndex}`,
+          correctValue: matchResult.matchedText,
+          options,
+        },
+      ];
+
+      const questions = getPrepositionQuestions(prep, prepositionCase, card.infinitive);
+
+      exercises.push({
+        id: `preposition_exercise_${card.id || card.infinitive}_${cardIndex}`,
+        type: 'preposition_fill',
+        label: `${card.level} · ${card.infinitive.toUpperCase()} · PREPOSITION`,
+        tense: sentence.tense,
+        verbCard: card,
+        sentence,
+        segments,
+        gaps,
+        translation: sentence.translation || card.translation || {},
+        prepositionGrammarHint: {
+          infinitive: card.infinitive,
+          preposition: prep,
+          prepositionCase,
+          questions,
+        },
+      });
+    });
+
+    return exercises;
+  },
 };
+
+const PREP_FUSIONS: Record<
+  string,
+  Record<string, { article: string; case: 'Akkusativ' | 'Dativ' }>
+> = {
+  an: { am: { article: 'dem', case: 'Dativ' }, ans: { article: 'das', case: 'Akkusativ' } },
+  in: { im: { article: 'dem', case: 'Dativ' }, ins: { article: 'das', case: 'Akkusativ' } },
+  von: { vom: { article: 'dem', case: 'Dativ' } },
+  zu: { zum: { article: 'dem', case: 'Dativ' }, zur: { article: 'der', case: 'Dativ' } },
+  bei: { beim: { article: 'dem', case: 'Dativ' } },
+  auf: { aufs: { article: 'das', case: 'Akkusativ' } },
+  für: { fürs: { article: 'das', case: 'Akkusativ' } },
+  um: { ums: { article: 'das', case: 'Akkusativ' } },
+  über: { übers: { article: 'das', case: 'Akkusativ' } },
+  unter: {
+    unterm: { article: 'dem', case: 'Dativ' },
+    unters: { article: 'das', case: 'Akkusativ' },
+  },
+  vor: { vorm: { article: 'dem', case: 'Dativ' }, vors: { article: 'das', case: 'Akkusativ' } },
+  hinter: {
+    hinterm: { article: 'dem', case: 'Dativ' },
+    hinters: { article: 'das', case: 'Akkusativ' },
+  },
+  durch: { durchs: { article: 'das', case: 'Akkusativ' } },
+};
+
+const ARTICLE_DETERMINERS = new Set([
+  'der',
+  'die',
+  'das',
+  'den',
+  'dem',
+  'des',
+  'ein',
+  'eine',
+  'einen',
+  'einem',
+  'einer',
+  'eines',
+  'kein',
+  'keine',
+  'keinen',
+  'keinem',
+  'keiner',
+  'keines',
+  'mein',
+  'meine',
+  'meinen',
+  'meinem',
+  'meiner',
+  'dein',
+  'deine',
+  'deinen',
+  'deinem',
+  'deiner',
+  'sein',
+  'seine',
+  'seinen',
+  'seinem',
+  'seiner',
+  'ihr',
+  'ihre',
+  'ihren',
+  'ihrem',
+  'ihrer',
+  'unser',
+  'unsere',
+  'unseren',
+  'unserem',
+  'unserer',
+  'euer',
+  'eure',
+  'euren',
+  'eurem',
+  'eurer',
+  'dieser',
+  'diese',
+  'dieses',
+  'diesen',
+  'diesem',
+]);
+
+const ARTICLE_CASE_MAP: Record<string, string> = {
+  // Masc: Akk <-> Dat
+  den: 'dem',
+  dem: 'den',
+  einen: 'einem',
+  einem: 'einen',
+  keinen: 'keinem',
+  keinem: 'keinen',
+  meinen: 'meinem',
+  meinem: 'meinen',
+  deinen: 'deinem',
+  deinem: 'deinen',
+  seinen: 'seinem',
+  seinem: 'seinen',
+  ihren: 'ihrem',
+  ihrem: 'ihren',
+  unseren: 'unserem',
+  unserem: 'unseren',
+  euren: 'eurem',
+  eurem: 'euren',
+  diesen: 'diesem',
+  diesem: 'diesen',
+
+  // Fem: Akk <-> Dat
+  die: 'der',
+  der: 'die',
+  eine: 'einer',
+  einer: 'eine',
+  keine: 'keiner',
+  keiner: 'keine',
+  meine: 'meiner',
+  meiner: 'meine',
+  deine: 'deiner',
+  deiner: 'deine',
+  seine: 'seiner',
+  seiner: 'seine',
+  ihre: 'ihrer',
+  ihrer: 'ihre',
+  unsere: 'unserer',
+  unserer: 'unsere',
+  eure: 'eurer',
+  eurer: 'eure',
+  diese: 'dieser',
+  dieser: 'diese',
+
+  // Neuter: Akk <-> Dat
+  das: 'dem',
+  ein: 'einem',
+  kein: 'keinem',
+  mein: 'meinem',
+  dein: 'deinem',
+  sein: 'seinem',
+  ihr: 'ihrem',
+  unser: 'unserem',
+  euer: 'eurem',
+  dieses: 'diesem',
+};
+
+const FUSED_DAT = ['am', 'im', 'vom', 'beim', 'zum', 'zur'];
+const FUSED_AKK = ['ans', 'ins', 'aufs', 'fürs', 'ums'];
+
+const DIRECTIONAL_VERBS = new Set([
+  'gehen',
+  'kommen',
+  'fahren',
+  'fliegen',
+  'laufen',
+  'reisen',
+  'ziehen',
+  'steigen',
+  'einsteigen',
+  'umsteigen',
+  'aussteigen',
+  'treten',
+  'geraten',
+  'bringen',
+  'stellen',
+  'legen',
+  'setzen',
+]);
+
+const LOCATION_VERBS = new Set([
+  'wohnen',
+  'leben',
+  'bleiben',
+  'sein',
+  'arbeiten',
+  'liegen',
+  'stehen',
+  'sitzen',
+  'stecken',
+  'befinden sich',
+  'sich befinden',
+]);
+
+const ORIGIN_VERBS = new Set(['kommen', 'stammen', 'abstammen']);
+
+function getPrepositionQuestions(
+  prep: string,
+  prepositionCase: 'Akkusativ' | 'Dativ',
+  infinitive?: string,
+): string {
+  const p = prep.toLowerCase();
+  const inf = infinitive ? infinitive.toLowerCase().replace(/^sich\s+|\s+sich$/g, '') : '';
+  const isDirectional = DIRECTIONAL_VERBS.has(inf);
+  const isLocation = LOCATION_VERBS.has(inf);
+  const isOrigin = ORIGIN_VERBS.has(inf);
+  const capitalizedPrep = prep.charAt(0).toUpperCase() + prep.slice(1);
+  const personQ =
+    prepositionCase === 'Akkusativ' ? `${capitalizedPrep} wen?` : `${capitalizedPrep} wem?`;
+
+  if (p === 'in') {
+    if (prepositionCase === 'Akkusativ') {
+      return `Wohin? / ${personQ}`;
+    }
+    return `Wo? / ${personQ}`;
+  }
+
+  if (p === 'nach') {
+    if (isDirectional) {
+      return 'Wohin?';
+    }
+    return `Wonach? / ${personQ}`;
+  }
+
+  if (p === 'aus') {
+    if (isOrigin || isDirectional) {
+      return `Woher? / ${personQ}`;
+    }
+    return `Woraus? / ${personQ}`;
+  }
+
+  if (p === 'zu') {
+    if (isDirectional) {
+      return `Wohin? / ${personQ}`;
+    }
+    return `Wozu? / ${personQ}`;
+  }
+
+  if (p === 'von') {
+    if (isOrigin) {
+      return `Woher? / ${personQ}`;
+    }
+    return `Wovon? / ${personQ}`;
+  }
+
+  if (p === 'an') {
+    if (prepositionCase === 'Akkusativ') {
+      return isDirectional ? `Wohin? / ${personQ}` : `Woran? / ${personQ}`;
+    }
+    return isLocation ? `Wo? / ${personQ}` : `Woran? / ${personQ}`;
+  }
+
+  if (p === 'auf') {
+    if (prepositionCase === 'Akkusativ') {
+      return isDirectional ? `Wohin? / ${personQ}` : `Worauf? / ${personQ}`;
+    }
+    return isLocation ? `Wo? / ${personQ}` : `Worauf? / ${personQ}`;
+  }
+
+  if (p === 'bei') {
+    return `Wo? / ${personQ}`;
+  }
+
+  const woPrefix = /^[aeiouäöü]/i.test(p) ? 'wor' : 'wo';
+  const thingQ = `${woPrefix}${p}?`;
+  const capitalizedThing = thingQ.charAt(0).toUpperCase() + thingQ.slice(1);
+  return `${capitalizedThing} / ${personQ}`;
+}
+
+interface PrepositionMatchResult {
+  matchedText: string;
+  index: number;
+  isFused: boolean;
+  hasArticle: boolean;
+  article?: string;
+  prep: string;
+}
+
+function findPrepositionMatch(sentence: string, prep: string): PrepositionMatchResult | null {
+  const prepFusions = PREP_FUSIONS[prep.toLowerCase()] || {};
+  for (const fused of Object.keys(prepFusions)) {
+    const fusedRegex = new RegExp(`(?<=^|[\\s"«»(,\\[])${fused}(?=$|[\\s"«»),.\\]!?])`, 'iu');
+    const match = fusedRegex.exec(sentence);
+    if (match) {
+      return {
+        matchedText: match[0],
+        index: match.index,
+        isFused: true,
+        hasArticle: false,
+        prep,
+      };
+    }
+  }
+
+  const directRegex = new RegExp(`(?<=^|[\\s"«»(,\\[])${prep}(?=$|[\\s"«»),.\\]!?])`, 'iu');
+  const match = directRegex.exec(sentence);
+  if (match) {
+    const afterIndex = match.index + match[0].length;
+    const remaining = sentence.slice(afterIndex);
+    const nextWordMatch = /^\s+([a-zA-ZäöüÄÖÜß]+)/u.exec(remaining);
+    if (nextWordMatch) {
+      const nextWord = nextWordMatch[1];
+      if (ARTICLE_DETERMINERS.has(nextWord.toLowerCase())) {
+        return {
+          matchedText: `${match[0]} ${nextWord}`,
+          index: match.index,
+          isFused: false,
+          hasArticle: true,
+          article: nextWord,
+          prep: match[0],
+        };
+      }
+    }
+    return {
+      matchedText: match[0],
+      index: match.index,
+      isFused: false,
+      hasArticle: false,
+      prep: match[0],
+    };
+  }
+
+  return null;
+}
+
+function generatePrepositionDistractors(
+  targetText: string,
+  prep: string,
+  prepositionCase: 'Akkusativ' | 'Dativ',
+  isFused: boolean,
+  hasArticle: boolean,
+  article?: string,
+): string[] {
+  const distractors = new Set<string>();
+  const lowerPrep = prep.toLowerCase();
+  const isAkk = prepositionCase === 'Akkusativ';
+
+  if (isFused) {
+    const targetLower = targetText.toLowerCase();
+    const isTargetDat = FUSED_DAT.includes(targetLower);
+    const oppositeList = isTargetDat ? FUSED_AKK : FUSED_DAT;
+    const sameList = isTargetDat ? FUSED_DAT : FUSED_AKK;
+
+    for (const opp of oppositeList) {
+      if (opp !== targetLower) {
+        distractors.add(opp);
+        break;
+      }
+    }
+    for (const s of sameList) {
+      if (s !== targetLower && !distractors.has(s)) {
+        distractors.add(s);
+        if (distractors.size >= 2) break;
+      }
+    }
+    for (const opp of oppositeList) {
+      if (opp !== targetLower && !distractors.has(opp)) {
+        distractors.add(opp);
+        if (distractors.size >= 3) break;
+      }
+    }
+  } else if (hasArticle && article) {
+    const artLower = article.toLowerCase();
+    const defaultFallback = isAkk ? 'dem' : 'den';
+    const swappedArticle = ARTICLE_CASE_MAP[artLower] || defaultFallback;
+
+    // Trap 1: same prep, wrong case
+    const trap1 = `${prep} ${swappedArticle}`;
+    if (trap1.toLowerCase() !== targetText.toLowerCase()) {
+      distractors.add(trap1);
+    }
+
+    // Trap 2: alt prep, same case
+    const sameCasePool = isAkk
+      ? ['an', 'auf', 'über', 'für', 'in', 'um'].filter(p => p !== lowerPrep)
+      : ['von', 'mit', 'zu', 'bei', 'an', 'in', 'nach'].filter(p => p !== lowerPrep);
+
+    for (const altPrep of sameCasePool) {
+      const candidate = `${altPrep} ${article}`;
+      if (candidate.toLowerCase() !== targetText.toLowerCase() && !distractors.has(candidate)) {
+        distractors.add(candidate);
+        break;
+      }
+    }
+
+    // Trap 3: alt prep, wrong case
+    const wrongCasePool = isAkk
+      ? ['mit', 'von', 'zu', 'bei', 'an', 'in'].filter(p => p !== lowerPrep)
+      : ['für', 'über', 'um', 'auf', 'an'].filter(p => p !== lowerPrep);
+
+    for (const altPrep of wrongCasePool) {
+      const candidate = `${altPrep} ${swappedArticle}`;
+      if (candidate.toLowerCase() !== targetText.toLowerCase() && !distractors.has(candidate)) {
+        distractors.add(candidate);
+        break;
+      }
+    }
+
+    // Fallback if needed to reach 3
+    const allPool = ['auf', 'an', 'für', 'mit', 'über', 'von', 'in', 'zu', 'bei'];
+    for (const p of allPool) {
+      if (distractors.size >= 3) break;
+      const c1 = `${p} ${article}`;
+      if (c1.toLowerCase() !== targetText.toLowerCase() && !distractors.has(c1)) {
+        distractors.add(c1);
+      }
+      if (distractors.size >= 3) break;
+      const c2 = `${p} ${swappedArticle}`;
+      if (c2.toLowerCase() !== targetText.toLowerCase() && !distractors.has(c2)) {
+        distractors.add(c2);
+      }
+    }
+  } else {
+    // Preposition only
+    const pool = isAkk
+      ? ['über', 'für', 'an', 'auf', 'in', 'mit', 'von', 'zu', 'nach', 'um']
+      : ['mit', 'von', 'zu', 'bei', 'nach', 'auf', 'an', 'für', 'über', 'in'];
+    for (const p of pool) {
+      if (p !== lowerPrep && !distractors.has(p)) {
+        distractors.add(p);
+        if (distractors.size >= 3) break;
+      }
+    }
+  }
+
+  return Array.from(distractors).slice(0, 3);
+}

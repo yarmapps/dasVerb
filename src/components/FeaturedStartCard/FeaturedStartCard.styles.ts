@@ -14,11 +14,6 @@ export const createStyles = (colors: ThemeColors) =>
       position: 'relative',
       borderWidth: 1,
       borderColor: colors.blockBorder,
-      shadowColor: '#000',
-      shadowOffset: { width: 0, height: 4 },
-      shadowOpacity: 0.08,
-      shadowRadius: 10,
-      elevation: 3,
     },
     featuredBackground: {
       ...StyleSheet.absoluteFillObject,

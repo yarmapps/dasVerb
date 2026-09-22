@@ -55,7 +55,19 @@
     "startNow": "Rozpocznij",
     "smartQuizBadge": "Inteligentny tryb",
     "smartQuizTitle": "Inteligentny algorytm",
-    "smartQuizSubtitle": "Skup się na błędach i ucz się 3 razy szybciej"
+    "smartQuizSubtitle": "Skup się na błędach i ucz się 3 razy szybciej",
+    "prefixBannerBadge": "A1 – B2",
+    "prefixBannerTitle": "Czasowniki z przedrostkami",
+    "prefixBannerSubtitle": "Przedrostki rozdzielne, nierozdzielne i podwójne",
+    "conjugationBannerTitle": "Trener koniugacji",
+    "conjugationBannerSubtitle": "Ćwicz formy czasowników dla wszystkich zaimków w Präsens",
+    "verbFormsBannerTitle": "Czasowniki nieregularne",
+    "verbFormsBannerSubtitle": "Trening Infinitiv – Präteritum – Perfekt",
+    "prepositionsBannerTitle": "Czasowniki z przyimkami",
+    "prepositionsBannerSubtitle": "Opanuj przyimki i przypadki czasowników",
+    "adBadge": "Reklama",
+    "sectionModes": "Według trybów",
+    "sectionTopics": "Według tematów"
   },
   "categories": {
     "sectionTitle": "Tematy i kategorie",
@@ -133,11 +145,28 @@
     "voiceMale": "Męski",
     "maleVoiceHint": "Aby używać męskiego głosu niemieckiego, zainstaluj go w Ustawienia iOS → Dostępność → Przeczytaj zawartość → Głosy → Niemiecki.",
     "contactUs": "Kontakt",
+    "subscriptionSection": "SUBSKRYPCJA",
+    "manageSubscription": "Zarządzaj subskrypcją",
+    "rateApp": "Oceń aplikację",
+    "privacyPolicy": "Polityka prywatności",
+    "termsOfService": "Warunki korzystania",
     "version": "Wersja",
     "notificationsPermissionRequiredTitle": "Włącz powiadomienia",
     "notificationsPermissionRequiredMessage": "Aby otrzymywać codzienne przypomnienia o nauce i passie, włącz powiadomienia w ustawieniach urządzenia.",
     "openSettings": "Ustawienia",
-    "cancel": "Anuluj"
+    "cancel": "Anuluj",
+    "dataSection": "ZARZĄDZANIE DANYMI",
+    "resetProgress": "Zresetuj postępy w nauce",
+    "resetProgressTitle": "Zresetować postępy w nauce?",
+    "resetProgressMessage": "Cały Twój postęp w nauce czasowników i poziomów z przedrostkami zostanie trwale usunięty. Tej operacji nie można cofnąć.",
+    "resetProgressConfirm": "Zresetuj postęp",
+    "resetProgressSuccess": "Postępy w nauce zostały zresetowane.",
+    "resetSettings": "Zresetuj ustawienia aplikacji",
+    "resetSettingsTitle": "Zresetować ustawienia aplikacji?",
+    "resetSettingsMessage": "Wszystkie ustawienia dźwięku, motywu i powiadomień zostaną przywrócone do wartości domyślnych. Twój postęp w nauce zostanie zachowany.",
+    "resetSettingsConfirm": "Zresetuj ustawienia",
+    "resetSettingsSuccess": "Ustawienia zostały przywrócone do wartości domyślnych.",
+    "resetSuccessTitle": "Gotowe"
   },
   "quizSettingsModal": {
     "title": "Ustawienia testu"
@@ -152,12 +181,112 @@
     "trophy": "Puchar",
     "empty": "Nie znaleziono czasowników",
     "checkpointTitle": "Test kontrolny",
-    "finalTestTitle": "Test końcowy"
+    "finalTestTitle": "Test końcowy",
+    "finalTestTitleWithLevel": "Test końcowy {level}",
+    "finalTestSubtitle": "Obszerny test z 20 pytań dla tego poziomu",
+    "categoryFinalTestSubtitle": "Obszerny test z 20 pytań dla tego tematu",
+    "checkpointSubtitle": "Czasowniki {from} – {to}"
+  },
+  "prefixPracticeListScreen": {
+    "title": "Czasowniki z przedrostkami",
+    "levelNumber": "Poziom {number}",
+    "checkpointTitle": "Punkt kontrolny {level}",
+    "checkpointSubtitle": "Obszerny test z 20 pytań dla tego poziomu",
+    "subgroupSeparable": "Przedrostki rozdzielne",
+    "subgroupInseparable": "Przedrostki nierozdzielne",
+    "subgroupOpposites": "Pary antonimów",
+    "subgroupDual": "Przedrostki podwójne"
+  },
+  "prefixPractice": {
+    "title": "Czasowniki z przedrostkami",
+    "levelTitle": "Poziom {number}",
+    "checkpointTitle": "Punkt kontrolny {level}"
+  },
+  "prefixGrammarHint": {
+    "separableTitle": "Przedrostek rozdzielny",
+    "inseparableTitle": "Przedrostek nierozdzielny",
+    "dualTitle": "Przedrostek podwójny",
+    "separableRule": "W Präsens i Präteritum przedrostek rozdzielny przesuwa się na sam koniec zdania.",
+    "inseparableRule": "Przedrostki nierozdzielne (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) nigdy nie oddzielają się od rdzenia.",
+    "dualRule": "Przedrostki takie jak über-, um-, unter-, durch- mogą być rozdzielne lub nierozdzielne w zależności od znaczenia."
+  },
+  "conjugationPracticeListScreen": {
+    "title": "Trener koniugacji",
+    "levelNumber": "Poziom {number}",
+    "checkpointTitle": "Punkt kontrolny {number}",
+    "checkpointSubtitle": "Quiz powtórkowy z 10 losowymi czasownikami",
+    "finalTestTitle": "Test końcowy {level}",
+    "finalTestSubtitle": "Obszerny test z 15 czasowników dla tego poziomu"
+  },
+  "conjugationPractice": {
+    "title": "Koniugacja",
+    "levelTitle": "Poziom {number}",
+    "checkpointNumberTitle": "Punkt kontrolny {number}",
+    "finalTestTitle": "Test końcowy {level}"
+  },
+  "conjugationGrammarHint": {
+    "ruleTag": "Wymiana samogłosek",
+    "eToIRule": "Wymiana samogłosek e → i w 2. i 3. osobie liczby pojedynczej (du, er/sie/es).",
+    "eToIeRule": "Wymiana samogłosek e → ie w 2. i 3. osobie liczby pojedynczej (du, er/sie/es).",
+    "aToAeRule": "Wymiana samogłosek a → ä w 2. i 3. osobie liczby pojedynczej (du, er/sie/es).",
+    "auToAeuRule": "Wymiana samogłosek au → äu w 2. i 3. osobie liczby pojedynczej (du, er/sie/es)."
+  },
+  "verbFormsPracticeListScreen": {
+    "title": "Czasowniki nieregularne",
+    "levelNumber": "Poziom {number}",
+    "checkpointTitle": "Punkt kontrolny {number}",
+    "checkpointSubtitle": "Quiz powtórkowy z 10 losowymi czasownikami",
+    "finalTestTitle": "Test końcowy {level}",
+    "finalTestSubtitle": "Obszerny test z 15 czasowników dla tego poziomu"
+  },
+  "verbFormsPractice": {
+    "title": "Czasowniki nieregularne",
+    "levelTitle": "Poziom {number}",
+    "checkpointNumberTitle": "Punkt kontrolny {number}",
+    "finalTestTitle": "Test końcowy {level}"
+  },
+  "verbFormsGrammarHint": {
+    "ruleTag": "Reguła gramatyczna",
+    "strongVerbTag": "Czasownik mocny",
+    "weakVerbTag": "Czasownik słaby",
+    "mixedVerbTag": "Czasownik mieszany",
+    "irregularVerbTag": "Czasownik nieregularny",
+    "modalVerbTag": "Czasownik modalny",
+    "seinRule": "Czasowniki ruchu, zmiany stanu oraz sein/bleiben tworzą Perfekt z «sein».",
+    "habenRule": "Czasowniki przechodnie, zwrotne i określające stan tworzą Perfekt z «haben».",
+    "strongVerbRule": "Czasowniki mocne zmieniają samogłoskę rdzenną w Präteritum i kończą się na -en w Partizip II.",
+    "weakVerbRule": "Regularne czasowniki słabe dodają -te w Präteritum i ge-...-t w Partizip II.",
+    "mixedVerbRule": "Czasowniki mieszane łączą wymianę samogłoski z regularnymi końcówkami -te i -t."
+  },
+  "verbFormsExercise": {
+    "infinitive": "Bezokolicznik",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt"
+  },
+  "prepositionsPracticeListScreen": {
+    "title": "Czasowniki z przyimkami",
+    "levelNumber": "Poziom {number}",
+    "checkpointTitle": "Punkt kontrolny {number}",
+    "checkpointSubtitle": "Quiz powtórkowy z 10 losowymi czasownikami",
+    "finalTestTitle": "Test końcowy {level}",
+    "finalTestSubtitle": "Obszerny test z 15 czasowników dla tego poziomu"
+  },
+  "prepositionsPractice": {
+    "title": "Przyimki",
+    "levelTitle": "Poziom {number}",
+    "checkpointNumberTitle": "Punkt kontrolny {number}",
+    "finalTestTitle": "Test końcowy {level}"
+  },
+  "prepositionGrammarHint": {
+    "ruleTag": "Rekcja przyimkowa",
+    "questionLabel": "Pytanie do dopełnienia:"
   },
   "verbQuizScreen": {
     "title": "Ćwiczenia",
     "checkpointQuizTitle": "Test kontrolny",
     "smartQuizTitle": "Inteligentny quiz",
+    "conjugateVerbTitle": "Odmień czasownik {verb}",
+    "prepositionTaskTitle": "Wybierz przyimek",
     "level": "Poziom",
     "check": "Sprawdź",
     "continue": "Dalej",
@@ -185,18 +314,21 @@
     "tryAgain": "Spróbuj ponownie",
     "verbsList": "Do listy czasowników",
     "backToPractice": "Powrót do ćwiczeń",
-    "scoreSummary": "{correct} z {total}"
+    "scoreSummary": "{correct} z {total}",
+    "showCorrectAnswers": "Pokaż poprawne odpowiedzi",
+    "showAllAnswers": "Pokaż wszystkie odpowiedzi",
+    "showErrorsOnly": "Pokaż tylko błędy"
   },
   "dailyQuizLimitModal": {
-    "title": "Niesamowity postęp!",
-    "message": "Jesteś naprawdę zdeterminowany, by uczyć się niemieckiego!",
+    "title": "Tak trzymaj!",
+    "message": "Naprawdę zależy Ci na nauce niemieckiego!",
     "instructions": "Jak chcesz kontynuować?",
     "videoButton": "Obejrzyj reklamy",
     "or": "lub",
     "premiumButtonWithTrial": "Bezpłatne nieograniczone poziomy\nna {daysLabel}",
-    "premiumButtonNoTrial": "Kup Premium",
-    "premiumButtonSubtitleWithTrial": "potem {yearlyPrice}/rok (☕️ / mies.)",
-    "premiumButtonSubtitleNoTrial": "{yearlyPrice}/rok (☕️ / mies.)",
+    "premiumButtonNoTrial": "Bez reklam",
+    "premiumButtonSubtitleWithTrial": "potem {yearlyPrice} za 3 miesiące (☕️ / mies.)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} za 3 miesiące (☕️ / mies.)",
     "waitUntilTomorrow": "Poczekaj do jutra",
     "cancelAnytime": "Anuluj w dowolnym momencie"
   },
@@ -222,6 +354,8 @@
     },
     "periodMonth": "mies.",
     "periodYear": "rok",
+    "period3Months": "3 miesiące",
+    "period6Months": "6 miesięcy",
     "restorePurchases": "Przywróć zakupy",
     "errorTitle": "Błąd",
     "errorUnavailable": "Ten plan jest obecnie niedostępny. Spróbuj ponownie później.",
@@ -241,7 +375,11 @@
       "perMonth": "{price}/mies.",
       "lifetimeLabel": "Na zawsze",
       "lifetimePer": "Jednorazowo",
-      "lifetimeBadge": "JEDNORAZOWO"
+      "lifetimeBadge": "JEDNORAZOWO",
+      "threeMonthLabel": "3 Miesiące",
+      "sixMonthLabel": "6 Miesięcy",
+      "bestValueBadge": "NAJLEPSZA OFERTA",
+      "popularBadge": "POPULARNY"
     },
     "features": {
       "noAdsTitle": "Zero reklam",
@@ -264,7 +402,10 @@
       "unlimitedCustomListsAndWordsDescription": "Dodawaj nielimitowaną liczbę słów i ćwicz dokładnie to słownictwo, którego potrzebujesz.",
       "photoScannerTitle": "Obraz na słowa",
       "photoScannerShort": "Z obrazu\nna słowa",
-      "photoScannerDescription": "Natychmiast importuj niemieckie rzeczowniki ze zdjęć za pomocą SI."
+      "photoScannerDescription": "Natychmiast importuj niemieckie rzeczowniki ze zdjęć za pomocą SI.",
+      "offlineModeTitle": "Nauka offline",
+      "offlineModeShort": "Tryb\noffline",
+      "offlineModeDescription": "Ćwicz czasowniki zawsze i wszędzie bez połączenia z internetem."
     },
     "trialTitle": "Twój 3-dniowy okres próbny Premium jest aktywny",
     "trialSubtitle": "Przyspiesz naukę dzięki brakowi reklam i zaawansowanym narzędziom.",
@@ -286,6 +427,7 @@
     "restore": "Przywróć zakupy",
     "proceedLimited": "Kontynuuj z wersją ograniczoną",
     "priceYearlyWithCoffee": "{price}/rok, filiżanka kawy/mies.",
+    "price3MonthsWithCoffee": "Tylko {price} za 3 miesiące — mniej niż kawa miesięcznie",
     "disclaimer": "Automatyczne odnawianie za {price}/rok. Anuluj w dowolnym momencie w ustawieniach.",
     "disclaimerFallback": "Automatyczne odnawianie co rok. Anuluj w dowolnym momencie w ustawieniach.",
     "priceWithTrial": "Za darmo przez {trialDuration}, potem {price}/rok",
@@ -342,6 +484,10 @@
           "voices": {
             "title": "Zanurzenie w dźwięku",
             "text": "Rozwijaj umiejętności słuchania, trenując uszy dzięki wysokiej jakości głosom AI."
+          },
+          "offlineMode": {
+            "title": "Nauka offline",
+            "text": "Ucz się niemieckich czasowników zawsze i wszędzie bez połączenia z internetem."
           }
         },
         "description": ""
@@ -357,5 +503,14 @@
         "description": "Tylko jeśli nie anulujesz. Anuluj w dowolnym momencie w ustawieniach."
       }
     }
+  },
+  "offlineModal": {
+    "title": "Wymagany internet",
+    "message": "Przejdź na Premium, aby uczyć się offline.",
+    "getPremium": "Kup Premium",
+    "retry": "Spróbuj ponownie",
+    "enableOffline": "Włącz tryb offline",
+    "premiumButtonWithTrial": "Bezpłatny Premium na {daysLabel}",
+    "premiumButtonNoTrial": "Kup Premium"
   }
 }

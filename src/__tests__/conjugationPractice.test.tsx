@@ -502,10 +502,12 @@ describe('Conjugation Practice Suite', () => {
 
       fireEvent.press(getByTestId('conjugation-level-conjugation_a1_level_1'));
 
-      expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
-        conjugationLevelId: 'conjugation_a1_level_1',
-        isConjugationQuiz: true,
-        level: 'A1',
+      await waitFor(() => {
+        expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
+          conjugationLevelId: 'conjugation_a1_level_1',
+          isConjugationQuiz: true,
+          level: 'A1',
+        });
       });
     });
   });
@@ -623,10 +625,12 @@ describe('Conjugation Practice Suite', () => {
       });
 
       fireEvent.press(getByTestId('next-level-button'));
-      expect(mockReplace).toHaveBeenCalledWith('VerbQuiz', {
-        conjugationLevelId: 'conjugation_a1_level_2',
-        isConjugationQuiz: true,
-        level: 'A1',
+      await waitFor(() => {
+        expect(mockReplace).toHaveBeenCalledWith('VerbQuiz', {
+          conjugationLevelId: 'conjugation_a1_level_2',
+          isConjugationQuiz: true,
+          level: 'A1',
+        });
       });
     });
 

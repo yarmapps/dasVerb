@@ -21,7 +21,8 @@
       "bundleIdentifier": "com.yarm.apps.dasverb",
       "googleServicesFile": "./GoogleService-Info.plist",
       "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": false,
+        "GADNativeAdValidatorEnabled": false
       },
       "buildNumber": "2"
     },
@@ -46,6 +47,9 @@
       [
         "expo-build-properties",
         {
+          "android": {
+            "useLegacyPackaging": true
+          },
           "ios": {
             "useFrameworks": "static"
           }
@@ -63,6 +67,7 @@
       "expo-sqlite",
       "expo-notifications",
       "expo-audio",
+      "expo-tracking-transparency",
       [
         "react-native-google-mobile-ads",
         {

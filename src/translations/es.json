@@ -55,7 +55,19 @@
     "startNow": "Empezar ahora",
     "smartQuizBadge": "Modo inteligente",
     "smartQuizTitle": "Algoritmo inteligente",
-    "smartQuizSubtitle": "Enfócate en tus errores y aprende 3 veces más rápido"
+    "smartQuizSubtitle": "Enfócate en tus errores y aprende 3 veces más rápido",
+    "prefixBannerBadge": "A1 – B2",
+    "prefixBannerTitle": "Verbos con prefijo",
+    "prefixBannerSubtitle": "Prefijos separables, inseparables y mixtos",
+    "conjugationBannerTitle": "Entrenador de conjugación",
+    "conjugationBannerSubtitle": "Entrena las formas verbales de todos los pronombres en Präsens",
+    "verbFormsBannerTitle": "Verbos irregulares",
+    "verbFormsBannerSubtitle": "Entrenamiento de Infinitiv – Präteritum – Perfekt",
+    "prepositionsBannerTitle": "Verbos con preposiciones",
+    "prepositionsBannerSubtitle": "Domina las preposiciones y los casos de los verbos",
+    "adBadge": "Anuncio",
+    "sectionModes": "Por modos",
+    "sectionTopics": "Por temas"
   },
   "categories": {
     "sectionTitle": "Temas y categorías",
@@ -133,11 +145,28 @@
     "voiceMale": "Masculina",
     "maleVoiceHint": "Para usar una voz masculina en alemán, instálala en Ajustes de iOS → Accesibilidad → Contenido leído → Voces → Alemán.",
     "contactUs": "Contáctanos",
+    "subscriptionSection": "SUSCRIPCIÓN",
+    "manageSubscription": "Administrar suscripción",
+    "rateApp": "Calificar la aplicación",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio",
     "version": "Versión",
     "notificationsPermissionRequiredTitle": "Activar notificaciones",
     "notificationsPermissionRequiredMessage": "Para recibir recordatorios diarios de práctica y racha, activa las notificaciones en los ajustes de tu dispositivo.",
     "openSettings": "Ajustes",
-    "cancel": "Cancelar"
+    "cancel": "Cancelar",
+    "dataSection": "GESTIÓN DE DATOS",
+    "resetProgress": "Restablecer progreso de aprendizaje",
+    "resetProgressTitle": "¿Restablecer progreso de aprendizaje?",
+    "resetProgressMessage": "Todo tu progreso de aprendizaje de verbos y niveles de prefijos se eliminará permanentemente. Esta acción no se puede deshacer.",
+    "resetProgressConfirm": "Restablecer progreso",
+    "resetProgressSuccess": "El progreso de aprendizaje se ha restablecido.",
+    "resetSettings": "Restablecer ajustes de la aplicación",
+    "resetSettingsTitle": "¿Restablecer ajustes de la aplicación?",
+    "resetSettingsMessage": "Todos los ajustes de sonido, tema y notificaciones se restaurarán a los valores predeterminados. Se conservará tu progreso de aprendizaje.",
+    "resetSettingsConfirm": "Restablecer ajustes",
+    "resetSettingsSuccess": "Los ajustes se han restablecido a los valores predeterminados.",
+    "resetSuccessTitle": "Listo"
   },
   "quizSettingsModal": {
     "title": "Ajustes del test"
@@ -152,12 +181,112 @@
     "trophy": "Trofeo",
     "empty": "No se encontraron verbos",
     "checkpointTitle": "Test de control",
-    "finalTestTitle": "Test final"
+    "finalTestTitle": "Test final",
+    "finalTestTitleWithLevel": "Examen final {level}",
+    "finalTestSubtitle": "Examen completo de 20 preguntas para este nivel",
+    "categoryFinalTestSubtitle": "Examen completo de 20 preguntas para este tema",
+    "checkpointSubtitle": "Verbos {from} – {to}"
+  },
+  "prefixPracticeListScreen": {
+    "title": "Verbos con prefijo",
+    "levelNumber": "Nivel {number}",
+    "checkpointTitle": "Punto de control {level}",
+    "checkpointSubtitle": "Examen completo de 20 preguntas para este nivel",
+    "subgroupSeparable": "Prefijos separables",
+    "subgroupInseparable": "Prefijos inseparables",
+    "subgroupOpposites": "Pares de antónimos",
+    "subgroupDual": "Prefijos mixtos"
+  },
+  "prefixPractice": {
+    "title": "Verbos con prefijo",
+    "levelTitle": "Nivel {number}",
+    "checkpointTitle": "Punto de control {level}"
+  },
+  "prefixGrammarHint": {
+    "separableTitle": "Prefijo separable",
+    "inseparableTitle": "Prefijo inseparable",
+    "dualTitle": "Prefijo mixto",
+    "separableRule": "En Präsens y Präteritum, los prefijos separables se desplazan al final de la oración.",
+    "inseparableRule": "Los prefijos inseparables (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) nunca se separan de la raíz.",
+    "dualRule": "Los prefijos como über-, um-, unter-, durch- pueden ser separables o inseparables según el significado del verbo."
+  },
+  "conjugationPracticeListScreen": {
+    "title": "Entrenador de conjugación",
+    "levelNumber": "Nivel {number}",
+    "checkpointTitle": "Punto de control {number}",
+    "checkpointSubtitle": "Cuestionario de repaso con 10 verbos aleatorios",
+    "finalTestTitle": "Examen final {level}",
+    "finalTestSubtitle": "Examen completo de 15 verbos para este nivel"
+  },
+  "conjugationPractice": {
+    "title": "Conjugación",
+    "levelTitle": "Nivel {number}",
+    "checkpointNumberTitle": "Punto de control {number}",
+    "finalTestTitle": "Examen final {level}"
+  },
+  "conjugationGrammarHint": {
+    "ruleTag": "Cambio vocálico",
+    "eToIRule": "Cambio vocálico e → i en la 2.ª y 3.ª persona del singular (du, er/sie/es).",
+    "eToIeRule": "Cambio vocálico e → ie en la 2.ª y 3.ª persona del singular (du, er/sie/es).",
+    "aToAeRule": "Cambio vocálico a → ä en la 2.ª y 3.ª persona del singular (du, er/sie/es).",
+    "auToAeuRule": "Cambio vocálico au → äu en la 2.ª y 3.ª persona del singular (du, er/sie/es)."
+  },
+  "verbFormsPracticeListScreen": {
+    "title": "Verbos irregulares",
+    "levelNumber": "Nivel {number}",
+    "checkpointTitle": "Punto de control {number}",
+    "checkpointSubtitle": "Cuestionario de repaso con 10 verbos aleatorios",
+    "finalTestTitle": "Examen final {level}",
+    "finalTestSubtitle": "Examen completo de 15 verbos para este nivel"
+  },
+  "verbFormsPractice": {
+    "title": "Verbos irregulares",
+    "levelTitle": "Nivel {number}",
+    "checkpointNumberTitle": "Punto de control {number}",
+    "finalTestTitle": "Examen final {level}"
+  },
+  "verbFormsGrammarHint": {
+    "ruleTag": "Regla gramatical",
+    "strongVerbTag": "Verbo fuerte",
+    "weakVerbTag": "Verbo débil",
+    "mixedVerbTag": "Verbo mixto",
+    "irregularVerbTag": "Verbo irregular",
+    "modalVerbTag": "Verbo modal",
+    "seinRule": "Los verbos de movimiento, cambio de estado, y sein/bleiben forman el Perfekt con «sein».",
+    "habenRule": "Los verbos transitivos, reflexivos y de estado forman el Perfekt con «haben».",
+    "strongVerbRule": "Los verbos fuertes cambian la vocal de la raíz en Präteritum y terminan en -en en Partizip II.",
+    "weakVerbRule": "Los verbos débiles regulares añaden -te en Präteritum y ge-...-t en Partizip II.",
+    "mixedVerbRule": "Los verbos mixtos combinan cambio vocálico con terminaciones regulares -te y -t."
+  },
+  "verbFormsExercise": {
+    "infinitive": "Infinitivo",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt"
+  },
+  "prepositionsPracticeListScreen": {
+    "title": "Verbos con preposiciones",
+    "levelNumber": "Nivel {number}",
+    "checkpointTitle": "Punto de control {number}",
+    "checkpointSubtitle": "Cuestionario de repaso con 10 verbos aleatorios",
+    "finalTestTitle": "Examen final {level}",
+    "finalTestSubtitle": "Examen completo de 15 verbos para este nivel"
+  },
+  "prepositionsPractice": {
+    "title": "Preposiciones",
+    "levelTitle": "Nivel {number}",
+    "checkpointNumberTitle": "Punto de control {number}",
+    "finalTestTitle": "Examen final {level}"
+  },
+  "prepositionGrammarHint": {
+    "ruleTag": "Régimen preposicional",
+    "questionLabel": "Pregunta al objeto:"
   },
   "verbQuizScreen": {
     "title": "Práctica",
     "checkpointQuizTitle": "Test de control",
     "smartQuizTitle": "Quiz inteligente",
+    "conjugateVerbTitle": "Conjuga el verbo {verb}",
+    "prepositionTaskTitle": "Elige la preposición",
     "level": "Nivel",
     "check": "Comprobar",
     "continue": "Continuar",
@@ -185,18 +314,21 @@
     "tryAgain": "Intentar de nuevo",
     "verbsList": "A la lista de verbos",
     "backToPractice": "Volver a la práctica",
-    "scoreSummary": "{correct} de {total}"
+    "scoreSummary": "{correct} de {total}",
+    "showCorrectAnswers": "Mostrar respuestas correctas",
+    "showAllAnswers": "Mostrar todas las respuestas",
+    "showErrorsOnly": "Mostrar solo errores"
   },
   "dailyQuizLimitModal": {
-    "title": "¡Progreso increíble!",
-    "message": "¡Estás muy decidido a aprender alemán!",
-    "instructions": "¿Cómo te gustaría continuar?",
+    "title": "¡Sigue así!",
+    "message": "¡Realmente tienes la determinación de aprender alemán!",
+    "instructions": "¿Cómo quieres continuar?",
     "videoButton": "Ver anuncios",
     "or": "o",
     "premiumButtonWithTrial": "Niveles ilimitados gratis\npor {daysLabel}",
-    "premiumButtonNoTrial": "Obtener Premium",
-    "premiumButtonSubtitleWithTrial": "luego {yearlyPrice}/año (☕️ / mes)",
-    "premiumButtonSubtitleNoTrial": "{yearlyPrice}/año (☕️ / mes)",
+    "premiumButtonNoTrial": "Sin anuncios",
+    "premiumButtonSubtitleWithTrial": "luego {yearlyPrice} por 3 meses (☕️ / mes)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} por 3 meses (☕️ / mes)",
     "waitUntilTomorrow": "Esperar hasta mañana",
     "cancelAnytime": "Cancela cuando quieras"
   },
@@ -222,6 +354,8 @@
     },
     "periodMonth": "mes",
     "periodYear": "año",
+    "period3Months": "3 meses",
+    "period6Months": "6 meses",
     "restorePurchases": "Restaurar compras",
     "errorTitle": "Error",
     "errorUnavailable": "Este plan no está disponible en este momento. Inténtalo más tarde.",
@@ -241,7 +375,11 @@
       "perMonth": "{price}/mes",
       "lifetimeLabel": "De por vida",
       "lifetimePer": "Pago único",
-      "lifetimeBadge": "UNA VEZ"
+      "lifetimeBadge": "UNA VEZ",
+      "threeMonthLabel": "3 Meses",
+      "sixMonthLabel": "6 Meses",
+      "bestValueBadge": "MEJOR VALOR",
+      "popularBadge": "POPULAR"
     },
     "features": {
       "noAdsTitle": "Cero anuncios",
@@ -264,7 +402,10 @@
       "unlimitedCustomListsAndWordsDescription": "Añade palabras ilimitadas y practica exactamente el vocabulario que necesitas.",
       "photoScannerTitle": "Imagen a palabras",
       "photoScannerShort": "Imagen a\npalabras",
-      "photoScannerDescription": "Importa instantáneamente sustantivos alemanes de fotos utilizando IA."
+      "photoScannerDescription": "Importa instantáneamente sustantivos alemanes de fotos utilizando IA.",
+      "offlineModeTitle": "Práctica sin conexión",
+      "offlineModeShort": "Sin\nconexión",
+      "offlineModeDescription": "Practica verbos en cualquier momento y lugar sin conexión a internet."
     },
     "trialTitle": "Tu prueba Premium de 3 días está activa",
     "trialSubtitle": "Desbloquea tu progreso más rápido con cero anuncios y potentes herramientas de aprendizaje.",
@@ -286,6 +427,7 @@
     "restore": "Restaurar compras",
     "proceedLimited": "Continuar con la versión limitada",
     "priceYearlyWithCoffee": "{price}/año, una taza de café/mes",
+    "price3MonthsWithCoffee": "Solo {price} por 3 meses — menos que un café al mes",
     "disclaimer": "Se renueva automáticamente a {price}/año. Cancela en cualquier momento en la configuración de la cuenta.",
     "disclaimerFallback": "Se renueva automáticamente cada año. Cancela en cualquier momento en la configuración.",
     "priceWithTrial": "Gratis por {trialDuration}, luego {price}/año",
@@ -342,6 +484,10 @@
           "voices": {
             "title": "Inmersión de Audio",
             "text": "Desarrolla habilidades auditivas entrenando tu oído con voces neuronales realistas."
+          },
+          "offlineMode": {
+            "title": "Práctica sin conexión",
+            "text": "Aprende verbos en alemán en cualquier momento y lugar sin conexión a internet."
           }
         },
         "description": ""
@@ -357,5 +503,14 @@
         "description": "Solo si no cancelas. Cancela en cualquier momento en la configuración de la cuenta."
       }
     }
+  },
+  "offlineModal": {
+    "title": "Internet requerido",
+    "message": "Pasa a Premium para practicar sin conexión en cualquier momento.",
+    "getPremium": "Obtener Premium",
+    "retry": "Reintentar",
+    "enableOffline": "Activar modo sin conexión",
+    "premiumButtonWithTrial": "Premium gratis por {daysLabel}",
+    "premiumButtonNoTrial": "Obtener Premium"
   }
 }

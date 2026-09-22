@@ -65,6 +65,10 @@ export function QuizResultsScreen(): React.JSX.Element {
     prefixCefrLevel,
     conjugationLevelId,
     isConjugationQuiz = false,
+    verbFormsLevelId,
+    isVerbFormsQuiz = false,
+    prepositionLevelId,
+    isPrepositionQuiz = false,
     nextQuizParams,
     returnRouteName,
     results = [],
@@ -87,7 +91,8 @@ export function QuizResultsScreen(): React.JSX.Element {
   const defaultTotalCount = useMemo(() => {
     if (isSmartQuiz) return 50;
     if (isCheckpoint || isPrefixCheckpoint) return 20;
-    if (prefixLevelId) return 10;
+    if (prepositionLevelId || isPrepositionQuiz) return 5;
+    if (prefixLevelId || verbFormsLevelId || isVerbFormsQuiz) return 10;
     if (conjugationLevelId || isConjugationQuiz) return 30;
     return 6;
   }, [
@@ -97,6 +102,10 @@ export function QuizResultsScreen(): React.JSX.Element {
     prefixLevelId,
     conjugationLevelId,
     isConjugationQuiz,
+    verbFormsLevelId,
+    isVerbFormsQuiz,
+    prepositionLevelId,
+    isPrepositionQuiz,
   ]);
   const totalCount = results.length || defaultTotalCount;
   const percentage = Math.round((correctCount / totalCount) * 100);
@@ -119,7 +128,11 @@ export function QuizResultsScreen(): React.JSX.Element {
       prefixLevelId ||
       isPrefixCheckpoint ||
       conjugationLevelId ||
-      isConjugationQuiz
+      isConjugationQuiz ||
+      verbFormsLevelId ||
+      isVerbFormsQuiz ||
+      prepositionLevelId ||
+      isPrepositionQuiz
     )
       return;
     let isMounted = true;
@@ -142,11 +155,19 @@ export function QuizResultsScreen(): React.JSX.Element {
     isPrefixCheckpoint,
     conjugationLevelId,
     isConjugationQuiz,
+    verbFormsLevelId,
+    isVerbFormsQuiz,
+    prepositionLevelId,
+    isPrepositionQuiz,
   ]);
 
   useEffect(() => {
     if (isSmartQuiz) return;
-    if (conjugationLevelId) {
+    if (prepositionLevelId) {
+      progressService.setPrepositionLevelProgress(prepositionLevelId, percentage);
+    } else if (verbFormsLevelId) {
+      progressService.setVerbFormsLevelProgress(verbFormsLevelId, percentage);
+    } else if (conjugationLevelId) {
       progressService.setConjugationLevelProgress(conjugationLevelId, percentage);
     } else if (prefixLevelId) {
       progressService.setPrefixLevelProgress(prefixLevelId, percentage);
@@ -168,6 +189,8 @@ export function QuizResultsScreen(): React.JSX.Element {
     isPrefixCheckpoint,
     prefixCefrLevel,
     conjugationLevelId,
+    verbFormsLevelId,
+    prepositionLevelId,
   ]);
 
   useEffect(() => {
@@ -176,7 +199,25 @@ export function QuizResultsScreen(): React.JSX.Element {
   }, [percentage]);
 
   const handleTryAgain = () => {
-    if (conjugationLevelId || isConjugationQuiz) {
+    if (prepositionLevelId || isPrepositionQuiz) {
+      navigateToQuiz(
+        {
+          prepositionLevelId,
+          isPrepositionQuiz: true,
+          level,
+        },
+        'replace',
+      );
+    } else if (verbFormsLevelId || isVerbFormsQuiz) {
+      navigateToQuiz(
+        {
+          verbFormsLevelId,
+          isVerbFormsQuiz: true,
+          level,
+        },
+        'replace',
+      );
+    } else if (conjugationLevelId || isConjugationQuiz) {
       navigateToQuiz(
         {
           conjugationLevelId,
@@ -214,6 +255,28 @@ export function QuizResultsScreen(): React.JSX.Element {
   };
 
   const handleGoToList = useCallback(() => {
+    if (returnRouteName === 'PrepositionsPracticeList') {
+      if (navigation.canGoBack()) {
+        navigation.popToTop();
+      } else {
+        navigation.navigate('MainTabs', {
+          screen: 'Practice',
+          params: { screen: 'PrepositionsPracticeList' },
+        });
+      }
+      return;
+    }
+    if (returnRouteName === 'VerbFormsPracticeList') {
+      if (navigation.canGoBack()) {
+        navigation.popToTop();
+      } else {
+        navigation.navigate('MainTabs', {
+          screen: 'Practice',
+          params: { screen: 'VerbFormsPracticeList' },
+        });
+      }
+      return;
+    }
     if (returnRouteName === 'ConjugationPracticeList') {
       if (navigation.canGoBack()) {
         navigation.popToTop();
@@ -292,7 +355,16 @@ export function QuizResultsScreen(): React.JSX.Element {
 
   const hasNext = useMemo(() => {
     if (isSmartQuiz) return false;
-    if (prefixLevelId || isPrefixCheckpoint || conjugationLevelId || isConjugationQuiz) {
+    if (
+      prefixLevelId ||
+      isPrefixCheckpoint ||
+      conjugationLevelId ||
+      isConjugationQuiz ||
+      verbFormsLevelId ||
+      isVerbFormsQuiz ||
+      prepositionLevelId ||
+      isPrepositionQuiz
+    ) {
       return Boolean(nextQuizParams);
     }
     if (nextQuizParams) return true;
@@ -306,6 +378,10 @@ export function QuizResultsScreen(): React.JSX.Element {
     isPrefixCheckpoint,
     conjugationLevelId,
     isConjugationQuiz,
+    verbFormsLevelId,
+    isVerbFormsQuiz,
+    prepositionLevelId,
+    isPrepositionQuiz,
     nextQuizParams,
     isTargetChecked,
     nextTarget,
@@ -413,6 +489,8 @@ export function QuizResultsScreen(): React.JSX.Element {
   };
 
   const isConjugation = Boolean(conjugationLevelId || isConjugationQuiz);
+  const isVerbForms = Boolean(verbFormsLevelId || isVerbFormsQuiz);
+  const isPreposition = Boolean(prepositionLevelId || isPrepositionQuiz);
 
   const renderReviewItem = ({
     item,
@@ -425,6 +503,164 @@ export function QuizResultsScreen(): React.JSX.Element {
     const translationText = !isConjugation
       ? item?.translation?.[languageCode] || item?.translation?.en || ''
       : '';
+
+    if (isPreposition) {
+      const userAns = item.userAnswers?.[0] || '—';
+      const correctAns = item.correctAnswers?.[0] || '';
+      let beforeText = '';
+      let actualCorrect = '';
+      let afterText = '';
+      if (correctAns) {
+        const lowerSentence = item.sentenceGerman.toLowerCase();
+        const lowerCorrect = correctAns.toLowerCase();
+        const correctIndex = lowerSentence.indexOf(lowerCorrect);
+        if (correctIndex !== -1) {
+          beforeText = item.sentenceGerman.slice(0, correctIndex);
+          actualCorrect = item.sentenceGerman.slice(correctIndex, correctIndex + correctAns.length);
+          afterText = item.sentenceGerman.slice(correctIndex + correctAns.length);
+        } else {
+          beforeText = item.sentenceGerman;
+        }
+      } else {
+        beforeText = item.sentenceGerman;
+      }
+
+      if (item.isCorrect) {
+        return (
+          <View
+            style={[styles.reviewItem, isLast && styles.reviewItemLast]}
+            testID={`result-item-${index}`}
+          >
+            <View style={styles.reviewIconContainer}>
+              <Ionicons name="checkmark-circle" size={20} color="#10B981" />
+            </View>
+            <View style={styles.reviewContent}>
+              <Text style={styles.reviewGermanText}>
+                {beforeText}
+                {actualCorrect ? (
+                  <Text style={styles.correctAnswerBold}>{actualCorrect}</Text>
+                ) : null}
+                {afterText}
+              </Text>
+              {item.prepositionRuleBadge ? (
+                <View style={styles.ruleBadge}>
+                  <Text style={styles.ruleBadgeText}>{item.prepositionRuleBadge}</Text>
+                </View>
+              ) : null}
+              {translationText ? (
+                <Text style={styles.reviewTranslationText}>{translationText}</Text>
+              ) : null}
+            </View>
+          </View>
+        );
+      }
+
+      return (
+        <View
+          style={[styles.reviewItem, isLast && styles.reviewItemLast]}
+          testID={`result-item-${index}`}
+        >
+          <View style={styles.reviewIconContainer}>
+            <Ionicons name="close-circle" size={20} color="#EF4444" />
+          </View>
+          <View style={styles.reviewContent}>
+            <Text style={styles.reviewGermanText}>
+              {beforeText}
+              <Text style={styles.wrongAnswerStrikethrough}>{userAns}</Text>{' '}
+              <Text style={styles.correctAnswerBold}>{actualCorrect || correctAns}</Text>
+              {afterText}
+            </Text>
+            {item.prepositionRuleBadge ? (
+              <View style={styles.ruleBadge}>
+                <Text style={styles.ruleBadgeText}>{item.prepositionRuleBadge}</Text>
+              </View>
+            ) : null}
+            {translationText ? (
+              <Text style={styles.reviewTranslationText}>{translationText}</Text>
+            ) : null}
+          </View>
+        </View>
+      );
+    }
+
+    if (isVerbForms) {
+      if (item.isCorrect) {
+        const praet = item.correctAnswers?.[0] || '';
+        const aux = item.correctAnswers?.[1] || '';
+        const part2 = item.correctAnswers?.[2] || '';
+        const chain = `${item.sentenceGerman} — ${praet} — ${aux} ${part2}`;
+
+        return (
+          <View
+            style={[styles.reviewItem, isLast && styles.reviewItemLast]}
+            testID={`result-item-${index}`}
+          >
+            <View style={styles.reviewIconContainer}>
+              <Ionicons name="checkmark-circle" size={20} color="#10B981" />
+            </View>
+            <View style={styles.reviewContent}>
+              <Text style={styles.reviewGermanText}>{chain}</Text>
+              {translationText ? (
+                <Text style={styles.reviewTranslationText}>{translationText}</Text>
+              ) : null}
+            </View>
+          </View>
+        );
+      }
+
+      const userPraet = item.userAnswers?.[0] || '—';
+      const userAux = item.userAnswers?.[1] || '';
+      const userPart2 = item.userAnswers?.[2] || '—';
+
+      const correctPraet = item.correctAnswers?.[0] || '';
+      const correctAux = item.correctAnswers?.[1] || '';
+      const correctPart2 = item.correctAnswers?.[2] || '';
+
+      const isPraetCorrect = userPraet === correctPraet;
+      const isAuxCorrect = userAux === correctAux;
+      const isPart2Correct = userPart2 === correctPart2;
+      const isPerfektCorrect = isAuxCorrect && isPart2Correct;
+
+      const userPerfekt = userAux ? `${userAux} ${userPart2}` : userPart2;
+      const correctPerfekt = `${correctAux} ${correctPart2}`;
+
+      return (
+        <View
+          style={[styles.reviewItem, isLast && styles.reviewItemLast]}
+          testID={`result-item-${index}`}
+        >
+          <View style={styles.reviewIconContainer}>
+            <Ionicons name="close-circle" size={20} color="#EF4444" />
+          </View>
+          <View style={styles.reviewContent}>
+            <Text style={styles.reviewGermanText}>
+              {item.sentenceGerman}
+              {' — '}
+              {isPraetCorrect ? (
+                correctPraet
+              ) : (
+                <>
+                  <Text style={styles.wrongAnswerStrikethrough}>{userPraet}</Text>{' '}
+                  <Text style={styles.correctAnswerBold}>{correctPraet}</Text>
+                </>
+              )}
+              {' — '}
+              {isPerfektCorrect ? (
+                correctPerfekt
+              ) : (
+                <>
+                  <Text style={styles.wrongAnswerStrikethrough}>{userPerfekt}</Text>{' '}
+                  <Text style={styles.correctAnswerBold}>{correctPerfekt}</Text>
+                </>
+              )}
+            </Text>
+            {translationText ? (
+              <Text style={styles.reviewTranslationText}>{translationText}</Text>
+            ) : null}
+          </View>
+        </View>
+      );
+    }
 
     if (isConjugation) {
       if (item.isCorrect) {

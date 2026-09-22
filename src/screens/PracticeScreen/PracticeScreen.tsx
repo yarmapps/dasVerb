@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { View, TouchableOpacity, ScrollView } from 'react-native';
+import { View, Text, TouchableOpacity, ScrollView } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -11,7 +11,10 @@ import { ScreenBackground } from '../../components/ScreenBackground/ScreenBackgr
 import { FeaturedStartCard } from '../../components/FeaturedStartCard/FeaturedStartCard';
 import { PrefixPracticeCard } from '../../components/PrefixPracticeCard/PrefixPracticeCard';
 import { ConjugationPracticeCard } from '../../components/ConjugationPracticeCard/ConjugationPracticeCard';
+import { VerbFormsPracticeCard } from '../../components/VerbFormsPracticeCard/VerbFormsPracticeCard';
+import { PrepositionPracticeCard } from '../../components/PrepositionPracticeCard/PrepositionPracticeCard';
 import { SmartQuizCard } from '../../components/SmartQuizCard/SmartQuizCard';
+import { PracticeNativeAdCard } from '../../components/PracticeNativeAdCard/PracticeNativeAdCard';
 import { ThematicCategoriesSection } from '../../components/ThematicCategoriesSection/ThematicCategoriesSection';
 import { ThematicCategory } from '../../config/categories';
 import { PremiumSubscribeSheet } from '../../components/PremiumSubscribeSheet/PremiumSubscribeSheet';
@@ -47,6 +50,16 @@ export function PracticeScreen(): React.JSX.Element {
   const handleStartConjugationPractice = () => {
     soundService.playTapSound();
     navigation.navigate('ConjugationPracticeList');
+  };
+
+  const handleStartVerbFormsPractice = () => {
+    soundService.playTapSound();
+    navigation.navigate('VerbFormsPracticeList');
+  };
+
+  const handleStartPrepositionPractice = () => {
+    soundService.playTapSound();
+    navigation.navigate('PrepositionsPracticeList');
   };
 
   const handleStartSmartQuiz = () => {
@@ -104,19 +117,36 @@ export function PracticeScreen(): React.JSX.Element {
           contentContainerStyle={styles.scrollContent}
           showsVerticalScrollIndicator={false}
         >
-          {/* Standard Course Path */}
+          {/* 1. Standard Course Path */}
           <FeaturedStartCard onPress={handleStartStandard} />
 
-          {/* Prefix Verbs Practice Mode */}
-          <PrefixPracticeCard onPress={handleStartPrefixPractice} />
-
-          {/* Conjugation Practice Mode */}
-          <ConjugationPracticeCard onPress={handleStartConjugationPractice} />
-
-          {/* Smart Quiz Mode (derArtikel style) */}
+          {/* 2. Smart Quiz Mode (right after recommended card) */}
           <SmartQuizCard onPress={handleStartSmartQuiz} />
 
-          {/* Thematic Categories Section */}
+          {/* 3. Active Native Ad Block between smart quiz and other modes */}
+          <PracticeNativeAdCard isPremium={isPremium} colors={colors} isDark={isDark} />
+
+          {/* 4. Section Title: Learn by Mode */}
+          <Text style={styles.sectionTitle}>
+            {intl.formatMessage({ id: 'practiceScreen.sectionModes' })}
+          </Text>
+
+          {/* 5. Other 4 modes in 2x2 grid (columns of two) */}
+          <View style={styles.gridRow}>
+            <PrefixPracticeCard onPress={handleStartPrefixPractice} />
+            <ConjugationPracticeCard onPress={handleStartConjugationPractice} />
+          </View>
+          <View style={styles.gridRow}>
+            <VerbFormsPracticeCard onPress={handleStartVerbFormsPractice} />
+            <PrepositionPracticeCard onPress={handleStartPrepositionPractice} />
+          </View>
+
+          {/* 6. Section Title: Learn by Topic */}
+          <Text style={styles.sectionTitle}>
+            {intl.formatMessage({ id: 'practiceScreen.sectionTopics' })}
+          </Text>
+
+          {/* 7. Thematic Categories Section */}
           <ThematicCategoriesSection onSelectCategory={handleSelectCategory} />
         </ScrollView>
       </View>

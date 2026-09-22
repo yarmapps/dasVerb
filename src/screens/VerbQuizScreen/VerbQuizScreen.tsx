@@ -30,6 +30,9 @@ import { PrefixDualSlotExercise } from '../../components/PrefixDualSlotExercise/
 import { PrefixGrammarHint } from '../../components/PrefixGrammarHint/PrefixGrammarHint';
 import { ConjugationFillExercise } from '../../components/ConjugationFillExercise/ConjugationFillExercise';
 import { ConjugationGrammarHint } from '../../components/ConjugationGrammarHint/ConjugationGrammarHint';
+import { VerbFormsFillExercise } from '../../components/VerbFormsFillExercise/VerbFormsFillExercise';
+import { VerbFormsGrammarHint } from '../../components/VerbFormsGrammarHint/VerbFormsGrammarHint';
+import { PrepositionGrammarHint } from '../../components/PrepositionGrammarHint/PrepositionGrammarHint';
 import { QuizSettingsModal } from '../../components/QuizSettingsModal/QuizSettingsModal';
 import { verbDataService } from '../../services/verbDataService';
 import { progressService } from '../../services/progressService';
@@ -51,13 +54,29 @@ type VerbQuizNavProp = NativeStackNavigationProp<RootStackParamList, 'VerbQuiz'>
 
 const EMPTY_INFINITIVES: string[] = [];
 
-function resolveQuizType(
-  isSmartQuiz: boolean,
-  isCheckpoint: boolean,
+export function resolveQuizType(
+  isSmartQuiz?: boolean,
+  isCheckpoint?: boolean,
   isCategoryQuiz?: boolean,
   isPrefixQuiz?: boolean,
   isConjugationQuiz?: boolean,
-): 'smart' | 'checkpoint' | 'category' | 'prefix' | 'conjugation' | 'verb' {
+  isVerbFormsQuiz?: boolean,
+  isPrepositionQuiz?: boolean,
+):
+  | 'smart'
+  | 'checkpoint'
+  | 'category'
+  | 'prefix'
+  | 'conjugation'
+  | 'verb_forms'
+  | 'prepositions'
+  | 'verb' {
+  if (isPrepositionQuiz) {
+    return 'prepositions';
+  }
+  if (isVerbFormsQuiz) {
+    return 'verb_forms';
+  }
   if (isConjugationQuiz) {
     return 'conjugation';
   }
@@ -110,6 +129,10 @@ export function VerbQuizScreen(): React.JSX.Element {
     prefixCefrLevel,
     conjugationLevelId,
     isConjugationQuiz = false,
+    verbFormsLevelId,
+    isVerbFormsQuiz = false,
+    prepositionLevelId,
+    isPrepositionQuiz = false,
   } = route.params || {};
 
   const infinitives = route.params?.infinitives || EMPTY_INFINITIVES;
@@ -178,7 +201,49 @@ export function VerbQuizScreen(): React.JSX.Element {
 
     async function loadQuizData() {
       try {
-        if (conjugationLevelId) {
+        if (prepositionLevelId) {
+          const levelData = await verbDataService.getPrepositionLevelById(prepositionLevelId);
+          if (levelData && isMounted) {
+            const cards = await Promise.all(
+              levelData.verbs.map(async item => {
+                const exact = await verbDataService.getVerbById(item.id);
+                if (exact) return exact;
+                const byInf = await verbDataService.getVerbsByInfinitive(item.infinitive);
+                return byInf[0];
+              }),
+            );
+            const validCards = cards.filter(Boolean) as VerbCard[];
+            const generated = quizGeneratorService.generatePrepositionExercises(validCards);
+            if (generated.length > 0 && isMounted) {
+              setExercises(generated);
+            }
+          }
+        } else if (verbFormsLevelId) {
+          const levelData = await verbDataService.getVerbFormsLevelById(verbFormsLevelId);
+          if (levelData && isMounted) {
+            const cards = await Promise.all(
+              levelData.verbs.map(async inf => {
+                const exact = await verbDataService.getVerbById(inf);
+                if (exact) return exact;
+                const byInf = await verbDataService.getVerbsByInfinitive(inf);
+                if (byInf.length > 0) return byInf[0];
+                const normalizedInf = inf.replace(/^(sich|mich|dich)\s+/i, '').trim();
+                const fallbackByInf = await verbDataService.getVerbsByInfinitive(normalizedInf);
+                return fallbackByInf[0];
+              }),
+            );
+            const validCards = cards.filter(Boolean) as VerbCard[];
+            const isCheckpointOrFinal =
+              levelData.subgroupType === 'checkpoint' || levelData.subgroupType === 'final_test';
+            const generated = quizGeneratorService.generateVerbFormsExercises(
+              validCards,
+              isCheckpointOrFinal,
+            );
+            if (generated.length > 0 && isMounted) {
+              setExercises(generated);
+            }
+          }
+        } else if (conjugationLevelId) {
           const levelData = await verbDataService.getConjugationLevelById(conjugationLevelId);
           if (levelData && isMounted) {
             const cards = await Promise.all(
@@ -271,6 +336,8 @@ export function VerbQuizScreen(): React.JSX.Element {
     isPrefixCheckpoint,
     prefixCefrLevel,
     conjugationLevelId,
+    verbFormsLevelId,
+    prepositionLevelId,
   ]);
 
   const [currentExerciseIndex, setCurrentExerciseIndex] = useState(0);
@@ -281,21 +348,10 @@ export function VerbQuizScreen(): React.JSX.Element {
   const [speakOnCorrectAnswer, setSpeakOnCorrectAnswer] = useState(
     () => getSettings().speakOnCorrectAnswer,
   );
-  const [ttsVoiceGender, setTtsVoiceGender] = useState<'female' | 'male'>(
-    () => getSettings().ttsVoiceGender,
-  );
 
   const handleToggleSpeakOnCorrectAnswer = useCallback((value: boolean) => {
     setSpeakOnCorrectAnswer(value);
     updateSettings({ speakOnCorrectAnswer: value });
-  }, []);
-
-  const handleToggleTtsVoiceGender = useCallback(() => {
-    setTtsVoiceGender(prev => {
-      const next = prev === 'female' ? 'male' : 'female';
-      updateSettings({ ttsVoiceGender: next });
-      return next;
-    });
   }, []);
 
   const currentExercise = exercises[currentExerciseIndex] || exercises[0];
@@ -324,7 +380,16 @@ export function VerbQuizScreen(): React.JSX.Element {
   }, [status, pulseAnim, activeGapIndex]);
 
   useEffect(() => {
-    const quizType = resolveQuizType(isSmartQuiz, isCheckpoint, isCategoryQuiz);
+    const isPrefixQuiz = Boolean(prefixLevelId || isPrefixCheckpoint);
+    const isConjugation = Boolean(conjugationLevelId || isConjugationQuiz);
+    const quizType = resolveQuizType(
+      isSmartQuiz,
+      isCheckpoint,
+      isCategoryQuiz,
+      isPrefixQuiz,
+      isConjugation,
+      isVerbFormsQuiz,
+    );
     trackEvent('quiz_started', {
       quiz_type: quizType,
       infinitive,
@@ -368,6 +433,8 @@ export function VerbQuizScreen(): React.JSX.Element {
         isCategoryQuiz,
         isPrefixQuiz,
         isConjugation,
+        isVerbFormsQuiz,
+        isPrepositionQuiz,
       );
       const results = resultsRef.current;
       const correctCount = results.filter(r => r.isCorrect).length;
@@ -389,9 +456,35 @@ export function VerbQuizScreen(): React.JSX.Element {
         | 'PrefixPracticeList'
         | 'VerbsPracticeList'
         | 'PracticeHome'
-        | 'ConjugationPracticeList' = 'VerbsPracticeList';
+        | 'ConjugationPracticeList'
+        | 'VerbFormsPracticeList'
+        | 'PrepositionsPracticeList' = 'VerbsPracticeList';
 
-      if (conjugationLevelId || isConjugationQuiz) {
+      if (prepositionLevelId || isPrepositionQuiz) {
+        returnRouteName = 'PrepositionsPracticeList';
+        if (prepositionLevelId) {
+          const nextLevel = await verbDataService.getNextPrepositionLevel(prepositionLevelId);
+          if (nextLevel) {
+            nextQuizParams = {
+              prepositionLevelId: nextLevel.id,
+              isPrepositionQuiz: true,
+              level: nextLevel.cefrLevel,
+            };
+          }
+        }
+      } else if (verbFormsLevelId || isVerbFormsQuiz) {
+        returnRouteName = 'VerbFormsPracticeList';
+        if (verbFormsLevelId) {
+          const nextLevel = await verbDataService.getNextVerbFormsLevel(verbFormsLevelId);
+          if (nextLevel) {
+            nextQuizParams = {
+              verbFormsLevelId: nextLevel.id,
+              isVerbFormsQuiz: true,
+              level: nextLevel.cefrLevel,
+            };
+          }
+        }
+      } else if (conjugationLevelId || isConjugationQuiz) {
         returnRouteName = 'ConjugationPracticeList';
         if (conjugationLevelId) {
           const nextLevel = await verbDataService.getNextConjugationLevel(conjugationLevelId);
@@ -436,6 +529,10 @@ export function VerbQuizScreen(): React.JSX.Element {
         prefixCefrLevel,
         conjugationLevelId,
         isConjugationQuiz,
+        verbFormsLevelId,
+        isVerbFormsQuiz,
+        prepositionLevelId,
+        isPrepositionQuiz,
         nextQuizParams,
         returnRouteName,
         results: resultsRef.current,
@@ -461,6 +558,10 @@ export function VerbQuizScreen(): React.JSX.Element {
     prefixCefrLevel,
     conjugationLevelId,
     isConjugationQuiz,
+    verbFormsLevelId,
+    isVerbFormsQuiz,
+    prepositionLevelId,
+    isPrepositionQuiz,
   ]);
 
   const handleScreenPress = useCallback(() => {
@@ -480,93 +581,128 @@ export function VerbQuizScreen(): React.JSX.Element {
       nextAnswers[activeGapIndex] = option;
       setUserAnswers(nextAnswers);
 
-      const hasNextGap = activeGapIndex + 1 < currentExercise.gaps.length;
-
-      if (hasNextGap) {
-        setActiveGapIndex(prev => prev + 1);
-      } else {
-        // Проверяем все ответы
-        const allCorrect = currentExercise.gaps.every(
-          (gap, index) => gap.correctValue === nextAnswers[index],
+      if (currentExercise.type === 'verb_forms_fill') {
+        const nextUnfilledIndex = currentExercise.gaps.findIndex(
+          (_, idx) => idx !== activeGapIndex && !nextAnswers[idx],
         );
+        if (nextUnfilledIndex !== -1) {
+          setActiveGapIndex(nextUnfilledIndex);
+          return;
+        }
+      } else {
+        const hasNextGap = activeGapIndex + 1 < currentExercise.gaps.length;
+        if (hasNextGap) {
+          setActiveGapIndex(prev => prev + 1);
+          return;
+        }
+      }
 
-        const sentenceGerman = currentExercise.segments
-          .map(seg => {
-            if (typeof seg.gapIndex === 'number') {
-              const answer = nextAnswers[seg.gapIndex];
-              const fallback = currentExercise.gaps[seg.gapIndex]?.correctValue || '';
-              return answer || fallback;
-            }
-            return seg.text || '';
-          })
-          .join(' ')
-          .replace(/\s+([.,!?:;])/g, '$1')
-          .replace(/\s*—\s*/g, ' ')
-          .trim();
+      // Проверяем все ответы
+      const allCorrect = currentExercise.gaps.every(
+        (gap, index) => gap.correctValue === nextAnswers[index],
+      );
 
-        if (currentExercise.type === 'conjugation_fill' && currentExercise.conjugationRows) {
-          currentExercise.conjugationRows.forEach(row => {
-            const userAnswer = nextAnswers[row.gapIndex] || '';
-            const isSlotCorrect = userAnswer === row.correctValue;
-            const reflexive = row.reflexivePronoun ? ` ${row.reflexivePronoun}` : '';
-            const rowGerman = `${row.pronoun} ${row.correctValue}${reflexive}`;
+      const sentenceGerman = currentExercise.segments
+        .map(seg => {
+          if (typeof seg.gapIndex === 'number') {
+            const answer = nextAnswers[seg.gapIndex];
+            const fallback = currentExercise.gaps[seg.gapIndex]?.correctValue || '';
+            return answer || fallback;
+          }
+          return seg.text || '';
+        })
+        .join(' ')
+        .replace(/\s+([.,!?:;])/g, '$1')
+        .replace(/\s*—\s*/g, ' ')
+        .trim();
 
-            resultsRef.current.push({
-              sentenceGerman: rowGerman,
-              isCorrect: isSlotCorrect,
-              userAnswers: [userAnswer],
-              correctAnswers: [row.correctValue],
-              translation: currentExercise?.translation || {},
-            });
-          });
-        } else {
+      if (currentExercise.type === 'verb_forms_fill') {
+        resultsRef.current.push({
+          sentenceGerman: currentExercise.verbCard.infinitive,
+          isCorrect: allCorrect,
+          userAnswers: nextAnswers,
+          correctAnswers: currentExercise.gaps.map(gap => gap.correctValue),
+          translation: currentExercise?.translation || {},
+        });
+      } else if (currentExercise.type === 'conjugation_fill' && currentExercise.conjugationRows) {
+        currentExercise.conjugationRows.forEach(row => {
+          const userAnswer = nextAnswers[row.gapIndex] || '';
+          const isSlotCorrect = userAnswer === row.correctValue;
+          const reflexive = row.reflexivePronoun ? ` ${row.reflexivePronoun}` : '';
+          const rowGerman = `${row.pronoun} ${row.correctValue}${reflexive}`;
+
           resultsRef.current.push({
-            sentenceGerman,
-            isCorrect: allCorrect,
-            userAnswers: nextAnswers,
-            correctAnswers: currentExercise.gaps.map(gap => gap.correctValue),
+            sentenceGerman: rowGerman,
+            isCorrect: isSlotCorrect,
+            userAnswers: [userAnswer],
+            correctAnswers: [row.correctValue],
             translation: currentExercise?.translation || {},
           });
+        });
+      } else if (currentExercise.type === 'preposition_fill') {
+        const ruleBadge = currentExercise.prepositionGrammarHint
+          ? `${currentExercise.prepositionGrammarHint.preposition} + ${currentExercise.prepositionGrammarHint.prepositionCase}`
+          : undefined;
+
+        resultsRef.current.push({
+          sentenceGerman: currentExercise.sentence.german,
+          isCorrect: allCorrect,
+          userAnswers: nextAnswers,
+          correctAnswers: currentExercise.gaps.map(gap => gap.correctValue),
+          translation: currentExercise?.translation || {},
+          prepositionRuleBadge: ruleBadge,
+        });
+      } else {
+        resultsRef.current.push({
+          sentenceGerman,
+          isCorrect: allCorrect,
+          userAnswers: nextAnswers,
+          correctAnswers: currentExercise.gaps.map(gap => gap.correctValue),
+          translation: currentExercise?.translation || {},
+        });
+      }
+
+      const sentenceKey = `${currentExercise.verbCard.id || currentExercise.verbCard.infinitive}_${currentExercise.sentence.id}`;
+
+      if (allCorrect) {
+        progressService.recordSentenceSuccess(sentenceKey);
+        setStatus('correct');
+        if (process.env.NODE_ENV !== 'test') {
+          canAdvanceRef.current = false;
+          setTimeout(() => {
+            canAdvanceRef.current = true;
+          }, 350);
         }
 
-        const sentenceKey = `${currentExercise.verbCard.id || currentExercise.verbCard.infinitive}_${currentExercise.sentence.id}`;
+        soundService.playCorrectSound();
+        Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
 
-        if (allCorrect) {
-          progressService.recordSentenceSuccess(sentenceKey);
-          setStatus('correct');
-          if (process.env.NODE_ENV !== 'test') {
-            canAdvanceRef.current = false;
-            setTimeout(() => {
-              canAdvanceRef.current = true;
-            }, 350);
+        if (
+          speakOnCorrectAnswer &&
+          currentExercise?.type !== 'conjugation_fill' &&
+          currentExercise?.type !== 'verb_forms_fill'
+        ) {
+          if (ttsTimeoutRef.current) {
+            clearTimeout(ttsTimeoutRef.current);
           }
-
-          soundService.playCorrectSound();
-          Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-
-          if (speakOnCorrectAnswer && currentExercise?.type !== 'conjugation_fill') {
-            if (ttsTimeoutRef.current) {
-              clearTimeout(ttsTimeoutRef.current);
-            }
-            const delay = process.env.NODE_ENV === 'test' ? 0 : 250;
-            ttsTimeoutRef.current = setTimeout(() => {
-              speechService.speak(sentenceGerman);
-              ttsTimeoutRef.current = null;
-            }, delay);
-          }
-        } else {
-          progressService.recordSentenceError(sentenceKey);
-          setStatus('incorrect');
-          if (process.env.NODE_ENV !== 'test') {
-            canAdvanceRef.current = false;
-            setTimeout(() => {
-              canAdvanceRef.current = true;
-            }, 350);
-          }
-
-          soundService.playIncorrectSound();
-          Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);
+          const delay = process.env.NODE_ENV === 'test' ? 0 : 250;
+          ttsTimeoutRef.current = setTimeout(() => {
+            speechService.speak(sentenceGerman);
+            ttsTimeoutRef.current = null;
+          }, delay);
         }
+      } else {
+        progressService.recordSentenceError(sentenceKey);
+        setStatus('incorrect');
+        if (process.env.NODE_ENV !== 'test') {
+          canAdvanceRef.current = false;
+          setTimeout(() => {
+            canAdvanceRef.current = true;
+          }, 350);
+        }
+
+        soundService.playIncorrectSound();
+        Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);
       }
     },
     [status, userAnswers, activeGapIndex, currentExercise, speakOnCorrectAnswer],
@@ -574,6 +710,14 @@ export function VerbQuizScreen(): React.JSX.Element {
 
   const renderGrammarHint = useCallback(() => {
     if (status !== 'incorrect') return null;
+
+    if (currentExercise?.type === 'preposition_fill' && currentExercise.prepositionGrammarHint) {
+      return <PrepositionGrammarHint hint={currentExercise.prepositionGrammarHint} embedded />;
+    }
+
+    if (currentExercise?.type === 'verb_forms_fill' && currentExercise.verbFormsGrammarHint) {
+      return <VerbFormsGrammarHint hint={currentExercise.verbFormsGrammarHint} embedded />;
+    }
 
     if (currentExercise?.type === 'conjugation_fill' && currentExercise.conjugationGrammarHint) {
       return <ConjugationGrammarHint hint={currentExercise.conjugationGrammarHint} embedded />;
@@ -677,6 +821,52 @@ export function VerbQuizScreen(): React.JSX.Element {
   );
 
   const screenTitle = useMemo(() => {
+    if (prepositionLevelId) {
+      const match = prepositionLevelId.match(/preposition_([a-z0-9]+)_(level|checkpoint)_([0-9]+)/);
+      if (match) {
+        const [, , type, num] = match;
+        if (type === 'checkpoint') {
+          return intl.formatMessage(
+            { id: 'prepositionsPracticeListScreen.checkpointTitle' },
+            { number: num },
+          );
+        }
+        return intl.formatMessage(
+          { id: 'prepositionsPracticeListScreen.levelNumber' },
+          { number: num },
+        );
+      }
+      if (prepositionLevelId.includes('_final')) {
+        return intl.formatMessage(
+          { id: 'prepositionsPracticeListScreen.finalTestTitle' },
+          { level: level || 'A1' },
+        );
+      }
+      return intl.formatMessage({ id: 'prepositionsPracticeListScreen.title' });
+    }
+    if (verbFormsLevelId) {
+      const match = verbFormsLevelId.match(/verb_forms_([a-z0-9]+)_(level|checkpoint)_([0-9]+)/);
+      if (match) {
+        const [, , type, num] = match;
+        if (type === 'checkpoint') {
+          return intl.formatMessage(
+            { id: 'verbFormsPracticeListScreen.checkpointTitle' },
+            { number: num },
+          );
+        }
+        return intl.formatMessage(
+          { id: 'verbFormsPracticeListScreen.levelNumber' },
+          { number: num },
+        );
+      }
+      if (verbFormsLevelId.includes('_final')) {
+        return intl.formatMessage(
+          { id: 'verbFormsPracticeListScreen.finalTestTitle' },
+          { level: level || 'A1' },
+        );
+      }
+      return intl.formatMessage({ id: 'verbFormsPracticeListScreen.title' });
+    }
     if (conjugationLevelId) {
       const match = conjugationLevelId.match(/conjugation_([a-z0-9]+)_(level|checkpoint)_([0-9]+)/);
       if (match) {
@@ -728,6 +918,7 @@ export function VerbQuizScreen(): React.JSX.Element {
     }
     return intl.formatMessage({ id: 'verbQuizScreen.title' });
   }, [
+    verbFormsLevelId,
     conjugationLevelId,
     prefixLevelId,
     isPrefixCheckpoint,
@@ -739,6 +930,7 @@ export function VerbQuizScreen(): React.JSX.Element {
     categoryTitle,
     level,
     intl,
+    prepositionLevelId,
   ]);
 
   const cardHeaderTitle = useMemo(() => {
@@ -748,10 +940,25 @@ export function VerbQuizScreen(): React.JSX.Element {
         { verb: currentExercise.verbCard?.infinitive || '' },
       );
     }
+    if (currentExercise?.type === 'preposition_fill') {
+      return intl.formatMessage({ id: 'verbQuizScreen.prepositionTaskTitle' });
+    }
     return intl.formatMessage({ id: 'verbQuizScreen.fillCard' });
   }, [currentExercise, intl]);
 
   const renderExerciseContent = () => {
+    if (currentExercise?.type === 'verb_forms_fill') {
+      return (
+        <VerbFormsFillExercise
+          exercise={currentExercise}
+          activeSlotIndex={activeGapIndex}
+          userAnswers={userAnswers}
+          status={status}
+          pulseAnim={pulseAnim}
+          onSlotPress={setActiveGapIndex}
+        />
+      );
+    }
     if (currentExercise?.type === 'conjugation_fill') {
       return (
         <ConjugationFillExercise
@@ -788,6 +995,34 @@ export function VerbQuizScreen(): React.JSX.Element {
 
   const renderFeedbackCard = () => {
     if (status !== 'incorrect') return null;
+
+    if (currentExercise?.type === 'verb_forms_fill') {
+      const vFormsData = currentExercise.verbFormsData;
+      return (
+        <View style={styles.correctAnswerCard} testID="quiz-correct-answer-card">
+          <View style={styles.correctAnswerHeader}>
+            <Ionicons
+              name="checkmark-circle"
+              size={16}
+              color={colors.primary}
+              style={styles.correctAnswerHeaderIcon}
+            />
+            <Text style={styles.correctAnswerLabel}>
+              {intl.formatMessage({ id: 'verbQuizScreen.correctAnswer' })}
+            </Text>
+          </View>
+          <Text style={styles.correctAnswerSentenceText}>
+            <Text style={styles.correctAnswerWord}>{vFormsData?.infinitive} — </Text>
+            <Text style={styles.correctAnswerHighlightText}>{vFormsData?.correctPraeteritum}</Text>
+            <Text style={styles.correctAnswerWord}> — </Text>
+            <Text style={styles.correctAnswerHighlightText}>{vFormsData?.correctAuxiliary}</Text>
+            <Text style={styles.correctAnswerWord}> </Text>
+            <Text style={styles.correctAnswerHighlightText}>{vFormsData?.correctPartizipII}</Text>
+          </Text>
+          {renderGrammarHint()}
+        </View>
+      );
+    }
 
     if (currentExercise?.type === 'conjugation_fill') {
       const rows = currentExercise.conjugationRows || [];
@@ -913,6 +1148,8 @@ export function VerbQuizScreen(): React.JSX.Element {
             isCategoryQuiz,
             isPrefixQuiz,
             isConjugation,
+            isVerbFormsQuiz,
+            isPrepositionQuiz,
           );
           trackEvent('quiz_interrupted', {
             quiz_type: quizType,
@@ -970,14 +1207,16 @@ export function VerbQuizScreen(): React.JSX.Element {
               {renderExerciseContent()}
 
               {/* Translation Container inside Card */}
-              <View style={styles.sentenceTranslationContainer}>
-                <Ionicons name="language-outline" size={16} color={colors.textMuted} />
-                <Text style={styles.sentenceTranslationText}>
-                  {currentExercise?.translation?.[languageCode] ||
-                    currentExercise?.translation?.en ||
-                    ''}
-                </Text>
-              </View>
+              {currentExercise?.type !== 'verb_forms_fill' && (
+                <View style={styles.sentenceTranslationContainer}>
+                  <Ionicons name="language-outline" size={16} color={colors.textMuted} />
+                  <Text style={styles.sentenceTranslationText}>
+                    {currentExercise?.translation?.[languageCode] ||
+                      currentExercise?.translation?.en ||
+                      ''}
+                  </Text>
+                </View>
+              )}
             </View>
 
             {/* Unified Feedback Card shown on incorrect response */}
@@ -1025,8 +1264,6 @@ export function VerbQuizScreen(): React.JSX.Element {
         onClose={() => setIsSettingsModalVisible(false)}
         speakOnCorrectAnswer={speakOnCorrectAnswer}
         onToggleSpeakOnCorrectAnswer={handleToggleSpeakOnCorrectAnswer}
-        ttsVoiceGender={ttsVoiceGender}
-        onToggleTtsVoiceGender={handleToggleTtsVoiceGender}
       />
     </ScreenBackground>
   );

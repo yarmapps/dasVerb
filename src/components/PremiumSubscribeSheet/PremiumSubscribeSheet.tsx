@@ -38,7 +38,7 @@ export interface PremiumSubscribeSheetProps {
 const SCREEN_HEIGHT = Dimensions.get('window').height;
 
 /* ── Plan definitions ──────────────────────────────────────── */
-type PlanId = 'monthly' | 'yearly' | 'lifetime';
+type PlanId = 'monthly' | 'threeMonth' | 'sixMonth' | 'yearly' | 'lifetime';
 
 interface Plan {
   id: PlanId;
@@ -55,24 +55,25 @@ const PLANS: Plan[] = [
   {
     id: 'monthly',
     labelKey: 'premiumSheets.plans.monthlyLabel',
-    fallbackPrice: '€4.99',
+    fallbackPrice: '€3.99',
     perKey: 'premiumSheets.plans.monthlyPer',
   },
   {
-    id: 'yearly',
-    labelKey: 'premiumSheets.plans.yearlyLabel',
-    fallbackPrice: '€29.99',
-    fallbackPerMonthPrice: '€2.50',
+    id: 'threeMonth',
+    labelKey: 'premiumSheets.plans.threeMonthLabel',
+    fallbackPrice: '€8.99',
+    fallbackPerMonthPrice: '€3.00',
     perMonthKey: 'premiumSheets.plans.perMonth',
-    badgeKey: 'premiumSheets.plans.yearlyBadge',
+    badgeKey: 'premiumSheets.plans.popularBadge',
     badgeStyle: 'yellow',
   },
   {
-    id: 'lifetime',
-    labelKey: 'premiumSheets.plans.lifetimeLabel',
-    fallbackPrice: '€49.99',
-    perKey: 'premiumSheets.plans.lifetimePer',
-    badgeKey: 'premiumSheets.plans.lifetimeBadge',
+    id: 'sixMonth',
+    labelKey: 'premiumSheets.plans.sixMonthLabel',
+    fallbackPrice: '€14.99',
+    fallbackPerMonthPrice: '€2.50',
+    perMonthKey: 'premiumSheets.plans.perMonth',
+    badgeKey: 'premiumSheets.plans.bestValueBadge',
     badgeStyle: 'solid',
   },
 ];
@@ -88,6 +89,11 @@ const getFeatures = (colors: ThemeColors) => [
     key: 'unlimitedQuizzes',
     icon: <FontAwesome5 name="infinity" size={18} color={colors.white} />,
     bgColor: colors.featureBadges.green,
+  },
+  {
+    key: 'offlineMode',
+    icon: <FontAwesome5 name="plane" size={18} color={colors.white} />,
+    bgColor: colors.featureBadges.yellow,
   },
   {
     key: 'allLevels',
@@ -121,7 +127,7 @@ export function PremiumSubscribeSheet({
   const [overlayOpacity] = useState(() => new Animated.Value(0));
   const sheetHeightRef = useRef(SCREEN_HEIGHT);
   const isClosing = useRef(false);
-  const [selectedPlan, setSelectedPlan] = useState<PlanId>('yearly');
+  const [selectedPlan, setSelectedPlan] = useState<PlanId>('threeMonth');
   const [packages, setPackages] = useState<MappedPackages | null>(null);
   const [isLoadingPackages, setIsLoadingPackages] = useState(false);
   const [isPurchasing, setIsPurchasing] = useState(false);
@@ -215,7 +221,7 @@ export function PremiumSubscribeSheet({
   useEffect(() => {
     if (visible) {
       isClosing.current = false;
-      setSelectedPlan('yearly');
+      setSelectedPlan('threeMonth');
       setIsPurchasing(false);
       loadPackages();
 
@@ -275,11 +281,12 @@ export function PremiumSubscribeSheet({
   );
 
   const getPerMonthPrice = (plan: Plan): string | undefined => {
-    if (plan.id !== 'yearly') {
+    if (plan.id === 'monthly' || plan.id === 'lifetime') {
       return undefined;
     }
-    if (packages?.yearly?.monthlyPriceString) {
-      return packages.yearly.monthlyPriceString;
+    const mapped = packages?.[plan.id];
+    if (mapped?.monthlyPriceString) {
+      return mapped.monthlyPriceString;
     }
     return plan.fallbackPerMonthPrice;
   };
@@ -388,9 +395,21 @@ export function PremiumSubscribeSheet({
 
     const trialInfo = getTrialInfo(selectedPlanConfig);
     const planPrice = getPriceForPlan(selectedPlanConfig);
-    const periodString = intl.formatMessage({
-      id: selectedPlan === 'monthly' ? 'premiumSheets.periodMonth' : 'premiumSheets.periodYear',
-    });
+    const getPeriodId = (id: PlanId): string => {
+      switch (id) {
+        case 'monthly':
+          return 'premiumSheets.periodMonth';
+        case 'threeMonth':
+          return 'premiumSheets.period3Months';
+        case 'sixMonth':
+          return 'premiumSheets.period6Months';
+        case 'yearly':
+          return 'premiumSheets.periodYear';
+        default:
+          return 'premiumSheets.periodMonth';
+      }
+    };
+    const periodString = intl.formatMessage({ id: getPeriodId(selectedPlan) });
 
     if (trialInfo) {
       const trialUnitString = intl.formatMessage({
@@ -495,7 +514,7 @@ export function PremiumSubscribeSheet({
                       key={plan.id}
                       style={[
                         styles.planCard,
-                        plan.id === 'yearly' && styles.planCardFeatured,
+                        plan.id === 'threeMonth' && styles.planCardFeatured,
                         isSelected && styles.planCardSelected,
                       ]}
                       activeOpacity={0.8}
@@ -520,6 +539,9 @@ export function PremiumSubscribeSheet({
                           ]}
                         >
                           <Text
+                            numberOfLines={1}
+                            adjustsFontSizeToFit
+                            minimumFontScale={0.75}
                             style={[
                               styles.planBadgeText,
                               plan.badgeStyle === 'yellow'
@@ -569,7 +591,7 @@ export function PremiumSubscribeSheet({
                                 { id: getTrialBadgeKey(trialInfo.unit) },
                                 { count: trialInfo.count },
                               )
-                              .replace(/ /g, '\u00A0')}
+                              .replace(/(\d+)\s+/g, '$1\u00A0')}
                           </Text>
                         </View>
                       )}

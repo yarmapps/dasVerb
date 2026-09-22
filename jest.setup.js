@@ -180,6 +180,7 @@ jest.mock('react-native-google-mobile-ads', () => {
       INTERSTITIAL: 'ca-app-pub-3940256099942544/1033173712',
       REWARDED: 'ca-app-pub-3940256099942544/5224354917',
       BANNER: 'ca-app-pub-3940256099942544/6300978111',
+      NATIVE: 'ca-app-pub-3940256099942544/2247696110',
     },
     AdEventType: {
       LOADED: 'loaded',
@@ -196,6 +197,65 @@ jest.mock('react-native-google-mobile-ads', () => {
     RewardedAd: {
       createForAdRequest: jest.fn(() => createMockAd()),
     },
+    NativeAd: {
+      createForAdRequest: jest.fn(() =>
+        Promise.resolve({
+          destroy: jest.fn(),
+          headline: 'Mock Headline',
+          body: 'Mock Body',
+          advertiser: 'Mock Advertiser',
+          callToAction: 'Install',
+          icon: { url: 'https://example.com/icon.png' },
+        }),
+      ),
+    },
+    NativeAdView: ({ children, style }: any) => {
+      const { View } = require('react-native');
+      return <View style={style}>{children}</View>;
+    },
+    NativeAsset: ({ children }: any) => <>{children}</>,
+    NativeAssetType: {
+      HEADLINE: 'headline',
+      BODY: 'body',
+      CALL_TO_ACTION: 'callToAction',
+      ADVERTISER: 'advertiser',
+      ICON: 'icon',
+      IMAGE: 'image',
+    },
+    NativeAdChoicesPlacement: {
+      TOP_RIGHT: 'topRight',
+      TOP_LEFT: 'topLeft',
+      BOTTOM_RIGHT: 'bottomRight',
+      BOTTOM_LEFT: 'bottomLeft',
+    },
+    AdsConsentStatus: {
+      UNKNOWN: 'UNKNOWN',
+      REQUIRED: 'REQUIRED',
+      NOT_REQUIRED: 'NOT_REQUIRED',
+      OBTAINED: 'OBTAINED',
+    },
+    AdsConsentDebugGeography: {
+      DISABLED: 0,
+      EEA: 1,
+      NOT_EEA: 2,
+    },
+    AdsConsent: {
+      requestInfoUpdate: jest.fn().mockResolvedValue({
+        status: 'NOT_REQUIRED',
+        isConsentFormAvailable: true,
+      }),
+      loadAndShowConsentFormIfRequired: jest.fn().mockResolvedValue({
+        status: 'OBTAINED',
+      }),
+      showPrivacyOptionsForm: jest.fn().mockResolvedValue({
+        status: 'OBTAINED',
+      }),
+      reset: jest.fn().mockResolvedValue(undefined),
+    },
+    default: () => ({
+      initialize: jest.fn().mockResolvedValue({}),
+      setRequestConfiguration: jest.fn().mockResolvedValue(undefined),
+    }),
   };
 });
 
@@ -266,6 +326,17 @@ jest.mock('expo-notifications', () => ({
   },
 }));
 
+jest.mock('expo-tracking-transparency', () => ({
+  getTrackingPermissionsAsync: jest.fn().mockResolvedValue({ status: 'granted' }),
+  requestTrackingPermissionsAsync: jest.fn().mockResolvedValue({ status: 'granted' }),
+  PermissionStatus: {
+    GRANTED: 'granted',
+    DENIED: 'denied',
+    UNDETERMINED: 'undetermined',
+  },
+}));
 
-
+jest.mock('@react-native-community/netinfo', () =>
+  require('@react-native-community/netinfo/jest/netinfo-mock.js'),
+);
 

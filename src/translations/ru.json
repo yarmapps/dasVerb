@@ -60,7 +60,14 @@
     "prefixBannerTitle": "Глаголы с приставками",
     "prefixBannerSubtitle": "Отделяемые, неотделяемые и двойные приставки",
     "conjugationBannerTitle": "Тренажёр спряжений",
-    "conjugationBannerSubtitle": "Тренируйте формы глаголов для всех местоимений в Präsens"
+    "conjugationBannerSubtitle": "Тренируйте формы глаголов для всех местоимений в Präsens",
+    "verbFormsBannerTitle": "Неправильные глаголы",
+    "verbFormsBannerSubtitle": "Тренировка инфинитива, Präteritum и Perfekt",
+    "prepositionsBannerTitle": "Глаголы с предлогами",
+    "prepositionsBannerSubtitle": "Тренируйте предлоги и падежи глаголов",
+    "adBadge": "Реклама",
+    "sectionModes": "По режимам",
+    "sectionTopics": "По темам"
   },
   "categories": {
     "sectionTitle": "Тематические категории",
@@ -138,6 +145,14 @@
     "voiceMale": "Мужской",
     "maleVoiceHint": "Чтобы использовать мужской немецкий голос, установите его в Настройки iOS → Универсальный доступ → Устный контент → Голоса → Немецкий.",
     "contactUs": "Связаться с нами",
+    "subscriptionSection": "ПОДПИСКА",
+    "manageSubscription": "Управление подпиской",
+    "rateApp": "Оценить приложение",
+    "privacySettings": "Настройки конфиденциальности",
+    "privacyOptionsError": "Не удалось открыть настройки конфиденциальности. Пожалуйста, попробуйте позже.",
+    "error": "Ошибка",
+    "privacyPolicy": "Политика конфиденциальности",
+    "termsOfService": "Условия использования",
     "version": "Версия",
     "notificationsPermissionRequiredTitle": "Включите уведомления",
     "notificationsPermissionRequiredMessage": "Чтобы получать ежедневные напоминания и сохранять серию занятий, пожалуйста, включите уведомления в настройках устройства.",
@@ -219,11 +234,62 @@
     "aToAeRule": "Чередование a → ä во 2-м и 3-м лице единственного числа (du, er/sie/es).",
     "auToAeuRule": "Чередование au → äu во 2-м и 3-м лице единственного числа (du, er/sie/es)."
   },
+  "verbFormsPracticeListScreen": {
+    "title": "Неправильные глаголы",
+    "levelNumber": "Уровень {number}",
+    "checkpointTitle": "Чекпоинт {number}",
+    "checkpointSubtitle": "Повторение 10 случайных глаголов",
+    "finalTestTitle": "Финальный тест {level}",
+    "finalTestSubtitle": "Большой тест по 15 глаголам уровня"
+  },
+  "verbFormsPractice": {
+    "title": "Неправильные глаголы",
+    "levelTitle": "Уровень {number}",
+    "checkpointNumberTitle": "Чекпоинт {number}",
+    "finalTestTitle": "Финальный тест {level}"
+  },
+  "verbFormsGrammarHint": {
+    "ruleTag": "Правило",
+    "strongVerbTag": "Сильный глагол",
+    "weakVerbTag": "Слабый глагол",
+    "mixedVerbTag": "Смешанный глагол",
+    "irregularVerbTag": "Неправильный глагол",
+    "modalVerbTag": "Модальный глагол",
+    "seinRule": "Глаголы движения, изменения состояния, а также sein и bleiben образуют Perfekt с «sein».",
+    "habenRule": "Переходные, возвратные глаголы и состояния образуют Perfekt с «haben».",
+    "strongVerbRule": "Сильные глаголы меняют корневую гласную в Präteritum и оканчиваются на -en в Partizip II.",
+    "weakVerbRule": "Слабые глаголы получают суффикс -te в Präteritum и ge-...-t в Partizip II.",
+    "mixedVerbRule": "Смешанные глаголы меняют гласную, но принимают окончания слабых глаголов (-te, -t)."
+  },
+  "verbFormsExercise": {
+    "infinitive": "Инфинитив",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt"
+  },
+  "prepositionsPracticeListScreen": {
+    "title": "Глаголы с предлогами",
+    "levelNumber": "Уровень {number}",
+    "checkpointTitle": "Чекпоинт {number}",
+    "checkpointSubtitle": "Повторение 10 случайных глаголов",
+    "finalTestTitle": "Финальный тест {level}",
+    "finalTestSubtitle": "Большой тест по 15 глаголам уровня"
+  },
+  "prepositionsPractice": {
+    "title": "Предлоги",
+    "levelTitle": "Уровень {number}",
+    "checkpointNumberTitle": "Чекпоинт {number}",
+    "finalTestTitle": "Финальный тест {level}"
+  },
+  "prepositionGrammarHint": {
+    "ruleTag": "Управление",
+    "questionLabel": "Вопрос к объекту:"
+  },
   "verbQuizScreen": {
     "title": "Тренировка",
     "checkpointQuizTitle": "Промежуточный тест",
     "smartQuizTitle": "Умный квиз",
     "conjugateVerbTitle": "Проспрягайте глагол {verb}",
+    "prepositionTaskTitle": "Выберите предлог",
     "level": "Уровень",
     "check": "Проверить",
     "continue": "Продолжить",
@@ -257,15 +323,15 @@
     "showErrorsOnly": "Показать только ошибки"
   },
   "dailyQuizLimitModal": {
-    "title": "Отличный прогресс!",
-    "message": "Вы действительно полны решимости выучить немецкий!",
+    "title": "Так держать!",
+    "message": "Вы действительно настроены выучить немецкий!",
     "instructions": "Как вы хотите продолжить?",
     "videoButton": "Смотреть рекламу",
     "or": "или",
     "premiumButtonWithTrial": "Бесплатные безлимитные уровни\nна {daysLabel}",
-    "premiumButtonNoTrial": "Купить Premium",
-    "premiumButtonSubtitleWithTrial": "потом {yearlyPrice} в год (☕️ / мес.)",
-    "premiumButtonSubtitleNoTrial": "{yearlyPrice} в год (☕️ / мес.)",
+    "premiumButtonNoTrial": "Без рекламы",
+    "premiumButtonSubtitleWithTrial": "потом {yearlyPrice} за 3 месяца (☕️ / мес.)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} за 3 месяца (☕️ / мес.)",
     "waitUntilTomorrow": "Ждать до завтра",
     "cancelAnytime": "Отмена в любое время"
   },
@@ -291,6 +357,8 @@
     },
     "periodMonth": "мес.",
     "periodYear": "год",
+    "period3Months": "3 месяца",
+    "period6Months": "6 месяцев",
     "restorePurchases": "Восстановить покупки",
     "errorTitle": "Ошибка",
     "errorUnavailable": "Этот план сейчас недоступен. Попробуйте позже.",
@@ -310,7 +378,11 @@
       "perMonth": "{price}/мес.",
       "lifetimeLabel": "Навсегда",
       "lifetimePer": "Один раз",
-      "lifetimeBadge": "РАЗОВО"
+      "lifetimeBadge": "РАЗОВО",
+      "threeMonthLabel": "3 месяца",
+      "sixMonthLabel": "6 месяцев",
+      "bestValueBadge": "ВЫГОДНО",
+      "popularBadge": "ПОПУЛЯРНЫЙ"
     },
     "features": {
       "noAdsTitle": "Без рекламы",
@@ -327,7 +399,10 @@
       "smartQuizModeDescription": "Тренируйте свои ошибки и учитесь в 3 раза быстрее!",
       "naturalVoiceTitle": "Живое произношение",
       "naturalVoiceShort": "Живое\nаудио",
-      "naturalVoiceDescription": "Слушайте глаголы и примеры предложений с естественным немецким произношением."
+      "naturalVoiceDescription": "Слушайте глаголы и примеры предложений с естественным немецким произношением.",
+      "offlineModeTitle": "Офлайн-режим",
+      "offlineModeShort": "Офлайн-\nрежим",
+      "offlineModeDescription": "Тренируйте глаголы в любое время и в любом месте без интернета."
     }
   },
   "notifications": {
@@ -346,6 +421,7 @@
     "restore": "Восстановить покупки",
     "proceedLimited": "Продолжить с ограниченной версией",
     "priceYearlyWithCoffee": "{price}/год, чашка кофе/мес.",
+    "price3MonthsWithCoffee": "Всего {price} за 3 месяца — меньше чашки кофе в месяц",
     "disclaimer": "Автопродление за {price}/год. Отмените в любой момент в настройках аккаунта.",
     "disclaimerFallback": "Автопродление раз в год. Отмените в любой момент в настройках.",
     "priceWithTrial": "Бесплатно на {trialDuration}, затем {price}/год",
@@ -370,6 +446,10 @@
           "smartQuizMode": {
             "title": "Умный алгоритм ошибок",
             "text": "Фокусируйтесь на сложных для вас формах и учите глаголы в 3 раза быстрее."
+          },
+          "offlineMode": {
+            "title": "Офлайн-режим",
+            "text": "Тренируйте немецкие глаголы в любое время и в любом месте без подключения к интернету."
           }
         }
       },
@@ -380,9 +460,18 @@
       },
       "day3": {
         "day": "День 3",
-        "headline": "Старт годового доступа",
-        "description": "Пробный период переходит в годовой доступ. Отмените в любой момент в настройках."
+        "headline": "Старт подписки на 3 месяца",
+        "description": "Пробный период переходит в подписку на 3 месяца. Отмените в любой момент в настройках."
       }
     }
+  },
+  "offlineModal": {
+    "title": "Требуется интернет",
+    "message": "Оформите Premium, чтобы заниматься офлайн в любое время.",
+    "getPremium": "Купить Premium",
+    "retry": "Повторить",
+    "enableOffline": "Включить офлайн",
+    "premiumButtonWithTrial": "Бесплатный Premium на {daysLabel}",
+    "premiumButtonNoTrial": "Купить Premium"
   }
 }

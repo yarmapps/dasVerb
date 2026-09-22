@@ -7,7 +7,7 @@ import Purchases, {
   PACKAGE_TYPE,
 } from 'react-native-purchases';
 import { setPremiumEnabled, isPremiumEnabled } from './premiumAccessService';
-import { setTrialStartDate } from './usageService';
+import { setTrialStartDate, getTrialStartDate } from './usageService';
 import { scheduleTrialReminder } from './notificationService';
 import { isFeatureEnabled } from './featuresService';
 
@@ -194,6 +194,8 @@ export interface MappedPackage {
 
 export type MappedPackages = {
   monthly: MappedPackage | null;
+  threeMonth: MappedPackage | null;
+  sixMonth: MappedPackage | null;
   yearly: MappedPackage | null;
   lifetime: MappedPackage | null;
 };
@@ -217,13 +219,41 @@ export async function getMappedPackages(): Promise<MappedPackages | null> {
         p =>
           p.packageType === packageType ||
           identifiers.includes(p.identifier?.toLowerCase()) ||
-          productIdentifiers.includes(p.product?.identifier?.toLowerCase()),
+          productIdentifiers.some(
+            id =>
+              p.product?.identifier?.toLowerCase() === id ||
+              p.product?.identifier?.toLowerCase().startsWith(`${id}:`),
+          ),
       );
 
     const monthlyPackage = findPackage(
       PACKAGE_TYPE.MONTHLY,
-      ['$rc_monthly', 'monthly', 'month', 'premium_monthly', '1month'],
-      ['premium_monthly', 'monthly', 'dasverb_monthly'],
+      ['$rc_monthly', 'monthly', 'month', 'premium_monthly', '1month', 'dasverb_premium_monthly'],
+      ['premium_monthly', 'monthly', 'dasverb_monthly', 'dasverb_premium_monthly'],
+    );
+    const threeMonthPackage = findPackage(
+      PACKAGE_TYPE.THREE_MONTH,
+      [
+        '$rc_three_month',
+        'three_month',
+        '3months',
+        '3month',
+        'premium_3months',
+        'dasverb_premium_3months',
+      ],
+      ['premium_3months', 'three_month', 'dasverb_3months', 'dasverb_premium_3months'],
+    );
+    const sixMonthPackage = findPackage(
+      PACKAGE_TYPE.SIX_MONTH,
+      [
+        '$rc_six_month',
+        'six_month',
+        '6months',
+        '6month',
+        'premium_6months',
+        'dasverb_premium_6months',
+      ],
+      ['premium_6months', 'six_month', 'dasverb_6months', 'dasverb_premium_6months'],
     );
     const annualPackage = findPackage(
       PACKAGE_TYPE.ANNUAL,
@@ -236,14 +266,24 @@ export async function getMappedPackages(): Promise<MappedPackages | null> {
         'premium_yearly',
         '12months',
         '1year',
+        'dasverb_premium_yearly',
       ],
-      ['premium_yearly', 'yearly', 'annual', 'dasverb_yearly'],
+      ['premium_yearly', 'yearly', 'annual', 'dasverb_yearly', 'dasverb_premium_yearly'],
     );
     const lifetimePackage = findPackage(
       PACKAGE_TYPE.LIFETIME,
-      ['$rc_lifetime', 'lifetime', 'forever', 'premium_lifetime', 'onetime'],
-      ['premium_lifetime', 'lifetime', 'dasverb_lifetime'],
+      [
+        '$rc_lifetime',
+        'lifetime',
+        'forever',
+        'premium_lifetime',
+        'onetime',
+        'dasverb_premium_lifetime',
+      ],
+      ['premium_lifetime', 'lifetime', 'dasverb_lifetime', 'dasverb_premium_lifetime'],
     );
+
+    const userHadTrial = getTrialStartDate() !== null;
 
     const buildMapped = (pkg: PurchasesPackage | undefined): MappedPackage | null => {
       if (!pkg) {
@@ -255,15 +295,31 @@ export async function getMappedPackages(): Promise<MappedPackages | null> {
         priceString: pkg.product?.priceString || '$4.99',
       };
 
-      // Extract free trial info from introPrice
-      const intro = pkg.product?.introPrice;
-      if (intro && intro.price === 0 && intro.periodNumberOfUnits > 0) {
-        const unit = intro.periodUnit?.toLowerCase() as FreeTrialInfo['unit'];
-        mapped.freeTrialInfo = { count: intro.periodNumberOfUnits, unit: unit || 'day' };
+      // Extract free trial info from introPrice only if user has not activated a trial previously
+      if (!userHadTrial) {
+        const intro = pkg.product?.introPrice;
+        if (intro && intro.price === 0 && intro.periodNumberOfUnits > 0) {
+          const unit = intro.periodUnit?.toLowerCase() as FreeTrialInfo['unit'];
+          mapped.freeTrialInfo = { count: intro.periodNumberOfUnits, unit: unit || 'day' };
+        }
       }
 
       return mapped;
     };
+
+    const threeMonthMapped = buildMapped(threeMonthPackage);
+    if (threeMonthMapped && threeMonthPackage?.product?.price) {
+      const { price, currencyCode } = threeMonthPackage.product;
+      const monthlyPrice = price / 3;
+      threeMonthMapped.monthlyPriceString = formatPrice(monthlyPrice, currencyCode || 'USD');
+    }
+
+    const sixMonthMapped = buildMapped(sixMonthPackage);
+    if (sixMonthMapped && sixMonthPackage?.product?.price) {
+      const { price, currencyCode } = sixMonthPackage.product;
+      const monthlyPrice = price / 6;
+      sixMonthMapped.monthlyPriceString = formatPrice(monthlyPrice, currencyCode || 'USD');
+    }
 
     const annualMapped = buildMapped(annualPackage);
     if (annualMapped && annualPackage?.product?.price) {
@@ -272,9 +328,17 @@ export async function getMappedPackages(): Promise<MappedPackages | null> {
       annualMapped.monthlyPriceString = formatPrice(monthlyPrice, currencyCode || 'USD');
     }
 
-    if (monthlyPackage || annualPackage || lifetimePackage) {
+    if (
+      monthlyPackage ||
+      threeMonthPackage ||
+      sixMonthPackage ||
+      annualPackage ||
+      lifetimePackage
+    ) {
       return {
         monthly: buildMapped(monthlyPackage),
+        threeMonth: threeMonthMapped,
+        sixMonth: sixMonthMapped,
         yearly: annualMapped,
         lifetime: buildMapped(lifetimePackage),
       };
@@ -284,48 +348,57 @@ export async function getMappedPackages(): Promise<MappedPackages | null> {
   // In DEV, if RevenueCat Dashboard is not fully configured yet, return fallback mock packages for seamless testing
   if (__DEV__) {
     console.log('[RevenueCat] DEV mode: Using mock packages for local UI/flow testing');
+    const userHadTrial = getTrialStartDate() !== null;
     return {
       monthly: {
         pkg: {
           identifier: '$rc_monthly',
           packageType: PACKAGE_TYPE.MONTHLY,
           product: {
-            identifier: 'premium_monthly',
-            priceString: '$4.99',
-            price: 4.99,
-            currencyCode: 'USD',
+            identifier: 'dasverb_premium_monthly',
+            priceString: '€3.99',
+            price: 3.99,
+            currencyCode: 'EUR',
           },
         } as unknown as PurchasesPackage,
-        priceString: '$4.99',
+        priceString: '€3.99',
       },
-      yearly: {
+      threeMonth: {
         pkg: {
-          identifier: '$rc_annual',
-          packageType: PACKAGE_TYPE.ANNUAL,
+          identifier: '$rc_three_month',
+          packageType: PACKAGE_TYPE.THREE_MONTH,
           product: {
-            identifier: 'premium_yearly',
-            priceString: '$29.99',
-            price: 29.99,
-            currencyCode: 'USD',
+            identifier: 'dasverb_premium_3months',
+            priceString: '€8.99',
+            price: 8.99,
+            currencyCode: 'EUR',
+            introPrice: {
+              price: 0,
+              periodNumberOfUnits: 3,
+              periodUnit: 'DAY',
+            },
           },
         } as unknown as PurchasesPackage,
-        priceString: '$29.99',
-        monthlyPriceString: '$2.50',
-        freeTrialInfo: { count: 3, unit: 'day' },
+        priceString: '€8.99',
+        monthlyPriceString: '€3.00',
+        freeTrialInfo: userHadTrial ? undefined : { count: 3, unit: 'day' },
       },
-      lifetime: {
+      sixMonth: {
         pkg: {
-          identifier: '$rc_lifetime',
-          packageType: PACKAGE_TYPE.LIFETIME,
+          identifier: '$rc_six_month',
+          packageType: PACKAGE_TYPE.SIX_MONTH,
           product: {
-            identifier: 'premium_lifetime',
-            priceString: '$49.99',
-            price: 49.99,
-            currencyCode: 'USD',
+            identifier: 'dasverb_premium_6months',
+            priceString: '€14.99',
+            price: 14.99,
+            currencyCode: 'EUR',
           },
         } as unknown as PurchasesPackage,
-        priceString: '$49.99',
+        priceString: '€14.99',
+        monthlyPriceString: '€2.50',
       },
+      yearly: null,
+      lifetime: null,
     };
   }
 

@@ -13,6 +13,8 @@ const sentenceErrorsStorage = createStorage('sentence_error_stats');
 const checkpointStorage = createStorage('checkpoint_progress');
 const prefixLevelsStorage = createStorage('prefix_levels_progress');
 const conjugationLevelsStorage = createStorage('conjugation_levels_progress');
+const verbFormsLevelsStorage = createStorage('verb_forms_levels_progress');
+const prepositionLevelsStorage = createStorage('preposition_levels_progress');
 
 export function calculateVerbStatus(score: number): VerbProgressStatus {
   if (score < 60) return 'uncompleted';
@@ -194,6 +196,8 @@ export const progressService = {
     checkpointStorage.clearAll();
     prefixLevelsStorage.clearAll();
     conjugationLevelsStorage.clearAll();
+    verbFormsLevelsStorage.clearAll();
+    prepositionLevelsStorage.clearAll();
   },
 
   getPrefixLevelProgress(levelId: string): VerbProgress {
@@ -264,5 +268,75 @@ export const progressService = {
       lastPracticedAt: Date.now(),
     };
     conjugationLevelsStorage.set(levelId, JSON.stringify(progressData));
+  },
+
+  getVerbFormsLevelProgress(levelId: string): VerbProgress {
+    const rawData = verbFormsLevelsStorage.getString(levelId);
+    if (rawData) {
+      try {
+        const parsed = JSON.parse(rawData);
+        const score = typeof parsed.score === 'number' ? parsed.score : 0;
+        return {
+          score,
+          status: calculateVerbStatus(score),
+          lastPracticedAt: parsed.lastPracticedAt,
+        };
+      } catch {
+        // ignore corrupted json
+      }
+    }
+
+    return {
+      score: 0,
+      status: 'uncompleted',
+    };
+  },
+
+  setVerbFormsLevelProgress(levelId: string, score: number): void {
+    const clampedScore = Math.max(0, Math.min(100, score));
+    const previousProgress = this.getVerbFormsLevelProgress(levelId);
+    const bestScore = Math.max(previousProgress.score, clampedScore);
+    const status = calculateVerbStatus(bestScore);
+    const progressData: VerbProgress = {
+      score: bestScore,
+      status,
+      lastPracticedAt: Date.now(),
+    };
+    verbFormsLevelsStorage.set(levelId, JSON.stringify(progressData));
+  },
+
+  getPrepositionLevelProgress(levelId: string): VerbProgress {
+    const rawData = prepositionLevelsStorage.getString(levelId);
+    if (rawData) {
+      try {
+        const parsed = JSON.parse(rawData);
+        const score = typeof parsed.score === 'number' ? parsed.score : 0;
+        return {
+          score,
+          status: calculateVerbStatus(score),
+          lastPracticedAt: parsed.lastPracticedAt,
+        };
+      } catch {
+        // ignore corrupted json
+      }
+    }
+
+    return {
+      score: 0,
+      status: 'uncompleted',
+    };
+  },
+
+  setPrepositionLevelProgress(levelId: string, score: number): void {
+    const clampedScore = Math.max(0, Math.min(100, score));
+    const previousProgress = this.getPrepositionLevelProgress(levelId);
+    const bestScore = Math.max(previousProgress.score, clampedScore);
+    const status = calculateVerbStatus(bestScore);
+    const progressData: VerbProgress = {
+      score: bestScore,
+      status,
+      lastPracticedAt: Date.now(),
+    };
+    prepositionLevelsStorage.set(levelId, JSON.stringify(progressData));
   },
 };

@@ -36,9 +36,15 @@ import { isFeatureEnabled } from '../../services/featuresService';
 type NavigationProp = NativeStackNavigationProp<RootStackParamList, 'FirstOpenPaywall'>;
 type RoutePropType = RouteProp<RootStackParamList, 'FirstOpenPaywall'>;
 
-type BenefitKey = 'noAds' | 'unlimitedQuizzes' | 'allLevels' | 'smartQuizMode';
+type BenefitKey = 'noAds' | 'unlimitedQuizzes' | 'offlineMode' | 'allLevels' | 'smartQuizMode';
 
-const BENEFIT_KEYS: BenefitKey[] = ['noAds', 'unlimitedQuizzes', 'allLevels', 'smartQuizMode'];
+const BENEFIT_KEYS: BenefitKey[] = [
+  'noAds',
+  'unlimitedQuizzes',
+  'offlineMode',
+  'allLevels',
+  'smartQuizMode',
+];
 
 export function FirstOpenPaywallScreen(): React.JSX.Element | null {
   const navigation = useNavigation<NavigationProp>();
@@ -117,7 +123,10 @@ export function FirstOpenPaywallScreen(): React.JSX.Element | null {
 
   const handlePurchase = async () => {
     const targetPackage =
-      packages?.yearly?.pkg ?? packages?.monthly?.pkg ?? packages?.lifetime?.pkg;
+      packages?.threeMonth?.pkg ??
+      packages?.yearly?.pkg ??
+      packages?.monthly?.pkg ??
+      packages?.lifetime?.pkg;
     if (!targetPackage) {
       Alert.alert(
         intl.formatMessage({ id: 'premiumSheets.errorTitle' }),
@@ -168,11 +177,11 @@ export function FirstOpenPaywallScreen(): React.JSX.Element | null {
     }
   };
 
-  const yearlyPackage = packages?.yearly;
-  const day3Subline = yearlyPackage
+  const heroPackage = packages?.threeMonth ?? packages?.yearly;
+  const day3Subline = heroPackage
     ? intl.formatMessage(
-        { id: 'firstOpenPaywall.priceYearlyWithCoffee' },
-        { price: yearlyPackage.priceString },
+        { id: 'firstOpenPaywall.price3MonthsWithCoffee' },
+        { price: heroPackage.priceString },
       )
     : undefined;
 

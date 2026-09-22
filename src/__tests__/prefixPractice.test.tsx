@@ -302,17 +302,21 @@ describe('Prefix Practice Suite', () => {
 
       // Press standard level
       fireEvent.press(getByTestId('prefix-level-prefix_a1_sep_1'));
-      expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
-        prefixLevelId: 'prefix_a1_sep_1',
-        prefixCefrLevel: 'A1',
+      await waitFor(() => {
+        expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
+          prefixLevelId: 'prefix_a1_sep_1',
+          prefixCefrLevel: 'A1',
+        });
       });
 
       // Press checkpoint
       fireEvent.press(getByTestId('prefix-checkpoint-A1'));
-      expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
-        prefixLevelId: 'prefix_checkpoint_a1',
-        isPrefixCheckpoint: true,
-        prefixCefrLevel: 'A1',
+      await waitFor(() => {
+        expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
+          prefixLevelId: 'prefix_checkpoint_a1',
+          isPrefixCheckpoint: true,
+          prefixCefrLevel: 'A1',
+        });
       });
 
       // Switch tab to A2

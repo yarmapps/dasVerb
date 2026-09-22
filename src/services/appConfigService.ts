@@ -21,107 +21,190 @@ export interface AppConfig {
 }
 
 export const REMOTE_CONFIG_URL = 'https://das-verb.yapps.studio/app-config.json';
-const DEFAULT_FETCH_TIMEOUT_MS = 3000;
 const STORAGE_KEY_CACHED_CONFIG = 'cached_remote_config';
 
-const storage = createStorage('app-config');
+const storage = createStorage('app-remote-config');
 
-let currentConfig: AppConfig = loadInitialConfig();
+class AppConfigService {
+  private currentConfig: AppConfig = defaultConfig;
+  private isInitialized = false;
 
-function loadInitialConfig(): AppConfig {
-  try {
-    const raw = storage.getString(STORAGE_KEY_CACHED_CONFIG);
-    if (raw) {
-      const parsed = JSON.parse(raw);
-      if (parsed && typeof parsed === 'object' && parsed.features) {
-        return {
-          ...defaultConfig,
-          ...parsed,
+  constructor() {
+    this.resolveFallbackConfig();
+  }
+
+  /**
+   * Resolves fallback config: first checks MMKV cache, otherwise falls back to bundled assets/app-config.json
+   */
+  public resolveFallbackConfig(): void {
+    try {
+      const raw = storage.getString(STORAGE_KEY_CACHED_CONFIG);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (parsed && typeof parsed === 'object') {
+          this.currentConfig = {
+            ios: parsed.ios || defaultConfig.ios,
+            android: parsed.android || defaultConfig.android,
+            features: {
+              ...defaultConfig.features,
+              ...(parsed.features || {}),
+            },
+          };
+          return;
+        }
+      }
+    } catch (e) {
+      console.warn('[AppConfigService] Error reading stored config:', e);
+    }
+
+    this.currentConfig = defaultConfig;
+  }
+
+  /**
+   * Initializes remote config on app startup.
+   * Sends a network request and waits with a strict timeout (500ms by default).
+   * - If network succeeds within timeout: applies & saves to storage.
+   * - If timeout / error: uses cache (or bundled JSON), while background fetch continues to update storage.
+   */
+  async init(timeoutMs = 500): Promise<void> {
+    if (this.isInitialized) return;
+
+    let timeoutFired = false;
+    let timer: ReturnType<typeof setTimeout> | null = null;
+
+    const timeoutPromise = new Promise<void>(resolve => {
+      timer = setTimeout(() => {
+        timeoutFired = true;
+        resolve();
+      }, timeoutMs);
+    });
+
+    const fetchPromise = this.fetchAndSaveRemoteConfig();
+
+    await Promise.race([fetchPromise, timeoutPromise]);
+
+    if (timer) {
+      clearTimeout(timer);
+    }
+
+    if (timeoutFired) {
+      console.log(
+        `[AppConfigService] Init timed out after ${timeoutMs}ms, proceeding with cached/fallback config.`,
+      );
+    }
+
+    this.isInitialized = true;
+  }
+
+  /**
+   * Fetches remote config from server, updates in-memory state and saves to storage.
+   * Background request continues even if init() timed out.
+   */
+  async fetchAndSaveRemoteConfig(url = REMOTE_CONFIG_URL): Promise<AppConfig | null> {
+    try {
+      const response = await fetch(url, {
+        headers: {
+          'Cache-Control': 'no-cache',
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error(`Failed to fetch remote config: ${response.status}`);
+      }
+
+      const fetchedJson = (await response.json()) as Partial<AppConfig>;
+      if (fetchedJson && typeof fetchedJson === 'object') {
+        const mergedConfig: AppConfig = {
+          ios: fetchedJson.ios || defaultConfig.ios,
+          android: fetchedJson.android || defaultConfig.android,
           features: {
             ...defaultConfig.features,
-            ...parsed.features,
+            ...(fetchedJson.features || {}),
           },
         };
+
+        this.currentConfig = mergedConfig;
+        try {
+          storage.set(STORAGE_KEY_CACHED_CONFIG, JSON.stringify(mergedConfig));
+        } catch (e) {
+          console.warn('[AppConfigService] Error saving to storage:', e);
+        }
+        return mergedConfig;
       }
+    } catch (error) {
+      console.warn('[AppConfigService] Network fetch failed, keeping fallback:', error);
     }
-  } catch {
-    // Ignore storage parse errors and fallback to bundled default
+    return null;
   }
-  return defaultConfig;
+
+  getAppConfig(): AppConfig {
+    return this.currentConfig;
+  }
+
+  getFeaturesConfig(): FeaturesConfig {
+    return this.currentConfig.features;
+  }
+
+  isFirstOpenPaywallDisabled(): boolean {
+    return this.currentConfig.features.disable_first_open_paywall === true;
+  }
+
+  getFreeDailyQuizzesLimit(): number {
+    const customLimit = this.currentConfig.features.free_daily_quizzes;
+    return typeof customLimit === 'number'
+      ? customLimit
+      : defaultConfig.features.free_daily_quizzes;
+  }
+
+  getMaxAdGrantsPerDayLimit(): number {
+    const customLimit = this.currentConfig.features.max_ad_grants_per_day;
+    return typeof customLimit === 'number'
+      ? customLimit
+      : defaultConfig.features.max_ad_grants_per_day;
+  }
+
+  resetAppConfigForTesting(): void {
+    this.currentConfig = defaultConfig;
+    this.isInitialized = false;
+    storage.delete(STORAGE_KEY_CACHED_CONFIG);
+  }
 }
+
+export const appConfigService = new AppConfigService();
 
 export async function fetchRemoteConfig(
   url = REMOTE_CONFIG_URL,
-  timeoutMs = DEFAULT_FETCH_TIMEOUT_MS,
+  timeoutMs = 500,
 ): Promise<AppConfig> {
-  const abortController = new AbortController();
-  const timeoutId = setTimeout(() => {
-    abortController.abort();
-  }, timeoutMs);
-
-  try {
-    const response = await fetch(url, {
-      signal: abortController.signal,
-      headers: {
-        'Cache-Control': 'no-cache',
-      },
-    });
-
-    clearTimeout(timeoutId);
-
-    if (!response.ok) {
-      return currentConfig;
-    }
-
-    const fetchedJson = (await response.json()) as Partial<AppConfig>;
-    if (fetchedJson && typeof fetchedJson === 'object' && fetchedJson.features) {
-      const mergedConfig: AppConfig = {
-        ios: fetchedJson.ios || defaultConfig.ios,
-        android: fetchedJson.android || defaultConfig.android,
-        features: {
-          ...defaultConfig.features,
-          ...fetchedJson.features,
-        },
-      };
-
-      currentConfig = mergedConfig;
-      storage.set(STORAGE_KEY_CACHED_CONFIG, JSON.stringify(mergedConfig));
-      return mergedConfig;
-    }
-  } catch {
-    // Timeout or network error: gracefully keep current / default config
-  } finally {
-    clearTimeout(timeoutId);
+  if (url === REMOTE_CONFIG_URL) {
+    await appConfigService.init(timeoutMs);
+  } else {
+    const customResult = await appConfigService.fetchAndSaveRemoteConfig(url);
+    if (customResult) return customResult;
   }
-
-  return currentConfig;
+  return appConfigService.getAppConfig();
 }
 
 export function getAppConfig(): AppConfig {
-  return currentConfig;
+  return appConfigService.getAppConfig();
 }
 
 export function getFeaturesConfig(): FeaturesConfig {
-  return currentConfig.features;
+  return appConfigService.getFeaturesConfig();
 }
 
 export function isFirstOpenPaywallDisabled(): boolean {
-  return currentConfig.features.disable_first_open_paywall === true;
+  return appConfigService.isFirstOpenPaywallDisabled();
 }
 
 export function getFreeDailyQuizzesLimit(): number {
-  const customLimit = currentConfig.features.free_daily_quizzes;
-  return typeof customLimit === 'number' ? customLimit : defaultConfig.features.free_daily_quizzes;
+  return appConfigService.getFreeDailyQuizzesLimit();
 }
 
 export function getMaxAdGrantsPerDayLimit(): number {
-  const customLimit = currentConfig.features.max_ad_grants_per_day;
-  return typeof customLimit === 'number'
-    ? customLimit
-    : defaultConfig.features.max_ad_grants_per_day;
+  return appConfigService.getMaxAdGrantsPerDayLimit();
 }
 
 export function resetAppConfigForTesting(): void {
-  currentConfig = defaultConfig;
-  storage.delete(STORAGE_KEY_CACHED_CONFIG);
+  appConfigService.resetAppConfigForTesting();
 }

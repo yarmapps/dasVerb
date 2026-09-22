@@ -35,6 +35,13 @@ export interface Translation {
     prefixBannerSubtitle?: string;
     conjugationBannerTitle?: string;
     conjugationBannerSubtitle?: string;
+    verbFormsBannerTitle?: string;
+    verbFormsBannerSubtitle?: string;
+    prepositionsBannerTitle?: string;
+    prepositionsBannerSubtitle?: string;
+    adBadge?: string;
+    sectionModes?: string;
+    sectionTopics?: string;
   };
   categories?: {
     sectionTitle: string;
@@ -137,11 +144,62 @@ export interface Translation {
     aToAeRule: string;
     auToAeuRule: string;
   };
+  verbFormsPracticeListScreen?: {
+    title: string;
+    levelNumber: string;
+    checkpointTitle: string;
+    checkpointSubtitle: string;
+    finalTestTitle: string;
+    finalTestSubtitle: string;
+  };
+  verbFormsPractice?: {
+    title: string;
+    levelTitle: string;
+    checkpointNumberTitle: string;
+    finalTestTitle: string;
+  };
+  verbFormsGrammarHint?: {
+    ruleTag: string;
+    strongVerbTag: string;
+    weakVerbTag: string;
+    mixedVerbTag: string;
+    irregularVerbTag: string;
+    modalVerbTag: string;
+    seinRule: string;
+    habenRule: string;
+    strongVerbRule: string;
+    weakVerbRule: string;
+    mixedVerbRule: string;
+  };
+  verbFormsExercise?: {
+    infinitive: string;
+    praeteritum: string;
+    perfekt: string;
+  };
+  prepositionsPracticeListScreen?: {
+    title: string;
+    levelNumber: string;
+    checkpointTitle: string;
+    checkpointSubtitle: string;
+    finalTestTitle: string;
+    finalTestSubtitle: string;
+  };
+  prepositionsPractice?: {
+    title: string;
+    levelTitle: string;
+    checkpointNumberTitle: string;
+    finalTestTitle: string;
+  };
+  prepositionGrammarHint?: {
+    ruleTag: string;
+    questionLabel: string;
+  };
   verbQuizScreen: {
     title: string;
     checkpointQuizTitle?: string;
     smartQuizTitle?: string;
     conjugateVerbTitle?: string;
+    prepositionTaskTitle?: string;
     level: string;
     fillCard: string;
     check: string;
@@ -181,6 +239,15 @@ export interface Translation {
     waitUntilTomorrow: string;
     cancelAnytime: string;
   };
+  offlineModal?: {
+    title: string;
+    message: string;
+    getPremium: string;
+    retry: string;
+    enableOffline: string;
+    premiumButtonWithTrial: string;
+    premiumButtonNoTrial: string;
+  };
   dictionaryScreen: {
     title: string;
     searchPlaceholder: string;
@@ -217,6 +284,14 @@ export interface Translation {
     maleVoiceHint: string;
     contactUs: string;
     version: string;
+    subscriptionSection?: string;
+    manageSubscription?: string;
+    rateApp?: string;
+    privacyPolicy?: string;
+    privacySettings?: string;
+    privacyOptionsError?: string;
+    error?: string;
+    termsOfService?: string;
     notificationsPermissionRequiredTitle?: string;
     notificationsPermissionRequiredMessage?: string;
     openSettings?: string;
@@ -249,11 +324,12 @@ export interface Translation {
     cta: string;
     restore: string;
     proceedLimited: string;
-    priceYearlyWithCoffee: string;
-    disclaimer: string;
-    disclaimerFallback: string;
-    priceWithTrial: string;
-    priceYearly: string;
+    priceYearlyWithCoffee?: string;
+    price3MonthsWithCoffee?: string;
+    disclaimer?: string;
+    disclaimerFallback?: string;
+    priceWithTrial?: string;
+    priceYearly?: string;
     timeline: {
       today: {
         day: string;
@@ -272,6 +348,10 @@ export interface Translation {
             text: string;
           };
           smartQuizMode: {
+            title: string;
+            text: string;
+          };
+          offlineMode?: {
             title: string;
             text: string;
           };
@@ -314,6 +394,8 @@ export interface Translation {
     };
     periodMonth: string;
     periodYear: string;
+    period3Months?: string;
+    period6Months?: string;
     restorePurchases: string;
     errorTitle: string;
     errorUnavailable: string;
@@ -334,6 +416,10 @@ export interface Translation {
       lifetimeLabel: string;
       lifetimePer: string;
       lifetimeBadge: string;
+      threeMonthLabel?: string;
+      sixMonthLabel?: string;
+      popularBadge?: string;
+      bestValueBadge?: string;
     };
     features: {
       noAdsTitle: string;
@@ -348,6 +434,9 @@ export interface Translation {
       smartQuizModeTitle: string;
       smartQuizModeShort: string;
       smartQuizModeDescription: string;
+      offlineModeTitle?: string;
+      offlineModeShort?: string;
+      offlineModeDescription?: string;
       naturalVoiceTitle: string;
       naturalVoiceShort: string;
       naturalVoiceDescription: string;

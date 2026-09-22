@@ -55,7 +55,19 @@
     "startNow": "ابدأ الآن",
     "smartQuizBadge": "الوضع الذكي",
     "smartQuizTitle": "الخوارزمية الذكية",
-    "smartQuizSubtitle": "ركز على أخطائك وتعلم أسرع بثلاث مرات"
+    "smartQuizSubtitle": "ركز على أخطائك وتعلم أسرع بثلاث مرات",
+    "prefixBannerBadge": "A1 – B2",
+    "prefixBannerTitle": "الأفعال ذات السوابق",
+    "prefixBannerSubtitle": "السوابق القابلة للفصل وغير القابلة للفصل والمزدوجة",
+    "conjugationBannerTitle": "مدرب تصريف الأفعال",
+    "conjugationBannerSubtitle": "تدرّب على تصريف الأفعال لجميع الضمائر في زمن الحاضر (Präsens)",
+    "verbFormsBannerTitle": "الأفعال الشاذة",
+    "verbFormsBannerSubtitle": "تدريب على Infinitiv – Präteritum – Perfekt",
+    "prepositionsBannerTitle": "الأفعال مع حروف الجر",
+    "prepositionsBannerSubtitle": "أتقن حروف الجر وحالات الإعراب للأفعال",
+    "adBadge": "إعلان",
+    "sectionModes": "حسب الأنماط",
+    "sectionTopics": "حسب المواضيع"
   },
   "categories": {
     "sectionTitle": "المواضيع والفئات",
@@ -133,11 +145,28 @@
     "voiceMale": "ذكوري",
     "maleVoiceHint": "لاستخدام صوت ألماني ذكوري، قم بتثبيته من إعدادات iOS ← تسهيلات الاستخدام ← المحتوى المنطوق ← الأصوات ← الألمانية.",
     "contactUs": "اتصل بنا",
+    "subscriptionSection": "الاشتراك",
+    "manageSubscription": "إدارة الاشتراك",
+    "rateApp": "تقييم التطبيق",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة",
     "version": "الإصدار",
     "notificationsPermissionRequiredTitle": "تفعيل الإشعارات",
     "notificationsPermissionRequiredMessage": "لتلقي تذكيرات التمرين اليومي والمحافظة على تقدمك، يُرجى تفعيل الإشعارات في إعدادات جهازك.",
     "openSettings": "الإعدادات",
-    "cancel": "إلغاء"
+    "cancel": "إلغاء",
+    "dataSection": "إدارة البيانات",
+    "resetProgress": "إعادة ضبط تقدم التعلم",
+    "resetProgressTitle": "هل تريد إعادة ضبط تقدم التعلم؟",
+    "resetProgressMessage": "سيتم حذف جميع سجلات تقدمك في الأفعال ومستويات السوابق نهائيًا. لا يمكن التراجع عن هذا الإجراء.",
+    "resetProgressConfirm": "إعادة ضبط التقدم",
+    "resetProgressSuccess": "تمت إعادة ضبط تقدم التعلم بنجاح.",
+    "resetSettings": "إعادة ضبط إعدادات التطبيق",
+    "resetSettingsTitle": "هل تريد إعادة ضبط إعدادات التطبيق؟",
+    "resetSettingsMessage": "ستتم استعادة جميع إعدادات الصوت والمظهر والإشعارات إلى الإعدادات الافتراضية. سيتم الاحتفاظ بتقدمك في التعلم.",
+    "resetSettingsConfirm": "إعادة ضبط الإعدادات",
+    "resetSettingsSuccess": "تمت إعادة ضبط الإعدادات إلى الوضع الافتراضي.",
+    "resetSuccessTitle": "تم"
   },
   "quizSettingsModal": {
     "title": "إعدادات الاختبار"
@@ -152,12 +181,112 @@
     "trophy": "كأس",
     "empty": "لم يتم العثور على أفعال",
     "checkpointTitle": "اختبار مرحلي",
-    "finalTestTitle": "الاختبار النهائي"
+    "finalTestTitle": "الاختبار النهائي",
+    "finalTestTitleWithLevel": "الاختبار النهائي {level}",
+    "finalTestSubtitle": "اختبار شامل من 20 سؤالاً لهذا المستوى",
+    "categoryFinalTestSubtitle": "اختبار شامل من 20 سؤالاً لهذا الموضوع",
+    "checkpointSubtitle": "الأفعال {from} – {to}"
+  },
+  "prefixPracticeListScreen": {
+    "title": "الأفعال ذات السوابق",
+    "levelNumber": "المستوى {number}",
+    "checkpointTitle": "نقطة التحقق {level}",
+    "checkpointSubtitle": "اختبار شامل من 20 سؤالاً لهذا المستوى",
+    "subgroupSeparable": "السوابق القابلة للفصل",
+    "subgroupInseparable": "السوابق غير القابلة للفصل",
+    "subgroupOpposites": "أزواج الأضداد",
+    "subgroupDual": "السوابق المزدوجة"
+  },
+  "prefixPractice": {
+    "title": "الأفعال ذات السوابق",
+    "levelTitle": "المستوى {number}",
+    "checkpointTitle": "نقطة التحقق {level}"
+  },
+  "prefixGrammarHint": {
+    "separableTitle": "سابقة قابلة للفصل",
+    "inseparableTitle": "سابقة غير قابلة للفصل",
+    "dualTitle": "سابقة مزدوجة",
+    "separableRule": "في زمن Präsens و Präteritum، تنتقل السابقة القابلة للفصل إلى نهاية الجملة تمامًا.",
+    "inseparableRule": "السوابق غير القابلة للفصل (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) لا تنفصل أبدًا عن جذر الفعل.",
+    "dualRule": "السوابق مثل über-, um-, unter-, durch- يمكن أن تكون قابلة للفصل أو غير قابلة للفصل حسب معنى الفعل."
+  },
+  "conjugationPracticeListScreen": {
+    "title": "مدرب تصريف الأفعال",
+    "levelNumber": "المستوى {number}",
+    "checkpointTitle": "نقطة التحقق {number}",
+    "checkpointSubtitle": "اختبار مراجعة مع 10 أفعال عشوائية",
+    "finalTestTitle": "الاختبار النهائي {level}",
+    "finalTestSubtitle": "اختبار شامل لـ 15 فعلاً لهذا المستوى"
+  },
+  "conjugationPractice": {
+    "title": "تصريف الأفعال",
+    "levelTitle": "المستوى {number}",
+    "checkpointNumberTitle": "نقطة التحقق {number}",
+    "finalTestTitle": "الاختبار النهائي {level}"
+  },
+  "conjugationGrammarHint": {
+    "ruleTag": "تغيير حرف العلة",
+    "eToIRule": "تغيير حرف العلة e → i في صيغة المفرد للشخص الثاني والثالث (du, er/sie/es).",
+    "eToIeRule": "تغيير حرف العلة e → ie في صيغة المفرد للشخص الثاني والثالث (du, er/sie/es).",
+    "aToAeRule": "تغيير حرف العلة a → ä في صيغة المفرد للشخص الثاني والثالث (du, er/sie/es).",
+    "auToAeuRule": "تغيير حرف العلة au → äu في صيغة المفرد للشخص الثاني والثالث (du, er/sie/es)."
+  },
+  "verbFormsPracticeListScreen": {
+    "title": "الأفعال الشاذة",
+    "levelNumber": "المستوى {number}",
+    "checkpointTitle": "نقطة التحقق {number}",
+    "checkpointSubtitle": "اختبار مراجعة مع 10 أفعال عشوائية",
+    "finalTestTitle": "الاختبار النهائي {level}",
+    "finalTestSubtitle": "اختبار شامل لـ 15 فعلاً لهذا المستوى"
+  },
+  "verbFormsPractice": {
+    "title": "الأفعال الشاذة",
+    "levelTitle": "المستوى {number}",
+    "checkpointNumberTitle": "نقطة التحقق {number}",
+    "finalTestTitle": "الاختبار النهائي {level}"
+  },
+  "verbFormsGrammarHint": {
+    "ruleTag": "قاعدة نحوية",
+    "strongVerbTag": "فعل قوي",
+    "weakVerbTag": "فعل ضعيف",
+    "mixedVerbTag": "فعل مختلط",
+    "irregularVerbTag": "فعل شاذ",
+    "modalVerbTag": "فعل مساعد",
+    "seinRule": "أفعال الحركة وتغيير الحالة و sein/bleiben تصاغ في زمن Perfekt مع «sein».",
+    "habenRule": "الأفعال المتعدية والمنعكسة وأفعال الحالة تصاغ في زمن Perfekt مع «haben».",
+    "strongVerbRule": "تغير الأفعال القوية حرف العلة في الجذر في زمن Präteritum وتنتهي بـ -en في Partizip II.",
+    "weakVerbRule": "تضيف الأفعال الضعيفة القياسية -te في زمن Präteritum و ge-...-t في Partizip II.",
+    "mixedVerbRule": "تجمع الأفعال المختلطة بين تغيير حرف العلة ونهايات الأفعال الضعيفة القياسية (-te, -t)."
+  },
+  "verbFormsExercise": {
+    "infinitive": "المصدر",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt"
+  },
+  "prepositionsPracticeListScreen": {
+    "title": "الأفعال مع حروف الجر",
+    "levelNumber": "المستوى {number}",
+    "checkpointTitle": "نقطة التحقق {number}",
+    "checkpointSubtitle": "اختبار مراجعة مع 10 أفعال عشوائية",
+    "finalTestTitle": "الاختبار النهائي {level}",
+    "finalTestSubtitle": "اختبار شامل لـ 15 فعلاً لهذا المستوى"
+  },
+  "prepositionsPractice": {
+    "title": "حروف الجر",
+    "levelTitle": "المستوى {number}",
+    "checkpointNumberTitle": "نقطة التحقق {number}",
+    "finalTestTitle": "الاختبار النهائي {level}"
+  },
+  "prepositionGrammarHint": {
+    "ruleTag": "تعدية الفعل بحرف الجر",
+    "questionLabel": "السؤال عن المفعول به:"
   },
   "verbQuizScreen": {
     "title": "تمرين",
     "checkpointQuizTitle": "اختبار مرحلي",
     "smartQuizTitle": "اختبار ذكي",
+    "conjugateVerbTitle": "صرّف الفعل {verb}",
+    "prepositionTaskTitle": "اختر حرف الجر",
     "level": "المستوى",
     "check": "تحقق",
     "continue": "متابعة",
@@ -185,18 +314,21 @@
     "tryAgain": "إعادة المحاولة",
     "verbsList": "إلى قائمة الأفعال",
     "backToPractice": "العودة إلى التمرين",
-    "scoreSummary": "{correct} من {total}"
+    "scoreSummary": "{correct} من {total}",
+    "showCorrectAnswers": "عرض الإجابات الصحيحة",
+    "showAllAnswers": "عرض كل الإجابات",
+    "showErrorsOnly": "عرض الأخطاء فقط"
   },
   "dailyQuizLimitModal": {
-    "title": "تقدم رائع!",
-    "message": "أنت حقًا مصمم على تعلم الألمانية!",
-    "instructions": "كيف تود الاستمرار؟",
+    "title": "واصل التقدم!",
+    "message": "أنت عازم حقاً على تعلم الألمانية!",
+    "instructions": "كيف تريد المتابعة؟",
     "videoButton": "شاهد إعلانات",
     "or": "أو",
     "premiumButtonWithTrial": "مستويات غير محدودة مجاناً\nلـ {daysLabel}",
-    "premiumButtonNoTrial": "احصل على Premium",
-    "premiumButtonSubtitleWithTrial": "ثم {yearlyPrice} سنوياً (☕️ / شهر)",
-    "premiumButtonSubtitleNoTrial": "{yearlyPrice} سنوياً (☕️ / شهر)",
+    "premiumButtonNoTrial": "بدون إعلانات",
+    "premiumButtonSubtitleWithTrial": "ثم {yearlyPrice} لمدة 3 أشهر (☕️ / شهر)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} لمدة 3 أشهر (☕️ / شهر)",
     "waitUntilTomorrow": "انتظر حتى الغد",
     "cancelAnytime": "إلغاء في أي وقت"
   },
@@ -222,6 +354,8 @@
     },
     "periodMonth": "شهر",
     "periodYear": "سنة",
+    "period3Months": "3 أشهر",
+    "period6Months": "6 أشهر",
     "restorePurchases": "استعادة المشتريات",
     "errorTitle": "خطأ",
     "errorUnavailable": "هذه الخطة غير متوفرة حالياً. يرجى المحاولة مرة أخرى لاحقاً.",
@@ -241,7 +375,11 @@
       "perMonth": "{price}/شهر",
       "lifetimeLabel": "مدى الحياة",
       "lifetimePer": "ادفع مرة واحدة",
-      "lifetimeBadge": "لمرة واحدة"
+      "lifetimeBadge": "لمرة واحدة",
+      "threeMonthLabel": "3 أشهر",
+      "sixMonthLabel": "6 أشهر",
+      "bestValueBadge": "أفضل قيمة",
+      "popularBadge": "شائع"
     },
     "features": {
       "noAdsTitle": "بدون إعلانات",
@@ -264,7 +402,10 @@
       "unlimitedCustomListsAndWordsDescription": "أضف كلمات غير محدودة وتدرب بالضبط على المفردات التي تحتاجها",
       "photoScannerTitle": "تحويل الصور إلى كلمات",
       "photoScannerShort": "الصور إلى\nكلمات",
-      "photoScannerDescription": "قم باستيراد الأسماء الألمانية من الصور فوراً باستخدام الذكاء الاصطناعي."
+      "photoScannerDescription": "قم باستيراد الأسماء الألمانية من الصور فوراً باستخدام الذكاء الاصطناعي.",
+      "offlineModeTitle": "التدريب دون إنترنت",
+      "offlineModeShort": "دون\nإنترنت",
+      "offlineModeDescription": "تدرب على الأفعال في أي وقت وأي مكان دون الحاجة إلى اتصال بالإنترنت."
     },
     "trialTitle": "إصدارك التجريبي المميز لمدة 3 أيام نشط",
     "trialSubtitle": "افتح أسرع تقدم لك بدون إعلانات مع أدوات تعليمية قوية.",
@@ -286,6 +427,7 @@
     "restore": "استعادة المشتريات",
     "proceedLimited": "المتابعة بالنسخة المحدودة",
     "priceYearlyWithCoffee": "{price}/سنة، فنجان قهوة/شهر",
+    "price3MonthsWithCoffee": "فقط {price} لمدة 3 أشهر — أقل من ثمن فنجان قهوة شهريًا",
     "disclaimer": "يتجدد تلقائيًا بسعر {price}/سنة. يمكنك الإلغاء في أي وقت في إعدادات الحساب.",
     "disclaimerFallback": "يتجدد تلقائيًا سنويًا. يمكنك الإلغاء في أي وقت في إعدادات الحساب.",
     "priceWithTrial": "مجانًا لمدة {trialDuration}، ثم {price}/سنة",
@@ -342,6 +484,10 @@
           "voices": {
             "title": "انغماس صوتي طبيعي",
             "text": "طوّر مهارات استماع مثالية بتدريب أذنيك بأصوات عصبية بشرية عالية الجودة."
+          },
+          "offlineMode": {
+            "title": "التدريب دون إنترنت",
+            "text": "تعلم الأفعال الألمانية في أي وقت وفي أي مكان دون الحاجة إلى اتصال بالإنترنت."
           }
         },
         "description": ""
@@ -357,5 +503,14 @@
         "description": "فقط إذا لم تقم بالإلغاء. يمكنك الإلغاء في أي وقت في إعدادات الحساب."
       }
     }
+  },
+  "offlineModal": {
+    "title": "الإنترنت مطلوب",
+    "message": "قم بالترقية إلى Premium للتدرب دون اتصال بالإنترنت في أي وقت.",
+    "getPremium": "احصل على Premium",
+    "retry": "إعادة المحاولة",
+    "enableOffline": "تفعيل وضع عدم الاتصال",
+    "premiumButtonWithTrial": "Premium مجاناً لـ {daysLabel}",
+    "premiumButtonNoTrial": "احصل على Premium"
   }
 }

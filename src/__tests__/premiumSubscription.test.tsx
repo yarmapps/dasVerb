@@ -101,20 +101,20 @@ describe('Premium Subscription Suite', () => {
               identifier: '$rc_monthly',
               packageType: 'MONTHLY',
               product: {
-                identifier: 'premium_monthly',
-                priceString: '$4.99',
-                price: 4.99,
-                currencyCode: 'USD',
+                identifier: 'dasverb_premium_monthly',
+                priceString: '€3.99',
+                price: 3.99,
+                currencyCode: 'EUR',
               },
             },
             {
-              identifier: '$rc_annual',
-              packageType: 'ANNUAL',
+              identifier: '$rc_three_month',
+              packageType: 'THREE_MONTH',
               product: {
-                identifier: 'premium_yearly',
-                priceString: '$29.99',
-                price: 29.99,
-                currencyCode: 'USD',
+                identifier: 'dasverb_premium_3months',
+                priceString: '€8.99',
+                price: 8.99,
+                currencyCode: 'EUR',
                 introPrice: {
                   price: 0,
                   periodNumberOfUnits: 3,
@@ -123,13 +123,13 @@ describe('Premium Subscription Suite', () => {
               },
             },
             {
-              identifier: '$rc_lifetime',
-              packageType: 'LIFETIME',
+              identifier: '$rc_six_month',
+              packageType: 'SIX_MONTH',
               product: {
-                identifier: 'premium_lifetime',
-                priceString: '$49.99',
-                price: 49.99,
-                currencyCode: 'USD',
+                identifier: 'dasverb_premium_6months',
+                priceString: '€14.99',
+                price: 14.99,
+                currencyCode: 'EUR',
               },
             },
           ],
@@ -138,10 +138,10 @@ describe('Premium Subscription Suite', () => {
 
       const mapped = await getMappedPackages();
       expect(mapped).not.toBeNull();
-      expect(mapped?.monthly?.priceString).toBe('$4.99');
-      expect(mapped?.yearly?.priceString).toBe('$29.99');
-      expect(mapped?.yearly?.freeTrialInfo).toEqual({ count: 3, unit: 'day' });
-      expect(mapped?.lifetime?.priceString).toBe('$49.99');
+      expect(mapped?.monthly?.priceString).toBe('€3.99');
+      expect(mapped?.threeMonth?.priceString).toBe('€8.99');
+      expect(mapped?.threeMonth?.freeTrialInfo).toEqual({ count: 3, unit: 'day' });
+      expect(mapped?.sixMonth?.priceString).toBe('€14.99');
     });
 
     it('purchasePackage should execute purchase and activate premium on success', async () => {
@@ -155,9 +155,9 @@ describe('Premium Subscription Suite', () => {
       });
 
       const mockPkg = {
-        identifier: '$rc_annual',
-        packageType: 'ANNUAL',
-        product: { identifier: 'premium_yearly' },
+        identifier: '$rc_three_month',
+        packageType: 'THREE_MONTH',
+        product: { identifier: 'dasverb_premium_3months' },
       } as unknown as PurchasesPackage;
 
       const success = await purchasePackage(mockPkg);
@@ -188,9 +188,9 @@ describe('Premium Subscription Suite', () => {
 
       expect(getByTestId('premium-subscribe-sheet')).toBeTruthy();
       expect(getByText('Откройте Premium')).toBeTruthy();
-      expect(getByText('12 месяцев')).toBeTruthy();
+      expect(getByText('3 месяца')).toBeTruthy();
+      expect(getByText('6 месяцев')).toBeTruthy();
       expect(getByText('1 месяц')).toBeTruthy();
-      expect(getByText('Навсегда')).toBeTruthy();
 
       const closeButton = getByTestId('close-icon-button');
       fireEvent.press(closeButton);

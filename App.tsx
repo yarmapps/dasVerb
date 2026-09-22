@@ -3,14 +3,15 @@ import { LogBox } from 'react-native';
 import { enableFreeze } from 'react-native-screens';
 import { NavigationContainer, DefaultTheme, DarkTheme } from '@react-navigation/native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import mobileAds from 'react-native-google-mobile-ads';
 import { ThemeProvider, useAppTheme } from './src/context/ThemeContext';
 import { LocaleProvider } from './src/context/LocaleContext';
 import { RootNavigator } from './src/navigation/RootNavigator';
 import { AppUpdateModal } from './src/components/AppUpdateModal/AppUpdateModal';
 import { ENABLE_ADS } from './src/ads/adConfig';
+import { adConsentService } from './src/ads/consentService';
+import { adManager } from './src/ads/adManager';
 import { preloadRewardedAdOnAppStart } from './src/ads/useRewardedAd';
-import { fetchRemoteConfig } from './src/services/appConfigService';
+import { appConfigService } from './src/services/appConfigService';
 import { initializeAnalytics } from './src/services/analyticsService';
 import { initRevenueCat } from './src/services/revenueCatService';
 import { initializeNotifications } from './src/services/notificationService';
@@ -58,22 +59,19 @@ function AppContent(): React.JSX.Element {
 export function App(): React.JSX.Element {
   useEffect(() => {
     initializeAnalytics().catch(() => {});
-    fetchRemoteConfig().catch(() => {});
+    appConfigService.init(500).catch(() => {});
     initRevenueCat().catch(() => {});
     initializeNotifications().catch(() => {});
     soundService.initialize().catch(() => {});
 
     if (ENABLE_ADS) {
-      try {
-        mobileAds()
-          .initialize()
-          .then(() => {
-            preloadRewardedAdOnAppStart();
-          })
-          .catch(() => {});
-      } catch {
-        // ignore
-      }
+      adConsentService
+        .initialize()
+        .then(() => {
+          adManager.init();
+          preloadRewardedAdOnAppStart();
+        })
+        .catch(() => {});
     }
   }, []);
 

@@ -13,11 +13,6 @@ export const createStyles = (colors: ThemeColors) =>
       padding: Spacing.lg,
       flexDirection: 'row',
       alignItems: 'center',
-      shadowColor: '#000',
-      shadowOffset: { width: 0, height: 2 },
-      shadowOpacity: 0.05,
-      shadowRadius: 8,
-      elevation: 2,
     },
     iconContainer: {
       width: 48,

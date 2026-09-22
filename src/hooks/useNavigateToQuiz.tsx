@@ -6,8 +6,10 @@ import {
   getFreeDailyQuizzes,
 } from '../services/usageService';
 import { isPremiumEnabled } from '../services/premiumAccessService';
+import { isNetworkConnected } from '../services/networkService';
 import { trackEvent } from '../services/analyticsService';
 import { DailyQuizLimitModal } from '../components/DailyQuizLimitModal/DailyQuizLimitModal';
+import { OfflineLimitModal } from '../components/OfflineLimitModal/OfflineLimitModal';
 import { PremiumSubscribeSheet } from '../components/PremiumSubscribeSheet/PremiumSubscribeSheet';
 import { RootStackParamList } from '../types/navigation';
 import { useFeatureFlag } from '../services/featuresService';
@@ -27,7 +29,11 @@ export interface UseNavigateToQuizResult {
 export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQuizResult {
   const isPremiumFeature = useFeatureFlag('ENABLE_PREMIUM');
   const [showLimitModal, setShowLimitModal] = useState(false);
+  const [showOfflineModal, setShowOfflineModal] = useState(false);
   const [showPaywall, setShowPaywall] = useState(false);
+  const [paywallSource, setPaywallSource] = useState<'daily_quiz_limit' | 'offline_limit'>(
+    'daily_quiz_limit',
+  );
   const [pendingParams, setPendingParams] = useState<{
     params: VerbQuizParams;
     mode: 'navigate' | 'replace';
@@ -45,8 +51,23 @@ export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQ
   );
 
   const navigateToQuiz = useCallback(
-    (params: VerbQuizParams, mode: 'navigate' | 'replace' = 'navigate') => {
-      if (isPremiumEnabled() || canStartQuiz()) {
+    async (params: VerbQuizParams, mode: 'navigate' | 'replace' = 'navigate') => {
+      // 1. Premium users bypass all limits and offline checks
+      if (isPremiumEnabled()) {
+        startActualQuiz(params, mode);
+        return;
+      }
+
+      // 2. Free users require an active internet connection
+      const online = await isNetworkConnected();
+      if (!online) {
+        setPendingParams({ params, mode });
+        setShowOfflineModal(true);
+        return;
+      }
+
+      // 3. Check daily quiz quota
+      if (canStartQuiz()) {
         startActualQuiz(params, mode);
       } else {
         setPendingParams({ params, mode });
@@ -65,8 +86,32 @@ export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQ
     setPendingParams(null);
   }, []);
 
+  const handleOfflineDismiss = useCallback(() => {
+    setShowOfflineModal(false);
+    setPendingParams(null);
+  }, []);
+
+  const handleOfflineRetry = useCallback(async () => {
+    const online = await isNetworkConnected();
+    if (online) {
+      setShowOfflineModal(false);
+      if (pendingParams) {
+        const { params, mode } = pendingParams;
+        setPendingParams(null);
+        startActualQuiz(params, mode);
+      }
+    }
+  }, [pendingParams, startActualQuiz]);
+
   const handlePremiumCTA = useCallback(() => {
     setShowLimitModal(false);
+    setPaywallSource('daily_quiz_limit');
+    setShowPaywall(true);
+  }, []);
+
+  const handleOfflinePremiumCTA = useCallback(() => {
+    setShowOfflineModal(false);
+    setPaywallSource('offline_limit');
     setShowPaywall(true);
   }, []);
 
@@ -100,12 +145,25 @@ export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQ
         onVideoSuccess={handleVideoSuccess}
         canWatchAd={canWatchAdToday()}
       />
+      <OfflineLimitModal
+        visible={showOfflineModal}
+        onDismiss={handleOfflineDismiss}
+        onPremiumCTA={isPremiumFeature ? handleOfflinePremiumCTA : undefined}
+        onRetry={handleOfflineRetry}
+        onPurchaseSuccess={() => {
+          setShowOfflineModal(false);
+          if (pendingParams) {
+            startActualQuiz(pendingParams.params, pendingParams.mode);
+            setPendingParams(null);
+          }
+        }}
+      />
       {isPremiumFeature && (
         <PremiumSubscribeSheet
           visible={showPaywall}
           onClose={handlePaywallClose}
           onPurchaseSuccess={handlePurchaseSuccess}
-          source="daily_quiz_limit"
+          source={paywallSource}
         />
       )}
     </>

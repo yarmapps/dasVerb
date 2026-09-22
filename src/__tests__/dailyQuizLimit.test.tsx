@@ -46,7 +46,7 @@ describe('DailyQuizLimit Component & Hook', () => {
         </ScreenWrapper>,
       );
 
-      expect(getByText('Отличный прогресс!')).toBeTruthy();
+      expect(getByText('Так держать!')).toBeTruthy();
       expect(queryByText('Купить Premium')).toBeNull();
       expect(queryByTestId('daily-limit-premium-button')).toBeNull();
       expect(getByText('Смотреть рекламу')).toBeTruthy();
@@ -80,15 +80,15 @@ describe('DailyQuizLimit Component & Hook', () => {
   });
 
   describe('useNavigateToQuiz', () => {
-    it('should navigate immediately when within daily limit', () => {
+    it('should navigate immediately when within daily limit', async () => {
       const mockNavigate = jest.fn();
       const mockReplace = jest.fn();
       const navigation = { navigate: mockNavigate, replace: mockReplace };
 
       const { result } = renderHook(() => useNavigateToQuiz(navigation));
 
-      act(() => {
-        result.current.navigateToQuiz({ infinitive: 'anrufen', level: 'A1' });
+      await act(async () => {
+        await result.current.navigateToQuiz({ infinitive: 'anrufen', level: 'A1' });
       });
 
       expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
@@ -97,15 +97,15 @@ describe('DailyQuizLimit Component & Hook', () => {
       });
     });
 
-    it('should replace screen when mode is replace and within limit', () => {
+    it('should replace screen when mode is replace and within limit', async () => {
       const mockNavigate = jest.fn();
       const mockReplace = jest.fn();
       const navigation = { navigate: mockNavigate, replace: mockReplace };
 
       const { result } = renderHook(() => useNavigateToQuiz(navigation));
 
-      act(() => {
-        result.current.navigateToQuiz({ infinitive: 'anrufen', level: 'A1' }, 'replace');
+      await act(async () => {
+        await result.current.navigateToQuiz({ infinitive: 'anrufen', level: 'A1' }, 'replace');
       });
 
       expect(mockReplace).toHaveBeenCalledWith('VerbQuiz', {
@@ -126,8 +126,8 @@ describe('DailyQuizLimit Component & Hook', () => {
 
       const { result } = renderHook(() => useNavigateToQuiz(navigation));
 
-      act(() => {
-        result.current.navigateToQuiz({ infinitive: 'fahren', level: 'A1' });
+      await act(async () => {
+        await result.current.navigateToQuiz({ infinitive: 'fahren', level: 'A1' });
       });
 
       // Navigation did not happen immediately because modal is open

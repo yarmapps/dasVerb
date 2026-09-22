@@ -115,11 +115,12 @@ export function SentenceFillExercise({
       return;
     }
 
-    const isPunctuation = Boolean(segment.text && /^[.,!?:;]+$/.test(segment.text.trim()));
+    const trimmedText = segment.text?.trim() || '';
+    const isPunctuation = Boolean(trimmedText && /^[.,!?:;]+$/.test(trimmedText));
 
     elements.push(
       <Text key={idx} style={isPunctuation ? styles.punctuationText : styles.regularWord}>
-        {segment.text}
+        {trimmedText}
       </Text>,
     );
   });

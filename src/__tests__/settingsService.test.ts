@@ -14,7 +14,7 @@ describe('settingsService with MMKV', () => {
     expect(settings.notifications).toBe(true);
     expect(settings.themeMode).toBe('system');
     expect(settings.speakOnCorrectAnswer).toBe(true);
-    expect(settings.ttsVoiceGender).toBe('female');
+    expect(settings.ttsVoiceGender).toBe('male');
   });
 
   it('should update settings properly', () => {

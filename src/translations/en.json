@@ -60,7 +60,14 @@
     "prefixBannerTitle": "Prefix Verbs",
     "prefixBannerSubtitle": "Separable, inseparable and dual prefixes",
     "conjugationBannerTitle": "Conjugation Trainer",
-    "conjugationBannerSubtitle": "Train verb forms for all pronouns in Präsens"
+    "conjugationBannerSubtitle": "Train verb forms for all pronouns in Präsens",
+    "verbFormsBannerTitle": "Irregular Verbs",
+    "verbFormsBannerSubtitle": "Train Infinitiv – Präteritum – Perfekt",
+    "prepositionsBannerTitle": "Verbs with Prepositions",
+    "prepositionsBannerSubtitle": "Master verb prepositions and cases",
+    "adBadge": "Ad",
+    "sectionModes": "Learn by Mode",
+    "sectionTopics": "Learn by Topic"
   },
   "categories": {
     "sectionTitle": "Topics & Categories",
@@ -138,6 +145,14 @@
     "voiceMale": "Male",
     "maleVoiceHint": "To use a male German voice, install one in iOS Settings → Accessibility → Spoken Content → Voices → German.",
     "contactUs": "Contact Us",
+    "subscriptionSection": "SUBSCRIPTION",
+    "manageSubscription": "Manage Subscription",
+    "rateApp": "Rate the App",
+    "privacySettings": "Privacy Settings",
+    "privacyOptionsError": "Failed to open privacy settings. Please try again later.",
+    "error": "Error",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
     "version": "Version",
     "notificationsPermissionRequiredTitle": "Enable Notifications",
     "notificationsPermissionRequiredMessage": "To receive daily practice and streak reminders, please enable notifications in your device settings.",
@@ -219,11 +234,62 @@
     "aToAeRule": "a → ä vowel change in 2nd and 3rd person singular (du, er/sie/es).",
     "auToAeuRule": "au → äu vowel change in 2nd and 3rd person singular (du, er/sie/es)."
   },
+  "verbFormsPracticeListScreen": {
+    "title": "Irregular Verbs",
+    "levelNumber": "Level {number}",
+    "checkpointTitle": "Checkpoint {number}",
+    "checkpointSubtitle": "Review quiz with 10 random verbs",
+    "finalTestTitle": "Final Test {level}",
+    "finalTestSubtitle": "Comprehensive 15-verb test for this level"
+  },
+  "verbFormsPractice": {
+    "title": "Irregular Verbs",
+    "levelTitle": "Level {number}",
+    "checkpointNumberTitle": "Checkpoint {number}",
+    "finalTestTitle": "Final Test {level}"
+  },
+  "verbFormsGrammarHint": {
+    "ruleTag": "Grammar Rule",
+    "strongVerbTag": "Strong Verb",
+    "weakVerbTag": "Weak Verb",
+    "mixedVerbTag": "Mixed Verb",
+    "irregularVerbTag": "Irregular Verb",
+    "modalVerbTag": "Modal Verb",
+    "seinRule": "Verbs of motion, change of state, and sein/bleiben form Perfekt with «sein».",
+    "habenRule": "Transitive, reflexive, and static verbs form Perfekt with «haben».",
+    "strongVerbRule": "Strong verbs change the root vowel in Präteritum and end in -en in Partizip II.",
+    "weakVerbRule": "Regular weak verbs add -te in Präteritum and ge-...-t in Partizip II.",
+    "mixedVerbRule": "Mixed verbs combine a vowel change with regular endings -te and -t."
+  },
+  "verbFormsExercise": {
+    "infinitive": "Infinitive",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt"
+  },
+  "prepositionsPracticeListScreen": {
+    "title": "Verbs with Prepositions",
+    "levelNumber": "Level {number}",
+    "checkpointTitle": "Checkpoint {number}",
+    "checkpointSubtitle": "Review quiz with 10 random verbs",
+    "finalTestTitle": "Final Test {level}",
+    "finalTestSubtitle": "Comprehensive 15-verb test for this level"
+  },
+  "prepositionsPractice": {
+    "title": "Prepositions",
+    "levelTitle": "Level {number}",
+    "checkpointNumberTitle": "Checkpoint {number}",
+    "finalTestTitle": "Final Test {level}"
+  },
+  "prepositionGrammarHint": {
+    "ruleTag": "Preposition Rule",
+    "questionLabel": "Question:"
+  },
   "verbQuizScreen": {
     "title": "Practice",
     "checkpointQuizTitle": "Checkpoint Quiz",
     "smartQuizTitle": "Smart Quiz",
     "conjugateVerbTitle": "Conjugate the verb {verb}",
+    "prepositionTaskTitle": "Choose the preposition",
     "level": "Level",
     "check": "Check",
     "continue": "Continue",
@@ -257,15 +323,15 @@
     "showErrorsOnly": "Show errors only"
   },
   "dailyQuizLimitModal": {
-    "title": "Awesome progress!",
-    "message": "You are really determined to learn German!",
-    "instructions": "How would you like to continue?",
+    "title": "Keep it up!",
+    "message": "You're really dedicated to learning German!",
+    "instructions": "How do you want to continue?",
     "videoButton": "Watch ads",
     "or": "or",
     "premiumButtonWithTrial": "Free unlimited levels\nfor {daysLabel}",
-    "premiumButtonNoTrial": "Get Premium",
-    "premiumButtonSubtitleWithTrial": "then {yearlyPrice}/year (☕️ / mo.)",
-    "premiumButtonSubtitleNoTrial": "{yearlyPrice}/year (☕️ / mo.)",
+    "premiumButtonNoTrial": "Go Ad-Free",
+    "premiumButtonSubtitleWithTrial": "then {yearlyPrice} / 3 months (☕️ / mo.)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} / 3 months (☕️ / mo.)",
     "waitUntilTomorrow": "Wait until tomorrow",
     "cancelAnytime": "Cancel any time"
   },
@@ -291,6 +357,8 @@
     },
     "periodMonth": "month",
     "periodYear": "year",
+    "period3Months": "3 months",
+    "period6Months": "6 months",
     "restorePurchases": "Restore Purchases",
     "errorTitle": "Error",
     "errorUnavailable": "This plan is currently unavailable. Please try again later.",
@@ -310,7 +378,11 @@
       "perMonth": "{price}/month",
       "lifetimeLabel": "Lifetime",
       "lifetimePer": "Pay Once",
-      "lifetimeBadge": "ONE TIME"
+      "lifetimeBadge": "ONE TIME",
+      "threeMonthLabel": "3 Months",
+      "sixMonthLabel": "6 Months",
+      "bestValueBadge": "BEST VALUE",
+      "popularBadge": "POPULAR"
     },
     "features": {
       "noAdsTitle": "Zero Ads",
@@ -327,7 +399,10 @@
       "smartQuizModeDescription": "Focus only on your mistakes and learn 3x faster!",
       "naturalVoiceTitle": "Natural Audio",
       "naturalVoiceShort": "Natural\nGerman",
-      "naturalVoiceDescription": "Hear verbs and sentences pronounced with natural German voice."
+      "naturalVoiceDescription": "Hear verbs and sentences pronounced with natural German voice.",
+      "offlineModeTitle": "Offline Practice",
+      "offlineModeShort": "Offline\nPractice",
+      "offlineModeDescription": "Practice verbs anytime, anywhere without an internet connection."
     }
   },
   "notifications": {
@@ -346,6 +421,7 @@
     "restore": "Restore Purchases",
     "proceedLimited": "Proceed with limited version",
     "priceYearlyWithCoffee": "{price}/year, a coffee/mo.",
+    "price3MonthsWithCoffee": "Just {price} for 3 months — less than a coffee a month",
     "disclaimer": "Auto-renews at {price}/year. Cancel anytime in account settings.",
     "disclaimerFallback": "Auto-renews yearly. Cancel anytime in settings.",
     "priceWithTrial": "Free for {trialDuration}, then {price}/year",
@@ -370,6 +446,10 @@
           "smartQuizMode": {
             "title": "Smart Error Correction",
             "text": "Target your personal weak spots to master German verbs 3x faster."
+          },
+          "offlineMode": {
+            "title": "Offline Practice",
+            "text": "Practice German verbs anytime, anywhere without an internet connection."
           }
         }
       },
@@ -380,9 +460,18 @@
       },
       "day3": {
         "day": "Day 3",
-        "headline": "Yearly Access Starts",
-        "description": "Your trial converts to annual access. Cancel anytime in settings."
+        "headline": "3-Month Access Starts",
+        "description": "Your trial converts to 3-month access. Cancel anytime in settings."
       }
     }
+  },
+  "offlineModal": {
+    "title": "Internet Required",
+    "message": "Upgrade to Premium to practice offline anytime, anywhere.",
+    "getPremium": "Get Premium",
+    "retry": "Retry",
+    "enableOffline": "Enable Offline",
+    "premiumButtonWithTrial": "Free Premium for {daysLabel}",
+    "premiumButtonNoTrial": "Get Premium"
   }
 }

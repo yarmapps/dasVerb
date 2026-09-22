@@ -55,7 +55,19 @@
     "startNow": "Hemen Başla",
     "smartQuizBadge": "Akıllı Mod",
     "smartQuizTitle": "Akıllı Algoritma",
-    "smartQuizSubtitle": "Hatalarınıza odaklanın ve 3 kat daha hızlı öğrenin"
+    "smartQuizSubtitle": "Hatalarınıza odaklanın ve 3 kat daha hızlı öğrenin",
+    "prefixBannerBadge": "A1 – B2",
+    "prefixBannerTitle": "Önekli fiiller",
+    "prefixBannerSubtitle": "Ayrılabilen, ayrılamayan ve çift önekler",
+    "conjugationBannerTitle": "Fiil çekimi alıştırması",
+    "conjugationBannerSubtitle": "Präsens zamanında tüm zamirler için fiil çekimlerini çalışın",
+    "verbFormsBannerTitle": "Düzensiz fiiller",
+    "verbFormsBannerSubtitle": "Infinitiv – Präteritum – Perfekt alıştırması",
+    "prepositionsBannerTitle": "Edatlı fiiller",
+    "prepositionsBannerSubtitle": "Fiil edatlarına ve ismin hallerine hakim olun",
+    "adBadge": "Reklam",
+    "sectionModes": "Modlara göre",
+    "sectionTopics": "Konulara göre"
   },
   "categories": {
     "sectionTitle": "Konular ve Kategoriler",
@@ -133,11 +145,28 @@
     "voiceMale": "Erkek",
     "maleVoiceHint": "Erkek Almanca sesi kullanmak için iOS Ayarları → Erişilebilirlik → Seslendirilen İçerik → Sesler → Almanca bölümünden yükleyin.",
     "contactUs": "Bize Ulaşın",
+    "subscriptionSection": "ABONELİK",
+    "manageSubscription": "Aboneliği Yönet",
+    "rateApp": "Uygulamayı Değerlendir",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfService": "Kullanım Koşulları",
     "version": "Sürüm",
     "notificationsPermissionRequiredTitle": "Bildirimleri Açın",
     "notificationsPermissionRequiredMessage": "Günlük pratik ve seri hatırlatıcılarını almak için lütfen cihaz ayarlarınızdan bildirimleri etkinleştirin.",
     "openSettings": "Ayarlar",
-    "cancel": "İptal"
+    "cancel": "İptal",
+    "dataSection": "VERİ YÖNETİMİ",
+    "resetProgress": "Öğrenme İlerlemesini Sıfırla",
+    "resetProgressTitle": "Öğrenme ilerlemesi sıfırlansın mı?",
+    "resetProgressMessage": "Tüm fiil ve önek seviyesi öğrenme ilerlemeniz kalıcı olarak silinecektir. Bu işlem geri alınamaz.",
+    "resetProgressConfirm": "İlerlemeyi Sıfırla",
+    "resetProgressSuccess": "Öğrenme ilerlemesi sıfırlandı.",
+    "resetSettings": "Uygulama Ayarlarını Sıfırla",
+    "resetSettingsTitle": "Uygulama ayarları sıfırlansın mı?",
+    "resetSettingsMessage": "Tüm ses, tema ve bildirim ayarları varsayılan değerlere döndürülecektir. Öğrenme ilerlemeniz korunacaktır.",
+    "resetSettingsConfirm": "Ayarları Sıfırla",
+    "resetSettingsSuccess": "Ayarlar varsayılan değerlere sıfırlandı.",
+    "resetSuccessTitle": "Tamamlandı"
   },
   "quizSettingsModal": {
     "title": "Test Ayarları"
@@ -152,12 +181,112 @@
     "trophy": "Kupa",
     "empty": "Fiil bulunamadı",
     "checkpointTitle": "Ara Test",
-    "finalTestTitle": "Final Testi"
+    "finalTestTitle": "Final Testi",
+    "finalTestTitleWithLevel": "Final Testi {level}",
+    "finalTestSubtitle": "Bu seviye için 20 soruluk kapsamlı test",
+    "categoryFinalTestSubtitle": "Bu konu için 20 soruluk kapsamlı test",
+    "checkpointSubtitle": "Fiiller {from} – {to}"
+  },
+  "prefixPracticeListScreen": {
+    "title": "Önekli fiiller",
+    "levelNumber": "Seviye {number}",
+    "checkpointTitle": "Kontrol Noktası {level}",
+    "checkpointSubtitle": "Bu seviye için 20 soruluk kapsamlı test",
+    "subgroupSeparable": "Ayrılabilen önekler",
+    "subgroupInseparable": "Ayrılamayan önekler",
+    "subgroupOpposites": "Zıt anlamlı çiftler",
+    "subgroupDual": "Çift önekler"
+  },
+  "prefixPractice": {
+    "title": "Önekli fiiller",
+    "levelTitle": "Seviye {number}",
+    "checkpointTitle": "Kontrol Noktası {level}"
+  },
+  "prefixGrammarHint": {
+    "separableTitle": "Ayrılabilen önek",
+    "inseparableTitle": "Ayrılamayan önek",
+    "dualTitle": "Çift önek",
+    "separableRule": "Präsens ve Präteritum zamanlarında ayrılabilen önek cümlenin en sonuna gider.",
+    "inseparableRule": "Ayrılamayan önekler (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) asla fiil kökünden ayrılmaz.",
+    "dualRule": "über-, um-, unter-, durch- gibi önekler fiilin anlamına bağlı olarak ayrılabilir veya ayrılamaz olabilir."
+  },
+  "conjugationPracticeListScreen": {
+    "title": "Fiil çekimi alıştırması",
+    "levelNumber": "Seviye {number}",
+    "checkpointTitle": "Kontrol Noktası {number}",
+    "checkpointSubtitle": "10 rastgele fiil ile tekrar testi",
+    "finalTestTitle": "Final Testi {level}",
+    "finalTestSubtitle": "Bu seviye için 15 fiillik kapsamlı test"
+  },
+  "conjugationPractice": {
+    "title": "Fiil çekimi",
+    "levelTitle": "Seviye {number}",
+    "checkpointNumberTitle": "Kontrol Noktası {number}",
+    "finalTestTitle": "Final Testi {level}"
+  },
+  "conjugationGrammarHint": {
+    "ruleTag": "Sesli harf değişimi",
+    "eToIRule": "Tekil 2. ve 3. şahıslarda e → i sesli harf değişimi (du, er/sie/es).",
+    "eToIeRule": "Tekil 2. ve 3. şahıslarda e → ie sesli harf değişimi (du, er/sie/es).",
+    "aToAeRule": "Tekil 2. ve 3. şahıslarda a → ä sesli harf değişimi (du, er/sie/es).",
+    "auToAeuRule": "Tekil 2. ve 3. şahıslarda au → äu sesli harf değişimi (du, er/sie/es)."
+  },
+  "verbFormsPracticeListScreen": {
+    "title": "Düzensiz fiiller",
+    "levelNumber": "Seviye {number}",
+    "checkpointTitle": "Kontrol Noktası {number}",
+    "checkpointSubtitle": "10 rastgele fiil ile tekrar testi",
+    "finalTestTitle": "Final Testi {level}",
+    "finalTestSubtitle": "Bu seviye için 15 fiillik kapsamlı test"
+  },
+  "verbFormsPractice": {
+    "title": "Düzensiz fiiller",
+    "levelTitle": "Seviye {number}",
+    "checkpointNumberTitle": "Kontrol Noktası {number}",
+    "finalTestTitle": "Final Testi {level}"
+  },
+  "verbFormsGrammarHint": {
+    "ruleTag": "Gramer Kuralı",
+    "strongVerbTag": "Güçlü fiil",
+    "weakVerbTag": "Zayıf fiil",
+    "mixedVerbTag": "Karma fiil",
+    "irregularVerbTag": "Düzensiz fiil",
+    "modalVerbTag": "Modal fiil",
+    "seinRule": "Hareket, durum değişikliği bildiren fiiller ve sein/bleiben Perfekt zamanını «sein» ile oluşturur.",
+    "habenRule": "Geçişli, dönüşlü ve durum bildiren fiiller Perfekt zamanını «haben» ile oluşturur.",
+    "strongVerbRule": "Güçlü fiiller Präteritum zamanında kök sesli harfini değiştirir ve Partizip II'de -en ile biter.",
+    "weakVerbRule": "Düzenli zayıf fiiller Präteritum'da -te ve Partizip II'de ge-...-t eklerini alır.",
+    "mixedVerbRule": "Karma fiiller sesli harf değişimini zayıf fiil ekleriyle (-te, -t) birleştirir."
+  },
+  "verbFormsExercise": {
+    "infinitive": "Mastar",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt"
+  },
+  "prepositionsPracticeListScreen": {
+    "title": "Edatlı fiiller",
+    "levelNumber": "Seviye {number}",
+    "checkpointTitle": "Kontrol Noktası {number}",
+    "checkpointSubtitle": "10 rastgele fiil ile tekrar testi",
+    "finalTestTitle": "Final Testi {level}",
+    "finalTestSubtitle": "Bu seviye için 15 fiillik kapsamlı test"
+  },
+  "prepositionsPractice": {
+    "title": "Edatlar",
+    "levelTitle": "Seviye {number}",
+    "checkpointNumberTitle": "Kontrol Noktası {number}",
+    "finalTestTitle": "Final Testi {level}"
+  },
+  "prepositionGrammarHint": {
+    "ruleTag": "Edat Kullanımı",
+    "questionLabel": "Nesneye sorulan soru:"
   },
   "verbQuizScreen": {
     "title": "Pratik",
     "checkpointQuizTitle": "Ara Test",
     "smartQuizTitle": "Akıllı Test",
+    "conjugateVerbTitle": "{verb} fiilini çekimleyin",
+    "prepositionTaskTitle": "Edatı seçin",
     "level": "Seviye",
     "check": "Kontrol Et",
     "continue": "Devam Et",
@@ -185,18 +314,21 @@
     "tryAgain": "Tekrar dene",
     "verbsList": "Fiil listesine dön",
     "backToPractice": "Pratiğe dön",
-    "scoreSummary": "{correct} / {total}"
+    "scoreSummary": "{correct} / {total}",
+    "showCorrectAnswers": "Doğru cevapları göster",
+    "showAllAnswers": "Tüm cevapları göster",
+    "showErrorsOnly": "Yalnızca hataları göster"
   },
   "dailyQuizLimitModal": {
-    "title": "Harika ilerleme!",
-    "message": "Almanca öğrenmekte gerçekten kararlısınız!",
+    "title": "Aynen böyle devam!",
+    "message": "Almanca öğrenmeye gerçekten kararlısınız!",
     "instructions": "Nasıl devam etmek istersiniz?",
     "videoButton": "Reklam izle",
     "or": "veya",
     "premiumButtonWithTrial": "Ücretsiz Sınırsız Seviye\n{daysLabel}",
-    "premiumButtonNoTrial": "Premium Al",
-    "premiumButtonSubtitleWithTrial": "sonra {yearlyPrice}/yıl (☕️ / ay)",
-    "premiumButtonSubtitleNoTrial": "{yearlyPrice}/yıl (☕️ / ay)",
+    "premiumButtonNoTrial": "Reklamsız",
+    "premiumButtonSubtitleWithTrial": "sonra 3 ay için {yearlyPrice} (☕️ / ay)",
+    "premiumButtonSubtitleNoTrial": "3 ay için {yearlyPrice} (☕️ / ay)",
     "waitUntilTomorrow": "Yarına kadar bekle",
     "cancelAnytime": "İstediğin zaman iptal et"
   },
@@ -222,6 +354,8 @@
     },
     "periodMonth": "ay",
     "periodYear": "yıl",
+    "period3Months": "3 ay",
+    "period6Months": "6 ay",
     "restorePurchases": "Satın Alımları Geri Yükle",
     "errorTitle": "Hata",
     "errorUnavailable": "Bu plan şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyin.",
@@ -241,7 +375,11 @@
       "perMonth": "{price}/ay",
       "lifetimeLabel": "Ömür Boyu",
       "lifetimePer": "Tek Ödeme",
-      "lifetimeBadge": "TEK SEFERLIK"
+      "lifetimeBadge": "TEK SEFERLIK",
+      "threeMonthLabel": "3 Ay",
+      "sixMonthLabel": "6 Ay",
+      "bestValueBadge": "EN İYİ FİYAT",
+      "popularBadge": "POPÜLER"
     },
     "features": {
       "noAdsTitle": "Sıfır Reklam",
@@ -264,7 +402,10 @@
       "unlimitedCustomListsAndWordsDescription": "Sınırsız kelime ekleyin ve tam olarak ihtiyacınız olan kelimeleri çalışın.",
       "photoScannerTitle": "Görüntüden Kelimeye",
       "photoScannerShort": "Resimden\nKelimeye",
-      "photoScannerDescription": "Yapay zeka kullanarak Almanca isimleri fotoğraflardan anında içe aktarın."
+      "photoScannerDescription": "Yapay zeka kullanarak Almanca isimleri fotoğraflardan anında içe aktarın.",
+      "offlineModeTitle": "Çevrimdışı Çalışma",
+      "offlineModeShort": "Çevrimdışı\nMod",
+      "offlineModeDescription": "İnternet bağlantısı olmadan istediğiniz zaman ve yerde fiil çalışın."
     },
     "trialTitle": "3 günlük Premium denemeniz aktif",
     "trialSubtitle": "Reklamsız ve güçlü öğrenme araçlarıyla en hızlı ilerlemenizi açın.",
@@ -286,6 +427,7 @@
     "restore": "Satın Alımları Geri Yükle",
     "proceedLimited": "Sınırlı sürümle devam et",
     "priceYearlyWithCoffee": "{price}/yıl, bir fincan kahve/ay",
+    "price3MonthsWithCoffee": "3 ay için yalnızca {price} — ayda bir kahveden daha az",
     "disclaimer": "Otomatik olarak {price}/yıl yenilenir. İstediğiniz zaman ayarlardan iptal edin.",
     "disclaimerFallback": "Otomatik olarak yıllık yenilenir. İstediğiniz zaman ayarlardan iptal edin.",
     "priceWithTrial": "{trialDuration} için ücretsiz, sonra {price}/yıl",
@@ -342,6 +484,10 @@
           "voices": {
             "title": "Doğal Ses Deneyimi",
             "text": "İnsan benzeri nöral seslerle kulaklarınızı eğiterek mükemmel dinleme becerileri geliştirin."
+          },
+          "offlineMode": {
+            "title": "Çevrimdışı Çalışma",
+            "text": "İnternet bağlantısı olmadan istediğiniz zaman ve yerde Almanca fiilleri öğrenin."
           }
         },
         "description": ""
@@ -357,5 +503,14 @@
         "description": "Sadece iptal etmezseniz. İstediğiniz zaman hesap ayarlarından iptal edebilirsiniz."
       }
     }
+  },
+  "offlineModal": {
+    "title": "İnternet Gerekli",
+    "message": "Çevrimdışı çalışmak için Premium'a geçin.",
+    "getPremium": "Premium Al",
+    "retry": "Tekrar Dene",
+    "enableOffline": "Çevrimdışını Etkinleştir",
+    "premiumButtonWithTrial": "Ücretsiz Premium {daysLabel}",
+    "premiumButtonNoTrial": "Premium Al"
   }
 }

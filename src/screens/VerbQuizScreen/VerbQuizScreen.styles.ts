@@ -19,7 +19,7 @@ export const createStyles = (colors: ThemeColors) =>
       width: '100%',
       height: 6,
       backgroundColor: colors.blockBorder,
-      marginTop: Spacing.sm,
+      marginTop: Spacing.xl,
       overflow: 'hidden',
     },
     progressFillContainer: {
@@ -40,7 +40,7 @@ export const createStyles = (colors: ThemeColors) =>
     scrollContent: {
       flexGrow: 1,
       justifyContent: 'flex-start',
-      paddingTop: Spacing.md,
+      paddingTop: Spacing.xl,
       paddingBottom: Spacing.sm,
     },
     topSection: {
@@ -55,11 +55,6 @@ export const createStyles = (colors: ThemeColors) =>
       borderColor: colors.blockBorder,
       paddingTop: 16,
       overflow: 'hidden',
-      shadowColor: '#000',
-      shadowOffset: { width: 0, height: 4 },
-      shadowOpacity: 0.06,
-      shadowRadius: 10,
-      elevation: 2,
     },
     cardHeader: {
       flexDirection: 'row',
@@ -254,15 +249,10 @@ export const createStyles = (colors: ThemeColors) =>
       marginHorizontal: Spacing.xl,
       marginTop: Spacing.md,
       backgroundColor: colors.blockBackground,
-      borderRadius: 14,
+      borderRadius: 18,
       borderWidth: 1,
       borderColor: colors.blockBorder,
-      padding: Spacing.md,
-      shadowColor: '#000',
-      shadowOffset: { width: 0, height: 2 },
-      shadowOpacity: 0.04,
-      shadowRadius: 6,
-      elevation: 2,
+      padding: Spacing.xl,
     },
     correctAnswerHeader: {
       flexDirection: 'row',
