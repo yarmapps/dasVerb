@@ -106,7 +106,6 @@ describe('Offline Mode & isNetworkConnected', () => {
       const onDismiss = jest.fn();
       const onRetry = jest.fn();
       const onPremiumCTA = jest.fn();
-      const onPurchaseSuccess = jest.fn();
 
       const { getByTestId, getByText } = render(
         <Wrapper>
@@ -115,7 +114,6 @@ describe('Offline Mode & isNetworkConnected', () => {
             onDismiss={onDismiss}
             onRetry={onRetry}
             onPremiumCTA={onPremiumCTA}
-            onPurchaseSuccess={onPurchaseSuccess}
           />
         </Wrapper>,
       );
@@ -123,36 +121,20 @@ describe('Offline Mode & isNetworkConnected', () => {
       await act(async () => {});
 
       expect(getByTestId('offline-modal-premium-button')).toBeTruthy();
-      expect(getByText('Бесплатный Premium на 3 дня')).toBeTruthy();
-      expect(getByTestId('offline-modal-premium-subtitle')).toBeTruthy();
-      expect(getByText('потом €8.99 за 3 месяца (☕️ / мес.)')).toBeTruthy();
+      expect(getByText('Включить офлайн')).toBeTruthy();
 
       await act(async () => {
         fireEvent.press(getByTestId('offline-modal-premium-button'));
       });
-      expect(onPurchaseSuccess).toHaveBeenCalledTimes(1);
+      expect(onPremiumCTA).toHaveBeenCalledTimes(1);
     });
 
-    it('triggers onPremiumCTA and hides subtitle when user had trial or no trial packages are available', async () => {
+    it('triggers onPremiumCTA when premium button is clicked', async () => {
       jest.spyOn(featuresService, 'isFeatureEnabled').mockReturnValue(true);
-      jest.spyOn(revenueCatService, 'getMappedPackages').mockResolvedValue({
-        monthly: null,
-        threeMonth: {
-          pkg: {
-            identifier: '$rc_three_month',
-            product: { priceString: '€8.99' },
-          } as any,
-          priceString: '€8.99',
-          freeTrialInfo: undefined, // user had trial already
-        },
-        sixMonth: null,
-        yearly: null,
-        lifetime: null,
-      });
 
       const onPremiumCTA = jest.fn();
 
-      const { getByTestId, getByText, queryByTestId } = render(
+      const { getByTestId, getByText } = render(
         <Wrapper>
           <OfflineLimitModal
             visible={true}
@@ -166,8 +148,7 @@ describe('Offline Mode & isNetworkConnected', () => {
       await act(async () => {});
 
       expect(getByTestId('offline-modal-premium-button')).toBeTruthy();
-      expect(getByText('Купить Premium')).toBeTruthy();
-      expect(queryByTestId('offline-modal-premium-subtitle')).toBeNull();
+      expect(getByText('Включить офлайн')).toBeTruthy();
 
       fireEvent.press(getByTestId('offline-modal-premium-button'));
       expect(onPremiumCTA).toHaveBeenCalledTimes(1);

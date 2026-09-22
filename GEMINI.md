@@ -110,12 +110,12 @@
     * Стили всех карточек режимов и рекламы строго очищены от теней (`shadow*`, `elevation`) для обеспечения плоского современного интерфейса.
 
 16. **Управление согласием пользователей (Consent Management: Google UMP & iOS ATT):**
-    * Сервис `adConsentService` (`src/ads/consentService.ts`) управляет сбором согласия по правилам GDPR (EEA, UK, Швейцария) и Apple ATT.
+    * Сервис `adConsentService` (`src/ads/consentService.ts`) управляет сбором согласия по правилам GDPR (EEA, UK, Швейцария) и Apple ATT через Google User Messaging Platform (UMP).
     * При старте приложения (`App.tsx`) вызывается `adConsentService.initialize()`:
       1. Запрашивает статус согласия через `AdsConsent.requestInfoUpdate()`.
-      2. Если требуется — загружает и отображает официальную форму согласия Google (`loadAndShowConsentFormIfRequired()`).
-      3. На iOS строго соблюдается правило Apple Review 5.1.1(iv): системный диалог `TrackingTransparency.requestTrackingPermissionsAsync()` вызывается **только если согласие в GDPR получено (`OBTAINED`) или не требуется для региона (`NOT_REQUIRED`)**; при отказе в GDPR вызов ATT пропускается.
-      4. Инициализирует Google Mobile Ads SDK и фоновый `AdManager`.
+      2. Если требуется — загружает и отображает официальную форму согласия Google (`loadAndShowConsentFormIfRequired()`), которая нативно оркестрирует как GDPR-согласие, так и нативный диалог Apple IDFA/ATT в соответствии с настройками из консоли AdMob.
+      3. Инициализирует Google Mobile Ads SDK и фоновый `AdManager`.
+    * Плагин `"expo-tracking-transparency"` в `app.json` генерирует системное описание `NSUserTrackingUsageDescription` в `Info.plist` для iOS.
     * В `SettingsScreen` добавлен пункт «Настройки конфиденциальности» (`settingsScreen.privacySettings`), вызывающий `adConsentService.showPrivacyOptions()` для изменения настроек пользователем в любой момент.
 
 17. **Офлайн-режим (Offline Mode & `OfflineLimitModal`):**

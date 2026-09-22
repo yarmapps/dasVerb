@@ -39,7 +39,7 @@ export function OfflineLimitModal({
   };
 
   const handlePremiumPress = () => {
-    trackEvent('offline_limit_modal_premium_clicked', {});
+    trackEvent('offline_limit_modal_premium_clicked', { has_trial: false });
     if (onPremiumCTA) {
       onPremiumCTA();
     } else {

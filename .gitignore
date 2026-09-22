@@ -7,15 +7,43 @@ package-lock.json
 dist/
 web-build/
 
-# Native builds
-android/
-ios/
+# Native builds & binaries
+/android/
+/ios/
+build/
+build.*/
 build.aab
+build.ipa
+*.aab
+*.ipa
+*.apk
+*.app
+*.dSYM/
+*.dSYM.zip
+*.jsbundle
+*.tsbuildinfo
 
-# Environment and secrets
+# Environment, credentials and secret keys
 .env
 .env*.local
 *.pem
+credentials/
+*.p8
+*.p12
+*.cer
+*.crt
+*.key
+*.keystore
+*.jks
+*.mobileprovision
+*.certSigningRequest
+play-service-account*.json
+*service-account*.json
+
+# Fastlane artifacts & history
+fastlane/report.xml
+fastlane/metadata_history/
+fastlane/screenshots_generation_assets/generation_result/
 
 # Logs and databases
 *.log
