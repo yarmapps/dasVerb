@@ -1,0 +1,143 @@
+{
+  "id": "sperren",
+  "infinitive": "sperren",
+  "translation": {
+    "ru": "блокировать, перекрывать, блокировать карту",
+    "en": "to block, to close, to lock, to suspend"
+  },
+  "level": "B1",
+  "frequency_rank": 750,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "sperrt",
+    "preterite_third_singular": "sperrte",
+    "past_participle": "gesperrt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "sperre",
+      "du": "sperrst",
+      "er_sie_es": "sperrt",
+      "wir": "sperren",
+      "ihr": "sperrt",
+      "sie_Sie": "sperren"
+    },
+    "preterite": {
+      "ich": "sperrte",
+      "du": "sperrtest",
+      "er_sie_es": "sperrte",
+      "wir": "sperrten",
+      "ihr": "sperrtet",
+      "sie_Sie": "sperrten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gesperrt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "für",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich sperre mein verlorenes Smartphone sofort online.",
+      "translation": {
+        "ru": "Я сразу блокирую потерянный смартфон онлайн.",
+        "en": "I block my lost smartphone immediately online."
+      },
+      "bracket_parts": [
+        "sperre"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sperrst du bitte deine Bankkarte nach dem Diebstahl?",
+      "translation": {
+        "ru": "Заблокируй, пожалуйста, свою банковскую карту после кражи.",
+        "en": "Will you please block your bank card after the theft?"
+      },
+      "bracket_parts": [
+        "Sperrst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei sperrt die beschädigte Straße für den Verkehr.",
+      "translation": {
+        "ru": "Полиция перекрывает поврежденную дорогу для транспорта.",
+        "en": "The police block the damaged road to traffic."
+      },
+      "bracket_parts": [
+        "sperrt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir sperren den Zugang zum gefahrvollen Baustellenbereich.",
+      "translation": {
+        "ru": "Мы закрываем доступ в опасную зону стройки.",
+        "en": "We block access to the hazardous construction area."
+      },
+      "bracket_parts": [
+        "sperren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sperrt ihr das Benutzerkonto bei unbefugten Zugriffen?",
+      "translation": {
+        "ru": "Вы блокируете аккаунт пользователя при несанкционированном доступе?",
+        "en": "Do you block the user account in case of unauthorized access?"
+      },
+      "bracket_parts": [
+        "Sperrt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Stadtverwaltung sperrte die Brücke wegen dringender Reparaturen.",
+      "translation": {
+        "ru": "Городская администрация перекрыла мост из-за срочного ремонта.",
+        "en": "The city administration closed the bridge due to urgent repairs."
+      },
+      "bracket_parts": [
+        "sperrte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Bank hat mein Konto wegen eines falschen Passworts gesperrt.",
+      "translation": {
+        "ru": "Банк заблокировал мой счет из-за неверного пароля.",
+        "en": "The bank blocked my account because of a wrong password."
+      },
+      "bracket_parts": [
+        "hat",
+        "gesperrt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Sperre die Kreditkarte unverzüglich bei der Hotline!",
+      "translation": {
+        "ru": "Немедленно заблокируй кредитную карту по горячей линии!",
+        "en": "Block the credit card immediately via the hotline!"
+      },
+      "bracket_parts": [
+        "Sperre"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

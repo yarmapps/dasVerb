@@ -1,0 +1,143 @@
+{
+  "id": "erhoffen",
+  "infinitive": "erhoffen",
+  "translation": {
+    "ru": "надеяться, ожидать (с надеждой)",
+    "en": "to hope for, to expect"
+  },
+  "level": "B1",
+  "frequency_rank": 947,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "erhofft",
+    "preterite_third_singular": "erhoffte",
+    "past_participle": "erhofft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erhoffe",
+      "du": "erhoffst",
+      "er_sie_es": "erhofft",
+      "wir": "erhoffen",
+      "ihr": "erhofft",
+      "sie_Sie": "erhoffen"
+    },
+    "preterite": {
+      "ich": "erhoffte",
+      "du": "erhofftest",
+      "er_sie_es": "erhoffte",
+      "wir": "erhofften",
+      "ihr": "erhofftet",
+      "sie_Sie": "erhofften"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "erhofft"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "von",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich erhoffe mir von dieser Weiterbildung einen beruflichen Aufstieg.",
+      "translation": {
+        "ru": "Я надеюсь на профессиональный рост от этого повышения квалификации.",
+        "en": "I hope for professional advancement from this further training."
+      },
+      "bracket_parts": [
+        "erhoffe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erhoffst du dir mehr Unterstützung von deinen Kollegen bei der Arbeit?",
+      "translation": {
+        "ru": "Ты надеешься на большую поддержку от коллег на работе?",
+        "en": "Do you hope for more support from your colleagues at work?"
+      },
+      "bracket_parts": [
+        "Erhoffst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Geschäftsführung erhofft sich durch die Werbung höhere Gewinne.",
+      "translation": {
+        "ru": "Руководство надеется на более высокую прибыль благодаря рекламе.",
+        "en": "Management hopes for higher profits through advertising."
+      },
+      "bracket_parts": [
+        "erhofft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erhoffen eine schnelle und friedliche Lösung des Konflikts.",
+      "translation": {
+        "ru": "Мы надеемся на быстрое и мирное разрешение конфликта.",
+        "en": "We hope for a speedy and peaceful solution to the conflict."
+      },
+      "bracket_parts": [
+        "erhoffen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erhofft ihr euch eine deutliche Verbesserung der Wohnsituation?",
+      "translation": {
+        "ru": "Надеетесь ли вы на значительное улучшение жилищных условий?",
+        "en": "Are you guys hoping for a significant improvement in the living situation?"
+      },
+      "bracket_parts": [
+        "Erhofft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Bürger erhofften sich von der neuen Regierung rasche Reformen.",
+      "translation": {
+        "ru": "Граждане надеялись на быстрые реформы от нового правительства.",
+        "en": "The citizens hoped for quick reforms from the new government."
+      },
+      "bracket_parts": [
+        "erhofften"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat sich von dem Treffen leider deutlich mehr erhofft.",
+      "translation": {
+        "ru": "Он, к сожалению, ожидал от встречи значительно большего.",
+        "en": "He unfortunately hoped for much more from the meeting."
+      },
+      "bracket_parts": [
+        "hat",
+        "erhofft"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erhoffe dir nicht zu viel von leeren Versprechungen!",
+      "translation": {
+        "ru": "Не возлагай слишком больших надежд на пустые обещания!",
+        "en": "Do not expect too much from empty promises!"
+      },
+      "bracket_parts": [
+        "Erhoffe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

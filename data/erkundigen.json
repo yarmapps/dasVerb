@@ -1,0 +1,147 @@
+{
+  "id": "erkundigen",
+  "infinitive": "erkundigen",
+  "translation": {
+    "ru": "наводить справки, осведомляться, расспрашивать",
+    "en": "to inquire, to ask about"
+  },
+  "level": "B1",
+  "frequency_rank": 1018,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": true
+  },
+  "principal_parts": {
+    "present_third_singular": "erkundigt sich",
+    "preterite_third_singular": "erkundigte sich",
+    "past_participle": "erkundigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erkundige mich",
+      "du": "erkundigst dich",
+      "er_sie_es": "erkundigt sich",
+      "wir": "erkundigen uns",
+      "ihr": "erkundigt euch",
+      "sie_Sie": "erkundigen sich"
+    },
+    "preterite": {
+      "ich": "erkundigte mich",
+      "du": "erkundigtest dich",
+      "er_sie_es": "erkundigte sich",
+      "wir": "erkundigten uns",
+      "ihr": "erkundigtet euch",
+      "sie_Sie": "erkundigten sich"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "erkundigt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "nach",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "über",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich erkundige mich am Informationsschalter nach den genauen Abfahrtszeiten.",
+      "translation": {
+        "ru": "Я осведомляюсь в справочном бюро о точном расписании отправления.",
+        "en": "I inquire at the information desk about the exact departure times."
+      },
+      "bracket_parts": [
+        "erkundige"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erkundigst du dich beim Vermieter nach den monatlichen Nebenkosten?",
+      "translation": {
+        "ru": "Осведомляешься ли ты у арендодателя о ежемесячных коммунальных услугах?",
+        "en": "Are you inquiring with the landlord about the monthly utility costs?"
+      },
+      "bracket_parts": [
+        "Erkundigst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Tourist erkundigt sich im Hotel nach den schönsten Sehenswürdigkeiten.",
+      "translation": {
+        "ru": "Турист расспрашивает в отеле о самых красивых достопримечательностях.",
+        "en": "The tourist inquires at the hotel about the most beautiful sights."
+      },
+      "bracket_parts": [
+        "erkundigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erkundigen uns telefonisch nach dem Gesundheitszustand unseres Kollegen.",
+      "translation": {
+        "ru": "Мы осведомляемся по телефону о состоянии здоровья нашего коллеги.",
+        "en": "We inquire by phone about the health condition of our colleague."
+      },
+      "bracket_parts": [
+        "erkundigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erkundigt ihr euch vor der Abreise über die aktuellen Einreisebestimmungen?",
+      "translation": {
+        "ru": "Узнаете ли вы перед отъездом актуальные правила въезда?",
+        "en": "Do you guys inquire about the current entry regulations before departure?"
+      },
+      "bracket_parts": [
+        "Erkundigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie erkundigte sich höflich nach dem Weg zum historischen Marktplatz.",
+      "translation": {
+        "ru": "Она вежливо спросила дорогу к исторической рыночной площади.",
+        "en": "She politely inquired about the way to the historic marketplace."
+      },
+      "bracket_parts": [
+        "erkundigte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Ich habe mich bereits ausführlich über die Studiengebühren erkundigt.",
+      "translation": {
+        "ru": "Я уже подробно разузнал о стоимости обучения.",
+        "en": "I have already inquired extensively about tuition fees."
+      },
+      "bracket_parts": [
+        "habe",
+        "erkundigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erkundige dich rechtzeitig nach den genauen Prüfungsmodalitäten!",
+      "translation": {
+        "ru": "Осведомись вовремя о точных правилах проведения экзамена!",
+        "en": "Inquire in good time about the exact examination modalities!"
+      },
+      "bracket_parts": [
+        "Erkundige"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "ausprobieren",
+  "infinitive": "ausprobieren",
+  "translation": {
+    "ru": "пробовать, тестировать, испытывать",
+    "en": "to try out, to test"
+  },
+  "level": "A2",
+  "frequency_rank": 901,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "probiert aus",
+    "preterite_third_singular": "probierte aus",
+    "past_participle": "ausprobiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "probiere aus",
+      "du": "probierst aus",
+      "er_sie_es": "probiert aus",
+      "wir": "probieren aus",
+      "ihr": "probiert aus",
+      "sie_Sie": "probieren aus"
+    },
+    "preterite": {
+      "ich": "probierte aus",
+      "du": "probiertest aus",
+      "er_sie_es": "probierte aus",
+      "wir": "probierten aus",
+      "ihr": "probiertet aus",
+      "sie_Sie": "probierten aus"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "ausprobiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich probiere heute ein neues Rezept für Schokoladenkuchen aus.",
+      "translation": {
+        "ru": "Я пробую сегодня новый рецепт шоколадного торта.",
+        "en": "I try out a new recipe for chocolate cake today."
+      },
+      "bracket_parts": [
+        "probiere",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Probierst du die neue App auf deinem Smartphone aus?",
+      "translation": {
+        "ru": "Ты тестируешь новое приложение на своем смартфоне?",
+        "en": "Are you trying out the new app on your smartphone?"
+      },
+      "bracket_parts": [
+        "Probierst",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Mechaniker probiert das reparierte Gerät sorgfältig aus.",
+      "translation": {
+        "ru": "Механик тщательно испытывает отремонтированный прибор.",
+        "en": "The mechanic tests the repaired device carefully."
+      },
+      "bracket_parts": [
+        "probiert",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir probieren verschiedene Sportarten im Verein aus.",
+      "translation": {
+        "ru": "Мы пробуем разные виды спорта в клубе.",
+        "en": "We try out various sports in the club."
+      },
+      "bracket_parts": [
+        "probieren",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Probiert ihr das neue Restaurant in der Innenstadt aus?",
+      "translation": {
+        "ru": "Вы пробуете новый ресторан в центре города?",
+        "en": "Are you trying out the new restaurant downtown?"
+      },
+      "bracket_parts": [
+        "Probiert",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie probierte das Kleid vor dem Spiegel begeistert aus.",
+      "translation": {
+        "ru": "Она с восторгом примерила платье перед зеркалом.",
+        "en": "She enthusiastically tried on the dress in front of the mirror."
+      },
+      "bracket_parts": [
+        "probierte",
+        "aus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Wir haben viele verschiedene Methoden im Unterricht ausprobiert.",
+      "translation": {
+        "ru": "Мы перепробовали много разных методов на уроках.",
+        "en": "We have tried out many different methods in class."
+      },
+      "bracket_parts": [
+        "haben",
+        "ausprobiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Probiere neue Dinge mutig und ohne Angst aus!",
+      "translation": {
+        "ru": "Пробуй новое смело и без страха!",
+        "en": "Try out new things bravely and without fear!"
+      },
+      "bracket_parts": [
+        "Probiere",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "fluechten",
+  "infinitive": "flüchten",
+  "translation": {
+    "ru": "бежать, спасаться бегством, укрываться",
+    "en": "to flee, to escape, to take refuge"
+  },
+  "level": "B1",
+  "frequency_rank": 918,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "flüchtet",
+    "preterite_third_singular": "flüchtete",
+    "past_participle": "geflüchtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "flüchte",
+      "du": "flüchtest",
+      "er_sie_es": "flüchtet",
+      "wir": "flüchten",
+      "ihr": "flüchtet",
+      "sie_Sie": "flüchten"
+    },
+    "preterite": {
+      "ich": "flüchtete",
+      "du": "flüchtetest",
+      "er_sie_es": "flüchtete",
+      "wir": "flüchteten",
+      "ihr": "flüchtetet",
+      "sie_Sie": "flüchteten"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "geflüchtet"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "vor",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "in",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich flüchte vor dem lauten Stadtlärm in die ruhige Natur.",
+      "translation": {
+        "ru": "Я спасаюсь от громкого городского шума в тихой природе.",
+        "en": "I flee from the loud city noise into quiet nature."
+      },
+      "bracket_parts": [
+        "flüchte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Flüchtest du bei Regen schnell unter das rettende Dach?",
+      "translation": {
+        "ru": "Ты при дожде быстро укрываешься под спасительной крышей?",
+        "en": "Do you flee quickly under the sheltering roof in the rain?"
+      },
+      "bracket_parts": [
+        "Flüchtest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das ängstliche Tier flüchtet vor dem herannahenden Menschen.",
+      "translation": {
+        "ru": "Пугливое животное убегает от приближающегося человека.",
+        "en": "The fearful animal flees from the approaching human."
+      },
+      "bracket_parts": [
+        "flüchtet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir flüchten im heißen Sommer in die kühlen Berge.",
+      "translation": {
+        "ru": "Жарким летом мы спасаемся бегством в прохладные горы.",
+        "en": "In the hot summer we escape into the cool mountains."
+      },
+      "bracket_parts": [
+        "flüchten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Flüchtet ihr vor dem herannahenden Sturm ins Haus?",
+      "translation": {
+        "ru": "Вы прячетесь в дом от приближающейся бури?",
+        "en": "Are you fleeing into the house from the approaching storm?"
+      },
+      "bracket_parts": [
+        "Flüchtet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Bankräuber flüchteten mit einem schnellen Fluchtauto.",
+      "translation": {
+        "ru": "Грабители банка скрылись на быстром автомобиле.",
+        "en": "The bank robbers fled in a fast getaway car."
+      },
+      "bracket_parts": [
+        "flüchteten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Viele Menschen sind damals vor dem Krieg ins Ausland geflüchtet.",
+      "translation": {
+        "ru": "Многие люди тогда бежали от войны за границу.",
+        "en": "Many people fled abroad from the war back then."
+      },
+      "bracket_parts": [
+        "sind",
+        "geflüchtet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Flüchte bei akuter Gefahr sofort an einen sicheren Ort!",
+      "translation": {
+        "ru": "При острой опасности немедленно спасайся в безопасное место!",
+        "en": "In case of acute danger, flee immediately to a safe place!"
+      },
+      "bracket_parts": [
+        "Flüchte"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

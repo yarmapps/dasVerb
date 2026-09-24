@@ -1,0 +1,171 @@
+{
+  "id": "bevorzugen",
+  "infinitive": "bevorzugen",
+  "translation": {
+    "ru": "предпочитать",
+    "en": "to prefer, favor"
+  },
+  "level": "B1",
+  "frequency_rank": 512,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bevorzugen",
+    "present_3sg": "bevorzugt",
+    "praeteritum_3sg": "bevorzugte",
+    "partizip_2": "bevorzugt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bevorzuge",
+      "du": "bevorzugst",
+      "er_sie_es": "bevorzugt",
+      "wir": "bevorzugen",
+      "ihr": "bevorzugt",
+      "sie_Sie": "bevorzugen"
+    },
+    "praeteritum": {
+      "ich": "bevorzugte",
+      "du": "bevorzugtest",
+      "er_sie_es": "bevorzugte",
+      "wir": "bevorzugten",
+      "ihr": "bevorzugtet",
+      "sie_Sie": "bevorzugten"
+    },
+    "perfekt": {
+      "ich": "habe bevorzugt",
+      "du": "hast bevorzugt",
+      "er_sie_es": "hat bevorzugt",
+      "wir": "haben bevorzugt",
+      "ihr": "habt bevorzugt",
+      "sie_Sie": "haben bevorzugt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich bevorzuge gesunde vegetarische Gerichte im Alltag.",
+      "translation": {
+        "ru": "В повседневной жизни я предпочитаю здоровые вегетарианские блюда.",
+        "en": "I prefer healthy vegetarian dishes in everyday life."
+      },
+      "bracket_parts": [
+        "bevorzuge"
+      ],
+      "akkusativ_parts": [
+        "gesunde vegetarische Gerichte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du bevorzugst ruhige Urlaube in den Bergen gegenüber dem Strand.",
+      "translation": {
+        "ru": "Ты предпочитаешь спокойный отдых в горах пляжу.",
+        "en": "You prefer quiet holidays in the mountains over the beach."
+      },
+      "bracket_parts": [
+        "bevorzugst"
+      ],
+      "akkusativ_parts": [
+        "ruhige Urlaube in den Bergen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Chef bevorzugt klare und knappe Berichte.",
+      "translation": {
+        "ru": "Шеф предпочитает четкие и лаконичные отчеты.",
+        "en": "The boss prefers clear and concise reports."
+      },
+      "bracket_parts": [
+        "bevorzugt"
+      ],
+      "akkusativ_parts": [
+        "klare und knappe Berichte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bevorzugen das Reisen mit der umweltfreundlichen Bahn.",
+      "translation": {
+        "ru": "Мы предпочитаем путешествия на экологичном поезде.",
+        "en": "We prefer traveling by eco-friendly train."
+      },
+      "bracket_parts": [
+        "bevorzugen"
+      ],
+      "akkusativ_parts": [
+        "das Reisen mit der umweltfreundlichen Bahn"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr bevorzugt digitale Bücher aus praktischen Gründen.",
+      "translation": {
+        "ru": "Вы предпочитаете электронные книги из практических соображений.",
+        "en": "You prefer digital books for practical reasons."
+      },
+      "bracket_parts": [
+        "bevorzugt"
+      ],
+      "akkusativ_parts": [
+        "digitale Bücher"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie bevorzugten damals traditionelle handwerkliche Methoden.",
+      "translation": {
+        "ru": "Они тогда отдавали предпочтение традиционным ремесленным методам.",
+        "en": "They preferred traditional craft methods back then."
+      },
+      "bracket_parts": [
+        "bevorzugten"
+      ],
+      "akkusativ_parts": [
+        "traditionelle handwerkliche Methoden"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Kunde hat das günstigere Angebot sofort bevorzugt.",
+      "translation": {
+        "ru": "Клиент сразу отдал предпочтение более выгодному предложению.",
+        "en": "The customer preferred the cheaper offer immediately."
+      },
+      "bracket_parts": [
+        "hat",
+        "bevorzugt"
+      ],
+      "akkusativ_parts": [
+        "das günstigere Angebot"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bevorzuge Qualität vor Quantität bei deinen Einkäufen!",
+      "translation": {
+        "ru": "Предпочитай качество количеству при своих покупках!",
+        "en": "Prefer quality over quantity in your purchases!"
+      },
+      "bracket_parts": [
+        "Bevorzuge"
+      ],
+      "akkusativ_parts": [
+        "Qualität"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

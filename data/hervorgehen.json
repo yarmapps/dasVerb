@@ -1,0 +1,150 @@
+{
+  "id": "hervorgehen",
+  "infinitive": "hervorgehen",
+  "translation": {
+    "ru": "вытекать, следовать, выходить (победителем)",
+    "en": "to emerge, to originate, to follow from"
+  },
+  "level": "B2",
+  "frequency_rank": 923,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "geht hervor",
+    "preterite_third_singular": "ging hervor",
+    "past_participle": "hervorgegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe hervor",
+      "du": "gehst hervor",
+      "er_sie_es": "geht hervor",
+      "wir": "gehen hervor",
+      "ihr": "geht hervor",
+      "sie_Sie": "gehen hervor"
+    },
+    "preterite": {
+      "ich": "ging hervor",
+      "du": "gingst hervor",
+      "er_sie_es": "ging hervor",
+      "wir": "gingen hervor",
+      "ihr": "gingt hervor",
+      "sie_Sie": "gingen hervor"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "hervorgegangen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "aus",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich gehe aus dieser harten Prüfung gestärkt hervor.",
+      "translation": {
+        "ru": "Я выхожу из этого тяжелого испытания окрепшим.",
+        "en": "I emerge strengthened from this tough trial."
+      },
+      "bracket_parts": [
+        "gehe",
+        "hervor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gehst du als Sieger aus der heutigen Debatte hervor?",
+      "translation": {
+        "ru": "Выйдешь ли ты победителем из сегодняшних дебатов?",
+        "en": "Will you emerge as the winner from today's debate?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "hervor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Aus dem Bericht geht die genaue Ursache des Unfalls klar hervor.",
+      "translation": {
+        "ru": "Из отчета четко следует точная причина аварии.",
+        "en": "The report clearly shows the exact cause of the accident."
+      },
+      "bracket_parts": [
+        "geht",
+        "hervor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gehen voller Zuversicht aus den Koalitionsverhandlungen hervor.",
+      "translation": {
+        "ru": "Мы выходим из коалиционных переговоров с уверенностью.",
+        "en": "We emerge from the coalition negotiations full of confidence."
+      },
+      "bracket_parts": [
+        "gehen",
+        "hervor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Geht ihr aus dem heutigen Wettbewerb als Gewinner hervor?",
+      "translation": {
+        "ru": "Выйдете ли вы победителями из сегодняшнего конкурса?",
+        "en": "Are you guys emerging as winners from today's competition?"
+      },
+      "bracket_parts": [
+        "Geht",
+        "hervor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Aus den alten Dokumenten ging die wahre Eigentümerschaft hervor.",
+      "translation": {
+        "ru": "Из старых документов следовало истинное право собственности.",
+        "en": "The true ownership emerged from the old documents."
+      },
+      "bracket_parts": [
+        "ging",
+        "hervor"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Partei ist als stärkste Kraft aus den Wahlen hervorgegangen.",
+      "translation": {
+        "ru": "Партия вышла самой сильной силой по итогам выборов.",
+        "en": "The party emerged as the strongest force from the elections."
+      },
+      "bracket_parts": [
+        "ist",
+        "hervorgegangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Geh stets aufrecht und selbstbewusst aus jeder Niederlage hervor!",
+      "translation": {
+        "ru": "Всегда выходи с высоко поднятой головой и уверенностью из любого поражения!",
+        "en": "Always emerge upright and confident from every defeat!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "hervor"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

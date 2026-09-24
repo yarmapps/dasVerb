@@ -1,0 +1,137 @@
+{
+  "id": "verschaerfen",
+  "infinitive": "verschärfen",
+  "translation": {
+    "ru": "ужесточать, обострять, усиливать",
+    "en": "to tighten, to intensify, to aggravate"
+  },
+  "level": "B2",
+  "frequency_rank": 970,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verschärft",
+    "preterite_third_singular": "verschärfte",
+    "past_participle": "verschärft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verschärfe",
+      "du": "verschärfst",
+      "er_sie_es": "verschärft",
+      "wir": "verschärfen",
+      "ihr": "verschärft",
+      "sie_Sie": "verschärfen"
+    },
+    "preterite": {
+      "ich": "verschärfte",
+      "du": "verschärftest",
+      "er_sie_es": "verschärfte",
+      "wir": "verschärften",
+      "ihr": "verschärftet",
+      "sie_Sie": "verschärften"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verschärft"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich verschärfe die Sicherheitskontrollen am Eingang des Gebäudes.",
+      "translation": {
+        "ru": "Я ужесточаю контроль безопасности на входе в здание.",
+        "en": "I tighten security checks at the building entrance."
+      },
+      "bracket_parts": [
+        "verschärfe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verschärfst du die Regeln für das Projekt nach den vielen Fehlern?",
+      "translation": {
+        "ru": "Ужесточаешь ли ты правила для проекта после множества ошибок?",
+        "en": "Are you tightening the rules for the project after the many mistakes?"
+      },
+      "bracket_parts": [
+        "Verschärfst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Dürre verschärft den akuten Wassermangel in der Region zusehends.",
+      "translation": {
+        "ru": "Засуха заметно обостряет острую нехватку воды в регионе.",
+        "en": "The drought noticeably aggravates the acute water shortage in the region."
+      },
+      "bracket_parts": [
+        "verschärft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verschärfen unsere Maßnahmen gegen illegale Grenzübertritte.",
+      "translation": {
+        "ru": "Мы ужесточаем наши меры против незаконного пересечения границы.",
+        "en": "We are tightening our measures against illegal border crossings."
+      },
+      "bracket_parts": [
+        "verschärfen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verschärft ihr die Qualitätskriterien bei der Endprüfung?",
+      "translation": {
+        "ru": "Ужесточаете ли вы критерии качества при финальной проверке?",
+        "en": "Are you guys tightening the quality criteria in the final inspection?"
+      },
+      "bracket_parts": [
+        "Verschärft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Krise verschärfte die soziale Ungleichheit im ganzen Land.",
+      "translation": {
+        "ru": "Кризис обострил социальное неравенство во всей стране.",
+        "en": "The crisis intensified social inequality throughout the country."
+      },
+      "bracket_parts": [
+        "verschärfte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Regierung hat das Waffenrecht nach dem Vorfall drastisch verschärft.",
+      "translation": {
+        "ru": "Правительство радикально ужесточило закон об оружии после инцидента.",
+        "en": "The government drastically tightened gun laws after the incident."
+      },
+      "bracket_parts": [
+        "hat",
+        "verschärft"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verschärfe bitte die Tonart in diesem Streit nicht unnötig!",
+      "translation": {
+        "ru": "Не обостряй, пожалуйста, тон в этом споре без нужды!",
+        "en": "Please do not escalate the tone in this dispute unnecessarily!"
+      },
+      "bracket_parts": [
+        "Verschärfe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

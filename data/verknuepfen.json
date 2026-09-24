@@ -1,0 +1,143 @@
+{
+  "id": "verknuepfen",
+  "infinitive": "verknüpfen",
+  "translation": {
+    "ru": "связывать, соединять, ассоциировать",
+    "en": "to link, to connect, to tie"
+  },
+  "level": "B2",
+  "frequency_rank": 817,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verknüpft",
+    "preterite_third_singular": "verknüpfte",
+    "past_participle": "verknüpft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verknüpfe",
+      "du": "verknüpfst",
+      "er_sie_es": "verknüpft",
+      "wir": "verknüpfen",
+      "ihr": "verknüpft",
+      "sie_Sie": "verknüpfen"
+    },
+    "preterite": {
+      "ich": "verknüpfte",
+      "du": "verknüpftest",
+      "er_sie_es": "verknüpfte",
+      "wir": "verknüpften",
+      "ihr": "verknüpftet",
+      "sie_Sie": "verknüpften"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verknüpft"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich verknüpfe Theorie und Praxis in meiner täglichen Arbeit.",
+      "translation": {
+        "ru": "Я связываю теорию и практику в своей ежедневной работе.",
+        "en": "I link theory and practice in my daily work."
+      },
+      "bracket_parts": [
+        "verknüpfe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verknüpfst du dein Smartphone mit dem Fernseher?",
+      "translation": {
+        "ru": "Ты подключаешь свой смартфон к телевизору?",
+        "en": "Are you connecting your smartphone to the TV?"
+      },
+      "bracket_parts": [
+        "Verknüpfst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das neue Programm verknüpft verschiedene Datenbanken miteinander.",
+      "translation": {
+        "ru": "Новая программа связывает между собой различные базы данных.",
+        "en": "The new program links different databases together."
+      },
+      "bracket_parts": [
+        "verknüpft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verknüpfen zwei Seile mit einem stabilen Knoten.",
+      "translation": {
+        "ru": "Мы связываем две веревки прочным узлом.",
+        "en": "We tie two ropes together with a sturdy knot."
+      },
+      "bracket_parts": [
+        "verknüpfen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verknüpft ihr diese beiden Aufgaben im Projektplan?",
+      "translation": {
+        "ru": "Вы связываете эти две задачи в плане проекта?",
+        "en": "Are you linking these two tasks in the project plan?"
+      },
+      "bracket_parts": [
+        "Verknüpft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Dozent verknüpfte historische Fakten mit aktuellen Ereignissen.",
+      "translation": {
+        "ru": "Преподаватель связал исторические факты с текущими событиями.",
+        "en": "The lecturer linked historical facts with current events."
+      },
+      "bracket_parts": [
+        "verknüpfte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben die beiden Benutzerkonten erfolgreich verknüpft.",
+      "translation": {
+        "ru": "Они успешно связали обе учетные записи пользователей.",
+        "en": "They successfully linked the two user accounts."
+      },
+      "bracket_parts": [
+        "haben",
+        "verknüpft"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verknüpfe die neuen Wörter immer mit Bildern!",
+      "translation": {
+        "ru": "Всегда связывай новые слова с картинками!",
+        "en": "Always connect the new words with pictures!"
+      },
+      "bracket_parts": [
+        "Verknüpfe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "hervorheben",
+  "infinitive": "hervorheben",
+  "translation": {
+    "ru": "выделять, подчеркивать, акцентировать внимание",
+    "en": "to emphasize, to highlight, to bring out"
+  },
+  "level": "B2",
+  "frequency_rank": 983,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "hebt hervor",
+    "preterite_third_singular": "hob hervor",
+    "past_participle": "hervorgehoben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "hebe hervor",
+      "du": "hebst hervor",
+      "er_sie_es": "hebt hervor",
+      "wir": "heben hervor",
+      "ihr": "hebt hervor",
+      "sie_Sie": "heben hervor"
+    },
+    "preterite": {
+      "ich": "hob hervor",
+      "du": "hobst hervor",
+      "er_sie_es": "hob hervor",
+      "wir": "hoben hervor",
+      "ihr": "hobt hervor",
+      "sie_Sie": "hoben hervor"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "hervorgehoben"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich hebe die besonderen Leistungen unseres Teams ausdrücklich hervor.",
+      "translation": {
+        "ru": "Я особо выделяю выдающиеся достижения нашей команды.",
+        "en": "I explicitly highlight the special achievements of our team."
+      },
+      "bracket_parts": [
+        "hebe",
+        "hervor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Hebst du in deiner Präsentation die wichtigsten Vorzüge des Produkts hervor?",
+      "translation": {
+        "ru": "Выделяешь ли ты в своей презентации важнейшие преимущества продукта?",
+        "en": "Do you emphasize the main benefits of the product in your presentation?"
+      },
+      "bracket_parts": [
+        "Hebst",
+        "hervor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Professor hebt die historische Relevanz dieser Entdeckung hervor.",
+      "translation": {
+        "ru": "Профессор подчеркивает историческую значимость этого открытия.",
+        "en": "The professor emphasizes the historical relevance of this discovery."
+      },
+      "bracket_parts": [
+        "hebt",
+        "hervor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir heben den positiven Beitrag unserer Partner zum Projekterfolg hervor.",
+      "translation": {
+        "ru": "Мы подчеркиваем позитивный вклад наших партнеров в успех проекта.",
+        "en": "We highlight the positive contribution of our partners to project success."
+      },
+      "bracket_parts": [
+        "heben",
+        "hervor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Hebt ihr die Kernargumente in eurem wissenschaftlichen Aufsatz klar hervor?",
+      "translation": {
+        "ru": "Четко ли вы выделяете ключевые аргументы в своей научной статье?",
+        "en": "Do you guys clearly emphasize the core arguments in your scientific paper?"
+      },
+      "bracket_parts": [
+        "Hebt",
+        "hervor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Kritikerin hob die herausragende schauspielerische Leistung hervor.",
+      "translation": {
+        "ru": "Критик выделила выдающуюся актерскую игру.",
+        "en": "The critic highlighted the outstanding acting performance."
+      },
+      "bracket_parts": [
+        "hob",
+        "hervor"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Direktor hat die Bedeutung ständiger Weiterbildung hervorgehoben.",
+      "translation": {
+        "ru": "Директор подчеркнул важность постоянного повышения квалификации.",
+        "en": "The director emphasized the importance of continuous education."
+      },
+      "bracket_parts": [
+        "hat",
+        "hervorgehoben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Hebe bitte die wesentlichen Punkte in der Zusammenfassung hervor!",
+      "translation": {
+        "ru": "Выдели, пожалуйста, основные пункты в резюме!",
+        "en": "Please highlight the essential points in the summary!"
+      },
+      "bracket_parts": [
+        "Hebe",
+        "hervor"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "aufzeigen",
+  "infinitive": "aufzeigen",
+  "translation": {
+    "ru": "демонстрировать, указывать, выявлять",
+    "en": "to demonstrate, to point out, to reveal"
+  },
+  "level": "B2",
+  "frequency_rank": 740,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "zeigt auf",
+    "preterite_third_singular": "zeigte auf",
+    "past_participle": "aufgezeigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "zeige auf",
+      "du": "zeigst auf",
+      "er_sie_es": "zeigt auf",
+      "wir": "zeigen auf",
+      "ihr": "zeigt auf",
+      "sie_Sie": "zeigen auf"
+    },
+    "preterite": {
+      "ich": "zeigte auf",
+      "du": "zeigtest auf",
+      "er_sie_es": "zeigte auf",
+      "wir": "zeigten auf",
+      "ihr": "zeigtet auf",
+      "sie_Sie": "zeigten auf"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "aufgezeigt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich zeige neue Perspektiven für unsere Zukunft auf.",
+      "translation": {
+        "ru": "Я показываю новые перспективы для нашего будущего.",
+        "en": "I point out new perspectives for our future."
+      },
+      "bracket_parts": [
+        "zeige",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Zeigst du im Unterricht immer brav auf?",
+      "translation": {
+        "ru": "Ты всегда послушно поднимаешь руку на уроке?",
+        "en": "Do you always raise your hand nicely in class?"
+      },
+      "bracket_parts": [
+        "Zeigst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Studie zeigt deutliche Schwachstellen im System auf.",
+      "translation": {
+        "ru": "Исследование выявляет явные слабые места в системе.",
+        "en": "The study reveals clear weak points in the system."
+      },
+      "bracket_parts": [
+        "zeigt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir zeigen verschiedene Lösungswege für das Problem auf.",
+      "translation": {
+        "ru": "Мы показываем различные пути решения проблемы.",
+        "en": "We demonstrate various solutions to the problem."
+      },
+      "bracket_parts": [
+        "zeigen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr zeigt mögliche Risiken des Plans deutlich auf.",
+      "translation": {
+        "ru": "Вы четко указываете на возможные риски плана.",
+        "en": "You clearly point out possible risks of the plan."
+      },
+      "bracket_parts": [
+        "zeigt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Bericht zeigte die wirtschaftlichen Folgen der Krise auf.",
+      "translation": {
+        "ru": "Отчет продемонстрировал экономические последствия кризиса.",
+        "en": "The report showed the economic consequences of the crisis."
+      },
+      "bracket_parts": [
+        "zeigte",
+        "auf"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Experten haben konkrete Verbesserungen aufgezeigt.",
+      "translation": {
+        "ru": "Эксперты указали на конкретные улучшения.",
+        "en": "The experts have pointed out concrete improvements."
+      },
+      "bracket_parts": [
+        "haben",
+        "aufgezeigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Zeige uns die wichtigsten Argumente verständlich auf!",
+      "translation": {
+        "ru": "Изложи нам самые важные аргументы доходчиво!",
+        "en": "Demonstrate the most important arguments clearly to us!"
+      },
+      "bracket_parts": [
+        "Zeige",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "decken",
+  "infinitive": "decken",
+  "translation": {
+    "ru": "накрывать (на стол), покрывать (расходы), крыть (крышу)",
+    "en": "to set (table), to cover (costs), to roof"
+  },
+  "level": "A1",
+  "frequency_rank": 656,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "decken",
+    "present_3sg": "deckt",
+    "praeteritum_3sg": "deckte",
+    "partizip_2": "gedeckt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "decke",
+      "du": "deckst",
+      "er_sie_es": "deckt",
+      "wir": "decken",
+      "ihr": "deckt",
+      "sie_Sie": "decken"
+    },
+    "praeteritum": {
+      "ich": "deckte",
+      "du": "decktest",
+      "er_sie_es": "deckte",
+      "wir": "deckten",
+      "ihr": "decktet",
+      "sie_Sie": "deckten"
+    },
+    "perfekt": {
+      "ich": "habe gedeckt",
+      "du": "hast gedeckt",
+      "er_sie_es": "hat gedeckt",
+      "wir": "haben gedeckt",
+      "ihr": "habt gedeckt",
+      "sie_Sie": "haben gedeckt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich decke den Tisch für das festliche Abendessen.",
+      "translation": {
+        "ru": "Я накрываю на стол для праздничного ужина.",
+        "en": "I set the table for the festive dinner."
+      },
+      "bracket_parts": [
+        "decke"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Deckst du bitte noch das Besteck und die Gläser ein?",
+      "translation": {
+        "ru": "Накроешь, пожалуйста, еще приборы и стаканы?",
+        "en": "Will you please set the cutlery and glasses?"
+      },
+      "bracket_parts": [
+        "Deckst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Einnahmen decken kaum die hohen Kosten.",
+      "translation": {
+        "ru": "Доходы едва покрывают высокие расходы.",
+        "en": "The income hardly covers the high costs."
+      },
+      "bracket_parts": [
+        "decken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir decken das Dach mit neuen roten Ziegeln.",
+      "translation": {
+        "ru": "Мы кроем крышу новой красной черепицей.",
+        "en": "We are roofing the roof with new red tiles."
+      },
+      "bracket_parts": [
+        "decken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr deckt eure Teller mit Servietten ab.",
+      "translation": {
+        "ru": "Вы прикрываете тарелки салфетками.",
+        "en": "You cover your plates with napkins."
+      },
+      "bracket_parts": [
+        "deckt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Versicherung deckte damals den gesamten Schaden.",
+      "translation": {
+        "ru": "Страховка тогда покрыла весь ущерб.",
+        "en": "The insurance covered the entire damage back then."
+      },
+      "bracket_parts": [
+        "deckte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Kinder haben den Frühstückstisch schon liebevoll gedeckt.",
+      "translation": {
+        "ru": "Дети уже с любовью накрыли стол к завтраку.",
+        "en": "The children have already set the breakfast table lovingly."
+      },
+      "bracket_parts": [
+        "haben",
+        "gedeckt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Deck bitte schnell den Tisch vor der Ankunft der Gäste!",
+      "translation": {
+        "ru": "Накрой, пожалуйста, быстрее на стол до прихода гостей!",
+        "en": "Please set the table quickly before the guests arrive!"
+      },
+      "bracket_parts": [
+        "Deck"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

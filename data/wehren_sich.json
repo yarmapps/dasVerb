@@ -1,0 +1,147 @@
+{
+  "id": "wehren_sich",
+  "infinitive": "wehren",
+  "translation": {
+    "ru": "защищаться, сопротивляться, отбиваться",
+    "en": "to defend oneself, to resist"
+  },
+  "level": "B1",
+  "frequency_rank": 583,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "wehren",
+    "present_3sg": "wehrt sich",
+    "praeteritum_3sg": "wehrte sich",
+    "partizip_2": "gewehrt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wehre mich",
+      "du": "wehrst dich",
+      "er_sie_es": "wehrt sich",
+      "wir": "wehren uns",
+      "ihr": "wehrt euch",
+      "sie_Sie": "wehren sich"
+    },
+    "praeteritum": {
+      "ich": "wehrte mich",
+      "du": "wehrtest dich",
+      "er_sie_es": "wehrte sich",
+      "wir": "wehrten uns",
+      "ihr": "wehrtet euch",
+      "sie_Sie": "wehrten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich gewehrt",
+      "du": "hast dich gewehrt",
+      "er_sie_es": "hat sich gewehrt",
+      "wir": "haben uns gewehrt",
+      "ihr": "habt euch gewehrt",
+      "sie_Sie": "haben sich gewehrt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "gegen",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich wehre mich energisch gegen diese falschen Vorwürfe.",
+      "translation": {
+        "ru": "Я решительно защищаюсь от этих ложных обвинений.",
+        "en": "I defend myself vigorously against these false accusations."
+      },
+      "bracket_parts": [
+        "wehre"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wehrst du dich nicht gegen die Ungerechtigkeit?",
+      "translation": {
+        "ru": "Разве ты не защищаешься от несправедливости?",
+        "en": "Are you not defending yourself against the injustice?"
+      },
+      "bracket_parts": [
+        "Wehrst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das kleine Tier wehrt sich mutig gegen den Angreifer.",
+      "translation": {
+        "ru": "Маленький зверек смело защищается от нападающего.",
+        "en": "The little animal defends itself bravely against the attacker."
+      },
+      "bracket_parts": [
+        "wehrt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir wehren uns gemeinsam gegen die Preiserhöhung.",
+      "translation": {
+        "ru": "Мы вместе боремся против повышения цен.",
+        "en": "We fight together against the price increase."
+      },
+      "bracket_parts": [
+        "wehren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr wehrt euch tapfer gegen den starken Wind.",
+      "translation": {
+        "ru": "Вы храбро сопротивляетесь сильному ветру.",
+        "en": "You defend yourselves bravely against the strong wind."
+      },
+      "bracket_parts": [
+        "wehrt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Bürger wehrten sich damals gegen den Abriss des Parks.",
+      "translation": {
+        "ru": "Граждане тогда сопротивлялись сносу парка.",
+        "en": "Citizens resisted the demolition of the park back then."
+      },
+      "bracket_parts": [
+        "wehrten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das Opfer hat sich erfolgreich gegen den Täter gewehrt.",
+      "translation": {
+        "ru": "Жертва успешно отбилась от преступника.",
+        "en": "The victim successfully fought back against the attacker."
+      },
+      "bracket_parts": [
+        "hat",
+        "gewehrt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Wehre dich immer gegen Ungerechtigkeit!",
+      "translation": {
+        "ru": "Всегда защищайся от несправедливости!",
+        "en": "Always stand up against injustice!"
+      },
+      "bracket_parts": [
+        "Wehre"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

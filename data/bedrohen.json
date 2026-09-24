@@ -1,0 +1,147 @@
+{
+  "id": "bedrohen",
+  "infinitive": "bedrohen",
+  "translation": {
+    "ru": "угрожать, ставить под угрозу",
+    "en": "to threaten, to endanger"
+  },
+  "level": "B1",
+  "frequency_rank": 653,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bedrohen",
+    "present_3sg": "bedroht",
+    "praeteritum_3sg": "bedrohte",
+    "partizip_2": "bedroht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bedrohe",
+      "du": "bedrohst",
+      "er_sie_es": "bedroht",
+      "wir": "bedrohen",
+      "ihr": "bedroht",
+      "sie_Sie": "bedrohen"
+    },
+    "praeteritum": {
+      "ich": "bedrohte",
+      "du": "bedrohtest",
+      "er_sie_es": "bedrohte",
+      "wir": "bedrohten",
+      "ihr": "bedrohtet",
+      "sie_Sie": "bedrohten"
+    },
+    "perfekt": {
+      "ich": "habe bedroht",
+      "du": "hast bedroht",
+      "er_sie_es": "hat bedroht",
+      "wir": "haben bedroht",
+      "ihr": "habt bedroht",
+      "sie_Sie": "haben bedroht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich bedrohe niemanden mit Worten oder Taten.",
+      "translation": {
+        "ru": "Я никому не угрожаю ни словами, ни поступками.",
+        "en": "I do not threaten anyone with words or actions."
+      },
+      "bracket_parts": [
+        "bedrohe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bedrohst du den Zeugen etwa mit einer Anzeige?",
+      "translation": {
+        "ru": "Ты что, угрожаешь свидетелю заявлением в полицию?",
+        "en": "Are you threatening the witness with a complaint?"
+      },
+      "bracket_parts": [
+        "Bedrohst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Klimawandel bedroht viele Tierarten weltweit.",
+      "translation": {
+        "ru": "Изменение климата угрожает многим видам животных по всему миру.",
+        "en": "Climate change threatens many animal species worldwide."
+      },
+      "bracket_parts": [
+        "bedroht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir lassen uns von niemandem bedrohen.",
+      "translation": {
+        "ru": "Мы никому не позволим себе угрожать.",
+        "en": "We do not let anyone threaten us."
+      },
+      "bracket_parts": [
+        "bedrohen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr bedroht die Sicherheit im Gebäude.",
+      "translation": {
+        "ru": "Вы ставите под угрозу безопасность в здании.",
+        "en": "You threaten security in the building."
+      },
+      "bracket_parts": [
+        "bedroht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Täter bedrohte die Kassiererin damals mit einer Waffe.",
+      "translation": {
+        "ru": "Преступник тогда угрожал кассирше оружием.",
+        "en": "The perpetrator threatened the cashier with a weapon back then."
+      },
+      "bracket_parts": [
+        "bedrohte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das Hochwasser hat die ganze Ortschaft bedroht.",
+      "translation": {
+        "ru": "Паводок угрожал всей деревне.",
+        "en": "The flood threatened the entire village."
+      },
+      "bracket_parts": [
+        "hat",
+        "bedroht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bedrohe niemals andere Menschen!",
+      "translation": {
+        "ru": "Никогда не угрожай другим людям!",
+        "en": "Never threaten other people!"
+      },
+      "bracket_parts": [
+        "Bedrohe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

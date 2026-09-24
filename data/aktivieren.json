@@ -1,0 +1,138 @@
+{
+  "id": "aktivieren",
+  "infinitive": "aktivieren",
+  "translation": {
+    "ru": "активировать, приводить в действие",
+    "en": "to activate, to enable"
+  },
+  "level": "B1",
+  "frequency_rank": 854,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "aktiviert",
+    "preterite_third_singular": "aktivierte",
+    "past_participle": "aktiviert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "aktiviere",
+      "du": "aktivierst",
+      "er_sie_es": "aktiviert",
+      "wir": "aktivieren",
+      "ihr": "aktiviert",
+      "sie_Sie": "aktivieren"
+    },
+    "preterite": {
+      "ich": "aktivierte",
+      "du": "aktiviertest",
+      "er_sie_es": "aktivierte",
+      "wir": "aktivierten",
+      "ihr": "aktiviertet",
+      "sie_Sie": "aktivierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "aktiviert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich aktiviere die neue SIM-Karte auf meinem Smartphone.",
+      "translation": {
+        "ru": "Я активирую новую сим-карту на своем смартфоне.",
+        "en": "I activate the new SIM card on my smartphone."
+      },
+      "bracket_parts": [
+        "aktiviere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Aktivierst du den Flugmodus während des Fluges?",
+      "translation": {
+        "ru": "Ты включаешь режим полета во время перелета?",
+        "en": "Do you activate flight mode during the flight?"
+      },
+      "bracket_parts": [
+        "Aktivierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Bewegungsmelder aktiviert das Licht im Hof automatisch.",
+      "translation": {
+        "ru": "Датчик движения автоматически включает свет во дворе.",
+        "en": "The motion detector activates the light in the yard automatically."
+      },
+      "bracket_parts": [
+        "aktiviert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir aktivieren das Antivirenprogramm auf allen Rechnern.",
+      "translation": {
+        "ru": "Мы активируем антивирусную программу на всех компьютерах.",
+        "en": "We activate the antivirus program on all computers."
+      },
+      "bracket_parts": [
+        "aktivieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Aktiviert ihr euer Benutzerkonto über den Bestätigungslink?",
+      "translation": {
+        "ru": "Вы активируете свой аккаунт по ссылке подтверждения?",
+        "en": "Are you activating your user account via the confirmation link?"
+      },
+      "bracket_parts": [
+        "Aktiviert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Alarmanlage aktivierte sich nach dem Einbruchsversuch.",
+      "translation": {
+        "ru": "Сигнализация сработала после попытки взлома.",
+        "en": "The alarm system activated after the break-in attempt."
+      },
+      "bracket_parts": [
+        "aktivierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben die Software mit dem Lizenzschlüssel aktiviert.",
+      "translation": {
+        "ru": "Они активировали программу лицензионным ключом.",
+        "en": "They have activated the software with the license key."
+      },
+      "bracket_parts": [
+        "haben",
+        "aktiviert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Aktiviere bitte die Kamera für das Online-Meeting!",
+      "translation": {
+        "ru": "Активируй, пожалуйста, камеру для онлайн-встречи!",
+        "en": "Please activate the camera for the online meeting!"
+      },
+      "bracket_parts": [
+        "Aktiviere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

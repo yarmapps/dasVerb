@@ -1,0 +1,154 @@
+{
+  "id": "uebereinstimmen",
+  "infinitive": "übereinstimmen",
+  "translation": {
+    "ru": "соответствовать, совпадать, сходиться во мнениях",
+    "en": "to agree, to correspond, to match"
+  },
+  "level": "B2",
+  "frequency_rank": 792,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "stimmt überein",
+    "preterite_third_singular": "stimmte überein",
+    "past_participle": "übereingestimmt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stimme überein",
+      "du": "stimmst überein",
+      "er_sie_es": "stimmt überein",
+      "wir": "stimmen überein",
+      "ihr": "stimmt überein",
+      "sie_Sie": "stimmen überein"
+    },
+    "preterite": {
+      "ich": "stimmte überein",
+      "du": "stimmtest überein",
+      "er_sie_es": "stimmte überein",
+      "wir": "stimmten überein",
+      "ihr": "stimmtet überein",
+      "sie_Sie": "stimmten überein"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "übereingestimmt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "in",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich stimme in diesem Punkt vollkommen mit dir überein.",
+      "translation": {
+        "ru": "Я в этом пункте полностью согласен с тобой.",
+        "en": "I agree with you completely on this point."
+      },
+      "bracket_parts": [
+        "stimme",
+        "überein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stimmst du mit meinen Vorschlägen überein?",
+      "translation": {
+        "ru": "Ты согласен с моими предложениями?",
+        "en": "Do you agree with my suggestions?"
+      },
+      "bracket_parts": [
+        "Stimmst",
+        "überein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Seine Aussage stimmt nicht mit den Fakten überein.",
+      "translation": {
+        "ru": "Его показания не совпадают с фактами.",
+        "en": "His statement does not match the facts."
+      },
+      "bracket_parts": [
+        "stimmt",
+        "überein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir stimmen in den grundlegenden Werten überein.",
+      "translation": {
+        "ru": "Мы едины в базовых ценностях.",
+        "en": "We agree on the fundamental values."
+      },
+      "bracket_parts": [
+        "stimmen",
+        "überein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stimmt ihr mit der Entscheidung des Vorstands überein?",
+      "translation": {
+        "ru": "Вы согласны с решением руководства?",
+        "en": "Do you agree with the board's decision?"
+      },
+      "bracket_parts": [
+        "Stimmt",
+        "überein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Kopie stimmte exakt mit dem Original überein.",
+      "translation": {
+        "ru": "Копия в точности соответствовала оригиналу.",
+        "en": "The copy corresponded exactly to the original."
+      },
+      "bracket_parts": [
+        "stimmte",
+        "überein"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die beiden Zeugenaussagen haben perfekt übereingestimmt.",
+      "translation": {
+        "ru": "Показания обоих свидетелей идеально совпали.",
+        "en": "The two witness testimonies matched perfectly."
+      },
+      "bracket_parts": [
+        "haben",
+        "übereingestimmt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Stimme bitte mit den Kollegen den Zeitplan ab und stimme mit ihnen überein!",
+      "translation": {
+        "ru": "Согласуй, пожалуйста, график с коллегами и приди с ними к согласию!",
+        "en": "Please coordinate the schedule with the colleagues and reach agreement with them!"
+      },
+      "bracket_parts": [
+        "stimme",
+        "überein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

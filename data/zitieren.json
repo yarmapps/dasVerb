@@ -1,0 +1,171 @@
+{
+  "id": "zitieren",
+  "infinitive": "zitieren",
+  "translation": {
+    "ru": "цитировать",
+    "en": "to quote, cite"
+  },
+  "level": "B1",
+  "frequency_rank": 514,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zitieren",
+    "present_3sg": "zitiert",
+    "praeteritum_3sg": "zitierte",
+    "partizip_2": "zitiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "zitiere",
+      "du": "zitierst",
+      "er_sie_es": "zitiert",
+      "wir": "zitieren",
+      "ihr": "zitiert",
+      "sie_Sie": "zitieren"
+    },
+    "praeteritum": {
+      "ich": "zitierte",
+      "du": "zitiertest",
+      "er_sie_es": "zitierte",
+      "wir": "zitierten",
+      "ihr": "zitiertet",
+      "sie_Sie": "zitierten"
+    },
+    "perfekt": {
+      "ich": "habe zitiert",
+      "du": "hast zitiert",
+      "er_sie_es": "hat zitiert",
+      "wir": "haben zitiert",
+      "ihr": "habt zitiert",
+      "sie_Sie": "haben zitiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich zitiere eine berühmte Zeile von Goethe in meinem Aufsatz.",
+      "translation": {
+        "ru": "Я цитирую знаменитую строку Гёте в своем сочинении.",
+        "en": "I quote a famous line from Goethe in my essay."
+      },
+      "bracket_parts": [
+        "zitiere"
+      ],
+      "akkusativ_parts": [
+        "eine berühmte Zeile von Goethe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du zitierst die genauen Worte des Zeugen im Protokoll.",
+      "translation": {
+        "ru": "Ты приводишь точные слова свидетеля в протоколе.",
+        "en": "You cite the exact words of the witness in the protocol."
+      },
+      "bracket_parts": [
+        "zitierst"
+      ],
+      "akkusativ_parts": [
+        "die genauen Worte des Zeugen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Professor zitiert aktuelle wissenschaftliche Studien im Vortrag.",
+      "translation": {
+        "ru": "Профессор цитирует актуальные научные исследования в докладе.",
+        "en": "The professor cites current scientific studies in the lecture."
+      },
+      "bracket_parts": [
+        "zitiert"
+      ],
+      "akkusativ_parts": [
+        "aktuelle wissenschaftliche Studien"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir zitieren die gesetzlichen Bestimmungen in unserem Antrag.",
+      "translation": {
+        "ru": "Мы цитируем положения закона в нашем заявлении.",
+        "en": "We quote the legal provisions in our application."
+      },
+      "bracket_parts": [
+        "zitieren"
+      ],
+      "akkusativ_parts": [
+        "die gesetzlichen Bestimmungen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr zitiert bekannte Sprichwörter in eurer Präsentation.",
+      "translation": {
+        "ru": "Вы цитируете известные пословицы в своей презентации.",
+        "en": "You quote well-known proverbs in your presentation."
+      },
+      "bracket_parts": [
+        "zitiert"
+      ],
+      "akkusativ_parts": [
+        "bekannte Sprichwörter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie zitierten damals alte historische Dokumente aus dem Archiv.",
+      "translation": {
+        "ru": "Они тогда цитировали старинные исторические документы из архива.",
+        "en": "They cited old historical documents from the archives back then."
+      },
+      "bracket_parts": [
+        "zitierten"
+      ],
+      "akkusativ_parts": [
+        "alte historische Dokumente"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Journalistin hat den Politiker in ihrem Bericht wörtlich zitiert.",
+      "translation": {
+        "ru": "Журналистка дословно процитировала политика в своем репортаже.",
+        "en": "The journalist quoted the politician verbatim in her report."
+      },
+      "bracket_parts": [
+        "hat",
+        "zitiert"
+      ],
+      "akkusativ_parts": [
+        "den Politiker"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Zitiere bitte immer die genaue Quelle bei deinen Angaben!",
+      "translation": {
+        "ru": "Всегда цитируй точный источник в своих данных, пожалуйста!",
+        "en": "Please always cite the exact source in your information!"
+      },
+      "bracket_parts": [
+        "Zitiere"
+      ],
+      "akkusativ_parts": [
+        "die genaue Quelle"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "scheiden",
+  "infinitive": "scheiden",
+  "translation": {
+    "ru": "разлучать, разводить (супругов), расставаться (sich scheiden lassen)",
+    "en": "to separate, to divide, to divorce"
+  },
+  "level": "B2",
+  "frequency_rank": 692,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "scheiden",
+    "present_3sg": "scheidet",
+    "praeteritum_3sg": "schied",
+    "partizip_2": "geschieden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "scheide",
+      "du": "scheidest",
+      "er_sie_es": "scheidet",
+      "wir": "scheiden",
+      "ihr": "scheidet",
+      "sie_Sie": "scheiden"
+    },
+    "praeteritum": {
+      "ich": "schied",
+      "du": "schiedest",
+      "er_sie_es": "schied",
+      "wir": "schieden",
+      "ihr": "schiedet",
+      "sie_Sie": "schieden"
+    },
+    "perfekt": {
+      "ich": "habe geschieden",
+      "du": "hast geschieden",
+      "er_sie_es": "hat geschieden",
+      "wir": "haben geschieden",
+      "ihr": "habt geschieden",
+      "sie_Sie": "haben geschieden"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "von",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich scheide die Spreu vom Weizen mit großer Sorgfalt.",
+      "translation": {
+        "ru": "Я с большой тщательностью отделяю зерна от плевел.",
+        "en": "I separate the wheat from the chaff with great care."
+      },
+      "bracket_parts": [
+        "scheide"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Scheidest du dich nach dem Streit von deinem Partner?",
+      "translation": {
+        "ru": "Ты разводишься с партнером после ссоры?",
+        "en": "Are you getting divorced from your partner after the argument?"
+      },
+      "bracket_parts": [
+        "Scheidest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Richter scheidet das unglückliche Ehepaar vor Gericht.",
+      "translation": {
+        "ru": "Судья разводит несчастную супружескую пару в суде.",
+        "en": "The judge divorces the unhappy married couple in court."
+      },
+      "bracket_parts": [
+        "scheidet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir scheiden im Guten voneinander.",
+      "translation": {
+        "ru": "Мы расстаемся по-хорошему друг с другом.",
+        "en": "We part on good terms with each other."
+      },
+      "bracket_parts": [
+        "scheiden"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr scheidet am Ende des Semesters aus der Gruppe aus.",
+      "translation": {
+        "ru": "Вы выбываете из группы в конце семестра.",
+        "en": "You leave the group at the end of the semester."
+      },
+      "bracket_parts": [
+        "scheidet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Kollege schied damals freiwillig aus dem Unternehmen aus.",
+      "translation": {
+        "ru": "Коллега тогда добровольно ушел из компании.",
+        "en": "The colleague voluntarily left the company back then."
+      },
+      "bracket_parts": [
+        "schied"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die beiden haben sich vor zwei Jahren offiziell scheiden lassen.",
+      "translation": {
+        "ru": "Они двое официально развелись два года назад.",
+        "en": "The two officially divorced two years ago."
+      },
+      "bracket_parts": [
+        "haben",
+        "scheiden"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Scheide Wahres von Falschem mit klarem Verstand!",
+      "translation": {
+        "ru": "Отделяй истинное от ложного ясным умом!",
+        "en": "Separate true from false with a clear mind!"
+      },
+      "bracket_parts": [
+        "Scheide"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "operieren",
+  "infinitive": "operieren",
+  "translation": {
+    "ru": "оперировать (в хирургии / на рынке), действовать",
+    "en": "to operate, to perform surgery"
+  },
+  "level": "B1",
+  "frequency_rank": 985,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "operiert",
+    "preterite_third_singular": "operierte",
+    "past_participle": "operiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "operiere",
+      "du": "operierst",
+      "er_sie_es": "operiert",
+      "wir": "operieren",
+      "ihr": "operiert",
+      "sie_Sie": "operieren"
+    },
+    "preterite": {
+      "ich": "operierte",
+      "du": "operiertest",
+      "er_sie_es": "operierte",
+      "wir": "operierten",
+      "ihr": "operiertet",
+      "sie_Sie": "operierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "operiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "an",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich operiere als erfahrener Chirurg heute drei Patienten am Knie.",
+      "translation": {
+        "ru": "Как опытный хирург я сегодня оперирую трех пациентов на колене.",
+        "en": "As an experienced surgeon, I operate on three patients' knees today."
+      },
+      "bracket_parts": [
+        "operiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Operierst du das verletzte Tier noch in der Notaufnahme?",
+      "translation": {
+        "ru": "Ты оперируешь травмированное животное еще в отделении неотложки?",
+        "en": "Are you operating on the injured animal in the emergency room?"
+      },
+      "bracket_parts": [
+        "Operierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das internationale Unternehmen operiert weltweit in über fünfzig Ländern.",
+      "translation": {
+        "ru": "Международная компания оперирует (работает) по всему миру в более чем 50 странах.",
+        "en": "The international company operates worldwide in over fifty countries."
+      },
+      "bracket_parts": [
+        "operiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir operieren in diesem schwierigen Marktumfeld äußerst vorsichtig.",
+      "translation": {
+        "ru": "Мы действуем на этом сложном рынке предельно осторожно.",
+        "en": "We operate extremely cautiously in this difficult market environment."
+      },
+      "bracket_parts": [
+        "operieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Operiert ihr den Patienten unter Vollnarkose oder örtlicher Betäubung?",
+      "translation": {
+        "ru": "Оперируете ли вы пациента под общим наркозом или местной анестезией?",
+        "en": "Are you guys operating on the patient under general or local anesthesia?"
+      },
+      "bracket_parts": [
+        "Operiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Spezialist operierte die komplizierte Fraktur stundenlang mit höchster Präzision.",
+      "translation": {
+        "ru": "Специалист оперировал сложный перелом часами с высочайшей точностью.",
+        "en": "The specialist operated on the complicated fracture for hours with supreme precision."
+      },
+      "bracket_parts": [
+        "operierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Ärzteteam hat den schwer verletzten Mann erfolgreich operiert.",
+      "translation": {
+        "ru": "Команда врачей успешно прооперировала тяжелораненого мужчину.",
+        "en": "The medical team successfully operated on the seriously injured man."
+      },
+      "bracket_parts": [
+        "hat",
+        "operiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Operiere stets mit höchster Konzentration und größter Sorgfalt!",
+      "translation": {
+        "ru": "Оперируй всегда с предельной концентрацией и величайшей осторожностью!",
+        "en": "Always operate with maximum concentration and utmost care!"
+      },
+      "bracket_parts": [
+        "Operiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

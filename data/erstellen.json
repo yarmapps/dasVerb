@@ -1,0 +1,171 @@
+{
+  "id": "erstellen",
+  "infinitive": "erstellen",
+  "translation": {
+    "ru": "составлять, создавать, разрабатывать",
+    "en": "to create, draw up, generate"
+  },
+  "level": "A2",
+  "frequency_rank": 525,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erstellen",
+    "present_3sg": "erstellt",
+    "praeteritum_3sg": "erstellte",
+    "partizip_2": "erstellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erstelle",
+      "du": "erstellst",
+      "er_sie_es": "erstellt",
+      "wir": "erstellen",
+      "ihr": "erstellt",
+      "sie_Sie": "erstellen"
+    },
+    "praeteritum": {
+      "ich": "erstellte",
+      "du": "erstelltest",
+      "er_sie_es": "erstellte",
+      "wir": "erstellten",
+      "ihr": "erstelltet",
+      "sie_Sie": "erstellten"
+    },
+    "perfekt": {
+      "ich": "habe erstellt",
+      "du": "hast erstellt",
+      "er_sie_es": "hat erstellt",
+      "wir": "haben erstellt",
+      "ihr": "habt erstellt",
+      "sie_Sie": "haben erstellt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich erstelle einen übersichtlichen Zeitplan für das Projekt.",
+      "translation": {
+        "ru": "Я составляю наглядный график для проекта.",
+        "en": "I create a clear schedule for the project."
+      },
+      "bracket_parts": [
+        "erstelle"
+      ],
+      "akkusativ_parts": [
+        "einen übersichtlichen Zeitplan"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du erstellst ein professionelles Profil im Karrierenetzwerk.",
+      "translation": {
+        "ru": "Ты создаешь профессиональный профиль в деловой сети.",
+        "en": "You create a professional profile on the career network."
+      },
+      "bracket_parts": [
+        "erstellst"
+      ],
+      "akkusativ_parts": [
+        "ein professionelles Profil"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Software erstellt automatisch einen täglichen Bericht.",
+      "translation": {
+        "ru": "Программа автоматически формирует ежедневный отчет.",
+        "en": "The software automatically generates a daily report."
+      },
+      "bracket_parts": [
+        "erstellt"
+      ],
+      "akkusativ_parts": [
+        "einen täglichen Bericht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erstellen ein neues Konzept für den Kundenservice.",
+      "translation": {
+        "ru": "Мы разрабатываем новую концепцию для клиентского сервиса.",
+        "en": "We develop a new concept for customer service."
+      },
+      "bracket_parts": [
+        "erstellen"
+      ],
+      "akkusativ_parts": [
+        "ein neues Konzept"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr erstellt eine detaillierte Liste aller benötigten Materialien.",
+      "translation": {
+        "ru": "Вы составляете подробный список всех необходимых материалов.",
+        "en": "You create a detailed list of all required materials."
+      },
+      "bracket_parts": [
+        "erstellt"
+      ],
+      "akkusativ_parts": [
+        "eine detaillierte Liste"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie erstellten damals die ersten Baupläne für die Brücke.",
+      "translation": {
+        "ru": "Они тогда разработали первые строительные чертежи моста.",
+        "en": "They drew up the first construction plans for the bridge back then."
+      },
+      "bracket_parts": [
+        "erstellten"
+      ],
+      "akkusativ_parts": [
+        "die ersten Baupläne"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Architekt hat eine exakte Zeichnung des Hauses erstellt.",
+      "translation": {
+        "ru": "Архитектор подготовил точный чертеж дома.",
+        "en": "The architect created an exact drawing of the house."
+      },
+      "bracket_parts": [
+        "hat",
+        "erstellt"
+      ],
+      "akkusativ_parts": [
+        "eine exakte Zeichnung des Hauses"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erstelle bitte eine Sicherheitskopie aller wichtigen Dateien!",
+      "translation": {
+        "ru": "Создай резервную копию всех важных файлов, пожалуйста!",
+        "en": "Please create a backup copy of all important files!"
+      },
+      "bracket_parts": [
+        "Erstelle"
+      ],
+      "akkusativ_parts": [
+        "eine Sicherheitskopie aller wichtigen Dateien"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

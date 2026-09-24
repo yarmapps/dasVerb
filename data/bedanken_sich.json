@@ -1,0 +1,147 @@
+{
+  "id": "bedanken_sich",
+  "infinitive": "bedanken",
+  "translation": {
+    "ru": "благодарить",
+    "en": "to thank, to express gratitude"
+  },
+  "level": "A2",
+  "frequency_rank": 777,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": true
+  },
+  "principal_parts": {
+    "present_third_singular": "bedankt sich",
+    "preterite_third_singular": "bedankte sich",
+    "past_participle": "bedankt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bedanke mich",
+      "du": "bedankst dich",
+      "er_sie_es": "bedankt sich",
+      "wir": "bedanken uns",
+      "ihr": "bedankt euch",
+      "sie_Sie": "bedanken sich"
+    },
+    "preterite": {
+      "ich": "bedankte mich",
+      "du": "bedanktest dich",
+      "er_sie_es": "bedankte sich",
+      "wir": "bedankten uns",
+      "ihr": "bedanktet euch",
+      "sie_Sie": "bedankten uns"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "bedankt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "bei",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "für",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich bedanke mich herzlich für Ihre freundliche Einladung.",
+      "translation": {
+        "ru": "Я сердечно благодарю вас за любезное приглашение.",
+        "en": "I thank you cordially for your kind invitation."
+      },
+      "bracket_parts": [
+        "bedanke"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bedankst du dich bei deiner Oma für das tolle Geschenk?",
+      "translation": {
+        "ru": "Ты благодаришь бабушку за замечательный подарок?",
+        "en": "Are you thanking your grandma for the great gift?"
+      },
+      "bracket_parts": [
+        "Bedankst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Redner bedankt sich beim Publikum für den Applaus.",
+      "translation": {
+        "ru": "Оратор благодарит публику за аплодисменты.",
+        "en": "The speaker thanks the audience for the applause."
+      },
+      "bracket_parts": [
+        "bedankt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bedanken uns bei allen Helfern für die Unterstützung.",
+      "translation": {
+        "ru": "Мы благодарим всех помощников за поддержку.",
+        "en": "We thank all helpers for their support."
+      },
+      "bracket_parts": [
+        "bedanken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bedankt ihr euch brav bei den Nachbarn für die Blumen?",
+      "translation": {
+        "ru": "Вы вежливо благодарите соседей за цветы?",
+        "en": "Are you thanking the neighbors nicely for the flowers?"
+      },
+      "bracket_parts": [
+        "Bedankt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er bedankte sich höflich für die rasche Auskunft.",
+      "translation": {
+        "ru": "Он вежливо поблагодарил за быстрый ответ.",
+        "en": "He thanked politely for the quick information."
+      },
+      "bracket_parts": [
+        "bedankte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben sich gestern bei ihren Freunden persönlich bedankt.",
+      "translation": {
+        "ru": "Они вчера лично поблагодарили своих друзей.",
+        "en": "They thanked their friends in person yesterday."
+      },
+      "bracket_parts": [
+        "haben",
+        "bedankt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bedanke dich bitte für die schöne Aufmerksamkeit!",
+      "translation": {
+        "ru": "Поблагодари, пожалуйста, за приятное внимание!",
+        "en": "Please say thank you for the lovely gesture!"
+      },
+      "bracket_parts": [
+        "Bedanke"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -44,7 +44,7 @@ export const createStyles = (colors: ThemeColors) =>
     featuredSubtitle: {
       fontSize: Typography.fontSize.xs,
       color: 'rgba(255, 255, 255, 0.92)',
-      width: '75%',
+      width: '80%',
       marginBottom: Spacing.md,
       lineHeight: 16,
     },

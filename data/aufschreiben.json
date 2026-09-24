@@ -1,0 +1,145 @@
+{
+  "id": "aufschreiben",
+  "infinitive": "aufschreiben",
+  "translation": {
+    "ru": "записывать, выписывать",
+    "en": "to write down, to record"
+  },
+  "level": "A2",
+  "frequency_rank": 897,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "schreibt auf",
+    "preterite_third_singular": "schrieb auf",
+    "past_participle": "aufgeschrieben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schreibe auf",
+      "du": "schreibst auf",
+      "er_sie_es": "schreibt auf",
+      "wir": "schreiben auf",
+      "ihr": "schreibt auf",
+      "sie_Sie": "schreiben auf"
+    },
+    "preterite": {
+      "ich": "schrieb auf",
+      "du": "schriebst auf",
+      "er_sie_es": "schrieb auf",
+      "wir": "schrieben auf",
+      "ihr": "schriebt auf",
+      "sie_Sie": "schrieben auf"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "aufgeschrieben"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich schreibe die Telefonnummer schnell auf einen Zettel auf.",
+      "translation": {
+        "ru": "Я быстро записываю номер телефона на листок.",
+        "en": "I quickly write the phone number down on a piece of paper."
+      },
+      "bracket_parts": [
+        "schreibe",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schreibst du dir die Einkaufsliste vor dem Einkaufen auf?",
+      "translation": {
+        "ru": "Ты записываешь себе список покупок перед походом в магазин?",
+        "en": "Do you write down the shopping list before going shopping?"
+      },
+      "bracket_parts": [
+        "Schreibst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Polizist schreibt die Personalien des Fahrers auf.",
+      "translation": {
+        "ru": "Полицейский записывает личные данные водителя.",
+        "en": "The police officer writes down the driver's personal details."
+      },
+      "bracket_parts": [
+        "schreibt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schreiben alle wichtigen Ideen im Meeting auf.",
+      "translation": {
+        "ru": "Мы записываем все важные идеи на собрании.",
+        "en": "We write down all important ideas in the meeting."
+      },
+      "bracket_parts": [
+        "schreiben",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schreibt ihr die Hausaufgaben von der Tafel auf?",
+      "translation": {
+        "ru": "Вы записываете домашнее задание с доски?",
+        "en": "Are you writing down the homework from the blackboard?"
+      },
+      "bracket_parts": [
+        "Schreibt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Zeuge schrieb sich das Kennzeichen des Autos auf.",
+      "translation": {
+        "ru": "Свидетель записал себе номерной знак автомобиля.",
+        "en": "The witness wrote down the car's license plate."
+      },
+      "bracket_parts": [
+        "schrieb",
+        "auf"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie hat das Rezept ihrer Großmutter genau aufgeschrieben.",
+      "translation": {
+        "ru": "Она в точности записала рецепт своей бабушки.",
+        "en": "She wrote down her grandmother's recipe exactly."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgeschrieben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schreib diesen wichtigen Termin sofort in deinen Kalender auf!",
+      "translation": {
+        "ru": "Запиши эту важную встречу немедленно в свой календарь!",
+        "en": "Write down this important appointment in your calendar immediately!"
+      },
+      "bracket_parts": [
+        "Schreib",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

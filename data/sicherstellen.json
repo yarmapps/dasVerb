@@ -1,0 +1,144 @@
+{
+  "id": "sicherstellen",
+  "infinitive": "sicherstellen",
+  "translation": {
+    "ru": "гарантировать, обеспечивать, изымать (вещдоки)",
+    "en": "to ensure, to secure, to confiscate"
+  },
+  "level": "B2",
+  "frequency_rank": 928,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "stellt sicher",
+    "preterite_third_singular": "stellte sicher",
+    "past_participle": "sichergestellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stelle sicher",
+      "du": "stellst sicher",
+      "er_sie_es": "stellt sicher",
+      "wir": "stellen sicher",
+      "ihr": "stellt sicher",
+      "sie_Sie": "stellen sicher"
+    },
+    "preterite": {
+      "ich": "stellte sicher",
+      "du": "stelltest sicher",
+      "er_sie_es": "stellte sicher",
+      "wir": "stellten sicher",
+      "ihr": "stelltet sicher",
+      "sie_Sie": "stellten sicher"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "sichergestellt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich stelle die Einhaltung aller Sicherheitsregeln im Labor sicher.",
+      "translation": {
+        "ru": "Я обеспечиваю соблюдение всех правил безопасности в лаборатории.",
+        "en": "I ensure compliance with all safety rules in the laboratory."
+      },
+      "bracket_parts": [
+        "stelle",
+        "sicher"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stellst du vor der Abreise die pünktliche Bezahlung aller Rechnungen sicher?",
+      "translation": {
+        "ru": "Ты гарантируешь своевременную оплату всех счетов перед отъездом?",
+        "en": "Do you ensure the timely payment of all bills before departure?"
+      },
+      "bracket_parts": [
+        "Stellst",
+        "sicher"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das neue Update stellt die Stabilität des Systems dauerhaft sicher.",
+      "translation": {
+        "ru": "Новое обновление надежно обеспечивает стабильность системы.",
+        "en": "The new update permanently ensures the stability of the system."
+      },
+      "bracket_parts": [
+        "stellt",
+        "sicher"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir stellen die lückenlose Versorgung der Bevölkerung mit Strom sicher.",
+      "translation": {
+        "ru": "Мы обеспечиваем бесперебойное снабжение населения электроэнергией.",
+        "en": "We ensure the seamless supply of electricity to the population."
+      },
+      "bracket_parts": [
+        "stellen",
+        "sicher"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stellt ihr die ordnungsgemäße Lagerung der Chemikalien sicher?",
+      "translation": {
+        "ru": "Вы гарантируете надлежащее хранение химикатов?",
+        "en": "Are you guys ensuring the proper storage of the chemicals?"
+      },
+      "bracket_parts": [
+        "Stellt",
+        "sicher"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei stellte am Tatort wichtige Beweismittel sicher.",
+      "translation": {
+        "ru": "Полиция изъяла важные вещественные доказательства на месте преступления.",
+        "en": "The police secured important evidence at the crime scene."
+      },
+      "bracket_parts": [
+        "stellte",
+        "sicher"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Team hat die rechtzeitige Fertigstellung des Projekts sichergestellt.",
+      "translation": {
+        "ru": "Команда обеспечила своевременное завершение проекта.",
+        "en": "The team ensured the timely completion of the project."
+      },
+      "bracket_parts": [
+        "hat",
+        "sichergestellt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Stelle bitte sofort die Speicherung aller Daten sicher!",
+      "translation": {
+        "ru": "Обеспечь, пожалуйста, немедленное сохранение всех данных!",
+        "en": "Please ensure the saving of all data immediately!"
+      },
+      "bracket_parts": [
+        "Stelle",
+        "sicher"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

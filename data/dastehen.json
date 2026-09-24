@@ -1,0 +1,145 @@
+{
+  "id": "dastehen",
+  "infinitive": "dastehen",
+  "translation": {
+    "ru": "стоять (на месте), представать (в каком-л. свете)",
+    "en": "to stand there, to cut a figure"
+  },
+  "level": "B1",
+  "frequency_rank": 783,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "steht da",
+    "preterite_third_singular": "stand da",
+    "past_participle": "dagestanden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stehe da",
+      "du": "stehst da",
+      "er_sie_es": "steht da",
+      "wir": "stehen da",
+      "ihr": "steht da",
+      "sie_Sie": "stehen da"
+    },
+    "preterite": {
+      "ich": "stand da",
+      "du": "standest da",
+      "er_sie_es": "stand da",
+      "wir": "standen da",
+      "ihr": "standet da",
+      "sie_Sie": "standen da"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "dagestanden"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich stehe ratlos vor der verschlossenen Tür da.",
+      "translation": {
+        "ru": "Я растерянно стою перед запертой дверью.",
+        "en": "I stand there helplessly in front of the locked door."
+      },
+      "bracket_parts": [
+        "stehe",
+        "da"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Warum stehst du einfach so stumm da?",
+      "translation": {
+        "ru": "Почему ты просто так стоишь там молча?",
+        "en": "Why are you just standing there so silently?"
+      },
+      "bracket_parts": [
+        "stehst",
+        "da"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das alte Schloss steht einsam auf dem Hügel da.",
+      "translation": {
+        "ru": "Старый замок одиноко высится на холме.",
+        "en": "The old castle stands there lonely on the hill."
+      },
+      "bracket_parts": [
+        "steht",
+        "da"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir stehen nach dem Misserfolg ohne Geld da.",
+      "translation": {
+        "ru": "Мы после неудачи остаемся совсем без денег.",
+        "en": "We are left standing there without money after the failure."
+      },
+      "bracket_parts": [
+        "stehen",
+        "da"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Steht ihr bei diesem Chaos völlig hilflos da?",
+      "translation": {
+        "ru": "Вы стоите совершенно беспомощно при этом хаосе?",
+        "en": "Are you guys standing there completely helpless in this chaos?"
+      },
+      "bracket_parts": [
+        "Steht",
+        "da"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Junge stand überrascht und sprachlos da.",
+      "translation": {
+        "ru": "Мальчик стоял удивленный и безмолвный.",
+        "en": "The boy stood there surprised and speechless."
+      },
+      "bracket_parts": [
+        "stand",
+        "da"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben lange Zeit im strömenden Regen dagestanden.",
+      "translation": {
+        "ru": "Они долгое время простояли под проливным дождем.",
+        "en": "They stood there for a long time in the pouring rain."
+      },
+      "bracket_parts": [
+        "haben",
+        "dagestanden"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Steh nicht faul da und hilf uns bei der Arbeit!",
+      "translation": {
+        "ru": "Не стой лениво и помоги нам с работой!",
+        "en": "Don't just stand there lazily and help us with the work!"
+      },
+      "bracket_parts": [
+        "Steh",
+        "da"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

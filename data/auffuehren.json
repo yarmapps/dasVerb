@@ -1,0 +1,178 @@
+{
+  "id": "auffuehren",
+  "infinitive": "aufführen",
+  "translation": {
+    "ru": "ставить на сцене, исполнять, перечислять",
+    "en": "to perform, stage, list"
+  },
+  "level": "B1",
+  "frequency_rank": 547,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufführen",
+    "present_3sg": "führt auf",
+    "praeteritum_3sg": "führte auf",
+    "partizip_2": "aufgeführt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "führe auf",
+      "du": "führst auf",
+      "er_sie_es": "führt auf",
+      "wir": "führen auf",
+      "ihr": "führt auf",
+      "sie_Sie": "führen auf"
+    },
+    "praeteritum": {
+      "ich": "führte auf",
+      "du": "führtest auf",
+      "er_sie_es": "führte auf",
+      "wir": "führten auf",
+      "ihr": "führtet auf",
+      "sie_Sie": "führten auf"
+    },
+    "perfekt": {
+      "ich": "habe aufgeführt",
+      "du": "hast aufgeführt",
+      "er_sie_es": "hat aufgeführt",
+      "wir": "haben aufgeführt",
+      "ihr": "habt aufgeführt",
+      "sie_Sie": "haben aufgeführt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich führe alle Kostenpunkte in der Abrechnung detailliert auf.",
+      "translation": {
+        "ru": "Я подробно перечисляю все статьи расходов в смете.",
+        "en": "I list all cost items in detail in the billing."
+      },
+      "bracket_parts": [
+        "führe",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "alle Kostenpunkte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du führst ein lustiges Theaterstück mit den Kindern auf.",
+      "translation": {
+        "ru": "Ты ставишь с детьми забавную театральную пьесу.",
+        "en": "You stage a funny play with the children."
+      },
+      "bracket_parts": [
+        "führst",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "ein lustiges Theaterstück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Orchester führt eine bekannte Symphonie von Beethoven auf.",
+      "translation": {
+        "ru": "Оркестр исполняет знаменитую симфонию Бетховена.",
+        "en": "The orchestra performs a famous symphony by Beethoven."
+      },
+      "bracket_parts": [
+        "führt",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "eine bekannte Symphonie"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir führen die Argumente in einer logischen Reihenfolge auf.",
+      "translation": {
+        "ru": "Мы перечисляем аргументы в логической последовательности.",
+        "en": "We list the arguments in a logical sequence."
+      },
+      "bracket_parts": [
+        "führen",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die Argumente"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr führt das Ballett vor einem großen Publikum auf.",
+      "translation": {
+        "ru": "Вы исполняете балет перед большой аудиторией.",
+        "en": "You perform the ballet in front of a large audience."
+      },
+      "bracket_parts": [
+        "führt",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "das Ballett"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Theatergruppe führte damals ein klassisches Drama auf.",
+      "translation": {
+        "ru": "Театральная группа поставила тогда классическую драму.",
+        "en": "The theater group staged a classic drama back then."
+      },
+      "bracket_parts": [
+        "führte",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "ein klassisches Drama"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Schauspieler haben die Komödie mit großem Erfolg aufgeführt.",
+      "translation": {
+        "ru": "Актеры с большим успехом сыграли комедию.",
+        "en": "The actors performed the comedy with great success."
+      },
+      "bracket_parts": [
+        "haben",
+        "aufgeführt"
+      ],
+      "akkusativ_parts": [
+        "die Komödie"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Führe alle wichtigen Punkte in deinem Bericht auf!",
+      "translation": {
+        "ru": "Перечисли все важные пункты в своем отчете!",
+        "en": "List all important points in your report!"
+      },
+      "bracket_parts": [
+        "Führe",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "alle wichtigen Punkte"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

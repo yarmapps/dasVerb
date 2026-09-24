@@ -1,0 +1,143 @@
+{
+  "id": "vergroessern",
+  "infinitive": "vergrößern",
+  "translation": {
+    "ru": "увеличивать, расширять",
+    "en": "to enlarge, to increase, to magnify"
+  },
+  "level": "B1",
+  "frequency_rank": 794,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "vergrößert",
+    "preterite_third_singular": "vergrößerte",
+    "past_participle": "vergrößert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vergrößere",
+      "du": "vergrößerst",
+      "er_sie_es": "vergrößert",
+      "wir": "vergrößern",
+      "ihr": "vergrößert",
+      "sie_Sie": "vergrößern"
+    },
+    "preterite": {
+      "ich": "vergrößerte",
+      "du": "vergrößertest",
+      "er_sie_es": "vergrößerte",
+      "wir": "vergrößerten",
+      "ihr": "vergrößertet",
+      "sie_Sie": "vergrößerten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "vergrößert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "um",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich vergrößere das Bild auf meinem Bildschirm.",
+      "translation": {
+        "ru": "Я увеличиваю картинку на своем экране.",
+        "en": "I enlarge the image on my screen."
+      },
+      "bracket_parts": [
+        "vergrößere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vergrößerst du die Schrift im Dokument für bessere Lesbarkeit?",
+      "translation": {
+        "ru": "Ты увеличиваешь шрифт в документе для лучшей читаемости?",
+        "en": "Are you increasing the font size in the document for better readability?"
+      },
+      "bracket_parts": [
+        "Vergrößerst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Lupe vergrößert die kleinen Buchstaben deutlich.",
+      "translation": {
+        "ru": "Лупа отчетливо увеличивает мелкие буквы.",
+        "en": "The magnifying glass enlarges the small letters clearly."
+      },
+      "bracket_parts": [
+        "vergrößert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir vergrößern unser Team im kommenden Quartal.",
+      "translation": {
+        "ru": "Мы расширяем нашу команду в следующем квартале.",
+        "en": "We are expanding our team in the coming quarter."
+      },
+      "bracket_parts": [
+        "vergrößern"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vergrößert ihr eure Wohnung durch einen Anbau?",
+      "translation": {
+        "ru": "Вы расширяете свою квартиру пристройкой?",
+        "en": "Are you enlarging your apartment with an extension?"
+      },
+      "bracket_parts": [
+        "Vergrößert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Unternehmen vergrößerte seinen Marktanteil im letzten Jahr.",
+      "translation": {
+        "ru": "Компания увеличила свою долю рынка в прошлом году.",
+        "en": "The company enlarged its market share last year."
+      },
+      "bracket_parts": [
+        "vergrößerte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben die Produktionsfläche erheblich vergrößert.",
+      "translation": {
+        "ru": "Они значительно увеличили производственные площади.",
+        "en": "They significantly expanded the production area."
+      },
+      "bracket_parts": [
+        "haben",
+        "vergrößert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Vergrößere den Kartenausschnitt für mehr Details!",
+      "translation": {
+        "ru": "Увеличь фрагмент карты для больших деталей!",
+        "en": "Enlarge the map section for more details!"
+      },
+      "bracket_parts": [
+        "Vergrößere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

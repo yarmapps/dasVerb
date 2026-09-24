@@ -1,0 +1,150 @@
+{
+  "id": "vorangehen",
+  "infinitive": "vorangehen",
+  "translation": {
+    "ru": "идти вперед, продвигаться (о работе)",
+    "en": "to go ahead, to lead the way, to make progress"
+  },
+  "level": "B2",
+  "frequency_rank": 885,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "geht voran",
+    "preterite_third_singular": "ging voran",
+    "past_participle": "vorangegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe voran",
+      "du": "gehst voran",
+      "er_sie_es": "geht voran",
+      "wir": "gehen voran",
+      "ihr": "geht voran",
+      "sie_Sie": "gehen voran"
+    },
+    "preterite": {
+      "ich": "ging voran",
+      "du": "gingst voran",
+      "er_sie_es": "ging voran",
+      "wir": "gingen voran",
+      "ihr": "gingt voran",
+      "sie_Sie": "gingen voran"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "vorangegangen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich gehe der Gruppe auf dem unwegsamen Bergpfad voran.",
+      "translation": {
+        "ru": "Я иду впереди группы по труднопроходимой горной тропе.",
+        "en": "I lead the way for the group on the rough mountain path."
+      },
+      "bracket_parts": [
+        "gehe",
+        "voran"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gehst du mit gutem Beispiel für die jüngeren Schüler voran?",
+      "translation": {
+        "ru": "Ты показываешь хороший личный пример для младших школьников?",
+        "en": "Are you leading the way with a good example for the younger students?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "voran"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Arbeit am Neubau geht zügig und planmäßig voran.",
+      "translation": {
+        "ru": "Работа над новым зданием продвигается быстро и по плану.",
+        "en": "Work on the new building is progressing swiftly and on schedule."
+      },
+      "bracket_parts": [
+        "geht",
+        "voran"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gehen bei der Digitalisierung mutig und entschlossen voran.",
+      "translation": {
+        "ru": "Мы смело и решительно идем впереди в вопросах цифровизации.",
+        "en": "We lead the way courageously and decisively in digitalization."
+      },
+      "bracket_parts": [
+        "gehen",
+        "voran"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Geht das Projekt bei euch im Team gut voran?",
+      "translation": {
+        "ru": "Проект продвигается в вашей команде хорошо?",
+        "en": "Is the project progressing well in your team?"
+      },
+      "bracket_parts": [
+        "Geht",
+        "voran"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der erfahrene Bergführer ging durch den tiefen Schnee voran.",
+      "translation": {
+        "ru": "Опытный горный гид шел впереди по глубокому снегу.",
+        "en": "The experienced mountain guide led the way through the deep snow."
+      },
+      "bracket_parts": [
+        "ging",
+        "voran"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Renovierung unseres Hauses ist erfreulich schnell vorangegangen.",
+      "translation": {
+        "ru": "Ремонт нашего дома продвигался отрадно быстро.",
+        "en": "The renovation of our house progressed pleasingly fast."
+      },
+      "bracket_parts": [
+        "ist",
+        "vorangegangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Geh mit gutem Beispiel voran und zeige Initiative!",
+      "translation": {
+        "ru": "Подавай хороший пример и проявляй инициативу!",
+        "en": "Lead by good example and show initiative!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "voran"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

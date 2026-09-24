@@ -1,0 +1,171 @@
+{
+  "id": "gefaehrden",
+  "infinitive": "gefährden",
+  "translation": {
+    "ru": "подвергать опасности, ставить под угрозу",
+    "en": "to endanger, jeopardize"
+  },
+  "level": "B1",
+  "frequency_rank": 517,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ge",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "gefährden",
+    "present_3sg": "gefährdet",
+    "praeteritum_3sg": "gefährdete",
+    "partizip_2": "gefährdet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gefährde",
+      "du": "gefährdest",
+      "er_sie_es": "gefährdet",
+      "wir": "gefährden",
+      "ihr": "gefährdet",
+      "sie_Sie": "gefährden"
+    },
+    "praeteritum": {
+      "ich": "gefährdete",
+      "du": "gefährdetest",
+      "er_sie_es": "gefährdete",
+      "wir": "gefährdeten",
+      "ihr": "gefährdetet",
+      "sie_Sie": "gefährdeten"
+    },
+    "perfekt": {
+      "ich": "habe gefährdet",
+      "du": "hast gefährdet",
+      "er_sie_es": "hat gefährdet",
+      "wir": "haben gefährdet",
+      "ihr": "habt gefährdet",
+      "sie_Sie": "haben gefährdet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich gefährde meine Gesundheit nicht durch ungesunde Gewohnheiten.",
+      "translation": {
+        "ru": "Я не ставлю под угрозу свое здоровье нездоровыми привычками.",
+        "en": "I do not jeopardize my health through unhealthy habits."
+      },
+      "bracket_parts": [
+        "gefährde"
+      ],
+      "akkusativ_parts": [
+        "meine Gesundheit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du gefährdest andere Verkehrsteilnehmer durch zu schnelles Fahren.",
+      "translation": {
+        "ru": "Ты подвергаешь опасности других участников движения слишком быстрой ездой.",
+        "en": "You endanger other road users by driving too fast."
+      },
+      "bracket_parts": [
+        "gefährdest"
+      ],
+      "akkusativ_parts": [
+        "andere Verkehrsteilnehmer"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Starker Frost gefährdet die empfindlichen Pflanzen im Garten.",
+      "translation": {
+        "ru": "Сильный мороз угрожает чувствительным растениям в саду.",
+        "en": "Severe frost endangers the sensitive plants in the garden."
+      },
+      "bracket_parts": [
+        "gefährdet"
+      ],
+      "akkusativ_parts": [
+        "die empfindlichen Pflanzen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gefährden den Erfolg des gesamten Projekts durch Verzögerungen.",
+      "translation": {
+        "ru": "Мы ставим под угрозу успех всего проекта из-за задержек.",
+        "en": "We jeopardize the success of the entire project through delays."
+      },
+      "bracket_parts": [
+        "gefährden"
+      ],
+      "akkusativ_parts": [
+        "den Erfolg des gesamten Projekts"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr gefährdet eure berufliche Zukunft durch leichtsinniges Verhalten.",
+      "translation": {
+        "ru": "Вы ставите под угрозу свое профессиональное будущее легкомысленным поведением.",
+        "en": "You endanger your professional future through reckless behavior."
+      },
+      "bracket_parts": [
+        "gefährdet"
+      ],
+      "akkusativ_parts": [
+        "eure berufliche Zukunft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie gefährdeten damals wissentlich die Sicherheit aller Anwesenden.",
+      "translation": {
+        "ru": "Они тогда сознательно подвергли опасности безопасность всех присутствующих.",
+        "en": "They knowingly endangered the safety of everyone present back then."
+      },
+      "bracket_parts": [
+        "gefährdeten"
+      ],
+      "akkusativ_parts": [
+        "die Sicherheit aller Anwesenden"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Sturm hat die Schifffahrt auf dem See schwer gefährdet.",
+      "translation": {
+        "ru": "Шторм создал серьезную угрозу судоходству на озере.",
+        "en": "The storm seriously endangered shipping on the lake."
+      },
+      "bracket_parts": [
+        "hat",
+        "gefährdet"
+      ],
+      "akkusativ_parts": [
+        "die Schifffahrt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gefährde niemanden durch unvorsichtiges Hantieren mit Feuer!",
+      "translation": {
+        "ru": "Никого не подвергай опасности неосторожным обращением с огнем!",
+        "en": "Do not endanger anyone through careless handling of fire!"
+      },
+      "bracket_parts": [
+        "Gefährde"
+      ],
+      "akkusativ_parts": [
+        "niemanden"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

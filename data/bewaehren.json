@@ -1,0 +1,147 @@
+{
+  "id": "bewaehren",
+  "infinitive": "bewähren",
+  "translation": {
+    "ru": "оправдывать себя, выдерживать пробу",
+    "en": "to prove oneself, to stand the test"
+  },
+  "level": "B2",
+  "frequency_rank": 860,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "bewährt",
+    "preterite_third_singular": "bewährte",
+    "past_participle": "bewährt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bewähre",
+      "du": "bewährst",
+      "er_sie_es": "bewährt",
+      "wir": "bewähren",
+      "ihr": "bewährt",
+      "sie_Sie": "bewähren"
+    },
+    "preterite": {
+      "ich": "bewährte",
+      "du": "bewährtest",
+      "er_sie_es": "bewährte",
+      "wir": "bewährten",
+      "ihr": "bewährtet",
+      "sie_Sie": "bewährten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "bewährt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "bei",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich bewähre mich in meiner neuen Führungsrolle jeden Tag.",
+      "translation": {
+        "ru": "Я доказываю свою состоятельность в новой руководящей роли каждый день.",
+        "en": "I prove myself in my new leadership role every day."
+      },
+      "bracket_parts": [
+        "bewähre"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bewährst du dich auch in schwierigen Krisensituationen?",
+      "translation": {
+        "ru": "Ты проявляешь стойкость и в трудных кризисных ситуациях?",
+        "en": "Do you prove yourself even in difficult crisis situations?"
+      },
+      "bracket_parts": [
+        "Bewährst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Diese bewährte Methode bewährt sich seit vielen Jahren in der Praxis.",
+      "translation": {
+        "ru": "Этот проверенный метод оправдывает себя на практике уже много лет.",
+        "en": "This tried-and-tested method has proved itself in practice for many years."
+      },
+      "bracket_parts": [
+        "bewährt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bewähren uns als verlässlicher Partner für unsere Kunden.",
+      "translation": {
+        "ru": "Мы зарекомендовали себя надежным партнером для наших клиентов.",
+        "en": "We prove ourselves as a reliable partner for our customers."
+      },
+      "bracket_parts": [
+        "bewähren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bewährt ihr euch im anspruchsvollen Arbeitsalltag?",
+      "translation": {
+        "ru": "Вы хорошо справляетесь в требовательных рабочих буднях?",
+        "en": "Do you guys prove yourselves in the demanding daily work routine?"
+      },
+      "bracket_parts": [
+        "Bewährt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das neue Konzept bewährte sich gleich beim ersten Einsatz.",
+      "translation": {
+        "ru": "Новая концепция оправдала себя при первом же применении.",
+        "en": "The new concept proved itself during its very first use."
+      },
+      "bracket_parts": [
+        "bewährte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das moderne System hat sich in der Praxis bestens bewährt.",
+      "translation": {
+        "ru": "Современная система отлично зарекомендовала себя на практике.",
+        "en": "The modern system has proven itself superbly in practice."
+      },
+      "bracket_parts": [
+        "hat",
+        "bewährt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bewähre dich durch Fleiß und Zuverlässigkeit!",
+      "translation": {
+        "ru": "Прояви себя через усердие и надежность!",
+        "en": "Prove yourself through diligence and reliability!"
+      },
+      "bracket_parts": [
+        "Bewähre"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

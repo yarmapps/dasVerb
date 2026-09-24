@@ -1,0 +1,137 @@
+{
+  "id": "erleiden",
+  "infinitive": "erleiden",
+  "translation": {
+    "ru": "терпеть, нести (убытки), претерпевать (поражение/травму)",
+    "en": "to suffer, to sustain, to endure"
+  },
+  "level": "B2",
+  "frequency_rank": 948,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "erleidet",
+    "preterite_third_singular": "erlitt",
+    "past_participle": "erlitten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erleide",
+      "du": "erleidest",
+      "er_sie_es": "erleidet",
+      "wir": "erleiden",
+      "ihr": "erleidet",
+      "sie_Sie": "erleiden"
+    },
+    "preterite": {
+      "ich": "erlitt",
+      "du": "erlittest",
+      "er_sie_es": "erlitt",
+      "wir": "erlitten",
+      "ihr": "erlittet",
+      "sie_Sie": "erlitten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "erlitten"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich erleide bei jedem Rückschlag einen herben Dämpfer.",
+      "translation": {
+        "ru": "С каждой неудачей я переживаю тяжелый удар.",
+        "en": "With every setback, I suffer a bitter blow."
+      },
+      "bracket_parts": [
+        "erleide"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erleidest du bei dem riskanten Aktiengeschäft schwere finanzielle Verluste?",
+      "translation": {
+        "ru": "Терпишь ли ты тяжелые финансовые убытки на рискованной сделке с акциями?",
+        "en": "Are you suffering severe financial losses in the risky stock deal?"
+      },
+      "bracket_parts": [
+        "Erleidest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Sportler erleidet während des harten Trainings eine Knieverletzung.",
+      "translation": {
+        "ru": "Спортсмен получает травму колена во время тяжелой тренировки.",
+        "en": "The athlete sustains a knee injury during tough training."
+      },
+      "bracket_parts": [
+        "erleidet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erleiden als Gemeinschaft keinen Schaden durch externe Angriffe.",
+      "translation": {
+        "ru": "Мы как сообщество не несем ущерба от внешних нападок.",
+        "en": "As a community, we do not suffer harm from external attacks."
+      },
+      "bracket_parts": [
+        "erleiden"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erleidet ihr durch die Bauarbeiten große Unannehmlichkeiten im Alltag?",
+      "translation": {
+        "ru": "Терпите ли вы большие неудобства в быту из-за строительных работ?",
+        "en": "Are you guys suffering major inconveniences in everyday life due to the construction work?"
+      },
+      "bracket_parts": [
+        "Erleidet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Unternehmen erlitt im vergangenen Quartal erhebliche Einbußen.",
+      "translation": {
+        "ru": "Компания понесла значительные убытки в прошлом квартале.",
+        "en": "The company suffered considerable losses in the past quarter."
+      },
+      "bracket_parts": [
+        "erlitt"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Patient hat bei dem Unfall glücklicherweise keine bleibenden Schäden erlitten.",
+      "translation": {
+        "ru": "Пациент, к счастью, не получил необратимых повреждений при аварии.",
+        "en": "Fortunately, the patient did not suffer any permanent damage in the accident."
+      },
+      "bracket_parts": [
+        "hat",
+        "erlitten"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erleide Niederlagen mit Würde und lerne aus deinen Fehlern!",
+      "translation": {
+        "ru": "Встречай поражения с достоинством и учись на своих ошибках!",
+        "en": "Suffer defeats with dignity and learn from your mistakes!"
+      },
+      "bracket_parts": [
+        "Erleide"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

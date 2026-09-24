@@ -1,0 +1,147 @@
+{
+  "id": "bearbeiten",
+  "infinitive": "bearbeiten",
+  "translation": {
+    "ru": "обрабатывать, редактировать, рассматривать (заявку)",
+    "en": "to process, to edit, to work on"
+  },
+  "level": "A2",
+  "frequency_rank": 652,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bearbeiten",
+    "present_3sg": "bearbeitet",
+    "praeteritum_3sg": "bearbeitete",
+    "partizip_2": "bearbeitet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bearbeite",
+      "du": "bearbeitest",
+      "er_sie_es": "bearbeitet",
+      "wir": "bearbeiten",
+      "ihr": "bearbeitet",
+      "sie_Sie": "bearbeiten"
+    },
+    "praeteritum": {
+      "ich": "bearbeitete",
+      "du": "bearbeitetest",
+      "er_sie_es": "bearbeitet",
+      "wir": "bearbeiteten",
+      "ihr": "bearbeitetet",
+      "sie_Sie": "bearbeiteten"
+    },
+    "perfekt": {
+      "ich": "habe bearbeitet",
+      "du": "hast bearbeitet",
+      "er_sie_es": "hat bearbeitet",
+      "wir": "haben bearbeitet",
+      "ihr": "habt bearbeitet",
+      "sie_Sie": "haben bearbeitet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich bearbeite die Fotos mit einem Bildprogramm.",
+      "translation": {
+        "ru": "Я обрабатываю фотографии в графической программе.",
+        "en": "I edit the photos with an image program."
+      },
+      "bracket_parts": [
+        "bearbeite"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bearbeitest du den Text noch einmal vor der Abgabe?",
+      "translation": {
+        "ru": "Ты отредактируешь текст еще раз перед сдачей?",
+        "en": "Are you editing the text again before submission?"
+      },
+      "bracket_parts": [
+        "Bearbeitest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Sachbearbeiter bearbeitet den Antrag zügig.",
+      "translation": {
+        "ru": "Сотрудник оперативно обрабатывает заявку.",
+        "en": "The clerk processes the application promptly."
+      },
+      "bracket_parts": [
+        "bearbeitet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bearbeiten Kundenanfragen innerhalb von 24 Stunden.",
+      "translation": {
+        "ru": "Мы обрабатываем запросы клиентов в течение 24 часов.",
+        "en": "We process customer inquiries within 24 hours."
+      },
+      "bracket_parts": [
+        "bearbeiten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr bearbeitet die Aufgaben in Gruppenarbeit.",
+      "translation": {
+        "ru": "Вы выполняете задания в группах.",
+        "en": "You work on the tasks in group work."
+      },
+      "bracket_parts": [
+        "bearbeitet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Tischler bearbeitete das raue Holz damals von Hand.",
+      "translation": {
+        "ru": "Столяр тогда обрабатывал необтесанное дерево вручную.",
+        "en": "The carpenter worked the rough wood by hand back then."
+      },
+      "bracket_parts": [
+        "bearbeitete"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das Amt hat meine Dokumente endlich vollständig bearbeitet.",
+      "translation": {
+        "ru": "Ведомство наконец полностью обработало мои документы.",
+        "en": "The authority has finally fully processed my documents."
+      },
+      "bracket_parts": [
+        "hat",
+        "bearbeitet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bearbeite bitte die E-Mails so schnell wie möglich!",
+      "translation": {
+        "ru": "Обработай, пожалуйста, электронные письма как можно быстрее!",
+        "en": "Please process the emails as quickly as possible!"
+      },
+      "bracket_parts": [
+        "Bearbeite"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

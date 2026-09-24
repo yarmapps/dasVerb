@@ -1,0 +1,144 @@
+{
+  "id": "wiedersehen",
+  "infinitive": "wiedersehen",
+  "translation": {
+    "ru": "снова увидеть, встречаться снова",
+    "en": "to see again"
+  },
+  "level": "A2",
+  "frequency_rank": 798,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "sieht wieder",
+    "preterite_third_singular": "sah wieder",
+    "past_participle": "wiedergesehen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "sehe wieder",
+      "du": "siehst wieder",
+      "er_sie_es": "sieht wieder",
+      "wir": "sehen wieder",
+      "ihr": "seht wieder",
+      "sie_Sie": "sehen wieder"
+    },
+    "preterite": {
+      "ich": "sah wieder",
+      "du": "sahst wieder",
+      "er_sie_es": "sah wieder",
+      "wir": "sahen wieder",
+      "ihr": "saht wieder",
+      "sie_Sie": "sahen wieder"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "wiedergesehen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich sehe meine beste Schulfreundin heute nach Jahren wieder.",
+      "translation": {
+        "ru": "Я снова вижу лучшую школьную подругу сегодня спустя годы.",
+        "en": "I see my best school friend again today after years."
+      },
+      "bracket_parts": [
+        "sehe",
+        "wieder"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Siehst du deine Familie an Weihnachten wieder?",
+      "translation": {
+        "ru": "Ты снова увидишь свою семью на Рождество?",
+        "en": "Will you see your family again at Christmas?"
+      },
+      "bracket_parts": [
+        "Siehst",
+        "wieder"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Vater sieht seinen Sohn nach der langen Reise wieder.",
+      "translation": {
+        "ru": "Отец снова видит сына после долгой поездки.",
+        "en": "The father sees his son again after the long trip."
+      },
+      "bracket_parts": [
+        "sieht",
+        "wieder"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir sehen uns hoffentlich bald in Berlin wieder.",
+      "translation": {
+        "ru": "Мы, надеемся, скоро снова увидимся в Берлине.",
+        "en": "We hopefully see each other again soon in Berlin."
+      },
+      "bracket_parts": [
+        "sehen",
+        "wieder"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Seht ihr eure alten Nachbarn beim Sommerfest wieder?",
+      "translation": {
+        "ru": "Вы снова увидите старых соседей на летнем празднике?",
+        "en": "Are you seeing your old neighbors again at the summer festival?"
+      },
+      "bracket_parts": [
+        "Seht",
+        "wieder"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie sahen die vertrauten Berge nach vielen Jahren wieder.",
+      "translation": {
+        "ru": "Они снова увидели знакомые горы спустя много лет.",
+        "en": "They saw the familiar mountains again after many years."
+      },
+      "bracket_parts": [
+        "sahen",
+        "wieder"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Ich habe meinen alten Professor zufällig auf der Straße wiedergesehen.",
+      "translation": {
+        "ru": "Я случайно снова встретил своего старого профессора на улице.",
+        "en": "I happened to see my old professor again on the street."
+      },
+      "bracket_parts": [
+        "habe",
+        "wiedergesehen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Komm bald zurück, damit wir dich bald wiedersehen!",
+      "translation": {
+        "ru": "Возвращайся скорее, чтобы мы скоро снова тебя увидели!",
+        "en": "Come back soon so that we see you again soon!"
+      },
+      "bracket_parts": [
+        "wiedersehen"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

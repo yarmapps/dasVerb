@@ -1,0 +1,154 @@
+{
+  "id": "abwarten",
+  "infinitive": "abwarten",
+  "translation": {
+    "ru": "выжидать, поджидать, терпеливо ждать",
+    "en": "to wait and see, to await"
+  },
+  "level": "A2",
+  "frequency_rank": 600,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "ab",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "abwarten",
+    "present_3sg": "wartet ab",
+    "praeteritum_3sg": "wartete ab",
+    "partizip_2": "abgewartet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "warte ab",
+      "du": "wartest ab",
+      "er_sie_es": "wartet ab",
+      "wir": "warten ab",
+      "ihr": "wartet ab",
+      "sie_Sie": "warten ab"
+    },
+    "praeteritum": {
+      "ich": "wartete ab",
+      "du": "wartetest ab",
+      "er_sie_es": "wartete ab",
+      "wir": "warteten ab",
+      "ihr": "wartetet ab",
+      "sie_Sie": "warteten ab"
+    },
+    "perfekt": {
+      "ich": "habe abgewartet",
+      "du": "hast abgewartet",
+      "er_sie_es": "hat abgewartet",
+      "wir": "haben abgewartet",
+      "ihr": "habt abgewartet",
+      "sie_Sie": "haben abgewartet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich warte die Entwicklung der Lage in Ruhe ab.",
+      "translation": {
+        "ru": "Я спокойно выжидаю развитие ситуации.",
+        "en": "I wait calmly for the development of the situation."
+      },
+      "bracket_parts": [
+        "warte",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wartest du das Ende des Regens unter dem Dach ab?",
+      "translation": {
+        "ru": "Ты переждешь конец дождя под крышей?",
+        "en": "Are you waiting out the end of the rain under the roof?"
+      },
+      "bracket_parts": [
+        "Wartest",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Arzt wartet den richtigen Moment für die Operation ab.",
+      "translation": {
+        "ru": "Врач выжидает подходящий момент для операции.",
+        "en": "The doctor awaits the right moment for surgery."
+      },
+      "bracket_parts": [
+        "wartet",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir warten das Testergebnis geduldig ab.",
+      "translation": {
+        "ru": "Мы терпеливо ждем результатов теста.",
+        "en": "We wait patiently for the test result."
+      },
+      "bracket_parts": [
+        "warten",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr wartet den richtigen Zeitpunkt für den Kauf ab.",
+      "translation": {
+        "ru": "Вы выжидаете подходящий момент для покупки.",
+        "en": "You wait for the right time to make the purchase."
+      },
+      "bracket_parts": [
+        "wartet",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie warteten damals den Sturm im Haus ab.",
+      "translation": {
+        "ru": "Они тогда переждали бурю в доме.",
+        "en": "They waited out the storm in the house back then."
+      },
+      "bracket_parts": [
+        "warteten",
+        "ab"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Wir haben die Entscheidung der Jury lange abgewartet.",
+      "translation": {
+        "ru": "Мы долго ждали решения жюри.",
+        "en": "We waited a long time for the jury's decision."
+      },
+      "bracket_parts": [
+        "haben",
+        "abgewartet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Warte erst mal ab und trink Tee!",
+      "translation": {
+        "ru": "Подожди сначала и выпей чаю!",
+        "en": "Just wait and see and drink tea!"
+      },
+      "bracket_parts": [
+        "Warte",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

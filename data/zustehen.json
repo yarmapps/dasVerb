@@ -1,0 +1,144 @@
+{
+  "id": "zustehen",
+  "infinitive": "zustehen",
+  "translation": {
+    "ru": "причитаться, полагаться по праву",
+    "en": "to be due to, to be entitled to"
+  },
+  "level": "B2",
+  "frequency_rank": 889,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "steht zu",
+    "preterite_third_singular": "stand zu",
+    "past_participle": "zugestanden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stehe zu",
+      "du": "stehst zu",
+      "er_sie_es": "steht zu",
+      "wir": "stehen zu",
+      "ihr": "steht zu",
+      "sie_Sie": "stehen zu"
+    },
+    "preterite": {
+      "ich": "stand zu",
+      "du": "standest zu",
+      "er_sie_es": "stand zu",
+      "wir": "standen zu",
+      "ihr": "standet zu",
+      "sie_Sie": "standen zu"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "zugestanden"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Mir steht nach dem Gesetz ein jährlicher Erholungsurlaub zu.",
+      "translation": {
+        "ru": "Мне по закону полагается ежегодный отпуск.",
+        "en": "Under the law, I am entitled to annual vacation."
+      },
+      "bracket_parts": [
+        "steht",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Steht dir für diese Überstunden ein Ausgleich zu?",
+      "translation": {
+        "ru": "Полагается ли тебе компенсация за эти сверхурочные часы?",
+        "en": "Are you entitled to compensation for this overtime?"
+      },
+      "bracket_parts": [
+        "Steht",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Jedem Bürger steht ein faires Gerichtsverfahren zu.",
+      "translation": {
+        "ru": "Каждому гражданину полагается справедливое судебное разбирательство.",
+        "en": "Every citizen is entitled to a fair trial."
+      },
+      "bracket_parts": [
+        "steht",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Uns steht die volle Summe aus der Versicherung zu.",
+      "translation": {
+        "ru": "Нам причитается полная сумма по страховке.",
+        "en": "We are entitled to the full sum from the insurance."
+      },
+      "bracket_parts": [
+        "steht",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Steht euch eine Gehaltserhöhung nach der Probezeit zu?",
+      "translation": {
+        "ru": "Полагается ли вам повышение зарплаты после испытательного срока?",
+        "en": "Are you entitled to a salary increase after the probation period?"
+      },
+      "bracket_parts": [
+        "Steht",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihm stand das Erbe laut Testament rechtmäßig zu.",
+      "translation": {
+        "ru": "Ему по завещанию законно причиталось наследство.",
+        "en": "The inheritance was rightfully due to him according to the will."
+      },
+      "bracket_parts": [
+        "stand",
+        "zu"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Diese Entschädigung hat den Betroffenen von Rechts wegen zugestanden.",
+      "translation": {
+        "ru": "Эта компенсация пострадавшим полагалась по праву.",
+        "en": "This compensation was legally due to those affected."
+      },
+      "bracket_parts": [
+        "hat",
+        "zugestanden"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Fordere das Geld ein, das dir rechtmäßig zusteht!",
+      "translation": {
+        "ru": "Требуй деньги, которые причитаются тебе по праву!",
+        "en": "Claim the money that is rightfully due to you!"
+      },
+      "bracket_parts": [
+        "zusteht"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

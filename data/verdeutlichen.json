@@ -1,0 +1,143 @@
+{
+  "id": "verdeutlichen",
+  "infinitive": "verdeutlichen",
+  "translation": {
+    "ru": "разъяснять, пояснять, делать наглядным",
+    "en": "to clarify, to explain, to illustrate"
+  },
+  "level": "B2",
+  "frequency_rank": 752,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verdeutlicht",
+    "preterite_third_singular": "verdeutlichte",
+    "past_participle": "verdeutlicht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verdeutliche",
+      "du": "verdeutlichst",
+      "er_sie_es": "verdeutlicht",
+      "wir": "verdeutlichen",
+      "ihr": "verdeutlicht",
+      "sie_Sie": "verdeutlichen"
+    },
+    "preterite": {
+      "ich": "verdeutlichte",
+      "du": "verdeutlichtest",
+      "er_sie_es": "verdeutlichte",
+      "wir": "verdeutlichten",
+      "ihr": "verdeutlichtet",
+      "sie_Sie": "verdeutlichten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verdeutlicht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "an",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich verdeutliche meine Idee anhand einer Grafik.",
+      "translation": {
+        "ru": "Я поясняю свою идею с помощью графика.",
+        "en": "I illustrate my idea using a graphic."
+      },
+      "bracket_parts": [
+        "verdeutliche"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verdeutschst du den schwierigen Sachverhalt noch einmal?",
+      "translation": {
+        "ru": "Ты разъяснишь сложную суть дела еще раз?",
+        "en": "Will you clarify the difficult facts once more?"
+      },
+      "bracket_parts": [
+        "Verdeutschst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Schaubild verdeutlicht den dramatischen Anstieg der Kosten.",
+      "translation": {
+        "ru": "Диаграмма наглядно показывает резкий рост затрат.",
+        "en": "The chart illustrates the dramatic rise in costs."
+      },
+      "bracket_parts": [
+        "verdeutlicht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verdeutlichen unseren Standpunkt in der Konferenz.",
+      "translation": {
+        "ru": "Мы разъясняем нашу точку зрения на конференции.",
+        "en": "We clarify our point of view at the conference."
+      },
+      "bracket_parts": [
+        "verdeutlichen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verdeutlicht ihr die Regeln für die neuen Mitarbeiter?",
+      "translation": {
+        "ru": "Вы разъясняете правила новым сотрудникам?",
+        "en": "Are you clarifying the rules for the new employees?"
+      },
+      "bracket_parts": [
+        "Verdeutlicht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Professorin verdeutlichte die Theorie an vielen Beispielen.",
+      "translation": {
+        "ru": "Профессор разъяснила теорию на множестве примеров.",
+        "en": "The professor illustrated the theory with many examples."
+      },
+      "bracket_parts": [
+        "verdeutlichte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat die dringende Notwendigkeit klar verdeutlicht.",
+      "translation": {
+        "ru": "Он четко разъяснил острую необходимость.",
+        "en": "He has clearly illustrated the urgent necessity."
+      },
+      "bracket_parts": [
+        "hat",
+        "verdeutlicht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verdeutliche deine Kernaussage mit einfachen Worten!",
+      "translation": {
+        "ru": "Разъясни свой главный посыл простыми словами!",
+        "en": "Clarify your core message with simple words!"
+      },
+      "bracket_parts": [
+        "Verdeutliche"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "loslassen",
+  "infinitive": "loslassen",
+  "translation": {
+    "ru": "отпускать (руку/поводок), выпускать из рук",
+    "en": "to let go, to release"
+  },
+  "level": "B1",
+  "frequency_rank": 1021,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "lässt los",
+    "preterite_third_singular": "ließ los",
+    "past_participle": "losgelassen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lasse los",
+      "du": "lässt los",
+      "er_sie_es": "lässt los",
+      "wir": "lassen los",
+      "ihr": "lasst los",
+      "sie_Sie": "lassen los"
+    },
+    "preterite": {
+      "ich": "ließ los",
+      "du": "ließest los",
+      "er_sie_es": "ließ los",
+      "wir": "ließen los",
+      "ihr": "ließt los",
+      "sie_Sie": "ließen los"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "losgelassen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich lasse die Vergangenheit endlich los und blicke voller Zuversicht nach vorn.",
+      "translation": {
+        "ru": "Я наконец отпускаю прошлое и с уверенностью смотрю вперед.",
+        "en": "I finally let go of the past and look forward with confidence."
+      },
+      "bracket_parts": [
+        "lasse",
+        "los"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lässt du das Seil erst los, wenn ich festen Halt gefunden habe?",
+      "translation": {
+        "ru": "Ты отпустишь веревку только тогда, когда я надежно зафиксируюсь?",
+        "en": "Will you let go of the rope only when I have found a firm hold?"
+      },
+      "bracket_parts": [
+        "Lässt",
+        "los"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Kind lässt den bunten Luftballon in den Himmel los.",
+      "translation": {
+        "ru": "Ребенок отпускает яркий воздушный шарик в небо.",
+        "en": "The child releases the colorful balloon into the sky."
+      },
+      "bracket_parts": [
+        "lässt",
+        "los"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir lassen alte Gewohnheiten los, um Platz für Neues zu schaffen.",
+      "translation": {
+        "ru": "Мы отпускаем старые привычки, чтобы освободить место для нового.",
+        "en": "We let go of old habits to make room for new things."
+      },
+      "bracket_parts": [
+        "lassen",
+        "los"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lasst ihr das gespannte Gummiband vorsichtig los?",
+      "translation": {
+        "ru": "Отпускаете ли вы натянутую резинку осторожно?",
+        "en": "Are you guys releasing the stretched rubber band carefully?"
+      },
+      "bracket_parts": [
+        "Lasst",
+        "los"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Hundebesitzer ließ die Leine im Park aus Versehen los.",
+      "translation": {
+        "ru": "Владелец собаки случайно выпустил поводок из рук в парке.",
+        "en": "The dog owner accidentally let go of the leash in the park."
+      },
+      "bracket_parts": [
+        "ließ",
+        "los"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat meine Hand während des ganzen Spaziergangs nicht losgelassen.",
+      "translation": {
+        "ru": "Он не отпускал мою руку на протяжении всей прогулки.",
+        "en": "He did not let go of my hand during the entire walk."
+      },
+      "bracket_parts": [
+        "hat",
+        "losgelassen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lass jetzt bitte los und vertraue auf deine Fähigkeiten!",
+      "translation": {
+        "ru": "Отпусти сейчас, пожалуйста, и доверься своим способностям!",
+        "en": "Please let go now and trust in your abilities!"
+      },
+      "bracket_parts": [
+        "Lass",
+        "los"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

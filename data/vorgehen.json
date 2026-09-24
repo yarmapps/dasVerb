@@ -1,0 +1,154 @@
+{
+  "id": "vorgehen",
+  "infinitive": "vorgehen",
+  "translation": {
+    "ru": "действовать, идти вперед, спешить (о часах)",
+    "en": "to proceed, to take action, to run fast (clock)"
+  },
+  "level": "B1",
+  "frequency_rank": 647,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "vor",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vorgehen",
+    "present_3sg": "geht vor",
+    "praeteritum_3sg": "ging vor",
+    "partizip_2": "vorgegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe vor",
+      "du": "gehst vor",
+      "er_sie_es": "geht vor",
+      "wir": "gehen vor",
+      "ihr": "geht vor",
+      "sie_Sie": "gehen vor"
+    },
+    "praeteritum": {
+      "ich": "ging vor",
+      "du": "gingst vor",
+      "er_sie_es": "ging vor",
+      "wir": "gingen vor",
+      "ihr": "gingt vor",
+      "sie_Sie": "gingen vor"
+    },
+    "perfekt": {
+      "ich": "bin vorgegangen",
+      "du": "bist vorgegangen",
+      "er_sie_es": "ist vorgegangen",
+      "wir": "sind vorgegangen",
+      "ihr": "seid vorgegangen",
+      "sie_Sie": "sind vorgegangen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "gegen",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich gehe bei der Problemlösung schrittweise vor.",
+      "translation": {
+        "ru": "Я действую при решении проблемы пошагово.",
+        "en": "I proceed step by step when solving the problem."
+      },
+      "bracket_parts": [
+        "gehe",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gehst du schon mal vor zum Restaurant?",
+      "translation": {
+        "ru": "Ты уже пойдешь вперед в ресторан?",
+        "en": "Are you going ahead to the restaurant?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Meine Armbanduhr geht fünf Minuten vor.",
+      "translation": {
+        "ru": "Мои наручные часы спешат на пять минут.",
+        "en": "My wristwatch is five minutes fast."
+      },
+      "bracket_parts": [
+        "geht",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gehen gemeinsam gegen die Ungerechtigkeit vor.",
+      "translation": {
+        "ru": "Мы вместе выступаем против несправедливости.",
+        "en": "We take action together against injustice."
+      },
+      "bracket_parts": [
+        "gehen",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr geht sehr methodisch bei der Analyse vor.",
+      "translation": {
+        "ru": "Вы действуете очень методично при анализе.",
+        "en": "You proceed very methodically in the analysis."
+      },
+      "bracket_parts": [
+        "geht",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei ging damals streng gegen Randalierer vor.",
+      "translation": {
+        "ru": "Полиция тогда строго действовала против хулиганов.",
+        "en": "The police took strict action against rioters back then."
+      },
+      "bracket_parts": [
+        "ging",
+        "vor"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Wie seid ihr bei der Renovierung vorgegangen?",
+      "translation": {
+        "ru": "Как вы действовали при ремонте?",
+        "en": "How did you proceed with the renovation?"
+      },
+      "bracket_parts": [
+        "seid",
+        "vorgegangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Geh bitte vorsichtig und überlegt vor!",
+      "translation": {
+        "ru": "Действуй, пожалуйста, осторожно и обдуманно!",
+        "en": "Please proceed carefully and thoughtfully!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "vor"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

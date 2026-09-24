@@ -1,0 +1,147 @@
+{
+  "id": "weisen",
+  "infinitive": "weisen",
+  "translation": {
+    "ru": "указывать, показывать",
+    "en": "to point, to direct, to show"
+  },
+  "level": "B2",
+  "frequency_rank": 584,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "weisen",
+    "present_3sg": "weist",
+    "praeteritum_3sg": "wies",
+    "partizip_2": "gewiesen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "weise",
+      "du": "weist",
+      "er_sie_es": "weist",
+      "wir": "weisen",
+      "ihr": "weist",
+      "sie_Sie": "weisen"
+    },
+    "praeteritum": {
+      "ich": "wies",
+      "du": "wiesest",
+      "er_sie_es": "wies",
+      "wir": "wiesen",
+      "ihr": "wiest",
+      "sie_Sie": "wiesen"
+    },
+    "perfekt": {
+      "ich": "habe gewiesen",
+      "du": "hast gewiesen",
+      "er_sie_es": "hat gewiesen",
+      "wir": "haben gewiesen",
+      "ihr": "habt gewiesen",
+      "sie_Sie": "haben gewiesen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich weise den Touristen den richtigen Weg.",
+      "translation": {
+        "ru": "Я указываю туристам правильный путь.",
+        "en": "I show the tourists the right way."
+      },
+      "bracket_parts": [
+        "weise"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Weist du mit dem Finger auf das Schild?",
+      "translation": {
+        "ru": "Ты указываешь пальцем на вывеску?",
+        "en": "Are you pointing with your finger at the sign?"
+      },
+      "bracket_parts": [
+        "Weist"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Schild weist direkt zum Ausgang.",
+      "translation": {
+        "ru": "Указатель указывает прямо к выходу.",
+        "en": "The sign points directly to the exit."
+      },
+      "bracket_parts": [
+        "weist"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir weisen auf die möglichen Gefahren hin.",
+      "translation": {
+        "ru": "Мы указываем на возможные опасности.",
+        "en": "We point to the potential hazards."
+      },
+      "bracket_parts": [
+        "weisen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr weist den Gästen ihre Plätze zu.",
+      "translation": {
+        "ru": "Вы указываете гостям их места.",
+        "en": "You show the guests to their seats."
+      },
+      "bracket_parts": [
+        "weist"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Kompass wies den Seefahrern damals die Richtung.",
+      "translation": {
+        "ru": "Компас тогда указывал морякам направление.",
+        "en": "The compass showed sailors the direction back then."
+      },
+      "bracket_parts": [
+        "wies"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Schiedsrichter hat den Spieler des Feldes gewiesen.",
+      "translation": {
+        "ru": "Судья удалил игрока с поля.",
+        "en": "The referee sent the player off the field."
+      },
+      "bracket_parts": [
+        "hat",
+        "gewiesen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Weise dem Wanderer freundlich den Weg zum Bahnhof!",
+      "translation": {
+        "ru": "Дружелюбно укажи путнику путь к вокзалу!",
+        "en": "Kindly show the hiker the way to the train station!"
+      },
+      "bracket_parts": [
+        "Weise"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "aufgehen",
+  "infinitive": "aufgehen",
+  "translation": {
+    "ru": "восходить (о солнце), открываться, всходить (о тесте/семенах)",
+    "en": "to rise (sun), to open, to rise (dough)"
+  },
+  "level": "A2",
+  "frequency_rank": 590,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufgehen",
+    "present_3sg": "geht auf",
+    "praeteritum_3sg": "ging auf",
+    "partizip_2": "aufgegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe auf",
+      "du": "gehst auf",
+      "er_sie_es": "geht auf",
+      "wir": "gehen auf",
+      "ihr": "geht auf",
+      "sie_Sie": "gehen auf"
+    },
+    "praeteritum": {
+      "ich": "ging auf",
+      "du": "gingst auf",
+      "er_sie_es": "ging auf",
+      "wir": "gingen auf",
+      "ihr": "gingt auf",
+      "sie_Sie": "gingen auf"
+    },
+    "perfekt": {
+      "ich": "bin aufgegangen",
+      "du": "bist aufgegangen",
+      "er_sie_es": "ist aufgegangen",
+      "wir": "sind aufgegangen",
+      "ihr": "seid aufgegangen",
+      "sie_Sie": "sind aufgegangen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich sehe, wie die Tür langsam aufgeht.",
+      "translation": {
+        "ru": "Я вижу, как дверь медленно открывается.",
+        "en": "I see the door opening slowly."
+      },
+      "bracket_parts": [
+        "aufgeht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wann gehst du morgens mit der Sonne auf?",
+      "translation": {
+        "ru": "Когда ты встаешь утром вместе с восходом солнца?",
+        "en": "When do you rise in the morning with the sun?"
+      },
+      "bracket_parts": [
+        "gehst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Sonne geht heute um sechs Uhr auf.",
+      "translation": {
+        "ru": "Солнце сегодня восходит в шесть часов.",
+        "en": "The sun rises today at six o'clock."
+      },
+      "bracket_parts": [
+        "geht",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir freuen uns, wenn die Blumen im Frühling aufgehen.",
+      "translation": {
+        "ru": "Мы радуемся, когда весной распускаются цветы.",
+        "en": "We are glad when the flowers open in spring."
+      },
+      "bracket_parts": [
+        "aufgehen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr seht, wie der Hefeteig wunderbar aufgeht.",
+      "translation": {
+        "ru": "Вы видите, как замечательно поднимается дрожжевое тесто.",
+        "en": "You see how the yeast dough rises wonderfully."
+      },
+      "bracket_parts": [
+        "aufgeht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die automatische Schranke ging damals sofort auf.",
+      "translation": {
+        "ru": "Автоматический шлагбаум тогда сразу открылся.",
+        "en": "The automatic barrier opened immediately back then."
+      },
+      "bracket_parts": [
+        "ging",
+        "auf"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Unser Plan ist am Ende perfekt aufgegangen.",
+      "translation": {
+        "ru": "Наш план в итоге сработал идеально.",
+        "en": "Our plan worked out perfectly in the end."
+      },
+      "bracket_parts": [
+        "ist",
+        "aufgegangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Geh auf, du schwere Tür!",
+      "translation": {
+        "ru": "Откройся, тяжелая дверь!",
+        "en": "Open up, you heavy door!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

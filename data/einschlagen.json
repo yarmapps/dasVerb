@@ -1,0 +1,145 @@
+{
+  "id": "einschlagen",
+  "infinitive": "einschlagen",
+  "translation": {
+    "ru": "забивать (гвоздь), разбивать (стекло), ударять (о молнии), выбирать (путь)",
+    "en": "to smash, to hammer in, to strike (lightning), to adopt (a path)"
+  },
+  "level": "B2",
+  "frequency_rank": 864,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "schlägt ein",
+    "preterite_third_singular": "schlug ein",
+    "past_participle": "eingeschlagen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schlage ein",
+      "du": "schlägst ein",
+      "er_sie_es": "schlägt ein",
+      "wir": "schlagen ein",
+      "ihr": "schlagt ein",
+      "sie_Sie": "schlagen ein"
+    },
+    "preterite": {
+      "ich": "schlug ein",
+      "du": "schlugst ein",
+      "er_sie_es": "schlug ein",
+      "wir": "schlugen ein",
+      "ihr": "schlugt ein",
+      "sie_Sie": "schlugen ein"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "eingeschlagen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich schlage einen Nagel mit dem Hammer in die Wand ein.",
+      "translation": {
+        "ru": "Я забиваю гвоздь молотком в стену.",
+        "en": "I hammer a nail into the wall."
+      },
+      "bracket_parts": [
+        "schlage",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schlägst du nach dem Abitur eine akademische Laufbahn ein?",
+      "translation": {
+        "ru": "Ты выбираешь академическую карьеру после школы?",
+        "en": "Are you taking up an academic career after high school?"
+      },
+      "bracket_parts": [
+        "Schlägst",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Blitz schlägt bei Gewitter oft in hohe Bäume ein.",
+      "translation": {
+        "ru": "Молния во время грозы часто ударяет в высокие деревья.",
+        "en": "Lightning often strikes tall trees during thunderstorms."
+      },
+      "bracket_parts": [
+        "schlägt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schlagen bei der Einigung per Handschlag ein.",
+      "translation": {
+        "ru": "Мы бьем по рукам при достижении согласия.",
+        "en": "We shake hands upon reaching an agreement."
+      },
+      "bracket_parts": [
+        "schlagen",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schlagt ihr die neue Reiseroute Richtung Süden ein?",
+      "translation": {
+        "ru": "Вы берете новый маршрут в южном направлении?",
+        "en": "Are you taking the new travel route heading south?"
+      },
+      "bracket_parts": [
+        "Schlagt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein Einbrecher schlug nachts die Fensterscheibe ein.",
+      "translation": {
+        "ru": "Взломщик разбил оконное стекло ночью.",
+        "en": "A burglar smashed the window pane at night."
+      },
+      "bracket_parts": [
+        "schlug",
+        "ein"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das neue Buch hat wie eine Bombe eingeschlagen.",
+      "translation": {
+        "ru": "Новая книга произвела эффект разорвавшейся бомбы.",
+        "en": "The new book made a huge impact."
+      },
+      "bracket_parts": [
+        "hat",
+        "eingeschlagen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schlag den richtigen Weg für deine Zukunft ein!",
+      "translation": {
+        "ru": "Выбери правильный путь для своего будущего!",
+        "en": "Take the right path for your future!"
+      },
+      "bracket_parts": [
+        "Schlag",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

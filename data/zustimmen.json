@@ -1,0 +1,154 @@
+{
+  "id": "zustimmen",
+  "infinitive": "zustimmen",
+  "translation": {
+    "ru": "соглашаться, одобрять",
+    "en": "to agree, to consent, to approve"
+  },
+  "level": "A2",
+  "frequency_rank": 636,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "zu",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zustimmen",
+    "present_3sg": "stimmt zu",
+    "praeteritum_3sg": "stimmte zu",
+    "partizip_2": "zugestimmt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stimme zu",
+      "du": "stimmst zu",
+      "er_sie_es": "stimmt zu",
+      "wir": "stimmen zu",
+      "ihr": "stimmt zu",
+      "sie_Sie": "stimmen zu"
+    },
+    "praeteritum": {
+      "ich": "stimmte zu",
+      "du": "stimmtest zu",
+      "er_sie_es": "stimmte zu",
+      "wir": "stimmten zu",
+      "ihr": "stimmtet zu",
+      "sie_Sie": "stimmten zu"
+    },
+    "perfekt": {
+      "ich": "habe zugestimmt",
+      "du": "hast zugestimmt",
+      "er_sie_es": "hat zugestimmt",
+      "wir": "haben zugestimmt",
+      "ihr": "habt zugestimmt",
+      "sie_Sie": "haben zugestimmt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "dativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich stimme deinem klugen Vorschlag vollkommen zu.",
+      "translation": {
+        "ru": "Я полностью согласен с твоим умным предложением.",
+        "en": "I completely agree with your clever suggestion."
+      },
+      "bracket_parts": [
+        "stimme",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stimmst du dieser wichtigen Entscheidung zu?",
+      "translation": {
+        "ru": "Ты согласен с этим важным решением?",
+        "en": "Do you agree with this important decision?"
+      },
+      "bracket_parts": [
+        "Stimmst",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Chef stimmt dem Antrag auf Urlaub sofort zu.",
+      "translation": {
+        "ru": "Начальник сразу одобряет заявление на отпуск.",
+        "en": "The boss approves the leave application immediately."
+      },
+      "bracket_parts": [
+        "stimmt",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir stimmen den neuen Geschäftsbedingungen gerne zu.",
+      "translation": {
+        "ru": "Мы охотно принимаем новые условия сделки.",
+        "en": "We gladly agree to the new terms and conditions."
+      },
+      "bracket_parts": [
+        "stimmen",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr stimmt den Ausführungen des Referenten zu.",
+      "translation": {
+        "ru": "Вы соглашаетесь с доводами докладчика.",
+        "en": "You agree with the speaker's remarks."
+      },
+      "bracket_parts": [
+        "stimmt",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Parlament stimmte damals dem neuen Gesetz zu.",
+      "translation": {
+        "ru": "Парламент тогда одобрил новый закон.",
+        "en": "Parliament approved the new law back then."
+      },
+      "bracket_parts": [
+        "stimmte",
+        "zu"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Alle Mitglieder haben dem Plan einstimmig zugestimmt.",
+      "translation": {
+        "ru": "Все участники единогласно одобрили план.",
+        "en": "All members approved the plan unanimously."
+      },
+      "bracket_parts": [
+        "haben",
+        "zugestimmt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Stimm bitte dem Vertrag nach sorgfältiger Prüfung zu!",
+      "translation": {
+        "ru": "Одобри договор после тщательной проверки!",
+        "en": "Please agree to the contract after careful review!"
+      },
+      "bracket_parts": [
+        "Stimm",
+        "zu"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

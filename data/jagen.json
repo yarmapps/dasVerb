@@ -1,0 +1,143 @@
+{
+  "id": "jagen",
+  "infinitive": "jagen",
+  "translation": {
+    "ru": "охотиться, гнаться, мчаться",
+    "en": "to hunt, to chase, to rush"
+  },
+  "level": "B1",
+  "frequency_rank": 837,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "jagt",
+    "preterite_third_singular": "jagte",
+    "past_participle": "gejagt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "jage",
+      "du": "jagst",
+      "er_sie_es": "jagt",
+      "wir": "jagen",
+      "ihr": "jagt",
+      "sie_Sie": "jagen"
+    },
+    "preterite": {
+      "ich": "jagte",
+      "du": "jagtest",
+      "er_sie_es": "jagte",
+      "wir": "jagten",
+      "ihr": "jagtet",
+      "sie_Sie": "jagten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gejagt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "nach",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich jage im Urlaub gerne nach seltenen Schnäppchen.",
+      "translation": {
+        "ru": "В отпуске я люблю охотиться за редкими выгодными покупками.",
+        "en": "On vacation I like to hunt for rare bargains."
+      },
+      "bracket_parts": [
+        "jage"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Jagst du den schnellen Ball über das ganze Spielfeld?",
+      "translation": {
+        "ru": "Ты гонишься за быстрым мячом по всему полю?",
+        "en": "Are you chasing the fast ball across the whole field?"
+      },
+      "bracket_parts": [
+        "Jagst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Katze jagt eine kleine Maus im Garten.",
+      "translation": {
+        "ru": "Кошка охотится на маленькую мышь в саду.",
+        "en": "The cat hunts a little mouse in the garden."
+      },
+      "bracket_parts": [
+        "jagt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir jagen nicht nach eitlem Ruhm, sondern nach Wissen.",
+      "translation": {
+        "ru": "Мы гонимся не за тщетной славой, а за знанием.",
+        "en": "We do not chase vain fame, but knowledge."
+      },
+      "bracket_parts": [
+        "jagen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Jagt ihr mit dem schnellen Motorrad über die Landstraße?",
+      "translation": {
+        "ru": "Вы мчитесь на быстром мотоцикле по загородной трассе?",
+        "en": "Are you racing along the country road on a fast motorbike?"
+      },
+      "bracket_parts": [
+        "Jagt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Jäger jagte im dichten Wald nach Wildschweinen.",
+      "translation": {
+        "ru": "Охотник охотился в густом лесу на кабанов.",
+        "en": "The hunter hunted for wild boars in the dense forest."
+      },
+      "bracket_parts": [
+        "jagte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Polizei hat den Flüchtigen quer durch die Stadt gejagt.",
+      "translation": {
+        "ru": "Полиция преследовала беглеца через весь город.",
+        "en": "The police chased the fugitive right across the city."
+      },
+      "bracket_parts": [
+        "hat",
+        "gejagt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Jage deinen Zielen mit voller Energie nach!",
+      "translation": {
+        "ru": "Стремись к своим целям с полной энергией!",
+        "en": "Chase after your goals with full energy!"
+      },
+      "bracket_parts": [
+        "Jage"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

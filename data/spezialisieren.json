@@ -1,0 +1,143 @@
+{
+  "id": "spezialisieren",
+  "infinitive": "spezialisieren",
+  "translation": {
+    "ru": "специализироваться",
+    "en": "to specialize"
+  },
+  "level": "B1",
+  "frequency_rank": 963,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "spezialisiert",
+    "preterite_third_singular": "spezialisierte",
+    "past_participle": "spezialisiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "spezialisiere",
+      "du": "spezialisierst",
+      "er_sie_es": "spezialisiert",
+      "wir": "spezialisieren",
+      "ihr": "spezialisiert",
+      "sie_Sie": "spezialisieren"
+    },
+    "preterite": {
+      "ich": "spezialisierte",
+      "du": "spezialisiertest",
+      "er_sie_es": "spezialisierte",
+      "wir": "spezialisierten",
+      "ihr": "spezialisiertet",
+      "sie_Sie": "spezialisierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "spezialisiert"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich spezialisiere mich während des Masterstudiums auf künstliche Intelligenz.",
+      "translation": {
+        "ru": "В магистратуре я специализируюсь на искусственном интеллекте.",
+        "en": "During my master's degree, I specialize in artificial intelligence."
+      },
+      "bracket_parts": [
+        "spezialisiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Spezialisierst du dich als Facharzt auf Kardiologie?",
+      "translation": {
+        "ru": "Ты специализируешься как врач на кардиологии?",
+        "en": "Are you specializing as a medical specialist in cardiology?"
+      },
+      "bracket_parts": [
+        "Spezialisierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Unternehmen spezialisiert sich auf nachhaltige Verpackungen.",
+      "translation": {
+        "ru": "Компания специализируется на экологичной упаковке.",
+        "en": "The company specializes in sustainable packaging."
+      },
+      "bracket_parts": [
+        "spezialisiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir spezialisieren uns auf individuelle Softwarelösungen für Firmen.",
+      "translation": {
+        "ru": "Мы специализируемся на индивидуальных программных решениях для фирм.",
+        "en": "We specialize in customized software solutions for companies."
+      },
+      "bracket_parts": [
+        "spezialisieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Spezialisiert ihr euch im Studium auf Steuerrecht oder Arbeitsrecht?",
+      "translation": {
+        "ru": "Специализируетесь ли вы во время учебы на налоговом или трудовом праве?",
+        "en": "Do you guys specialize in tax law or labor law in your studies?"
+      },
+      "bracket_parts": [
+        "Spezialisiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Werkstatt spezialisierte sich früh auf die Reparatur von Oldtimern.",
+      "translation": {
+        "ru": "Мастерская рано специализировалась на ремонте раритетных автомобилей.",
+        "en": "The workshop specialized early in the repair of vintage cars."
+      },
+      "bracket_parts": [
+        "spezialisierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der junge Anwalt hat sich auf internationales Handelsrecht spezialisiert.",
+      "translation": {
+        "ru": "Молодой адвокат специализировался на международном торговом праве.",
+        "en": "The young lawyer has specialized in international commercial law."
+      },
+      "bracket_parts": [
+        "hat",
+        "spezialisiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Spezialisiere dich auf ein zukunftsträchtiges Fachgebiet!",
+      "translation": {
+        "ru": "Специализируйся на перспективной области знаний!",
+        "en": "Specialize in a forward-looking field!"
+      },
+      "bracket_parts": [
+        "Spezialisiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

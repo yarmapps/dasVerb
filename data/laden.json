@@ -1,0 +1,148 @@
+{
+  "id": "laden",
+  "infinitive": "laden",
+  "translation": {
+    "ru": "грузить, заряжать (аккумулятор), приглашать",
+    "en": "to load, to charge (battery), to invite"
+  },
+  "level": "A2",
+  "frequency_rank": 641,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "laden",
+    "present_3sg": "lädt",
+    "praeteritum_3sg": "lud",
+    "partizip_2": "geladen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lade",
+      "du": "lädst",
+      "er_sie_es": "lädt",
+      "wir": "laden",
+      "ihr": "ladet",
+      "sie_Sie": "laden",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "lud",
+      "du": "ludst",
+      "er_sie_es": "lud",
+      "wir": "luden",
+      "ihr": "ludet",
+      "sie_Sie": "luden"
+    },
+    "perfekt": {
+      "ich": "habe geladen",
+      "du": "hast geladen",
+      "er_sie_es": "hat geladen",
+      "wir": "haben geladen",
+      "ihr": "habt geladen",
+      "sie_Sie": "haben geladen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich lade mein Smartphone jede Nacht auf dem Nachttisch.",
+      "translation": {
+        "ru": "Я заряжаю смартфон каждую ночь на тумбочке.",
+        "en": "I charge my smartphone every night on the nightstand."
+      },
+      "bracket_parts": [
+        "lade"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lädst du die Kisten in den Kofferraum?",
+      "translation": {
+        "ru": "Ты грузишь коробки в багажник?",
+        "en": "Are you loading the boxes into the trunk?"
+      },
+      "bracket_parts": [
+        "Lädst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Elektroauto lädt an der Schnellladestation.",
+      "translation": {
+        "ru": "Электромобиль заряжается на станции быстрой зарядки.",
+        "en": "The electric car charges at the fast charging station."
+      },
+      "bracket_parts": [
+        "lädt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir laden das schwere Gepäck in den Bus.",
+      "translation": {
+        "ru": "Мы грузим тяжелый багаж в автобус.",
+        "en": "We load the heavy luggage into the bus."
+      },
+      "bracket_parts": [
+        "laden"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr ladet die Datei aus dem Internet herunter.",
+      "translation": {
+        "ru": "Вы скачиваете файл из интернета.",
+        "en": "You download the file from the internet."
+      },
+      "bracket_parts": [
+        "ladet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Arbeiter luden damals das Holz auf den Wagen.",
+      "translation": {
+        "ru": "Рабочие тогда погрузили древесину на повозку.",
+        "en": "The workers loaded the wood onto the wagon back then."
+      },
+      "bracket_parts": [
+        "luden"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Er hat den Akku vor der Reise vollständig geladen.",
+      "translation": {
+        "ru": "Он перед поездкой полностью зарядил аккумулятор.",
+        "en": "He fully charged the battery before the trip."
+      },
+      "bracket_parts": [
+        "hat",
+        "geladen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lade bitte dein Handy rechtzeitig auf!",
+      "translation": {
+        "ru": "Заряди, пожалуйста, свой телефон вовремя!",
+        "en": "Please charge your phone in good time!"
+      },
+      "bracket_parts": [
+        "Lade"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

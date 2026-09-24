@@ -1,0 +1,145 @@
+{
+  "id": "aufsetzen",
+  "infinitive": "aufsetzen",
+  "translation": {
+    "ru": "надевать (головной убор, очки), составлять (документ)",
+    "en": "to put on (hat/glasses), to draft (document)"
+  },
+  "level": "B1",
+  "frequency_rank": 728,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "setzt auf",
+    "preterite_third_singular": "setzte auf",
+    "past_participle": "aufgesetzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "setze auf",
+      "du": "setzt auf",
+      "er_sie_es": "setzt auf",
+      "wir": "setzen auf",
+      "ihr": "setzt auf",
+      "sie_Sie": "setzen auf"
+    },
+    "preterite": {
+      "ich": "setzte auf",
+      "du": "setztest auf",
+      "er_sie_es": "setzte auf",
+      "wir": "setzten auf",
+      "ihr": "setztet auf",
+      "sie_Sie": "setzten auf"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "aufgesetzt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich setze meine Lesebrille auf den Schreibtisch.",
+      "translation": {
+        "ru": "Я надеваю свои очки для чтения за рабочим столом.",
+        "en": "I put on my reading glasses at the desk."
+      },
+      "bracket_parts": [
+        "setze",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Setzt du bei dieser Kälte eine warme Mütze auf?",
+      "translation": {
+        "ru": "Ты надеваешь теплую шапку в такой холод?",
+        "en": "Are you putting on a warm cap in this cold?"
+      },
+      "bracket_parts": [
+        "Setzt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Anwalt setzt einen rechtssicheren Vertrag auf.",
+      "translation": {
+        "ru": "Юрист составляет юридически грамотный договор.",
+        "en": "The lawyer drafts a legally sound contract."
+      },
+      "bracket_parts": [
+        "setzt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir setzen frischen Kaffee für unsere Gäste auf.",
+      "translation": {
+        "ru": "Мы ставим вариться свежий кофе для наших гостей.",
+        "en": "We put on fresh coffee for our guests."
+      },
+      "bracket_parts": [
+        "setzen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr setzt eure Helme vor der Fahrradtour auf.",
+      "translation": {
+        "ru": "Вы надеваете шлемы перед велопрогулкой.",
+        "en": "You put on your helmets before the bike tour."
+      },
+      "bracket_parts": [
+        "setzt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er setzte seinen neuen Hut stolz auf.",
+      "translation": {
+        "ru": "Он с гордостью надел свою новую шляпу.",
+        "en": "He put on his new hat proudly."
+      },
+      "bracket_parts": [
+        "setzte",
+        "auf"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben das Schreiben gemeinsam aufgesetzt.",
+      "translation": {
+        "ru": "Они составили письмо вместе.",
+        "en": "They drafted the letter together."
+      },
+      "bracket_parts": [
+        "haben",
+        "aufgesetzt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Setz den Schutzhelm sofort auf!",
+      "translation": {
+        "ru": "Надень защитную каску немедленно!",
+        "en": "Put on the safety helmet immediately!"
+      },
+      "bracket_parts": [
+        "Setz",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

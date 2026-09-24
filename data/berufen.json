@@ -1,0 +1,147 @@
+{
+  "id": "berufen",
+  "infinitive": "berufen",
+  "translation": {
+    "ru": "назначать (на должность), созывать, ссылаться (рефл.)",
+    "en": "to appoint, to summon, to refer to (reflexive)"
+  },
+  "level": "B2",
+  "frequency_rank": 859,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "beruft",
+    "preterite_third_singular": "berief",
+    "past_participle": "berufen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "berufe",
+      "du": "berufst",
+      "er_sie_es": "beruft",
+      "wir": "berufen",
+      "ihr": "beruft",
+      "sie_Sie": "berufen"
+    },
+    "preterite": {
+      "ich": "berief",
+      "du": "beriefst",
+      "er_sie_es": "berief",
+      "wir": "beriefen",
+      "ihr": "berieft",
+      "sie_Sie": "beriefen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "berufen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Akkusativ"
+      },
+      {
+        "preposition": "zu",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich berufe mich bei meiner Entscheidung auf das Gesetz.",
+      "translation": {
+        "ru": "Я ссылаюсь при своем решении на закон.",
+        "en": "I refer to the law in my decision."
+      },
+      "bracket_parts": [
+        "berufe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Berufst du dich auf die Aussagen deines Anwalts?",
+      "translation": {
+        "ru": "Ты ссылаешься на заявления своего адвоката?",
+        "en": "Are you referring to your lawyer's statements?"
+      },
+      "bracket_parts": [
+        "Berufst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Senat beruft die Professorin an die renommierte Universität.",
+      "translation": {
+        "ru": "Сенат назначает профессора в знаменитый университет.",
+        "en": "The senate appoints the professor to the renowned university."
+      },
+      "bracket_parts": [
+        "beruft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir berufen eine außerordentliche Mitgliederversammlung ein.",
+      "translation": {
+        "ru": "Мы созываем внеочередное собрание участников.",
+        "en": "We convene an extraordinary general meeting."
+      },
+      "bracket_parts": [
+        "berufen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beruft ihr euch auf die getroffene Vereinbarung?",
+      "translation": {
+        "ru": "Вы ссылаетесь на достигнутую договоренность?",
+        "en": "Are you appealing to the agreement reached?"
+      },
+      "bracket_parts": [
+        "Beruft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Minister berief eine Kommission zur Klärung der Fragen.",
+      "translation": {
+        "ru": "Министр созвал комиссию для выяснения вопросов.",
+        "en": "The minister convened a commission to clarify the issues."
+      },
+      "bracket_parts": [
+        "berief"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Vorstand hat ihn zum neuen Geschäftsführer berufen.",
+      "translation": {
+        "ru": "Совет директоров назначил его новым генеральным директором.",
+        "en": "The board appointed him as the new managing director."
+      },
+      "bracket_parts": [
+        "hat",
+        "berufen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Berufe dich nur auf gesicherte und geprüfte Quellen!",
+      "translation": {
+        "ru": "Ссылайся только на достоверные и проверенные источники!",
+        "en": "Rely only on reliable and verified sources!"
+      },
+      "bracket_parts": [
+        "Berufe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

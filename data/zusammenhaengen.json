@@ -1,0 +1,150 @@
+{
+  "id": "zusammenhaengen",
+  "infinitive": "zusammenhängen",
+  "translation": {
+    "ru": "быть связанным, иметь отношение",
+    "en": "to be connected, be interrelated"
+  },
+  "level": "B1",
+  "frequency_rank": 510,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "zusammen",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zusammenhängen",
+    "present_3sg": "hängt zusammen",
+    "praeteritum_3sg": "hing zusammen",
+    "partizip_2": "zusammengehangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "hänge zusammen",
+      "du": "hängst zusammen",
+      "er_sie_es": "hängt zusammen",
+      "wir": "hängen zusammen",
+      "ihr": "hängt zusammen",
+      "sie_Sie": "hängen zusammen"
+    },
+    "praeteritum": {
+      "ich": "hing zusammen",
+      "du": "hingst zusammen",
+      "er_sie_es": "hing zusammen",
+      "wir": "hingen zusammen",
+      "ihr": "hingt zusammen",
+      "sie_Sie": "hingen zusammen"
+    },
+    "perfekt": {
+      "ich": "habe zusammengehangen",
+      "du": "hast zusammengehangen",
+      "er_sie_es": "hat zusammengehangen",
+      "wir": "haben zusammengehangen",
+      "ihr": "habt zusammengehangen",
+      "sie_Sie": "haben zusammengehangen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich sehe genau, wie diese beiden Ereignisse zusammenhängen.",
+      "translation": {
+        "ru": "Я четко вижу, как эти два события связаны между собой.",
+        "en": "I see exactly how these two events are connected."
+      },
+      "bracket_parts": [
+        "zusammenhängen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du erkennst schnell, wie Ursache und Wirkung zusammenhängen.",
+      "translation": {
+        "ru": "Ты быстро понимаешь, как связаны причина и следствие.",
+        "en": "You quickly realize how cause and effect are interrelated."
+      },
+      "bracket_parts": [
+        "zusammenhängen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der wirtschaftliche Erfolg hängt eng mit guter Planung zusammen.",
+      "translation": {
+        "ru": "Экономический успех тесно связан с хорошим планированием.",
+        "en": "Economic success is closely related to good planning."
+      },
+      "bracket_parts": [
+        "hängt",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir prüfen, wie die verschiedenen Faktoren miteinander zusammenhängen.",
+      "translation": {
+        "ru": "Мы проверяем, как различные факторы взаимосвязаны между собой.",
+        "en": "We examine how the different factors are connected with each other."
+      },
+      "bracket_parts": [
+        "zusammenhängen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr versteht gut, wie Gesundheit und Ernährung zusammenhängen.",
+      "translation": {
+        "ru": "Вы хорошо понимаете, как связаны здоровье и питание.",
+        "en": "You understand well how health and nutrition are related."
+      },
+      "bracket_parts": [
+        "zusammenhängen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beide Fälle hingen damals unmittelbar miteinander zusammen.",
+      "translation": {
+        "ru": "Оба случая тогда были напрямую связаны друг с другом.",
+        "en": "Both cases were directly related to each other back then."
+      },
+      "bracket_parts": [
+        "hingen",
+        "zusammen"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Probleme haben eng mit dem Mangel an Ressourcen zusammengehangen.",
+      "translation": {
+        "ru": "Проблемы были тесно связаны с нехваткой ресурсов.",
+        "en": "The problems were closely linked to the lack of resources."
+      },
+      "bracket_parts": [
+        "haben",
+        "zusammengehangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Hänge die Tatsachen logisch und verständlich zusammen!",
+      "translation": {
+        "ru": "Свяжи эти факты логично и понятно воедино!",
+        "en": "Connect the facts logically and understandably!"
+      },
+      "bracket_parts": [
+        "Hänge",
+        "zusammen"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

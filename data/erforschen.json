@@ -1,0 +1,138 @@
+{
+  "id": "erforschen",
+  "infinitive": "erforschen",
+  "translation": {
+    "ru": "исследовать, изучать",
+    "en": "to explore, to investigate, to research"
+  },
+  "level": "B2",
+  "frequency_rank": 913,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "erforscht",
+    "preterite_third_singular": "erforschte",
+    "past_participle": "erforscht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erforsche",
+      "du": "erforschst",
+      "er_sie_es": "erforscht",
+      "wir": "erforschen",
+      "ihr": "erforscht",
+      "sie_Sie": "erforschen"
+    },
+    "preterite": {
+      "ich": "erforschte",
+      "du": "erforschtest",
+      "er_sie_es": "erforschte",
+      "wir": "erforschten",
+      "ihr": "erforschtet",
+      "sie_Sie": "erforschten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "erforscht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich erforsche die Ursachen des Klimawandels an den Polen.",
+      "translation": {
+        "ru": "Я исследую причины изменения климата на полюсах.",
+        "en": "I investigate the causes of climate change at the poles."
+      },
+      "bracket_parts": [
+        "erforsche"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erforschst du die Geschichte deiner Vorfahren im Kirchenarchiv?",
+      "translation": {
+        "ru": "Ты изучаешь историю своих предков в церковном архиве?",
+        "en": "Are you researching the history of your ancestors in the church archive?"
+      },
+      "bracket_parts": [
+        "Erforschst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Institut erforscht neue Behandlungsmethoden gegen Krebs.",
+      "translation": {
+        "ru": "Институт исследует новые методы лечения рака.",
+        "en": "The institute researches new treatment methods for cancer."
+      },
+      "bracket_parts": [
+        "erforscht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erforschen die faszinierende Unterwasserwelt der Ozeane.",
+      "translation": {
+        "ru": "Мы исследуем увлекательный подводный мир океанов.",
+        "en": "We explore the fascinating underwater world of the oceans."
+      },
+      "bracket_parts": [
+        "erforschen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erforscht ihr die Tierwelt im tropischen Regenwald?",
+      "translation": {
+        "ru": "Вы изучаете животный мир в тропическом дождевом лесу?",
+        "en": "Are you exploring the fauna in the tropical rainforest?"
+      },
+      "bracket_parts": [
+        "Erforscht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Entdecker erforschte unbekannte Regionen im Dschungel.",
+      "translation": {
+        "ru": "Первооткрыватель исследовал неизвестные регионы в джунглях.",
+        "en": "The explorer investigated unknown regions in the jungle."
+      },
+      "bracket_parts": [
+        "erforschte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Wissenschaftler haben das menschliche Genom weitgehend erforscht.",
+      "translation": {
+        "ru": "Ученые в значительной степени расшифровали и исследовали геном человека.",
+        "en": "Scientists have largely explored the human genome."
+      },
+      "bracket_parts": [
+        "haben",
+        "erforscht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erforsche die Welt mit neugierigen Augen und wachem Verstand!",
+      "translation": {
+        "ru": "Исследуй мир любопытными глазами и острым умом!",
+        "en": "Explore the world with curious eyes and an alert mind!"
+      },
+      "bracket_parts": [
+        "Erforsche"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

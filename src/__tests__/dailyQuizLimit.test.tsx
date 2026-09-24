@@ -133,5 +133,93 @@ describe('DailyQuizLimit Component & Hook', () => {
       // Navigation did not happen immediately because modal is open
       expect(mockNavigate).not.toHaveBeenCalled();
     });
+
+    it('should block navigation for free user when attempting A2, B1, or B2 quiz', async () => {
+      const mockNavigate = jest.fn();
+      const navigation = { navigate: mockNavigate };
+
+      const { result } = renderHook(() => useNavigateToQuiz(navigation));
+
+      await act(async () => {
+        await result.current.navigateToQuiz({ infinitive: 'verstehen', level: 'A2' });
+      });
+
+      expect(mockNavigate).not.toHaveBeenCalled();
+    });
+
+    it('should allow free users to navigate to category verbs 1 to 10', async () => {
+      const mockNavigate = jest.fn();
+      const navigation = { navigate: mockNavigate };
+
+      const { result } = renderHook(() => useNavigateToQuiz(navigation));
+
+      await act(async () => {
+        await result.current.navigateToQuiz({
+          infinitive: 'gehen',
+          level: 'A1',
+          categoryId: 'movement',
+          fromIndex: 5,
+        });
+      });
+
+      expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
+        infinitive: 'gehen',
+        level: 'A1',
+        categoryId: 'movement',
+        fromIndex: 5,
+      });
+    });
+
+    it('should block navigation for free users on category verbs > 10 and category checkpoints', async () => {
+      const mockNavigate = jest.fn();
+      const navigation = { navigate: mockNavigate };
+
+      const { result } = renderHook(() => useNavigateToQuiz(navigation));
+
+      // Verb > 10
+      await act(async () => {
+        await result.current.navigateToQuiz({
+          infinitive: 'reisen',
+          level: 'A2',
+          categoryId: 'movement',
+          fromIndex: 11,
+        });
+      });
+      expect(mockNavigate).not.toHaveBeenCalled();
+
+      // Checkpoint in category
+      await act(async () => {
+        await result.current.navigateToQuiz({
+          isCheckpoint: true,
+          checkpointId: 'category-movement-final',
+          categoryId: 'movement',
+        });
+      });
+      expect(mockNavigate).not.toHaveBeenCalled();
+    });
+
+    it('should allow navigation for premium users on category verbs > 10 and checkpoints', async () => {
+      setPremiumEnabled(true);
+      const mockNavigate = jest.fn();
+      const navigation = { navigate: mockNavigate };
+
+      const { result } = renderHook(() => useNavigateToQuiz(navigation));
+
+      await act(async () => {
+        await result.current.navigateToQuiz({
+          infinitive: 'reisen',
+          level: 'A2',
+          categoryId: 'movement',
+          fromIndex: 11,
+        });
+      });
+
+      expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
+        infinitive: 'reisen',
+        level: 'A2',
+        categoryId: 'movement',
+        fromIndex: 11,
+      });
+    });
   });
 });

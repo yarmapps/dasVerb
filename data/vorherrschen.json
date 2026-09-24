@@ -1,0 +1,149 @@
+{
+  "id": "vorherrschen",
+  "infinitive": "vorherrschen",
+  "translation": {
+    "ru": "преобладать, господствовать",
+    "en": "to predominate, to prevail"
+  },
+  "level": "B2",
+  "frequency_rank": 1032,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "herrscht vor",
+    "preterite_third_singular": "herrschte vor",
+    "past_participle": "vorgeherrscht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "herrsche vor",
+      "du": "herrschst vor",
+      "er_sie_es": "herrscht vor",
+      "wir": "herrschen vor",
+      "ihr": "herrscht vor",
+      "sie_Sie": "herrschen vor"
+    },
+    "preterite": {
+      "ich": "herrschte vor",
+      "du": "herrschtest vor",
+      "er_sie_es": "herrschte vor",
+      "wir": "herrschten vor",
+      "ihr": "herrschtet vor",
+      "sie_Sie": "herrschten vor"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "vorgeherrscht"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "In diesem Unternehmen herrscht ein ausgesprochen freundliches Arbeitsklima vor.",
+      "translation": {
+        "ru": "В этой компании преобладает исключительно дружелюбная рабочая атмосфера.",
+        "en": "An extremely friendly working atmosphere prevails in this company."
+      },
+      "bracket_parts": [
+        "herrscht",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Herrschst du als Meinungsmacher in deiner Online-Community immer noch vor?",
+      "translation": {
+        "ru": "Доминируешь (преобладаешь) ли ты как лидер мнений в своем онлайн-сообществе?",
+        "en": "Do you still predominate as an opinion leader in your online community?"
+      },
+      "bracket_parts": [
+        "Herrschst",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "In den Sommermonaten herrscht an der Küste trockenes und warmes Wetter vor.",
+      "translation": {
+        "ru": "В летние месяцы на побережье преобладает сухая и теплая погода.",
+        "en": "In the summer months, dry and warm weather predominates on the coast."
+      },
+      "bracket_parts": [
+        "herrscht",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "In unserer Fraktion herrschen liberale und fortschrittliche Ansichten vor.",
+      "translation": {
+        "ru": "В нашей фракции преобладают либеральные и прогрессивные взгляды.",
+        "en": "Liberal and progressive views prevail in our faction."
+      },
+      "bracket_parts": [
+        "herrschen",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Herrscht in eurem Team stets ein konstruktiver Geist der Zusammenarbeit vor?",
+      "translation": {
+        "ru": "Преобладает ли в вашей команде всегда конструктивный дух сотрудничества?",
+        "en": "Does a constructive spirit of cooperation always prevail in your team?"
+      },
+      "bracket_parts": [
+        "Herrscht",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Im Mittelalter herrschte tiefer Aberglaube in weiten Teilen Europas vor.",
+      "translation": {
+        "ru": "В Средние века в большей части Европы господствовало глубокое суеверие.",
+        "en": "In the Middle Ages, deep superstition predominated in large parts of Europe."
+      },
+      "bracket_parts": [
+        "herrschte",
+        "vor"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Unter den Bürgern hat nach der Wahl große Erleichterung vorgeherrscht.",
+      "translation": {
+        "ru": "Среди граждан после выборов преобладало огромное облегчение.",
+        "en": "Great relief prevailed among citizens after the election."
+      },
+      "bracket_parts": [
+        "hat",
+        "vorgeherrscht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Sorge dafür, dass Fairness und Gerechtigkeit in deiner Gruppe stets vorherrschen!",
+      "translation": {
+        "ru": "Позаботься о том, чтобы справедливость и честность всегда преобладали в твоей группе!",
+        "en": "Ensure that fairness and justice always prevail in your group!"
+      },
+      "bracket_parts": [
+        "vorherrschen"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

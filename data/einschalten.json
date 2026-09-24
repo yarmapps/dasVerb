@@ -1,0 +1,154 @@
+{
+  "id": "einschalten",
+  "infinitive": "einschalten",
+  "translation": {
+    "ru": "включать (прибор/свет), привлекать (юриста/полицию)",
+    "en": "to switch on, to turn on, to involve (lawyer)"
+  },
+  "level": "A1",
+  "frequency_rank": 684,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einschalten",
+    "present_3sg": "schaltet ein",
+    "praeteritum_3sg": "schaltete ein",
+    "partizip_2": "eingeschaltet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schalte ein",
+      "du": "schaltest ein",
+      "er_sie_es": "schaltet ein",
+      "wir": "schalten ein",
+      "ihr": "schaltet ein",
+      "sie_Sie": "schalten ein"
+    },
+    "praeteritum": {
+      "ich": "schaltete ein",
+      "du": "schaltetest ein",
+      "er_sie_es": "schaltete ein",
+      "wir": "schalteten ein",
+      "ihr": "schaltetet ein",
+      "sie_Sie": "schalteten ein"
+    },
+    "perfekt": {
+      "ich": "habe eingeschaltet",
+      "du": "hast eingeschaltet",
+      "er_sie_es": "hat eingeschaltet",
+      "wir": "haben eingeschaltet",
+      "ihr": "habt eingeschaltet",
+      "sie_Sie": "haben eingeschaltet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich schalte die Kaffeemaschine morgens als Erstes ein.",
+      "translation": {
+        "ru": "Я включаю кофемашину утром первым делом.",
+        "en": "I turn on the coffee machine first thing in the morning."
+      },
+      "bracket_parts": [
+        "schalte",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schaltest du bitte das Licht im Flur ein?",
+      "translation": {
+        "ru": "Включишь, пожалуйста, свет в коридоре?",
+        "en": "Will you please turn on the light in the hallway?"
+      },
+      "bracket_parts": [
+        "Schaltest",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Nachbar schaltet bei Lärm sofort die Polizei ein.",
+      "translation": {
+        "ru": "Сосед при шуме сразу привлекает полицию.",
+        "en": "The neighbor involves the police immediately when there is noise."
+      },
+      "bracket_parts": [
+        "schaltet",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schalten den Computer für die Arbeit ein.",
+      "translation": {
+        "ru": "Мы включаем компьютер для работы.",
+        "en": "We turn on the computer for work."
+      },
+      "bracket_parts": [
+        "schalten",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr schaltet das Radio für die Nachrichten ein.",
+      "translation": {
+        "ru": "Вы включаете радио ради новостей.",
+        "en": "You turn on the radio for the news."
+      },
+      "bracket_parts": [
+        "schaltet",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er schaltete damals bei dem Streit einen Anwalt ein.",
+      "translation": {
+        "ru": "Он тогда привлек адвоката в этом споре.",
+        "en": "He involved a lawyer in the dispute back then."
+      },
+      "bracket_parts": [
+        "schaltete",
+        "ein"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Hast du den Fernseher schon für die Sendung eingeschaltet?",
+      "translation": {
+        "ru": "Ты уже включил телевизор для передачи?",
+        "en": "Have you turned on the TV for the show already?"
+      },
+      "bracket_parts": [
+        "Hast",
+        "eingeschaltet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schalte bitte die Heizung im Wohnzimmer ein!",
+      "translation": {
+        "ru": "Включи, пожалуйста, отопление в гостиной!",
+        "en": "Please turn on the heating in the living room!"
+      },
+      "bracket_parts": [
+        "Schalte",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

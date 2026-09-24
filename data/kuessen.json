@@ -1,0 +1,147 @@
+{
+  "id": "kuessen",
+  "infinitive": "küssen",
+  "translation": {
+    "ru": "целовать, целоваться (sich küssen)",
+    "en": "to kiss"
+  },
+  "level": "A1",
+  "frequency_rank": 689,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "küssen",
+    "present_3sg": "küsst",
+    "praeteritum_3sg": "küsste",
+    "partizip_2": "geküsst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "küsse",
+      "du": "küsst",
+      "er_sie_es": "küsst",
+      "wir": "küssen",
+      "ihr": "küsst",
+      "sie_Sie": "küssen"
+    },
+    "praeteritum": {
+      "ich": "küsste",
+      "du": "küsstest",
+      "er_sie_es": "küsste",
+      "wir": "küssten",
+      "ihr": "küsstet",
+      "sie_Sie": "küssten"
+    },
+    "perfekt": {
+      "ich": "habe geküsst",
+      "du": "hast geküsst",
+      "er_sie_es": "hat geküsst",
+      "wir": "haben geküsst",
+      "ihr": "habt geküsst",
+      "sie_Sie": "haben geküsst"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich küsse meine Tochter jeden Abend vor dem Schlafengehen.",
+      "translation": {
+        "ru": "Я целую дочку каждый вечер перед сном.",
+        "en": "I kiss my daughter every evening before going to sleep."
+      },
+      "bracket_parts": [
+        "küsse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Küsst du deinen Partner zum Abschied am Bahnhof?",
+      "translation": {
+        "ru": "Ты целуешь своего партнера на прощание на вокзале?",
+        "en": "Do you kiss your partner goodbye at the station?"
+      },
+      "bracket_parts": [
+        "Küsst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Mutter küsst ihr Baby zärtlich auf die Stirn.",
+      "translation": {
+        "ru": "Мать нежно целует своего младенца в лобик.",
+        "en": "The mother tenderly kisses her baby on the forehead."
+      },
+      "bracket_parts": [
+        "küsst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir küssen uns herzlich zur Begrüßung.",
+      "translation": {
+        "ru": "Мы тепло целуем друг друга при встрече.",
+        "en": "We kiss each other warmly in greeting."
+      },
+      "bracket_parts": [
+        "küssen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr küsst euch verliebt unter dem Sternenhimmel.",
+      "translation": {
+        "ru": "Вы влюбленно целуетесь под звездным небом.",
+        "en": "You kiss each other lovingly under the starry sky."
+      },
+      "bracket_parts": [
+        "küsst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Brautpaar küsste sich damals nach dem Ja-Wort.",
+      "translation": {
+        "ru": "Новобрачные тогда поцеловались после слов согласия.",
+        "en": "The bridal couple kissed back then after saying their vows."
+      },
+      "bracket_parts": [
+        "küsste"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Er hat sie gestern zum ersten Mal zärtlich geküsst.",
+      "translation": {
+        "ru": "Он вчера впервые нежно поцеловал её.",
+        "en": "He kissed her tenderly for the first time yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "geküsst"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Küss mich und sag mir die Wahrheit!",
+      "translation": {
+        "ru": "Поцелуй меня и скажи мне правду!",
+        "en": "Kiss me and tell me the truth!"
+      },
+      "bracket_parts": [
+        "Küss"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

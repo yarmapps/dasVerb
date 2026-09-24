@@ -1,0 +1,137 @@
+{
+  "id": "vermindern",
+  "infinitive": "vermindern",
+  "translation": {
+    "ru": "уменьшать, сокращать, снижать",
+    "en": "to reduce, to decrease, to diminish"
+  },
+  "level": "B2",
+  "frequency_rank": 968,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "vermindert",
+    "preterite_third_singular": "verminderte",
+    "past_participle": "vermindert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vermindere",
+      "du": "verminderst",
+      "er_sie_es": "vermindert",
+      "wir": "vermindern",
+      "ihr": "vermindert",
+      "sie_Sie": "vermindern"
+    },
+    "preterite": {
+      "ich": "verminderte",
+      "du": "vermindertest",
+      "er_sie_es": "verminderte",
+      "wir": "verminderten",
+      "ihr": "vermindertet",
+      "sie_Sie": "verminderten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "vermindert"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich vermindere meinen Stromverbrauch durch den Einsatz von LED-Lampen.",
+      "translation": {
+        "ru": "Я уменьшаю потребление электроэнергии с помощью светодиодных ламп.",
+        "en": "I reduce my power consumption through the use of LED lamps."
+      },
+      "bracket_parts": [
+        "vermindere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verminderst du das Unfallrisiko durch vorsichtiges Fahren bei Regen?",
+      "translation": {
+        "ru": "Снижаешь ли ты риск аварии осторожной ездой в дождь?",
+        "en": "Do you reduce the accident risk by driving carefully in rain?"
+      },
+      "bracket_parts": [
+        "Verminderst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die neue Dämmung vermindert den Wärmeverlust des Gebäudes deutlich.",
+      "translation": {
+        "ru": "Новая изоляция существенно уменьшает потери тепла в здании.",
+        "en": "The new insulation significantly reduces the heat loss of the building."
+      },
+      "bracket_parts": [
+        "vermindert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir vermindern den Ausstoß von schädlichen Treibhausgasen nachhaltig.",
+      "translation": {
+        "ru": "Мы устойчиво сокращаем выбросы вредных парниковых газов.",
+        "en": "We reduce greenhouse gas emissions sustainably."
+      },
+      "bracket_parts": [
+        "vermindern"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vermindert ihr die Produktionskosten durch automatisierte Prozesse?",
+      "translation": {
+        "ru": "Снижаете ли вы производственные затраты за счет автоматизации процессов?",
+        "en": "Are you guys reducing production costs through automated processes?"
+      },
+      "bracket_parts": [
+        "Vermindert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Tempolimit verminderte die Zahl der schweren Verkehrsunfälle.",
+      "translation": {
+        "ru": "Ограничение скорости снизило число тяжелых дорожно-транспортных происшествий.",
+        "en": "The speed limit reduced the number of severe traffic accidents."
+      },
+      "bracket_parts": [
+        "verminderte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Training hat das Verletzungsrisiko der Sportler spürbar vermindert.",
+      "translation": {
+        "ru": "Тренировки ощутимо снизили риск травм у спортсменов.",
+        "en": "Training noticeably reduced the athletes' injury risk."
+      },
+      "bracket_parts": [
+        "hat",
+        "vermindert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Vermindere deinen täglichen Plastikmüll Schritt für Schritt!",
+      "translation": {
+        "ru": "Сокращай свой ежедневный пластиковый мусор шаг за шагом!",
+        "en": "Reduce your daily plastic waste step by step!"
+      },
+      "bracket_parts": [
+        "Vermindere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

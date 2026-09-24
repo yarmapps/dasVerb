@@ -1,0 +1,144 @@
+{
+  "id": "zurueckgeben",
+  "infinitive": "zurückgeben",
+  "translation": {
+    "ru": "возвращать, отдавать обратно",
+    "en": "to return, to give back"
+  },
+  "level": "A2",
+  "frequency_rank": 971,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "gibt zurück",
+    "preterite_third_singular": "gab zurück",
+    "past_participle": "zurückgegeben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gebe zurück",
+      "du": "gibst zurück",
+      "er_sie_es": "gibt zurück",
+      "wir": "geben zurück",
+      "ihr": "gebt zurück",
+      "sie_Sie": "geben zurück"
+    },
+    "preterite": {
+      "ich": "gab zurück",
+      "du": "gabst zurück",
+      "er_sie_es": "gab zurück",
+      "wir": "gaben zurück",
+      "ihr": "gabt zurück",
+      "sie_Sie": "gaben zurück"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "zurückgegeben"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich gebe das geliehene Buch morgen pünktlich in der Bibliothek zurück.",
+      "translation": {
+        "ru": "Завтра я вовремя верну взятую книгу в библиотеку.",
+        "en": "I will return the borrowed book to the library on time tomorrow."
+      },
+      "bracket_parts": [
+        "gebe",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gibst du mir meinen Autoschlüssel nach der Fahrt gleich zurück?",
+      "translation": {
+        "ru": "Ты сразу вернешь мне ключ от машины после поездки?",
+        "en": "Will you give me my car key back right after the drive?"
+      },
+      "bracket_parts": [
+        "Gibst",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Kunde gibt das beschädigte Kleidungsstück im Geschäft zurück.",
+      "translation": {
+        "ru": "Покупатель возвращает поврежденный предмет одежды в магазин.",
+        "en": "The customer returns the damaged piece of clothing to the store."
+      },
+      "bracket_parts": [
+        "gibt",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir geben den Mietwagen mit vollem Tank am Schalter zurück.",
+      "translation": {
+        "ru": "Мы сдаем арендованную машину с полным баком на стойке.",
+        "en": "We return the rental car with a full tank at the counter."
+      },
+      "bracket_parts": [
+        "geben",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gebt ihr die geliehenen Werkzeuge heute Abend wieder zurück?",
+      "translation": {
+        "ru": "Вернете ли вы одолженные инструменты сегодня вечером обратно?",
+        "en": "Are you guys returning the borrowed tools this evening?"
+      },
+      "bracket_parts": [
+        "Gebt",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er gab dem Finder eine großzügige Belohnung für die Geldbörse zurück.",
+      "translation": {
+        "ru": "Он вернул нашедшему щедрое вознаграждение за кошелек.",
+        "en": "He gave the finder a generous reward for returning the wallet."
+      },
+      "bracket_parts": [
+        "gab",
+        "zurück"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Ich habe alle geliehenen Sachen ordnungsgemäß zurückgegeben.",
+      "translation": {
+        "ru": "Я вернул все одолженные вещи в надлежащем порядке.",
+        "en": "I have properly returned all borrowed items."
+      },
+      "bracket_parts": [
+        "habe",
+        "zurückgegeben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gib bitte das ausgeliehene Geld so bald wie möglich zurück!",
+      "translation": {
+        "ru": "Верни, пожалуйста, одолженные деньги как можно скорее!",
+        "en": "Please return the borrowed money as soon as possible!"
+      },
+      "bracket_parts": [
+        "Gib",
+        "zurück"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

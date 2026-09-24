@@ -412,7 +412,7 @@ dasVerb/
    * Размещается на экране практики `PracticeScreen` строго между карточкой смарт-алгоритма (`SmartQuizCard`) и остальными режимами.
    * Скрывается для Premium-пользователей (`isPremium`) и при отключенном флаге `ENABLE_ADS`.
 3. **Редизайн главного экрана (`PracticeScreen`):**
-   * Порядок блоков: `FeaturedStartCard` $\rightarrow$ `SmartQuizCard` $\rightarrow$ `PracticeNativeAdCard` $\rightarrow$ Сетка 2x2 (`PrefixPracticeCard` + `ConjugationPracticeCard` / `VerbFormsPracticeCard` + `PrepositionPracticeCard`) $\rightarrow$ `ThematicCategoriesSection`.
+   * Порядок блоков: `FeaturedStartCard` $\rightarrow$ `SmartQuizCard` $\rightarrow$ `PracticeNativeAdCard` $\rightarrow$ Сетка 2x2 (`ConjugationPracticeCard` + `VerbFormsPracticeCard` / `PrepositionPracticeCard` + `PrefixPracticeCard`) $\rightarrow$ `ThematicCategoriesSection`.
    * Карточки очищены от всех теней (`shadowColor`, `shadowOffset`, `shadowOpacity`, `shadowRadius`, `elevation`) для строгого плоского дизайна.
 
 ---

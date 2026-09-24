@@ -1,0 +1,150 @@
+{
+  "id": "freigeben",
+  "infinitive": "freigeben",
+  "translation": {
+    "ru": "давать доступ, одобрять, разблокировать, открывать (движение)",
+    "en": "to release, to approve, to unblock, to authorize"
+  },
+  "level": "B1",
+  "frequency_rank": 951,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "gibt frei",
+    "preterite_third_singular": "gab frei",
+    "past_participle": "freigegeben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gebe frei",
+      "du": "gibst frei",
+      "er_sie_es": "gibt frei",
+      "wir": "geben frei",
+      "ihr": "gebt frei",
+      "sie_Sie": "geben frei"
+    },
+    "preterite": {
+      "ich": "gab frei",
+      "du": "gabst frei",
+      "er_sie_es": "gab frei",
+      "wir": "gaben frei",
+      "ihr": "gabt frei",
+      "sie_Sie": "gaben frei"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "freigegeben"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "für",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich gebe den geteilten Ordner für alle Projektmitglieder frei.",
+      "translation": {
+        "ru": "Я открываю доступ к общей папке для всех участников проекта.",
+        "en": "I share/release the shared folder for all project members."
+      },
+      "bracket_parts": [
+        "gebe",
+        "frei"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gibst du das Dokument nach der Korrektur für den Druck frei?",
+      "translation": {
+        "ru": "Ты одобряешь документ в печать после корректуры?",
+        "en": "Do you approve the document for printing after proofreading?"
+      },
+      "bracket_parts": [
+        "Gibst",
+        "frei"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Behörde gibt die neue Autobahnbrücke für den Verkehr frei.",
+      "translation": {
+        "ru": "Ведомство открывает новый мост на автобане для движения.",
+        "en": "The authority opens the new highway bridge to traffic."
+      },
+      "bracket_parts": [
+        "gibt",
+        "frei"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir geben das neue Software-Update nach erfolgreichen Tests frei.",
+      "translation": {
+        "ru": "Мы выпускаем новое обновление софта после успешных тестов.",
+        "en": "We release the new software update after successful tests."
+      },
+      "bracket_parts": [
+        "geben",
+        "frei"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gebt ihr die gesperrten Parkplätze für die Besucher frei?",
+      "translation": {
+        "ru": "Вы открываете закрытые парковочные места для посетителей?",
+        "en": "Are you guys releasing the blocked parking spots for visitors?"
+      },
+      "bracket_parts": [
+        "Gebt",
+        "frei"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schiedsrichter gab den Ball nach der Unterbrechung wieder frei.",
+      "translation": {
+        "ru": "Судья снова разрешил ввести мяч в игру после паузы.",
+        "en": "The referee released the ball again after the interruption."
+      },
+      "bracket_parts": [
+        "gab",
+        "frei"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Zensurbehörde hat den Film endlich für Jugendliche freigegeben.",
+      "translation": {
+        "ru": "Цензура наконец разрешила фильм для подростков.",
+        "en": "The censorship authority has finally approved the film for teenagers."
+      },
+      "bracket_parts": [
+        "hat",
+        "freigegeben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gib bitte den Entwurf zur Veröffentlichung frei!",
+      "translation": {
+        "ru": "Одобри, пожалуйста, черновик к публикации!",
+        "en": "Please release the draft for publication!"
+      },
+      "bracket_parts": [
+        "Gib",
+        "frei"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

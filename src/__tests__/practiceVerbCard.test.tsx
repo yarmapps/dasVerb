@@ -78,4 +78,28 @@ describe('PracticeVerbCard', () => {
     );
     expect(queryByText('12')).toBeNull();
   });
+
+  it('renders lock icon when isLocked is true and hides index number', () => {
+    const handlePress = jest.fn();
+    const { getByText, queryByText, getByTestId } = render(
+      <Wrapper>
+        <PracticeVerbCard
+          infinitive="verstehen"
+          translation="to understand"
+          level="A2"
+          globalIndex={1}
+          status="uncompleted"
+          isLocked={true}
+          onPress={handlePress}
+          testID="verb-card-verstehen"
+        />
+      </Wrapper>,
+    );
+
+    expect(getByText('verstehen')).toBeTruthy();
+    expect(queryByText('1')).toBeNull();
+
+    fireEvent.press(getByTestId('verb-card-verstehen'));
+    expect(handlePress).toHaveBeenCalledWith('verstehen', 'A2');
+  });
 });

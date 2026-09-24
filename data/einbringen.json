@@ -1,0 +1,178 @@
+{
+  "id": "einbringen",
+  "infinitive": "einbringen",
+  "translation": {
+    "ru": "вносить (вклад), приносить (доход), внедрять",
+    "en": "to bring in, yield, contribute"
+  },
+  "level": "B1",
+  "frequency_rank": 551,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "mixed",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einbringen",
+    "present_3sg": "bringt ein",
+    "praeteritum_3sg": "brachte ein",
+    "partizip_2": "eingebracht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bringe ein",
+      "du": "bringst ein",
+      "er_sie_es": "bringt ein",
+      "wir": "bringen ein",
+      "ihr": "bringt ein",
+      "sie_Sie": "bringen ein"
+    },
+    "praeteritum": {
+      "ich": "brachte ein",
+      "du": "brachtest ein",
+      "er_sie_es": "brachte ein",
+      "wir": "brachten ein",
+      "ihr": "brachtet ein",
+      "sie_Sie": "brachten ein"
+    },
+    "perfekt": {
+      "ich": "habe eingebracht",
+      "du": "hast eingebracht",
+      "er_sie_es": "hat eingebracht",
+      "wir": "haben eingebracht",
+      "ihr": "habt eingebracht",
+      "sie_Sie": "haben eingebracht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich bringe meine langjährige Erfahrung voll in das Team ein.",
+      "translation": {
+        "ru": "Я в полной мере вношу свой многолетний опыт в работу команды.",
+        "en": "I bring my many years of experience fully into the team."
+      },
+      "bracket_parts": [
+        "bringe",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "meine langjährige Erfahrung"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du bringst viele kreative Ideen in das Projekt ein.",
+      "translation": {
+        "ru": "Ты привносишь в проект множество творческих идей.",
+        "en": "You contribute many creative ideas to the project."
+      },
+      "bracket_parts": [
+        "bringst",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "viele kreative Ideen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die rentable Geldanlage bringt einen hohen Zinsertrag ein.",
+      "translation": {
+        "ru": "Выгодное вложение приносит высокий процентный доход.",
+        "en": "The profitable investment yields a high interest income."
+      },
+      "bracket_parts": [
+        "bringt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "einen hohen Zinsertrag"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bringen einen neuen Gesetzesentwurf ins Parlament ein.",
+      "translation": {
+        "ru": "Мы вносим новый законопроект в парламент.",
+        "en": "We introduce a new draft law into parliament."
+      },
+      "bracket_parts": [
+        "bringen",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "einen neuen Gesetzesentwurf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr bringt euer Fachwissen gewinnbringend in die Diskussion ein.",
+      "translation": {
+        "ru": "Вы с пользой привносите свои экспертные знания в дискуссию.",
+        "en": "You contribute your expertise profitably to the discussion."
+      },
+      "bracket_parts": [
+        "bringt",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "euer Fachwissen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Verkauf des Grundstücks brachte damals eine große Summe ein.",
+      "translation": {
+        "ru": "Продажа участка принесла тогда крупную сумму денег.",
+        "en": "The sale of the property brought in a large sum back then."
+      },
+      "bracket_parts": [
+        "brachte",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "eine große Summe"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Ernte hat dieses Jahr einen hervorragenden Ertrag eingebracht.",
+      "translation": {
+        "ru": "Урожай в этом году принес великолепную отдачу.",
+        "en": "The harvest brought in an excellent yield this year."
+      },
+      "bracket_parts": [
+        "hat",
+        "eingebracht"
+      ],
+      "akkusativ_parts": [
+        "einen hervorragenden Ertrag"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bring deine wertvollen Vorschläge mutig in die Runde ein!",
+      "translation": {
+        "ru": "Смело вноси свои ценные предложения на обсуждение!",
+        "en": "Bravely contribute your valuable suggestions to the group!"
+      },
+      "bracket_parts": [
+        "Bring",
+        "ein"
+      ],
+      "akkusativ_parts": [
+        "deine wertvollen Vorschläge"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

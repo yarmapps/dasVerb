@@ -1,0 +1,138 @@
+{
+  "id": "beschleunigen",
+  "infinitive": "beschleunigen",
+  "translation": {
+    "ru": "ускорять, разгонять",
+    "en": "to accelerate, to speed up"
+  },
+  "level": "B2",
+  "frequency_rank": 780,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "beschleunigt",
+    "preterite_third_singular": "beschleunigte",
+    "past_participle": "beschleunigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beschleunige",
+      "du": "beschleunigst",
+      "er_sie_es": "beschleunigt",
+      "wir": "beschleunigen",
+      "ihr": "beschleunigt",
+      "sie_Sie": "beschleunigen"
+    },
+    "preterite": {
+      "ich": "beschleunigte",
+      "du": "beschleunigtest",
+      "er_sie_es": "beschleunigte",
+      "wir": "beschleunigten",
+      "ihr": "beschleunigtet",
+      "sie_Sie": "beschleunigten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "beschleunigt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich beschleunige das Auto auf der Autobahnauffahrt.",
+      "translation": {
+        "ru": "Я разгоняю автомобиль на въезде на автобан.",
+        "en": "I accelerate the car on the motorway slip road."
+      },
+      "bracket_parts": [
+        "beschleunige"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beschleunigst du deine Schritte, wenn es regnet?",
+      "translation": {
+        "ru": "Ты ускоряешь шаг, когда идет дождь?",
+        "en": "Do you speed up your pace when it rains?"
+      },
+      "bracket_parts": [
+        "Beschleunigst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der neue Prozessor beschleunigt alle Arbeitsprozesse.",
+      "translation": {
+        "ru": "Новый процессор ускоряет все рабочие процессы.",
+        "en": "The new processor speeds up all work processes."
+      },
+      "bracket_parts": [
+        "beschleunigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beschleunigen die Bearbeitung der Anträge.",
+      "translation": {
+        "ru": "Мы ускоряем обработку заявлений.",
+        "en": "We speed up the processing of applications."
+      },
+      "bracket_parts": [
+        "beschleunigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beschleunigt ihr die Entwicklung der neuen Software?",
+      "translation": {
+        "ru": "Вы ускоряете разработку новой программы?",
+        "en": "Are you accelerating the development of the new software?"
+      },
+      "bracket_parts": [
+        "Beschleunigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Sportler beschleunigte auf den letzten Metern enorm.",
+      "translation": {
+        "ru": "Спортсмен колоссально ускорился на последних метрах.",
+        "en": "The athlete accelerated enormously on the last meters."
+      },
+      "bracket_parts": [
+        "beschleunigte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Moderne Technologien haben das Wirtschaftswachstum stark beschleunigt.",
+      "translation": {
+        "ru": "Современные технологии сильно ускорили экономический рост.",
+        "en": "Modern technologies have greatly accelerated economic growth."
+      },
+      "bracket_parts": [
+        "haben",
+        "beschleunigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Beschleunige bitte das Tempo, wir haben wenig Zeit!",
+      "translation": {
+        "ru": "Ускорь, пожалуйста, темп, у нас мало времени!",
+        "en": "Please pick up the pace, we have little time!"
+      },
+      "bracket_parts": [
+        "Beschleunige"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

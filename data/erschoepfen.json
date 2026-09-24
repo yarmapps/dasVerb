@@ -1,0 +1,138 @@
+{
+  "id": "erschoepfen",
+  "infinitive": "erschöpfen",
+  "translation": {
+    "ru": "истощать, исчерпывать, утомлять",
+    "en": "to exhaust, to deplete"
+  },
+  "level": "B2",
+  "frequency_rank": 914,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "erschöpft",
+    "preterite_third_singular": "erschöpfte",
+    "past_participle": "erschöpft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erschöpfe",
+      "du": "erschöpfst",
+      "er_sie_es": "erschöpft",
+      "wir": "erschöpfen",
+      "ihr": "erschöpft",
+      "sie_Sie": "erschöpfen"
+    },
+    "preterite": {
+      "ich": "erschöpfte",
+      "du": "erschöpftest",
+      "er_sie_es": "erschöpfte",
+      "wir": "erschöpften",
+      "ihr": "erschöpftet",
+      "sie_Sie": "erschöpften"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "erschöpft"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Die lange Reise erschöpft meine letzten körperlichen Kräfte.",
+      "translation": {
+        "ru": "Долгая поездка истощает мои последние физические силы.",
+        "en": "The long journey exhausts my last physical strength."
+      },
+      "bracket_parts": [
+        "erschöpft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erschöpfst du deine finanziellen Reserven mit diesem teuren Kauf?",
+      "translation": {
+        "ru": "Ты исчерпываешь свои финансовые резервы этой дорогой покупкой?",
+        "en": "Are you depleting your financial reserves with this expensive purchase?"
+      },
+      "bracket_parts": [
+        "Erschöpfst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die schwere Krankheit erschöpft den alten Mann von Tag zu Tag mehr.",
+      "translation": {
+        "ru": "Тяжелая болезнь истощает старика день ото дня все сильнее.",
+        "en": "The severe illness exhausts the old man more and more from day to day."
+      },
+      "bracket_parts": [
+        "erschöpft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erschöpfen alle juristischen Möglichkeiten vor Gericht.",
+      "translation": {
+        "ru": "Мы исчерпываем все юридические возможности в суде.",
+        "en": "We exhaust all legal possibilities in court."
+      },
+      "bracket_parts": [
+        "erschöpfen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erschöpft ihr eure Geduld bei diesen endlosen Diskussionen?",
+      "translation": {
+        "ru": "Вы исчерпываете свое терпение в этих бесконечных дискуссиях?",
+        "en": "Are you exhausting your patience in these endless discussions?"
+      },
+      "bracket_parts": [
+        "Erschöpft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der intensive Marathonlauf erschöpfte die Athleten vollkommen.",
+      "translation": {
+        "ru": "Интенсивный марафонский забег полностью истощил атлетов.",
+        "en": "The intense marathon run completely exhausted the athletes."
+      },
+      "bracket_parts": [
+        "erschöpfte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Bauprojekt hat das gesamte Budget vorzeitig erschöpft.",
+      "translation": {
+        "ru": "Строительный проект досрочно исчерпал весь бюджет.",
+        "en": "The construction project exhausted the entire budget prematurely."
+      },
+      "bracket_parts": [
+        "hat",
+        "erschöpft"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erschöpfe dich nicht mit sinnlosem Streit!",
+      "translation": {
+        "ru": "Не истощай себя бессмысленными спорами!",
+        "en": "Do not exhaust yourself with pointless arguments!"
+      },
+      "bracket_parts": [
+        "Erschöpfe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

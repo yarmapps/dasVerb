@@ -1,0 +1,138 @@
+{
+  "id": "loeschen",
+  "infinitive": "löschen",
+  "translation": {
+    "ru": "тушить (огонь), стирать/удалять (данные)",
+    "en": "to extinguish, to put out, to delete"
+  },
+  "level": "A2",
+  "frequency_rank": 874,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "löscht",
+    "preterite_third_singular": "löschte",
+    "past_participle": "gelöscht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lösche",
+      "du": "löschst",
+      "er_sie_es": "löscht",
+      "wir": "löschen",
+      "ihr": "löscht",
+      "sie_Sie": "löschen"
+    },
+    "preterite": {
+      "ich": "löschte",
+      "du": "löschtest",
+      "er_sie_es": "löschte",
+      "wir": "löschten",
+      "ihr": "löschtet",
+      "sie_Sie": "löschten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gelöscht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich lösche alle alten E-Mails aus meinem Postfach.",
+      "translation": {
+        "ru": "Я удаляю все старые письма из своего почтового ящика.",
+        "en": "I delete all old emails from my mailbox."
+      },
+      "bracket_parts": [
+        "lösche"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Löschst du die brennende Kerze vor dem Verlassen des Zimmers?",
+      "translation": {
+        "ru": "Ты тушишь горящую свечу перед уходом из комнаты?",
+        "en": "Do you put out the burning candle before leaving the room?"
+      },
+      "bracket_parts": [
+        "Löschst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Feuerwehr löscht den Brand im Wohnhaus schnell.",
+      "translation": {
+        "ru": "Пожарная охрана быстро тушит огонь в жилом доме.",
+        "en": "The fire department extinguishes the fire in the house quickly."
+      },
+      "bracket_parts": [
+        "löscht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir löschen ungenutzte Apps auf unseren Smartphones.",
+      "translation": {
+        "ru": "Мы удаляем неиспользуемые приложения на смартфонах.",
+        "en": "We delete unused apps on our smartphones."
+      },
+      "bracket_parts": [
+        "löschen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Löscht ihr die fehlerhaften Dateien vom Server?",
+      "translation": {
+        "ru": "Вы удаляете поврежденные файлы с сервера?",
+        "en": "Are you deleting the faulty files from the server?"
+      },
+      "bracket_parts": [
+        "Löscht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er löschte das Feuer im Garten mit einem Eimer Wasser.",
+      "translation": {
+        "ru": "Он потушил костер в саду ведром воды.",
+        "en": "He extinguished the fire in the garden with a bucket of water."
+      },
+      "bracket_parts": [
+        "löschte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben versehentlich ein wichtiges Dokument gelöscht.",
+      "translation": {
+        "ru": "Они случайно удалили важный документ.",
+        "en": "They inadvertently deleted an important document."
+      },
+      "bracket_parts": [
+        "haben",
+        "gelöscht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lösche das Licht, wenn du schlafen gehst!",
+      "translation": {
+        "ru": "Погаси свет, когда идешь спать!",
+        "en": "Turn off the light when you go to sleep!"
+      },
+      "bracket_parts": [
+        "Lösche"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "einlegen",
+  "infinitive": "einlegen",
+  "translation": {
+    "ru": "вкладывать, вставлять (диск), подавать (апелляцию), мариновать",
+    "en": "to insert, to lodge (appeal), to pickle/preserve"
+  },
+  "level": "B1",
+  "frequency_rank": 978,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "legt ein",
+    "preterite_third_singular": "legte ein",
+    "past_participle": "eingelegt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lege ein",
+      "du": "legst ein",
+      "er_sie_es": "legt ein",
+      "wir": "legen ein",
+      "ihr": "legt ein",
+      "sie_Sie": "legen ein"
+    },
+    "preterite": {
+      "ich": "legte ein",
+      "du": "legtest ein",
+      "er_sie_es": "legte ein",
+      "wir": "legten ein",
+      "ihr": "legtet ein",
+      "sie_Sie": "legten ein"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "eingelegt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich lege eine kurze Kaffeepause nach zwei Stunden Arbeit ein.",
+      "translation": {
+        "ru": "Я делаю короткий перерыв на кофе после двух часов работы.",
+        "en": "I take a short coffee break after two hours of work."
+      },
+      "bracket_parts": [
+        "lege",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Legst du gegen den Bußgeldbescheid fristgerecht Einspruch ein?",
+      "translation": {
+        "ru": "Подаешь ли ты возражение на штраф в установленный срок?",
+        "en": "Are you lodging an objection against the fine notice in due time?"
+      },
+      "bracket_parts": [
+        "Legst",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Anwalt legt Berufung gegen das erstinstanzliche Urteil ein.",
+      "translation": {
+        "ru": "Адвокат подает апелляцию на решение суда первой инстанции.",
+        "en": "The lawyer lodges an appeal against the first-instance judgment."
+      },
+      "bracket_parts": [
+        "legt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir legen im Sommer frische Gurken und Paprika im Glas ein.",
+      "translation": {
+        "ru": "Летом мы маринуем свежие огурцы и паприку в банках.",
+        "en": "In the summer, we pickle fresh cucumbers and peppers in jars."
+      },
+      "bracket_parts": [
+        "legen",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Legt ihr vor der anstrengenden Bergwanderung noch einen Ruhetag ein?",
+      "translation": {
+        "ru": "Делаете ли вы еще день отдыха перед трудным горным походом?",
+        "en": "Are you guys taking a rest day before the strenuous mountain hike?"
+      },
+      "bracket_parts": [
+        "Legt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Fahrer legte an der roten Ampel rechtzeitig den Rückwärtsgang ein.",
+      "translation": {
+        "ru": "Водитель вовремя включил заднюю передачу на красный свет.",
+        "en": "The driver engaged reverse gear at the red traffic light in time."
+      },
+      "bracket_parts": [
+        "legte",
+        "ein"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Team hat einen beeindruckenden Zwischensprint im Rennen eingelegt.",
+      "translation": {
+        "ru": "Команда сделала впечатляющий рывок в гонке.",
+        "en": "The team put in an impressive intermediate sprint in the race."
+      },
+      "bracket_parts": [
+        "hat",
+        "eingelegt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lege bitte die Speicherkarte vorsichtig in den Kartenslot ein!",
+      "translation": {
+        "ru": "Вставь, пожалуйста, карту памяти аккуратно в слот!",
+        "en": "Please insert the memory card carefully into the card slot!"
+      },
+      "bracket_parts": [
+        "Lege",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

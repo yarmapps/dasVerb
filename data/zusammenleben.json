@@ -1,0 +1,150 @@
+{
+  "id": "zusammenleben",
+  "infinitive": "zusammenleben",
+  "translation": {
+    "ru": "жить вместе, сожительствовать",
+    "en": "to live together, to cohabit"
+  },
+  "level": "A2",
+  "frequency_rank": 851,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "lebt zusammen",
+    "preterite_third_singular": "lebte zusammen",
+    "past_participle": "zusammengelebt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lebe zusammen",
+      "du": "lebst zusammen",
+      "er_sie_es": "lebt zusammen",
+      "wir": "leben zusammen",
+      "ihr": "lebt zusammen",
+      "sie_Sie": "leben zusammen"
+    },
+    "preterite": {
+      "ich": "lebte zusammen",
+      "du": "lebtest zusammen",
+      "er_sie_es": "lebte zusammen",
+      "wir": "lebten zusammen",
+      "ihr": "lebtet zusammen",
+      "sie_Sie": "lebten zusammen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "zusammengelebt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich lebe seit drei Jahren harmonisch mit meiner Freundin zusammen.",
+      "translation": {
+        "ru": "Я уже три года гармонично живу вместе со своей девушкой.",
+        "en": "I have been living together harmoniously with my girlfriend for three years."
+      },
+      "bracket_parts": [
+        "lebe",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lebst du gerne mit mehreren Mitbewohnern in der WG zusammen?",
+      "translation": {
+        "ru": "Тебе нравится жить вместе с несколькими соседями по квартире?",
+        "en": "Do you like living together with several flatmates in the shared apartment?"
+      },
+      "bracket_parts": [
+        "Lebst",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das junge Paar lebt glücklich in einer gemütlichen Wohnung zusammen.",
+      "translation": {
+        "ru": "Молодая пара счастливо живет вместе в уютной квартире.",
+        "en": "The young couple lives together happily in a cozy apartment."
+      },
+      "bracket_parts": [
+        "lebt",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir leben friedlich mit Menschen verschiedener Kulturen zusammen.",
+      "translation": {
+        "ru": "Мы мирно живем вместе с людьми разных культур.",
+        "en": "We live together peacefully with people of different cultures."
+      },
+      "bracket_parts": [
+        "leben",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lebt ihr schon lange in diesem Mehrfamilienhaus zusammen?",
+      "translation": {
+        "ru": "Вы уже долго живете вместе в этом многоквартирном доме?",
+        "en": "Have you guys been living together in this apartment building for a long time?"
+      },
+      "bracket_parts": [
+        "Lebt",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie lebten über vierzig Jahre glücklich zusammen.",
+      "translation": {
+        "ru": "Они счастливо прожили вместе более сорока лет.",
+        "en": "They lived together happily for over forty years."
+      },
+      "bracket_parts": [
+        "lebten",
+        "zusammen"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die beiden Studenten haben während des Studiums zusammengelebt.",
+      "translation": {
+        "ru": "Оба студента жили вместе во время учебы.",
+        "en": "The two students lived together during their studies."
+      },
+      "bracket_parts": [
+        "haben",
+        "zusammengelebt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lebt respektvoll und verständnisvoll miteinander zusammen!",
+      "translation": {
+        "ru": "Живите друг с другом уважительно и с пониманием!",
+        "en": "Live together with each other respectfully and understandingly!"
+      },
+      "bracket_parts": [
+        "Lebt",
+        "zusammen"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

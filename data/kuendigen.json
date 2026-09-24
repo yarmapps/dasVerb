@@ -1,0 +1,138 @@
+{
+  "id": "kuendigen",
+  "infinitive": "kündigen",
+  "translation": {
+    "ru": "увольнять, увольняться, расторгать",
+    "en": "to terminate, to resign, to cancel"
+  },
+  "level": "B1",
+  "frequency_rank": 711,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "kündigt",
+    "preterite_third_singular": "kündigte",
+    "past_participle": "gekündigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "kündige",
+      "du": "kündigst",
+      "er_sie_es": "kündigt",
+      "wir": "kündigen",
+      "ihr": "kündigt",
+      "sie_Sie": "kündigen"
+    },
+    "preterite": {
+      "ich": "kündigte",
+      "du": "kündigtest",
+      "er_sie_es": "kündigte",
+      "wir": "kündigten",
+      "ihr": "kündigtet",
+      "sie_Sie": "kündigten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gekündigt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich kündige meinen alten Handyvertrag zum Monatsende.",
+      "translation": {
+        "ru": "Я расторгаю свой старый мобильный контракт к концу месяца.",
+        "en": "I cancel my old mobile phone contract at the end of the month."
+      },
+      "bracket_parts": [
+        "kündige"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Kündigst du wirklich deine feste Arbeitsstelle?",
+      "translation": {
+        "ru": "Ты действительно увольняешься со своего постоянного места работы?",
+        "en": "Are you really quitting your permanent job?"
+      },
+      "bracket_parts": [
+        "Kündigst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Firma kündigt dem unzuverlässigen Mitarbeiter fristlos.",
+      "translation": {
+        "ru": "Фирма увольняет ненадежного сотрудника без предупреждения.",
+        "en": "The company terminates the unreliable employee without notice."
+      },
+      "bracket_parts": [
+        "kündigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir kündigen das Abonnement der Tageszeitung.",
+      "translation": {
+        "ru": "Мы отменяем подписку на ежедневную газету.",
+        "en": "We cancel the subscription to the daily newspaper."
+      },
+      "bracket_parts": [
+        "kündigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr kündigt eure Mietwohnung rechtzeitig vor dem Umzug.",
+      "translation": {
+        "ru": "Вы расторгаете договор аренды квартиры вовремя перед переездом.",
+        "en": "You terminate your rental apartment on time before moving."
+      },
+      "bracket_parts": [
+        "kündigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er kündigte seinen Vertrag vor zwei Wochen schriftlich.",
+      "translation": {
+        "ru": "Он расторг свой договор две недели назад в письменной форме.",
+        "en": "He terminated his contract two weeks ago in writing."
+      },
+      "bracket_parts": [
+        "kündigte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben die Mitgliedschaft im Verein gekündigt.",
+      "translation": {
+        "ru": "Они расторгли членство в клубе.",
+        "en": "They have canceled their membership in the club."
+      },
+      "bracket_parts": [
+        "haben",
+        "gekündigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Kündige die Versicherung so bald wie möglich!",
+      "translation": {
+        "ru": "Расторгни страховку как можно скорее!",
+        "en": "Cancel the insurance as soon as possible!"
+      },
+      "bracket_parts": [
+        "Kündige"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

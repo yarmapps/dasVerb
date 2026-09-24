@@ -1,0 +1,171 @@
+{
+  "id": "ruehren",
+  "infinitive": "rühren",
+  "translation": {
+    "ru": "помешивать, шевелить, трогать (чувства)",
+    "en": "to stir, move, touch"
+  },
+  "level": "A2",
+  "frequency_rank": 541,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "rühren",
+    "present_3sg": "rührt",
+    "praeteritum_3sg": "rührte",
+    "partizip_2": "gerührt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "rühre",
+      "du": "rührst",
+      "er_sie_es": "rührt",
+      "wir": "rühren",
+      "ihr": "rührt",
+      "sie_Sie": "rühren"
+    },
+    "praeteritum": {
+      "ich": "rührte",
+      "du": "rührtest",
+      "er_sie_es": "rührte",
+      "wir": "rührten",
+      "ihr": "rührtet",
+      "sie_Sie": "rührten"
+    },
+    "perfekt": {
+      "ich": "habe gerührt",
+      "du": "hast gerührt",
+      "er_sie_es": "hat gerührt",
+      "wir": "haben gerührt",
+      "ihr": "habt gerührt",
+      "sie_Sie": "haben gerührt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich rühre die heiße Suppe mit einem Holzlöffel um.",
+      "translation": {
+        "ru": "Я помешиваю горячий суп деревянной ложкой.",
+        "en": "I stir the hot soup with a wooden spoon."
+      },
+      "bracket_parts": [
+        "rühre"
+      ],
+      "akkusativ_parts": [
+        "die heiße Suppe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du rührst den Zucker im Kaffee langsam um.",
+      "translation": {
+        "ru": "Ты медленно размешиваешь сахар в кофе.",
+        "en": "You slowly stir the sugar into the coffee."
+      },
+      "bracket_parts": [
+        "rührst"
+      ],
+      "akkusativ_parts": [
+        "den Zucker"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Seine berührende Geschichte rührt alle Zuhörer zu Tränen.",
+      "translation": {
+        "ru": "Его трогательная история растрогала всех слушателей до слез.",
+        "en": "His touching story moves all listeners to tears."
+      },
+      "bracket_parts": [
+        "rührt"
+      ],
+      "akkusativ_parts": [
+        "alle Zuhörer"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir rühren den Teig für den Kuchen schön cremig.",
+      "translation": {
+        "ru": "Мы вымешиваем тесто для пирога до приятной кремовой консистенции.",
+        "en": "We stir the cake dough until nice and creamy."
+      },
+      "bracket_parts": [
+        "rühren"
+      ],
+      "akkusativ_parts": [
+        "den Teig"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr rührt die leckere Sauce während des Kochens ständig um.",
+      "translation": {
+        "ru": "Вы постоянно помешиваете вкусный соус во время варки.",
+        "en": "You stir the delicious sauce constantly while cooking."
+      },
+      "bracket_parts": [
+        "rührt"
+      ],
+      "akkusativ_parts": [
+        "die leckere Sauce"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie rührten damals keinen einzigen Finger zur Hilfe.",
+      "translation": {
+        "ru": "Они тогда и пальцем не пошевелили, чтобы помочь.",
+        "en": "They did not lift a single finger to help back then."
+      },
+      "bracket_parts": [
+        "rührten"
+      ],
+      "akkusativ_parts": [
+        "keinen einzigen Finger"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Koch hat die Soße aufmerksam gerührt, damit nichts anbrennt.",
+      "translation": {
+        "ru": "Повар внимательно помешивал соус, чтобы ничего не пригорело.",
+        "en": "The cook stirred the sauce attentively so that nothing burned."
+      },
+      "bracket_parts": [
+        "hat",
+        "gerührt"
+      ],
+      "akkusativ_parts": [
+        "die Soße"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Rühre die Mischung zwei Minuten lang kräftig durch!",
+      "translation": {
+        "ru": "Тщательно перемешивай смесь в течение двух минут!",
+        "en": "Stir the mixture vigorously for two minutes!"
+      },
+      "bracket_parts": [
+        "Rühre"
+      ],
+      "akkusativ_parts": [
+        "die Mischung"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

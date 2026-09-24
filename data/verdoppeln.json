@@ -1,0 +1,137 @@
+{
+  "id": "verdoppeln",
+  "infinitive": "verdoppeln",
+  "translation": {
+    "ru": "удваивать, удваиваться",
+    "en": "to double"
+  },
+  "level": "B1",
+  "frequency_rank": 991,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verdoppelt",
+    "preterite_third_singular": "verdoppelte",
+    "past_participle": "verdoppelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verdopple",
+      "du": "verdoppelst",
+      "er_sie_es": "verdoppelt",
+      "wir": "verdoppeln",
+      "ihr": "verdoppelt",
+      "sie_Sie": "verdoppeln"
+    },
+    "preterite": {
+      "ich": "verdoppelte",
+      "du": "verdoppeltest",
+      "er_sie_es": "verdoppelte",
+      "wir": "verdoppelten",
+      "ihr": "verdoppeltet",
+      "sie_Sie": "verdoppelten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verdoppelt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich verdopple meinen Einsatz beim Spiel auf volles Risiko.",
+      "translation": {
+        "ru": "Я удваиваю свою ставку в игре с полным риском.",
+        "en": "I double my bet in the game with full risk."
+      },
+      "bracket_parts": [
+        "verdopple"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verdoppelst du deine tägliche Lernzeit vor den Abschlussprüfungen?",
+      "translation": {
+        "ru": "Удваиваешь ли ты свое ежедневное время учебы перед выпускными экзаменами?",
+        "en": "Are you doubling your daily study time before the final exams?"
+      },
+      "bracket_parts": [
+        "Verdoppelst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Start-up verdoppelt seinen Umsatz innerhalb eines einzigen Jahres.",
+      "translation": {
+        "ru": "Стартап удваивает свою выручку в течение одного года.",
+        "en": "The start-up doubles its revenue within a single year."
+      },
+      "bracket_parts": [
+        "verdoppelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verdoppeln die Produktionskapazitäten in unserem neuen Werk.",
+      "translation": {
+        "ru": "Мы удваиваем производственные мощности на нашем новом заводе.",
+        "en": "We double the production capacities in our new plant."
+      },
+      "bracket_parts": [
+        "verdoppeln"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verdoppelt ihr eure Anstrengungen zum Schutz des Klimas?",
+      "translation": {
+        "ru": "Удваиваете ли вы свои усилия по защите климата?",
+        "en": "Are you guys doubling your efforts to protect the climate?"
+      },
+      "bracket_parts": [
+        "Verdoppelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Stadt verdoppelte die Ausgaben für Bildung und Schulen.",
+      "translation": {
+        "ru": "Город удвоил расходы на образование и школы.",
+        "en": "The city doubled spending on education and schools."
+      },
+      "bracket_parts": [
+        "verdoppelte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Zahl der Mitglieder hat sich in den letzten Monaten verdoppelt.",
+      "translation": {
+        "ru": "Число членов удвоилось за последние месяцы.",
+        "en": "The number of members has doubled in recent months."
+      },
+      "bracket_parts": [
+        "hat",
+        "verdoppelt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verdopple deine Aufmerksamkeit bei schwierigen Verhandlungen!",
+      "translation": {
+        "ru": "Удвой свое внимание на сложных переговорах!",
+        "en": "Double your attention during difficult negotiations!"
+      },
+      "bracket_parts": [
+        "Verdopple"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

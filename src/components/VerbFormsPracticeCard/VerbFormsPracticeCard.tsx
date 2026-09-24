@@ -22,16 +22,14 @@ export function VerbFormsPracticeCard({ onPress }: VerbFormsPracticeCardProps): 
       testID="verb-forms-practice-card"
     >
       <View style={styles.iconContainer}>
-        <FontAwesome5 name="history" size={18} color={colors.primary} />
+        <FontAwesome5 name="history" size={16} color={colors.primary} />
       </View>
-      <View style={styles.textContainer}>
-        <Text style={styles.title} numberOfLines={2}>
-          {intl.formatMessage({ id: 'practiceScreen.verbFormsBannerTitle' })}
-        </Text>
-        <Text style={styles.subtitle} numberOfLines={2}>
-          {intl.formatMessage({ id: 'practiceScreen.verbFormsBannerSubtitle' })}
-        </Text>
-      </View>
+      <Text style={styles.title}>
+        {intl.formatMessage({ id: 'practiceScreen.verbFormsBannerTitle' })}
+      </Text>
+      <Text style={styles.subtitle}>
+        {intl.formatMessage({ id: 'practiceScreen.verbFormsBannerSubtitle' })}
+      </Text>
     </TouchableOpacity>
   );
 }

@@ -1,0 +1,178 @@
+{
+  "id": "aussetzen",
+  "infinitive": "aussetzen",
+  "translation": {
+    "ru": "приостанавливать, подвергать (опасности), высаживать",
+    "en": "to suspend, expose, abandon"
+  },
+  "level": "B2",
+  "frequency_rank": 522,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aussetzen",
+    "present_3sg": "setzt aus",
+    "praeteritum_3sg": "setzte aus",
+    "partizip_2": "ausgesetzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "setze aus",
+      "du": "setzt aus",
+      "er_sie_es": "setzt aus",
+      "wir": "setzen aus",
+      "ihr": "setzt aus",
+      "sie_Sie": "setzen aus"
+    },
+    "praeteritum": {
+      "ich": "setzte aus",
+      "du": "setztest aus",
+      "er_sie_es": "setzte aus",
+      "wir": "setzten aus",
+      "ihr": "setztet aus",
+      "sie_Sie": "setzten aus"
+    },
+    "perfekt": {
+      "ich": "habe ausgesetzt",
+      "du": "hast ausgesetzt",
+      "er_sie_es": "hat ausgesetzt",
+      "wir": "haben ausgesetzt",
+      "ihr": "habt ausgesetzt",
+      "sie_Sie": "haben ausgesetzt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich setze bei diesem anstrengenden Spiel eine Runde aus.",
+      "translation": {
+        "ru": "Я пропускаю один раунд в этой утомительной игре.",
+        "en": "I sit out a round in this exhausting game."
+      },
+      "bracket_parts": [
+        "setze",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "eine Runde"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du setzt deine Augen ohne Brille der grellen Sonne aus.",
+      "translation": {
+        "ru": "Ты подвергаешь свои глаза яркому солнцу без очков.",
+        "en": "You expose your eyes to the glaring sun without glasses."
+      },
+      "bracket_parts": [
+        "setzt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "deine Augen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Gericht setzt die Strafe zur Bewährung aus.",
+      "translation": {
+        "ru": "Суд приостанавливает исполнение наказания условно.",
+        "en": "The court suspends the sentence on probation."
+      },
+      "bracket_parts": [
+        "setzt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "die Strafe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir setzen die regelmäßigen Zahlungen vorübergehend aus.",
+      "translation": {
+        "ru": "Мы временно приостанавливаем регулярные платежи.",
+        "en": "We temporarily suspend the regular payments."
+      },
+      "bracket_parts": [
+        "setzen",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "die regelmäßigen Zahlungen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr setzt euch bei der Wanderung unnötigen Gefahren aus.",
+      "translation": {
+        "ru": "В походе вы подвергаете себя ненужным опасностям.",
+        "en": "You expose yourselves to unnecessary dangers on the hike."
+      },
+      "bracket_parts": [
+        "setzt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "euch"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie setzten damals die Verhandlungen wegen des Streits aus.",
+      "translation": {
+        "ru": "Они тогда приостановили переговоры из-за спора.",
+        "en": "They suspended negotiations because of the dispute back then."
+      },
+      "bracket_parts": [
+        "setzten",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "die Verhandlungen"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Regierung hat die Wehrpflicht vor einigen Jahren ausgesetzt.",
+      "translation": {
+        "ru": "Правительство приостановило обязательный призыв несколько лет назад.",
+        "en": "The government suspended compulsory military service a few years ago."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgesetzt"
+      ],
+      "akkusativ_parts": [
+        "die Wehrpflicht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Setze das kleine Tier bitte sofort im Wald aus!",
+      "translation": {
+        "ru": "Выпусти зверька в лесу немедленно, пожалуйста!",
+        "en": "Please release the small animal in the forest immediately!"
+      },
+      "bracket_parts": [
+        "Setze",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "das kleine Tier"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

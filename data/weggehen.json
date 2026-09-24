@@ -1,0 +1,150 @@
+{
+  "id": "weggehen",
+  "infinitive": "weggehen",
+  "translation": {
+    "ru": "уходить, отлучаться, сходить (о пятне)",
+    "en": "to go away, to leave"
+  },
+  "level": "A2",
+  "frequency_rank": 721,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "geht weg",
+    "preterite_third_singular": "ging weg",
+    "past_participle": "weggegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe weg",
+      "du": "gehst weg",
+      "er_sie_es": "geht weg",
+      "wir": "gehen weg",
+      "ihr": "geht weg",
+      "sie_Sie": "gehen weg"
+    },
+    "preterite": {
+      "ich": "ging weg",
+      "du": "gingst weg",
+      "er_sie_es": "ging weg",
+      "wir": "gingen weg",
+      "ihr": "gingt weg",
+      "sie_Sie": "gingen weg"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "weggegangen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "von",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich gehe heute Abend mit meinen Freunden weg.",
+      "translation": {
+        "ru": "Я сегодня вечером ухожу гулять с друзьями.",
+        "en": "I am going out with my friends tonight."
+      },
+      "bracket_parts": [
+        "gehe",
+        "weg"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Warum gehst du so früh von der Party weg?",
+      "translation": {
+        "ru": "Почему ты так рано уходишь с вечеринки?",
+        "en": "Why are you leaving the party so early?"
+      },
+      "bracket_parts": [
+        "gehst",
+        "weg"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der hartnäckige Fleck geht beim Waschen nicht weg.",
+      "translation": {
+        "ru": "Упрямое пятно не сходит при стирке.",
+        "en": "The stubborn stain does not go away during washing."
+      },
+      "bracket_parts": [
+        "geht",
+        "weg"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gehen für ein paar Tage von zu Hause weg.",
+      "translation": {
+        "ru": "Мы уезжаем из дома на несколько дней.",
+        "en": "We are going away from home for a few days."
+      },
+      "bracket_parts": [
+        "gehen",
+        "weg"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Geht ihr am Wochenende oft weg?",
+      "translation": {
+        "ru": "Вы часто уходите развлекаться на выходных?",
+        "en": "Do you guys go out often on weekends?"
+      },
+      "bracket_parts": [
+        "Geht",
+        "weg"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie ging ohne ein einziges Wort leise weg.",
+      "translation": {
+        "ru": "Она тихо ушла без единого слова.",
+        "en": "She went away quietly without a single word."
+      },
+      "bracket_parts": [
+        "ging",
+        "weg"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Mein Kollege ist schon vor einer halben Stunde weggegangen.",
+      "translation": {
+        "ru": "Мой коллега ушел уже полчаса назад.",
+        "en": "My colleague left half an hour ago."
+      },
+      "bracket_parts": [
+        "ist",
+        "weggegangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Geh bitte nicht weg, ich brauche deine Hilfe!",
+      "translation": {
+        "ru": "Пожалуйста, не уходи, мне нужна твоя помощь!",
+        "en": "Please don't go away, I need your help!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "weg"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

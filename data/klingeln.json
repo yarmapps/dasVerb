@@ -1,0 +1,143 @@
+{
+  "id": "klingeln",
+  "infinitive": "klingeln",
+  "translation": {
+    "ru": "звонить (в дверь/телефон)",
+    "en": "to ring, to chime"
+  },
+  "level": "A1",
+  "frequency_rank": 955,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "klingelt",
+    "preterite_third_singular": "klingelte",
+    "past_participle": "geklingelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "klingle",
+      "du": "klingelst",
+      "er_sie_es": "klingelt",
+      "wir": "klingeln",
+      "ihr": "klingelt",
+      "sie_Sie": "klingeln"
+    },
+    "preterite": {
+      "ich": "klingelte",
+      "du": "klingeltest",
+      "er_sie_es": "klingelte",
+      "wir": "klingelten",
+      "ihr": "klingeltet",
+      "sie_Sie": "klingelten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geklingelt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "an",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich klingle dreimal kurz an der Haustür meiner Freundin.",
+      "translation": {
+        "ru": "Я звоню трижды коротко в дверь квартиры моей подруги.",
+        "en": "I ring the doorbell of my girlfriend's house three times shortly."
+      },
+      "bracket_parts": [
+        "klingle"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Klingelst du beim Nachbarn, um nach dem Paket zu fragen?",
+      "translation": {
+        "ru": "Ты звонишь соседу, чтобы спросить о посылке?",
+        "en": "Are you ringing the neighbor's doorbell to ask about the package?"
+      },
+      "bracket_parts": [
+        "Klingelst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Telefon klingelt im Büro schon den ganzen Vormittag ununterbrochen.",
+      "translation": {
+        "ru": "Телефон в офисе звонит непрерывно все утро.",
+        "en": "The phone has been ringing continuously in the office all morning."
+      },
+      "bracket_parts": [
+        "klingelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir klingeln pünktlich um acht Uhr an eurer Tür.",
+      "translation": {
+        "ru": "Мы звоним ровно в восемь часов в вашу дверь.",
+        "en": "We ring your doorbell promptly at eight o'clock."
+      },
+      "bracket_parts": [
+        "klingeln"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Klingelt ihr mit den Fahrradglocken, wenn Fußgänger im Weg stehen?",
+      "translation": {
+        "ru": "Вы звоните велосипедными звонками, когда пешеходы на пути?",
+        "en": "Do you guys ring your bicycle bells when pedestrians are in the way?"
+      },
+      "bracket_parts": [
+        "Klingelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Wecker klingelte heute früh schon um fünf Uhr.",
+      "translation": {
+        "ru": "Будильник зазвонил сегодня рано утром уже в пять часов.",
+        "en": "The alarm clock rang as early as five o'clock this morning."
+      },
+      "bracket_parts": [
+        "klingelte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Postbote hat vor wenigen Minuten an der Tür geklingelt.",
+      "translation": {
+        "ru": "Почтальон несколько минут назад позвонил в дверь.",
+        "en": "The mailman rang the doorbell a few minutes ago."
+      },
+      "bracket_parts": [
+        "hat",
+        "geklingelt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Klingle bitte laut, falls die Musik im Wohnzimmer zu laut ist!",
+      "translation": {
+        "ru": "Позвони, пожалуйста, громко, если музыка в гостиной слишком громкая!",
+        "en": "Please ring loudly if the music in the living room is too loud!"
+      },
+      "bracket_parts": [
+        "Klingle"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "nachfolgen",
+  "infinitive": "nachfolgen",
+  "translation": {
+    "ru": "следовать за кем-л., сменять (в должности)",
+    "en": "to follow, to succeed"
+  },
+  "level": "B2",
+  "frequency_rank": 788,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "folgt nach",
+    "preterite_third_singular": "folgte nach",
+    "past_participle": "nachgefolgt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "folge nach",
+      "du": "folgst nach",
+      "er_sie_es": "folgt nach",
+      "wir": "folgen nach",
+      "ihr": "folgt nach",
+      "sie_Sie": "folgen nach"
+    },
+    "preterite": {
+      "ich": "folgte nach",
+      "du": "folgtest nach",
+      "er_sie_es": "folgte nach",
+      "wir": "folgten nach",
+      "ihr": "folgtet nach",
+      "sie_Sie": "folgten nach"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "nachgefolgt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich folge meinem geschätzten Vorgänger auf dieser Position nach.",
+      "translation": {
+        "ru": "Я сменяю своего уважаемого предшественника на этой должности.",
+        "en": "I succeed my valued predecessor in this position."
+      },
+      "bracket_parts": [
+        "folge",
+        "nach"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Folgst du dem berühmten Professor als Lehrstuhlinhaber nach?",
+      "translation": {
+        "ru": "Ты сменяешь знаменитого профессора во главе кафедры?",
+        "en": "Are you succeeding the famous professor as chair holder?"
+      },
+      "bracket_parts": [
+        "Folgst",
+        "nach"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der junge Prinz folgt der Königin auf den Thron nach.",
+      "translation": {
+        "ru": "Молодой принц наследует трон вслед за королевой.",
+        "en": "The young prince succeeds the queen to the throne."
+      },
+      "bracket_parts": [
+        "folgt",
+        "nach"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir folgen der ersten Gruppe im Abstand von zehn Minuten nach.",
+      "translation": {
+        "ru": "Мы следуем за первой группой с интервалом в десять минут.",
+        "en": "We follow the first group at an interval of ten minutes."
+      },
+      "bracket_parts": [
+        "folgen",
+        "nach"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Folgt ihr der Führungskraft im neuen Unternehmensbereich nach?",
+      "translation": {
+        "ru": "Вы переходите вслед за руководителем в новое подразделение?",
+        "en": "Are you following the executive into the new business unit?"
+      },
+      "bracket_parts": [
+        "Folgt",
+        "nach"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die neue Direktorin folgte dem langjährigen Leiter im Amt nach.",
+      "translation": {
+        "ru": "Новый директор сменила многолетнего руководителя в должности.",
+        "en": "The new director succeeded the longtime leader in office."
+      },
+      "bracket_parts": [
+        "folgte",
+        "nach"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er ist seinem Vater an der Spitze des Familienunternehmens nachgefolgt.",
+      "translation": {
+        "ru": "Он сменил отца во главе семейного предприятия.",
+        "en": "He has succeeded his father at the head of the family business."
+      },
+      "bracket_parts": [
+        "ist",
+        "nachgefolgt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Folge den besten Vorbildern mit Engagement nach!",
+      "translation": {
+        "ru": "Следуй за лучшими примерами для подражания с полной отдачей!",
+        "en": "Follow the best role models with commitment!"
+      },
+      "bracket_parts": [
+        "Folge",
+        "nach"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

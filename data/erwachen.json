@@ -1,0 +1,143 @@
+{
+  "id": "erwachen",
+  "infinitive": "erwachen",
+  "translation": {
+    "ru": "пробуждаться, просыпаться",
+    "en": "to awake, to wake up"
+  },
+  "level": "B1",
+  "frequency_rank": 916,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "erwacht",
+    "preterite_third_singular": "erwachte",
+    "past_participle": "erwacht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erwache",
+      "du": "erwachst",
+      "er_sie_es": "erwacht",
+      "wir": "erwachen",
+      "ihr": "erwacht",
+      "sie_Sie": "erwachen"
+    },
+    "preterite": {
+      "ich": "erwachte",
+      "du": "erwachtest",
+      "er_sie_es": "erwachte",
+      "wir": "erwachten",
+      "ihr": "erwachtet",
+      "sie_Sie": "erwachten"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "erwacht"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "aus",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich erwache jeden Morgen mit dem ersten Zwitschern der Vögel.",
+      "translation": {
+        "ru": "Я просыпаюсь каждое утро с первым щебетанием птиц.",
+        "en": "I wake up every morning with the first chirping of the birds."
+      },
+      "bracket_parts": [
+        "erwache"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erwachst du am Wochenende auch so früh wie unter der Woche?",
+      "translation": {
+        "ru": "Ты на выходных тоже просыпаешься так рано, как и среди недели?",
+        "en": "Do you also wake up as early on weekends as during the week?"
+      },
+      "bracket_parts": [
+        "Erwachst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Natur erwacht im Frühling zu neuem Leben.",
+      "translation": {
+        "ru": "Природа весной пробуждается к новой жизни.",
+        "en": "Nature awakes to new life in spring."
+      },
+      "bracket_parts": [
+        "erwacht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erwachen erholt aus einem tiefen und gesunden Schlaf.",
+      "translation": {
+        "ru": "Мы просыпаемся отдохнувшими после глубокого и здорового сна.",
+        "en": "We wake up refreshed from a deep and healthy sleep."
+      },
+      "bracket_parts": [
+        "erwachen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erwacht ihr bei Sonnenaufgang im Zelt am See?",
+      "translation": {
+        "ru": "Вы просыпаетесь на рассвете в палатке у озера?",
+        "en": "Do you guys wake up at sunrise in the tent by the lake?"
+      },
+      "bracket_parts": [
+        "Erwacht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die schlafende Stadt erwachte langsam im Morgengrauen.",
+      "translation": {
+        "ru": "Спящий город медленно пробуждался на рассвете.",
+        "en": "The sleeping city slowly woke up at dawn."
+      },
+      "bracket_parts": [
+        "erwachte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Patient ist nach der Narkose ohne Komplikationen erwacht.",
+      "translation": {
+        "ru": "Пациент проснулся после наркоза без осложнений.",
+        "en": "The patient woke up from the anesthesia without complications."
+      },
+      "bracket_parts": [
+        "ist",
+        "erwacht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erwache mit einem Lächeln und freue dich auf den neuen Tag!",
+      "translation": {
+        "ru": "Просыпайся с улыбкой и радуйся новому дню!",
+        "en": "Wake up with a smile and look forward to the new day!"
+      },
+      "bracket_parts": [
+        "Erwache"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "erwischen",
+  "infinitive": "erwischen",
+  "translation": {
+    "ru": "поймать, застать врасплох, успеть на транспорт",
+    "en": "to catch, to nab, to get hold of"
+  },
+  "level": "B1",
+  "frequency_rank": 785,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "erwischt",
+    "preterite_third_singular": "erwischte",
+    "past_participle": "erwischt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erwische",
+      "du": "erwischst",
+      "er_sie_es": "erwischt",
+      "wir": "erwischen",
+      "ihr": "erwischt",
+      "sie_Sie": "erwischen"
+    },
+    "preterite": {
+      "ich": "erwischte",
+      "du": "erwischtest",
+      "er_sie_es": "erwischte",
+      "wir": "erwischten",
+      "ihr": "erwischtet",
+      "sie_Sie": "erwischten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "erwischt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "bei",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich erwische heute hoffentlich noch den letzten Bus.",
+      "translation": {
+        "ru": "Я надеюсь успеть сегодня еще на последний автобус.",
+        "en": "I hopefully catch the last bus today."
+      },
+      "bracket_parts": [
+        "erwische"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erwischst du den Zug nach München noch rechtzeitig?",
+      "translation": {
+        "ru": "Ты успеваешь на поезд в Мюнхен вовремя?",
+        "en": "Are you catching the train to Munich in time?"
+      },
+      "bracket_parts": [
+        "Erwischst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei erwischt den Dieb auf frischer Tat.",
+      "translation": {
+        "ru": "Полиция ловит вора с поличным.",
+        "en": "The police catch the thief in the act."
+      },
+      "bracket_parts": [
+        "erwischt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erwischen den Dieb beim Verlassen des Ladens.",
+      "translation": {
+        "ru": "Мы ловим вора при выходе из магазина.",
+        "en": "We catch the thief when leaving the store."
+      },
+      "bracket_parts": [
+        "erwischen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erwischt ihr den fliegenden Ball mit einer Hand?",
+      "translation": {
+        "ru": "Вы ловите летящий мяч одной рукой?",
+        "en": "Do you guys catch the flying ball with one hand?"
+      },
+      "bracket_parts": [
+        "Erwischt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Lehrer erwischte den Schüler beim Spicken.",
+      "translation": {
+        "ru": "Учитель поймал ученика со шпаргалкой.",
+        "en": "The teacher caught the student cheating."
+      },
+      "bracket_parts": [
+        "erwischte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Eine schwere Grippe hat mich letzte Woche erwischt.",
+      "translation": {
+        "ru": "Тяжелый грипп подкосил меня на прошлой неделе.",
+        "en": "A bad flu caught me last week."
+      },
+      "bracket_parts": [
+        "hat",
+        "erwischt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lauf schnell, damit du die U-Bahn noch erwischst!",
+      "translation": {
+        "ru": "Беги скорее, чтобы успеть на метро!",
+        "en": "Run fast so you catch the subway!"
+      },
+      "bracket_parts": [
+        "erwischst"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

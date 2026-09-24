@@ -1,0 +1,143 @@
+{
+  "id": "lenken",
+  "infinitive": "lenken",
+  "translation": {
+    "ru": "рулить, направлять, отвлекать",
+    "en": "to steer, to direct, to guide"
+  },
+  "level": "B1",
+  "frequency_rank": 840,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "lenkt",
+    "preterite_third_singular": "lenkte",
+    "past_participle": "gelenkt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lenke",
+      "du": "lenkst",
+      "er_sie_es": "lenkt",
+      "wir": "lenken",
+      "ihr": "lenkt",
+      "sie_Sie": "lenken"
+    },
+    "preterite": {
+      "ich": "lenkte",
+      "du": "lenktest",
+      "er_sie_es": "lenkte",
+      "wir": "lenkten",
+      "ihr": "lenktet",
+      "sie_Sie": "lenkten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gelenkt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich lenke das Auto sicher durch die engen Kurven.",
+      "translation": {
+        "ru": "Я уверенно веду машину по узким поворотам.",
+        "en": "I steer the car safely through the narrow bends."
+      },
+      "bracket_parts": [
+        "lenke"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lenkst du die Aufmerksamkeit der Zuhörer auf das Wesentliche?",
+      "translation": {
+        "ru": "Ты направляешь внимание слушателей на самое главное?",
+        "en": "Do you direct the listeners' attention to what is essential?"
+      },
+      "bracket_parts": [
+        "Lenkst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Steuermann lenkt das Schiff in den sicheren Hafen.",
+      "translation": {
+        "ru": "Рулевой направляет корабль в безопасную гавань.",
+        "en": "The helmsman steers the ship into the safe harbor."
+      },
+      "bracket_parts": [
+        "lenkt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir lenken das Gespräch geschickt auf ein neues Thema.",
+      "translation": {
+        "ru": "Мы искусно переводим разговор на новую тему.",
+        "en": "We skillfully steer the conversation towards a new topic."
+      },
+      "bracket_parts": [
+        "lenken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lenkt ihr das Projekt in die richtige Richtung?",
+      "translation": {
+        "ru": "Вы ведете проект в правильном направлении?",
+        "en": "Are you guiding the project in the right direction?"
+      },
+      "bracket_parts": [
+        "Lenkt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Musik lenkte ihn von seinen traurigen Sorgen ab.",
+      "translation": {
+        "ru": "Музыка отвлекала его от грустных забот.",
+        "en": "The music distracted him from his sad worries."
+      },
+      "bracket_parts": [
+        "lenkte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Fahrer hat den Bus sicher um das Hindernis gelenkt.",
+      "translation": {
+        "ru": "Водитель благополучно провел автобус вокруг препятствия.",
+        "en": "The driver steered the bus safely around the obstacle."
+      },
+      "bracket_parts": [
+        "hat",
+        "gelenkt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lenke deinen Blick nach vorne und bleib konzentriert!",
+      "translation": {
+        "ru": "Направь свой взгляд вперед и оставайся сосредоточенным!",
+        "en": "Direct your gaze forward and stay focused!"
+      },
+      "bracket_parts": [
+        "Lenke"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

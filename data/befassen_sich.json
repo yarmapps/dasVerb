@@ -1,0 +1,147 @@
+{
+  "id": "befassen_sich",
+  "infinitive": "befassen",
+  "translation": {
+    "ru": "заниматься чем-либо, изучать",
+    "en": "to deal with, concern oneself with"
+  },
+  "level": "B1",
+  "frequency_rank": 531,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "befassen",
+    "present_3sg": "befasst sich",
+    "praeteritum_3sg": "befasste sich",
+    "partizip_2": "befasst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "befasse mich",
+      "du": "befasst dich",
+      "er_sie_es": "befasst sich",
+      "wir": "befassen uns",
+      "ihr": "befasst euch",
+      "sie_Sie": "befassen sich"
+    },
+    "praeteritum": {
+      "ich": "befasste mich",
+      "du": "befasstest dich",
+      "er_sie_es": "befasste sich",
+      "wir": "befassten uns",
+      "ihr": "befasstet euch",
+      "sie_Sie": "befassten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich befasst",
+      "du": "hast dich befasst",
+      "er_sie_es": "hat sich befasst",
+      "wir": "haben uns befasst",
+      "ihr": "habt euch befasst",
+      "sie_Sie": "haben sich befasst"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich befasse mich intensiv mit der deutschen Grammatik.",
+      "translation": {
+        "ru": "Я интенсивно занимаюсь немецкой грамматикой.",
+        "en": "I deal intensively with German grammar."
+      },
+      "bracket_parts": [
+        "befasse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du befasst dich in deiner Freizeit mit moderner Kunst.",
+      "translation": {
+        "ru": "В свободное время ты занимаешься современным искусством.",
+        "en": "You concern yourself with modern art in your spare time."
+      },
+      "bracket_parts": [
+        "befasst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Ausschuss befasst sich heute mit den neuen Gesetzesentwürfen.",
+      "translation": {
+        "ru": "Комитет рассматривает сегодня новые законопроекты.",
+        "en": "The committee is dealing with the new draft laws today."
+      },
+      "bracket_parts": [
+        "befasst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir befassen uns schon lange mit erneuerbaren Energien.",
+      "translation": {
+        "ru": "Мы уже давно занимаемся возобновляемыми источниками энергии.",
+        "en": "We have been dealing with renewable energies for a long time."
+      },
+      "bracket_parts": [
+        "befassen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr befasst euch gründlich mit den Ursachen des Problems.",
+      "translation": {
+        "ru": "Вы основательно разбираетесь в причинах проблемы.",
+        "en": "You examine the causes of the problem thoroughly."
+      },
+      "bracket_parts": [
+        "befasst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie befassten sich damals viele Jahre mit diesem Thema.",
+      "translation": {
+        "ru": "Они тогда много лет занимались этой темой.",
+        "en": "They dealt with this topic for many years back then."
+      },
+      "bracket_parts": [
+        "befassten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Wissenschaftlerin hat sich ausführlich mit der Klimakrise befasst.",
+      "translation": {
+        "ru": "Ученая подробно исследовала климатический кризис.",
+        "en": "The scientist has dealt extensively with the climate crisis."
+      },
+      "bracket_parts": [
+        "hat",
+        "befasst"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Befasse dich bitte erst mit den Fakten, bevor du urteilst!",
+      "translation": {
+        "ru": "Ознакомься сначала с фактами, прежде чем судить!",
+        "en": "Please deal with the facts first before you judge!"
+      },
+      "bracket_parts": [
+        "Befasse"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

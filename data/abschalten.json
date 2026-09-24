@@ -1,0 +1,143 @@
+{
+  "id": "abschalten",
+  "infinitive": "abschalten",
+  "translation": {
+    "ru": "выключать (прибор), отключаться (мыслями/отдыхать)",
+    "en": "to switch off, to power down, to relax/unwind"
+  },
+  "level": "B1",
+  "frequency_rank": 1006,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "schaltet ab",
+    "preterite_third_singular": "schaltete ab",
+    "past_participle": "abgeschaltet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schalte ab",
+      "du": "schaltest ab",
+      "er_sie_es": "schaltet ab",
+      "wir": "schalten ab",
+      "ihr": "schaltet ab",
+      "sie_Sie": "schalten ab"
+    },
+    "preterite": {
+      "ich": "schaltete ab",
+      "du": "schaltetest ab",
+      "er_sie_es": "schaltete ab",
+      "wir": "schalteten ab",
+      "ihr": "schaltetet ab",
+      "sie_Sie": "schalteten ab"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "abgeschaltet"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich schalte mein Smartphone am Wochenende gerne komplett ab.",
+      "translation": {
+        "ru": "На выходных я с удовольствием полностью выключаю смартфон.",
+        "en": "I like to switch off my smartphone completely at the weekend."
+      },
+      "bracket_parts": [
+        "schalte",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schaltest du den Fernseher vor dem Schlafengehen immer aus und ab?",
+      "translation": {
+        "ru": "Ты всегда выключаешь телевизор перед сном?",
+        "en": "Do you always switch off the television before going to sleep?"
+      },
+      "bracket_parts": [
+        "Schaltest",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Nach einem harten Arbeitstag schaltet sie bei einem Spaziergang ab.",
+      "translation": {
+        "ru": "После тяжелого рабочего дня она отключается от забот на прогулке.",
+        "en": "After a hard workday, she unwinds during a walk."
+      },
+      "bracket_parts": [
+        "schaltet",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schalten alle elektrischen Geräte vor der Urlaubsreise ab.",
+      "translation": {
+        "ru": "Мы выключаем все электроприборы перед поездкой в отпуск.",
+        "en": "We turn off all electrical appliances before the vacation trip."
+      },
+      "bracket_parts": [
+        "schalten",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Könnt ihr im Urlaub wirklich gut abschalten und entspannen?",
+      "translation": {
+        "ru": "Можете ли вы в отпуске действительно хорошо отключиться от работы и расслабиться?",
+        "en": "Can you guys really switch off and relax well on vacation?"
+      },
+      "bracket_parts": [
+        "abschalten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Techniker schaltete die defekte Anlage zur Sicherheit sofort ab.",
+      "translation": {
+        "ru": "Техник в целях безопасности немедленно отключил неисправную установку.",
+        "en": "The technician switched off the defective system immediately for safety."
+      },
+      "bracket_parts": [
+        "schaltete",
+        "ab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Deutschland hat die letzten Atomkraftwerke endgültig abgeschaltet.",
+      "translation": {
+        "ru": "Германия окончательно отключила последние атомные электростанции.",
+        "en": "Germany has finally shut down the last nuclear power plants."
+      },
+      "bracket_parts": [
+        "hat",
+        "abgeschaltet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schalte den Motor beim Halten an der Bahnschranke ab!",
+      "translation": {
+        "ru": "Выключай двигатель при остановке у железнодорожного переезда!",
+        "en": "Switch off the engine when stopping at the railway crossing!"
+      },
+      "bracket_parts": [
+        "Schalte",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

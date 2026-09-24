@@ -37,7 +37,7 @@ export function FeaturedStartCard({ onPress }: FeaturedStartCardProps): React.JS
         <Text style={styles.featuredTitle}>
           {intl.formatMessage({ id: 'practiceScreen.levelsButtonTitle' })}
         </Text>
-        <Text style={styles.featuredSubtitle} numberOfLines={2}>
+        <Text style={styles.featuredSubtitle} numberOfLines={3}>
           {intl.formatMessage({ id: 'practiceScreen.levelsButtonSubtitle' })}
         </Text>
       </View>

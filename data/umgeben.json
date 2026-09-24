@@ -1,0 +1,143 @@
+{
+  "id": "umgeben",
+  "infinitive": "umgeben",
+  "translation": {
+    "ru": "окружать",
+    "en": "to surround, to enclose"
+  },
+  "level": "B2",
+  "frequency_rank": 751,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "umgibt",
+    "preterite_third_singular": "umgab",
+    "past_participle": "umgeben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "umgebe",
+      "du": "umgibst",
+      "er_sie_es": "umgibt",
+      "wir": "umgeben",
+      "ihr": "umgebt",
+      "sie_Sie": "umgeben"
+    },
+    "preterite": {
+      "ich": "umgab",
+      "du": "umgabst",
+      "er_sie_es": "umgab",
+      "wir": "umgaben",
+      "ihr": "umgabt",
+      "sie_Sie": "umgaben"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "umgeben"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich umgebe mich am liebsten mit positiven Menschen.",
+      "translation": {
+        "ru": "Я предпочитаю окружать себя позитивными людьми.",
+        "en": "I prefer to surround myself with positive people."
+      },
+      "bracket_parts": [
+        "umgebe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Umgibst du dein Haus mit einem schönen Zaun?",
+      "translation": {
+        "ru": "Ты окружаешь свой дом красивым забором?",
+        "en": "Are you surrounding your house with a nice fence?"
+      },
+      "bracket_parts": [
+        "Umgibst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein dichter grüner Wald umgibt das kleine Dorf.",
+      "translation": {
+        "ru": "Густой зеленый лес окружает маленькую деревню.",
+        "en": "A dense green forest surrounds the small village."
+      },
+      "bracket_parts": [
+        "umgibt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir umgeben den Garten mit einer dichten Hecke.",
+      "translation": {
+        "ru": "Мы окружаем сад густой живой изгородью.",
+        "en": "We surround the garden with a dense hedge."
+      },
+      "bracket_parts": [
+        "umgeben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Umgebt ihr euer Grundstück mit einer hohen Mauer?",
+      "translation": {
+        "ru": "Вы окружаете свой участок высокой стеной?",
+        "en": "Are you surrounding your property with a high wall?"
+      },
+      "bracket_parts": [
+        "Umgebt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Eine alte Steinmauer umgab die historische Festung.",
+      "translation": {
+        "ru": "Старая каменная стена окружала историческую крепость.",
+        "en": "An old stone wall surrounded the historic fortress."
+      },
+      "bracket_parts": [
+        "umgab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Viele treue Freunde haben den Jubilar herzlich umgeben.",
+      "translation": {
+        "ru": "Множество верных друзей тепло окружили юбиляра.",
+        "en": "Many loyal friends surrounded the celebrant warmly."
+      },
+      "bracket_parts": [
+        "haben",
+        "umgeben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Umgib dich stets mit ehrlichen und klugen Ratgebern!",
+      "translation": {
+        "ru": "Всегда окружай себя честными и умными советчиками!",
+        "en": "Always surround yourself with honest and wise advisers!"
+      },
+      "bracket_parts": [
+        "Umgib"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

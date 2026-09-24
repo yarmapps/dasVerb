@@ -1,0 +1,138 @@
+{
+  "id": "unterschreiben",
+  "infinitive": "unterschreiben",
+  "translation": {
+    "ru": "подписывать (документ)",
+    "en": "to sign (a document)"
+  },
+  "level": "A2",
+  "frequency_rank": 880,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "unterschreibt",
+    "preterite_third_singular": "unterschrieb",
+    "past_participle": "unterschrieben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "unterschreibe",
+      "du": "unterschreibst",
+      "er_sie_es": "unterschreibt",
+      "wir": "unterschreiben",
+      "ihr": "unterschreibt",
+      "sie_Sie": "unterschreiben"
+    },
+    "preterite": {
+      "ich": "unterschrieb",
+      "du": "unterschriebst",
+      "er_sie_es": "unterschrieb",
+      "wir": "unterschrieben",
+      "ihr": "unterschriebt",
+      "sie_Sie": "unterschrieben"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "unterschrieben"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich unterschreibe den neuen Arbeitsvertrag heute Nachmittag.",
+      "translation": {
+        "ru": "Я подписываю новый трудовой договор сегодня после обеда.",
+        "en": "I sign the new employment contract this afternoon."
+      },
+      "bracket_parts": [
+        "unterschreibe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Unterschreibst du den Mietvertrag für die neue Wohnung?",
+      "translation": {
+        "ru": "Ты подписываешь договор аренды новой квартиры?",
+        "en": "Are you signing the rental agreement for the new apartment?"
+      },
+      "bracket_parts": [
+        "Unterschreibst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Minister unterschreibt das internationale Abkommen feierlich.",
+      "translation": {
+        "ru": "Министр торжественно подписывает международное соглашение.",
+        "en": "The minister formally signs the international agreement."
+      },
+      "bracket_parts": [
+        "unterschreibt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir unterschreiben die Petition für den Umweltschutz.",
+      "translation": {
+        "ru": "Мы подписываем петицию в защиту окружающей среды.",
+        "en": "We sign the petition for environmental protection."
+      },
+      "bracket_parts": [
+        "unterschreiben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Unterschreibt ihr die Vollmacht für euren Anwalt?",
+      "translation": {
+        "ru": "Вы подписываете доверенность для вашего юриста?",
+        "en": "Are you guys signing the power of attorney for your lawyer?"
+      },
+      "bracket_parts": [
+        "Unterschreibt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie unterschrieb den Brief mit schwarzer Tinte.",
+      "translation": {
+        "ru": "Она подписала письмо черными чернилами.",
+        "en": "She signed the letter with black ink."
+      },
+      "bracket_parts": [
+        "unterschrieb"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Beide Vertragspartner haben das Dokument gestern unterschrieben.",
+      "translation": {
+        "ru": "Обе стороны договора подписали документ вчера.",
+        "en": "Both contracting parties signed the document yesterday."
+      },
+      "bracket_parts": [
+        "haben",
+        "unterschrieben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Unterschreibe das Formular bitte ganz unten rechts!",
+      "translation": {
+        "ru": "Подпиши бланк в самом низу справа, пожалуйста!",
+        "en": "Please sign the form at the bottom right!"
+      },
+      "bracket_parts": [
+        "Unterschreibe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

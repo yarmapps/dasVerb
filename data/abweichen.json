@@ -1,0 +1,150 @@
+{
+  "id": "abweichen",
+  "infinitive": "abweichen",
+  "translation": {
+    "ru": "отклоняться, отличаться",
+    "en": "to deviate, to differ"
+  },
+  "level": "B2",
+  "frequency_rank": 803,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "weicht ab",
+    "preterite_third_singular": "wich ab",
+    "past_participle": "abgewichen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "weiche ab",
+      "du": "weichst ab",
+      "er_sie_es": "weicht ab",
+      "wir": "weichen ab",
+      "ihr": "weicht ab",
+      "sie_Sie": "weichen ab"
+    },
+    "preterite": {
+      "ich": "wich ab",
+      "du": "wichst ab",
+      "er_sie_es": "wich ab",
+      "wir": "wichen ab",
+      "ihr": "wicht ab",
+      "sie_Sie": "wichen ab"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "abgewichen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "von",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich weiche niemals von meinen ethischen Grundsätzen ab.",
+      "translation": {
+        "ru": "Я никогда не отклоняюсь от своих этических принципов.",
+        "en": "I never deviate from my ethical principles."
+      },
+      "bracket_parts": [
+        "weiche",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Warum weichst du so stark vom eigentlichen Plan ab?",
+      "translation": {
+        "ru": "Почему ты так сильно отклоняешься от первоначального плана?",
+        "en": "Why do you deviate so much from the actual plan?"
+      },
+      "bracket_parts": [
+        "weichst",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das tatsächliche Ergebnis weicht deutlich von der Prognose ab.",
+      "translation": {
+        "ru": "Фактический результат заметно отличается от прогноза.",
+        "en": "The actual result deviates clearly from the forecast."
+      },
+      "bracket_parts": [
+        "weicht",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir weichen in dieser Frage kaum voneinander ab.",
+      "translation": {
+        "ru": "Мы в этом вопросе почти не расходимся друг с другом.",
+        "en": "We hardly differ from each other on this question."
+      },
+      "bracket_parts": [
+        "weichen",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Weicht ihr heute von der vereinbarten Route ab?",
+      "translation": {
+        "ru": "Вы отклоняетесь сегодня от согласованного маршрута?",
+        "en": "Are you deviating from the agreed route today?"
+      },
+      "bracket_parts": [
+        "Weicht",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Schiff wich wegen des Sturms vom Kurs ab.",
+      "translation": {
+        "ru": "Корабль отклонился от курса из-за шторма.",
+        "en": "The ship deviated from course because of the storm."
+      },
+      "bracket_parts": [
+        "wich",
+        "ab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Messwerte sind stark von den Normwerten abgewichen.",
+      "translation": {
+        "ru": "Показания измерений сильно отклонились от нормы.",
+        "en": "The measured values deviated greatly from the standard values."
+      },
+      "bracket_parts": [
+        "sind",
+        "abgewichen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Weiche bei der Prüfung nicht von den Vorschriften ab!",
+      "translation": {
+        "ru": "Не отклоняйся от инструкций во время экзамена!",
+        "en": "Do not deviate from the regulations during the test!"
+      },
+      "bracket_parts": [
+        "Weiche",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

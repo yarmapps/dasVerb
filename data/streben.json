@@ -1,0 +1,143 @@
+{
+  "id": "streben",
+  "infinitive": "streben",
+  "translation": {
+    "ru": "стремиться, домогаться, жаждать",
+    "en": "to strive, to aim for, to aspire to"
+  },
+  "level": "B2",
+  "frequency_rank": 1047,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "strebt",
+    "preterite_third_singular": "strebte",
+    "past_participle": "gestrebt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "strebe",
+      "du": "strebst",
+      "er_sie_es": "strebt",
+      "wir": "streben",
+      "ihr": "strebt",
+      "sie_Sie": "streben"
+    },
+    "preterite": {
+      "ich": "strebte",
+      "du": "strebtest",
+      "er_sie_es": "strebte",
+      "wir": "strebten",
+      "ihr": "strebtet",
+      "sie_Sie": "strebten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gestrebt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "nach",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich strebe nach ständiger persönlicher und beruflicher Weiterentwicklung.",
+      "translation": {
+        "ru": "Я стремлюсь к постоянному личностному и профессиональному развитию.",
+        "en": "I strive for continuous personal and professional development."
+      },
+      "bracket_parts": [
+        "strebe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Strebst du im Berufsleben nach hoher Anerkennung und finanziellem Erfolg?",
+      "translation": {
+        "ru": "Стремишься ли ты в карьере к высокому признанию и финансовому успеху?",
+        "en": "Do you strive for high recognition and financial success in professional life?"
+      },
+      "bracket_parts": [
+        "Strebst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der junge Wissenschaftler strebt nach bahnbrechenden Entdeckungen.",
+      "translation": {
+        "ru": "Молодой ученый стремится к революционным открытиям.",
+        "en": "The young scientist strives for groundbreaking discoveries."
+      },
+      "bracket_parts": [
+        "strebt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir streben nach Gerechtigkeit und Chancengleichheit in der Gesellschaft.",
+      "translation": {
+        "ru": "Мы стремимся к справедливости и равенству возможностей в обществе.",
+        "en": "We strive for justice and equal opportunities in society."
+      },
+      "bracket_parts": [
+        "streben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Strebt ihr nach Bestleistungen bei den bevorstehenden Meisterschaften?",
+      "translation": {
+        "ru": "Стремитесь ли вы к наивысшим результатам на предстоящих чемпионатах?",
+        "en": "Are you guys striving for top performance in the upcoming championships?"
+      },
+      "bracket_parts": [
+        "Strebt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Goethes Faust strebte zeitlebens nach vollkommener Erkenntnis.",
+      "translation": {
+        "ru": "Фауст Гёте всю жизнь стремился к совершенному познанию.",
+        "en": "Goethe's Faust strove throughout his life for perfect knowledge."
+      },
+      "bracket_parts": [
+        "strebte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Menschheit hat schon immer nach Freiheit und Frieden gestrebt.",
+      "translation": {
+        "ru": "Человечество всегда стремилось к свободе и миру.",
+        "en": "Humanity has always striven for freedom and peace."
+      },
+      "bracket_parts": [
+        "hat",
+        "gestrebt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Strebe stets nach Wahrheit, Weisheit und innerer Harmonie!",
+      "translation": {
+        "ru": "Всегда стремись к истине, мудрости и внутренней гармонии!",
+        "en": "Always strive for truth, wisdom, and inner harmony!"
+      },
+      "bracket_parts": [
+        "Strebe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

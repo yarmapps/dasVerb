@@ -1,0 +1,143 @@
+{
+  "id": "durchgehen",
+  "infinitive": "durchgehen",
+  "translation": {
+    "ru": "просматривать/проходиться по пунктам, проходить насквозь, сходить с рук",
+    "en": "to go through (items/notes), to pass through, to let something pass"
+  },
+  "level": "B1",
+  "frequency_rank": 1016,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "geht durch",
+    "preterite_third_singular": "ging durch",
+    "past_participle": "durchgegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe durch",
+      "du": "gehst durch",
+      "er_sie_es": "geht durch",
+      "wir": "gehen durch",
+      "ihr": "geht durch",
+      "sie_Sie": "gehen durch"
+    },
+    "preterite": {
+      "ich": "ging durch",
+      "du": "gingst durch",
+      "er_sie_es": "ging durch",
+      "wir": "gingen durch",
+      "ihr": "gingt durch",
+      "sie_Sie": "gingen durch"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "durchgegangen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich gehe die Notizen vor der Klausur noch einmal gründlich durch.",
+      "translation": {
+        "ru": "Перед контрольной я еще раз тщательно прохожусь по конспектам.",
+        "en": "I go through the notes thoroughly once more before the exam."
+      },
+      "bracket_parts": [
+        "gehe",
+        "durch"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gehst du den Vertrag vor der Unterschrift Punkt für Punkt durch?",
+      "translation": {
+        "ru": "Ты проходишься по договору пункт за пунктом перед подписью?",
+        "en": "Do you go through the contract point by point before signing?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "durch"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Lehrerin lässt solche frechen Antworten im Unterricht nicht durchgehen.",
+      "translation": {
+        "ru": "Учительница не спускает таких дерзких ответов на уроке (не оставляет безнаказанными).",
+        "en": "The teacher does not let such cheeky answers pass in class."
+      },
+      "bracket_parts": [
+        "durchgehen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gehen die Tagesordnung für das morgige Meeting gemeinsam durch.",
+      "translation": {
+        "ru": "Мы вместе проходимся по повестке завтрашней встречи.",
+        "en": "We go through the agenda for tomorrow's meeting together."
+      },
+      "bracket_parts": [
+        "gehen",
+        "durch"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Geht ihr alle Prüfungsfragen vor dem Test noch einmal durch?",
+      "translation": {
+        "ru": "Проходитесь ли вы по всем экзаменационным вопросам перед тестом еще раз?",
+        "en": "Are you guys going through all exam questions once more before the test?"
+      },
+      "bracket_parts": [
+        "Geht",
+        "durch"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Inspektor ging die Sicherheitscheckliste sehr gewissenhaft durch.",
+      "translation": {
+        "ru": "Инспектор очень добросовестно прошелся по чек-листу безопасности.",
+        "en": "The inspector went through the safety checklist very conscientiously."
+      },
+      "bracket_parts": [
+        "ging",
+        "durch"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Wir sind alle Details der Urlaubsreise ausführlich durchgegangen.",
+      "translation": {
+        "ru": "Мы подробно прошлись по всем деталям поездки в отпуск.",
+        "en": "We have gone through all details of the vacation trip in detail."
+      },
+      "bracket_parts": [
+        "sind",
+        "durchgegangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Geh die Rechnung vor dem Bezahlen bitte noch einmal genau durch!",
+      "translation": {
+        "ru": "Пройдись, пожалуйста, внимательно по счету еще раз перед оплатой!",
+        "en": "Please go through the invoice carefully once more before paying!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "durch"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "rollen",
+  "infinitive": "rollen",
+  "translation": {
+    "ru": "катить, катиться, сворачивать",
+    "en": "to roll"
+  },
+  "level": "A2",
+  "frequency_rank": 632,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "rollen",
+    "present_3sg": "rollt",
+    "praeteritum_3sg": "rollte",
+    "partizip_2": "gerollt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "rolle",
+      "du": "rollst",
+      "er_sie_es": "rollt",
+      "wir": "rollen",
+      "ihr": "rollt",
+      "sie_Sie": "rollen"
+    },
+    "praeteritum": {
+      "ich": "rollte",
+      "du": "rolltest",
+      "er_sie_es": "rollte",
+      "wir": "rollten",
+      "ihr": "rolltet",
+      "sie_Sie": "rollten"
+    },
+    "perfekt": {
+      "ich": "bin gerollt",
+      "du": "bist gerollt",
+      "er_sie_es": "ist gerollt",
+      "wir": "sind gerollt",
+      "ihr": "seid gerollt",
+      "sie_Sie": "sind gerollt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich rolle den schweren Teppich im Wohnzimmer aus.",
+      "translation": {
+        "ru": "Я раскатываю тяжелый ковер в гостиной.",
+        "en": "I roll out the heavy carpet in the living room."
+      },
+      "bracket_parts": [
+        "rolle"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Rollst du den bunten Ball zum kleinen Kind hinüber?",
+      "translation": {
+        "ru": "Ты катишь цветной мяч к маленькому ребенку?",
+        "en": "Are you rolling the colorful ball over to the little child?"
+      },
+      "bracket_parts": [
+        "Rollst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Ball rollt schnell über die Wiese.",
+      "translation": {
+        "ru": "Мяч быстро катится по лужайке.",
+        "en": "The ball rolls quickly across the meadow."
+      },
+      "bracket_parts": [
+        "rollt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir rollen die Koffer gemütlich zum Bahnsteig.",
+      "translation": {
+        "ru": "Мы не спеша катим чемоданы к перрону.",
+        "en": "We roll the suitcases leisurely to the platform."
+      },
+      "bracket_parts": [
+        "rollen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr rollt den Teig mit dem Nudelholz ganz dünn aus.",
+      "translation": {
+        "ru": "Вы раскатываете тесто скалкой очень тонко.",
+        "en": "You roll out the dough very thinly with the rolling pin."
+      },
+      "bracket_parts": [
+        "rollt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Stein rollte damals den steilen Berg hinab.",
+      "translation": {
+        "ru": "Камень тогда покатился вниз по крутой горе.",
+        "en": "The stone rolled down the steep mountain back then."
+      },
+      "bracket_parts": [
+        "rollte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das Auto ist langsam die Straße hinunter gerollt.",
+      "translation": {
+        "ru": "Машина медленно покатилась вниз по улице.",
+        "en": "The car slowly rolled down the street."
+      },
+      "bracket_parts": [
+        "ist",
+        "gerollt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Roll den Ball vorsichtig über den Boden!",
+      "translation": {
+        "ru": "Кати мяч осторожно по полу!",
+        "en": "Roll the ball carefully across the floor!"
+      },
+      "bracket_parts": [
+        "Roll"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

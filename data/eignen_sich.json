@@ -1,0 +1,147 @@
+{
+  "id": "eignen_sich",
+  "infinitive": "eignen",
+  "translation": {
+    "ru": "годиться, подходить",
+    "en": "to be suitable, to be fit"
+  },
+  "level": "B1",
+  "frequency_rank": 188,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "eignen",
+    "present_3sg": "eignet sich",
+    "praeteritum_3sg": "eignete sich",
+    "partizip_2": "geeignet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "eigne mich",
+      "du": "eignest dich",
+      "er_sie_es": "eignet sich",
+      "wir": "eignen uns",
+      "ihr": "eignet euch",
+      "sie_Sie": "eignen sich"
+    },
+    "praeteritum": {
+      "ich": "eignete mich",
+      "du": "eignetest dich",
+      "er_sie_es": "eignete sich",
+      "wir": "eigneten uns",
+      "ihr": "eignetet euch",
+      "sie_Sie": "eigneten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich geeignet",
+      "du": "hast dich geeignet",
+      "er_sie_es": "hat sich geeignet",
+      "wir": "haben uns geeignet",
+      "ihr": "habt euch geeignet",
+      "sie_Sie": "haben sich geeignet"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "für",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich eigne mich gut für diese Position.",
+      "translation": {
+        "ru": "Я хорошо подхожу на эту должность.",
+        "en": "I am well-suited for this position."
+      },
+      "bracket_parts": [
+        "eigne"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du eignest dich hervorragend als Teamleiter.",
+      "translation": {
+        "ru": "Ты великолепно годишься в качестве тимлида.",
+        "en": "You are outstandingly suitable as a team leader."
+      },
+      "bracket_parts": [
+        "eignest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dieses Lehrbuch eignet sich besonders für Anfänger.",
+      "translation": {
+        "ru": "Этот учебник особенно подходит для начинающих.",
+        "en": "This textbook is particularly suitable for beginners."
+      },
+      "bracket_parts": [
+        "eignet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir eignen uns perfekt für diese Aufgabe.",
+      "translation": {
+        "ru": "Мы идеально подходим для этой задачи.",
+        "en": "We are perfectly suited for this task."
+      },
+      "bracket_parts": [
+        "eignen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr eignet euch sehr für dieses Theaterstück.",
+      "translation": {
+        "ru": "Вы отлично подходите для этой пьесы.",
+        "en": "You are very suitable for this play."
+      },
+      "bracket_parts": [
+        "eignet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der alte Saal eignete sich gut für Konzerte.",
+      "translation": {
+        "ru": "Старый зал хорошо подходил для концертов.",
+        "en": "The old hall was well-suited for concerts."
+      },
+      "bracket_parts": [
+        "eignete"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das Material hat sich bestens für den Bau geeignet.",
+      "translation": {
+        "ru": "Материал отлично подошел для строительства.",
+        "en": "The material was ideally suited for construction."
+      },
+      "bracket_parts": [
+        "hat",
+        "geeignet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Eigne dich durch fleißiges Lernen für den Beruf!",
+      "translation": {
+        "ru": "Готовься к профессии упорной учебой!",
+        "en": "Make yourself suitable for the job through diligent study!"
+      },
+      "bracket_parts": [
+        "Eigne"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

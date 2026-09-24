@@ -1,0 +1,147 @@
+{
+  "id": "beruhen",
+  "infinitive": "beruhen",
+  "translation": {
+    "ru": "основываться, базироваться",
+    "en": "to be based, rest on"
+  },
+  "level": "B2",
+  "frequency_rank": 549,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beruhen",
+    "present_3sg": "beruht",
+    "praeteritum_3sg": "beruhte",
+    "partizip_2": "beruht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beruhe",
+      "du": "beruhst",
+      "er_sie_es": "beruht",
+      "wir": "beruhen",
+      "ihr": "beruht",
+      "sie_Sie": "beruhen"
+    },
+    "praeteritum": {
+      "ich": "beruhte",
+      "du": "beruhtest",
+      "er_sie_es": "beruhte",
+      "wir": "beruhten",
+      "ihr": "beruhtet",
+      "sie_Sie": "beruhten"
+    },
+    "perfekt": {
+      "ich": "habe beruht",
+      "du": "hast beruht",
+      "er_sie_es": "hat beruht",
+      "wir": "haben beruht",
+      "ihr": "habt beruht",
+      "sie_Sie": "haben beruht"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Meine Argumentation beruht auf gesicherten wissenschaftlichen Fakten.",
+      "translation": {
+        "ru": "Моя аргументация основывается на проверенных научных фактах.",
+        "en": "My argumentation is based on verified scientific facts."
+      },
+      "bracket_parts": [
+        "beruht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Deine Vermutung beruht auf einem reinen Missverständnis.",
+      "translation": {
+        "ru": "Твое предположение основано на чистом недоразумении.",
+        "en": "Your assumption is based on a pure misunderstanding."
+      },
+      "bracket_parts": [
+        "beruht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Erfolg der Firma beruht auf harter und disziplinierter Arbeit.",
+      "translation": {
+        "ru": "Успех компании зиждется на упорном и дисциплинированном труде.",
+        "en": "The success of the company rests on hard and disciplined work."
+      },
+      "bracket_parts": [
+        "beruht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir wissen, dass echte Freundschaft auf gegenseitigem Vertrauen beruht.",
+      "translation": {
+        "ru": "Мы знаем, что настоящая дружба держится на взаимном доверии.",
+        "en": "We know that true friendship is based on mutual trust."
+      },
+      "bracket_parts": [
+        "beruht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Eure Bedenken beruhen auf unvollständigen Informationen.",
+      "translation": {
+        "ru": "Ваши опасения основаны на неполной информации.",
+        "en": "Your concerns are based on incomplete information."
+      },
+      "bracket_parts": [
+        "beruhen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das alte Urteil beruhte damals auf falschen Zeugenaussagen.",
+      "translation": {
+        "ru": "Старый приговор основывался тогда на ложных показаниях свидетелей.",
+        "en": "The old verdict was based on false witness testimonies back then."
+      },
+      "bracket_parts": [
+        "beruhte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Entscheidung hat auf einer gründlichen Analyse beruht.",
+      "translation": {
+        "ru": "Решение опиралось на тщательный анализ.",
+        "en": "The decision was based on a thorough analysis."
+      },
+      "bracket_parts": [
+        "hat",
+        "beruht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Beruhe in deinen Urteilen immer auf verlässlichen Tatsachen!",
+      "translation": {
+        "ru": "Опирайся в своих суждениях всегда на достоверные факты!",
+        "en": "Always base your judgments on reliable facts!"
+      },
+      "bracket_parts": [
+        "Beruhe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

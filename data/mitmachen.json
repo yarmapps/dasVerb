@@ -1,0 +1,150 @@
+{
+  "id": "mitmachen",
+  "infinitive": "mitmachen",
+  "translation": {
+    "ru": "участвовать, принимать участие",
+    "en": "to join in, to take part, to participate"
+  },
+  "level": "A2",
+  "frequency_rank": 714,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "macht mit",
+    "preterite_third_singular": "machte mit",
+    "past_participle": "mitgemacht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "mache mit",
+      "du": "machst mit",
+      "er_sie_es": "macht mit",
+      "wir": "machen mit",
+      "ihr": "macht mit",
+      "sie_Sie": "machen mit"
+    },
+    "preterite": {
+      "ich": "machte mit",
+      "du": "machtest mit",
+      "er_sie_es": "machte mit",
+      "wir": "machten mit",
+      "ihr": "machtet mit",
+      "sie_Sie": "machten mit"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "mitgemacht"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "bei",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich mache bei diesem lustigen Spiel gerne mit.",
+      "translation": {
+        "ru": "Я с удовольствием участвую в этой веселой игре.",
+        "en": "I gladly join in this fun game."
+      },
+      "bracket_parts": [
+        "mache",
+        "mit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Machst du beim nächsten Sprachkurs auch mit?",
+      "translation": {
+        "ru": "Ты тоже участвуешь в следующем языковом курсе?",
+        "en": "Are you also taking part in the next language course?"
+      },
+      "bracket_parts": [
+        "Machst",
+        "mit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er macht bei jedem Sportturnier aktiv mit.",
+      "translation": {
+        "ru": "Он активно участвует в каждом спортивном турнире.",
+        "en": "He actively participates in every sports tournament."
+      },
+      "bracket_parts": [
+        "macht",
+        "mit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir machen bei der Spendenaktion für Kinder mit.",
+      "translation": {
+        "ru": "Мы участвуем в благотворительной акции для детей.",
+        "en": "We join in the fundraiser for children."
+      },
+      "bracket_parts": [
+        "machen",
+        "mit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Macht ihr bei dem neuen Theaterprojekt mit?",
+      "translation": {
+        "ru": "Вы участвуете в новом театральном проекте?",
+        "en": "Are you guys participating in the new theater project?"
+      },
+      "bracket_parts": [
+        "Macht",
+        "mit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie machten bei allen Vorbereitungen begeistert mit.",
+      "translation": {
+        "ru": "Они с энтузиазмом участвовали во всех приготовлениях.",
+        "en": "They enthusiastically participated in all preparations."
+      },
+      "bracket_parts": [
+        "machten",
+        "mit"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Wer hat gestern bei der Diskussionsrunde mitgemacht?",
+      "translation": {
+        "ru": "Кто вчера участвовал в панельной дискуссии?",
+        "en": "Who took part in the discussion round yesterday?"
+      },
+      "bracket_parts": [
+        "hat",
+        "mitgemacht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Mach einfach mit, das macht großen Spaß!",
+      "translation": {
+        "ru": "Просто присоединяйся, это очень весело!",
+        "en": "Just join in, it is great fun!"
+      },
+      "bracket_parts": [
+        "Mach",
+        "mit"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

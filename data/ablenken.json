@@ -1,0 +1,150 @@
+{
+  "id": "ablenken",
+  "infinitive": "ablenken",
+  "translation": {
+    "ru": "отвлекать (внимание/мысли), отклонять (снаряд/удар)",
+    "en": "to distract, to divert, to deflect"
+  },
+  "level": "B1",
+  "frequency_rank": 1004,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "lenkt ab",
+    "preterite_third_singular": "lenkte ab",
+    "past_participle": "abgelenkt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lenke ab",
+      "du": "lenkst ab",
+      "er_sie_es": "lenkt ab",
+      "wir": "lenken ab",
+      "ihr": "lenkt ab",
+      "sie_Sie": "lenken ab"
+    },
+    "preterite": {
+      "ich": "lenkte ab",
+      "du": "lenktest ab",
+      "er_sie_es": "lenkte ab",
+      "wir": "lenkten ab",
+      "ihr": "lenktet ab",
+      "sie_Sie": "lenkten ab"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "abgelenkt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "von",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich lenke mich mit spannender Musik von den Sorgen des Tages ab.",
+      "translation": {
+        "ru": "Я отвлекаюсь увлекательной музыкой от дневных забот.",
+        "en": "I distract myself from the worries of the day with exciting music."
+      },
+      "bracket_parts": [
+        "lenke",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lenkst du den Fahrer während der Autofahrt mit lauten Gesprächen ab?",
+      "translation": {
+        "ru": "Ты отвлекаешь водителя во время движения громкими разговорами?",
+        "en": "Are you distracting the driver with loud talking while driving?"
+      },
+      "bracket_parts": [
+        "Lenkst",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das laute Smartphone lenkt die Schüler ständig vom Unterricht ab.",
+      "translation": {
+        "ru": "Громкий смартфон постоянно отвлекает учеников от урока.",
+        "en": "The loud smartphone constantly distracts the students from the lesson."
+      },
+      "bracket_parts": [
+        "lenkt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir lenken den Fluss des Wassers durch einen Damm in das neue Becken ab.",
+      "translation": {
+        "ru": "Мы отводим поток воды дамбой в новый бассейн.",
+        "en": "We divert the flow of water into the new basin with a dam."
+      },
+      "bracket_parts": [
+        "lenken",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lenkt ihr euch beim Lernen oft durch soziale Medien ab?",
+      "translation": {
+        "ru": "Часто ли вы отвлекаетесь на соцсети во время учебы?",
+        "en": "Do you guys often distract yourselves with social media while studying?"
+      },
+      "bracket_parts": [
+        "Lenkt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Torwart lenkte den platzierten Schuss mit den Fingerspitzen ab.",
+      "translation": {
+        "ru": "Вратарь кончиками пальцев перевел (отклонил) точный удар.",
+        "en": "The goalkeeper deflected the well-placed shot with his fingertips."
+      },
+      "bracket_parts": [
+        "lenkte",
+        "ab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Ein kurzer Spaziergang hat mich wunderbar von der Arbeit abgelenkt.",
+      "translation": {
+        "ru": "Короткая прогулка прекрасно отвлекла меня от работы.",
+        "en": "A short walk distracted me wonderfully from work."
+      },
+      "bracket_parts": [
+        "hat",
+        "abgelenkt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lenke den Fokus nicht von den wirklichen Problemen ab!",
+      "translation": {
+        "ru": "Не отвлекай фокус внимания от реальных проблем!",
+        "en": "Do not divert the focus from the real problems!"
+      },
+      "bracket_parts": [
+        "Lenke",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

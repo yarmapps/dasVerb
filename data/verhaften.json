@@ -1,0 +1,143 @@
+{
+  "id": "verhaften",
+  "infinitive": "verhaften",
+  "translation": {
+    "ru": "арестовывать, задерживать",
+    "en": "to arrest, to detain"
+  },
+  "level": "B1",
+  "frequency_rank": 882,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verhaftet",
+    "preterite_third_singular": "verhaftete",
+    "past_participle": "verhaftet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verhafte",
+      "du": "verhaftest",
+      "er_sie_es": "verhaftet",
+      "wir": "verhaften",
+      "ihr": "verhaftet",
+      "sie_Sie": "verhaften"
+    },
+    "preterite": {
+      "ich": "verhaftete",
+      "du": "verhaftetest",
+      "er_sie_es": "verhaftete",
+      "wir": "verhafteten",
+      "ihr": "verhaftetet",
+      "sie_Sie": "verhafteten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verhaftet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "wegen",
+        "case": "Genitiv"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Im Film verhafte ich als Polizist den gefährlichen Gangster.",
+      "translation": {
+        "ru": "В фильме я как полицейский арестовываю опасного гангстера.",
+        "en": "In the movie, I as a policeman arrest the dangerous gangster."
+      },
+      "bracket_parts": [
+        "verhafte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verhaftest du den Verdächtigen direkt am Flughafen?",
+      "translation": {
+        "ru": "Ты арестовываешь подозреваемого прямо в аэропорту?",
+        "en": "Are you arresting the suspect right at the airport?"
+      },
+      "bracket_parts": [
+        "Verhaftest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei verhaftet den mutmaßlichen Täter noch am Tatort.",
+      "translation": {
+        "ru": "Полиция арестовывает предполагаемого преступника прямо на месте преступления.",
+        "en": "The police arrest the alleged perpetrator right at the crime scene."
+      },
+      "bracket_parts": [
+        "verhaftet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verhaften niemanden ohne richterlichen Haftbefehl.",
+      "translation": {
+        "ru": "Мы никого не арестовываем без судебного ордера на арест.",
+        "en": "We do not arrest anyone without a judicial warrant."
+      },
+      "bracket_parts": [
+        "verhaften"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verhaftet ihr den gesuchten Betrüger heute noch?",
+      "translation": {
+        "ru": "Вы задерживаете разыскиваемого мошенника еще сегодня?",
+        "en": "Are you arresting the wanted fraudster today?"
+      },
+      "bracket_parts": [
+        "Verhaftet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Beamten verhafteten den Flüchtigen nach einer Verfolgungsjagd.",
+      "translation": {
+        "ru": "Сотрудники полиции задержали беглеца после погони.",
+        "en": "The officers arrested the fugitive after a car chase."
+      },
+      "bracket_parts": [
+        "verhafteten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Ermittler haben den Drogenhändler gestern Abend verhaftet.",
+      "translation": {
+        "ru": "Следователи арестовали наркоторговца вчера вечером.",
+        "en": "The investigators arrested the drug dealer yesterday evening."
+      },
+      "bracket_parts": [
+        "haben",
+        "verhaftet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verhafte den Flüchtigen gemäß den gesetzlichen Vorschriften!",
+      "translation": {
+        "ru": "Арестуй беглеца в соответствии с нормами закона!",
+        "en": "Arrest the fugitive in accordance with statutory regulations!"
+      },
+      "bracket_parts": [
+        "Verhafte"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

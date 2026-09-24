@@ -1,0 +1,148 @@
+{
+  "id": "neigen",
+  "infinitive": "neigen",
+  "translation": {
+    "ru": "наклонять, склоняться, иметь склонность",
+    "en": "to tilt, to lean, to tend (to)"
+  },
+  "level": "B2",
+  "frequency_rank": 605,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "neigen",
+    "present_3sg": "neigt",
+    "praeteritum_3sg": "neigte",
+    "partizip_2": "geneigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "neige",
+      "du": "neigst",
+      "er_sie_es": "neigt",
+      "wir": "neigen",
+      "ihr": "neigt",
+      "sie_Sie": "neigen"
+    },
+    "praeteritum": {
+      "ich": "neigte",
+      "du": "neigtest",
+      "er_sie_es": "neigte",
+      "wir": "neigten",
+      "ihr": "neigtet",
+      "sie_Sie": "neigten"
+    },
+    "perfekt": {
+      "ich": "habe geneigt",
+      "du": "hast geneigt",
+      "er_sie_es": "hat geneigt",
+      "wir": "haben geneigt",
+      "ihr": "habt geneigt",
+      "sie_Sie": "haben geneigt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "zu",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich neige bei Stress zu Kopfschmerzen.",
+      "translation": {
+        "ru": "При стрессе я склонен к головным болям.",
+        "en": "I tend to get headaches when stressed."
+      },
+      "bracket_parts": [
+        "neige"
+      ],
+      "tense": "present"
+    },
+    {
+      "du": "neigst",
+      "german": "Neigst du manchmal zu Übertreibungen?",
+      "translation": {
+        "ru": "Ты иногда склонен преувеличивать?",
+        "en": "Do you sometimes tend to exaggerate?"
+      },
+      "bracket_parts": [
+        "Neigst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Turm neigt sich leicht zur Seite.",
+      "translation": {
+        "ru": "Башня слегка наклоняется в сторону.",
+        "en": "The tower tilts slightly to the side."
+      },
+      "bracket_parts": [
+        "neigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir neigen dazu, schnelle Entscheidungen zu treffen.",
+      "translation": {
+        "ru": "Мы склонны принимать быстрые решения.",
+        "en": "We tend to make quick decisions."
+      },
+      "bracket_parts": [
+        "neigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr neigt zu viel Vorsicht bei neuen Projekten.",
+      "translation": {
+        "ru": "Вы проявляете чрезмерную осторожность в новых проектах.",
+        "en": "You tend toward too much caution in new projects."
+      },
+      "bracket_parts": [
+        "neigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Tag neigte sich langsam dem Ende zu.",
+      "translation": {
+        "ru": "День медленно клонился к концу.",
+        "en": "The day was slowly drawing to a close."
+      },
+      "bracket_parts": [
+        "neigte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Er hat schon immer zu Ungeduld geneigt.",
+      "translation": {
+        "ru": "Он всегда был склонен к нетерпению.",
+        "en": "He has always been inclined toward impatience."
+      },
+      "bracket_parts": [
+        "hat",
+        "geneigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Neige den Kopf bitte leicht nach vorne!",
+      "translation": {
+        "ru": "Наклони голову, пожалуйста, слегка вперед!",
+        "en": "Please tilt your head slightly forward!"
+      },
+      "bracket_parts": [
+        "Neige"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

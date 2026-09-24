@@ -1,0 +1,137 @@
+{
+  "id": "verfassen",
+  "infinitive": "verfassen",
+  "translation": {
+    "ru": "сочинять, составлять, писать (текст/статью)",
+    "en": "to compose, to write, to draw up"
+  },
+  "level": "B2",
+  "frequency_rank": 1030,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verfasst",
+    "preterite_third_singular": "verfasste",
+    "past_participle": "verfasst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verfasse",
+      "du": "verfasst",
+      "er_sie_es": "verfasst",
+      "wir": "verfassen",
+      "ihr": "verfasst",
+      "sie_Sie": "verfassen"
+    },
+    "preterite": {
+      "ich": "verfasste",
+      "du": "verfasstest",
+      "er_sie_es": "verfasste",
+      "wir": "verfassten",
+      "ihr": "verfasstet",
+      "sie_Sie": "verfassten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verfasst"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich verfasse einen wissenschaftlichen Artikel über moderne KI-Systeme.",
+      "translation": {
+        "ru": "Я пишу научную статью о современных системах ИИ.",
+        "en": "I compose a scientific article on modern AI systems."
+      },
+      "bracket_parts": [
+        "verfasse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verfasst du das offizielle Protokoll für die heutige Vereinssitzung?",
+      "translation": {
+        "ru": "Составляешь ли ты официальный протокол сегодняшнего заседания клуба?",
+        "en": "Are you drafting the official minutes for today's club meeting?"
+      },
+      "bracket_parts": [
+        "Verfasst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Anwalt verfasst einen rechtssicheren Kaufvertrag für die Immobilie.",
+      "translation": {
+        "ru": "Адвокат составляет юридически грамотный договор купли-продажи недвижимости.",
+        "en": "The lawyer drafts a legally secure purchase agreement for the property."
+      },
+      "bracket_parts": [
+        "verfasst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verfassen gemeinsam eine formelle Beschwerde an die Hausverwaltung.",
+      "translation": {
+        "ru": "Мы вместе составляем официальную жалобу в управляющую компанию.",
+        "en": "We draft a formal complaint to the property management together."
+      },
+      "bracket_parts": [
+        "verfassen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verfasst ihr eure Bachelorarbeit auf Deutsch oder auf Englisch?",
+      "translation": {
+        "ru": "Пишете ли вы бакалаврскую работу на немецком или на английском?",
+        "en": "Are you guys writing your bachelor's thesis in German or in English?"
+      },
+      "bracket_parts": [
+        "Verfasst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der berühmte Schriftsteller verfasste seinen Roman in einem ruhigen Bergdorf.",
+      "translation": {
+        "ru": "Знаменитый писатель написал свой роман в тихой горной деревне.",
+        "en": "The famous author wrote his novel in a quiet mountain village."
+      },
+      "bracket_parts": [
+        "verfasste"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Ministerin hat eine wichtige Regierungserklärung verfasst.",
+      "translation": {
+        "ru": "Министр составила важное правительственное заявление.",
+        "en": "The minister drafted an important government statement."
+      },
+      "bracket_parts": [
+        "hat",
+        "verfasst"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verfasse deine E-Mail präzise, höflich und ohne Rechtschreibfehler!",
+      "translation": {
+        "ru": "Пиши свое электронное письмо точно, вежливо и без орфографических ошибок!",
+        "en": "Write your email precisely, politely, and without spelling errors!"
+      },
+      "bracket_parts": [
+        "Verfasse"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

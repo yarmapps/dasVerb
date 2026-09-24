@@ -1,0 +1,147 @@
+{
+  "id": "entschuldigen_sich",
+  "infinitive": "entschuldigen",
+  "translation": {
+    "ru": "извиняться, просить прощения",
+    "en": "to apologize, to excuse oneself"
+  },
+  "level": "A2",
+  "frequency_rank": 515,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ent",
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "entschuldigen",
+    "present_3sg": "entschuldigt sich",
+    "praeteritum_3sg": "entschuldigte sich",
+    "partizip_2": "entschuldigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entschuldige mich",
+      "du": "entschuldigst dich",
+      "er_sie_es": "entschuldigt sich",
+      "wir": "entschuldigen uns",
+      "ihr": "entschuldigt euch",
+      "sie_Sie": "entschuldigen sich"
+    },
+    "praeteritum": {
+      "ich": "entschuldigte mich",
+      "du": "entschuldigtest dich",
+      "er_sie_es": "entschuldigte sich",
+      "wir": "entschuldigten uns",
+      "ihr": "entschuldigtet euch",
+      "sie_Sie": "entschuldigten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich entschuldigt",
+      "du": "hast dich entschuldigt",
+      "er_sie_es": "hat sich entschuldigt",
+      "wir": "haben uns entschuldigt",
+      "ihr": "habt euch entschuldigt",
+      "sie_Sie": "haben sich entschuldigt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "für",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich entschuldige mich für meine späte Antwort.",
+      "translation": {
+        "ru": "Я прошу прощения за мой поздний ответ.",
+        "en": "I apologize for my late reply."
+      },
+      "bracket_parts": [
+        "entschuldige"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du entschuldigst dich bei deinem besten Freund.",
+      "translation": {
+        "ru": "Ты извиняешься перед своим лучшим другом.",
+        "en": "You apologize to your best friend."
+      },
+      "bracket_parts": [
+        "entschuldigst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Kellner entschuldigt sich höflich für den Fehler.",
+      "translation": {
+        "ru": "Официант вежливо извиняется за ошибку.",
+        "en": "The waiter politely apologizes for the mistake."
+      },
+      "bracket_parts": [
+        "entschuldigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir entschuldigen uns für die Unannehmlichkeiten.",
+      "translation": {
+        "ru": "Мы приносим извинения за неудобства.",
+        "en": "We apologize for the inconvenience."
+      },
+      "bracket_parts": [
+        "entschuldigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Entschuldigt ihr euch nicht bei den Nachbarn?",
+      "translation": {
+        "ru": "Разве вы не извинитесь перед соседями?",
+        "en": "Are you not apologizing to the neighbors?"
+      },
+      "bracket_parts": [
+        "Entschuldigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Sprecher entschuldigte sich für das Missverständnis.",
+      "translation": {
+        "ru": "Спикер извинился за недоразумение.",
+        "en": "The speaker apologized for the misunderstanding."
+      },
+      "bracket_parts": [
+        "entschuldigte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben sich aufrichtig für ihr Verhalten entschuldigt.",
+      "translation": {
+        "ru": "Они искренне извинились за свое поведение.",
+        "en": "They apologized sincerely for their behavior."
+      },
+      "bracket_parts": [
+        "haben",
+        "entschuldigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Entschuldige dich bitte sofort bei deiner Schwester!",
+      "translation": {
+        "ru": "Извинись, пожалуйста, прямо сейчас перед сестрой!",
+        "en": "Please apologize to your sister immediately!"
+      },
+      "bracket_parts": [
+        "Entschuldige"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

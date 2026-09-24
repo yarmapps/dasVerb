@@ -1,0 +1,143 @@
+{
+  "id": "schleppen",
+  "infinitive": "schleppen",
+  "translation": {
+    "ru": "тащить, волочить, буксировать",
+    "en": "to drag, to haul, to tow"
+  },
+  "level": "B1",
+  "frequency_rank": 790,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "schleppt",
+    "preterite_third_singular": "schleppte",
+    "past_participle": "geschleppt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schleppe",
+      "du": "schleppst",
+      "er_sie_es": "schleppt",
+      "wir": "schleppen",
+      "ihr": "schleppt",
+      "sie_Sie": "schleppen"
+    },
+    "preterite": {
+      "ich": "schleppte",
+      "du": "schlepptest",
+      "er_sie_es": "schleppte",
+      "wir": "schleppten",
+      "ihr": "schlepptet",
+      "sie_Sie": "schleppten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geschleppt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich schleppe die schweren Einkaufstaschen in den vierten Stock.",
+      "translation": {
+        "ru": "Я тащу тяжелые сумки с покупками на четвертый этаж.",
+        "en": "I drag the heavy shopping bags up to the fourth floor."
+      },
+      "bracket_parts": [
+        "schleppe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schleppst du den Koffer ganz alleine die Treppe hoch?",
+      "translation": {
+        "ru": "Ты тащишь чемодан вверх по лестнице совсем один?",
+        "en": "Are you hauling the suitcase up the stairs all by yourself?"
+      },
+      "bracket_parts": [
+        "Schleppst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Abschleppwagen schleppt das defekte Auto ab.",
+      "translation": {
+        "ru": "Эвакуатор буксирует неисправную машину.",
+        "en": "The tow truck tows away the broken car."
+      },
+      "bracket_parts": [
+        "schleppt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schleppen die Kisten gemeinsam in den Keller.",
+      "translation": {
+        "ru": "Мы вместе тащим ящики в подвал.",
+        "en": "We haul the boxes into the basement together."
+      },
+      "bracket_parts": [
+        "schleppen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schleppt ihr die Möbel bei diesem heißen Wetter?",
+      "translation": {
+        "ru": "Вы таскаете мебель в такую жаркую погоду?",
+        "en": "Are you guys hauling furniture in this hot weather?"
+      },
+      "bracket_parts": [
+        "Schleppt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der müde Wanderer schleppte sich mühsam vorwärts.",
+      "translation": {
+        "ru": "Уставший путник с трудом волочился вперед.",
+        "en": "The tired hiker dragged himself forward with difficulty."
+      },
+      "bracket_parts": [
+        "schleppte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben viele schwere Pakete zur Post geschleppt.",
+      "translation": {
+        "ru": "Они притащили много тяжелых посылок на почту.",
+        "en": "They hauled many heavy packages to the post office."
+      },
+      "bracket_parts": [
+        "haben",
+        "geschleppt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schlepp dich nicht mit so viel Gepäck ab!",
+      "translation": {
+        "ru": "Не надрывайся с таким количеством багажа!",
+        "en": "Don't wear yourself out dragging so much luggage!"
+      },
+      "bracket_parts": [
+        "Schlepp"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

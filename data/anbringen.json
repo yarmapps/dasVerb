@@ -1,0 +1,150 @@
+{
+  "id": "anbringen",
+  "infinitive": "anbringen",
+  "translation": {
+    "ru": "прикреплять, устанавливать, высказывать",
+    "en": "to attach, to put up, to voice"
+  },
+  "level": "B1",
+  "frequency_rank": 725,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "irregular",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "bringt an",
+    "preterite_third_singular": "brachte an",
+    "past_participle": "angebracht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bringe an",
+      "du": "bringst an",
+      "er_sie_es": "bringt an",
+      "wir": "bringen an",
+      "ihr": "bringt an",
+      "sie_Sie": "bringen an"
+    },
+    "preterite": {
+      "ich": "brachte an",
+      "du": "brachtest an",
+      "er_sie_es": "brachte an",
+      "wir": "brachten an",
+      "ihr": "brachtet an",
+      "sie_Sie": "brachten an"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "angebracht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "an",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich bringe das neue Bild an der Wand an.",
+      "translation": {
+        "ru": "Я вешаю новую картину на стену.",
+        "en": "I attach the new picture to the wall."
+      },
+      "bracket_parts": [
+        "bringe",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bringst du den Spiegel im Badezimmer an?",
+      "translation": {
+        "ru": "Ты устанавливаешь зеркало в ванной комнате?",
+        "en": "Are you putting up the mirror in the bathroom?"
+      },
+      "bracket_parts": [
+        "Bringst",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Handwerker bringt eine stabile Lampe an.",
+      "translation": {
+        "ru": "Мастер устанавливает прочную лампу.",
+        "en": "The handyman installs a sturdy lamp."
+      },
+      "bracket_parts": [
+        "bringt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bringen unsere Kritik in der Sitzung an.",
+      "translation": {
+        "ru": "Мы высказываем свою критику на заседании.",
+        "en": "We voice our criticism in the meeting."
+      },
+      "bracket_parts": [
+        "bringen",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bringt ihr die Hinweisschilder gut sichtbar an?",
+      "translation": {
+        "ru": "Вы вешаете указатели на видном месте?",
+        "en": "Are you attaching the warning signs in a clearly visible place?"
+      },
+      "bracket_parts": [
+        "Bringt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er brachte das Namensschild an der Tür an.",
+      "translation": {
+        "ru": "Он прикрепил табличку с именем на дверь.",
+        "en": "He attached the nameplate to the door."
+      },
+      "bracket_parts": [
+        "brachte",
+        "an"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben ein modernes Sicherheitsschloss angebracht.",
+      "translation": {
+        "ru": "Они установили современный надежный замок.",
+        "en": "They have installed a modern security lock."
+      },
+      "bracket_parts": [
+        "haben",
+        "angebracht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bring das Schild bitte gerade an!",
+      "translation": {
+        "ru": "Повесь табличку ровно, пожалуйста!",
+        "en": "Please attach the sign straight!"
+      },
+      "bracket_parts": [
+        "Bring",
+        "an"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

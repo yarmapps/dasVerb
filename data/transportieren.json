@@ -1,0 +1,138 @@
+{
+  "id": "transportieren",
+  "infinitive": "transportieren",
+  "translation": {
+    "ru": "транспортировать, перевозить",
+    "en": "to transport, to convey"
+  },
+  "level": "B1",
+  "frequency_rank": 716,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "transportiert",
+    "preterite_third_singular": "transportierte",
+    "past_participle": "transportiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "transportiere",
+      "du": "transportierst",
+      "er_sie_es": "transportiert",
+      "wir": "transportieren",
+      "ihr": "transportiert",
+      "sie_Sie": "transportieren"
+    },
+    "preterite": {
+      "ich": "transportierte",
+      "du": "transportiertest",
+      "er_sie_es": "transportierte",
+      "wir": "transportierten",
+      "ihr": "transportiertet",
+      "sie_Sie": "transportierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "transportiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich transportiere die Kisten mit meinem Anhänger.",
+      "translation": {
+        "ru": "Я перевожу коробки на своем прицепе.",
+        "en": "I transport the boxes with my trailer."
+      },
+      "bracket_parts": [
+        "transportiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du transportierst das wertvolle Gemälde sehr vorsichtig.",
+      "translation": {
+        "ru": "Ты очень осторожно перевозишь ценную картину.",
+        "en": "You transport the valuable painting very carefully."
+      },
+      "bracket_parts": [
+        "transportierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Lkw transportiert schwere Maschinen zur Baustelle.",
+      "translation": {
+        "ru": "Грузовик перевозит тяжелую технику на стройку.",
+        "en": "The truck transports heavy machinery to the construction site."
+      },
+      "bracket_parts": [
+        "transportiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir transportieren die Waren direkt zum Kunden.",
+      "translation": {
+        "ru": "Мы доставляем товары напрямую клиенту.",
+        "en": "We transport the goods directly to the customer."
+      },
+      "bracket_parts": [
+        "transportieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr transportiert das Gepäck im Kofferraum.",
+      "translation": {
+        "ru": "Вы перевозите багаж в багажнике.",
+        "en": "You transport the luggage in the trunk."
+      },
+      "bracket_parts": [
+        "transportiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Bahn transportierte täglich tausende Tonnen Güter.",
+      "translation": {
+        "ru": "Железная дорога перевозила ежедневно тысячи тонн грузов.",
+        "en": "The railway transported thousands of tons of goods daily."
+      },
+      "bracket_parts": [
+        "transportierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben die Möbel sicher in die neue Wohnung transportiert.",
+      "translation": {
+        "ru": "Они благополучно перевезли мебель в новую квартиру.",
+        "en": "They transported the furniture safely to the new apartment."
+      },
+      "bracket_parts": [
+        "haben",
+        "transportiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Transportiere diese Kartons bitte nicht im Regen!",
+      "translation": {
+        "ru": "Пожалуйста, не перевози эти коробки под дождем!",
+        "en": "Please do not transport these boxes in the rain!"
+      },
+      "bracket_parts": [
+        "Transportiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

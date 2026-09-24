@@ -1,0 +1,138 @@
+{
+  "id": "erschiessen",
+  "infinitive": "erschießen",
+  "translation": {
+    "ru": "застрелить, расстрелять",
+    "en": "to shoot dead, to shoot"
+  },
+  "level": "B2",
+  "frequency_rank": 867,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "erschießt",
+    "preterite_third_singular": "erschoss",
+    "past_participle": "erschossen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erschieße",
+      "du": "erschießt",
+      "er_sie_es": "erschießt",
+      "wir": "erschießen",
+      "ihr": "erschießt",
+      "sie_Sie": "erschießen"
+    },
+    "preterite": {
+      "ich": "erschoss",
+      "du": "erschossest",
+      "er_sie_es": "erschoss",
+      "wir": "erschossen",
+      "ihr": "erschosst",
+      "sie_Sie": "erschossen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "erschossen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Im Kriminalroman erschießt der Täter das Opfer aus dem Hinterhalt.",
+      "translation": {
+        "ru": "В детективном романе преступник застреливает жертву из засады.",
+        "en": "In the crime novel, the perpetrator shoots the victim from an ambush."
+      },
+      "bracket_parts": [
+        "erschießt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erschießt der Jäger das verletzte Tier zur Erlösung?",
+      "translation": {
+        "ru": "Охотник пристреливает раненого зверя для избавления от мук?",
+        "en": "Does the hunter shoot the injured animal for mercy?"
+      },
+      "bracket_parts": [
+        "Erschießt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Polizist erschießt den bewaffneten Angreifer in Notwehr.",
+      "translation": {
+        "ru": "Полицейский застреливает вооруженного нападавшего в целях самообороны.",
+        "en": "The police officer shoots the armed attacker in self-defense."
+      },
+      "bracket_parts": [
+        "erschießt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erschießen im Computerspiel die virtuellen Monster.",
+      "translation": {
+        "ru": "Мы расстреливаем виртуальных монстров в компьютерной игре.",
+        "en": "We shoot the virtual monsters in the computer game."
+      },
+      "bracket_parts": [
+        "erschießen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erschießt ihr die Zielscheiben auf dem Schießstand?",
+      "translation": {
+        "ru": "Вы поражаете мишени на стрельбище?",
+        "en": "Are you shooting the targets at the shooting range?"
+      },
+      "bracket_parts": [
+        "Erschießt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Attentäter erschoss den Politiker auf offener Straße.",
+      "translation": {
+        "ru": "Убийца застрелил политика посреди улицы.",
+        "en": "The assassin shot the politician in broad daylight."
+      },
+      "bracket_parts": [
+        "erschoss"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Wachleute haben den flüchtigen Verbrecher erschossen.",
+      "translation": {
+        "ru": "Охранники застрелили беглого преступника.",
+        "en": "Guards shot the fleeing criminal dead."
+      },
+      "bracket_parts": [
+        "haben",
+        "erschossen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lies das Drama und erfahre, wer wen erschießt!",
+      "translation": {
+        "ru": "Прочитай драму и узнай, кто кого застрелит!",
+        "en": "Read the drama and find out who shoots whom!"
+      },
+      "bracket_parts": [
+        "erschießt"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

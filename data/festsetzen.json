@@ -1,0 +1,144 @@
+{
+  "id": "festsetzen",
+  "infinitive": "festsetzen",
+  "translation": {
+    "ru": "устанавливать, назначать (срок/цену), задерживать/арестовывать",
+    "en": "to determine, to schedule, to fix, to detain"
+  },
+  "level": "B2",
+  "frequency_rank": 1040,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "setzt fest",
+    "preterite_third_singular": "setzte fest",
+    "past_participle": "festgesetzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "setze fest",
+      "du": "setzt fest",
+      "er_sie_es": "setzt fest",
+      "wir": "setzen fest",
+      "ihr": "setzt fest",
+      "sie_Sie": "setzen fest"
+    },
+    "preterite": {
+      "ich": "setzte fest",
+      "du": "setztest fest",
+      "er_sie_es": "setzte fest",
+      "wir": "setzten fest",
+      "ihr": "setztet fest",
+      "sie_Sie": "setzten fest"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "festgesetzt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich setze den Termin für die Konferenz verbindlich auf nächsten Montag fest.",
+      "translation": {
+        "ru": "Я окончательно назначаю дату конференции на следующий понедельник.",
+        "en": "I firmly set the date for the conference for next Monday."
+      },
+      "bracket_parts": [
+        "setze",
+        "fest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Setzt du die Preise für die Produkte nach den Herstellungskosten fest?",
+      "translation": {
+        "ru": "Ты устанавливаешь цены на продукцию в соответствии с себестоимостью?",
+        "en": "Do you determine the prices for the products according to manufacturing costs?"
+      },
+      "bracket_parts": [
+        "Setzt",
+        "fest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Gericht setzt die Kaution auf zehntausend Euro fest.",
+      "translation": {
+        "ru": "Суд устанавливает залог в размере десяти тысяч евро.",
+        "en": "The court sets bail at ten thousand euros."
+      },
+      "bracket_parts": [
+        "setzt",
+        "fest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir setzen gemeinsame Regeln für die Teamarbeit fest.",
+      "translation": {
+        "ru": "Мы устанавливаем общие правила для работы в команде.",
+        "en": "We establish common rules for teamwork."
+      },
+      "bracket_parts": [
+        "setzen",
+        "fest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Setzt ihr die Frist für die Abgabe der Arbeiten fest?",
+      "translation": {
+        "ru": "Устанавливаете ли вы крайний срок сдачи работ?",
+        "en": "Are you guys setting the deadline for submitting the assignments?"
+      },
+      "bracket_parts": [
+        "Setzt",
+        "fest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei setzte die Verdächtigen am Tatort vorläufig fest.",
+      "translation": {
+        "ru": "Полиция временно задержала подозреваемых на месте преступления.",
+        "en": "The police provisionally detained the suspects at the crime scene."
+      },
+      "bracket_parts": [
+        "setzte",
+        "fest"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Ausschuss hat den offiziellen Tagungsort einstimmig festgesetzt.",
+      "translation": {
+        "ru": "Комитет единогласно утвердил официальное место проведения конференции.",
+        "en": "The committee unanimously established the official venue."
+      },
+      "bracket_parts": [
+        "hat",
+        "festgesetzt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Setze die Prioritäten für deine Arbeit von Anfang an klar fest!",
+      "translation": {
+        "ru": "Четко расставляй приоритеты для своей работы с самого начала!",
+        "en": "Determine the priorities for your work clearly right from the start!"
+      },
+      "bracket_parts": [
+        "Setze",
+        "fest"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

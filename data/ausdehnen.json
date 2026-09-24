@@ -1,0 +1,150 @@
+{
+  "id": "ausdehnen",
+  "infinitive": "ausdehnen",
+  "translation": {
+    "ru": "расширять, увеличивать, растягивать",
+    "en": "to expand, to extend, to stretch"
+  },
+  "level": "B2",
+  "frequency_rank": 899,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "dehnt aus",
+    "preterite_third_singular": "dehnte aus",
+    "past_participle": "ausgedehnt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "dehne aus",
+      "du": "dehnst aus",
+      "er_sie_es": "dehnt aus",
+      "wir": "dehnen aus",
+      "ihr": "dehnt aus",
+      "sie_Sie": "dehnen aus"
+    },
+    "preterite": {
+      "ich": "dehnte aus",
+      "du": "dehntest aus",
+      "er_sie_es": "dehnte aus",
+      "wir": "dehnten aus",
+      "ihr": "dehntet aus",
+      "sie_Sie": "dehnten aus"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "ausgedehnt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich dehne mein tägliches Training auf eine volle Stunde aus.",
+      "translation": {
+        "ru": "Я расширяю свою ежедневную тренировку до полного часа.",
+        "en": "I extend my daily training to a full hour."
+      },
+      "bracket_parts": [
+        "dehne",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dehnst du deine Geschäftsbeziehungen auf ganz Europa aus?",
+      "translation": {
+        "ru": "Ты расширяешь свои деловые связи на всю Европу?",
+        "en": "Are you extending your business relations to all of Europe?"
+      },
+      "bracket_parts": [
+        "Dehnst",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Metall dehnt sich bei großer Hitze spürbar aus.",
+      "translation": {
+        "ru": "Металл при сильном нагреве ощутимо расширяется.",
+        "en": "Metal expands noticeably in high heat."
+      },
+      "bracket_parts": [
+        "dehnt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir dehnen unseren Urlaub um ein paar entspannte Tage aus.",
+      "translation": {
+        "ru": "Мы продлеваем наш отпуск на несколько спокойных дней.",
+        "en": "We extend our vacation by a few relaxing days."
+      },
+      "bracket_parts": [
+        "dehnen",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dehnt ihr das Liefergebiet für euren Onlineshop aus?",
+      "translation": {
+        "ru": "Вы расширяете зону доставки для вашего интернет-магазина?",
+        "en": "Are you extending the delivery area for your online shop?"
+      },
+      "bracket_parts": [
+        "Dehnt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Römische Reich dehnte seine Grenzen weit nach Norden aus.",
+      "translation": {
+        "ru": "Римская империя расширила свои границы далеко на север.",
+        "en": "The Roman Empire extended its borders far to the north."
+      },
+      "bracket_parts": [
+        "dehnte",
+        "aus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Unternehmen hat seine Marktpräsenz weltweit ausgedehnt.",
+      "translation": {
+        "ru": "Компания расширила свое присутствие на рынке по всему миру.",
+        "en": "The company has expanded its market presence worldwide."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgedehnt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Dehne die Diskussion nicht unnötig in die Länge aus!",
+      "translation": {
+        "ru": "Не затягивай дискуссию излишне по времени!",
+        "en": "Do not drag the discussion out unnecessarily!"
+      },
+      "bracket_parts": [
+        "Dehne",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

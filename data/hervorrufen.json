@@ -1,0 +1,144 @@
+{
+  "id": "hervorrufen",
+  "infinitive": "hervorrufen",
+  "translation": {
+    "ru": "вызывать, порождать, влечь за собой",
+    "en": "to evoke, to cause, to provoke"
+  },
+  "level": "B2",
+  "frequency_rank": 953,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "ruft hervor",
+    "preterite_third_singular": "rief hervor",
+    "past_participle": "hervorgerufen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "rufe hervor",
+      "du": "rufst hervor",
+      "er_sie_es": "ruft hervor",
+      "wir": "rufen hervor",
+      "ihr": "ruft hervor",
+      "sie_Sie": "rufen hervor"
+    },
+    "preterite": {
+      "ich": "rief hervor",
+      "du": "riefst hervor",
+      "er_sie_es": "rief hervor",
+      "wir": "riefen hervor",
+      "ihr": "rieft hervor",
+      "sie_Sie": "riefen hervor"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "hervorgerufen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich rufe mit meiner Rede lebhafte Diskussionen im Saal hervor.",
+      "translation": {
+        "ru": "Своей речью я вызываю оживленные дискуссии в зале.",
+        "en": "With my speech, I evoke lively discussions in the hall."
+      },
+      "bracket_parts": [
+        "rufe",
+        "hervor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Rufst du mit deinen provokanten Thesen gezielt Widerspruch hervor?",
+      "translation": {
+        "ru": "Ты намеренно вызываешь возражения своими провокационными тезисами?",
+        "en": "Do you deliberately provoke opposition with your provocative theses?"
+      },
+      "bracket_parts": [
+        "Rufst",
+        "hervor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das neue Gesetz ruft scharfe Kritik bei der Opposition hervor.",
+      "translation": {
+        "ru": "Новый закон вызывает острую критику со стороны оппозиции.",
+        "en": "The new law provokes sharp criticism from the opposition."
+      },
+      "bracket_parts": [
+        "ruft",
+        "hervor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir rufen durch Innovationen positive Veränderungen in der Branche hervor.",
+      "translation": {
+        "ru": "Инновациями мы вызываем позитивные изменения в отрасли.",
+        "en": "Through innovation, we bring about positive changes in the industry."
+      },
+      "bracket_parts": [
+        "rufen",
+        "hervor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ruft ihr mit eurem Theaterstück starke Emotionen beim Publikum hervor?",
+      "translation": {
+        "ru": "Вызываете ли вы своим спектаклем сильные эмоции у публики?",
+        "en": "Do you guys evoke strong emotions in the audience with your play?"
+      },
+      "bracket_parts": [
+        "Ruft",
+        "hervor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Entscheidung rief damals eine Welle des Protests hervor.",
+      "translation": {
+        "ru": "Это решение вызвало тогда волну протеста.",
+        "en": "The decision evoked a wave of protest at the time."
+      },
+      "bracket_parts": [
+        "rief",
+        "hervor"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Wirkstoff hat unerwartete Nebenwirkungen bei Patienten hervorgerufen.",
+      "translation": {
+        "ru": "Действующее вещество вызвало неожиданные побочные эффекты у пациентов.",
+        "en": "The active ingredient caused unexpected side effects in patients."
+      },
+      "bracket_parts": [
+        "hat",
+        "hervorgerufen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Rufe keine unnötigen Konflikte in der Familie hervor!",
+      "translation": {
+        "ru": "Не провоцируй ненужных конфликтов в семье!",
+        "en": "Do not provoke unnecessary conflicts in the family!"
+      },
+      "bracket_parts": [
+        "Rufe",
+        "hervor"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

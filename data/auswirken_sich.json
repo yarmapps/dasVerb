@@ -1,0 +1,150 @@
+{
+  "id": "auswirken_sich",
+  "infinitive": "auswirken",
+  "translation": {
+    "ru": "сказываться, отражаться, влиять",
+    "en": "to have an effect, to impact"
+  },
+  "level": "B1",
+  "frequency_rank": 651,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "auswirken",
+    "present_3sg": "wirkt sich aus",
+    "praeteritum_3sg": "wirkte sich aus",
+    "partizip_2": "ausgewirkt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wirke mich aus",
+      "du": "wirkst dich aus",
+      "er_sie_es": "wirkt sich aus",
+      "wir": "wirken uns aus",
+      "ihr": "wirkt euch aus",
+      "sie_Sie": "wirken sich aus"
+    },
+    "praeteritum": {
+      "ich": "wirkte mich aus",
+      "du": "wirktest dich aus",
+      "er_sie_es": "wirkte sich aus",
+      "wir": "wirkten uns aus",
+      "ihr": "wirktet euch aus",
+      "sie_Sie": "wirkten sich aus"
+    },
+    "perfekt": {
+      "ich": "habe mich ausgewirkt",
+      "du": "hast dich ausgewirkt",
+      "er_sie_es": "hat sich ausgewirkt",
+      "wir": "haben uns ausgewirkt",
+      "ihr": "habt euch ausgewirkt",
+      "sie_Sie": "haben sich ausgewirkt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich weiß, wie meine Entscheidungen sich auf das Team auswirken.",
+      "translation": {
+        "ru": "Я знаю, как мои решения сказываются на команде.",
+        "en": "I know how my decisions affect the team."
+      },
+      "bracket_parts": [
+        "auswirken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wirkt sich der Schlafmangel negativ auf deine Noten aus?",
+      "translation": {
+        "ru": "Недосып отрицательно сказывается на твоих оценках?",
+        "en": "Does the lack of sleep have a negative impact on your grades?"
+      },
+      "bracket_parts": [
+        "Wirkt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Inflation wirkt sich spürbar auf die Preise aus.",
+      "translation": {
+        "ru": "Инфляция ощутимо отражается на ценах.",
+        "en": "Inflation has a noticeable impact on prices."
+      },
+      "bracket_parts": [
+        "wirkt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir sehen, wie neue Gesetze sich positiv auf die Umwelt auswirken.",
+      "translation": {
+        "ru": "Мы видим, как новые законы положительно влияют на окружающую среду.",
+        "en": "We see how new laws have a positive effect on the environment."
+      },
+      "bracket_parts": [
+        "auswirken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr bemerkt, wie die Maßnahmen sich direkt auf die Arbeit auswirken.",
+      "translation": {
+        "ru": "Вы замечаете, как меры напрямую отражаются на работе.",
+        "en": "You notice how the measures directly affect the work."
+      },
+      "bracket_parts": [
+        "auswirken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Krise wirkte sich damals schwer auf die Wirtschaft aus.",
+      "translation": {
+        "ru": "Кризис тогда тяжело отразился на экономике.",
+        "en": "The crisis had a severe impact on the economy back then."
+      },
+      "bracket_parts": [
+        "wirkte",
+        "aus"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Reform hat sich sehr positiv auf das Bildungssystem ausgewirkt.",
+      "translation": {
+        "ru": "Реформа очень положительно повлияла на систему образования.",
+        "en": "The reform has had a very positive effect on the education system."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgewirkt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Handle klug, damit deine Taten sich gut auswirken!",
+      "translation": {
+        "ru": "Поступай умно, чтобы твои действия принесли добрые плоды!",
+        "en": "Act wisely so that your actions have a good effect!"
+      },
+      "bracket_parts": [
+        "auswirken"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

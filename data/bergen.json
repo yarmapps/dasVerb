@@ -1,0 +1,143 @@
+{
+  "id": "bergen",
+  "infinitive": "bergen",
+  "translation": {
+    "ru": "спасать, извлекать (из завалов), таить в себе (опасность)",
+    "en": "to rescue, to recover, to harbor (danger)"
+  },
+  "level": "B2",
+  "frequency_rank": 907,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "birgt",
+    "preterite_third_singular": "barg",
+    "past_participle": "geborgen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "berge",
+      "du": "birgst",
+      "er_sie_es": "birgt",
+      "wir": "bergen",
+      "ihr": "bergt",
+      "sie_Sie": "bergen"
+    },
+    "preterite": {
+      "ich": "barg",
+      "du": "bargst",
+      "er_sie_es": "barg",
+      "wir": "bargen",
+      "ihr": "bargt",
+      "sie_Sie": "bargen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geborgen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "aus",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Dieser riskante Plan birgt viele unvorhersehbare Gefahren.",
+      "translation": {
+        "ru": "Этот рискованный план таит в себе много непредсказуемых опасностей.",
+        "en": "This risky plan harbors many unpredictable dangers."
+      },
+      "bracket_parts": [
+        "birgt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Birgst du das wertvolle Erbe deiner Familie sicher im Safe?",
+      "translation": {
+        "ru": "Ты надежно хранишь ценное наследие своей семьи в сейфе?",
+        "en": "Do you keep your family's valuable heritage safely in the safe?"
+      },
+      "bracket_parts": [
+        "Birgst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Bergrettung birgt verunglückte Kletterer aus der Steilwand.",
+      "translation": {
+        "ru": "Горноспасатели эвакуируют пострадавших альпинистов с отвесной скалы.",
+        "en": "The mountain rescue recovers injured climbers from the sheer cliff."
+      },
+      "bracket_parts": [
+        "birgt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bergen historische Kunstschätze vor der Zerstörung.",
+      "translation": {
+        "ru": "Мы спасаем исторические художественные ценности от разрушения.",
+        "en": "We rescue historical art treasures from destruction."
+      },
+      "bracket_parts": [
+        "bergen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bergt ihr das gesunkene Schiff mit speziellem Gerät?",
+      "translation": {
+        "ru": "Вы поднимаете затонувший корабль специальным оборудованием?",
+        "en": "Are you salvaging the sunken ship with special equipment?"
+      },
+      "bracket_parts": [
+        "Bergt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Feuerwehr barg die Verletzten aus dem Unfallauto.",
+      "translation": {
+        "ru": "Пожарные извлекли пострадавших из разбитой машины.",
+        "en": "The fire department rescued the injured from the wrecked car."
+      },
+      "bracket_parts": [
+        "barg"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Taucher haben den alten Goldschatz aus dem Meer geborgen.",
+      "translation": {
+        "ru": "Водолазы подняли старинный золотой клад со дна моря.",
+        "en": "Divers have recovered the ancient gold treasure from the sea."
+      },
+      "bracket_parts": [
+        "haben",
+        "geborgen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Berge die Verletzten vorsichtig aus der Gefahrenzone!",
+      "translation": {
+        "ru": "Осторожно эвакуируй пострадавших из опасной зоны!",
+        "en": "Rescue the injured carefully from the danger zone!"
+      },
+      "bracket_parts": [
+        "Berge"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

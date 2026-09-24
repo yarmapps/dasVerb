@@ -1,0 +1,144 @@
+{
+  "id": "anvertrauen",
+  "infinitive": "anvertrauen",
+  "translation": {
+    "ru": "доверять, вверять (тайну/заботу)",
+    "en": "to entrust, to confide"
+  },
+  "level": "B2",
+  "frequency_rank": 1037,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "traut an",
+    "preterite_third_singular": "traute an",
+    "past_participle": "anvertraut"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "traue an",
+      "du": "traust an",
+      "er_sie_es": "traut an",
+      "wir": "trauen an",
+      "ihr": "traut an",
+      "sie_Sie": "trauen an"
+    },
+    "preterite": {
+      "ich": "traute an",
+      "du": "trautest an",
+      "er_sie_es": "traute an",
+      "wir": "trauten an",
+      "ihr": "trautet an",
+      "sie_Sie": "trauten an"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "anvertraut"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich vertraue meinem besten Freund meine geheimsten Gedanken an.",
+      "translation": {
+        "ru": "Я доверяю свои сокровенные мысли лучшему другу.",
+        "en": "I entrust my most secret thoughts to my best friend."
+      },
+      "bracket_parts": [
+        "vertraue",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Traust du der neuen Nachbarin während des Urlaubs deinen Wohnungsschlüssel an?",
+      "translation": {
+        "ru": "Доверяешь ли ты новой соседке ключ от квартиры на время отпуска?",
+        "en": "Do you entrust your apartment key to the new neighbor during vacation?"
+      },
+      "bracket_parts": [
+        "Traust",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Mutter vertraut ihr kleines Kind der erfahrenen Tagesmutter an.",
+      "translation": {
+        "ru": "Мать вверяет своего маленького ребенка опытной няне.",
+        "en": "The mother entrusts her small child to the experienced babysitter."
+      },
+      "bracket_parts": [
+        "vertraut",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir vertrauen unserer Bank die Verwaltung unserer Ersparnisse an.",
+      "translation": {
+        "ru": "Мы доверяем нашему банку управление нашими сбережениями.",
+        "en": "We entrust the management of our savings to our bank."
+      },
+      "bracket_parts": [
+        "vertrauen",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vertraut ihr eure Sorgen euren Lehrern oder Eltern an?",
+      "translation": {
+        "ru": "Доверяете ли вы свои заботы учителям или родителям?",
+        "en": "Do you guys confide your worries in your teachers or parents?"
+      },
+      "bracket_parts": [
+        "Vertraut",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er vertraute ihr damals ein lange gehütetes Familiengeheimnis an.",
+      "translation": {
+        "ru": "Он доверил ей тогда долго хранившуюся семейную тайну.",
+        "en": "He entrusted a long-kept family secret to her back then."
+      },
+      "bracket_parts": [
+        "vertraute",
+        "an"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie hat mir ihre wertvollsten Schmuckstücke zur Aufbewahrung anvertraut.",
+      "translation": {
+        "ru": "Она доверила мне свои самые ценные украшения на хранение.",
+        "en": "She has entrusted her most valuable pieces of jewelry to me for safekeeping."
+      },
+      "bracket_parts": [
+        "hat",
+        "anvertraut"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Vertraue deine Geheimnisse nur wahrhaft verlässlichen Menschen an!",
+      "translation": {
+        "ru": "Доверяй свои тайны только по-настоящему надежным людям!",
+        "en": "Entrust your secrets only to truly reliable people!"
+      },
+      "bracket_parts": [
+        "Vertraue",
+        "an"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

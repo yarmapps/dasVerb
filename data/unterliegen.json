@@ -1,0 +1,147 @@
+{
+  "id": "unterliegen",
+  "infinitive": "unterliegen",
+  "translation": {
+    "ru": "подлежать (чему-л.), подчиняться, терпеть поражение",
+    "en": "to be subject to, to succumb to, to be defeated"
+  },
+  "level": "B2",
+  "frequency_rank": 566,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "unter",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "unterliegen",
+    "present_3sg": "unterliegt",
+    "praeteritum_3sg": "unterlag",
+    "partizip_2": "unterlegen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "unterliege",
+      "du": "unterliegst",
+      "er_sie_es": "unterliegt",
+      "wir": "unterliegen",
+      "ihr": "unterliegt",
+      "sie_Sie": "unterliegen"
+    },
+    "praeteritum": {
+      "ich": "unterlag",
+      "du": "unterlagst",
+      "er_sie_es": "unterlag",
+      "wir": "unterlagen",
+      "ihr": "unterlagt",
+      "sie_Sie": "unterlagen"
+    },
+    "perfekt": {
+      "ich": "habe unterlegen",
+      "du": "hast unterlegen",
+      "er_sie_es": "hat unterlegen",
+      "wir": "haben unterlegen",
+      "ihr": "habt unterlegen",
+      "sie_Sie": "haben unterlegen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "dativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich unterliege hier keinen besonderen Beschränkungen.",
+      "translation": {
+        "ru": "Я не подчиняюсь здесь особым ограничениям.",
+        "en": "I am not subject to any special restrictions here."
+      },
+      "bracket_parts": [
+        "unterliege"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du unterliegst bei dieser Sache einem Irrtum.",
+      "translation": {
+        "ru": "Ты в этом деле глубоко заблуждаешься.",
+        "en": "You are subject to an error in this matter."
+      },
+      "bracket_parts": [
+        "unterliegst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dieser Vertrag unterliegt dem deutschen Recht.",
+      "translation": {
+        "ru": "Этот договор подчиняется немецкому праву.",
+        "en": "This contract is subject to German law."
+      },
+      "bracket_parts": [
+        "unterliegt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir unterliegen im Finale leider einem starken Gegner.",
+      "translation": {
+        "ru": "Мы в финале, к сожалению, уступаем сильному сопернику.",
+        "en": "Unfortunately, we are losing to a strong opponent in the final."
+      },
+      "bracket_parts": [
+        "unterliegen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr unterliegt denselben gesetzlichen Bestimmungen.",
+      "translation": {
+        "ru": "Вы подчиняетесь тем же законодательным нормам.",
+        "en": "You are subject to the same legal regulations."
+      },
+      "bracket_parts": [
+        "unterliegt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Dokument unterlag strenger Geheimhaltung.",
+      "translation": {
+        "ru": "Документ подлежал строгой секретности.",
+        "en": "The document was subject to strict secrecy."
+      },
+      "bracket_parts": [
+        "unterlag"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Mannschaft hat im gestrigen Endspiel knapp unterlegen.",
+      "translation": {
+        "ru": "Команда вчера во финале потерпела минимальное поражение.",
+        "en": "The team narrowly lost in yesterday's final."
+      },
+      "bracket_parts": [
+        "hat",
+        "unterlegen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Unterliege nicht solchen falschen Vorstellungen!",
+      "translation": {
+        "ru": "Не поддавайся таким ложным представлениям!",
+        "en": "Do not succumb to such false notions!"
+      },
+      "bracket_parts": [
+        "Unterliege"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

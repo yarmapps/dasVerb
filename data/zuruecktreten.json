@@ -1,0 +1,150 @@
+{
+  "id": "zuruecktreten",
+  "infinitive": "zurücktreten",
+  "translation": {
+    "ru": "отступать назад, уходить в отставку",
+    "en": "to step back, to resign"
+  },
+  "level": "B2",
+  "frequency_rank": 773,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "tritt zurück",
+    "preterite_third_singular": "trat zurück",
+    "past_participle": "zurückgetreten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "trete zurück",
+      "du": "trittst zurück",
+      "er_sie_es": "tritt zurück",
+      "wir": "treten zurück",
+      "ihr": "tretet zurück",
+      "sie_Sie": "treten zurück"
+    },
+    "preterite": {
+      "ich": "trat zurück",
+      "du": "tratest zurück",
+      "er_sie_es": "trat zurück",
+      "wir": "traten zurück",
+      "ihr": "tratet zurück",
+      "sie_Sie": "traten zurück"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "zurückgetreten"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "von",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich trete von der Bahnsteigkante einen Schritt zurück.",
+      "translation": {
+        "ru": "Я отступаю на шаг назад от края платформы.",
+        "en": "I step back one pace from the edge of the platform."
+      },
+      "bracket_parts": [
+        "trete",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Trittst du nach dieser Kritik von deinem Amt zurück?",
+      "translation": {
+        "ru": "Ты уходишь в отставку со своего поста после этой критики?",
+        "en": "Are you resigning from your post after this criticism?"
+      },
+      "bracket_parts": [
+        "Trittst",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Minister tritt wegen des Skandals heute zurück.",
+      "translation": {
+        "ru": "Министр уходит сегодня в отставку из-за скандала.",
+        "en": "The minister is resigning today because of the scandal."
+      },
+      "bracket_parts": [
+        "tritt",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir treten rechtzeitig vom Kaufvertrag zurück.",
+      "translation": {
+        "ru": "Мы вовремя отказываемся от договора купли-продажи.",
+        "en": "We withdraw from the purchase contract in good time."
+      },
+      "bracket_parts": [
+        "treten",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Tretet ihr bei Gefahr sofort ein Stück zurück?",
+      "translation": {
+        "ru": "Вы сразу отступаете немного назад при опасности?",
+        "en": "Do you guys immediately step back a little in case of danger?"
+      },
+      "bracket_parts": [
+        "Tretet",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Parteichef trat nach der verlorenen Wahl zurück.",
+      "translation": {
+        "ru": "Лидер партии ушел в отставку после проигранных выборов.",
+        "en": "The party leader resigned after losing the election."
+      },
+      "bracket_parts": [
+        "trat",
+        "zurück"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Präsidentin ist gestern überraschend von ihrem Posten zurückgetreten.",
+      "translation": {
+        "ru": "Президент вчера неожиданно ушла в отставку со своего поста.",
+        "en": "The president surprisingly resigned from her post yesterday."
+      },
+      "bracket_parts": [
+        "ist",
+        "zurückgetreten"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Tritt bitte vorsichtig von der Kante zurück!",
+      "translation": {
+        "ru": "Отойди, пожалуйста, осторожно назад от края!",
+        "en": "Please step back carefully from the edge!"
+      },
+      "bracket_parts": [
+        "Tritt",
+        "zurück"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

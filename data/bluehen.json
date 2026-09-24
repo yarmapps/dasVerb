@@ -1,0 +1,138 @@
+{
+  "id": "bluehen",
+  "infinitive": "blühen",
+  "translation": {
+    "ru": "цвести, процветать",
+    "en": "to bloom, to blossom, to flourish"
+  },
+  "level": "B1",
+  "frequency_rank": 862,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "blüht",
+    "preterite_third_singular": "blühte",
+    "past_participle": "geblüht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "blühe",
+      "du": "blühst",
+      "er_sie_es": "blüht",
+      "wir": "blühen",
+      "ihr": "blüht",
+      "sie_Sie": "blühen"
+    },
+    "preterite": {
+      "ich": "blühte",
+      "du": "blühtest",
+      "er_sie_es": "blühte",
+      "wir": "blühten",
+      "ihr": "blühtet",
+      "sie_Sie": "blühten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geblüht"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "In meinem Garten blühen bunte Blumen im Frühling.",
+      "translation": {
+        "ru": "В моем саду цветут разноцветные цветы весной.",
+        "en": "Colorful flowers bloom in my garden in spring."
+      },
+      "bracket_parts": [
+        "blühen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Blühst du bei dieser kreativen Arbeit richtig auf?",
+      "translation": {
+        "ru": "Ты прямо расцветаешь при этой творческой работе?",
+        "en": "Do you really flourish during this creative work?"
+      },
+      "bracket_parts": [
+        "Blühst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der alte Kirschbaum blüht in voller Pracht.",
+      "translation": {
+        "ru": "Старая вишня цветет в полном великолепии.",
+        "en": "The old cherry tree is in full blossom."
+      },
+      "bracket_parts": [
+        "blüht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir sehen, wie die Pflanzen nach dem Regen blühen.",
+      "translation": {
+        "ru": "Мы видим, как растения цветут после дождя.",
+        "en": "We see how the plants bloom after the rain."
+      },
+      "bracket_parts": [
+        "blühen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Blüht der rote Mohn auf euren Feldern schon?",
+      "translation": {
+        "ru": "Красный мак на ваших полях уже цветет?",
+        "en": "Is the red poppy blooming in your fields already?"
+      },
+      "bracket_parts": [
+        "Blüht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Handel blühte in der alten Hansestadt damals auf.",
+      "translation": {
+        "ru": "Торговля процветала в старом ганзейском городе в те времена.",
+        "en": "Trade flourished in the old Hanseatic city back then."
+      },
+      "bracket_parts": [
+        "blühte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Rosen haben den ganzen Sommer über wunderschön geblüht.",
+      "translation": {
+        "ru": "Розы чудесно цвели все лето.",
+        "en": "The roses bloomed wonderfully all summer long."
+      },
+      "bracket_parts": [
+        "haben",
+        "geblüht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lass dein Talent voll und ganz blühen!",
+      "translation": {
+        "ru": "Дай своему таланту раскрыться и расцвести в полной мере!",
+        "en": "Let your talent blossom fully and completely!"
+      },
+      "bracket_parts": [
+        "blühen"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

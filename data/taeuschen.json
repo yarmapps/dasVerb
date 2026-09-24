@@ -1,0 +1,137 @@
+{
+  "id": "taeuschen",
+  "infinitive": "täuschen",
+  "translation": {
+    "ru": "обманывать, вводить в заблуждение, ошибаться",
+    "en": "to deceive, to mislead, to be mistaken"
+  },
+  "level": "B1",
+  "frequency_rank": 1027,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "täuscht",
+    "preterite_third_singular": "täuschte",
+    "past_participle": "getäuscht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "täusche",
+      "du": "täuschst",
+      "er_sie_es": "täuscht",
+      "wir": "täuschen",
+      "ihr": "täuscht",
+      "sie_Sie": "täuschen"
+    },
+    "preterite": {
+      "ich": "täuschte",
+      "du": "täuschtest",
+      "er_sie_es": "täuschte",
+      "wir": "täuschten",
+      "ihr": "täuschtet",
+      "sie_Sie": "täuschten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "getäuscht"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich täusche mich selten in der Menschenkenntnis bei neuen Bekanntschaften.",
+      "translation": {
+        "ru": "Я редко ошибаюсь в людях при новых знакомствах.",
+        "en": "I am rarely mistaken in judging people with new acquaintances."
+      },
+      "bracket_parts": [
+        "täusche"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Täuschst du deine Kunden mit übertriebenen Versprechungen?",
+      "translation": {
+        "ru": "Вводишь ли ты клиентов в заблуждение завышенными обещаниями?",
+        "en": "Do you deceive your customers with exaggerated promises?"
+      },
+      "bracket_parts": [
+        "Täuschst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der äußere Schein täuscht oft über den wahren Charakter hinweg.",
+      "translation": {
+        "ru": "Внешняя видимость часто обманчива относительно истинного характера.",
+        "en": "Appearances often deceive about true character."
+      },
+      "bracket_parts": [
+        "täuscht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir täuschen niemanden über die tatsächlichen Kosten des Projekts.",
+      "translation": {
+        "ru": "Мы никого не вводим в заблуждение относительно реальной стоимости проекта.",
+        "en": "We do not deceive anyone about the actual costs of the project."
+      },
+      "bracket_parts": [
+        "täuschen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Täuscht ihr euch nicht vielleicht bei dieser Einschätzung der Lage?",
+      "translation": {
+        "ru": "Не ошибаетесь ли вы в этой оценке ситуации?",
+        "en": "Aren't you guys perhaps mistaken in this assessment of the situation?"
+      },
+      "bracket_parts": [
+        "Täuscht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Zauberer täuschte die Augen der Zuschauer mit meisterhaften Tricks.",
+      "translation": {
+        "ru": "Иллюзионист обманывал взор зрителей виртуозными фокусами.",
+        "en": "The magician deceived the eyes of the spectators with masterful tricks."
+      },
+      "bracket_parts": [
+        "täuschte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat mich mit seinen scheinheilig freundlichen Worten bitter getäuscht.",
+      "translation": {
+        "ru": "Он горько обманул меня своими лицемерно добрыми словами.",
+        "en": "He bitterly deceived me with his sanctimoniously kind words."
+      },
+      "bracket_parts": [
+        "hat",
+        "getäuscht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Täusche dich nicht in seinen scheinbar einfachen Absichten!",
+      "translation": {
+        "ru": "Не обманывайся на счет его кажущихся простыми намерений!",
+        "en": "Do not be deceived by his seemingly simple intentions!"
+      },
+      "bracket_parts": [
+        "Täusche"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

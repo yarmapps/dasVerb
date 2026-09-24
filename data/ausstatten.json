@@ -1,0 +1,154 @@
+{
+  "id": "ausstatten",
+  "infinitive": "ausstatten",
+  "translation": {
+    "ru": "оборудовать, оснащать, снабжать",
+    "en": "to equip, to furnish, to provide"
+  },
+  "level": "B2",
+  "frequency_rank": 573,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ausstatten",
+    "present_3sg": "stattet aus",
+    "praeteritum_3sg": "stattete aus",
+    "partizip_2": "ausgestattet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "statte aus",
+      "du": "stattest aus",
+      "er_sie_es": "stattet aus",
+      "wir": "statten aus",
+      "ihr": "stattet aus",
+      "sie_Sie": "statten aus"
+    },
+    "praeteritum": {
+      "ich": "stattete aus",
+      "du": "stattetest aus",
+      "er_sie_es": "stattete aus",
+      "wir": "statteten aus",
+      "ihr": "stattetet aus",
+      "sie_Sie": "statteten aus"
+    },
+    "perfekt": {
+      "ich": "habe ausgestattet",
+      "du": "hast ausgestattet",
+      "er_sie_es": "hat ausgestattet",
+      "wir": "haben ausgestattet",
+      "ihr": "habt ausgestattet",
+      "sie_Sie": "haben ausgestattet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich statte mein neues Büro mit ergonomischen Möbeln aus.",
+      "translation": {
+        "ru": "Я обставляю свой новый офис эргономичной мебелью.",
+        "en": "I equip my new office with ergonomic furniture."
+      },
+      "bracket_parts": [
+        "statte",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du stattest die moderne Küche mit neuen Geräten aus.",
+      "translation": {
+        "ru": "Ты оснащаешь современную кухню новыми приборами.",
+        "en": "You equip the modern kitchen with new appliances."
+      },
+      "bracket_parts": [
+        "stattest",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Stadt stattet alle Schulen mit schnellem Internet aus.",
+      "translation": {
+        "ru": "Город оснащает все школы быстрым интернетом.",
+        "en": "The city equips all schools with fast internet."
+      },
+      "bracket_parts": [
+        "stattet",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir statten das gesamte Team mit warmer Kleidung aus.",
+      "translation": {
+        "ru": "Мы снабжаем всю команду теплой одеждой.",
+        "en": "We equip the entire team with warm clothing."
+      },
+      "bracket_parts": [
+        "statten",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr stattet die Werkstatt mit professionellem Werkzeug aus.",
+      "translation": {
+        "ru": "Вы оборудуете мастерскую профессиональным инструментом.",
+        "en": "You equip the workshop with professional tools."
+      },
+      "bracket_parts": [
+        "stattet",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Firma stattete damals jeden Mitarbeiter mit einem Laptop aus.",
+      "translation": {
+        "ru": "Фирма тогда снабдила каждого сотрудника ноутбуком.",
+        "en": "The company equipped every employee with a laptop back then."
+      },
+      "bracket_parts": [
+        "stattete",
+        "aus"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben das Hotelzimmer sehr luxuriös ausgestattet.",
+      "translation": {
+        "ru": "Они оборудовали номер в отеле очень роскошно.",
+        "en": "They furnished the hotel room very luxuriously."
+      },
+      "bracket_parts": [
+        "haben",
+        "ausgestattet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Statte das Labor mit den besten Geräten aus!",
+      "translation": {
+        "ru": "Оснасти лабораторию лучшими приборами!",
+        "en": "Equip the laboratory with the best devices!"
+      },
+      "bracket_parts": [
+        "Statte",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

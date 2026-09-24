@@ -1,0 +1,137 @@
+{
+  "id": "ueberholen",
+  "infinitive": "überholen",
+  "translation": {
+    "ru": "обгонять (автомобиль/соперника), перегонять, производить капремонт",
+    "en": "to overtake, to pass, to overhaul"
+  },
+  "level": "B1",
+  "frequency_rank": 1049,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "überholt",
+    "preterite_third_singular": "überholte",
+    "past_participle": "überholt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "überhole",
+      "du": "überholst",
+      "er_sie_es": "überholt",
+      "wir": "überholen",
+      "ihr": "überholt",
+      "sie_Sie": "überholen"
+    },
+    "preterite": {
+      "ich": "überholte",
+      "du": "überholtest",
+      "er_sie_es": "überholte",
+      "wir": "überholten",
+      "ihr": "überholtet",
+      "sie_Sie": "überholten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "überholt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich überhole den langsamen Traktor auf der Landstraße nur bei freier Sicht.",
+      "translation": {
+        "ru": "Я обгоняю медленный трактор на загородной дороге только при хорошем обзоре.",
+        "en": "I overtake the slow tractor on the country road only with a clear view."
+      },
+      "bracket_parts": [
+        "überhole"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Überholst du den Führenden im Rennen kurz vor der Ziellinie?",
+      "translation": {
+        "ru": "Обгонишь ли ты лидера в гонке незадолго до финиша?",
+        "en": "Are you overtaking the leader in the race just before the finish line?"
+      },
+      "bracket_parts": [
+        "Überholst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Sportwagen überholt mehrere Fahrzeuge auf der linken Spur.",
+      "translation": {
+        "ru": "Спорткар обгоняет несколько машин по левой полосе.",
+        "en": "The sports car overtakes several vehicles in the left lane."
+      },
+      "bracket_parts": [
+        "überholt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir überholen unsere Konkurrenten durch herausragende Qualität und Service.",
+      "translation": {
+        "ru": "Мы обгоняем конкурентов за счет выдающегося качества и сервиса.",
+        "en": "We overtake our competitors through outstanding quality and service."
+      },
+      "bracket_parts": [
+        "überholen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Überholt ihr alte Maschinen regelmäßig in der eigenen Werkstatt?",
+      "translation": {
+        "ru": "Проводите ли вы регулярный капремонт старых станков в собственной мастерской?",
+        "en": "Do you guys overhaul old machines regularly in your own workshop?"
+      },
+      "bracket_parts": [
+        "Überholt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Läufer überholte seinen Rivalen auf den letzten hundert Metern.",
+      "translation": {
+        "ru": "Бегун обогнал соперника на последних ста метрах.",
+        "en": "The runner overtook his rival in the last hundred meters."
+      },
+      "bracket_parts": [
+        "überholte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Mechaniker hat den Motor des Oldtimers komplett überholt.",
+      "translation": {
+        "ru": "Механик полностью перебрал (отремонтировал) мотор раритетного авто.",
+        "en": "The mechanic has completely overhauled the engine of the vintage car."
+      },
+      "bracket_parts": [
+        "hat",
+        "überholt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Überhole niemals im absoluten Überholverbot oder bei dichtem Nebel!",
+      "translation": {
+        "ru": "Никогда не обгоняй под знаком запрета обгона или в густом тумане!",
+        "en": "Never overtake where passing is strictly forbidden or in dense fog!"
+      },
+      "bracket_parts": [
+        "Überhole"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

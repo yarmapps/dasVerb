@@ -1,0 +1,138 @@
+{
+  "id": "verweigern",
+  "infinitive": "verweigern",
+  "translation": {
+    "ru": "отказывать, отклонять",
+    "en": "to refuse, to deny"
+  },
+  "level": "B2",
+  "frequency_rank": 719,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verweigert",
+    "preterite_third_singular": "verweigerte",
+    "past_participle": "verweigert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verweigere",
+      "du": "verweigerst",
+      "er_sie_es": "verweigert",
+      "wir": "verweigern",
+      "ihr": "verweigert",
+      "sie_Sie": "verweigern"
+    },
+    "preterite": {
+      "ich": "verweigerte",
+      "du": "verweigertest",
+      "er_sie_es": "verweigerte",
+      "wir": "verweigerten",
+      "ihr": "verweigertet",
+      "sie_Sie": "verweigerten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verweigert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich verweigere jede weitere Aussage ohne Anwalt.",
+      "translation": {
+        "ru": "Я отказываюсь от любых дальнейших показаний без адвоката.",
+        "en": "I refuse any further statement without a lawyer."
+      },
+      "bracket_parts": [
+        "verweigere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du verweigerst dem Besucher den Zutritt zum Haus.",
+      "translation": {
+        "ru": "Ты отказываешь посетителю во входе в дом.",
+        "en": "You deny the visitor entry to the house."
+      },
+      "bracket_parts": [
+        "verweigerst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Beamte verweigert die Unterschrift auf dem Formular.",
+      "translation": {
+        "ru": "Чиновник отказывается ставить подпись на бланке.",
+        "en": "The official refuses to sign the form."
+      },
+      "bracket_parts": [
+        "verweigert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verweigern die Annahme des beschädigten Pakets.",
+      "translation": {
+        "ru": "Мы отказываемся принимать поврежденную посылку.",
+        "en": "We refuse acceptance of the damaged package."
+      },
+      "bracket_parts": [
+        "verweigern"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr verweigert dem Team die nötige Unterstützung.",
+      "translation": {
+        "ru": "Вы отказываете команде в необходимой поддержке.",
+        "en": "You deny the team the necessary support."
+      },
+      "bracket_parts": [
+        "verweigert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er verweigerte damals den Dienst an der Waffe.",
+      "translation": {
+        "ru": "Он тогда отказался от военной службы с оружием.",
+        "en": "He refused military service at that time."
+      },
+      "bracket_parts": [
+        "verweigerte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben die Auszahlung des Geldes grundlos verweigert.",
+      "translation": {
+        "ru": "Они без причин отказали в выплате денег.",
+        "en": "They refused the payout of the money without reason."
+      },
+      "bracket_parts": [
+        "haben",
+        "verweigert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verweigere die Zustimmung zu diesem unfairen Vertrag!",
+      "translation": {
+        "ru": "Откажись от согласия на этот несправедливый договор!",
+        "en": "Refuse consent to this unfair contract!"
+      },
+      "bracket_parts": [
+        "Verweigere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "versammeln",
+  "infinitive": "versammeln",
+  "translation": {
+    "ru": "собирать, созывать",
+    "en": "to assemble, to gather"
+  },
+  "level": "B2",
+  "frequency_rank": 847,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "versammelt",
+    "preterite_third_singular": "versammelte",
+    "past_participle": "versammelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "versammle",
+      "du": "versammelst",
+      "er_sie_es": "versammelt",
+      "wir": "versammeln",
+      "ihr": "versammelt",
+      "sie_Sie": "versammeln"
+    },
+    "preterite": {
+      "ich": "versammelte",
+      "du": "versammeltest",
+      "er_sie_es": "versammelte",
+      "wir": "versammelten",
+      "ihr": "versammeltet",
+      "sie_Sie": "versammelten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "versammelt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "vor",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich versammle alle Mitarbeiter zur wichtigen Besprechung im Konferenzraum.",
+      "translation": {
+        "ru": "Я собираю всех сотрудников на важное совещание в конференц-зале.",
+        "en": "I gather all employees for an important meeting in the conference room."
+      },
+      "bracket_parts": [
+        "versammle"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Versammelst du die Kinder vor dem Start des Ausflugs?",
+      "translation": {
+        "ru": "Ты собираешь детей перед началом экскурсии?",
+        "en": "Are you gathering the children before the start of the excursion?"
+      },
+      "bracket_parts": [
+        "Versammelst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Kapitän versammelt die gesamte Mannschaft an Deck.",
+      "translation": {
+        "ru": "Капитан собирает всю команду на палубе.",
+        "en": "The captain gathers the entire crew on deck."
+      },
+      "bracket_parts": [
+        "versammelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir versammeln die Familie jedes Jahr an Heiligabend.",
+      "translation": {
+        "ru": "Мы собираем семью каждый год в сочельник.",
+        "en": "We gather the family every year on Christmas Eve."
+      },
+      "bracket_parts": [
+        "versammeln"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Versammelt ihr eure Freunde zur großen Geburtstagsfeier?",
+      "translation": {
+        "ru": "Вы собираете своих друзей на большой праздник?",
+        "en": "Are you gathering your friends for the big birthday party?"
+      },
+      "bracket_parts": [
+        "Versammelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Menschen versammelten sich friedlich auf dem Marktplatz.",
+      "translation": {
+        "ru": "Люди мирно собрались на рыночной площади.",
+        "en": "People gathered peacefully in the market square."
+      },
+      "bracket_parts": [
+        "versammelten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Direktor hat alle Lehrer in der Aula versammelt.",
+      "translation": {
+        "ru": "Директор собрал всех учителей в актовом зале.",
+        "en": "The principal gathered all teachers in the auditorium."
+      },
+      "bracket_parts": [
+        "hat",
+        "versammelt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Versammle dein Team und erkläre die neue Strategie!",
+      "translation": {
+        "ru": "Собери свою команду и объясни новую стратегию!",
+        "en": "Assemble your team and explain the new strategy!"
+      },
+      "bracket_parts": [
+        "Versammle"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "zuwenden",
+  "infinitive": "zuwenden",
+  "translation": {
+    "ru": "поворачивать к (кому-л.), обращаться к (sich zuwenden), уделять внимание",
+    "en": "to turn towards, to devote attention to"
+  },
+  "level": "B2",
+  "frequency_rank": 678,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "irregular",
+    "prefix_type": "separable",
+    "prefix": "zu",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zuwenden",
+    "present_3sg": "wendet zu",
+    "praeteritum_3sg": "wandte zu",
+    "partizip_2": "zugewandt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wende zu",
+      "du": "wendest zu",
+      "er_sie_es": "wendet zu",
+      "wir": "wenden zu",
+      "ihr": "wendet zu",
+      "sie_Sie": "wenden zu"
+    },
+    "praeteritum": {
+      "ich": "wandte zu",
+      "du": "wandtest zu",
+      "er_sie_es": "wandte zu",
+      "wir": "wandten zu",
+      "ihr": "wandtet zu",
+      "sie_Sie": "wandten zu"
+    },
+    "perfekt": {
+      "ich": "habe zugewandt",
+      "du": "hast zugewandt",
+      "er_sie_es": "hat zugewandt",
+      "wir": "haben zugewandt",
+      "ihr": "habt zugewandt",
+      "sie_Sie": "haben zugewandt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "Dativ",
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich wende mein Gesicht der warmen Morgensonne zu.",
+      "translation": {
+        "ru": "Я поворачиваю лицо к теплому утреннему солнцу.",
+        "en": "I turn my face toward the warm morning sun."
+      },
+      "bracket_parts": [
+        "wende",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wendest du dich den wartenden Gästen freundlich zu?",
+      "translation": {
+        "ru": "Ты приветливо поворачиваешься к ожидающим гостям?",
+        "en": "Do you turn towards the waiting guests in a friendly way?"
+      },
+      "bracket_parts": [
+        "Wendest",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Arzt wendet dem Patienten seine volle Aufmerksamkeit zu.",
+      "translation": {
+        "ru": "Врач обращает свое полное внимание на пациента.",
+        "en": "The doctor devotes his full attention to the patient."
+      },
+      "bracket_parts": [
+        "wendet",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir wenden uns nun einem ganz neuen Thema zu.",
+      "translation": {
+        "ru": "Мы теперь обращаемся к совершенно новой теме.",
+        "en": "We now turn our attention to a completely new topic."
+      },
+      "bracket_parts": [
+        "wenden",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr wendet den Blick den Neuankömmlingen zu.",
+      "translation": {
+        "ru": "Вы обращаете свой взор на вновь прибывших.",
+        "en": "You turn your gaze toward the newcomers."
+      },
+      "bracket_parts": [
+        "wendet",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er wandte sich damals hilfesuchend an seine Familie zu.",
+      "translation": {
+        "ru": "Он тогда повернулся в поисках помощи к своей семье.",
+        "en": "He turned to his family seeking help back then."
+      },
+      "bracket_parts": [
+        "wandte",
+        "zu"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie hat sich liebevoll den Sorgen ihrer Kinder zugewandt.",
+      "translation": {
+        "ru": "Она с любовью обратила внимание на заботы своих детей.",
+        "en": "She lovingly turned her attention to her children's worries."
+      },
+      "bracket_parts": [
+        "hat",
+        "zugewandt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Wende dich mit offenen Ohren deinen Mitmenschen zu!",
+      "translation": {
+        "ru": "Поворачивайся с чутким вниманием к своим ближним!",
+        "en": "Turn to your fellow human beings with open ears!"
+      },
+      "bracket_parts": [
+        "Wende",
+        "zu"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

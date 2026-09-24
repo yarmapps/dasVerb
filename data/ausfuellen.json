@@ -1,0 +1,145 @@
+{
+  "id": "ausfuellen",
+  "infinitive": "ausfüllen",
+  "translation": {
+    "ru": "заполнять (бланк, анкету), наполнять",
+    "en": "to fill out, to complete (a form)"
+  },
+  "level": "A2",
+  "frequency_rank": 776,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "füllt aus",
+    "preterite_third_singular": "füllte aus",
+    "past_participle": "ausgefüllt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "fülle aus",
+      "du": "füllst aus",
+      "er_sie_es": "füllt aus",
+      "wir": "füllen aus",
+      "ihr": "füllt aus",
+      "sie_Sie": "füllen aus"
+    },
+    "preterite": {
+      "ich": "füllte aus",
+      "du": "fülltest aus",
+      "er_sie_es": "füllte aus",
+      "wir": "füllten aus",
+      "ihr": "fülltet aus",
+      "sie_Sie": "füllten aus"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "ausgefüllt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich fülle das Antragsformular sorgfältig mit Kugelschreiber aus.",
+      "translation": {
+        "ru": "Я тщательно заполняю бланк заявления шариковой ручкой.",
+        "en": "I fill out the application form carefully with a ballpoint pen."
+      },
+      "bracket_parts": [
+        "fülle",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Füllst du den Fragebogen zur Kundenzufriedenheit aus?",
+      "translation": {
+        "ru": "Ты заполняешь анкету удовлетворенности клиентов?",
+        "en": "Are you filling out the customer satisfaction questionnaire?"
+      },
+      "bracket_parts": [
+        "Füllst",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Patient füllt die medizinischen Angaben im Wartezimmer aus.",
+      "translation": {
+        "ru": "Пациент заполняет медицинские данные в приемной.",
+        "en": "The patient fills in the medical details in the waiting room."
+      },
+      "bracket_parts": [
+        "füllt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir füllen alle Felder im Online-Formular komplett aus.",
+      "translation": {
+        "ru": "Мы полностью заполняем все поля в онлайн-форме.",
+        "en": "We fill out all fields in the online form completely."
+      },
+      "bracket_parts": [
+        "füllen",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Füllt ihr den Zettel für die Anmeldung gleich aus?",
+      "translation": {
+        "ru": "Вы сейчас заполняете листок для регистрации?",
+        "en": "Are you filling out the registration slip right away?"
+      },
+      "bracket_parts": [
+        "Füllt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie füllte den Vertrag gestern Abend in Ruhe aus.",
+      "translation": {
+        "ru": "Она спокойно заполнила договор вчера вечером.",
+        "en": "She filled out the contract in peace yesterday evening."
+      },
+      "bracket_parts": [
+        "füllte",
+        "aus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Haben Sie alle Dokumente für die Botschaft ausgefüllt?",
+      "translation": {
+        "ru": "Вы заполнили все документы для посольства?",
+        "en": "Have you filled out all documents for the embassy?"
+      },
+      "bracket_parts": [
+        "Haben",
+        "ausgefüllt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Füll bitte dieses Formular mit deiner Adresse aus!",
+      "translation": {
+        "ru": "Заполни, пожалуйста, этот бланк своим адресом!",
+        "en": "Please fill out this form with your address!"
+      },
+      "bracket_parts": [
+        "Füll",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

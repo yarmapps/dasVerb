@@ -1,0 +1,148 @@
+{
+  "id": "vermoegen",
+  "infinitive": "vermögen",
+  "translation": {
+    "ru": "быть в силах, быть в состоянии",
+    "en": "to be able to, to be capable of"
+  },
+  "level": "B2",
+  "frequency_rank": 646,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "irregular",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vermögen",
+    "present_3sg": "vermag",
+    "praeteritum_3sg": "vermochte",
+    "partizip_2": "vermocht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vermag",
+      "du": "vermagst",
+      "er_sie_es": "vermag",
+      "wir": "vermögen",
+      "ihr": "vermögt",
+      "sie_Sie": "vermögen",
+      "root_vowel_change": "ö -> a"
+    },
+    "praeteritum": {
+      "ich": "vermochte",
+      "du": "vermochtest",
+      "er_sie_es": "vermochte",
+      "wir": "vermochten",
+      "ihr": "vermochtet",
+      "sie_Sie": "vermochten"
+    },
+    "perfekt": {
+      "ich": "habe vermocht",
+      "du": "hast vermocht",
+      "er_sie_es": "hat vermocht",
+      "wir": "haben vermocht",
+      "ihr": "habt vermocht",
+      "sie_Sie": "haben vermocht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich vermag das Rätsel alleine nicht zu lösen.",
+      "translation": {
+        "ru": "Я не в силах разгадать эту загадку в одиночку.",
+        "en": "I am not able to solve the riddle alone."
+      },
+      "bracket_parts": [
+        "vermag"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vermagst du den Schmerz in Worte zu fassen?",
+      "translation": {
+        "ru": "В силах ли ты выразить боль словами?",
+        "en": "Are you capable of putting the pain into words?"
+      },
+      "bracket_parts": [
+        "Vermagst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Niemand vermag die genaue Zukunft vorherzusagen.",
+      "translation": {
+        "ru": "Никто не в состоянии предсказать точное будущее.",
+        "en": "Nobody is able to predict the exact future."
+      },
+      "bracket_parts": [
+        "vermag"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir vermögen viel mehr, als wir oft glauben.",
+      "translation": {
+        "ru": "Мы можем гораздо больше, чем часто думаем.",
+        "en": "We are capable of much more than we often believe."
+      },
+      "bracket_parts": [
+        "vermögen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr vermögt diese schwere Aufgabe gemeinsam zu meistern.",
+      "translation": {
+        "ru": "Вы в силах сообща справиться с этой трудной задачей.",
+        "en": "You are able to master this difficult task together."
+      },
+      "bracket_parts": [
+        "vermögt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Arzt vermochte damals nichts mehr für den Patienten zu tun.",
+      "translation": {
+        "ru": "Врач тогда больше ничего не мог сделать для пациента.",
+        "en": "The doctor was able to do nothing more for the patient back then."
+      },
+      "bracket_parts": [
+        "vermochte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben die Entwicklung leider nicht aufzuhalten vermocht.",
+      "translation": {
+        "ru": "Они, к сожалению, не смогли остановить это развитие событий.",
+        "en": "They unfortunately were not able to stop the development."
+      },
+      "bracket_parts": [
+        "haben",
+        "vermocht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Vermag Großes und glaube an deine eigene Kraft!",
+      "translation": {
+        "ru": "Будь способен на великое и верь в свои силы!",
+        "en": "Achieve great things and believe in your own power!"
+      },
+      "bracket_parts": [
+        "Vermag"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

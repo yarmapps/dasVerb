@@ -1,0 +1,138 @@
+{
+  "id": "beseitigen",
+  "infinitive": "beseitigen",
+  "translation": {
+    "ru": "устранять, ликвидировать, убирать",
+    "en": "to eliminate, to remove, to dispose of"
+  },
+  "level": "B2",
+  "frequency_rank": 908,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "beseitigt",
+    "preterite_third_singular": "beseitigte",
+    "past_participle": "beseitigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beseitige",
+      "du": "beseitigst",
+      "er_sie_es": "beseitigt",
+      "wir": "beseitigen",
+      "ihr": "beseitigt",
+      "sie_Sie": "beseitigen"
+    },
+    "preterite": {
+      "ich": "beseitigte",
+      "du": "beseitigtest",
+      "er_sie_es": "beseitigte",
+      "wir": "beseitigten",
+      "ihr": "beseitigtet",
+      "sie_Sie": "beseitigten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "beseitigt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich beseitige alle Tippfehler im Text vor dem Druck.",
+      "translation": {
+        "ru": "Я устраняю все опечатки в тексте перед печатью.",
+        "en": "I eliminate all typos in the text before printing."
+      },
+      "bracket_parts": [
+        "beseitige"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beseitigst du den Schmutz im Hausflur noch heute?",
+      "translation": {
+        "ru": "Ты уберешь грязь в подъезде еще сегодня?",
+        "en": "Are you removing the dirt in the hallway today?"
+      },
+      "bracket_parts": [
+        "Beseitigst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Techniker beseitigt die Störung an der Telefonanlage.",
+      "translation": {
+        "ru": "Техник устраняет неполадку на телефонной станции.",
+        "en": "The technician fixes the fault in the telephone system."
+      },
+      "bracket_parts": [
+        "beseitigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beseitigen alle Hindernisse für einen reibungslosen Ablauf.",
+      "translation": {
+        "ru": "Мы устраняем все препятствия для бесперебойного процесса.",
+        "en": "We eliminate all obstacles for a smooth process."
+      },
+      "bracket_parts": [
+        "beseitigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beseitigt ihr die Gefahrenquellen auf der Baustelle sofort?",
+      "translation": {
+        "ru": "Вы сразу ликвидируете источники опасности на стройплощадке?",
+        "en": "Do you eliminate the sources of danger on the construction site immediately?"
+      },
+      "bracket_parts": [
+        "Beseitigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Straßenreinigung beseitigte den Müll nach dem großen Fest.",
+      "translation": {
+        "ru": "Служба уборки улиц убрала мусор после большого праздника.",
+        "en": "The street cleaning service cleared the garbage after the big party."
+      },
+      "bracket_parts": [
+        "beseitigte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Experten haben die Ursachen des Problems vollständig beseitigt.",
+      "translation": {
+        "ru": "Эксперты полностью устранили причины проблемы.",
+        "en": "Experts have completely eliminated the causes of the problem."
+      },
+      "bracket_parts": [
+        "haben",
+        "beseitigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Beseitige die Fehler gründlich und sorgfältig!",
+      "translation": {
+        "ru": "Устраняй ошибки тщательно и аккуратно!",
+        "en": "Eliminate errors thoroughly and carefully!"
+      },
+      "bracket_parts": [
+        "Beseitige"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

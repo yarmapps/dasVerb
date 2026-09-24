@@ -1,0 +1,147 @@
+{
+  "id": "atmen",
+  "infinitive": "atmen",
+  "translation": {
+    "ru": "дышать",
+    "en": "to breathe"
+  },
+  "level": "A2",
+  "frequency_rank": 638,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "atmen",
+    "present_3sg": "atmet",
+    "praeteritum_3sg": "atmete",
+    "partizip_2": "geatmet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "atme",
+      "du": "atmest",
+      "er_sie_es": "atmet",
+      "wir": "atmen",
+      "ihr": "atmet",
+      "sie_Sie": "atmen"
+    },
+    "praeteritum": {
+      "ich": "atmete",
+      "du": "atmetest",
+      "er_sie_es": "atmete",
+      "wir": "atmeten",
+      "ihr": "atmetet",
+      "sie_Sie": "atmeten"
+    },
+    "perfekt": {
+      "ich": "habe geatmet",
+      "du": "hast geatmet",
+      "er_sie_es": "hat geatmet",
+      "wir": "haben geatmet",
+      "ihr": "habt geatmet",
+      "sie_Sie": "haben geatmet"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich atme die frische Waldluft tief ein.",
+      "translation": {
+        "ru": "Я глубоко вдыхаю свежий лесной воздух.",
+        "en": "I breathe the fresh forest air in deeply."
+      },
+      "bracket_parts": [
+        "atme"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Atmest du beim Laufen ruhig und gleichmäßig?",
+      "translation": {
+        "ru": "Ты дышишь при беге спокойно и равномерно?",
+        "en": "Do you breathe calmly and evenly while running?"
+      },
+      "bracket_parts": [
+        "Atmest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Patient atmet nach der Behandlung wieder normal.",
+      "translation": {
+        "ru": "Пациент после лечения снова дышит нормально.",
+        "en": "The patient breathes normally again after treatment."
+      },
+      "bracket_parts": [
+        "atmet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir atmen erleichtert auf nach der guten Nachricht.",
+      "translation": {
+        "ru": "Мы с облегчением выдыхаем после хорошей новости.",
+        "en": "We breathe a sigh of relief after the good news."
+      },
+      "bracket_parts": [
+        "atmen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr atmet schwer nach dem schnellen Treppensteigen.",
+      "translation": {
+        "ru": "Вы тяжело дышите после быстрого подъема по лестнице.",
+        "en": "You are breathing heavily after climbing the stairs quickly."
+      },
+      "bracket_parts": [
+        "atmet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Kind atmete damals ruhig im tiefen Schlaf.",
+      "translation": {
+        "ru": "Ребенок тогда спокойно дышал в глубоком сне.",
+        "en": "The child breathed calmly in deep sleep back then."
+      },
+      "bracket_parts": [
+        "atmete"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Er hat die ganze Nacht hindurch schwer geatmet.",
+      "translation": {
+        "ru": "Он тяжело дышал на протяжении всей ночи.",
+        "en": "He breathed heavily throughout the whole night."
+      },
+      "bracket_parts": [
+        "hat",
+        "geatmet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Atme ganz ruhig ein und wieder aus!",
+      "translation": {
+        "ru": "Дыши совершенно спокойно: вдох и выдох!",
+        "en": "Breathe in and out very calmly!"
+      },
+      "bracket_parts": [
+        "Atme"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

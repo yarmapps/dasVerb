@@ -1,0 +1,178 @@
+{
+  "id": "anstellen",
+  "infinitive": "anstellen",
+  "translation": {
+    "ru": "нанимать на работу, включать, натворить",
+    "en": "to employ, turn on, get up to"
+  },
+  "level": "B1",
+  "frequency_rank": 546,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "anstellen",
+    "present_3sg": "stellt an",
+    "praeteritum_3sg": "stellte an",
+    "partizip_2": "angestellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stelle an",
+      "du": "stellst an",
+      "er_sie_es": "stellt an",
+      "wir": "stellen an",
+      "ihr": "stellt an",
+      "sie_Sie": "stellen an"
+    },
+    "praeteritum": {
+      "ich": "stellte an",
+      "du": "stelltest an",
+      "er_sie_es": "stellte an",
+      "wir": "stellten an",
+      "ihr": "stelltet an",
+      "sie_Sie": "stellten an"
+    },
+    "perfekt": {
+      "ich": "habe angestellt",
+      "du": "hast angestellt",
+      "er_sie_es": "hat angestellt",
+      "wir": "haben angestellt",
+      "ihr": "habt angestellt",
+      "sie_Sie": "haben angestellt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich stelle die Heizung im kalten Zimmer an.",
+      "translation": {
+        "ru": "Я включаю отопление в холодной комнате.",
+        "en": "I turn on the heating in the cold room."
+      },
+      "bracket_parts": [
+        "stelle",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Heizung"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du stellst wieder einmal nur Unsinn an.",
+      "translation": {
+        "ru": "Ты снова творишь какие-то глупости.",
+        "en": "You are getting up to nonsense once again."
+      },
+      "bracket_parts": [
+        "stellst",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "nur Unsinn"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Unternehmen stellt neue qualifizierte Mitarbeiter an.",
+      "translation": {
+        "ru": "Компания нанимает новых квалифицированных сотрудников.",
+        "en": "The enterprise hires new qualified employees."
+      },
+      "bracket_parts": [
+        "stellt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "neue qualifizierte Mitarbeiter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir stellen gründliche Nachforschungen zu dem Vorfall an.",
+      "translation": {
+        "ru": "Мы проводим тщательное расследование инцидента.",
+        "en": "We conduct thorough investigations into the incident."
+      },
+      "bracket_parts": [
+        "stellen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "gründliche Nachforschungen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr stellt das Radio für die Nachrichten an.",
+      "translation": {
+        "ru": "Вы включаете радио, чтобы послушать новости.",
+        "en": "You turn on the radio for the news."
+      },
+      "bracket_parts": [
+        "stellt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das Radio"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Firma stellte damals viele junge Facharbeiter an.",
+      "translation": {
+        "ru": "Фирма тогда наняла много молодых квалифицированных рабочих.",
+        "en": "The company employed many young skilled workers back then."
+      },
+      "bracket_parts": [
+        "stellte",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "viele junge Facharbeiter"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Was hast du da bloß für einen Unfug angestellt?",
+      "translation": {
+        "ru": "Что же за глупость ты там натворил?",
+        "en": "What kind of mischief did you get up to there?"
+      },
+      "bracket_parts": [
+        "hast",
+        "angestellt"
+      ],
+      "akkusativ_parts": [
+        "einen Unfug"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Stell bitte das Licht im Flur an!",
+      "translation": {
+        "ru": "Включи свет в коридоре, пожалуйста!",
+        "en": "Please turn on the light in the hallway!"
+      },
+      "bracket_parts": [
+        "Stell",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das Licht"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

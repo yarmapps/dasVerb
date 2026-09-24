@@ -1,0 +1,150 @@
+{
+  "id": "eingreifen",
+  "infinitive": "eingreifen",
+  "translation": {
+    "ru": "вмешиваться, принимать меры",
+    "en": "to intervene, to step in"
+  },
+  "level": "B2",
+  "frequency_rank": 744,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "greift ein",
+    "preterite_third_singular": "griff ein",
+    "past_participle": "eingegriffen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "greife ein",
+      "du": "greifst ein",
+      "er_sie_es": "greift ein",
+      "wir": "greifen ein",
+      "ihr": "greift ein",
+      "sie_Sie": "greifen ein"
+    },
+    "preterite": {
+      "ich": "griff ein",
+      "du": "griffst ein",
+      "er_sie_es": "griff ein",
+      "wir": "griffen ein",
+      "ihr": "grifft ein",
+      "sie_Sie": "griffen ein"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "eingegriffen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich greife sofort in den Streit der Kinder ein.",
+      "translation": {
+        "ru": "Я сразу вмешиваюсь в спор детей.",
+        "en": "I immediately intervene in the children's dispute."
+      },
+      "bracket_parts": [
+        "greife",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Greifst du rechtzeitig ein, wenn Gefahr droht?",
+      "translation": {
+        "ru": "Ты вмешиваешься вовремя, когда угрожает опасность?",
+        "en": "Do you intervene in time when danger threatens?"
+      },
+      "bracket_parts": [
+        "Greifst",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei greift bei gewalttätigen Unruhen schnell ein.",
+      "translation": {
+        "ru": "Полиция быстро вмешивается при насильственных беспорядках.",
+        "en": "The police intervene quickly during violent riots."
+      },
+      "bracket_parts": [
+        "greift",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir greifen regulierend in den instabilen Markt ein.",
+      "translation": {
+        "ru": "Мы регулирующе вмешиваемся в нестабильный рынок.",
+        "en": "We intervene to regulate the unstable market."
+      },
+      "bracket_parts": [
+        "greifen",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Greift ihr in diese riskante Situation persönlich ein?",
+      "translation": {
+        "ru": "Вы лично вмешиваетесь в эту рискованную ситуацию?",
+        "en": "Are you personally intervening in this risky situation?"
+      },
+      "bracket_parts": [
+        "Greift",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schiedsrichter griff noch vor dem Foulpfiff ein.",
+      "translation": {
+        "ru": "Судья вмешался еще до свистка о нарушении.",
+        "en": "The referee intervened before the whistle for a foul."
+      },
+      "bracket_parts": [
+        "griff",
+        "ein"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Rettungskräfte haben im Notfall sofort eingegriffen.",
+      "translation": {
+        "ru": "Спасательные службы немедленно вмешались в экстренной ситуации.",
+        "en": "The rescue services intervened immediately in the emergency."
+      },
+      "bracket_parts": [
+        "haben",
+        "eingegriffen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Greif bitte ein, bevor die Lage eskaliert!",
+      "translation": {
+        "ru": "Вмешайся, пожалуйста, пока ситуация не обострилась!",
+        "en": "Please intervene before the situation escalates!"
+      },
+      "bracket_parts": [
+        "Greif",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

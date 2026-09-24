@@ -1,0 +1,150 @@
+{
+  "id": "ausstellen",
+  "infinitive": "ausstellen",
+  "translation": {
+    "ru": "выставлять (экспонаты), выписывать (справку/счет)",
+    "en": "to exhibit, to issue (a certificate/invoice)"
+  },
+  "level": "B1",
+  "frequency_rank": 856,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "stellt aus",
+    "preterite_third_singular": "stellte aus",
+    "past_participle": "ausgestellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stelle aus",
+      "du": "stellst aus",
+      "er_sie_es": "stellt aus",
+      "wir": "stellen aus",
+      "ihr": "stellt aus",
+      "sie_Sie": "stellen aus"
+    },
+    "preterite": {
+      "ich": "stellte aus",
+      "du": "stelltest aus",
+      "er_sie_es": "stellte aus",
+      "wir": "stellten aus",
+      "ihr": "stelltet aus",
+      "sie_Sie": "stellten aus"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "ausgestellt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich stelle meine Gemälde in einer bekannten Galerie aus.",
+      "translation": {
+        "ru": "Я выставляю свои картины в известной галерее.",
+        "en": "I exhibit my paintings in a well-known gallery."
+      },
+      "bracket_parts": [
+        "stelle",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stellst du mir bitte eine Quittung über den Betrag aus?",
+      "translation": {
+        "ru": "Выпишешь мне, пожалуйста, квитанцию на эту сумму?",
+        "en": "Will you please issue me a receipt for the amount?"
+      },
+      "bracket_parts": [
+        "Stellst",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Arzt stellt dem Patienten ein Rezept für Medikamente aus.",
+      "translation": {
+        "ru": "Врач выписывает пациенту рецепт на лекарства.",
+        "en": "The doctor issues the patient a prescription for medication."
+      },
+      "bracket_parts": [
+        "stellt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir stellen unsere neuesten Produkte auf der Messe aus.",
+      "translation": {
+        "ru": "Мы выставляем наши новейшие продукты на выставке.",
+        "en": "We exhibit our latest products at the trade fair."
+      },
+      "bracket_parts": [
+        "stellen",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stellt ihr die Zeugnisse für die Absolventen heute aus?",
+      "translation": {
+        "ru": "Вы выписываете аттестаты выпускникам сегодня?",
+        "en": "Are you issuing the certificates for the graduates today?"
+      },
+      "bracket_parts": [
+        "Stellt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Museum stellte seltene historische Exponate aus.",
+      "translation": {
+        "ru": "Музей выставил редкие исторические экспонаты.",
+        "en": "The museum exhibited rare historical exhibits."
+      },
+      "bracket_parts": [
+        "stellte",
+        "aus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Behörde hat den neuen Reisepass schnell ausgestellt.",
+      "translation": {
+        "ru": "Ведомство быстро выдало новый загранпаспорт.",
+        "en": "The authority quickly issued the new passport."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgestellt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Stell die Rechnung bitte auf den Firmennamen aus!",
+      "translation": {
+        "ru": "Выпиши счет на название компании, пожалуйста!",
+        "en": "Please make the invoice out to the company name!"
+      },
+      "bracket_parts": [
+        "Stell",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

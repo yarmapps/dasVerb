@@ -1,0 +1,138 @@
+{
+  "id": "befriedigen",
+  "infinitive": "befriedigen",
+  "translation": {
+    "ru": "удовлетворять (потребности, любопытство)",
+    "en": "to satisfy, to gratify"
+  },
+  "level": "B2",
+  "frequency_rank": 830,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "befriedigt",
+    "preterite_third_singular": "befriedigte",
+    "past_participle": "befriedigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "befriedige",
+      "du": "befriedigst",
+      "er_sie_es": "befriedigt",
+      "wir": "befriedigen",
+      "ihr": "befriedigt",
+      "sie_Sie": "befriedigen"
+    },
+    "preterite": {
+      "ich": "befriedigte",
+      "du": "befriedigtest",
+      "er_sie_es": "befriedigte",
+      "wir": "befriedigten",
+      "ihr": "befriedigtet",
+      "sie_Sie": "befriedigten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "befriedigt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich befriedige meinen Wissensdurst durch viele Bücher.",
+      "translation": {
+        "ru": "Я удовлетворяю свою жажду знаний множеством книг.",
+        "en": "I satisfy my thirst for knowledge through many books."
+      },
+      "bracket_parts": [
+        "befriedige"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Befriedigst du die hohen Ansprüche deiner Kunden?",
+      "translation": {
+        "ru": "Ты удовлетворяешь высокие требования своих клиентов?",
+        "en": "Do you satisfy the high demands of your customers?"
+      },
+      "bracket_parts": [
+        "Befriedigst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Ergebnis befriedigt die Erwartungen der Experten.",
+      "translation": {
+        "ru": "Результат удовлетворяет ожидания экспертов.",
+        "en": "The result satisfies the expectations of the experts."
+      },
+      "bracket_parts": [
+        "befriedigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir befriedigen den Bedarf an sauberem Trinkwasser.",
+      "translation": {
+        "ru": "Мы удовлетворяем потребность в чистой питьевой воде.",
+        "en": "We satisfy the need for clean drinking water."
+      },
+      "bracket_parts": [
+        "befriedigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Befriedigt ihr die Wünsche aller Gäste?",
+      "translation": {
+        "ru": "Вы удовлетворяете пожелания всех гостей?",
+        "en": "Do you satisfy the wishes of all guests?"
+      },
+      "bracket_parts": [
+        "Befriedigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die einfache Antwort befriedigte die Neugier des Kindes.",
+      "translation": {
+        "ru": "Простой ответ удовлетворил любопытство ребенка.",
+        "en": "The simple answer satisfied the child's curiosity."
+      },
+      "bracket_parts": [
+        "befriedigte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Lösung hat beide Seiten vollkommen befriedigt.",
+      "translation": {
+        "ru": "Решение полностью удовлетворило обе стороны.",
+        "en": "The solution completely satisfied both sides."
+      },
+      "bracket_parts": [
+        "hat",
+        "befriedigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Befriedige zuerst die elementaren Grundbedürfnisse der Menschen!",
+      "translation": {
+        "ru": "Сначала удовлетвори базовые потребности людей!",
+        "en": "First satisfy people's basic needs!"
+      },
+      "bracket_parts": [
+        "Befriedige"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

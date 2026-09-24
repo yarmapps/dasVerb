@@ -1,0 +1,150 @@
+{
+  "id": "austauschen",
+  "infinitive": "austauschen",
+  "translation": {
+    "ru": "обменивать, заменять",
+    "en": "to exchange, to replace"
+  },
+  "level": "B1",
+  "frequency_rank": 742,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "tauscht aus",
+    "preterite_third_singular": "tauschte aus",
+    "past_participle": "ausgetauscht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "tausche aus",
+      "du": "tauschst aus",
+      "er_sie_es": "tauscht aus",
+      "wir": "tauschen aus",
+      "ihr": "tauscht aus",
+      "sie_Sie": "tauschen aus"
+    },
+    "preterite": {
+      "ich": "tauschte aus",
+      "du": "tauschtest aus",
+      "er_sie_es": "tauschte aus",
+      "wir": "tauschten aus",
+      "ihr": "tauschtet aus",
+      "sie_Sie": "tauschten aus"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "ausgetauscht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "gegen",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich tausche die leere Batterie gegen eine neue aus.",
+      "translation": {
+        "ru": "Я заменяю севшую батарейку на новую.",
+        "en": "I exchange the empty battery for a new one."
+      },
+      "bracket_parts": [
+        "tausche",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Tauschst du deine Telefonnummer mit dem neuen Nachbarn aus?",
+      "translation": {
+        "ru": "Ты обмениваешься номерами телефонов с новым соседом?",
+        "en": "Are you exchanging phone numbers with the new neighbor?"
+      },
+      "bracket_parts": [
+        "Tauschst",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Mechaniker tauscht das kaputte Autoteil schnell aus.",
+      "translation": {
+        "ru": "Механик быстро заменяет сломанную деталь машины.",
+        "en": "The mechanic quickly replaces the broken car part."
+      },
+      "bracket_parts": [
+        "tauscht",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir tauschen im Seminar wertvolle Erfahrungen aus.",
+      "translation": {
+        "ru": "Мы обмениваемся ценным опытом на семинаре.",
+        "en": "We exchange valuable experiences in the seminar."
+      },
+      "bracket_parts": [
+        "tauschen",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Tauscht ihr eure Kleidung manchmal untereinander aus?",
+      "translation": {
+        "ru": "Вы иногда меняетесь одеждой друг с другом?",
+        "en": "Do you guys sometimes swap clothes among yourselves?"
+      },
+      "bracket_parts": [
+        "Tauscht",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie tauschten während der Pause interessante Neuigkeiten aus.",
+      "translation": {
+        "ru": "Они обменивались интересными новостями во время перерыва.",
+        "en": "They exchanged interesting news during the break."
+      },
+      "bracket_parts": [
+        "tauschten",
+        "aus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Wir haben alle alten Glühbirnen durch sparsame LEDs ausgetauscht.",
+      "translation": {
+        "ru": "Мы заменили все старые лампочки на экономные светодиоды.",
+        "en": "We have replaced all old bulbs with energy-saving LEDs."
+      },
+      "bracket_parts": [
+        "haben",
+        "ausgetauscht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Tausche den defekten Filter sofort aus!",
+      "translation": {
+        "ru": "Немедленно замени неисправный фильтр!",
+        "en": "Replace the defective filter immediately!"
+      },
+      "bracket_parts": [
+        "Tausche",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

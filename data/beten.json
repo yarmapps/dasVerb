@@ -1,0 +1,147 @@
+{
+  "id": "beten",
+  "infinitive": "beten",
+  "translation": {
+    "ru": "молиться",
+    "en": "to pray"
+  },
+  "level": "A2",
+  "frequency_rank": 1011,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "betet",
+    "preterite_third_singular": "betete",
+    "past_participle": "gebetet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bete",
+      "du": "betest",
+      "er_sie_es": "betet",
+      "wir": "beten",
+      "ihr": "betet",
+      "sie_Sie": "beten"
+    },
+    "preterite": {
+      "ich": "betete",
+      "du": "betetest",
+      "er_sie_es": "betete",
+      "wir": "beteten",
+      "ihr": "betetet",
+      "sie_Sie": "beteten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gebetet"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "für",
+        "case": "Akkusativ"
+      },
+      {
+        "preposition": "zu",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich bete jeden Abend in Stille für den Frieden in der Welt.",
+      "translation": {
+        "ru": "Я каждый вечер в тишине молюсь о мире во всем мире.",
+        "en": "I pray every evening in silence for peace in the world."
+      },
+      "bracket_parts": [
+        "bete"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Betest du vor jeder Mahlzeit gemeinsam mit deiner Familie?",
+      "translation": {
+        "ru": "Молишься ли ты перед каждым приемом пищи вместе со своей семьей?",
+        "en": "Do you pray before every meal together with your family?"
+      },
+      "bracket_parts": [
+        "Betest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Gemeinde betet andächtig in der alten Dorfkirche.",
+      "translation": {
+        "ru": "Община благоговейно молится в старой деревенской церкви.",
+        "en": "The congregation prays reverently in the old village church."
+      },
+      "bracket_parts": [
+        "betet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beten für die baldige Genesung unseres kranken Freundes.",
+      "translation": {
+        "ru": "Мы молимся о скорейшем выздоровлении нашего больного друга.",
+        "en": "We pray for the speedy recovery of our sick friend."
+      },
+      "bracket_parts": [
+        "beten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Betet ihr in schwierigen Lebenslagen auch um Beistand und Kraft?",
+      "translation": {
+        "ru": "Молитесь ли вы в трудных жизненных ситуациях о поддержке и силе?",
+        "en": "Do you guys also pray for assistance and strength in difficult situations?"
+      },
+      "bracket_parts": [
+        "Betet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Mönche beteten frühmorgens im Klostergarten.",
+      "translation": {
+        "ru": "Монахи молились ранним утром в монастырском саду.",
+        "en": "The monks prayed early in the morning in the monastery garden."
+      },
+      "bracket_parts": [
+        "beteten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Viele Menschen haben für die Rettung der Bergleute gebetet.",
+      "translation": {
+        "ru": "Многие люди молились о спасении шахтеров.",
+        "en": "Many people prayed for the rescue of the miners."
+      },
+      "bracket_parts": [
+        "haben",
+        "gebetet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bete mit aufrichtigem Herzen für deine Mitmenschen!",
+      "translation": {
+        "ru": "Молись с искренним сердцем за своих ближних!",
+        "en": "Pray with a sincere heart for your fellow human beings!"
+      },
+      "bracket_parts": [
+        "Bete"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

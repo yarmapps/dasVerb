@@ -1,0 +1,171 @@
+{
+  "id": "erledigen",
+  "infinitive": "erledigen",
+  "translation": {
+    "ru": "выполнять, улаживать, делать",
+    "en": "to settle, take care of, complete"
+  },
+  "level": "A2",
+  "frequency_rank": 516,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erledigen",
+    "present_3sg": "erledigt",
+    "praeteritum_3sg": "erledigte",
+    "partizip_2": "erledigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erledige",
+      "du": "erledigst",
+      "er_sie_es": "erledigt",
+      "wir": "erledigen",
+      "ihr": "erledigt",
+      "sie_Sie": "erledigen"
+    },
+    "praeteritum": {
+      "ich": "erledigte",
+      "du": "erledigtest",
+      "er_sie_es": "erledigte",
+      "wir": "erledigten",
+      "ihr": "erledigtet",
+      "sie_Sie": "erledigten"
+    },
+    "perfekt": {
+      "ich": "habe erledigt",
+      "du": "hast erledigt",
+      "er_sie_es": "hat erledigt",
+      "wir": "haben erledigt",
+      "ihr": "habt erledigt",
+      "sie_Sie": "haben erledigt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich erledige alle Einkäufe für die Woche am Samstag.",
+      "translation": {
+        "ru": "Я делаю все покупки на неделю в субботу.",
+        "en": "I take care of all shopping for the week on Saturday."
+      },
+      "bracket_parts": [
+        "erledige"
+      ],
+      "akkusativ_parts": [
+        "alle Einkäufe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du erledigst deine Hausaufgaben immer sehr zügig.",
+      "translation": {
+        "ru": "Ты всегда очень быстро делаешь домашние задания.",
+        "en": "You always complete your homework very swiftly."
+      },
+      "bracket_parts": [
+        "erledigst"
+      ],
+      "akkusativ_parts": [
+        "deine Hausaufgaben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Sachbearbeiter erledigt den Antrag noch heute.",
+      "translation": {
+        "ru": "Сотрудник обработает заявление еще сегодня.",
+        "en": "The clerk settles the application today."
+      },
+      "bracket_parts": [
+        "erledigt"
+      ],
+      "akkusativ_parts": [
+        "den Antrag"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erledigen die anfallenden Formalitäten im Rathaus.",
+      "translation": {
+        "ru": "Мы улаживаем необходимые формальности в ратуше.",
+        "en": "We settle the required formalities at the town hall."
+      },
+      "bracket_parts": [
+        "erledigen"
+      ],
+      "akkusativ_parts": [
+        "die anfallenden Formalitäten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr erledigt eure täglichen Aufgaben mit großer Sorgfalt.",
+      "translation": {
+        "ru": "Вы выполняете свои ежедневные задачи с большой тщательностью.",
+        "en": "You complete your daily tasks with great care."
+      },
+      "bracket_parts": [
+        "erledigt"
+      ],
+      "akkusativ_parts": [
+        "eure täglichen Aufgaben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie erledigten damals die schwere Arbeit ohne fremde Hilfe.",
+      "translation": {
+        "ru": "Они тогда выполнили тяжелую работу без посторонней помощи.",
+        "en": "They completed the hard work without outside help back then."
+      },
+      "bracket_parts": [
+        "erledigten"
+      ],
+      "akkusativ_parts": [
+        "die schwere Arbeit"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Ich habe die dringende Überweisung bereits online erledigt.",
+      "translation": {
+        "ru": "Я уже сделал срочный перевод онлайн.",
+        "en": "I have already completed the urgent bank transfer online."
+      },
+      "bracket_parts": [
+        "habe",
+        "erledigt"
+      ],
+      "akkusativ_parts": [
+        "die dringende Überweisung"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erledige diese dringende Sache bitte so schnell wie möglich!",
+      "translation": {
+        "ru": "Уладь это срочное дело как можно скорее, пожалуйста!",
+        "en": "Please take care of this urgent matter as soon as possible!"
+      },
+      "bracket_parts": [
+        "Erledige"
+      ],
+      "akkusativ_parts": [
+        "diese dringende Sache"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

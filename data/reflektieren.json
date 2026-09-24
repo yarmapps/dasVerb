@@ -1,0 +1,143 @@
+{
+  "id": "reflektieren",
+  "infinitive": "reflektieren",
+  "translation": {
+    "ru": "осмысливать, размышлять, отражать (свет)",
+    "en": "to reflect (on), to ponder, to mirror back"
+  },
+  "level": "B2",
+  "frequency_rank": 1044,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "reflektiert",
+    "preterite_third_singular": "reflektierte",
+    "past_participle": "reflektiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "reflektiere",
+      "du": "reflektierst",
+      "er_sie_es": "reflektiert",
+      "wir": "reflektieren",
+      "ihr": "reflektiert",
+      "sie_Sie": "reflektieren"
+    },
+    "preterite": {
+      "ich": "reflektierte",
+      "du": "reflektiertest",
+      "er_sie_es": "reflektierte",
+      "wir": "reflektierten",
+      "ihr": "reflektiertet",
+      "sie_Sie": "reflektierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "reflektiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "über",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich reflektiere mein eigenes Verhalten nach jedem schwierigen Gespräch.",
+      "translation": {
+        "ru": "Я осмысливаю собственное поведение после каждого сложного разговора.",
+        "en": "I reflect on my own behavior after every difficult conversation."
+      },
+      "bracket_parts": [
+        "reflektiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Reflektierst du regelmäßig über deine beruflichen Ziele und Wünsche?",
+      "translation": {
+        "ru": "Регулярно ли ты размышляешь о своих карьерных целях и желаниях?",
+        "en": "Do you regularly reflect on your professional goals and desires?"
+      },
+      "bracket_parts": [
+        "Reflektierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die helle Oberfläche reflektiert das Sonnenlicht besonders stark.",
+      "translation": {
+        "ru": "Светлая поверхность особенно сильно отражает солнечный свет.",
+        "en": "The bright surface reflects sunlight particularly strongly."
+      },
+      "bracket_parts": [
+        "reflektiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir reflektieren im Teamseminar unsere gemeinsamen Arbeitsmethoden.",
+      "translation": {
+        "ru": "На командном семинаре мы осмысливаем наши общие методы работы.",
+        "en": "In the team seminar, we reflect on our shared working methods."
+      },
+      "bracket_parts": [
+        "reflektieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Reflektiert ihr eure Erfahrungen aus dem abgelaufenen Schuljahr?",
+      "translation": {
+        "ru": "Осмысливаете ли вы свой опыт прошедшего учебного года?",
+        "en": "Do you guys reflect on your experiences from the past school year?"
+      },
+      "bracket_parts": [
+        "Reflektiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Philosoph reflektierte tiefgründig über den Sinn des Lebens.",
+      "translation": {
+        "ru": "Философ глубоко размышлял о смысле жизни.",
+        "en": "The philosopher reflected deeply on the meaning of life."
+      },
+      "bracket_parts": [
+        "reflektierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Studierenden haben ihre Lernerfolge im Kurs kritisch reflektiert.",
+      "translation": {
+        "ru": "Студенты критически осмыслили свои успехи в учебе на курсе.",
+        "en": "The students critically reflected on their learning progress in the course."
+      },
+      "bracket_parts": [
+        "haben",
+        "reflektiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Reflektiere deine Entscheidungen ehrlich und lerne daraus!",
+      "translation": {
+        "ru": "Осмысливай свои решения честно и учись на них!",
+        "en": "Reflect on your decisions honestly and learn from them!"
+      },
+      "bracket_parts": [
+        "Reflektiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

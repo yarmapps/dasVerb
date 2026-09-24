@@ -1,0 +1,143 @@
+{
+  "id": "bekaempfen",
+  "infinitive": "bekämpfen",
+  "translation": {
+    "ru": "бороться, преодолевать, подавлять",
+    "en": "to fight, to combat, to tackle"
+  },
+  "level": "B2",
+  "frequency_rank": 831,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "bekämpft",
+    "preterite_third_singular": "bekämpfte",
+    "past_participle": "bekämpft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bekämpfe",
+      "du": "bekämpfst",
+      "er_sie_es": "bekämpft",
+      "wir": "bekämpfen",
+      "ihr": "bekämpft",
+      "sie_Sie": "bekämpfen"
+    },
+    "preterite": {
+      "ich": "bekämpfte",
+      "du": "bekämpftest",
+      "er_sie_es": "bekämpfte",
+      "wir": "bekämpften",
+      "ihr": "bekämpftet",
+      "sie_Sie": "bekämpften"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "bekämpft"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich bekämpfe die Müdigkeit mit einer Tasse Kaffee.",
+      "translation": {
+        "ru": "Я борюсь с усталостью чашкой кофе.",
+        "en": "I fight fatigue with a cup of coffee."
+      },
+      "bracket_parts": [
+        "bekämpfe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bekämpfst du deine Prüfungsangst durch gezielte Entspannung?",
+      "translation": {
+        "ru": "Ты борешься со страхом перед экзаменом с помощью целенаправленного расслабления?",
+        "en": "Do you combat your exam anxiety through targeted relaxation?"
+      },
+      "bracket_parts": [
+        "Bekämpfst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Feuerwehr bekämpft den gefährlichen Brand im Wald.",
+      "translation": {
+        "ru": "Пожарная охрана борется с опасным возгоранием в лесу.",
+        "en": "The fire department fights the dangerous fire in the forest."
+      },
+      "bracket_parts": [
+        "bekämpft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bekämpfen die Armut mit Bildungsprogrammen.",
+      "translation": {
+        "ru": "Мы боремся с бедностью с помощью образовательных программ.",
+        "en": "We combat poverty with educational programs."
+      },
+      "bracket_parts": [
+        "bekämpfen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bekämpft ihr Schädlinge im Garten mit natürlichen Mitteln?",
+      "translation": {
+        "ru": "Вы боретесь с вредителями в саду натуральными средствами?",
+        "en": "Do you fight pests in the garden with natural means?"
+      },
+      "bracket_parts": [
+        "Bekämpft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Medizin bekämpfte die schwere Epidemie erfolgreich.",
+      "translation": {
+        "ru": "Медицина успешно боролась с тяжелой эпидемией.",
+        "en": "Medicine fought the severe epidemic successfully."
+      },
+      "bracket_parts": [
+        "bekämpfte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben die Korruption im Land konsequent bekämpft.",
+      "translation": {
+        "ru": "Они последовательно боролись с коррупцией в стране.",
+        "en": "They consistently fought corruption in the country."
+      },
+      "bracket_parts": [
+        "haben",
+        "bekämpft"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bekämpfe die Ursachen und nicht nur die Symptome!",
+      "translation": {
+        "ru": "Борись с причинами, а не только с симптомами!",
+        "en": "Fight the causes and not just the symptoms!"
+      },
+      "bracket_parts": [
+        "Bekämpfe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

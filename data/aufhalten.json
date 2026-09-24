@@ -1,0 +1,155 @@
+{
+  "id": "aufhalten",
+  "infinitive": "aufhalten",
+  "translation": {
+    "ru": "задерживать, останавливать, придерживать (дверь)",
+    "en": "to stop, to delay, to hold open"
+  },
+  "level": "B1",
+  "frequency_rank": 572,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufhalten",
+    "present_3sg": "hält auf",
+    "praeteritum_3sg": "hielt auf",
+    "partizip_2": "aufgehalten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "halte auf",
+      "du": "hältst auf",
+      "er_sie_es": "hält auf",
+      "wir": "halten auf",
+      "ihr": "haltet auf",
+      "sie_Sie": "halten auf",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "hielt auf",
+      "du": "hieltest auf",
+      "er_sie_es": "hielt auf",
+      "wir": "hielten auf",
+      "ihr": "hieltet auf",
+      "sie_Sie": "hielten auf"
+    },
+    "perfekt": {
+      "ich": "habe aufgehalten",
+      "du": "hast aufgehalten",
+      "er_sie_es": "hat aufgehalten",
+      "wir": "haben aufgehalten",
+      "ihr": "habt aufgehalten",
+      "sie_Sie": "haben aufgehalten"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich halte dich nicht länger von deiner Arbeit auf.",
+      "translation": {
+        "ru": "Я не задерживаю тебя дольше от твоей работы.",
+        "en": "I will not hold you up from your work any longer."
+      },
+      "bracket_parts": [
+        "halte",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Hältst du mir bitte kurz die schwere Tür auf?",
+      "translation": {
+        "ru": "Придержишь мне, пожалуйста, тяжелую дверь?",
+        "en": "Will you please hold the heavy door open for me?"
+      },
+      "bracket_parts": [
+        "Hältst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Niemand hält den technischen Fortschritt auf.",
+      "translation": {
+        "ru": "Никто не остановит технический прогресс.",
+        "en": "Nobody stops technological progress."
+      },
+      "bracket_parts": [
+        "hält",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir halten den Verkehr an der Kreuzung nicht auf.",
+      "translation": {
+        "ru": "Мы не задерживаем движение на перекрестке.",
+        "en": "We do not delay traffic at the intersection."
+      },
+      "bracket_parts": [
+        "halten",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr haltet mit euren Fragen die ganze Gruppe auf.",
+      "translation": {
+        "ru": "Вы своими вопросами задерживаете всю группу.",
+        "en": "You are holding up the whole group with your questions."
+      },
+      "bracket_parts": [
+        "haltet",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein langer Stau hielt uns auf der Autobahn auf.",
+      "translation": {
+        "ru": "Длинная пробка задержала нас на автобане.",
+        "en": "A long traffic jam delayed us on the highway."
+      },
+      "bracket_parts": [
+        "hielt",
+        "auf"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Polizei hat den Flüchtigen schnell aufgehalten.",
+      "translation": {
+        "ru": "Полиция быстро остановила беглеца.",
+        "en": "The police stopped the fugitive quickly."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgehalten"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Halte den Busfahrer bitte ganz kurz auf!",
+      "translation": {
+        "ru": "Задержи, пожалуйста, водителя автобуса на секундочку!",
+        "en": "Please hold up the bus driver very briefly!"
+      },
+      "bracket_parts": [
+        "Halte",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

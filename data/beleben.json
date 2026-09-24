@@ -1,0 +1,137 @@
+{
+  "id": "beleben",
+  "infinitive": "beleben",
+  "translation": {
+    "ru": "оживлять, стимулировать, бодрить",
+    "en": "to enliven, to stimulate, to revive"
+  },
+  "level": "B2",
+  "frequency_rank": 942,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "belebt",
+    "preterite_third_singular": "belebte",
+    "past_participle": "belebt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "belebe",
+      "du": "belebst",
+      "er_sie_es": "belebt",
+      "wir": "beleben",
+      "ihr": "belebt",
+      "sie_Sie": "beleben"
+    },
+    "preterite": {
+      "ich": "belebte",
+      "du": "belebtest",
+      "er_sie_es": "belebte",
+      "wir": "belebten",
+      "ihr": "belegtet",
+      "sie_Sie": "belebten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "belebt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich belebe den müden Geist am Morgen mit einer kalten Dusche.",
+      "translation": {
+        "ru": "Утром я бодрю уставший дух холодным душем.",
+        "en": "I revive my tired mind in the morning with a cold shower."
+      },
+      "bracket_parts": [
+        "belebe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Belebst du die Diskussion mit deinen kreativen Vorschlägen?",
+      "translation": {
+        "ru": "Оживляешь ли ты дискуссию своими креативными предложениями?",
+        "en": "Do you enliven the discussion with your creative suggestions?"
+      },
+      "bracket_parts": [
+        "Belebst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein starker Espresso belebt den Kreislauf nach dem Essen.",
+      "translation": {
+        "ru": "Крепкий эспрессо стимулирует кровообращение после еды.",
+        "en": "A strong espresso stimulates circulation after the meal."
+      },
+      "bracket_parts": [
+        "belebt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beleben die historische Innenstadt durch neue Kulturprojekte.",
+      "translation": {
+        "ru": "Мы оживляем исторический центр города новыми культурными проектами.",
+        "en": "We revive the historic city center through new cultural projects."
+      },
+      "bracket_parts": [
+        "beleben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Belebt ihr die langweilige Party mit guter Musik und Tanz?",
+      "translation": {
+        "ru": "Оживите ли вы скучную вечеринку хорошей музыкой и танцами?",
+        "en": "Are you guys enlivening the boring party with good music and dance?"
+      },
+      "bracket_parts": [
+        "Belebt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Steuersenkung belebte die heimische Wirtschaft spürbar.",
+      "translation": {
+        "ru": "Снижение налогов ощутимо оживило отечественную экономику.",
+        "en": "The tax cut noticeably stimulated the domestic economy."
+      },
+      "bracket_parts": [
+        "belebte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Tourismus hat die ganze Region wirtschaftlich belebt.",
+      "translation": {
+        "ru": "Туризм экономически оживил весь регион.",
+        "en": "Tourism has economically revived the whole region."
+      },
+      "bracket_parts": [
+        "hat",
+        "belebt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Belebe das Gespräch mit einer humorvollen Anekdote!",
+      "translation": {
+        "ru": "Оживи беседу забавным анекдотом!",
+        "en": "Enliven the conversation with a humorous anecdote!"
+      },
+      "bracket_parts": [
+        "Belebe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

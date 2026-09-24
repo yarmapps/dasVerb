@@ -1,0 +1,148 @@
+{
+  "id": "hinterlassen",
+  "infinitive": "hinterlassen",
+  "translation": {
+    "ru": "оставлять (после себя/сообщение), завещать",
+    "en": "to leave behind, to bequeath"
+  },
+  "level": "B1",
+  "frequency_rank": 662,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "hinter",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "hinterlassen",
+    "present_3sg": "hinterlässt",
+    "praeteritum_3sg": "hinterließ",
+    "partizip_2": "hinterlassen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "hinterlasse",
+      "du": "hinterlässt",
+      "er_sie_es": "hinterlässt",
+      "wir": "hinterlassen",
+      "ihr": "hinterlasst",
+      "sie_Sie": "hinterlassen",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "hinterließ",
+      "du": "hinterließt",
+      "er_sie_es": "hinterließ",
+      "wir": "hinterließen",
+      "ihr": "hinterließt",
+      "sie_Sie": "hinterließen"
+    },
+    "perfekt": {
+      "ich": "habe hinterlassen",
+      "du": "hast hinterlassen",
+      "er_sie_es": "hat hinterlassen",
+      "wir": "haben hinterlassen",
+      "ihr": "habt hinterlassen",
+      "sie_Sie": "haben hinterlassen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich hinterlasse dir eine wichtige Nachricht auf dem Tisch.",
+      "translation": {
+        "ru": "Я оставляю тебе важное сообщение на столе.",
+        "en": "I leave an important message for you on the table."
+      },
+      "bracket_parts": [
+        "hinterlasse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Hinterlässt du deine Telefonnummer für eventuelle Rückfragen?",
+      "translation": {
+        "ru": "Ты оставишь свой номер телефона на случай возможных вопросов?",
+        "en": "Will you leave your phone number for possible queries?"
+      },
+      "bracket_parts": [
+        "Hinterlässt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der berühmte Maler hinterlässt der Welt ein großes Lebenswerk.",
+      "translation": {
+        "ru": "Знаменитый художник оставляет миру великое наследие всей жизни.",
+        "en": "The famous painter leaves behind a great life's work to the world."
+      },
+      "bracket_parts": [
+        "hinterlässt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir hinterlassen den Konferenzraum immer sauber und ordentlich.",
+      "translation": {
+        "ru": "Мы всегда оставляем конференц-зал чистым и аккуратным.",
+        "en": "We always leave the conference room clean and tidy."
+      },
+      "bracket_parts": [
+        "hinterlassen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr hinterlasst einen hervorragenden Eindruck bei den Kunden.",
+      "translation": {
+        "ru": "Вы производите превосходное впечатление на клиентов.",
+        "en": "You leave an excellent impression on the clients."
+      },
+      "bracket_parts": [
+        "hinterlasst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schriftsteller hinterließ damals viele unvollendete Manuskripte.",
+      "translation": {
+        "ru": "Писатель тогда оставил после себя много неоконченных рукописей.",
+        "en": "The writer left behind many unfinished manuscripts back then."
+      },
+      "bracket_parts": [
+        "hinterließ"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Sturm hat schwere Zerstörungen in der Region hinterlassen.",
+      "translation": {
+        "ru": "Буря оставила тяжелые разрушения в регионе.",
+        "en": "The storm left severe destruction in the region."
+      },
+      "bracket_parts": [
+        "hat",
+        "hinterlassen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Hinterlasse bitte deinen Namen und deine Kontaktdaten!",
+      "translation": {
+        "ru": "Оставь, пожалуйста, свое имя и контактные данные!",
+        "en": "Please leave your name and contact details!"
+      },
+      "bracket_parts": [
+        "Hinterlasse"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

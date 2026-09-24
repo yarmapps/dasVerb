@@ -77,12 +77,42 @@ describe('UI Components Suite', () => {
 
       expect(getByText(/Рекомендация/i)).toBeTruthy();
       expect(getByText('Тренируй глаголы')).toBeTruthy();
-      expect(getByText('Изучай глаголы от A1 до B2')).toBeTruthy();
+      expect(getByText('От самых употребляемых к редким по методике Goethe')).toBeTruthy();
       expect(getByText('Начать сейчас')).toBeTruthy();
 
       const card = getByTestId('featured-practice-card');
       fireEvent.press(card);
       expect(handlePress).toHaveBeenCalledTimes(1);
+    });
+  });
+
+  describe('SmartQuizCard', () => {
+    it('should render diamond icon for free user and fire onPress', () => {
+      const handlePress = jest.fn();
+      const { getByTestId, getByText } = render(
+        <TestWrapper>
+          <SmartQuizCard onPress={handlePress} isPremium={false} />
+        </TestWrapper>,
+      );
+
+      expect(getByText('Умный алгоритм')).toBeTruthy();
+      expect(getByTestId('smart-quiz-premium-badge')).toBeTruthy();
+
+      const card = getByTestId('smart-quiz-card');
+      fireEvent.press(card);
+      expect(handlePress).toHaveBeenCalledTimes(1);
+    });
+
+    it('should hide diamond icon for premium user', () => {
+      const handlePress = jest.fn();
+      const { queryByTestId, getByText } = render(
+        <TestWrapper>
+          <SmartQuizCard onPress={handlePress} isPremium={true} />
+        </TestWrapper>,
+      );
+
+      expect(getByText('Умный алгоритм')).toBeTruthy();
+      expect(queryByTestId('smart-quiz-premium-badge')).toBeNull();
     });
   });
 

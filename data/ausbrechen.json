@@ -1,0 +1,150 @@
+{
+  "id": "ausbrechen",
+  "infinitive": "ausbrechen",
+  "translation": {
+    "ru": "вспыхивать (о пожаре, войне), совершать побег",
+    "en": "to break out, to erupt, to escape"
+  },
+  "level": "B2",
+  "frequency_rank": 756,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "bricht aus",
+    "preterite_third_singular": "brach aus",
+    "past_participle": "ausgebrochen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "breche aus",
+      "du": "brichst aus",
+      "er_sie_es": "bricht aus",
+      "wir": "brechen aus",
+      "ihr": "brecht aus",
+      "sie_Sie": "brechen aus"
+    },
+    "preterite": {
+      "ich": "brach aus",
+      "du": "brachst aus",
+      "er_sie_es": "brach aus",
+      "wir": "brachen aus",
+      "ihr": "bracht aus",
+      "sie_Sie": "brachen aus"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "ausgebrochen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "aus",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich breche aus dem monotonen Alltagstrott aus.",
+      "translation": {
+        "ru": "Я вырываюсь из монотонной повседневной рутины.",
+        "en": "I break out of the monotonous daily grind."
+      },
+      "bracket_parts": [
+        "breche",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Brichst du aus deinen alten Denkmustern aus?",
+      "translation": {
+        "ru": "Ты вырываешься из своих старых шаблонов мышления?",
+        "en": "Are you breaking out of your old thought patterns?"
+      },
+      "bracket_parts": [
+        "Brichst",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der gefährliche Vulkan bricht nach vielen Jahren wieder aus.",
+      "translation": {
+        "ru": "Опасный вулкан снова извергается спустя много лет.",
+        "en": "The dangerous volcano erupts again after many years."
+      },
+      "bracket_parts": [
+        "bricht",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir brechen gemeinsam aus unserer gewohnten Umgebung aus.",
+      "translation": {
+        "ru": "Мы вместе вырываемся из нашей привычной обстановки.",
+        "en": "We break out of our familiar environment together."
+      },
+      "bracket_parts": [
+        "brechen",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Brecht ihr aus dem streng bewachten Lager aus?",
+      "translation": {
+        "ru": "Вы совершаете побег из строго охраняемого лагеря?",
+        "en": "Are you breaking out of the heavily guarded camp?"
+      },
+      "bracket_parts": [
+        "Brecht",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein verheerendes Feuer brach mitten in der Nacht aus.",
+      "translation": {
+        "ru": "Опустошительный пожар вспыхнул посреди ночи.",
+        "en": "A devastating fire broke out in the middle of the night."
+      },
+      "bracket_parts": [
+        "brach",
+        "aus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Ein gefährlicher Häftling ist gestern aus dem Gefängnis ausgebrochen.",
+      "translation": {
+        "ru": "Опасный заключенный сбежал вчера из тюрьмы.",
+        "en": "A dangerous prisoner broke out of prison yesterday."
+      },
+      "bracket_parts": [
+        "ist",
+        "ausgebrochen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Brich aus deiner Komfortzone aus und lerne Neues!",
+      "translation": {
+        "ru": "Выйди из зоны комфорта и учи новое!",
+        "en": "Break out of your comfort zone and learn new things!"
+      },
+      "bracket_parts": [
+        "Brich",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

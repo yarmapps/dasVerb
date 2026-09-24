@@ -1,0 +1,145 @@
+{
+  "id": "umbringen",
+  "infinitive": "umbringen",
+  "translation": {
+    "ru": "убивать, лишать жизни",
+    "en": "to kill, to murder"
+  },
+  "level": "B1",
+  "frequency_rank": 844,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "irregular",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "bringt um",
+    "preterite_third_singular": "brachte um",
+    "past_participle": "umgebracht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bringe um",
+      "du": "bringst um",
+      "er_sie_es": "bringt um",
+      "wir": "bringen um",
+      "ihr": "bringt um",
+      "sie_Sie": "bringen um"
+    },
+    "preterite": {
+      "ich": "brachte um",
+      "du": "brachtest um",
+      "er_sie_es": "brachte um",
+      "wir": "brachten um",
+      "ihr": "brachtet um",
+      "sie_Sie": "brachten um"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "umgebracht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Diese quälende Ungewissheit bringt mich noch um.",
+      "translation": {
+        "ru": "Эта мучительная неизвестность меня доконает.",
+        "en": "This agonizing uncertainty will kill me."
+      },
+      "bracket_parts": [
+        "bringt",
+        "um"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bringst du dich mit dieser extremen Überarbeitung noch um?",
+      "translation": {
+        "ru": "Ты доведешь себя до могилы этой экстремальной переработкой?",
+        "en": "Are you going to kill yourself with this extreme overwork?"
+      },
+      "bracket_parts": [
+        "Bringst",
+        "um"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der eifersüchtige Täter bringt sein Opfer kaltblütig um.",
+      "translation": {
+        "ru": "Ревнивый преступник хладнокровно убивает свою жертву.",
+        "en": "The jealous perpetrator kills his victim in cold blood."
+      },
+      "bracket_parts": [
+        "bringt",
+        "um"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bringen die Zeit bis zum Abflug mit Kartenspielen um.",
+      "translation": {
+        "ru": "Мы убиваем время до вылета карточными играми.",
+        "en": "We kill the time until departure playing cards."
+      },
+      "bracket_parts": [
+        "bringen",
+        "um"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bringt ihr euch wegen dieser Kleinigkeit fast um?",
+      "translation": {
+        "ru": "Вы чуть не убиваете друг друга из-за этого пустяка?",
+        "en": "Are you almost killing each other over this trifle?"
+      },
+      "bracket_parts": [
+        "Bringt",
+        "um"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der grausame Bandit brachte damals viele Reisende um.",
+      "translation": {
+        "ru": "Жестокий бандит убил тогда многих путешественников.",
+        "en": "The cruel bandit killed many travelers back then."
+      },
+      "bracket_parts": [
+        "brachte",
+        "um"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Polizei ermittelt, wer den reichen Mann umgebracht hat.",
+      "translation": {
+        "ru": "Полиция выясняет, кто убил богатого мужчину.",
+        "en": "The police are investigating who killed the rich man."
+      },
+      "bracket_parts": [
+        "hat",
+        "umgebracht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bring dich nicht durch solchen Leichtsinn um!",
+      "translation": {
+        "ru": "Не губи себя из-за такого легкомыслия!",
+        "en": "Do not get yourself killed through such recklessness!"
+      },
+      "bracket_parts": [
+        "Bring",
+        "um"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

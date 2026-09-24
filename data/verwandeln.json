@@ -1,0 +1,143 @@
+{
+  "id": "verwandeln",
+  "infinitive": "verwandeln",
+  "translation": {
+    "ru": "превращать, преобразовывать",
+    "en": "to transform, to convert, to turn into"
+  },
+  "level": "B1",
+  "frequency_rank": 718,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verwandelt",
+    "preterite_third_singular": "verwandelte",
+    "past_participle": "verwandelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verwandle",
+      "du": "verwandelst",
+      "er_sie_es": "verwandelt",
+      "wir": "verwandeln",
+      "ihr": "verwandelt",
+      "sie_Sie": "verwandeln"
+    },
+    "preterite": {
+      "ich": "verwandelte",
+      "du": "verwandeltest",
+      "er_sie_es": "verwandelte",
+      "wir": "verwandelten",
+      "ihr": "verwandeltet",
+      "sie_Sie": "verwandelten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verwandelt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich verwandle den alten Raum in ein schönes Arbeitszimmer.",
+      "translation": {
+        "ru": "Я превращаю старую комнату в красивый кабинет.",
+        "en": "I transform the old room into a nice study."
+      },
+      "bracket_parts": [
+        "verwandle"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du verwandelst jede Niederlage in eine wertvolle Erfahrung.",
+      "translation": {
+        "ru": "Ты превращаешь каждое поражение в ценный опыт.",
+        "en": "You turn every defeat into a valuable experience."
+      },
+      "bracket_parts": [
+        "verwandelst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Zauberer verwandelt den Vogel in eine Blume.",
+      "translation": {
+        "ru": "Волшебник превращает птицу в цветок.",
+        "en": "The magician turns the bird into a flower."
+      },
+      "bracket_parts": [
+        "verwandelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verwandeln den Garten in eine grüne Oase.",
+      "translation": {
+        "ru": "Мы превращаем сад в зеленый оазис.",
+        "en": "We transform the garden into a green oasis."
+      },
+      "bracket_parts": [
+        "verwandeln"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr verwandelt die Chance direkt in ein Tor.",
+      "translation": {
+        "ru": "Вы прямо реализуете шанс в гол.",
+        "en": "You convert the chance directly into a goal."
+      },
+      "bracket_parts": [
+        "verwandelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Hexe verwandelte den Prinzen in einen Frosch.",
+      "translation": {
+        "ru": "Ведьма превратила принца в лягушку.",
+        "en": "The witch transformed the prince into a frog."
+      },
+      "bracket_parts": [
+        "verwandelte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Spieler hat den Elfmeter sicher verwandelt.",
+      "translation": {
+        "ru": "Игрок уверенно реализовал пенальти.",
+        "en": "The player confidently converted the penalty."
+      },
+      "bracket_parts": [
+        "hat",
+        "verwandelt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verwandle deine Ideen in erfolgreiche Projekte!",
+      "translation": {
+        "ru": "Превращай свои идеи в успешные проекты!",
+        "en": "Transform your ideas into successful projects!"
+      },
+      "bracket_parts": [
+        "Verwandle"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

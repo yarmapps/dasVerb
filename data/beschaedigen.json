@@ -1,0 +1,138 @@
+{
+  "id": "beschaedigen",
+  "infinitive": "beschädigen",
+  "translation": {
+    "ru": "повреждать, портить",
+    "en": "to damage, to harm"
+  },
+  "level": "B1",
+  "frequency_rank": 832,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "beschädigt",
+    "preterite_third_singular": "beschädigte",
+    "past_participle": "beschädigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beschädige",
+      "du": "beschädigst",
+      "er_sie_es": "beschädigt",
+      "wir": "beschädigen",
+      "ihr": "beschädigt",
+      "sie_Sie": "beschädigen"
+    },
+    "preterite": {
+      "ich": "beschädigte",
+      "du": "beschädigtest",
+      "er_sie_es": "beschädigte",
+      "wir": "beschädigten",
+      "ihr": "beschädigtet",
+      "sie_Sie": "beschädigten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "beschädigt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich beschädige beim Einparken versehentlich die Stoßstange.",
+      "translation": {
+        "ru": "Я при парковке случайно повреждаю бампер.",
+        "en": "I accidentally damage the bumper while parking."
+      },
+      "bracket_parts": [
+        "beschädige"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beschädigst du das empfindliche Display mit dem harten Stift?",
+      "translation": {
+        "ru": "Ты портишь чувствительный дисплей твердым стилусом?",
+        "en": "Are you damaging the sensitive display with the hard stylus?"
+      },
+      "bracket_parts": [
+        "Beschädigst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Hagel beschädigt viele Autos auf der Straße.",
+      "translation": {
+        "ru": "Град повреждает много машин на улице.",
+        "en": "Hail damages many cars on the street."
+      },
+      "bracket_parts": [
+        "beschädigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beschädigen fremdes Eigentum niemals absichtlich.",
+      "translation": {
+        "ru": "Мы никогда не повреждаем чужую собственность умышленно.",
+        "en": "We never deliberately damage other people's property."
+      },
+      "bracket_parts": [
+        "beschädigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beschädigt ihr die Wand beim Aufhängen des Bildes?",
+      "translation": {
+        "ru": "Вы портите стену, когда вешаете картину?",
+        "en": "Are you damaging the wall while hanging the picture?"
+      },
+      "bracket_parts": [
+        "Beschädigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Sturm beschädigte zahlreiche Dächer in der Stadt.",
+      "translation": {
+        "ru": "Буря повредила многочисленные крыши в городе.",
+        "en": "The storm damaged numerous roofs in the city."
+      },
+      "bracket_parts": [
+        "beschädigte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Ein Unbekannter hat mein Fahrrad am Bahnhof beschädigt.",
+      "translation": {
+        "ru": "Неизвестный повредил мой велосипед на вокзале.",
+        "en": "A stranger damaged my bike at the station."
+      },
+      "bracket_parts": [
+        "hat",
+        "beschädigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Pass gut auf und beschädige das wertvolle Paket nicht!",
+      "translation": {
+        "ru": "Будь осторожен и не повреди ценную посылку!",
+        "en": "Take good care and do not damage the valuable package!"
+      },
+      "bracket_parts": [
+        "beschädige"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

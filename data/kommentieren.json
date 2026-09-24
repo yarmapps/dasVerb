@@ -1,0 +1,137 @@
+{
+  "id": "kommentieren",
+  "infinitive": "kommentieren",
+  "translation": {
+    "ru": "комментировать, высказывать замечания",
+    "en": "to comment on, to annotate"
+  },
+  "level": "B1",
+  "frequency_rank": 956,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "kommentiert",
+    "preterite_third_singular": "kommentierte",
+    "past_participle": "kommentiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "kommentiere",
+      "du": "kommentierst",
+      "er_sie_es": "kommentiert",
+      "wir": "kommentieren",
+      "ihr": "kommentiert",
+      "sie_Sie": "kommentieren"
+    },
+    "preterite": {
+      "ich": "kommentierte",
+      "du": "kommentiertest",
+      "er_sie_es": "kommentierte",
+      "wir": "kommentierten",
+      "ihr": "kommentiertet",
+      "sie_Sie": "kommentierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "kommentiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich kommentiere den interessanten Beitrag im Online-Forum.",
+      "translation": {
+        "ru": "Я комментирую интересную публикацию на онлайн-форуме.",
+        "en": "I comment on the interesting post in the online forum."
+      },
+      "bracket_parts": [
+        "kommentiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Kommentierst du jedes Fußballspiel mit großer Begeisterung?",
+      "translation": {
+        "ru": "Ты комментируешь каждый футбольный матч с огромным восторгом?",
+        "en": "Do you comment on every soccer match with great enthusiasm?"
+      },
+      "bracket_parts": [
+        "Kommentierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Journalist kommentiert die politischen Ereignisse in den Abendnachrichten.",
+      "translation": {
+        "ru": "Журналист комментирует политические события в вечерних новостях.",
+        "en": "The journalist comments on political events on the evening news."
+      },
+      "bracket_parts": [
+        "kommentiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir kommentieren die neuen Vorschläge der Geschäftsleitung ausführlich.",
+      "translation": {
+        "ru": "Мы подробно комментируем новые предложения руководства.",
+        "en": "We comment in detail on management's new proposals."
+      },
+      "bracket_parts": [
+        "kommentieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Kommentiert ihr die Präsentation eurer Mitschüler sachlich und fair?",
+      "translation": {
+        "ru": "Комментируете ли вы презентацию одноклассников объективно и справедливо?",
+        "en": "Do you guys comment on your classmates' presentation objectively and fairly?"
+      },
+      "bracket_parts": [
+        "Kommentiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Sprecher kommentierte das dramatische Finalspiel live im Fernsehen.",
+      "translation": {
+        "ru": "Диктор комментировал драматический финальный матч в прямом эфире по ТВ.",
+        "en": "The speaker commented on the dramatic final match live on television."
+      },
+      "bracket_parts": [
+        "kommentierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Pressesprecherin hat die Gerüchte bisher nicht kommentiert.",
+      "translation": {
+        "ru": "Пресс-секретарь до сих пор не прокомментировала слухи.",
+        "en": "The press spokesperson has not yet commented on the rumors."
+      },
+      "bracket_parts": [
+        "hat",
+        "kommentiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Kommentiere den Code bitte übersichtlich für andere Entwickler!",
+      "translation": {
+        "ru": "Прокомментируй, пожалуйста, код понятно для других разработчиков!",
+        "en": "Please comment the code clearly for other developers!"
+      },
+      "bracket_parts": [
+        "Kommentiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -17,6 +17,8 @@ import { ScreenHeader } from '../../components/ScreenHeader/ScreenHeader';
 import { ScreenBackground } from '../../components/ScreenBackground/ScreenBackground';
 import { FormInput } from '../../components/FormInput/FormInput';
 import { VerbCardDetails } from '../../components/VerbCardDetails/VerbCardDetails';
+import { DictionaryNativeAdCard } from '../../components/DictionaryNativeAdCard/DictionaryNativeAdCard';
+import { usePremiumStatus } from '../../hooks/usePremiumStatus';
 import { verbDataService } from '../../services/verbDataService';
 import { VerbCard } from '../../../docs/verb.types';
 import { ThemeColors } from '../../styles/themeColors';
@@ -186,11 +188,17 @@ export function DictionaryScreen(): React.JSX.Element {
   const { colors, isDark } = useAppTheme();
   const { locale } = useLocale();
   const styles = useMemo(() => createStyles(colors), [colors]);
+  const isPremium = usePremiumStatus();
 
   const [searchQuery, setSearchQuery] = useState('');
   const [verbs, setVerbs] = useState<VerbCard[]>([]);
   const [expandedVerbId, setExpandedVerbId] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
+
+  const renderFooter = useCallback(() => {
+    if (verbs.length === 0 || isPremium) return null;
+    return <DictionaryNativeAdCard isPremium={isPremium} colors={colors} isDark={isDark} />;
+  }, [verbs.length, isPremium, colors, isDark]);
 
   const fetchVerbs = useCallback(
     async (query: string) => {
@@ -303,6 +311,7 @@ export function DictionaryScreen(): React.JSX.Element {
         contentContainerStyle={styles.content}
         showsVerticalScrollIndicator={false}
         keyboardShouldPersistTaps="handled"
+        ListFooterComponent={renderFooter}
         ListEmptyComponent={
           !isLoading ? (
             <View style={styles.emptyContainer}>

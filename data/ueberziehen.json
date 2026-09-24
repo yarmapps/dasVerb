@@ -1,0 +1,137 @@
+{
+  "id": "ueberziehen",
+  "infinitive": "überziehen",
+  "translation": {
+    "ru": "превышать (лимит/время), натягивать, покрывать",
+    "en": "to overdraw, to exceed, to cover"
+  },
+  "level": "B2",
+  "frequency_rank": 932,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "überzieht",
+    "preterite_third_singular": "überzog",
+    "past_participle": "überzogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "überziehe",
+      "du": "überziehst",
+      "er_sie_es": "überzieht",
+      "wir": "überziehen",
+      "ihr": "überzieht",
+      "sie_Sie": "überziehen"
+    },
+    "preterite": {
+      "ich": "überzog",
+      "du": "überzogst",
+      "er_sie_es": "überzog",
+      "wir": "überzogen",
+      "ihr": "überzogt",
+      "sie_Sie": "überzogen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "überzogen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich überziehe mein Bankkonto nur im absoluten Notfall.",
+      "translation": {
+        "ru": "Я ухожу в овердрафт по банковскому счету только в крайней необходимости.",
+        "en": "I overdraw my bank account only in an absolute emergency."
+      },
+      "bracket_parts": [
+        "überziehe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Überziehst du deine Redezeit bei dem Seminar oft um mehrere Minuten?",
+      "translation": {
+        "ru": "Ты часто превышаешь регламент выступления на семинаре на несколько минут?",
+        "en": "Do you often exceed your speaking time at the seminar by several minutes?"
+      },
+      "bracket_parts": [
+        "Überziehst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Dozent überzieht die Vorlesung heute leider schon wieder.",
+      "translation": {
+        "ru": "Преподаватель сегодня, к сожалению, снова затягивает лекцию.",
+        "en": "The lecturer unfortunately overruns the lecture again today."
+      },
+      "bracket_parts": [
+        "überzieht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir überziehen das Budget dieses Projekts unter keinen Umständen.",
+      "translation": {
+        "ru": "Мы ни при каких обстоятельствах не превышаем бюджет этого проекта.",
+        "en": "We do not exceed the budget of this project under any circumstances."
+      },
+      "bracket_parts": [
+        "überziehen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Überzieht ihr die Kissen heute noch mit frischen Bezügen?",
+      "translation": {
+        "ru": "Вы наденете сегодня на подушки свежие наволочки?",
+        "en": "Are you guys covering the pillows with fresh cases today?"
+      },
+      "bracket_parts": [
+        "Überzieht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Redner überzog seine Redezeit um eine halbe Stunde.",
+      "translation": {
+        "ru": "Оратор превысил отведенное время на полчаса.",
+        "en": "The speaker exceeded his speaking time by half an hour."
+      },
+      "bracket_parts": [
+        "überzog"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat sein Girokonto im Urlaub um mehrere hundert Euro überzogen.",
+      "translation": {
+        "ru": "В отпуске он превысил лимит по счету на несколько сотен евро.",
+        "en": "He overran his checking account on vacation by several hundred euros."
+      },
+      "bracket_parts": [
+        "hat",
+        "überzogen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Überziehe bitte niemals ohne Absprache die vereinbarte Zeit!",
+      "translation": {
+        "ru": "Никогда не превышай согласованное время без договоренности!",
+        "en": "Please never exceed the agreed time without prior agreement!"
+      },
+      "bracket_parts": [
+        "Überziehe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

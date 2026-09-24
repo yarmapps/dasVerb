@@ -140,6 +140,81 @@ platform :ios do
     UI.success("Successfully downloaded all live App Store metadata into ./fastlane/metadata/ios 🎉")
   end
 
+  desc "Delete obsolete localizations from App Store Connect for current editable version"
+  lane :delete_obsolete_localizations do
+    app = Spaceship::ConnectAPI::App.find("com.yarm.apps.dasverb")
+    unless app
+      UI.user_error!("Could not find app com.yarm.apps.dasverb on App Store Connect")
+    end
+
+    allowed_locales = [
+      'en-US', 'de-DE', 'ru', 'uk', 'es-ES', 'fr-FR', 'it', 'pl', 'pt-BR', 'tr', 'ar-SA'
+    ]
+
+    edit_version = app.get_edit_app_store_version
+    unless edit_version
+      UI.important("No edit_version found directly, searching all versions...")
+      versions = app.get_app_store_versions
+      edit_version = versions.find { |v| ["PREPARE_FOR_SUBMISSION", "DEVELOPER_REJECTED", "REJECTED", "WAITING_FOR_REVIEW"].include?(v.app_store_state) } || versions.first
+    end
+
+    UI.message("Working on Version: #{edit_version.version_string} (#{edit_version.app_store_state}) [ID: #{edit_version.id}]")
+
+    version_locs = edit_version.get_app_store_version_localizations rescue []
+    UI.message("Found #{version_locs.length} version localizations on App Store Connect.")
+
+    deleted_count = 0
+    version_locs.each do |loc|
+      if allowed_locales.include?(loc.locale)
+        UI.message("  ✅ Keeping version locale: [#{loc.locale}]")
+      else
+        UI.important("  🗑 Deleting obsolete version locale: [#{loc.locale}] (ID: #{loc.id})...")
+        begin
+          if loc.respond_to?(:delete!)
+            loc.delete!
+          else
+            Spaceship::ConnectAPI.delete_app_store_version_localization(app_store_version_localization_id: loc.id)
+          end
+          deleted_count += 1
+          UI.success("  Successfully deleted [#{loc.locale}] 🎉")
+        rescue => e
+          UI.error("  Failed to delete [#{loc.locale}]: #{e.message}")
+        end
+      end
+    end
+
+    # App Info localizations (Name/Subtitle)
+    begin
+      app_infos = Spaceship::ConnectAPI.get_app_infos(app_id: app.id)
+      if app_infos && app_infos.first
+        info_locs = app_infos.first.get_app_info_localizations rescue []
+        UI.message("\nFound #{info_locs.length} App Info localizations.")
+        info_locs.each do |info_loc|
+          if allowed_locales.include?(info_loc.locale)
+            UI.message("  ✅ Keeping App Info locale: [#{info_loc.locale}]")
+          else
+            UI.important("  🗑 Deleting obsolete App Info locale: [#{info_loc.locale}] (ID: #{info_loc.id})...")
+            begin
+              if info_loc.respond_to?(:delete!)
+                info_loc.delete!
+              else
+                Spaceship::ConnectAPI.delete_app_info_localization(app_info_localization_id: info_loc.id)
+              end
+              UI.success("  Successfully deleted App Info locale [#{info_loc.locale}] 🎉")
+            rescue => e
+              UI.important("  Could not delete App Info locale [#{info_loc.locale}] (might be primary or locked): #{e.message}")
+            end
+          end
+        end
+      end
+    rescue => e
+      UI.error("App Info check error: #{e.message}")
+    end
+
+    UI.success("\n🎉 Finished deleting #{deleted_count} obsolete localizations from App Store Connect!")
+  end
+
+
   desc "Download live App Store screenshots into fastlane/screenshots/ios"
   lane :download_screenshots do
     require 'open-uri'
@@ -492,8 +567,50 @@ platform :android do
     sh("rm -rf ./fastlane/metadata/android && fastlane supply init --metadata_path ./fastlane/metadata/android --json_key '#{json_key_file}' --package_name com.yarm.apps.dasverb")
   end
 
-  desc "Upload updated text metadata & changelogs to Google Play"
+  desc "Upload updated text metadata to Google Play"
   lane :sync_metadata do |options|
+    archive_metadata_history("android")
+    json_key_file = ENV["PLAY_STORE_JSON_KEY"] || File.expand_path("../credentials/android/play-service-account.json", __dir__)
+
+    supply_args = {
+      json_key: json_key_file,
+      package_name: "com.yarm.apps.dasverb",
+      metadata_path: "./fastlane/metadata/android",
+      skip_upload_apk: true,
+      skip_upload_aab: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true,
+      skip_upload_changelogs: true
+    }
+
+    if options[:version_code]
+      supply_args[:version_code] = options[:version_code]
+      supply_args[:skip_upload_changelogs] = false
+    end
+
+    supply(supply_args)
+  end
+
+  desc "Upload screenshots and images (icon, feature graphic, phone screenshots) to Google Play"
+  lane :sync_screenshots do
+    archive_metadata_history("android")
+    json_key_file = ENV["PLAY_STORE_JSON_KEY"] || File.expand_path("../credentials/android/play-service-account.json", __dir__)
+
+    supply(
+      json_key: json_key_file,
+      package_name: "com.yarm.apps.dasverb",
+      metadata_path: "./fastlane/metadata/android",
+      skip_upload_apk: true,
+      skip_upload_aab: true,
+      skip_upload_metadata: true,
+      skip_upload_changelogs: true,
+      skip_upload_images: false,
+      skip_upload_screenshots: false
+    )
+  end
+
+  desc "Upload all metadata, changelogs, icon, feature graphic and screenshots to Google Play"
+  lane :sync_all do |options|
     archive_metadata_history("android")
     json_key_file = ENV["PLAY_STORE_JSON_KEY"] || File.expand_path("../credentials/android/play-service-account.json", __dir__)
     version_code = options[:version_code] || "1"
@@ -505,8 +622,10 @@ platform :android do
       version_code: version_code,
       skip_upload_apk: true,
       skip_upload_aab: true,
-      skip_upload_images: true,
-      skip_upload_screenshots: true
+      skip_upload_metadata: false,
+      skip_upload_changelogs: false,
+      skip_upload_images: false,
+      skip_upload_screenshots: false
     )
   end
 

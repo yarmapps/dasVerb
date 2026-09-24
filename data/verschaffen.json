@@ -1,0 +1,138 @@
+{
+  "id": "verschaffen",
+  "infinitive": "verschaffen",
+  "translation": {
+    "ru": "добывать, обеспечивать, предоставлять",
+    "en": "to obtain, to secure, to provide"
+  },
+  "level": "B2",
+  "frequency_rank": 770,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verschafft",
+    "preterite_third_singular": "verschaffte",
+    "past_participle": "verschafft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verschaffe",
+      "du": "verschaffst",
+      "er_sie_es": "verschafft",
+      "wir": "verschaffen",
+      "ihr": "verschafft",
+      "sie_Sie": "verschaffen"
+    },
+    "preterite": {
+      "ich": "verschaffte",
+      "du": "verschafftest",
+      "er_sie_es": "verschaffte",
+      "wir": "verschafften",
+      "ihr": "verschafftet",
+      "sie_Sie": "verschafften"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verschafft"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich verschaffe mir erst einen Überblick über die Lage.",
+      "translation": {
+        "ru": "Я сначала создаю себе общее представление о ситуации.",
+        "en": "I first get an overview of the situation."
+      },
+      "bracket_parts": [
+        "verschaffe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verschaffst du dir vor der Prüfung genug Ruhe?",
+      "translation": {
+        "ru": "Ты обеспечиваешь себе достаточно отдыха перед экзаменом?",
+        "en": "Do you get enough rest before the exam?"
+      },
+      "bracket_parts": [
+        "Verschaffst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Diese Ausbildung verschafft ihr exzellente Karrierechancen.",
+      "translation": {
+        "ru": "Это образование дает ей отличные шансы на карьеру.",
+        "en": "This training provides her with excellent career opportunities."
+      },
+      "bracket_parts": [
+        "verschafft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verschaffen unseren Kunden einen klaren Vorteil.",
+      "translation": {
+        "ru": "Мы обеспечиваем нашим клиентам явное преимущество.",
+        "en": "We provide our customers with a clear advantage."
+      },
+      "bracket_parts": [
+        "verschaffen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verschafft ihr euch Zugang zu den geheimen Daten?",
+      "translation": {
+        "ru": "Вы получаете доступ к секретным данным?",
+        "en": "Are you gaining access to the secret data?"
+      },
+      "bracket_parts": [
+        "Verschafft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Anwalt verschaffte seinem Mandanten rechtliches Gehör.",
+      "translation": {
+        "ru": "Адвокат добился того, чтобы его клиента выслушали в суде.",
+        "en": "The lawyer secured a legal hearing for his client."
+      },
+      "bracket_parts": [
+        "verschaffte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat sich durch Fleiß viel Respekt verschafft.",
+      "translation": {
+        "ru": "Он своим усердием заслужил большое уважение.",
+        "en": "He has gained a lot of respect through diligence."
+      },
+      "bracket_parts": [
+        "hat",
+        "verschafft"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verschaffe dir Klarheit über deine eigentlichen Ziele!",
+      "translation": {
+        "ru": "Добейся для себя ясности относительно своих истинных целей!",
+        "en": "Get clarity for yourself about your actual goals!"
+      },
+      "bracket_parts": [
+        "Verschaffe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

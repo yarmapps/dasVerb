@@ -1,0 +1,147 @@
+{
+  "id": "fliehen",
+  "infinitive": "fliehen",
+  "translation": {
+    "ru": "бежать, спасаться бегством",
+    "en": "to flee, to escape"
+  },
+  "level": "B2",
+  "frequency_rank": 746,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "flieht",
+    "preterite_third_singular": "floh",
+    "past_participle": "geflohen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "fliehe",
+      "du": "fliehst",
+      "er_sie_es": "flieht",
+      "wir": "fliehen",
+      "ihr": "flieht",
+      "sie_Sie": "fliehen"
+    },
+    "preterite": {
+      "ich": "floh",
+      "du": "flohst",
+      "er_sie_es": "floh",
+      "wir": "flohen",
+      "ihr": "floht",
+      "sie_Sie": "flohen"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "geflohen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "vor",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "aus",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich fliehe vor dem Lärm der hektischen Großstadt.",
+      "translation": {
+        "ru": "Я бегу от шума суетливого мегаполиса.",
+        "en": "I flee from the noise of the hectic city."
+      },
+      "bracket_parts": [
+        "fliehe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Warum fliehst du vor der Verantwortung für deine Taten?",
+      "translation": {
+        "ru": "Почему ты бежишь от ответственности за свои поступки?",
+        "en": "Why do you flee from responsibility for your actions?"
+      },
+      "bracket_parts": [
+        "fliehst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das scheue Reh flieht vor den lauten Wanderern.",
+      "translation": {
+        "ru": "Пугливая косуля убегает от шумных туристов.",
+        "en": "The shy deer flees from the loud hikers."
+      },
+      "bracket_parts": [
+        "flieht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir fliehen im kalten Winter in den sonnigen Süden.",
+      "translation": {
+        "ru": "Холодной зимой мы уезжаем на солнечный юг.",
+        "en": "In the cold winter we escape to the sunny south."
+      },
+      "bracket_parts": [
+        "fliehen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Flieht ihr vor dem herannahenden Unwetter ins Haus?",
+      "translation": {
+        "ru": "Вы убегаете от приближающейся бури в дом?",
+        "en": "Are you fleeing into the house from the approaching storm?"
+      },
+      "bracket_parts": [
+        "Flieht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Tausende Menschen flohen damals vor dem schrecklichen Krieg.",
+      "translation": {
+        "ru": "Тысячи людей бежали тогда от страшной войны.",
+        "en": "Thousands of people fled from the terrible war at that time."
+      },
+      "bracket_parts": [
+        "flohen"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der gefangene Dieb ist mitten in der Nacht aus dem Gefängnis geflohen.",
+      "translation": {
+        "ru": "Пойманный вор сбежал из тюрьмы посреди ночи.",
+        "en": "The captured thief fled from prison in the middle of the night."
+      },
+      "bracket_parts": [
+        "ist",
+        "geflohen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Fliehe nicht vor deinen Problemen, sondern löse sie!",
+      "translation": {
+        "ru": "Не убегай от своих проблем, а решай их!",
+        "en": "Do not flee from your problems, but solve them!"
+      },
+      "bracket_parts": [
+        "Fliehe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

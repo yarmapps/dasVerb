@@ -1,0 +1,154 @@
+{
+  "id": "vorhaben",
+  "infinitive": "vorhaben",
+  "translation": {
+    "ru": "намереваться, планировать",
+    "en": "to intend, to plan, to have in mind"
+  },
+  "level": "A2",
+  "frequency_rank": 569,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "irregular",
+    "prefix_type": "separable",
+    "prefix": "vor",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vorhaben",
+    "present_3sg": "hat vor",
+    "praeteritum_3sg": "hatte vor",
+    "partizip_2": "vorgehabt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "habe vor",
+      "du": "hast vor",
+      "er_sie_es": "hat vor",
+      "wir": "haben vor",
+      "ihr": "habt vor",
+      "sie_Sie": "haben vor"
+    },
+    "praeteritum": {
+      "ich": "hatte vor",
+      "du": "hattest vor",
+      "er_sie_es": "hatte vor",
+      "wir": "hatten vor",
+      "ihr": "hattet vor",
+      "sie_Sie": "hatten vor"
+    },
+    "perfekt": {
+      "ich": "habe vorgehabt",
+      "du": "hast vorgehabt",
+      "er_sie_es": "hat vorgehabt",
+      "wir": "haben vorgehabt",
+      "ihr": "habt vorgehabt",
+      "sie_Sie": "haben vorgehabt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich habe heute Abend nichts Besonderes vor.",
+      "translation": {
+        "ru": "У меня на сегодняшний вечер ничего особенного не запланировано.",
+        "en": "I do not have any special plans for tonight."
+      },
+      "bracket_parts": [
+        "habe",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Was hast du am kommenden Wochenende vor?",
+      "translation": {
+        "ru": "Что ты планируешь делать в следующие выходные?",
+        "en": "What do you plan to do next weekend?"
+      },
+      "bracket_parts": [
+        "hast",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er hat eine weite Reise nach Japan vor.",
+      "translation": {
+        "ru": "Он планирует дальнюю поездку в Японию.",
+        "en": "He plans a long journey to Japan."
+      },
+      "bracket_parts": [
+        "hat",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir haben große Pläne für unser neues Haus vor.",
+      "translation": {
+        "ru": "Мы строим большие планы насчет нашего нового дома.",
+        "en": "We have big plans in mind for our new house."
+      },
+      "bracket_parts": [
+        "haben",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Habt ihr morgen Nachmittag schon etwas vor?",
+      "translation": {
+        "ru": "У вас завтра после обеда уже есть планы?",
+        "en": "Do you have any plans for tomorrow afternoon?"
+      },
+      "bracket_parts": [
+        "Habt",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie hatte eigentlich einen gemütlichen Abend vorgehabt.",
+      "translation": {
+        "ru": "Она вообще-то планировала уютный вечер.",
+        "en": "She had actually planned a cozy evening."
+      },
+      "bracket_parts": [
+        "hatte",
+        "vor"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Wir haben einen Umzug in eine andere Stadt vorgehabt.",
+      "translation": {
+        "ru": "Мы планировали переезд в другой город.",
+        "en": "We had planned a move to another city."
+      },
+      "bracket_parts": [
+        "haben",
+        "vorgehabt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Hab für morgen nicht zu viel Arbeit vor!",
+      "translation": {
+        "ru": "Не планируй на завтра слишком много работы!",
+        "en": "Do not plan too much work for tomorrow!"
+      },
+      "bracket_parts": [
+        "Hab",
+        "vor"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

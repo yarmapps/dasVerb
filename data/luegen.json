@@ -1,0 +1,137 @@
+{
+  "id": "luegen",
+  "infinitive": "lügen",
+  "translation": {
+    "ru": "врать, лгать",
+    "en": "to lie, to tell untruths"
+  },
+  "level": "A2",
+  "frequency_rank": 984,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "lügt",
+    "preterite_third_singular": "log",
+    "past_participle": "gelogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lüge",
+      "du": "lügst",
+      "er_sie_es": "lügt",
+      "wir": "lügen",
+      "ihr": "lügt",
+      "sie_Sie": "lügen"
+    },
+    "preterite": {
+      "ich": "log",
+      "du": "logst",
+      "er_sie_es": "log",
+      "wir": "logen",
+      "ihr": "logt",
+      "sie_Sie": "logen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gelogen"
+    }
+  },
+  "rektion": {
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich lüge meine Freunde niemals an, denn Ehrlichkeit ist mir heilig.",
+      "translation": {
+        "ru": "Я никогда не лгу своим друзьям, ведь честность для меня свята.",
+        "en": "I never lie to my friends because honesty is sacred to me."
+      },
+      "bracket_parts": [
+        "lüge"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lügst du etwa, um einer gerechten Strafe zu entgehen?",
+      "translation": {
+        "ru": "Ты врешь, чтобы избежать справедливого наказания?",
+        "en": "Are you lying to escape a just punishment?"
+      },
+      "bracket_parts": [
+        "Lügst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wer einmal lügt, dem glaubt man bekanntlich nicht mehr.",
+      "translation": {
+        "ru": "Кто однажды соврал, тому, как известно, больше не верят.",
+        "en": "He who lies once is famously not believed anymore."
+      },
+      "bracket_parts": [
+        "lügt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir lügen nicht über unsere Qualifikationen bei der Bewerbung.",
+      "translation": {
+        "ru": "Мы не врем о своих квалификациях при подаче резюме.",
+        "en": "We do not lie about our qualifications in the application."
+      },
+      "bracket_parts": [
+        "lügen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lügt ihr eure Eltern bei schwierigen Themen manchmal an?",
+      "translation": {
+        "ru": "Обманываете ли вы иногда родителей в трудных вопросах?",
+        "en": "Do you guys sometimes lie to your parents on difficult topics?"
+      },
+      "bracket_parts": [
+        "Lügt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Zeuge log schamlos vor Gericht über den genauen Hergang.",
+      "translation": {
+        "ru": "Свидетель бесстыдно врал в суде о точных обстоятельствах происшествия.",
+        "en": "The witness lied shamelessly in court about the exact sequence of events."
+      },
+      "bracket_parts": [
+        "log"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat mich bezüglich seiner wahren Absichten eiskalt angelogen und gelogen.",
+      "translation": {
+        "ru": "Он хладнокровно солгал мне относительно своих истинных намерений.",
+        "en": "He coldly lied to me regarding his true intentions."
+      },
+      "bracket_parts": [
+        "hat",
+        "gelogen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lüge niemals aus Feigheit vor den Konsequenzen!",
+      "translation": {
+        "ru": "Никогда не лги из трусости перед последствиями!",
+        "en": "Never lie out of cowardice of the consequences!"
+      },
+      "bracket_parts": [
+        "Lüge"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

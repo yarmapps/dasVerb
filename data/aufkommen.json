@@ -1,0 +1,153 @@
+{
+  "id": "aufkommen",
+  "infinitive": "aufkommen",
+  "translation": {
+    "ru": "возникать (о ветре/чувствах), оплачивать/покрывать (расходы)",
+    "en": "to arise, to spring up, to pay for (costs)"
+  },
+  "level": "B2",
+  "frequency_rank": 680,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufkommen",
+    "present_3sg": "kommt auf",
+    "praeteritum_3sg": "kam auf",
+    "partizip_2": "aufgekommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "komme auf",
+      "du": "kommst auf",
+      "er_sie_es": "kommt auf",
+      "wir": "kommen auf",
+      "ihr": "kommt auf",
+      "sie_Sie": "kommen auf"
+    },
+    "praeteritum": {
+      "ich": "kam auf",
+      "du": "kamst auf",
+      "er_sie_es": "kam auf",
+      "wir": "kamen auf",
+      "ihr": "kamt auf",
+      "sie_Sie": "kamen auf"
+    },
+    "perfekt": {
+      "ich": "bin aufgekommen",
+      "du": "bist aufgekommen",
+      "er_sie_es": "ist aufgekommen",
+      "wir": "sind aufgekommen",
+      "ihr": "seid aufgekommen",
+      "sie_Sie": "sind aufgekommen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "für",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich komme für alle entstandenen Schäden voll auf.",
+      "translation": {
+        "ru": "Я полностью покрываю все возникшие убытки.",
+        "en": "I cover all incurred damages completely."
+      },
+      "bracket_parts": [
+        "komme",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Kommst du für die Kosten der Reparatur auf?",
+      "translation": {
+        "ru": "Ты оплатишь расходы на ремонт?",
+        "en": "Will you pay for the costs of the repair?"
+      },
+      "bracket_parts": [
+        "Kommst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein kühler Wind kommt am Abend über dem See auf.",
+      "translation": {
+        "ru": "Прохладный ветер поднимается вечером над озером.",
+        "en": "A cool wind springs up over the lake in the evening."
+      },
+      "bracket_parts": [
+        "kommt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir lassen keine Zweifel an unserer Ehrlichkeit aufkommen.",
+      "translation": {
+        "ru": "Мы не даем возникнуть никаким сомнениям в нашей честности.",
+        "en": "We do not let any doubts arise about our honesty."
+      },
+      "bracket_parts": [
+        "aufkommen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr kommt für die Unkosten der Veranstaltung gemeinsam auf.",
+      "translation": {
+        "ru": "Вы вместе покрываете издержки мероприятия.",
+        "en": "You pay for the expenses of the event together."
+      },
+      "bracket_parts": [
+        "kommt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein schwerer Verdacht kam damals gegen den Verdächtigen auf.",
+      "translation": {
+        "ru": "Тяжелое подозрение возникло тогда против подозреваемого.",
+        "en": "A grave suspicion arose against the suspect back then."
+      },
+      "bracket_parts": [
+        "kam",
+        "auf"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Versicherung ist für den gesamten Schaden aufgekommen.",
+      "translation": {
+        "ru": "Страховая компания возместила весь ущерб.",
+        "en": "The insurance covered the entire damage."
+      },
+      "bracket_parts": [
+        "ist",
+        "aufgekommen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Komm für deine eigenen Fehler selbst auf!",
+      "translation": {
+        "ru": "Отвечай и плати сам за свои собственные ошибки!",
+        "en": "Take responsibility for your own mistakes yourself!"
+      },
+      "bracket_parts": [
+        "Komm",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

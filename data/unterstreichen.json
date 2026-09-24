@@ -1,0 +1,137 @@
+{
+  "id": "unterstreichen",
+  "infinitive": "unterstreichen",
+  "translation": {
+    "ru": "подчеркивать, акцентировать",
+    "en": "to underline, to emphasize, to stress"
+  },
+  "level": "B1",
+  "frequency_rank": 966,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "unterstreicht",
+    "preterite_third_singular": "unterstrich",
+    "past_participle": "unterstrichen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "unterstreiche",
+      "du": "unterstreichst",
+      "er_sie_es": "unterstreicht",
+      "wir": "unterstreichen",
+      "ihr": "unterstreicht",
+      "sie_Sie": "unterstreichen"
+    },
+    "preterite": {
+      "ich": "unterstrich",
+      "du": "unterstrichst",
+      "er_sie_es": "unterstrich",
+      "wir": "unterstrichen",
+      "ihr": "unterstricht",
+      "sie_Sie": "unterstrichen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "unterstrichen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich unterstreiche wichtige Textstellen mit einem gelben Textmarker.",
+      "translation": {
+        "ru": "Я подчеркиваю важные места текста желтым маркером.",
+        "en": "I underline important text passages with a yellow highlighter."
+      },
+      "bracket_parts": [
+        "unterstreiche"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Unterstreichst du in deinem Vortrag die Vorteile der Digitalisierung?",
+      "translation": {
+        "ru": "Подчеркиваешь ли ты в своем докладе преимущества цифровизации?",
+        "en": "Do you emphasize the advantages of digitization in your lecture?"
+      },
+      "bracket_parts": [
+        "Unterstreichst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Ministerin unterstreicht die Dringlichkeit von Klimaschutzmaßnahmen.",
+      "translation": {
+        "ru": "Министр подчеркивает срочность мер по защите климата.",
+        "en": "The minister emphasizes the urgency of climate protection measures."
+      },
+      "bracket_parts": [
+        "unterstreicht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir unterstreichen die Notwendigkeit einer engen Zusammenarbeit im Team.",
+      "translation": {
+        "ru": "Мы подчеркиваем необходимость тесного сотрудничества в команде.",
+        "en": "We underline the need for close cooperation in the team."
+      },
+      "bracket_parts": [
+        "unterstreichen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Unterstreicht ihr die Kernpunkte eurer Argumentation im Fazit?",
+      "translation": {
+        "ru": "Подчеркиваете ли вы ключевые моменты своей аргументации в заключении?",
+        "en": "Are you guys emphasizing the core points of your argumentation in the conclusion?"
+      },
+      "bracket_parts": [
+        "Unterstreicht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Redner unterstrich seine Aussagen mit aussagekräftigen Statistiken.",
+      "translation": {
+        "ru": "Оратор подкрепил (подчеркнул) свои высказывания убедительной статистикой.",
+        "en": "The speaker underlined his statements with meaningful statistics."
+      },
+      "bracket_parts": [
+        "unterstrich"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die jüngsten Ereignisse haben die Bedeutung dieses Gesetzes unterstrichen.",
+      "translation": {
+        "ru": "Недавние события подчеркнули важность этого закона.",
+        "en": "Recent events have underlined the importance of this law."
+      },
+      "bracket_parts": [
+        "haben",
+        "unterstrichen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Unterstreiche die Schlüsselbegriffe für die Klausurvorbereitung!",
+      "translation": {
+        "ru": "Подчеркни ключевые понятия для подготовки к контрольной!",
+        "en": "Underline the key terms for exam preparation!"
+      },
+      "bracket_parts": [
+        "Unterstreiche"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

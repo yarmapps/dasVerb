@@ -1,0 +1,148 @@
+{
+  "id": "bewerben_sich",
+  "infinitive": "bewerben",
+  "translation": {
+    "ru": "подавать заявление (о приеме на работу), претендовать",
+    "en": "to apply (for a job)"
+  },
+  "level": "A2",
+  "frequency_rank": 654,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "bewerben",
+    "present_3sg": "bewirbt sich",
+    "praeteritum_3sg": "bewarb sich",
+    "partizip_2": "beworben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bewerbe mich",
+      "du": "bewirbst dich",
+      "er_sie_es": "bewirbt sich",
+      "wir": "bewerben uns",
+      "ihr": "bewerbt euch",
+      "sie_Sie": "bewerben sich",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "bewarb mich",
+      "du": "bewarbst dich",
+      "er_sie_es": "bewarb sich",
+      "wir": "bewarben uns",
+      "ihr": "bewarbt euch",
+      "sie_Sie": "bewarben sich"
+    },
+    "perfekt": {
+      "ich": "habe mich beworben",
+      "du": "hast dich beworben",
+      "er_sie_es": "hat sich beworben",
+      "wir": "haben uns beworben",
+      "ihr": "habt euch beworben",
+      "sie_Sie": "haben sich beworben"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "um",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich bewerbe mich um die offene Stelle als Buchhalter.",
+      "translation": {
+        "ru": "Я подаю резюме на открытую вакансию бухгалтера.",
+        "en": "I am applying for the open position as an accountant."
+      },
+      "bracket_parts": [
+        "bewerbe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bewirbst du dich bei der großen internationalen Firma?",
+      "translation": {
+        "ru": "Ты подаешь резюме в крупную международную фирму?",
+        "en": "Are you applying to the big international company?"
+      },
+      "bracket_parts": [
+        "Bewirbst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Studentin bewirbt sich um ein begehrtes Stipendium.",
+      "translation": {
+        "ru": "Студентка претендует на желанную стипендию.",
+        "en": "The student is applying for a coveted scholarship."
+      },
+      "bracket_parts": [
+        "bewirbt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bewerben uns gemeinsam für das Förderprogramm.",
+      "translation": {
+        "ru": "Мы вместе подаем заявку на программу поддержки.",
+        "en": "We are applying together for the funding program."
+      },
+      "bracket_parts": [
+        "bewerben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr bewerbt euch online über das Portal.",
+      "translation": {
+        "ru": "Вы подаете заявление онлайн через портал.",
+        "en": "You are applying online via the portal."
+      },
+      "bracket_parts": [
+        "bewerbt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Viele Kandidaten bewarben sich damals auf die freie Stelle.",
+      "translation": {
+        "ru": "Многие кандидаты тогда претендовали на вакантное место.",
+        "en": "Many candidates applied for the open position back then."
+      },
+      "bracket_parts": [
+        "bewarben"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Er hat sich erfolgreich bei drei Universitäten beworben.",
+      "translation": {
+        "ru": "Он успешно подал заявления в три университета.",
+        "en": "He successfully applied to three universities."
+      },
+      "bracket_parts": [
+        "hat",
+        "beworben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bewirb dich pünktlich vor dem Ende der Frist!",
+      "translation": {
+        "ru": "Подай резюме вовремя до окончания срока!",
+        "en": "Apply on time before the deadline ends!"
+      },
+      "bracket_parts": [
+        "Bewirb"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

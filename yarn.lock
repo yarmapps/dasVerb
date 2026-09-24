@@ -2724,6 +2724,18 @@
   resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.3.6.tgz#3569708bd4be4d8870ba32bf1c456dac81600d97"
   integrity sha512-SEeaJLb3qBNF/OaXnaR1NmmBbFYk1zC0ZH/52fATcRPLFg/p791YrcyFFy44Bo9sLaGuSuLp5Q6axbb/O+v/RA==
 
+"@posthog/core@^1.55.1":
+  version "1.55.2"
+  resolved "https://registry.yarnpkg.com/@posthog/core/-/core-1.55.2.tgz#4599e7d5901b69c0967e5f613bd3d185a29c11a8"
+  integrity sha512-2mYxGbDmTLUs096VbcZqSWo0lrI48/BrX65r54NynxxFq409BOx9w73HxOAtOKZ1vblkdV6/GxQTe7KDcIQidg==
+  dependencies:
+    "@posthog/types" "^1.412.4"
+
+"@posthog/types@^1.412.4":
+  version "1.412.4"
+  resolved "https://registry.yarnpkg.com/@posthog/types/-/types-1.412.4.tgz#169da1c1a55275a27dd318b038c2e627179858e0"
+  integrity sha512-Q7lV9O9TbLngjOYw1ucm3bS3tn48xb1B4ZQdDy8gv7yfKe99hCTeWYG4xZ36nJM80VxpTF9TriiJt5hngDOkBg==
+
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@protobufjs/aspromise/-/aspromise-1.1.2.tgz#9b8b0cc663d669a7d8f6f5d0893a14d348f30fbf"
@@ -5366,7 +5378,14 @@ expo-dev-menu@7.0.19:
   dependencies:
     expo-dev-menu-interface "2.0.0"
 
-expo-file-system@~19.0.23, expo-file-system@~19.0.24:
+expo-device@~8.0.10:
+  version "8.0.10"
+  resolved "https://registry.yarnpkg.com/expo-device/-/expo-device-8.0.10.tgz#88be854d6de5568392ed814b44dad0e19d1d50f8"
+  integrity sha512-jd5BxjaF7382JkDMaC+P04aXXknB2UhWaVx5WiQKA05ugm/8GH5uaz9P9ckWdMKZGQVVEOC8MHaUADoT26KmFA==
+  dependencies:
+    ua-parser-js "^0.7.33"
+
+expo-file-system@~19.0.24:
   version "19.0.24"
   resolved "https://registry.yarnpkg.com/expo-file-system/-/expo-file-system-19.0.24.tgz#71e6872e1b7a41890f8631842e9f1e631846b5ae"
   integrity sha512-hZs0Ng+coNjx7YJ8MPwfJpoU1SRul6OZ9LZycFzozUeoR+denbyr944YrMP9NVn+Zf1tdC7p0K0zgah3ZySOYg==
@@ -5397,6 +5416,13 @@ expo-linear-gradient@~15.0.8:
   version "15.0.8"
   resolved "https://registry.yarnpkg.com/expo-linear-gradient/-/expo-linear-gradient-15.0.8.tgz#17cb49522699d2a033eae93146bc820ef180f4f8"
   integrity sha512-V2d8Wjn0VzhPHO+rrSBtcl+Fo+jUUccdlmQ6OoL9/XQB7Qk3d9lYrqKDJyccwDxmQT10JdST3Tmf2K52NLc3kw==
+
+expo-localization@~17.0.9:
+  version "17.0.9"
+  resolved "https://registry.yarnpkg.com/expo-localization/-/expo-localization-17.0.9.tgz#92b2827a4b68e42c0cd0ad1d3f1abf0ebe50a4a0"
+  integrity sha512-k5eYHr7iLMob3M8cHH6bgDrDRmqnZG8xKGLhpx8ST+LsFXmSgYpJ/t0VwWm0gz64C/K669XhObdG3D6QwCGqhw==
+  dependencies:
+    rtl-detect "^1.0.2"
 
 expo-manifests@~1.0.11:
   version "1.0.11"
@@ -8431,6 +8457,14 @@ postcss@~8.4.32:
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
 
+posthog-react-native@^4.77.0:
+  version "4.77.0"
+  resolved "https://registry.yarnpkg.com/posthog-react-native/-/posthog-react-native-4.77.0.tgz#003dba9b05d6ded3930cb10424b770a3362b5c29"
+  integrity sha512-38jnDSdqJYh3l2sHhu6AWIzA6ieBkhG6ZjV0zcm2KXbPKyzMCyNI/QcA8s9bD2S9YmPxfSzDnJLaXiI4uB7w/Q==
+  dependencies:
+    "@posthog/core" "^1.55.1"
+    "@posthog/types" "^1.412.4"
+
 prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
@@ -8992,6 +9026,11 @@ rimraf@^3.0.2:
   integrity sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
   dependencies:
     glob "^7.1.3"
+
+rtl-detect@^1.0.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/rtl-detect/-/rtl-detect-1.1.2.tgz#ca7f0330af5c6bb626c15675c642ba85ad6273c6"
+  integrity sha512-PGMBq03+TTG/p/cRB7HCLKJ1MgDIi07+QU1faSjiYRfmY5UsAttV9Hs08jDAHVwcOwmVLcSJkpwyfXszVjWfIQ==
 
 run-parallel@^1.1.9:
   version "1.2.0"
@@ -9984,6 +10023,11 @@ typescript@5.9.2:
   version "5.9.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.2.tgz#d93450cddec5154a2d5cabe3b8102b83316fb2a6"
   integrity sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==
+
+ua-parser-js@^0.7.33:
+  version "0.7.41"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.41.tgz#9f6dee58c389e8afababa62a4a2dc22edb69a452"
+  integrity sha512-O3oYyCMPYgNNHuO7Jjk3uacJWZF8loBgwrfd/5LE/HyZ3lUIOdniQ7DNXJcIgZbwioZxk0fLfI4EVnetdiX5jg==
 
 unbox-primitive@^1.1.0:
   version "1.1.0"

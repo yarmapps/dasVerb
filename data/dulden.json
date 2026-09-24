@@ -1,0 +1,137 @@
+{
+  "id": "dulden",
+  "infinitive": "dulden",
+  "translation": {
+    "ru": "терпеть, допускать, потакать",
+    "en": "to tolerate, to endure, to permit"
+  },
+  "level": "B2",
+  "frequency_rank": 1015,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "duldet",
+    "preterite_third_singular": "duldete",
+    "past_participle": "geduldet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "dulde",
+      "du": "duldest",
+      "er_sie_es": "duldet",
+      "wir": "dulden",
+      "ihr": "duldet",
+      "sie_Sie": "dulden"
+    },
+    "preterite": {
+      "ich": "duldete",
+      "du": "duldetest",
+      "er_sie_es": "duldete",
+      "wir": "duldeten",
+      "ihr": "duldetet",
+      "sie_Sie": "duldeten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geduldet"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich dulde keinen Respektlosigkeit in meinem Klassenzimmer.",
+      "translation": {
+        "ru": "Я не потерплю никакого неуважения в моем классе.",
+        "en": "I do not tolerate any disrespect in my classroom."
+      },
+      "bracket_parts": [
+        "dulde"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Duldest du solche unverschämten Frechheiten wirklich ohne Widerspruch?",
+      "translation": {
+        "ru": "Ты действительно терпишь такую наглую дерзость без возражений?",
+        "en": "Do you really tolerate such insolence without objection?"
+      },
+      "bracket_parts": [
+        "Duldest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Vermieter duldet keine Haustiere im gesamten Mietshaus.",
+      "translation": {
+        "ru": "Арендодатель не допускает содержания домашних животных во всем доме.",
+        "en": "The landlord tolerates no pets in the entire apartment building."
+      },
+      "bracket_parts": [
+        "duldet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir dulden keine Diskriminierung oder Belästigung am Arbeitsplatz.",
+      "translation": {
+        "ru": "Мы не терпим никакой дискриминации или домогательств на рабочем месте.",
+        "en": "We do not tolerate any discrimination or harassment in the workplace."
+      },
+      "bracket_parts": [
+        "dulden"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Duldet ihr wiederholte Unpünktlichkeit bei euren Mitarbeitern?",
+      "translation": {
+        "ru": "Терпите ли вы постоянные опоздания своих сотрудников?",
+        "en": "Do you guys tolerate repeated unpunctuality among your employees?"
+      },
+      "bracket_parts": [
+        "Duldet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schiedsrichter duldete keine groben Fouls während des Spiels.",
+      "translation": {
+        "ru": "Судья не терпел грубых нарушений во время матча.",
+        "en": "The referee tolerated no rough fouls during the match."
+      },
+      "bracket_parts": [
+        "duldete"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Schulleitung hat das Fehlverhalten der Schüler nicht länger geduldet.",
+      "translation": {
+        "ru": "Руководство школы больше не стало терпеть проступки учеников.",
+        "en": "The school management no longer tolerated the students' misconduct."
+      },
+      "bracket_parts": [
+        "hat",
+        "geduldet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Dulde niemals Ungerechtigkeit gegenüber schwächeren Menschen!",
+      "translation": {
+        "ru": "Никогда не терпи несправедливости по отношению к более слабым людям!",
+        "en": "Never tolerate injustice toward weaker people!"
+      },
+      "bracket_parts": [
+        "Dulde"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

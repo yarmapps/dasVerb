@@ -6,6 +6,8 @@ import {
   getFreeDailyQuizzesLimit,
   getMaxAdGrantsPerDayLimit,
   isFirstOpenPaywallDisabled,
+  isPracticeNativeAdEnabled,
+  isDictionaryNativeAdEnabled,
   resetAppConfigForTesting,
 } from '../services/appConfigService';
 import defaultConfig from '../../assets/app-config.json';
@@ -21,8 +23,18 @@ describe('appConfigService', () => {
     expect(config.features.free_daily_quizzes).toBe(defaultConfig.features.free_daily_quizzes);
     expect(getFreeDailyQuizzesLimit()).toBe(defaultConfig.features.free_daily_quizzes);
     expect(getMaxAdGrantsPerDayLimit()).toBe(defaultConfig.features.max_ad_grants_per_day);
-    expect(getFeaturesConfig().disable_first_open_paywall).toBe(false);
-    expect(isFirstOpenPaywallDisabled()).toBe(false);
+    expect(getFeaturesConfig().disable_first_open_paywall).toBe(
+      defaultConfig.features.disable_first_open_paywall,
+    );
+    expect(isFirstOpenPaywallDisabled()).toBe(
+      defaultConfig.features.disable_first_open_paywall === true,
+    );
+    expect(isPracticeNativeAdEnabled()).toBe(
+      defaultConfig.features.enable_practice_native_ad !== false,
+    );
+    expect(isDictionaryNativeAdEnabled()).toBe(
+      defaultConfig.features.enable_dictionary_native_ad !== false,
+    );
   });
 
   it('should fetch and merge remote config successfully within timeout', async () => {
@@ -31,6 +43,8 @@ describe('appConfigService', () => {
         free_daily_quizzes: 4,
         max_ad_grants_per_day: 8,
         disable_first_open_paywall: true,
+        enable_practice_native_ad: false,
+        enable_dictionary_native_ad: false,
       },
     };
 
@@ -46,6 +60,8 @@ describe('appConfigService', () => {
     expect(getFreeDailyQuizzesLimit()).toBe(4);
     expect(getMaxAdGrantsPerDayLimit()).toBe(8);
     expect(isFirstOpenPaywallDisabled()).toBe(true);
+    expect(isPracticeNativeAdEnabled()).toBe(false);
+    expect(isDictionaryNativeAdEnabled()).toBe(false);
   });
 
   it('should unblock on timeout (500ms) and update cache in background when slow fetch finishes', async () => {

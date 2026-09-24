@@ -1,0 +1,150 @@
+{
+  "id": "aufbewahren",
+  "infinitive": "aufbewahren",
+  "translation": {
+    "ru": "хранить, сберегать",
+    "en": "to keep, to store, to preserve"
+  },
+  "level": "B1",
+  "frequency_rank": 939,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "bewahrt auf",
+    "preterite_third_singular": "bewahrte auf",
+    "past_participle": "aufbewahrt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bewahre auf",
+      "du": "bewahrst auf",
+      "er_sie_es": "bewahrt auf",
+      "wir": "bewahren auf",
+      "ihr": "bewahrt auf",
+      "sie_Sie": "bewahren auf"
+    },
+    "preterite": {
+      "ich": "bewahrte auf",
+      "du": "bewahrtest auf",
+      "er_sie_es": "bewahrte auf",
+      "wir": "bewahrten auf",
+      "ihr": "bewahrtet auf",
+      "sie_Sie": "bewahrten auf"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "aufbewahrt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich bewahre alle wichtigen Quittungen in einem Ordner auf.",
+      "translation": {
+        "ru": "Я храню все важные чеки в папке.",
+        "en": "I keep all important receipts in a folder."
+      },
+      "bracket_parts": [
+        "bewahre",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bewahrst du die Medikamente kühl und unerreichbar für Kinder auf?",
+      "translation": {
+        "ru": "Ты хранишь лекарства в прохладном и недоступном для детей месте?",
+        "en": "Do you store the medicines cool and out of reach of children?"
+      },
+      "bracket_parts": [
+        "Bewahrst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Museum bewahrt wertvolle Kunstschätze aus dem Mittelalter auf.",
+      "translation": {
+        "ru": "Музей хранит ценные сокровища искусства эпохи Средневековья.",
+        "en": "The museum preserves valuable art treasures from the Middle Ages."
+      },
+      "bracket_parts": [
+        "bewahrt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bewahren die übrig gebliebenen Speisen im Kühlschrank auf.",
+      "translation": {
+        "ru": "Мы храним оставшуюся еду в холодильнике.",
+        "en": "We keep the leftover food in the refrigerator."
+      },
+      "bracket_parts": [
+        "bewahren",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bewahrt ihr eure Wertsachen während der Reise im Hotelsafe auf?",
+      "translation": {
+        "ru": "Вы храните ценные вещи во время поездки в сейфе отеля?",
+        "en": "Do you guys keep your valuables in the hotel safe during the trip?"
+      },
+      "bracket_parts": [
+        "Bewahrt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Meine Großmutter bewahrte alte Liebesbriefe in einer Holzkiste auf.",
+      "translation": {
+        "ru": "Моя бабушка хранила старые любовные письма в деревянной шкатулке.",
+        "en": "My grandmother kept old love letters in a wooden box."
+      },
+      "bracket_parts": [
+        "bewahrte",
+        "auf"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat das Erbstück seiner Eltern sorgfältig aufbewahrt.",
+      "translation": {
+        "ru": "Он бережно сохранил фамильную реликвию своих родителей.",
+        "en": "He carefully preserved his parents' heirloom."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufbewahrt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bewahre bitte diese vertraulichen Unterlagen an einem sicheren Ort auf!",
+      "translation": {
+        "ru": "Храни, пожалуйста, эти конфиденциальные документы в надежном месте!",
+        "en": "Please keep these confidential documents in a safe place!"
+      },
+      "bracket_parts": [
+        "Bewahre",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

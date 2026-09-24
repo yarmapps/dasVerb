@@ -1,0 +1,147 @@
+{
+  "id": "gewaehrleisten",
+  "infinitive": "gewährleisten",
+  "translation": {
+    "ru": "гарантировать, обеспечивать",
+    "en": "to guarantee, to ensure"
+  },
+  "level": "B2",
+  "frequency_rank": 686,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "gewähr",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "gewährleisten",
+    "present_3sg": "gewährleistet",
+    "praeteritum_3sg": "gewährleistete",
+    "partizip_2": "gewährleistet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gewährleiste",
+      "du": "gewährleistest",
+      "er_sie_es": "gewährleistet",
+      "wir": "gewährleisten",
+      "ihr": "gewährleistet",
+      "sie_Sie": "gewährleisten"
+    },
+    "praeteritum": {
+      "ich": "gewährleistete",
+      "du": "gewährleistetest",
+      "er_sie_es": "gewährleistete",
+      "wir": "gewährleisteten",
+      "ihr": "gewährleistetet",
+      "sie_Sie": "gewährleisteten"
+    },
+    "perfekt": {
+      "ich": "habe gewährleistet",
+      "du": "hast gewährleistet",
+      "er_sie_es": "hat gewährleistet",
+      "wir": "haben gewährleistet",
+      "ihr": "habt gewährleistet",
+      "sie_Sie": "haben gewährleistet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich gewährleiste höchste Qualität bei jedem Arbeitsschritt.",
+      "translation": {
+        "ru": "Я гарантирую высочайшее качество на каждом этапе работы.",
+        "en": "I ensure the highest quality at every step of the work."
+      },
+      "bracket_parts": [
+        "gewährleiste"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gewährleistest du die pünktliche Lieferung der Waren?",
+      "translation": {
+        "ru": "Ты гарантируешь своевременную доставку товаров?",
+        "en": "Do you guarantee the punctual delivery of the goods?"
+      },
+      "bracket_parts": [
+        "Gewährleistest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das neue Sicherheitssystem gewährleistet optimalen Schutz.",
+      "translation": {
+        "ru": "Новая система безопасности обеспечивает оптимальную защиту.",
+        "en": "The new security system ensures optimal protection."
+      },
+      "bracket_parts": [
+        "gewährleistet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gewährleisten schnellen Support für alle unsere Nutzer.",
+      "translation": {
+        "ru": "Мы гарантируем быструю поддержку всем нашим пользователям.",
+        "en": "We ensure fast support for all our users."
+      },
+      "bracket_parts": [
+        "gewährleisten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr gewährleistet die Einhaltung aller Sicherheitsvorschriften.",
+      "translation": {
+        "ru": "Вы обеспечиваете соблюдение всех правил безопасности.",
+        "en": "You ensure compliance with all safety regulations."
+      },
+      "bracket_parts": [
+        "gewährleistet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Vertrag gewährleistete damals den Frieden zwischen den Ländern.",
+      "translation": {
+        "ru": "Договор тогда гарантировал мир между странами.",
+        "en": "The treaty guaranteed peace between the countries back then."
+      },
+      "bracket_parts": [
+        "gewährleistete"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Firma hat eine zweijährige Garantie auf das Gerät gewährleistet.",
+      "translation": {
+        "ru": "Фирма предоставила двухлетнюю гарантию на прибор.",
+        "en": "The company has guaranteed a two-year warranty on the device."
+      },
+      "bracket_parts": [
+        "hat",
+        "gewährleistet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gewährleiste bitte den reibungslosen Ablauf der Veranstaltung!",
+      "translation": {
+        "ru": "Обеспечь, пожалуйста, бесперебойный ход мероприятия!",
+        "en": "Please ensure the smooth running of the event!"
+      },
+      "bracket_parts": [
+        "Gewährleiste"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

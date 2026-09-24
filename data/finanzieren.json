@@ -1,0 +1,147 @@
+{
+  "id": "finanzieren",
+  "infinitive": "finanzieren",
+  "translation": {
+    "ru": "финансировать, оплачивать",
+    "en": "to finance, to fund"
+  },
+  "level": "B1",
+  "frequency_rank": 562,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "finanzieren",
+    "present_3sg": "finanziert",
+    "praeteritum_3sg": "finanzierte",
+    "partizip_2": "finanziert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "finanziere",
+      "du": "finanzierst",
+      "er_sie_es": "finanziert",
+      "wir": "finanzieren",
+      "ihr": "finanziert",
+      "sie_Sie": "finanzieren"
+    },
+    "praeteritum": {
+      "ich": "finanzierte",
+      "du": "finanziertest",
+      "er_sie_es": "finanzierte",
+      "wir": "finanzierten",
+      "ihr": "finanziertet",
+      "sie_Sie": "finanzierten"
+    },
+    "perfekt": {
+      "ich": "habe finanziert",
+      "du": "hast finanziert",
+      "er_sie_es": "hat finanziert",
+      "wir": "haben finanziert",
+      "ihr": "habt finanziert",
+      "sie_Sie": "haben finanziert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich finanziere mein Studium durch einen Nebenjob.",
+      "translation": {
+        "ru": "Я финансирую свою учебу подработкой.",
+        "en": "I finance my studies with a part-time job."
+      },
+      "bracket_parts": [
+        "finanziere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wie finanzierst du das teure Auto?",
+      "translation": {
+        "ru": "Как ты оплачиваешь эту дорогую машину?",
+        "en": "How do you finance the expensive car?"
+      },
+      "bracket_parts": [
+        "finanzierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Bank finanziert den Bau des Krankenhauses.",
+      "translation": {
+        "ru": "Банк финансирует строительство больницы.",
+        "en": "The bank finances the construction of the hospital."
+      },
+      "bracket_parts": [
+        "finanziert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir finanzieren die Reise aus eigenen Mitteln.",
+      "translation": {
+        "ru": "Мы финансируем поездку из собственных средств.",
+        "en": "We fund the trip from our own resources."
+      },
+      "bracket_parts": [
+        "finanzieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr finanziert das ganze Vorhaben gemeinsam.",
+      "translation": {
+        "ru": "Вы финансируете все предприятие сообща.",
+        "en": "You fund the entire project together."
+      },
+      "bracket_parts": [
+        "finanziert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Staat finanzierte diese Forschung viele Jahre lang.",
+      "translation": {
+        "ru": "Государство финансировало это исследование много лет.",
+        "en": "The state funded this research for many years."
+      },
+      "bracket_parts": [
+        "finanzierte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben die Renovierung über einen Kredit finanziert.",
+      "translation": {
+        "ru": "Они профинансировали ремонт через кредит.",
+        "en": "They financed the renovation through a loan."
+      },
+      "bracket_parts": [
+        "haben",
+        "finanziert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Finanziere deine Pläne immer mit Bedacht!",
+      "translation": {
+        "ru": "Финансируй свои планы всегда осмотрительно!",
+        "en": "Always finance your plans prudently!"
+      },
+      "bracket_parts": [
+        "Finanziere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

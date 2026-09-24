@@ -1,0 +1,153 @@
+{
+  "id": "voruebergehen",
+  "infinitive": "vorübergehen",
+  "translation": {
+    "ru": "проходить мимо, миновать, проходить (о времени/боли)",
+    "en": "to pass by, to pass over"
+  },
+  "level": "B1",
+  "frequency_rank": 635,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "vorüber",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vorübergehen",
+    "present_3sg": "geht vorüber",
+    "praeteritum_3sg": "ging vorüber",
+    "partizip_2": "vorübergegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe vorüber",
+      "du": "gehst vorüber",
+      "er_sie_es": "geht vorüber",
+      "wir": "gehen vorüber",
+      "ihr": "geht vorüber",
+      "sie_Sie": "gehen vorüber"
+    },
+    "praeteritum": {
+      "ich": "ging vorüber",
+      "du": "gingst vorüber",
+      "er_sie_es": "ging vorüber",
+      "wir": "gingen vorüber",
+      "ihr": "gingt vorüber",
+      "sie_Sie": "gingen vorüber"
+    },
+    "perfekt": {
+      "ich": "bin vorübergegangen",
+      "du": "bist vorübergegangen",
+      "er_sie_es": "ist vorübergegangen",
+      "wir": "sind vorübergegangen",
+      "ihr": "seid vorübergegangen",
+      "sie_Sie": "sind vorübergegangen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "an",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich gehe jeden Morgen an dem alten Park vorüber.",
+      "translation": {
+        "ru": "Я каждое утро прохожу мимо старого парка.",
+        "en": "I pass by the old park every morning."
+      },
+      "bracket_parts": [
+        "gehe",
+        "vorüber"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gehst du einfach an dem schönen Geschäft vorüber?",
+      "translation": {
+        "ru": "Ты просто проходишь мимо красивого магазина?",
+        "en": "Are you just passing by the nice shop?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "vorüber"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Auch diese schwere Krise geht bald vorüber.",
+      "translation": {
+        "ru": "И этот тяжелый кризис скоро пройдет.",
+        "en": "This difficult crisis will pass soon too."
+      },
+      "bracket_parts": [
+        "geht",
+        "vorüber"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir wissen, dass alle Schmerzen irgendwann vorübergehen.",
+      "translation": {
+        "ru": "Мы знаем, что любая боль когда-нибудь проходит.",
+        "en": "We know that all pain passes eventually."
+      },
+      "bracket_parts": [
+        "vorübergehen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr geht wortlos aneinander vorüber.",
+      "translation": {
+        "ru": "Вы молча проходите мимо друг друга.",
+        "en": "You pass by each other without a word."
+      },
+      "bracket_parts": [
+        "geht",
+        "vorüber"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der heftige Sommersturm ging damals schnell vorüber.",
+      "translation": {
+        "ru": "Сильная летняя буря тогда быстро миновала.",
+        "en": "The violent summer storm passed quickly back then."
+      },
+      "bracket_parts": [
+        "ging",
+        "vorüber"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das Unwetter ist zum Glück ohne Schaden vorübergegangen.",
+      "translation": {
+        "ru": "Непогода, к счастью, прошла без ущерба.",
+        "en": "Fortunately, the storm passed without damage."
+      },
+      "bracket_parts": [
+        "ist",
+        "vorübergegangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Geh nicht achtlos an der Not anderer Menschen vorüber!",
+      "translation": {
+        "ru": "Не проходи равнодушно мимо беды других людей!",
+        "en": "Do not carelessly pass by the plight of other people!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "vorüber"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

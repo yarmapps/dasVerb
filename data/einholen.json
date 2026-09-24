@@ -1,0 +1,144 @@
+{
+  "id": "einholen",
+  "infinitive": "einholen",
+  "translation": {
+    "ru": "догонять (бегуна), запрашивать (мнение/разрешение), опускать (парус/флаг)",
+    "en": "to catch up with, to obtain (permission/opinion), to take down (sail/flag)"
+  },
+  "level": "B2",
+  "frequency_rank": 1017,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "holt ein",
+    "preterite_third_singular": "holte ein",
+    "past_participle": "eingeholt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "hole ein",
+      "du": "holst ein",
+      "er_sie_es": "holt ein",
+      "wir": "holen ein",
+      "ihr": "holt ein",
+      "sie_Sie": "holen ein"
+    },
+    "preterite": {
+      "ich": "holte ein",
+      "du": "holtest ein",
+      "er_sie_es": "holte ein",
+      "wir": "holten ein",
+      "ihr": "holtet ein",
+      "sie_Sie": "holten ein"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "eingeholt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich hole vor dem Kauf eines Hauses den Rat eines Experten ein.",
+      "translation": {
+        "ru": "Перед покупкой дома я запрашиваю совет эксперта.",
+        "en": "I obtain the advice of an expert before buying a house."
+      },
+      "bracket_parts": [
+        "hole",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Holst du den enteilten Läufer auf den letzten Metern noch ein?",
+      "translation": {
+        "ru": "Догонишь ли ты убежавшего вперед бегуна на последних метрах?",
+        "en": "Will you still catch up with the runaway runner on the last meters?"
+      },
+      "bracket_parts": [
+        "Holst",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Firma holt die behördliche Genehmigung für das Bauvorhaben ein.",
+      "translation": {
+        "ru": "Фирма запрашивает официальное разрешение на строительный проект.",
+        "en": "The company obtains official approval for the construction project."
+      },
+      "bracket_parts": [
+        "holt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir holen verschiedene Angebote von Handwerkern für die Sanierung ein.",
+      "translation": {
+        "ru": "Мы запрашиваем различные предложения от мастеров для ремонта.",
+        "en": "We obtain various offers from craftsmen for the renovation."
+      },
+      "bracket_parts": [
+        "holen",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Holt ihr vor Beginn des Projekts die Zustimmung des Chefs ein?",
+      "translation": {
+        "ru": "Запрашиваете ли вы согласие шефа перед началом проекта?",
+        "en": "Are you guys obtaining the boss's approval before starting the project?"
+      },
+      "bracket_parts": [
+        "Holt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Radprofi holte die Ausreißergruppe am steilen Berg ein.",
+      "translation": {
+        "ru": "Профессиональный велогонщик догнал группу отрыва на крутой горе.",
+        "en": "The professional cyclist caught up with the breakaway group on the steep mountain."
+      },
+      "bracket_parts": [
+        "holte",
+        "ein"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Management hat vor der Entscheidung rechtlichen Beistand eingeholt.",
+      "translation": {
+        "ru": "Руководство запросило юридическую помощь перед принятием решения.",
+        "en": "Management obtained legal counsel before making the decision."
+      },
+      "bracket_parts": [
+        "hat",
+        "eingeholt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Hole bitte vor Vertragsschluss die offizielle Erlaubnis ein!",
+      "translation": {
+        "ru": "Запроси, пожалуйста, официальное разрешение перед заключением договора!",
+        "en": "Please obtain official permission before concluding the contract!"
+      },
+      "bracket_parts": [
+        "Hole",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

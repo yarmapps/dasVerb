@@ -1,0 +1,147 @@
+{
+  "id": "werben",
+  "infinitive": "werben",
+  "translation": {
+    "ru": "рекламировать, агитировать, вербовать",
+    "en": "to advertise, to recruit, to campaign"
+  },
+  "level": "B1",
+  "frequency_rank": 772,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "wirbt",
+    "preterite_third_singular": "warb",
+    "past_participle": "geworben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "werbe",
+      "du": "wirbst",
+      "er_sie_es": "wirbt",
+      "wir": "werben",
+      "ihr": "werbt",
+      "sie_Sie": "werben"
+    },
+    "preterite": {
+      "ich": "warb",
+      "du": "warbst",
+      "er_sie_es": "warb",
+      "wir": "warben",
+      "ihr": "warbt",
+      "sie_Sie": "warben"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geworben"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "für",
+        "case": "Akkusativ"
+      },
+      {
+        "preposition": "um",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich werbe im Internet für mein neues Restaurant.",
+      "translation": {
+        "ru": "Я рекламирую в интернете свой новый ресторан.",
+        "en": "I advertise my new restaurant on the internet."
+      },
+      "bracket_parts": [
+        "werbe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wirbst du bei deinen Kollegen für die Gewerkschaft?",
+      "translation": {
+        "ru": "Ты агитируешь коллег вступать в профсоюз?",
+        "en": "Are you campaigning among your colleagues for the union?"
+      },
+      "bracket_parts": [
+        "Wirbst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Unternehmen wirbt intensiv für umweltfreundliche Produkte.",
+      "translation": {
+        "ru": "Компания интенсивно рекламирует экологически чистые продукты.",
+        "en": "The company actively advertises environmentally friendly products."
+      },
+      "bracket_parts": [
+        "wirbt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir werben um das Vertrauen neuer Wähler.",
+      "translation": {
+        "ru": "Мы боремся за доверие новых избирателей.",
+        "en": "We campaign for the trust of new voters."
+      },
+      "bracket_parts": [
+        "werben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Werbt ihr auf Social Media für eure Veranstaltung?",
+      "translation": {
+        "ru": "Вы рекламируете ваше мероприятие в социальных сетях?",
+        "en": "Are you advertising your event on social media?"
+      },
+      "bracket_parts": [
+        "Werbt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Organisation warb damals um freiwillige Spenden.",
+      "translation": {
+        "ru": "Организация тогда привлекала добровольные пожертвования.",
+        "en": "The organization campaigned for voluntary donations back then."
+      },
+      "bracket_parts": [
+        "warb"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben mit großem Erfolg für die Kampagne geworben.",
+      "translation": {
+        "ru": "Они с большим успехом агитировали за кампанию.",
+        "en": "They advertised for the campaign with great success."
+      },
+      "bracket_parts": [
+        "haben",
+        "geworben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Wirb mit guten Argumenten für dein Konzept!",
+      "translation": {
+        "ru": "Агитируй за свою концепцию хорошими аргументами!",
+        "en": "Advertise your concept with good arguments!"
+      },
+      "bracket_parts": [
+        "Wirb"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

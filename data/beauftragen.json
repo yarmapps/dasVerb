@@ -1,0 +1,143 @@
+{
+  "id": "beauftragen",
+  "infinitive": "beauftragen",
+  "translation": {
+    "ru": "поручать, уполномочивать, нанимать",
+    "en": "to commission, to instruct, to charge sb with"
+  },
+  "level": "B2",
+  "frequency_rank": 758,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "beauftragt",
+    "preterite_third_singular": "beauftragte",
+    "past_participle": "beauftragt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beauftrage",
+      "du": "beauftragst",
+      "er_sie_es": "beauftragt",
+      "wir": "beauftragen",
+      "ihr": "beauftragt",
+      "sie_Sie": "beauftragen"
+    },
+    "preterite": {
+      "ich": "beauftragte",
+      "du": "beauftragtest",
+      "er_sie_es": "beauftragte",
+      "wir": "beauftragten",
+      "ihr": "beauftragtet",
+      "sie_Sie": "beauftragten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "beauftragt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich beauftrage eine erfahrene Firma mit der Renovierung.",
+      "translation": {
+        "ru": "Я поручаю ремонт опытной фирме.",
+        "en": "I commission an experienced company with the renovation."
+      },
+      "bracket_parts": [
+        "beauftrage"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beauftragst du einen Anwalt für den Rechtsstreit?",
+      "translation": {
+        "ru": "Ты нанимаешь юриста для судебного разбирательства?",
+        "en": "Are you hiring a lawyer for the legal dispute?"
+      },
+      "bracket_parts": [
+        "Beauftragst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Chef beauftragt seine Mitarbeiterin mit der Leitung des Projekts.",
+      "translation": {
+        "ru": "Шеф поручает сотруднице руководство проектом.",
+        "en": "The boss charges his employee with managing the project."
+      },
+      "bracket_parts": [
+        "beauftragt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beauftragen eine Spedition mit dem Umzug.",
+      "translation": {
+        "ru": "Мы поручаем перевозку транспортной компании.",
+        "en": "We hire a moving company for the relocation."
+      },
+      "bracket_parts": [
+        "beauftragen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beauftragt ihr den Gutachter mit der Prüfung?",
+      "translation": {
+        "ru": "Вы поручаете оценщику проведение экспертизы?",
+        "en": "Are you commissioning the surveyor with the examination?"
+      },
+      "bracket_parts": [
+        "Beauftragt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Vorstand beauftragte ein externes Institut mit der Studie.",
+      "translation": {
+        "ru": "Совет директоров поручил исследование стороннему институту.",
+        "en": "The board of directors commissioned an external institute with the study."
+      },
+      "bracket_parts": [
+        "beauftragte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben einen Experten mit der Kontrolle beauftragt.",
+      "translation": {
+        "ru": "Они поручили контроль эксперту.",
+        "en": "They charged an expert with the inspection."
+      },
+      "bracket_parts": [
+        "haben",
+        "beauftragt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Beauftrage nur vertrauenswürdige Fachleute mit dieser Aufgabe!",
+      "translation": {
+        "ru": "Поручай эту задачу только заслуживающим доверия специалистам!",
+        "en": "Charge only trustworthy specialists with this task!"
+      },
+      "bracket_parts": [
+        "Beauftrage"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

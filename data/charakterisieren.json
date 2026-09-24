@@ -1,0 +1,143 @@
+{
+  "id": "charakterisieren",
+  "infinitive": "charakterisieren",
+  "translation": {
+    "ru": "характеризовать, описывать",
+    "en": "to characterize, to describe"
+  },
+  "level": "B2",
+  "frequency_rank": 909,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "charakterisiert",
+    "preterite_third_singular": "charakterisierte",
+    "past_participle": "charakterisiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "charakterisiere",
+      "du": "charakterisierst",
+      "er_sie_es": "charakterisiert",
+      "wir": "charakterisieren",
+      "ihr": "charakterisiert",
+      "sie_Sie": "charakterisieren"
+    },
+    "preterite": {
+      "ich": "charakterisierte",
+      "du": "charakterisiertest",
+      "er_sie_es": "charakterisierte",
+      "wir": "charakterisierten",
+      "ihr": "charakterisiertet",
+      "sie_Sie": "charakterisierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "charakterisiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "als",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich charakterisiere die Hauptfigur des Romans in meiner Analyse.",
+      "translation": {
+        "ru": "Я даю характеристику главному герою романа в своем анализе.",
+        "en": "I characterize the protagonist of the novel in my analysis."
+      },
+      "bracket_parts": [
+        "charakterisiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wie charakterisierst du deinen besten Freund mit drei Worten?",
+      "translation": {
+        "ru": "Как ты охарактеризуешь своего лучшего друга тремя словами?",
+        "en": "How do you characterize your best friend in three words?"
+      },
+      "bracket_parts": [
+        "charakterisierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Große Hilfsbereitschaft charakterisiert ihr gesamtes Handeln.",
+      "translation": {
+        "ru": "Огромная готовность помочь характеризует все ее поступки.",
+        "en": "Great helpfulness characterizes all her actions."
+      },
+      "bracket_parts": [
+        "charakterisiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir charakterisieren die Besonderheiten dieser Sprache.",
+      "translation": {
+        "ru": "Мы описываем особенности этого языка.",
+        "en": "We characterize the peculiarities of this language."
+      },
+      "bracket_parts": [
+        "charakterisieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Charakterisiert ihr diese Epoche als Zeit des Umbruchs?",
+      "translation": {
+        "ru": "Вы характеризуете эту эпоху как время перемен?",
+        "en": "Do you guys characterize this era as a time of radical change?"
+      },
+      "bracket_parts": [
+        "Charakterisiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Kritiker charakterisierte das Werk als Meisterleistung.",
+      "translation": {
+        "ru": "Критик охарактеризовал произведение как шедевр.",
+        "en": "The critic characterized the work as a masterpiece."
+      },
+      "bracket_parts": [
+        "charakterisierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Wissenschaftler haben die chemischen Eigenschaften genau charakterisiert.",
+      "translation": {
+        "ru": "Ученые точно охарактеризовали химические свойства.",
+        "en": "Scientists have precisely characterized the chemical properties."
+      },
+      "bracket_parts": [
+        "haben",
+        "charakterisiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Charakterisiere die Probleme sachlich und präzise!",
+      "translation": {
+        "ru": "Охарактеризуй проблемы объективно и точно!",
+        "en": "Characterize the problems objectively and precisely!"
+      },
+      "bracket_parts": [
+        "Charakterisiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

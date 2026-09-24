@@ -1,0 +1,150 @@
+{
+  "id": "aufbrechen",
+  "infinitive": "aufbrechen",
+  "translation": {
+    "ru": "отправляться в путь, взламывать",
+    "en": "to set off, to break open"
+  },
+  "level": "B1",
+  "frequency_rank": 727,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "bricht auf",
+    "preterite_third_singular": "brach auf",
+    "past_participle": "aufgebrochen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "breche auf",
+      "du": "brichst auf",
+      "er_sie_es": "bricht auf",
+      "wir": "brechen auf",
+      "ihr": "brecht auf",
+      "sie_Sie": "brechen auf"
+    },
+    "preterite": {
+      "ich": "brach auf",
+      "du": "brachst auf",
+      "er_sie_es": "brach auf",
+      "wir": "brachen auf",
+      "ihr": "bracht auf",
+      "sie_Sie": "brachen auf"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "aufgebrochen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "zu",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich breche früh am Morgen zur langen Wanderung auf.",
+      "translation": {
+        "ru": "Я отправляюсь рано утром в долгий поход.",
+        "en": "I set off early in the morning for the long hike."
+      },
+      "bracket_parts": [
+        "breche",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Brichst du heute noch nach Berlin auf?",
+      "translation": {
+        "ru": "Ты отправляешься сегодня в Берлин?",
+        "en": "Are you setting off for Berlin today?"
+      },
+      "bracket_parts": [
+        "Brichst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Reisegruppe bricht pünктlich um sechs Uhr auf.",
+      "translation": {
+        "ru": "Туристическая группа отправляется ровно в шесть часов.",
+        "en": "The tour group sets off promptly at six o'clock."
+      },
+      "bracket_parts": [
+        "bricht",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir brechen gleich zu unserem nächsten Ziel auf.",
+      "translation": {
+        "ru": "Мы сейчас отправляемся к нашей следующей цели.",
+        "en": "We are setting off for our next destination right away."
+      },
+      "bracket_parts": [
+        "brechen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wann brecht ihr zur Expedition auf?",
+      "translation": {
+        "ru": "Когда вы отправляетесь в экспедицию?",
+        "en": "When are you guys setting off on the expedition?"
+      },
+      "bracket_parts": [
+        "brecht",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Wanderer brachen noch vor Sonnenaufgang auf.",
+      "translation": {
+        "ru": "Путники отправились еще до восхода солнца.",
+        "en": "The hikers set off before sunrise."
+      },
+      "bracket_parts": [
+        "brachen",
+        "auf"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie sind vor zwei Stunden in den Urlaub aufgebrochen.",
+      "translation": {
+        "ru": "Они отправились в отпуск два часа назад.",
+        "en": "They set off on vacation two hours ago."
+      },
+      "bracket_parts": [
+        "sind",
+        "aufgebrochen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Brich rechtzeitig auf, damit du den Zug nicht verpasst!",
+      "translation": {
+        "ru": "Отправляйся вовремя, чтобы не опоздать на поезд!",
+        "en": "Set off in time so you don't miss the train!"
+      },
+      "bracket_parts": [
+        "Brich",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

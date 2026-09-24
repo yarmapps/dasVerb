@@ -1,0 +1,144 @@
+{
+  "id": "hinnehmen",
+  "infinitive": "hinnehmen",
+  "translation": {
+    "ru": "смиряться, принимать (удар/условия), терпеть",
+    "en": "to accept, to put up with, to tolerate"
+  },
+  "level": "B2",
+  "frequency_rank": 954,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "nimmt hin",
+    "preterite_third_singular": "nahm hin",
+    "past_participle": "hingenommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "nehme hin",
+      "du": "nimmst hin",
+      "er_sie_es": "nimmt hin",
+      "wir": "nehmen hin",
+      "ihr": "nehmt hin",
+      "sie_Sie": "nehmen hin"
+    },
+    "preterite": {
+      "ich": "nahm hin",
+      "du": "nahmst hin",
+      "er_sie_es": "nahm hin",
+      "wir": "nahmen hin",
+      "ihr": "nahmt hin",
+      "sie_Sie": "nahmen hin"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "hingenommen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich nehme die ungerechte Entscheidung des Schiedsrichters nicht widerspruchslos hin.",
+      "translation": {
+        "ru": "Я не принимаю несправедливое решение судьи без возражений.",
+        "en": "I do not accept the referee's unfair decision without objection."
+      },
+      "bracket_parts": [
+        "nehme",
+        "hin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Nimmst du solche beleidigenden Bemerkungen einfach stillschweigend hin?",
+      "translation": {
+        "ru": "Ты просто молча сносишь такие оскорбительные замечания?",
+        "en": "Do you simply tolerate such insulting remarks in silence?"
+      },
+      "bracket_parts": [
+        "Nimmst",
+        "hin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Angestellte nimmt die Kündigung schweren Herzens hin.",
+      "translation": {
+        "ru": "Сотрудник с тяжелым сердцем принимает увольнение.",
+        "en": "The employee accepts the dismissal with a heavy heart."
+      },
+      "bracket_parts": [
+        "nimmt",
+        "hin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir nehmen die schlechten Arbeitsbedingungen nicht länger hin.",
+      "translation": {
+        "ru": "Мы больше не намерены терпеть плохие условия труда.",
+        "en": "We no longer tolerate the poor working conditions."
+      },
+      "bracket_parts": [
+        "nehmen",
+        "hin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Nehmt ihr die drastische Preiserhöhung ohne Protest hin?",
+      "translation": {
+        "ru": "Вы принимаете резкое повышение цен без протеста?",
+        "en": "Are you guys accepting the drastic price increase without protest?"
+      },
+      "bracket_parts": [
+        "Nehmt",
+        "hin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er nahm die schmerzhafte Niederlage mit bemerkenswerter Fassung hin.",
+      "translation": {
+        "ru": "Он принял болезненное поражение с поразительным самообладанием.",
+        "en": "He accepted the painful defeat with remarkable composure."
+      },
+      "bracket_parts": [
+        "nahm",
+        "hin"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Bevölkerung hat die Einschränkungen geduldig hingenommen.",
+      "translation": {
+        "ru": "Население терпеливо перенесло введенные ограничения.",
+        "en": "The population patiently put up with the restrictions."
+      },
+      "bracket_parts": [
+        "hat",
+        "hingenommen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Nimm Ungerechtigkeiten niemals tatenlos hin!",
+      "translation": {
+        "ru": "Никогда не мирись с несправедливостью сложа руки!",
+        "en": "Never accept injustice passively!"
+      },
+      "bracket_parts": [
+        "Nimm",
+        "hin"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

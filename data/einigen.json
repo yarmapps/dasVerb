@@ -1,0 +1,138 @@
+{
+  "id": "einigen",
+  "infinitive": "einigen",
+  "translation": {
+    "ru": "объединять, сплотить",
+    "en": "to unite, to bring together"
+  },
+  "level": "B2",
+  "frequency_rank": 731,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "einigt",
+    "preterite_third_singular": "einigte",
+    "past_participle": "geeinigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "einige",
+      "du": "einigst",
+      "er_sie_es": "einigt",
+      "wir": "einigen",
+      "ihr": "einigt",
+      "sie_Sie": "einigen"
+    },
+    "preterite": {
+      "ich": "einigte",
+      "du": "einigtest",
+      "er_sie_es": "einigte",
+      "wir": "einigten",
+      "ihr": "einigtet",
+      "sie_Sie": "einigten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geeinigt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich einige die beiden zerstrittenen Gruppen im Verein.",
+      "translation": {
+        "ru": "Я примиряю две поссорившиеся группы в клубе.",
+        "en": "I unite the two quarreling groups in the club."
+      },
+      "bracket_parts": [
+        "einige"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du einigst die zerstrittenen Nachbarn mit viel Geduld.",
+      "translation": {
+        "ru": "Ты миришь поссорившихся соседей с большим терпением.",
+        "en": "You unite the quarreling neighbors with great patience."
+      },
+      "bracket_parts": [
+        "einigst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der neue Leiter einigt das Team nach der Krise.",
+      "translation": {
+        "ru": "Новый руководитель сплачивает команду после кризиса.",
+        "en": "The new leader unites the team after the crisis."
+      },
+      "bracket_parts": [
+        "einigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir einigen die verschiedenen Meinungen zu einem Kompromiss.",
+      "translation": {
+        "ru": "Мы объединяем разные мнения в компромисс.",
+        "en": "We unite the different opinions into a compromise."
+      },
+      "bracket_parts": [
+        "einigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr einigt das Volk in schwierigen Zeiten.",
+      "translation": {
+        "ru": "Вы сплачиваете народ в трудные времена.",
+        "en": "You unite the people in difficult times."
+      },
+      "bracket_parts": [
+        "einigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Präsidentin einigte die gegnerischen Parteien am runden Tisch.",
+      "translation": {
+        "ru": "Президент сплотила враждующие партии за круглым столом.",
+        "en": "The president united the opposing parties at the round table."
+      },
+      "bracket_parts": [
+        "einigte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das gemeinsame Ziel hat die Mitglieder fest geeinigt.",
+      "translation": {
+        "ru": "Общая цель крепко сплотила участников.",
+        "en": "The common goal has firmly united the members."
+      },
+      "bracket_parts": [
+        "hat",
+        "geeinigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Einige die Gemeinschaft durch faire Entscheidungen!",
+      "translation": {
+        "ru": "Сплоти сообщество справедливыми решениями!",
+        "en": "Unite the community through fair decisions!"
+      },
+      "bracket_parts": [
+        "Einige"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

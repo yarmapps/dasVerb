@@ -1,0 +1,150 @@
+{
+  "id": "eindringen",
+  "infinitive": "eindringen",
+  "translation": {
+    "ru": "вторгаться, проникать",
+    "en": "to penetrate, to invade, to intrude"
+  },
+  "level": "B2",
+  "frequency_rank": 761,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "dringt ein",
+    "preterite_third_singular": "drang ein",
+    "past_participle": "eingedrungen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "dringe ein",
+      "du": "dringst ein",
+      "er_sie_es": "dringt ein",
+      "wir": "dringen ein",
+      "ihr": "dringt ein",
+      "sie_Sie": "dringen ein"
+    },
+    "preterite": {
+      "ich": "drang ein",
+      "du": "drangst ein",
+      "er_sie_es": "drang ein",
+      "wir": "drangen ein",
+      "ihr": "drangt ein",
+      "sie_Sie": "drangen ein"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "eingedrungen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich dringe tief in die Geheimnisse der Wissenschaft ein.",
+      "translation": {
+        "ru": "Я глубоко проникаю в тайны науки.",
+        "en": "I penetrate deeply into the secrets of science."
+      },
+      "bracket_parts": [
+        "dringe",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dringst du unbefugt in das fremde Grundstück ein?",
+      "translation": {
+        "ru": "Ты вторгаешься без разрешения на чужой участок?",
+        "en": "Are you trespassing onto someone else's property without authorization?"
+      },
+      "bracket_parts": [
+        "Dringst",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein gefährliches Computervirus dringt in das System ein.",
+      "translation": {
+        "ru": "Опасный компьютерный вирус проникает в систему.",
+        "en": "A dangerous computer virus penetrates into the system."
+      },
+      "bracket_parts": [
+        "dringt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir dringen bei der Recherche weit in die Materie ein.",
+      "translation": {
+        "ru": "Мы глубоко вникаем в суть вопроса при исследовании.",
+        "en": "We penetrate deeply into the subject matter during research."
+      },
+      "bracket_parts": [
+        "dringen",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dringt ihr in das alte verlassene Schloss ein?",
+      "translation": {
+        "ru": "Вы проникаете в старый заброшенный замок?",
+        "en": "Are you entering the old abandoned castle?"
+      },
+      "bracket_parts": [
+        "Dringt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Einbrecher drangen nachts lautlos in die Villa ein.",
+      "translation": {
+        "ru": "Грабители проникли на виллу ночью бесшумно.",
+        "en": "The burglars broke into the villa silently at night."
+      },
+      "bracket_parts": [
+        "drangen",
+        "ein"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Wasser ist nach dem Starkregen in das Gebäude eingedrungen.",
+      "translation": {
+        "ru": "Вода проникла в здание после сильного ливня.",
+        "en": "Water entered the building after the heavy rain."
+      },
+      "bracket_parts": [
+        "ist",
+        "eingedrungen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Dringe niemals ohne Erlaubnis in fremde Bereiche ein!",
+      "translation": {
+        "ru": "Никогда не проникай на чужую территорию без разрешения!",
+        "en": "Never intrude into foreign areas without permission!"
+      },
+      "bracket_parts": [
+        "Dringe",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

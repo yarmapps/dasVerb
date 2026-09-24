@@ -1,0 +1,154 @@
+{
+  "id": "anpassen_sich",
+  "infinitive": "anpassen",
+  "translation": {
+    "ru": "приспосабливаться, адаптироваться",
+    "en": "to adapt, conform"
+  },
+  "level": "B1",
+  "frequency_rank": 520,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "anpassen",
+    "present_3sg": "passt sich an",
+    "praeteritum_3sg": "passte sich an",
+    "partizip_2": "angepasst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "passe mich an",
+      "du": "passt dich an",
+      "er_sie_es": "passt sich an",
+      "wir": "passen uns an",
+      "ihr": "passt euch an",
+      "sie_Sie": "passen sich an"
+    },
+    "praeteritum": {
+      "ich": "passte mich an",
+      "du": "passtest dich an",
+      "er_sie_es": "passte sich an",
+      "wir": "passten uns an",
+      "ihr": "passtet euch an",
+      "sie_Sie": "passten sich an"
+    },
+    "perfekt": {
+      "ich": "habe mich angepasst",
+      "du": "hast dich angepasst",
+      "er_sie_es": "hat sich angepasst",
+      "wir": "haben uns angepasst",
+      "ihr": "habt euch angepasst",
+      "sie_Sie": "haben sich angepasst"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "an",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich passe mich im neuen Wohnort schnell an die Gepflogenheiten an.",
+      "translation": {
+        "ru": "На новом месте жительства я быстро приспосабливаюсь к обычаям.",
+        "en": "In the new place of residence, I quickly adapt to the customs."
+      },
+      "bracket_parts": [
+        "passe",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du passt dich neuen Situationen immer bemerkenswert flexibel an.",
+      "translation": {
+        "ru": "Ты всегда замечательно гибко адаптируешься к новым ситуациям.",
+        "en": "You always adapt remarkably flexibly to new situations."
+      },
+      "bracket_parts": [
+        "passt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Chamäleon passt sich seiner Umgebung täuschend echt an.",
+      "translation": {
+        "ru": "Хамелеон обманчиво точно подстраивается под свое окружение.",
+        "en": "The chameleon adapts deceptively realistically to its surroundings."
+      },
+      "bracket_parts": [
+        "passt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir passen uns den kulturellen Besonderheiten des Landes an.",
+      "translation": {
+        "ru": "Мы приспосабливаемся к культурным особенностям страны.",
+        "en": "We adapt to the cultural peculiarities of the country."
+      },
+      "bracket_parts": [
+        "passen",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr passt euch den Regeln der Gemeinschaft vorbildlich an.",
+      "translation": {
+        "ru": "Вы образцово соблюдаете и принимаете правила общества.",
+        "en": "You adapt to the rules of the community in an exemplary manner."
+      },
+      "bracket_parts": [
+        "passt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie passten sich damals den schwierigen Lebensbedingungen an.",
+      "translation": {
+        "ru": "Они тогда приспособились к трудным жизненным условиям.",
+        "en": "They adapted to the difficult living conditions back then."
+      },
+      "bracket_parts": [
+        "passten",
+        "an"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Einwanderer hat sich sehr gut in der neuen Heimat angepasst.",
+      "translation": {
+        "ru": "Иммигрант очень хорошо освоился и адаптировался на новой родине.",
+        "en": "The immigrant has adapted very well in the new homeland."
+      },
+      "bracket_parts": [
+        "hat",
+        "angepasst"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Passe dich der Gruppe an, aber bleib du selbst!",
+      "translation": {
+        "ru": "Подстраивайся под группу, но оставайся самим собой!",
+        "en": "Adapt to the group, but remain yourself!"
+      },
+      "bracket_parts": [
+        "Passe",
+        "an"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

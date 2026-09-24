@@ -1,0 +1,154 @@
+{
+  "id": "ausweisen",
+  "infinitive": "ausweisen",
+  "translation": {
+    "ru": "удостоверять личность (sich ausweisen), высылать (из страны)",
+    "en": "to identify oneself, to deport, to designate"
+  },
+  "level": "B2",
+  "frequency_rank": 617,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ausweisen",
+    "present_3sg": "weist aus",
+    "praeteritum_3sg": "wies aus",
+    "partizip_2": "ausgewiesen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "weise aus",
+      "du": "weist aus",
+      "er_sie_es": "weist aus",
+      "wir": "weisen aus",
+      "ihr": "weist aus",
+      "sie_Sie": "weisen aus"
+    },
+    "praeteritum": {
+      "ich": "wies aus",
+      "du": "wiesest aus",
+      "er_sie_es": "wies aus",
+      "wir": "wiesen aus",
+      "ihr": "wiest aus",
+      "sie_Sie": "wiesen aus"
+    },
+    "perfekt": {
+      "ich": "habe ausgewiesen",
+      "du": "hast ausgewiesen",
+      "er_sie_es": "hat ausgewiesen",
+      "wir": "haben ausgewiesen",
+      "ihr": "habt ausgewiesen",
+      "sie_Sie": "haben ausgewiesen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "aus",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich weise mich mit meinem Personalausweis aus.",
+      "translation": {
+        "ru": "Я удостоверяю личность своим паспортом.",
+        "en": "I identify myself with my ID card."
+      },
+      "bracket_parts": [
+        "weise",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Weist du dich am Schalter mit deinem Reisepass aus?",
+      "translation": {
+        "ru": "Ты предъявишь загранпаспорт у стойки?",
+        "en": "Do you identify yourself at the counter with your passport?"
+      },
+      "bracket_parts": [
+        "Weist",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Staat weist illegale Einwanderer aus dem Land aus.",
+      "translation": {
+        "ru": "Государство высылает нелегальных иммигрантов из страны.",
+        "en": "The state deports illegal immigrants from the country."
+      },
+      "bracket_parts": [
+        "weist",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir weisen die neuen Parkplätze für Mitarbeiter aus.",
+      "translation": {
+        "ru": "Мы выделяем новые парковочные места для сотрудников.",
+        "en": "We designate the new parking spaces for employees."
+      },
+      "bracket_parts": [
+        "weisen",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr weist euch bei der Einlasskontrolle vorbildlich aus.",
+      "translation": {
+        "ru": "Вы образцово предъявляете документы на контроле входа.",
+        "en": "You identify yourselves exemplarily at admission control."
+      },
+      "bracket_parts": [
+        "weist",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Behörden wiesen die Diplomaten damals aus dem Land aus.",
+      "translation": {
+        "ru": "Власти тогда выслали дипломатов из страны.",
+        "en": "The authorities deported the diplomats from the country back then."
+      },
+      "bracket_parts": [
+        "wiesen",
+        "aus"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Er hat sich sofort mit seinem Dienstausweis ausgewiesen.",
+      "translation": {
+        "ru": "Он сразу предъявил служебное удостоверение.",
+        "en": "He immediately identified himself with his staff ID."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgewiesen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Weise dich bei der Polizeikontrolle ruhig und höflich aus!",
+      "translation": {
+        "ru": "Предъяви документы при проверке полиции спокойно и вежливо!",
+        "en": "Identify yourself calmly and politely at police check!"
+      },
+      "bracket_parts": [
+        "Weise",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

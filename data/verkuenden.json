@@ -1,0 +1,138 @@
+{
+  "id": "verkuenden",
+  "infinitive": "verkünden",
+  "translation": {
+    "ru": "объявлять, провозглашать, оглашать (приговор)",
+    "en": "to announce, to proclaim, to deliver (a verdict)"
+  },
+  "level": "B2",
+  "frequency_rank": 795,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verkündet",
+    "preterite_third_singular": "verkündete",
+    "past_participle": "verkündet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verkünde",
+      "du": "verkündest",
+      "er_sie_es": "verkündet",
+      "wir": "verkünden",
+      "ihr": "verkündet",
+      "sie_Sie": "verkünden"
+    },
+    "preterite": {
+      "ich": "verkündete",
+      "du": "verkündetest",
+      "er_sie_es": "verkündete",
+      "wir": "verkündeten",
+      "ihr": "verkündetet",
+      "sie_Sie": "verkündeten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verkündet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich verkünde heute das offizielle Wahlergebnis.",
+      "translation": {
+        "ru": "Я объявляю сегодня официальные результаты выборов.",
+        "en": "I announce the official election result today."
+      },
+      "bracket_parts": [
+        "verkünde"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verkündest du deine Verlobung auf dem Familienfest?",
+      "translation": {
+        "ru": "Ты объявишь о своей помолвке на семейном празднике?",
+        "en": "Are you announcing your engagement at the family celebration?"
+      },
+      "bracket_parts": [
+        "Verkündest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Richter verkündet das Urteil im Gerichtssaal.",
+      "translation": {
+        "ru": "Судья оглашает приговор в зале суда.",
+        "en": "The judge delivers the verdict in the courtroom."
+      },
+      "bracket_parts": [
+        "verkündet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verkünden den Start unseres neuen Produkts.",
+      "translation": {
+        "ru": "Мы объявляем о запуске нашего нового продукта.",
+        "en": "We announce the launch of our new product."
+      },
+      "bracket_parts": [
+        "verkünden"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verkündet ihr die frohe Botschaft allen Freunden?",
+      "translation": {
+        "ru": "Вы сообщаете радостную весть всем друзьям?",
+        "en": "Are you announcing the good news to all friends?"
+      },
+      "bracket_parts": [
+        "Verkündet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Präsident verkündete eine wichtige Reform im Fernsehen.",
+      "translation": {
+        "ru": "Президент объявил о важной реформе по телевидению.",
+        "en": "The president announced an important reform on television."
+      },
+      "bracket_parts": [
+        "verkündete"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben die Gewinner des Wettbewerbs feierlich verkündet.",
+      "translation": {
+        "ru": "Они торжественно объявили победителей конкурса.",
+        "en": "They ceremoniously announced the winners of the competition."
+      },
+      "bracket_parts": [
+        "haben",
+        "verkündet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verkünde deine Pläne erst, wenn alles fertig ist!",
+      "translation": {
+        "ru": "Объявляй о своих планах только тогда, когда все готово!",
+        "en": "Announce your plans only when everything is ready!"
+      },
+      "bracket_parts": [
+        "Verkünde"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
     "name": "das Verb",
     "slug": "das-verb",
     "scheme": "dasverb",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icons/base-icon.png",
     "userInterfaceStyle": "automatic",
@@ -24,7 +24,7 @@
         "ITSAppUsesNonExemptEncryption": false,
         "GADNativeAdValidatorEnabled": false
       },
-      "buildNumber": "3"
+      "buildNumber": "4"
     },
     "android": {
       "adaptiveIcon": {
@@ -38,7 +38,7 @@
       ],
       "package": "com.yarm.apps.dasverb",
       "googleServicesFile": "./google-services.json",
-      "versionCode": 3
+      "versionCode": 4
     },
     "web": {
       "bundler": "metro"
@@ -47,9 +47,6 @@
       [
         "expo-build-properties",
         {
-          "android": {
-            "useLegacyPackaging": true
-          },
           "ios": {
             "useFrameworks": "static"
           }
@@ -74,7 +71,8 @@
           "androidAppId": "ca-app-pub-7651822935774581~1012442102",
           "iosAppId": "ca-app-pub-7651822935774581~9648163377"
         }
-      ]
+      ],
+      "expo-localization"
     ],
     "extra": {
       "eas": {

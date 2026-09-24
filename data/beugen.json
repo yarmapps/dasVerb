@@ -1,0 +1,147 @@
+{
+  "id": "beugen",
+  "infinitive": "beugen",
+  "translation": {
+    "ru": "наклонять, сгибать, покорять, склоняться (sich beugen)",
+    "en": "to bend, to bow, to flex"
+  },
+  "level": "B2",
+  "frequency_rank": 620,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "beugen",
+    "present_3sg": "beugt",
+    "praeteritum_3sg": "beugte",
+    "partizip_2": "gebeugt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beuge",
+      "du": "beugst",
+      "er_sie_es": "beugt",
+      "wir": "beugen",
+      "ihr": "beugt",
+      "sie_Sie": "beugen"
+    },
+    "praeteritum": {
+      "ich": "beugte",
+      "du": "beugtest",
+      "er_sie_es": "beugte",
+      "wir": "beugten",
+      "ihr": "beugtet",
+      "sie_Sie": "beugten"
+    },
+    "perfekt": {
+      "ich": "habe gebeugt",
+      "du": "hast gebeugt",
+      "er_sie_es": "hat gebeugt",
+      "wir": "haben gebeugt",
+      "ihr": "habt gebeugt",
+      "sie_Sie": "haben gebeugt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "vor",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich beuge meine Knie bei der Gymnastikübung.",
+      "translation": {
+        "ru": "Я сгибаю колени при гимнастическом упражнении.",
+        "en": "I bend my knees during the gym exercise."
+      },
+      "bracket_parts": [
+        "beuge"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beugst du dich weit aus dem offenen Fenster?",
+      "translation": {
+        "ru": "Ты высовываешься далеко из открытого окна?",
+        "en": "Are you leaning far out of the open window?"
+      },
+      "bracket_parts": [
+        "Beugst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er beugt seinen Oberkörper langsam nach vorne.",
+      "translation": {
+        "ru": "Он медленно наклоняет корпус вперед.",
+        "en": "He bends his upper body slowly forward."
+      },
+      "bracket_parts": [
+        "beugt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beugen uns nicht der unfairen Entscheidung.",
+      "translation": {
+        "ru": "Мы не подчиняемся несправедливому решению.",
+        "en": "We do not bow to the unfair decision."
+      },
+      "bracket_parts": [
+        "beugen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr beugt den Kopf aus tiefem Respekt.",
+      "translation": {
+        "ru": "Вы склоняете голову из глубокого уважения.",
+        "en": "You bow your heads out of deep respect."
+      },
+      "bracket_parts": [
+        "beugt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der alte Mann beugte sich damals mühsam nach dem Stock.",
+      "translation": {
+        "ru": "Старик тогда с трудом нагнулся за тростью.",
+        "en": "The old man bent down with effort for his stick back then."
+      },
+      "bracket_parts": [
+        "beugte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben sich vor dem Urteil des Gerichts gebeugt.",
+      "translation": {
+        "ru": "Они подчинились вердикту суда.",
+        "en": "They bowed to the court's judgment."
+      },
+      "bracket_parts": [
+        "haben",
+        "gebeugt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Beuge deine Beine beim Heben schwerer Lasten!",
+      "translation": {
+        "ru": "Сгибай ноги при подъеме тяжестей!",
+        "en": "Bend your legs when lifting heavy loads!"
+      },
+      "bracket_parts": [
+        "Beuge"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

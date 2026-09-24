@@ -1,0 +1,171 @@
+{
+  "id": "rechtfertigen",
+  "infinitive": "rechtfertigen",
+  "translation": {
+    "ru": "оправдывать, обосновывать",
+    "en": "to justify"
+  },
+  "level": "B2",
+  "frequency_rank": 554,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "rechtfertigen",
+    "present_3sg": "rechtfertigt",
+    "praeteritum_3sg": "rechtfertigte",
+    "partizip_2": "gerechtfertigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "rechtfertige",
+      "du": "rechtfertigst",
+      "er_sie_es": "rechtfertigt",
+      "wir": "rechtfertigen",
+      "ihr": "rechtfertigt",
+      "sie_Sie": "rechtfertigen"
+    },
+    "praeteritum": {
+      "ich": "rechtfertigte",
+      "du": "rechtfertigtest",
+      "er_sie_es": "rechtfertigte",
+      "wir": "rechtfertigten",
+      "ihr": "rechtfertigtet",
+      "sie_Sie": "rechtfertigten"
+    },
+    "perfekt": {
+      "ich": "habe gerechtfertigt",
+      "du": "hast gerechtfertigt",
+      "er_sie_es": "hat gerechtfertigt",
+      "wir": "haben gerechtfertigt",
+      "ihr": "habt gerechtfertigt",
+      "sie_Sie": "haben gerechtfertigt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich rechtfertige meine getroffene Entscheidung mit klaren Fakten.",
+      "translation": {
+        "ru": "Я обосновываю принятое решение ясными фактами.",
+        "en": "I justify my decision with clear facts."
+      },
+      "bracket_parts": [
+        "rechtfertige"
+      ],
+      "akkusativ_parts": [
+        "meine getroffene Entscheidung"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du rechtfertigst dein spätes Erscheinen mit dem Stau auf der Autobahn.",
+      "translation": {
+        "ru": "Ты оправдываешь свое позднее появление пробкой на автобане.",
+        "en": "You justify your late arrival with the traffic jam on the highway."
+      },
+      "bracket_parts": [
+        "rechtfertigst"
+      ],
+      "akkusativ_parts": [
+        "dein spätes Erscheinen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Erfolg rechtfertigt den hohen Aufwand des Teams.",
+      "translation": {
+        "ru": "Успех оправдывает большие затраты усилий команды.",
+        "en": "Success justifies the high effort of the team."
+      },
+      "bracket_parts": [
+        "rechtfertigt"
+      ],
+      "akkusativ_parts": [
+        "den hohen Aufwand"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir rechtfertigen die Ausgaben durch die erzielten Ergebnisse.",
+      "translation": {
+        "ru": "Мы оправдываем расходы достигнутыми результатами.",
+        "en": "We justify the expenses by the achieved results."
+      },
+      "bracket_parts": [
+        "rechtfertigen"
+      ],
+      "akkusativ_parts": [
+        "die Ausgaben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr rechtfertigt eure Handlungen vor der gesamten Gruppe.",
+      "translation": {
+        "ru": "Вы обосновываете свои действия перед всей группой.",
+        "en": "You justify your actions before the whole group."
+      },
+      "bracket_parts": [
+        "rechtfertigt"
+      ],
+      "akkusativ_parts": [
+        "eure Handlungen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie rechtfertigten damals die drastischen Maßnahmen mit Notlagen.",
+      "translation": {
+        "ru": "Они тогда оправдывали решительные меры чрезвычайным положением.",
+        "en": "They justified the drastic measures with emergencies back then."
+      },
+      "bracket_parts": [
+        "rechtfertigten"
+      ],
+      "akkusativ_parts": [
+        "die drastischen Maßnahmen"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Minister hat das umstrittene Gesetz im Parlament gerechtfertigt.",
+      "translation": {
+        "ru": "Министр обосновал спорный закон в парламенте.",
+        "en": "The minister justified the controversial law in parliament."
+      },
+      "bracket_parts": [
+        "hat",
+        "gerechtfertigt"
+      ],
+      "akkusativ_parts": [
+        "das umstrittene Gesetz"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Rechtfertige dein Verhalten sachlich und ohne Ausreden!",
+      "translation": {
+        "ru": "Обоснуй свое поведение по существу и без отговорок!",
+        "en": "Justify your behavior objectively and without excuses!"
+      },
+      "bracket_parts": [
+        "Rechtfertige"
+      ],
+      "akkusativ_parts": [
+        "dein Verhalten"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

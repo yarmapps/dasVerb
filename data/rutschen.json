@@ -1,0 +1,147 @@
+{
+  "id": "rutschen",
+  "infinitive": "rutschen",
+  "translation": {
+    "ru": "скользить, соскальзывать, съезжать (с горки)",
+    "en": "to slide, to slip"
+  },
+  "level": "A2",
+  "frequency_rank": 961,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "rutscht",
+    "preterite_third_singular": "rutschte",
+    "past_participle": "gerutscht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "rutsche",
+      "du": "rutschst",
+      "er_sie_es": "rutscht",
+      "wir": "rutschen",
+      "ihr": "rutscht",
+      "sie_Sie": "rutschen"
+    },
+    "preterite": {
+      "ich": "rutschte",
+      "du": "rutschtest",
+      "er_sie_es": "rutschte",
+      "wir": "rutschten",
+      "ihr": "rutschtet",
+      "sie_Sie": "rutschten"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "gerutscht"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "in",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich rutsche im Winter auf dem vereisten Gehweg leicht aus.",
+      "translation": {
+        "ru": "Зимой я легко поскальзываюсь на обледенелом тротуаре.",
+        "en": "In winter, I easily slip on the icy sidewalk."
+      },
+      "bracket_parts": [
+        "rutsche"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Rutschst du mit den Kindern auf dem Spielplatz die bunte Rutsche hinab?",
+      "translation": {
+        "ru": "Ты скатываешься с детьми на детской площадке с яркой горки?",
+        "en": "Are you sliding down the colorful slide with the children on the playground?"
+      },
+      "bracket_parts": [
+        "Rutschst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Auto rutscht auf der nassen Fahrbahn gefährlich zur Seite.",
+      "translation": {
+        "ru": "Машина опасно скользит вбок на мокрой дороге.",
+        "en": "The car slides dangerously to the side on the wet road."
+      },
+      "bracket_parts": [
+        "rutscht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir rutschen gut und gesund ins neue Jahr hinein.",
+      "translation": {
+        "ru": "Мы благополучно и счастливо встречаем новый год (въезжаем в новый год).",
+        "en": "We slide well and healthily into the new year."
+      },
+      "bracket_parts": [
+        "rutschen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Rutscht ihr mit dem Schlitten den steilen Hügel hinunter?",
+      "translation": {
+        "ru": "Вы съезжаете на санках с крутого холма?",
+        "en": "Are you guys sliding down the steep hill on a sled?"
+      },
+      "bracket_parts": [
+        "Rutscht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Fußgänger rutschte auf einer Bananenschale unglücklich aus.",
+      "translation": {
+        "ru": "Пешеход неудачно поскользнулся на банановой кожуре.",
+        "en": "The pedestrian slipped unhappily on a banana peel."
+      },
+      "bracket_parts": [
+        "rutschte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Glas ist mir aus der Hand auf den Boden gerutscht.",
+      "translation": {
+        "ru": "Стакан выскользнул у меня из руки на пол.",
+        "en": "The glass slipped out of my hand onto the floor."
+      },
+      "bracket_parts": [
+        "ist",
+        "gerutscht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Rutsche vorsichtig und halte dich am Geländer fest!",
+      "translation": {
+        "ru": "Съезжай осторожно и держись за перила!",
+        "en": "Slide carefully and hold on to the railing!"
+      },
+      "bracket_parts": [
+        "Rutsche"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "formen",
+  "infinitive": "formen",
+  "translation": {
+    "ru": "формировать, лепить, придавать форму",
+    "en": "to form, to shape, to mold"
+  },
+  "level": "B2",
+  "frequency_rank": 836,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "formt",
+    "preterite_third_singular": "formte",
+    "past_participle": "geformt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "forme",
+      "du": "formst",
+      "er_sie_es": "formt",
+      "wir": "formen",
+      "ihr": "formt",
+      "sie_Sie": "formen"
+    },
+    "preterite": {
+      "ich": "formte",
+      "du": "formtest",
+      "er_sie_es": "formte",
+      "wir": "formten",
+      "ihr": "formtet",
+      "sie_Sie": "formten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geformt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "aus",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich forme eine Vase aus weichem Ton.",
+      "translation": {
+        "ru": "Я леплю вазу из мягкой глины.",
+        "en": "I shape a vase from soft clay."
+      },
+      "bracket_parts": [
+        "forme"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Formst du kleine Kugeln aus dem Teig?",
+      "translation": {
+        "ru": "Ты формируешь маленькие шарики из теста?",
+        "en": "Are you shaping small balls from the dough?"
+      },
+      "bracket_parts": [
+        "Formst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Bildhauer formt eine eindrucksvolle Skulptur.",
+      "translation": {
+        "ru": "Скульптор ваяет впечатляющую скульптуру.",
+        "en": "The sculptor shapes an impressive sculpture."
+      },
+      "bracket_parts": [
+        "formt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir formen eine feste und erfolgreiche Gemeinschaft.",
+      "translation": {
+        "ru": "Мы формируем крепкое и успешное сообщество.",
+        "en": "We form a solid and successful community."
+      },
+      "bracket_parts": [
+        "formen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Formt ihr Figuren aus buntem Schnee im Park?",
+      "translation": {
+        "ru": "Вы лепите фигуры из снега в парке?",
+        "en": "Are you guys shaping figures from snow in the park?"
+      },
+      "bracket_parts": [
+        "Formt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erfahrungen formten seinen starken Charakter im Laufe der Jahre.",
+      "translation": {
+        "ru": "Опыт формировал его сильный характер на протяжении лет.",
+        "en": "Experiences shaped his strong character over the years."
+      },
+      "bracket_parts": [
+        "formten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Bäckerin hat frische Brötchen mit der Hand geformt.",
+      "translation": {
+        "ru": "Пекарь вручную сформировала свежие булочки.",
+        "en": "The baker shaped fresh rolls by hand."
+      },
+      "bracket_parts": [
+        "hat",
+        "geformt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Forme den Teig zu einem gleichmäßigen Laib!",
+      "translation": {
+        "ru": "Сформируй тесто в равномерную буханку!",
+        "en": "Shape the dough into an even loaf!"
+      },
+      "bracket_parts": [
+        "Forme"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

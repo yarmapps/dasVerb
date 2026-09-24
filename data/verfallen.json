@@ -1,0 +1,147 @@
+{
+  "id": "verfallen",
+  "infinitive": "verfallen",
+  "translation": {
+    "ru": "ветшать, приходить в упадок, истекать (о сроке), впадать (в панику/зависимость)",
+    "en": "to deteriorate, to expire, to fall into (a habit/panic)"
+  },
+  "level": "B2",
+  "frequency_rank": 967,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verfällt",
+    "preterite_third_singular": "verfiel",
+    "past_participle": "verfallen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verfalle",
+      "du": "verfällst",
+      "er_sie_es": "verfällt",
+      "wir": "verfallen",
+      "ihr": "verfallt",
+      "sie_Sie": "verfallen"
+    },
+    "preterite": {
+      "ich": "verfiel",
+      "du": "verfielst",
+      "er_sie_es": "verfiel",
+      "wir": "verfielen",
+      "ihr": "verfielt",
+      "sie_Sie": "verfielen"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "verfallen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Akkusativ"
+      },
+      {
+        "preposition": "an",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich verfalle bei Prüfungsstress nicht in blinde Panik.",
+      "translation": {
+        "ru": "При экзаменационном стрессе я не впадаю в слепую панику.",
+        "en": "Under exam stress, I do not fall into blind panic."
+      },
+      "bracket_parts": [
+        "verfalle"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verfällst du bei der Diät wieder in alte ungesunde Gewohnheiten?",
+      "translation": {
+        "ru": "Впадаешь ли ты во время диеты снова в старые нездоровые привычки?",
+        "en": "Do you relapse into old unhealthy habits during your diet?"
+      },
+      "bracket_parts": [
+        "Verfällst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Gutschein verfällt am Ende dieses Monats unwiderruflich.",
+      "translation": {
+        "ru": "Срок действия купона безвозвратно истекает в конце этого месяца.",
+        "en": "The voucher expires irrevocably at the end of this month."
+      },
+      "bracket_parts": [
+        "verfällt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verfallen nicht in Resignation angesichts der großen Herausforderungen.",
+      "translation": {
+        "ru": "Мы не впадаем в уныние перед лицом больших трудностей.",
+        "en": "We do not fall into resignation in the face of great challenges."
+      },
+      "bracket_parts": [
+        "verfallen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verfallt ihr bei Turbulenzen im Flugzeug in unnötige Aufregung?",
+      "translation": {
+        "ru": "Впадаете ли вы в лишнее волнение при турбулентности в самолете?",
+        "en": "Do you guys fall into unnecessary agitation during turbulence in the plane?"
+      },
+      "bracket_parts": [
+        "Verfallt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das alte Schloss verfiel im Laufe der Jahrhunderte zur Ruine.",
+      "translation": {
+        "ru": "Старинный замок на протяжении веков ветшал и превратился в руины.",
+        "en": "The old castle fell into ruin over the centuries."
+      },
+      "bracket_parts": [
+        "verfiel"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Meine gesammelten Bonuspunkte sind leider zum Jahresende verfallen.",
+      "translation": {
+        "ru": "Мои накопленные бонусные баллы, к сожалению, сгорели в конце года.",
+        "en": "My collected bonus points have unfortunately expired at the end of the year."
+      },
+      "bracket_parts": [
+        "sind",
+        "verfallen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verfalle niemals in hoffnungslose Verzweiflung!",
+      "translation": {
+        "ru": "Никогда не впадай в безнадежное отчаяние!",
+        "en": "Never fall into hopeless despair!"
+      },
+      "bracket_parts": [
+        "Verfalle"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

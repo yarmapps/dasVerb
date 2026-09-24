@@ -1,0 +1,154 @@
+{
+  "id": "vorziehen",
+  "infinitive": "vorziehen",
+  "translation": {
+    "ru": "предпочитать, переносить на более ранний срок, задвигать шторы",
+    "en": "to prefer, to bring forward, to draw (curtains)"
+  },
+  "level": "B1",
+  "frequency_rank": 675,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "vor",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vorziehen",
+    "present_3sg": "zieht vor",
+    "praeteritum_3sg": "zog vor",
+    "partizip_2": "vorgezogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ziehe vor",
+      "du": "ziehst vor",
+      "er_sie_es": "zieht vor",
+      "wir": "ziehen vor",
+      "ihr": "zieht vor",
+      "sie_Sie": "ziehen vor"
+    },
+    "praeteritum": {
+      "ich": "zog vor",
+      "du": "zogst vor",
+      "er_sie_es": "zog vor",
+      "wir": "zogen vor",
+      "ihr": "zogt vor",
+      "sie_Sie": "zogen vor"
+    },
+    "perfekt": {
+      "ich": "habe vorgezogen",
+      "du": "hast vorgezogen",
+      "er_sie_es": "hat vorgezogen",
+      "wir": "haben vorgezogen",
+      "ihr": "habt vorgezogen",
+      "sie_Sie": "haben vorgezogen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "Dativ",
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich ziehe Tee dem Kaffee am Nachmittag vor.",
+      "translation": {
+        "ru": "Я предпочитаю чай кофе во второй половине дня.",
+        "en": "I prefer tea to coffee in the afternoon."
+      },
+      "bracket_parts": [
+        "ziehe",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ziehst du ein gutes Buch einem Film vor?",
+      "translation": {
+        "ru": "Ты предпочитаешь хорошую книгу фильму?",
+        "en": "Do you prefer a good book to a movie?"
+      },
+      "bracket_parts": [
+        "Ziehst",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er zieht den ruhigen Urlaub in den Bergen dem Strand vor.",
+      "translation": {
+        "ru": "Он предпочитает спокойный отдых в горах пляжу.",
+        "en": "He prefers a quiet vacation in the mountains to the beach."
+      },
+      "bracket_parts": [
+        "zieht",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir ziehen den Termin wegen der Reise um eine Woche vor.",
+      "translation": {
+        "ru": "Мы переносим встречу из-за поездки на неделю раньше.",
+        "en": "We bring the appointment forward by a week due to the trip."
+      },
+      "bracket_parts": [
+        "ziehen",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr zieht gesunde Ernährung dem Fastfood vor.",
+      "translation": {
+        "ru": "Вы предпочитаете здоровое питание фастфуду.",
+        "en": "You prefer healthy food to fast food."
+      },
+      "bracket_parts": [
+        "zieht",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie zog damals ein Leben auf dem Land der Großstadt vor.",
+      "translation": {
+        "ru": "Она тогда предпочла жизнь в деревне мегаполису.",
+        "en": "She preferred a life in the countryside to the big city back then."
+      },
+      "bracket_parts": [
+        "zog",
+        "vor"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Chef hat die Besprechung auf den Vormittag vorgezogen.",
+      "translation": {
+        "ru": "Начальник перенес совещание на первую половину дня.",
+        "en": "The boss brought the meeting forward to the morning."
+      },
+      "bracket_parts": [
+        "hat",
+        "vorgezogen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Zieh bitte die Vorhänge vor, wenn die Sonne zu stark scheint!",
+      "translation": {
+        "ru": "Задерни, пожалуйста, шторы, если солнце светит слишком ярко!",
+        "en": "Please draw the curtains if the sun shines too strongly!"
+      },
+      "bracket_parts": [
+        "Zieh",
+        "vor"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

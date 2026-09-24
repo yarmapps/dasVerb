@@ -1,0 +1,171 @@
+{
+  "id": "befragen",
+  "infinitive": "befragen",
+  "translation": {
+    "ru": "опрашивать, допрашивать, консультироваться",
+    "en": "to interview, question, survey"
+  },
+  "level": "B1",
+  "frequency_rank": 532,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "befragen",
+    "present_3sg": "befragt",
+    "praeteritum_3sg": "befragte",
+    "partizip_2": "befragt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "befrage",
+      "du": "befragst",
+      "er_sie_es": "befragt",
+      "wir": "befragen",
+      "ihr": "befragt",
+      "sie_Sie": "befragen"
+    },
+    "praeteritum": {
+      "ich": "befragte",
+      "du": "befragtest",
+      "er_sie_es": "befragte",
+      "wir": "befragten",
+      "ihr": "befragtet",
+      "sie_Sie": "befragten"
+    },
+    "perfekt": {
+      "ich": "habe befragt",
+      "du": "hast befragt",
+      "er_sie_es": "hat befragt",
+      "wir": "haben befragt",
+      "ihr": "habt befragt",
+      "sie_Sie": "haben befragt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich befrage die Passanten in der Fußgängerzone zu ihrer Meinung.",
+      "translation": {
+        "ru": "Я опрашиваю прохожих в пешеходной зоне об их мнении.",
+        "en": "I question the pedestrians in the pedestrian area about their opinion."
+      },
+      "bracket_parts": [
+        "befrage"
+      ],
+      "akkusativ_parts": [
+        "die Passanten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du befragst deinen Arzt vor der Einnahme des Medikaments.",
+      "translation": {
+        "ru": "Ты консультируешься с врачом перед приемом лекарства.",
+        "en": "You consult your doctor before taking the medication."
+      },
+      "bracket_parts": [
+        "befragst"
+      ],
+      "akkusativ_parts": [
+        "deinen Arzt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei befragt den wichtigen Zeugen zum Unfall.",
+      "translation": {
+        "ru": "Полиция опрашивает важного свидетеля о происшествии.",
+        "en": "The police questions the important witness about the accident."
+      },
+      "bracket_parts": [
+        "befragt"
+      ],
+      "akkusativ_parts": [
+        "den wichtigen Zeugen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir befragen die Kunden regelmäßig nach ihrer Zufriedenheit.",
+      "translation": {
+        "ru": "Мы регулярно опрашиваем клиентов об их удовлетворенности.",
+        "en": "We regularly survey customers about their satisfaction."
+      },
+      "bracket_parts": [
+        "befragen"
+      ],
+      "akkusativ_parts": [
+        "die Kunden"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr befragt Experten aus verschiedenen Fachbereichen.",
+      "translation": {
+        "ru": "Вы опрашиваете экспертов из различных отраслей.",
+        "en": "You interview experts from different fields."
+      },
+      "bracket_parts": [
+        "befragt"
+      ],
+      "akkusativ_parts": [
+        "Experten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie befragten damals Hunderte von Bürgern in einer Umfrage.",
+      "translation": {
+        "ru": "Они тогда опросили сотни граждан в рамках опроса.",
+        "en": "They interviewed hundreds of citizens in a survey back then."
+      },
+      "bracket_parts": [
+        "befragten"
+      ],
+      "akkusativ_parts": [
+        "Hunderte von Bürgern"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Journalist hat mehrere Politiker zu dem Skandal befragt.",
+      "translation": {
+        "ru": "Журналист опросил нескольких политиков по поводу скандала.",
+        "en": "The journalist interviewed several politicians about the scandal."
+      },
+      "bracket_parts": [
+        "hat",
+        "befragt"
+      ],
+      "akkusativ_parts": [
+        "mehrere Politiker"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Befrage einen Fachmann, bevor du eine teure Entscheidung triffst!",
+      "translation": {
+        "ru": "Проконсультируйся со специалистом, прежде чем принимать дорогое решение!",
+        "en": "Consult a specialist before making an expensive decision!"
+      },
+      "bracket_parts": [
+        "Befrage"
+      ],
+      "akkusativ_parts": [
+        "einen Fachmann"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

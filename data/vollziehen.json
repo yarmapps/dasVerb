@@ -1,0 +1,147 @@
+{
+  "id": "vollziehen",
+  "infinitive": "vollziehen",
+  "translation": {
+    "ru": "совершать, исполнять, происходить (sich vollziehen)",
+    "en": "to execute, to carry out, to take place"
+  },
+  "level": "B2",
+  "frequency_rank": 674,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "voll",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vollziehen",
+    "present_3sg": "vollzieht",
+    "praeteritum_3sg": "vollzog",
+    "partizip_2": "vollzogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vollziehe",
+      "du": "vollziehst",
+      "er_sie_es": "vollzieht",
+      "wir": "vollziehen",
+      "ihr": "vollzieht",
+      "sie_Sie": "vollziehen"
+    },
+    "praeteritum": {
+      "ich": "vollzog",
+      "du": "vollzogst",
+      "er_sie_es": "vollzog",
+      "wir": "vollzogen",
+      "ihr": "vollzogt",
+      "sie_Sie": "vollzogen"
+    },
+    "perfekt": {
+      "ich": "habe vollzogen",
+      "du": "hast vollzogen",
+      "er_sie_es": "hat vollzogen",
+      "wir": "haben vollzogen",
+      "ihr": "habt vollzogen",
+      "sie_Sie": "haben vollzogen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich vollziehe den Wechsel in eine andere Abteilung problemlos.",
+      "translation": {
+        "ru": "Я без проблем совершаю переход в другой отдел.",
+        "en": "I make the transition to another department without problems."
+      },
+      "bracket_parts": [
+        "vollziehe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vollziehst du den Vertragsschluss noch heute?",
+      "translation": {
+        "ru": "Ты оформишь заключение договора еще сегодня?",
+        "en": "Will you execute the conclusion of the contract today?"
+      },
+      "bracket_parts": [
+        "Vollziehst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Standesbeamte vollzieht die festliche Trauung.",
+      "translation": {
+        "ru": "Сотрудник загса совершает праздничное бракосочетание.",
+        "en": "The registrar conducts the solemn wedding ceremony."
+      },
+      "bracket_parts": [
+        "vollzieht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir vollziehen die notwendigen Änderungen Schritt für Schritt.",
+      "translation": {
+        "ru": "Мы производим необходимые изменения шаг за шагом.",
+        "en": "We carry out the necessary changes step by step."
+      },
+      "bracket_parts": [
+        "vollziehen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr vollzieht den Umbau nach dem neuen Plan.",
+      "translation": {
+        "ru": "Вы проводите перестройку по новому плану.",
+        "en": "You execute the remodeling according to the new plan."
+      },
+      "bracket_parts": [
+        "vollzieht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein tiefgreifender Wandel vollzog sich damals in der Gesellschaft.",
+      "translation": {
+        "ru": "Глубокие перемены произошли тогда в обществе.",
+        "en": "A profound change took place in society back then."
+      },
+      "bracket_parts": [
+        "vollzog"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Behörden haben den Beschluss vollständig vollzogen.",
+      "translation": {
+        "ru": "Власти полностью исполнили решение.",
+        "en": "The authorities have fully executed the resolution."
+      },
+      "bracket_parts": [
+        "haben",
+        "vollzogen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Vollziehe deine Pflichten stets mit großer Sorgfalt!",
+      "translation": {
+        "ru": "Исполняй свои обязанности всегда с величайшей тщательностью!",
+        "en": "Carry out your duties always with great care!"
+      },
+      "bracket_parts": [
+        "Vollziehe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

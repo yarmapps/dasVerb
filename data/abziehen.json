@@ -1,0 +1,150 @@
+{
+  "id": "abziehen",
+  "infinitive": "abziehen",
+  "translation": {
+    "ru": "вычитать, снимать (чехол), отводить (войска)",
+    "en": "to deduct, to subtract, to pull off, to withdraw"
+  },
+  "level": "B2",
+  "frequency_rank": 853,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "zieht ab",
+    "preterite_third_singular": "zog ab",
+    "past_participle": "abgezogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ziehe ab",
+      "du": "ziehst ab",
+      "er_sie_es": "zieht ab",
+      "wir": "ziehen ab",
+      "ihr": "zieht ab",
+      "sie_Sie": "ziehen ab"
+    },
+    "preterite": {
+      "ich": "zog ab",
+      "du": "zogst ab",
+      "er_sie_es": "zog ab",
+      "wir": "zogen ab",
+      "ihr": "zogt ab",
+      "sie_Sie": "zogen ab"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "abgezogen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "von",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich ziehe die Steuern vom Bruttogehalt ab.",
+      "translation": {
+        "ru": "Я вычитаю налоги из зарплаты до вычетов.",
+        "en": "I deduct taxes from gross salary."
+      },
+      "bracket_parts": [
+        "ziehe",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ziehst du den schmutzigen Bettbezug heute ab?",
+      "translation": {
+        "ru": "Ты снимаешь сегодня грязное постельное белье?",
+        "en": "Are you stripping off the dirty bed linen today?"
+      },
+      "bracket_parts": [
+        "Ziehst",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Regierung zieht die Truppen aus dem Krisengebiet ab.",
+      "translation": {
+        "ru": "Правительство выводит войска из зоны кризиса.",
+        "en": "The government withdraws troops from the crisis area."
+      },
+      "bracket_parts": [
+        "zieht",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir ziehen den Rabatt direkt an der Kasse ab.",
+      "translation": {
+        "ru": "Мы вычитаем скидку прямо на кассе.",
+        "en": "We deduct the discount directly at the register."
+      },
+      "bracket_parts": [
+        "ziehen",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Zieht ihr die Folie vorsichtig vom neuen Display ab?",
+      "translation": {
+        "ru": "Вы осторожно снимаете пленку с нового дисплея?",
+        "en": "Are you peeling the film carefully off the new display?"
+      },
+      "bracket_parts": [
+        "Zieht",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Koch zog die Haut von den gebratenen Tomaten ab.",
+      "translation": {
+        "ru": "Повар снял кожицу с обжаренных томатов.",
+        "en": "The cook peeled the skin off the fried tomatoes."
+      },
+      "bracket_parts": [
+        "zog",
+        "ab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Geschäft hat den Gutschein vom Gesamtpreis abgezogen.",
+      "translation": {
+        "ru": "Магазин вычел купон из общей стоимости.",
+        "en": "The shop deducted the coupon from the total price."
+      },
+      "bracket_parts": [
+        "hat",
+        "abgezogen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Zieh die Schutzfolie vor der Benutzung vollständig ab!",
+      "translation": {
+        "ru": "Полностью сними защитную пленку перед использованием!",
+        "en": "Peel off the protective film completely before use!"
+      },
+      "bracket_parts": [
+        "Zieh",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

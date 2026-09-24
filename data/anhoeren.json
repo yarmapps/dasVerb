@@ -1,0 +1,178 @@
+{
+  "id": "anhoeren",
+  "infinitive": "anhören",
+  "translation": {
+    "ru": "слушать, выслушивать",
+    "en": "to listen to, hear"
+  },
+  "level": "A2",
+  "frequency_rank": 545,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "anhören",
+    "present_3sg": "hört an",
+    "praeteritum_3sg": "hörte an",
+    "partizip_2": "angehört"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "höre an",
+      "du": "hörst an",
+      "er_sie_es": "hört an",
+      "wir": "hören an",
+      "ihr": "hört an",
+      "sie_Sie": "hören an"
+    },
+    "praeteritum": {
+      "ich": "hörte an",
+      "du": "hörtest an",
+      "er_sie_es": "hörte an",
+      "wir": "hörten an",
+      "ihr": "hörtet an",
+      "sie_Sie": "hörten an"
+    },
+    "perfekt": {
+      "ich": "habe angehört",
+      "du": "hast angehört",
+      "er_sie_es": "hat angehört",
+      "wir": "haben angehört",
+      "ihr": "habt angehört",
+      "sie_Sie": "haben angehört"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich höre mir jeden Morgen einen interessanten Podcast an.",
+      "translation": {
+        "ru": "Каждое утро я слушаю интересный подкаст.",
+        "en": "I listen to an interesting podcast every morning."
+      },
+      "bracket_parts": [
+        "höre",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "einen interessanten Podcast"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du hörst dir die Sorgen deiner besten Freundin geduldig an.",
+      "translation": {
+        "ru": "Ты терпеливо выслушиваешь переживания лучшей подруги.",
+        "en": "You listen patiently to the worries of your best friend."
+      },
+      "bracket_parts": [
+        "hörst",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Sorgen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Richter hört die Aussagen beider Zeugen an.",
+      "translation": {
+        "ru": "Судья выслушивает показания обоих свидетелей.",
+        "en": "The judge listens to the statements of both witnesses."
+      },
+      "bracket_parts": [
+        "hört",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Aussagen beider Zeugen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir hören uns das neue Musikalbum gemeinsam an.",
+      "translation": {
+        "ru": "Мы вместе слушаем новый музыкальный альбом.",
+        "en": "We listen to the new music album together."
+      },
+      "bracket_parts": [
+        "hören",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das neue Musikalbum"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr hört die Argumente der Gegenseite aufmerksam an.",
+      "translation": {
+        "ru": "Вы внимательно выслушиваете аргументы противоположной стороны.",
+        "en": "You listen attentively to the arguments of the other side."
+      },
+      "bracket_parts": [
+        "hört",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Argumente der Gegenseite"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie hörten damals die Ratschläge der erfahrenen Eltern an.",
+      "translation": {
+        "ru": "Они тогда прислушивались к советам опытных родителей.",
+        "en": "They listened to the advice of experienced parents back then."
+      },
+      "bracket_parts": [
+        "hörten",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Ratschläge"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Chef hat meine neuen Vorschläge wohlwollend angehört.",
+      "translation": {
+        "ru": "Шеф благосклонно выслушал мои новые предложения.",
+        "en": "The boss listened favorably to my new proposals."
+      },
+      "bracket_parts": [
+        "hat",
+        "angehört"
+      ],
+      "akkusativ_parts": [
+        "meine neuen Vorschläge"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Hör dir diesen fantastischen Song unbedingt an!",
+      "translation": {
+        "ru": "Обязательно послушай эту фантастическую песню!",
+        "en": "Definitely listen to this fantastic song!"
+      },
+      "bracket_parts": [
+        "Hör",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "diesen fantastischen Song"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

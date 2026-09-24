@@ -1,0 +1,154 @@
+{
+  "id": "zusammensetzen",
+  "infinitive": "zusammensetzen",
+  "translation": {
+    "ru": "собирать (детали), составлять, садиться вместе",
+    "en": "to assemble, to put together, to sit together"
+  },
+  "level": "B1",
+  "frequency_rank": 610,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "zusammen",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zusammensetzen",
+    "present_3sg": "setzt zusammen",
+    "praeteritum_3sg": "setzte zusammen",
+    "partizip_2": "zusammengesetzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "setze zusammen",
+      "du": "setzt zusammen",
+      "er_sie_es": "setzt zusammen",
+      "wir": "setzen zusammen",
+      "ihr": "setzt zusammen",
+      "sie_Sie": "setzen zusammen"
+    },
+    "praeteritum": {
+      "ich": "setzte zusammen",
+      "du": "setztest zusammen",
+      "er_sie_es": "setzte zusammen",
+      "wir": "setzten zusammen",
+      "ihr": "setztet zusammen",
+      "sie_Sie": "setzten zusammen"
+    },
+    "perfekt": {
+      "ich": "habe zusammengesetzt",
+      "du": "hast zusammengesetzt",
+      "er_sie_es": "hat zusammengesetzt",
+      "wir": "haben zusammengesetzt",
+      "ihr": "habt zusammengesetzt",
+      "sie_Sie": "haben zusammengesetzt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "aus",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich setze das schwierige Puzzle mit Geduld zusammen.",
+      "translation": {
+        "ru": "Я терпеливо собираю сложный пазл.",
+        "en": "I assemble the difficult puzzle with patience."
+      },
+      "bracket_parts": [
+        "setze",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Setzt du den neuen Tisch nach der Anleitung zusammen?",
+      "translation": {
+        "ru": "Ты собираешь новый стол по инструкции?",
+        "en": "Are you putting the new table together according to the instructions?"
+      },
+      "bracket_parts": [
+        "Setzt",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Team setzt sich aus erfahrenen Spezialisten zusammen.",
+      "translation": {
+        "ru": "Команда состоит из опытных специалистов.",
+        "en": "The team is composed of experienced specialists."
+      },
+      "bracket_parts": [
+        "setzt",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir setzen uns morgen für ein kurzes Gespräch zusammen.",
+      "translation": {
+        "ru": "Мы завтра соберемся вместе для короткой беседы.",
+        "en": "We will sit down together tomorrow for a short talk."
+      },
+      "bracket_parts": [
+        "setzen",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr setzt die Teile des Modells vorsichtig zusammen.",
+      "translation": {
+        "ru": "Вы осторожно соединяете детали модели.",
+        "en": "You carefully assemble the parts of the model."
+      },
+      "bracket_parts": [
+        "setzt",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Mechaniker setzte die Maschine damals wieder zusammen.",
+      "translation": {
+        "ru": "Механик тогда заново собрал станок.",
+        "en": "The mechanic reassembled the machine back then."
+      },
+      "bracket_parts": [
+        "setzte",
+        "zusammen"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben die einzelnen Bauteile fehlerfrei zusammengesetzt.",
+      "translation": {
+        "ru": "Они безошибочно соединили отдельные детали.",
+        "en": "They put the individual components together flawlessly."
+      },
+      "bracket_parts": [
+        "haben",
+        "zusammengesetzt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Setz das Regal genau nach der Anleitung zusammen!",
+      "translation": {
+        "ru": "Собери стеллаж строго по инструкции!",
+        "en": "Assemble the shelf exactly according to the instructions!"
+      },
+      "bracket_parts": [
+        "Setz",
+        "zusammen"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

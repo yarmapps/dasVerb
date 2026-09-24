@@ -1,0 +1,171 @@
+{
+  "id": "kennzeichnen",
+  "infinitive": "kennzeichnen",
+  "translation": {
+    "ru": "характеризовать, обозначать, маркировать",
+    "en": "to characterize, mark"
+  },
+  "level": "B2",
+  "frequency_rank": 513,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "kennzeichnen",
+    "present_3sg": "kennzeichnet",
+    "praeteritum_3sg": "kennzeichnete",
+    "partizip_2": "gekennzeichnet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "kennzeichne",
+      "du": "kennzeichnest",
+      "er_sie_es": "kennzeichnet",
+      "wir": "kennzeichnen",
+      "ihr": "kennzeichnet",
+      "sie_Sie": "kennzeichnen"
+    },
+    "praeteritum": {
+      "ich": "kennzeichnete",
+      "du": "kennzeichnetest",
+      "er_sie_es": "kennzeichnete",
+      "wir": "kennzeichneten",
+      "ihr": "kennzeichnetet",
+      "sie_Sie": "kennzeichneten"
+    },
+    "perfekt": {
+      "ich": "habe gekennzeichnet",
+      "du": "hast gekennzeichnet",
+      "er_sie_es": "hat gekennzeichnet",
+      "wir": "haben gekennzeichnet",
+      "ihr": "habt gekennzeichnet",
+      "sie_Sie": "haben gekennzeichnet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich kennzeichne die wichtigen Textstellen mit einem gelben Marker.",
+      "translation": {
+        "ru": "Я выделяю важные места текста желтым маркером.",
+        "en": "I mark the important text passages with a yellow highlighter."
+      },
+      "bracket_parts": [
+        "kennzeichne"
+      ],
+      "akkusativ_parts": [
+        "die wichtigen Textstellen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du kennzeichnest die verpackten Umzugskartons sehr sorgfältig.",
+      "translation": {
+        "ru": "Ты очень аккуратно маркируешь упакованные коробки для переезда.",
+        "en": "You mark the packed moving boxes very carefully."
+      },
+      "bracket_parts": [
+        "kennzeichnest"
+      ],
+      "akkusativ_parts": [
+        "die verpackten Umzugskartons"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Große Hilfsbereitschaft kennzeichnet seinen Charakter.",
+      "translation": {
+        "ru": "Большая готовность помочь характеризует его характер.",
+        "en": "Great willingness to help characterizes his personality."
+      },
+      "bracket_parts": [
+        "kennzeichnet"
+      ],
+      "akkusativ_parts": [
+        "seinen Charakter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir kennzeichnen alle Wanderwege mit bunten Schildern.",
+      "translation": {
+        "ru": "Мы маркируем все туристические тропы цветными указателями.",
+        "en": "We mark all hiking trails with colorful signs."
+      },
+      "bracket_parts": [
+        "kennzeichnen"
+      ],
+      "akkusativ_parts": [
+        "alle Wanderwege"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr kennzeichnet fehlerhafte Produkte sofort im Lager.",
+      "translation": {
+        "ru": "Вы сразу маркируете бракованные товары на складе.",
+        "en": "You mark defective products immediately in the warehouse."
+      },
+      "bracket_parts": [
+        "kennzeichnet"
+      ],
+      "akkusativ_parts": [
+        "fehlerhafte Produkte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie kennzeichneten damals die Grenze mit schweren Steinen.",
+      "translation": {
+        "ru": "Они тогда обозначили границу тяжелыми камнями.",
+        "en": "They marked the border with heavy stones back then."
+      },
+      "bracket_parts": [
+        "kennzeichneten"
+      ],
+      "akkusativ_parts": [
+        "die Grenze"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Hersteller hat gefährliche Inhaltsstoffe deutlich gekennzeichnet.",
+      "translation": {
+        "ru": "Производитель четко обозначил опасные ингредиенты.",
+        "en": "The manufacturer clearly marked dangerous ingredients."
+      },
+      "bracket_parts": [
+        "hat",
+        "gekennzeichnet"
+      ],
+      "akkusativ_parts": [
+        "gefährliche Inhaltsstoffe"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Kennzeichne die fehlerhaften Aufgaben in der Übung!",
+      "translation": {
+        "ru": "Отметь задания с ошибками в упражнении!",
+        "en": "Mark the incorrect tasks in the exercise!"
+      },
+      "bracket_parts": [
+        "Kennzeichne"
+      ],
+      "akkusativ_parts": [
+        "die fehlerhaften Aufgaben"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "herkommen",
+  "infinitive": "herkommen",
+  "translation": {
+    "ru": "подходить сюда, происходить (родом)",
+    "en": "to come here, to originate from"
+  },
+  "level": "A1",
+  "frequency_rank": 627,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "her",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "herkommen",
+    "present_3sg": "kommt her",
+    "praeteritum_3sg": "kam her",
+    "partizip_2": "hergekommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "komme her",
+      "du": "kommst her",
+      "er_sie_es": "kommt her",
+      "wir": "kommen her",
+      "ihr": "kommt her",
+      "sie_Sie": "kommen her"
+    },
+    "praeteritum": {
+      "ich": "kam her",
+      "du": "kamst her",
+      "er_sie_es": "kam her",
+      "wir": "kamen her",
+      "ihr": "kamt her",
+      "sie_Sie": "kamen her"
+    },
+    "perfekt": {
+      "ich": "bin hergekommen",
+      "du": "bist hergekommen",
+      "er_sie_es": "ist hergekommen",
+      "wir": "sind hergekommen",
+      "ihr": "seid hergekommen",
+      "sie_Sie": "sind hergekommen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "von",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich komme sofort zu dir her.",
+      "translation": {
+        "ru": "Я немедленно подхожу сюда к тебе.",
+        "en": "I come right over to you."
+      },
+      "bracket_parts": [
+        "komme",
+        "her"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Woher kommst du ursprünglich her?",
+      "translation": {
+        "ru": "Откуда ты родом изначально?",
+        "en": "Where do you come from originally?"
+      },
+      "bracket_parts": [
+        "kommst",
+        "her"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der kleine Hund kommt freudig zu mir her.",
+      "translation": {
+        "ru": "Маленькая собачка радостно подходит сюда ко мне.",
+        "en": "The little dog comes over to me happily."
+      },
+      "bracket_parts": [
+        "kommt",
+        "her"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir kommen jedes Jahr gerne hierher.",
+      "translation": {
+        "ru": "Мы каждый год с удовольствием приезжаем сюда.",
+        "en": "We gladly come here every year."
+      },
+      "bracket_parts": [
+        "kommen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Kommt ihr bitte kurz zu mir her?",
+      "translation": {
+        "ru": "Подойдите, пожалуйста, ненадолго ко мне сюда!",
+        "en": "Could you please come over to me briefly?"
+      },
+      "bracket_parts": [
+        "Kommt",
+        "her"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie kam damals aus einer kleinen Stadt im Süden her.",
+      "translation": {
+        "ru": "Она тогда приехала сюда из маленького городка на юге.",
+        "en": "She came from a small town in the south back then."
+      },
+      "bracket_parts": [
+        "kam",
+        "her"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Viele Gäste sind von weit hergekommen.",
+      "translation": {
+        "ru": "Многие гости приехали сюда издалека.",
+        "en": "Many guests have come from far away."
+      },
+      "bracket_parts": [
+        "sind",
+        "hergekommen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Komm bitte mal kurz zu mir her!",
+      "translation": {
+        "ru": "Подойди-ка, пожалуйста, ненадолго ко мне сюда!",
+        "en": "Please come over to me for a moment!"
+      },
+      "bracket_parts": [
+        "Komm",
+        "her"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

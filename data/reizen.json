@@ -1,0 +1,143 @@
+{
+  "id": "reizen",
+  "infinitive": "reizen",
+  "translation": {
+    "ru": "привлекать, раздражать, провоцировать",
+    "en": "to tempt, to attract, to irritate"
+  },
+  "level": "B2",
+  "frequency_rank": 766,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "reizt",
+    "preterite_third_singular": "reizte",
+    "past_participle": "gereizt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "reize",
+      "du": "reizt",
+      "er_sie_es": "reizt",
+      "wir": "reizen",
+      "ihr": "reizt",
+      "sie_Sie": "reizen"
+    },
+    "preterite": {
+      "ich": "reizte",
+      "du": "reiztest",
+      "er_sie_es": "reizte",
+      "wir": "reizten",
+      "ihr": "reiztet",
+      "sie_Sie": "reizten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gereizt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "an",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Das neue Stellenangebot reizt mich sehr.",
+      "translation": {
+        "ru": "Новое предложение о работе меня очень привлекает.",
+        "en": "The new job offer tempts me very much."
+      },
+      "bracket_parts": [
+        "reizt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Reizt dich eine lange Reise durch Asien?",
+      "translation": {
+        "ru": "Тебя привлекает долгое путешествие по Азии?",
+        "en": "Does a long journey through Asia appeal to you?"
+      },
+      "bracket_parts": [
+        "Reizt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der beißende Rauch reizt die empfindlichen Augen.",
+      "translation": {
+        "ru": "Едкий дым раздражает чувствительные глаза.",
+        "en": "The stinging smoke irritates sensitive eyes."
+      },
+      "bracket_parts": [
+        "reizt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir reizen den schlafenden Hund niemals.",
+      "translation": {
+        "ru": "Мы никогда не дразним спящую собаку.",
+        "en": "We never tease the sleeping dog."
+      },
+      "bracket_parts": [
+        "reizen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr reizt eure Gegner mit provokanten Worten.",
+      "translation": {
+        "ru": "Вы провоцируете соперников провокационными словами.",
+        "en": "You provoke your opponents with provocative words."
+      },
+      "bracket_parts": [
+        "reizt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die unbekannte Stadt reizte die jungen Entdecker.",
+      "translation": {
+        "ru": "Незнакомый город манил юных первооткрывателей.",
+        "en": "The unknown city appealed to the young explorers."
+      },
+      "bracket_parts": [
+        "reizte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Staub hat meine Atemwege stark gereizt.",
+      "translation": {
+        "ru": "Пыль сильно раздражила мои дыхательные пути.",
+        "en": "Dust has severely irritated my respiratory tract."
+      },
+      "bracket_parts": [
+        "hat",
+        "gereizt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Reize das wilde Tier bitte nicht!",
+      "translation": {
+        "ru": "Пожалуйста, не дразни дикого зверя!",
+        "en": "Please do not provoke the wild animal!"
+      },
+      "bracket_parts": [
+        "Reize"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

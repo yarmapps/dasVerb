@@ -11,6 +11,8 @@ export interface FeaturesConfig {
   disable_first_open_paywall?: boolean;
   free_daily_quizzes?: number;
   max_ad_grants_per_day?: number;
+  enable_practice_native_ad?: boolean;
+  enable_dictionary_native_ad?: boolean;
   [key: string]: unknown;
 }
 
@@ -163,6 +165,22 @@ class AppConfigService {
       : defaultConfig.features.max_ad_grants_per_day;
   }
 
+  isPracticeNativeAdEnabled(): boolean {
+    const features = this.getFeaturesConfig();
+    if (features.enable_practice_native_ad !== undefined) {
+      return Boolean(features.enable_practice_native_ad);
+    }
+    return true;
+  }
+
+  isDictionaryNativeAdEnabled(): boolean {
+    const features = this.getFeaturesConfig();
+    if (features.enable_dictionary_native_ad !== undefined) {
+      return Boolean(features.enable_dictionary_native_ad);
+    }
+    return true;
+  }
+
   resetAppConfigForTesting(): void {
     this.currentConfig = defaultConfig;
     this.isInitialized = false;
@@ -195,6 +213,14 @@ export function getFeaturesConfig(): FeaturesConfig {
 
 export function isFirstOpenPaywallDisabled(): boolean {
   return appConfigService.isFirstOpenPaywallDisabled();
+}
+
+export function isPracticeNativeAdEnabled(): boolean {
+  return appConfigService.isPracticeNativeAdEnabled();
+}
+
+export function isDictionaryNativeAdEnabled(): boolean {
+  return appConfigService.isDictionaryNativeAdEnabled();
 }
 
 export function getFreeDailyQuizzesLimit(): number {

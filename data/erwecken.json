@@ -1,0 +1,138 @@
+{
+  "id": "erwecken",
+  "infinitive": "erwecken",
+  "translation": {
+    "ru": "будить, пробуждать (интерес, доверие), вызывать",
+    "en": "to awaken, to arouse (interest), to evoke"
+  },
+  "level": "B2",
+  "frequency_rank": 917,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "erweckt",
+    "preterite_third_singular": "erweckte",
+    "past_participle": "erweckt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erwecke",
+      "du": "erweckst",
+      "er_sie_es": "erweckt",
+      "wir": "erwecken",
+      "ihr": "erweckt",
+      "sie_Sie": "erwecken"
+    },
+    "preterite": {
+      "ich": "erweckte",
+      "du": "erwecktest",
+      "er_sie_es": "erweckte",
+      "wir": "erweckten",
+      "ihr": "erwecktet",
+      "sie_Sie": "erweckten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "erweckt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich erwecke das Interesse der Schüler durch spannende Geschichten.",
+      "translation": {
+        "ru": "Я пробуждаю интерес учеников увлекательными историями.",
+        "en": "I arouse the students' interest with exciting stories."
+      },
+      "bracket_parts": [
+        "erwecke"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erweckst du mit deinem Verhalten unnötiges Misstrauen?",
+      "translation": {
+        "ru": "Ты вызываешь своим поведением ненужное недоверие?",
+        "en": "Are you arousing unnecessary distrust with your behavior?"
+      },
+      "bracket_parts": [
+        "Erweckst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der neue Werbespot erweckt positive Emotionen beim Zuschauer.",
+      "translation": {
+        "ru": "Новый рекламный ролик вызывает позитивные эмоции у зрителя.",
+        "en": "The new commercial evokes positive emotions in the viewer."
+      },
+      "bracket_parts": [
+        "erweckt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erwecken alte Traditionen zu neuem Leben.",
+      "translation": {
+        "ru": "Мы возрождаем старые традиции к новой жизни.",
+        "en": "We revive old traditions to new life."
+      },
+      "bracket_parts": [
+        "erwecken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erweckt ihr die Neugier der Leser mit reißerischen Überschriften?",
+      "translation": {
+        "ru": "Вы пробуждаете любопытство читателей кричащими заголовками?",
+        "en": "Are you arousing readers' curiosity with sensational headlines?"
+      },
+      "bracket_parts": [
+        "Erweckt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Seine Rede erweckte neue Hoffnung bei den verzweifelten Bürgern.",
+      "translation": {
+        "ru": "Его речь пробудила новую надежду у отчаявшихся граждан.",
+        "en": "His speech aroused new hope among desperate citizens."
+      },
+      "bracket_parts": [
+        "erweckte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Roman hat mein großes Interesse an Geschichte erweckt.",
+      "translation": {
+        "ru": "Роман пробудил мой большой интерес к истории.",
+        "en": "The novel aroused my great interest in history."
+      },
+      "bracket_parts": [
+        "hat",
+        "erweckt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erwecke die Begeisterung in deinem Team durch deine Leidenschaft!",
+      "translation": {
+        "ru": "Пробуждай воодушевление в своей команде своей страстью!",
+        "en": "Awaken enthusiasm in your team through your passion!"
+      },
+      "bracket_parts": [
+        "Erwecke"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

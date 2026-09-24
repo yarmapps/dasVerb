@@ -1,0 +1,150 @@
+{
+  "id": "weitermachen",
+  "infinitive": "weitermachen",
+  "translation": {
+    "ru": "продолжать (делать что-л.)",
+    "en": "to carry on, to continue, to keep going"
+  },
+  "level": "A2",
+  "frequency_rank": 887,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "macht weiter",
+    "preterite_third_singular": "machte weiter",
+    "past_participle": "weitergemacht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "mache weiter",
+      "du": "machst weiter",
+      "er_sie_es": "macht weiter",
+      "wir": "machen weiter",
+      "ihr": "macht weiter",
+      "sie_Sie": "machen weiter"
+    },
+    "preterite": {
+      "ich": "machte weiter",
+      "du": "machtest weiter",
+      "er_sie_es": "machte weiter",
+      "wir": "machten weiter",
+      "ihr": "machtet weiter",
+      "sie_Sie": "machten weiter"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "weitergemacht"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich mache nach einer kurzen Kaffeepause sofort weiter.",
+      "translation": {
+        "ru": "Я сразу продолжаю после короткого перерыва на кофе.",
+        "en": "I carry on immediately after a short coffee break."
+      },
+      "bracket_parts": [
+        "mache",
+        "weiter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Machst du trotz der großen Müdigkeit immer noch weiter?",
+      "translation": {
+        "ru": "Ты все еще продолжаешь, несмотря на сильную усталость?",
+        "en": "Are you still carrying on despite being very tired?"
+      },
+      "bracket_parts": [
+        "Machst",
+        "weiter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Sportler macht trotz der Verletzung tapfer weiter.",
+      "translation": {
+        "ru": "Спортсмен мужественно продолжает, несмотря на травму.",
+        "en": "The athlete bravely carries on despite the injury."
+      },
+      "bracket_parts": [
+        "macht",
+        "weiter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir machen morgen früh mit dem nächsten Kapitel weiter.",
+      "translation": {
+        "ru": "Мы продолжим завтра утром со следующей главы.",
+        "en": "We will carry on with the next chapter tomorrow morning."
+      },
+      "bracket_parts": [
+        "machen",
+        "weiter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Macht ihr nach dem Mittagessen mit der Gartenarbeit weiter?",
+      "translation": {
+        "ru": "Вы продолжаете работу в саду после обеда?",
+        "en": "Are you continuing with gardening after lunch?"
+      },
+      "bracket_parts": [
+        "Macht",
+        "weiter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er machte ohne zu zögern mit seiner Rede weiter.",
+      "translation": {
+        "ru": "Он без колебаний продолжил свою речь.",
+        "en": "He carried on with his speech without hesitating."
+      },
+      "bracket_parts": [
+        "machte",
+        "weiter"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben trotz aller Rückschläge unermüdlich weitergemacht.",
+      "translation": {
+        "ru": "Они неутомимо продолжали, несмотря на все неудачи.",
+        "en": "They carried on tirelessly despite all setbacks."
+      },
+      "bracket_parts": [
+        "haben",
+        "weitergemacht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gib niemals auf und mach einfach immer weiter!",
+      "translation": {
+        "ru": "Никогда не сдавайся и просто продолжай идти дальше!",
+        "en": "Never give up and just keep going!"
+      },
+      "bracket_parts": [
+        "mach",
+        "weiter"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

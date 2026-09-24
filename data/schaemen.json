@@ -1,0 +1,147 @@
+{
+  "id": "schaemen",
+  "infinitive": "schämen",
+  "translation": {
+    "ru": "стыдиться, стесняться",
+    "en": "to be ashamed, to feel embarrassed"
+  },
+  "level": "B1",
+  "frequency_rank": 986,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": true
+  },
+  "principal_parts": {
+    "present_third_singular": "schämt sich",
+    "preterite_third_singular": "schämte sich",
+    "past_participle": "geschämt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schäme mich",
+      "du": "schämst dich",
+      "er_sie_es": "schämt sich",
+      "wir": "schämen uns",
+      "ihr": "schämt euch",
+      "sie_Sie": "schämen sich"
+    },
+    "preterite": {
+      "ich": "schämte mich",
+      "du": "schämtest dich",
+      "er_sie_es": "schämte sich",
+      "wir": "schämten uns",
+      "ihr": "schämtet euch",
+      "sie_Sie": "schämten sich"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geschämt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "für",
+        "case": "Akkusativ"
+      },
+      {
+        "preposition": "wegen",
+        "case": "Genitiv"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich schäme mich für mein unüberlegtes Verhalten auf der Feier.",
+      "translation": {
+        "ru": "Я стыжусь своего необдуманного поведения на празднике.",
+        "en": "I feel ashamed of my thoughtless behavior at the party."
+      },
+      "bracket_parts": [
+        "schäme"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schämst du dich nicht für deine unverschämten Worte?",
+      "translation": {
+        "ru": "Разве тебе не стыдно за твои наглые слова?",
+        "en": "Aren't you ashamed of your cheeky words?"
+      },
+      "bracket_parts": [
+        "Schämst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Junge schämt sich vor seinen Mitschülern wegen der schlechten Note.",
+      "translation": {
+        "ru": "Мальчик стыдится перед одноклассниками из-за плохой оценки.",
+        "en": "The boy feels embarrassed in front of his classmates because of the bad grade."
+      },
+      "bracket_parts": [
+        "schämt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schämen uns für die Fehler unserer Vergangenheit.",
+      "translation": {
+        "ru": "Мы стыдимся ошибок нашего прошлого.",
+        "en": "We are ashamed of the mistakes of our past."
+      },
+      "bracket_parts": [
+        "schämen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schämt ihr euch wegen eures unfairen Verhaltens im Wettkampf?",
+      "translation": {
+        "ru": "Стыдитесь ли вы своего нечестного поведения на соревнованиях?",
+        "en": "Do you guys feel ashamed of your unfair behavior in the competition?"
+      },
+      "bracket_parts": [
+        "Schämt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie schämte sich damals zutiefst für ihre eigene Schwäche.",
+      "translation": {
+        "ru": "Она тогда глубоко стыдилась собственной слабости.",
+        "en": "She felt deeply ashamed of her own weakness at the time."
+      },
+      "bracket_parts": [
+        "schämte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat sich nach dem peinlichen Vorfall sehr geschämt.",
+      "translation": {
+        "ru": "Он очень стыдился после неловкого инцидента.",
+        "en": "He felt very ashamed after the embarrassing incident."
+      },
+      "bracket_parts": [
+        "hat",
+        "geschämt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schäme dich nicht für deine ehrlichen Tränen!",
+      "translation": {
+        "ru": "Не стыдись своих искренних слез!",
+        "en": "Do not be ashamed of your honest tears!"
+      },
+      "bracket_parts": [
+        "Schäme"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

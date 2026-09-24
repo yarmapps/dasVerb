@@ -1,0 +1,178 @@
+{
+  "id": "zugeben",
+  "infinitive": "zugeben",
+  "translation": {
+    "ru": "признавать, соглашаться, добавлять",
+    "en": "to admit, confess, add"
+  },
+  "level": "B1",
+  "frequency_rank": 505,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "zu",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zugeben",
+    "present_3sg": "gibt zu",
+    "praeteritum_3sg": "gab zu",
+    "partizip_2": "zugegeben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gebe zu",
+      "du": "gibst zu",
+      "er_sie_es": "gibt zu",
+      "wir": "geben zu",
+      "ihr": "gebt zu",
+      "sie_Sie": "geben zu"
+    },
+    "praeteritum": {
+      "ich": "gab zu",
+      "du": "gabst zu",
+      "er_sie_es": "gab zu",
+      "wir": "gaben zu",
+      "ihr": "gabt zu",
+      "sie_Sie": "gaben zu"
+    },
+    "perfekt": {
+      "ich": "habe zugegeben",
+      "du": "hast zugegeben",
+      "er_sie_es": "hat zugegeben",
+      "wir": "haben zugegeben",
+      "ihr": "habt zugegeben",
+      "sie_Sie": "haben zugegeben"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich gebe meinen großen Fehler offen und ehrlich zu.",
+      "translation": {
+        "ru": "Я открыто и честно признаю свою большую ошибку.",
+        "en": "I admit my big mistake openly and honestly."
+      },
+      "bracket_parts": [
+        "gebe",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "meinen großen Fehler"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du gibst dem Teig noch etwas frische Milch zu.",
+      "translation": {
+        "ru": "Ты добавляешь в тесто еще немного свежего молока.",
+        "en": "You add a little more fresh milk to the dough."
+      },
+      "bracket_parts": [
+        "gibst",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "etwas frische Milch"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Angeklagte gibt die Tat vor Gericht vollständig zu.",
+      "translation": {
+        "ru": "Обвиняемый полностью признает содеянное в суде.",
+        "en": "The defendant fully admits the act in court."
+      },
+      "bracket_parts": [
+        "gibt",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "die Tat"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir geben unsere anfänglichen Zweifel an dem Plan zu.",
+      "translation": {
+        "ru": "Мы признаем свои первоначальные сомнения по поводу плана.",
+        "en": "We admit our initial doubts about the plan."
+      },
+      "bracket_parts": [
+        "geben",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "unsere anfänglichen Zweifel"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr gebt euren Irrtum in der Diskussion endlich zu.",
+      "translation": {
+        "ru": "Вы наконец признаете свое заблуждение в дискуссии.",
+        "en": "You finally admit your error in the discussion."
+      },
+      "bracket_parts": [
+        "gebt",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "euren Irrtum"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie gaben damals ihre Niederlage im Wahlkampf zu.",
+      "translation": {
+        "ru": "Они тогда признали свое поражение в предвыборной гонке.",
+        "en": "They admitted their defeat in the election campaign back then."
+      },
+      "bracket_parts": [
+        "gaben",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "ihre Niederlage"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Minister hat die Versäumnisse im Ministerium zugegeben.",
+      "translation": {
+        "ru": "Министр признал упущения в министерстве.",
+        "en": "The minister admitted the shortcomings in the ministry."
+      },
+      "bracket_parts": [
+        "hat",
+        "zugegeben"
+      ],
+      "akkusativ_parts": [
+        "die Versäumnisse"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gib deinen Fehler einfach mutig zu!",
+      "translation": {
+        "ru": "Просто смело признай свою ошибку!",
+        "en": "Just bravely admit your mistake!"
+      },
+      "bracket_parts": [
+        "Gib",
+        "zu"
+      ],
+      "akkusativ_parts": [
+        "deinen Fehler"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

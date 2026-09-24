@@ -1,0 +1,147 @@
+{
+  "id": "entziehen",
+  "infinitive": "entziehen",
+  "translation": {
+    "ru": "лишать, отбирать, уклоняться (sich entziehen)",
+    "en": "to withdraw, to deprive of, to evade"
+  },
+  "level": "B2",
+  "frequency_rank": 621,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ent",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "entziehen",
+    "present_3sg": "entzieht",
+    "praeteritum_3sg": "entzog",
+    "partizip_2": "entzogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entziehe",
+      "du": "entziehst",
+      "er_sie_es": "entzieht",
+      "wir": "entziehen",
+      "ihr": "entzieht",
+      "sie_Sie": "entziehen"
+    },
+    "praeteritum": {
+      "ich": "entzog",
+      "du": "entzogst",
+      "er_sie_es": "entzog",
+      "wir": "entzogen",
+      "ihr": "entzogt",
+      "sie_Sie": "entzogen"
+    },
+    "perfekt": {
+      "ich": "habe entzogen",
+      "du": "hast entzogen",
+      "er_sie_es": "hat entzogen",
+      "wir": "haben entzogen",
+      "ihr": "habt entzogen",
+      "sie_Sie": "haben entzogen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "Dativ",
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich entziehe ihm mein volles Vertrauen.",
+      "translation": {
+        "ru": "Я лишаю его своего полного доверия.",
+        "en": "I withdraw my full trust from him."
+      },
+      "bracket_parts": [
+        "entziehe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Entziehst du dich etwa deinen Pflichten?",
+      "translation": {
+        "ru": "Ты уклоняешься от своих обязанностей?",
+        "en": "Are you evading your duties?"
+      },
+      "bracket_parts": [
+        "Entziehst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei entzieht dem Raser sofort den Führerschein.",
+      "translation": {
+        "ru": "Полиция немедленно лишает лихача водительских прав.",
+        "en": "The police immediately revoke the speeder's driving license."
+      },
+      "bracket_parts": [
+        "entzieht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir entziehen der Pflanze nicht das nötige Sonnenlicht.",
+      "translation": {
+        "ru": "Мы не лишаем растение необходимого солнечного света.",
+        "en": "We do not deprive the plant of needed sunlight."
+      },
+      "bracket_parts": [
+        "entziehen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr entzieht euch der gemeinsamen Verantwortung.",
+      "translation": {
+        "ru": "Вы уклоняетесь от общей ответственности.",
+        "en": "You evade the shared responsibility."
+      },
+      "bracket_parts": [
+        "entzieht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Gericht entzog dem Angeklagten damals die Fahrerlaubnis.",
+      "translation": {
+        "ru": "Суд тогда лишил обвиняемого водительских прав.",
+        "en": "The court revoked the defendant's driving license back then."
+      },
+      "bracket_parts": [
+        "entzog"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Behörde hat der Firma die Lizenz entzogen.",
+      "translation": {
+        "ru": "Ведомство отозвало лицензию у компании.",
+        "en": "The authority has revoked the company's license."
+      },
+      "bracket_parts": [
+        "hat",
+        "entzogen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Entziehe dich nicht der fairen Diskussion!",
+      "translation": {
+        "ru": "Не уклоняйся от честной дискуссии!",
+        "en": "Do not evade the fair discussion!"
+      },
+      "bracket_parts": [
+        "Entziehe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

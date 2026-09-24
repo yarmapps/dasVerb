@@ -1,0 +1,147 @@
+{
+  "id": "lohnen_sich",
+  "infinitive": "lohnen",
+  "translation": {
+    "ru": "стоить, окупаться, иметь смысл",
+    "en": "to be worth it, to pay off"
+  },
+  "level": "A2",
+  "frequency_rank": 594,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "lohnen",
+    "present_3sg": "lohnt sich",
+    "praeteritum_3sg": "lohnte sich",
+    "partizip_2": "gelohnt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lohne mich",
+      "du": "lohnst dich",
+      "er_sie_es": "lohnt sich",
+      "wir": "lohnen uns",
+      "ihr": "lohnt euch",
+      "sie_Sie": "lohnen sich"
+    },
+    "praeteritum": {
+      "ich": "lohnte mich",
+      "du": "lohntest dich",
+      "er_sie_es": "lohnte sich",
+      "wir": "lohnten uns",
+      "ihr": "lohntet euch",
+      "sie_Sie": "lohnten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich gelohnt",
+      "du": "hast dich gelohnt",
+      "er_sie_es": "hat sich gelohnt",
+      "wir": "haben uns gelohnt",
+      "ihr": "habt euch gelohnt",
+      "sie_Sie": "haben sich gelohnt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich frage mich, ob die Reise sich für mich lohnt.",
+      "translation": {
+        "ru": "Я спрашиваю себя, стоит ли мне ехать в поездку.",
+        "en": "I ask myself whether the trip is worth it for me."
+      },
+      "bracket_parts": [
+        "lohnt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lohnt sich die Anschaffung eines neuen Computers?",
+      "translation": {
+        "ru": "Стоит ли покупка нового компьютера того?",
+        "en": "Is the purchase of a new computer worth it?"
+      },
+      "bracket_parts": [
+        "Lohnt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein Besuch in diesem Museum lohnt sich wirklich immer.",
+      "translation": {
+        "ru": "Визит в этот музей действительно всегда стоит того.",
+        "en": "A visit to this museum is really always worth it."
+      },
+      "bracket_parts": [
+        "lohnt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir wissen genau, dass harte Arbeit sich lohnt.",
+      "translation": {
+        "ru": "Мы точно знаем, что упорный труд окупается.",
+        "en": "We know for sure that hard work pays off."
+      },
+      "bracket_parts": [
+        "lohnt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr seht selbst, wie die Mühe sich lohnt.",
+      "translation": {
+        "ru": "Вы сами видите, как усилия окупаются.",
+        "en": "You see for yourselves how the effort pays off."
+      },
+      "bracket_parts": [
+        "lohnt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die lange Anfahrt lohnte sich wegen der Aussicht.",
+      "translation": {
+        "ru": "Долгая дорога стоила того из-за прекрасного вида.",
+        "en": "The long drive was worth it because of the view."
+      },
+      "bracket_parts": [
+        "lohnte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der ganze Aufwand hat sich am Ende gelohnt.",
+      "translation": {
+        "ru": "Все усилия в итоге окупились.",
+        "en": "All the effort was worth it in the end."
+      },
+      "bracket_parts": [
+        "hat",
+        "gelohnt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lerne fleißig, denn Wissen lohnt sich immer!",
+      "translation": {
+        "ru": "Учись прилежно, ведь знания всегда окупаются!",
+        "en": "Study diligently, because knowledge is always worth it!"
+      },
+      "bracket_parts": [
+        "lohnt"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "zittern",
+  "infinitive": "zittern",
+  "translation": {
+    "ru": "дрожать, трепетать",
+    "en": "to tremble, to shiver, to shake"
+  },
+  "level": "A2",
+  "frequency_rank": 698,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zittern",
+    "present_3sg": "zittert",
+    "praeteritum_3sg": "zitterte",
+    "partizip_2": "gezittert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "zittere",
+      "du": "zitterst",
+      "er_sie_es": "zittert",
+      "wir": "zittern",
+      "ihr": "zittert",
+      "sie_Sie": "zittern"
+    },
+    "praeteritum": {
+      "ich": "zitterte",
+      "du": "zittertest",
+      "er_sie_es": "zitterte",
+      "wir": "zitterten",
+      "ihr": "zittertet",
+      "sie_Sie": "zitterten"
+    },
+    "perfekt": {
+      "ich": "habe gezittert",
+      "du": "hast gezittert",
+      "er_sie_es": "hat gezittert",
+      "wir": "haben gezittert",
+      "ihr": "habt gezittert",
+      "sie_Sie": "haben gezittert"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "vor",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich zittere am ganzen Körper vor eisiger Kälte.",
+      "translation": {
+        "ru": "Я дрожу всем телом от ледяного холода.",
+        "en": "I tremble all over from the freezing cold."
+      },
+      "bracket_parts": [
+        "zittere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Zitterst du vor Aufregung vor deinem großen Auftritt?",
+      "translation": {
+        "ru": "Ты дрожишь от волнения перед своим большим выступлением?",
+        "en": "Are you trembling with excitement before your big performance?"
+      },
+      "bracket_parts": [
+        "Zitterst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Stimme der Rednerin zittert leicht vor Rührung.",
+      "translation": {
+        "ru": "Голос выступающей слегка дрожит от волнения.",
+        "en": "The speaker's voice trembles slightly with emotion."
+      },
+      "bracket_parts": [
+        "zittert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir zittern gemeinsam um den knappen Sieg unserer Mannschaft.",
+      "translation": {
+        "ru": "Мы вместе переживаем и трепещем за победу нашей команды.",
+        "en": "We tremble together for our team's narrow victory."
+      },
+      "bracket_parts": [
+        "zittern"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr zittert vor Angst im dunklen Keller.",
+      "translation": {
+        "ru": "Вы дрожите от страха в темном подвале.",
+        "en": "You are trembling with fear in the dark cellar."
+      },
+      "bracket_parts": [
+        "zittert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Blätter an den Bäumen zitterten damals im kalten Herbstwind.",
+      "translation": {
+        "ru": "Листья на деревьях тогда дрожали на холодном осеннем ветру.",
+        "en": "The leaves on the trees trembled in the cold autumn wind back then."
+      },
+      "bracket_parts": [
+        "zitterten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Seine Hände haben bei der Unterschrift nervös gezittert.",
+      "translation": {
+        "ru": "Его руки нервно дрожали при подписи.",
+        "en": "His hands trembled nervously during the signature."
+      },
+      "bracket_parts": [
+        "haben",
+        "gezittert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Zittere nicht und zieh dir eine warme Jacke an!",
+      "translation": {
+        "ru": "Не дрожи и надень теплую куртку!",
+        "en": "Do not shiver and put on a warm jacket!"
+      },
+      "bracket_parts": [
+        "Zittere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

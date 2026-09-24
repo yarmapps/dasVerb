@@ -1,0 +1,145 @@
+{
+  "id": "anordnen",
+  "infinitive": "anordnen",
+  "translation": {
+    "ru": "приказывать, распоряжаться, расставлять по порядку",
+    "en": "to order, to decree, to arrange"
+  },
+  "level": "B2",
+  "frequency_rank": 893,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "ordnet an",
+    "preterite_third_singular": "ordnete an",
+    "past_participle": "angeordnet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ordne an",
+      "du": "ordnest an",
+      "er_sie_es": "ordnet an",
+      "wir": "ordnen an",
+      "ihr": "ordnet an",
+      "sie_Sie": "ordnen an"
+    },
+    "preterite": {
+      "ich": "ordnete an",
+      "du": "ordnetest an",
+      "er_sie_es": "ordnete an",
+      "wir": "ordneten an",
+      "ihr": "ordnetet an",
+      "sie_Sie": "ordneten an"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "angeordnet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich ordne die Bücher alphabetisch im Regal an.",
+      "translation": {
+        "ru": "Я расставляю книги в алфавитном порядке на полке.",
+        "en": "I arrange the books alphabetically on the shelf."
+      },
+      "bracket_parts": [
+        "ordne",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ordnest du die Dokumente nach Datum an?",
+      "translation": {
+        "ru": "Ты раскладываешь документы по дате?",
+        "en": "Are you arranging the documents by date?"
+      },
+      "bracket_parts": [
+        "Ordnest",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Richter ordnet eine sofortige Durchsuchung der Wohnung an.",
+      "translation": {
+        "ru": "Судья постановляет провести немедленный обыск квартиры.",
+        "en": "The judge orders an immediate search of the apartment."
+      },
+      "bracket_parts": [
+        "ordnet",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir ordnen die Stühle im Kreis für die Diskussion an.",
+      "translation": {
+        "ru": "Мы расставляем стулья по кругу для дискуссии.",
+        "en": "We arrange the chairs in a circle for the discussion."
+      },
+      "bracket_parts": [
+        "ordnen",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ordnet ihr zusätzliche Sicherheitskontrollen am Eingang an?",
+      "translation": {
+        "ru": "Вы распоряжаетесь о дополнительных проверках безопасности на входе?",
+        "en": "Are you ordering additional security checks at the entrance?"
+      },
+      "bracket_parts": [
+        "Ordnet",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Ministerium ordnete strengere Umweltauflagen für Fabriken an.",
+      "translation": {
+        "ru": "Министерство предписало более строгие экологические требования для фабрик.",
+        "en": "The ministry ordered stricter environmental requirements for factories."
+      },
+      "bracket_parts": [
+        "ordnete",
+        "an"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Arzt hat strenge Bettruhe für den Patienten angeordnet.",
+      "translation": {
+        "ru": "Врач предписал пациенту строгий постельный режим.",
+        "en": "The doctor has ordered strict bed rest for the patient."
+      },
+      "bracket_parts": [
+        "hat",
+        "angeordnet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Ordne die Bausteine ordentlich der Größe nach an!",
+      "translation": {
+        "ru": "Расставь кубики аккуратно по размеру!",
+        "en": "Arrange the blocks neatly by size!"
+      },
+      "bracket_parts": [
+        "Ordne",
+        "an"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

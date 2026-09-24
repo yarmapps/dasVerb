@@ -1,0 +1,150 @@
+{
+  "id": "abheben",
+  "infinitive": "abheben",
+  "translation": {
+    "ru": "снимать (деньги), взлетать (о самолете), поднимать трубку",
+    "en": "to withdraw (money), to take off (plane), to pick up (phone)"
+  },
+  "level": "B1",
+  "frequency_rank": 890,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "hebt ab",
+    "preterite_third_singular": "hob ab",
+    "past_participle": "abgehoben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "hebe ab",
+      "du": "hebst ab",
+      "er_sie_es": "hebt ab",
+      "wir": "heben ab",
+      "ihr": "hebt ab",
+      "sie_Sie": "heben ab"
+    },
+    "preterite": {
+      "ich": "hob ab",
+      "du": "hobst ab",
+      "er_sie_es": "hob ab",
+      "wir": "hoben ab",
+      "ihr": "hobt ab",
+      "sie_Sie": "hoben ab"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "abgehoben"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "von",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich hebe hundert Euro am Geldautomaten ab.",
+      "translation": {
+        "ru": "Я снимаю сто евро в банкомате.",
+        "en": "I withdraw one hundred euros at the ATM."
+      },
+      "bracket_parts": [
+        "hebe",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Hebst du bitte das klingelnde Telefon ab?",
+      "translation": {
+        "ru": "Снимешь трубку звонящего телефона, пожалуйста?",
+        "en": "Will you please answer the ringing telephone?"
+      },
+      "bracket_parts": [
+        "Hebst",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Flugzeug hebt pünktlich von der Startbahn ab.",
+      "translation": {
+        "ru": "Самолет взлетает вовремя со взлетной полосы.",
+        "en": "The plane takes off punctually from the runway."
+      },
+      "bracket_parts": [
+        "hebt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir heben Bargeld für die Reise ab.",
+      "translation": {
+        "ru": "Мы снимаем наличные деньги для поездки.",
+        "en": "We withdraw cash for the trip."
+      },
+      "bracket_parts": [
+        "heben",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Hebt ihr euch durch kreative Ideen von der Konkurrenz ab?",
+      "translation": {
+        "ru": "Вы выделяетесь на фоне конкурентов творческими идеями?",
+        "en": "Do you guys stand out from the competition through creative ideas?"
+      },
+      "bracket_parts": [
+        "Hebt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Maschine hob bei starkem Gegenwind sicher ab.",
+      "translation": {
+        "ru": "Самолет благополучно взлетел при сильном встречном ветре.",
+        "en": "The plane took off safely in a strong headwind."
+      },
+      "bracket_parts": [
+        "hob",
+        "ab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie hat gestern fünfzig Euro vom Sparkonto abgehoben.",
+      "translation": {
+        "ru": "Она сняла вчера пятьдесят евро со сберегательного счета.",
+        "en": "She withdrew fifty euros from her savings account yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "abgehoben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Heb das Geld vor der Reise rechtzeitig ab!",
+      "translation": {
+        "ru": "Сними деньги вовремя перед поездкой!",
+        "en": "Withdraw the money in good time before the trip!"
+      },
+      "bracket_parts": [
+        "Heb",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

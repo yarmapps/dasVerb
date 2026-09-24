@@ -1,0 +1,154 @@
+{
+  "id": "vorbeigehen",
+  "infinitive": "vorbeigehen",
+  "translation": {
+    "ru": "проходить мимо, заглядывать в гости, проходить/заканчиваться (о боли)",
+    "en": "to go past, to pass by, to drop by, to subside"
+  },
+  "level": "A2",
+  "frequency_rank": 1053,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "geht vorbei",
+    "preterite_third_singular": "ging vorbei",
+    "past_participle": "vorbeigegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe vorbei",
+      "du": "gehst vorbei",
+      "er_sie_es": "geht vorbei",
+      "wir": "gehen vorbei",
+      "ihr": "geht vorbei",
+      "sie_Sie": "gehen vorbei"
+    },
+    "preterite": {
+      "ich": "ging vorbei",
+      "du": "gingst vorbei",
+      "er_sie_es": "ging vorbei",
+      "wir": "gingen vorbei",
+      "ihr": "gingt vorbei",
+      "sie_Sie": "gingen vorbei"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "vorbeigegangen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "an",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "bei",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich gehe auf dem Heimweg schnell noch bei meiner Oma vorbei.",
+      "translation": {
+        "ru": "По пути домой я быстро заглядываю к бабушке.",
+        "en": "On the way home, I quickly drop by my grandmother's."
+      },
+      "bracket_parts": [
+        "gehe",
+        "vorbei"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gehst du heute Nachmittag an der Post vorbei und gibst den Brief auf?",
+      "translation": {
+        "ru": "Ты пройдешь сегодня днем мимо почты и отправишь письмо?",
+        "en": "Are you passing by the post office this afternoon and sending the letter?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "vorbei"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Auch diese schwere Zeit geht irgendwann wieder vorbei.",
+      "translation": {
+        "ru": "И это трудное время когда-нибудь снова пройдет.",
+        "en": "This difficult time too will pass again eventually."
+      },
+      "bracket_parts": [
+        "geht",
+        "vorbei"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gehen jeden Morgen an dem schönen Park vorbei zur Arbeit.",
+      "translation": {
+        "ru": "Каждое утро мы идем на работу мимо красивого парка.",
+        "en": "We walk past the beautiful park on our way to work every morning."
+      },
+      "bracket_parts": [
+        "gehen",
+        "vorbei"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Geht ihr nach dem Unterricht noch kurz im Supermarkt vorbei?",
+      "translation": {
+        "ru": "Заглянете ли вы после занятий ненадолго в супермаркет?",
+        "en": "Are you guys dropping by the supermarket briefly after class?"
+      },
+      "bracket_parts": [
+        "Geht",
+        "vorbei"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Kopfschmerz ging nach der Einnahme der Tablette rasch vorbei.",
+      "translation": {
+        "ru": "Головная боль быстро прошла после приема таблетки.",
+        "en": "The headache passed quickly after taking the pill."
+      },
+      "bracket_parts": [
+        "ging",
+        "vorbei"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Sommer ist in diesem Jahr wie im Flug vorbeigegangen.",
+      "translation": {
+        "ru": "Лето в этом году пролетело как один миг.",
+        "en": "Summer passed in a flash this year."
+      },
+      "bracket_parts": [
+        "ist",
+        "vorbeigegangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Geh heute Abend unbedingt noch bei mir vorbei!",
+      "translation": {
+        "ru": "Обязательно загляни ко мне сегодня вечером!",
+        "en": "Be sure to drop by my place tonight!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "vorbei"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

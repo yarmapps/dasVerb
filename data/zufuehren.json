@@ -1,0 +1,150 @@
+{
+  "id": "zufuehren",
+  "infinitive": "zuführen",
+  "translation": {
+    "ru": "подводить, подавать (энергию/воду), направлять (в суд/клинику)",
+    "en": "to supply, to feed (power/water), to bring before (authority)"
+  },
+  "level": "B2",
+  "frequency_rank": 1000,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "führt zu",
+    "preterite_third_singular": "führte zu",
+    "past_participle": "zugeführt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "führe zu",
+      "du": "führst zu",
+      "er_sie_es": "führt zu",
+      "wir": "führen zu",
+      "ihr": "führt zu",
+      "sie_Sie": "führen zu"
+    },
+    "preterite": {
+      "ich": "führte zu",
+      "du": "führtest zu",
+      "er_sie_es": "führte zu",
+      "wir": "führten zu",
+      "ihr": "führtet zu",
+      "sie_Sie": "führten zu"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "zugeführt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "zu",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich führe dem Motor regelmäßig frisches Schmieröl zu.",
+      "translation": {
+        "ru": "Я регулярно подаю свежее смазочное масло в двигатель.",
+        "en": "I regularly supply fresh lubricating oil to the engine."
+      },
+      "bracket_parts": [
+        "führe",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Führst du dem Körper nach dem Sport ausreichend Flüssigkeit zu?",
+      "translation": {
+        "ru": "Снабжаешь ли ты организм достаточным количеством жидкости после спорта?",
+        "en": "Do you supply the body with sufficient fluid after exercise?"
+      },
+      "bracket_parts": [
+        "Führst",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Rohrleitung führt der Fabrik täglich tausende Liter Wasser zu.",
+      "translation": {
+        "ru": "Трубопровод ежедневно подводит к фабрике тысячи литров воды.",
+        "en": "The pipeline supplies the factory with thousands of liters of water daily."
+      },
+      "bracket_parts": [
+        "führt",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir führen recycelbare Materialien dem Wertstoffkreislauf zu.",
+      "translation": {
+        "ru": "Мы направляем перерабатываемые материалы во вторичный цикл.",
+        "en": "We feed recyclable materials into the recycling cycle."
+      },
+      "bracket_parts": [
+        "führen",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Führt ihr die Einnahmen direkt dem Hilfsfonds zu?",
+      "translation": {
+        "ru": "Направляете ли вы доходы напрямую в благотворительный фонд?",
+        "en": "Are you guys channeling the revenue directly into the relief fund?"
+      },
+      "bracket_parts": [
+        "Führt",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei führte den Festgenommenen dem Haftrichter zu.",
+      "translation": {
+        "ru": "Полиция доставила задержанного к судье по арестам.",
+        "en": "The police brought the arrested suspect before the magistrate."
+      },
+      "bracket_parts": [
+        "führte",
+        "zu"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Kraftwerk hat dem Netz zusätzliche Energie zugeführt.",
+      "translation": {
+        "ru": "Электростанция подала в сеть дополнительную энергию.",
+        "en": "The power plant has fed additional energy into the grid."
+      },
+      "bracket_parts": [
+        "hat",
+        "zugeführt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Führe dem System niemals falsche Betriebsstoffe zu!",
+      "translation": {
+        "ru": "Никогда не заливай в систему неподходящие рабочие жидкости!",
+        "en": "Never feed unsuitable operating materials into the system!"
+      },
+      "bracket_parts": [
+        "Führe",
+        "zu"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

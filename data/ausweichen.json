@@ -1,0 +1,145 @@
+{
+  "id": "ausweichen",
+  "infinitive": "ausweichen",
+  "translation": {
+    "ru": "уклоняться, избегать (столкновения, ответа)",
+    "en": "to evade, to avoid, to dodge"
+  },
+  "level": "B2",
+  "frequency_rank": 902,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "weicht aus",
+    "preterite_third_singular": "wich aus",
+    "past_participle": "ausgewichen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "weiche aus",
+      "du": "weichst aus",
+      "er_sie_es": "weicht aus",
+      "wir": "weichen aus",
+      "ihr": "weicht aus",
+      "sie_Sie": "weichen aus"
+    },
+    "preterite": {
+      "ich": "wich aus",
+      "du": "wichst aus",
+      "er_sie_es": "wich aus",
+      "wir": "wichen aus",
+      "ihr": "wicht aus",
+      "sie_Sie": "wichen aus"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "ausgewichen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich weiche dem tiefen Schlagloch auf der Straße geschickt aus.",
+      "translation": {
+        "ru": "Я ловко объезжаю глубокую яму на дороге.",
+        "en": "I skillfully avoid the deep pothole on the road."
+      },
+      "bracket_parts": [
+        "weiche",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Warum weichst du meinen direkten Fragen ständig aus?",
+      "translation": {
+        "ru": "Почему ты постоянно уклоняешься от моих прямых вопросов?",
+        "en": "Why do you constantly dodge my direct questions?"
+      },
+      "bracket_parts": [
+        "weichst",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Autofahrer weicht dem herannahenden Reh blitzschnell aus.",
+      "translation": {
+        "ru": "Водитель молниеносно уклоняется от приближающейся косули.",
+        "en": "The driver dodges the approaching deer at lightning speed."
+      },
+      "bracket_parts": [
+        "weicht",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir weichen auf einen anderen Termin für das Treffen aus.",
+      "translation": {
+        "ru": "Мы переходим на другую дату для встречи.",
+        "en": "We switch to another date for the meeting."
+      },
+      "bracket_parts": [
+        "weichen",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Weicht ihr den unangenehmen Themen in der Familie aus?",
+      "translation": {
+        "ru": "Вы избегаете неприятных тем в семье?",
+        "en": "Do you guys avoid unpleasant topics in the family?"
+      },
+      "bracket_parts": [
+        "Weicht",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Boxer wich dem harten Schlag seines Gegners gekonnt aus.",
+      "translation": {
+        "ru": "Боксер мастерски уклонился от тяжелого удара своего соперника.",
+        "en": "The boxer skillfully dodged the hard blow of his opponent."
+      },
+      "bracket_parts": [
+        "wich",
+        "aus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Schiff ist dem gefährlichen Eisberg rechtzeitig ausgewichen.",
+      "translation": {
+        "ru": "Корабль вовремя разминулся с опасным айсбергом.",
+        "en": "The ship avoided the dangerous iceberg in time."
+      },
+      "bracket_parts": [
+        "ist",
+        "ausgewichen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Weiche dem Hindernis vorsichtig nach rechts aus!",
+      "translation": {
+        "ru": "Осторожно объедь препятствие справа!",
+        "en": "Dodge the obstacle carefully to the right!"
+      },
+      "bracket_parts": [
+        "Weiche",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "veranlassen",
+  "infinitive": "veranlassen",
+  "translation": {
+    "ru": "побуждать, распоряжаться, организовывать",
+    "en": "to arrange, to cause, to prompt"
+  },
+  "level": "B2",
+  "frequency_rank": 881,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "irregular",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "veranlasst",
+    "preterite_third_singular": "veranlasste",
+    "past_participle": "veranlasst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "veranlasse",
+      "du": "veranlasst",
+      "er_sie_es": "veranlasst",
+      "wir": "veranlassen",
+      "ihr": "veranlasst",
+      "sie_Sie": "veranlassen"
+    },
+    "preterite": {
+      "ich": "veranlasste",
+      "du": "veranlasstest",
+      "er_sie_es": "veranlasste",
+      "wir": "veranlassten",
+      "ihr": "veranlasstet",
+      "sie_Sie": "veranlassten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "veranlasst"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "zu",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich veranlasse die sofortige Überweisung des Rechnungsbetrags.",
+      "translation": {
+        "ru": "Я отдаю распоряжение о немедленном переводе суммы счета.",
+        "en": "I arrange the immediate transfer of the invoice amount."
+      },
+      "bracket_parts": [
+        "veranlasse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Was veranlasst dich zu diesem überraschenden Schritt?",
+      "translation": {
+        "ru": "Что побуждает тебя к этому неожиданному шагу?",
+        "en": "What prompts you to take this surprising step?"
+      },
+      "bracket_parts": [
+        "veranlasst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Leitung veranlasst eine gründliche Überprüfung aller Sicherheitsmaßnahmen.",
+      "translation": {
+        "ru": "Руководство инициирует тщательную проверку всех мер безопасности.",
+        "en": "Management arranges a thorough review of all security measures."
+      },
+      "bracket_parts": [
+        "veranlasst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir veranlassen alle nötigen Schritte zur Problemlösung.",
+      "translation": {
+        "ru": "Мы организуем все необходимые шаги для решения проблемы.",
+        "en": "We arrange all necessary steps for problem solving."
+      },
+      "bracket_parts": [
+        "veranlassen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Veranlasst ihr die Reparatur des defekten Aufzugs?",
+      "translation": {
+        "ru": "Вы распоряжаетесь о ремонте неисправного лифта?",
+        "en": "Are you arranging the repair of the defective elevator?"
+      },
+      "bracket_parts": [
+        "Veranlasst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Arzt veranlasste sofort eine Computertomographie.",
+      "translation": {
+        "ru": "Врач немедленно назначил компьютерную томографию.",
+        "en": "The doctor immediately arranged a CT scan."
+      },
+      "bracket_parts": [
+        "veranlasste"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben die Rückzahlung des Geldes bereits veranlasst.",
+      "translation": {
+        "ru": "Они уже распорядились о возврате денег.",
+        "en": "They have already arranged the refund of the money."
+      },
+      "bracket_parts": [
+        "haben",
+        "veranlasst"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Veranlasse bitte unverzüglich die Stornierung der Buchung!",
+      "translation": {
+        "ru": "Оформи, пожалуйста, немедленную отмену бронирования!",
+        "en": "Please arrange the cancellation of the booking immediately!"
+      },
+      "bracket_parts": [
+        "Veranlasse"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

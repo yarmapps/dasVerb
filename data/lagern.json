@@ -1,0 +1,143 @@
+{
+  "id": "lagern",
+  "infinitive": "lagern",
+  "translation": {
+    "ru": "хранить, складировать, располагаться лагерем",
+    "en": "to store, to warehouse, to camp"
+  },
+  "level": "B1",
+  "frequency_rank": 957,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "lagert",
+    "preterite_third_singular": "lagerte",
+    "past_participle": "gelagert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lagere",
+      "du": "lagerst",
+      "er_sie_es": "lagert",
+      "wir": "lagern",
+      "ihr": "lagert",
+      "sie_Sie": "lagern"
+    },
+    "preterite": {
+      "ich": "lagerte",
+      "du": "lagertest",
+      "er_sie_es": "lagerte",
+      "wir": "lagerten",
+      "ihr": "lagertet",
+      "sie_Sie": "lagerten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gelagert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich lagere alte Möbel und Kisten trocken auf dem Dachboden.",
+      "translation": {
+        "ru": "Я храню старую мебель и коробки в сухом месте на чердаке.",
+        "en": "I store old furniture and boxes dry in the attic."
+      },
+      "bracket_parts": [
+        "lagere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lagerst du frische Äpfel im kühlen und dunklen Keller?",
+      "translation": {
+        "ru": "Ты хранишь свежие яблоки в прохладном и темном погребе?",
+        "en": "Do you store fresh apples in the cool and dark cellar?"
+      },
+      "bracket_parts": [
+        "Lagerst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Wein lagert mehrere Jahre in großen Eichenfässern.",
+      "translation": {
+        "ru": "Вино хранится (выдерживается) несколько лет в больших дубовых бочках.",
+        "en": "The wine is stored for several years in large oak barrels."
+      },
+      "bracket_parts": [
+        "lagert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir lagern die Rohstoffe sicher in modernen Lagerhallen.",
+      "translation": {
+        "ru": "Мы надежно складируем сырье в современных складских помещениях.",
+        "en": "We store the raw materials safely in modern warehouses."
+      },
+      "bracket_parts": [
+        "lagern"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lagert ihr eure Fahrräder im Winter in der Garage?",
+      "translation": {
+        "ru": "Храните ли вы велосипеды зимой в гараже?",
+        "en": "Do you guys store your bicycles in the garage during winter?"
+      },
+      "bracket_parts": [
+        "Lagert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Pfadfinder lagerten drei Tage lang am Ufer des Flusses.",
+      "translation": {
+        "ru": "Скауты стояли лагерем три дня на берегу реки.",
+        "en": "The scouts camped for three days on the riverbank."
+      },
+      "bracket_parts": [
+        "lagerten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Betrieb hat gefährliche Stoffe vorschriftsmäßig gelagert.",
+      "translation": {
+        "ru": "Предприятие складировало опасные вещества по всем правилам.",
+        "en": "The company has stored dangerous substances in accordance with regulations."
+      },
+      "bracket_parts": [
+        "hat",
+        "gelagert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lagere leicht verderbliche Lebensmittel immer im Kühlschrank!",
+      "translation": {
+        "ru": "Всегда храни скоропортящиеся продукты в холодильнике!",
+        "en": "Always store perishable foods in the refrigerator!"
+      },
+      "bracket_parts": [
+        "Lagere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

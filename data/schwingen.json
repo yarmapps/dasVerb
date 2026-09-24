@@ -1,0 +1,143 @@
+{
+  "id": "schwingen",
+  "infinitive": "schwingen",
+  "translation": {
+    "ru": "качаться, размахивать, вибрировать",
+    "en": "to swing, to oscillate, to wave"
+  },
+  "level": "B2",
+  "frequency_rank": 811,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "schwingt",
+    "preterite_third_singular": "schwang",
+    "past_participle": "geschwungen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schwinge",
+      "du": "schwingst",
+      "er_sie_es": "schwingt",
+      "wir": "schwingen",
+      "ihr": "schwingt",
+      "sie_Sie": "schwingen"
+    },
+    "preterite": {
+      "ich": "schwang",
+      "du": "schwangst",
+      "er_sie_es": "schwang",
+      "wir": "schwangen",
+      "ihr": "schwangt",
+      "sie_Sie": "schwangen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geschwungen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich schwinge fröhlich auf der alten Schaukel im Garten.",
+      "translation": {
+        "ru": "Я весело качаюсь на старых качелях в саду.",
+        "en": "I swing cheerfully on the old swing in the garden."
+      },
+      "bracket_parts": [
+        "schwinge"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schwingst du den Schläger mit voller Kraft beim Tennis?",
+      "translation": {
+        "ru": "Ты замахиваешься ракеткой в полную силу при игре в теннис?",
+        "en": "Do you swing the racket with full power in tennis?"
+      },
+      "bracket_parts": [
+        "Schwingst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das lange Pendel schwingt gleichmäßig hin und her.",
+      "translation": {
+        "ru": "Длинный маятник равномерно качается туда и обратно.",
+        "en": "The long pendulum swings evenly back and forth."
+      },
+      "bracket_parts": [
+        "schwingt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schwingen bunte Fahnen beim großen Festumzug.",
+      "translation": {
+        "ru": "Мы размахиваем красочными флагами на праздничном шествии.",
+        "en": "We wave colorful flags during the big festive procession."
+      },
+      "bracket_parts": [
+        "schwingen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schwingt ihr die Seile im Rhythmus der Musik?",
+      "translation": {
+        "ru": "Вы раскачиваете скакалки в ритме музыки?",
+        "en": "Are you swinging the ropes to the rhythm of the music?"
+      },
+      "bracket_parts": [
+        "Schwingt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Turner schwang sich geschickt an den Ringen hoch.",
+      "translation": {
+        "ru": "Гимнаст ловко взлетел на кольцах вверх.",
+        "en": "The gymnast swung himself up skillfully on the rings."
+      },
+      "bracket_parts": [
+        "schwang"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Glocke hat laut über das ganze Tal geschwungen.",
+      "translation": {
+        "ru": "Колокол громко раскачивался над всей долиной.",
+        "en": "The bell swung loudly over the whole valley."
+      },
+      "bracket_parts": [
+        "hat",
+        "geschwungen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schwinge die Arme locker beim Laufen mit!",
+      "translation": {
+        "ru": "Свободно покачивай руками при беге!",
+        "en": "Swing your arms loosely while running!"
+      },
+      "bracket_parts": [
+        "Schwinge"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

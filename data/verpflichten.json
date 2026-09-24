@@ -1,0 +1,147 @@
+{
+  "id": "verpflichten",
+  "infinitive": "verpflichten",
+  "translation": {
+    "ru": "обязывать, брать обязательство",
+    "en": "to oblige, to commit, to sign (a player)"
+  },
+  "level": "B2",
+  "frequency_rank": 314,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verpflichten",
+    "present_3sg": "verpflichtet",
+    "praeteritum_3sg": "verpflichtete",
+    "partizip_2": "verpflichtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verpflichte",
+      "du": "verpflichtest",
+      "er_sie_es": "verpflichtet",
+      "wir": "verpflichten",
+      "ihr": "verpflichtet",
+      "sie_Sie": "verpflichten"
+    },
+    "praeteritum": {
+      "ich": "verpflichtete",
+      "du": "verpflichtetest",
+      "er_sie_es": "verpflichtete",
+      "wir": "verpflichteten",
+      "ihr": "verpflichtetet",
+      "sie_Sie": "verpflichteten"
+    },
+    "perfekt": {
+      "ich": "habe verpflichtet",
+      "du": "hast verpflichtet",
+      "er_sie_es": "hat verpflichtet",
+      "wir": "haben verpflichtet",
+      "ihr": "habt verpflichtet",
+      "sie_Sie": "haben verpflichtet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "zu",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich verpflichte den Zeugen zur Wahrheit.",
+      "translation": {
+        "ru": "Я обязываю свидетеля говорить правду.",
+        "en": "I oblige the witness to tell the truth."
+      },
+      "bracket_parts": [
+        "verpflichte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du verpflichtest deine Mitarbeiter zur Geheimhaltung.",
+      "translation": {
+        "ru": "Ты обязываешь своих сотрудников к секретности.",
+        "en": "You oblige your employees to confidentiality."
+      },
+      "bracket_parts": [
+        "verpflichtest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Gesetz verpflichtet alle Bürger zur Mithilfe.",
+      "translation": {
+        "ru": "Закон обязывает всех граждан оказывать содействие.",
+        "en": "The law obliges all citizens to assist."
+      },
+      "bracket_parts": [
+        "verpflichtet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verpflichten den neuen Stürmer für drei Jahre.",
+      "translation": {
+        "ru": "Мы подписываем нового нападающего на три года.",
+        "en": "We sign the new striker for three years."
+      },
+      "bracket_parts": [
+        "verpflichten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr verpflichtet niemanden gegen seinen Willen.",
+      "translation": {
+        "ru": "Вы никого не обязываете против его воли.",
+        "en": "You oblige no one against their will."
+      },
+      "bracket_parts": [
+        "verpflichtet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Vertrag verpflichtete die Firma zu regelmäßigen Zahlungen.",
+      "translation": {
+        "ru": "Договор обязывал фирму к регулярным платежам.",
+        "en": "The contract obliged the company to make regular payments."
+      },
+      "bracket_parts": [
+        "verpflichtete"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Verein hat einen erfahrenen Trainer verpflichtet.",
+      "translation": {
+        "ru": "Клуб нанял опытного тренера.",
+        "en": "The club has signed an experienced coach."
+      },
+      "bracket_parts": [
+        "hat",
+        "verpflichtet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verpflichte alle Beteiligten zur Pünktlichkeit!",
+      "translation": {
+        "ru": "Обяжи всех участников соблюдать пунктуальность!",
+        "en": "Oblige all participants to be punctual!"
+      },
+      "bracket_parts": [
+        "Verpflichte"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "fangen",
+  "infinitive": "fangen",
+  "translation": {
+    "ru": "ловить, поймать",
+    "en": "to catch, to capture"
+  },
+  "level": "A2",
+  "frequency_rank": 685,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "fangen",
+    "present_3sg": "fängt",
+    "praeteritum_3sg": "fing",
+    "partizip_2": "gefangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "fange",
+      "du": "fängst",
+      "er_sie_es": "fängt",
+      "wir": "fangen",
+      "ihr": "fangt",
+      "sie_Sie": "fangen",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "fing",
+      "du": "fingst",
+      "er_sie_es": "fing",
+      "wir": "fingen",
+      "ihr": "fingt",
+      "sie_Sie": "fingen"
+    },
+    "perfekt": {
+      "ich": "habe gefangen",
+      "du": "hast gefangen",
+      "er_sie_es": "hat gefangen",
+      "wir": "haben gefangen",
+      "ihr": "habt gefangen",
+      "sie_Sie": "haben gefangen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich fange den zugeworfenen Ball sicher mit beiden Händen.",
+      "translation": {
+        "ru": "Я надежно ловлю брошенный мяч обеими руками.",
+        "en": "I catch the thrown ball securely with both hands."
+      },
+      "bracket_parts": [
+        "fange"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Fängst du gerne Fische am ruhigen See?",
+      "translation": {
+        "ru": "Ты любишь ловить рыбу на тихом озере?",
+        "en": "Do you like catching fish at the quiet lake?"
+      },
+      "bracket_parts": [
+        "Fängst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Katze fängt flinke Mäuse im Garten.",
+      "translation": {
+        "ru": "Кошка ловит шустрых мышей в саду.",
+        "en": "The cat catches nimble mice in the garden."
+      },
+      "bracket_parts": [
+        "fängt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir fangen Schmetterlinge nur, um sie kurz anzuschauen.",
+      "translation": {
+        "ru": "Мы ловим бабочек только затем, чтобы недолго на них посмотреть.",
+        "en": "We catch butterflies only to look at them briefly."
+      },
+      "bracket_parts": [
+        "fangen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr fangt den herabfallenden Apfel direkt aus der Luft.",
+      "translation": {
+        "ru": "Вы ловите падающее яблоко прямо в воздухе.",
+        "en": "You catch the falling apple right out of the air."
+      },
+      "bracket_parts": [
+        "fangt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Torwart fing damals jeden schwierigen Schuss.",
+      "translation": {
+        "ru": "Вратарь тогда ловил каждый трудный удар.",
+        "en": "The goalkeeper caught every difficult shot back then."
+      },
+      "bracket_parts": [
+        "fing"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Fischer haben heute viele große Fische gefangen.",
+      "translation": {
+        "ru": "Рыбаки сегодня поймали много крупной рыбы.",
+        "en": "The fishermen caught many big fish today."
+      },
+      "bracket_parts": [
+        "haben",
+        "gefangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Fang den Ball schnell, bevor er ins Wasser rollt!",
+      "translation": {
+        "ru": "Поймай мяч скорее, пока он не укатился в воду!",
+        "en": "Catch the ball quickly before it rolls into the water!"
+      },
+      "bracket_parts": [
+        "Fang"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "abbilden",
+  "infinitive": "abbilden",
+  "translation": {
+    "ru": "изображать, воспроизводить",
+    "en": "to depict, to portray, to illustrate"
+  },
+  "level": "B2",
+  "frequency_rank": 799,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "bildet ab",
+    "preterite_third_singular": "bildete ab",
+    "past_participle": "abgebildet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bilde ab",
+      "du": "bildest ab",
+      "er_sie_es": "bildet ab",
+      "wir": "bilden ab",
+      "ihr": "bildet ab",
+      "sie_Sie": "bilden ab"
+    },
+    "preterite": {
+      "ich": "bildete ab",
+      "du": "bildetest ab",
+      "er_sie_es": "bildete ab",
+      "wir": "bildeten ab",
+      "ihr": "bildetet ab",
+      "sie_Sie": "bildeten ab"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "abgebildet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich bilde die schöne Landschaft in einer Skizze ab.",
+      "translation": {
+        "ru": "Я воспроизвожу красивый пейзаж в наброске.",
+        "en": "I depict the beautiful landscape in a sketch."
+      },
+      "bracket_parts": [
+        "bilde",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bildest du die reale Situation im Bericht wahrheitsgetreu ab?",
+      "translation": {
+        "ru": "Ты правдиво отражаешь реальную ситуацию в отчете?",
+        "en": "Do you depict the real situation truthfully in the report?"
+      },
+      "bracket_parts": [
+        "Bildest",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Foto bildet das historische Gebäude detailgetreu ab.",
+      "translation": {
+        "ru": "Фотография детально отображает историческое здание.",
+        "en": "The photograph depicts the historic building in detail."
+      },
+      "bracket_parts": [
+        "bildet",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bilden alle Geschäftsprozesse digital im System ab.",
+      "translation": {
+        "ru": "Мы отражаем все бизнес-процессы в системе в цифровом виде.",
+        "en": "We map all business processes digitally in the system."
+      },
+      "bracket_parts": [
+        "bilden",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bildet ihr die Testergebnisse in einem Diagramm ab?",
+      "translation": {
+        "ru": "Вы отображаете результаты тестов на диаграмме?",
+        "en": "Are you depicting the test results in a chart?"
+      },
+      "bracket_parts": [
+        "Bildet",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Maler bildete die Menschen mit groben Pinselstrichen ab.",
+      "translation": {
+        "ru": "Художник изобразил людей грубыми мазками кисти.",
+        "en": "The painter depicted the people with rough brushstrokes."
+      },
+      "bracket_parts": [
+        "bildete",
+        "ab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Zeitung hat den Vorfall auf der Titelseite abgebildet.",
+      "translation": {
+        "ru": "Газета поместила изображение инцидента на первой полосе.",
+        "en": "The newspaper depicted the incident on the front page."
+      },
+      "bracket_parts": [
+        "hat",
+        "abgebildet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bilde die Wirklichkeit ohne Verzerrung ab!",
+      "translation": {
+        "ru": "Отображай реальность без искажений!",
+        "en": "Depict reality without distortion!"
+      },
+      "bracket_parts": [
+        "Bilde",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

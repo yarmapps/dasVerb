@@ -1,0 +1,150 @@
+{
+  "id": "ausnehmen",
+  "infinitive": "ausnehmen",
+  "translation": {
+    "ru": "делать исключение, потрошить (рыбу), обирать (до нитки)",
+    "en": "to exempt, to exclude, to gut (fish), to fleece"
+  },
+  "level": "B2",
+  "frequency_rank": 1009,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "nimmt aus",
+    "preterite_third_singular": "nahm aus",
+    "past_participle": "ausgenommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "nehme aus",
+      "du": "nimmst aus",
+      "er_sie_es": "nimmt aus",
+      "wir": "nehmen aus",
+      "ihr": "nehmt aus",
+      "sie_Sie": "nehmen aus"
+    },
+    "preterite": {
+      "ich": "nahm aus",
+      "du": "nahmst aus",
+      "er_sie_es": "nahm aus",
+      "wir": "nahmen aus",
+      "ihr": "nahmt aus",
+      "sie_Sie": "nahmen aus"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "ausgenommen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "von",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich nehme den frisch gefangenen Fisch vor dem Braten gründlich aus.",
+      "translation": {
+        "ru": "Перед жаркой я тщательно потрошу свежевыловленную рыбу.",
+        "en": "I gut the freshly caught fish thoroughly before frying."
+      },
+      "bracket_parts": [
+        "nehme",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Nimmst du niemanden von dieser strengen Pflicht aus?",
+      "translation": {
+        "ru": "Ты ни для кого не делаешь исключения из этой строгой обязанности?",
+        "en": "Do you exempt no one from this strict duty?"
+      },
+      "bracket_parts": [
+        "Nimmst",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Gesetz nimmt Kleinstbetriebe von der bürokratischen Nachweispflicht aus.",
+      "translation": {
+        "ru": "Закон освобождает микропредприятия от бюрократической отчетности.",
+        "en": "The law exempts micro-enterprises from bureaucratic reporting requirements."
+      },
+      "bracket_parts": [
+        "nimmt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir nehmen treue Stammkunden von den geplanten Preiserhöhungen aus.",
+      "translation": {
+        "ru": "Мы делаем исключение для постоянных клиентов по запланированному повышению цен.",
+        "en": "We exempt loyal regular customers from the planned price increases."
+      },
+      "bracket_parts": [
+        "nehmen",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Nehmt ihr die Geflügelreste vor dem Kochen aus der Pfanne aus?",
+      "translation": {
+        "ru": "Вынимаете ли вы остатки птицы перед готовкой из сковороды?",
+        "en": "Are you guys taking out the poultry remains before cooking?"
+      },
+      "bracket_parts": [
+        "Nehmt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Betrüger nahmen den gutgläubigen Touristen komplett aus.",
+      "translation": {
+        "ru": "Мошенники обобрали доверчивого туриста до нитки.",
+        "en": "The fraudsters fleeced the gullible tourist completely."
+      },
+      "bracket_parts": [
+        "nahmen",
+        "aus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Koch hat die Forelle meisterhaft ausgenommen und zubereitet.",
+      "translation": {
+        "ru": "Повар мастерски выпотрошил форель и приготовил ее.",
+        "en": "The chef masterfully gutted and prepared the trout."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgenommen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Nimm bitte die Forellen vor dem Grillen sorgfältig aus!",
+      "translation": {
+        "ru": "Выпотроши, пожалуйста, форель тщательно перед жаркой на гриле!",
+        "en": "Please gut the trout carefully before grilling!"
+      },
+      "bracket_parts": [
+        "Nimm",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

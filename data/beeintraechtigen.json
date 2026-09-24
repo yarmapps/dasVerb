@@ -1,0 +1,138 @@
+{
+  "id": "beeintraechtigen",
+  "infinitive": "beeinträchtigen",
+  "translation": {
+    "ru": "оказывать отрицательное влияние, наносить ущерб, нарушать",
+    "en": "to impair, to adversely affect, to impede"
+  },
+  "level": "B2",
+  "frequency_rank": 904,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "beeinträchtigt",
+    "preterite_third_singular": "beeinträchtigte",
+    "past_participle": "beeinträchtigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beeinträchtige",
+      "du": "beeinträchtigst",
+      "er_sie_es": "beeinträchtigt",
+      "wir": "beeinträchtigen",
+      "ihr": "beeinträchtigt",
+      "sie_Sie": "beeinträchtigen"
+    },
+    "preterite": {
+      "ich": "beeinträchtigte",
+      "du": "beeinträchtigtest",
+      "er_sie_es": "beeinträchtigte",
+      "wir": "beeinträchtigten",
+      "ihr": "beeinträchtigtet",
+      "sie_Sie": "beeinträchtigten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "beeinträchtigt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Der laute Straßenlärm beeinträchtigt meine tägliche Konzentration erheblich.",
+      "translation": {
+        "ru": "Громкий уличный шум существенно нарушает мою ежедневную концентрацию.",
+        "en": "The loud street noise significantly impairs my daily concentration."
+      },
+      "bracket_parts": [
+        "beeinträchtigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beeinträchtigst du durch dein spätes Kommen den gesamten Ablauf?",
+      "translation": {
+        "ru": "Ты нарушаешь своим опозданием весь рабочий процесс?",
+        "en": "Are you disrupting the entire process by arriving late?"
+      },
+      "bracket_parts": [
+        "Beeinträchtigst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schlechte Beleuchtung beeinträchtigt das Sehvermögen der Mitarbeiter.",
+      "translation": {
+        "ru": "Плохое освещение ухудшает зрение сотрудников.",
+        "en": "Poor lighting impairs the vision of employees."
+      },
+      "bracket_parts": [
+        "beeinträchtigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beeinträchtigen die Umwelt durch unsere Arbeit keinesfalls.",
+      "translation": {
+        "ru": "Мы ни в коем случае не наносим вред окружающей среде своей работой.",
+        "en": "We do not harm the environment in any way through our work."
+      },
+      "bracket_parts": [
+        "beeinträchtigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beeinträchtigt der dichte Nebel euren Flugverkehr am Flughafen?",
+      "translation": {
+        "ru": "Густой туман нарушает авиасообщение в вашем аэропорту?",
+        "en": "Does the dense fog impair your air traffic at the airport?"
+      },
+      "bracket_parts": [
+        "Beeinträchtigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die schwere Krankheit beeinträchtigte sein Leben über viele Jahre.",
+      "translation": {
+        "ru": "Тяжелая болезнь омрачала его жизнь на протяжении многих лет.",
+        "en": "The severe illness impaired his life for many years."
+      },
+      "bracket_parts": [
+        "beeinträchtigte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Unfall hat den gesamten Bahnverkehr für Stunden beeinträchtigt.",
+      "translation": {
+        "ru": "Авария нарушила все железнодорожное сообщение на несколько часов.",
+        "en": "The accident disrupted all rail traffic for hours."
+      },
+      "bracket_parts": [
+        "hat",
+        "beeinträchtigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Achte darauf, dass deine Handlungen niemanden beeinträchtigen!",
+      "translation": {
+        "ru": "Следи за тем, чтобы твои действия никому не мешали!",
+        "en": "Make sure that your actions do not adversely affect anyone!"
+      },
+      "bracket_parts": [
+        "beeinträchtigen"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "entwerfen",
+  "infinitive": "entwerfen",
+  "translation": {
+    "ru": "проектировать, разрабатывать, набрасывать план",
+    "en": "to design, to draft, to outline"
+  },
+  "level": "B2",
+  "frequency_rank": 807,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "entwirft",
+    "preterite_third_singular": "entwarf",
+    "past_participle": "entworfen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entwerfe",
+      "du": "entwirfst",
+      "er_sie_es": "entwirft",
+      "wir": "entwerfen",
+      "ihr": "entwerft",
+      "sie_Sie": "entwerfen"
+    },
+    "preterite": {
+      "ich": "entwarf",
+      "du": "entwarfst",
+      "er_sie_es": "entwarf",
+      "wir": "entwarfen",
+      "ihr": "entwarft",
+      "sie_Sie": "entwarfen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "entworfen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich entwerfe ein modernes Logo für mein neues Startup.",
+      "translation": {
+        "ru": "Я разрабатываю современный логотип для своего нового стартапа.",
+        "en": "I design a modern logo for my new startup."
+      },
+      "bracket_parts": [
+        "entwerfe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Entwirfst du die Pläne für das neue Haus selbst?",
+      "translation": {
+        "ru": "Ты сам разрабатываешь проекты для нового дома?",
+        "en": "Are you designing the plans for the new house yourself?"
+      },
+      "bracket_parts": [
+        "Entwirfst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Designerin entwirft eine elegante Kollektion für den Sommer.",
+      "translation": {
+        "ru": "Дизайнер создает элегантную коллекцию на лето.",
+        "en": "The designer creates an elegant collection for summer."
+      },
+      "bracket_parts": [
+        "entwirft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir entwerfen ein umfassendes Konzept für das Festival.",
+      "translation": {
+        "ru": "Мы разрабатываем масштабную концепцию фестиваля.",
+        "en": "We draft a comprehensive concept for the festival."
+      },
+      "bracket_parts": [
+        "entwerfen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Entwerft ihr das neue Werbeplakat gemeinsam im Team?",
+      "translation": {
+        "ru": "Вы разрабатываете новый рекламный плакат вместе в команде?",
+        "en": "Are you designing the new advertising poster together in a team?"
+      },
+      "bracket_parts": [
+        "Entwerft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Architekt entwarf das beeindruckende Museum vor zehn Jahren.",
+      "translation": {
+        "ru": "Архитектор спроектировал этот впечатляющий музей десять лет назад.",
+        "en": "The architect designed the impressive museum ten years ago."
+      },
+      "bracket_parts": [
+        "entwarf"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben einen detaillierten Finanzplan entworfen.",
+      "translation": {
+        "ru": "Они составили подробный финансовый план.",
+        "en": "They have drafted a detailed financial plan."
+      },
+      "bracket_parts": [
+        "haben",
+        "entworfen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Entwirf zuerst eine Skizze, bevor du mit dem Bau beginnst!",
+      "translation": {
+        "ru": "Сначала разработай эскиз, прежде чем начинать строительство!",
+        "en": "Design a sketch first before you start building!"
+      },
+      "bracket_parts": [
+        "Entwirf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

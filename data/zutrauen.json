@@ -1,0 +1,144 @@
+{
+  "id": "zutrauen",
+  "infinitive": "zutrauen",
+  "translation": {
+    "ru": "считать способным, ожидать (от кого-то), верить в чьи-то силы",
+    "en": "to believe someone capable of, to trust oneself/someone to do"
+  },
+  "level": "B2",
+  "frequency_rank": 1002,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "traut zu",
+    "preterite_third_singular": "traute zu",
+    "past_participle": "zugetraut"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "traue zu",
+      "du": "traust zu",
+      "er_sie_es": "traut zu",
+      "wir": "trauen zu",
+      "ihr": "traut zu",
+      "sie_Sie": "trauen zu"
+    },
+    "preterite": {
+      "ich": "traute zu",
+      "du": "trautest zu",
+      "er_sie_es": "traute zu",
+      "wir": "trauten zu",
+      "ihr": "trautet zu",
+      "sie_Sie": "trauten zu"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "zugetraut"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich traue mir diese anspruchsvolle Führungsaufgabe voll und ganz zu.",
+      "translation": {
+        "ru": "Я вполне считаю себя способным справиться с этой ответственной руководящей задачей.",
+        "en": "I fully trust myself capable of this demanding leadership task."
+      },
+      "bracket_parts": [
+        "traue",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Traust du deinem Bruder einen solchen groben Fehler wirklich zu?",
+      "translation": {
+        "ru": "Ты действительно считаешь своего брата способным на такую грубую ошибку?",
+        "en": "Do you really believe your brother capable of such a gross mistake?"
+      },
+      "bracket_parts": [
+        "Traust",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Chefin traut der jungen Kollegin das schwierige Projekt zu.",
+      "translation": {
+        "ru": "Начальница доверяет молодой коллеге сложный проект, веря в ее силы.",
+        "en": "The boss trusts the young colleague with the difficult project."
+      },
+      "bracket_parts": [
+        "traut",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir trauen unserer Nationalmannschaft den Titelgewinn bei der EM zu.",
+      "translation": {
+        "ru": "Мы верим, что нашей сборной по силам завоевать титул на ЧЕ.",
+        "en": "We believe our national team capable of winning the European Championship title."
+      },
+      "bracket_parts": [
+        "trauen",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Traut ihr euch die schwere Prüfung ohne fremde Hilfe zu?",
+      "translation": {
+        "ru": "Считаете ли вы, что справитесь со сложным экзаменом без посторонней помощи?",
+        "en": "Do you guys feel up to the difficult exam without outside help?"
+      },
+      "bracket_parts": [
+        "Traut",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Niemand traute dem Außenseiter damals einen Sieg im Finale zu.",
+      "translation": {
+        "ru": "Никто тогда не верил, что аутсайдер способен победить в финале.",
+        "en": "Nobody believed the outsider capable of a victory in the final back then."
+      },
+      "bracket_parts": [
+        "traute",
+        "zu"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat sich den mutigen Schritt in die Selbstständigkeit zugetraut.",
+      "translation": {
+        "ru": "Он поверил в свои силы и решился на смелый шаг в предпринимательство.",
+        "en": "He trusted himself to take the brave step into self-employment."
+      },
+      "bracket_parts": [
+        "hat",
+        "zugetraut"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Traue dir ruhig mehr zu und unterschätze dein Talent nicht!",
+      "translation": {
+        "ru": "Верь больше в свои силы и не недооценивай свой талант!",
+        "en": "Have more confidence in yourself and do not underestimate your talent!"
+      },
+      "bracket_parts": [
+        "Traue",
+        "zu"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -340,3 +340,21 @@ jest.mock('@react-native-community/netinfo', () =>
   require('@react-native-community/netinfo/jest/netinfo-mock.js'),
 );
 
+jest.mock('posthog-react-native', () => {
+  const React = require('react');
+  const mockPostHog = {
+    identify: jest.fn(),
+    capture: jest.fn(),
+    screen: jest.fn(),
+    reset: jest.fn(),
+    optIn: jest.fn(),
+    optOut: jest.fn(),
+  };
+  return {
+    PostHogProvider: ({ children }) => React.createElement(React.Fragment, null, children),
+    usePostHog: () => mockPostHog,
+    PostHog: jest.fn(() => mockPostHog),
+    default: mockPostHog,
+  };
+});
+

@@ -1,0 +1,147 @@
+{
+  "id": "bohren",
+  "infinitive": "bohren",
+  "translation": {
+    "ru": "сверлить, бурить, ковырять",
+    "en": "to drill, to bore"
+  },
+  "level": "B1",
+  "frequency_rank": 1012,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "bohrt",
+    "preterite_third_singular": "bohrte",
+    "past_participle": "gebohrt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bohre",
+      "du": "bohrst",
+      "er_sie_es": "bohrt",
+      "wir": "bohren",
+      "ihr": "bohrt",
+      "sie_Sie": "bohren"
+    },
+    "preterite": {
+      "ich": "bohrte",
+      "du": "bohrtest",
+      "er_sie_es": "bohrte",
+      "wir": "bohrten",
+      "ihr": "bohrtet",
+      "sie_Sie": "bohrten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gebohrt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Akkusativ"
+      },
+      {
+        "preposition": "nach",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich bohre mit der Bohrmaschine ein tiefes Loch in die Betonwand.",
+      "translation": {
+        "ru": "Я дрелью сверлю глубокое отверстие в бетонной стене.",
+        "en": "I drill a deep hole into the concrete wall with the drill."
+      },
+      "bracket_parts": [
+        "bohre"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bohrst du für das neue Wandregal zwei Dübellöcher in die Fliesen?",
+      "translation": {
+        "ru": "Просверлишь ли ты два отверстия под дюбели в плитке для новой полки?",
+        "en": "Are you drilling two dowel holes in the tiles for the new wall shelf?"
+      },
+      "bracket_parts": [
+        "Bohrst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Zahnarzt bohrt den kariösen Zahn sehr behutsam auf.",
+      "translation": {
+        "ru": "Стоматолог очень аккуратно высверливает кариозный зуб.",
+        "en": "The dentist drills out the decayed tooth very gently."
+      },
+      "bracket_parts": [
+        "bohrt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bohren im Garten nach Grundwasser für einen neuen Brunnen.",
+      "translation": {
+        "ru": "Мы бурим в саду в поисках грунтовых вод для нового колодца.",
+        "en": "We are drilling in the garden for groundwater for a new well."
+      },
+      "bracket_parts": [
+        "bohren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bohrt ihr die Löcher für die Schrauben vorher mit einem Holzbohrer vor?",
+      "translation": {
+        "ru": "Вы предварительно засверливаете отверстия под шурупы сверлом по дереву?",
+        "en": "Do you guys pre-drill the holes for the screws with a wood drill bit?"
+      },
+      "bracket_parts": [
+        "Bohrt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Firma bohrte monatelang erfolgreich nach Erdöl im Meer.",
+      "translation": {
+        "ru": "Компания месяцами успешно бурила в поисках нефти в море.",
+        "en": "The company drilled successfully for oil in the sea for months."
+      },
+      "bracket_parts": [
+        "bohrte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Mein Nachbar hat gestern den ganzen Nachmittag Löcher gebohrt.",
+      "translation": {
+        "ru": "Мой сосед вчера весь день сверлил дырки.",
+        "en": "My neighbor drilled holes all afternoon yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "gebohrt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bohre bitte vorsichtig und trage immer eine Schutzbrille!",
+      "translation": {
+        "ru": "Сверли, пожалуйста, осторожно и всегда носи защитные очки!",
+        "en": "Please drill carefully and always wear safety glasses!"
+      },
+      "bracket_parts": [
+        "Bohre"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "ueberfordern",
+  "infinitive": "überfordern",
+  "translation": {
+    "ru": "перегружать, предъявлять чрезмерные требования",
+    "en": "to overburden, to overtax, to be too much for"
+  },
+  "level": "B2",
+  "frequency_rank": 1028,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "überfordert",
+    "preterite_third_singular": "überforderte",
+    "past_participle": "überfordert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "überfordere",
+      "du": "überforderst",
+      "er_sie_es": "überfordert",
+      "wir": "überfordern",
+      "ihr": "überfordert",
+      "sie_Sie": "überfordern"
+    },
+    "preterite": {
+      "ich": "überforderte",
+      "du": "überfordertest",
+      "er_sie_es": "überforderte",
+      "wir": "überforderten",
+      "ihr": "überfordertet",
+      "sie_Sie": "überforderten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "überfordert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich überfordere meine Mitarbeiter niemals mit unrealistischen Fristen.",
+      "translation": {
+        "ru": "Я никогда не перегружаю своих сотрудников нереалистичными сроками.",
+        "en": "I never overtax my employees with unrealistic deadlines."
+      },
+      "bracket_parts": [
+        "überfordere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Überforderst du dich im Studium mit zu vielen Klausuren auf einmal?",
+      "translation": {
+        "ru": "Перегружаешь ли ты себя в учебе слишком большим количеством экзаменов разом?",
+        "en": "Do you overburden yourself in your studies with too many exams at once?"
+      },
+      "bracket_parts": [
+        "Überforderst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die komplizierte Matheaufgabe überfordert die jüngeren Grundschüler.",
+      "translation": {
+        "ru": "Сложная математическая задача непосильна для младших школьников.",
+        "en": "The complicated math problem overtaxes the younger elementary school students."
+      },
+      "bracket_parts": [
+        "überfordert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir überfordern unser Budget nicht durch überflüssige Luxusausgaben.",
+      "translation": {
+        "ru": "Мы не перегружаем наш бюджет лишними тратами на роскошь.",
+        "en": "We do not overstretch our budget with unnecessary luxury expenses."
+      },
+      "bracket_parts": [
+        "überfordern"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Überfordert ihr die neuen Auszubildenden mit zu viel Verantwortung?",
+      "translation": {
+        "ru": "Не перегружаете ли вы новых стажеров слишком большой ответственностью?",
+        "en": "Are you guys overtaxing the new apprentices with too much responsibility?"
+      },
+      "bracket_parts": [
+        "Überfordert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der enorme Leistungsdruck überforderte den jungen Sportler seelisch.",
+      "translation": {
+        "ru": "Огромное давление результатов морально перегружало молодого спортсмена.",
+        "en": "The enormous pressure to perform overburdened the young athlete mentally."
+      },
+      "bracket_parts": [
+        "überforderte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die schwere Arbeit hat die Kräfte der alten Maschine völlig überfordert.",
+      "translation": {
+        "ru": "Тяжелая работа полностью превысила возможности старого станка.",
+        "en": "The heavy work completely overtaxed the strength of the old machine."
+      },
+      "bracket_parts": [
+        "hat",
+        "überfordert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Überfordere dein Kind nicht mit übertriebenen Erwartungen!",
+      "translation": {
+        "ru": "Не перегружай своего ребенка завышенными ожиданиями!",
+        "en": "Do not overburden your child with exaggerated expectations!"
+      },
+      "bracket_parts": [
+        "Überfordere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

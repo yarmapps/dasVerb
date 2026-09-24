@@ -1,0 +1,147 @@
+{
+  "id": "konzentrieren_sich",
+  "infinitive": "konzentrieren",
+  "translation": {
+    "ru": "концентрироваться, сосредотачиваться",
+    "en": "to concentrate, to focus"
+  },
+  "level": "B1",
+  "frequency_rank": 309,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "konzentrieren",
+    "present_3sg": "konzentriert sich",
+    "praeteritum_3sg": "konzentrierte sich",
+    "partizip_2": "konzentriert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "konzentriere mich",
+      "du": "konzentrierst dich",
+      "er_sie_es": "konzentriert sich",
+      "wir": "konzentrieren uns",
+      "ihr": "konzentriert euch",
+      "sie_Sie": "konzentrieren sich"
+    },
+    "praeteritum": {
+      "ich": "konzentrierte mich",
+      "du": "konzentriertest dich",
+      "er_sie_es": "konzentrierte sich",
+      "wir": "konzentrierten uns",
+      "ihr": "konzentriertet euch",
+      "sie_Sie": "konzentrierten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich konzentriert",
+      "du": "hast dich konzentriert",
+      "er_sie_es": "hat sich konzentriert",
+      "wir": "haben uns konzentriert",
+      "ihr": "habt euch konzentriert",
+      "sie_Sie": "haben sich konzentriert"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich konzentriere mich ganz auf meine Arbeit.",
+      "translation": {
+        "ru": "Я полностью сосредотачиваюсь на своей работе.",
+        "en": "I am concentrating entirely on my work."
+      },
+      "bracket_parts": [
+        "konzentriere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du konzentrierst dich heute sehr gut beim Lernen.",
+      "translation": {
+        "ru": "Ты сегодня очень хорошо концентрируешься во время учебы.",
+        "en": "You are concentrating very well while studying today."
+      },
+      "bracket_parts": [
+        "konzentrierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Sportler konzentriert sich vor dem Start.",
+      "translation": {
+        "ru": "Спортсмен сосредотачивается перед стартом.",
+        "en": "The athlete concentrates before the start."
+      },
+      "bracket_parts": [
+        "konzentriert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir konzentrieren uns auf das Wesentliche.",
+      "translation": {
+        "ru": "Мы концентрируемся на самом существенном.",
+        "en": "We concentrate on what is essential."
+      },
+      "bracket_parts": [
+        "konzentrieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr konzentriert euch nicht auf die Aufgabe.",
+      "translation": {
+        "ru": "Вы не сосредотачиваетесь на задании.",
+        "en": "You are not focusing on the task."
+      },
+      "bracket_parts": [
+        "konzentriert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Schüler konzentrierten sich auf die Prüfung.",
+      "translation": {
+        "ru": "Ученики сосредоточились на экзамене.",
+        "en": "The students focused on the exam."
+      },
+      "bracket_parts": [
+        "konzentrierten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Arzt hat sich stundenlang auf die Operation konzentriert.",
+      "translation": {
+        "ru": "Врач часами концентрировался на операции.",
+        "en": "The doctor concentrated on the surgery for hours."
+      },
+      "bracket_parts": [
+        "hat",
+        "konzentriert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Konzentriere dich bitte auf den Straßenverkehr!",
+      "translation": {
+        "ru": "Сосредоточься, пожалуйста, на дорожном движении!",
+        "en": "Please concentrate on the traffic!"
+      },
+      "bracket_parts": [
+        "Konzentriere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

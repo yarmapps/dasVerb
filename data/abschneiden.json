@@ -1,0 +1,154 @@
+{
+  "id": "abschneiden",
+  "infinitive": "abschneiden",
+  "translation": {
+    "ru": "отрезать, срезать, иметь определенный результат (показать себя)",
+    "en": "to cut off, to perform, to do well/badly"
+  },
+  "level": "B1",
+  "frequency_rank": 891,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "schneidet ab",
+    "preterite_third_singular": "schnitt ab",
+    "past_participle": "abgeschnitten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schneide ab",
+      "du": "schneidest ab",
+      "er_sie_es": "schneidet ab",
+      "wir": "schneiden ab",
+      "ihr": "schneidet ab",
+      "sie_Sie": "schneiden ab"
+    },
+    "preterite": {
+      "ich": "schnitt ab",
+      "du": "schnittest ab",
+      "er_sie_es": "schnitt ab",
+      "wir": "schnitten ab",
+      "ihr": "schnittet ab",
+      "sie_Sie": "schnitten ab"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "abgeschnitten"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "bei",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "von",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich schneide ein dickes Stück frisches Brot ab.",
+      "translation": {
+        "ru": "Я отрезаю толстый кусок свежего хлеба.",
+        "en": "I cut off a thick piece of fresh bread."
+      },
+      "bracket_parts": [
+        "schneide",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schneidest du die verwelkten Blüten im Garten ab?",
+      "translation": {
+        "ru": "Ты срезаешь увядшие цветы в саду?",
+        "en": "Are you cutting off the withered flowers in the garden?"
+      },
+      "bracket_parts": [
+        "Schneidest",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schüler schneidet bei der Mathematikprüfung hervorragend ab.",
+      "translation": {
+        "ru": "Ученик превосходно справляется с экзаменом по математике.",
+        "en": "The student performs excellently in the math exam."
+      },
+      "bracket_parts": [
+        "schneidet",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schneiden das überstehende Klebeband sauber ab.",
+      "translation": {
+        "ru": "Мы аккуратно отрезаем выступающую клейкую ленту.",
+        "en": "We cut off the excess tape cleanly."
+      },
+      "bracket_parts": [
+        "schneiden",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schneidet ihr beim heutigen Sportwettkampf gut ab?",
+      "translation": {
+        "ru": "Вы хорошо покажете себя на сегодняшних спортивных соревнованиях?",
+        "en": "Are you guys performing well in today's sports competition?"
+      },
+      "bracket_parts": [
+        "Schneidet",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Gärtner schnitt die trockenen Äste der Hecke ab.",
+      "translation": {
+        "ru": "Садовник срезал сухие ветви живой изгороди.",
+        "en": "The gardener cut off the dry branches of the hedge."
+      },
+      "bracket_parts": [
+        "schnitt",
+        "ab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Team hat im internationalen Vergleich sehr gut abgeschnitten.",
+      "translation": {
+        "ru": "Команда показала очень хорошие результаты в международном сравнении.",
+        "en": "The team performed very well in international comparison."
+      },
+      "bracket_parts": [
+        "hat",
+        "abgeschnitten"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schneide die Enden der Schnur vorsichtig ab!",
+      "translation": {
+        "ru": "Отрежь концы веревки осторожно!",
+        "en": "Cut the ends of the cord off carefully!"
+      },
+      "bracket_parts": [
+        "Schneide",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

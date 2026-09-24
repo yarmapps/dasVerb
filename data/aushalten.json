@@ -1,0 +1,145 @@
+{
+  "id": "aushalten",
+  "infinitive": "aushalten",
+  "translation": {
+    "ru": "выдерживать, терпеть",
+    "en": "to endure, to withstand, to bear"
+  },
+  "level": "B1",
+  "frequency_rank": 757,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "hält aus",
+    "preterite_third_singular": "hielt aus",
+    "past_participle": "ausgehalten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "halte aus",
+      "du": "hältst aus",
+      "er_sie_es": "hält aus",
+      "wir": "halten aus",
+      "ihr": "haltet aus",
+      "sie_Sie": "halten aus"
+    },
+    "preterite": {
+      "ich": "hielt aus",
+      "du": "hieltst aus",
+      "er_sie_es": "hielt aus",
+      "wir": "hielten aus",
+      "ihr": "hieltet aus",
+      "sie_Sie": "hielten aus"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "ausgehalten"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich halte die extreme Sommerhitze kaum noch aus.",
+      "translation": {
+        "ru": "Я едва выношу экстремальную летнюю жару.",
+        "en": "I can hardly stand the extreme summer heat anymore."
+      },
+      "bracket_parts": [
+        "halte",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Hältst du den starken Druck bei der Arbeit gut aus?",
+      "translation": {
+        "ru": "Ты хорошо выдерживаешь сильное давление на работе?",
+        "en": "Do you endure the heavy pressure at work well?"
+      },
+      "bracket_parts": [
+        "Hältst",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das stabile Material hält sehr hohe Belastungen aus.",
+      "translation": {
+        "ru": "Прочный материал выдерживает очень высокие нагрузки.",
+        "en": "The sturdy material withstands very high loads."
+      },
+      "bracket_parts": [
+        "hält",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir halten die Kälte in den Bergen tapfer aus.",
+      "translation": {
+        "ru": "Мы стойко выдерживаем холод в горах.",
+        "en": "We endure the cold in the mountains bravely."
+      },
+      "bracket_parts": [
+        "halten",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Haltet ihr diese laute Musik noch lange aus?",
+      "translation": {
+        "ru": "Вы еще долго будете терпеть эту громкую музыку?",
+        "en": "Can you guys bear this loud music for much longer?"
+      },
+      "bracket_parts": [
+        "Haltet",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er hielt den quälenden Schmerz ohne Klagen aus.",
+      "translation": {
+        "ru": "Он выдержал мучительную боль без жалоб.",
+        "en": "He endured the excruciating pain without complaining."
+      },
+      "bracket_parts": [
+        "hielt",
+        "aus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben die schwere Zeit mit viel Geduld ausgehalten.",
+      "translation": {
+        "ru": "Они перенесли трудное время с большим терпением.",
+        "en": "They endured the hard time with a lot of patience."
+      },
+      "bracket_parts": [
+        "haben",
+        "ausgehalten"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Halte noch ein paar Minuten durch und halte den Schmerz aus!",
+      "translation": {
+        "ru": "Потерпи еще пару минут и выдержи боль!",
+        "en": "Hold on for a few more minutes and endure the pain!"
+      },
+      "bracket_parts": [
+        "halte",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

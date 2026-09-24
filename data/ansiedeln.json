@@ -1,0 +1,150 @@
+{
+  "id": "ansiedeln",
+  "infinitive": "ansiedeln",
+  "translation": {
+    "ru": "селить, основывать (производство), обосновываться",
+    "en": "to settle, to establish, to locate"
+  },
+  "level": "B2",
+  "frequency_rank": 938,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "siedelt an",
+    "preterite_third_singular": "siedelte an",
+    "past_participle": "angesiedelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "siedle an",
+      "du": "siedelst an",
+      "er_sie_es": "siedelt an",
+      "wir": "siedeln an",
+      "ihr": "siedelt an",
+      "sie_Sie": "siedeln an"
+    },
+    "preterite": {
+      "ich": "siedelte an",
+      "du": "siedeltest an",
+      "er_sie_es": "siedelte an",
+      "wir": "siedelten an",
+      "ihr": "siedeltet an",
+      "sie_Sie": "siedelten an"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "angesiedelt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich siedle mein Start-up im Berliner Technologiepark an.",
+      "translation": {
+        "ru": "Я размещаю свой стартап в берлинском технологическом парке.",
+        "en": "I establish my start-up in the Berlin technology park."
+      },
+      "bracket_parts": [
+        "siedle",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Siedelst du deinen Betrieb bewusst in einer ländlichen Region an?",
+      "translation": {
+        "ru": "Ты сознательно размещаешь свое предприятие в сельской местности?",
+        "en": "Do you deliberately settle your business in a rural region?"
+      },
+      "bracket_parts": [
+        "Siedelst",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Konzern siedelt eine neue Produktionsstätte in Sachsen an.",
+      "translation": {
+        "ru": "Концерн размещает новую производственную площадку в Саксонии.",
+        "en": "The group is establishing a new production site in Saxony."
+      },
+      "bracket_parts": [
+        "siedelt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir siedeln bedrohte Tierarten in geschützten Reservaten an.",
+      "translation": {
+        "ru": "Мы расселяем исчезающие виды животных в охраняемых заповедниках.",
+        "en": "We settle endangered animal species in protected reserves."
+      },
+      "bracket_parts": [
+        "siedeln",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Siedelt ihr eure Forschungsabteilung in der Nähe der Universität an?",
+      "translation": {
+        "ru": "Вы размещаете свой исследовательский отдел рядом с университетом?",
+        "en": "Are you guys locating your research department near the university?"
+      },
+      "bracket_parts": [
+        "Siedelt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Stadt siedelte viele innovative Unternehmen im Gewerbegebiet an.",
+      "translation": {
+        "ru": "Город привлек и разместил множество инновационных предприятий в промзоне.",
+        "en": "The city established many innovative companies in the industrial estate."
+      },
+      "bracket_parts": [
+        "siedelte",
+        "an"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Viele internationale Firmen haben sich in Frankfurt angesiedelt.",
+      "translation": {
+        "ru": "Многие международные фирмы обосновались во Франкфурте.",
+        "en": "Many international companies have settled in Frankfurt."
+      },
+      "bracket_parts": [
+        "haben",
+        "angesiedelt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Siedle dein Geschäft dort an, wo die meisten Kunden sind!",
+      "translation": {
+        "ru": "Размещай свой бизнес там, где больше всего клиентов!",
+        "en": "Locate your business where the most customers are!"
+      },
+      "bracket_parts": [
+        "Siedle",
+        "an"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

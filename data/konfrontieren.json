@@ -1,0 +1,143 @@
+{
+  "id": "konfrontieren",
+  "infinitive": "konfrontieren",
+  "translation": {
+    "ru": "сталкивать, очных ставках, сопоставлять",
+    "en": "to confront"
+  },
+  "level": "B2",
+  "frequency_rank": 873,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "konfrontiert",
+    "preterite_third_singular": "konfrontierte",
+    "past_participle": "konfrontiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "konfrontiere",
+      "du": "konfrontierst",
+      "er_sie_es": "konfrontiert",
+      "wir": "konfrontieren",
+      "ihr": "konfrontiert",
+      "sie_Sie": "konfrontieren"
+    },
+    "preterite": {
+      "ich": "konfrontierte",
+      "du": "konfrontiertest",
+      "er_sie_es": "konfrontierte",
+      "wir": "konfrontierten",
+      "ihr": "konfrontiertet",
+      "sie_Sie": "konfrontierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "konfrontiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich konfrontiere den Kollegen sachlich mit den Tatsachen.",
+      "translation": {
+        "ru": "Я объективно ставлю коллегу перед фактами.",
+        "en": "I confront the colleague factually with the facts."
+      },
+      "bracket_parts": [
+        "konfrontiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Konfrontierst du dich mutig mit deinen eigenen Ängsten?",
+      "translation": {
+        "ru": "Ты смело встречаешь лицом к лицу свои страхи?",
+        "en": "Do you bravely confront your own fears?"
+      },
+      "bracket_parts": [
+        "Konfrontierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Staatsanwalt konfrontiert den Zeugen mit widersprüchlichen Aussagen.",
+      "translation": {
+        "ru": "Прокурор сталкивает свидетеля с противоречивыми показаниями.",
+        "en": "The prosecutor confronts the witness with contradictory statements."
+      },
+      "bracket_parts": [
+        "konfrontiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir konfrontieren das Unternehmen mit unserer Kritik.",
+      "translation": {
+        "ru": "Мы предъявляем предприятию нашу критику.",
+        "en": "We confront the company with our criticism."
+      },
+      "bracket_parts": [
+        "konfrontieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Konfrontiert ihr die Geschäftsführung mit den Problemen?",
+      "translation": {
+        "ru": "Вы ставите руководство перед проблемами?",
+        "en": "Do you confront the management with the problems?"
+      },
+      "bracket_parts": [
+        "Konfrontiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Journalistin konfrontierte den Politiker mit heiklen Fragen.",
+      "translation": {
+        "ru": "Журналистка столкнула политика с щекотливыми вопросами.",
+        "en": "The journalist confronted the politician with tricky questions."
+      },
+      "bracket_parts": [
+        "konfrontierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben den Verdächtigen direkt mit den Beweisen konfrontiert.",
+      "translation": {
+        "ru": "Они напрямую столкнули подозреваемого с доказательствами.",
+        "en": "They confronted the suspect directly with the evidence."
+      },
+      "bracket_parts": [
+        "haben",
+        "konfrontiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Konfrontiere Probleme offen und weiche ihnen nicht aus!",
+      "translation": {
+        "ru": "Встречай проблемы открыто и не уклоняйся от них!",
+        "en": "Confront problems openly and do not dodge them!"
+      },
+      "bracket_parts": [
+        "Konfrontiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

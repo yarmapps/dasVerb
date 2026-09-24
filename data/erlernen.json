@@ -1,0 +1,147 @@
+{
+  "id": "erlernen",
+  "infinitive": "erlernen",
+  "translation": {
+    "ru": "разучивать, овладевать (профессией/навыком)",
+    "en": "to learn, to acquire (a skill)"
+  },
+  "level": "A2",
+  "frequency_rank": 661,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erlernen",
+    "present_3sg": "erlernt",
+    "praeteritum_3sg": "erlernte",
+    "partizip_2": "erlernt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erlerne",
+      "du": "erlernst",
+      "er_sie_es": "erlernt",
+      "wir": "erlernen",
+      "ihr": "erlernt",
+      "sie_Sie": "erlernen"
+    },
+    "praeteritum": {
+      "ich": "erlernte",
+      "du": "erlerntest",
+      "er_sie_es": "erlernte",
+      "wir": "erlernten",
+      "ihr": "erlerntet",
+      "sie_Sie": "erlernten"
+    },
+    "perfekt": {
+      "ich": "habe erlernt",
+      "du": "hast erlernt",
+      "er_sie_es": "hat erlernt",
+      "wir": "haben erlernt",
+      "ihr": "habt erlernt",
+      "sie_Sie": "haben erlernt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich erlerne die deutsche Grammatik mit großer Freude.",
+      "translation": {
+        "ru": "Я изучаю немецкую грамматику с большой радостью.",
+        "en": "I learn German grammar with great pleasure."
+      },
+      "bracket_parts": [
+        "erlerne"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erlernst du in der Ausbildung einen handwerklichen Beruf?",
+      "translation": {
+        "ru": "Ты осваиваешь на профессиональном обучении ремесленную специальность?",
+        "en": "Are you learning a craft profession in your apprenticeship?"
+      },
+      "bracket_parts": [
+        "Erlernst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Kind erlernt spielerisch das Schwimmen.",
+      "translation": {
+        "ru": "Ребенок в игровой форме учится плаванию.",
+        "en": "The child learns to swim through play."
+      },
+      "bracket_parts": [
+        "erlernt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erlernen gemeinsam neue Programmiersprachen.",
+      "translation": {
+        "ru": "Мы вместе изучаем новые языки программирования.",
+        "en": "We learn new programming languages together."
+      },
+      "bracket_parts": [
+        "erlernen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr erlernt das Gitarrespielen in der Musikschule.",
+      "translation": {
+        "ru": "Вы учитесь игре на гитаре в музыкальной школе.",
+        "en": "You learn to play the guitar at the music school."
+      },
+      "bracket_parts": [
+        "erlernt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Mein Großvater erlernte damals das Tischlerhandwerk von Grund auf.",
+      "translation": {
+        "ru": "Мой дедушка тогда с самых азов освоил столярное ремесло.",
+        "en": "My grandfather learned the carpenter's trade from scratch back then."
+      },
+      "bracket_parts": [
+        "erlernte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie hat in kurzer Zeit fließend Spanisch erlernt.",
+      "translation": {
+        "ru": "Она за короткое время свободно выучила испанский язык.",
+        "en": "She learned Spanish fluently in a short time."
+      },
+      "bracket_parts": [
+        "hat",
+        "erlernt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erlerne jeden Tag eine neue nützliche Fähigkeit!",
+      "translation": {
+        "ru": "Осваивай каждый день новый полезный навык!",
+        "en": "Learn a new useful skill every day!"
+      },
+      "bracket_parts": [
+        "Erlerne"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

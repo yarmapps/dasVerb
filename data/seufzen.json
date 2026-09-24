@@ -1,0 +1,137 @@
+{
+  "id": "seufzen",
+  "infinitive": "seufzen",
+  "translation": {
+    "ru": "вздыхать, тяжело вздыхать",
+    "en": "to sigh"
+  },
+  "level": "B1",
+  "frequency_rank": 962,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "seufzt",
+    "preterite_third_singular": "seufzte",
+    "past_participle": "geseufzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "seufze",
+      "du": "seufzt",
+      "er_sie_es": "seufzt",
+      "wir": "seufzen",
+      "ihr": "seufzt",
+      "sie_Sie": "seufzen"
+    },
+    "preterite": {
+      "ich": "seufzte",
+      "du": "seufztest",
+      "er_sie_es": "seufzte",
+      "wir": "seufzten",
+      "ihr": "seufztet",
+      "sie_Sie": "seufzten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geseufzt"
+    }
+  },
+  "rektion": {
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich seufze jedes Mal erleichtert, wenn die Prüfung vorbei ist.",
+      "translation": {
+        "ru": "Я каждый раз вздыхаю с облегчением, когда экзамен позади.",
+        "en": "I sigh with relief every time the exam is over."
+      },
+      "bracket_parts": [
+        "seufze"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Seufzt du vor Müdigkeit nach dem anstrengenden Arbeitstag?",
+      "translation": {
+        "ru": "Ты вздыхаешь от усталости после тяжелого рабочего дня?",
+        "en": "Are you sighing with tiredness after the exhausting workday?"
+      },
+      "bracket_parts": [
+        "Seufzt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der alte Mann seufzt leise beim Gedanken an vergangene Zeiten.",
+      "translation": {
+        "ru": "Старик тихо вздыхает при мысли о былых временах.",
+        "en": "The old man sighs softly at the thought of times gone by."
+      },
+      "bracket_parts": [
+        "seufzt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir seufzen gemeinsam über die vielen komplizierten Formulare.",
+      "translation": {
+        "ru": "Мы вместе вздыхаем по поводу множества сложных бланков.",
+        "en": "We sigh together over the many complicated forms."
+      },
+      "bracket_parts": [
+        "seufzen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Seufzt ihr auch wegen der vielen Hausaufgaben?",
+      "translation": {
+        "ru": "Вы тоже вздыхаете из-за огромного количества домашней работы?",
+        "en": "Are you guys also sighing because of so much homework?"
+      },
+      "bracket_parts": [
+        "Seufzt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Schülerin seufzte tief vor Beginn der schwierigen Klausur.",
+      "translation": {
+        "ru": "Ученица глубоко вздохнула перед началом сложной контрольной.",
+        "en": "The student sighed deeply before the start of the difficult exam."
+      },
+      "bracket_parts": [
+        "seufzte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat nach der schlechten Nachricht nur stumm geseufzt.",
+      "translation": {
+        "ru": "После плохой новости он лишь молча вздохнул.",
+        "en": "He only sighed silently after the bad news."
+      },
+      "bracket_parts": [
+        "hat",
+        "geseufzt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Seufze nicht so traurig, alles wird sich zum Guten wenden!",
+      "translation": {
+        "ru": "Не вздыхай так печально, все наладится!",
+        "en": "Do not sigh so sadly, everything will turn out well!"
+      },
+      "bracket_parts": [
+        "Seufze"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

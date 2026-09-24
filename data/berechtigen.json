@@ -1,0 +1,171 @@
+{
+  "id": "berechtigen",
+  "infinitive": "berechtigen",
+  "translation": {
+    "ru": "давать право, уполномочивать",
+    "en": "to entitle, authorize"
+  },
+  "level": "B2",
+  "frequency_rank": 539,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "berechtigen",
+    "present_3sg": "berechtigt",
+    "praeteritum_3sg": "berechtigte",
+    "partizip_2": "berechtigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "berechtige",
+      "du": "berechtigst",
+      "er_sie_es": "berechtigt",
+      "wir": "berechtigen",
+      "ihr": "berechtigt",
+      "sie_Sie": "berechtigen"
+    },
+    "praeteritum": {
+      "ich": "berechtigte",
+      "du": "berechtigtest",
+      "er_sie_es": "berechtigte",
+      "wir": "berechtigten",
+      "ihr": "berechtigtet",
+      "sie_Sie": "berechtigten"
+    },
+    "perfekt": {
+      "ich": "habe berechtigt",
+      "du": "hast berechtigt",
+      "er_sie_es": "hat berechtigt",
+      "wir": "haben berechtigt",
+      "ihr": "habt berechtigt",
+      "sie_Sie": "haben berechtigt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "zu",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich berechtige meinen Anwalt zur Einsicht in die Akten.",
+      "translation": {
+        "ru": "Я уполномочиваю своего адвоката на ознакомление с материалами дела.",
+        "en": "I authorize my lawyer to inspect the files."
+      },
+      "bracket_parts": [
+        "berechtige"
+      ],
+      "akkusativ_parts": [
+        "meinen Anwalt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du berechtigst deinen Kollegen zur Unterschrift im Krankheitsfall.",
+      "translation": {
+        "ru": "Ты наделяешь коллегу правом подписи на случай болезни.",
+        "en": "You authorize your colleague to sign in case of illness."
+      },
+      "bracket_parts": [
+        "berechtigst"
+      ],
+      "akkusativ_parts": [
+        "deinen Kollegen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Diese Eintrittskarte berechtigt den Inhaber zum freien Eintritt.",
+      "translation": {
+        "ru": "Этот входной билет дает владельцу право на бесплатный вход.",
+        "en": "This ticket entitles the holder to free admission."
+      },
+      "bracket_parts": [
+        "berechtigt"
+      ],
+      "akkusativ_parts": [
+        "den Inhaber"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir berechtigen nur ausgewählte Mitarbeiter zum Zugriff auf die Datenbank.",
+      "translation": {
+        "ru": "Мы разрешаем доступ к базе данных только избранным сотрудникам.",
+        "en": "We only authorize selected employees to access the database."
+      },
+      "bracket_parts": [
+        "berechtigen"
+      ],
+      "akkusativ_parts": [
+        "nur ausgewählte Mitarbeiter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr berechtigt eure Stellvertreter zu wichtigen Entscheidungen.",
+      "translation": {
+        "ru": "Вы наделяете своих заместителей полномочиями принимать важные решения.",
+        "en": "You authorize your deputies to make important decisions."
+      },
+      "bracket_parts": [
+        "berechtigt"
+      ],
+      "akkusativ_parts": [
+        "eure Stellvertreter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der alte Vertrag berechtigte damals die Bürger zur Mitbestimmung.",
+      "translation": {
+        "ru": "Старый договор давал тогда гражданам право на участие в принятии решений.",
+        "en": "The old contract entitled citizens to co-determination back then."
+      },
+      "bracket_parts": [
+        "berechtigte"
+      ],
+      "akkusativ_parts": [
+        "die Bürger"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das bestandene Examen hat die Absolventin zur Promotion berechtigt.",
+      "translation": {
+        "ru": "Успешно сданный экзамен дал выпускнице право на защиту докторской.",
+        "en": "Passing the exam entitled the graduate to doctorate studies."
+      },
+      "bracket_parts": [
+        "hat",
+        "berechtigt"
+      ],
+      "akkusativ_parts": [
+        "die Absolventin"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Berechtige den Assistenten zur Annahme wichtiger Pakete!",
+      "translation": {
+        "ru": "Уполномочь ассистента на прием важных посылок!",
+        "en": "Authorize the assistant to accept important parcels!"
+      },
+      "bracket_parts": [
+        "Berechtige"
+      ],
+      "akkusativ_parts": [
+        "den Assistenten"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

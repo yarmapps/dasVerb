@@ -1,0 +1,137 @@
+{
+  "id": "gruessen",
+  "infinitive": "grüßen",
+  "translation": {
+    "ru": "здороваться, приветствовать, передавать привет",
+    "en": "to greet, to say hello"
+  },
+  "level": "A1",
+  "frequency_rank": 922,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "grüßt",
+    "preterite_third_singular": "grüßte",
+    "past_participle": "gegrüßt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "grüße",
+      "du": "grüßt",
+      "er_sie_es": "grüßt",
+      "wir": "grüßen",
+      "ihr": "grüßt",
+      "sie_Sie": "grüßen"
+    },
+    "preterite": {
+      "ich": "grüßte",
+      "du": "grüßtest",
+      "er_sie_es": "grüßte",
+      "wir": "grüßten",
+      "ihr": "grüßtet",
+      "sie_Sie": "grüßten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gegrüßt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich grüße die Nachbarn immer freundlich im Treppenhaus.",
+      "translation": {
+        "ru": "Я всегда приветливо здороваюсь с соседями в подъезде.",
+        "en": "I always greet the neighbors warmly in the stairwell."
+      },
+      "bracket_parts": [
+        "grüße"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Grüßt du deinen Klassenlehrer, wenn du ihn auf der Straße triffst?",
+      "translation": {
+        "ru": "Ты здороваешься со своим классным руководителем, встречая его на улице?",
+        "en": "Do you greet your homeroom teacher when you meet him on the street?"
+      },
+      "bracket_parts": [
+        "Grüßt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Bürgermeister grüßt alle Gäste beim feierlichen Empfang.",
+      "translation": {
+        "ru": "Мэр приветствует всех гостей на торжественном приеме.",
+        "en": "The mayor greets all guests at the festive reception."
+      },
+      "bracket_parts": [
+        "grüßt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir grüßen unsere lieben Kollegen aus dem Berliner Büro.",
+      "translation": {
+        "ru": "Мы передаем привет нашим дорогим коллегам из берлинского офиса.",
+        "en": "We greet our dear colleagues from the Berlin office."
+      },
+      "bracket_parts": [
+        "grüßen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Grüßt ihr eure Großeltern herzlich von uns?",
+      "translation": {
+        "ru": "Вы передадите сердечный привет бабушке и дедушке от нас?",
+        "en": "Will you guys greet your grandparents warmly from us?"
+      },
+      "bracket_parts": [
+        "Grüßt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der freundliche Schaffner grüßte jeden Fahrgast beim Einsteigen.",
+      "translation": {
+        "ru": "Приветливый проводник приветствовал каждого пассажира при посадке.",
+        "en": "The friendly conductor greeted every passenger upon boarding."
+      },
+      "bracket_parts": [
+        "grüßte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Ich habe gestern alle alten Schulfreunde herzlich gegrüßt.",
+      "translation": {
+        "ru": "Вчера я сердечно поприветствовал всех старых школьных друзей.",
+        "en": "Yesterday I warmly greeted all old school friends."
+      },
+      "bracket_parts": [
+        "habe",
+        "gegrüßt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Grüß deine Eltern ganz lieb von mir!",
+      "translation": {
+        "ru": "Передай родителям огромный привет от меня!",
+        "en": "Say a very warm hello to your parents from me!"
+      },
+      "bracket_parts": [
+        "Grüß"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

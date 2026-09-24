@@ -1,0 +1,154 @@
+{
+  "id": "aufsteigen",
+  "infinitive": "aufsteigen",
+  "translation": {
+    "ru": "подниматься, восходить, продвигаться",
+    "en": "to rise, to ascend, to climb, to be promoted"
+  },
+  "level": "B1",
+  "frequency_rank": 558,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufsteigen",
+    "present_3sg": "steigt auf",
+    "praeteritum_3sg": "stieg auf",
+    "partizip_2": "aufgestiegen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "steige auf",
+      "du": "steigst auf",
+      "er_sie_es": "steigt auf",
+      "wir": "steigen auf",
+      "ihr": "steigt auf",
+      "sie_Sie": "steigen auf"
+    },
+    "praeteritum": {
+      "ich": "stieg auf",
+      "du": "stiegst auf",
+      "er_sie_es": "stieg auf",
+      "wir": "stiegen auf",
+      "ihr": "stiegt auf",
+      "sie_Sie": "stiegen auf"
+    },
+    "perfekt": {
+      "ich": "bin aufgestiegen",
+      "du": "bist aufgestiegen",
+      "er_sie_es": "ist aufgestiegen",
+      "wir": "sind aufgestiegen",
+      "ihr": "seid aufgestiegen",
+      "sie_Sie": "sind aufgestiegen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich steige auf den höchsten Berggipfel auf.",
+      "translation": {
+        "ru": "Я поднимаюсь на самую высокую вершину горы.",
+        "en": "I climb up to the highest mountain peak."
+      },
+      "bracket_parts": [
+        "steige",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du steigst schnell im Unternehmen auf.",
+      "translation": {
+        "ru": "Ты быстро продвигаешься по службе в компании.",
+        "en": "You rise quickly in the company."
+      },
+      "bracket_parts": [
+        "steigst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dichter Rauch steigt aus dem Schornstein auf.",
+      "translation": {
+        "ru": "Густой дым поднимается из трубы.",
+        "en": "Dense smoke rises from the chimney."
+      },
+      "bracket_parts": [
+        "steigt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir steigen am Saisonende in die erste Liga auf.",
+      "translation": {
+        "ru": "Мы в конце сезона выходим в первую лигу.",
+        "en": "We are getting promoted to the first division at the end of the season."
+      },
+      "bracket_parts": [
+        "steigen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr steigt auf eure neuen Fahrräder auf.",
+      "translation": {
+        "ru": "Вы садитесь на свои новые велосипеды.",
+        "en": "You mount your new bicycles."
+      },
+      "bracket_parts": [
+        "steigt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Heißluftballon stieg lautlos in den Himmel auf.",
+      "translation": {
+        "ru": "Воздушный шар бесшумно поднялся в небо.",
+        "en": "The hot-air balloon rose silently into the sky."
+      },
+      "bracket_parts": [
+        "stieg",
+        "auf"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Fußballmannschaft ist dieses Jahr aufgestiegen.",
+      "translation": {
+        "ru": "Футбольная команда в этом году поднялась в классе.",
+        "en": "The soccer team was promoted this year."
+      },
+      "bracket_parts": [
+        "ist",
+        "aufgestiegen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Steig vorsichtig auf die Leiter auf!",
+      "translation": {
+        "ru": "Поднимайся осторожно по лестнице!",
+        "en": "Climb carefully onto the ladder!"
+      },
+      "bracket_parts": [
+        "Steig",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

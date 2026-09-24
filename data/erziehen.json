@@ -1,0 +1,143 @@
+{
+  "id": "erziehen",
+  "infinitive": "erziehen",
+  "translation": {
+    "ru": "воспитывать",
+    "en": "to bring up, to raise, to educate"
+  },
+  "level": "B1",
+  "frequency_rank": 835,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "erzieht",
+    "preterite_third_singular": "erzog",
+    "past_participle": "erzogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erziehe",
+      "du": "erziehst",
+      "er_sie_es": "erzieht",
+      "wir": "erziehen",
+      "ihr": "erzieht",
+      "sie_Sie": "erziehen"
+    },
+    "preterite": {
+      "ich": "erzog",
+      "du": "erzogst",
+      "er_sie_es": "erzog",
+      "wir": "erzogen",
+      "ihr": "erzogt",
+      "sie_Sie": "erzogen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "erzogen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "zu",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich erziehe meine Kinder zu selbstständigen Menschen.",
+      "translation": {
+        "ru": "Я воспитываю своих детей самостоятельными людьми.",
+        "en": "I raise my children to be independent people."
+      },
+      "bracket_parts": [
+        "erziehe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erziehst du deinen jungen Hund mit Geduld?",
+      "translation": {
+        "ru": "Ты воспитываешь свою молодую собаку с терпением?",
+        "en": "Are you raising your young dog with patience?"
+      },
+      "bracket_parts": [
+        "Erziehst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Mutter erzieht ihren Sohn mit viel Liebe.",
+      "translation": {
+        "ru": "Мать воспитывает сына с большой любовью.",
+        "en": "The mother raises her son with lots of love."
+      },
+      "bracket_parts": [
+        "erzieht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erziehen die Jugend zu gegenseitigem Respekt.",
+      "translation": {
+        "ru": "Мы воспитываем молодежь во взаимном уважении.",
+        "en": "We educate youth towards mutual respect."
+      },
+      "bracket_parts": [
+        "erziehen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erzieht ihr eure Kinder zweisprachig?",
+      "translation": {
+        "ru": "Вы воспитываете своих детей на двух языках?",
+        "en": "Are you raising your children bilingually?"
+      },
+      "bracket_parts": [
+        "Erzieht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Großeltern erzogen das Waisenkind nach dem Krieg.",
+      "translation": {
+        "ru": "Дедушка с бабушкой воспитали сироту после войны.",
+        "en": "The grandparents raised the orphan after the war."
+      },
+      "bracket_parts": [
+        "erzogen"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben ihre Töchter zu starken Persönlichkeiten erzogen.",
+      "translation": {
+        "ru": "Они воспитали своих дочерей сильными личностями.",
+        "en": "They raised their daughters into strong personalities."
+      },
+      "bracket_parts": [
+        "haben",
+        "erzogen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erziehe deine Kinder mit gutem Vorbild!",
+      "translation": {
+        "ru": "Воспитывай своих детей личным хорошим примером!",
+        "en": "Raise your children with a good example!"
+      },
+      "bracket_parts": [
+        "Erziehe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

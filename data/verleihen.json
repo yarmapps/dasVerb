@@ -1,0 +1,147 @@
+{
+  "id": "verleihen",
+  "infinitive": "verleihen",
+  "translation": {
+    "ru": "одалживать, давать напрокат, вручать (награду), придавать (блеск/смысл)",
+    "en": "to lend, to rent out, to award, to impart"
+  },
+  "level": "B1",
+  "frequency_rank": 645,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verleihen",
+    "present_3sg": "verleiht",
+    "praeteritum_3sg": "verlieh",
+    "partizip_2": "verliehen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verleihe",
+      "du": "verleihst",
+      "er_sie_es": "verleiht",
+      "wir": "verleihen",
+      "ihr": "verleiht",
+      "sie_Sie": "verleihen"
+    },
+    "praeteritum": {
+      "ich": "verlieh",
+      "du": "verliehst",
+      "er_sie_es": "verlieh",
+      "wir": "verliehen",
+      "ihr": "verlieht",
+      "sie_Sie": "verliehen"
+    },
+    "perfekt": {
+      "ich": "habe verliehen",
+      "du": "hast verliehen",
+      "er_sie_es": "hat verliehen",
+      "wir": "haben verliehen",
+      "ihr": "habt verliehen",
+      "sie_Sie": "haben verliehen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "Dativ",
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich verleihe mein Lieblingsbuch nur an gute Freunde.",
+      "translation": {
+        "ru": "Я одалживаю свою любимую книгу только хорошим друзьям.",
+        "en": "I lend my favorite book only to good friends."
+      },
+      "bracket_parts": [
+        "verleihe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verleihst du dein Werkzeug an die Nachbarn?",
+      "translation": {
+        "ru": "Ты одалживаешь инструмент соседям?",
+        "en": "Do you lend your tools to the neighbors?"
+      },
+      "bracket_parts": [
+        "Verleihst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Präsident verleiht den Verdienstorden an verdiente Bürger.",
+      "translation": {
+        "ru": "Президент вручает орден за заслуги отличившимся гражданам.",
+        "en": "The president awards the order of merit to distinguished citizens."
+      },
+      "bracket_parts": [
+        "verleiht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verleihen Fahrräder an Touristen in der Stadt.",
+      "translation": {
+        "ru": "Мы сдаем напрокат велосипеды туристам в городе.",
+        "en": "We rent out bicycles to tourists in the city."
+      },
+      "bracket_parts": [
+        "verleihen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr verleiht dem Raum eine gemütliche Atmosphäre.",
+      "translation": {
+        "ru": "Вы придаете помещению уютную атмосферу.",
+        "en": "You impart a cozy atmosphere to the room."
+      },
+      "bracket_parts": [
+        "verleiht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Jury verlieh dem Regisseur damals den Hauptpreis.",
+      "translation": {
+        "ru": "Жюри тогда вручило режиссеру главный приз.",
+        "en": "The jury awarded the main prize to the director back then."
+      },
+      "bracket_parts": [
+        "verlieh"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Ich habe mein Auto für das Wochenende an meinen Bruder verliehen.",
+      "translation": {
+        "ru": "Я одолжил машину на выходные брату.",
+        "en": "I lent my car to my brother for the weekend."
+      },
+      "bracket_parts": [
+        "habe",
+        "verliehen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verleih deine Wertsachen niemals an Fremde!",
+      "translation": {
+        "ru": "Никогда не одалживай ценные вещи незнакомцам!",
+        "en": "Never lend your valuables to strangers!"
+      },
+      "bracket_parts": [
+        "Verleih"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

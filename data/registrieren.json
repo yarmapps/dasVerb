@@ -1,0 +1,147 @@
+{
+  "id": "registrieren",
+  "infinitive": "registrieren",
+  "translation": {
+    "ru": "регистрировать, замечать, фиксировать",
+    "en": "to register, to record, to notice"
+  },
+  "level": "B1",
+  "frequency_rank": 665,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "registrieren",
+    "present_3sg": "registriert",
+    "praeteritum_3sg": "registrierte",
+    "partizip_2": "registriert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "registriere",
+      "du": "registrierst",
+      "er_sie_es": "registriert",
+      "wir": "registrieren",
+      "ihr": "registriert",
+      "sie_Sie": "registrieren"
+    },
+    "praeteritum": {
+      "ich": "registrierte",
+      "du": "registriertest",
+      "er_sie_es": "registrierte",
+      "wir": "registrierten",
+      "ihr": "registriertet",
+      "sie_Sie": "registrierten"
+    },
+    "perfekt": {
+      "ich": "habe registriert",
+      "du": "hast registriert",
+      "er_sie_es": "hat registriert",
+      "wir": "haben registriert",
+      "ihr": "habt registriert",
+      "sie_Sie": "haben registriert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich registriere mich online für das neue Benutzerkonto.",
+      "translation": {
+        "ru": "Я регистрируюсь онлайн для создания новой учетной записи.",
+        "en": "I register online for the new user account."
+      },
+      "bracket_parts": [
+        "registriere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Registrierst du die neue Adresse im Bürgeramt?",
+      "translation": {
+        "ru": "Ты регистрируешь новый адрес в ведомстве по делам граждан?",
+        "en": "Are you registering the new address at the citizen center?"
+      },
+      "bracket_parts": [
+        "Registrierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Messgerät registriert jede kleinste Erschütterung.",
+      "translation": {
+        "ru": "Измерительный прибор фиксирует малейшее колебание.",
+        "en": "The measuring device records every tiny vibration."
+      },
+      "bracket_parts": [
+        "registriert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir registrieren die Teilnehmer an der Rezeption.",
+      "translation": {
+        "ru": "Мы регистрируем участников на стойке регистрации.",
+        "en": "We register the participants at the reception."
+      },
+      "bracket_parts": [
+        "registrieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr registriert eine deutliche Verbesserung der Lage.",
+      "translation": {
+        "ru": "Вы отмечаете значительное улучшение ситуации.",
+        "en": "You notice a clear improvement in the situation."
+      },
+      "bracket_parts": [
+        "registriert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Behörde registrierte damals alle eingehenden Anträge.",
+      "translation": {
+        "ru": "Ведомство тогда фиксировало все входящие заявления.",
+        "en": "The authority recorded all incoming applications back then."
+      },
+      "bracket_parts": [
+        "registrierte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Über tausend Gäste haben sich für die Konferenz registriert.",
+      "translation": {
+        "ru": "Более тысячи гостей зарегистрировались на конференцию.",
+        "en": "Over a thousand guests registered for the conference."
+      },
+      "bracket_parts": [
+        "haben",
+        "registriert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Registriere bitte das neue Gerät im System!",
+      "translation": {
+        "ru": "Зарегистрируй, пожалуйста, новое устройство в системе!",
+        "en": "Please register the new device in the system!"
+      },
+      "bracket_parts": [
+        "Registriere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

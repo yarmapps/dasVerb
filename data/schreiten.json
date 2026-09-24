@@ -1,0 +1,143 @@
+{
+  "id": "schreiten",
+  "infinitive": "schreiten",
+  "translation": {
+    "ru": "шагать, шествовать, приступать (к делу)",
+    "en": "to stride, to step, to proceed to"
+  },
+  "level": "B2",
+  "frequency_rank": 1025,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "schreitet",
+    "preterite_third_singular": "schritt",
+    "past_participle": "geschritten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schreite",
+      "du": "schreitest",
+      "er_sie_es": "schreitet",
+      "wir": "schreiten",
+      "ihr": "schreitet",
+      "sie_Sie": "schreiten"
+    },
+    "preterite": {
+      "ich": "schritt",
+      "du": "schrittest",
+      "er_sie_es": "schritt",
+      "wir": "schritten",
+      "ihr": "schrittet",
+      "sie_Sie": "schritten"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "geschritten"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "zu",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich schreite nach der langen Vorbereitung nun zur Tat.",
+      "translation": {
+        "ru": "После долгой подготовки я приступаю к действиям.",
+        "en": "After long preparation, I now proceed to action."
+      },
+      "bracket_parts": [
+        "schreite"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schreitest du feierlich den roten Teppich zur Bühne hinauf?",
+      "translation": {
+        "ru": "Ты торжественно шествуешь по красной дорожке к сцене?",
+        "en": "Are you striding festively up the red carpet to the stage?"
+      },
+      "bracket_parts": [
+        "Schreitest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Brautpaar schreitet andächtig durch das Portal der Kirche.",
+      "translation": {
+        "ru": "Молодожены благоговейно шествуют через портал церкви.",
+        "en": "The bridal couple strides reverently through the church portal."
+      },
+      "bracket_parts": [
+        "schreitet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schreiten zügig zur Abstimmung über den Gesetzentwurf.",
+      "translation": {
+        "ru": "Мы быстро переходим к голосованию по законопроекту.",
+        "en": "We proceed briskly to the vote on the bill."
+      },
+      "bracket_parts": [
+        "schreiten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schreitet ihr mit gemessenem Schritt an den Ehrengästen vorbei?",
+      "translation": {
+        "ru": "Шествуете ли вы размеренным шагом мимо почетных гостей?",
+        "en": "Are you guys striding with measured steps past the guests of honor?"
+      },
+      "bracket_parts": [
+        "Schreitet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der König schritt erhaben durch den prächtigen Thronsaal.",
+      "translation": {
+        "ru": "Король величественно прошествовал по роскошному тронному залу.",
+        "en": "The king strode majestically through the magnificent throne room."
+      },
+      "bracket_parts": [
+        "schritt"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Kommission ist nach langer Beratung endlich zur Tat geschritten.",
+      "translation": {
+        "ru": "Комиссия после долгих обсуждений наконец приступила к делу.",
+        "en": "After long deliberation, the commission finally proceeded to action."
+      },
+      "bracket_parts": [
+        "ist",
+        "geschritten"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schreite mutig voran und lass dich nicht entmutigen!",
+      "translation": {
+        "ru": "Шагай смело вперед и не падай духом!",
+        "en": "Stride boldly forward and do not be discouraged!"
+      },
+      "bracket_parts": [
+        "Schreite"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "einziehen",
+  "infinitive": "einziehen",
+  "translation": {
+    "ru": "въезжать (в квартиру), вселяться",
+    "en": "to move in, to collect, to withdraw"
+  },
+  "level": "A2",
+  "frequency_rank": 561,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einziehen",
+    "present_3sg": "zieht ein",
+    "praeteritum_3sg": "zog ein",
+    "partizip_2": "eingezogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ziehe ein",
+      "du": "ziehst ein",
+      "er_sie_es": "zieht ein",
+      "wir": "ziehen ein",
+      "ihr": "zieht ein",
+      "sie_Sie": "ziehen ein"
+    },
+    "praeteritum": {
+      "ich": "zog ein",
+      "du": "zogst ein",
+      "er_sie_es": "zog ein",
+      "wir": "zogen ein",
+      "ihr": "zogt ein",
+      "sie_Sie": "zogen ein"
+    },
+    "perfekt": {
+      "ich": "bin eingezogen",
+      "du": "bist eingezogen",
+      "er_sie_es": "ist eingezogen",
+      "wir": "sind eingezogen",
+      "ihr": "seid eingezogen",
+      "sie_Sie": "sind eingezogen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "in",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich ziehe morgen in meine neue Wohnung ein.",
+      "translation": {
+        "ru": "Я завтра въезжаю в свою новую квартиру.",
+        "en": "I am moving into my new apartment tomorrow."
+      },
+      "bracket_parts": [
+        "ziehe",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wann ziehst du in das schöne Haus ein?",
+      "translation": {
+        "ru": "Когда ты въезжаешь в этот красивый дом?",
+        "en": "When are you moving into the beautiful house?"
+      },
+      "bracket_parts": [
+        "ziehst",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die junge Familie zieht heute nebenan ein.",
+      "translation": {
+        "ru": "Молодая семья сегодня въезжает по соседству.",
+        "en": "The young family is moving in next door today."
+      },
+      "bracket_parts": [
+        "zieht",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir ziehen am kommenden Samstag endlich ein.",
+      "translation": {
+        "ru": "Мы в следующую субботу наконец въезжаем.",
+        "en": "We are finally moving in next Saturday."
+      },
+      "bracket_parts": [
+        "ziehen",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr zieht zusammen in eine gemütliche WG ein.",
+      "translation": {
+        "ru": "Вы въезжаете вместе в уютную совместную квартиру.",
+        "en": "You are moving together into a cozy shared flat."
+      },
+      "bracket_parts": [
+        "zieht",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie zogen vor einem Jahr in diese Stadt ein.",
+      "translation": {
+        "ru": "Они переехали в этот город год назад.",
+        "en": "They moved into this city a year ago."
+      },
+      "bracket_parts": [
+        "zogen",
+        "ein"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Mein bester Freund ist erst gestern hier eingezogen.",
+      "translation": {
+        "ru": "Мой лучший друг только вчера сюда въехал.",
+        "en": "My best friend only moved in here yesterday."
+      },
+      "bracket_parts": [
+        "ist",
+        "eingezogen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Zieh rechtzeitig vor dem Winter in das Haus ein!",
+      "translation": {
+        "ru": "Въезжай в дом вовремя до зимы!",
+        "en": "Move into the house in good time before winter!"
+      },
+      "bracket_parts": [
+        "Zieh",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

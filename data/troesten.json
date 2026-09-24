@@ -1,0 +1,147 @@
+{
+  "id": "troesten",
+  "infinitive": "trösten",
+  "translation": {
+    "ru": "утешать",
+    "en": "to comfort, to console"
+  },
+  "level": "B1",
+  "frequency_rank": 878,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "tröstet",
+    "preterite_third_singular": "tröstete",
+    "past_participle": "getröstet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "tröste",
+      "du": "tröstest",
+      "er_sie_es": "tröstet",
+      "wir": "trösten",
+      "ihr": "tröstet",
+      "sie_Sie": "trösten"
+    },
+    "preterite": {
+      "ich": "tröstete",
+      "du": "tröstetest",
+      "er_sie_es": "tröstete",
+      "wir": "trösteten",
+      "ihr": "tröstetet",
+      "sie_Sie": "trösteten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "getröstet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "über",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich tröste mein weinendes Kind mit einer warmen Umarmung.",
+      "translation": {
+        "ru": "Я утешаю своего плачущего ребенка теплым объятием.",
+        "en": "I comfort my crying child with a warm hug."
+      },
+      "bracket_parts": [
+        "tröste"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Tröstest du deinen traurigen Freund nach der Trennung?",
+      "translation": {
+        "ru": "Ты утешаешь своего грустного друга после расставания?",
+        "en": "Are you comforting your sad friend after the breakup?"
+      },
+      "bracket_parts": [
+        "Tröstest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Mutter tröstet die kleine Tochter mit lieben Worten.",
+      "translation": {
+        "ru": "Мать утешает маленькую дочку добрыми словами.",
+        "en": "The mother comforts the little daughter with kind words."
+      },
+      "bracket_parts": [
+        "tröstet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir trösten einander in dieser schweren Zeit des Abschieds.",
+      "translation": {
+        "ru": "Мы утешаем друг друга в это тяжелое время прощания.",
+        "en": "We comfort each other in this difficult time of farewell."
+      },
+      "bracket_parts": [
+        "trösten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Tröstet ihr die Verlierer nach dem knappen Spiel?",
+      "translation": {
+        "ru": "Вы утешаете проигравших после упорного матча?",
+        "en": "Are you comforting the losers after the close match?"
+      },
+      "bracket_parts": [
+        "Tröstet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er tröstete sie sanft, als sie traurige Tränen weinte.",
+      "translation": {
+        "ru": "Он нежно утешал ее, когда она плакала грустными слезами.",
+        "en": "He comforted her gently when she wept sad tears."
+      },
+      "bracket_parts": [
+        "tröstete"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Seine herzlichen Worte haben mich sehr getröstet.",
+      "translation": {
+        "ru": "Его сердечные слова очень утешили меня.",
+        "en": "His warm words consoled me very much."
+      },
+      "bracket_parts": [
+        "haben",
+        "getröstet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Tröste deine Schwester und sei für sie da!",
+      "translation": {
+        "ru": "Утешь свою сестру и будь рядом с ней!",
+        "en": "Comfort your sister and be there for her!"
+      },
+      "bracket_parts": [
+        "Tröste"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

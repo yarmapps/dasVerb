@@ -1,0 +1,150 @@
+{
+  "id": "abdecken",
+  "infinitive": "abdecken",
+  "translation": {
+    "ru": "накрывать, покрывать (расходы, темы)",
+    "en": "to cover, to shield, to meet (costs)"
+  },
+  "level": "B1",
+  "frequency_rank": 800,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "deckt ab",
+    "preterite_third_singular": "deckte ab",
+    "past_participle": "abgedeckt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "decke ab",
+      "du": "deckst ab",
+      "er_sie_es": "deckt ab",
+      "wir": "decken ab",
+      "ihr": "deckt ab",
+      "sie_Sie": "decken ab"
+    },
+    "preterite": {
+      "ich": "deckte ab",
+      "du": "decktest ab",
+      "er_sie_es": "deckte ab",
+      "wir": "deckten ab",
+      "ihr": "decktet ab",
+      "sie_Sie": "deckten ab"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "abgedeckt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich decke die Gartenmöbel mit einer Plane vor Regen ab.",
+      "translation": {
+        "ru": "Я накрываю садовую мебель тентом от дождя.",
+        "en": "I cover the garden furniture with a tarpaulin against rain."
+      },
+      "bracket_parts": [
+        "decke",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Deckst du den Kuchen mit einer Frischhaltefolie ab?",
+      "translation": {
+        "ru": "Ты накрываешь пирог пищевой пленкой?",
+        "en": "Are you covering the cake with cling film?"
+      },
+      "bracket_parts": [
+        "Deckst",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Diese Versicherung deckt alle möglichen Risiken ab.",
+      "translation": {
+        "ru": "Эта страховка покрывает все возможные риски.",
+        "en": "This insurance covers all possible risks."
+      },
+      "bracket_parts": [
+        "deckt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir decken den gesamten Lehrplan im Kurs ab.",
+      "translation": {
+        "ru": "Мы охватываем весь учебный план в курсе.",
+        "en": "We cover the entire curriculum in the course."
+      },
+      "bracket_parts": [
+        "decken",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Deckt ihr die Pflanzen vor dem ersten Frost ab?",
+      "translation": {
+        "ru": "Вы укрываете растения перед первыми заморозками?",
+        "en": "Are you covering the plants before the first frost?"
+      },
+      "bracket_parts": [
+        "Deckt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er deckte den Tisch nach dem Abendessen schnell ab.",
+      "translation": {
+        "ru": "Он быстро убрал со стола после ужина.",
+        "en": "He cleared the table quickly after dinner."
+      },
+      "bracket_parts": [
+        "deckte",
+        "ab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Einnahmen haben die laufenden Kosten vollständig abgedeckt.",
+      "translation": {
+        "ru": "Доходы полностью покрыли текущие расходы.",
+        "en": "The revenues completely covered the ongoing costs."
+      },
+      "bracket_parts": [
+        "haben",
+        "abgedeckt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Deck das Essen sorgfältig vor den Fliegen ab!",
+      "translation": {
+        "ru": "Тщательно накрой еду от мух!",
+        "en": "Cover the food carefully from the flies!"
+      },
+      "bracket_parts": [
+        "Deck",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

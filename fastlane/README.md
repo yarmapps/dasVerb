@@ -23,6 +23,14 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 
 Download live App Store metadata directly into fastlane/metadata/ios
 
+### ios delete_obsolete_localizations
+
+```sh
+[bundle exec] fastlane ios delete_obsolete_localizations
+```
+
+Delete obsolete localizations from App Store Connect for current editable version
+
 ### ios download_screenshots
 
 ```sh
@@ -98,7 +106,23 @@ Download Google Play Store metadata into fastlane/metadata/android
 [bundle exec] fastlane android sync_metadata
 ```
 
-Upload updated text metadata & changelogs to Google Play
+Upload updated text metadata to Google Play
+
+### android sync_screenshots
+
+```sh
+[bundle exec] fastlane android sync_screenshots
+```
+
+Upload screenshots and images (icon, feature graphic, phone screenshots) to Google Play
+
+### android sync_all
+
+```sh
+[bundle exec] fastlane android sync_all
+```
+
+Upload all metadata, changelogs, icon, feature graphic and screenshots to Google Play
 
 ### android release_production
 

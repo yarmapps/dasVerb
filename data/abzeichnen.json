@@ -1,0 +1,145 @@
+{
+  "id": "abzeichnen",
+  "infinitive": "abzeichnen",
+  "translation": {
+    "ru": "срисовывать, подписывать (визировать), вырисовываться (рефл.)",
+    "en": "to trace, to sign off on, to emerge/stand out"
+  },
+  "level": "B2",
+  "frequency_rank": 804,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "zeichnet ab",
+    "preterite_third_singular": "zeichnete ab",
+    "past_participle": "abgezeichnet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "zeichne ab",
+      "du": "zeichnest ab",
+      "er_sie_es": "zeichnet ab",
+      "wir": "zeichnen ab",
+      "ihr": "zeichnet ab",
+      "sie_Sie": "zeichnen ab"
+    },
+    "preterite": {
+      "ich": "zeichnete ab",
+      "du": "zeichnetest ab",
+      "er_sie_es": "zeichnete ab",
+      "wir": "zeichneten ab",
+      "ihr": "zeichnetet ab",
+      "sie_Sie": "zeichneten ab"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "abgezeichnet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich zeichne den Entwurf mit einem weichen Bleistift ab.",
+      "translation": {
+        "ru": "Я срисовываю эскиз мягким карандашом.",
+        "en": "I trace the draft with a soft pencil."
+      },
+      "bracket_parts": [
+        "zeichne",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Zeichnest du das offizielle Dokument bitte mit Kürzel ab?",
+      "translation": {
+        "ru": "Ты подпишешь официальный документ своими инициалами?",
+        "en": "Will you please sign off on the official document with initials?"
+      },
+      "bracket_parts": [
+        "Zeichnest",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Abteilungsleiter zeichnet den Urlaubsantrag heute ab.",
+      "translation": {
+        "ru": "Начальник отдела визирует заявление на отпуск сегодня.",
+        "en": "The department head signs off on the vacation request today."
+      },
+      "bracket_parts": [
+        "zeichnet",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir zeichnen die Konturen der Landkarte genau ab.",
+      "translation": {
+        "ru": "Мы точно срисовываем контуры географической карты.",
+        "en": "We trace the contours of the map accurately."
+      },
+      "bracket_parts": [
+        "zeichnen",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Zeichnet ihr alle Rechnungen vor der Bezahlung ab?",
+      "translation": {
+        "ru": "Вы визируете все счета перед оплатой?",
+        "en": "Do you sign off on all invoices before payment?"
+      },
+      "bracket_parts": [
+        "Zeichnet",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein klarer Trend zeichnete sich in der Umfrage ab.",
+      "translation": {
+        "ru": "Четкий тренд наметился в опросе.",
+        "en": "A clear trend emerged in the survey."
+      },
+      "bracket_parts": [
+        "zeichnete",
+        "ab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Chef hat den Bericht nach gründlicher Prüfung abgezeichnet.",
+      "translation": {
+        "ru": "Шеф завизировал отчет после тщательной проверки.",
+        "en": "The boss signed off on the report after thorough review."
+      },
+      "bracket_parts": [
+        "hat",
+        "abgezeichnet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Zeichne das Formular vor der Weiterleitung kurz ab!",
+      "translation": {
+        "ru": "Завизируй бланк перед пересылкой!",
+        "en": "Sign off on the form briefly before forwarding!"
+      },
+      "bracket_parts": [
+        "Zeichne",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

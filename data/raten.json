@@ -1,0 +1,148 @@
+{
+  "id": "raten",
+  "infinitive": "raten",
+  "translation": {
+    "ru": "советовать, угадывать",
+    "en": "to advise, to guess"
+  },
+  "level": "A2",
+  "frequency_rank": 607,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "raten",
+    "present_3sg": "rät",
+    "praeteritum_3sg": "riet",
+    "partizip_2": "geraten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "rate",
+      "du": "rätst",
+      "er_sie_es": "rät",
+      "wir": "raten",
+      "ihr": "ratet",
+      "sie_Sie": "raten",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "riet",
+      "du": "rietest",
+      "er_sie_es": "riet",
+      "wir": "rieten",
+      "ihr": "rietet",
+      "sie_Sie": "rieten"
+    },
+    "perfekt": {
+      "ich": "habe geraten",
+      "du": "hast geraten",
+      "er_sie_es": "hat geraten",
+      "wir": "haben geraten",
+      "ihr": "habt geraten",
+      "sie_Sie": "haben geraten"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "dativ",
+    "preposition": "zu",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich rate dir zu mehr Geduld bei dieser Sache.",
+      "translation": {
+        "ru": "Я советую тебе больше терпения в этом деле.",
+        "en": "I advise you to have more patience in this matter."
+      },
+      "bracket_parts": [
+        "rate"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Rätst du gerne bei schweren Kreuzworträtseln mit?",
+      "translation": {
+        "ru": "Ты любишь разгадывать сложные кроссворды?",
+        "en": "Do you like guessing in difficult crossword puzzles?"
+      },
+      "bracket_parts": [
+        "Rätst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Arzt rät dem Patienten zu einer Kur.",
+      "translation": {
+        "ru": "Врач советует пациенту поехать на лечение.",
+        "en": "The doctor advises the patient to take a cure."
+      },
+      "bracket_parts": [
+        "rät"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir raten jedem Kunden zu einer guten Versicherung.",
+      "translation": {
+        "ru": "Мы советуем каждому клиенту хорошую страховку.",
+        "en": "We advise every customer to get good insurance."
+      },
+      "bracket_parts": [
+        "raten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr ratet das Lösungswort im Spiel blitzschnell.",
+      "translation": {
+        "ru": "Вы молниеносно угадываете слово-разгадку в игре.",
+        "en": "You guess the solution word in the game in a flash."
+      },
+      "bracket_parts": [
+        "ratet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Mein Vater riet mir damals von diesem Kauf ab.",
+      "translation": {
+        "ru": "Мой отец тогда отговорил меня от этой покупки.",
+        "en": "My father advised me against this purchase back then."
+      },
+      "bracket_parts": [
+        "riet"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Du hast das richtige Ergebnis sofort geraten.",
+      "translation": {
+        "ru": "Ты сразу угадал правильный результат.",
+        "en": "You guessed the correct result immediately."
+      },
+      "bracket_parts": [
+        "hast",
+        "geraten"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Rate mal, wen ich heute in der Stadt getroffen habe!",
+      "translation": {
+        "ru": "Угадай-ка, кого я сегодня встретил в городе!",
+        "en": "Guess who I met in town today!"
+      },
+      "bracket_parts": [
+        "Rate"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "verbrennen",
+  "infinitive": "verbrennen",
+  "translation": {
+    "ru": "сжигать, гореть, обжигаться",
+    "en": "to burn, to scorch"
+  },
+  "level": "B1",
+  "frequency_rank": 815,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "irregular",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verbrennt",
+    "preterite_third_singular": "verbrannte",
+    "past_participle": "verbrannt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verbrenne",
+      "du": "verbrennst",
+      "er_sie_es": "verbrennt",
+      "wir": "verbrennen",
+      "ihr": "verbrennt",
+      "sie_Sie": "verbrennen"
+    },
+    "preterite": {
+      "ich": "verbrannte",
+      "du": "verbranntest",
+      "er_sie_es": "verbrannte",
+      "wir": "verbrannten",
+      "ihr": "verbranntet",
+      "sie_Sie": "verbrannten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verbrannt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich verbrenne alte Briefe im Kaminofen.",
+      "translation": {
+        "ru": "Я сжигаю старые письма в камине.",
+        "en": "I burn old letters in the fireplace."
+      },
+      "bracket_parts": [
+        "verbrenne"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verbrennst du dir nicht die Finger an der heißen Pfanne?",
+      "translation": {
+        "ru": "Ты не обожжешь пальцы о горячую сковороду?",
+        "en": "Won't you burn your fingers on the hot pan?"
+      },
+      "bracket_parts": [
+        "Verbrennst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das trockene Holz verbrennt sehr schnell im Feuer.",
+      "translation": {
+        "ru": "Сухое дерево сгорает в огне очень быстро.",
+        "en": "The dry wood burns very quickly in the fire."
+      },
+      "bracket_parts": [
+        "verbrennt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verbrennen Gartenabfälle niemals im Freien.",
+      "translation": {
+        "ru": "Мы никогда не сжигаем садовые отходы на открытом воздухе.",
+        "en": "We never burn garden waste outdoors."
+      },
+      "bracket_parts": [
+        "verbrennen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verbrennt ihr das alte Laub im Garten?",
+      "translation": {
+        "ru": "Вы сжигаете старую листву в саду?",
+        "en": "Are you burning the old leaves in the garden?"
+      },
+      "bracket_parts": [
+        "Verbrennt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Feuer verbrannte die alte Holzhütte bis auf die Grundmauern.",
+      "translation": {
+        "ru": "Огонь сжег старую деревянную хижину до самого основания.",
+        "en": "The fire burned the old wooden hut down to the foundation."
+      },
+      "bracket_parts": [
+        "verbrannte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat sich an der heißen Herdplatte schmerzhaft verbrannt.",
+      "translation": {
+        "ru": "Он болезненно обжегся о горячую кухонную плиту.",
+        "en": "He painfully burned himself on the hot stove plate."
+      },
+      "bracket_parts": [
+        "hat",
+        "verbrannt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verbrenne dir beim Kochen nicht die Hand!",
+      "translation": {
+        "ru": "Не обожги руку при готовке!",
+        "en": "Do not burn your hand while cooking!"
+      },
+      "bracket_parts": [
+        "Verbrenne"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

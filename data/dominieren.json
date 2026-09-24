@@ -1,0 +1,147 @@
+{
+  "id": "dominieren",
+  "infinitive": "dominieren",
+  "translation": {
+    "ru": "доминировать, господствовать, преобладать",
+    "en": "to dominate, to prevail"
+  },
+  "level": "B2",
+  "frequency_rank": 682,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "dominieren",
+    "present_3sg": "dominiert",
+    "praeteritum_3sg": "dominierte",
+    "partizip_2": "dominiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "dominiere",
+      "du": "dominierst",
+      "er_sie_es": "dominiert",
+      "wir": "dominieren",
+      "ihr": "dominiert",
+      "sie_Sie": "dominieren"
+    },
+    "praeteritum": {
+      "ich": "dominierte",
+      "du": "dominiertest",
+      "er_sie_es": "dominierte",
+      "wir": "dominierten",
+      "ihr": "dominiertet",
+      "sie_Sie": "dominierten"
+    },
+    "perfekt": {
+      "ich": "habe dominiert",
+      "du": "hast dominiert",
+      "er_sie_es": "hat dominiert",
+      "wir": "haben dominiert",
+      "ihr": "habt dominiert",
+      "sie_Sie": "haben dominiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich dominiere das Spiel von der ersten Minute an.",
+      "translation": {
+        "ru": "Я доминирую в игре с первой минуты.",
+        "en": "I dominate the game from the first minute."
+      },
+      "bracket_parts": [
+        "dominiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dominierst du die Diskussion mit deinen starken Argumenten?",
+      "translation": {
+        "ru": "Ты доминируешь в дискуссии своими сильными аргументами?",
+        "en": "Do you dominate the discussion with your strong arguments?"
+      },
+      "bracket_parts": [
+        "Dominierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Konzern dominiert den globalen Markt für Smartphones.",
+      "translation": {
+        "ru": "Концерн доминирует на мировом рынке смартфонов.",
+        "en": "The corporation dominates the global smartphone market."
+      },
+      "bracket_parts": [
+        "dominiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir dominieren das Turnier mit einer starken Teamleistung.",
+      "translation": {
+        "ru": "Мы доминируем на турнире благодаря сильной командной игре.",
+        "en": "We dominate the tournament with strong team performance."
+      },
+      "bracket_parts": [
+        "dominieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr dominiert eure Gegner in jeder Hinsicht.",
+      "translation": {
+        "ru": "Вы доминируете над соперниками во всех отношениях.",
+        "en": "You dominate your opponents in every respect."
+      },
+      "bracket_parts": [
+        "dominiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Heimmannschaft dominierte damals die gesamte erste Halbzeit.",
+      "translation": {
+        "ru": "Команда хозяев тогда доминировала весь первый тайм.",
+        "en": "The home team dominated the entire first half back then."
+      },
+      "bracket_parts": [
+        "dominierte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das Thema hat wochenlang die Schlagzeilen dominiert.",
+      "translation": {
+        "ru": "Эта тема неделями доминировала в заголовках новостей.",
+        "en": "The topic dominated the headlines for weeks."
+      },
+      "bracket_parts": [
+        "hat",
+        "dominiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Dominiere den Wettkampf durch Entschlossenheit!",
+      "translation": {
+        "ru": "Доминируй в соревновании благодаря решительности!",
+        "en": "Dominate the competition through determination!"
+      },
+      "bracket_parts": [
+        "Dominiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

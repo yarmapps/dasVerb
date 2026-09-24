@@ -1,0 +1,150 @@
+{
+  "id": "abwenden",
+  "infinitive": "abwenden",
+  "translation": {
+    "ru": "отвращать, предотвращать, отворачивать",
+    "en": "to avert, to prevent, to turn away"
+  },
+  "level": "B2",
+  "frequency_rank": 937,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "wendet ab",
+    "preterite_third_singular": "wendete ab",
+    "past_participle": "abgewendet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wende ab",
+      "du": "wendest ab",
+      "er_sie_es": "wendet ab",
+      "wir": "wenden ab",
+      "ihr": "wendet ab",
+      "sie_Sie": "wenden ab"
+    },
+    "preterite": {
+      "ich": "wendete ab",
+      "du": "wendetest ab",
+      "er_sie_es": "wendete ab",
+      "wir": "wendeten ab",
+      "ihr": "wendetet ab",
+      "sie_Sie": "wendeten ab"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "abgewendet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "von",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich wende meinen Blick beschämt von dem schrecklichen Anblick ab.",
+      "translation": {
+        "ru": "Я смущенно отвожу взгляд от ужасного зрелища.",
+        "en": "I turn my gaze away in embarrassment from the terrible sight."
+      },
+      "bracket_parts": [
+        "wende",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wendest du die drohende Gefahr durch schnelles Handeln ab?",
+      "translation": {
+        "ru": "Предотвратишь ли ты нависшую опасность быстрыми действиями?",
+        "en": "Are you averting the impending danger through quick action?"
+      },
+      "bracket_parts": [
+        "Wendest",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Regierung wendet eine schwere Wirtschaftskrise rechtzeitig ab.",
+      "translation": {
+        "ru": "Правительство своевременно предотвращает тяжелый экономический кризис.",
+        "en": "The government averts a severe economic crisis in good time."
+      },
+      "bracket_parts": [
+        "wendet",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir wenden jeden finanziellen Schaden vom Unternehmen ab.",
+      "translation": {
+        "ru": "Мы предотвращаем любой финансовый ущерб компании.",
+        "en": "We avert any financial damage from the company."
+      },
+      "bracket_parts": [
+        "wenden",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wendet ihr eure Augen bewusst von den Problemen ab?",
+      "translation": {
+        "ru": "Отводите ли вы сознательно глаза от проблем?",
+        "en": "Do you guys consciously turn your eyes away from the problems?"
+      },
+      "bracket_parts": [
+        "Wendet",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Pilot wendete die Katastrophe im letzten Moment erfolgreich ab.",
+      "translation": {
+        "ru": "Пилот в последний момент успешно предотвратил катастрофу.",
+        "en": "The pilot successfully averted the disaster at the last moment."
+      },
+      "bracket_parts": [
+        "wendete",
+        "ab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Gemeinsam haben wir den Bankrott der Firma abgewendet.",
+      "translation": {
+        "ru": "Вместе мы предотвратили банкротство фирмы.",
+        "en": "Together we averted the bankruptcy of the company."
+      },
+      "bracket_parts": [
+        "haben",
+        "abgewendet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Wende die Augen nicht von Menschen in Not ab!",
+      "translation": {
+        "ru": "Не отводи глаз от людей, попавших в беду!",
+        "en": "Do not turn your eyes away from people in need!"
+      },
+      "bracket_parts": [
+        "Wende",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "gleiten",
+  "infinitive": "gleiten",
+  "translation": {
+    "ru": "скользить, плавно двигаться",
+    "en": "to glide, to slide"
+  },
+  "level": "B2",
+  "frequency_rank": 736,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "gleitet",
+    "preterite_third_singular": "glitt",
+    "past_participle": "geglitten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gleite",
+      "du": "gleitest",
+      "er_sie_es": "gleitet",
+      "wir": "gleiten",
+      "ihr": "gleitet",
+      "sie_Sie": "gleiten"
+    },
+    "preterite": {
+      "ich": "glitt",
+      "du": "glittest",
+      "er_sie_es": "glitt",
+      "wir": "glitten",
+      "ihr": "glittet",
+      "sie_Sie": "glitten"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "geglitten"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "über",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich gleite auf Schlittschuhen über das spiegelglatte Eis.",
+      "translation": {
+        "ru": "Я скольжу на коньках по зеркальному льду.",
+        "en": "I glide on ice skates across the mirror-smooth ice."
+      },
+      "bracket_parts": [
+        "gleite"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du gleitest elegant über das glänzende Parkett.",
+      "translation": {
+        "ru": "Ты элегантно скользишь по блестящему паркету.",
+        "en": "You glide elegantly across the shiny parquet."
+      },
+      "bracket_parts": [
+        "gleitest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das weiße Segelboot gleitet sanft über das Wasser.",
+      "translation": {
+        "ru": "Белая парусная лодка мягко скользит по воде.",
+        "en": "The white sailboat glides gently over the water."
+      },
+      "bracket_parts": [
+        "gleitet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gleiten mit dem Fallschirm durch die kühle Luft.",
+      "translation": {
+        "ru": "Мы скользим с парашютом сквозь прохладный воздух.",
+        "en": "We glide with the parachute through the cool air."
+      },
+      "bracket_parts": [
+        "gleiten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr gleitet auf den Skiern den steilen Hang hinab.",
+      "translation": {
+        "ru": "Вы скользите на лыжах вниз по крутому склону.",
+        "en": "You glide down the steep slope on skis."
+      },
+      "bracket_parts": [
+        "gleitet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Vogel glitt lautlos durch die klare Abenddämmerung.",
+      "translation": {
+        "ru": "Птица бесшумно скользила сквозь ясные вечерние сумерки.",
+        "en": "The bird glided silently through the clear dusk."
+      },
+      "bracket_parts": [
+        "glitt"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Schiff ist ruhig in den sicheren Hafen geglitten.",
+      "translation": {
+        "ru": "Корабль спокойно заскользил в безопасную гавань.",
+        "en": "The ship has glided quietly into the safe harbor."
+      },
+      "bracket_parts": [
+        "ist",
+        "geglitten"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gleite vorsichtig über die gefrorene Fläche!",
+      "translation": {
+        "ru": "Скользи осторожно по замерзшей поверхности!",
+        "en": "Glide carefully across the frozen surface!"
+      },
+      "bracket_parts": [
+        "Gleite"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

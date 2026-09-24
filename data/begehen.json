@@ -1,0 +1,138 @@
+{
+  "id": "begehen",
+  "infinitive": "begehen",
+  "translation": {
+    "ru": "совершать (ошибку, преступление), праздновать, инспектировать",
+    "en": "to commit (a crime), to celebrate, to walk along"
+  },
+  "level": "B2",
+  "frequency_rank": 906,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "begeht",
+    "preterite_third_singular": "beging",
+    "past_participle": "begangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "begehe",
+      "du": "begehst",
+      "er_sie_es": "begeht",
+      "wir": "begehen",
+      "ihr": "begeht",
+      "sie_Sie": "begehen"
+    },
+    "preterite": {
+      "ich": "beging",
+      "du": "begingst",
+      "er_sie_es": "beging",
+      "wir": "begingen",
+      "ihr": "begingt",
+      "sie_Sie": "begingen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "begangen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich begehe hoffentlich keinen folgenschweren Denkfehler.",
+      "translation": {
+        "ru": "Я, надеюсь, не совершаю роковой ошибки в рассуждениях.",
+        "en": "I hopefully do not make a grave error in thinking."
+      },
+      "bracket_parts": [
+        "begehe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Begehst du mit deinen Freunden heute ein großes Jubiläum?",
+      "translation": {
+        "ru": "Ты празднуешь с друзьями сегодня большой юбилей?",
+        "en": "Are you celebrating a big anniversary with your friends today?"
+      },
+      "bracket_parts": [
+        "Begehst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Täter begeht einen schwerwiegenden Rechtsbruch.",
+      "translation": {
+        "ru": "Преступник совершает серьезное правонарушение.",
+        "en": "The perpetrator commits a serious breach of the law."
+      },
+      "bracket_parts": [
+        "begeht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir begehen das Fest mit festlicher Musik und gutem Essen.",
+      "translation": {
+        "ru": "Мы празднуем торжество с праздничной музыкой и вкусной едой.",
+        "en": "We celebrate the festival with festive music and good food."
+      },
+      "bracket_parts": [
+        "begehen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Begeht ihr den Jahrestag eures Vereins jedes Jahr feierlich?",
+      "translation": {
+        "ru": "Вы торжественно отмечаете годовщину клуба каждый год?",
+        "en": "Do you guys celebrate the anniversary of your club solemnly every year?"
+      },
+      "bracket_parts": [
+        "Begeht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Diebe begingen den Einbruch mitten in der Nacht.",
+      "translation": {
+        "ru": "Воры совершили кражу со взломом посреди ночи.",
+        "en": "The thieves committed the burglary in the middle of the night."
+      },
+      "bracket_parts": [
+        "begingen"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Angeklagte hat vor Gericht eine schwere Straftat begangen.",
+      "translation": {
+        "ru": "Подсудимый совершил тяжкое преступление.",
+        "en": "The accused committed a serious crime."
+      },
+      "bracket_parts": [
+        "hat",
+        "begangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Begehe nicht denselben Fehler ein zweites Mal!",
+      "translation": {
+        "ru": "Не совершай ту же ошибку второй раз!",
+        "en": "Do not make the same mistake a second time!"
+      },
+      "bracket_parts": [
+        "Begehe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

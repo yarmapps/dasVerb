@@ -1,0 +1,138 @@
+{
+  "id": "beinhalten",
+  "infinitive": "beinhalten",
+  "translation": {
+    "ru": "содержать в себе, охватывать",
+    "en": "to contain, to include, to comprise"
+  },
+  "level": "B2",
+  "frequency_rank": 857,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "beinhaltet",
+    "preterite_third_singular": "beinhaltete",
+    "past_participle": "beinhaltet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beinhalte",
+      "du": "beinhaltet",
+      "er_sie_es": "beinhaltet",
+      "wir": "beinhalten",
+      "ihr": "beinhaltet",
+      "sie_Sie": "beinhalten"
+    },
+    "preterite": {
+      "ich": "beinhaltete",
+      "du": "beinhaltetest",
+      "er_sie_es": "beinhaltete",
+      "wir": "beinhalteten",
+      "ihr": "beinhaltetet",
+      "sie_Sie": "beinhalteten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "beinhaltet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Mein neues Angebot beinhaltet eine kostenlose Beratung.",
+      "translation": {
+        "ru": "Мое новое предложение включает в себя бесплатную консультацию.",
+        "en": "My new offer includes free advice."
+      },
+      "bracket_parts": [
+        "beinhaltet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Welche Leistungen beinhaltet dein gebuchtes Hotelpaket?",
+      "translation": {
+        "ru": "Какие услуги включает твой забронированный отельный пакет?",
+        "en": "What services does your booked hotel package include?"
+      },
+      "bracket_parts": [
+        "beinhaltet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Vertrag beinhaltet strenge Klauseln zum Datenschutz.",
+      "translation": {
+        "ru": "Договор содержит строгие пункты о защите данных.",
+        "en": "The contract contains strict data protection clauses."
+      },
+      "bracket_parts": [
+        "beinhaltet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erstellen einen Kurs, der alle Grundlagen beinhaltet.",
+      "translation": {
+        "ru": "Мы создаем курс, который включает в себя все основы.",
+        "en": "We are creating a course that includes all basics."
+      },
+      "bracket_parts": [
+        "beinhaltet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beinhalten eure Preise bereits die gesetzliche Mehrwertsteuer?",
+      "translation": {
+        "ru": "Ваши цены уже включают установленный законом НДС?",
+        "en": "Do your prices already include statutory VAT?"
+      },
+      "bracket_parts": [
+        "Beinhalten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Entwurf beinhaltete viele innovative Vorschläge.",
+      "translation": {
+        "ru": "Проект содержал много инновационных предложений.",
+        "en": "The draft contained many innovative proposals."
+      },
+      "bracket_parts": [
+        "beinhaltete"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Vereinbarung hat alle wichtigen Bedingungen beinhaltet.",
+      "translation": {
+        "ru": "Соглашение содержало все важные условия.",
+        "en": "The agreement included all important conditions."
+      },
+      "bracket_parts": [
+        "hat",
+        "beinhaltet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Achte darauf, was die Vereinbarung alles beinhaltet!",
+      "translation": {
+        "ru": "Обращай внимание на то, что включает в себя соглашение!",
+        "en": "Pay attention to everything the agreement contains!"
+      },
+      "bracket_parts": [
+        "beinhaltet"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

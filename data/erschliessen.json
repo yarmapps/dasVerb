@@ -1,0 +1,143 @@
+{
+  "id": "erschliessen",
+  "infinitive": "erschließen",
+  "translation": {
+    "ru": "осваивать, открывать (рынки, земли), делать выводы",
+    "en": "to develop, to open up, to infer"
+  },
+  "level": "B2",
+  "frequency_rank": 834,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "erschließt",
+    "preterite_third_singular": "erschloss",
+    "past_participle": "erschlossen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erschließe",
+      "du": "erschließt",
+      "er_sie_es": "erschließt",
+      "wir": "erschließen",
+      "ihr": "erschließt",
+      "sie_Sie": "erschließen"
+    },
+    "preterite": {
+      "ich": "erschloss",
+      "du": "erschlossest",
+      "er_sie_es": "erschloss",
+      "wir": "erschlossen",
+      "ihr": "erschlosst",
+      "sie_Sie": "erschlossen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "erschlossen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "aus",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich erschließe mir die Bedeutung des Wortes aus dem Kontext.",
+      "translation": {
+        "ru": "Я вывожу значение слова из контекста.",
+        "en": "I deduce the meaning of the word from the context."
+      },
+      "bracket_parts": [
+        "erschließe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erschließt du neue Kundengruppen über das Internet?",
+      "translation": {
+        "ru": "Ты привлекаешь новые группы клиентов через интернет?",
+        "en": "Are you opening up new customer groups via the internet?"
+      },
+      "bracket_parts": [
+        "Erschließt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Stadt erschließt ein neues Wohngebiet am Stadtrand.",
+      "translation": {
+        "ru": "Город осваивает новый жилой район на окраине.",
+        "en": "The city develops a new residential area on the outskirts."
+      },
+      "bracket_parts": [
+        "erschließt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erschließen neue Absatzmärkte in Südamerika.",
+      "translation": {
+        "ru": "Мы осваиваем новые рынки сбыта в Южной Америке.",
+        "en": "We are opening up new sales markets in South America."
+      },
+      "bracket_parts": [
+        "erschließen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erschließt ihr das Thema durch eigene Recherchen?",
+      "translation": {
+        "ru": "Вы раскрываете тему собственными исследованиями?",
+        "en": "Are you unlocking the topic through your own research?"
+      },
+      "bracket_parts": [
+        "Erschließt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Forscher erschloss eine bislang unbekannte Höhle.",
+      "translation": {
+        "ru": "Исследователь открыл ранее неизвестную пещеру.",
+        "en": "The researcher opened up a previously unknown cave."
+      },
+      "bracket_parts": [
+        "erschloss"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Unternehmen hat erfolgreich erneuerbare Energiequellen erschlossen.",
+      "translation": {
+        "ru": "Компания успешно освоила возобновляемые источники энергии.",
+        "en": "The company successfully tapped into renewable energy sources."
+      },
+      "bracket_parts": [
+        "hat",
+        "erschlossen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erschließe dir neue Wissensgebiete mit Begeisterung!",
+      "translation": {
+        "ru": "Осваивай новые области знаний с воодушевлением!",
+        "en": "Open up new fields of knowledge with enthusiasm!"
+      },
+      "bracket_parts": [
+        "Erschließe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

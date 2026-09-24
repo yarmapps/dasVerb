@@ -1,0 +1,150 @@
+{
+  "id": "auslegen",
+  "infinitive": "auslegen",
+  "translation": {
+    "ru": "выкладывать, толковать/интерпретировать, раскладывать, оплачивать за кого-то",
+    "en": "to lay out, to interpret, to advance money"
+  },
+  "level": "B2",
+  "frequency_rank": 975,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "legt aus",
+    "preterite_third_singular": "legte aus",
+    "past_participle": "ausgelegt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lege aus",
+      "du": "legst aus",
+      "er_sie_es": "legt aus",
+      "wir": "legen aus",
+      "ihr": "legt aus",
+      "sie_Sie": "legen aus"
+    },
+    "preterite": {
+      "ich": "legte aus",
+      "du": "legtest aus",
+      "er_sie_es": "legte aus",
+      "wir": "legten aus",
+      "ihr": "legtet aus",
+      "sie_Sie": "legten aus"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "ausgelegt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "als",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich lege das Geld für dein Kinoticket gerne erst einmal aus.",
+      "translation": {
+        "ru": "Я с удовольствием сначала внесу (заплачу) деньги за твой билет в кино.",
+        "en": "I gladly advance the money for your movie ticket for now."
+      },
+      "bracket_parts": [
+        "lege",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Legst du die neuen Flyer gut sichtbar am Empfang aus?",
+      "translation": {
+        "ru": "Ты раскладываешь новые флаеры на видном месте на ресепшене?",
+        "en": "Are you laying out the new flyers visibly at the reception?"
+      },
+      "bracket_parts": [
+        "Legst",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Richter legt das Gesetz im Sinne des Verbrauchers aus.",
+      "translation": {
+        "ru": "Судья толкует закон в пользу потребителя.",
+        "en": "The judge interprets the law in favor of the consumer."
+      },
+      "bracket_parts": [
+        "legt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir legen den Boden des Zimmers mit einem weichen Teppich aus.",
+      "translation": {
+        "ru": "Мы застилаем пол комнаты мягким ковром.",
+        "en": "We cover the floor of the room with a soft carpet."
+      },
+      "bracket_parts": [
+        "legen",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Legt ihr seine kritischen Worte etwa als persönliche Beleidigung aus?",
+      "translation": {
+        "ru": "Вы расцениваете (истолковываете) его критические слова как личное оскорбление?",
+        "en": "Are you guys interpreting his critical words as a personal insult?"
+      },
+      "bracket_parts": [
+        "Legt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Handwerker legte den Fußboden mit feinen Fliesen aus.",
+      "translation": {
+        "ru": "Мастер выложил пол качественной плиткой.",
+        "en": "The craftsman tiled the floor with fine tiles."
+      },
+      "bracket_parts": [
+        "legte",
+        "aus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie hat die Informationsbroschüren im gesamten Gebäude ausgelegt.",
+      "translation": {
+        "ru": "Она разложила информационные брошюры по всему зданию.",
+        "en": "She laid out the information brochures throughout the building."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgelegt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lege bitte meine vorsichtige Warnung nicht falsch aus!",
+      "translation": {
+        "ru": "Не истолкуй, пожалуйста, мое осторожное предупреждение превратно!",
+        "en": "Please do not misinterpret my cautious warning!"
+      },
+      "bracket_parts": [
+        "Lege",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

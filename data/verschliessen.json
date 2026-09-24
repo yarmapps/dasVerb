@@ -1,0 +1,147 @@
+{
+  "id": "verschliessen",
+  "infinitive": "verschließen",
+  "translation": {
+    "ru": "запирать (на замок), закрывать, закрывать глаза (на что-л.)",
+    "en": "to lock, to seal, to close one's eyes to"
+  },
+  "level": "B2",
+  "frequency_rank": 672,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verschließen",
+    "present_3sg": "verschließt",
+    "praeteritum_3sg": "verschloss",
+    "partizip_2": "verschlossen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verschließe",
+      "du": "verschließt",
+      "er_sie_es": "verschließt",
+      "wir": "verschließen",
+      "ihr": "verschließt",
+      "sie_Sie": "verschließen"
+    },
+    "praeteritum": {
+      "ich": "verschloss",
+      "du": "verschlossest",
+      "er_sie_es": "verschloss",
+      "wir": "verschlossen",
+      "ihr": "verschlosst",
+      "sie_Sie": "verschlossen"
+    },
+    "perfekt": {
+      "ich": "habe verschlossen",
+      "du": "hast verschlossen",
+      "er_sie_es": "hat verschlossen",
+      "wir": "haben verschlossen",
+      "ihr": "habt verschlossen",
+      "sie_Sie": "haben verschlossen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "vor",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich verschließe die Eingangstür jeden Abend mit zwei Umdrehungen.",
+      "translation": {
+        "ru": "Я запираю входную дверь каждый вечер на два оборота.",
+        "en": "I lock the front door every evening with two turns."
+      },
+      "bracket_parts": [
+        "verschließe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verschließt du den Safe immer sorgfältig?",
+      "translation": {
+        "ru": "Ты всегда тщательно запираешь сейф?",
+        "en": "Do you always lock the safe carefully?"
+      },
+      "bracket_parts": [
+        "Verschließt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Niemand verschließt die Augen vor der offensichtlichen Wahrheit.",
+      "translation": {
+        "ru": "Никто не закрывает глаза на очевидную правду.",
+        "en": "Nobody closes their eyes to the obvious truth."
+      },
+      "bracket_parts": [
+        "verschließt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verschließen alle Fenster vor dem Unwetter.",
+      "translation": {
+        "ru": "Мы закрываем наглухо все окна перед грозой.",
+        "en": "We seal all windows before the storm."
+      },
+      "bracket_parts": [
+        "verschließen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr verschließt euch nicht neuen Ideen und Vorschlägen.",
+      "translation": {
+        "ru": "Вы не закрываетесь от новых идей и предложений.",
+        "en": "You do not close yourselves off to new ideas and suggestions."
+      },
+      "bracket_parts": [
+        "verschließt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Hausmeister verschloss damals alle Tore pünktlich um zehn Uhr.",
+      "translation": {
+        "ru": "Завхоз тогда запер все ворота ровно в десять часов.",
+        "en": "The caretaker locked all gates punctually at ten o'clock back then."
+      },
+      "bracket_parts": [
+        "verschloss"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Er hat die Wertsachen im Schrank sicher verschlossen.",
+      "translation": {
+        "ru": "Он надежно запер ценности в шкафу.",
+        "en": "He locked the valuables away securely in the cabinet."
+      },
+      "bracket_parts": [
+        "hat",
+        "verschlossen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verschließe bitte die Terrassentür, wenn du gehst!",
+      "translation": {
+        "ru": "Запри, пожалуйста, дверь на террасу, когда будешь уходить!",
+        "en": "Please lock the patio door when you leave!"
+      },
+      "bracket_parts": [
+        "Verschließe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

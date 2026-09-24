@@ -1,0 +1,147 @@
+{
+  "id": "aergern_sich",
+  "infinitive": "ärgern",
+  "translation": {
+    "ru": "злиться, сердиться, раздражаться",
+    "en": "to be annoyed, to be angry"
+  },
+  "level": "A1",
+  "frequency_rank": 614,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "ärgern",
+    "present_3sg": "ärgert sich",
+    "praeteritum_3sg": "ärgerte sich",
+    "partizip_2": "geärgert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ärgere mich",
+      "du": "ärgerst dich",
+      "er_sie_es": "ärgert sich",
+      "wir": "ärgern uns",
+      "ihr": "ärgert euch",
+      "sie_Sie": "ärgern sich"
+    },
+    "praeteritum": {
+      "ich": "ärgerte mich",
+      "du": "ärgertest dich",
+      "er_sie_es": "ärgerte sich",
+      "wir": "ärgerten uns",
+      "ihr": "ärgertet euch",
+      "sie_Sie": "ärgerten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich geärgert",
+      "du": "hast dich geärgert",
+      "er_sie_es": "hat sich geärgert",
+      "wir": "haben uns geärgert",
+      "ihr": "habt euch geärgert",
+      "sie_Sie": "haben sich geärgert"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich ärgere mich oft über den dichten Berufsverkehr.",
+      "translation": {
+        "ru": "Я часто злюсь на плотное движение в час пик.",
+        "en": "I often get annoyed about the heavy rush-hour traffic."
+      },
+      "bracket_parts": [
+        "ärgere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ärgerst du dich über die verspätete Bahn?",
+      "translation": {
+        "ru": "Ты сердишься из-за опоздания поезда?",
+        "en": "Are you annoyed about the delayed train?"
+      },
+      "bracket_parts": [
+        "Ärgerst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er ärgert sich über seine eigene Nachlässigkeit.",
+      "translation": {
+        "ru": "Он злится на свою собственную небрежность.",
+        "en": "He is angry about his own carelessness."
+      },
+      "bracket_parts": [
+        "ärgert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir ärgern uns nicht über Dinge, die wir nicht ändern können.",
+      "translation": {
+        "ru": "Мы не злимся на вещи, которые не можем изменить.",
+        "en": "We do not get annoyed about things we cannot change."
+      },
+      "bracket_parts": [
+        "ärgern"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr ärgert euch grundlos über die Kritik.",
+      "translation": {
+        "ru": "Вы без повода злитесь на критику.",
+        "en": "You are getting upset about the criticism without reason."
+      },
+      "bracket_parts": [
+        "ärgert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Chef ärgerte sich damals sehr über die Fehler im Bericht.",
+      "translation": {
+        "ru": "Начальник тогда очень разозлился на ошибки в отчете.",
+        "en": "The boss was very annoyed about the mistakes in the report back then."
+      },
+      "bracket_parts": [
+        "ärgerte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie hat sich furchtbar über den Nachbarn geärgert.",
+      "translation": {
+        "ru": "Она ужасно разозлилась на соседа.",
+        "en": "She was terribly annoyed with the neighbor."
+      },
+      "bracket_parts": [
+        "hat",
+        "geärgert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Ärgere dich nicht über Kleinigkeiten!",
+      "translation": {
+        "ru": "Не расстраивайся и не злись по мелочам!",
+        "en": "Do not get upset over trivial matters!"
+      },
+      "bracket_parts": [
+        "Ärgere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

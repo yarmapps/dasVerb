@@ -1,0 +1,147 @@
+{
+  "id": "verbleiben",
+  "infinitive": "verbleiben",
+  "translation": {
+    "ru": "оставаться (в живых/в должности/договариваться)",
+    "en": "to remain, to stay, to agree on"
+  },
+  "level": "B2",
+  "frequency_rank": 669,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verbleiben",
+    "present_3sg": "verbleibt",
+    "praeteritum_3sg": "verblieb",
+    "partizip_2": "verblieben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verbleibe",
+      "du": "verbleibst",
+      "er_sie_es": "verbleibt",
+      "wir": "verbleiben",
+      "ihr": "verbleibt",
+      "sie_Sie": "verbleiben"
+    },
+    "praeteritum": {
+      "ich": "verblieb",
+      "du": "verbliebst",
+      "er_sie_es": "verblieb",
+      "wir": "verblieben",
+      "ihr": "verbliebt",
+      "sie_Sie": "verblieben"
+    },
+    "perfekt": {
+      "ich": "bin verblieben",
+      "du": "bist verblieben",
+      "er_sie_es": "ist verblieben",
+      "wir": "sind verblieben",
+      "ihr": "seid verblieben",
+      "sie_Sie": "sind verblieben"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "bei",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich verbleibe mit freundlichen Grüßen bis zu unserem nächsten Treffen.",
+      "translation": {
+        "ru": "Я остаюсь с наилучшими пожеланиями до нашей следующей встречи.",
+        "en": "I remain with kind regards until our next meeting."
+      },
+      "bracket_parts": [
+        "verbleibe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verbleibst du bei deiner ursprünglichen Meinung?",
+      "translation": {
+        "ru": "Ты остаешься при своем первоначальном мнении?",
+        "en": "Do you remain with your original opinion?"
+      },
+      "bracket_parts": [
+        "Verbleibst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Nur noch wenig Zeit verbleibt für die Vorbereitung.",
+      "translation": {
+        "ru": "Остается лишь мало времени на подготовку.",
+        "en": "Only little time remains for preparation."
+      },
+      "bracket_parts": [
+        "verbleibt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verbleiben so, wie wir es besprochen haben.",
+      "translation": {
+        "ru": "Мы договариваемся так, как обсудили.",
+        "en": "We leave it as we discussed."
+      },
+      "bracket_parts": [
+        "verbleiben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr verbleibt bis Ende des Jahres im Amt.",
+      "translation": {
+        "ru": "Вы остаетесь на должности до конца года.",
+        "en": "You remain in office until the end of the year."
+      },
+      "bracket_parts": [
+        "verbleibt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Restbetrag verblieb damals auf dem Sparkonto.",
+      "translation": {
+        "ru": "Остаток суммы тогда остался на сберегательном счете.",
+        "en": "The remaining amount stayed on the savings account back then."
+      },
+      "bracket_parts": [
+        "verblieb"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Wie seid ihr bei der gestrigen Besprechung verblieben?",
+      "translation": {
+        "ru": "О чем вы в итоге договорились на вчерашнем совещании?",
+        "en": "What did you agree upon at yesterday's meeting?"
+      },
+      "bracket_parts": [
+        "seid",
+        "verblieben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verbleibe bitte standhaft bei deinen Grundsätzen!",
+      "translation": {
+        "ru": "Оставайся, пожалуйста, стойким в своих принципах!",
+        "en": "Please remain steadfast in your principles!"
+      },
+      "bracket_parts": [
+        "Verbleibe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "wecken",
+  "infinitive": "wecken",
+  "translation": {
+    "ru": "будить, пробуждать",
+    "en": "to wake up, awaken, arouse"
+  },
+  "level": "A1",
+  "frequency_rank": 543,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "wecken",
+    "present_3sg": "weckt",
+    "praeteritum_3sg": "weckte",
+    "partizip_2": "geweckt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wecke",
+      "du": "weckst",
+      "er_sie_es": "weckt",
+      "wir": "wecken",
+      "ihr": "weckt",
+      "sie_Sie": "wecken"
+    },
+    "praeteritum": {
+      "ich": "weckte",
+      "du": "wecktest",
+      "er_sie_es": "weckte",
+      "wir": "weckten",
+      "ihr": "wecktet",
+      "sie_Sie": "weckten"
+    },
+    "perfekt": {
+      "ich": "habe geweckt",
+      "du": "hast geweckt",
+      "er_sie_es": "hat geweckt",
+      "wir": "haben geweckt",
+      "ihr": "habt geweckt",
+      "sie_Sie": "haben geweckt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich wecke meine schlafenden Kinder jeden Morgen um sieben Uhr.",
+      "translation": {
+        "ru": "Каждое утро в семь часов я бужу своих спящих детей.",
+        "en": "I wake up my sleeping children every morning at seven o'clock."
+      },
+      "bracket_parts": [
+        "wecke"
+      ],
+      "akkusativ_parts": [
+        "meine schlafenden Kinder"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du weckst deinen müden Bruder mit einem lauten Rufen.",
+      "translation": {
+        "ru": "Ты будишь своего сонного брата громким окриком.",
+        "en": "You wake your tired brother with a loud call."
+      },
+      "bracket_parts": [
+        "weckst"
+      ],
+      "akkusativ_parts": [
+        "deinen müden Bruder"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der laute Wecker weckt die ganze Familie zuverlässig.",
+      "translation": {
+        "ru": "Громкий будильник надежно будит всю семью.",
+        "en": "The loud alarm clock reliably wakes the whole family."
+      },
+      "bracket_parts": [
+        "weckt"
+      ],
+      "akkusativ_parts": [
+        "die ganze Familie"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir wecken neues Interesse für dieses wichtige Thema.",
+      "translation": {
+        "ru": "Мы пробуждаем новый интерес к этой важной теме.",
+        "en": "We arouse new interest in this important topic."
+      },
+      "bracket_parts": [
+        "wecken"
+      ],
+      "akkusativ_parts": [
+        "neues Interesse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr weckt die Gäste im Hotel zur vereinbarten Zeit.",
+      "translation": {
+        "ru": "Вы будите гостей в отеле в назначенное время.",
+        "en": "You wake the guests in the hotel at the agreed time."
+      },
+      "bracket_parts": [
+        "weckt"
+      ],
+      "akkusativ_parts": [
+        "die Gäste"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie weckten damals große Hoffnungen auf einen schnellen Frieden.",
+      "translation": {
+        "ru": "Они тогда пробудили большие надежды на скорый мир.",
+        "en": "They aroused great hopes for a speedy peace back then."
+      },
+      "bracket_parts": [
+        "weckten"
+      ],
+      "akkusativ_parts": [
+        "große Hoffnungen"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das Vogelgezwitscher am Morgen hat mich sanft geweckt.",
+      "translation": {
+        "ru": "Утреннее щебетание птиц мягко разбудило меня.",
+        "en": "The birdsong in the morning gently woke me up."
+      },
+      "bracket_parts": [
+        "hat",
+        "geweckt"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Wecke mich morgen bitte rechtzeitig vor der Abreise!",
+      "translation": {
+        "ru": "Разбуди меня завтра вовремя перед отъездом, пожалуйста!",
+        "en": "Please wake me up on time before departure tomorrow!"
+      },
+      "bracket_parts": [
+        "Wecke"
+      ],
+      "akkusativ_parts": [
+        "mich"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

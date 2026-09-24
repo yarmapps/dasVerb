@@ -1,0 +1,150 @@
+{
+  "id": "aufklaeren",
+  "infinitive": "aufklären",
+  "translation": {
+    "ru": "выяснять, раскрывать (преступление), разъяснять",
+    "en": "to clear up, to enlighten, to solve (a crime)"
+  },
+  "level": "B2",
+  "frequency_rank": 822,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "klärt auf",
+    "preterite_third_singular": "klärte auf",
+    "past_participle": "aufgeklärt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "kläre auf",
+      "du": "klärst auf",
+      "er_sie_es": "klärt auf",
+      "wir": "klären auf",
+      "ihr": "klärt auf",
+      "sie_Sie": "klären auf"
+    },
+    "preterite": {
+      "ich": "klärte auf",
+      "du": "klärtest auf",
+      "er_sie_es": "klärte auf",
+      "wir": "klärten auf",
+      "ihr": "klärtet auf",
+      "sie_Sie": "klärten auf"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "aufgeklärt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "über",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich kläre das Missverständnis sofort im Gespräch auf.",
+      "translation": {
+        "ru": "Я сразу проясняю недоразумение в беседе.",
+        "en": "I clear up the misunderstanding immediately in conversation."
+      },
+      "bracket_parts": [
+        "kläre",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Klärst du die Schüler über die Gefahren im Internet auf?",
+      "translation": {
+        "ru": "Ты разъясняешь ученикам опасности в интернете?",
+        "en": "Are you enlightening the students about the dangers on the internet?"
+      },
+      "bracket_parts": [
+        "Klärst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei klärt den mysteriösen Kriminalfall auf.",
+      "translation": {
+        "ru": "Полиция раскрывает загадочное уголовное дело.",
+        "en": "The police solve the mysterious criminal case."
+      },
+      "bracket_parts": [
+        "klärt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir klären die Bürger über ihre gesetzlichen Rechte auf.",
+      "translation": {
+        "ru": "Мы информируем граждан об их законных правах.",
+        "en": "We enlighten citizens about their legal rights."
+      },
+      "bracket_parts": [
+        "klären",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Klärt ihr die Hintergründe des Streits gründlich auf?",
+      "translation": {
+        "ru": "Вы тщательно выясняете подоплеку ссоры?",
+        "en": "Are you thoroughly clearing up the background of the argument?"
+      },
+      "bracket_parts": [
+        "Klärt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Arzt klärte den Patienten vor der Operation ausführlich auf.",
+      "translation": {
+        "ru": "Врач подробно проинформировал пациента перед операцией.",
+        "en": "The doctor enlightened the patient in detail before the surgery."
+      },
+      "bracket_parts": [
+        "klärte",
+        "auf"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Ermittler haben das Verbrechen schnell aufgeklärt.",
+      "translation": {
+        "ru": "Следователи быстро раскрыли преступление.",
+        "en": "The investigators quickly solved the crime."
+      },
+      "bracket_parts": [
+        "haben",
+        "aufgeklärt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Kläre die offenen Fragen bitte vor Beginn des Projekts auf!",
+      "translation": {
+        "ru": "Выясни открытые вопросы до начала проекта, пожалуйста!",
+        "en": "Please clear up the open questions before starting the project!"
+      },
+      "bracket_parts": [
+        "Kläre",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "erteilen",
+  "infinitive": "erteilen",
+  "translation": {
+    "ru": "давать (урок/разрешение), выдавать",
+    "en": "to grant, to give, to issue"
+  },
+  "level": "B2",
+  "frequency_rank": 579,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erteilen",
+    "present_3sg": "erteilt",
+    "praeteritum_3sg": "erteilte",
+    "partizip_2": "erteilt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erteile",
+      "du": "erteilst",
+      "er_sie_es": "erteilt",
+      "wir": "erteilen",
+      "ihr": "erteilt",
+      "sie_Sie": "erteilen"
+    },
+    "praeteritum": {
+      "ich": "erteilte",
+      "du": "erteiltest",
+      "er_sie_es": "erteilte",
+      "wir": "erteilten",
+      "ihr": "erteiltet",
+      "sie_Sie": "erteilten"
+    },
+    "perfekt": {
+      "ich": "habe erteilt",
+      "du": "hast erteilt",
+      "er_sie_es": "hat erteilt",
+      "wir": "haben erteilt",
+      "ihr": "habt erteilt",
+      "sie_Sie": "haben erteilt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich erteile dem Schüler privaten Klavierunterricht.",
+      "translation": {
+        "ru": "Я даю ученику частные уроки фортепиано.",
+        "en": "I give the student private piano lessons."
+      },
+      "bracket_parts": [
+        "erteile"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erteilst du ihm die Erlaubnis für die Reise?",
+      "translation": {
+        "ru": "Ты дашь ему разрешение на поездку?",
+        "en": "Do you grant him permission for the trip?"
+      },
+      "bracket_parts": [
+        "Erteilst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Behörde erteilt eine offizielle Genehmigung.",
+      "translation": {
+        "ru": "Ведомство выдает официальное разрешение.",
+        "en": "The authority issues an official permit."
+      },
+      "bracket_parts": [
+        "erteilt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erteilen der Firma einen großen Auftrag.",
+      "translation": {
+        "ru": "Мы даем фирме крупный заказ.",
+        "en": "We award a large order to the company."
+      },
+      "bracket_parts": [
+        "erteilen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr erteilt gute Ratschläge für das Projekt.",
+      "translation": {
+        "ru": "Вы даете хорошие советы для проекта.",
+        "en": "You give good advice for the project."
+      },
+      "bracket_parts": [
+        "erteilt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Chef erteilte damals klare Anweisungen.",
+      "translation": {
+        "ru": "Начальник тогда дал четкие указания.",
+        "en": "The boss issued clear instructions back then."
+      },
+      "bracket_parts": [
+        "erteilte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Stadt hat dem Bauherrn die Baugenehmigung erteilt.",
+      "translation": {
+        "ru": "Город выдал застройщику разрешение на строительство.",
+        "en": "The city has granted the building permit to the builder."
+      },
+      "bracket_parts": [
+        "hat",
+        "erteilt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erteile dem Praktikanten eine nützliche Auskunft!",
+      "translation": {
+        "ru": "Дай стажеру полезную справку!",
+        "en": "Give the intern useful information!"
+      },
+      "bracket_parts": [
+        "Erteile"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

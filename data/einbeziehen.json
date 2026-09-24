@@ -1,0 +1,154 @@
+{
+  "id": "einbeziehen",
+  "infinitive": "einbeziehen",
+  "translation": {
+    "ru": "включать, привлекать, вовлекать",
+    "en": "to include, to involve, to integrate"
+  },
+  "level": "B2",
+  "frequency_rank": 603,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einbeziehen",
+    "present_3sg": "bezieht ein",
+    "praeteritum_3sg": "bezog ein",
+    "partizip_2": "einbezogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beziehe ein",
+      "du": "beziehst ein",
+      "er_sie_es": "bezieht ein",
+      "wir": "beziehen ein",
+      "ihr": "bezieht ein",
+      "sie_Sie": "beziehen ein"
+    },
+    "praeteritum": {
+      "ich": "bezog ein",
+      "du": "bezogst ein",
+      "er_sie_es": "bezog ein",
+      "wir": "bezogen ein",
+      "ihr": "bezogt ein",
+      "sie_Sie": "bezogen ein"
+    },
+    "perfekt": {
+      "ich": "habe einbezogen",
+      "du": "hast einbezogen",
+      "er_sie_es": "hat einbezogen",
+      "wir": "haben einbezogen",
+      "ihr": "habt einbezogen",
+      "sie_Sie": "haben einbezogen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "in",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich beziehe alle Mitarbeiter in die Entscheidung ein.",
+      "translation": {
+        "ru": "Я привлекаю всех сотрудников к принятию решения.",
+        "en": "I include all employees in the decision."
+      },
+      "bracket_parts": [
+        "beziehe",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beziehst du deine Familie in deine Pläne ein?",
+      "translation": {
+        "ru": "Ты посвящаешь свою семью в свои планы?",
+        "en": "Do you involve your family in your plans?"
+      },
+      "bracket_parts": [
+        "Beziehst",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Lehrer bezieht alle Schüler aktiv in den Unterricht ein.",
+      "translation": {
+        "ru": "Учитель активно вовлекает всех учеников в урок.",
+        "en": "The teacher actively involves all students in the class."
+      },
+      "bracket_parts": [
+        "bezieht",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beziehen die aktuellen Kosten in unsere Kalkulation ein.",
+      "translation": {
+        "ru": "Мы включаем текущие расходы в нашу калькуляцию.",
+        "en": "We include the current costs in our calculation."
+      },
+      "bracket_parts": [
+        "beziehen",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr bezieht die Nachbarn in das Fest ein.",
+      "translation": {
+        "ru": "Вы привлекаете соседей к празднику.",
+        "en": "You involve the neighbors in the celebration."
+      },
+      "bracket_parts": [
+        "bezieht",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Forscher bezogen damals alle Faktoren in die Studie ein.",
+      "translation": {
+        "ru": "Исследователи тогда включили все факторы в исследование.",
+        "en": "The researchers included all factors in the study back then."
+      },
+      "bracket_parts": [
+        "bezogen",
+        "ein"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben die Experten frühzeitig in das Projekt einbezogen.",
+      "translation": {
+        "ru": "Они заблаговременно привлекли экспертов к проекту.",
+        "en": "They involved the experts in the project at an early stage."
+      },
+      "bracket_parts": [
+        "haben",
+        "einbezogen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Beziehe bitte auch die anderen Meinungen mit ein!",
+      "translation": {
+        "ru": "Учитывай, пожалуйста, и другие мнения тоже!",
+        "en": "Please include the other opinions as well!"
+      },
+      "bracket_parts": [
+        "Beziehe",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

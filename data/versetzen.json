@@ -1,0 +1,147 @@
+{
+  "id": "versetzen",
+  "infinitive": "versetzen",
+  "translation": {
+    "ru": "переводить (в др. класс/отдел), перемещать, прогуливать встречу/динамить",
+    "en": "to transfer, to relocate, to stand someone up"
+  },
+  "level": "B2",
+  "frequency_rank": 634,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "versetzen",
+    "present_3sg": "versetzt",
+    "praeteritum_3sg": "versetzte",
+    "partizip_2": "versetzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "versetze",
+      "du": "versetzt",
+      "er_sie_es": "versetzt",
+      "wir": "versetzen",
+      "ihr": "versetzt",
+      "sie_Sie": "versetzen"
+    },
+    "praeteritum": {
+      "ich": "versetzte",
+      "du": "versetztest",
+      "er_sie_es": "versetzte",
+      "wir": "versetzten",
+      "ihr": "versetztet",
+      "sie_Sie": "versetzten"
+    },
+    "perfekt": {
+      "ich": "habe versetzt",
+      "du": "hast versetzt",
+      "er_sie_es": "hat versetzt",
+      "wir": "haben versetzt",
+      "ihr": "habt versetzt",
+      "sie_Sie": "haben versetzt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "in",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich versetze mich oft in die Lage anderer Menschen.",
+      "translation": {
+        "ru": "Я часто ставлю себя на место других людей.",
+        "en": "I often put myself in other people's shoes."
+      },
+      "bracket_parts": [
+        "versetze"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Versetzt du deinen Freund heute beim Treffen?",
+      "translation": {
+        "ru": "Ты продинамишь своего друга сегодня на встрече?",
+        "en": "Are you standing your friend up at the meeting today?"
+      },
+      "bracket_parts": [
+        "Versetzt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Firma versetzt den Ingenieur in die neue Filiale nach Berlin.",
+      "translation": {
+        "ru": "Фирма переводит инженера в новый филиал в Берлине.",
+        "en": "The company transfers the engineer to the new branch in Berlin."
+      },
+      "bracket_parts": [
+        "versetzt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir versetzen den Schrank an die andere Wand.",
+      "translation": {
+        "ru": "Мы переставляем шкаф к другой стене.",
+        "en": "We move the wardrobe to the other wall."
+      },
+      "bracket_parts": [
+        "versetzen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr versetzt die Schüler nach den guten Noten in die nächste Klasse.",
+      "translation": {
+        "ru": "Вы переводите учеников после хороших оценок в следующий класс.",
+        "en": "You promote the students to the next grade after good marks."
+      },
+      "bracket_parts": [
+        "versetzt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Knall versetzte damals alle Menschen in Schrecken.",
+      "translation": {
+        "ru": "Грохот тогда поверг всех людей в ужас.",
+        "en": "The bang struck fear into all the people back then."
+      },
+      "bracket_parts": [
+        "versetzte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie hat mich gestern leider ganz umsonst warten lassen und versetzt.",
+      "translation": {
+        "ru": "Она вчера, к сожалению, заставила меня зря ждать и не пришла.",
+        "en": "She unfortunately stood me up yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "versetzt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Versetze dich einmal in meine Situation!",
+      "translation": {
+        "ru": "Поставь-ка себя в мою ситуацию!",
+        "en": "Put yourself in my situation for once!"
+      },
+      "bracket_parts": [
+        "Versetze"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

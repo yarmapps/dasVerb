@@ -1,0 +1,147 @@
+{
+  "id": "beklagen_sich",
+  "infinitive": "beklagen",
+  "translation": {
+    "ru": "жаловаться, сетовать, оплакивать",
+    "en": "to complain, to lament, to deplore"
+  },
+  "level": "B1",
+  "frequency_rank": 703,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "beklagen",
+    "present_3sg": "beklagt sich",
+    "praeteritum_3sg": "beklagte sich",
+    "partizip_2": "beklagt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beklage mich",
+      "du": "beklagst dich",
+      "er_sie_es": "beklagt sich",
+      "wir": "beklagen uns",
+      "ihr": "beklagt euch",
+      "sie_Sie": "beklagen sich"
+    },
+    "praeteritum": {
+      "ich": "beklagte mich",
+      "du": "beklagtest dich",
+      "er_sie_es": "beklagte sich",
+      "wir": "beklagten uns",
+      "ihr": "beklagtet euch",
+      "sie_Sie": "beklagten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich beklagt",
+      "du": "hast dich beklagt",
+      "er_sie_es": "hat sich beklagt",
+      "wir": "haben uns beklagt",
+      "ihr": "habt euch beklagt",
+      "sie_Sie": "haben sich beklagt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich beklage mich selten über das schlechte Wetter.",
+      "translation": {
+        "ru": "Я редко жалуюсь на плохую погоду.",
+        "en": "I rarely complain about the bad weather."
+      },
+      "bracket_parts": [
+        "beklage"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beklagst du dich beim Vermieter über den ständigen Lärm?",
+      "translation": {
+        "ru": "Ты жалуешься арендодателю на постоянный шум?",
+        "en": "Are you complaining to the landlord about the constant noise?"
+      },
+      "bracket_parts": [
+        "Beklagst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Gast beklagt sich über den langsamen Service im Lokal.",
+      "translation": {
+        "ru": "Гость жалуется на медленное обслуживание в заведении.",
+        "en": "The guest complains about the slow service in the restaurant."
+      },
+      "bracket_parts": [
+        "beklagt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beklagen uns nicht über die anspruchsvollen Aufgaben.",
+      "translation": {
+        "ru": "Мы не жалуемся на сложные задачи.",
+        "en": "We do not complain about the demanding tasks."
+      },
+      "bracket_parts": [
+        "beklagen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr beklagt euch über die Verspätung des Zuges.",
+      "translation": {
+        "ru": "Вы сетуете на опоздание поезда.",
+        "en": "You are complaining about the train delay."
+      },
+      "bracket_parts": [
+        "beklagt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Viele Bürger beklagten sich damals über die steigenden Steuern.",
+      "translation": {
+        "ru": "Многие граждане тогда жаловались на растущие налоги.",
+        "en": "Many citizens complained about rising taxes back then."
+      },
+      "bracket_parts": [
+        "beklagten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Kunden haben sich mehrfach über die Qualität des Produkts beklagt.",
+      "translation": {
+        "ru": "Клиенты неоднократно жаловались на качество продукта.",
+        "en": "Customers have complained multiple times about product quality."
+      },
+      "bracket_parts": [
+        "haben",
+        "beklagt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Beklage dich nicht grundlos bei deinen Freunden!",
+      "translation": {
+        "ru": "Не жалуйся без повода своим друзьям!",
+        "en": "Do not complain to your friends without reason!"
+      },
+      "bracket_parts": [
+        "Beklage"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

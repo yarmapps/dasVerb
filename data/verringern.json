@@ -1,0 +1,143 @@
+{
+  "id": "verringern",
+  "infinitive": "verringern",
+  "translation": {
+    "ru": "уменьшать, сокращать",
+    "en": "to reduce, to decrease, to diminish"
+  },
+  "level": "B2",
+  "frequency_rank": 769,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verringert",
+    "preterite_third_singular": "verringerte",
+    "past_participle": "verringert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verringere",
+      "du": "verringerst",
+      "er_sie_es": "verringert",
+      "wir": "verringern",
+      "ihr": "verringert",
+      "sie_Sie": "verringern"
+    },
+    "preterite": {
+      "ich": "verringerte",
+      "du": "verringertest",
+      "er_sie_es": "verringerte",
+      "wir": "verringerten",
+      "ihr": "verringertet",
+      "sie_Sie": "verringerten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verringert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "um",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich verringere meinen täglichen Kaffeekonsum schrittweise.",
+      "translation": {
+        "ru": "Я постепенно сокращаю ежедневное потребление кофе.",
+        "en": "I gradually reduce my daily coffee consumption."
+      },
+      "bracket_parts": [
+        "verringere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verringerst du die Geschwindigkeit vor der Kurve?",
+      "translation": {
+        "ru": "Ты снижаешь скорость перед поворотом?",
+        "en": "Are you reducing your speed before the curve?"
+      },
+      "bracket_parts": [
+        "Verringerst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das neue Gesetz verringert die bürokratischen Hürden.",
+      "translation": {
+        "ru": "Новый закон снижает бюрократические препятствия.",
+        "en": "The new law reduces bureaucratic hurdles."
+      },
+      "bracket_parts": [
+        "verringert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verringern die Produktionskosten durch moderne Technik.",
+      "translation": {
+        "ru": "Мы снижаем производственные затраты за счет современных технологий.",
+        "en": "We reduce production costs through modern technology."
+      },
+      "bracket_parts": [
+        "verringern"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verringert ihr den Energieverbrauch im Betrieb?",
+      "translation": {
+        "ru": "Вы снижаете энергопотребление на предприятии?",
+        "en": "Are you reducing energy consumption in the plant?"
+      },
+      "bracket_parts": [
+        "Verringert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Maßnahme verringerte die Zahl der Unfälle deutlich.",
+      "translation": {
+        "ru": "Эта мера значительно снизила число аварий.",
+        "en": "The measure significantly reduced the number of accidents."
+      },
+      "bracket_parts": [
+        "verringerte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Unternehmen hat seinen CO2-Ausstoß drastisch verringert.",
+      "translation": {
+        "ru": "Предприятие резко сократило выбросы углекислого газа.",
+        "en": "The company has drastically reduced its CO2 emissions."
+      },
+      "bracket_parts": [
+        "hat",
+        "verringert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verringere das Risiko durch gute Vorbereitung!",
+      "translation": {
+        "ru": "Снижай риск хорошей подготовкой!",
+        "en": "Reduce the risk through good preparation!"
+      },
+      "bracket_parts": [
+        "Verringere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "vernehmen",
+  "infinitive": "vernehmen",
+  "translation": {
+    "ru": "допрашивать, слышать, воспринимать на слух",
+    "en": "to interrogate, to hear, to examine"
+  },
+  "level": "B2",
+  "frequency_rank": 969,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "vernimmt",
+    "preterite_third_singular": "vernahm",
+    "past_participle": "vernommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vernehme",
+      "du": "vernimmst",
+      "er_sie_es": "vernimmt",
+      "wir": "vernehmen",
+      "ihr": "vernehmt",
+      "sie_Sie": "vernehmen"
+    },
+    "preterite": {
+      "ich": "vernahm",
+      "du": "vernahmst",
+      "er_sie_es": "vernahm",
+      "wir": "vernahmen",
+      "ihr": "vernahmt",
+      "sie_Sie": "vernahmen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "vernommen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich vernehme als Richter die Zeugen des Vorfalls sehr gewissenhaft.",
+      "translation": {
+        "ru": "Я как судья очень добросовестно допрашиваю свидетелей происшествия.",
+        "en": "As a judge, I interrogate the witnesses of the incident very conscientiously."
+      },
+      "bracket_parts": [
+        "vernehme"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vernimmst du in der Ferne das dumpfe Grollen des Donners?",
+      "translation": {
+        "ru": "Слышишь ли ты вдали глухой раскат грома?",
+        "en": "Do you hear the dull rumble of thunder in the distance?"
+      },
+      "bracket_parts": [
+        "Vernimmst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Kriminalpolizei vernimmt den Hauptverdächtigen im Verhörraum.",
+      "translation": {
+        "ru": "Криминальная полиция допрашивает главного подозреваемого в комнате для допросов.",
+        "en": "The criminal police interrogate the main suspect in the interrogation room."
+      },
+      "bracket_parts": [
+        "vernimmt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir vernehmen heute alle Beteiligten des schweren Unfalls.",
+      "translation": {
+        "ru": "Мы допрашиваем сегодня всех участников тяжелой аварии.",
+        "en": "We are interrogating all parties involved in the serious accident today."
+      },
+      "bracket_parts": [
+        "vernehmen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vernehmt ihr die leisen Stimmen im Nebenzimmer?",
+      "translation": {
+        "ru": "Слышите ли вы тихие голоса в соседней комнате?",
+        "en": "Do you guys hear the quiet voices in the next room?"
+      },
+      "bracket_parts": [
+        "Vernehmt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Ermittler vernahm den Verdächtigen stundenlang ohne Unterbrechung.",
+      "translation": {
+        "ru": "Следователь допрашивал подозреваемого часами без перерыва.",
+        "en": "The investigator questioned the suspect for hours without interruption."
+      },
+      "bracket_parts": [
+        "vernahm"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Gericht hat mehrere wichtige Sachverständige ausführlich vernommen.",
+      "translation": {
+        "ru": "Суд подробно допросил нескольких важных экспертов.",
+        "en": "The court has questioned several important experts in detail."
+      },
+      "bracket_parts": [
+        "hat",
+        "vernommen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Vernimm die Zeugen stets ruhig und sachlich!",
+      "translation": {
+        "ru": "Допрашивай свидетелей всегда спокойно и объективно!",
+        "en": "Always question witnesses calmly and objectively!"
+      },
+      "bracket_parts": [
+        "Vernimm"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

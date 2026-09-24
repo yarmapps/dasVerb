@@ -1,0 +1,154 @@
+{
+  "id": "ausbreiten",
+  "infinitive": "ausbreiten",
+  "translation": {
+    "ru": "расстилать, раскрывать, распространяться (sich ausbreiten)",
+    "en": "to spread out, to lay out"
+  },
+  "level": "B1",
+  "frequency_rank": 702,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ausbreiten",
+    "present_3sg": "breitet aus",
+    "praeteritum_3sg": "breitete aus",
+    "partizip_2": "ausgebreitet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "breite aus",
+      "du": "breitest aus",
+      "er_sie_es": "breitet aus",
+      "wir": "breiten aus",
+      "ihr": "breitet aus",
+      "sie_Sie": "breiten aus"
+    },
+    "praeteritum": {
+      "ich": "breitete aus",
+      "du": "breitetest aus",
+      "er_sie_es": "breitete aus",
+      "wir": "breiteten aus",
+      "ihr": "breitetet aus",
+      "sie_Sie": "breiteten aus"
+    },
+    "perfekt": {
+      "ich": "habe ausgebreitet",
+      "du": "hast ausgebreitet",
+      "er_sie_es": "hat ausgebreitet",
+      "wir": "haben ausgebreitet",
+      "ihr": "habt ausgebreitet",
+      "sie_Sie": "haben ausgebreitet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich breite die große Decke für das Picknick im Park aus.",
+      "translation": {
+        "ru": "Я расстилаю большое покрывало для пикника в парке.",
+        "en": "I spread out the large blanket for the picnic in the park."
+      },
+      "bracket_parts": [
+        "breite",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Breitest du die Landkarte zur Orientierung auf dem Tisch aus?",
+      "translation": {
+        "ru": "Ты раскладываешь карту на столе для ориентирования?",
+        "en": "Are you spreading the map out on the table for orientation?"
+      },
+      "bracket_parts": [
+        "Breitest",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Vogel breitet seine Flügel majestätisch zum Flug aus.",
+      "translation": {
+        "ru": "Птица величественно расправляет крылья для полета.",
+        "en": "The bird spreads its wings majestically for flight."
+      },
+      "bracket_parts": [
+        "breitet",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir breiten alle Unterlagen zur Prüfung auf dem Schreibtisch aus.",
+      "translation": {
+        "ru": "Мы раскладываем все документы для проверки на письменном столе.",
+        "en": "We lay out all documents on the desk for inspection."
+      },
+      "bracket_parts": [
+        "breiten",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr breitet eure Arme zur herzlichen Begrüßung aus.",
+      "translation": {
+        "ru": "Вы распахиваете руки для теплого приветствия.",
+        "en": "You spread your arms wide in warm greeting."
+      },
+      "bracket_parts": [
+        "breitet",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Feuer breitete sich damals rasend schnell im Wald aus.",
+      "translation": {
+        "ru": "Огонь тогда молниеносно распространился по лесу.",
+        "en": "The fire spread extremely quickly in the forest back then."
+      },
+      "bracket_parts": [
+        "breitete",
+        "aus"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Nachricht hat sich blitzschnell im ganzen Land ausgebreitet.",
+      "translation": {
+        "ru": "Новость молниеносно разнеслась по всей стране.",
+        "en": "The news spread across the entire country in a flash."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgebreitet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Breite die Pläne bitte übersichtlich auf dem Konferenztisch aus!",
+      "translation": {
+        "ru": "Разложи, пожалуйста, чертежи наглядно на столе переговоров!",
+        "en": "Please spread out the blueprints clearly on the conference table!"
+      },
+      "bracket_parts": [
+        "Breite",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

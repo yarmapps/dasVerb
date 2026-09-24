@@ -1,0 +1,154 @@
+{
+  "id": "ablegen",
+  "infinitive": "ablegen",
+  "translation": {
+    "ru": "сдавать (экзамен), снимать (пальто), откладывать",
+    "en": "to take (an exam), to take off (coat), to file away"
+  },
+  "level": "B1",
+  "frequency_rank": 611,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "ab",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ablegen",
+    "present_3sg": "legt ab",
+    "praeteritum_3sg": "legte ab",
+    "partizip_2": "abgelegt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lege ab",
+      "du": "legst ab",
+      "er_sie_es": "legt ab",
+      "wir": "legen ab",
+      "ihr": "legt ab",
+      "sie_Sie": "legen ab"
+    },
+    "praeteritum": {
+      "ich": "legte ab",
+      "du": "legtest ab",
+      "er_sie_es": "legte ab",
+      "wir": "legten ab",
+      "ihr": "legtet ab",
+      "sie_Sie": "legten ab"
+    },
+    "perfekt": {
+      "ich": "habe abgelegt",
+      "du": "hast abgelegt",
+      "er_sie_es": "hat abgelegt",
+      "wir": "haben abgelegt",
+      "ihr": "habt abgelegt",
+      "sie_Sie": "haben abgelegt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich lege meine schwere Jacke an der Garderobe ab.",
+      "translation": {
+        "ru": "Я снимаю тяжелую куртку в гардеробе.",
+        "en": "I take off my heavy jacket at the cloakroom."
+      },
+      "bracket_parts": [
+        "lege",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Legst du morgen deine praktische Fahrprüfung ab?",
+      "translation": {
+        "ru": "Ты завтра сдаешь практический экзамен по вождению?",
+        "en": "Are you taking your practical driving test tomorrow?"
+      },
+      "bracket_parts": [
+        "Legst",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Student legt seine Prüfung am Goethe-Institut ab.",
+      "translation": {
+        "ru": "Студент сдает экзамен в Гёте-институте.",
+        "en": "The student takes his exam at the Goethe Institute."
+      },
+      "bracket_parts": [
+        "legt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir legen die alten Akten im Archiv ab.",
+      "translation": {
+        "ru": "Мы складываем старые дела в архив.",
+        "en": "We file the old records away in the archive."
+      },
+      "bracket_parts": [
+        "legen",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr legt eure nassen Mäntel im Flur ab.",
+      "translation": {
+        "ru": "Вы снимаете мокрые пальто в прихожей.",
+        "en": "You take off your wet coats in the hallway."
+      },
+      "bracket_parts": [
+        "legt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Zeuge legte damals ein umfassendes Geständnis ab.",
+      "translation": {
+        "ru": "Свидетель тогда дал исчерпывающее признание.",
+        "en": "The witness made a full confession back then."
+      },
+      "bracket_parts": [
+        "legte",
+        "ab"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben das B2-Zertifikat mit Bestnote abgelegt.",
+      "translation": {
+        "ru": "Они сдали экзамен на сертификат B2 с высшей оценкой.",
+        "en": "They passed the B2 certificate with top marks."
+      },
+      "bracket_parts": [
+        "haben",
+        "abgelegt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Leg bitte deinen nassen Regenschirm im Flur ab!",
+      "translation": {
+        "ru": "Положи, пожалуйста, мокрый зонт в прихожей!",
+        "en": "Please put your wet umbrella down in the hallway!"
+      },
+      "bracket_parts": [
+        "Leg",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "verurteilen",
+  "infinitive": "verurteilen",
+  "translation": {
+    "ru": "осуждать (на суде), порицать",
+    "en": "to sentence, to condemn, to convict"
+  },
+  "level": "B2",
+  "frequency_rank": 673,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verurteilen",
+    "present_3sg": "verurteilt",
+    "praeteritum_3sg": "verurteilte",
+    "partizip_2": "verurteilt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verurteile",
+      "du": "verurteilst",
+      "er_sie_es": "verurteilt",
+      "wir": "verurteilen",
+      "ihr": "verurteilt",
+      "sie_Sie": "verurteilen"
+    },
+    "praeteritum": {
+      "ich": "verurteilte",
+      "du": "verurteiltest",
+      "er_sie_es": "verurteilte",
+      "wir": "verurteilten",
+      "ihr": "verurteiltet",
+      "sie_Sie": "verurteilten"
+    },
+    "perfekt": {
+      "ich": "habe verurteilt",
+      "du": "hast verurteilt",
+      "er_sie_es": "hat verurteilt",
+      "wir": "haben verurteilt",
+      "ihr": "habt verurteilt",
+      "sie_Sie": "haben verurteilt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "zu",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich verurteile jegliche Art von Gewalt aufs Schärfste.",
+      "translation": {
+        "ru": "Я самым решительным образом осуждаю любые виды насилия.",
+        "en": "I strongly condemn any kind of violence."
+      },
+      "bracket_parts": [
+        "verurteile"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verurteilst du Menschen schnell nach ihrem Aussehen?",
+      "translation": {
+        "ru": "Ты быстро судишь о людях по их внешности?",
+        "en": "Do you judge people quickly by their appearance?"
+      },
+      "bracket_parts": [
+        "Verurteilst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Gericht verurteilt den Täter zu einer Geldstrafe.",
+      "translation": {
+        "ru": "Суд приговаривает преступника к денежному штрафу.",
+        "en": "The court sentences the perpetrator to a fine."
+      },
+      "bracket_parts": [
+        "verurteilt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verurteilen den unfairen Angriff auf unsere Kollegen.",
+      "translation": {
+        "ru": "Мы осуждаем несправедливые нападки на наших коллег.",
+        "en": "We condemn the unfair attack on our colleagues."
+      },
+      "bracket_parts": [
+        "verurteilen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr verurteilt das unhöfliche Benehmen der Gäste.",
+      "translation": {
+        "ru": "Вы порицаете невоспитанное поведение гостей.",
+        "en": "You condemn the rude behavior of the guests."
+      },
+      "bracket_parts": [
+        "verurteilt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Richter verurteilte den Dieb damals zu zwei Jahren Haft.",
+      "translation": {
+        "ru": "Судья тогда приговорил вора к двум годам тюрьмы.",
+        "en": "The judge sentenced the thief to two years in prison back then."
+      },
+      "bracket_parts": [
+        "verurteilte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die internationale Gemeinschaft hat den Bruch des Völkerrechts verurteilt.",
+      "translation": {
+        "ru": "Международное сообщество осудило нарушение международного права.",
+        "en": "The international community condemned the breach of international law."
+      },
+      "bracket_parts": [
+        "hat",
+        "verurteilt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verurteile niemanden, ohne seine Gründe zu kennen!",
+      "translation": {
+        "ru": "Не осуждай никого, не зная его причин!",
+        "en": "Do not judge anyone without knowing their reasons!"
+      },
+      "bracket_parts": [
+        "Verurteile"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

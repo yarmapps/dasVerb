@@ -1,0 +1,138 @@
+{
+  "id": "markieren",
+  "infinitive": "markieren",
+  "translation": {
+    "ru": "выделять, отмечать, маркировать",
+    "en": "to mark, to highlight"
+  },
+  "level": "B1",
+  "frequency_rank": 713,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "markiert",
+    "preterite_third_singular": "markierte",
+    "past_participle": "markiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "markiere",
+      "du": "markierst",
+      "er_sie_es": "markiert",
+      "wir": "markieren",
+      "ihr": "markiert",
+      "sie_Sie": "markieren"
+    },
+    "preterite": {
+      "ich": "markierte",
+      "du": "markiertest",
+      "er_sie_es": "markierte",
+      "wir": "markierten",
+      "ihr": "markiertet",
+      "sie_Sie": "markierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "markiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich markiere wichtige Vokabeln mit einem gelben Stift.",
+      "translation": {
+        "ru": "Я выделяю важные слова желтым маркером.",
+        "en": "I highlight important vocabulary with a yellow pen."
+      },
+      "bracket_parts": [
+        "markiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du markierst die Fehler im Text sehr deutlich.",
+      "translation": {
+        "ru": "Ты очень отчетливо отмечаешь ошибки в тексте.",
+        "en": "You mark the errors in the text very clearly."
+      },
+      "bracket_parts": [
+        "markierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Student markiert die Kernsätze im Fachbuch.",
+      "translation": {
+        "ru": "Студент выделяет ключевые предложения в учебнике.",
+        "en": "The student highlights the key sentences in the textbook."
+      },
+      "bracket_parts": [
+        "markiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir markieren die Wanderroute auf der Landkarte.",
+      "translation": {
+        "ru": "Мы отмечаем пешеходный маршрут на карте.",
+        "en": "We mark the hiking route on the map."
+      },
+      "bracket_parts": [
+        "markieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr markiert alle unklaren Passagen im Dokument.",
+      "translation": {
+        "ru": "Вы отмечаете все неясные пассажи в документе.",
+        "en": "You mark all unclear passages in the document."
+      },
+      "bracket_parts": [
+        "markiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie markierte den besten Weg durch die Stadt.",
+      "translation": {
+        "ru": "Она отметила лучший путь через город.",
+        "en": "She marked the best way through the city."
+      },
+      "bracket_parts": [
+        "markierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Forscher haben die Fundstelle genau markiert.",
+      "translation": {
+        "ru": "Исследователи точно отметили место находки.",
+        "en": "The researchers have precisely marked the discovery site."
+      },
+      "bracket_parts": [
+        "haben",
+        "markiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Markiere bitte die wichtigsten Punkte im Protokoll!",
+      "translation": {
+        "ru": "Выдели, пожалуйста, самые важные пункты в протоколе!",
+        "en": "Please highlight the most important points in the minutes!"
+      },
+      "bracket_parts": [
+        "Markiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

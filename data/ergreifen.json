@@ -1,0 +1,147 @@
+{
+  "id": "ergreifen",
+  "infinitive": "ergreifen",
+  "translation": {
+    "ru": "хватать, овладевать, принимать (меры)",
+    "en": "to seize, to grasp, to take (measures)"
+  },
+  "level": "B2",
+  "frequency_rank": 578,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ergreifen",
+    "present_3sg": "ergreift",
+    "praeteritum_3sg": "ergriff",
+    "partizip_2": "ergriffen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ergreife",
+      "du": "ergreifst",
+      "er_sie_es": "ergreift",
+      "wir": "ergreifen",
+      "ihr": "ergreift",
+      "sie_Sie": "ergreifen"
+    },
+    "praeteritum": {
+      "ich": "ergriff",
+      "du": "ergriffst",
+      "er_sie_es": "ergriff",
+      "wir": "ergriffen",
+      "ihr": "ergrifft",
+      "sie_Sie": "ergriffen"
+    },
+    "perfekt": {
+      "ich": "habe ergriffen",
+      "du": "hast ergriffen",
+      "er_sie_es": "hat ergriffen",
+      "wir": "haben ergriffen",
+      "ihr": "habt ergriffen",
+      "sie_Sie": "haben ergriffen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich ergreife die günstige Gelegenheit sofort.",
+      "translation": {
+        "ru": "Я сразу пользуюсь удобной возможностью.",
+        "en": "I seize the favorable opportunity immediately."
+      },
+      "bracket_parts": [
+        "ergreife"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ergreifst du jetzt endlich die Initiative?",
+      "translation": {
+        "ru": "Ты проявишь наконец инициативу?",
+        "en": "Are you finally seizing the initiative now?"
+      },
+      "bracket_parts": [
+        "Ergreifst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei ergreift den flüchtigen Täter.",
+      "translation": {
+        "ru": "Полиция задерживает беглого преступника.",
+        "en": "The police seize the fleeing perpetrator."
+      },
+      "bracket_parts": [
+        "ergreift"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir ergreifen alle notwendigen Maßnahmen zum Schutz.",
+      "translation": {
+        "ru": "Мы принимаем все необходимые меры для защиты.",
+        "en": "We take all necessary measures for protection."
+      },
+      "bracket_parts": [
+        "ergreifen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr ergreift das Wort in der Versammlung.",
+      "translation": {
+        "ru": "Вы берете слово на собрании.",
+        "en": "You take the floor at the meeting."
+      },
+      "bracket_parts": [
+        "ergreift"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Große Panik ergriff die Menschen auf der Straße.",
+      "translation": {
+        "ru": "Сильная паника охватила людей на улице.",
+        "en": "Great panic seized the people on the street."
+      },
+      "bracket_parts": [
+        "ergriff"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben die Flucht vor dem Feuer ergriffen.",
+      "translation": {
+        "ru": "Они обратились в бегство от огня.",
+        "en": "They took flight from the fire."
+      },
+      "bracket_parts": [
+        "haben",
+        "ergriffen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Ergreife deine Chance im neuen Job!",
+      "translation": {
+        "ru": "Воспользуйся своим шансом на новой работе!",
+        "en": "Seize your chance at the new job!"
+      },
+      "bracket_parts": [
+        "Ergreife"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

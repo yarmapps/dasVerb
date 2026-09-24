@@ -1,0 +1,144 @@
+{
+  "id": "festnehmen",
+  "infinitive": "festnehmen",
+  "translation": {
+    "ru": "задерживать, арестовывать",
+    "en": "to arrest, to detain"
+  },
+  "level": "B1",
+  "frequency_rank": 949,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "nimmt fest",
+    "preterite_third_singular": "nahm fest",
+    "past_participle": "festgenommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "nehme fest",
+      "du": "nimmst fest",
+      "er_sie_es": "nimmt fest",
+      "wir": "nehmen fest",
+      "ihr": "nehmt fest",
+      "sie_Sie": "nehmen fest"
+    },
+    "preterite": {
+      "ich": "nahm fest",
+      "du": "nahmst fest",
+      "er_sie_es": "nahm fest",
+      "wir": "nahmen fest",
+      "ihr": "nahmt fest",
+      "sie_Sie": "nahmen fest"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "festgenommen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich nehme als Polizist den flüchtigen Tatverdächtigen vorläufig fest.",
+      "translation": {
+        "ru": "Я как полицейский предварительно задерживаю скрывающегося подозреваемого.",
+        "en": "As a police officer, I provisionally detain the fleeing suspect."
+      },
+      "bracket_parts": [
+        "nehme",
+        "fest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Nimmst du den Einbrecher auf frischer Tat fest?",
+      "translation": {
+        "ru": "Ты задерживаешь грабителя на месте преступления?",
+        "en": "Are you arresting the burglar red-handed?"
+      },
+      "bracket_parts": [
+        "Nimmst",
+        "fest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Spezialeinheit nimmt den gesuchten Kriminellen am Flughafen fest.",
+      "translation": {
+        "ru": "Спецназ задерживает разыскиваемого преступника в аэропорту.",
+        "en": "The special task force arrests the wanted criminal at the airport."
+      },
+      "bracket_parts": [
+        "nimmt",
+        "fest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir nehmen verdächtige Personen zur Überprüfung ihrer Identität fest.",
+      "translation": {
+        "ru": "Мы задерживаем подозрительных лиц для проверки их личности.",
+        "en": "We detain suspicious individuals to verify their identity."
+      },
+      "bracket_parts": [
+        "nehmen",
+        "fest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Nehmt ihr den mutmaßlichen Täter noch am Tatort fest?",
+      "translation": {
+        "ru": "Вы задерживаете предполагаемого преступника прямо на месте преступления?",
+        "en": "Are you guys arresting the alleged perpetrator right at the crime scene?"
+      },
+      "bracket_parts": [
+        "Nehmt",
+        "fest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei nahm die Verdächtigen nach intensiver Fahndung fest.",
+      "translation": {
+        "ru": "Полиция задержала подозреваемых после интенсивного розыска.",
+        "en": "The police arrested the suspects after an intensive manhunt."
+      },
+      "bracket_parts": [
+        "nahm",
+        "fest"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Beamten haben den gesuchten Drogendealer gestern Abend festgenommen.",
+      "translation": {
+        "ru": "Сотрудники вчера вечером задержали разыскиваемого наркодилера.",
+        "en": "The officers arrested the wanted drug dealer yesterday evening."
+      },
+      "bracket_parts": [
+        "haben",
+        "festgenommen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Nimm den Verdächtigen unverzüglich und vorsichtig fest!",
+      "translation": {
+        "ru": "Задержи подозреваемого немедленно и осторожно!",
+        "en": "Arrest the suspect immediately and cautiously!"
+      },
+      "bracket_parts": [
+        "Nimm",
+        "fest"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

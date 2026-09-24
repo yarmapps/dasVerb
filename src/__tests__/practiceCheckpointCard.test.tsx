@@ -85,4 +85,26 @@ describe('PracticeCheckpointCard', () => {
     );
     expect(queryByText('Checkpoint A1')).toBeTruthy();
   });
+
+  it('renders lock icon when isLocked is true', () => {
+    const handlePress = jest.fn();
+    const { getByText, getByTestId } = render(
+      <Wrapper>
+        <PracticeCheckpointCard
+          title="Checkpoint 2"
+          subtitle="Verbs 11 – 20"
+          status="uncompleted"
+          isFinal={false}
+          isLocked={true}
+          onPress={handlePress}
+          testID="locked-cp"
+        />
+      </Wrapper>,
+    );
+
+    expect(getByText('Checkpoint 2')).toBeTruthy();
+    expect(getByText('Verbs 11 – 20')).toBeTruthy();
+    fireEvent.press(getByTestId('locked-cp'));
+    expect(handlePress).toHaveBeenCalledTimes(1);
+  });
 });

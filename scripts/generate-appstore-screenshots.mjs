@@ -46,7 +46,7 @@ const PLATFORM_CONFIGS = {
     lineHeight: 180,
     capHeight: 108,
     letterSpacing: '3px',
-    maxScreens: 10,
+    maxScreens: 8,
     imageTemplatesDir: path.join(rootDir, 'fastlane/screenshots_generation_assets/image_templates/ios'),
     copyTemplatesDir: path.join(rootDir, 'fastlane/screenshots_generation_assets/copy_templates/ios'),
     outputBaseDir: path.join(rootDir, 'fastlane/screenshots_generation_assets/generation_result/ios'),
@@ -144,7 +144,7 @@ export async function generateScreenshot(platform, templatePath, text, outputPat
     console.warn(`  🚨 WARNING [${platform.toUpperCase()} ${localeLabel} #${indexLabel}] Total text height exceeds box height (${cfg.boxHeight}px) by ${overflowHeightPx}px! (Total height: ${totalTextBlockHeight}px)`);
   }
 
-  const maxAllowedWidth = cfg.canvasWidth - 24; // 12px margin on both sides
+  const maxAllowedWidth = cfg.boxWidth;
 
   lines.forEach((line, lineIdx) => {
     const y = firstBaselineY + lineIdx * cfg.lineHeight;
@@ -159,10 +159,24 @@ export async function generateScreenshot(platform, templatePath, text, outputPat
       totalLineWidth += metrics.width;
     });
 
-    // Check for overflow beyond image width - 24px (12px on each side)
+    let currentFontSize = cfg.fontSize;
+    let currentLetterSpacing = cfg.letterSpacing;
+
+    // Auto-scale font if line exceeds box width
     if (totalLineWidth > maxAllowedWidth) {
-      const overflowPx = Math.round(totalLineWidth - maxAllowedWidth);
-      console.warn(`  🚨 WARNING [${platform.toUpperCase()} ${localeLabel} #${indexLabel}] Line ${lineIdx + 1} "${line.replace(/<[^>]+>/g, '')}" exceeds max width (${maxAllowedWidth}px, image width - 24px) by ${overflowPx}px! (Total width: ${Math.round(totalLineWidth)}px)`);
+      const scale = Math.max(0.68, maxAllowedWidth / totalLineWidth);
+      currentFontSize = Math.round(cfg.fontSize * scale);
+      const letterSpacingNum = parseFloat(cfg.letterSpacing) * scale;
+      currentLetterSpacing = `${letterSpacingNum.toFixed(1)}px`;
+
+      // Recalculate totalLineWidth with scaled font
+      totalLineWidth = 0;
+      segments.forEach(seg => {
+        ctx.font = `${seg.weight} ${currentFontSize}px "Commissioner", "Noto Sans Arabic"`;
+        ctx.letterSpacing = currentLetterSpacing;
+        const metrics = ctx.measureText(seg.text);
+        totalLineWidth += metrics.width;
+      });
     }
 
     // Center line horizontally on the canvas
@@ -171,8 +185,8 @@ export async function generateScreenshot(platform, templatePath, text, outputPat
 
     // Render segments
     segments.forEach(seg => {
-      ctx.font = `${seg.weight} ${cfg.fontSize}px "Commissioner", "Noto Sans Arabic"`;
-      ctx.letterSpacing = cfg.letterSpacing;
+      ctx.font = `${seg.weight} ${currentFontSize}px "Commissioner", "Noto Sans Arabic"`;
+      ctx.letterSpacing = currentLetterSpacing;
       ctx.fillStyle = seg.color;
       ctx.fillText(seg.text, currentX, y);
 
@@ -214,23 +228,44 @@ async function processLocale(platform, locale, specificIndex = null) {
     const outputFile = path.join(localeOutputDir, `${cfg.outputPrefix}${index}.jpg`);
 
     if (!fs.existsSync(templateFile)) {
-      console.warn(`  ⚠️ Template not found: ${cfg.templatePrefix}${index}.jpg (Skipping #${index})`);
       continue;
     }
 
     if (!fs.existsSync(copyFile)) {
-      console.log(`  ℹ️ No copy template found: ${locale}/${index}.txt (Skipping #${index})`);
       continue;
     }
 
     const text = fs.readFileSync(copyFile, 'utf-8').trim();
     if (text.length === 0) {
-      console.log(`  ℹ️ Copy template is empty: ${locale}/${index}.txt (Skipping #${index})`);
       continue;
     }
 
     console.log(`  🚀 Generating screenshot #${index} for ${locale}...`);
     await generateScreenshot(platform, templateFile, text, outputFile, locale, index);
+
+    // Deploy to fastlane metadata
+    if (platform === 'android') {
+      const androidMetaDir = path.join(rootDir, 'fastlane/metadata/android', locale);
+      if (fs.existsSync(androidMetaDir)) {
+        const phoneShotsDir = path.join(androidMetaDir, 'images/phoneScreenshots');
+        fs.mkdirSync(phoneShotsDir, { recursive: true });
+        fs.copyFileSync(outputFile, path.join(phoneShotsDir, `${index}.jpg`));
+
+        // Copy icon and featureGraphic
+        const storeIcon = path.join(rootDir, 'assets/icons/store-icon.png');
+        const featureGraphic = path.join(rootDir, 'assets/feature-graphic.jpg');
+        if (fs.existsSync(storeIcon)) {
+          fs.copyFileSync(storeIcon, path.join(androidMetaDir, 'images/icon.png'));
+        }
+        if (fs.existsSync(featureGraphic)) {
+          fs.copyFileSync(featureGraphic, path.join(androidMetaDir, 'images/featureGraphic.jpg'));
+        }
+      }
+    } else if (platform === 'ios') {
+      const iosShotsDir = path.join(rootDir, 'fastlane/screenshots/ios', locale);
+      fs.mkdirSync(iosShotsDir, { recursive: true });
+      fs.copyFileSync(outputFile, path.join(iosShotsDir, `iPhone_65_${index}.jpg`));
+    }
   }
 }
 

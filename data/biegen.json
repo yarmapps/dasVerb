@@ -1,0 +1,138 @@
+{
+  "id": "biegen",
+  "infinitive": "biegen",
+  "translation": {
+    "ru": "гнуть, сгибать, поворачивать",
+    "en": "to bend, to turn"
+  },
+  "level": "B1",
+  "frequency_rank": 782,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "biegt",
+    "preterite_third_singular": "bog",
+    "past_participle": "gebogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "biege",
+      "du": "biegst",
+      "er_sie_es": "biegt",
+      "wir": "biegen",
+      "ihr": "biegt",
+      "sie_Sie": "biegen"
+    },
+    "preterite": {
+      "ich": "bog",
+      "du": "bogst",
+      "er_sie_es": "bog",
+      "wir": "bogen",
+      "ihr": "bogt",
+      "sie_Sie": "bogen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gebogen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich biege den dünnen Draht zu einem kleinen Kreis.",
+      "translation": {
+        "ru": "Я сгибаю тонкую проволоку в маленький круг.",
+        "en": "I bend the thin wire into a small circle."
+      },
+      "bracket_parts": [
+        "biege"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Biegst du das flexible Rohr vorsichtig in Form?",
+      "translation": {
+        "ru": "Ты осторожно придаешь гибкой трубке нужную форму?",
+        "en": "Are you bending the flexible pipe carefully into shape?"
+      },
+      "bracket_parts": [
+        "Biegst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der starke Wind biegt die Äste der Bäume.",
+      "translation": {
+        "ru": "Сильный ветер гнет ветви деревьев.",
+        "en": "The strong wind bends the branches of the trees."
+      },
+      "bracket_parts": [
+        "biegt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir biegen das Blech mit einer Zange zurecht.",
+      "translation": {
+        "ru": "Мы выгибаем жесть клещами как надо.",
+        "en": "We bend the metal sheet with pliers."
+      },
+      "bracket_parts": [
+        "biegen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Biegt ihr den Metallstab ohne Spezialwerkzeug?",
+      "translation": {
+        "ru": "Вы сгибаете металлический стержень без специального инструмента?",
+        "en": "Are you bending the metal rod without special tools?"
+      },
+      "bracket_parts": [
+        "Biegt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schmied bog das glühende Eisen auf dem Amboss.",
+      "translation": {
+        "ru": "Кузнец гнул раскаленное железо на наковальне.",
+        "en": "The blacksmith bent the glowing iron on the anvil."
+      },
+      "bracket_parts": [
+        "bog"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat den Draht zu einem Haken gebogen.",
+      "translation": {
+        "ru": "Он согнул проволоку в крючок.",
+        "en": "He bent the wire into a hook."
+      },
+      "bracket_parts": [
+        "hat",
+        "gebogen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Biege das Material nicht zu weit, sonst bricht es!",
+      "translation": {
+        "ru": "Не сгибай материал слишком сильно, иначе он сломается!",
+        "en": "Do not bend the material too far, otherwise it will break!"
+      },
+      "bracket_parts": [
+        "Biege"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

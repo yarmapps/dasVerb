@@ -11,6 +11,7 @@ export interface PracticeVerbCardProps {
   level: string;
   globalIndex: number;
   status: VerbProgressStatus;
+  isLocked?: boolean;
   onPress: (infinitive: string, level: string) => void;
   testID?: string;
 }
@@ -21,6 +22,7 @@ function PracticeVerbCardComponent({
   level,
   globalIndex,
   status,
+  isLocked = false,
   onPress,
   testID,
 }: PracticeVerbCardProps): React.JSX.Element {
@@ -32,6 +34,14 @@ function PracticeVerbCardComponent({
   }, [infinitive, level, onPress]);
 
   const renderStatusBadge = () => {
+    if (isLocked) {
+      return (
+        <View style={[styles.statusBadge, styles.statusBadgeUncompleted]}>
+          <FontAwesome5 name="lock" size={14} color={colors.textMuted} />
+        </View>
+      );
+    }
+
     switch (status) {
       case 'trophy':
         return (

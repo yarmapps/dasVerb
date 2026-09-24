@@ -1,0 +1,137 @@
+{
+  "id": "stehlen",
+  "infinitive": "stehlen",
+  "translation": {
+    "ru": "красть, воровать",
+    "en": "to steal"
+  },
+  "level": "A2",
+  "frequency_rank": 930,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "stiehlt",
+    "preterite_third_singular": "stahl",
+    "past_participle": "gestohlen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stehle",
+      "du": "stiehlst",
+      "er_sie_es": "stiehlt",
+      "wir": "stehlen",
+      "ihr": "stehlt",
+      "sie_Sie": "stehlen"
+    },
+    "preterite": {
+      "ich": "stahl",
+      "du": "stahlst",
+      "er_sie_es": "stahl",
+      "wir": "stahlen",
+      "ihr": "stahlt",
+      "sie_Sie": "stahlen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gestohlen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich stehle niemandem die wertvolle Arbeitszeit mit langen Reden.",
+      "translation": {
+        "ru": "Я ни у кого не краду драгоценное рабочее время долгими речами.",
+        "en": "I do not steal anyone's valuable working time with long speeches."
+      },
+      "bracket_parts": [
+        "stehle"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stiehlst du im Supermarkt oder bezahlst du an der Kasse?",
+      "translation": {
+        "ru": "Ты воруешь в супермаркете или платишь на кассе?",
+        "en": "Do you steal in the supermarket or do you pay at the checkout?"
+      },
+      "bracket_parts": [
+        "Stiehlst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der dreiste Dieb stiehlt teuren Schmuck aus der Vitrine.",
+      "translation": {
+        "ru": "Наглый вор крадет дорогие украшения из витрины.",
+        "en": "The brazen thief steals expensive jewelry from the display case."
+      },
+      "bracket_parts": [
+        "stiehlt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir stehlen keine fremden Ideen für unsere Präsentation.",
+      "translation": {
+        "ru": "Мы не воруем чужие идеи для нашей презентации.",
+        "en": "We do not steal other people's ideas for our presentation."
+      },
+      "bracket_parts": [
+        "stehlen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stehlt ihr etwa Äpfel aus dem Obstgarten des Nachbarn?",
+      "translation": {
+        "ru": "Неужели вы крадете яблоки из соседского сада?",
+        "en": "Are you guys stealing apples from the neighbor's orchard?"
+      },
+      "bracket_parts": [
+        "Stehlt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Unbekannte stahlen in der Nacht ein teures Luxusauto.",
+      "translation": {
+        "ru": "Неизвестные ночью угнали дорогой люксовый автомобиль.",
+        "en": "Unknown persons stole an expensive luxury car during the night."
+      },
+      "bracket_parts": [
+        "stahlen"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Jemand hat mir im Zug mein neues Smartphone gestohlen.",
+      "translation": {
+        "ru": "Кто-то украл у меня в поезде мой новый смартфон.",
+        "en": "Someone stole my new smartphone on the train."
+      },
+      "bracket_parts": [
+        "hat",
+        "gestohlen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Stiehl anderen Menschen nicht ihre Hoffnung!",
+      "translation": {
+        "ru": "Не кради у других людей их надежду!",
+        "en": "Do not steal other people's hope!"
+      },
+      "bracket_parts": [
+        "Stiehl"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

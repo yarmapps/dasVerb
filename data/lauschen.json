@@ -1,0 +1,143 @@
+{
+  "id": "lauschen",
+  "infinitive": "lauschen",
+  "translation": {
+    "ru": "внимательно слушать, прислушиваться, подслушивать",
+    "en": "to listen attentively, to eavesdrop"
+  },
+  "level": "B1",
+  "frequency_rank": 925,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "lauscht",
+    "preterite_third_singular": "lauschte",
+    "past_participle": "gelauscht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lausche",
+      "du": "lauschst",
+      "er_sie_es": "lauscht",
+      "wir": "lauschen",
+      "ihr": "lauscht",
+      "sie_Sie": "lauschen"
+    },
+    "preterite": {
+      "ich": "lauschte",
+      "du": "lauschtest",
+      "er_sie_es": "lauschte",
+      "wir": "lauschten",
+      "ihr": "lauschtet",
+      "sie_Sie": "lauschten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gelauscht"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich lausche am Abend gerne der klassischen Musik im Radio.",
+      "translation": {
+        "ru": "Вечером я с удовольствием слушаю классическую музыку по радио.",
+        "en": "In the evening, I like to listen to classical music on the radio."
+      },
+      "bracket_parts": [
+        "lausche"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lauschst du an der Tür oder räumst du dein Zimmer auf?",
+      "translation": {
+        "ru": "Ты подслушиваешь у двери или убираешь свою комнату?",
+        "en": "Are you eavesdropping at the door or tidying up your room?"
+      },
+      "bracket_parts": [
+        "Lauschst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Publikum lauscht andächtig dem Solisten im Konzertsaal.",
+      "translation": {
+        "ru": "Публика благоговейно слушает солиста в концертном зале.",
+        "en": "The audience listens reverently to the soloist in the concert hall."
+      },
+      "bracket_parts": [
+        "lauscht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir lauschen im Wald den beruhigenden Geräuschen der Natur.",
+      "translation": {
+        "ru": "В лесу мы прислушиваемся к успокаивающим звукам природы.",
+        "en": "In the forest, we listen to the soothing sounds of nature."
+      },
+      "bracket_parts": [
+        "lauschen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lauscht ihr den spannenden Erzählungen eures Großvaters?",
+      "translation": {
+        "ru": "Вы слушаете захватывающие рассказы вашего дедушки?",
+        "en": "Are you guys listening to your grandfather's exciting stories?"
+      },
+      "bracket_parts": [
+        "Lauscht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Kind lauschte neugierig an der verschlossenen Zimmertür.",
+      "translation": {
+        "ru": "Ребенок с любопытством прислушивался у запертой двери комнаты.",
+        "en": "The child listened curiously at the locked room door."
+      },
+      "bracket_parts": [
+        "lauschte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Wir haben begeistert den Vorträgen der Wissenschaftler gelauscht.",
+      "translation": {
+        "ru": "Мы с восторгом слушали доклады ученых.",
+        "en": "We listened enthusiastically to the scientists' presentations."
+      },
+      "bracket_parts": [
+        "haben",
+        "gelauscht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lausche ganz genau auf das leise Rascheln im Gebüsch!",
+      "translation": {
+        "ru": "Прислушайся внимательно к тихому шороху в кустах!",
+        "en": "Listen very closely to the soft rustling in the bushes!"
+      },
+      "bracket_parts": [
+        "Lausche"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

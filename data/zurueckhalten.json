@@ -1,0 +1,155 @@
+{
+  "id": "zurueckhalten",
+  "infinitive": "zurückhalten",
+  "translation": {
+    "ru": "сдерживать, удерживать, воздерживаться (sich zurückhalten)",
+    "en": "to hold back, to restrain"
+  },
+  "level": "B2",
+  "frequency_rank": 699,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "zurück",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zurückhalten",
+    "present_3sg": "hält zurück",
+    "praeteritum_3sg": "hielt zurück",
+    "partizip_2": "zurückgehalten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "halte zurück",
+      "du": "hältst zurück",
+      "er_sie_es": "hält zurück",
+      "wir": "halten zurück",
+      "ihr": "haltet zurück",
+      "sie_Sie": "halten zurück",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "hielt zurück",
+      "du": "hieltest zurück",
+      "er_sie_es": "hielt zurück",
+      "wir": "hielten zurück",
+      "ihr": "hieltet zurück",
+      "sie_Sie": "hielten zurück"
+    },
+    "perfekt": {
+      "ich": "habe zurückgehalten",
+      "du": "hast zurückgehalten",
+      "er_sie_es": "hat zurückgehalten",
+      "wir": "haben zurückgehalten",
+      "ihr": "habt zurückgehalten",
+      "sie_Sie": "haben zurückgehalten"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "von",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich halte mich bei diesem hitzigen Streit bewusst zurück.",
+      "translation": {
+        "ru": "Я сознательно сдерживаюсь в этом жарком споре.",
+        "en": "I consciously hold back in this heated argument."
+      },
+      "bracket_parts": [
+        "halte",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Hältst du den wütenden Hund an der festen Leine zurück?",
+      "translation": {
+        "ru": "Ты удерживаешь разъяренную собаку на крепком поводке?",
+        "en": "Are you holding the angry dog back on the strong leash?"
+      },
+      "bracket_parts": [
+        "Hältst",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Sicherheitskraft hält die unruhige Menschenmenge zurück.",
+      "translation": {
+        "ru": "Охранник сдерживает беспокойную толпу людей.",
+        "en": "The security guard holds back the restless crowd."
+      },
+      "bracket_parts": [
+        "hält",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir halten wichtige Informationen niemals absichtlich zurück.",
+      "translation": {
+        "ru": "Мы никогда намеренно не утаиваем важную информацию.",
+        "en": "We never deliberately withhold important information."
+      },
+      "bracket_parts": [
+        "halten",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr haltet euch mit voreiliger Kritik vorbildlich zurück.",
+      "translation": {
+        "ru": "Вы образцово воздерживаетесь от поспешной критики.",
+        "en": "You hold back exemplarily with premature criticism."
+      },
+      "bracket_parts": [
+        "haltet",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Freund hielt ihn damals vor einer Dummheit zurück.",
+      "translation": {
+        "ru": "Друг тогда удержал его от глупости.",
+        "en": "The friend held him back from a foolish act back then."
+      },
+      "bracket_parts": [
+        "hielt",
+        "zurück"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie hat ihre Tränen der Rührung nicht mehr zurückgehalten.",
+      "translation": {
+        "ru": "Она больше не сдерживала слез умиления.",
+        "en": "She could no longer hold back her tears of emotion."
+      },
+      "bracket_parts": [
+        "hat",
+        "zurückgehalten"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Halte dich bitte in der Besprechung vorerst zurück!",
+      "translation": {
+        "ru": "Воздержись, пожалуйста, пока от высказываний на совещании!",
+        "en": "Please hold back in the meeting for now!"
+      },
+      "bracket_parts": [
+        "Halte",
+        "zurück"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

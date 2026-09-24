@@ -1,0 +1,143 @@
+{
+  "id": "uebergeben",
+  "infinitive": "übergeben",
+  "translation": {
+    "ru": "передавать, вручать",
+    "en": "to hand over, to deliver"
+  },
+  "level": "B2",
+  "frequency_rank": 767,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "übergibt",
+    "preterite_third_singular": "übergab",
+    "past_participle": "übergeben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "übergebe",
+      "du": "übergibst",
+      "er_sie_es": "übergibt",
+      "wir": "übergeben",
+      "ihr": "übergebt",
+      "sie_Sie": "übergeben"
+    },
+    "preterite": {
+      "ich": "übergab",
+      "du": "übergabst",
+      "er_sie_es": "übergab",
+      "wir": "übergaben",
+      "ihr": "übergabt",
+      "sie_Sie": "übergaben"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "übergeben"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "an",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich übergebe den Schlüssel feierlich an den neuen Mieter.",
+      "translation": {
+        "ru": "Я торжественно передаю ключ новому арендатору.",
+        "en": "I formally hand over the key to the new tenant."
+      },
+      "bracket_parts": [
+        "übergebe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Übergibst du die Unterlagen direkt an den Chef?",
+      "translation": {
+        "ru": "Ты передаешь документы напрямую шефу?",
+        "en": "Are you handing over the documents directly to the boss?"
+      },
+      "bracket_parts": [
+        "Übergibst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Bürgermeister übergibt die Urkunde an den Gewinner.",
+      "translation": {
+        "ru": "Мэр вручает грамоту победителю.",
+        "en": "The mayor hands over the certificate to the winner."
+      },
+      "bracket_parts": [
+        "übergibt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir übergeben das fertige Projekt pünktlich an den Kunden.",
+      "translation": {
+        "ru": "Мы вовремя сдаем готовый проект клиенту.",
+        "en": "We hand over the finished project on time to the customer."
+      },
+      "bracket_parts": [
+        "übergeben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Übergebt ihr die Verantwortung an die nächste Generation?",
+      "translation": {
+        "ru": "Вы передаете ответственность следующему поколению?",
+        "en": "Are you handing over responsibility to the next generation?"
+      },
+      "bracket_parts": [
+        "Übergebt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei übergab den Fall der Staatsanwaltschaft.",
+      "translation": {
+        "ru": "Полиция передала дело в прокуратуру.",
+        "en": "The police handed the case over to the public prosecutor's office."
+      },
+      "bracket_parts": [
+        "übergab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben die Wohnung in sauberem Zustand übergeben.",
+      "translation": {
+        "ru": "Они сдали квартиру в чистом состоянии.",
+        "en": "They handed over the apartment in a clean condition."
+      },
+      "bracket_parts": [
+        "haben",
+        "übergeben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Übergib die Dokumente bitte persönlich an die Rezeption!",
+      "translation": {
+        "ru": "Передай документы лично на стойку регистрации, пожалуйста!",
+        "en": "Please hand over the documents personally to the reception!"
+      },
+      "bracket_parts": [
+        "Übergib"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "aussuchen",
+  "infinitive": "aussuchen",
+  "translation": {
+    "ru": "выбирать, подыскивать",
+    "en": "to choose, to pick out, to select"
+  },
+  "level": "A2",
+  "frequency_rank": 591,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aussuchen",
+    "present_3sg": "sucht aus",
+    "praeteritum_3sg": "suchte aus",
+    "partizip_2": "ausgesucht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "suche aus",
+      "du": "suchst aus",
+      "er_sie_es": "sucht aus",
+      "wir": "suchen aus",
+      "ihr": "sucht aus",
+      "sie_Sie": "suchen aus"
+    },
+    "praeteritum": {
+      "ich": "suchte aus",
+      "du": "suchtest aus",
+      "er_sie_es": "suchte aus",
+      "wir": "suchten aus",
+      "ihr": "suchtet aus",
+      "sie_Sie": "suchten aus"
+    },
+    "perfekt": {
+      "ich": "habe ausgesucht",
+      "du": "hast ausgesucht",
+      "er_sie_es": "hat ausgesucht",
+      "wir": "haben ausgesucht",
+      "ihr": "habt ausgesucht",
+      "sie_Sie": "haben ausgesucht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich suche mir ein schönes Buch im Laden aus.",
+      "translation": {
+        "ru": "Я выбираю себе красивую книгу в магазине.",
+        "en": "I pick out a nice book in the shop."
+      },
+      "bracket_parts": [
+        "suche",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Suchst du dir ein leckeres Dessert aus?",
+      "translation": {
+        "ru": "Ты выберешь себе вкусный десерт?",
+        "en": "Are you choosing a delicious dessert for yourself?"
+      },
+      "bracket_parts": [
+        "Suchst",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Kind sucht sich ein Spielzeug im Regal aus.",
+      "translation": {
+        "ru": "Ребенок выбирает себе игрушку на полке.",
+        "en": "The child picks out a toy on the shelf."
+      },
+      "bracket_parts": [
+        "sucht",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir suchen gemeinsam die neuen Möbel aus.",
+      "translation": {
+        "ru": "Мы вместе выбираем новую мебель.",
+        "en": "We choose the new furniture together."
+      },
+      "bracket_parts": [
+        "suchen",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr sucht euch die besten Plätze im Kino aus.",
+      "translation": {
+        "ru": "Вы выбираете себе лучшие места в кино.",
+        "en": "You pick the best seats in the cinema."
+      },
+      "bracket_parts": [
+        "sucht",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie suchte damals die schönsten Blumen für den Garten aus.",
+      "translation": {
+        "ru": "Она тогда выбрала самые красивые цветы для сада.",
+        "en": "She selected the prettiest flowers for the garden back then."
+      },
+      "bracket_parts": [
+        "suchte",
+        "aus"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Wir haben das Hotel sorgfältig ausgesucht.",
+      "translation": {
+        "ru": "Мы тщательно выбрали отель.",
+        "en": "We chose the hotel carefully."
+      },
+      "bracket_parts": [
+        "haben",
+        "ausgesucht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Such dir etwas Schönes zum Geburtstag aus!",
+      "translation": {
+        "ru": "Выбери себе что-нибудь красивое на день рождения!",
+        "en": "Pick out something nice for your birthday!"
+      },
+      "bracket_parts": [
+        "Such",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "ausgleichen",
+  "infinitive": "ausgleichen",
+  "translation": {
+    "ru": "компенсировать, уравнивать, сглаживать",
+    "en": "to balance, to compensate, to equalize"
+  },
+  "level": "B2",
+  "frequency_rank": 729,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "gleicht aus",
+    "preterite_third_singular": "glich aus",
+    "past_participle": "ausgeglichen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gleiche aus",
+      "du": "gleichst aus",
+      "er_sie_es": "gleicht aus",
+      "wir": "gleichen aus",
+      "ihr": "gleicht aus",
+      "sie_Sie": "gleichen aus"
+    },
+    "preterite": {
+      "ich": "glich aus",
+      "du": "glichst aus",
+      "er_sie_es": "glich aus",
+      "wir": "glichen aus",
+      "ihr": "glicht aus",
+      "sie_Sie": "glichen aus"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "ausgeglichen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "durch",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich gleiche das finanzielle Defizit mit Ersparnissen aus.",
+      "translation": {
+        "ru": "Я компенсирую финансовый дефицит сбережениями.",
+        "en": "I balance the financial deficit with savings."
+      },
+      "bracket_parts": [
+        "gleiche",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du gleichst deine Schwächen durch großen Fleiß aus.",
+      "translation": {
+        "ru": "Ты компенсируешь свои слабые стороны большим усердием.",
+        "en": "You balance out your weaknesses through great diligence."
+      },
+      "bracket_parts": [
+        "gleichst",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Fußballmannschaft gleicht den Rückstand kurz vor Schluss aus.",
+      "translation": {
+        "ru": "Футбольная команда сравнивает счет незадолго до конца.",
+        "en": "The soccer team equalizes the deficit shortly before the end."
+      },
+      "bracket_parts": [
+        "gleicht",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gleichen Temperaturunterschiede im Gebäude aus.",
+      "translation": {
+        "ru": "Мы выравниваем перепады температур в здании.",
+        "en": "We balance out temperature differences in the building."
+      },
+      "bracket_parts": [
+        "gleichen",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gleicht ihr das Kontominus bis morgen aus?",
+      "translation": {
+        "ru": "Вы покроете минус на счете до завтра?",
+        "en": "Will you balance the account deficit by tomorrow?"
+      },
+      "bracket_parts": [
+        "Gleicht",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er glich den Verlust durch zusätzliche Arbeit aus.",
+      "translation": {
+        "ru": "Он компенсировал потерю дополнительной работой.",
+        "en": "He balanced the loss through additional work."
+      },
+      "bracket_parts": [
+        "glich",
+        "aus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben alle offenen Rechnungen vollständig ausgeglichen.",
+      "translation": {
+        "ru": "Они полностью погасили все открытые счета.",
+        "en": "They have completely balanced all open invoices."
+      },
+      "bracket_parts": [
+        "haben",
+        "ausgeglichen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gleich die Ungerechtigkeit so schnell wie möglich aus!",
+      "translation": {
+        "ru": "Сгладь несправедливость как можно скорее!",
+        "en": "Balance out the injustice as soon as possible!"
+      },
+      "bracket_parts": [
+        "Gleich",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

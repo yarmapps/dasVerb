@@ -1,0 +1,143 @@
+{
+  "id": "spazieren",
+  "infinitive": "spazieren",
+  "translation": {
+    "ru": "гулять, прогуливаться",
+    "en": "to stroll, to walk"
+  },
+  "level": "A2",
+  "frequency_rank": 843,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "spaziert",
+    "preterite_third_singular": "spazierte",
+    "past_participle": "spaziert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "spaziere",
+      "du": "spazierst",
+      "er_sie_es": "spaziert",
+      "wir": "spazieren",
+      "ihr": "spaziert",
+      "sie_Sie": "spazieren"
+    },
+    "preterite": {
+      "ich": "spazierte",
+      "du": "spaziertest",
+      "er_sie_es": "spazierte",
+      "wir": "spazierten",
+      "ihr": "spaziertet",
+      "sie_Sie": "spazierten"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "spaziert"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "durch",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich spaziere am liebsten sonntags durch den Stadtpark.",
+      "translation": {
+        "ru": "Я охотнее всего гуляю по воскресеньям по городскому парку.",
+        "en": "I prefer to stroll through the city park on Sundays."
+      },
+      "bracket_parts": [
+        "spaziere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Spazierst du gerne am Ufer des Flusses entlang?",
+      "translation": {
+        "ru": "Ты любишь гулять вдоль берега реки?",
+        "en": "Do you like strolling along the river bank?"
+      },
+      "bracket_parts": [
+        "Spazierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das ältere Ehepaar spaziert jeden Nachmittag Hand in Hand.",
+      "translation": {
+        "ru": "Пожилая пара гуляет каждый день после обеда рука об руку.",
+        "en": "The elderly couple strolls hand in hand every afternoon."
+      },
+      "bracket_parts": [
+        "spaziert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir spazieren gemütlich durch die historische Altstadt.",
+      "translation": {
+        "ru": "Мы не спеша гуляем по историческому старому городу.",
+        "en": "We stroll leisurely through the historic old town."
+      },
+      "bracket_parts": [
+        "spazieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Spaziert ihr nach dem Essen eine Runde um den See?",
+      "translation": {
+        "ru": "Вы прогуливаетесь после еды круг вокруг озера?",
+        "en": "Are you guys taking a stroll around the lake after eating?"
+      },
+      "bracket_parts": [
+        "Spaziert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Familie spazierte stundenlang durch den schattigen Wald.",
+      "translation": {
+        "ru": "Семья часами гуляла по тенистому лесу.",
+        "en": "The family strolled through the shady forest for hours."
+      },
+      "bracket_parts": [
+        "spazierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie sind gestern Abend noch lange durch die Straßen spaziert.",
+      "translation": {
+        "ru": "Они вчера вечером еще долго гуляли по улицам.",
+        "en": "They strolled through the streets for a long time yesterday evening."
+      },
+      "bracket_parts": [
+        "sind",
+        "spaziert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Spaziere an der frischen Luft und tanke neue Energie!",
+      "translation": {
+        "ru": "Гуляй на свежем воздухе и заряжайся новой энергией!",
+        "en": "Stroll in the fresh air and recharge your batteries!"
+      },
+      "bracket_parts": [
+        "Spaziere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

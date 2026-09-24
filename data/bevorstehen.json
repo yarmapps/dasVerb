@@ -1,0 +1,144 @@
+{
+  "id": "bevorstehen",
+  "infinitive": "bevorstehen",
+  "translation": {
+    "ru": "предстоять, ожидать",
+    "en": "to lie ahead, to be imminent, to impend"
+  },
+  "level": "B2",
+  "frequency_rank": 743,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "steht bevor",
+    "preterite_third_singular": "stand bevor",
+    "past_participle": "bevorgestanden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stehe bevor",
+      "du": "stehst bevor",
+      "er_sie_es": "steht bevor",
+      "wir": "stehen bevor",
+      "ihr": "steht bevor",
+      "sie_Sie": "stehen bevor"
+    },
+    "preterite": {
+      "ich": "stand bevor",
+      "du": "standest bevor",
+      "er_sie_es": "stand bevor",
+      "wir": "standen bevor",
+      "ihr": "standet bevor",
+      "sie_Sie": "standen bevor"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "bevorgestanden"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Mir steht eine schwierige Prüfung bevor.",
+      "translation": {
+        "ru": "Мне предстоит трудный экзамен.",
+        "en": "A difficult exam lies ahead of me."
+      },
+      "bracket_parts": [
+        "steht",
+        "bevor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dir steht eine aufregende Auslandsreise bevor.",
+      "translation": {
+        "ru": "Тебе предстоит захватывающая поездка за границу.",
+        "en": "An exciting trip abroad lies ahead of you."
+      },
+      "bracket_parts": [
+        "steht",
+        "bevor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dem Land steht eine wichtige Wahl bevor.",
+      "translation": {
+        "ru": "Стране предстоят важные выборы.",
+        "en": "An important election lies ahead for the country."
+      },
+      "bracket_parts": [
+        "steht",
+        "bevor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Uns stehen große und spannende Veränderungen bevor.",
+      "translation": {
+        "ru": "Нам предстоят большие и захватывающие перемены.",
+        "en": "Big and exciting changes lie ahead of us."
+      },
+      "bracket_parts": [
+        "stehen",
+        "bevor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Euch steht ein anstrengendes Trainingslager bevor.",
+      "translation": {
+        "ru": "Вам предстоят утомительные сборы.",
+        "en": "An exhausting training camp lies ahead of you."
+      },
+      "bracket_parts": [
+        "steht",
+        "bevor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein schwerer Sturm stand der Küstenregion damals bevor.",
+      "translation": {
+        "ru": "Прибрежному региону тогда предстоял сильный шторм.",
+        "en": "A severe storm was imminent for the coastal region back then."
+      },
+      "bracket_parts": [
+        "stand",
+        "bevor"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die schwere Operation hat ihm lange Zeit bevorgestanden.",
+      "translation": {
+        "ru": "Тяжелая операция предстояла ему долгое время.",
+        "en": "The severe operation had been imminent for him for a long time."
+      },
+      "bracket_parts": [
+        "hat",
+        "bevorgestanden"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Sei mutig, wenn dir schwere Aufgaben bevorstehen!",
+      "translation": {
+        "ru": "Будь смелым, когда тебе предстоят тяжелые задачи!",
+        "en": "Be brave when difficult tasks lie ahead of you!"
+      },
+      "bracket_parts": [
+        "bevorstehen"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

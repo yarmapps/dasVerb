@@ -1,0 +1,137 @@
+{
+  "id": "fotografieren",
+  "infinitive": "fotografieren",
+  "translation": {
+    "ru": "фотографировать",
+    "en": "to photograph, to take pictures"
+  },
+  "level": "A1",
+  "frequency_rank": 980,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "fotografiert",
+    "preterite_third_singular": "fotografierte",
+    "past_participle": "fotografiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "fotografiere",
+      "du": "fotografierst",
+      "er_sie_es": "fotografiert",
+      "wir": "fotografieren",
+      "ihr": "fotografiert",
+      "sie_Sie": "fotografieren"
+    },
+    "preterite": {
+      "ich": "fotografierte",
+      "du": "fotografiertest",
+      "er_sie_es": "fotografierte",
+      "wir": "fotografierten",
+      "ihr": "fotografiertet",
+      "sie_Sie": "fotografierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "fotografiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich fotografiere auf Reisen besonders gerne alte Bauwerke und Landschaften.",
+      "translation": {
+        "ru": "В путешествиях я особенно люблю фотографировать старинные здания и пейзажи.",
+        "en": "When traveling, I particularly enjoy photographing old buildings and landscapes."
+      },
+      "bracket_parts": [
+        "fotografiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Fotografierst du mich bitte vor dem berühmten Brandenburger Tor?",
+      "translation": {
+        "ru": "Сфотографируешь меня, пожалуйста, перед знаменитыми Бранденбургскими воротами?",
+        "en": "Will you please photograph me in front of the famous Brandenburg Gate?"
+      },
+      "bracket_parts": [
+        "Fotografierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Fotograf fotografiert die Models für die neue Modezeitschrift.",
+      "translation": {
+        "ru": "Фотограф снимает моделей для нового модного журнала.",
+        "en": "The photographer photographs the models for the new fashion magazine."
+      },
+      "bracket_parts": [
+        "fotografiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir fotografieren den spektakulären Sonnenuntergang über dem Ozean.",
+      "translation": {
+        "ru": "Мы фотографируем захватывающий закат над океаном.",
+        "en": "We photograph the spectacular sunset over the ocean."
+      },
+      "bracket_parts": [
+        "fotografieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Fotografiert ihr die Sehenswürdigkeiten mit der Digitalkamera oder dem Smartphone?",
+      "translation": {
+        "ru": "Вы фотографируете достопримечательности цифровой камерой или смартфоном?",
+        "en": "Do you guys photograph the sights with a digital camera or a smartphone?"
+      },
+      "bracket_parts": [
+        "Fotografiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Mein Vater fotografierte damals noch mit einer analogen Kamera.",
+      "translation": {
+        "ru": "Мой отец фотографировал тогда еще аналоговой пленочной камерой.",
+        "en": "My father photographed with an analog camera back then."
+      },
+      "bracket_parts": [
+        "fotografierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Ich habe gestern viele wunderschöne Bilder im Botanischen Garten fotografiert.",
+      "translation": {
+        "ru": "Вчера я сделал много прекрасных снимков в ботаническом саду.",
+        "en": "I took many beautiful photos in the botanical garden yesterday."
+      },
+      "bracket_parts": [
+        "habe",
+        "fotografiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Fotografiere bitte diesen wichtigen Moment für unser Familienalbum!",
+      "translation": {
+        "ru": "Сфотографируй, пожалуйста, этот важный момент для нашего семейного альбома!",
+        "en": "Please photograph this important moment for our family album!"
+      },
+      "bracket_parts": [
+        "Fotografiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

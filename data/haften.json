@@ -1,0 +1,147 @@
+{
+  "id": "haften",
+  "infinitive": "haften",
+  "translation": {
+    "ru": "нести ответственность, прилипать",
+    "en": "to be liable, to be responsible, to stick"
+  },
+  "level": "B2",
+  "frequency_rank": 786,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "haftet",
+    "preterite_third_singular": "haftete",
+    "past_participle": "gehaftet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "hafte",
+      "du": "haftest",
+      "er_sie_es": "haftet",
+      "wir": "haften",
+      "ihr": "haftet",
+      "sie_Sie": "haften"
+    },
+    "preterite": {
+      "ich": "haftete",
+      "du": "haftetest",
+      "er_sie_es": "haftete",
+      "wir": "hafteten",
+      "ihr": "haftetet",
+      "sie_Sie": "hafteten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gehaftet"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "für",
+        "case": "Akkusativ"
+      },
+      {
+        "preposition": "an",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich hafte persönlich für alle Schäden am Mietwagen.",
+      "translation": {
+        "ru": "Я лично несу ответственность за все повреждения арендованного авто.",
+        "en": "I am personally liable for all damage to the rental car."
+      },
+      "bracket_parts": [
+        "hafte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Haftest du für die Schulden deines Geschäftspartners?",
+      "translation": {
+        "ru": "Ты отвечаешь за долги своего делового партнера?",
+        "en": "Are you liable for your business partner's debts?"
+      },
+      "bracket_parts": [
+        "Haftest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Eltern haften für ihre minderjährigen Kinder.",
+      "translation": {
+        "ru": "Родители несут ответственность за своих несовершеннолетних детей.",
+        "en": "Parents are liable for their underage children."
+      },
+      "bracket_parts": [
+        "haften"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir haften nicht für verlorene Gegenstände im Hotel.",
+      "translation": {
+        "ru": "Мы не несем ответственности за потерянные вещи в отеле.",
+        "en": "We are not liable for lost items in the hotel."
+      },
+      "bracket_parts": [
+        "haften"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Haftet ihr gemeinsam für das aufgenommene Darlehen?",
+      "translation": {
+        "ru": "Вы совместно отвечаете по взятому кредиту?",
+        "en": "Are you jointly liable for the loan taken out?"
+      },
+      "bracket_parts": [
+        "Haftet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der nasse Schnee haftete schwer an den Zweigen.",
+      "translation": {
+        "ru": "Мокрый снег тяжело налипал на ветки.",
+        "en": "The wet snow stuck heavily to the branches."
+      },
+      "bracket_parts": [
+        "haftete"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Versicherung hat für den entstandenen Wasserschaden gehaftet.",
+      "translation": {
+        "ru": "Страховая компания покрыла возникший ущерб от воды.",
+        "en": "The insurance was liable for the water damage that occurred."
+      },
+      "bracket_parts": [
+        "hat",
+        "gehaftet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Hafte stets verantwortungsvoll für deine eigenen Entscheidungen!",
+      "translation": {
+        "ru": "Всегда ответственно отвечай за свои собственные решения!",
+        "en": "Always be responsibly accountable for your own decisions!"
+      },
+      "bracket_parts": [
+        "Hafte"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

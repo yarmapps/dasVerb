@@ -1,0 +1,145 @@
+{
+  "id": "nachgehen",
+  "infinitive": "nachgehen",
+  "translation": {
+    "ru": "заниматься (делом), расследовать, отставать (о часах)",
+    "en": "to pursue, to investigate, to be slow (of a watch)"
+  },
+  "level": "B2",
+  "frequency_rank": 789,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "geht nach",
+    "preterite_third_singular": "ging nach",
+    "past_participle": "nachgegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe nach",
+      "du": "gehst nach",
+      "er_sie_es": "geht nach",
+      "wir": "gehen nach",
+      "ihr": "geht nach",
+      "sie_Sie": "gehen nach"
+    },
+    "preterite": {
+      "ich": "ging nach",
+      "du": "gingst nach",
+      "er_sie_es": "ging nach",
+      "wir": "gingen nach",
+      "ihr": "gingt nach",
+      "sie_Sie": "gingen nach"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "nachgegangen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich gehe in meiner Freizeit meinen Hobbys nach.",
+      "translation": {
+        "ru": "В свободное время я занимаюсь своими хобби.",
+        "en": "I pursue my hobbies in my free time."
+      },
+      "bracket_parts": [
+        "gehe",
+        "nach"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gehst du diesem interessanten Hinweis genauer nach?",
+      "translation": {
+        "ru": "Ты расследуешь эту интересную зацепку подробнее?",
+        "en": "Are you looking into this interesting clue more closely?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "nach"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Meine alte Armbanduhr geht jeden Tag fünf Minuten nach.",
+      "translation": {
+        "ru": "Мои старые наручные часы отстают на пять минут каждый день.",
+        "en": "My old wristwatch is five minutes slow every day."
+      },
+      "bracket_parts": [
+        "geht",
+        "nach"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gehen der dringenden Frage im Detail nach.",
+      "translation": {
+        "ru": "Мы детально изучаем этот неотложный вопрос.",
+        "en": "We investigate the urgent question in detail."
+      },
+      "bracket_parts": [
+        "gehen",
+        "nach"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Geht ihr der Spur des verschwundenen Tieres nach?",
+      "translation": {
+        "ru": "Вы идете по следу пропавшего животного?",
+        "en": "Are you following the trail of the disappeared animal?"
+      },
+      "bracket_parts": [
+        "Geht",
+        "nach"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Detektive gingen dem verdächtigen Fall wochenlang nach.",
+      "translation": {
+        "ru": "Детективы неделями расследовали подозрительное дело.",
+        "en": "The detectives investigated the suspicious case for weeks."
+      },
+      "bracket_parts": [
+        "gingen",
+        "nach"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Polizei ist allen Zeugenaussagen gründlich nachgegangen.",
+      "translation": {
+        "ru": "Полиция тщательно проверила все свидетельские показания.",
+        "en": "The police thoroughly investigated all witness statements."
+      },
+      "bracket_parts": [
+        "ist",
+        "nachgegangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Geh deinen beruflichen Interessen mit Leidenschaft nach!",
+      "translation": {
+        "ru": "Занимайся своими профессиональными интересами со страстью!",
+        "en": "Pursue your professional interests with passion!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "nach"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

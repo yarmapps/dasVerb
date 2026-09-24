@@ -1,0 +1,138 @@
+{
+  "id": "beantragen",
+  "infinitive": "beantragen",
+  "translation": {
+    "ru": "подавать заявление, запрашивать",
+    "en": "to apply for, to request"
+  },
+  "level": "B1",
+  "frequency_rank": 730,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "beantragt",
+    "preterite_third_singular": "beantragte",
+    "past_participle": "beantragt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beantrage",
+      "du": "beantragst",
+      "er_sie_es": "beantragt",
+      "wir": "beantragen",
+      "ihr": "beantragt",
+      "sie_Sie": "beantragen"
+    },
+    "preterite": {
+      "ich": "beantragte",
+      "du": "beantragtest",
+      "er_sie_es": "beantragte",
+      "wir": "beantragten",
+      "ihr": "beantragtet",
+      "sie_Sie": "beantragten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "beantragt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich beantrage ein neues Visum für meine Urlaubsreise.",
+      "translation": {
+        "ru": "Я запрашиваю новую визу для туристической поездки.",
+        "en": "I apply for a new visa for my vacation trip."
+      },
+      "bracket_parts": [
+        "beantrage"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beantragst du heute schon das Kindergeld?",
+      "translation": {
+        "ru": "Ты подаешь заявление на детское пособие уже сегодня?",
+        "en": "Are you applying for child benefits today?"
+      },
+      "bracket_parts": [
+        "Beantragst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Bürger beantragt einen neuen Reisepass beim Amt.",
+      "translation": {
+        "ru": "Гражданин подает заявление на новый паспорт в ведомстве.",
+        "en": "The citizen applies for a new passport at the office."
+      },
+      "bracket_parts": [
+        "beantragt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beantragen finanzielle Unterstützung für das Projekt.",
+      "translation": {
+        "ru": "Мы запрашиваем финансовую поддержку для проекта.",
+        "en": "We apply for financial support for the project."
+      },
+      "bracket_parts": [
+        "beantragen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beantragt ihr die Baugenehmigung noch diesen Monat?",
+      "translation": {
+        "ru": "Вы подаете заявление на разрешение на строительство еще в этом месяце?",
+        "en": "Are you applying for the building permit this month?"
+      },
+      "bracket_parts": [
+        "Beantragt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie beantragte die Verlängerung ihres Stipendiums rechtzeitig.",
+      "translation": {
+        "ru": "Она подала заявление на продление стипендии вовремя.",
+        "en": "She applied for the extension of her scholarship in time."
+      },
+      "bracket_parts": [
+        "beantragte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Haben Sie die Mitgliedschaft bereits online beantragt?",
+      "translation": {
+        "ru": "Вы уже подали заявку на членство онлайн?",
+        "en": "Have you already applied for membership online?"
+      },
+      "bracket_parts": [
+        "Haben",
+        "beantragt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Beantrage die Förderung so schnell wie möglich!",
+      "translation": {
+        "ru": "Подай заявление на субсидию как можно скорее!",
+        "en": "Apply for the grant as soon as possible!"
+      },
+      "bracket_parts": [
+        "Beantrage"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

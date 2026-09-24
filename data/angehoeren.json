@@ -1,0 +1,144 @@
+{
+  "id": "angehoeren",
+  "infinitive": "angehören",
+  "translation": {
+    "ru": "принадлежать, входить в состав (организации/группы)",
+    "en": "to belong to, to be a member of"
+  },
+  "level": "B2",
+  "frequency_rank": 1035,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "gehört an",
+    "preterite_third_singular": "gehörte an",
+    "past_participle": "angehört"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehöre an",
+      "du": "gehörst an",
+      "er_sie_es": "gehört an",
+      "wir": "gehören an",
+      "ihr": "gehört an",
+      "sie_Sie": "gehören an"
+    },
+    "preterite": {
+      "ich": "gehörte an",
+      "du": "gehörtest an",
+      "er_sie_es": "gehörte an",
+      "wir": "gehörten an",
+      "ihr": "gehörtet an",
+      "sie_Sie": "gehörten an"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "angehört"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich gehöre seit vielen Jahren einem gemeinnützigen Verein an.",
+      "translation": {
+        "ru": "Я много лет состою в некоммерческой общественной организации.",
+        "en": "I have belonged to a non-profit association for many years."
+      },
+      "bracket_parts": [
+        "gehöre",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gehörst du auch dem Prüfungsausschuss der Universität an?",
+      "translation": {
+        "ru": "Входишь ли ты тоже в состав экзаменационной комиссии университета?",
+        "en": "Do you also belong to the examination board of the university?"
+      },
+      "bracket_parts": [
+        "Gehörst",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Abgeordnete gehört der demokratischen Fraktion im Bundestag an.",
+      "translation": {
+        "ru": "Депутат состоит в демократической фракции в бундестаге.",
+        "en": "The member of parliament belongs to the democratic faction in the Bundestag."
+      },
+      "bracket_parts": [
+        "gehört",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gehören einer internationalen Forschungsgruppe für Klimawandel an.",
+      "translation": {
+        "ru": "Мы входим в международную исследовательскую группу по изменению климата.",
+        "en": "We belong to an international research group on climate change."
+      },
+      "bracket_parts": [
+        "gehören",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gehört ihr dem Vorstand des örtlichen Sportvereins an?",
+      "translation": {
+        "ru": "Входите ли вы в правление местного спортивного клуба?",
+        "en": "Do you guys belong to the board of the local sports club?"
+      },
+      "bracket_parts": [
+        "Gehört",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Wissenschaftler gehörte mehreren angesehenen Akademien an.",
+      "translation": {
+        "ru": "Ученый состоял в нескольких авторитетных академиях.",
+        "en": "The scientist belonged to several prestigious academies."
+      },
+      "bracket_parts": [
+        "gehörte",
+        "an"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Mein Großvater hat diesem Traditionsverein über fünfzig Jahre lang angehört.",
+      "translation": {
+        "ru": "Мой дедушка состоял в этом традиционном клубе более полувека.",
+        "en": "My grandfather belonged to this traditional club for over fifty years."
+      },
+      "bracket_parts": [
+        "hat",
+        "angehört"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gehöre stets Gemeinschaften an, die deine Werte teilen!",
+      "translation": {
+        "ru": "Всегда будь частью сообществ, которые разделяют твои ценности!",
+        "en": "Always belong to communities that share your values!"
+      },
+      "bracket_parts": [
+        "Gehöre",
+        "an"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

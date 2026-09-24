@@ -1,0 +1,154 @@
+{
+  "id": "umdrehen_sich",
+  "infinitive": "umdrehen",
+  "translation": {
+    "ru": "оборачиваться, поворачиваться",
+    "en": "to turn around"
+  },
+  "level": "A2",
+  "frequency_rank": 502,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "um",
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "umdrehen",
+    "present_3sg": "dreht sich um",
+    "praeteritum_3sg": "drehte sich um",
+    "partizip_2": "umgedreht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "drehe mich um",
+      "du": "drehst dich um",
+      "er_sie_es": "dreht sich um",
+      "wir": "drehen uns um",
+      "ihr": "dreht euch um",
+      "sie_Sie": "drehen sich um"
+    },
+    "praeteritum": {
+      "ich": "drehte mich um",
+      "du": "drehtest dich um",
+      "er_sie_es": "drehte sich um",
+      "wir": "drehten uns um",
+      "ihr": "drehtet euch um",
+      "sie_Sie": "drehten sich um"
+    },
+    "perfekt": {
+      "ich": "habe mich umgedreht",
+      "du": "hast dich umgedreht",
+      "er_sie_es": "hat sich umgedreht",
+      "wir": "haben uns umgedreht",
+      "ihr": "habt euch umgedreht",
+      "sie_Sie": "haben sich umgedreht"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich drehe mich beim Gehen noch einmal kurz um.",
+      "translation": {
+        "ru": "На ходу я еще раз ненадолго оборачиваюсь.",
+        "en": "While walking, I turn around briefly once more."
+      },
+      "bracket_parts": [
+        "drehe",
+        "um"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du drehst dich überrascht nach der lauten Stimme um.",
+      "translation": {
+        "ru": "Ты удивленно оборачиваешься на громкий голос.",
+        "en": "You turn around surprised at the loud voice."
+      },
+      "bracket_parts": [
+        "drehst",
+        "um"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Junge dreht sich im Schlaf auf die andere Seite um.",
+      "translation": {
+        "ru": "Мальчик во сне поворачивается на другой бок.",
+        "en": "The boy turns over to the other side in his sleep."
+      },
+      "bracket_parts": [
+        "dreht",
+        "um"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir drehen uns am Bahnsteig zum Abschied nochmals um.",
+      "translation": {
+        "ru": "На перроне мы еще раз оборачиваемся на прощание.",
+        "en": "We turn around once more on the platform to say goodbye."
+      },
+      "bracket_parts": [
+        "drehen",
+        "um"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr dreht euch erschrocken zu dem Geräusch um.",
+      "translation": {
+        "ru": "Вы испуганно оборачиваетесь на этот звук.",
+        "en": "You turn around startled toward the sound."
+      },
+      "bracket_parts": [
+        "dreht",
+        "um"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie drehten sich damals kein einziges Mal mehr um.",
+      "translation": {
+        "ru": "Они тогда больше ни разу не обернулись.",
+        "en": "They did not turn around a single time back then."
+      },
+      "bracket_parts": [
+        "drehten",
+        "um"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Wanderer hat sich auf dem Bergpfad nach uns umgedreht.",
+      "translation": {
+        "ru": "Путник на горной тропе обернулся на нас.",
+        "en": "The hiker turned around to look at us on the mountain path."
+      },
+      "bracket_parts": [
+        "hat",
+        "umgedreht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Dreh dich bitte nicht ständig während des Gesprächs um!",
+      "translation": {
+        "ru": "Пожалуйста, не оборачивайся постоянно во время разговора!",
+        "en": "Please do not turn around constantly during the conversation!"
+      },
+      "bracket_parts": [
+        "Dreh",
+        "um"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

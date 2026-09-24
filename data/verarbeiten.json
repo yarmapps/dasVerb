@@ -1,0 +1,147 @@
+{
+  "id": "verarbeiten",
+  "infinitive": "verarbeiten",
+  "translation": {
+    "ru": "перерабатывать, обрабатывать, осмысливать (горе)",
+    "en": "to process, to manufacture, to come to terms with"
+  },
+  "level": "B2",
+  "frequency_rank": 596,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verarbeiten",
+    "present_3sg": "verarbeitet",
+    "praeteritum_3sg": "verarbeitete",
+    "partizip_2": "verarbeitet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verarbeite",
+      "du": "verarbeitest",
+      "er_sie_es": "verarbeitet",
+      "wir": "verarbeiten",
+      "ihr": "verarbeitet",
+      "sie_Sie": "verarbeiten"
+    },
+    "praeteritum": {
+      "ich": "verarbeitete",
+      "du": "verarbeitetest",
+      "er_sie_es": "verarbeitete",
+      "wir": "verarbeiteten",
+      "ihr": "verarbeitetet",
+      "sie_Sie": "verarbeiteten"
+    },
+    "perfekt": {
+      "ich": "habe verarbeitet",
+      "du": "hast verarbeitet",
+      "er_sie_es": "hat verarbeitet",
+      "wir": "haben verarbeitet",
+      "ihr": "habt verarbeitet",
+      "sie_Sie": "haben verarbeitet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "zu",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich verarbeite die frischen Äpfel zu leckerem Saft.",
+      "translation": {
+        "ru": "Я перерабатываю свежие яблоки во вкусный сок.",
+        "en": "I process the fresh apples into delicious juice."
+      },
+      "bracket_parts": [
+        "verarbeite"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verarbeitest du die Erlebnisse der Reise in einem Tagebuch?",
+      "translation": {
+        "ru": "Ты осмысливаешь впечатления от поездки в дневнике?",
+        "en": "Are you processing the travel experiences in a diary?"
+      },
+      "bracket_parts": [
+        "Verarbeitest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Fabrik verarbeitet täglich viele Tonnen Holz.",
+      "translation": {
+        "ru": "Фабрика ежедневно перерабатывает много тонн древесины.",
+        "en": "The factory processes many tons of wood daily."
+      },
+      "bracket_parts": [
+        "verarbeitet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verarbeiten nur hochwertige Rohstoffe bei der Produktion.",
+      "translation": {
+        "ru": "Мы используем только высококачественное сырье при производстве.",
+        "en": "We only process high-quality raw materials during production."
+      },
+      "bracket_parts": [
+        "verarbeiten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr verarbeitet den Schock über den Verlust nur langsam.",
+      "translation": {
+        "ru": "Вы лишь медленно справляетесь с шоком от потери.",
+        "en": "You are only slowly processing the shock of the loss."
+      },
+      "bracket_parts": [
+        "verarbeitet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Handwerker verarbeitete das Leder damals sehr kunstvoll.",
+      "translation": {
+        "ru": "Ремесленник тогда очень искусно обработал кожу.",
+        "en": "The craftsman worked the leather very skillfully back then."
+      },
+      "bracket_parts": [
+        "verarbeitete"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Computer hat alle Daten blitzschnell verarbeitet.",
+      "translation": {
+        "ru": "Компьютер молниеносно обработал все данные.",
+        "en": "The computer processed all the data in a flash."
+      },
+      "bracket_parts": [
+        "hat",
+        "verarbeitet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verarbeite die Trauer in Ruhe und nimm dir Zeit!",
+      "translation": {
+        "ru": "Переживай печаль спокойно и удели себе время!",
+        "en": "Process your grief peacefully and take your time!"
+      },
+      "bracket_parts": [
+        "Verarbeite"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

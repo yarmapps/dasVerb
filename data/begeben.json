@@ -1,0 +1,147 @@
+{
+  "id": "begeben",
+  "infinitive": "begeben",
+  "translation": {
+    "ru": "отправляться куда-л., происходить (рефл.)",
+    "en": "to proceed, to betake oneself, to happen"
+  },
+  "level": "B2",
+  "frequency_rank": 905,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": true
+  },
+  "principal_parts": {
+    "present_third_singular": "begibt sich",
+    "preterite_third_singular": "begab sich",
+    "past_participle": "begeben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "begebe mich",
+      "du": "begibst dich",
+      "er_sie_es": "begibt sich",
+      "wir": "begeben uns",
+      "ihr": "begebt euch",
+      "sie_Sie": "begeben sich"
+    },
+    "preterite": {
+      "ich": "begab mich",
+      "du": "begabst dich",
+      "er_sie_es": "begab sich",
+      "wir": "begaben uns",
+      "ihr": "begabt euch",
+      "sie_Sie": "begaben uns"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "begeben"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "nach",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "in",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich begebe mich nach dem langen Arbeitstag sofort nach Hause.",
+      "translation": {
+        "ru": "Я после долгого рабочего дня сразу направляюсь домой.",
+        "en": "I proceed home immediately after the long workday."
+      },
+      "bracket_parts": [
+        "begebe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Begibst du dich heute noch in ärztliche Behandlung?",
+      "translation": {
+        "ru": "Ты обратишься еще сегодня за медицинской помощью?",
+        "en": "Are you going for medical treatment today?"
+      },
+      "bracket_parts": [
+        "Begibst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Botschafter begibt sich zur dringenden Krisensitzung.",
+      "translation": {
+        "ru": "Посол направляется на экстренное кризисное совещание.",
+        "en": "The ambassador proceeds to the urgent crisis meeting."
+      },
+      "bracket_parts": [
+        "begibt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir begeben uns auf eine abenteuerliche Entdeckungsreise.",
+      "translation": {
+        "ru": "Мы отправляемся в полное приключений исследовательское путешествие.",
+        "en": "We embark on an adventurous voyage of discovery."
+      },
+      "bracket_parts": [
+        "begeben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Begebt ihr euch bei Feueralarm sofort ins Freie?",
+      "translation": {
+        "ru": "Вы при пожарной тревоге сразу выходите на улицу?",
+        "en": "Do you guys head outside immediately in case of a fire alarm?"
+      },
+      "bracket_parts": [
+        "Begebt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Wanderer begab sich trotz der Dunkelheit auf den Rückweg.",
+      "translation": {
+        "ru": "Путник, несмотря на темноту, отправился в обратный путь.",
+        "en": "The hiker set out on the return journey despite the darkness."
+      },
+      "bracket_parts": [
+        "begab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Touristen haben sich gestern in sichere Gebiete begeben.",
+      "translation": {
+        "ru": "Туристы вчера направились в безопасные районы.",
+        "en": "The tourists proceeded to safe areas yesterday."
+      },
+      "bracket_parts": [
+        "haben",
+        "begeben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Begib dich bitte unverzüglich zum Ausgang!",
+      "translation": {
+        "ru": "Пройди, пожалуйста, немедленно к выходу!",
+        "en": "Please proceed immediately to the exit!"
+      },
+      "bracket_parts": [
+        "Begib"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

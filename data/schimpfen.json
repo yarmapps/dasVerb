@@ -1,0 +1,147 @@
+{
+  "id": "schimpfen",
+  "infinitive": "schimpfen",
+  "translation": {
+    "ru": "ругать, бранить, ворчать",
+    "en": "to scold, to curse, to grumble"
+  },
+  "level": "A2",
+  "frequency_rank": 1024,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "schimpft",
+    "preterite_third_singular": "schimpfte",
+    "past_participle": "geschimpft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schimpfe",
+      "du": "schimpfst",
+      "er_sie_es": "schimpft",
+      "wir": "schimpfen",
+      "ihr": "schimpft",
+      "sie_Sie": "schimpfen"
+    },
+    "preterite": {
+      "ich": "schimpfte",
+      "du": "schimpftest",
+      "er_sie_es": "schimpfte",
+      "wir": "schimpften",
+      "ihr": "schimpftet",
+      "sie_Sie": "schimpften"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geschimpft"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "über",
+        "case": "Akkusativ"
+      },
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich schimpfe selten mit meinen Kindern, sondern erkläre Fehler ruhig.",
+      "translation": {
+        "ru": "Я редко ругаю своих детей, а спокойно объясняю ошибки.",
+        "en": "I rarely scold my children, I explain mistakes calmly."
+      },
+      "bracket_parts": [
+        "schimpfe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schimpfst du schon wieder über das schlechte Wetter und den Stau?",
+      "translation": {
+        "ru": "Ты снова ругаешься на плохую погоду и пробку?",
+        "en": "Are you grumbling again about the bad weather and the traffic jam?"
+      },
+      "bracket_parts": [
+        "Schimpfst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der alte Nachbar schimpft ständig über die laute Musik im Haus.",
+      "translation": {
+        "ru": "Пожилой сосед постоянно ругается на громкую музыку в доме.",
+        "en": "The old neighbor constantly grumbles about the loud music in the house."
+      },
+      "bracket_parts": [
+        "schimpft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schimpfen nicht über die Verspätung der Bahn, sondern bleiben geduldig.",
+      "translation": {
+        "ru": "Мы не ругаемся на опоздание поезда, а сохраняем терпение.",
+        "en": "We do not complain about the train delay, we remain patient."
+      },
+      "bracket_parts": [
+        "schimpfen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schimpft ihr mit dem Hund, wenn er die Schuhe anknabbert?",
+      "translation": {
+        "ru": "Ругаете ли вы собаку, когда она грызет обувь?",
+        "en": "Do you guys scold the dog when it nibbles on shoes?"
+      },
+      "bracket_parts": [
+        "Schimpft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Mutter schimpfte gestern laut mit ihrem unartigen Sohn.",
+      "translation": {
+        "ru": "Мать вчера громко отругала своего непослушного сына.",
+        "en": "The mother scolded her naughty son loudly yesterday."
+      },
+      "bracket_parts": [
+        "schimpfte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Lehrer hat mit der ganzen Klasse wegen des Lärms geschimpft.",
+      "translation": {
+        "ru": "Учитель отругал весь класс из-за шума.",
+        "en": "The teacher scolded the whole class because of the noise."
+      },
+      "bracket_parts": [
+        "hat",
+        "geschimpft"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schimpf bitte nicht so lautstark vor den kleinen Kindern!",
+      "translation": {
+        "ru": "Не ругайся, пожалуйста, так громко перед маленькими детьми!",
+        "en": "Please do not scold so loudly in front of small children!"
+      },
+      "bracket_parts": [
+        "Schimpf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

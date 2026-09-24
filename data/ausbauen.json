@@ -1,0 +1,154 @@
+{
+  "id": "ausbauen",
+  "infinitive": "ausbauen",
+  "translation": {
+    "ru": "расширять, модернизировать, демонтировать/снимать",
+    "en": "to expand, to develop, to remove/dismantle"
+  },
+  "level": "B1",
+  "frequency_rank": 616,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ausbauen",
+    "present_3sg": "baut aus",
+    "praeteritum_3sg": "baute aus",
+    "partizip_2": "ausgebaut"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "baue aus",
+      "du": "baust aus",
+      "er_sie_es": "baut aus",
+      "wir": "bauen aus",
+      "ihr": "baut aus",
+      "sie_Sie": "bauen aus"
+    },
+    "praeteritum": {
+      "ich": "baute aus",
+      "du": "bautest aus",
+      "er_sie_es": "baute aus",
+      "wir": "bauten aus",
+      "ihr": "bautet aus",
+      "sie_Sie": "bauten aus"
+    },
+    "perfekt": {
+      "ich": "habe ausgebaut",
+      "du": "hast ausgebaut",
+      "er_sie_es": "hat ausgebaut",
+      "wir": "haben ausgebaut",
+      "ihr": "habt ausgebaut",
+      "sie_Sie": "haben ausgebaut"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich baue den Dachboden zu einem gemütlichen Arbeitszimmer aus.",
+      "translation": {
+        "ru": "Я переоборудую чердак в уютный кабинет.",
+        "en": "I expand the attic into a cozy study."
+      },
+      "bracket_parts": [
+        "baue",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Baust du dein berufliches Netzwerk kontinuierlich aus?",
+      "translation": {
+        "ru": "Ты постоянно расширяешь свою профессиональную сеть контактов?",
+        "en": "Are you continuously expanding your professional network?"
+      },
+      "bracket_parts": [
+        "Baust",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Stadt baut das Straßenbahnnetz weiter aus.",
+      "translation": {
+        "ru": "Город дальше расширяет трамвайную сеть.",
+        "en": "The city continues to expand the tram network."
+      },
+      "bracket_parts": [
+        "baut",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bauen die Zusammenarbeit mit unseren internationalen Partnern aus.",
+      "translation": {
+        "ru": "Мы расширяем сотрудничество с нашими международными партнерами.",
+        "en": "We expand the cooperation with our international partners."
+      },
+      "bracket_parts": [
+        "bauen",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr baut eure Sprachkenntnisse im Kurs aus.",
+      "translation": {
+        "ru": "Вы углубляете свои языковые знания на курсе.",
+        "en": "You expand your language skills in the course."
+      },
+      "bracket_parts": [
+        "baut",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Unternehmen baute damals seine Marktposition stark aus.",
+      "translation": {
+        "ru": "Компания тогда сильно укрепила и расширила свои позиции на рынке.",
+        "en": "The company expanded its market position strongly back then."
+      },
+      "bracket_parts": [
+        "baute",
+        "aus"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Mechaniker hat den defekten Motor vorsichtig ausgebaut.",
+      "translation": {
+        "ru": "Механик осторожно демонтировал неисправный двигатель.",
+        "en": "The mechanic carefully removed the defective engine."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgebaut"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Baue deine Stärken gezielt weiter aus!",
+      "translation": {
+        "ru": "Целенаправленно развивай свои сильные стороны!",
+        "en": "Expand your strengths in a targeted manner!"
+      },
+      "bracket_parts": [
+        "Baue",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

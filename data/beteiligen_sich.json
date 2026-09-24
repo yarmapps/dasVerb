@@ -1,0 +1,147 @@
+{
+  "id": "beteiligen_sich",
+  "infinitive": "beteiligen",
+  "translation": {
+    "ru": "участвовать, принимать участие",
+    "en": "to participate, to take part"
+  },
+  "level": "B1",
+  "frequency_rank": 185,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "beteiligen",
+    "present_3sg": "beteiligt sich",
+    "praeteritum_3sg": "beteiligte sich",
+    "partizip_2": "beteiligt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beteilige mich",
+      "du": "beteiligst dich",
+      "er_sie_es": "beteiligt sich",
+      "wir": "beteiligen uns",
+      "ihr": "beteiligt euch",
+      "sie_Sie": "beteiligen sich"
+    },
+    "praeteritum": {
+      "ich": "beteiligte mich",
+      "du": "beteiligtest dich",
+      "er_sie_es": "beteiligte sich",
+      "wir": "beteiligten uns",
+      "ihr": "beteiligtet euch",
+      "sie_Sie": "beteiligten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich beteiligt",
+      "du": "hast dich beteiligt",
+      "er_sie_es": "hat sich beteiligt",
+      "wir": "haben uns beteiligt",
+      "ihr": "habt euch beteiligt",
+      "sie_Sie": "haben sich beteiligt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "an",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich beteilige mich aktiv am Unterricht.",
+      "translation": {
+        "ru": "Я активно участвую в уроках.",
+        "en": "I participate actively in class."
+      },
+      "bracket_parts": [
+        "beteilige"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beteiligst du dich an den Kosten für das Geschenk?",
+      "translation": {
+        "ru": "Ты скинешься на подарок?",
+        "en": "Are you contributing to the cost of the gift?"
+      },
+      "bracket_parts": [
+        "Beteiligst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er beteiligt sich gerne an jeder Diskussion.",
+      "translation": {
+        "ru": "Он охотно участвует в любой дискуссии.",
+        "en": "He gladly takes part in every discussion."
+      },
+      "bracket_parts": [
+        "beteiligt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beteiligen uns an diesem sozialen Projekt.",
+      "translation": {
+        "ru": "Мы участвуем в этом социальном проекте.",
+        "en": "We are participating in this social project."
+      },
+      "bracket_parts": [
+        "beteiligen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr beteiligt euch nicht an dem Spiel.",
+      "translation": {
+        "ru": "Вы не участвуете в игре.",
+        "en": "You are not participating in the game."
+      },
+      "bracket_parts": [
+        "beteiligt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Viele Bürger beteiligten sich an der Abstimmung.",
+      "translation": {
+        "ru": "Многие граждане участвовали в голосовании.",
+        "en": "Many citizens participated in the vote."
+      },
+      "bracket_parts": [
+        "beteiligten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Firma hat sich an der Messe beteiligt.",
+      "translation": {
+        "ru": "Компания приняла участие в выставке.",
+        "en": "The company took part in the trade fair."
+      },
+      "bracket_parts": [
+        "hat",
+        "beteiligt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Beteilige dich doch auch an dem Wettbewerb!",
+      "translation": {
+        "ru": "Прими и ты участие в конкурсе!",
+        "en": "Participate in the competition too!"
+      },
+      "bracket_parts": [
+        "Beteilige"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

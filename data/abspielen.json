@@ -1,0 +1,145 @@
+{
+  "id": "abspielen",
+  "infinitive": "abspielen",
+  "translation": {
+    "ru": "проигрывать (музыку, видео), разыгрываться (о событиях)",
+    "en": "to play (music/video), to take place (reflexive)"
+  },
+  "level": "B1",
+  "frequency_rank": 802,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "spielt ab",
+    "preterite_third_singular": "spielte ab",
+    "past_participle": "abgespielt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "spiele ab",
+      "du": "spielst ab",
+      "er_sie_es": "spielt ab",
+      "wir": "spielen ab",
+      "ihr": "spielt ab",
+      "sie_Sie": "spielen ab"
+    },
+    "preterite": {
+      "ich": "spielte ab",
+      "du": "spieltest ab",
+      "er_sie_es": "spielte ab",
+      "wir": "spielten ab",
+      "ihr": "spieltet ab",
+      "sie_Sie": "spielten ab"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "abgespielt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich spiele ein neues Musikvideo auf meinem Tablet ab.",
+      "translation": {
+        "ru": "Я проигрываю новый музыкальный клип на своем планшете.",
+        "en": "I play a new music video on my tablet."
+      },
+      "bracket_parts": [
+        "spiele",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Spielst du die Sprachnachricht über die Lautsprecher ab?",
+      "translation": {
+        "ru": "Ты проигрываешь голосовое сообщение через динамики?",
+        "en": "Are you playing the voice message over the speakers?"
+      },
+      "bracket_parts": [
+        "Spielst",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Fußballer spielt den Ball zum freien Mitspieler ab.",
+      "translation": {
+        "ru": "Футболист отдает передачу открытому партнеру по команде.",
+        "en": "The soccer player passes the ball to the open teammate."
+      },
+      "bracket_parts": [
+        "spielt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir spielen die Präsentation während der Konferenz ab.",
+      "translation": {
+        "ru": "Мы воспроизводим презентацию во время конференции.",
+        "en": "We play the presentation during the conference."
+      },
+      "bracket_parts": [
+        "spielen",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Spielt ihr die Audiodatei noch einmal für alle ab?",
+      "translation": {
+        "ru": "Вы воспроизводите аудиофайл еще раз для всех?",
+        "en": "Are you playing the audio file once more for everyone?"
+      },
+      "bracket_parts": [
+        "Spielt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Szene spielte sich mitten auf dem Marktplatz ab.",
+      "translation": {
+        "ru": "Сцена разыгралась прямо посреди рыночной площади.",
+        "en": "The scene took place in the middle of the market square."
+      },
+      "bracket_parts": [
+        "spielte",
+        "ab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der DJ hat das Lieblingslied des Brautpaars abgespielt.",
+      "translation": {
+        "ru": "Диджей поставил любимую песню молодоженов.",
+        "en": "The DJ played the bridal couple's favorite song."
+      },
+      "bracket_parts": [
+        "hat",
+        "abgespielt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Spiel den Song bitte noch einmal von vorne ab!",
+      "translation": {
+        "ru": "Включи, пожалуйста, эту песню еще раз с начала!",
+        "en": "Please play the song once again from the beginning!"
+      },
+      "bracket_parts": [
+        "Spiel",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

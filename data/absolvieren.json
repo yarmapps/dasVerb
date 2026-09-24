@@ -1,0 +1,147 @@
+{
+  "id": "absolvieren",
+  "infinitive": "absolvieren",
+  "translation": {
+    "ru": "оканчивать (учебу), проходить (стажировку/курс)",
+    "en": "to complete, to graduate from"
+  },
+  "level": "B2",
+  "frequency_rank": 637,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "absolvieren",
+    "present_3sg": "absolviert",
+    "praeteritum_3sg": "absolvierte",
+    "partizip_2": "absolviert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "absolviere",
+      "du": "absolvierst",
+      "er_sie_es": "absolviert",
+      "wir": "absolvieren",
+      "ihr": "absolviert",
+      "sie_Sie": "absolvieren"
+    },
+    "praeteritum": {
+      "ich": "absolvierte",
+      "du": "absolviertest",
+      "er_sie_es": "absolvierte",
+      "wir": "absolvierten",
+      "ihr": "absolviertet",
+      "sie_Sie": "absolvierten"
+    },
+    "perfekt": {
+      "ich": "habe absolviert",
+      "du": "hast absolviert",
+      "er_sie_es": "hat absolviert",
+      "wir": "haben absolviert",
+      "ihr": "habt absolviert",
+      "sie_Sie": "haben absolviert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich absolviere derzeit ein dreimonatiges Praktikum im Krankenhaus.",
+      "translation": {
+        "ru": "Я в настоящее время прохожу трехмесячную практику в больнице.",
+        "en": "I am currently completing a three-month internship in the hospital."
+      },
+      "bracket_parts": [
+        "absolviere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Absolvierst du dieses Jahr dein Studium an der Universität?",
+      "translation": {
+        "ru": "Ты заканчиваешь в этом году учебу в университете?",
+        "en": "Are you graduating from university this year?"
+      },
+      "bracket_parts": [
+        "Absolvierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Sportler absolviert täglich ein intensives Training.",
+      "translation": {
+        "ru": "Спортсмен ежедневно проводит интенсивную тренировку.",
+        "en": "The athlete completes intensive training every day."
+      },
+      "bracket_parts": [
+        "absolviert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir absolvieren alle erforderlichen Kurse für das Zertifikat.",
+      "translation": {
+        "ru": "Мы проходим все необходимые курсы для получения сертификата.",
+        "en": "We complete all required courses for the certificate."
+      },
+      "bracket_parts": [
+        "absolvieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr absolviert den Sprachkurs mit großem Erfolg.",
+      "translation": {
+        "ru": "Вы проходите языковой курс с большим успехом.",
+        "en": "You complete the language course with great success."
+      },
+      "bracket_parts": [
+        "absolviert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie absolvierte damals ihre Ausbildung in einer bekannten Kanzlei.",
+      "translation": {
+        "ru": "Она тогда прошла обучение в известной конторе.",
+        "en": "She completed her apprenticeship in a well-known law firm back then."
+      },
+      "bracket_parts": [
+        "absolvierte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Er hat das Masterstudium mit Auszeichnung absolviert.",
+      "translation": {
+        "ru": "Он окончил магистратуру с отличием.",
+        "en": "He completed his master's degree with honors."
+      },
+      "bracket_parts": [
+        "hat",
+        "absolviert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Absolviere deine Aufgaben stets mit voller Konzentration!",
+      "translation": {
+        "ru": "Выполняй свои задачи всегда с полной концентрацией!",
+        "en": "Always complete your tasks with full concentration!"
+      },
+      "bracket_parts": [
+        "Absolviere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

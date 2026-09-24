@@ -11,7 +11,9 @@
   },
   "features": {
     "disable_first_open_paywall": false,
-    "free_daily_quizzes": 3,
-    "max_ad_grants_per_day": 20
+    "free_daily_quizzes": 2,
+    "max_ad_grants_per_day": 10,
+    "enable_practice_native_ad": true,
+    "enable_dictionary_native_ad": true
   }
 }

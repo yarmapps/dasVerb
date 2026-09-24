@@ -39,7 +39,7 @@ export const createStyles = (colors: ThemeColors) =>
       fontSize: Typography.fontSize.xs,
       lineHeight: 16,
     },
-    actionArrow: {
+    actionIcon: {
       width: 32,
       height: 32,
       borderRadius: BorderRadius.full,

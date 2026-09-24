@@ -1,0 +1,143 @@
+{
+  "id": "kleben",
+  "infinitive": "kleben",
+  "translation": {
+    "ru": "клеить, приклеивать, липнуть",
+    "en": "to stick, to glue, to adhere"
+  },
+  "level": "A2",
+  "frequency_rank": 764,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "klebt",
+    "preterite_third_singular": "klebte",
+    "past_participle": "geklebt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "klebe",
+      "du": "klebst",
+      "er_sie_es": "klebt",
+      "wir": "kleben",
+      "ihr": "klebt",
+      "sie_Sie": "kleben"
+    },
+    "preterite": {
+      "ich": "klebte",
+      "du": "klebtest",
+      "er_sie_es": "klebte",
+      "wir": "klebten",
+      "ihr": "klebtet",
+      "sie_Sie": "klebten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geklebt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "an",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich klebe eine Briefmarke auf den Umschlag.",
+      "translation": {
+        "ru": "Я наклеиваю почтовую марку на конверт.",
+        "en": "I stick a postage stamp onto the envelope."
+      },
+      "bracket_parts": [
+        "klebe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Klebst du das zerrissene Foto mit Klebeband zusammen?",
+      "translation": {
+        "ru": "Ты склеиваешь разорванную фотографию скотчем?",
+        "en": "Are you sticking the torn photo together with adhesive tape?"
+      },
+      "bracket_parts": [
+        "Klebst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der klebrige Kaugummi klebt hartnäckig an der Schuhsohle.",
+      "translation": {
+        "ru": "Липкая жвачка упорно прилипает к подошве обуви.",
+        "en": "The sticky chewing gum sticks stubbornly to the shoe sole."
+      },
+      "bracket_parts": [
+        "klebt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir kleben bunte Plakate an die Litfaßsäule.",
+      "translation": {
+        "ru": "Мы клеим красочные плакаты на рекламную тумбу.",
+        "en": "We paste colorful posters onto the advertising pillar."
+      },
+      "bracket_parts": [
+        "kleben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Klebt ihr die Etiketten sauber auf die Gläser?",
+      "translation": {
+        "ru": "Вы аккуратно наклеиваете этикетки на банки?",
+        "en": "Are you sticking the labels cleanly onto the jars?"
+      },
+      "bracket_parts": [
+        "Klebt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er klebte den abgebrochenen Griff mit Sekundenkleber an.",
+      "translation": {
+        "ru": "Он приклеил отломанную ручку суперклеем.",
+        "en": "He glued the broken handle on with superglue."
+      },
+      "bracket_parts": [
+        "klebte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben viele Fotos in das Album geklebt.",
+      "translation": {
+        "ru": "Они вклеили много фотографий в альбом.",
+        "en": "They pasted many photos into the album."
+      },
+      "bracket_parts": [
+        "haben",
+        "geklebt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Klebe den Zettel gut sichtbar an den Kühlschrank!",
+      "translation": {
+        "ru": "Приклей записку на видное место на холодильнике!",
+        "en": "Stick the note in a clearly visible place on the fridge!"
+      },
+      "bracket_parts": [
+        "Klebe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

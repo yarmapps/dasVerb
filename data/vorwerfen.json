@@ -1,0 +1,155 @@
+{
+  "id": "vorwerfen",
+  "infinitive": "vorwerfen",
+  "translation": {
+    "ru": "упрекать, винить, бросать вперед/животным",
+    "en": "to accuse, to reproach, to throw forward"
+  },
+  "level": "B1",
+  "frequency_rank": 696,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "vor",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vorwerfen",
+    "present_3sg": "wirft vor",
+    "praeteritum_3sg": "warf vor",
+    "partizip_2": "vorgeworfen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "werfe vor",
+      "du": "wirfst vor",
+      "er_sie_es": "wirft vor",
+      "wir": "werfen vor",
+      "ihr": "werft vor",
+      "sie_Sie": "werfen vor",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "warf vor",
+      "du": "warfst vor",
+      "er_sie_es": "warf vor",
+      "wir": "warfen vor",
+      "ihr": "warft vor",
+      "sie_Sie": "warfen vor"
+    },
+    "perfekt": {
+      "ich": "habe vorgeworfen",
+      "du": "hast vorgeworfen",
+      "er_sie_es": "hat vorgeworfen",
+      "wir": "haben vorgeworfen",
+      "ihr": "habt vorgeworfen",
+      "sie_Sie": "haben vorgeworfen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "Dativ",
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich werfe dir deine kleine Unpünktlichkeit gar nicht vor.",
+      "translation": {
+        "ru": "Я вовсе не упрекаю тебя за небольшую непунктуальность.",
+        "en": "I do not reproach you for your slight unpunctuality at all."
+      },
+      "bracket_parts": [
+        "werfe",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wirfst du deinen Eltern ihre strenge Erziehung vor?",
+      "translation": {
+        "ru": "Ты винишь родителей в их строгом воспитании?",
+        "en": "Do you blame your parents for their strict upbringing?"
+      },
+      "bracket_parts": [
+        "Wirfst",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Staatsanwaltschaft wirft dem Angeklagten schweren Betrug vor.",
+      "translation": {
+        "ru": "Прокуратура вменяет обвиняемому тяжкое мошенничество.",
+        "en": "The public prosecutor's office accuses the defendant of serious fraud."
+      },
+      "bracket_parts": [
+        "wirft",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir werfen uns im Streit keine bösen Beleidigungen vor.",
+      "translation": {
+        "ru": "Мы не бросаем друг другу злых оскорблений в споре.",
+        "en": "We do not throw nasty insults at each other in an argument."
+      },
+      "bracket_parts": [
+        "werfen",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr werft dem Team mangelnden Einsatz vor.",
+      "translation": {
+        "ru": "Вы упрекаете команду в недостаточной самоотдаче.",
+        "en": "You accuse the team of a lack of commitment."
+      },
+      "bracket_parts": [
+        "werft",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Trainer warf den Spielern damals grobe Fehler vor.",
+      "translation": {
+        "ru": "Тренер тогда поставил игрокам в упрек грубые ошибки.",
+        "en": "The coach accused the players of gross mistakes back then."
+      },
+      "bracket_parts": [
+        "warf",
+        "vor"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Niemand hat ihm seine ehrliche Meinung jemals vorgeworfen.",
+      "translation": {
+        "ru": "Никто никогда не ставил ему в вину его честное мнение.",
+        "en": "Nobody has ever blamed him for his honest opinion."
+      },
+      "bracket_parts": [
+        "hat",
+        "vorgeworfen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Wirf anderen nicht deine eigenen Fehler vor!",
+      "translation": {
+        "ru": "Не упрекай других в своих собственных ошибках!",
+        "en": "Do not reproach others with your own mistakes!"
+      },
+      "bracket_parts": [
+        "Wirf",
+        "vor"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

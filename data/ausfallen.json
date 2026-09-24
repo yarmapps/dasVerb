@@ -1,0 +1,153 @@
+{
+  "id": "ausfallen",
+  "infinitive": "ausfallen",
+  "translation": {
+    "ru": "отменяться (об уроке/поезде), выпадать (о волосах), получаться",
+    "en": "to be cancelled, to fail, to fall out"
+  },
+  "level": "A2",
+  "frequency_rank": 601,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ausfallen",
+    "present_3sg": "fällt aus",
+    "praeteritum_3sg": "fiel aus",
+    "partizip_2": "ausgefallen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "falle aus",
+      "du": "fällst aus",
+      "er_sie_es": "fällt aus",
+      "wir": "fallen aus",
+      "ihr": "fallt aus",
+      "sie_Sie": "fallen aus",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "fiel aus",
+      "du": "fielst aus",
+      "er_sie_es": "fiel aus",
+      "wir": "fielen aus",
+      "ihr": "fielt aus",
+      "sie_Sie": "fielen aus"
+    },
+    "perfekt": {
+      "ich": "bin ausgefallen",
+      "du": "bist ausgefallen",
+      "er_sie_es": "ist ausgefallen",
+      "wir": "sind ausgefallen",
+      "ihr": "seid ausgefallen",
+      "sie_Sie": "sind ausgefallen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich erfahre gerade, dass der heutige Kurs ausfällt.",
+      "translation": {
+        "ru": "Я как раз узнаю, что сегодняшний курс отменяется.",
+        "en": "I just found out that today's course is cancelled."
+      },
+      "bracket_parts": [
+        "ausfällt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Fällst du wegen deiner Erkältung beim Spiel aus?",
+      "translation": {
+        "ru": "Ты пропустишь игру из-за простуды?",
+        "en": "Are you dropping out of the game due to your cold?"
+      },
+      "bracket_parts": [
+        "Fällst",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Zug nach München fällt heute leider aus.",
+      "translation": {
+        "ru": "Поезд в Мюнхен сегодня, к сожалению, отменяется.",
+        "en": "The train to Munich is unfortunately cancelled today."
+      },
+      "bracket_parts": [
+        "fällt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir hoffen, dass keine weiteren Flüge ausfallen.",
+      "translation": {
+        "ru": "Мы надеемся, что больше никакие рейсы не отменятся.",
+        "en": "We hope that no further flights are cancelled."
+      },
+      "bracket_parts": [
+        "ausfallen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr fallt bei diesem wichtigen Test hoffentlich nicht aus.",
+      "translation": {
+        "ru": "Вы, надеюсь, не выбудете на этом важном тесте.",
+        "en": "Hopefully you will not drop out during this important test."
+      },
+      "bracket_parts": [
+        "fallt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Strom fiel damals in der ganzen Stadt aus.",
+      "translation": {
+        "ru": "Электричество тогда отключилось во всем городе.",
+        "en": "The power failed across the whole city back then."
+      },
+      "bracket_parts": [
+        "fiel",
+        "aus"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das Konzert ist wegen des schweren Regens ausgefallen.",
+      "translation": {
+        "ru": "Концерт отменился из-за сильного дождя.",
+        "en": "The concert was cancelled due to the heavy rain."
+      },
+      "bracket_parts": [
+        "ist",
+        "ausgefallen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Fall bitte morgen beim Training nicht aus!",
+      "translation": {
+        "ru": "Не пропускай, пожалуйста, завтра тренировку!",
+        "en": "Please do not miss training tomorrow!"
+      },
+      "bracket_parts": [
+        "Fall",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "bedecken",
+  "infinitive": "bedecken",
+  "translation": {
+    "ru": "покрывать, укрывать, закрывать",
+    "en": "to cover"
+  },
+  "level": "B1",
+  "frequency_rank": 618,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bedecken",
+    "present_3sg": "bedeckt",
+    "praeteritum_3sg": "bedeckte",
+    "partizip_2": "bedeckt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bedecke",
+      "du": "bedeckst",
+      "er_sie_es": "bedeckt",
+      "wir": "bedecken",
+      "ihr": "bedeckt",
+      "sie_Sie": "bedecken"
+    },
+    "praeteritum": {
+      "ich": "bedeckte",
+      "du": "bedecktest",
+      "er_sie_es": "bedeckte",
+      "wir": "bedeckten",
+      "ihr": "bedecktet",
+      "sie_Sie": "bedeckten"
+    },
+    "perfekt": {
+      "ich": "habe bedeckt",
+      "du": "hast bedeckt",
+      "er_sie_es": "hat bedeckt",
+      "wir": "haben bedeckt",
+      "ihr": "habt bedeckt",
+      "sie_Sie": "haben bedeckt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich bedecke den Teig mit einem sauberen Tuch.",
+      "translation": {
+        "ru": "Я накрываю тесто чистым полотенцем.",
+        "en": "I cover the dough with a clean cloth."
+      },
+      "bracket_parts": [
+        "bedecke"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bedeckst du den Tisch mit einer hübschen Decke?",
+      "translation": {
+        "ru": "Ты застелешь стол красивой скатертью?",
+        "en": "Are you covering the table with a pretty tablecloth?"
+      },
+      "bracket_parts": [
+        "Bedeckst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dicker Schnee bedeckt die Dächer der kleinen Stadt.",
+      "translation": {
+        "ru": "Густой снег покрывает крыши маленького города.",
+        "en": "Thick snow covers the roofs of the small town."
+      },
+      "bracket_parts": [
+        "bedeckt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bedecken die Pflanzen im Garten vor dem Frost.",
+      "translation": {
+        "ru": "Мы укрываем растения в саду от мороза.",
+        "en": "We cover the plants in the garden against frost."
+      },
+      "bracket_parts": [
+        "bedecken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr bedeckt eure Gesichter vor dem Sandsturm.",
+      "translation": {
+        "ru": "Вы закрываете лица от песчаной бури.",
+        "en": "You cover your faces from the sandstorm."
+      },
+      "bracket_parts": [
+        "bedeckt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dunkle Wolken bedeckten damals plötzlich den Himmel.",
+      "translation": {
+        "ru": "Темные тучи тогда внезапно закрыли небо.",
+        "en": "Dark clouds suddenly covered the sky back then."
+      },
+      "bracket_parts": [
+        "bedeckten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Staub hat alle alten Möbel auf dem Dachboden bedeckt.",
+      "translation": {
+        "ru": "Пыль покрыла всю старую мебель на чердаке.",
+        "en": "Dust covered all the old furniture in the attic."
+      },
+      "bracket_parts": [
+        "hat",
+        "bedeckt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bedecke das Essen im Kühlschrank mit Folie!",
+      "translation": {
+        "ru": "Накрой еду в холодильнике пленкой!",
+        "en": "Cover the food in the fridge with foil!"
+      },
+      "bracket_parts": [
+        "Bedecke"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

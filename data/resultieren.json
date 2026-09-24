@@ -1,0 +1,143 @@
+{
+  "id": "resultieren",
+  "infinitive": "resultieren",
+  "translation": {
+    "ru": "следовать, вытекать, проистекать",
+    "en": "to result"
+  },
+  "level": "B2",
+  "frequency_rank": 749,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "resultiert",
+    "preterite_third_singular": "resultierte",
+    "past_participle": "resultiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "resultiere",
+      "du": "resultierst",
+      "er_sie_es": "resultiert",
+      "wir": "resultieren",
+      "ihr": "resultiert",
+      "sie_Sie": "resultieren"
+    },
+    "preterite": {
+      "ich": "resultierte",
+      "du": "resultiertest",
+      "er_sie_es": "resultierte",
+      "wir": "resultierten",
+      "ihr": "resultiertet",
+      "sie_Sie": "resultierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "resultiert"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "aus",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Mein Erfolg resultiert aus kontinuierlicher harter Arbeit.",
+      "translation": {
+        "ru": "Мой успех проистекает из постоянного упорного труда.",
+        "en": "My success results from continuous hard work."
+      },
+      "bracket_parts": [
+        "resultiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Deine guten Noten resultieren aus täglichem Lernen.",
+      "translation": {
+        "ru": "Твои хорошие оценки являются результатом ежедневной учебы.",
+        "en": "Your good grades result from daily studying."
+      },
+      "bracket_parts": [
+        "resultieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Problem resultiert aus einem einfachen Kommunikationsfehler.",
+      "translation": {
+        "ru": "Проблема проистекает из простой ошибки коммуникации.",
+        "en": "The problem results from a simple communication error."
+      },
+      "bracket_parts": [
+        "resultiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Viele Missverständnisse resultieren aus mangelnder Klarheit.",
+      "translation": {
+        "ru": "Многие недопонимания происходят от недостатка ясности.",
+        "en": "Many misunderstandings result from a lack of clarity."
+      },
+      "bracket_parts": [
+        "resultieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die hohen Gewinne resultieren aus innovativen Ideen.",
+      "translation": {
+        "ru": "Высокая прибыль проистекает из инновационных идей.",
+        "en": "The high profits result from innovative ideas."
+      },
+      "bracket_parts": [
+        "resultieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Verspätung resultierte aus einem technischen Defekt.",
+      "translation": {
+        "ru": "Опоздание стало следствием технической неисправности.",
+        "en": "The delay resulted from a technical fault."
+      },
+      "bracket_parts": [
+        "resultierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die schweren Schäden haben aus dem Unwetter resultiert.",
+      "translation": {
+        "ru": "Тяжелые разрушения стали результатом урагана.",
+        "en": "The severe damage resulted from the storm."
+      },
+      "bracket_parts": [
+        "haben",
+        "resultiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Achte darauf, welche Konsequenzen aus deinen Taten resultieren!",
+      "translation": {
+        "ru": "Обращай внимание на то, какие последствия вытекают из твоих поступков!",
+        "en": "Pay attention to what consequences result from your actions!"
+      },
+      "bracket_parts": [
+        "resultieren"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

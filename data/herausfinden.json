@@ -1,0 +1,154 @@
+{
+  "id": "herausfinden",
+  "infinitive": "herausfinden",
+  "translation": {
+    "ru": "выяснять, обнаруживать, узнавать",
+    "en": "to find out, to discover"
+  },
+  "level": "A2",
+  "frequency_rank": 640,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "heraus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "herausfinden",
+    "present_3sg": "findet heraus",
+    "praeteritum_3sg": "fand heraus",
+    "partizip_2": "herausgefunden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "finde heraus",
+      "du": "findest heraus",
+      "er_sie_es": "findet heraus",
+      "wir": "finden heraus",
+      "ihr": "findet heraus",
+      "sie_Sie": "finden heraus"
+    },
+    "praeteritum": {
+      "ich": "fand heraus",
+      "du": "fandest heraus",
+      "er_sie_es": "fand heraus",
+      "wir": "fanden heraus",
+      "ihr": "fandet heraus",
+      "sie_Sie": "fanden heraus"
+    },
+    "perfekt": {
+      "ich": "habe herausgefunden",
+      "du": "hast herausgefunden",
+      "er_sie_es": "hat herausgefunden",
+      "wir": "haben herausgefunden",
+      "ihr": "habt herausgefunden",
+      "sie_Sie": "haben herausgefunden"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich finde die genaue Adresse im Internet heraus.",
+      "translation": {
+        "ru": "Я выясняю точный адрес в интернете.",
+        "en": "I find out the exact address on the internet."
+      },
+      "bracket_parts": [
+        "finde",
+        "heraus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Findest du die wahre Ursache für das Problem heraus?",
+      "translation": {
+        "ru": "Ты выяснишь истинную причину проблемы?",
+        "en": "Will you find out the real cause of the problem?"
+      },
+      "bracket_parts": [
+        "Findest",
+        "heraus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Detektiv findet wichtige Hinweise heraus.",
+      "translation": {
+        "ru": "Детектив обнаруживает важные улики.",
+        "en": "The detective finds out important clues."
+      },
+      "bracket_parts": [
+        "findet",
+        "heraus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir finden bald die beste Lösung für die Aufgabe heraus.",
+      "translation": {
+        "ru": "Мы скоро выясним лучшее решение для задачи.",
+        "en": "We will soon find out the best solution for the task."
+      },
+      "bracket_parts": [
+        "finden",
+        "heraus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr findet die Antwort auf die schwere Frage heraus.",
+      "translation": {
+        "ru": "Вы находите ответ на сложный вопрос.",
+        "en": "You find out the answer to the difficult question."
+      },
+      "bracket_parts": [
+        "findet",
+        "heraus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Forscher fanden damals die geheime Botschaft heraus.",
+      "translation": {
+        "ru": "Исследователи тогда расшифровали и узнали тайное послание.",
+        "en": "The researchers found out the secret message back then."
+      },
+      "bracket_parts": [
+        "fanden",
+        "heraus"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Ich habe die Wahrheit über den Vorfall herausgefunden.",
+      "translation": {
+        "ru": "Я выяснил правду об этом происшествии.",
+        "en": "I found out the truth about the incident."
+      },
+      "bracket_parts": [
+        "habe",
+        "herausgefunden"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Finde bitte die Abfahrtszeit des Zuges heraus!",
+      "translation": {
+        "ru": "Выясни, пожалуйста, время отправления поезда!",
+        "en": "Please find out the departure time of the train!"
+      },
+      "bracket_parts": [
+        "Finde",
+        "heraus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

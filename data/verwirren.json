@@ -1,0 +1,138 @@
+{
+  "id": "verwirren",
+  "infinitive": "verwirren",
+  "translation": {
+    "ru": "сбивать с толку, запутывать",
+    "en": "to confuse, to perplex, to tangle"
+  },
+  "level": "B2",
+  "frequency_rank": 797,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verwirrt",
+    "preterite_third_singular": "verwirrte",
+    "past_participle": "verwirrt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verwirre",
+      "du": "verwirrst",
+      "er_sie_es": "verwirrt",
+      "wir": "verwirren",
+      "ihr": "verwirrt",
+      "sie_Sie": "verwirren"
+    },
+    "preterite": {
+      "ich": "verwirrte",
+      "du": "verwirrtest",
+      "er_sie_es": "verwirrte",
+      "wir": "verwirrten",
+      "ihr": "verwirrtet",
+      "sie_Sie": "verwirrten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verwirrt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich verwirre meine Mitschüler mit einer schwierigen Fangfrage.",
+      "translation": {
+        "ru": "Я сбиваю с толку одноклассников сложным каверзным вопросом.",
+        "en": "I confuse my classmates with a difficult trick question."
+      },
+      "bracket_parts": [
+        "verwirre"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verwirrst du absichtlich den Zeugen vor Gericht?",
+      "translation": {
+        "ru": "Ты намеренно запутываешь свидетеля в суде?",
+        "en": "Are you intentionally confusing the witness in court?"
+      },
+      "bracket_parts": [
+        "Verwirrst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die komplizierte Wegbeschreibung verwirrt die Touristen.",
+      "translation": {
+        "ru": "Сложное описание дороги сбивает туристов с толку.",
+        "en": "The complicated route description confuses the tourists."
+      },
+      "bracket_parts": [
+        "verwirrt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verwirren niemanden mit unklaren Aussagen.",
+      "translation": {
+        "ru": "Мы никого не запутываем неясными высказываниями.",
+        "en": "We do not confuse anyone with unclear statements."
+      },
+      "bracket_parts": [
+        "verwirren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verwirrt ihr die Zuhörer mit zu vielen Fachbegriffen?",
+      "translation": {
+        "ru": "Вы запутываете слушателей слишком большим количеством терминов?",
+        "en": "Are you confusing the audience with too many technical terms?"
+      },
+      "bracket_parts": [
+        "Verwirrt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das widersprüchliche Schild verwirrte die Autofahrer.",
+      "translation": {
+        "ru": "Противоречивый знак сбил с толку водителей.",
+        "en": "The contradictory sign confused the drivers."
+      },
+      "bracket_parts": [
+        "verwirrte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sein plötzliches Verhalten hat uns alle sehr verwirrt.",
+      "translation": {
+        "ru": "Его внезапное поведение нас всех очень озадачило.",
+        "en": "His sudden behavior confused all of us very much."
+      },
+      "bracket_parts": [
+        "hat",
+        "verwirrt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verwirre die Kinder nicht mit falschen Informationen!",
+      "translation": {
+        "ru": "Не запутывай детей ложной информацией!",
+        "en": "Do not confuse the children with incorrect information!"
+      },
+      "bracket_parts": [
+        "Verwirre"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

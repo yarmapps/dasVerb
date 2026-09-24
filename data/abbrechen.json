@@ -1,0 +1,155 @@
+{
+  "id": "abbrechen",
+  "infinitive": "abbrechen",
+  "translation": {
+    "ru": "отламывать, прекращать, прерывать (учебу/переговоры)",
+    "en": "to break off, to cancel, to abort"
+  },
+  "level": "B1",
+  "frequency_rank": 679,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ab",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "abbrechen",
+    "present_3sg": "bricht ab",
+    "praeteritum_3sg": "brach ab",
+    "partizip_2": "abgebrochen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "breche ab",
+      "du": "brichst ab",
+      "er_sie_es": "bricht ab",
+      "wir": "brechen ab",
+      "ihr": "brecht ab",
+      "sie_Sie": "brechen ab",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "brach ab",
+      "du": "brachst ab",
+      "er_sie_es": "brach ab",
+      "wir": "brachen ab",
+      "ihr": "bracht ab",
+      "sie_Sie": "brachen ab"
+    },
+    "perfekt": {
+      "ich": "habe abgebrochen",
+      "du": "hast abgebrochen",
+      "er_sie_es": "hat abgebrochen",
+      "wir": "haben abgebrochen",
+      "ihr": "habt abgebrochen",
+      "sie_Sie": "haben abgebrochen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich breche das morsche Holzstück vorsichtig ab.",
+      "translation": {
+        "ru": "Я осторожно отламываю гнилую деревяшку.",
+        "en": "I break off the rotten piece of wood carefully."
+      },
+      "bracket_parts": [
+        "breche",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Brichst du dein Studium wirklich nach dem ersten Semester ab?",
+      "translation": {
+        "ru": "Ты действительно бросаешь учебу после первого семестра?",
+        "en": "Are you really dropping out of your studies after the first semester?"
+      },
+      "bracket_parts": [
+        "Brichst",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schiedsrichter bricht das Spiel wegen des starken Unwetters ab.",
+      "translation": {
+        "ru": "Судья прерывает матч из-за сильной грозы.",
+        "en": "The referee stops the game due to the severe storm."
+      },
+      "bracket_parts": [
+        "bricht",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir brechen den Versuch vorzeitig ab.",
+      "translation": {
+        "ru": "Мы прекращаем эксперимент досрочно.",
+        "en": "We abort the attempt prematurely."
+      },
+      "bracket_parts": [
+        "brechen",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr brecht den Kontakt zu den alten Bekannten ab.",
+      "translation": {
+        "ru": "Вы обрываете контакт со старыми знакомыми.",
+        "en": "You break off contact with old acquaintances."
+      },
+      "bracket_parts": [
+        "brecht",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Bergsteiger brachen damals die Expedition wegen Lawinengefahr ab.",
+      "translation": {
+        "ru": "Альпинисты тогда прервали экспедицию из-за лавинной опасности.",
+        "en": "The mountaineers aborted the expedition due to avalanche risk back then."
+      },
+      "bracket_parts": [
+        "brachen",
+        "ab"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Firma hat die Verhandlungen mit dem Partner abgebrochen.",
+      "translation": {
+        "ru": "Компания прервала переговоры с партнером.",
+        "en": "The company has broken off negotiations with the partner."
+      },
+      "bracket_parts": [
+        "hat",
+        "abgebrochen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Brich die Zelte hier rechtzeitig vor dem Sturm ab!",
+      "translation": {
+        "ru": "Сворачивай палатки здесь вовремя до бури!",
+        "en": "Strike camp here in good time before the storm!"
+      },
+      "bracket_parts": [
+        "Brich",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

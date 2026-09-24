@@ -1,0 +1,145 @@
+{
+  "id": "abstellen",
+  "infinitive": "abstellen",
+  "translation": {
+    "ru": "выключать (газ, воду), парковать, ставить (на землю)",
+    "en": "to turn off, to park, to put down"
+  },
+  "level": "B1",
+  "frequency_rank": 775,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "stellt ab",
+    "preterite_third_singular": "stellte ab",
+    "past_participle": "abgestellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stelle ab",
+      "du": "stellst ab",
+      "er_sie_es": "stellt ab",
+      "wir": "stellen ab",
+      "ihr": "stellt ab",
+      "sie_Sie": "stellen ab"
+    },
+    "preterite": {
+      "ich": "stellte ab",
+      "du": "stelltest ab",
+      "er_sie_es": "stellte ab",
+      "wir": "stellten ab",
+      "ihr": "stelltet ab",
+      "sie_Sie": "stellten ab"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "abgestellt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich stelle mein Fahrrad sicher im Innenhof ab.",
+      "translation": {
+        "ru": "Я паркую свой велосипед надежно во внутреннем дворе.",
+        "en": "I park my bike securely in the courtyard."
+      },
+      "bracket_parts": [
+        "stelle",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stellst du das Wasser während der Reparatur ab?",
+      "translation": {
+        "ru": "Ты перекрываешь воду во время ремонта?",
+        "en": "Are you turning off the water during the repair?"
+      },
+      "bracket_parts": [
+        "Stellst",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Fahrer stellt den lauten Motor an der Ampel ab.",
+      "translation": {
+        "ru": "Водитель глушит громкий двигатель на светофоре.",
+        "en": "The driver turns off the loud engine at the traffic lights."
+      },
+      "bracket_parts": [
+        "stellt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir stellen die schweren Kisten im Flur ab.",
+      "translation": {
+        "ru": "Мы ставим тяжелые ящики в коридоре.",
+        "en": "We put down the heavy boxes in the hallway."
+      },
+      "bracket_parts": [
+        "stellen",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stellt ihr eure Koffer bitte neben die Tür ab?",
+      "translation": {
+        "ru": "Поставьте, пожалуйста, ваши чемоданы рядом с дверью.",
+        "en": "Will you guys please put your suitcases down next to the door?"
+      },
+      "bracket_parts": [
+        "Stellt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Handwerker stellte den Strom vor der Arbeit ab.",
+      "translation": {
+        "ru": "Мастер отключил электричество перед работой.",
+        "en": "The electrician turned off the power before work."
+      },
+      "bracket_parts": [
+        "stellte",
+        "ab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben das Auto auf dem Parkplatz abgestellt.",
+      "translation": {
+        "ru": "Они припарковали машину на стоянке.",
+        "en": "They parked the car in the parking lot."
+      },
+      "bracket_parts": [
+        "haben",
+        "abgestellt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Stell den Herd sofort ab, bevor das Essen anbrennt!",
+      "translation": {
+        "ru": "Выключи плиту немедленно, пока еда не пригорела!",
+        "en": "Turn off the stove immediately before the food burns!"
+      },
+      "bracket_parts": [
+        "Stell",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

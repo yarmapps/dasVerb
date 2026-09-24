@@ -1,0 +1,137 @@
+{
+  "id": "beschaffen",
+  "infinitive": "beschaffen",
+  "translation": {
+    "ru": "добывать, доставать, приобретать, закупать",
+    "en": "to procure, to obtain, to acquire"
+  },
+  "level": "B2",
+  "frequency_rank": 943,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "beschafft",
+    "preterite_third_singular": "beschaffte",
+    "past_participle": "beschafft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beschaffe",
+      "du": "beschaffst",
+      "er_sie_es": "beschafft",
+      "wir": "beschaffen",
+      "ihr": "beschafft",
+      "sie_Sie": "beschaffen"
+    },
+    "preterite": {
+      "ich": "beschaffte",
+      "du": "beschafftest",
+      "er_sie_es": "beschaffte",
+      "wir": "beschafften",
+      "ihr": "beschafftet",
+      "sie_Sie": "beschafften"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "beschafft"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich beschaffe die nötigen Baumaterialien für die Renovierung.",
+      "translation": {
+        "ru": "Я закупаю необходимые стройматериалы для ремонта.",
+        "en": "I procure the necessary building materials for the renovation."
+      },
+      "bracket_parts": [
+        "beschaffe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beschaffst du kurzfristig Karten für das ausverkaufte Konzert?",
+      "translation": {
+        "ru": "Достанешь ли ты билеты на распроданный концерт в кратчайшие сроки?",
+        "en": "Will you obtain tickets for the sold-out concert on short notice?"
+      },
+      "bracket_parts": [
+        "Beschaffst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Einkaufsabteilung beschafft hochwertige Rohstoffe zum besten Preis.",
+      "translation": {
+        "ru": "Отдел закупок приобретает качественное сырье по лучшей цене.",
+        "en": "The purchasing department procures high-quality raw materials at the best price."
+      },
+      "bracket_parts": [
+        "beschafft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beschaffen neue Laptops für alle Mitarbeiter im Homeoffice.",
+      "translation": {
+        "ru": "Мы закупаем новые ноутбуки для всех сотрудников на удаленке.",
+        "en": "We procure new laptops for all employees in the home office."
+      },
+      "bracket_parts": [
+        "beschaffen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beschafft ihr zusätzliche Informationen über das Bauprojekt?",
+      "translation": {
+        "ru": "Добываете ли вы дополнительную информацию о строительном проекте?",
+        "en": "Are you guys procuring additional information about the construction project?"
+      },
+      "bracket_parts": [
+        "Beschafft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Organisation beschaffte Hilfsgüter für das Krisengebiet.",
+      "translation": {
+        "ru": "Организация доставила и закупила гуманитарную помощь для зоны бедствия.",
+        "en": "The organization procured relief supplies for the crisis area."
+      },
+      "bracket_parts": [
+        "beschaffte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Mein Kollege hat alle fehlenden Ersatzteile rechtzeitig beschafft.",
+      "translation": {
+        "ru": "Мой коллега вовремя достал все недостающие запчасти.",
+        "en": "My colleague procured all missing spare parts in time."
+      },
+      "bracket_parts": [
+        "hat",
+        "beschafft"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Beschaffe bitte schnellstmöglich die fehlenden Unterlagen!",
+      "translation": {
+        "ru": "Добудь, пожалуйста, недостающие документы как можно скорее!",
+        "en": "Please procure the missing documents as quickly as possible!"
+      },
+      "bracket_parts": [
+        "Beschaffe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

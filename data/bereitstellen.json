@@ -1,0 +1,150 @@
+{
+  "id": "bereitstellen",
+  "infinitive": "bereitstellen",
+  "translation": {
+    "ru": "предоставлять, выделять (средства), подготавливать",
+    "en": "to provide, to make available, to allocate"
+  },
+  "level": "B2",
+  "frequency_rank": 858,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "stellt bereit",
+    "preterite_third_singular": "stellte bereit",
+    "past_participle": "bereitgestellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stelle bereit",
+      "du": "stellst bereit",
+      "er_sie_es": "stellt bereit",
+      "wir": "stellen bereit",
+      "ihr": "stellt bereit",
+      "sie_Sie": "stellen bereit"
+    },
+    "preterite": {
+      "ich": "stellte bereit",
+      "du": "stelltest bereit",
+      "er_sie_es": "stellte bereit",
+      "wir": "stellten bereit",
+      "ihr": "stelltet bereit",
+      "sie_Sie": "stellten bereit"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "bereitgestellt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "für",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich stelle die nötigen Unterlagen für das Meeting bereit.",
+      "translation": {
+        "ru": "Я подготавливаю нужные документы для встречи.",
+        "en": "I provide the necessary documents for the meeting."
+      },
+      "bracket_parts": [
+        "stelle",
+        "bereit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stellst du ausreichend Getränke für die Gäste bereit?",
+      "translation": {
+        "ru": "Ты подготавливаешь достаточно напитков для гостей?",
+        "en": "Are you providing enough drinks for the guests?"
+      },
+      "bracket_parts": [
+        "Stellst",
+        "bereit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Regierung stellt zusätzliche Gelder für Schulen bereit.",
+      "translation": {
+        "ru": "Правительство выделяет дополнительные средства для школ.",
+        "en": "The government allocates additional funds for schools."
+      },
+      "bracket_parts": [
+        "stellt",
+        "bereit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir stellen die Fahrzeuge pünktlich zur Abfahrt bereit.",
+      "translation": {
+        "ru": "Мы подготавливаем автомобили вовремя к отправлению.",
+        "en": "We make the vehicles ready on time for departure."
+      },
+      "bracket_parts": [
+        "stellen",
+        "bereit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stellt ihr die Werkzeuge für den Workshop bereit?",
+      "translation": {
+        "ru": "Вы предоставляете инструменты для мастер-класса?",
+        "en": "Are you providing the tools for the workshop?"
+      },
+      "bracket_parts": [
+        "Stellt",
+        "bereit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Bank stellte das Darlehen innerhalb weniger Tage bereit.",
+      "translation": {
+        "ru": "Банк предоставил кредит в течение нескольких дней.",
+        "en": "The bank made the loan available within a few days."
+      },
+      "bracket_parts": [
+        "stellte",
+        "bereit"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben alle Hilfsgüter für das Krisengebiet bereitgestellt.",
+      "translation": {
+        "ru": "Они подготовили всю гуманитарную помощь для зоны бедствия.",
+        "en": "They provided all relief supplies for the crisis area."
+      },
+      "bracket_parts": [
+        "haben",
+        "bereitgestellt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Stell die Materialien bitte rechtzeitig bereit!",
+      "translation": {
+        "ru": "Подготовь материалы вовремя, пожалуйста!",
+        "en": "Please make the materials available in good time!"
+      },
+      "bracket_parts": [
+        "Stell",
+        "bereit"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

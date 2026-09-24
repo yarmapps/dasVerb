@@ -1,0 +1,143 @@
+{
+  "id": "protestieren",
+  "infinitive": "protestieren",
+  "translation": {
+    "ru": "протестовать, выражать протест",
+    "en": "to protest, to object"
+  },
+  "level": "B1",
+  "frequency_rank": 1022,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "protestiert",
+    "preterite_third_singular": "protestierte",
+    "past_participle": "protestiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "protestiere",
+      "du": "protestierst",
+      "er_sie_es": "protestiert",
+      "wir": "protestieren",
+      "ihr": "protestiert",
+      "sie_Sie": "protestieren"
+    },
+    "preterite": {
+      "ich": "protestierte",
+      "du": "protestiertest",
+      "er_sie_es": "protestierte",
+      "wir": "protestierten",
+      "ihr": "protestiertet",
+      "sie_Sie": "protestierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "protestiert"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "gegen",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich protestiere energisch gegen die ungerechte Schließung der Bibliothek.",
+      "translation": {
+        "ru": "Я энергично протестую против несправедливого закрытия библиотеки.",
+        "en": "I protest vigorously against the unjust closure of the library."
+      },
+      "bracket_parts": [
+        "protestiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Protestierst du auf der Kundgebung gegen die steigenden Mietpreise?",
+      "translation": {
+        "ru": "Протестуешь ли ты на митинге против растущих цен на аренду жилья?",
+        "en": "Are you protesting at the rally against rising rental prices?"
+      },
+      "bracket_parts": [
+        "Protestierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Bevölkerung protestiert friedlich gegen die Erhöhung der Ticketpreise.",
+      "translation": {
+        "ru": "Население мирно протестует против повышения цен на билеты.",
+        "en": "The population is protesting peacefully against the increase in ticket prices."
+      },
+      "bracket_parts": [
+        "protestiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir protestieren gemeinsam für bessere Arbeitsbedingungen in der Pflege.",
+      "translation": {
+        "ru": "Мы вместе протестуем (выступаем) за лучшие условия труда в сфере ухода.",
+        "en": "We protest together for better working conditions in nursing care."
+      },
+      "bracket_parts": [
+        "protestieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Protestiert ihr gegen die geplante Abholzung des alten Waldes?",
+      "translation": {
+        "ru": "Протестуете ли вы против запланированной вырубки старого леса?",
+        "en": "Are you guys protesting against the planned deforestation of the old forest?"
+      },
+      "bracket_parts": [
+        "Protestiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Tausende Studenten protestierten damals auf den Straßen der Hauptstadt.",
+      "translation": {
+        "ru": "Тысячи студентов протестовали тогда на улицах столицы.",
+        "en": "Thousands of students protested on the streets of the capital back then."
+      },
+      "bracket_parts": [
+        "protestierten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Belegschaft hat lautstark gegen die geplanten Entlassungen protestiert.",
+      "translation": {
+        "ru": "Коллектив громко протестовал против планируемых увольнений.",
+        "en": "The workforce protested loudly against the planned layoffs."
+      },
+      "bracket_parts": [
+        "hat",
+        "protestiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Protestiere friedlich und mache deine Stimme deutlich hörbar!",
+      "translation": {
+        "ru": "Протестуй мирно и делай свой голос отчетливо слышимым!",
+        "en": "Protest peacefully and make your voice clearly heard!"
+      },
+      "bracket_parts": [
+        "Protestiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

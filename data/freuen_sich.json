@@ -1,0 +1,147 @@
+{
+  "id": "freuen_sich",
+  "infinitive": "freuen",
+  "translation": {
+    "ru": "радоваться",
+    "en": "to be glad, to be pleased"
+  },
+  "level": "A1",
+  "frequency_rank": 167,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "freuen",
+    "present_3sg": "freut sich",
+    "praeteritum_3sg": "freute sich",
+    "partizip_2": "gefreut"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "freue mich",
+      "du": "freust dich",
+      "er_sie_es": "freut sich",
+      "wir": "freuen uns",
+      "ihr": "freut euch",
+      "sie_Sie": "freuen sich"
+    },
+    "praeteritum": {
+      "ich": "freute mich",
+      "du": "freutest dich",
+      "er_sie_es": "freute sich",
+      "wir": "freuten uns",
+      "ihr": "freutet euch",
+      "sie_Sie": "freuten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich gefreut",
+      "du": "hast dich gefreut",
+      "er_sie_es": "hat sich gefreut",
+      "wir": "haben uns gefreut",
+      "ihr": "habt euch gefreut",
+      "sie_Sie": "haben sich gefreut"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich freue mich jeden Morgen über die Sonne.",
+      "translation": {
+        "ru": "Я каждое утро радуюсь солнцу.",
+        "en": "I am happy about the sun every morning."
+      },
+      "bracket_parts": [
+        "freue"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du freust dich bestimmt sehr auf den Urlaub.",
+      "translation": {
+        "ru": "Ты наверняка очень радуешься отпуску.",
+        "en": "You are definitely looking forward to the holiday."
+      },
+      "bracket_parts": [
+        "freust"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das kleine Kind freut sich über das schöne Geschenk.",
+      "translation": {
+        "ru": "Маленький ребенок радуется красивому подарку.",
+        "en": "The little child is happy about the nice gift."
+      },
+      "bracket_parts": [
+        "freut"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir freuen uns immer über deinen Besuch.",
+      "translation": {
+        "ru": "Мы всегда рады твоему визиту.",
+        "en": "We are always pleased about your visit."
+      },
+      "bracket_parts": [
+        "freuen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Freut ihr euch auf die große Feier?",
+      "translation": {
+        "ru": "Вы радуетесь большому празднику?",
+        "en": "Are you looking forward to the big celebration?"
+      },
+      "bracket_parts": [
+        "Freut"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Großeltern freuten sich damals über jede Postkarte.",
+      "translation": {
+        "ru": "Бабушка и дедушка тогда радовались каждой открытке.",
+        "en": "The grandparents were happy about every postcard back then."
+      },
+      "bracket_parts": [
+        "freuten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Wir haben uns riesig über deine Nachricht gefreut.",
+      "translation": {
+        "ru": "Мы безумно обрадовались твоему сообщению.",
+        "en": "We were thrilled about your message."
+      },
+      "bracket_parts": [
+        "haben",
+        "gefreut"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Freu dich doch einfach über den schönen Tag!",
+      "translation": {
+        "ru": "Порадуйся же просто хорошему дню!",
+        "en": "Just be happy about the beautiful day!"
+      },
+      "bracket_parts": [
+        "Freu"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

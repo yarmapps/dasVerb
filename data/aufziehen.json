@@ -1,0 +1,150 @@
+{
+  "id": "aufziehen",
+  "infinitive": "aufziehen",
+  "translation": {
+    "ru": "растить/воспитывать, заводить (часы), поддразнивать, надвигаться (о тучах)",
+    "en": "to raise/rear, to wind up (clock), to tease, to gather (storm)"
+  },
+  "level": "B2",
+  "frequency_rank": 1008,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "zieht auf",
+    "preterite_third_singular": "zog auf",
+    "past_participle": "aufgezogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ziehe auf",
+      "du": "ziehst auf",
+      "er_sie_es": "zieht auf",
+      "wir": "ziehen auf",
+      "ihr": "zieht auf",
+      "sie_Sie": "ziehen auf"
+    },
+    "preterite": {
+      "ich": "zog auf",
+      "du": "zogst auf",
+      "er_sie_es": "zog auf",
+      "wir": "zogen auf",
+      "ihr": "zogt auf",
+      "sie_Sie": "zogen auf"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "aufgezogen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich ziehe die alte mechanische Wanduhr jeden Sonntag sorgfältig auf.",
+      "translation": {
+        "ru": "Каждое воскресенье я аккуратно завожу старинные механические настенные часы.",
+        "en": "I wind up the old mechanical wall clock carefully every Sunday."
+      },
+      "bracket_parts": [
+        "ziehe",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ziehst du deinen jüngeren Bruder wegen seiner Frisur gerne auf?",
+      "translation": {
+        "ru": "Ты любишь поддразнивать младшего брата из-за его прически?",
+        "en": "Do you like teasing your younger brother because of his haircut?"
+      },
+      "bracket_parts": [
+        "Ziehst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dunkle Gewitterwolken ziehen am fernen Horizont bedrohlich auf.",
+      "translation": {
+        "ru": "Темные грозовые тучи зловеще надвигаются на дальнем горизонте.",
+        "en": "Dark storm clouds are gathering menacingly on the distant horizon."
+      },
+      "bracket_parts": [
+        "ziehen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir ziehen unsere Kinder mit viel Liebe und Geduld auf.",
+      "translation": {
+        "ru": "Мы растим наших детей с огромной любовью и терпением.",
+        "en": "We raise our children with lots of love and patience."
+      },
+      "bracket_parts": [
+        "ziehen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Zieht ihr die neuen Saiten auf eure Gitarren auf?",
+      "translation": {
+        "ru": "Натягиваете ли вы новые струны на свои гитары?",
+        "en": "Are you guys stringing new strings onto your guitars?"
+      },
+      "bracket_parts": [
+        "Zieht",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Großeltern zogen das Waisenkind auf dem Bauernhof auf.",
+      "translation": {
+        "ru": "Бабушка и дедушка вырастили сироту на ферме.",
+        "en": "The grandparents raised the orphan child on the farm."
+      },
+      "bracket_parts": [
+        "zogen",
+        "auf"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Freunde haben ihn wegen seines Versprechers herzlich aufgezogen.",
+      "translation": {
+        "ru": "Друзья по-доброму подшутили над ним из-за его оговорки.",
+        "en": "The friends teasingly mocked him warmly because of his slip of the tongue."
+      },
+      "bracket_parts": [
+        "haben",
+        "aufgezogen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Zieh die Spieluhr vorsichtig und nicht zu fest auf!",
+      "translation": {
+        "ru": "Заводи музыкальную шкатулку осторожно и не слишком туго!",
+        "en": "Wind up the music box carefully and not too tightly!"
+      },
+      "bracket_parts": [
+        "Zieh",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

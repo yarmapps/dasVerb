@@ -105,11 +105,6 @@ const getFeatures = (colors: ThemeColors) => [
     icon: <FontAwesome5 name="brain" size={18} color={colors.white} />,
     bgColor: colors.featureBadges.cyan,
   },
-  {
-    key: 'naturalVoice',
-    icon: <FontAwesome5 name="volume-up" size={18} color={colors.white} />,
-    bgColor: colors.featureBadges.pink,
-  },
 ];
 
 export function PremiumSubscribeSheet({

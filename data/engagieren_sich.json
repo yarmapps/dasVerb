@@ -1,0 +1,147 @@
+{
+  "id": "engagieren_sich",
+  "infinitive": "engagieren",
+  "translation": {
+    "ru": "активно участвовать, проявлять инициативу",
+    "en": "to get involved, commit oneself"
+  },
+  "level": "B1",
+  "frequency_rank": 533,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "engagieren",
+    "present_3sg": "engagiert sich",
+    "praeteritum_3sg": "engagierte sich",
+    "partizip_2": "engagiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "engagiere mich",
+      "du": "engagierst dich",
+      "er_sie_es": "engagiert sich",
+      "wir": "engagieren uns",
+      "ihr": "engagiert euch",
+      "sie_Sie": "engagieren sich"
+    },
+    "praeteritum": {
+      "ich": "engagierte mich",
+      "du": "engagiertest dich",
+      "er_sie_es": "engagierte sich",
+      "wir": "engagierten uns",
+      "ihr": "engagiertet euch",
+      "sie_Sie": "engagierten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich engagiert",
+      "du": "hast dich engagiert",
+      "er_sie_es": "hat sich engagiert",
+      "wir": "haben uns engagiert",
+      "ihr": "habt euch engagiert",
+      "sie_Sie": "haben sich engagiert"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "für",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich engagiere mich ehrenamtlich für den Tierschutz.",
+      "translation": {
+        "ru": "Я на общественных началах участвую в защите животных.",
+        "en": "I volunteer for animal protection."
+      },
+      "bracket_parts": [
+        "engagiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du engagierst dich vorbildlich in deiner Kirchengemeinde.",
+      "translation": {
+        "ru": "Ты образцово проявляешь активность в своей общине.",
+        "en": "You are actively involved in your church community in an exemplary way."
+      },
+      "bracket_parts": [
+        "engagierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Studentin engagiert sich für soziale Gerechtigkeit.",
+      "translation": {
+        "ru": "Студентка выступает за социальную справедливость.",
+        "en": "The student commits herself to social justice."
+      },
+      "bracket_parts": [
+        "engagiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir engagieren uns gemeinsam für saubere Energie.",
+      "translation": {
+        "ru": "Мы вместе выступаем за чистую энергию.",
+        "en": "We get involved together for clean energy."
+      },
+      "bracket_parts": [
+        "engagieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr engagiert euch stark für die Rechte der Arbeitnehmer.",
+      "translation": {
+        "ru": "Вы активно боретесь за права работников.",
+        "en": "You are strongly committed to workers' rights."
+      },
+      "bracket_parts": [
+        "engagiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie engagierten sich damals im Kampf gegen die Armut.",
+      "translation": {
+        "ru": "Они тогда активно участвовали в борьбе с бедностью.",
+        "en": "They committed themselves to the fight against poverty back then."
+      },
+      "bracket_parts": [
+        "engagierten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Mein Bruder hat sich viele Jahre im Sportverein engagiert.",
+      "translation": {
+        "ru": "Мой брат много лет активно участвовал в жизни спортклуба.",
+        "en": "My brother was involved in the sports club for many years."
+      },
+      "bracket_parts": [
+        "hat",
+        "engagiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Engagiere dich aktiv für eine bessere Zukunft!",
+      "translation": {
+        "ru": "Активно участвуй в создании лучшего будущего!",
+        "en": "Get actively involved for a better future!"
+      },
+      "bracket_parts": [
+        "Engagiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

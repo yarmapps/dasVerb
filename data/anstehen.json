@@ -1,0 +1,154 @@
+{
+  "id": "anstehen",
+  "infinitive": "anstehen",
+  "translation": {
+    "ru": "стоять в очереди, предстоят (о делах)",
+    "en": "to queue, to line up, to be in the offing"
+  },
+  "level": "B1",
+  "frequency_rank": 895,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "steht an",
+    "preterite_third_singular": "stand an",
+    "past_participle": "angestanden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stehe an",
+      "du": "stehst an",
+      "er_sie_es": "steht an",
+      "wir": "stehen an",
+      "ihr": "steht an",
+      "sie_Sie": "stehen an"
+    },
+    "preterite": {
+      "ich": "stand an",
+      "du": "standest an",
+      "er_sie_es": "stand an",
+      "wir": "standen an",
+      "ihr": "standet an",
+      "sie_Sie": "standen an"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "angestanden"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "nach",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "vor",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich stehe geduldig an der Kinokasse an.",
+      "translation": {
+        "ru": "Я терпеливо стою в очереди у кассы кинотеатра.",
+        "en": "I wait in line patiently at the cinema box office."
+      },
+      "bracket_parts": [
+        "stehe",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stehst du auch für das neue Smartphone an?",
+      "translation": {
+        "ru": "Ты тоже стоишь в очереди за новым смартфоном?",
+        "en": "Are you also lining up for the new smartphone?"
+      },
+      "bracket_parts": [
+        "Stehst",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Eine wichtige Entscheidung steht in den nächsten Tagen an.",
+      "translation": {
+        "ru": "В ближайшие дни предстоит важное решение.",
+        "en": "An important decision is pending in the coming days."
+      },
+      "bracket_parts": [
+        "steht",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir stehen vor dem Museum in einer langen Schlange an.",
+      "translation": {
+        "ru": "Мы стоим перед музеем в длинной очереди.",
+        "en": "We queue in a long line in front of the museum."
+      },
+      "bracket_parts": [
+        "stehen",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Steht ihr schon lange nach den Konzertkarten an?",
+      "translation": {
+        "ru": "Вы уже долго стоите в очереди за билетами на концерт?",
+        "en": "Have you guys been in line for the concert tickets for a long time?"
+      },
+      "bracket_parts": [
+        "Steht",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Viele Menschen standen stundenlang für Brot an.",
+      "translation": {
+        "ru": "Многие люди часами стояли в очереди за хлебом.",
+        "en": "Many people queued for hours for bread."
+      },
+      "bracket_parts": [
+        "standen",
+        "an"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Wir haben über eine Stunde am Flughafen angestanden.",
+      "translation": {
+        "ru": "Мы простояли в очереди в аэропорту больше часа.",
+        "en": "We queued for over an hour at the airport."
+      },
+      "bracket_parts": [
+        "haben",
+        "angestanden"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Stell dich bitte hinten in der Reihe an!",
+      "translation": {
+        "ru": "Встань в очередь в конце ряда, пожалуйста!",
+        "en": "Please join the line at the back!"
+      },
+      "bracket_parts": [
+        "Stell",
+        "an"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

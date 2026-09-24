@@ -1,0 +1,137 @@
+{
+  "id": "rauschen",
+  "infinitive": "rauschen",
+  "translation": {
+    "ru": "шуметь, шелестеть, журчать",
+    "en": "to rustle, to roar, to rush (water/wind)"
+  },
+  "level": "B1",
+  "frequency_rank": 959,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "rauscht",
+    "preterite_third_singular": "rauschte",
+    "past_participle": "gerauscht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "rausche",
+      "du": "rauschst",
+      "er_sie_es": "rauscht",
+      "wir": "rauschen",
+      "ihr": "rauscht",
+      "sie_Sie": "rauschen"
+    },
+    "preterite": {
+      "ich": "rauschte",
+      "du": "rauschtest",
+      "er_sie_es": "rauschte",
+      "wir": "rauschten",
+      "ihr": "rauschtet",
+      "sie_Sie": "rauschten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gerauscht"
+    }
+  },
+  "rektion": {
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich lausche, während die hohen Bäume im Wind leise rauschen.",
+      "translation": {
+        "ru": "Я слушаю, как высокие деревья тихо шумят на ветру.",
+        "en": "I listen while the tall trees rustle softly in the wind."
+      },
+      "bracket_parts": [
+        "rauschen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Rauschst du mit deinen neuen Skiern rasant die Piste hinunter?",
+      "translation": {
+        "ru": "Ты стремительно мчишься на новых лыжах вниз по склону со свистом?",
+        "en": "Are you rushing down the slope rapidly on your new skis?"
+      },
+      "bracket_parts": [
+        "Rauschst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Meer rauscht beruhigend am einsamen Sandstrand.",
+      "translation": {
+        "ru": "Море успокаивающе шумит на безлюдном песчаном пляже.",
+        "en": "The sea roars soothingly on the deserted sandy beach."
+      },
+      "bracket_parts": [
+        "rauscht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir hören den kleinen Gebirgsbach im Tal rauschen.",
+      "translation": {
+        "ru": "Мы слышим, как горный ручей шумит в долине.",
+        "en": "We hear the little mountain stream rushing in the valley."
+      },
+      "bracket_parts": [
+        "rauschen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Rauscht euer alter Fernseher beim Umschalten der Kanäle?",
+      "translation": {
+        "ru": "Шумит ли ваш старый телевизор при переключении каналов?",
+        "en": "Does your old television hiss when switching channels?"
+      },
+      "bracket_parts": [
+        "Rauscht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der gewaltige Wasserfall rauschte ohrenbetäubend in die Tiefe.",
+      "translation": {
+        "ru": "Огромный водопад оглушительно шумел, низвергаясь в бездну.",
+        "en": "The massive waterfall roared deafeningly into the depths."
+      },
+      "bracket_parts": [
+        "rauschte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Wind hat die ganze Nacht in den Baumkronen gerauscht.",
+      "translation": {
+        "ru": "Ветер всю ночь шумел в кронах деревьев.",
+        "en": "The wind rustled in the treetops all night long."
+      },
+      "bracket_parts": [
+        "hat",
+        "gerauscht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Rausche wie ein freier Fluss durch das weite Tal!",
+      "translation": {
+        "ru": "Шуми и мчись как вольная река по широкой долине!",
+        "en": "Rush like a free river through the wide valley!"
+      },
+      "bracket_parts": [
+        "Rausche"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

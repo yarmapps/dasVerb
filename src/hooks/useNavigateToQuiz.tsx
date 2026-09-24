@@ -23,6 +23,7 @@ export interface NavigationHandler {
 
 export interface UseNavigateToQuizResult {
   navigateToQuiz: (params: VerbQuizParams, mode?: 'navigate' | 'replace') => void;
+  openPaywall: (source?: 'daily_quiz_limit' | 'offline_limit' | 'level_lock') => void;
   dailyQuizLimitModalUI: React.ReactNode;
 }
 
@@ -31,9 +32,9 @@ export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQ
   const [showLimitModal, setShowLimitModal] = useState(false);
   const [showOfflineModal, setShowOfflineModal] = useState(false);
   const [showPaywall, setShowPaywall] = useState(false);
-  const [paywallSource, setPaywallSource] = useState<'daily_quiz_limit' | 'offline_limit'>(
-    'daily_quiz_limit',
-  );
+  const [paywallSource, setPaywallSource] = useState<
+    'daily_quiz_limit' | 'offline_limit' | 'level_lock'
+  >('daily_quiz_limit');
   const [pendingParams, setPendingParams] = useState<{
     params: VerbQuizParams;
     mode: 'navigate' | 'replace';
@@ -50,15 +51,37 @@ export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQ
     [navigation],
   );
 
+  const openPaywall = useCallback(
+    (source: 'daily_quiz_limit' | 'offline_limit' | 'level_lock' = 'level_lock') => {
+      setPaywallSource(source);
+      setShowPaywall(true);
+    },
+    [],
+  );
+
   const navigateToQuiz = useCallback(
     async (params: VerbQuizParams, mode: 'navigate' | 'replace' = 'navigate') => {
-      // 1. Premium users bypass all limits and offline checks
+      // 1. Premium users bypass all limits, level locks, and offline checks
       if (isPremiumEnabled()) {
         startActualQuiz(params, mode);
         return;
       }
 
-      // 2. Free users require an active internet connection
+      // 2. Free users: A2, B1, B2 levels, category checkpoints, and category items > 10 are locked behind paywall
+      if (params.categoryId) {
+        if (params.isCheckpoint || (params.fromIndex !== undefined && params.fromIndex > 10)) {
+          openPaywall('level_lock');
+          return;
+        }
+      } else {
+        const targetLevel = params.level || params.prefixCefrLevel;
+        if (targetLevel && targetLevel !== 'A1') {
+          openPaywall('level_lock');
+          return;
+        }
+      }
+
+      // 3. Free users require an active internet connection
       const online = await isNetworkConnected();
       if (!online) {
         setPendingParams({ params, mode });
@@ -66,7 +89,7 @@ export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQ
         return;
       }
 
-      // 3. Check daily quiz quota
+      // 4. Check daily quiz quota
       if (canStartQuiz()) {
         startActualQuiz(params, mode);
       } else {
@@ -78,7 +101,7 @@ export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQ
         setShowLimitModal(true);
       }
     },
-    [startActualQuiz],
+    [openPaywall, startActualQuiz],
   );
 
   const handleDismiss = useCallback(() => {
@@ -169,5 +192,5 @@ export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQ
     </>
   );
 
-  return { navigateToQuiz, dailyQuizLimitModalUI };
+  return { navigateToQuiz, dailyQuizLimitModalUI, openPaywall };
 }

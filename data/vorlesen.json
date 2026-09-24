@@ -1,0 +1,144 @@
+{
+  "id": "vorlesen",
+  "infinitive": "vorlesen",
+  "translation": {
+    "ru": "читать вслух (кому-то)",
+    "en": "to read aloud, to read to someone"
+  },
+  "level": "A2",
+  "frequency_rank": 996,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "liest vor",
+    "preterite_third_singular": "las vor",
+    "past_participle": "vorgelesen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lese vor",
+      "du": "liest vor",
+      "er_sie_es": "liest vor",
+      "wir": "lesen vor",
+      "ihr": "lest vor",
+      "sie_Sie": "lesen vor"
+    },
+    "preterite": {
+      "ich": "las vor",
+      "du": "lasest vor",
+      "er_sie_es": "las vor",
+      "wir": "lasen vor",
+      "ihr": "last vor",
+      "sie_Sie": "lasen vor"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "vorgelesen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich lese meinen Kindern jeden Abend eine schöne Gute-Nacht-Geschichte vor.",
+      "translation": {
+        "ru": "Я каждый вечер читаю детям красивую сказку на ночь.",
+        "en": "I read my children a lovely bedtime story every evening."
+      },
+      "bracket_parts": [
+        "lese",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Liest du der Klasse das neue Gedicht mit lauter Stimme vor?",
+      "translation": {
+        "ru": "Ты читаешь классу новое стихотворение громким голосом?",
+        "en": "Are you reading the new poem aloud to the class in a loud voice?"
+      },
+      "bracket_parts": [
+        "Liest",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Lehrerin liest den Schülern ein spannendes Kapitel aus dem Buch vor.",
+      "translation": {
+        "ru": "Учительница читает ученикам захватывающую главу из книги.",
+        "en": "The teacher reads an exciting chapter from the book aloud to the students."
+      },
+      "bracket_parts": [
+        "liest",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir lesen im Deutschunterricht abwechselnd verschiedene Texte vor.",
+      "translation": {
+        "ru": "На уроке немецкого мы по очереди читаем вслух разные тексты.",
+        "en": "In German class, we take turns reading various texts aloud."
+      },
+      "bracket_parts": [
+        "lesen",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lest ihr euren Großeltern die interessanten Zeitungsartikel vor?",
+      "translation": {
+        "ru": "Читаете ли вы бабушке и дедушке интересные газетные статьи?",
+        "en": "Do you guys read the interesting newspaper articles aloud to your grandparents?"
+      },
+      "bracket_parts": [
+        "Lest",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Autor las dem begeisterten Publikum aus seinem neuen Werk vor.",
+      "translation": {
+        "ru": "Автор читал восторженной публике отрывки из своего нового произведения.",
+        "en": "The author read from his new work aloud to the enthusiastic audience."
+      },
+      "bracket_parts": [
+        "las",
+        "vor"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie hat ihrem kleinen Bruder das ganze Märchenbuch vorgelesen.",
+      "translation": {
+        "ru": "Она прочитала младшему брату всю книгу сказок.",
+        "en": "She read the whole book of fairy tales aloud to her little brother."
+      },
+      "bracket_parts": [
+        "hat",
+        "vorgelesen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lies den Brief bitte laut und deutlich vor!",
+      "translation": {
+        "ru": "Прочитай, пожалуйста, письмо громко и отчетливо!",
+        "en": "Please read the letter aloud loudly and clearly!"
+      },
+      "bracket_parts": [
+        "Lies",
+        "vor"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

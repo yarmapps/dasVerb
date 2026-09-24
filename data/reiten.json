@@ -1,0 +1,143 @@
+{
+  "id": "reiten",
+  "infinitive": "reiten",
+  "translation": {
+    "ru": "ездить верхом, скакать",
+    "en": "to ride (a horse)"
+  },
+  "level": "A2",
+  "frequency_rank": 842,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "reitet",
+    "preterite_third_singular": "ritt",
+    "past_participle": "geritten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "reite",
+      "du": "reitest",
+      "er_sie_es": "reitet",
+      "wir": "reiten",
+      "ihr": "reitet",
+      "sie_Sie": "reiten"
+    },
+    "preterite": {
+      "ich": "ritt",
+      "du": "rittest",
+      "er_sie_es": "ritt",
+      "wir": "ritten",
+      "ihr": "rittet",
+      "sie_Sie": "ritten"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "geritten"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich reite jeden Samstag auf einem braunen Pferd.",
+      "translation": {
+        "ru": "Я каждую субботу езжу верхом на гнедой лошади.",
+        "en": "I ride a brown horse every Saturday."
+      },
+      "bracket_parts": [
+        "reite"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Reitest du gerne durch den sonnigen Wald?",
+      "translation": {
+        "ru": "Ты любишь скакать верхом по солнечному лесу?",
+        "en": "Do you like riding through the sunny forest?"
+      },
+      "bracket_parts": [
+        "Reitest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das junge Mädchen reitet sehr sicher und mutig.",
+      "translation": {
+        "ru": "Юная девушка держится в седле очень уверенно и смело.",
+        "en": "The young girl rides very safely and bravely."
+      },
+      "bracket_parts": [
+        "reitet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir reiten gemeinsam über die weiten grünen Wiesen.",
+      "translation": {
+        "ru": "Мы скачем вместе по широким зеленым лугам.",
+        "en": "We ride together across the wide green meadows."
+      },
+      "bracket_parts": [
+        "reiten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Reitet ihr regelmäßig auf dem Bauernhof eurer Tante?",
+      "translation": {
+        "ru": "Вы регулярно катаетесь верхом на ферме вашей тети?",
+        "en": "Do you guys ride regularly on your aunt's farm?"
+      },
+      "bracket_parts": [
+        "Reitet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Ritter ritt stolz auf seiner weißen Stute durch das Burgtor.",
+      "translation": {
+        "ru": "Рыцарь гордо проехал на белой кобыле сквозь замковые ворота.",
+        "en": "The knight rode proudly on his white mare through the castle gate."
+      },
+      "bracket_parts": [
+        "ritt"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie sind stundenlang am sonnigen Strand entlang geritten.",
+      "translation": {
+        "ru": "Они часами скакали вдоль солнечного пляжа.",
+        "en": "They rode along the sunny beach for hours."
+      },
+      "bracket_parts": [
+        "sind",
+        "geritten"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Reite vorsichtig und halte die Zügel fest!",
+      "translation": {
+        "ru": "Скачи осторожно и крепко держи поводья!",
+        "en": "Ride carefully and hold the reins tightly!"
+      },
+      "bracket_parts": [
+        "Reite"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "auswerten",
+  "infinitive": "auswerten",
+  "translation": {
+    "ru": "анализировать, оценивать, обрабатывать (данные)",
+    "en": "to evaluate, to analyze, to interpret"
+  },
+  "level": "B2",
+  "frequency_rank": 941,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "wertet aus",
+    "preterite_third_singular": "wertete aus",
+    "past_participle": "ausgewertet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "werte aus",
+      "du": "wertest aus",
+      "er_sie_es": "wertet aus",
+      "wir": "werten aus",
+      "ihr": "wertet aus",
+      "sie_Sie": "werten aus"
+    },
+    "preterite": {
+      "ich": "wertete aus",
+      "du": "wertetest aus",
+      "er_sie_es": "wertete aus",
+      "wir": "werteten aus",
+      "ihr": "wertetet aus",
+      "sie_Sie": "werteten aus"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "ausgewertet"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich werte die statistischen Daten der Kundenbefragung sorgfältig aus.",
+      "translation": {
+        "ru": "Я тщательно анализирую статистические данные опроса клиентов.",
+        "en": "I carefully analyze the statistical data of the customer survey."
+      },
+      "bracket_parts": [
+        "werte",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wertest du die Testergebnisse der Studie noch heute aus?",
+      "translation": {
+        "ru": "Ты обработаешь результаты тестов исследования еще сегодня?",
+        "en": "Are you evaluating the study test results today?"
+      },
+      "bracket_parts": [
+        "Wertest",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Software wertet große Datenmengen in Sekundenschnelle aus.",
+      "translation": {
+        "ru": "Программное обеспечение обрабатывает большие объемы данных за считанные секунды.",
+        "en": "The software analyzes large amounts of data in seconds."
+      },
+      "bracket_parts": [
+        "wertet",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir werten das Feedback unserer Nutzer zur Verbesserung der App aus.",
+      "translation": {
+        "ru": "Мы анализируем отзывы пользователей для улучшения приложения.",
+        "en": "We evaluate the feedback from our users to improve the app."
+      },
+      "bracket_parts": [
+        "werten",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wertet ihr die Fragebögen im Team gemeinsam aus?",
+      "translation": {
+        "ru": "Вы обрабатываете анкеты всей командой сообща?",
+        "en": "Are you guys evaluating the questionnaires together in the team?"
+      },
+      "bracket_parts": [
+        "Wertet",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Wissenschaftler wertete die Laborergebnisse monatelang aus.",
+      "translation": {
+        "ru": "Ученый месяцами анализировал результаты лабораторных исследований.",
+        "en": "The scientist evaluated the laboratory results for months."
+      },
+      "bracket_parts": [
+        "wertete",
+        "aus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Experten haben alle vorliegenden Informationen gründlich ausgewertet.",
+      "translation": {
+        "ru": "Эксперты тщательно проанализировали всю имеющуюся информацию.",
+        "en": "The experts have thoroughly evaluated all available information."
+      },
+      "bracket_parts": [
+        "haben",
+        "ausgewertet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Werte bitte die Messdaten bis morgen früh vollständig aus!",
+      "translation": {
+        "ru": "Обработай, пожалуйста, данные измерений полностью к завтрашнему утру!",
+        "en": "Please analyze the measurement data completely by tomorrow morning!"
+      },
+      "bracket_parts": [
+        "Werte",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

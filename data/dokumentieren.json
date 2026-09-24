@@ -1,0 +1,138 @@
+{
+  "id": "dokumentieren",
+  "infinitive": "dokumentieren",
+  "translation": {
+    "ru": "документировать, фиксировать документально",
+    "en": "to document, to record"
+  },
+  "level": "B1",
+  "frequency_rank": 911,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "dokumentiert",
+    "preterite_third_singular": "dokumentierte",
+    "past_participle": "dokumentiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "dokumentiere",
+      "du": "dokumentierst",
+      "er_sie_es": "dokumentiert",
+      "wir": "dokumentieren",
+      "ihr": "dokumentiert",
+      "sie_Sie": "dokumentieren"
+    },
+    "preterite": {
+      "ich": "dokumentierte",
+      "du": "dokumentiertest",
+      "er_sie_es": "dokumentierte",
+      "wir": "dokumentierten",
+      "ihr": "dokumentiertet",
+      "sie_Sie": "dokumentierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "dokumentiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich dokumentiere jeden einzelnen Schritt des Experiments im Labor.",
+      "translation": {
+        "ru": "Я документирую каждый отдельный шаг эксперимента в лаборатории.",
+        "en": "I document every single step of the experiment in the laboratory."
+      },
+      "bracket_parts": [
+        "dokumentiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dokumentierst du die Baufortschritte mit regelmäßigen Fotos?",
+      "translation": {
+        "ru": "Ты фиксируешь прогресс стройки регулярными фотографиями?",
+        "en": "Do you document construction progress with regular photos?"
+      },
+      "bracket_parts": [
+        "Dokumentierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Arzt dokumentiert den Krankheitsverlauf in der Patientenakte.",
+      "translation": {
+        "ru": "Врач документирует течение болезни в медицинской карте пациента.",
+        "en": "The doctor documents the course of the disease in the patient file."
+      },
+      "bracket_parts": [
+        "dokumentiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir dokumentieren alle Kundenanfragen in unserer zentralen Datenbank.",
+      "translation": {
+        "ru": "Мы фиксируем все запросы клиентов в нашей центральной базе данных.",
+        "en": "We document all customer requests in our central database."
+      },
+      "bracket_parts": [
+        "dokumentieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dokumentiert ihr die Testergebnisse sorgfältig im Protokoll?",
+      "translation": {
+        "ru": "Вы тщательно документируете результаты тестов в протоколе?",
+        "en": "Do you document the test results carefully in the report?"
+      },
+      "bracket_parts": [
+        "Dokumentiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Journalistin dokumentierte die dramatischen Ereignisse vor Ort.",
+      "translation": {
+        "ru": "Журналистка документировала драматические события на месте.",
+        "en": "The journalist documented the dramatic events on the ground."
+      },
+      "bracket_parts": [
+        "dokumentierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben den Schaden für die Versicherung ausführlich dokumentiert.",
+      "translation": {
+        "ru": "Они подробно задокументировали ущерб для страховой компании.",
+        "en": "They documented the damage for the insurance company in detail."
+      },
+      "bracket_parts": [
+        "haben",
+        "dokumentiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Dokumentiere alle Vorgänge präzise und nachvollziehbar!",
+      "translation": {
+        "ru": "Документируй все процессы точно и понятно!",
+        "en": "Document all processes precisely and traceably!"
+      },
+      "bracket_parts": [
+        "Dokumentiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

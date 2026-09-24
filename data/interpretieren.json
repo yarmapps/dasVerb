@@ -1,0 +1,147 @@
+{
+  "id": "interpretieren",
+  "infinitive": "interpretieren",
+  "translation": {
+    "ru": "интерпретировать, толковать",
+    "en": "to interpret, to construe"
+  },
+  "level": "B2",
+  "frequency_rank": 604,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "interpretieren",
+    "present_3sg": "interpretiert",
+    "praeteritum_3sg": "interpretierte",
+    "partizip_2": "interpretiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "interpretiere",
+      "du": "interpretierst",
+      "er_sie_es": "interpretiert",
+      "wir": "interpretieren",
+      "ihr": "interpretiert",
+      "sie_Sie": "interpretieren"
+    },
+    "praeteritum": {
+      "ich": "interpretierte",
+      "du": "interpretiertest",
+      "er_sie_es": "interpretierte",
+      "wir": "interpretierten",
+      "ihr": "interpretiertet",
+      "sie_Sie": "interpretierten"
+    },
+    "perfekt": {
+      "ich": "habe interpretiert",
+      "du": "hast interpretiert",
+      "er_sie_es": "hat interpretiert",
+      "wir": "haben interpretiert",
+      "ihr": "habt interpretiert",
+      "sie_Sie": "haben interpretiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "als",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich interpretiere das Gedicht im Deutschunterricht.",
+      "translation": {
+        "ru": "Я анализирую и толкую стихотворение на уроке немецкого.",
+        "en": "I interpret the poem in German class."
+      },
+      "bracket_parts": [
+        "interpretiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Interpretierst du sein langes Schweigen als Zustimmung?",
+      "translation": {
+        "ru": "Ты истолковываешь его долгое молчание как согласие?",
+        "en": "Do you interpret his long silence as agreement?"
+      },
+      "bracket_parts": [
+        "Interpretierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Kritiker interpretiert die Botschaft des Künstlers.",
+      "translation": {
+        "ru": "Критик истолковывает послание художника.",
+        "en": "The critic interprets the artist's message."
+      },
+      "bracket_parts": [
+        "interpretiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir interpretieren die Ergebnisse der Umfrage gemeinsam.",
+      "translation": {
+        "ru": "Мы вместе интерпретируем результаты опроса.",
+        "en": "We interpret the survey results together."
+      },
+      "bracket_parts": [
+        "interpretieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr interpretiert seine Aussagen völlig falsch.",
+      "translation": {
+        "ru": "Вы совершенно неправильно истолковываете его высказывания.",
+        "en": "You interpret his statements completely wrong."
+      },
+      "bracket_parts": [
+        "interpretiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Wissenschaftler interpretierten die Messdaten damals sehr vorsichtig.",
+      "translation": {
+        "ru": "Ученые тогда очень осторожно истолковали данные измерений.",
+        "en": "The scientists interpreted the measured data very cautiously back then."
+      },
+      "bracket_parts": [
+        "interpretierten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben die Szene im Theaterstück meisterhaft interpretiert.",
+      "translation": {
+        "ru": "Они мастерски сыграли и истолковали сцену в пьесе.",
+        "en": "They interpreted the scene in the play masterfully."
+      },
+      "bracket_parts": [
+        "haben",
+        "interpretiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Interpretiere die Zahlen im richtigen Kontext!",
+      "translation": {
+        "ru": "Интерпретируй цифры в правильном контексте!",
+        "en": "Interpret the numbers in the right context!"
+      },
+      "bracket_parts": [
+        "Interpretiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

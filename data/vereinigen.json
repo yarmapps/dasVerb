@@ -1,0 +1,168 @@
+{
+  "id": "vereinigen",
+  "infinitive": "vereinigen",
+  "translation": {
+    "ru": "объединять, соединять",
+    "en": "to unite, combine"
+  },
+  "level": "B2",
+  "frequency_rank": 542,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vereinigen",
+    "present_3sg": "vereinigt",
+    "praeteritum_3sg": "vereinigte",
+    "partizip_2": "vereinigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vereinige",
+      "du": "vereinigst",
+      "er_sie_es": "vereinigt",
+      "wir": "vereinigen",
+      "ihr": "vereinigt",
+      "sie_Sie": "vereinigen"
+    },
+    "praeteritum": {
+      "ich": "vereinigte",
+      "du": "vereinigtest",
+      "er_sie_es": "vereinigte",
+      "wir": "vereinigten",
+      "ihr": "vereinigtet",
+      "sie_Sie": "vereinigten"
+    },
+    "perfekt": {
+      "ich": "habe vereinigt",
+      "du": "hast vereinigt",
+      "er_sie_es": "hat vereinigt",
+      "wir": "haben vereinigt",
+      "ihr": "habt vereinigt",
+      "sie_Sie": "haben vereinigt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich vereinige zwei wichtige Aufgaben in einem gemeinsamen Schritt.",
+      "translation": {
+        "ru": "Я совмещаю две важные задачи в одном общем действии.",
+        "en": "I combine two important tasks in a single joint step."
+      },
+      "bracket_parts": [
+        "vereinige"
+      ],
+      "akkusativ_parts": [
+        "zwei wichtige Aufgaben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du vereinigst theoretisches Wissen mit praktischem Können.",
+      "translation": {
+        "ru": "Ты соединяешь теоретические знания с практическими навыками.",
+        "en": "You combine theoretical knowledge with practical skills."
+      },
+      "bracket_parts": [
+        "vereinigst"
+      ],
+      "akkusativ_parts": [
+        "theoretisches Wissen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das neue Gesetz vereinigt verschiedene bisherige Regelungen.",
+      "translation": {
+        "ru": "Новый закон объединяет несколько прежних нормативных актов.",
+        "en": "The new law unifies various previous regulations."
+      },
+      "bracket_parts": [
+        "vereinigt"
+      ],
+      "akkusativ_parts": [
+        "verschiedene bisherige Regelungen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir vereinigen unsere Kräfte für das gemeinsame Ziel.",
+      "translation": {
+        "ru": "Мы объединяем наши силы ради общей цели.",
+        "en": "We unite our forces for the common goal."
+      },
+      "bracket_parts": [
+        "vereinigen"
+      ],
+      "akkusativ_parts": [
+        "unsere Kräfte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr vereinigt mehrere Vereine zu einer großen Organisation.",
+      "translation": {
+        "ru": "Вы объединяете несколько клубов в одну большую организацию.",
+        "en": "You unite several clubs into a large organization."
+      },
+      "bracket_parts": [
+        "vereinigt"
+      ],
+      "akkusativ_parts": [
+        "mehrere Vereine"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die beiden Staaten vereinigten damals ihre Territorien.",
+      "translation": {
+        "ru": "Оба государства объединили тогда свои территории.",
+        "en": "The two states united their territories back then."
+      },
+      "bracket_parts": [
+        "vereinigten"
+      ],
+      "akkusativ_parts": [
+        "ihre Territorien"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Deutschland hat sich im Jahr neunzehnhundertneunzig wieder vereinigt.",
+      "translation": {
+        "ru": "Германия вновь объединилась в 1990 году.",
+        "en": "Germany was reunited in the year nineteen ninety."
+      },
+      "bracket_parts": [
+        "hat",
+        "vereinigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Vereinige die verschiedenen Vorschläge zu einem einheitlichen Plan!",
+      "translation": {
+        "ru": "Объедини различные предложения в единый план!",
+        "en": "Unite the different proposals into a unified plan!"
+      },
+      "bracket_parts": [
+        "Vereinige"
+      ],
+      "akkusativ_parts": [
+        "die verschiedenen Vorschläge"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

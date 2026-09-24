@@ -1,0 +1,148 @@
+{
+  "id": "vergeben",
+  "infinitive": "vergeben",
+  "translation": {
+    "ru": "прощать, распределять/присуждать (награду/заказ)",
+    "en": "to forgive, to award, to allocate"
+  },
+  "level": "B1",
+  "frequency_rank": 609,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vergeben",
+    "present_3sg": "vergibt",
+    "praeteritum_3sg": "vergab",
+    "partizip_2": "vergeben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vergebe",
+      "du": "vergibst",
+      "er_sie_es": "vergibt",
+      "wir": "vergeben",
+      "ihr": "vergebt",
+      "sie_Sie": "vergeben",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "vergab",
+      "du": "vergabst",
+      "er_sie_es": "vergab",
+      "wir": "vergaben",
+      "ihr": "vergabt",
+      "sie_Sie": "vergaben"
+    },
+    "perfekt": {
+      "ich": "habe vergeben",
+      "du": "hast vergeben",
+      "er_sie_es": "hat vergeben",
+      "wir": "haben vergeben",
+      "ihr": "habt vergeben",
+      "sie_Sie": "haben vergeben"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "dativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich vergebe dir deinen Fehler von ganzem Herzen.",
+      "translation": {
+        "ru": "Я от всего сердца прощаю тебе твою ошибку.",
+        "en": "I forgive you for your mistake with all my heart."
+      },
+      "bracket_parts": [
+        "vergebe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vergibst du ihm seine unbedachten Worte?",
+      "translation": {
+        "ru": "Ты простишь ему его необдуманные слова?",
+        "en": "Do you forgive him for his thoughtless words?"
+      },
+      "bracket_parts": [
+        "Vergibst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Jury vergibt den ersten Preis an die talentierte Künstlerin.",
+      "translation": {
+        "ru": "Жюри присуждает первый приз талантливой художнице.",
+        "en": "The jury awards first prize to the talented artist."
+      },
+      "bracket_parts": [
+        "vergibt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir vergeben den Bauauftrag an ein lokales Unternehmen.",
+      "translation": {
+        "ru": "Мы отдаем строительный заказ местной фирме.",
+        "en": "We award the construction contract to a local company."
+      },
+      "bracket_parts": [
+        "vergeben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr vergebt eine riesige Chance im Spiel.",
+      "translation": {
+        "ru": "Вы упускаете огромный шанс в игре.",
+        "en": "You are wasting a huge chance in the game."
+      },
+      "bracket_parts": [
+        "vergebt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Universität vergab damals viele Stipendien an Studenten.",
+      "translation": {
+        "ru": "Университет тогда выделил много стипендий студентам.",
+        "en": "The university awarded many scholarships to students back then."
+      },
+      "bracket_parts": [
+        "vergab"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie hat ihm den Betrug nach langer Zeit vergeben.",
+      "translation": {
+        "ru": "Она спустя долгое время простила ему обман.",
+        "en": "She forgave him for the deception after a long time."
+      },
+      "bracket_parts": [
+        "hat",
+        "vergeben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Vergib deinen Freunden und schaue nach vorne!",
+      "translation": {
+        "ru": "Прости своих друзей и смотри вперед!",
+        "en": "Forgive your friends and look forward!"
+      },
+      "bracket_parts": [
+        "Vergib"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

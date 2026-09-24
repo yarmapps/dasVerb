@@ -1,0 +1,144 @@
+{
+  "id": "anrichten",
+  "infinitive": "anrichten",
+  "translation": {
+    "ru": "приготавливать/сервировать (блюдо), причинять (ущерб)",
+    "en": "to prepare/serve (food), to cause (damage)"
+  },
+  "level": "B2",
+  "frequency_rank": 894,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "richtet an",
+    "preterite_third_singular": "richtete an",
+    "past_participle": "angerichtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "richte an",
+      "du": "richtest an",
+      "er_sie_es": "richtet an",
+      "wir": "richten an",
+      "ihr": "richtet an",
+      "sie_Sie": "richten an"
+    },
+    "preterite": {
+      "ich": "richtete an",
+      "du": "richtetest an",
+      "er_sie_es": "richtete an",
+      "wir": "richteten an",
+      "ihr": "richtetet an",
+      "sie_Sie": "richteten an"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "angerichtet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich richte den Salat mit frischem Olivenöl appetitlich an.",
+      "translation": {
+        "ru": "Я аппетитно оформляю салат со свежим оливковым маслом.",
+        "en": "I dress the salad appetizingly with fresh olive oil."
+      },
+      "bracket_parts": [
+        "richte",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Weißt du eigentlich, was für ein Chaos du anrichtest?",
+      "translation": {
+        "ru": "Ты вообще знаешь, какой хаос ты причиняешь?",
+        "en": "Do you actually know what a mess you are causing?"
+      },
+      "bracket_parts": [
+        "anrichtest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Koch richtet das Hauptgericht kunstvoll auf dem Teller an.",
+      "translation": {
+        "ru": "Повар искусно сервирует главное блюдо на тарелке.",
+        "en": "The chef artfully arranges the main course on the plate."
+      },
+      "bracket_parts": [
+        "richtet",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir richten ein köstliches Festmahl für unsere Gäste an.",
+      "translation": {
+        "ru": "Мы готовим восхитительный праздничный обед для гостей.",
+        "en": "We prepare a delicious feast for our guests."
+      },
+      "bracket_parts": [
+        "richten",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Richtet ihr die Speisen für das Buffet dekorativ an?",
+      "translation": {
+        "ru": "Вы декоративно оформляете блюда для шведского стола?",
+        "en": "Are you arranging the food decoratively for the buffet?"
+      },
+      "bracket_parts": [
+        "Richtet",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der schwere Sturm richtete enorme Verwüstungen in der Stadt an.",
+      "translation": {
+        "ru": "Сильный шторм причинил огромные разрушения в городе.",
+        "en": "The severe storm caused enormous devastation in the city."
+      },
+      "bracket_parts": [
+        "richtete",
+        "an"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Hochwasser hat großen Schaden an den Häusern angerichtet.",
+      "translation": {
+        "ru": "Наводнение причинило большой ущерб домам.",
+        "en": "The flood has caused great damage to the houses."
+      },
+      "bracket_parts": [
+        "hat",
+        "angerichtet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Richte die Speisen vor dem Servieren schön an!",
+      "translation": {
+        "ru": "Красиво оформи блюда перед подачей на стол!",
+        "en": "Arrange the dishes nicely before serving!"
+      },
+      "bracket_parts": [
+        "Richte",
+        "an"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

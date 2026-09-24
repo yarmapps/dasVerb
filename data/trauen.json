@@ -1,0 +1,147 @@
+{
+  "id": "trauen",
+  "infinitive": "trauen",
+  "translation": {
+    "ru": "доверять, верить, осмеливаться",
+    "en": "to trust, to dare"
+  },
+  "level": "B1",
+  "frequency_rank": 582,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "trauen",
+    "present_3sg": "traut",
+    "praeteritum_3sg": "traute",
+    "partizip_2": "getraut"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "traue",
+      "du": "traust",
+      "er_sie_es": "traut",
+      "wir": "trauen",
+      "ihr": "traut",
+      "sie_Sie": "trauen"
+    },
+    "praeteritum": {
+      "ich": "traute",
+      "du": "trautest",
+      "er_sie_es": "traute",
+      "wir": "trauten",
+      "ihr": "trautet",
+      "sie_Sie": "trauten"
+    },
+    "perfekt": {
+      "ich": "habe getraut",
+      "du": "hast getraut",
+      "er_sie_es": "hat getraut",
+      "wir": "haben getraut",
+      "ihr": "habt getraut",
+      "sie_Sie": "haben getraut"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "dativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich traue meinen eigenen Augen kaum.",
+      "translation": {
+        "ru": "Я едва верю своим собственным глазам.",
+        "en": "I can hardly believe my own eyes."
+      },
+      "bracket_parts": [
+        "traue"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Traust du diesem fremden Mann an der Tür?",
+      "translation": {
+        "ru": "Ты доверяешь этому незнакомому человеку у двери?",
+        "en": "Do you trust this strange man at the door?"
+      },
+      "bracket_parts": [
+        "Traust"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie traut keinem Versprechen der Politiker.",
+      "translation": {
+        "ru": "Она не верит ни одному обещанию политиков.",
+        "en": "She does not trust any promise from politicians."
+      },
+      "bracket_parts": [
+        "traut"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir trauen dem ruhigen Wetter heute nicht ganz.",
+      "translation": {
+        "ru": "Мы не совсем доверяем сегодняшней спокойной погоде.",
+        "en": "We do not entirely trust the calm weather today."
+      },
+      "bracket_parts": [
+        "trauen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr traut euch nicht ins kalte Wasser.",
+      "translation": {
+        "ru": "Вы не решаетесь зайти в холодную воду.",
+        "en": "You do not dare to go into the cold water."
+      },
+      "bracket_parts": [
+        "traut"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Niemand traute dem alten Zeugen vor Gericht.",
+      "translation": {
+        "ru": "Никто не доверял старому свидетелю в суде.",
+        "en": "Nobody trusted the old witness in court."
+      },
+      "bracket_parts": [
+        "traute"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Ich habe ihm von Anfang an voll vertraut und getraut.",
+      "translation": {
+        "ru": "Я с самого начала полностью ему верил.",
+        "en": "I fully trusted him from the beginning."
+      },
+      "bracket_parts": [
+        "habe",
+        "getraut"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Trau deinen eigenen Fähigkeiten beim Test!",
+      "translation": {
+        "ru": "Доверяй своим собственным способностям на тесте!",
+        "en": "Trust your own abilities during the test!"
+      },
+      "bracket_parts": [
+        "Trau"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "anpassen",
+  "infinitive": "anpassen",
+  "translation": {
+    "ru": "подгонять, адаптировать, примерять",
+    "en": "to adjust, adapt, fit"
+  },
+  "level": "B1",
+  "frequency_rank": 520,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "anpassen",
+    "present_3sg": "passt an",
+    "praeteritum_3sg": "passte an",
+    "partizip_2": "angepasst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "passe an",
+      "du": "passt an",
+      "er_sie_es": "passt an",
+      "wir": "passen an",
+      "ihr": "passt an",
+      "sie_Sie": "passen an"
+    },
+    "praeteritum": {
+      "ich": "passte an",
+      "du": "passtest an",
+      "er_sie_es": "passte an",
+      "wir": "passten an",
+      "ihr": "passtet an",
+      "sie_Sie": "passten an"
+    },
+    "perfekt": {
+      "ich": "habe angepasst",
+      "du": "hast angepasst",
+      "er_sie_es": "hat angepasst",
+      "wir": "haben angepasst",
+      "ihr": "habt angepasst",
+      "sie_Sie": "haben angepasst"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "an",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich passe die Einstellungen der Software an meine Bedürfnisse an.",
+      "translation": {
+        "ru": "Я настраиваю параметры программы под свои нужды.",
+        "en": "I adjust the software settings to my needs."
+      },
+      "bracket_parts": [
+        "passe",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Einstellungen der Software"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du passt deine Geschwindigkeit an die Straßenverhältnisse an.",
+      "translation": {
+        "ru": "Ты подстраиваешь свою скорость под дорожные условия.",
+        "en": "You adapt your speed to road conditions."
+      },
+      "bracket_parts": [
+        "passt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "deine Geschwindigkeit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schneider passt das neue Kleid perfekt an.",
+      "translation": {
+        "ru": "Портной идеально подгоняет новое платье по фигуре.",
+        "en": "The tailor fits the new dress perfectly."
+      },
+      "bracket_parts": [
+        "passt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das neue Kleid"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir passen unsere Strategie an die neue Marktsituation an.",
+      "translation": {
+        "ru": "Мы адаптируем нашу стратегию к новой рыночной ситуации.",
+        "en": "We adapt our strategy to the new market situation."
+      },
+      "bracket_parts": [
+        "passen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "unsere Strategie"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr passt die Lautstärke im Raum an die Ruhezeiten an.",
+      "translation": {
+        "ru": "Вы регулируете громкость в помещении с учетом часов тишины.",
+        "en": "You adjust the volume in the room to the quiet hours."
+      },
+      "bracket_parts": [
+        "passt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Lautstärke"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie passten damals ihre Pläne flexibel an das Wetter an.",
+      "translation": {
+        "ru": "Они тогда гибко скорректировали свои планы по погоде.",
+        "en": "They flexibly adapted their plans to the weather back then."
+      },
+      "bracket_parts": [
+        "passten",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "ihre Pläne"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Firma hat ihre Preise an die gestiegene Inflation angepasst.",
+      "translation": {
+        "ru": "Компания скорректировала свои цены с учетом возросшей инфляции.",
+        "en": "The company adjusted its prices to the increased inflation."
+      },
+      "bracket_parts": [
+        "hat",
+        "angepasst"
+      ],
+      "akkusativ_parts": [
+        "ihre Preise"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Passe den Text bitte an das vorgegebene Format an!",
+      "translation": {
+        "ru": "Подогони текст под заданный формат, пожалуйста!",
+        "en": "Please adapt the text to the specified format!"
+      },
+      "bracket_parts": [
+        "Passe",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den Text"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "angucken",
+  "infinitive": "angucken",
+  "translation": {
+    "ru": "разглядывать, смотреть на",
+    "en": "to look at, watch"
+  },
+  "level": "A1",
+  "frequency_rank": 544,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "angucken",
+    "present_3sg": "guckt an",
+    "praeteritum_3sg": "guckte an",
+    "partizip_2": "angeguckt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gucke an",
+      "du": "guckst an",
+      "er_sie_es": "guckt an",
+      "wir": "gucken an",
+      "ihr": "guckt an",
+      "sie_Sie": "gucken an"
+    },
+    "praeteritum": {
+      "ich": "guckte an",
+      "du": "gucktest an",
+      "er_sie_es": "guckte an",
+      "wir": "guckten an",
+      "ihr": "gucktet an",
+      "sie_Sie": "guckten an"
+    },
+    "perfekt": {
+      "ich": "habe angeguckt",
+      "du": "hast angeguckt",
+      "er_sie_es": "hat angeguckt",
+      "wir": "haben angeguckt",
+      "ihr": "habt angeguckt",
+      "sie_Sie": "haben angeguckt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich gucke mir die schönen Fotos aus dem Urlaub an.",
+      "translation": {
+        "ru": "Я рассматриваю красивые фотографии из отпуска.",
+        "en": "I look at the nice photos from the vacation."
+      },
+      "bracket_parts": [
+        "gucke",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die schönen Fotos"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du guckst den neuen Film heute Abend im Kino an.",
+      "translation": {
+        "ru": "Ты смотришь новый фильм сегодня вечером в кинотеатре.",
+        "en": "You watch the new film at the cinema tonight."
+      },
+      "bracket_parts": [
+        "guckst",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den neuen Film"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Kind guckt das bunte Bilderbuch neugierig an.",
+      "translation": {
+        "ru": "Ребенок с любопытством разглядывает красочную книжку с картинками.",
+        "en": "The child looks curiously at the colorful picture book."
+      },
+      "bracket_parts": [
+        "guckt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das bunte Bilderbuch"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gucken uns die Sehenswürdigkeiten in der Altstadt an.",
+      "translation": {
+        "ru": "Мы осматриваем достопримечательности в старом городе.",
+        "en": "We look at the sights in the old town."
+      },
+      "bracket_parts": [
+        "gucken",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die Sehenswürdigkeiten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr guckt die spektakuläre Show im Fernsehen an.",
+      "translation": {
+        "ru": "Вы смотрите зрелищное шоу по телевизору.",
+        "en": "You watch the spectacular show on television."
+      },
+      "bracket_parts": [
+        "guckt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die spektakuläre Show"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie guckten damals die alten Kunstwerke im Museum an.",
+      "translation": {
+        "ru": "Они тогда рассматривали старинные произведения искусства в музее.",
+        "en": "They looked at the old works of art in the museum back then."
+      },
+      "bracket_parts": [
+        "guckten",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "die alten Kunstwerke"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Ich habe mir den interessanten Bericht gestern ganz angeguckt.",
+      "translation": {
+        "ru": "Я вчера целиком посмотрел этот интересный репортаж.",
+        "en": "I watched the entire interesting report yesterday."
+      },
+      "bracket_parts": [
+        "habe",
+        "angeguckt"
+      ],
+      "akkusativ_parts": [
+        "den interessanten Bericht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Guck dir das mal ganz genau an!",
+      "translation": {
+        "ru": "Взгляни-ка на это повнимательнее!",
+        "en": "Take a very close look at this!"
+      },
+      "bracket_parts": [
+        "Guck",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

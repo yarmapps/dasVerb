@@ -1,0 +1,137 @@
+{
+  "id": "fressen",
+  "infinitive": "fressen",
+  "translation": {
+    "ru": "есть, пожирать, лопать (о животных / грубо о людях)",
+    "en": "to eat (of animals), to feed on"
+  },
+  "level": "A2",
+  "frequency_rank": 919,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "frisst",
+    "preterite_third_singular": "fraß",
+    "past_participle": "gefressen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "fresse",
+      "du": "frisst",
+      "er_sie_es": "frisst",
+      "wir": "fressen",
+      "ihr": "fresst",
+      "sie_Sie": "fressen"
+    },
+    "preterite": {
+      "ich": "fraß",
+      "du": "fraßest",
+      "er_sie_es": "fraß",
+      "wir": "fraßen",
+      "ihr": "fraßt",
+      "sie_Sie": "fraßen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gefressen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich fresse aus Frust manchmal viel zu viele Süßigkeiten.",
+      "translation": {
+        "ru": "От расстройства я иногда пожираю слишком много сладостей.",
+        "en": "Out of frustration, I sometimes devour far too many sweets."
+      },
+      "bracket_parts": [
+        "fresse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Frisst dein Hund nur Trockenfutter oder auch Fleisch?",
+      "translation": {
+        "ru": "Твоя собака ест только сухой корм или также мясо?",
+        "en": "Does your dog eat only dry food or also meat?"
+      },
+      "bracket_parts": [
+        "Frisst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Katze frisst den frischen Fisch mit großem Appetit.",
+      "translation": {
+        "ru": "Кошка ест свежую рыбу с большим аппетитом.",
+        "en": "The cat eats the fresh fish with great appetite."
+      },
+      "bracket_parts": [
+        "frisst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir fressen den Tieren im Zoo nicht das Futter weg.",
+      "translation": {
+        "ru": "Мы не объедаем животных в зоопарке.",
+        "en": "We do not eat away the food from the animals in the zoo."
+      },
+      "bracket_parts": [
+        "fressen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Fresst ihr heute schon wieder Fastfood vor dem Fernseher?",
+      "translation": {
+        "ru": "Вы сегодня снова уплетаете фастфуд перед телевизором?",
+        "en": "Are you guys gobbling fast food in front of the TV again today?"
+      },
+      "bracket_parts": [
+        "Fresst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Schafe fraßen den ganzen Nachmittag auf der saftigen Wiese.",
+      "translation": {
+        "ru": "Овцы паслись и ели травы весь день на сочном лугу.",
+        "en": "The sheep grazed all afternoon on the lush meadow."
+      },
+      "bracket_parts": [
+        "fraßen"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Kaninchen hat den ganzen Salatkopf gierig gefressen.",
+      "translation": {
+        "ru": "Кролик жадно съел весь кочан салата.",
+        "en": "The rabbit greedily ate the whole head of lettuce."
+      },
+      "bracket_parts": [
+        "hat",
+        "gefressen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Friss nicht so hastig dein ganzes Essen auf!",
+      "translation": {
+        "ru": "Не ешь так торопливо всю свою еду!",
+        "en": "Don't gobble down all your food so hastily!"
+      },
+      "bracket_parts": [
+        "Friss"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

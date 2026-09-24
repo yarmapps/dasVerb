@@ -1,0 +1,147 @@
+{
+  "id": "murmeln",
+  "infinitive": "murmeln",
+  "translation": {
+    "ru": "бормотать, шептать, журчать",
+    "en": "to mutter, to mumble, to murmur"
+  },
+  "level": "B2",
+  "frequency_rank": 664,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "murmeln",
+    "present_3sg": "murmelt",
+    "praeteritum_3sg": "murmelte",
+    "partizip_2": "gemurmelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "murmele",
+      "du": "murmelst",
+      "er_sie_es": "murmelt",
+      "wir": "murmeln",
+      "ihr": "murmelt",
+      "sie_Sie": "murmeln"
+    },
+    "praeteritum": {
+      "ich": "murmelte",
+      "du": "murmeltest",
+      "er_sie_es": "murmelte",
+      "wir": "murmelten",
+      "ihr": "murmeltet",
+      "sie_Sie": "murmelten"
+    },
+    "perfekt": {
+      "ich": "habe gemurmelt",
+      "du": "hast gemurmelt",
+      "er_sie_es": "hat gemurmelt",
+      "wir": "haben gemurmelt",
+      "ihr": "habt gemurmelt",
+      "sie_Sie": "haben gemurmelt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich murmele ein leises Dankeschön vor mich hin.",
+      "translation": {
+        "ru": "Я бормочу тихое спасибо себе под нос.",
+        "en": "I mutter a quiet thank you to myself."
+      },
+      "bracket_parts": [
+        "murmele"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Was murmelst du da die ganze Zeit unverständlich?",
+      "translation": {
+        "ru": "Что ты там все время невнятно бормочешь?",
+        "en": "What are you mumbling incomprehensibly all the time?"
+      },
+      "bracket_parts": [
+        "murmelst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der kleine Bach murmelt sanft durch den Wald.",
+      "translation": {
+        "ru": "Маленький ручей мягко журчит по лесу.",
+        "en": "The small brook murmurs gently through the forest."
+      },
+      "bracket_parts": [
+        "murmelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir murmeln leise Antworten während des Vortrags.",
+      "translation": {
+        "ru": "Мы тихо шепчем ответы во время доклада.",
+        "en": "We mutter quiet answers during the presentation."
+      },
+      "bracket_parts": [
+        "murmeln"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr murmelt unzufrieden in der letzten Reihe.",
+      "translation": {
+        "ru": "Вы недовольно бормочете в последнем ряду.",
+        "en": "You mutter discontentedly in the back row."
+      },
+      "bracket_parts": [
+        "murmelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der alte Mann murmelte damals ein paar unverständliche Worte.",
+      "translation": {
+        "ru": "Старик тогда пробормотал несколько невнятных слов.",
+        "en": "The old man mumbled a few incomprehensible words back then."
+      },
+      "bracket_parts": [
+        "murmelte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Er hat die Entschuldigung nur leise in seinen Bart gemurmelt.",
+      "translation": {
+        "ru": "Он лишь тихо пробормотал извинение себе в бороду.",
+        "en": "He only muttered the apology quietly into his beard."
+      },
+      "bracket_parts": [
+        "hat",
+        "gemurmelt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Murmele nicht so leise, sondern sprich deutlich!",
+      "translation": {
+        "ru": "Не бормочи так тихо, а говори четко!",
+        "en": "Do not mumble so quietly, speak clearly!"
+      },
+      "bracket_parts": [
+        "Murmele"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

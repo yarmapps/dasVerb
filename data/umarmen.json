@@ -1,0 +1,137 @@
+{
+  "id": "umarmen",
+  "infinitive": "umarmen",
+  "translation": {
+    "ru": "обнимать",
+    "en": "to hug, to embrace"
+  },
+  "level": "B1",
+  "frequency_rank": 965,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "umarmt",
+    "preterite_third_singular": "umarmte",
+    "past_participle": "umarmt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "umarme",
+      "du": "umarmst",
+      "er_sie_es": "umarmt",
+      "wir": "umarmen",
+      "ihr": "umarmt",
+      "sie_Sie": "umarmen"
+    },
+    "preterite": {
+      "ich": "umarmte",
+      "du": "umarmtest",
+      "er_sie_es": "umarmte",
+      "wir": "umarmten",
+      "ihr": "umarmtet",
+      "sie_Sie": "umarmten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "umarmt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich umarme meinen besten Freund herzlich zur Begrüßung.",
+      "translation": {
+        "ru": "Я сердечно обнимаю лучшего друга при встрече.",
+        "en": "I warmly hug my best friend in greeting."
+      },
+      "bracket_parts": [
+        "umarme"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Umarmst du deine Großeltern jedes Mal beim Abschied?",
+      "translation": {
+        "ru": "Ты обнимаешь бабушку и дедушку каждый раз на прощание?",
+        "en": "Do you hug your grandparents every time upon saying goodbye?"
+      },
+      "bracket_parts": [
+        "Umarmst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Mutter umarmt ihr weinendes Kind voller Liebe.",
+      "translation": {
+        "ru": "Мать с любовью обнимает своего плачущего ребенка.",
+        "en": "The mother hugs her crying child full of love."
+      },
+      "bracket_parts": [
+        "umarmt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir umarmen uns voller Freude nach dem gewonnenen Spiel.",
+      "translation": {
+        "ru": "Мы обнимаемся от радости после выигранной игры.",
+        "en": "We hug each other full of joy after the won match."
+      },
+      "bracket_parts": [
+        "umarmen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Umarmt ihr eure Eltern vor der langen Abreise?",
+      "translation": {
+        "ru": "Обнимаете ли вы родителей перед долгим отъездом?",
+        "en": "Are you guys hugging your parents before the long departure?"
+      },
+      "bracket_parts": [
+        "Umarmt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die beiden Schwestern umarmten sich innig nach vielen Jahren der Trennung.",
+      "translation": {
+        "ru": "Обе сестры горячо обнялись после долгих лет разлуки.",
+        "en": "The two sisters embraced each other tenderly after many years of separation."
+      },
+      "bracket_parts": [
+        "umarmten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat seinen Bruder am Flughafen fest in die Arme geschlossen und umarmt.",
+      "translation": {
+        "ru": "Он крепко заключил брата в объятия и обнял в аэропорту.",
+        "en": "He held his brother tightly in his arms and hugged him at the airport."
+      },
+      "bracket_parts": [
+        "hat",
+        "umarmt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Umarme die Menschen, die dir am Herzen liegen!",
+      "translation": {
+        "ru": "Обнимай людей, которые дороги твоему сердцу!",
+        "en": "Hug the people who are close to your heart!"
+      },
+      "bracket_parts": [
+        "Umarme"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

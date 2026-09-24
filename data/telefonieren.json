@@ -1,0 +1,143 @@
+{
+  "id": "telefonieren",
+  "infinitive": "telefonieren",
+  "translation": {
+    "ru": "говорить по телефону, созваниваться",
+    "en": "to phone, to make a phone call"
+  },
+  "level": "A1",
+  "frequency_rank": 877,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "telefoniert",
+    "preterite_third_singular": "telefonierte",
+    "past_participle": "telefoniert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "telefoniere",
+      "du": "telefonierst",
+      "er_sie_es": "telefoniert",
+      "wir": "telefonieren",
+      "ihr": "telefoniert",
+      "sie_Sie": "telefonieren"
+    },
+    "preterite": {
+      "ich": "telefonierte",
+      "du": "telefoniertest",
+      "er_sie_es": "telefonierte",
+      "wir": "telefonierten",
+      "ihr": "telefoniertet",
+      "sie_Sie": "telefonierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "telefoniert"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich telefoniere jeden Sonntagabend mit meiner Mutter.",
+      "translation": {
+        "ru": "Я говорю по телефону каждое воскресенье вечером со своей мамой.",
+        "en": "I talk on the phone with my mother every Sunday evening."
+      },
+      "bracket_parts": [
+        "telefoniere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Telefonierst du gerade mit dem Kundenservice der Bank?",
+      "translation": {
+        "ru": "Ты сейчас говоришь по телефону со службой поддержки банка?",
+        "en": "Are you on the phone with the bank's customer service right now?"
+      },
+      "bracket_parts": [
+        "Telefonierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Chef telefoniert seit einer Stunde mit einem wichtigen Kunden.",
+      "translation": {
+        "ru": "Шеф говорит по телефону с важным клиентом уже целый час.",
+        "en": "The boss has been on the phone with an important client for an hour."
+      },
+      "bracket_parts": [
+        "telefoniert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir telefonieren regelmäßig über das Internet miteinander.",
+      "translation": {
+        "ru": "Мы регулярно созваниваемся друг с другом через интернет.",
+        "en": "We make phone calls with each other regularly over the internet."
+      },
+      "bracket_parts": [
+        "telefonieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Telefoniert ihr beim Autofahren immer nur mit Freisprechanlage?",
+      "translation": {
+        "ru": "Вы разговариваете по телефону за рулем только через громкую связь?",
+        "en": "Do you guys only talk on the phone while driving with hands-free equipment?"
+      },
+      "bracket_parts": [
+        "Telefoniert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er telefonierte stundenlang mit seiner Verlobten in Übersee.",
+      "translation": {
+        "ru": "Он часами говорил по телефону со своей невестой за океаном.",
+        "en": "He talked on the phone for hours with his fiancee overseas."
+      },
+      "bracket_parts": [
+        "telefonierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben gestern ausführlich über die neuen Pläne telefoniert.",
+      "translation": {
+        "ru": "Они вчера подробно обсудили по телефону новые планы.",
+        "en": "They spoke in detail on the phone about the new plans yesterday."
+      },
+      "bracket_parts": [
+        "haben",
+        "telefoniert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Telefoniere bitte leise, die Kollegen arbeiten konzentriert!",
+      "translation": {
+        "ru": "Говори по телефону тихо, пожалуйста, коллеги сосредоточенно работают!",
+        "en": "Please make your phone call quietly, the colleagues are working concentratedly!"
+      },
+      "bracket_parts": [
+        "Telefoniere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

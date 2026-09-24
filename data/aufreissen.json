@@ -1,0 +1,144 @@
+{
+  "id": "aufreissen",
+  "infinitive": "aufreißen",
+  "translation": {
+    "ru": "распахивать, разрывать, широко открывать (глаза/рот)",
+    "en": "to tear open, to rip open, to fling open"
+  },
+  "level": "B2",
+  "frequency_rank": 973,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "reißt auf",
+    "preterite_third_singular": "riss auf",
+    "past_participle": "aufgerissen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "reiße auf",
+      "du": "reißt auf",
+      "er_sie_es": "reißt auf",
+      "wir": "reißen auf",
+      "ihr": "reißt auf",
+      "sie_Sie": "reißen auf"
+    },
+    "preterite": {
+      "ich": "riss auf",
+      "du": "rissest auf",
+      "er_sie_es": "riss auf",
+      "wir": "rissen auf",
+      "ihr": "risst auf",
+      "sie_Sie": "rissen auf"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "aufgerissen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich reiße das Fenster weit auf, um frische Luft ins Zimmer zu lassen.",
+      "translation": {
+        "ru": "Я распахиваю окно настежь, чтобы впустить в комнату свежий воздух.",
+        "en": "I fling the window wide open to let fresh air into the room."
+      },
+      "bracket_parts": [
+        "reiße",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Reißt du den Briefumschlag vor lauter Neugierde sofort auf?",
+      "translation": {
+        "ru": "Ты тут же разрываешь конверт от сильного любопытства?",
+        "en": "Do you tear open the envelope immediately out of pure curiosity?"
+      },
+      "bracket_parts": [
+        "Reißt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Kind reißt vor lauter Staunen die Augen weit auf.",
+      "translation": {
+        "ru": "Ребенок от изумления широко распахивает глаза.",
+        "en": "The child opens its eyes wide in astonishment."
+      },
+      "bracket_parts": [
+        "reißt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir reißen die alte Verpackung vorsichtig mit einer Schere auf.",
+      "translation": {
+        "ru": "Мы аккуратно вскрываем старую упаковку ножницами.",
+        "en": "We carefully tear open the old packaging with scissors."
+      },
+      "bracket_parts": [
+        "reißen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Reißt ihr die Türen zum Garten bei der Hitze auf?",
+      "translation": {
+        "ru": "Распахиваете ли вы двери в сад в такую жару?",
+        "en": "Are you guys flinging open the doors to the garden in this heat?"
+      },
+      "bracket_parts": [
+        "Reißt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Sturm riss plötzlich die schwere Balkontür auf.",
+      "translation": {
+        "ru": "Шторм внезапно распахнул тяжелую балконную дверь.",
+        "en": "The storm suddenly blew the heavy balcony door wide open."
+      },
+      "bracket_parts": [
+        "riss",
+        "auf"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat das Paket voller Vorfreude schnell aufgerissen.",
+      "translation": {
+        "ru": "Он быстро разорвал упаковку посылки в предвкушении.",
+        "en": "He quickly tore open the package in anticipation."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgerissen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Reiß nicht so ungeduldig an der empfindlichen Folie auf!",
+      "translation": {
+        "ru": "Не разрывай так нетерпеливо тонкую пленку!",
+        "en": "Do not tear open the delicate film so impatiently!"
+      },
+      "bracket_parts": [
+        "Reiß",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "eilen",
+  "infinitive": "eilen",
+  "translation": {
+    "ru": "спешить, торопиться, быть срочным",
+    "en": "to hurry, to rush"
+  },
+  "level": "B1",
+  "frequency_rank": 944,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "eilt",
+    "preterite_third_singular": "eilte",
+    "past_participle": "geeilt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "eile",
+      "du": "eilst",
+      "er_sie_es": "eilt",
+      "wir": "eilen",
+      "ihr": "eilt",
+      "sie_Sie": "eilen"
+    },
+    "preterite": {
+      "ich": "eilte",
+      "du": "eiltest",
+      "er_sie_es": "eilte",
+      "wir": "eilten",
+      "ihr": "eiltet",
+      "sie_Sie": "eilten"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "geeilt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "zu",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "nach",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich eile schnell zum Bahnsteig, um den Zug nicht zu verpassen.",
+      "translation": {
+        "ru": "Я спешу на перрон, чтобы не опоздать на поезд.",
+        "en": "I hurry quickly to the platform so as not to miss the train."
+      },
+      "bracket_parts": [
+        "eile"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Eilst du immer so hastig durch die Fußgängerzone?",
+      "translation": {
+        "ru": "Ты всегда так торопливо спешишь через пешеходную зону?",
+        "en": "Do you always rush so hastily through the pedestrian precinct?"
+      },
+      "bracket_parts": [
+        "Eilst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Zeit eilt und wir müssen rasch eine Entscheidung treffen.",
+      "translation": {
+        "ru": "Время не ждет (спешит), и мы должны быстро принять решение.",
+        "en": "Time is pressing and we must make a decision quickly."
+      },
+      "bracket_parts": [
+        "eilt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir eilen den Verletzten nach dem Verkehrsunfall sofort zu Hilfe.",
+      "translation": {
+        "ru": "Мы немедленно спешим на помощь пострадавшим после ДТП.",
+        "en": "We immediately rush to help the injured after the traffic accident."
+      },
+      "bracket_parts": [
+        "eilen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Eilt ihr nach der Arbeit direkt nach Hause?",
+      "translation": {
+        "ru": "Вы после работы сразу спешите домой?",
+        "en": "Are you guys rushing straight home after work?"
+      },
+      "bracket_parts": [
+        "Eilt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Notarzt eilte mit Blaulicht direkt zum Unfallort.",
+      "translation": {
+        "ru": "Врач скорой помощи с мигалками спешил прямо к месту происшествия.",
+        "en": "The emergency doctor rushed directly to the scene of the accident with flashing lights."
+      },
+      "bracket_parts": [
+        "eilte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie ist sofort zur nächsten Polizeiwache geeilt.",
+      "translation": {
+        "ru": "Она немедленно поспешила в ближайший полицейский участок.",
+        "en": "She rushed immediately to the nearest police station."
+      },
+      "bracket_parts": [
+        "ist",
+        "geeilt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Eile nicht so unüberlegt in gefährliche Situationen!",
+      "translation": {
+        "ru": "Не бросайся так необдуманно в опасные ситуации!",
+        "en": "Do not rush so thoughtlessly into dangerous situations!"
+      },
+      "bracket_parts": [
+        "Eile"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

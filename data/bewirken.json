@@ -1,0 +1,171 @@
+{
+  "id": "bewirken",
+  "infinitive": "bewirken",
+  "translation": {
+    "ru": "вызывать, быть причиной, производить эффект",
+    "en": "to cause, bring about, achieve"
+  },
+  "level": "B1",
+  "frequency_rank": 550,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bewirken",
+    "present_3sg": "bewirkt",
+    "praeteritum_3sg": "bewirkte",
+    "partizip_2": "bewirkt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bewirke",
+      "du": "bewirkst",
+      "er_sie_es": "bewirkt",
+      "wir": "bewirken",
+      "ihr": "bewirkt",
+      "sie_Sie": "bewirken"
+    },
+    "praeteritum": {
+      "ich": "bewirkte",
+      "du": "bewirktest",
+      "er_sie_es": "bewirkte",
+      "wir": "bewirkten",
+      "ihr": "bewirktet",
+      "sie_Sie": "bewirkten"
+    },
+    "perfekt": {
+      "ich": "habe bewirkt",
+      "du": "hast bewirkt",
+      "er_sie_es": "hat bewirkt",
+      "wir": "haben bewirkt",
+      "ihr": "habt bewirkt",
+      "sie_Sie": "haben bewirkt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich bewirke durch mein Engagement eine spürbare Verbesserung.",
+      "translation": {
+        "ru": "Своей активностью я добиваюсь ощутимого улучшения.",
+        "en": "I bring about a noticeable improvement through my commitment."
+      },
+      "bracket_parts": [
+        "bewirke"
+      ],
+      "akkusativ_parts": [
+        "eine spürbare Verbesserung"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du bewirkst mit deinen aufmunternden Worten wahre Wunder.",
+      "translation": {
+        "ru": "Своими ободряющими словами ты творишь настоящие чудеса.",
+        "en": "You work real wonders with your encouraging words."
+      },
+      "bracket_parts": [
+        "bewirkst"
+      ],
+      "akkusativ_parts": [
+        "wahre Wunder"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das neue Gesetz bewirkt eine deutliche Senkung der Abgaben.",
+      "translation": {
+        "ru": "Новый закон приводит к значительному снижению сборов.",
+        "en": "The new law causes a significant reduction in fees."
+      },
+      "bracket_parts": [
+        "bewirkt"
+      ],
+      "akkusativ_parts": [
+        "eine deutliche Senkung"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bewirken gemeinsam positive Veränderungen in der Nachbarschaft.",
+      "translation": {
+        "ru": "Вместе мы добиваемся позитивных изменений в районе.",
+        "en": "Together we bring about positive changes in the neighborhood."
+      },
+      "bracket_parts": [
+        "bewirken"
+      ],
+      "akkusativ_parts": [
+        "positive Veränderungen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr bewirkt viel Gutes mit eurer Spendenaktion.",
+      "translation": {
+        "ru": "Своей благотворительной акцией вы делаете много добра.",
+        "en": "You achieve a lot of good with your fundraising campaign."
+      },
+      "bracket_parts": [
+        "bewirkt"
+      ],
+      "akkusativ_parts": [
+        "viel Gutes"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Reform bewirkte damals einen enormen wirtschaftlichen Aufschwung.",
+      "translation": {
+        "ru": "Реформа вызвала тогда колоссальный экономический подъем.",
+        "en": "The reform brought about an enormous economic upswing back then."
+      },
+      "bracket_parts": [
+        "bewirkte"
+      ],
+      "akkusativ_parts": [
+        "einen enormen wirtschaftlichen Aufschwung"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das Medikament hat eine schnelle Linderung der Schmerzen bewirkt.",
+      "translation": {
+        "ru": "Лекарство привело к быстрому облегчению боли.",
+        "en": "The medication brought about rapid pain relief."
+      },
+      "bracket_parts": [
+        "hat",
+        "bewirkt"
+      ],
+      "akkusativ_parts": [
+        "eine schnelle Linderung"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bewirke etwas Positives im Leben anderer Menschen!",
+      "translation": {
+        "ru": "Привнеси что-то позитивное в жизнь других людей!",
+        "en": "Bring about something positive in the lives of other people!"
+      },
+      "bracket_parts": [
+        "Bewirke"
+      ],
+      "akkusativ_parts": [
+        "etwas Positives"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

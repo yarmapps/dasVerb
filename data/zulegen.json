@@ -1,0 +1,150 @@
+{
+  "id": "zulegen",
+  "infinitive": "zulegen",
+  "translation": {
+    "ru": "прибавлять (скорость), приобретать (покупать себе)",
+    "en": "to put on (weight/speed), to acquire, to buy oneself sth"
+  },
+  "level": "B2",
+  "frequency_rank": 888,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "legt zu",
+    "preterite_third_singular": "legte zu",
+    "past_participle": "zugelegt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lege zu",
+      "du": "legst zu",
+      "er_sie_es": "legt zu",
+      "wir": "legen zu",
+      "ihr": "legt zu",
+      "sie_Sie": "legen zu"
+    },
+    "preterite": {
+      "ich": "legte zu",
+      "du": "legtest zu",
+      "er_sie_es": "legte zu",
+      "wir": "legten zu",
+      "ihr": "legtet zu",
+      "sie_Sie": "legten zu"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "zugelegt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "an",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich lege mir bald ein neues Fahrrad für den Sommer zu.",
+      "translation": {
+        "ru": "Я скоро приобрету себе новый велосипед на лето.",
+        "en": "I am getting myself a new bike for the summer soon."
+      },
+      "bracket_parts": [
+        "lege",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Legst du beim Schlusssprint noch einmal an Tempo zu?",
+      "translation": {
+        "ru": "Ты еще прибавишь темп на финишном спурте?",
+        "en": "Are you picking up speed again in the final sprint?"
+      },
+      "bracket_parts": [
+        "Legst",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Wirtschaft des Landes legt in diesem Jahr spürbar zu.",
+      "translation": {
+        "ru": "Экономика страны ощутимо прибавляет в этом году.",
+        "en": "The country's economy is noticeably picking up this year."
+      },
+      "bracket_parts": [
+        "legt",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir legen bei den Verhandlungen ein paar Bedingungen zu.",
+      "translation": {
+        "ru": "Мы добавляем несколько условий в ходе переговоров.",
+        "en": "We add a few conditions during the negotiations."
+      },
+      "bracket_parts": [
+        "legen",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Legt ihr euch endlich einen modernen Computer zu?",
+      "translation": {
+        "ru": "Вы наконец приобретаете себе современный компьютер?",
+        "en": "Are you guys finally getting yourselves a modern computer?"
+      },
+      "bracket_parts": [
+        "Legt",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Läufer legte auf den letzten hundert Metern noch einmal mächtig zu.",
+      "translation": {
+        "ru": "Бегун мощно прибавил на последних ста метрах.",
+        "en": "The runner gained a lot of speed on the final hundred meters."
+      },
+      "bracket_parts": [
+        "legte",
+        "zu"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat sich vor kurzem einen treuen Hund zugelegt.",
+      "translation": {
+        "ru": "Он недавно завел себе преданную собаку.",
+        "en": "He recently got himself a loyal dog."
+      },
+      "bracket_parts": [
+        "hat",
+        "zugelegt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Leg einen Zahn zu, sonst verpassen wir den Zug!",
+      "translation": {
+        "ru": "Прибавь ходу, иначе мы опоздаем на поезд!",
+        "en": "Step on it, otherwise we'll miss the train!"
+      },
+      "bracket_parts": [
+        "Leg",
+        "zu"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

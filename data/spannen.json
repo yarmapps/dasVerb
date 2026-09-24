@@ -1,0 +1,143 @@
+{
+  "id": "spannen",
+  "infinitive": "spannen",
+  "translation": {
+    "ru": "натягивать, зажимать, вызывать напряжение/интерес",
+    "en": "to stretch, to tighten, to clamp, to intrigue"
+  },
+  "level": "B1",
+  "frequency_rank": 1026,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "spannt",
+    "preterite_third_singular": "spannte",
+    "past_participle": "gespannt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "spanne",
+      "du": "spannst",
+      "er_sie_es": "spannt",
+      "wir": "spannen",
+      "ihr": "spannt",
+      "sie_Sie": "spannen"
+    },
+    "preterite": {
+      "ich": "spannte",
+      "du": "spanntest",
+      "er_sie_es": "spannte",
+      "wir": "spannten",
+      "ihr": "spanntet",
+      "sie_Sie": "spannten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gespannt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich spanne eine Wäscheleine zwischen zwei Bäumen im Garten auf.",
+      "translation": {
+        "ru": "Я натягиваю бельевую веревку между двумя деревьями в саду.",
+        "en": "I stretch a clothesline between two trees in the garden."
+      },
+      "bracket_parts": [
+        "spanne"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Spannst du den Bogen vor dem Schuss mit voller Kraft?",
+      "translation": {
+        "ru": "Натягиваешь ли ты тетиву лука изо всех сил перед выстрелом?",
+        "en": "Do you draw the bow with all your strength before shooting?"
+      },
+      "bracket_parts": [
+        "Spannst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die enge Jacke spannt unangenehm an seinen Schultern.",
+      "translation": {
+        "ru": "Тесная куртка неприятно жмет (натягивается) в плечах.",
+        "en": "The tight jacket pulls uncomfortably tight across his shoulders."
+      },
+      "bracket_parts": [
+        "spannt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir spannen ein Sonnensegel über die sonnige Terrasse.",
+      "translation": {
+        "ru": "Мы натягиваем солнцезащитный тент над солнечной террасой.",
+        "en": "We stretch a sun sail over the sunny terrace."
+      },
+      "bracket_parts": [
+        "spannen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Spannt ihr die Leinwand fest auf den Holzrahmen auf?",
+      "translation": {
+        "ru": "Натягиваете ли вы холст туго на деревянную раму?",
+        "en": "Are you guys stretching the canvas tightly onto the wooden frame?"
+      },
+      "bracket_parts": [
+        "Spannt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Roman spannte den Leser von der ersten bis zur letzten Seite.",
+      "translation": {
+        "ru": "Роман держал читателя в напряжении от первой до последней страницы.",
+        "en": "The novel gripped the reader from the first to the last page."
+      },
+      "bracket_parts": [
+        "spannte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Handwerker hat das Werkstück fest in den Schraubstock gespannt.",
+      "translation": {
+        "ru": "Мастер крепко зажал деталь в тисках.",
+        "en": "The craftsman clamped the workpiece tightly in the vise."
+      },
+      "bracket_parts": [
+        "hat",
+        "gespannt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Spanne das Seil straff, damit das Zelt stabil steht!",
+      "translation": {
+        "ru": "Натяни веревку туго, чтобы палатка стояла устойчиво!",
+        "en": "Tighten the rope taut so that the tent stands stably!"
+      },
+      "bracket_parts": [
+        "Spanne"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

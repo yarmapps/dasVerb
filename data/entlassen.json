@@ -1,0 +1,148 @@
+{
+  "id": "entlassen",
+  "infinitive": "entlassen",
+  "translation": {
+    "ru": "увольнять, выписывать (из больницы), отпускать",
+    "en": "to dismiss, to lay off, to discharge, to release"
+  },
+  "level": "B1",
+  "frequency_rank": 577,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ent",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "entlassen",
+    "present_3sg": "entlässt",
+    "praeteritum_3sg": "entließ",
+    "partizip_2": "entlassen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entlasse",
+      "du": "entlässt",
+      "er_sie_es": "entlässt",
+      "wir": "entlassen",
+      "ihr": "entlasst",
+      "sie_Sie": "entlassen",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "entließ",
+      "du": "entließt",
+      "er_sie_es": "entließ",
+      "wir": "entließen",
+      "ihr": "entließt",
+      "sie_Sie": "entließen"
+    },
+    "perfekt": {
+      "ich": "habe entlassen",
+      "du": "hast entlassen",
+      "er_sie_es": "hat entlassen",
+      "wir": "haben entlassen",
+      "ihr": "habt entlassen",
+      "sie_Sie": "haben entlassen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "aus",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich entlasse den Mitarbeiter nur sehr ungern.",
+      "translation": {
+        "ru": "Я увольняю сотрудника только очень неохотно.",
+        "en": "I dismiss the employee only very reluctantly."
+      },
+      "bracket_parts": [
+        "entlasse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Entlässt du die Schüler heute etwas früher?",
+      "translation": {
+        "ru": "Ты отпустишь учеников сегодня немного раньше?",
+        "en": "Are you dismissing the students a bit earlier today?"
+      },
+      "bracket_parts": [
+        "Entlässt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Krankenhaus entlässt den gesunden Patienten heute.",
+      "translation": {
+        "ru": "Больница выписывает здорового пациента сегодня.",
+        "en": "The hospital discharges the healthy patient today."
+      },
+      "bracket_parts": [
+        "entlässt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir entlassen in der Krise keinen einzigen Mitarbeiter.",
+      "translation": {
+        "ru": "Мы в кризис не увольняем ни единого сотрудника.",
+        "en": "We do not lay off a single employee during the crisis."
+      },
+      "bracket_parts": [
+        "entlassen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr entlasst die Arbeiter vor dem kommenden Winter.",
+      "translation": {
+        "ru": "Вы увольняете рабочих перед грядущей зимой.",
+        "en": "You lay off the workers before the coming winter."
+      },
+      "bracket_parts": [
+        "entlasst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Betrieb entließ damals viele Fachkräfte.",
+      "translation": {
+        "ru": "Предприятие тогда уволило много специалистов.",
+        "en": "The company laid off many skilled workers back then."
+      },
+      "bracket_parts": [
+        "entließ"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Ärzte haben den Verletzten aus der Klinik entlassen.",
+      "translation": {
+        "ru": "Врачи выписали пострадавшего из клиники.",
+        "en": "The doctors have discharged the injured person from the clinic."
+      },
+      "bracket_parts": [
+        "haben",
+        "entlassen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Entlass die Schicht pünktlich in den Feierabend!",
+      "translation": {
+        "ru": "Отпусти смену вовремя на отдых!",
+        "en": "Dismiss the shift on time for the end of the workday!"
+      },
+      "bracket_parts": [
+        "Entlass"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

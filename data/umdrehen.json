@@ -1,0 +1,178 @@
+{
+  "id": "umdrehen",
+  "infinitive": "umdrehen",
+  "translation": {
+    "ru": "переворачивать, поворачивать",
+    "en": "to turn over, rotate"
+  },
+  "level": "A2",
+  "frequency_rank": 502,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "um",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "umdrehen",
+    "present_3sg": "dreht um",
+    "praeteritum_3sg": "drehte um",
+    "partizip_2": "umgedreht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "drehe um",
+      "du": "drehst um",
+      "er_sie_es": "dreht um",
+      "wir": "drehen um",
+      "ihr": "dreht um",
+      "sie_Sie": "drehen um"
+    },
+    "praeteritum": {
+      "ich": "drehte um",
+      "du": "drehtest um",
+      "er_sie_es": "drehte um",
+      "wir": "drehten um",
+      "ihr": "drehtet um",
+      "sie_Sie": "drehten um"
+    },
+    "perfekt": {
+      "ich": "habe umgedreht",
+      "du": "hast umgedreht",
+      "er_sie_es": "hat umgedreht",
+      "wir": "haben umgedreht",
+      "ihr": "habt umgedreht",
+      "sie_Sie": "haben umgedreht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich drehe das Fleisch in der heißen Pfanne rechtzeitig um.",
+      "translation": {
+        "ru": "Я вовремя переворачиваю мясо на горячей сковороде.",
+        "en": "I turn the meat over in the hot pan in good time."
+      },
+      "bracket_parts": [
+        "drehe",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "das Fleisch"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du drehst die Spielkarte vor allen Mitspielern um.",
+      "translation": {
+        "ru": "Ты переворачиваешь игровую карту перед всеми игроками.",
+        "en": "You turn over the playing card in front of all players."
+      },
+      "bracket_parts": [
+        "drehst",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "die Spielkarte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Koch dreht den knusprigen Pfannkuchen geschickt um.",
+      "translation": {
+        "ru": "Повар ловко переворачивает хрустящий блин.",
+        "en": "The cook skillfully flips the crispy pancake."
+      },
+      "bracket_parts": [
+        "dreht",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "den knusprigen Pfannkuchen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir drehen das Blatt Papier für weitere Notizen um.",
+      "translation": {
+        "ru": "Мы переворачиваем лист бумаги для дальнейших заметок.",
+        "en": "We turn the sheet of paper over for further notes."
+      },
+      "bracket_parts": [
+        "drehen",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "das Blatt Papier"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr dreht jeden Stein bei der Suche im Garten um.",
+      "translation": {
+        "ru": "Вы переворачиваете каждый камень при поиске в саду.",
+        "en": "You turn over every stone during the search in the garden."
+      },
+      "bracket_parts": [
+        "dreht",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "jeden Stein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie drehten damals die schweren Kisten zur Kontrolle um.",
+      "translation": {
+        "ru": "Они тогда перевернули тяжелые ящики для проверки.",
+        "en": "They turned over the heavy boxes for inspection back then."
+      },
+      "bracket_parts": [
+        "drehten",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "die schweren Kisten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Lehrer hat das Blatt auf dem Schreibtisch umgedreht.",
+      "translation": {
+        "ru": "Учитель перевернул лист на письменном столе.",
+        "en": "The teacher turned the sheet over on the desk."
+      },
+      "bracket_parts": [
+        "hat",
+        "umgedreht"
+      ],
+      "akkusativ_parts": [
+        "das Blatt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Dreh die Sanduhr für die nächste Runde um!",
+      "translation": {
+        "ru": "Переверни песочные часы для следующего раунда!",
+        "en": "Turn over the hourglass for the next round!"
+      },
+      "bracket_parts": [
+        "Dreh",
+        "um"
+      ],
+      "akkusativ_parts": [
+        "die Sanduhr"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

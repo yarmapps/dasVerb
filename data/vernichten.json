@@ -1,0 +1,138 @@
+{
+  "id": "vernichten",
+  "infinitive": "vernichten",
+  "translation": {
+    "ru": "уничтожать, истреблять",
+    "en": "to destroy, to annihilate, to ruin"
+  },
+  "level": "B2",
+  "frequency_rank": 796,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "vernichtet",
+    "preterite_third_singular": "vernichtete",
+    "past_participle": "vernichtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vernichte",
+      "du": "vernichtest",
+      "er_sie_es": "vernichtet",
+      "wir": "vernichten",
+      "ihr": "vernichtet",
+      "sie_Sie": "vernichten"
+    },
+    "preterite": {
+      "ich": "vernichtete",
+      "du": "vernichtetest",
+      "er_sie_es": "vernichtete",
+      "wir": "vernichteten",
+      "ihr": "vernichtetet",
+      "sie_Sie": "vernichteten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "vernichtet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich vernichte vertrauliche Dokumente mit dem Aktenvernichter.",
+      "translation": {
+        "ru": "Я уничтожаю конфиденциальные документы шредером.",
+        "en": "I destroy confidential documents with the shredder."
+      },
+      "bracket_parts": [
+        "vernichte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vernichtest du alle alten Unterlagen nach zehn Jahren?",
+      "translation": {
+        "ru": "Ты уничтожаешь все старые документы спустя десять лет?",
+        "en": "Do you destroy all old documents after ten years?"
+      },
+      "bracket_parts": [
+        "Vernichtest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das verheerende Feuer vernichtet den ganzen Wald.",
+      "translation": {
+        "ru": "Опустошительный пожар уничтожает весь лес.",
+        "en": "The devastating fire destroys the whole forest."
+      },
+      "bracket_parts": [
+        "vernichtet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir vernichten schädliche Insekten im Garten biologisch.",
+      "translation": {
+        "ru": "Мы уничтожаем вредных насекомых в саду биологическим способом.",
+        "en": "We destroy harmful insects in the garden biologically."
+      },
+      "bracket_parts": [
+        "vernichten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vernichtet ihr die verfallenen Lebensmittel sofort?",
+      "translation": {
+        "ru": "Вы сразу уничтожаете испорченные продукты питания?",
+        "en": "Do you destroy the spoiled food immediately?"
+      },
+      "bracket_parts": [
+        "Vernichtet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der schwere Frost vernichtete die gesamte Obsternte.",
+      "translation": {
+        "ru": "Сильный мороз уничтожил весь урожай фруктов.",
+        "en": "The severe frost destroyed the entire fruit crop."
+      },
+      "bracket_parts": [
+        "vernichtete"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Eine Bombenexplosion hat das historische Gebäude völlig vernichtet.",
+      "translation": {
+        "ru": "Взрыв бомбы полностью разрушил историческое здание.",
+        "en": "A bomb explosion completely destroyed the historic building."
+      },
+      "bracket_parts": [
+        "hat",
+        "vernichtet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Vernichte sensible Daten stets vorschriftsmäßig!",
+      "translation": {
+        "ru": "Всегда уничтожай конфиденциальные данные по правилам!",
+        "en": "Always destroy sensitive data properly!"
+      },
+      "bracket_parts": [
+        "Vernichte"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

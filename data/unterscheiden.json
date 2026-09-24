@@ -1,0 +1,147 @@
+{
+  "id": "unterscheiden",
+  "infinitive": "unterscheiden",
+  "translation": {
+    "ru": "различать, отличать",
+    "en": "to distinguish, to differentiate"
+  },
+  "level": "B1",
+  "frequency_rank": 157,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "unter",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "unterscheiden",
+    "present_3sg": "unterscheidet",
+    "praeteritum_3sg": "unterschied",
+    "partizip_2": "unterschieden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "unterscheide",
+      "du": "unterscheidest",
+      "er_sie_es": "unterscheidet",
+      "wir": "unterscheiden",
+      "ihr": "unterscheidet",
+      "sie_Sie": "unterscheiden"
+    },
+    "praeteritum": {
+      "ich": "unterschied",
+      "du": "unterschiedest",
+      "er_sie_es": "unterschied",
+      "wir": "unterschieden",
+      "ihr": "unterschiedet",
+      "sie_Sie": "unterschieden"
+    },
+    "perfekt": {
+      "ich": "habe unterschieden",
+      "du": "hast unterschieden",
+      "er_sie_es": "hat unterschieden",
+      "wir": "haben unterschieden",
+      "ihr": "habt unterschieden",
+      "sie_Sie": "haben unterschieden"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich unterscheide die beiden Farben kaum.",
+      "translation": {
+        "ru": "Я едва различаю эти два цвета.",
+        "en": "I can hardly distinguish the two colors."
+      },
+      "bracket_parts": [
+        "unterscheide"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du unterscheidest die Zwillinge sofort.",
+      "translation": {
+        "ru": "Ты сразу отличаешь близнецов.",
+        "en": "You distinguish the twins immediately."
+      },
+      "bracket_parts": [
+        "unterscheidest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Experte unterscheidet echte Münzen von Fälschungen.",
+      "translation": {
+        "ru": "Эксперт отличает настоящие монеты от подделок.",
+        "en": "The expert distinguishes real coins from fakes."
+      },
+      "bracket_parts": [
+        "unterscheidet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir unterscheiden verschiedene Arten von Holz.",
+      "translation": {
+        "ru": "Мы различаем разные виды древесины.",
+        "en": "We distinguish different types of wood."
+      },
+      "bracket_parts": [
+        "unterscheiden"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr unterscheidet die Modelle am Preis.",
+      "translation": {
+        "ru": "Вы различаете модели по цене.",
+        "en": "You distinguish the models by price."
+      },
+      "bracket_parts": [
+        "unterscheidet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie unterschieden die Fälle damals sehr genau.",
+      "translation": {
+        "ru": "Они тогда очень точно разграничивали эти случаи.",
+        "en": "They distinguished the cases very precisely back then."
+      },
+      "bracket_parts": [
+        "unterschieden"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Er hat die Handschriften nicht unterschieden.",
+      "translation": {
+        "ru": "Он не различил почерки.",
+        "en": "He did not distinguish the handwritings."
+      },
+      "bracket_parts": [
+        "hat",
+        "unterschieden"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Unterscheide bitte das Wichtige vom Unwichtigen!",
+      "translation": {
+        "ru": "Отделяй, пожалуйста, важное от неважного!",
+        "en": "Please distinguish the important from the unimportant!"
+      },
+      "bracket_parts": [
+        "Unterscheide"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

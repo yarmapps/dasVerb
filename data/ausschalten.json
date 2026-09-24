@@ -1,0 +1,145 @@
+{
+  "id": "ausschalten",
+  "infinitive": "ausschalten",
+  "translation": {
+    "ru": "выключать (прибор, свет), устранять",
+    "en": "to switch off, to turn off, to eliminate"
+  },
+  "level": "A2",
+  "frequency_rank": 826,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "schaltet aus",
+    "preterite_third_singular": "schaltete aus",
+    "past_participle": "ausgeschaltet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schalte aus",
+      "du": "schaltest aus",
+      "er_sie_es": "schaltet aus",
+      "wir": "schalten aus",
+      "ihr": "schaltet aus",
+      "sie_Sie": "schalten aus"
+    },
+    "preterite": {
+      "ich": "schaltete aus",
+      "du": "schaltetest aus",
+      "er_sie_es": "schaltete aus",
+      "wir": "schalteten aus",
+      "ihr": "schaltetet aus",
+      "sie_Sie": "schalteten aus"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "ausgeschaltet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich schalte den Computer nach Feierabend aus.",
+      "translation": {
+        "ru": "Я выключаю компьютер после окончания рабочего дня.",
+        "en": "I switch off the computer after work."
+      },
+      "bracket_parts": [
+        "schalte",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schaltest du das Licht im Flur bitte aus?",
+      "translation": {
+        "ru": "Выключишь свет в коридоре, пожалуйста?",
+        "en": "Will you please turn off the light in the hallway?"
+      },
+      "bracket_parts": [
+        "Schaltest",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schüler schaltet sein Handy im Unterricht aus.",
+      "translation": {
+        "ru": "Ученик выключает свой телефон на уроке.",
+        "en": "The student turns off his mobile phone in class."
+      },
+      "bracket_parts": [
+        "schaltet",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schalten alle elektrischen Geräte vor der Abreise aus.",
+      "translation": {
+        "ru": "Мы выключаем все электроприборы перед отъездом.",
+        "en": "We switch off all electrical appliances before departure."
+      },
+      "bracket_parts": [
+        "schalten",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schaltet ihr den Fernseher vor dem Schlafengehen aus?",
+      "translation": {
+        "ru": "Вы выключаете телевизор перед сном?",
+        "en": "Do you turn off the television before going to sleep?"
+      },
+      "bracket_parts": [
+        "Schaltet",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er schaltete das Radio wegen der Kopfschmerzen aus.",
+      "translation": {
+        "ru": "Он выключил радио из-за головной боли.",
+        "en": "He turned off the radio because of a headache."
+      },
+      "bracket_parts": [
+        "schaltete",
+        "aus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben den lauten Wecker sofort ausgeschaltet.",
+      "translation": {
+        "ru": "Они сразу выключили громкий будильник.",
+        "en": "They switched off the loud alarm clock immediately."
+      },
+      "bracket_parts": [
+        "haben",
+        "ausgeschaltet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schalte den Herd aus, wenn du die Küche verlässt!",
+      "translation": {
+        "ru": "Выключи плиту, когда уходишь из кухни!",
+        "en": "Turn off the stove when you leave the kitchen!"
+      },
+      "bracket_parts": [
+        "Schalte",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "verdanken",
+  "infinitive": "verdanken",
+  "translation": {
+    "ru": "быть обязанным кому-л. чем-л., благодарить за",
+    "en": "to owe sth to sb, to have sb to thank for sth"
+  },
+  "level": "B2",
+  "frequency_rank": 846,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verdankt",
+    "preterite_third_singular": "verdankte",
+    "past_participle": "verdankt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verdanke",
+      "du": "verdankst",
+      "er_sie_es": "verdankt",
+      "wir": "verdanken",
+      "ihr": "verdankt",
+      "sie_Sie": "verdanken"
+    },
+    "preterite": {
+      "ich": "verdankte",
+      "du": "verdanktest",
+      "er_sie_es": "verdankte",
+      "wir": "verdankten",
+      "ihr": "verdanktet",
+      "sie_Sie": "verdankten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verdankt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich verdanke meinen beruflichen Erfolg meinen fleißigen Eltern.",
+      "translation": {
+        "ru": "Я обязан своим профессиональным успехом трудолюбивым родителям.",
+        "en": "I owe my professional success to my hardworking parents."
+      },
+      "bracket_parts": [
+        "verdanke"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wem verdankst du diese wunderbare Gelegenheit?",
+      "translation": {
+        "ru": "Кому ты обязан этой чудесной возможностью?",
+        "en": "To whom do you owe this wonderful opportunity?"
+      },
+      "bracket_parts": [
+        "verdankst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Patient verdankt sein Überleben der schnellen Hilfe des Notarztes.",
+      "translation": {
+        "ru": "Пациент обязан своим спасением быстрой помощи врача скорой помощи.",
+        "en": "The patient owes his survival to the quick help of the emergency doctor."
+      },
+      "bracket_parts": [
+        "verdankt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verdanken unseren Sieg einem starken Teamgeist.",
+      "translation": {
+        "ru": "Мы обязаны нашей победой сильному командному духу.",
+        "en": "We owe our victory to strong team spirit."
+      },
+      "bracket_parts": [
+        "verdanken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verdankt ihr die guten Noten eurem täglichen Lernen?",
+      "translation": {
+        "ru": "Вы обязаны хорошими оценками вашей ежедневной учебе?",
+        "en": "Do you owe the good grades to your daily studying?"
+      },
+      "bracket_parts": [
+        "Verdankt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er verdankte seine Rettung einem mutigen Feuerwehrmann.",
+      "translation": {
+        "ru": "Он был обязан своим спасением храброму пожарному.",
+        "en": "He owed his rescue to a brave firefighter."
+      },
+      "bracket_parts": [
+        "verdankte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben dieser Stiftung sehr viel Unterstützung verdankt.",
+      "translation": {
+        "ru": "Они были обязаны этому фонду огромной поддержкой.",
+        "en": "They owed a great deal of support to this foundation."
+      },
+      "bracket_parts": [
+        "haben",
+        "verdankt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Vergiss nie, wem du deine Bildung verdankst!",
+      "translation": {
+        "ru": "Никогда не забывай, кому ты обязан своим образованием!",
+        "en": "Never forget to whom you owe your education!"
+      },
+      "bracket_parts": [
+        "verdankst"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

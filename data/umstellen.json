@@ -1,0 +1,149 @@
+{
+  "id": "umstellen",
+  "infinitive": "umstellen",
+  "translation": {
+    "ru": "переставлять (мебель), перестраивать/адаптировать (систему), окружать (полицией)",
+    "en": "to rearrange, to adjust/switch, to surround"
+  },
+  "level": "B2",
+  "frequency_rank": 1029,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "stellt um",
+    "preterite_third_singular": "stellte um",
+    "past_participle": "umgestellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stelle um",
+      "du": "stellst um",
+      "er_sie_es": "stellt um",
+      "wir": "stellen um",
+      "ihr": "stellt um",
+      "sie_Sie": "stellen um"
+    },
+    "preterite": {
+      "ich": "stellte um",
+      "du": "stelltest um",
+      "er_sie_es": "stellte um",
+      "wir": "stellten um",
+      "ihr": "stelltet um",
+      "sie_Sie": "stellten um"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "umgestellt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich stelle meine Ernährung im Frühling konsequent auf pflanzliche Kost um.",
+      "translation": {
+        "ru": "Весной я последовательно перестраиваю свое питание на растительную пищу.",
+        "en": "In spring, I consistently switch my diet to plant-based food."
+      },
+      "bracket_parts": [
+        "stelle",
+        "um"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stellst du die Möbel im Wohnzimmer am Wochenende komplett um?",
+      "translation": {
+        "ru": "Ты полностью переставляешь мебель в гостиной на выходных?",
+        "en": "Are you completely rearranging the furniture in the living room this weekend?"
+      },
+      "bracket_parts": [
+        "Stellst",
+        "um"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Unternehmen stellt seine Produktion auf umweltfreundliche Solarenergie um.",
+      "translation": {
+        "ru": "Компания переводит свое производство на экологичную солнечную энергию.",
+        "en": "The company switches its production to environmentally friendly solar energy."
+      },
+      "bracket_parts": [
+        "stellt",
+        "um"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir stellen die Uhren in der Nacht auf die Sommerzeit um.",
+      "translation": {
+        "ru": "Ночью мы переводим часы на летнее время.",
+        "en": "We switch the clocks to daylight saving time during the night."
+      },
+      "bracket_parts": [
+        "stellen",
+        "um"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stellt ihr eure Arbeitszeiten auf flexible Modelle um?",
+      "translation": {
+        "ru": "Переводите ли вы рабочее время на гибкие модели?",
+        "en": "Are you guys switching your working hours to flexible models?"
+      },
+      "bracket_parts": [
+        "Stellt",
+        "um"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei umstellte das verdächtige Gebäude in wenigen Minuten.",
+      "translation": {
+        "ru": "Полиция окружила подозрительное здание за несколько минут.",
+        "en": "The police surrounded the suspicious building within a few minutes."
+      },
+      "bracket_parts": [
+        "umstellte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Schule hat den gesamten Unterricht auf digitale Medien umgestellt.",
+      "translation": {
+        "ru": "Школа перевела все обучение на цифровые носители.",
+        "en": "The school has switched all instruction to digital media."
+      },
+      "bracket_parts": [
+        "hat",
+        "umgestellt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Stelle bitte die Heizung vor dem Verlassen der Wohnung um!",
+      "translation": {
+        "ru": "Переключи, пожалуйста, отопление перед выходом из квартиры!",
+        "en": "Please switch the heating before leaving the apartment!"
+      },
+      "bracket_parts": [
+        "Stelle",
+        "um"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

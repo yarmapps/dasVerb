@@ -10,6 +10,7 @@ export interface PracticeCheckpointCardProps {
   subtitle?: string;
   status: VerbProgressStatus;
   isFinal?: boolean;
+  isLocked?: boolean;
   onPress: () => void;
   testID?: string;
 }
@@ -19,6 +20,7 @@ function PracticeCheckpointCardComponent({
   subtitle,
   status,
   isFinal = false,
+  isLocked = false,
   onPress,
   testID,
 }: PracticeCheckpointCardProps): React.JSX.Element {
@@ -26,6 +28,14 @@ function PracticeCheckpointCardComponent({
   const styles = useMemo(() => createStyles(colors), [colors]);
 
   const renderBadge = () => {
+    if (isLocked) {
+      return (
+        <View style={[styles.badge, styles.badgeIntermediary]}>
+          <FontAwesome5 name="lock" size={16} color={colors.textMuted} />
+        </View>
+      );
+    }
+
     switch (status) {
       case 'trophy':
         return (

@@ -1,0 +1,137 @@
+{
+  "id": "wehen",
+  "infinitive": "wehen",
+  "translation": {
+    "ru": "дуть, веять, развеваться",
+    "en": "to blow (wind), to flutter"
+  },
+  "level": "B1",
+  "frequency_rank": 997,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "weht",
+    "preterite_third_singular": "wehte",
+    "past_participle": "geweht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wehe",
+      "du": "wehst",
+      "er_sie_es": "weht",
+      "wir": "wehen",
+      "ihr": "weht",
+      "sie_Sie": "wehen"
+    },
+    "preterite": {
+      "ich": "wehte",
+      "du": "wehtest",
+      "er_sie_es": "wehte",
+      "wir": "wehten",
+      "ihr": "wehtet",
+      "sie_Sie": "wehten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geweht"
+    }
+  },
+  "rektion": {
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich spüre, wie der frische Seewind mir sanft ins Gesicht weht.",
+      "translation": {
+        "ru": "Я чувствую, как свежий морской бриз нежно веет мне в лицо.",
+        "en": "I feel the fresh sea breeze blowing gently in my face."
+      },
+      "bracket_parts": [
+        "weht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wehst du auch gerne bei kräftigem Wind mit dem Segelboot übers Meer?",
+      "translation": {
+        "ru": "Нравится ли тебе рассекать на паруснике по морю при сильном ветре?",
+        "en": "Do you also like cruising across the sea by sailboat in strong winds?"
+      },
+      "bracket_parts": [
+        "Wehst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein kalter Herbstwind weht durch die leeren Straßen der Stadt.",
+      "translation": {
+        "ru": "Холодный осенний ветер дует по пустым улицам города.",
+        "en": "A cold autumn wind blows through the empty streets of the city."
+      },
+      "bracket_parts": [
+        "weht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beobachten, wie die bunten Flaggen feierlich am Mast wehen.",
+      "translation": {
+        "ru": "Мы наблюдаем, как яркие флаги торжественно развеваются на мачте.",
+        "en": "We watch the colorful flags fluttering festively on the mast."
+      },
+      "bracket_parts": [
+        "wehen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Fühlt ihr, wie der warme Frühlingswind über die Felder weht?",
+      "translation": {
+        "ru": "Чувствуете ли вы, как теплый весенний ветер веет над полями?",
+        "en": "Do you guys feel the warm spring wind blowing over the fields?"
+      },
+      "bracket_parts": [
+        "weht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Sturm wehte gestern mit enormer Wucht über die Küste.",
+      "translation": {
+        "ru": "Шторм вчера дул с огромной силой над побережьем.",
+        "en": "The storm blew with tremendous force over the coast yesterday."
+      },
+      "bracket_parts": [
+        "wehte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "In der Nacht hat ein eisiger Nordwind ununterbrochen geweht.",
+      "translation": {
+        "ru": "Ночью непрерывно дул ледяной северный ветер.",
+        "en": "An icy north wind blew continuously during the night."
+      },
+      "bracket_parts": [
+        "hat",
+        "geweht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Wehe, sanfte Brise, und bringe uns willkommene Abkühlung!",
+      "translation": {
+        "ru": "Вей, нежный бриз, и принеси нам желанную прохладу!",
+        "en": "Blow, gentle breeze, and bring us welcome cooling!"
+      },
+      "bracket_parts": [
+        "Wehe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

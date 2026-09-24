@@ -1,0 +1,150 @@
+{
+  "id": "zusagen",
+  "infinitive": "zusagen",
+  "translation": {
+    "ru": "соглашаться, давать согласие, нравиться/приходиться по душе",
+    "en": "to accept (an invitation), to agree, to appeal to"
+  },
+  "level": "B1",
+  "frequency_rank": 935,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "sagt zu",
+    "preterite_third_singular": "sagte zu",
+    "past_participle": "zugesagt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "sage zu",
+      "du": "sagst zu",
+      "er_sie_es": "sagt zu",
+      "wir": "sagen zu",
+      "ihr": "sagt zu",
+      "sie_Sie": "sagen zu"
+    },
+    "preterite": {
+      "ich": "sagte zu",
+      "du": "sagtest zu",
+      "er_sie_es": "sagte zu",
+      "wir": "sagten zu",
+      "ihr": "sagtet zu",
+      "sie_Sie": "sagten zu"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "zugesagt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "zu",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich sage der Einladung zu deiner Geburtstagsfeier gerne zu.",
+      "translation": {
+        "ru": "Я с удовольствием принимаю приглашение на твой день рождения.",
+        "en": "I gladly accept the invitation to your birthday party."
+      },
+      "bracket_parts": [
+        "sage",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sagst du dem potenziellen Arbeitgeber für die neue Stelle zu?",
+      "translation": {
+        "ru": "Ты соглашаешься на новую должность у потенциального работодателя?",
+        "en": "Are you accepting the new job from the prospective employer?"
+      },
+      "bracket_parts": [
+        "Sagst",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sein neuester Vorschlag sagt mir persönlich sehr zu.",
+      "translation": {
+        "ru": "Его последнее предложение мне лично очень нравится.",
+        "en": "His latest suggestion appeals to me personally very much."
+      },
+      "bracket_parts": [
+        "sagt",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir sagen der Teilnahme an der internationalen Konferenz zu.",
+      "translation": {
+        "ru": "Мы подтверждаем наше участие в международной конференции.",
+        "en": "We confirm our participation in the international conference."
+      },
+      "bracket_parts": [
+        "sagen",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sagt ihr euren Freunden heute noch rechtzeitig zu?",
+      "translation": {
+        "ru": "Вы сегодня вовремя подтвердите встречу друзьям?",
+        "en": "Will you guys still accept your friends' invitation in good time today?"
+      },
+      "bracket_parts": [
+        "Sagt",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Minister sagte seine persönliche Unterstützung für das Projekt zu.",
+      "translation": {
+        "ru": "Министр пообещал свою личную поддержку проекту.",
+        "en": "The minister promised his personal support for the project."
+      },
+      "bracket_parts": [
+        "sagte",
+        "zu"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Alle geladenen Gäste haben bereits fest für die Hochzeit zugesagt.",
+      "translation": {
+        "ru": "Все приглашенные гости уже твердо подтвердили участие в свадьбе.",
+        "en": "All invited guests have already firmly accepted for the wedding."
+      },
+      "bracket_parts": [
+        "haben",
+        "zugesagt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Sage bitte dem Veranstalter so schnell wie möglich zu!",
+      "translation": {
+        "ru": "Дай, пожалуйста, согласие организатору как можно быстрее!",
+        "en": "Please confirm with the organizer as soon as possible!"
+      },
+      "bracket_parts": [
+        "Sage",
+        "zu"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

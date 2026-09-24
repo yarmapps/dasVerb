@@ -1,0 +1,147 @@
+{
+  "id": "bewerten",
+  "infinitive": "bewerten",
+  "translation": {
+    "ru": "оценивать, рецензировать",
+    "en": "to evaluate, to rate, to assess"
+  },
+  "level": "B1",
+  "frequency_rank": 655,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bewerten",
+    "present_3sg": "bewertet",
+    "praeteritum_3sg": "bewertete",
+    "partizip_2": "bewertet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bewerte",
+      "du": "bewertest",
+      "er_sie_es": "bewertet",
+      "wir": "bewerten",
+      "ihr": "bewertet",
+      "sie_Sie": "bewerten"
+    },
+    "praeteritum": {
+      "ich": "bewertete",
+      "du": "bewertetest",
+      "er_sie_es": "bewertete",
+      "wir": "bewerteten",
+      "ihr": "bewertetet",
+      "sie_Sie": "bewerteten"
+    },
+    "perfekt": {
+      "ich": "habe bewertet",
+      "du": "hast bewertet",
+      "er_sie_es": "hat bewertet",
+      "wir": "haben bewertet",
+      "ihr": "habt bewertet",
+      "sie_Sie": "haben bewertet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich bewerte das Produkt im Online-Shop mit fünf Sternen.",
+      "translation": {
+        "ru": "Я оцениваю товар в интернет-магазине на пять звезд.",
+        "en": "I rate the product in the online shop with five stars."
+      },
+      "bracket_parts": [
+        "bewerte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bewertest du die Klausuren der Studenten heute noch?",
+      "translation": {
+        "ru": "Ты оценишь контрольные работы студентов еще сегодня?",
+        "en": "Are you grading the students' exams today?"
+      },
+      "bracket_parts": [
+        "Bewertest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Gutachter bewertet den Wert der Immobilie.",
+      "translation": {
+        "ru": "Эксперт оценивает стоимость недвижимости.",
+        "en": "The appraiser assesses the value of the property."
+      },
+      "bracket_parts": [
+        "bewertet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bewerten die Risiken des neuen Vorhabens sehr sorgfältig.",
+      "translation": {
+        "ru": "Мы очень тщательно оцениваем риски нового проекта.",
+        "en": "We assess the risks of the new venture very carefully."
+      },
+      "bracket_parts": [
+        "bewerten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr bewertet die Leistung der Kandidaten fair.",
+      "translation": {
+        "ru": "Вы справедливо оцениваете выступление кандидатов.",
+        "en": "You evaluate the candidates' performance fairly."
+      },
+      "bracket_parts": [
+        "bewertet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Jury bewertete den Vortrag damals als herausragend.",
+      "translation": {
+        "ru": "Жюри тогда оценило доклад как выдающийся.",
+        "en": "The jury evaluated the presentation as outstanding back then."
+      },
+      "bracket_parts": [
+        "bewertete"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Kunden haben den Service überwiegend positiv bewertet.",
+      "translation": {
+        "ru": "Клиенты оценили сервис преимущественно положительно.",
+        "en": "Customers have rated the service overwhelmingly positively."
+      },
+      "bracket_parts": [
+        "haben",
+        "bewertet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bewerte die Situation objektiv und ohne Vorurteile!",
+      "translation": {
+        "ru": "Оцени ситуацию объективно и без предрассудков!",
+        "en": "Evaluate the situation objectively and without prejudice!"
+      },
+      "bracket_parts": [
+        "Bewerte"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

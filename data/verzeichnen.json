@@ -1,0 +1,138 @@
+{
+  "id": "verzeichnen",
+  "infinitive": "verzeichnen",
+  "translation": {
+    "ru": "регистрировать, отмечать (успех, рост), заносить в список",
+    "en": "to record, to note, to register (growth)"
+  },
+  "level": "B2",
+  "frequency_rank": 820,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verzeichnet",
+    "preterite_third_singular": "verzeichnete",
+    "past_participle": "verzeichnet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verzeichne",
+      "du": "verzeichnest",
+      "er_sie_es": "verzeichnet",
+      "wir": "verzeichnen",
+      "ihr": "verzeichnet",
+      "sie_Sie": "verzeichnen"
+    },
+    "preterite": {
+      "ich": "verzeichnete",
+      "du": "verzeichnetest",
+      "er_sie_es": "verzeichnete",
+      "wir": "verzeichneten",
+      "ihr": "verzeichnetet",
+      "sie_Sie": "verzeichneten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verzeichnet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich verzeichne alle neuen Bücher im elektronischen Katalog.",
+      "translation": {
+        "ru": "Я заношу все новые книги в электронный каталог.",
+        "en": "I record all new books in the electronic catalog."
+      },
+      "bracket_parts": [
+        "verzeichne"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verzeichnest du die Spenden in der Vereinskasse?",
+      "translation": {
+        "ru": "Ты фиксируешь пожертвования в кассе клуба?",
+        "en": "Do you record the donations in the club's accounts?"
+      },
+      "bracket_parts": [
+        "Verzeichnest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Firma verzeichnet in diesem Monat ein starkes Umsatzplus.",
+      "translation": {
+        "ru": "Компания отмечает в этом месяце сильный рост выручки.",
+        "en": "The company records a strong increase in turnover this month."
+      },
+      "bracket_parts": [
+        "verzeichnet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verzeichnen eine wachsende Nachfrage nach unseren Produkten.",
+      "translation": {
+        "ru": "Мы отмечаем растущий спрос на наши товары.",
+        "en": "We register a growing demand for our products."
+      },
+      "bracket_parts": [
+        "verzeichnen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verzeichnet ihr auch positive Reaktionen auf die Werbung?",
+      "translation": {
+        "ru": "Вы тоже отмечаете положительные отзывы на рекламу?",
+        "en": "Are you also registering positive reactions to the advertisement?"
+      },
+      "bracket_parts": [
+        "Verzeichnet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Krankenhaus verzeichnete im Winter viele Grippefälle.",
+      "translation": {
+        "ru": "Больница зафиксировала зимой много случаев гриппа.",
+        "en": "The hospital recorded many cases of flu in winter."
+      },
+      "bracket_parts": [
+        "verzeichnete"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Tourismus hat in diesem Sommer Rekordzahlen verzeichnet.",
+      "translation": {
+        "ru": "Туризм зафиксировал этим летом рекордные показатели.",
+        "en": "Tourism recorded record numbers this summer."
+      },
+      "bracket_parts": [
+        "hat",
+        "verzeichnet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verzeichne jeden einzelnen Vorgang sorgfältig im Buch!",
+      "translation": {
+        "ru": "Тщательно фиксируй каждую отдельную операцию в книге!",
+        "en": "Record every single transaction carefully in the book!"
+      },
+      "bracket_parts": [
+        "Verzeichne"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

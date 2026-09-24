@@ -1,0 +1,143 @@
+{
+  "id": "vertiefen",
+  "infinitive": "vertiefen",
+  "translation": {
+    "ru": "углублять (знания/русло), погружаться (в чтение)",
+    "en": "to deepen, to immerse oneself in"
+  },
+  "level": "B2",
+  "frequency_rank": 1031,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "vertieft",
+    "preterite_third_singular": "vertiefte",
+    "past_participle": "vertieft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vertiefe",
+      "du": "vertiefst",
+      "er_sie_es": "vertieft",
+      "wir": "vertiefen",
+      "ihr": "vertieft",
+      "sie_Sie": "vertiefen"
+    },
+    "preterite": {
+      "ich": "vertiefte",
+      "du": "vertieftest",
+      "er_sie_es": "vertiefte",
+      "wir": "vertieften",
+      "ihr": "vertieftet",
+      "sie_Sie": "vertieften"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "vertieft"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich vertiefe meine Deutschkenntnisse durch tägliches Lesen von Fachbüchern.",
+      "translation": {
+        "ru": "Я углубляю знания немецкого языка ежедневным чтением специальной литературы.",
+        "en": "I deepen my knowledge of German through daily reading of specialized books."
+      },
+      "bracket_parts": [
+        "vertiefe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vertiefst du dich am Wochenende gerne in ein spannendes Buch?",
+      "translation": {
+        "ru": "Любишь ли ты на выходных погружаться в увлекательную книгу?",
+        "en": "Do you like to immerse yourself in an exciting book at the weekend?"
+      },
+      "bracket_parts": [
+        "Vertiefst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Bundesregierung vertieft die diplomatischen Beziehungen zum Nachbarland.",
+      "translation": {
+        "ru": "Федеральное правительство углубляет дипломатические отношения с соседней страной.",
+        "en": "The federal government is deepening diplomatic relations with the neighboring country."
+      },
+      "bracket_parts": [
+        "vertieft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir vertiefen unser Verständnis für komplexe wirtschaftliche Zusammenhänge.",
+      "translation": {
+        "ru": "Мы углубляем наше понимание сложных экономических взаимосвязей.",
+        "en": "We deepen our understanding of complex economic connections."
+      },
+      "bracket_parts": [
+        "vertiefen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vertieft ihr eure Fachkenntnisse im anstehenden Masterstudium?",
+      "translation": {
+        "ru": "Углубляете ли вы свои профессиональные знания в предстоящей магистратуре?",
+        "en": "Are you guys deepening your professional knowledge in the upcoming master's degree?"
+      },
+      "bracket_parts": [
+        "Vertieft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Bagger vertieften das Flussbett für größere Containerschiffe.",
+      "translation": {
+        "ru": "Экскаваторы углубляли русло реки для более крупных контейнеровозов.",
+        "en": "The dredgers deepened the riverbed for larger container ships."
+      },
+      "bracket_parts": [
+        "vertieften"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie hat sich stundenlang in die Lösung der mathematischen Aufgabe vertieft.",
+      "translation": {
+        "ru": "Она часами погружалась в решение математической задачи.",
+        "en": "She immersed herself for hours in solving the math problem."
+      },
+      "bracket_parts": [
+        "hat",
+        "vertieft"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Vertiefe dein Wissen stetig und bleibe immer neugierig!",
+      "translation": {
+        "ru": "Постоянно углубляй свои знания и всегда оставайся любознательным!",
+        "en": "Deepen your knowledge steadily and always remain curious!"
+      },
+      "bracket_parts": [
+        "Vertiefe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

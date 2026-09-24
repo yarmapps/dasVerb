@@ -1,0 +1,178 @@
+{
+  "id": "aufheben",
+  "infinitive": "aufheben",
+  "translation": {
+    "ru": "поднимать (с пола), сохранять, отменять (закон)",
+    "en": "to pick up, keep, cancel"
+  },
+  "level": "A2",
+  "frequency_rank": 530,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufheben",
+    "present_3sg": "hebt auf",
+    "praeteritum_3sg": "hob auf",
+    "partizip_2": "aufgehoben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "hebe auf",
+      "du": "hebst auf",
+      "er_sie_es": "hebt auf",
+      "wir": "heben auf",
+      "ihr": "hebt auf",
+      "sie_Sie": "heben auf"
+    },
+    "praeteritum": {
+      "ich": "hob auf",
+      "du": "hobst auf",
+      "er_sie_es": "hob auf",
+      "wir": "hoben auf",
+      "ihr": "hobt auf",
+      "sie_Sie": "hoben auf"
+    },
+    "perfekt": {
+      "ich": "habe aufgehoben",
+      "du": "hast aufgehoben",
+      "er_sie_es": "hat aufgehoben",
+      "wir": "haben aufgehoben",
+      "ihr": "habt aufgehoben",
+      "sie_Sie": "haben aufgehoben"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich hebe den heruntergefallenen Stift vom Boden auf.",
+      "translation": {
+        "ru": "Я поднимаю упавшую ручку с пола.",
+        "en": "I pick up the fallen pen from the floor."
+      },
+      "bracket_parts": [
+        "hebe",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "den heruntergefallenen Stift"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du hebst die wichtigen Quittungen für die Steuer auf.",
+      "translation": {
+        "ru": "Ты сохраняешь важные чеки для налоговой.",
+        "en": "You keep the important receipts for taxes."
+      },
+      "bracket_parts": [
+        "hebst",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die wichtigen Quittungen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Gericht hebt das alte Urteil nach neuen Beweisen auf.",
+      "translation": {
+        "ru": "Суд отменяет старый приговор на основании новых доказательств.",
+        "en": "The court overturns the old judgment after new evidence."
+      },
+      "bracket_parts": [
+        "hebt",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "das alte Urteil"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir heben die schönen Erinnerungsstücke sorgfältig auf.",
+      "translation": {
+        "ru": "Мы бережно храним памятные вещи.",
+        "en": "We carefully keep the lovely souvenirs."
+      },
+      "bracket_parts": [
+        "heben",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die schönen Erinnerungsstücke"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr hebt den Müll im Park auf und werft ihn in den Eimer.",
+      "translation": {
+        "ru": "Вы подбираете мусор в парке и выбрасываете его в урну.",
+        "en": "You pick up the trash in the park and throw it in the bin."
+      },
+      "bracket_parts": [
+        "hebt",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "den Müll"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie hoben damals die strengen Reisebeschränkungen auf.",
+      "translation": {
+        "ru": "Они тогда сняли строгие ограничения на поездки.",
+        "en": "They lifted the strict travel restrictions back then."
+      },
+      "bracket_parts": [
+        "hoben",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "die strengen Reisebeschränkungen"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Meine Oma hat alle meine alten Kinderzeichnungen aufgehoben.",
+      "translation": {
+        "ru": "Моя бабушка сохранила все мои старые детские рисунки.",
+        "en": "My grandma kept all my old childhood drawings."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgehoben"
+      ],
+      "akkusativ_parts": [
+        "alle meine alten Kinderzeichnungen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Heb bitte das Geldstück dort auf!",
+      "translation": {
+        "ru": "Подними монетку вон там, пожалуйста!",
+        "en": "Please pick up the coin over there!"
+      },
+      "bracket_parts": [
+        "Heb",
+        "auf"
+      ],
+      "akkusativ_parts": [
+        "das Geldstück"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

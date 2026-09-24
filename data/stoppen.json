@@ -1,0 +1,138 @@
+{
+  "id": "stoppen",
+  "infinitive": "stoppen",
+  "translation": {
+    "ru": "останавливать, прекращать, засекать время",
+    "en": "to stop, to halt, to time"
+  },
+  "level": "A2",
+  "frequency_rank": 791,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "stoppt",
+    "preterite_third_singular": "stoppte",
+    "past_participle": "gestoppt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stoppe",
+      "du": "stoppst",
+      "er_sie_es": "stoppt",
+      "wir": "stoppen",
+      "ihr": "stoppt",
+      "sie_Sie": "stoppen"
+    },
+    "preterite": {
+      "ich": "stoppte",
+      "du": "stopptest",
+      "er_sie_es": "stoppte",
+      "wir": "stoppten",
+      "ihr": "stopptet",
+      "sie_Sie": "stoppten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gestoppt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich stoppe die Zeit mit meiner neuen Stoppuhr.",
+      "translation": {
+        "ru": "Я засекаю время своим новым секундомером.",
+        "en": "I time the duration with my new stopwatch."
+      },
+      "bracket_parts": [
+        "stoppe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stoppst du das Auto vor dem Fußgängerüberweg?",
+      "translation": {
+        "ru": "Ты останавливаешь машину перед пешеходным переходом?",
+        "en": "Do you stop the car in front of the pedestrian crossing?"
+      },
+      "bracket_parts": [
+        "Stoppst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei stoppt den schnellen Raser auf der Autobahn.",
+      "translation": {
+        "ru": "Полиция останавливает лихача на автобане.",
+        "en": "The police stop the speeder on the highway."
+      },
+      "bracket_parts": [
+        "stoppt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir stoppen das gefährliche Experiment sofort.",
+      "translation": {
+        "ru": "Мы немедленно прекращаем опасный эксперимент.",
+        "en": "We stop the dangerous experiment immediately."
+      },
+      "bracket_parts": [
+        "stoppen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stoppt ihr den Countdown bei zehn Sekunden?",
+      "translation": {
+        "ru": "Вы останавливаете обратный отсчет на десяти секундах?",
+        "en": "Are you stopping the countdown at ten seconds?"
+      },
+      "bracket_parts": [
+        "Stoppt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schiedsrichter stoppte das Spiel wegen eines Gewitters.",
+      "translation": {
+        "ru": "Судья остановил матч из-за грозы.",
+        "en": "The referee stopped the match because of a thunderstorm."
+      },
+      "bracket_parts": [
+        "stoppte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Ärzte haben die Blutung erfolgreich gestoppt.",
+      "translation": {
+        "ru": "Врачи успешно остановили кровотечение.",
+        "en": "The doctors successfully stopped the bleeding."
+      },
+      "bracket_parts": [
+        "haben",
+        "gestoppt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Stoppe den Motor und zieh die Handbremse an!",
+      "translation": {
+        "ru": "Заглуши мотор и затяни ручной тормоз!",
+        "en": "Stop the engine and apply the handbrake!"
+      },
+      "bracket_parts": [
+        "Stoppe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

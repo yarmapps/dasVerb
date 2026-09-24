@@ -1,0 +1,154 @@
+{
+  "id": "aufpassen",
+  "infinitive": "aufpassen",
+  "translation": {
+    "ru": "быть внимательным, присматривать",
+    "en": "to pay attention, look after, watch out"
+  },
+  "level": "A1",
+  "frequency_rank": 557,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufpassen",
+    "present_3sg": "passt auf",
+    "praeteritum_3sg": "passte auf",
+    "partizip_2": "aufgepasst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "passe auf",
+      "du": "passt auf",
+      "er_sie_es": "passt auf",
+      "wir": "passen auf",
+      "ihr": "passt auf",
+      "sie_Sie": "passen auf"
+    },
+    "praeteritum": {
+      "ich": "passte auf",
+      "du": "passtest auf",
+      "er_sie_es": "passte auf",
+      "wir": "passten auf",
+      "ihr": "passtet auf",
+      "sie_Sie": "passten auf"
+    },
+    "perfekt": {
+      "ich": "habe aufgepasst",
+      "du": "hast aufgepasst",
+      "er_sie_es": "hat aufgepasst",
+      "wir": "haben aufgepasst",
+      "ihr": "habt aufgepasst",
+      "sie_Sie": "haben aufgepasst"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich passe heute Abend auf die kleine Katze meiner Nachbarin auf.",
+      "translation": {
+        "ru": "Сегодня вечером я присматриваю за маленькой кошкой соседки.",
+        "en": "I am looking after my neighbor's little cat tonight."
+      },
+      "bracket_parts": [
+        "passe",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du passt im dichten Straßenverkehr immer sehr aufmerksam auf.",
+      "translation": {
+        "ru": "Ты всегда очень внимателен в плотном уличном движении.",
+        "en": "You always pay close attention in heavy traffic."
+      },
+      "bracket_parts": [
+        "passt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Schülerin passt im Unterricht immer sehr gut auf.",
+      "translation": {
+        "ru": "Ученица всегда очень внимательно слушает на уроке.",
+        "en": "The schoolgirl always pays very good attention in class."
+      },
+      "bracket_parts": [
+        "passt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir passen gut auf unsere Wertsachen am Bahnhof auf.",
+      "translation": {
+        "ru": "Мы хорошо следим за своими ценными вещами на вокзале.",
+        "en": "We watch our valuables carefully at the train station."
+      },
+      "bracket_parts": [
+        "passen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr passt während der Reise sorgsam aufeinander auf.",
+      "translation": {
+        "ru": "Во время поездки вы заботливо присматриваете друг за другом.",
+        "en": "You look after each other carefully during the trip."
+      },
+      "bracket_parts": [
+        "passt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie passten damals stets auf die jüngeren Geschwister auf.",
+      "translation": {
+        "ru": "Они тогда всегда присматривали за младшими братьями и сестрами.",
+        "en": "They always looked after the younger siblings back then."
+      },
+      "bracket_parts": [
+        "passten",
+        "auf"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Mein Onkel hat im Urlaub gewissenhaft auf unser Haus aufgepasst.",
+      "translation": {
+        "ru": "Мой дядя добросовестно присматривал за нашим домом во время отпуска.",
+        "en": "My uncle conscientiously looked after our house on vacation."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgepasst"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Pass bitte gut auf dich und deine Gesundheit auf!",
+      "translation": {
+        "ru": "Береги себя и свое здоровье, пожалуйста!",
+        "en": "Please take good care of yourself and your health!"
+      },
+      "bracket_parts": [
+        "Pass",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

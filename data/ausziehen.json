@@ -1,0 +1,154 @@
+{
+  "id": "ausziehen",
+  "infinitive": "ausziehen",
+  "translation": {
+    "ru": "выселяться, снимать (одежду), раздевать",
+    "en": "to move out, to take off (clothes), to undress"
+  },
+  "level": "A2",
+  "frequency_rank": 592,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ausziehen",
+    "present_3sg": "zieht aus",
+    "praeteritum_3sg": "zog aus",
+    "partizip_2": "ausgezogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ziehe aus",
+      "du": "ziehst aus",
+      "er_sie_es": "zieht aus",
+      "wir": "ziehen aus",
+      "ihr": "zieht aus",
+      "sie_Sie": "ziehen aus"
+    },
+    "praeteritum": {
+      "ich": "zog aus",
+      "du": "zogst aus",
+      "er_sie_es": "zog aus",
+      "wir": "zogen aus",
+      "ihr": "zogt aus",
+      "sie_Sie": "zogen aus"
+    },
+    "perfekt": {
+      "ich": "bin ausgezogen",
+      "du": "bist ausgezogen",
+      "er_sie_es": "ist ausgezogen",
+      "wir": "sind ausgezogen",
+      "ihr": "seid ausgezogen",
+      "sie_Sie": "sind ausgezogen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": "akkusativ",
+    "preposition": "aus",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich ziehe Ende des Monats aus der alten Wohnung aus.",
+      "translation": {
+        "ru": "Я в конце месяца съезжаю со старой квартиры.",
+        "en": "I am moving out of the old apartment at the end of the month."
+      },
+      "bracket_parts": [
+        "ziehe",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ziehst du die nassen Schuhe vor der Tür aus?",
+      "translation": {
+        "ru": "Ты снимешь мокрую обувь перед дверью?",
+        "en": "Are you taking off your wet shoes in front of the door?"
+      },
+      "bracket_parts": [
+        "Ziehst",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Mieter zieht nächste Woche aus.",
+      "translation": {
+        "ru": "Арендатор съезжает на следующей неделе.",
+        "en": "The tenant is moving out next week."
+      },
+      "bracket_parts": [
+        "zieht",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir ziehen im Haus immer die Jacken aus.",
+      "translation": {
+        "ru": "Мы в доме всегда снимаем куртки.",
+        "en": "We always take our jackets off in the house."
+      },
+      "bracket_parts": [
+        "ziehen",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr zieht bald aus dem Studentenwohnheim aus.",
+      "translation": {
+        "ru": "Вы скоро съезжаете из студенческого общежития.",
+        "en": "You are moving out of the student dormitory soon."
+      },
+      "bracket_parts": [
+        "zieht",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie zogen damals mit zwanzig Jahren von zu Hause aus.",
+      "translation": {
+        "ru": "Они тогда в двадцать лет съехали из родительского дома.",
+        "en": "They moved out of home at twenty years old back then."
+      },
+      "bracket_parts": [
+        "zogen",
+        "aus"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Mein Bruder ist vor einem Jahr hier ausgezogen.",
+      "translation": {
+        "ru": "Мой брат год назад отсюда выехал.",
+        "en": "My brother moved out of here a year ago."
+      },
+      "bracket_parts": [
+        "ist",
+        "ausgezogen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Zieh bitte deine nassen Stiefel im Flur aus!",
+      "translation": {
+        "ru": "Сними, пожалуйста, свои мокрые сапоги в прихожей!",
+        "en": "Please take off your wet boots in the hallway!"
+      },
+      "bracket_parts": [
+        "Zieh",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

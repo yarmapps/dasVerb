@@ -1,0 +1,138 @@
+{
+  "id": "ueberstehen",
+  "infinitive": "überstehen",
+  "translation": {
+    "ru": "преодолевать, переживать (кризис), выступать (краем)",
+    "en": "to survive, to weather, to overcome, to project"
+  },
+  "level": "B2",
+  "frequency_rank": 879,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "übersteht",
+    "preterite_third_singular": "überstand",
+    "past_participle": "überstanden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "überstehe",
+      "du": "überstehst",
+      "er_sie_es": "übersteht",
+      "wir": "überstehen",
+      "ihr": "übersteht",
+      "sie_Sie": "überstehen"
+    },
+    "preterite": {
+      "ich": "überstand",
+      "du": "überstandest",
+      "er_sie_es": "überstand",
+      "wir": "überstanden",
+      "ihr": "überstandet",
+      "sie_Sie": "überstanden"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "überstanden"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich überstehe die anstrengende Arbeitswoche mit etwas Sport.",
+      "translation": {
+        "ru": "Я преодолеваю утомительную рабочую неделю благодаря спорту.",
+        "en": "I get through the exhausting work week with some exercise."
+      },
+      "bracket_parts": [
+        "überstehe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Überstehst du die schwierige Prüfungsphase ohne Probleme?",
+      "translation": {
+        "ru": "Ты преодолеваешь трудную экзаменационную пору без проблем?",
+        "en": "Are you getting through the difficult exam period without problems?"
+      },
+      "bracket_parts": [
+        "Überstehst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Unternehmen übersteht die weltweite Wirtschaftskrise stabil.",
+      "translation": {
+        "ru": "Компания стабильно переживает глобальный экономический кризис.",
+        "en": "The company weathers the global economic crisis stably."
+      },
+      "bracket_parts": [
+        "übersteht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir überstehen alle kommenden Herausforderungen gemeinsam.",
+      "translation": {
+        "ru": "Мы преодолеем все грядущие вызовы вместе.",
+        "en": "We will survive all upcoming challenges together."
+      },
+      "bracket_parts": [
+        "überstehen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Übersteht ihr die lange Durststrecke ohne finanzielle Einbußen?",
+      "translation": {
+        "ru": "Вы переживаете долгий период застоя без финансовых потерь?",
+        "en": "Are you guys weathering the long dry spell without financial losses?"
+      },
+      "bracket_parts": [
+        "Übersteht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Patient überstand die mehrstündige Operation glücklicherweise gut.",
+      "translation": {
+        "ru": "Пациент, к счастью, хорошо перенес многочасовую операцию.",
+        "en": "The patient fortunately survived the several-hour surgery well."
+      },
+      "bracket_parts": [
+        "überstand"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben die schwere Krankheit mit viel Geduld überstanden.",
+      "translation": {
+        "ru": "Они перенесли тяжелую болезнь с большим терпением.",
+        "en": "They overcame the severe illness with a lot of patience."
+      },
+      "bracket_parts": [
+        "haben",
+        "überstanden"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Überstehe diese schwere Phase mit Zuversicht!",
+      "translation": {
+        "ru": "Преодолей этот тяжелый этап с уверенностью!",
+        "en": "Get through this difficult phase with confidence!"
+      },
+      "bracket_parts": [
+        "Überstehe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

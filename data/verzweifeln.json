@@ -1,0 +1,143 @@
+{
+  "id": "verzweifeln",
+  "infinitive": "verzweifeln",
+  "translation": {
+    "ru": "отчаиваться, терять надежду",
+    "en": "to despair, to lose hope"
+  },
+  "level": "B2",
+  "frequency_rank": 848,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verzweifelt",
+    "preterite_third_singular": "verzweifelte",
+    "past_participle": "verzweifelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verzweifle",
+      "du": "verzweifelst",
+      "er_sie_es": "verzweifelt",
+      "wir": "verzweifeln",
+      "ihr": "verzweifelt",
+      "sie_Sie": "verzweifeln"
+    },
+    "preterite": {
+      "ich": "verzweifelte",
+      "du": "verzweifeltest",
+      "er_sie_es": "verzweifelte",
+      "wir": "verzweifelten",
+      "ihr": "verzweifeltet",
+      "sie_Sie": "verzweifelten"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "verzweifelt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "an",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich verzweifle fast an dieser schwierigen Mathematikaufgabe.",
+      "translation": {
+        "ru": "Я почти отчаиваюсь из-за этой трудной математической задачи.",
+        "en": "I almost despair over this difficult math problem."
+      },
+      "bracket_parts": [
+        "verzweifle"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verzweifelst du bei jedem kleinen Rückschlag sofort?",
+      "translation": {
+        "ru": "Ты сразу отчаиваешься при каждой маленькой неудаче?",
+        "en": "Do you despair immediately at every small setback?"
+      },
+      "bracket_parts": [
+        "Verzweifelst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Forscher verzweifelt nicht an den vielen Fehlversuchen.",
+      "translation": {
+        "ru": "Исследователь не отчаивается из-за многочисленных неудачных попыток.",
+        "en": "The researcher does not despair over the many failed attempts."
+      },
+      "bracket_parts": [
+        "verzweifelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verzweifeln auch in schweren Zeiten niemals.",
+      "translation": {
+        "ru": "Мы никогда не отчаиваемся даже в трудные времена.",
+        "en": "We never despair even in difficult times."
+      },
+      "bracket_parts": [
+        "verzweifeln"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verzweifelt ihr an den endlosen bürokratischen Formularen?",
+      "translation": {
+        "ru": "Вы впадаете в отчаяние от бесконечных бюрократических бланков?",
+        "en": "Do you guys despair over the endless bureaucratic forms?"
+      },
+      "bracket_parts": [
+        "Verzweifelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er verzweifelte damals fast an seiner langen Einsamkeit.",
+      "translation": {
+        "ru": "Он тогда почти отчаялся из-за своего долгого одиночества.",
+        "en": "He almost despaired back then over his long loneliness."
+      },
+      "bracket_parts": [
+        "verzweifelte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Viele Menschen sind in der schweren Wirtschaftskrise verzweifelt.",
+      "translation": {
+        "ru": "Многие люди отчаялись во время тяжелого экономического кризиса.",
+        "en": "Many people despaired during the severe economic crisis."
+      },
+      "bracket_parts": [
+        "sind",
+        "verzweifelt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verzweifle nicht und suche nach neuen Lösungen!",
+      "translation": {
+        "ru": "Не отчаивайся и ищи новые решения!",
+        "en": "Do not despair and look for new solutions!"
+      },
+      "bracket_parts": [
+        "Verzweifle"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

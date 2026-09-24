@@ -1,0 +1,138 @@
+{
+  "id": "besorgen",
+  "infinitive": "besorgen",
+  "translation": {
+    "ru": "доставать, покупать, улаживать",
+    "en": "to obtain, to get, to take care of"
+  },
+  "level": "A2",
+  "frequency_rank": 781,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "besorgt",
+    "preterite_third_singular": "besorgte",
+    "past_participle": "besorgt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "besorge",
+      "du": "besorgst",
+      "er_sie_es": "besorgt",
+      "wir": "besorgen",
+      "ihr": "besorgt",
+      "sie_Sie": "besorgen"
+    },
+    "preterite": {
+      "ich": "besorgte",
+      "du": "besorgtest",
+      "er_sie_es": "besorgte",
+      "wir": "besorgten",
+      "ihr": "besorgtet",
+      "sie_Sie": "besorgten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "besorgt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich besorge heute die Getränke für unsere Party.",
+      "translation": {
+        "ru": "Я достаю сегодня напитки для нашей вечеринки.",
+        "en": "I get the drinks for our party today."
+      },
+      "bracket_parts": [
+        "besorge"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Besorgst du frische Brötchen beim Bäcker?",
+      "translation": {
+        "ru": "Ты купишь свежие булочки в пекарне?",
+        "en": "Will you get fresh rolls at the bakery?"
+      },
+      "bracket_parts": [
+        "Besorgst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Assistent besorgt alle notwendigen Büromaterialien.",
+      "translation": {
+        "ru": "Ассистент достает все необходимые канцелярские товары.",
+        "en": "The assistant procures all necessary office supplies."
+      },
+      "bracket_parts": [
+        "besorgt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir besorgen Konzertkarten für das Wochenende.",
+      "translation": {
+        "ru": "Мы достаем билеты на концерт на выходные.",
+        "en": "We get concert tickets for the weekend."
+      },
+      "bracket_parts": [
+        "besorgen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Besorgt ihr das Geschenk für den Kollegen?",
+      "translation": {
+        "ru": "Вы покупаете подарок для коллеги?",
+        "en": "Are you guys getting the gift for the colleague?"
+      },
+      "bracket_parts": [
+        "Besorgt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er besorgte die fehlenden Unterlagen noch am selben Tag.",
+      "translation": {
+        "ru": "Он раздобыл недостающие документы в тот же день.",
+        "en": "He procured the missing documents on the very same day."
+      },
+      "bracket_parts": [
+        "besorgte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben alle Zutaten für das Abendessen besorgt.",
+      "translation": {
+        "ru": "Они купили все ингредиенты для ужина.",
+        "en": "They have bought all the ingredients for dinner."
+      },
+      "bracket_parts": [
+        "haben",
+        "besorgt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Besorge bitte noch etwas Milch aus dem Supermarkt!",
+      "translation": {
+        "ru": "Купи, пожалуйста, еще немного молока в супермаркете!",
+        "en": "Please get some more milk from the supermarket!"
+      },
+      "bracket_parts": [
+        "Besorge"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

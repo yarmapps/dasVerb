@@ -1,0 +1,150 @@
+{
+  "id": "zusammenkommen",
+  "infinitive": "zusammenkommen",
+  "translation": {
+    "ru": "собираться вместе, сходиться, накапливаться (о сумме)",
+    "en": "to meet, to come together, to accumulate"
+  },
+  "level": "A2",
+  "frequency_rank": 850,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "kommt zusammen",
+    "preterite_third_singular": "kam zusammen",
+    "past_participle": "zusammengekommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "komme zusammen",
+      "du": "kommst zusammen",
+      "er_sie_es": "kommt zusammen",
+      "wir": "kommen zusammen",
+      "ihr": "kommt zusammen",
+      "sie_Sie": "kommen zusammen"
+    },
+    "preterite": {
+      "ich": "kam zusammen",
+      "du": "kamst zusammen",
+      "er_sie_es": "kam zusammen",
+      "wir": "kamen zusammen",
+      "ihr": "kamt zusammen",
+      "sie_Sie": "kamen zusammen"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "zusammengekommen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich komme heute Abend mit meinen alten Schulfreunden zusammen.",
+      "translation": {
+        "ru": "Я собираюсь сегодня вечером вместе со старыми школьными друзьями.",
+        "en": "I am getting together with my old school friends tonight."
+      },
+      "bracket_parts": [
+        "komme",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Kommst du mit deiner Familie an den Feiertagen zusammen?",
+      "translation": {
+        "ru": "Ты собираешься вместе с семьей на праздники?",
+        "en": "Do you get together with your family on the holidays?"
+      },
+      "bracket_parts": [
+        "Kommst",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Eine beachtliche Geldsumme kommt durch die Spenden zusammen.",
+      "translation": {
+        "ru": "Благодаря пожертвованиям набирается внушительная сумма денег.",
+        "en": "A considerable sum of money comes together through donations."
+      },
+      "bracket_parts": [
+        "kommt",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir kommen regelmäßig zu gemeinsamen Arbeitsgesprächen zusammen.",
+      "translation": {
+        "ru": "Мы регулярно собираемся вместе для рабочих обсуждений.",
+        "en": "We get together regularly for joint work discussions."
+      },
+      "bracket_parts": [
+        "kommen",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Kommt ihr nach der Konferenz noch im Restaurant zusammen?",
+      "translation": {
+        "ru": "Вы собираетесь после конференции еще в ресторане?",
+        "en": "Are you guys meeting up at the restaurant after the conference?"
+      },
+      "bracket_parts": [
+        "Kommt",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Mitglieder kamen gestern zu einer Sondersitzung zusammen.",
+      "translation": {
+        "ru": "Участники собрались вчера на экстренное заседание.",
+        "en": "The members met yesterday for a special session."
+      },
+      "bracket_parts": [
+        "kamen",
+        "zusammen"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Viele Menschen sind auf dem Platz für den Frieden zusammengekommen.",
+      "translation": {
+        "ru": "Многие люди собрались на площади ради мира.",
+        "en": "Many people came together in the square for peace."
+      },
+      "bracket_parts": [
+        "sind",
+        "zusammengekommen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Kommt bitte pünktlich im Besprechungsraum zusammen!",
+      "translation": {
+        "ru": "Соберитесь, пожалуйста, вовремя в переговорной комнате!",
+        "en": "Please gather on time in the meeting room!"
+      },
+      "bracket_parts": [
+        "Kommt",
+        "zusammen"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

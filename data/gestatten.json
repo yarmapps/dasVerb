@@ -1,0 +1,137 @@
+{
+  "id": "gestatten",
+  "infinitive": "gestatten",
+  "translation": {
+    "ru": "разрешать, позволять",
+    "en": "to permit, to allow"
+  },
+  "level": "B2",
+  "frequency_rank": 981,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "gestattet",
+    "preterite_third_singular": "gestattete",
+    "past_participle": "gestattet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gestatte",
+      "du": "gestattest",
+      "er_sie_es": "gestattet",
+      "wir": "gestatten",
+      "ihr": "gestattet",
+      "sie_Sie": "gestatten"
+    },
+    "preterite": {
+      "ich": "gestattete",
+      "du": "gestattetest",
+      "er_sie_es": "gestattete",
+      "wir": "gestatteten",
+      "ihr": "gestattetet",
+      "sie_Sie": "gestatteten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gestattet"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich gestatte mir am Wochenende eine kleine Auszeit vom Alltag.",
+      "translation": {
+        "ru": "На выходных я позволяю себе небольшой отдых от повседневности.",
+        "en": "At the weekend, I allow myself a little break from everyday life."
+      },
+      "bracket_parts": [
+        "gestatte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gestattest du deinen Kindern das Anschauen von Fernsehsendungen am Abend?",
+      "translation": {
+        "ru": "Разрешаешь ли ты своим детям просмотр телепередач вечером?",
+        "en": "Do you allow your children to watch television programs in the evening?"
+      },
+      "bracket_parts": [
+        "Gestattest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Museumsordnung gestattet das Fotografieren ohne Blitzlicht.",
+      "translation": {
+        "ru": "Правила музея разрешают фотосъемку без вспышки.",
+        "en": "Museum regulations permit photography without flash."
+      },
+      "bracket_parts": [
+        "gestattet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gestatten Besuchern den freien Zutritt zum Parkgelände.",
+      "translation": {
+        "ru": "Мы разрешаем посетителям свободный вход на территорию парка.",
+        "en": "We allow visitors free access to the park grounds."
+      },
+      "bracket_parts": [
+        "gestatten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gestattet ihr eine Ausnahme bei der verspäteten Abgabe der Hausarbeit?",
+      "translation": {
+        "ru": "Допускаете ли вы исключение при поздней сдаче курсовой?",
+        "en": "Do you guys allow an exception for late submission of the term paper?"
+      },
+      "bracket_parts": [
+        "Gestattet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Bibliothekar gestattete die Einsicht in die historischen Handschriften.",
+      "translation": {
+        "ru": "Библиотекарь разрешил ознакомление с историческими рукописями.",
+        "en": "The librarian permitted inspection of the historical manuscripts."
+      },
+      "bracket_parts": [
+        "gestattete"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Stadtverwaltung hat den Bau des neuen Einkaufszentrums gestattet.",
+      "translation": {
+        "ru": "Городская администрация разрешила строительство нового ТЦ.",
+        "en": "The city administration has permitted the construction of the new shopping mall."
+      },
+      "bracket_parts": [
+        "hat",
+        "gestattet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gestatten Sie mir bitte eine kurze Zwischenfrage zu Ihrem Vortrag!",
+      "translation": {
+        "ru": "Позвольте мне, пожалуйста, короткий встречный вопрос по вашему докладу!",
+        "en": "Please permit me a brief question regarding your presentation!"
+      },
+      "bracket_parts": [
+        "Gestatten"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

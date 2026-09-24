@@ -1,0 +1,137 @@
+{
+  "id": "trocknen",
+  "infinitive": "trocknen",
+  "translation": {
+    "ru": "сушить, высушивать, сохнуть",
+    "en": "to dry, to wipe dry"
+  },
+  "level": "A2",
+  "frequency_rank": 1048,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "trocknet",
+    "preterite_third_singular": "trocknete",
+    "past_participle": "getrocknet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "trockne",
+      "du": "trocknest",
+      "er_sie_es": "trocknet",
+      "wir": "trocknen",
+      "ihr": "trocknet",
+      "sie_Sie": "trocknen"
+    },
+    "preterite": {
+      "ich": "trocknete",
+      "du": "trocknetest",
+      "er_sie_es": "trocknete",
+      "wir": "trockneten",
+      "ihr": "trocknetet",
+      "sie_Sie": "trockneten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "getrocknet"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich trockne das nasse Geschirr sorgfältig mit einem Handtuch ab.",
+      "translation": {
+        "ru": "Я тщательно вытираю насухо мокрую посуду полотенцем.",
+        "en": "I dry the wet dishes carefully with a towel."
+      },
+      "bracket_parts": [
+        "trockne"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Trocknest du deine frisch gewaschenen Haare mit dem Föhn?",
+      "translation": {
+        "ru": "Ты сушишь свои свежевымытые волосы феном?",
+        "en": "Are you drying your freshly washed hair with the blow dryer?"
+      },
+      "bracket_parts": [
+        "Trocknest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die frisch gewaschene Wäsche trocknet schnell an der warmen Frühlingsluft.",
+      "translation": {
+        "ru": "Свежевыстиранное белье быстро сохнет на теплом весеннем воздухе.",
+        "en": "The freshly washed laundry dries quickly in the warm spring air."
+      },
+      "bracket_parts": [
+        "trocknet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir trocknen süße Kräuter und Früchte für den kommenden Winter.",
+      "translation": {
+        "ru": "Мы сушим ароматные травы и фрукты на предстоящую зиму.",
+        "en": "We dry sweet herbs and fruits for the coming winter."
+      },
+      "bracket_parts": [
+        "trocknen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Trocknet ihr eure nassen Badesachen draußen in der Sonne?",
+      "translation": {
+        "ru": "Сушите ли вы свои мокрые купальники на улице на солнце?",
+        "en": "Are you guys drying your wet swimwear outside in the sun?"
+      },
+      "bracket_parts": [
+        "Trocknet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die heiße Sommersonne trocknete die Erde auf den Feldern aus.",
+      "translation": {
+        "ru": "Жаркое летнее солнце иссушало землю на полях.",
+        "en": "The hot summer sun dried out the soil on the fields."
+      },
+      "bracket_parts": [
+        "trocknete"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Ich habe mir nach dem Duschen gründlich die Hände getrocknet.",
+      "translation": {
+        "ru": "После душа я тщательно вытер руки.",
+        "en": "I dried my hands thoroughly after showering."
+      },
+      "bracket_parts": [
+        "habe",
+        "getrocknet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Trockne deine nasse Kleidung sofort an der Heizung!",
+      "translation": {
+        "ru": "Высуши свою мокрую одежду немедленно у батареи!",
+        "en": "Dry your wet clothes immediately by the radiator!"
+      },
+      "bracket_parts": [
+        "Trockne"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

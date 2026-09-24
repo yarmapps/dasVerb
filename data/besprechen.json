@@ -1,0 +1,148 @@
+{
+  "id": "besprechen",
+  "infinitive": "besprechen",
+  "translation": {
+    "ru": "обсуждать, рецензировать",
+    "en": "to discuss, to talk over, to review"
+  },
+  "level": "A2",
+  "frequency_rank": 560,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "besprechen",
+    "present_3sg": "bespricht",
+    "praeteritum_3sg": "besprach",
+    "partizip_2": "besprochen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bespreche",
+      "du": "besprichst",
+      "er_sie_es": "bespricht",
+      "wir": "besprechen",
+      "ihr": "besprecht",
+      "sie_Sie": "besprechen",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "besprach",
+      "du": "besprachst",
+      "er_sie_es": "besprach",
+      "wir": "besprachen",
+      "ihr": "bespracht",
+      "sie_Sie": "besprachen"
+    },
+    "perfekt": {
+      "ich": "habe besprochen",
+      "du": "hast besprochen",
+      "er_sie_es": "hat besprochen",
+      "wir": "haben besprochen",
+      "ihr": "habt besprochen",
+      "sie_Sie": "haben besprochen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich bespreche den neuen Plan mit meinem Chef.",
+      "translation": {
+        "ru": "Я обсуждаю новый план со своим шефом.",
+        "en": "I discuss the new plan with my boss."
+      },
+      "bracket_parts": [
+        "bespreche"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Besprichst du das Problem heute noch mit ihr?",
+      "translation": {
+        "ru": "Ты обсудишь эту проблему с ней еще сегодня?",
+        "en": "Are you discussing the problem with her today?"
+      },
+      "bracket_parts": [
+        "Besprichst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Journalist bespricht das neue Buch im Radio.",
+      "translation": {
+        "ru": "Журналист рецензирует новую книгу на радио.",
+        "en": "The journalist reviews the new book on the radio."
+      },
+      "bracket_parts": [
+        "bespricht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir besprechen alle wichtigen Details im Meeting.",
+      "translation": {
+        "ru": "Мы обсуждаем все важные детали на совещании.",
+        "en": "We discuss all important details in the meeting."
+      },
+      "bracket_parts": [
+        "besprechen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr besprecht die nächsten Schritte gemeinsam.",
+      "translation": {
+        "ru": "Вы обсуждаете следующие шаги вместе.",
+        "en": "You discuss the next steps together."
+      },
+      "bracket_parts": [
+        "besprecht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie besprachen das Thema gestern sehr ausführlich.",
+      "translation": {
+        "ru": "Они вчера очень подробно обсудили эту тему.",
+        "en": "They discussed the topic very thoroughly yesterday."
+      },
+      "bracket_parts": [
+        "besprachen"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Wir haben das Angebot bereits telefonisch besprochen.",
+      "translation": {
+        "ru": "Мы уже обсудили предложение по телефону.",
+        "en": "We have already discussed the offer by phone."
+      },
+      "bracket_parts": [
+        "haben",
+        "besprochen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Besprich das bitte direkt mit deinem Team!",
+      "translation": {
+        "ru": "Обсуди это, пожалуйста, напрямую со своей командой!",
+        "en": "Please discuss that directly with your team!"
+      },
+      "bracket_parts": [
+        "Besprich"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

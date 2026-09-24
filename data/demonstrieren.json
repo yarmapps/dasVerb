@@ -1,0 +1,147 @@
+{
+  "id": "demonstrieren",
+  "infinitive": "demonstrieren",
+  "translation": {
+    "ru": "демонстрировать (наглядно), выходить на демонстрацию",
+    "en": "to demonstrate, to protest"
+  },
+  "level": "B1",
+  "frequency_rank": 910,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "demonstriert",
+    "preterite_third_singular": "demonstrierte",
+    "past_participle": "demonstriert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "demonstriere",
+      "du": "demonstrierst",
+      "er_sie_es": "demonstriert",
+      "wir": "demonstrieren",
+      "ihr": "demonstriert",
+      "sie_Sie": "demonstrieren"
+    },
+    "preterite": {
+      "ich": "demonstrierte",
+      "du": "demonstriertest",
+      "er_sie_es": "demonstrierte",
+      "wir": "demonstrierten",
+      "ihr": "demonstriertet",
+      "sie_Sie": "demonstrierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "demonstriert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "für",
+        "case": "Akkusativ"
+      },
+      {
+        "preposition": "gegen",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich demonstriere die Bedienung der neuen Kaffeemaschine.",
+      "translation": {
+        "ru": "Я демонстрирую управление новой кофемашиной.",
+        "en": "I demonstrate how to operate the new coffee machine."
+      },
+      "bracket_parts": [
+        "demonstriere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Demonstrierst du am Samstag für mehr Klimaschutz auf der Straße?",
+      "translation": {
+        "ru": "Ты выходишь в субботу на демонстрацию за защиту климата?",
+        "en": "Are you demonstrating on the street for more climate protection on Saturday?"
+      },
+      "bracket_parts": [
+        "Demonstrierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Bevölkerung demonstriert friedlich gegen die Erhöhung der Steuern.",
+      "translation": {
+        "ru": "Население мирно митингует против повышения налогов.",
+        "en": "The population demonstrates peacefully against the tax increase."
+      },
+      "bracket_parts": [
+        "demonstriert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir demonstrieren unsere Verbundenheit mit den Betroffenen.",
+      "translation": {
+        "ru": "Мы демонстрируем нашу солидарность с пострадавшими.",
+        "en": "We demonstrate our solidarity with those affected."
+      },
+      "bracket_parts": [
+        "demonstrieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Demonstriert ihr die Funktionsweise der Software im Seminar?",
+      "translation": {
+        "ru": "Вы показываете работу программы на семинаре?",
+        "en": "Are you demonstrating how the software works in the seminar?"
+      },
+      "bracket_parts": [
+        "Demonstriert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Tausende Menschen demonstrierten damals für Freiheit und Demokratie.",
+      "translation": {
+        "ru": "Тысячи людей митинговали тогда за свободу и демократию.",
+        "en": "Thousands of people demonstrated for freedom and democracy back then."
+      },
+      "bracket_parts": [
+        "demonstrierten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Lehrer hat das physikalische Experiment anschaulich demonstriert.",
+      "translation": {
+        "ru": "Учитель наглядно продемонстрировал физический эксперимент.",
+        "en": "The teacher vividly demonstrated the physics experiment."
+      },
+      "bracket_parts": [
+        "hat",
+        "demonstriert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Demonstriere den Vorgang bitte noch einmal ganz langsam!",
+      "translation": {
+        "ru": "Продемонстрируй этот процесс еще раз очень медленно, пожалуйста!",
+        "en": "Please demonstrate the process once more very slowly!"
+      },
+      "bracket_parts": [
+        "Demonstriere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

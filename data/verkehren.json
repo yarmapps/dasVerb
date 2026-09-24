@@ -1,0 +1,147 @@
+{
+  "id": "verkehren",
+  "infinitive": "verkehren",
+  "translation": {
+    "ru": "курсировать (о транспорте), общаться/вращаться (в кругах)",
+    "en": "to run (of buses/trains), to associate with sb"
+  },
+  "level": "B2",
+  "frequency_rank": 883,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verkehrt",
+    "preterite_third_singular": "verkehrte",
+    "past_participle": "verkehrt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verkehre",
+      "du": "verkehrst",
+      "er_sie_es": "verkehrt",
+      "wir": "verkehren",
+      "ihr": "verkehrt",
+      "sie_Sie": "verkehren"
+    },
+    "preterite": {
+      "ich": "verkehrte",
+      "du": "verkehrtest",
+      "er_sie_es": "verkehrte",
+      "wir": "verkehrten",
+      "ihr": "verkehrtet",
+      "sie_Sie": "verkehrten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verkehrt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "zwischen",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich verkehre beruflich in gehobenen diplomatischen Kreisen.",
+      "translation": {
+        "ru": "Я по работе вращаюсь в высших дипломатических кругах.",
+        "en": "I associate professionally in high diplomatic circles."
+      },
+      "bracket_parts": [
+        "verkehre"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verkehrst du oft mit internationalen Wissenschaftlern?",
+      "translation": {
+        "ru": "Ты часто общаешься с международными учеными?",
+        "en": "Do you often associate with international scientists?"
+      },
+      "bracket_parts": [
+        "Verkehrst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schnellzug verkehrt stündlich zwischen Hamburg und Berlin.",
+      "translation": {
+        "ru": "Скоростной поезд курсирует каждый час между Гамбургом и Берлином.",
+        "en": "The express train runs hourly between Hamburg and Berlin."
+      },
+      "bracket_parts": [
+        "verkehrt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verkehren seit Jahren freundschaftlich mit dieser Familie.",
+      "translation": {
+        "ru": "Мы годами поддерживаем дружеские отношения с этой семьей.",
+        "en": "We have been associating amicably with this family for years."
+      },
+      "bracket_parts": [
+        "verkehren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verkehrt die Fähre auch im kalten Winter regelmäßig?",
+      "translation": {
+        "ru": "Паром курсирует регулярно и холодной зимой?",
+        "en": "Does the ferry run regularly even in the cold winter?"
+      },
+      "bracket_parts": [
+        "Verkehrt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Straßenbahn verkehrte damals nur tagsüber im Zentrum.",
+      "translation": {
+        "ru": "Трамвай курсировал тогда только днем в центре.",
+        "en": "The tram only ran during the day in the center back then."
+      },
+      "bracket_parts": [
+        "verkehrte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Wegen Bauarbeiten haben die Busse auf einer anderen Route verkehrt.",
+      "translation": {
+        "ru": "Из-за стройки автобусы курсировали по другому маршруту.",
+        "en": "Due to construction work, the buses ran on a different route."
+      },
+      "bracket_parts": [
+        "haben",
+        "verkehrt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verkehre stets mit Menschen, von denen du lernen kannst!",
+      "translation": {
+        "ru": "Всегда общайся с людьми, у которых можешь чему-то научиться!",
+        "en": "Always associate with people you can learn from!"
+      },
+      "bracket_parts": [
+        "Verkehre"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "herausgeben",
+  "infinitive": "herausgeben",
+  "translation": {
+    "ru": "издавать/выпускать (книгу/журнал), давать сдачу, выдавать",
+    "en": "to publish, to issue, to give change, to hand over"
+  },
+  "level": "B1",
+  "frequency_rank": 1041,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "gibt heraus",
+    "preterite_third_singular": "gab heraus",
+    "past_participle": "herausgegeben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gebe heraus",
+      "du": "gibst heraus",
+      "er_sie_es": "gibt heraus",
+      "wir": "geben heraus",
+      "ihr": "gebt heraus",
+      "sie_Sie": "geben heraus"
+    },
+    "preterite": {
+      "ich": "gab heraus",
+      "du": "gabst heraus",
+      "er_sie_es": "gab heraus",
+      "wir": "gaben heraus",
+      "ihr": "gabt heraus",
+      "sie_Sie": "gaben heraus"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "herausgegeben"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich gebe als Autor jedes Jahr einen neuen Gedichtband heraus.",
+      "translation": {
+        "ru": "Как автор я каждый год издаю новый сборник стихов.",
+        "en": "As an author, I publish a new volume of poetry every year."
+      },
+      "bracket_parts": [
+        "gebe",
+        "heraus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gibst du dem Kunden an der Kasse das passende Wechselgeld heraus?",
+      "translation": {
+        "ru": "Ты даешь покупателю на кассе правильную сдачу?",
+        "en": "Do you give the customer the correct change at the register?"
+      },
+      "bracket_parts": [
+        "Gibst",
+        "heraus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Verlag gibt eine neue wissenschaftliche Fachzeitschrift heraus.",
+      "translation": {
+        "ru": "Издательство выпускает новый научный специализированный журнал.",
+        "en": "The publishing house issues a new scientific specialized journal."
+      },
+      "bracket_parts": [
+        "gibt",
+        "heraus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir geben die beschlagnahmten Gegenstände an die rechtmäßigen Besitzer heraus.",
+      "translation": {
+        "ru": "Мы возвращаем (выдаем) изъятые предметы законным владельцам.",
+        "en": "We hand the confiscated items over to the rightful owners."
+      },
+      "bracket_parts": [
+        "geben",
+        "heraus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gebt ihr die geheimen Unterlagen freiwillig an die Behörden heraus?",
+      "translation": {
+        "ru": "Выдаете ли вы секретные документы властям добровольно?",
+        "en": "Are you guys handing the secret documents over to the authorities voluntarily?"
+      },
+      "bracket_parts": [
+        "Gebt",
+        "heraus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Verkäuferin gab mir versehentlich zu viel Wechselgeld heraus.",
+      "translation": {
+        "ru": "Продавщица по ошибке дала мне слишком много сдачи.",
+        "en": "The saleswoman accidentally gave me too much change."
+      },
+      "bracket_parts": [
+        "gab",
+        "heraus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Institut hat eine bahnbrechende Studie zum Umweltschutz herausgegeben.",
+      "translation": {
+        "ru": "Институт опубликовал новаторское исследование по защите окружающей среды.",
+        "en": "The institute has published a groundbreaking study on environmental protection."
+      },
+      "bracket_parts": [
+        "hat",
+        "herausgegeben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gib bitte mein geliehenes Buch umgehend heraus!",
+      "translation": {
+        "ru": "Верни (отдай), пожалуйста, мою взятую книгу немедленно!",
+        "en": "Please hand my borrowed book over immediately!"
+      },
+      "bracket_parts": [
+        "Gib",
+        "heraus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

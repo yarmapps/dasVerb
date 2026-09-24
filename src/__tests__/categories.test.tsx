@@ -9,8 +9,8 @@ import { LocaleProvider } from '../context/LocaleContext';
 import { ThemeProvider } from '../context/ThemeContext';
 
 describe('Thematic Categories Config & Data Integrity', () => {
-  it('contains exactly 9 thematic categories with valid metadata', () => {
-    expect(THEMATIC_CATEGORIES).toHaveLength(9);
+  it('contains exactly 16 thematic categories with valid metadata', () => {
+    expect(THEMATIC_CATEGORIES).toHaveLength(16);
 
     THEMATIC_CATEGORIES.forEach(cat => {
       expect(cat.id).toBeDefined();
@@ -54,7 +54,7 @@ describe('Thematic Categories UI Components', () => {
     );
   };
 
-  it('renders ThematicCategoriesSection and all 9 category cards', () => {
+  it('renders ThematicCategoriesSection and all 16 category cards', () => {
     const handleSelectCategory = jest.fn();
     const { getByTestId } = renderWithProviders(
       <ThematicCategoriesSection onSelectCategory={handleSelectCategory} />,

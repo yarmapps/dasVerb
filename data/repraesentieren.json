@@ -1,0 +1,137 @@
+{
+  "id": "repraesentieren",
+  "infinitive": "repräsentieren",
+  "translation": {
+    "ru": "представлять, репрезентировать, олицетворять",
+    "en": "to represent, to embody"
+  },
+  "level": "B2",
+  "frequency_rank": 1023,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "repräsentiert",
+    "preterite_third_singular": "repräsentierte",
+    "past_participle": "repräsentiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "repräsentiere",
+      "du": "repräsentierst",
+      "er_sie_es": "repräsentiert",
+      "wir": "repräsentieren",
+      "ihr": "repräsentiert",
+      "sie_Sie": "repräsentieren"
+    },
+    "preterite": {
+      "ich": "repräsentierte",
+      "du": "repräsentiertest",
+      "er_sie_es": "repräsentierte",
+      "wir": "repräsentierten",
+      "ihr": "repräsentiertet",
+      "sie_Sie": "repräsentierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "repräsentiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich repräsentiere unser Land bei der internationalen Konferenz.",
+      "translation": {
+        "ru": "Я представляю нашу страну на международной конференции.",
+        "en": "I represent our country at the international conference."
+      },
+      "bracket_parts": [
+        "repräsentiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Repräsentierst du die Interessen der Studierenden im Senat?",
+      "translation": {
+        "ru": "Представляешь ли ты интересы студентов в сенате?",
+        "en": "Do you represent the interests of students in the senate?"
+      },
+      "bracket_parts": [
+        "Repräsentierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Bundespräsident repräsentiert die Bundesrepublik Deutschland nach außen.",
+      "translation": {
+        "ru": "Федеральный президент представляет ФРГ на международной арене.",
+        "en": "The Federal President represents the Federal Republic of Germany internationally."
+      },
+      "bracket_parts": [
+        "repräsentiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir repräsentieren ein modernes und offenes Unternehmen.",
+      "translation": {
+        "ru": "Мы олицетворяем современную и открытую компанию.",
+        "en": "We represent a modern and open company."
+      },
+      "bracket_parts": [
+        "repräsentieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Repräsentiert ihr eure Universität beim sportlichen Wettkampf?",
+      "translation": {
+        "ru": "Представляете ли вы свой университет на спортивных соревнованиях?",
+        "en": "Do you guys represent your university in the athletic competition?"
+      },
+      "bracket_parts": [
+        "Repräsentiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Botschafterin repräsentierte ihren Staat mit großem diplomatischem Geschick.",
+      "translation": {
+        "ru": "Посол представляла свое государство с большим дипломатическим мастерством.",
+        "en": "The ambassador represented her state with great diplomatic skill."
+      },
+      "bracket_parts": [
+        "repräsentierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie hat unsere Schule beim bundesweiten Lesewettbewerb würdig repräsentiert.",
+      "translation": {
+        "ru": "Она достойно представила нашу школу на всегерманском конкурсе чтецов.",
+        "en": "She represented our school with dignity at the nationwide reading competition."
+      },
+      "bracket_parts": [
+        "hat",
+        "repräsentiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Repräsentiere dein Team stets professionell und respektvoll!",
+      "translation": {
+        "ru": "Всегда представляй свою команду профессионально и уважительно!",
+        "en": "Always represent your team professionally and respectfully!"
+      },
+      "bracket_parts": [
+        "Repräsentiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

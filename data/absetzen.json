@@ -1,0 +1,145 @@
+{
+  "id": "absetzen",
+  "infinitive": "absetzen",
+  "translation": {
+    "ru": "снимать (шляпу, очки), ссаживать (пассажира), отменять, списывать (налоги)",
+    "en": "to take off, to drop off, to cancel, to deduct"
+  },
+  "level": "B1",
+  "frequency_rank": 724,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "setzt ab",
+    "preterite_third_singular": "setzte ab",
+    "past_participle": "abgesetzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "setze ab",
+      "du": "setzt ab",
+      "er_sie_es": "setzt ab",
+      "wir": "setzen ab",
+      "ihr": "setzt ab",
+      "sie_Sie": "setzen ab"
+    },
+    "preterite": {
+      "ich": "setzte ab",
+      "du": "setztest ab",
+      "er_sie_es": "setzte ab",
+      "wir": "setzten ab",
+      "ihr": "setztet ab",
+      "sie_Sie": "setzten ab"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "abgesetzt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich setze meine Sonnenbrille im Schatten ab.",
+      "translation": {
+        "ru": "Я снимаю солнцезащитные очки в тени.",
+        "en": "I take off my sunglasses in the shade."
+      },
+      "bracket_parts": [
+        "setze",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du setzt deinen Freund vor dem Bahnhof ab.",
+      "translation": {
+        "ru": "Ты высаживаешь друга перед вокзалом.",
+        "en": "You drop off your friend in front of the station."
+      },
+      "bracket_parts": [
+        "setzt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er setzt die Kosten bei der Steuer ab.",
+      "translation": {
+        "ru": "Он списывает расходы с налогов.",
+        "en": "He deducts the costs on his taxes."
+      },
+      "bracket_parts": [
+        "setzt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir setzen das Medikament nach Absprache mit dem Arzt ab.",
+      "translation": {
+        "ru": "Мы отменяем прием лекарства после консультации с врачом.",
+        "en": "We discontinue the medication after consultation with the doctor."
+      },
+      "bracket_parts": [
+        "setzen",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Setzt ihr die schweren Rucksäcke endlich ab?",
+      "translation": {
+        "ru": "Вы наконец снимаете тяжелые рюкзаки?",
+        "en": "Are you guys finally putting down the heavy backpacks?"
+      },
+      "bracket_parts": [
+        "Setzt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Sender setzte die Serie wegen schlechter Quoten ab.",
+      "translation": {
+        "ru": "Телеканал снял сериал с эфира из-за плохих рейтингов.",
+        "en": "The broadcaster canceled the series due to poor ratings."
+      },
+      "bracket_parts": [
+        "setzte",
+        "ab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben den Vorstandsvorsitzenden gestern abgesetzt.",
+      "translation": {
+        "ru": "Они вчера сместили председателя правления.",
+        "en": "They dismissed the chairman of the board yesterday."
+      },
+      "bracket_parts": [
+        "haben",
+        "abgesetzt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Setz deine Mütze im Zimmer ab!",
+      "translation": {
+        "ru": "Сними шапку в комнате!",
+        "en": "Take off your cap in the room!"
+      },
+      "bracket_parts": [
+        "Setz",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

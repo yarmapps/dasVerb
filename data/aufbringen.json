@@ -1,0 +1,154 @@
+{
+  "id": "aufbringen",
+  "infinitive": "aufbringen",
+  "translation": {
+    "ru": "находить (силы/деньги), проявлять (терпение), сердить",
+    "en": "to raise (money), to muster (courage), to enrage"
+  },
+  "level": "B2",
+  "frequency_rank": 649,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "irregular",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufbringen",
+    "present_3sg": "bringt auf",
+    "praeteritum_3sg": "brachte auf",
+    "partizip_2": "aufgebracht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bringe auf",
+      "du": "bringst auf",
+      "er_sie_es": "bringt auf",
+      "wir": "bringen auf",
+      "ihr": "bringt auf",
+      "sie_Sie": "bringen auf"
+    },
+    "praeteritum": {
+      "ich": "brachte auf",
+      "du": "brachtest auf",
+      "er_sie_es": "brachte auf",
+      "wir": "brachten auf",
+      "ihr": "brachtet auf",
+      "sie_Sie": "brachten auf"
+    },
+    "perfekt": {
+      "ich": "habe aufgebracht",
+      "du": "hast aufgebracht",
+      "er_sie_es": "hat aufgebracht",
+      "wir": "haben aufgebracht",
+      "ihr": "habt aufgebracht",
+      "sie_Sie": "haben aufgebracht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich bringe viel Geduld für meine Schüler auf.",
+      "translation": {
+        "ru": "Я проявляю много терпения к своим ученикам.",
+        "en": "I muster a lot of patience for my students."
+      },
+      "bracket_parts": [
+        "bringe",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bringst du den Mut für diese schwierige Prüfung auf?",
+      "translation": {
+        "ru": "Найдешь ли ты смелость для этого сложного экзамена?",
+        "en": "Can you muster the courage for this difficult exam?"
+      },
+      "bracket_parts": [
+        "Bringst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Familie bringt das Geld für den Hauskauf auf.",
+      "translation": {
+        "ru": "Семья собирает деньги на покупку дома.",
+        "en": "The family raises the money for the house purchase."
+      },
+      "bracket_parts": [
+        "bringt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bringen das nötige Verständnis für die Situation auf.",
+      "translation": {
+        "ru": "Мы проявляем необходимое понимание ситуации.",
+        "en": "We show the necessary understanding for the situation."
+      },
+      "bracket_parts": [
+        "bringen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr bringt die finanziellen Mittel für das Fest auf.",
+      "translation": {
+        "ru": "Вы находите финансовые средства для праздника.",
+        "en": "You raise the financial funds for the celebration."
+      },
+      "bracket_parts": [
+        "bringt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Gemeinde brachte damals die Kosten für den Bau auf.",
+      "translation": {
+        "ru": "Община тогда изыскала средства на строительство.",
+        "en": "The municipality raised the costs for the construction back then."
+      },
+      "bracket_parts": [
+        "brachte",
+        "auf"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Er hat viel Energie für dieses Projekt aufgebracht.",
+      "translation": {
+        "ru": "Он потратил и вложил много энергии в этот проект.",
+        "en": "He put a lot of energy into this project."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgebracht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bring bitte etwas mehr Geduld im Alltag auf!",
+      "translation": {
+        "ru": "Прояви, пожалуйста, немного больше терпения в быту!",
+        "en": "Please muster a bit more patience in everyday life!"
+      },
+      "bracket_parts": [
+        "Bring",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

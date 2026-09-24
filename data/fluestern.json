@@ -1,0 +1,143 @@
+{
+  "id": "fluestern",
+  "infinitive": "flüstern",
+  "translation": {
+    "ru": "шептать",
+    "en": "to whisper"
+  },
+  "level": "B1",
+  "frequency_rank": 735,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "flüstert",
+    "preterite_third_singular": "flüsterte",
+    "past_participle": "geflüstert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "flüstere",
+      "du": "flüsterst",
+      "er_sie_es": "flüstert",
+      "wir": "flüstern",
+      "ihr": "flüstert",
+      "sie_Sie": "flüstern"
+    },
+    "preterite": {
+      "ich": "flüsterte",
+      "du": "flüstertest",
+      "er_sie_es": "flüsterte",
+      "wir": "flüsterten",
+      "ihr": "flüstertet",
+      "sie_Sie": "flüsterten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geflüstert"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich flüstere dir ein süßes Geheimnis ins Ohr.",
+      "translation": {
+        "ru": "Я шепчу тебе милый секрет на ухо.",
+        "en": "I whisper a sweet secret into your ear."
+      },
+      "bracket_parts": [
+        "flüstere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Warum flüsterst du in diesem leeren Zimmer?",
+      "translation": {
+        "ru": "Почему ты шепчешься в этой пустой комнате?",
+        "en": "Why are you whispering in this empty room?"
+      },
+      "bracket_parts": [
+        "flüsterst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Kind flüstert seiner Mutter eine Frage zu.",
+      "translation": {
+        "ru": "Ребенок шепчет матери вопрос на ухо.",
+        "en": "The child whispers a question to its mother."
+      },
+      "bracket_parts": [
+        "flüstert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir flüstern leise während der Vorstellung im Theater.",
+      "translation": {
+        "ru": "Мы тихо шепчемся во время представления в театре.",
+        "en": "We whisper quietly during the performance in the theater."
+      },
+      "bracket_parts": [
+        "flüstern"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr flüstert ständig in der hinteren Reihe.",
+      "translation": {
+        "ru": "Вы постоянно шепчетесь в заднем ряду.",
+        "en": "You guys are constantly whispering in the back row."
+      },
+      "bracket_parts": [
+        "flüstert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er flüsterte ihr zärtliche Worte vor dem Abschied.",
+      "translation": {
+        "ru": "Он прошептал ей нежные слова перед прощанием.",
+        "en": "He whispered tender words to her before parting."
+      },
+      "bracket_parts": [
+        "flüsterte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben die ganze Nacht leise miteinander geflüstert.",
+      "translation": {
+        "ru": "Они всю ночь тихо шептались друг с другом.",
+        "en": "They whispered quietly with each other all night."
+      },
+      "bracket_parts": [
+        "haben",
+        "geflüstert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Flüstere bitte, das Baby schläft im Nebenzimmer!",
+      "translation": {
+        "ru": "Шепчи, пожалуйста, ребенок спит в соседней комнате!",
+        "en": "Please whisper, the baby is sleeping in the next room!"
+      },
+      "bracket_parts": [
+        "Flüstere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

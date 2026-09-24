@@ -1,0 +1,150 @@
+{
+  "id": "vorbeugen",
+  "infinitive": "vorbeugen",
+  "translation": {
+    "ru": "предотвращать, предупреждать (болезнь/ошибку), наклоняться вперед",
+    "en": "to prevent, to guard against, to bend forward"
+  },
+  "level": "B2",
+  "frequency_rank": 995,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "beugt vor",
+    "preterite_third_singular": "beugte vor",
+    "past_participle": "vorgebeugt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "beuge vor",
+      "du": "beugst vor",
+      "er_sie_es": "beugt vor",
+      "wir": "beugen vor",
+      "ihr": "beugt vor",
+      "sie_Sie": "beugen vor"
+    },
+    "preterite": {
+      "ich": "beugte vor",
+      "du": "beugtest vor",
+      "er_sie_es": "beugte vor",
+      "wir": "beugten vor",
+      "ihr": "beugtet vor",
+      "sie_Sie": "beugten vor"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "vorgebeugt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "gegen",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich beuge einer Erkältung mit vielen Vitaminen und Sport vor.",
+      "translation": {
+        "ru": "Я предотвращаю простуду большим количеством витаминов и спортом.",
+        "en": "I prevent a cold with plenty of vitamins and exercise."
+      },
+      "bracket_parts": [
+        "beuge",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beugst du möglichen Zahnschäden durch regelmäßige Pflege vor?",
+      "translation": {
+        "ru": "Предотвращаешь ли ты возможные повреждения зубов регулярным уходом?",
+        "en": "Do you prevent possible tooth damage through regular care?"
+      },
+      "bracket_parts": [
+        "Beugst",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Eine gesunde Ernährung beugt vielen chronischen Krankheiten wirksam vor.",
+      "translation": {
+        "ru": "Здоровое питание эффективно предотвращает многие хронические заболевания.",
+        "en": "A healthy diet effectively prevents many chronic diseases."
+      },
+      "bracket_parts": [
+        "beugt",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir beugen künftigen Missverständnissen durch offene Kommunikation vor.",
+      "translation": {
+        "ru": "Мы предотвращаем будущие недоразумения открытым общением.",
+        "en": "We prevent future misunderstandings through open communication."
+      },
+      "bracket_parts": [
+        "beugen",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Beugt ihr Verletzungen beim Training durch gründliches Dehnen vor?",
+      "translation": {
+        "ru": "Предотвращаете ли вы травмы на тренировке тщательной растяжкой?",
+        "en": "Do you guys prevent injuries during training through thorough stretching?"
+      },
+      "bracket_parts": [
+        "Beugt",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Stadt beugte Überschwemmungen durch neue Deiche vor.",
+      "translation": {
+        "ru": "Город предотвратил наводнения строительством новых дамб.",
+        "en": "The city prevented floods through new dikes."
+      },
+      "bracket_parts": [
+        "beugte",
+        "vor"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Arzt hat der Ausbreitung der Infektion rechtzeitig vorgebeugt.",
+      "translation": {
+        "ru": "Врач своевременно предотвратил распространение инфекции.",
+        "en": "The doctor prevented the spread of the infection in good time."
+      },
+      "bracket_parts": [
+        "hat",
+        "vorgebeugt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Beuge Risiken stets mit kluger Voraussicht vor!",
+      "translation": {
+        "ru": "Всегда предотвращай риски разумной предусмотрительностью!",
+        "en": "Always prevent risks with wise foresight!"
+      },
+      "bracket_parts": [
+        "Beuge",
+        "vor"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

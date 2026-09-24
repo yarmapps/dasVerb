@@ -1,0 +1,137 @@
+{
+  "id": "benehmen",
+  "infinitive": "benehmen",
+  "translation": {
+    "ru": "вести себя, держаться",
+    "en": "to behave, to conduct oneself"
+  },
+  "level": "B1",
+  "frequency_rank": 1010,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": true
+  },
+  "principal_parts": {
+    "present_third_singular": "benimmt sich",
+    "preterite_third_singular": "benahm sich",
+    "past_participle": "benommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "benehme mich",
+      "du": "benimmst dich",
+      "er_sie_es": "benimmt sich",
+      "wir": "benehmen uns",
+      "ihr": "benehmt euch",
+      "sie_Sie": "benehmen sich"
+    },
+    "preterite": {
+      "ich": "benahm mich",
+      "du": "benahmst dich",
+      "er_sie_es": "benahm sich",
+      "wir": "benahmen uns",
+      "ihr": "benahmt euch",
+      "sie_Sie": "benahmen sich"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "benommen"
+    }
+  },
+  "rektion": {
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich benehme mich bei feierlichen Anlässen stets höflich und respektvoll.",
+      "translation": {
+        "ru": "На торжественных мероприятиях я всегда веду себя вежливо и уважительно.",
+        "en": "I always behave politely and respectfully at festive occasions."
+      },
+      "bracket_parts": [
+        "benehme"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Benimmst du dich im Vorstellungsgespräch auch so souverän und ruhig?",
+      "translation": {
+        "ru": "Ты на собеседовании тоже ведешь себя так уверенно и спокойно?",
+        "en": "Do you also behave so confidently and calmly in the job interview?"
+      },
+      "bracket_parts": [
+        "Benimmst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Kind benimmt sich im Restaurant vorbildlich und leise.",
+      "translation": {
+        "ru": "Ребенок ведет себя в ресторане образцово и тихо.",
+        "en": "The child behaves exemplary and quietly in the restaurant."
+      },
+      "bracket_parts": [
+        "benimmt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir benehmen uns als Gäste in einem fremden Land stets achtsam.",
+      "translation": {
+        "ru": "Мы как гости в чужой стране всегда ведем себя осмотрительно.",
+        "en": "As guests in a foreign country, we always behave mindfully."
+      },
+      "bracket_parts": [
+        "benehmen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Benehmt ihr euch im Theater bitte anständig und ruhig?",
+      "translation": {
+        "ru": "Ведите себя в театре прилично и тихо, пожалуйста!",
+        "en": "Do you guys behave decently and quietly in the theater, please?"
+      },
+      "bracket_parts": [
+        "Benehmt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Gast benahm sich gestern Abend leider völlig daneben.",
+      "translation": {
+        "ru": "Гость вчера вечером, к сожалению, вел себя совершенно неподобающе.",
+        "en": "The guest unfortunately behaved completely inappropriately yesterday evening."
+      },
+      "bracket_parts": [
+        "benahm"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Schüler haben sich während des Schulausflugs vorbildlich benommen.",
+      "translation": {
+        "ru": "Ученики во время школьной экскурсии вели себя образцово.",
+        "en": "The students behaved in an exemplary manner during the school trip."
+      },
+      "bracket_parts": [
+        "haben",
+        "benommen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Benimm dich bitte anständig beim Abendessen mit den Großeltern!",
+      "translation": {
+        "ru": "Веди себя, пожалуйста, прилично на ужине с бабушкой и дедушкой!",
+        "en": "Please behave properly at dinner with the grandparents!"
+      },
+      "bracket_parts": [
+        "Benimm"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

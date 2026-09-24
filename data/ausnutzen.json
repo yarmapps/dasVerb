@@ -1,0 +1,145 @@
+{
+  "id": "ausnutzen",
+  "infinitive": "ausnutzen",
+  "translation": {
+    "ru": "использовать, извлекать выгоду, злоупотреблять",
+    "en": "to exploit, to take advantage of"
+  },
+  "level": "B1",
+  "frequency_rank": 900,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "nutzt aus",
+    "preterite_third_singular": "nutzte aus",
+    "past_participle": "ausgenutzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "nutze aus",
+      "du": "nutzt aus",
+      "er_sie_es": "nutzt aus",
+      "wir": "nutzen aus",
+      "ihr": "nutzt aus",
+      "sie_Sie": "nutzen aus"
+    },
+    "preterite": {
+      "ich": "nutzte aus",
+      "du": "nutztest aus",
+      "er_sie_es": "nutzte aus",
+      "wir": "nutzten aus",
+      "ihr": "nutztet aus",
+      "sie_Sie": "nutzten aus"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "ausgenutzt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich nutze das schöne Frühlingswetter für eine Radtour aus.",
+      "translation": {
+        "ru": "Я использую прекрасную весеннюю погоду для велопрогулки.",
+        "en": "I take advantage of the nice spring weather for a bike tour."
+      },
+      "bracket_parts": [
+        "nutze",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Nutzt du die günstige Gelegenheit für eine Weiterbildung aus?",
+      "translation": {
+        "ru": "Ты используешь удобный случай для повышения квалификации?",
+        "en": "Are you taking advantage of the favorable opportunity for further training?"
+      },
+      "bracket_parts": [
+        "Nutzt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein Betrüger nutzt die Gutgläubigkeit älterer Menschen schamlos aus.",
+      "translation": {
+        "ru": "Мошенник бессовестно злоупотребляет доверчивостью пожилых людей.",
+        "en": "A fraudster shamelessly exploits the gullibility of older people."
+      },
+      "bracket_parts": [
+        "nutzt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir nutzen jeden freien Tag für Ausflüge in die Natur aus.",
+      "translation": {
+        "ru": "Мы используем каждый свободный день для поездок на природу.",
+        "en": "We make the most of every free day for trips into nature."
+      },
+      "bracket_parts": [
+        "nutzen",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Nutzt ihr das Sonderangebot im Supermarkt voll aus?",
+      "translation": {
+        "ru": "Вы используете специальное предложение в супермаркете по полной?",
+        "en": "Are you guys taking full advantage of the special offer in the supermarket?"
+      },
+      "bracket_parts": [
+        "Nutzt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er nutzte die Schwäche des Gegners im Finale eiskalt aus.",
+      "translation": {
+        "ru": "Он хладнокровно воспользовался слабостью соперника в финале.",
+        "en": "He exploited the opponent's weakness in the final coldly."
+      },
+      "bracket_parts": [
+        "nutzte",
+        "aus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben das Vertrauen ihrer Freunde niemals ausgenutzt.",
+      "translation": {
+        "ru": "Они никогда не злоупотребляли доверием своих друзей.",
+        "en": "They never took unfair advantage of their friends' trust."
+      },
+      "bracket_parts": [
+        "haben",
+        "ausgenutzt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Nutze jede Chance zum Lernen konsequent aus!",
+      "translation": {
+        "ru": "Последовательно используй каждый шанс для учебы!",
+        "en": "Take consistent advantage of every opportunity to learn!"
+      },
+      "bracket_parts": [
+        "Nutze",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

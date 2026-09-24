@@ -1,0 +1,138 @@
+{
+  "id": "ersparen",
+  "infinitive": "ersparen",
+  "translation": {
+    "ru": "избавлять, сберегать (время, деньги)",
+    "en": "to spare, to save (time/effort)"
+  },
+  "level": "B2",
+  "frequency_rank": 868,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "erspart",
+    "preterite_third_singular": "ersparte",
+    "past_participle": "erspart"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erspare",
+      "du": "ersparst",
+      "er_sie_es": "erspart",
+      "wir": "ersparen",
+      "ihr": "erspart",
+      "sie_Sie": "ersparen"
+    },
+    "preterite": {
+      "ich": "ersparte",
+      "du": "erspartest",
+      "er_sie_es": "ersparte",
+      "wir": "ersparten",
+      "ihr": "erspartet",
+      "sie_Sie": "ersparten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "erspart"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich erspare mir die lange Anreise mit dem Auto und nehme den Zug.",
+      "translation": {
+        "ru": "Я избавляю себя от долгой дороги на машине и еду на поезде.",
+        "en": "I spare myself the long journey by car and take the train."
+      },
+      "bracket_parts": [
+        "erspare"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ersparst du dir dadurch viel unnötigen Ärger?",
+      "translation": {
+        "ru": "Ты избавляешь себя благодаря этому от лишних неприятностей?",
+        "en": "Do you spare yourself a lot of unnecessary trouble through that?"
+      },
+      "bracket_parts": [
+        "Ersparst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gute Vorbereitung erspart dem Team viel wertvolle Zeit.",
+      "translation": {
+        "ru": "Хорошая подготовка экономит команде много ценного времени.",
+        "en": "Good preparation saves the team a lot of valuable time."
+      },
+      "bracket_parts": [
+        "erspart"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir ersparen unseren Kunden komplizierte bürokratische Wege.",
+      "translation": {
+        "ru": "Мы избавляем наших клиентов от сложных бюрократических путей.",
+        "en": "We spare our customers complicated bureaucratic paths."
+      },
+      "bracket_parts": [
+        "ersparen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erspart ihr euch die Mühe einer langen Suche im Internet?",
+      "translation": {
+        "ru": "Вы избавляете себя от трудов долгих поисков в интернете?",
+        "en": "Are you sparing yourselves the effort of a long search on the internet?"
+      },
+      "bracket_parts": [
+        "Erspart"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der schnelle Rat des Experten ersparte uns hohe Kosten.",
+      "translation": {
+        "ru": "Быстрый совет эксперта сэкономил нам большие расходы.",
+        "en": "The expert's prompt advice spared us high costs."
+      },
+      "bracket_parts": [
+        "ersparte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben sich durch diese Entscheidung viele Sorgen erspart.",
+      "translation": {
+        "ru": "Они благодаря этому решению избавили себя от многих забот.",
+        "en": "They have spared themselves a lot of worries through this decision."
+      },
+      "bracket_parts": [
+        "haben",
+        "erspart"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erspare dir den Stress und plane rechtzeitig!",
+      "translation": {
+        "ru": "Избавь себя от стресса и планируй вовремя!",
+        "en": "Spare yourself the stress and plan in good time!"
+      },
+      "bracket_parts": [
+        "Erspare"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

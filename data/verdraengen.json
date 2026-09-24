@@ -1,0 +1,137 @@
+{
+  "id": "verdraengen",
+  "infinitive": "verdrängen",
+  "translation": {
+    "ru": "вытеснять, замещать, заглушать (воспоминания)",
+    "en": "to supplant, to displace, to repress"
+  },
+  "level": "B2",
+  "frequency_rank": 992,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verdrängt",
+    "preterite_third_singular": "verdrängte",
+    "past_participle": "verdrängt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verdränge",
+      "du": "verdrängst",
+      "er_sie_es": "verdrängt",
+      "wir": "verdrängen",
+      "ihr": "verdrängt",
+      "sie_Sie": "verdrängen"
+    },
+    "preterite": {
+      "ich": "verdrängte",
+      "du": "verdrängtest",
+      "er_sie_es": "verdrängte",
+      "wir": "verdrängten",
+      "ihr": "verdrängtet",
+      "sie_Sie": "verdrängten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verdrängt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich verdränge negative Gedanken gerne durch sportliche Aktivitäten.",
+      "translation": {
+        "ru": "Я охотно вытесняю негативные мысли занятиями спортом.",
+        "en": "I like to displace negative thoughts through sports activities."
+      },
+      "bracket_parts": [
+        "verdränge"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verdrängst du die anstehenden Probleme, anstatt sie mutig zu lösen?",
+      "translation": {
+        "ru": "Ты вытесняешь накопившиеся проблемы вместо того, чтобы смело их решать?",
+        "en": "Are you repressing the pending problems instead of solving them bravely?"
+      },
+      "bracket_parts": [
+        "Verdrängst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die neue Technologie verdrängt veraltete Systeme rasch vom Markt.",
+      "translation": {
+        "ru": "Новая технология быстро вытесняет устаревшие системы с рынка.",
+        "en": "The new technology rapidly displaces outdated systems from the market."
+      },
+      "bracket_parts": [
+        "verdrängt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verdrängen keine wichtigen Themen aus der öffentlichen Debatte.",
+      "translation": {
+        "ru": "Мы не вытесняем важные темы из общественной дискуссии.",
+        "en": "We do not push important topics out of public debate."
+      },
+      "bracket_parts": [
+        "verdrängen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verdrängt ihr eure Ängste vor Veränderungen im Berufsleben?",
+      "translation": {
+        "ru": "Вытесняете ли вы свои страхи перед переменами в профессиональной жизни?",
+        "en": "Are you guys repressing your fears of changes in professional life?"
+      },
+      "bracket_parts": [
+        "Verdrängt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er verdrängte das traumatische Erlebnis jahrelang aus seinem Gedächtnis.",
+      "translation": {
+        "ru": "Он годами вытеснял травмирующее событие из своей памяти.",
+        "en": "He repressed the traumatic experience from his memory for years."
+      },
+      "bracket_parts": [
+        "verdrängte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Online-Shops haben viele kleine Fachgeschäfte aus den Innenstädten verdrängt.",
+      "translation": {
+        "ru": "Интернет-магазины вытеснили многие мелкие специализированные магазины из центров городов.",
+        "en": "Online stores have displaced many small specialized shops from city centers."
+      },
+      "bracket_parts": [
+        "haben",
+        "verdrängt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verdränge keine Warnsignale deines Körpers bei Überarbeitung!",
+      "translation": {
+        "ru": "Не заглушай тревожные сигналы своего тела при переутомлении!",
+        "en": "Do not ignore warning signs from your body when overworked!"
+      },
+      "bracket_parts": [
+        "Verdränge"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

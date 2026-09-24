@@ -1,0 +1,138 @@
+{
+  "id": "schildern",
+  "infinitive": "schildern",
+  "translation": {
+    "ru": "описывать, изображать",
+    "en": "to describe, to depict, to portray"
+  },
+  "level": "B1",
+  "frequency_rank": 715,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "schildert",
+    "preterite_third_singular": "schilderte",
+    "past_participle": "geschildert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schildere",
+      "du": "schilderst",
+      "er_sie_es": "schildert",
+      "wir": "schildern",
+      "ihr": "schildert",
+      "sie_Sie": "schildern"
+    },
+    "preterite": {
+      "ich": "schilderte",
+      "du": "schildertest",
+      "er_sie_es": "schilderte",
+      "wir": "schilderten",
+      "ihr": "schildertet",
+      "sie_Sie": "schilderten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geschildert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich schildere meine Erlebnisse in einem Tagebuch.",
+      "translation": {
+        "ru": "Я описываю свои переживания в дневнике.",
+        "en": "I describe my experiences in a diary."
+      },
+      "bracket_parts": [
+        "schildere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du schilderst den Unfallablauf sehr genau.",
+      "translation": {
+        "ru": "Ты очень точно описываешь ход аварии.",
+        "en": "You describe the accident sequence very accurately."
+      },
+      "bracket_parts": [
+        "schilderst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Zeuge schildert die Situation vor Gericht.",
+      "translation": {
+        "ru": "Свидетель описывает ситуацию в суде.",
+        "en": "The witness describes the situation in court."
+      },
+      "bracket_parts": [
+        "schildert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schildern dem Chef das aktuelle Problem.",
+      "translation": {
+        "ru": "Мы описываем шефу текущую проблему.",
+        "en": "We describe the current problem to the boss."
+      },
+      "bracket_parts": [
+        "schildern"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr schildert eure Reiseabenteuer sehr lebhaft.",
+      "translation": {
+        "ru": "Вы очень живо описываете свои приключения в путешествии.",
+        "en": "You describe your travel adventures very vividly."
+      },
+      "bracket_parts": [
+        "schildert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Autor schilderte das Leben im 19. Jahrhundert.",
+      "translation": {
+        "ru": "Автор описывал жизнь в 19 веке.",
+        "en": "The author portrayed life in the 19th century."
+      },
+      "bracket_parts": [
+        "schilderte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben den Vorfall der Polizei ausführlich geschildert.",
+      "translation": {
+        "ru": "Они подробно описали происшествие полиции.",
+        "en": "They described the incident in detail to the police."
+      },
+      "bracket_parts": [
+        "haben",
+        "geschildert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schildere uns bitte kurz deine Eindrücke!",
+      "translation": {
+        "ru": "Опиши нам, пожалуйста, кратко свои впечатления!",
+        "en": "Please describe your impressions briefly to us!"
+      },
+      "bracket_parts": [
+        "Schildere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

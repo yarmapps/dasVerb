@@ -1,0 +1,143 @@
+{
+  "id": "etablieren",
+  "infinitive": "etablieren",
+  "translation": {
+    "ru": "утверждать, основывать, укреплять",
+    "en": "to establish"
+  },
+  "level": "B2",
+  "frequency_rank": 734,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "etabliert",
+    "preterite_third_singular": "etablierte",
+    "past_participle": "etabliert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "etabliere",
+      "du": "etablierst",
+      "er_sie_es": "etabliert",
+      "wir": "etablieren",
+      "ihr": "etabliert",
+      "sie_Sie": "etablieren"
+    },
+    "preterite": {
+      "ich": "etablierte",
+      "du": "etabliertest",
+      "er_sie_es": "etablierte",
+      "wir": "etablierten",
+      "ihr": "etabliertet",
+      "sie_Sie": "etablierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "etabliert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich etabliere neue Standards für unser Softwareprojekt.",
+      "translation": {
+        "ru": "Я внедряю новые стандарты для нашего программного проекта.",
+        "en": "I establish new standards for our software project."
+      },
+      "bracket_parts": [
+        "etabliere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du etablierst dein Unternehmen erfolgreich auf dem Markt.",
+      "translation": {
+        "ru": "Ты успешно укрепляешь свое предприятие на рынке.",
+        "en": "You establish your company successfully in the market."
+      },
+      "bracket_parts": [
+        "etablierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Marke etabliert sich weltweit bei jungen Kunden.",
+      "translation": {
+        "ru": "Бренд утверждается по всему миру среди молодых покупателей.",
+        "en": "The brand establishes itself worldwide among young customers."
+      },
+      "bracket_parts": [
+        "etabliert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir etablieren eine neue Kultur der offenen Zusammenarbeit.",
+      "translation": {
+        "ru": "Мы внедряем новую культуру открытого сотрудничества.",
+        "en": "We establish a new culture of open collaboration."
+      },
+      "bracket_parts": [
+        "etablieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Etabliert ihr diesen Service auch in anderen Ländern?",
+      "translation": {
+        "ru": "Вы внедряете эту услугу и в других странах?",
+        "en": "Are you establishing this service in other countries as well?"
+      },
+      "bracket_parts": [
+        "Etabliert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Künstler etablierte seinen unverwechselbaren Stil schnell.",
+      "translation": {
+        "ru": "Художник быстро утвердил свой неповторимый стиль.",
+        "en": "The artist quickly established his distinctive style."
+      },
+      "bracket_parts": [
+        "etablierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Startup hat sich fest in der Branche etabliert.",
+      "translation": {
+        "ru": "Стартап прочно закрепился в отрасли.",
+        "en": "The startup has firmly established itself in the industry."
+      },
+      "bracket_parts": [
+        "hat",
+        "etabliert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Etabliere feste Gewohnheiten für dein tägliches Lernen!",
+      "translation": {
+        "ru": "Сформируй твердые привычки для ежедневной учебы!",
+        "en": "Establish solid habits for your daily learning!"
+      },
+      "bracket_parts": [
+        "Etabliere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "bedauern",
+  "infinitive": "bedauern",
+  "translation": {
+    "ru": "сожалеть, сочувствовать",
+    "en": "to regret, to feel sorry for"
+  },
+  "level": "B1",
+  "frequency_rank": 829,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "bedauert",
+    "preterite_third_singular": "bedauerte",
+    "past_participle": "bedauert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bedauere",
+      "du": "bedauerst",
+      "er_sie_es": "bedauert",
+      "wir": "bedauern",
+      "ihr": "bedauert",
+      "sie_Sie": "bedauern"
+    },
+    "preterite": {
+      "ich": "bedauerte",
+      "du": "bedauertest",
+      "er_sie_es": "bedauerte",
+      "wir": "bedauerten",
+      "ihr": "bedauertet",
+      "sie_Sie": "bedauerten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "bedauert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich bedauere meine unüberlegte Äußerung zutiefst.",
+      "translation": {
+        "ru": "Я глубоко сожалею о своем необдуманном высказывании.",
+        "en": "I deeply regret my thoughtless remark."
+      },
+      "bracket_parts": [
+        "bedauere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bedauerst du deine Entscheidung von damals?",
+      "translation": {
+        "ru": "Ты сожалеешь о своем тогдашнем решении?",
+        "en": "Do you regret your decision from back then?"
+      },
+      "bracket_parts": [
+        "Bedauerst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Chef bedauert den Weggang der geschätzten Mitarbeiterin.",
+      "translation": {
+        "ru": "Шеф сожалеет об уходе ценной сотрудницы.",
+        "en": "The boss regrets the departure of the valued employee."
+      },
+      "bracket_parts": [
+        "bedauert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bedauern die entstandenen Unannehmlichkeiten sehr.",
+      "translation": {
+        "ru": "Мы очень сожалеем о возникших неудобствах.",
+        "en": "We very much regret the inconveniences caused."
+      },
+      "bracket_parts": [
+        "bedauern"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bedauert ihr eure Absage für das Fest?",
+      "translation": {
+        "ru": "Вы сожалеете о своем отказе от участия в празднике?",
+        "en": "Do you guys regret your cancellation for the party?"
+      },
+      "bracket_parts": [
+        "Bedauert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie bedauerte ihren Fehler noch viele Jahre lang.",
+      "translation": {
+        "ru": "Она сожалела о своей ошибке еще многие годы.",
+        "en": "She regretted her mistake for many years to come."
+      },
+      "bracket_parts": [
+        "bedauerte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Niemand hat diesen mutigen Schritt jemals bedauert.",
+      "translation": {
+        "ru": "Никто никогда не пожалел об этом смелом шаге.",
+        "en": "Nobody has ever regretted this brave step."
+      },
+      "bracket_parts": [
+        "hat",
+        "bedauert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bedauere nicht die Vergangenheit, sondern blicke nach vorne!",
+      "translation": {
+        "ru": "Не жалей о прошлом, а смотри вперед!",
+        "en": "Do not regret the past, but look forward!"
+      },
+      "bracket_parts": [
+        "Bedauere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

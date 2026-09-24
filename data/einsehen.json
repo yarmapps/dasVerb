@@ -1,0 +1,144 @@
+{
+  "id": "einsehen",
+  "infinitive": "einsehen",
+  "translation": {
+    "ru": "осознавать, признавать (ошибку), просматривать (документы)",
+    "en": "to see, to realize, to inspect/examine"
+  },
+  "level": "B1",
+  "frequency_rank": 945,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "sieht ein",
+    "preterite_third_singular": "sah ein",
+    "past_participle": "eingesehen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "sehe ein",
+      "du": "siehst ein",
+      "er_sie_es": "sieht ein",
+      "wir": "sehen ein",
+      "ihr": "seht ein",
+      "sie_Sie": "sehen ein"
+    },
+    "preterite": {
+      "ich": "sah ein",
+      "du": "sahst ein",
+      "er_sie_es": "sah ein",
+      "wir": "sahen ein",
+      "ihr": "saht ein",
+      "sie_Sie": "sahen ein"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "eingesehen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich sehe meinen begangenen Fehler vollkommen ein und entschuldige mich.",
+      "translation": {
+        "ru": "Я полностью осознаю свою ошибку и прошу прощения.",
+        "en": "I completely realize my mistake and apologize."
+      },
+      "bracket_parts": [
+        "sehe",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Siehst du endlich ein, dass dieser Plan nicht funktionieren kann?",
+      "translation": {
+        "ru": "Ты наконец признаешь, что этот план не может сработать?",
+        "en": "Do you finally see that this plan cannot work?"
+      },
+      "bracket_parts": [
+        "Siehst",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Chef sieht die Notwendigkeit von personellen Veränderungen ein.",
+      "translation": {
+        "ru": "Начальник осознает необходимость кадровых изменений.",
+        "en": "The boss sees the necessity of personnel changes."
+      },
+      "bracket_parts": [
+        "sieht",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir sehen die Prüfungsakten vor der offiziellen Vergabe ein.",
+      "translation": {
+        "ru": "Мы знакомимся с экзаменационными материалами перед официальным оглашением.",
+        "en": "We inspect the examination files before the official announcement."
+      },
+      "bracket_parts": [
+        "sehen",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Seht ihr die Bedeutung dieses geschichtlichen Ereignisses ein?",
+      "translation": {
+        "ru": "Понимаете ли вы значение этого исторического события?",
+        "en": "Do you guys realize the significance of this historical event?"
+      },
+      "bracket_parts": [
+        "Seht",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Nach langem Zögern sah der Politiker sein Fehlverhalten ein.",
+      "translation": {
+        "ru": "После долгих колебаний политик признал свой проступок.",
+        "en": "After long hesitation, the politician admitted his misconduct."
+      },
+      "bracket_parts": [
+        "sah",
+        "ein"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Anwalt hat alle vertraulichen Akten vor Gericht eingesehen.",
+      "translation": {
+        "ru": "Адвокат ознакомился со всеми конфиденциальными материалами в суде.",
+        "en": "The lawyer inspected all confidential files in court."
+      },
+      "bracket_parts": [
+        "hat",
+        "eingesehen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Sieh bitte ein, dass Sturheit in diesem Konflikt nicht weiterhilft!",
+      "translation": {
+        "ru": "Пойми, пожалуйста, что упрямство в этом конфликте не поможет!",
+        "en": "Please realize that stubbornness does not help in this conflict!"
+      },
+      "bracket_parts": [
+        "Sieh",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

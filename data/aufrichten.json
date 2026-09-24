@@ -1,0 +1,144 @@
+{
+  "id": "aufrichten",
+  "infinitive": "aufrichten",
+  "translation": {
+    "ru": "выпрямлять, поднимать, подбадривать/утешать",
+    "en": "to straighten up, to erect, to comfort/encourage"
+  },
+  "level": "B2",
+  "frequency_rank": 974,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "richtet auf",
+    "preterite_third_singular": "richtete auf",
+    "past_participle": "aufgerichtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "richte auf",
+      "du": "richtest auf",
+      "er_sie_es": "richtet auf",
+      "wir": "richten auf",
+      "ihr": "richtet auf",
+      "sie_Sie": "richten auf"
+    },
+    "preterite": {
+      "ich": "richtete auf",
+      "du": "richtetest auf",
+      "er_sie_es": "richtete auf",
+      "wir": "richteten auf",
+      "ihr": "richtetet auf",
+      "sie_Sie": "richteten auf"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "aufgerichtet"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich richte meine traurige Freundin mit lieben Worten auf.",
+      "translation": {
+        "ru": "Я подбадриваю грустную подругу добрыми словами.",
+        "en": "I encourage my sad friend with kind words."
+      },
+      "bracket_parts": [
+        "richte",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Richtest du deinen Oberkörper bei den Rückenübungen gerade auf?",
+      "translation": {
+        "ru": "Выпрямляешь ли ты корпус ровно при упражнениях для спины?",
+        "en": "Do you straighten your upper body during back exercises?"
+      },
+      "bracket_parts": [
+        "Richtest",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Patient richtet sich langsam im Krankenbett auf.",
+      "translation": {
+        "ru": "Пациент медленно приподнимается на больничной койке.",
+        "en": "The patient slowly straightens up in the hospital bed."
+      },
+      "bracket_parts": [
+        "richtet",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir richten den umgestürzten Zaun im Garten wieder auf.",
+      "translation": {
+        "ru": "Мы снова поднимаем поваленный забор в саду.",
+        "en": "We set up the fallen fence in the garden again."
+      },
+      "bracket_parts": [
+        "richten",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Richtet ihr entmutigte Kollegen in schwierigen Zeiten auf?",
+      "translation": {
+        "ru": "Подбадриваете ли вы павших духом коллег в трудные времена?",
+        "en": "Do you guys cheer up discouraged colleagues in difficult times?"
+      },
+      "bracket_parts": [
+        "Richtet",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Arzt richtete den verletzten Sportler behutsam auf.",
+      "translation": {
+        "ru": "Врач осторожно приподнял травмированного спортсмена.",
+        "en": "The doctor gently straightened up the injured athlete."
+      },
+      "bracket_parts": [
+        "richtete",
+        "auf"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Deine herzliche Nachricht hat mich sehr aufgerichtet.",
+      "translation": {
+        "ru": "Твое сердечное сообщение очень меня приободрило.",
+        "en": "Your warm message has cheered me up very much."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgerichtet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Richte deinen Kopf stolz auf und blicke nach vorne!",
+      "translation": {
+        "ru": "Подними гордо голову и смотри вперед!",
+        "en": "Hold your head up proudly and look forward!"
+      },
+      "bracket_parts": [
+        "Richte",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

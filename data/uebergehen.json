@@ -1,0 +1,154 @@
+{
+  "id": "uebergehen",
+  "infinitive": "übergehen",
+  "translation": {
+    "ru": "переходить (к др. теме/в собственность), игнорировать/обделять",
+    "en": "to pass over, to transition, to merge into"
+  },
+  "level": "B2",
+  "frequency_rank": 668,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "über",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "übergehen",
+    "present_3sg": "geht über",
+    "praeteritum_3sg": "ging über",
+    "partizip_2": "übergegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe über",
+      "du": "gehst über",
+      "er_sie_es": "geht über",
+      "wir": "gehen über",
+      "ihr": "geht über",
+      "sie_Sie": "gehen über"
+    },
+    "praeteritum": {
+      "ich": "ging über",
+      "du": "gingst über",
+      "er_sie_es": "ging über",
+      "wir": "gingen über",
+      "ihr": "gingt über",
+      "sie_Sie": "gingen über"
+    },
+    "perfekt": {
+      "ich": "bin übergegangen",
+      "du": "bist übergegangen",
+      "er_sie_es": "ist übergegangen",
+      "wir": "sind übergegangen",
+      "ihr": "seid übergegangen",
+      "sie_Sie": "sind übergegangen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "zu",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich gehe nun zum nächsten Punkt der Tagesordnung über.",
+      "translation": {
+        "ru": "Я теперь перехожу к следующему пункту повестки дня.",
+        "en": "I now move on to the next item on the agenda."
+      },
+      "bracket_parts": [
+        "gehe",
+        "über"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gehst du nach der Einleitung direkt zu den Beispielen über?",
+      "translation": {
+        "ru": "Ты после введения перейдешь прямо к примерам?",
+        "en": "Do you move on directly to the examples after the introduction?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "über"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Eigentum geht nach der Zahlung auf den Käufer über.",
+      "translation": {
+        "ru": "Собственность переходит к покупателю после оплаты.",
+        "en": "Ownership transfers to the buyer after payment."
+      },
+      "bracket_parts": [
+        "geht",
+        "über"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gehen zur praktischen Übung über.",
+      "translation": {
+        "ru": "Мы переходим к практическому упражнению.",
+        "en": "We move on to the practical exercise."
+      },
+      "bracket_parts": [
+        "gehen",
+        "über"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr geht nahtlos in die nächste Phase des Projekts über.",
+      "translation": {
+        "ru": "Вы плавно переходите в следующую фазу проекта.",
+        "en": "You transition seamlessly into the next phase of the project."
+      },
+      "bracket_parts": [
+        "geht",
+        "über"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Regen ging damals plötzlich in Schnee über.",
+      "translation": {
+        "ru": "Дождь тогда внезапно перешел в снег.",
+        "en": "The rain suddenly turned into snow back then."
+      },
+      "bracket_parts": [
+        "ging",
+        "über"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das Unternehmen ist in den Besitz der Familie übergegangen.",
+      "translation": {
+        "ru": "Предприятие перешло во владение семьи.",
+        "en": "The company has passed into the possession of the family."
+      },
+      "bracket_parts": [
+        "ist",
+        "übergegangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Geh bitte ohne lange Pause zum nächsten Thema über!",
+      "translation": {
+        "ru": "Переходи, пожалуйста, без долгой паузы к следующей теме!",
+        "en": "Please move on to the next topic without a long pause!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "über"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

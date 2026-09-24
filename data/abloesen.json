@@ -1,0 +1,150 @@
+{
+  "id": "abloesen",
+  "infinitive": "ablösen",
+  "translation": {
+    "ru": "отклеивать, сменять (дежурного), отделять",
+    "en": "to detach, to peel off, to replace/relieve"
+  },
+  "level": "B2",
+  "frequency_rank": 801,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "löst ab",
+    "preterite_third_singular": "löste ab",
+    "past_participle": "abgelöst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "löse ab",
+      "du": "löst ab",
+      "er_sie_es": "löst ab",
+      "wir": "lösen ab",
+      "ihr": "löst ab",
+      "sie_Sie": "lösen ab"
+    },
+    "preterite": {
+      "ich": "löste ab",
+      "du": "löstest ab",
+      "er_sie_es": "löste ab",
+      "wir": "lösten ab",
+      "ihr": "löstet ab",
+      "sie_Sie": "lösten ab"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "abgelöst"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "von",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich löse den alten Aufkleber vorsichtig vom Glas ab.",
+      "translation": {
+        "ru": "Я осторожно отклеиваю старую наклейку со стекла.",
+        "en": "I carefully peel the old sticker off the glass."
+      },
+      "bracket_parts": [
+        "löse",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Löst du mich an der Kasse um zwölf Uhr ab?",
+      "translation": {
+        "ru": "Ты сменишь меня на кассе в двенадцать часов?",
+        "en": "Will you relieve me at the cash register at twelve o'clock?"
+      },
+      "bracket_parts": [
+        "Löst",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die neue Technologie löst die alte Methode bald ab.",
+      "translation": {
+        "ru": "Новая технология скоро сменит старый метод.",
+        "en": "The new technology will soon replace the old method."
+      },
+      "bracket_parts": [
+        "löst",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir lösen die Wache pünktlich nach zwei Stunden ab.",
+      "translation": {
+        "ru": "Мы сменяем караул вовремя через два часа.",
+        "en": "We relieve the guard punctually after two hours."
+      },
+      "bracket_parts": [
+        "lösen",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Löst ihr das Pflaster ganz langsam von der Haut ab?",
+      "translation": {
+        "ru": "Вы очень медленно отклеиваете пластырь с кожи?",
+        "en": "Are you peeling the band-aid off the skin very slowly?"
+      },
+      "bracket_parts": [
+        "Löst",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Kollege löste mich mitten in der Nachtschicht ab.",
+      "translation": {
+        "ru": "Коллега сменил меня посреди ночной смены.",
+        "en": "The colleague relieved me in the middle of the night shift."
+      },
+      "bracket_parts": [
+        "löste",
+        "ab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Farbe hat sich wegen der Nässe von der Wand abgelöst.",
+      "translation": {
+        "ru": "Краска отслоилась от стены из-за сырости.",
+        "en": "The paint peeled off the wall due to moisture."
+      },
+      "bracket_parts": [
+        "hat",
+        "abgelöst"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Löse das Etikett mit etwas warmem Wasser ab!",
+      "translation": {
+        "ru": "Отклей этикетку теплой водой!",
+        "en": "Peel off the label with some warm water!"
+      },
+      "bracket_parts": [
+        "Löse",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

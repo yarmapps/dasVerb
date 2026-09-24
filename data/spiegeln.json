@@ -1,0 +1,143 @@
+{
+  "id": "spiegeln",
+  "infinitive": "spiegeln",
+  "translation": {
+    "ru": "отражать, зеркалить, отражаться",
+    "en": "to reflect, to mirror"
+  },
+  "level": "B1",
+  "frequency_rank": 929,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "spiegelt",
+    "preterite_third_singular": "spiegelte",
+    "past_participle": "gespiegelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "spiegele",
+      "du": "spiegelst",
+      "er_sie_es": "spiegelt",
+      "wir": "spiegeln",
+      "ihr": "spiegelt",
+      "sie_Sie": "spiegeln"
+    },
+    "preterite": {
+      "ich": "spiegelte",
+      "du": "spiegeltest",
+      "er_sie_es": "spiegelte",
+      "wir": "spiegelten",
+      "ihr": "spiegeltet",
+      "sie_Sie": "spiegelten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gespiegelt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich spiegele in meinem Text die aktuelle Stimmung der Gesellschaft wider.",
+      "translation": {
+        "ru": "В своем тексте я отражаю текущее настроение общества.",
+        "en": "In my text, I reflect the current mood of society."
+      },
+      "bracket_parts": [
+        "spiegele"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Spiegelst du die Festplatte zur doppelten Sicherheit auf einen Server?",
+      "translation": {
+        "ru": "Ты зеркалишь жесткий диск на сервер для двойной безопасности?",
+        "en": "Are you mirroring the hard drive to a server for double security?"
+      },
+      "bracket_parts": [
+        "Spiegelst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das klare Wasser spiegelt die schneebedeckten Berge wider.",
+      "translation": {
+        "ru": "Прозрачная вода отражает заснеженные горы.",
+        "en": "The clear water reflects the snow-covered mountains."
+      },
+      "bracket_parts": [
+        "spiegelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir spiegeln die wichtigsten Daten täglich auf ein Backup-System.",
+      "translation": {
+        "ru": "Мы ежедневно зеркалим важнейшие данные на резервную систему.",
+        "en": "We mirror the most important data daily to a backup system."
+      },
+      "bracket_parts": [
+        "spiegeln"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Spiegelt ihr die Ergebnisse der Konferenz in eurem Bericht wider?",
+      "translation": {
+        "ru": "Отражаете ли вы результаты конференции в своем отчете?",
+        "en": "Do you guys reflect the results of the conference in your report?"
+      },
+      "bracket_parts": [
+        "Spiegelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der ruhige Bergsee spiegelte den wunderschönen Sonnenuntergang.",
+      "translation": {
+        "ru": "Спокойное горное озеро отражало великолепный закат.",
+        "en": "The calm mountain lake reflected the beautiful sunset."
+      },
+      "bracket_parts": [
+        "spiegelte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Medien haben die öffentliche Debatte sachlich gespiegelt.",
+      "translation": {
+        "ru": "СМИ объективно отразили общественную дискуссию.",
+        "en": "The media objectively reflected the public debate."
+      },
+      "bracket_parts": [
+        "haben",
+        "gespiegelt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Spiegle deine wahren Gefühle in der Musik wider!",
+      "translation": {
+        "ru": "Отражай свои истинные чувства в музыке!",
+        "en": "Reflect your true feelings in the music!"
+      },
+      "bracket_parts": [
+        "Spiegle"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

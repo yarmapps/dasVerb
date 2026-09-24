@@ -1,0 +1,147 @@
+{
+  "id": "bewahren",
+  "infinitive": "bewahren",
+  "translation": {
+    "ru": "сохранять, беречь, уберегать (от чего-л.)",
+    "en": "to preserve, to maintain, to protect"
+  },
+  "level": "B2",
+  "frequency_rank": 681,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bewahren",
+    "present_3sg": "bewahrt",
+    "praeteritum_3sg": "bewahrte",
+    "partizip_2": "bewahrt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bewahre",
+      "du": "bewahrst",
+      "er_sie_es": "bewahrt",
+      "wir": "bewahren",
+      "ihr": "bewahrt",
+      "sie_Sie": "bewahren"
+    },
+    "praeteritum": {
+      "ich": "bewahrte",
+      "du": "bewahrtest",
+      "er_sie_es": "bewahrte",
+      "wir": "bewahrten",
+      "ihr": "bewahrtet",
+      "sie_Sie": "bewahrten"
+    },
+    "perfekt": {
+      "ich": "habe bewahrt",
+      "du": "hast bewahrt",
+      "er_sie_es": "hat bewahrt",
+      "wir": "haben bewahrt",
+      "ihr": "habt bewahrt",
+      "sie_Sie": "haben bewahrt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "vor",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich bewahre immer die Ruhe in schwierigen Situationen.",
+      "translation": {
+        "ru": "Я всегда сохраняю спокойствие в трудных ситуациях.",
+        "en": "I always keep calm in difficult situations."
+      },
+      "bracket_parts": [
+        "bewahre"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bewahrst du die alten Fotos sicher in der Schatulle auf?",
+      "translation": {
+        "ru": "Ты бережешь старые фотографии в шкатулке?",
+        "en": "Do you keep the old photos safely in the box?"
+      },
+      "bracket_parts": [
+        "Bewahrst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schutzhelm bewahrt den Bauarbeiter vor schweren Kopfverletzungen.",
+      "translation": {
+        "ru": "Защитная каска уберегает строителя от тяжелых травм головы.",
+        "en": "The hard hat protects the construction worker from serious head injuries."
+      },
+      "bracket_parts": [
+        "bewahrt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bewahren die wertvollen Traditionen unserer Vorfahren.",
+      "translation": {
+        "ru": "Мы храним ценные традиции наших предков.",
+        "en": "We preserve the valuable traditions of our ancestors."
+      },
+      "bracket_parts": [
+        "bewahren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr bewahrt einen klaren Kopf trotz des Stresses.",
+      "translation": {
+        "ru": "Вы сохраняете ясную голову, несмотря на стресс.",
+        "en": "You keep a clear head despite the stress."
+      },
+      "bracket_parts": [
+        "bewahrt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein glücklicher Zufall bewahrte uns damals vor einem Unfall.",
+      "translation": {
+        "ru": "Счастливый случай тогда уберег нас от аварии.",
+        "en": "A lucky coincidence protected us from an accident back then."
+      },
+      "bracket_parts": [
+        "bewahrte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Stadt hat ihr historisches Zentrum über Jahrhunderte bewahrt.",
+      "translation": {
+        "ru": "Город сохранил свой исторический центр на протяжении веков.",
+        "en": "The city has preserved its historic center over centuries."
+      },
+      "bracket_parts": [
+        "hat",
+        "bewahrt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bewahre stets die Fassung und bleibe gelassen!",
+      "translation": {
+        "ru": "Всегда сохраняй самообладание и оставайся спокойным!",
+        "en": "Always keep your composure and remain calm!"
+      },
+      "bracket_parts": [
+        "Bewahre"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

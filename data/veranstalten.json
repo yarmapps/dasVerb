@@ -1,0 +1,138 @@
+{
+  "id": "veranstalten",
+  "infinitive": "veranstalten",
+  "translation": {
+    "ru": "организовывать, устраивать (мероприятие)",
+    "en": "to organize, to host, to hold (an event)"
+  },
+  "level": "B1",
+  "frequency_rank": 814,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "veranstaltet",
+    "preterite_third_singular": "veranstaltete",
+    "past_participle": "veranstaltet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "veranstalte",
+      "du": "veranstaltest",
+      "er_sie_es": "veranstaltet",
+      "wir": "veranstalten",
+      "ihr": "veranstaltet",
+      "sie_Sie": "veranstalten"
+    },
+    "preterite": {
+      "ich": "veranstaltete",
+      "du": "veranstaltetest",
+      "er_sie_es": "veranstaltete",
+      "wir": "veranstalteten",
+      "ihr": "veranstaltetet",
+      "sie_Sie": "veranstalteten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "veranstaltet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich veranstalte am Samstag eine kleine Geburtstagsfeier.",
+      "translation": {
+        "ru": "Я устраиваю в субботу небольшую вечеринку по случаю дня рождения.",
+        "en": "I am organizing a small birthday party on Saturday."
+      },
+      "bracket_parts": [
+        "veranstalte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Veranstaltest du wieder ein Sommerfest im Verein?",
+      "translation": {
+        "ru": "Ты снова организуешь летний праздник в клубе?",
+        "en": "Are you organizing a summer festival in the club again?"
+      },
+      "bracket_parts": [
+        "Veranstaltest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Stadt veranstaltet jedes Jahr einen großen Weihnachtsmarkt.",
+      "translation": {
+        "ru": "Город каждый год организует большую рождественскую ярмарку.",
+        "en": "The city organizes a large Christmas market every year."
+      },
+      "bracket_parts": [
+        "veranstaltet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir veranstalten einen Wohltätigkeitslauf für den guten Zweck.",
+      "translation": {
+        "ru": "Мы организуем благотворительный забег на доброе дело.",
+        "en": "We host a charity run for a good cause."
+      },
+      "bracket_parts": [
+        "veranstalten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Veranstaltet ihr diesen spannenden Workshop regelmäßig?",
+      "translation": {
+        "ru": "Вы проводите этот увлекательный мастер-класс регулярно?",
+        "en": "Do you host this exciting workshop regularly?"
+      },
+      "bracket_parts": [
+        "Veranstaltet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Schule veranstaltete ein wunderbares Theaterstück.",
+      "translation": {
+        "ru": "Школа поставила чудесный спектакль.",
+        "en": "The school organized a wonderful play."
+      },
+      "bracket_parts": [
+        "veranstaltete"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben eine hochkarätige Konferenz in Berlin veranstaltet.",
+      "translation": {
+        "ru": "Они организовали высококлассную конференцию в Берлине.",
+        "en": "They organized a high-caliber conference in Berlin."
+      },
+      "bracket_parts": [
+        "haben",
+        "veranstaltet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Veranstalte das Treffen an einem gut erreichbaren Ort!",
+      "translation": {
+        "ru": "Организуй встречу в легкодоступном месте!",
+        "en": "Host the meeting in an easily accessible location!"
+      },
+      "bracket_parts": [
+        "Veranstalte"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

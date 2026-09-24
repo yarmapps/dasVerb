@@ -1,0 +1,137 @@
+{
+  "id": "hassen",
+  "infinitive": "hassen",
+  "translation": {
+    "ru": "ненавидеть, терпеть не мочь",
+    "en": "to hate, to detest"
+  },
+  "level": "A2",
+  "frequency_rank": 952,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "hasst",
+    "preterite_third_singular": "hasste",
+    "past_participle": "gehasst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "hasse",
+      "du": "hasst",
+      "er_sie_es": "hasst",
+      "wir": "hassen",
+      "ihr": "hasst",
+      "sie_Sie": "hassen"
+    },
+    "preterite": {
+      "ich": "hasste",
+      "du": "hasstest",
+      "er_sie_es": "hasste",
+      "wir": "hassten",
+      "ihr": "hasstet",
+      "sie_Sie": "hassten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gehasst"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich hasse es, morgens im Stau auf dem Weg zur Arbeit zu stehen.",
+      "translation": {
+        "ru": "Я ненавижу стоять по утрам в пробке по дороге на работу.",
+        "en": "I hate standing in traffic in the morning on my way to work."
+      },
+      "bracket_parts": [
+        "hasse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Hasst du Unpünktlichkeit bei wichtigen Verabredungen genauso wie ich?",
+      "translation": {
+        "ru": "Ты ненавидишь непунктуальность при важных встречах так же, как и я?",
+        "en": "Do you hate unpunctuality at important appointments as much as I do?"
+      },
+      "bracket_parts": [
+        "Hasst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er hasst kaltes, regnerisches Wetter im trüben November.",
+      "translation": {
+        "ru": "Он ненавидит холодную, дождливую погоду в пасмурном ноябре.",
+        "en": "He hates cold, rainy weather in gloomy November."
+      },
+      "bracket_parts": [
+        "hasst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir hassen Ungerechtigkeit und Diskriminierung in jeder Form.",
+      "translation": {
+        "ru": "Мы ненавидим несправедливость и дискриминацию в любой форме.",
+        "en": "We hate injustice and discrimination in any form."
+      },
+      "bracket_parts": [
+        "hassen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Hasst ihr langweilige Hausarbeiten am Wochenende?",
+      "translation": {
+        "ru": "Терпеть ли вы не можете скучные домашние дела на выходных?",
+        "en": "Do you guys hate boring chores on the weekend?"
+      },
+      "bracket_parts": [
+        "Hasst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Als Kind hasste sie Brokkoli und gekochten Spinat.",
+      "translation": {
+        "ru": "В детстве она терпеть не могла брокколи и вареный шпинат.",
+        "en": "As a child, she hated broccoli and cooked spinach."
+      },
+      "bracket_parts": [
+        "hasste"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Ich habe Lügen und Verrat schon immer zutiefst gehasst.",
+      "translation": {
+        "ru": "Я всегда глубоко ненавидел ложь и предательство.",
+        "en": "I have always deeply hated lies and betrayal."
+      },
+      "bracket_parts": [
+        "habe",
+        "gehasst"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Hasse nicht deine Gegner, sondern besiege sie mit Klugheit!",
+      "translation": {
+        "ru": "Не пылай ненавистью к противникам, а побеждай их мудростью!",
+        "en": "Do not hate your opponents, defeat them with wisdom!"
+      },
+      "bracket_parts": [
+        "Hasse"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "auskommen",
+  "infinitive": "auskommen",
+  "translation": {
+    "ru": "обходиться, ладить (с кем-л.)",
+    "en": "to manage, to get by, to get along with sb"
+  },
+  "level": "B1",
+  "frequency_rank": 825,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "kommt aus",
+    "preterite_third_singular": "kam aus",
+    "past_participle": "ausgekommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "komme aus",
+      "du": "kommst aus",
+      "er_sie_es": "kommt aus",
+      "wir": "kommen aus",
+      "ihr": "kommt aus",
+      "sie_Sie": "kommen aus"
+    },
+    "preterite": {
+      "ich": "kam aus",
+      "du": "kamst aus",
+      "er_sie_es": "kam aus",
+      "wir": "kamen aus",
+      "ihr": "kamt aus",
+      "sie_Sie": "kamen aus"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "ausgekommen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "ohne",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich komme mit meinem monatlichen Gehalt gut aus.",
+      "translation": {
+        "ru": "Я хорошо обхожусь своей ежемесячной зарплатой.",
+        "en": "I get by well on my monthly salary."
+      },
+      "bracket_parts": [
+        "komme",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Kommst du mit deinen neuen Arbeitskollegen gut aus?",
+      "translation": {
+        "ru": "Ты хорошо ладишь с новыми коллегами по работе?",
+        "en": "Do you get along well with your new work colleagues?"
+      },
+      "bracket_parts": [
+        "Kommst",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das sparsame Auto kommt mit wenig Benzin aus.",
+      "translation": {
+        "ru": "Экономичная машина обходится малым количеством бензина.",
+        "en": "The fuel-efficient car gets by on little petrol."
+      },
+      "bracket_parts": [
+        "kommt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir kommen hervorragend mit unseren Nachbarn aus.",
+      "translation": {
+        "ru": "Мы превосходно ладим с нашими соседями.",
+        "en": "We get along excellently with our neighbors."
+      },
+      "bracket_parts": [
+        "kommen",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Kommt ihr auch ohne fremde Hilfe im Urlaub aus?",
+      "translation": {
+        "ru": "Вы обходитесь в отпуске и без посторонней помощи?",
+        "en": "Do you guys manage on vacation even without outside help?"
+      },
+      "bracket_parts": [
+        "Kommt",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er kam früher mit sehr wenig Geld im Monat aus.",
+      "translation": {
+        "ru": "Раньше он обходился очень небольшими деньгами в месяц.",
+        "en": "He used to get by on very little money a month."
+      },
+      "bracket_parts": [
+        "kam",
+        "aus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie sind immer friedlich miteinander ausgekommen.",
+      "translation": {
+        "ru": "Они всегда мирно ладили друг с другом.",
+        "en": "They have always gotten along peacefully with each other."
+      },
+      "bracket_parts": [
+        "sind",
+        "ausgekommen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Komm bitte mit dem aus, was du hast!",
+      "translation": {
+        "ru": "Обходись, пожалуйста, тем, что у тебя есть!",
+        "en": "Please make do with what you have!"
+      },
+      "bracket_parts": [
+        "Komm",
+        "aus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

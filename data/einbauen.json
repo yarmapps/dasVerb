@@ -1,0 +1,154 @@
+{
+  "id": "einbauen",
+  "infinitive": "einbauen",
+  "translation": {
+    "ru": "встраивать, монтировать, устанавливать",
+    "en": "to install, to build in, to integrate"
+  },
+  "level": "B1",
+  "frequency_rank": 602,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einbauen",
+    "present_3sg": "baut ein",
+    "praeteritum_3sg": "baute ein",
+    "partizip_2": "eingebaut"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "baue ein",
+      "du": "baust ein",
+      "er_sie_es": "baut ein",
+      "wir": "bauen ein",
+      "ihr": "baut ein",
+      "sie_Sie": "bauen ein"
+    },
+    "praeteritum": {
+      "ich": "baute ein",
+      "du": "bautest ein",
+      "er_sie_es": "baute ein",
+      "wir": "bauten ein",
+      "ihr": "bautet ein",
+      "sie_Sie": "bauten ein"
+    },
+    "perfekt": {
+      "ich": "habe eingebaut",
+      "du": "hast eingebaut",
+      "er_sie_es": "hat eingebaut",
+      "wir": "haben eingebaut",
+      "ihr": "habt eingebaut",
+      "sie_Sie": "haben eingebaut"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "in",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich baue eine neue Festplatte in den Computer ein.",
+      "translation": {
+        "ru": "Я устанавливаю новый жесткий диск в компьютер.",
+        "en": "I install a new hard drive into the computer."
+      },
+      "bracket_parts": [
+        "baue",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Baust du die Waschmaschine in der Küche ein?",
+      "translation": {
+        "ru": "Ты встроишь стиральную машину на кухне?",
+        "en": "Are you installing the washing machine in the kitchen?"
+      },
+      "bracket_parts": [
+        "Baust",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Handwerker baut ein modernes Schloss in die Tür ein.",
+      "translation": {
+        "ru": "Мастер врезает современный замок в дверь.",
+        "en": "The craftsman installs a modern lock into the door."
+      },
+      "bracket_parts": [
+        "baut",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bauen die Kundenwünsche in das neue Programm ein.",
+      "translation": {
+        "ru": "Мы интегрируем пожелания клиентов в новую программу.",
+        "en": "We integrate customer wishes into the new program."
+      },
+      "bracket_parts": [
+        "bauen",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr baut energiesparende Lampen im Haus ein.",
+      "translation": {
+        "ru": "Вы устанавливаете энергосберегающие лампы в доме.",
+        "en": "You install energy-saving lights in the house."
+      },
+      "bracket_parts": [
+        "baut",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Mechaniker baute damals einen neuen Motor ein.",
+      "translation": {
+        "ru": "Механик тогда установил новый двигатель.",
+        "en": "The mechanic installed a new engine back then."
+      },
+      "bracket_parts": [
+        "baute",
+        "ein"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben die moderne Küche fachgerecht eingebaut.",
+      "translation": {
+        "ru": "Они профессионально встроили современную кухню.",
+        "en": "They installed the modern kitchen professionally."
+      },
+      "bracket_parts": [
+        "haben",
+        "eingebaut"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bau die neuen Teile sorgfältig ein!",
+      "translation": {
+        "ru": "Устанавливай новые детали тщательно!",
+        "en": "Install the new parts carefully!"
+      },
+      "bracket_parts": [
+        "Bau",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

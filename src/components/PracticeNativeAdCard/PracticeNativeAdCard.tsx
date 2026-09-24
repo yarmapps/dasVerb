@@ -9,8 +9,11 @@ import {
   NativeAdChoicesPlacement,
 } from 'react-native-google-mobile-ads';
 import { ENABLE_ADS, NATIVE_AD_UNIT_ID } from '../../ads/adConfig';
+import { isPracticeNativeAdEnabled } from '../../services/appConfigService';
 import { ThemeColors } from '../../styles/themeColors';
 import { createStyles } from './PracticeNativeAdCard.styles';
+
+export { isPracticeNativeAdEnabled };
 
 export interface PracticeNativeAdCardProps {
   isPremium: boolean;
@@ -29,9 +32,10 @@ export function PracticeNativeAdCard({
   const [hasError, setHasError] = useState(false);
   const [adHeight, setAdHeight] = useState<number | undefined>(undefined);
   const activeAdReference = useRef<NativeAd | null>(null);
+  const isFeatureEnabled = isPracticeNativeAdEnabled();
 
   useEffect(() => {
-    if (isPremium || !ENABLE_ADS || !NATIVE_AD_UNIT_ID) {
+    if (isPremium || !ENABLE_ADS || !isFeatureEnabled || !NATIVE_AD_UNIT_ID) {
       return;
     }
 
@@ -66,9 +70,9 @@ export function PracticeNativeAdCard({
       activeAdReference.current?.destroy();
       activeAdReference.current = null;
     };
-  }, [isPremium]);
+  }, [isPremium, isFeatureEnabled]);
 
-  if (isPremium || !ENABLE_ADS || hasError || !nativeAd) {
+  if (isPremium || !ENABLE_ADS || !isFeatureEnabled || hasError || !nativeAd) {
     return null;
   }
 

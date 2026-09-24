@@ -1,0 +1,143 @@
+{
+  "id": "agieren",
+  "infinitive": "agieren",
+  "translation": {
+    "ru": "действовать, поступать",
+    "en": "to act, to operate"
+  },
+  "level": "B2",
+  "frequency_rank": 892,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "agiert",
+    "preterite_third_singular": "agierte",
+    "past_participle": "agiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "agiere",
+      "du": "agierst",
+      "er_sie_es": "agiert",
+      "wir": "agieren",
+      "ihr": "agiert",
+      "sie_Sie": "agieren"
+    },
+    "preterite": {
+      "ich": "agierte",
+      "du": "agiertest",
+      "er_sie_es": "agierte",
+      "wir": "agierten",
+      "ihr": "agiertet",
+      "sie_Sie": "agierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "agiert"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "als",
+        "case": "Nominativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich agiere in Verhandlungen stets ruhig und besonnen.",
+      "translation": {
+        "ru": "На переговорах я всегда действую спокойно и рассудительно.",
+        "en": "I always act calmly and prudently in negotiations."
+      },
+      "bracket_parts": [
+        "agiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Agierst du im Konflikt als unparteiischer Vermittler?",
+      "translation": {
+        "ru": "Ты действуешь в конфликте как беспристрастный посредник?",
+        "en": "Do you act as an impartial mediator in the conflict?"
+      },
+      "bracket_parts": [
+        "Agierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Unternehmen agiert weltweit auf verschiedenen Märkten.",
+      "translation": {
+        "ru": "Компания действует по всему миру на различных рынках.",
+        "en": "The company operates globally in various markets."
+      },
+      "bracket_parts": [
+        "agiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir agieren schnell auf die veränderten Kundenbedürfnisse.",
+      "translation": {
+        "ru": "Мы быстро реагируем на изменившиеся потребности клиентов.",
+        "en": "We act quickly to changing customer needs."
+      },
+      "bracket_parts": [
+        "agieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Agiert ihr gemeinsam nach einem einheitlichen Konzept?",
+      "translation": {
+        "ru": "Вы действуете сообща по единой концепции?",
+        "en": "Are you guys acting together according to a unified concept?"
+      },
+      "bracket_parts": [
+        "Agiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Regierung agierte während der Krise sehr entschlossen.",
+      "translation": {
+        "ru": "Правительство действовало во время кризиса очень решительно.",
+        "en": "The government acted very decisively during the crisis."
+      },
+      "bracket_parts": [
+        "agierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben in dieser heiklen Angelegenheit sehr klug agiert.",
+      "translation": {
+        "ru": "Они действовали очень умно в этом щекотливом вопросе.",
+        "en": "They acted very smartly in this delicate matter."
+      },
+      "bracket_parts": [
+        "haben",
+        "agiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Agiere stets vorausschauend und überlegt!",
+      "translation": {
+        "ru": "Всегда действуй дальновидно и обдуманно!",
+        "en": "Always act with foresight and consideration!"
+      },
+      "bracket_parts": [
+        "Agiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

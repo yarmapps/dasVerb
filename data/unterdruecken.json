@@ -1,0 +1,137 @@
+{
+  "id": "unterdruecken",
+  "infinitive": "unterdrücken",
+  "translation": {
+    "ru": "подавлять (чувства/восстание), сдерживать (слезы/смех), угнетать",
+    "en": "to suppress, to repress, to oppress"
+  },
+  "level": "B2",
+  "frequency_rank": 990,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "unterdrückt",
+    "preterite_third_singular": "unterdrückte",
+    "past_participle": "unterdrückt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "unterdrücke",
+      "du": "unterdrückst",
+      "er_sie_es": "unterdrückt",
+      "wir": "unterdrücken",
+      "ihr": "unterdrückt",
+      "sie_Sie": "unterdrücken"
+    },
+    "preterite": {
+      "ich": "unterdrückte",
+      "du": "unterdrücktest",
+      "er_sie_es": "unterdrückte",
+      "wir": "unterdrückten",
+      "ihr": "unterdrücktet",
+      "sie_Sie": "unterdrückten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "unterdrückt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich unterdrücke mein Lachen während des ernsten Vortrags nur mühsam.",
+      "translation": {
+        "ru": "Я с трудом сдерживаю смех во время серьезного доклада.",
+        "en": "I suppress my laughter with difficulty during the serious presentation."
+      },
+      "bracket_parts": [
+        "unterdrücke"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Unterdrückst du deine wahren Gefühle oft aus Angst vor Ablehnung?",
+      "translation": {
+        "ru": "Ты часто подавляешь свои истинные чувства из страха быть отвергнутым?",
+        "en": "Do you often suppress your true feelings for fear of rejection?"
+      },
+      "bracket_parts": [
+        "Unterdrückst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Regime unterdrückt die freie Meinungsäußerung der Bevölkerung.",
+      "translation": {
+        "ru": "Режим подавляет свободное выражение мнений населения.",
+        "en": "The regime suppresses the population's freedom of expression."
+      },
+      "bracket_parts": [
+        "unterdrückt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir unterdrücken keinen berechtigten Protest in unserer Organisation.",
+      "translation": {
+        "ru": "Мы не подавляем обоснованный протест в нашей организации.",
+        "en": "We do not suppress any justified protest in our organization."
+      },
+      "bracket_parts": [
+        "unterdrücken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Unterdrückt ihr eure Tränen bei traurigen Abschieden?",
+      "translation": {
+        "ru": "Сдерживаете ли вы слезы при печальных расставаниях?",
+        "en": "Do you guys hold back your tears during sad farewells?"
+      },
+      "bracket_parts": [
+        "Unterdrückt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei unterdrückte die Unruhen in der Innenstadt schnell.",
+      "translation": {
+        "ru": "Полиция быстро подавила беспорядки в центре города.",
+        "en": "The police quickly suppressed the unrest in the city center."
+      },
+      "bracket_parts": [
+        "unterdrückte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie hat ihre Wut über die Ungerechtigkeit mühsam unterdrückt.",
+      "translation": {
+        "ru": "Она с трудом подавила свою ярость из-за несправедливости.",
+        "en": "She with difficulty suppressed her anger at the injustice."
+      },
+      "bracket_parts": [
+        "hat",
+        "unterdrückt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Unterdrücke niemals deine eigene Persönlichkeit für andere!",
+      "translation": {
+        "ru": "Никогда не подавляй свою индивидуальность ради других!",
+        "en": "Never suppress your own personality for others!"
+      },
+      "bracket_parts": [
+        "Unterdrücke"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

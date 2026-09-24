@@ -1,0 +1,148 @@
+{
+  "id": "ueberlassen",
+  "infinitive": "überlassen",
+  "translation": {
+    "ru": "предоставлять, уступать, доверять",
+    "en": "to leave, to entrust, to yield"
+  },
+  "level": "B2",
+  "frequency_rank": 565,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "über",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "überlassen",
+    "present_3sg": "überlässt",
+    "praeteritum_3sg": "überließ",
+    "partizip_2": "überlassen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "überlasse",
+      "du": "überlässt",
+      "er_sie_es": "überlässt",
+      "wir": "überlassen",
+      "ihr": "überlasst",
+      "sie_Sie": "überlassen",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "überließ",
+      "du": "überließt",
+      "er_sie_es": "überließ",
+      "wir": "überließen",
+      "ihr": "überließt",
+      "sie_Sie": "überließen"
+    },
+    "perfekt": {
+      "ich": "habe überlassen",
+      "du": "hast überlassen",
+      "er_sie_es": "hat überlassen",
+      "wir": "haben überlassen",
+      "ihr": "habt überlassen",
+      "sie_Sie": "haben überlassen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich überlasse dir die schwierige Entscheidung.",
+      "translation": {
+        "ru": "Я оставляю тебе это трудное решение.",
+        "en": "I leave the difficult decision to you."
+      },
+      "bracket_parts": [
+        "überlasse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du überlässt bei der Planung nichts dem Zufall.",
+      "translation": {
+        "ru": "Ты при планировании ничего не оставляешь на волю случая.",
+        "en": "You leave nothing to chance during planning."
+      },
+      "bracket_parts": [
+        "überlässt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er überlässt ihr seine Wohnung für den Sommer.",
+      "translation": {
+        "ru": "Он уступает ей свою квартиру на лето.",
+        "en": "He leaves his apartment to her for the summer."
+      },
+      "bracket_parts": [
+        "überlässt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir überlassen den Experten die genaue Prüfung.",
+      "translation": {
+        "ru": "Мы предоставляем экспертам точную проверку.",
+        "en": "We leave the precise inspection to the experts."
+      },
+      "bracket_parts": [
+        "überlassen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr überlasst den Kindern die Auswahl der Spiele.",
+      "translation": {
+        "ru": "Вы предоставляете детям выбор игр.",
+        "en": "You leave the choice of games to the children."
+      },
+      "bracket_parts": [
+        "überlasst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie überließen ihm damals die Leitung des Projekts.",
+      "translation": {
+        "ru": "Они тогда доверили ему руководство проектом.",
+        "en": "They entrusted the management of the project to him back then."
+      },
+      "bracket_parts": [
+        "überließen"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben mir freundlicherweise den Vortritt überlassen.",
+      "translation": {
+        "ru": "Они любезно уступили мне очередь.",
+        "en": "They kindly gave me priority."
+      },
+      "bracket_parts": [
+        "haben",
+        "überlassen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Überlass mir bitte diese wichtige Aufgabe!",
+      "translation": {
+        "ru": "Предоставь мне, пожалуйста, эту важную задачу!",
+        "en": "Please leave this important task to me!"
+      },
+      "bracket_parts": [
+        "Überlass"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

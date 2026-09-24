@@ -1,51 +1,23 @@
-# Semantic Core: Google Play Store Searches (Turkish / tr)
+# Semantic Core: Google Play Store App Searches (TR Storefront)
 
-**Source:** Exclusively harvested from Google Play Store App Search (`hl=tr&gl=tr`).
-**Total Verified App Store Queries:** **31**
+**Source:** Exclusively harvested from the **Google Play Store App Search Suggester** (`teXCtc` RPC).
+**Total Verified dasVerb Keywords:** **14**
 
-## 📊 Competition Breakdown
+## 📊 Verified Keyword List
 
-| Competition | Word Count | Queries Count |
-| :--- | :--- | :--- |
-| **High Competition** | 1-2 words | 9 |
-| **Medium Competition** | 3-4 words | 22 |
-| **Low / Long-Tail** | 5+ words | 0 |
-| **TOTAL** | | **31** |
-
----
-
-## 🔍 Play Store Search Queries List
-
-| Keyword | Word Count | Competition |
-| :--- | :--- | :--- |
-| `almanca a1` | 2 | High |
-| `almanca a2` | 2 | High |
-| `almanca b1` | 2 | High |
-| `almanca b2` | 2 | High |
-| `almanca fiiller` | 2 | High |
-| `almanca öğren` | 2 | High |
-| `almanca öğreniyorum` | 2 | High |
-| `almanca öğrenme` | 2 | High |
-| `almanca öğrenmek` | 2 | High |
-| `a1 almanca öğrenme` | 3 | Medium |
-| `almanca a1 seviyesi` | 3 | Medium |
-| `almanca b1 kelimeler` | 3 | Medium |
-| `almanca b1 sınav` | 3 | Medium |
-| `almanca kelime ezberleme` | 3 | Medium |
-| `almanca öğren internetsiz` | 3 | Medium |
-| `almanca öğren ücretsiz` | 3 | Medium |
-| `almanca öğreniyorum a2` | 3 | Medium |
-| `almanca öğreniyorum b1` | 3 | Medium |
-| `almanca öğreniyorum ücretsiz` | 3 | Medium |
-| `almanca öğrenme programı` | 3 | Medium |
-| `almanca öğrenmek için` | 3 | Medium |
-| `almanca öğrenmek istiyorum` | 3 | Medium |
-| `almanca a1 kelime ezberleme` | 4 | Medium |
-| `almanca a1 sınav testi` | 4 | Medium |
-| `almanca a2 sınav testi` | 4 | Medium |
-| `almanca fiiller ve çekimleri` | 4 | Medium |
-| `almanca kelime ezberleme ücretsiz` | 4 | Medium |
-| `almanca öğrenmek için uygulama` | 4 | Medium |
-| `almanca öğrenmek için uygulamalar` | 4 | Medium |
-| `learna al almanca öğren` | 4 | Medium |
-| `wörter meister almanca öğren` | 4 | Medium |
+| # | Keyword | Category | Competition | Intent |
+| :- | :--- | :--- | :--- | :--- |
+| 1 | `Almanca kelimeleri öğrenin ST` | Vocabulary | Medium | Educational / Search |
+| 2 | `almanca a1 kelime ezberleme` | Vocabulary | Medium | Educational / Search |
+| 3 | `almanca b1 kelimeler` | Vocabulary | Medium | Educational / Search |
+| 4 | `almanca fiiler` | Verbs & Practice | High | Educational / Search |
+| 5 | `almanca fiiller` | Verbs & Practice | High | Educational / Search |
+| 6 | `almanca fiiller ve çekimleri` | Verbs & Practice | Medium | Educational / Search |
+| 7 | `almanca kelime` | Vocabulary | High | Educational / Search |
+| 8 | `almanca kelime ezberleme` | Vocabulary | Medium | Educational / Search |
+| 9 | `almanca kelime ezberleme ücretsiz` | Vocabulary | Medium | Educational / Search |
+| 10 | `almanca kelime ogren cocuk` | Vocabulary | Medium | Educational / Search |
+| 11 | `almanca kelime oyunu` | Vocabulary | Medium | Educational / Search |
+| 12 | `almanca kelime öğrenme` | Vocabulary | Medium | Educational / Search |
+| 13 | `almanca kelimeler` | Vocabulary | High | Educational / Search |
+| 14 | `almanca kelimeler ve cümleler` | Vocabulary | Medium | Educational / Search |

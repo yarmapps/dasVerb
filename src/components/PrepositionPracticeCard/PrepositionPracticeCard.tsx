@@ -23,16 +23,14 @@ export function PrepositionPracticeCard(props: PrepositionPracticeCardProps): Re
       testID="preposition-practice-card"
     >
       <View style={styles.iconContainer}>
-        <FontAwesome5 name="link" size={18} color={colors.primary} />
+        <FontAwesome5 name="link" size={16} color={colors.primary} />
       </View>
-      <View style={styles.textContainer}>
-        <Text style={styles.title} numberOfLines={2}>
-          {intl.formatMessage({ id: 'practiceScreen.prepositionsBannerTitle' })}
-        </Text>
-        <Text style={styles.subtitle} numberOfLines={2}>
-          {intl.formatMessage({ id: 'practiceScreen.prepositionsBannerSubtitle' })}
-        </Text>
-      </View>
+      <Text style={styles.title}>
+        {intl.formatMessage({ id: 'practiceScreen.prepositionsBannerTitle' })}
+      </Text>
+      <Text style={styles.subtitle}>
+        {intl.formatMessage({ id: 'practiceScreen.prepositionsBannerSubtitle' })}
+      </Text>
     </TouchableOpacity>
   );
 }

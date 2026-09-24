@@ -1,0 +1,150 @@
+{
+  "id": "hinfahren",
+  "infinitive": "hinfahren",
+  "translation": {
+    "ru": "ехать туда, отвозить туда",
+    "en": "to drive there, to go there"
+  },
+  "level": "A2",
+  "frequency_rank": 808,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "fährt hin",
+    "preterite_third_singular": "fuhr hin",
+    "past_participle": "hingefahren"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "fahre hin",
+      "du": "fährst hin",
+      "er_sie_es": "fährt hin",
+      "wir": "fahren hin",
+      "ihr": "fahrt hin",
+      "sie_Sie": "fahren hin"
+    },
+    "preterite": {
+      "ich": "fuhr hin",
+      "du": "fuhrst hin",
+      "er_sie_es": "fuhr hin",
+      "wir": "fuhren hin",
+      "ihr": "fuhrt hin",
+      "sie_Sie": "fuhren hin"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "hingefahren"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "zu",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich fahre morgen früh mit dem Auto hin.",
+      "translation": {
+        "ru": "Я завтра рано утром поеду туда на машине.",
+        "en": "I am driving there early tomorrow morning by car."
+      },
+      "bracket_parts": [
+        "fahre",
+        "hin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Fährst du am Wochenende auch zur Messe hin?",
+      "translation": {
+        "ru": "Ты на выходных тоже поедешь туда на выставку?",
+        "en": "Are you also driving there to the trade fair at the weekend?"
+      },
+      "bracket_parts": [
+        "Fährst",
+        "hin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Bus fährt direkt zum Bahnhof hin.",
+      "translation": {
+        "ru": "Автобус едет прямо туда, к вокзалу.",
+        "en": "The bus drives directly there to the station."
+      },
+      "bracket_parts": [
+        "fährt",
+        "hin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir fahren gerne gemeinsam zum Konzert hin.",
+      "translation": {
+        "ru": "Мы с удовольствием поедем туда на концерт вместе.",
+        "en": "We gladly drive there to the concert together."
+      },
+      "bracket_parts": [
+        "fahren",
+        "hin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Fahrt ihr mit dem Zug oder mit dem Fahrrad hin?",
+      "translation": {
+        "ru": "Вы поедете туда на поезде или на велосипеде?",
+        "en": "Are you guys traveling there by train or by bike?"
+      },
+      "bracket_parts": [
+        "Fahrt",
+        "hin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er fuhr sofort nach dem Anruf hin.",
+      "translation": {
+        "ru": "Он сразу после звонка поехал туда.",
+        "en": "He drove there immediately after the call."
+      },
+      "bracket_parts": [
+        "fuhr",
+        "hin"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Wir sind gestern trotz des Regens hingefahren.",
+      "translation": {
+        "ru": "Мы вчера, несмотря на дождь, поехали туда.",
+        "en": "We drove there yesterday despite the rain."
+      },
+      "bracket_parts": [
+        "sind",
+        "hingefahren"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Fahr vorsichtig hin und melde dich bei der Ankunft!",
+      "translation": {
+        "ru": "Езжай туда осторожно и дай знать по прибытии!",
+        "en": "Drive there carefully and get in touch upon arrival!"
+      },
+      "bracket_parts": [
+        "Fahr",
+        "hin"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

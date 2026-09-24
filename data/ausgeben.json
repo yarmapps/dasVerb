@@ -1,0 +1,178 @@
+{
+  "id": "ausgeben",
+  "infinitive": "ausgeben",
+  "translation": {
+    "ru": "тратить (деньги), расходовать, выдавать",
+    "en": "to spend (money), issue"
+  },
+  "level": "A2",
+  "frequency_rank": 521,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "aus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ausgeben",
+    "present_3sg": "gibt aus",
+    "praeteritum_3sg": "gab aus",
+    "partizip_2": "ausgegeben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gebe aus",
+      "du": "gibst aus",
+      "er_sie_es": "gibt aus",
+      "wir": "geben aus",
+      "ihr": "gebt aus",
+      "sie_Sie": "geben aus"
+    },
+    "praeteritum": {
+      "ich": "gab aus",
+      "du": "gabst aus",
+      "er_sie_es": "gab aus",
+      "wir": "gaben aus",
+      "ihr": "gabt aus",
+      "sie_Sie": "gaben aus"
+    },
+    "perfekt": {
+      "ich": "habe ausgegeben",
+      "du": "hast ausgegeben",
+      "er_sie_es": "hat ausgegeben",
+      "wir": "haben ausgegeben",
+      "ihr": "habt ausgegeben",
+      "sie_Sie": "haben ausgegeben"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "für",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich gebe monatlich nicht zu viel Geld für Kleidung aus.",
+      "translation": {
+        "ru": "Каждый месяц я трачу не слишком много денег на одежду.",
+        "en": "I do not spend too much money on clothes monthly."
+      },
+      "bracket_parts": [
+        "gebe",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "zu viel Geld"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du gibst dein ganzes Taschengeld für Computerspiele aus.",
+      "translation": {
+        "ru": "Ты тратишь все свои карманные деньги на компьютерные игры.",
+        "en": "You spend all your pocket money on computer games."
+      },
+      "bracket_parts": [
+        "gibst",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "dein ganzes Taschengeld"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Staat gibt hohe Summen für die Bildung aus.",
+      "translation": {
+        "ru": "Государство тратит крупные суммы на образование.",
+        "en": "The state spends large sums on education."
+      },
+      "bracket_parts": [
+        "gibt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "hohe Summen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir geben heute Abend eine Runde Getränke für Freunde aus.",
+      "translation": {
+        "ru": "Сегодня вечером мы угощаем друзей напитками.",
+        "en": "We buy a round of drinks for friends tonight."
+      },
+      "bracket_parts": [
+        "geben",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "eine Runde Getränke"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr gebt euer erspartes Geld sehr überlegt aus.",
+      "translation": {
+        "ru": "Вы тратите свои накопленные деньги очень обдуманно.",
+        "en": "You spend your saved money very deliberately."
+      },
+      "bracket_parts": [
+        "gebt",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "euer erspartes Geld"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie gaben damals viel Vermögen für die Renovierung aus.",
+      "translation": {
+        "ru": "Они тогда потратили много средств на ремонт.",
+        "en": "They spent a lot of wealth on the renovation back then."
+      },
+      "bracket_parts": [
+        "gaben",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "viel Vermögen"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Meine Familie hat im Urlaub einiges an Geld ausgegeben.",
+      "translation": {
+        "ru": "Моя семья в отпуске потратила приличную сумму денег.",
+        "en": "My family spent quite some money on vacation."
+      },
+      "bracket_parts": [
+        "hat",
+        "ausgegeben"
+      ],
+      "akkusativ_parts": [
+        "einiges an Geld"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gib dein schwer verdientes Geld nicht sinnlos aus!",
+      "translation": {
+        "ru": "Не трать свои с трудом заработанные деньги бессмысленно!",
+        "en": "Do not spend your hard-earned money pointlessly!"
+      },
+      "bracket_parts": [
+        "Gib",
+        "aus"
+      ],
+      "akkusativ_parts": [
+        "dein schwer verdientes Geld"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

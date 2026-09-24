@@ -1,0 +1,150 @@
+{
+  "id": "aufrufen",
+  "infinitive": "aufrufen",
+  "translation": {
+    "ru": "призывать, вызывать (пациента, файл/программу)",
+    "en": "to call up, to invoke, to summon"
+  },
+  "level": "B1",
+  "frequency_rank": 896,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "ruft auf",
+    "preterite_third_singular": "rief auf",
+    "past_participle": "aufgerufen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "rufe auf",
+      "du": "rufst auf",
+      "er_sie_es": "ruft auf",
+      "wir": "rufen auf",
+      "ihr": "ruft auf",
+      "sie_Sie": "rufen auf"
+    },
+    "preterite": {
+      "ich": "rief auf",
+      "du": "riefst auf",
+      "er_sie_es": "rief auf",
+      "wir": "riefen auf",
+      "ihr": "rieft auf",
+      "sie_Sie": "riefen auf"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "aufgerufen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "zu",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich rufe die Datei im Programm per Mausklick auf.",
+      "translation": {
+        "ru": "Я открываю файл в программе кликом мыши.",
+        "en": "I open the file in the program with a mouse click."
+      },
+      "bracket_parts": [
+        "rufe",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Rufst du die Bürger zu friedlichem Protest auf?",
+      "translation": {
+        "ru": "Ты призываешь граждан к мирному протесту?",
+        "en": "Are you calling on citizens to protest peacefully?"
+      },
+      "bracket_parts": [
+        "Rufst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Arzthelferin ruft den nächsten Patienten im Wartezimmer auf.",
+      "translation": {
+        "ru": "Помощница врача вызывает следующего пациента в приемной.",
+        "en": "The medical assistant calls up the next patient in the waiting room."
+      },
+      "bracket_parts": [
+        "ruft",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir rufen zu Spenden für die Flutopfer auf.",
+      "translation": {
+        "ru": "Мы призываем к пожертвованиям для пострадавших от наводнения.",
+        "en": "We appeal for donations for the flood victims."
+      },
+      "bracket_parts": [
+        "rufen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ruft ihr die Teilnehmer nach der Startnummer auf?",
+      "translation": {
+        "ru": "Вы вызываете участников по стартовому номеру?",
+        "en": "Are you calling up the participants according to starting number?"
+      },
+      "bracket_parts": [
+        "Ruft",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Bürgermeister rief die Bevölkerung zur Ruhe auf.",
+      "translation": {
+        "ru": "Мэр призвал население к спокойствию.",
+        "en": "The mayor called on the population to remain calm."
+      },
+      "bracket_parts": [
+        "rief",
+        "auf"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Organisationen haben weltweit zum Klimaschutz aufgerufen.",
+      "translation": {
+        "ru": "Организации по всему миру призвали к защите климата.",
+        "en": "Organizations worldwide have called for climate protection."
+      },
+      "bracket_parts": [
+        "haben",
+        "aufgerufen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Rufe die Webseite bitte noch einmal im Browser auf!",
+      "translation": {
+        "ru": "Открой сайт еще раз в браузере, пожалуйста!",
+        "en": "Please call up the website once again in the browser!"
+      },
+      "bracket_parts": [
+        "Rufe",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

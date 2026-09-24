@@ -1,0 +1,147 @@
+{
+  "id": "konzipieren",
+  "infinitive": "konzipieren",
+  "translation": {
+    "ru": "разрабатывать концепцию, планировать, проектировать",
+    "en": "to conceive, to design, to plan"
+  },
+  "level": "B2",
+  "frequency_rank": 1020,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "konzipiert",
+    "preterite_third_singular": "konzipierte",
+    "past_participle": "konzipiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "konzipiere",
+      "du": "konzipierst",
+      "er_sie_es": "konzipiert",
+      "wir": "konzipieren",
+      "ihr": "konzipiert",
+      "sie_Sie": "konzipieren"
+    },
+    "preterite": {
+      "ich": "konzipierte",
+      "du": "konzipiertest",
+      "er_sie_es": "konzipierte",
+      "wir": "konzipierten",
+      "ihr": "konzipiertet",
+      "sie_Sie": "konzipierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "konzipiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "für",
+        "case": "Akkusativ"
+      },
+      {
+        "preposition": "als",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich konzipiere eine neue Marketingstrategie für unsere Zielgruppe.",
+      "translation": {
+        "ru": "Я разрабатываю новую маркетинговую стратегию для нашей целевой аудитории.",
+        "en": "I design a new marketing strategy for our target group."
+      },
+      "bracket_parts": [
+        "konzipiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Konzipierst du die neue App speziell für ältere Nutzer?",
+      "translation": {
+        "ru": "Ты проектируешь новое приложение специально для пожилых пользователей?",
+        "en": "Are you designing the new app specifically for older users?"
+      },
+      "bracket_parts": [
+        "Konzipierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Architekt konzipiert das Gebäude als modernes Nullenergiehaus.",
+      "translation": {
+        "ru": "Архитектор проектирует здание как современный дом с нулевым потреблением энергии.",
+        "en": "The architect conceives the building as a modern zero-energy house."
+      },
+      "bracket_parts": [
+        "konzipiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir konzipieren innovative Workshops für Führungskräfte.",
+      "translation": {
+        "ru": "Мы разрабатываем инновационные воркшопы для руководителей.",
+        "en": "We design innovative workshops for executives."
+      },
+      "bracket_parts": [
+        "konzipieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Konzipiert ihr den neuen Lehrplan nach modernen pädagogischen Standards?",
+      "translation": {
+        "ru": "Проектируете ли вы новый учебный план по современным педагогическим стандартам?",
+        "en": "Are you guys designing the new curriculum according to modern pedagogical standards?"
+      },
+      "bracket_parts": [
+        "Konzipiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Ingenieurteam konzipierte ein völlig neuartiges Antriebssystem.",
+      "translation": {
+        "ru": "Команда инженеров разработала концепцию совершенно новой системы привода.",
+        "en": "The engineering team conceived a completely novel drive system."
+      },
+      "bracket_parts": [
+        "konzipierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Agentur hat eine preisgekrönte Werbekampagne konzipiert.",
+      "translation": {
+        "ru": "Агентство разработало концепцию отмеченной наградами рекламной кампании.",
+        "en": "The agency has designed an award-winning advertising campaign."
+      },
+      "bracket_parts": [
+        "hat",
+        "konzipiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Konzipiere das Projekt von Anfang an gründlich und nachhaltig!",
+      "translation": {
+        "ru": "Проектируй проект с самого начала основательно и надежно!",
+        "en": "Design the project thoroughly and sustainably right from the start!"
+      },
+      "bracket_parts": [
+        "Konzipiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

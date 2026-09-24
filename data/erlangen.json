@@ -1,0 +1,147 @@
+{
+  "id": "erlangen",
+  "infinitive": "erlangen",
+  "translation": {
+    "ru": "приобретать, добиваться, достигать",
+    "en": "to obtain, to acquire, to gain"
+  },
+  "level": "B2",
+  "frequency_rank": 706,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erlangen",
+    "present_3sg": "erlangt",
+    "praeteritum_3sg": "erlangte",
+    "partizip_2": "erlangt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erlange",
+      "du": "erlangst",
+      "er_sie_es": "erlangt",
+      "wir": "erlangen",
+      "ihr": "erlangt",
+      "sie_Sie": "erlangen"
+    },
+    "praeteritum": {
+      "ich": "erlangte",
+      "du": "erlangtest",
+      "er_sie_es": "erlangte",
+      "wir": "erlangten",
+      "ihr": "erlangtet",
+      "sie_Sie": "erlangten"
+    },
+    "perfekt": {
+      "ich": "habe erlangt",
+      "du": "hast erlangt",
+      "er_sie_es": "hat erlangt",
+      "wir": "haben erlangt",
+      "ihr": "habt erlangt",
+      "sie_Sie": "haben erlangt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich erlange durch fleißiges Lernen neue Fachkenntnisse.",
+      "translation": {
+        "ru": "Я приобретаю новые профессиональные знания благодаря прилежной учебе.",
+        "en": "I acquire new expertise through diligent learning."
+      },
+      "bracket_parts": [
+        "erlange"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erlangst du die nötige Qualifikation für den Job?",
+      "translation": {
+        "ru": "Ты получаешь необходимую квалификацию для работы?",
+        "en": "Do you obtain the necessary qualification for the job?"
+      },
+      "bracket_parts": [
+        "Erlangst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Sportler erlangt weltweite Berühmtheit durch seinen Sieg.",
+      "translation": {
+        "ru": "Спортсмен обретает всемирную известность благодаря своей победе.",
+        "en": "The athlete gains worldwide fame through his victory."
+      },
+      "bracket_parts": [
+        "erlangt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erlangen wichtige Einblicke in die Marktforschung.",
+      "translation": {
+        "ru": "Мы получаем важное представление об исследованиях рынка.",
+        "en": "We gain important insights into market research."
+      },
+      "bracket_parts": [
+        "erlangen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr erlangt das Vertrauen der neuen Kunden.",
+      "translation": {
+        "ru": "Вы завоевываете доверие новых клиентов.",
+        "en": "You gain the trust of new clients."
+      },
+      "bracket_parts": [
+        "erlangt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Land erlangte damals nach langem Kampf seine Unabhängigkeit.",
+      "translation": {
+        "ru": "Страна тогда после долгой борьбы обрела независимость.",
+        "en": "The country gained its independence after a long struggle back then."
+      },
+      "bracket_parts": [
+        "erlangte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie hat großes Ansehen in der wissenschaftlichen Welt erlangt.",
+      "translation": {
+        "ru": "Она снискала высокий авторитет в научном мире.",
+        "en": "She has gained great reputation in the scientific world."
+      },
+      "bracket_parts": [
+        "hat",
+        "erlangt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erlange Meisterschaft durch ständige Übung!",
+      "translation": {
+        "ru": "Достигай мастерства через постоянную практику!",
+        "en": "Attain mastery through constant practice!"
+      },
+      "bracket_parts": [
+        "Erlange"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

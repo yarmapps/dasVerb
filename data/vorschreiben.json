@@ -1,0 +1,145 @@
+{
+  "id": "vorschreiben",
+  "infinitive": "vorschreiben",
+  "translation": {
+    "ru": "предписывать, диктовать",
+    "en": "to prescribe, to stipulate, to dictate"
+  },
+  "level": "B2",
+  "frequency_rank": 720,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "schreibt vor",
+    "preterite_third_singular": "schrieb vor",
+    "past_participle": "vorgeschrieben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schreibe vor",
+      "du": "schreibst vor",
+      "er_sie_es": "schreibt vor",
+      "wir": "schreiben vor",
+      "ihr": "schreibt vor",
+      "sie_Sie": "schreiben vor"
+    },
+    "preterite": {
+      "ich": "schrieb vor",
+      "du": "schriebst vor",
+      "er_sie_es": "schrieb vor",
+      "wir": "schrieben vor",
+      "ihr": "schriebt vor",
+      "sie_Sie": "schrieben vor"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "vorgeschrieben"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich schreibe meinen Mitarbeitern keine festen Arbeitszeiten vor.",
+      "translation": {
+        "ru": "Я не предписываю своим сотрудникам фиксированные рабочие часы.",
+        "en": "I do not prescribe fixed working hours for my employees."
+      },
+      "bracket_parts": [
+        "schreibe",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du schreibst mir ständig neue Regeln vor.",
+      "translation": {
+        "ru": "Ты постоянно предписываешь мне новые правила.",
+        "en": "You constantly dictate new rules to me."
+      },
+      "bracket_parts": [
+        "schreibst",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Gesetz schreibt strenge Sicherheitsmaßnahmen vor.",
+      "translation": {
+        "ru": "Закон предписывает строгие меры безопасности.",
+        "en": "The law prescribes strict safety measures."
+      },
+      "bracket_parts": [
+        "schreibt",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schreiben den Schülern die passende Kleidung vor.",
+      "translation": {
+        "ru": "Мы предписываем ученикам подходящую одежду.",
+        "en": "We prescribe the appropriate clothing for the students."
+      },
+      "bracket_parts": [
+        "schreiben",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schreibt ihr den Teilnehmern den genauen Ablauf vor?",
+      "translation": {
+        "ru": "Вы предписываете участникам точный порядок действий?",
+        "en": "Do you prescribe the exact procedure to the participants?"
+      },
+      "bracket_parts": [
+        "Schreibt",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die alte Verordnung schrieb diesen Ablauf genau vor.",
+      "translation": {
+        "ru": "Старое постановление точно предписывало этот порядок действий.",
+        "en": "The old regulation strictly prescribed this procedure."
+      },
+      "bracket_parts": [
+        "schrieb",
+        "vor"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Arzt hat ihm absolute Ruhe vorgeschrieben.",
+      "translation": {
+        "ru": "Врач предписал ему абсолютный покой.",
+        "en": "The doctor prescribed absolute rest for him."
+      },
+      "bracket_parts": [
+        "hat",
+        "vorgeschrieben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schreibe anderen Menschen nicht immer alles vor!",
+      "translation": {
+        "ru": "Не предписывай другим людям всегда всё!",
+        "en": "Do not always dictate everything to other people!"
+      },
+      "bracket_parts": [
+        "Schreibe",
+        "vor"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

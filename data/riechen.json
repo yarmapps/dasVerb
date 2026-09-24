@@ -1,0 +1,147 @@
+{
+  "id": "riechen",
+  "infinitive": "riechen",
+  "translation": {
+    "ru": "нюхать, пахнуть",
+    "en": "to smell"
+  },
+  "level": "A2",
+  "frequency_rank": 563,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "riechen",
+    "present_3sg": "riecht",
+    "praeteritum_3sg": "roch",
+    "partizip_2": "gerochen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "rieche",
+      "du": "riechst",
+      "er_sie_es": "riecht",
+      "wir": "riechen",
+      "ihr": "riecht",
+      "sie_Sie": "riechen"
+    },
+    "praeteritum": {
+      "ich": "roch",
+      "du": "rochst",
+      "er_sie_es": "roch",
+      "wir": "rochen",
+      "ihr": "rocht",
+      "sie_Sie": "rochen"
+    },
+    "perfekt": {
+      "ich": "habe gerochen",
+      "du": "hast gerochen",
+      "er_sie_es": "hat gerochen",
+      "wir": "haben gerochen",
+      "ihr": "habt gerochen",
+      "sie_Sie": "haben gerochen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": "akkusativ",
+    "preposition": "nach",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich rieche den frischen Kaffee schon vom Flur aus.",
+      "translation": {
+        "ru": "Я чувствую запах свежего кофе прямо из коридора.",
+        "en": "I smell the fresh coffee already from the hallway."
+      },
+      "bracket_parts": [
+        "rieche"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Riechst du diesen seltsamen Rauch?",
+      "translation": {
+        "ru": "Ты чувствуешь этот странный дым?",
+        "en": "Do you smell this strange smoke?"
+      },
+      "bracket_parts": [
+        "Riechst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die rote Rose riecht einfach herrlich.",
+      "translation": {
+        "ru": "Красная роза пахнет просто восхитительно.",
+        "en": "The red rose smells simply wonderful."
+      },
+      "bracket_parts": [
+        "riecht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir riechen den leckeren Kuchen im ganzen Haus.",
+      "translation": {
+        "ru": "Мы чувствуем запах вкусного пирога по всему дому.",
+        "en": "We smell the delicious cake throughout the whole house."
+      },
+      "bracket_parts": [
+        "riechen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr riecht nach teurem Parfüm.",
+      "translation": {
+        "ru": "Вы пахнете дорогими духами.",
+        "en": "You smell like expensive perfume."
+      },
+      "bracket_parts": [
+        "riecht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Es roch in der Backstube nach Zimt und Vanille.",
+      "translation": {
+        "ru": "В пекарне пахло корицей и ванилью.",
+        "en": "The bakery smelled of cinnamon and vanilla."
+      },
+      "bracket_parts": [
+        "roch"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Hund hat die Spur sofort gerochen.",
+      "translation": {
+        "ru": "Собака сразу почуяла след.",
+        "en": "The dog smelled the trail immediately."
+      },
+      "bracket_parts": [
+        "hat",
+        "gerochen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Riech mal an diesem frischen Brot!",
+      "translation": {
+        "ru": "Понюхай-ка этот свежий хлеб!",
+        "en": "Smell this fresh bread!"
+      },
+      "bracket_parts": [
+        "Riech"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

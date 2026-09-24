@@ -1,0 +1,154 @@
+{
+  "id": "anregen",
+  "infinitive": "anregen",
+  "translation": {
+    "ru": "побуждать, стимулировать, вдохновлять",
+    "en": "to stimulate, to encourage, to prompt"
+  },
+  "level": "B2",
+  "frequency_rank": 613,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "anregen",
+    "present_3sg": "regt an",
+    "praeteritum_3sg": "regte an",
+    "partizip_2": "angeregt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "rege an",
+      "du": "regst an",
+      "er_sie_es": "regt an",
+      "wir": "regen an",
+      "ihr": "regt an",
+      "sie_Sie": "regen an"
+    },
+    "praeteritum": {
+      "ich": "regte an",
+      "du": "regtest an",
+      "er_sie_es": "regte an",
+      "wir": "regten an",
+      "ihr": "regtet an",
+      "sie_Sie": "regten an"
+    },
+    "perfekt": {
+      "ich": "habe angeregt",
+      "du": "hast angeregt",
+      "er_sie_es": "hat angeregt",
+      "wir": "haben angeregt",
+      "ihr": "habt angeregt",
+      "sie_Sie": "haben angeregt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "zu",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich rege eine offene Diskussion im Kollegium an.",
+      "translation": {
+        "ru": "Я инициирую открытую дискуссию среди коллег.",
+        "en": "I initiate an open discussion among colleagues."
+      },
+      "bracket_parts": [
+        "rege",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Regst du deine Freunde zum Nachdenken an?",
+      "translation": {
+        "ru": "Ты побуждаешь своих друзей к размышлениям?",
+        "en": "Do you stimulate your friends to think?"
+      },
+      "bracket_parts": [
+        "Regst",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Kaffee regt den Kreislauf und die Konzentration an.",
+      "translation": {
+        "ru": "Кофе стимулирует кровообращение и концентрацию.",
+        "en": "Coffee stimulates the circulation and concentration."
+      },
+      "bracket_parts": [
+        "regt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir regen Veränderungen in unserer Gemeinde an.",
+      "translation": {
+        "ru": "Мы инициируем перемены в нашей общине.",
+        "en": "We prompt changes in our community."
+      },
+      "bracket_parts": [
+        "regen",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr regt neue Ideen für das Projekt an.",
+      "translation": {
+        "ru": "Вы подаете новые идеи для проекта.",
+        "en": "You suggest new ideas for the project."
+      },
+      "bracket_parts": [
+        "regt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Vortrag regte damals viele Zuhörer zum Handeln an.",
+      "translation": {
+        "ru": "Лекция тогда побудила многих слушателей к действиям.",
+        "en": "The lecture prompted many listeners to take action back then."
+      },
+      "bracket_parts": [
+        "regte",
+        "an"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das Buch hat mich zu einem neuen Hobby angeregt.",
+      "translation": {
+        "ru": "Книга вдохновила меня на новое хобби.",
+        "en": "The book inspired me to take up a new hobby."
+      },
+      "bracket_parts": [
+        "hat",
+        "angeregt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Reg bitte die Schüler zu mehr Kreativität an!",
+      "translation": {
+        "ru": "Побуждай учеников к большему творчеству!",
+        "en": "Please stimulate the students to be more creative!"
+      },
+      "bracket_parts": [
+        "Reg",
+        "an"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

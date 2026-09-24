@@ -1,0 +1,137 @@
+{
+  "id": "verbrauchen",
+  "infinitive": "verbrauchen",
+  "translation": {
+    "ru": "расходовать, потреблять, тратить",
+    "en": "to consume, to use up, to expend"
+  },
+  "level": "A2",
+  "frequency_rank": 1051,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verbraucht",
+    "preterite_third_singular": "verbrauchte",
+    "past_participle": "verbraucht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verbrauche",
+      "du": "verbrauchst",
+      "er_sie_es": "verbraucht",
+      "wir": "verbrauchen",
+      "ihr": "verbraucht",
+      "sie_Sie": "verbrauchen"
+    },
+    "preterite": {
+      "ich": "verbrauchte",
+      "du": "verbrauchtest",
+      "er_sie_es": "verbrauchte",
+      "wir": "verbrauchten",
+      "ihr": "verbrauchtet",
+      "sie_Sie": "verbrauchten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verbraucht"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich verbrauche im Haushalt bewusst sehr wenig Wasser und Strom.",
+      "translation": {
+        "ru": "В быту я сознательно расходую очень мало воды и электричества.",
+        "en": "In the household, I consciously consume very little water and electricity."
+      },
+      "bracket_parts": [
+        "verbrauche"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verbrauchst du mit deinem neuen Auto viel Benzin auf der Autobahn?",
+      "translation": {
+        "ru": "Ты тратишь много бензина на новом авто на автобане?",
+        "en": "Do you consume a lot of gasoline with your new car on the highway?"
+      },
+      "bracket_parts": [
+        "Verbrauchst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das alte Elektrogerät verbraucht im Standby-Modus unnötig viel Energie.",
+      "translation": {
+        "ru": "Старый электроприбор расходует излишне много энергии в режиме ожидания.",
+        "en": "The old electrical device consumes unnecessarily much energy in standby mode."
+      },
+      "bracket_parts": [
+        "verbraucht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verbrauchen alle vorhandenen Vorräte, bevor wir neu einkaufen.",
+      "translation": {
+        "ru": "Мы расходуем все имеющиеся запасы перед новыми покупками.",
+        "en": "We use up all existing supplies before buying new ones."
+      },
+      "bracket_parts": [
+        "verbrauchen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verbraucht ihr bei langen Autofahrten viel Kraftstoff?",
+      "translation": {
+        "ru": "Расходуете ли вы много топлива при дальних поездках?",
+        "en": "Do you guys consume a lot of fuel on long drives?"
+      },
+      "bracket_parts": [
+        "Verbraucht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Industrie verbrauchte im letzten Winter deutlich weniger Gas als im Vorjahr.",
+      "translation": {
+        "ru": "Промышленность прошлой зимой потребила значительно меньше газа, чем годом ранее.",
+        "en": "Industry consumed significantly less gas last winter than in the previous year."
+      },
+      "bracket_parts": [
+        "verbrauchte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Wir haben das gesamte Monatsbudget bereits in zwei Wochen verbraucht.",
+      "translation": {
+        "ru": "Мы израсходовали весь месячный бюджет уже за две недели.",
+        "en": "We have already used up the entire monthly budget in two weeks."
+      },
+      "bracket_parts": [
+        "haben",
+        "verbraucht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verbrauche wertvolle Ressourcen stets sparsam und verantwortungsvoll!",
+      "translation": {
+        "ru": "Всегда расходуй ценные ресурсы экономно и ответственно!",
+        "en": "Always consume valuable resources sparingly and responsibly!"
+      },
+      "bracket_parts": [
+        "Verbrauche"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

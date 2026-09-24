@@ -1,0 +1,138 @@
+{
+  "id": "bestreiten",
+  "infinitive": "bestreiten",
+  "translation": {
+    "ru": "оспаривать, отрицать, оплачивать (расходы)",
+    "en": "to contest, to dispute, to cover (costs)"
+  },
+  "level": "B2",
+  "frequency_rank": 759,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "bestreitet",
+    "preterite_third_singular": "bestritt",
+    "past_participle": "bestritten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bestreite",
+      "du": "bestreitest",
+      "er_sie_es": "bestreitet",
+      "wir": "bestreiten",
+      "ihr": "bestreitet",
+      "sie_Sie": "bestreiten"
+    },
+    "preterite": {
+      "ich": "bestritt",
+      "du": "bestrittest",
+      "er_sie_es": "bestritt",
+      "wir": "bestritten",
+      "ihr": "bestrittet",
+      "sie_Sie": "bestritten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "bestritten"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich bestreite meine Lebenshaltungskosten mit einem Nebenjob.",
+      "translation": {
+        "ru": "Я покрываю свои расходы на жизнь подработкой.",
+        "en": "I cover my living expenses with a side job."
+      },
+      "bracket_parts": [
+        "bestreite"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bestreitest du etwa die Richtigkeit dieser Zahlen?",
+      "translation": {
+        "ru": "Неужели ты оспариваешь правильность этих цифр?",
+        "en": "Are you really disputing the correctness of these numbers?"
+      },
+      "bracket_parts": [
+        "Bestreitest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Beschuldigte bestreitet alle Vorwürfe der Polizei.",
+      "translation": {
+        "ru": "Обвиняемый отрицает все обвинения полиции.",
+        "en": "The accused denies all accusations from the police."
+      },
+      "bracket_parts": [
+        "bestreitet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bestreiten heute das entscheidende Turnierspiel.",
+      "translation": {
+        "ru": "Мы проводим сегодня решающую игру турнира.",
+        "en": "We are playing the decisive tournament match today."
+      },
+      "bracket_parts": [
+        "bestreiten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bestreitet ihr die Existenz dieser Absprache?",
+      "translation": {
+        "ru": "Вы отрицаете существование этой договоренности?",
+        "en": "Do you dispute the existence of this agreement?"
+      },
+      "bracket_parts": [
+        "Bestreitet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Politiker bestritt jede Beteiligung an dem Skandal.",
+      "translation": {
+        "ru": "Политик отрицал любое участие в скандале.",
+        "en": "The politician denied any involvement in the scandal."
+      },
+      "bracket_parts": [
+        "bestritt"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Niemand hat die Echtheit des historischen Dokuments bestritten.",
+      "translation": {
+        "ru": "Никто не оспорил подлинность исторического документа.",
+        "en": "Nobody has contested the authenticity of the historical document."
+      },
+      "bracket_parts": [
+        "hat",
+        "bestritten"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bestreite nicht die Fakten, wenn die Beweise vorliegen!",
+      "translation": {
+        "ru": "Не отрицай факты, когда доказательства налицо!",
+        "en": "Do not contest the facts when evidence is present!"
+      },
+      "bracket_parts": [
+        "Bestreite"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

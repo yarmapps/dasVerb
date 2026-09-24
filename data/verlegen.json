@@ -1,0 +1,143 @@
+{
+  "id": "verlegen",
+  "infinitive": "verlegen",
+  "translation": {
+    "ru": "переносить (встречу), прокладывать, затерять",
+    "en": "to postpone, to relocate, to misplace, to lay (tiles/pipes)"
+  },
+  "level": "B1",
+  "frequency_rank": 768,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verlegt",
+    "preterite_third_singular": "verlegte",
+    "past_participle": "verlegt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verlege",
+      "du": "verlegst",
+      "er_sie_es": "verlegt",
+      "wir": "verlegen",
+      "ihr": "verlegt",
+      "sie_Sie": "verlegen"
+    },
+    "preterite": {
+      "ich": "verlegte",
+      "du": "verlegtest",
+      "er_sie_es": "verlegte",
+      "wir": "verlegten",
+      "ihr": "verlegtet",
+      "sie_Sie": "verlegten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verlegt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich verlege meinen Arzttermin auf nächsten Dienstag.",
+      "translation": {
+        "ru": "Я переношу визит к врачу на следующий вторник.",
+        "en": "I postpone my doctor's appointment to next Tuesday."
+      },
+      "bracket_parts": [
+        "verlege"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wo verlegst du denn schon wieder deine Brille?",
+      "translation": {
+        "ru": "Куда ты опять задевал свои очки?",
+        "en": "Where did you misplace your glasses again?"
+      },
+      "bracket_parts": [
+        "verlegst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Handwerker verlegt neue Fliesen im Badezimmer.",
+      "translation": {
+        "ru": "Мастер укладывает новую плитку в ванной.",
+        "en": "The craftsman lays new tiles in the bathroom."
+      },
+      "bracket_parts": [
+        "verlegt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verlegen den Hauptsitz der Firma nach Berlin.",
+      "translation": {
+        "ru": "Мы переносим штаб-квартиру компании в Берлин.",
+        "en": "We are relocating the company headquarters to Berlin."
+      },
+      "bracket_parts": [
+        "verlegen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verlegt ihr das Konzert wegen Regens in die Halle?",
+      "translation": {
+        "ru": "Вы переносите концерт из-за дождя в зал?",
+        "en": "Are you moving the concert indoors due to rain?"
+      },
+      "bracket_parts": [
+        "Verlegt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Schule verlegte den Sporttag auf die nächste Woche.",
+      "translation": {
+        "ru": "Школа перенесла спортивный день на следующую неделю.",
+        "en": "The school moved sports day to next week."
+      },
+      "bracket_parts": [
+        "verlegte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Ich habe meinen Hausschlüssel irgendwo im Zimmer verlegt.",
+      "translation": {
+        "ru": "Я куда-то задевал свой ключ от дома в комнате.",
+        "en": "I have misplaced my house key somewhere in the room."
+      },
+      "bracket_parts": [
+        "habe",
+        "verlegt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verlege den wichtigen Termin nicht leichtfertig!",
+      "translation": {
+        "ru": "Не переноси важную встречу легкомысленно!",
+        "en": "Do not postpone the important appointment lightly!"
+      },
+      "bracket_parts": [
+        "Verlege"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

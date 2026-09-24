@@ -1,0 +1,147 @@
+{
+  "id": "tauchen",
+  "infinitive": "tauchen",
+  "translation": {
+    "ru": "нырять, погружаться, окунать",
+    "en": "to dive, to dip, to submerge"
+  },
+  "level": "B1",
+  "frequency_rank": 812,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "taucht",
+    "preterite_third_singular": "tauchte",
+    "past_participle": "getaucht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "tauche",
+      "du": "tauchst",
+      "er_sie_es": "taucht",
+      "wir": "tauchen",
+      "ihr": "taucht",
+      "sie_Sie": "tauchen"
+    },
+    "preterite": {
+      "ich": "tauchte",
+      "du": "tauchtest",
+      "er_sie_es": "tauchte",
+      "wir": "tauchten",
+      "ihr": "tauchtet",
+      "sie_Sie": "tauchten"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "getaucht"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "nach",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "in",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich tauche im klaren Meer nach bunten Muscheln.",
+      "translation": {
+        "ru": "Я ныряю в прозрачном море за разноцветными ракушками.",
+        "en": "I dive in the clear sea for colorful shells."
+      },
+      "bracket_parts": [
+        "tauche"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Tauchst du gerne mit Taucherbrille und Schnorchel?",
+      "translation": {
+        "ru": "Ты любишь нырять с маской и трубкой?",
+        "en": "Do you like diving with goggles and snorkel?"
+      },
+      "bracket_parts": [
+        "Tauchst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das U-Boot taucht geräuschlos in die Tiefe ab.",
+      "translation": {
+        "ru": "Подводная лодка бесшумно погружается в глубину.",
+        "en": "The submarine submerges silently into the depths."
+      },
+      "bracket_parts": [
+        "taucht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir tauchen den Pinsel in die frische Farbe.",
+      "translation": {
+        "ru": "Мы макаем кисть в свежую краску.",
+        "en": "We dip the brush into the fresh paint."
+      },
+      "bracket_parts": [
+        "tauchen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Taucht ihr im Hallenbad bis zum Beckenboden?",
+      "translation": {
+        "ru": "Вы ныряете в крытом бассейне до самого дна?",
+        "en": "Do you guys dive to the bottom of the pool in the indoor swimming pool?"
+      },
+      "bracket_parts": [
+        "Taucht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der mutige Rettungsschwimmer tauchte nach dem Kind.",
+      "translation": {
+        "ru": "Храбрый спасатель нырнул за ребенком.",
+        "en": "The brave lifeguard dived after the child."
+      },
+      "bracket_parts": [
+        "tauchte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie sind an einem wunderschönen Korallenriff getaucht.",
+      "translation": {
+        "ru": "Они ныряли у прекрасного кораллового рифа.",
+        "en": "They dived at a wonderful coral reef."
+      },
+      "bracket_parts": [
+        "sind",
+        "getaucht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Tauche vorsichtig und atme vorher tief ein!",
+      "translation": {
+        "ru": "Ныряй осторожно и предварительно глубоко вдохни!",
+        "en": "Dive carefully and take a deep breath beforehand!"
+      },
+      "bracket_parts": [
+        "Tauche"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

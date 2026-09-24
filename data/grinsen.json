@@ -1,0 +1,147 @@
+{
+  "id": "grinsen",
+  "infinitive": "grinsen",
+  "translation": {
+    "ru": "ухмыляться, скалиться, лукаво улыбаться",
+    "en": "to grin, to smirk"
+  },
+  "level": "B1",
+  "frequency_rank": 626,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "grinsen",
+    "present_3sg": "grinst",
+    "praeteritum_3sg": "grinste",
+    "partizip_2": "gegrinst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "grinse",
+      "du": "grinst",
+      "er_sie_es": "grinst",
+      "wir": "grinsen",
+      "ihr": "grinst",
+      "sie_Sie": "grinsen"
+    },
+    "praeteritum": {
+      "ich": "grinste",
+      "du": "grinstest",
+      "er_sie_es": "grinste",
+      "wir": "grinsten",
+      "ihr": "grinstet",
+      "sie_Sie": "grinsten"
+    },
+    "perfekt": {
+      "ich": "habe gegrinst",
+      "du": "hast gegrinst",
+      "er_sie_es": "hat gegrinst",
+      "wir": "haben gegrinst",
+      "ihr": "habt gegrinst",
+      "sie_Sie": "haben gegrinst"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich grinse über den lustigen Witz meines Freundes.",
+      "translation": {
+        "ru": "Я ухмыляюсь смешной шутке своего друга.",
+        "en": "I grin at my friend's funny joke."
+      },
+      "bracket_parts": [
+        "grinse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Warum grinst du so verschmitzt vor dich hin?",
+      "translation": {
+        "ru": "Почему ты так лукаво улыбаешься себе под нос?",
+        "en": "Why are you grinning so mischievously to yourself?"
+      },
+      "bracket_parts": [
+        "grinst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Junge grinst frech über das ganze Gesicht.",
+      "translation": {
+        "ru": "Мальчик дерзко улыбается во весь рот.",
+        "en": "The boy grins cheekily all over his face."
+      },
+      "bracket_parts": [
+        "grinst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir grinsen, wenn wir uns an alte Zeiten erinnern.",
+      "translation": {
+        "ru": "Мы ухмыляемся, когда вспоминаем былые времена.",
+        "en": "We grin when we remember old times."
+      },
+      "bracket_parts": [
+        "grinsen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr grinst über das Missgeschick im Video.",
+      "translation": {
+        "ru": "Вы ухмыляетесь над курьезом в видео.",
+        "en": "You grin at the mishap in the video."
+      },
+      "bracket_parts": [
+        "grinst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er grinste damals schadenfroh bei seiner Niederlage.",
+      "translation": {
+        "ru": "Он тогда злорадно ухмыльнулся при ее поражении.",
+        "en": "He smirked gleefully at her defeat back then."
+      },
+      "bracket_parts": [
+        "grinste"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben beide den ganzen Abend nur gegrinst.",
+      "translation": {
+        "ru": "Они оба весь вечер только и делали, что ухмылялись.",
+        "en": "They both just grinned the whole evening."
+      },
+      "bracket_parts": [
+        "haben",
+        "gegrinst"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Grins nicht so frech und antworte mir ehrlich!",
+      "translation": {
+        "ru": "Не ухмыляйся так дерзко и ответь мне честно!",
+        "en": "Do not grin so cheekily and answer me honestly!"
+      },
+      "bracket_parts": [
+        "Grins"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "erregen",
+  "infinitive": "erregen",
+  "translation": {
+    "ru": "возбуждать, вызывать (внимание, подозрение), раздражать",
+    "en": "to arouse, to excite, to cause"
+  },
+  "level": "B2",
+  "frequency_rank": 784,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "erregt",
+    "preterite_third_singular": "erregte",
+    "past_participle": "erregt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "errege",
+      "du": "erregst",
+      "er_sie_es": "erregt",
+      "wir": "erregen",
+      "ihr": "erregt",
+      "sie_Sie": "erregen"
+    },
+    "preterite": {
+      "ich": "erregte",
+      "du": "erregtest",
+      "er_sie_es": "erregte",
+      "wir": "erregten",
+      "ihr": "erregtet",
+      "sie_Sie": "erregten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "erregt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich errege mit meinem bunten Kostüm viel Aufmerksamkeit.",
+      "translation": {
+        "ru": "Я привлекаю много внимания своим красочным костюмом.",
+        "en": "I attract a lot of attention with my colorful costume."
+      },
+      "bracket_parts": [
+        "errege"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erregst du durch dein Verhalten unnötigen Verdacht?",
+      "translation": {
+        "ru": "Ты своим поведением вызываешь ненужные подозрения?",
+        "en": "Are you arousing unnecessary suspicion through your behavior?"
+      },
+      "bracket_parts": [
+        "Erregst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Skandal erregt großes Aufsehen in den Medien.",
+      "translation": {
+        "ru": "Скандал вызывает большой резонанс в СМИ.",
+        "en": "The scandal causes a great stir in the media."
+      },
+      "bracket_parts": [
+        "erregt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erregen kein Aufsehen in der Öffentlichkeit.",
+      "translation": {
+        "ru": "Мы не привлекаем к себе внимания на публике.",
+        "en": "We do not cause any sensation in public."
+      },
+      "bracket_parts": [
+        "erregen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erregt ihr mit eurer Aktion den Unmut der Nachbarn?",
+      "translation": {
+        "ru": "Вы вызываете своей акцией недовольство соседей?",
+        "en": "Are you arousing the displeasure of the neighbors with your action?"
+      },
+      "bracket_parts": [
+        "Erregt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das überraschende Wahlergebnis erregte großes Erstaunen.",
+      "translation": {
+        "ru": "Неожиданный результат выборов вызвал огромное удивление.",
+        "en": "The surprising election result caused great astonishment."
+      },
+      "bracket_parts": [
+        "erregte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sein provokanter Vortrag hat heftigen Widerspruch erregt.",
+      "translation": {
+        "ru": "Его провокационный доклад вызвал резкие возражения.",
+        "en": "His provocative lecture aroused fierce objection."
+      },
+      "bracket_parts": [
+        "hat",
+        "erregt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Errege kein unnötiges Aufsehen am Flughafen!",
+      "translation": {
+        "ru": "Не привлекай лишнего внимания в аэропорту!",
+        "en": "Do not cause unnecessary sensation at the airport!"
+      },
+      "bracket_parts": [
+        "Errege"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

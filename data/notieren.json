@@ -1,0 +1,138 @@
+{
+  "id": "notieren",
+  "infinitive": "notieren",
+  "translation": {
+    "ru": "записывать, делать заметки",
+    "en": "to note down, to write down"
+  },
+  "level": "A2",
+  "frequency_rank": 765,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "notiert",
+    "preterite_third_singular": "notierte",
+    "past_participle": "notiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "notiere",
+      "du": "notierst",
+      "er_sie_es": "notiert",
+      "wir": "notieren",
+      "ihr": "notiert",
+      "sie_Sie": "notieren"
+    },
+    "preterite": {
+      "ich": "notierte",
+      "du": "notiertest",
+      "er_sie_es": "notierte",
+      "wir": "notierten",
+      "ihr": "notiertet",
+      "sie_Sie": "notierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "notiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich notiere die wichtigsten Telefonnummern in meinem Kalender.",
+      "translation": {
+        "ru": "Я записываю самые важные номера телефонов в свой календарь.",
+        "en": "I note down the most important phone numbers in my calendar."
+      },
+      "bracket_parts": [
+        "notiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Notierst du bitte die Adresse für mich?",
+      "translation": {
+        "ru": "Запишешь, пожалуйста, адрес для меня?",
+        "en": "Will you please write down the address for me?"
+      },
+      "bracket_parts": [
+        "Notierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Sekretärin notiert alle Termine des Chefs.",
+      "translation": {
+        "ru": "Секретарь записывает все встречи шефа.",
+        "en": "The secretary notes down all the boss's appointments."
+      },
+      "bracket_parts": [
+        "notiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir notieren die neuen Vokabeln im Heft.",
+      "translation": {
+        "ru": "Мы записываем новые слова в тетрадь.",
+        "en": "We write down the new vocabulary in the notebook."
+      },
+      "bracket_parts": [
+        "notieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Notiert ihr die Aufgaben von der Tafel?",
+      "translation": {
+        "ru": "Вы записываете задания с доски?",
+        "en": "Are you writing down the tasks from the board?"
+      },
+      "bracket_parts": [
+        "Notiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er notierte sich den Gedanken auf einem kleinen Zettel.",
+      "translation": {
+        "ru": "Он записал себе мысль на маленьком листке.",
+        "en": "He noted down the thought on a small slip of paper."
+      },
+      "bracket_parts": [
+        "notierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben alle Fragen für das Interview notiert.",
+      "translation": {
+        "ru": "Они записали все вопросы для интервью.",
+        "en": "They have written down all the questions for the interview."
+      },
+      "bracket_parts": [
+        "haben",
+        "notiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Notiere dir diesen Termin unbedingt!",
+      "translation": {
+        "ru": "Обязательно запиши себе эту встречу!",
+        "en": "Be sure to make a note of this appointment!"
+      },
+      "bracket_parts": [
+        "Notiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "versehen",
+  "infinitive": "versehen",
+  "translation": {
+    "ru": "снабжать, оснащать, ошибаться (sich versehen)",
+    "en": "to provide with, to equip, to perform (duties)"
+  },
+  "level": "B2",
+  "frequency_rank": 597,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "versehen",
+    "present_3sg": "versieht",
+    "praeteritum_3sg": "versah",
+    "partizip_2": "versehen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "versehe",
+      "du": "versiehst",
+      "er_sie_es": "versieht",
+      "wir": "versehen",
+      "ihr": "verseht",
+      "sie_Sie": "versehen",
+      "root_vowel_change": "e -> ie"
+    },
+    "praeteritum": {
+      "ich": "versah",
+      "du": "versahst",
+      "er_sie_es": "versah",
+      "wir": "versahen",
+      "ihr": "versaht",
+      "sie_Sie": "versahen"
+    },
+    "perfekt": {
+      "ich": "habe versehen",
+      "du": "hast versehen",
+      "er_sie_es": "hat versehen",
+      "wir": "haben versehen",
+      "ihr": "habt versehen",
+      "sie_Sie": "haben versehen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich versehe das Dokument mit meiner Unterschrift.",
+      "translation": {
+        "ru": "Я снабжаю документ своей подписью.",
+        "en": "I provide the document with my signature."
+      },
+      "bracket_parts": [
+        "versehe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Versiehst du das Buch mit einem schützenden Umschlag?",
+      "translation": {
+        "ru": "Ты снабжаешь книгу защитной обложкой?",
+        "en": "Do you provide the book with a protective cover?"
+      },
+      "bracket_parts": [
+        "Versiehst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Beamte versieht seinen täglichen Dienst gewissenhaft.",
+      "translation": {
+        "ru": "Служащий добросовестно несет свою ежедневную службу.",
+        "en": "The official performs his daily duties conscientiously."
+      },
+      "bracket_parts": [
+        "versieht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir versehen die Produkte mit einem deutlichen Etikett.",
+      "translation": {
+        "ru": "Мы снабжаем продукты четкой этикеткой.",
+        "en": "We provide the products with a clear label."
+      },
+      "bracket_parts": [
+        "versehen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr verseht die Pakete mit der richtigen Adresse.",
+      "translation": {
+        "ru": "Вы снабжаете посылки правильным адресом.",
+        "en": "You provide the parcels with the correct address."
+      },
+      "bracket_parts": [
+        "verseht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Notar versah die Urkunde damals mit einem Siegel.",
+      "translation": {
+        "ru": "Нотариус тогда снабдил документ печатью.",
+        "en": "The notary provided the deed with a seal back then."
+      },
+      "bracket_parts": [
+        "versah"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben die Kisten mit Warnhinweisen versehen.",
+      "translation": {
+        "ru": "Они снабдили ящики предупреждающими знаками.",
+        "en": "They have provided the boxes with warning signs."
+      },
+      "bracket_parts": [
+        "haben",
+        "versehen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Versieh den Brief mit einer Briefmarke!",
+      "translation": {
+        "ru": "Снабди письмо почтовой маркой!",
+        "en": "Provide the letter with a postage stamp!"
+      },
+      "bracket_parts": [
+        "Versieh"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

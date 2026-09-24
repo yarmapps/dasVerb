@@ -1,0 +1,143 @@
+{
+  "id": "trainieren",
+  "infinitive": "trainieren",
+  "translation": {
+    "ru": "тренироваться, тренировать",
+    "en": "to train, to coach, to exercise"
+  },
+  "level": "A2",
+  "frequency_rank": 738,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "trainiert",
+    "preterite_third_singular": "trainierte",
+    "past_participle": "trainiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "trainiere",
+      "du": "trainierst",
+      "er_sie_es": "trainiert",
+      "wir": "trainieren",
+      "ihr": "trainiert",
+      "sie_Sie": "trainieren"
+    },
+    "preterite": {
+      "ich": "trainierte",
+      "du": "trainiertest",
+      "er_sie_es": "trainierte",
+      "wir": "trainierten",
+      "ihr": "trainiertet",
+      "sie_Sie": "trainierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "trainiert"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "für",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich trainiere dreimal pro Woche im Fitnessstudio.",
+      "translation": {
+        "ru": "Я тренируюсь три раза в неделю в спортзале.",
+        "en": "I train three times a week at the gym."
+      },
+      "bracket_parts": [
+        "trainiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Trainierst du regelmäßig für den kommenden Marathon?",
+      "translation": {
+        "ru": "Ты регулярно тренируешься перед предстоящим марафоном?",
+        "en": "Do you train regularly for the upcoming marathon?"
+      },
+      "bracket_parts": [
+        "Trainierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der erfahrene Coach trainiert die Jugendmannschaft.",
+      "translation": {
+        "ru": "Опытный тренер тренирует молодежную команду.",
+        "en": "The experienced coach trains the youth team."
+      },
+      "bracket_parts": [
+        "trainiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir trainieren heute Ausdauer und Schnelligkeit.",
+      "translation": {
+        "ru": "Мы тренируем сегодня выносливость и скорость.",
+        "en": "We train endurance and speed today."
+      },
+      "bracket_parts": [
+        "trainieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr trainiert fleißig für den großen Wettkampf.",
+      "translation": {
+        "ru": "Вы усердно тренируетесь к большим соревнованиям.",
+        "en": "You train diligently for the big competition."
+      },
+      "bracket_parts": [
+        "trainiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie trainierten jeden Tag trotz des schlechten Wetters.",
+      "translation": {
+        "ru": "Они тренировались каждый день, несмотря на плохую погоду.",
+        "en": "They trained every day despite the bad weather."
+      },
+      "bracket_parts": [
+        "trainierten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat seinen Körper über viele Jahre trainiert.",
+      "translation": {
+        "ru": "Он тренировал свое тело на протяжении многих лет.",
+        "en": "He has trained his body over many years."
+      },
+      "bracket_parts": [
+        "hat",
+        "trainiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Trainiere kontinuierlich und überfordere dich nicht!",
+      "translation": {
+        "ru": "Тренируйся постоянно и не перенапрягайся!",
+        "en": "Train continuously and do not overexert yourself!"
+      },
+      "bracket_parts": [
+        "Trainiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

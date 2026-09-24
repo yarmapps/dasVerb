@@ -1,0 +1,147 @@
+{
+  "id": "gewoehnen_sich",
+  "infinitive": "gewöhnen",
+  "translation": {
+    "ru": "привыкать, приучать",
+    "en": "to get used to, to accustom oneself"
+  },
+  "level": "B1",
+  "frequency_rank": 625,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ge",
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "gewöhnen",
+    "present_3sg": "gewöhnt sich",
+    "praeteritum_3sg": "gewöhnte sich",
+    "partizip_2": "gewöhnt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gewöhne mich",
+      "du": "gewöhnst dich",
+      "er_sie_es": "gewöhnt sich",
+      "wir": "gewöhnen uns",
+      "ihr": "gewöhnt euch",
+      "sie_Sie": "gewöhnen sich"
+    },
+    "praeteritum": {
+      "ich": "gewöhnte mich",
+      "du": "gewöhntest dich",
+      "er_sie_es": "gewöhnte sich",
+      "wir": "gewöhnten uns",
+      "ihr": "gewöhntet euch",
+      "sie_Sie": "gewöhnten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich gewöhnt",
+      "du": "hast dich gewöhnt",
+      "er_sie_es": "hat sich gewöhnt",
+      "wir": "haben uns gewöhnt",
+      "ihr": "habt euch gewöhnt",
+      "sie_Sie": "haben sich gewöhnt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "an",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich gewöhne mich langsam an das kältere Klima.",
+      "translation": {
+        "ru": "Я медленно привыкаю к более холодному климату.",
+        "en": "I am slowly getting used to the colder climate."
+      },
+      "bracket_parts": [
+        "gewöhne"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gewöhnst du dich schnell an die neue Arbeitsumgebung?",
+      "translation": {
+        "ru": "Ты быстро привыкаешь к новой рабочей обстановке?",
+        "en": "Are you getting used to the new work environment quickly?"
+      },
+      "bracket_parts": [
+        "Gewöhnst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Hund gewöhnt sich gut an sein neues Zuhause.",
+      "translation": {
+        "ru": "Собака хорошо привыкает к своему новому дому.",
+        "en": "The dog gets used to its new home well."
+      },
+      "bracket_parts": [
+        "gewöhnt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gewöhnen uns schnell an den neuen Rhythmus.",
+      "translation": {
+        "ru": "Мы быстро привыкаем к новому ритму.",
+        "en": "We get used to the new rhythm quickly."
+      },
+      "bracket_parts": [
+        "gewöhnen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr gewöhnt euch an das frühe Aufstehen am Morgen.",
+      "translation": {
+        "ru": "Вы привыкаете к раннему подъему по утрам.",
+        "en": "You get used to getting up early in the morning."
+      },
+      "bracket_parts": [
+        "gewöhnt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Kinder gewöhnten sich damals schnell an die neue Schule.",
+      "translation": {
+        "ru": "Дети тогда быстро привыкли к новой школе.",
+        "en": "The children got used to the new school quickly back then."
+      },
+      "bracket_parts": [
+        "gewöhnten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Ich habe mich schon längst an den Lärm gewöhnt.",
+      "translation": {
+        "ru": "Я уже давно привык к шуму.",
+        "en": "I have long since gotten used to the noise."
+      },
+      "bracket_parts": [
+        "habe",
+        "gewöhnt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gewöhne dich an regelmäßige Pausen bei der Arbeit!",
+      "translation": {
+        "ru": "Привыкай к регулярным перерывам в работе!",
+        "en": "Get used to regular breaks at work!"
+      },
+      "bracket_parts": [
+        "Gewöhne"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

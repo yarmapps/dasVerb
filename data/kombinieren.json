@@ -1,0 +1,143 @@
+{
+  "id": "kombinieren",
+  "infinitive": "kombinieren",
+  "translation": {
+    "ru": "комбинировать, сочетать, сопоставлять",
+    "en": "to combine, to deduce"
+  },
+  "level": "B1",
+  "frequency_rank": 838,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "kombiniert",
+    "preterite_third_singular": "kombinierte",
+    "past_participle": "kombiniert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "kombiniere",
+      "du": "kombinierst",
+      "er_sie_es": "kombiniert",
+      "wir": "kombinieren",
+      "ihr": "kombiniert",
+      "sie_Sie": "kombinieren"
+    },
+    "preterite": {
+      "ich": "kombinierte",
+      "du": "kombiniertest",
+      "er_sie_es": "kombinierte",
+      "wir": "kombinierten",
+      "ihr": "kombiniertet",
+      "sie_Sie": "kombinierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "kombiniert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich kombiniere die blaue Jacke mit einer weißen Hose.",
+      "translation": {
+        "ru": "Я сочетаю синюю куртку с белыми брюками.",
+        "en": "I combine the blue jacket with white trousers."
+      },
+      "bracket_parts": [
+        "kombiniere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Kombinierst du verschiedene Lernmethoden für die Prüfung?",
+      "translation": {
+        "ru": "Ты комбинируешь различные методы учебы для экзамена?",
+        "en": "Do you combine different study methods for the exam?"
+      },
+      "bracket_parts": [
+        "Kombinierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Koch kombiniert süße und scharfe Aromen meisterhaft.",
+      "translation": {
+        "ru": "Повар мастерски сочетает сладкие и острые вкусы.",
+        "en": "The chef masterfully combines sweet and spicy flavors."
+      },
+      "bracket_parts": [
+        "kombiniert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir kombinieren Sport und gesunde Ernährung im Alltag.",
+      "translation": {
+        "ru": "Мы сочетаем спорт и здоровое питание в повседневной жизни.",
+        "en": "We combine sports and healthy nutrition in everyday life."
+      },
+      "bracket_parts": [
+        "kombinieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Kombiniert ihr Theorie und Praxis in eurem Kurs?",
+      "translation": {
+        "ru": "Вы сочетаете теорию и практику на вашем курсе?",
+        "en": "Do you combine theory and practice in your course?"
+      },
+      "bracket_parts": [
+        "Kombiniert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Detektiv kombinierte die Indizien zu einem klaren Bild.",
+      "translation": {
+        "ru": "Детектив сопоставил улики в ясную картину.",
+        "en": "The detective combined the clues into a clear picture."
+      },
+      "bracket_parts": [
+        "kombinierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben die einzelnen Elemente geschickt kombiniert.",
+      "translation": {
+        "ru": "Они искусно скомбинировали отдельные элементы.",
+        "en": "They skillfully combined the individual elements."
+      },
+      "bracket_parts": [
+        "haben",
+        "kombiniert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Kombiniere Farben und Formen harmonisch miteinander!",
+      "translation": {
+        "ru": "Сочетай цвета и формы гармонично друг с другом!",
+        "en": "Combine colors and shapes harmoniously with each other!"
+      },
+      "bracket_parts": [
+        "Kombiniere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

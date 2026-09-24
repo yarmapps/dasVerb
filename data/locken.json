@@ -1,0 +1,147 @@
+{
+  "id": "locken",
+  "infinitive": "locken",
+  "translation": {
+    "ru": "манить, привлекать, завлекать",
+    "en": "to lure, to entice, to attract"
+  },
+  "level": "B1",
+  "frequency_rank": 926,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "lockt",
+    "preterite_third_singular": "lockte",
+    "past_participle": "gelockt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "locke",
+      "du": "lockst",
+      "er_sie_es": "lockt",
+      "wir": "locken",
+      "ihr": "lockt",
+      "sie_Sie": "locken"
+    },
+    "preterite": {
+      "ich": "lockte",
+      "du": "locktest",
+      "er_sie_es": "lockte",
+      "wir": "lockten",
+      "ihr": "locktet",
+      "sie_Sie": "lockten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gelockt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "in",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich locke die schüchterne Katze mit einem Leckerli an.",
+      "translation": {
+        "ru": "Я приманиваю робкую кошку лакомством.",
+        "en": "I lure the shy cat with a treat."
+      },
+      "bracket_parts": [
+        "locke"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lockst du Kunden mit besonders günstigen Sonderangeboten an?",
+      "translation": {
+        "ru": "Ты привлекаешь клиентов особенно выгодными спецпредложениями?",
+        "en": "Do you attract customers with particularly favorable special offers?"
+      },
+      "bracket_parts": [
+        "Lockst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das sonnige Frühlingswetter lockt viele Spaziergänger in den Park.",
+      "translation": {
+        "ru": "Солнечная весенняя погода привлекает множество гуляющих в парк.",
+        "en": "The sunny spring weather lures many walkers into the park."
+      },
+      "bracket_parts": [
+        "lockt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir locken neue Mitarbeiter mit flexiblen Arbeitszeiten.",
+      "translation": {
+        "ru": "Мы привлекаем новых сотрудников гибким графиком работы.",
+        "en": "We attract new employees with flexible working hours."
+      },
+      "bracket_parts": [
+        "locken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lockt ihr die Vögel mit Futter auf euer Balkongeländer?",
+      "translation": {
+        "ru": "Вы заманиваете птиц кормом на перила балкона?",
+        "en": "Are you guys luring the birds with food onto your balcony railing?"
+      },
+      "bracket_parts": [
+        "Lockt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Händler lockte die Kunden mit enormen Rabatten ins Geschäft.",
+      "translation": {
+        "ru": "Торговец завлекал покупателей огромными скидками в магазин.",
+        "en": "The trader lured customers into the shop with huge discounts."
+      },
+      "bracket_parts": [
+        "lockte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Ausstellung hat Tausende kunstbegeisterte Besucher gelockt.",
+      "translation": {
+        "ru": "Выставка привлекла тысячи любителей искусства.",
+        "en": "The exhibition attracted thousands of art-loving visitors."
+      },
+      "bracket_parts": [
+        "hat",
+        "gelockt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Locke das Tier vorsichtig und ohne laute Geräusche!",
+      "translation": {
+        "ru": "Приманивай животное осторожно и без громких звуков!",
+        "en": "Lure the animal carefully and without loud noises!"
+      },
+      "bracket_parts": [
+        "Locke"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

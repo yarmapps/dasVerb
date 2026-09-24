@@ -1,0 +1,171 @@
+{
+  "id": "veroeffentlichen",
+  "infinitive": "veröffentlichen",
+  "translation": {
+    "ru": "публиковать, обнародовать",
+    "en": "to publish"
+  },
+  "level": "B1",
+  "frequency_rank": 503,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "veröffentlichen",
+    "present_3sg": "veröffentlicht",
+    "praeteritum_3sg": "veröffentlichte",
+    "partizip_2": "veröffentlicht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "veröffentliche",
+      "du": "veröffentlichst",
+      "er_sie_es": "veröffentlicht",
+      "wir": "veröffentlichen",
+      "ihr": "veröffentlicht",
+      "sie_Sie": "veröffentlichen"
+    },
+    "praeteritum": {
+      "ich": "veröffentlichte",
+      "du": "veröffentlichtest",
+      "er_sie_es": "veröffentlichte",
+      "wir": "veröffentlichten",
+      "ihr": "veröffentlichtet",
+      "sie_Sie": "veröffentlichten"
+    },
+    "perfekt": {
+      "ich": "habe veröffentlicht",
+      "du": "hast veröffentlicht",
+      "er_sie_es": "hat veröffentlicht",
+      "wir": "haben veröffentlicht",
+      "ihr": "habt veröffentlicht",
+      "sie_Sie": "haben veröffentlicht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich veröffentliche jeden Monat einen neuen Fachartikel im Blog.",
+      "translation": {
+        "ru": "Каждый месяц я публикую новую экспертную статью в блоге.",
+        "en": "Every month I publish a new specialist article on the blog."
+      },
+      "bracket_parts": [
+        "veröffentliche"
+      ],
+      "akkusativ_parts": [
+        "einen neuen Fachartikel"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du veröffentlichst deine schönen Urlaubsfotos im Internet.",
+      "translation": {
+        "ru": "Ты публикуешь свои красивые отпускные фотографии в интернете.",
+        "en": "You publish your beautiful vacation photos on the internet."
+      },
+      "bracket_parts": [
+        "veröffentlichst"
+      ],
+      "akkusativ_parts": [
+        "deine schönen Urlaubsfotos"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der bekannte Verlag veröffentlicht das neue Buch im Herbst.",
+      "translation": {
+        "ru": "Известное издательство публикует новую книгу осенью.",
+        "en": "The well-known publisher publishes the new book in autumn."
+      },
+      "bracket_parts": [
+        "veröffentlicht"
+      ],
+      "akkusativ_parts": [
+        "das neue Buch"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir veröffentlichen die aktuellen Testergebnisse auf der Webseite.",
+      "translation": {
+        "ru": "Мы публикуем актуальные результаты тестирования на сайте.",
+        "en": "We publish the current test results on the website."
+      },
+      "bracket_parts": [
+        "veröffentlichen"
+      ],
+      "akkusativ_parts": [
+        "die aktuellen Testergebnisse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr veröffentlicht eine offizielle Stellungnahme zum Vorfall.",
+      "translation": {
+        "ru": "Вы публикуете официальное заявление по поводу инцидента.",
+        "en": "You publish an official statement on the incident."
+      },
+      "bracket_parts": [
+        "veröffentlicht"
+      ],
+      "akkusativ_parts": [
+        "eine offizielle Stellungnahme"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie veröffentlichten damals einen bahnbrechenden Forschungsbericht.",
+      "translation": {
+        "ru": "Они опубликовали тогда революционный отчет об исследовании.",
+        "en": "They published a groundbreaking research report back then."
+      },
+      "bracket_parts": [
+        "veröffentlichten"
+      ],
+      "akkusativ_parts": [
+        "einen bahnbrechenden Forschungsbericht"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Autorin hat ihren ersten Roman erfolgreich veröffentlicht.",
+      "translation": {
+        "ru": "Писательница успешно опубликовала свой первый роман.",
+        "en": "The author successfully published her first novel."
+      },
+      "bracket_parts": [
+        "hat",
+        "veröffentlicht"
+      ],
+      "akkusativ_parts": [
+        "ihren ersten Roman"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Veröffentliche den wichtigen Bericht bitte noch heute!",
+      "translation": {
+        "ru": "Опубликуй этот важный отчет еще сегодня, пожалуйста!",
+        "en": "Please publish the important report today!"
+      },
+      "bracket_parts": [
+        "Veröffentliche"
+      ],
+      "akkusativ_parts": [
+        "den wichtigen Bericht"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

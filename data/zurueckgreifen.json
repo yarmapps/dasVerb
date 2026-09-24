@@ -1,0 +1,150 @@
+{
+  "id": "zurueckgreifen",
+  "infinitive": "zurückgreifen",
+  "translation": {
+    "ru": "прибегать (к помощи/методу), обращаться (к ресурсам/прошлому)",
+    "en": "to fall back on, to resort to, to draw upon"
+  },
+  "level": "B2",
+  "frequency_rank": 1034,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "greift zurück",
+    "preterite_third_singular": "griff zurück",
+    "past_participle": "zurückgegriffen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "greife zurück",
+      "du": "greifst zurück",
+      "er_sie_es": "greift zurück",
+      "wir": "greifen zurück",
+      "ihr": "greift zurück",
+      "sie_Sie": "greifen zurück"
+    },
+    "preterite": {
+      "ich": "griff zurück",
+      "du": "griffst zurück",
+      "er_sie_es": "griff zurück",
+      "wir": "griffen zurück",
+      "ihr": "grifft zurück",
+      "sie_Sie": "griffen zurück"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "zurückgegriffen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich greife im Notfall gerne auf die wertvolle Hilfe meiner Familie zurück.",
+      "translation": {
+        "ru": "В экстренной ситуации я охотно прибегаю к ценной помощи своей семьи.",
+        "en": "In an emergency, I gladly fall back on the valuable help of my family."
+      },
+      "bracket_parts": [
+        "greife",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Greifst du bei schwierigen Übersetzungen auf ein digitales Wörterbuch zurück?",
+      "translation": {
+        "ru": "Прибегаешь ли ты к электронному словарю при сложных переводах?",
+        "en": "Do you resort to a digital dictionary for difficult translations?"
+      },
+      "bracket_parts": [
+        "Greifst",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Unternehmen greift bei personellen Engpässen auf externe Berater zurück.",
+      "translation": {
+        "ru": "Компания прибегает к услугам внешних консультантов при кадровом дефиците.",
+        "en": "The company resorts to external consultants during personnel bottlenecks."
+      },
+      "bracket_parts": [
+        "greift",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir greifen auf bewährte Methoden aus früheren Projekten zurück.",
+      "translation": {
+        "ru": "Мы обращаемся к проверенным методам из прошлых проектов.",
+        "en": "We draw upon proven methods from earlier projects."
+      },
+      "bracket_parts": [
+        "greifen",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Greift ihr bei der Recherche auf wissenschaftliche Primärquellen zurück?",
+      "translation": {
+        "ru": "Опираетесь ли вы на научные первоисточники при исследовании?",
+        "en": "Do you guys draw upon scientific primary sources in your research?"
+      },
+      "bracket_parts": [
+        "Greift",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Autor griff in seinem Roman auf historische Tatsachen zurück.",
+      "translation": {
+        "ru": "Автор в своем романе опирался на исторические факты.",
+        "en": "The author drew upon historical facts in his novel."
+      },
+      "bracket_parts": [
+        "griff",
+        "zurück"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Wir haben während der Krise auf unsere finanziellen Reserven zurückgegriffen.",
+      "translation": {
+        "ru": "Во время кризиса мы прибегли к нашим финансовым резервам.",
+        "en": "We fell back on our financial reserves during the crisis."
+      },
+      "bracket_parts": [
+        "haben",
+        "zurückgegriffen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Greife bei Zweifeln stets auf den Rat erfahrener Kollegen zurück!",
+      "translation": {
+        "ru": "При сомнениях всегда прибегай к совету опытных коллег!",
+        "en": "In case of doubts, always fall back on the advice of experienced colleagues!"
+      },
+      "bracket_parts": [
+        "Greife",
+        "zurück"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

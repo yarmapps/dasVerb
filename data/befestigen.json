@@ -1,0 +1,143 @@
+{
+  "id": "befestigen",
+  "infinitive": "befestigen",
+  "translation": {
+    "ru": "закреплять, фиксировать, прикреплять",
+    "en": "to fasten, to attach, to fix"
+  },
+  "level": "B1",
+  "frequency_rank": 778,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "befestigt",
+    "preterite_third_singular": "befestigte",
+    "past_participle": "befestigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "befestige",
+      "du": "befestigst",
+      "er_sie_es": "befestigt",
+      "wir": "befestigen",
+      "ihr": "befestigt",
+      "sie_Sie": "befestigen"
+    },
+    "preterite": {
+      "ich": "befestigte",
+      "du": "befestigtest",
+      "er_sie_es": "befestigte",
+      "wir": "befestigten",
+      "ihr": "befestigtet",
+      "sie_Sie": "befestigten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "befestigt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "an",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich befestige das Poster mit Reißzwecken an der Wand.",
+      "translation": {
+        "ru": "Я прикрепляю плакат кнопками к стене.",
+        "en": "I attach the poster to the wall with thumbtacks."
+      },
+      "bracket_parts": [
+        "befestige"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Befestigst du den Kindersitz sicher im Auto?",
+      "translation": {
+        "ru": "Ты надежно крепишь детское кресло в машине?",
+        "en": "Are you fastening the child seat securely in the car?"
+      },
+      "bracket_parts": [
+        "befestigst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Bergsteiger befestigt das Seil fest am Haken.",
+      "translation": {
+        "ru": "Альпинист прочно закрепляет веревку на крюке.",
+        "en": "The climber fastens the rope securely to the hook."
+      },
+      "bracket_parts": [
+        "befestigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir befestigen das Regal mit stabilen Schrauben.",
+      "translation": {
+        "ru": "Мы крепим полку прочными винтами.",
+        "en": "We attach the shelf with sturdy screws."
+      },
+      "bracket_parts": [
+        "befestigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Befestigt ihr die Lichterkette am Weihnachtsbaum?",
+      "translation": {
+        "ru": "Вы крепите гирлянду на новогоднюю елку?",
+        "en": "Are you attaching the fairy lights to the Christmas tree?"
+      },
+      "bracket_parts": [
+        "Befestigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Handwerker befestigte das Schutzgitter am Fenster.",
+      "translation": {
+        "ru": "Мастер закрепил защитную решетку на окне.",
+        "en": "The workman attached the safety grille to the window."
+      },
+      "bracket_parts": [
+        "befestigte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben die Ladung vor der Fahrt gut befestigt.",
+      "translation": {
+        "ru": "Они хорошо закрепили груз перед поездкой.",
+        "en": "They fastened the load well before the drive."
+      },
+      "bracket_parts": [
+        "haben",
+        "befestigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Befestige den Sicherheitsgurt vor der Abfahrt!",
+      "translation": {
+        "ru": "Пристегни ремень безопасности перед отъездом!",
+        "en": "Fasten the seatbelt before departure!"
+      },
+      "bracket_parts": [
+        "Befestige"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

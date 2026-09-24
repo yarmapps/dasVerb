@@ -608,6 +608,21 @@ const PRIVACY_URL = 'https://das-verb.yapps.studio/legal/privacy-policy.html';
 const SUPPORT_URL = 'https://das-verb.yapps.studio/legal/privacy-policy.html';
 const MARKETING_URL = 'https://das-verb.yapps.studio';
 
+const TERMS_OF_USE_MAP: Record<string, string> = {
+  en: 'Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/',
+  de: 'Nutzungsbedingungen: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/',
+  ru: 'Условия использования: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/',
+  uk: 'Умови використання: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/',
+  es: 'Términos de uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/',
+  fr: "Conditions d'utilisation : https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+  it: 'Termini di utilizzo: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/',
+  pl: 'Warunki użytkowania: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/',
+  pt: 'Termos de uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/',
+  tr: 'Kullanım Koşulları: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/',
+  ar: 'شروط الاستخدام: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/',
+  fa: 'شرایط استفاده: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/'
+};
+
 function validateLengths(platform: string, locale: string, meta: LocaleMeta) {
   if (meta.title.length > 30) throw new Error(`[${platform}/${locale}] title exceeds 30 chars (${meta.title.length}): "${meta.title}"`);
   if (meta.subtitle.length > 30) throw new Error(`[${platform}/${locale}] subtitle exceeds 30 chars (${meta.subtitle.length}): "${meta.subtitle}"`);
@@ -618,12 +633,25 @@ function validateLengths(platform: string, locale: string, meta: LocaleMeta) {
 }
 
 function cleanObsoleteDirectories() {
-  console.log('🧹 Removing obsolete derArtikel directories from Fastlane metadata...');
-  for (const loc of OBSOLETE_ANDROID_LOCALES) {
-    const dir = path.join(ANDROID_META_DIR, loc);
-    if (fs.existsSync(dir)) {
-      fs.rmSync(dir, { recursive: true, force: true });
-      console.log(`  ❌ Deleted obsolete directory: ${loc}`);
+  console.log('🧹 Removing obsolete directories from Fastlane metadata...');
+  
+  if (fs.existsSync(IOS_META_DIR)) {
+    const iosDirs = fs.readdirSync(IOS_META_DIR, { withFileTypes: true });
+    for (const d of iosDirs) {
+      if (d.isDirectory() && !IOS_LOCALE_MAP[d.name]) {
+        fs.rmSync(path.join(IOS_META_DIR, d.name), { recursive: true, force: true });
+        console.log(`  ❌ Deleted obsolete iOS directory: ${d.name}`);
+      }
+    }
+  }
+
+  if (fs.existsSync(ANDROID_META_DIR)) {
+    const androidDirs = fs.readdirSync(ANDROID_META_DIR, { withFileTypes: true });
+    for (const d of androidDirs) {
+      if (d.isDirectory() && !ANDROID_LOCALE_MAP[d.name]) {
+        fs.rmSync(path.join(ANDROID_META_DIR, d.name), { recursive: true, force: true });
+        console.log(`  ❌ Deleted obsolete Android directory: ${d.name}`);
+      }
     }
   }
 }
@@ -638,11 +666,12 @@ function writeIosMetadata() {
     const dir = path.join(IOS_META_DIR, iosLocale);
     fs.mkdirSync(dir, { recursive: true });
 
+    const fullDescWithTerms = `${meta.fullDescription}\n\n${TERMS_OF_USE_MAP[langKey] || TERMS_OF_USE_MAP.en}`;
     fs.writeFileSync(path.join(dir, 'name.txt'), meta.title);
     fs.writeFileSync(path.join(dir, 'subtitle.txt'), meta.subtitle);
     fs.writeFileSync(path.join(dir, 'keywords.txt'), meta.keywords);
     fs.writeFileSync(path.join(dir, 'promotional_text.txt'), meta.promotionalText);
-    fs.writeFileSync(path.join(dir, 'description.txt'), meta.fullDescription);
+    fs.writeFileSync(path.join(dir, 'description.txt'), fullDescWithTerms);
     fs.writeFileSync(path.join(dir, 'release_notes.txt'), meta.releaseNotes);
     fs.writeFileSync(path.join(dir, 'privacy_url.txt'), PRIVACY_URL + '\n');
     fs.writeFileSync(path.join(dir, 'support_url.txt'), SUPPORT_URL + '\n');
@@ -674,9 +703,10 @@ function writeAndroidMetadata() {
     }
     fs.mkdirSync(changelogsDir, { recursive: true });
 
+    const fullDescWithTerms = `${meta.fullDescription}\n\n${TERMS_OF_USE_MAP[langKey] || TERMS_OF_USE_MAP.en}`;
     fs.writeFileSync(path.join(dir, 'title.txt'), meta.title);
     fs.writeFileSync(path.join(dir, 'short_description.txt'), meta.shortDescription);
-    fs.writeFileSync(path.join(dir, 'full_description.txt'), meta.fullDescription);
+    fs.writeFileSync(path.join(dir, 'full_description.txt'), fullDescWithTerms);
     fs.writeFileSync(path.join(changelogsDir, '1.txt'), meta.releaseNotes);
 
     console.log(`  ✅ Written Android metadata for [${androidLocale}]`);

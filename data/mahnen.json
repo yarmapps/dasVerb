@@ -1,0 +1,147 @@
+{
+  "id": "mahnen",
+  "infinitive": "mahnen",
+  "translation": {
+    "ru": "призывать, увещевать, напоминать (об уплате долга)",
+    "en": "to warn, to urge, to remind/demand payment"
+  },
+  "level": "B2",
+  "frequency_rank": 1043,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "mahnt",
+    "preterite_third_singular": "mahnte",
+    "past_participle": "gemahnt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "mahne",
+      "du": "mahnst",
+      "er_sie_es": "mahnt",
+      "wir": "mahnen",
+      "ihr": "mahnt",
+      "sie_Sie": "mahnen"
+    },
+    "preterite": {
+      "ich": "mahnte",
+      "du": "mahntest",
+      "er_sie_es": "mahnte",
+      "wir": "mahnten",
+      "ihr": "mahntet",
+      "sie_Sie": "mahnten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gemahnt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "zu",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "an",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich mahne alle Beteiligten zur Besonnenheit und friedlichen Einigung.",
+      "translation": {
+        "ru": "Я призываю всех участников к благоразумию и мирному соглашению.",
+        "en": "I urge all parties to prudence and peaceful agreement."
+      },
+      "bracket_parts": [
+        "mahne"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Mahnst du den säumigen Kunden schriftlich zur Begleichung der Rechnung?",
+      "translation": {
+        "ru": "Напоминаешь ли ты письменно неплательщику об оплате счета?",
+        "en": "Do you remind the defaulting customer in writing to settle the invoice?"
+      },
+      "bracket_parts": [
+        "Mahnst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Mahnmal mahnt die lebenden Generationen an die Schrecken des Krieges.",
+      "translation": {
+        "ru": "Мемориал напоминает ныне живущим поколениям об ужасах войны.",
+        "en": "The memorial warns living generations of the horrors of war."
+      },
+      "bracket_parts": [
+        "mahnt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir mahnen die Regierung zur schnellen Einhaltung der Klimaziele.",
+      "translation": {
+        "ru": "Мы призываем правительство к скорейшему соблюдению климатических целей.",
+        "en": "We urge the government to achieve climate targets quickly."
+      },
+      "bracket_parts": [
+        "mahnen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Mahnt ihr eure Mitschüler zu mehr Disziplin im Klassenraum?",
+      "translation": {
+        "ru": "Призываете ли вы одноклассников к большей дисциплине в классе?",
+        "en": "Do you guys urge your classmates to greater discipline in the classroom?"
+      },
+      "bracket_parts": [
+        "Mahnt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Richter mahnte den Angeklagten eindringlich zur Wahrheit.",
+      "translation": {
+        "ru": "Судья настойчиво призвал подсудимого говорить правду.",
+        "en": "The judge urgently urged the defendant to tell the truth."
+      },
+      "bracket_parts": [
+        "mahnte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Bank hat den Kunden wegen des überzogenen Kontos mehrfach gemahnt.",
+      "translation": {
+        "ru": "Банк неоднократно отправлял клиенту напоминания из-за превышения кредита.",
+        "en": "The bank has repeatedly warned the customer regarding the overdrawn account."
+      },
+      "bracket_parts": [
+        "hat",
+        "gemahnt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Mahne stets mit Geduld und verständnisvollen Worten!",
+      "translation": {
+        "ru": "Увещевай всегда с терпением и словами понимания!",
+        "en": "Always admonish with patience and understanding words!"
+      },
+      "bracket_parts": [
+        "Mahne"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

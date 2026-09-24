@@ -1,0 +1,144 @@
+{
+  "id": "auflegen",
+  "infinitive": "auflegen",
+  "translation": {
+    "ru": "вешать трубку (завершать звонок), накладывать, издавать (тираж)",
+    "en": "to hang up (phone), to put on, to publish/reissue"
+  },
+  "level": "B1",
+  "frequency_rank": 972,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "legt auf",
+    "preterite_third_singular": "legte auf",
+    "past_participle": "aufgelegt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lege auf",
+      "du": "legst auf",
+      "er_sie_es": "legt auf",
+      "wir": "legen auf",
+      "ihr": "legt auf",
+      "sie_Sie": "legen auf"
+    },
+    "preterite": {
+      "ich": "legte auf",
+      "du": "legtest auf",
+      "er_sie_es": "legte auf",
+      "wir": "legten auf",
+      "ihr": "legtet auf",
+      "sie_Sie": "legten auf"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "aufgelegt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich lege den Hörer nach dem kurzen Telefongespräch wieder auf.",
+      "translation": {
+        "ru": "Я кладу трубку после короткого телефонного разговора.",
+        "en": "I hang up the receiver after the short phone call."
+      },
+      "bracket_parts": [
+        "lege",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Legst du bei unerwünschter Werbung am Telefon sofort auf?",
+      "translation": {
+        "ru": "Ты сразу бросаешь трубку при нежелательной рекламе по телефону?",
+        "en": "Do you hang up immediately upon unwanted phone advertising?"
+      },
+      "bracket_parts": [
+        "Legst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der DJ legt heute Abend im Club elektronische Musik auf.",
+      "translation": {
+        "ru": "Диджей сегодня вечером ставит в клубе электронную музыку.",
+        "en": "The DJ plays electronic music in the club tonight."
+      },
+      "bracket_parts": [
+        "legt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir legen das Buch wegen des großen Erfolgs in zweiter Auflage auf.",
+      "translation": {
+        "ru": "Из-за большого успеха мы выпускаем книгу вторым тиражом.",
+        "en": "Due to great success, we are publishing the book in a second edition."
+      },
+      "bracket_parts": [
+        "legen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Legt ihr bei frechen Anrufen einfach mitten im Satz auf?",
+      "translation": {
+        "ru": "Вы просто бросаете трубку на полуслове при наглых звонках?",
+        "en": "Do you guys just hang up mid-sentence during cheeky calls?"
+      },
+      "bracket_parts": [
+        "Legt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie legte vor Wut einfach den Telefonhörer auf.",
+      "translation": {
+        "ru": "От злости она просто бросила телефонную трубку.",
+        "en": "She simply hung up the phone receiver in anger."
+      },
+      "bracket_parts": [
+        "legte",
+        "auf"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Verlag hat das beliebte Lehrbuch neu aufgelegt.",
+      "translation": {
+        "ru": "Издательство выпустило новое издание популярного учебника.",
+        "en": "The publisher has reissued the popular textbook."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgelegt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lege bitte nicht auf, bevor ich dir alles erklärt habe!",
+      "translation": {
+        "ru": "Не вешай, пожалуйста, трубку, пока я тебе все не объяснил!",
+        "en": "Please do not hang up before I have explained everything to you!"
+      },
+      "bracket_parts": [
+        "Lege",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

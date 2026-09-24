@@ -1,0 +1,143 @@
+{
+  "id": "braten",
+  "infinitive": "braten",
+  "translation": {
+    "ru": "жарить, запекать (мясо/рыбу)",
+    "en": "to fry, to roast"
+  },
+  "level": "A2",
+  "frequency_rank": 1013,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "brät",
+    "preterite_third_singular": "briet",
+    "past_participle": "gebraten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "brate",
+      "du": "brätst",
+      "er_sie_es": "brät",
+      "wir": "braten",
+      "ihr": "bratet",
+      "sie_Sie": "braten"
+    },
+    "preterite": {
+      "ich": "briet",
+      "du": "brietest",
+      "er_sie_es": "briet",
+      "wir": "brieten",
+      "ihr": "brietet",
+      "sie_Sie": "brieten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gebraten"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich brate mir zum Abendessen ein saftiges Steak mit Zwiebeln.",
+      "translation": {
+        "ru": "На ужин я жарю себе сочный стейк с луком.",
+        "en": "I fry myself a juicy steak with onions for dinner."
+      },
+      "bracket_parts": [
+        "brate"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Brätst du die frischen Champignons in etwas Olivenöl an?",
+      "translation": {
+        "ru": "Ты обжариваешь свежие шампиньоны на оливковом масле?",
+        "en": "Are you frying the fresh mushrooms in some olive oil?"
+      },
+      "bracket_parts": [
+        "Brätst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Koch brät das Fleisch auf beiden Seiten goldbraun an.",
+      "translation": {
+        "ru": "Повар обжаривает мясо с обеих сторон до золотистой корочки.",
+        "en": "The chef browns the meat on both sides until golden brown."
+      },
+      "bracket_parts": [
+        "brät"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir braten heute knusprige Bratkartoffeln für die ganze Familie.",
+      "translation": {
+        "ru": "Мы жарим сегодня хрустящую жареную картошку для всей семьи.",
+        "en": "We are frying crispy fried potatoes for the whole family today."
+      },
+      "bracket_parts": [
+        "braten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bratet ihr das Gemüse in der heißen Pfanne oder im Ofen?",
+      "translation": {
+        "ru": "Вы жарите овощи на горячей сковороде или в духовке?",
+        "en": "Are you guys roasting the vegetables in the hot pan or in the oven?"
+      },
+      "bracket_parts": [
+        "Bratet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Meine Großmutter briet sonntags immer einen köstlichen Schweinebraten.",
+      "translation": {
+        "ru": "Моя бабушка по воскресеньям всегда запекала вкуснейшее жаркое из свинины.",
+        "en": "My grandmother always roasted a delicious roast pork on Sundays."
+      },
+      "bracket_parts": [
+        "briet"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat die Würstchen auf dem Holzkohlegrill perfekt gebraten.",
+      "translation": {
+        "ru": "Он идеально поджарил сосиски на углях.",
+        "en": "He grilled/fried the sausages perfectly on the charcoal grill."
+      },
+      "bracket_parts": [
+        "hat",
+        "gebraten"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Brate das Fleisch nicht bei zu hoher Temperatur an!",
+      "translation": {
+        "ru": "Не жарь мясо при слишком высокой температуре!",
+        "en": "Do not sear the meat at too high a temperature!"
+      },
+      "bracket_parts": [
+        "Brate"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

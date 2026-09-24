@@ -1,0 +1,143 @@
+{
+  "id": "entfallen",
+  "infinitive": "entfallen",
+  "translation": {
+    "ru": "выпадать из памяти, отменяться, приходиться (на долю)",
+    "en": "to slip one's mind, to be canceled, to fall to sb's share"
+  },
+  "level": "B2",
+  "frequency_rank": 763,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "entfällt",
+    "preterite_third_singular": "entfiel",
+    "past_participle": "entfallen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entfalle",
+      "du": "entfällst",
+      "er_sie_es": "entfällt",
+      "wir": "entfallen",
+      "ihr": "entfallt",
+      "sie_Sie": "entfallen"
+    },
+    "preterite": {
+      "ich": "entfiel",
+      "du": "entfielst",
+      "er_sie_es": "entfiel",
+      "wir": "entfielen",
+      "ihr": "entfielt",
+      "sie_Sie": "entfielen"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "entfallen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Sein Name entfällt mir leider im Moment.",
+      "translation": {
+        "ru": "Его имя, к сожалению, сейчас вылетело у меня из головы.",
+        "en": "His name unfortunately slips my mind at the moment."
+      },
+      "bracket_parts": [
+        "entfällt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Entfällt dir auch manchmal eine wichtige Information?",
+      "translation": {
+        "ru": "У тебя тоже иногда вылетает из головы важная информация?",
+        "en": "Does an important piece of information also slip your mind sometimes?"
+      },
+      "bracket_parts": [
+        "Entfällt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die heutige Vorlesung an der Universität entfällt ersatzlos.",
+      "translation": {
+        "ru": "Сегодняшняя лекция в университете отменяется без замены.",
+        "en": "Today's lecture at the university is canceled without replacement."
+      },
+      "bracket_parts": [
+        "entfällt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein großer Teil der Kosten entfällt auf das Marketing.",
+      "translation": {
+        "ru": "Большая часть расходов приходится на маркетинг.",
+        "en": "A large part of the costs falls on marketing."
+      },
+      "bracket_parts": [
+        "entfällt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Entfallen bei euch heute auch die letzten beiden Stunden?",
+      "translation": {
+        "ru": "У вас сегодня тоже отменяются последние два урока?",
+        "en": "Are the last two periods canceled for you guys today as well?"
+      },
+      "bracket_parts": [
+        "Entfallen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das wichtige Detail entfiel dem Zeugen während der Befragung.",
+      "translation": {
+        "ru": "Важная деталь вылетела из памяти свидетеля во время опроса.",
+        "en": "The important detail slipped the witness's mind during the interrogation."
+      },
+      "bracket_parts": [
+        "entfiel"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Wegen der Krankheit des Lehrers sind viele Stunden entfallen.",
+      "translation": {
+        "ru": "Из-за болезни учителя многие уроки отменились.",
+        "en": "Due to the teacher's illness, many classes were canceled."
+      },
+      "bracket_parts": [
+        "sind",
+        "entfallen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Sei aufmerksam, damit dir keine wichtigen Termine entfallen!",
+      "translation": {
+        "ru": "Будь внимателен, чтобы не забыть важные встречи!",
+        "en": "Be attentive so that you don't forget important appointments!"
+      },
+      "bracket_parts": [
+        "entfallen"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

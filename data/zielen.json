@@ -1,0 +1,143 @@
+{
+  "id": "zielen",
+  "infinitive": "zielen",
+  "translation": {
+    "ru": "целиться, метить, быть направленным",
+    "en": "to aim, to target"
+  },
+  "level": "B2",
+  "frequency_rank": 999,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "zielt",
+    "preterite_third_singular": "zielte",
+    "past_participle": "gezielt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ziele",
+      "du": "zielst",
+      "er_sie_es": "zielt",
+      "wir": "zielen",
+      "ihr": "zielt",
+      "sie_Sie": "zielen"
+    },
+    "preterite": {
+      "ich": "zielte",
+      "du": "zieltest",
+      "er_sie_es": "zielte",
+      "wir": "zielten",
+      "ihr": "zieltet",
+      "sie_Sie": "zielten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gezielt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich ziele beim Bogenschießen ganz genau auf die Mitte der Scheibe.",
+      "translation": {
+        "ru": "При стрельбе из лука я целюсь точно в центр мишени.",
+        "en": "In archery, I aim very precisely at the center of the target."
+      },
+      "bracket_parts": [
+        "ziele"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Zielst du mit deinen Argumenten auf eine schnelle Einigung ab?",
+      "translation": {
+        "ru": "Нацеливаешься ли ты своими аргументами на быстрое соглашение?",
+        "en": "Are you aiming for a quick agreement with your arguments?"
+      },
+      "bracket_parts": [
+        "Zielst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Werbekampagne zielt vor allem auf junge Erwachsene ab.",
+      "translation": {
+        "ru": "Рекламная кампания нацелена прежде всего на молодых людей.",
+        "en": "The advertising campaign is aimed primarily at young adults."
+      },
+      "bracket_parts": [
+        "zielt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir zielen mit unseren Projekten auf eine nachhaltige Zukunft ab.",
+      "translation": {
+        "ru": "Своими проектами мы нацеливаемся на устойчивое будущее.",
+        "en": "With our projects, we aim for a sustainable future."
+      },
+      "bracket_parts": [
+        "zielen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Zielt ihr beim Fußballtraining direkt auf die Torecken?",
+      "translation": {
+        "ru": "Целитесь ли вы на футбольной тренировке прямо в углы ворот?",
+        "en": "Do you guys aim directly at the corners of the goal during soccer training?"
+      },
+      "bracket_parts": [
+        "Zielt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Jäger zielte ruhig und traf das Ziel mit dem ersten Schuss.",
+      "translation": {
+        "ru": "Охотник спокойно прицелился и поразил цель первым выстрелом.",
+        "en": "The hunter aimed calmly and hit the target with the first shot."
+      },
+      "bracket_parts": [
+        "zielte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Reform hat auf eine gerechtere Besteuerung aller Bürger gezielt.",
+      "translation": {
+        "ru": "Реформа была направлена на более справедливое налогообложение всех граждан.",
+        "en": "The reform aimed at fairer taxation of all citizens."
+      },
+      "bracket_parts": [
+        "hat",
+        "gezielt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Ziele immer hoch, um das Bestmögliche zu erreichen!",
+      "translation": {
+        "ru": "Всегда целься высоко, чтобы достичь наилучшего!",
+        "en": "Always aim high to achieve the best possible!"
+      },
+      "bracket_parts": [
+        "Ziele"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

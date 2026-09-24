@@ -1,0 +1,150 @@
+{
+  "id": "herausnehmen",
+  "infinitive": "herausnehmen",
+  "translation": {
+    "ru": "вынимать, извлекать, позволять себе (дерзость)",
+    "en": "to take out, to remove, to presume/dare"
+  },
+  "level": "B1",
+  "frequency_rank": 982,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "nimmt heraus",
+    "preterite_third_singular": "nahm heraus",
+    "past_participle": "herausgenommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "nehme heraus",
+      "du": "nimmst heraus",
+      "er_sie_es": "nimmt heraus",
+      "wir": "nehmen heraus",
+      "ihr": "nehmt heraus",
+      "sie_Sie": "nehmen heraus"
+    },
+    "preterite": {
+      "ich": "nahm heraus",
+      "du": "nahmst heraus",
+      "er_sie_es": "nahm heraus",
+      "wir": "nahmen heraus",
+      "ihr": "nahmt heraus",
+      "sie_Sie": "nahmen heraus"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "herausgenommen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "aus",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich nehme den frisch gebackenen Kuchen vorsichtig aus dem Ofen heraus.",
+      "translation": {
+        "ru": "Я осторожно вынимаю свежеиспеченный пирог из духовки.",
+        "en": "I carefully take the freshly baked cake out of the oven."
+      },
+      "bracket_parts": [
+        "nehme",
+        "heraus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Nimmst du den Akku aus der Fernbedienung heraus?",
+      "translation": {
+        "ru": "Ты вынимаешь батарейку из пульта дистанционного управления?",
+        "en": "Are you taking the battery out of the remote control?"
+      },
+      "bracket_parts": [
+        "Nimmst",
+        "heraus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Koch nimmt die fertigen Kartoffeln aus dem heißen Wasser heraus.",
+      "translation": {
+        "ru": "Повар вынимает готовую картошку из горячей воды.",
+        "en": "The chef takes the cooked potatoes out of the hot water."
+      },
+      "bracket_parts": [
+        "nimmt",
+        "heraus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir nehmen die schadhaften Teile zur Reparatur aus der Maschine heraus.",
+      "translation": {
+        "ru": "Мы извлекаем поврежденные детали из станка для ремонта.",
+        "en": "We take the damaged parts out of the machine for repair."
+      },
+      "bracket_parts": [
+        "nehmen",
+        "heraus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Nehmt ihr die gefrorenen Lebensmittel rechtzeitig aus dem Tiefkühlfach heraus?",
+      "translation": {
+        "ru": "Вы вовремя достаете замороженные продукты из морозилки?",
+        "en": "Are you guys taking the frozen food out of the freezer compartment in time?"
+      },
+      "bracket_parts": [
+        "Nehmt",
+        "heraus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Arzt nahm den Splitter behutsam mit einer Pinzette heraus.",
+      "translation": {
+        "ru": "Врач осторожно извлек занозу пинцетом.",
+        "en": "The doctor carefully took the splinter out with tweezers."
+      },
+      "bracket_parts": [
+        "nahm",
+        "heraus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat sich ohne Erlaubnis ein großes Stück Schokolade herausgenommen.",
+      "translation": {
+        "ru": "Он без спроса взял себе большой кусок шоколада.",
+        "en": "He took out a large piece of chocolate for himself without permission."
+      },
+      "bracket_parts": [
+        "hat",
+        "herausgenommen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Nimm bitte die Wäsche sofort nach dem Waschgang heraus!",
+      "translation": {
+        "ru": "Вынь, пожалуйста, белье сразу после стирки!",
+        "en": "Please take the laundry out immediately after the wash cycle!"
+      },
+      "bracket_parts": [
+        "Nimm",
+        "heraus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

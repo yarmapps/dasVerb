@@ -1,0 +1,144 @@
+{
+  "id": "loswerden",
+  "infinitive": "loswerden",
+  "translation": {
+    "ru": "избавляться, отделываться",
+    "en": "to get rid of, to shake off"
+  },
+  "level": "B1",
+  "frequency_rank": 927,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "irregular",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "wird los",
+    "preterite_third_singular": "wurde los",
+    "past_participle": "losgeworden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "werde los",
+      "du": "wirst los",
+      "er_sie_es": "wird los",
+      "wir": "werden los",
+      "ihr": "werdet los",
+      "sie_Sie": "werden los"
+    },
+    "preterite": {
+      "ich": "wurde los",
+      "du": "wurdest los",
+      "er_sie_es": "wurde los",
+      "wir": "wurden los",
+      "ihr": "wurdet los",
+      "sie_Sie": "wurden los"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "losgeworden"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich werde meine lästige Erkältung einfach nicht los.",
+      "translation": {
+        "ru": "Я никак не могу избавиться от своей надоедливой простуды.",
+        "en": "I just can't get rid of my annoying cold."
+      },
+      "bracket_parts": [
+        "werde",
+        "los"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wirst du das alte, kaputte Fahrrad endlich auf dem Flohmarkt los?",
+      "translation": {
+        "ru": "Ты наконец избавишься от старого сломанного велосипеда на барахолке?",
+        "en": "Are you finally getting rid of the old, broken bike at the flea market?"
+      },
+      "bracket_parts": [
+        "Wirst",
+        "los"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Händler wird die restliche Ware zu einem Spottpreis los.",
+      "translation": {
+        "ru": "Торговец сбывает остатки товара по бросовой цене.",
+        "en": "The dealer gets rid of the remaining goods at a bargain price."
+      },
+      "bracket_parts": [
+        "wird",
+        "los"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir werden unsere alten Möbel vor dem Umzug problemlos los.",
+      "translation": {
+        "ru": "Мы без проблем избавляемся от старой мебели перед переездом.",
+        "en": "We are getting rid of our old furniture before the move without problems."
+      },
+      "bracket_parts": [
+        "werden",
+        "los"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Werdet ihr die störenden Sorgen vor dem Urlaub schnell los?",
+      "translation": {
+        "ru": "Вы быстро избавитесь от тревожных забот перед отпуском?",
+        "en": "Are you guys getting rid of disturbing worries quickly before vacation?"
+      },
+      "bracket_parts": [
+        "Werdet",
+        "los"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er wurde den aufdringlichen Verkäufer an der Haustür kaum los.",
+      "translation": {
+        "ru": "Он едва отделался от навязчивого продавца у входной двери.",
+        "en": "He barely got rid of the pushy salesman at the front door."
+      },
+      "bracket_parts": [
+        "wurde",
+        "los"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Ich bin endlich alle alten Schulbücher im Internet losgeworden.",
+      "translation": {
+        "ru": "Я наконец избавился от всех старых школьных учебников в интернете.",
+        "en": "I finally got rid of all the old school books on the internet."
+      },
+      "bracket_parts": [
+        "bin",
+        "losgeworden"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Werde diesen unnötigen Ballast so schnell wie möglich los!",
+      "translation": {
+        "ru": "Избавься от этого ненужного балласта как можно скорее!",
+        "en": "Get rid of this unnecessary burden as soon as possible!"
+      },
+      "bracket_parts": [
+        "Werde",
+        "los"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "unterstellen",
+  "infinitive": "unterstellen",
+  "translation": {
+    "ru": "приписывать/инкриминировать (дурные намерения), ставить под навес, подчинять",
+    "en": "to allege/imply, to place under shelter, to subordinate"
+  },
+  "level": "B2",
+  "frequency_rank": 1050,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "unterstellt",
+    "preterite_third_singular": "unterstellte",
+    "past_participle": "unterstellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "unterstelle",
+      "du": "unterstellst",
+      "er_sie_es": "unterstellt",
+      "wir": "unterstellen",
+      "ihr": "unterstellt",
+      "sie_Sie": "unterstellen"
+    },
+    "preterite": {
+      "ich": "unterstellte",
+      "du": "unterstelltest",
+      "er_sie_es": "unterstellte",
+      "wir": "unterstellten",
+      "ihr": "unterstelltet",
+      "sie_Sie": "unterstellten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "unterstellt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich unterstelle dir keineswegs absichtliche böse Absichten.",
+      "translation": {
+        "ru": "Я ни в коем случае не приписываю тебе злых умыслов.",
+        "en": "I by no means impute deliberate bad intentions to you."
+      },
+      "bracket_parts": [
+        "unterstelle"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Unterstellst du deinen Kollegen etwa Unehrlichkeit bei der Abrechnung?",
+      "translation": {
+        "ru": "Приписываешь ли ты своим коллегам нечестность в отчетах?",
+        "en": "Are you alleging dishonesty among your colleagues in the billing?"
+      },
+      "bracket_parts": [
+        "Unterstellst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Kritiker unterstellt dem Regisseur reine Provokation.",
+      "translation": {
+        "ru": "Критик приписывает режиссеру чистую провокацию.",
+        "en": "The critic attributes pure provocation to the director."
+      },
+      "bracket_parts": [
+        "unterstellt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir unterstellen uns bei dem plötzlichen Gewitter unter dem großen Dach.",
+      "translation": {
+        "ru": "При внезапной грозе мы укрываемся под большим навесом.",
+        "en": "During the sudden thunderstorm, we shelter under the large roof."
+      },
+      "bracket_parts": [
+        "unterstellen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Unterstellt ihr dem Bürgermeister persönliche Vorteilsnahme?",
+      "translation": {
+        "ru": "Приписываете ли вы мэру личную корыстную выгоду?",
+        "en": "Are you guys alleging personal gain on the part of the mayor?"
+      },
+      "bracket_parts": [
+        "Unterstellt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Staatsanwalt unterstellte dem Angeklagten eiskalte Planung.",
+      "translation": {
+        "ru": "Прокурор инкриминировал подсудимому хладнокровный расчет.",
+        "en": "The prosecutor imputed cold-blooded planning to the defendant."
+      },
+      "bracket_parts": [
+        "unterstellte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Man hat ihm fälschlicherweise Manipulationen an den Daten unterstellt.",
+      "translation": {
+        "ru": "Ему ошибочно приписали манипуляции с данными.",
+        "en": "He was wrongly accused of manipulating the data."
+      },
+      "bracket_parts": [
+        "hat",
+        "unterstellt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Unterstelle anderen Menschen nicht grundlos schlechte Motive!",
+      "translation": {
+        "ru": "Не приписывай другим людям дурных мотивов без всяких оснований!",
+        "en": "Do not impute bad motives to other people without reason!"
+      },
+      "bracket_parts": [
+        "Unterstelle"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

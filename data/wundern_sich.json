@@ -1,0 +1,147 @@
+{
+  "id": "wundern_sich",
+  "infinitive": "wundern",
+  "translation": {
+    "ru": "удивляться, изумляться",
+    "en": "to wonder, to be surprised"
+  },
+  "level": "A2",
+  "frequency_rank": 598,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "wundern",
+    "present_3sg": "wundert sich",
+    "praeteritum_3sg": "wunderte sich",
+    "partizip_2": "gewundert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wundere mich",
+      "du": "wunderst dich",
+      "er_sie_es": "wundert sich",
+      "wir": "wundern uns",
+      "ihr": "wundert euch",
+      "sie_Sie": "wundern sich"
+    },
+    "praeteritum": {
+      "ich": "wunderte mich",
+      "du": "wundertest dich",
+      "er_sie_es": "wunderte sich",
+      "wir": "wunderten uns",
+      "ihr": "wundertet euch",
+      "sie_Sie": "wunderten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich gewundert",
+      "du": "hast dich gewundert",
+      "er_sie_es": "hat sich gewundert",
+      "wir": "haben uns gewundert",
+      "ihr": "habt euch gewundert",
+      "sie_Sie": "haben sich gewundert"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich wundere mich sehr über sein plötzliches Verhalten.",
+      "translation": {
+        "ru": "Я очень удивляюсь его внезапному поведению.",
+        "en": "I am very surprised at his sudden behavior."
+      },
+      "bracket_parts": [
+        "wundere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wunderst du dich über die hohen Preise hier?",
+      "translation": {
+        "ru": "Ты удивляешься высоким ценам здесь?",
+        "en": "Are you surprised at the high prices here?"
+      },
+      "bracket_parts": [
+        "Wunderst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er wundert sich über das schlechte Wetter im Sommer.",
+      "translation": {
+        "ru": "Он удивляется плохой погоде летом.",
+        "en": "He is surprised at the bad weather in summer."
+      },
+      "bracket_parts": [
+        "wundert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir wundern uns über die vielen Gäste auf der Party.",
+      "translation": {
+        "ru": "Мы удивляемся большому количеству гостей на вечеринке.",
+        "en": "We are surprised by the many guests at the party."
+      },
+      "bracket_parts": [
+        "wundern"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr wundert euch nicht über diese Nachricht?",
+      "translation": {
+        "ru": "Вы не удивляетесь этой новости?",
+        "en": "Are you not surprised by this news?"
+      },
+      "bracket_parts": [
+        "wundert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Touristen wunderten sich damals über die alten Bräuche.",
+      "translation": {
+        "ru": "Туристы тогда удивлялись древним обычаям.",
+        "en": "The tourists were surprised by the old customs back then."
+      },
+      "bracket_parts": [
+        "wunderten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Niemand hat sich über seine Entscheidung gewundert.",
+      "translation": {
+        "ru": "Никто не удивился его решению.",
+        "en": "Nobody was surprised at his decision."
+      },
+      "bracket_parts": [
+        "hat",
+        "gewundert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Wundere dich nicht über kleine Fehler am Anfang!",
+      "translation": {
+        "ru": "Не удивляйся мелким ошибкам в начале!",
+        "en": "Do not be surprised by small mistakes at the beginning!"
+      },
+      "bracket_parts": [
+        "Wundere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

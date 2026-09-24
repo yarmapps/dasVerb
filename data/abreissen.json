@@ -1,0 +1,144 @@
+{
+  "id": "abreissen",
+  "infinitive": "abreißen",
+  "translation": {
+    "ru": "сносить (здание), обрывать (нить/контакт), отрывать",
+    "en": "to demolish, to tear off, to break off (contact)"
+  },
+  "level": "B2",
+  "frequency_rank": 1005,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "reißt ab",
+    "preterite_third_singular": "riss ab",
+    "past_participle": "abgerissen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "reiße ab",
+      "du": "reißt ab",
+      "er_sie_es": "reißt ab",
+      "wir": "reißen ab",
+      "ihr": "reißt ab",
+      "sie_Sie": "reißen ab"
+    },
+    "preterite": {
+      "ich": "riss ab",
+      "du": "rissest ab",
+      "er_sie_es": "riss ab",
+      "wir": "rissen ab",
+      "ihr": "risst ab",
+      "sie_Sie": "rissen ab"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "abgerissen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich reiße den alten Kalenderzettel am Ende des Monats ab.",
+      "translation": {
+        "ru": "В конце месяца я отрываю старый листок календаря.",
+        "en": "I tear off the old calendar page at the end of the month."
+      },
+      "bracket_parts": [
+        "reiße",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Reißt du das alte Preisschild vor dem Verschenken vom Buch ab?",
+      "translation": {
+        "ru": "Ты отрываешь старый ценник от книги перед тем, как подарить?",
+        "en": "Are you tearing the old price tag off the book before giving it as a gift?"
+      },
+      "bracket_parts": [
+        "Reißt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Baufirma reißt das baufällige Gebäude in der Stadtmitte ab.",
+      "translation": {
+        "ru": "Строительная фирма сносит ветхое здание в центре города.",
+        "en": "The construction company is demolishing the dilapidated building in the city center."
+      },
+      "bracket_parts": [
+        "reißt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir reißen den Kontakt zu unseren alten Schulfreunden niemals ab.",
+      "translation": {
+        "ru": "Мы никогда не обрываем контакт с нашими школьными друзьями.",
+        "en": "We never break off contact with our old school friends."
+      },
+      "bracket_parts": [
+        "reißen",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Reißt ihr die Eintrittskarten der Besucher am Einlass ab?",
+      "translation": {
+        "ru": "Отрываете ли вы входные билеты посетителей на контроле?",
+        "en": "Are you guys tearing off the visitors' entrance tickets at the gate?"
+      },
+      "bracket_parts": [
+        "Reißt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der schwere Sturm riss viele Äste von den Bäumen ab.",
+      "translation": {
+        "ru": "Сильный шторм оборвал много веток с деревьев.",
+        "en": "The heavy storm ripped many branches off the trees."
+      },
+      "bracket_parts": [
+        "riss",
+        "ab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Stadt hat die marode Brücke vor zwei Wochen komplett abgerissen.",
+      "translation": {
+        "ru": "Город полностью снес аварийный мост две недели назад.",
+        "en": "The city completely demolished the dilapidated bridge two weeks ago."
+      },
+      "bracket_parts": [
+        "hat",
+        "abgerissen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Reiß die Quittung bitte ganz vorsichtig an der Kante ab!",
+      "translation": {
+        "ru": "Оторви, пожалуйста, чек аккуратно по линии!",
+        "en": "Please tear off the receipt very carefully along the edge!"
+      },
+      "bracket_parts": [
+        "Reiß",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

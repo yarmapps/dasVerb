@@ -1,0 +1,155 @@
+{
+  "id": "vorgeben",
+  "infinitive": "vorgeben",
+  "translation": {
+    "ru": "задавать, определять, притворяться",
+    "en": "to specify, to set, to pretend"
+  },
+  "level": "B2",
+  "frequency_rank": 568,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "vor",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vorgeben",
+    "present_3sg": "gibt vor",
+    "praeteritum_3sg": "gab vor",
+    "partizip_2": "vorgegeben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gebe vor",
+      "du": "gibst vor",
+      "er_sie_es": "gibt vor",
+      "wir": "geben vor",
+      "ihr": "gebt vor",
+      "sie_Sie": "geben vor",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "gab vor",
+      "du": "gabst vor",
+      "er_sie_es": "gab vor",
+      "wir": "gaben vor",
+      "ihr": "gabt vor",
+      "sie_Sie": "gaben vor"
+    },
+    "perfekt": {
+      "ich": "habe vorgegeben",
+      "du": "hast vorgegeben",
+      "er_sie_es": "hat vorgegeben",
+      "wir": "haben vorgegeben",
+      "ihr": "habt vorgegeben",
+      "sie_Sie": "haben vorgegeben"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich gebe das richtige Tempo für die Gruppe vor.",
+      "translation": {
+        "ru": "Я задаю правильный темп для группы.",
+        "en": "I set the right pace for the group."
+      },
+      "bracket_parts": [
+        "gebe",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du gibst oft vor, alles genau zu wissen.",
+      "translation": {
+        "ru": "Ты часто делаешь вид, что знаешь все точно.",
+        "en": "You often pretend to know everything exactly."
+      },
+      "bracket_parts": [
+        "gibst",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Lehrerin gibt das Thema für den Aufsatz vor.",
+      "translation": {
+        "ru": "Учительница задает тему для сочинения.",
+        "en": "The teacher sets the topic for the essay."
+      },
+      "bracket_parts": [
+        "gibt",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir geben klare Richtlinien für die Arbeit vor.",
+      "translation": {
+        "ru": "Мы задаем четкие ориентиры для работы.",
+        "en": "We specify clear guidelines for the work."
+      },
+      "bracket_parts": [
+        "geben",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr gebt eine falsche Adresse beim Amt vor.",
+      "translation": {
+        "ru": "Вы указываете ложный адрес в ведомстве.",
+        "en": "You pretend a false address at the office."
+      },
+      "bracket_parts": [
+        "gebt",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Chef gab damals den strengen Zeitplan vor.",
+      "translation": {
+        "ru": "Начальник тогда установил строгий график.",
+        "en": "The boss set the strict schedule back then."
+      },
+      "bracket_parts": [
+        "gab",
+        "vor"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben die Kriterien für den Test vorgegeben.",
+      "translation": {
+        "ru": "Они определили критерии для теста.",
+        "en": "They have specified the criteria for the test."
+      },
+      "bracket_parts": [
+        "haben",
+        "vorgegeben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gib den Mitarbeitern das Ziel ganz eindeutig vor!",
+      "translation": {
+        "ru": "Задай сотрудникам цель совершенно однозначно!",
+        "en": "Clearly define the goal for the employees!"
+      },
+      "bracket_parts": [
+        "Gib",
+        "vor"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "losgehen",
+  "infinitive": "losgehen",
+  "translation": {
+    "ru": "начинаться, отправляться",
+    "en": "to start, to go off, to leave"
+  },
+  "level": "A2",
+  "frequency_rank": 712,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "geht los",
+    "preterite_third_singular": "ging los",
+    "past_participle": "losgegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe los",
+      "du": "gehst los",
+      "er_sie_es": "geht los",
+      "wir": "gehen los",
+      "ihr": "geht los",
+      "sie_Sie": "gehen los"
+    },
+    "preterite": {
+      "ich": "ging los",
+      "du": "gingst los",
+      "er_sie_es": "ging los",
+      "wir": "gingen los",
+      "ihr": "gingt los",
+      "sie_Sie": "gingen los"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "losgegangen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich gehe jetzt endlich zur Schule los.",
+      "translation": {
+        "ru": "Я наконец отправляюсь в школу.",
+        "en": "I finally head off to school now."
+      },
+      "bracket_parts": [
+        "gehe",
+        "los"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gehst du schon zur Haltestelle los?",
+      "translation": {
+        "ru": "Ты уже отправляешься на остановку?",
+        "en": "Are you already heading off to the stop?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "los"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der spannende Film geht um acht Uhr los.",
+      "translation": {
+        "ru": "Увлекательный фильм начинается в восемь часов.",
+        "en": "The exciting film starts at eight o'clock."
+      },
+      "bracket_parts": [
+        "geht",
+        "los"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gehen sofort nach dem Frühstück los.",
+      "translation": {
+        "ru": "Мы отправляемся сразу после завтрака.",
+        "en": "We head off immediately after breakfast."
+      },
+      "bracket_parts": [
+        "gehen",
+        "los"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wann geht ihr denn endlich los?",
+      "translation": {
+        "ru": "Когда же вы наконец отправляетесь?",
+        "en": "When are you guys finally heading off?"
+      },
+      "bracket_parts": [
+        "geht",
+        "los"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das laute Konzert ging pünktlich um zwanzig Uhr los.",
+      "translation": {
+        "ru": "Громкий концерт начался ровно в двадцать часов.",
+        "en": "The loud concert started punctually at 8 p.m."
+      },
+      "bracket_parts": [
+        "ging",
+        "los"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die aufregende Reise ist gestern früh losgegangen.",
+      "translation": {
+        "ru": "Увлекательное путешествие началось вчера рано утром.",
+        "en": "The exciting journey started early yesterday morning."
+      },
+      "bracket_parts": [
+        "ist",
+        "losgegangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Geh jetzt schnell los, sonst kommst du zu spät!",
+      "translation": {
+        "ru": "Отправляйся сейчас же, иначе опоздаешь!",
+        "en": "Head off quickly now, otherwise you will be late!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "los"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

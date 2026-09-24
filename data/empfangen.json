@@ -1,0 +1,148 @@
+{
+  "id": "empfangen",
+  "infinitive": "empfangen",
+  "translation": {
+    "ru": "принимать (гостей/сигнал), встречать",
+    "en": "to receive, to welcome, to get (signal)"
+  },
+  "level": "B1",
+  "frequency_rank": 576,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "emp",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "empfangen",
+    "present_3sg": "empfängt",
+    "praeteritum_3sg": "empfing",
+    "partizip_2": "empfangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "empfange",
+      "du": "empfängst",
+      "er_sie_es": "empfängt",
+      "wir": "empfangen",
+      "ihr": "empfangt",
+      "sie_Sie": "empfangen",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "empfing",
+      "du": "empfingst",
+      "er_sie_es": "empfing",
+      "wir": "empfingen",
+      "ihr": "empfingt",
+      "sie_Sie": "empfingen"
+    },
+    "perfekt": {
+      "ich": "habe empfangen",
+      "du": "hast empfangen",
+      "er_sie_es": "hat empfangen",
+      "wir": "haben empfangen",
+      "ihr": "habt empfangen",
+      "sie_Sie": "haben empfangen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich empfange die Gäste herzlich an der Tür.",
+      "translation": {
+        "ru": "Я сердечно встречаю гостей у двери.",
+        "en": "I welcome the guests warmly at the door."
+      },
+      "bracket_parts": [
+        "empfange"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Empfängst du ein gutes Signal auf deinem Smartphone?",
+      "translation": {
+        "ru": "Ты ловишь хороший сигнал на смартфоне?",
+        "en": "Do you receive a good signal on your smartphone?"
+      },
+      "bracket_parts": [
+        "Empfängst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Bundeskanzler empfängt die ausländische Delegation.",
+      "translation": {
+        "ru": "Федеральный канцлер принимает иностранную делегацию.",
+        "en": "The Federal Chancellor receives the foreign delegation."
+      },
+      "bracket_parts": [
+        "empfängt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir empfangen heute Abend unsere engsten Freunde.",
+      "translation": {
+        "ru": "Мы принимаем сегодня вечером наших самых близких друзей.",
+        "en": "We are hosting our closest friends tonight."
+      },
+      "bracket_parts": [
+        "empfangen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr empfangt täglich viele wichtige Nachrichten.",
+      "translation": {
+        "ru": "Вы ежедневно получаете много важных сообщений.",
+        "en": "You receive many important messages every day."
+      },
+      "bracket_parts": [
+        "empfangt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie empfingen die Besucher mit großer Freude.",
+      "translation": {
+        "ru": "Они встретили посетителей с большой радостью.",
+        "en": "They received the visitors with great joy."
+      },
+      "bracket_parts": [
+        "empfingen"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Wir haben das Paket gestern pünktlich empfangen.",
+      "translation": {
+        "ru": "Мы получили посылку вчера вовремя.",
+        "en": "We received the parcel punctually yesterday."
+      },
+      "bracket_parts": [
+        "haben",
+        "empfangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Empfange die neuen Kollegen mit einem Lächeln!",
+      "translation": {
+        "ru": "Встреть новых коллег с улыбкой!",
+        "en": "Welcome the new colleagues with a smile!"
+      },
+      "bracket_parts": [
+        "Empfange"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "servieren",
+  "infinitive": "servieren",
+  "translation": {
+    "ru": "подавать (еду/напитки), обслуживать",
+    "en": "to serve (food/drinks)"
+  },
+  "level": "A2",
+  "frequency_rank": 987,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "serviert",
+    "preterite_third_singular": "servierte",
+    "past_participle": "serviert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "serviere",
+      "du": "servierst",
+      "er_sie_es": "serviert",
+      "wir": "servieren",
+      "ihr": "serviert",
+      "sie_Sie": "servieren"
+    },
+    "preterite": {
+      "ich": "servierte",
+      "du": "serviertest",
+      "er_sie_es": "servierte",
+      "wir": "servierten",
+      "ihr": "serviertet",
+      "sie_Sie": "servierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "serviert"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich serviere den Gästen eine warme Suppe zur Vorspeise.",
+      "translation": {
+        "ru": "Я подаю гостям горячий суп на первое.",
+        "en": "I serve the guests hot soup as an appetizer."
+      },
+      "bracket_parts": [
+        "serviere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Servierst du den Weißwein gut gekühlt im eleganten Glas?",
+      "translation": {
+        "ru": "Ты подаешь белое вино хорошо охлажденным в элегантном бокале?",
+        "en": "Do you serve the white wine well chilled in an elegant glass?"
+      },
+      "bracket_parts": [
+        "Servierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Kellner serviert die Hauptgerichte auf stilvollen Tellern.",
+      "translation": {
+        "ru": "Официант подает основные блюда на стильных тарелках.",
+        "en": "The waiter serves the main courses on stylish plates."
+      },
+      "bracket_parts": [
+        "serviert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir servieren frisches Gebäck und aromatischen Kaffee zum Frühstück.",
+      "translation": {
+        "ru": "Мы подаем свежую выпечку и ароматный кофе к завтраку.",
+        "en": "We serve fresh pastries and aromatic coffee for breakfast."
+      },
+      "bracket_parts": [
+        "servieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Serviert ihr das Dessert heute auf der sonnigen Terrasse?",
+      "translation": {
+        "ru": "Подаете ли вы десерт сегодня на солнечной террасе?",
+        "en": "Are you guys serving dessert on the sunny terrace today?"
+      },
+      "bracket_parts": [
+        "Serviert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Gastgeberin servierte ein traditionelles Drei-Gänge-Menü.",
+      "translation": {
+        "ru": "Хозяйка подала традиционный обед из трех блюд.",
+        "en": "The hostess served a traditional three-course menu."
+      },
+      "bracket_parts": [
+        "servierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Restaurant hat uns die Speisen zügig und heiß serviert.",
+      "translation": {
+        "ru": "Ресторан быстро и горячими подал нам блюда.",
+        "en": "The restaurant served us the food promptly and hot."
+      },
+      "bracket_parts": [
+        "hat",
+        "serviert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Serviere den Braten bitte mit einer feinen Soße!",
+      "translation": {
+        "ru": "Подай жаркое, пожалуйста, с изысканным соусом!",
+        "en": "Please serve the roast with a fine sauce!"
+      },
+      "bracket_parts": [
+        "Serviere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "ansetzen",
+  "infinitive": "ansetzen",
+  "translation": {
+    "ru": "назначать (срок), приставлять, начинать",
+    "en": "to schedule, set, position"
+  },
+  "level": "B1",
+  "frequency_rank": 507,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ansetzen",
+    "present_3sg": "setzt an",
+    "praeteritum_3sg": "setzte an",
+    "partizip_2": "angesetzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "setze an",
+      "du": "setzt an",
+      "er_sie_es": "setzt an",
+      "wir": "setzen an",
+      "ihr": "setzt an",
+      "sie_Sie": "setzen an"
+    },
+    "praeteritum": {
+      "ich": "setzte an",
+      "du": "setztest an",
+      "er_sie_es": "setzte an",
+      "wir": "setzten an",
+      "ihr": "setztet an",
+      "sie_Sie": "setzten an"
+    },
+    "perfekt": {
+      "ich": "habe angesetzt",
+      "du": "hast angesetzt",
+      "er_sie_es": "hat angesetzt",
+      "wir": "haben angesetzt",
+      "ihr": "habt angesetzt",
+      "sie_Sie": "haben angesetzt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich setze den Besprechungstermin für Montagmorgen an.",
+      "translation": {
+        "ru": "Я назначаю совещание на утро понедельника.",
+        "en": "I schedule the meeting date for Monday morning."
+      },
+      "bracket_parts": [
+        "setze",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den Besprechungstermin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du setzt den Hobel sehr präzise am Holz an.",
+      "translation": {
+        "ru": "Ты очень точно приставляешь рубанок к дереву.",
+        "en": "You position the plane very precisely on the wood."
+      },
+      "bracket_parts": [
+        "setzt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den Hobel"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Schulleitung setzt eine wichtige Konferenz an.",
+      "translation": {
+        "ru": "Руководство школы назначает важную конференцию.",
+        "en": "The school management schedules an important conference."
+      },
+      "bracket_parts": [
+        "setzt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "eine wichtige Konferenz"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir setzen den Preis für das Produkt fair an.",
+      "translation": {
+        "ru": "Мы устанавливаем справедливую цену на продукт.",
+        "en": "We set the price for the product fairly."
+      },
+      "bracket_parts": [
+        "setzen",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den Preis"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr setzt das Training für heute Nachmittag an.",
+      "translation": {
+        "ru": "Вы назначаете тренировку на вторую половину дня.",
+        "en": "You schedule the training for this afternoon."
+      },
+      "bracket_parts": [
+        "setzt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das Training"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie setzten damals den Prüfungstermin sehr früh an.",
+      "translation": {
+        "ru": "Они тогда назначили дату экзамена очень рано.",
+        "en": "They scheduled the exam date very early back then."
+      },
+      "bracket_parts": [
+        "setzten",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "den Prüfungstermin"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Schiedsrichter hat das Nachholspiel für Mittwoch angesetzt.",
+      "translation": {
+        "ru": "Судья назначил перенесенный матч на среду.",
+        "en": "The referee scheduled the replay match for Wednesday."
+      },
+      "bracket_parts": [
+        "hat",
+        "angesetzt"
+      ],
+      "akkusativ_parts": [
+        "das Nachholspiel"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Setze das Treffen für nächste Woche an!",
+      "translation": {
+        "ru": "Назначь встречу на следующую неделю!",
+        "en": "Schedule the meeting for next week!"
+      },
+      "bracket_parts": [
+        "Setze",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "das Treffen"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

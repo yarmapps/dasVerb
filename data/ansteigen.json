@@ -1,0 +1,150 @@
+{
+  "id": "ansteigen",
+  "infinitive": "ansteigen",
+  "translation": {
+    "ru": "повышаться, возрастать (о ценах/температуре)",
+    "en": "to rise, to increase"
+  },
+  "level": "B1",
+  "frequency_rank": 701,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "ansteigen",
+    "present_3sg": "steigt an",
+    "praeteritum_3sg": "stieg an",
+    "partizip_2": "angestiegen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "steige an",
+      "du": "steigst an",
+      "er_sie_es": "steigt an",
+      "wir": "steigen an",
+      "ihr": "steigt an",
+      "sie_Sie": "steigen an"
+    },
+    "praeteritum": {
+      "ich": "stieg an",
+      "du": "stiegst an",
+      "er_sie_es": "stieg an",
+      "wir": "stiegen an",
+      "ihr": "stiegt an",
+      "sie_Sie": "stiegen an"
+    },
+    "perfekt": {
+      "ich": "bin angestiegen",
+      "du": "bist angestiegen",
+      "er_sie_es": "ist angestiegen",
+      "wir": "sind angestiegen",
+      "ihr": "seid angestiegen",
+      "sie_Sie": "sind angestiegen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich beobachte, wie die Temperaturen im Sommer schnell ansteigen.",
+      "translation": {
+        "ru": "Я наблюдаю, как температуры летом быстро растут.",
+        "en": "I observe how temperatures rise quickly in summer."
+      },
+      "bracket_parts": [
+        "ansteigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Siehst du, wie die Kosten für Energie ständig ansteigen?",
+      "translation": {
+        "ru": "Ты видишь, как расходы на энергию постоянно растут?",
+        "en": "Do you see how energy costs are constantly rising?"
+      },
+      "bracket_parts": [
+        "ansteigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Wasserstand des Flusses steigt nach dem Regen bedrohlich an.",
+      "translation": {
+        "ru": "Уровень воды в реке после дождя угрожающе поднимается.",
+        "en": "The water level of the river is rising threateningly after the rain."
+      },
+      "bracket_parts": [
+        "steigt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir rechnen damit, dass die Verkaufszahlen bald kräftig ansteigen.",
+      "translation": {
+        "ru": "Мы рассчитываем на то, что показатели продаж скоро заметно вырастут.",
+        "en": "We expect sales figures to rise sharply soon."
+      },
+      "bracket_parts": [
+        "ansteigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr bemerkt, wie die Preise für Mieten im Zentrum ansteigen.",
+      "translation": {
+        "ru": "Вы замечаете, как растут цены на аренду жилья в центре.",
+        "en": "You notice how rental prices in the center are rising."
+      },
+      "bracket_parts": [
+        "ansteigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Arbeitslosigkeit stieg damals in der Krise sprunghaft an.",
+      "translation": {
+        "ru": "Безработица тогда во время кризиса скачкообразно выросла.",
+        "en": "Unemployment rose sharply during the crisis back then."
+      },
+      "bracket_parts": [
+        "stieg",
+        "an"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Nachfrage nach Elektrofahrzeugen ist dieses Jahr stark angestiegen.",
+      "translation": {
+        "ru": "Спрос на электромобили в этом году сильно вырос.",
+        "en": "Demand for electric vehicles has increased significantly this year."
+      },
+      "bracket_parts": [
+        "ist",
+        "angestiegen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Steig nicht noch weiter an, du hoher Blutdruck!",
+      "translation": {
+        "ru": "Не поднимайся еще выше, высокое давление!",
+        "en": "Do not rise any further, you high blood pressure!"
+      },
+      "bracket_parts": [
+        "Steig",
+        "an"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

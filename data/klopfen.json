@@ -1,0 +1,147 @@
+{
+  "id": "klopfen",
+  "infinitive": "klopfen",
+  "translation": {
+    "ru": "стучать (в дверь), биться (о сердце)",
+    "en": "to knock, to beat"
+  },
+  "level": "A2",
+  "frequency_rank": 629,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "klopfen",
+    "present_3sg": "klopft",
+    "praeteritum_3sg": "klopfte",
+    "partizip_2": "geklopft"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "klopfe",
+      "du": "klopfst",
+      "er_sie_es": "klopft",
+      "wir": "klopfen",
+      "ihr": "klopft",
+      "sie_Sie": "klopfen"
+    },
+    "praeteritum": {
+      "ich": "klopfte",
+      "du": "klopftest",
+      "er_sie_es": "klopfte",
+      "wir": "klopften",
+      "ihr": "klopftet",
+      "sie_Sie": "klopften"
+    },
+    "perfekt": {
+      "ich": "habe geklopft",
+      "du": "hast geklopft",
+      "er_sie_es": "hat geklopft",
+      "wir": "haben geklopft",
+      "ihr": "habt geklopft",
+      "sie_Sie": "haben geklopft"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "an",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich klopfe dreimal leise an die Tür.",
+      "translation": {
+        "ru": "Я тихо трижды стучу в дверь.",
+        "en": "I knock quietly three times on the door."
+      },
+      "bracket_parts": [
+        "klopfe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Klopfst du vor dem Eintreten immer an?",
+      "translation": {
+        "ru": "Ты всегда стучишь перед входом?",
+        "en": "Do you always knock before entering?"
+      },
+      "bracket_parts": [
+        "Klopfst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Mein Herz klopft vor Aufregung sehr schnell.",
+      "translation": {
+        "ru": "Мое сердце бьется от волнения очень быстро.",
+        "en": "My heart is beating very fast with excitement."
+      },
+      "bracket_parts": [
+        "klopft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir klopfen an das Fenster, um Aufmerksamkeit zu bekommen.",
+      "translation": {
+        "ru": "Мы стучим в окно, чтобы привлечь внимание.",
+        "en": "We knock on the window to get attention."
+      },
+      "bracket_parts": [
+        "klopfen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr klopft den Staub aus dem alten Teppich.",
+      "translation": {
+        "ru": "Вы выбиваете пыль из старого ковра.",
+        "en": "You beat the dust out of the old carpet."
+      },
+      "bracket_parts": [
+        "klopft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Jemand klopfte damals mitten in der Nacht ans Tor.",
+      "translation": {
+        "ru": "Кто-то тогда постучал посреди ночи в ворота.",
+        "en": "Someone knocked on the gate in the middle of the night back then."
+      },
+      "bracket_parts": [
+        "klopfte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Briefträger hat schon zweimal an der Haustür geklopft.",
+      "translation": {
+        "ru": "Почтальон уже дважды постучал во входную дверь.",
+        "en": "The mailman has already knocked twice on the front door."
+      },
+      "bracket_parts": [
+        "hat",
+        "geklopft"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Klopf bitte an, bevor du ins Zimmer gehst!",
+      "translation": {
+        "ru": "Постучи, пожалуйста, прежде чем заходить в комнату!",
+        "en": "Please knock before entering the room!"
+      },
+      "bracket_parts": [
+        "Klopf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

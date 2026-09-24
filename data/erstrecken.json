@@ -1,0 +1,143 @@
+{
+  "id": "erstrecken",
+  "infinitive": "erstrecken",
+  "translation": {
+    "ru": "простираться, распространяться",
+    "en": "to extend, to stretch"
+  },
+  "level": "B2",
+  "frequency_rank": 869,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "erstreckt",
+    "preterite_third_singular": "erstreckte",
+    "past_participle": "erstreckt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erstrecke",
+      "du": "erstreckst",
+      "er_sie_es": "erstreckt",
+      "wir": "erstrecken",
+      "ihr": "erstreckt",
+      "sie_Sie": "erstrecken"
+    },
+    "preterite": {
+      "ich": "erstreckte",
+      "du": "erstrecktest",
+      "er_sie_es": "erstreckte",
+      "wir": "erstreckten",
+      "ihr": "erstrecktet",
+      "sie_Sie": "erstreckten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "erstreckt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "über",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Mein Forschungsgebiet erstreckt sich über mehrere Disziplinen.",
+      "translation": {
+        "ru": "Моя область исследований охватывает несколько дисциплин.",
+        "en": "My research field extends across several disciplines."
+      },
+      "bracket_parts": [
+        "erstreckt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erstreckst du deine Reise auch über die Nachbarländer?",
+      "translation": {
+        "ru": "Ты распространяешь свое путешествие и на соседние страны?",
+        "en": "Are you extending your trip to neighboring countries as well?"
+      },
+      "bracket_parts": [
+        "Erstreckst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Nationalpark erstreckt sich über hunderte Quadratkilometer.",
+      "translation": {
+        "ru": "Национальный парк простирается на сотни квадратных километров.",
+        "en": "The national park extends over hundreds of square kilometers."
+      },
+      "bracket_parts": [
+        "erstreckt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erstrecken unsere Aktivitäten auf den gesamten Kontinent.",
+      "translation": {
+        "ru": "Мы распространяем нашу деятельность на весь континент.",
+        "en": "We extend our activities across the entire continent."
+      },
+      "bracket_parts": [
+        "erstrecken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erstreckt ihr euren Einfluss auf die ganze Region?",
+      "translation": {
+        "ru": "Вы распространяете свое влияние на весь регион?",
+        "en": "Do you extend your influence over the whole region?"
+      },
+      "bracket_parts": [
+        "Erstreckt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das alte Reich erstreckte sich damals vom Meer bis zu den Bergen.",
+      "translation": {
+        "ru": "Древнее государство простиралось тогда от моря до гор.",
+        "en": "The ancient empire extended back then from the sea to the mountains."
+      },
+      "bracket_parts": [
+        "erstreckte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Verhandlungen haben sich über viele Monate erstreckt.",
+      "translation": {
+        "ru": "Переговоры растянулись на много месяцев.",
+        "en": "The negotiations extended over many months."
+      },
+      "bracket_parts": [
+        "haben",
+        "erstreckt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erstrecke deine Suche auf alle verfügbaren Quellen!",
+      "translation": {
+        "ru": "Распространи свой поиск на все доступные источники!",
+        "en": "Extend your search to all available sources!"
+      },
+      "bracket_parts": [
+        "Erstrecke"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

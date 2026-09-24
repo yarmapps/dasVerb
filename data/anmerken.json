@@ -1,0 +1,144 @@
+{
+  "id": "anmerken",
+  "infinitive": "anmerken",
+  "translation": {
+    "ru": "замечать, отмечать (в речи), замечать по виду (кому-то)",
+    "en": "to remark, to note, to notice on someone"
+  },
+  "level": "B2",
+  "frequency_rank": 1007,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "merkt an",
+    "preterite_third_singular": "merkte an",
+    "past_participle": "angemerkt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "merke an",
+      "du": "merkst an",
+      "er_sie_es": "merkt an",
+      "wir": "merken an",
+      "ihr": "merkt an",
+      "sie_Sie": "merken an"
+    },
+    "preterite": {
+      "ich": "merkte an",
+      "du": "merktest an",
+      "er_sie_es": "merkte an",
+      "wir": "merkten an",
+      "ihr": "merktet an",
+      "sie_Sie": "merkten an"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "angemerkt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich merke zu diesem Entwurf noch einige wichtige Korrekturen an.",
+      "translation": {
+        "ru": "Я делаю еще несколько важных замечаний к этому черновику.",
+        "en": "I remark on a few more important corrections to this draft."
+      },
+      "bracket_parts": [
+        "merke",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Merkst du ihm die große Erleichterung nach der Prüfung sofort an?",
+      "translation": {
+        "ru": "Ты сразу замечаешь по нему огромное облегчение после экзамена?",
+        "en": "Do you notice the great relief in him immediately after the exam?"
+      },
+      "bracket_parts": [
+        "Merkst",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Kritiker merkt in seiner Rezension mehrere Schwachstellen an.",
+      "translation": {
+        "ru": "Критик отмечает в своей рецензии несколько слабых мест.",
+        "en": "The critic notes several weaknesses in his review."
+      },
+      "bracket_parts": [
+        "merkt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir merken kritisch an, dass die Kosten den Rahmen deutlich sprengen.",
+      "translation": {
+        "ru": "Мы критически отмечаем, что расходы существенно превышают рамки.",
+        "en": "We critically note that the costs significantly exceed the budget."
+      },
+      "bracket_parts": [
+        "merken",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Merkt ihr euren Freunden den Stress der letzten Wochen an?",
+      "translation": {
+        "ru": "Замечаете ли вы по своим друзьям стресс последних недель?",
+        "en": "Do you guys notice the stress of the past weeks on your friends?"
+      },
+      "bracket_parts": [
+        "Merkt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Dozentin merkte während der Diskussion einen wesentlichen Aspekt an.",
+      "translation": {
+        "ru": "Преподавательница отметила существенный аспект во время дискуссии.",
+        "en": "The lecturer noted an essential aspect during the discussion."
+      },
+      "bracket_parts": [
+        "merkte",
+        "an"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat in der Sitzung noch eine wichtige Ergänzung angemerkt.",
+      "translation": {
+        "ru": "На заседании он сделал еще одно важное дополнение.",
+        "en": "He noted an important addition in the meeting."
+      },
+      "bracket_parts": [
+        "hat",
+        "angemerkt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Merke deine Bedenken bitte rechtzeitig im Protokoll an!",
+      "translation": {
+        "ru": "Отметь свои сомнения вовремя в протоколе, пожалуйста!",
+        "en": "Please note your concerns in the minutes in good time!"
+      },
+      "bracket_parts": [
+        "Merke",
+        "an"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

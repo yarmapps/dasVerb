@@ -1,0 +1,145 @@
+{
+  "id": "entgegenkommen",
+  "infinitive": "entgegenkommen",
+  "translation": {
+    "ru": "идти навстречу, идти на уступки",
+    "en": "to come towards, to accommodate, to meet halfway"
+  },
+  "level": "B2",
+  "frequency_rank": 806,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "kommt entgegen",
+    "preterite_third_singular": "kam entgegen",
+    "past_participle": "entgegengekommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "komme entgegen",
+      "du": "kommst entgegen",
+      "er_sie_es": "kommt entgegen",
+      "wir": "kommen entgegen",
+      "ihr": "kommt entgegen",
+      "sie_Sie": "kommen entgegen"
+    },
+    "preterite": {
+      "ich": "kam entgegen",
+      "du": "kamst entgegen",
+      "er_sie_es": "kam entgegen",
+      "wir": "kamen entgegen",
+      "ihr": "kamt entgegen",
+      "sie_Sie": "kamen entgegen"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "entgegengekommen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich komme dem Kunden beim Preis gerne ein Stück entgegen.",
+      "translation": {
+        "ru": "Я с удовольствием немного уступаю клиенту в цене.",
+        "en": "I gladly meet the customer halfway on the price."
+      },
+      "bracket_parts": [
+        "komme",
+        "entgegen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Kommst du mir bei den Verhandlungen etwas entgegen?",
+      "translation": {
+        "ru": "Ты пойдешь мне немного навстречу в переговорах?",
+        "en": "Will you accommodate me a little in the negotiations?"
+      },
+      "bracket_parts": [
+        "Kommst",
+        "entgegen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein freundlicher Mann kommt mir auf dem Gehweg entgegen.",
+      "translation": {
+        "ru": "Приветливый мужчина идет мне навстречу по тротуару.",
+        "en": "A friendly man comes towards me on the sidewalk."
+      },
+      "bracket_parts": [
+        "kommt",
+        "entgegen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir kommen unseren Mitarbeitern bei den Arbeitszeiten entgegen.",
+      "translation": {
+        "ru": "Мы идем навстречу сотрудникам в вопросе рабочего времени.",
+        "en": "We accommodate our employees regarding working hours."
+      },
+      "bracket_parts": [
+        "kommen",
+        "entgegen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Kommt ihr den Wünschen der Gäste freundlich entgegen?",
+      "translation": {
+        "ru": "Вы любезно идете навстречу пожеланиям гостей?",
+        "en": "Do you accommodate the guests' wishes kindly?"
+      },
+      "bracket_parts": [
+        "Kommt",
+        "entgegen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Auto kam uns auf der falschen Spur plötzlich entgegen.",
+      "translation": {
+        "ru": "Автомобиль неожиданно выехал нам навстречу по встречной полосе.",
+        "en": "The car suddenly came towards us on the wrong lane."
+      },
+      "bracket_parts": [
+        "kam",
+        "entgegen"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Vermieter ist uns bei der Monatsmiete großzügig entgegengekommen.",
+      "translation": {
+        "ru": "Арендодатель великодушно пошел нам навстречу с ежемесячной арендой.",
+        "en": "The landlord generously accommodated us with the monthly rent."
+      },
+      "bracket_parts": [
+        "ist",
+        "entgegengekommen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Komm deinem Partner in schwierigen Situationen entgegen!",
+      "translation": {
+        "ru": "Иди навстречу своему партнеру в трудных ситуациях!",
+        "en": "Meet your partner halfway in difficult situations!"
+      },
+      "bracket_parts": [
+        "Komm",
+        "entgegen"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

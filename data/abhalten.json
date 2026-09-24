@@ -1,0 +1,150 @@
+{
+  "id": "abhalten",
+  "infinitive": "abhalten",
+  "translation": {
+    "ru": "проводить (собрание), удерживать/не допускать",
+    "en": "to hold (meeting), to keep sb from"
+  },
+  "level": "B2",
+  "frequency_rank": 774,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "hält ab",
+    "preterite_third_singular": "hielt ab",
+    "past_participle": "abgehalten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "halte ab",
+      "du": "hältst ab",
+      "er_sie_es": "hält ab",
+      "wir": "halten ab",
+      "ihr": "haltet ab",
+      "sie_Sie": "halten ab"
+    },
+    "preterite": {
+      "ich": "hielt ab",
+      "du": "hieltst ab",
+      "er_sie_es": "hielt ab",
+      "wir": "hielten ab",
+      "ihr": "hieltet ab",
+      "sie_Sie": "hielten ab"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "abgehalten"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "von",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich halte heute eine wichtige Konferenz im Festsaal ab.",
+      "translation": {
+        "ru": "Я провожу сегодня важную конференцию в банкетном зале.",
+        "en": "I am holding an important conference in the ballroom today."
+      },
+      "bracket_parts": [
+        "halte",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Hältst du deinen Freund von diesem dummen Fehler ab?",
+      "translation": {
+        "ru": "Ты удерживаешь друга от этой глупой ошибки?",
+        "en": "Are you keeping your friend from making this foolish mistake?"
+      },
+      "bracket_parts": [
+        "Hältst",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Zaun hält wilde Tiere vom Garten ab.",
+      "translation": {
+        "ru": "Забор удерживает диких зверей от проникновения в сад.",
+        "en": "The fence keeps wild animals away from the garden."
+      },
+      "bracket_parts": [
+        "hält",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir halten unsere wöchentliche Sitzung online ab.",
+      "translation": {
+        "ru": "Мы проводим наше еженедельное заседание онлайн.",
+        "en": "We hold our weekly meeting online."
+      },
+      "bracket_parts": [
+        "halten",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Haltet ihr die Prüfung im großen Hörsaal ab?",
+      "translation": {
+        "ru": "Вы проводите экзамен в большой аудитории?",
+        "en": "Are you holding the exam in the large lecture hall?"
+      },
+      "bracket_parts": [
+        "Haltet",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Niemand hielt ihn damals von seinen Plänen ab.",
+      "translation": {
+        "ru": "Никто не удержал его тогда от его планов.",
+        "en": "Nobody kept him from his plans back then."
+      },
+      "bracket_parts": [
+        "hielt",
+        "ab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Verein hat gestern eine erfolgreiche Versammlung abgehalten.",
+      "translation": {
+        "ru": "Клуб вчера провел успешное собрание.",
+        "en": "The association held a successful meeting yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "abgehalten"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Halte mich bitte nicht vom konzentrierten Lernen ab!",
+      "translation": {
+        "ru": "Пожалуйста, не отвлекай меня от сосредоточенной учебы!",
+        "en": "Please do not keep me from focused studying!"
+      },
+      "bracket_parts": [
+        "Halte",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

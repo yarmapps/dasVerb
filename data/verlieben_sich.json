@@ -1,0 +1,147 @@
+{
+  "id": "verlieben_sich",
+  "infinitive": "verlieben",
+  "translation": {
+    "ru": "влюбляться",
+    "en": "to fall in love"
+  },
+  "level": "A2",
+  "frequency_rank": 555,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "verlieben",
+    "present_3sg": "verliebt sich",
+    "praeteritum_3sg": "verliebte sich",
+    "partizip_2": "verliebt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verliebe mich",
+      "du": "verliebst dich",
+      "er_sie_es": "verliebt sich",
+      "wir": "verlieben uns",
+      "ihr": "verliebt euch",
+      "sie_Sie": "verlieben sich"
+    },
+    "praeteritum": {
+      "ich": "verliebte mich",
+      "du": "verliebtest dich",
+      "er_sie_es": "verliebte sich",
+      "wir": "verliebten uns",
+      "ihr": "verliebtet euch",
+      "sie_Sie": "verliebten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich verliebt",
+      "du": "hast dich verliebt",
+      "er_sie_es": "hat sich verliebt",
+      "wir": "haben uns verliebt",
+      "ihr": "habt euch verliebt",
+      "sie_Sie": "haben sich verliebt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "in",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich verliebe mich jedes Mal aufs Neue in diese Stadt.",
+      "translation": {
+        "ru": "Я каждый раз заново влюбляюсь в этот город.",
+        "en": "I fall in love with this city anew every time."
+      },
+      "bracket_parts": [
+        "verliebe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du verliebst dich Hals über Kopf in deinen netten Kollegen.",
+      "translation": {
+        "ru": "Ты без памяти влюбляешься в своего милого коллегу.",
+        "en": "You fall head over heels in love with your nice colleague."
+      },
+      "bracket_parts": [
+        "verliebst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der junge Mann verliebt sich auf den ersten Blick in sie.",
+      "translation": {
+        "ru": "Молодой человек влюбляется в нее с первого взгляда.",
+        "en": "The young man falls in love with her at first sight."
+      },
+      "bracket_parts": [
+        "verliebt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verlieben uns in die malerische Landschaft der Toskana.",
+      "translation": {
+        "ru": "Мы влюбляемся в живописные пейзажи Тосканы.",
+        "en": "We fall in love with the picturesque landscape of Tuscany."
+      },
+      "bracket_parts": [
+        "verlieben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr verliebt euch im Urlaub in die italienische Lebensart.",
+      "translation": {
+        "ru": "В отпуске вы влюбляетесь в итальянский стиль жизни.",
+        "en": "You fall in love with the Italian way of life on vacation."
+      },
+      "bracket_parts": [
+        "verliebt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie verliebten sich damals in einem romantischen Sommerurlaub.",
+      "translation": {
+        "ru": "Они тогда влюбились друг в друга во время романтического летнего отпуска.",
+        "en": "They fell in love in a romantic summer vacation back then."
+      },
+      "bracket_parts": [
+        "verliebten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Mein bester Freund hat sich unsterblich in seine Nachbarin verliebt.",
+      "translation": {
+        "ru": "Мой лучший друг безумно влюбился в свою соседку.",
+        "en": "My best friend fell madly in love with his neighbor."
+      },
+      "bracket_parts": [
+        "hat",
+        "verliebt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verliebe dich nicht zu voreilig in jeden Fremden!",
+      "translation": {
+        "ru": "Не влюбляйся слишком опрометчиво в каждого незнакомца!",
+        "en": "Do not fall in love too hastily with every stranger!"
+      },
+      "bracket_parts": [
+        "Verliebe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

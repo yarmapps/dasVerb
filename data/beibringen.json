@@ -1,0 +1,145 @@
+{
+  "id": "beibringen",
+  "infinitive": "beibringen",
+  "translation": {
+    "ru": "обучать, прививать (навык), предъявлять",
+    "en": "to teach, to show sb how to do sth, to produce (evidence)"
+  },
+  "level": "A2",
+  "frequency_rank": 779,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "irregular",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "bringt bei",
+    "preterite_third_singular": "brachte bei",
+    "past_participle": "beigebracht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bringe bei",
+      "du": "bringst bei",
+      "er_sie_es": "bringt bei",
+      "wir": "bringen bei",
+      "ihr": "bringt bei",
+      "sie_Sie": "bringen bei"
+    },
+    "preterite": {
+      "ich": "brachte bei",
+      "du": "brachtest bei",
+      "er_sie_es": "brachte bei",
+      "wir": "brachten bei",
+      "ihr": "brachtet bei",
+      "sie_Sie": "brachten bei"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "beigebracht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich bringe meinem kleinen Bruder das Schwimmen bei.",
+      "translation": {
+        "ru": "Я учу своего младшего брата плавать.",
+        "en": "I teach my little brother how to swim."
+      },
+      "bracket_parts": [
+        "bringe",
+        "bei"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bringst du deiner Freundin ein paar deutsche Wörter bei?",
+      "translation": {
+        "ru": "Ты учишь свою подругу нескольким немецким словам?",
+        "en": "Are you teaching your friend a few German words?"
+      },
+      "bracket_parts": [
+        "Bringst",
+        "bei"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Vater bringt seiner Tochter das Fahrradfahren bei.",
+      "translation": {
+        "ru": "Отец учит свою дочь кататься на велосипеде.",
+        "en": "The father teaches his daughter how to ride a bike."
+      },
+      "bracket_parts": [
+        "bringt",
+        "bei"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bringen den Schülern logisches Denken bei.",
+      "translation": {
+        "ru": "Мы учим учеников логическому мышлению.",
+        "en": "We teach the students logical thinking."
+      },
+      "bracket_parts": [
+        "bringen",
+        "bei"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bringt ihr dem Hund neue Kunststücke bei?",
+      "translation": {
+        "ru": "Вы учите собаку новым трюкам?",
+        "en": "Are you teaching the dog new tricks?"
+      },
+      "bracket_parts": [
+        "Bringt",
+        "bei"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Mein Großvater brachte mir damals das Schachspiel bei.",
+      "translation": {
+        "ru": "Мой дедушка научил меня тогда игре в шахматы.",
+        "en": "My grandfather taught me chess back then."
+      },
+      "bracket_parts": [
+        "brachte",
+        "bei"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie hat sich das Gitarrespielen selbst beigebracht.",
+      "translation": {
+        "ru": "Она научилась играть на гитаре самостоятельно.",
+        "en": "She taught herself how to play the guitar."
+      },
+      "bracket_parts": [
+        "hat",
+        "beigebracht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bring mir bitte diesen Zaubertrick bei!",
+      "translation": {
+        "ru": "Научи меня, пожалуйста, этому фокусу!",
+        "en": "Please teach me this magic trick!"
+      },
+      "bracket_parts": [
+        "Bring",
+        "bei"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

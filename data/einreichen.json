@@ -1,0 +1,150 @@
+{
+  "id": "einreichen",
+  "infinitive": "einreichen",
+  "translation": {
+    "ru": "подавать (документы, заявку), представлять на рассмотрение",
+    "en": "to submit, to hand in, to lodge"
+  },
+  "level": "B2",
+  "frequency_rank": 863,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "reicht ein",
+    "preterite_third_singular": "reichte ein",
+    "past_participle": "eingereicht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "reiche ein",
+      "du": "reichst ein",
+      "er_sie_es": "reicht ein",
+      "wir": "reichen ein",
+      "ihr": "reicht ein",
+      "sie_Sie": "reichen ein"
+    },
+    "preterite": {
+      "ich": "reichte ein",
+      "du": "reichtest ein",
+      "er_sie_es": "reichte ein",
+      "wir": "reichten ein",
+      "ihr": "reichtet ein",
+      "sie_Sie": "reichten ein"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "eingereicht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "bei",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich reiche meine Steuererklärung rechtzeitig beim Finanzamt ein.",
+      "translation": {
+        "ru": "Я вовремя подаю налоговую декларацию в налоговую инспекцию.",
+        "en": "I submit my tax return to the tax office on time."
+      },
+      "bracket_parts": [
+        "reiche",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Reichst du deine Bewerbung noch heute online ein?",
+      "translation": {
+        "ru": "Ты подаешь свое резюме еще сегодня онлайн?",
+        "en": "Are you submitting your application online today?"
+      },
+      "bracket_parts": [
+        "Reichst",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Architekt reicht den Bauplan bei der Behörde ein.",
+      "translation": {
+        "ru": "Архитектор подает строительный план в ведомство.",
+        "en": "The architect submits the construction plan to the authority."
+      },
+      "bracket_parts": [
+        "reicht",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir reichen einen offiziellen Beschwerdebrief ein.",
+      "translation": {
+        "ru": "Мы подаем официальную жалобу.",
+        "en": "We submit an official letter of complaint."
+      },
+      "bracket_parts": [
+        "reichen",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Reicht ihr eure Diplomarbeiten vor dem Stichtag ein?",
+      "translation": {
+        "ru": "Вы сдаете свои дипломные работы до крайнего срока?",
+        "en": "Are you submitting your theses before the deadline?"
+      },
+      "bracket_parts": [
+        "Reicht",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Klägerin reichte Klage gegen den Konzern ein.",
+      "translation": {
+        "ru": "Истица подала иск против концерна.",
+        "en": "The plaintiff filed a lawsuit against the corporation."
+      },
+      "bracket_parts": [
+        "reichte",
+        "ein"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben alle erforderlichen Unterlagen fristgerecht eingereicht.",
+      "translation": {
+        "ru": "Они подали все необходимые документы в установленный срок.",
+        "en": "They submitted all required documents on time."
+      },
+      "bracket_parts": [
+        "haben",
+        "eingereicht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Reiche den Urlaubsantrag bitte noch diese Woche ein!",
+      "translation": {
+        "ru": "Подай заявление на отпуск еще на этой неделе, пожалуйста!",
+        "en": "Please submit your vacation request this week!"
+      },
+      "bracket_parts": [
+        "Reiche",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

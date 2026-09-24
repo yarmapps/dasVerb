@@ -1,0 +1,137 @@
+{
+  "id": "ueberwachen",
+  "infinitive": "überwachen",
+  "translation": {
+    "ru": "вести наблюдение, контролировать, следить",
+    "en": "to monitor, to supervise, to keep under surveillance"
+  },
+  "level": "B2",
+  "frequency_rank": 931,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "überwacht",
+    "preterite_third_singular": "überwachte",
+    "past_participle": "überwacht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "überwache",
+      "du": "überwachst",
+      "er_sie_es": "überwacht",
+      "wir": "überwachen",
+      "ihr": "überwacht",
+      "sie_Sie": "überwachen"
+    },
+    "preterite": {
+      "ich": "überwachte",
+      "du": "überwachtest",
+      "er_sie_es": "überwachte",
+      "wir": "überwachten",
+      "ihr": "überwachtet",
+      "sie_Sie": "überwachten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "überwacht"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich überwache den Zustand der Patienten auf der Intensivstation.",
+      "translation": {
+        "ru": "Я контролирую состояние пациентов в отделении интенсивной терапии.",
+        "en": "I monitor the condition of patients in the intensive care unit."
+      },
+      "bracket_parts": [
+        "überwache"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Überwachst du die Funktion der Server rund um die Uhr?",
+      "translation": {
+        "ru": "Ты следишь за работой серверов круглосуточно?",
+        "en": "Do you monitor the function of the servers around the clock?"
+      },
+      "bracket_parts": [
+        "Überwachst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Sicherheitsfirma überwacht das gesamte Firmengelände mit Kameras.",
+      "translation": {
+        "ru": "Служба безопасности следит за всей территорией компании с помощью камер.",
+        "en": "The security company monitors the entire company premises with cameras."
+      },
+      "bracket_parts": [
+        "überwacht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir überwachen die Einhaltung der gesetzlichen Grenzwerte sehr streng.",
+      "translation": {
+        "ru": "Мы очень строго контролируем соблюдение установленных законом норм.",
+        "en": "We monitor compliance with legal limit values very strictly."
+      },
+      "bracket_parts": [
+        "überwachen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Überwacht ihr die Qualität der hergestellten Produkte regelmäßig?",
+      "translation": {
+        "ru": "Вы регулярно контролируете качество производимой продукции?",
+        "en": "Do you guys regularly monitor the quality of the manufactured products?"
+      },
+      "bracket_parts": [
+        "Überwacht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Arzt überwachte die Herztöne des Patienten während der Operation.",
+      "translation": {
+        "ru": "Врач контролировал тоны сердца пациента во время операции.",
+        "en": "The doctor monitored the patient's heart tones during surgery."
+      },
+      "bracket_parts": [
+        "überwachte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Ingenieure haben den Bau der neuen Brücke genau überwacht.",
+      "translation": {
+        "ru": "Инженеры вели точный контроль за строительством нового моста.",
+        "en": "Engineers closely supervised the construction of the new bridge."
+      },
+      "bracket_parts": [
+        "haben",
+        "überwacht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Überwache bitte die Temperatur im Kühlraum ganz aufmerksam!",
+      "translation": {
+        "ru": "Контролируй, пожалуйста, температуру в холодильной камере очень внимательно!",
+        "en": "Please monitor the temperature in the cold storage room very attentively!"
+      },
+      "bracket_parts": [
+        "Überwache"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

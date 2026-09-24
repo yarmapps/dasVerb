@@ -1,0 +1,150 @@
+{
+  "id": "auftragen",
+  "infinitive": "auftragen",
+  "translation": {
+    "ru": "наносить (крем, краску), подавать (на стол), поручать",
+    "en": "to apply (cream/paint), to serve (food), to instruct"
+  },
+  "level": "B2",
+  "frequency_rank": 823,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "trägt auf",
+    "preterite_third_singular": "trug auf",
+    "past_participle": "aufgetragen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "trage auf",
+      "du": "trägst auf",
+      "er_sie_es": "trägt auf",
+      "wir": "tragen auf",
+      "ihr": "tragt auf",
+      "sie_Sie": "tragen auf"
+    },
+    "preterite": {
+      "ich": "trug auf",
+      "du": "trugst auf",
+      "er_sie_es": "trug auf",
+      "wir": "trugen auf",
+      "ihr": "trugt auf",
+      "sie_Sie": "trugen auf"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "aufgetragen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich trage eine dünne Schicht Sonnencreme auf die Haut auf.",
+      "translation": {
+        "ru": "Я наношу тонкий слой солнцезащитного крема на кожу.",
+        "en": "I apply a thin layer of sunscreen to the skin."
+      },
+      "bracket_parts": [
+        "trage",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Trägst du die frische Farbe gleichmäßig auf das Holz auf?",
+      "translation": {
+        "ru": "Ты наносишь свежую краску равномерно на дерево?",
+        "en": "Are you applying the fresh paint evenly onto the wood?"
+      },
+      "bracket_parts": [
+        "Trägst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Kellner trägt das festliche Abendessen auf.",
+      "translation": {
+        "ru": "Официант подает праздничный ужин.",
+        "en": "The waiter serves the festive dinner."
+      },
+      "bracket_parts": [
+        "trägt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir tragen eine pflegende Maske auf das Gesicht auf.",
+      "translation": {
+        "ru": "Мы наносим уходовую маску на лицо.",
+        "en": "We apply a nourishing mask to the face."
+      },
+      "bracket_parts": [
+        "tragen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Tragt ihr den Klebstoff auf beide Flächen auf?",
+      "translation": {
+        "ru": "Вы наносите клей на обе поверхности?",
+        "en": "Are you applying the adhesive to both surfaces?"
+      },
+      "bracket_parts": [
+        "Tragt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Maler trug die Grundierung sorgfältig auf die Wand auf.",
+      "translation": {
+        "ru": "Маляр тщательно нанес грунтовку на стену.",
+        "en": "The painter applied the primer carefully to the wall."
+      },
+      "bracket_parts": [
+        "trug",
+        "auf"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie hat die Heilsalbe zweimal täglich aufgetragen.",
+      "translation": {
+        "ru": "Она наносила целебную мазь дважды в день.",
+        "en": "She applied the healing ointment twice daily."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgetragen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Trag den Lack bitte nur in dünnen Schichten auf!",
+      "translation": {
+        "ru": "Наноси лак, пожалуйста, только тонкими слоями!",
+        "en": "Please apply the varnish only in thin layers!"
+      },
+      "bracket_parts": [
+        "Trag",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

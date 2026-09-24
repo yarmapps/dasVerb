@@ -1,55 +1,18 @@
-# Semantic Core: Google Play Store Searches (Arabic / ar)
+# Semantic Core: Google Play Store App Searches (AR Storefront)
 
-**Source:** Exclusively harvested from Google Play Store App Search (`hl=ar&gl=sa`).
-**Total Verified App Store Queries:** **35**
+**Source:** Exclusively harvested from the **Google Play Store App Search Suggester** (`teXCtc` RPC).
+**Total Verified dasVerb Keywords:** **9**
 
-## 📊 Competition Breakdown
+## 📊 Verified Keyword List
 
-| Competition | Word Count | Queries Count |
-| :--- | :--- | :--- |
-| **High Competition** | 1-2 words | 2 |
-| **Medium Competition** | 3-4 words | 19 |
-| **Low / Long-Tail** | 5+ words | 14 |
-| **TOTAL** | | **35** |
-
----
-
-## 🔍 Play Store Search Queries List
-
-| Keyword | Word Count | Competition |
-| :--- | :--- | :--- |
-| `الأفعال الألمانية` | 2 | High |
-| `الألمانية a1` | 2 | High |
-| `اللغة الألمانية a1` | 3 | Medium |
-| `تصريف الأفعال الألمانية` | 3 | Medium |
-| `تطبيق لتعلم الألمانية` | 3 | Medium |
-| `تعلم الألمانية a1` | 3 | Medium |
-| `تعلم الألمانية b1` | 3 | Medium |
-| `تعلم اللغة الألمانية` | 3 | Medium |
-| `قواعد اللغة الألمانية` | 3 | Medium |
-| `تطبيق تعلم اللغة الألمانية` | 4 | Medium |
-| `تطبيق لتعلم اللغة الألمانية` | 4 | Medium |
-| `تطبيقات تعلم اللغة الألمانية` | 4 | Medium |
-| `تعلم اللغة الألمانية a1` | 4 | Medium |
-| `تعلم اللغة الألمانية b1` | 4 | Medium |
-| `تعلم اللغة الألمانية للاطفال` | 4 | Medium |
-| `تعلم اللغة الألمانية للمبتدئين` | 4 | Medium |
-| `تعلم اللغة الألمانية مجانا` | 4 | Medium |
-| `تعلم قواعد اللغة الألمانية` | 4 | Medium |
-| `تعليم اللغة الألمانية a1` | 4 | Medium |
-| `كتاب تعلم اللغة الألمانية` | 4 | Medium |
-| `لعبة تعلم اللغة الألمانية` | 4 | Medium |
-| `تعلم اللغة الألمانية بالذكاء الاصطناعي` | 5 | Low |
-| `تعلم اللغة الألمانية بدون انترنت` | 5 | Low |
-| `تعلم اللغة الألمانية بدون نت` | 5 | Low |
-| `تعلم اللغة الألمانية من الصفر` | 5 | Low |
-| `قواعد اللغة الألمانية بدون نت` | 5 | Low |
-| `كتاب تعلم اللغة الألمانية a1` | 5 | Low |
-| `تطبيق تعلم اللغة الألمانية بدون نت` | 6 | Low |
-| `تطبيق تعلم اللغة الألمانية من الصفر` | 6 | Low |
-| `تطبيق لتعلم اللغة الألمانية بدون نت` | 6 | Low |
-| `تعلم اللغة الألمانية بدون انترنت للمبتدئين` | 6 | Low |
-| `تعلم اللغة الألمانية من الصفر للمبتدئين` | 6 | Low |
-| `تعلم اللغة الألمانية بالصوت والصورة بدون نت` | 7 | Low |
-| `تعلم اللغة الألمانية من الصفر بدون نت` | 7 | Low |
-| `تعلم اللغة الألمانية من الصفر للمبتدئين بدون أنترنت` | 8 | Low |
+| # | Keyword | Category | Competition | Intent |
+| :- | :--- | :--- | :--- | :--- |
+| 1 | `افعال المانية` | Verbs & Practice | High | Educational / Search |
+| 2 | `الافعال الالمانية` | Verbs & Practice | High | Educational / Search |
+| 3 | `تصريف الافعال الالمانية` | Conjugation | Medium | Educational / Search |
+| 4 | `تعلم كلمات المانية` | Vocabulary | Medium | Educational / Search |
+| 5 | `قاموس كلمات الماني` | Vocabulary | Medium | Educational / Search |
+| 6 | `كلمات الماني` | Vocabulary | High | Educational / Search |
+| 7 | `كلمات الماني a1` | Vocabulary | Medium | Educational / Search |
+| 8 | `كلمات المانية` | Vocabulary | High | Educational / Search |
+| 9 | `كلمات المانيه` | Vocabulary | High | Educational / Search |

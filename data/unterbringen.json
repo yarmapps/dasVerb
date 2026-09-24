@@ -1,0 +1,150 @@
+{
+  "id": "unterbringen",
+  "infinitive": "unterbringen",
+  "translation": {
+    "ru": "размещать, устраивать (на ночлег, на работу)",
+    "en": "to accommodate, to put up, to house"
+  },
+  "level": "B1",
+  "frequency_rank": 793,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "irregular",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "bringt unter",
+    "preterite_third_singular": "brachte unter",
+    "past_participle": "untergebracht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bringe unter",
+      "du": "bringst unter",
+      "er_sie_es": "bringt unter",
+      "wir": "bringen unter",
+      "ihr": "bringt unter",
+      "sie_Sie": "bringen unter"
+    },
+    "preterite": {
+      "ich": "brachte unter",
+      "du": "brachtest unter",
+      "er_sie_es": "brachte unter",
+      "wir": "brachten unter",
+      "ihr": "brachtet unter",
+      "sie_Sie": "brachten unter"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "untergebracht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich bringe meine Gäste im Gästezimmer unter.",
+      "translation": {
+        "ru": "Я размещаю своих гостей в гостевой комнате.",
+        "en": "I accommodate my guests in the guest room."
+      },
+      "bracket_parts": [
+        "bringe",
+        "unter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bringst du alle deine Bücher im neuen Regal unter?",
+      "translation": {
+        "ru": "Ты умещаешь все свои книги на новой полке?",
+        "en": "Are you fitting all your books on the new shelf?"
+      },
+      "bracket_parts": [
+        "Bringst",
+        "unter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das moderne Hotel bringt bis zu vierhundert Gäste unter.",
+      "translation": {
+        "ru": "Современный отель вмещает до четырехсот гостей.",
+        "en": "The modern hotel accommodates up to four hundred guests."
+      },
+      "bracket_parts": [
+        "bringt",
+        "unter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bringen die vielen Kartons auf dem Dachboden unter.",
+      "translation": {
+        "ru": "Мы размещаем множество коробок на чердаке.",
+        "en": "We store the many boxes in the attic."
+      },
+      "bracket_parts": [
+        "bringen",
+        "unter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bringt ihr den Hund während eurer Reise bei Freunden unter?",
+      "translation": {
+        "ru": "Вы пристраиваете собаку на время поездки у друзей?",
+        "en": "Are you placing the dog with friends during your trip?"
+      },
+      "bracket_parts": [
+        "Bringt",
+        "unter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Stadt brachte die Geflüchteten in sicheren Wohnungen unter.",
+      "translation": {
+        "ru": "Город разместил беженцев в безопасных квартирах.",
+        "en": "The city accommodated the refugees in safe apartments."
+      },
+      "bracket_parts": [
+        "brachte",
+        "unter"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben die Sportler in einem guten Hotel untergebracht.",
+      "translation": {
+        "ru": "Они разместили спортсменов в хорошей гостинице.",
+        "en": "They accommodated the athletes in a good hotel."
+      },
+      "bracket_parts": [
+        "haben",
+        "untergebracht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bring die Koffer bitte im Kofferraum unter!",
+      "translation": {
+        "ru": "Размести чемоданы в багажнике, пожалуйста!",
+        "en": "Please store the suitcases in the trunk!"
+      },
+      "bracket_parts": [
+        "Bring",
+        "unter"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

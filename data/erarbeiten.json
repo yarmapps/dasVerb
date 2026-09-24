@@ -1,0 +1,147 @@
+{
+  "id": "erarbeiten",
+  "infinitive": "erarbeiten",
+  "translation": {
+    "ru": "разрабатывать, вырабатывать, зарабатывать трудом",
+    "en": "to develop, to work out, to acquire through work"
+  },
+  "level": "B2",
+  "frequency_rank": 593,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erarbeiten",
+    "present_3sg": "erarbeitet",
+    "praeteritum_3sg": "erarbeitete",
+    "partizip_2": "erarbeitet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erarbeite",
+      "du": "erarbeitest",
+      "er_sie_es": "erarbeitet",
+      "wir": "erarbeiten",
+      "ihr": "erarbeitet",
+      "sie_Sie": "erarbeiten"
+    },
+    "praeteritum": {
+      "ich": "erarbeitete",
+      "du": "erarbeitetest",
+      "er_sie_es": "erarbeitete",
+      "wir": "erarbeiteten",
+      "ihr": "erarbeitetet",
+      "sie_Sie": "erarbeiteten"
+    },
+    "perfekt": {
+      "ich": "habe erarbeitet",
+      "du": "hast erarbeitet",
+      "er_sie_es": "hat erarbeitet",
+      "wir": "haben erarbeitet",
+      "ihr": "habt erarbeitet",
+      "sie_Sie": "haben erarbeitet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich erarbeite ein neues Konzept für den Unterricht.",
+      "translation": {
+        "ru": "Я разрабатываю новую концепцию для уроков.",
+        "en": "I develop a new concept for the class."
+      },
+      "bracket_parts": [
+        "erarbeite"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erarbeitest du die Lösung für die Matheaufgabe selbst?",
+      "translation": {
+        "ru": "Ты сам разрабатываешь решение математической задачи?",
+        "en": "Are you working out the solution to the math problem yourself?"
+      },
+      "bracket_parts": [
+        "Erarbeitest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Kommission erarbeitet einen detaillierten Bericht.",
+      "translation": {
+        "ru": "Комиссия разрабатывает подробный отчет.",
+        "en": "The commission develops a detailed report."
+      },
+      "bracket_parts": [
+        "erarbeitet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erarbeiten gemeinsame Richtlinien im Team.",
+      "translation": {
+        "ru": "Мы вырабатываем совместные правила в команде.",
+        "en": "We work out common guidelines in the team."
+      },
+      "bracket_parts": [
+        "erarbeiten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr erarbeitet einen Plan für das Seminar.",
+      "translation": {
+        "ru": "Вы разрабатываете план для семинара.",
+        "en": "You develop a plan for the seminar."
+      },
+      "bracket_parts": [
+        "erarbeitet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Experten erarbeiteten damals eine moderne Strategie.",
+      "translation": {
+        "ru": "Эксперты тогда разработали современную стратегию.",
+        "en": "The experts worked out a modern strategy back then."
+      },
+      "bracket_parts": [
+        "erarbeiteten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben sich das Fachwissen selbstständig erarbeitet.",
+      "translation": {
+        "ru": "Они самостоятельно освоили эти профессиональные знания.",
+        "en": "They acquired the specialist knowledge independently."
+      },
+      "bracket_parts": [
+        "haben",
+        "erarbeitet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erarbeite dir die Grundlagen Schritt für Schritt!",
+      "translation": {
+        "ru": "Осваивай основы шаг за шагом!",
+        "en": "Work out the basics step by step!"
+      },
+      "bracket_parts": [
+        "Erarbeite"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

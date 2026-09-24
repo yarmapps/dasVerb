@@ -1,0 +1,137 @@
+{
+  "id": "regnen",
+  "infinitive": "regnen",
+  "translation": {
+    "ru": "идти (о дожде), сыпаться (о граде/вопросах)",
+    "en": "to rain"
+  },
+  "level": "A1",
+  "frequency_rank": 960,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "regnet",
+    "preterite_third_singular": "regnete",
+    "past_participle": "geregnet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "regne",
+      "du": "regnest",
+      "er_sie_es": "regnet",
+      "wir": "regnen",
+      "ihr": "regnet",
+      "sie_Sie": "regnen"
+    },
+    "preterite": {
+      "ich": "regnete",
+      "du": "regnetest",
+      "er_sie_es": "regnete",
+      "wir": "regneten",
+      "ihr": "regnetet",
+      "sie_Sie": "regneten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geregnet"
+    }
+  },
+  "rektion": {
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich bleibe zu Hause, wenn es draußen in Strömen regnet.",
+      "translation": {
+        "ru": "Я остаюсь дома, когда на улице льет как из ведра.",
+        "en": "I stay at home when it rains in torrents outside."
+      },
+      "bracket_parts": [
+        "regnet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Regnest du etwa Glückwünsche und Geschenke auf das Geburtstagskind herab?",
+      "translation": {
+        "ru": "Ты осыпаешь именинника поздравлениями и подарками?",
+        "en": "Are you showering congratulations and gifts upon the birthday boy?"
+      },
+      "bracket_parts": [
+        "Regnest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Es regnet heute schon seit den frühen Morgenstunden ununterbrochen.",
+      "translation": {
+        "ru": "Дождь идет сегодня непрерывно с раннего утра.",
+        "en": "It has been raining continuously today since the early morning hours."
+      },
+      "bracket_parts": [
+        "regnet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir freuen uns, wenn es nach der langen Dürre endlich regnet.",
+      "translation": {
+        "ru": "Мы радуемся, когда после долгой засухи наконец идет дождь.",
+        "en": "We are glad when it finally rains after the long drought."
+      },
+      "bracket_parts": [
+        "regnet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Hofft ihr auch, dass es am Wochenende nicht regnet?",
+      "translation": {
+        "ru": "Вы тоже надеетесь, что на выходных не будет дождя?",
+        "en": "Do you guys also hope that it doesn't rain at the weekend?"
+      },
+      "bracket_parts": [
+        "regnet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Es regnete gestern den gesamten Tag über ohne Unterlass.",
+      "translation": {
+        "ru": "Вчера весь день напролет шел дождь.",
+        "en": "It rained yesterday all day long without stopping."
+      },
+      "bracket_parts": [
+        "regnete"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "In den Bergen hat es letzte Nacht ausgiebig geregnet.",
+      "translation": {
+        "ru": "В горах прошлой ночью шел обильный дождь.",
+        "en": "In the mountains, it rained heavily last night."
+      },
+      "bracket_parts": [
+        "hat",
+        "geregnet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Regne, sanfter Frühlingsregen, und belebe die ausgetrocknete Erde!",
+      "translation": {
+        "ru": "Иди, нежный весенний дождь, и оживи иссохшую землю!",
+        "en": "Rain down, gentle spring rain, and revive the parched earth!"
+      },
+      "bracket_parts": [
+        "Regne"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "erlassen",
+  "infinitive": "erlassen",
+  "translation": {
+    "ru": "издавать (закон/указ), освобождать (от долга/наказания)",
+    "en": "to issue (law/decree), to waive, to remit"
+  },
+  "level": "B2",
+  "frequency_rank": 979,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "erlässt",
+    "preterite_third_singular": "erließ",
+    "past_participle": "erlassen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erlasse",
+      "du": "erlässt",
+      "er_sie_es": "erlässt",
+      "wir": "erlassen",
+      "ihr": "erlasst",
+      "sie_Sie": "erlassen"
+    },
+    "preterite": {
+      "ich": "erließ",
+      "du": "erließest",
+      "er_sie_es": "erließ",
+      "wir": "erließen",
+      "ihr": "erließt",
+      "sie_Sie": "erließen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "erlassen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich erlasse dir ausnahmsweise die restlichen Zinsen für das Darlehen.",
+      "translation": {
+        "ru": "В виде исключения я прощаю тебе оставшиеся проценты по займу.",
+        "en": "As an exception, I waive the remaining interest on the loan for you."
+      },
+      "bracket_parts": [
+        "erlasse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erlässt die Regierung heute ein neues Dekret zur Steuersenkung?",
+      "translation": {
+        "ru": "Издает ли правительство сегодня новый указ о снижении налогов?",
+        "en": "Is the government issuing a new decree on tax cuts today?"
+      },
+      "bracket_parts": [
+        "Erlässt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Parlament erlässt strengere Richtlinien zum Schutz der Verbraucher.",
+      "translation": {
+        "ru": "Парламент издает более строгие директивы по защите потребителей.",
+        "en": "Parliament issues stricter guidelines for consumer protection."
+      },
+      "bracket_parts": [
+        "erlässt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erlassen im Notfall sofortige Sicherheitsvorschriften für alle Bürger.",
+      "translation": {
+        "ru": "В экстренной ситуации мы издаем немедленные правила безопасности для всех граждан.",
+        "en": "In an emergency, we issue immediate safety regulations for all citizens."
+      },
+      "bracket_parts": [
+        "erlassen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erlasst ihr den Schülern heute die schwierigen Hausaufgaben?",
+      "translation": {
+        "ru": "Освобождаете ли вы учеников сегодня от сложного домашнего задания?",
+        "en": "Are you guys waiving the difficult homework for the students today?"
+      },
+      "bracket_parts": [
+        "Erlasst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Minister erließ eine dringende Verordnung zur Seuchenbekämpfung.",
+      "translation": {
+        "ru": "Министр издал срочное распоряжение по борьбе с эпидемией.",
+        "en": "The minister issued an urgent ordinance to combat the epidemic."
+      },
+      "bracket_parts": [
+        "erließ"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Bank hat dem Schuldner einen Teil der alten Schulden erlassen.",
+      "translation": {
+        "ru": "Банк простил должнику часть старых долгов.",
+        "en": "The bank waived part of the debtor's old debts."
+      },
+      "bracket_parts": [
+        "hat",
+        "erlassen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erlass bitte klare und verständliche Regeln für das Zusammenleben!",
+      "translation": {
+        "ru": "Издай, пожалуйста, ясные и понятные правила совместного проживания!",
+        "en": "Please enact clear and understandable rules for living together!"
+      },
+      "bracket_parts": [
+        "Erlass"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

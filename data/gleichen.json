@@ -1,0 +1,143 @@
+{
+  "id": "gleichen",
+  "infinitive": "gleichen",
+  "translation": {
+    "ru": "походить, напоминать, быть похожим",
+    "en": "to resemble, to be like"
+  },
+  "level": "B1",
+  "frequency_rank": 921,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "gleicht",
+    "preterite_third_singular": "glich",
+    "past_participle": "geglichen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gleiche",
+      "du": "gleichst",
+      "er_sie_es": "gleicht",
+      "wir": "gleichen",
+      "ihr": "gleicht",
+      "sie_Sie": "gleichen"
+    },
+    "preterite": {
+      "ich": "glich",
+      "du": "glichst",
+      "er_sie_es": "glich",
+      "wir": "glichen",
+      "ihr": "glicht",
+      "sie_Sie": "glichen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geglichen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "an",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich gleiche in vielen Charakterzügen meinem Großvater.",
+      "translation": {
+        "ru": "Многими чертами характера я похож на своего дедушку.",
+        "en": "In many character traits, I resemble my grandfather."
+      },
+      "bracket_parts": [
+        "gleiche"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gleichst du deinem Zwillingsbruder wirklich bis aufs Haar?",
+      "translation": {
+        "ru": "Ты действительно похож на своего брата-близнеца точь-в-точь?",
+        "en": "Do you really resemble your twin brother down to the last detail?"
+      },
+      "bracket_parts": [
+        "Gleichst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die neue Version gleicht dem alten Modell in fast jedem Detail.",
+      "translation": {
+        "ru": "Новая версия напоминает старую модель почти во всех деталях.",
+        "en": "The new version resembles the old model in almost every detail."
+      },
+      "bracket_parts": [
+        "gleicht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gleichen uns in unserer Ansicht über moderne Kunst.",
+      "translation": {
+        "ru": "Мы похожи во взглядах на современное искусство.",
+        "en": "We are alike in our views on modern art."
+      },
+      "bracket_parts": [
+        "gleichen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gleicht ihr euren Eltern im Berufswunsch?",
+      "translation": {
+        "ru": "Похожи ли вы на своих родителей в выборе профессии?",
+        "en": "Do you guys resemble your parents in career aspirations?"
+      },
+      "bracket_parts": [
+        "Gleicht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das alte Gemälde glich einem echten Meisterwerk von Rembrandt.",
+      "translation": {
+        "ru": "Старинная картина напоминала подлинный шедевр Рембрандта.",
+        "en": "The old painting resembled a genuine masterpiece by Rembrandt."
+      },
+      "bracket_parts": [
+        "glich"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die beiden Schwestern haben einander schon als Kinder sehr geglichen.",
+      "translation": {
+        "ru": "Обе сестры еще в детстве очень походили друг на друга.",
+        "en": "The two sisters resembled each other very much even as children."
+      },
+      "bracket_parts": [
+        "haben",
+        "geglichen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gleiche nicht immer deinen Vorbildern, sondern bleib du selbst!",
+      "translation": {
+        "ru": "Не подражай всегда своим кумирам, а оставайся собой!",
+        "en": "Do not always copy your role models, stay yourself!"
+      },
+      "bracket_parts": [
+        "Gleiche"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "anmelden",
+  "infinitive": "anmelden",
+  "translation": {
+    "ru": "регистрировать, заявлять",
+    "en": "to register, to sign up, to announce"
+  },
+  "level": "A2",
+  "frequency_rank": 739,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "meldet an",
+    "preterite_third_singular": "meldete an",
+    "past_participle": "angemeldet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "melde an",
+      "du": "meldest an",
+      "er_sie_es": "meldet an",
+      "wir": "melden an",
+      "ihr": "meldet an",
+      "sie_Sie": "melden an"
+    },
+    "preterite": {
+      "ich": "meldete an",
+      "du": "meldetest an",
+      "er_sie_es": "meldete an",
+      "wir": "meldeten an",
+      "ihr": "meldetet an",
+      "sie_Sie": "meldeten an"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "angemeldet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "für",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich melde meinen Wohnsitz beim Bürgeramt an.",
+      "translation": {
+        "ru": "Я регистрирую свое место жительства в отделе обслуживания граждан.",
+        "en": "I register my residence at the citizens' office."
+      },
+      "bracket_parts": [
+        "melde",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Meldest du dein neues Auto heute an?",
+      "translation": {
+        "ru": "Ты регистрируешь свою новую машину сегодня?",
+        "en": "Are you registering your new car today?"
+      },
+      "bracket_parts": [
+        "Meldest",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Mutter meldet ihr Kind für den Schwimmkurs an.",
+      "translation": {
+        "ru": "Мать записывает своего ребенка на курс плавания.",
+        "en": "The mother registers her child for the swimming course."
+      },
+      "bracket_parts": [
+        "meldet",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir melden unseren Besuch rechtzeitig bei den Großeltern an.",
+      "translation": {
+        "ru": "Мы предупреждаем о своем визите дедушку с бабушкой заранее.",
+        "en": "We announce our visit to the grandparents in advance."
+      },
+      "bracket_parts": [
+        "melden",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Meldet ihr die Konferenzteilnehmer online an?",
+      "translation": {
+        "ru": "Вы регистрируете участников конференции онлайн?",
+        "en": "Are you registering the conference participants online?"
+      },
+      "bracket_parts": [
+        "Meldet",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er meldete das Patent vor einem halben Jahr an.",
+      "translation": {
+        "ru": "Он зарегистрировал патент полгода назад.",
+        "en": "He registered the patent half a year ago."
+      },
+      "bracket_parts": [
+        "meldete",
+        "an"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben alle Schüler für die Prüfung angemeldet.",
+      "translation": {
+        "ru": "Они зарегистрировали всех учеников на экзамен.",
+        "en": "They registered all students for the exam."
+      },
+      "bracket_parts": [
+        "haben",
+        "angemeldet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Melde deinen Anspruch sofort schriftlich an!",
+      "translation": {
+        "ru": "Заяви о своих претензиях немедленно в письменной форме!",
+        "en": "Register your claim immediately in writing!"
+      },
+      "bracket_parts": [
+        "Melde",
+        "an"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

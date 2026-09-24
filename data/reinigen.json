@@ -1,0 +1,143 @@
+{
+  "id": "reinigen",
+  "infinitive": "reinigen",
+  "translation": {
+    "ru": "чистить, очищать, убирать",
+    "en": "to clean, to purify"
+  },
+  "level": "B1",
+  "frequency_rank": 748,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "reinigt",
+    "preterite_third_singular": "reinigte",
+    "past_participle": "gereinigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "reinige",
+      "du": "reinigst",
+      "er_sie_es": "reinigt",
+      "wir": "reinigen",
+      "ihr": "reinigt",
+      "sie_Sie": "reinigen"
+    },
+    "preterite": {
+      "ich": "reinigte",
+      "du": "reinigtest",
+      "er_sie_es": "reinigte",
+      "wir": "reinigten",
+      "ihr": "reinigtet",
+      "sie_Sie": "reinigten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gereinigt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "von",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich reinige meine Brille mit einem weichen Tuch.",
+      "translation": {
+        "ru": "Я протираю очки мягкой тряпочкой.",
+        "en": "I clean my glasses with a soft cloth."
+      },
+      "bracket_parts": [
+        "reinige"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Reinigst du die Fenster in der Küche gründlich?",
+      "translation": {
+        "ru": "Ты тщательно моешь окна на кухне?",
+        "en": "Do you clean the windows in the kitchen thoroughly?"
+      },
+      "bracket_parts": [
+        "Reinigst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Putzkraft reinigt die Büroräume jeden Abend.",
+      "translation": {
+        "ru": "Уборщица убирает офисные помещения каждый вечер.",
+        "en": "The cleaner cleans the office spaces every evening."
+      },
+      "bracket_parts": [
+        "reinigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir reinigen das Aquarium am kommenden Wochenende.",
+      "translation": {
+        "ru": "Мы чистим аквариум на следующих выходных.",
+        "en": "We clean the aquarium next weekend."
+      },
+      "bracket_parts": [
+        "reinigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Reinigt ihr eure Schuhe nach der schlammigen Wanderung?",
+      "translation": {
+        "ru": "Вы чистите обувь после прогулки по грязи?",
+        "en": "Are you cleaning your shoes after the muddy hike?"
+      },
+      "bracket_parts": [
+        "Reinigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Zahnarzt reinigte meine Zähne sehr vorsichtig.",
+      "translation": {
+        "ru": "Стоматолог почистил мои зубы очень осторожно.",
+        "en": "The dentist cleaned my teeth very carefully."
+      },
+      "bracket_parts": [
+        "reinigte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben den Teppich mit speziellem Schaum gereinigt.",
+      "translation": {
+        "ru": "Они почистили ковер специальной пеной.",
+        "en": "They cleaned the carpet with special foam."
+      },
+      "bracket_parts": [
+        "haben",
+        "gereinigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Reinige die Wunde sofort mit sauberem Wasser!",
+      "translation": {
+        "ru": "Промой рану немедленно чистой водой!",
+        "en": "Clean the wound immediately with clean water!"
+      },
+      "bracket_parts": [
+        "Reinige"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

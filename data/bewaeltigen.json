@@ -1,0 +1,138 @@
+{
+  "id": "bewaeltigen",
+  "infinitive": "bewältigen",
+  "translation": {
+    "ru": "справляться, преодолевать (трудности)",
+    "en": "to overcome, to cope with, to manage"
+  },
+  "level": "B2",
+  "frequency_rank": 861,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "bewältigt",
+    "preterite_third_singular": "bewältigte",
+    "past_participle": "bewältigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bewältige",
+      "du": "bewältigst",
+      "er_sie_es": "bewältigt",
+      "wir": "bewältigen",
+      "ihr": "bewältigt",
+      "sie_Sie": "bewältigen"
+    },
+    "preterite": {
+      "ich": "bewältigte",
+      "du": "bewältigtest",
+      "er_sie_es": "bewältigte",
+      "wir": "bewältigten",
+      "ihr": "bewältigtet",
+      "sie_Sie": "bewältigten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "bewältigt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich bewältige die anspruchsvollen Aufgaben mit großer Ruhe.",
+      "translation": {
+        "ru": "Я справляюсь со сложными задачами с большим спокойствием.",
+        "en": "I manage the demanding tasks with great calm."
+      },
+      "bracket_parts": [
+        "bewältige"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bewältigst du den stressigen Alltag ohne Probleme?",
+      "translation": {
+        "ru": "Ты справляешься со стрессовыми буднями без проблем?",
+        "en": "Do you cope with stressful everyday life without problems?"
+      },
+      "bracket_parts": [
+        "Bewältigst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Firma bewältigt die wirtschaftliche Krise erfolgreich.",
+      "translation": {
+        "ru": "Фирма успешно преодолевает экономический кризис.",
+        "en": "The company overcomes the economic crisis successfully."
+      },
+      "bracket_parts": [
+        "bewältigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bewältigen die weite Strecke in wenigen Stunden.",
+      "translation": {
+        "ru": "Мы преодолеваем дальнее расстояние за несколько часов.",
+        "en": "We cover the long distance in a few hours."
+      },
+      "bracket_parts": [
+        "bewältigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bewältigt ihr das enorme Arbeitspensum bis Freitag?",
+      "translation": {
+        "ru": "Вы справитесь с огромным объемом работы к пятнице?",
+        "en": "Will you manage the enormous workload by Friday?"
+      },
+      "bracket_parts": [
+        "Bewältigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie bewältigte ihren schweren Verlust mit erstaunlicher Kraft.",
+      "translation": {
+        "ru": "Она справилась с тяжелой утратой с поразительной силой.",
+        "en": "She coped with her heavy loss with astonishing strength."
+      },
+      "bracket_parts": [
+        "bewältigte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Gemeinsam haben wir alle Hindernisse auf dem Weg bewältigt.",
+      "translation": {
+        "ru": "Вместе мы преодолели все препятствия на пути.",
+        "en": "Together we have overcome all obstacles on the way."
+      },
+      "bracket_parts": [
+        "haben",
+        "bewältigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bewältige deine Probleme Schritt für Schritt!",
+      "translation": {
+        "ru": "Преодолевай свои проблемы шаг за шагом!",
+        "en": "Tackle your problems step by step!"
+      },
+      "bracket_parts": [
+        "Bewältige"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

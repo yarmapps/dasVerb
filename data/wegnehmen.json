@@ -1,0 +1,144 @@
+{
+  "id": "wegnehmen",
+  "infinitive": "wegnehmen",
+  "translation": {
+    "ru": "отбирать, забирать, отнимать (время/место)",
+    "en": "to take away, to take from"
+  },
+  "level": "A2",
+  "frequency_rank": 1033,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "nimmt weg",
+    "preterite_third_singular": "nahm weg",
+    "past_participle": "weggenommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "nehme weg",
+      "du": "nimmst weg",
+      "er_sie_es": "nimmt weg",
+      "wir": "nehmen weg",
+      "ihr": "nehmt weg",
+      "sie_Sie": "nehmen weg"
+    },
+    "preterite": {
+      "ich": "nahm weg",
+      "du": "nahmst weg",
+      "er_sie_es": "nahm weg",
+      "wir": "nahmen weg",
+      "ihr": "nahmt weg",
+      "sie_Sie": "nahmen weg"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "weggenommen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich nehme dem kleinen Kind das spitze Messer zur Sicherheit sofort weg.",
+      "translation": {
+        "ru": "В целях безопасности я немедленно забираю у маленького ребенка острый нож.",
+        "en": "For safety, I immediately take the sharp knife away from the small child."
+      },
+      "bracket_parts": [
+        "nehme",
+        "weg"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Nimmst du deinem Bruder beim Spielen schon wieder das Spielzeug weg?",
+      "translation": {
+        "ru": "Ты опять отбираешь у брата игрушку во время игры?",
+        "en": "Are you taking the toy away from your brother during play again?"
+      },
+      "bracket_parts": [
+        "Nimmst",
+        "weg"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das große Sofa nimmt im kleinen Wohnzimmer leider zu viel Platz weg.",
+      "translation": {
+        "ru": "Большой диван в маленькой гостиной, к сожалению, отнимает слишком много места.",
+        "en": "The large sofa unfortunately takes up too much space in the small living room."
+      },
+      "bracket_parts": [
+        "nimmt",
+        "weg"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir nehmen niemandem unberechtigt seine Rechte oder sein Eigentum weg.",
+      "translation": {
+        "ru": "Мы ни у кого не отбираем незаконно права или собственность.",
+        "en": "We do not unlawfully take away anyone's rights or property."
+      },
+      "bracket_parts": [
+        "nehmen",
+        "weg"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Nehmt ihr den Schülern bei der Prüfung die unerlaubten Spickzettel weg?",
+      "translation": {
+        "ru": "Забираете ли вы у учеников на экзамене недозволенные шпаргалки?",
+        "en": "Are you guys taking the illicit cheat sheets away from students during the exam?"
+      },
+      "bracket_parts": [
+        "Nehmt",
+        "weg"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Dieb nahm der alten Dame auf der Straße die Handtasche weg.",
+      "translation": {
+        "ru": "Вор отобрал на улице сумочку у пожилой дамы.",
+        "en": "The thief snatched the handbag away from the old lady on the street."
+      },
+      "bracket_parts": [
+        "nahm",
+        "weg"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Jemand hat mir mein Fahrrad vor dem Supermarkt einfach weggenommen.",
+      "translation": {
+        "ru": "Кто-то просто забрал (украл) мой велосипед перед супермаркетом.",
+        "en": "Someone simply took away my bicycle in front of the supermarket."
+      },
+      "bracket_parts": [
+        "hat",
+        "weggenommen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Nimm den Kindern nicht ihre Unbeschwertheit und Spielfreude weg!",
+      "translation": {
+        "ru": "Не отнимай у детей их беззаботность и радость игры!",
+        "en": "Do not take away children's lightheartedness and joy of play!"
+      },
+      "bracket_parts": [
+        "Nimm",
+        "weg"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

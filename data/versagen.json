@@ -1,0 +1,143 @@
+{
+  "id": "versagen",
+  "infinitive": "versagen",
+  "translation": {
+    "ru": "отказывать, не срабатывать, терпеть неудачу",
+    "en": "to fail, to malfunction"
+  },
+  "level": "B2",
+  "frequency_rank": 818,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "versagt",
+    "preterite_third_singular": "versagte",
+    "past_participle": "versagt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "versage",
+      "du": "versagst",
+      "er_sie_es": "versagt",
+      "wir": "versagen",
+      "ihr": "versagt",
+      "sie_Sie": "versagen"
+    },
+    "preterite": {
+      "ich": "versagte",
+      "du": "versagtest",
+      "er_sie_es": "versagte",
+      "wir": "versagten",
+      "ihr": "versagtet",
+      "sie_Sie": "versagten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "versagt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "bei",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich versage in Stresssituationen glücklicherweise nur selten.",
+      "translation": {
+        "ru": "В стрессовых ситуациях я, к счастью, терплю неудачу редко.",
+        "en": "Fortunately, I rarely fail in stressful situations."
+      },
+      "bracket_parts": [
+        "versage"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Warum versagst du dir jeden kleinen Genuss?",
+      "translation": {
+        "ru": "Почему ты отказываешь себе в каждом маленьком удовольствии?",
+        "en": "Why do you deny yourself every little pleasure?"
+      },
+      "bracket_parts": [
+        "versagst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die alte Heizung versagt bei extremen Minusgraden regelmäßig.",
+      "translation": {
+        "ru": "Старое отопление регулярно отказывает при сильном морозе.",
+        "en": "The old heater fails regularly in extreme freezing temperatures."
+      },
+      "bracket_parts": [
+        "versagt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir versagen bei dieser wichtigen Aufgabe ganz sicher nicht.",
+      "translation": {
+        "ru": "Мы точно не спасуем перед этой важной задачей.",
+        "en": "We certainly will not fail at this important task."
+      },
+      "bracket_parts": [
+        "versagen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Versagt ihr unter großem Leistungsdruck?",
+      "translation": {
+        "ru": "Вы теряетесь под сильным давлением результатов?",
+        "en": "Do you guys fail under great pressure to perform?"
+      },
+      "bracket_parts": [
+        "Versagt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Bremsen des Autos versagten plötzlich auf der Bergstraße.",
+      "translation": {
+        "ru": "Тормоза машины внезапно отказали на горной дороге.",
+        "en": "The car's brakes suddenly failed on the mountain road."
+      },
+      "bracket_parts": [
+        "versagten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Seine Stimme hat vor lauter Aufregung völlig versagt.",
+      "translation": {
+        "ru": "Его голос полностью пропал от сильного волнения.",
+        "en": "His voice completely failed him from sheer excitement."
+      },
+      "bracket_parts": [
+        "hat",
+        "versagt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gib nicht auf, auch wenn die Technik einmal versagt!",
+      "translation": {
+        "ru": "Не сдавайся, даже если техника однажды подведет!",
+        "en": "Do not give up, even if technology fails once!"
+      },
+      "bracket_parts": [
+        "versagt"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

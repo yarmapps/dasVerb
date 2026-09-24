@@ -1,0 +1,147 @@
+{
+  "id": "entschliessen_sich",
+  "infinitive": "entschließen",
+  "translation": {
+    "ru": "решаться, принимать решение",
+    "en": "to decide, make up one's mind"
+  },
+  "level": "B1",
+  "frequency_rank": 534,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ent",
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "entschließen",
+    "present_3sg": "entschließt sich",
+    "praeteritum_3sg": "entschloss sich",
+    "partizip_2": "entschlossen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entschließe mich",
+      "du": "entschließt dich",
+      "er_sie_es": "entschließt sich",
+      "wir": "entschließen uns",
+      "ihr": "entschließt euch",
+      "sie_Sie": "entschließen sich"
+    },
+    "praeteritum": {
+      "ich": "entschloss mich",
+      "du": "entschlossest dich",
+      "er_sie_es": "entschloss sich",
+      "wir": "entschlossen uns",
+      "ihr": "entschlosst euch",
+      "sie_Sie": "entschlossen sich"
+    },
+    "perfekt": {
+      "ich": "habe mich entschlossen",
+      "du": "hast dich entschlossen",
+      "er_sie_es": "hat sich entschlossen",
+      "wir": "haben uns entschlossen",
+      "ihr": "habt euch entschlossen",
+      "sie_Sie": "haben sich entschlossen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "zu",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich entschließe mich nach reiflicher Überlegung zu dem Schritt.",
+      "translation": {
+        "ru": "После зрелого размышления я решаюсь на этот шаг.",
+        "en": "After careful consideration, I decide on this step."
+      },
+      "bracket_parts": [
+        "entschließe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du entschließt dich spontan zu einem Kurzurlaub am Meer.",
+      "translation": {
+        "ru": "Ты спонтанно решаешься на короткий отпуск на море.",
+        "en": "You spontaneously decide on a short vacation by the sea."
+      },
+      "bracket_parts": [
+        "entschließt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Absolvent entschließt sich zu einem Masterstudium im Ausland.",
+      "translation": {
+        "ru": "Выпускник решает пойти в магистратуру за рубежом.",
+        "en": "The graduate decides on master's studies abroad."
+      },
+      "bracket_parts": [
+        "entschließt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir entschließen uns zum Kauf einer neuen Wohnung.",
+      "translation": {
+        "ru": "Мы решаемся на покупку новой квартиры.",
+        "en": "We decide to buy a new apartment."
+      },
+      "bracket_parts": [
+        "entschließen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr entschließt euch mutig zu einer beruflichen Veränderung.",
+      "translation": {
+        "ru": "Вы смело решаетесь на перемены в карьере.",
+        "en": "You bravely decide on a career change."
+      },
+      "bracket_parts": [
+        "entschließt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie entschlossen sich damals zur Flucht aus dem Land.",
+      "translation": {
+        "ru": "Они тогда решились на побег из страны.",
+        "en": "They decided on fleeing the country back then."
+      },
+      "bracket_parts": [
+        "entschlossen"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Meine Schwester hat sich gestern für ein Medizinstudium entschlossen.",
+      "translation": {
+        "ru": "Моя сестра вчера выбрала и решилась на учебу в медицинском.",
+        "en": "My sister decided on medical studies yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "entschlossen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Entschließe dich bitte endlich zu einer klaren Antwort!",
+      "translation": {
+        "ru": "Решись наконец на четкий ответ, пожалуйста!",
+        "en": "Please finally make up your mind on a clear answer!"
+      },
+      "bracket_parts": [
+        "Entschließe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

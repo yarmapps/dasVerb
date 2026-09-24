@@ -1,0 +1,143 @@
+{
+  "id": "erholen_sich",
+  "infinitive": "erholen",
+  "translation": {
+    "ru": "отдыхать, восстанавливаться, поправляться",
+    "en": "to recover, to rest, to recuperate"
+  },
+  "level": "A2",
+  "frequency_rank": 866,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": true
+  },
+  "principal_parts": {
+    "present_third_singular": "erholt sich",
+    "preterite_third_singular": "erholte sich",
+    "past_participle": "erholt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erhole mich",
+      "du": "erholst dich",
+      "er_sie_es": "erholt sich",
+      "wir": "erholen uns",
+      "ihr": "erholt euch",
+      "sie_Sie": "erholen sich"
+    },
+    "preterite": {
+      "ich": "erholte mich",
+      "du": "erholtest dich",
+      "er_sie_es": "erholte sich",
+      "wir": "erholten uns",
+      "ihr": "erholtet euch",
+      "sie_Sie": "erholten uns"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "erholt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "von",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich erhole mich im Urlaub am sonnigen Strand von dem Alltagsstress.",
+      "translation": {
+        "ru": "Я отдыхаю в отпуске на солнечном пляже от повседневного стресса.",
+        "en": "I recover from daily stress on vacation at the sunny beach."
+      },
+      "bracket_parts": [
+        "erhole"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erholst du dich gut nach der anstrengenden Operation?",
+      "translation": {
+        "ru": "Ты хорошо восстанавливаешься после тяжелой операции?",
+        "en": "Are you recovering well after the strenuous surgery?"
+      },
+      "bracket_parts": [
+        "Erholst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Natur erholt sich nach dem langen kalten Winter schnell.",
+      "translation": {
+        "ru": "Природа быстро восстанавливается после долгой холодной зимы.",
+        "en": "Nature recovers quickly after the long cold winter."
+      },
+      "bracket_parts": [
+        "erholt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erholen uns am Wochenende beim Wandern in den Bergen.",
+      "translation": {
+        "ru": "Мы отдыхаем на выходных во время походов в горах.",
+        "en": "We relax on the weekend while hiking in the mountains."
+      },
+      "bracket_parts": [
+        "erholen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erholt ihr euch bei einem ruhigen Spaziergang im Wald?",
+      "translation": {
+        "ru": "Вы отдыхаете во время спокойной прогулки по лесу?",
+        "en": "Do you guys relax during a quiet walk in the forest?"
+      },
+      "bracket_parts": [
+        "Erholt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Kranke erholte sich langsam von der schweren Grippe.",
+      "translation": {
+        "ru": "Больной медленно поправлялся после тяжелого гриппа.",
+        "en": "The sick person recovered slowly from the severe flu."
+      },
+      "bracket_parts": [
+        "erholte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben sich in den Ferien wunderbar erholt.",
+      "translation": {
+        "ru": "Они чудесно отдохнули на каникулах.",
+        "en": "They relaxed wonderfully during the holidays."
+      },
+      "bracket_parts": [
+        "haben",
+        "erholt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erhole dich gut und schlaf dich richtig aus!",
+      "translation": {
+        "ru": "Отдохни хорошенько и выспись как следует!",
+        "en": "Rest well and get a good sleep!"
+      },
+      "bracket_parts": [
+        "Erhole"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

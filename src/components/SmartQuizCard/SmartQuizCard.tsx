@@ -7,9 +7,13 @@ import { createStyles } from './SmartQuizCard.styles';
 
 export interface SmartQuizCardProps {
   onPress: () => void;
+  isPremium?: boolean;
 }
 
-export function SmartQuizCard({ onPress }: SmartQuizCardProps): React.JSX.Element {
+export function SmartQuizCard({
+  onPress,
+  isPremium = false,
+}: SmartQuizCardProps): React.JSX.Element {
   const intl = useIntl();
   const { colors } = useAppTheme();
   const styles = useMemo(() => createStyles(colors), [colors]);
@@ -32,9 +36,11 @@ export function SmartQuizCard({ onPress }: SmartQuizCardProps): React.JSX.Elemen
           {intl.formatMessage({ id: 'practiceScreen.smartQuizSubtitle' })}
         </Text>
       </View>
-      <View style={styles.actionArrow}>
-        <FontAwesome5 name="chevron-right" size={14} color={colors.textSecondary} />
-      </View>
+      {!isPremium && (
+        <View style={styles.actionIcon} testID="smart-quiz-premium-badge">
+          <FontAwesome5 name="gem" size={14} color={colors.premiumDiamond} />
+        </View>
+      )}
     </TouchableOpacity>
   );
 }

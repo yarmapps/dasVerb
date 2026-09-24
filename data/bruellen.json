@@ -1,0 +1,137 @@
+{
+  "id": "bruellen",
+  "infinitive": "brüllen",
+  "translation": {
+    "ru": "орать, рычать, реветь",
+    "en": "to roar, to yell, to shout"
+  },
+  "level": "B1",
+  "frequency_rank": 976,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "brüllt",
+    "preterite_third_singular": "brüllte",
+    "past_participle": "gebrüllt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "brülle",
+      "du": "brüllst",
+      "er_sie_es": "brüllt",
+      "wir": "brüllen",
+      "ihr": "brüllt",
+      "sie_Sie": "brüllen"
+    },
+    "preterite": {
+      "ich": "brüllte",
+      "du": "brülltest",
+      "er_sie_es": "brüllte",
+      "wir": "brüllten",
+      "ihr": "brülltet",
+      "sie_Sie": "brüllten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gebrüllt"
+    }
+  },
+  "rektion": {
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich brülle niemals meine Mitarbeiter an, wenn Probleme auftreten.",
+      "translation": {
+        "ru": "Я никогда не кричу на своих сотрудников при возникновении проблем.",
+        "en": "I never yell at my employees when problems arise."
+      },
+      "bracket_parts": [
+        "brülle"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Brüllst du im Stadion bei jedem Tor deiner Mannschaft lautstark mit?",
+      "translation": {
+        "ru": "Ты громко кричишь на стадионе при каждом голе своей команды?",
+        "en": "Do you yell loudly in the stadium at every goal of your team?"
+      },
+      "bracket_parts": [
+        "Brüllst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der hungrige Löwe brüllt laut in der weiten Savanne.",
+      "translation": {
+        "ru": "Голодный лев громко рычит в широкой саванне.",
+        "en": "The hungry lion roars loudly in the wide savannah."
+      },
+      "bracket_parts": [
+        "brüllt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir brüllen vor Lachen über den lustigen Witz des Kollegen.",
+      "translation": {
+        "ru": "Мы ревем от смеха над смешным анекдотом коллеги.",
+        "en": "We roar with laughter at the colleague's funny joke."
+      },
+      "bracket_parts": [
+        "brüllen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Brüllt ihr auch, wenn ihr euch beim Spiel furchtbar ärgert?",
+      "translation": {
+        "ru": "Вы тоже кричите, когда ужасно злитесь во время игры?",
+        "en": "Do you guys also yell when you get terribly annoyed during the game?"
+      },
+      "bracket_parts": [
+        "Brüllt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der wütende Autofahrer brüllte den anderen Fahrer aus dem Fenster an.",
+      "translation": {
+        "ru": "Разъяренный водитель наорал на другого водителя из окна.",
+        "en": "The angry driver yelled at the other driver out of the window."
+      },
+      "bracket_parts": [
+        "brüllte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Publikum hat nach der Aufführung begeistert vor Freude gebrüllt.",
+      "translation": {
+        "ru": "Публика после спектакля восторженно кричала от радости.",
+        "en": "The audience roared with joy after the performance."
+      },
+      "bracket_parts": [
+        "hat",
+        "gebrüllt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Brüll mich bitte nicht so grundlos und unhöflich an!",
+      "translation": {
+        "ru": "Не кричи на меня, пожалуйста, так беспричинно и невежливо!",
+        "en": "Please do not yell at me so groundlessly and rudely!"
+      },
+      "bracket_parts": [
+        "Brüll"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "irren",
+  "infinitive": "irren",
+  "translation": {
+    "ru": "ошибаться, бродить, блуждать",
+    "en": "to be mistaken, to wander, to err"
+  },
+  "level": "B1",
+  "frequency_rank": 924,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "irrt",
+    "preterite_third_singular": "irrte",
+    "past_participle": "geirrt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "irre",
+      "du": "irrst",
+      "er_sie_es": "irrt",
+      "wir": "irren",
+      "ihr": "irrt",
+      "sie_Sie": "irren"
+    },
+    "preterite": {
+      "ich": "irrte",
+      "du": "irrtest",
+      "er_sie_es": "irrte",
+      "wir": "irrten",
+      "ihr": "irrtet",
+      "sie_Sie": "irrten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geirrt"
+    }
+  },
+  "rektion": {
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich irre mich selten bei solchen schwierigen Rechenaufgaben.",
+      "translation": {
+        "ru": "Я редко ошибаюсь в таких трудных математических задачах.",
+        "en": "I am rarely mistaken in such difficult math problems."
+      },
+      "bracket_parts": [
+        "irre"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Irren ist bekanntlich menschlich und kein unverzeihlicher Fehler.",
+      "translation": {
+        "ru": "Ошибаться, как известно, свойственно человеку и не является непростительной ошибкой.",
+        "en": "To err is human, as is well known, and not an unforgivable mistake."
+      },
+      "bracket_parts": [
+        "Irren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Tourist irrt ohne Stadtplan hilflos durch die engen Gassen.",
+      "translation": {
+        "ru": "Турист без карты беспомощно блуждает по узким улочкам.",
+        "en": "The tourist wanders helplessly through the narrow alleys without a city map."
+      },
+      "bracket_parts": [
+        "irrt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir irren uns alle manchmal bei der Einschätzung von Menschen.",
+      "translation": {
+        "ru": "Мы все иногда ошибаемся в оценке людей.",
+        "en": "We all make mistakes sometimes in judging people."
+      },
+      "bracket_parts": [
+        "irren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Irrt ihr euch nicht vielleicht bei der angegebenen Uhrzeit?",
+      "translation": {
+        "ru": "Не ошибаетесь ли вы во времени?",
+        "en": "Aren't you guys perhaps mistaken about the specified time?"
+      },
+      "bracket_parts": [
+        "Irrt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Wanderer irrten stundenlang im dichten Nebel durch den Wald.",
+      "translation": {
+        "ru": "Путники часами блуждали в густом тумане по лесу.",
+        "en": "The hikers wandered for hours through the forest in thick fog."
+      },
+      "bracket_parts": [
+        "irrten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Experte hat sich bei seiner Prognose gründlich geirrt.",
+      "translation": {
+        "ru": "Эксперт основательно ошибся в своем прогнозе.",
+        "en": "The expert was thoroughly mistaken in his forecast."
+      },
+      "bracket_parts": [
+        "hat",
+        "geirrt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Irr dich nicht in seinen scheinbar ehrlichen Absichten!",
+      "translation": {
+        "ru": "Не обманись в его кажущихся честными намерениях!",
+        "en": "Do not be mistaken about his seemingly honest intentions!"
+      },
+      "bracket_parts": [
+        "Irr"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

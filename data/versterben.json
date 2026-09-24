@@ -1,0 +1,148 @@
+{
+  "id": "versterben",
+  "infinitive": "versterben",
+  "translation": {
+    "ru": "умирать, скончаться",
+    "en": "to pass away, to decease"
+  },
+  "level": "B2",
+  "frequency_rank": 695,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "versterben",
+    "present_3sg": "verstirbt",
+    "praeteritum_3sg": "verstarb",
+    "partizip_2": "verstorben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "versterbe",
+      "du": "verstirbst",
+      "er_sie_es": "verstirbt",
+      "wir": "versterben",
+      "ihr": "versterbt",
+      "sie_Sie": "versterben",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "verstarb",
+      "du": "verstarbst",
+      "er_sie_es": "verstarb",
+      "wir": "verstarben",
+      "ihr": "verstarbt",
+      "sie_Sie": "verstarben"
+    },
+    "perfekt": {
+      "ich": "bin verstorben",
+      "du": "bist verstorben",
+      "er_sie_es": "ist verstorben",
+      "wir": "sind verstorben",
+      "ihr": "seid verstorben",
+      "sie_Sie": "sind verstorben"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "an",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich erfahre mit Trauer, dass alte Bekannte plötzlich versterben.",
+      "translation": {
+        "ru": "Я с печалью узнаю, что старые знакомые внезапно уходят из жизни.",
+        "en": "I learn with sadness that old acquaintances suddenly pass away."
+      },
+      "bracket_parts": [
+        "versterben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verstirbst du innerlich vor Einsamkeit im kalten Winter?",
+      "translation": {
+        "ru": "Ты внутренне угасаешь от одиночества в холодную зиму?",
+        "en": "Are you dying inside from loneliness in the cold winter?"
+      },
+      "bracket_parts": [
+        "Verstirbst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der hochbetagte Künstler verstirbt friedlich im Kreise seiner Familie.",
+      "translation": {
+        "ru": "Престарелый художник мирно скончался в кругу семьи.",
+        "en": "The elderly artist passes away peacefully surrounded by his family."
+      },
+      "bracket_parts": [
+        "verstirbt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir trauern um alle Menschen, die in diesem Jahr versterben.",
+      "translation": {
+        "ru": "Мы скорбим обо всех людях, которые умирают в этом году.",
+        "en": "We mourn all people who pass away this year."
+      },
+      "bracket_parts": [
+        "versterben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr wisst, wie schnell geliebte Verwandte versterben können.",
+      "translation": {
+        "ru": "Вы знаете, как быстро могут уйти из жизни любимые родственники.",
+        "en": "You know how quickly beloved relatives can pass away."
+      },
+      "bracket_parts": [
+        "versterben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Mein Urgroßvater verstarb damals im hohen Alter von 95 Jahren.",
+      "translation": {
+        "ru": "Мой прадедушка тогда скончался в преклонном возрасте 95 лет.",
+        "en": "My great-grandfather passed away at the ripe old age of 95 back then."
+      },
+      "bracket_parts": [
+        "verstarb"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der ehemalige Bundeskanzler ist vor wenigen Tagen verstorben.",
+      "translation": {
+        "ru": "Бывший федеральный канцлер скончался несколько дней назад.",
+        "en": "The former Federal Chancellor passed away a few days ago."
+      },
+      "bracket_parts": [
+        "ist",
+        "verstorben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gedenke derer, die friedlich im Glauben versterben!",
+      "translation": {
+        "ru": "Помяни тех, кто мирно отходит в вере!",
+        "en": "Remember those who pass away peacefully in faith!"
+      },
+      "bracket_parts": [
+        "versterben"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "entnehmen",
+  "infinitive": "entnehmen",
+  "translation": {
+    "ru": "брать, извлекать, делать вывод (из чего-л.)",
+    "en": "to extract, to take out, to gather/conclude"
+  },
+  "level": "B2",
+  "frequency_rank": 660,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "ent",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "entnehmen",
+    "present_3sg": "entnimmt",
+    "praeteritum_3sg": "entnahm",
+    "partizip_2": "entnommen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entnehme",
+      "du": "entnimmst",
+      "er_sie_es": "entnimmt",
+      "wir": "entnehmen",
+      "ihr": "entnehmt",
+      "sie_Sie": "entnehmen",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "entnahm",
+      "du": "entnahmst",
+      "er_sie_es": "entnahm",
+      "wir": "entnahmen",
+      "ihr": "entnahmt",
+      "sie_Sie": "entnahmen"
+    },
+    "perfekt": {
+      "ich": "habe entnommen",
+      "du": "hast entnommen",
+      "er_sie_es": "hat entnommen",
+      "wir": "haben entnommen",
+      "ihr": "habt entnommen",
+      "sie_Sie": "haben entnommen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "aus",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich entnehme Geld aus dem Bankautomaten.",
+      "translation": {
+        "ru": "Я снимаю деньги в банкомате.",
+        "en": "I withdraw money from the ATM."
+      },
+      "bracket_parts": [
+        "entnehme"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Entnimmst du die wichtigen Informationen aus dem offiziellen Dokument?",
+      "translation": {
+        "ru": "Ты берешь важную информацию из официального документа?",
+        "en": "Do you gather the important information from the official document?"
+      },
+      "bracket_parts": [
+        "Entnimmst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Arzt entnimmt dem Patienten eine kleine Blutprobe.",
+      "translation": {
+        "ru": "Врач берет у пациента небольшой образец крови.",
+        "en": "The doctor takes a small blood sample from the patient."
+      },
+      "bracket_parts": [
+        "entnimmt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir entnehmen dem Bericht, dass die Verkäufe steigen.",
+      "translation": {
+        "ru": "Мы делаем вывод из отчета, что продажи растут.",
+        "en": "We gather from the report that sales are rising."
+      },
+      "bracket_parts": [
+        "entnehmen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr entnehmt die Proben für das Experiment sehr vorsichtig.",
+      "translation": {
+        "ru": "Вы очень аккуратно извлекаете образцы для эксперимента.",
+        "en": "You extract the samples for the experiment very carefully."
+      },
+      "bracket_parts": [
+        "entnehmt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Forscher entnahm damals Gewebeproben zur Untersuchung.",
+      "translation": {
+        "ru": "Исследователь тогда взял образцы тканей для исследования.",
+        "en": "The researcher took tissue samples for examination back then."
+      },
+      "bracket_parts": [
+        "entnahm"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben alle Details aus der Beschreibung entnommen.",
+      "translation": {
+        "ru": "Они почерпнули все детали из описания.",
+        "en": "They gathered all details from the description."
+      },
+      "bracket_parts": [
+        "haben",
+        "entnommen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Entnimm bitte den Schlüssel aus dem Schließfach!",
+      "translation": {
+        "ru": "Извлеки, пожалуйста, ключ из ячейки камеры хранения!",
+        "en": "Please take the key out of the locker!"
+      },
+      "bracket_parts": [
+        "Entnimm"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

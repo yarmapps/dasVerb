@@ -1,0 +1,150 @@
+{
+  "id": "weitergeben",
+  "infinitive": "weitergeben",
+  "translation": {
+    "ru": "передавать дальше (знания, вещи, информацию)",
+    "en": "to pass on, to forward, to hand down"
+  },
+  "level": "A2",
+  "frequency_rank": 886,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "gibt weiter",
+    "preterite_third_singular": "gab weiter",
+    "past_participle": "weitergegeben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gebe weiter",
+      "du": "gibst weiter",
+      "er_sie_es": "gibt weiter",
+      "wir": "geben weiter",
+      "ihr": "gebt weiter",
+      "sie_Sie": "geben weiter"
+    },
+    "preterite": {
+      "ich": "gab weiter",
+      "du": "gabst weiter",
+      "er_sie_es": "gab weiter",
+      "wir": "gaben weiter",
+      "ihr": "gabt weiter",
+      "sie_Sie": "gaben weiter"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "weitergegeben"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "an",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich gebe mein Fachwissen gerne an junge Kollegen weiter.",
+      "translation": {
+        "ru": "Я с удовольствием передаю свои профессиональные знания молодым коллегам.",
+        "en": "I gladly pass on my expertise to young colleagues."
+      },
+      "bracket_parts": [
+        "gebe",
+        "weiter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gibst du die wichtige Nachricht an deinen Chef weiter?",
+      "translation": {
+        "ru": "Ты передаешь важное сообщение своему шефу?",
+        "en": "Are you passing the important message on to your boss?"
+      },
+      "bracket_parts": [
+        "Gibst",
+        "weiter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Lehrer gibt die Prüfungsaufgaben an die Schüler weiter.",
+      "translation": {
+        "ru": "Учитель раздает экзаменационные задания ученикам.",
+        "en": "The teacher passes the exam papers on to the students."
+      },
+      "bracket_parts": [
+        "gibt",
+        "weiter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir geben die gebrauchte Kinderkleidung an Freunde weiter.",
+      "translation": {
+        "ru": "Мы передаем подержанную детскую одежду друзьям.",
+        "en": "We pass on the second-hand children's clothes to friends."
+      },
+      "bracket_parts": [
+        "geben",
+        "weiter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gebt ihr die vertraulichen Informationen an Dritte weiter?",
+      "translation": {
+        "ru": "Вы передаете конфиденциальную информацию третьим лицам?",
+        "en": "Are you passing confidential information on to third parties?"
+      },
+      "bracket_parts": [
+        "Gebt",
+        "weiter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Großmutter gab alte Familientraditionen liebevoll weiter.",
+      "translation": {
+        "ru": "Бабушка с любовью передавала старые семейные традиции.",
+        "en": "The grandmother lovingly passed down old family traditions."
+      },
+      "bracket_parts": [
+        "gab",
+        "weiter"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben die Kontaktdaten der Firma an mich weitergegeben.",
+      "translation": {
+        "ru": "Они передали мне контактные данные компании.",
+        "en": "They passed the company's contact details on to me."
+      },
+      "bracket_parts": [
+        "haben",
+        "weitergegeben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gib die Einladung bitte an alle Nachbarn weiter!",
+      "translation": {
+        "ru": "Передай приглашение всем соседям, пожалуйста!",
+        "en": "Please pass the invitation on to all neighbors!"
+      },
+      "bracket_parts": [
+        "Gib",
+        "weiter"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

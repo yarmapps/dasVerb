@@ -1,0 +1,150 @@
+{
+  "id": "anfuehren",
+  "infinitive": "anführen",
+  "translation": {
+    "ru": "возглавлять, приводить (аргумент, пример)",
+    "en": "to lead, to head, to quote, to cite"
+  },
+  "level": "B2",
+  "frequency_rank": 755,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "führt an",
+    "preterite_third_singular": "führte an",
+    "past_participle": "angeführt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "führe an",
+      "du": "führst an",
+      "er_sie_es": "führt an",
+      "wir": "führen an",
+      "ihr": "führt an",
+      "sie_Sie": "führen an"
+    },
+    "preterite": {
+      "ich": "führte an",
+      "du": "führtest an",
+      "er_sie_es": "führte an",
+      "wir": "führten an",
+      "ihr": "führtet an",
+      "sie_Sie": "führten an"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "angeführt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "als",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich führe die Gruppe sicher durch das schwierige Gelände an.",
+      "translation": {
+        "ru": "Я уверенно веду группу через сложную местность.",
+        "en": "I lead the group safely through the difficult terrain."
+      },
+      "bracket_parts": [
+        "führe",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Welche Gründe führst du für deine Entscheidung an?",
+      "translation": {
+        "ru": "Какие причины ты приводишь в пользу своего решения?",
+        "en": "What reasons do you cite for your decision?"
+      },
+      "bracket_parts": [
+        "führst",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der erfahrene Kapitän führt das Team auf das Spielfeld an.",
+      "translation": {
+        "ru": "Опытный капитан ведет команду на игровое поле.",
+        "en": "The experienced captain leads the team onto the pitch."
+      },
+      "bracket_parts": [
+        "führt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir führen viele überzeugende Beweise in unserem Bericht an.",
+      "translation": {
+        "ru": "Мы приводим множество убедительных доказательств в нашем отчете.",
+        "en": "We cite many convincing pieces of evidence in our report."
+      },
+      "bracket_parts": [
+        "führen",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Führt ihr diese Studie als wichtigstes Gegenargument an?",
+      "translation": {
+        "ru": "Вы приводите это исследование как главный контраргумент?",
+        "en": "Do you cite this study as the main counterargument?"
+      },
+      "bracket_parts": [
+        "Führt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Generalin führte die Truppen im Manöver an.",
+      "translation": {
+        "ru": "Генерал возглавляла войска на маневрах.",
+        "en": "The general led the troops in the maneuver."
+      },
+      "bracket_parts": [
+        "führte",
+        "an"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Redner hat zahlreiche treffende Beispiele angeführt.",
+      "translation": {
+        "ru": "Оратор привел многочисленные меткие примеры.",
+        "en": "The speaker cited numerous striking examples."
+      },
+      "bracket_parts": [
+        "hat",
+        "angeführt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Führe bitte nur stichhaltige Tatsachen an!",
+      "translation": {
+        "ru": "Приводи, пожалуйста, только веские факты!",
+        "en": "Please cite only solid facts!"
+      },
+      "bracket_parts": [
+        "Führe",
+        "an"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "einraeumen",
+  "infinitive": "einräumen",
+  "translation": {
+    "ru": "убирать (в шкаф), расставлять, признавать (ошибку)",
+    "en": "to put away, to load, to concede, to admit"
+  },
+  "level": "B1",
+  "frequency_rank": 575,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einräumen",
+    "present_3sg": "räumt ein",
+    "praeteritum_3sg": "räumte ein",
+    "partizip_2": "eingeräumt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "räume ein",
+      "du": "räumst ein",
+      "er_sie_es": "räumt ein",
+      "wir": "räumen ein",
+      "ihr": "räumt ein",
+      "sie_Sie": "räumen ein"
+    },
+    "praeteritum": {
+      "ich": "räumte ein",
+      "du": "räumtest ein",
+      "er_sie_es": "räumte ein",
+      "wir": "räumten ein",
+      "ihr": "räumtet ein",
+      "sie_Sie": "räumten ein"
+    },
+    "perfekt": {
+      "ich": "habe eingeräumt",
+      "du": "hast eingeräumt",
+      "er_sie_es": "hat eingeräumt",
+      "wir": "haben eingeräumt",
+      "ihr": "habt eingeräumt",
+      "sie_Sie": "haben eingeräumt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "in",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich räume das saubere Geschirr in den Schrank ein.",
+      "translation": {
+        "ru": "Я убираю чистую посуду в шкаф.",
+        "en": "I put the clean dishes away into the cupboard."
+      },
+      "bracket_parts": [
+        "räume",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Räumst du deine Kleidung ordentlich in die Kommode ein?",
+      "translation": {
+        "ru": "Ты аккуратно складываешь одежду в комод?",
+        "en": "Are you putting your clothes neatly into the chest of drawers?"
+      },
+      "bracket_parts": [
+        "Räumst",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Politiker räumt einen großen Fehler offen ein.",
+      "translation": {
+        "ru": "Политик открыто признает большую ошибку.",
+        "en": "The politician openly admits a big mistake."
+      },
+      "bracket_parts": [
+        "räumt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir räumen die neuen Bücher in das Regal ein.",
+      "translation": {
+        "ru": "Мы расставляем новые книги на полку.",
+        "en": "We put the new books onto the shelf."
+      },
+      "bracket_parts": [
+        "räumen",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr räumt die frischen Lebensmittel in den Kühlschrank ein.",
+      "translation": {
+        "ru": "Вы убираете свежие продукты в холодильник.",
+        "en": "You put the fresh groceries into the fridge."
+      },
+      "bracket_parts": [
+        "räumt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Angeklagte räumte seine Schuld vor Gericht ein.",
+      "translation": {
+        "ru": "Обвиняемый признал свою вину в суде.",
+        "en": "The accused admitted his guilt in court."
+      },
+      "bracket_parts": [
+        "räumte",
+        "ein"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben die Spülmaschine schnell nach dem Essen eingeräumt.",
+      "translation": {
+        "ru": "Они быстро загрузили посудомойку после еды.",
+        "en": "They quickly loaded the dishwasher after the meal."
+      },
+      "bracket_parts": [
+        "haben",
+        "eingeräumt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Räum bitte sofort die Einkäufe in den Schrank ein!",
+      "translation": {
+        "ru": "Убери, пожалуйста, сразу покупки в шкаф!",
+        "en": "Please put the groceries into the cupboard right away!"
+      },
+      "bracket_parts": [
+        "Räum",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

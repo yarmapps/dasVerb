@@ -1,0 +1,138 @@
+{
+  "id": "entspannen",
+  "infinitive": "entspannen",
+  "translation": {
+    "ru": "расслаблять, снимать напряжение",
+    "en": "to relax, to relieve tension"
+  },
+  "level": "B1",
+  "frequency_rank": 745,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "entspannt",
+    "preterite_third_singular": "entspannte",
+    "past_participle": "entspannt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entspanne",
+      "du": "entspannst",
+      "er_sie_es": "entspannt",
+      "wir": "entspannen",
+      "ihr": "entspannt",
+      "sie_Sie": "entspannen"
+    },
+    "preterite": {
+      "ich": "entspannte",
+      "du": "entspanntest",
+      "er_sie_es": "entspannte",
+      "wir": "entspannten",
+      "ihr": "entspanntet",
+      "sie_Sie": "entspannten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "entspannt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich entspanne meine verspannten Muskeln mit warmem Wasser.",
+      "translation": {
+        "ru": "Я расслабляю напряженные мышцы теплой водой.",
+        "en": "I relax my tense muscles with warm water."
+      },
+      "bracket_parts": [
+        "entspanne"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Entspannst du deine Augen nach der langen Bildschirmarbeit?",
+      "translation": {
+        "ru": "Ты даешь отдых глазам после долгой работы за экраном?",
+        "en": "Do you relax your eyes after the long screen work?"
+      },
+      "bracket_parts": [
+        "Entspannst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Eine sanfte Massage entspannt den ganzen Körper.",
+      "translation": {
+        "ru": "Мягкий массаж расслабляет все тело.",
+        "en": "A gentle massage relaxes the whole body."
+      },
+      "bracket_parts": [
+        "entspannt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir entspannen die angespannte Lage durch ruhige Gespräche.",
+      "translation": {
+        "ru": "Мы разряжаем напряженную обстановку спокойными беседами.",
+        "en": "We ease the tense situation through calm conversations."
+      },
+      "bracket_parts": [
+        "entspannen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr entspannt die müden Beine nach dem Spaziergang.",
+      "translation": {
+        "ru": "Вы расслабляете уставшие ноги после прогулки.",
+        "en": "You relax your tired legs after the walk."
+      },
+      "bracket_parts": [
+        "entspannt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die ruhige Musik entspannte die aufgeregten Gäste.",
+      "translation": {
+        "ru": "Спокойная музыка расслабила взволнованных гостей.",
+        "en": "The calm music relaxed the excited guests."
+      },
+      "bracket_parts": [
+        "entspannte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Urlaub am Meer hat meine Nerven wunderbar entspannt.",
+      "translation": {
+        "ru": "Отпуск на море чудесно успокоил мои нервы.",
+        "en": "The vacation by the sea wonderfully relaxed my nerves."
+      },
+      "bracket_parts": [
+        "hat",
+        "entspannt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Entspanne deine Schultern und atme tief durch!",
+      "translation": {
+        "ru": "Расслабь плечи и сделай глубокий вдох!",
+        "en": "Relax your shoulders and take a deep breath!"
+      },
+      "bracket_parts": [
+        "Entspanne"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

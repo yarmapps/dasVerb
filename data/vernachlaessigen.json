@@ -1,0 +1,137 @@
+{
+  "id": "vernachlaessigen",
+  "infinitive": "vernachlässigen",
+  "translation": {
+    "ru": "пренебрегать, затягивать/запускать, уделять мало внимания",
+    "en": "to neglect, to disregard, to ignore"
+  },
+  "level": "B2",
+  "frequency_rank": 1052,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "vernachlässigt",
+    "preterite_third_singular": "vernachlässigte",
+    "past_participle": "vernachlässigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vernachlässige",
+      "du": "vernachlässigst",
+      "er_sie_es": "vernachlässigt",
+      "wir": "vernachlässigen",
+      "ihr": "vernachlässigt",
+      "sie_Sie": "vernachlässigen"
+    },
+    "preterite": {
+      "ich": "vernachlässigte",
+      "du": "vernachlässigtest",
+      "er_sie_es": "vernachlässigte",
+      "wir": "vernachlässigten",
+      "ihr": "vernachlässigtet",
+      "sie_Sie": "vernachlässigten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "vernachlässigt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich vernachlässige meine Gesundheit trotz des vielen Stresses niemals.",
+      "translation": {
+        "ru": "Я никогда не пренебрегаю своим здоровьем, несмотря на большой стресс.",
+        "en": "I never neglect my health despite all the stress."
+      },
+      "bracket_parts": [
+        "vernachlässige"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vernachlässigst du deine Freunde wegen deiner vielen Überstunden?",
+      "translation": {
+        "ru": "Ты пренебрегаешь друзьями из-за множества переработок?",
+        "en": "Are you neglecting your friends because of your many overtime hours?"
+      },
+      "bracket_parts": [
+        "Vernachlässigst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Hausbesitzer vernachlässigt die Instandhaltung des alten Gartens.",
+      "translation": {
+        "ru": "Владелец дома пренебрегает уходом за старым садом.",
+        "en": "The homeowner neglects the maintenance of the old garden."
+      },
+      "bracket_parts": [
+        "vernachlässigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir vernachlässigen keine wichtigen Sicherheitsvorschriften im Betrieb.",
+      "translation": {
+        "ru": "Мы не пренебрегаем никакими важными правилами безопасности на предприятии.",
+        "en": "We do not neglect any important safety regulations in the company."
+      },
+      "bracket_parts": [
+        "vernachlässigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vernachlässigt ihr eure Schularbeiten zugunsten von Computerspielen?",
+      "translation": {
+        "ru": "Забрасываете ли вы школьные уроки в пользу компьютерных игр?",
+        "en": "Are you guys neglecting your schoolwork in favor of computer games?"
+      },
+      "bracket_parts": [
+        "Vernachlässigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Politik vernachlässigte damals den Ausbau des Schienennetzes.",
+      "translation": {
+        "ru": "Политика тогда пренебрегла развитием железнодорожной сети.",
+        "en": "Politics neglected the expansion of the rail network at the time."
+      },
+      "bracket_parts": [
+        "vernachlässigte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat seine Zähne jahrelang vernachlässigt und muss nun zum Arzt.",
+      "translation": {
+        "ru": "Он годами запускал зубы и теперь вынужден идти к врачу.",
+        "en": "He neglected his teeth for years and now has to go to the doctor."
+      },
+      "bracket_parts": [
+        "hat",
+        "vernachlässigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Vernachlässige niemals die Menschen, die dich bedingungslos lieben!",
+      "translation": {
+        "ru": "Никогда не забывай и не пренебрегай людьми, которые любят тебя безоговорочно!",
+        "en": "Never neglect the people who love you unconditionally!"
+      },
+      "bracket_parts": [
+        "Vernachlässige"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

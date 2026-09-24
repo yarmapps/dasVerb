@@ -1,0 +1,154 @@
+{
+  "id": "abgrenzen",
+  "infinitive": "abgrenzen",
+  "translation": {
+    "ru": "разграничивать, отделять, обособляться",
+    "en": "to demarcate, to delimit, to dissociate"
+  },
+  "level": "B2",
+  "frequency_rank": 1003,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "grenzt ab",
+    "preterite_third_singular": "grenzte ab",
+    "past_participle": "abgegrenzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "grenze ab",
+      "du": "grenzt ab",
+      "er_sie_es": "grenzt ab",
+      "wir": "grenzen ab",
+      "ihr": "grenzt ab",
+      "sie_Sie": "grenzen ab"
+    },
+    "preterite": {
+      "ich": "grenzte ab",
+      "du": "grenztest ab",
+      "er_sie_es": "grenzte ab",
+      "wir": "grenzten ab",
+      "ihr": "grenztet ab",
+      "sie_Sie": "grenzten ab"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "abgegrenzt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "von",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "gegen",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich grenze mein Privatleben strikt von meiner beruflichen Arbeit ab.",
+      "translation": {
+        "ru": "Я строго разграничиваю личную жизнь и профессиональную работу.",
+        "en": "I strictly demarcate my private life from my professional work."
+      },
+      "bracket_parts": [
+        "grenze",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Grenzt du die beiden Begriffe in deiner Hausarbeit klar voneinander ab?",
+      "translation": {
+        "ru": "Четко ли ты разграничиваешь оба понятия в курсовой работе?",
+        "en": "Do you clearly delimit the two concepts from each other in your term paper?"
+      },
+      "bracket_parts": [
+        "Grenzt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Zaun grenzt das Privatgrundstück deutlich von der öffentlichen Straße ab.",
+      "translation": {
+        "ru": "Забор четко отделяет частный участок от общественной улицы.",
+        "en": "The fence clearly demarcates the private property from the public street."
+      },
+      "bracket_parts": [
+        "grenzt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir grenzen uns entschieden von radikalen politischen Positionen ab.",
+      "translation": {
+        "ru": "Мы решительно дистанцируемся от радикальных политических позиций.",
+        "en": "We firmly dissociate ourselves from radical political positions."
+      },
+      "bracket_parts": [
+        "grenzen",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Grenzt ihr die verschiedenen Aufgabengebiete im Projektteam genau ab?",
+      "translation": {
+        "ru": "Точно ли вы разграничиваете различные зоны ответственности в проекте?",
+        "en": "Do you guys delineate the different task areas in the project team precisely?"
+      },
+      "bracket_parts": [
+        "Grenzt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Partei grenzte sich damals klar von den Extremisten ab.",
+      "translation": {
+        "ru": "Партия тогда четко отмежевалась от экстремистов.",
+        "en": "The party clearly distanced itself from the extremists back then."
+      },
+      "bracket_parts": [
+        "grenzte",
+        "ab"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Wissenschaftler haben die Forschungsbereiche präzise abgegrenzt.",
+      "translation": {
+        "ru": "Ученые четко разграничили области исследований.",
+        "en": "The scientists have precisely delimited the research areas."
+      },
+      "bracket_parts": [
+        "haben",
+        "abgegrenzt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Grenze deine persönlichen Grenzen stets respektvoll aber bestimmt ab!",
+      "translation": {
+        "ru": "Всегда очерчивай свои личные границы уважительно, но твердо!",
+        "en": "Always demarcate your personal boundaries respectfully but firmly!"
+      },
+      "bracket_parts": [
+        "Grenze",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "eintreffen",
+  "infinitive": "eintreffen",
+  "translation": {
+    "ru": "прибывать, сбываться (о прогнозе)",
+    "en": "to arrive, to come true"
+  },
+  "level": "B1",
+  "frequency_rank": 659,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "eintreffen",
+    "present_3sg": "trifft ein",
+    "praeteritum_3sg": "traf ein",
+    "partizip_2": "eingetroffen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "treffe ein",
+      "du": "triffst ein",
+      "er_sie_es": "trifft ein",
+      "wir": "treffen ein",
+      "ihr": "trefft ein",
+      "sie_Sie": "treffen ein",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "traf ein",
+      "du": "trafst ein",
+      "er_sie_es": "traf ein",
+      "wir": "trafen ein",
+      "ihr": "traft ein",
+      "sie_Sie": "trafen ein"
+    },
+    "perfekt": {
+      "ich": "bin eingetroffen",
+      "du": "bist eingetroffen",
+      "er_sie_es": "ist eingetroffen",
+      "wir": "sind eingetroffen",
+      "ihr": "seid eingetroffen",
+      "sie_Sie": "sind eingetroffen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "in",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich treffe heute pünktlich um zwölf Uhr am Hauptbahnhof ein.",
+      "translation": {
+        "ru": "Я прибываю сегодня ровно в двенадцать часов на главный вокзал.",
+        "en": "I arrive punctually at twelve o'clock at the main station today."
+      },
+      "bracket_parts": [
+        "treffe",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Triffst du rechtzeitig vor Beginn der Konferenz im Hotel ein?",
+      "translation": {
+        "ru": "Ты прибудешь в отель вовремя до начала конференции?",
+        "en": "Will you arrive at the hotel in time before the conference starts?"
+      },
+      "bracket_parts": [
+        "Triffst",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der internationale Gast trifft heute Abend in Berlin ein.",
+      "translation": {
+        "ru": "Международный гость прибывает сегодня вечером в Берлин.",
+        "en": "The international guest arrives in Berlin this evening."
+      },
+      "bracket_parts": [
+        "trifft",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir treffen gemeinsam mit den Kollegen am Flughafen ein.",
+      "translation": {
+        "ru": "Мы прибываем в аэропорт вместе с коллегами.",
+        "en": "We arrive at the airport together with our colleagues."
+      },
+      "bracket_parts": [
+        "treffen",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr trefft hoffentlich vor Einbruch der Dunkelheit im Lager ein.",
+      "translation": {
+        "ru": "Вы, надеюсь, доберетесь до лагеря до наступления темноты.",
+        "en": "Hopefully you will arrive at the camp before darkness falls."
+      },
+      "bracket_parts": [
+        "trefft",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Delegation traf damals mit einem Tag Verspätung ein.",
+      "translation": {
+        "ru": "Делегация тогда прибыла с опозданием на один день.",
+        "en": "The delegation arrived with a day's delay back then."
+      },
+      "bracket_parts": [
+        "traf",
+        "ein"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die erhoffte Lieferung ist gestern sicher bei uns eingetroffen.",
+      "translation": {
+        "ru": "Долгожданная доставка вчера благополучно прибыла к нам.",
+        "en": "The hoped-for delivery arrived safely with us yesterday."
+      },
+      "bracket_parts": [
+        "ist",
+        "eingetroffen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Triff bitte pünktlich zum gemeinsamen Abendessen ein!",
+      "translation": {
+        "ru": "Прибудь, пожалуйста, вовремя к общему ужину!",
+        "en": "Please arrive on time for the joint dinner!"
+      },
+      "bracket_parts": [
+        "Triff",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "verteidigen",
+  "infinitive": "verteidigen",
+  "translation": {
+    "ru": "защищать, отстаивать",
+    "en": "to defend"
+  },
+  "level": "B1",
+  "frequency_rank": 717,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "verteidigt",
+    "preterite_third_singular": "verteidigte",
+    "past_participle": "verteidigt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verteidige",
+      "du": "verteidigst",
+      "er_sie_es": "verteidigt",
+      "wir": "verteidigen",
+      "ihr": "verteidigt",
+      "sie_Sie": "verteidigen"
+    },
+    "preterite": {
+      "ich": "verteidigte",
+      "du": "verteidigtest",
+      "er_sie_es": "verteidigte",
+      "wir": "verteidigten",
+      "ihr": "verteidigtet",
+      "sie_Sie": "verteidigten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "verteidigt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "gegen",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich verteidige meine Meinung in jeder Diskussion.",
+      "translation": {
+        "ru": "Я отстаиваю свое мнение в любой дискуссии.",
+        "en": "I defend my opinion in every discussion."
+      },
+      "bracket_parts": [
+        "verteidige"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du verteidigst deinen Freund gegen ungerechte Vorwürfe.",
+      "translation": {
+        "ru": "Ты защищаешь своего друга от несправедливых упреков.",
+        "en": "You defend your friend against unfair accusations."
+      },
+      "bracket_parts": [
+        "verteidigst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Anwältin verteidigt den Angeklagten vor Gericht.",
+      "translation": {
+        "ru": "Адвокат защищает обвиняемого в суде.",
+        "en": "The lawyer defends the accused in court."
+      },
+      "bracket_parts": [
+        "verteidigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verteidigen unsere Grundrechte mit aller Kraft.",
+      "translation": {
+        "ru": "Мы защищаем наши фундаментальные права всеми силами.",
+        "en": "We defend our fundamental rights with all our might."
+      },
+      "bracket_parts": [
+        "verteidigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr verteidigt das Tor im heutigen Finale tapfer.",
+      "translation": {
+        "ru": "Вы храбро защищаете ворота в сегодняшнем финале.",
+        "en": "You defend the goal bravely in today's final."
+      },
+      "bracket_parts": [
+        "verteidigt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Soldaten verteidigten die Stadt wochenlang.",
+      "translation": {
+        "ru": "Солдаты неделями защищали город.",
+        "en": "The soldiers defended the city for weeks."
+      },
+      "bracket_parts": [
+        "verteidigten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Mannschaft hat ihren Meistertitel erfolgreich verteidigt.",
+      "translation": {
+        "ru": "Команда успешно защитила свой чемпионский титул.",
+        "en": "The team successfully defended its championship title."
+      },
+      "bracket_parts": [
+        "hat",
+        "verteidigt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verteidige deine Rechte und gib niemals auf!",
+      "translation": {
+        "ru": "Защищай свои права и никогда не сдавайся!",
+        "en": "Defend your rights and never give up!"
+      },
+      "bracket_parts": [
+        "Verteidige"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

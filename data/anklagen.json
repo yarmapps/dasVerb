@@ -1,0 +1,150 @@
+{
+  "id": "anklagen",
+  "infinitive": "anklagen",
+  "translation": {
+    "ru": "обвинять (в суде), привлекать к ответственности",
+    "en": "to accuse, to charge (legally)"
+  },
+  "level": "B2",
+  "frequency_rank": 821,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "klagt an",
+    "preterite_third_singular": "klagte an",
+    "past_participle": "angeklagt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "klage an",
+      "du": "klagst an",
+      "er_sie_es": "klagt an",
+      "wir": "klagen an",
+      "ihr": "klagt an",
+      "sie_Sie": "klagen an"
+    },
+    "preterite": {
+      "ich": "klagte an",
+      "du": "klagtest an",
+      "er_sie_es": "klagte an",
+      "wir": "klagten an",
+      "ihr": "klagtet an",
+      "sie_Sie": "klagten an"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "angeklagt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "wegen",
+        "case": "Genitiv"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich klage den Betrüger wegen schweren Diebstahls an.",
+      "translation": {
+        "ru": "Я обвиняю мошенника в крупной краже.",
+        "en": "I accuse the fraudster of grand theft."
+      },
+      "bracket_parts": [
+        "klage",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Klagst du ihn öffentlich wegen seiner Lügen an?",
+      "translation": {
+        "ru": "Ты публично обвиняешь его во лжи?",
+        "en": "Are you publicly accusing him of his lies?"
+      },
+      "bracket_parts": [
+        "Klagst",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Staatsanwaltschaft klagt den Verdächtigen wegen Mordes an.",
+      "translation": {
+        "ru": "Прокуратура обвиняет подозреваемого в убийстве.",
+        "en": "The public prosecutor's office charges the suspect with murder."
+      },
+      "bracket_parts": [
+        "klagt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir klagen die Verantwortlichen für die Umweltzerstörung an.",
+      "translation": {
+        "ru": "Мы обвиняем ответственных за разрушение окружающей среды.",
+        "en": "We accuse those responsible for environmental destruction."
+      },
+      "bracket_parts": [
+        "klagen",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Klagt ihr den Beschuldigten vor dem Schiedsgericht an?",
+      "translation": {
+        "ru": "Вы предъявляете обвинение ответчику перед третейским судом?",
+        "en": "Are you accusing the respondent before the arbitration court?"
+      },
+      "bracket_parts": [
+        "Klagt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Gericht klagte den Manager wegen Untreue an.",
+      "translation": {
+        "ru": "Суд обвинил менеджера в растрате.",
+        "en": "The court charged the manager with embezzlement."
+      },
+      "bracket_parts": [
+        "klagte",
+        "an"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben den Politiker wegen Korruption angeklagt.",
+      "translation": {
+        "ru": "Они обвинили политика в коррупции.",
+        "en": "They charged the politician with corruption."
+      },
+      "bracket_parts": [
+        "haben",
+        "angeklagt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Klage niemanden ohne eindeutige Beweise an!",
+      "translation": {
+        "ru": "Никого не обвиняй без однозначных доказательств!",
+        "en": "Do not accuse anyone without clear evidence!"
+      },
+      "bracket_parts": [
+        "Klage",
+        "an"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

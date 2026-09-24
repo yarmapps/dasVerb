@@ -1,0 +1,147 @@
+{
+  "id": "fixieren",
+  "infinitive": "fixieren",
+  "translation": {
+    "ru": "фиксировать, закреплять, пристально смотреть/фокусироваться",
+    "en": "to fix, to secure, to stare at"
+  },
+  "level": "B2",
+  "frequency_rank": 950,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "fixiert",
+    "preterite_third_singular": "fixierte",
+    "past_participle": "fixiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "fixiere",
+      "du": "fixierst",
+      "er_sie_es": "fixiert",
+      "wir": "fixieren",
+      "ihr": "fixiert",
+      "sie_Sie": "fixieren"
+    },
+    "preterite": {
+      "ich": "fixierte",
+      "du": "fixiertest",
+      "er_sie_es": "fixierte",
+      "wir": "fixierten",
+      "ihr": "fixiertet",
+      "sie_Sie": "fixierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "fixiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "auf",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich fixiere das wackelige Holzregal mit zwei stabilen Schrauben an der Wand.",
+      "translation": {
+        "ru": "Я фиксирую шатающуюся деревянную полку двумя прочными винтами к стене.",
+        "en": "I fix the wobbly wooden shelf to the wall with two sturdy screws."
+      },
+      "bracket_parts": [
+        "fixiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Fixierst du den Blick starr auf den Bildschirm während der Arbeit?",
+      "translation": {
+        "ru": "Ты пристально уставился взглядом в экран во время работы?",
+        "en": "Do you fix your gaze rigidly on the screen during work?"
+      },
+      "bracket_parts": [
+        "Fixierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Fotograf fixiert das Motiv genau in der Bildmitte.",
+      "translation": {
+        "ru": "Фотограф фиксирует объект точно в центре кадра.",
+        "en": "The photographer fixes the motif right in the center of the image."
+      },
+      "bracket_parts": [
+        "fixiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir fixieren die wichtigsten Vereinbarungen schriftlich im Vertrag.",
+      "translation": {
+        "ru": "Мы письменно фиксируем важнейшие договоренности в договоре.",
+        "en": "We fix the most important agreements in writing in the contract."
+      },
+      "bracket_parts": [
+        "fixieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Fixiert ihr die gebrochene Schiene vor dem Abtransport?",
+      "translation": {
+        "ru": "Фиксируете ли вы сломанную шину перед транспортировкой?",
+        "en": "Are you guys fixing the broken splint before transport?"
+      },
+      "bracket_parts": [
+        "Fixiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Katze fixierte die kleine Maus im Gras mit scharfen Augen.",
+      "translation": {
+        "ru": "Кошка пристально следила за маленькой мышью в траве зоркими глазами.",
+        "en": "The cat fixed its sharp eyes on the little mouse in the grass."
+      },
+      "bracket_parts": [
+        "fixierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Arzt hat den gebrochenen Arm mit einem Gipsverband fixiert.",
+      "translation": {
+        "ru": "Врач зафиксировал сломанную руку гипсовой повязкой.",
+        "en": "The doctor fixed the broken arm with a plaster cast."
+      },
+      "bracket_parts": [
+        "hat",
+        "fixiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Fixiere das Bauteil vor dem Bohren ganz fest!",
+      "translation": {
+        "ru": "Надежно зафиксируй деталь перед сверлением!",
+        "en": "Fix the component very firmly before drilling!"
+      },
+      "bracket_parts": [
+        "Fixiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

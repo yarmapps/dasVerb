@@ -1,0 +1,151 @@
+{
+  "id": "zutreffen",
+  "infinitive": "zutreffen",
+  "translation": {
+    "ru": "соответствовать действительности, быть правильным, относиться",
+    "en": "to apply, to be correct, to hold true"
+  },
+  "level": "B2",
+  "frequency_rank": 648,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "zu",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zutreffen",
+    "present_3sg": "trifft zu",
+    "praeteritum_3sg": "traf zu",
+    "partizip_2": "zugetroffen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "treffe zu",
+      "du": "triffst zu",
+      "er_sie_es": "trifft zu",
+      "wir": "treffen zu",
+      "ihr": "trefft zu",
+      "sie_Sie": "treffen zu",
+      "root_vowel_change": "e -> i"
+    },
+    "praeteritum": {
+      "ich": "traf zu",
+      "du": "trafst zu",
+      "er_sie_es": "traf zu",
+      "wir": "trafen zu",
+      "ihr": "traft zu",
+      "sie_Sie": "trafen zu"
+    },
+    "perfekt": {
+      "ich": "habe zugetroffen",
+      "du": "hast zugetroffen",
+      "er_sie_es": "hat zugetroffen",
+      "wir": "haben zugetroffen",
+      "ihr": "habt zugetroffen",
+      "sie_Sie": "haben zugetroffen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich prüfe, ob die Angaben auf mich zutreffen.",
+      "translation": {
+        "ru": "Я проверяю, применимы ли эти сведения ко мне.",
+        "en": "I check whether the statements apply to me."
+      },
+      "bracket_parts": [
+        "zutreffen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Trifft diese Beschreibung genau auf deinen Fall zu?",
+      "translation": {
+        "ru": "Это описание точно соответствует твоему случаю?",
+        "en": "Does this description apply precisely to your case?"
+      },
+      "bracket_parts": [
+        "Trifft",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Gerücht trifft leider überhaupt nicht zu.",
+      "translation": {
+        "ru": "Слух, к сожалению, вообще не соответствует действительности.",
+        "en": "The rumor unfortunately does not hold true at all."
+      },
+      "bracket_parts": [
+        "trifft",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir stellen fest, dass viele Vermutungen zutreffen.",
+      "translation": {
+        "ru": "Мы констатируем, что многие предположения верны.",
+        "en": "We find that many assumptions are correct."
+      },
+      "bracket_parts": [
+        "zutreffen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr seht selbst, welche Kriterien auf euch zutreffen.",
+      "translation": {
+        "ru": "Вы сами видите, какие критерии к вам относятся.",
+        "en": "You see for yourselves which criteria apply to you."
+      },
+      "bracket_parts": [
+        "zutreffen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die düstere Prognose traf damals vollkommen zu.",
+      "translation": {
+        "ru": "Мрачный прогноз тогда полностью оправдался.",
+        "en": "The gloomy forecast held completely true back then."
+      },
+      "bracket_parts": [
+        "traf",
+        "zu"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Seine Vorhersage hat in allen Punkten zugetroffen.",
+      "translation": {
+        "ru": "Его предсказание оправдалось по всем пунктам.",
+        "en": "His prediction was accurate in all respects."
+      },
+      "bracket_parts": [
+        "hat",
+        "zugetroffen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Triff bitte nur Aussagen, die wirklich zutreffen!",
+      "translation": {
+        "ru": "Делай, пожалуйста, только те утверждения, которые действительно верны!",
+        "en": "Please only make statements that truly hold true!"
+      },
+      "bracket_parts": [
+        "zutreffen"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

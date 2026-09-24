@@ -1,0 +1,153 @@
+{
+  "id": "herausstellen_sich",
+  "infinitive": "herausstellen",
+  "translation": {
+    "ru": "выясняться, оказываться",
+    "en": "to turn out, prove to be"
+  },
+  "level": "B1",
+  "frequency_rank": 552,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "heraus",
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "herausstellen",
+    "present_3sg": "stellt sich heraus",
+    "praeteritum_3sg": "stellte sich heraus",
+    "partizip_2": "herausgestellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stelle mich heraus",
+      "du": "stellst dich heraus",
+      "er_sie_es": "stellt sich heraus",
+      "wir": "stellen uns heraus",
+      "ihr": "stellt euch heraus",
+      "sie_Sie": "stellen sich heraus"
+    },
+    "praeteritum": {
+      "ich": "stellte mich heraus",
+      "du": "stelltest dich heraus",
+      "er_sie_es": "stellte sich heraus",
+      "wir": "stellten uns heraus",
+      "ihr": "stelltet euch heraus",
+      "sie_Sie": "stellten sich heraus"
+    },
+    "perfekt": {
+      "ich": "habe mich herausgestellt",
+      "du": "hast dich herausgestellt",
+      "er_sie_es": "hat sich herausgestellt",
+      "wir": "haben uns herausgestellt",
+      "ihr": "habt euch herausgestellt",
+      "sie_Sie": "haben sich herausgestellt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich warte ab, ob sich meine Vermutung als wahr herausstellt.",
+      "translation": {
+        "ru": "Я жду, подтвердится ли моя догадка на деле.",
+        "en": "I wait to see whether my assumption turns out to be true."
+      },
+      "bracket_parts": [
+        "herausstellt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du siehst bald, wie sich die Situation in der Praxis herausstellt.",
+      "translation": {
+        "ru": "Ты скоро увидишь, как сложится ситуация на практике.",
+        "en": "You will soon see how the situation turns out in practice."
+      },
+      "bracket_parts": [
+        "herausstellt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die angebliche Sensation stellt sich schnell als Ente heraus.",
+      "translation": {
+        "ru": "Мнимая сенсация быстро оказывается газетной уткой.",
+        "en": "The alleged sensation quickly turns out to be a hoax."
+      },
+      "bracket_parts": [
+        "stellt",
+        "heraus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir prüfen, was sich bei der genauen Analyse herausstellt.",
+      "translation": {
+        "ru": "Мы проверяем, что выяснится при детальном анализе.",
+        "en": "We check what turns out during the detailed analysis."
+      },
+      "bracket_parts": [
+        "herausstellt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr werdet sehen, wie sich die Entscheidung im Nachhinein herausstellt.",
+      "translation": {
+        "ru": "Вы увидите, каким окажется это решение впоследствии.",
+        "en": "You will see how the decision turns out in hindsight."
+      },
+      "bracket_parts": [
+        "herausstellt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der angebliche Fehler stellte sich damals als harmlos heraus.",
+      "translation": {
+        "ru": "Предполагаемая ошибка оказалась тогда безобидной.",
+        "en": "The alleged error turned out to be harmless back then."
+      },
+      "bracket_parts": [
+        "stellte",
+        "heraus"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Befürchtung hat sich glücklicherweise als völlig unbegründet herausgestellt.",
+      "translation": {
+        "ru": "Опасение, к счастью, оказалось совершенно необоснованным.",
+        "en": "Fortunately, the fear turned out to be completely unfounded."
+      },
+      "bracket_parts": [
+        "hat",
+        "herausgestellt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Stelle die Vorteile des neuen Produkts klar heraus!",
+      "translation": {
+        "ru": "Четко выдели и подчеркни преимущества нового продукта!",
+        "en": "Clearly highlight the advantages of the new product!"
+      },
+      "bracket_parts": [
+        "Stelle",
+        "heraus"
+      ],
+      "akkusativ_parts": [
+        "die Vorteile des neuen Produkts"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

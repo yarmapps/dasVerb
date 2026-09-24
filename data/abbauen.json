@@ -1,0 +1,154 @@
+{
+  "id": "abbauen",
+  "infinitive": "abbauen",
+  "translation": {
+    "ru": "разбирать, демонтировать, сокращать (стресс/персонал)",
+    "en": "to dismantle, to reduce, to mine/extract"
+  },
+  "level": "B1",
+  "frequency_rank": 599,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "ab",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "abbauen",
+    "present_3sg": "baut ab",
+    "praeteritum_3sg": "baute ab",
+    "partizip_2": "abgebaut"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "baue ab",
+      "du": "baust ab",
+      "er_sie_es": "baut ab",
+      "wir": "bauen ab",
+      "ihr": "baut ab",
+      "sie_Sie": "bauen ab"
+    },
+    "praeteritum": {
+      "ich": "baute ab",
+      "du": "bautest ab",
+      "er_sie_es": "baute ab",
+      "wir": "bauten ab",
+      "ihr": "bautet ab",
+      "sie_Sie": "bauten ab"
+    },
+    "perfekt": {
+      "ich": "habe abgebaut",
+      "du": "hast abgebaut",
+      "er_sie_es": "hat abgebaut",
+      "wir": "haben abgebaut",
+      "ihr": "habt abgebaut",
+      "sie_Sie": "haben abgebaut"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich baue meinen Stress durch Sport am Abend ab.",
+      "translation": {
+        "ru": "Я снимаю стресс вечерними занятиями спортом.",
+        "en": "I reduce my stress through sports in the evening."
+      },
+      "bracket_parts": [
+        "baue",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Baust du das Zelt nach dem Urlaub sofort ab?",
+      "translation": {
+        "ru": "Ты сразу разберешь палатку после отпуска?",
+        "en": "Are you taking down the tent immediately after vacation?"
+      },
+      "bracket_parts": [
+        "Baust",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Betrieb baut wegen der Krise Stellen ab.",
+      "translation": {
+        "ru": "Предприятие из-за кризиса сокращает рабочие места.",
+        "en": "The company is cutting jobs due to the crisis."
+      },
+      "bracket_parts": [
+        "baut",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bauen die Bühne nach dem Konzert gemeinsam ab.",
+      "translation": {
+        "ru": "Мы разбираем сцену после концерта вместе.",
+        "en": "We dismantle the stage together after the concert."
+      },
+      "bracket_parts": [
+        "bauen",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr baut Überstunden vor dem Urlaub ab.",
+      "translation": {
+        "ru": "Вы отрабатываете сверхурочные перед отпуском.",
+        "en": "You reduce overtime before your vacation."
+      },
+      "bracket_parts": [
+        "baut",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Bergleute bauten damals viel Kohle in der Mine ab.",
+      "translation": {
+        "ru": "Шахтеры тогда добывали много угля в шахте.",
+        "en": "The miners extracted a lot of coal in the mine back then."
+      },
+      "bracket_parts": [
+        "bauten",
+        "ab"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben die alten Möbel schnell abgebaut.",
+      "translation": {
+        "ru": "Они быстро разобрали старую мебель.",
+        "en": "They quickly dismantled the old furniture."
+      },
+      "bracket_parts": [
+        "haben",
+        "abgebaut"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bau das Gerüst vorsichtig ab!",
+      "translation": {
+        "ru": "Разбирай строительные леса осторожно!",
+        "en": "Dismantle the scaffolding carefully!"
+      },
+      "bracket_parts": [
+        "Bau",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

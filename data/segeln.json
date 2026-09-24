@@ -1,0 +1,147 @@
+{
+  "id": "segeln",
+  "infinitive": "segeln",
+  "translation": {
+    "ru": "ходить под парусом, плавать на яхте, парить",
+    "en": "to sail, to glide"
+  },
+  "level": "A2",
+  "frequency_rank": 1046,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "segelt",
+    "preterite_third_singular": "segelte",
+    "past_participle": "gesegelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "segle",
+      "du": "segelst",
+      "er_sie_es": "segelt",
+      "wir": "segeln",
+      "ihr": "segelt",
+      "sie_Sie": "segeln"
+    },
+    "preterite": {
+      "ich": "segelte",
+      "du": "segeltest",
+      "er_sie_es": "segelte",
+      "wir": "segelten",
+      "ihr": "segeltet",
+      "sie_Sie": "segelten"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "gesegelt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "über",
+        "case": "Akkusativ"
+      },
+      {
+        "preposition": "nach",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich segle im Sommer mit Freunden über die weite Ostsee.",
+      "translation": {
+        "ru": "Летом я хожу с друзьями под парусом по широкой Балтике.",
+        "en": "In summer, I sail across the vast Baltic Sea with friends."
+      },
+      "bracket_parts": [
+        "segle"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Segelst du jedes Wochenende auf dem nahegelegenen See?",
+      "translation": {
+        "ru": "Плаешь ли ты под парусом каждые выходные на близлежащем озере?",
+        "en": "Do you sail on the nearby lake every weekend?"
+      },
+      "bracket_parts": [
+        "Segelst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die weiße Yacht segelt elegant bei strahlendem Sonnenschein.",
+      "translation": {
+        "ru": "Белая яхта элегантно идет под парусом при ярком солнце.",
+        "en": "The white yacht sails elegantly in brilliant sunshine."
+      },
+      "bracket_parts": [
+        "segelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir segeln in den Ferien von einer griechischen Insel zur nächsten.",
+      "translation": {
+        "ru": "На каникулах мы плаваем под парусом от одного греческого острова к другому.",
+        "en": "During the holidays, we sail from one Greek island to the next."
+      },
+      "bracket_parts": [
+        "segeln"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Segelt ihr bei diesem starken Wind wirklich auf das offene Meer?",
+      "translation": {
+        "ru": "Вы действительно выходите под парусом в открытое море при таком сильном ветре?",
+        "en": "Are you guys really sailing out into the open sea in this strong wind?"
+      },
+      "bracket_parts": [
+        "Segelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das historische Segelschiff segelte damals um die ganze Welt.",
+      "translation": {
+        "ru": "Исторический парусник тогда совершил кругосветное плавание.",
+        "en": "The historic sailing ship sailed around the whole world back then."
+      },
+      "bracket_parts": [
+        "segelte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die erfahrene Crew ist sicher in den schützenden Hafen gesegelt.",
+      "translation": {
+        "ru": "Опытный экипаж благополучно зашел под парусом в защищенную гавань.",
+        "en": "The experienced crew sailed safely into the sheltering harbor."
+      },
+      "bracket_parts": [
+        "ist",
+        "gesegelt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Segle stets mit geschickter Hand und sicherem Blick für den Wind!",
+      "translation": {
+        "ru": "Всегда веди парусник умелой рукой и с верным чувством ветра!",
+        "en": "Always sail with a skillful hand and a sure eye for the wind!"
+      },
+      "bracket_parts": [
+        "Segle"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

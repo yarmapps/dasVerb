@@ -1,0 +1,143 @@
+{
+  "id": "vertreiben",
+  "infinitive": "vertreiben",
+  "translation": {
+    "ru": "прогонять, вытеснять, продавать/распространять",
+    "en": "to drive out, to expel, to distribute, to sell"
+  },
+  "level": "B2",
+  "frequency_rank": 771,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "vertreibt",
+    "preterite_third_singular": "vertrieb",
+    "past_participle": "vertrieben"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vertreibe",
+      "du": "vertreibst",
+      "er_sie_es": "vertreibt",
+      "wir": "vertreiben",
+      "ihr": "vertreibt",
+      "sie_Sie": "vertreiben"
+    },
+    "preterite": {
+      "ich": "vertrieb",
+      "du": "vertriebst",
+      "er_sie_es": "vertrieb",
+      "wir": "vertrieben",
+      "ihr": "vertriebt",
+      "sie_Sie": "vertrieben"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "vertrieben"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "aus",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich vertreibe mir die lange Wartezeit mit einem Buch.",
+      "translation": {
+        "ru": "Я коротаю долгое время ожидания за книгой.",
+        "en": "I pass the long waiting time with a book."
+      },
+      "bracket_parts": [
+        "vertreibe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vertreibst du die lästigen Mücken mit speziellem Spray?",
+      "translation": {
+        "ru": "Ты прогоняешь назойливых комаров специальным спреем?",
+        "en": "Do you drive away annoying mosquitoes with special spray?"
+      },
+      "bracket_parts": [
+        "Vertreibst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Firma vertreibt ihre hochwertigen Produkte weltweit.",
+      "translation": {
+        "ru": "Компания распространяет свою качественную продукцию по всему миру.",
+        "en": "The company distributes its high-quality products worldwide."
+      },
+      "bracket_parts": [
+        "vertreibt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir vertreiben trübe Gedanken durch fröhliche Musik.",
+      "translation": {
+        "ru": "Мы прогоняем мрачные мысли веселой музыкой.",
+        "en": "We dispel gloomy thoughts with cheerful music."
+      },
+      "bracket_parts": [
+        "vertreiben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vertreibt ihr diese Software exklusiv in Europa?",
+      "translation": {
+        "ru": "Вы продаете эту программу эксклюзивно в Европе?",
+        "en": "Do you distribute this software exclusively in Europe?"
+      },
+      "bracket_parts": [
+        "Vertreibt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Sturm vertrieb die dunklen Wolken am Himmel.",
+      "translation": {
+        "ru": "Буря разогнала темные тучи на небе.",
+        "en": "The storm drove away the dark clouds in the sky."
+      },
+      "bracket_parts": [
+        "vertrieb"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Krieg und Not haben viele Familien aus ihrer Heimat vertrieben.",
+      "translation": {
+        "ru": "Война и нужда изгнали многие семьи из их родины.",
+        "en": "War and hardship have driven many families from their homeland."
+      },
+      "bracket_parts": [
+        "haben",
+        "vertrieben"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Vertreibe die Sorgen und genieße den schönen Tag!",
+      "translation": {
+        "ru": "Прогони тревоги и наслаждайся прекрасным днем!",
+        "en": "Drive away your worries and enjoy the beautiful day!"
+      },
+      "bracket_parts": [
+        "Vertreibe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

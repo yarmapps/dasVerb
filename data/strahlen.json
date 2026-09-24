@@ -1,0 +1,143 @@
+{
+  "id": "strahlen",
+  "infinitive": "strahlen",
+  "translation": {
+    "ru": "сиять, излучать (свет, радость)",
+    "en": "to shine, to beam, to radiate"
+  },
+  "level": "B1",
+  "frequency_rank": 876,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "strahlt",
+    "preterite_third_singular": "strahlte",
+    "past_participle": "gestrahlt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "strahle",
+      "du": "strahlst",
+      "er_sie_es": "strahlt",
+      "wir": "strahlen",
+      "ihr": "strahlt",
+      "sie_Sie": "strahlen"
+    },
+    "preterite": {
+      "ich": "strahlte",
+      "du": "strahltest",
+      "er_sie_es": "strahlte",
+      "wir": "strahlten",
+      "ihr": "strahltet",
+      "sie_Sie": "strahlten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gestrahlt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "vor",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich strahle vor Freude über die bestandene Prüfung.",
+      "translation": {
+        "ru": "Я сияю от радости по поводу сданного экзамена.",
+        "en": "I beam with joy over passing the exam."
+      },
+      "bracket_parts": [
+        "strahle"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Strahlst du immer so fröhlich, wenn du nach Hause kommst?",
+      "translation": {
+        "ru": "Ты всегда так радостно сияешь, когда приходишь домой?",
+        "en": "Do you always beam so cheerfully when you come home?"
+      },
+      "bracket_parts": [
+        "Strahlst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die warme Sonne strahlt an einem wolkenlosen Himmel.",
+      "translation": {
+        "ru": "Теплое солнце сияет на безоблачном небе.",
+        "en": "The warm sun shines in a cloudless sky."
+      },
+      "bracket_parts": [
+        "strahlt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir strahlen Optimismus und positive Energie aus.",
+      "translation": {
+        "ru": "Мы излучаем оптимизм и позитивную энергию.",
+        "en": "We radiate optimism and positive energy."
+      },
+      "bracket_parts": [
+        "strahlen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Strahlt ihr vor Stolz über eure großartige Leistung?",
+      "translation": {
+        "ru": "Вы сияете от гордости за свое великолепное достижение?",
+        "en": "Are you guys beaming with pride over your great achievement?"
+      },
+      "bracket_parts": [
+        "Strahlt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Augen des Kindes strahlten beim Anblick des Geschenks.",
+      "translation": {
+        "ru": "Глаза ребенка сияли при виде подарка.",
+        "en": "The child's eyes shone at the sight of the present."
+      },
+      "bracket_parts": [
+        "strahlten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Scheinwerfer hat die gesamte Bühne hell angestrahlt.",
+      "translation": {
+        "ru": "Прожектор ярко осветил всю сцену.",
+        "en": "The spotlight illuminated the entire stage brightly."
+      },
+      "bracket_parts": [
+        "hat",
+        "gestrahlt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Strahle den Menschen entgegen und schenke ihnen ein Lächeln!",
+      "translation": {
+        "ru": "Сияй навстречу людям и дари им улыбку!",
+        "en": "Beam at people and give them a smile!"
+      },
+      "bracket_parts": [
+        "Strahle"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

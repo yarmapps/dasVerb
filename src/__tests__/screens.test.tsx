@@ -13,6 +13,7 @@ import { LocaleProvider } from '../context/LocaleContext';
 import { verbDataService } from '../services/verbDataService';
 import { progressService } from '../services/progressService';
 import { resetDailyQuizLimits } from '../services/usageService';
+import { setPremiumEnabled } from '../services/premiumAccessService';
 import { quizGeneratorService, QuizExercise } from '../services/quizGeneratorService';
 import { VerbCard } from '../../docs/verb.types';
 
@@ -351,11 +352,29 @@ describe('Screens Integration Suite', () => {
       fireEvent.press(featuredCard);
       expect(mockNavigate).toHaveBeenCalledWith('VerbsPracticeList');
 
+      // Free user: diamond icon is visible and clicking shows bottom sheet paywall
+      expect(getByTestId('smart-quiz-premium-badge')).toBeTruthy();
+      const smartCard = getByTestId('smart-quiz-card');
+      fireEvent.press(smartCard);
+      expect(mockNavigate).not.toHaveBeenCalledWith('VerbQuiz', { isSmartQuiz: true });
+    });
+
+    it('should navigate directly to Smart Quiz when user is premium', async () => {
+      setPremiumEnabled(true);
+
+      const { getByTestId, queryByTestId } = render(
+        <ScreenWrapper>
+          <PracticeScreen />
+        </ScreenWrapper>,
+      );
+
+      expect(queryByTestId('smart-quiz-premium-badge')).toBeNull();
       const smartCard = getByTestId('smart-quiz-card');
       fireEvent.press(smartCard);
       await waitFor(() => {
         expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', { isSmartQuiz: true });
       });
+      setPremiumEnabled(false);
     });
   });
 
@@ -441,6 +460,7 @@ describe('Screens Integration Suite', () => {
     });
 
     it('should render unified list without level headers and with final test card at the end', async () => {
+      setPremiumEnabled(true);
       mockRouteParams = {
         categoryId: 'movement',
         categoryTitle: 'Движение и транспорт',
@@ -479,6 +499,7 @@ describe('Screens Integration Suite', () => {
         });
       });
 
+      setPremiumEnabled(false);
       mockRouteParams = {};
     });
 

@@ -1,0 +1,145 @@
+{
+  "id": "aufsuchen",
+  "infinitive": "aufsuchen",
+  "translation": {
+    "ru": "посещать (врача), навещать, отправляться к",
+    "en": "to go to see, to visit, to seek out"
+  },
+  "level": "B2",
+  "frequency_rank": 855,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "sucht auf",
+    "preterite_third_singular": "suchte auf",
+    "past_participle": "aufgesucht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "suche auf",
+      "du": "suchst auf",
+      "er_sie_es": "sucht auf",
+      "wir": "suchen auf",
+      "ihr": "sucht auf",
+      "sie_Sie": "suchen auf"
+    },
+    "preterite": {
+      "ich": "suchte auf",
+      "du": "suchtest auf",
+      "er_sie_es": "suchte auf",
+      "wir": "suchten auf",
+      "ihr": "suchtet auf",
+      "sie_Sie": "suchten auf"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "aufgesucht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich suche bei starken Schmerzen sofort einen Facharzt auf.",
+      "translation": {
+        "ru": "При сильных болях я сразу иду к профильному врачу.",
+        "en": "I see a specialist immediately if I have severe pain."
+      },
+      "bracket_parts": [
+        "suche",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Suchst du den alten Freund in seiner Heimatstadt auf?",
+      "translation": {
+        "ru": "Ты навещаешь старого друга в его родном городе?",
+        "en": "Are you visiting the old friend in his hometown?"
+      },
+      "bracket_parts": [
+        "Suchst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Tourist sucht die berühmte Sehenswürdigkeit früh am Morgen auf.",
+      "translation": {
+        "ru": "Турист посещает знаменитую достопримечательность рано утром.",
+        "en": "The tourist visits the famous sight early in the morning."
+      },
+      "bracket_parts": [
+        "sucht",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir suchen eine ruhige Zuflucht in den Bergen auf.",
+      "translation": {
+        "ru": "Мы находим тихое убежище в горах.",
+        "en": "We seek out a quiet refuge in the mountains."
+      },
+      "bracket_parts": [
+        "suchen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sucht ihr die Rechtsberatung vor dem Hauskauf auf?",
+      "translation": {
+        "ru": "Вы обращаетесь за юридической консультацией перед покупкой дома?",
+        "en": "Are you consulting legal advice before buying a house?"
+      },
+      "bracket_parts": [
+        "Sucht",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Delegation suchte den Bürgermeister im Rathaus auf.",
+      "translation": {
+        "ru": "Делегация посетила мэра в ратуше.",
+        "en": "The delegation visited the mayor in the town hall."
+      },
+      "bracket_parts": [
+        "suchte",
+        "auf"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat wegen der Beschwerden mehrere Spezialisten aufgesucht.",
+      "translation": {
+        "ru": "Он посетил нескольких специалистов из-за жалоб.",
+        "en": "He visited several specialists because of the complaints."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgesucht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Suche bei anhaltenden Symptomen unbedingt einen Arzt auf!",
+      "translation": {
+        "ru": "Обязательно обратись к врачу при сохраняющихся симптомах!",
+        "en": "Be sure to see a doctor if symptoms persist!"
+      },
+      "bracket_parts": [
+        "Suche",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

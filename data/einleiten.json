@@ -1,0 +1,150 @@
+{
+  "id": "einleiten",
+  "infinitive": "einleiten",
+  "translation": {
+    "ru": "начинать, инициировать, вводить",
+    "en": "to initiate, to introduce, to start"
+  },
+  "level": "B2",
+  "frequency_rank": 732,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "leitet ein",
+    "preterite_third_singular": "leitete ein",
+    "past_participle": "eingeleitet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "leite ein",
+      "du": "leitest ein",
+      "er_sie_es": "leitet ein",
+      "wir": "leiten ein",
+      "ihr": "leitet ein",
+      "sie_Sie": "leiten ein"
+    },
+    "preterite": {
+      "ich": "leitete ein",
+      "du": "leitetest ein",
+      "er_sie_es": "leitete ein",
+      "wir": "leiteten ein",
+      "ihr": "leitetet ein",
+      "sie_Sie": "leiteten ein"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "eingeleitet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "mit",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich leite die Besprechung mit einer kurzen Begrüßung ein.",
+      "translation": {
+        "ru": "Я открываю собрание коротким приветствием.",
+        "en": "I initiate the meeting with a brief greeting."
+      },
+      "bracket_parts": [
+        "leite",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du leitest die notwendigen Schritte zur Rettung ein.",
+      "translation": {
+        "ru": "Ты инициируешь необходимые шаги для спасения.",
+        "en": "You initiate the necessary steps for rescue."
+      },
+      "bracket_parts": [
+        "leitest",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Behörde leitet eine offizielle Untersuchung ein.",
+      "translation": {
+        "ru": "Ведомство начинает официальное расследование.",
+        "en": "The authority initiates an official investigation."
+      },
+      "bracket_parts": [
+        "leitet",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir leiten umfassende Reformen im Unternehmen ein.",
+      "translation": {
+        "ru": "Мы инициируем масштабные реформы на предприятии.",
+        "en": "We initiate comprehensive reforms in the company."
+      },
+      "bracket_parts": [
+        "leiten",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Leitet ihr rechtliche Schritte gegen die Firma ein?",
+      "translation": {
+        "ru": "Вы предпринимаете юридические шаги против фирмы?",
+        "en": "Are you initiating legal steps against the company?"
+      },
+      "bracket_parts": [
+        "Leitet",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei leitete sofort eine Fahndung nach dem Täter ein.",
+      "translation": {
+        "ru": "Полиция немедленно начала розыск преступника.",
+        "en": "The police immediately initiated a search for the perpetrator."
+      },
+      "bracket_parts": [
+        "leitete",
+        "ein"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben alle erforderlichen Maßnahmen rechtzeitig eingeleitet.",
+      "translation": {
+        "ru": "Они своевременно инициировали все необходимые меры.",
+        "en": "They initiated all required measures in time."
+      },
+      "bracket_parts": [
+        "haben",
+        "eingeleitet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Leite die Rettungsmaßnahmen unverzüglich ein!",
+      "translation": {
+        "ru": "Немедленно начни спасательные меры!",
+        "en": "Initiate the rescue measures immediately!"
+      },
+      "bracket_parts": [
+        "Leite",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

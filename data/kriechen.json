@@ -1,0 +1,143 @@
+{
+  "id": "kriechen",
+  "infinitive": "kriechen",
+  "translation": {
+    "ru": "ползать, ползти, пресмыкаться",
+    "en": "to crawl, to creep"
+  },
+  "level": "B2",
+  "frequency_rank": 839,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "kriecht",
+    "preterite_third_singular": "kroch",
+    "past_participle": "gekrochen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "krieche",
+      "du": "kriechst",
+      "er_sie_es": "kriecht",
+      "wir": "kriechen",
+      "ihr": "kriecht",
+      "sie_Sie": "kriechen"
+    },
+    "preterite": {
+      "ich": "kroch",
+      "du": "krochst",
+      "er_sie_es": "kroch",
+      "wir": "krochen",
+      "ihr": "krocht",
+      "sie_Sie": "krochen"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "gekrochen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "unter",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich krieche unter das niedrige Bett, um den Ball zu holen.",
+      "translation": {
+        "ru": "Я ползу под низкую кровать, чтобы достать мяч.",
+        "en": "I crawl under the low bed to get the ball."
+      },
+      "bracket_parts": [
+        "krieche"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Kriechst du durch die schmale Öffnung in der Höhle?",
+      "translation": {
+        "ru": "Ты пролезаешь ползком через узкое отверстие в пещере?",
+        "en": "Are you crawling through the narrow opening in the cave?"
+      },
+      "bracket_parts": [
+        "Kriechst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die kleine Schnecke kriecht langsam über das grüne Blatt.",
+      "translation": {
+        "ru": "Маленькая улитка медленно ползет по зеленому листу.",
+        "en": "The little snail crawls slowly across the green leaf."
+      },
+      "bracket_parts": [
+        "kriecht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir kriechen vorsichtig durch das niedrige Zelt.",
+      "translation": {
+        "ru": "Мы осторожно ползем сквозь низкую палатку.",
+        "en": "We crawl carefully through the low tent."
+      },
+      "bracket_parts": [
+        "kriechen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Kriecht ihr auf allen vieren durch den Sand?",
+      "translation": {
+        "ru": "Вы ползете на четвереньках по песку?",
+        "en": "Are you guys crawling on all fours through the sand?"
+      },
+      "bracket_parts": [
+        "Kriecht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der dichte Nebel kroch langsam durch die engen Straßen.",
+      "translation": {
+        "ru": "Густой туман медленно полз по узким улочкам.",
+        "en": "The dense fog crept slowly through the narrow streets."
+      },
+      "bracket_parts": [
+        "kroch"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Baby ist gestern zum ersten Mal allein gekrochen.",
+      "translation": {
+        "ru": "Малыш вчера впервые пополз сам.",
+        "en": "The baby crawled on its own yesterday for the first time."
+      },
+      "bracket_parts": [
+        "ist",
+        "gekrochen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Krieche vorsichtig unter dem Hindernis hindurch!",
+      "translation": {
+        "ru": "Проползи осторожно под препятствием!",
+        "en": "Crawl carefully under the obstacle!"
+      },
+      "bracket_parts": [
+        "Krieche"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

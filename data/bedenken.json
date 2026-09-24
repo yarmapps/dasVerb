@@ -1,0 +1,171 @@
+{
+  "id": "bedenken",
+  "infinitive": "bedenken",
+  "translation": {
+    "ru": "обдумывать, принимать во внимание",
+    "en": "to consider, bear in mind"
+  },
+  "level": "B1",
+  "frequency_rank": 548,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "mixed",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "bedenken",
+    "present_3sg": "bedenkt",
+    "praeteritum_3sg": "bedachte",
+    "partizip_2": "bedacht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bedenke",
+      "du": "bedenkst",
+      "er_sie_es": "bedenkt",
+      "wir": "bedenken",
+      "ihr": "bedenkt",
+      "sie_Sie": "bedenken"
+    },
+    "praeteritum": {
+      "ich": "bedachte",
+      "du": "bedachtest",
+      "er_sie_es": "bedachte",
+      "wir": "bedachten",
+      "ihr": "bedachtet",
+      "sie_Sie": "bedachten"
+    },
+    "perfekt": {
+      "ich": "habe bedacht",
+      "du": "hast bedacht",
+      "er_sie_es": "hat bedacht",
+      "wir": "haben bedacht",
+      "ihr": "habt bedacht",
+      "sie_Sie": "haben bedacht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich bedenke alle möglichen Konsequenzen vor meiner Entscheidung.",
+      "translation": {
+        "ru": "Я обдумываю все возможные последствия перед принятием решения.",
+        "en": "I consider all possible consequences before making my decision."
+      },
+      "bracket_parts": [
+        "bedenke"
+      ],
+      "akkusativ_parts": [
+        "alle möglichen Konsequenzen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du bedenkst die Risiken des riskanten Vorhabens nicht ausreichend.",
+      "translation": {
+        "ru": "Ты недостаточно учитываешь риски этого рискованного предприятия.",
+        "en": "You do not consider the risks of the risky endeavor sufficiently."
+      },
+      "bracket_parts": [
+        "bedenkst"
+      ],
+      "akkusativ_parts": [
+        "die Risiken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Planer bedenkt alle baulichen Vorschriften bei der Skizze.",
+      "translation": {
+        "ru": "Проектировщик учитывает все строительные нормы при создании эскиза.",
+        "en": "The planner considers all building regulations in the sketch."
+      },
+      "bracket_parts": [
+        "bedenkt"
+      ],
+      "akkusativ_parts": [
+        "alle baulichen Vorschriften"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bedenken die Wünsche unserer Kunden bei jedem Angebot.",
+      "translation": {
+        "ru": "Мы учитываем пожелания клиентов при каждом предложении.",
+        "en": "We consider the wishes of our customers in every offer."
+      },
+      "bracket_parts": [
+        "bedenken"
+      ],
+      "akkusativ_parts": [
+        "die Wünsche unserer Kunden"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr bedenkt die Gefahren der Reise viel zu spät.",
+      "translation": {
+        "ru": "Вы слишком поздно принимаете во внимание опасности путешествия.",
+        "en": "You consider the dangers of the trip far too late."
+      },
+      "bracket_parts": [
+        "bedenkt"
+      ],
+      "akkusativ_parts": [
+        "die Gefahren der Reise"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie bedachten damals die schwierige finanzielle Lage der Familie.",
+      "translation": {
+        "ru": "Они тогда приняли во внимание трудное финансовое положение семьи.",
+        "en": "They considered the difficult financial situation of the family back then."
+      },
+      "bracket_parts": [
+        "bedachten"
+      ],
+      "akkusativ_parts": [
+        "die schwierige finanzielle Lage"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Architekt hat alle Details des Baus vorausschauend bedacht.",
+      "translation": {
+        "ru": "Архитектор предусмотрительно учел все детали постройки.",
+        "en": "The architect considered all details of the building foresightedly."
+      },
+      "bracket_parts": [
+        "hat",
+        "bedacht"
+      ],
+      "akkusativ_parts": [
+        "alle Details des Baus"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bedenke stets die Folgen deines eigenen Handelns!",
+      "translation": {
+        "ru": "Всегда думай о последствиях собственных поступков!",
+        "en": "Always consider the consequences of your own actions!"
+      },
+      "bracket_parts": [
+        "Bedenke"
+      ],
+      "akkusativ_parts": [
+        "die Folgen deines eigenen Handelns"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

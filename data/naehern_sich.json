@@ -1,0 +1,147 @@
+{
+  "id": "naehern_sich",
+  "infinitive": "nähern",
+  "translation": {
+    "ru": "приближаться, подходить ближе",
+    "en": "to approach, to come closer"
+  },
+  "level": "B1",
+  "frequency_rank": 690,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": true,
+    "reflexive_case": "akkusativ"
+  },
+  "principal_parts": {
+    "infinitive": "nähern",
+    "present_3sg": "nähert sich",
+    "praeteritum_3sg": "näherte sich",
+    "partizip_2": "genähert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "nähere mich",
+      "du": "näherst dich",
+      "er_sie_es": "nähert sich",
+      "wir": "nähern uns",
+      "ihr": "nähert euch",
+      "sie_Sie": "nähern sich"
+    },
+    "praeteritum": {
+      "ich": "näherte mich",
+      "du": "nähertest dich",
+      "er_sie_es": "näherte sich",
+      "wir": "näherten uns",
+      "ihr": "nähertet euch",
+      "sie_Sie": "näherten sich"
+    },
+    "perfekt": {
+      "ich": "habe mich genähert",
+      "du": "hast dich genähert",
+      "er_sie_es": "hat sich genähert",
+      "wir": "haben uns genähert",
+      "ihr": "habt euch genähert",
+      "sie_Sie": "haben sich genähert"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "Dativ",
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich nähere mich vorsichtig dem scheuen Wildtier.",
+      "translation": {
+        "ru": "Я осторожно приближаюсь к пугливому дикому зверю.",
+        "en": "I approach the shy wild animal carefully."
+      },
+      "bracket_parts": [
+        "nähere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Näherst du dich langsam dem Ziel deiner Träume?",
+      "translation": {
+        "ru": "Ты медленно приближаешься к цели своей мечты?",
+        "en": "Are you slowly approaching the goal of your dreams?"
+      },
+      "bracket_parts": [
+        "Näherst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Zug nähert sich schnell dem Hauptbahnhof.",
+      "translation": {
+        "ru": "Поезд быстро приближается к главному вокзалу.",
+        "en": "The train is approaching the main station quickly."
+      },
+      "bracket_parts": [
+        "nähert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir nähern uns schrittweise einer gemeinsamen Einigung.",
+      "translation": {
+        "ru": "Мы постепенно приближаемся к общему согласию.",
+        "en": "We are gradually approaching a mutual agreement."
+      },
+      "bracket_parts": [
+        "nähern"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr nähert euch der gefährlichen Grenzzone.",
+      "translation": {
+        "ru": "Вы приближаетесь к опасной приграничной зоне.",
+        "en": "You are approaching the dangerous border zone."
+      },
+      "bracket_parts": [
+        "nähert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Gewitter näherte sich damals mit bedrohlicher Geschwindigkeit.",
+      "translation": {
+        "ru": "Гроза тогда приближалась с угрожающей скоростью.",
+        "en": "The thunderstorm was approaching with threatening speed back then."
+      },
+      "bracket_parts": [
+        "näherte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das Schiff hat sich sicher dem Hafen genähert.",
+      "translation": {
+        "ru": "Корабль благополучно подошел к гавани.",
+        "en": "The ship approached the port safely."
+      },
+      "bracket_parts": [
+        "hat",
+        "genähert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Nähere dich dem Tier bitte ganz ruhig und langsam!",
+      "translation": {
+        "ru": "Приближайся к животному, пожалуйста, совершенно спокойно и медленно!",
+        "en": "Please approach the animal very calmly and slowly!"
+      },
+      "bracket_parts": [
+        "Nähere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "hinausgehen",
+  "infinitive": "hinausgehen",
+  "translation": {
+    "ru": "выходить наружу, выходить (окнами на что-л.), выходить за рамки",
+    "en": "to go out, to look out on, to exceed"
+  },
+  "level": "B1",
+  "frequency_rank": 709,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "hinaus",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "hinausgehen",
+    "present_3sg": "geht hinaus",
+    "praeteritum_3sg": "ging hinaus",
+    "partizip_2": "hinausgegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe hinaus",
+      "du": "gehst hinaus",
+      "er_sie_es": "geht hinaus",
+      "wir": "gehen hinaus",
+      "ihr": "geht hinaus",
+      "sie_Sie": "gehen hinaus"
+    },
+    "praeteritum": {
+      "ich": "ging hinaus",
+      "du": "gingst hinaus",
+      "er_sie_es": "ging hinaus",
+      "wir": "gingen hinaus",
+      "ihr": "gingt hinaus",
+      "sie_Sie": "gingen hinaus"
+    },
+    "perfekt": {
+      "ich": "bin hinausgegangen",
+      "du": "bist hinausgegangen",
+      "er_sie_es": "ist hinausgegangen",
+      "wir": "sind hinausgegangen",
+      "ihr": "seid hinausgegangen",
+      "sie_Sie": "sind hinausgegangen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich gehe kurz an die frische Luft hinaus.",
+      "translation": {
+        "ru": "Я ненадолго выхожу наружу на свежий воздух.",
+        "en": "I go out into the fresh air for a moment."
+      },
+      "bracket_parts": [
+        "gehe",
+        "hinaus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gehst du trotz des Regens in den Garten hinaus?",
+      "translation": {
+        "ru": "Ты выходишь в сад, несмотря на дождь?",
+        "en": "Are you going out into the garden despite the rain?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "hinaus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Fenster des Zimmers geht auf einen ruhigen Innenhof hinaus.",
+      "translation": {
+        "ru": "Окно комнаты выходит в тихий внутренний дворик.",
+        "en": "The room's window looks out onto a quiet courtyard."
+      },
+      "bracket_parts": [
+        "geht",
+        "hinaus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gehen gemeinsam vor die Tür hinaus.",
+      "translation": {
+        "ru": "Мы вместе выходим за дверь наружу.",
+        "en": "We go out in front of the door together."
+      },
+      "bracket_parts": [
+        "gehen",
+        "hinaus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr geht über die normalen Anforderungen weit hinaus.",
+      "translation": {
+        "ru": "Вы далеко выходите за рамки обычных требований.",
+        "en": "You go far beyond the normal requirements."
+      },
+      "bracket_parts": [
+        "geht",
+        "hinaus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Kinder gingen damals voller Freude in den Schnee hinaus.",
+      "translation": {
+        "ru": "Дети тогда полные радости выбежали на снег.",
+        "en": "The children went out into the snow full of joy back then."
+      },
+      "bracket_parts": [
+        "gingen",
+        "hinaus"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Kosten sind weit über den ursprünglichen Plan hinausgegangen.",
+      "translation": {
+        "ru": "Расходы далеко вышли за рамки первоначального плана.",
+        "en": "The costs went far beyond the original plan."
+      },
+      "bracket_parts": [
+        "sind",
+        "hinausgegangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Geh bitte kurz hinaus und hol die Post!",
+      "translation": {
+        "ru": "Выйди, пожалуйста, ненадолго на улицу и забери почту!",
+        "en": "Please go outside briefly and fetch the mail!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "hinaus"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

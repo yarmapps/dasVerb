@@ -1,0 +1,143 @@
+{
+  "id": "pressen",
+  "infinitive": "pressen",
+  "translation": {
+    "ru": "жать, выжимать, сдавливать",
+    "en": "to press, to squeeze"
+  },
+  "level": "B2",
+  "frequency_rank": 737,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "presst",
+    "preterite_third_singular": "presste",
+    "past_participle": "gepresst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "presse",
+      "du": "presst",
+      "er_sie_es": "presst",
+      "wir": "pressen",
+      "ihr": "presst",
+      "sie_Sie": "pressen"
+    },
+    "preterite": {
+      "ich": "presste",
+      "du": "presstest",
+      "er_sie_es": "presste",
+      "wir": "pressten",
+      "ihr": "presstet",
+      "sie_Sie": "pressten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gepresst"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "an",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich presse jeden Morgen frischen Orangensaft.",
+      "translation": {
+        "ru": "Я каждое утро выжимаю свежий апельсиновый сок.",
+        "en": "I squeeze fresh orange juice every morning."
+      },
+      "bracket_parts": [
+        "presse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du presst den nassen Schwamm mit beiden Händen aus.",
+      "translation": {
+        "ru": "Ты выжимаешь мокрую губку обеими руками.",
+        "en": "You squeeze the wet sponge with both hands."
+      },
+      "bracket_parts": [
+        "presst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Maschine presst das Altpapier zu festen Ballen.",
+      "translation": {
+        "ru": "Машина прессует макулатуру в плотные тюки.",
+        "en": "The machine presses the waste paper into solid bales."
+      },
+      "bracket_parts": [
+        "presst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir pressen die Früchte zur Herstellung von reinem Öl.",
+      "translation": {
+        "ru": "Мы выжимаем фрукты для производства чистого масла.",
+        "en": "We press the fruits to produce pure oil."
+      },
+      "bracket_parts": [
+        "pressen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Presst ihr die Zitrone direkt in den heißen Tee?",
+      "translation": {
+        "ru": "Вы выжимаете лимон прямо в горячий чай?",
+        "en": "Are you squeezing the lemon directly into the hot tea?"
+      },
+      "bracket_parts": [
+        "Presst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er presste seine Lippen vor lauter Wut fest zusammen.",
+      "translation": {
+        "ru": "Он крепко сжал губы от сильной ярости.",
+        "en": "He pressed his lips together firmly in sheer anger."
+      },
+      "bracket_parts": [
+        "presste"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben den Saft aus reifen Äpfeln frisch gepresst.",
+      "translation": {
+        "ru": "Они свежевыжали сок из спелых яблок.",
+        "en": "They freshly pressed the juice from ripe apples."
+      },
+      "bracket_parts": [
+        "haben",
+        "gepresst"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Presse die Trauben sorgfältig für den besten Wein!",
+      "translation": {
+        "ru": "Выжимай виноград тщательно для лучшего вина!",
+        "en": "Press the grapes carefully for the best wine!"
+      },
+      "bracket_parts": [
+        "Presse"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

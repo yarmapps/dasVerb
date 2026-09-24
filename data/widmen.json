@@ -1,0 +1,147 @@
+{
+  "id": "widmen",
+  "infinitive": "widmen",
+  "translation": {
+    "ru": "посвящать, отдавать (время)",
+    "en": "to dedicate, to devote"
+  },
+  "level": "B2",
+  "frequency_rank": 585,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "widmen",
+    "present_3sg": "widmet",
+    "praeteritum_3sg": "widmete",
+    "partizip_2": "gewidmet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "widme",
+      "du": "widmest",
+      "er_sie_es": "widmet",
+      "wir": "widmen",
+      "ihr": "widmet",
+      "sie_Sie": "widmen"
+    },
+    "praeteritum": {
+      "ich": "widmete",
+      "du": "widmetest",
+      "er_sie_es": "widmete",
+      "wir": "widmeten",
+      "ihr": "widmetet",
+      "sie_Sie": "widmeten"
+    },
+    "perfekt": {
+      "ich": "habe gewidmet",
+      "du": "hast gewidmet",
+      "er_sie_es": "hat gewidmet",
+      "wir": "haben gewidmet",
+      "ihr": "habt gewidmet",
+      "sie_Sie": "haben gewidmet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "Dativ",
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich widme meiner Familie die freie Zeit am Sonntag.",
+      "translation": {
+        "ru": "Я посвящаю своей семье свободное время в воскресенье.",
+        "en": "I dedicate my free time on Sunday to my family."
+      },
+      "bracket_parts": [
+        "widme"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Widmest du diesem schwierigen Thema ein ganzes Kapitel?",
+      "translation": {
+        "ru": "Ты посвятишь этой трудной теме целую главу?",
+        "en": "Are you devoting a whole chapter to this difficult topic?"
+      },
+      "bracket_parts": [
+        "Widmest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Autor widmet das neue Buch seinen Eltern.",
+      "translation": {
+        "ru": "Автор посвящает новую книгу своим родителям.",
+        "en": "The author dedicates the new book to his parents."
+      },
+      "bracket_parts": [
+        "widmet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir widmen diesen Tag der Ruhe und Erholung.",
+      "translation": {
+        "ru": "Мы посвящаем этот день покою и отдыху.",
+        "en": "We dedicate this day to rest and recovery."
+      },
+      "bracket_parts": [
+        "widmen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr widmet eure ganze Aufmerksamkeit der Musik.",
+      "translation": {
+        "ru": "Вы посвящаете все свое внимание музыке.",
+        "en": "You devote all your attention to music."
+      },
+      "bracket_parts": [
+        "widmet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Forscher widmete sein ganzes Leben der Wissenschaft.",
+      "translation": {
+        "ru": "Исследователь посвятил всю свою жизнь науке.",
+        "en": "The researcher devoted his whole life to science."
+      },
+      "bracket_parts": [
+        "widmete"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie hat ihrem Mentor ein rührendes Gedicht gewidmet.",
+      "translation": {
+        "ru": "Она посвятила своему наставнику трогательное стихотворение.",
+        "en": "She dedicated a touching poem to her mentor."
+      },
+      "bracket_parts": [
+        "hat",
+        "gewidmet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Widme deine Energie den wirklich wichtigen Zielen!",
+      "translation": {
+        "ru": "Посвяти свою энергию действительно важным целям!",
+        "en": "Devote your energy to truly important goals!"
+      },
+      "bracket_parts": [
+        "Widme"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

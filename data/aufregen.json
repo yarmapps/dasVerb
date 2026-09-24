@@ -1,0 +1,154 @@
+{
+  "id": "aufregen",
+  "infinitive": "aufregen",
+  "translation": {
+    "ru": "волновать, раздражать, расстраивать",
+    "en": "to agitate, to excite, to upset"
+  },
+  "level": "A2",
+  "frequency_rank": 615,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "auf",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "aufregen",
+    "present_3sg": "regt auf",
+    "praeteritum_3sg": "regte auf",
+    "partizip_2": "aufgeregt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "rege auf",
+      "du": "regst auf",
+      "er_sie_es": "regt auf",
+      "wir": "regen auf",
+      "ihr": "regt auf",
+      "sie_Sie": "regen auf"
+    },
+    "praeteritum": {
+      "ich": "regte auf",
+      "du": "regtest auf",
+      "er_sie_es": "regte auf",
+      "wir": "regten auf",
+      "ihr": "regtet auf",
+      "sie_Sie": "regten auf"
+    },
+    "perfekt": {
+      "ich": "habe aufgeregt",
+      "du": "hast aufgeregt",
+      "er_sie_es": "hat aufgeregt",
+      "wir": "haben aufgeregt",
+      "ihr": "habt aufgeregt",
+      "sie_Sie": "haben aufgeregt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich rege mich nicht über den Stau auf.",
+      "translation": {
+        "ru": "Я не выхожу из себя из-за пробки.",
+        "en": "I do not get worked up about the traffic jam."
+      },
+      "bracket_parts": [
+        "rege",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Regst du dich schon wieder über die Nachbarn auf?",
+      "translation": {
+        "ru": "Ты снова нервничаешь из-за соседей?",
+        "en": "Are you getting upset about the neighbors again?"
+      },
+      "bracket_parts": [
+        "Regst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der laute Lärm auf der Straße regt die kranke Patientin auf.",
+      "translation": {
+        "ru": "Громкий шум на улице волнует и тревожит больную пациентку.",
+        "en": "The loud noise on the street agitates the sick patient."
+      },
+      "bracket_parts": [
+        "regt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir regen uns über ungerechte Urteile auf.",
+      "translation": {
+        "ru": "Мы возмущаемся несправедливыми приговорами.",
+        "en": "We get worked up about unjust verdicts."
+      },
+      "bracket_parts": [
+        "regen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr regt euch wegen einer kleinen Verspätung auf.",
+      "translation": {
+        "ru": "Вы нервничаете из-за маленького опоздания.",
+        "en": "You are getting upset over a minor delay."
+      },
+      "bracket_parts": [
+        "regt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die schlechte Nachricht regte damals alle im Büro auf.",
+      "translation": {
+        "ru": "Плохая новость тогда встревожила всех в офисе.",
+        "en": "The bad news agitated everyone in the office back then."
+      },
+      "bracket_parts": [
+        "regte",
+        "auf"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Er hat sich furchtbar über das kaputte Auto aufgeregt.",
+      "translation": {
+        "ru": "Он страшно расстроился из-за сломанной машины.",
+        "en": "He got terribly upset about the broken car."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgeregt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Reg dich bitte nicht unnötig auf!",
+      "translation": {
+        "ru": "Не волнуйся, пожалуйста, понапрасну!",
+        "en": "Please do not get worked up unnecessarily!"
+      },
+      "bracket_parts": [
+        "Reg",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

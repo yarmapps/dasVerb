@@ -1,0 +1,154 @@
+{
+  "id": "angreifen",
+  "infinitive": "angreifen",
+  "translation": {
+    "ru": "нападать, атаковать, критиковать",
+    "en": "to attack, to assault"
+  },
+  "level": "B1",
+  "frequency_rank": 700,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "angreifen",
+    "present_3sg": "greift an",
+    "praeteritum_3sg": "griff an",
+    "partizip_2": "angegriffen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "greife an",
+      "du": "greifst an",
+      "er_sie_es": "greift an",
+      "wir": "greifen an",
+      "ihr": "greift an",
+      "sie_Sie": "greifen an"
+    },
+    "praeteritum": {
+      "ich": "griff an",
+      "du": "griffst an",
+      "er_sie_es": "griff an",
+      "wir": "griffen an",
+      "ihr": "grifft an",
+      "sie_Sie": "griffen an"
+    },
+    "perfekt": {
+      "ich": "habe angegriffen",
+      "du": "hast angegriffen",
+      "er_sie_es": "hat angegriffen",
+      "wir": "haben angegriffen",
+      "ihr": "habt angegriffen",
+      "sie_Sie": "haben angegriffen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich greife das neue Problem sofort mutig an.",
+      "translation": {
+        "ru": "Я сразу смело берусь за новую проблему.",
+        "en": "I tackle the new problem bravely right away."
+      },
+      "bracket_parts": [
+        "greife",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Greifst du die Konkurrenten mit fairen Mitteln an?",
+      "translation": {
+        "ru": "Ты атакуешь конкурентов честными методами?",
+        "en": "Do you attack your competitors using fair means?"
+      },
+      "bracket_parts": [
+        "Greifst",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Löwe greift die Beute blitzschnell an.",
+      "translation": {
+        "ru": "Лев молниеносно атакует добычу.",
+        "en": "The lion attacks the prey in a flash."
+      },
+      "bracket_parts": [
+        "greift",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir greifen im Finale mit voller Kraft an.",
+      "translation": {
+        "ru": "Мы атакуем в финале в полную силу.",
+        "en": "We attack with full force in the final."
+      },
+      "bracket_parts": [
+        "greifen",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr greift die gegnerische Abwehr immer wieder an.",
+      "translation": {
+        "ru": "Вы снова и снова атакуете оборону соперника.",
+        "en": "You attack the opponent's defense again and again."
+      },
+      "bracket_parts": [
+        "greift",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Armee griff damals die Festung im Morgengrauen an.",
+      "translation": {
+        "ru": "Армия тогда атаковала крепость на рассвете.",
+        "en": "The army attacked the fortress at dawn back then."
+      },
+      "bracket_parts": [
+        "griff",
+        "an"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Hacker haben den Server des Unternehmens massiv angegriffen.",
+      "translation": {
+        "ru": "Хакеры массированно атаковали сервер компании.",
+        "en": "Hackers heavily attacked the company's server."
+      },
+      "bracket_parts": [
+        "haben",
+        "angegriffen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Greift das Thema heute noch gemeinsam an!",
+      "translation": {
+        "ru": "Возьмитесь за эту тему сообща еще сегодня!",
+        "en": "Tackle the topic together today!"
+      },
+      "bracket_parts": [
+        "Greift",
+        "an"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

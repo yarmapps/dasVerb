@@ -17,6 +17,7 @@ import {
 } from '../../services/progressService';
 import { soundService } from '../../services/soundService';
 import { useNavigateToQuiz } from '../../hooks/useNavigateToQuiz';
+import { usePremiumStatus } from '../../hooks/usePremiumStatus';
 import { PracticeCheckpointCard } from '../../components/PracticeCheckpointCard/PracticeCheckpointCard';
 import { PracticeVerbCard } from '../../components/PracticeVerbCard/PracticeVerbCard';
 import { VerbCard } from '../../../docs/verb.types';
@@ -83,7 +84,8 @@ export function VerbsPracticeListScreen(): React.JSX.Element {
   const { colors, isDark } = useAppTheme();
   const { locale } = useLocale();
   const styles = useMemo(() => createStyles(colors), [colors]);
-  const { navigateToQuiz, dailyQuizLimitModalUI } = useNavigateToQuiz(navigation);
+  const isPremium = usePremiumStatus();
+  const { navigateToQuiz, openPaywall, dailyQuizLimitModalUI } = useNavigateToQuiz(navigation);
 
   const { categoryId, categoryTitle, infinitives, initialLevel } = route.params || {};
 
@@ -295,13 +297,23 @@ export function VerbsPracticeListScreen(): React.JSX.Element {
   }, [activeCefr, levelGroups, flatListItems.length, scrollToTargetForTab]);
 
   const handleVerbPress = useCallback(
-    (infinitive: string, level: string) => {
-      navigateToQuiz({
-        infinitive,
-        level,
-      });
+    (infinitive: string, level: string, fromIndex?: number) => {
+      soundService.playTapSound();
+      if (categoryId) {
+        navigateToQuiz({
+          infinitive,
+          level,
+          categoryId,
+          fromIndex,
+        });
+      } else {
+        navigateToQuiz({
+          infinitive,
+          level,
+        });
+      }
     },
-    [navigateToQuiz],
+    [categoryId, navigateToQuiz],
   );
 
   const loadVerbsAndProgress = useCallback(async () => {
@@ -454,24 +466,31 @@ export function VerbsPracticeListScreen(): React.JSX.Element {
           testID = `level-final-test-${activeCefr}`;
         }
 
+        const isCheckpointLocked = (categoryId ? true : activeCefr !== 'A1') && !isPremium;
+
         return (
           <PracticeCheckpointCard
             title={title}
             subtitle={subtitle}
             status={checkpointItem.status}
             isFinal={isFinal}
-            onPress={() =>
-              navigateToQuiz({
-                isCheckpoint: true,
-                checkpointId: checkpointItem.id,
-                checkpointNumber: checkpointItem.checkpointNumber,
-                fromIndex: checkpointItem.fromIndex,
-                toIndex: checkpointItem.toIndex,
-                infinitives: checkpointItem.verbs.map(v => v.infinitive),
-                level: checkpointItem.verbs[0]?.level || activeCefr,
-                categoryId,
-              })
-            }
+            isLocked={isCheckpointLocked}
+            onPress={() => {
+              if (isCheckpointLocked) {
+                openPaywall('level_lock');
+              } else {
+                navigateToQuiz({
+                  isCheckpoint: true,
+                  checkpointId: checkpointItem.id,
+                  checkpointNumber: checkpointItem.checkpointNumber,
+                  fromIndex: checkpointItem.fromIndex,
+                  toIndex: checkpointItem.toIndex,
+                  infinitives: checkpointItem.verbs.map(v => v.infinitive),
+                  level: checkpointItem.verbs[0]?.level || activeCefr,
+                  categoryId,
+                });
+              }
+            }}
             testID={testID}
           />
         );
@@ -480,6 +499,9 @@ export function VerbsPracticeListScreen(): React.JSX.Element {
       const verbItem = item?.item;
       if (!verbItem) return null;
 
+      const isVerbLocked =
+        (categoryId ? verbItem.globalIndex > 10 : activeCefr !== 'A1') && !isPremium;
+
       return (
         <PracticeVerbCard
           infinitive={verbItem.infinitive}
@@ -487,11 +509,18 @@ export function VerbsPracticeListScreen(): React.JSX.Element {
           level={verbItem.level}
           globalIndex={verbItem.globalIndex}
           status={verbItem.status}
-          onPress={handleVerbPress}
+          isLocked={isVerbLocked}
+          onPress={(inf, lvl) => {
+            if (isVerbLocked) {
+              openPaywall('level_lock');
+            } else {
+              handleVerbPress(inf, lvl, verbItem.globalIndex);
+            }
+          }}
         />
       );
     },
-    [activeCefr, categoryId, handleVerbPress, intl, navigateToQuiz, styles],
+    [activeCefr, categoryId, handleVerbPress, intl, isPremium, navigateToQuiz, openPaywall, styles],
   );
 
   const handleBackToMain = useCallback(() => {

@@ -12,6 +12,7 @@ import { ScreenBackground } from '../../components/ScreenBackground/ScreenBackgr
 import { verbDataService, PrepositionLevelData } from '../../services/verbDataService';
 import { progressService, VerbProgress } from '../../services/progressService';
 import { useNavigateToQuiz } from '../../hooks/useNavigateToQuiz';
+import { usePremiumStatus } from '../../hooks/usePremiumStatus';
 import { soundService } from '../../services/soundService';
 import { PracticeCheckpointCard } from '../../components/PracticeCheckpointCard/PracticeCheckpointCard';
 import { createStyles } from './PrepositionsPracticeListScreen.styles';
@@ -28,7 +29,8 @@ export function PrepositionsPracticeListScreen(): React.JSX.Element {
   const route = useRoute<PrepositionsPracticeRouteProp>();
   const { colors, isDark } = useAppTheme();
   const styles = useMemo(() => createStyles(colors), [colors]);
-  const { navigateToQuiz, dailyQuizLimitModalUI } = useNavigateToQuiz(navigation);
+  const isPremium = usePremiumStatus();
+  const { navigateToQuiz, openPaywall, dailyQuizLimitModalUI } = useNavigateToQuiz(navigation);
 
   const initialCefr = (route.params?.initialCefrLevel as CefrTab) || 'A1';
   const [activeCefr, setActiveCefr] = useState<CefrTab>(initialCefr);
@@ -70,8 +72,14 @@ export function PrepositionsPracticeListScreen(): React.JSX.Element {
     loadData(tab);
   };
 
+  const isLocked = activeCefr !== 'A1' && !isPremium;
+
   const handleLevelPress = (level: PrepositionLevelData) => {
     soundService.playTapSound();
+    if (isLocked) {
+      openPaywall('level_lock');
+      return;
+    }
     navigateToQuiz({
       prepositionLevelId: level.id,
       isPrepositionQuiz: true,
@@ -128,6 +136,14 @@ export function PrepositionsPracticeListScreen(): React.JSX.Element {
   }, [activeCefr, levels, scrollToTarget]);
 
   const renderStatusBadge = (status: VerbProgress['status'], index: number) => {
+    if (isLocked) {
+      return (
+        <View style={[styles.statusBadge, styles.statusBadgeUncompleted]}>
+          <FontAwesome5 name="lock" size={14} color={colors.textMuted} />
+        </View>
+      );
+    }
+
     if (status === 'trophy') {
       return (
         <View style={[styles.statusBadge, styles.statusBadgeTrophy]}>
@@ -211,6 +227,7 @@ export function PrepositionsPracticeListScreen(): React.JSX.Element {
                   })}
                   status={progress.status}
                   isFinal={false}
+                  isLocked={isLocked}
                   onPress={() => handleLevelPress(lvl)}
                   testID={`preposition-checkpoint-${lvl.id}`}
                 />
@@ -236,6 +253,7 @@ export function PrepositionsPracticeListScreen(): React.JSX.Element {
                   })}
                   status={progress.status}
                   isFinal={true}
+                  isLocked={isLocked}
                   onPress={() => handleLevelPress(lvl)}
                   testID={`preposition-final-${activeCefr}`}
                 />

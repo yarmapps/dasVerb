@@ -1,0 +1,147 @@
+{
+  "id": "isolieren",
+  "infinitive": "isolieren",
+  "translation": {
+    "ru": "изолировать, утеплять",
+    "en": "to isolate, to insulate"
+  },
+  "level": "B2",
+  "frequency_rank": 809,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "isoliert",
+    "preterite_third_singular": "isolierte",
+    "past_participle": "isoliert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "isoliere",
+      "du": "isolierst",
+      "er_sie_es": "isoliert",
+      "wir": "isolieren",
+      "ihr": "isoliert",
+      "sie_Sie": "isolieren"
+    },
+    "preterite": {
+      "ich": "isolierte",
+      "du": "isoliertest",
+      "er_sie_es": "isolierte",
+      "wir": "isolierten",
+      "ihr": "isoliertet",
+      "sie_Sie": "isolierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "isoliert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "von",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "gegen",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich isoliere die Wasserrohre im Keller gegen Frost.",
+      "translation": {
+        "ru": "Я изолирую водопроводные трубы в подвале от мороза.",
+        "en": "I insulate the water pipes in the cellar against frost."
+      },
+      "bracket_parts": [
+        "isoliere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Isolierst du das Dach vor dem kalten Winter?",
+      "translation": {
+        "ru": "Ты утепляешь крышу перед холодной зимой?",
+        "en": "Are you insulating the roof before the cold winter?"
+      },
+      "bracket_parts": [
+        "Isolierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das moderne Spezialglas isoliert den Raum gegen Außenlärm.",
+      "translation": {
+        "ru": "Современное специальное стекло изолирует комнату от внешнего шума.",
+        "en": "The modern special glass insulates the room against outside noise."
+      },
+      "bracket_parts": [
+        "isoliert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir isolieren das elektrische Kabel mit Isolierband.",
+      "translation": {
+        "ru": "Мы изолируем электрический кабель изолентой.",
+        "en": "We insulate the electrical cable with insulating tape."
+      },
+      "bracket_parts": [
+        "isolieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Isoliert ihr den Patienten bei ansteckenden Krankheiten?",
+      "translation": {
+        "ru": "Вы изолируете пациента при заразных болезнях?",
+        "en": "Do you isolate the patient in case of infectious diseases?"
+      },
+      "bracket_parts": [
+        "Isoliert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Ärzte isolierten den Kranken sofort auf der Station.",
+      "translation": {
+        "ru": "Врачи немедленно изолировали больного в отделении.",
+        "en": "The doctors immediately isolated the patient in the ward."
+      },
+      "bracket_parts": [
+        "isolierten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Handwerker haben die Außenwände des Hauses perfekt isoliert.",
+      "translation": {
+        "ru": "Мастера идеально утеплили наружные стены дома.",
+        "en": "The craftsmen insulated the exterior walls of the house perfectly."
+      },
+      "bracket_parts": [
+        "haben",
+        "isoliert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Isoliere die Leitungen fachgerecht und vorsichtig!",
+      "translation": {
+        "ru": "Изолируй проводку профессионально и осторожно!",
+        "en": "Insulate the cables properly and carefully!"
+      },
+      "bracket_parts": [
+        "Isoliere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

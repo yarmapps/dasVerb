@@ -1,0 +1,166 @@
+{
+  "id": "antreten",
+  "infinitive": "antreten",
+  "translation": {
+    "ru": "приступать (к работе/службе), выстраиваться, состязаться",
+    "en": "to start, take up, compete"
+  },
+  "level": "B1",
+  "frequency_rank": 556,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "an",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "antreten",
+    "present_3sg": "tritt an",
+    "praeteritum_3sg": "trat an",
+    "partizip_2": "angetreten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "trete an",
+      "du": "trittst an",
+      "er_sie_es": "tritt an",
+      "wir": "treten an",
+      "ihr": "tretet an",
+      "sie_Sie": "treten an"
+    },
+    "praeteritum": {
+      "ich": "trat an",
+      "du": "tratest an",
+      "er_sie_es": "trat an",
+      "wir": "traten an",
+      "ihr": "tratet an",
+      "sie_Sie": "traten an"
+    },
+    "perfekt": {
+      "ich": "bin angetreten",
+      "du": "bist angetreten",
+      "er_sie_es": "ist angetreten",
+      "wir": "sind angetreten",
+      "ihr": "seid angetreten",
+      "sie_Sie": "sind angetreten"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich trete meine neue Arbeitsstelle am ersten Oktober an.",
+      "translation": {
+        "ru": "Я приступаю к новой работе первого октября.",
+        "en": "I take up my new job on the first of October."
+      },
+      "bracket_parts": [
+        "trete",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "meine neue Arbeitsstelle"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du trittst beim heutigen Wettkampf gegen starke Gegner an.",
+      "translation": {
+        "ru": "В сегодняшних соревнованиях ты выступаешь против сильных соперников.",
+        "en": "You compete against strong opponents in today's competition."
+      },
+      "bracket_parts": [
+        "trittst",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Fußballmannschaft tritt hochmotiviert zum Endspiel an.",
+      "translation": {
+        "ru": "Футбольная команда выходит на финальный матч с высокой мотивацией.",
+        "en": "The football team lines up highly motivated for the final match."
+      },
+      "bracket_parts": [
+        "tritt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir treten unsere lange Urlaubsreise morgen früh an.",
+      "translation": {
+        "ru": "Мы отправляемся в наше долгое путешествие в отпуск завтра утром.",
+        "en": "We start our long vacation journey tomorrow morning."
+      },
+      "bracket_parts": [
+        "treten",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "unsere lange Urlaubsreise"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr tretet zur entscheidenden Prüfung pünktlich an.",
+      "translation": {
+        "ru": "Вы являетесь на решающий экзамен вовремя.",
+        "en": "You show up for the decisive exam on time."
+      },
+      "bracket_parts": [
+        "tretet",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Soldaten traten damals pünktlich zum Appell an.",
+      "translation": {
+        "ru": "Солдаты тогда выстроились вовремя на построение.",
+        "en": "The soldiers lined up on time for roll call back then."
+      },
+      "bracket_parts": [
+        "traten",
+        "an"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Politiker ist sein neues Amt mit großem Elan angetreten.",
+      "translation": {
+        "ru": "Политик вступил в свою новую должность с большим воодушевлением.",
+        "en": "The politician took up his new office with great enthusiasm."
+      },
+      "bracket_parts": [
+        "ist",
+        "angetreten"
+      ],
+      "akkusativ_parts": [
+        "sein neues Amt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Tritt deine Reise gut vorbereitet an!",
+      "translation": {
+        "ru": "Отправляйся в путешествие хорошо подготовленным!",
+        "en": "Start your journey well prepared!"
+      },
+      "bracket_parts": [
+        "Tritt",
+        "an"
+      ],
+      "akkusativ_parts": [
+        "deine Reise"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

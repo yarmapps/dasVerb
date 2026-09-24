@@ -1,0 +1,138 @@
+{
+  "id": "ertragen",
+  "infinitive": "ertragen",
+  "translation": {
+    "ru": "терпеть, выносить, переносить",
+    "en": "to endure, to bear, to tolerate"
+  },
+  "level": "B1",
+  "frequency_rank": 870,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "erträgt",
+    "preterite_third_singular": "ertrug",
+    "past_participle": "ertragen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ertrage",
+      "du": "erträgst",
+      "er_sie_es": "erträgt",
+      "wir": "ertragen",
+      "ihr": "ertragt",
+      "sie_Sie": "ertragen"
+    },
+    "preterite": {
+      "ich": "ertrug",
+      "du": "ertrugst",
+      "er_sie_es": "ertrug",
+      "wir": "ertrugen",
+      "ihr": "ertrugt",
+      "sie_Sie": "ertrugen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "ertragen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich ertrage den ständigen Lärm an der Hauptstraße kaum noch.",
+      "translation": {
+        "ru": "Я едва выношу постоянный шум на главной улице.",
+        "en": "I can hardly bear the constant noise on the main street."
+      },
+      "bracket_parts": [
+        "ertrage"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erträgst du die sommerliche Schwüle ohne Klimaanlage?",
+      "translation": {
+        "ru": "Ты переносишь летнюю духоту без кондиционера?",
+        "en": "Do you endure the summer humidity without air conditioning?"
+      },
+      "bracket_parts": [
+        "Erträgst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Patient erträgt die Schmerzen mit großer Geduld.",
+      "translation": {
+        "ru": "Пациент переносит боли с большим терпением.",
+        "en": "The patient endures the pain with great patience."
+      },
+      "bracket_parts": [
+        "erträgt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir ertragen keine Ungerechtigkeit in unserem Team.",
+      "translation": {
+        "ru": "Мы не терпим никакой несправедливости в нашей команде.",
+        "en": "We do not tolerate any injustice in our team."
+      },
+      "bracket_parts": [
+        "ertragen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ertragt ihr diese Kälte bei der Arbeit im Freien?",
+      "translation": {
+        "ru": "Вы выносите этот холод при работе на открытом воздухе?",
+        "en": "Do you guys bear this cold while working outdoors?"
+      },
+      "bracket_parts": [
+        "Ertragt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie ertrug die schwere Last ohne ein einziges Wort der Klage.",
+      "translation": {
+        "ru": "Она перенесла тяжелое бремя без единого слова жалобы.",
+        "en": "She bore the heavy burden without a single word of complaint."
+      },
+      "bracket_parts": [
+        "ertrug"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat die schwierige Situation mit viel Mut ertragen.",
+      "translation": {
+        "ru": "Он перенес трудную ситуацию с большим мужеством.",
+        "en": "He endured the difficult situation with great courage."
+      },
+      "bracket_parts": [
+        "hat",
+        "ertragen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Ertrage schwierige Phasen mit Zuversicht und Hoffnung!",
+      "translation": {
+        "ru": "Переноси трудные периоды с уверенностью и надеждой!",
+        "en": "Endure difficult phases with confidence and hope!"
+      },
+      "bracket_parts": [
+        "Ertrage"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

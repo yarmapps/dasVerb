@@ -1,0 +1,147 @@
+{
+  "id": "beruehren",
+  "infinitive": "berühren",
+  "translation": {
+    "ru": "трогать, касаться, глубоко трогать",
+    "en": "to touch, to affect emotionally"
+  },
+  "level": "B1",
+  "frequency_rank": 574,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "be",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "berühren",
+    "present_3sg": "berührt",
+    "praeteritum_3sg": "berührte",
+    "partizip_2": "berührt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "berühre",
+      "du": "berührst",
+      "er_sie_es": "berührt",
+      "wir": "berühren",
+      "ihr": "berührt",
+      "sie_Sie": "berühren"
+    },
+    "praeteritum": {
+      "ich": "berührte",
+      "du": "berührtest",
+      "er_sie_es": "berührte",
+      "wir": "berührten",
+      "ihr": "berührtet",
+      "sie_Sie": "berührten"
+    },
+    "perfekt": {
+      "ich": "habe berührt",
+      "du": "hast berührt",
+      "er_sie_es": "hat berührt",
+      "wir": "haben berührt",
+      "ihr": "habt berührt",
+      "sie_Sie": "haben berührt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich berühre das wertvolle Kunstwerk nicht.",
+      "translation": {
+        "ru": "Я не прикасаюсь к ценному произведению искусства.",
+        "en": "I do not touch the valuable artwork."
+      },
+      "bracket_parts": [
+        "berühre"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Berührst du die heiße Herdplatte?",
+      "translation": {
+        "ru": "Ты трогаешь горячую конфорку?",
+        "en": "Are you touching the hot stove plate?"
+      },
+      "bracket_parts": [
+        "Berührst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Seine emotionale Rede berührt die Herzen der Zuhörer.",
+      "translation": {
+        "ru": "Его эмоциональная речь трогает сердца слушателей.",
+        "en": "His emotional speech touches the hearts of the listeners."
+      },
+      "bracket_parts": [
+        "berührt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir berühren dieses heikle Thema heute nicht.",
+      "translation": {
+        "ru": "Мы не затрагиваем эту деликатную тему сегодня.",
+        "en": "We are not touching on this sensitive topic today."
+      },
+      "bracket_parts": [
+        "berühren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr berührt die Skulptur im Museum trotz des Verbots.",
+      "translation": {
+        "ru": "Вы трогаете скульптуру в музее вопреки запрету.",
+        "en": "You touch the sculpture in the museum despite the ban."
+      },
+      "bracket_parts": [
+        "berührt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die traurige Geschichte berührte damals alle Anwesenden.",
+      "translation": {
+        "ru": "Печальная история тогда тронула всех присутствующих.",
+        "en": "The sad story touched everyone present back then."
+      },
+      "bracket_parts": [
+        "berührte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Seine Worte haben mich tief im Herzen berührt.",
+      "translation": {
+        "ru": "Его слова глубоко тронули меня в сердце.",
+        "en": "His words touched me deeply in my heart."
+      },
+      "bracket_parts": [
+        "haben",
+        "berührt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Berühre bitte die frisch gestrichene Wand nicht!",
+      "translation": {
+        "ru": "Не трогай, пожалуйста, свежевыкрашенную стену!",
+        "en": "Please do not touch the freshly painted wall!"
+      },
+      "bracket_parts": [
+        "Berühre"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

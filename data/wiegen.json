@@ -1,0 +1,138 @@
+{
+  "id": "wiegen",
+  "infinitive": "wiegen",
+  "translation": {
+    "ru": "весить, взвешивать, покачивать",
+    "en": "to weigh, to rock, to cradle"
+  },
+  "level": "B1",
+  "frequency_rank": 753,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "wiegt",
+    "preterite_third_singular": "wog",
+    "past_participle": "gewogen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wiege",
+      "du": "wiegst",
+      "er_sie_es": "wiegt",
+      "wir": "wiegen",
+      "ihr": "wiegt",
+      "sie_Sie": "wiegen"
+    },
+    "preterite": {
+      "ich": "wog",
+      "du": "wogst",
+      "er_sie_es": "wog",
+      "wir": "wogen",
+      "ihr": "wogt",
+      "sie_Sie": "wogen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gewogen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich wiege das reife Obst auf der Küchenwaage.",
+      "translation": {
+        "ru": "Я взвешиваю спелые фрукты на кухонных весах.",
+        "en": "I weigh the ripe fruit on the kitchen scale."
+      },
+      "bracket_parts": [
+        "wiege"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wie viel wiegst du nach dem intensiven Training?",
+      "translation": {
+        "ru": "Сколько ты весишь после интенсивной тренировки?",
+        "en": "How much do you weigh after the intense workout?"
+      },
+      "bracket_parts": [
+        "wiegst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das schwere Paket wiegt genau zehn Kilogramm.",
+      "translation": {
+        "ru": "Тяжелая посылка весит ровно десять килограммов.",
+        "en": "The heavy package weighs exactly ten kilograms."
+      },
+      "bracket_parts": [
+        "wiegt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir wiegen alle Zutaten für den Kuchen exakt ab.",
+      "translation": {
+        "ru": "Мы точно взвешиваем все ингредиенты для пирога.",
+        "en": "We weigh all ingredients for the cake exactly."
+      },
+      "bracket_parts": [
+        "wiegen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wiegt ihr das Gepäck vor dem Abflug am Flughafen?",
+      "translation": {
+        "ru": "Вы взвешиваете багаж перед вылетом в аэропорту?",
+        "en": "Are you weighing the luggage before departure at the airport?"
+      },
+      "bracket_parts": [
+        "Wiegt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der alte Koffer wog deutlich mehr als erlaubt.",
+      "translation": {
+        "ru": "Старый чемодан весил значительно больше дозволенного.",
+        "en": "The old suitcase weighed significantly more than allowed."
+      },
+      "bracket_parts": [
+        "wog"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Verkäuferin hat das frische Gemüse sorgfältig gewogen.",
+      "translation": {
+        "ru": "Продавщица тщательно взвесила свежие овощи.",
+        "en": "The shop assistant carefully weighed the fresh vegetables."
+      },
+      "bracket_parts": [
+        "hat",
+        "gewogen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Wiege das Mehl bitte ganz genau!",
+      "translation": {
+        "ru": "Взвесь муку, пожалуйста, очень точно!",
+        "en": "Please weigh the flour very accurately!"
+      },
+      "bracket_parts": [
+        "Wiege"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

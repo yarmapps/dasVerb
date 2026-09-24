@@ -1,0 +1,143 @@
+{
+  "id": "ruhen",
+  "infinitive": "ruhen",
+  "translation": {
+    "ru": "отдыхать, покоиться, приостанавливаться",
+    "en": "to rest, to repose, to be suspended"
+  },
+  "level": "B1",
+  "frequency_rank": 810,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "ruht",
+    "preterite_third_singular": "ruhte",
+    "past_participle": "geruht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ruhe",
+      "du": "ruhst",
+      "er_sie_es": "ruht",
+      "wir": "ruhen",
+      "ihr": "ruht",
+      "sie_Sie": "ruhen"
+    },
+    "preterite": {
+      "ich": "ruhte",
+      "du": "ruhtest",
+      "er_sie_es": "ruhte",
+      "wir": "ruhten",
+      "ihr": "ruhtet",
+      "sie_Sie": "ruhten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geruht"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich ruhe nach der anstrengenden Wanderung eine Stunde aus.",
+      "translation": {
+        "ru": "Я отдыхаю час после утомительного похода.",
+        "en": "I rest for an hour after the strenuous hike."
+      },
+      "bracket_parts": [
+        "ruhe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ruhst du dich am Wochenende endlich richtig aus?",
+      "translation": {
+        "ru": "Ты наконец отдохнешь как следует на выходных?",
+        "en": "Are you finally resting properly at the weekend?"
+      },
+      "bracket_parts": [
+        "Ruhst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der See ruht still im goldenen Abendlicht.",
+      "translation": {
+        "ru": "Озеро тихо покоится в золотом вечернем свете.",
+        "en": "The lake rests quietly in the golden evening light."
+      },
+      "bracket_parts": [
+        "ruht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir ruhen kurz auf der bequemen Holzbank im Park.",
+      "translation": {
+        "ru": "Мы недолго отдыхаем на удобной деревянной скамейке в парке.",
+        "en": "We rest briefly on the comfortable wooden bench in the park."
+      },
+      "bracket_parts": [
+        "ruhen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ruht ihr nach dem Sport ein wenig im Schatten?",
+      "translation": {
+        "ru": "Вы отдыхаете немного в тени после спорта?",
+        "en": "Are you guys resting a little in the shade after sports?"
+      },
+      "bracket_parts": [
+        "Ruht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Arbeit auf der Baustelle ruhte während des Winters.",
+      "translation": {
+        "ru": "Работа на стройке приостановилась на время зимы.",
+        "en": "Work on the construction site was suspended during winter."
+      },
+      "bracket_parts": [
+        "ruhte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Kranke hat sich viele Tage lang gründlich ausgeruht.",
+      "translation": {
+        "ru": "Больной много дней основательно отдыхал.",
+        "en": "The sick person rested thoroughly for many days."
+      },
+      "bracket_parts": [
+        "hat",
+        "geruht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Ruhe in Frieden und schlafe ruhig!",
+      "translation": {
+        "ru": "Покойся с миром и спи спокойно!",
+        "en": "Rest in peace and sleep calmly!"
+      },
+      "bracket_parts": [
+        "Ruhe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

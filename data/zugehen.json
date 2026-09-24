@@ -1,0 +1,154 @@
+{
+  "id": "zugehen",
+  "infinitive": "zugehen",
+  "translation": {
+    "ru": "подходить (к кому-л.), закрываться, происходить",
+    "en": "to approach, to close, to happen"
+  },
+  "level": "B1",
+  "frequency_rank": 586,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "zu",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zugehen",
+    "present_3sg": "geht zu",
+    "praeteritum_3sg": "ging zu",
+    "partizip_2": "zugegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe zu",
+      "du": "gehst zu",
+      "er_sie_es": "geht zu",
+      "wir": "gehen zu",
+      "ihr": "geht zu",
+      "sie_Sie": "gehen zu"
+    },
+    "praeteritum": {
+      "ich": "ging zu",
+      "du": "gingst zu",
+      "er_sie_es": "ging zu",
+      "wir": "gingen zu",
+      "ihr": "gingt zu",
+      "sie_Sie": "gingen zu"
+    },
+    "perfekt": {
+      "ich": "bin zugegangen",
+      "du": "bist zugegangen",
+      "er_sie_es": "ist zugegangen",
+      "wir": "sind zugegangen",
+      "ihr": "seid zugegangen",
+      "sie_Sie": "sind zugegangen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich gehe offen auf neue Menschen zu.",
+      "translation": {
+        "ru": "Я открыто иду навстречу новым людям.",
+        "en": "I approach new people openly."
+      },
+      "bracket_parts": [
+        "gehe",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gehst du freundlich auf deine Nachbarn zu?",
+      "translation": {
+        "ru": "Ты приветливо подходишь к своим соседям?",
+        "en": "Do you approach your neighbors in a friendly way?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die schwere Tür geht bei Wind von selbst zu.",
+      "translation": {
+        "ru": "Тяжелая дверь при ветре закрывается сама собой.",
+        "en": "The heavy door closes by itself in the wind."
+      },
+      "bracket_parts": [
+        "geht",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gehen im Streit aufeinander zu.",
+      "translation": {
+        "ru": "Мы в споре идем навстречу друг другу.",
+        "en": "We make concessions to each other in an argument."
+      },
+      "bracket_parts": [
+        "gehen",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr geht mutig auf die Bühne zu.",
+      "translation": {
+        "ru": "Вы смело идете к сцене.",
+        "en": "You walk bravely toward the stage."
+      },
+      "bracket_parts": [
+        "geht",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Hund ging damals neugierig auf das Kind zu.",
+      "translation": {
+        "ru": "Собака тогда с любопытством подошла к ребенку.",
+        "en": "The dog approached the child curiously back then."
+      },
+      "bracket_parts": [
+        "ging",
+        "zu"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Auf dem Marktplatz ist es gestern sehr laut zugegangen.",
+      "translation": {
+        "ru": "На рыночной площади вчера было очень шумно.",
+        "en": "Things went on very loudly in the marketplace yesterday."
+      },
+      "bracket_parts": [
+        "ist",
+        "zugegangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Geh bitte ohne Vorurteile auf den Kollegen zu!",
+      "translation": {
+        "ru": "Подойди, пожалуйста, к коллеге без предрассудков!",
+        "en": "Please approach your colleague without prejudice!"
+      },
+      "bracket_parts": [
+        "Geh",
+        "zu"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "zuruecklegen",
+  "infinitive": "zurücklegen",
+  "translation": {
+    "ru": "преодолевать (путь), откладывать, класть обратно",
+    "en": "to cover (distance), to put back, to save/set aside"
+  },
+  "level": "B1",
+  "frequency_rank": 934,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "legt zurück",
+    "preterite_third_singular": "legte zurück",
+    "past_participle": "zurückgelegt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lege zurück",
+      "du": "legst zurück",
+      "er_sie_es": "legt zurück",
+      "wir": "legen zurück",
+      "ihr": "legt zurück",
+      "sie_Sie": "legen zurück"
+    },
+    "preterite": {
+      "ich": "legte zurück",
+      "du": "legtest zurück",
+      "er_sie_es": "legte zurück",
+      "wir": "legten zurück",
+      "ihr": "legtet zurück",
+      "sie_Sie": "legten zurück"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "zurückgelegt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich lege jeden Tag zehn Kilometer mit dem Fahrrad zurück.",
+      "translation": {
+        "ru": "Каждый день я проезжаю десять километров на велосипеде.",
+        "en": "I cover ten kilometers by bike every day."
+      },
+      "bracket_parts": [
+        "lege",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Legst du das Buch nach dem Lesen bitte wieder ins Regal zurück?",
+      "translation": {
+        "ru": "Ты положишь книгу обратно на полку после чтения?",
+        "en": "Will you please put the book back on the shelf after reading?"
+      },
+      "bracket_parts": [
+        "Legst",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie legt jeden Monat einen festen Geldbetrag für Notfälle zurück.",
+      "translation": {
+        "ru": "Каждый месяц она откладывает фиксированную сумму на экстренный случай.",
+        "en": "She puts aside a fixed amount of money every month for emergencies."
+      },
+      "bracket_parts": [
+        "legt",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir legen die weite Strecke bis nach München ohne Pause zurück.",
+      "translation": {
+        "ru": "Мы преодолеваем длинную дистанцию до Мюнхена без перерыва.",
+        "en": "We cover the long distance to Munich without a break."
+      },
+      "bracket_parts": [
+        "legen",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Legt ihr Geld für eure nächste Auslandsreise zurück?",
+      "translation": {
+        "ru": "Вы откладываете деньги на следующую поездку за границу?",
+        "en": "Are you guys saving money for your next trip abroad?"
+      },
+      "bracket_parts": [
+        "Legt",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Wandergruppe legte gestern über dreißig Kilometer zu Fuß zurück.",
+      "translation": {
+        "ru": "Вчера туристическая группа прошла пешком более тридцати километров.",
+        "en": "The hiking group covered over thirty kilometers on foot yesterday."
+      },
+      "bracket_parts": [
+        "legte",
+        "zurück"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat in seiner Jugend eine beachtliche Karriere zurückgelegt.",
+      "translation": {
+        "ru": "В молодости он прошел впечатляющий карьерный путь.",
+        "en": "He covered a remarkable career path in his youth."
+      },
+      "bracket_parts": [
+        "hat",
+        "zurückgelegt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lege bitte alle Akten nach der Bearbeitung sorgfältig zurück!",
+      "translation": {
+        "ru": "Положи, пожалуйста, все документы аккуратно на место после обработки!",
+        "en": "Please put all files back carefully after processing!"
+      },
+      "bracket_parts": [
+        "Lege",
+        "zurück"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

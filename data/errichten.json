@@ -1,0 +1,147 @@
+{
+  "id": "errichten",
+  "infinitive": "errichten",
+  "translation": {
+    "ru": "возводить, сооружать, учреждать",
+    "en": "to erect, to build, to establish"
+  },
+  "level": "B2",
+  "frequency_rank": 639,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "errichten",
+    "present_3sg": "errichtet",
+    "praeteritum_3sg": "errichtete",
+    "partizip_2": "errichtet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "errichte",
+      "du": "errichtest",
+      "er_sie_es": "errichtet",
+      "wir": "errichten",
+      "ihr": "errichtet",
+      "sie_Sie": "errichten"
+    },
+    "praeteritum": {
+      "ich": "errichtete",
+      "du": "errichtetest",
+      "er_sie_es": "errichtete",
+      "wir": "errichteten",
+      "ihr": "errichtetet",
+      "sie_Sie": "errichteten"
+    },
+    "perfekt": {
+      "ich": "habe errichtet",
+      "du": "hast errichtet",
+      "er_sie_es": "hat errichtet",
+      "wir": "haben errichtet",
+      "ihr": "habt errichtet",
+      "sie_Sie": "haben errichtet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich errichte einen stabilen Zaun um den Garten.",
+      "translation": {
+        "ru": "Я возвожу прочный забор вокруг сада.",
+        "en": "I erect a sturdy fence around the garden."
+      },
+      "bracket_parts": [
+        "errichte"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Errichtest du ein kleines Gartenhaus hinter dem Haus?",
+      "translation": {
+        "ru": "Ты строишь маленький домик за домом?",
+        "en": "Are you building a small garden house behind the house?"
+      },
+      "bracket_parts": [
+        "Errichtest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Gemeinde errichtet eine moderne Sporthalle für Jugendliche.",
+      "translation": {
+        "ru": "Община строит современный спортзал для молодежи.",
+        "en": "The community is erecting a modern sports hall for young people."
+      },
+      "bracket_parts": [
+        "errichtet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir errichten eine Stiftung zur Unterstützung von Künstlern.",
+      "translation": {
+        "ru": "Мы учреждаем фонд для поддержки художников.",
+        "en": "We establish a foundation to support artists."
+      },
+      "bracket_parts": [
+        "errichten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr errichtet neue Barrieren gegen das Hochwasser.",
+      "translation": {
+        "ru": "Вы возводите новые барьеры против паводка.",
+        "en": "You are erecting new barriers against floodwaters."
+      },
+      "bracket_parts": [
+        "errichtet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Römer errichteten damals prächtige Bauwerke in der Stadt.",
+      "translation": {
+        "ru": "Римляне тогда возвели великолепные постройки в городе.",
+        "en": "The Romans erected magnificent buildings in the city back then."
+      },
+      "bracket_parts": [
+        "errichteten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben ein wunderschönes Denkmal im Zentrum errichtet.",
+      "translation": {
+        "ru": "Они воздвигли красивый памятник в центре.",
+        "en": "They erected a wonderful monument in the center."
+      },
+      "bracket_parts": [
+        "haben",
+        "errichtet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Errichte das Zelt vor Einbruch der Dunkelheit!",
+      "translation": {
+        "ru": "Поставь палатку до наступления темноты!",
+        "en": "Erect the tent before darkness falls!"
+      },
+      "bracket_parts": [
+        "Errichte"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

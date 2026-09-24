@@ -1,0 +1,143 @@
+{
+  "id": "motivieren",
+  "infinitive": "motivieren",
+  "translation": {
+    "ru": "мотивировать, побуждать",
+    "en": "to motivate, to encourage"
+  },
+  "level": "B1",
+  "frequency_rank": 841,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "motiviert",
+    "preterite_third_singular": "motivierte",
+    "past_participle": "motiviert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "motiviere",
+      "du": "motivierst",
+      "er_sie_es": "motiviert",
+      "wir": "motivieren",
+      "ihr": "motiviert",
+      "sie_Sie": "motivieren"
+    },
+    "preterite": {
+      "ich": "motivierte",
+      "du": "motiviertest",
+      "er_sie_es": "motivierte",
+      "wir": "motivierten",
+      "ihr": "motiviertet",
+      "sie_Sie": "motivierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "motiviert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "zu",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich motiviere mein Team vor jeder großen Herausforderung.",
+      "translation": {
+        "ru": "Я мотивирую свою команду перед каждым большим вызовом.",
+        "en": "I motivate my team before every big challenge."
+      },
+      "bracket_parts": [
+        "motiviere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Motivierst du deine Freunde zum gemeinsamen Sport?",
+      "translation": {
+        "ru": "Ты мотивируешь своих друзей на совместный спорт?",
+        "en": "Do you motivate your friends to do sports together?"
+      },
+      "bracket_parts": [
+        "Motivierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Lehrerin motiviert die Schüler mit spannenden Aufgaben.",
+      "translation": {
+        "ru": "Учительница мотивирует учеников увлекательными заданиями.",
+        "en": "The teacher motivates the students with exciting tasks."
+      },
+      "bracket_parts": [
+        "motiviert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir motivieren uns gegenseitig zu Höchstleistungen.",
+      "translation": {
+        "ru": "Мы мотивируем друг друга на высшие достижения.",
+        "en": "We motivate each other to top performance."
+      },
+      "bracket_parts": [
+        "motivieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Motiviert ihr die Mitarbeiter durch faires Lob?",
+      "translation": {
+        "ru": "Вы мотивируете сотрудников справедливой похвалой?",
+        "en": "Do you motivate employees through fair praise?"
+      },
+      "bracket_parts": [
+        "Motiviert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Trainer motivierte die Spieler in der Halbzeitpause.",
+      "translation": {
+        "ru": "Тренер мотивировал игроков в перерыве матча.",
+        "en": "The coach motivated the players during half-time."
+      },
+      "bracket_parts": [
+        "motivierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sein Vorbild hat viele junge Menschen stark motiviert.",
+      "translation": {
+        "ru": "Его пример сильно мотивировал многих молодых людей.",
+        "en": "His example greatly motivated many young people."
+      },
+      "bracket_parts": [
+        "hat",
+        "motiviert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Motiviere dich jeden Tag aufs Neue mit klaren Zielen!",
+      "translation": {
+        "ru": "Мотивируй себя каждый день заново четкими целями!",
+        "en": "Motivate yourself anew every day with clear goals!"
+      },
+      "bracket_parts": [
+        "Motiviere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

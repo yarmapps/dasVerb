@@ -1,0 +1,147 @@
+{
+  "id": "verlaengern",
+  "infinitive": "verlängern",
+  "translation": {
+    "ru": "продлевать, удлинять",
+    "en": "to extend, to lengthen, to renew"
+  },
+  "level": "A2",
+  "frequency_rank": 670,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "verlängern",
+    "present_3sg": "verlängert",
+    "praeteritum_3sg": "verlängerte",
+    "partizip_2": "verlängert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "verlängere",
+      "du": "verlängerst",
+      "er_sie_es": "verlängert",
+      "wir": "verlängern",
+      "ihr": "verlängert",
+      "sie_Sie": "verlängern"
+    },
+    "praeteritum": {
+      "ich": "verlängerte",
+      "du": "verlängertest",
+      "er_sie_es": "verlängerte",
+      "wir": "verlängerten",
+      "ihr": "verlängertet",
+      "sie_Sie": "verlängerten"
+    },
+    "perfekt": {
+      "ich": "habe verlängert",
+      "du": "hast verlängert",
+      "er_sie_es": "hat verlängert",
+      "wir": "haben verlängert",
+      "ihr": "habt verlängert",
+      "sie_Sie": "haben verlängert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "um",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich verlängere meinen Reisepass rechtzeitig vor dem Urlaub.",
+      "translation": {
+        "ru": "Я продлеваю загранпаспорт вовремя перед отпуском.",
+        "en": "I renew my passport in good time before the vacation."
+      },
+      "bracket_parts": [
+        "verlängere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Verlängerst du dein Zeitschriftenabonnement um ein weiteres Jahr?",
+      "translation": {
+        "ru": "Ты продлишь подписку на журнал еще на один год?",
+        "en": "Are you renewing your magazine subscription for another year?"
+      },
+      "bracket_parts": [
+        "Verlängerst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Verein verlängert den Vertrag mit dem erfolgreichen Trainer.",
+      "translation": {
+        "ru": "Клуб продлевает контракт с успешным тренером.",
+        "en": "The club extends the contract with the successful coach."
+      },
+      "bracket_parts": [
+        "verlängert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir verlängern unseren Aufenthalt um drei Tage.",
+      "translation": {
+        "ru": "Мы продлеваем наше пребывание на три дня.",
+        "en": "We extend our stay by three days."
+      },
+      "bracket_parts": [
+        "verlängern"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr verlängert die Ausleihfrist für die Bücher in der Bibliothek.",
+      "translation": {
+        "ru": "Вы продлеваете срок выдачи книг в библиотеке.",
+        "en": "You extend the loan period for the books in the library."
+      },
+      "bracket_parts": [
+        "verlängert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Gericht verlängerte damals die Frist für den Einspruch.",
+      "translation": {
+        "ru": "Суд тогда продлил срок подачи апелляции.",
+        "en": "The court extended the deadline for the objection back then."
+      },
+      "bracket_parts": [
+        "verlängerte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben die Mitgliedschaft im Fitnessstudio online verlängert.",
+      "translation": {
+        "ru": "Они продлили абонемент в фитнес-клуб онлайн.",
+        "en": "They renewed their gym membership online."
+      },
+      "bracket_parts": [
+        "haben",
+        "verlängert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Verlängere bitte deine Fahrkarte vor Fahrtantritt!",
+      "translation": {
+        "ru": "Продли, пожалуйста, проездной билет перед началом поездки!",
+        "en": "Please renew your ticket before starting the journey!"
+      },
+      "bracket_parts": [
+        "Verlängere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

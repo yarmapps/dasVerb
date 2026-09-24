@@ -1,0 +1,202 @@
+{
+  "id": "zuordnen",
+  "infinitive": "zuordnen",
+  "translation": {
+    "ru": "сопоставлять, классифицировать, относить",
+    "en": "to assign, match, allocate"
+  },
+  "level": "B1",
+  "frequency_rank": 529,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "zu",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "zuordnen",
+    "present_3sg": "ordnet zu",
+    "praeteritum_3sg": "ordnete zu",
+    "partizip_2": "zugeordnet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "ordne zu",
+      "du": "ordnest zu",
+      "er_sie_es": "ordnet zu",
+      "wir": "ordnen zu",
+      "ihr": "ordnet zu",
+      "sie_Sie": "ordnen zu"
+    },
+    "praeteritum": {
+      "ich": "ordnete zu",
+      "du": "ordnetest zu",
+      "er_sie_es": "ordnete zu",
+      "wir": "ordneten zu",
+      "ihr": "ordnetet zu",
+      "sie_Sie": "ordneten zu"
+    },
+    "perfekt": {
+      "ich": "habe zugeordnet",
+      "du": "hast zugeordnet",
+      "er_sie_es": "hat zugeordnet",
+      "wir": "haben zugeordnet",
+      "ihr": "habt zugeordnet",
+      "sie_Sie": "haben zugeordnet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ_Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich ordne die neuen Belege den passenden Kategorien zu.",
+      "translation": {
+        "ru": "Я отношу новые чеки к подходящим категориям.",
+        "en": "I assign the new receipts to the matching categories."
+      },
+      "bracket_parts": [
+        "ordne",
+        "zu"
+      ],
+      "dativ_parts": [
+        "den passenden Kategorien"
+      ],
+      "akkusativ_parts": [
+        "die neuen Belege"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du ordnest jedes Bild dem richtigen Begriff zu.",
+      "translation": {
+        "ru": "Ты сопоставляешь каждую картинку с правильным понятием.",
+        "en": "You match each picture to the correct term."
+      },
+      "bracket_parts": [
+        "ordnest",
+        "zu"
+      ],
+      "dativ_parts": [
+        "dem richtigen Begriff"
+      ],
+      "akkusativ_parts": [
+        "jedes Bild"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Programm ordnet die eingehende Post den Mitarbeitern zu.",
+      "translation": {
+        "ru": "Программа распределяет входящую почту по сотрудникам.",
+        "en": "The program allocates incoming mail to the employees."
+      },
+      "bracket_parts": [
+        "ordnet",
+        "zu"
+      ],
+      "dativ_parts": [
+        "den Mitarbeitern"
+      ],
+      "akkusativ_parts": [
+        "die eingehende Post"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir ordnen die Fundstücke der Bronzezeit zu.",
+      "translation": {
+        "ru": "Мы относим найденные артефакты к бронзовому веку.",
+        "en": "We assign the finds to the Bronze Age."
+      },
+      "bracket_parts": [
+        "ordnen",
+        "zu"
+      ],
+      "dativ_parts": [
+        "der Bronzezeit"
+      ],
+      "akkusativ_parts": [
+        "die Fundstücke"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr ordnet die Zahlen den entsprechenden Spalten zu.",
+      "translation": {
+        "ru": "Вы распределяете числа по соответствующим столбцам.",
+        "en": "You assign the numbers to the corresponding columns."
+      },
+      "bracket_parts": [
+        "ordnet",
+        "zu"
+      ],
+      "dativ_parts": [
+        "den entsprechenden Spalten"
+      ],
+      "akkusativ_parts": [
+        "die Zahlen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie ordneten damals alle Akten den jeweiligen Abteilungen zu.",
+      "translation": {
+        "ru": "Они тогда распределили все дела по соответствующим отделам.",
+        "en": "They allocated all files to the respective departments back then."
+      },
+      "bracket_parts": [
+        "ordneten",
+        "zu"
+      ],
+      "dativ_parts": [
+        "den jeweiligen Abteilungen"
+      ],
+      "akkusativ_parts": [
+        "alle Akten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Forscher hat die neu entdeckte Tierart der Gattung zugeordnet.",
+      "translation": {
+        "ru": "Исследователь отнес вновь открытый вид животных к этому роду.",
+        "en": "The researcher assigned the newly discovered animal species to the genus."
+      },
+      "bracket_parts": [
+        "hat",
+        "zugeordnet"
+      ],
+      "dativ_parts": [
+        "der Gattung"
+      ],
+      "akkusativ_parts": [
+        "die neu entdeckte Tierart"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Ordne die Wörter den richtigen Sätzen zu!",
+      "translation": {
+        "ru": "Сопоставь слова с правильными предложениями!",
+        "en": "Match the words to the correct sentences!"
+      },
+      "bracket_parts": [
+        "Ordne",
+        "zu"
+      ],
+      "dativ_parts": [
+        "den richtigen Sätzen"
+      ],
+      "akkusativ_parts": [
+        "die Wörter"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

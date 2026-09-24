@@ -1,0 +1,147 @@
+{
+  "id": "senden",
+  "infinitive": "senden",
+  "translation": {
+    "ru": "посылать, отправлять, транслировать",
+    "en": "to send, to broadcast, to transmit"
+  },
+  "level": "A2",
+  "frequency_rank": 667,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "irregular",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "senden",
+    "present_3sg": "sendet",
+    "praeteritum_3sg": "sandte",
+    "partizip_2": "gesandt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "sende",
+      "du": "sendest",
+      "er_sie_es": "sendet",
+      "wir": "senden",
+      "ihr": "sendet",
+      "sie_Sie": "senden"
+    },
+    "praeteritum": {
+      "ich": "sandte",
+      "du": "sandtest",
+      "er_sie_es": "sandte",
+      "wir": "sandten",
+      "ihr": "sandtet",
+      "sie_Sie": "sandten"
+    },
+    "perfekt": {
+      "ich": "habe gesandt",
+      "du": "hast gesandt",
+      "er_sie_es": "hat gesandt",
+      "wir": "haben gesandt",
+      "ihr": "habt gesandt",
+      "sie_Sie": "haben gesandt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "an",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich sende die wichtigen Unterlagen per E-Mail an den Kunden.",
+      "translation": {
+        "ru": "Я отправляю важные документы по электронной почте клиенту.",
+        "en": "I send the important documents to the client by email."
+      },
+      "bracket_parts": [
+        "sende"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sendest du mir bitte die Fotos vom Urlaub?",
+      "translation": {
+        "ru": "Отправишь мне, пожалуйста, фотографии из отпуска?",
+        "en": "Will you please send me the vacation photos?"
+      },
+      "bracket_parts": [
+        "Sendest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Fernsehsender sendet heute ein spannendes Fußballspiel live.",
+      "translation": {
+        "ru": "Телеканал транслирует сегодня захватывающий футбольный матч в прямом эфире.",
+        "en": "The TV channel is broadcasting an exciting football match live today."
+      },
+      "bracket_parts": [
+        "sendet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir senden herzliche Grüße aus den Bergen.",
+      "translation": {
+        "ru": "Мы шлем сердечный привет из гор.",
+        "en": "We send warm greetings from the mountains."
+      },
+      "bracket_parts": [
+        "senden"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr sendet das Paket per Expressdienst.",
+      "translation": {
+        "ru": "Вы отправляете посылку экспресс-доставкой.",
+        "en": "You send the package by express delivery."
+      },
+      "bracket_parts": [
+        "sendet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Firma sandte damals einen Brief an alle Mitarbeiter.",
+      "translation": {
+        "ru": "Компания тогда разослала письмо всем сотрудникам.",
+        "en": "The company sent a letter to all employees back then."
+      },
+      "bracket_parts": [
+        "sandte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Er hat die Bewerbung gestern rechtzeitig abgesandt und gesandt.",
+      "translation": {
+        "ru": "Он вчера вовремя отправил свое резюме.",
+        "en": "He sent the application on time yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "gesandt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Sende bitte den Bericht sofort an die Geschäftsleitung!",
+      "translation": {
+        "ru": "Отправь, пожалуйста, отчет руководству немедленно!",
+        "en": "Please send the report to the management immediately!"
+      },
+      "bracket_parts": [
+        "Sende"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

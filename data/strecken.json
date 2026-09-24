@@ -1,0 +1,137 @@
+{
+  "id": "strecken",
+  "infinitive": "strecken",
+  "translation": {
+    "ru": "вытягивать, разминать, потягиваться",
+    "en": "to stretch, to extend"
+  },
+  "level": "B1",
+  "frequency_rank": 964,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "streckt",
+    "preterite_third_singular": "streckte",
+    "past_participle": "gestreckt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "strecke",
+      "du": "streckst",
+      "er_sie_es": "streckt",
+      "wir": "strecken",
+      "ihr": "streckt",
+      "sie_Sie": "strecken"
+    },
+    "preterite": {
+      "ich": "streckte",
+      "du": "strecktest",
+      "er_sie_es": "streckte",
+      "wir": "streckten",
+      "ihr": "strecktet",
+      "sie_Sie": "streckten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gestreckt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich strecke meine müden Beine nach dem langen Flug genüsslich aus.",
+      "translation": {
+        "ru": "Я с удовольствием вытягиваю уставшие ноги после долгого перелета.",
+        "en": "I stretch my tired legs delightfully after the long flight."
+      },
+      "bracket_parts": [
+        "strecke"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Streckst du deinen Arm nach oben, um den Ball zu fangen?",
+      "translation": {
+        "ru": "Ты тянешь руку вверх, чтобы поймать мяч?",
+        "en": "Are you stretching your arm up to catch the ball?"
+      },
+      "bracket_parts": [
+        "Streckst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Katze streckt sich wohlig auf dem sonnigen Teppich aus.",
+      "translation": {
+        "ru": "Кошка сладко потягивается на залитом солнцем ковре.",
+        "en": "The cat stretches comfortably on the sunny carpet."
+      },
+      "bracket_parts": [
+        "streckt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir strecken vor Beginn des Lauftrainings gründlich unsere Muskeln.",
+      "translation": {
+        "ru": "Перед началом беговой тренировки мы тщательно растягиваем мышцы.",
+        "en": "We thoroughly stretch our muscles before starting the running training."
+      },
+      "bracket_parts": [
+        "strecken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Streckt ihr eure Hände nach oben bei der Yogaübung?",
+      "translation": {
+        "ru": "Вытягиваете ли вы руки вверх во время упражнения йоги?",
+        "en": "Are you guys stretching your hands up in the yoga exercise?"
+      },
+      "bracket_parts": [
+        "Streckt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Turner streckte seinen Körper in einer perfekten Haltung.",
+      "translation": {
+        "ru": "Гимнаст вытянул тело в идеальной стойке.",
+        "en": "The gymnast stretched his body in a perfect posture."
+      },
+      "bracket_parts": [
+        "streckte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie hat ihre Arme weit nach den Sternen gestreckt.",
+      "translation": {
+        "ru": "Она широко протянула руки к звездам.",
+        "en": "She stretched her arms wide toward the stars."
+      },
+      "bracket_parts": [
+        "hat",
+        "gestreckt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Streck deinen Rücken gerade und atme tief ein!",
+      "translation": {
+        "ru": "Выпрями спину и сделай глубокий вдох!",
+        "en": "Stretch your back straight and breathe in deeply!"
+      },
+      "bracket_parts": [
+        "Streck"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

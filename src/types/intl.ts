@@ -83,6 +83,34 @@ export interface Translation {
       title: string;
       subtitle: string;
     };
+    natureEnvironment?: {
+      title: string;
+      subtitle: string;
+    };
+    lawSociety?: {
+      title: string;
+      subtitle: string;
+    };
+    relationsSocial?: {
+      title: string;
+      subtitle: string;
+    };
+    creationChange?: {
+      title: string;
+      subtitle: string;
+    };
+    travelTransport?: {
+      title: string;
+      subtitle: string;
+    };
+    perceptionSenses?: {
+      title: string;
+      subtitle: string;
+    };
+    digitalMedia?: {
+      title: string;
+      subtitle: string;
+    };
   };
   verbsPracticeListScreen: {
     title: string;

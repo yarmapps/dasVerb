@@ -1,0 +1,144 @@
+{
+  "id": "zusammenstellen",
+  "infinitive": "zusammenstellen",
+  "translation": {
+    "ru": "составлять, собирать, компоновать",
+    "en": "to compile, to put together, to arrange"
+  },
+  "level": "B1",
+  "frequency_rank": 936,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "stellt zusammen",
+    "preterite_third_singular": "stellte zusammen",
+    "past_participle": "zusammengestellt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stelle zusammen",
+      "du": "stellst zusammen",
+      "er_sie_es": "stellt zusammen",
+      "wir": "stellen zusammen",
+      "ihr": "stellt zusammen",
+      "sie_Sie": "stellen zusammen"
+    },
+    "preterite": {
+      "ich": "stellte zusammen",
+      "du": "stelltest zusammen",
+      "er_sie_es": "stellte zusammen",
+      "wir": "stellten zusammen",
+      "ihr": "stelltet zusammen",
+      "sie_Sie": "stellten zusammen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "zusammengestellt"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich stelle eine Liste der wichtigsten Vokabeln für die Prüfung zusammen.",
+      "translation": {
+        "ru": "Я составляю список важнейших слов для экзамена.",
+        "en": "I compile a list of the most important vocabulary for the exam."
+      },
+      "bracket_parts": [
+        "stelle",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stellst du das Team für das anstehende Softwareprojekt zusammen?",
+      "translation": {
+        "ru": "Ты собираешь команду для предстоящего программного проекта?",
+        "en": "Are you putting together the team for the upcoming software project?"
+      },
+      "bracket_parts": [
+        "Stellst",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Koch stellt ein erlesenes Vier-Gänge-Menü für die Gäste zusammen.",
+      "translation": {
+        "ru": "Шеф-повар составляет изысканное меню из четырех блюд для гостей.",
+        "en": "The chef compiles an exquisite four-course menu for the guests."
+      },
+      "bracket_parts": [
+        "stellt",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir stellen ein individuelles Reisepaket für unseren Urlaub zusammen.",
+      "translation": {
+        "ru": "Мы формируем индивидуальный туристический пакет для нашего отпуска.",
+        "en": "We put together a customized travel package for our vacation."
+      },
+      "bracket_parts": [
+        "stellen",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stellt ihr alle erforderlichen Dokumente für den Antrag zusammen?",
+      "translation": {
+        "ru": "Вы собираете все необходимые документы для подачи заявки?",
+        "en": "Are you guys putting together all the required documents for the application?"
+      },
+      "bracket_parts": [
+        "Stellt",
+        "zusammen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Verband stellte ein umfangreiches Informationspaket zusammen.",
+      "translation": {
+        "ru": "Ассоциация подготовила обширный информационный пакет.",
+        "en": "The association put together a comprehensive information package."
+      },
+      "bracket_parts": [
+        "stellte",
+        "zusammen"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie hat ein wundervolles Fotoalbum zur Erinnerung zusammengestellt.",
+      "translation": {
+        "ru": "Она составила замечательный фотоальбом на память.",
+        "en": "She compiled a wonderful photo album as a keepsake."
+      },
+      "bracket_parts": [
+        "hat",
+        "zusammengestellt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Stelle bitte die Unterlagen in der richtigen Reihenfolge zusammen!",
+      "translation": {
+        "ru": "Собери, пожалуйста, документы в правильном порядке!",
+        "en": "Please put the documents together in the correct order!"
+      },
+      "bracket_parts": [
+        "Stelle",
+        "zusammen"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

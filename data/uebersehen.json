@@ -1,0 +1,138 @@
+{
+  "id": "uebersehen",
+  "infinitive": "übersehen",
+  "translation": {
+    "ru": "пропускать, не замечать, обозревать",
+    "en": "to overlook, to miss"
+  },
+  "level": "B1",
+  "frequency_rank": 813,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "übersieht",
+    "preterite_third_singular": "übersah",
+    "past_participle": "übersehen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "übersehe",
+      "du": "übersiehst",
+      "er_sie_es": "übersieht",
+      "wir": "übersehen",
+      "ihr": "überseht",
+      "sie_Sie": "übersehen"
+    },
+    "preterite": {
+      "ich": "übersah",
+      "du": "übersahst",
+      "er_sie_es": "übersah",
+      "wir": "übersahen",
+      "ihr": "übersaht",
+      "sie_Sie": "übersahen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "übersehen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich übersehe manchmal kleine Druckfehler im Text.",
+      "translation": {
+        "ru": "Я иногда упускаю из виду мелкие опечатки в тексте.",
+        "en": "I sometimes overlook small typos in the text."
+      },
+      "bracket_parts": [
+        "übersehe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Übersiehst du das rote Stoppschild an der Kreuzung?",
+      "translation": {
+        "ru": "Ты не замечаешь красный знак «Стоп» на перекрестке?",
+        "en": "Are you missing the red stop sign at the intersection?"
+      },
+      "bracket_parts": [
+        "Übersiehst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Von diesem Berggipfel übersieht man das ganze Tal.",
+      "translation": {
+        "ru": "С этой вершины горы обозревается вся долина.",
+        "en": "From this mountain peak one overlooks the whole valley."
+      },
+      "bracket_parts": [
+        "übersieht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir übersehen diesen Fehler heute ausnahmsweise.",
+      "translation": {
+        "ru": "Мы закрываем глаза на эту ошибку сегодня в виде исключения.",
+        "en": "We overlook this mistake today as an exception."
+      },
+      "bracket_parts": [
+        "übersehen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Überseht ihr den wichtigen Hinweis auf der Verpackung?",
+      "translation": {
+        "ru": "Вы не замечаете важное указание на упаковке?",
+        "en": "Are you guys overlooking the important notice on the packaging?"
+      },
+      "bracket_parts": [
+        "Überseht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Autofahrer übersah den Radfahrer beim Abbiegen.",
+      "translation": {
+        "ru": "Водитель не заметил велосипедиста при повороте.",
+        "en": "The driver overlooked the cyclist when turning."
+      },
+      "bracket_parts": [
+        "übersah"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Niemand hat die versteckte Warnung im Dokument übersehen.",
+      "translation": {
+        "ru": "Никто не упустил скрытое предупреждение в документе.",
+        "en": "Nobody overlooked the hidden warning in the document."
+      },
+      "bracket_parts": [
+        "hat",
+        "übersehen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Übersehe keine Details beim Korrekturlesen!",
+      "translation": {
+        "ru": "Не упускай деталей при вычитке!",
+        "en": "Do not overlook any details when proofreading!"
+      },
+      "bracket_parts": [
+        "Übersehe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

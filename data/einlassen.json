@@ -1,0 +1,150 @@
+{
+  "id": "einlassen",
+  "infinitive": "einlassen",
+  "translation": {
+    "ru": "впускать, наливать (ванну), вступать/связываться (рефл.)",
+    "en": "to let in, to fill (a bath), to get involved (reflexive)"
+  },
+  "level": "B2",
+  "frequency_rank": 912,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "lässt ein",
+    "preterite_third_singular": "ließ ein",
+    "past_participle": "eingelassen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "lasse ein",
+      "du": "lässt ein",
+      "er_sie_es": "lässt ein",
+      "wir": "lassen ein",
+      "ihr": "lasst ein",
+      "sie_Sie": "lassen ein"
+    },
+    "preterite": {
+      "ich": "ließ ein",
+      "du": "ließest ein",
+      "er_sie_es": "ließ ein",
+      "wir": "ließen ein",
+      "ihr": "ließt ein",
+      "sie_Sie": "ließen ein"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "eingelassen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich lasse mir ein warmes Bad mit duftendem Schaum ein.",
+      "translation": {
+        "ru": "Я наливаю себе теплую ванну с ароматной пеной.",
+        "en": "I run myself a warm bath with fragrant foam."
+      },
+      "bracket_parts": [
+        "lasse",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lässt du dich wirklich auf diesen riskanten Handel ein?",
+      "translation": {
+        "ru": "Ты действительно ввязываешься в эту рискованную сделку?",
+        "en": "Are you really getting involved in this risky deal?"
+      },
+      "bracket_parts": [
+        "Lässt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Pförtner lässt die Besucher pünktlich um neun Uhr ein.",
+      "translation": {
+        "ru": "Швейцар впускает посетителей ровно в девять часов.",
+        "en": "The doorman lets the visitors in promptly at nine o'clock."
+      },
+      "bracket_parts": [
+        "lässt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir lassen uns gerne auf neue kulturelle Erfahrungen ein.",
+      "translation": {
+        "ru": "Мы с удовольствием открываемся для нового культурного опыта.",
+        "en": "We gladly engage in new cultural experiences."
+      },
+      "bracket_parts": [
+        "lassen",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Lasst ihr Fremde ohne Ausweiskontrolle ins Gebäude ein?",
+      "translation": {
+        "ru": "Вы впускаете посторонних в здание без проверки документов?",
+        "en": "Do you let strangers into the building without ID checks?"
+      },
+      "bracket_parts": [
+        "Lasst",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Wachmann ließ die Gäste nach kurzer Kontrolle ein.",
+      "translation": {
+        "ru": "Охранник впустил гостей после короткой проверки.",
+        "en": "The guard let the guests in after a brief check."
+      },
+      "bracket_parts": [
+        "ließ",
+        "ein"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie hat sich glücklicherweise nicht auf den Streit eingelassen.",
+      "translation": {
+        "ru": "Она, к счастью, не ввязалась в спор.",
+        "en": "Fortunately, she did not get involved in the argument."
+      },
+      "bracket_parts": [
+        "hat",
+        "eingelassen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Lass dich nicht auf faule Kompromisse ein!",
+      "translation": {
+        "ru": "Не соглашайся на гнилые компромиссы!",
+        "en": "Do not get involved in rotten compromises!"
+      },
+      "bracket_parts": [
+        "Lass",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

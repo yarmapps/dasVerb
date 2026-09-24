@@ -1,0 +1,144 @@
+{
+  "id": "antun",
+  "infinitive": "antun",
+  "translation": {
+    "ru": "причинять (зло/боль), очаровывать (быть по душе), надевать",
+    "en": "to do to (harm/favor), to charm, to put on"
+  },
+  "level": "B2",
+  "frequency_rank": 1036,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "irregular",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "tut an",
+    "preterite_third_singular": "tat an",
+    "past_participle": "angetan"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "tue an",
+      "du": "tust an",
+      "er_sie_es": "tut an",
+      "wir": "tun an",
+      "ihr": "tut an",
+      "sie_Sie": "tun an"
+    },
+    "preterite": {
+      "ich": "tat an",
+      "du": "tatest an",
+      "er_sie_es": "tat an",
+      "wir": "taten an",
+      "ihr": "tatet an",
+      "sie_Sie": "taten an"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "angetan"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich tue meinen Mitmenschen niemals absichtlich etwas Böses an.",
+      "translation": {
+        "ru": "Я никогда намеренно не причиняю зла своим ближним.",
+        "en": "I never deliberately do anything bad to my fellow human beings."
+      },
+      "bracket_parts": [
+        "tue",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Tust du dir den weiten Weg für diesen kurzen Besuch wirklich an?",
+      "translation": {
+        "ru": "Ты действительно подвергаешь себя такой дальней дороге ради короткого визита?",
+        "en": "Are you really putting yourself through the long journey for this brief visit?"
+      },
+      "bracket_parts": [
+        "Tust",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die malerische Stadt hat es den Touristen sofort angetan.",
+      "translation": {
+        "ru": "Живописный город сразу очаровал туристов.",
+        "en": "The picturesque city immediately charmed the tourists."
+      },
+      "bracket_parts": [
+        "hat",
+        "angetan"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir tun uns den unnötigen Stress vor den Feiertagen nicht mehr an.",
+      "translation": {
+        "ru": "Мы больше не подвергаем себя ненужному стрессу перед праздниками.",
+        "en": "We no longer subject ourselves to unnecessary stress before the holidays."
+      },
+      "bracket_parts": [
+        "tun",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Tut ihr euch die lange Wartezeit in der Schlange wirklich an?",
+      "translation": {
+        "ru": "Вы действительно согласны на такое долгое ожидание в очереди?",
+        "en": "Are you guys really putting up with the long wait in line?"
+      },
+      "bracket_parts": [
+        "Tut",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er tat seinem besten Freund mit dem Verrat großes Unrecht an.",
+      "translation": {
+        "ru": "Своим предательством он причинил лучшему другу большую несправедливость.",
+        "en": "He did his best friend great injustice with the betrayal."
+      },
+      "bracket_parts": [
+        "tat",
+        "an"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Niemand hat dem verletzten Tier etwas Schlimmes angetan.",
+      "translation": {
+        "ru": "Никто не причинил раненому животному ничего дурного.",
+        "en": "No one did anything bad to the injured animal."
+      },
+      "bracket_parts": [
+        "hat",
+        "angetan"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Tu niemandem etwas an, was du selbst nicht erleiden möchtest!",
+      "translation": {
+        "ru": "Не делай никому того, чего сам не желаешь испытать!",
+        "en": "Do not do to anyone what you would not want to suffer yourself!"
+      },
+      "bracket_parts": [
+        "Tu",
+        "an"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

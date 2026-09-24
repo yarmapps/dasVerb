@@ -1,0 +1,150 @@
+{
+  "id": "einschliessen",
+  "infinitive": "einschließen",
+  "translation": {
+    "ru": "запирать, включать в себя, окружать",
+    "en": "to lock in, to enclose, to include"
+  },
+  "level": "B2",
+  "frequency_rank": 762,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "schließt ein",
+    "preterite_third_singular": "schloss ein",
+    "past_participle": "eingeschlossen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schließe ein",
+      "du": "schließt ein",
+      "er_sie_es": "schließt ein",
+      "wir": "schließen ein",
+      "ihr": "schließt ein",
+      "sie_Sie": "schließen ein"
+    },
+    "preterite": {
+      "ich": "schloss ein",
+      "du": "schlossest ein",
+      "er_sie_es": "schloss ein",
+      "wir": "schlossen ein",
+      "ihr": "schlosst ein",
+      "sie_Sie": "schlossen ein"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "eingeschlossen"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich schließe meine Wertsachen sicher im Tresor ein.",
+      "translation": {
+        "ru": "Я надежно запираю свои ценности в сейфе.",
+        "en": "I lock my valuables securely in the safe."
+      },
+      "bracket_parts": [
+        "schließe",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schließt du den Preis für das Frühstück im Angebot ein?",
+      "translation": {
+        "ru": "Ты включаешь цену завтрака в предложение?",
+        "en": "Are you including the price of breakfast in the offer?"
+      },
+      "bracket_parts": [
+        "Schließt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das neue Gesamtpaket schließt alle Serviceleistungen ein.",
+      "translation": {
+        "ru": "Новый полный пакет включает в себя все сервисные услуги.",
+        "en": "The new complete package includes all services."
+      },
+      "bracket_parts": [
+        "schließt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schließen den Hund während des Besuchs im Zimmer ein.",
+      "translation": {
+        "ru": "Мы запираем собаку в комнате во время визита гостей.",
+        "en": "We lock the dog in the room during the visit."
+      },
+      "bracket_parts": [
+        "schließen",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schließt ihr die Nebenkosten in die Miete ein?",
+      "translation": {
+        "ru": "Вы включаете коммунальные услуги в арендную плату?",
+        "en": "Do you include utilities in the rent?"
+      },
+      "bracket_parts": [
+        "Schließt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Polizei schloss die verdächtige Gruppe komplett ein.",
+      "translation": {
+        "ru": "Полиция полностью окружила подозрительную группу.",
+        "en": "The police completely surrounded the suspicious group."
+      },
+      "bracket_parts": [
+        "schloss",
+        "ein"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben versehentlich den Hausschlüssel in der Wohnung eingeschlossen.",
+      "translation": {
+        "ru": "Они случайно заперли ключ от дома внутри квартиры.",
+        "en": "They inadvertently locked the house key inside the apartment."
+      },
+      "bracket_parts": [
+        "haben",
+        "eingeschlossen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schließe das Dokument vor dem Verlassen des Büros sicher ein!",
+      "translation": {
+        "ru": "Надежно запри документ перед уходом из офиса!",
+        "en": "Lock the document up safely before leaving the office!"
+      },
+      "bracket_parts": [
+        "Schließe",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

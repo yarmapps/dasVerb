@@ -1,0 +1,154 @@
+{
+  "id": "abstimmen",
+  "infinitive": "abstimmen",
+  "translation": {
+    "ru": "голосовать, согласовывать, настраивать",
+    "en": "to vote, to coordinate, to tune"
+  },
+  "level": "B1",
+  "frequency_rank": 612,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "separable",
+    "prefix": "ab",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "abstimmen",
+    "present_3sg": "stimmt ab",
+    "praeteritum_3sg": "stimmte ab",
+    "partizip_2": "abgestimmt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "stimme ab",
+      "du": "stimmst ab",
+      "er_sie_es": "stimmt ab",
+      "wir": "stimmen ab",
+      "ihr": "stimmt ab",
+      "sie_Sie": "stimmen ab"
+    },
+    "praeteritum": {
+      "ich": "stimmte ab",
+      "du": "stimmtest ab",
+      "er_sie_es": "stimmte ab",
+      "wir": "stimmten ab",
+      "ihr": "stimmtet ab",
+      "sie_Sie": "stimmten ab"
+    },
+    "perfekt": {
+      "ich": "habe abgestimmt",
+      "du": "hast abgestimmt",
+      "er_sie_es": "hat abgestimmt",
+      "wir": "haben abgestimmt",
+      "ihr": "habt abgestimmt",
+      "sie_Sie": "haben abgestimmt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "direct_case": null,
+    "preposition": "über",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich stimme für den vorgeschlagenen Kandidaten ab.",
+      "translation": {
+        "ru": "Я голосую за предложенного кандидата.",
+        "en": "I vote for the proposed candidate."
+      },
+      "bracket_parts": [
+        "stimme",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Stimmst du mit deinem Team den genauen Zeitplan ab?",
+      "translation": {
+        "ru": "Ты согласуешь со своей командой точный график?",
+        "en": "Are you coordinating the exact schedule with your team?"
+      },
+      "bracket_parts": [
+        "Stimmst",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Parlament stimmt heute über das neue Gesetz ab.",
+      "translation": {
+        "ru": "Парламент голосует сегодня по новому закону.",
+        "en": "Parliament is voting today on the new law."
+      },
+      "bracket_parts": [
+        "stimmt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir stimmen alle Details mit dem Kunden ab.",
+      "translation": {
+        "ru": "Мы согласовываем все детали с клиентом.",
+        "en": "We coordinate all details with the client."
+      },
+      "bracket_parts": [
+        "stimmen",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr stimmt über den besten Entwurf ab.",
+      "translation": {
+        "ru": "Вы голосуете за лучший проект.",
+        "en": "You are voting on the best draft."
+      },
+      "bracket_parts": [
+        "stimmt",
+        "ab"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Mitglieder stimmten damals mehrheitlich für den Antrag ab.",
+      "translation": {
+        "ru": "Члены организации тогда большинством проголосовали за заявку.",
+        "en": "The members voted in majority for the motion back then."
+      },
+      "bracket_parts": [
+        "stimmten",
+        "ab"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Wir haben das Vorgehen mit den Partnern genau abgestimmt.",
+      "translation": {
+        "ru": "Мы точно согласовали план действий с партнерами.",
+        "en": "We coordinated the procedure precisely with the partners."
+      },
+      "bracket_parts": [
+        "haben",
+        "abgestimmt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Stimm die Termine bitte frühzeitig mit allen ab!",
+      "translation": {
+        "ru": "Согласуй даты, пожалуйста, заранее со всеми!",
+        "en": "Please coordinate the appointments with everyone in good time!"
+      },
+      "bracket_parts": [
+        "Stimm",
+        "ab"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

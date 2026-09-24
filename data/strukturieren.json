@@ -1,0 +1,137 @@
+{
+  "id": "strukturieren",
+  "infinitive": "strukturieren",
+  "translation": {
+    "ru": "структурировать, упорядочивать",
+    "en": "to structure, to organize"
+  },
+  "level": "B2",
+  "frequency_rank": 988,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "strukturiert",
+    "preterite_third_singular": "strukturierte",
+    "past_participle": "strukturiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "strukturiere",
+      "du": "strukturierst",
+      "er_sie_es": "strukturiert",
+      "wir": "strukturieren",
+      "ihr": "strukturiert",
+      "sie_Sie": "strukturieren"
+    },
+    "preterite": {
+      "ich": "strukturierte",
+      "du": "strukturiertest",
+      "er_sie_es": "strukturierte",
+      "wir": "strukturierten",
+      "ihr": "strukturiertet",
+      "sie_Sie": "strukturierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "strukturiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich strukturiere meinen Arbeitstag mit einer klaren Prioritätenliste.",
+      "translation": {
+        "ru": "Я структурирую свой рабочий день с помощью четкого списка приоритетов.",
+        "en": "I structure my workday with a clear list of priorities."
+      },
+      "bracket_parts": [
+        "strukturiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Strukturierst du den Text in übersichtliche Absätze und Kapitel?",
+      "translation": {
+        "ru": "Ты структурируешь текст на понятные абзацы и главы?",
+        "en": "Do you structure the text into clear paragraphs and chapters?"
+      },
+      "bracket_parts": [
+        "Strukturierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Projektleiterin strukturiert den gesamten Ablauf des Seminars.",
+      "translation": {
+        "ru": "Руководитель проекта структурирует весь ход семинара.",
+        "en": "The project manager structures the entire process of the seminar."
+      },
+      "bracket_parts": [
+        "strukturiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir strukturieren die Kundendatenbank zur besseren Übersicht neu.",
+      "translation": {
+        "ru": "Мы заново структурируем базу данных клиентов для лучшей наглядности.",
+        "en": "We restructure the customer database for a better overview."
+      },
+      "bracket_parts": [
+        "strukturieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Strukturiert ihr eure Lernzeiten vor den anstehenden Klausuren?",
+      "translation": {
+        "ru": "Структурируете ли вы время учебы перед предстоящими контрольными?",
+        "en": "Do you guys structure your study times before the upcoming exams?"
+      },
+      "bracket_parts": [
+        "Strukturiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Autor strukturierte seinen Roman in drei spannende Hauptteile.",
+      "translation": {
+        "ru": "Автор структурировал свой роман на три захватывающие части.",
+        "en": "The author structured his novel into three exciting main parts."
+      },
+      "bracket_parts": [
+        "strukturierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Management hat die internen Abteilungen der Firma neu strukturiert.",
+      "translation": {
+        "ru": "Руководство заново структурировало внутренние отделы фирмы.",
+        "en": "Management has restructured the company's internal departments."
+      },
+      "bracket_parts": [
+        "hat",
+        "strukturiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Strukturiere deinen Vortrag logisch und nachvollziehbar!",
+      "translation": {
+        "ru": "Структурируй свой доклад логично и понятно!",
+        "en": "Structure your presentation logically and comprehensibly!"
+      },
+      "bracket_parts": [
+        "Strukturiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

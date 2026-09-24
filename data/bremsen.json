@@ -1,0 +1,137 @@
+{
+  "id": "bremsen",
+  "infinitive": "bremsen",
+  "translation": {
+    "ru": "тормозить, замедлять, сдерживать",
+    "en": "to brake, to slow down, to curb"
+  },
+  "level": "A2",
+  "frequency_rank": 1014,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "bremst",
+    "preterite_third_singular": "bremste",
+    "past_participle": "gebremst"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "bremse",
+      "du": "bremst",
+      "er_sie_es": "bremst",
+      "wir": "bremsen",
+      "ihr": "bremst",
+      "sie_Sie": "bremsen"
+    },
+    "preterite": {
+      "ich": "bremste",
+      "du": "bremstest",
+      "er_sie_es": "bremste",
+      "wir": "bremsten",
+      "ihr": "bremstet",
+      "sie_Sie": "bremsten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gebremst"
+    }
+  },
+  "rektion": {
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich bremse rechtzeitig vor der roten Ampel an der Kreuzung.",
+      "translation": {
+        "ru": "Я вовремя торможу перед красным светофором на перекрестке.",
+        "en": "I brake in time before the red traffic light at the intersection."
+      },
+      "bracket_parts": [
+        "bremse"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bremst du immer vorsichtig, wenn die Straße nass und rutschig ist?",
+      "translation": {
+        "ru": "Ты всегда осторожно тормозишь, когда дорога мокрая и скользкая?",
+        "en": "Do you always brake carefully when the road is wet and slippery?"
+      },
+      "bracket_parts": [
+        "Bremst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Autofahrer bremst abrupt, um einen Zusammenstoß zu verhindern.",
+      "translation": {
+        "ru": "Водитель резко тормозит, чтобы предотвратить столкновение.",
+        "en": "The driver brakes abruptly to prevent a collision."
+      },
+      "bracket_parts": [
+        "bremst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bremsen den übermäßigen Kostenanstieg durch strenge Sparmaßnahmen.",
+      "translation": {
+        "ru": "Мы сдерживаем чрезмерный рост расходов строгими мерами экономии.",
+        "en": "We curb the excessive cost increase through strict austerity measures."
+      },
+      "bracket_parts": [
+        "bremsen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bremst ihr euer Fahrrad mit beiden Handbremsen gleichzeitig ab?",
+      "translation": {
+        "ru": "Вы тормозите на велосипеде обоими ручными тормозами одновременно?",
+        "en": "Do you guys slow down your bicycle with both hand brakes simultaneously?"
+      },
+      "bracket_parts": [
+        "Bremst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Zug bremste mit lautem Quietschen vor dem Bahnhof.",
+      "translation": {
+        "ru": "Поезд с громким визгом затормозил перед вокзалом.",
+        "en": "The train braked with a loud screech before the station."
+      },
+      "bracket_parts": [
+        "bremste"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Zentralbank hat die hohe Inflation durch Zinserhöhungen gebremst.",
+      "translation": {
+        "ru": "Центробанк затормозил высокую инфляцию повышением процентных ставок.",
+        "en": "The central bank braked high inflation by raising interest rates."
+      },
+      "bracket_parts": [
+        "hat",
+        "gebremst"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Bremse rechtzeitig vor der unübersichtlichen Kurve ab!",
+      "translation": {
+        "ru": "Притормози вовремя перед закрытым поворотом!",
+        "en": "Brake in time before the blind curve!"
+      },
+      "bracket_parts": [
+        "Bremse"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

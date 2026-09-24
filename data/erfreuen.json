@@ -1,0 +1,143 @@
+{
+  "id": "erfreuen",
+  "infinitive": "erfreuen",
+  "translation": {
+    "ru": "радовать, доставлять удовольствие",
+    "en": "to please, to delight"
+  },
+  "level": "B2",
+  "frequency_rank": 865,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "erfreut",
+    "preterite_third_singular": "erfreute",
+    "past_participle": "erfreut"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erfreue",
+      "du": "erfreust",
+      "er_sie_es": "erfreut",
+      "wir": "erfreuen",
+      "ihr": "erfreut",
+      "sie_Sie": "erfreuen"
+    },
+    "preterite": {
+      "ich": "erfreute",
+      "du": "erfreutest",
+      "er_sie_es": "erfreute",
+      "wir": "erfreuten",
+      "ihr": "erfreutet",
+      "sie_Sie": "erfreuten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "erfreut"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "an",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich erfreue meine Großmutter mit einem bunten Blumenstrauß.",
+      "translation": {
+        "ru": "Я радую свою бабушку красочным букетом цветов.",
+        "en": "I delight my grandmother with a colorful bouquet of flowers."
+      },
+      "bracket_parts": [
+        "erfreue"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erfreust du dich an den ersten warmen Frühlingstagen?",
+      "translation": {
+        "ru": "Ты радуешься первым теплым весенним дням?",
+        "en": "Do you take pleasure in the first warm spring days?"
+      },
+      "bracket_parts": [
+        "Erfreust"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der schöne Gesang der Vögel erfreut die Spaziergänger.",
+      "translation": {
+        "ru": "Красивое пение птиц радует гуляющих.",
+        "en": "The beautiful birdsong delights the walkers."
+      },
+      "bracket_parts": [
+        "erfreut"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erfreuen unsere Gäste mit leckerem selbstgebackenem Kuchen.",
+      "translation": {
+        "ru": "Мы радуем наших гостей вкусным домашним пирогом.",
+        "en": "We please our guests with delicious homemade cake."
+      },
+      "bracket_parts": [
+        "erfreuen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erfreut ihr eure Eltern mit guten Schulnoten?",
+      "translation": {
+        "ru": "Вы радуете родителей хорошими школьными оценками?",
+        "en": "Do you please your parents with good school grades?"
+      },
+      "bracket_parts": [
+        "Erfreut"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die gelungene Überraschung erfreute das Geburtstagskind sehr.",
+      "translation": {
+        "ru": "Удавшийся сюрприз очень обрадовал именинника.",
+        "en": "The successful surprise pleased the birthday child very much."
+      },
+      "bracket_parts": [
+        "erfreute"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sein freundlicher Besuch hat uns alle sehr erfreut.",
+      "translation": {
+        "ru": "Его дружеский визит очень порадовал всех нас.",
+        "en": "His kind visit delighted all of us very much."
+      },
+      "bracket_parts": [
+        "hat",
+        "erfreut"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erfreue die Menschen in deiner Umgebung mit einem Lächeln!",
+      "translation": {
+        "ru": "Радуй окружающих людей улыбкой!",
+        "en": "Delight the people around you with a smile!"
+      },
+      "bracket_parts": [
+        "Erfreue"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

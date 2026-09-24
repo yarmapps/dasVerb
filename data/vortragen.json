@@ -1,0 +1,144 @@
+{
+  "id": "vortragen",
+  "infinitive": "vortragen",
+  "translation": {
+    "ru": "декламировать, исполнять, излагать (доклад/просьбу)",
+    "en": "to recite, to present, to perform"
+  },
+  "level": "B1",
+  "frequency_rank": 1054,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "trägt vor",
+    "preterite_third_singular": "trug vor",
+    "past_participle": "vorgetragen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "trage vor",
+      "du": "trägst vor",
+      "er_sie_es": "trägt vor",
+      "wir": "tragen vor",
+      "ihr": "tragt vor",
+      "sie_Sie": "tragen vor"
+    },
+    "preterite": {
+      "ich": "trug vor",
+      "du": "trugst vor",
+      "er_sie_es": "trug vor",
+      "wir": "trugen vor",
+      "ihr": "trugt vor",
+      "sie_Sie": "trugen vor"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "vorgetragen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich trage den Bericht über die Finanzen auf der Jahreshauptversammlung vor.",
+      "translation": {
+        "ru": "Я излагаю финансовый отчет на ежегодном общем собрании.",
+        "en": "I present the financial report at the annual general meeting."
+      },
+      "bracket_parts": [
+        "trage",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Trägst du das berühmte Gedicht von Schiller auswendig vor?",
+      "translation": {
+        "ru": "Ты декламируешь знаменитое стихотворение Шиллера наизусть?",
+        "en": "Are you reciting Schiller's famous poem by heart?"
+      },
+      "bracket_parts": [
+        "Trägst",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Musikerin trägt ein anspruchsvolles Violinkonzert auf der Bühne vor.",
+      "translation": {
+        "ru": "Музыкант исполняет сложное скрипичное произведение на сцене.",
+        "en": "The musician performs a demanding violin concerto on stage."
+      },
+      "bracket_parts": [
+        "trägt",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir tragen unsere Argumente dem Vorstand sachlich und überzeugend vor.",
+      "translation": {
+        "ru": "Мы излагаем наши аргументы правлению объективно и убедительно.",
+        "en": "We present our arguments to the board objectively and convincingly."
+      },
+      "bracket_parts": [
+        "tragen",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Tragt ihr eure Präsentation morgen gemeinsam im Seminar vor?",
+      "translation": {
+        "ru": "Выступите ли вы с презентацией завтра вместе на семинаре?",
+        "en": "Are you guys presenting your presentation together in the seminar tomorrow?"
+      },
+      "bracket_parts": [
+        "Tragt",
+        "vor"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schüler trug sein Referat mit großer Begeisterung vor.",
+      "translation": {
+        "ru": "Ученик выступил со своим докладом с огромным воодушевлением.",
+        "en": "The student presented his paper with great enthusiasm."
+      },
+      "bracket_parts": [
+        "trug",
+        "vor"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Schauspielerin hat den Monolog meisterhaft und gefühlvoll vorgetragen.",
+      "translation": {
+        "ru": "Актриса виртуозно и проникновенно исполнила монолог.",
+        "en": "The actress performed the monologue masterfully and emotionally."
+      },
+      "bracket_parts": [
+        "hat",
+        "vorgetragen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Trage deine Bitte ruhig und mit überzeugenden Worten vor!",
+      "translation": {
+        "ru": "Изложи свою просьбу спокойно и убедительными словами!",
+        "en": "Present your request calmly and with convincing words!"
+      },
+      "bracket_parts": [
+        "Trage",
+        "vor"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

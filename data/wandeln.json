@@ -1,0 +1,143 @@
+{
+  "id": "wandeln",
+  "infinitive": "wandeln",
+  "translation": {
+    "ru": "менять, преобразовывать, бродить/гулять",
+    "en": "to transform, to change, to walk/wander"
+  },
+  "level": "B2",
+  "frequency_rank": 849,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "wandelt",
+    "preterite_third_singular": "wandelte",
+    "past_participle": "gewandelt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "wandle",
+      "du": "wandelst",
+      "er_sie_es": "wandelt",
+      "wir": "wandeln",
+      "ihr": "wandelt",
+      "sie_Sie": "wandeln"
+    },
+    "preterite": {
+      "ich": "wandelte",
+      "du": "wandeltest",
+      "er_sie_es": "wandelte",
+      "wir": "wandelten",
+      "ihr": "wandeltet",
+      "sie_Sie": "wandelten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gewandelt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich wandle den theoretischen Ansatz in praktische Schritte um.",
+      "translation": {
+        "ru": "Я трансформирую теоретический подход в практические шаги.",
+        "en": "I transform the theoretical approach into practical steps."
+      },
+      "bracket_parts": [
+        "wandle"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wandelst du deine Gewohnheiten für ein gesünderes Leben?",
+      "translation": {
+        "ru": "Ты меняешь свои привычки ради более здоровой жизни?",
+        "en": "Are you changing your habits for a healthier life?"
+      },
+      "bracket_parts": [
+        "Wandelst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die moderne Gesellschaft wandelt sich rasant.",
+      "translation": {
+        "ru": "Современное общество стремительно меняется.",
+        "en": "Modern society is changing rapidly."
+      },
+      "bracket_parts": [
+        "wandelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir wandeln das alte Industriegebäude in moderne Lofts um.",
+      "translation": {
+        "ru": "Мы переделываем старое заводское здание в современные лофты.",
+        "en": "We convert the old industrial building into modern lofts."
+      },
+      "bracket_parts": [
+        "wandeln"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wandelt ihr die Sonnenenergie direkt in Strom um?",
+      "translation": {
+        "ru": "Вы преобразуете солнечную энергию напрямую в электричество?",
+        "en": "Do you convert solar energy directly into electricity?"
+      },
+      "bracket_parts": [
+        "Wandelt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Stadtbild wandelte sich in den letzten Jahrzehnten stark.",
+      "translation": {
+        "ru": "Облик города сильно изменился за последние десятилетия.",
+        "en": "The cityscape changed greatly in recent decades."
+      },
+      "bracket_parts": [
+        "wandelte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Einstellung der Bevölkerung hat sich grundlegend gewandelt.",
+      "translation": {
+        "ru": "Отношение населения коренным образом изменилось.",
+        "en": "The attitude of the population has changed fundamentally."
+      },
+      "bracket_parts": [
+        "hat",
+        "gewandelt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Wandle negative Energie in kreative Kraft um!",
+      "translation": {
+        "ru": "Превращай негативную энергию в творческую силу!",
+        "en": "Convert negative energy into creative power!"
+      },
+      "bracket_parts": [
+        "Wandle"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "entgehen",
+  "infinitive": "entgehen",
+  "translation": {
+    "ru": "ускользать, избегать (наказания/опасности), упускать (из виду)",
+    "en": "to escape, to miss, to elude"
+  },
+  "level": "B2",
+  "frequency_rank": 1039,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "entgeht",
+    "preterite_third_singular": "entging",
+    "past_participle": "entgangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "entgehe",
+      "du": "entgehst",
+      "er_sie_es": "entgeht",
+      "wir": "entgehen",
+      "ihr": "entgeht",
+      "sie_Sie": "entgehen"
+    },
+    "preterite": {
+      "ich": "entging",
+      "du": "entgingst",
+      "er_sie_es": "entging",
+      "wir": "entgingen",
+      "ihr": "entgingt",
+      "sie_Sie": "entgingen"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "entgangen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich entgehe der Erkältungswelle durch regelmäßige Saunabesuche.",
+      "translation": {
+        "ru": "Я избегаю волны простуд регулярным посещением сауны.",
+        "en": "I escape the cold wave through regular sauna visits."
+      },
+      "bracket_parts": [
+        "entgehe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Entgehst du der drohenden Strafe durch dein schnelles Geständnis?",
+      "translation": {
+        "ru": "Избегаешь ли ты грозящего наказания быстрым признанием?",
+        "en": "Do you escape the impending penalty through your prompt confession?"
+      },
+      "bracket_parts": [
+        "Entgehst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Seinem scharfen Blick entgeht nicht das kleinste Detail.",
+      "translation": {
+        "ru": "От его зоркого взгляда не ускользает ни малейшая деталь.",
+        "en": "Not the smallest detail escapes his sharp gaze."
+      },
+      "bracket_parts": [
+        "entgeht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir entgehen der großen Hitze durch einen Ausflug in die schattigen Berge.",
+      "translation": {
+        "ru": "Мы спасаемся от сильной жары поездкой в тенистые горы.",
+        "en": "We escape the great heat through a trip to the shady mountains."
+      },
+      "bracket_parts": [
+        "entgehen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Entgeht euch etwa die entscheidende Bedeutung dieser Entdeckung?",
+      "translation": {
+        "ru": "Ускользает ли от вас решающее значение этого открытия?",
+        "en": "Does the crucial significance of this discovery perhaps escape you guys?"
+      },
+      "bracket_parts": [
+        "Entgeht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Dieb entging der Polizei nur um wenige Sekunden.",
+      "translation": {
+        "ru": "Вор ускользнул от полиции всего на несколько секунд.",
+        "en": "The thief escaped the police by just a few seconds."
+      },
+      "bracket_parts": [
+        "entging"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Diese hervorragende Gelegenheit ist uns leider völlig entgangen.",
+      "translation": {
+        "ru": "Эта великолепная возможность, к сожалению, полностью ушла от нас (была упущена).",
+        "en": "This excellent opportunity unfortunately completely eluded us."
+      },
+      "bracket_parts": [
+        "ist",
+        "entgangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Entgehe Gefahren stets mit Klugheit und Vorsicht!",
+      "translation": {
+        "ru": "Всегда избегай опасностей с умом и осторожностью!",
+        "en": "Always escape dangers with prudence and caution!"
+      },
+      "bracket_parts": [
+        "Entgehe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

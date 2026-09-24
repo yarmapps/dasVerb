@@ -1,0 +1,145 @@
+{
+  "id": "untergehen",
+  "infinitive": "untergehen",
+  "translation": {
+    "ru": "заходить (о солнце), тонуть, гибнуть/рушиться",
+    "en": "to go down, to sink, to set (of the sun)"
+  },
+  "level": "B1",
+  "frequency_rank": 845,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "geht unter",
+    "preterite_third_singular": "ging unter",
+    "past_participle": "untergegangen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gehe unter",
+      "du": "gehst unter",
+      "er_sie_es": "geht unter",
+      "wir": "gehen unter",
+      "ihr": "geht unter",
+      "sie_Sie": "gehen unter"
+    },
+    "preterite": {
+      "ich": "ging unter",
+      "du": "gingst unter",
+      "er_sie_es": "ging unter",
+      "wir": "gingen unter",
+      "ihr": "gingt unter",
+      "sie_Sie": "gingen unter"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "untergegangen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich gehe im stressigen Alltagstrubel manchmal fast unter.",
+      "translation": {
+        "ru": "Я в стрессовой повседневной суете иногда почти тону.",
+        "en": "I sometimes almost drown in the stressful daily hustle."
+      },
+      "bracket_parts": [
+        "gehe",
+        "unter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gehst du in dieser großen Menschenmenge nicht unter?",
+      "translation": {
+        "ru": "Ты не теряешься в этой огромной толпе людей?",
+        "en": "Don't you get lost in this huge crowd?"
+      },
+      "bracket_parts": [
+        "Gehst",
+        "unter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die rote Sonne geht malerisch hinter den Bergen unter.",
+      "translation": {
+        "ru": "Красное солнце живописно заходит за горы.",
+        "en": "The red sun sets picturesquely behind the mountains."
+      },
+      "bracket_parts": [
+        "geht",
+        "unter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gehen bei dieser starken Konkurrenz keinesfalls unter.",
+      "translation": {
+        "ru": "Мы ни в коем случае не пропадем при такой сильной конкуренции.",
+        "en": "We certainly won't go under with this strong competition."
+      },
+      "bracket_parts": [
+        "gehen",
+        "unter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Geht ihr im Lärm der lauten Großstadt unter?",
+      "translation": {
+        "ru": "Вы теряетесь в шуме большого города?",
+        "en": "Do you guys drown in the noise of the big city?"
+      },
+      "bracket_parts": [
+        "Geht",
+        "unter"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das alte Römische Reich ging im Laufe der Jahrhunderte unter.",
+      "translation": {
+        "ru": "Древняя Римская империя погибла на протяжении веков.",
+        "en": "The ancient Roman Empire fell over the course of centuries."
+      },
+      "bracket_parts": [
+        "ging",
+        "unter"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das beschädigte Schiff ist mitten im Ozean untergegangen.",
+      "translation": {
+        "ru": "Поврежденный корабль затонул посреди океана.",
+        "en": "The damaged ship sank in the middle of the ocean."
+      },
+      "bracket_parts": [
+        "ist",
+        "untergegangen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Kämpfe für deine Träume und geh niemals unter!",
+      "translation": {
+        "ru": "Борись за свои мечты и никогда не иди ко дну!",
+        "en": "Fight for your dreams and never go under!"
+      },
+      "bracket_parts": [
+        "geh",
+        "unter"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

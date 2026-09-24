@@ -1,0 +1,147 @@
+{
+  "id": "plaedieren",
+  "infinitive": "plädieren",
+  "translation": {
+    "ru": "выступать (за/против), ратовать, защищать позицию",
+    "en": "to plead, to advocate for"
+  },
+  "level": "B2",
+  "frequency_rank": 958,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "plädiert",
+    "preterite_third_singular": "plädierte",
+    "past_participle": "plädiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "plädiere",
+      "du": "plädierst",
+      "er_sie_es": "plädiert",
+      "wir": "plädieren",
+      "ihr": "plädiert",
+      "sie_Sie": "plädieren"
+    },
+    "preterite": {
+      "ich": "plädierte",
+      "du": "plädiertest",
+      "er_sie_es": "plädierte",
+      "wir": "plädierten",
+      "ihr": "plädiertet",
+      "sie_Sie": "plädierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "plädiert"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "für",
+        "case": "Akkusativ"
+      },
+      {
+        "preposition": "auf",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich plädiere für eine umgehende Verlängerung der Frist.",
+      "translation": {
+        "ru": "Я выступаю за немедленное продление срока.",
+        "en": "I plead for an immediate extension of the deadline."
+      },
+      "bracket_parts": [
+        "plädiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Plädierst du in der Debatte für erneuerbare Energien?",
+      "translation": {
+        "ru": "Ты ратуешь на дебатах за возобновляемые источники энергии?",
+        "en": "Do you advocate for renewable energy in the debate?"
+      },
+      "bracket_parts": [
+        "Plädierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Verteidiger plädiert vor Gericht auf Freispruch des Angeklagten.",
+      "translation": {
+        "ru": "Защитник в суде требует (ходатайствует об) оправдания подсудимого.",
+        "en": "The defense attorney pleads for the acquittal of the defendant in court."
+      },
+      "bracket_parts": [
+        "plädiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir plädieren für mehr Transparenz bei politischen Entscheidungen.",
+      "translation": {
+        "ru": "Мы выступаем за большую прозрачность политических решений.",
+        "en": "We plead for more transparency in political decisions."
+      },
+      "bracket_parts": [
+        "plädieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Plädiert ihr für einen gemeinsamen Kompromiss im Tarifstreit?",
+      "translation": {
+        "ru": "Выступаете ли вы за совместный компромисс в тарифном споре?",
+        "en": "Are you guys advocating for a mutual compromise in the wage dispute?"
+      },
+      "bracket_parts": [
+        "Plädiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Expertin plädierte leidenschaftlich für den Schutz der Umwelt.",
+      "translation": {
+        "ru": "Эксперт страстно выступала за защиту окружающей среды.",
+        "en": "The expert passionately advocated for environmental protection."
+      },
+      "bracket_parts": [
+        "plädierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Alle Parteimitglieder haben einstimmig für den Reformvorschlag plädiert.",
+      "translation": {
+        "ru": "Все члены партии единогласно высказались за проект реформы.",
+        "en": "All party members unanimously pleaded for the reform proposal."
+      },
+      "bracket_parts": [
+        "haben",
+        "plädiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Plädiere immer mit stichhaltigen Argumenten für deine Sache!",
+      "translation": {
+        "ru": "Всегда отстаивай свое дело вескими аргументами!",
+        "en": "Always plead for your cause with sound arguments!"
+      },
+      "bracket_parts": [
+        "Plädiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

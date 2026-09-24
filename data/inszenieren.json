@@ -1,0 +1,137 @@
+{
+  "id": "inszenieren",
+  "infinitive": "inszenieren",
+  "translation": {
+    "ru": "инсценировать, ставить (спектакль), срежиссировать",
+    "en": "to stage, to direct, to orchestrate"
+  },
+  "level": "B2",
+  "frequency_rank": 1042,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "inszeniert",
+    "preterite_third_singular": "inszenierte",
+    "past_participle": "inszeniert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "inszeniere",
+      "du": "inszenierst",
+      "er_sie_es": "inszeniert",
+      "wir": "inszenieren",
+      "ihr": "inszeniert",
+      "sie_Sie": "inszenieren"
+    },
+    "preterite": {
+      "ich": "inszenierte",
+      "du": "inszeniertest",
+      "er_sie_es": "inszenierte",
+      "wir": "inszenierten",
+      "ihr": "inszeniertet",
+      "sie_Sie": "inszenierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "inszeniert"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich inszeniere das klassische Drama von Goethe in einer modernen Fassung.",
+      "translation": {
+        "ru": "Я ставлю классическую драму Гёте в современной редакции.",
+        "en": "I stage Goethe's classic drama in a modern version."
+      },
+      "bracket_parts": [
+        "inszeniere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Inszenierst du die Jubiläumsfeier der Schule mit viel Musik und Tanz?",
+      "translation": {
+        "ru": "Режиссируешь ли ты юбилейный праздник школы с большим количеством музыки и танцев?",
+        "en": "Are you staging the school's anniversary celebration with lots of music and dance?"
+      },
+      "bracket_parts": [
+        "Inszenierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Regisseur inszeniert die Oper mit spektakulären visuellen Effekten.",
+      "translation": {
+        "ru": "Режиссер ставит оперу с эффектными визуальными спецэффектами.",
+        "en": "The director stages the opera with spectacular visual effects."
+      },
+      "bracket_parts": [
+        "inszeniert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir inszenieren ein spannendes Kriminalstück im Schultheater.",
+      "translation": {
+        "ru": "Мы ставим увлекательный детектив в школьном театре.",
+        "en": "We are staging an exciting detective play in the school theater."
+      },
+      "bracket_parts": [
+        "inszenieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Inszeniert ihr die Pressekonferenz als großes Medienereignis?",
+      "translation": {
+        "ru": "Организуете (инсценируете) ли вы пресс-конференцию как масштабное медиасобытие?",
+        "en": "Are you guys staging the press conference as a major media event?"
+      },
+      "bracket_parts": [
+        "Inszeniert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Theatergruppe inszenierte das neue Stück mit überwältigendem Erfolg.",
+      "translation": {
+        "ru": "Театральная труппа поставила новую пьесу с ошеломляющим успехом.",
+        "en": "The theater group staged the new play with overwhelming success."
+      },
+      "bracket_parts": [
+        "inszenierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Choreograf hat das Ballett völlig neu inszeniert.",
+      "translation": {
+        "ru": "Хореограф поставил балет в совершенно новой интерпретации.",
+        "en": "The choreographer staged the ballet completely anew."
+      },
+      "bracket_parts": [
+        "hat",
+        "inszeniert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Inszeniere die Geschichte authentisch und emotional berührend!",
+      "translation": {
+        "ru": "Поставь эту историю аутентично и эмоционально трогательно!",
+        "en": "Stage the story authentically and emotionally touching!"
+      },
+      "bracket_parts": [
+        "Inszeniere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

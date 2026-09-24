@@ -1,0 +1,147 @@
+{
+  "id": "hocken",
+  "infinitive": "hocken",
+  "translation": {
+    "ru": "сидеть на корточках, торчать (дома)",
+    "en": "to squat, to crouch, to sit around"
+  },
+  "level": "B2",
+  "frequency_rank": 787,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "hockt",
+    "preterite_third_singular": "hockte",
+    "past_participle": "gehockt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "hocke",
+      "du": "hockst",
+      "er_sie_es": "hockt",
+      "wir": "hocken",
+      "ihr": "hockt",
+      "sie_Sie": "hocken"
+    },
+    "preterite": {
+      "ich": "hockte",
+      "du": "hocktest",
+      "er_sie_es": "hockte",
+      "wir": "hockten",
+      "ihr": "hocktet",
+      "sie_Sie": "hockten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gehockt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "auf",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich hocke den ganzen Tag vor dem Computerbildschirm.",
+      "translation": {
+        "ru": "Я весь день торчу перед экраном компьютера.",
+        "en": "I sit in front of the computer screen all day."
+      },
+      "bracket_parts": [
+        "hocke"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Warum hockst du bei schönem Wetter drinnen?",
+      "translation": {
+        "ru": "Почему ты в хорошую погоду сидишь взаперти дома?",
+        "en": "Why are you crouching indoors in nice weather?"
+      },
+      "bracket_parts": [
+        "hockst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die kleine Katze hockt neugierig auf der Mauer.",
+      "translation": {
+        "ru": "Маленькая кошка с любопытством сидит на стене.",
+        "en": "The small cat sits curiously on the wall."
+      },
+      "bracket_parts": [
+        "hockt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir hocken gemütlich am warmen Lagerfeuer.",
+      "translation": {
+        "ru": "Мы уютно сидим у теплого костра.",
+        "en": "We squat comfortably by the warm campfire."
+      },
+      "bracket_parts": [
+        "hocken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Hockt ihr schon wieder in eurer dunklen Ecke?",
+      "translation": {
+        "ru": "Вы опять торчите в своем темном углу?",
+        "en": "Are you guys sitting around in your dark corner again?"
+      },
+      "bracket_parts": [
+        "Hockt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Kinder hockten stundenlang im Spielhaus im Garten.",
+      "translation": {
+        "ru": "Дети часами сидели в игровом домике в саду.",
+        "en": "The children sat for hours in the playhouse in the garden."
+      },
+      "bracket_parts": [
+        "hockten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben das ganze Wochenende nur zu Hause gehockt.",
+      "translation": {
+        "ru": "Они все выходные только просидели дома.",
+        "en": "They just sat at home the whole weekend."
+      },
+      "bracket_parts": [
+        "haben",
+        "gehockt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Hock nicht so viel herum und geh an die frische Luft!",
+      "translation": {
+        "ru": "Не сиди столько дома и иди на свежий воздух!",
+        "en": "Don't sit around so much and get some fresh air!"
+      },
+      "bracket_parts": [
+        "Hock"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

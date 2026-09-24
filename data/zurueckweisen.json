@@ -1,0 +1,144 @@
+{
+  "id": "zurueckweisen",
+  "infinitive": "zurückweisen",
+  "translation": {
+    "ru": "отклонять, отвергать (обвинение/предложение), отправлять назад",
+    "en": "to reject, to dismiss, to turn back"
+  },
+  "level": "B2",
+  "frequency_rank": 1001,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "weist zurück",
+    "preterite_third_singular": "wies zurück",
+    "past_participle": "zurückgewiesen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "weise zurück",
+      "du": "weist zurück",
+      "er_sie_es": "weist zurück",
+      "wir": "weisen zurück",
+      "ihr": "weist zurück",
+      "sie_Sie": "weisen zurück"
+    },
+    "preterite": {
+      "ich": "wies zurück",
+      "du": "wiesest zurück",
+      "er_sie_es": "wies zurück",
+      "wir": "wiesen zurück",
+      "ihr": "wiest zurück",
+      "sie_Sie": "wiesen zurück"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "zurückgewiesen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich weise alle unbegründeten Vorwürfe entschieden zurück.",
+      "translation": {
+        "ru": "Я решительно отвергаю все необоснованные обвинения.",
+        "en": "I firmly reject all baseless accusations."
+      },
+      "bracket_parts": [
+        "weise",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Weist du das unverschämt niedrige Angebot des Käufers sofort zurück?",
+      "translation": {
+        "ru": "Ты сразу отвергаешь нагло заниженное предложение покупателя?",
+        "en": "Do you immediately reject the buyer's outrageously low offer?"
+      },
+      "bracket_parts": [
+        "Weist",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Gericht weist die Klage mangels ausreichender Beweise zurück.",
+      "translation": {
+        "ru": "Суд отклоняет иск за неимением достаточных доказательств.",
+        "en": "The court dismisses the lawsuit for lack of sufficient evidence."
+      },
+      "bracket_parts": [
+        "weist",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir weisen jede Form von politischem Extremismus konsequent zurück.",
+      "translation": {
+        "ru": "Мы последовательно отвергаем любую форму политического экстремизма.",
+        "en": "We consistently reject any form of political extremism."
+      },
+      "bracket_parts": [
+        "weisen",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Weist ihr die fehlerhafte Warenlieferung an den Absender zurück?",
+      "translation": {
+        "ru": "Отправляете ли вы бракованную поставку товара обратно отправителю?",
+        "en": "Are you guys sending the defective shipment back to the sender?"
+      },
+      "bracket_parts": [
+        "Weist",
+        "zurück"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Grenzpolizei wies Reisende ohne gültigen Pass an der Grenze zurück.",
+      "translation": {
+        "ru": "Пограничная полиция разворачивала путешественников без действующего паспорта на границе.",
+        "en": "The border police turned travelers without valid passports back at the border."
+      },
+      "bracket_parts": [
+        "wies",
+        "zurück"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Minister hat die Rücktrittsforderungen der Opposition scharf zurückgewiesen.",
+      "translation": {
+        "ru": "Министр резко отверг требования оппозиции об отставке.",
+        "en": "The minister sharply rejected the opposition's resignation demands."
+      },
+      "bracket_parts": [
+        "hat",
+        "zurückgewiesen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Weise falsche Anschuldigungen stets mit klaren Fakten zurück!",
+      "translation": {
+        "ru": "Всегда отвергай ложные обвинения четкими фактами!",
+        "en": "Always refute false accusations with clear facts!"
+      },
+      "bracket_parts": [
+        "Weise",
+        "zurück"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

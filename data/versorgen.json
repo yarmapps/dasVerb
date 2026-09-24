@@ -1,0 +1,171 @@
+{
+  "id": "versorgen",
+  "infinitive": "versorgen",
+  "translation": {
+    "ru": "снабжать, обеспечивать, ухаживать",
+    "en": "to supply, provide for, look after"
+  },
+  "level": "B1",
+  "frequency_rank": 538,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "versorgen",
+    "present_3sg": "versorgt",
+    "praeteritum_3sg": "versorgte",
+    "partizip_2": "versorgt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "versorge",
+      "du": "versorgst",
+      "er_sie_es": "versorgt",
+      "wir": "versorgen",
+      "ihr": "versorgt",
+      "sie_Sie": "versorgen"
+    },
+    "praeteritum": {
+      "ich": "versorgte",
+      "du": "versorgtest",
+      "er_sie_es": "versorgte",
+      "wir": "versorgten",
+      "ihr": "versorgtet",
+      "sie_Sie": "versorgten"
+    },
+    "perfekt": {
+      "ich": "habe versorgt",
+      "du": "hast versorgt",
+      "er_sie_es": "hat versorgt",
+      "wir": "haben versorgt",
+      "ihr": "habt versorgt",
+      "sie_Sie": "haben versorgt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Akkusativ",
+    "preposition": "mit",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich versorge die hungrigen Haustiere jeden Morgen pünktlich.",
+      "translation": {
+        "ru": "Каждое утро я пунктуально кормлю голодных домашних животных.",
+        "en": "I care for the hungry pets punctually every morning."
+      },
+      "bracket_parts": [
+        "versorge"
+      ],
+      "akkusativ_parts": [
+        "die hungrigen Haustiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du versorgst deine kranke Nachbarin mit frischen Lebensmitteln.",
+      "translation": {
+        "ru": "Ты снабжаешь больную соседку свежими продуктами.",
+        "en": "You supply your sick neighbor with fresh groceries."
+      },
+      "bracket_parts": [
+        "versorgst"
+      ],
+      "akkusativ_parts": [
+        "deine kranke Nachbarin"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Stadtwerke versorgen die gesamte Region zuverlässig mit Strom.",
+      "translation": {
+        "ru": "Коммунальные службы надежно обеспечивают весь регион электричеством.",
+        "en": "The municipal utilities reliably supply the entire region with electricity."
+      },
+      "bracket_parts": [
+        "versorgen"
+      ],
+      "akkusativ_parts": [
+        "die gesamte Region"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir versorgen die Bedürftigen mit warmer Kleidung.",
+      "translation": {
+        "ru": "Мы обеспечиваем нуждающихся теплой одеждой.",
+        "en": "We provide the needy with warm clothes."
+      },
+      "bracket_parts": [
+        "versorgen"
+      ],
+      "akkusativ_parts": [
+        "die Bedürftigen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr versorgt die Gäste auf dem Fest mit Getränken.",
+      "translation": {
+        "ru": "Вы обеспечиваете гостей на празднике напитками.",
+        "en": "You supply the guests with drinks at the party."
+      },
+      "bracket_parts": [
+        "versorgt"
+      ],
+      "akkusativ_parts": [
+        "die Gäste"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie versorgten damals die Verletzten im Feldlazarett.",
+      "translation": {
+        "ru": "Они тогда оказывали помощь раненым в полевом госпитале.",
+        "en": "They treated the injured in the field hospital back then."
+      },
+      "bracket_parts": [
+        "versorgten"
+      ],
+      "akkusativ_parts": [
+        "die Verletzten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Sanitäter hat die offene Wunde fachmännisch versorgt.",
+      "translation": {
+        "ru": "Санитар профессионально обработал открытую рану.",
+        "en": "The paramedic professionally treated the open wound."
+      },
+      "bracket_parts": [
+        "hat",
+        "versorgt"
+      ],
+      "akkusativ_parts": [
+        "die offene Wunde"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Versorge die Blumen im Garten ausreichend mit Wasser!",
+      "translation": {
+        "ru": "Обеспечь цветы в саду достаточным количеством воды!",
+        "en": "Provide the flowers in the garden with enough water!"
+      },
+      "bracket_parts": [
+        "Versorge"
+      ],
+      "akkusativ_parts": [
+        "die Blumen im Garten"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

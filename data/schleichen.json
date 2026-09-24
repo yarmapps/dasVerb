@@ -1,0 +1,137 @@
+{
+  "id": "schleichen",
+  "infinitive": "schleichen",
+  "translation": {
+    "ru": "красться, крадучись идти, ползти (о времени)",
+    "en": "to sneak, to creep, to prowl"
+  },
+  "level": "B2",
+  "frequency_rank": 1045,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "schleicht",
+    "preterite_third_singular": "schlich",
+    "past_participle": "geschlichen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schleiche",
+      "du": "schleichst",
+      "er_sie_es": "schleicht",
+      "wir": "schleichen",
+      "ihr": "schleicht",
+      "sie_Sie": "schleichen"
+    },
+    "preterite": {
+      "ich": "schlich",
+      "du": "schlichst",
+      "er_sie_es": "schlich",
+      "wir": "schlichen",
+      "ihr": "schlicht",
+      "sie_Sie": "schlichen"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "geschlichen"
+    }
+  },
+  "rektion": {
+    "requires_object": false
+  },
+  "sentences": [
+    {
+      "german": "Ich schleiche auf Zehenspitzen durch den dunklen Flur zur Küche.",
+      "translation": {
+        "ru": "Я на цыпочках крадусь по темному коридору на кухню.",
+        "en": "I sneak on tiptoe through the dark hallway to the kitchen."
+      },
+      "bracket_parts": [
+        "schleiche"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schleichst du dich heimlich mitten in der Nacht aus dem Haus?",
+      "translation": {
+        "ru": "Ты тайком посреди ночи крадешься из дома?",
+        "en": "Are you sneaking secretly out of the house in the middle of the night?"
+      },
+      "bracket_parts": [
+        "Schleichst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Raubkatze schleicht lautlos an ihre Beute heran.",
+      "translation": {
+        "ru": "Хищная кошка бесшумно подкрадывается к своей добыче.",
+        "en": "The big cat creeps silently up on its prey."
+      },
+      "bracket_parts": [
+        "schleicht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schleichen leise am schlafenden Hund im Wohnzimmer vorbei.",
+      "translation": {
+        "ru": "Мы тихонько крадемся мимо спящей собаки в гостиной.",
+        "en": "We sneak quietly past the sleeping dog in the living room."
+      },
+      "bracket_parts": [
+        "schleichen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schleicht ihr im Dunkeln durch den dichten Wald?",
+      "translation": {
+        "ru": "Крадетесь ли вы в темноте через густой лес?",
+        "en": "Are you guys creeping through the dense forest in the dark?"
+      },
+      "bracket_parts": [
+        "Schleicht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Einbrecher schlich vorsichtig um das verlassene Gebäude herum.",
+      "translation": {
+        "ru": "Грабитель осторожно крался вокруг заброшенного здания.",
+        "en": "The burglar crept cautiously around the abandoned building."
+      },
+      "bracket_parts": [
+        "schlich"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das Kind ist frühmorgens heimlich zum Kühlschrank geschlichen.",
+      "translation": {
+        "ru": "Ребенок рано утром тайком прокрался к холодильнику.",
+        "en": "The child sneaked secretly to the refrigerator early in the morning."
+      },
+      "bracket_parts": [
+        "ist",
+        "geschlichen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schleich leise und wecke niemanden im Haus auf!",
+      "translation": {
+        "ru": "Крадись тихо и никого не разбуди в доме!",
+        "en": "Sneak quietly and don't wake anyone up in the house!"
+      },
+      "bracket_parts": [
+        "Schleich"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

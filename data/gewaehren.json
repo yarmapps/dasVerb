@@ -1,0 +1,195 @@
+{
+  "id": "gewaehren",
+  "infinitive": "gewähren",
+  "translation": {
+    "ru": "предоставлять, давать, гарантировать",
+    "en": "to grant, afford, give"
+  },
+  "level": "B2",
+  "frequency_rank": 526,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ge",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "gewähren",
+    "present_3sg": "gewährt",
+    "praeteritum_3sg": "gewährte",
+    "partizip_2": "gewährt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gewähre",
+      "du": "gewährst",
+      "er_sie_es": "gewährt",
+      "wir": "gewähren",
+      "ihr": "gewährt",
+      "sie_Sie": "gewähren"
+    },
+    "praeteritum": {
+      "ich": "gewährte",
+      "du": "gewährtest",
+      "er_sie_es": "gewährte",
+      "wir": "gewährten",
+      "ihr": "gewährtet",
+      "sie_Sie": "gewährten"
+    },
+    "perfekt": {
+      "ich": "habe gewährt",
+      "du": "hast gewährt",
+      "er_sie_es": "hat gewährt",
+      "wir": "haben gewährt",
+      "ihr": "habt gewährt",
+      "sie_Sie": "haben gewährt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "Dativ_Akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich gewähre dir einen kleinen Rabatt auf diesen Einkauf.",
+      "translation": {
+        "ru": "Я предоставляю тебе небольшую скидку на эту покупку.",
+        "en": "I grant you a small discount on this purchase."
+      },
+      "bracket_parts": [
+        "gewähre"
+      ],
+      "dativ_parts": [
+        "dir"
+      ],
+      "akkusativ_parts": [
+        "einen kleinen Rabatt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du gewährst dem Gast freundliche Unterkunft für eine Nacht.",
+      "translation": {
+        "ru": "Ты любезно предоставляешь гостю ночлег на одну ночь.",
+        "en": "You grant the guest friendly lodging for one night."
+      },
+      "bracket_parts": [
+        "gewährst"
+      ],
+      "dativ_parts": [
+        "dem Gast"
+      ],
+      "akkusativ_parts": [
+        "freundliche Unterkunft"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Bank gewährt dem Unternehmer einen langfristigen Kredit.",
+      "translation": {
+        "ru": "Банк предоставляет предпринимателю долгосрочный кредит.",
+        "en": "The bank grants the entrepreneur a long-term loan."
+      },
+      "bracket_parts": [
+        "gewährt"
+      ],
+      "dativ_parts": [
+        "dem Unternehmer"
+      ],
+      "akkusativ_parts": [
+        "einen langfristigen Kredit"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gewähren unseren Stammkunden besondere Vorteile.",
+      "translation": {
+        "ru": "Мы предоставляем нашим постоянным клиентам особые преимущества.",
+        "en": "We grant our regular customers special benefits."
+      },
+      "bracket_parts": [
+        "gewähren"
+      ],
+      "dativ_parts": [
+        "unseren Stammkunden"
+      ],
+      "akkusativ_parts": [
+        "besondere Vorteile"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr gewährt den Mitarbeitern einen Tag Sonderurlaub.",
+      "translation": {
+        "ru": "Вы предоставляете сотрудникам один день дополнительного отпуска.",
+        "en": "You grant the employees one day of special leave."
+      },
+      "bracket_parts": [
+        "gewährt"
+      ],
+      "dativ_parts": [
+        "den Mitarbeitern"
+      ],
+      "akkusativ_parts": [
+        "einen Tag Sonderurlaub"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie gewährten damals den Verfolgten sicheren Schutz.",
+      "translation": {
+        "ru": "Они тогда предоставили преследуемым надежное убежище.",
+        "en": "They granted safe protection to the persecuted back then."
+      },
+      "bracket_parts": [
+        "gewährten"
+      ],
+      "dativ_parts": [
+        "den Verfolgten"
+      ],
+      "akkusativ_parts": [
+        "sicheren Schutz"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Der Staat hat den Betroffenen finanzielle Unterstützung gewährt.",
+      "translation": {
+        "ru": "Государство предоставило пострадавшим финансовую помощь.",
+        "en": "The state granted financial support to those affected."
+      },
+      "bracket_parts": [
+        "hat",
+        "gewährt"
+      ],
+      "dativ_parts": [
+        "den Betroffenen"
+      ],
+      "akkusativ_parts": [
+        "finanzielle Unterstützung"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gewähre mir bitte einen kurzen Einblick in deine Arbeit!",
+      "translation": {
+        "ru": "Дай мне, пожалуйста, кратко взглянуть на твою работу!",
+        "en": "Please grant me a brief insight into your work!"
+      },
+      "bracket_parts": [
+        "Gewähre"
+      ],
+      "dativ_parts": [
+        "mir"
+      ],
+      "akkusativ_parts": [
+        "einen kurzen Einblick"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "installieren",
+  "infinitive": "installieren",
+  "translation": {
+    "ru": "устанавливать, инсталлировать (программу/оборудование)",
+    "en": "to install, to set up"
+  },
+  "level": "A2",
+  "frequency_rank": 1019,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "installiert",
+    "preterite_third_singular": "installierte",
+    "past_participle": "installiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "installiere",
+      "du": "installierst",
+      "er_sie_es": "installiert",
+      "wir": "installieren",
+      "ihr": "installiert",
+      "sie_Sie": "installieren"
+    },
+    "preterite": {
+      "ich": "installierte",
+      "du": "installiertest",
+      "er_sie_es": "installierte",
+      "wir": "installierten",
+      "ihr": "installiertet",
+      "sie_Sie": "installierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "installiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich installiere das neue Betriebssystem auf meinem Laptop.",
+      "translation": {
+        "ru": "Я устанавливаю новую операционную систему на свой ноутбук.",
+        "en": "I install the new operating system on my laptop."
+      },
+      "bracket_parts": [
+        "installiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Installierst du die nützliche Vokabel-App auf deinem Smartphone?",
+      "translation": {
+        "ru": "Ты устанавливаешь полезное словарное приложение на смартфон?",
+        "en": "Are you installing the useful vocabulary app on your smartphone?"
+      },
+      "bracket_parts": [
+        "Installierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Handwerker installiert eine moderne Solaranlage auf dem Hausdach.",
+      "translation": {
+        "ru": "Мастер устанавливает современную солнечную батарею на крыше дома.",
+        "en": "The craftsman installs a modern solar system on the house roof."
+      },
+      "bracket_parts": [
+        "installiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir installieren alle notwendigen Sicherheitsupdates automatisch.",
+      "translation": {
+        "ru": "Мы устанавливаем все необходимые обновления безопасности автоматически.",
+        "en": "We install all necessary security updates automatically."
+      },
+      "bracket_parts": [
+        "installieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Installiert ihr die neue Software heute noch auf allen Bürorechnern?",
+      "translation": {
+        "ru": "Установите ли вы сегодня новое ПО на все офисные компьютеры?",
+        "en": "Are you guys installing the new software on all office computers today?"
+      },
+      "bracket_parts": [
+        "Installiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Techniker installierte die Klimaanlage innerhalb weniger Stunden.",
+      "translation": {
+        "ru": "Техник установил кондиционер за несколько часов.",
+        "en": "The technician installed the air conditioning unit within a few hours."
+      },
+      "bracket_parts": [
+        "installierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Mein Freund hat mir das Antivirenprogramm schnell installiert.",
+      "translation": {
+        "ru": "Мой друг быстро установил мне антивирусную программу.",
+        "en": "My friend quickly installed the antivirus program for me."
+      },
+      "bracket_parts": [
+        "hat",
+        "installiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Installiere bitte nur Programme aus vertrauenswürdigen Quellen!",
+      "translation": {
+        "ru": "Устанавливай, пожалуйста, только программы из проверенных источников!",
+        "en": "Please only install programs from trustworthy sources!"
+      },
+      "bracket_parts": [
+        "Installiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "andeuten",
+  "infinitive": "andeuten",
+  "translation": {
+    "ru": "намекать, предвещать",
+    "en": "to hint, to imply, to suggest"
+  },
+  "level": "B2",
+  "frequency_rank": 726,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "deutet an",
+    "preterite_third_singular": "deutete an",
+    "past_participle": "angedeutet"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "deute an",
+      "du": "deutest an",
+      "er_sie_es": "deutet an",
+      "wir": "deuten an",
+      "ihr": "deutet an",
+      "sie_Sie": "deuten an"
+    },
+    "preterite": {
+      "ich": "deutete an",
+      "du": "deutetest an",
+      "er_sie_es": "deutete an",
+      "wir": "deuteten an",
+      "ihr": "deutetet an",
+      "sie_Sie": "deuteten an"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "angedeutet"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich deute meine Zukunftspläne nur vorsichtig an.",
+      "translation": {
+        "ru": "Я лишь осторожно намекаю на свои планы на будущее.",
+        "en": "I only cautiously hint at my future plans."
+      },
+      "bracket_parts": [
+        "deute",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Deutest du damit eine baldige Kündigung an?",
+      "translation": {
+        "ru": "Ты намекаешь этим на скорое увольнение?",
+        "en": "Are you hinting at an impending resignation with that?"
+      },
+      "bracket_parts": [
+        "Deutest",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Minister deutet eine Gesetzesänderung an.",
+      "translation": {
+        "ru": "Министр намекает на изменение закона.",
+        "en": "The minister hints at a change in the law."
+      },
+      "bracket_parts": [
+        "deutet",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir deuten die Richtung unserer neuen Strategie an.",
+      "translation": {
+        "ru": "Мы обозначаем направление нашей новой стратегии.",
+        "en": "We indicate the direction of our new strategy."
+      },
+      "bracket_parts": [
+        "deuten",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Deutet ihr die Wahrheit im Gespräch an?",
+      "translation": {
+        "ru": "Вы намекаете на правду в разговоре?",
+        "en": "Are you hinting at the truth in the conversation?"
+      },
+      "bracket_parts": [
+        "Deutet",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie deutete ein Lächeln an und schwieg.",
+      "translation": {
+        "ru": "Она изобразила подобие улыбки и промолчала.",
+        "en": "She hinted at a smile and remained silent."
+      },
+      "bracket_parts": [
+        "deutete",
+        "an"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat seine Absichten gestern schon angedeutet.",
+      "translation": {
+        "ru": "Он вчера уже намекнул на свои намерения.",
+        "en": "He already hinted at his intentions yesterday."
+      },
+      "bracket_parts": [
+        "hat",
+        "angedeutet"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Deute das Geheimnis bitte nicht zu früh an!",
+      "translation": {
+        "ru": "Не намекай, пожалуйста, на секрет слишком рано!",
+        "en": "Please don't hint at the secret too early!"
+      },
+      "bracket_parts": [
+        "Deute",
+        "an"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

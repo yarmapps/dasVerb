@@ -1,0 +1,150 @@
+{
+  "id": "zusehen",
+  "infinitive": "zusehen",
+  "translation": {
+    "ru": "смотреть, наблюдать, следить",
+    "en": "to watch, to look on, to see to it"
+  },
+  "level": "A2",
+  "frequency_rank": 852,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "sieht zu",
+    "preterite_third_singular": "sah zu",
+    "past_participle": "zugesehen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "sehe zu",
+      "du": "siehst zu",
+      "er_sie_es": "sieht zu",
+      "wir": "sehen zu",
+      "ihr": "seht zu",
+      "sie_Sie": "sehen zu"
+    },
+    "preterite": {
+      "ich": "sah zu",
+      "du": "sahst zu",
+      "er_sie_es": "sah zu",
+      "wir": "sahen zu",
+      "ihr": "saht zu",
+      "sie_Sie": "sahen zu"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "zugesehen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "bei",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich sehe dem spannenden Fußballspiel begeistert zu.",
+      "translation": {
+        "ru": "Я с восторгом наблюдаю за захватывающим футбольным матчем.",
+        "en": "I watch the exciting football match with enthusiasm."
+      },
+      "bracket_parts": [
+        "sehe",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Siehst du den spielenden Kindern im Park gerne zu?",
+      "translation": {
+        "ru": "Тебе нравится наблюдать за играющими детьми в парке?",
+        "en": "Do you like watching the children playing in the park?"
+      },
+      "bracket_parts": [
+        "Siehst",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Meister sieht dem Lehrling bei der Arbeit aufmerksam zu.",
+      "translation": {
+        "ru": "Мастер внимательно наблюдает за учеником во время работы.",
+        "en": "The master watches the apprentice attentively at work."
+      },
+      "bracket_parts": [
+        "sieht",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir sehen nicht tatenlos zu, wenn Unrecht geschieht.",
+      "translation": {
+        "ru": "Мы не смотрим сложа руки, когда творится несправедливость.",
+        "en": "We do not watch idly when injustice happens."
+      },
+      "bracket_parts": [
+        "sehen",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Seht ihr dem Straßenkünstler bei seiner Show zu?",
+      "translation": {
+        "ru": "Вы смотрите шоу уличного артиста?",
+        "en": "Are you guys watching the street artist during his show?"
+      },
+      "bracket_parts": [
+        "Seht",
+        "zu"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Das Publikum sah dem Theaterstück fasziniert zu.",
+      "translation": {
+        "ru": "Публика завороженно смотрела спектакль.",
+        "en": "The audience watched the play fascinated."
+      },
+      "bracket_parts": [
+        "sah",
+        "zu"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Tausende Zuschauer haben dem großen Feuerwerk zugesehen.",
+      "translation": {
+        "ru": "Тысячи зрителей наблюдали за грандиозным фейерверком.",
+        "en": "Thousands of spectators watched the great fireworks display."
+      },
+      "bracket_parts": [
+        "haben",
+        "zugesehen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Sieh genau zu, wie man diese Aufgabe richtig löst!",
+      "translation": {
+        "ru": "Смотри внимательно, как правильно решать эту задачу!",
+        "en": "Watch closely how to solve this task correctly!"
+      },
+      "bracket_parts": [
+        "Sieh",
+        "zu"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

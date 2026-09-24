@@ -1,0 +1,147 @@
+{
+  "id": "danken",
+  "infinitive": "danken",
+  "translation": {
+    "ru": "благодарить",
+    "en": "to thank"
+  },
+  "level": "A1",
+  "frequency_rank": 705,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "none",
+    "prefix": null,
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "danken",
+    "present_3sg": "dankt",
+    "praeteritum_3sg": "dankte",
+    "partizip_2": "gedankt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "danke",
+      "du": "dankst",
+      "er_sie_es": "dankt",
+      "wir": "danken",
+      "ihr": "dankt",
+      "sie_Sie": "danken"
+    },
+    "praeteritum": {
+      "ich": "dankte",
+      "du": "danktest",
+      "er_sie_es": "dankte",
+      "wir": "dankten",
+      "ihr": "danktet",
+      "sie_Sie": "dankten"
+    },
+    "perfekt": {
+      "ich": "habe gedankt",
+      "du": "hast gedankt",
+      "er_sie_es": "hat gedankt",
+      "wir": "haben gedankt",
+      "ihr": "habt gedankt",
+      "sie_Sie": "haben gedankt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "dativ",
+    "preposition": "für",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich danke dir herzlich für deine wertvolle Unterstützung.",
+      "translation": {
+        "ru": "Я сердечно благодарю тебя за твою ценную поддержку.",
+        "en": "I thank you warmly for your valuable support."
+      },
+      "bracket_parts": [
+        "danke"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dankst du deinen Eltern für das schöne Geburtstagsgeschenk?",
+      "translation": {
+        "ru": "Ты благодаришь родителей за прекрасный подарок на день рождения?",
+        "en": "Do you thank your parents for the lovely birthday gift?"
+      },
+      "bracket_parts": [
+        "Dankst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Patient dankt dem Arzt für die erfolgreiche Operation.",
+      "translation": {
+        "ru": "Пациент благодарит врача за успешную операцию.",
+        "en": "The patient thanks the doctor for the successful operation."
+      },
+      "bracket_parts": [
+        "dankt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir danken allen Helfern für ihren unermüdlichen Einsatz.",
+      "translation": {
+        "ru": "Мы благодарим всех помощников за их неутомимый труд.",
+        "en": "We thank all helpers for their untiring dedication."
+      },
+      "bracket_parts": [
+        "danken"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr dankt den Gastgebern für den wunderbaren Abend.",
+      "translation": {
+        "ru": "Вы благодарите хозяев за чудесный вечер.",
+        "en": "You thank the hosts for the wonderful evening."
+      },
+      "bracket_parts": [
+        "dankt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Bürgermeister dankte damals den Rettern persönlich.",
+      "translation": {
+        "ru": "Мэр тогда лично поблагодарил спасателей.",
+        "en": "The mayor thanked the rescuers in person back then."
+      },
+      "bracket_parts": [
+        "dankte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie hat ihm aufrichtig für seine Hilfe gedankt.",
+      "translation": {
+        "ru": "Она искренне поблагодарила его за помощь.",
+        "en": "She thanked him sincerely for his help."
+      },
+      "bracket_parts": [
+        "hat",
+        "gedankt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Danke deinen Freunden immer mit einem Lächeln!",
+      "translation": {
+        "ru": "Всегда благодари своих друзей с улыбкой!",
+        "en": "Always thank your friends with a smile!"
+      },
+      "bracket_parts": [
+        "Danke"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

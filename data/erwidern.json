@@ -1,0 +1,147 @@
+{
+  "id": "erwidern",
+  "infinitive": "erwidern",
+  "translation": {
+    "ru": "отвечать, возражать, отвечать взаимностью",
+    "en": "to reply, to retort, to reciprocate"
+  },
+  "level": "B2",
+  "frequency_rank": 708,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erwidern",
+    "present_3sg": "erwidert",
+    "praeteritum_3sg": "erwiderte",
+    "partizip_2": "erwidert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erwidere",
+      "du": "erwiderst",
+      "er_sie_es": "erwidert",
+      "wir": "erwidern",
+      "ihr": "erwidert",
+      "sie_Sie": "erwidern"
+    },
+    "praeteritum": {
+      "ich": "erwiderte",
+      "du": "erwidertest",
+      "er_sie_es": "erwiderte",
+      "wir": "erwiderten",
+      "ihr": "erwidertet",
+      "sie_Sie": "erwiderten"
+    },
+    "perfekt": {
+      "ich": "habe erwidert",
+      "du": "hast erwidert",
+      "er_sie_es": "hat erwidert",
+      "wir": "haben erwidert",
+      "ihr": "habt erwidert",
+      "sie_Sie": "haben erwidert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "auf",
+    "preposition_case": "Akkusativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich erwidere die freundlichen Grüße mit einem Lächeln.",
+      "translation": {
+        "ru": "Я отвечаю взаимностью на дружеский привет с улыбкой.",
+        "en": "I return the friendly greetings with a smile."
+      },
+      "bracket_parts": [
+        "erwidere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Was erwiderst du auf diese unverschämte Anschuldigung?",
+      "translation": {
+        "ru": "Что ты возразишь на это наглое обвинение?",
+        "en": "What do you reply to this insolent accusation?"
+      },
+      "bracket_parts": [
+        "erwiderst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Redner erwidert schlagfertig auf die Kritik des Gegners.",
+      "translation": {
+        "ru": "Оратор находчиво отвечает на критику оппонента.",
+        "en": "The speaker replies wittily to the opponent's criticism."
+      },
+      "bracket_parts": [
+        "erwidert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erwidern das Vertrauen unserer Kunden mit bestem Service.",
+      "translation": {
+        "ru": "Мы отвечаем на доверие наших клиентов лучшим сервисом.",
+        "en": "We reciprocate our customers' trust with the best service."
+      },
+      "bracket_parts": [
+        "erwidern"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr erwidert sofort auf jede wichtige Frage im Meeting.",
+      "translation": {
+        "ru": "Вы сразу отвечаете на каждый важный вопрос на собрании.",
+        "en": "You reply immediately to every important question in the meeting."
+      },
+      "bracket_parts": [
+        "erwidert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er erwiderte damals kurz und sachlich auf den Vorwurf.",
+      "translation": {
+        "ru": "Он тогда кратко и по делу ответил на упрек.",
+        "en": "He replied briefly and factually to the accusation back then."
+      },
+      "bracket_parts": [
+        "erwiderte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie hat seine tiefen Gefühle von Herzen erwidert.",
+      "translation": {
+        "ru": "Она от всего сердца ответила взаимностью на его глубокие чувства.",
+        "en": "She returned his deep feelings from the bottom of her heart."
+      },
+      "bracket_parts": [
+        "hat",
+        "erwidert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erwidere bitte stets höflich und respektvoll!",
+      "translation": {
+        "ru": "Отвечай, пожалуйста, всегда вежливо и уважительно!",
+        "en": "Please always reply politely and respectfully!"
+      },
+      "bracket_parts": [
+        "Erwidere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

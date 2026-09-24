@@ -1,0 +1,150 @@
+{
+  "id": "einschaetzen",
+  "infinitive": "einschätzen",
+  "translation": {
+    "ru": "оценивать, определять, судить о ком-л.",
+    "en": "to assess, to estimate, to judge"
+  },
+  "level": "B2",
+  "frequency_rank": 833,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "schätzt ein",
+    "preterite_third_singular": "schätzte ein",
+    "past_participle": "eingeschätzt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schätze ein",
+      "du": "schätzt ein",
+      "er_sie_es": "schätzt ein",
+      "wir": "schätzen ein",
+      "ihr": "schätzt ein",
+      "sie_Sie": "schätzen ein"
+    },
+    "preterite": {
+      "ich": "schätzte ein",
+      "du": "schätztest ein",
+      "er_sie_es": "schätzte ein",
+      "wir": "schätzten ein",
+      "ihr": "schätztet ein",
+      "sie_Sie": "schätzten ein"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "eingeschätzt"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": [
+      {
+        "preposition": "als",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich schätze die Lage als äußerst schwierig ein.",
+      "translation": {
+        "ru": "Я оцениваю ситуацию как крайне сложную.",
+        "en": "I assess the situation as extremely difficult."
+      },
+      "bracket_parts": [
+        "schätze",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schätzt du das Risiko bei diesem Investment richtig ein?",
+      "translation": {
+        "ru": "Ты правильно оцениваешь риск в этой инвестиции?",
+        "en": "Do you assess the risk in this investment correctly?"
+      },
+      "bracket_parts": [
+        "Schätzt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Experte schätzt die Kosten für den Neubau ein.",
+      "translation": {
+        "ru": "Эксперт оценивает расходы на строительство нового здания.",
+        "en": "The expert estimates the costs for the new building."
+      },
+      "bracket_parts": [
+        "schätzt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schätzen seine Fähigkeiten sehr hoch ein.",
+      "translation": {
+        "ru": "Мы очень высоко оцениваем его способности.",
+        "en": "We assess his abilities very highly."
+      },
+      "bracket_parts": [
+        "schätzen",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schätzt ihr die Dauer der Fahrt realistisch ein?",
+      "translation": {
+        "ru": "Вы реалистично оцениваете продолжительность поездки?",
+        "en": "Do you guys assess the duration of the journey realistically?"
+      },
+      "bracket_parts": [
+        "Schätzt",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Sie schätzte den Charakter ihres neuen Kollegen sofort richtig ein.",
+      "translation": {
+        "ru": "Она сразу правильно оценила характер своего нового коллеги.",
+        "en": "She assessed her new colleague's character correctly right away."
+      },
+      "bracket_parts": [
+        "schätzte",
+        "ein"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Analysten haben die Marktentwicklung falsch eingeschätzt.",
+      "translation": {
+        "ru": "Аналитики неверно оценили развитие рынка.",
+        "en": "The analysts assessed the market development incorrectly."
+      },
+      "bracket_parts": [
+        "haben",
+        "eingeschätzt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schätze deine eigenen Kräfte immer realistisch ein!",
+      "translation": {
+        "ru": "Всегда реалистично оценивай свои собственные силы!",
+        "en": "Always assess your own strength realistically!"
+      },
+      "bracket_parts": [
+        "Schätze",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

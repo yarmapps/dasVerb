@@ -1,0 +1,148 @@
+{
+  "id": "anfallen",
+  "infinitive": "anfallen",
+  "translation": {
+    "ru": "накапливаться, возникать, нападать",
+    "en": "to accumulate, to arise, to attack"
+  },
+  "level": "B2",
+  "frequency_rank": 754,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "fällt an",
+    "preterite_third_singular": "fiel an",
+    "past_participle": "angefallen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "falle an",
+      "du": "fällst an",
+      "er_sie_es": "fällt an",
+      "wir": "fallen an",
+      "ihr": "fallt an",
+      "sie_Sie": "fallen an"
+    },
+    "preterite": {
+      "ich": "fiel an",
+      "du": "fielst an",
+      "er_sie_es": "fiel an",
+      "wir": "fielen an",
+      "ihr": "fielt an",
+      "sie_Sie": "fielen an"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "angefallen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "bei",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Bei dieser Arbeit fallen viele verschiedene Aufgaben an.",
+      "translation": {
+        "ru": "При этой работе возникает много разных задач.",
+        "en": "A lot of different tasks arise during this work."
+      },
+      "bracket_parts": [
+        "fallen",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Welche Gebühren fallen bei der Überweisung an?",
+      "translation": {
+        "ru": "Какие комиссии возникают при переводе?",
+        "en": "What fees arise with the transfer?"
+      },
+      "bracket_parts": [
+        "fallen",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ein hoher Stromverbrauch fällt im Winter an.",
+      "translation": {
+        "ru": "Зимой накапливается высокое потребление электроэнергии.",
+        "en": "High power consumption occurs in winter."
+      },
+      "bracket_parts": [
+        "fällt",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir bezahlen alle Kosten, die zusätzlich anfallen.",
+      "translation": {
+        "ru": "Мы оплачиваем все расходы, которые возникают дополнительно.",
+        "en": "We pay all costs that arise additionally."
+      },
+      "bracket_parts": [
+        "anfallen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Bei eurem Umzug fallen sicher viele Renovierungsarbeiten an.",
+      "translation": {
+        "ru": "При вашем переезде наверняка возникнет много ремонтных работ.",
+        "en": "A lot of renovation work will surely arise during your move."
+      },
+      "bracket_parts": [
+        "fallen",
+        "an"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Im vergangenen Monat fielen hohe Reparaturkosten an.",
+      "translation": {
+        "ru": "В прошлом месяце возникли высокие расходы на ремонт.",
+        "en": "High repair costs were incurred last month."
+      },
+      "bracket_parts": [
+        "fielen",
+        "an"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Bei dem großen Bauprojekt sind unerwartete Mehrkosten angefallen.",
+      "translation": {
+        "ru": "В ходе крупного строительного проекта возникли непредвиденные дополнительные расходы.",
+        "en": "Unexpected additional costs were incurred in the large construction project."
+      },
+      "bracket_parts": [
+        "sind",
+        "angefallen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erledige die Arbeiten sofort, wenn sie anfallen!",
+      "translation": {
+        "ru": "Выполняй работы сразу же, как только они возникают!",
+        "en": "Do the tasks immediately when they arise!"
+      },
+      "bracket_parts": [
+        "anfallen"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "ueberschreiten",
+  "infinitive": "überschreiten",
+  "translation": {
+    "ru": "превышать (лимит/скорость), переходить (границу)",
+    "en": "to exceed, to cross (border)"
+  },
+  "level": "B2",
+  "frequency_rank": 694,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "inseparable",
+    "prefix": "über",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "überschreiten",
+    "present_3sg": "überschreitet",
+    "praeteritum_3sg": "überschritt",
+    "partizip_2": "überschritten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "überschreite",
+      "du": "überschreitest",
+      "er_sie_es": "überschreitet",
+      "wir": "überschreiten",
+      "ihr": "überschreitet",
+      "sie_Sie": "überschreiten"
+    },
+    "praeteritum": {
+      "ich": "überschritt",
+      "du": "überschrittest",
+      "er_sie_es": "überschritt",
+      "wir": "überschritten",
+      "ihr": "überschrittet",
+      "sie_Sie": "überschritten"
+    },
+    "perfekt": {
+      "ich": "habe überschritten",
+      "du": "hast überschritten",
+      "er_sie_es": "hat überschritten",
+      "wir": "haben überschritten",
+      "ihr": "habt überschritten",
+      "sie_Sie": "haben überschritten"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich überschreite die Höchstgeschwindigkeit beim Fahren nie.",
+      "translation": {
+        "ru": "Я никогда не превышаю максимальную скорость при вождении.",
+        "en": "I never exceed the speed limit while driving."
+      },
+      "bracket_parts": [
+        "überschreite"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Überschreitest du die Grenze nach Österreich ohne Pass?",
+      "translation": {
+        "ru": "Ты пересекаешь границу с Австрией без паспорта?",
+        "en": "Are you crossing the border to Austria without a passport?"
+      },
+      "bracket_parts": [
+        "Überschreitest"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Firma überschreitet ihr monatliches Budget deutlich.",
+      "translation": {
+        "ru": "Фирма заметно превышает свой месячный бюджет.",
+        "en": "The company clearly exceeds its monthly budget."
+      },
+      "bracket_parts": [
+        "überschreitet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir überschreiten die Schwelle in ein neues Zeitalter.",
+      "translation": {
+        "ru": "Мы переступаем порог новой эпохи.",
+        "en": "We cross the threshold into a new era."
+      },
+      "bracket_parts": [
+        "überschreiten"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr überschreitet eure Kompetenzen bei dieser Entscheidung.",
+      "translation": {
+        "ru": "Вы превышаете свои полномочия при этом решении.",
+        "en": "You are exceeding your authority in this decision."
+      },
+      "bracket_parts": [
+        "überschreitet"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Wanderer überschritten damals den schmalen Gebirgspass.",
+      "translation": {
+        "ru": "Путники тогда перешли узкий горный перевал.",
+        "en": "The hikers crossed the narrow mountain pass back then."
+      },
+      "bracket_parts": [
+        "überschritten"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Gesamtkosten haben das Limit bei weitem überschritten.",
+      "translation": {
+        "ru": "Общие расходы далеко превысили лимит.",
+        "en": "Total costs far exceeded the limit."
+      },
+      "bracket_parts": [
+        "haben",
+        "überschritten"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Überschreite bitte nicht die vorgegebene Zeit!",
+      "translation": {
+        "ru": "Не превышай, пожалуйста, отведенное время!",
+        "en": "Please do not exceed the given time!"
+      },
+      "bracket_parts": [
+        "Überschreite"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

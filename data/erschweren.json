@@ -1,0 +1,138 @@
+{
+  "id": "erschweren",
+  "infinitive": "erschweren",
+  "translation": {
+    "ru": "затруднять, осложнять",
+    "en": "to make difficult, to complicate"
+  },
+  "level": "B2",
+  "frequency_rank": 915,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "erschwert",
+    "preterite_third_singular": "erschwerte",
+    "past_participle": "erschwert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erschwere",
+      "du": "erschwerst",
+      "er_sie_es": "erschwert",
+      "wir": "erschweren",
+      "ihr": "erschwert",
+      "sie_Sie": "erschweren"
+    },
+    "preterite": {
+      "ich": "erschwerte",
+      "du": "erschwertest",
+      "er_sie_es": "erschwerte",
+      "wir": "erschwerten",
+      "ihr": "erschwertet",
+      "sie_Sie": "erschwerten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "erschwert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich erschwere mir die Arbeit durch mangelnde Organisation.",
+      "translation": {
+        "ru": "Я усложняю себе работу из-за плохой организации.",
+        "en": "I make work difficult for myself through poor organization."
+      },
+      "bracket_parts": [
+        "erschwere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erschwerst du die Suche durch deine ständige Unordnung?",
+      "translation": {
+        "ru": "Ты затрудняешь поиски своим постоянным беспорядком?",
+        "en": "Do you make searching difficult with your constant mess?"
+      },
+      "bracket_parts": [
+        "Erschwerst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Starker Nebel erschwert die Sicht auf der Autobahn.",
+      "translation": {
+        "ru": "Густой туман затрудняет видимость на автобане.",
+        "en": "Dense fog impairs visibility on the highway."
+      },
+      "bracket_parts": [
+        "erschwert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erschweren niemandem den Zugang zu wichtiger Bildung.",
+      "translation": {
+        "ru": "Мы никому не затрудняем доступ к важному образованию.",
+        "en": "We do not make access to important education difficult for anyone."
+      },
+      "bracket_parts": [
+        "erschweren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erschwert der Regen eure Wanderung im Gebirge?",
+      "translation": {
+        "ru": "Дождь осложняет ваш поход в горах?",
+        "en": "Does the rain make your hike in the mountains difficult?"
+      },
+      "bracket_parts": [
+        "Erschwert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schneesturm erschwerte die Rettungsarbeiten in den Bergen.",
+      "translation": {
+        "ru": "Снежная буря осложнила спасательные работы в горах.",
+        "en": "The snowstorm made rescue operations in the mountains difficult."
+      },
+      "bracket_parts": [
+        "erschwerte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Bürokratische Vorschriften haben den Neuanfang sehr erschwert.",
+      "translation": {
+        "ru": "Бюрократические предписания очень осложнили начало с нуля.",
+        "en": "Bureaucratic regulations made the new start very difficult."
+      },
+      "bracket_parts": [
+        "haben",
+        "erschwert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erschwere dir das Leben nicht durch unnötige Zweifel!",
+      "translation": {
+        "ru": "Не осложняй себе жизнь ненужными сомнениями!",
+        "en": "Do not make life difficult for yourself with unnecessary doubts!"
+      },
+      "bracket_parts": [
+        "Erschwere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

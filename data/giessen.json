@@ -1,0 +1,137 @@
+{
+  "id": "giessen",
+  "infinitive": "gießen",
+  "translation": {
+    "ru": "поливать, наливать, лить",
+    "en": "to pour, to water (plants)"
+  },
+  "level": "A2",
+  "frequency_rank": 920,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "gießt",
+    "preterite_third_singular": "goss",
+    "past_participle": "gegossen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gieße",
+      "du": "gießt",
+      "er_sie_es": "gießt",
+      "wir": "gießen",
+      "ihr": "gießt",
+      "sie_Sie": "gießen"
+    },
+    "preterite": {
+      "ich": "goss",
+      "du": "gossest",
+      "er_sie_es": "goss",
+      "wir": "gossen",
+      "ihr": "gosst",
+      "sie_Sie": "gossen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gegossen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich gieße jeden Morgen sorgfältig alle Zimmerpflanzen.",
+      "translation": {
+        "ru": "Каждое утро я тщательно поливаю все комнатные растения.",
+        "en": "I carefully water all the houseplants every morning."
+      },
+      "bracket_parts": [
+        "gieße"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gießt du mir bitte noch etwas heißen Tee ein?",
+      "translation": {
+        "ru": "Нальешь мне, пожалуйста, еще немного горячего чая?",
+        "en": "Will you please pour me some more hot tea?"
+      },
+      "bracket_parts": [
+        "Gießt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Gärtner gießt das Gemüsebeet in den Abendstunden.",
+      "translation": {
+        "ru": "Садовник поливает овощную грядку в вечерние часы.",
+        "en": "The gardener waters the vegetable bed in the evening hours."
+      },
+      "bracket_parts": [
+        "gießt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gießen frisches Wasser in die große Vase.",
+      "translation": {
+        "ru": "Мы наливаем свежую воду в большую вазу.",
+        "en": "We pour fresh water into the large vase."
+      },
+      "bracket_parts": [
+        "gießen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gießt ihr während unseres Urlaubs die Blumen auf dem Balkon?",
+      "translation": {
+        "ru": "Вы польете цветы на балконе во время нашего отпуска?",
+        "en": "Will you guys water the flowers on the balcony during our vacation?"
+      },
+      "bracket_parts": [
+        "Gießt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Es goss gestern stundenlang wie aus Eimern.",
+      "translation": {
+        "ru": "Вчера часами лило как из ведра.",
+        "en": "It poured yesterday for hours like cats and dogs."
+      },
+      "bracket_parts": [
+        "goss"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Meine Nachbarin hat alle Blumen im Garten gegossen.",
+      "translation": {
+        "ru": "Моя соседка полила все цветы в саду.",
+        "en": "My neighbor watered all the flowers in the garden."
+      },
+      "bracket_parts": [
+        "hat",
+        "gegossen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gieß bitte die empfindlichen Rosen nicht in der prallen Sonne!",
+      "translation": {
+        "ru": "Не поливай, пожалуйста, нежные розы на палящем солнце!",
+        "en": "Please do not water the delicate roses in the blazing sun!"
+      },
+      "bracket_parts": [
+        "Gieß"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

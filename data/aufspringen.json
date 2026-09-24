@@ -1,0 +1,150 @@
+{
+  "id": "aufspringen",
+  "infinitive": "aufspringen",
+  "translation": {
+    "ru": "вскакивать, распахиваться (о двери)",
+    "en": "to jump up, to bounce open"
+  },
+  "level": "B1",
+  "frequency_rank": 898,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "springt auf",
+    "preterite_third_singular": "sprang auf",
+    "past_participle": "aufgesprungen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "springe auf",
+      "du": "springst auf",
+      "er_sie_es": "springt auf",
+      "wir": "springen auf",
+      "ihr": "springt auf",
+      "sie_Sie": "springen auf"
+    },
+    "preterite": {
+      "ich": "sprang auf",
+      "du": "sprangst auf",
+      "er_sie_es": "sprang auf",
+      "wir": "sprangen auf",
+      "ihr": "sprangt auf",
+      "sie_Sie": "sprangen auf"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "aufgesprungen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "von",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich springe bei jedem Klingeln sofort vom Stuhl auf.",
+      "translation": {
+        "ru": "Я при каждом звонке сразу вскакиваю со стула.",
+        "en": "I jump up from the chair immediately at every ring."
+      },
+      "bracket_parts": [
+        "springe",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Springst du vor Freude über den Sieg spontan auf?",
+      "translation": {
+        "ru": "Ты спонтанно вскакиваешь от радости за победу?",
+        "en": "Do you jump up spontaneously with joy over the victory?"
+      },
+      "bracket_parts": [
+        "Springst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die schwere Holztür springt durch den starken Windstoß auf.",
+      "translation": {
+        "ru": "Тяжелая деревянная дверь распахивается от сильного порыва ветра.",
+        "en": "The heavy wooden door bursts open from the strong gust of wind."
+      },
+      "bracket_parts": [
+        "springt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir springen jubelnd auf, als das entscheidende Tor fällt.",
+      "translation": {
+        "ru": "Мы ликуя вскакиваем, когда забивают решающий гол.",
+        "en": "We jump up cheering when the decisive goal is scored."
+      },
+      "bracket_parts": [
+        "springen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Springt ihr beim Startsignal sofort auf die Beine?",
+      "translation": {
+        "ru": "Вы по сигналу старта сразу вскакиваете на ноги?",
+        "en": "Do you jump to your feet immediately at the start signal?"
+      },
+      "bracket_parts": [
+        "Springt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schüler sprang auf und meldete sich eifrig.",
+      "translation": {
+        "ru": "Ученик вскочил и усердно поднял руку.",
+        "en": "The student jumped up and raised his hand eagerly."
+      },
+      "bracket_parts": [
+        "sprang",
+        "auf"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Alle Zuschauer sind vor Begeisterung von ihren Plätzen aufgesprungen.",
+      "translation": {
+        "ru": "Все зрители вскочили от восторга со своих мест.",
+        "en": "All spectators jumped up from their seats in enthusiasm."
+      },
+      "bracket_parts": [
+        "sind",
+        "aufgesprungen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Spring nicht so hastig vom Sofa auf!",
+      "translation": {
+        "ru": "Не вскакивай так поспешно с дивана!",
+        "en": "Do not jump up from the sofa so hastily!"
+      },
+      "bracket_parts": [
+        "Spring",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

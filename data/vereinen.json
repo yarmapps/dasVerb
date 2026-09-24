@@ -1,0 +1,147 @@
+{
+  "id": "vereinen",
+  "infinitive": "vereinen",
+  "translation": {
+    "ru": "объединять, совмещать, сплачивать",
+    "en": "to unite, to combine, to join"
+  },
+  "level": "B2",
+  "frequency_rank": 633,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "prefix_type": "inseparable",
+    "prefix": "ver",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "vereinen",
+    "present_3sg": "vereint",
+    "praeteritum_3sg": "vereinte",
+    "partizip_2": "vereint"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vereine",
+      "du": "vereinst",
+      "er_sie_es": "vereint",
+      "wir": "vereinen",
+      "ihr": "vereint",
+      "sie_Sie": "vereinen"
+    },
+    "praeteritum": {
+      "ich": "vereinte",
+      "du": "vereintest",
+      "er_sie_es": "vereinte",
+      "wir": "vereinten",
+      "ihr": "vereintet",
+      "sie_Sie": "vereinten"
+    },
+    "perfekt": {
+      "ich": "habe vereint",
+      "du": "hast vereint",
+      "er_sie_es": "hat vereint",
+      "wir": "haben vereint",
+      "ihr": "habt vereint",
+      "sie_Sie": "haben vereint"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": "in",
+    "preposition_case": "Dativ"
+  },
+  "sentences": [
+    {
+      "german": "Ich vereine Beruf und Familie erfolgreich im Alltag.",
+      "translation": {
+        "ru": "Я успешно совмещаю работу и семью в повседневной жизни.",
+        "en": "I combine work and family successfully in everyday life."
+      },
+      "bracket_parts": [
+        "vereine"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vereinst du verschiedene Talente in deiner Person?",
+      "translation": {
+        "ru": "Ты совмещаешь в себе разные таланты?",
+        "en": "Do you unite different talents in yourself?"
+      },
+      "bracket_parts": [
+        "Vereinst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Musik vereint Menschen aus der ganzen Welt.",
+      "translation": {
+        "ru": "Музыка объединяет людей со всего мира.",
+        "en": "Music unites people from all over the world."
+      },
+      "bracket_parts": [
+        "vereint"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir vereinen unsere Kräfte für das gemeinsame Ziel.",
+      "translation": {
+        "ru": "Мы объединяем наши силы ради общей цели.",
+        "en": "We unite our forces for the common goal."
+      },
+      "bracket_parts": [
+        "vereinen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr vereint Tradition und moderne Technologie im Betrieb.",
+      "translation": {
+        "ru": "Вы сочетаете традиции и современные технологии на предприятии.",
+        "en": "You combine tradition and modern technology in the company."
+      },
+      "bracket_parts": [
+        "vereint"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Vertrag vereinte damals die beiden Nachbarstaaten.",
+      "translation": {
+        "ru": "Договор тогда объединил два соседних государства.",
+        "en": "The treaty united the two neighboring states back then."
+      },
+      "bracket_parts": [
+        "vereinte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Das Großereignis hat viele Nationen friedlich vereint.",
+      "translation": {
+        "ru": "Это грандиозное событие мирно объединило множество наций.",
+        "en": "The major event united many nations peacefully."
+      },
+      "bracket_parts": [
+        "hat",
+        "vereint"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Vereine Mut und Klugheit bei deinen Entscheidungen!",
+      "translation": {
+        "ru": "Сочетай смелость и разум в своих решениях!",
+        "en": "Combine courage and wisdom in your decisions!"
+      },
+      "bracket_parts": [
+        "Vereine"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

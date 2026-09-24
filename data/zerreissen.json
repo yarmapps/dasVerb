@@ -1,0 +1,137 @@
+{
+  "id": "zerreissen",
+  "infinitive": "zerreißen",
+  "translation": {
+    "ru": "рвать, разрывать на куски, раздирать",
+    "en": "to tear up, to rip to pieces, to tear apart"
+  },
+  "level": "B2",
+  "frequency_rank": 998,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "zerreißt",
+    "preterite_third_singular": "zerriss",
+    "past_participle": "zerrissen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "zerreiße",
+      "du": "zerreißt",
+      "er_sie_es": "zerreißt",
+      "wir": "zerreißen",
+      "ihr": "zerreißt",
+      "sie_Sie": "zerreißen"
+    },
+    "preterite": {
+      "ich": "zerriss",
+      "du": "zerrissest",
+      "er_sie_es": "zerriss",
+      "wir": "zerrissen",
+      "ihr": "zerrisst",
+      "sie_Sie": "zerrissen"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "zerrissen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich zerreiße den alten Vertrag in viele kleine Stücke.",
+      "translation": {
+        "ru": "Я рву старый договор на множество мелких кусочков.",
+        "en": "I tear the old contract into many small pieces."
+      },
+      "bracket_parts": [
+        "zerreiße"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Zerreißt du den Brief aus Wut über die schlechte Nachricht?",
+      "translation": {
+        "ru": "Ты рвешь письмо от ярости из-за плохой новости?",
+        "en": "Are you tearing up the letter out of anger over the bad news?"
+      },
+      "bracket_parts": [
+        "Zerreißt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Hund zerreißt das alte Kissen im Wohnzimmer beim Spielen.",
+      "translation": {
+        "ru": "Собака в игре разрывает старую подушку в гостиной.",
+        "en": "The dog tears up the old pillow in the living room while playing."
+      },
+      "bracket_parts": [
+        "zerreißt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir zerreißen vertrauliche Dokumente vor der Entsorgung gründlich.",
+      "translation": {
+        "ru": "Мы тщательно измельчаем конфиденциальные документы перед утилизацией.",
+        "en": "We shred/tear confidential documents thoroughly before disposal."
+      },
+      "bracket_parts": [
+        "zerreißen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Zerreißt ihr die Rechnungen nach der vollständigen Bezahlung?",
+      "translation": {
+        "ru": "Рвете ли вы счета после полной оплаты?",
+        "en": "Are you guys tearing up the bills after full payment?"
+      },
+      "bracket_parts": [
+        "Zerreißt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schmerz zerriss ihm damals fast das gebrochene Herz.",
+      "translation": {
+        "ru": "Боль тогда почти разорвала его разбитое сердце.",
+        "en": "The grief almost tore his broken heart apart back then."
+      },
+      "bracket_parts": [
+        "zerriss"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er hat das Foto aus Enttäuschung in zwei Hälften zerrissen.",
+      "translation": {
+        "ru": "Он от разочарования разорвал фотографию на две части.",
+        "en": "He tore the photo in half out of disappointment."
+      },
+      "bracket_parts": [
+        "hat",
+        "zerrissen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Zerreiß wichtige Unterlagen niemals ohne vorherige Sicherungskopie!",
+      "translation": {
+        "ru": "Никогда не уничтожай важные документы без предварительной резервной копии!",
+        "en": "Never tear up important documents without a prior backup copy!"
+      },
+      "bracket_parts": [
+        "Zerreiß"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

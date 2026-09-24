@@ -1,0 +1,147 @@
+{
+  "id": "schweben",
+  "infinitive": "schweben",
+  "translation": {
+    "ru": "парить, витать, находиться в подвешенном состоянии",
+    "en": "to float, to hover, to soar"
+  },
+  "level": "B2",
+  "frequency_rank": 875,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "schwebt",
+    "preterite_third_singular": "schwebte",
+    "past_participle": "geschwebt"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schwebe",
+      "du": "schwebst",
+      "er_sie_es": "schwebt",
+      "wir": "schweben",
+      "ihr": "schwebt",
+      "sie_Sie": "schweben"
+    },
+    "preterite": {
+      "ich": "schwebte",
+      "du": "schwebtest",
+      "er_sie_es": "schwebte",
+      "wir": "schwebten",
+      "ihr": "schwebtet",
+      "sie_Sie": "schwebten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "geschwebt"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "in",
+        "case": "Dativ"
+      },
+      {
+        "preposition": "über",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich schwebe nach der bestandenen Prüfung auf Wolke sieben.",
+      "translation": {
+        "ru": "Я после сданного экзамена парю на седьмом небе от счастья.",
+        "en": "I am floating on cloud nine after passing the exam."
+      },
+      "bracket_parts": [
+        "schwebe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schwebst du in Gedanken schon im warmen Sommerurlaub?",
+      "translation": {
+        "ru": "Ты в мыслях уже витаешь в теплом летнем отпуске?",
+        "en": "Are you already hovering in your thoughts in the warm summer vacation?"
+      },
+      "bracket_parts": [
+        "Schwebst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der bunte Heißluftballon schwebt majestätisch über den Feldern.",
+      "translation": {
+        "ru": "Красочный воздушный шар величественно парит над полями.",
+        "en": "The colorful hot air balloon hovers majestically above the fields."
+      },
+      "bracket_parts": [
+        "schwebt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schweben mit der Seilbahn sanft zur Bergstation hinauf.",
+      "translation": {
+        "ru": "Мы мягко парим на канатной дороге к горной станции.",
+        "en": "We float gently up to the mountain station on the cable car."
+      },
+      "bracket_parts": [
+        "schweben"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schwebt ihr beim Tanzen leichtfüßig über das Parkett?",
+      "translation": {
+        "ru": "Вы легко парите над паркетом во время танца?",
+        "en": "Are you guys floating light-footedly across the floor while dancing?"
+      },
+      "bracket_parts": [
+        "Schwebt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Staubteilchen schwebten im hellen Sonnenstrahl durch den Raum.",
+      "translation": {
+        "ru": "Частицы пыли парили в ярком солнечном луче по комнате.",
+        "en": "The dust particles floated through the room in the bright sunbeam."
+      },
+      "bracket_parts": [
+        "schwebten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der schwer verletzte Patient hat tagelang in Lebensgefahr geschwebt.",
+      "translation": {
+        "ru": "Тяжелораненый пациент днями находился в смертельной опасности.",
+        "en": "The critically injured patient was in mortal danger for days."
+      },
+      "bracket_parts": [
+        "hat",
+        "geschwebt"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schwebe leicht wie eine Feder über die Tanzfläche!",
+      "translation": {
+        "ru": "Пари легко, как перышко, над танцполом!",
+        "en": "Float lightly like a feather across the dance floor!"
+      },
+      "bracket_parts": [
+        "Schwebe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

@@ -36,6 +36,7 @@ export function PracticeScreen(): React.JSX.Element {
   const isPremium = usePremiumStatus();
   const isPremiumFeature = useFeatureFlag('ENABLE_PREMIUM');
   const [showPremiumSheet, setShowPremiumSheet] = useState(false);
+  const [premiumSheetSource, setPremiumSheetSource] = useState<string>('home_header_gem');
 
   const handleStartStandard = () => {
     soundService.playTapSound();
@@ -64,6 +65,11 @@ export function PracticeScreen(): React.JSX.Element {
 
   const handleStartSmartQuiz = () => {
     soundService.playTapSound();
+    if (!isPremium) {
+      setPremiumSheetSource('smart_quiz_card');
+      setShowPremiumSheet(true);
+      return;
+    }
     navigateToQuiz({ isSmartQuiz: true });
   };
 
@@ -87,7 +93,10 @@ export function PracticeScreen(): React.JSX.Element {
             {isPremiumFeature && !isPremium && (
               <TouchableOpacity
                 style={styles.headerButton}
-                onPress={() => setShowPremiumSheet(true)}
+                onPress={() => {
+                  setPremiumSheetSource('home_header_gem');
+                  setShowPremiumSheet(true);
+                }}
                 testID="premium-gem-button"
                 hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
               >
@@ -121,7 +130,7 @@ export function PracticeScreen(): React.JSX.Element {
           <FeaturedStartCard onPress={handleStartStandard} />
 
           {/* 2. Smart Quiz Mode (right after recommended card) */}
-          <SmartQuizCard onPress={handleStartSmartQuiz} />
+          <SmartQuizCard onPress={handleStartSmartQuiz} isPremium={isPremium} />
 
           {/* 3. Active Native Ad Block between smart quiz and other modes */}
           <PracticeNativeAdCard isPremium={isPremium} colors={colors} isDark={isDark} />
@@ -133,12 +142,12 @@ export function PracticeScreen(): React.JSX.Element {
 
           {/* 5. Other 4 modes in 2x2 grid (columns of two) */}
           <View style={styles.gridRow}>
-            <PrefixPracticeCard onPress={handleStartPrefixPractice} />
             <ConjugationPracticeCard onPress={handleStartConjugationPractice} />
+            <VerbFormsPracticeCard onPress={handleStartVerbFormsPractice} />
           </View>
           <View style={styles.gridRow}>
-            <VerbFormsPracticeCard onPress={handleStartVerbFormsPractice} />
             <PrepositionPracticeCard onPress={handleStartPrepositionPractice} />
+            <PrefixPracticeCard onPress={handleStartPrefixPractice} />
           </View>
 
           {/* 6. Section Title: Learn by Topic */}
@@ -155,7 +164,7 @@ export function PracticeScreen(): React.JSX.Element {
         <PremiumSubscribeSheet
           visible={showPremiumSheet}
           onClose={() => setShowPremiumSheet(false)}
-          source="home_header_gem"
+          source={premiumSheetSource}
         />
       )}
     </ScreenBackground>

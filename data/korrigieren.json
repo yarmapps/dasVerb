@@ -1,0 +1,138 @@
+{
+  "id": "korrigieren",
+  "infinitive": "korrigieren",
+  "translation": {
+    "ru": "исправлять, корректировать",
+    "en": "to correct, to revise"
+  },
+  "level": "B1",
+  "frequency_rank": 710,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "korrigiert",
+    "preterite_third_singular": "korrigierte",
+    "past_participle": "korrigiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "korrigiere",
+      "du": "korrigierst",
+      "er_sie_es": "korrigiert",
+      "wir": "korrigieren",
+      "ihr": "korrigiert",
+      "sie_Sie": "korrigieren"
+    },
+    "preterite": {
+      "ich": "korrigierte",
+      "du": "korrigiertest",
+      "er_sie_es": "korrigierte",
+      "wir": "korrigierten",
+      "ihr": "korrigiertet",
+      "sie_Sie": "korrigierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "korrigiert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich korrigiere meine Notizen vor dem Test.",
+      "translation": {
+        "ru": "Я исправляю свои заметки перед тестом.",
+        "en": "I correct my notes before the test."
+      },
+      "bracket_parts": [
+        "korrigiere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Du korrigierst den kleinen Tippfehler sofort.",
+      "translation": {
+        "ru": "Ты сразу исправляешь маленькую опечатку.",
+        "en": "You correct the small typo immediately."
+      },
+      "bracket_parts": [
+        "korrigierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Lehrer korrigiert alle Prüfungen sehr gründlich.",
+      "translation": {
+        "ru": "Учитель очень тщательно проверяет все экзамены.",
+        "en": "The teacher corrects all exams very thoroughly."
+      },
+      "bracket_parts": [
+        "korrigiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir korrigieren den Bericht gemeinsam im Büro.",
+      "translation": {
+        "ru": "Мы исправляем отчет вместе в офисе.",
+        "en": "We correct the report together in the office."
+      },
+      "bracket_parts": [
+        "korrigieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr korrigiert die Hausaufgaben eurer Mitschüler.",
+      "translation": {
+        "ru": "Вы проверяете домашнее задание своих одноклассников.",
+        "en": "You check the homework of your classmates."
+      },
+      "bracket_parts": [
+        "korrigiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Lektoren korrigierten das Manuskript gestern Abend.",
+      "translation": {
+        "ru": "Редакторы исправляли рукопись вчера вечером.",
+        "en": "The editors corrected the manuscript yesterday evening."
+      },
+      "bracket_parts": [
+        "korrigierten"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Sie haben alle Fehler im Text schnell korrigiert.",
+      "translation": {
+        "ru": "Они быстро исправили все ошибки в тексте.",
+        "en": "They quickly corrected all mistakes in the text."
+      },
+      "bracket_parts": [
+        "haben",
+        "korrigiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Korrigiere bitte diesen falschen Satz!",
+      "translation": {
+        "ru": "Исправь, пожалуйста, это неправильное предложение!",
+        "en": "Please correct this wrong sentence!"
+      },
+      "bracket_parts": [
+        "Korrigiere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

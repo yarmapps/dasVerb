@@ -1,0 +1,138 @@
+{
+  "id": "gestehen",
+  "infinitive": "gestehen",
+  "translation": {
+    "ru": "признавать, сознаваться (в вине)",
+    "en": "to confess, to admit"
+  },
+  "level": "B1",
+  "frequency_rank": 871,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "gesteht",
+    "preterite_third_singular": "gestand",
+    "past_participle": "gestanden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "gestehe",
+      "du": "gestehst",
+      "er_sie_es": "gesteht",
+      "wir": "gestehen",
+      "ihr": "gesteht",
+      "sie_Sie": "gestehen"
+    },
+    "preterite": {
+      "ich": "gestand",
+      "du": "gestandest",
+      "er_sie_es": "gestand",
+      "wir": "gestanden",
+      "ihr": "gestandet",
+      "sie_Sie": "gestanden"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "gestanden"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich gestehe offen meine Liebe zu klassischer Musik.",
+      "translation": {
+        "ru": "Я открыто признаю свою любовь к классической музыке.",
+        "en": "I openly confess my love for classical music."
+      },
+      "bracket_parts": [
+        "gestehe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gestehst du deinen Fehler vor der gesamten Klasse ein?",
+      "translation": {
+        "ru": "Ты признаешь свою ошибку перед всем классом?",
+        "en": "Do you admit your mistake in front of the whole class?"
+      },
+      "bracket_parts": [
+        "Gestehst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Täter gesteht den Diebstahl bei der polizeilichen Vernehmung.",
+      "translation": {
+        "ru": "Преступник сознается в краже на полицейском допросе.",
+        "en": "The perpetrator confesses to the theft during police interrogation."
+      },
+      "bracket_parts": [
+        "gesteht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir gestehen ehrlich, dass wir uns geirrt haben.",
+      "translation": {
+        "ru": "Мы честно признаем, что ошиблись.",
+        "en": "We honestly confess that we were mistaken."
+      },
+      "bracket_parts": [
+        "gestehen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Gesteht ihr die Wahrheit endlich ohne Ausreden?",
+      "translation": {
+        "ru": "Вы наконец признаете правду без отговорок?",
+        "en": "Do you guys finally confess the truth without excuses?"
+      },
+      "bracket_parts": [
+        "Gesteht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Er gestand dem Richter die ganze grausame Tat.",
+      "translation": {
+        "ru": "Он признался судье во всем жестоком деянии.",
+        "en": "He confessed the entire cruel deed to the judge."
+      },
+      "bracket_parts": [
+        "gestand"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Verdächtige hat das Verbrechen umfassend gestanden.",
+      "translation": {
+        "ru": "Подозреваемый полностью признался в преступлении.",
+        "en": "The suspect has fully confessed to the crime."
+      },
+      "bracket_parts": [
+        "hat",
+        "gestanden"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gestehe deinen Irrtum ein und lerne daraus!",
+      "translation": {
+        "ru": "Признай свою ошибку и учись на ней!",
+        "en": "Admit your error and learn from it!"
+      },
+      "bracket_parts": [
+        "Gestehe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

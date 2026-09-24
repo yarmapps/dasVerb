@@ -1,0 +1,147 @@
+{
+  "id": "dringen",
+  "infinitive": "dringen",
+  "translation": {
+    "ru": "проникать, настаивать",
+    "en": "to penetrate, to press, to insist"
+  },
+  "level": "B2",
+  "frequency_rank": 760,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "dringt",
+    "preterite_third_singular": "drang",
+    "past_participle": "gedrungen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "dringe",
+      "du": "dringst",
+      "er_sie_es": "dringt",
+      "wir": "dringen",
+      "ihr": "dringt",
+      "sie_Sie": "dringen"
+    },
+    "preterite": {
+      "ich": "drang",
+      "du": "drangst",
+      "er_sie_es": "drang",
+      "wir": "drangen",
+      "ihr": "drangt",
+      "sie_Sie": "drangen"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "gedrungen"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Akkusativ"
+      },
+      {
+        "preposition": "durch",
+        "case": "Akkusativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich dringe auf eine schnelle Entscheidung des Vorstands.",
+      "translation": {
+        "ru": "Я настаиваю на быстром решении руководства.",
+        "en": "I press for a prompt decision by the board."
+      },
+      "bracket_parts": [
+        "dringe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dringst du weiterhin auf die Einhaltung der Frist?",
+      "translation": {
+        "ru": "Ты по-прежнему настаиваешь на соблюдении срока?",
+        "en": "Are you still pressing for compliance with the deadline?"
+      },
+      "bracket_parts": [
+        "Dringst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Helles Sonnenlicht dringt durch die dichten Vorhänge.",
+      "translation": {
+        "ru": "Яркий солнечный свет проникает сквозь плотные шторы.",
+        "en": "Bright sunlight penetrates through the thick curtains."
+      },
+      "bracket_parts": [
+        "dringt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir dringen auf eine sofortige Aufklärung des Falls.",
+      "translation": {
+        "ru": "Мы настаиваем на немедленном расследовании дела.",
+        "en": "We press for an immediate clarification of the case."
+      },
+      "bracket_parts": [
+        "dringen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Dringt ihr auf eine baldige Vertragsunterzeichnung?",
+      "translation": {
+        "ru": "Вы настаиваете на скорейшем подписании договора?",
+        "en": "Are you pressing for a speedy signing of the contract?"
+      },
+      "bracket_parts": [
+        "Dringt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Leise Klaviermusik drang aus dem offenen Fenster.",
+      "translation": {
+        "ru": "Тихая музыка фортепиано доносилась из открытого окна.",
+        "en": "Soft piano music came from the open window."
+      },
+      "bracket_parts": [
+        "drang"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Wasser ist in den Keller des alten Hauses gedrungen.",
+      "translation": {
+        "ru": "Вода проникла в подвал старого дома.",
+        "en": "Water has penetrated into the basement of the old house."
+      },
+      "bracket_parts": [
+        "ist",
+        "gedrungen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Dringe bei Unklarheiten sofort auf genaue Erklärungen!",
+      "translation": {
+        "ru": "При неясностях сразу же требуй точных объяснений!",
+        "en": "Press immediately for exact explanations in case of ambiguities!"
+      },
+      "bracket_parts": [
+        "Dringe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

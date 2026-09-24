@@ -1,0 +1,144 @@
+{
+  "id": "aufschlagen",
+  "infinitive": "aufschlagen",
+  "translation": {
+    "ru": "раскрывать (книгу), разбивать (яйцо), разбивать (лагерь)",
+    "en": "to open (a book), to crack (eggs), to set up (camp)"
+  },
+  "level": "B1",
+  "frequency_rank": 940,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "schlägt auf",
+    "preterite_third_singular": "schlug auf",
+    "past_participle": "aufgeschlagen"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "schlage auf",
+      "du": "schlägst auf",
+      "er_sie_es": "schlägt auf",
+      "wir": "schlagen auf",
+      "ihr": "schlagt auf",
+      "sie_Sie": "schlagen auf"
+    },
+    "preterite": {
+      "ich": "schlug auf",
+      "du": "schlugst auf",
+      "er_sie_es": "schlug auf",
+      "wir": "schlugen auf",
+      "ihr": "schlugt auf",
+      "sie_Sie": "schlugen auf"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "aufgeschlagen"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich schlage das Wörterbuch auf Seite hundert auf.",
+      "translation": {
+        "ru": "Я открываю словарь на сотой странице.",
+        "en": "I open the dictionary to page one hundred."
+      },
+      "bracket_parts": [
+        "schlage",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schlägst du für den Kuchen drei frische Eier in die Schüssel auf?",
+      "translation": {
+        "ru": "Разобьешь для пирога три свежих яйца в миску?",
+        "en": "Will you crack three fresh eggs into the bowl for the cake?"
+      },
+      "bracket_parts": [
+        "Schlägst",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Schüler schlägt sein Lehrbuch auf und liest den Text vor.",
+      "translation": {
+        "ru": "Ученик открывает учебник и читает текст вслух.",
+        "en": "The student opens his textbook and reads the text aloud."
+      },
+      "bracket_parts": [
+        "schlägt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir schlagen unsere Zelte direkt am Ufer des Sees auf.",
+      "translation": {
+        "ru": "Мы разбиваем наши палатки прямо на берегу озера.",
+        "en": "We pitch our tents right on the shore of the lake."
+      },
+      "bracket_parts": [
+        "schlagen",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Schlagt ihr eure Hefte auf und notiert die Hausaufgaben?",
+      "translation": {
+        "ru": "Открываете ли вы тетради и записываете домашнее задание?",
+        "en": "Are you guys opening your notebooks and writing down the homework?"
+      },
+      "bracket_parts": [
+        "Schlagt",
+        "auf"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Wanderer schlugen ihr Lager mitten im dichten Wald auf.",
+      "translation": {
+        "ru": "Путники разбили свой лагерь посреди густого леса.",
+        "en": "The hikers pitched their camp in the middle of the dense forest."
+      },
+      "bracket_parts": [
+        "schlugen",
+        "auf"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Der Tennisspieler hat den Ball mit voller Wucht aufgeschlagen.",
+      "translation": {
+        "ru": "Теннисист подал мяч со всей силы.",
+        "en": "The tennis player served the ball with full force."
+      },
+      "bracket_parts": [
+        "hat",
+        "aufgeschlagen"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Schlag bitte dein Buch auf Seite fünfzig auf!",
+      "translation": {
+        "ru": "Открой, пожалуйста, свою книгу на пятидесятой странице!",
+        "en": "Please open your book to page fifty!"
+      },
+      "bracket_parts": [
+        "Schlag",
+        "auf"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

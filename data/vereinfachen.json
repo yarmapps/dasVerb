@@ -1,0 +1,137 @@
+{
+  "id": "vereinfachen",
+  "infinitive": "vereinfachen",
+  "translation": {
+    "ru": "упрощать, делать проще",
+    "en": "to simplify"
+  },
+  "level": "B2",
+  "frequency_rank": 993,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "vereinfacht",
+    "preterite_third_singular": "vereinfachte",
+    "past_participle": "vereinfacht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "vereinfache",
+      "du": "vereinfachst",
+      "er_sie_es": "vereinfacht",
+      "wir": "vereinfachen",
+      "ihr": "vereinfacht",
+      "sie_Sie": "vereinfachen"
+    },
+    "preterite": {
+      "ich": "vereinfachte",
+      "du": "vereinfachtest",
+      "er_sie_es": "vereinfachte",
+      "wir": "vereinfachten",
+      "ihr": "vereinfachtet",
+      "sie_Sie": "vereinfachten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "vereinfacht"
+    }
+  },
+  "rektion": {
+    "requires_object": true
+  },
+  "sentences": [
+    {
+      "german": "Ich vereinfache die komplizierte Erklärung für ein breites Publikum.",
+      "translation": {
+        "ru": "Я упрощаю сложное объяснение для широкой публики.",
+        "en": "I simplify the complicated explanation for a broad audience."
+      },
+      "bracket_parts": [
+        "vereinfache"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vereinfachst du den Anmeldeprozess für neue Kunden auf der Website?",
+      "translation": {
+        "ru": "Ты упрощаешь процесс регистрации для новых клиентов на сайте?",
+        "en": "Are you simplifying the registration process for new customers on the website?"
+      },
+      "bracket_parts": [
+        "Vereinfachst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die neue App vereinfacht die tägliche Buchhaltung für Freiberufler enorm.",
+      "translation": {
+        "ru": "Новое приложение колоссально упрощает ежедневную бухгалтерию для фрилансеров.",
+        "en": "The new app simplifies daily bookkeeping enormously for freelancers."
+      },
+      "bracket_parts": [
+        "vereinfacht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir vereinfachen alle internen Arbeitsabläufe in der Firma.",
+      "translation": {
+        "ru": "Мы упрощаем все внутренние рабочие процессы в компании.",
+        "en": "We simplify all internal workflows in the company."
+      },
+      "bracket_parts": [
+        "vereinfachen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Vereinfacht ihr die mathematische Formel vor der Berechnung?",
+      "translation": {
+        "ru": "Упрощаете ли вы математическую формулу перед расчетом?",
+        "en": "Are you guys simplifying the mathematical formula before calculation?"
+      },
+      "bracket_parts": [
+        "Vereinfacht"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Reform vereinfachte das Steuerrecht für kleine Unternehmen.",
+      "translation": {
+        "ru": "Реформа упростила налоговое законодательство для малого бизнеса.",
+        "en": "The reform simplified tax law for small businesses."
+      },
+      "bracket_parts": [
+        "vereinfachte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Digitalisierung hat viele bürokratische Schritte spürbar vereinfacht.",
+      "translation": {
+        "ru": "Цифровизация ощутимо упростила многие бюрократические шаги.",
+        "en": "Digitization has noticeably simplified many bureaucratic steps."
+      },
+      "bracket_parts": [
+        "hat",
+        "vereinfacht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Vereinfache deine Sprache, damit dich jeder gut versteht!",
+      "translation": {
+        "ru": "Упрощай свой язык, чтобы тебя каждый хорошо понимал!",
+        "en": "Simplify your language so that everyone understands you well!"
+      },
+      "bracket_parts": [
+        "Vereinfache"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

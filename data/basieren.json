@@ -1,0 +1,143 @@
+{
+  "id": "basieren",
+  "infinitive": "basieren",
+  "translation": {
+    "ru": "базироваться, основываться",
+    "en": "to be based on, to rely on"
+  },
+  "level": "B2",
+  "frequency_rank": 805,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "basiert",
+    "preterite_third_singular": "basierte",
+    "past_participle": "basiert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "basiere",
+      "du": "basierst",
+      "er_sie_es": "basiert",
+      "wir": "basieren",
+      "ihr": "basiert",
+      "sie_Sie": "basieren"
+    },
+    "preterite": {
+      "ich": "basierte",
+      "du": "basiertest",
+      "er_sie_es": "basierte",
+      "wir": "basierten",
+      "ihr": "basiertet",
+      "sie_Sie": "basierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "basiert"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "auf",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Meine Forschung basiert auf verlässlichen wissenschaftlichen Daten.",
+      "translation": {
+        "ru": "Мое исследование базируется на надежных научных данных.",
+        "en": "My research is based on reliable scientific data."
+      },
+      "bracket_parts": [
+        "basiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Worauf basiert deine überraschende Vermutung genau?",
+      "translation": {
+        "ru": "На чем именно основывается твое неожиданное предположение?",
+        "en": "What exactly is your surprising assumption based on?"
+      },
+      "bracket_parts": [
+        "basiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der neue Kinofilm basiert auf einer wahren Begebenheit.",
+      "translation": {
+        "ru": "Новый фильм основан на реальных событиях.",
+        "en": "The new movie is based on a true story."
+      },
+      "bracket_parts": [
+        "basiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir basieren unsere Strategie auf gründlicher Analyse.",
+      "translation": {
+        "ru": "Мы основываем нашу стратегию на тщательном анализе.",
+        "en": "We base our strategy on thorough analysis."
+      },
+      "bracket_parts": [
+        "basieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Basiert eure Kritik auf konkreten persönlichen Erfahrungen?",
+      "translation": {
+        "ru": "Ваша критика основана на конкретном личном опыте?",
+        "en": "Is your criticism based on concrete personal experiences?"
+      },
+      "bracket_parts": [
+        "Basiert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die alte Theorie basierte auf veralteten Annahmen.",
+      "translation": {
+        "ru": "Старая теория основывалась на устаревших предположениях.",
+        "en": "The old theory was based on outdated assumptions."
+      },
+      "bracket_parts": [
+        "basierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Das erfolgreiche Urteil hat auf eindeutigen Gesetzen basiert.",
+      "translation": {
+        "ru": "Успешное судебное решение основывалось на четких законах.",
+        "en": "The successful verdict was based on clear laws."
+      },
+      "bracket_parts": [
+        "hat",
+        "basiert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Achte darauf, dass deine Argumente stets auf Fakten basieren!",
+      "translation": {
+        "ru": "Следи за тем, чтобы твои аргументы всегда основывались на фактах!",
+        "en": "Make sure that your arguments are always based on facts!"
+      },
+      "bracket_parts": [
+        "basieren"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

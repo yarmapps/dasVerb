@@ -1,0 +1,149 @@
+{
+  "id": "ausscheiden",
+  "infinitive": "ausscheiden",
+  "translation": {
+    "ru": "выбывать (из турнира), увольняться/выходить, выделять",
+    "en": "to be eliminated, to leave (a company), to excrete"
+  },
+  "level": "B2",
+  "frequency_rank": 827,
+  "auxiliary": "sein",
+  "morphology": {
+    "verb_class": "strong",
+    "is_separable": true,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "scheidet aus",
+    "preterite_third_singular": "schied aus",
+    "past_participle": "ausgeschieden"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "scheide aus",
+      "du": "scheidest aus",
+      "er_sie_es": "scheidet aus",
+      "wir": "scheiden aus",
+      "ihr": "scheidet aus",
+      "sie_Sie": "scheiden aus"
+    },
+    "preterite": {
+      "ich": "schied aus",
+      "du": "schiedest aus",
+      "er_sie_es": "schied aus",
+      "wir": "schieden aus",
+      "ihr": "schiedet aus",
+      "sie_Sie": "schieden aus"
+    },
+    "perfect": {
+      "aux": "sein",
+      "past_participle": "ausgeschieden"
+    }
+  },
+  "rektion": {
+    "requires_object": false,
+    "prepositional_cases": [
+      {
+        "preposition": "aus",
+        "case": "Dativ"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "german": "Ich scheide zum Jahresende aus dem Unternehmen aus.",
+      "translation": {
+        "ru": "Я ухожу из компании в конце года.",
+        "en": "I am leaving the company at the end of the year."
+      },
+      "bracket_parts": [
+        "scheide",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Scheidest du wegen der Verletzung aus dem Turnier aus?",
+      "translation": {
+        "ru": "Ты выбываешь из турнира из-за травмы?",
+        "en": "Are you dropping out of the tournament due to the injury?"
+      },
+      "bracket_parts": [
+        "Scheidest",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Diese Option scheidet für uns von vornherein aus.",
+      "translation": {
+        "ru": "Этот вариант для нас исключен с самого начала.",
+        "en": "This option is ruled out for us from the start."
+      },
+      "bracket_parts": [
+        "scheidet",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir scheiden nach dieser Niederlage leider aus.",
+      "translation": {
+        "ru": "Мы, к сожалению, выбываем после этого поражения.",
+        "en": "We unfortunately drop out after this defeat."
+      },
+      "bracket_parts": [
+        "scheiden",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Scheidet ihr aus dem gemeinsamen Vorstand aus?",
+      "translation": {
+        "ru": "Вы выходите из общего состава правления?",
+        "en": "Are you leaving the joint board?"
+      },
+      "bracket_parts": [
+        "Scheidet",
+        "aus"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Mannschaft schied im Halbfinale knapp aus.",
+      "translation": {
+        "ru": "Команда с небольшим отрывом выбыла в полуфинале.",
+        "en": "The team was narrowly eliminated in the semifinals."
+      },
+      "bracket_parts": [
+        "schied",
+        "aus"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Er ist im Alter von 65 Jahren aus dem Berufsleben ausgeschieden.",
+      "translation": {
+        "ru": "Он вышел на пенсию в возрасте 65 лет.",
+        "en": "He retired from professional life at the age of 65."
+      },
+      "bracket_parts": [
+        "ist",
+        "ausgeschieden"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Gib dein Bestes, damit du nicht vorzeitig ausscheidest!",
+      "translation": {
+        "ru": "Выложись на максимум, чтобы не выбыть досрочно!",
+        "en": "Do your best so that you do not get eliminated prematurely!"
+      },
+      "bracket_parts": [
+        "ausscheidest"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

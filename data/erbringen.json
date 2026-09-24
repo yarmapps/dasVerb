@@ -1,0 +1,147 @@
+{
+  "id": "erbringen",
+  "infinitive": "erbringen",
+  "translation": {
+    "ru": "предоставлять (доказательство/услугу), приносить (доход)",
+    "en": "to provide, to perform (service), to yield"
+  },
+  "level": "B2",
+  "frequency_rank": 622,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "irregular",
+    "prefix_type": "inseparable",
+    "prefix": "er",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "erbringen",
+    "present_3sg": "erbringt",
+    "praeteritum_3sg": "erbrachte",
+    "partizip_2": "erbracht"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "erbringe",
+      "du": "erbringst",
+      "er_sie_es": "erbringt",
+      "wir": "erbringen",
+      "ihr": "erbringt",
+      "sie_Sie": "erbringen"
+    },
+    "praeteritum": {
+      "ich": "erbrachte",
+      "du": "erbrachtest",
+      "er_sie_es": "erbrachte",
+      "wir": "erbrachten",
+      "ihr": "erbrachtet",
+      "sie_Sie": "erbrachten"
+    },
+    "perfekt": {
+      "ich": "habe erbracht",
+      "du": "hast erbracht",
+      "er_sie_es": "hat erbracht",
+      "wir": "haben erbracht",
+      "ihr": "habt erbracht",
+      "sie_Sie": "haben erbracht"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich erbringe den geforderten Nachweis für das Amt.",
+      "translation": {
+        "ru": "Я предоставляю требуемое подтверждение для ведомства.",
+        "en": "I provide the required proof for the office."
+      },
+      "bracket_parts": [
+        "erbringe"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Erbringst du den Beweis für deine Unschuld?",
+      "translation": {
+        "ru": "Ты предоставишь доказательство своей невиновности?",
+        "en": "Are you providing proof of your innocence?"
+      },
+      "bracket_parts": [
+        "Erbringst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Firma erbringt professionelle Dienstleistungen.",
+      "translation": {
+        "ru": "Компания оказывает профессиональные услуги.",
+        "en": "The company provides professional services."
+      },
+      "bracket_parts": [
+        "erbringt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir erbringen stets die bestmögliche Leistung für unsere Kunden.",
+      "translation": {
+        "ru": "Мы всегда показываем наилучший результат для наших клиентов.",
+        "en": "We always deliver the best possible performance for our clients."
+      },
+      "bracket_parts": [
+        "erbringen"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr erbringt wertvolle Beiträge für das Forschungsprojekt.",
+      "translation": {
+        "ru": "Вы вносите ценный вклад в исследовательский проект.",
+        "en": "You provide valuable contributions to the research project."
+      },
+      "bracket_parts": [
+        "erbringt"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Der Anwalt erbrachte damals entscheidende Beweise vor Gericht.",
+      "translation": {
+        "ru": "Адвокат тогда представил решающие доказательства в суде.",
+        "en": "The lawyer produced crucial evidence in court back then."
+      },
+      "bracket_parts": [
+        "erbrachte"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Die Sportler haben großartige Leistungen bei Olympia erbracht.",
+      "translation": {
+        "ru": "Спортсмены показали великолепные результаты на Олимпиаде.",
+        "en": "The athletes delivered great performances at the Olympics."
+      },
+      "bracket_parts": [
+        "haben",
+        "erbracht"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Erbringe bitte rechtzeitig alle nötigen Unterlagen!",
+      "translation": {
+        "ru": "Предоставь, пожалуйста, вовремя все необходимые документы!",
+        "en": "Please provide all necessary documents on time!"
+      },
+      "bracket_parts": [
+        "Erbringe"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

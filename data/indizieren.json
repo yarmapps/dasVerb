@@ -1,0 +1,138 @@
+{
+  "id": "indizieren",
+  "infinitive": "indizieren",
+  "translation": {
+    "ru": "индексировать, запрещать к распространению (цензура)",
+    "en": "to index, to blacklist, to indicate"
+  },
+  "level": "B2",
+  "frequency_rank": 872,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "weak",
+    "is_separable": false,
+    "is_reflexive": false
+  },
+  "principal_parts": {
+    "present_third_singular": "indiziert",
+    "preterite_third_singular": "indizierte",
+    "past_participle": "indiziert"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "indiziere",
+      "du": "indizierst",
+      "er_sie_es": "indiziert",
+      "wir": "indizieren",
+      "ihr": "indiziert",
+      "sie_Sie": "indizieren"
+    },
+    "preterite": {
+      "ich": "indizierte",
+      "du": "indiziertest",
+      "er_sie_es": "indizierte",
+      "wir": "indizierten",
+      "ihr": "indiziertet",
+      "sie_Sie": "indizierten"
+    },
+    "perfect": {
+      "aux": "haben",
+      "past_participle": "indiziert"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "prepositional_cases": []
+  },
+  "sentences": [
+    {
+      "german": "Ich indiziere alle Fachartikel für das Online-Archiv.",
+      "translation": {
+        "ru": "Я индексирую все научные статьи для онлайн-архива.",
+        "en": "I index all journal articles for the online archive."
+      },
+      "bracket_parts": [
+        "indiziere"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Indizierst du die Datensätze nach bestimmten Schlüsselwörtern?",
+      "translation": {
+        "ru": "Ты индексируешь наборы данных по определенным ключевым словам?",
+        "en": "Do you index the datasets by specific keywords?"
+      },
+      "bracket_parts": [
+        "Indizierst"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Prüfstelle indiziert jugendgefährdende Medien streng.",
+      "translation": {
+        "ru": "Контрольный орган строго вносит в черный список опасные для молодежи медиа.",
+        "en": "The review board strictly blacklists media harmful to minors."
+      },
+      "bracket_parts": [
+        "indiziert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir indizieren die Dokumente zur schnellen Volltextsuche.",
+      "translation": {
+        "ru": "Мы индексируем документы для быстрого полнотекстового поиска.",
+        "en": "We index documents for fast full-text searching."
+      },
+      "bracket_parts": [
+        "indizieren"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Indiziert ihr die Datenbanktabellen regelmäßig?",
+      "translation": {
+        "ru": "Вы регулярно индексируете таблицы базы данных?",
+        "en": "Do you index database tables regularly?"
+      },
+      "bracket_parts": [
+        "Indiziert"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Behörde indizierte das brutale Computerspiel vor einigen Jahren.",
+      "translation": {
+        "ru": "Ведомство внесло эту жестокую компьютерную игру в черный список несколько лет назад.",
+        "en": "The authority blacklisted the violent computer game several years ago."
+      },
+      "bracket_parts": [
+        "indizierte"
+      ],
+      "tense": "preterite"
+    },
+    {
+      "german": "Die Suchmaschine hat Millionen neuer Webseiten indiziert.",
+      "translation": {
+        "ru": "Поисковая система проиндексировала миллионы новых веб-страниц.",
+        "en": "The search engine has indexed millions of new web pages."
+      },
+      "bracket_parts": [
+        "hat",
+        "indiziert"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Indiziere alle Dateien gründlich für den Katalog!",
+      "translation": {
+        "ru": "Тщательно проиндексируй все файлы для каталога!",
+        "en": "Index all files thoroughly for the catalog!"
+      },
+      "bracket_parts": [
+        "Indiziere"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}

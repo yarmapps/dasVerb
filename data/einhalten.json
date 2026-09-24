@@ -1,0 +1,155 @@
+{
+  "id": "einhalten",
+  "infinitive": "einhalten",
+  "translation": {
+    "ru": "соблюдать (правила/сроки), выдерживать (дистанцию)",
+    "en": "to comply with, to keep to, to observe (rules)"
+  },
+  "level": "B1",
+  "frequency_rank": 683,
+  "auxiliary": "haben",
+  "morphology": {
+    "verb_class": "strong",
+    "prefix_type": "separable",
+    "prefix": "ein",
+    "is_reflexive": false,
+    "reflexive_case": null
+  },
+  "principal_parts": {
+    "infinitive": "einhalten",
+    "present_3sg": "hält ein",
+    "praeteritum_3sg": "hielt ein",
+    "partizip_2": "eingehalten"
+  },
+  "conjugation": {
+    "present": {
+      "ich": "halte ein",
+      "du": "hältst ein",
+      "er_sie_es": "hält ein",
+      "wir": "halten ein",
+      "ihr": "haltet ein",
+      "sie_Sie": "halten ein",
+      "root_vowel_change": "a -> ä"
+    },
+    "praeteritum": {
+      "ich": "hielt ein",
+      "du": "hieltest ein",
+      "er_sie_es": "hielt ein",
+      "wir": "hielten ein",
+      "ihr": "hieltet ein",
+      "sie_Sie": "hielten ein"
+    },
+    "perfekt": {
+      "ich": "habe eingehalten",
+      "du": "hast eingehalten",
+      "er_sie_es": "hat eingehalten",
+      "wir": "haben eingehalten",
+      "ihr": "habt eingehalten",
+      "sie_Sie": "haben eingehalten"
+    }
+  },
+  "rektion": {
+    "requires_object": true,
+    "direct_case": "akkusativ",
+    "preposition": null,
+    "preposition_case": null
+  },
+  "sentences": [
+    {
+      "german": "Ich halte die gesetzliche Frist genau ein.",
+      "translation": {
+        "ru": "Я строго соблюдаю установленный законом срок.",
+        "en": "I adhere to the statutory deadline precisely."
+      },
+      "bracket_parts": [
+        "halte",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Hältst du die Geschwindigkeitsbegrenzung auf der Straße immer ein?",
+      "translation": {
+        "ru": "Ты всегда соблюдаешь ограничение скорости на дороге?",
+        "en": "Do you always comply with the speed limit on the road?"
+      },
+      "bracket_parts": [
+        "Hältst",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Jeder Bürger hält die bestehenden Verkehrsregeln ein.",
+      "translation": {
+        "ru": "Каждый гражданин соблюдает действующие правила дорожного движения.",
+        "en": "Every citizen observes the existing traffic rules."
+      },
+      "bracket_parts": [
+        "hält",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Wir halten unser gegebenes Versprechen auf jeden Fall ein.",
+      "translation": {
+        "ru": "Мы в любом случае сдерживаем данное обещание.",
+        "en": "We will definitely keep our promise."
+      },
+      "bracket_parts": [
+        "halten",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Ihr haltet den vorgegebenen Zeitplan vorbildlich ein.",
+      "translation": {
+        "ru": "Вы образцово укладываетесь в заданный график.",
+        "en": "You keep to the specified schedule exemplarily."
+      },
+      "bracket_parts": [
+        "haltet",
+        "ein"
+      ],
+      "tense": "present"
+    },
+    {
+      "german": "Die Firma hielt damals alle vertraglichen Bedingungen ein.",
+      "translation": {
+        "ru": "Фирма тогда соблюла все условия договора.",
+        "en": "The company met all contractual conditions back then."
+      },
+      "bracket_parts": [
+        "hielt",
+        "ein"
+      ],
+      "tense": "past"
+    },
+    {
+      "german": "Sie haben die vereinbarten Termine stets pünktlich eingehalten.",
+      "translation": {
+        "ru": "Они всегда пунктуально соблюдали согласованные сроки.",
+        "en": "They always kept to the agreed appointments punctually."
+      },
+      "bracket_parts": [
+        "haben",
+        "eingehalten"
+      ],
+      "tense": "perfect"
+    },
+    {
+      "german": "Halte bitte die Ruhezeiten im Wohnhaus ein!",
+      "translation": {
+        "ru": "Соблюдай, пожалуйста, часы тишины в жилом доме!",
+        "en": "Please observe the quiet hours in the apartment building!"
+      },
+      "bracket_parts": [
+        "Halte",
+        "ein"
+      ],
+      "tense": "imperative"
+    }
+  ]
+}
