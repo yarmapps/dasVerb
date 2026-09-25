@@ -39,6 +39,8 @@ credentials/
 *.certSigningRequest
 play-service-account*.json
 *service-account*.json
+GoogleService-Info.plist
+google-services.json
 
 # Fastlane artifacts & history
 fastlane/report.xml
