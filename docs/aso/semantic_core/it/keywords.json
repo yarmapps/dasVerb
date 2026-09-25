@@ -1,20 +1,1456 @@
 {
   "locale": "it",
-  "total": 2,
-  "last_updated": "2026-09-23",
-  "source": "Google Play Store Suggester (teXCtc)",
+  "name": "Italian",
+  "total": 160,
+  "last_updated": "2026-09-25",
+  "sources": [
+    "Google Play Store (ds=play)",
+    "Apple App Store (MZSearchHints)",
+    "Google Search Suggest"
+  ],
   "keywords": [
-    {
-      "keyword": "impariamo le parole tedesche",
-      "category": "Vocabulary",
-      "competition": "Medium",
-      "intent": "Educational / Search"
-    },
     {
       "keyword": "verbi tedeschi",
       "category": "Verbs & Practice",
       "competition": "High",
-      "intent": "Educational / Search"
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "allenatore di verbi tedeschi",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "boost verbi tedeschi offline",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "verbi tedeschi con preposizione",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi tedeschi pdf",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi tedeschi coniugazione",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi tedeschi che reggono il dativo",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi tedeschi più usati",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi tedeschi zanichelli pdf",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi tedeschi irregolari",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi tedeschi regolari",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi tedeschi in italiano",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi tedeschi in ieren",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi tedeschi che vogliono il dativo",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi tedeschi che reggono l accusativo",
+      "category": "Verbs & Practice",
+      "competition": "Low",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi tedeschi al perfekt",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi tedeschi con dativo",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi tedeschi piu importanti",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "giochi per imparare il tedesco",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "app per imparare il tedesco",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco divertimen",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco con flashcard bambino",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco - le parole più importanti",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco: starlex",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "gioca e imparare il tedesco",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco da zero",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco gratis",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco online",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco da autodidatta",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco online gratis",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco da zero gratis",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco velocemente",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco è difficile",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco in germania",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco con l'intelligenza artificiale",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco da zero pdf",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco quanto tempo",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco in un mese",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "imparare il tedesco svizzero",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "coniugazione verbi tedeschi reverso",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "coniugazione verbi tedeschi pdf",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "coniugazione verbi tedeschi regolari",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "coniugazione verbi tedesco esercizi",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "coniugazione verbi tedesco presente",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "grammatica tedesca",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "goethe a1: grammatica tedesca",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "grammatica tedesca pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "grammatica tedesca pdf gratis",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "grammatica tedesca per principianti pdf",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "grammatica tedesca zanichelli pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "grammatica tedesca per italiani",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "grammatica tedesca per principianti",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "grammatica tedesca hoepli",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "grammatica tedesca a1 pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "grammatica tedesca con esercizi pdf",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "grammatica tedesca zanichelli",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "grammatica tedesca libro",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "grammatica tedesca per italiani pdf",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "grammatica tedesca a1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "grammatica tedesca online",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "grammatica tedesca esercizi",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "parole in tedesco difficili",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "parole in tedesco facili",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "parole in tedesco belle",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "parole in tedesco traduzione",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "parole in tedesco lunghe",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "parole in tedesco con la c",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "parole in tedesco con significato",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "parole in tedesco che iniziano con la d",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "parole in tedesco divertenti",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "parole in tedesco intraducibili",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "parole in tedesco per bambini",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "parole in tedesco con la e",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "parole in tedesco con la x",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "parole in tedesco con la y",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "parole in tedesco che iniziano con la i",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco a1",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "tedesco a1 per principianti!",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "tedesco a1 a2 b1 b2 + esame",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "bragiflash: tedesco a1-c1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "v-iz: tedesco a1–b1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "tedesco a1 pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco a1 libro",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco a1 test",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco a1 programma",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco a1 esercizi",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco a1 a2",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco a1 1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco a1 a2 pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco a1 2",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco a1 grammatica",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco a1 cosa significa",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco a1 online",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco a1 argomenti",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco a1 a2 libro",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco a1 video",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco b1",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "lumini: tedesco b1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "tedesco b1 cosa vuol dire",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco b1 esercizi",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco b1 pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco b1 programma",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco b1 test",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco b1 libro",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco b1 b2",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco b1 2",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "tedesco b1 che livello è",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "b1 tedesco simulazione",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "b1 tedesco argomenti",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "b1 tedesco bolzano",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "b1 tedesco online",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "b1 tedesco quanto tempo",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "b1 tedesco goethe institut",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "preposizioni tedesco pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "preposizioni tedesco dativo",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "preposizioni tedesco casi",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "preposizioni tedesco esercizi",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "preposizioni tedesco esercizi pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "preposizioni tedesco dativo e accusativo",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "preposizioni tedesco genitivo",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "preposizioni tedesco accusativo",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "preposizioni tedesco luogo",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "preposizioni tedesco con dativo",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "preposizioni tedesco schema",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "preposizioni tedesco e casi",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "preposizioni tedesco traduzione",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "preposizioni tedesco stato in luogo",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "preposizioni tedesco moto a luogo",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi irregolari tedesco pdf",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi irregolari tedesco tabella",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi irregolari tedesco coniugazione",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi irregolari tedesco perfekt pdf",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi irregolari tedesco perfekt",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi irregolari tedesco esercizi",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi irregolari tedesco presente",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi irregolari tedesco lista",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi irregolari tedesco paradigmi",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi irregolari tedesco präteritum",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi irregolari tedesco wordwall",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi irregolari tedesco participio passato",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi irregolari tedesco regola",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi irregolari tedesco passato",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verbi irregolari tedesco quanti sono",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "allenatore tedesco bologna",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "allenatore tedesco famoso",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "allenatore tedesco liverpool",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "allenatore tedesco klopp",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "allenatore tedesco che si scaccola",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "allenatore tedesco trivago",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "allenatore tedesco domenico",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "allenatore tedesco nazionale",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "allenatore tedesco ex liverpool",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "allenatore tedesco carriera",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "allenatore tedesco roma",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "allenatore tedesco come gioca",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "allenatore tedesco genoa",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "allenatore tedesco chelsea",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "allenatore tedesco giovane",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
     }
   ]
 }

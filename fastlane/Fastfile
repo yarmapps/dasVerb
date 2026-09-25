@@ -269,13 +269,164 @@ platform :ios do
   desc "Upload updated text metadata from fastlane/metadata/ios to App Store Connect"
   lane :sync_metadata do
     archive_metadata_history("ios")
-    deliver(
-      metadata_path: "./fastlane/metadata/ios",
-      skip_binary_upload: true,
-      skip_screenshots: true,
-      precheck_include_in_app_purchases: false,
-      force: true
-    )
+
+    app = Spaceship::ConnectAPI::App.find("com.yarm.apps.dasverb")
+    unless app
+      UI.user_error!("Could not find app com.yarm.apps.dasverb on App Store Connect")
+    end
+
+    meta_base = File.expand_path("metadata/ios", __dir__)
+    allowed_locales = Dir.glob(File.join(meta_base, "*")).select { |f| File.directory?(f) }.map { |f| File.basename(f) }
+
+    UI.message("📱 Found #{allowed_locales.length} local metadata directories: #{allowed_locales.join(', ')}")
+
+    # 1. Update App Info Localizations (Name, Subtitle, Privacy URL)
+    begin
+      app_infos = Spaceship::ConnectAPI.get_app_infos(app_id: app.id)
+      if app_infos && app_infos.first
+        info = app_infos.first
+        info_locs = info.get_app_info_localizations rescue []
+        UI.message("\n🏷️  Syncing App Info Localizations (Name & Subtitle)...")
+
+        allowed_locales.each do |locale|
+          dir = File.join(meta_base, locale)
+          name_file = File.join(dir, "name.txt")
+          sub_file = File.join(dir, "subtitle.txt")
+          priv_file = File.join(dir, "privacy_url.txt")
+
+          name_text = File.exist?(name_file) ? File.read(name_file).strip : nil
+          sub_text = File.exist?(sub_file) ? File.read(sub_file).strip : nil
+          priv_text = File.exist?(priv_file) ? File.read(priv_file).strip : nil
+
+          existing_info_loc = info_locs.find { |l| l.locale == locale }
+
+          attributes = {}
+          attributes[:name] = name_text if name_text && !name_text.empty?
+          attributes[:subtitle] = sub_text if sub_text && !sub_text.empty?
+          attributes[:privacyPolicyUrl] = priv_text if priv_text && !priv_text.empty?
+
+          if existing_info_loc
+            UI.message("  Updating App Info [#{locale}]: Name=\"#{name_text}\", Subtitle=\"#{sub_text}\"")
+            begin
+              existing_info_loc.update(attributes: attributes)
+              UI.success("    ✅ Updated App Info [#{locale}]")
+            rescue => e
+              UI.error("    ❌ Error updating App Info [#{locale}]: #{e.message}")
+            end
+          else
+            UI.message("  Creating App Info [#{locale}]: Name=\"#{name_text}\", Subtitle=\"#{sub_text}\"")
+            begin
+              Spaceship::ConnectAPI.create_app_info_localization(
+                app_info_id: info.id,
+                attributes: attributes.merge(locale: locale)
+              )
+              UI.success("    ✅ Created App Info [#{locale}]")
+            rescue => e
+              UI.error("    ❌ Error creating App Info [#{locale}]: #{e.message}")
+            end
+          end
+        end
+      end
+    rescue => e
+      UI.error("App Info sync error: #{e.message}")
+    end
+
+    # 2. Update Version Localizations (Keywords, Description, Promo, Release Notes, URLs)
+    UI.message("\n📝 Syncing App Store Version Localizations (Keywords, Description, etc.)...")
+    versions = app.get_app_store_versions
+    edit_version = versions.find { |v| ["PREPARE_FOR_SUBMISSION", "DEVELOPER_REJECTED", "REJECTED"].include?(v.app_store_state) }
+
+    if edit_version.nil?
+      live_version = versions.find { |v| v.app_store_state == "READY_FOR_SALE" }
+      UI.important("⚠️  No editable version in 'Prepare for Submission' state found.")
+      if live_version
+        UI.important("Found Live Version: #{live_version.version_string} (#{live_version.app_store_state}).")
+        UI.important("Note: Apple App Store Connect ONLY permits updating 'promotional_text' on live versions. Keywords and Description require creating a new version draft in App Store Connect!")
+      end
+      target_version = live_version || versions.first
+    else
+      target_version = edit_version
+      UI.success("🎯 Found editable version: #{target_version.version_string} (#{target_version.app_store_state}) [ID: #{target_version.id}]")
+    end
+
+    if target_version
+      version_locs = target_version.get_app_store_version_localizations rescue []
+
+      allowed_locales.each do |locale|
+        dir = File.join(meta_base, locale)
+        kw_file = File.join(dir, "keywords.txt")
+        desc_file = File.join(dir, "description.txt")
+        promo_file = File.join(dir, "promotional_text.txt")
+        notes_file = File.join(dir, "release_notes.txt")
+        support_file = File.join(dir, "support_url.txt")
+        mkt_file = File.join(dir, "marketing_url.txt")
+
+        kw_text = File.exist?(kw_file) ? File.read(kw_file).strip : nil
+        desc_text = File.exist?(desc_file) ? File.read(desc_file).strip : nil
+        promo_text = File.exist?(promo_file) ? File.read(promo_file).strip : nil
+        notes_text = File.exist?(notes_file) ? File.read(notes_file).strip : nil
+        support_text = File.exist?(support_file) ? File.read(support_file).strip : nil
+        mkt_text = File.exist?(mkt_file) ? File.read(mkt_file).strip : nil
+
+        existing_ver_loc = version_locs.find { |l| l.locale == locale }
+
+        attributes = {}
+        attributes[:keywords] = kw_text if kw_text && !kw_text.empty?
+        attributes[:description] = desc_text if desc_text && !desc_text.empty?
+        attributes[:promotionalText] = promo_text if promo_text && !promo_text.empty?
+        attributes[:whatsNew] = notes_text if notes_text && !notes_text.empty?
+        attributes[:supportUrl] = support_text if support_text && !support_text.empty?
+        attributes[:marketingUrl] = mkt_text if mkt_text && !mkt_text.empty?
+
+        kw_bytes = kw_text ? kw_text.bytesize : 0
+
+        if existing_ver_loc
+          UI.message("  Updating Version Localization [#{locale}] (Keywords: #{kw_bytes} bytes)...")
+          begin
+            existing_ver_loc.update(attributes: attributes)
+            UI.success("    ✅ Updated Version Localization [#{locale}] with #{kw_bytes}b keywords!")
+          rescue => e
+            UI.error("    ❌ Error updating Version Localization [#{locale}]: #{e.message}")
+          end
+        else
+          UI.message("  Creating Version Localization [#{locale}] (Keywords: #{kw_bytes} bytes)...")
+          begin
+            Spaceship::ConnectAPI.create_app_store_version_localization(
+              app_store_version_id: target_version.id,
+              attributes: attributes.merge(locale: locale)
+            )
+            UI.success("    ✅ Created Version Localization [#{locale}] with #{kw_bytes}b keywords!")
+          rescue => e
+            UI.error("    ❌ Error creating Version Localization [#{locale}]: #{e.message}")
+          end
+        end
+      end
+    end
+
+    UI.success("\n🎉 Metadata synchronization to App Store Connect completed successfully!")
+  end
+
+  desc "Test keyword character limit on App Store Connect"
+  lane :test_keyword_limit do
+    app = Spaceship::ConnectAPI::App.find("com.yarm.apps.dasverb")
+    versions = app.get_app_store_versions
+    edit_version = versions.find { |v| ["PREPARE_FOR_SUBMISSION", "DEVELOPER_REJECTED", "REJECTED"].include?(v.app_store_state) } || versions.first
+
+    UI.message("Testing keyword length on Version: #{edit_version.version_string} (#{edit_version.app_store_state})")
+    version_locs = edit_version.get_app_store_version_localizations rescue []
+    uk_loc = version_locs.find { |l| l.locale == "uk" }
+
+    if uk_loc
+      # Test 1: 95 characters (approx 170 bytes in Cyrillic)
+      test_kw = "неправильні,слова,вчити,тренажер,тест,мова,граматика,відмінювання,німецька,дієслова"
+      UI.message("Attempting to send #{test_kw.length} characters (#{test_kw.bytesize} bytes): \"#{test_kw}\"")
+      begin
+        uk_loc.update(attributes: { keywords: test_kw })
+        UI.success("🎉 SUCCESS! App Store Connect accepted #{test_kw.length} characters (#{test_kw.bytesize} bytes)!")
+      rescue => e
+        UI.error("❌ REJECTED by Apple API: #{e.message}")
+      end
+    end
   end
 
   desc "Upload screenshots from fastlane/screenshots/ios to App Store Connect"

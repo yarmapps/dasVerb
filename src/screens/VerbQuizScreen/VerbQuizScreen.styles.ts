@@ -19,7 +19,7 @@ export const createStyles = (colors: ThemeColors) =>
       width: '100%',
       height: 6,
       backgroundColor: colors.blockBorder,
-      marginTop: Spacing.xl,
+      marginTop: Spacing.none,
       overflow: 'hidden',
     },
     progressFillContainer: {

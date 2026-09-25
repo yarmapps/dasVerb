@@ -1,230 +1,2203 @@
 {
   "locale": "de",
-  "total": 37,
-  "last_updated": "2026-09-23",
-  "source": "Google Play Store Suggester (teXCtc)",
+  "name": "German",
+  "total": 240,
+  "last_updated": "2026-09-25",
+  "sources": [
+    "Google Play Store (ds=play)",
+    "Apple App Store (MZSearchHints)",
+    "Google Search Suggest"
+  ],
   "keywords": [
     {
       "keyword": "deutsche verben",
-      "category": "Verben & Lernen",
+      "category": "Verbs & Practice",
       "competition": "High",
-      "intent": "Educational / Core Search"
-    },
-    {
-      "keyword": "deutsch verben",
-      "category": "Verben & Lernen",
-      "competition": "High",
-      "intent": "Educational / Core Search"
-    },
-    {
-      "keyword": "verben deutsch",
-      "category": "Verben & Lernen",
-      "competition": "High",
-      "intent": "Educational / Core Search"
-    },
-    {
-      "keyword": "verben",
-      "category": "Verben & Lernen",
-      "competition": "High",
-      "intent": "Educational / Core Search"
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
     },
     {
       "keyword": "deutsche verben app",
-      "category": "Verben & Lernen",
+      "category": "Verbs & Practice",
       "competition": "Medium",
-      "intent": "Transactional / App Search"
-    },
-    {
-      "keyword": "deutsch verben app",
-      "category": "Verben & Lernen",
-      "competition": "Medium",
-      "intent": "Transactional / App Search"
-    },
-    {
-      "keyword": "verben app",
-      "category": "Verben & Lernen",
-      "competition": "Medium",
-      "intent": "Transactional / App Search"
-    },
-    {
-      "keyword": "deutsch verben lernen",
-      "category": "Verben & Lernen",
-      "competition": "Medium",
-      "intent": "Educational / Learning"
-    },
-    {
-      "keyword": "verben trainer",
-      "category": "Verben & Lernen",
-      "competition": "Medium",
-      "intent": "Educational / Trainer"
-    },
-    {
-      "keyword": "deutsche verben trainer",
-      "category": "Verben & Lernen",
-      "competition": "Medium",
-      "intent": "Educational / Trainer"
-    },
-    {
-      "keyword": "deutsch verben offline",
-      "category": "Verben & Lernen",
-      "competition": "Medium",
-      "intent": "Transactional / Offline Tool"
-    },
-    {
-      "keyword": "deutsch verben konjugation",
-      "category": "Konjugation",
-      "competition": "Medium",
-      "intent": "Educational / Grammar"
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
     },
     {
       "keyword": "deutsche verben konjugation",
-      "category": "Konjugation",
+      "category": "Conjugation",
       "competition": "Medium",
-      "intent": "Educational / Grammar"
-    },
-    {
-      "keyword": "konjugation deutsch",
-      "category": "Konjugation",
-      "competition": "High",
-      "intent": "Educational / Grammar"
-    },
-    {
-      "keyword": "konjugation deutscher verben",
-      "category": "Konjugation",
-      "competition": "Medium",
-      "intent": "Educational / Grammar"
-    },
-    {
-      "keyword": "deutsche konjugation",
-      "category": "Konjugation",
-      "competition": "High",
-      "intent": "Educational / Grammar"
-    },
-    {
-      "keyword": "verben konjugieren",
-      "category": "Konjugation",
-      "competition": "High",
-      "intent": "Educational / Grammar"
-    },
-    {
-      "keyword": "verben konjugieren deutsch",
-      "category": "Konjugation",
-      "competition": "Medium",
-      "intent": "Educational / Grammar"
-    },
-    {
-      "keyword": "verb konjugation deutsch",
-      "category": "Konjugation",
-      "competition": "Medium",
-      "intent": "Educational / Grammar"
-    },
-    {
-      "keyword": "unregelmäßige verben",
-      "category": "Unregelmäßige Verben & Zeiten",
-      "competition": "High",
-      "intent": "Educational / 3 Forms"
-    },
-    {
-      "keyword": "unregelmäßige verben deutsch",
-      "category": "Unregelmäßige Verben & Zeiten",
-      "competition": "Medium",
-      "intent": "Educational / 3 Forms"
-    },
-    {
-      "keyword": "unregelmäßige verben lernen",
-      "category": "Unregelmäßige Verben & Zeiten",
-      "competition": "Medium",
-      "intent": "Educational / Learning"
-    },
-    {
-      "keyword": "starke verben",
-      "category": "Unregelmäßige Verben & Zeiten",
-      "competition": "Medium",
-      "intent": "Educational / 3 Forms"
-    },
-    {
-      "keyword": "präteritum verben deutsch",
-      "category": "Unregelmäßige Verben & Zeiten",
-      "competition": "Medium",
-      "intent": "Educational / Past Tense"
-    },
-    {
-      "keyword": "präteritum und perfekt verben deutsch",
-      "category": "Unregelmäßige Verben & Zeiten",
-      "competition": "Medium",
-      "intent": "Educational / Tenses"
-    },
-    {
-      "keyword": "verben mit präpositionen",
-      "category": "Präpositionen & Kasus",
-      "competition": "High",
-      "intent": "Educational / Rektion"
-    },
-    {
-      "keyword": "verben mit präposition",
-      "category": "Präpositionen & Kasus",
-      "competition": "Medium",
-      "intent": "Educational / Rektion"
-    },
-    {
-      "keyword": "verben mit präpositionen deutsch",
-      "category": "Präpositionen & Kasus",
-      "competition": "Medium",
-      "intent": "Educational / Rektion"
-    },
-    {
-      "keyword": "verben mit präpositionen b1 b2",
-      "category": "Präpositionen & Kasus",
-      "competition": "Medium",
-      "intent": "Educational / B1-B2 Rektion"
-    },
-    {
-      "keyword": "verben mit dativ",
-      "category": "Präpositionen & Kasus",
-      "competition": "Medium",
-      "intent": "Educational / Dativ"
-    },
-    {
-      "keyword": "trennbare verben deutsch",
-      "category": "Präpositionen & Kasus",
-      "competition": "Medium",
-      "intent": "Educational / Prefixes"
-    },
-    {
-      "keyword": "verben im satz",
-      "category": "Präpositionen & Kasus",
-      "competition": "Medium",
-      "intent": "Educational / Satzbau"
-    },
-    {
-      "keyword": "verben deutsches wörterbuch",
-      "category": "Wörterbuch",
-      "competition": "Medium",
-      "intent": "Educational / Verb Dictionary"
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Play Store"
+      ]
     },
     {
       "keyword": "deutsche verben b2",
-      "category": "Niveaustufen",
+      "category": "Verbs & Practice",
       "competition": "Medium",
-      "intent": "Educational / B2 Level"
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
     },
     {
-      "keyword": "deutsch verben b2",
-      "category": "Niveaustufen",
+      "keyword": "deutsche verben trainer",
+      "category": "Verbs & Practice",
       "competition": "Medium",
-      "intent": "Educational / B2 Level"
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Play Store"
+      ]
     },
     {
-      "keyword": "deutsche wörter",
-      "category": "Wortschatz",
+      "keyword": "14000 deutsche verben",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsche verben tabellen",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "deutsche verben im satz",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "boost deutsche verben offline",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "das verb: deutsche verben",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "deutsche verben liste pdf a1",
+      "category": "Verbs & Practice",
+      "competition": "Low",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsche verben liste",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsche verben liste pdf",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsche verben konjugieren",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsche verben liste pdf a2",
+      "category": "Verbs & Practice",
+      "competition": "Low",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsche verben liste pdf c1",
+      "category": "Verbs & Practice",
+      "competition": "Low",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsche verben mit dativ",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsche verben mit präpositionen",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsche verben mit c",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsche verben mit genitiv",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsche verben liste pdf b1",
+      "category": "Verbs & Practice",
+      "competition": "Low",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsche verben liste pdf b2",
+      "category": "Verbs & Practice",
+      "competition": "Low",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsche verben konjugieren tabelle pdf",
+      "category": "Conjugation",
+      "competition": "Low",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsche verben von a1 bis b2 pdf",
+      "category": "Verbs & Practice",
+      "competition": "Low",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben konjugieren",
+      "category": "Conjugation",
       "competition": "High",
-      "intent": "Educational / Vocab"
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Play Store"
+      ]
     },
     {
-      "keyword": "deutsche wörter lernen",
-      "category": "Wortschatz",
+      "keyword": "verben konjugieren deutsch",
+      "category": "Conjugation",
       "competition": "Medium",
-      "intent": "Educational / Vocab"
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "italienisch verben konjugieren",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "spanische verben konjugieren",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "französische verben konjugieren",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "italienische verben konjugieren kostenlos",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "spanisch verben konjugieren kostenlos",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "französisch verben konjugieren lernen",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "verben konjugieren französisch",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben konjugieren spanisch",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben konjugieren italienisch",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben konjugieren französisch tabelle",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben konjugieren tabelle",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben konjugieren übungen pdf",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben konjugieren französisch übungen",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben konjugieren tabelle pdf",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben konjugieren englisch",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben konjugieren übungen",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben konjugieren deutsch übungen",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben konjugieren französisch übungen pdf",
+      "category": "Conjugation",
+      "competition": "Low",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben konjugieren latein",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben konjugieren grundschule",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen b1 b2",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen deutsch",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen plus",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen übungen",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen pdf",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen übungen pdf",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen b1",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen wordwall",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen a2",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen pdf b2",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen liste",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen übungen pdf b1",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen übungen pdf a2",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen übungen pdf b2",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen b1 pdf",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen a2 wordwall",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen b2",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben mit präpositionen pdf a2",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben englisch",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben deutsch",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben englisch kostenlos",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben: englisch",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben englischh",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben englisch.",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben mit gramm",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "englisch unregelmäßige verben.",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "english - unregelmäßige verben",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "irvy the cat. englisch - 100 unregelmäßige verben",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "spanische unregelmäßige verben",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "verbform: unregelmäßige verben",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben englisch pdf",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben französisch",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben spanisch",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben englisch übungen",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben italienisch",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben präteritum",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben englisch klasse 6",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben englisch pdf klasse 6",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben simple past",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben englisch tabelle",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben pdf",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben liste pdf",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "unregelmäßige verben spanisch indefinido",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik",
+      "category": "Grammar",
+      "competition": "High",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik lernen",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik übungen",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik c1 c2",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik b1",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik test",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik b2 c1",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik b2",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "grammatik korrektur deutsch kostenlos",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen grammatik übung",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch übungen test grammatik",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen grammatik a1-c1",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "grammatik deutsch üben",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik a1-a2-b1-b2",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "deutsch-grammatik prüfungen",
+      "category": "Grammar",
+      "competition": "High",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik prüfung",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik check",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik übungen pdf",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik korrektur",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik übungen klasse 6 arbeitsblätter pdf",
+      "category": "Grammar",
+      "competition": "Low",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik zeiten",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik pdf",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik buch",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik übungen online kostenlos",
+      "category": "Grammar",
+      "competition": "Low",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik fälle",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik online übungen",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik übungen klasse 9 gymnasium pdf",
+      "category": "Grammar",
+      "competition": "Low",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch grammatik 5 klasse gymnasium pdf",
+      "category": "Grammar",
+      "competition": "Low",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen a1 a2 b1 b2 c1",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen kostenlos",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen kinder",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen für anfänger",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen durch hören",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen hören und lesen",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen mit ki",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen grammatik",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen b1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen b2",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen spiele",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen c1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen a1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen sprechen",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen hören",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen, deutsch sprechen",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen für ausländer",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen online",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen app",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen für kinder",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen b2 kostenlos",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen buch",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen b1 kostenlos",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen für ausländer arbeitsblätter kostenlos",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen b1 übungen",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch lernen a1 pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "lesen lab: deutsch verben & a1",
+      "category": "Verbs & Practice",
+      "competition": "Low",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "verben a1 liste",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben a1 deutsch",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben a1 liste pdf",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben a1 übungen pdf",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben a1 deutsch pdf",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben a1 pdf",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben a1 übungen",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben a1 und a2 liste pdf",
+      "category": "Verbs & Practice",
+      "competition": "Low",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben a1 wordwall",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben a1 deutsch liste",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben a1 1",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben a1 a2",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben a1 bis b1 pdf",
+      "category": "Verbs & Practice",
+      "competition": "Low",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben a1 konjugation",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben a1 c2",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben b1 deutsch",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben b1 deutsch arabisch pdf",
+      "category": "Verbs & Practice",
+      "competition": "Low",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben b1 liste",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben b1 liste pdf",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben b1 niveau",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben b1 deutsch pdf",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben b1 goethe",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben b1 b2",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben b1 b2 pdf",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben b1 mit beispielen",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben b1 wordwall",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben b1 mit beispielen pdf",
+      "category": "Verbs & Practice",
+      "competition": "Low",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "verben b1 übungen",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "b1 verben mit präpositionen",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "b1 verben mit präpositionen pdf",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "stammformen deutsch übungen",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "stammformen deutsch übungen pdf",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "stammformen deutsch liste",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "stammformen deutsch 5 klasse",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "stammformen deutsche verben",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "stammformen deutsch pdf",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "stammformen deutsch tabelle",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "schwierige stammformen deutsch",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "3 stammformen deutsch",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "stammformen verben deutsch liste",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "vergessen stammformen deutsch",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "bitten stammformen deutsch",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "müssen stammformen deutsch",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "satzklammer deutsch",
+      "category": "Prefix & Satzklammer",
+      "competition": "High",
+      "intent": "Educational / Sentence Structure",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "satzklammer englisch",
+      "category": "Prefix & Satzklammer",
+      "competition": "High",
+      "intent": "Educational / Sentence Structure",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "satzklammern beispiele",
+      "category": "Prefix & Satzklammer",
+      "competition": "High",
+      "intent": "Educational / Sentence Structure",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "satzklammer erklärung",
+      "category": "Prefix & Satzklammer",
+      "competition": "High",
+      "intent": "Educational / Sentence Structure",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "satzklammertabelle",
+      "category": "Prefix & Satzklammer",
+      "competition": "High",
+      "intent": "Educational / Sentence Structure",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "satzklammer übungen pdf",
+      "category": "Prefix & Satzklammer",
+      "competition": "Medium",
+      "intent": "Educational / Sentence Structure",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "satzklammer nebensatz",
+      "category": "Prefix & Satzklammer",
+      "competition": "High",
+      "intent": "Educational / Sentence Structure",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "satzklammer einfach erklärt",
+      "category": "Prefix & Satzklammer",
+      "competition": "Medium",
+      "intent": "Educational / Sentence Structure",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "satzklammer übungen",
+      "category": "Prefix & Satzklammer",
+      "competition": "High",
+      "intent": "Educational / Sentence Structure",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "satzklammer durch partikelverben",
+      "category": "Prefix & Satzklammer",
+      "competition": "Medium",
+      "intent": "Educational / Sentence Structure",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "satzklammer deutsch übungen",
+      "category": "Prefix & Satzklammer",
+      "competition": "Medium",
+      "intent": "Educational / Sentence Structure",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "satzklammer modell",
+      "category": "Prefix & Satzklammer",
+      "competition": "High",
+      "intent": "Educational / Sentence Structure",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "satzklammer modalverben",
+      "category": "Prefix & Satzklammer",
+      "competition": "High",
+      "intent": "Educational / Sentence Structure",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "satzklammer feldermodell",
+      "category": "Prefix & Satzklammer",
+      "competition": "High",
+      "intent": "Educational / Sentence Structure",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "satzklammer daf",
+      "category": "Prefix & Satzklammer",
+      "competition": "High",
+      "intent": "Educational / Sentence Structure",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trennbare verben deutsch",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trennbare verben übungen",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trennbare verben a1",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trennbare verben übungen pdf",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trennbare verben a1 übungen",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trennbare verben liste pdf",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trennbare verben übungen pdf a1",
+      "category": "Verbs & Practice",
+      "competition": "Low",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trennbare verben a1 wordwall",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trennbare verben wordwall",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trennbare verben perfekt",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trennbare verben beispiele",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trennbare verben liste",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trennbare verben spiel",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trennbare verben englisch",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trennbare verben pdf",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch trainer",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch trainer a1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "goethe institut deutsch trainer",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "poker trainer deutsch",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "pm logik trainer deutsch",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "schach trainer deutsch",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch perfekt trainer",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "deutsch trainer fussball",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch trainer jobs",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch trainer jobs wien",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch trainer ausbildung",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch trainer wien",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch trainer dw",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch trainer app",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch trainer deutsche welle",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch trainer gesucht",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch trainer jobs graz",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch trainer online",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch trainer wm",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch trainer werden",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "deutsch trainer ausbildung wien",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
     }
   ]
 }

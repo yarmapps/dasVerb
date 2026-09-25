@@ -47,6 +47,14 @@ Download live App Store screenshots into fastlane/screenshots/ios
 
 Upload updated text metadata from fastlane/metadata/ios to App Store Connect
 
+### ios test_keyword_limit
+
+```sh
+[bundle exec] fastlane ios test_keyword_limit
+```
+
+Test keyword character limit on App Store Connect
+
 ### ios sync_screenshots
 
 ```sh

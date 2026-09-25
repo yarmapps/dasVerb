@@ -9,6 +9,7 @@ import {
   getFreeDailyQuizzes,
 } from '../services/usageService';
 import { setPremiumEnabled } from '../services/premiumAccessService';
+import * as featuresService from '../services/featuresService';
 import { IntlProvider } from 'react-intl';
 import { ThemeProvider } from '../context/ThemeContext';
 import { getMessages } from '../services/intlService';
@@ -30,6 +31,10 @@ describe('DailyQuizLimit Component & Hook', () => {
 
   describe('DailyQuizLimitModal', () => {
     it('should render modal with title, message, and video ad button when ENABLE_PREMIUM is false', () => {
+      jest.spyOn(featuresService, 'isFeatureEnabled').mockImplementation(flag => {
+        if (flag === 'ENABLE_PREMIUM') return false;
+        return true;
+      });
       const onDismiss = jest.fn();
       const onVideoSuccess = jest.fn();
       const onPremiumCTA = jest.fn();

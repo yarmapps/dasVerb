@@ -19,6 +19,7 @@ import {
 import { usePremiumStatus } from '../hooks/usePremiumStatus';
 import { PremiumSubscribeSheet } from '../components/PremiumSubscribeSheet/PremiumSubscribeSheet';
 import { PracticeScreen } from '../screens/PracticeScreen/PracticeScreen';
+import * as featuresService from '../services/featuresService';
 
 const mockNavigate = jest.fn();
 jest.mock('@react-navigation/native', () => {
@@ -84,6 +85,10 @@ describe('Premium Subscription Suite', () => {
     });
 
     it('checkPremiumStatus should return isPremiumEnabled when ENABLE_PREMIUM is false', async () => {
+      jest.spyOn(featuresService, 'isFeatureEnabled').mockImplementation(flag => {
+        if (flag === 'ENABLE_PREMIUM') return false;
+        return true;
+      });
       setPremiumEnabled(false);
       let result = await checkPremiumStatus();
       expect(result).toBe(false);
@@ -201,12 +206,15 @@ describe('Premium Subscription Suite', () => {
 
   describe('PracticeScreen diamond icon', () => {
     it('does not show diamond icon in header when ENABLE_PREMIUM is false', async () => {
+      featuresService.setFeatureOverride('ENABLE_PREMIUM', false);
       setPremiumEnabled(false);
       const { queryByTestId } = renderWithProviders(<PracticeScreen />);
 
       // Diamond button should be hidden when ENABLE_PREMIUM is false
       expect(queryByTestId('premium-gem-button')).toBeNull();
       expect(queryByTestId('premium-subscribe-sheet')).toBeNull();
+
+      featuresService.resetAllFeatureOverrides();
     });
   });
 });

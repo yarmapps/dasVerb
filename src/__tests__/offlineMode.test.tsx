@@ -68,6 +68,10 @@ describe('Offline Mode & isNetworkConnected', () => {
 
   describe('OfflineLimitModal component', () => {
     it('renders title, message, and retry button correctly', () => {
+      jest.spyOn(featuresService, 'isFeatureEnabled').mockImplementation(flag => {
+        if (flag === 'ENABLE_PREMIUM') return false;
+        return true;
+      });
       const onDismiss = jest.fn();
       const onRetry = jest.fn();
       const onPremiumCTA = jest.fn();

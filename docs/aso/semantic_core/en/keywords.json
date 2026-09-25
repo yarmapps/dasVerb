@@ -1,194 +1,2749 @@
 {
   "locale": "en",
-  "total": 31,
-  "last_updated": "2026-09-23",
-  "source": "Google Play Store Suggester (teXCtc)",
+  "name": "English",
+  "total": 300,
+  "last_updated": "2026-09-25",
+  "sources": [
+    "Google Play Store (ds=play)",
+    "Apple App Store (MZSearchHints)",
+    "Google Search Suggest"
+  ],
   "keywords": [
-    {
-      "keyword": "german verbs",
-      "category": "Verbs & Practice",
-      "competition": "High",
-      "intent": "Educational / Core Search"
-    },
     {
       "keyword": "german verbs app",
       "category": "Verbs & Practice",
       "competition": "Medium",
-      "intent": "Transactional / App Store Search"
-    },
-    {
-      "keyword": "learn german verbs",
-      "category": "Verbs & Practice",
-      "competition": "Medium",
-      "intent": "Educational / Practice"
-    },
-    {
-      "keyword": "german verb trainer",
-      "category": "Verbs & Practice",
-      "competition": "Medium",
-      "intent": "Educational / Trainer"
-    },
-    {
-      "keyword": "verbs german",
-      "category": "Verbs & Practice",
-      "competition": "High",
-      "intent": "Educational / Core Search"
-    },
-    {
-      "keyword": "german conjugation",
-      "category": "Conjugation",
-      "competition": "High",
-      "intent": "Educational / Grammar"
-    },
-    {
-      "keyword": "german verbs conjugation",
-      "category": "Conjugation",
-      "competition": "Medium",
-      "intent": "Educational / Grammar"
-    },
-    {
-      "keyword": "german verbs conjugation offline",
-      "category": "Conjugation",
-      "competition": "Medium",
-      "intent": "Transactional / Offline Tool"
-    },
-    {
-      "keyword": "german conjugation app",
-      "category": "Conjugation",
-      "competition": "Medium",
-      "intent": "Transactional / App Store Search"
-    },
-    {
-      "keyword": "german verb conjugation app",
-      "category": "Conjugation",
-      "competition": "Medium",
-      "intent": "Transactional / App Store Search"
-    },
-    {
-      "keyword": "german conjugator",
-      "category": "Conjugation",
-      "competition": "High",
-      "intent": "Educational / Tool"
-    },
-    {
-      "keyword": "german verb conjugator",
-      "category": "Conjugation",
-      "competition": "Medium",
-      "intent": "Educational / Tool"
-    },
-    {
-      "keyword": "german verb conjugator app",
-      "category": "Conjugation",
-      "competition": "Medium",
-      "intent": "Transactional / App Store Search"
-    },
-    {
-      "keyword": "german verbs conjugator",
-      "category": "Conjugation",
-      "competition": "Medium",
-      "intent": "Educational / Tool"
-    },
-    {
-      "keyword": "german word conjugation",
-      "category": "Conjugation",
-      "competition": "Medium",
-      "intent": "Educational / Grammar"
-    },
-    {
-      "keyword": "verb conjugation german",
-      "category": "Conjugation",
-      "competition": "Medium",
-      "intent": "Educational / Grammar"
-    },
-    {
-      "keyword": "conjugation german",
-      "category": "Conjugation",
-      "competition": "High",
-      "intent": "Educational / Grammar"
-    },
-    {
-      "keyword": "german irregular verbs",
-      "category": "3 Forms & Irregular Verbs",
-      "competition": "Medium",
-      "intent": "Educational / 3 Forms"
-    },
-    {
-      "keyword": "irregular verbs german",
-      "category": "3 Forms & Irregular Verbs",
-      "competition": "Medium",
-      "intent": "Educational / 3 Forms"
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
     },
     {
       "keyword": "german verbs with prepositions",
       "category": "Prepositions & Cases",
       "competition": "Medium",
-      "intent": "Educational / Rektion"
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german verbs flashcards",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "14000 german verbs",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german verbs",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german irregular verbs",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "verbs german dictionary",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german verbs",
+      "category": "Verbs & Practice",
+      "competition": "High",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german verbs & conjugation",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german verbs trainer",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german verbs game",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german verbs past prepositions",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german verbs conjugation",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Apple App Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german verbs conjugator",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german verbs by balconygames",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "das perfekt - german verbs",
+      "category": "Verbs & Practice",
+      "competition": "Low",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "irregular german verbs",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german verbs list",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german verbs list with conjugation pdf",
+      "category": "Conjugation",
+      "competition": "Low",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german verbs to know",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german verbs that take dative",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german verbs list pdf",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german verbs pdf",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german verbs quizlet",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german verbs with prefixes",
+      "category": "Prefix & Satzklammer",
+      "competition": "Medium",
+      "intent": "Educational / Sentence Structure",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german verbs list for a1 level pdf",
+      "category": "Verbs & Practice",
+      "competition": "Low",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german verbs a1",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german verbs with english meaning",
+      "category": "Verbs & Practice",
+      "competition": "Low",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german verbs with prepositions list pdf",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german conjugation",
+      "category": "Conjugation",
+      "competition": "High",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "reverso conjugation german",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german word conjugation",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "vtfc conjugation german",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "conjuu - german conjugation",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german conjugation chart",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german conjugation table",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german conjugation of sein",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german conjugation rules",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german conjugation practice",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german conjugation of haben",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german conjugation dictionary",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german conjugation present tense",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german conjugation gehen",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german conjugation exercises",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german conjugation of sehen",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german conjugation list",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german conjugation verbs",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german conjugation lesen",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german conjugation of essen",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "learn german",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german for beginners and dummies",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german idiomatic expressions and phrases everyday proverbs and sayings",
+      "category": "Verbs & Practice",
+      "competition": "Low",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn germany",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german with monica",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german vocab a1 a2 b1",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german free",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "learn german with seedlang",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german grammar all level",
+      "category": "Grammar",
+      "competition": "Low",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german with adrian sir",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german a1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german ai conversation",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german vocabulary",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german grammar a1-c1",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german with games",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german for beginners",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "learn german ai",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "learn german for kids",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "learn german grammatisch",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "learn german offline",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "learn german online",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "learn german online free",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "learn german fast",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "learn german language",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "learn german with anja",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "learn german book",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "learn german near me",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "learn german app",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "learn german dw",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "learn german reddit",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "learn german while you sleep",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "learn german in germany",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "learn german podcast",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german grammar",
+      "category": "Grammar",
+      "competition": "High",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german grammar offline",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german grammar checker",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german grammar drills",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german grammar in use",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german grammar exercises",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german grammar book",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german grammar test",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german grammar b1",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german grammar a1",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german grammar a1-b2",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "poro german grammar",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german grammar a1–c1",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german exercises test grammar",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german language grammar",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german grammar a1-a2-b1-b2",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german grammar practice",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Apple App Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german grammar with tests",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german grammar - intermediate",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german grammar fundamentals",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "a1-a2 german grammar trainer",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "der die das - german grammar",
+      "category": "Grammar",
+      "competition": "Low",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german grammar rules",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german grammar check",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german grammar pdf",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german grammar structure",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german grammar workbook",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german grammar vs english",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german grammar cases",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german grammar lessons",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german grammar for beginners",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german grammar table",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german irregular verbs list",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german irregular verbs list with conjugation",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german irregular verbs list pdf",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german irregular verbs pdf",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german irregular verbs list with conjugation pdf",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german irregular verbs conjugation",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german irregular verbs a1",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german irregular verbs list a1",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german irregular verbs chart",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german irregular verbs past tense",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german irregular verbs exercises",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german irregular verbs present tense",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german irregular verbs table",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german irregular verbs praeteritum",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german irregular verbs practice",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german vocabulary",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german vocabulary bangla",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german vocabulary offline",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german vocabulary flashcards",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german vocabulary trainer",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german vocabulary game",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german vocabulary a1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german vocabulary b2",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german vocabulary test",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german vocabulary by picture",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german vocabulary trainer goethe",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german vocabulary master",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german vocabulary b1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "intermediateadvanced german vocabulary",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "poro german vocabulary",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german vocabulary builder",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german vocabulary and grammar",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german vocabulary exam",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german vocabulary - 3000 words",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german vocabulary: quick deck",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "learn german vocabulary | german flashcards",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "basic german vocabulary app",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german vocabulary list",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german vocabulary practice",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german vocabulary pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german vocabulary words",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german vocabulary quiz",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german vocabulary book",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german vocabulary app",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german vocabulary cards",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german vocabulary anki",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german vocabulary book pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german vocabulary games",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german vocabulary flashcards pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german a1 learning app",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german a1 exam",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german a1 vocabulary",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german a1 test",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german a1-c2",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german a1 to b2",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german a1 practice",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german a1 story",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german a1 exam preparation free",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german a1 story book",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german a1 c1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german a1 a2 b1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german a1",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german a1 free",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german a1 a2 b1 vocabulary trainer",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german a1 exam: goethe & telc",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german a1-b2: goethe telc",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german a1: goethe & telc",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german a1 a2 b1 b2 + exam",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german a1 quiz app",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "bragiflash: learn german a1-c1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "deutsy: learn german a1-b1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "faztaa: learn german a1-c2",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german a1 book",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german a1 practice test",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german a1 vocabulary list",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german a1 level",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german a1 course",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german a1 book goethe pdf",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german a1 textbook",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german a1 test online free",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german a1 stories",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german a1 workbook",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german a1 certificate",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german a1 flashcards",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german b1",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german b1 exam preparation",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german b1 exam goethe",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german b1 vocabulary",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german b1 exam",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german b1 exam preparation goethe",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german b1 exam prep",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german b1 goethe",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german b1 exam prep telc",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german b1 hören",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german b1 test",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german b1 exam telc",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german b1 telc",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german b1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learn german b1 words",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german b1: goethe & telc",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german b1 exam prep : telc",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german b1 writing practice",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "jlingo german b1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "learn german: b1 writing exam",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "papagei - german b1/b2 exams",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german b1 level",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german b1 practice test",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german b17",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german b1 vocabulary list",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german b1 grammar",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german b1 books",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german b1 reading",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german b1 vs b2",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german b1 language",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german b1 exercises",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german b1 stories",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german b1 words",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
     },
     {
       "keyword": "german prepositions app",
       "category": "Prepositions & Cases",
       "competition": "Medium",
-      "intent": "Transactional / App Search"
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Play Store"
+      ]
     },
     {
-      "keyword": "german verb dictionary",
-      "category": "Dictionary & Vocabulary",
+      "keyword": "prapode: german prepositions",
+      "category": "Prepositions & Cases",
       "competition": "Medium",
-      "intent": "Educational / Dictionary"
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Apple App Store"
+      ]
     },
     {
-      "keyword": "verb german dictionary",
-      "category": "Dictionary & Vocabulary",
+      "keyword": "german prepositions chart",
+      "category": "Prepositions & Cases",
       "competition": "Medium",
-      "intent": "Educational / Dictionary"
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
     },
     {
-      "keyword": "verbs german dictionary",
-      "category": "Dictionary & Vocabulary",
+      "keyword": "german prepositions and cases",
+      "category": "Prepositions & Cases",
       "competition": "Medium",
-      "intent": "Educational / Dictionary"
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
     },
     {
-      "keyword": "german vocabulary trainer",
-      "category": "Dictionary & Vocabulary",
+      "keyword": "german prepositions that take accusative and dative",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german prepositions that always take dative",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german prepositions with examples",
+      "category": "Prepositions & Cases",
       "competition": "Medium",
-      "intent": "Educational / Trainer"
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
     },
     {
-      "keyword": "german vocabulary offline",
-      "category": "Dictionary & Vocabulary",
+      "keyword": "german prepositions list",
+      "category": "Prepositions & Cases",
       "competition": "Medium",
-      "intent": "Transactional / Offline Practice"
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
     },
     {
-      "keyword": "german vocabulary practice",
-      "category": "Dictionary & Vocabulary",
+      "keyword": "german prepositions quiz",
+      "category": "Prepositions & Cases",
       "competition": "Medium",
-      "intent": "Educational / Practice"
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
     },
     {
-      "keyword": "german vocabulary a1",
-      "category": "CEFR Levels (A1-B2)",
+      "keyword": "german prepositions pdf",
+      "category": "Prepositions & Cases",
       "competition": "Medium",
-      "intent": "Educational / A1 Level"
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
     },
     {
-      "keyword": "german vocabulary b1",
-      "category": "CEFR Levels (A1-B2)",
+      "keyword": "german prepositions exercises",
+      "category": "Prepositions & Cases",
       "competition": "Medium",
-      "intent": "Educational / B1 Level"
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
     },
     {
-      "keyword": "german vocabulary b2",
-      "category": "CEFR Levels (A1-B2)",
+      "keyword": "german prepositions meaning",
+      "category": "Prepositions & Cases",
       "competition": "Medium",
-      "intent": "Educational / B2 Level"
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
     },
     {
-      "keyword": "german tenses",
-      "category": "3 Forms & Irregular Verbs",
+      "keyword": "german prepositions exercises with answers pdf",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german prepositions with dative",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german prepositions with english meaning",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german prepositions chart with english translation",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german prepositions explained",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german cases",
+      "category": "General German Learning",
       "competition": "High",
-      "intent": "Educational / Tenses"
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "kgnad: study german cases",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german cases chart",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german cases explained",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german cases table",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german cases practice",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german cases examples",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german cases exercises",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german cases wikipedia",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german cases pronouns",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german cases quiz",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german cases articles",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german cases cheat sheet",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german cases questions",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german cases der die das",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german cases test",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german cases pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german sentences",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german sentence builder",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "english german sentences",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german sentence structure",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german sentence structure vs english",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german sentence example",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german sentences to practice",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german sentences to read",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german sentence order",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german sentences to say",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german sentence structure practice",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german sentence structure rules pdf",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german sentences for beginners",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german sentence generator",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german sentence structure examples",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german sentences to learn",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german sentence structure chart",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german verb trainer",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "german gender trainer",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "spelling german trainer",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "german trainers",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german trainer shoes",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german trainer sneakers",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german trainer soccer",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german trainer football",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german trainer jobs",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german trainer vacancy",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german trainer brands",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german trainers adidas",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german trainer national team",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german trainer vacancy near me",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german trainer world cup",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german trainer shop",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german trainer jobs remote",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "german trainer salary",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
     }
   ]
 }

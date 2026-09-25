@@ -1,32 +1,1288 @@
 {
   "locale": "pl",
-  "total": 4,
-  "last_updated": "2026-09-23",
-  "source": "Google Play Store Suggester (teXCtc)",
+  "name": "Polish",
+  "total": 141,
+  "last_updated": "2026-09-25",
+  "sources": [
+    "Google Play Store (ds=play)",
+    "Apple App Store (MZSearchHints)",
+    "Google Search Suggest"
+  ],
   "keywords": [
     {
-      "keyword": "czasowniki niemieckie",
-      "category": "Verbs & Practice",
-      "competition": "High",
-      "intent": "Educational / Search"
+      "keyword": "czasowniki niemieckie odmiana",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
     },
     {
-      "keyword": "niemiecki słówka",
-      "category": "Vocabulary",
+      "keyword": "czasowniki niemieckie nieregularne",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki niemieckie tabela",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki niemieckie lista",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki niemieckie czas przeszły",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki niemieckie pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki niemieckie b2",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki niemieckie w czasie przeszłym",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki niemieckie z wymową",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki niemieckie regularne",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki niemieckie z przyimkami",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki niemieckie z przedrostkami",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki niemieckie youtube",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki niemieckie podstawowe",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki niemieckie perfekt",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego",
+      "category": "General German Learning",
       "competition": "High",
-      "intent": "Educational / Search"
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego od podstaw",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego dla dzieci",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego ai",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego z ai",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "wrd nauka niemieckiego",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "learna nauka niemieckiego",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "linguola nauka niemieckiego",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego za darmo",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store",
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego: słówka",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Apple App Store"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego online",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego online za darmo",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego od podstaw za darmo",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego - youtube",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego szczecin",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego książka",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego aplikacja",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego wrocław",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego net",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego przez sen",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "nauka niemieckiego pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "odmiana czasowników niemieckich przez osoby",
+      "category": "Conjugation",
+      "competition": "Low",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "odmiana czasowników niemieckich tabela",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "odmiana niemieckich czasowników nieregularnych",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "odmiana niemieckich czasowników modalnych",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "odmiana czasowników regularnych niemieckich",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "odmiana czasowników niemieckich ćwiczenia",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "odmiana czasowników niemieckich wordwall",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki gramatyka",
+      "category": "Grammar",
+      "competition": "High",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "niemiecki gramatyka a1",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki gramatyka cwiczenia",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki gramatyka b2",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki gramatyka edgard",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki gramatyka w pigułce",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki gramatyka książka",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki gramatyka b1",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki gramatyka z ćwiczeniami",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki gramatyka od podstaw",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki gramatyka podstawy",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki gramatyka a1 a2",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki gramatyka a2",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki gramatyka kieszonkowa",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki gramatyka c1",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki gramatyka preston",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
     },
     {
       "keyword": "niemieckie słówka",
-      "category": "Vocabulary",
+      "category": "General German Learning",
       "competition": "High",
-      "intent": "Educational / Search"
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
     },
     {
-      "keyword": "słówka niemieckie",
-      "category": "Vocabulary",
+      "keyword": "niemieckie słówka do nauki",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemieckie słówka swiateczne",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemieckie słówka wymowa po polsku",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemieckie słówka wielkanocne",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemieckie słówka związane ze świętami bożego narodzenia",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemieckie słówka podstawowe",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemieckie słówka przydatne w pracy",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemieckie słówka bożonarodzeniowe",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemieckie słówka a1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemieckie słówka jedzenie",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemieckie słówka związane z bożym narodzeniem",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemieckie słówka z rodzajnikami",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "słówka niemieckie b2",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "słówka niemieckie b1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "słówka niemieckie z wymową",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki a1 słownictwo pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki a1 jaki to poziom",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki a1 test",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki a1 słownictwo",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki a1 co trzeba umieć",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki a1 książka",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki a1 test online",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki a1 a2",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki a1 zakres",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki a1 cwiczenia",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki a1 podręcznik",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki a1 gramatyka",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki a1 a2 książka",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "a1 niemiecki wymagania",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki a1 kurs",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki b1",
+      "category": "General German Learning",
       "competition": "High",
-      "intent": "Educational / Search"
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "niemiecki b1 jaki to poziom",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki b1 co trzeba umiec",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki b1 test",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki b1 słownictwo pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki b1 ile czasu",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki b1 słownictwo",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki b1 praca",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki b1 b2",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki b1 podręcznik",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki b1 wymagania",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki b1 gramatyka",
+      "category": "Grammar",
+      "competition": "Medium",
+      "intent": "Educational / Grammar",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki b1 ćwiczenia",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki b1 egzamin",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki b1 kurs",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki b1 certyfikat",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki przyimki miejsca",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki przyimki z celownikiem i biernikiem",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki przyimki z celownikiem",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki przyimki z biernikiem",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki przyimki lokalne",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki przyimki z dativem",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki przyimki quiz",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki przyimki zmienne",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki przyimki z przypadkami",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki przyimki z 3 i 4 przypadkiem",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki przyimki miejsca quiz",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki przyimki ćwiczenia",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki przyimki wordwall",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki przyimki przypadki",
+      "category": "Prepositions & Cases",
+      "competition": "Medium",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "niemiecki przyimki z celownikiem i biernikiem ćwiczenia",
+      "category": "Prepositions & Cases",
+      "competition": "Low",
+      "intent": "Educational / Prepositions & Cases",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki nieregularne niemiecki tabela do druku",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki nieregularne niemiecki - tabela pdf",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki nieregularne niemiecki odmiana",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki nieregularne niemiecki tabela",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki nieregularne niemiecki pdf",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki nieregularne niemiecki lista",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki nieregularne niemiecki wordwall",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki nieregularne niemiecki perfekt",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki nieregularne niemiecki czas teraźniejszy",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki nieregularne niemiecki klasa 8",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki nieregularne niemiecki a1",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki nieregularne niemiecki ćwiczenia pdf",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki nieregularne niemiecki klasa 7",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki nieregularne niemiecki quiz",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "czasowniki nieregularne niemiecki tabela podstawowe",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Low",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trener jezyka niemieckiego",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trener niemiecki w piłce nożnej",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trener niem",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trener niemiec piłkarzy",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "trener niemiec w piłce nożnej",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
     }
   ]
 }

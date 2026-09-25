@@ -97,6 +97,7 @@ describe('First Open Paywall Suite', () => {
     });
 
     it('should evaluate shouldShowFirstOpenPaywall based on premium status, seen state and remote config', () => {
+      jest.spyOn(appConfigService, 'isFirstOpenPaywallDisabled').mockReturnValue(false);
       // Initially not seen, not premium, not disabled -> should be true
       expect(shouldShowFirstOpenPaywall()).toBe(true);
 
