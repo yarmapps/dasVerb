@@ -1,0 +1,796 @@
+{
+  "locale": "el",
+  "name": "Greek",
+  "total": 87,
+  "last_updated": "2026-09-25",
+  "sources": [
+    "Google Play Store (ds=play)",
+    "Apple App Store (MZSearchHints)",
+    "Google Search Suggest"
+  ],
+  "keywords": [
+    {
+      "keyword": "γερμανικα ρηματα με προθεσεισ",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικα ρηματα με δοτικη",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικα ρηματα κλιση",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικα ρηματα",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "ανώμαλα ρήματα γερμανικά",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "ανώμαλα ρήματα γερμανικά pdf",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "αυτοπαθή ρήματα γερμανικά",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "βοηθητικά ρήματα γερμανικά",
+      "category": "Verbs & Practice",
+      "competition": "Medium",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "ρήματα γερμανικα",
+      "category": "Verbs & Practice",
+      "competition": "High",
+      "intent": "Educational / Core Search",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "κλίση ρημάτων γερμανικά",
+      "category": "Conjugation",
+      "competition": "Medium",
+      "intent": "Educational / Conjugation",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "κλίσεισ γερμανικών ρημάτων",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "κλιση ρημάτων γερμανικά",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "εκμάθηση γερμανικών",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Play Store"
+      ]
+    },
+    {
+      "keyword": "εκμάθηση γερμανικών για ενήλικεσ",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "εκμάθηση γερμανικών online",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "εκμάθηση γερμανικών δωρεάν",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "εκμαθηση γερμανικων θεσσαλονικη",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "εκμαθηση γερμανικων βιβλια",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "εκμαθηση γερμανικων ανευ διδασκαλου",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "εκμαθηση γερμανικων pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "εκμαθηση γερμανικων διαδικτυακα",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "εκμαθηση γερμανικων αθηνα",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "εκμαθηση γερμανικων για παιδια",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "εκμαθηση γερμανικων εξ αποστασεως",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "εκμαθηση γερμανικων ταχυρυθμα",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "εκμαθηση γερμανικων χρονοσ",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "εκμαθηση γερμανικων βιβλιο",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "εκμαθηση γερμανικων β2",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "ανώμαλα ρήματα γερμανικά κλιση",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "ανώμαλα ρήματα γερμανικών",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "ανώμαλα ρήματα γερμανικα",
+      "category": "3 Forms & Irregular Verbs",
+      "competition": "Medium",
+      "intent": "Educational / Irregular Verbs",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανική γραμματική και συντακτικό",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανική γραμματική pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανική γραμματική και συντακτικό pdf",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανική γραμματική στα ελληνικά",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανική γραμματική και συντακτικό σπύροσ κουκίδησ",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικη γραμματικη και συντακτικο κουκιδησ",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικη γραμματικη στα ελληνικα pdf",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικη γραμματικη κουκιδησ pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικη γραμματικη κουκιδησ",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικη γραμματικη στα ελληνικα perugia",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικη γραμματικη perugia",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικη γραμματικη κουναλακη",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικη γραμματικη βιβλιο",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικη γραμματικη σπυροσ κουκιδησ",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικη γραμματικη και συντακτικο praxis",
+      "category": "General German Learning",
+      "competition": "Low",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικα a1",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικα a1 test",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "α1 γερμανικα",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "germania a1",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικα lesen a1",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "a1 γερμανικα βιβλιο",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "κπγ γερμανικα a1 a2",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "germania a129",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "germania a127",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "a129 germania paradas",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "a124 germania",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "a127 germania paradas",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "a14 germania",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικα b1",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "β1 γερμανικα",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "b1 γερμανικα ημερομηνιεσ εξετασεων",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "b1 γερμανικα επιπεδο",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "b1 γερμανικα τεστ",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "b1 γερμανικα βιβλια",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "b1 γερμανικα αποτελεσματα",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "b1 γερμανικα κρατικο",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "εξετασεισ b1 γερμανικα",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "προφορικα b1 γερμανικα",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "germania b1",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "b10 germania",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "b12 germania",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "προθέσεισ γερμανικά",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "προθεσεισ γερμανικά",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "προθεσεισ γερμανικων",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικα λεξιλογιο β2",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικα λεξιλογιο pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικα λεξιλόγιο",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικό λεξιλόγιο",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "λεξιλόγιο γερμανικων",
+      "category": "General German Learning",
+      "competition": "High",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικά για αρχάριουσ",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικά για αρχάριουσ pdf",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικα για αρχαριουσ δωρεαν",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικα για αρχαριουσ βιβλιο",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικά κειμενα για αρχάριουσ",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικά για αρχάριουσ βιβλία",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    },
+    {
+      "keyword": "γερμανικα για αρχάριουσ",
+      "category": "General German Learning",
+      "competition": "Medium",
+      "intent": "Educational / General Learning",
+      "sources": [
+        "Google Search"
+      ]
+    }
+  ]
+}
