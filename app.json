@@ -3,7 +3,7 @@
     "name": "das Verb",
     "slug": "das-verb",
     "scheme": "dasverb",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "orientation": "portrait",
     "icon": "./assets/icons/base-icon.png",
     "userInterfaceStyle": "automatic",
@@ -24,7 +24,7 @@
         "ITSAppUsesNonExemptEncryption": false,
         "GADNativeAdValidatorEnabled": false
       },
-      "buildNumber": "5"
+      "buildNumber": "6"
     },
     "android": {
       "adaptiveIcon": {
@@ -38,7 +38,7 @@
       ],
       "package": "com.yarm.apps.dasverb",
       "googleServicesFile": "./google-services.json",
-      "versionCode": 5
+      "versionCode": 6
     },
     "web": {
       "bundler": "metro"

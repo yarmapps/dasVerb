@@ -1,6 +1,6 @@
 {
   "name": "das-verb",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "expo/AppEntry.js",
   "scripts": {
     "clean-build:android": "expo prebuild --clean && yarn android",
