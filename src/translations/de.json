@@ -1,0 +1,505 @@
+{
+  "appUpdate": {
+    "title": "Update verfügbar",
+    "softMessage": "Um das beste Erlebnis und die neuesten Verbesserungen zu genießen, aktualisieren Sie bitte jetzt Ihre App.",
+    "forceMessage": "Ein kritisches Update ist erforderlich, um das Verb weiter zu nutzen. Bitte aktualisieren Sie jetzt.",
+    "button": "Jetzt aktualisieren",
+    "close": "Schließen"
+  },
+  "debugScreen": {
+    "title": "Debug-Menü",
+    "sectionState": "App-Status-Zusammenfassung",
+    "sectionDailyLimit": "Tägliches Quiz-Limit",
+    "sectionStreak": "Tägliche Streak",
+    "sectionSettings": "Einstellungen & Speicher",
+    "sectionAppUpdate": "App-Update-Dialog",
+    "sectionReview": "In-App-Bewertung & Rezension",
+    "dailyQuizzes": "Abgeschlossene Quizze heute: {count} / {limit}",
+    "totalQuizzes": "Insgesamt abgeschlossene Quizze: {count}",
+    "extraQuizzes": "Zusätzliche Quizze verfügbar: {count}",
+    "adGrants": "Werbebelohnungen heute: {count} / {limit}",
+    "streakSummary": "Aktuelle Streak: {streak} Tage (Bester: {best})",
+    "resetDailyLimit": "Tägliches Limit zurücksetzen",
+    "grantExtraQuiz": "+1 zusätzliches Quiz gewähren",
+    "consumeQuiz": "1 tägliches Quiz verbrauchen",
+    "resetStreak": "Streak zurücksetzen",
+    "incrementStreak": "Streak erhöhen (+1 Tag)",
+    "resetAllSettings": "Einstellungen auf Standard zurücksetzen",
+    "triggerSoftUpdate": "Soft-Update auslösen (Verwerfbar)",
+    "triggerForceUpdate": "Force-Update auslösen (Blockierend)",
+    "resetUpdateState": "Update-Status zurücksetzen",
+    "triggerReview": "In-App-Bewertung auslösen (StoreReview)",
+    "resetReviewCooldown": "Bewertungs-Abklingzeit zurücksetzen",
+    "addCompletedQuizzes": "+5 abgeschlossene Quizze hinzufügen",
+    "alertSuccess": "Erfolg",
+    "dailyLimitResetSuccess": "Tägliche Quiz-Limits wurden zurückgesetzt.",
+    "streakResetSuccess": "Streak-Daten wurden zurückgesetzt.",
+    "settingsResetSuccess": "Alle Einstellungen wurden auf die Standardwerte zurückgesetzt.",
+    "reviewTriggerSuccess": "Store-Bewertung beim OS angefragt.",
+    "reviewCooldownResetSuccess": "Bewertungs-Abklingzeit zurückgesetzt."
+  },
+  "navigation": {
+    "practice": "Üben",
+    "dictionary": "Wörterbuch"
+  },
+  "languageSelectorScreen": {
+    "title": "Was ist deine Muttersprache?",
+    "continue": "Weiter"
+  },
+  "practiceScreen": {
+    "title": "Üben",
+    "subtitle": "Trainiere Verben, Konjugation und Satzstrukturen",
+    "levelsButtonTitle": "Verben üben",
+    "levelsButtonSubtitle": "Von den häufigsten bis zu den seltensten nach der Goethe-Methode",
+    "featuredBadge": "Empfohlen",
+    "startNow": "Jetzt starten",
+    "smartQuizBadge": "Smarte Wiederholung",
+    "smartQuizTitle": "Smarter Algorithmus",
+    "smartQuizSubtitle": "Fokussiere dich auf deine Fehler und lerne 3x schneller",
+    "prefixBannerBadge": "A1 – B2",
+    "prefixBannerTitle": "Verben mit Präfixen",
+    "prefixBannerSubtitle": "Trennbare, untrennbare und doppelte Präfixe",
+    "conjugationBannerTitle": "Konjugationstrainer",
+    "conjugationBannerSubtitle": "Trainiere Verbformen für alle Pronomen im Präsens",
+    "verbFormsBannerTitle": "Unregelmäßige Verben",
+    "verbFormsBannerSubtitle": "Trainiere Infinitiv – Präteritum – Perfekt",
+    "prepositionsBannerTitle": "Verben mit Präpositionen",
+    "prepositionsBannerSubtitle": "Meistere Verbpräpositionen und Kasus",
+    "adBadge": "Anzeige",
+    "sectionModes": "Nach Modus lernen",
+    "sectionTopics": "Nach Thema lernen"
+  },
+  "categories": {
+    "sectionTitle": "Themen & Kategorien",
+    "sectionSubtitle": "Übe Verben gruppiert nach Alltagssituationen",
+    "verbsCount": "Verben",
+    "movement": {
+      "title": "Bewegung & Transport",
+      "subtitle": "gehen, fahren, fliegen, ankommen..."
+    },
+    "communication": {
+      "title": "Kommunikation & Sprache",
+      "subtitle": "sprechen, sagen, fragen, antworten..."
+    },
+    "homeDaily": {
+      "title": "Alltag & Zuhause",
+      "subtitle": "wohnen, schlafen, aufstehen, kochen..."
+    },
+    "foodDrink": {
+      "title": "Essen & Restaurants",
+      "subtitle": "essen, trinken, bestellen, probieren..."
+    },
+    "workStudy": {
+      "title": "Arbeit & Studium",
+      "subtitle": "arbeiten, lernen, studieren, schreiben..."
+    },
+    "shoppingMoney": {
+      "title": "Einkaufen & Geld",
+      "subtitle": "kaufen, bezahlen, kosten, sparen..."
+    },
+    "thoughtsFeelings": {
+      "title": "Gedanken & Gefühle",
+      "subtitle": "denken, glauben, fühlen, lieben..."
+    },
+    "leisureHobbies": {
+      "title": "Freizeit & Hobbys",
+      "subtitle": "spielen, reisen, schwimmen, wandern..."
+    },
+    "health": {
+      "title": "Gesundheit & Wohlbefinden",
+      "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    },
+    "natureEnvironment": {
+      "title": "Natur & Wetter",
+      "subtitle": "regnen, scheinen, wehen, blühen..."
+    },
+    "lawSociety": {
+      "title": "Recht & Gesellschaft",
+      "subtitle": "wählen, regieren, entscheiden, verbieten..."
+    },
+    "relationsSocial": {
+      "title": "Beziehungen & Soziales",
+      "subtitle": "helfen, vertrauen, umarmen, begrüßen..."
+    },
+    "creationChange": {
+      "title": "Erschaffen & Verändern",
+      "subtitle": "schaffen, verändern, umwandeln, entstehen..."
+    },
+    "travelTransport": {
+      "title": "Reisen & Transport",
+      "subtitle": "reisen, fahren, fliegen, einsteigen..."
+    },
+    "perceptionSenses": {
+      "title": "Wahrnehmung & Sinne",
+      "subtitle": "sehen, hören, riechen, schmecken..."
+    },
+    "digitalMedia": {
+      "title": "Technologie & Medien",
+      "subtitle": "installieren, speichern, löschen, senden..."
+    }
+  },
+  "dictionaryScreen": {
+    "title": "Wörterbuch",
+    "searchPlaceholder": "Verben suchen...",
+    "emptySearch": "Keine Verben gefunden",
+    "stammformen": "Stammformen",
+    "infinitive": "Infinitiv",
+    "present3sg": "Präsens",
+    "praeteritum3sg": "Präteritum",
+    "perfekt": "Perfekt",
+    "conjugation": "Konjugation",
+    "person": "Person",
+    "present": "Präsens",
+    "praeteritum": "Präteritum",
+    "rektion": "Rektion & Kasus",
+    "imperative": "Imperativ",
+    "examples": "Beispiele"
+  },
+  "settingsScreen": {
+    "title": "Einstellungen",
+    "generalSection": "ALLGEMEIN",
+    "audioSection": "AUDIO",
+    "supportSection": "SUPPORT",
+    "appLanguage": "App-Sprache",
+    "theme": "Erscheinungsbild",
+    "themeLight": "Hell",
+    "themeDark": "Dunkel",
+    "themeSystem": "System",
+    "notifications": "Benachrichtigungen",
+    "soundEffects": "Soundeffekte",
+    "speakOnCorrectAnswer": "Richtige Antwort vorlesen",
+    "voiceGender": "Stimme",
+    "voiceFemale": "Weiblich",
+    "voiceMale": "Männlich",
+    "maleVoiceHint": "Um eine männliche deutsche Stimme zu verwenden, installiere eine unter iOS-Einstellungen → Bedienungshilfen → Gesprochene Inhalte → Stimmen → Deutsch.",
+    "contactUs": "Kontaktiere uns",
+    "subscriptionSection": "ABONNEMENT",
+    "manageSubscription": "Abonnement verwalten",
+    "rateApp": "App bewerten",
+    "privacySettings": "Datenschutzeinstellungen",
+    "privacyOptionsError": "Fehler beim Öffnen der Datenschutzeinstellungen. Bitte versuche es später erneut.",
+    "error": "Fehler",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen",
+    "version": "Version",
+    "notificationsPermissionRequiredTitle": "Benachrichtigungen aktivieren",
+    "notificationsPermissionRequiredMessage": "Um tägliche Übungs- und Streak-Erinnerungen zu erhalten, aktiviere bitte die Benachrichtigungen in deinen Geräteeinstellungen.",
+    "openSettings": "Einstellungen",
+    "cancel": "Abbrechen",
+    "dataSection": "DATENVERWALTUNG",
+    "resetProgress": "Lernfortschritt zurücksetzen",
+    "resetProgressTitle": "Lernfortschritt zurücksetzen?",
+    "resetProgressMessage": "Dein gesamter Lernfortschritt für Verben und Präfix-Level wird dauerhaft gelöscht. Diese Aktion kann nicht rückgängig gemacht werden.",
+    "resetProgressConfirm": "Fortschritt zurücksetzen",
+    "resetProgressSuccess": "Lernfortschritt wurde zurückgesetzt.",
+    "resetSettings": "App-Einstellungen zurücksetzen",
+    "resetSettingsTitle": "App-Einstellungen zurücksetzen?",
+    "resetSettingsMessage": "Alle Sound-, Design- und Benachrichtigungseinstellungen werden auf die Standardwerte zurückgesetzt. Dein Lernfortschritt bleibt erhalten.",
+    "resetSettingsConfirm": "Einstellungen zurücksetzen",
+    "resetSettingsSuccess": "Einstellungen wurden auf Standardwerte zurückgesetzt.",
+    "resetSuccessTitle": "Fertig"
+  },
+  "quizSettingsModal": {
+    "title": "Quiz-Einstellungen"
+  },
+  "verbsPracticeListScreen": {
+    "title": "Verben üben",
+    "levelHeader": "LEVEL",
+    "verbCount": "Verben",
+    "uncompleted": "Nicht abgeschlossen",
+    "bronze": "Bronze",
+    "silver": "Silber",
+    "trophy": "Trophäe",
+    "empty": "Keine Verben gefunden",
+    "checkpointTitle": "Checkpoint-Quiz",
+    "finalTestTitle": "Abschlusstest",
+    "finalTestTitleWithLevel": "Abschlusstest {level}",
+    "finalTestSubtitle": "Umfassender 20-Fragen-Test für dieses Level",
+    "categoryFinalTestSubtitle": "Umfassender 20-Fragen-Test für dieses Thema",
+    "checkpointSubtitle": "Verben {from} – {to}"
+  },
+  "prefixPracticeListScreen": {
+    "title": "Verben mit Präfixen",
+    "levelNumber": "Level {number}",
+    "checkpointTitle": "Checkpoint {level}",
+    "checkpointSubtitle": "Umfassender 20-Fragen-Test für dieses Level",
+    "subgroupSeparable": "Trennbare Präfixe",
+    "subgroupInseparable": "Untrennbare Präfixe",
+    "subgroupOpposites": "Gegensatzpaare",
+    "subgroupDual": "Doppelte Präfixe"
+  },
+  "prefixPractice": {
+    "title": "Verben mit Präfixen",
+    "levelTitle": "Level {number}",
+    "checkpointTitle": "Checkpoint {level}"
+  },
+  "prefixGrammarHint": {
+    "separableTitle": "Trennbares Präfix",
+    "inseparableTitle": "Untrennbares Präfix",
+    "dualTitle": "Doppeltes Präfix",
+    "separableRule": "Im Präsens und Präteritum rücken trennbare Präfixe ganz ans Ende des Satzes.",
+    "inseparableRule": "Untrennbare Präfixe (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) trennen sich nie vom Verbstamm.",
+    "dualRule": "Präfixe wie über-, um-, unter-, durch- können je nach Bedeutung des Verbs trennbar oder untrennbar sein."
+  },
+  "conjugationPracticeListScreen": {
+    "title": "Konjugationstrainer",
+    "levelNumber": "Level {number}",
+    "checkpointTitle": "Checkpoint {number}",
+    "checkpointSubtitle": "Wiederholungsquiz mit 10 zufälligen Verben",
+    "finalTestTitle": "Abschlusstest {level}",
+    "finalTestSubtitle": "Umfassender 15-Verben-Test für dieses Level"
+  },
+  "conjugationPractice": {
+    "title": "Konjugation",
+    "levelTitle": "Level {number}",
+    "checkpointNumberTitle": "Checkpoint {number}",
+    "finalTestTitle": "Abschlusstest {level}"
+  },
+  "conjugationGrammarHint": {
+    "ruleTag": "Vokalwechsel",
+    "eToIRule": "Vokalwechsel e → i in der 2. und 3. Person Singular (du, er/sie/es).",
+    "eToIeRule": "Vokalwechsel e → ie in der 2. und 3. Person Singular (du, er/sie/es).",
+    "aToAeRule": "Vokalwechsel a → ä in der 2. und 3. Person Singular (du, er/sie/es).",
+    "auToAeuRule": "Vokalwechsel au → äu in der 2. und 3. Person Singular (du, er/sie/es)."
+  },
+  "verbFormsPracticeListScreen": {
+    "title": "Unregelmäßige Verben",
+    "levelNumber": "Level {number}",
+    "checkpointTitle": "Checkpoint {number}",
+    "checkpointSubtitle": "Wiederholungsquiz mit 10 zufälligen Verben",
+    "finalTestTitle": "Abschlusstest {level}",
+    "finalTestSubtitle": "Umfassender 15-Verben-Test für dieses Level"
+  },
+  "verbFormsPractice": {
+    "title": "Unregelmäßige Verben",
+    "levelTitle": "Level {number}",
+    "checkpointNumberTitle": "Checkpoint {number}",
+    "finalTestTitle": "Abschlusstest {level}"
+  },
+  "verbFormsGrammarHint": {
+    "ruleTag": "Grammatikregel",
+    "strongVerbTag": "Starkes Verb",
+    "weakVerbTag": "Schwaches Verb",
+    "mixedVerbTag": "Gemischtes Verb",
+    "irregularVerbTag": "Unregelmäßiges Verb",
+    "modalVerbTag": "Modalverb",
+    "seinRule": "Verben der Bewegung, Zustandsveränderung sowie sein/bleiben bilden das Perfekt mit «sein».",
+    "habenRule": "Transitive, reflexive und statische Verben bilden das Perfekt mit «haben».",
+    "strongVerbRule": "Starke Verben ändern den Stammvokal im Präteritum und enden im Partizip II auf -en.",
+    "weakVerbRule": "Regelmäßige schwache Verben fügen im Präteritum -te und im Partizip II ge-...-t hinzu.",
+    "mixedVerbRule": "Gemischte Verben kombinieren einen Vokalwechsel mit den regelmäßigen Endungen -te und -t."
+  },
+  "verbFormsExercise": {
+    "infinitive": "Infinitiv",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt"
+  },
+  "prepositionsPracticeListScreen": {
+    "title": "Verben mit Präpositionen",
+    "levelNumber": "Level {number}",
+    "checkpointTitle": "Checkpoint {number}",
+    "checkpointSubtitle": "Wiederholungsquiz mit 10 zufälligen Verben",
+    "finalTestTitle": "Abschlusstest {level}",
+    "finalTestSubtitle": "Umfassender 15-Verben-Test für dieses Level"
+  },
+  "prepositionsPractice": {
+    "title": "Präpositionen",
+    "levelTitle": "Level {number}",
+    "checkpointNumberTitle": "Checkpoint {number}",
+    "finalTestTitle": "Abschlusstest {level}"
+  },
+  "prepositionGrammarHint": {
+    "ruleTag": "Präpositionen-Regel",
+    "questionLabel": "Frage:"
+  },
+  "verbQuizScreen": {
+    "title": "Üben",
+    "checkpointQuizTitle": "Checkpoint-Quiz",
+    "smartQuizTitle": "Smartes Quiz",
+    "conjugateVerbTitle": "Konjugiere das Verb {verb}",
+    "prepositionTaskTitle": "Wähle die Präposition",
+    "level": "Level",
+    "check": "Prüfen",
+    "continue": "Weiter",
+    "exercise": "Übung",
+    "correct": "Richtig!",
+    "tryAgain": "Versuche es nochmal",
+    "fillCard": "Fülle die Karte aus",
+    "tapToContinue": "Tippe irgendwo, um fortzufahren",
+    "correctAnswer": "Richtige Antwort:",
+    "conjugationPräsens": "Konjugation im Präsens",
+    "principalParts": "Stammformen",
+    "imperativeForms": "Imperativformen",
+    "auxiliaryExplanationMovement": "Das Verb {verb} drückt eine Bewegung oder Zustandsveränderung aus, deshalb bildet es das Perfekt mit sein ({form}).",
+    "auxiliaryExplanationGeneral": "Das Verb {verb} bildet das Perfekt mit dem Hilfsverb haben ({form})."
+  },
+  "quizResultsScreen": {
+    "title": "Ergebnisse",
+    "checkpointResultsTitle": "Checkpoint-Ergebnisse",
+    "smartQuizResultsTitle": "Smarte Quiz-Ergebnisse",
+    "canDoBetter": "Du kannst es besser!",
+    "almostThere": "Fast geschafft!",
+    "closeToPerfection": "Fast perfekt!",
+    "youDidIt": "Du hast es geschafft!",
+    "nextLevel": "Nächstes Level",
+    "tryAgain": "Versuche es nochmal",
+    "verbsList": "Zur Verbenliste",
+    "backToPractice": "Zurück zum Üben",
+    "scoreSummary": "{correct} von {total}",
+    "showCorrectAnswers": "Richtige Antworten anzeigen",
+    "showAllAnswers": "Alle Antworten anzeigen",
+    "showErrorsOnly": "Nur Fehler anzeigen"
+  },
+  "dailyQuizLimitModal": {
+    "title": "Weiter so!",
+    "message": "Du bist wirklich engagiert, Deutsch zu lernen!",
+    "instructions": "Wie möchtest du fortfahren?",
+    "videoButton": "Werbung ansehen",
+    "or": "oder",
+    "premiumButtonWithTrial": "Kostenlose unbegrenzte Level\nfür {daysLabel}",
+    "premiumButtonNoTrial": "Werbefrei werden",
+    "premiumButtonSubtitleWithTrial": "dann {yearlyPrice} / 3 Monate (☕️ / Monat)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} / 3 Monate (☕️ / Monat)",
+    "waitUntilTomorrow": "Bis morgen warten",
+    "cancelAnytime": "Jederzeit kündbar"
+  },
+  "premiumSheets": {
+    "subscribeTitle": "Premium freischalten",
+    "subscribeSubtitle": "Optimiere dein Lernen von deutschen Verben mit fortschrittlichen Tools.",
+    "subscribeNow": "Jetzt abonnieren",
+    "buyNow": "Jetzt kaufen",
+    "viewPlans": "Pläne ansehen",
+    "premiumFeaturesLabel": "PREMIUM-FUNKTIONEN",
+    "disclaimerAutoRenew": "Verlängert sich automatisch für {price}/{period}. Jederzeit in den Kontoeinstellungen kündbar.",
+    "disclaimerAutoRenewTrial": "Kostenlos für {trialDuration}, dann {price}/{period}. Jederzeit kündbar.",
+    "disclaimerOneTime": "Einmaliger Kauf. Keine wiederkehrenden Gebühren.",
+    "freeTrialDays": "{count}-tägige kostenlose Testversion",
+    "freeTrialWeeks": "{count}-wöchige kostenlose Testversion",
+    "freeTrialMonths": "{count}-monatige kostenlose Testversion",
+    "freeTrialYears": "{count}-jährige kostenlose Testversion",
+    "trialUnit": {
+      "day": "Tage",
+      "week": "Wochen",
+      "month": "Monate",
+      "year": "Jahre"
+    },
+    "periodMonth": "Monat",
+    "periodYear": "Jahr",
+    "period3Months": "3 Monate",
+    "period6Months": "6 Monate",
+    "restorePurchases": "Käufe wiederherstellen",
+    "errorTitle": "Fehler",
+    "errorUnavailable": "Dieser Plan ist derzeit nicht verfügbar. Bitte versuche es später erneut.",
+    "errorPurchase": "Kauf fehlgeschlagen. Bitte versuche es erneut.",
+    "errorRestore": "Wiederherstellung fehlgeschlagen. Bitte versuche es erneut.",
+    "restoreSuccessTitle": "Wiederhergestellt!",
+    "restoreSuccessMessage": "Dein Premium-Zugang wurde wiederhergestellt.",
+    "restoreNothingTitle": "Keine Käufe gefunden",
+    "restoreNothingMessage": "Wir konnten keine früheren Käufe finden, die wiederhergestellt werden könnten.",
+    "termsOfService": "Nutzungsbedingungen",
+    "privacyPolicy": "Datenschutzerklärung",
+    "plans": {
+      "monthlyLabel": "1 Monat",
+      "monthlyPer": "Monatlich",
+      "yearlyLabel": "12 Monate",
+      "yearlyBadge": "BESTER PREIS",
+      "perMonth": "{price}/Monat",
+      "lifetimeLabel": "Auf Lebenszeit",
+      "lifetimePer": "Einmal zahlen",
+      "lifetimeBadge": "EINMALIG",
+      "threeMonthLabel": "3 Monate",
+      "sixMonthLabel": "6 Monate",
+      "bestValueBadge": "BESTER PREIS",
+      "popularBadge": "BELIEBT"
+    },
+    "features": {
+      "noAdsTitle": "Keine Werbung",
+      "noAdsShort": "Keine\nWerbung",
+      "noAdsDescription": "Bleib konzentriert und lerne ohne Ablenkungen.",
+      "unlimitedQuizzesTitle": "Unbegrenzte Quizze",
+      "unlimitedQuizzesShort": "Unbegrenzte\nQuizze",
+      "unlimitedQuizzesDescription": "Übe so viel du willst, ohne tägliche Limits.",
+      "allLevelsTitle": "Alle Level freigeschaltet",
+      "allLevelsShort": "Alle\nLevel",
+      "allLevelsDescription": "Sofortiger Zugriff auf alle A1-B2 Verblevel und Checkpoints.",
+      "smartQuizModeTitle": "Smarter Algorithmus",
+      "smartQuizModeShort": "Smarter\nAlgorithmus",
+      "smartQuizModeDescription": "Fokussiere dich nur auf deine Fehler und lerne 3x schneller!",
+      "naturalVoiceTitle": "Natürliche Audios",
+      "naturalVoiceShort": "Natürliches\nDeutsch",
+      "naturalVoiceDescription": "Höre Verben und Sätze mit einer natürlichen deutschen Stimme.",
+      "offlineModeTitle": "Offline-Modus",
+      "offlineModeShort": "Offline\nüben",
+      "offlineModeDescription": "Übe Verben jederzeit und überall ohne Internetverbindung."
+    }
+  },
+  "notifications": {
+    "reminderTitle": "Zeit zum Üben!",
+    "reminderBody": "Eine kurze Einheit mit deutschen Verben und Satzstrukturen wird dir helfen, sie zu meistern.",
+    "trialReminderTitle": "Deine kostenlose Testphase endet bald",
+    "trialReminderBody": "Nutze Premium noch heute! Deine Testphase endet in 24 Stunden.",
+    "streakReminderTitle": "Unterbrich deine Streak nicht! 🔥",
+    "streakReminderBody": "Du hast heute noch nicht geübt. Mache ein kurzes 2-Minuten-Quiz, um deine Streak am Laufen zu halten!"
+  },
+  "firstOpenPaywall": {
+    "trialBadge": "3 TAGE KOSTENLOS TESTEN",
+    "title": "Teste Premium, bevor du bezahlst",
+    "subtitle": "So funktioniert deine kostenlose Testphase.",
+    "cta": "Kostenlose Testphase starten",
+    "restore": "Käufe wiederherstellen",
+    "proceedLimited": "Mit der eingeschränkten Version fortfahren",
+    "priceYearlyWithCoffee": "{price}/Jahr, ein Kaffee/Monat.",
+    "price3MonthsWithCoffee": "Nur {price} für 3 Monate — weniger als ein Kaffee pro Monat",
+    "disclaimer": "Verlängert sich automatisch für {price}/Jahr. Jederzeit in den Kontoeinstellungen kündbar.",
+    "disclaimerFallback": "Verlängert sich jährlich automatisch. Jederzeit in den Einstellungen kündbar.",
+    "priceWithTrial": "Kostenlos für {trialDuration}, dann {price}/Jahr",
+    "priceYearly": "{price}/Jahr",
+    "timeline": {
+      "today": {
+        "day": "Heute",
+        "headline": "Alles freischalten",
+        "benefits": {
+          "noAds": {
+            "title": "100 % werbefreies Lernen",
+            "text": "Fokussiere dich auf deine Ziele mit einem sauberen, ablenkungsfreien Lernerlebnis."
+          },
+          "unlimitedQuizzes": {
+            "title": "Unbegrenzte Quizze",
+            "text": "Übe so viel du willst, ohne tägliche Limits oder Wartezeiten."
+          },
+          "allLevels": {
+            "title": "Alle A1–B2 Level freigeschaltet",
+            "text": "Sofortiger Zugriff auf alle Verbkarten, Grammatik-Checkpoints und Tests."
+          },
+          "smartQuizMode": {
+            "title": "Smarte Fehlerkorrektur",
+            "text": "Ziele auf deine persönlichen Schwachstellen ab, um deutsche Verben 3x schneller zu meistern."
+          },
+          "offlineMode": {
+            "title": "Offline üben",
+            "text": "Übe deutsche Verben jederzeit und überall ohne Internetverbindung."
+          }
+        }
+      },
+      "day2": {
+        "day": "Tag 2",
+        "headline": "Erinnerung an das Testende",
+        "description": "Wir senden dir eine freundliche Erinnerung, bevor deine Testphase endet — keine Überraschungen."
+      },
+      "day3": {
+        "day": "Tag 3",
+        "headline": "3-Monats-Zugang beginnt",
+        "description": "Deine Testphase wandelt sich in einen 3-Monats-Zugang um. Jederzeit in den Einstellungen kündbar."
+      }
+    }
+  },
+  "offlineModal": {
+    "title": "Internet erforderlich",
+    "message": "Hole dir Premium, um jederzeit und überall offline zu üben.",
+    "getPremium": "Premium holen",
+    "retry": "Erneut versuchen",
+    "enableOffline": "Offline aktivieren",
+    "premiumButtonWithTrial": "Kostenloses Premium für {daysLabel}",
+    "premiumButtonNoTrial": "Premium holen"
+  }
+}

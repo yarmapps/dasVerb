@@ -108,6 +108,34 @@
     "health": {
       "title": "Salute e benessere",
       "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    },
+    "natureEnvironment": {
+      "title": "Natura e meteo",
+      "subtitle": "regnen, scheinen, wehen, blühen..."
+    },
+    "lawSociety": {
+      "title": "Diritto e società",
+      "subtitle": "wählen, regieren, entscheiden, verbieten..."
+    },
+    "relationsSocial": {
+      "title": "Relazioni e vita sociale",
+      "subtitle": "helfen, vertrauen, umarmen, begrüßen..."
+    },
+    "creationChange": {
+      "title": "Creazione e cambiamento",
+      "subtitle": "schaffen, verändern, umwandeln, entstehen..."
+    },
+    "travelTransport": {
+      "title": "Viaggi e trasporti",
+      "subtitle": "reisen, fahren, fliegen, einsteigen..."
+    },
+    "perceptionSenses": {
+      "title": "Percezione e sensi",
+      "subtitle": "sehen, hören, riechen, schmecken..."
+    },
+    "digitalMedia": {
+      "title": "Tecnologia e media",
+      "subtitle": "installieren, speichern, löschen, senden..."
     }
   },
   "dictionaryScreen": {
@@ -166,7 +194,10 @@
     "resetSettingsMessage": "Tutte le impostazioni audio, tema e notifiche torneranno ai valori predefiniti. I tuoi progressi saranno conservati.",
     "resetSettingsConfirm": "Reimposta impostazioni",
     "resetSettingsSuccess": "Le impostazioni sono state reimpostate ai valori predefiniti.",
-    "resetSuccessTitle": "Fatto"
+    "resetSuccessTitle": "Fatto",
+    "privacySettings": "Impostazioni sulla privacy",
+    "privacyOptionsError": "Impossibile aprire le impostazioni sulla privacy. Riprova più tardi.",
+    "error": "Errore"
   },
   "quizSettingsModal": {
     "title": "Impostazioni quiz"

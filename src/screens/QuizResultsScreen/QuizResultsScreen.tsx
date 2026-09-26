@@ -27,6 +27,7 @@ import { incrementDailyCompletedQuizzes } from '../../services/usageService';
 import { recordStreakActivity } from '../../services/streakService';
 import { getNextPracticeTarget, PracticeNextTarget } from '../../services/practiceSequenceService';
 import { useNavigateToQuiz } from '../../hooks/useNavigateToQuiz';
+import { trackEvent } from '../../services/analyticsService';
 import { createStyles } from './QuizResultsScreen.styles';
 
 type QuizResultsRouteProp = RouteProp<RootStackParamList, 'QuizResults'>;
@@ -111,15 +112,52 @@ export function QuizResultsScreen(): React.JSX.Element {
   const percentage = Math.round((correctCount / totalCount) * 100);
   const status = calculateVerbStatus(percentage);
 
+  const isPrefixQuiz = Boolean(prefixLevelId || isPrefixCheckpoint);
+  const isCategoryQuiz = Boolean(categoryId);
+
+  const resolvedQuizType = useMemo(() => {
+    if (isPrepositionQuiz || prepositionLevelId) return 'prepositions';
+    if (isVerbFormsQuiz || verbFormsLevelId) return 'verb_forms';
+    if (isConjugationQuiz || conjugationLevelId) return 'conjugation';
+    if (isPrefixQuiz) return 'prefix';
+    if (isSmartQuiz) return 'smart';
+    if (isCheckpoint) return 'checkpoint';
+    if (isCategoryQuiz) return 'category';
+    return 'verb';
+  }, [
+    isPrepositionQuiz,
+    prepositionLevelId,
+    isVerbFormsQuiz,
+    verbFormsLevelId,
+    isConjugationQuiz,
+    conjugationLevelId,
+    isPrefixQuiz,
+    isSmartQuiz,
+    isCheckpoint,
+    isCategoryQuiz,
+  ]);
+
   useEffect(() => {
     soundService.playLevelFinishedSound();
     incrementDailyCompletedQuizzes();
+
+    trackEvent('quiz_results_viewed', {
+      score: correctCount,
+      total_questions: totalCount,
+      percentage,
+      is_passed: percentage >= 80,
+      quiz_type: resolvedQuizType,
+      infinitive,
+      level,
+      has_errors: hasErrors,
+    });
 
     const streakResult = recordStreakActivity();
     if (streakResult.isNewDay) {
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setIsNewStreakDay(true);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -199,6 +237,12 @@ export function QuizResultsScreen(): React.JSX.Element {
   }, [percentage]);
 
   const handleTryAgain = () => {
+    trackEvent('quiz_results_action', {
+      action: 'retry',
+      quiz_type: resolvedQuizType,
+      infinitive,
+      level,
+    });
     if (prepositionLevelId || isPrepositionQuiz) {
       navigateToQuiz(
         {
@@ -255,6 +299,12 @@ export function QuizResultsScreen(): React.JSX.Element {
   };
 
   const handleGoToList = useCallback(() => {
+    trackEvent('quiz_results_action', {
+      action: 'back_to_list',
+      quiz_type: resolvedQuizType,
+      infinitive,
+      level,
+    });
     if (returnRouteName === 'PrepositionsPracticeList') {
       if (navigation.canGoBack()) {
         navigation.popToTop();
@@ -307,9 +357,15 @@ export function QuizResultsScreen(): React.JSX.Element {
         params: { screen: 'VerbsPracticeList' },
       });
     }
-  }, [navigation, returnRouteName]);
+  }, [navigation, returnRouteName, resolvedQuizType, infinitive, level]);
 
   const handleGoToPractice = useCallback(() => {
+    trackEvent('quiz_results_action', {
+      action: 'back_to_home',
+      quiz_type: resolvedQuizType,
+      infinitive,
+      level,
+    });
     if (navigation.canGoBack()) {
       navigation.popToTop();
     } else {
@@ -318,9 +374,15 @@ export function QuizResultsScreen(): React.JSX.Element {
         params: { screen: 'PracticeHome' },
       });
     }
-  }, [navigation]);
+  }, [navigation, resolvedQuizType, infinitive, level]);
 
   const handleNextLevel = () => {
+    trackEvent('quiz_results_action', {
+      action: 'next_quiz',
+      quiz_type: resolvedQuizType,
+      infinitive,
+      level,
+    });
     if (nextQuizParams) {
       navigateToQuiz(nextQuizParams, 'replace');
       return;
@@ -779,6 +841,19 @@ export function QuizResultsScreen(): React.JSX.Element {
     }, [handleBack]),
   );
 
+  const handleToggleShowAllAnswers = useCallback(
+    (value: boolean) => {
+      setShowAllAnswers(value);
+      trackEvent('quiz_results_action', {
+        action: 'toggle_show_all',
+        quiz_type: resolvedQuizType,
+        infinitive,
+        level,
+      });
+    },
+    [resolvedQuizType, infinitive, level],
+  );
+
   return (
     <ScreenBackground>
       <StatusBar style={isDark ? 'light' : 'dark'} />
@@ -823,7 +898,7 @@ export function QuizResultsScreen(): React.JSX.Element {
                 </Text>
                 <Switch
                   value={showAllAnswers}
-                  onValueChange={setShowAllAnswers}
+                  onValueChange={handleToggleShowAllAnswers}
                   trackColor={{ false: colors.blockBorder, true: colors.primary }}
                   thumbColor="#ffffff"
                   testID="toggle-answers-switch"

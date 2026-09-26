@@ -1,6 +1,6 @@
 {
   "name": "das-verb",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "expo/AppEntry.js",
   "scripts": {
     "clean-build:android": "expo prebuild --clean && yarn android",
@@ -56,6 +56,7 @@
   "description": "Mobile application to learn and practice German verbs (A1-B2)",
   "dependencies": {
     "@expo/vector-icons": "15.1.1",
+    "@posthog/react-native-plugin": "^2.12.0",
     "@react-native-async-storage/async-storage": "2.2.0",
     "@react-native-community/netinfo": "^12.0.1",
     "@react-native-firebase/analytics": "^26.3.3",

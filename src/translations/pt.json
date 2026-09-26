@@ -108,6 +108,34 @@
     "health": {
       "title": "Saúde e bem-estar",
       "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    },
+    "natureEnvironment": {
+      "title": "Natureza e clima",
+      "subtitle": "regnen, scheinen, wehen, blühen..."
+    },
+    "lawSociety": {
+      "title": "Direito e sociedade",
+      "subtitle": "wählen, regieren, entscheiden, verbieten..."
+    },
+    "relationsSocial": {
+      "title": "Relacionamentos e social",
+      "subtitle": "helfen, vertrauen, umarmen, begrüßen..."
+    },
+    "creationChange": {
+      "title": "Criação e mudança",
+      "subtitle": "schaffen, verändern, umwandeln, entstehen..."
+    },
+    "travelTransport": {
+      "title": "Viagens e transporte",
+      "subtitle": "reisen, fahren, fliegen, einsteigen..."
+    },
+    "perceptionSenses": {
+      "title": "Percepção e sentidos",
+      "subtitle": "sehen, hören, riechen, schmecken..."
+    },
+    "digitalMedia": {
+      "title": "Tecnologia e mídia",
+      "subtitle": "installieren, speichern, löschen, senden..."
     }
   },
   "dictionaryScreen": {
@@ -166,7 +194,10 @@
     "resetSettingsMessage": "Todas as configurações de som, tema e notificações serão restauradas para os padrões. Seu progresso de aprendizagem será mantido.",
     "resetSettingsConfirm": "Redefinir configurações",
     "resetSettingsSuccess": "As configurações foram restauradas para os padrões.",
-    "resetSuccessTitle": "Concluído"
+    "resetSuccessTitle": "Concluído",
+    "privacySettings": "Configurações de privacidade",
+    "privacyOptionsError": "Falha ao abrir as configurações de privacidade. Tente novamente mais tarde.",
+    "error": "Erro"
   },
   "quizSettingsModal": {
     "title": "Configurações do teste"

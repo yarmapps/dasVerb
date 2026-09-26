@@ -8,7 +8,7 @@ export function createStyles(colors: ThemeColors) {
       width: '100%',
       paddingHorizontal: 20,
       paddingTop: Spacing.xs,
-      paddingBottom: Spacing.xl,
+      paddingBottom: Spacing.md,
       alignItems: 'center',
     },
     headerContainer: {

@@ -108,6 +108,34 @@
     "health": {
       "title": "Здоров'я та самопочуття",
       "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    },
+    "natureEnvironment": {
+      "title": "Природа і погода",
+      "subtitle": "regnen, scheinen, wehen, blühen..."
+    },
+    "lawSociety": {
+      "title": "Право і суспільство",
+      "subtitle": "wählen, regieren, entscheiden, verbieten..."
+    },
+    "relationsSocial": {
+      "title": "Стосунки та суспільство",
+      "subtitle": "helfen, vertrauen, umarmen, begrüßen..."
+    },
+    "creationChange": {
+      "title": "Створення та зміни",
+      "subtitle": "schaffen, verändern, umwandeln, entstehen..."
+    },
+    "travelTransport": {
+      "title": "Подорожі та транспорт",
+      "subtitle": "reisen, fahren, fliegen, einsteigen..."
+    },
+    "perceptionSenses": {
+      "title": "Сприйняття та відчуття",
+      "subtitle": "sehen, hören, riechen, schmecken..."
+    },
+    "digitalMedia": {
+      "title": "Технології та медіа",
+      "subtitle": "installieren, speichern, löschen, senden..."
     }
   },
   "dictionaryScreen": {
@@ -166,7 +194,10 @@
     "resetSettingsMessage": "Усі налаштування звуку, теми та сповіщень повернуться до значень за замовчуванням. Прогрес навчання збережеться.",
     "resetSettingsConfirm": "Скинути налаштування",
     "resetSettingsSuccess": "Налаштування успішно скинуто до початкових.",
-    "resetSuccessTitle": "Готово"
+    "resetSuccessTitle": "Готово",
+    "privacySettings": "Налаштування конфіденційності",
+    "privacyOptionsError": "Не вдалося відкрити налаштування конфіденційності. Будь ласка, спробуйте пізніше.",
+    "error": "Помилка"
   },
   "quizSettingsModal": {
     "title": "Налаштування тесту"

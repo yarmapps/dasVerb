@@ -2,8 +2,8 @@ import { LANGUAGES, SupportedLocales } from '../types/intl';
 import { getTranslations, getDefaultLocale } from '../services/intlService';
 
 describe('Language Selector Screen & Localization', () => {
-  it('should support 11 languages', () => {
-    expect(LANGUAGES.length).toBe(11);
+  it('should support 22 languages', () => {
+    expect(LANGUAGES.length).toBe(22);
   });
 
   it('should have default locale set to en', () => {
@@ -21,14 +21,25 @@ describe('Language Selector Screen & Localization', () => {
   it('should provide valid translations for every supported language', () => {
     const expectedLocales: SupportedLocales[] = [
       'en',
+      'de',
       'es',
       'fr',
       'it',
-      'pl',
       'pt',
+      'nl',
+      'pl',
+      'cs',
+      'sk',
+      'sl',
+      'hr',
+      'hu',
+      'ro',
+      'el',
       'ru',
-      'tr',
       'uk',
+      'tr',
+      'vi',
+      'id',
       'ar',
       'fa',
     ];
@@ -44,7 +55,7 @@ describe('Language Selector Screen & Localization', () => {
 
   it('should fallback to English for unknown locales', () => {
     // @ts-expect-error Testing fallback
-    const t = getTranslations('de');
+    const t = getTranslations('xx');
     expect(t.languageSelectorScreen.title).toBe(getTranslations('en').languageSelectorScreen.title);
   });
 });

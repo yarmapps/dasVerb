@@ -6,6 +6,7 @@ import { VerbFormsFillExercise } from '../components/VerbFormsFillExercise/VerbF
 import { VerbFormsGrammarHint } from '../components/VerbFormsGrammarHint/VerbFormsGrammarHint';
 import { VerbFormsPracticeListScreen } from '../screens/VerbFormsPracticeListScreen/VerbFormsPracticeListScreen';
 import { QuizResultsScreen } from '../screens/QuizResultsScreen/QuizResultsScreen';
+import { VerbQuizScreen } from '../screens/VerbQuizScreen/VerbQuizScreen';
 import { ThemeProvider } from '../context/ThemeContext';
 import { LocaleProvider } from '../context/LocaleContext';
 import { verbDataService, VerbFormsLevelData } from '../services/verbDataService';
@@ -456,6 +457,30 @@ describe('Verb Forms Practice Suite', () => {
       );
 
       expect(getByText('gehen — ging — ist gegangen')).toBeTruthy();
+    });
+  });
+
+  describe('VerbQuizScreen with verb forms quiz', () => {
+    it('renders verb translation inside the card for verb forms exercises', async () => {
+      jest
+        .spyOn(verbDataService, 'getVerbFormsLevelById')
+        .mockResolvedValue(mockVerbFormsLevels[0]);
+      jest.spyOn(verbDataService, 'getVerbById').mockResolvedValue(mockGehenCard);
+
+      mockRouteParams = {
+        verbFormsLevelId: 'verb_forms_a1_level_1',
+        isVerbFormsQuiz: true,
+      };
+
+      const { getByText, findByText } = render(
+        <ScreenWrapper>
+          <VerbQuizScreen />
+        </ScreenWrapper>,
+      );
+
+      // Verify the verb and its translation are rendered
+      expect(await findByText('gehen')).toBeTruthy();
+      expect(getByText('to go')).toBeTruthy();
     });
   });
 });

@@ -108,6 +108,34 @@
     "health": {
       "title": "الصحة والعافية",
       "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    },
+    "natureEnvironment": {
+      "title": "الطبيعة والطقس",
+      "subtitle": "regnen, scheinen, wehen, blühen..."
+    },
+    "lawSociety": {
+      "title": "القانون والمجتمع",
+      "subtitle": "wählen, regieren, entscheiden, verbieten..."
+    },
+    "relationsSocial": {
+      "title": "العلاقات والمجتمع",
+      "subtitle": "helfen, vertrauen, umarmen, begrüßen..."
+    },
+    "creationChange": {
+      "title": "الخلق والتغيير",
+      "subtitle": "schaffen, verändern, umwandeln, entstehen..."
+    },
+    "travelTransport": {
+      "title": "السفر والنقل",
+      "subtitle": "reisen, fahren, fliegen, einsteigen..."
+    },
+    "perceptionSenses": {
+      "title": "الإدراك والحواس",
+      "subtitle": "sehen, hören, riechen, schmecken..."
+    },
+    "digitalMedia": {
+      "title": "التكنولوجيا والإعلام",
+      "subtitle": "installieren, speichern, löschen, senden..."
     }
   },
   "dictionaryScreen": {
@@ -166,7 +194,10 @@
     "resetSettingsMessage": "ستتم استعادة جميع إعدادات الصوت والمظهر والإشعارات إلى الإعدادات الافتراضية. سيتم الاحتفاظ بتقدمك في التعلم.",
     "resetSettingsConfirm": "إعادة ضبط الإعدادات",
     "resetSettingsSuccess": "تمت إعادة ضبط الإعدادات إلى الوضع الافتراضي.",
-    "resetSuccessTitle": "تم"
+    "resetSuccessTitle": "تم",
+    "privacySettings": "إعدادات الخصوصية",
+    "privacyOptionsError": "تعذر فتح إعدادات الخصوصية. يرجى المحاولة مرة أخرى لاحقًا.",
+    "error": "خطأ"
   },
   "quizSettingsModal": {
     "title": "إعدادات الاختبار"

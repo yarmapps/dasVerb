@@ -14,6 +14,7 @@ import { progressService, VerbProgress } from '../../services/progressService';
 import { useNavigateToQuiz } from '../../hooks/useNavigateToQuiz';
 import { usePremiumStatus } from '../../hooks/usePremiumStatus';
 import { soundService } from '../../services/soundService';
+import { trackEvent } from '../../services/analyticsService';
 import { PracticeCheckpointCard } from '../../components/PracticeCheckpointCard/PracticeCheckpointCard';
 import { createStyles } from './VerbFormsPracticeListScreen.styles';
 
@@ -64,6 +65,11 @@ export function VerbFormsPracticeListScreen(): React.JSX.Element {
 
   const handleTabChange = (tab: CefrTab) => {
     soundService.playTapSound();
+    trackEvent('cefr_tab_switched', {
+      tab,
+      previous_tab: activeCefr,
+      mode: 'verb_forms',
+    });
     setActiveCefr(tab);
     itemPositionsRef.current = {};
     loadData(tab);
@@ -74,6 +80,15 @@ export function VerbFormsPracticeListScreen(): React.JSX.Element {
   const handleLevelPress = (level: VerbFormsLevelData) => {
     soundService.playTapSound();
     if (isLocked) {
+      trackEvent('locked_item_clicked', {
+        item_type:
+          level.subgroupType === 'checkpoint' || level.subgroupType === 'final_test'
+            ? 'checkpoint'
+            : 'verb',
+        level: activeCefr,
+        item_id: level.id,
+        source_screen: 'verb_forms_practice_list',
+      });
       openPaywall('level_lock');
       return;
     }

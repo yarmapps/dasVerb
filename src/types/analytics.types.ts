@@ -163,6 +163,189 @@ export interface SettingsLanguageSelectedParams {
 }
 
 // ==========================================
+// 6. PAYWALL & MONETIZATION EVENTS
+// ==========================================
+
+export interface PaywallSheetShownParams {
+  source?: string;
+  has_trial?: boolean;
+}
+
+export interface PaywallPlanSelectedParams {
+  plan_id: string;
+  price: string;
+  has_free_trial: boolean;
+}
+
+export interface PaywallPurchaseStartedParams {
+  plan_id: string;
+  source?: string;
+}
+
+export interface PaywallPurchaseSuccessParams {
+  plan_id: string;
+  source?: string;
+}
+
+export interface PaywallPurchaseFailedParams {
+  plan_id: string;
+  source?: string;
+  error_message?: string;
+}
+
+export interface PaywallPurchaseCancelledParams {
+  plan_id: string;
+  source?: string;
+}
+
+export interface PaywallRestoreClickedParams {
+  source?: string;
+}
+
+export interface PaywallRestoreSuccessParams {
+  source?: string;
+}
+
+export interface PaywallRestoreEmptyParams {
+  source?: string;
+}
+
+export interface PaywallSheetDismissedParams {
+  source?: string;
+  time_spent_seconds: number;
+}
+
+export interface LockedItemClickedParams {
+  item_type: 'verb' | 'checkpoint' | 'category_verb' | 'category_final';
+  level?: string;
+  item_id?: string;
+  source_screen: string;
+}
+
+// ==========================================
+// 7. NAVIGATION & MODES EVENTS
+// ==========================================
+
+export interface PracticeModeSelectedParams {
+  mode:
+    | 'standard_course'
+    | 'smart_quiz'
+    | 'prefixes'
+    | 'conjugation'
+    | 'verb_forms'
+    | 'prepositions';
+}
+
+export interface CategorySelectedParams {
+  category_id: string;
+  category_title: string;
+}
+
+export interface CefrTabSwitchedParams {
+  tab: string;
+  previous_tab: string;
+  mode: string;
+}
+
+// ==========================================
+// 8. QUIZ MICRO-BEHAVIOR EVENTS
+// ==========================================
+
+export interface QuizQuestionAnsweredParams {
+  quiz_type: string;
+  infinitive?: string;
+  level?: string;
+  question_index: number;
+  is_correct: boolean;
+  response_time_ms?: number;
+}
+
+export interface QuizHintViewedParams {
+  quiz_type?: string;
+  hint_type?:
+    | 'grammar'
+    | 'conjugation'
+    | 'principal_parts'
+    | 'auxiliary'
+    | 'prefix'
+    | 'verb_forms'
+    | 'preposition';
+  rule_type?: 'prefix' | 'conjugation' | 'verb_forms' | string;
+  infinitive?: string;
+  level?: string;
+}
+
+export interface QuizTtsPlayedParams {
+  quiz_type?: string;
+  infinitive?: string;
+  level?: string;
+  trigger_type: 'auto' | 'manual';
+}
+
+export interface QuizSettingsToggledInQuizParams {
+  setting_name?: string;
+  setting?: 'speak_on_correct' | string;
+  enabled: boolean;
+  quiz_type?: string;
+}
+
+// ==========================================
+// 9. QUIZ RESULTS EVENTS
+// ==========================================
+
+export interface QuizResultsViewedParams {
+  quiz_type: string;
+  infinitive?: string;
+  level?: string;
+  score: number;
+  total_questions: number;
+  percentage: number;
+  is_passed: boolean;
+  has_errors: boolean;
+  is_new_streak_day?: boolean;
+}
+
+export interface QuizResultsActionParams {
+  action:
+    | 'next_quiz'
+    | 'retry'
+    | 'retry_quiz'
+    | 'back_to_list'
+    | 'back_to_home'
+    | 'toggle_show_all';
+  quiz_type?: string;
+  infinitive?: string;
+  level?: string;
+  is_passed?: boolean;
+}
+
+// ==========================================
+// 10. DICTIONARY AUDIO & ADS EVENTS
+// ==========================================
+
+export interface DictionaryAudioPlayedParams {
+  infinitive: string;
+  level?: string;
+}
+
+export interface AdImpressionParams {
+  ad_type?: 'rewarded' | 'interstitial' | 'native_practice' | 'native_dictionary';
+  ad_format?: 'rewarded' | 'interstitial' | 'native_practice' | 'native_dictionary';
+  ad_unit_id?: string;
+}
+
+export interface AdFallbackUsedParams {
+  original_type?: string;
+  fallback_type?: string;
+  reason?: string;
+}
+
+export interface AdNoFillParams {
+  ad_format?: string;
+  reason?: string;
+}
+
+// ==========================================
 // EVENT MAP
 // ==========================================
 
@@ -173,11 +356,25 @@ export interface AnalyticsEventMap {
   dictionary_search_cleared: Record<string, never>;
   dictionary_verb_expanded: DictionaryVerbExpandedParams;
   dictionary_verb_collapsed: DictionaryVerbCollapsedParams;
+  dictionary_audio_played: DictionaryAudioPlayedParams;
 
   // Quiz
   quiz_started: QuizStartedParams;
   quiz_completed: QuizCompletedParams;
   quiz_interrupted: QuizInterruptedParams;
+  quiz_question_answered: QuizQuestionAnsweredParams;
+  quiz_hint_viewed: QuizHintViewedParams;
+  quiz_tts_played: QuizTtsPlayedParams;
+  quiz_settings_toggled_in_quiz: QuizSettingsToggledInQuizParams;
+
+  // Quiz Results
+  quiz_results_viewed: QuizResultsViewedParams;
+  quiz_results_action: QuizResultsActionParams;
+
+  // Navigation & Modes
+  practice_mode_selected: PracticeModeSelectedParams;
+  category_selected: CategorySelectedParams;
+  cefr_tab_switched: CefrTabSwitchedParams;
 
   // Daily Limit
   daily_limit_shown: DailyLimitShownParams;
@@ -191,9 +388,12 @@ export interface AnalyticsEventMap {
   offline_limit_modal_premium_clicked: OfflineLimitPremiumParams;
   premium_limit_modal_purchase_success: PremiumLimitPurchaseSuccessParams;
 
-  // Ad Reward
+  // Ad Reward & Ads
   ad_reward_viewed: AdRewardViewedParams;
   ad_reward_earned: AdRewardEarnedParams;
+  ad_impression: AdImpressionParams;
+  ad_fallback_used: AdFallbackUsedParams;
+  ad_no_fill: AdNoFillParams;
 
   // Settings
   settings_sound_toggled: SettingsSoundToggledParams;
@@ -222,10 +422,21 @@ export interface AnalyticsEventMap {
   first_open_paywall_restore_clicked: Record<string, never>;
   first_open_paywall_restore_complete: Record<string, never>;
 
-  // Premium Subscriptions
+  // Premium Subscriptions & Paywall Funnel
   premium_sheet_shown: Record<string, never>;
   premium_purchase_success: Record<string, never>;
   premium_restore_success: Record<string, never>;
+  paywall_sheet_shown: PaywallSheetShownParams;
+  paywall_plan_selected: PaywallPlanSelectedParams;
+  paywall_purchase_started: PaywallPurchaseStartedParams;
+  paywall_purchase_success: PaywallPurchaseSuccessParams;
+  paywall_purchase_failed: PaywallPurchaseFailedParams;
+  paywall_purchase_cancelled: PaywallPurchaseCancelledParams;
+  paywall_restore_clicked: PaywallRestoreClickedParams;
+  paywall_restore_success: PaywallRestoreSuccessParams;
+  paywall_restore_empty: PaywallRestoreEmptyParams;
+  paywall_sheet_dismissed: PaywallSheetDismissedParams;
+  locked_item_clicked: LockedItemClickedParams;
 }
 
 export type AnalyticsEventName = keyof AnalyticsEventMap;

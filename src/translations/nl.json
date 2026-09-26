@@ -1,0 +1,505 @@
+{
+  "appUpdate": {
+    "title": "Update beschikbaar",
+    "softMessage": "Update uw app nu om te genieten van de beste ervaring en de nieuwste verbeteringen.",
+    "forceMessage": "Een essentiële update is vereist om das Verb te blijven gebruiken. Werk nu bij.",
+    "button": "Nu updaten",
+    "close": "Sluiten"
+  },
+  "debugScreen": {
+    "title": "Foutopsporingsmenu",
+    "sectionState": "App-status Samenvatting",
+    "sectionDailyLimit": "Dagelijkse Quiz Limiet",
+    "sectionStreak": "Dagelijkse Reeks",
+    "sectionSettings": "Instellingen & Opslag",
+    "sectionAppUpdate": "App Update Dialoogvenster",
+    "sectionReview": "In-App Beoordeling",
+    "dailyQuizzes": "Vandaag voltooide quizzen: {count} / {limit}",
+    "totalQuizzes": "Totaal voltooide quizzen: {count}",
+    "extraQuizzes": "Extra quizzen beschikbaar: {count}",
+    "adGrants": "Advertentiebeloningen vandaag: {count} / {limit}",
+    "streakSummary": "Huidige reeks: {streak} dagen (Beste: {best})",
+    "resetDailyLimit": "Dagelijkse limiet resetten",
+    "grantExtraQuiz": "Geef +1 Extra Quiz",
+    "consumeQuiz": "Verbruik 1 Dagelijkse Quiz",
+    "resetStreak": "Reeks resetten",
+    "incrementStreak": "Reeks verhogen (+1 Dag)",
+    "resetAllSettings": "Instellingen resetten naar standaard",
+    "triggerSoftUpdate": "Zachte update activeren (Negeerbaar)",
+    "triggerForceUpdate": "Geforceerde update activeren (Blokkerend)",
+    "resetUpdateState": "Update-status resetten",
+    "triggerReview": "In-App Beoordeling Activeren",
+    "resetReviewCooldown": "Beoordeling afkoelperiode resetten",
+    "addCompletedQuizzes": "Voeg +5 Voltooide Quizzen toe",
+    "alertSuccess": "Succes",
+    "dailyLimitResetSuccess": "Dagelijkse quizlimieten zijn gereset.",
+    "streakResetSuccess": "Reeksgegevens zijn gereset.",
+    "settingsResetSuccess": "Alle instellingen zijn gereset naar de standaardwaarden.",
+    "reviewTriggerSuccess": "Winkelbeoordeling aangevraagd bij OS.",
+    "reviewCooldownResetSuccess": "Afkoelperiode van de beoordelingsprompt is gereset."
+  },
+  "navigation": {
+    "practice": "Oefenen",
+    "dictionary": "Woordenboek"
+  },
+  "languageSelectorScreen": {
+    "title": "Wat is je moedertaal?",
+    "continue": "Doorgaan"
+  },
+  "practiceScreen": {
+    "title": "Oefenen",
+    "subtitle": "Train werkwoorden, vervoeging en zinsstructuren",
+    "levelsButtonTitle": "Werkwoorden Oefenen",
+    "levelsButtonSubtitle": "Van meest voorkomend tot zeldzaam met de Goethe-methode",
+    "featuredBadge": "Uitgelicht",
+    "startNow": "Nu beginnen",
+    "smartQuizBadge": "Slim Herhalen",
+    "smartQuizTitle": "Slim Algoritme",
+    "smartQuizSubtitle": "Concentreer je op je fouten en leer 3x sneller",
+    "prefixBannerBadge": "A1 – B2",
+    "prefixBannerTitle": "Voorvoegselwerkwoorden",
+    "prefixBannerSubtitle": "Scheidbare, onscheidbare en dubbele voorvoegsels",
+    "conjugationBannerTitle": "Vervoegingstrainer",
+    "conjugationBannerSubtitle": "Train werkwoordsvormen voor alle voornaamwoorden in Präsens",
+    "verbFormsBannerTitle": "Onregelmatige werkwoorden",
+    "verbFormsBannerSubtitle": "Train Infinitiv – Präteritum – Perfekt",
+    "prepositionsBannerTitle": "Werkwoorden met Voorzetsels",
+    "prepositionsBannerSubtitle": "Beheers werkwoordsvoorzetsels en naamvallen",
+    "adBadge": "Ad",
+    "sectionModes": "Leren op modus",
+    "sectionTopics": "Leren op onderwerp"
+  },
+  "categories": {
+    "sectionTitle": "Onderwerpen & Categorieën",
+    "sectionSubtitle": "Oefen werkwoorden gegroepeerd op situaties in het echte leven",
+    "verbsCount": "werkwoorden",
+    "movement": {
+      "title": "Beweging & Transport",
+      "subtitle": "gehen, fahren, fliegen, ankommen..."
+    },
+    "communication": {
+      "title": "Communicatie & Spraak",
+      "subtitle": "sprechen, sagen, fragen, antworten..."
+    },
+    "homeDaily": {
+      "title": "Dagelijks Leven & Thuis",
+      "subtitle": "wohnen, schlafen, aufstehen, kochen..."
+    },
+    "foodDrink": {
+      "title": "Eten & Restaurants",
+      "subtitle": "essen, trinken, bestellen, probieren..."
+    },
+    "workStudy": {
+      "title": "Werk & Studie",
+      "subtitle": "arbeiten, lernen, studieren, schreiben..."
+    },
+    "shoppingMoney": {
+      "title": "Winkelen & Geld",
+      "subtitle": "kaufen, bezahlen, kosten, sparen..."
+    },
+    "thoughtsFeelings": {
+      "title": "Gedachten & Gevoelens",
+      "subtitle": "denken, glauben, fühlen, lieben..."
+    },
+    "leisureHobbies": {
+      "title": "Vrije tijd & Hobby's",
+      "subtitle": "spielen, reisen, schwimmen, wandern..."
+    },
+    "health": {
+      "title": "Gezondheid & Welzijn",
+      "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    },
+    "natureEnvironment": {
+      "title": "Natuur & Weer",
+      "subtitle": "regnen, scheinen, wehen, blühen..."
+    },
+    "lawSociety": {
+      "title": "Recht & Maatschappij",
+      "subtitle": "wählen, regieren, entscheiden, verbieten..."
+    },
+    "relationsSocial": {
+      "title": "Relaties & Sociaal",
+      "subtitle": "helfen, vertrauen, umarmen, begrüßen..."
+    },
+    "creationChange": {
+      "title": "Creatie & Verandering",
+      "subtitle": "schaffen, verändern, umwandeln, entstehen..."
+    },
+    "travelTransport": {
+      "title": "Reizen & Vervoer",
+      "subtitle": "reisen, fahren, fliegen, einsteigen..."
+    },
+    "perceptionSenses": {
+      "title": "Waarneming & Zintuigen",
+      "subtitle": "sehen, hören, riechen, schmecken..."
+    },
+    "digitalMedia": {
+      "title": "Technologie & Media",
+      "subtitle": "installieren, speichern, löschen, senden..."
+    }
+  },
+  "dictionaryScreen": {
+    "title": "Woordenboek",
+    "searchPlaceholder": "Zoek werkwoorden...",
+    "emptySearch": "Geen werkwoorden gevonden",
+    "stammformen": "Hoofdvormen",
+    "infinitive": "Infinitiv",
+    "present3sg": "Präsens",
+    "praeteritum3sg": "Präteritum",
+    "perfekt": "Perfekt",
+    "conjugation": "Vervoeging",
+    "person": "Persoon",
+    "present": "Präsens",
+    "praeteritum": "Präteritum",
+    "rektion": "Rektion & Kasus",
+    "imperative": "Imperativ",
+    "examples": "Voorbeelden"
+  },
+  "settingsScreen": {
+    "title": "Instellingen",
+    "generalSection": "ALGEMEEN",
+    "audioSection": "AUDIO",
+    "supportSection": "ONDERSTEUNING",
+    "appLanguage": "App-taal",
+    "theme": "Thema",
+    "themeLight": "Licht",
+    "themeDark": "Donker",
+    "themeSystem": "Systeem",
+    "notifications": "Meldingen",
+    "soundEffects": "Geluidseffecten",
+    "speakOnCorrectAnswer": "Spreek Juist Antwoord Uit",
+    "voiceGender": "Stem",
+    "voiceFemale": "Vrouwelijk",
+    "voiceMale": "Mannelijk",
+    "maleVoiceHint": "Om een mannelijke Duitse stem te gebruiken, installeer je er een in iOS Instellingen → Toegankelijkheid → Gesproken materiaal → Stemmen → Duits.",
+    "contactUs": "Neem Contact Op",
+    "subscriptionSection": "ABONNEMENT",
+    "manageSubscription": "Abonnement Beheren",
+    "rateApp": "Beoordeel de App",
+    "privacySettings": "Privacyinstellingen",
+    "privacyOptionsError": "Kan privacyinstellingen niet openen. Probeer het later opnieuw.",
+    "error": "Fout",
+    "privacyPolicy": "Privacybeleid",
+    "termsOfService": "Servicevoorwaarden",
+    "version": "Versie",
+    "notificationsPermissionRequiredTitle": "Meldingen Inschakelen",
+    "notificationsPermissionRequiredMessage": "Schakel meldingen in uw apparaatinstellingen in om dagelijkse oefen- en reeksherinneringen te ontvangen.",
+    "openSettings": "Instellingen",
+    "cancel": "Annuleren",
+    "dataSection": "DATABEHEER",
+    "resetProgress": "Leeruitgang Resetten",
+    "resetProgressTitle": "Leeruitgang Resetten?",
+    "resetProgressMessage": "Al uw leeruitgang voor werkwoorden en voorvoegsels wordt permanent verwijderd. Deze actie kan niet ongedaan worden gemaakt.",
+    "resetProgressConfirm": "Voortgang Resetten",
+    "resetProgressSuccess": "Leeruitgang is gereset.",
+    "resetSettings": "App-instellingen Resetten",
+    "resetSettingsTitle": "App-instellingen Resetten?",
+    "resetSettingsMessage": "Alle geluids-, thema- en meldingsinstellingen worden hersteld naar de standaardwaarden. Uw leeruitgang blijft behouden.",
+    "resetSettingsConfirm": "Instellingen Resetten",
+    "resetSettingsSuccess": "Instellingen zijn gereset naar de standaardwaarden.",
+    "resetSuccessTitle": "Klaar"
+  },
+  "quizSettingsModal": {
+    "title": "Quizinstellingen"
+  },
+  "verbsPracticeListScreen": {
+    "title": "Werkwoorden Oefenen",
+    "levelHeader": "NIVEAU",
+    "verbCount": "werkwoorden",
+    "uncompleted": "Niet voltooid",
+    "bronze": "Brons",
+    "silver": "Zilver",
+    "trophy": "Trofee",
+    "empty": "Geen werkwoorden gevonden",
+    "checkpointTitle": "Checkpoint Quiz",
+    "finalTestTitle": "Eindtoets",
+    "finalTestTitleWithLevel": "Eindtoets {level}",
+    "finalTestSubtitle": "Uitgebreide toets met 20 vragen voor dit niveau",
+    "categoryFinalTestSubtitle": "Uitgebreide toets met 20 vragen voor dit onderwerp",
+    "checkpointSubtitle": "Werkwoorden {from} – {to}"
+  },
+  "prefixPracticeListScreen": {
+    "title": "Voorvoegselwerkwoorden",
+    "levelNumber": "Niveau {number}",
+    "checkpointTitle": "Checkpoint {level}",
+    "checkpointSubtitle": "Uitgebreide toets met 20 vragen voor dit niveau",
+    "subgroupSeparable": "Scheidbare Voorvoegsels",
+    "subgroupInseparable": "Onscheidbare Voorvoegsels",
+    "subgroupOpposites": "Tegenstellingen",
+    "subgroupDual": "Dubbele Voorvoegsels"
+  },
+  "prefixPractice": {
+    "title": "Voorvoegselwerkwoorden",
+    "levelTitle": "Niveau {number}",
+    "checkpointTitle": "Checkpoint {level}"
+  },
+  "prefixGrammarHint": {
+    "separableTitle": "Scheidbaar Voorvoegsel",
+    "inseparableTitle": "Onscheidbaar Voorvoegsel",
+    "dualTitle": "Dubbel Voorvoegsel",
+    "separableRule": "In de Präsens en Präteritum verplaatsen scheidbare voorvoegsels zich helemaal naar het einde van de zin.",
+    "inseparableRule": "Onscheidbare voorvoegsels (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) scheiden zich nooit van de werkwoordstam.",
+    "dualRule": "Voorvoegsels zoals über-, um-, unter-, durch- kunnen scheidbaar of onscheidbaar zijn, afhankelijk van de betekenis van het werkwoord."
+  },
+  "conjugationPracticeListScreen": {
+    "title": "Vervoegingstrainer",
+    "levelNumber": "Niveau {number}",
+    "checkpointTitle": "Checkpoint {number}",
+    "checkpointSubtitle": "Herhalingsquiz met 10 willekeurige werkwoorden",
+    "finalTestTitle": "Eindtoets {level}",
+    "finalTestSubtitle": "Uitgebreide toets met 15 werkwoorden voor dit niveau"
+  },
+  "conjugationPractice": {
+    "title": "Vervoeging",
+    "levelTitle": "Niveau {number}",
+    "checkpointNumberTitle": "Checkpoint {number}",
+    "finalTestTitle": "Eindtoets {level}"
+  },
+  "conjugationGrammarHint": {
+    "ruleTag": "Klinkerwisseling",
+    "eToIRule": "e → i klinkerwisseling in 2e en 3e persoon enkelvoud (du, er/sie/es).",
+    "eToIeRule": "e → ie klinkerwisseling in 2e en 3e persoon enkelvoud (du, er/sie/es).",
+    "aToAeRule": "a → ä klinkerwisseling in 2e en 3e persoon enkelvoud (du, er/sie/es).",
+    "auToAeuRule": "au → äu klinkerwisseling in 2e en 3e persoon enkelvoud (du, er/sie/es)."
+  },
+  "verbFormsPracticeListScreen": {
+    "title": "Onregelmatige werkwoorden",
+    "levelNumber": "Niveau {number}",
+    "checkpointTitle": "Checkpoint {number}",
+    "checkpointSubtitle": "Herhalingsquiz met 10 willekeurige werkwoorden",
+    "finalTestTitle": "Eindtoets {level}",
+    "finalTestSubtitle": "Uitgebreide toets met 15 werkwoorden voor dit niveau"
+  },
+  "verbFormsPractice": {
+    "title": "Onregelmatige werkwoorden",
+    "levelTitle": "Niveau {number}",
+    "checkpointNumberTitle": "Checkpoint {number}",
+    "finalTestTitle": "Eindtoets {level}"
+  },
+  "verbFormsGrammarHint": {
+    "ruleTag": "Grammaticaregel",
+    "strongVerbTag": "Sterk werkwoord",
+    "weakVerbTag": "Zwak werkwoord",
+    "mixedVerbTag": "Gemengd werkwoord",
+    "irregularVerbTag": "Onregelmatig werkwoord",
+    "modalVerbTag": "Modaal werkwoord",
+    "seinRule": "Werkwoorden van beweging, verandering van toestand en sein/bleiben vormen de Perfekt met «sein».",
+    "habenRule": "Overgankelijke, wederkerende en statische werkwoorden vormen de Perfekt met «haben».",
+    "strongVerbRule": "Sterke werkwoorden veranderen de stamklinker in Präteritum en eindigen op -en in Partizip II.",
+    "weakVerbRule": "Regelmatige zwakke werkwoorden voegen -te toe in Präteritum en ge-...-t in Partizip II.",
+    "mixedVerbRule": "Gemengde werkwoorden combineren een klinkerwisseling met de regelmatige uitgangen -te en -t."
+  },
+  "verbFormsExercise": {
+    "infinitive": "Infinitiv",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt"
+  },
+  "prepositionsPracticeListScreen": {
+    "title": "Werkwoorden met Voorzetsels",
+    "levelNumber": "Niveau {number}",
+    "checkpointTitle": "Checkpoint {number}",
+    "checkpointSubtitle": "Herhalingsquiz met 10 willekeurige werkwoorden",
+    "finalTestTitle": "Eindtoets {level}",
+    "finalTestSubtitle": "Uitgebreide toets met 15 werkwoorden voor dit niveau"
+  },
+  "prepositionsPractice": {
+    "title": "Voorzetsels",
+    "levelTitle": "Niveau {number}",
+    "checkpointNumberTitle": "Checkpoint {number}",
+    "finalTestTitle": "Eindtoets {level}"
+  },
+  "prepositionGrammarHint": {
+    "ruleTag": "Voorzetselregel",
+    "questionLabel": "Vraag:"
+  },
+  "verbQuizScreen": {
+    "title": "Oefenen",
+    "checkpointQuizTitle": "Checkpoint Quiz",
+    "smartQuizTitle": "Slimme Quiz",
+    "conjugateVerbTitle": "Vervoeg het werkwoord {verb}",
+    "prepositionTaskTitle": "Kies het voorzetsel",
+    "level": "Niveau",
+    "check": "Controleren",
+    "continue": "Doorgaan",
+    "exercise": "Oefening",
+    "correct": "Correct!",
+    "tryAgain": "Probeer het opnieuw",
+    "fillCard": "Vul de kaart in",
+    "tapToContinue": "Tik ergens om door te gaan",
+    "correctAnswer": "Juiste antwoord:",
+    "conjugationPräsens": "Vervoeging in Präsens",
+    "principalParts": "Hoofdvormen",
+    "imperativeForms": "Imperativvormen",
+    "auxiliaryExplanationMovement": "Het werkwoord {verb} drukt beweging of een verandering van toestand uit, dus vormt het de Perfekt met sein ({form}).",
+    "auxiliaryExplanationGeneral": "Het werkwoord {verb} vormt de Perfekt met het hulpwerkwoord haben ({form})."
+  },
+  "quizResultsScreen": {
+    "title": "Resultaten",
+    "checkpointResultsTitle": "Checkpoint Resultaten",
+    "smartQuizResultsTitle": "Slimme Quiz Resultaten",
+    "canDoBetter": "Je kunt het beter!",
+    "almostThere": "Bijna daar!",
+    "closeToPerfection": "Perfectie is nabij!",
+    "youDidIt": "Je hebt het gedaan!",
+    "nextLevel": "Volgend niveau",
+    "tryAgain": "Probeer het opnieuw",
+    "verbsList": "Naar werkwoordenlijst",
+    "backToPractice": "Terug naar oefenen",
+    "scoreSummary": "{correct} van {total}",
+    "showCorrectAnswers": "Toon juiste antwoorden",
+    "showAllAnswers": "Toon alle antwoorden",
+    "showErrorsOnly": "Toon alleen fouten"
+  },
+  "dailyQuizLimitModal": {
+    "title": "Ga zo door!",
+    "message": "Je bent echt toegewijd aan het leren van Duits!",
+    "instructions": "Hoe wil je verdergaan?",
+    "videoButton": "Bekijk advertenties",
+    "or": "of",
+    "premiumButtonWithTrial": "Gratis onbeperkte niveaus\nvoor {daysLabel}",
+    "premiumButtonNoTrial": "Ga Reclamevrij",
+    "premiumButtonSubtitleWithTrial": "daarna {yearlyPrice} / 3 maanden (☕️ / mnd.)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} / 3 maanden (☕️ / mnd.)",
+    "waitUntilTomorrow": "Wacht tot morgen",
+    "cancelAnytime": "Altijd opzegbaar"
+  },
+  "premiumSheets": {
+    "subscribeTitle": "Ontgrendel Premium",
+    "subscribeSubtitle": "Geef het leren van Duitse werkwoorden een boost met geavanceerde tools.",
+    "subscribeNow": "Abonneer Nu",
+    "buyNow": "Koop Nu",
+    "viewPlans": "Bekijk Plannen",
+    "premiumFeaturesLabel": "PREMIUM FUNCTIES",
+    "disclaimerAutoRenew": "Automatische verlenging voor {price}/{period}. Altijd opzegbaar in uw accountinstellingen.",
+    "disclaimerAutoRenewTrial": "Gratis voor {trialDuration}, daarna {price}/{period}. Altijd opzegbaar.",
+    "disclaimerOneTime": "Eenmalige aankoop. Geen terugkerende kosten.",
+    "freeTrialDays": "{count} dagen gratis uitproberen",
+    "freeTrialWeeks": "{count} weken gratis uitproberen",
+    "freeTrialMonths": "{count} maanden gratis uitproberen",
+    "freeTrialYears": "{count} jaar gratis uitproberen",
+    "trialUnit": {
+      "day": "dagen",
+      "week": "weken",
+      "month": "maanden",
+      "year": "jaar"
+    },
+    "periodMonth": "maand",
+    "periodYear": "jaar",
+    "period3Months": "3 maanden",
+    "period6Months": "6 maanden",
+    "restorePurchases": "Aankopen Herstellen",
+    "errorTitle": "Fout",
+    "errorUnavailable": "Dit plan is momenteel niet beschikbaar. Probeer het later opnieuw.",
+    "errorPurchase": "Aankoop mislukt. Probeer het opnieuw.",
+    "errorRestore": "Herstellen mislukt. Probeer het opnieuw.",
+    "restoreSuccessTitle": "Hersteld!",
+    "restoreSuccessMessage": "Je premium toegang is hersteld.",
+    "restoreNothingTitle": "Geen Aankopen Gevonden",
+    "restoreNothingMessage": "We hebben geen eerdere aankopen kunnen vinden om te herstellen.",
+    "termsOfService": "Servicevoorwaarden",
+    "privacyPolicy": "Privacybeleid",
+    "plans": {
+      "monthlyLabel": "1 Maand",
+      "monthlyPer": "Maandelijks",
+      "yearlyLabel": "12 Maanden",
+      "yearlyBadge": "BESTE WAARDE",
+      "perMonth": "{price}/maand",
+      "lifetimeLabel": "Levenslang",
+      "lifetimePer": "Betaal Eenmalig",
+      "lifetimeBadge": "EENMALIG",
+      "threeMonthLabel": "3 Maanden",
+      "sixMonthLabel": "6 Maanden",
+      "bestValueBadge": "BESTE WAARDE",
+      "popularBadge": "POPULAIR"
+    },
+    "features": {
+      "noAdsTitle": "Geen Advertenties",
+      "noAdsShort": "Geen\nAds",
+      "noAdsDescription": "Blijf gefocust en leer zonder afleiding.",
+      "unlimitedQuizzesTitle": "Onbeperkte Quizzen",
+      "unlimitedQuizzesShort": "Onbeperkte\nQuizzen",
+      "unlimitedQuizzesDescription": "Oefen zo veel als je wilt zonder dagelijkse limieten.",
+      "allLevelsTitle": "Alle Niveaus Ontgrendeld",
+      "allLevelsShort": "Alle\nNiveaus",
+      "allLevelsDescription": "Directe toegang tot alle A1-B2 werkwoordsniveaus en checkpoints.",
+      "smartQuizModeTitle": "Slim Algoritme",
+      "smartQuizModeShort": "Slim\nAlgoritme",
+      "smartQuizModeDescription": "Concentreer je alleen op je fouten en leer 3x sneller!",
+      "naturalVoiceTitle": "Natuurlijke Audio",
+      "naturalVoiceShort": "Natuurlijk\nDuits",
+      "naturalVoiceDescription": "Hoor werkwoorden en zinnen uitgesproken met een natuurlijke Duitse stem.",
+      "offlineModeTitle": "Offline Oefenen",
+      "offlineModeShort": "Offline\nOefenen",
+      "offlineModeDescription": "Oefen werkwoorden altijd en overal zonder internetverbinding."
+    }
+  },
+  "notifications": {
+    "reminderTitle": "Tijd om te oefenen!",
+    "reminderBody": "Een snelle sessie met Duitse werkwoorden en zinsstructuren helpt je ze onder de knie te krijgen.",
+    "trialReminderTitle": "Je gratis proefperiode eindigt binnenkort",
+    "trialReminderBody": "Haal vandaag nog het meeste uit Premium! Je proefperiode eindigt over 24 uur.",
+    "streakReminderTitle": "Breek je reeks niet! 🔥",
+    "streakReminderBody": "Je hebt vandaag niet geoefend. Doe een snelle quiz van 2 minuten om je reeks gaande te houden!"
+  },
+  "firstOpenPaywall": {
+    "trialBadge": "3 DAGEN GRATIS UITPROBEREN",
+    "title": "Probeer Premium Voordat je Betaalt",
+    "subtitle": "Hoe je gratis proefperiode werkt.",
+    "cta": "Start Gratis Proefperiode",
+    "restore": "Aankopen Herstellen",
+    "proceedLimited": "Doorgaan met beperkte versie",
+    "priceYearlyWithCoffee": "{price}/jaar, een koffie/mnd.",
+    "price3MonthsWithCoffee": "Slechts {price} voor 3 maanden — minder dan een koffie per maand",
+    "disclaimer": "Automatische verlenging voor {price}/jaar. Altijd opzegbaar in accountinstellingen.",
+    "disclaimerFallback": "Automatisch jaarlijks verlengd. Altijd opzegbaar in instellingen.",
+    "priceWithTrial": "Gratis voor {trialDuration}, daarna {price}/jaar",
+    "priceYearly": "{price}/jaar",
+    "timeline": {
+      "today": {
+        "day": "Vandaag",
+        "headline": "Ontgrendel Alles",
+        "benefits": {
+          "noAds": {
+            "title": "100% Reclamevrij Leren",
+            "text": "Blijf gefocust op je doelen met een schone studie-ervaring zonder afleidingen."
+          },
+          "unlimitedQuizzes": {
+            "title": "Onbeperkte Quizzen",
+            "text": "Oefen zo veel als je wilt zonder dagelijkse limieten of wachttijden."
+          },
+          "allLevels": {
+            "title": "Alle A1–B2 Niveaus Ontgrendeld",
+            "text": "Directe toegang tot alle werkwoordkaarten, grammaticacheckpoints en toetsen."
+          },
+          "smartQuizMode": {
+            "title": "Slimme Foutcorrectie",
+            "text": "Richt je op je persoonlijke zwakke plekken om Duitse werkwoorden 3x sneller onder de knie te krijgen."
+          },
+          "offlineMode": {
+            "title": "Offline Oefenen",
+            "text": "Oefen Duitse werkwoorden altijd en overal zonder internetverbinding."
+          }
+        }
+      },
+      "day2": {
+        "day": "Dag 2",
+        "headline": "Proefperiode Herinnering",
+        "description": "We sturen je een vriendelijke herinnering voordat je proefperiode eindigt — geen verrassingen."
+      },
+      "day3": {
+        "day": "Dag 3",
+        "headline": "3-Maanden Toegang Begint",
+        "description": "Je proefperiode wordt omgezet in 3-maanden toegang. Altijd opzegbaar in instellingen."
+      }
+    }
+  },
+  "offlineModal": {
+    "title": "Internet Vereist",
+    "message": "Upgrade naar Premium om altijd en overal offline te oefenen.",
+    "getPremium": "Krijg Premium",
+    "retry": "Opnieuw proberen",
+    "enableOffline": "Offline Inschakelen",
+    "premiumButtonWithTrial": "Gratis Premium voor {daysLabel}",
+    "premiumButtonNoTrial": "Krijg Premium"
+  }
+}

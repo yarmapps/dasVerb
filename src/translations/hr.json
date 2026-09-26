@@ -1,0 +1,505 @@
+{
+  "appUpdate": {
+    "title": "Ažuriranje dostupno",
+    "softMessage": "Da biste uživali u najboljem iskustvu i najnovijim poboljšanjima, molimo ažurirajte aplikaciju sada.",
+    "forceMessage": "Za nastavak korištenja aplikacije das Verb potrebno je kritično ažuriranje. Molimo ažurirajte sada.",
+    "button": "Ažuriraj sada",
+    "close": "Zatvori"
+  },
+  "debugScreen": {
+    "title": "Debug izbornik",
+    "sectionState": "Sažetak stanja aplikacije",
+    "sectionDailyLimit": "Dnevno ograničenje kvizova",
+    "sectionStreak": "Dnevni niz",
+    "sectionSettings": "Postavke i pohrana",
+    "sectionAppUpdate": "Dijalog za ažuriranje aplikacije",
+    "sectionReview": "Recenzija i ocjenjivanje u aplikaciji",
+    "dailyQuizzes": "Danas završenih kvizova: {count} / {limit}",
+    "totalQuizzes": "Ukupno završenih kvizova: {count}",
+    "extraQuizzes": "Dostupni dodatni kvizovi: {count}",
+    "adGrants": "Danas dodijeljeni oglasi: {count} / {limit}",
+    "streakSummary": "Trenutni niz: {streak} dana (Najbolji: {best})",
+    "resetDailyLimit": "Poništi dnevno ograničenje",
+    "grantExtraQuiz": "Dodijeli +1 dodatni kviz",
+    "consumeQuiz": "Iskoristi 1 dnevni kviz",
+    "resetStreak": "Poništi niz",
+    "incrementStreak": "Povećaj niz (+1 dan)",
+    "resetAllSettings": "Vrati postavke na zadano",
+    "triggerSoftUpdate": "Pokreni blago ažuriranje (Može se odbaciti)",
+    "triggerForceUpdate": "Pokreni prisilno ažuriranje (Blokirajuće)",
+    "resetUpdateState": "Poništi stanje ažuriranja",
+    "triggerReview": "Pokreni recenziju unutar aplikacije (StoreReview)",
+    "resetReviewCooldown": "Poništi vrijeme čekanja za recenziju",
+    "addCompletedQuizzes": "Dodaj +5 završenih kvizova",
+    "alertSuccess": "Uspjeh",
+    "dailyLimitResetSuccess": "Dnevna ograničenja kvizova su poništena.",
+    "streakResetSuccess": "Podaci o nizu su poništeni.",
+    "settingsResetSuccess": "Sve postavke su vraćene na zadane vrijednosti.",
+    "reviewTriggerSuccess": "Zatražena recenzija u trgovini od OS-a.",
+    "reviewCooldownResetSuccess": "Vrijeme čekanja za upit o recenziji je poništeno."
+  },
+  "navigation": {
+    "practice": "Vježba",
+    "dictionary": "Rječnik"
+  },
+  "languageSelectorScreen": {
+    "title": "Koji je vaš materinji jezik?",
+    "continue": "Nastavi"
+  },
+  "practiceScreen": {
+    "title": "Vježba",
+    "subtitle": "Vježbajte glagole, konjugaciju i strukture rečenica",
+    "levelsButtonTitle": "Vježbajte glagole",
+    "levelsButtonSubtitle": "Od najčešćih do rijetkih koristeći Goethe metodu",
+    "featuredBadge": "Istaknuto",
+    "startNow": "Započni sada",
+    "smartQuizBadge": "Pametno ponavljanje",
+    "smartQuizTitle": "Pametni algoritam",
+    "smartQuizSubtitle": "Fokusirajte se na svoje greške i učite 3x brže",
+    "prefixBannerBadge": "A1 – B2",
+    "prefixBannerTitle": "Glagoli s prefiksom",
+    "prefixBannerSubtitle": "Odvojivi, neodvojivi i dvostruki prefiksi",
+    "conjugationBannerTitle": "Trener konjugacije",
+    "conjugationBannerSubtitle": "Vježbajte oblike glagola za sve zamjenice u Präsensu",
+    "verbFormsBannerTitle": "Nepravilni glagoli",
+    "verbFormsBannerSubtitle": "Vježbajte Infinitiv – Präteritum – Perfekt",
+    "prepositionsBannerTitle": "Glagoli s prijedlozima",
+    "prepositionsBannerSubtitle": "Savladajte glagolske prijedloge i padeže",
+    "adBadge": "Oglas",
+    "sectionModes": "Uči po načinu",
+    "sectionTopics": "Uči po temi"
+  },
+  "categories": {
+    "sectionTitle": "Teme i kategorije",
+    "sectionSubtitle": "Vježbajte glagole grupirane prema situacijama iz stvarnog života",
+    "verbsCount": "glagola",
+    "movement": {
+      "title": "Kretanje i prijevoz",
+      "subtitle": "gehen, fahren, fliegen, ankommen..."
+    },
+    "communication": {
+      "title": "Komunikacija i govor",
+      "subtitle": "sprechen, sagen, fragen, antworten..."
+    },
+    "homeDaily": {
+      "title": "Svakodnevni život i dom",
+      "subtitle": "wohnen, schlafen, aufstehen, kochen..."
+    },
+    "foodDrink": {
+      "title": "Hrana i restorani",
+      "subtitle": "essen, trinken, bestellen, probieren..."
+    },
+    "workStudy": {
+      "title": "Rad i učenje",
+      "subtitle": "arbeiten, lernen, studieren, schreiben..."
+    },
+    "shoppingMoney": {
+      "title": "Kupovina i novac",
+      "subtitle": "kaufen, bezahlen, kosten, sparen..."
+    },
+    "thoughtsFeelings": {
+      "title": "Misli i osjećaji",
+      "subtitle": "denken, glauben, fühlen, lieben..."
+    },
+    "leisureHobbies": {
+      "title": "Slobodno vrijeme i hobiji",
+      "subtitle": "spielen, reisen, schwimmen, wandern..."
+    },
+    "health": {
+      "title": "Zdravlje i blagostanje",
+      "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    },
+    "natureEnvironment": {
+      "title": "Priroda i vrijeme",
+      "subtitle": "regnen, scheinen, wehen, blühen..."
+    },
+    "lawSociety": {
+      "title": "Zakon i društvo",
+      "subtitle": "wählen, regieren, entscheiden, verbieten..."
+    },
+    "relationsSocial": {
+      "title": "Odnosi i društvo",
+      "subtitle": "helfen, vertrauen, umarmen, begrüßen..."
+    },
+    "creationChange": {
+      "title": "Stvaranje i promjena",
+      "subtitle": "schaffen, verändern, umwandeln, entstehen..."
+    },
+    "travelTransport": {
+      "title": "Putovanje i prijevoz",
+      "subtitle": "reisen, fahren, fliegen, einsteigen..."
+    },
+    "perceptionSenses": {
+      "title": "Percepcija i osjetila",
+      "subtitle": "sehen, hören, riechen, schmecken..."
+    },
+    "digitalMedia": {
+      "title": "Tehnologija i mediji",
+      "subtitle": "installieren, speichern, löschen, senden..."
+    }
+  },
+  "dictionaryScreen": {
+    "title": "Rječnik",
+    "searchPlaceholder": "Pretraži glagole...",
+    "emptySearch": "Nema pronađenih glagola",
+    "stammformen": "Osnovni oblici",
+    "infinitive": "Infinitiv",
+    "present3sg": "Präsens",
+    "praeteritum3sg": "Präteritum",
+    "perfekt": "Perfekt",
+    "conjugation": "Konjugacija",
+    "person": "Osoba",
+    "present": "Präsens",
+    "praeteritum": "Präteritum",
+    "rektion": "Rektion & Kasus",
+    "imperative": "Imperativ",
+    "examples": "Primjeri"
+  },
+  "settingsScreen": {
+    "title": "Postavke",
+    "generalSection": "OPĆENITO",
+    "audioSection": "ZVUK",
+    "supportSection": "PODRŠKA",
+    "appLanguage": "Jezik aplikacije",
+    "theme": "Tema",
+    "themeLight": "Svijetla",
+    "themeDark": "Tamna",
+    "themeSystem": "Sistemska",
+    "notifications": "Obavijesti",
+    "soundEffects": "Zvučni efekti",
+    "speakOnCorrectAnswer": "Izgovori točan odgovor",
+    "voiceGender": "Glas",
+    "voiceFemale": "Ženski",
+    "voiceMale": "Muški",
+    "maleVoiceHint": "Da biste koristili muški njemački glas, instalirajte ga u postavkama iOS-a → Pristupačnost → Izgovoreni sadržaj → Glasovi → Njemački.",
+    "contactUs": "Kontaktirajte nas",
+    "subscriptionSection": "PRETPLATA",
+    "manageSubscription": "Upravljanje pretplatom",
+    "rateApp": "Ocijenite aplikaciju",
+    "privacySettings": "Postavke privatnosti",
+    "privacyOptionsError": "Nije uspjelo otvaranje postavki privatnosti. Molimo pokušajte ponovno kasnije.",
+    "error": "Greška",
+    "privacyPolicy": "Politika privatnosti",
+    "termsOfService": "Uvjeti pružanja usluge",
+    "version": "Verzija",
+    "notificationsPermissionRequiredTitle": "Omogućite obavijesti",
+    "notificationsPermissionRequiredMessage": "Za primanje dnevnih podsjetnika za vježbanje i niz, molimo omogućite obavijesti u postavkama vašeg uređaja.",
+    "openSettings": "Postavke",
+    "cancel": "Odustani",
+    "dataSection": "UPRAVLJANJE PODACIMA",
+    "resetProgress": "Poništi napredak učenja",
+    "resetProgressTitle": "Poništiti napredak učenja?",
+    "resetProgressMessage": "Sav vaš napredak u učenju glagola i razina prefiksa bit će trajno izbrisan. Ova radnja se ne može poništiti.",
+    "resetProgressConfirm": "Poništi napredak",
+    "resetProgressSuccess": "Napredak učenja je poništen.",
+    "resetSettings": "Poništi postavke aplikacije",
+    "resetSettingsTitle": "Poništiti postavke aplikacije?",
+    "resetSettingsMessage": "Sve postavke zvuka, teme i obavijesti bit će vraćene na zadane. Vaš napredak u učenju će biti sačuvan.",
+    "resetSettingsConfirm": "Poništi postavke",
+    "resetSettingsSuccess": "Postavke su vraćene na zadane.",
+    "resetSuccessTitle": "Gotovo"
+  },
+  "quizSettingsModal": {
+    "title": "Postavke kviza"
+  },
+  "verbsPracticeListScreen": {
+    "title": "Vježba glagola",
+    "levelHeader": "RAZINA",
+    "verbCount": "glagola",
+    "uncompleted": "Nije završeno",
+    "bronze": "Bronca",
+    "silver": "Srebro",
+    "trophy": "Trofej",
+    "empty": "Nema pronađenih glagola",
+    "checkpointTitle": "Kviz provjere",
+    "finalTestTitle": "Završni test",
+    "finalTestTitleWithLevel": "Završni test {level}",
+    "finalTestSubtitle": "Sveobuhvatni test od 20 pitanja za ovu razinu",
+    "categoryFinalTestSubtitle": "Sveobuhvatni test od 20 pitanja za ovu temu",
+    "checkpointSubtitle": "Glagoli {from} – {to}"
+  },
+  "prefixPracticeListScreen": {
+    "title": "Glagoli s prefiksom",
+    "levelNumber": "Razina {number}",
+    "checkpointTitle": "Provjera {level}",
+    "checkpointSubtitle": "Sveobuhvatni test od 20 pitanja za ovu razinu",
+    "subgroupSeparable": "Odvojivi prefiksi",
+    "subgroupInseparable": "Neodvojivi prefiksi",
+    "subgroupOpposites": "Parovi suprotnosti",
+    "subgroupDual": "Dvostruki prefiksi"
+  },
+  "prefixPractice": {
+    "title": "Glagoli s prefiksom",
+    "levelTitle": "Razina {number}",
+    "checkpointTitle": "Provjera {level}"
+  },
+  "prefixGrammarHint": {
+    "separableTitle": "Odvojivi prefiks",
+    "inseparableTitle": "Neodvojivi prefiks",
+    "dualTitle": "Dvostruki prefiks",
+    "separableRule": "U Präsensu i Präteritumu, odvojivi prefiksi premještaju se na sam kraj rečenice.",
+    "inseparableRule": "Neodvojivi prefiksi (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) nikada se ne odvajaju od osnove glagola.",
+    "dualRule": "Prefiksi poput über-, um-, unter-, durch- mogu biti odvojivi ili neodvojivi, ovisno o značenju glagola."
+  },
+  "conjugationPracticeListScreen": {
+    "title": "Trener konjugacije",
+    "levelNumber": "Razina {number}",
+    "checkpointTitle": "Provjera {number}",
+    "checkpointSubtitle": "Kviz ponavljanja sa 10 nasumičnih glagola",
+    "finalTestTitle": "Završni test {level}",
+    "finalTestSubtitle": "Sveobuhvatni test s 15 glagola za ovu razinu"
+  },
+  "conjugationPractice": {
+    "title": "Konjugacija",
+    "levelTitle": "Razina {number}",
+    "checkpointNumberTitle": "Provjera {number}",
+    "finalTestTitle": "Završni test {level}"
+  },
+  "conjugationGrammarHint": {
+    "ruleTag": "Promjena samoglasnika",
+    "eToIRule": "e → i promjena samoglasnika u 2. i 3. licu jednine (du, er/sie/es).",
+    "eToIeRule": "e → ie promjena samoglasnika u 2. i 3. licu jednine (du, er/sie/es).",
+    "aToAeRule": "a → ä promjena samoglasnika u 2. i 3. licu jednine (du, er/sie/es).",
+    "auToAeuRule": "au → äu promjena samoglasnika u 2. i 3. licu jednine (du, er/sie/es)."
+  },
+  "verbFormsPracticeListScreen": {
+    "title": "Nepravilni glagoli",
+    "levelNumber": "Razina {number}",
+    "checkpointTitle": "Provjera {number}",
+    "checkpointSubtitle": "Kviz ponavljanja sa 10 nasumičnih glagola",
+    "finalTestTitle": "Završni test {level}",
+    "finalTestSubtitle": "Sveobuhvatni test s 15 glagola za ovu razinu"
+  },
+  "verbFormsPractice": {
+    "title": "Nepravilni glagoli",
+    "levelTitle": "Razina {number}",
+    "checkpointNumberTitle": "Provjera {number}",
+    "finalTestTitle": "Završni test {level}"
+  },
+  "verbFormsGrammarHint": {
+    "ruleTag": "Gramatičko pravilo",
+    "strongVerbTag": "Jaki glagol",
+    "weakVerbTag": "Slabi glagol",
+    "mixedVerbTag": "Mješoviti glagol",
+    "irregularVerbTag": "Nepravilni glagol",
+    "modalVerbTag": "Modalni glagol",
+    "seinRule": "Glagoli kretanja, promjene stanja te sein/bleiben tvore Perfekt s pomoćnim glagolom «sein».",
+    "habenRule": "Prijelazni, povratni i statični glagoli tvore Perfekt s pomoćnim glagolom «haben».",
+    "strongVerbRule": "Jaki glagoli mijenjaju korijenski samoglasnik u Präteritumu i završavaju na -en u Partizipu II.",
+    "weakVerbRule": "Pravilni slabi glagoli dodaju -te u Präteritumu i ge-...-t u Partizipu II.",
+    "mixedVerbRule": "Mješoviti glagoli kombiniraju promjenu samoglasnika s pravilnim nastavcima -te i -t."
+  },
+  "verbFormsExercise": {
+    "infinitive": "Infinitiv",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt"
+  },
+  "prepositionsPracticeListScreen": {
+    "title": "Glagoli s prijedlozima",
+    "levelNumber": "Razina {number}",
+    "checkpointTitle": "Provjera {number}",
+    "checkpointSubtitle": "Kviz ponavljanja sa 10 nasumičnih glagola",
+    "finalTestTitle": "Završni test {level}",
+    "finalTestSubtitle": "Sveobuhvatni test s 15 glagola za ovu razinu"
+  },
+  "prepositionsPractice": {
+    "title": "Prijedlozi",
+    "levelTitle": "Razina {number}",
+    "checkpointNumberTitle": "Provjera {number}",
+    "finalTestTitle": "Završni test {level}"
+  },
+  "prepositionGrammarHint": {
+    "ruleTag": "Pravilo prijedloga",
+    "questionLabel": "Pitanje:"
+  },
+  "verbQuizScreen": {
+    "title": "Vježba",
+    "checkpointQuizTitle": "Kviz provjere",
+    "smartQuizTitle": "Pametni kviz",
+    "conjugateVerbTitle": "Konjugiraj glagol {verb}",
+    "prepositionTaskTitle": "Odaberite prijedlog",
+    "level": "Razina",
+    "check": "Provjeri",
+    "continue": "Nastavi",
+    "exercise": "Vježba",
+    "correct": "Točno!",
+    "tryAgain": "Pokušaj ponovno",
+    "fillCard": "Popuni karticu",
+    "tapToContinue": "Dodirnite bilo gdje za nastavak",
+    "correctAnswer": "Točan odgovor:",
+    "conjugationPräsens": "Konjugacija u Präsensu",
+    "principalParts": "Osnovni oblici",
+    "imperativeForms": "Oblici imperativa",
+    "auxiliaryExplanationMovement": "Glagol {verb} izražava kretanje ili promjenu stanja, pa tvori Perfekt sa sein ({form}).",
+    "auxiliaryExplanationGeneral": "Glagol {verb} tvori Perfekt s pomoćnim glagolom haben ({form})."
+  },
+  "quizResultsScreen": {
+    "title": "Rezultati",
+    "checkpointResultsTitle": "Rezultati provjere",
+    "smartQuizResultsTitle": "Rezultati pametnog kviza",
+    "canDoBetter": "Možete vi to bolje!",
+    "almostThere": "Skoro ste uspjeli!",
+    "closeToPerfection": "Blizu savršenstva!",
+    "youDidIt": "Uspjeli ste!",
+    "nextLevel": "Sljedeća razina",
+    "tryAgain": "Pokušaj ponovno",
+    "verbsList": "Na popis glagola",
+    "backToPractice": "Natrag na vježbu",
+    "scoreSummary": "{correct} od {total}",
+    "showCorrectAnswers": "Prikaži točne odgovore",
+    "showAllAnswers": "Prikaži sve odgovore",
+    "showErrorsOnly": "Prikaži samo greške"
+  },
+  "dailyQuizLimitModal": {
+    "title": "Samo tako nastavite!",
+    "message": "Stvarno ste posvećeni učenju njemačkog jezika!",
+    "instructions": "Kako želite nastaviti?",
+    "videoButton": "Gledaj oglase",
+    "or": "ili",
+    "premiumButtonWithTrial": "Besplatne neograničene razine\nna {daysLabel}",
+    "premiumButtonNoTrial": "Uklonite oglase",
+    "premiumButtonSubtitleWithTrial": "zatim {yearlyPrice} / 3 mjeseca (☕️ / mj.)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} / 3 mjeseca (☕️ / mj.)",
+    "waitUntilTomorrow": "Pričekajte do sutra",
+    "cancelAnytime": "Otkažite bilo kada"
+  },
+  "premiumSheets": {
+    "subscribeTitle": "Otključaj Premium",
+    "subscribeSubtitle": "Unaprijedite učenje njemačkih glagola uz napredne alate.",
+    "subscribeNow": "Pretplati se sada",
+    "buyNow": "Kupi sada",
+    "viewPlans": "Pregledajte planove",
+    "premiumFeaturesLabel": "PREMIUM ZNAČAJKE",
+    "disclaimerAutoRenew": "Automatski se obnavlja za {price}/{period}. Otkažite bilo kada u postavkama vašeg računa.",
+    "disclaimerAutoRenewTrial": "Besplatno {trialDuration}, zatim {price}/{period}. Otkažite bilo kada.",
+    "disclaimerOneTime": "Jednokratna kupnja. Bez ponavljajućih troškova.",
+    "freeTrialDays": "{count}-dnevno besplatno probno razdoblje",
+    "freeTrialWeeks": "{count}-tjedno besplatno probno razdoblje",
+    "freeTrialMonths": "{count}-mjesečno besplatno probno razdoblje",
+    "freeTrialYears": "{count}-godišnje besplatno probno razdoblje",
+    "trialUnit": {
+      "day": "dana",
+      "week": "tjedana",
+      "month": "mjeseci",
+      "year": "godina"
+    },
+    "periodMonth": "mjesec",
+    "periodYear": "godinu",
+    "period3Months": "3 mjeseca",
+    "period6Months": "6 mjeseci",
+    "restorePurchases": "Vrati kupnje",
+    "errorTitle": "Greška",
+    "errorUnavailable": "Ovaj plan trenutno nije dostupan. Molimo pokušajte ponovno kasnije.",
+    "errorPurchase": "Kupnja nije uspjela. Molimo pokušajte ponovno.",
+    "errorRestore": "Vraćanje nije uspjelo. Molimo pokušajte ponovno.",
+    "restoreSuccessTitle": "Vraćeno!",
+    "restoreSuccessMessage": "Vaš premium pristup je vraćen.",
+    "restoreNothingTitle": "Nema pronađenih kupnji",
+    "restoreNothingMessage": "Nismo uspjeli pronaći prethodne kupnje za vraćanje.",
+    "termsOfService": "Uvjeti pružanja usluge",
+    "privacyPolicy": "Politika privatnosti",
+    "plans": {
+      "monthlyLabel": "1 mjesec",
+      "monthlyPer": "Mjesečno",
+      "yearlyLabel": "12 mjeseci",
+      "yearlyBadge": "NAJBOLJA VRIJEDNOST",
+      "perMonth": "{price}/mjesečno",
+      "lifetimeLabel": "Doživotno",
+      "lifetimePer": "Platite jednom",
+      "lifetimeBadge": "JEDNOKRATNO",
+      "threeMonthLabel": "3 mjeseca",
+      "sixMonthLabel": "6 mjeseci",
+      "bestValueBadge": "NAJBOLJA VRIJEDNOST",
+      "popularBadge": "POPULARNO"
+    },
+    "features": {
+      "noAdsTitle": "Bez oglasa",
+      "noAdsShort": "Bez\noglasa",
+      "noAdsDescription": "Ostanite fokusirani i učite bez ometanja.",
+      "unlimitedQuizzesTitle": "Neograničeni kvizovi",
+      "unlimitedQuizzesShort": "Neograničeni\nkvizovi",
+      "unlimitedQuizzesDescription": "Vježbajte koliko god želite bez dnevnih ograničenja.",
+      "allLevelsTitle": "Sve razine otključane",
+      "allLevelsShort": "Sve\nrazine",
+      "allLevelsDescription": "Trenutni pristup svim razinama glagola A1-B2 i provjerama.",
+      "smartQuizModeTitle": "Pametni algoritam",
+      "smartQuizModeShort": "Pametni\nalgoritam",
+      "smartQuizModeDescription": "Fokusirajte se samo na svoje greške i učite 3x brže!",
+      "naturalVoiceTitle": "Prirodni zvuk",
+      "naturalVoiceShort": "Prirodni\nnjemački",
+      "naturalVoiceDescription": "Slušajte glagole i rečenice izgovorene prirodnim njemačkim glasom.",
+      "offlineModeTitle": "Izvanmrežna vježba",
+      "offlineModeShort": "Izvanmrežna\nvježba",
+      "offlineModeDescription": "Vježbajte glagole bilo kada i bilo gdje bez internetske veze."
+    }
+  },
+  "notifications": {
+    "reminderTitle": "Vrijeme je za vježbanje!",
+    "reminderBody": "Kratka sesija s njemačkim glagolima i strukturama rečenica pomoći će vam da ih savladate.",
+    "trialReminderTitle": "Vaše besplatno probno razdoblje uskoro završava",
+    "trialReminderBody": "Iskoristite Premium već danas! Vaše probno razdoblje završava za 24 sata.",
+    "streakReminderTitle": "Ne prekidajte svoj niz! 🔥",
+    "streakReminderBody": "Danas niste vježbali. Riješite brzi 2-minutni kviz kako biste nastavili svoj niz!"
+  },
+  "firstOpenPaywall": {
+    "trialBadge": "3-DNEVNO BESPLATNO PROBNO RAZDOBLJE",
+    "title": "Isprobajte Premium prije nego platite",
+    "subtitle": "Kako funkcionira vaše besplatno probno razdoblje.",
+    "cta": "Započni besplatno probno razdoblje",
+    "restore": "Vrati kupnje",
+    "proceedLimited": "Nastavite s ograničenom verzijom",
+    "priceYearlyWithCoffee": "{price}/godišnje, kava/mj.",
+    "price3MonthsWithCoffee": "Samo {price} za 3 mjeseca — manje od kave mjesečno",
+    "disclaimer": "Automatski se obnavlja za {price}/godišnje. Otkažite bilo kada u postavkama računa.",
+    "disclaimerFallback": "Automatski se obnavlja godišnje. Otkažite bilo kada u postavkama.",
+    "priceWithTrial": "Besplatno {trialDuration}, zatim {price}/godišnje",
+    "priceYearly": "{price}/godišnje",
+    "timeline": {
+      "today": {
+        "day": "Danas",
+        "headline": "Otključajte sve",
+        "benefits": {
+          "noAds": {
+            "title": "Učenje 100% bez oglasa",
+            "text": "Ostanite fokusirani na svoje ciljeve uz čisto iskustvo učenja bez ometanja."
+          },
+          "unlimitedQuizzes": {
+            "title": "Neograničeni kvizovi",
+            "text": "Vježbajte koliko god želite bez dnevnih ograničenja ili čekanja."
+          },
+          "allLevels": {
+            "title": "Sve razine A1–B2 otključane",
+            "text": "Trenutni pristup svim glagolskim karticama, gramatičkim provjerama i testovima."
+          },
+          "smartQuizMode": {
+            "title": "Pametno ispravljanje grešaka",
+            "text": "Ciljajte na svoje osobne slabe točke kako biste savladali njemačke glagole 3x brže."
+          },
+          "offlineMode": {
+            "title": "Izvanmrežna vježba",
+            "text": "Vježbajte njemačke glagole bilo kada i bilo gdje bez internetske veze."
+          }
+        }
+      },
+      "day2": {
+        "day": "2. dan",
+        "headline": "Podsjetnik za probno razdoblje",
+        "description": "Poslat ćemo vam prijateljski podsjetnik prije nego što vaše probno razdoblje završi — bez iznenađenja."
+      },
+      "day3": {
+        "day": "3. dan",
+        "headline": "Počinje 3-mjesečni pristup",
+        "description": "Vaše probno razdoblje pretvara se u 3-mjesečni pristup. Otkažite bilo kada u postavkama."
+      }
+    }
+  },
+  "offlineModal": {
+    "title": "Potreban je internet",
+    "message": "Nadogradite na Premium kako biste vježbali izvan mreže bilo kada, bilo gdje.",
+    "getPremium": "Nabavite Premium",
+    "retry": "Pokušaj ponovno",
+    "enableOffline": "Omogući izvanmrežno",
+    "premiumButtonWithTrial": "Besplatan Premium na {daysLabel}",
+    "premiumButtonNoTrial": "Nabavite Premium"
+  }
+}

@@ -24,6 +24,7 @@ import { usePremiumStatus } from '../../hooks/usePremiumStatus';
 import { RootStackParamList, PracticeStackParamList } from '../../types/navigation';
 import { createStyles } from './PracticeScreen.styles';
 import { useFeatureFlag } from '../../services/featuresService';
+import { trackEvent } from '../../services/analyticsService';
 
 type NavigationProp = NativeStackNavigationProp<PracticeStackParamList & RootStackParamList>;
 
@@ -40,31 +41,37 @@ export function PracticeScreen(): React.JSX.Element {
 
   const handleStartStandard = () => {
     soundService.playTapSound();
+    trackEvent('practice_mode_selected', { mode: 'standard_course' });
     navigation.navigate('VerbsPracticeList');
   };
 
   const handleStartPrefixPractice = () => {
     soundService.playTapSound();
+    trackEvent('practice_mode_selected', { mode: 'prefixes' });
     navigation.navigate('PrefixPracticeList');
   };
 
   const handleStartConjugationPractice = () => {
     soundService.playTapSound();
+    trackEvent('practice_mode_selected', { mode: 'conjugation' });
     navigation.navigate('ConjugationPracticeList');
   };
 
   const handleStartVerbFormsPractice = () => {
     soundService.playTapSound();
+    trackEvent('practice_mode_selected', { mode: 'verb_forms' });
     navigation.navigate('VerbFormsPracticeList');
   };
 
   const handleStartPrepositionPractice = () => {
     soundService.playTapSound();
+    trackEvent('practice_mode_selected', { mode: 'prepositions' });
     navigation.navigate('PrepositionsPracticeList');
   };
 
   const handleStartSmartQuiz = () => {
     soundService.playTapSound();
+    trackEvent('practice_mode_selected', { mode: 'smart_quiz' });
     if (!isPremium) {
       setPremiumSheetSource('smart_quiz_card');
       setShowPremiumSheet(true);
@@ -75,9 +82,14 @@ export function PracticeScreen(): React.JSX.Element {
 
   const handleSelectCategory = (category: ThematicCategory) => {
     soundService.playTapSound();
+    const categoryTitle = intl.formatMessage({ id: category.titleKey });
+    trackEvent('category_selected', {
+      category_id: category.id,
+      category_title: categoryTitle,
+    });
     navigation.navigate('VerbsPracticeList', {
       categoryId: category.id,
-      categoryTitle: intl.formatMessage({ id: category.titleKey }),
+      categoryTitle,
       infinitives: category.verbInfinitives,
     });
   };

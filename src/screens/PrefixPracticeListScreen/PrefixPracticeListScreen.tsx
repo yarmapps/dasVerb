@@ -14,6 +14,7 @@ import { progressService, VerbProgress } from '../../services/progressService';
 import { useNavigateToQuiz } from '../../hooks/useNavigateToQuiz';
 import { usePremiumStatus } from '../../hooks/usePremiumStatus';
 import { soundService } from '../../services/soundService';
+import { trackEvent } from '../../services/analyticsService';
 import { PracticeCheckpointCard } from '../../components/PracticeCheckpointCard/PracticeCheckpointCard';
 import { createStyles } from './PrefixPracticeListScreen.styles';
 
@@ -72,6 +73,11 @@ export function PrefixPracticeListScreen(): React.JSX.Element {
 
   const handleTabChange = (tab: CefrTab) => {
     soundService.playTapSound();
+    trackEvent('cefr_tab_switched', {
+      tab,
+      previous_tab: activeCefr,
+      mode: 'prefixes',
+    });
     setActiveCefr(tab);
     itemPositionsRef.current = {};
     loadData(tab);
@@ -82,6 +88,12 @@ export function PrefixPracticeListScreen(): React.JSX.Element {
   const handleLevelPress = (level: PrefixLevelData) => {
     soundService.playTapSound();
     if (isLocked) {
+      trackEvent('locked_item_clicked', {
+        item_type: 'verb',
+        level: activeCefr,
+        item_id: level.id,
+        source_screen: 'prefix_practice_list',
+      });
       openPaywall('level_lock');
       return;
     }
@@ -95,6 +107,12 @@ export function PrefixPracticeListScreen(): React.JSX.Element {
     if (!checkpoint) return;
     soundService.playTapSound();
     if (isLocked) {
+      trackEvent('locked_item_clicked', {
+        item_type: 'checkpoint',
+        level: activeCefr,
+        item_id: checkpoint.id,
+        source_screen: 'prefix_practice_list',
+      });
       openPaywall('level_lock');
       return;
     }

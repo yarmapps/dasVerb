@@ -18,6 +18,7 @@ import {
 import { soundService } from '../../services/soundService';
 import { useNavigateToQuiz } from '../../hooks/useNavigateToQuiz';
 import { usePremiumStatus } from '../../hooks/usePremiumStatus';
+import { trackEvent } from '../../services/analyticsService';
 import { PracticeCheckpointCard } from '../../components/PracticeCheckpointCard/PracticeCheckpointCard';
 import { PracticeVerbCard } from '../../components/PracticeVerbCard/PracticeVerbCard';
 import { VerbCard } from '../../../docs/verb.types';
@@ -101,10 +102,18 @@ export function VerbsPracticeListScreen(): React.JSX.Element {
   const lastCacheKeyRef = useRef<string>('');
   const flatListRef = useRef<FlatList<PracticeListItem>>(null);
 
-  const handleTabChange = useCallback((tab: CefrTab) => {
-    soundService.playTapSound();
-    setActiveCefr(tab);
-  }, []);
+  const handleTabChange = useCallback(
+    (tab: CefrTab) => {
+      soundService.playTapSound();
+      trackEvent('cefr_tab_switched', {
+        tab,
+        previous_tab: activeCefr,
+        mode: 'verbs_practice_list',
+      });
+      setActiveCefr(tab);
+    },
+    [activeCefr],
+  );
 
   const flatListItems = useMemo<PracticeListItem[]>(() => {
     const list: PracticeListItem[] = [];
@@ -477,6 +486,12 @@ export function VerbsPracticeListScreen(): React.JSX.Element {
             isLocked={isCheckpointLocked}
             onPress={() => {
               if (isCheckpointLocked) {
+                trackEvent('locked_item_clicked', {
+                  item_type: categoryId ? 'category_final' : 'checkpoint',
+                  level: activeCefr,
+                  item_id: checkpointItem.id,
+                  source_screen: categoryId ? 'category_verbs_list' : 'verbs_practice_list',
+                });
                 openPaywall('level_lock');
               } else {
                 navigateToQuiz({
@@ -512,6 +527,12 @@ export function VerbsPracticeListScreen(): React.JSX.Element {
           isLocked={isVerbLocked}
           onPress={(inf, lvl) => {
             if (isVerbLocked) {
+              trackEvent('locked_item_clicked', {
+                item_type: categoryId ? 'category_verb' : 'verb',
+                level: lvl,
+                item_id: inf,
+                source_screen: categoryId ? 'category_verbs_list' : 'verbs_practice_list',
+              });
               openPaywall('level_lock');
             } else {
               handleVerbPress(inf, lvl, verbItem.globalIndex);

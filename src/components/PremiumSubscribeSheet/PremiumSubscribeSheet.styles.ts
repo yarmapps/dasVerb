@@ -4,7 +4,7 @@ import { Spacing } from '../../styles/spacing';
 import { Typography } from '../../styles/typography';
 
 const SCREEN_HEIGHT = Dimensions.get('window').height;
-const BLOCK_SPACING = SCREEN_HEIGHT * 0.035;
+const BLOCK_SPACING = SCREEN_HEIGHT * 0.04;
 
 export const SELECTED_GRADIENT_COLORS = [
   'rgba(250, 204, 21, 0.18)',
@@ -35,11 +35,11 @@ export const createStyles = (colors: ThemeColors) =>
       borderTopLeftRadius: 28,
       borderTopRightRadius: 28,
       paddingTop: Spacing.md,
-      paddingBottom: Spacing.xxl,
+      paddingBottom: Spacing.xxxl,
     },
     contentContainer: {},
 
-    /* ── Close & Restore buttons ─────────────────────────── */
+    /* ── Close button ────────────────────────────────────── */
     closeButton: {
       position: 'absolute',
       right: Spacing.lg,
@@ -49,10 +49,11 @@ export const createStyles = (colors: ThemeColors) =>
       borderRadius: 18,
       alignItems: 'center',
       justifyContent: 'center',
-      backgroundColor: 'rgba(255, 255, 255, 0.16)',
+      backgroundColor: 'rgba(255, 255, 255, 0.10)',
       zIndex: 10,
     },
     restoreButton: {
+      fontWeight: '600',
       position: 'absolute',
       left: Spacing.lg,
       top: Spacing.xl,
@@ -60,7 +61,7 @@ export const createStyles = (colors: ThemeColors) =>
       zIndex: 10,
     },
     restoreButtonText: {
-      color: 'rgba(255, 255, 255, 0.45)',
+      color: 'rgba(255, 255, 255, 0.40)',
       fontSize: Typography.fontSize.xxs,
       fontWeight: '600',
     },
@@ -82,12 +83,7 @@ export const createStyles = (colors: ThemeColors) =>
       marginBottom: BLOCK_SPACING,
     },
     subtitle: {
-      color: 'rgba(255, 255, 255, 0.70)',
-      fontSize: Typography.fontSize.sm,
-      textAlign: 'center',
-      marginTop: -Spacing.sm,
-      marginBottom: BLOCK_SPACING,
-      paddingHorizontal: Spacing.lg,
+      display: 'none',
     },
 
     /* ── Pricing cards ───────────────────────────────────── */
@@ -130,7 +126,7 @@ export const createStyles = (colors: ThemeColors) =>
       position: 'absolute',
       top: -12,
       alignSelf: 'center',
-      paddingHorizontal: 10,
+      paddingHorizontal: 8,
       paddingVertical: 3,
       borderRadius: 8,
     },
@@ -154,7 +150,7 @@ export const createStyles = (colors: ThemeColors) =>
       color: colors.white,
     },
 
-    /* Plan label */
+    /* Plan label (e.g. "1 Month") */
     planLabel: {
       color: 'rgba(255, 255, 255, 0.75)',
       fontSize: Typography.fontSize.sm,
@@ -178,6 +174,15 @@ export const createStyles = (colors: ThemeColors) =>
     },
     planPriceSmall: {
       fontSize: Typography.fontSize.sm,
+    },
+
+    /* Strikethrough old price */
+    planOldPrice: {
+      color: 'rgba(255, 255, 255, 0.40)',
+      fontSize: Typography.fontSize.xxs,
+      fontWeight: '500',
+      textDecorationLine: 'line-through',
+      marginBottom: 2,
     },
 
     /* Per-period label */
@@ -217,6 +222,7 @@ export const createStyles = (colors: ThemeColors) =>
       textAlign: 'center',
       marginBottom: Spacing.md,
     },
+
     featuresMarqueeContainer: {
       overflow: 'hidden',
       width: '100%',
@@ -274,6 +280,7 @@ export const createStyles = (colors: ThemeColors) =>
     ctaArrow: {
       position: 'absolute',
       right: 24,
+      color: colors.premiumHighlightText,
     },
 
     /* ── Disclaimer ──────────────────────────────────────── */

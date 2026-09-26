@@ -11,6 +11,7 @@ import {
 import { ENABLE_ADS, NATIVE_AD_UNIT_ID } from '../../ads/adConfig';
 import { isDictionaryNativeAdEnabled } from '../../services/appConfigService';
 import { ThemeColors } from '../../styles/themeColors';
+import { trackEvent } from '../../services/analyticsService';
 import { createStyles } from './DictionaryNativeAdCard.styles';
 
 export { isDictionaryNativeAdEnabled };
@@ -54,6 +55,7 @@ export function DictionaryNativeAdCard({
         activeAdReference.current = ad;
         setAdHeight(undefined);
         setNativeAd(ad);
+        trackEvent('ad_impression', { ad_type: 'native_dictionary' });
       })
       .catch(error => {
         if (__DEV__) {

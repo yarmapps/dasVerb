@@ -1,0 +1,505 @@
+{
+  "appUpdate": {
+    "title": "Pembaruan Tersedia",
+    "softMessage": "Untuk menikmati pengalaman terbaik dan peningkatan terbaru, harap perbarui aplikasi Anda sekarang.",
+    "forceMessage": "Pembaruan penting diperlukan untuk terus menggunakan das Verb. Harap perbarui sekarang.",
+    "button": "Perbarui Sekarang",
+    "close": "Tutup"
+  },
+  "debugScreen": {
+    "title": "Menu Debug",
+    "sectionState": "Ringkasan Status Aplikasi",
+    "sectionDailyLimit": "Batas Kuis Harian",
+    "sectionStreak": "Rentetan Harian",
+    "sectionSettings": "Pengaturan & Penyimpanan",
+    "sectionAppUpdate": "Dialog Pembaruan Aplikasi",
+    "sectionReview": "Ulasan & Peringkat Dalam Aplikasi",
+    "dailyQuizzes": "Kuis selesai hari ini: {count} / {limit}",
+    "totalQuizzes": "Total kuis selesai: {count}",
+    "extraQuizzes": "Kuis tambahan tersedia: {count}",
+    "adGrants": "Izin iklan hari ini: {count} / {limit}",
+    "streakSummary": "Rentetan saat ini: {streak} hari (Terbaik: {best})",
+    "resetDailyLimit": "Setel Ulang Batas Harian",
+    "grantExtraQuiz": "Berikan +1 Kuis Tambahan",
+    "consumeQuiz": "Gunakan 1 Kuis Harian",
+    "resetStreak": "Setel Ulang Rentetan",
+    "incrementStreak": "Tingkatkan Rentetan (+1 Hari)",
+    "resetAllSettings": "Setel Ulang Pengaturan ke Default",
+    "triggerSoftUpdate": "Picukan Pembaruan Lunak (Dapat Ditolak)",
+    "triggerForceUpdate": "Picukan Pembaruan Paksa (Memblokir)",
+    "resetUpdateState": "Setel Ulang Status Pembaruan",
+    "triggerReview": "Picukan Ulasan Dalam Aplikasi (StoreReview)",
+    "resetReviewCooldown": "Setel Ulang Jeda Ulasan",
+    "addCompletedQuizzes": "Tambahkan +5 Kuis Selesai",
+    "alertSuccess": "Berhasil",
+    "dailyLimitResetSuccess": "Batas kuis harian telah diatur ulang.",
+    "streakResetSuccess": "Data rentetan telah diatur ulang.",
+    "settingsResetSuccess": "Semua pengaturan telah diatur ulang ke default.",
+    "reviewTriggerSuccess": "Ulasan toko diminta ke OS.",
+    "reviewCooldownResetSuccess": "Jeda permintaan ulasan diatur ulang."
+  },
+  "navigation": {
+    "practice": "Latihan",
+    "dictionary": "Kamus"
+  },
+  "languageSelectorScreen": {
+    "title": "Apa bahasa ibu Anda?",
+    "continue": "Lanjutkan"
+  },
+  "practiceScreen": {
+    "title": "Latihan",
+    "subtitle": "Latih kata kerja, konjugasi, dan struktur kalimat",
+    "levelsButtonTitle": "Latih Kata Kerja",
+    "levelsButtonSubtitle": "Dari yang paling umum hingga jarang menggunakan metode Goethe",
+    "featuredBadge": "Unggulan",
+    "startNow": "Mulai Sekarang",
+    "smartQuizBadge": "Ulasan Cerdas",
+    "smartQuizTitle": "Algoritma Cerdas",
+    "smartQuizSubtitle": "Fokus pada kesalahan Anda dan belajar 3x lebih cepat",
+    "prefixBannerBadge": "A1 – B2",
+    "prefixBannerTitle": "Kata Kerja Berprefiks",
+    "prefixBannerSubtitle": "Prefiks terpisah, tak terpisahkan, dan ganda",
+    "conjugationBannerTitle": "Pelatih Konjugasi",
+    "conjugationBannerSubtitle": "Latih bentuk kata kerja untuk semua pronomina dalam Präsens",
+    "verbFormsBannerTitle": "Kata Kerja Tidak Beraturan",
+    "verbFormsBannerSubtitle": "Latih Infinitiv – Präteritum – Perfekt",
+    "prepositionsBannerTitle": "Kata Kerja dengan Preposisi",
+    "prepositionsBannerSubtitle": "Kuasai preposisi kata kerja dan kasus",
+    "adBadge": "Iklan",
+    "sectionModes": "Belajar Berdasarkan Mode",
+    "sectionTopics": "Belajar Berdasarkan Topik"
+  },
+  "categories": {
+    "sectionTitle": "Topik & Kategori",
+    "sectionSubtitle": "Latih kata kerja yang dikelompokkan berdasarkan situasi kehidupan nyata",
+    "verbsCount": "kata kerja",
+    "movement": {
+      "title": "Gerakan & Transportasi",
+      "subtitle": "gehen, fahren, fliegen, ankommen..."
+    },
+    "communication": {
+      "title": "Komunikasi & Bicara",
+      "subtitle": "sprechen, sagen, fragen, antworten..."
+    },
+    "homeDaily": {
+      "title": "Kehidupan Sehari-hari & Rumah",
+      "subtitle": "wohnen, schlafen, aufstehen, kochen..."
+    },
+    "foodDrink": {
+      "title": "Makanan & Restoran",
+      "subtitle": "essen, trinken, bestellen, probieren..."
+    },
+    "workStudy": {
+      "title": "Kerja & Belajar",
+      "subtitle": "arbeiten, lernen, studieren, schreiben..."
+    },
+    "shoppingMoney": {
+      "title": "Belanja & Uang",
+      "subtitle": "kaufen, bezahlen, kosten, sparen..."
+    },
+    "thoughtsFeelings": {
+      "title": "Pikiran & Perasaan",
+      "subtitle": "denken, glauben, fühlen, lieben..."
+    },
+    "leisureHobbies": {
+      "title": "Waktu Luang & Hobi",
+      "subtitle": "spielen, reisen, schwimmen, wandern..."
+    },
+    "health": {
+      "title": "Kesehatan & Kesejahteraan",
+      "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    },
+    "natureEnvironment": {
+      "title": "Alam & Cuaca",
+      "subtitle": "regnen, scheinen, wehen, blühen..."
+    },
+    "lawSociety": {
+      "title": "Hukum & Masyarakat",
+      "subtitle": "wählen, regieren, entscheiden, verbieten..."
+    },
+    "relationsSocial": {
+      "title": "Hubungan & Sosial",
+      "subtitle": "helfen, vertrauen, umarmen, begrüßen..."
+    },
+    "creationChange": {
+      "title": "Penciptaan & Perubahan",
+      "subtitle": "schaffen, verändern, umwandeln, entstehen..."
+    },
+    "travelTransport": {
+      "title": "Perjalanan & Transportasi",
+      "subtitle": "reisen, fahren, fliegen, einsteigen..."
+    },
+    "perceptionSenses": {
+      "title": "Persepsi & Indra",
+      "subtitle": "sehen, hören, riechen, schmecken..."
+    },
+    "digitalMedia": {
+      "title": "Teknologi & Media",
+      "subtitle": "installieren, speichern, löschen, senden..."
+    }
+  },
+  "dictionaryScreen": {
+    "title": "Kamus",
+    "searchPlaceholder": "Cari kata kerja...",
+    "emptySearch": "Tidak ada kata kerja ditemukan",
+    "stammformen": "Bentuk Pokok",
+    "infinitive": "Infinitiv",
+    "present3sg": "Präsens",
+    "praeteritum3sg": "Präteritum",
+    "perfekt": "Perfekt",
+    "conjugation": "Konjugasi",
+    "person": "Orang",
+    "present": "Präsens",
+    "praeteritum": "Präteritum",
+    "rektion": "Rektion & Kasus",
+    "imperative": "Imperatif",
+    "examples": "Contoh"
+  },
+  "settingsScreen": {
+    "title": "Pengaturan",
+    "generalSection": "UMUM",
+    "audioSection": "AUDIO",
+    "supportSection": "DUKUNGAN",
+    "appLanguage": "Bahasa Aplikasi",
+    "theme": "Tema",
+    "themeLight": "Terang",
+    "themeDark": "Gelap",
+    "themeSystem": "Sistem",
+    "notifications": "Notifikasi",
+    "soundEffects": "Efek Suara",
+    "speakOnCorrectAnswer": "Ucapkan Jawaban Benar",
+    "voiceGender": "Suara",
+    "voiceFemale": "Wanita",
+    "voiceMale": "Pria",
+    "maleVoiceHint": "Untuk menggunakan suara pria Jerman, instal di Pengaturan iOS → Aksesibilitas → Konten Lisan → Suara → Jerman.",
+    "contactUs": "Hubungi Kami",
+    "subscriptionSection": "LANGGANAN",
+    "manageSubscription": "Kelola Langganan",
+    "rateApp": "Nilai Aplikasi",
+    "privacySettings": "Pengaturan Privasi",
+    "privacyOptionsError": "Gagal membuka pengaturan privasi. Silakan coba lagi nanti.",
+    "error": "Kesalahan",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsOfService": "Ketentuan Layanan",
+    "version": "Versi",
+    "notificationsPermissionRequiredTitle": "Aktifkan Notifikasi",
+    "notificationsPermissionRequiredMessage": "Untuk menerima latihan harian dan pengingat rentetan, harap aktifkan notifikasi di pengaturan perangkat Anda.",
+    "openSettings": "Pengaturan",
+    "cancel": "Batal",
+    "dataSection": "MANAJEMEN DATA",
+    "resetProgress": "Setel Ulang Kemajuan Belajar",
+    "resetProgressTitle": "Setel Ulang Kemajuan Belajar?",
+    "resetProgressMessage": "Semua kemajuan belajar kata kerja dan tingkat prefiks Anda akan dihapus secara permanen. Tindakan ini tidak dapat dibatalkan.",
+    "resetProgressConfirm": "Setel Ulang Kemajuan",
+    "resetProgressSuccess": "Kemajuan belajar telah diatur ulang.",
+    "resetSettings": "Setel Ulang Pengaturan Aplikasi",
+    "resetSettingsTitle": "Setel Ulang Pengaturan Aplikasi?",
+    "resetSettingsMessage": "Semua pengaturan suara, tema, dan notifikasi akan dikembalikan ke default. Kemajuan belajar Anda akan tetap disimpan.",
+    "resetSettingsConfirm": "Setel Ulang Pengaturan",
+    "resetSettingsSuccess": "Pengaturan telah diatur ulang ke default.",
+    "resetSuccessTitle": "Selesai"
+  },
+  "quizSettingsModal": {
+    "title": "Pengaturan Kuis"
+  },
+  "verbsPracticeListScreen": {
+    "title": "Latihan Kata Kerja",
+    "levelHeader": "TINGKAT",
+    "verbCount": "kata kerja",
+    "uncompleted": "Belum selesai",
+    "bronze": "Perunggu",
+    "silver": "Perak",
+    "trophy": "Piala",
+    "empty": "Tidak ada kata kerja ditemukan",
+    "checkpointTitle": "Kuis Pos Pemeriksaan",
+    "finalTestTitle": "Ujian Akhir",
+    "finalTestTitleWithLevel": "Ujian Akhir {level}",
+    "finalTestSubtitle": "Tes komprehensif 20 soal untuk tingkat ini",
+    "categoryFinalTestSubtitle": "Tes komprehensif 20 soal untuk topik ini",
+    "checkpointSubtitle": "Kata kerja {from} – {to}"
+  },
+  "prefixPracticeListScreen": {
+    "title": "Kata Kerja Berprefiks",
+    "levelNumber": "Tingkat {number}",
+    "checkpointTitle": "Pos Pemeriksaan {level}",
+    "checkpointSubtitle": "Tes komprehensif 20 soal untuk tingkat ini",
+    "subgroupSeparable": "Prefiks Terpisah",
+    "subgroupInseparable": "Prefiks Tak Terpisahkan",
+    "subgroupOpposites": "Pasangan Berlawanan",
+    "subgroupDual": "Prefiks Ganda"
+  },
+  "prefixPractice": {
+    "title": "Kata Kerja Berprefiks",
+    "levelTitle": "Tingkat {number}",
+    "checkpointTitle": "Pos Pemeriksaan {level}"
+  },
+  "prefixGrammarHint": {
+    "separableTitle": "Prefiks Terpisah",
+    "inseparableTitle": "Prefiks Tak Terpisahkan",
+    "dualTitle": "Prefiks Ganda",
+    "separableRule": "Dalam Präsens dan Präteritum, prefiks terpisah bergerak ke akhir klausa.",
+    "inseparableRule": "Prefiks tak terpisahkan (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) tidak pernah terpisah dari akar kata kerja.",
+    "dualRule": "Prefiks seperti über-, um-, unter-, durch- dapat terpisah atau tak terpisahkan tergantung pada arti kata kerja."
+  },
+  "conjugationPracticeListScreen": {
+    "title": "Pelatih Konjugasi",
+    "levelNumber": "Tingkat {number}",
+    "checkpointTitle": "Pos Pemeriksaan {number}",
+    "checkpointSubtitle": "Kuis ulasan dengan 10 kata kerja acak",
+    "finalTestTitle": "Ujian Akhir {level}",
+    "finalTestSubtitle": "Tes komprehensif 15 kata kerja untuk tingkat ini"
+  },
+  "conjugationPractice": {
+    "title": "Konjugasi",
+    "levelTitle": "Tingkat {number}",
+    "checkpointNumberTitle": "Pos Pemeriksaan {number}",
+    "finalTestTitle": "Ujian Akhir {level}"
+  },
+  "conjugationGrammarHint": {
+    "ruleTag": "Perubahan Vokal",
+    "eToIRule": "Perubahan vokal e → i pada orang kedua dan ketiga tunggal (du, er/sie/es).",
+    "eToIeRule": "Perubahan vokal e → ie pada orang kedua dan ketiga tunggal (du, er/sie/es).",
+    "aToAeRule": "Perubahan vokal a → ä pada orang kedua dan ketiga tunggal (du, er/sie/es).",
+    "auToAeuRule": "Perubahan vokal au → äu pada orang kedua dan ketiga tunggal (du, er/sie/es)."
+  },
+  "verbFormsPracticeListScreen": {
+    "title": "Kata Kerja Tidak Beraturan",
+    "levelNumber": "Tingkat {number}",
+    "checkpointTitle": "Pos Pemeriksaan {number}",
+    "checkpointSubtitle": "Kuis ulasan dengan 10 kata kerja acak",
+    "finalTestTitle": "Ujian Akhir {level}",
+    "finalTestSubtitle": "Tes komprehensif 15 kata kerja untuk tingkat ini"
+  },
+  "verbFormsPractice": {
+    "title": "Kata Kerja Tidak Beraturan",
+    "levelTitle": "Tingkat {number}",
+    "checkpointNumberTitle": "Pos Pemeriksaan {number}",
+    "finalTestTitle": "Ujian Akhir {level}"
+  },
+  "verbFormsGrammarHint": {
+    "ruleTag": "Aturan Tata Bahasa",
+    "strongVerbTag": "Kata Kerja Kuat",
+    "weakVerbTag": "Kata Kerja Lemah",
+    "mixedVerbTag": "Kata Kerja Campuran",
+    "irregularVerbTag": "Kata Kerja Tidak Beraturan",
+    "modalVerbTag": "Kata Kerja Modal",
+    "seinRule": "Kata kerja gerakan, perubahan keadaan, dan sein/bleiben membentuk Perfekt dengan «sein».",
+    "habenRule": "Kata kerja transitif, refleksif, dan statis membentuk Perfekt dengan «haben».",
+    "strongVerbRule": "Kata kerja kuat mengubah vokal akar dalam Präteritum dan berakhiran -en dalam Partizip II.",
+    "weakVerbRule": "Kata kerja lemah beraturan menambahkan -te dalam Präteritum dan ge-...-t dalam Partizip II.",
+    "mixedVerbRule": "Kata kerja campuran menggabungkan perubahan vokal dengan akhiran beraturan -te dan -t."
+  },
+  "verbFormsExercise": {
+    "infinitive": "Infinitiv",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt"
+  },
+  "prepositionsPracticeListScreen": {
+    "title": "Kata Kerja dengan Preposisi",
+    "levelNumber": "Tingkat {number}",
+    "checkpointTitle": "Pos Pemeriksaan {number}",
+    "checkpointSubtitle": "Kuis ulasan dengan 10 kata kerja acak",
+    "finalTestTitle": "Ujian Akhir {level}",
+    "finalTestSubtitle": "Tes komprehensif 15 kata kerja untuk tingkat ini"
+  },
+  "prepositionsPractice": {
+    "title": "Preposisi",
+    "levelTitle": "Tingkat {number}",
+    "checkpointNumberTitle": "Pos Pemeriksaan {number}",
+    "finalTestTitle": "Ujian Akhir {level}"
+  },
+  "prepositionGrammarHint": {
+    "ruleTag": "Aturan Preposisi",
+    "questionLabel": "Pertanyaan:"
+  },
+  "verbQuizScreen": {
+    "title": "Latihan",
+    "checkpointQuizTitle": "Kuis Pos Pemeriksaan",
+    "smartQuizTitle": "Kuis Cerdas",
+    "conjugateVerbTitle": "Konjugasikan kata kerja {verb}",
+    "prepositionTaskTitle": "Pilih preposisi",
+    "level": "Tingkat",
+    "check": "Periksa",
+    "continue": "Lanjutkan",
+    "exercise": "Latihan",
+    "correct": "Benar!",
+    "tryAgain": "Coba lagi",
+    "fillCard": "Isi kartu",
+    "tapToContinue": "Ketuk di mana saja untuk melanjutkan",
+    "correctAnswer": "Jawaban benar:",
+    "conjugationPräsens": "Konjugasi dalam Präsens",
+    "principalParts": "Bentuk Pokok",
+    "imperativeForms": "Bentuk Imperatif",
+    "auxiliaryExplanationMovement": "Kata kerja {verb} menyatakan gerakan atau perubahan keadaan, sehingga membentuk Perfekt dengan sein ({form}).",
+    "auxiliaryExplanationGeneral": "Kata kerja {verb} membentuk Perfekt dengan kata kerja bantu haben ({form})."
+  },
+  "quizResultsScreen": {
+    "title": "Hasil",
+    "checkpointResultsTitle": "Hasil Pos Pemeriksaan",
+    "smartQuizResultsTitle": "Hasil Kuis Cerdas",
+    "canDoBetter": "Anda bisa lebih baik!",
+    "almostThere": "Hampir sampai!",
+    "closeToPerfection": "Hampir sempurna!",
+    "youDidIt": "Anda berhasil!",
+    "nextLevel": "Tingkat berikutnya",
+    "tryAgain": "Coba lagi",
+    "verbsList": "Ke daftar kata kerja",
+    "backToPractice": "Kembali ke Latihan",
+    "scoreSummary": "{correct} dari {total}",
+    "showCorrectAnswers": "Tampilkan jawaban benar",
+    "showAllAnswers": "Tampilkan semua jawaban",
+    "showErrorsOnly": "Tampilkan hanya kesalahan"
+  },
+  "dailyQuizLimitModal": {
+    "title": "Teruslah semangat!",
+    "message": "Anda sangat berdedikasi dalam belajar bahasa Jerman!",
+    "instructions": "Bagaimana Anda ingin melanjutkan?",
+    "videoButton": "Tonton iklan",
+    "or": "atau",
+    "premiumButtonWithTrial": "Tingkat tak terbatas gratis\nselama {daysLabel}",
+    "premiumButtonNoTrial": "Bebas Iklan",
+    "premiumButtonSubtitleWithTrial": "kemudian {yearlyPrice} / 3 bulan (☕ / bln.)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} / 3 bulan (☕ / bln.)",
+    "waitUntilTomorrow": "Tunggu sampai besok",
+    "cancelAnytime": "Batalkan kapan saja"
+  },
+  "premiumSheets": {
+    "subscribeTitle": "Buka Premium",
+    "subscribeSubtitle": "Tingkatkan pembelajaran kata kerja Jerman Anda dengan alat canggih.",
+    "subscribeNow": "Berlangganan Sekarang",
+    "buyNow": "Beli Sekarang",
+    "viewPlans": "Lihat Paket",
+    "premiumFeaturesLabel": "FITUR PREMIUM",
+    "disclaimerAutoRenew": "Diperbarui otomatis pada {price}/{period}. Batalkan kapan saja di pengaturan akun Anda.",
+    "disclaimerAutoRenewTrial": "Gratis selama {trialDuration}, kemudian {price}/{period}. Batalkan kapan saja.",
+    "disclaimerOneTime": "Pembelian satu kali. Tanpa biaya berulang.",
+    "freeTrialDays": "Uji coba gratis {count} hari",
+    "freeTrialWeeks": "Uji coba gratis {count} minggu",
+    "freeTrialMonths": "Uji coba gratis {count} bulan",
+    "freeTrialYears": "Uji coba gratis {count} tahun",
+    "trialUnit": {
+      "day": "hari",
+      "week": "minggu",
+      "month": "bulan",
+      "year": "tahun"
+    },
+    "periodMonth": "bulan",
+    "periodYear": "tahun",
+    "period3Months": "3 bulan",
+    "period6Months": "6 bulan",
+    "restorePurchases": "Pulihkan Pembelian",
+    "errorTitle": "Kesalahan",
+    "errorUnavailable": "Paket ini saat ini tidak tersedia. Silakan coba lagi nanti.",
+    "errorPurchase": "Pembelian gagal. Silakan coba lagi.",
+    "errorRestore": "Pemulihan gagal. Silakan coba lagi.",
+    "restoreSuccessTitle": "Dipulihkan!",
+    "restoreSuccessMessage": "Akses premium Anda telah dipulihkan.",
+    "restoreNothingTitle": "Tidak Ada Pembelian Ditemukan",
+    "restoreNothingMessage": "Kami tidak dapat menemukan pembelian sebelumnya untuk dipulihkan.",
+    "termsOfService": "Ketentuan Layanan",
+    "privacyPolicy": "Kebijakan Privasi",
+    "plans": {
+      "monthlyLabel": "1 Bulan",
+      "monthlyPer": "Bulanan",
+      "yearlyLabel": "12 Bulan",
+      "yearlyBadge": "NILAI TERBAIK",
+      "perMonth": "{price}/bulan",
+      "lifetimeLabel": "Seumur Hidup",
+      "lifetimePer": "Bayar Sekali",
+      "lifetimeBadge": "SATU KALI",
+      "threeMonthLabel": "3 Bulan",
+      "sixMonthLabel": "6 Bulan",
+      "bestValueBadge": "NILAI TERBAIK",
+      "popularBadge": "POPULER"
+    },
+    "features": {
+      "noAdsTitle": "Nol Iklan",
+      "noAdsShort": "Nol\nIklan",
+      "noAdsDescription": "Tetap fokus dan belajar tanpa gangguan.",
+      "unlimitedQuizzesTitle": "Kuis Tak Terbatas",
+      "unlimitedQuizzesShort": "Kuis\nTak Terbatas",
+      "unlimitedQuizzesDescription": "Berlatih sebanyak yang Anda inginkan tanpa batas harian.",
+      "allLevelsTitle": "Semua Tingkat Terbuka",
+      "allLevelsShort": "Semua\nTingkat",
+      "allLevelsDescription": "Akses instan ke semua tingkat kata kerja A1-B2 dan pos pemeriksaan.",
+      "smartQuizModeTitle": "Algoritma Cerdas",
+      "smartQuizModeShort": "Algoritma\nCerdas",
+      "smartQuizModeDescription": "Fokus hanya pada kesalahan Anda dan belajar 3x lebih cepat!",
+      "naturalVoiceTitle": "Audio Alami",
+      "naturalVoiceShort": "Jerman\nAlami",
+      "naturalVoiceDescription": "Dengarkan kata kerja dan kalimat diucapkan dengan suara Jerman alami.",
+      "offlineModeTitle": "Latihan Offline",
+      "offlineModeShort": "Latihan\nOffline",
+      "offlineModeDescription": "Latih kata kerja kapan saja, di mana saja tanpa koneksi internet."
+    }
+  },
+  "notifications": {
+    "reminderTitle": "Waktunya berlatih!",
+    "reminderBody": "Sesi singkat dengan kata kerja dan struktur kalimat Jerman akan membantu Anda menguasainya.",
+    "trialReminderTitle": "Uji coba gratis Anda akan segera berakhir",
+    "trialReminderBody": "Manfaatkan Premium sebaik-baiknya hari ini! Uji coba Anda berakhir dalam 24 jam.",
+    "streakReminderTitle": "Jangan putuskan rentetan Anda! 🔥",
+    "streakReminderBody": "Anda belum berlatih hari ini. Ikuti kuis singkat 2 menit untuk menjaga rentetan Anda tetap berjalan!"
+  },
+  "firstOpenPaywall": {
+    "trialBadge": "UJI COBA GRATIS 3 HARI",
+    "title": "Coba Premium Sebelum Membayar",
+    "subtitle": "Cara kerja uji coba gratis Anda.",
+    "cta": "Mulai Uji Coba Gratis",
+    "restore": "Pulihkan Pembelian",
+    "proceedLimited": "Lanjutkan dengan versi terbatas",
+    "priceYearlyWithCoffee": "{price}/tahun, secangkir kopi/bln.",
+    "price3MonthsWithCoffee": "Hanya {price} untuk 3 bulan — kurang dari secangkir kopi sebulan",
+    "disclaimer": "Diperbarui otomatis pada {price}/tahun. Batalkan kapan saja di pengaturan akun.",
+    "disclaimerFallback": "Diperbarui otomatis setiap tahun. Batalkan kapan saja di pengaturan.",
+    "priceWithTrial": "Gratis selama {trialDuration}, kemudian {price}/tahun",
+    "priceYearly": "{price}/tahun",
+    "timeline": {
+      "today": {
+        "day": "Hari Ini",
+        "headline": "Buka Kunci Semuanya",
+        "benefits": {
+          "noAds": {
+            "title": "Belajar 100% Bebas Iklan",
+            "text": "Tetap fokus pada tujuan Anda dengan pengalaman belajar yang bersih dan tanpa gangguan."
+          },
+          "unlimitedQuizzes": {
+            "title": "Kuis Tak Terbatas",
+            "text": "Berlatih sebanyak yang Anda inginkan tanpa batas harian atau menunggu."
+          },
+          "allLevels": {
+            "title": "Semua Tingkat A1–B2 Terbuka",
+            "text": "Akses instan ke semua kartu kata kerja, pos pemeriksaan tata bahasa, dan tes."
+          },
+          "smartQuizMode": {
+            "title": "Koreksi Kesalahan Cerdas",
+            "text": "Targetkan titik lemah pribadi Anda untuk menguasai kata kerja Jerman 3x lebih cepat."
+          },
+          "offlineMode": {
+            "title": "Latihan Offline",
+            "text": "Latih kata kerja Jerman kapan saja, di mana saja tanpa koneksi internet."
+          }
+        }
+      },
+      "day2": {
+        "day": "Hari ke-2",
+        "headline": "Pengingat Uji Coba",
+        "description": "Kami akan mengirimkan pengingat ramah sebelum uji coba Anda berakhir — tanpa kejutan."
+      },
+      "day3": {
+        "day": "Hari ke-3",
+        "headline": "Akses 3 Bulan Dimulai",
+        "description": "Uji coba Anda akan berubah menjadi akses 3 bulan. Batalkan kapan saja di pengaturan."
+      }
+    }
+  },
+  "offlineModal": {
+    "title": "Internet Diperlukan",
+    "message": "Tingkatkan ke Premium untuk berlatih offline kapan saja, di mana saja.",
+    "getPremium": "Dapatkan Premium",
+    "retry": "Coba Lagi",
+    "enableOffline": "Aktifkan Offline",
+    "premiumButtonWithTrial": "Premium Gratis selama {daysLabel}",
+    "premiumButtonNoTrial": "Dapatkan Premium"
+  }
+}

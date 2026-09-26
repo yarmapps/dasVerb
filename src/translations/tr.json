@@ -108,6 +108,34 @@
     "health": {
       "title": "Sağlık ve Zindelik",
       "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    },
+    "natureEnvironment": {
+      "title": "Doğa ve Hava Durumu",
+      "subtitle": "regnen, scheinen, wehen, blühen..."
+    },
+    "lawSociety": {
+      "title": "Hukuk ve Toplum",
+      "subtitle": "wählen, regieren, entscheiden, verbieten..."
+    },
+    "relationsSocial": {
+      "title": "İlişkiler ve Sosyal Yaşam",
+      "subtitle": "helfen, vertrauen, umarmen, begrüßen..."
+    },
+    "creationChange": {
+      "title": "Yaratılış ve Değişim",
+      "subtitle": "schaffen, verändern, umwandeln, entstehen..."
+    },
+    "travelTransport": {
+      "title": "Seyahat ve Ulaşım",
+      "subtitle": "reisen, fahren, fliegen, einsteigen..."
+    },
+    "perceptionSenses": {
+      "title": "Algı ve Duyular",
+      "subtitle": "sehen, hören, riechen, schmecken..."
+    },
+    "digitalMedia": {
+      "title": "Teknoloji ve Medya",
+      "subtitle": "installieren, speichern, löschen, senden..."
     }
   },
   "dictionaryScreen": {
@@ -166,7 +194,10 @@
     "resetSettingsMessage": "Tüm ses, tema ve bildirim ayarları varsayılan değerlere döndürülecektir. Öğrenme ilerlemeniz korunacaktır.",
     "resetSettingsConfirm": "Ayarları Sıfırla",
     "resetSettingsSuccess": "Ayarlar varsayılan değerlere sıfırlandı.",
-    "resetSuccessTitle": "Tamamlandı"
+    "resetSuccessTitle": "Tamamlandı",
+    "privacySettings": "Gizlilik Ayarları",
+    "privacyOptionsError": "Gizlilik ayarları açılamadı. Lütfen daha sonra tekrar deneyin.",
+    "error": "Hata"
   },
   "quizSettingsModal": {
     "title": "Test Ayarları"

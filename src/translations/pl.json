@@ -108,6 +108,34 @@
     "health": {
       "title": "Zdrowie i samopoczucie",
       "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    },
+    "natureEnvironment": {
+      "title": "Natura i pogoda",
+      "subtitle": "regnen, scheinen, wehen, blühen..."
+    },
+    "lawSociety": {
+      "title": "Prawo i społeczeństwo",
+      "subtitle": "wählen, regieren, entscheiden, verbieten..."
+    },
+    "relationsSocial": {
+      "title": "Relacje i życie społeczne",
+      "subtitle": "helfen, vertrauen, umarmen, begrüßen..."
+    },
+    "creationChange": {
+      "title": "Tworzenie i zmiany",
+      "subtitle": "schaffen, verändern, umwandeln, entstehen..."
+    },
+    "travelTransport": {
+      "title": "Podróże i transport",
+      "subtitle": "reisen, fahren, fliegen, einsteigen..."
+    },
+    "perceptionSenses": {
+      "title": "Percepcja i zmysły",
+      "subtitle": "sehen, hören, riechen, schmecken..."
+    },
+    "digitalMedia": {
+      "title": "Technologia i media",
+      "subtitle": "installieren, speichern, löschen, senden..."
     }
   },
   "dictionaryScreen": {
@@ -166,7 +194,10 @@
     "resetSettingsMessage": "Wszystkie ustawienia dźwięku, motywu i powiadomień zostaną przywrócone do wartości domyślnych. Twój postęp w nauce zostanie zachowany.",
     "resetSettingsConfirm": "Zresetuj ustawienia",
     "resetSettingsSuccess": "Ustawienia zostały przywrócone do wartości domyślnych.",
-    "resetSuccessTitle": "Gotowe"
+    "resetSuccessTitle": "Gotowe",
+    "privacySettings": "Ustawienia prywatności",
+    "privacyOptionsError": "Nie udało się otworzyć ustawień prywatności. Spróbuj ponownie później.",
+    "error": "Błąd"
   },
   "quizSettingsModal": {
     "title": "Ustawienia testu"

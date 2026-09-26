@@ -349,10 +349,42 @@ export function VerbQuizScreen(): React.JSX.Element {
     () => getSettings().speakOnCorrectAnswer,
   );
 
-  const handleToggleSpeakOnCorrectAnswer = useCallback((value: boolean) => {
-    setSpeakOnCorrectAnswer(value);
-    updateSettings({ speakOnCorrectAnswer: value });
-  }, []);
+  const resolvedQuizType = useMemo(
+    () =>
+      resolveQuizType(
+        isSmartQuiz,
+        isCheckpoint,
+        isCategoryQuiz,
+        Boolean(prefixLevelId || isPrefixCheckpoint),
+        Boolean(conjugationLevelId || isConjugationQuiz),
+        isVerbFormsQuiz,
+        isPrepositionQuiz,
+      ),
+    [
+      isSmartQuiz,
+      isCheckpoint,
+      isCategoryQuiz,
+      prefixLevelId,
+      isPrefixCheckpoint,
+      conjugationLevelId,
+      isConjugationQuiz,
+      isVerbFormsQuiz,
+      isPrepositionQuiz,
+    ],
+  );
+
+  const handleToggleSpeakOnCorrectAnswer = useCallback(
+    (value: boolean) => {
+      setSpeakOnCorrectAnswer(value);
+      updateSettings({ speakOnCorrectAnswer: value });
+      trackEvent('quiz_settings_toggled_in_quiz', {
+        setting_name: 'speakOnCorrectAnswer',
+        enabled: value,
+        quiz_type: resolvedQuizType,
+      });
+    },
+    [resolvedQuizType],
+  );
 
   const currentExercise = exercises[currentExerciseIndex] || exercises[0];
   const totalQuestions = exercises.length;
@@ -380,24 +412,20 @@ export function VerbQuizScreen(): React.JSX.Element {
   }, [status, pulseAnim, activeGapIndex]);
 
   useEffect(() => {
-    const isPrefixQuiz = Boolean(prefixLevelId || isPrefixCheckpoint);
-    const isConjugation = Boolean(conjugationLevelId || isConjugationQuiz);
-    const quizType = resolveQuizType(
-      isSmartQuiz,
-      isCheckpoint,
-      isCategoryQuiz,
-      isPrefixQuiz,
-      isConjugation,
-      isVerbFormsQuiz,
-    );
     trackEvent('quiz_started', {
-      quiz_type: quizType,
+      quiz_type: resolvedQuizType,
       infinitive,
       level,
       total_questions: exercises.length,
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  const questionStartTimeRef = useRef<number>(Date.now());
+
+  useEffect(() => {
+    questionStartTimeRef.current = Date.now();
+  }, [currentExerciseIndex]);
 
   const resultsRef = useRef<VerbQuizQuestionResult[]>([]);
   const canAdvanceRef = useRef(true);
@@ -564,6 +592,24 @@ export function VerbQuizScreen(): React.JSX.Element {
     isPrepositionQuiz,
   ]);
 
+  const handleSlotPress = useCallback(
+    (slotIndex: number) => {
+      if (status !== 'idle') return;
+
+      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+      soundService.playTapSound();
+
+      setActiveGapIndex(slotIndex);
+      setUserAnswers(prev => {
+        if (!prev[slotIndex]) return prev;
+        const next = [...prev];
+        next[slotIndex] = '';
+        return next;
+      });
+    },
+    [status],
+  );
+
   const handleScreenPress = useCallback(() => {
     if (status !== 'idle' && canAdvanceRef.current) {
       goToNextQuestion();
@@ -663,6 +709,16 @@ export function VerbQuizScreen(): React.JSX.Element {
       }
 
       const sentenceKey = `${currentExercise.verbCard.id || currentExercise.verbCard.infinitive}_${currentExercise.sentence.id}`;
+      const responseTimeMs = Date.now() - questionStartTimeRef.current;
+
+      trackEvent('quiz_question_answered', {
+        quiz_type: resolvedQuizType,
+        infinitive: currentExercise.verbCard?.infinitive || infinitive,
+        level: currentExercise.verbCard?.level || level,
+        question_index: currentExerciseIndex,
+        is_correct: allCorrect,
+        response_time_ms: responseTimeMs,
+      });
 
       if (allCorrect) {
         progressService.recordSentenceSuccess(sentenceKey);
@@ -688,6 +744,11 @@ export function VerbQuizScreen(): React.JSX.Element {
           const delay = process.env.NODE_ENV === 'test' ? 0 : 250;
           ttsTimeoutRef.current = setTimeout(() => {
             speechService.speak(sentenceGerman);
+            trackEvent('quiz_tts_played', {
+              quiz_type: resolvedQuizType,
+              infinitive: currentExercise.verbCard?.infinitive || infinitive,
+              trigger_type: 'auto',
+            });
             ttsTimeoutRef.current = null;
           }, delay);
         }
@@ -703,9 +764,57 @@ export function VerbQuizScreen(): React.JSX.Element {
 
         soundService.playIncorrectSound();
         Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);
+
+        let hintType:
+          | 'grammar'
+          | 'conjugation'
+          | 'principal_parts'
+          | 'auxiliary'
+          | 'prefix'
+          | 'verb_forms'
+          | 'preposition' = 'grammar';
+        if (currentExercise.type === 'preposition_fill') {
+          hintType = 'preposition';
+        } else if (currentExercise.type === 'verb_forms_fill') {
+          hintType = 'verb_forms';
+        } else if (currentExercise.type === 'conjugation_fill') {
+          hintType = 'conjugation';
+        } else if (currentExercise.type === 'prefix_dual_slot') {
+          hintType = 'prefix';
+        } else if (currentExercise.tense === 'Präsens') {
+          hintType = 'conjugation';
+        } else if (currentExercise.tense === 'Perfekt') {
+          const incorrectGapIndices = currentExercise.gaps
+            .map((gap, idx) => (nextAnswers[idx] !== gap.correctValue ? idx : -1))
+            .filter(idx => idx !== -1);
+          const isAuxiliaryError = incorrectGapIndices.some(idx => {
+            const gap = currentExercise.gaps[idx];
+            return gap && Boolean(AUXILIARY_DISTRACTORS_MAP[gap.correctValue.toLowerCase()]);
+          });
+          hintType = isAuxiliaryError ? 'auxiliary' : 'principal_parts';
+        } else if (currentExercise.tense === 'Präteritum') {
+          hintType = 'principal_parts';
+        }
+
+        trackEvent('quiz_hint_viewed', {
+          quiz_type: resolvedQuizType,
+          infinitive: currentExercise.verbCard?.infinitive || infinitive,
+          level: currentExercise.verbCard?.level || level,
+          hint_type: hintType,
+        });
       }
     },
-    [status, userAnswers, activeGapIndex, currentExercise, speakOnCorrectAnswer],
+    [
+      status,
+      userAnswers,
+      activeGapIndex,
+      currentExercise,
+      speakOnCorrectAnswer,
+      resolvedQuizType,
+      currentExerciseIndex,
+      infinitive,
+      level,
+    ],
   );
 
   const renderGrammarHint = useCallback(() => {
@@ -955,7 +1064,7 @@ export function VerbQuizScreen(): React.JSX.Element {
           userAnswers={userAnswers}
           status={status}
           pulseAnim={pulseAnim}
-          onSlotPress={setActiveGapIndex}
+          onSlotPress={handleSlotPress}
         />
       );
     }
@@ -967,7 +1076,7 @@ export function VerbQuizScreen(): React.JSX.Element {
           userAnswers={userAnswers}
           status={status}
           pulseAnim={pulseAnim}
-          onSlotPress={setActiveGapIndex}
+          onSlotPress={handleSlotPress}
         />
       );
     }
@@ -979,6 +1088,7 @@ export function VerbQuizScreen(): React.JSX.Element {
           userAnswers={userAnswers}
           status={status}
           pulseAnim={pulseAnim}
+          onSlotPress={handleSlotPress}
         />
       );
     }
@@ -989,6 +1099,7 @@ export function VerbQuizScreen(): React.JSX.Element {
         userAnswers={userAnswers}
         status={status}
         pulseAnim={pulseAnim}
+        onSlotPress={handleSlotPress}
       />
     );
   };
@@ -1207,16 +1318,14 @@ export function VerbQuizScreen(): React.JSX.Element {
               {renderExerciseContent()}
 
               {/* Translation Container inside Card */}
-              {currentExercise?.type !== 'verb_forms_fill' && (
-                <View style={styles.sentenceTranslationContainer}>
-                  <Ionicons name="language-outline" size={16} color={colors.textMuted} />
-                  <Text style={styles.sentenceTranslationText}>
-                    {currentExercise?.translation?.[languageCode] ||
-                      currentExercise?.translation?.en ||
-                      ''}
-                  </Text>
-                </View>
-              )}
+              <View style={styles.sentenceTranslationContainer}>
+                <Ionicons name="language-outline" size={16} color={colors.textMuted} />
+                <Text style={styles.sentenceTranslationText}>
+                  {currentExercise?.translation?.[languageCode] ||
+                    currentExercise?.translation?.en ||
+                    ''}
+                </Text>
+              </View>
             </View>
 
             {/* Unified Feedback Card shown on incorrect response */}

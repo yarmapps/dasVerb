@@ -3,7 +3,7 @@
     "name": "das Verb",
     "slug": "das-verb",
     "scheme": "dasverb",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "orientation": "portrait",
     "icon": "./assets/icons/base-icon.png",
     "userInterfaceStyle": "automatic",
@@ -24,7 +24,7 @@
         "ITSAppUsesNonExemptEncryption": false,
         "GADNativeAdValidatorEnabled": false
       },
-      "buildNumber": "4"
+      "buildNumber": "5"
     },
     "android": {
       "adaptiveIcon": {
@@ -38,7 +38,7 @@
       ],
       "package": "com.yarm.apps.dasverb",
       "googleServicesFile": "./google-services.json",
-      "versionCode": 4
+      "versionCode": 5
     },
     "web": {
       "bundler": "metro"
@@ -49,10 +49,17 @@
         {
           "ios": {
             "useFrameworks": "static"
+          },
+          "android": {
+            "useLegacyPackaging": true,
+            "enableMinifyInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true,
+            "extraProguardRules": "-dontwarn com.amazon.**\n-dontwarn com.unity3d.**\n-dontwarn com.google.ads.mediation.unity.**\n-keep class com.unity3d.ads.** { *; }\n-keep interface com.unity3d.ads.** { *; }\n-keep class com.google.ads.mediation.unity.** { *; }"
           }
         }
       ],
       "./plugins/withNonModularHeaders",
+      "./plugins/withUnityMediation",
       [
         "@react-native-firebase/app",
         {

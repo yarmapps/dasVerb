@@ -1,0 +1,505 @@
+{
+  "appUpdate": {
+    "title": "K dispozici je aktualizace",
+    "softMessage": "Pro nejlepší zážitek a nejnovější vylepšení si prosím aktualizujte aplikaci nyní.",
+    "forceMessage": "K pokračování v používání das Verb je vyžadována kritická aktualizace. Aktualizujte prosím nyní.",
+    "button": "Aktualizovat nyní",
+    "close": "Zavřít"
+  },
+  "debugScreen": {
+    "title": "Nabídka ladění",
+    "sectionState": "Shrnutí stavu aplikace",
+    "sectionDailyLimit": "Denní limit kvízů",
+    "sectionStreak": "Denní série",
+    "sectionSettings": "Nastavení a úložiště",
+    "sectionAppUpdate": "Dialog aktualizace aplikace",
+    "sectionReview": "Hodnocení v aplikaci",
+    "dailyQuizzes": "Dnes dokončené kvízy: {count} / {limit}",
+    "totalQuizzes": "Celkem dokončených kvízů: {count}",
+    "extraQuizzes": "Extra kvízy k dispozici: {count}",
+    "adGrants": "Odměny z reklam dnes: {count} / {limit}",
+    "streakSummary": "Aktuální série: {streak} dní (Nejlepší: {best})",
+    "resetDailyLimit": "Obnovit denní limit",
+    "grantExtraQuiz": "Udělit +1 extra kvíz",
+    "consumeQuiz": "Spotřebovat 1 denní kvíz",
+    "resetStreak": "Obnovit sérii",
+    "incrementStreak": "Zvýšit sérii (+1 den)",
+    "resetAllSettings": "Obnovit výchozí nastavení",
+    "triggerSoftUpdate": "Vyvolat mírnou aktualizaci (lze zavřít)",
+    "triggerForceUpdate": "Vyvolat nucenou aktualizaci (blokující)",
+    "resetUpdateState": "Obnovit stav aktualizace",
+    "triggerReview": "Vyvolat hodnocení v aplikaci (StoreReview)",
+    "resetReviewCooldown": "Obnovit časovač hodnocení",
+    "addCompletedQuizzes": "Přidat +5 dokončených kvízů",
+    "alertSuccess": "Úspěch",
+    "dailyLimitResetSuccess": "Denní limity kvízů byly obnoveny.",
+    "streakResetSuccess": "Data série byla obnovena.",
+    "settingsResetSuccess": "Všechna nastavení byla obnovena na výchozí hodnoty.",
+    "reviewTriggerSuccess": "Operační systém byl požádán o hodnocení obchodu.",
+    "reviewCooldownResetSuccess": "Časovač zobrazení hodnocení byl obnoven."
+  },
+  "navigation": {
+    "practice": "Procvičovat",
+    "dictionary": "Slovník"
+  },
+  "languageSelectorScreen": {
+    "title": "Jaký je váš mateřský jazyk?",
+    "continue": "Pokračovat"
+  },
+  "practiceScreen": {
+    "title": "Procvičování",
+    "subtitle": "Trénujte slovesa, časování a struktury vět",
+    "levelsButtonTitle": "Procvičovat slovesa",
+    "levelsButtonSubtitle": "Od nejběžnějších po vzácná pomocí Goetheho metody",
+    "featuredBadge": "Doporučeno",
+    "startNow": "Začít nyní",
+    "smartQuizBadge": "Chytré opakování",
+    "smartQuizTitle": "Chytrý algoritmus",
+    "smartQuizSubtitle": "Zaměřte se na své chyby a učte se 3x rychleji",
+    "prefixBannerBadge": "A1 – B2",
+    "prefixBannerTitle": "Slovesa s předponami",
+    "prefixBannerSubtitle": "Odloučitelné, neodloučitelné a obojí předpony",
+    "conjugationBannerTitle": "Trenér časování",
+    "conjugationBannerSubtitle": "Trénujte tvary sloves pro všechna zájmena v Präsens",
+    "verbFormsBannerTitle": "Nepravidelná slovesa",
+    "verbFormsBannerSubtitle": "Trénujte Infinitiv – Präteritum – Perfekt",
+    "prepositionsBannerTitle": "Slovesa s předložkami",
+    "prepositionsBannerSubtitle": "Ovládněte slovesné předložky a pády",
+    "adBadge": "Reklama",
+    "sectionModes": "Učit se podle režimu",
+    "sectionTopics": "Učit se podle tématu"
+  },
+  "categories": {
+    "sectionTitle": "Témata a kategorie",
+    "sectionSubtitle": "Procvičujte slovesa seskupená podle reálných situací",
+    "verbsCount": "sloves",
+    "movement": {
+      "title": "Pohyb a doprava",
+      "subtitle": "gehen, fahren, fliegen, ankommen..."
+    },
+    "communication": {
+      "title": "Komunikace a řeč",
+      "subtitle": "sprechen, sagen, fragen, antworten..."
+    },
+    "homeDaily": {
+      "title": "Každodenní život a domov",
+      "subtitle": "wohnen, schlafen, aufstehen, kochen..."
+    },
+    "foodDrink": {
+      "title": "Jídlo a restaurace",
+      "subtitle": "essen, trinken, bestellen, probieren..."
+    },
+    "workStudy": {
+      "title": "Práce a studium",
+      "subtitle": "arbeiten, lernen, studieren, schreiben..."
+    },
+    "shoppingMoney": {
+      "title": "Nakupování a peníze",
+      "subtitle": "kaufen, bezahlen, kosten, sparen..."
+    },
+    "thoughtsFeelings": {
+      "title": "Myšlenky a pocity",
+      "subtitle": "denken, glauben, fühlen, lieben..."
+    },
+    "leisureHobbies": {
+      "title": "Volný čas a koníčky",
+      "subtitle": "spielen, reisen, schwimmen, wandern..."
+    },
+    "health": {
+      "title": "Zdraví a pohoda",
+      "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    },
+    "natureEnvironment": {
+      "title": "Příroda a počasí",
+      "subtitle": "regnen, scheinen, wehen, blühen..."
+    },
+    "lawSociety": {
+      "title": "Zákon a společnost",
+      "subtitle": "wählen, regieren, entscheiden, verbieten..."
+    },
+    "relationsSocial": {
+      "title": "Vztahy a společnost",
+      "subtitle": "helfen, vertrauen, umarmen, begrüßen..."
+    },
+    "creationChange": {
+      "title": "Tvorba a změna",
+      "subtitle": "schaffen, verändern, umwandeln, entstehen..."
+    },
+    "travelTransport": {
+      "title": "Cestování a doprava",
+      "subtitle": "reisen, fahren, fliegen, einsteigen..."
+    },
+    "perceptionSenses": {
+      "title": "Vnímání a smysly",
+      "subtitle": "sehen, hören, riechen, schmecken..."
+    },
+    "digitalMedia": {
+      "title": "Technologie a média",
+      "subtitle": "installieren, speichern, löschen, senden..."
+    }
+  },
+  "dictionaryScreen": {
+    "title": "Slovník",
+    "searchPlaceholder": "Hledat slovesa...",
+    "emptySearch": "Nenalezena žádná slovesa",
+    "stammformen": "Základní tvary",
+    "infinitive": "Infinitiv",
+    "present3sg": "Präsens",
+    "praeteritum3sg": "Präteritum",
+    "perfekt": "Perfekt",
+    "conjugation": "Časování",
+    "person": "Osoba",
+    "present": "Präsens",
+    "praeteritum": "Präteritum",
+    "rektion": "Rektion & Kasus",
+    "imperative": "Imperativ",
+    "examples": "Příklady"
+  },
+  "settingsScreen": {
+    "title": "Nastavení",
+    "generalSection": "OBECNÉ",
+    "audioSection": "ZVUK",
+    "supportSection": "PODPORA",
+    "appLanguage": "Jazyk aplikace",
+    "theme": "Motiv",
+    "themeLight": "Světlý",
+    "themeDark": "Tmavý",
+    "themeSystem": "Systém",
+    "notifications": "Oznámení",
+    "soundEffects": "Zvukové efekty",
+    "speakOnCorrectAnswer": "Vyslovit správnou odpověď",
+    "voiceGender": "Hlas",
+    "voiceFemale": "Ženský",
+    "voiceMale": "Mužský",
+    "maleVoiceHint": "Chcete-li použít mužský německý hlas, nainstalujte si jej v Nastavení iOS → Zpřístupnění → Předčítání obsahu → Hlasy → Němčina.",
+    "contactUs": "Kontaktujte nás",
+    "subscriptionSection": "PŘEDPLATNÉ",
+    "manageSubscription": "Spravovat předplatné",
+    "rateApp": "Ohodnotit aplikaci",
+    "privacySettings": "Nastavení soukromí",
+    "privacyOptionsError": "Nepodařilo se otevřít nastavení soukromí. Zkuste to prosím znovu později.",
+    "error": "Chyba",
+    "privacyPolicy": "Zásady ochrany osobních údajů",
+    "termsOfService": "Podmínky služby",
+    "version": "Verze",
+    "notificationsPermissionRequiredTitle": "Povolit oznámení",
+    "notificationsPermissionRequiredMessage": "Abyste dostávali připomínky ke každodennímu cvičení a sérii, povolte prosím oznámení v nastavení vašeho zařízení.",
+    "openSettings": "Nastavení",
+    "cancel": "Zrušit",
+    "dataSection": "SPRÁVA DAT",
+    "resetProgress": "Obnovit pokrok učení",
+    "resetProgressTitle": "Obnovit pokrok učení?",
+    "resetProgressMessage": "Veškerý váš pokrok v učení úrovní sloves a předpon bude trvale smazán. Tuto akci nelze vrátit zpět.",
+    "resetProgressConfirm": "Obnovit pokrok",
+    "resetProgressSuccess": "Pokrok v učení byl obnoven.",
+    "resetSettings": "Obnovit nastavení aplikace",
+    "resetSettingsTitle": "Obnovit nastavení aplikace?",
+    "resetSettingsMessage": "Všechna nastavení zvuku, motivu a oznámení budou obnovena na výchozí hodnoty. Váš pokrok v učení bude zachován.",
+    "resetSettingsConfirm": "Obnovit nastavení",
+    "resetSettingsSuccess": "Nastavení bylo obnoveno na výchozí hodnoty.",
+    "resetSuccessTitle": "Hotovo"
+  },
+  "quizSettingsModal": {
+    "title": "Nastavení kvízu"
+  },
+  "verbsPracticeListScreen": {
+    "title": "Procvičování sloves",
+    "levelHeader": "ÚROVEŇ",
+    "verbCount": "sloves",
+    "uncompleted": "Nedokončeno",
+    "bronze": "Bronz",
+    "silver": "Stříbro",
+    "trophy": "Trofej",
+    "empty": "Nenalezena žádná slovesa",
+    "checkpointTitle": "Kontrolní kvíz",
+    "finalTestTitle": "Závěrečný test",
+    "finalTestTitleWithLevel": "Závěrečný test {level}",
+    "finalTestSubtitle": "Komplexní test s 20 otázkami pro tuto úroveň",
+    "categoryFinalTestSubtitle": "Komplexní test s 20 otázkami pro toto téma",
+    "checkpointSubtitle": "Slovesa {from} – {to}"
+  },
+  "prefixPracticeListScreen": {
+    "title": "Slovesa s předponami",
+    "levelNumber": "Úroveň {number}",
+    "checkpointTitle": "Kontrolní bod {level}",
+    "checkpointSubtitle": "Komplexní test s 20 otázkami pro tuto úroveň",
+    "subgroupSeparable": "Odloučitelné předpony",
+    "subgroupInseparable": "Neodloučitelné předpony",
+    "subgroupOpposites": "Páry protikladů",
+    "subgroupDual": "Obojí předpony"
+  },
+  "prefixPractice": {
+    "title": "Slovesa s předponami",
+    "levelTitle": "Úroveň {number}",
+    "checkpointTitle": "Kontrolní bod {level}"
+  },
+  "prefixGrammarHint": {
+    "separableTitle": "Odloučitelná předpona",
+    "inseparableTitle": "Neodloučitelná předpona",
+    "dualTitle": "Obojí předpona",
+    "separableRule": "V Präsens a Präteritum se odloučitelné předpony přesouvají na úplný konec věty.",
+    "inseparableRule": "Neodloučitelné předpony (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) se nikdy neoddělují od kořene slovesa.",
+    "dualRule": "Předpony jako über-, um-, unter-, durch- mohou být odloučitelné nebo neodloučitelné v závislosti na významu slovesa."
+  },
+  "conjugationPracticeListScreen": {
+    "title": "Trenér časování",
+    "levelNumber": "Úroveň {number}",
+    "checkpointTitle": "Kontrolní bod {number}",
+    "checkpointSubtitle": "Opakovací kvíz s 10 náhodnými slovesy",
+    "finalTestTitle": "Závěrečný test {level}",
+    "finalTestSubtitle": "Komplexní test s 15 slovesy pro tuto úroveň"
+  },
+  "conjugationPractice": {
+    "title": "Časování",
+    "levelTitle": "Úroveň {number}",
+    "checkpointNumberTitle": "Kontrolní bod {number}",
+    "finalTestTitle": "Závěrečný test {level}"
+  },
+  "conjugationGrammarHint": {
+    "ruleTag": "Změna samohlásky",
+    "eToIRule": "Změna samohlásky e → i ve 2. a 3. osobě jednotného čísla (du, er/sie/es).",
+    "eToIeRule": "Změna samohlásky e → ie ve 2. a 3. osobě jednotného čísla (du, er/sie/es).",
+    "aToAeRule": "Změna samohlásky a → ä ve 2. a 3. osobě jednotného čísla (du, er/sie/es).",
+    "auToAeuRule": "Změna samohlásky au → äu ve 2. a 3. osobě jednotného čísla (du, er/sie/es)."
+  },
+  "verbFormsPracticeListScreen": {
+    "title": "Nepravidelná slovesa",
+    "levelNumber": "Úroveň {number}",
+    "checkpointTitle": "Kontrolní bod {number}",
+    "checkpointSubtitle": "Opakovací kvíz s 10 náhodnými slovesy",
+    "finalTestTitle": "Závěrečný test {level}",
+    "finalTestSubtitle": "Komplexní test s 15 slovesy pro tuto úroveň"
+  },
+  "verbFormsPractice": {
+    "title": "Nepravidelná slovesa",
+    "levelTitle": "Úroveň {number}",
+    "checkpointNumberTitle": "Kontrolní bod {number}",
+    "finalTestTitle": "Závěrečný test {level}"
+  },
+  "verbFormsGrammarHint": {
+    "ruleTag": "Gramatické pravidlo",
+    "strongVerbTag": "Silné sloveso",
+    "weakVerbTag": "Slabé sloveso",
+    "mixedVerbTag": "Smíšené sloveso",
+    "irregularVerbTag": "Nepravidelné sloveso",
+    "modalVerbTag": "Způsobové sloveso",
+    "seinRule": "Slovesa pohybu, změny stavu a sein/bleiben tvoří Perfekt se „sein“.",
+    "habenRule": "Tranzitivní, zvratná a statická slovesa tvoří Perfekt s „haben“.",
+    "strongVerbRule": "Silná slovesa mění kořenovou samohlásku v Präteritum a končí na -en v Partizip II.",
+    "weakVerbRule": "Pravidelná slabá slovesa přidávají -te v Präteritum a ge-...-t v Partizip II.",
+    "mixedVerbRule": "Smíšená slovesa kombinují změnu samohlásky s pravidelnými koncovkami -te a -t."
+  },
+  "verbFormsExercise": {
+    "infinitive": "Infinitiv",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt"
+  },
+  "prepositionsPracticeListScreen": {
+    "title": "Slovesa s předložkami",
+    "levelNumber": "Úroveň {number}",
+    "checkpointTitle": "Kontrolní bod {number}",
+    "checkpointSubtitle": "Opakovací kvíz s 10 náhodnými slovesy",
+    "finalTestTitle": "Závěrečný test {level}",
+    "finalTestSubtitle": "Komplexní test s 15 slovesy pro tuto úroveň"
+  },
+  "prepositionsPractice": {
+    "title": "Předložky",
+    "levelTitle": "Úroveň {number}",
+    "checkpointNumberTitle": "Kontrolní bod {number}",
+    "finalTestTitle": "Závěrečný test {level}"
+  },
+  "prepositionGrammarHint": {
+    "ruleTag": "Pravidlo pro předložky",
+    "questionLabel": "Otázka:"
+  },
+  "verbQuizScreen": {
+    "title": "Procvičování",
+    "checkpointQuizTitle": "Kontrolní kvíz",
+    "smartQuizTitle": "Chytrý kvíz",
+    "conjugateVerbTitle": "Vyčasujte sloveso {verb}",
+    "prepositionTaskTitle": "Vyberte předložku",
+    "level": "Úroveň",
+    "check": "Zkontrolovat",
+    "continue": "Pokračovat",
+    "exercise": "Cvičení",
+    "correct": "Správně!",
+    "tryAgain": "Zkusit znovu",
+    "fillCard": "Vyplňte kartu",
+    "tapToContinue": "Klepnutím kamkoli pokračujte",
+    "correctAnswer": "Správná odpověď:",
+    "conjugationPräsens": "Časování v Präsens",
+    "principalParts": "Základní tvary",
+    "imperativeForms": "Tvary Imperativu",
+    "auxiliaryExplanationMovement": "Sloveso {verb} vyjadřuje pohyb nebo změnu stavu, proto tvoří Perfekt se sein ({form}).",
+    "auxiliaryExplanationGeneral": "Sloveso {verb} tvoří Perfekt s pomocným slovesem haben ({form})."
+  },
+  "quizResultsScreen": {
+    "title": "Výsledky",
+    "checkpointResultsTitle": "Výsledky kontrolního bodu",
+    "smartQuizResultsTitle": "Výsledky chytrého kvízu",
+    "canDoBetter": "Můžete to udělat lépe!",
+    "almostThere": "Skoro tam!",
+    "closeToPerfection": "Blízko k dokonalosti!",
+    "youDidIt": "Dokázali jste to!",
+    "nextLevel": "Další úroveň",
+    "tryAgain": "Zkusit znovu",
+    "verbsList": "Na seznam sloves",
+    "backToPractice": "Zpět k procvičování",
+    "scoreSummary": "{correct} z {total}",
+    "showCorrectAnswers": "Zobrazit správné odpovědi",
+    "showAllAnswers": "Zobrazit všechny odpovědi",
+    "showErrorsOnly": "Zobrazit pouze chyby"
+  },
+  "dailyQuizLimitModal": {
+    "title": "Pokračujte tak dál!",
+    "message": "Jste opravdu oddáni učení němčiny!",
+    "instructions": "Jak chcete pokračovat?",
+    "videoButton": "Sledovat reklamy",
+    "or": "nebo",
+    "premiumButtonWithTrial": "Zdarma neomezené úrovně\nna {daysLabel}",
+    "premiumButtonNoTrial": "Bez reklam",
+    "premiumButtonSubtitleWithTrial": "pak {yearlyPrice} / 3 měsíce (☕️ / měs.)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} / 3 měsíce (☕️ / měs.)",
+    "waitUntilTomorrow": "Počkat do zítřka",
+    "cancelAnytime": "Kdykoli zrušit"
+  },
+  "premiumSheets": {
+    "subscribeTitle": "Odemknout Premium",
+    "subscribeSubtitle": "Vylepšete své učení německých sloves pomocí pokročilých nástrojů.",
+    "subscribeNow": "Předplatit nyní",
+    "buyNow": "Koupit nyní",
+    "viewPlans": "Zobrazit plány",
+    "premiumFeaturesLabel": "PREMIUM FUNKCE",
+    "disclaimerAutoRenew": "Automaticky se obnovuje za {price}/{period}. Zrušte kdykoli v nastavení účtu.",
+    "disclaimerAutoRenewTrial": "Zdarma po dobu {trialDuration}, pak {price}/{period}. Zrušte kdykoli.",
+    "disclaimerOneTime": "Jednorázový nákup. Žádné opakované poplatky.",
+    "freeTrialDays": "{count}-denní zkušební verze zdarma",
+    "freeTrialWeeks": "{count}-týdenní zkušební verze zdarma",
+    "freeTrialMonths": "{count}-měsíční zkušební verze zdarma",
+    "freeTrialYears": "{count}-roční zkušební verze zdarma",
+    "trialUnit": {
+      "day": "dní",
+      "week": "týdnů",
+      "month": "měsíců",
+      "year": "let"
+    },
+    "periodMonth": "měsíc",
+    "periodYear": "rok",
+    "period3Months": "3 měsíce",
+    "period6Months": "6 měsíců",
+    "restorePurchases": "Obnovit nákupy",
+    "errorTitle": "Chyba",
+    "errorUnavailable": "Tento plán je momentálně nedostupný. Zkuste to prosím znovu později.",
+    "errorPurchase": "Nákup se nezdařil. Zkuste to prosím znovu.",
+    "errorRestore": "Obnovení se nezdařilo. Zkuste to prosím znovu.",
+    "restoreSuccessTitle": "Obnoveno!",
+    "restoreSuccessMessage": "Váš prémiový přístup byl obnoven.",
+    "restoreNothingTitle": "Nenalezeny žádné nákupy",
+    "restoreNothingMessage": "Nenašli jsme žádné předchozí nákupy k obnovení.",
+    "termsOfService": "Podmínky služby",
+    "privacyPolicy": "Zásady ochrany osobních údajů",
+    "plans": {
+      "monthlyLabel": "1 měsíc",
+      "monthlyPer": "Měsíčně",
+      "yearlyLabel": "12 měsíců",
+      "yearlyBadge": "NEJVÝHODNĚJŠÍ",
+      "perMonth": "{price}/měsíc",
+      "lifetimeLabel": "Doživotní",
+      "lifetimePer": "Zaplatit jednou",
+      "lifetimeBadge": "JEDNORÁZOVĚ",
+      "threeMonthLabel": "3 měsíce",
+      "sixMonthLabel": "6 měsíců",
+      "bestValueBadge": "NEJVÝHODNĚJŠÍ",
+      "popularBadge": "POPULÁRNÍ"
+    },
+    "features": {
+      "noAdsTitle": "Žádné reklamy",
+      "noAdsShort": "Žádné\nreklamy",
+      "noAdsDescription": "Zůstaňte soustředění a učte se bez rozptylování.",
+      "unlimitedQuizzesTitle": "Neomezené kvízy",
+      "unlimitedQuizzesShort": "Neomezené\nkvízy",
+      "unlimitedQuizzesDescription": "Procvičujte, kolik chcete, bez denních limitů.",
+      "allLevelsTitle": "Všechny úrovně odemčeny",
+      "allLevelsShort": "Všechny\núrovně",
+      "allLevelsDescription": "Okamžitý přístup ke všem úrovním sloves A1-B2 a kontrolním bodům.",
+      "smartQuizModeTitle": "Chytrý algoritmus",
+      "smartQuizModeShort": "Chytrý\nalgoritmus",
+      "smartQuizModeDescription": "Zaměřte se pouze na své chyby a učte se 3x rychleji!",
+      "naturalVoiceTitle": "Přirozený zvuk",
+      "naturalVoiceShort": "Přirozená\nněmčina",
+      "naturalVoiceDescription": "Poslouchejte slovesa a věty vyslovované přirozeným německým hlasem.",
+      "offlineModeTitle": "Procvičování offline",
+      "offlineModeShort": "Offline\nprocvičování",
+      "offlineModeDescription": "Procvičujte slovesa kdykoli a kdekoli bez připojení k internetu."
+    }
+  },
+  "notifications": {
+    "reminderTitle": "Čas na procvičování!",
+    "reminderBody": "Rychlá relace s německými slovesy a strukturou vět vám pomůže k jejich zvládnutí.",
+    "trialReminderTitle": "Vaše bezplatná zkušební verze brzy končí",
+    "trialReminderBody": "Využijte Premium naplno ještě dnes! Vaše zkušební verze končí za 24 hodin.",
+    "streakReminderTitle": "Nepřerušujte svou sérii! 🔥",
+    "streakReminderBody": "Dnes jste ještě neprocvičovali. Udělejte si rychlý 2minutový kvíz a udržte svou sérii!"
+  },
+  "firstOpenPaywall": {
+    "trialBadge": "3DENNÍ ZKUŠEBNÍ VERZE ZDARMA",
+    "title": "Vyzkoušejte Premium, než zaplatíte",
+    "subtitle": "Jak funguje vaše bezplatná zkušební verze.",
+    "cta": "Zahájit bezplatnou zkušební verzi",
+    "restore": "Obnovit nákupy",
+    "proceedLimited": "Pokračovat s omezenou verzí",
+    "priceYearlyWithCoffee": "{price}/rok, káva/měs.",
+    "price3MonthsWithCoffee": "Jen {price} na 3 měsíce — méně než káva měsíčně",
+    "disclaimer": "Automaticky se obnovuje za {price}/rok. Zrušte kdykoli v nastavení účtu.",
+    "disclaimerFallback": "Automaticky se obnovuje ročně. Zrušte kdykoli v nastavení.",
+    "priceWithTrial": "Zdarma po dobu {trialDuration}, pak {price}/rok",
+    "priceYearly": "{price}/rok",
+    "timeline": {
+      "today": {
+        "day": "Dnes",
+        "headline": "Odemkněte vše",
+        "benefits": {
+          "noAds": {
+            "title": "Učení 100% bez reklam",
+            "text": "Zůstaňte soustředěni na své cíle s čistým studijním zážitkem bez rozptylování."
+          },
+          "unlimitedQuizzes": {
+            "title": "Neomezené kvízy",
+            "text": "Procvičujte, kolik chcete, bez denních limitů a čekání."
+          },
+          "allLevels": {
+            "title": "Všechny úrovně A1–B2 odemčeny",
+            "text": "Okamžitý přístup ke všem kartám sloves, gramatickým kontrolním bodům a testům."
+          },
+          "smartQuizMode": {
+            "title": "Chytrá korekce chyb",
+            "text": "Zaměřte se na své osobní slabiny a ovládněte německá slovesa 3x rychleji."
+          },
+          "offlineMode": {
+            "title": "Procvičování offline",
+            "text": "Procvičujte německá slovesa kdykoli a kdekoli bez připojení k internetu."
+          }
+        }
+      },
+      "day2": {
+        "day": "Den 2",
+        "headline": "Připomínka zkušební verze",
+        "description": "Pošleme vám přátelskou připomínku před koncem vaší zkušební verze — žádná překvapení."
+      },
+      "day3": {
+        "day": "Den 3",
+        "headline": "Začíná 3měsíční přístup",
+        "description": "Vaše zkušební verze se převede na 3měsíční přístup. Zrušte kdykoli v nastavení."
+      }
+    }
+  },
+  "offlineModal": {
+    "title": "Vyžadován internet",
+    "message": "Přejděte na Premium, abyste mohli procvičovat offline kdykoli a kdekoli.",
+    "getPremium": "Získat Premium",
+    "retry": "Zkusit znovu",
+    "enableOffline": "Povolit offline",
+    "premiumButtonWithTrial": "Premium zdarma na {daysLabel}",
+    "premiumButtonNoTrial": "Získat Premium"
+  }
+}

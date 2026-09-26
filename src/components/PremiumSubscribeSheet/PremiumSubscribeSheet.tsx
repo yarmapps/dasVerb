@@ -25,7 +25,7 @@ import {
   restorePurchases,
   FreeTrialInfo,
 } from '../../services/revenueCatService';
-import { logAnalyticsEvent } from '../../services/analyticsService';
+import { trackEvent } from '../../services/analyticsService';
 import { createStyles, SELECTED_GRADIENT_COLORS } from './PremiumSubscribeSheet.styles';
 
 export interface PremiumSubscribeSheetProps {
@@ -38,7 +38,7 @@ export interface PremiumSubscribeSheetProps {
 const SCREEN_HEIGHT = Dimensions.get('window').height;
 
 /* ── Plan definitions ──────────────────────────────────────── */
-type PlanId = 'monthly' | 'threeMonth' | 'sixMonth' | 'yearly' | 'lifetime';
+type PlanId = 'monthly' | 'threeMonth' | 'sixMonth';
 
 interface Plan {
   id: PlanId;
@@ -126,6 +126,7 @@ export function PremiumSubscribeSheet({
   const [packages, setPackages] = useState<MappedPackages | null>(null);
   const [isLoadingPackages, setIsLoadingPackages] = useState(false);
   const [isPurchasing, setIsPurchasing] = useState(false);
+  const sheetOpenTimeRef = useRef<number>(0);
 
   // Animation for features auto-scroll marquee
   const containerWidth = useRef(0);
@@ -184,23 +185,23 @@ export function PremiumSubscribeSheet({
 
     if (distance < 1) {
       isMovingForward.current = !isMovingForward.current;
-      resumeTimer.current = setTimeout(startScrollAnimation, 1000);
+      resumeTimer.current = setTimeout(startScrollAnimation, 700);
       return;
     }
 
-    const duration = distance * 60;
+    const duration = distance * 40;
 
     animationRef.current = Animated.timing(autoScrollValue, {
       toValue: target,
       duration,
       useNativeDriver: true,
-      delay: currentScrollX.current === 0 || currentScrollX.current === maxScroll ? 1000 : 0,
+      delay: currentScrollX.current === 0 || currentScrollX.current === maxScroll ? 700 : 0,
     });
 
     animationRef.current.start(result => {
       if (result.finished) {
         isMovingForward.current = !isMovingForward.current;
-        resumeTimer.current = setTimeout(startScrollAnimation, 1000);
+        resumeTimer.current = setTimeout(startScrollAnimation, 700);
       }
     });
   }, [visible, autoScrollValue]);
@@ -218,7 +219,13 @@ export function PremiumSubscribeSheet({
       isClosing.current = false;
       setSelectedPlan('threeMonth');
       setIsPurchasing(false);
+      sheetOpenTimeRef.current = Date.now();
       loadPackages();
+
+      trackEvent('paywall_sheet_shown', {
+        source,
+      });
+      trackEvent('premium_sheet_shown', {});
 
       Animated.parallel([
         Animated.timing(translateY, {
@@ -236,17 +243,24 @@ export function PremiumSubscribeSheet({
       translateY.setValue(sheetHeightRef.current || SCREEN_HEIGHT);
       overlayOpacity.setValue(0);
       isClosing.current = false;
-      animationRef.current?.stop();
+      stopAnimation();
       autoScrollValue.setValue(0);
       currentScrollX.current = 0;
     }
-  }, [visible, overlayOpacity, translateY, loadPackages, autoScrollValue, source]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [visible, source]);
 
   const animateClose = () => {
     if (isClosing.current || isPurchasing) {
       return;
     }
     isClosing.current = true;
+    const timeSpent = Math.max(0, Math.round((Date.now() - sheetOpenTimeRef.current) / 1000));
+    trackEvent('paywall_sheet_dismissed', {
+      source,
+      time_spent_seconds: timeSpent,
+    });
+
     Animated.parallel([
       Animated.timing(translateY, {
         toValue: sheetHeightRef.current || SCREEN_HEIGHT,
@@ -276,7 +290,7 @@ export function PremiumSubscribeSheet({
   );
 
   const getPerMonthPrice = (plan: Plan): string | undefined => {
-    if (plan.id === 'monthly' || plan.id === 'lifetime') {
+    if (plan.id === 'monthly') {
       return undefined;
     }
     const mapped = packages?.[plan.id];
@@ -296,6 +310,16 @@ export function PremiumSubscribeSheet({
     },
     [packages],
   );
+
+  const handlePlanSelect = (plan: Plan) => {
+    setSelectedPlan(plan.id);
+    const trialInfo = getTrialInfo(plan);
+    trackEvent('paywall_plan_selected', {
+      plan_id: plan.id,
+      price: getPriceForPlan(plan),
+      has_free_trial: Boolean(trialInfo),
+    });
+  };
 
   const getTrialBadgeKey = (unit: FreeTrialInfo['unit']): string => {
     const keys: Record<FreeTrialInfo['unit'], string> = {
@@ -319,20 +343,41 @@ export function PremiumSubscribeSheet({
     }
 
     setIsPurchasing(true);
+    trackEvent('paywall_purchase_started', {
+      plan_id: selectedPlan,
+      source,
+    });
+
     try {
       const success = await purchasePackage(selectedPackage);
       if (success) {
-        logAnalyticsEvent('quiz_completed', {
-          verb_infinitive: 'premium_purchase_complete',
-          score: 100,
-          total_questions: 1,
-          time_spent_seconds: 0,
+        trackEvent('paywall_purchase_success', {
+          plan_id: selectedPlan,
+          source,
         });
+        trackEvent('premium_purchase_success', {});
         onPurchaseSuccess?.();
         animateClose();
       }
     } catch (error: unknown) {
       const errorMessage = error instanceof Error ? error.message : String(error);
+      const isUserCancelled =
+        errorMessage.toLowerCase().includes('cancel') ||
+        errorMessage.toLowerCase().includes('user cancelled');
+
+      if (isUserCancelled) {
+        trackEvent('paywall_purchase_cancelled', {
+          plan_id: selectedPlan,
+          source,
+        });
+      } else {
+        trackEvent('paywall_purchase_failed', {
+          plan_id: selectedPlan,
+          source,
+          error_message: errorMessage,
+        });
+      }
+
       Alert.alert(
         intl.formatMessage({ id: 'premiumSheets.errorTitle' }),
         errorMessage || intl.formatMessage({ id: 'premiumSheets.errorPurchase' }),
@@ -345,9 +390,12 @@ export function PremiumSubscribeSheet({
   /* ── Handle restore ──────────────────────────────────── */
   const handleRestore = async () => {
     setIsPurchasing(true);
+    trackEvent('paywall_restore_clicked', { source });
     try {
       const restored = await restorePurchases();
       if (restored) {
+        trackEvent('paywall_restore_success', { source });
+        trackEvent('premium_restore_success', {});
         Alert.alert(
           intl.formatMessage({ id: 'premiumSheets.restoreSuccessTitle' }),
           intl.formatMessage({ id: 'premiumSheets.restoreSuccessMessage' }),
@@ -355,6 +403,7 @@ export function PremiumSubscribeSheet({
         onPurchaseSuccess?.();
         animateClose();
       } else {
+        trackEvent('paywall_restore_empty', { source });
         Alert.alert(
           intl.formatMessage({ id: 'premiumSheets.restoreNothingTitle' }),
           intl.formatMessage({ id: 'premiumSheets.restoreNothingMessage' }),
@@ -376,18 +425,7 @@ export function PremiumSubscribeSheet({
     [selectedPlan],
   );
 
-  const ctaButtonText = useMemo(() => {
-    if (selectedPlan === 'lifetime') {
-      return intl.formatMessage({ id: 'premiumSheets.buyNow' });
-    }
-    return intl.formatMessage({ id: 'premiumSheets.subscribeNow' });
-  }, [intl, selectedPlan]);
-
   const disclaimerText = useMemo(() => {
-    if (selectedPlan === 'lifetime') {
-      return intl.formatMessage({ id: 'premiumSheets.disclaimerOneTime' });
-    }
-
     const trialInfo = getTrialInfo(selectedPlanConfig);
     const planPrice = getPriceForPlan(selectedPlanConfig);
     const getPeriodId = (id: PlanId): string => {
@@ -398,8 +436,6 @@ export function PremiumSubscribeSheet({
           return 'premiumSheets.period3Months';
         case 'sixMonth':
           return 'premiumSheets.period6Months';
-        case 'yearly':
-          return 'premiumSheets.periodYear';
         default:
           return 'premiumSheets.periodMonth';
       }
@@ -459,8 +495,7 @@ export function PremiumSubscribeSheet({
               onPress={animateClose}
               style={styles.closeButton}
               iconColor="rgba(255, 255, 255, 0.85)"
-              backgroundColor="rgba(255, 255, 255, 0.16)"
-              size={16}
+              backgroundColor="rgba(255, 255, 255, 0.10)"
             />
 
             {/* Restore button */}
@@ -513,7 +548,7 @@ export function PremiumSubscribeSheet({
                         isSelected && styles.planCardSelected,
                       ]}
                       activeOpacity={0.8}
-                      onPress={() => setSelectedPlan(plan.id)}
+                      onPress={() => handlePlanSelect(plan)}
                     >
                       {isSelected && (
                         <LinearGradient
@@ -660,7 +695,9 @@ export function PremiumSubscribeSheet({
                   <ActivityIndicator size="small" color={colors.premiumSecondarySurface} />
                 ) : (
                   <>
-                    <Text style={styles.ctaText}>{ctaButtonText}</Text>
+                    <Text style={styles.ctaText}>
+                      {intl.formatMessage({ id: 'premiumSheets.subscribeNow' })}
+                    </Text>
                     <FontAwesome5
                       name="arrow-right"
                       size={16}

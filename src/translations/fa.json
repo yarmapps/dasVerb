@@ -108,6 +108,34 @@
     "health": {
       "title": "سلامتی و تندرستی",
       "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    },
+    "natureEnvironment": {
+      "title": "طبیعت و آب و هوا",
+      "subtitle": "regnen, scheinen, wehen, blühen..."
+    },
+    "lawSociety": {
+      "title": "قانون و جامعه",
+      "subtitle": "wählen, regieren, entscheiden, verbieten..."
+    },
+    "relationsSocial": {
+      "title": "روابط و اجتماع",
+      "subtitle": "helfen, vertrauen, umarmen, begrüßen..."
+    },
+    "creationChange": {
+      "title": "ایجاد و تغییر",
+      "subtitle": "schaffen, verändern, umwandeln, entstehen..."
+    },
+    "travelTransport": {
+      "title": "سفر و حمل و نقل",
+      "subtitle": "reisen, fahren, fliegen, einsteigen..."
+    },
+    "perceptionSenses": {
+      "title": "درک و حواس",
+      "subtitle": "sehen, hören, riechen, schmecken..."
+    },
+    "digitalMedia": {
+      "title": "فناوری و رسانه",
+      "subtitle": "installieren, speichern, löschen, senden..."
     }
   },
   "dictionaryScreen": {
@@ -166,7 +194,10 @@
     "resetSettingsMessage": "تمام تنظیمات صدا، تم و اعلان‌ها به حالت پیش‌فرض برمی‌گردند. پیشرفت یادگیری شما حفظ خواهد شد.",
     "resetSettingsConfirm": "بازنشانی تنظیمات",
     "resetSettingsSuccess": "تنظیمات به حالت پیش‌فرض بازگردانده شدند.",
-    "resetSuccessTitle": "انجام شد"
+    "resetSuccessTitle": "انجام شد",
+    "privacySettings": "تنظیمات حریم خصوصی",
+    "privacyOptionsError": "باز کردن تنظیمات حریم خصوصی ناموفق بود. لطفاً بعداً دوباره امتحان کنید.",
+    "error": "خطا"
   },
   "quizSettingsModal": {
     "title": "تنظیمات آزمون"

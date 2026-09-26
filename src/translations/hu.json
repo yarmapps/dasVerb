@@ -1,0 +1,505 @@
+{
+  "appUpdate": {
+    "title": "Frissítés elérhető",
+    "softMessage": "A legjobb élmény és a legújabb fejlesztések érdekében kérjük, frissítse az alkalmazást.",
+    "forceMessage": "Egy kritikus frissítés szükséges a das Verb használatának folytatásához. Kérjük, frissítsen most.",
+    "button": "Frissítés most",
+    "close": "Bezárás"
+  },
+  "debugScreen": {
+    "title": "Hibakereső menü",
+    "sectionState": "Alkalmazás állapota",
+    "sectionDailyLimit": "Napi kvíz limit",
+    "sectionStreak": "Napi sorozat",
+    "sectionSettings": "Beállítások és tárhely",
+    "sectionAppUpdate": "Alkalmazás frissítése",
+    "sectionReview": "Alkalmazáson belüli értékelés",
+    "dailyQuizzes": "Ma befejezett kvízek: {count} / {limit}",
+    "totalQuizzes": "Összes befejezett kvíz: {count}",
+    "extraQuizzes": "Elérhető extra kvízek: {count}",
+    "adGrants": "Mai reklám megtekintések: {count} / {limit}",
+    "streakSummary": "Jelenlegi sorozat: {streak} nap (Legjobb: {best})",
+    "resetDailyLimit": "Napi limit visszaállítása",
+    "grantExtraQuiz": "+1 extra kvíz adása",
+    "consumeQuiz": "1 napi kvíz felhasználása",
+    "resetStreak": "Sorozat visszaállítása",
+    "incrementStreak": "Sorozat növelése (+1 nap)",
+    "resetAllSettings": "Beállítások alaphelyzetbe állítása",
+    "triggerSoftUpdate": "Opcionális frissítés indítása",
+    "triggerForceUpdate": "Kötelező frissítés indítása",
+    "resetUpdateState": "Frissítési állapot visszaállítása",
+    "triggerReview": "Értékelés kérése (StoreReview)",
+    "resetReviewCooldown": "Értékelési időzítő visszaállítása",
+    "addCompletedQuizzes": "+5 befejezett kvíz hozzáadása",
+    "alertSuccess": "Siker",
+    "dailyLimitResetSuccess": "A napi kvíz limitek visszaállítva.",
+    "streakResetSuccess": "A sorozat adatai visszaállítva.",
+    "settingsResetSuccess": "Minden beállítás alaphelyzetbe állítva.",
+    "reviewTriggerSuccess": "Értékelés kérése elküldve.",
+    "reviewCooldownResetSuccess": "Értékelési kérési időzítő visszaállítva."
+  },
+  "navigation": {
+    "practice": "Gyakorlás",
+    "dictionary": "Szótár"
+  },
+  "languageSelectorScreen": {
+    "title": "Mi az anyanyelve?",
+    "continue": "Folytatás"
+  },
+  "practiceScreen": {
+    "title": "Gyakorlás",
+    "subtitle": "Gyakorolja az igéket, ragozást és mondatszerkezeteket",
+    "levelsButtonTitle": "Igék gyakorlása",
+    "levelsButtonSubtitle": "A leggyakoribbtól a ritkábbig a Goethe-módszerrel",
+    "featuredBadge": "Kiemelt",
+    "startNow": "Kezdés most",
+    "smartQuizBadge": "Okos ismétlés",
+    "smartQuizTitle": "Okos algoritmus",
+    "smartQuizSubtitle": "Fókuszáljon a hibáira és tanuljon 3x gyorsabban",
+    "prefixBannerBadge": "A1 – B2",
+    "prefixBannerTitle": "Igék igekötővel",
+    "prefixBannerSubtitle": "Elváló, nem elváló és kettős igekötők",
+    "conjugationBannerTitle": "Ragozás tréner",
+    "conjugationBannerSubtitle": "Gyakorolja az igealakokat minden névmással (Präsens)",
+    "verbFormsBannerTitle": "Rendhagyó igék",
+    "verbFormsBannerSubtitle": "Gyakorolja: Infinitiv – Präteritum – Perfekt",
+    "prepositionsBannerTitle": "Igék elöljárószóval",
+    "prepositionsBannerSubtitle": "Sajátítsa el az elöljárószavakat és az eseteket",
+    "adBadge": "Hirdetés",
+    "sectionModes": "Tanulás mód szerint",
+    "sectionTopics": "Tanulás téma szerint"
+  },
+  "categories": {
+    "sectionTitle": "Témák és kategóriák",
+    "sectionSubtitle": "Gyakorolja az igéket valós élethelyzetek szerint csoportosítva",
+    "verbsCount": "ige",
+    "movement": {
+      "title": "Mozgás és közlekedés",
+      "subtitle": "gehen, fahren, fliegen, ankommen..."
+    },
+    "communication": {
+      "title": "Kommunikáció és beszéd",
+      "subtitle": "sprechen, sagen, fragen, antworten..."
+    },
+    "homeDaily": {
+      "title": "Mindennapi élet és otthon",
+      "subtitle": "wohnen, schlafen, aufstehen, kochen..."
+    },
+    "foodDrink": {
+      "title": "Étel és éttermek",
+      "subtitle": "essen, trinken, bestellen, probieren..."
+    },
+    "workStudy": {
+      "title": "Munka és tanulás",
+      "subtitle": "arbeiten, lernen, studieren, schreiben..."
+    },
+    "shoppingMoney": {
+      "title": "Vásárlás és pénz",
+      "subtitle": "kaufen, bezahlen, kosten, sparen..."
+    },
+    "thoughtsFeelings": {
+      "title": "Gondolatok és érzések",
+      "subtitle": "denken, glauben, fühlen, lieben..."
+    },
+    "leisureHobbies": {
+      "title": "Szabadidő és hobbik",
+      "subtitle": "spielen, reisen, schwimmen, wandern..."
+    },
+    "health": {
+      "title": "Egészség és jóllét",
+      "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    },
+    "natureEnvironment": {
+      "title": "Természet és időjárás",
+      "subtitle": "regnen, scheinen, wehen, blühen..."
+    },
+    "lawSociety": {
+      "title": "Társadalom és jog",
+      "subtitle": "wählen, regieren, entscheiden, verbieten..."
+    },
+    "relationsSocial": {
+      "title": "Kapcsolatok és társadalom",
+      "subtitle": "helfen, vertrauen, umarmen, begrüßen..."
+    },
+    "creationChange": {
+      "title": "Teremtés és változás",
+      "subtitle": "schaffen, verändern, umwandeln, entstehen..."
+    },
+    "travelTransport": {
+      "title": "Utazás és közlekedés",
+      "subtitle": "reisen, fahren, fliegen, einsteigen..."
+    },
+    "perceptionSenses": {
+      "title": "Érzékelés és érzékszervek",
+      "subtitle": "sehen, hören, riechen, schmecken..."
+    },
+    "digitalMedia": {
+      "title": "Technológia és média",
+      "subtitle": "installieren, speichern, löschen, senden..."
+    }
+  },
+  "dictionaryScreen": {
+    "title": "Szótár",
+    "searchPlaceholder": "Igék keresése...",
+    "emptySearch": "Nincs találat",
+    "stammformen": "Szótári alakok",
+    "infinitive": "Infinitiv",
+    "present3sg": "Präsens",
+    "praeteritum3sg": "Präteritum",
+    "perfekt": "Perfekt",
+    "conjugation": "Ragozás",
+    "person": "Személy",
+    "present": "Präsens",
+    "praeteritum": "Präteritum",
+    "rektion": "Rektion & Kasus",
+    "imperative": "Imperativ",
+    "examples": "Példák"
+  },
+  "settingsScreen": {
+    "title": "Beállítások",
+    "generalSection": "ÁLTALÁNOS",
+    "audioSection": "HANG",
+    "supportSection": "TÁMOGATÁS",
+    "appLanguage": "Alkalmazás nyelve",
+    "theme": "Téma",
+    "themeLight": "Világos",
+    "themeDark": "Sötét",
+    "themeSystem": "Rendszer",
+    "notifications": "Értesítések",
+    "soundEffects": "Hangeffektusok",
+    "speakOnCorrectAnswer": "Helyes válasz kiejtése",
+    "voiceGender": "Hang",
+    "voiceFemale": "Női",
+    "voiceMale": "Férfi",
+    "maleVoiceHint": "A német férfihang használatához telepítsen egyet az iOS Beállítások → Kisegítő lehetőségek → Felolvasott tartalom → Hangok → Német menüpontban.",
+    "contactUs": "Kapcsolat",
+    "subscriptionSection": "ELŐFIZETÉS",
+    "manageSubscription": "Előfizetés kezelése",
+    "rateApp": "Alkalmazás értékelése",
+    "privacySettings": "Adatvédelmi beállítások",
+    "privacyOptionsError": "Nem sikerült megnyitni az adatvédelmi beállításokat. Kérjük, próbálja újra később.",
+    "error": "Hiba",
+    "privacyPolicy": "Adatvédelmi irányelvek",
+    "termsOfService": "Szolgáltatási feltételek",
+    "version": "Verzió",
+    "notificationsPermissionRequiredTitle": "Értesítések engedélyezése",
+    "notificationsPermissionRequiredMessage": "A napi gyakorlási emlékeztetők fogadásához kérjük, engedélyezze az értesítéseket az eszköz beállításaiban.",
+    "openSettings": "Beállítások",
+    "cancel": "Mégse",
+    "dataSection": "ADATKEZELÉS",
+    "resetProgress": "Tanulási folyamat törlése",
+    "resetProgressTitle": "Törli a tanulási folyamatot?",
+    "resetProgressMessage": "Minden igével és igekötővel kapcsolatos tanulási eredménye véglegesen törlődik. Ezt a műveletet nem lehet visszavonni.",
+    "resetProgressConfirm": "Folyamat törlése",
+    "resetProgressSuccess": "A tanulási folyamat törölve.",
+    "resetSettings": "Alkalmazás beállításainak alaphelyzetbe állítása",
+    "resetSettingsTitle": "Alkalmazás beállításainak alaphelyzetbe állítása?",
+    "resetSettingsMessage": "Minden hang-, téma- és értesítési beállítás visszaáll az alapértelmezett értékre. A tanulási folyamat megmarad.",
+    "resetSettingsConfirm": "Beállítások visszaállítása",
+    "resetSettingsSuccess": "A beállítások alaphelyzetbe álltak.",
+    "resetSuccessTitle": "Kész"
+  },
+  "quizSettingsModal": {
+    "title": "Kvíz beállításai"
+  },
+  "verbsPracticeListScreen": {
+    "title": "Igegyakorlás",
+    "levelHeader": "SZINT",
+    "verbCount": "ige",
+    "uncompleted": "Nincs befejezve",
+    "bronze": "Bronz",
+    "silver": "Ezüst",
+    "trophy": "Trófea",
+    "empty": "Nincs találat",
+    "checkpointTitle": "Ellenőrző kvíz",
+    "finalTestTitle": "Záróvizsga",
+    "finalTestTitleWithLevel": "Záróvizsga {level}",
+    "finalTestSubtitle": "Átfogó 20 kérdéses teszt ezen a szinten",
+    "categoryFinalTestSubtitle": "Átfogó 20 kérdéses teszt ebben a témában",
+    "checkpointSubtitle": "Igék {from} – {to}"
+  },
+  "prefixPracticeListScreen": {
+    "title": "Igék igekötővel",
+    "levelNumber": "{number}. szint",
+    "checkpointTitle": "Ellenőrző kvíz {level}",
+    "checkpointSubtitle": "Átfogó 20 kérdéses teszt ezen a szinten",
+    "subgroupSeparable": "Elváló igekötők",
+    "subgroupInseparable": "Nem elváló igekötők",
+    "subgroupOpposites": "Ellentétpárok",
+    "subgroupDual": "Kettős igekötők"
+  },
+  "prefixPractice": {
+    "title": "Igék igekötővel",
+    "levelTitle": "{number}. szint",
+    "checkpointTitle": "Ellenőrző kvíz {level}"
+  },
+  "prefixGrammarHint": {
+    "separableTitle": "Elváló igekötő",
+    "inseparableTitle": "Nem elváló igekötő",
+    "dualTitle": "Kettős igekötő",
+    "separableRule": "Präsens és Präteritum alakban az elváló igekötő a mondat legvégére kerül.",
+    "inseparableRule": "A nem elváló igekötők (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) soha nem válnak el az igetőtől.",
+    "dualRule": "Az olyan igekötők, mint az über-, um-, unter-, durch- jelentéstől függően elválóak vagy nem elválóak is lehetnek."
+  },
+  "conjugationPracticeListScreen": {
+    "title": "Ragozás tréner",
+    "levelNumber": "{number}. szint",
+    "checkpointTitle": "Ellenőrző kvíz {number}",
+    "checkpointSubtitle": "Ismétlő kvíz 10 véletlenszerű igével",
+    "finalTestTitle": "Záróvizsga {level}",
+    "finalTestSubtitle": "Átfogó 15 igés teszt ezen a szinten"
+  },
+  "conjugationPractice": {
+    "title": "Ragozás",
+    "levelTitle": "{number}. szint",
+    "checkpointNumberTitle": "Ellenőrző kvíz {number}",
+    "finalTestTitle": "Záróvizsga {level}"
+  },
+  "conjugationGrammarHint": {
+    "ruleTag": "Tőhangváltás",
+    "eToIRule": "e → i hangzóváltás egyes szám 2. és 3. személyben (du, er/sie/es).",
+    "eToIeRule": "e → ie hangzóváltás egyes szám 2. és 3. személyben (du, er/sie/es).",
+    "aToAeRule": "a → ä hangzóváltás egyes szám 2. és 3. személyben (du, er/sie/es).",
+    "auToAeuRule": "au → äu hangzóváltás egyes szám 2. és 3. személyben (du, er/sie/es)."
+  },
+  "verbFormsPracticeListScreen": {
+    "title": "Rendhagyó igék",
+    "levelNumber": "{number}. szint",
+    "checkpointTitle": "Ellenőrző kvíz {number}",
+    "checkpointSubtitle": "Ismétlő kvíz 10 véletlenszerű igével",
+    "finalTestTitle": "Záróvizsga {level}",
+    "finalTestSubtitle": "Átfogó 15 igés teszt ezen a szinten"
+  },
+  "verbFormsPractice": {
+    "title": "Rendhagyó igék",
+    "levelTitle": "{number}. szint",
+    "checkpointNumberTitle": "Ellenőrző kvíz {number}",
+    "finalTestTitle": "Záróvizsga {level}"
+  },
+  "verbFormsGrammarHint": {
+    "ruleTag": "Nyelvtan",
+    "strongVerbTag": "Erős ige",
+    "weakVerbTag": "Gyenge ige",
+    "mixedVerbTag": "Vegyes ige",
+    "irregularVerbTag": "Rendhagyó ige",
+    "modalVerbTag": "Módbeli segédige",
+    "seinRule": "A mozgást, állapotváltozást kifejező igék és a sein/bleiben a «sein» segédigével képzik a Perfekt-et.",
+    "habenRule": "A tárgyas, visszaható és állapotot kifejező igék a «haben» segédigével képzik a Perfekt-et.",
+    "strongVerbRule": "Az erős igék tőhangja megváltozik Präteritum-ban, a Partizip II alakjuk pedig -en-re végződik.",
+    "weakVerbRule": "A szabályos gyenge igék -te végződést kapnak Präteritum-ban, és ge-...-t a Partizip II alakban.",
+    "mixedVerbRule": "A vegyes igék egyesítik a tőhangváltást a szabályos -te és -t végződésekkel."
+  },
+  "verbFormsExercise": {
+    "infinitive": "Infinitiv",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt"
+  },
+  "prepositionsPracticeListScreen": {
+    "title": "Igék elöljárószóval",
+    "levelNumber": "{number}. szint",
+    "checkpointTitle": "Ellenőrző kvíz {number}",
+    "checkpointSubtitle": "Ismétlő kvíz 10 véletlenszerű igével",
+    "finalTestTitle": "Záróvizsga {level}",
+    "finalTestSubtitle": "Átfogó 15 igés teszt ezen a szinten"
+  },
+  "prepositionsPractice": {
+    "title": "Elöljárószavak",
+    "levelTitle": "{number}. szint",
+    "checkpointNumberTitle": "Ellenőrző kvíz {number}",
+    "finalTestTitle": "Záróvizsga {level}"
+  },
+  "prepositionGrammarHint": {
+    "ruleTag": "Elöljárószó",
+    "questionLabel": "Kérdés:"
+  },
+  "verbQuizScreen": {
+    "title": "Gyakorlás",
+    "checkpointQuizTitle": "Ellenőrző kvíz",
+    "smartQuizTitle": "Okos kvíz",
+    "conjugateVerbTitle": "Ragozza a(z) {verb} igét",
+    "prepositionTaskTitle": "Válassza ki az elöljárószót",
+    "level": "Szint",
+    "check": "Ellenőrzés",
+    "continue": "Folytatás",
+    "exercise": "Gyakorlat",
+    "correct": "Helyes!",
+    "tryAgain": "Próbálja újra",
+    "fillCard": "Töltse ki a kártyát",
+    "tapToContinue": "Érintse meg a folytatáshoz",
+    "correctAnswer": "Helyes válasz:",
+    "conjugationPräsens": "Ragozás (Präsens)",
+    "principalParts": "Szótári alakok",
+    "imperativeForms": "Felszólító mód (Imperativ)",
+    "auxiliaryExplanationMovement": "A(z) {verb} ige mozgást vagy állapotváltozást fejez ki, ezért a Perfekt alakot a sein ({form}) segédigével képzi.",
+    "auxiliaryExplanationGeneral": "A(z) {verb} ige a Perfekt alakot a haben ({form}) segédigével képzi."
+  },
+  "quizResultsScreen": {
+    "title": "Eredmények",
+    "checkpointResultsTitle": "Ellenőrző kvíz eredményei",
+    "smartQuizResultsTitle": "Okos kvíz eredményei",
+    "canDoBetter": "Ezt jobban is tudja!",
+    "almostThere": "Majdnem megvan!",
+    "closeToPerfection": "Nagyon közel a tökéleteshez!",
+    "youDidIt": "Megcsinálta!",
+    "nextLevel": "Következő szint",
+    "tryAgain": "Próbálja újra",
+    "verbsList": "Igék listája",
+    "backToPractice": "Vissza a gyakorláshoz",
+    "scoreSummary": "{correct} / {total}",
+    "showCorrectAnswers": "Helyes válaszok mutatása",
+    "showAllAnswers": "Összes válasz mutatása",
+    "showErrorsOnly": "Csak a hibák mutatása"
+  },
+  "dailyQuizLimitModal": {
+    "title": "Csak így tovább!",
+    "message": "Igazán elkötelezett a némettanulás iránt!",
+    "instructions": "Hogyan szeretné folytatni?",
+    "videoButton": "Reklámok megtekintése",
+    "or": "vagy",
+    "premiumButtonWithTrial": "Ingyenes, korlátlan szintek\n{daysLabel} idejére",
+    "premiumButtonNoTrial": "Reklámmentesítés",
+    "premiumButtonSubtitleWithTrial": "aztán {yearlyPrice} / 3 hónap (☕️ / hó)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} / 3 hónap (☕️ / hó)",
+    "waitUntilTomorrow": "Várakozás holnapig",
+    "cancelAnytime": "Bármikor lemondható"
+  },
+  "premiumSheets": {
+    "subscribeTitle": "Prémium feloldása",
+    "subscribeSubtitle": "Turbózza fel a német igék tanulását fejlett eszközökkel.",
+    "subscribeNow": "Előfizetés most",
+    "buyNow": "Vásárlás most",
+    "viewPlans": "Csomagok megtekintése",
+    "premiumFeaturesLabel": "PRÉMIUM FUNKCIÓK",
+    "disclaimerAutoRenew": "Automatikusan megújul ({price}/{period}). Bármikor lemondható a fiókbeállításokban.",
+    "disclaimerAutoRenewTrial": "Ingyenes {trialDuration} ideig, utána {price}/{period}. Bármikor lemondható.",
+    "disclaimerOneTime": "Egyszeri vásárlás. Nincs ismétlődő díj.",
+    "freeTrialDays": "{count} napos ingyenes próba",
+    "freeTrialWeeks": "{count} hetes ingyenes próba",
+    "freeTrialMonths": "{count} hónapos ingyenes próba",
+    "freeTrialYears": "{count} éves ingyenes próba",
+    "trialUnit": {
+      "day": "nap",
+      "week": "hét",
+      "month": "hónap",
+      "year": "év"
+    },
+    "periodMonth": "hónap",
+    "periodYear": "év",
+    "period3Months": "3 hónap",
+    "period6Months": "6 hónap",
+    "restorePurchases": "Vásárlások visszaállítása",
+    "errorTitle": "Hiba",
+    "errorUnavailable": "Ez a csomag jelenleg nem érhető el. Kérjük, próbálja újra később.",
+    "errorPurchase": "A vásárlás sikertelen. Kérjük, próbálja újra.",
+    "errorRestore": "A visszaállítás sikertelen. Kérjük, próbálja újra.",
+    "restoreSuccessTitle": "Visszaállítva!",
+    "restoreSuccessMessage": "A prémium hozzáférése vissza lett állítva.",
+    "restoreNothingTitle": "Nincs találat",
+    "restoreNothingMessage": "Nem találtunk korábbi vásárlásokat a visszaállításhoz.",
+    "termsOfService": "Szolgáltatási feltételek",
+    "privacyPolicy": "Adatvédelmi irányelvek",
+    "plans": {
+      "monthlyLabel": "1 Hónap",
+      "monthlyPer": "Havonta",
+      "yearlyLabel": "12 Hónap",
+      "yearlyBadge": "LEGJOBB ÁR",
+      "perMonth": "{price}/hónap",
+      "lifetimeLabel": "Örökre",
+      "lifetimePer": "Egyszeri díj",
+      "lifetimeBadge": "EGYSZERI",
+      "threeMonthLabel": "3 Hónap",
+      "sixMonthLabel": "6 Hónap",
+      "bestValueBadge": "LEGJOBB ÁR",
+      "popularBadge": "NÉPSZERŰ"
+    },
+    "features": {
+      "noAdsTitle": "Nincsenek reklámok",
+      "noAdsShort": "Nincs\nReklám",
+      "noAdsDescription": "Maradjon fókuszban, és tanuljon figyelemelterelés nélkül.",
+      "unlimitedQuizzesTitle": "Korlátlan kvízek",
+      "unlimitedQuizzesShort": "Korlátlan\nKvíz",
+      "unlimitedQuizzesDescription": "Gyakoroljon annyit, amennyit csak akar, napi limitek nélkül.",
+      "allLevelsTitle": "Minden szint feloldva",
+      "allLevelsShort": "Minden\nSzint",
+      "allLevelsDescription": "Azonnali hozzáférés az összes A1-B2 ige szinthez és ellenőrző kvízhez.",
+      "smartQuizModeTitle": "Okos algoritmus",
+      "smartQuizModeShort": "Okos\nAlgoritmus",
+      "smartQuizModeDescription": "Fókuszáljon csak a hibáira, és tanuljon 3x gyorsabban!",
+      "naturalVoiceTitle": "Természetes hang",
+      "naturalVoiceShort": "Természetes\nNémet",
+      "naturalVoiceDescription": "Hallgassa az igék és mondatok kiejtését természetes német hangon.",
+      "offlineModeTitle": "Offline gyakorlás",
+      "offlineModeShort": "Offline\nGyakorlás",
+      "offlineModeDescription": "Gyakorolja a német igéket bármikor, bárhol, internetkapcsolat nélkül."
+    }
+  },
+  "notifications": {
+    "reminderTitle": "Itt az idő gyakorolni!",
+    "reminderBody": "Egy gyors tanulás a német igékkel és mondatszerkezetekkel segít az elsajátításukban.",
+    "trialReminderTitle": "Az ingyenes próbaidőszak hamarosan lejár",
+    "trialReminderBody": "Hozza ki a legtöbbet a Premiumból még ma! A próbaidőszak 24 óra múlva véget ér.",
+    "streakReminderTitle": "Ne szakítsa meg a sorozatot! 🔥",
+    "streakReminderBody": "Ma még nem gyakorolt. Töltsön ki egy 2 perces kvízt, hogy folytassa a sorozatát!"
+  },
+  "firstOpenPaywall": {
+    "trialBadge": "3 NAPOS INGYENES PRÓBA",
+    "title": "Próbálja ki a Premiumot fizetés előtt",
+    "subtitle": "Így működik az ingyenes próbaidőszak.",
+    "cta": "Ingyenes próbaidőszak indítása",
+    "restore": "Vásárlások visszaállítása",
+    "proceedLimited": "Folytatás a korlátozott verzióval",
+    "priceYearlyWithCoffee": "{price}/év, egy kávé/hó.",
+    "price3MonthsWithCoffee": "Csak {price} 3 hónapra — kevesebb, mint egy kávé havonta",
+    "disclaimer": "Automatikusan megújul ({price}/év). Bármikor lemondható a fiókbeállításokban.",
+    "disclaimerFallback": "Automatikusan megújul évente. Bármikor lemondható a beállításokban.",
+    "priceWithTrial": "Ingyenes {trialDuration} ideig, utána {price}/év",
+    "priceYearly": "{price}/év",
+    "timeline": {
+      "today": {
+        "day": "Ma",
+        "headline": "Minden feloldása",
+        "benefits": {
+          "noAds": {
+            "title": "100% Reklámmentes tanulás",
+            "text": "Fókuszáljon a céljaira letisztult, zavaró tényezőktől mentes környezetben."
+          },
+          "unlimitedQuizzes": {
+            "title": "Korlátlan kvízek",
+            "text": "Gyakoroljon annyit, amennyit csak akar, napi limitek és várakozás nélkül."
+          },
+          "allLevels": {
+            "title": "Minden A1–B2 szint feloldva",
+            "text": "Azonnali hozzáférés minden igekártyához, nyelvtani teszthez és vizsgához."
+          },
+          "smartQuizMode": {
+            "title": "Okos hibajavítás",
+            "text": "Fókuszáljon a személyes gyengeségeire, és sajátítsa el a német igéket 3x gyorsabban."
+          },
+          "offlineMode": {
+            "title": "Offline gyakorlás",
+            "text": "Gyakorolja a német igéket bármikor, bárhol, internetkapcsolat nélkül."
+          }
+        }
+      },
+      "day2": {
+        "day": "2. nap",
+        "headline": "Próbaidőszak emlékeztető",
+        "description": "Barátságos emlékeztetőt küldünk a próbaidőszak lejárta előtt — nincsenek meglepetések."
+      },
+      "day3": {
+        "day": "3. nap",
+        "headline": "A 3 hónapos hozzáférés elindul",
+        "description": "A próbaidőszak 3 hónapos hozzáféréssé alakul át. Bármikor lemondható a beállításokban."
+      }
+    }
+  },
+  "offlineModal": {
+    "title": "Internetkapcsolat szükséges",
+    "message": "Frissítsen Premiumra, hogy bármikor és bárhol offline is gyakorolhasson.",
+    "getPremium": "Premium beszerzése",
+    "retry": "Újra",
+    "enableOffline": "Offline engedélyezése",
+    "premiumButtonWithTrial": "Ingyenes Premium {daysLabel} idejére",
+    "premiumButtonNoTrial": "Premium beszerzése"
+  }
+}

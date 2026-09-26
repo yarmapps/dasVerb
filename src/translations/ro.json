@@ -1,0 +1,505 @@
+{
+  "appUpdate": {
+    "title": "Actualizare disponibilă",
+    "softMessage": "Pentru a vă bucura de cea mai bună experiență și de cele mai noi îmbunătățiri, vă rugăm să actualizați aplicația acum.",
+    "forceMessage": "O actualizare critică este necesară pentru a continua să utilizați das Verb. Vă rugăm să actualizați acum.",
+    "button": "Actualizați acum",
+    "close": "Închide"
+  },
+  "debugScreen": {
+    "title": "Meniu Debug",
+    "sectionState": "Rezumatul stării aplicației",
+    "sectionDailyLimit": "Limita zilnică de teste",
+    "sectionStreak": "Serie zilnică",
+    "sectionSettings": "Setări & Stocare",
+    "sectionAppUpdate": "Dialog de actualizare a aplicației",
+    "sectionReview": "Recenzie & Evaluare în aplicație",
+    "dailyQuizzes": "Teste finalizate astăzi: {count} / {limit}",
+    "totalQuizzes": "Total teste finalizate: {count}",
+    "extraQuizzes": "Teste suplimentare disponibile: {count}",
+    "adGrants": "Permisiuni de reclame astăzi: {count} / {limit}",
+    "streakSummary": "Seria curentă: {streak} zile (Cea mai bună: {best})",
+    "resetDailyLimit": "Resetați limita zilnică",
+    "grantExtraQuiz": "Acordați +1 test suplimentar",
+    "consumeQuiz": "Consumați 1 test zilnic",
+    "resetStreak": "Resetați seria",
+    "incrementStreak": "Creșteți seria (+1 zi)",
+    "resetAllSettings": "Resetați setările la valorile implicite",
+    "triggerSoftUpdate": "Declanșați actualizare opțională (poate fi respinsă)",
+    "triggerForceUpdate": "Declanșați actualizare obligatorie (blocantă)",
+    "resetUpdateState": "Resetați starea actualizării",
+    "triggerReview": "Declanșați recenzia în aplicație (StoreReview)",
+    "resetReviewCooldown": "Resetați timpul de așteptare pentru recenzie",
+    "addCompletedQuizzes": "Adăugați +5 teste finalizate",
+    "alertSuccess": "Succes",
+    "dailyLimitResetSuccess": "Limitele zilnice de teste au fost resetate.",
+    "streakResetSuccess": "Datele seriei au fost resetate.",
+    "settingsResetSuccess": "Toate setările au fost resetate la valorile implicite.",
+    "reviewTriggerSuccess": "Recenzia în magazin a fost solicitată către OS.",
+    "reviewCooldownResetSuccess": "Timpul de așteptare pentru solicitarea recenziei a fost resetat."
+  },
+  "navigation": {
+    "practice": "Practică",
+    "dictionary": "Dicționar"
+  },
+  "languageSelectorScreen": {
+    "title": "Care este limba ta maternă?",
+    "continue": "Continuă"
+  },
+  "practiceScreen": {
+    "title": "Practică",
+    "subtitle": "Exersează verbe, conjugarea și structura propozițiilor",
+    "levelsButtonTitle": "Exersează verbe",
+    "levelsButtonSubtitle": "De la cele mai comune la cele mai rare folosind metoda Goethe",
+    "featuredBadge": "Recomandat",
+    "startNow": "Începe acum",
+    "smartQuizBadge": "Revizuire inteligentă",
+    "smartQuizTitle": "Algoritm inteligent",
+    "smartQuizSubtitle": "Concentrează-te pe greșelile tale și învață de 3x mai repede",
+    "prefixBannerBadge": "A1 – B2",
+    "prefixBannerTitle": "Verbe cu prefix",
+    "prefixBannerSubtitle": "Prefixe separabile, inseparabile și duale",
+    "conjugationBannerTitle": "Antrenor de conjugare",
+    "conjugationBannerSubtitle": "Exersează formele verbale pentru toate pronumele în Präsens",
+    "verbFormsBannerTitle": "Verbe neregulate",
+    "verbFormsBannerSubtitle": "Exersează Infinitiv – Präteritum – Perfekt",
+    "prepositionsBannerTitle": "Verbe cu prepoziții",
+    "prepositionsBannerSubtitle": "Stăpânește prepozițiile și cazurile verbelor",
+    "adBadge": "Reclamă",
+    "sectionModes": "Învață pe moduri",
+    "sectionTopics": "Învață pe teme"
+  },
+  "categories": {
+    "sectionTitle": "Teme și categorii",
+    "sectionSubtitle": "Exersează verbe grupate pe situații din viața reală",
+    "verbsCount": "verbe",
+    "movement": {
+      "title": "Mișcare și Transport",
+      "subtitle": "gehen, fahren, fliegen, ankommen..."
+    },
+    "communication": {
+      "title": "Comunicare și Vorbire",
+      "subtitle": "sprechen, sagen, fragen, antworten..."
+    },
+    "homeDaily": {
+      "title": "Viața de zi cu zi și Acasă",
+      "subtitle": "wohnen, schlafen, aufstehen, kochen..."
+    },
+    "foodDrink": {
+      "title": "Mâncare și Restaurante",
+      "subtitle": "essen, trinken, bestellen, probieren..."
+    },
+    "workStudy": {
+      "title": "Muncă și Studiu",
+      "subtitle": "arbeiten, lernen, studieren, schreiben..."
+    },
+    "shoppingMoney": {
+      "title": "Cumpărături și Bani",
+      "subtitle": "kaufen, bezahlen, kosten, sparen..."
+    },
+    "thoughtsFeelings": {
+      "title": "Gânduri și Sentimente",
+      "subtitle": "denken, glauben, fühlen, lieben..."
+    },
+    "leisureHobbies": {
+      "title": "Timp liber și Hobby-uri",
+      "subtitle": "spielen, reisen, schwimmen, wandern..."
+    },
+    "health": {
+      "title": "Sănătate și Bunăstare",
+      "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    },
+    "natureEnvironment": {
+      "title": "Natură și Vreme",
+      "subtitle": "regnen, scheinen, wehen, blühen..."
+    },
+    "lawSociety": {
+      "title": "Drept și Societate",
+      "subtitle": "wählen, regieren, entscheiden, verbieten..."
+    },
+    "relationsSocial": {
+      "title": "Relații și Social",
+      "subtitle": "helfen, vertrauen, umarmen, begrüßen..."
+    },
+    "creationChange": {
+      "title": "Creație și Schimbare",
+      "subtitle": "schaffen, verändern, umwandeln, entstehen..."
+    },
+    "travelTransport": {
+      "title": "Călătorii și Transport",
+      "subtitle": "reisen, fahren, fliegen, einsteigen..."
+    },
+    "perceptionSenses": {
+      "title": "Percepție și Simțuri",
+      "subtitle": "sehen, hören, riechen, schmecken..."
+    },
+    "digitalMedia": {
+      "title": "Tehnologie și Media",
+      "subtitle": "installieren, speichern, löschen, senden..."
+    }
+  },
+  "dictionaryScreen": {
+    "title": "Dicționar",
+    "searchPlaceholder": "Caută verbe...",
+    "emptySearch": "Nu au fost găsite verbe",
+    "stammformen": "Forme principale",
+    "infinitive": "Infinitiv",
+    "present3sg": "Präsens",
+    "praeteritum3sg": "Präteritum",
+    "perfekt": "Perfekt",
+    "conjugation": "Conjugare",
+    "person": "Persoană",
+    "present": "Präsens",
+    "praeteritum": "Präteritum",
+    "rektion": "Rektion & Kasus",
+    "imperative": "Imperativ",
+    "examples": "Exemple"
+  },
+  "settingsScreen": {
+    "title": "Setări",
+    "generalSection": "GENERAL",
+    "audioSection": "AUDIO",
+    "supportSection": "SUPORT",
+    "appLanguage": "Limba aplicației",
+    "theme": "Temă",
+    "themeLight": "Luminoasă",
+    "themeDark": "Întunecată",
+    "themeSystem": "Sistem",
+    "notifications": "Notificări",
+    "soundEffects": "Efecte sonore",
+    "speakOnCorrectAnswer": "Pronunță răspunsul corect",
+    "voiceGender": "Voce",
+    "voiceFemale": "Femeie",
+    "voiceMale": "Bărbat",
+    "maleVoiceHint": "Pentru a utiliza o voce germană masculină, instalați una în Configurări iOS → Accesibilitate → Conținut rostit → Voci → Germană.",
+    "contactUs": "Contactează-ne",
+    "subscriptionSection": "ABONAMENT",
+    "manageSubscription": "Gestionează abonamentul",
+    "rateApp": "Evaluează aplicația",
+    "privacySettings": "Setări de confidențialitate",
+    "privacyOptionsError": "Nu am putut deschide setările de confidențialitate. Vă rugăm să încercați din nou mai târziu.",
+    "error": "Eroare",
+    "privacyPolicy": "Politica de confidențialitate",
+    "termsOfService": "Termeni și condiții",
+    "version": "Versiune",
+    "notificationsPermissionRequiredTitle": "Activează notificările",
+    "notificationsPermissionRequiredMessage": "Pentru a primi mementouri zilnice de exersare și despre seria ta, te rugăm să activezi notificările în setările dispozitivului tău.",
+    "openSettings": "Setări",
+    "cancel": "Anulează",
+    "dataSection": "GESTIONAREA DATELOR",
+    "resetProgress": "Resetează progresul de învățare",
+    "resetProgressTitle": "Resetați progresul de învățare?",
+    "resetProgressMessage": "Tot progresul tău de învățare a verbelor și nivelurilor cu prefixe va fi șters definitiv. Această acțiune nu poate fi anulată.",
+    "resetProgressConfirm": "Resetează progresul",
+    "resetProgressSuccess": "Progresul de învățare a fost resetat.",
+    "resetSettings": "Resetează setările aplicației",
+    "resetSettingsTitle": "Resetați setările aplicației?",
+    "resetSettingsMessage": "Toate setările de sunet, temă și notificări vor fi restabilite la valorile implicite. Progresul tău de învățare va fi păstrat.",
+    "resetSettingsConfirm": "Resetează setările",
+    "resetSettingsSuccess": "Setările au fost resetate la valorile implicite.",
+    "resetSuccessTitle": "Gata"
+  },
+  "quizSettingsModal": {
+    "title": "Setări Test"
+  },
+  "verbsPracticeListScreen": {
+    "title": "Exersare Verbe",
+    "levelHeader": "NIVEL",
+    "verbCount": "verbe",
+    "uncompleted": "Nefinalizat",
+    "bronze": "Bronz",
+    "silver": "Argint",
+    "trophy": "Trofeu",
+    "empty": "Nu au fost găsite verbe",
+    "checkpointTitle": "Test de verificare",
+    "finalTestTitle": "Test final",
+    "finalTestTitleWithLevel": "Test final {level}",
+    "finalTestSubtitle": "Test cuprinzător de 20 de întrebări pentru acest nivel",
+    "categoryFinalTestSubtitle": "Test cuprinzător de 20 de întrebări pentru această temă",
+    "checkpointSubtitle": "Verbele {from} – {to}"
+  },
+  "prefixPracticeListScreen": {
+    "title": "Verbe cu prefix",
+    "levelNumber": "Nivel {number}",
+    "checkpointTitle": "Verificare {level}",
+    "checkpointSubtitle": "Test cuprinzător de 20 de întrebări pentru acest nivel",
+    "subgroupSeparable": "Prefixe separabile",
+    "subgroupInseparable": "Prefixe inseparabile",
+    "subgroupOpposites": "Perechi opuse",
+    "subgroupDual": "Prefixe duale"
+  },
+  "prefixPractice": {
+    "title": "Verbe cu prefix",
+    "levelTitle": "Nivel {number}",
+    "checkpointTitle": "Verificare {level}"
+  },
+  "prefixGrammarHint": {
+    "separableTitle": "Prefix separabil",
+    "inseparableTitle": "Prefix inseparabil",
+    "dualTitle": "Prefix dual",
+    "separableRule": "În Präsens și Präteritum, prefixele separabile se mută la sfârșitul propoziției.",
+    "inseparableRule": "Prefixele inseparabile (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) nu se separă niciodată de rădăcina verbului.",
+    "dualRule": "Prefixele precum über-, um-, unter-, durch- pot fi separabile sau inseparabile în funcție de sensul verbului."
+  },
+  "conjugationPracticeListScreen": {
+    "title": "Antrenor de conjugare",
+    "levelNumber": "Nivel {number}",
+    "checkpointTitle": "Verificare {number}",
+    "checkpointSubtitle": "Test de revizuire cu 10 verbe aleatorii",
+    "finalTestTitle": "Test final {level}",
+    "finalTestSubtitle": "Test cuprinzător de 15 verbe pentru acest nivel"
+  },
+  "conjugationPractice": {
+    "title": "Conjugare",
+    "levelTitle": "Nivel {number}",
+    "checkpointNumberTitle": "Verificare {number}",
+    "finalTestTitle": "Test final {level}"
+  },
+  "conjugationGrammarHint": {
+    "ruleTag": "Schimbarea vocalei",
+    "eToIRule": "e → i schimbarea vocalei la persoana a 2-a și a 3-a singular (du, er/sie/es).",
+    "eToIeRule": "e → ie schimbarea vocalei la persoana a 2-a și a 3-a singular (du, er/sie/es).",
+    "aToAeRule": "a → ä schimbarea vocalei la persoana a 2-a și a 3-a singular (du, er/sie/es).",
+    "auToAeuRule": "au → äu schimbarea vocalei la persoana a 2-a și a 3-a singular (du, er/sie/es)."
+  },
+  "verbFormsPracticeListScreen": {
+    "title": "Verbe neregulate",
+    "levelNumber": "Nivel {number}",
+    "checkpointTitle": "Verificare {number}",
+    "checkpointSubtitle": "Test de revizuire cu 10 verbe aleatorii",
+    "finalTestTitle": "Test final {level}",
+    "finalTestSubtitle": "Test cuprinzător de 15 verbe pentru acest nivel"
+  },
+  "verbFormsPractice": {
+    "title": "Verbe neregulate",
+    "levelTitle": "Nivel {number}",
+    "checkpointNumberTitle": "Verificare {number}",
+    "finalTestTitle": "Test final {level}"
+  },
+  "verbFormsGrammarHint": {
+    "ruleTag": "Regulă de gramatică",
+    "strongVerbTag": "Verb tare",
+    "weakVerbTag": "Verb slab",
+    "mixedVerbTag": "Verb mixt",
+    "irregularVerbTag": "Verb neregulat",
+    "modalVerbTag": "Verb modal",
+    "seinRule": "Verbele de mișcare, de schimbare a stării și sein/bleiben formează Perfekt cu «sein».",
+    "habenRule": "Verbele tranzitive, reflexive și statice formează Perfekt cu «haben».",
+    "strongVerbRule": "Verbele tari schimbă vocala din rădăcină în Präteritum și se termină în -en în Partizip II.",
+    "weakVerbRule": "Verbele slabe regulate adaugă -te în Präteritum și ge-...-t în Partizip II.",
+    "mixedVerbRule": "Verbele mixte combină o schimbare a vocalei cu terminațiile regulate -te și -t."
+  },
+  "verbFormsExercise": {
+    "infinitive": "Infinitiv",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt"
+  },
+  "prepositionsPracticeListScreen": {
+    "title": "Verbe cu prepoziții",
+    "levelNumber": "Nivel {number}",
+    "checkpointTitle": "Verificare {number}",
+    "checkpointSubtitle": "Test de revizuire cu 10 verbe aleatorii",
+    "finalTestTitle": "Test final {level}",
+    "finalTestSubtitle": "Test cuprinzător de 15 verbe pentru acest nivel"
+  },
+  "prepositionsPractice": {
+    "title": "Prepoziții",
+    "levelTitle": "Nivel {number}",
+    "checkpointNumberTitle": "Verificare {number}",
+    "finalTestTitle": "Test final {level}"
+  },
+  "prepositionGrammarHint": {
+    "ruleTag": "Regula prepoziției",
+    "questionLabel": "Întrebare:"
+  },
+  "verbQuizScreen": {
+    "title": "Practică",
+    "checkpointQuizTitle": "Test de verificare",
+    "smartQuizTitle": "Test inteligent",
+    "conjugateVerbTitle": "Conjugă verbul {verb}",
+    "prepositionTaskTitle": "Alege prepoziția",
+    "level": "Nivel",
+    "check": "Verifică",
+    "continue": "Continuă",
+    "exercise": "Exercițiu",
+    "correct": "Corect!",
+    "tryAgain": "Încearcă din nou",
+    "fillCard": "Completează cardul",
+    "tapToContinue": "Atinge oriunde pentru a continua",
+    "correctAnswer": "Răspuns corect:",
+    "conjugationPräsens": "Conjugare în Präsens",
+    "principalParts": "Forme principale",
+    "imperativeForms": "Forme de Imperativ",
+    "auxiliaryExplanationMovement": "Verbul {verb} exprimă mișcare sau o schimbare de stare, așadar formează Perfekt cu sein ({form}).",
+    "auxiliaryExplanationGeneral": "Verbul {verb} formează Perfekt cu verbul auxiliar haben ({form})."
+  },
+  "quizResultsScreen": {
+    "title": "Rezultate",
+    "checkpointResultsTitle": "Rezultate verificare",
+    "smartQuizResultsTitle": "Rezultate test inteligent",
+    "canDoBetter": "Se poate și mai bine!",
+    "almostThere": "Aproape ai reușit!",
+    "closeToPerfection": "Aproape de perfecțiune!",
+    "youDidIt": "Ai reușit!",
+    "nextLevel": "Nivelul următor",
+    "tryAgain": "Încearcă din nou",
+    "verbsList": "Către lista de verbe",
+    "backToPractice": "Înapoi la Practică",
+    "scoreSummary": "{correct} din {total}",
+    "showCorrectAnswers": "Arată răspunsurile corecte",
+    "showAllAnswers": "Arată toate răspunsurile",
+    "showErrorsOnly": "Arată doar greșelile"
+  },
+  "dailyQuizLimitModal": {
+    "title": "Ține-o tot așa!",
+    "message": "Ești foarte dedicat învățării limbii germane!",
+    "instructions": "Cum dorești să continui?",
+    "videoButton": "Urmărește reclame",
+    "or": "sau",
+    "premiumButtonWithTrial": "Niveluri nelimitate gratuite\npentru {daysLabel}",
+    "premiumButtonNoTrial": "Fără reclame",
+    "premiumButtonSubtitleWithTrial": "apoi {yearlyPrice} / 3 luni (☕️ / lună)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} / 3 luni (☕️ / lună)",
+    "waitUntilTomorrow": "Așteaptă până mâine",
+    "cancelAnytime": "Anulează oricând"
+  },
+  "premiumSheets": {
+    "subscribeTitle": "Deblochează Premium",
+    "subscribeSubtitle": "Accelerează-ți învățarea verbelor germane cu instrumente avansate.",
+    "subscribeNow": "Abonează-te acum",
+    "buyNow": "Cumpără acum",
+    "viewPlans": "Vezi planurile",
+    "premiumFeaturesLabel": "FUNCȚII PREMIUM",
+    "disclaimerAutoRenew": "Se reînnoiește automat la {price}/{period}. Anulează oricând din setările contului.",
+    "disclaimerAutoRenewTrial": "Gratuit pentru {trialDuration}, apoi {price}/{period}. Anulează oricând.",
+    "disclaimerOneTime": "Achiziție unică. Fără plăți recurente.",
+    "freeTrialDays": "probă gratuită de {count} zile",
+    "freeTrialWeeks": "probă gratuită de {count} săptămâni",
+    "freeTrialMonths": "probă gratuită de {count} luni",
+    "freeTrialYears": "probă gratuită de {count} ani",
+    "trialUnit": {
+      "day": "zile",
+      "week": "săptămâni",
+      "month": "luni",
+      "year": "ani"
+    },
+    "periodMonth": "lună",
+    "periodYear": "an",
+    "period3Months": "3 luni",
+    "period6Months": "6 luni",
+    "restorePurchases": "Restaurează achizițiile",
+    "errorTitle": "Eroare",
+    "errorUnavailable": "Acest plan este momentan indisponibil. Vă rugăm să încercați din nou mai târziu.",
+    "errorPurchase": "Achiziția a eșuat. Vă rugăm să încercați din nou.",
+    "errorRestore": "Restaurarea a eșuat. Vă rugăm să încercați din nou.",
+    "restoreSuccessTitle": "Restaurat!",
+    "restoreSuccessMessage": "Accesul tău premium a fost restaurat.",
+    "restoreNothingTitle": "Nu s-au găsit achiziții",
+    "restoreNothingMessage": "Nu am putut găsi nicio achiziție anterioară de restaurat.",
+    "termsOfService": "Termeni și condiții",
+    "privacyPolicy": "Politica de confidențialitate",
+    "plans": {
+      "monthlyLabel": "1 Lună",
+      "monthlyPer": "Lunar",
+      "yearlyLabel": "12 Luni",
+      "yearlyBadge": "CEL MAI BUN PREȚ",
+      "perMonth": "{price}/lună",
+      "lifetimeLabel": "Pe viață",
+      "lifetimePer": "Plătești o dată",
+      "lifetimeBadge": "O SINGURĂ DATĂ",
+      "threeMonthLabel": "3 Luni",
+      "sixMonthLabel": "6 Luni",
+      "bestValueBadge": "CEL MAI BUN PREȚ",
+      "popularBadge": "POPULAR"
+    },
+    "features": {
+      "noAdsTitle": "Zero Reclame",
+      "noAdsShort": "Zero\nReclame",
+      "noAdsDescription": "Rămâi concentrat și învață fără distrageri.",
+      "unlimitedQuizzesTitle": "Teste Nelimitate",
+      "unlimitedQuizzesShort": "Teste\nNelimitate",
+      "unlimitedQuizzesDescription": "Exersează oricât de mult vrei fără limite zilnice.",
+      "allLevelsTitle": "Toate Nivelurile Deblocate",
+      "allLevelsShort": "Toate\nNivelurile",
+      "allLevelsDescription": "Acces instantaneu la toate nivelurile de verbe A1-B2 și la teste.",
+      "smartQuizModeTitle": "Algoritm Inteligent",
+      "smartQuizModeShort": "Algoritm\nInteligent",
+      "smartQuizModeDescription": "Concentrează-te doar pe greșelile tale și învață de 3x mai repede!",
+      "naturalVoiceTitle": "Audio Natural",
+      "naturalVoiceShort": "Germană\nNaturală",
+      "naturalVoiceDescription": "Auzi verbele și propozițiile pronunțate cu o voce germană naturală.",
+      "offlineModeTitle": "Exersare Offline",
+      "offlineModeShort": "Exersare\nOffline",
+      "offlineModeDescription": "Exersează verbe oricând, oriunde, fără o conexiune la internet."
+    }
+  },
+  "notifications": {
+    "reminderTitle": "Timpul pentru exersare!",
+    "reminderBody": "O scurtă sesiune cu verbe germane și structuri de propoziții te va ajuta să le stăpânești.",
+    "trialReminderTitle": "Proba ta gratuită se încheie curând",
+    "trialReminderBody": "Profită la maxim de Premium astăzi! Proba ta se încheie în 24 de ore.",
+    "streakReminderTitle": "Nu-ți întrerupe seria! 🔥",
+    "streakReminderBody": "Nu ai exersat astăzi. Fă un test rapid de 2 minute pentru a-ți menține seria!"
+  },
+  "firstOpenPaywall": {
+    "trialBadge": "PROBĂ GRATUITĂ 3 ZILE",
+    "title": "Încearcă Premium înainte să plătești",
+    "subtitle": "Cum funcționează proba ta gratuită.",
+    "cta": "Începe proba gratuită",
+    "restore": "Restaurează achizițiile",
+    "proceedLimited": "Continuă cu versiunea limitată",
+    "priceYearlyWithCoffee": "{price}/an, o cafea/lună.",
+    "price3MonthsWithCoffee": "Doar {price} pentru 3 luni — mai puțin decât o cafea pe lună",
+    "disclaimer": "Se reînnoiește automat la {price}/an. Anulează oricând din setările contului.",
+    "disclaimerFallback": "Se reînnoiește automat anual. Anulează oricând din setări.",
+    "priceWithTrial": "Gratuit pentru {trialDuration}, apoi {price}/an",
+    "priceYearly": "{price}/an",
+    "timeline": {
+      "today": {
+        "day": "Astăzi",
+        "headline": "Deblochează Totul",
+        "benefits": {
+          "noAds": {
+            "title": "Învățare 100% Fără Reclame",
+            "text": "Concentrează-te pe obiectivele tale cu o experiență de studiu curată, cu zero distrageri."
+          },
+          "unlimitedQuizzes": {
+            "title": "Teste Nelimitate",
+            "text": "Exersează oricât de mult vrei fără limite zilnice sau așteptare."
+          },
+          "allLevels": {
+            "title": "Toate Nivelurile A1–B2 Deblocate",
+            "text": "Acces instantaneu la toate cardurile de verbe, teste de gramatică și verificări."
+          },
+          "smartQuizMode": {
+            "title": "Corectare Inteligentă a Erorilor",
+            "text": "Vizează punctele tale slabe pentru a stăpâni verbele germane de 3x mai repede."
+          },
+          "offlineMode": {
+            "title": "Exersare Offline",
+            "text": "Exersează verbe germane oricând, oriunde, fără o conexiune la internet."
+          }
+        }
+      },
+      "day2": {
+        "day": "Ziua 2",
+        "headline": "Memento pentru probă",
+        "description": "Îți vom trimite un memento prietenos înainte ca proba ta să se încheie — fără surprize."
+      },
+      "day3": {
+        "day": "Ziua 3",
+        "headline": "Accesul pe 3 Luni Începe",
+        "description": "Proba ta se transformă în acces pe 3 luni. Anulează oricând din setări."
+      }
+    }
+  },
+  "offlineModal": {
+    "title": "Internet Necesar",
+    "message": "Fă upgrade la Premium pentru a exersa offline oricând, oriunde.",
+    "getPremium": "Obține Premium",
+    "retry": "Reîncearcă",
+    "enableOffline": "Activează Offline",
+    "premiumButtonWithTrial": "Premium Gratuit pentru {daysLabel}",
+    "premiumButtonNoTrial": "Obține Premium"
+  }
+}

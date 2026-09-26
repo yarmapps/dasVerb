@@ -1,4 +1,5 @@
 import React from 'react';
+import { Animated } from 'react-native';
 import { render, fireEvent } from '@testing-library/react-native';
 import { IntlProvider } from 'react-intl';
 import { ScreenHeader } from '../components/ScreenHeader/ScreenHeader';
@@ -8,6 +9,9 @@ import { SmartQuizCard } from '../components/SmartQuizCard/SmartQuizCard';
 import { VerbCardDetails } from '../components/VerbCardDetails/VerbCardDetails';
 import { AnimatedCheckmark } from '../components/AnimatedCheckmark/AnimatedCheckmark';
 import { AnimatedRewardCircle } from '../components/AnimatedRewardCircle/AnimatedRewardCircle';
+import { SentenceFillExercise } from '../components/SentenceFillExercise/SentenceFillExercise';
+import { PrefixDualSlotExercise } from '../components/PrefixDualSlotExercise/PrefixDualSlotExercise';
+import { QuizExercise } from '../services/quizGeneratorService';
 import { ThemeProvider } from '../context/ThemeContext';
 import { getMessages } from '../services/intlService';
 import { VerbCard } from '../../docs/verb.types';
@@ -261,6 +265,87 @@ describe('UI Components Suite', () => {
 
       fireEvent.press(getByTestId('smart-quiz-card'));
       expect(handlePress).toHaveBeenCalledTimes(1);
+    });
+  });
+
+  describe('Slot Interaction in SentenceFillExercise and PrefixDualSlotExercise', () => {
+    it('should call onSlotPress when tapping a slot in SentenceFillExercise', () => {
+      const handleSlotPress = jest.fn();
+      const mockExercise = {
+        id: 'ex1',
+        type: 'sentence_fill' as const,
+        label: 'Präsens',
+        tense: 'Präsens',
+        translation: {},
+        verbCard: {} as VerbCard,
+        sentence: { id: 's1', tense: 'Präsens', german: 'Ich rufe an.', translation: {} },
+        segments: [{ text: 'Ich' }, { gapIndex: 0 }, { text: 'an.' }],
+        gaps: [{ id: 'g0', correctValue: 'rufe', options: ['rufe', 'rufst'] }],
+        distractors: [],
+      };
+
+      const { getByTestId } = render(
+        <TestWrapper>
+          <SentenceFillExercise
+            exercise={mockExercise as QuizExercise}
+            activeGapIndex={0}
+            userAnswers={['rufe']}
+            status="idle"
+            pulseAnim={new Animated.Value(1)}
+            onSlotPress={handleSlotPress}
+          />
+        </TestWrapper>,
+      );
+
+      const slotTouch = getByTestId('gap-slot-touch-0');
+      fireEvent.press(slotTouch);
+      expect(handleSlotPress).toHaveBeenCalledWith(0);
+    });
+
+    it('should call onSlotPress when tapping a slot in PrefixDualSlotExercise', () => {
+      const handleSlotPress = jest.fn();
+      const mockExercise = {
+        id: 'ex2',
+        type: 'prefix_dual_slot' as const,
+        label: 'Präsens',
+        tense: 'Präsens',
+        translation: {},
+        verbCard: {} as VerbCard,
+        sentence: { id: 's1', tense: 'Präsens', german: 'Ich rufe heute an.', translation: {} },
+        segments: [
+          { text: 'Ich' },
+          { gapIndex: 0 },
+          { text: 'heute' },
+          { gapIndex: 1 },
+          { text: '.' },
+        ],
+        gaps: [
+          { id: 'g0', correctValue: 'rufe', options: ['rufe', 'rufst'] },
+          { id: 'g1', correctValue: 'an', options: ['an', 'auf'] },
+        ],
+        distractors: [],
+      };
+
+      const { getByTestId } = render(
+        <TestWrapper>
+          <PrefixDualSlotExercise
+            exercise={mockExercise as QuizExercise}
+            activeGapIndex={1}
+            userAnswers={['rufe', 'an']}
+            status="idle"
+            pulseAnim={new Animated.Value(1)}
+            onSlotPress={handleSlotPress}
+          />
+        </TestWrapper>,
+      );
+
+      const slotTouch0 = getByTestId('prefix-gap-slot-touch-0');
+      fireEvent.press(slotTouch0);
+      expect(handleSlotPress).toHaveBeenCalledWith(0);
+
+      const slotTouch1 = getByTestId('prefix-gap-slot-touch-1');
+      fireEvent.press(slotTouch1);
+      expect(handleSlotPress).toHaveBeenCalledWith(1);
     });
   });
 });

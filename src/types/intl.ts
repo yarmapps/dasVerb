@@ -1,13 +1,24 @@
 export type SupportedLocales =
   | 'en'
+  | 'de'
   | 'es'
   | 'fr'
   | 'it'
-  | 'pl'
   | 'pt'
+  | 'nl'
+  | 'pl'
+  | 'cs'
+  | 'sk'
+  | 'sl'
+  | 'hr'
+  | 'hu'
+  | 'ro'
+  | 'el'
   | 'ru'
-  | 'tr'
   | 'uk'
+  | 'tr'
+  | 'vi'
+  | 'id'
   | 'ar'
   | 'fa';
 
@@ -519,14 +530,25 @@ export interface LanguageOption {
 
 export const LANGUAGES: LanguageOption[] = [
   { code: 'en', name: 'English', flag: '🇺🇸' },
+  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
   { code: 'es', name: 'Español', flag: '🇪🇸' },
   { code: 'fr', name: 'Français', flag: '🇫🇷' },
   { code: 'it', name: 'Italiano', flag: '🇮🇹' },
-  { code: 'pl', name: 'Polski', flag: '🇵🇱' },
   { code: 'pt', name: 'Português', flag: '🇧🇷' },
+  { code: 'nl', name: 'Nederlands', flag: '🇳🇱' },
+  { code: 'pl', name: 'Polski', flag: '🇵🇱' },
+  { code: 'cs', name: 'Čeština', flag: '🇨🇿' },
+  { code: 'sk', name: 'Slovenčina', flag: '🇸🇰' },
+  { code: 'sl', name: 'Slovenščina', flag: '🇸🇮' },
+  { code: 'hr', name: 'Hrvatski', flag: '🇭🇷' },
+  { code: 'hu', name: 'Magyar', flag: '🇭🇺' },
+  { code: 'ro', name: 'Română', flag: '🇷🇴' },
+  { code: 'el', name: 'Ελληνικά', flag: '🇬🇷' },
   { code: 'ru', name: 'Русский', flag: '🇷🇺' },
   { code: 'uk', name: 'Українська', flag: '🇺🇦' },
   { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },
+  { code: 'vi', name: 'Tiếng Việt', flag: '🇻🇳' },
+  { code: 'id', name: 'Bahasa Indonesia', flag: '🇮🇩' },
   { code: 'ar', name: 'العربية', flag: '🇸🇦' },
   { code: 'fa', name: 'فارسی', flag: '🇮🇷' },
 ];

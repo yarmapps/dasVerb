@@ -121,9 +121,17 @@ export function App(): React.JSX.Element {
       apiKey="phc_nkoZyjZMMbrP7RXzvDjtP3PTzmbjLAxSnJwyEEQdbJG4"
       options={{
         host: 'https://eu.i.posthog.com',
+        enableSessionReplay: true,
+        sessionReplayConfig: {
+          maskAllTextInputs: false,
+          maskAllImages: false,
+          captureLog: true,
+          captureNetworkTelemetry: true,
+        },
       }}
       autocapture={{
         captureScreens: false,
+        captureTouches: true,
       }}
     >
       <SafeAreaProvider>

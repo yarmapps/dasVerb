@@ -6,7 +6,7 @@ import {
 } from 'react-native-google-mobile-ads';
 import { ENABLE_ADS, REWARDED_AD_UNIT_ID, INTERSTITIAL_AD_UNIT_ID } from './adConfig';
 import { isPremiumEnabled } from '../services/premiumAccessService';
-import { trackCustomEvent } from '../services/analyticsService';
+import { trackCustomEvent, trackEvent } from '../services/analyticsService';
 
 const FALLBACK_TIMEOUT_MS = 8000;
 
@@ -198,6 +198,7 @@ export class AdManager {
       const unsubClosed = ad.addAdEventListener(AdEventType.CLOSED, () => {
         unsubEarned();
         unsubClosed();
+        trackEvent('ad_impression', { ad_type: 'rewarded' });
         trackCustomEvent('ad_rewarded_shown', {});
         this.isRewardedLoaded = false;
         this.preloadRewardedAd();
@@ -226,6 +227,11 @@ export class AdManager {
     return new Promise<boolean>(resolve => {
       const unsubClosed = ad.addAdEventListener(AdEventType.CLOSED, () => {
         unsubClosed();
+        trackEvent('ad_impression', { ad_type: 'interstitial' });
+        trackEvent('ad_fallback_used', {
+          original_type: 'rewarded',
+          fallback_type: 'interstitial',
+        });
         trackCustomEvent('ad_interstitial_fallback_shown', {});
         this.isInterstitialLoaded = false;
         this.preloadInterstitialAd();
@@ -299,6 +305,7 @@ export class AdManager {
           // eslint-disable-next-line no-console
           console.log('[AdManager] No ads filled within timeout. Granting grace access.');
         }
+        trackEvent('ad_no_fill', { reason: 'timeout_or_error' });
         trackCustomEvent('ad_no_fill', { reason: 'timeout_or_error' });
         resolve(true);
       };

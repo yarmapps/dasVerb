@@ -1,5 +1,13 @@
 import React, { useMemo } from 'react';
-import { View, Text, Animated, StyleProp, ViewStyle, TextStyle } from 'react-native';
+import {
+  View,
+  Text,
+  Animated,
+  TouchableOpacity,
+  StyleProp,
+  ViewStyle,
+  TextStyle,
+} from 'react-native';
 import { QuizExercise } from '../../services/quizGeneratorService';
 import { useAppTheme } from '../../context/ThemeContext';
 import { createStyles } from './PrefixDualSlotExercise.styles';
@@ -10,6 +18,7 @@ export interface PrefixDualSlotExerciseProps {
   userAnswers: string[];
   status: 'idle' | 'correct' | 'incorrect';
   pulseAnim: Animated.Value;
+  onSlotPress?: (gapIndex: number) => void;
 }
 
 export function PrefixDualSlotExercise({
@@ -18,6 +27,7 @@ export function PrefixDualSlotExercise({
   userAnswers,
   status,
   pulseAnim,
+  onSlotPress,
 }: PrefixDualSlotExerciseProps): React.JSX.Element {
   const { colors } = useAppTheme();
   const styles = useMemo(() => createStyles(colors), [colors]);
@@ -86,19 +96,30 @@ export function PrefixDualSlotExercise({
       }
 
       const slotElement = (
-        <Animated.View
+        <TouchableOpacity
           key={gap?.id || `prefix_gap_${gapIndex}`}
-          style={[
-            slotStyle,
-            { minWidth: calculatedSlotMinWidth },
-            isActive && { transform: [{ scale: pulseAnim }] },
-          ]}
-          testID={`prefix-gap-slot-${gapIndex}`}
+          activeOpacity={0.8}
+          onPress={() => {
+            if (status === 'idle' && onSlotPress) {
+              onSlotPress(gapIndex);
+            }
+          }}
+          disabled={status !== 'idle'}
+          testID={`prefix-gap-slot-touch-${gapIndex}`}
         >
-          <Text style={slotTextStyle} numberOfLines={1}>
-            {userAnswer || ''}
-          </Text>
-        </Animated.View>
+          <Animated.View
+            style={[
+              slotStyle,
+              { minWidth: calculatedSlotMinWidth },
+              isActive && { transform: [{ scale: pulseAnim }] },
+            ]}
+            testID={`prefix-gap-slot-${gapIndex}`}
+          >
+            <Text style={slotTextStyle} numberOfLines={1}>
+              {userAnswer || ''}
+            </Text>
+          </Animated.View>
+        </TouchableOpacity>
       );
 
       if (trailingPunctuation.length > 0) {

@@ -1,0 +1,505 @@
+{
+  "appUpdate": {
+    "title": "Cập nhật có sẵn",
+    "softMessage": "Để tận hưởng trải nghiệm tốt nhất và những cải tiến mới nhất, vui lòng cập nhật ứng dụng của bạn ngay bây giờ.",
+    "forceMessage": "Cần có một bản cập nhật quan trọng để tiếp tục sử dụng das Verb. Vui lòng cập nhật ngay bây giờ.",
+    "button": "Cập nhật ngay",
+    "close": "Đóng"
+  },
+  "debugScreen": {
+    "title": "Menu Gỡ lỗi",
+    "sectionState": "Tóm tắt Trạng thái Ứng dụng",
+    "sectionDailyLimit": "Giới hạn Bài kiểm tra Hàng ngày",
+    "sectionStreak": "Chuỗi Ngày Học",
+    "sectionSettings": "Cài đặt & Lưu trữ",
+    "sectionAppUpdate": "Hộp thoại Cập nhật Ứng dụng",
+    "sectionReview": "Đánh giá & Xếp hạng Trong ứng dụng",
+    "dailyQuizzes": "Bài kiểm tra đã hoàn thành hôm nay: {count} / {limit}",
+    "totalQuizzes": "Tổng số bài kiểm tra đã hoàn thành: {count}",
+    "extraQuizzes": "Bài kiểm tra bổ sung có sẵn: {count}",
+    "adGrants": "Lượt xem quảng cáo hôm nay: {count} / {limit}",
+    "streakSummary": "Chuỗi hiện tại: {streak} ngày (Tốt nhất: {best})",
+    "resetDailyLimit": "Đặt lại Giới hạn Hàng ngày",
+    "grantExtraQuiz": "Cấp +1 Bài kiểm tra Bổ sung",
+    "consumeQuiz": "Sử dụng 1 Bài kiểm tra Hàng ngày",
+    "resetStreak": "Đặt lại Chuỗi",
+    "incrementStreak": "Tăng Chuỗi (+1 Ngày)",
+    "resetAllSettings": "Đặt lại Cài đặt về Mặc định",
+    "triggerSoftUpdate": "Kích hoạt Cập nhật Mềm (Có thể bỏ qua)",
+    "triggerForceUpdate": "Kích hoạt Cập nhật Bắt buộc (Chặn)",
+    "resetUpdateState": "Đặt lại Trạng thái Cập nhật",
+    "triggerReview": "Kích hoạt Đánh giá Trong ứng dụng (StoreReview)",
+    "resetReviewCooldown": "Đặt lại Thời gian chờ Đánh giá",
+    "addCompletedQuizzes": "Thêm +5 Bài kiểm tra Đã hoàn thành",
+    "alertSuccess": "Thành công",
+    "dailyLimitResetSuccess": "Giới hạn bài kiểm tra hàng ngày đã được đặt lại.",
+    "streakResetSuccess": "Dữ liệu chuỗi đã được đặt lại.",
+    "settingsResetSuccess": "Tất cả cài đặt đã được đặt lại về mặc định.",
+    "reviewTriggerSuccess": "Yêu cầu đánh giá cửa hàng gửi đến hệ điều hành.",
+    "reviewCooldownResetSuccess": "Thời gian chờ nhắc nhở đánh giá đã được đặt lại."
+  },
+  "navigation": {
+    "practice": "Luyện tập",
+    "dictionary": "Từ điển"
+  },
+  "languageSelectorScreen": {
+    "title": "Ngôn ngữ mẹ đẻ của bạn là gì?",
+    "continue": "Tiếp tục"
+  },
+  "practiceScreen": {
+    "title": "Luyện tập",
+    "subtitle": "Luyện động từ, chia động từ và cấu trúc câu",
+    "levelsButtonTitle": "Luyện động từ",
+    "levelsButtonSubtitle": "Từ phổ biến nhất đến hiếm gặp theo phương pháp Goethe",
+    "featuredBadge": "Nổi bật",
+    "startNow": "Bắt đầu ngay",
+    "smartQuizBadge": "Ôn tập thông minh",
+    "smartQuizTitle": "Thuật toán thông minh",
+    "smartQuizSubtitle": "Tập trung vào lỗi sai của bạn và học nhanh gấp 3 lần",
+    "prefixBannerBadge": "A1 – B2",
+    "prefixBannerTitle": "Động từ tiền tố",
+    "prefixBannerSubtitle": "Tiền tố tách rời, không tách rời và kép",
+    "conjugationBannerTitle": "Luyện chia động từ",
+    "conjugationBannerSubtitle": "Luyện các dạng động từ cho tất cả đại từ ở thì Präsens",
+    "verbFormsBannerTitle": "Động từ bất quy tắc",
+    "verbFormsBannerSubtitle": "Luyện Infinitiv – Präteritum – Perfekt",
+    "prepositionsBannerTitle": "Động từ với giới từ",
+    "prepositionsBannerSubtitle": "Nắm vững giới từ và cách của động từ",
+    "adBadge": "Quảng cáo",
+    "sectionModes": "Học theo Chế độ",
+    "sectionTopics": "Học theo Chủ đề"
+  },
+  "categories": {
+    "sectionTitle": "Chủ đề & Danh mục",
+    "sectionSubtitle": "Luyện tập động từ được nhóm theo các tình huống thực tế",
+    "verbsCount": "động từ",
+    "movement": {
+      "title": "Di chuyển & Giao thông",
+      "subtitle": "gehen, fahren, fliegen, ankommen..."
+    },
+    "communication": {
+      "title": "Giao tiếp & Nói chuyện",
+      "subtitle": "sprechen, sagen, fragen, antworten..."
+    },
+    "homeDaily": {
+      "title": "Cuộc sống hàng ngày & Gia đình",
+      "subtitle": "wohnen, schlafen, aufstehen, kochen..."
+    },
+    "foodDrink": {
+      "title": "Thức ăn & Nhà hàng",
+      "subtitle": "essen, trinken, bestellen, probieren..."
+    },
+    "workStudy": {
+      "title": "Công việc & Học tập",
+      "subtitle": "arbeiten, lernen, studieren, schreiben..."
+    },
+    "shoppingMoney": {
+      "title": "Mua sắm & Tiền bạc",
+      "subtitle": "kaufen, bezahlen, kosten, sparen..."
+    },
+    "thoughtsFeelings": {
+      "title": "Suy nghĩ & Cảm xúc",
+      "subtitle": "denken, glauben, fühlen, lieben..."
+    },
+    "leisureHobbies": {
+      "title": "Giải trí & Sở thích",
+      "subtitle": "spielen, reisen, schwimmen, wandern..."
+    },
+    "health": {
+      "title": "Sức khỏe & Hạnh phúc",
+      "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    },
+    "natureEnvironment": {
+      "title": "Thiên nhiên & Thời tiết",
+      "subtitle": "regnen, scheinen, wehen, blühen..."
+    },
+    "lawSociety": {
+      "title": "Luật pháp & Xã hội",
+      "subtitle": "wählen, regieren, entscheiden, verbieten..."
+    },
+    "relationsSocial": {
+      "title": "Mối quan hệ & Xã hội",
+      "subtitle": "helfen, vertrauen, umarmen, begrüßen..."
+    },
+    "creationChange": {
+      "title": "Sáng tạo & Thay đổi",
+      "subtitle": "schaffen, verändern, umwandeln, entstehen..."
+    },
+    "travelTransport": {
+      "title": "Du lịch & Vận chuyển",
+      "subtitle": "reisen, fahren, fliegen, einsteigen..."
+    },
+    "perceptionSenses": {
+      "title": "Nhận thức & Giác quan",
+      "subtitle": "sehen, hören, riechen, schmecken..."
+    },
+    "digitalMedia": {
+      "title": "Công nghệ & Truyền thông",
+      "subtitle": "installieren, speichern, löschen, senden..."
+    }
+  },
+  "dictionaryScreen": {
+    "title": "Từ điển",
+    "searchPlaceholder": "Tìm kiếm động từ...",
+    "emptySearch": "Không tìm thấy động từ nào",
+    "stammformen": "Các dạng chính",
+    "infinitive": "Infinitiv",
+    "present3sg": "Präsens",
+    "praeteritum3sg": "Präteritum",
+    "perfekt": "Perfekt",
+    "conjugation": "Chia động từ",
+    "person": "Ngôi",
+    "present": "Präsens",
+    "praeteritum": "Präteritum",
+    "rektion": "Rektion & Cách",
+    "imperative": "Mệnh lệnh cách",
+    "examples": "Ví dụ"
+  },
+  "settingsScreen": {
+    "title": "Cài đặt",
+    "generalSection": "CHUNG",
+    "audioSection": "ÂM THANH",
+    "supportSection": "HỖ TRỢ",
+    "appLanguage": "Ngôn ngữ ứng dụng",
+    "theme": "Chủ đề",
+    "themeLight": "Sáng",
+    "themeDark": "Tối",
+    "themeSystem": "Hệ thống",
+    "notifications": "Thông báo",
+    "soundEffects": "Hiệu ứng âm thanh",
+    "speakOnCorrectAnswer": "Phát âm câu trả lời đúng",
+    "voiceGender": "Giọng nói",
+    "voiceFemale": "Nữ",
+    "voiceMale": "Nam",
+    "maleVoiceHint": "Để sử dụng giọng nam tiếng Đức, hãy cài đặt trong Cài đặt iOS → Trợ năng → Nội dung được nói → Giọng nói → Tiếng Đức.",
+    "contactUs": "Liên hệ với chúng tôi",
+    "subscriptionSection": "GÓI ĐĂNG KÝ",
+    "manageSubscription": "Quản lý gói đăng ký",
+    "rateApp": "Đánh giá ứng dụng",
+    "privacySettings": "Cài đặt quyền riêng tư",
+    "privacyOptionsError": "Không thể mở cài đặt quyền riêng tư. Vui lòng thử lại sau.",
+    "error": "Lỗi",
+    "privacyPolicy": "Chính sách quyền riêng tư",
+    "termsOfService": "Điều khoản dịch vụ",
+    "version": "Phiên bản",
+    "notificationsPermissionRequiredTitle": "Bật thông báo",
+    "notificationsPermissionRequiredMessage": "Để nhận lời nhắc luyện tập hàng ngày và duy trì chuỗi, vui lòng bật thông báo trong cài đặt thiết bị của bạn.",
+    "openSettings": "Cài đặt",
+    "cancel": "Hủy",
+    "dataSection": "QUẢN LÝ DỮ LIỆU",
+    "resetProgress": "Đặt lại tiến độ học tập",
+    "resetProgressTitle": "Đặt lại tiến độ học tập?",
+    "resetProgressMessage": "Tất cả tiến độ học tập động từ và cấp độ tiền tố của bạn sẽ bị xóa vĩnh viễn. Hành động này không thể hoàn tác.",
+    "resetProgressConfirm": "Đặt lại tiến độ",
+    "resetProgressSuccess": "Tiến độ học tập đã được đặt lại.",
+    "resetSettings": "Đặt lại cài đặt ứng dụng",
+    "resetSettingsTitle": "Đặt lại cài đặt ứng dụng?",
+    "resetSettingsMessage": "Tất cả cài đặt âm thanh, chủ đề và thông báo sẽ được khôi phục về mặc định. Tiến độ học tập của bạn sẽ được giữ nguyên.",
+    "resetSettingsConfirm": "Đặt lại cài đặt",
+    "resetSettingsSuccess": "Cài đặt đã được đặt lại về mặc định.",
+    "resetSuccessTitle": "Hoàn tất"
+  },
+  "quizSettingsModal": {
+    "title": "Cài đặt bài kiểm tra"
+  },
+  "verbsPracticeListScreen": {
+    "title": "Luyện tập động từ",
+    "levelHeader": "CẤP ĐỘ",
+    "verbCount": "động từ",
+    "uncompleted": "Chưa hoàn thành",
+    "bronze": "Đồng",
+    "silver": "Bạc",
+    "trophy": "Cúp",
+    "empty": "Không tìm thấy động từ nào",
+    "checkpointTitle": "Bài kiểm tra Điểm dừng",
+    "finalTestTitle": "Bài kiểm tra cuối cùng",
+    "finalTestTitleWithLevel": "Bài kiểm tra cuối cùng {level}",
+    "finalTestSubtitle": "Bài kiểm tra toàn diện 20 câu hỏi cho cấp độ này",
+    "categoryFinalTestSubtitle": "Bài kiểm tra toàn diện 20 câu hỏi cho chủ đề này",
+    "checkpointSubtitle": "Động từ {from} – {to}"
+  },
+  "prefixPracticeListScreen": {
+    "title": "Động từ tiền tố",
+    "levelNumber": "Cấp độ {number}",
+    "checkpointTitle": "Điểm dừng {level}",
+    "checkpointSubtitle": "Bài kiểm tra toàn diện 20 câu hỏi cho cấp độ này",
+    "subgroupSeparable": "Tiền tố tách rời",
+    "subgroupInseparable": "Tiền tố không tách rời",
+    "subgroupOpposites": "Cặp đối lập",
+    "subgroupDual": "Tiền tố kép"
+  },
+  "prefixPractice": {
+    "title": "Động từ tiền tố",
+    "levelTitle": "Cấp độ {number}",
+    "checkpointTitle": "Điểm dừng {level}"
+  },
+  "prefixGrammarHint": {
+    "separableTitle": "Tiền tố tách rời",
+    "inseparableTitle": "Tiền tố không tách rời",
+    "dualTitle": "Tiền tố kép",
+    "separableRule": "Trong thì Präsens và Präteritum, các tiền tố tách rời di chuyển đến cuối mệnh đề.",
+    "inseparableRule": "Các tiền tố không tách rời (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) không bao giờ tách khỏi gốc động từ.",
+    "dualRule": "Các tiền tố như über-, um-, unter-, durch- có thể tách rời hoặc không tách rời tùy thuộc vào nghĩa của động từ."
+  },
+  "conjugationPracticeListScreen": {
+    "title": "Luyện chia động từ",
+    "levelNumber": "Cấp độ {number}",
+    "checkpointTitle": "Điểm dừng {number}",
+    "checkpointSubtitle": "Bài kiểm tra ôn tập với 10 động từ ngẫu nhiên",
+    "finalTestTitle": "Bài kiểm tra cuối cùng {level}",
+    "finalTestSubtitle": "Bài kiểm tra toàn diện 15 động từ cho cấp độ này"
+  },
+  "conjugationPractice": {
+    "title": "Chia động từ",
+    "levelTitle": "Cấp độ {number}",
+    "checkpointNumberTitle": "Điểm dừng {number}",
+    "finalTestTitle": "Bài kiểm tra cuối cùng {level}"
+  },
+  "conjugationGrammarHint": {
+    "ruleTag": "Thay đổi nguyên âm",
+    "eToIRule": "Thay đổi nguyên âm e → i ở ngôi thứ 2 và 3 số ít (du, er/sie/es).",
+    "eToIeRule": "Thay đổi nguyên âm e → ie ở ngôi thứ 2 và 3 số ít (du, er/sie/es).",
+    "aToAeRule": "Thay đổi nguyên âm a → ä ở ngôi thứ 2 và 3 số ít (du, er/sie/es).",
+    "auToAeuRule": "Thay đổi nguyên âm au → äu ở ngôi thứ 2 và 3 số ít (du, er/sie/es)."
+  },
+  "verbFormsPracticeListScreen": {
+    "title": "Động từ bất quy tắc",
+    "levelNumber": "Cấp độ {number}",
+    "checkpointTitle": "Điểm dừng {number}",
+    "checkpointSubtitle": "Bài kiểm tra ôn tập với 10 động từ ngẫu nhiên",
+    "finalTestTitle": "Bài kiểm tra cuối cùng {level}",
+    "finalTestSubtitle": "Bài kiểm tra toàn diện 15 động từ cho cấp độ này"
+  },
+  "verbFormsPractice": {
+    "title": "Động từ bất quy tắc",
+    "levelTitle": "Cấp độ {number}",
+    "checkpointNumberTitle": "Điểm dừng {number}",
+    "finalTestTitle": "Bài kiểm tra cuối cùng {level}"
+  },
+  "verbFormsGrammarHint": {
+    "ruleTag": "Quy tắc ngữ pháp",
+    "strongVerbTag": "Động từ mạnh",
+    "weakVerbTag": "Động từ yếu",
+    "mixedVerbTag": "Động từ hỗn hợp",
+    "irregularVerbTag": "Động từ bất quy tắc",
+    "modalVerbTag": "Động từ khuyết thiếu",
+    "seinRule": "Các động từ chỉ sự di chuyển, thay đổi trạng thái, và sein/bleiben tạo thì Perfekt với «sein».",
+    "habenRule": "Các động từ ngoại động, phản thân và tĩnh tạo thì Perfekt với «haben».",
+    "strongVerbRule": "Động từ mạnh thay đổi nguyên âm gốc ở thì Präteritum và kết thúc bằng -en ở Partizip II.",
+    "weakVerbRule": "Động từ yếu thông thường thêm -te ở thì Präteritum và ge-...-t ở Partizip II.",
+    "mixedVerbRule": "Động từ hỗn hợp kết hợp thay đổi nguyên âm với các đuôi thông thường -te và -t."
+  },
+  "verbFormsExercise": {
+    "infinitive": "Infinitiv",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt"
+  },
+  "prepositionsPracticeListScreen": {
+    "title": "Động từ với giới từ",
+    "levelNumber": "Cấp độ {number}",
+    "checkpointTitle": "Điểm dừng {number}",
+    "checkpointSubtitle": "Bài kiểm tra ôn tập với 10 động từ ngẫu nhiên",
+    "finalTestTitle": "Bài kiểm tra cuối cùng {level}",
+    "finalTestSubtitle": "Bài kiểm tra toàn diện 15 động từ cho cấp độ này"
+  },
+  "prepositionsPractice": {
+    "title": "Giới từ",
+    "levelTitle": "Cấp độ {number}",
+    "checkpointNumberTitle": "Điểm dừng {number}",
+    "finalTestTitle": "Bài kiểm tra cuối cùng {level}"
+  },
+  "prepositionGrammarHint": {
+    "ruleTag": "Quy tắc giới từ",
+    "questionLabel": "Câu hỏi:"
+  },
+  "verbQuizScreen": {
+    "title": "Luyện tập",
+    "checkpointQuizTitle": "Bài kiểm tra Điểm dừng",
+    "smartQuizTitle": "Bài kiểm tra thông minh",
+    "conjugateVerbTitle": "Chia động từ {verb}",
+    "prepositionTaskTitle": "Chọn giới từ",
+    "level": "Cấp độ",
+    "check": "Kiểm tra",
+    "continue": "Tiếp tục",
+    "exercise": "Bài tập",
+    "correct": "Chính xác!",
+    "tryAgain": "Thử lại",
+    "fillCard": "Điền vào thẻ",
+    "tapToContinue": "Chạm vào bất kỳ đâu để tiếp tục",
+    "correctAnswer": "Đáp án đúng:",
+    "conjugationPräsens": "Chia động từ ở thì Präsens",
+    "principalParts": "Các dạng chính",
+    "imperativeForms": "Các dạng mệnh lệnh cách",
+    "auxiliaryExplanationMovement": "Động từ {verb} diễn tả sự di chuyển hoặc thay đổi trạng thái, vì vậy nó tạo thì Perfekt với sein ({form}).",
+    "auxiliaryExplanationGeneral": "Động từ {verb} tạo thì Perfekt với trợ động từ haben ({form})."
+  },
+  "quizResultsScreen": {
+    "title": "Kết quả",
+    "checkpointResultsTitle": "Kết quả Điểm dừng",
+    "smartQuizResultsTitle": "Kết quả Bài kiểm tra thông minh",
+    "canDoBetter": "Bạn có thể làm tốt hơn!",
+    "almostThere": "Gần đạt được rồi!",
+    "closeToPerfection": "Gần như hoàn hảo!",
+    "youDidIt": "Bạn đã làm được!",
+    "nextLevel": "Cấp độ tiếp theo",
+    "tryAgain": "Thử lại",
+    "verbsList": "Đến danh sách động từ",
+    "backToPractice": "Quay lại Luyện tập",
+    "scoreSummary": "{correct} trên {total}",
+    "showCorrectAnswers": "Hiển thị đáp án đúng",
+    "showAllAnswers": "Hiển thị tất cả đáp án",
+    "showErrorsOnly": "Chỉ hiển thị lỗi"
+  },
+  "dailyQuizLimitModal": {
+    "title": "Tiếp tục cố gắng!",
+    "message": "Bạn thực sự rất tận tâm với việc học tiếng Đức!",
+    "instructions": "Bạn muốn tiếp tục như thế nào?",
+    "videoButton": "Xem quảng cáo",
+    "or": "hoặc",
+    "premiumButtonWithTrial": "Miễn phí không giới hạn cấp độ\ntrong {daysLabel}",
+    "premiumButtonNoTrial": "Không quảng cáo",
+    "premiumButtonSubtitleWithTrial": "sau đó {yearlyPrice} / 3 tháng (☕️ / tháng)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} / 3 tháng (☕️ / tháng)",
+    "waitUntilTomorrow": "Đợi đến ngày mai",
+    "cancelAnytime": "Hủy bất cứ lúc nào"
+  },
+  "premiumSheets": {
+    "subscribeTitle": "Mở khóa Premium",
+    "subscribeSubtitle": "Tăng cường việc học động từ tiếng Đức của bạn với các công cụ nâng cao.",
+    "subscribeNow": "Đăng ký ngay",
+    "buyNow": "Mua ngay",
+    "viewPlans": "Xem các gói",
+    "premiumFeaturesLabel": "TÍNH NĂNG PREMIUM",
+    "disclaimerAutoRenew": "Tự động gia hạn với giá {price}/{period}. Hủy bất cứ lúc nào trong cài đặt tài khoản của bạn.",
+    "disclaimerAutoRenewTrial": "Miễn phí trong {trialDuration}, sau đó {price}/{period}. Hủy bất cứ lúc nào.",
+    "disclaimerOneTime": "Mua một lần. Không có phí định kỳ.",
+    "freeTrialDays": "Dùng thử miễn phí {count} ngày",
+    "freeTrialWeeks": "Dùng thử miễn phí {count} tuần",
+    "freeTrialMonths": "Dùng thử miễn phí {count} tháng",
+    "freeTrialYears": "Dùng thử miễn phí {count} năm",
+    "trialUnit": {
+      "day": "ngày",
+      "week": "tuần",
+      "month": "tháng",
+      "year": "năm"
+    },
+    "periodMonth": "tháng",
+    "periodYear": "năm",
+    "period3Months": "3 tháng",
+    "period6Months": "6 tháng",
+    "restorePurchases": "Khôi phục giao dịch mua",
+    "errorTitle": "Lỗi",
+    "errorUnavailable": "Gói này hiện không khả dụng. Vui lòng thử lại sau.",
+    "errorPurchase": "Mua hàng thất bại. Vui lòng thử lại.",
+    "errorRestore": "Khôi phục thất bại. Vui lòng thử lại.",
+    "restoreSuccessTitle": "Đã khôi phục!",
+    "restoreSuccessMessage": "Quyền truy cập premium của bạn đã được khôi phục.",
+    "restoreNothingTitle": "Không tìm thấy giao dịch mua nào",
+    "restoreNothingMessage": "Chúng tôi không thể tìm thấy bất kỳ giao dịch mua trước đó nào để khôi phục.",
+    "termsOfService": "Điều khoản dịch vụ",
+    "privacyPolicy": "Chính sách quyền riêng tư",
+    "plans": {
+      "monthlyLabel": "1 Tháng",
+      "monthlyPer": "Hàng tháng",
+      "yearlyLabel": "12 Tháng",
+      "yearlyBadge": "GIÁ TRỊ TỐT NHẤT",
+      "perMonth": "{price}/tháng",
+      "lifetimeLabel": "Trọn đời",
+      "lifetimePer": "Thanh toán một lần",
+      "lifetimeBadge": "MỘT LẦN",
+      "threeMonthLabel": "3 Tháng",
+      "sixMonthLabel": "6 Tháng",
+      "bestValueBadge": "GIÁ TRỊ TỐT NHẤT",
+      "popularBadge": "PHỔ BIẾN"
+    },
+    "features": {
+      "noAdsTitle": "Không quảng cáo",
+      "noAdsShort": "Không\nQuảng cáo",
+      "noAdsDescription": "Tập trung và học mà không bị phân tâm.",
+      "unlimitedQuizzesTitle": "Bài kiểm tra không giới hạn",
+      "unlimitedQuizzesShort": "Bài kiểm tra\nKhông giới hạn",
+      "unlimitedQuizzesDescription": "Luyện tập bao nhiêu tùy thích mà không có giới hạn hàng ngày.",
+      "allLevelsTitle": "Mở khóa tất cả cấp độ",
+      "allLevelsShort": "Tất cả\nCấp độ",
+      "allLevelsDescription": "Truy cập tức thì vào tất cả các cấp độ động từ A1-B2 và các điểm dừng.",
+      "smartQuizModeTitle": "Thuật toán thông minh",
+      "smartQuizModeShort": "Thuật toán\nThông minh",
+      "smartQuizModeDescription": "Chỉ tập trung vào lỗi sai của bạn và học nhanh gấp 3 lần!",
+      "naturalVoiceTitle": "Âm thanh tự nhiên",
+      "naturalVoiceShort": "Giọng Đức\nTự nhiên",
+      "naturalVoiceDescription": "Nghe động từ và câu được phát âm bằng giọng Đức tự nhiên.",
+      "offlineModeTitle": "Luyện tập ngoại tuyến",
+      "offlineModeShort": "Luyện tập\nNgoại tuyến",
+      "offlineModeDescription": "Luyện tập động từ mọi lúc, mọi nơi mà không cần kết nối internet."
+    }
+  },
+  "notifications": {
+    "reminderTitle": "Đến lúc luyện tập rồi!",
+    "reminderBody": "Một buổi luyện tập nhanh với động từ và cấu trúc câu tiếng Đức sẽ giúp bạn thành thạo chúng.",
+    "trialReminderTitle": "Thời gian dùng thử miễn phí của bạn sắp kết thúc",
+    "trialReminderBody": "Hãy tận dụng tối đa Premium ngay hôm nay! Thời gian dùng thử của bạn sẽ kết thúc trong 24 giờ.",
+    "streakReminderTitle": "Đừng phá vỡ chuỗi của bạn! 🔥",
+    "streakReminderBody": "Bạn chưa luyện tập hôm nay. Hãy làm một bài kiểm tra nhanh 2 phút để duy trì chuỗi của mình!"
+  },
+  "firstOpenPaywall": {
+    "trialBadge": "DÙNG THỬ MIỄN PHÍ 3 NGÀY",
+    "title": "Dùng thử Premium trước khi thanh toán",
+    "subtitle": "Cách thức hoạt động của bản dùng thử miễn phí.",
+    "cta": "Bắt đầu dùng thử miễn phí",
+    "restore": "Khôi phục giao dịch mua",
+    "proceedLimited": "Tiếp tục với phiên bản giới hạn",
+    "priceYearlyWithCoffee": "{price}/năm, một ly cà phê/tháng.",
+    "price3MonthsWithCoffee": "Chỉ {price} cho 3 tháng — ít hơn một ly cà phê mỗi tháng",
+    "disclaimer": "Tự động gia hạn với giá {price}/năm. Hủy bất cứ lúc nào trong cài đặt tài khoản.",
+    "disclaimerFallback": "Tự động gia hạn hàng năm. Hủy bất cứ lúc nào trong cài đặt.",
+    "priceWithTrial": "Miễn phí trong {trialDuration}, sau đó {price}/năm",
+    "priceYearly": "{price}/năm",
+    "timeline": {
+      "today": {
+        "day": "Hôm nay",
+        "headline": "Mở khóa mọi thứ",
+        "benefits": {
+          "noAds": {
+            "title": "Học tập không quảng cáo 100%",
+            "text": "Tập trung vào mục tiêu của bạn với trải nghiệm học tập sạch sẽ, không bị phân tâm."
+          },
+          "unlimitedQuizzes": {
+            "title": "Bài kiểm tra không giới hạn",
+            "text": "Luyện tập bao nhiêu tùy thích mà không có giới hạn hàng ngày hoặc phải chờ đợi."
+          },
+          "allLevels": {
+            "title": "Mở khóa tất cả cấp độ A1–B2",
+            "text": "Truy cập tức thì vào tất cả thẻ động từ, điểm dừng ngữ pháp và bài kiểm tra."
+          },
+          "smartQuizMode": {
+            "title": "Sửa lỗi thông minh",
+            "text": "Nhắm mục tiêu vào những điểm yếu cá nhân của bạn để thành thạo động từ tiếng Đức nhanh gấp 3 lần."
+          },
+          "offlineMode": {
+            "title": "Luyện tập ngoại tuyến",
+            "text": "Luyện tập động từ tiếng Đức mọi lúc, mọi nơi mà không cần kết nối internet."
+          }
+        }
+      },
+      "day2": {
+        "day": "Ngày 2",
+        "headline": "Nhắc nhở dùng thử",
+        "description": "Chúng tôi sẽ gửi cho bạn một lời nhắc nhở thân thiện trước khi thời gian dùng thử của bạn kết thúc — không có bất ngờ nào."
+      },
+      "day3": {
+        "day": "Ngày 3",
+        "headline": "Bắt đầu truy cập 3 tháng",
+        "description": "Thời gian dùng thử của bạn sẽ chuyển thành quyền truy cập 3 tháng. Hủy bất cứ lúc nào trong cài đặt."
+      }
+    }
+  },
+  "offlineModal": {
+    "title": "Yêu cầu Internet",
+    "message": "Nâng cấp lên Premium để luyện tập ngoại tuyến mọi lúc, mọi nơi.",
+    "getPremium": "Nhận Premium",
+    "retry": "Thử lại",
+    "enableOffline": "Bật ngoại tuyến",
+    "premiumButtonWithTrial": "Premium miễn phí trong {daysLabel}",
+    "premiumButtonNoTrial": "Nhận Premium"
+  }
+}

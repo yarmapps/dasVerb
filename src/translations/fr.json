@@ -108,6 +108,34 @@
     "health": {
       "title": "Santé et bien-être",
       "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    },
+    "natureEnvironment": {
+      "title": "Nature et météo",
+      "subtitle": "regnen, scheinen, wehen, blühen..."
+    },
+    "lawSociety": {
+      "title": "Droit et société",
+      "subtitle": "wählen, regieren, entscheiden, verbieten..."
+    },
+    "relationsSocial": {
+      "title": "Relations et social",
+      "subtitle": "helfen, vertrauen, umarmen, begrüßen..."
+    },
+    "creationChange": {
+      "title": "Création et changement",
+      "subtitle": "schaffen, verändern, umwandeln, entstehen..."
+    },
+    "travelTransport": {
+      "title": "Voyages et transports",
+      "subtitle": "reisen, fahren, fliegen, einsteigen..."
+    },
+    "perceptionSenses": {
+      "title": "Perception et sens",
+      "subtitle": "sehen, hören, riechen, schmecken..."
+    },
+    "digitalMedia": {
+      "title": "Technologie et médias",
+      "subtitle": "installieren, speichern, löschen, senden..."
     }
   },
   "dictionaryScreen": {
@@ -166,7 +194,10 @@
     "resetSettingsMessage": "Tous les paramètres de son, thème et notifications seront restaurés par défaut. Votre progression d'apprentissage sera conservée.",
     "resetSettingsConfirm": "Réinitialiser les paramètres",
     "resetSettingsSuccess": "Les paramètres ont été réinitialisés par défaut.",
-    "resetSuccessTitle": "Terminé"
+    "resetSuccessTitle": "Terminé",
+    "privacySettings": "Paramètres de confidentialité",
+    "privacyOptionsError": "Impossible d'ouvrir les paramètres de confidentialité. Veuillez réessayer plus tard.",
+    "error": "Erreur"
   },
   "quizSettingsModal": {
     "title": "Paramètres du quiz"

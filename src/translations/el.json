@@ -1,0 +1,505 @@
+{
+  "appUpdate": {
+    "title": "Διαθέσιμη Ενημέρωση",
+    "softMessage": "Για να απολαύσετε την καλύτερη εμπειρία και τις τελευταίες βελτιώσεις, παρακαλούμε ενημερώστε την εφαρμογή σας τώρα.",
+    "forceMessage": "Απαιτείται κρίσιμη ενημέρωση για να συνεχίσετε να χρησιμοποιείτε το das Verb. Παρακαλούμε ενημερώστε τώρα.",
+    "button": "Ενημέρωση Τώρα",
+    "close": "Κλείσιμο"
+  },
+  "debugScreen": {
+    "title": "Μενού Εκσφαλμάτωσης",
+    "sectionState": "Σύνοψη Κατάστασης Εφαρμογής",
+    "sectionDailyLimit": "Ημερήσιο Όριο Κουίζ",
+    "sectionStreak": "Ημερήσιο Σερί",
+    "sectionSettings": "Ρυθμίσεις & Αποθηκευτικός Χώρος",
+    "sectionAppUpdate": "Παράθυρο Ενημέρωσης Εφαρμογής",
+    "sectionReview": "Αξιολόγηση Εντός Εφαρμογής",
+    "dailyQuizzes": "Ολοκληρωμένα κουίζ σήμερα: {count} / {limit}",
+    "totalQuizzes": "Συνολικά ολοκληρωμένα κουίζ: {count}",
+    "extraQuizzes": "Επιπλέον διαθέσιμα κουίζ: {count}",
+    "adGrants": "Χορηγήσεις διαφημίσεων σήμερα: {count} / {limit}",
+    "streakSummary": "Τρέχον σερί: {streak} ημέρες (Καλύτερο: {best})",
+    "resetDailyLimit": "Επαναφορά Ημερήσιου Ορίου",
+    "grantExtraQuiz": "Χορήγηση +1 Επιπλέον Κουίζ",
+    "consumeQuiz": "Κατανάλωση 1 Ημερήσιου Κουίζ",
+    "resetStreak": "Επαναφορά Σερί",
+    "incrementStreak": "Αύξηση Σερί (+1 Ημέρα)",
+    "resetAllSettings": "Επαναφορά Ρυθμίσεων στις Προεπιλογές",
+    "triggerSoftUpdate": "Ενεργοποίηση Ενημέρωσης (Μπορεί να παραλειφθεί)",
+    "triggerForceUpdate": "Ενεργοποίηση Υποχρεωτικής Ενημέρωσης",
+    "resetUpdateState": "Επαναφορά Κατάστασης Ενημέρωσης",
+    "triggerReview": "Ενεργοποίηση Αξιολόγησης Εντός Εφαρμογής",
+    "resetReviewCooldown": "Επαναφορά Χρόνου Αναμονής Αξιολόγησης",
+    "addCompletedQuizzes": "Προσθήκη +5 Ολοκληρωμένων Κουίζ",
+    "alertSuccess": "Επιτυχία",
+    "dailyLimitResetSuccess": "Τα ημερήσια όρια κουίζ έχουν επαναφερθεί.",
+    "streakResetSuccess": "Τα δεδομένα του σερί έχουν επαναφερθεί.",
+    "settingsResetSuccess": "Όλες οι ρυθμίσεις έχουν επαναφερθεί στις προεπιλογές.",
+    "reviewTriggerSuccess": "Ζητήθηκε αξιολόγηση στο OS.",
+    "reviewCooldownResetSuccess": "Ο χρόνος αναμονής της αξιολόγησης επαναφέρθηκε."
+  },
+  "navigation": {
+    "practice": "Εξάσκηση",
+    "dictionary": "Λεξικό"
+  },
+  "languageSelectorScreen": {
+    "title": "Ποια είναι η μητρική σας γλώσσα;",
+    "continue": "Συνέχεια"
+  },
+  "practiceScreen": {
+    "title": "Εξάσκηση",
+    "subtitle": "Εξασκηθείτε σε ρήματα, συζυγίες και δομές προτάσεων",
+    "levelsButtonTitle": "Εξάσκηση Ρημάτων",
+    "levelsButtonSubtitle": "Από τα πιο κοινά στα πιο σπάνια με τη μέθοδο Goethe",
+    "featuredBadge": "Προτεινόμενο",
+    "startNow": "Ξεκινήστε Τώρα",
+    "smartQuizBadge": "Έξυπνη Επανάληψη",
+    "smartQuizTitle": "Έξυπνος Αλγόριθμος",
+    "smartQuizSubtitle": "Επικεντρωθείτε στα λάθη σας και μάθετε 3x πιο γρήγορα",
+    "prefixBannerBadge": "A1 – B2",
+    "prefixBannerTitle": "Ρήματα με πρόθημα",
+    "prefixBannerSubtitle": "Χωριζόμενα, μη χωριζόμενα και διπλά προθήματα",
+    "conjugationBannerTitle": "Εκπαιδευτής Συζυγιών",
+    "conjugationBannerSubtitle": "Εξασκηθείτε στις ρηματικές μορφές για όλες τις αντωνυμίες στο Präsens",
+    "verbFormsBannerTitle": "Ανώμαλα Ρήματα",
+    "verbFormsBannerSubtitle": "Εξασκηθείτε στο Infinitiv – Präteritum – Perfekt",
+    "prepositionsBannerTitle": "Ρήματα με Προθέσεις",
+    "prepositionsBannerSubtitle": "Κατακτήστε τις προθέσεις των ρημάτων και τις πτώσεις",
+    "adBadge": "Διαφήμιση",
+    "sectionModes": "Μάθηση ανά Λειτουργία",
+    "sectionTopics": "Μάθηση ανά Θέμα"
+  },
+  "categories": {
+    "sectionTitle": "Θέματα & Κατηγορίες",
+    "sectionSubtitle": "Εξασκηθείτε σε ρήματα ομαδοποιημένα ανά καταστάσεις της πραγματικής ζωής",
+    "verbsCount": "ρήματα",
+    "movement": {
+      "title": "Κίνηση & Μεταφορές",
+      "subtitle": "gehen, fahren, fliegen, ankommen..."
+    },
+    "communication": {
+      "title": "Επικοινωνία & Ομιλία",
+      "subtitle": "sprechen, sagen, fragen, antworten..."
+    },
+    "homeDaily": {
+      "title": "Καθημερινή Ζωή & Σπίτι",
+      "subtitle": "wohnen, schlafen, aufstehen, kochen..."
+    },
+    "foodDrink": {
+      "title": "Φαγητό & Εστιατόρια",
+      "subtitle": "essen, trinken, bestellen, probieren..."
+    },
+    "workStudy": {
+      "title": "Εργασία & Σπουδές",
+      "subtitle": "arbeiten, lernen, studieren, schreiben..."
+    },
+    "shoppingMoney": {
+      "title": "Ψώνια & Χρήματα",
+      "subtitle": "kaufen, bezahlen, kosten, sparen..."
+    },
+    "thoughtsFeelings": {
+      "title": "Σκέψεις & Συναισθήματα",
+      "subtitle": "denken, glauben, fühlen, lieben..."
+    },
+    "leisureHobbies": {
+      "title": "Ελεύθερος Χρόνος & Χόμπι",
+      "subtitle": "spielen, reisen, schwimmen, wandern..."
+    },
+    "health": {
+      "title": "Υγεία & Ευεξία",
+      "subtitle": "fehlen, wehtun, untersuchen, genesen..."
+    },
+    "natureEnvironment": {
+      "title": "Φύση & Καιρός",
+      "subtitle": "regnen, scheinen, wehen, blühen..."
+    },
+    "lawSociety": {
+      "title": "Δίκαιο & Κοινωνία",
+      "subtitle": "wählen, regieren, entscheiden, verbieten..."
+    },
+    "relationsSocial": {
+      "title": "Σχέσεις & Κοινωνικά",
+      "subtitle": "helfen, vertrauen, umarmen, begrüßen..."
+    },
+    "creationChange": {
+      "title": "Δημιουργία & Αλλαγή",
+      "subtitle": "schaffen, verändern, umwandeln, entstehen..."
+    },
+    "travelTransport": {
+      "title": "Ταξίδια & Μεταφορές",
+      "subtitle": "reisen, fahren, fliegen, einsteigen..."
+    },
+    "perceptionSenses": {
+      "title": "Αντίληψη & Αισθήσεις",
+      "subtitle": "sehen, hören, riechen, schmecken..."
+    },
+    "digitalMedia": {
+      "title": "Τεχνολογία & Μέσα",
+      "subtitle": "installieren, speichern, löschen, senden..."
+    }
+  },
+  "dictionaryScreen": {
+    "title": "Λεξικό",
+    "searchPlaceholder": "Αναζήτηση ρημάτων...",
+    "emptySearch": "Δεν βρέθηκαν ρήματα",
+    "stammformen": "Κύρια Μέρη",
+    "infinitive": "Infinitiv",
+    "present3sg": "Präsens",
+    "praeteritum3sg": "Präteritum",
+    "perfekt": "Perfekt",
+    "conjugation": "Συζυγία",
+    "person": "Πρόσωπο",
+    "present": "Präsens",
+    "praeteritum": "Präteritum",
+    "rektion": "Rektion & Kasus",
+    "imperative": "Imperativ",
+    "examples": "Παραδείγματα"
+  },
+  "settingsScreen": {
+    "title": "Ρυθμίσεις",
+    "generalSection": "ΓΕΝΙΚΑ",
+    "audioSection": "ΗΧΟΣ",
+    "supportSection": "ΥΠΟΣΤΗΡΙΞΗ",
+    "appLanguage": "Γλώσσα Εφαρμογής",
+    "theme": "Θέμα",
+    "themeLight": "Ανοιχτό",
+    "themeDark": "Σκούρο",
+    "themeSystem": "Συστήματος",
+    "notifications": "Ειδοποιήσεις",
+    "soundEffects": "Ηχητικά Εφέ",
+    "speakOnCorrectAnswer": "Προφορά Σωστής Απάντησης",
+    "voiceGender": "Φωνή",
+    "voiceFemale": "Γυναικεία",
+    "voiceMale": "Ανδρική",
+    "maleVoiceHint": "Για να χρησιμοποιήσετε μια ανδρική γερμανική φωνή, εγκαταστήστε μία στις Ρυθμίσεις iOS → Προσβασιμότητα → Εκφωνούμενο περιεχόμενο → Φωνές → Γερμανικά.",
+    "contactUs": "Επικοινωνήστε Μαζί μας",
+    "subscriptionSection": "ΣΥΝΔΡΟΜΗ",
+    "manageSubscription": "Διαχείριση Συνδρομής",
+    "rateApp": "Αξιολογήστε την Εφαρμογή",
+    "privacySettings": "Ρυθμίσεις Απορρήτου",
+    "privacyOptionsError": "Αποτυχία ανοίγματος ρυθμίσεων απορρήτου. Παρακαλούμε δοκιμάστε ξανά αργότερα.",
+    "error": "Σφάλμα",
+    "privacyPolicy": "Πολιτική Απορρήτου",
+    "termsOfService": "Όροι Χρήσης",
+    "version": "Έκδοση",
+    "notificationsPermissionRequiredTitle": "Ενεργοποίηση Ειδοποιήσεων",
+    "notificationsPermissionRequiredMessage": "Για να λαμβάνετε καθημερινές υπενθυμίσεις εξάσκησης και σερί, ενεργοποιήστε τις ειδοποιήσεις στις ρυθμίσεις της συσκευής σας.",
+    "openSettings": "Ρυθμίσεις",
+    "cancel": "Ακύρωση",
+    "dataSection": "ΔΙΑΧΕΙΡΙΣΗ ΔΕΔΟΜΕΝΩΝ",
+    "resetProgress": "Επαναφορά Μαθησιακής Προόδου",
+    "resetProgressTitle": "Επαναφορά Μαθησιακής Προόδου;",
+    "resetProgressMessage": "Όλη η μαθησιακή σας πρόοδος στα ρήματα και στα επίπεδα προθημάτων θα διαγραφεί οριστικά. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.",
+    "resetProgressConfirm": "Επαναφορά Προόδου",
+    "resetProgressSuccess": "Η μαθησιακή πρόοδος έχει επαναφερθεί.",
+    "resetSettings": "Επαναφορά Ρυθμίσεων Εφαρμογής",
+    "resetSettingsTitle": "Επαναφορά Ρυθμίσεων Εφαρμογής;",
+    "resetSettingsMessage": "Όλες οι ρυθμίσεις ήχου, θέματος και ειδοποιήσεων θα επανέλθουν στις προεπιλογές. Η μαθησιακή σας πρόοδος θα διατηρηθεί.",
+    "resetSettingsConfirm": "Επαναφορά Ρυθμίσεων",
+    "resetSettingsSuccess": "Οι ρυθμίσεις έχουν επαναφερθεί στις προεπιλογές.",
+    "resetSuccessTitle": "Ολοκληρώθηκε"
+  },
+  "quizSettingsModal": {
+    "title": "Ρυθμίσεις Κουίζ"
+  },
+  "verbsPracticeListScreen": {
+    "title": "Εξάσκηση Ρημάτων",
+    "levelHeader": "ΕΠΙΠΕΔΟ",
+    "verbCount": "ρήματα",
+    "uncompleted": "Μη ολοκληρωμένο",
+    "bronze": "Χάλκινο",
+    "silver": "Ασημένιο",
+    "trophy": "Τρόπαιο",
+    "empty": "Δεν βρέθηκαν ρήματα",
+    "checkpointTitle": "Κουίζ Ελέγχου",
+    "finalTestTitle": "Τελικό Τεστ",
+    "finalTestTitleWithLevel": "Τελικό Τεστ {level}",
+    "finalTestSubtitle": "Ολοκληρωμένο τεστ 20 ερωτήσεων για αυτό το επίπεδο",
+    "categoryFinalTestSubtitle": "Ολοκληρωμένο τεστ 20 ερωτήσεων για αυτό το θέμα",
+    "checkpointSubtitle": "Ρήματα {from} – {to}"
+  },
+  "prefixPracticeListScreen": {
+    "title": "Ρήματα με πρόθημα",
+    "levelNumber": "Επίπεδο {number}",
+    "checkpointTitle": "Σημείο Ελέγχου {level}",
+    "checkpointSubtitle": "Ολοκληρωμένο τεστ 20 ερωτήσεων για αυτό το επίπεδο",
+    "subgroupSeparable": "Χωριζόμενα Προθήματα",
+    "subgroupInseparable": "Μη Χωριζόμενα Προθήματα",
+    "subgroupOpposites": "Ζεύγη Αντιθέτων",
+    "subgroupDual": "Διπλά Προθήματα"
+  },
+  "prefixPractice": {
+    "title": "Ρήματα με πρόθημα",
+    "levelTitle": "Επίπεδο {number}",
+    "checkpointTitle": "Σημείο Ελέγχου {level}"
+  },
+  "prefixGrammarHint": {
+    "separableTitle": "Χωριζόμενο Πρόθημα",
+    "inseparableTitle": "Μη Χωριζόμενο Πρόθημα",
+    "dualTitle": "Διπλό Πρόθημα",
+    "separableRule": "Στο Präsens και στο Präteritum, τα χωριζόμενα προθήματα μετακινούνται στο τέλος της πρότασης.",
+    "inseparableRule": "Τα μη χωριζόμενα προθήματα (be-, ge-, er-, ver-, zer-, ent-, emp-, miss-) δεν χωρίζονται ποτέ από το θέμα του ρήματος.",
+    "dualRule": "Προθήματα όπως über-, um-, unter-, durch- μπορούν να είναι χωριζόμενα ή μη χωριζόμενα ανάλογα με τη σημασία του ρήματος."
+  },
+  "conjugationPracticeListScreen": {
+    "title": "Εκπαιδευτής Συζυγιών",
+    "levelNumber": "Επίπεδο {number}",
+    "checkpointTitle": "Σημείο Ελέγχου {number}",
+    "checkpointSubtitle": "Κουίζ επανάληψης με 10 τυχαία ρήματα",
+    "finalTestTitle": "Τελικό Τεστ {level}",
+    "finalTestSubtitle": "Ολοκληρωμένο τεστ 15 ρημάτων για αυτό το επίπεδο"
+  },
+  "conjugationPractice": {
+    "title": "Συζυγία",
+    "levelTitle": "Επίπεδο {number}",
+    "checkpointNumberTitle": "Σημείο Ελέγχου {number}",
+    "finalTestTitle": "Τελικό Τεστ {level}"
+  },
+  "conjugationGrammarHint": {
+    "ruleTag": "Αλλαγή Φωνήεντος",
+    "eToIRule": "Αλλαγή φωνήεντος e → i στο 2ο και 3ο πρόσωπο ενικού (du, er/sie/es).",
+    "eToIeRule": "Αλλαγή φωνήεντος e → ie στο 2ο και 3ο πρόσωπο ενικού (du, er/sie/es).",
+    "aToAeRule": "Αλλαγή φωνήεντος a → ä στο 2ο και 3ο πρόσωπο ενικού (du, er/sie/es).",
+    "auToAeuRule": "Αλλαγή φωνήεντος au → äu στο 2ο και 3ο πρόσωπο ενικού (du, er/sie/es)."
+  },
+  "verbFormsPracticeListScreen": {
+    "title": "Ανώμαλα Ρήματα",
+    "levelNumber": "Επίπεδο {number}",
+    "checkpointTitle": "Σημείο Ελέγχου {number}",
+    "checkpointSubtitle": "Κουίζ επανάληψης με 10 τυχαία ρήματα",
+    "finalTestTitle": "Τελικό Τεστ {level}",
+    "finalTestSubtitle": "Ολοκληρωμένο τεστ 15 ρημάτων για αυτό το επίπεδο"
+  },
+  "verbFormsPractice": {
+    "title": "Ανώμαλα Ρήματα",
+    "levelTitle": "Επίπεδο {number}",
+    "checkpointNumberTitle": "Σημείο Ελέγχου {number}",
+    "finalTestTitle": "Τελικό Τεστ {level}"
+  },
+  "verbFormsGrammarHint": {
+    "ruleTag": "Γραμματικός Κανόνας",
+    "strongVerbTag": "Ισχυρό Ρήμα",
+    "weakVerbTag": "Ομαλό Ρήμα",
+    "mixedVerbTag": "Μικτό Ρήμα",
+    "irregularVerbTag": "Ανώμαλο Ρήμα",
+    "modalVerbTag": "Ελλειπτικό (Modal) Ρήμα",
+    "seinRule": "Τα ρήματα κίνησης, αλλαγής κατάστασης και το sein/bleiben σχηματίζουν το Perfekt με το «sein».",
+    "habenRule": "Τα μεταβατικά, τα αυτοπαθή και τα στατικά ρήματα σχηματίζουν το Perfekt με το «haben».",
+    "strongVerbRule": "Τα ισχυρά ρήματα αλλάζουν το φωνήεν του θέματος στο Präteritum και λήγουν σε -en στο Partizip II.",
+    "weakVerbRule": "Τα κανονικά ομαλά ρήματα προσθέτουν -te στο Präteritum και ge-...-t στο Partizip II.",
+    "mixedVerbRule": "Τα μικτά ρήματα συνδυάζουν αλλαγή φωνήεντος με κανονικές καταλήξεις -te και -t."
+  },
+  "verbFormsExercise": {
+    "infinitive": "Infinitiv",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt"
+  },
+  "prepositionsPracticeListScreen": {
+    "title": "Ρήματα με Προθέσεις",
+    "levelNumber": "Επίπεδο {number}",
+    "checkpointTitle": "Σημείο Ελέγχου {number}",
+    "checkpointSubtitle": "Κουίζ επανάληψης με 10 τυχαία ρήματα",
+    "finalTestTitle": "Τελικό Τεστ {level}",
+    "finalTestSubtitle": "Ολοκληρωμένο τεστ 15 ρημάτων για αυτό το επίπεδο"
+  },
+  "prepositionsPractice": {
+    "title": "Προθέσεις",
+    "levelTitle": "Επίπεδο {number}",
+    "checkpointNumberTitle": "Σημείο Ελέγχου {number}",
+    "finalTestTitle": "Τελικό Τεστ {level}"
+  },
+  "prepositionGrammarHint": {
+    "ruleTag": "Κανόνας Πρόθεσης",
+    "questionLabel": "Ερώτηση:"
+  },
+  "verbQuizScreen": {
+    "title": "Εξάσκηση",
+    "checkpointQuizTitle": "Κουίζ Ελέγχου",
+    "smartQuizTitle": "Έξυπνο Κουίζ",
+    "conjugateVerbTitle": "Κλίνετε το ρήμα {verb}",
+    "prepositionTaskTitle": "Επιλέξτε την πρόθεση",
+    "level": "Επίπεδο",
+    "check": "Έλεγχος",
+    "continue": "Συνέχεια",
+    "exercise": "Άσκηση",
+    "correct": "Σωστά!",
+    "tryAgain": "Δοκιμάστε ξανά",
+    "fillCard": "Συμπληρώστε την κάρτα",
+    "tapToContinue": "Αγγίξτε οπουδήποτε για συνέχεια",
+    "correctAnswer": "Σωστή απάντηση:",
+    "conjugationPräsens": "Συζυγία στο Präsens",
+    "principalParts": "Κύρια Μέρη",
+    "imperativeForms": "Μορφές Imperativ",
+    "auxiliaryExplanationMovement": "Το ρήμα {verb} εκφράζει κίνηση ή αλλαγή κατάστασης, γι' αυτό σχηματίζει το Perfekt με το sein ({form}).",
+    "auxiliaryExplanationGeneral": "Το ρήμα {verb} σχηματίζει το Perfekt με το βοηθητικό ρήμα haben ({form})."
+  },
+  "quizResultsScreen": {
+    "title": "Αποτελέσματα",
+    "checkpointResultsTitle": "Αποτελέσματα Σημείου Ελέγχου",
+    "smartQuizResultsTitle": "Αποτελέσματα Έξυπνου Κουίζ",
+    "canDoBetter": "Μπορείτε και καλύτερα!",
+    "almostThere": "Σχεδόν εκεί!",
+    "closeToPerfection": "Πολύ κοντά στην τελειότητα!",
+    "youDidIt": "Τα καταφέρατε!",
+    "nextLevel": "Επόμενο επίπεδο",
+    "tryAgain": "Δοκιμάστε ξανά",
+    "verbsList": "Στη λίστα ρημάτων",
+    "backToPractice": "Πίσω στην Εξάσκηση",
+    "scoreSummary": "{correct} από {total}",
+    "showCorrectAnswers": "Εμφάνιση σωστών απαντήσεων",
+    "showAllAnswers": "Εμφάνιση όλων των απαντήσεων",
+    "showErrorsOnly": "Εμφάνιση μόνο λαθών"
+  },
+  "dailyQuizLimitModal": {
+    "title": "Συνεχίστε έτσι!",
+    "message": "Είστε πραγματικά αφοσιωμένοι στην εκμάθηση Γερμανικών!",
+    "instructions": "Πώς θέλετε να συνεχίσετε;",
+    "videoButton": "Παρακολουθήστε διαφημίσεις",
+    "or": "ή",
+    "premiumButtonWithTrial": "Δωρεάν απεριόριστα επίπεδα\nγια {daysLabel}",
+    "premiumButtonNoTrial": "Χωρίς Διαφημίσεις",
+    "premiumButtonSubtitleWithTrial": "μετά {yearlyPrice} / 3 μήνες (☕️ / μήνα)",
+    "premiumButtonSubtitleNoTrial": "{yearlyPrice} / 3 μήνες (☕️ / μήνα)",
+    "waitUntilTomorrow": "Περιμένετε μέχρι αύριο",
+    "cancelAnytime": "Ακύρωση ανά πάσα στιγμή"
+  },
+  "premiumSheets": {
+    "subscribeTitle": "Ξεκλειδώστε το Premium",
+    "subscribeSubtitle": "Ενισχύστε την εκμάθηση γερμανικών ρημάτων με προηγμένα εργαλεία.",
+    "subscribeNow": "Εγγραφείτε Τώρα",
+    "buyNow": "Αγοράστε Τώρα",
+    "viewPlans": "Προβολή Προγραμμάτων",
+    "premiumFeaturesLabel": "ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ PREMIUM",
+    "disclaimerAutoRenew": "Αυτόματη ανανέωση με {price}/{period}. Ακύρωση ανά πάσα στιγμή στις ρυθμίσεις του λογαριασμού σας.",
+    "disclaimerAutoRenewTrial": "Δωρεάν για {trialDuration}, μετά {price}/{period}. Ακύρωση ανά πάσα στιγμή.",
+    "disclaimerOneTime": "Εφάπαξ αγορά. Χωρίς επαναλαμβανόμενες χρεώσεις.",
+    "freeTrialDays": "{count} ημέρες δωρεάν δοκιμή",
+    "freeTrialWeeks": "{count} εβδομάδες δωρεάν δοκιμή",
+    "freeTrialMonths": "{count} μήνες δωρεάν δοκιμή",
+    "freeTrialYears": "{count} έτη δωρεάν δοκιμή",
+    "trialUnit": {
+      "day": "ημέρες",
+      "week": "εβδομάδες",
+      "month": "μήνες",
+      "year": "έτη"
+    },
+    "periodMonth": "μήνας",
+    "periodYear": "έτος",
+    "period3Months": "3 μήνες",
+    "period6Months": "6 μήνες",
+    "restorePurchases": "Επαναφορά Αγορών",
+    "errorTitle": "Σφάλμα",
+    "errorUnavailable": "Αυτό το πρόγραμμα δεν είναι διαθέσιμο αυτήν τη στιγμή. Παρακαλούμε δοκιμάστε ξανά αργότερα.",
+    "errorPurchase": "Η αγορά απέτυχε. Παρακαλούμε δοκιμάστε ξανά.",
+    "errorRestore": "Η επαναφορά απέτυχε. Παρακαλούμε δοκιμάστε ξανά.",
+    "restoreSuccessTitle": "Επαναφέρθηκε!",
+    "restoreSuccessMessage": "Η premium πρόσβασή σας έχει επαναφερθεί.",
+    "restoreNothingTitle": "Δεν Βρέθηκαν Αγορές",
+    "restoreNothingMessage": "Δεν μπορέσαμε να βρούμε προηγούμενες αγορές για επαναφορά.",
+    "termsOfService": "Όροι Χρήσης",
+    "privacyPolicy": "Πολιτική Απορρήτου",
+    "plans": {
+      "monthlyLabel": "1 Μήνας",
+      "monthlyPer": "Μηνιαία",
+      "yearlyLabel": "12 Μήνες",
+      "yearlyBadge": "ΚΑΛΥΤΕΡΗ ΑΞΙΑ",
+      "perMonth": "{price}/μήνα",
+      "lifetimeLabel": "Εφάπαξ",
+      "lifetimePer": "Πληρώστε Μία Φορά",
+      "lifetimeBadge": "ΜΙΑ ΦΟΡΑ",
+      "threeMonthLabel": "3 Μήνες",
+      "sixMonthLabel": "6 Μήνες",
+      "bestValueBadge": "ΚΑΛΥΤΕΡΗ ΑΞΙΑ",
+      "popularBadge": "ΔΗΜΟΦΙΛΕΣ"
+    },
+    "features": {
+      "noAdsTitle": "Μηδέν Διαφημίσεις",
+      "noAdsShort": "Μηδέν\nΔιαφημίσεις",
+      "noAdsDescription": "Μείνετε συγκεντρωμένοι και μάθετε χωρίς περισπασμούς.",
+      "unlimitedQuizzesTitle": "Απεριόριστα Κουίζ",
+      "unlimitedQuizzesShort": "Απεριόριστα\nΚουίζ",
+      "unlimitedQuizzesDescription": "Εξασκηθείτε όσο θέλετε χωρίς ημερήσια όρια.",
+      "allLevelsTitle": "Όλα τα Επίπεδα Ξεκλείδωτα",
+      "allLevelsShort": "Όλα τα\nΕπίπεδα",
+      "allLevelsDescription": "Άμεση πρόσβαση σε όλα τα επίπεδα ρημάτων A1-B2 και τα σημεία ελέγχου.",
+      "smartQuizModeTitle": "Έξυπνος Αλγόριθμος",
+      "smartQuizModeShort": "Έξυπνος\nΑλγόριθμος",
+      "smartQuizModeDescription": "Επικεντρωθείτε μόνο στα λάθη σας και μάθετε 3x πιο γρήγορα!",
+      "naturalVoiceTitle": "Φυσικός Ήχος",
+      "naturalVoiceShort": "Φυσικά\nΓερμανικά",
+      "naturalVoiceDescription": "Ακούστε τα ρήματα και τις προτάσεις να προφέρονται με φυσική γερμανική φωνή.",
+      "offlineModeTitle": "Εξάσκηση Εκτός Σύνδεσης",
+      "offlineModeShort": "Εκτός\nΣύνδεσης",
+      "offlineModeDescription": "Εξασκηθείτε στα ρήματα οποτεδήποτε, οπουδήποτε χωρίς σύνδεση στο διαδίκτυο."
+    }
+  },
+  "notifications": {
+    "reminderTitle": "Ώρα για εξάσκηση!",
+    "reminderBody": "Μια γρήγορη συνεδρία με γερμανικά ρήματα και δομές προτάσεων θα σας βοηθήσει να τα κατακτήσετε.",
+    "trialReminderTitle": "Η δωρεάν δοκιμή σας λήγει σύντομα",
+    "trialReminderBody": "Αξιοποιήστε στο έπακρο το Premium σήμερα! Η δοκιμή σας λήγει σε 24 ώρες.",
+    "streakReminderTitle": "Μην σπάσετε το σερί σας! 🔥",
+    "streakReminderBody": "Δεν έχετε εξασκηθεί σήμερα. Κάντε ένα γρήγορο κουίζ 2 λεπτών για να διατηρήσετε το σερί σας!"
+  },
+  "firstOpenPaywall": {
+    "trialBadge": "ΔΩΡΕΑΝ ΔΟΚΙΜΗ 3 ΗΜΕΡΩΝ",
+    "title": "Δοκιμάστε το Premium Πριν Πληρώσετε",
+    "subtitle": "Πώς λειτουργεί η δωρεάν δοκιμή σας.",
+    "cta": "Έναρξη Δωρεάν Δοκιμής",
+    "restore": "Επαναφορά Αγορών",
+    "proceedLimited": "Συνέχεια με περιορισμένη έκδοση",
+    "priceYearlyWithCoffee": "{price}/έτος, ένας καφές/μήνα.",
+    "price3MonthsWithCoffee": "Μόνο {price} για 3 μήνες — λιγότερο από έναν καφέ τον μήνα",
+    "disclaimer": "Αυτόματη ανανέωση με {price}/έτος. Ακύρωση ανά πάσα στιγμή στις ρυθμίσεις λογαριασμού.",
+    "disclaimerFallback": "Αυτόματη ανανέωση ετησίως. Ακύρωση ανά πάσα στιγμή στις ρυθμίσεις.",
+    "priceWithTrial": "Δωρεάν για {trialDuration}, μετά {price}/έτος",
+    "priceYearly": "{price}/έτος",
+    "timeline": {
+      "today": {
+        "day": "Σήμερα",
+        "headline": "Ξεκλειδώστε τα Πάντα",
+        "benefits": {
+          "noAds": {
+            "title": "100% Εκμάθηση Χωρίς Διαφημίσεις",
+            "text": "Μείνετε συγκεντρωμένοι στους στόχους σας με μια καθαρή εμπειρία μελέτης χωρίς περισπασμούς."
+          },
+          "unlimitedQuizzes": {
+            "title": "Απεριόριστα Κουίζ",
+            "text": "Εξασκηθείτε όσο θέλετε χωρίς ημερήσια όρια ή αναμονή."
+          },
+          "allLevels": {
+            "title": "Όλα τα Επίπεδα A1–B2 Ξεκλείδωτα",
+            "text": "Άμεση πρόσβαση σε όλες τις κάρτες ρημάτων, τα σημεία ελέγχου γραμματικής και τα τεστ."
+          },
+          "smartQuizMode": {
+            "title": "Έξυπνη Διόρθωση Λαθών",
+            "text": "Στοχεύστε στις προσωπικές σας αδυναμίες για να κατακτήσετε τα γερμανικά ρήματα 3x πιο γρήγορα."
+          },
+          "offlineMode": {
+            "title": "Εξάσκηση Εκτός Σύνδεσης",
+            "text": "Εξασκηθείτε στα γερμανικά ρήματα οποτεδήποτε, οπουδήποτε χωρίς σύνδεση στο διαδίκτυο."
+          }
+        }
+      },
+      "day2": {
+        "day": "Ημέρα 2",
+        "headline": "Υπενθύμιση Δοκιμής",
+        "description": "Θα σας στείλουμε μια φιλική υπενθύμιση πριν λήξει η δοκιμή σας — χωρίς εκπλήξεις."
+      },
+      "day3": {
+        "day": "Ημέρα 3",
+        "headline": "Έναρξη 3-μηνης Πρόσβασης",
+        "description": "Η δοκιμή σας μετατρέπεται σε 3-μηνη πρόσβαση. Ακύρωση ανά πάσα στιγμή στις ρυθμίσεις."
+      }
+    }
+  },
+  "offlineModal": {
+    "title": "Απαιτείται Διαδίκτυο",
+    "message": "Αναβαθμίστε στο Premium για εξάσκηση εκτός σύνδεσης οποτεδήποτε, οπουδήποτε.",
+    "getPremium": "Απόκτηση Premium",
+    "retry": "Επανάληψη",
+    "enableOffline": "Ενεργοποίηση Εκτός Σύνδεσης",
+    "premiumButtonWithTrial": "Δωρεάν Premium για {daysLabel}",
+    "premiumButtonNoTrial": "Απόκτηση Premium"
+  }
+}
