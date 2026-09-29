@@ -149,24 +149,16 @@ export async function getOfferings(): Promise<PurchasesOfferings | null> {
         allOfferingKeys: Object.keys(offerings.all || {}),
       });
     }
-    if (offerings.current !== null && offerings.current.availablePackages.length > 0) {
-      return offerings;
-    }
+    const activeOffering =
+      offerings.current ||
+      offerings.all?.premium ||
+      (offerings.all ? Object.values(offerings.all)[0] : null);
 
-    // Fallback to first available offering in offerings.all if current is not explicitly set as default
-    const allKeys = Object.keys(offerings.all || {});
-    if (allKeys.length > 0) {
-      const firstKey = allKeys[0];
-      const fallbackOffering = offerings.all[firstKey];
-      if (fallbackOffering && fallbackOffering.availablePackages.length > 0) {
-        if (__DEV__) {
-          console.log('[RevenueCat] Using first offering as fallback:', firstKey);
-        }
-        return {
-          ...offerings,
-          current: fallbackOffering,
-        };
-      }
+    if (activeOffering && activeOffering.availablePackages?.length > 0) {
+      return {
+        ...offerings,
+        current: activeOffering,
+      };
     }
 
     return null;
@@ -186,7 +178,7 @@ export interface FreeTrialInfo {
 export interface MappedPackage {
   pkg: PurchasesPackage;
   priceString: string;
-  /** Price per month string (only for annual) */
+  /** Price per month string (only for 3m / 6m) */
   monthlyPriceString?: string;
   /** Free trial info */
   freeTrialInfo?: FreeTrialInfo;
@@ -196,8 +188,6 @@ export type MappedPackages = {
   monthly: MappedPackage | null;
   threeMonth: MappedPackage | null;
   sixMonth: MappedPackage | null;
-  yearly: MappedPackage | null;
-  lifetime: MappedPackage | null;
 };
 
 /**
@@ -211,76 +201,31 @@ export async function getMappedPackages(): Promise<MappedPackages | null> {
     const packagesList = offerings.current.availablePackages;
 
     const findPackage = (
-      packageType: PACKAGE_TYPE,
-      identifiers: string[],
-      productIdentifiers: string[],
+      packageId: string,
+      iosProductId: string,
+      androidProductId: string,
     ): PurchasesPackage | undefined =>
       packagesList.find(
         p =>
-          p.packageType === packageType ||
-          identifiers.includes(p.identifier?.toLowerCase()) ||
-          productIdentifiers.some(
-            id =>
-              p.product?.identifier?.toLowerCase() === id ||
-              p.product?.identifier?.toLowerCase().startsWith(`${id}:`),
-          ),
+          p.identifier === packageId ||
+          p.product?.identifier === iosProductId ||
+          p.product?.identifier === androidProductId,
       );
 
     const monthlyPackage = findPackage(
-      PACKAGE_TYPE.MONTHLY,
-      ['$rc_monthly', 'monthly', 'month', 'premium_monthly', '1month', 'dasverb_premium_monthly'],
-      ['premium_monthly', 'monthly', 'dasverb_monthly', 'dasverb_premium_monthly'],
+      '$rc_monthly',
+      'dasverb_premium_monthly',
+      'dasverb_premium_monthly:dasverb-premium-monthly',
     );
     const threeMonthPackage = findPackage(
-      PACKAGE_TYPE.THREE_MONTH,
-      [
-        '$rc_three_month',
-        'three_month',
-        '3months',
-        '3month',
-        'premium_3months',
-        'dasverb_premium_3months',
-      ],
-      ['premium_3months', 'three_month', 'dasverb_3months', 'dasverb_premium_3months'],
+      '$rc_three_month',
+      'dasverb_premium_3months',
+      'dasverb_premium_3months:dasverb-premium-3months',
     );
     const sixMonthPackage = findPackage(
-      PACKAGE_TYPE.SIX_MONTH,
-      [
-        '$rc_six_month',
-        'six_month',
-        '6months',
-        '6month',
-        'premium_6months',
-        'dasverb_premium_6months',
-      ],
-      ['premium_6months', 'six_month', 'dasverb_6months', 'dasverb_premium_6months'],
-    );
-    const annualPackage = findPackage(
-      PACKAGE_TYPE.ANNUAL,
-      [
-        '$rc_annual',
-        '$rc_yearly',
-        'annual',
-        'yearly',
-        'year',
-        'premium_yearly',
-        '12months',
-        '1year',
-        'dasverb_premium_yearly',
-      ],
-      ['premium_yearly', 'yearly', 'annual', 'dasverb_yearly', 'dasverb_premium_yearly'],
-    );
-    const lifetimePackage = findPackage(
-      PACKAGE_TYPE.LIFETIME,
-      [
-        '$rc_lifetime',
-        'lifetime',
-        'forever',
-        'premium_lifetime',
-        'onetime',
-        'dasverb_premium_lifetime',
-      ],
-      ['premium_lifetime', 'lifetime', 'dasverb_lifetime', 'dasverb_premium_lifetime'],
+      '$rc_six_month',
+      'dasverb_premium_6months',
+      'dasverb_premium_6months:dasverb-premium-6months',
     );
 
     const userHadTrial = getTrialStartDate() !== null;
@@ -310,37 +255,20 @@ export async function getMappedPackages(): Promise<MappedPackages | null> {
     const threeMonthMapped = buildMapped(threeMonthPackage);
     if (threeMonthMapped && threeMonthPackage?.product?.price) {
       const { price, currencyCode } = threeMonthPackage.product;
-      const monthlyPrice = price / 3;
-      threeMonthMapped.monthlyPriceString = formatPrice(monthlyPrice, currencyCode || 'USD');
+      threeMonthMapped.monthlyPriceString = formatPrice(price / 3, currencyCode || 'USD');
     }
 
     const sixMonthMapped = buildMapped(sixMonthPackage);
     if (sixMonthMapped && sixMonthPackage?.product?.price) {
       const { price, currencyCode } = sixMonthPackage.product;
-      const monthlyPrice = price / 6;
-      sixMonthMapped.monthlyPriceString = formatPrice(monthlyPrice, currencyCode || 'USD');
+      sixMonthMapped.monthlyPriceString = formatPrice(price / 6, currencyCode || 'USD');
     }
 
-    const annualMapped = buildMapped(annualPackage);
-    if (annualMapped && annualPackage?.product?.price) {
-      const { price, currencyCode } = annualPackage.product;
-      const monthlyPrice = price / 12;
-      annualMapped.monthlyPriceString = formatPrice(monthlyPrice, currencyCode || 'USD');
-    }
-
-    if (
-      monthlyPackage ||
-      threeMonthPackage ||
-      sixMonthPackage ||
-      annualPackage ||
-      lifetimePackage
-    ) {
+    if (monthlyPackage || threeMonthPackage || sixMonthPackage) {
       return {
         monthly: buildMapped(monthlyPackage),
         threeMonth: threeMonthMapped,
         sixMonth: sixMonthMapped,
-        yearly: annualMapped,
-        lifetime: buildMapped(lifetimePackage),
       };
     }
   }
@@ -397,8 +325,6 @@ export async function getMappedPackages(): Promise<MappedPackages | null> {
         priceString: '€14.99',
         monthlyPriceString: '€2.50',
       },
-      yearly: null,
-      lifetime: null,
     };
   }
 
