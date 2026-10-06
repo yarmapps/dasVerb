@@ -43,7 +43,27 @@
   "id": "kommen_dat_zu",
   "translation": {
     "ru": "приходить (к кому-то/на встречу)",
-    "en": "to come (to someone/to an event)"
+    "en": "to come (to someone/to an event)",
+    "de": "besuchen, hingehen zu, ankommen bei",
+    "es": "ir a casa de, acudir a, asistir a",
+    "fr": "aller chez, venir à, assister à",
+    "it": "andare da, venire a, partecipare a",
+    "pt": "ir a (alguém), comparecer a, ir para",
+    "nl": "komen naar, gaan naar (iemand/evenement)",
+    "pl": "przychodzić do, udawać się do",
+    "cs": "přijít k, zajít na (akci)",
+    "sk": "prísť k, zájsť na (udalosť)",
+    "sl": "priti k, obiskati",
+    "hr": "dolaziti k, ići na (događaj)",
+    "hu": "ellátogat vkihez, elmegy vhová",
+    "ro": "a veni la (cineva/un eveniment)",
+    "el": "πηγαίνω σε, επισκέπτομαι",
+    "uk": "приходити (до когось/на захід)",
+    "tr": "-e gitmek, gelmek (birine/etkinliğe)",
+    "vi": "đến (gặp ai/dự sự kiện)",
+    "id": "datang ke (seseorang/acara)",
+    "ar": "يأتي إلى (شخص أو مناسبة)",
+    "fa": "آمدن پیش، رفتن به (رویداد)"
   },
   "rektion": {
     "requires_object": false,
@@ -59,7 +79,27 @@
       "german": "Ich komme heute zu deiner Party",
       "translation": {
         "ru": "Я приду сегодня на твою вечеринку",
-        "en": "I am coming to your party today"
+        "en": "I am coming to your party today",
+        "de": "Ich komme heute zu deiner Party.",
+        "es": "Hoy voy a tu fiesta.",
+        "fr": "Je viens à ta fête aujourd'hui.",
+        "it": "Oggi vengo alla tua festa.",
+        "pt": "Hoje vou à sua festa.",
+        "nl": "Ik kom vandaag naar jouw feestje.",
+        "pl": "Przyjdę dzisiaj na twoją imprezę.",
+        "cs": "Dnes přijdu na tvou oslavu.",
+        "sk": "Dnes prídem na tvoju párty.",
+        "sl": "Danes pridem na tvojo zabavo.",
+        "hr": "Danas dolazim na tvoju zabavu.",
+        "hu": "Ma elmegyek a bulidra.",
+        "ro": "Vin astăzi la petrecerea ta.",
+        "el": "Έρχομαι σήμερα στο πάρτι σου.",
+        "uk": "Я прийду сьогодні на твою вечірку.",
+        "tr": "Bugün partine geliyorum.",
+        "vi": "Hôm nay tôi sẽ đến bữa tiệc của bạn.",
+        "id": "Hari ini saya akan datang ke pestamu.",
+        "ar": "سآتي اليوم إلى حفلتك.",
+        "fa": "من امروز به مهمانی‌ات می‌آیم."
       },
       "bracket_parts": [
         "komme"
@@ -74,7 +114,27 @@
       "german": "Kommst du morgen zu mir?",
       "translation": {
         "ru": "Ты придешь завтра ко мне?",
-        "en": "Are you coming to my place tomorrow?"
+        "en": "Are you coming to my place tomorrow?",
+        "de": "Kommst du morgen zu mir?",
+        "es": "¿Vienes a mi casa mañana?",
+        "fr": "Tu viens chez moi demain ?",
+        "it": "Vieni da me domani?",
+        "pt": "Você vem à minha casa amanhã?",
+        "nl": "Kom je morgen naar mij?",
+        "pl": "Przyjdziesz jutro do mnie?",
+        "cs": "Přijdeš zítra ke mně?",
+        "sk": "Prídeš zajtra ku mne?",
+        "sl": "Prideš jutri k meni?",
+        "hr": "Dolaziš li sutra k meni?",
+        "hu": "Eljössz hozzám holnap?",
+        "ro": "Vii mâine la mine?",
+        "el": "Θα έρθεις σε μένα αύριο;",
+        "uk": "Ти прийдеш завтра до мене?",
+        "tr": "Yarın bana gelecek misin?",
+        "vi": "Ngày mai bạn đến nhà tôi nhé?",
+        "id": "Apakah kamu akan datang ke tempatku besok?",
+        "ar": "هل ستأتي إليّ غداً؟",
+        "fa": "آیا فردا پیش من می‌آیی؟"
       },
       "bracket_parts": [
         "Kommst"
@@ -89,7 +149,27 @@
       "german": "Er kommt am Nachmittag zum Arzt",
       "translation": {
         "ru": "Во второй половине дня он приходит к врачу",
-        "en": "He comes to the doctor in the afternoon"
+        "en": "He comes to the doctor in the afternoon",
+        "de": "Er kommt am Nachmittag zum Arzt.",
+        "es": "Por la tarde él va al médico.",
+        "fr": "Il va chez le médecin l'après-midi.",
+        "it": "Nel pomeriggio lui va dal medico.",
+        "pt": "À tarde ele vai ao médico.",
+        "nl": "Hij gaat 's middags naar de dokter.",
+        "pl": "Po południu on idzie do lekarza.",
+        "cs": "Odpoledne jde k lékaři.",
+        "sk": "Popoludní ide k lekárovi.",
+        "sl": "Popoldne gre k zdravniku.",
+        "hr": "Poslijepodne ide liječniku.",
+        "hu": "Délután megy az orvoshoz.",
+        "ro": "După-amiază el merge la medic.",
+        "el": "Το απόγευμα πάει στον γιατρό.",
+        "uk": "У другій половині дня він іде до лікаря.",
+        "tr": "Öğleden sonra doktora geliyor.",
+        "vi": "Chiều nay anh ấy đến gặp bác sĩ.",
+        "id": "Dia pergi ke dokter pada sore hari.",
+        "ar": "سيذهب في فترة بعد الظهر إلى الطبيب.",
+        "fa": "او بعدازظهر پیش دکتر می‌رود."
       },
       "bracket_parts": [
         "kommt"
@@ -104,7 +184,27 @@
       "german": "Wir kommen gerne zu eurem Fest",
       "translation": {
         "ru": "Мы с удовольствием придем на ваш праздник",
-        "en": "We are happy to come to your celebration"
+        "en": "We are happy to come to your celebration",
+        "de": "Wir kommen gerne zu eurem Fest.",
+        "es": "Iremos con gusto a su fiesta.",
+        "fr": "Nous viendrons avec plaisir à votre fête.",
+        "it": "Verremo volentieri alla vostra festa.",
+        "pt": "Iremos com prazer à festa de vocês.",
+        "nl": "Wij komen graag naar jullie feest.",
+        "pl": "Chętnie przyjdziemy na wasze święto.",
+        "cs": "Rádi přijdeme na vaši oslavu.",
+        "sk": "Radi prídeme na vašu oslavu.",
+        "sl": "Z veseljem pridemo na vaše praznovanje.",
+        "hr": "Rado ćemo doći na vašu proslavu.",
+        "hu": "Szívesen elmegyünk az ünnepségetekre.",
+        "ro": "Venim cu plăcere la serbarea voastră.",
+        "el": "Θα έρθουμε με χαρά στη γιορτή σας.",
+        "uk": "Ми із задоволенням прийдемо на ваше свято.",
+        "tr": "Kutlamanıza seve seve geliriz.",
+        "vi": "Chúng tôi rất vui được đến dự lễ hội của các bạn.",
+        "id": "Kami dengan senang hati akan datang ke perayaan kalian.",
+        "ar": "يسرنا أن نأتي إلى حفلكم.",
+        "fa": "ما با کمال میل به جشن شما می‌آییم."
       },
       "bracket_parts": [
         "kommen"
@@ -119,7 +219,27 @@
       "german": "Kommt ihr heute zum Abendessen?",
       "translation": {
         "ru": "Вы придете сегодня на ужин?",
-        "en": "Are you coming to dinner today?"
+        "en": "Are you coming to dinner today?",
+        "de": "Kommt ihr heute zum Abendessen?",
+        "es": "¿Vienen hoy a cenar?",
+        "fr": "Vous venez dîner aujourd'hui ?",
+        "it": "Venite a cena oggi?",
+        "pt": "Vocês vêm para o jantar hoje?",
+        "nl": "Komen jullie vandaag voor het avondeten?",
+        "pl": "Przyjdziecie dzisiaj na kolację?",
+        "cs": "Přijdete dnes na večeři?",
+        "sk": "Prídete dnes na večeru?",
+        "sl": "Pridete danes na večerjo?",
+        "hr": "Dolazite li danas na večeru?",
+        "hu": "Jöttök ma vacsorára?",
+        "ro": "Veniți astăzi la cină?",
+        "el": "Θα έρθετε για δείπνο σήμερα;",
+        "uk": "Ви прийдете сьогодні на вечерю?",
+        "tr": "Bugün akşam yemeğine geliyor musunuz?",
+        "vi": "Tối nay các bạn có đến ăn tối không?",
+        "id": "Apakah kalian akan datang untuk makan malam hari ini?",
+        "ar": "هل ستأتون لتناول العشاء اليوم؟",
+        "fa": "آیا امروز برای شام می‌آیید؟"
       },
       "bracket_parts": [
         "Kommt"
@@ -134,7 +254,27 @@
       "german": "Gestern kam sie pünktlich zum Treffen",
       "translation": {
         "ru": "Вчера она пришла вовремя на встречу",
-        "en": "Yesterday she came on time to the meeting"
+        "en": "Yesterday she came on time to the meeting",
+        "de": "Gestern kam sie pünktlich zum Treffen.",
+        "es": "Ayer ella llegó puntual a la reunión.",
+        "fr": "Hier, elle est arrivée à l'heure au rendez-vous.",
+        "it": "Ieri è arrivata puntuale all'incontro.",
+        "pt": "Ontem ela chegou pontual ao encontro.",
+        "nl": "Gisteren kwam ze op tijd voor de afspraak.",
+        "pl": "Wczoraj przyszła punktualnie na spotkanie.",
+        "cs": "Včera přišla na schůzku včas.",
+        "sk": "Včera prišla na stretnutie načas.",
+        "sl": "Včeraj je prišla točno na sestanek.",
+        "hr": "Jučer je točno na vrijeme došla na sastanak.",
+        "hu": "Tegnap pontosan érkezett a találkozóra.",
+        "ro": "Ieri a sosit la timp la întâlnire.",
+        "el": "Χθες έφτασε στην ώρα της στη συνάντηση.",
+        "uk": "Учора вона прийшла вчасно на зустріч.",
+        "tr": "Dün toplantıya vaktinde geldi.",
+        "vi": "Hôm qua cô ấy đã đến cuộc hẹn đúng giờ.",
+        "id": "Kemarin dia datang tepat waktu ke pertemuan.",
+        "ar": "أمس وصلت في الوقت المحدد للاجتماع.",
+        "fa": "دیروز او سر وقت به جلسه رسید."
       },
       "bracket_parts": [
         "kam"
@@ -149,7 +289,27 @@
       "german": "Sie sind gestern zu uns zu Besuch gekommen",
       "translation": {
         "ru": "Они вчера пришли к нам в гости",
-        "en": "They came to visit us yesterday"
+        "en": "They came to visit us yesterday",
+        "de": "Sie sind gestern zu uns zu Besuch gekommen.",
+        "es": "Ellos vinieron a visitarnos ayer.",
+        "fr": "Ils sont venus nous rendre visite hier.",
+        "it": "Ieri sono venuti a trovarci.",
+        "pt": "Ontem eles vieram nos visitar.",
+        "nl": "Ze zijn gisteren bij ons op bezoek gekomen.",
+        "pl": "Wczoraj przyszli do nas w odwiedziny.",
+        "cs": "Včera nás přišli navštívit.",
+        "sk": "Včera nás prišli navštíviť.",
+        "sl": "Včeraj so nas prišli obiskat.",
+        "hr": "Jučer su nam došli u posjet.",
+        "hu": "Tegnap eljöttek hozzánk látogatóba.",
+        "ro": "Au venit în vizită la noi ieri.",
+        "el": "Χθες ήρθαν να μας επισκεφθούν.",
+        "uk": "Вони вчора прийшли до нас у гості.",
+        "tr": "Dün bize ziyarete geldiler.",
+        "vi": "Hôm qua họ đã đến thăm chúng tôi.",
+        "id": "Kemarin mereka datang berkunjung ke tempat kami.",
+        "ar": "لقد جاءوا لزيارتنا أمس.",
+        "fa": "آن‌ها دیروز به دیدن ما آمدند."
       },
       "bracket_parts": [
         "sind",
@@ -165,7 +325,27 @@
       "german": "Komm bitte schnell zu mir!",
       "translation": {
         "ru": "Подойди, пожалуйста, быстрее ко мне!",
-        "en": "Please come to me quickly!"
+        "en": "Please come to me quickly!",
+        "de": "Komm bitte schnell zu mir!",
+        "es": "¡Por favor, ven rápido hacia mí!",
+        "fr": "Viens vite vers moi, s'il te plaît !",
+        "it": "Vieni presto da me, per favore!",
+        "pt": "Por favor, venha rápido até mim!",
+        "nl": "Kom alsjeblieft snel naar me toe!",
+        "pl": "Przyjdź, proszę, szybko do mnie!",
+        "cs": "Pojď prosím rychle ke mně!",
+        "sk": "Poď prosím rýchlo ku mne!",
+        "sl": "Prosim, pridi hitro k meni!",
+        "hr": "Dođi brzo k meni, molim te!",
+        "hu": "Kérlek, gyere gyorsan hozzám!",
+        "ro": "Vino repede la mine, te rog!",
+        "el": "Έλα γρήγορα σε μένα, σε παρακαλώ!",
+        "uk": "Підійди, будь ласка, швидше до мене!",
+        "tr": "Lütfen çabuk yanıma gel!",
+        "vi": "Làm ơn nhanh lại đây với tôi!",
+        "id": "Tolong cepat datang ke tempatku!",
+        "ar": "تعال إليّ بسرعة من فضلك!",
+        "fa": "لطفاً زود پیش من بیا!"
       },
       "bracket_parts": [
         "Komm"

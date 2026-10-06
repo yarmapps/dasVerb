@@ -43,7 +43,27 @@
   "id": "helfen_dat",
   "translation": {
     "ru": "помогать (кому-то)",
-    "en": "to help (someone)"
+    "en": "to help (someone)",
+    "de": "helfen, Beistand leisten",
+    "es": "ayudar",
+    "fr": "aider",
+    "it": "aiutare",
+    "pt": "ajudar",
+    "nl": "helpen",
+    "pl": "pomagać",
+    "cs": "pomáhat, pomoci",
+    "sk": "pomáhať, pomôcť",
+    "sl": "pomagati",
+    "hr": "pomagati, pomoći",
+    "hu": "segíteni",
+    "ro": "a ajuta",
+    "el": "βοηθώ",
+    "uk": "допомагати (комусь)",
+    "tr": "yardım etmek",
+    "vi": "giúp đỡ",
+    "id": "membantu, menolong",
+    "ar": "ساعد / يعاون",
+    "fa": "کمک کردن، یاری رساندن"
   },
   "rektion": {
     "requires_object": true,
@@ -59,7 +79,27 @@
       "german": "Ich helfe dir sehr gerne",
       "translation": {
         "ru": "Я с удовольствием помогу тебе",
-        "en": "I am very happy to help you"
+        "en": "I am very happy to help you",
+        "de": "Ich helfe dir sehr gerne",
+        "es": "Te ayudo con mucho gusto",
+        "fr": "Je t'aide très volontiers",
+        "it": "Ti aiuto molto volentieri",
+        "pt": "Ajudo você com muito prazer",
+        "nl": "Ik help je heel graag",
+        "pl": "Bardzo chętnie ci pomogę",
+        "cs": "Moc rád ti pomůžu",
+        "sk": "Veľmi rád ti pomôžem",
+        "sl": "Zelo rad ti pomagam",
+        "hr": "Vrlo rado ću ti pomoći",
+        "hu": "Nagyon szívesen segítek neked",
+        "ro": "Te ajut cu mare plăcere",
+        "el": "Σε βοηθάω πολύ ευχάριστα",
+        "uk": "Я із задоволенням допоможу тобі",
+        "tr": "Sana seve seve yardım ederim",
+        "vi": "Tôi rất vui lòng giúp bạn",
+        "id": "Saya sangat senang membantumu",
+        "ar": "يسعدني جداً أن أساعدك",
+        "fa": "من با کمال میل به تو کمک می‌کنم"
       },
       "bracket_parts": [
         "helfe"
@@ -74,7 +114,27 @@
       "german": "Hilfst du mir bitte bei den Hausaufgaben?",
       "translation": {
         "ru": "Поможешь мне, пожалуйста, с домашним заданием?",
-        "en": "Can you please help me with the homework?"
+        "en": "Can you please help me with the homework?",
+        "de": "Hilfst du mir bitte bei den Hausaufgaben?",
+        "es": "¿Me ayudas con los deberes, por favor?",
+        "fr": "Peux-tu m'aider pour mes devoirs, s'il te plaît ?",
+        "it": "Mi aiuti con i compiti, per favore?",
+        "pt": "Você pode me ajudar com a lição de casa, por favor?",
+        "nl": "Help je me alsjeblieft met het huiswerk?",
+        "pl": "Pomożesz mi proszę z zadaniem domowym?",
+        "cs": "Pomůžeš mi prosím s domácím úkolem?",
+        "sk": "Pomôžeš mi prosím s domácou úlohou?",
+        "sl": "Mi lahko prosim pomagaš pri domači nalogi?",
+        "hr": "Možeš li mi, molim te, pomoći oko domaće zadaće?",
+        "hu": "Segítesz nekem kérlek a házi feladatban?",
+        "ro": "Mă ajuți la teme, te rog?",
+        "el": "Με βοηθάς στα μαθήματα, σε παρακαλώ;",
+        "uk": "Допоможеш мені, будь ласка, з домашнім завданням?",
+        "tr": "Ödevlerimde bana yardım eder misin lütfen?",
+        "vi": "Bạn có thể vui lòng giúp tôi làm bài tập về nhà không?",
+        "id": "Bisakah kamu membantuku mengerjakan PR?",
+        "ar": "هل تساعدني في الواجب المدرسي من فضلك؟",
+        "fa": "می‌توانی لطفاً در تکالیف مدرسه به من کمک کنی؟"
       },
       "bracket_parts": [
         "Hilfst"
@@ -89,7 +149,27 @@
       "german": "Er hilft seinem Nachbarn im Garten",
       "translation": {
         "ru": "Он помогает своему соседу в саду",
-        "en": "He helps his neighbor in the garden"
+        "en": "He helps his neighbor in the garden",
+        "de": "Er hilft seinem Nachbarn im Garten",
+        "es": "Él ayuda a su vecino en el jardín",
+        "fr": "Il aide son voisin dans le jardin",
+        "it": "Lui aiuta il suo vicino in giardino",
+        "pt": "Ele ajuda o vizinho no jardim",
+        "nl": "Hij helpt zijn buurman in de tuin",
+        "pl": "On pomaga swojemu sąsiadowi w ogrodzie",
+        "cs": "Pomáhá svému sousedovi na zahradě",
+        "sk": "Pomáha svojmu susedovi v záhrade",
+        "sl": "Svojemu sosedu pomaga na vrtu",
+        "hr": "On pomaže svom susjedu u vrtu",
+        "hu": "Segít a szomszédjának a kertben",
+        "ro": "El îl ajută pe vecinul său în grădină",
+        "el": "Βοηθάει τον γείτονά του στον κήπο",
+        "uk": "Він допомагає своєму сусідові в саду",
+        "tr": "Bahçede komşusuna yardım ediyor",
+        "vi": "Anh ấy giúp người hàng xóm trong vườn",
+        "id": "Dia membantu tetangganya di kebun",
+        "ar": "يساعد جاره في الحديقة",
+        "fa": "او به همسایه‌اش در باغچه کمک می‌کند"
       },
       "bracket_parts": [
         "hilft"
@@ -104,7 +184,27 @@
       "german": "Wir helfen den Touristen in der Stadt",
       "translation": {
         "ru": "Мы помогаем туристам в городе",
-        "en": "We help the tourists in the city"
+        "en": "We help the tourists in the city",
+        "de": "Wir helfen den Touristen in der Stadt",
+        "es": "Ayudamos a los turistas en la ciudad",
+        "fr": "Nous aidons les touristes dans la ville",
+        "it": "Aiutiamo i turisti in città",
+        "pt": "Ajudamos os turistas na cidade",
+        "nl": "We helpen de toeristen in de stad",
+        "pl": "Pomagamy turystom w mieście",
+        "cs": "Pomáháme turistům ve městě",
+        "sk": "Pomáhame turistom v meste",
+        "sl": "Turistom pomagamo v mestu",
+        "hr": "Pomažemo turistima u gradu",
+        "hu": "Segítünk a turistáknak a városban",
+        "ro": "Îi ajutăm pe turiști în oraș",
+        "el": "Βοηθάμε τους τουρίστες στην πόλη",
+        "uk": "Ми допомагаємо туристам у місті",
+        "tr": "Şehirdeki turistlere yardım ediyoruz",
+        "vi": "Chúng tôi giúp đỡ những người khách du lịch trong thành phố",
+        "id": "Kami membantu wisatawan di kota",
+        "ar": "نساعد السياح في المدينة",
+        "fa": "ما به گردشگران در شهر کمک می‌کنیم"
       },
       "bracket_parts": [
         "helfen"
@@ -119,7 +219,27 @@
       "german": "Helft ihr euren Freunden beim Umzug?",
       "translation": {
         "ru": "Вы помогаете вашим друзьям с переездом?",
-        "en": "Are you helping your friends with the move?"
+        "en": "Are you helping your friends with the move?",
+        "de": "Helft ihr euren Freunden beim Umzug?",
+        "es": "¿Ayudáis a vuestros amigos con la mudanza?",
+        "fr": "Aidez-vous vos amis pour le déménagement ?",
+        "it": "Aiutate i vostri amici con il trasloco?",
+        "pt": "Vocês estão ajudando seus amigos na mudança?",
+        "nl": "Helpen jullie je vrienden met verhuizen?",
+        "pl": "Pomagacie swoim przyjaciołom w przeprowadzce?",
+        "cs": "Pomáháte svým přátelům se stěhováním?",
+        "sk": "Pomáhate svojim priateľom so sťahovaním?",
+        "sl": "Ali pomagate svojim prijateljem pri selitvi?",
+        "hr": "Pomažete li svojim prijateljima oko selidbe?",
+        "hu": "Segítetek a barátaitoknak a költözésben?",
+        "ro": "Vă ajutați prietenii la mutare?",
+        "el": "Βοηθάτε τους φίλους σας στη μετακόμιση;",
+        "uk": "Ви допомагаєте своїм друзям із переїздом?",
+        "tr": "Taşınırken arkadaşlarınıza yardım ediyor musunuz?",
+        "vi": "Các bạn có giúp bạn bè chuyển nhà không?",
+        "id": "Apakah kalian membantu teman-teman kalian saat pindahan?",
+        "ar": "هل تساعدون أصدقاءكم في الانتقال؟",
+        "fa": "آیا در اسباب‌کشی به دوستانتان کمک می‌کنید؟"
       },
       "bracket_parts": [
         "Helft"
@@ -134,7 +254,27 @@
       "german": "Gestern half sie einer alten Dame über die Straße",
       "translation": {
         "ru": "Вчера она помогла пожилой даме перейти улицу",
-        "en": "Yesterday she helped an elderly lady cross the street"
+        "en": "Yesterday she helped an elderly lady cross the street",
+        "de": "Gestern half sie einer alten Dame über die Straße",
+        "es": "Ayer ella ayudó a una anciana a cruzar la calle",
+        "fr": "Hier, elle a aidé une vieille dame à traverser la rue",
+        "it": "Ieri ha aiutato un'anziana signora ad attraversare la strada",
+        "pt": "Ontem ela ajudou uma senhora idosa a atravessar a rua",
+        "nl": "Gisteren hielp ze een oude dame oversteken",
+        "pl": "Wczoraj pomogła starszej pani przejść przez ulicę",
+        "cs": "Včera pomohla starší dámě přejít ulici",
+        "sk": "Včera pomohla staršej dáme prejsť cez cestu",
+        "sl": "Včeraj je starejši gospe pomagala čez cesto",
+        "hr": "Jučer je pomogla starijoj gospođi prijeći ulicu",
+        "hu": "Tegnap segített egy idős hölgynek átkelni az utcán",
+        "ro": "Ieri a ajutat o doamnă în vârstă să traverseze strada",
+        "el": "Χθες βοήθησε μια ηλικιωμένη κυρία να περάσει τον δρόμο",
+        "uk": "Вчора вона допомогла літній дамі перейти вулицю",
+        "tr": "Dün yaşlı bir hanımın karşıdan karşıya geçmesine yardım etti",
+        "vi": "Hôm qua cô ấy đã giúp một bà cụ qua đường",
+        "id": "Kemarin dia membantu seorang wanita tua menyeberang jalan",
+        "ar": "ساعدت سيدة مسنة في عبور الشارع بالأمس",
+        "fa": "دیروز او به یک خانم مسن کمک کرد تا از خیابان عبور کند"
       },
       "bracket_parts": [
         "half"
@@ -149,7 +289,27 @@
       "german": "Sie haben uns gestern sehr geholfen",
       "translation": {
         "ru": "Они вчера нам очень помогли",
-        "en": "They helped us a lot yesterday"
+        "en": "They helped us a lot yesterday",
+        "de": "Sie haben uns gestern sehr geholfen",
+        "es": "Ayer nos ayudaron muchísimo",
+        "fr": "Ils nous ont beaucoup aidés hier",
+        "it": "Ieri ci hanno aiutato moltissimo",
+        "pt": "Eles nos ajudaram muito ontem",
+        "nl": "Ze hebben ons gisteren heel erg geholpen",
+        "pl": "Bardzo nam wczoraj pomogli",
+        "cs": "Včera nám moc pomohli",
+        "sk": "Včera nám veľmi pomohli",
+        "sl": "Včeraj so nam zelo pomagali",
+        "hr": "Jučer su nam jako pomogli",
+        "hu": "Tegnap nagyon sokat segítettek nekünk",
+        "ro": "Ne-au ajutat foarte mult ieri",
+        "el": "Μας βοήθησαν πάρα πολύ χθες",
+        "uk": "Вони вчора нам дуже допомогли",
+        "tr": "Dün bize çok yardım ettiler",
+        "vi": "Hôm qua họ đã giúp chúng tôi rất nhiều",
+        "id": "Mereka sangat membantu kami kemarin",
+        "ar": "لقد ساعدونا كثيراً بالأمس",
+        "fa": "آن‌ها دیروز خیلی به ما کمک کردند"
       },
       "bracket_parts": [
         "haben",
@@ -165,7 +325,27 @@
       "german": "Hilf mir bitte kurz!",
       "translation": {
         "ru": "Помоги мне, пожалуйста, на минутку!",
-        "en": "Please help me for a moment!"
+        "en": "Please help me for a moment!",
+        "de": "Hilf mir bitte kurz!",
+        "es": "¡Ayúdame un momento, por favor!",
+        "fr": "Aide-moi un instant, s'il te plaît !",
+        "it": "Aiutami un attimo, per favore!",
+        "pt": "Por favor, me ajude um minuto!",
+        "nl": "Help me alsjeblieft even!",
+        "pl": "Pomóż mi proszę na chwilę!",
+        "cs": "Pomoz mi prosím na chvilku!",
+        "sk": "Pomôž mi prosím na chvíľu!",
+        "sl": "Pomagaj mi za hip, prosim!",
+        "hr": "Pomozi mi nakratko, molim te!",
+        "hu": "Kérlek, segíts egy pillanatra!",
+        "ro": "Ajută-mă puțin, te rog!",
+        "el": "Βοήθησέ με για λίγο, σε παρακαλώ!",
+        "uk": "Допоможи мені, будь ласка, на хвилинку!",
+        "tr": "Lütfen bana bir saniyeliğine yardım et!",
+        "vi": "Làm ơn giúp tôi một lát nhé!",
+        "id": "Tolong bantu saya sebentar!",
+        "ar": "ساعدني للحظة من فضلك!",
+        "fa": "لطفاً یک لحظه به من کمک کن!"
       },
       "bracket_parts": [
         "Hilf"

@@ -43,7 +43,27 @@
   "id": "kommen_akk_in",
   "translation": {
     "ru": "заходить, приходить (внутрь)",
-    "en": "to come (into a room/place)"
+    "en": "to come (into a room/place)",
+    "de": "hineingehen, betreten, eintreffen",
+    "es": "entrar, ingresar",
+    "fr": "entrer, venir (dans)",
+    "it": "entrare, venire (in)",
+    "pt": "entrar, ingressar",
+    "nl": "binnenkomen, gaan naar",
+    "pl": "wchodzić, przychodzić (do)",
+    "cs": "vstoupit, vejít, přijít (do)",
+    "sk": "vstúpiť, vojsť, prísť (do)",
+    "sl": "vstopiti, priti (v)",
+    "hr": "ući, ulaziti, doći (u)",
+    "hu": "bemegy, belép",
+    "ro": "a intra, a veni (în)",
+    "el": "μπαίνω, έρχομαι (σε)",
+    "uk": "заходити, приходити (до)",
+    "tr": "içeri girmek, gelmek",
+    "vi": "bước vào, đi vào",
+    "id": "masuk, datang ke",
+    "ar": "يدخل، يأتي (إلى)",
+    "fa": "وارد شدن، آمدن (به)"
   },
   "rektion": {
     "requires_object": false,
@@ -59,7 +79,27 @@
       "german": "Ich komme heute in die Stadt",
       "translation": {
         "ru": "Я приезжаю сегодня в город",
-        "en": "I am coming to the city today"
+        "en": "I am coming to the city today",
+        "de": "Ich komme heute in die Stadt",
+        "es": "Hoy voy a la ciudad",
+        "fr": "Je viens en ville aujourd'hui",
+        "it": "Oggi vengo in città",
+        "pt": "Hoje vou para a cidade",
+        "nl": "Ik kom vandaag naar de stad",
+        "pl": "Przyjeżdżam dzisiaj do miasta",
+        "cs": "Dnes přijedu do města",
+        "sk": "Dnes prídem do mesta",
+        "sl": "Danes pridem v mesto",
+        "hr": "Danas dolazim u grad",
+        "hu": "Ma bemegyek a városba",
+        "ro": "Astăzi vin în oraș",
+        "el": "Έρχομαι στην πόλη σήμερα",
+        "uk": "Сьогодні я приїжджаю в місто",
+        "tr": "Bugün şehre geliyorum",
+        "vi": "Hôm nay tôi vào thành phố",
+        "id": "Hari ini saya datang ke kota",
+        "ar": "أنا قادم إلى المدينة اليوم",
+        "fa": "من امروز به شهر می‌آیم"
       },
       "bracket_parts": [
         "komme"
@@ -74,7 +114,27 @@
       "german": "Kommst du morgen in die Schule?",
       "translation": {
         "ru": "Ты придешь завтра в школу?",
-        "en": "Are you coming to school tomorrow?"
+        "en": "Are you coming to school tomorrow?",
+        "de": "Kommst du morgen in die Schule?",
+        "es": "¿Vienes a la escuela mañana?",
+        "fr": "Tu viens à l'école demain ?",
+        "it": "Vieni a scuola domani?",
+        "pt": "Você vai para a escola amanhã?",
+        "nl": "Kom je morgen naar school?",
+        "pl": "Przyjdziesz jutro do szkoły?",
+        "cs": "Přijdeš zítra do školy?",
+        "sk": "Prídeš zajtra do školy?",
+        "sl": "Prideš jutri v šolo?",
+        "hr": "Dolaziš li sutra u školu?",
+        "hu": "Jössz holnap az iskolába?",
+        "ro": "Vii la școală mâine?",
+        "el": "Έρχεσαι στο σχολείο αύριο;",
+        "uk": "Ти прийдеш завтра до школи?",
+        "tr": "Yarın okula geliyor musun?",
+        "vi": "Ngày mai bạn có đến trường không?",
+        "id": "Apakah kamu datang ke sekolah besok?",
+        "ar": "هل ستأتي إلى المدرسة غداً؟",
+        "fa": "آیا فردا به مدرسه می‌آیی؟"
       },
       "bracket_parts": [
         "Kommst"
@@ -89,7 +149,27 @@
       "german": "Er kommt bald in das neue Team",
       "translation": {
         "ru": "Он скоро перейдет в новую команду",
-        "en": "He is joining the new team soon"
+        "en": "He is joining the new team soon",
+        "de": "Er kommt bald in das neue Team",
+        "es": "Pronto se incorporará al nuevo equipo",
+        "fr": "Il va bientôt rejoindre la nouvelle équipe",
+        "it": "Presto entrerà nella nuova squadra",
+        "pt": "Ele entrará na nova equipe em breve",
+        "nl": "Hij komt binnenkort in het nieuwe team",
+        "pl": "Wkrótce dołączy do nowego zespołu",
+        "cs": "Brzy přejde do nového týmu",
+        "sk": "Čoskoro prejde do nového tímu",
+        "sl": "Kmalu bo prišel v novo ekipo",
+        "hr": "Uskoro dolazi u novi tim",
+        "hu": "Hamarosan bekerül az új csapatba",
+        "ro": "În curând va intra în noua echipă",
+        "el": "Σύντομα θα ενταχθεί στη νέα ομάδα",
+        "uk": "Він скоро перейде в нову команду",
+        "tr": "Yakında yeni takıma katılacak",
+        "vi": "Anh ấy sẽ sớm gia nhập đội mới",
+        "id": "Dia akan segera bergabung dengan tim baru",
+        "ar": "هو سينضم قريباً إلى الفريق الجديد",
+        "fa": "او به زودی به تیم جدید ملحق می‌شود"
       },
       "bracket_parts": [
         "kommt"
@@ -104,7 +184,27 @@
       "german": "Wir kommen heute Abend ins Restaurant",
       "translation": {
         "ru": "Мы придем сегодня вечером в ресторан",
-        "en": "We are coming to the restaurant tonight"
+        "en": "We are coming to the restaurant tonight",
+        "de": "Wir kommen heute Abend ins Restaurant",
+        "es": "Esta noche venimos al restaurante",
+        "fr": "Ce soir, nous venons au restaurant",
+        "it": "Stasera veniamo al ristorante",
+        "pt": "Nós vamos ao restaurante hoje à noite",
+        "nl": "We komen vanavond naar het restaurant",
+        "pl": "Przyjdziemy dziś wieczorem do restauracji",
+        "cs": "Dnes večer přijdeme do restaurace",
+        "sk": "Dnes večer prídeme do reštaurácie",
+        "sl": "Nocoj pridemo v restavracijo",
+        "hr": "Večeras dolazimo u restoran",
+        "hu": "Ma este elmegyünk az étterembe",
+        "ro": "Venim la restaurant în această seară",
+        "el": "Ερχόμαστε στο εστιατόριο απόψε",
+        "uk": "Ми прийдемо сьогодні ввечері в ресторан",
+        "tr": "Bu akşam restorana geliyoruz",
+        "vi": "Tối nay chúng tôi sẽ đến nhà hàng",
+        "id": "Kami akan datang ke restoran nanti malam",
+        "ar": "سنأتي إلى المطعم هذا المساء",
+        "fa": "ما امشب به رستوران می‌آییم"
       },
       "bracket_parts": [
         "kommen"
@@ -119,7 +219,27 @@
       "german": "Kommt ihr bald in die Schweiz?",
       "translation": {
         "ru": "Вы скоро приедете в Швейцарию?",
-        "en": "Are you coming to Switzerland soon?"
+        "en": "Are you coming to Switzerland soon?",
+        "de": "Kommt ihr bald in die Schweiz?",
+        "es": "¿Vendréis pronto a Suiza?",
+        "fr": "Venez-vous bientôt en Suisse ?",
+        "it": "Venite presto in Svizzera?",
+        "pt": "Vocês vêm para a Suíça em breve?",
+        "nl": "Komen jullie binnenkort naar Zwitserland?",
+        "pl": "Przyjedziecie wkrótce do Szwajcarii?",
+        "cs": "Přijedete brzy do Švýcarska?",
+        "sk": "Prídete čoskoro do Švajčiarska?",
+        "sl": "Ali kmalu pridete v Švico?",
+        "hr": "Dolazite li uskoro u Švicarsku?",
+        "hu": "Jöttök hamarosan Svájcba?",
+        "ro": "Veniți curând în Elveția?",
+        "el": "Έρχεστε σύντομα στην Ελβετία;",
+        "uk": "Ви скоро приїдете до Швейцарії?",
+        "tr": "Yakında İsviçre'ye geliyor musunuz?",
+        "vi": "Các bạn có sắp đến Thụy Sĩ không?",
+        "id": "Apakah kalian akan segera datang ke Swiss?",
+        "ar": "هل ستأتون إلى سويسرا قريباً؟",
+        "fa": "آیا به زودی به سوئیس می‌آیید؟"
       },
       "bracket_parts": [
         "Kommt"
@@ -134,7 +254,27 @@
       "german": "Gestern kam sie überraschend ins Zimmer",
       "translation": {
         "ru": "Вчера она неожиданно вошла в комнату",
-        "en": "Yesterday she unexpectedly entered the room"
+        "en": "Yesterday she unexpectedly entered the room",
+        "de": "Gestern kam sie überraschend ins Zimmer",
+        "es": "Ayer ella entró en la habitación por sorpresa",
+        "fr": "Hier, elle est entrée à l'improviste dans la pièce",
+        "it": "Ieri è entrata a sorpresa nella stanza",
+        "pt": "Ontem ela entrou inesperadamente no quarto",
+        "nl": "Gisteren kwam ze onverwachts de kamer binnen",
+        "pl": "Wczoraj niespodziewanie weszła do pokoju",
+        "cs": "Včera nečekaně vešla do pokoje",
+        "sk": "Včera nečakane vošla do izby",
+        "sl": "Včeraj je nepričakovano vstopila v sobo",
+        "hr": "Jučer je neočekivano ušla u sobu",
+        "hu": "Tegnap váratlanul belépett a szobába",
+        "ro": "Ieri a intrat pe neașteptate în cameră",
+        "el": "Χθες μπήκε απρόσμενα στο δωμάτιο",
+        "uk": "Вчора вона несподівано зайшла в кімнату",
+        "tr": "Dün beklenmedik bir şekilde odaya girdi",
+        "vi": "Hôm qua cô ấy bất ngờ bước vào phòng",
+        "id": "Kemarin dia tiba-tiba masuk ke dalam kamar",
+        "ar": "بالأمس دخلت الغرفة على نحو مفاجئ",
+        "fa": "دیروز او به طور غیرمنتظره‌ای وارد اتاق شد"
       },
       "bracket_parts": [
         "kam"
@@ -149,7 +289,27 @@
       "german": "Sie sind gestern ins Krankenhaus gekommen",
       "translation": {
         "ru": "Они вчера поступили в больницу",
-        "en": "They came to the hospital yesterday"
+        "en": "They came to the hospital yesterday",
+        "de": "Sie sind gestern ins Krankenhaus gekommen",
+        "es": "Ayer ingresaron en el hospital",
+        "fr": "Hier, ils ont été admis à l'hôpital",
+        "it": "Ieri sono stati ricoverati in ospedale",
+        "pt": "Ontem eles deram entrada no hospital",
+        "nl": "Ze zijn gisteren in het ziekenhuis opgenomen",
+        "pl": "Wczoraj trafili do szpitala",
+        "cs": "Včera se dostali do nemocnice",
+        "sk": "Včera sa dostali do nemocnice",
+        "sl": "Včeraj so prišli v bolnišnico",
+        "hr": "Jučer su primljeni u bolnicu",
+        "hu": "Tegnap kórházba kerültek",
+        "ro": "Ieri au ajuns la spital",
+        "el": "Χθες μπήκαν στο νοσοκομείο",
+        "uk": "Вони вчора потрапили до лікарні",
+        "tr": "Dün hastaneye kaldırıldılar",
+        "vi": "Hôm qua họ đã phải vào bệnh viện",
+        "id": "Kemarin mereka masuk ke rumah sakit",
+        "ar": "لقد تم إدخالهم إلى المستشفى بالأمس",
+        "fa": "آن‌ها دیروز در بیمارستان بستری شدند"
       },
       "bracket_parts": [
         "sind",
@@ -165,7 +325,27 @@
       "german": "Komm bitte schnell ins Haus!",
       "translation": {
         "ru": "Заходи, пожалуйста, быстрее в дом!",
-        "en": "Please come into the house quickly!"
+        "en": "Please come into the house quickly!",
+        "de": "Komm bitte schnell ins Haus!",
+        "es": "¡Entra rápido a la casa, por favor!",
+        "fr": "Viens vite dans la maison, s'il te plaît !",
+        "it": "Entra subito in casa, per favore!",
+        "pt": "Por favor, entre em casa depressa!",
+        "nl": "Kom alsjeblieft snel het huis binnen!",
+        "pl": "Wejdź, proszę, szybko do domu!",
+        "cs": "Pojď prosím rychle do domu!",
+        "sk": "Poď prosím rýchlo do domu!",
+        "sl": "Prosim, hitro pojdi v hišo!",
+        "hr": "Molim te, uđi brzo u kuću!",
+        "hu": "Kérlek, gyere be gyorsan a házba!",
+        "ro": "Te rog, vino repede în casă!",
+        "el": "Έλα γρήγορα μέσα στο σπίτι, σε παρακαλώ!",
+        "uk": "Заходь, будь ласка, швидше до будинку!",
+        "tr": "Lütfen çabuk eve gel!",
+        "vi": "Làm ơn hãy vào nhà nhanh lên!",
+        "id": "Tolong cepat masuk ke dalam rumah!",
+        "ar": "ادخل إلى المنزل بسرعة من فضلك!",
+        "fa": "لطفاً سریع بیا داخل خانه!"
       },
       "bracket_parts": [
         "Komm"

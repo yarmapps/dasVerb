@@ -507,6 +507,7 @@ describe('Conjugation Practice Suite', () => {
           conjugationLevelId: 'conjugation_a1_level_1',
           isConjugationQuiz: true,
           level: 'A1',
+          levelNumber: 1,
         });
       });
     });

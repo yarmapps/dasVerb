@@ -75,11 +75,16 @@ export function ConjugationPracticeListScreen(): React.JSX.Element {
     loadData(tab);
   };
 
-  const isLocked = activeCefr !== 'A1' && !isPremium;
+  const isItemLocked = (lvl: ConjugationLevelData) =>
+    !isPremium &&
+    activeCefr !== 'A1' &&
+    (lvl.subgroupType === 'checkpoint' ||
+      lvl.subgroupType === 'final_test' ||
+      (lvl.levelNumber || 0) > 10);
 
   const handleLevelPress = (level: ConjugationLevelData) => {
     soundService.playTapSound();
-    if (isLocked) {
+    if (isItemLocked(level)) {
       trackEvent('locked_item_clicked', {
         item_type:
           level.subgroupType === 'checkpoint' || level.subgroupType === 'final_test'
@@ -96,6 +101,7 @@ export function ConjugationPracticeListScreen(): React.JSX.Element {
       conjugationLevelId: level.id,
       isConjugationQuiz: true,
       level: activeCefr,
+      levelNumber: level.levelNumber,
     });
   };
 
@@ -147,8 +153,12 @@ export function ConjugationPracticeListScreen(): React.JSX.Element {
     return () => clearTimeout(timer);
   }, [activeCefr, levels, scrollToTargetForConjugation]);
 
-  const renderStatusBadge = (status: VerbProgress['status'], index: number) => {
-    if (isLocked) {
+  const renderStatusBadge = (
+    status: VerbProgress['status'],
+    index: number,
+    itemLocked: boolean,
+  ) => {
+    if (itemLocked) {
       return (
         <View style={[styles.statusBadge, styles.statusBadgeUncompleted]}>
           <FontAwesome5 name="lock" size={14} color={colors.textMuted} />
@@ -220,6 +230,7 @@ export function ConjugationPracticeListScreen(): React.JSX.Element {
         {levels.map((lvl, _index) => {
           if (!lvl) return null;
           const progress = levelProgressMap[lvl.id] || { score: 0, status: 'uncompleted' };
+          const itemLocked = isItemLocked(lvl);
 
           if (lvl.subgroupType === 'checkpoint') {
             return (
@@ -239,7 +250,7 @@ export function ConjugationPracticeListScreen(): React.JSX.Element {
                   })}
                   status={progress.status}
                   isFinal={false}
-                  isLocked={isLocked}
+                  isLocked={itemLocked}
                   onPress={() => handleLevelPress(lvl)}
                   testID={`conjugation-checkpoint-${lvl.id}`}
                 />
@@ -265,7 +276,7 @@ export function ConjugationPracticeListScreen(): React.JSX.Element {
                   })}
                   status={progress.status}
                   isFinal={true}
-                  isLocked={isLocked}
+                  isLocked={itemLocked}
                   onPress={() => handleLevelPress(lvl)}
                   testID={`conjugation-final-${activeCefr}`}
                 />
@@ -286,7 +297,7 @@ export function ConjugationPracticeListScreen(): React.JSX.Element {
               }}
               testID={`conjugation-level-${lvl.id}`}
             >
-              {renderStatusBadge(progress.status, (lvl.levelNumber || 1) - 1)}
+              {renderStatusBadge(progress.status, (lvl.levelNumber || 1) - 1, itemLocked)}
               <View style={styles.levelInfo}>
                 <View style={styles.levelTitleRow}>
                   <Text style={styles.levelTitle}>

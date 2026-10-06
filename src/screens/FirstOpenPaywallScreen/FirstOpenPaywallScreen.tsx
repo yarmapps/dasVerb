@@ -123,9 +123,7 @@ export function FirstOpenPaywallScreen(): React.JSX.Element | null {
 
   const handlePurchase = async () => {
     const targetPackage =
-      packages?.threeMonth?.pkg ??
-      packages?.sixMonth?.pkg ??
-      packages?.monthly?.pkg;
+      packages?.threeMonth?.pkg ?? packages?.sixMonth?.pkg ?? packages?.monthly?.pkg;
     if (!targetPackage) {
       Alert.alert(
         intl.formatMessage({ id: 'premiumSheets.errorTitle' }),

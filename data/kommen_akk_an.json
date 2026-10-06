@@ -43,7 +43,27 @@
   "id": "kommen_akk_an",
   "translation": {
     "ru": "подходить (к чему-то)",
-    "en": "to come (to a spot)"
+    "en": "to come (to a spot)",
+    "de": "herankommen, gelangen an, eintreffen",
+    "es": "llegar, acercarse",
+    "fr": "arriver, venir (à)",
+    "it": "arrivare, avvicinarsi",
+    "pt": "chegar, aproximar-se",
+    "nl": "aankomen, toekomen aan",
+    "pl": "podchodzić, przychodzić (do)",
+    "cs": "přicházet, dorazit (k)",
+    "sk": "prichádzať, doraziť (k)",
+    "sl": "priti, približati se (k)",
+    "hr": "dolaziti, prići",
+    "hu": "érkezik, odajön",
+    "ro": "a veni, a ajunge (la)",
+    "el": "φτάνω, έρχομαι (σε)",
+    "uk": "підходити, прибувати (до)",
+    "tr": "varmak, yaklaşmak, gelmek",
+    "vi": "đến, tiến đến",
+    "id": "datang, tiba di",
+    "ar": "يصل، يقترب (من)",
+    "fa": "رسیدن، آمدن (به)"
   },
   "rektion": {
     "requires_object": false,
@@ -59,7 +79,27 @@
       "german": "Ich komme heute an die Reihe",
       "translation": {
         "ru": "Сегодня подходит моя очередь",
-        "en": "It is my turn today"
+        "en": "It is my turn today",
+        "de": "Ich komme heute an die Reihe",
+        "es": "Hoy me toca a mí",
+        "fr": "C'est mon tour aujourd'hui",
+        "it": "Oggi tocca a me",
+        "pt": "Hoje é a minha vez",
+        "nl": "Ik ben vandaag aan de beurt",
+        "pl": "Dziś przypada moja kolej",
+        "cs": "Dnes přijdu na řadu",
+        "sk": "Dnes prídem na rad",
+        "sl": "Danes sem na vrsti",
+        "hr": "Danas dolazim na red",
+        "hu": "Ma rám kerül a sor",
+        "ro": "Astăzi îmi vine rândul",
+        "el": "Σήμερα είναι η σειρά μου",
+        "uk": "Сьогодні моя черга",
+        "tr": "Bugün sıra bana geliyor",
+        "vi": "Hôm nay đến lượt tôi",
+        "id": "Hari ini giliran saya",
+        "ar": "اليوم دوري",
+        "fa": "امروز نوبت من است"
       },
       "bracket_parts": [
         "komme"
@@ -74,7 +114,27 @@
       "german": "Kommst du morgen an den Hauptbahnhof?",
       "translation": {
         "ru": "Ты придешь завтра на главный вокзал?",
-        "en": "Are you coming to the main station tomorrow?"
+        "en": "Are you coming to the main station tomorrow?",
+        "de": "Kommst du morgen an den Hauptbahnhof?",
+        "es": "¿Vienes mañana a la estación central?",
+        "fr": "Tu viens à la gare centrale demain ?",
+        "it": "Vieni alla stazione centrale domani?",
+        "pt": "Você vem à estação central amanhã?",
+        "nl": "Kom je morgen naar het centraal station?",
+        "pl": "Przyjdziesz jutro na dworzec główny?",
+        "cs": "Přijdeš zítra na hlavní nádraží?",
+        "sk": "Prídeš zajtra na hlavnú stanicu?",
+        "sl": "Prideš jutri na glavno postajo?",
+        "hr": "Dolaziš li sutra na glavni kolodvor?",
+        "hu": "Kijössz holnap a főpályaudvarra?",
+        "ro": "Vii mâine la gara centrală?",
+        "el": "Έρχεσαι αύριο στον κεντρικό σταθμό;",
+        "uk": "Ти прийдеш завтра на головний вокзал?",
+        "tr": "Yarın ana tren garına geliyor musun?",
+        "vi": "Ngày mai bạn có đến ga trung tâm không?",
+        "id": "Apakah kamu akan datang ke stasiun kereta pusat besok?",
+        "ar": "هل ستأتي غداً إلى محطة القطار الرئيسية؟",
+        "fa": "آیا فردا به ایستگاه مرکزی قطار می‌آیی؟"
       },
       "bracket_parts": [
         "Kommst"
@@ -89,7 +149,27 @@
       "german": "Er kommt pünktlich an den Treffpunkt",
       "translation": {
         "ru": "Он вовремя приходит на место встречи",
-        "en": "He arrives on time at the meeting point"
+        "en": "He arrives on time at the meeting point",
+        "de": "Er kommt pünktlich an den Treffpunkt",
+        "es": "Él llega puntual al punto de encuentro",
+        "fr": "Il arrive à l'heure au point de rendez-vous",
+        "it": "Arriva puntuale al punto di incontro",
+        "pt": "Ele chega pontualmente ao ponto de encontro",
+        "nl": "Hij komt op tijd op de ontmoetingsplek",
+        "pl": "On przychodzi punktualnie na miejsce spotkania",
+        "cs": "Přichází včas na místo setkání",
+        "sk": "Prichádza načas na miesto stretnutia",
+        "sl": "Pravočasno pride na zbirno mesto",
+        "hr": "On točno na vrijeme dolazi na mjesto susreta",
+        "hu": "Pontosan érkezik a találkozási pontra",
+        "ro": "El ajunge punctual la punctul de întâlnire",
+        "el": "Φτάνει στην ώρα του στο σημείο συνάντησης",
+        "uk": "Він вчасно приходить на місце зустрічі",
+        "tr": "Buluşma noktasına zamanında geliyor",
+        "vi": "Anh ấy đến điểm hẹn đúng giờ",
+        "id": "Dia tiba tepat waktu di titik pertemuan",
+        "ar": "هو يصل في الوقت المحدد إلى نقطة الالتقاء",
+        "fa": "او به موقع به محل ملاقات می‌رسد"
       },
       "bracket_parts": [
         "kommt"
@@ -104,7 +184,27 @@
       "german": "Wir kommen bald an die Grenze",
       "translation": {
         "ru": "Мы скоро подъедем к границе",
-        "en": "We will soon reach the border"
+        "en": "We will soon reach the border",
+        "de": "Wir kommen bald an die Grenze",
+        "es": "Pronto llegaremos a la frontera",
+        "fr": "Nous arriverons bientôt à la frontière",
+        "it": "Arriveremo presto al confine",
+        "pt": "Em breve chegaremos à fronteira",
+        "nl": "We komen binnenkort bij de grens",
+        "pl": "Wkrótce dotrzemy do granicy",
+        "cs": "Brzy dorazíme k hranici",
+        "sk": "Čoskoro prídeme k hranici",
+        "sl": "Kmalu bomo prišli do meje",
+        "hr": "Uskoro stižemo do granice",
+        "hu": "Hamarosan a határhoz érünk",
+        "ro": "În curând vom ajunge la graniță",
+        "el": "Σύντομα φτάνουμε στα σύνορα",
+        "uk": "Ми скоро доїдемо до кордону",
+        "tr": "Yakında sınıra varacağız",
+        "vi": "Chúng tôi sẽ sớm đến biên giới",
+        "id": "Kami akan segera mencapai perbatasan",
+        "ar": "سنصل قريباً إلى الحدود",
+        "fa": "ما به زودی به مرز می‌رسیم"
       },
       "bracket_parts": [
         "kommen"
@@ -119,7 +219,27 @@
       "german": "Kommt ihr heute an den Strand?",
       "translation": {
         "ru": "Вы придете сегодня на пляж?",
-        "en": "Are you coming to the beach today?"
+        "en": "Are you coming to the beach today?",
+        "de": "Kommt ihr heute an den Strand?",
+        "es": "¿Venís a la playa hoy?",
+        "fr": "Vous venez à la plage aujourd'hui ?",
+        "it": "Venite in spiaggia oggi?",
+        "pt": "Vocês vão à praia hoje?",
+        "nl": "Komen jullie vandaag naar het strand?",
+        "pl": "Przyjdziecie dzisiaj na plażę?",
+        "cs": "Přijdete dnes na pláž?",
+        "sk": "Prídete dnes na pláž?",
+        "sl": "Pridete danes na plažo?",
+        "hr": "Dolazite li danas na plažu?",
+        "hu": "Kijöttök ma a strandra?",
+        "ro": "Veniți la plajă astăzi?",
+        "el": "Έρχεστε στην παραλία σήμερα;",
+        "uk": "Ви прийдете сьогодні на пляж?",
+        "tr": "Bugün plaja geliyor musunuz?",
+        "vi": "Hôm nay các bạn có đến bãi biển không?",
+        "id": "Apakah kalian akan datang ke pantai hari ini?",
+        "ar": "هل ستأتون إلى الشاطئ اليوم؟",
+        "fa": "آیا امروز به ساحل می‌آیید؟"
       },
       "bracket_parts": [
         "Kommt"
@@ -134,7 +254,27 @@
       "german": "Sie kam eilig an die Haltestelle",
       "translation": {
         "ru": "Она поспешно пришла на остановку",
-        "en": "She hurried to the bus stop"
+        "en": "She hurried to the bus stop",
+        "de": "Sie kam eilig an die Haltestelle",
+        "es": "Ella llegó apresurada a la parada",
+        "fr": "Elle est arrivée en hâte à l'arrêt",
+        "it": "È arrivata di fretta alla fermata",
+        "pt": "Ela chegou apressada ao ponto de ônibus",
+        "nl": "Ze kwam haastig bij de halte aan",
+        "pl": "Pospiesznie przyszła na przystanek",
+        "cs": "Spěšně přišla na zastávku",
+        "sk": "Ponáhľala sa na zastávku",
+        "sl": "V naglici je prišla na postajo",
+        "hr": "U žurbi je došla na stanicu",
+        "hu": "Sietve érkezett a megállóba",
+        "ro": "Ea a venit în grabă la stație",
+        "el": "Ήρθε βιαστικά στη στάση",
+        "uk": "Вона поспіхом прийшла на зупинку",
+        "tr": "Durağa aceleyle geldi",
+        "vi": "Cô ấy vội vã đến trạm dừng xe",
+        "id": "Dia bergegas datang ke halte bus",
+        "ar": "جاءت على عجل إلى محطة الحافلات",
+        "fa": "او با عجله به ایستگاه آمد"
       },
       "bracket_parts": [
         "kam"
@@ -149,7 +289,27 @@
       "german": "Sie sind gestern an den See gekommen",
       "translation": {
         "ru": "Они вчера пришли на озеро",
-        "en": "They came to the lake yesterday"
+        "en": "They came to the lake yesterday",
+        "de": "Sie sind gestern an den See gekommen",
+        "es": "Ayer vinieron al lago",
+        "fr": "Hier, ils sont venus au lac",
+        "it": "Ieri sono venuti al lago",
+        "pt": "Ontem eles vieram para o lago",
+        "nl": "Ze zijn gisteren naar het meer gekomen",
+        "pl": "Wczoraj przyszli nad jezioro",
+        "cs": "Včera přišli k jezeru",
+        "sk": "Včera prišli k jazeru",
+        "sl": "Včeraj so prišli do jezera",
+        "hr": "Jučer su došli na jezero",
+        "hu": "Tegnap kijöttek a tóhoz",
+        "ro": "Ieri au venit la lac",
+        "el": "Χθες ήρθαν στη λίμνη",
+        "uk": "Вони вчора прийшли на озеро",
+        "tr": "Dün göle geldiler",
+        "vi": "Hôm qua họ đã đến hồ",
+        "id": "Kemarin mereka datang ke danau",
+        "ar": "لقد أتوا إلى البحيرة بالأمس",
+        "fa": "آن‌ها دیروز به دریاچه آمدند"
       },
       "bracket_parts": [
         "sind",
@@ -165,7 +325,27 @@
       "german": "Komm bitte an die Tafel!",
       "translation": {
         "ru": "Выходи, пожалуйста, к доске!",
-        "en": "Please come to the blackboard!"
+        "en": "Please come to the blackboard!",
+        "de": "Komm bitte an die Tafel!",
+        "es": "¡Ven a la pizarra, por favor!",
+        "fr": "Viens au tableau, s'il te plaît !",
+        "it": "Vieni alla lavagna, per favore!",
+        "pt": "Por favor, venha até o quadro!",
+        "nl": "Kom alsjeblieft naar het bord!",
+        "pl": "Podejdź, proszę, do tablicy!",
+        "cs": "Pojď prosím k tabuli!",
+        "sk": "Poď prosím k tabuli!",
+        "sl": "Prosim, pojdi k tabli!",
+        "hr": "Molim te, dođi pred ploču!",
+        "hu": "Kérlek, gyere ki a táblához!",
+        "ro": "Te rog, vino la tablă!",
+        "el": "Έλα στον πίνακα, σε παρακαλώ!",
+        "uk": "Виходь, будь ласка, до дошки!",
+        "tr": "Lütfen tahtaya gel!",
+        "vi": "Làm ơn hãy lên bảng!",
+        "id": "Tolong maju ke papan tulis!",
+        "ar": "تعال إلى السبورة من فضلك!",
+        "fa": "لطفاً بیا پای تخته!"
       },
       "bracket_parts": [
         "Komm"

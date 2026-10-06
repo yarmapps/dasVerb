@@ -43,7 +43,27 @@
   "id": "kommen_dat_nach",
   "translation": {
     "ru": "приходить (домой/в город)",
-    "en": "to come (home/to a city)"
+    "en": "to come (home/to a city)",
+    "de": "reisen nach, ankommen in, nach Hause gehen",
+    "es": "ir a, venir a, llegar a",
+    "fr": "venir à, aller à, arriver à",
+    "it": "venire a, andare a, arrivare a",
+    "pt": "vir para, ir para, chegar a",
+    "nl": "komen naar, gaan naar",
+    "pl": "przyjeżdżać do, iść do",
+    "cs": "přijít do, jet do, dorazit do",
+    "sk": "prísť do, ísť do, doraziť do",
+    "sl": "priti v, oditi v",
+    "hr": "dolaziti u, ići u",
+    "hu": "jön vhová, utazik vhová",
+    "ro": "a veni la/în, a merge la/în",
+    "el": "έρχομαι σε, πηγαίνω σε",
+    "uk": "приходити, приїжджати (до міста, країни, додому)",
+    "tr": "-e gelmek, gitmek",
+    "vi": "đến (thành phố, đất nước, về nhà)",
+    "id": "datang ke, pergi ke (kota, negara, rumah)",
+    "ar": "يأتي إلى، يذهب إلى",
+    "fa": "آمدن به، رفتن به (شهر، کشور، خانه)"
   },
   "rektion": {
     "requires_object": false,
@@ -59,7 +79,27 @@
       "german": "Ich komme heute nach Berlin",
       "translation": {
         "ru": "Я приезжаю сегодня в Берлин",
-        "en": "I am coming to Berlin today"
+        "en": "I am coming to Berlin today",
+        "de": "Ich komme heute nach Berlin.",
+        "es": "Hoy voy a Berlín.",
+        "fr": "J'arrive à Berlin aujourd'hui.",
+        "it": "Oggi vengo a Berlino.",
+        "pt": "Hoje vou a Berlim.",
+        "nl": "Ik kom vandaag naar Berlijn.",
+        "pl": "Przyjeżdżam dzisiaj do Berlina.",
+        "cs": "Dnes přijedu do Berlína.",
+        "sk": "Dnes prídem do Berlína.",
+        "sl": "Danes pridem v Berlin.",
+        "hr": "Danas dolazim u Berlin.",
+        "hu": "Ma érkezem Berlinbe.",
+        "ro": "Astăzi vin la Berlin.",
+        "el": "Σήμερα έρχομαι στο Βερολίνο.",
+        "uk": "Я приїжджаю сьогодні до Берліна.",
+        "tr": "Bugün Berlin'e geliyorum.",
+        "vi": "Hôm nay tôi sẽ đến Berlin.",
+        "id": "Hari ini saya datang ke Berlin.",
+        "ar": "سآتي اليوم إلى برلين.",
+        "fa": "من امروز به برلین می‌آیم."
       },
       "bracket_parts": [
         "komme"
@@ -74,7 +114,27 @@
       "german": "Kommst du morgen nach Hause?",
       "translation": {
         "ru": "Ты придешь завтра домой?",
-        "en": "Are you coming home tomorrow?"
+        "en": "Are you coming home tomorrow?",
+        "de": "Kommst du morgen nach Hause?",
+        "es": "¿Vienes a casa mañana?",
+        "fr": "Tu rentres à la maison demain ?",
+        "it": "Torni a casa domani?",
+        "pt": "Você vem para casa amanhã?",
+        "nl": "Kom je morgen naar huis?",
+        "pl": "Wrócisz jutro do domu?",
+        "cs": "Přijdeš zítra domů?",
+        "sk": "Prídeš zajtra domov?",
+        "sl": "Prideš jutri domov?",
+        "hr": "Dolaziš li sutra kući?",
+        "hu": "Hazajössz holnap?",
+        "ro": "Vii mâine acasă?",
+        "el": "Θα έρθεις αύριο σπίτι;",
+        "uk": "Ти прийдеш завтра додому?",
+        "tr": "Yarın eve gelecek misin?",
+        "vi": "Ngày mai bạn có về nhà không?",
+        "id": "Apakah kamu akan pulang ke rumah besok?",
+        "ar": "هل ستأتي إلى المنزل غداً؟",
+        "fa": "آیا فردا به خانه می‌آیی؟"
       },
       "bracket_parts": [
         "Kommst"
@@ -89,7 +149,27 @@
       "german": "Er kommt am Wochenende nach München",
       "translation": {
         "ru": "На выходных он приезжает в Мюнхен",
-        "en": "He is coming to Munich on the weekend"
+        "en": "He is coming to Munich on the weekend",
+        "de": "Er kommt am Wochenende nach München.",
+        "es": "Él vendrá a Múnich el fin de semana.",
+        "fr": "Il vient à Munich ce week-end.",
+        "it": "Lui viene a Monaco nel fine settimana.",
+        "pt": "Ele vem a Munique no fim de semana.",
+        "nl": "Hij komt in het weekend naar München.",
+        "pl": "W weekend przyjeżdża do Monachium.",
+        "cs": "O víkendu přijede do Mnichova.",
+        "sk": "Cez víkend príde do Mníchova.",
+        "sl": "Za vikend pride v München.",
+        "hr": "Za vikend dolazi u München.",
+        "hu": "A hétvégén Münchenbe jön.",
+        "ro": "El vine la München în weekend.",
+        "el": "Έρχεται στο Μόναχο το σαββατοκύριακο.",
+        "uk": "На вихідних він приїжджає до Мюнхена.",
+        "tr": "Hafta sonu Münih'e geliyor.",
+        "vi": "Cuối tuần anh ấy sẽ đến Munich.",
+        "id": "Dia datang ke Munich pada akhir pekan.",
+        "ar": "سيأتي في نهاية الأسبوع إلى ميونخ.",
+        "fa": "او آخر هفته به مونیخ می‌آید."
       },
       "bracket_parts": [
         "kommt"
@@ -104,7 +184,27 @@
       "german": "Wir kommen bald nach Wien",
       "translation": {
         "ru": "Мы скоро приедем в Вену",
-        "en": "We are coming to Vienna soon"
+        "en": "We are coming to Vienna soon",
+        "de": "Wir kommen bald nach Wien.",
+        "es": "Pronto iremos a Viena.",
+        "fr": "Nous venons bientôt à Vienne.",
+        "it": "Presto verremo a Vienna.",
+        "pt": "Em breve iremos para Viena.",
+        "nl": "Wij komen binnenkort naar Wenen.",
+        "pl": "Wkrótce przyjedziemy do Wiednia.",
+        "cs": "Brzy přijedeme do Vídně.",
+        "sk": "Čoskoro prídeme do Viedne.",
+        "sl": "Kmalu pridemo na Dunaj.",
+        "hr": "Uskoro dolazimo u Beč.",
+        "hu": "Hamarosan Bécsbe jövünk.",
+        "ro": "În curând venim la Viena.",
+        "el": "Σύντομα θα έρθουμε στη Βιέννη.",
+        "uk": "Ми скоро приїдемо до Відня.",
+        "tr": "Yakında Viyana'ya geleceğiz.",
+        "vi": "Chúng tôi sẽ sớm đến Vienna.",
+        "id": "Kami akan segera datang ke Wina.",
+        "ar": "سنأتي قريباً إلى فيينا.",
+        "fa": "ما به زودی به وین می‌آییم."
       },
       "bracket_parts": [
         "kommen"
@@ -119,7 +219,27 @@
       "german": "Kommt ihr heute nach dem Essen vorbei?",
       "translation": {
         "ru": "Вы зайдете сегодня после еды?",
-        "en": "Are you coming over after dinner today?"
+        "en": "Are you coming over after dinner today?",
+        "de": "Kommt ihr heute nach dem Essen vorbei?",
+        "es": "¿Van a pasar hoy después de comer?",
+        "fr": "Vous passez aujourd'hui après le repas ?",
+        "it": "Passate oggi dopo mangiato?",
+        "pt": "Vocês vão passar por aqui hoje depois do jantar?",
+        "nl": "Komen jullie vandaag na het eten langs?",
+        "pl": "Wpadniecie dzisiaj po jedzeniu?",
+        "cs": "Stavíte se dnes po jídle?",
+        "sk": "Zastavíte sa dnes po jedle?",
+        "sl": "Se oglasite danes po jedi?",
+        "hr": "Navraćate li danas poslije jela?",
+        "hu": "Beugrotok ma evés után?",
+        "ro": "Treceți astăzi pe la noi după masă?",
+        "el": "Θα περάσετε σήμερα μετά το φαγητό;",
+        "uk": "Ви зайдете сьогодні після їжі?",
+        "tr": "Bugün yemekten sonra uğrayacak mısınız?",
+        "vi": "Hôm nay ăn xong các bạn có ghé qua không?",
+        "id": "Apakah kalian akan mampir hari ini setelah makan?",
+        "ar": "هل ستمرون اليوم بعد تناول الطعام؟",
+        "fa": "آیا امروز بعد از غذا به اینجا سر می‌زنید؟"
       },
       "bracket_parts": [
         "Kommt"
@@ -134,7 +254,27 @@
       "german": "Gestern kam sie spät nach Hause",
       "translation": {
         "ru": "Вчера она поздно пришла домой",
-        "en": "Yesterday she came home late"
+        "en": "Yesterday she came home late",
+        "de": "Gestern kam sie spät nach Hause.",
+        "es": "Ayer ella llegó tarde a casa.",
+        "fr": "Hier, elle est rentrée tard à la maison.",
+        "it": "Ieri è tornata a casa tardi.",
+        "pt": "Ontem ela chegou tarde em casa.",
+        "nl": "Gisteren kwam ze laat thuis.",
+        "pl": "Wczoraj wróciła późno do domu.",
+        "cs": "Včera přišla pozdě domů.",
+        "sk": "Včera prišla neskoro domov.",
+        "sl": "Včeraj je prišla pozno domov.",
+        "hr": "Jučer je kasno došla kući.",
+        "hu": "Tegnap későn jött haza.",
+        "ro": "Ieri a venit târziu acasă.",
+        "el": "Χθες γύρισε αργά στο σπίτι.",
+        "uk": "Вчора вона пізно прийшла додому.",
+        "tr": "Dün eve geç geldi.",
+        "vi": "Hôm qua cô ấy về nhà muộn.",
+        "id": "Kemarin dia pulang ke rumah larut malam.",
+        "ar": "أمس عادت إلى المنزل في وقت متأخر.",
+        "fa": "او دیروز دیر به خانه آمد."
       },
       "bracket_parts": [
         "kam"
@@ -149,7 +289,27 @@
       "german": "Sie sind gestern nach Mitternacht nach Hause gekommen",
       "translation": {
         "ru": "Они вчера пришли домой после полуночи",
-        "en": "They came home after midnight yesterday"
+        "en": "They came home after midnight yesterday",
+        "de": "Sie sind gestern nach Mitternacht nach Hause gekommen.",
+        "es": "Ellos llegaron a casa ayer después de medianoche.",
+        "fr": "Ils sont rentrés à la maison hier après minuit.",
+        "it": "Sono tornati a casa ieri dopo mezzanotte.",
+        "pt": "Eles chegaram em casa ontem depois da meia-noite.",
+        "nl": "Ze zijn gisteren na middernacht thuisgekomen.",
+        "pl": "Wrócili wczoraj do domu po północy.",
+        "cs": "Včera přišli domů po půlnoci.",
+        "sk": "Včera prišli domov po polnoci.",
+        "sl": "Včeraj so prišli domov po polnoči.",
+        "hr": "Jučer su stigli kući poslije ponoći.",
+        "hu": "Tegnap éjfél után értek haza.",
+        "ro": "Ei au venit acasă ieri după miezul nopții.",
+        "el": "Χθες γύρισαν σπίτι μετά τα μεσάνυχτα.",
+        "uk": "Вони вчора прийшли додому після опівночі.",
+        "tr": "Dün gece yarısından sonra eve geldiler.",
+        "vi": "Hôm qua họ về nhà sau nửa đêm.",
+        "id": "Kemarin mereka pulang ke rumah lewat tengah malam.",
+        "ar": "لقد عادوا إلى المنزل أمس بعد منتصف الليل.",
+        "fa": "آن‌ها دیروز بعد از نیمه‌شب به خانه آمدند."
       },
       "bracket_parts": [
         "sind",
@@ -166,7 +326,27 @@
       "german": "Komm bitte bald nach Hause!",
       "translation": {
         "ru": "Приходи, пожалуйста, скорее домой!",
-        "en": "Please come home soon!"
+        "en": "Please come home soon!",
+        "de": "Komm bitte bald nach Hause!",
+        "es": "¡Ven a casa pronto, por favor!",
+        "fr": "Rentre bientôt à la maison, s'il te plaît !",
+        "it": "Torna a casa presto, per favore!",
+        "pt": "Por favor, venha logo para casa!",
+        "nl": "Kom alsjeblieft snel naar huis!",
+        "pl": "Wróć, proszę, szybko do domu!",
+        "cs": "Přijď prosím brzy domů!",
+        "sk": "Príď prosím čoskoro domov!",
+        "sl": "Prosim, pridi kmalu domov!",
+        "hr": "Dođi uskoro kući, molim te!",
+        "hu": "Kérlek, gyere hamar haza!",
+        "ro": "Te rog să vii curând acasă!",
+        "el": "Έλα σύντομα στο σπίτι, σε παρακαλώ!",
+        "uk": "Приходь, будь ласка, скоріше додому!",
+        "tr": "Lütfen yakında eve gel!",
+        "vi": "Làm ơn về nhà sớm nhé!",
+        "id": "Tolong segera pulang ke rumah!",
+        "ar": "تعال إلى المنزل قريباً من فضلك!",
+        "fa": "لطفاً زود به خانه بیا!"
       },
       "bracket_parts": [
         "Komm"

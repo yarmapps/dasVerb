@@ -43,7 +43,27 @@
   },
   "translation": {
     "ru": "радоваться (происшедшему/подарку)",
-    "en": "to be happy about (present/past event)"
+    "en": "to be happy about (present/past event)",
+    "de": "sich freuen über, froh sein über",
+    "es": "alegrarse de, estar contento por",
+    "fr": "se réjouir de, être content de",
+    "it": "rallegrarsi per, essere contento di",
+    "pt": "alegrar-se com, ficar feliz com",
+    "nl": "blij zijn met, zich verheugen over",
+    "pl": "cieszyć się z",
+    "cs": "mít radost z, radovat se z",
+    "sk": "tešiť sa z, mať radosť z",
+    "sl": "veseliti se (zaradi nečesa)",
+    "hr": "radovati se (zbog nečega), veseliti se",
+    "hu": "örülni valaminek",
+    "ro": "a se bucura de, a fi încântat de",
+    "el": "χαίρομαι για",
+    "uk": "радіти (чомусь, подарунку)",
+    "tr": "sevinmek, mutlu olmak",
+    "vi": "vui mừng về, hài lòng với",
+    "id": "senang akan, bergembira karena",
+    "ar": "فرح بـ / سر بـ",
+    "fa": "خوشحال بودن از، شاد شدن از"
   },
   "rektion": {
     "requires_object": false,
@@ -59,7 +79,27 @@
       "german": "Ich freue mich über das schöne Geschenk",
       "translation": {
         "ru": "Я радуюсь красивому подарку",
-        "en": "I am happy about the nice gift"
+        "en": "I am happy about the nice gift",
+        "de": "Ich freue mich über das schöne Geschenk",
+        "es": "Me alegro mucho por el hermoso regalo",
+        "fr": "Je suis ravi de ce beau cadeau",
+        "it": "Sono felice del bel regalo",
+        "pt": "Estou feliz com o lindo presente",
+        "nl": "Ik ben blij met het mooie cadeau",
+        "pl": "Cieszę się z pięknego prezentu",
+        "cs": "Mám radost z toho krásného dárku",
+        "sk": "Teším sa z pekného darčeka",
+        "sl": "Veselim se lepega darila",
+        "hr": "Radujem se lijepom daru",
+        "hu": "Örülök a szép ajándéknak",
+        "ro": "Mă bucur de frumosul cadou",
+        "el": "Χαίρομαι για το όμορφο δώρο",
+        "uk": "Я радію гарному подарунку",
+        "tr": "Güzel hediye için çok mutluyum",
+        "vi": "Tôi rất vui vì món quà tuyệt đẹp",
+        "id": "Saya senang dengan hadiah yang indah itu",
+        "ar": "أنا سعيد بالهدية الجميلة",
+        "fa": "من از این هدیه زیبا بسیار خوشحالم"
       },
       "bracket_parts": [
         "freue mich"
@@ -74,7 +114,27 @@
       "german": "Freust du dich über die gute Note?",
       "translation": {
         "ru": "Ты радуешься хорошей оценке?",
-        "en": "Are you happy about the good grade?"
+        "en": "Are you happy about the good grade?",
+        "de": "Freust du dich über die gute Note?",
+        "es": "¿Te alegras de la buena nota?",
+        "fr": "Es-tu content de la bonne note ?",
+        "it": "Sei contento del bel voto?",
+        "pt": "Você está feliz com a nota boa?",
+        "nl": "Ben je blij met het goede cijfer?",
+        "pl": "Cieszysz się z dobrej oceny?",
+        "cs": "Máš radost z té dobré známky?",
+        "sk": "Tešíš sa z dobrej známky?",
+        "sl": "Se veseliš dobre ocene?",
+        "hr": "Raduješ li se dobroj ocjeni?",
+        "hu": "Örülsz a jó jegynek?",
+        "ro": "Te bucuri de nota bună?",
+        "el": "Χαίρεσαι για τον καλό βαθμό;",
+        "uk": "Ти радієш хорошій оцінці?",
+        "tr": "İyi not aldığın için sevindin mi?",
+        "vi": "Bạn có vui với điểm số tốt không?",
+        "id": "Apakah kamu senang dengan nilai yang bagus itu?",
+        "ar": "هل أنت سعيد بالدرجة الجيدة؟",
+        "fa": "آیا از نمره خوبت خوشحالی؟"
       },
       "bracket_parts": [
         "Freust"
@@ -89,7 +149,27 @@
       "german": "Er freut sich über den unerwarteten Erfolg",
       "translation": {
         "ru": "Он радуется неожиданному успеху",
-        "en": "He is glad about the unexpected success"
+        "en": "He is glad about the unexpected success",
+        "de": "Er freut sich über den unerwarteten Erfolg",
+        "es": "Él se alegra del éxito inesperado",
+        "fr": "Il se réjouit de ce succès inattendu",
+        "it": "Lui è felice per il successo inaspettato",
+        "pt": "Ele está contente com o sucesso inesperado",
+        "nl": "Hij is blij met het onverwachte succes",
+        "pl": "On cieszy się z niespodziewanego sukcesu",
+        "cs": "Má radost z nečekaného úspěchu",
+        "sk": "Teší sa z nečakaného úspechu",
+        "sl": "Veseli se nepričakovanega uspeha",
+        "hr": "Raduje se neočekivanom uspjehu",
+        "hu": "Örül a váratlan sikernek",
+        "ro": "Se bucură de succesul neașteptat",
+        "el": "Χαίρεται για την απροσδόκητη επιτυχία",
+        "uk": "Він радіє несподіваному успіху",
+        "tr": "Beklenmedik başarıya seviniyor",
+        "vi": "Anh ấy rất vui mừng trước thành công bất ngờ",
+        "id": "Dia bergembira atas kesuksesan yang tak terduga itu",
+        "ar": "هو مسرور بالنجاح غير المتوقع",
+        "fa": "او از موفقیت غیرمنتظره خوشحال است"
       },
       "bracket_parts": [
         "freut sich"
@@ -104,7 +184,27 @@
       "german": "Wir freuen uns über deine liebe Nachricht",
       "translation": {
         "ru": "Мы очень рады твоему милому сообщению",
-        "en": "We are happy about your kind message"
+        "en": "We are happy about your kind message",
+        "de": "Wir freuen uns über deine liebe Nachricht",
+        "es": "Nos alegra mucho tu cariñoso mensaje",
+        "fr": "Nous sommes ravis de ton gentil message",
+        "it": "Siamo felici del tuo bel messaggio",
+        "pt": "Ficamos felizes com a sua mensagem carinhosa",
+        "nl": "We zijn blij met je lieve berichtje",
+        "pl": "Cieszymy się z twojej miłej wiadomości",
+        "cs": "Máme radost z tvé milé zprávy",
+        "sk": "Tešíme sa z tvojej milej správy",
+        "sl": "Veseli smo tvojega prijaznega sporočila",
+        "hr": "Radujemo se tvojoj lijepoj poruci",
+        "hu": "Örülünk a kedves üzenetednek",
+        "ro": "Ne bucurăm de mesajul tău drag",
+        "el": "Χαιρόμαστε για το γλυκό σου μήνυμα",
+        "uk": "Ми раді твоєму теплому повідомленню",
+        "tr": "Nazik mesajın için çok sevindik",
+        "vi": "Chúng tôi rất vui khi nhận được tin nhắn dễ thương của bạn",
+        "id": "Kami senang dengan pesan manis darimu",
+        "ar": "يسعدنا تلقي رسالتك اللطيفة",
+        "fa": "ما از پیام پرمهرت بسیار خوشحالیم"
       },
       "bracket_parts": [
         "freuen uns"
@@ -119,7 +219,27 @@
       "german": "Freut ihr euch über die Blumen?",
       "translation": {
         "ru": "Вы рады цветам?",
-        "en": "Are you happy about the flowers?"
+        "en": "Are you happy about the flowers?",
+        "de": "Freut ihr euch über die Blumen?",
+        "es": "¿Os alegran las flores?",
+        "fr": "Êtes-vous contents des fleurs ?",
+        "it": "Siete contenti dei fiori?",
+        "pt": "Vocês ficaram felizes com as flores?",
+        "nl": "Zijn jullie blij met de bloemen?",
+        "pl": "Cieszycie się z tych kwiatów?",
+        "cs": "Máte radost z těch květin?",
+        "sk": "Tešíte sa z tých kvetov?",
+        "sl": "Se veselite rož?",
+        "hr": "Radujete li se cvijeću?",
+        "hu": "Örültök a virágoknak?",
+        "ro": "Vă bucurați de flori?",
+        "el": "Χαίρεστε για τα λουλούδια;",
+        "uk": "Ви раді квітам?",
+        "tr": "Çiçeklere sevindiniz mi?",
+        "vi": "Các bạn có vui khi nhận hoa không?",
+        "id": "Apakah kalian senang dengan bunganya?",
+        "ar": "هل أنتم مسرورون بالزهور؟",
+        "fa": "آیا از گل‌ها خوشحال شدید؟"
       },
       "bracket_parts": [
         "Freut"
@@ -134,7 +254,27 @@
       "german": "Sie freute sich sehr über die Einladung",
       "translation": {
         "ru": "Она очень обрадовалась приглашению",
-        "en": "She was very pleased about the invitation"
+        "en": "She was very pleased about the invitation",
+        "de": "Sie freute sich sehr über die Einladung",
+        "es": "Ella se alegró mucho de la invitación",
+        "fr": "Elle a été très heureuse de l'invitation",
+        "it": "È stata molto contenta dell'invito",
+        "pt": "Ela ficou muito feliz com o convite",
+        "nl": "Ze was erg blij met de uitnodiging",
+        "pl": "Bardzo ucieszyła się z zaproszenia",
+        "cs": "Měla velkou radost z pozvání",
+        "sk": "Veľmi sa potešila pozvaniu",
+        "sl": "Zelo se je razveselila povabila",
+        "hr": "Jako se obradovala pozivu",
+        "hu": "Nagyon örült a meghívásnak",
+        "ro": "S-a bucurat foarte mult de invitație",
+        "el": "Χάρηκε πολύ για την πρόσκληση",
+        "uk": "Вона дуже зраділа запрошенню",
+        "tr": "Davete çok sevindi",
+        "vi": "Cô ấy rất vui khi nhận được lời mời",
+        "id": "Dia sangat senang dengan undangannya",
+        "ar": "لقد فرحت كثيرًا بالدعوة",
+        "fa": "او از دعوت بسیار خوشحال شد"
       },
       "bracket_parts": [
         "freute sich"
@@ -149,7 +289,27 @@
       "german": "Sie haben sich über den Sieg gefreut",
       "translation": {
         "ru": "Они порадовались победе",
-        "en": "They rejoiced over the victory"
+        "en": "They rejoiced over the victory",
+        "de": "Sie haben sich über den Sieg gefreut",
+        "es": "Se alegraron mucho por la victoria",
+        "fr": "Ils se sont réjouis de la victoire",
+        "it": "Hanno esultato per la vittoria",
+        "pt": "Eles comemoraram a vitória",
+        "nl": "Ze waren blij met de overwinning",
+        "pl": "Cieszyli się ze zwycięstwa",
+        "cs": "Radovali se z vítězství",
+        "sk": "Tešili sa z víťazstva",
+        "sl": "Veselili so se zmage",
+        "hr": "Radovali su se pobjedi",
+        "hu": "Örültek a győzelemnek",
+        "ro": "S-au bucurat de victorie",
+        "el": "Χάρηκαν για τη νίκη",
+        "uk": "Вони пораділи перемозі",
+        "tr": "Kazanılan zafere sevindiler",
+        "vi": "Họ đã rất vui mừng trước chiến thắng",
+        "id": "Mereka bergembira atas kemenangan itu",
+        "ar": "لقد ابتهجوا بالفوز",
+        "fa": "آن‌ها از پیروزی بسیار شادمان شدند"
       },
       "bracket_parts": [
         "haben sich",
@@ -165,7 +325,27 @@
       "german": "Freu dich über die kleinen Dinge!",
       "translation": {
         "ru": "Радуйся мелочам!",
-        "en": "Be happy about the small things!"
+        "en": "Be happy about the small things!",
+        "de": "Freu dich über die kleinen Dinge!",
+        "es": "¡Alégrate de las pequeñas cosas!",
+        "fr": "Réjouis-toi des petites choses !",
+        "it": "Rallegrati delle piccole cose!",
+        "pt": "Alegre-se com as pequenas coisas!",
+        "nl": "Wees blij met de kleine dingen!",
+        "pl": "Ciesz się z małych rzeczy!",
+        "cs": "Měj radost z maličkostí!",
+        "sk": "Teš sa z maličkostí!",
+        "sl": "Veseli se malih stvari!",
+        "hr": "Raduj se malim stvarima!",
+        "hu": "Örülj az apró dolgoknak!",
+        "ro": "Bucură-te de lucrurile mărunte!",
+        "el": "Χαίρου με τα μικρά πράγματα!",
+        "uk": "Радій дрібницям!",
+        "tr": "Küçük şeylerden mutlu ol!",
+        "vi": "Hãy vui mừng vì những điều nhỏ bé!",
+        "id": "Bersukacitalah atas hal-hal kecil!",
+        "ar": "افرح بالأشياء الصغيرة!",
+        "fa": "از چیزهای کوچک شاد باش!"
       },
       "bracket_parts": [
         "Freu dich"

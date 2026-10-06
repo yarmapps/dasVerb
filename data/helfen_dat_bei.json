@@ -43,7 +43,27 @@
   "id": "helfen_dat_bei",
   "translation": {
     "ru": "помогать (в чём-то)",
-    "en": "to help (with something)"
+    "en": "to help (with something)",
+    "de": "unterstützen bei, behilflich sein bei",
+    "es": "ayudar en, ayudar con",
+    "fr": "aider à, aider pour",
+    "it": "aiutare in, dare una mano con",
+    "pt": "ajudar em, ajudar com",
+    "nl": "helpen bij",
+    "pl": "pomagać w",
+    "cs": "pomáhat s, pomáhat při",
+    "sk": "pomáhať s, pomáhať pri",
+    "sl": "pomagati pri",
+    "hr": "pomagati pri, pomagati u",
+    "hu": "segíteni valamiben",
+    "ro": "a ajuta la",
+    "el": "βοηθώ σε",
+    "uk": "допомагати (у чомусь)",
+    "tr": "yardım etmek (-de/-da)",
+    "vi": "giúp đỡ (trong việc gì)",
+    "id": "membantu (dalam hal)",
+    "ar": "ساعد في",
+    "fa": "کمک کردن در"
   },
   "rektion": {
     "requires_object": true,
@@ -59,7 +79,27 @@
       "german": "Ich helfe dir beim Kochen",
       "translation": {
         "ru": "Я помогу тебе с готовкой",
-        "en": "I will help you with the cooking"
+        "en": "I will help you with the cooking",
+        "de": "Ich helfe dir beim Kochen",
+        "es": "Te ayudo a cocinar",
+        "fr": "Je t'aide à cuisiner",
+        "it": "Ti aiuto a cucinare",
+        "pt": "Eu te ajudo a cozinhar",
+        "nl": "Ik help je met koken",
+        "pl": "Pomogę ci w gotowaniu",
+        "cs": "Pomůžu ti s vařením",
+        "sk": "Pomôžem ti s varením",
+        "sl": "Pomagal ti bom pri kuhanju",
+        "hr": "Pomoći ću ti pri kuhanju",
+        "hu": "Segítek neked a főzésben",
+        "ro": "Te ajut la gătit",
+        "el": "Σε βοηθώ στο μαγείρεμα",
+        "uk": "Я допоможу тобі з готуванням",
+        "tr": "Yemek yapmanda sana yardım ederim",
+        "vi": "Tôi sẽ giúp bạn nấu ăn",
+        "id": "Saya akan membantumu memasak",
+        "ar": "سأساعدك في الطبخ",
+        "fa": "من در آشپزی به تو کمک می‌کنم"
       },
       "bracket_parts": [
         "helfe"
@@ -75,7 +115,27 @@
       "german": "Hilfst du mir beim Aufräumen?",
       "translation": {
         "ru": "Ты поможешь мне с уборкой?",
-        "en": "Will you help me with cleaning up?"
+        "en": "Will you help me with cleaning up?",
+        "de": "Hilfst du mir beim Aufräumen?",
+        "es": "¿Me ayudas a ordenar?",
+        "fr": "Tu m'aides à ranger ?",
+        "it": "Mi aiuti a mettere in ordine?",
+        "pt": "Você me ajuda a arrumar?",
+        "nl": "Help je me met opruimen?",
+        "pl": "Pomożesz mi w sprzątaniu?",
+        "cs": "Pomůžeš mi s úklidem?",
+        "sk": "Pomôžeš mi s upratovaním?",
+        "sl": "Mi pomagaš pospravljati?",
+        "hr": "Pomažeš li mi pospremiti?",
+        "hu": "Segítesz nekem a takarításban?",
+        "ro": "Mă ajuți la făcut curățenie?",
+        "el": "Με βοηθάς στο συμμάζεμα;",
+        "uk": "Ти допоможеш мені з прибиранням?",
+        "tr": "Ortalığı toplamamda bana yardım eder misin?",
+        "vi": "Bạn có giúp tôi dọn dẹp không?",
+        "id": "Maukah kamu membantuku merapikan?",
+        "ar": "هل تساعدني في الترتيب؟",
+        "fa": "آیا در تمیزکاری به من کمک می‌کنی؟"
       },
       "bracket_parts": [
         "Hilfst"
@@ -91,7 +151,27 @@
       "german": "Er hilft seinem Bruder bei den Hausaufgaben",
       "translation": {
         "ru": "Он помогает своему брату с уроками",
-        "en": "He helps his brother with homework"
+        "en": "He helps his brother with homework",
+        "de": "Er hilft seinem Bruder bei den Hausaufgaben",
+        "es": "Él ayuda a su hermano con los deberes",
+        "fr": "Il aide son frère pour ses devoirs",
+        "it": "Lui aiuta suo fratello con i compiti",
+        "pt": "Ele ajuda o irmão com a lição de casa",
+        "nl": "Hij helpt zijn broer met het huiswerk",
+        "pl": "On pomaga swojemu bratu w odrabianiu lekcji",
+        "cs": "Pomáhá svému bratrovi s domácími úkoly",
+        "sk": "Pomáha svojmu bratovi s domácimi úlohami",
+        "sl": "Svojemu bratu pomaga pri domačih nalogah",
+        "hr": "On pomaže svom bratu oko domaće zadaće",
+        "hu": "Segít a testvérének a házi feladatban",
+        "ro": "El îl ajută pe fratele său la teme",
+        "el": "Βοηθάει τον αδελφό του στα μαθήματα",
+        "uk": "Він допомагає своєму братові з домашніми завданнями",
+        "tr": "Kardeşine ödevlerinde yardım ediyor",
+        "vi": "Anh ấy giúp em trai làm bài tập về nhà",
+        "id": "Dia membantu saudaranya mengerjakan pekerjaan rumah",
+        "ar": "يساعد أخاه في الواجبات المدرسية",
+        "fa": "او به برادرش در تکالیف مدرسه کمک می‌کند"
       },
       "bracket_parts": [
         "hilft"
@@ -107,7 +187,27 @@
       "german": "Wir helfen den Kollegen beim Projekt",
       "translation": {
         "ru": "Мы помогаем коллегам с проектом",
-        "en": "We help the colleagues with the project"
+        "en": "We help the colleagues with the project",
+        "de": "Wir helfen den Kollegen beim Projekt",
+        "es": "Ayudamos a los compañeros con el proyecto",
+        "fr": "Nous aidons les collègues pour le projet",
+        "it": "Aiutiamo i colleghi con il progetto",
+        "pt": "Ajudamos os colegas no projeto",
+        "nl": "We helpen de collega's met het project",
+        "pl": "Pomagamy kolegom przy projekcie",
+        "cs": "Pomáháme kolegům s projektem",
+        "sk": "Pomáhame kolegom s projektom",
+        "sl": "Kolegom pomagamo pri projektu",
+        "hr": "Pomažemo kolegama na projektu",
+        "hu": "Segítünk a kollégáknak a projektben",
+        "ro": "Îi ajutăm pe colegi la proiect",
+        "el": "Βοηθάμε τους συναδέλφους στο έργο",
+        "uk": "Ми допомагаємо колегам із проєктом",
+        "tr": "İş arkadaşlarımıza projede yardım ediyoruz",
+        "vi": "Chúng tôi giúp các đồng nghiệp trong dự án",
+        "id": "Kami membantu rekan kerja dengan proyek itu",
+        "ar": "نساعد الزملاء في المشروع",
+        "fa": "ما به همکاران در پروژه کمک می‌کنیم"
       },
       "bracket_parts": [
         "helfen"
@@ -123,7 +223,27 @@
       "german": "Helft ihr den Eltern bei der Gartenarbeit?",
       "translation": {
         "ru": "Вы помогаете родителям с работой в саду?",
-        "en": "Are you helping your parents with gardening?"
+        "en": "Are you helping your parents with gardening?",
+        "de": "Helft ihr den Eltern bei der Gartenarbeit?",
+        "es": "¿Ayudáis a vuestros padres con el trabajo del jardín?",
+        "fr": "Aidez-vous vos parents pour le jardinage ?",
+        "it": "Aiutate i genitori con il lavoro in giardino?",
+        "pt": "Vocês estão ajudando seus pais com o trabalho no jardim?",
+        "nl": "Helpen jullie je ouders met het tuinieren?",
+        "pl": "Czy pomagacie rodzicom w pracach ogrodowych?",
+        "cs": "Pomáháte rodičům s prací na zahradě?",
+        "sk": "Pomáhate rodičom s prácou v záhrade?",
+        "sl": "Ali pomagate staršem pri vrtnarjenju?",
+        "hr": "Pomažete li roditeljima u vrtlarstvu?",
+        "hu": "Segítetek a szüleiteknek a kerti munkában?",
+        "ro": "Îi ajutați pe părinți la munca în grădină?",
+        "el": "Βοηθάτε τους γονείς στις δουλειές του κήπου;",
+        "uk": "Ви допомагаєте батькам із роботою в саду?",
+        "tr": "Bahçe işlerinde ailenize yardım ediyor musunuz?",
+        "vi": "Các bạn có giúp bố mẹ làm vườn không?",
+        "id": "Apakah kalian membantu orang tua berkebun?",
+        "ar": "هل تساعدون الوالدين في أعمال الحديقة؟",
+        "fa": "آیا در کارهای باغبانی به والدین کمک می‌کنید؟"
       },
       "bracket_parts": [
         "Helft"
@@ -139,7 +259,27 @@
       "german": "Gestern half sie ihm bei der Reparatur",
       "translation": {
         "ru": "Вчера она помогла ему с ремонтом",
-        "en": "Yesterday she helped him with the repair"
+        "en": "Yesterday she helped him with the repair",
+        "de": "Gestern half sie ihm bei der Reparatur",
+        "es": "Ayer ella le ayudó con la reparación",
+        "fr": "Hier, elle l'a aidé pour la réparation",
+        "it": "Ieri lei lo ha aiutato con la riparazione",
+        "pt": "Ontem ela o ajudou no conserto",
+        "nl": "Gisteren hielp ze hem met de reparatie",
+        "pl": "Wczoraj pomogła mu w naprawie",
+        "cs": "Včera mu pomohla s opravou",
+        "sk": "Včera mu pomohla s opravou",
+        "sl": "Včeraj mu je pomagala pri popravilu",
+        "hr": "Jučer mu je pomogla oko popravka",
+        "hu": "Tegnap segített neki a javításban",
+        "ro": "Ieri l-a ajutat la reparație",
+        "el": "Χθες τον βοήθησε στην επισκευή",
+        "uk": "Вчора вона допомогла йому з ремонтом",
+        "tr": "Dün tamiratta ona yardım etti",
+        "vi": "Hôm qua cô ấy đã giúp anh ấy sửa chữa",
+        "id": "Kemarin dia membantunya melakukan perbaikan",
+        "ar": "ساعدته في الإصلاح بالأمس",
+        "fa": "دیروز او در تعمیر به او کمک کرد"
       },
       "bracket_parts": [
         "half"
@@ -155,7 +295,27 @@
       "german": "Sie haben uns beim Umzug geholfen",
       "translation": {
         "ru": "Они помогли нам с переездом",
-        "en": "They helped us with the move"
+        "en": "They helped us with the move",
+        "de": "Sie haben uns beim Umzug geholfen",
+        "es": "Ellos nos ayudaron con la mudanza",
+        "fr": "Ils nous ont aidés pour le déménagement",
+        "it": "Ci hanno aiutato con il trasloco",
+        "pt": "Eles nos ajudaram com a mudança",
+        "nl": "Ze hebben ons geholpen met de verhuizing",
+        "pl": "Pomogli nam przy przeprowadzce",
+        "cs": "Pomohli nám se stěhováním",
+        "sk": "Pomohli nám so sťahovaním",
+        "sl": "Pomagali so nam pri selitvi",
+        "hr": "Pomogli su nam oko selidbe",
+        "hu": "Segítettek nekünk a költözésben",
+        "ro": "Ne-au ajutat la mutare",
+        "el": "Μας βοήθησαν στη μετακόμιση",
+        "uk": "Вони допомогли нам із переїздом",
+        "tr": "Taşınmamızda bize yardım ettiler",
+        "vi": "Họ đã giúp chúng tôi chuyển nhà",
+        "id": "Mereka membantu kami saat pindahan",
+        "ar": "لقد ساعدونا في الانتقال",
+        "fa": "آن‌ها در اسباب‌کشی به ما کمک کردند"
       },
       "bracket_parts": [
         "haben",
@@ -172,7 +332,27 @@
       "german": "Hilf mir bitte beim Tragen!",
       "translation": {
         "ru": "Помоги мне, пожалуйста, донести!",
-        "en": "Please help me carry this!"
+        "en": "Please help me carry this!",
+        "de": "Hilf mir bitte beim Tragen!",
+        "es": "¡Ayúdame a llevar esto, por favor!",
+        "fr": "Aide-moi à porter ça, s'il te plaît !",
+        "it": "Aiutami a portare questo, per favore!",
+        "pt": "Por favor, me ajude a carregar!",
+        "nl": "Help me alsjeblieft met dragen!",
+        "pl": "Pomóż mi proszę to nieść!",
+        "cs": "Pomoz mi to prosím nést!",
+        "sk": "Pomôž mi to prosím niesť!",
+        "sl": "Pomagaj mi nesti, prosim!",
+        "hr": "Pomozi mi nositi, molim te!",
+        "hu": "Kérlek, segíts cipelni!",
+        "ro": "Ajută-mă la cărat, te rog!",
+        "el": "Βοήθησέ με να το κουβαλήσω, σε παρακαλώ!",
+        "uk": "Допоможи мені, будь ласка, донести!",
+        "tr": "Lütfen taşımama yardım et!",
+        "vi": "Làm ơn giúp tôi mang đồ này với!",
+        "id": "Tolong bantu saya membawa ini!",
+        "ar": "ساعدني في الحمل من فضلك!",
+        "fa": "لطفاً در حمل این به من کمک کن!"
       },
       "bracket_parts": [
         "Hilf"

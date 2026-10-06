@@ -43,7 +43,27 @@
   "id": "wohnen_dat_in",
   "translation": {
     "ru": "жить, проживать (в городе/квартире)",
-    "en": "to live, to reside (in a city/flat)"
+    "en": "to live, to reside (in a city/flat)",
+    "de": "in einer Wohnung / Stadt wohnen",
+    "es": "vivir, residir (en una ciudad/un piso)",
+    "fr": "habiter, résider (dans une ville/un appartement)",
+    "it": "abitare, risiedere (in una città/un appartamento)",
+    "pt": "morar, residir (numa cidade/apartamento)",
+    "nl": "wonen (in een stad/woning)",
+    "pl": "mieszkać (w mieście/mieszkaniu)",
+    "cs": "bydlet (ve městě/bytě)",
+    "sk": "bývať (v meste/byte)",
+    "sl": "stanovati, prebivati (v mestu/stanovanju)",
+    "hr": "stanovati, živjeti (u gradu/stanu)",
+    "hu": "lakni (városban/lakásban)",
+    "ro": "a locui (într-un oraș/apartament)",
+    "el": "κατοικώ, μένω (σε πόλη/διαμέρισμα)",
+    "uk": "жити, мешкати (у місті/квартирі)",
+    "tr": "oturmak, yaşamak (şehirde/dairede)",
+    "vi": "sống, cư trú (ở thành phố/căn hộ)",
+    "id": "tinggal, menetap (di kota/apartemen)",
+    "ar": "يسكن، يقيم (في مدينة/شقة)",
+    "fa": "سکونت داشتن، ساکن بودن (در شهر/آپارتمان)"
   },
   "rektion": {
     "requires_object": false,
@@ -59,7 +79,27 @@
       "german": "Ich wohne in einer gemütlichen Wohnung in Berlin",
       "translation": {
         "ru": "Я живу в уютной квартире в Берлине",
-        "en": "I live in a cozy apartment in Berlin"
+        "en": "I live in a cozy apartment in Berlin",
+        "de": "Ich wohne in einer gemütlichen Wohnung in Berlin",
+        "es": "Vivo en un apartamento acogedor en Berlín",
+        "fr": "J'habite dans un appartement chaleureux à Berlin",
+        "it": "Abito in un appartamento accogliente a Berlino",
+        "pt": "Moro num apartamento acolhedor em Berlim",
+        "nl": "Ik woon in een gezellig appartement in Berlijn",
+        "pl": "Mieszkam w przytulnym mieszkaniu w Berlinie",
+        "cs": "Bydlím v útulném bytě v Berlíně",
+        "sk": "Bývam v útulnom byte v Berlíne",
+        "sl": "Stanujem v prijetnem stanovanju v Berlinu",
+        "hr": "Živim u ugodnom stanu u Berlinu",
+        "hu": "Egy hangulatos lakásban lakom Berlinben",
+        "ro": "Locuiesc într-un apartament primitor în Berlin",
+        "el": "Μένω σε ένα άνετο διαμέρισμα στο Βερολίνο",
+        "uk": "Я живу в затишній квартирі в Берліні",
+        "tr": "Berlin'de şirin bir dairede oturuyorum",
+        "vi": "Tôi sống trong một căn hộ ấm cúng ở Berlin",
+        "id": "Saya tinggal di apartemen yang nyaman di Berlin",
+        "ar": "أسكن في شقة مريحة في برلين",
+        "fa": "من در آپارتمانی دنج در برلین زندگی می‌کنم"
       },
       "bracket_parts": [
         "wohne"
@@ -75,7 +115,27 @@
       "german": "Wohnst du in einem ruhigen Stadtviertel?",
       "translation": {
         "ru": "Ты живешь в тихом районе города?",
-        "en": "Do you live in a quiet neighborhood?"
+        "en": "Do you live in a quiet neighborhood?",
+        "de": "Wohnst du in einem ruhigen Stadtviertel?",
+        "es": "¿Vives en un barrio tranquilo?",
+        "fr": "Habites-tu dans un quartier calme ?",
+        "it": "Abiti in un quartiere tranquillo?",
+        "pt": "Moras num bairro tranquilo?",
+        "nl": "Woon je in een rustige stadswijk?",
+        "pl": "Mieszkasz w spokojnej dzielnicy?",
+        "cs": "Bydlíš v klidné čtvrti?",
+        "sk": "Bývaš v tichej štvrti?",
+        "sl": "Ali stanuješ v mirni mestni četrti?",
+        "hr": "Živiš li u mirnoj četvrti?",
+        "hu": "Csendes városrészben laksz?",
+        "ro": "Locuiești într-un cartier liniștit?",
+        "el": "Μένεις σε μια ήσυχη γειτονιά;",
+        "uk": "Ти живеш у тихому районі міста?",
+        "tr": "Sakin bir mahallede mi oturuyorsun?",
+        "vi": "Bạn có sống ở một khu phố yên tĩnh không?",
+        "id": "Apakah kamu tinggal di lingkungan yang tenang?",
+        "ar": "هل تسكن في حي هادئ؟",
+        "fa": "آیا در محله‌ای آرام زندگی می‌کنی؟"
       },
       "bracket_parts": [
         "Wohnst"
@@ -90,7 +150,27 @@
       "german": "Er wohnt seit drei Jahren in München",
       "translation": {
         "ru": "Он живет в Мюнхене уже три года",
-        "en": "He has been living in Munich for three years"
+        "en": "He has been living in Munich for three years",
+        "de": "Er wohnt seit drei Jahren in München",
+        "es": "Él vive en Múnich desde hace tres años",
+        "fr": "Il habite à Munich depuis trois ans",
+        "it": "Abita a Monaco da tre anni",
+        "pt": "Ele mora em Munique há três anos",
+        "nl": "Hij woont al drie jaar in München",
+        "pl": "On mieszka od trzech lat w Monachium",
+        "cs": "Bydlí už tři roky v Mnichově",
+        "sk": "Býva už tri roky v Mníchove",
+        "sl": "Že tri leta stanuje v Münchnu",
+        "hr": "Već tri godine živi u Münchenu",
+        "hu": "Három éve Münchenben lakik",
+        "ro": "El locuiește de trei ani la München",
+        "el": "Μένει εδώ και τρία χρόνια στο Μόναχο",
+        "uk": "Він живе в Мюнхені вже три роки",
+        "tr": "Üç yıldır Münih'te oturuyor",
+        "vi": "Anh ấy đã sống ở Munich được ba năm",
+        "id": "Dia sudah tinggal di Munich selama tiga tahun",
+        "ar": "يسكن في ميونخ منذ ثلاث سنوات",
+        "fa": "او سه سال است که در مونیخ زندگی می‌کند"
       },
       "bracket_parts": [
         "wohnt"
@@ -105,7 +185,27 @@
       "german": "Wir wohnen in einem modernen Haus auf dem Land",
       "translation": {
         "ru": "Мы живем в современном доме за городом",
-        "en": "We live in a modern house in the countryside"
+        "en": "We live in a modern house in the countryside",
+        "de": "Wir wohnen in einem modernen Haus auf dem Land",
+        "es": "Vivimos en una casa moderna en el campo",
+        "fr": "Nous habitons dans une maison moderne à la campagne",
+        "it": "Abitiamo in una casa moderna in campagna",
+        "pt": "Moramos numa casa moderna no campo",
+        "nl": "We wonen in een modern huis op het platteland",
+        "pl": "Mieszkamy w nowoczesnym domu na wsi",
+        "cs": "Bydlíme v moderním domě na venkově",
+        "sk": "Bývame v modernom dome na vidieku",
+        "sl": "Stanujemo v moderni hiši na podeželju",
+        "hr": "Živimo u modernoj kući na selu",
+        "hu": "Egy modern házban lakunk vidéken",
+        "ro": "Locuim într-o casă modernă la țară",
+        "el": "Μένουμε σε ένα μοντέρνο σπίτι στην εξοχή",
+        "uk": "Ми живемо в сучасному будинку за містом",
+        "tr": "Kırsalda modern bir evde oturuyoruz",
+        "vi": "Chúng tôi sống trong một ngôi nhà hiện đại ở vùng quê",
+        "id": "Kami tinggal di rumah modern di pedesaan",
+        "ar": "نسكن في منزل حديث في الريف",
+        "fa": "ما در خانه‌ای مدرن در حومه شهر زندگی می‌کنیم"
       },
       "bracket_parts": [
         "wohnen"
@@ -120,7 +220,27 @@
       "german": "Wohnt ihr im Stadtzentrum oder am Stadtrand?",
       "translation": {
         "ru": "Вы живете в центре города или на окраине?",
-        "en": "Do you live in the city center or on the outskirts?"
+        "en": "Do you live in the city center or on the outskirts?",
+        "de": "Wohnt ihr im Stadtzentrum oder am Stadtrand?",
+        "es": "¿Vivís en el centro de la ciudad o en las afueras?",
+        "fr": "Habitez-vous au centre-ville ou en banlieue ?",
+        "it": "Abitate in centro città o in periferia?",
+        "pt": "Moram no centro da cidade ou na periferia?",
+        "nl": "Wonen jullie in het centrum of aan de rand van de stad?",
+        "pl": "Mieszkacie w centrum miasta czy na obrzeżach?",
+        "cs": "Bydlíte v centru města nebo na okraji?",
+        "sk": "Bývate v centre mesta alebo na okraji?",
+        "sl": "Ali stanujete v središču mesta ali na obrobju?",
+        "hr": "Živite li u središtu grada ili na periferiji?",
+        "hu": "A belvárosban vagy a város szélén laktok?",
+        "ro": "Locuiți în centrul orașului sau la periferie?",
+        "el": "Μένετε στο κέντρο της πόλης ή στα προάστια;",
+        "uk": "Ви живете в центрі міста чи на околиці?",
+        "tr": "Şehir merkezinde mi yoksa kenar mahallelerde mi oturuyorsunuz?",
+        "vi": "Các bạn sống ở trung tâm hay ở ngoại ô thành phố?",
+        "id": "Apakah kalian tinggal di pusat kota atau di pinggiran kota?",
+        "ar": "هل تسكنون في وسط المدينة أم في الضواحي؟",
+        "fa": "آیا در مرکز شهر زندگی می‌کنید یا در حومه؟"
       },
       "bracket_parts": [
         "Wohnt"
@@ -136,7 +256,27 @@
       "german": "Gestern erzählte sie, sie wohnte früher in Hamburg",
       "translation": {
         "ru": "Вчера она рассказала, что раньше жила в Гамбурге",
-        "en": "Yesterday she told us she used to live in Hamburg"
+        "en": "Yesterday she told us she used to live in Hamburg",
+        "de": "Gestern erzählte sie, sie wohnte früher in Hamburg",
+        "es": "Ayer contó que antes vivía en Hamburgo",
+        "fr": "Hier, elle a raconté qu'elle habitait autrefois à Hambourg",
+        "it": "Ieri ha raccontato che prima abitava ad Amburgo",
+        "pt": "Ontem ela contou que antes morava em Hamburgo",
+        "nl": "Gisteren vertelde ze dat ze vroeger in Hamburg woonde",
+        "pl": "Wczoraj opowiadała, że dawniej mieszkała w Hamburgu",
+        "cs": "Včera vyprávěla, že dříve bydlela v Hamburku",
+        "sk": "Včera hovorila, že predtým bývala v Hamburgu",
+        "sl": "Včeraj je povedala, da je prej stanovala v Hamburgu",
+        "hr": "Jučer je ispričala da je prije živjela u Hamburgu",
+        "hu": "Tegnap mesélte, hogy korábban Hamburgban lakott",
+        "ro": "Ieri a povestit că a locuit în trecut la Hamburg",
+        "el": "Χθες είπε ότι παλαιότερα έμενε στο Αμβούργο",
+        "uk": "Вчора вона розповіла, що раніше жила в Гамбурзі",
+        "tr": "Dün eskiden Hamburg'da oturduğunu anlattı",
+        "vi": "Hôm qua cô ấy kể rằng trước đây cô từng sống ở Hamburg",
+        "id": "Kemarin dia bercerita bahwa dulu dia tinggal di Hamburg",
+        "ar": "أخبرت بالأمس أنها كانت تسكن في هامبورغ سابقاً",
+        "fa": "دیروز او تعریف کرد که قبلاً در هامبورگ زندگی می‌کرد"
       },
       "bracket_parts": [
         "wohnte"
@@ -151,7 +291,27 @@
       "german": "Sie haben fünf Jahre lang in Wien gewohnt",
       "translation": {
         "ru": "Они прожили пять лет в Вене",
-        "en": "They lived in Vienna for five years"
+        "en": "They lived in Vienna for five years",
+        "de": "Sie haben fünf Jahre lang in Wien gewohnt",
+        "es": "Vivieron durante cinco años en Viena",
+        "fr": "Ils ont habité à Vienne pendant cinq ans",
+        "it": "Hanno abitato a Vienna per cinque anni",
+        "pt": "Eles moraram em Viena durante cinco anos",
+        "nl": "Ze hebben vijf jaar lang in Wenen gewoond",
+        "pl": "Mieszkali przez pięć lat w Wiedniu",
+        "cs": "Bydleli pět let ve Vídni",
+        "sk": "Bývali päť rokov vo Viedni",
+        "sl": "Pet let so stanovali na Dunaju",
+        "hr": "Živjeli su pet godina u Beču",
+        "hu": "Öt éven át Bécsben laktak",
+        "ro": "Au locuit timp de cinci ani la Viena",
+        "el": "Έμειναν για πέντε χρόνια στη Βιέννη",
+        "uk": "Вони прожили п'ять років у Відні",
+        "tr": "Beş yıl boyunca Viyana'da oturdular",
+        "vi": "Họ đã sống ở Vienna trong năm năm",
+        "id": "Mereka tinggal di Wina selama lima tahun",
+        "ar": "لقد سكنوا في فيينا لمدة خمس سنوات",
+        "fa": "آن‌ها به مدت پنج سال در وین زندگی کردند"
       },
       "bracket_parts": [
         "haben",
@@ -167,7 +327,27 @@
       "german": "Wohn bitte in einer sicheren Gegend!",
       "translation": {
         "ru": "Живи, пожалуйста, в безопасном районе!",
-        "en": "Please live in a safe area!"
+        "en": "Please live in a safe area!",
+        "de": "Wohn bitte in einer sicheren Gegend!",
+        "es": "¡Vive en una zona segura, por favor!",
+        "fr": "Habite dans un quartier sûr, s'il te plaît !",
+        "it": "Abita in una zona sicura, per favore!",
+        "pt": "Mora numa zona segura, por favor!",
+        "nl": "Woon alsjeblieft in een veilige buurt!",
+        "pl": "Mieszkaj proszę w bezpiecznej okolicy!",
+        "cs": "Bydli prosím v bezpečné oblasti!",
+        "sk": "Bývaj prosím v bezpečnej oblasti!",
+        "sl": "Stanuj prosim v varnem okolišu!",
+        "hr": "Živi u sigurnom kvartu, molim te!",
+        "hu": "Kérlek, biztonságos környéken lakj!",
+        "ro": "Locuiește într-o zonă sigură, te rog!",
+        "el": "Μείνε σε μια ασφαλή περιοχή, σε παρακαλώ!",
+        "uk": "Живи, будь ласка, у безпечному районі!",
+        "tr": "Lütfen güvenli bir semtte otur!",
+        "vi": "Làm ơn hãy sống ở một khu vực an toàn nhé!",
+        "id": "Tolong tinggallah di daerah yang aman!",
+        "ar": "اسكن في منطقة آمنة من فضلك!",
+        "fa": "لطفاً در منطقه‌ای امن زندگی کن!"
       },
       "bracket_parts": [
         "Wohn"

@@ -43,7 +43,27 @@
   "id": "fahren_dat_zu",
   "translation": {
     "ru": "ехать (к кому-то/куда-то)",
-    "en": "to drive, to travel (to someone)"
+    "en": "to drive, to travel (to someone)",
+    "de": "zu jemandem / an einen Ort fahren",
+    "es": "ir, viajar (a ver a alguien/a un lugar)",
+    "fr": "aller (chez quelqu'un/à un endroit)",
+    "it": "andare (da qualcuno/in un posto)",
+    "pt": "ir (a casa de alguém/a um local)",
+    "nl": "rijden, gaan (naar iemand/een plek)",
+    "pl": "jechać (do kogoś/dokądś)",
+    "cs": "jet (k někomu/někam)",
+    "sk": "ísť, cestovať (k niekomu/niekam)",
+    "sl": "peljati se (k nekomu/nekam)",
+    "hr": "voziti se (k nekome/nekamo)",
+    "hu": "utazni, menni (valakihez/valahová)",
+    "ro": "a merge (la cineva/undeva)",
+    "el": "πηγαίνω (σε κάποιον/κάπου)",
+    "uk": "їхати (до когось/кудись)",
+    "tr": "gitmek (birine/bir yere)",
+    "vi": "đi xe (đến gặp ai/đến đâu đó)",
+    "id": "pergi naik kendaraan (ke tempat seseorang/suatu tempat)",
+    "ar": "يذهب بالسيارة (إلى شخص/إلى مكان)",
+    "fa": "رفتن با وسیله نقلیه (نزد کسی/به جایی)"
   },
   "rektion": {
     "requires_object": false,
@@ -59,7 +79,27 @@
       "german": "Ich fahre heute zu meinen Eltern",
       "translation": {
         "ru": "Сегодня я еду к своим родителям",
-        "en": "I am driving to my parents today"
+        "en": "I am driving to my parents today",
+        "de": "Ich fahre heute zu meinen Eltern",
+        "es": "Hoy voy a casa de mis padres",
+        "fr": "Je vais chez mes parents aujourd'hui",
+        "it": "Oggi vado dai miei genitori",
+        "pt": "Hoje vou a casa dos meus pais",
+        "nl": "Ik ga vandaag naar mijn ouders",
+        "pl": "Jadę dzisiaj do moich rodziców",
+        "cs": "Dnes jedu ke svým rodičům",
+        "sk": "Dnes cestujem k mojim rodičom",
+        "sl": "Danes se peljem k svojim staršem",
+        "hr": "Danas idem kod svojih roditelja",
+        "hu": "Ma a szüleimhez utazom",
+        "ro": "Astăzi merg la părinții mei",
+        "el": "Σήμερα πηγαίνω στους γονείς μου",
+        "uk": "Сьогодні я їду до своїх батьків",
+        "tr": "Bugün ailemin yanına gidiyorum",
+        "vi": "Hôm nay tôi về thăm bố mẹ",
+        "id": "Hari ini saya pergi ke rumah orang tua saya",
+        "ar": "سأذهب اليوم إلى والدي",
+        "fa": "من امروز نزد پدر و مادرم می‌روم"
       },
       "bracket_parts": [
         "fahre"
@@ -74,7 +114,27 @@
       "german": "Fährst du morgen zur Arbeit?",
       "translation": {
         "ru": "Ты поедешь завтра на работу?",
-        "en": "Are you driving to work tomorrow?"
+        "en": "Are you driving to work tomorrow?",
+        "de": "Fährst du morgen zur Arbeit?",
+        "es": "¿Vas a trabajar mañana en coche?",
+        "fr": "Vas-tu au travail demain ?",
+        "it": "Domani vai al lavoro?",
+        "pt": "Vais trabalhar amanhã?",
+        "nl": "Ga je morgen naar het werk?",
+        "pl": "Jedziesz jutro do pracy?",
+        "cs": "Jedeš zítra do práce?",
+        "sk": "Ideš zajtra do práce?",
+        "sl": "Greš jutri v službo?",
+        "hr": "Ideš li sutra na posao?",
+        "hu": "Holnap mész dolgozni?",
+        "ro": "Mergi mâine la serviciu?",
+        "el": "Θα πας αύριο στη δουλειά;",
+        "uk": "Ти поїдеш завтра на роботу?",
+        "tr": "Yarın işe gidecek misin?",
+        "vi": "Ngày mai bạn có lái xe đi làm không?",
+        "id": "Apakah kamu berangkat kerja besok?",
+        "ar": "هل ستذهب إلى العمل غداً؟",
+        "fa": "آیا فردا به سر کار می‌روی؟"
       },
       "bracket_parts": [
         "Fährst"
@@ -89,7 +149,27 @@
       "german": "Er fährt am Nachmittag zum Arzt",
       "translation": {
         "ru": "Во второй половине дня он едет к врачу",
-        "en": "He is driving to the doctor in the afternoon"
+        "en": "He is driving to the doctor in the afternoon",
+        "de": "Er fährt am Nachmittag zum Arzt",
+        "es": "Él va al médico por la tarde",
+        "fr": "Il va chez le médecin l'après-midi",
+        "it": "Va dal medico nel pomeriggio",
+        "pt": "Ele vai ao médico à tarde",
+        "nl": "Hij gaat 's middags naar de dokter",
+        "pl": "On jedzie po południu do lekarza",
+        "cs": "Odpoledne jede k lékaři",
+        "sk": "Popoludní ide k lekárovi",
+        "sl": "Popoldne se pelje k zdravniku",
+        "hr": "Poslijepodne ide liječniku",
+        "hu": "Délután orvoshoz megy",
+        "ro": "El merge la doctor după-amiaza",
+        "el": "Το απόγευμα πηγαίνει στον γιατρό",
+        "uk": "У другій половині дня він їде до лікаря",
+        "tr": "Öğleden sonra doktora gidiyor",
+        "vi": "Buổi chiều anh ấy đi khám bác sĩ",
+        "id": "Sore ini dia pergi ke dokter",
+        "ar": "هو ذاهب إلى الطبيب في فترة بعد الظهر",
+        "fa": "او بعدازظهر نزد پزشک می‌رود"
       },
       "bracket_parts": [
         "fährt"
@@ -104,7 +184,27 @@
       "german": "Wir fahren am Wochenende zur Oma",
       "translation": {
         "ru": "На выходных мы поедем к бабушке",
-        "en": "We are going to grandma’s on the weekend"
+        "en": "We are going to grandma’s on the weekend",
+        "de": "Wir fahren am Wochenende zur Oma",
+        "es": "El fin de semana vamos a ver a la abuela",
+        "fr": "Nous allons chez mamie ce week-end",
+        "it": "Nel fine settimana andiamo dalla nonna",
+        "pt": "No fim de semana vamos a casa da avó",
+        "nl": "We gaan in het weekend naar oma",
+        "pl": "W weekend jedziemy do babci",
+        "cs": "O víkendu jedeme k babičce",
+        "sk": "Cez víkend ideme k babke",
+        "sl": "Čez vikend gremo k babici",
+        "hr": "Za vikend idemo baki",
+        "hu": "Hétvégén a nagymamához utazunk",
+        "ro": "În weekend mergem la bunica",
+        "el": "Το σαββατοκύριακο θα πάμε στη γιαγιά",
+        "uk": "На вихідних ми поїдемо до бабусі",
+        "tr": "Hafta sonu anneanneme gidiyoruz",
+        "vi": "Cuối tuần chúng tôi về thăm bà",
+        "id": "Kami pergi ke rumah nenek di akhir pekan",
+        "ar": "سنذهب إلى الجدة في عطلة نهاية الأسبوع",
+        "fa": "ما در آخر هفته نزد مادربزرگ می‌رویم"
       },
       "bracket_parts": [
         "fahren"
@@ -119,7 +219,27 @@
       "german": "Fahrt ihr heute zum Bahnhof?",
       "translation": {
         "ru": "Вы поедете сегодня на вокзал?",
-        "en": "Are you driving to the station today?"
+        "en": "Are you driving to the station today?",
+        "de": "Fahrt ihr heute zum Bahnhof?",
+        "es": "¿Vais hoy a la estación?",
+        "fr": "Allez-vous à la gare aujourd'hui ?",
+        "it": "Andate alla stazione oggi?",
+        "pt": "Vão à estação hoje?",
+        "nl": "Gaan jullie vandaag naar het station?",
+        "pl": "Jedziecie dzisiaj na dworzec?",
+        "cs": "Jedete dnes na nádraží?",
+        "sk": "Idete dnes na stanicu?",
+        "sl": "Greste danes na železniško postajo?",
+        "hr": "Idete li danas na kolodvor?",
+        "hu": "Ma a pályaudvarra mentek?",
+        "ro": "Mergeți astăzi la gară?",
+        "el": "Θα πάτε σήμερα στον σταθμό;",
+        "uk": "Ви поїдете сьогодні на вокзал?",
+        "tr": "Bugün tren garına gidecek misiniz?",
+        "vi": "Hôm nay các bạn có ra ga xe lửa không?",
+        "id": "Apakah kalian pergi ke stasiun hari ini?",
+        "ar": "هل ستذهبون إلى المحطة اليوم؟",
+        "fa": "آیا امروز به ایستگاه قطار می‌روید؟"
       },
       "bracket_parts": [
         "Fahrt"
@@ -134,7 +254,27 @@
       "german": "Gestern fuhr sie spät zur Konferenz",
       "translation": {
         "ru": "Вчера она поздно поехала на конференцию",
-        "en": "Yesterday she drove late to the conference"
+        "en": "Yesterday she drove late to the conference",
+        "de": "Gestern fuhr sie spät zur Konferenz",
+        "es": "Ayer ella fue tarde a la conferencia",
+        "fr": "Hier, elle est allée tard à la conférence",
+        "it": "Ieri è andata tardi alla conferenza",
+        "pt": "Ontem ela foi tarde para a conferência",
+        "nl": "Gisteren ging ze laat naar de conferentie",
+        "pl": "Wczoraj późno pojechała na konferencję",
+        "cs": "Včera jela pozdě na konferenci",
+        "sk": "Včera cestovala neskoro na konferenciu",
+        "sl": "Včeraj se je pozno odpeljala na konferenco",
+        "hr": "Jučer je kasno otišla na konferenciju",
+        "hu": "Tegnap későn indult a konferenciára",
+        "ro": "Ieri a plecat târziu la conferință",
+        "el": "Χθες πήγε αργά στο συνέδριο",
+        "uk": "Вчора вона пізно поїхала на конференцію",
+        "tr": "Dün konferansa geç gitti",
+        "vi": "Hôm qua cô ấy đến hội nghị muộn",
+        "id": "Kemarin dia terlambat pergi ke konferensi",
+        "ar": "ذهبت في وقت متأخر إلى المؤتمر بالأمس",
+        "fa": "دیروز او دیر به کنفرانس رفت"
       },
       "bracket_parts": [
         "fuhr"
@@ -149,7 +289,27 @@
       "german": "Sie sind gestern zum Flughafen gefahren",
       "translation": {
         "ru": "Они вчера поехали в аэропорт",
-        "en": "They drove to the airport yesterday"
+        "en": "They drove to the airport yesterday",
+        "de": "Sie sind gestern zum Flughafen gefahren",
+        "es": "Ayer fueron al aeropuerto",
+        "fr": "Ils sont allés à l'aéroport hier",
+        "it": "Ieri sono andati all'aeroporto",
+        "pt": "Ontem eles foram para o aeroporto",
+        "nl": "Ze zijn gisteren naar het vliegveld gereden",
+        "pl": "Pojechali wczoraj na lotnisko",
+        "cs": "Včera jeli na letiště",
+        "sk": "Včera cestovali na letisko",
+        "sl": "Včeraj so se odpeljali na letališče",
+        "hr": "Jučer su se odvezli do zračne luke",
+        "hu": "Tegnap a repülőtérre mentek",
+        "ro": "Ei au mers ieri la aeroport",
+        "el": "Χθες πήγαν στο αεροδρόμιο",
+        "uk": "Вчора вони поїхали в аеропорт",
+        "tr": "Dün havalimanına gittiler",
+        "vi": "Hôm qua họ đã đi ra sân bay",
+        "id": "Kemarin mereka pergi ke bandara",
+        "ar": "توجهوا إلى المطار بالأمس",
+        "fa": "آن‌ها دیروز به فرودگاه رفتند"
       },
       "bracket_parts": [
         "sind",
@@ -165,7 +325,27 @@
       "german": "Fahr bitte schnell zum Supermarkt!",
       "translation": {
         "ru": "Съезди, пожалуйста, быстро в супермаркет!",
-        "en": "Please drive quickly to the supermarket!"
+        "en": "Please drive quickly to the supermarket!",
+        "de": "Fahr bitte schnell zum Supermarkt!",
+        "es": "¡Ve rápido al supermercado, por favor!",
+        "fr": "Va vite au supermarché, s'il te plaît !",
+        "it": "Vai subito al supermercato, per favore!",
+        "pt": "Vai depressa ao supermercado, por favor!",
+        "nl": "Rijd alsjeblieft snel naar de supermarkt!",
+        "pl": "Pojedź proszę szybko do supermarketu!",
+        "cs": "Zajeď prosím rychle do supermarketu!",
+        "sk": "Zájdite prosím rýchlo do supermarketu!",
+        "sl": "Zapelji se prosim hitro v supermarket!",
+        "hr": "Odvezi se brzo do supermarketa, molim te!",
+        "hu": "Kérlek, ugorj el gyorsan a szupermarketbe!",
+        "ro": "Mergi repede la supermarket, te rog!",
+        "el": "Πήγαινε γρήγορα στο σούπερ μάρκετ, σε παρακαλώ!",
+        "uk": "З'їзди, будь ласка, швидко в супермаркет!",
+        "tr": "Lütfen çabuk süpermarkete git!",
+        "vi": "Làm ơn lái xe nhanh ra siêu thị nhé!",
+        "id": "Tolong cepat pergi ke supermarket!",
+        "ar": "اذهب بسرعة إلى السوبرماركت من فضلك!",
+        "fa": "لطفاً سریع به سوپرمارکت برو!"
       },
       "bracket_parts": [
         "Fahr"

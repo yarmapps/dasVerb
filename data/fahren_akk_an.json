@@ -43,7 +43,27 @@
   "id": "fahren_akk_an",
   "translation": {
     "ru": "ехать (к морю/на побережье)",
-    "en": "to drive, to travel (to the sea/coast)"
+    "en": "to drive, to travel (to the sea/coast)",
+    "de": "reisen an, hinsteuern an, fahren an (die Küste/das Gewässer)",
+    "es": "ir a (la costa/el agua), viajar a",
+    "fr": "aller à (la mer/au bord de l'eau), se rendre à",
+    "it": "andare a (al mare/sul lago), recarsi a",
+    "pt": "ir para (a praia/costa), viajar para",
+    "nl": "rijden naar (zee/meer/kust)",
+    "pl": "jechać nad (morze/jezioro)",
+    "cs": "jet k (vodě/moři), jet na (pobřeží)",
+    "sk": "ísť k (vode/moru), cestovať k",
+    "sl": "peljati se k, potovati k (vodi/obali)",
+    "hr": "putovati na (more/obalu), voziti prema",
+    "hu": "utazik vhová (tengerhez/tóhoz)",
+    "ro": "a merge la (mare/țărm), a călători la",
+    "el": "πηγαίνω προς (τη θάλασσα/την ακτή)",
+    "uk": "їхати до (моря/узбережжя)",
+    "tr": "-e gitmek, sürmek (denize/kıyıya)",
+    "vi": "đi đến (bờ biển/bờ sông)",
+    "id": "pergi ke (pantai/tepi air)",
+    "ar": "يسافر إلى (البحر أو الساحل)",
+    "fa": "رفتن به (کنار آب/ساحل)"
   },
   "rektion": {
     "requires_object": false,
@@ -59,7 +79,27 @@
       "german": "Ich fahre im Sommer an den Strand",
       "translation": {
         "ru": "Летом я еду на пляж",
-        "en": "I am driving to the beach in summer"
+        "en": "I am driving to the beach in summer",
+        "de": "Ich fahre im Sommer an den Strand.",
+        "es": "En verano voy a la playa.",
+        "fr": "En été, je vais à la plage.",
+        "it": "In estate vado in spiaggia.",
+        "pt": "No verão eu vou para a praia.",
+        "nl": "Ik rijd in de zomer naar het strand.",
+        "pl": "Latem jadę na plażę.",
+        "cs": "V létě pojedu na pláž.",
+        "sk": "V lete idem na pláž.",
+        "sl": "Poleti se peljem na plažo.",
+        "hr": "Ljeti idem na plažu.",
+        "hu": "Nyáron a tengerpartra megyek.",
+        "ro": "Vara merg la plajă.",
+        "el": "Το καλοκαίρι πηγαίνω στην παραλία.",
+        "uk": "Влітку я їду на пляж.",
+        "tr": "Yazın plaja gidiyorum.",
+        "vi": "Vào mùa hè tôi đi ra bãi biển.",
+        "id": "Saat musim panas saya pergi ke pantai.",
+        "ar": "سأذهب في الصيف إلى الشاطئ.",
+        "fa": "در تابستان به ساحل می‌روم."
       },
       "bracket_parts": [
         "fahre"
@@ -74,7 +114,27 @@
       "german": "Fährst du morgen an die See?",
       "translation": {
         "ru": "Ты едешь завтра на море?",
-        "en": "Are you driving to the seaside tomorrow?"
+        "en": "Are you driving to the seaside tomorrow?",
+        "de": "Fährst du morgen an die See?",
+        "es": "¿Vas al mar mañana?",
+        "fr": "Tu vas à la mer demain ?",
+        "it": "Vai al mare domani?",
+        "pt": "Você vai para o mar amanhã?",
+        "nl": "Rijd je morgen naar de zee?",
+        "pl": "Jedziesz jutro nad morze?",
+        "cs": "Pojedeš zítra k moři?",
+        "sk": "Ideš zajtra k moru?",
+        "sl": "Greš jutri na morje?",
+        "hr": "Ideš li sutra na more?",
+        "hu": "Holnap elmész a tengerhez?",
+        "ro": "Mergi mâine la mare?",
+        "el": "Πας αύριο στη θάλασσα;",
+        "uk": "Ти їдеш завтра на море?",
+        "tr": "Yarın denize gidiyor musun?",
+        "vi": "Ngày mai bạn có đi ra biển không?",
+        "id": "Apakah besok kamu pergi ke laut?",
+        "ar": "هل ستذهب غداً إلى البحر؟",
+        "fa": "آیا فردا به دریا می‌روی؟"
       },
       "bracket_parts": [
         "Fährst"
@@ -89,7 +149,27 @@
       "german": "Er fährt am Wochenende an den See",
       "translation": {
         "ru": "На выходных он едет на озеро",
-        "en": "He drives to the lake on the weekend"
+        "en": "He drives to the lake on the weekend",
+        "de": "Er fährt am Wochenende an den See.",
+        "es": "El fin de semana él va al lago.",
+        "fr": "Il va au lac ce week-end.",
+        "it": "Nel fine settimana lui va al lago.",
+        "pt": "No fim de semana ele vai ao lago.",
+        "nl": "Hij rijdt in het weekend naar het meer.",
+        "pl": "W weekend jedzie nad jezioro.",
+        "cs": "O víkendu jede k jezeru.",
+        "sk": "Cez víkend ide k jazeru.",
+        "sl": "Za vikend gre k jezeru.",
+        "hr": "Za vikend ide na jezero.",
+        "hu": "Hétvégén a tóhoz utazik.",
+        "ro": "În weekend el merge la lac.",
+        "el": "Το σαββατοκύριακο πηγαίνει στη λίμνη.",
+        "uk": "На вихідних він їде на озеро.",
+        "tr": "Hafta sonu göle gidiyor.",
+        "vi": "Cuối tuần anh ấy đi ra bờ hồ.",
+        "id": "Pada akhir pekan dia pergi ke danau.",
+        "ar": "سيذهب في عطلة نهاية الأسبوع إلى البحيرة.",
+        "fa": "او آخر هفته به کنار دریاچه می‌رود."
       },
       "bracket_parts": [
         "fährt"
@@ -104,7 +184,27 @@
       "german": "Wir fahren im Urlaub ans Meer",
       "translation": {
         "ru": "В отпуске мы едем на море",
-        "en": "We are driving to the sea on vacation"
+        "en": "We are driving to the sea on vacation",
+        "de": "Wir fahren im Urlaub ans Meer.",
+        "es": "En vacaciones vamos al mar.",
+        "fr": "En vacances, nous allons à la mer.",
+        "it": "In vacanza andiamo al mare.",
+        "pt": "Nas férias nós vamos para o mar.",
+        "nl": "Wij rijden in de vakantie naar de zee.",
+        "pl": "W wakacje jedziemy nad morze.",
+        "cs": "O dovolené jedeme k moři.",
+        "sk": "Cez dovolenku ideme k moru.",
+        "sl": "Med dopustom gremo na morje.",
+        "hr": "Na odmoru idemo na more.",
+        "hu": "A szabadság alatt a tengerhez megyünk.",
+        "ro": "În vacanță mergem la mare.",
+        "el": "Στις διακοπές πηγαίνουμε στη θάλασσα.",
+        "uk": "У відпустці ми їдемо на море.",
+        "tr": "Tatilimizde denize gidiyoruz.",
+        "vi": "Kỳ nghỉ chúng tôi đi ra biển.",
+        "id": "Saat liburan kami pergi ke laut.",
+        "ar": "نحن نذهب في الإجازة إلى البحر.",
+        "fa": "در تعطیلات به کنار دریا می‌رویم."
       },
       "bracket_parts": [
         "fahren"
@@ -119,7 +219,27 @@
       "german": "Fahrt ihr bald an den Fluss?",
       "translation": {
         "ru": "Вы скоро поедете на реку?",
-        "en": "Are you driving to the river soon?"
+        "en": "Are you driving to the river soon?",
+        "de": "Fahrt ihr bald an den Fluss?",
+        "es": "¿Van a ir pronto al río?",
+        "fr": "Vous allez bientôt à la rivière ?",
+        "it": "Andate presto al fiume?",
+        "pt": "Vocês vão ao rio em breve?",
+        "nl": "Rijden jullie binnenkort naar de rivier?",
+        "pl": "Jedziecie niedługo nad rzekę?",
+        "cs": "Pojedete brzy k řece?",
+        "sk": "Pôjdete čoskoro k rieke?",
+        "sl": "Boste šli kmalu k reki?",
+        "hr": "Idete li uskoro na rijeku?",
+        "hu": "Hamarosan elmentek a folyóhoz?",
+        "ro": "Mergeți curând la râu?",
+        "el": "Θα πάτε σύντομα στο ποτάμι;",
+        "uk": "Ви скоро поїдете на річку?",
+        "tr": "Yakında nehre gidecek misiniz?",
+        "vi": "Các bạn sắp đi ra bờ sông à?",
+        "id": "Apakah kalian akan segera pergi ke sungai?",
+        "ar": "هل ستذهبون قريباً إلى النهر؟",
+        "fa": "آیا به زودی به کنار رودخانه می‌روید؟"
       },
       "bracket_parts": [
         "Fahrt"
@@ -134,7 +254,27 @@
       "german": "Gestern fuhr sie spontan an die Küste",
       "translation": {
         "ru": "Вчера она спонтанно поехала на побережье",
-        "en": "Yesterday she drove spontaneously to the coast"
+        "en": "Yesterday she drove spontaneously to the coast",
+        "de": "Gestern fuhr sie spontan an die Küste.",
+        "es": "Ayer ella fue espontáneamente a la costa.",
+        "fr": "Hier, elle est allée spontanément sur la côte.",
+        "it": "Ieri è andata spontaneamente sulla costa.",
+        "pt": "Ontem ela foi espontaneamente para a costa.",
+        "nl": "Gisteren reed ze spontaan naar de kust.",
+        "pl": "Wczoraj spontanicznie pojechała na wybrzeże.",
+        "cs": "Včera spontánně odjela na pobřeží.",
+        "sk": "Včera spontánne odišla na pobrežie.",
+        "sl": "Včeraj se je spontano odpeljala na obalo.",
+        "hr": "Jučer je spontano otišla na obalu.",
+        "hu": "Tegnap spontán módon a tengerpartra utazott.",
+        "ro": "Ieri a plecat spontan spre coastă.",
+        "el": "Χθες πήγε αυθόρμητα στην ακτή.",
+        "uk": "Учора вона спонтанно поїхала на узбережжя.",
+        "tr": "Dün aniden kıyıya gitti.",
+        "vi": "Hôm qua cô ấy đã ngẫu hứng lái xe ra bờ biển.",
+        "id": "Kemarin dia secara spontan pergi ke pesisir.",
+        "ar": "أمس ذهبت بشكل عفوي إلى الساحل.",
+        "fa": "او دیروز خودبه‌خود به ساحل رفت."
       },
       "bracket_parts": [
         "fuhr"
@@ -149,7 +289,27 @@
       "german": "Sie sind am Samstag an den See gefahren",
       "translation": {
         "ru": "В субботу они поехали на озеро",
-        "en": "They drove to the lake on Saturday"
+        "en": "They drove to the lake on Saturday",
+        "de": "Sie sind am Samstag an den See gefahren.",
+        "es": "El sábado ellos fueron al lago.",
+        "fr": "Ils sont allés au lac samedi.",
+        "it": "Sabato sono andati al lago.",
+        "pt": "Eles foram ao lago no sábado.",
+        "nl": "Ze zijn zaterdag naar het meer gereden.",
+        "pl": "W sobotę pojechali nad jezioro.",
+        "cs": "V sobotu jeli k jezeru.",
+        "sk": "V sobotu išli k jazeru.",
+        "sl": "V soboto so se odpeljali k jezeru.",
+        "hr": "U subotu su se odvezli na jezero.",
+        "hu": "Szombaton a tóhoz utaztak.",
+        "ro": "Sâmbătă au mers la lac.",
+        "el": "Το Σάββατο πήγαν στη λίμνη.",
+        "uk": "У суботу вони поїхали на озеро.",
+        "tr": "Cumartesi günü göle gittiler.",
+        "vi": "Thứ Bảy họ đã lái xe ra hồ.",
+        "id": "Hari Sabtu mereka berkendara ke danau.",
+        "ar": "لقد ذهبوا يوم السبت إلى البحيرة.",
+        "fa": "آن‌ها روز شنبه به کنار دریاچه رفتند."
       },
       "bracket_parts": [
         "sind",
@@ -165,7 +325,27 @@
       "german": "Fahr bitte vorsichtig an die Kreuzung!",
       "translation": {
         "ru": "Подъезжай, пожалуйста, осторожно к перекрестку!",
-        "en": "Please drive carefully up to the intersection!"
+        "en": "Please drive carefully up to the intersection!",
+        "de": "Fahr bitte vorsichtig an die Kreuzung!",
+        "es": "¡Por favor, conduce con cuidado hacia el cruce!",
+        "fr": "Avance prudemment jusqu'au carrefour, s'il te plaît !",
+        "it": "Guida con prudenza avvicinandoti all'incrocio, per favore!",
+        "pt": "Por favor, dirija com cuidado até o cruzamento!",
+        "nl": "Rijd alsjeblieft voorzichtig naar het kruispunt!",
+        "pl": "Podjedź ostrożnie do skrzyżowania, proszę!",
+        "cs": "Jeď prosím opatrně ke křižovatce!",
+        "sk": "Choď prosím opatrne ku križovatke!",
+        "sl": "Prosim, vozi previdno do križišča!",
+        "hr": "Vozi oprezno do raskrižja, molim te!",
+        "hu": "Kérlek, óvatosan hajts a kereszteződéshez!",
+        "ro": "Condu cu grijă spre intersecție, te rog!",
+        "el": "Οδήγησε προσεκτικά προς τη διασταύρωση, σε παρακαλώ!",
+        "uk": "Під'їжджай, будь ласка, обережно до перехрестя!",
+        "tr": "Kavşağa lütfen dikkatli yaklaş!",
+        "vi": "Làm ơn lái xe cẩn thận tới ngã tư!",
+        "id": "Tolong kendarai mobil dengan hati-hati menuju persimpangan!",
+        "ar": "قد بحذر نحو التقاطع من فضلك!",
+        "fa": "لطفاً با احتیاط به تقاطع نزدیک شو!"
       },
       "bracket_parts": [
         "Fahr"

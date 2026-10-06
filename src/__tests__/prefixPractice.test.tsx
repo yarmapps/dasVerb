@@ -306,6 +306,7 @@ describe('Prefix Practice Suite', () => {
         expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
           prefixLevelId: 'prefix_a1_sep_1',
           prefixCefrLevel: 'A1',
+          levelNumber: 1,
         });
       });
 

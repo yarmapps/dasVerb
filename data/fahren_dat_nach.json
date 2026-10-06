@@ -43,7 +43,27 @@
   "id": "fahren_dat_nach",
   "translation": {
     "ru": "ехать (домой/в город/страну)",
-    "en": "to travel, to drive (home/to a city)"
+    "en": "to travel, to drive (home/to a city)",
+    "de": "nach Hause / in eine Stadt fahren",
+    "es": "ir, viajar (a casa/a una ciudad)",
+    "fr": "aller, voyager (à la maison/dans une ville)",
+    "it": "andare, viaggiare (a casa/in una città)",
+    "pt": "ir, viajar (para casa/para uma cidade)",
+    "nl": "rijden, reizen (naar huis/naar een stad)",
+    "pl": "jechać (do domu/do miasta)",
+    "cs": "jet (domů/do města)",
+    "sk": "ísť, cestovať (domov/do mesta)",
+    "sl": "peljati se, potovati (domov/v mesto)",
+    "hr": "voziti se, putovati (kući/u grad)",
+    "hu": "utazni, menni (haza/városba)",
+    "ro": "a merge, a călători (acasă/într-un oraș)",
+    "el": "πηγαίνω, ταξιδεύω (σπίτι/σε πόλη)",
+    "uk": "їхати (додому/в місто)",
+    "tr": "gitmek (eve/bir şehre)",
+    "vi": "đi (về nhà/đến một thành phố)",
+    "id": "pergi (ke rumah/ke suatu kota)",
+    "ar": "يسافر، يذهب (إلى البيت/إلى مدينة)",
+    "fa": "رفتن، سفر کردن (به خانه/به یک شهر)"
   },
   "rektion": {
     "requires_object": false,
@@ -59,7 +79,27 @@
       "german": "Ich fahre morgen nach Berlin",
       "translation": {
         "ru": "Завтра я еду в Берлин",
-        "en": "I am traveling to Berlin tomorrow"
+        "en": "I am traveling to Berlin tomorrow",
+        "de": "Ich fahre morgen nach Berlin",
+        "es": "Mañana voy a Berlín",
+        "fr": "Je vais à Berlin demain",
+        "it": "Domani vado a Berlino",
+        "pt": "Amanhã vou a Berlim",
+        "nl": "Ik ga morgen naar Berlijn",
+        "pl": "Jadę jutro do Berlina",
+        "cs": "Zítra jedu do Berlína",
+        "sk": "Zajtra cestujem do Berlína",
+        "sl": "Jutri se peljem v Berlin",
+        "hr": "Sutra putujem u Berlin",
+        "hu": "Holnap Berlinbe utazom",
+        "ro": "Mâine merg la Berlin",
+        "el": "Αύριο πάω στο Βερολίνο",
+        "uk": "Завтра я їду до Берліна",
+        "tr": "Yarın Berlin'e gidiyorum",
+        "vi": "Ngày mai tôi đi Berlin",
+        "id": "Besok saya pergi ke Berlin",
+        "ar": "سأسافر إلى برلين غداً",
+        "fa": "من فردا به برلین می‌روم"
       },
       "bracket_parts": [
         "fahre"
@@ -74,7 +114,27 @@
       "german": "Fährst du am Freitag nach Hause?",
       "translation": {
         "ru": "Ты поедешь в пятницу домой?",
-        "en": "Are you going home on Friday?"
+        "en": "Are you going home on Friday?",
+        "de": "Fährst du am Freitag nach Hause?",
+        "es": "¿Vas a casa el viernes?",
+        "fr": "Rentres-tu à la maison vendredi ?",
+        "it": "Venerdì vai a casa?",
+        "pt": "Vais para casa na sexta-feira?",
+        "nl": "Ga je vrijdag naar huis?",
+        "pl": "Jedziesz w piątek do domu?",
+        "cs": "Jedeš v pátek domů?",
+        "sk": "Ideš v piatok domov?",
+        "sl": "Greš v petek domov?",
+        "hr": "Ideš li u petak kući?",
+        "hu": "Pénteken hazamész?",
+        "ro": "Mergi acasă vineri?",
+        "el": "Θα πας σπίτι την Παρασκευή;",
+        "uk": "Ти поїдеш у п'ятницю додому?",
+        "tr": "Cuma günü eve mi gidiyorsun?",
+        "vi": "Thứ Sáu bạn có về nhà không?",
+        "id": "Apakah kamu pulang ke rumah pada hari Jumat?",
+        "ar": "هل ستسافر إلى البيت يوم الجمعة؟",
+        "fa": "آیا جمعه به خانه می‌روی؟"
       },
       "bracket_parts": [
         "Fährst"
@@ -89,7 +149,27 @@
       "german": "Er fährt geschäftlich nach München",
       "translation": {
         "ru": "Он едет по делам в Мюнхен",
-        "en": "He travels to Munich on business"
+        "en": "He travels to Munich on business",
+        "de": "Er fährt geschäftlich nach München",
+        "es": "Él viaja a Múnich por negocios",
+        "fr": "Il part à Munich pour affaires",
+        "it": "Va a Monaco per lavoro",
+        "pt": "Ele viaja para Munique em negócios",
+        "nl": "Hij reist voor zaken naar München",
+        "pl": "On jedzie w interesach do Monachium",
+        "cs": "Jede služebně do Mnichova",
+        "sk": "Cestuje služobne do Mníchova",
+        "sl": "Poslovno potuje v München",
+        "hr": "Poslovno putuje u München",
+        "hu": "Üzleti útra utazik Münchenbe",
+        "ro": "El călătorește la München în interes de serviciu",
+        "el": "Ταξιδεύει στο Μόναχο για δουλειά",
+        "uk": "Він їде у справах до Мюнхена",
+        "tr": "İş için Münih'e gidiyor",
+        "vi": "Anh ấy đi công tác ở Munich",
+        "id": "Dia pergi ke Munich untuk urusan bisnis",
+        "ar": "هو مسافر إلى ميونخ في رحلة عمل",
+        "fa": "او برای کار به مونیخ سفر می‌کند"
       },
       "bracket_parts": [
         "fährt"
@@ -104,7 +184,27 @@
       "german": "Wir fahren im Sommer nach Italien",
       "translation": {
         "ru": "Летом мы поедем в Италию",
-        "en": "We are going to Italy in the summer"
+        "en": "We are going to Italy in the summer",
+        "de": "Wir fahren im Sommer nach Italien",
+        "es": "En verano vamos a Italia",
+        "fr": "Nous partons en Italie cet été",
+        "it": "In estate andiamo in Italia",
+        "pt": "No verão vamos para a Itália",
+        "nl": "We gaan van de zomer naar Italië",
+        "pl": "Latem jedziemy do Włoch",
+        "cs": "V létě jedeme do Itálie",
+        "sk": "V lete ideme do Talianska",
+        "sl": "Poleti gremo v Italijo",
+        "hr": "Ljeti putujemo u Italiju",
+        "hu": "Nyáron Olaszországba utazunk",
+        "ro": "Vara mergem în Italia",
+        "el": "Το καλοκαίρι πάμε στην Ιταλία",
+        "uk": "Влітку ми поїдемо до Італії",
+        "tr": "Yazın İtalya'ya gidiyoruz",
+        "vi": "Mùa hè chúng tôi đi Ý",
+        "id": "Kami pergi ke Italia di musim panas",
+        "ar": "سنذهب إلى إيطاليا في الصيف",
+        "fa": "ما در تابستان به ایتالیا می‌رویم"
       },
       "bracket_parts": [
         "fahren"
@@ -119,7 +219,27 @@
       "german": "Fahrt ihr bald nach Köln?",
       "translation": {
         "ru": "Вы скоро поедете в Кёльн?",
-        "en": "Are you traveling to Cologne soon?"
+        "en": "Are you traveling to Cologne soon?",
+        "de": "Fahrt ihr bald nach Köln?",
+        "es": "¿Vais pronto a Colonia?",
+        "fr": "Partez-vous bientôt pour Cologne ?",
+        "it": "Andate presto a Colonia?",
+        "pt": "Vão em breve a Colónia?",
+        "nl": "Gaan jullie binnenkort naar Keulen?",
+        "pl": "Jedziecie niedługo do Kolonii?",
+        "cs": "Pojedete brzy do Kolína nad Rýnem?",
+        "sk": "Pôjdete čoskoro do Kolína?",
+        "sl": "Boste kmalu šli v Köln?",
+        "hr": "Idete li uskoro u Köln?",
+        "hu": "Hamarosan Kölnbe utaztok?",
+        "ro": "Mergeți curând la Köln?",
+        "el": "Θα πάτε σύντομα στην Κολωνία;",
+        "uk": "Ви скоро поїдете до Кельна?",
+        "tr": "Yakında Köln'e gidiyor musunuz?",
+        "vi": "Các bạn sắp đi Cologne à?",
+        "id": "Apakah kalian akan segera pergi ke Cologne?",
+        "ar": "هل ستسافرون قريباً إلى كولونيا؟",
+        "fa": "آیا به‌زودی به کلن می‌روید؟"
       },
       "bracket_parts": [
         "Fahrt"
@@ -134,7 +254,27 @@
       "german": "Gestern fuhr sie direkt nach Hamburg",
       "translation": {
         "ru": "Вчера она поехала прямо в Гамбург",
-        "en": "Yesterday she drove straight to Hamburg"
+        "en": "Yesterday she drove straight to Hamburg",
+        "de": "Gestern fuhr sie direkt nach Hamburg",
+        "es": "Ayer ella fue directamente a Hamburgo",
+        "fr": "Hier, elle est allée directement à Hambourg",
+        "it": "Ieri è andata direttamente ad Amburgo",
+        "pt": "Ontem ela foi diretamente para Hamburgo",
+        "nl": "Gisteren reed ze direct naar Hamburg",
+        "pl": "Wczoraj pojechała bezpośrednio do Hamburga",
+        "cs": "Včera jela přímo do Hamburku",
+        "sk": "Včera cestovala priamo do Hamburgu",
+        "sl": "Včeraj se je odpeljala naravnost v Hamburg",
+        "hr": "Jučer je otišla ravno u Hamburg",
+        "hu": "Tegnap egyenesen Hamburgba utazott",
+        "ro": "Ieri a mers direct la Hamburg",
+        "el": "Χθες πήγε κατευθείαν στο Αμβούργο",
+        "uk": "Вчора вона поїхала прямо до Гамбурга",
+        "tr": "Dün doğrudan Hamburg'a gitti",
+        "vi": "Hôm qua cô ấy đã đi thẳng đến Hamburg",
+        "id": "Kemarin dia langsung pergi ke Hamburg",
+        "ar": "سافرت بالأمس مباشرة إلى هامبورغ",
+        "fa": "دیروز او مستقیم به هامبورگ رفت"
       },
       "bracket_parts": [
         "fuhr"
@@ -149,7 +289,27 @@
       "german": "Sie sind letzte Woche nach Wien gefahren",
       "translation": {
         "ru": "Они на прошлой неделе поехали в Вену",
-        "en": "They traveled to Vienna last week"
+        "en": "They traveled to Vienna last week",
+        "de": "Sie sind letzte Woche nach Wien gefahren",
+        "es": "La semana pasada viajaron a Viena",
+        "fr": "Ils sont allés à Vienne la semaine dernière",
+        "it": "La settimana scorsa sono andati a Vienna",
+        "pt": "Na semana passada eles viajaram para Viena",
+        "nl": "Ze zijn vorige week naar Wenen gegaan",
+        "pl": "W zeszłym tygodniu pojechali do Wiednia",
+        "cs": "Minulý týden jeli do Vídně",
+        "sk": "Minulý týždeň cestovali do Viedne",
+        "sl": "Prejšnji teden so se odpeljali na Dunaj",
+        "hr": "Prošli tjedan su otputovali u Beč",
+        "hu": "Múlt héten Bécsbe utaztak",
+        "ro": "Săptămâna trecută au mers la Viena",
+        "el": "Την περασμένη εβδομάδα πήγαν στη Βιέννη",
+        "uk": "Минулого тижня вони поїхали до Відня",
+        "tr": "Geçen hafta Viyana'ya gittiler",
+        "vi": "Tuần trước họ đã đi Vienna",
+        "id": "Minggu lalu mereka pergi ke Wina",
+        "ar": "سافروا إلى فيينا الأسبوع الماضي",
+        "fa": "آن‌ها هفته گذشته به وین رفتند"
       },
       "bracket_parts": [
         "sind",
@@ -165,7 +325,27 @@
       "german": "Fahr bitte jetzt nach Hause!",
       "translation": {
         "ru": "Поезжай, пожалуйста, сейчас домой!",
-        "en": "Please drive home now!"
+        "en": "Please drive home now!",
+        "de": "Fahr bitte jetzt nach Hause!",
+        "es": "¡Vete a casa ahora, por favor!",
+        "fr": "Rentre chez toi maintenant, s'il te plaît !",
+        "it": "Torna a casa adesso, per favore!",
+        "pt": "Vai para casa agora, por favor!",
+        "nl": "Ga nu alsjeblieft naar huis!",
+        "pl": "Jedź teraz proszę do domu!",
+        "cs": "Jeď teď prosím domů!",
+        "sk": "Choď teraz prosím domov!",
+        "sl": "Pelji se prosim zdaj domov!",
+        "hr": "Idi sad kući, molim te!",
+        "hu": "Kérlek, menj most haza!",
+        "ro": "Mergi acum acasă, te rog!",
+        "el": "Πήγαινε τώρα σπίτι, σε παρακαλώ!",
+        "uk": "Поїдь, будь ласка, зараз додому!",
+        "tr": "Lütfen şimdi eve git!",
+        "vi": "Làm ơn bây giờ về nhà đi!",
+        "id": "Tolong pulang ke rumah sekarang!",
+        "ar": "عُد إلى البيت الآن من فضلك!",
+        "fa": "لطفاً الان به خانه برو!"
       },
       "bracket_parts": [
         "Fahr"

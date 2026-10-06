@@ -406,6 +406,7 @@ describe('Screens Integration Suite', () => {
         expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
           infinitive: 'fahren',
           level: 'A1',
+          fromIndex: 2,
         });
       });
 

@@ -43,7 +43,27 @@
   "id": "kommen_dat_aus",
   "translation": {
     "ru": "быть родом, выходить (из)",
-    "en": "to come from, to originate from"
+    "en": "to come from, to originate from",
+    "de": "stammen aus, herkommen",
+    "es": "venir de, ser de, salir de",
+    "fr": "venir de, être originaire de, sortir de",
+    "it": "venire da, provenire da, uscire da",
+    "pt": "vir de, ser de, sair de",
+    "nl": "komen uit, afkomstig zijn uit",
+    "pl": "pochodzić z, wychodzić z",
+    "cs": "pocházet z, vycházet z",
+    "sk": "pochádzať z, vychádzať z",
+    "sl": "prihajati iz, izvirati iz",
+    "hr": "dolaziti iz, potjecati iz",
+    "hu": "származik vhonnan, jön vhonnan",
+    "ro": "a proveni din, a veni din",
+    "el": "κατάγομαι από, έρχομαι από",
+    "uk": "походити з, виходити з",
+    "tr": "-den gelmek, kökeni -den olmak",
+    "vi": "đến từ, xuất thân từ",
+    "id": "berasal dari, datang dari",
+    "ar": "يأتي من، ينحدر من",
+    "fa": "اهل بودن، آمدن از"
   },
   "rektion": {
     "requires_object": false,
@@ -59,7 +79,27 @@
       "german": "Ich komme aus Deutschland",
       "translation": {
         "ru": "Я родом из Германии",
-        "en": "I come from Germany"
+        "en": "I come from Germany",
+        "de": "Ich komme aus Deutschland.",
+        "es": "Vengo de Alemania.",
+        "fr": "Je viens d'Allemagne.",
+        "it": "Vengo dalla Germania.",
+        "pt": "Eu sou da Alemanha.",
+        "nl": "Ik kom uit Duitsland.",
+        "pl": "Pochodzę z Niemiec.",
+        "cs": "Pocházím z Německa.",
+        "sk": "Pochádzam z Nemecka.",
+        "sl": "Prihajam iz Nemčije.",
+        "hr": "Dolazim iz Njemačke.",
+        "hu": "Németországból származom.",
+        "ro": "Provin din Germania.",
+        "el": "Κατάγομαι από τη Γερμανία.",
+        "uk": "Я родом з Німеччини.",
+        "tr": "Ben Almanya'dan geliyorum.",
+        "vi": "Tôi đến từ nước Đức.",
+        "id": "Saya berasal dari Jerman.",
+        "ar": "أنا من ألمانيا.",
+        "fa": "من اهل آلمان هستم."
       },
       "bracket_parts": [
         "komme"
@@ -74,7 +114,27 @@
       "german": "Kommst du aus der Schweiz?",
       "translation": {
         "ru": "Ты из Швейцарии?",
-        "en": "Are you from Switzerland?"
+        "en": "Are you from Switzerland?",
+        "de": "Kommst du aus der Schweiz?",
+        "es": "¿Eres de Suiza?",
+        "fr": "Tu viens de Suisse ?",
+        "it": "Vieni dalla Svizzera?",
+        "pt": "Você é da Suíça?",
+        "nl": "Kom je uit Zwitserland?",
+        "pl": "Pochodzisz ze Szwajcarii?",
+        "cs": "Pocházíš ze Švýcarska?",
+        "sk": "Pochádzaš zo Švajčiarska?",
+        "sl": "Prihajaš iz Švice?",
+        "hr": "Dolaziš li iz Švicarske?",
+        "hu": "Svájcból származol?",
+        "ro": "Ești din Elveția?",
+        "el": "Είσαι από την Ελβετία;",
+        "uk": "Ти зі Швейцарії?",
+        "tr": "İsviçre'den misin?",
+        "vi": "Bạn đến từ Thụy Sĩ à?",
+        "id": "Apakah kamu berasal dari Swiss?",
+        "ar": "هل أنت من سويسرا؟",
+        "fa": "آیا اهل سوئیس هستید؟"
       },
       "bracket_parts": [
         "Kommst"
@@ -89,7 +149,27 @@
       "german": "Er kommt gerade aus dem Büro",
       "translation": {
         "ru": "Он как раз выходит из офиса",
-        "en": "He is just coming out of the office"
+        "en": "He is just coming out of the office",
+        "de": "Er kommt gerade aus dem Büro.",
+        "es": "Él acaba de salir de la oficina.",
+        "fr": "Il sort tout juste du bureau.",
+        "it": "Lui sta uscendo proprio ora dall'ufficio.",
+        "pt": "Ele está saindo do escritório agora mesmo.",
+        "nl": "Hij komt net uit het kantoor.",
+        "pl": "On właśnie wychodzi z biura.",
+        "cs": "Zrovna vychází z kanceláře.",
+        "sk": "Práve vychádza z kancelárie.",
+        "sl": "Pravkar prihaja iz pisarne.",
+        "hr": "Upravo izlazi iz ureda.",
+        "hu": "Épp most jön ki az irodából.",
+        "ro": "El tocmai iese din birou.",
+        "el": "Μόλις βγαίνει από το γραφείο.",
+        "uk": "Він якраз виходить з офісу.",
+        "tr": "O tam şimdi ofisten çıkıyor.",
+        "vi": "Anh ấy vừa bước ra khỏi văn phòng.",
+        "id": "Dia baru saja keluar dari kantor.",
+        "ar": "إنه يخرج الآن من المكتب.",
+        "fa": "او تازه از دفتر بیرون می‌آید."
       },
       "bracket_parts": [
         "kommt"
@@ -104,7 +184,27 @@
       "german": "Wir kommen aus derselben Stadt",
       "translation": {
         "ru": "Мы родом из одного города",
-        "en": "We come from the same city"
+        "en": "We come from the same city",
+        "de": "Wir kommen aus derselben Stadt.",
+        "es": "Somos de la misma ciudad.",
+        "fr": "Nous venons de la même ville.",
+        "it": "Veniamo dalla stessa città.",
+        "pt": "Nós somos da mesma cidade.",
+        "nl": "Wij komen uit dezelfde stad.",
+        "pl": "Pochodzimy z tego samego miasta.",
+        "cs": "Pocházíme ze stejného města.",
+        "sk": "Pochádzame z rovnakého mesta.",
+        "sl": "Prihajava iz istega mesta.",
+        "hr": "Dolazimo iz istog grada.",
+        "hu": "Ugyanabból a városból származunk.",
+        "ro": "Venim din același oraș.",
+        "el": "Είμαστε από την ίδια πόλη.",
+        "uk": "Ми родом з одного міста.",
+        "tr": "Biz aynı şehirdeniz.",
+        "vi": "Chúng tôi đến từ cùng một thành phố.",
+        "id": "Kami berasal dari kota yang sama.",
+        "ar": "نحن من نفس المدينة.",
+        "fa": "ما اهل یک شهر هستیم."
       },
       "bracket_parts": [
         "kommen"
@@ -119,7 +219,27 @@
       "german": "Kommt ihr direkt aus dem Urlaub?",
       "translation": {
         "ru": "Вы прямо из отпуска?",
-        "en": "Are you coming directly from vacation?"
+        "en": "Are you coming directly from vacation?",
+        "de": "Kommt ihr direkt aus dem Urlaub?",
+        "es": "¿Vienen directamente de las vacaciones?",
+        "fr": "Vous venez directement des vacances ?",
+        "it": "Tornate direttamente dalle vacanze?",
+        "pt": "Vocês estão vindo direto das férias?",
+        "nl": "Komen jullie direct van vakantie?",
+        "pl": "Wracacie prosto z urlopu?",
+        "cs": "Jedete přímo z dovolené?",
+        "sk": "Idete priamo z dovolenky?",
+        "sl": "Prihajate naravnost z dopusta?",
+        "hr": "Dolazite li izravno s odmora?",
+        "hu": "Közvetlenül a szabadságról jöttök?",
+        "ro": "Veniți direct din vacanță?",
+        "el": "Έρχεστε κατευθείαν από τις διακοπές;",
+        "uk": "Ви прямо з відпустки?",
+        "tr": "Doğrudan tatilden mi geliyorsunuz?",
+        "vi": "Các bạn đi nghỉ mát về thẳng đây à?",
+        "id": "Apakah kalian langsung datang dari liburan?",
+        "ar": "هل تأتون مباشرة من الإجازة؟",
+        "fa": "آیا مستقیم از تعطیلات می‌آیید؟"
       },
       "bracket_parts": [
         "Kommt"
@@ -134,7 +254,27 @@
       "german": "Gestern kam sie spät aus der Arbeit",
       "translation": {
         "ru": "Вчера она поздно пришла с работы",
-        "en": "Yesterday she came home late from work"
+        "en": "Yesterday she came home late from work",
+        "de": "Gestern kam sie spät aus der Arbeit.",
+        "es": "Ayer ella salió tarde del trabajo.",
+        "fr": "Hier, elle est rentrée tard du travail.",
+        "it": "Ieri lei è tornata tardi dal lavoro.",
+        "pt": "Ontem ela saiu tarde do trabalho.",
+        "nl": "Gisteren kwam ze laat van haar werk.",
+        "pl": "Wczoraj wróciła późno z pracy.",
+        "cs": "Včera přišla pozdě z práce.",
+        "sk": "Včera prišla neskoro z práce.",
+        "sl": "Včeraj je prišla pozno iz službe.",
+        "hr": "Jučer se kasno vratila s posla.",
+        "hu": "Tegnap későn jött meg a munkából.",
+        "ro": "Ieri s-a întors târziu de la muncă.",
+        "el": "Χθες γύρισε αργά από τη δουλειά.",
+        "uk": "Учора вона пізно повернулася з роботи.",
+        "tr": "Dün işten geç çıktı.",
+        "vi": "Hôm qua cô ấy đi làm về muộn.",
+        "id": "Kemarin dia pulang larut dari kerja.",
+        "ar": "أمس عادت متأخرة من العمل.",
+        "fa": "دیروز او دیر از سر کار آمد."
       },
       "bracket_parts": [
         "kam"
@@ -149,7 +289,27 @@
       "german": "Sie sind gestern aus Italien gekommen",
       "translation": {
         "ru": "Они вчера приехали из Италии",
-        "en": "They arrived from Italy yesterday"
+        "en": "They arrived from Italy yesterday",
+        "de": "Sie sind gestern aus Italien gekommen.",
+        "es": "Ellos llegaron ayer de Italia.",
+        "fr": "Ils sont arrivés d'Italie hier.",
+        "it": "Ieri sono arrivati dall'Italia.",
+        "pt": "Eles chegaram da Itália ontem.",
+        "nl": "Ze zijn gisteren uit Italië gekomen.",
+        "pl": "Oni przyjechali wczoraj z Włoch.",
+        "cs": "Včera přijeli z Itálie.",
+        "sk": "Včera prišli z Talianska.",
+        "sl": "Včeraj so se vrnili iz Italije.",
+        "hr": "Jučer su stigli iz Italije.",
+        "hu": "Tegnap érkeztek meg Olaszországból.",
+        "ro": "Ei au sosit ieri din Italia.",
+        "el": "Χθες ήρθαν από την Ιταλία.",
+        "uk": "Вони вчора приїхали з Італії.",
+        "tr": "Onlar dün İtalya'dan geldiler.",
+        "vi": "Hôm qua họ đã từ Ý tới.",
+        "id": "Mereka tiba dari Italia kemarin.",
+        "ar": "لقد وصلوا أمس من إيطاليا.",
+        "fa": "آن‌ها دیروز از ایتالیا آمدند."
       },
       "bracket_parts": [
         "sind",
@@ -165,7 +325,27 @@
       "german": "Komm bitte aus dem Wasser!",
       "translation": {
         "ru": "Выходи, пожалуйста, из воды!",
-        "en": "Please get out of the water!"
+        "en": "Please get out of the water!",
+        "de": "Komm bitte aus dem Wasser!",
+        "es": "¡Sal del agua, por favor!",
+        "fr": "Sors de l'eau, s'il te plaît !",
+        "it": "Esci dall'acqua, per favore!",
+        "pt": "Por favor, saia da água!",
+        "nl": "Kom alsjeblieft uit het water!",
+        "pl": "Wyjdź, proszę, z wody!",
+        "cs": "Pojď prosím z vody ven!",
+        "sk": "Poď prosím z vody von!",
+        "sl": "Prosim, pojdi iz vode!",
+        "hr": "Izađi iz vode, molim te!",
+        "hu": "Kérlek, gyere ki a vízből!",
+        "ro": "Ieși din apă, te rog!",
+        "el": "Βγες από το νερό, σε παρακαλώ!",
+        "uk": "Виходь, будь ласка, з води!",
+        "tr": "Lütfen sudan çık!",
+        "vi": "Làm ơn lên khỏi mặt nước đi!",
+        "id": "Tolong keluarlah dari air!",
+        "ar": "اخرج من الماء من فضلك!",
+        "fa": "لطفاً از آب بیا بیرون!"
       },
       "bracket_parts": [
         "Komm"

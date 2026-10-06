@@ -90,6 +90,7 @@ export type RootStackParamList = {
     isVerbFormsQuiz?: boolean;
     prepositionLevelId?: string;
     isPrepositionQuiz?: boolean;
+    levelNumber?: number;
   };
   QuizResults: QuizResultsParams;
 };

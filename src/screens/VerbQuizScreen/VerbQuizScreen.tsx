@@ -497,6 +497,7 @@ export function VerbQuizScreen(): React.JSX.Element {
               prepositionLevelId: nextLevel.id,
               isPrepositionQuiz: true,
               level: nextLevel.cefrLevel,
+              levelNumber: nextLevel.levelNumber,
             };
           }
         }
@@ -509,6 +510,7 @@ export function VerbQuizScreen(): React.JSX.Element {
               verbFormsLevelId: nextLevel.id,
               isVerbFormsQuiz: true,
               level: nextLevel.cefrLevel,
+              levelNumber: nextLevel.levelNumber,
             };
           }
         }
@@ -521,6 +523,7 @@ export function VerbQuizScreen(): React.JSX.Element {
               conjugationLevelId: nextLevel.id,
               isConjugationQuiz: true,
               level: nextLevel.cefrLevel,
+              levelNumber: nextLevel.levelNumber,
             };
           }
         }
@@ -534,6 +537,7 @@ export function VerbQuizScreen(): React.JSX.Element {
             prefixLevelId: nextLevel.id,
             isPrefixCheckpoint: nextLevel.subgroupType === 'checkpoint',
             prefixCefrLevel: nextLevel.cefrLevel,
+            levelNumber: nextLevel.levelNumber,
           };
         }
       } else if (isSmartQuiz) {

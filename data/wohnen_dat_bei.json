@@ -43,7 +43,27 @@
   "id": "wohnen_dat_bei",
   "translation": {
     "ru": "жить (у кого-то)",
-    "en": "to live (with someone)"
+    "en": "to live (with someone)",
+    "de": "bei jemandem wohnen / unterkommen",
+    "es": "vivir (con/en casa de alguien)",
+    "fr": "habiter (chez quelqu'un)",
+    "it": "abitare (da qualcuno)",
+    "pt": "morar (em casa de alguém)",
+    "nl": "inwonen (bij iemand)",
+    "pl": "mieszkać (u kogoś)",
+    "cs": "bydlet (u někoho)",
+    "sk": "bývať (u niekoho)",
+    "sl": "stanovati (pri kom)",
+    "hr": "stanovati (kod nekoga)",
+    "hu": "lakni (valakinél)",
+    "ro": "a locui (la cineva)",
+    "el": "μένω (σε κάποιον)",
+    "uk": "жити (у когось)",
+    "tr": "kalmak, yaşamak (birinin yanında)",
+    "vi": "ở, sống (cùng/nhà ai)",
+    "id": "tinggal (menumpang di tempat seseorang)",
+    "ar": "يسكن (عند شخص ما)",
+    "fa": "زندگی کردن (نزد کسی)"
   },
   "rektion": {
     "requires_object": false,
@@ -59,7 +79,27 @@
       "german": "Ich wohne zurzeit bei meinen Eltern",
       "translation": {
         "ru": "Сейчас я живу у своих родителей",
-        "en": "I am currently living with my parents"
+        "en": "I am currently living with my parents",
+        "de": "Ich wohne zurzeit bei meinen Eltern",
+        "es": "Actualmente vivo con mis padres",
+        "fr": "J'habite actuellement chez mes parents",
+        "it": "Attualmente abito con i miei genitori",
+        "pt": "Atualmente moro em casa dos meus pais",
+        "nl": "Ik woon momenteel bij mijn ouders",
+        "pl": "Obecnie mieszkam u moich rodziców",
+        "cs": "V současnosti bydlím u svých rodičů",
+        "sk": "V súčasnosti bývam u svojich rodičov",
+        "sl": "Trenutno stanujem pri svojih starših",
+        "hr": "Trenutačno živim kod svojih roditelja",
+        "hu": "Jelenleg a szüleimnél lakom",
+        "ro": "În prezent locuiesc la părinții mei",
+        "el": "Αυτή τη στιγμή μένω στους γονείς μου",
+        "uk": "Зараз я живу у своїх батьків",
+        "tr": "Şu anda ailemin yanında kalıyorum",
+        "vi": "Hiện tại tôi đang ở cùng bố mẹ",
+        "id": "Saat ini saya tinggal bersama orang tua saya",
+        "ar": "أسكن حالياً عند والديّ",
+        "fa": "در حال حاضر نزد پدر و مادرم زندگی می‌کنم"
       },
       "bracket_parts": [
         "wohne"
@@ -74,7 +114,27 @@
       "german": "Wohnst du noch bei deiner Familie?",
       "translation": {
         "ru": "Ты все еще живешь с семьей?",
-        "en": "Do you still live with your family?"
+        "en": "Do you still live with your family?",
+        "de": "Wohnst du noch bei deiner Familie?",
+        "es": "¿Aún vives con tu familia?",
+        "fr": "Habites-tu toujours chez ta famille ?",
+        "it": "Abiti ancora con la tua famiglia?",
+        "pt": "Ainda moras com a tua família?",
+        "nl": "Woon je nog bij je familie?",
+        "pl": "Mieszkasz jeszcze z rodziną?",
+        "cs": "Bydlíš ještě u své rodiny?",
+        "sk": "Bývaš ešte u svojej rodiny?",
+        "sl": "Ali še vedno stanuješ pri svoji družini?",
+        "hr": "Živiš li još uvijek sa svojom obitelji?",
+        "hu": "Még mindig a családodnál laksz?",
+        "ro": "Mai locuiești cu familia ta?",
+        "el": "Μένεις ακόμα με την οικογένειά σου;",
+        "uk": "Ти все ще живеш із сім'єю?",
+        "tr": "Hâlâ ailenle birlikte mi kalıyorsun?",
+        "vi": "Bạn vẫn còn sống cùng gia đình chứ?",
+        "id": "Apakah kamu masih tinggal bersama keluargamu?",
+        "ar": "هل ما زلت تسكن مع عائلتك؟",
+        "fa": "آیا هنوز با خانواده‌ات زندگی می‌کنی؟"
       },
       "bracket_parts": [
         "Wohnst"
@@ -89,7 +149,27 @@
       "german": "Er wohnt während des Studiums bei seinem Onkel",
       "translation": {
         "ru": "Во время учебы он живет у своего дяди",
-        "en": "He lives with his uncle during his studies"
+        "en": "He lives with his uncle during his studies",
+        "de": "Er wohnt während des Studiums bei seinem Onkel",
+        "es": "Durante sus estudios él vive con su tío",
+        "fr": "Il habite chez son oncle pendant ses études",
+        "it": "Durante gli studi abita da suo zio",
+        "pt": "Durante os estudos ele mora com o seu tio",
+        "nl": "Tijdens zijn studie woont hij bij zijn oom",
+        "pl": "W czasie studiów mieszka u swojego wujka",
+        "cs": "Během studia bydlí u svého strýce",
+        "sk": "Počas štúdia býva u svojho strýka",
+        "sl": "Med študijem stanuje pri svojem stricu",
+        "hr": "Tijekom studija stanuje kod svog ujaka",
+        "hu": "A tanulmányai alatt a nagybátyjánál lakik",
+        "ro": "În timpul studiilor locuiește la unchiul său",
+        "el": "Κατά τη διάρκεια των σπουδών του μένει στον θείο του",
+        "uk": "Під час навчання він живе у свого дядька",
+        "tr": "Öğrenimi boyunca amcasının yanında kalıyor",
+        "vi": "Trong thời gian học đại học anh ấy ở nhà chú",
+        "id": "Selama kuliah dia tinggal di rumah pamannya",
+        "ar": "يسكن عند عمه أثناء دراسته",
+        "fa": "او در دوران تحصیل نزد دایی‌اش زندگی می‌کند"
       },
       "bracket_parts": [
         "wohnt"
@@ -104,7 +184,27 @@
       "german": "Wir wohnen im Urlaub bei guten Freunden",
       "translation": {
         "ru": "В отпуске мы живем у хороших друзей",
-        "en": "On vacation we stay with good friends"
+        "en": "On vacation we stay with good friends",
+        "de": "Wir wohnen im Urlaub bei guten Freunden",
+        "es": "En vacaciones nos quedamos con buenos amigos",
+        "fr": "Pendant les vacances, nous logeons chez de bons amis",
+        "it": "In vacanza alloggiamo da buoni amici",
+        "pt": "Nas férias ficamos em casa de bons amigos",
+        "nl": "In de vakantie logeren we bij goede vrienden",
+        "pl": "Na wakacjach mieszkamy u dobrych znajomych",
+        "cs": "Na dovolené bydlíme u dobrých přátel",
+        "sk": "Na dovolenke bývame u dobrých priateľov",
+        "sl": "Na dopustu stanujemo pri dobrih prijateljih",
+        "hr": "Tijekom odmora stanujemo kod dobrih prijatelja",
+        "hu": "A nyaralás alatt jó barátoknál lakunk",
+        "ro": "În vacanță stăm la prieteni buni",
+        "el": "Στις διακοπές μένουμε σε καλούς φίλους",
+        "uk": "У відпустці ми живемо в хороших друзів",
+        "tr": "Tatil boyunca iyi arkadaşlarımızın yanında kalıyoruz",
+        "vi": "Trong kỳ nghỉ chúng tôi ở nhờ nhà bạn thân",
+        "id": "Saat liburan kami menginap di rumah teman baik",
+        "ar": "نسكن عند أصدقاء جيدين أثناء العطلة",
+        "fa": "ما در تعطیلات نزد دوستان خوبمان می‌مانیم"
       },
       "bracket_parts": [
         "wohnen"
@@ -119,7 +219,27 @@
       "german": "Wohnt ihr vorübergehend bei den Großeltern?",
       "translation": {
         "ru": "Вы временно живете у бабушки с дедушкой?",
-        "en": "Are you temporarily staying with your grandparents?"
+        "en": "Are you temporarily staying with your grandparents?",
+        "de": "Wohnt ihr vorübergehend bei den Großeltern?",
+        "es": "¿Vivís temporalmente con los abuelos?",
+        "fr": "Habitez-vous temporairement chez vos grands-parents ?",
+        "it": "Abitate temporaneamente dai nonni?",
+        "pt": "Vocês estão temporariamente a morar com os avós?",
+        "nl": "Wonen jullie tijdelijk bij jullie grootouders?",
+        "pl": "Mieszkacie tymczasowo u dziadków?",
+        "cs": "Bydlíte dočasně u prarodičů?",
+        "sk": "Bývate prechodne u starých rodičov?",
+        "sl": "Ali začasno stanujete pri starih starših?",
+        "hr": "Stanujete li privremeno kod baka i djedova?",
+        "hu": "Ideiglenesen a nagyszülőknél laktok?",
+        "ro": "Locuiți temporar la bunici?",
+        "el": "Μένετε προσωρινά στους παππούδες σας;",
+        "uk": "Ви тимчасово живете в бабусі з дідусем?",
+        "tr": "Geçici olarak büyükanne ve büyükbabanızın yanında mı kalıyorsunuz?",
+        "vi": "Các bạn tạm thời đang ở nhà ông bà à?",
+        "id": "Apakah kalian tinggal sementara di rumah kakek nenek?",
+        "ar": "هل تسكنون مؤقتاً عند الجدين؟",
+        "fa": "آیا موقتاً نزد پدربزرگ و مادربزرگ زندگی می‌کنید؟"
       },
       "bracket_parts": [
         "Wohnt"
@@ -134,7 +254,27 @@
       "german": "Sie wohnte ein ganzes Jahr bei einer Gastfamilie",
       "translation": {
         "ru": "Она целый год прожила в принимающей семье",
-        "en": "She lived with a host family for a whole year"
+        "en": "She lived with a host family for a whole year",
+        "de": "Sie wohnte ein ganzes Jahr bei einer Gastfamilie",
+        "es": "Ella vivió un año entero con una familia de acogida",
+        "fr": "Elle a habité toute une année dans une famille d'accueil",
+        "it": "Ha abitato un anno intero presso una famiglia ospitante",
+        "pt": "Ela morou um ano inteiro numa família de acolhimento",
+        "nl": "Ze woonde een heel jaar bij een gastgezin",
+        "pl": "Mieszkała przez cały rok u rodziny goszczącej",
+        "cs": "Bydlela celý rok u hostitelské rodiny",
+        "sk": "Celý rok bývala u hostiteľskej rodiny",
+        "sl": "Celo leto je stanovala pri družini gostiteljici",
+        "hr": "Cijelu je godinu stanovala kod obitelji domaćina",
+        "hu": "Egy egész éven át egy vendéglátó családnál lakott",
+        "ro": "Ea a locuit un an întreg la o familie gazdă",
+        "el": "Έμεινε έναν ολόκληρο χρόνο σε μια οικογένεια φιλοξενίας",
+        "uk": "Вона цілий рік жила в прийомній родині",
+        "tr": "Bütün bir yıl bir misafir ailenin yanında kaldı",
+        "vi": "Cô ấy đã ở trọ nhà người bản xứ trọn một năm",
+        "id": "Dia tinggal bersama keluarga angkat selama satu tahun penuh",
+        "ar": "سكنت لمدة عام كامل عند عائلة مضيفة",
+        "fa": "او یک سال تمام نزد یک خانواده میزبان زندگی کرد"
       },
       "bracket_parts": [
         "wohnte"
@@ -149,7 +289,27 @@
       "german": "Sie haben damals lange bei Verwandten gewohnt",
       "translation": {
         "ru": "Они тогда долго жили у родственников",
-        "en": "They lived with relatives for a long time back then"
+        "en": "They lived with relatives for a long time back then",
+        "de": "Sie haben damals lange bei Verwandten gewohnt",
+        "es": "En aquel entonces vivieron mucho tiempo con familiares",
+        "fr": "À l'époque, ils ont longtemps habité chez des proches",
+        "it": "All'epoca hanno abitato a lungo da parenti",
+        "pt": "Naquela época eles moraram muito tempo com parentes",
+        "nl": "Ze hebben destijds lang bij familieleden gewoond",
+        "pl": "Mieszkali wtedy długo u krewnych",
+        "cs": "Tenkrát bydleli dlouho u příbuzných",
+        "sk": "Vtedy bývali dlho u príbuzných",
+        "sl": "Takrat so dolgo stanovali pri sorodnikih",
+        "hr": "Tada su dugo stanovali kod rođaka",
+        "hu": "Akkoriban sokáig rokonoknál laktak",
+        "ro": "Pe atunci au locuit mult timp la rude",
+        "el": "Τότε έμεναν για πολύ καιρό σε συγγενείς",
+        "uk": "Вони тоді довго жили в родичів",
+        "tr": "O zamanlar akrabalarının yanında uzun süre kaldılar",
+        "vi": "Hồi đó họ đã ở nhờ nhà họ hàng một thời gian dài",
+        "id": "Dulu mereka tinggal lama bersama kerabat",
+        "ar": "سكنوا آنذاك لفترة طويلة عند أقاربهم",
+        "fa": "آن زمان آن‌ها مدت زیادی نزد خویشاوندان زندگی کردند"
       },
       "bracket_parts": [
         "haben",
@@ -165,7 +325,27 @@
       "german": "Wohn bitte während der Konferenz bei uns!",
       "translation": {
         "ru": "Поживи, пожалуйста, во время конференции у нас!",
-        "en": "Please stay with us during the conference!"
+        "en": "Please stay with us during the conference!",
+        "de": "Wohn bitte während der Konferenz bei uns!",
+        "es": "¡Quédate con nosotros durante la conferencia, por favor!",
+        "fr": "Loge chez nous pendant la conférence, s'il te plaît !",
+        "it": "Alloggia da noi durante la conferenza, per favore!",
+        "pt": "Fica em nossa casa durante a conferência, por favor!",
+        "nl": "Woon alsjeblieft tijdens de conferentie bij ons!",
+        "pl": "Zatrzymaj się proszę podczas konferencji u nas!",
+        "cs": "Bydli prosím během konference u nás!",
+        "sk": "Bývaj prosím počas konferencie u nás!",
+        "sl": "Med konferenco prosim stanuj pri nas!",
+        "hr": "Stanuj kod nas za vrijeme konferencije, molim te!",
+        "hu": "Kérlek, a konferencia idején lakj nálunk!",
+        "ro": "Te rog, stai la noi pe durata conferinței!",
+        "el": "Μείνε σε εμάς κατά τη διάρκεια του συνεδρίου, σε παρακαλώ!",
+        "uk": "Поживи, будь ласка, під час конференції в нас!",
+        "tr": "Lütfen konferans boyunca bizim yanımızda kal!",
+        "vi": "Làm ơn hãy ở nhà chúng tôi trong thời gian diễn ra hội nghị nhé!",
+        "id": "Tolong menginaplah di tempat kami selama konferensi!",
+        "ar": "اسكن عندنا أثناء المؤتمر من فضلك!",
+        "fa": "لطفاً در طول کنفرانس نزد ما بمان!"
       },
       "bracket_parts": [
         "Wohn"

@@ -67,7 +67,7 @@ export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQ
         return;
       }
 
-      // 2. Free users: A2, B1, B2 levels, category checkpoints, and category items > 10 are locked behind paywall
+      // 2. Free users: A1 is fully open. For A2, B1, B2 and Categories, only the first 10 levels/items are open.
       if (params.categoryId) {
         if (params.isCheckpoint || (params.fromIndex !== undefined && params.fromIndex > 10)) {
           openPaywall('level_lock');
@@ -76,8 +76,47 @@ export function useNavigateToQuiz(navigation: NavigationHandler): UseNavigateToQ
       } else {
         const targetLevel = params.level || params.prefixCefrLevel;
         if (targetLevel && targetLevel !== 'A1') {
-          openPaywall('level_lock');
-          return;
+          if (params.isPrefixCheckpoint) {
+            openPaywall('level_lock');
+            return;
+          }
+          if (
+            params.isCheckpoint &&
+            (params.fromIndex === undefined ||
+              params.fromIndex > 10 ||
+              (params.toIndex !== undefined && params.toIndex > 10))
+          ) {
+            openPaywall('level_lock');
+            return;
+          }
+          if (params.fromIndex !== undefined && params.fromIndex > 10) {
+            openPaywall('level_lock');
+            return;
+          }
+          if (params.levelNumber !== undefined && params.levelNumber > 10) {
+            openPaywall('level_lock');
+            return;
+          }
+          if (params.prefixLevelId) {
+            const match = params.prefixLevelId.match(/\d+$/);
+            if (match && parseInt(match[0], 10) > 10) {
+              openPaywall('level_lock');
+              return;
+            }
+          }
+          const levelId =
+            params.conjugationLevelId || params.verbFormsLevelId || params.prepositionLevelId;
+          if (levelId) {
+            if (levelId.includes('_checkpoint_') || levelId.includes('_final')) {
+              openPaywall('level_lock');
+              return;
+            }
+            const match = levelId.match(/_level_(\d+)$/);
+            if (match && parseInt(match[1], 10) > 10) {
+              openPaywall('level_lock');
+              return;
+            }
+          }
         }
       }
 

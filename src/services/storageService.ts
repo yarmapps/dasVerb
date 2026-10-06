@@ -10,7 +10,8 @@ export interface StorageInterface {
 interface MMKVInstance {
   getString(key: string): string | undefined;
   set(key: string, value: string): void;
-  delete(key: string): void;
+  remove?(key: string): boolean;
+  delete?(key: string): void;
   clearAll?(): void;
 }
 
@@ -25,8 +26,12 @@ class UniversalStorage implements StorageInterface {
     this.prefix = id;
     try {
       // eslint-disable-next-line @typescript-eslint/no-require-imports
-      const { MMKV } = require('react-native-mmkv');
-      this.mmkv = new MMKV({ id });
+      const mmkvModule = require('react-native-mmkv');
+      if (typeof mmkvModule.createMMKV === 'function') {
+        this.mmkv = mmkvModule.createMMKV({ id });
+      } else if (typeof mmkvModule.MMKV === 'function') {
+        this.mmkv = new mmkvModule.MMKV({ id });
+      }
     } catch {
       // Fallback for Expo Go where native MMKV is not bundled
       this.mmkv = null;
@@ -78,7 +83,11 @@ class UniversalStorage implements StorageInterface {
   delete(key: string): void {
     if (this.mmkv) {
       try {
-        this.mmkv.delete(key);
+        if (typeof this.mmkv.remove === 'function') {
+          this.mmkv.remove(key);
+        } else if (typeof this.mmkv.delete === 'function') {
+          this.mmkv.delete(key);
+        }
         return;
       } catch {
         // Fallback to memory

@@ -83,11 +83,13 @@ export function PrefixPracticeListScreen(): React.JSX.Element {
     loadData(tab);
   };
 
-  const isLocked = activeCefr !== 'A1' && !isPremium;
+  const isCheckpointLocked = activeCefr !== 'A1' && !isPremium;
+  const isItemLocked = (lvl: PrefixLevelData) =>
+    activeCefr !== 'A1' && lvl.levelNumber > 10 && !isPremium;
 
   const handleLevelPress = (level: PrefixLevelData) => {
     soundService.playTapSound();
-    if (isLocked) {
+    if (isItemLocked(level)) {
       trackEvent('locked_item_clicked', {
         item_type: 'verb',
         level: activeCefr,
@@ -100,13 +102,14 @@ export function PrefixPracticeListScreen(): React.JSX.Element {
     navigateToQuiz({
       prefixLevelId: level.id,
       prefixCefrLevel: activeCefr,
+      levelNumber: level.levelNumber,
     });
   };
 
   const handleCheckpointPress = () => {
     if (!checkpoint) return;
     soundService.playTapSound();
-    if (isLocked) {
+    if (isCheckpointLocked) {
       trackEvent('locked_item_clicked', {
         item_type: 'checkpoint',
         level: activeCefr,
@@ -213,8 +216,8 @@ export function PrefixPracticeListScreen(): React.JSX.Element {
     return () => clearTimeout(timer);
   }, [activeCefr, allLevelsInOrder, scrollToTargetForPrefix]);
 
-  const renderStatusIcon = (status: VerbProgress['status'], index: number) => {
-    if (isLocked) {
+  const renderStatusIcon = (status: VerbProgress['status'], index: number, itemLocked: boolean) => {
+    if (itemLocked) {
       return (
         <View style={[styles.statusBadge, styles.statusBadgeUncompleted]}>
           <FontAwesome5 name="lock" size={14} color={colors.textMuted} />
@@ -293,6 +296,7 @@ export function PrefixPracticeListScreen(): React.JSX.Element {
             {group.items.map((lvl, idx) => {
               const progress = levelProgressMap[lvl.id] || { score: 0, status: 'uncompleted' };
               const verbsString = lvl.verbs.join(', ');
+              const isLevelLocked = isItemLocked(lvl);
 
               return (
                 <TouchableOpacity
@@ -305,7 +309,7 @@ export function PrefixPracticeListScreen(): React.JSX.Element {
                   }}
                   testID={`prefix-level-${lvl.id}`}
                 >
-                  {renderStatusIcon(progress.status, idx)}
+                  {renderStatusIcon(progress.status, idx, isLevelLocked)}
                   <View style={styles.levelInfo}>
                     <View style={styles.levelTitleRow}>
                       <Text style={styles.levelTitle}>
@@ -343,7 +347,7 @@ export function PrefixPracticeListScreen(): React.JSX.Element {
               subtitle={intl.formatMessage({ id: 'prefixPracticeListScreen.checkpointSubtitle' })}
               status={levelProgressMap[checkpoint.id]?.status || 'uncompleted'}
               isFinal={true}
-              isLocked={isLocked}
+              isLocked={isCheckpointLocked}
               onPress={handleCheckpointPress}
               testID={`prefix-checkpoint-${activeCefr}`}
             />

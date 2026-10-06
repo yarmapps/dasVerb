@@ -319,6 +319,7 @@ export function VerbsPracticeListScreen(): React.JSX.Element {
         navigateToQuiz({
           infinitive,
           level,
+          fromIndex,
         });
       }
     },
@@ -475,7 +476,13 @@ export function VerbsPracticeListScreen(): React.JSX.Element {
           testID = `level-final-test-${activeCefr}`;
         }
 
-        const isCheckpointLocked = (categoryId ? true : activeCefr !== 'A1') && !isPremium;
+        let isCheckpointLocked = false;
+        if (categoryId) {
+          isCheckpointLocked = true;
+        } else if (activeCefr !== 'A1') {
+          isCheckpointLocked = checkpointItem.fromIndex > 10 || isFinal;
+        }
+        isCheckpointLocked = isCheckpointLocked && !isPremium;
 
         return (
           <PracticeCheckpointCard
@@ -515,7 +522,7 @@ export function VerbsPracticeListScreen(): React.JSX.Element {
       if (!verbItem) return null;
 
       const isVerbLocked =
-        (categoryId ? verbItem.globalIndex > 10 : activeCefr !== 'A1') && !isPremium;
+        (activeCefr === 'A1' && !categoryId ? false : verbItem.globalIndex > 10) && !isPremium;
 
       return (
         <PracticeVerbCard

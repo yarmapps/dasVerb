@@ -43,7 +43,27 @@
   },
   "translation": {
     "ru": "торчать, находиться внутри (состояние)",
-    "en": "to be inside, to stick, to be stuck (state)"
+    "en": "to be inside, to stick, to be stuck (state)",
+    "de": "sich befinden, festsitzen, drinstecken",
+    "es": "estar metido, estar clavado, encontrarse",
+    "fr": "être enfoncé, être coincé, se trouver dans",
+    "it": "essere infilato, essere bloccato, trovarsi",
+    "pt": "estar metido, estar espetado, encontrar-se",
+    "nl": "steken, zitten in, vastzitten",
+    "pl": "tkwić, siedzieć w",
+    "cs": "vězet, trčet, být zastrčený",
+    "sk": "trčať, väzieť, byť zastrčený",
+    "sl": "tičati, biti zataknjen",
+    "hr": "nalaziti se u, viriti, zapeti",
+    "hu": "van valahol, be van dugva, szorul",
+    "ro": "a fi băgat, a fi blocat",
+    "el": "βρίσκομαι μέσα, είμαι κολλημένος",
+    "uk": "стирчати, перебувати всередині",
+    "tr": "takılı olmak, sıkışıp kalmak",
+    "vi": "cắm vào, kẹt ở, dính vào",
+    "id": "tertancap, berada di dalam, terjebak",
+    "ar": "كان مغروسًا، علق في",
+    "fa": "گیر کردن در، فرو رفتن در، بند آمدن"
   },
   "rektion": {
     "requires_object": false,
@@ -59,7 +79,27 @@
       "german": "Der Schlüssel steckt im Schloss",
       "translation": {
         "ru": "Ключ торчит в замке",
-        "en": "The key is in the lock"
+        "en": "The key is in the lock",
+        "de": "Der Schlüssel steckt im Schloss",
+        "es": "La llave está metida en la cerradura.",
+        "fr": "La clé est dans la serrure.",
+        "it": "La chiave è infilata nella toppa.",
+        "pt": "A chave está na fechadura.",
+        "nl": "De sleutel zit in het slot.",
+        "pl": "Klucz tkwi w zamku.",
+        "cs": "Klíč vězí v zámku.",
+        "sk": "Kľúč trčí v zámke.",
+        "sl": "Ključ tiči v ključavnici.",
+        "hr": "Ključ je u bravi.",
+        "hu": "A kulcs a zárban van.",
+        "ro": "Cheia este în broască.",
+        "el": "Το κλειδί βρίσκεται στην κλειδαριά.",
+        "uk": "Ключ стирчить у замку.",
+        "tr": "Anahtar kilidin içinde takılı.",
+        "vi": "Chìa khóa đang cắm trong ổ khóa.",
+        "id": "Kunci itu tertancap di lubang kunci.",
+        "ar": "المفتاح في القفل.",
+        "fa": "کلید در قفل قرار دارد."
       },
       "bracket_parts": [
         "steckt"
@@ -74,7 +114,27 @@
       "german": "Steckst du schon wieder in der Klemme?",
       "translation": {
         "ru": "Ты снова в затруднительном положении?",
-        "en": "Are you in a pinch again?"
+        "en": "Are you in a pinch again?",
+        "de": "Steckst du schon wieder in der Klemme?",
+        "es": "¿Estás otra vez en apuros?",
+        "fr": "Es-tu encore dans le pétrin ?",
+        "it": "Sei di nuovo nei guai?",
+        "pt": "Você está em apuros de novo?",
+        "nl": "Zit je alweer in de knoei?",
+        "pl": "Znów masz kłopoty?",
+        "cs": "Vězíš už zase v bryndě?",
+        "sk": "Väzíš už znova v kaši?",
+        "sl": "Si spet v škripci?",
+        "hr": "Jesi li opet u škripcu?",
+        "hu": "Már megint pácban vagy?",
+        "ro": "Ești din nou la ananghie?",
+        "el": "Είσαι πάλι σε δύσκολη θέση;",
+        "uk": "Ти знову в скрутному становищі?",
+        "tr": "Yine mi zor durumdasın?",
+        "vi": "Bạn lại gặp rắc rối nữa à?",
+        "id": "Apakah kamu berada dalam kesulitan lagi?",
+        "ar": "هل وقعت في ورطة مرة أخرى؟",
+        "fa": "آیا باز هم در مخمصه افتاده‌ای؟"
       },
       "bracket_parts": [
         "Steckst"
@@ -89,7 +149,27 @@
       "german": "Er steckt bis zum Hals in der Arbeit",
       "translation": {
         "ru": "Он по горло завален работой",
-        "en": "He is up to his neck in work"
+        "en": "He is up to his neck in work",
+        "de": "Er steckt bis zum Hals in der Arbeit",
+        "es": "Está hasta el cuello de trabajo.",
+        "fr": "Il est submergé de travail jusqu'au cou.",
+        "it": "È sommerso di lavoro fino al collo.",
+        "pt": "Ele está até o pescoço de trabalho.",
+        "nl": "Hij zit tot over zijn oren in het werk.",
+        "pl": "Tkwi po uszy w pracy.",
+        "cs": "Vězí až po krk v práci.",
+        "sk": "Väzí až po krk v práci.",
+        "sl": "Do vratu tiči v delu.",
+        "hr": "Do grla je u poslu.",
+        "hu": "Nyakig van a munkában.",
+        "ro": "E îngropat în muncă până peste cap.",
+        "el": "Είναι πνιγμένος στη δουλειά μέχρι τον λαιμό.",
+        "uk": "Він по горло завалений роботою.",
+        "tr": "Boğazına kadar işe batmış durumda.",
+        "vi": "Anh ấy ngập đầu ngập cổ trong công việc.",
+        "id": "Dia tenggelam dalam pekerjaan sampai ke lehernya.",
+        "ar": "إنه غارق في العمل حتى أذنيه.",
+        "fa": "او تا خرخره در کار غرق شده است."
       },
       "bracket_parts": [
         "steckt"
@@ -104,7 +184,27 @@
       "german": "Wir stecken mitten im Stau",
       "translation": {
         "ru": "Мы застряли прямо посреди пробки",
-        "en": "We are stuck in the middle of a traffic jam"
+        "en": "We are stuck in the middle of a traffic jam",
+        "de": "Wir stecken mitten im Stau",
+        "es": "Estamos atrapados en medio del atasco.",
+        "fr": "Nous sommes coincés au milieu des embouteillages.",
+        "it": "Siamo bloccati in mezzo al traffico.",
+        "pt": "Estamos presos no meio do engarrafamento.",
+        "nl": "We zitten midden in een file vast.",
+        "pl": "Stoimy w samym środku korka.",
+        "cs": "Trčíme uprostřed dopravní zácpy.",
+        "sk": "Trčíme uprostred dopravnej zápchy.",
+        "sl": "Ujeti smo sredi prometnega zamaška.",
+        "hr": "Zaglavili smo usred prometne gužve.",
+        "hu": "A dugó kellős közepén ragadtunk.",
+        "ro": "Suntem blocați în mijlocul ambuteiajului.",
+        "el": "Έχουμε κολλήσει στη μέση του μποτιλιαρίσματος.",
+        "uk": "Ми застрягли прямо посеред затору.",
+        "tr": "Trafiğin tam ortasında sıkışıp kaldık.",
+        "vi": "Chúng tôi đang kẹt cứng giữa đám tắc đường.",
+        "id": "Kami terjebak di tengah kemacetan.",
+        "ar": "نحن عالقون في وسط الازدحام المروري.",
+        "fa": "ما درست وسط ترافیک گیر افتاده‌ایم."
       },
       "bracket_parts": [
         "stecken"
@@ -119,7 +219,27 @@
       "german": "Steckt ihr auch in großen Schwierigkeiten?",
       "translation": {
         "ru": "Вы тоже попали в большие трудности?",
-        "en": "Are you in big trouble too?"
+        "en": "Are you in big trouble too?",
+        "de": "Steckt ihr auch in großen Schwierigkeiten?",
+        "es": "¿Vosotros también estáis en grandes problemas?",
+        "fr": "Êtes-vous aussi dans de gros ennuis ?",
+        "it": "Siete anche voi in grossi guai?",
+        "pt": "Vocês também estão em apuros?",
+        "nl": "Zitten jullie ook in grote moeilijkheden?",
+        "pl": "Czy wy też wpadliście w duże kłopoty?",
+        "cs": "Vězíte také ve velkých potížích?",
+        "sk": "Väzíte tiež vo veľkých ťažkostiach?",
+        "sl": "Ste tudi vi v velikih težavah?",
+        "hr": "Jeste li i vi u velikim problemima?",
+        "hu": "Ti is nagy bajban vagytok?",
+        "ro": "Sunteți și voi în mari dificultăți?",
+        "el": "Βρίσκεστε κι εσείς σε μεγάλα προβλήματα;",
+        "uk": "Ви теж потрапили у великі неприємності?",
+        "tr": "Siz de mi büyük sıkıntıdasınız?",
+        "vi": "Các bạn cũng đang gặp khó khăn lớn sao?",
+        "id": "Apakah kalian juga berada dalam masalah besar?",
+        "ar": "هل أنتم في ورطة كبيرة أيضًا؟",
+        "fa": "آیا شما هم در مشکلات بزرگی افتاده‌اید؟"
       },
       "bracket_parts": [
         "Steckt"
@@ -134,7 +254,27 @@
       "german": "Gestern steckte das Auto tief im Schnee",
       "translation": {
         "ru": "Вчера машина глубоко застряла в снегу",
-        "en": "Yesterday the car was stuck deep in the snow"
+        "en": "Yesterday the car was stuck deep in the snow",
+        "de": "Gestern steckte das Auto tief im Schnee",
+        "es": "Ayer el coche estaba atascado en lo profundo de la nieve.",
+        "fr": "Hier, la voiture était bloquée profondément dans la neige.",
+        "it": "Ieri l'auto era bloccata in mezzo alla neve alta.",
+        "pt": "Ontem o carro ficou atolado no fundo da neve.",
+        "nl": "Gisteren zat de auto diep in de sneeuw vast.",
+        "pl": "Wczoraj auto ugrzęzło głęboko w śniegu.",
+        "cs": "Včera auto vězelo hluboko ve sněhu.",
+        "sk": "Včera auto trčalo hlboko v snehu.",
+        "sl": "Včeraj je bil avto globoko v snegu.",
+        "hr": "Jučer je automobil zapeo duboko u snijegu.",
+        "hu": "Tegnap az autó mélyen a hóba ragadt.",
+        "ro": "Ieri mașina a fost blocată adânc în zăpadă.",
+        "el": "Χθες το αυτοκίνητο είχε κολλήσει βαθιά στο χιόνι.",
+        "uk": "Учора машина глибоко застрягла в снігу.",
+        "tr": "Dün araba karın içine saplanıp kalmıştı.",
+        "vi": "Hôm qua chiếc ô tô bị kẹt sâu trong tuyết.",
+        "id": "Kemarin mobil itu terjebak dalam salju tebal.",
+        "ar": "بالأمس كانت السيارة عالقة في عمق الثلج.",
+        "fa": "دیروز ماشین عمیقاً در برف گیر کرده بود."
       },
       "bracket_parts": [
         "steckte"
@@ -149,7 +289,27 @@
       "german": "Der Stecker hat fest in der Steckdose gesteckt",
       "translation": {
         "ru": "Штекер плотно сидел в розетке",
-        "en": "The plug was stuck firmly in the socket"
+        "en": "The plug was stuck firmly in the socket",
+        "de": "Der Stecker hat fest in der Steckdose gesteckt",
+        "es": "El enchufe estaba firmemente metido en la toma de corriente.",
+        "fr": "La prise était fermement enfoncée dans la prise murale.",
+        "it": "La spina era inserita saldamente nella presa.",
+        "pt": "O plugue estava firmemente conectado na tomada.",
+        "nl": "De stekker zat stevig in het stopcontact.",
+        "pl": "Wtyczka tkwiła mocno w gniazdku.",
+        "cs": "Zástrčka vězela pevně v zásuvce.",
+        "sk": "Zástrčka trčala pevne v zásuvke.",
+        "sl": "Vtič je trdno tičal v vtičnici.",
+        "hr": "Utikač je čvrsto stajao u utičnici.",
+        "hu": "A dugó szorosan a konnektorban volt.",
+        "ro": "Ștecherul era bine băgat în priză.",
+        "el": "Το φις ήταν σφηνωμένο γερά στην πρίζα.",
+        "uk": "Штекер щільно сидів у розетці.",
+        "tr": "Fiş prize sıkıca takılmış durumdaydı.",
+        "vi": "Phích cắm đã cắm rất chặt trong ổ điện.",
+        "id": "Steker itu terpasang erat di stopkontak.",
+        "ar": "كان القابس مغروسًا بإحكام في المقبس.",
+        "fa": "دوشاخه محکم در پریز برق قرار داشت."
       },
       "bracket_parts": [
         "hat",
@@ -165,7 +325,27 @@
       "german": "Steck nicht so tief in den Schulden!",
       "translation": {
         "ru": "Не сиди так глубоко в долгах!",
-        "en": "Don't be so deep in debt!"
+        "en": "Don't be so deep in debt!",
+        "de": "Steck nicht so tief in den Schulden!",
+        "es": "¡No te metas tan hondo en deudas!",
+        "fr": "Ne sois pas endetté jusqu'au cou !",
+        "it": "Non affondare così tanto nei debiti!",
+        "pt": "Não se atole tanto em dívidas!",
+        "nl": "Zit niet zo diep in de schulden!",
+        "pl": "Nie tkwij tak głęboko w długach!",
+        "cs": "Nevěz tak hluboko v dluzích!",
+        "sk": "Neväz tak hlboko v dlhoch!",
+        "sl": "Ne bodi tako globoko v dolgovih!",
+        "hr": "Nemoj biti tako duboko u dugovima!",
+        "hu": "Ne ússz olyan mélyen az adósságban!",
+        "ro": "Nu te afunda atât de adânc în datorii!",
+        "el": "Μη χώνεσαι τόσο βαθιά στα χρέη!",
+        "uk": "Не сиди так глибоко в боргах!",
+        "tr": "O kadar borcun içine batma!",
+        "vi": "Đừng để ngập đầu trong nợ nần!",
+        "id": "Jangan sampai tenggelam terlalu dalam dalam utang!",
+        "ar": "لا تغرق إلى هذا الحد في الديون!",
+        "fa": "این‌قدر عمیق زیر بار قرض و بدهی نرو!"
       },
       "bracket_parts": [
         "Steck"

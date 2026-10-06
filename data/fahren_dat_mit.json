@@ -43,7 +43,27 @@
   "id": "fahren_dat_mit",
   "translation": {
     "ru": "ехать, передвигаться (на транспорте)",
-    "en": "to go, to travel (by transport)"
+    "en": "to go, to travel (by transport)",
+    "de": "mit einem Verkehrsmittel fahren",
+    "es": "ir, viajar (en transporte)",
+    "fr": "aller, voyager (en moyen de transport)",
+    "it": "andare, viaggiare (con un mezzo di trasporto)",
+    "pt": "ir, viajar (de transporte)",
+    "nl": "reizen, gaan (met een vervoermiddel)",
+    "pl": "jechać, podróżować (środkiem transportu)",
+    "cs": "jet, cestovat (dopravním prostředkem)",
+    "sk": "ísť, cestovať (dopravným prostriedkom)",
+    "sl": "voziti se, potovati (s prevoznim sredstvom)",
+    "hr": "voziti se, putovati (prijevoznim sredstvom)",
+    "hu": "utazni, menni (járművel)",
+    "ro": "a merge, a călători (cu un mijloc de transport)",
+    "el": "πηγαίνω, ταξιδεύω (με μεταφορικό μέσο)",
+    "uk": "їхати, пересуватися (транспортом)",
+    "tr": "gitmek, seyahat etmek (araçla)",
+    "vi": "đi, di chuyển (bằng phương tiện)",
+    "id": "pergi, bepergian (dengan kendaraan)",
+    "ar": "يركب، يسافر (بوسيلة مواصلات)",
+    "fa": "رفتن، سفر کردن (با وسایل نقلیه)"
   },
   "rektion": {
     "requires_object": false,
@@ -59,7 +79,27 @@
       "german": "Ich fahre jeden Morgen mit dem Bus",
       "translation": {
         "ru": "Каждое утро я езжу на автобусе",
-        "en": "I ride the bus every morning"
+        "en": "I ride the bus every morning",
+        "de": "Ich fahre jeden Morgen mit dem Bus",
+        "es": "Voy en autobús todas las mañanas",
+        "fr": "Je prends le bus tous les matins",
+        "it": "Prendo l'autobus ogni mattina",
+        "pt": "Ando de autocarro todas as manhãs",
+        "nl": "Ik ga elke ochtend met de bus",
+        "pl": "Każdego ranka jeżdżę autobusem",
+        "cs": "Každé ráno jezdím autobusem",
+        "sk": "Každé ráno cestujem autobusom",
+        "sl": "Vsako jutro se vozim z avtobusom",
+        "hr": "Svako jutro se vozim autobusom",
+        "hu": "Minden reggel busszal utazom",
+        "ro": "Merg cu autobuzul în fiecare dimineață",
+        "el": "Κάθε πρωί πηγαίνω με το λεωφορείο",
+        "uk": "Щоранку я їжджу автобусом",
+        "tr": "Her sabah otobüsle giderim",
+        "vi": "Mỗi sáng tôi đều đi xe buýt",
+        "id": "Saya naik bus setiap pagi",
+        "ar": "أستقل الحافلة كل صباح",
+        "fa": "من هر روز صبح با اتوبوس می‌روم"
       },
       "bracket_parts": [
         "fahre"
@@ -74,7 +114,27 @@
       "german": "Fährst du heute mit dem Fahrrad zur Uni?",
       "translation": {
         "ru": "Ты поедешь сегодня на учебу на велосипеде?",
-        "en": "Are you riding your bicycle to university today?"
+        "en": "Are you riding your bicycle to university today?",
+        "de": "Fährst du heute mit dem Fahrrad zur Uni?",
+        "es": "¿Vas hoy a la universidad en bicicleta?",
+        "fr": "Vas-tu à la fac à vélo aujourd'hui ?",
+        "it": "Vai all'università in bicicletta oggi?",
+        "pt": "Vais de bicicleta para a universidade hoje?",
+        "nl": "Ga je vandaag met de fiets naar de universiteit?",
+        "pl": "Jedziesz dzisiaj na uczelnię rowerem?",
+        "cs": "Jedeš dnes na univerzitu na kole?",
+        "sk": "Ideš dnes na univerzitu na bicykli?",
+        "sl": "Greš danes s kolesom na univerzo?",
+        "hr": "Ideš li danas biciklom na fakultet?",
+        "hu": "Ma biciklivel mész az egyetemre?",
+        "ro": "Mergi astăzi cu bicicleta la facultate?",
+        "el": "Θα πας σήμερα με το ποδήλατο στο πανεπιστήμιο;",
+        "uk": "Ти поїдеш сьогодні до університету на велосипеді?",
+        "tr": "Bugün üniversiteye bisikletle mi gidiyorsun?",
+        "vi": "Hôm nay bạn có đi xe đạp đến trường đại học không?",
+        "id": "Apakah kamu naik sepeda ke kampus hari ini?",
+        "ar": "هل ستذهب إلى الجامعة بالدراجة اليوم؟",
+        "fa": "آیا امروز با دوچرخه به دانشگاه می‌روی؟"
       },
       "bracket_parts": [
         "Fährst"
@@ -89,7 +149,27 @@
       "german": "Er fährt zur Arbeit immer mit dem Zug",
       "translation": {
         "ru": "На работу он всегда ездит на поезде",
-        "en": "He always travels to work by train"
+        "en": "He always travels to work by train",
+        "de": "Er fährt zur Arbeit immer mit dem Zug",
+        "es": "Él siempre va al trabajo en tren",
+        "fr": "Il va toujours au travail en train",
+        "it": "Lui va sempre al lavoro in treno",
+        "pt": "Ele vai sempre para o trabalho de comboio",
+        "nl": "Hij gaat altijd met de trein naar het werk",
+        "pl": "On zawsze jeździ do pracy pociągiem",
+        "cs": "Do práce jezdí vždycky vlakem",
+        "sk": "Do práce chodí vždy vlakom",
+        "sl": "V službo se vedno vozi z vlakom",
+        "hr": "Na posao uvijek ide vlakom",
+        "hu": "Mindig vonattal jár munkába",
+        "ro": "El merge mereu la serviciu cu trenul",
+        "el": "Πηγαίνει πάντα στη δουλειά με το τρένο",
+        "uk": "Він завжди їздить на роботу поїздом",
+        "tr": "İşe her zaman trenle gider",
+        "vi": "Anh ấy luôn đi làm bằng tàu hỏa",
+        "id": "Dia selalu pergi bekerja naik kereta api",
+        "ar": "هو يذهب دائماً إلى العمل بالقطار",
+        "fa": "او همیشه با قطار به سر کار می‌رود"
       },
       "bracket_parts": [
         "fährt"
@@ -104,7 +184,27 @@
       "german": "Wir fahren am Wochenende mit dem Auto",
       "translation": {
         "ru": "На выходных мы поедем на машине",
-        "en": "We will go by car on the weekend"
+        "en": "We will go by car on the weekend",
+        "de": "Wir fahren am Wochenende mit dem Auto",
+        "es": "El fin de semana vamos en coche",
+        "fr": "Nous partons en voiture ce week-end",
+        "it": "Nel fine finale andiamo in macchina",
+        "pt": "No fim de semana vamos de carro",
+        "nl": "We gaan in het weekend met de auto",
+        "pl": "W weekend jedziemy samochodem",
+        "cs": "O víkendu jedeme autem",
+        "sk": "Cez víkend ideme autom",
+        "sl": "Za vikend gremo z avtom",
+        "hr": "Za vikend idemo autom",
+        "hu": "Hétvégén autóval megyünk",
+        "ro": "În weekend mergem cu mașina",
+        "el": "Το σαββατοκύριακο θα πάμε με το αυτοκίνητο",
+        "uk": "На вихідних ми поїдемо на машині",
+        "tr": "Hafta sonu arabayla gidiyoruz",
+        "vi": "Cuối tuần chúng tôi đi bằng ô tô",
+        "id": "Kami pergi naik mobil di akhir pekan",
+        "ar": "سنذهب بالسيارة في عطلة نهاية الأسبوع",
+        "fa": "ما در آخر هفته با ماشین می‌رویم"
       },
       "bracket_parts": [
         "fahren"
@@ -119,7 +219,27 @@
       "german": "Fahrt ihr lieber mit der U-Bahn?",
       "translation": {
         "ru": "Вы предпочитаете ездить на метро?",
-        "en": "Do you prefer riding the subway?"
+        "en": "Do you prefer riding the subway?",
+        "de": "Fahrt ihr lieber mit der U-Bahn?",
+        "es": "¿Preferís ir en metro?",
+        "fr": "Préférez-vous prendre le métro ?",
+        "it": "Preferite andare in metropolitana?",
+        "pt": "Preferem ir de metro?",
+        "nl": "Gaan jullie liever met de metro?",
+        "pl": "Wolicie jechać metrem?",
+        "cs": "Jedete raději metrem?",
+        "sk": "Cestujete radšej metrom?",
+        "sl": "Se raje vozite s podzemno železnico?",
+        "hr": "Radije se vozite podzemnom željeznicom?",
+        "hu": "Inkább metróval mentek?",
+        "ro": "Preferați să mergeți cu metroul?",
+        "el": "Προτιμάτε να πάτε με το μετρό;",
+        "uk": "Ви краще поїдете на метро?",
+        "tr": "Metroyla gitmeyi mi tercih edersiniz?",
+        "vi": "Các bạn thích đi tàu điện ngầm hơn à?",
+        "id": "Apakah kalian lebih suka naik kereta bawah tanah?",
+        "ar": "هل تفضلون ركوب المترو؟",
+        "fa": "ترجیح می‌دهید با مترو بروید؟"
       },
       "bracket_parts": [
         "Fahrt"
@@ -134,7 +254,27 @@
       "german": "Gestern fuhr sie mit der Straßenbahn",
       "translation": {
         "ru": "Вчера она поехала на трамвае",
-        "en": "Yesterday she took the tram"
+        "en": "Yesterday she took the tram",
+        "de": "Gestern fuhr sie mit der Straßenbahn",
+        "es": "Ayer ella fue en tranvía",
+        "fr": "Hier, elle a pris le tramway",
+        "it": "Ieri lei è andata in tram",
+        "pt": "Ontem ela andou de elétrico",
+        "nl": "Gisteren ging ze met de tram",
+        "pl": "Wczoraj pojechała tramwajem",
+        "cs": "Včera jela tramvají",
+        "sk": "Včera išla električkou",
+        "sl": "Včeraj se je peljala s tramvajem",
+        "hr": "Jučer se vozila tramvajem",
+        "hu": "Tegnap villamossal ment",
+        "ro": "Ieri ea a mers cu tramvaiul",
+        "el": "Χθες πήγε με το τραμ",
+        "uk": "Вчора вона поїхала трамваєм",
+        "tr": "Dün tramvayla gitti",
+        "vi": "Hôm qua cô ấy đã đi tàu điện",
+        "id": "Kemarin dia naik trem",
+        "ar": "استقلت الترام بالأمس",
+        "fa": "دیروز او با تراموا رفت"
       },
       "bracket_parts": [
         "fuhr"
@@ -149,7 +289,27 @@
       "german": "Sie sind gestern mit dem Schnellzug gefahren",
       "translation": {
         "ru": "Они вчера поехали на скоростном поезде",
-        "en": "They traveled by express train yesterday"
+        "en": "They traveled by express train yesterday",
+        "de": "Sie sind gestern mit dem Schnellzug gefahren",
+        "es": "Ayer viajaron en el tren de alta velocidad",
+        "fr": "Ils ont pris le train rapide hier",
+        "it": "Ieri hanno viaggiato sul treno ad alta velocità",
+        "pt": "Ontem eles viajaram no comboio rápido",
+        "nl": "Ze zijn gisteren met de sneltrein gegaan",
+        "pl": "Pojechali wczoraj ekspresem",
+        "cs": "Včera jeli rychlíkem",
+        "sk": "Včera cestovali rýchlikom",
+        "sl": "Včeraj so potovali s hitrim vlakom",
+        "hr": "Jučer su putovali brzim vlakom",
+        "hu": "Tegnap gyorsvonattal utaztak",
+        "ro": "Ei au călătorit ieri cu trenul rapid",
+        "el": "Χθες ταξίδεψαν με το ταχύ τρένο",
+        "uk": "Вчора вони поїхали швидкісним поїздом",
+        "tr": "Dün hızlı trenle gittiler",
+        "vi": "Hôm qua họ đã đi bằng tàu tốc hành",
+        "id": "Kemarin mereka bepergian dengan kereta cepat",
+        "ar": "سافروا بالقطار السريع بالأمس",
+        "fa": "آن‌ها دیروز با قطار سریع‌السیر سفر کردند"
       },
       "bracket_parts": [
         "sind",
@@ -165,7 +325,27 @@
       "german": "Fahr bitte mit dem Bus nach Hause!",
       "translation": {
         "ru": "Поезжай, пожалуйста, домой на автобусе!",
-        "en": "Please take the bus home!"
+        "en": "Please take the bus home!",
+        "de": "Fahr bitte mit dem Bus nach Hause!",
+        "es": "¡Vete a casa en autobús, por favor!",
+        "fr": "Rentre en bus à la maison, s'il te plaît !",
+        "it": "Torna a casa in autobus, per favore!",
+        "pt": "Vai para casa de autocarro, por favor!",
+        "nl": "Ga alsjeblieft met de bus naar huis!",
+        "pl": "Pojedź proszę do domu autobusem!",
+        "cs": "Jeď prosím domů autobusem!",
+        "sk": "Choď prosím domov autobusom!",
+        "sl": "Pojdi prosim domov z avtobusom!",
+        "hr": "Idi kući autobusom, molim te!",
+        "hu": "Kérlek, menj busszal haza!",
+        "ro": "Mergi acasă cu autobuzul, te rog!",
+        "el": "Πήγαινε σπίτι με το λεωφορείο, σε παρακαλώ!",
+        "uk": "Поїдь, будь ласка, додому автобусом!",
+        "tr": "Lütfen otobüsle eve git!",
+        "vi": "Làm ơn đi xe buýt về nhà nhé!",
+        "id": "Tolong pulang ke rumah naik bus!",
+        "ar": "عُد إلى البيت بالحافلة من فضلك!",
+        "fa": "لطفاً با اتوبوس به خانه برو!"
       },
       "bracket_parts": [
         "Fahr"

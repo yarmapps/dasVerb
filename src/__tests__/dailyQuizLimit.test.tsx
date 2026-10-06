@@ -139,17 +139,38 @@ describe('DailyQuizLimit Component & Hook', () => {
       expect(mockNavigate).not.toHaveBeenCalled();
     });
 
-    it('should block navigation for free user when attempting A2, B1, or B2 quiz', async () => {
+    it('should block navigation for free user when attempting A2, B1, or B2 quiz beyond level 10', async () => {
       const mockNavigate = jest.fn();
       const navigation = { navigate: mockNavigate };
 
       const { result } = renderHook(() => useNavigateToQuiz(navigation));
 
       await act(async () => {
-        await result.current.navigateToQuiz({ infinitive: 'verstehen', level: 'A2' });
+        await result.current.navigateToQuiz({
+          infinitive: 'verstehen',
+          level: 'A2',
+          fromIndex: 11,
+        });
       });
 
       expect(mockNavigate).not.toHaveBeenCalled();
+    });
+
+    it('should allow free users to navigate to A2, B1, or B2 verbs 1 to 10', async () => {
+      const mockNavigate = jest.fn();
+      const navigation = { navigate: mockNavigate };
+
+      const { result } = renderHook(() => useNavigateToQuiz(navigation));
+
+      await act(async () => {
+        await result.current.navigateToQuiz({ infinitive: 'verstehen', level: 'A2', fromIndex: 5 });
+      });
+
+      expect(mockNavigate).toHaveBeenCalledWith('VerbQuiz', {
+        infinitive: 'verstehen',
+        level: 'A2',
+        fromIndex: 5,
+      });
     });
 
     it('should allow free users to navigate to category verbs 1 to 10', async () => {

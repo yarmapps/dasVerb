@@ -43,7 +43,27 @@
   "id": "fahren_akk_in",
   "translation": {
     "ru": "ехать (в страну/город/место)",
-    "en": "to drive, to travel (into a place)"
+    "en": "to drive, to travel (into a place)",
+    "de": "reisen in, fahren nach/in (ein Gebiet/ein Land)",
+    "es": "viajar a, ir a, conducir hacia",
+    "fr": "partir en/au, aller à/dans",
+    "it": "andare in/a, viaggiare verso",
+    "pt": "ir para, viajar para",
+    "nl": "rijden naar, reizen naar",
+    "pl": "jechać do",
+    "cs": "jet do, cestovat do",
+    "sk": "ísť do, cestovať do",
+    "sl": "peljati se v, potovati v",
+    "hr": "putovati u, ići u",
+    "hu": "utazik vhová (országba/hegyekbe)",
+    "ro": "a merge în/la, a călători în",
+    "el": "ταξιδεύω σε, πηγαίνω σε",
+    "uk": "їхати до (країни/міста/місця)",
+    "tr": "-e gitmek, sürmek (bir yere/ülkeye)",
+    "vi": "đi đến (nơi chốn/quốc gia)",
+    "id": "pergi ke, berkendara ke (suatu tempat/negara)",
+    "ar": "يسافر إلى، يذهب إلى (مكان أو بلد)",
+    "fa": "رفتن به، رانندگی کردن به (کشور/مکان)"
   },
   "rektion": {
     "requires_object": false,
@@ -59,7 +79,27 @@
       "german": "Ich fahre im Urlaub in die Berge",
       "translation": {
         "ru": "В отпуск я еду в горы",
-        "en": "I am driving to the mountains on vacation"
+        "en": "I am driving to the mountains on vacation",
+        "de": "Ich fahre im Urlaub in die Berge.",
+        "es": "En vacaciones voy a la montaña.",
+        "fr": "Pendant les vacances, je pars à la montagne.",
+        "it": "In vacanza vado in montagna.",
+        "pt": "Nas férias eu vou para as montanhas.",
+        "nl": "Ik rijd in de vakantie naar de bergen.",
+        "pl": "Na urlop jadę w góry.",
+        "cs": "O dovolené jedu do hor.",
+        "sk": "Na dovolenku idem do hôr.",
+        "sl": "Na dopustu grem v gore.",
+        "hr": "Na odmoru idem u planine.",
+        "hu": "A szabadságom alatt a hegyekbe utazom.",
+        "ro": "În vacanță merg la munte.",
+        "el": "Στις διακοπές πηγαίνω στα βουνά.",
+        "uk": "У відпустку я їду в гори.",
+        "tr": "Tatilimde dağlara gidiyorum.",
+        "vi": "Vào kỳ nghỉ tôi đi lên vùng núi.",
+        "id": "Saat liburan saya pergi ke pegunungan.",
+        "ar": "سأذهب في الإجازة إلى الجبال.",
+        "fa": "در تعطیلات به کوهستان می‌روم."
       },
       "bracket_parts": [
         "fahre"
@@ -74,7 +114,27 @@
       "german": "Fährst du morgen in die Stadt?",
       "translation": {
         "ru": "Ты поедешь завтра в город?",
-        "en": "Are you driving into town tomorrow?"
+        "en": "Are you driving into town tomorrow?",
+        "de": "Fährst du morgen in die Stadt?",
+        "es": "¿Vas a la ciudad mañana?",
+        "fr": "Tu vas en ville demain ?",
+        "it": "Vai in città domani?",
+        "pt": "Você vai para a cidade amanhã?",
+        "nl": "Rijd je morgen naar de stad?",
+        "pl": "Jedziesz jutro do miasta?",
+        "cs": "Pojedeš zítra do města?",
+        "sk": "Ideš zajtra do mesta?",
+        "sl": "Greš jutri v mesto?",
+        "hr": "Ideš li sutra u grad?",
+        "hu": "Bemész holnap a városba?",
+        "ro": "Mergi mâine în oraș?",
+        "el": "Πας αύριο στην πόλη;",
+        "uk": "Ти поїдеш завтра в місто?",
+        "tr": "Yarın şehre gidiyor musun?",
+        "vi": "Ngày mai bạn có lái xe vào thành phố không?",
+        "id": "Apakah kamu akan pergi ke kota besok?",
+        "ar": "هل ستذهب غداً إلى المدينة؟",
+        "fa": "آیا فردا به شهر می‌روی؟"
       },
       "bracket_parts": [
         "Fährst"
@@ -89,7 +149,27 @@
       "german": "Er fährt jeden Morgen in das Büro",
       "translation": {
         "ru": "Каждое утро он едет в офис",
-        "en": "He drives to the office every morning"
+        "en": "He drives to the office every morning",
+        "de": "Er fährt jeden Morgen in das Büro.",
+        "es": "Él va cada mañana a la oficina.",
+        "fr": "Il va au bureau tous les matins.",
+        "it": "Ogni mattina va in ufficio.",
+        "pt": "Ele vai para o escritório todas as manhãs.",
+        "nl": "Hij rijdt elke ochtend naar het kantoor.",
+        "pl": "Każdego ranka jedzie do biura.",
+        "cs": "Každé ráno jezdí do kanceláře.",
+        "sk": "Každé ráno chodí do kancelárie.",
+        "sl": "Vsako jutro se vozi v pisarno.",
+        "hr": "Svako jutro vozi u ured.",
+        "hu": "Minden reggel az irodába utazik.",
+        "ro": "În fiecare dimineață el merge la birou.",
+        "el": "Κάθε πρωί πηγαίνει στο γραφείο.",
+        "uk": "Щоранку він їде в офіс.",
+        "tr": "Her sabah ofise gidiyor.",
+        "vi": "Mỗi sáng anh ấy đều lái xe đến văn phòng.",
+        "id": "Setiap pagi dia berkendara ke kantor.",
+        "ar": "هو يذهب كل صباح إلى المكتب.",
+        "fa": "او هر روز صبح به دفتر می‌رود."
       },
       "bracket_parts": [
         "fährt"
@@ -104,7 +184,27 @@
       "german": "Wir fahren im Sommer in die Schweiz",
       "translation": {
         "ru": "Летом мы едем в Швейцарию",
-        "en": "We are driving to Switzerland in summer"
+        "en": "We are driving to Switzerland in summer",
+        "de": "Wir fahren im Sommer in die Schweiz.",
+        "es": "En verano vamos a Suiza.",
+        "fr": "En été, nous partons en Suisse.",
+        "it": "In estate andiamo in Svizzera.",
+        "pt": "No verão nós vamos para a Suíça.",
+        "nl": "Wij reizen in de zomer naar Zwitserland.",
+        "pl": "Latem jedziemy do Szwajcarii.",
+        "cs": "V létě jedeme do Švýcarska.",
+        "sk": "V lete ideme do Švajčiarska.",
+        "sl": "Poleti gremo v Švico.",
+        "hr": "Ljeti putujemo u Švicarsku.",
+        "hu": "Nyáron Svájcba utazunk.",
+        "ro": "Vara mergem în Elveția.",
+        "el": "Το καλοκαίρι πηγαίνουμε στην Ελβετία.",
+        "uk": "Влітку ми їдемо до Швейцарії.",
+        "tr": "Yazın İsviçre'ye gidiyoruz.",
+        "vi": "Mùa hè chúng tôi đi Thụy Sĩ.",
+        "id": "Musim panas ini kami pergi ke Swiss.",
+        "ar": "سنسافر في الصيف إلى سويسرا.",
+        "fa": "ما در تابستان به سوئیس می‌رویم."
       },
       "bracket_parts": [
         "fahren"
@@ -119,7 +219,27 @@
       "german": "Fahrt ihr bald in die Ferien?",
       "translation": {
         "ru": "Вы скоро поедете на каникулы?",
-        "en": "Are you driving on vacation soon?"
+        "en": "Are you driving on vacation soon?",
+        "de": "Fahrt ihr bald in die Ferien?",
+        "es": "¿Se van pronto de vacaciones?",
+        "fr": "Vous partez bientôt en vacances ?",
+        "it": "Andate presto in vacanza?",
+        "pt": "Vocês vão de férias em breve?",
+        "nl": "Gaan jullie binnenkort op vakantie?",
+        "pl": "Wyjeżdżacie wkrótce na wakacje?",
+        "cs": "Pojedete brzy na prázdniny?",
+        "sk": "Pôjdete čoskoro na prázdniny?",
+        "sl": "Boste šli kmalu na počitnice?",
+        "hr": "Idete li uskoro na praznike?",
+        "hu": "Hamarosan elutaztok nyaralni?",
+        "ro": "Plecați curând în vacanță?",
+        "el": "Φεύγετε σύντομα για διακοπές;",
+        "uk": "Ви скоро поїдете на канікули?",
+        "tr": "Yakında tatile çıkıyor musunuz?",
+        "vi": "Các bạn sắp đi nghỉ dưỡng à?",
+        "id": "Apakah kalian akan segera pergi berlibur?",
+        "ar": "هل ستذهبون في إجازة قريباً؟",
+        "fa": "آیا به زودی به تعطیلات می‌روید؟"
       },
       "bracket_parts": [
         "Fahrt"
@@ -134,7 +254,27 @@
       "german": "Gestern fuhr sie eilig in die Garage",
       "translation": {
         "ru": "Вчера она поспешно заехала в гараж",
-        "en": "Yesterday she drove hastily into the garage"
+        "en": "Yesterday she drove hastily into the garage",
+        "de": "Gestern fuhr sie eilig in die Garage.",
+        "es": "Ayer ella entró apresuradamente en el garaje.",
+        "fr": "Hier, elle est rentrée précipitamment dans le garage.",
+        "it": "Ieri è entrata in fretta nel garage.",
+        "pt": "Ontem ela entrou às pressas na garagem.",
+        "nl": "Gisteren reed ze haastig de garage in.",
+        "pl": "Wczoraj w pośpiechu wjechała do garażu.",
+        "cs": "Včera spěšně vjela do garáže.",
+        "sk": "Včera sa ponáhľala autom do garáže.",
+        "sl": "Včeraj je v naglici zapeljala v garažo.",
+        "hr": "Jučer se žurno uvezla u garažu.",
+        "hu": "Tegnap sietősen beállt a garázsba.",
+        "ro": "Ieri a intrat în grabă în garaj.",
+        "el": "Χθες μπήκε βιαστικά στο γκαράζ.",
+        "uk": "Учора вона поспіхом заїхала в гараж.",
+        "tr": "Dün aceleyle garaja girdi.",
+        "vi": "Hôm qua cô ấy đã vội vàng lái xe vào ga ra.",
+        "id": "Kemarin dia buru-buru memasukkan mobil ke garasi.",
+        "ar": "أمس قادت مسرعة إلى المرآب.",
+        "fa": "او دیروز با عجله وارد گاراژ شد."
       },
       "bracket_parts": [
         "fuhr"
@@ -149,7 +289,27 @@
       "german": "Sie sind gestern in die Türkei gefahren",
       "translation": {
         "ru": "Они вчера уехали в Турцию",
-        "en": "They drove to Turkey yesterday"
+        "en": "They drove to Turkey yesterday",
+        "de": "Sie sind gestern in die Türkei gefahren.",
+        "es": "Ellos viajaron ayer a Turquía.",
+        "fr": "Ils sont partis en Turquie hier.",
+        "it": "Ieri sono partiti per la Turchia.",
+        "pt": "Eles foram para a Turquia ontem.",
+        "nl": "Ze zijn gisteren naar Turkije gereisd.",
+        "pl": "Oni pojechali wczoraj do Turcji.",
+        "cs": "Včera odjeli do Turecka.",
+        "sk": "Včera odcestovali do Turecka.",
+        "sl": "Včeraj so se odpeljali v Turčijo.",
+        "hr": "Jučer su otputovali u Tursku.",
+        "hu": "Tegnap Törökországba utaztak.",
+        "ro": "Ei au plecat ieri în Turcia.",
+        "el": "Χθες ταξίδεψαν στην Τουρκία.",
+        "uk": "Вони вчора поїхали до Туреччини.",
+        "tr": "Dün Türkiye'ye gittiler.",
+        "vi": "Hôm qua họ đã đi Thổ Nhĩ Kỳ.",
+        "id": "Kemarin mereka berangkat ke Turki.",
+        "ar": "لقد سافروا أمس إلى تركيا.",
+        "fa": "آن‌ها دیروز به ترکیه رفتند."
       },
       "bracket_parts": [
         "sind",
@@ -165,7 +325,27 @@
       "german": "Fahr bitte langsam in die Einfahrt!",
       "translation": {
         "ru": "Заезжай, пожалуйста, медленно во двор!",
-        "en": "Please drive slowly into the driveway!"
+        "en": "Please drive slowly into the driveway!",
+        "de": "Fahr bitte langsam in die Einfahrt!",
+        "es": "¡Por favor, entra despacio en la entrada!",
+        "fr": "Entre lentement dans l'allée, s'il te plaît !",
+        "it": "Entra piano nel vialetto, per favore!",
+        "pt": "Por favor, entre devagar na garagem!",
+        "nl": "Rijd alsjeblieft langzaam de oprit op!",
+        "pl": "Wjedź powoli na podjazd, proszę!",
+        "cs": "Vjížděj prosím na příjezdovou cestu pomalu!",
+        "sk": "Vchádzaj prosím pomaly na príjazdovú cestu!",
+        "sl": "Prosim, vozi počasi na dovoz!",
+        "hr": "Vozi polako na prilaz, molim te!",
+        "hu": "Kérlek, lassan hajts be a felhajtóra!",
+        "ro": "Intră încet pe alee, te rog!",
+        "el": "Μπες αργά στην είσοδο, σε παρακαλώ!",
+        "uk": "Заїжджай, будь ласка, повільно у двір!",
+        "tr": "Giriş yoluna lütfen yavaş gir!",
+        "vi": "Làm ơn lái xe từ từ vào lối vào nhé!",
+        "id": "Tolong masuk perlahan ke jalan masuk!",
+        "ar": "ادخل ببطء إلى المدخل من فضلك!",
+        "fa": "لطفاً آهسته وارد مسیر ورودی شو!"
       },
       "bracket_parts": [
         "Fahr"
