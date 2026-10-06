@@ -3,7 +3,7 @@
     "name": "das Verb",
     "slug": "das-verb",
     "scheme": "dasverb",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "orientation": "portrait",
     "icon": "./assets/icons/base-icon.png",
     "userInterfaceStyle": "automatic",
@@ -24,7 +24,7 @@
         "ITSAppUsesNonExemptEncryption": false,
         "GADNativeAdValidatorEnabled": false
       },
-      "buildNumber": "8"
+      "buildNumber": "9"
     },
     "android": {
       "adaptiveIcon": {
@@ -38,7 +38,7 @@
       ],
       "package": "com.yarm.apps.dasverb",
       "googleServicesFile": "./google-services.json",
-      "versionCode": 8
+      "versionCode": 9
     },
     "web": {
       "bundler": "metro"
@@ -51,15 +51,16 @@
             "useFrameworks": "static"
           },
           "android": {
-            "useLegacyPackaging": true,
+            "useLegacyPackaging": false,
             "enableMinifyInReleaseBuilds": true,
             "enableShrinkResourcesInReleaseBuilds": true,
-            "extraProguardRules": "-dontwarn com.amazon.**\n-dontwarn com.unity3d.**\n-dontwarn com.google.ads.mediation.unity.**\n-keep class com.unity3d.ads.** { *; }\n-keep interface com.unity3d.ads.** { *; }\n-keep class com.google.ads.mediation.unity.** { *; }"
+            "extraProguardRules": "-dontwarn com.amazon.**\n-dontwarn com.unity3d.**\n-dontwarn com.google.ads.mediation.unity.**\n-keep class com.unity3d.ads.** { *; }\n-keep interface com.unity3d.ads.** { *; }\n-keep class com.google.ads.mediation.unity.** { *; }\n-dontwarn com.facebook.ads.**\n-keep class com.facebook.ads.** { *; }\n-keep class com.google.ads.mediation.facebook.** { *; }"
           }
         }
       ],
       "./plugins/withNonModularHeaders",
       "./plugins/withUnityMediation",
+      "./plugins/withMetaMediation",
       [
         "@react-native-firebase/app",
         {
