@@ -67,46 +67,50 @@ describe('Ads Module', () => {
   });
 
   describe('PracticeNativeAdCard', () => {
-    it('should return null when isPracticeNativeAdEnabled is false', () => {
+    it('should render promo card fallback when isPracticeNativeAdEnabled is false', () => {
       jest.spyOn(appConfigService, 'isPracticeNativeAdEnabled').mockReturnValue(false);
 
-      const { queryByTestId } = render(
+      const { queryByTestId, getByTestId } = render(
         <PracticeNativeAdCard isPremium={false} colors={darkColors} isDark={true} />,
       );
 
       expect(queryByTestId('practice-native-ad-card')).toBeNull();
+      expect(getByTestId('der-artikel-cross-promo-practice')).toBeTruthy();
     });
 
-    it('should return null when user is premium', () => {
+    it('should render promo card recommendation when user is premium', () => {
       jest.spyOn(appConfigService, 'isPracticeNativeAdEnabled').mockReturnValue(true);
 
-      const { queryByTestId } = render(
+      const { queryByTestId, getByTestId } = render(
         <PracticeNativeAdCard isPremium={true} colors={darkColors} isDark={true} />,
       );
 
       expect(queryByTestId('practice-native-ad-card')).toBeNull();
+      expect(getByTestId('der-artikel-cross-promo-practice')).toBeTruthy();
     });
   });
 
   describe('DictionaryNativeAdCard', () => {
-    it('should return null when isDictionaryNativeAdEnabled is false', () => {
+    it('should render promo card fallback when isDictionaryNativeAdEnabled is false', () => {
       jest.spyOn(appConfigService, 'isDictionaryNativeAdEnabled').mockReturnValue(false);
 
-      const { queryByTestId } = render(
+      const { queryByTestId, getByTestId } = render(
         <DictionaryNativeAdCard isPremium={false} colors={darkColors} isDark={true} />,
       );
 
       expect(queryByTestId('dictionary-native-ad-card')).toBeNull();
+      expect(getByTestId('der-artikel-cross-promo-dictionary')).toBeTruthy();
     });
 
-    it('should return null when user is premium', () => {
+    it('should render promo card recommendation when user is premium', () => {
       jest.spyOn(appConfigService, 'isDictionaryNativeAdEnabled').mockReturnValue(true);
 
-      const { queryByTestId } = render(
+      const { queryByTestId, getByTestId } = render(
         <DictionaryNativeAdCard isPremium={true} colors={darkColors} isDark={true} />,
       );
 
       expect(queryByTestId('dictionary-native-ad-card')).toBeNull();
+      expect(getByTestId('der-artikel-cross-promo-dictionary')).toBeTruthy();
     });
   });
 });

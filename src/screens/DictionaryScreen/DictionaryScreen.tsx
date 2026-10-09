@@ -196,7 +196,7 @@ export function DictionaryScreen(): React.JSX.Element {
   const [isLoading, setIsLoading] = useState(false);
 
   const renderFooter = useCallback(() => {
-    if (verbs.length === 0 || isPremium) return null;
+    if (verbs.length === 0) return null;
     return <DictionaryNativeAdCard isPremium={isPremium} colors={colors} isDark={isDark} />;
   }, [verbs.length, isPremium, colors, isDark]);
 

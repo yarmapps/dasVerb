@@ -520,6 +520,12 @@ export interface Translation {
     reviewTriggerSuccess: string;
     reviewCooldownResetSuccess: string;
   };
+  crossPromo?: {
+    derArtikel: {
+      title: string;
+      subtitle: string;
+    };
+  };
 }
 
 export interface LanguageOption {

@@ -346,6 +346,24 @@ export interface AdNoFillParams {
 }
 
 // ==========================================
+// 10. CROSS PROMO EVENTS
+// ==========================================
+
+export interface CrossPromoShownParams {
+  source: 'practice' | 'dictionary';
+  target_app: 'der_artikel';
+  is_premium: boolean;
+  platform: string;
+}
+
+export interface CrossPromoClickedParams {
+  source: 'practice' | 'dictionary';
+  target_app: 'der_artikel';
+  is_premium: boolean;
+  platform: string;
+}
+
+// ==========================================
 // EVENT MAP
 // ==========================================
 
@@ -437,6 +455,10 @@ export interface AnalyticsEventMap {
   paywall_restore_empty: PaywallRestoreEmptyParams;
   paywall_sheet_dismissed: PaywallSheetDismissedParams;
   locked_item_clicked: LockedItemClickedParams;
+
+  // Cross Promo
+  cross_promo_shown: CrossPromoShownParams;
+  cross_promo_clicked: CrossPromoClickedParams;
 }
 
 export type AnalyticsEventName = keyof AnalyticsEventMap;

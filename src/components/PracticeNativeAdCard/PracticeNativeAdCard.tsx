@@ -12,6 +12,7 @@ import { ENABLE_ADS, NATIVE_AD_UNIT_ID } from '../../ads/adConfig';
 import { isPracticeNativeAdEnabled } from '../../services/appConfigService';
 import { ThemeColors } from '../../styles/themeColors';
 import { trackEvent } from '../../services/analyticsService';
+import { DerArtikelPromoCard } from '../DerArtikelPromoCard/DerArtikelPromoCard';
 import { createStyles } from './PracticeNativeAdCard.styles';
 
 export { isPracticeNativeAdEnabled };
@@ -75,7 +76,14 @@ export function PracticeNativeAdCard({
   }, [isPremium, isFeatureEnabled]);
 
   if (isPremium || !ENABLE_ADS || !isFeatureEnabled || hasError || !nativeAd) {
-    return null;
+    return (
+      <DerArtikelPromoCard
+        source="practice"
+        colors={colors}
+        isDark={isDark}
+        isPremium={isPremium}
+      />
+    );
   }
 
   return (
