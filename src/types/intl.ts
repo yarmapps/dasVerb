@@ -526,6 +526,45 @@ export interface Translation {
       subtitle: string;
     };
   };
+  dailyStreak?: {
+    title: string;
+    currentStreak: string;
+    bestStreak: string;
+    totalActiveDays: string;
+    daysSuffix: string;
+    daySuffix: string;
+    freezeCardTitle: string;
+    freezeCardDesc: string;
+    freezeButtonFree: string;
+    freezeButtonPremium: string;
+    adBadge: string;
+    premiumBadge: string;
+    frozenActive: string;
+    practicedToday: string;
+    buttonAlreadySafe: string;
+    buttonAlreadyFrozen: string;
+    buttonNoStreak: string;
+    notPracticedWarning: string;
+    milestonesTitle: string;
+    milestonesSubtitle: string;
+    milestoneSpark: string;
+    milestoneSparkDesc: string;
+    milestoneFlame: string;
+    milestoneFlameDesc: string;
+    milestoneTorch: string;
+    milestoneTorchDesc: string;
+    milestoneInferno: string;
+    milestoneInfernoDesc: string;
+    milestoneBlaze: string;
+    milestoneBlazeDesc: string;
+    milestoneLegend: string;
+    milestoneLegendDesc: string;
+    milestoneMaster: string;
+    milestoneMasterDesc: string;
+    daysRemaining: string;
+    dayRemaining: string;
+    unlocked: string;
+  };
 }
 
 export interface LanguageOption {

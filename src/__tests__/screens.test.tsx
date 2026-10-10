@@ -12,7 +12,7 @@ import { ThemeProvider } from '../context/ThemeContext';
 import { LocaleProvider } from '../context/LocaleContext';
 import { verbDataService } from '../services/verbDataService';
 import { progressService } from '../services/progressService';
-import { resetDailyQuizLimits } from '../services/usageService';
+import { resetDailyQuizLimits, grantExtraQuiz } from '../services/usageService';
 import { setPremiumEnabled } from '../services/premiumAccessService';
 import { quizGeneratorService, QuizExercise } from '../services/quizGeneratorService';
 import { VerbCard } from '../../docs/verb.types';
@@ -900,6 +900,7 @@ describe('Screens Integration Suite', () => {
   describe('QuizResultsScreen', () => {
     beforeEach(() => {
       resetDailyQuizLimits();
+      grantExtraQuiz();
       jest.clearAllMocks();
     });
 

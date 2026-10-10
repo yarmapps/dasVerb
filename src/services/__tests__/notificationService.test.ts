@@ -112,6 +112,11 @@ describe('notificationService', () => {
         bestStreak: 5,
         lastActiveDate: '2026-09-05',
         isActiveToday: false,
+        isFrozenToday: false,
+        frozenDate: null,
+        totalActiveDays: 5,
+        activeDates: ['2026-09-04', '2026-09-05'],
+        frozenDates: [],
       });
 
       await scheduleStreakReminder();

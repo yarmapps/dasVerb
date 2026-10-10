@@ -12,7 +12,7 @@ import { LocaleProvider } from '../context/LocaleContext';
 import { verbDataService, ConjugationLevelData } from '../services/verbDataService';
 import { progressService } from '../services/progressService';
 import { quizGeneratorService } from '../services/quizGeneratorService';
-import { resetDailyQuizLimits } from '../services/usageService';
+import { resetDailyQuizLimits, grantExtraQuiz } from '../services/usageService';
 import { VerbCard } from '../../docs/verb.types';
 
 const mockNavigate = jest.fn();
@@ -615,6 +615,7 @@ describe('Conjugation Practice Suite', () => {
         })),
       };
 
+      grantExtraQuiz();
       const { getByTestId } = render(
         <ScreenWrapper>
           <QuizResultsScreen />

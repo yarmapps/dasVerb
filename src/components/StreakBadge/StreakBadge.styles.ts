@@ -20,6 +20,9 @@ export const createStyles = (colors: ThemeColors) =>
       justifyContent: 'center',
       gap: Spacing.xs,
     },
+    frozenIconWrapper: {
+      marginRight: 2,
+    },
     streakText: {
       fontSize: Typography.fontSize.sm,
       fontWeight: Typography.fontWeight.bold,

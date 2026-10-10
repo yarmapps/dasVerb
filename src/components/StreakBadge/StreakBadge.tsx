@@ -1,9 +1,14 @@
-import React, { useEffect, useMemo } from 'react';
+import React, { useEffect, useMemo, useState, useContext } from 'react';
 import { TouchableOpacity, Text, ViewStyle, Animated, View } from 'react-native';
+import { NavigationContext } from '@react-navigation/native';
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { useStreak } from '../../hooks/useStreak';
 import { useAppTheme } from '../../context/ThemeContext';
 import { soundService } from '../../services/soundService';
+import { trackEvent } from '../../services/analyticsService';
 import { FireIcon } from '../FireIcon/FireIcon';
+import { SnowflakeIcon } from '../SnowflakeIcon/SnowflakeIcon';
+import { RootStackParamList } from '../../types/navigation';
 import { createStyles } from './StreakBadge.styles';
 
 export interface StreakBadgeProps {
@@ -17,12 +22,15 @@ export function StreakBadge({
   onPress,
   animate = false,
 }: StreakBadgeProps): React.JSX.Element {
-  const { currentStreak, isActiveToday } = useStreak();
+  const { currentStreak, isActiveToday, isFrozenToday } = useStreak();
+  const navigation = useContext(NavigationContext) as
+    | NativeStackNavigationProp<RootStackParamList>
+    | undefined;
   const { colors } = useAppTheme();
   const styles = useMemo(() => createStyles(colors), [colors]);
 
-  const flameScale = useMemo(() => new Animated.Value(1), []);
-  const flameRotate = useMemo(() => new Animated.Value(0), []);
+  const [flameScale] = useState(() => new Animated.Value(1));
+  const [flameRotate] = useState(() => new Animated.Value(0));
 
   useEffect(() => {
     let loopAnimation: Animated.CompositeAnimation | null = null;
@@ -95,11 +103,15 @@ export function StreakBadge({
 
   const handlePress = () => {
     soundService.playTapSound();
+    trackEvent('daily_streak_icon_clicked', {});
     if (onPress) {
       onPress();
+    } else if (navigation?.navigate) {
+      navigation.navigate('DailyStreak');
     }
   };
 
+  const isFrozen = isFrozenToday && !isActiveToday;
   const isFireActive = isActiveToday || currentStreak > 0;
 
   const spinRotation = useMemo(
@@ -121,11 +133,18 @@ export function StreakBadge({
     >
       <View style={styles.innerRow}>
         <Animated.View
-          style={{
-            transform: [{ scale: flameScale }, { rotate: spinRotation }],
-          }}
+          style={[
+            {
+              transform: [{ scale: flameScale }, { rotate: spinRotation }],
+            },
+            isFrozen && styles.frozenIconWrapper,
+          ]}
         >
-          <FireIcon size={18} isActive={isFireActive} inactiveColor={colors.textMuted} />
+          {isFrozen ? (
+            <SnowflakeIcon size={19} isActive={true} />
+          ) : (
+            <FireIcon size={18} isActive={isFireActive} inactiveColor={colors.textMuted} />
+          )}
         </Animated.View>
         <Text style={styles.streakText} testID="streak-count-text">
           {currentStreak}

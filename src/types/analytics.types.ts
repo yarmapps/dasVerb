@@ -11,6 +11,7 @@ export type AnalyticsScreenName =
   | 'QuizResults'
   | 'Settings'
   | 'LanguageSelector'
+  | 'DailyStreak'
   | (string & {});
 
 // ==========================================
@@ -364,6 +365,34 @@ export interface CrossPromoClickedParams {
 }
 
 // ==========================================
+// DAILY STREAK EVENTS (prefix: daily_streak_)
+// ==========================================
+
+export interface DailyStreakScreenShownParams {
+  current_streak: number;
+  best_streak: number;
+  total_active_days: number;
+  is_active_today: boolean;
+  is_frozen_today: boolean;
+}
+
+export interface DailyStreakFreezeButtonClickedParams {
+  is_premium: boolean;
+  current_streak: number;
+}
+
+export interface DailyStreakFreezeSuccessParams {
+  method: 'premium' | 'rewarded_ad';
+  current_streak: number;
+}
+
+export interface DailyStreakMonthChangedParams {
+  direction: 'prev' | 'next';
+  year: number;
+  month: number;
+}
+
+// ==========================================
 // EVENT MAP
 // ==========================================
 
@@ -459,6 +488,13 @@ export interface AnalyticsEventMap {
   // Cross Promo
   cross_promo_shown: CrossPromoShownParams;
   cross_promo_clicked: CrossPromoClickedParams;
+
+  // Daily Streak
+  daily_streak_icon_clicked: Record<string, never>;
+  daily_streak_screen_shown: DailyStreakScreenShownParams;
+  daily_streak_freeze_button_clicked: DailyStreakFreezeButtonClickedParams;
+  daily_streak_freeze_success: DailyStreakFreezeSuccessParams;
+  daily_streak_month_changed: DailyStreakMonthChangedParams;
 }
 
 export type AnalyticsEventName = keyof AnalyticsEventMap;

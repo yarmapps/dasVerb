@@ -68,6 +68,7 @@ export type RootStackParamList = {
   FirstOpenPaywall: { isDebugPreview?: boolean } | undefined;
   Settings: undefined;
   Debug: undefined;
+  DailyStreak: undefined;
   VerbQuiz: {
     infinitive?: string;
     level?: string;
