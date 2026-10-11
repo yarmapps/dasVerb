@@ -1,13 +1,13 @@
 import React, { useEffect, useMemo, useState, useContext } from 'react';
-import { TouchableOpacity, Text, ViewStyle, Animated, View } from 'react-native';
+import { ViewStyle, Animated } from 'react-native';
 import { NavigationContext } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { useStreak } from '../../hooks/useStreak';
 import { useAppTheme } from '../../context/ThemeContext';
-import { soundService } from '../../services/soundService';
 import { trackEvent } from '../../services/analyticsService';
 import { FireIcon } from '../FireIcon/FireIcon';
 import { SnowflakeIcon } from '../SnowflakeIcon/SnowflakeIcon';
+import { HeaderIconButton } from '../HeaderIconButton/HeaderIconButton';
 import { RootStackParamList } from '../../types/navigation';
 import { createStyles } from './StreakBadge.styles';
 
@@ -27,7 +27,7 @@ export function StreakBadge({
     | NativeStackNavigationProp<RootStackParamList>
     | undefined;
   const { colors } = useAppTheme();
-  const styles = useMemo(() => createStyles(colors), [colors]);
+  const styles = useMemo(() => createStyles(), []);
 
   const [flameScale] = useState(() => new Animated.Value(1));
   const [flameRotate] = useState(() => new Animated.Value(0));
@@ -102,7 +102,6 @@ export function StreakBadge({
   }, [animate, flameScale, flameRotate]);
 
   const handlePress = () => {
-    soundService.playTapSound();
     trackEvent('daily_streak_icon_clicked', {});
     if (onPress) {
       onPress();
@@ -124,14 +123,8 @@ export function StreakBadge({
   );
 
   return (
-    <TouchableOpacity
-      style={[styles.badgeContainer, style]}
-      onPress={handlePress}
-      activeOpacity={0.7}
-      hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
-      testID="streak-badge"
-    >
-      <View style={styles.innerRow}>
+    <HeaderIconButton
+      icon={
         <Animated.View
           style={[
             {
@@ -146,10 +139,11 @@ export function StreakBadge({
             <FireIcon size={18} isActive={isFireActive} inactiveColor={colors.textMuted} />
           )}
         </Animated.View>
-        <Text style={styles.streakText} testID="streak-count-text">
-          {currentStreak}
-        </Text>
-      </View>
-    </TouchableOpacity>
+      }
+      label={currentStreak}
+      onPress={handlePress}
+      style={style}
+      testID="streak-badge"
+    />
   );
 }

@@ -588,5 +588,36 @@
     "daysRemaining": "{count} jours restants",
     "dayRemaining": "1 jour restant",
     "unlocked": "Débloqué"
+  },
+  "leaderboard": {
+    "title": "Classement",
+    "tabThisMonth": "Ce mois-ci",
+    "tabYear": "Tous les mois",
+    "tabAllTime": "Tout le temps",
+    "modalTitle": "Entrez votre nom de classement",
+    "modalSubtitle": "Choisissez un nom d'affichage pour le classement. Vous pourrez le modifier ultérieurement dans les Paramètres.",
+    "modalPlaceholder": "ex. Alex",
+    "modalError": "Veuillez saisir un nom valide.",
+    "emptyTitle": "Un nouveau mois a commencé !",
+    "emptySubtitle": "Soyez le premier à terminer un quiz ce mois-ci !",
+    "profileSection": "Profil & Classement",
+    "displayName": "Nom d'affichage",
+    "highestScore": "Meilleur score",
+    "totalParticipants": "Total des participants : {count}"
+  },
+  "monthlyRecap": {
+    "title": "Récapitulatif de {month}",
+    "finishedHeadline": "Vous avez terminé ce mois",
+    "championHeadline": "Quel engagement ! Vous êtes",
+    "monthlyParticipants": "sur {count} participants",
+    "championHallOfFame": "Votre nom figurera pour toujours au classement das Verb !",
+    "pointsEarned": "Points gagnés",
+    "pointsEarnedValue": "+{score} pts gagnés en {month}",
+    "allTimeStanding": "Classement général",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "Commencer un nouveau mois"
+  },
+  "common": {
+    "save": "Enregistrer"
   }
 }

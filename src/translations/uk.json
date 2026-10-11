@@ -588,5 +588,36 @@
     "daysRemaining": "Залишилося {count} дн.",
     "dayRemaining": "Залишився 1 день",
     "unlocked": "Відкрито"
+  },
+  "leaderboard": {
+    "title": "Таблиця лідерів",
+    "tabThisMonth": "Цей місяць",
+    "tabYear": "Всі місяці",
+    "tabAllTime": "За весь час",
+    "modalTitle": "Введіть ім'я для таблиці лідерів",
+    "modalSubtitle": "Оберіть ім'я, яке буде відображатися в таблиці лідерів. Ви зможете змінити його пізніше в Налаштуваннях.",
+    "modalPlaceholder": "наприклад, Алекс",
+    "modalError": "Будь ласка, введіть коректне ім'я.",
+    "emptyTitle": "Розпочався новий місяць!",
+    "emptySubtitle": "Станьте першим, хто пройде квіз цього місяця!",
+    "profileSection": "Профіль і Таблиця лідерів",
+    "displayName": "Відображуване ім'я",
+    "highestScore": "Рекорд",
+    "totalParticipants": "Усього учасників: {count}"
+  },
+  "monthlyRecap": {
+    "title": "Підсумки за {month}",
+    "finishedHeadline": "Ви завершили цей місяць",
+    "championHeadline": "Яка наполегливість! Ви",
+    "monthlyParticipants": "з {count} учасників",
+    "championHallOfFame": "Ваше ім'я назавжди залишиться на Дошці пошани das Verb!",
+    "pointsEarned": "Набрано балів",
+    "pointsEarnedValue": "+{score} балів за {month}",
+    "allTimeStanding": "Загальний залік",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "Розпочати новий місяць"
+  },
+  "common": {
+    "save": "Зберегти"
   }
 }

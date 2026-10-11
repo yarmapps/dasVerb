@@ -546,5 +546,36 @@
     "daysRemaining": "Zbývá {count} dní",
     "dayRemaining": "Zbývá 1 den",
     "unlocked": "Odemčeno"
+  },
+  "leaderboard": {
+    "title": "Žebříček",
+    "tabThisMonth": "Tento měsíc",
+    "tabYear": "Všechny měsíce",
+    "tabAllTime": "Celkově",
+    "modalTitle": "Zadejte své jméno pro žebříček",
+    "modalSubtitle": "Zvolte si jméno, které se zobrazí v žebříčku.",
+    "modalPlaceholder": "např. Alex",
+    "modalError": "Zadejte prosím platné jméno.",
+    "emptyTitle": "Začal nový měsíc!",
+    "emptySubtitle": "Buďte první, kdo tento měsíc dokončí kvíz!",
+    "profileSection": "Profil a žebříček",
+    "displayName": "Zobrazované jméno",
+    "highestScore": "Nejvyšší skóre",
+    "totalParticipants": "Celkem účastníků: {count}"
+  },
+  "monthlyRecap": {
+    "title": "Přehled za {month}",
+    "finishedHeadline": "Tento měsíc jste dokončili",
+    "championHeadline": "Skvělé odhodlání! Skončili jste",
+    "monthlyParticipants": "z celkem {count} účastníků",
+    "championHallOfFame": "Vaše jméno bude navždy zapsáno v žebříčku das Verb!",
+    "pointsEarned": "Získané body",
+    "pointsEarnedValue": "+{score} bodů v měsíci {month}",
+    "allTimeStanding": "Celkové umístění",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "Začít nový měsíc"
+  },
+  "common": {
+    "save": "Uložit"
   }
 }

@@ -588,5 +588,36 @@
     "daysRemaining": "{count} روز باقی مانده",
     "dayRemaining": "۱ روز باقی مانده",
     "unlocked": "باز شد"
+  },
+  "leaderboard": {
+    "title": "جدول برترین‌ها",
+    "tabThisMonth": "این ماه",
+    "tabYear": "همه ماه‌ها",
+    "tabAllTime": "تمام دوران",
+    "modalTitle": "نام خود را برای جدول برترین‌ها وارد کنید",
+    "modalSubtitle": "یک نام نمایشی برای جدول برترین‌ها انتخاب کنید. می‌توانید آن را بعداً در تنظیمات تغییر دهید.",
+    "modalPlaceholder": "مثال: الکس",
+    "modalError": "لطفاً یک نام معتبر وارد کنید.",
+    "emptyTitle": "یک ماه جدید آغاز شد!",
+    "emptySubtitle": "اولین کسی باشید که در این ماه آزمونی را تمام می‌کند!",
+    "profileSection": "پروفایل و جدول امتیازات",
+    "displayName": "نام نمایشی",
+    "highestScore": "بالاترین امتیاز",
+    "totalParticipants": "مجموع شرکت‌کنندگان: {count}"
+  },
+  "monthlyRecap": {
+    "title": "خلاصه {month}",
+    "finishedHeadline": "این ماه را به پایان رساندید",
+    "championHeadline": "چه تلاشی! شما",
+    "monthlyParticipants": "از بین {count} شرکت‌کننده",
+    "championHallOfFame": "نام شما برای همیشه در جدول برترین‌های das Verb باقی خواهد ماند!",
+    "pointsEarned": "امتیاز کسب شده",
+    "pointsEarnedValue": "+{score} امتیاز در {month}",
+    "allTimeStanding": "رتبه کلی",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "شروع ماه جدید"
+  },
+  "common": {
+    "save": "ذخیره"
   }
 }

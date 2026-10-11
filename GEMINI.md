@@ -18,6 +18,7 @@
    * **Понятные и осмысленные имена переменных:** никаких `pCase`, `dCase`, `q`, `t`, `val` — только полные описательные имена (`formattedPrepositionCase`, `trimmedSearchQuery`, `languageCode`).
    * **Никаких вложенных тернарников:** запрещены `a ? b : c ? d : e` (`unicorn/no-nested-ternary`). Использовать Object map или `switch`.
    * **Корневой контейнер экранов (`ScreenBackground`):** все экраны обязаны использовать `<ScreenBackground>` в корне. Запрещено использовать `<SafeAreaView>` как корень экрана (на Android вызывает схлопывание контента при возврате назад). Insets обрабатываются через `<ScreenHeader>`.
+   * **Принцип библиотеки общих компонентов (Shared Component Library First):** категорически запрещено дублировать и писать заново ad-hoc UI-примитивы прямо в экранах (сырые кнопки хедера, крестики закрытия, диалоги, бейджи, инпуты). Любой повторяющийся или типовой UI-элемент обязан использоваться из общей библиотеки `src/components/` (`HeaderIconButton`, `CloseIconButton`, `BaseDialog`, `ScreenHeader`, `ScreenBackground`, `StreakBadge`, `LeaderboardBadge`, `FormInput` и др.). Если требуются новые варианты или пропсы — расширять существующий общий компонент или создавать новый переиспользуемый компонент в `src/components/Name/`, а не плодить копипасту стилей и верстки по экранам.
 
 2. **Правила именования файлов и идентификаторов:**
    * См. спецификацию: [`specs/file-naming-rules.md`](file:///Users/alexander.yarmosh/yapps/dasVerb/specs/file-naming-rules.md)

@@ -9,6 +9,7 @@ import { DebugScreen } from '../screens/DebugScreen/DebugScreen';
 import { VerbQuizScreen } from '../screens/VerbQuizScreen/VerbQuizScreen';
 import { QuizResultsScreen } from '../screens/QuizResultsScreen/QuizResultsScreen';
 import { DailyStreakScreen } from '../screens/DailyStreak/DailyStreakScreen';
+import { LeaderboardScreen } from '../screens/LeaderboardScreen/LeaderboardScreen';
 import { useAppTheme } from '../context/ThemeContext';
 import { MainTabs } from './MainTabs';
 
@@ -40,6 +41,7 @@ export function RootNavigator(): React.JSX.Element {
       <Stack.Screen name="DailyStreak" component={DailyStreakScreen} />
       <Stack.Screen name="VerbQuiz" component={VerbQuizScreen} />
       <Stack.Screen name="QuizResults" component={QuizResultsScreen} />
+      <Stack.Screen name="Leaderboard" component={LeaderboardScreen} />
     </Stack.Navigator>
   );
 }

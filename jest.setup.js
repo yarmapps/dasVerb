@@ -279,6 +279,43 @@ jest.mock('@react-native-firebase/app', () => ({
   initializeApp: jest.fn(() => ({ name: '[DEFAULT]' })),
 }));
 
+const mockAuthInstance = {
+  currentUser: { uid: 'mock-user-123' },
+};
+
+jest.mock('@react-native-firebase/auth', () => ({
+  getAuth: jest.fn(() => mockAuthInstance),
+  signInAnonymously: jest.fn().mockResolvedValue({ user: { uid: 'mock-user-123' } }),
+}));
+
+jest.mock('@react-native-firebase/firestore', () => ({
+  getFirestore: jest.fn(() => ({})),
+  doc: jest.fn((...args) => ({ path: args.join('/') })),
+  getDoc: jest.fn().mockResolvedValue({
+    exists: () => false,
+    data: () => ({}),
+  }),
+  getDocs: jest.fn().mockResolvedValue({
+    size: 0,
+    docs: [],
+  }),
+  collection: jest.fn((...args) => ({ path: args.join('/') })),
+  query: jest.fn((...args) => args[0]),
+  orderBy: jest.fn(),
+  limit: jest.fn(),
+  writeBatch: jest.fn(() => ({
+    set: jest.fn(),
+    commit: jest.fn().mockResolvedValue(undefined),
+  })),
+  increment: jest.fn(val => val),
+  arrayUnion: jest.fn((...args) => args),
+  serverTimestamp: jest.fn(() => new Date()),
+  where: jest.fn(),
+  getCountFromServer: jest.fn().mockResolvedValue({
+    data: () => ({ count: 0 }),
+  }),
+}));
+
 jest.mock('react-native-purchases', () => {
   const mockPurchases = {
     configure: jest.fn(),

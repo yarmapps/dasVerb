@@ -28,6 +28,7 @@ import { recordStreakActivity } from '../../services/streakService';
 import { getNextPracticeTarget, PracticeNextTarget } from '../../services/practiceSequenceService';
 import { useNavigateToQuiz } from '../../hooks/useNavigateToQuiz';
 import { trackEvent } from '../../services/analyticsService';
+import { isLeaderboardEnabled, submitQuizScore } from '../../services/leaderboardService';
 import { createStyles } from './QuizResultsScreen.styles';
 
 type QuizResultsRouteProp = RouteProp<RootStackParamList, 'QuizResults'>;
@@ -137,9 +138,20 @@ export function QuizResultsScreen(): React.JSX.Element {
     isCategoryQuiz,
   ]);
 
+  const pointsEarned = useMemo(() => {
+    if (percentage >= 100) return 30;
+    if (percentage >= 80) return 15;
+    if (percentage >= 60) return 5;
+    return 0;
+  }, [percentage]);
+
   useEffect(() => {
     soundService.playLevelFinishedSound();
     incrementDailyCompletedQuizzes();
+
+    if (pointsEarned > 0 && isLeaderboardEnabled()) {
+      submitQuizScore(pointsEarned).catch(() => {});
+    }
 
     trackEvent('quiz_results_viewed', {
       score: correctCount,
@@ -237,6 +249,7 @@ export function QuizResultsScreen(): React.JSX.Element {
   }, [percentage]);
 
   const handleTryAgain = () => {
+    soundService.playTapSound();
     trackEvent('quiz_results_action', {
       action: 'retry',
       quiz_type: resolvedQuizType,
@@ -299,6 +312,7 @@ export function QuizResultsScreen(): React.JSX.Element {
   };
 
   const handleGoToList = useCallback(() => {
+    soundService.playTapSound();
     trackEvent('quiz_results_action', {
       action: 'back_to_list',
       quiz_type: resolvedQuizType,
@@ -360,6 +374,7 @@ export function QuizResultsScreen(): React.JSX.Element {
   }, [navigation, returnRouteName, resolvedQuizType, infinitive, level]);
 
   const handleGoToPractice = useCallback(() => {
+    soundService.playTapSound();
     trackEvent('quiz_results_action', {
       action: 'back_to_home',
       quiz_type: resolvedQuizType,
@@ -377,6 +392,7 @@ export function QuizResultsScreen(): React.JSX.Element {
   }, [navigation, resolvedQuizType, infinitive, level]);
 
   const handleNextLevel = () => {
+    soundService.playTapSound();
     trackEvent('quiz_results_action', {
       action: 'next_quiz',
       quiz_type: resolvedQuizType,
@@ -863,6 +879,8 @@ export function QuizResultsScreen(): React.JSX.Element {
         showBackButton
         onBackPress={handleBack}
         animateStreak={isNewStreakDay}
+        showLeaderboard={isLeaderboardEnabled()}
+        leaderboardTooltipPoints={pointsEarned}
       />
 
       <View style={styles.mainContent}>

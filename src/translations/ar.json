@@ -588,5 +588,36 @@
     "daysRemaining": "بقي {count} أيام",
     "dayRemaining": "بقي يوم واحد",
     "unlocked": "تم الفتح"
+  },
+  "leaderboard": {
+    "title": "لوحة الصدارة",
+    "tabThisMonth": "هذا الشهر",
+    "tabYear": "جميع الأشهر",
+    "tabAllTime": "كل الأوقات",
+    "modalTitle": "أدخل اسمك في لوحة الصدارة",
+    "modalSubtitle": "اختر اسمًا يعرض في لوحة الصدارة. يمكنك تغييره لاحقًا من الإعدادات.",
+    "modalPlaceholder": "مثال: أليكس",
+    "modalError": "يرجى إدخال اسم صالح.",
+    "emptyTitle": "لقد بدأ شهر جديد!",
+    "emptySubtitle": "كن أول من يكمل اختبارًا هذا الشهر!",
+    "profileSection": "الملف الشخصي ولوحة المتصدرين",
+    "displayName": "اسم العرض",
+    "highestScore": "أعلى نتيجة",
+    "totalParticipants": "إجمالي المشاركين: {count}"
+  },
+  "monthlyRecap": {
+    "title": "ملخص {month}",
+    "finishedHeadline": "لقد أنهيت هذا الشهر",
+    "championHeadline": "يا له من التزام رائع! أنت",
+    "monthlyParticipants": "من أصل {count} مشارك",
+    "championHallOfFame": "سيبقى اسمك إلى الأبد في قائمة متصدري das Verb!",
+    "pointsEarned": "النقاط المكتسبة",
+    "pointsEarnedValue": "+{score} نقطة مكتسبة في {month}",
+    "allTimeStanding": "الترتيب العام",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "ابدأ شهرًا جديدًا"
+  },
+  "common": {
+    "save": "حفظ"
   }
 }

@@ -546,5 +546,36 @@
     "daysRemaining": "{count} days left",
     "dayRemaining": "1 day left",
     "unlocked": "Unlocked"
+  },
+  "leaderboard": {
+    "title": "Leaderboard",
+    "tabThisMonth": "This Month",
+    "tabYear": "All Months",
+    "tabAllTime": "All-Time",
+    "modalTitle": "Enter Your Leaderboard Name",
+    "modalSubtitle": "Choose a display name for the Leaderboard. You can change it later in Settings.",
+    "modalPlaceholder": "e.g. Alex",
+    "modalError": "Please enter a valid name.",
+    "emptyTitle": "A New Month Has Begun!",
+    "emptySubtitle": "Be the first to complete a quiz this month!",
+    "profileSection": "Profile & Leaderboard",
+    "displayName": "Display Name",
+    "highestScore": "Highest Score",
+    "totalParticipants": "Total Participants: {count}"
+  },
+  "monthlyRecap": {
+    "title": "{month} Recap",
+    "finishedHeadline": "You finished this month",
+    "championHeadline": "What a commitment! You are",
+    "monthlyParticipants": "out of {count} participants",
+    "championHallOfFame": "Your name will be forever on the das Verb Leaderboard!",
+    "pointsEarned": "Points Earned",
+    "pointsEarnedValue": "+{score} pts earned in {month}",
+    "allTimeStanding": "All-Time Standing",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "Start New Month"
+  },
+  "common": {
+    "save": "Save"
   }
 }

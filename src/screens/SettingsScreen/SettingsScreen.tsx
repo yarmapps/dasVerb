@@ -28,6 +28,12 @@ import {
   scheduleStreakReminder,
   cancelStreakReminder,
 } from '../../services/notificationService';
+import { UserNameModal } from '../../components/UserNameModal/UserNameModal';
+import {
+  getStoredDisplayName,
+  updateDisplayName,
+  isLeaderboardEnabled,
+} from '../../services/leaderboardService';
 import { createStyles } from './SettingsScreen.styles';
 
 type SettingsScreenNavigationProp = NativeStackNavigationProp<RootStackParamList>;
@@ -47,6 +53,15 @@ export function SettingsScreen(): React.JSX.Element {
   const [speakOnCorrectAnswer, setSpeakOnCorrectAnswer] = useState(
     () => getSettings().speakOnCorrectAnswer,
   );
+  const [displayName, setDisplayName] = useState(() => getStoredDisplayName() || 'Learner');
+  const [showNameModal, setShowNameModal] = useState(false);
+
+  const handleSaveDisplayName = async (newName: string) => {
+    setShowNameModal(false);
+    setDisplayName(newName);
+    await updateDisplayName(newName);
+    updateSettings({ hasPromptedNameOnLaunch: true });
+  };
 
   const handleSoundToggle = (value: boolean) => {
     trackEvent('settings_sound_toggled', { enabled: value });
@@ -234,10 +249,16 @@ export function SettingsScreen(): React.JSX.Element {
     isDanger: boolean = false,
   ) => {
     const Component = onPress ? TouchableOpacity : View;
+    const handlePress = onPress
+      ? () => {
+          soundService.playTapSound();
+          onPress();
+        }
+      : undefined;
 
     return (
       <View>
-        <Component style={styles.row} onPress={onPress} activeOpacity={onPress ? 0.7 : 1}>
+        <Component style={styles.row} onPress={handlePress} activeOpacity={onPress ? 0.7 : 1}>
           <View style={styles.rowLeft}>
             <View style={[styles.iconContainer, isDanger && styles.dangerIconContainer]}>
               <FontAwesome5 name={icon} size={14} color={isDanger ? '#EF4444' : colors.primary} />
@@ -277,6 +298,27 @@ export function SettingsScreen(): React.JSX.Element {
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
       >
+        {/* LEADERBOARD PROFILE */}
+        {isLeaderboardEnabled() &&
+          renderSection(
+            intl.formatMessage({ id: 'leaderboard.profileSection' }),
+            <>
+              {renderRow(
+                'user',
+                intl.formatMessage({ id: 'leaderboard.displayName' }),
+                <View style={styles.rowRightContent}>
+                  <Text style={styles.rowValue}>{displayName}</Text>
+                  <FontAwesome5 name="chevron-right" size={12} color={colors.textMutedInverted} />
+                </View>,
+                () => {
+                  soundService.playTapSound();
+                  setShowNameModal(true);
+                },
+                true,
+              )}
+            </>,
+          )}
+
         {/* GENERAL SECTION */}
         {renderSection(
           intl.formatMessage({ id: 'settingsScreen.generalSection' }),
@@ -449,6 +491,12 @@ export function SettingsScreen(): React.JSX.Element {
           </Text>
         </TouchableOpacity>
       </ScrollView>
+      <UserNameModal
+        visible={showNameModal}
+        initialValue={displayName}
+        onSave={handleSaveDisplayName}
+        onClose={() => setShowNameModal(false)}
+      />
     </ScreenBackground>
   );
 }

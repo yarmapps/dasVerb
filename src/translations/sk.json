@@ -546,5 +546,36 @@
     "daysRemaining": "Zostáva {count} dní",
     "dayRemaining": "Zostáva 1 deň",
     "unlocked": "Odomknuté"
+  },
+  "leaderboard": {
+    "title": "Rebríček",
+    "tabThisMonth": "Tento mesiac",
+    "tabYear": "Všetky mesiace",
+    "tabAllTime": "Celkovo",
+    "modalTitle": "Zadajte svoje meno pre rebríček",
+    "modalSubtitle": "Zvoľte si meno, ktoré sa zobrazí v rebríčku.",
+    "modalPlaceholder": "napr. Alex",
+    "modalError": "Zadajte prosím platné meno.",
+    "emptyTitle": "Začal nový mesiac!",
+    "emptySubtitle": "Buďte prvý, kto tento mesiac dokončí kvíz!",
+    "profileSection": "Profil a rebríček",
+    "displayName": "Zobrazované meno",
+    "highestScore": "Najvyššie skóre",
+    "totalParticipants": "Celkovo účastníkov: {count}"
+  },
+  "monthlyRecap": {
+    "title": "Prehľad za {month}",
+    "finishedHeadline": "Tento mesiac ste dokončili",
+    "championHeadline": "Skvelé odhodlanie! Skončili ste",
+    "monthlyParticipants": "z celkovo {count} účastníkov",
+    "championHallOfFame": "Vaše meno bude navždy zapísané v rebríčku das Verb!",
+    "pointsEarned": "Získané body",
+    "pointsEarnedValue": "+{score} bodov v mesiaci {month}",
+    "allTimeStanding": "Celkové umiestnenie",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "Začať nový mesiac"
+  },
+  "common": {
+    "save": "Uložiť"
   }
 }

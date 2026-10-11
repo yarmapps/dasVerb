@@ -546,5 +546,36 @@
     "daysRemaining": "Še {count} dni",
     "dayRemaining": "Še 1 dan",
     "unlocked": "Odklenjeno"
+  },
+  "leaderboard": {
+    "title": "Lestvica",
+    "tabThisMonth": "Ovaj mjesec",
+    "tabYear": "Svi mjeseci",
+    "tabAllTime": "Sveukupno",
+    "modalTitle": "Unesite svoje ime za ljestvicu",
+    "modalSubtitle": "Odaberite ime koje će se prikazivati na ljestvici.",
+    "modalPlaceholder": "npr. Alex",
+    "modalError": "Unesite valjano ime.",
+    "emptyTitle": "Započeo je novi mjesec!",
+    "emptySubtitle": "Budite prvi koji će završiti kviz ovog mjeseca!",
+    "profileSection": "Profil i ljestvica",
+    "displayName": "Prikazano ime",
+    "highestScore": "Najviši rezultat",
+    "totalParticipants": "Ukupno sudionika: {count}"
+  },
+  "monthlyRecap": {
+    "title": "Mesečni pregled",
+    "finishedHeadline": "Ovaj mjesec ste završili na",
+    "championHeadline": "Kakva predanost! Nalazite se na",
+    "monthlyParticipants": "od {count} sudionika",
+    "championHallOfFame": "Vaše će ime zauvijek ostati na das Verb ljestvici!",
+    "pointsEarned": "Osvojeni bodovi",
+    "pointsEarnedValue": "+{score} bodova u {month}",
+    "allTimeStanding": "Ukupni poredak",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "Započni novi mjesec"
+  },
+  "common": {
+    "save": "Spremi"
   }
 }

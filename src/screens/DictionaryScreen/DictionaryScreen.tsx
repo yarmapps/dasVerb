@@ -23,6 +23,7 @@ import { verbDataService } from '../../services/verbDataService';
 import { VerbCard } from '../../../docs/verb.types';
 import { ThemeColors } from '../../styles/themeColors';
 import { trackEvent } from '../../services/analyticsService';
+import { soundService } from '../../services/soundService';
 import { createStyles } from './DictionaryScreen.styles';
 
 interface VerbItemProps {
@@ -236,6 +237,7 @@ export function DictionaryScreen(): React.JSX.Element {
 
   const handleToggleExpand = useCallback(
     (id: string) => {
+      soundService.playTapSound();
       setExpandedVerbId(prevId => {
         const willExpand = prevId !== id;
         const targetVerb = verbs.find(v => v.id === id);
@@ -258,6 +260,7 @@ export function DictionaryScreen(): React.JSX.Element {
   );
 
   const handleClearSearch = () => {
+    soundService.playTapSound();
     trackEvent('dictionary_search_cleared', {});
     setSearchQuery('');
     Keyboard.dismiss();

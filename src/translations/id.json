@@ -546,5 +546,36 @@
     "daysRemaining": "Tersisa {count} hari",
     "dayRemaining": "Tersisa 1 hari",
     "unlocked": "Terbuka"
+  },
+  "leaderboard": {
+    "title": "Papan Peringkat",
+    "tabThisMonth": "Bulan Ini",
+    "tabYear": "Semua Bulan",
+    "tabAllTime": "Sepanjang Masa",
+    "modalTitle": "Masukkan Nama Anda",
+    "modalSubtitle": "Pilih nama tampilan untuk Papan Peringkat.",
+    "modalPlaceholder": "mis. Alex",
+    "modalError": "Harap masukkan nama yang valid.",
+    "emptyTitle": "Bulan Baru Telah Dimulai!",
+    "emptySubtitle": "Jadilah yang pertama menyelesaikan kuis bulan ini!",
+    "profileSection": "Profil & Papan Peringkat",
+    "displayName": "Nama Tampilan",
+    "highestScore": "Skor Tertinggi",
+    "totalParticipants": "Total Peserta: {count}"
+  },
+  "monthlyRecap": {
+    "title": "Ringkasan {month}",
+    "finishedHeadline": "Anda menyelesaikan bulan ini di posisi",
+    "championHeadline": "Dedikasi luar biasa! Anda berada di peringkat",
+    "monthlyParticipants": "dari {count} peserta",
+    "championHallOfFame": "Nama Anda akan abadi di Papan Peringkat das Verb!",
+    "pointsEarned": "Poin Diperoleh",
+    "pointsEarnedValue": "+{score} poin di {month}",
+    "allTimeStanding": "Peringkat Keseluruhan",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "Mulai Bulan Baru"
+  },
+  "common": {
+    "save": "Simpan"
   }
 }

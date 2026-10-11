@@ -47,7 +47,10 @@ export function QuizSettingsModal(props: QuizSettingsModalProps): React.JSX.Elem
                 </Text>
                 <TouchableOpacity
                   style={styles.closeButton}
-                  onPress={onClose}
+                  onPress={() => {
+                    soundService.playTapSound();
+                    onClose();
+                  }}
                   activeOpacity={0.7}
                   hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
                   testID="quiz-settings-close-btn"

@@ -546,5 +546,36 @@
     "daysRemaining": "Απομένουν {count} ημέρες",
     "dayRemaining": "Απομένει 1 ημέρα",
     "unlocked": "Ξεκλειδώθηκε"
+  },
+  "leaderboard": {
+    "title": "Πίνακας κατάταξης",
+    "tabThisMonth": "Αυτόν τον μήνα",
+    "tabYear": "Όλοι οι μήνες",
+    "tabAllTime": "Όλων των εποχών",
+    "modalTitle": "Εισαγάγετε το όνομά σας",
+    "modalSubtitle": "Επιλέξτε ένα όνομα για τον πίνακα κατάταξης.",
+    "modalPlaceholder": "π.χ. Alex",
+    "modalError": "Παρακαλούμε εισαγάγετε ένα έγκυρο όνομα.",
+    "emptyTitle": "Ένας νέος μήνας ξεκίνησε!",
+    "emptySubtitle": "Γίνετε ο πρώτος που θα ολοκληρώσει ένα κουίζ αυτόν τον μήνα!",
+    "profileSection": "Προφίλ & Κατάταξη",
+    "displayName": "Όνομα εμφάνισης",
+    "highestScore": "Υψηλότερη βαθμολογία",
+    "totalParticipants": "Σύνολο συμμετεχόντων: {count}"
+  },
+  "monthlyRecap": {
+    "title": "Ανασκόπηση {month}",
+    "finishedHeadline": "Τερματίσατε αυτόν τον μήνα στη θέση",
+    "championHeadline": "Τι αφοσίωση! Βρίσκεστε στη θέση",
+    "monthlyParticipants": "από {count} συμμετέχοντες",
+    "championHallOfFame": "Το όνομά σας θα μείνει για πάντα στον πίνακα κατάταξης das Verb!",
+    "pointsEarned": "Κερδισμένοι πόντοι",
+    "pointsEarnedValue": "+{score} πόντοι τον {month}",
+    "allTimeStanding": "Συνολική κατάταξη",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "Έναρξη νέου μήνα"
+  },
+  "common": {
+    "save": "Αποθήκευση"
   }
 }

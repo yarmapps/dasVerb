@@ -495,6 +495,10 @@ export interface AnalyticsEventMap {
   daily_streak_freeze_button_clicked: DailyStreakFreezeButtonClickedParams;
   daily_streak_freeze_success: DailyStreakFreezeSuccessParams;
   daily_streak_month_changed: DailyStreakMonthChangedParams;
+
+  // Leaderboard
+  leaderboard_icon_clicked: Record<string, never>;
+  leaderboard_screen_shown: Record<string, never>;
 }
 
 export type AnalyticsEventName = keyof AnalyticsEventMap;

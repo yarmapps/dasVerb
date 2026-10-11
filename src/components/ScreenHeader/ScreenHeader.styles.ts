@@ -46,22 +46,7 @@ export const createStyles = (colors: ThemeColors) =>
       gap: Spacing.sm,
       zIndex: 2,
     },
-    backButton: {
-      width: 40,
-      height: 40,
-      borderRadius: 20,
-      backgroundColor: colors.headerButtonBackground,
-      justifyContent: 'center',
-      alignItems: 'center',
-    },
-    headerButton: {
-      width: 40,
-      height: 40,
-      borderRadius: 20,
-      backgroundColor: colors.headerButtonBackground,
-      justifyContent: 'center',
-      alignItems: 'center',
-    },
+
     title: {
       fontSize: Typography.fontSize.lg,
       fontWeight: Typography.fontWeight.bold,

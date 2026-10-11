@@ -588,5 +588,36 @@
     "daysRemaining": "{count} dias restantes",
     "dayRemaining": "1 dia restante",
     "unlocked": "Desbloqueado"
+  },
+  "leaderboard": {
+    "title": "Classificação",
+    "tabThisMonth": "Este mês",
+    "tabYear": "Todos os meses",
+    "tabAllTime": "Geral",
+    "modalTitle": "Insira seu nome na classificação",
+    "modalSubtitle": "Escolha um nome de exibição para a classificação. Você pode alterá-lo mais tarde nas Configurações.",
+    "modalPlaceholder": "ex. Alex",
+    "modalError": "Por favor, insira um nome válido.",
+    "emptyTitle": "Um novo mês começou!",
+    "emptySubtitle": "Seja o primeiro a concluir um questionário este mês!",
+    "profileSection": "Perfil e Classificação",
+    "displayName": "Nome de exibição",
+    "highestScore": "Maior pontuação",
+    "totalParticipants": "Total de participantes: {count}"
+  },
+  "monthlyRecap": {
+    "title": "Resumo de {month}",
+    "finishedHeadline": "Você concluiu este mês",
+    "championHeadline": "Que dedicação! Você é",
+    "monthlyParticipants": "de {count} participantes",
+    "championHallOfFame": "Seu nome estará para sempre no quadro de líderes do das Verb!",
+    "pointsEarned": "Pontos ganhos",
+    "pointsEarnedValue": "+{score} pts ganhos em {month}",
+    "allTimeStanding": "Classificação geral",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "Começar novo mês"
+  },
+  "common": {
+    "save": "Salvar"
   }
 }

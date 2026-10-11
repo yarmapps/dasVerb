@@ -588,5 +588,36 @@
     "daysRemaining": "{count} gün kaldı",
     "dayRemaining": "1 gün kaldı",
     "unlocked": "Açıldı"
+  },
+  "leaderboard": {
+    "title": "Liderlik Tablosu",
+    "tabThisMonth": "Bu Ay",
+    "tabYear": "Tüm Aylar",
+    "tabAllTime": "Tüm Zamanlar",
+    "modalTitle": "Liderlik Tablosu Adınızı Girin",
+    "modalSubtitle": "Liderlik tablosunda görünecek bir ad seçin. Bunu daha sonra Ayarlar'dan değiştirebilirsiniz.",
+    "modalPlaceholder": "ör. Alex",
+    "modalError": "Lütfen geçerli bir ad girin.",
+    "emptyTitle": "Yeni Bir Ay Başladı!",
+    "emptySubtitle": "Bu ay bir testi tamamlayan ilk kişi siz olun!",
+    "profileSection": "Profil ve Liderlik Tablosu",
+    "displayName": "Görünen Ad",
+    "highestScore": "En Yüksek Puan",
+    "totalParticipants": "Toplam Katılımcı: {count}"
+  },
+  "monthlyRecap": {
+    "title": "{month} Özeti",
+    "finishedHeadline": "Bu ayı tamamladın",
+    "championHeadline": "Harika bir azim! Sen",
+    "monthlyParticipants": "{count} katılımcı arasından",
+    "championHallOfFame": "Adın das Verb lider tablosunda sonsuza kadar yer alacak!",
+    "pointsEarned": "Kazanılan Puan",
+    "pointsEarnedValue": "{month} ayında +{score} puan kazanıldı",
+    "allTimeStanding": "Genel Sıralama",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "Yeni Aya Başla"
+  },
+  "common": {
+    "save": "Kaydet"
   }
 }

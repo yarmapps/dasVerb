@@ -15,6 +15,7 @@ import { RootStackParamList } from '../../types/navigation';
 import { updateLanguageSettings } from '../../services/settingsService';
 import { shouldShowFirstOpenPaywall } from '../../services/usageService';
 import { trackEvent, setUserProperty } from '../../services/analyticsService';
+import { soundService } from '../../services/soundService';
 import { createStyles } from './LanguageSelectorScreen.styles';
 
 export function LanguageSelectorScreen(): React.JSX.Element {
@@ -48,6 +49,7 @@ export function LanguageSelectorScreen(): React.JSX.Element {
     intl.formatMessage({ id: 'languageSelectorScreen.continue' });
 
   const handleLanguageSelect = (languageCode: SupportedLocales) => {
+    soundService.playTapSound();
     try {
       Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     } catch {
@@ -58,6 +60,7 @@ export function LanguageSelectorScreen(): React.JSX.Element {
 
   const handleContinue = () => {
     if (!selectedLanguage || isSaving) return;
+    soundService.playTapSound();
 
     try {
       Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);

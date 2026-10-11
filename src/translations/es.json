@@ -588,5 +588,36 @@
     "daysRemaining": "{count} días restantes",
     "dayRemaining": "1 día restante",
     "unlocked": "Desbloqueado"
+  },
+  "leaderboard": {
+    "title": "Clasificación",
+    "tabThisMonth": "Este mes",
+    "tabYear": "Todos los meses",
+    "tabAllTime": "Histórico",
+    "modalTitle": "Introduce tu nombre para la clasificación",
+    "modalSubtitle": "Elige un nombre visible para la clasificación. Puedes cambiarlo más tarde en Ajustes.",
+    "modalPlaceholder": "ej. Álex",
+    "modalError": "Por favor, introduce un nombre válido.",
+    "emptyTitle": "¡Ha comenzado un nuevo mes!",
+    "emptySubtitle": "¡Sé el primero en completar un test este mes!",
+    "profileSection": "Perfil y Clasificación",
+    "displayName": "Nombre visible",
+    "highestScore": "Puntuación más alta",
+    "totalParticipants": "Participantes totales: {count}"
+  },
+  "monthlyRecap": {
+    "title": "Resumen de {month}",
+    "finishedHeadline": "Terminaste este mes",
+    "championHeadline": "¡Qué dedicación! Eres el",
+    "monthlyParticipants": "de {count} participantes",
+    "championHallOfFame": "¡Tu nombre quedará para siempre en la tabla de líderes de das Verb!",
+    "pointsEarned": "Puntos obtenidos",
+    "pointsEarnedValue": "+{score} pts obtenidos en {month}",
+    "allTimeStanding": "Clasificación general",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "Comenzar nuevo mes"
+  },
+  "common": {
+    "save": "Guardar"
   }
 }

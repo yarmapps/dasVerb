@@ -546,5 +546,36 @@
     "daysRemaining": "{count} nap van hátra",
     "dayRemaining": "1 nap van hátra",
     "unlocked": "Feloldva"
+  },
+  "leaderboard": {
+    "title": "Ranglista",
+    "tabThisMonth": "Ez a hónap",
+    "tabYear": "Összes hónap",
+    "tabAllTime": "Összesített",
+    "modalTitle": "Adja meg a nevét a ranglistához",
+    "modalSubtitle": "Válasszon egy megjelenített nevet.",
+    "modalPlaceholder": "pl. Alex",
+    "modalError": "Kérjük adjon meg érvényes nevet.",
+    "emptyTitle": "Új hónap kezdődött!",
+    "emptySubtitle": "Legyen Ön az első, aki kitölt egy kvízt ebben a hónapban!",
+    "profileSection": "Profil és ranglista",
+    "displayName": "Megjelenített név",
+    "highestScore": "Legmagasabb pontszám",
+    "totalParticipants": "Összes résztvevő: {count}"
+  },
+  "monthlyRecap": {
+    "title": "{month} összefoglaló",
+    "finishedHeadline": "Ön ebben a hónapban a következő helyen végzett:",
+    "championHeadline": "Micsoda elhivatottság! Ön",
+    "monthlyParticipants": "a(z) {count} résztvevőből",
+    "championHallOfFame": "A neve örökre ott lesz a das Verb ranglistáján!",
+    "pointsEarned": "Szerzett pontok",
+    "pointsEarnedValue": "+{score} pont {month} hónapban",
+    "allTimeStanding": "Összesített helyezés",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "Új hónap kezdése"
+  },
+  "common": {
+    "save": "Mentés"
   }
 }

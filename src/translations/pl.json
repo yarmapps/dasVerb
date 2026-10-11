@@ -588,5 +588,36 @@
     "daysRemaining": "Pozostało {count} dni",
     "dayRemaining": "Pozostał 1 dzień",
     "unlocked": "Odblokowano"
+  },
+  "leaderboard": {
+    "title": "Ranking",
+    "tabThisMonth": "W tym miesiącu",
+    "tabYear": "Wszystkie miesiące",
+    "tabAllTime": "Wszystkie",
+    "modalTitle": "Wprowadź swoją nazwę do rankingu",
+    "modalSubtitle": "Wybierz nazwę wyświetlaną w rankingu. Możesz ją później zmienić w Ustawieniach.",
+    "modalPlaceholder": "np. Alex",
+    "modalError": "Wprowadź poprawną nazwę.",
+    "emptyTitle": "Rozpoczął się nowy miesiąc!",
+    "emptySubtitle": "Bądź pierwszy, który ukończy quiz w tym miesiącu!",
+    "profileSection": "Profil i Ranking",
+    "displayName": "Wyświetlana nazwa",
+    "highestScore": "Najwyższy wynik",
+    "totalParticipants": "Łącznie uczestników: {count}"
+  },
+  "monthlyRecap": {
+    "title": "Podsumowanie: {month}",
+    "finishedHeadline": "Ukończyłeś ten miesiąc",
+    "championHeadline": "Cóż za zaangażowanie! Jesteś",
+    "monthlyParticipants": "z {count} uczestników",
+    "championHallOfFame": "Twoje imię na zawsze pozostanie w tabeli liderów das Verb!",
+    "pointsEarned": "Zdobyte punkty",
+    "pointsEarnedValue": "+{score} pkt zdobytych w {month}",
+    "allTimeStanding": "Klasyfikacja generalna",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "Rozpocznij nowy miesiąc"
+  },
+  "common": {
+    "save": "Zapisz"
   }
 }

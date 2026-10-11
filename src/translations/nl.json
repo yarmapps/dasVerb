@@ -546,5 +546,36 @@
     "daysRemaining": "Nog {count} dagen",
     "dayRemaining": "Nog 1 dag",
     "unlocked": "Ontgrendeld"
+  },
+  "leaderboard": {
+    "title": "Klassement",
+    "tabThisMonth": "Deze Maand",
+    "tabYear": "Alle Maanden",
+    "tabAllTime": "Altijd",
+    "modalTitle": "Voer uw naam in voor het klassement",
+    "modalSubtitle": "Kies een weergavenaam voor het klassement.",
+    "modalPlaceholder": "bijv. Alex",
+    "modalError": "Voer een geldige naam in.",
+    "emptyTitle": "Een nieuwe maand is begonnen!",
+    "emptySubtitle": "Wees de eerste die deze maand een quiz afrondt!",
+    "profileSection": "Profiel & Klassement",
+    "displayName": "Weergavenaam",
+    "highestScore": "Hoogste Score",
+    "totalParticipants": "Totaal Deelnemers: {count}"
+  },
+  "monthlyRecap": {
+    "title": "Overzicht {month}",
+    "finishedHeadline": "U eindigde deze maand",
+    "championHeadline": "Geweldige inzet! U bent",
+    "monthlyParticipants": "van de {count} deelnemers",
+    "championHallOfFame": "Uw naam staat voor altijd op het das Verb klassement!",
+    "pointsEarned": "Verdiende Punten",
+    "pointsEarnedValue": "+{score} ptn verdiend in {month}",
+    "allTimeStanding": "Algemene Positie",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "Start Nieuwe Maand"
+  },
+  "common": {
+    "save": "Opslaan"
   }
 }

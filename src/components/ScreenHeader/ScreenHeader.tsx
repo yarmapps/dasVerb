@@ -3,8 +3,11 @@ import { View, Text, TouchableOpacity, ViewStyle, TextStyle } from 'react-native
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { FontAwesome5 } from '@expo/vector-icons';
 import { useAppTheme } from '../../context/ThemeContext';
+import { HeaderIconButton } from '../HeaderIconButton/HeaderIconButton';
 import { Spacing } from '../../styles/spacing';
 import { StreakBadge } from '../StreakBadge/StreakBadge';
+import { LeaderboardBadge } from '../LeaderboardBadge/LeaderboardBadge';
+import { isLeaderboardEnabled } from '../../services/leaderboardService';
 import { createStyles } from './ScreenHeader.styles';
 
 export interface ScreenHeaderProps {
@@ -17,6 +20,8 @@ export interface ScreenHeaderProps {
   titleStyle?: TextStyle;
   showStreak?: boolean;
   animateStreak?: boolean;
+  showLeaderboard?: boolean;
+  leaderboardTooltipPoints?: number;
 }
 
 export function ScreenHeader({
@@ -29,6 +34,8 @@ export function ScreenHeader({
   titleStyle,
   showStreak = true,
   animateStreak = false,
+  showLeaderboard = false,
+  leaderboardTooltipPoints,
 }: ScreenHeaderProps): React.JSX.Element {
   const insets = useSafeAreaInsets();
   const { colors } = useAppTheme();
@@ -40,14 +47,13 @@ export function ScreenHeader({
         {(showBackButton || leftContent) && (
           <View style={styles.leftContainer}>
             {showBackButton && (
-              <TouchableOpacity
-                style={styles.backButton}
+              <HeaderIconButton
+                icon="arrow-left"
+                iconSize={18}
+                iconColor={colors.textPrimary}
                 onPress={onBackPress}
-                hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
                 testID="header-back-button"
-              >
-                <FontAwesome5 name="arrow-left" size={18} color={colors.textPrimary} />
-              </TouchableOpacity>
+              />
             )}
             {!showBackButton && leftContent}
           </View>
@@ -63,10 +69,13 @@ export function ScreenHeader({
           )}
         </View>
 
-        {(showStreak || rightContent) && (
+        {(showStreak || rightContent || (showLeaderboard && isLeaderboardEnabled())) && (
           <View style={styles.rightContainer}>
-            {showStreak && <StreakBadge animate={animateStreak} />}
+            {showLeaderboard && isLeaderboardEnabled() && (
+              <LeaderboardBadge tooltipPoints={leaderboardTooltipPoints} />
+            )}
             {rightContent}
+            {showStreak && <StreakBadge animate={animateStreak} />}
           </View>
         )}
       </View>

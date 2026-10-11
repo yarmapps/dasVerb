@@ -94,4 +94,5 @@ export type RootStackParamList = {
     levelNumber?: number;
   };
   QuizResults: QuizResultsParams;
+  Leaderboard: undefined;
 };

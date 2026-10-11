@@ -26,6 +26,7 @@ import {
   FreeTrialInfo,
 } from '../../services/revenueCatService';
 import { trackEvent } from '../../services/analyticsService';
+import { soundService } from '../../services/soundService';
 import { createStyles, SELECTED_GRADIENT_COLORS } from './PremiumSubscribeSheet.styles';
 
 export interface PremiumSubscribeSheetProps {
@@ -312,6 +313,7 @@ export function PremiumSubscribeSheet({
   );
 
   const handlePlanSelect = (plan: Plan) => {
+    soundService.playTapSound();
     setSelectedPlan(plan.id);
     const trialInfo = getTrialInfo(plan);
     trackEvent('paywall_plan_selected', {
@@ -333,6 +335,7 @@ export function PremiumSubscribeSheet({
 
   /* ── Handle purchase ─────────────────────────────────── */
   const handlePurchase = async () => {
+    soundService.playTapSound();
     const selectedPackage = packages?.[selectedPlan]?.pkg;
     if (!selectedPackage) {
       Alert.alert(
@@ -389,6 +392,7 @@ export function PremiumSubscribeSheet({
 
   /* ── Handle restore ──────────────────────────────────── */
   const handleRestore = async () => {
+    soundService.playTapSound();
     setIsPurchasing(true);
     trackEvent('paywall_restore_clicked', { source });
     try {
@@ -716,9 +720,10 @@ export function PremiumSubscribeSheet({
                 <View style={styles.footerRow}>
                   <TouchableOpacity
                     activeOpacity={0.7}
-                    onPress={() =>
-                      Linking.openURL('https://das-verb.yapps.studio/legal/terms-of-service.html')
-                    }
+                    onPress={() => {
+                      soundService.playTapSound();
+                      Linking.openURL('https://das-verb.yapps.studio/legal/terms-of-service.html');
+                    }}
                   >
                     <Text style={styles.footerLinkText}>
                       {intl.formatMessage({ id: 'premiumSheets.termsOfService' })}
@@ -727,9 +732,10 @@ export function PremiumSubscribeSheet({
                   <Text style={styles.footerDot}>·</Text>
                   <TouchableOpacity
                     activeOpacity={0.7}
-                    onPress={() =>
-                      Linking.openURL('https://das-verb.yapps.studio/legal/privacy-policy.html')
-                    }
+                    onPress={() => {
+                      soundService.playTapSound();
+                      Linking.openURL('https://das-verb.yapps.studio/legal/privacy-policy.html');
+                    }}
                   >
                     <Text style={styles.footerLinkText}>
                       {intl.formatMessage({ id: 'premiumSheets.privacyPolicy' })}

@@ -546,5 +546,36 @@
     "daysRemaining": "Còn {count} ngày",
     "dayRemaining": "Còn 1 ngày",
     "unlocked": "Đã mở khóa"
+  },
+  "leaderboard": {
+    "title": "Bảng xếp hạng",
+    "tabThisMonth": "Tháng này",
+    "tabYear": "Tất cả các tháng",
+    "tabAllTime": "Toàn thời gian",
+    "modalTitle": "Nhập tên hiển thị của bạn",
+    "modalSubtitle": "Chọn tên sẽ xuất hiện trên Bảng xếp hạng.",
+    "modalPlaceholder": "VD: Alex",
+    "modalError": "Vui lòng nhập tên hợp lệ.",
+    "emptyTitle": "Một tháng mới đã bắt đầu!",
+    "emptySubtitle": "Hãy là người đầu tiên hoàn thành bài tập trong tháng này!",
+    "profileSection": "Hồ sơ & Bảng xếp hạng",
+    "displayName": "Tên hiển thị",
+    "highestScore": "Điểm cao nhất",
+    "totalParticipants": "Tổng số người tham gia: {count}"
+  },
+  "monthlyRecap": {
+    "title": "Tổng kết {month}",
+    "finishedHeadline": "Bạn đã kết thúc tháng này ở vị trí",
+    "championHeadline": "Thật tuyệt vời! Bạn xếp hạng",
+    "monthlyParticipants": "trong tổng số {count} người học",
+    "championHallOfFame": "Tên bạn sẽ được vinh danh mãi mãi trên Bảng xếp hạng das Verb!",
+    "pointsEarned": "Điểm kiếm được",
+    "pointsEarnedValue": "+{score} điểm trong {month}",
+    "allTimeStanding": "Xếp hạng toàn thời gian",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "Bắt đầu tháng mới"
+  },
+  "common": {
+    "save": "Lưu"
   }
 }

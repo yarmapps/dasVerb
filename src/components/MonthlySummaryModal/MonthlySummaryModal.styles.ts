@@ -1,0 +1,165 @@
+import { StyleSheet } from 'react-native';
+import { ThemeColors } from '../../styles/themeColors';
+import { Spacing } from '../../styles/spacing';
+
+export const createStyles = (colors: ThemeColors, isDark: boolean) =>
+  StyleSheet.create({
+    safeArea: {
+      flex: 1,
+    },
+    topBar: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      paddingHorizontal: Spacing.lg,
+      paddingTop: Spacing.xs,
+      paddingBottom: Spacing.xs,
+      minHeight: 44,
+      zIndex: 10,
+    },
+    headerSpacer: {
+      width: 36,
+    },
+    topBarTitle: {
+      color: colors.textPrimary,
+      fontSize: 22,
+      fontWeight: '800',
+      textAlign: 'center',
+      letterSpacing: 0.3,
+    },
+    monthHighlight: {
+      color: colors.primary,
+    },
+    closeButton: {
+      width: 36,
+      height: 36,
+      borderRadius: 18,
+      backgroundColor: colors.headerButtonBackground,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+    scrollContent: {
+      flexGrow: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      paddingHorizontal: Spacing.xl,
+      paddingTop: Spacing.lg,
+      paddingBottom: Spacing.lg,
+    },
+    aboveCircleText: {
+      fontSize: 17,
+      fontWeight: '600',
+      color: colors.textSecondary,
+      textAlign: 'center',
+      marginBottom: Spacing.xxl,
+      letterSpacing: 0.2,
+      paddingHorizontal: Spacing.sm,
+      lineHeight: 23,
+    },
+    heroSection: {
+      alignItems: 'center',
+      justifyContent: 'center',
+      marginBottom: Spacing.xs,
+    },
+    heroRankText: {
+      fontSize: 38,
+      fontWeight: '900',
+      color: isDark ? '#E2E8F0' : '#334155',
+      textAlign: 'center',
+      letterSpacing: -0.5,
+      paddingHorizontal: 6,
+    },
+    heroRankTextThreeDigits: {
+      fontSize: 30,
+    },
+    heroRankTextFourDigits: {
+      fontSize: 23,
+      letterSpacing: -0.6,
+    },
+    heroRankChampion: {
+      color: '#EAB308',
+    },
+    belowCircleText: {
+      fontSize: 15,
+      fontWeight: '600',
+      color: colors.textMuted,
+      textAlign: 'center',
+      marginTop: Spacing.lg,
+    },
+    championSubline: {
+      fontSize: 14,
+      fontWeight: '600',
+      color: colors.textSecondary,
+      textAlign: 'center',
+      marginTop: Spacing.sm,
+      paddingHorizontal: Spacing.md,
+      lineHeight: 20,
+    },
+    cardsList: {
+      width: '100%',
+      maxWidth: 340,
+      gap: Spacing.md,
+      marginTop: Spacing.xxl,
+      marginBottom: Spacing.sm,
+    },
+    statRowCard: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      backgroundColor: colors.blockBackground,
+      borderRadius: 16,
+      paddingVertical: Spacing.md,
+      paddingHorizontal: Spacing.lg,
+      borderWidth: 1,
+      borderColor: colors.blockBorder,
+    },
+    statLeftGroup: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 10,
+    },
+    statIconCircle: {
+      width: 32,
+      height: 32,
+      borderRadius: 16,
+      backgroundColor: isDark ? 'rgba(255, 255, 255, 0.08)' : 'rgba(0, 0, 0, 0.05)',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+    statLabel: {
+      fontSize: 15,
+      fontWeight: '600',
+      color: colors.textPrimary,
+    },
+    statValue: {
+      fontSize: 15,
+      fontWeight: '700',
+      color: colors.textPrimary,
+    },
+    statValuePoints: {
+      fontSize: 17,
+      fontWeight: '800',
+      color: colors.primary,
+    },
+    footer: {
+      width: '100%',
+      maxWidth: 380,
+      alignSelf: 'center',
+      paddingHorizontal: Spacing.xl,
+      paddingTop: Spacing.sm,
+      paddingBottom: Spacing.md,
+    },
+    continueButton: {
+      height: 54,
+      backgroundColor: colors.primary,
+      borderRadius: 16,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+    continueButtonText: {
+      fontSize: 16,
+      fontWeight: '700',
+      color: '#FFFFFF',
+      letterSpacing: 0.3,
+    },
+  });

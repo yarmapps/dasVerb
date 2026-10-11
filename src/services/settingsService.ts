@@ -14,6 +14,7 @@ export interface AppSettings {
   ttsVoiceGender: 'female' | 'male';
   completedQuizCount: number;
   lastReviewPromptDate: string | null;
+  hasPromptedNameOnLaunch?: boolean;
 }
 
 const DEFAULT_SETTINGS: AppSettings = {
@@ -24,6 +25,7 @@ const DEFAULT_SETTINGS: AppSettings = {
   ttsVoiceGender: 'male',
   completedQuizCount: 0,
   lastReviewPromptDate: null,
+  hasPromptedNameOnLaunch: false,
 };
 
 export function getSettings(): AppSettings {

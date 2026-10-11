@@ -42,6 +42,7 @@ export interface ThemeColors {
     green: string;
     yellow: string;
   };
+  error: string;
   white: string;
   textDisabled: string;
 }
@@ -79,6 +80,7 @@ export const lightColors: ThemeColors = {
     green: '#22C55E',
     yellow: '#FACC15',
   },
+  error: '#EF4444',
   white: '#FFFFFF',
   textDisabled: 'rgba(60, 60, 67, 0.3)',
 };
@@ -116,6 +118,7 @@ export const darkColors: ThemeColors = {
     green: '#22C55E',
     yellow: '#FACC15',
   },
+  error: '#F87171',
   white: '#FFFFFF',
   textDisabled: 'rgba(255, 255, 255, 0.3)',
 };

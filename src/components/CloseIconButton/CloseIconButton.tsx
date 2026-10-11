@@ -2,6 +2,7 @@ import React, { useMemo } from 'react';
 import { TouchableOpacity, StyleProp, ViewStyle } from 'react-native';
 import { FontAwesome5 } from '@expo/vector-icons';
 import { useAppTheme } from '../../context/ThemeContext';
+import { soundService } from '../../services/soundService';
 import { createStyles } from './CloseIconButton.styles';
 
 export interface CloseIconButtonProps {
@@ -27,11 +28,16 @@ export function CloseIconButton({
   const effectiveIconColor = iconColor || colors.textDisabled;
   const effectiveBackgroundColor = backgroundColor || colors.headerButtonBackground;
 
+  const handlePress = () => {
+    soundService.playTapSound();
+    onPress();
+  };
+
   return (
     <TouchableOpacity
       style={[styles.closeButton, { backgroundColor: effectiveBackgroundColor }, style]}
       activeOpacity={0.7}
-      onPress={onPress}
+      onPress={handlePress}
       hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
       testID={testID}
     >

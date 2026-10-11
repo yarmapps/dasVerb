@@ -39,6 +39,18 @@ import {
 } from '../../services/featuresService';
 import { triggerDebugAppUpdate } from '../../hooks/useAppUpdate';
 import { forceRequestReview } from '../../services/reviewService';
+import {
+  isLeaderboardEnabled,
+  isLeaderboardHistoryTabEnabled,
+  setLeaderboardDebugOverride,
+  setLeaderboardHistoryTabDebugOverride,
+  resetMonthlyRecapDebug,
+  resetStoredDisplayName,
+  getPreviousYearMonthString,
+  getPreviousMonthDate,
+  MonthlyRecapData,
+} from '../../services/leaderboardService';
+import { MonthlySummaryModal } from '../../components/MonthlySummaryModal/MonthlySummaryModal';
 import { createStyles } from './DebugScreen.styles';
 
 type DebugScreenNavigationProp = NativeStackNavigationProp<RootStackParamList>;
@@ -50,6 +62,7 @@ export function DebugScreen(): React.JSX.Element {
   const styles = useMemo(() => createStyles(colors), [colors]);
 
   const [refreshKey, setRefreshKey] = useState(0);
+  const [debugRecapData, setDebugRecapData] = useState<MonthlyRecapData | null>(null);
 
   const refreshState = useCallback(() => {
     setRefreshKey(prev => prev + 1);
@@ -413,6 +426,333 @@ export function DebugScreen(): React.JSX.Element {
           </View>
         </View>
 
+        {/* LEADERBOARD FEATURE SECTION */}
+        <Text style={styles.sectionTitle}>LEADERBOARD FEATURE (APP-CONFIG)</Text>
+        <View style={styles.sectionContainer}>
+          <View style={styles.featureHeader}>
+            <Text style={styles.featureTitle}>Leaderboard System & Trophy Icon</Text>
+            <View
+              style={[
+                styles.featureTag,
+                isLeaderboardEnabled() ? styles.featureTagActive : styles.featureTagInactive,
+              ]}
+            >
+              <Text
+                style={[
+                  styles.featureTagText,
+                  isLeaderboardEnabled()
+                    ? styles.featureTagActiveText
+                    : styles.featureTagInactiveText,
+                ]}
+              >
+                {isLeaderboardEnabled() ? 'ON' : 'OFF'}
+              </Text>
+            </View>
+          </View>
+
+          <View style={styles.toggleGrid}>
+            <TouchableOpacity
+              style={[styles.toggleBtn, isLeaderboardEnabled() && styles.toggleBtnActiveOn]}
+              onPress={() => {
+                setLeaderboardDebugOverride(true);
+                refreshState();
+              }}
+              activeOpacity={0.7}
+              testID="debug-leaderboard-on"
+            >
+              <Text
+                style={[styles.toggleBtnText, isLeaderboardEnabled() && styles.toggleBtnTextActive]}
+              >
+                {isLeaderboardEnabled() ? '✓ ' : ''}Leaderboard ON
+              </Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity
+              style={[styles.toggleBtn, !isLeaderboardEnabled() && styles.toggleBtnActiveOff]}
+              onPress={() => {
+                setLeaderboardDebugOverride(false);
+                refreshState();
+              }}
+              activeOpacity={0.7}
+              testID="debug-leaderboard-off"
+            >
+              <Text
+                style={[
+                  styles.toggleBtnText,
+                  !isLeaderboardEnabled() && styles.toggleBtnTextActive,
+                ]}
+              >
+                {!isLeaderboardEnabled() ? '✓ ' : ''}Leaderboard OFF
+              </Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity
+              style={[styles.toggleBtn, styles.toggleBtnActiveDefault]}
+              onPress={() => {
+                setLeaderboardDebugOverride(null);
+                refreshState();
+              }}
+              activeOpacity={0.7}
+              testID="debug-leaderboard-default"
+            >
+              <Text style={[styles.toggleBtnText, styles.toggleBtnTextActive]}>Default</Text>
+            </TouchableOpacity>
+          </View>
+
+          <View style={styles.divider} />
+
+          <TouchableOpacity
+            style={[styles.actionButton, styles.actionButtonWarning]}
+            onPress={() => {
+              resetStoredDisplayName();
+              refreshState();
+              Alert.alert('Done', 'Leaderboard display name reset.');
+            }}
+            activeOpacity={0.7}
+            testID="debug-reset-leaderboard-name"
+          >
+            <FontAwesome5 name="user-slash" size={14} color="#ffffff" style={styles.buttonIcon} />
+            <Text style={styles.actionButtonTextLight}>Reset Leaderboard Name</Text>
+          </TouchableOpacity>
+        </View>
+
+        {/* LEADERBOARD HISTORY TAB SECTION */}
+        <Text style={styles.sectionTitle}>LEADERBOARD HISTORY TAB</Text>
+        <View style={styles.sectionContainer}>
+          <View style={styles.featureHeader}>
+            <Text style={styles.featureTitle}>{'Middle Tab ("Все месяцы" / Past Champions)'}</Text>
+            <View
+              style={[
+                styles.featureTag,
+                isLeaderboardHistoryTabEnabled()
+                  ? styles.featureTagActive
+                  : styles.featureTagInactive,
+              ]}
+            >
+              <Text
+                style={[
+                  styles.featureTagText,
+                  isLeaderboardHistoryTabEnabled()
+                    ? styles.featureTagActiveText
+                    : styles.featureTagInactiveText,
+                ]}
+              >
+                {isLeaderboardHistoryTabEnabled() ? 'ON' : 'OFF'}
+              </Text>
+            </View>
+          </View>
+
+          <View style={styles.toggleGrid}>
+            <TouchableOpacity
+              style={[
+                styles.toggleBtn,
+                isLeaderboardHistoryTabEnabled() && styles.toggleBtnActiveOn,
+              ]}
+              onPress={() => {
+                setLeaderboardHistoryTabDebugOverride(true);
+                refreshState();
+              }}
+              activeOpacity={0.7}
+              testID="debug-leaderboard-history-on"
+            >
+              <Text
+                style={[
+                  styles.toggleBtnText,
+                  isLeaderboardHistoryTabEnabled() && styles.toggleBtnTextActive,
+                ]}
+              >
+                {isLeaderboardHistoryTabEnabled() ? '✓ ' : ''}History ON
+              </Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity
+              style={[
+                styles.toggleBtn,
+                !isLeaderboardHistoryTabEnabled() && styles.toggleBtnActiveOff,
+              ]}
+              onPress={() => {
+                setLeaderboardHistoryTabDebugOverride(false);
+                refreshState();
+              }}
+              activeOpacity={0.7}
+              testID="debug-leaderboard-history-off"
+            >
+              <Text
+                style={[
+                  styles.toggleBtnText,
+                  !isLeaderboardHistoryTabEnabled() && styles.toggleBtnTextActive,
+                ]}
+              >
+                {!isLeaderboardHistoryTabEnabled() ? '✓ ' : ''}History OFF
+              </Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity
+              style={[styles.toggleBtn, styles.toggleBtnActiveDefault]}
+              onPress={() => {
+                setLeaderboardHistoryTabDebugOverride(null);
+                refreshState();
+              }}
+              activeOpacity={0.7}
+              testID="debug-leaderboard-history-default"
+            >
+              <Text style={[styles.toggleBtnText, styles.toggleBtnTextActive]}>Default</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+
+        {/* MONTHLY LEADERBOARD RECAP SECTION */}
+        <Text style={styles.sectionTitle}>MONTHLY LEADERBOARD RECAP</Text>
+        <View style={styles.sectionContainer}>
+          <TouchableOpacity
+            style={[styles.actionButton, styles.actionButtonWarning]}
+            onPress={() => {
+              resetMonthlyRecapDebug();
+              Alert.alert('Done', 'Monthly recap seen state has been reset.');
+            }}
+            activeOpacity={0.7}
+            testID="debug-reset-monthly-recap"
+          >
+            <FontAwesome5 name="redo" size={14} color="#ffffff" style={styles.buttonIcon} />
+            <Text style={styles.actionButtonTextLight}>Reset Monthly Recap Seen State</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[styles.actionButton, styles.actionButtonPrimary]}
+            onPress={() => {
+              setDebugRecapData({
+                yearMonth: getPreviousYearMonthString(),
+                monthDate: getPreviousMonthDate(),
+                rank: 1,
+                score: 1250,
+                totalParticipants: 248,
+                allTimeRank: 3,
+                allTimeTotalParticipants: 1420,
+                isChampion: true,
+                isInTop3: true,
+                isInTop10: true,
+              });
+            }}
+            activeOpacity={0.7}
+            testID="debug-preview-recap-1"
+          >
+            <FontAwesome5 name="trophy" size={14} color="#ffffff" style={styles.buttonIcon} />
+            <Text style={styles.actionButtonTextLight}>Preview: #1 Champion (1,250 pts)</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[styles.actionButton, styles.actionButtonSecondary]}
+            onPress={() => {
+              setDebugRecapData({
+                yearMonth: getPreviousYearMonthString(),
+                monthDate: getPreviousMonthDate(),
+                rank: 2,
+                score: 890,
+                totalParticipants: 248,
+                allTimeRank: 8,
+                allTimeTotalParticipants: 1420,
+                isChampion: false,
+                isInTop3: true,
+                isInTop10: true,
+              });
+            }}
+            activeOpacity={0.7}
+            testID="debug-preview-recap-2"
+          >
+            <FontAwesome5
+              name="medal"
+              size={14}
+              color={colors.textPrimary}
+              style={styles.buttonIcon}
+            />
+            <Text style={styles.actionButtonTextDark}>Preview: #2 Podium (890 pts)</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[styles.actionButton, styles.actionButtonSecondary]}
+            onPress={() => {
+              setDebugRecapData({
+                yearMonth: getPreviousYearMonthString(),
+                monthDate: getPreviousMonthDate(),
+                rank: 3,
+                score: 720,
+                totalParticipants: 248,
+                allTimeRank: 12,
+                allTimeTotalParticipants: 1420,
+                isChampion: false,
+                isInTop3: true,
+                isInTop10: true,
+              });
+            }}
+            activeOpacity={0.7}
+            testID="debug-preview-recap-3"
+          >
+            <FontAwesome5
+              name="medal"
+              size={14}
+              color={colors.textPrimary}
+              style={styles.buttonIcon}
+            />
+            <Text style={styles.actionButtonTextDark}>Preview: #3 Podium (720 pts)</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[styles.actionButton, styles.actionButtonSecondary]}
+            onPress={() => {
+              setDebugRecapData({
+                yearMonth: getPreviousYearMonthString(),
+                monthDate: getPreviousMonthDate(),
+                rank: 142,
+                score: 320,
+                totalParticipants: 1420,
+                allTimeRank: 350,
+                allTimeTotalParticipants: 1420,
+                isChampion: false,
+                isInTop3: false,
+                isInTop10: false,
+              });
+            }}
+            activeOpacity={0.7}
+            testID="debug-preview-recap-142"
+          >
+            <FontAwesome5
+              name="user"
+              size={14}
+              color={colors.textPrimary}
+              style={styles.buttonIcon}
+            />
+            <Text style={styles.actionButtonTextDark}>Preview: #142 Learner (320 pts)</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[styles.actionButton, styles.actionButtonSecondary]}
+            onPress={() => {
+              setDebugRecapData({
+                yearMonth: getPreviousYearMonthString(),
+                monthDate: getPreviousMonthDate(),
+                rank: 1250,
+                score: 180,
+                totalParticipants: 5400,
+                allTimeRank: 3800,
+                allTimeTotalParticipants: 5400,
+                isChampion: false,
+                isInTop3: false,
+                isInTop10: false,
+              });
+            }}
+            activeOpacity={0.7}
+            testID="debug-preview-recap-1250"
+          >
+            <FontAwesome5
+              name="users"
+              size={14}
+              color={colors.textPrimary}
+              style={styles.buttonIcon}
+            />
+            <Text style={styles.actionButtonTextDark}>Preview: #1250 Learner (180 pts)</Text>
+          </TouchableOpacity>
+        </View>
+
         {/* IN-APP REVIEW SECTION */}
         <Text style={styles.sectionTitle}>
           {intl.formatMessage({ id: 'debugScreen.sectionReview' })}
@@ -664,6 +1004,12 @@ export function DebugScreen(): React.JSX.Element {
           </TouchableOpacity>
         </View>
       </ScrollView>
+
+      <MonthlySummaryModal
+        visible={debugRecapData !== null}
+        data={debugRecapData}
+        onClose={() => setDebugRecapData(null)}
+      />
     </ScreenBackground>
   );
 }

@@ -1,11 +1,11 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo, useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, ScrollView } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { FontAwesome5 } from '@expo/vector-icons';
 import { useIntl } from 'react-intl';
 import { useAppTheme } from '../../context/ThemeContext';
+import { HeaderIconButton } from '../../components/HeaderIconButton/HeaderIconButton';
 import { ScreenHeader } from '../../components/ScreenHeader/ScreenHeader';
 import { ScreenBackground } from '../../components/ScreenBackground/ScreenBackground';
 import { FeaturedStartCard } from '../../components/FeaturedStartCard/FeaturedStartCard';
@@ -18,9 +18,18 @@ import { PracticeNativeAdCard } from '../../components/PracticeNativeAdCard/Prac
 import { ThematicCategoriesSection } from '../../components/ThematicCategoriesSection/ThematicCategoriesSection';
 import { ThematicCategory } from '../../config/categories';
 import { PremiumSubscribeSheet } from '../../components/PremiumSubscribeSheet/PremiumSubscribeSheet';
+import { UserNameModal } from '../../components/UserNameModal/UserNameModal';
+import { MonthlySummaryModal } from '../../components/MonthlySummaryModal/MonthlySummaryModal';
+import { useMonthlySummary } from '../../hooks/useMonthlySummary';
 import { soundService } from '../../services/soundService';
 import { useNavigateToQuiz } from '../../hooks/useNavigateToQuiz';
 import { usePremiumStatus } from '../../hooks/usePremiumStatus';
+import { getSettings, updateSettings } from '../../services/settingsService';
+import {
+  getStoredDisplayName,
+  updateDisplayName,
+  isLeaderboardEnabled,
+} from '../../services/leaderboardService';
 import { RootStackParamList, PracticeStackParamList } from '../../types/navigation';
 import { createStyles } from './PracticeScreen.styles';
 import { useFeatureFlag } from '../../services/featuresService';
@@ -38,6 +47,50 @@ export function PracticeScreen(): React.JSX.Element {
   const isPremiumFeature = useFeatureFlag('ENABLE_PREMIUM');
   const [showPremiumSheet, setShowPremiumSheet] = useState(false);
   const [premiumSheetSource, setPremiumSheetSource] = useState<string>('home_header_gem');
+
+  const isLeaderboardActive = isLeaderboardEnabled();
+  const {
+    recapData,
+    isModalVisible: isMonthlyRecapVisible,
+    closeModal: handleCloseMonthlyRecap,
+  } = useMonthlySummary(isLeaderboardActive);
+
+  const [showNameModal, setShowNameModal] = useState(false);
+
+  useEffect(() => {
+    if (showPremiumSheet || isMonthlyRecapVisible) return;
+
+    const timer = setTimeout(() => {
+      const currentSettings = getSettings();
+      if (currentSettings.hasPromptedNameOnLaunch) {
+        return;
+      }
+
+      const storedName = getStoredDisplayName()?.trim();
+      const hasCustomName = Boolean(storedName && storedName.toLowerCase() !== 'learner');
+
+      if (hasCustomName) {
+        updateSettings({ hasPromptedNameOnLaunch: true });
+      } else {
+        setShowNameModal(true);
+      }
+    }, 600);
+
+    return () => clearTimeout(timer);
+  }, [showPremiumSheet, isMonthlyRecapVisible]);
+
+  const handleSaveNameModal = async (savedName: string) => {
+    soundService.playTapSound();
+    await updateDisplayName(savedName);
+    updateSettings({ hasPromptedNameOnLaunch: true });
+    setShowNameModal(false);
+  };
+
+  const handleCloseNameModal = () => {
+    soundService.playTapSound();
+    updateSettings({ hasPromptedNameOnLaunch: true });
+    setShowNameModal(false);
+  };
 
   const handleStartStandard = () => {
     soundService.playTapSound();
@@ -100,36 +153,36 @@ export function PracticeScreen(): React.JSX.Element {
       <ScreenHeader
         title={intl.formatMessage({ id: 'practiceScreen.title' })}
         showBackButton={false}
+        showLeaderboard={true}
         leftContent={
           <View style={styles.headerLeftRow}>
             {isPremiumFeature && !isPremium && (
-              <TouchableOpacity
-                style={styles.headerButton}
+              <HeaderIconButton
+                icon="gem"
+                iconSize={18}
+                iconColor={colors.premiumDiamond}
                 onPress={() => {
                   setPremiumSheetSource('home_header_gem');
                   setShowPremiumSheet(true);
                 }}
                 testID="premium-gem-button"
-                hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
-              >
-                <FontAwesome5 name="gem" size={18} color={colors.premiumDiamond} />
-              </TouchableOpacity>
+              />
             )}
-            <TouchableOpacity
-              style={styles.headerButton}
-              onPress={() => navigation.navigate('Settings')}
+            <HeaderIconButton
+              icon="cog"
+              iconSize={18}
+              iconColor={colors.textPrimary}
+              onPress={() => {
+                navigation.navigate('Settings');
+              }}
               onLongPress={() => {
                 if (__DEV__) {
-                  soundService.playTapSound();
                   navigation.navigate('Debug');
                 }
               }}
               delayLongPress={350}
               testID="settings-button"
-              hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
-            >
-              <FontAwesome5 name="cog" size={18} color={colors.textPrimary} />
-            </TouchableOpacity>
+            />
           </View>
         }
       />
@@ -179,6 +232,17 @@ export function PracticeScreen(): React.JSX.Element {
           source={premiumSheetSource}
         />
       )}
+      <MonthlySummaryModal
+        visible={isMonthlyRecapVisible}
+        data={recapData}
+        onClose={handleCloseMonthlyRecap}
+      />
+      <UserNameModal
+        visible={showNameModal}
+        initialValue=""
+        onSave={handleSaveNameModal}
+        onClose={handleCloseNameModal}
+      />
     </ScreenBackground>
   );
 }

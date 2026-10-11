@@ -13,6 +13,8 @@ export interface FeaturesConfig {
   max_ad_grants_per_day?: number;
   enable_practice_native_ad?: boolean;
   enable_dictionary_native_ad?: boolean;
+  enable_leaderboard?: boolean;
+  enable_leaderboard_history_tab?: boolean;
   [key: string]: unknown;
 }
 

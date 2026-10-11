@@ -9,14 +9,6 @@ export const createStyles = (colors: ThemeColors) =>
       flex: 1,
       backgroundColor: colors.background,
     },
-    headerButton: {
-      width: 40,
-      height: 40,
-      borderRadius: 20,
-      backgroundColor: colors.headerButtonBackground,
-      justifyContent: 'center',
-      alignItems: 'center',
-    },
     headerLeftRow: {
       flexDirection: 'row',
       alignItems: 'center',

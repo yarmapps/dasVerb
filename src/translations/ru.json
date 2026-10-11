@@ -546,5 +546,36 @@
     "daysRemaining": "Осталось {count} дн.",
     "dayRemaining": "Остался 1 день",
     "unlocked": "Открыто"
+  },
+  "leaderboard": {
+    "title": "Таблица лидеров",
+    "tabThisMonth": "Этот месяц",
+    "tabYear": "Все месяцы",
+    "tabAllTime": "За всё время",
+    "modalTitle": "Введите имя для таблицы лидеров",
+    "modalSubtitle": "Выберите имя, которое будет отображаться в таблице лидеров. Вы сможете изменить его позже в Настройках.",
+    "modalPlaceholder": "например, Алекс",
+    "modalError": "Пожалуйста, введите корректное имя.",
+    "emptyTitle": "Начался новый месяц!",
+    "emptySubtitle": "Станьте первым, кто пройдёт квиз в этом месяце!",
+    "profileSection": "Профиль и Таблица лидеров",
+    "displayName": "Отображаемое имя",
+    "highestScore": "Рекорд",
+    "totalParticipants": "Всего участников: {count}"
+  },
+  "monthlyRecap": {
+    "title": "Итоги за {month}",
+    "finishedHeadline": "Вы завершили этот месяц",
+    "championHeadline": "Какая целеустремленность!",
+    "monthlyParticipants": "из {count} участников",
+    "championHallOfFame": "Ваше имя навсегда останется на Доске почета das Verb!",
+    "pointsEarned": "Набрано очков",
+    "pointsEarnedValue": "+{score} очков за {month}",
+    "allTimeStanding": "Общий зачет",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "Начать новый месяц"
+  },
+  "common": {
+    "save": "Сохранить"
   }
 }

@@ -546,5 +546,36 @@
     "daysRemaining": "{count} zile rămase",
     "dayRemaining": "1 zi rămasă",
     "unlocked": "Deblocat"
+  },
+  "leaderboard": {
+    "title": "Clasament",
+    "tabThisMonth": "Luna aceasta",
+    "tabYear": "Toate lunile",
+    "tabAllTime": "Din toate timpurile",
+    "modalTitle": "Introdu numele tău pentru clasament",
+    "modalSubtitle": "Alege un nume care va fi afișat în clasament.",
+    "modalPlaceholder": "ex. Alex",
+    "modalError": "Te rugăm să introduci un nume valid.",
+    "emptyTitle": "A început o lună nouă!",
+    "emptySubtitle": "Fii primul care finalizează un test luna aceasta!",
+    "profileSection": "Profil și clasament",
+    "displayName": "Nume afișat",
+    "highestScore": "Cel mai mare scor",
+    "totalParticipants": "Total participanți: {count}"
+  },
+  "monthlyRecap": {
+    "title": "Recapitulare {month}",
+    "finishedHeadline": "Ai încheiat luna aceasta pe",
+    "championHeadline": "Ce dăruire! Ești pe locul",
+    "monthlyParticipants": "din {count} participanți",
+    "championHallOfFame": "Numele tău va rămâne pentru totdeauna în clasamentul das Verb!",
+    "pointsEarned": "Puncte câștigate",
+    "pointsEarnedValue": "+{score} puncte în {month}",
+    "allTimeStanding": "Poziție generală",
+    "allTimeStandingValue": "#{rank} / {total}",
+    "continueButton": "Începe o lună nouă"
+  },
+  "common": {
+    "save": "Salvează"
   }
 }
