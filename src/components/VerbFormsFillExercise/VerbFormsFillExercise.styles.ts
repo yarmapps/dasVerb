@@ -101,5 +101,10 @@ export function createStyles(colors: ThemeColors) {
     partizipSlotWrapper: {
       flex: 1,
     },
+    slotInputText: {
+      padding: 0,
+      margin: 0,
+      width: '100%',
+    },
   });
 }

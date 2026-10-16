@@ -49,8 +49,18 @@ import {
   getPreviousYearMonthString,
   getPreviousMonthDate,
   MonthlyRecapData,
+  getEffectiveUserId,
+  getStoredUserNumber,
+  resetStoredUserNumber,
 } from '../../services/leaderboardService';
 import { MonthlySummaryModal } from '../../components/MonthlySummaryModal/MonthlySummaryModal';
+import {
+  ensureInitialPremiumBackup,
+  restoreCloudProgress,
+  isInitialBackupDone,
+  getLastSyncTimestamp,
+  getSubscriptionIdentifier,
+} from '../../services/cloudSyncService';
 import { createStyles } from './DebugScreen.styles';
 
 type DebugScreenNavigationProp = NativeStackNavigationProp<RootStackParamList>;
@@ -84,7 +94,51 @@ export function DebugScreen(): React.JSX.Element {
 
   const handleTogglePremiumUser = (enabled: boolean) => {
     setPremiumEnabled(enabled);
+    if (enabled) {
+      ensureInitialPremiumBackup(true).catch(() => {});
+    }
     refreshState();
+  };
+
+  const [isSyncing, setIsSyncing] = useState(false);
+
+  const handleForceCloudSync = async () => {
+    try {
+      setIsSyncing(true);
+      await ensureInitialPremiumBackup(true);
+      refreshState();
+      Alert.alert(
+        'Cloud Sync Success',
+        'Progress and subscription link successfully backed up to Firestore.',
+      );
+    } catch (error) {
+      Alert.alert('Cloud Sync Failed', error instanceof Error ? error.message : String(error));
+    } finally {
+      setIsSyncing(false);
+    }
+  };
+
+  const handleForceCloudRestore = async () => {
+    try {
+      setIsSyncing(true);
+      const res = await restoreCloudProgress('manual_restore');
+      refreshState();
+      if (res.success) {
+        Alert.alert(
+          'Cloud Restore Success',
+          `Successfully restored progress from Firestore! User #${res.restoredUserNumber ?? 'N/A'}`,
+        );
+      } else {
+        Alert.alert(
+          'Cloud Restore Not Found',
+          'No subscription link or cloud backup document found in Firestore.',
+        );
+      }
+    } catch (error) {
+      Alert.alert('Cloud Restore Failed', error instanceof Error ? error.message : String(error));
+    } finally {
+      setIsSyncing(false);
+    }
   };
 
   const handleResetFeatureOverrides = () => {
@@ -424,6 +478,88 @@ export function DebugScreen(): React.JSX.Element {
               </Text>
             </TouchableOpacity>
           </View>
+        </View>
+
+        {/* CLOUD BACKUP & SYNC SECTION */}
+        <Text style={styles.sectionTitle}>CLOUD BACKUP & FIRESTORE SYNC</Text>
+        <View style={styles.sectionContainer}>
+          <View style={styles.statusRow}>
+            <Text style={styles.statusLabel}>Initial Backup Completed</Text>
+            <Text style={styles.statusValue}>{isInitialBackupDone() ? 'YES' : 'NO'}</Text>
+          </View>
+          <View style={styles.statusRow}>
+            <Text style={styles.statusLabel}>Last Synced</Text>
+            <Text style={styles.statusValue}>
+              {getLastSyncTimestamp()
+                ? new Date(getLastSyncTimestamp()!).toLocaleTimeString()
+                : 'Never'}
+            </Text>
+          </View>
+          <View style={styles.statusRow}>
+            <Text style={styles.statusLabel}>User Number</Text>
+            <Text style={styles.statusValue}>
+              {getStoredUserNumber() ? `#${getStoredUserNumber()}` : 'Not assigned'}
+            </Text>
+          </View>
+
+          <View style={styles.divider} />
+
+          <TouchableOpacity
+            style={[styles.actionButton, isSyncing && { opacity: 0.6 }]}
+            onPress={handleForceCloudSync}
+            disabled={isSyncing}
+            activeOpacity={0.7}
+            testID="debug-force-cloud-sync"
+          >
+            <FontAwesome5
+              name="cloud-upload-alt"
+              size={14}
+              color="#ffffff"
+              style={styles.buttonIcon}
+            />
+            <Text style={styles.actionButtonTextLight}>
+              {isSyncing ? 'Syncing...' : 'Force Cloud Backup Now'}
+            </Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[
+              styles.actionButton,
+              styles.actionButtonSecondary,
+              isSyncing && { opacity: 0.6 },
+            ]}
+            onPress={handleForceCloudRestore}
+            disabled={isSyncing}
+            activeOpacity={0.7}
+            testID="debug-force-cloud-restore"
+          >
+            <FontAwesome5
+              name="cloud-download-alt"
+              size={14}
+              color="#ffffff"
+              style={styles.buttonIcon}
+            />
+            <Text style={styles.actionButtonTextLight}>
+              {isSyncing ? 'Restoring...' : 'Force Cloud Restore (Zero-Tap)'}
+            </Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[styles.actionButton, styles.actionButtonWarning]}
+            onPress={() => {
+              resetStoredUserNumber();
+              refreshState();
+              Alert.alert(
+                'Reset Complete',
+                'Local User Number removed. Next sync will allocate fresh number from Firestore counter.',
+              );
+            }}
+            activeOpacity={0.7}
+            testID="debug-reset-user-number"
+          >
+            <FontAwesome5 name="hashtag" size={14} color="#ffffff" style={styles.buttonIcon} />
+            <Text style={styles.actionButtonTextLight}>Reset Local User Number</Text>
+          </TouchableOpacity>
         </View>
 
         {/* LEADERBOARD FEATURE SECTION */}

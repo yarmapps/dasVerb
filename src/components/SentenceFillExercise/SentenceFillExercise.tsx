@@ -4,12 +4,14 @@ import {
   Text,
   Animated,
   TouchableOpacity,
+  TextInput,
   StyleProp,
   ViewStyle,
   TextStyle,
 } from 'react-native';
 import { QuizExercise } from '../../services/quizGeneratorService';
 import { useAppTheme } from '../../context/ThemeContext';
+import { isAnswerCorrect } from '../../utils/answerValidation';
 import { createStyles } from './SentenceFillExercise.styles';
 
 export interface SentenceFillExerciseProps {
@@ -19,6 +21,9 @@ export interface SentenceFillExerciseProps {
   status: 'idle' | 'correct' | 'incorrect';
   pulseAnim: Animated.Value;
   onSlotPress?: (gapIndex: number) => void;
+  inputMode?: 'choice' | 'type_in';
+  onTextChange?: (gapIndex: number, text: string) => void;
+  onSubmitSlot?: (gapIndex: number) => void;
 }
 
 export function SentenceFillExercise({
@@ -28,6 +33,9 @@ export function SentenceFillExercise({
   status,
   pulseAnim,
   onSlotPress,
+  inputMode = 'choice',
+  onTextChange,
+  onSubmitSlot,
 }: SentenceFillExerciseProps): React.JSX.Element {
   const { colors } = useAppTheme();
   const styles = useMemo(() => createStyles(colors), [colors]);
@@ -47,12 +55,15 @@ export function SentenceFillExercise({
       const gap = exercise.gaps?.[gapIndex];
       if (!gap) return;
       const userAnswer = userAnswers[gapIndex];
-      const isActive = activeGapIndex === gapIndex && !userAnswer;
+      const isInputMode = inputMode === 'type_in';
+      const isActive = isInputMode
+        ? activeGapIndex === gapIndex
+        : activeGapIndex === gapIndex && !userAnswer;
 
       let slotStyle: StyleProp<ViewStyle> = styles.gapSlot;
       let slotTextStyle: StyleProp<TextStyle> = styles.gapSlotText;
 
-      const isGapCorrect = Boolean(userAnswer && userAnswer === gap.correctValue);
+      const isGapCorrect = Boolean(userAnswer && isAnswerCorrect(userAnswer, gap.correctValue));
 
       if (status === 'correct') {
         slotStyle = [styles.gapSlot, styles.gapSlotCorrect];
@@ -112,9 +123,24 @@ export function SentenceFillExercise({
             ]}
             testID={`gap-slot-${gapIndex}`}
           >
-            <Text style={slotTextStyle} numberOfLines={1}>
-              {userAnswer || ''}
-            </Text>
+            {isInputMode && status === 'idle' && activeGapIndex === gapIndex ? (
+              <TextInput
+                style={[slotTextStyle, styles.gapInputText]}
+                value={userAnswer || ''}
+                onChangeText={text => onTextChange?.(gapIndex, text)}
+                onSubmitEditing={() => onSubmitSlot?.(gapIndex)}
+                autoCapitalize="none"
+                autoCorrect={false}
+                spellCheck={false}
+                autoFocus={true}
+                returnKeyType={gapIndex === (exercise.gaps?.length || 1) - 1 ? 'done' : 'next'}
+                testID={`gap-slot-input-${gapIndex}`}
+              />
+            ) : (
+              <Text style={slotTextStyle} numberOfLines={1}>
+                {userAnswer || ''}
+              </Text>
+            )}
           </Animated.View>
         </TouchableOpacity>
       );

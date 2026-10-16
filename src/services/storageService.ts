@@ -5,6 +5,8 @@ export interface StorageInterface {
   set(key: string, value: string): void;
   delete(key: string): void;
   clearAll(): void;
+  getAllKeys(): string[];
+  getAll(): Record<string, string>;
 }
 
 interface MMKVInstance {
@@ -13,6 +15,7 @@ interface MMKVInstance {
   remove?(key: string): boolean;
   delete?(key: string): void;
   clearAll?(): void;
+  getAllKeys?(): string[];
 }
 
 const storageRegistry = new Set<UniversalStorage>();
@@ -113,6 +116,31 @@ class UniversalStorage implements StorageInterface {
         return AsyncStorage.multiRemove(filteredKeys);
       })
       .catch(() => {});
+  }
+
+  getAllKeys(): string[] {
+    if (this.mmkv) {
+      try {
+        if (typeof this.mmkv.getAllKeys === 'function') {
+          return this.mmkv.getAllKeys();
+        }
+      } catch {
+        // Fallback to memory
+      }
+    }
+    return Array.from(this.memoryStore.keys());
+  }
+
+  getAll(): Record<string, string> {
+    const keys = this.getAllKeys();
+    const result: Record<string, string> = {};
+    for (const key of keys) {
+      const value = this.getString(key);
+      if (value !== undefined) {
+        result[key] = value;
+      }
+    }
+    return result;
   }
 }
 

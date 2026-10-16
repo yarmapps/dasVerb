@@ -42,6 +42,7 @@ jest.mock('react-native-mmkv', () => {
       clearAll: jest.fn(() => {
         store.clear();
       }),
+      getAllKeys: jest.fn(() => Array.from(store.keys())),
     })),
   };
 });
@@ -63,6 +64,40 @@ jest.mock('expo-file-system/legacy', () => ({
   copyAsync: jest.fn().mockResolvedValue(undefined),
 }));
 
+jest.mock('expo-file-system', () => {
+  class MockFile {
+    constructor(dir, name) {
+      this.uri = `${dir?.uri || 'file:///mock/cache/audio/'}${name}`;
+      this.exists = false;
+      this.size = 15000;
+    }
+    static downloadFileAsync = jest.fn().mockImplementation((url, file) => {
+      file.exists = true;
+      return Promise.resolve(file);
+    });
+    delete = jest.fn();
+  }
+
+  class MockDirectory {
+    constructor(parent, name) {
+      this.uri = `file:///mock/cache/${name}/`;
+      this.exists = true;
+    }
+    create = jest.fn();
+    delete = jest.fn();
+    list = jest.fn().mockReturnValue([]);
+  }
+
+  return {
+    File: MockFile,
+    Directory: MockDirectory,
+    Paths: {
+      cache: { uri: 'file:///mock/cache/' },
+      document: { uri: 'file:///mock/documents/' },
+    },
+  };
+});
+
 jest.mock('expo-sqlite', () => ({
   openDatabaseAsync: jest.fn().mockResolvedValue({
     getAllAsync: jest.fn().mockResolvedValue([]),
@@ -77,6 +112,7 @@ jest.mock('expo-audio', () => ({
     pause: jest.fn(),
     seekTo: jest.fn(),
     remove: jest.fn(),
+    addListener: jest.fn(),
   })),
   setAudioModeAsync: jest.fn().mockResolvedValue(undefined),
   setIsAudioActiveAsync: jest.fn().mockResolvedValue(undefined),
@@ -314,6 +350,18 @@ jest.mock('@react-native-firebase/firestore', () => ({
   getCountFromServer: jest.fn().mockResolvedValue({
     data: () => ({ count: 0 }),
   }),
+  setDoc: jest.fn().mockResolvedValue(undefined),
+  runTransaction: jest.fn(async (_db, updateFunction) =>
+    updateFunction({
+      get: jest.fn().mockResolvedValue({
+        exists: () => false,
+        data: () => ({}),
+      }),
+      set: jest.fn(),
+      update: jest.fn(),
+      delete: jest.fn(),
+    }),
+  ),
 }));
 
 jest.mock('react-native-purchases', () => {
@@ -322,6 +370,7 @@ jest.mock('react-native-purchases', () => {
     setLogLevel: jest.fn(),
     getOfferings: jest.fn().mockResolvedValue({ current: null, all: {} }),
     getCustomerInfo: jest.fn().mockResolvedValue({ entitlements: { active: {} } }),
+    getAppUserID: jest.fn().mockResolvedValue('mock-rc-app-user-id'),
     purchasePackage: jest.fn(),
     restorePurchases: jest.fn().mockResolvedValue({ entitlements: { active: {} } }),
     addCustomerInfoUpdateListener: jest.fn(() => jest.fn()),

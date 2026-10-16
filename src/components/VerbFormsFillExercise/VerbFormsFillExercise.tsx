@@ -4,6 +4,7 @@ import {
   Text,
   Animated,
   TouchableOpacity,
+  TextInput,
   StyleProp,
   ViewStyle,
   TextStyle,
@@ -11,6 +12,7 @@ import {
 import { useIntl } from 'react-intl';
 import { QuizExercise } from '../../services/quizGeneratorService';
 import { useAppTheme } from '../../context/ThemeContext';
+import { isAnswerCorrect } from '../../utils/answerValidation';
 import { createStyles } from './VerbFormsFillExercise.styles';
 
 export interface VerbFormsFillExerciseProps {
@@ -20,6 +22,9 @@ export interface VerbFormsFillExerciseProps {
   status: 'idle' | 'correct' | 'incorrect';
   pulseAnim: Animated.Value;
   onSlotPress?: (slotIndex: number) => void;
+  inputMode?: 'choice' | 'type_in';
+  onTextChange?: (slotIndex: number, text: string) => void;
+  onSubmitSlot?: (slotIndex: number) => void;
 }
 
 export function VerbFormsFillExercise({
@@ -29,6 +34,9 @@ export function VerbFormsFillExercise({
   status,
   pulseAnim,
   onSlotPress,
+  inputMode = 'choice',
+  onTextChange,
+  onSubmitSlot,
 }: VerbFormsFillExerciseProps): React.JSX.Element {
   const intl = useIntl();
   const { colors } = useAppTheme();
@@ -43,8 +51,11 @@ export function VerbFormsFillExercise({
 
   const getSlotStyles = (slotIndex: number, correctAnswer: string) => {
     const userAnswer = userAnswers[slotIndex] || '';
-    const isActive = activeSlotIndex === slotIndex && !userAnswer;
-    const isCorrect = userAnswer === correctAnswer;
+    const isInputMode = inputMode === 'type_in';
+    const isActive = isInputMode
+      ? activeSlotIndex === slotIndex
+      : activeSlotIndex === slotIndex && !userAnswer;
+    const isCorrect = isAnswerCorrect(userAnswer, correctAnswer);
 
     let slotStyle: StyleProp<ViewStyle> = styles.slot;
     let slotTextStyle: StyleProp<TextStyle> = styles.slotText;
@@ -79,6 +90,8 @@ export function VerbFormsFillExercise({
     }
   };
 
+  const isInputMode = inputMode === 'type_in';
+
   return (
     <View style={styles.container} testID="verb-forms-fill-exercise">
       {/* Verb Header */}
@@ -109,9 +122,24 @@ export function VerbFormsFillExercise({
               ]}
               testID="praeteritum-gap-slot"
             >
-              <Text style={praetSlot.slotTextStyle} numberOfLines={1}>
-                {praetSlot.userAnswer || ''}
-              </Text>
+              {isInputMode && status === 'idle' && activeSlotIndex === 0 ? (
+                <TextInput
+                  style={[praetSlot.slotTextStyle, styles.slotInputText]}
+                  value={praetSlot.userAnswer || ''}
+                  onChangeText={text => onTextChange?.(0, text)}
+                  onSubmitEditing={() => onSubmitSlot?.(0)}
+                  autoCapitalize="none"
+                  autoCorrect={false}
+                  spellCheck={false}
+                  autoFocus={true}
+                  returnKeyType="next"
+                  testID="praeteritum-slot-input"
+                />
+              ) : (
+                <Text style={praetSlot.slotTextStyle} numberOfLines={1}>
+                  {praetSlot.userAnswer || ''}
+                </Text>
+              )}
             </Animated.View>
           </TouchableOpacity>
         </View>
@@ -139,9 +167,24 @@ export function VerbFormsFillExercise({
                   ]}
                   testID="aux-gap-slot"
                 >
-                  <Text style={auxSlot.slotTextStyle} numberOfLines={1}>
-                    {auxSlot.userAnswer || ''}
-                  </Text>
+                  {isInputMode && status === 'idle' && activeSlotIndex === 1 ? (
+                    <TextInput
+                      style={[auxSlot.slotTextStyle, styles.slotInputText]}
+                      value={auxSlot.userAnswer || ''}
+                      onChangeText={text => onTextChange?.(1, text)}
+                      onSubmitEditing={() => onSubmitSlot?.(1)}
+                      autoCapitalize="none"
+                      autoCorrect={false}
+                      spellCheck={false}
+                      autoFocus={true}
+                      returnKeyType="next"
+                      testID="aux-slot-input"
+                    />
+                  ) : (
+                    <Text style={auxSlot.slotTextStyle} numberOfLines={1}>
+                      {auxSlot.userAnswer || ''}
+                    </Text>
+                  )}
                 </Animated.View>
               </TouchableOpacity>
             </View>
@@ -161,9 +204,24 @@ export function VerbFormsFillExercise({
                   ]}
                   testID="partizip-gap-slot"
                 >
-                  <Text style={partizipSlot.slotTextStyle} numberOfLines={1}>
-                    {partizipSlot.userAnswer || ''}
-                  </Text>
+                  {isInputMode && status === 'idle' && activeSlotIndex === 2 ? (
+                    <TextInput
+                      style={[partizipSlot.slotTextStyle, styles.slotInputText]}
+                      value={partizipSlot.userAnswer || ''}
+                      onChangeText={text => onTextChange?.(2, text)}
+                      onSubmitEditing={() => onSubmitSlot?.(2)}
+                      autoCapitalize="none"
+                      autoCorrect={false}
+                      spellCheck={false}
+                      autoFocus={true}
+                      returnKeyType="done"
+                      testID="partizip-slot-input"
+                    />
+                  ) : (
+                    <Text style={partizipSlot.slotTextStyle} numberOfLines={1}>
+                      {partizipSlot.userAnswer || ''}
+                    </Text>
+                  )}
                 </Animated.View>
               </TouchableOpacity>
             </View>

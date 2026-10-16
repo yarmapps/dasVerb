@@ -84,5 +84,10 @@ export function createStyles(colors: ThemeColors) {
       color: colors.textMuted,
       textAlign: 'center',
     },
+    gapInputText: {
+      padding: 0,
+      margin: 0,
+      minWidth: 40,
+    },
   });
 }

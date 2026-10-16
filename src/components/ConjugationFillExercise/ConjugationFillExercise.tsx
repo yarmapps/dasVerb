@@ -4,12 +4,14 @@ import {
   Text,
   Animated,
   TouchableOpacity,
+  TextInput,
   StyleProp,
   ViewStyle,
   TextStyle,
 } from 'react-native';
 import { QuizExercise, ConjugationRowData } from '../../services/quizGeneratorService';
 import { useAppTheme } from '../../context/ThemeContext';
+import { isAnswerCorrect } from '../../utils/answerValidation';
 import { createStyles } from './ConjugationFillExercise.styles';
 
 export interface ConjugationFillExerciseProps {
@@ -19,6 +21,9 @@ export interface ConjugationFillExerciseProps {
   status: 'idle' | 'correct' | 'incorrect';
   pulseAnim: Animated.Value;
   onSlotPress?: (gapIndex: number) => void;
+  inputMode?: 'choice' | 'type_in';
+  onTextChange?: (gapIndex: number, text: string) => void;
+  onSubmitSlot?: (gapIndex: number) => void;
 }
 
 export function ConjugationFillExercise({
@@ -28,6 +33,9 @@ export function ConjugationFillExercise({
   status,
   pulseAnim,
   onSlotPress,
+  inputMode = 'choice',
+  onTextChange,
+  onSubmitSlot,
 }: ConjugationFillExerciseProps): React.JSX.Element {
   const { colors } = useAppTheme();
   const styles = useMemo(() => createStyles(colors), [colors]);
@@ -43,8 +51,11 @@ export function ConjugationFillExercise({
       {rows.map(row => {
         const { pronoun, gapIndex, correctValue, reflexivePronoun } = row;
         const userAnswer = userAnswers[gapIndex] || '';
-        const isActive = activeGapIndex === gapIndex && !userAnswer;
-        const isCorrect = userAnswer === correctValue;
+        const isInputMode = inputMode === 'type_in';
+        const isActive = isInputMode
+          ? activeGapIndex === gapIndex
+          : activeGapIndex === gapIndex && !userAnswer;
+        const isCorrect = isAnswerCorrect(userAnswer, correctValue);
 
         let slotStyle: StyleProp<ViewStyle> = styles.gapSlot;
         let slotTextStyle: StyleProp<TextStyle> = styles.gapSlotText;
@@ -94,9 +105,24 @@ export function ConjugationFillExercise({
                 style={[slotStyle, isActive && { transform: [{ scale: pulseAnim }] }]}
                 testID={`conjugation-gap-slot-${gapIndex}`}
               >
-                <Text style={slotTextStyle} numberOfLines={1}>
-                  {userAnswer || (status === 'incorrect' ? '—' : '')}
-                </Text>
+                {isInputMode && status === 'idle' && activeGapIndex === gapIndex ? (
+                  <TextInput
+                    style={[slotTextStyle, styles.gapInputText]}
+                    value={userAnswer || ''}
+                    onChangeText={text => onTextChange?.(gapIndex, text)}
+                    onSubmitEditing={() => onSubmitSlot?.(gapIndex)}
+                    autoCapitalize="none"
+                    autoCorrect={false}
+                    spellCheck={false}
+                    autoFocus={true}
+                    returnKeyType={gapIndex === (rows.length || 1) - 1 ? 'done' : 'next'}
+                    testID={`conjugation-slot-input-${gapIndex}`}
+                  />
+                ) : (
+                  <Text style={slotTextStyle} numberOfLines={1}>
+                    {userAnswer || (status === 'incorrect' ? '—' : '')}
+                  </Text>
+                )}
               </Animated.View>
             </TouchableOpacity>
 

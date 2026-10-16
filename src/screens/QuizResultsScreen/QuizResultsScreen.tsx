@@ -29,6 +29,7 @@ import { getNextPracticeTarget, PracticeNextTarget } from '../../services/practi
 import { useNavigateToQuiz } from '../../hooks/useNavigateToQuiz';
 import { trackEvent } from '../../services/analyticsService';
 import { isLeaderboardEnabled, submitQuizScore } from '../../services/leaderboardService';
+import { syncProgressAfterQuiz } from '../../services/cloudSyncService';
 import { createStyles } from './QuizResultsScreen.styles';
 
 type QuizResultsRouteProp = RouteProp<RootStackParamList, 'QuizResults'>;
@@ -229,6 +230,7 @@ export function QuizResultsScreen(): React.JSX.Element {
     } else if (infinitive) {
       progressService.setVerbProgress(infinitive, percentage);
     }
+    syncProgressAfterQuiz().catch(() => {});
   }, [
     infinitive,
     percentage,

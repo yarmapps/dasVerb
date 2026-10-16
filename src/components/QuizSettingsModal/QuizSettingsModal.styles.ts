@@ -82,4 +82,45 @@ export const createStyles = (colors: ThemeColors) =>
       flexDirection: 'row',
       alignItems: 'center',
     },
+    separator: {
+      height: 1,
+      backgroundColor: colors.blockBorder,
+      marginVertical: Spacing.xs,
+    },
+    voiceSegmentContainer: {
+      flexDirection: 'row',
+      backgroundColor: colors.headerButtonBackground,
+      borderRadius: 12,
+      padding: 3,
+      borderWidth: 1,
+      borderColor: colors.blockBorder,
+    },
+    voiceSegmentButton: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      paddingVertical: 6,
+      paddingHorizontal: 12,
+      borderRadius: 9,
+    },
+    voiceSegmentButtonActive: {
+      backgroundColor: colors.primary,
+      shadowColor: '#000000',
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.1,
+      shadowRadius: 4,
+      elevation: 2,
+    },
+    voiceSegmentText: {
+      fontSize: Typography.fontSize.xs,
+      fontWeight: '600',
+      color: colors.textSecondary,
+      marginLeft: 6,
+    },
+    voiceSegmentTextActive: {
+      color: '#ffffff',
+      fontWeight: '700',
+    },
+    diamondIcon: {
+      marginLeft: 5,
+    },
   });

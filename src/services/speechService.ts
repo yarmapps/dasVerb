@@ -1,7 +1,9 @@
 import type { Voice } from 'expo-speech';
 import { Platform } from 'react-native';
+import { createAudioPlayer, AudioPlayer } from 'expo-audio';
 import { getSettings } from './settingsService';
 import { createStorage } from './storageService';
+import { audioService } from './audioService';
 
 const voiceCache = createStorage('app-speech-voice-cache');
 const RESOLVED_MALE_VOICE_KEY = 'resolved-male-de-de';
@@ -28,6 +30,8 @@ function getSpeechModule(): typeof import('expo-speech') | null {
 class SpeechService {
   private isSpeaking = false;
   private cachedVoices: Voice[] | null = null;
+  private currentPlayer: AudioPlayer | null = null;
+  private playbackWatchdogTimeout: ReturnType<typeof setTimeout> | null = null;
 
   private async getGermanVoiceIdentifier(
     gender: 'male' | 'female',
@@ -177,9 +181,107 @@ class SpeechService {
     }
   }
 
+  private cleanupPlayer(): void {
+    if (this.playbackWatchdogTimeout) {
+      clearTimeout(this.playbackWatchdogTimeout);
+      this.playbackWatchdogTimeout = null;
+    }
+    if (this.currentPlayer) {
+      try {
+        this.currentPlayer.pause();
+        this.currentPlayer.remove();
+      } catch {
+        // ignore
+      }
+      this.currentPlayer = null;
+    }
+  }
+
+  /**
+   * Speaks a sentence by prioritizing high-quality CDN audio (with local cache),
+   * and automatically falling back to device TTS if offline or unavailable.
+   */
+  async speakSentence(
+    verbId: string,
+    sentenceId: string,
+    text: string,
+    onComplete?: () => void,
+  ): Promise<void> {
+    const settings = getSettings();
+    const gender = settings.ttsVoiceGender || 'female';
+    const fileName = `${verbId}_${sentenceId}_${gender}.m4a`;
+
+    this.cleanupPlayer();
+    this.isSpeaking = true;
+
+    try {
+      const source = await audioService.getAudioSource(fileName);
+      if (!source || !this.isSpeaking) {
+        await this.speak(text, onComplete);
+        return;
+      }
+
+      this.currentPlayer = createAudioPlayer({ uri: source.uri });
+
+      let hasHandledAttempt = false;
+
+      // Watchdog only fires if player fails to load or start playing within timeout.
+      const watchdogDelay = process.env.NODE_ENV === 'test' ? 50 : 3000;
+      this.playbackWatchdogTimeout = setTimeout(() => {
+        if (!hasHandledAttempt && this.isSpeaking) {
+          hasHandledAttempt = true;
+          this.cleanupPlayer();
+          this.speak(text, onComplete);
+        }
+      }, watchdogDelay);
+      if (
+        this.playbackWatchdogTimeout &&
+        typeof this.playbackWatchdogTimeout.unref === 'function'
+      ) {
+        this.playbackWatchdogTimeout.unref();
+      }
+
+      if (typeof this.currentPlayer.addListener === 'function') {
+        this.currentPlayer.addListener('playbackStatusUpdate', status => {
+          if (hasHandledAttempt) {
+            return;
+          }
+
+          // If track successfully loaded or started playing, cancel initial load watchdog
+          if ((status.isLoaded || status.playing) && this.playbackWatchdogTimeout) {
+            clearTimeout(this.playbackWatchdogTimeout);
+            this.playbackWatchdogTimeout = null;
+          }
+
+          if (status.didJustFinish) {
+            hasHandledAttempt = true;
+            this.cleanupPlayer();
+            this.isSpeaking = false;
+            onComplete?.();
+          } else if (
+            (status as unknown as { error?: unknown }).error ||
+            status.playbackState === 'failed'
+          ) {
+            hasHandledAttempt = true;
+            this.cleanupPlayer();
+            this.speak(text, onComplete);
+          }
+        });
+      }
+
+      this.currentPlayer.play();
+    } catch (error) {
+      // eslint-disable-next-line no-console
+      console.warn(`[SpeechService] Failed to play CDN audio ${fileName}, falling back:`, error);
+      this.cleanupPlayer();
+      await this.speak(text, onComplete);
+    }
+  }
+
   async stop(): Promise<void> {
     try {
       this.isSpeaking = false;
+      this.cleanupPlayer();
       const speech = getSpeechModule();
       if (speech) {
         await speech.stop();

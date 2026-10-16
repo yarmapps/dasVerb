@@ -189,6 +189,7 @@ describe('notificationService', () => {
         ttsVoiceGender: 'male',
         completedQuizCount: 0,
         lastReviewPromptDate: null,
+        quizInputMode: 'choice',
       });
 
       await initializeNotifications();
@@ -205,6 +206,7 @@ describe('notificationService', () => {
         ttsVoiceGender: 'male',
         completedQuizCount: 0,
         lastReviewPromptDate: null,
+        quizInputMode: 'choice',
       });
       (Notifications.getPermissionsAsync as jest.Mock).mockResolvedValue({
         status: 'granted',

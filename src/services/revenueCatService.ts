@@ -10,6 +10,7 @@ import { setPremiumEnabled, isPremiumEnabled } from './premiumAccessService';
 import { setTrialStartDate, getTrialStartDate } from './usageService';
 import { scheduleTrialReminder } from './notificationService';
 import { isFeatureEnabled } from './featuresService';
+import { ensureInitialPremiumBackup, restoreCloudProgress } from './cloudSyncService';
 
 /* ── API keys ──────────────────────────────────────────────── */
 const API_KEYS = {
@@ -21,8 +22,12 @@ const API_KEYS = {
 export const PREMIUM_ENTITLEMENT = 'premium';
 
 /* ── Helpers ───────────────────────────────────────────────── */
+function isEntitlementActive(info: CustomerInfo): boolean {
+  return info.entitlements.active[PREMIUM_ENTITLEMENT] !== undefined;
+}
+
 function updatePremiumFromCustomerInfo(info: CustomerInfo): void {
-  const isPremium = info.entitlements.active[PREMIUM_ENTITLEMENT] !== undefined;
+  const isPremium = isEntitlementActive(info);
   if (__DEV__) {
     console.log('[RevenueCat] updatePremiumFromCustomerInfo:', {
       isPremium,
@@ -105,8 +110,15 @@ export async function checkPremiumStatus(): Promise<boolean> {
 
   try {
     const customerInfo = await Purchases.getCustomerInfo();
-    const isPremium = customerInfo.entitlements.active[PREMIUM_ENTITLEMENT] !== undefined;
+    const isPremium = isEntitlementActive(customerInfo);
     setPremiumEnabled(isPremium);
+    if (isPremium) {
+      ensureInitialPremiumBackup().catch(err => {
+        if (__DEV__) {
+          console.warn('[RevenueCat] Background initial backup check failed:', err);
+        }
+      });
+    }
     return isPremium;
   } catch (error) {
     if (__DEV__) {
@@ -351,6 +363,11 @@ export async function purchasePackage(pkg: PurchasesPackage): Promise<boolean> {
         setTrialStartDate(nowMs);
         scheduleTrialReminder(nowMs).catch(() => {});
       }
+      ensureInitialPremiumBackup(true).catch(e => {
+        if (__DEV__) {
+          console.warn('[RevenueCat] Background initial backup creation failed:', e);
+        }
+      });
     }
 
     return hasPremium;
@@ -382,7 +399,13 @@ export async function restorePurchases(): Promise<boolean> {
   try {
     const customerInfo = await Purchases.restorePurchases();
     updatePremiumFromCustomerInfo(customerInfo);
-    return customerInfo.entitlements.active[PREMIUM_ENTITLEMENT] !== undefined;
+    const hasPremium = customerInfo.entitlements.active[PREMIUM_ENTITLEMENT] !== undefined;
+
+    if (hasPremium) {
+      await restoreCloudProgress('manual_restore');
+    }
+
+    return hasPremium;
   } catch (error) {
     if (__DEV__) {
       console.warn('[RevenueCat] Restore failed:', error);

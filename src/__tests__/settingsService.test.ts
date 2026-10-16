@@ -15,6 +15,7 @@ describe('settingsService with MMKV', () => {
     expect(settings.themeMode).toBe('system');
     expect(settings.speakOnCorrectAnswer).toBe(true);
     expect(settings.ttsVoiceGender).toBe('male');
+    expect(settings.quizInputMode).toBe('choice');
   });
 
   it('should update settings properly', () => {
@@ -23,12 +24,14 @@ describe('settingsService with MMKV', () => {
       themeMode: 'dark',
       speakOnCorrectAnswer: false,
       ttsVoiceGender: 'male',
+      quizInputMode: 'type_in',
     });
     const settings = getSettings();
     expect(settings.soundEffects).toBe(false);
     expect(settings.themeMode).toBe('dark');
     expect(settings.speakOnCorrectAnswer).toBe(false);
     expect(settings.ttsVoiceGender).toBe('male');
+    expect(settings.quizInputMode).toBe('type_in');
   });
 
   it('should manage language settings properly', () => {

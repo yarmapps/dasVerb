@@ -163,6 +163,10 @@ export interface SettingsLanguageSelectedParams {
   previous_language?: string;
 }
 
+export interface SettingsQuizInputModeChangedParams {
+  mode: 'choice' | 'type_in';
+}
+
 // ==========================================
 // 6. PAYWALL & MONETIZATION EVENTS
 // ==========================================
@@ -393,6 +397,35 @@ export interface DailyStreakMonthChangedParams {
 }
 
 // ==========================================
+// CLOUD SYNC EVENTS (prefix: cloud_)
+// ==========================================
+
+export interface CloudSyncStartedParams {
+  trigger: 'cold_launch' | 'quiz_finish' | 'manual' | 'settings_change';
+}
+
+export interface CloudSyncSuccessParams {
+  duration_ms: number;
+  records_synced?: number;
+}
+
+export interface CloudSyncFailedParams {
+  error_code?: string;
+  error_message?: string;
+  trigger?: string;
+}
+
+export interface CloudRestoreSuccessParams {
+  source: 'zero_tap_cold_launch' | 'manual_restore';
+  active_dates_count?: number;
+}
+
+export interface CloudIdentityResolvedParams {
+  canonical_uid: string;
+  is_existing_user: boolean;
+}
+
+// ==========================================
 // EVENT MAP
 // ==========================================
 
@@ -449,6 +482,7 @@ export interface AnalyticsEventMap {
   settings_voice_gender_changed: SettingsVoiceGenderChangedParams;
   settings_theme_changed: SettingsThemeChangedParams;
   settings_language_selected: SettingsLanguageSelectedParams;
+  settings_quiz_input_mode_changed: SettingsQuizInputModeChangedParams;
   settings_rate_app_clicked: Record<string, never>;
   settings_contact_us_clicked: Record<string, never>;
   settings_privacy_policy_clicked: Record<string, never>;
@@ -499,6 +533,13 @@ export interface AnalyticsEventMap {
   // Leaderboard
   leaderboard_icon_clicked: Record<string, never>;
   leaderboard_screen_shown: Record<string, never>;
+
+  // Cloud Sync
+  cloud_sync_started: CloudSyncStartedParams;
+  cloud_sync_success: CloudSyncSuccessParams;
+  cloud_sync_failed: CloudSyncFailedParams;
+  cloud_restore_success: CloudRestoreSuccessParams;
+  cloud_identity_resolved: CloudIdentityResolvedParams;
 }
 
 export type AnalyticsEventName = keyof AnalyticsEventMap;

@@ -6,6 +6,8 @@ const storage = createStorage('app-settings');
 const SETTINGS_KEY = 'settings';
 const LANGUAGE_KEY = 'language_settings';
 
+export type QuizInputMode = 'choice' | 'type_in';
+
 export interface AppSettings {
   soundEffects: boolean;
   notifications: boolean;
@@ -15,6 +17,7 @@ export interface AppSettings {
   completedQuizCount: number;
   lastReviewPromptDate: string | null;
   hasPromptedNameOnLaunch?: boolean;
+  quizInputMode: QuizInputMode;
 }
 
 const DEFAULT_SETTINGS: AppSettings = {
@@ -26,6 +29,7 @@ const DEFAULT_SETTINGS: AppSettings = {
   completedQuizCount: 0,
   lastReviewPromptDate: null,
   hasPromptedNameOnLaunch: false,
+  quizInputMode: 'choice',
 };
 
 export function getSettings(): AppSettings {
@@ -43,11 +47,37 @@ export function getSettings(): AppSettings {
   }
 }
 
-export function updateSettings(newSettings: Partial<AppSettings>): void {
+let settingsSyncTimeout: ReturnType<typeof setTimeout> | null = null;
+
+function triggerSettingsSync(): void {
+  if (process.env.NODE_ENV === 'test') {
+    return;
+  }
+  if (settingsSyncTimeout) {
+    clearTimeout(settingsSyncTimeout);
+  }
+  settingsSyncTimeout = setTimeout(() => {
+    try {
+      // eslint-disable-next-line @typescript-eslint/no-require-imports
+      const { syncSettings } = require('./cloudSyncService');
+      syncSettings().catch(() => {});
+    } catch {
+      // Best effort
+    }
+  }, 1000);
+  if (typeof settingsSyncTimeout?.unref === 'function') {
+    settingsSyncTimeout.unref();
+  }
+}
+
+export function updateSettings(newSettings: Partial<AppSettings>, skipSync = false): void {
   try {
     const currentSettings = getSettings();
     const updatedSettings = { ...currentSettings, ...newSettings };
     storage.set(SETTINGS_KEY, JSON.stringify(updatedSettings));
+    if (!skipSync) {
+      triggerSettingsSync();
+    }
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Error updating settings:', error);
@@ -73,6 +103,20 @@ export function resetAllSettings(): void {
   }
 }
 
+/**
+ * Returns effective quiz input mode taking into account premium status.
+ * If user lacks premium, falls back to 'choice' regardless of saved preference.
+ */
+export function getEffectiveQuizInputMode(): QuizInputMode {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const { isPremiumEnabled } = require('./premiumAccessService');
+  const settings = getSettings();
+  if (settings.quizInputMode === 'type_in' && isPremiumEnabled()) {
+    return 'type_in';
+  }
+  return 'choice';
+}
+
 export function getNativeLanguage(): SupportedLocales | null {
   try {
     const raw = storage.getString(LANGUAGE_KEY);
@@ -95,12 +139,19 @@ export function getIsLanguageSelected(): boolean {
   return false;
 }
 
-export function updateLanguageSettings(selected: boolean, lang: SupportedLocales | null): void {
+export function updateLanguageSettings(
+  selected: boolean,
+  lang: SupportedLocales | null,
+  skipSync = false,
+): void {
   try {
     storage.set(
       LANGUAGE_KEY,
       JSON.stringify({ isLanguageSelected: selected, nativeLanguage: lang }),
     );
+    if (!skipSync) {
+      triggerSettingsSync();
+    }
   } catch (e) {
     // eslint-disable-next-line no-console
     console.error(e);

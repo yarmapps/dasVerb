@@ -347,6 +347,13 @@ export interface Translation {
     resetSettingsConfirm?: string;
     resetSettingsSuccess?: string;
     resetSuccessTitle?: string;
+    practiceSection?: string;
+    quizInputMode?: string;
+    quizInputModeChoice?: string;
+    quizInputModeChoiceDesc?: string;
+    quizInputModeTypeIn?: string;
+    quizInputModeTypeInDesc?: string;
+    quizInputModeDesc?: string;
   };
   notifications?: {
     reminderTitle: string;
@@ -410,6 +417,7 @@ export interface Translation {
   };
   quizSettingsModal: {
     title: string;
+    quizInputMode?: string;
   };
   premiumSheets?: {
     subscribeTitle: string;

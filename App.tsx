@@ -14,6 +14,8 @@ import { preloadRewardedAdOnAppStart } from './src/ads/useRewardedAd';
 import { appConfigService } from './src/services/appConfigService';
 import { initializeAnalytics } from './src/services/analyticsService';
 import { initRevenueCat } from './src/services/revenueCatService';
+import { isPremiumEnabled } from './src/services/premiumAccessService';
+import { ensureInitialPremiumBackup } from './src/services/cloudSyncService';
 import { initializeNotifications } from './src/services/notificationService';
 import { soundService } from './src/services/soundService';
 import { PostHogProvider } from 'posthog-react-native';
@@ -84,6 +86,9 @@ function AppWrapper(): React.JSX.Element {
         await initializeAnalytics().catch(() => {});
         await appConfigService.init(500).catch(() => {});
         await initRevenueCat().catch(() => {});
+        if (isPremiumEnabled()) {
+          ensureInitialPremiumBackup(false).catch(() => {});
+        }
         await initializeNotifications().catch(() => {});
         await soundService.initialize().catch(() => {});
 
@@ -121,7 +126,8 @@ export function App(): React.JSX.Element {
       apiKey="phc_nkoZyjZMMbrP7RXzvDjtP3PTzmbjLAxSnJwyEEQdbJG4"
       options={{
         host: 'https://eu.i.posthog.com',
-        enableSessionReplay: true,
+        disabled: __DEV__,
+        enableSessionReplay: !__DEV__,
         sessionReplayConfig: {
           maskAllTextInputs: false,
           maskAllImages: false,
@@ -131,7 +137,7 @@ export function App(): React.JSX.Element {
       }}
       autocapture={{
         captureScreens: false,
-        captureTouches: true,
+        captureTouches: !__DEV__,
       }}
     >
       <SafeAreaProvider>

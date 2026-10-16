@@ -89,5 +89,10 @@ export function createStyles(colors: ThemeColors) {
       fontWeight: '600',
       color: colors.textSecondary,
     },
+    gapInputText: {
+      padding: 0,
+      margin: 0,
+      width: '100%',
+    },
   });
 }

@@ -78,6 +78,22 @@ export const createStyles = (colors: ThemeColors) =>
       justifyContent: 'center',
       alignItems: 'center',
     },
+    cardHeaderActions: {
+      flexDirection: 'row',
+      alignItems: 'center',
+    },
+    cardHeaderActionButton: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      height: 28,
+      paddingHorizontal: 8,
+      borderRadius: 14,
+      backgroundColor: colors.headerButtonBackground,
+      marginRight: 8,
+    },
+    cardHeaderDiamondIcon: {
+      marginLeft: 4,
+    },
     sentenceRow: {
       paddingHorizontal: 20,
       flexDirection: 'row',
@@ -224,6 +240,34 @@ export const createStyles = (colors: ThemeColors) =>
     },
     optionButtonTextIncorrect: {
       color: '#EF4444',
+    },
+    typeInBottomContainer: {
+      width: '100%',
+      paddingHorizontal: 20,
+      paddingTop: Spacing.sm,
+    },
+    checkButton: {
+      width: '100%',
+      height: 52,
+      borderRadius: 16,
+      backgroundColor: colors.primary,
+      justifyContent: 'center',
+      alignItems: 'center',
+      shadowColor: colors.primary,
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 0.25,
+      shadowRadius: 6,
+      elevation: 4,
+    },
+    checkButtonDisabled: {
+      opacity: 0.45,
+      shadowOpacity: 0,
+      elevation: 0,
+    },
+    checkButtonText: {
+      fontSize: Typography.fontSize.md,
+      fontWeight: '700',
+      color: '#ffffff',
     },
     tapToContinueContainer: {
       minHeight: 48,

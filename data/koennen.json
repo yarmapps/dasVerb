@@ -269,34 +269,37 @@
     {
       "id": "s7",
       "tense": "Perfekt",
-      "german": "Sie haben gestern nicht kommen können",
+      "german": "Sie haben das gestern einfach nicht gekonnt.",
       "translation": {
-        "ru": "Они вчера не смогли прийти",
-        "en": "They could not come yesterday",
-        "de": "Sie haben gestern nicht kommen können",
-        "es": "Ayer no pudieron venir",
-        "fr": "Ils n'ont pas pu venir hier",
-        "it": "Ieri non sono potuti venire",
-        "pt": "Eles não puderam vir ontem",
-        "nl": "Ze hebben gisteren niet kunnen komen",
-        "pl": "Nie mogli wczoraj przyjść",
-        "cs": "Včera nemohli přijít",
-        "sk": "Včera nemohli prísť",
-        "sl": "Včeraj niso mogli priti",
-        "hr": "Jučer nisu mogli doći",
-        "hu": "Tegnap nem tudtak eljönni",
-        "ro": "Nu au putut veni ieri",
-        "el": "Δεν μπόρεσαν να έρθουν χθες",
-        "uk": "Вони вчора не змогли прийти",
-        "tr": "Dün gelemediler",
-        "vi": "Hôm qua họ đã không thể đến",
-        "id": "Mereka tidak bisa datang kemarin",
-        "ar": "لم يتمكنوا من القدوم بالأمس",
-        "fa": "آن‌ها دیروز نتوانستند بیایند"
+        "ru": "Они вчера просто не смогли этого сделать.",
+        "en": "They simply could not do that yesterday.",
+        "de": "Sie haben das gestern einfach nicht gekonnt.",
+        "es": "Ayer simplemente no pudieron hacer eso.",
+        "fr": "Ils n'ont tout simplement pas pu faire cela hier.",
+        "it": "Ieri semplicemente non sono stati capaci di farlo.",
+        "pt": "Eles simplesmente não foram capazes de fazer isso ontem.",
+        "nl": "Ze hebben dat gisteren gewoon niet gekund.",
+        "pl": "Po prostu nie potrafili tego wczoraj zrobić.",
+        "cs": "Včera to prostě nedokázali.",
+        "sk": "Včera to jednoducho nedokázali.",
+        "sl": "Včeraj tega preprosto niso zmogli.",
+        "hr": "Jučer to jednostavno nisu mogli.",
+        "hu": "Tegnap ezt egyszerűen nem tudták megcsinálni.",
+        "ro": "Pur și simplu nu au putut face asta ieri.",
+        "el": "Χθες απλά δεν μπόρεσαν να το κάνουν αυτό.",
+        "uk": "Вони вчора просто не змогли цього зробити.",
+        "tr": "Dün bunu yapmayı bir türlü beceremediler.",
+        "vi": "Hôm qua họ đơn giản là không thể làm được việc đó.",
+        "id": "Kemarin mereka sama sekali tidak bisa melakukan itu.",
+        "ar": "لم يتمكنوا من فعل ذلك بالأمس ببساطة.",
+        "fa": "آن‌ها دیروز اصلاً نتوانستند آن کار را انجام دهند."
       },
       "bracket_parts": [
         "haben",
-        "können"
+        "gekonnt"
+      ],
+      "akkusativ_parts": [
+        "das"
       ]
     },
     {

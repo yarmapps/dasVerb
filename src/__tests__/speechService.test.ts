@@ -1,5 +1,6 @@
 import * as Speech from 'expo-speech';
 import { speechService } from '../services/speechService';
+import { audioService } from '../services/audioService';
 import { updateSettings } from '../services/settingsService';
 
 describe('speechService', () => {
@@ -42,5 +43,18 @@ describe('speechService', () => {
   it('should check if male voice is available', async () => {
     const hasMale = await speechService.hasMaleVoiceAvailable();
     expect(typeof hasMale).toBe('boolean');
+  });
+
+  it('should play via audio player when audio source is available and not call Speech.speak if it finishes', async () => {
+    const onComplete = jest.fn();
+    await speechService.speakSentence('fuehren', 's1', 'Er fuehrt das Team.', onComplete);
+    expect(Speech.speak).not.toHaveBeenCalled();
+  });
+
+  it('should fall back to Speech.speak when audio source is not found', async () => {
+    jest.spyOn(audioService, 'getAudioSource').mockResolvedValueOnce(null);
+
+    await speechService.speakSentence('unknown_verb', 's1', 'Ein Beispielsatz.');
+    expect(Speech.speak).toHaveBeenCalledWith('Ein Beispielsatz.', expect.any(Object));
   });
 });

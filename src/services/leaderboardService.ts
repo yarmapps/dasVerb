@@ -14,6 +14,7 @@ import {
   serverTimestamp,
   where,
   getCountFromServer,
+  runTransaction,
 } from '@react-native-firebase/firestore';
 import { createStorage } from './storageService';
 import { getRevenueCatAppUserID } from './revenueCatService';
@@ -28,6 +29,7 @@ const PENDING_QUIZ_POINTS_KEY = 'pending_quiz_points';
 const DEBUG_LEADERBOARD_OVERRIDE_KEY = 'debug_leaderboard_enabled';
 const DEBUG_LEADERBOARD_HISTORY_TAB_OVERRIDE_KEY = 'debug_leaderboard_history_tab_enabled';
 const CANONICAL_UID_KEY = 'user_canonical_uid';
+const USER_NUMBER_KEY = 'user_number';
 const LAST_SEEN_MONTHLY_RECAP_KEY = 'last_seen_monthly_recap_month';
 
 /**
@@ -191,13 +193,28 @@ export function clearLeaderboardCache(): void {
  * Ensures Firebase anonymous authentication is initialized.
  */
 export async function ensureAuthenticated(): Promise<string> {
-  const authInstance = getAuth();
-  let { currentUser } = authInstance;
-  if (!currentUser) {
-    const { user } = await signInAnonymously(authInstance);
-    currentUser = user;
+  try {
+    const authInstance = getAuth();
+    let { currentUser } = authInstance;
+    if (!currentUser) {
+      const { user } = await signInAnonymously(authInstance);
+      currentUser = user;
+    }
+    return currentUser.uid;
+  } catch (error) {
+    if (__DEV__) {
+      console.warn(
+        '[leaderboardService] ensureAuthenticated error (app may need native rebuild for @react-native-firebase/auth):',
+        error,
+      );
+    }
+    let localUid = storage.getString(CANONICAL_UID_KEY);
+    if (!localUid) {
+      localUid = 'local_' + Math.random().toString(36).substring(2, 12);
+      storage.set(CANONICAL_UID_KEY, localUid);
+    }
+    return localUid;
   }
-  return currentUser.uid;
 }
 
 /**
@@ -218,6 +235,82 @@ export function getStoredCanonicalUid(): string | undefined {
 
 export function setStoredCanonicalUid(uid: string): void {
   storage.set(CANONICAL_UID_KEY, uid);
+}
+
+export function getStoredUserNumber(): number | undefined {
+  const val = storage.getString(USER_NUMBER_KEY);
+  if (val !== undefined && val !== '') {
+    const num = Number(val);
+    return isNaN(num) ? undefined : num;
+  }
+  return undefined;
+}
+
+export function setStoredUserNumber(num: number): void {
+  storage.set(USER_NUMBER_KEY, String(num));
+}
+
+export function resetStoredUserNumber(): void {
+  storage.delete(USER_NUMBER_KEY);
+}
+
+export function resetStoredCanonicalUid(): void {
+  storage.delete(CANONICAL_UID_KEY);
+}
+
+/**
+ * Ensures user has an assigned sequential unique number from global counter.
+ * Returns undefined if offline or unavailable (will retry on next sync/quiz).
+ */
+export async function ensureUserNumber(userId: string): Promise<number | undefined> {
+  const storedNum = getStoredUserNumber();
+  if (storedNum) return storedNum;
+
+  try {
+    const db = getFirestore();
+    const userRef = doc(db, 'users', userId);
+
+    // 1. Fast check if user already has userNumber in their Firestore document
+    const userSnap = await getDoc(userRef);
+    const uData = userSnap.data();
+    if (userSnap.exists() && uData?.userNumber) {
+      const existingNum = Number(uData.userNumber);
+      setStoredUserNumber(existingNum);
+      return existingNum;
+    }
+
+    // 2. Allocate new sequential number from global counter
+    const counterRef = doc(db, 'system', 'counters');
+    let assignedNumber: number | undefined;
+
+    await runTransaction(db, async transaction => {
+      const uSnap = await transaction.get(userRef);
+      if (uSnap.exists() && uSnap.data()?.userNumber) {
+        assignedNumber = Number(uSnap.data().userNumber);
+        return;
+      }
+
+      const counterSnap = await transaction.get(counterRef);
+      let lastNum = 0;
+      if (counterSnap.exists() && counterSnap.data()?.lastUserNumber) {
+        lastNum = Number(counterSnap.data().lastUserNumber);
+      }
+
+      assignedNumber = lastNum + 1;
+      transaction.set(counterRef, { lastUserNumber: assignedNumber }, { merge: true });
+      transaction.set(userRef, { userNumber: assignedNumber }, { merge: true });
+    });
+
+    if (assignedNumber !== undefined) {
+      setStoredUserNumber(assignedNumber);
+    }
+    return assignedNumber;
+  } catch (error) {
+    if (__DEV__) {
+      console.warn('[leaderboardService] Failed to assign userNumber (will retry later):', error);
+    }
+    return undefined;
+  }
 }
 
 /**

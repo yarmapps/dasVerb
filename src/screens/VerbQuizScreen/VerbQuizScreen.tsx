@@ -38,7 +38,12 @@ import { verbDataService } from '../../services/verbDataService';
 import { progressService } from '../../services/progressService';
 import { soundService } from '../../services/soundService';
 import { speechService } from '../../services/speechService';
-import { getSettings, updateSettings } from '../../services/settingsService';
+import { audioService } from '../../services/audioService';
+import { getSettings, updateSettings, QuizInputMode } from '../../services/settingsService';
+import { usePremiumStatus } from '../../hooks/usePremiumStatus';
+import { useFeatureFlag } from '../../services/featuresService';
+import { PremiumSubscribeSheet } from '../../components/PremiumSubscribeSheet/PremiumSubscribeSheet';
+import { isAnswerCorrect } from '../../utils/answerValidation';
 import {
   quizGeneratorService,
   QuizExercise,
@@ -200,6 +205,20 @@ export function VerbQuizScreen(): React.JSX.Element {
     let isMounted = true;
 
     async function loadQuizData() {
+      function applyExercises(generated: QuizExercise[]) {
+        if (generated.length > 0 && isMounted) {
+          setExercises(generated);
+          const settings = getSettings();
+          const gender = settings.ttsVoiceGender || 'female';
+          const filesToPreload = generated
+            .filter(ex => ex.verbCard?.id && ex.sentence?.id)
+            .map(ex => `${ex.verbCard.id}_${ex.sentence.id}_${gender}.m4a`);
+          if (filesToPreload.length > 0) {
+            audioService.preloadAudioFiles(filesToPreload).catch(() => {});
+          }
+        }
+      }
+
       try {
         if (prepositionLevelId) {
           const levelData = await verbDataService.getPrepositionLevelById(prepositionLevelId);
@@ -214,9 +233,7 @@ export function VerbQuizScreen(): React.JSX.Element {
             );
             const validCards = cards.filter(Boolean) as VerbCard[];
             const generated = quizGeneratorService.generatePrepositionExercises(validCards);
-            if (generated.length > 0 && isMounted) {
-              setExercises(generated);
-            }
+            applyExercises(generated);
           }
         } else if (verbFormsLevelId) {
           const levelData = await verbDataService.getVerbFormsLevelById(verbFormsLevelId);
@@ -239,9 +256,7 @@ export function VerbQuizScreen(): React.JSX.Element {
               validCards,
               isCheckpointOrFinal,
             );
-            if (generated.length > 0 && isMounted) {
-              setExercises(generated);
-            }
+            applyExercises(generated);
           }
         } else if (conjugationLevelId) {
           const levelData = await verbDataService.getConjugationLevelById(conjugationLevelId);
@@ -259,18 +274,14 @@ export function VerbQuizScreen(): React.JSX.Element {
             );
             const validCards = cards.filter(Boolean) as VerbCard[];
             const generated = quizGeneratorService.generateConjugationExercises(validCards);
-            if (generated.length > 0 && isMounted) {
-              setExercises(generated);
-            }
+            applyExercises(generated);
           }
         } else if (prefixLevelId) {
           const levelData = await verbDataService.getPrefixLevelById(prefixLevelId);
           if (levelData && isMounted) {
             const pairs = await verbDataService.getSentencesByIds(levelData.exerciseSentenceIds);
             const generated = quizGeneratorService.generatePrefixExercises(pairs);
-            if (generated.length > 0) {
-              setExercises(generated);
-            }
+            applyExercises(generated);
           }
         } else if (isPrefixCheckpoint && prefixCefrLevel) {
           const checkpointData = await verbDataService.getPrefixCheckpoint(prefixCefrLevel);
@@ -279,17 +290,13 @@ export function VerbQuizScreen(): React.JSX.Element {
               checkpointData.exerciseSentenceIds,
             );
             const generated = quizGeneratorService.generatePrefixExercises(pairs);
-            if (generated.length > 0) {
-              setExercises(generated);
-            }
+            applyExercises(generated);
           }
         } else if (isSmartQuiz) {
           const allVerbs = await verbDataService.getVerbsOrderedByDifficulty();
           if (allVerbs.length > 0 && isMounted) {
             const generated = quizGeneratorService.generateSmartQuizExercises(allVerbs, 50);
-            if (generated.length > 0) {
-              setExercises(generated);
-            }
+            applyExercises(generated);
           }
         } else if ((isCheckpoint || isCategoryQuiz) && infinitives.length > 0) {
           const allCardsNested = await Promise.all(
@@ -298,9 +305,7 @@ export function VerbQuizScreen(): React.JSX.Element {
           const flattenedCards = allCardsNested.flat();
           if (flattenedCards.length > 0 && isMounted) {
             const generated = quizGeneratorService.generateCheckpointExercises(flattenedCards);
-            if (generated.length > 0) {
-              setExercises(generated);
-            }
+            applyExercises(generated);
           }
         } else {
           const verbCards = await verbDataService.getVerbsByInfinitive(infinitive);
@@ -309,9 +314,7 @@ export function VerbQuizScreen(): React.JSX.Element {
               verbCards[0],
               verbCards,
             );
-            if (generated.length > 0) {
-              setExercises(generated);
-            }
+            applyExercises(generated);
           }
         }
       } catch (error) {
@@ -348,6 +351,31 @@ export function VerbQuizScreen(): React.JSX.Element {
   const [speakOnCorrectAnswer, setSpeakOnCorrectAnswer] = useState(
     () => getSettings().speakOnCorrectAnswer,
   );
+  const [ttsVoiceGender, setTtsVoiceGender] = useState<'female' | 'male'>(
+    () => getSettings().ttsVoiceGender || 'female',
+  );
+  const isPremium = usePremiumStatus();
+  const isPremiumFeatureEnabled = useFeatureFlag('ENABLE_PREMIUM');
+  const [showPremiumSheet, setShowPremiumSheet] = useState(false);
+  const [quizInputMode, setQuizInputMode] = useState<QuizInputMode>(
+    () => getSettings().quizInputMode,
+  );
+  const effectiveInputMode: QuizInputMode =
+    isPremium && quizInputMode === 'type_in' ? 'type_in' : 'choice';
+
+  const handleToggleInputModeQuick = useCallback(() => {
+    soundService.playTapSound();
+    if (!isPremium) {
+      if (isPremiumFeatureEnabled) {
+        setShowPremiumSheet(true);
+      }
+      return;
+    }
+    const nextMode: QuizInputMode = quizInputMode === 'choice' ? 'type_in' : 'choice';
+    trackEvent('settings_quiz_input_mode_changed', { mode: nextMode });
+    setQuizInputMode(nextMode);
+    updateSettings({ quizInputMode: nextMode });
+  }, [isPremium, isPremiumFeatureEnabled, quizInputMode]);
 
   const resolvedQuizType = useMemo(
     () =>
@@ -384,6 +412,23 @@ export function VerbQuizScreen(): React.JSX.Element {
       });
     },
     [resolvedQuizType],
+  );
+
+  const handleChangeVoiceGender = useCallback(
+    (newGender: 'female' | 'male') => {
+      setTtsVoiceGender(newGender);
+      updateSettings({ ttsVoiceGender: newGender });
+      trackEvent('settings_voice_gender_changed', { gender: newGender });
+
+      // Preload audio files for the remaining exercises with newly selected voice gender
+      const filesToPreload = exercises
+        .filter(ex => ex.verbCard?.id && ex.sentence?.id)
+        .map(ex => `${ex.verbCard.id}_${ex.sentence.id}_${newGender}.m4a`);
+      if (filesToPreload.length > 0) {
+        audioService.preloadAudioFiles(filesToPreload).catch(() => {});
+      }
+    },
+    [exercises],
   );
 
   const currentExercise = exercises[currentExerciseIndex] || exercises[0];
@@ -620,36 +665,13 @@ export function VerbQuizScreen(): React.JSX.Element {
     }
   }, [status, goToNextQuestion]);
 
-  const handleOptionPress = useCallback(
-    (option: string) => {
-      if (status !== 'idle') return;
+  const processSubmission = useCallback(
+    (nextAnswers: string[]) => {
+      if (status !== 'idle' || !currentExercise) return;
 
-      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-      soundService.playTapSound();
-
-      const nextAnswers = [...userAnswers];
-      nextAnswers[activeGapIndex] = option;
-      setUserAnswers(nextAnswers);
-
-      if (currentExercise.type === 'verb_forms_fill') {
-        const nextUnfilledIndex = currentExercise.gaps.findIndex(
-          (_, idx) => idx !== activeGapIndex && !nextAnswers[idx],
-        );
-        if (nextUnfilledIndex !== -1) {
-          setActiveGapIndex(nextUnfilledIndex);
-          return;
-        }
-      } else {
-        const hasNextGap = activeGapIndex + 1 < currentExercise.gaps.length;
-        if (hasNextGap) {
-          setActiveGapIndex(prev => prev + 1);
-          return;
-        }
-      }
-
-      // Проверяем все ответы
-      const allCorrect = currentExercise.gaps.every(
-        (gap, index) => gap.correctValue === nextAnswers[index],
+      // Проверяем все ответы с толерантной нормализацией
+      const allCorrect = currentExercise.gaps.every((gap, index) =>
+        isAnswerCorrect(nextAnswers[index], gap.correctValue),
       );
 
       const sentenceGerman = currentExercise.segments
@@ -677,7 +699,7 @@ export function VerbQuizScreen(): React.JSX.Element {
       } else if (currentExercise.type === 'conjugation_fill' && currentExercise.conjugationRows) {
         currentExercise.conjugationRows.forEach(row => {
           const userAnswer = nextAnswers[row.gapIndex] || '';
-          const isSlotCorrect = userAnswer === row.correctValue;
+          const isSlotCorrect = isAnswerCorrect(userAnswer, row.correctValue);
           const reflexive = row.reflexivePronoun ? ` ${row.reflexivePronoun}` : '';
           const rowGerman = `${row.pronoun} ${row.correctValue}${reflexive}`;
 
@@ -747,7 +769,9 @@ export function VerbQuizScreen(): React.JSX.Element {
           }
           const delay = process.env.NODE_ENV === 'test' ? 0 : 250;
           ttsTimeoutRef.current = setTimeout(() => {
-            speechService.speak(sentenceGerman);
+            const verbId = currentExercise.verbCard?.id || infinitive;
+            const sentenceId = currentExercise.sentence?.id || 's1';
+            speechService.speakSentence(verbId, sentenceId, sentenceGerman);
             trackEvent('quiz_tts_played', {
               quiz_type: resolvedQuizType,
               infinitive: currentExercise.verbCard?.infinitive || infinitive,
@@ -789,7 +813,7 @@ export function VerbQuizScreen(): React.JSX.Element {
           hintType = 'conjugation';
         } else if (currentExercise.tense === 'Perfekt') {
           const incorrectGapIndices = currentExercise.gaps
-            .map((gap, idx) => (nextAnswers[idx] !== gap.correctValue ? idx : -1))
+            .map((gap, idx) => (!isAnswerCorrect(nextAnswers[idx], gap.correctValue) ? idx : -1))
             .filter(idx => idx !== -1);
           const isAuxiliaryError = incorrectGapIndices.some(idx => {
             const gap = currentExercise.gaps[idx];
@@ -810,15 +834,94 @@ export function VerbQuizScreen(): React.JSX.Element {
     },
     [
       status,
-      userAnswers,
-      activeGapIndex,
       currentExercise,
-      speakOnCorrectAnswer,
       resolvedQuizType,
-      currentExerciseIndex,
       infinitive,
       level,
+      currentExerciseIndex,
+      speakOnCorrectAnswer,
     ],
+  );
+
+  const handleOptionPress = useCallback(
+    (option: string) => {
+      if (status !== 'idle' || !currentExercise) return;
+
+      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+      soundService.playTapSound();
+
+      const nextAnswers = [...userAnswers];
+      nextAnswers[activeGapIndex] = option;
+      setUserAnswers(nextAnswers);
+
+      if (currentExercise.type === 'verb_forms_fill') {
+        const nextUnfilledIndex = currentExercise.gaps.findIndex(
+          (_, idx) => idx !== activeGapIndex && !nextAnswers[idx],
+        );
+        if (nextUnfilledIndex !== -1) {
+          setActiveGapIndex(nextUnfilledIndex);
+          return;
+        }
+      } else {
+        const hasNextGap = activeGapIndex + 1 < currentExercise.gaps.length;
+        if (hasNextGap) {
+          setActiveGapIndex(prev => prev + 1);
+          return;
+        }
+      }
+
+      processSubmission(nextAnswers);
+    },
+    [status, currentExercise, userAnswers, activeGapIndex, processSubmission],
+  );
+
+  const canSubmitTypeIn = useMemo(() => {
+    if (!currentExercise || !currentExercise.gaps) return false;
+    return currentExercise.gaps.every((gap, idx) => {
+      if (gap.correctValue === '—' || gap.correctValue === '-') {
+        return true;
+      }
+      return Boolean(userAnswers[idx] && userAnswers[idx].trim().length > 0);
+    });
+  }, [currentExercise, userAnswers]);
+
+  const handleSubmitTypedAnswers = useCallback(() => {
+    if (status !== 'idle' || !canSubmitTypeIn) return;
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    soundService.playTapSound();
+    processSubmission(userAnswers);
+  }, [status, canSubmitTypeIn, processSubmission, userAnswers]);
+
+  const handleTextChange = useCallback((gapIndex: number, text: string) => {
+    setUserAnswers(prev => {
+      const next = [...prev];
+      next[gapIndex] = text;
+      return next;
+    });
+  }, []);
+
+  const handleSubmitSlot = useCallback(
+    (gapIndex: number) => {
+      if (!currentExercise || !currentExercise.gaps) return;
+      const totalGaps = currentExercise.gaps.length;
+      if (currentExercise.type === 'verb_forms_fill') {
+        const nextUnfilled = currentExercise.gaps.findIndex(
+          (_, idx) => idx !== gapIndex && !userAnswers[idx],
+        );
+        if (nextUnfilled !== -1) {
+          setActiveGapIndex(nextUnfilled);
+          return;
+        }
+      } else if (gapIndex + 1 < totalGaps) {
+        setActiveGapIndex(gapIndex + 1);
+        return;
+      }
+
+      if (canSubmitTypeIn) {
+        handleSubmitTypedAnswers();
+      }
+    },
+    [currentExercise, userAnswers, canSubmitTypeIn, handleSubmitTypedAnswers],
   );
 
   const renderGrammarHint = useCallback(() => {
@@ -1069,6 +1172,9 @@ export function VerbQuizScreen(): React.JSX.Element {
           status={status}
           pulseAnim={pulseAnim}
           onSlotPress={handleSlotPress}
+          inputMode={effectiveInputMode}
+          onTextChange={handleTextChange}
+          onSubmitSlot={handleSubmitSlot}
         />
       );
     }
@@ -1081,6 +1187,9 @@ export function VerbQuizScreen(): React.JSX.Element {
           status={status}
           pulseAnim={pulseAnim}
           onSlotPress={handleSlotPress}
+          inputMode={effectiveInputMode}
+          onTextChange={handleTextChange}
+          onSubmitSlot={handleSubmitSlot}
         />
       );
     }
@@ -1093,6 +1202,9 @@ export function VerbQuizScreen(): React.JSX.Element {
           status={status}
           pulseAnim={pulseAnim}
           onSlotPress={handleSlotPress}
+          inputMode={effectiveInputMode}
+          onTextChange={handleTextChange}
+          onSubmitSlot={handleSubmitSlot}
         />
       );
     }
@@ -1104,6 +1216,9 @@ export function VerbQuizScreen(): React.JSX.Element {
         status={status}
         pulseAnim={pulseAnim}
         onSlotPress={handleSlotPress}
+        inputMode={effectiveInputMode}
+        onTextChange={handleTextChange}
+        onSubmitSlot={handleSubmitSlot}
       />
     );
   };
@@ -1229,6 +1344,61 @@ export function VerbQuizScreen(): React.JSX.Element {
     );
   };
 
+  const renderBottomSectionContent = () => {
+    if (status !== 'idle') {
+      return (
+        <View style={styles.tapToContinueContainer}>
+          <MaterialIcons
+            name="touch-app"
+            size={20}
+            color={colors.textMuted}
+            style={styles.tapToContinueIcon}
+          />
+          <Text style={styles.tapToContinueText}>
+            {intl.formatMessage({ id: 'verbQuizScreen.tapToContinue' })}
+          </Text>
+        </View>
+      );
+    }
+
+    if (effectiveInputMode === 'type_in') {
+      return (
+        <View style={styles.typeInBottomContainer}>
+          <TouchableOpacity
+            style={[styles.checkButton, !canSubmitTypeIn && styles.checkButtonDisabled]}
+            activeOpacity={0.8}
+            disabled={!canSubmitTypeIn}
+            onPress={handleSubmitTypedAnswers}
+            testID="quiz-check-button"
+          >
+            <Text style={styles.checkButtonText}>
+              {intl.formatMessage({ id: 'verbQuizScreen.check' })}
+            </Text>
+          </TouchableOpacity>
+        </View>
+      );
+    }
+
+    return (
+      <View style={styles.optionsGrid}>
+        {currentGap?.options.map((option, optIdx) => {
+          const isFifthOfFive = currentGap.options.length === 5 && optIdx === 4;
+          return (
+            <TouchableOpacity
+              key={optIdx}
+              style={[styles.optionButton, isFifthOfFive && styles.optionButtonFullWidth]}
+              activeOpacity={0.8}
+              onPress={() => handleOptionPress(option)}
+              testID={`option-button-${option}`}
+            >
+              <Text style={styles.optionButtonText}>{option}</Text>
+            </TouchableOpacity>
+          );
+        })}
+      </View>
+    );
+  };
+
   if (!currentExercise || exercises.length === 0) {
     return (
       <ScreenBackground>
@@ -1308,15 +1478,38 @@ export function VerbQuizScreen(): React.JSX.Element {
             <View style={styles.sentenceCard} testID="quiz-sentence-card">
               <View style={styles.cardHeader}>
                 <Text style={styles.sentenceCardLabel}>{cardHeaderTitle}</Text>
-                <TouchableOpacity
-                  style={styles.cardSettingsButton}
-                  onPress={() => setIsSettingsModalVisible(true)}
-                  activeOpacity={0.7}
-                  hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
-                  testID="quiz-settings-button"
-                >
-                  <FontAwesome5 name="cog" size={14} color={colors.textSecondary} />
-                </TouchableOpacity>
+                <View style={styles.cardHeaderActions}>
+                  <TouchableOpacity
+                    style={styles.cardHeaderActionButton}
+                    onPress={handleToggleInputModeQuick}
+                    activeOpacity={0.7}
+                    hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+                    testID="quiz-input-mode-toggle-button"
+                  >
+                    <FontAwesome5
+                      name={effectiveInputMode === 'type_in' ? 'font' : 'th-large'}
+                      size={12}
+                      color={colors.textSecondary}
+                    />
+                    {!isPremium && (
+                      <FontAwesome5
+                        name="gem"
+                        size={9}
+                        color={colors.premiumDiamond}
+                        style={styles.cardHeaderDiamondIcon}
+                      />
+                    )}
+                  </TouchableOpacity>
+                  <TouchableOpacity
+                    style={styles.cardSettingsButton}
+                    onPress={() => setIsSettingsModalVisible(true)}
+                    activeOpacity={0.7}
+                    hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+                    testID="quiz-settings-button"
+                  >
+                    <FontAwesome5 name="cog" size={14} color={colors.textSecondary} />
+                  </TouchableOpacity>
+                </View>
               </View>
 
               {renderExerciseContent()}
@@ -1337,38 +1530,9 @@ export function VerbQuizScreen(): React.JSX.Element {
           </Pressable>
         </ScrollView>
 
-        {/* Bottom Options 2x2 Grid - only visible while filling */}
+        {/* Bottom Options 2x2 Grid or Type-in Check button */}
         <View style={[styles.bottomSection, { paddingBottom: bottomPadding }]}>
-          {status === 'idle' ? (
-            <View style={styles.optionsGrid}>
-              {currentGap?.options.map((option, optIdx) => {
-                const isFifthOfFive = currentGap.options.length === 5 && optIdx === 4;
-                return (
-                  <TouchableOpacity
-                    key={optIdx}
-                    style={[styles.optionButton, isFifthOfFive && styles.optionButtonFullWidth]}
-                    activeOpacity={0.8}
-                    onPress={() => handleOptionPress(option)}
-                    testID={`option-button-${option}`}
-                  >
-                    <Text style={styles.optionButtonText}>{option}</Text>
-                  </TouchableOpacity>
-                );
-              })}
-            </View>
-          ) : (
-            <View style={styles.tapToContinueContainer}>
-              <MaterialIcons
-                name="touch-app"
-                size={20}
-                color={colors.textMuted}
-                style={styles.tapToContinueIcon}
-              />
-              <Text style={styles.tapToContinueText}>
-                {intl.formatMessage({ id: 'verbQuizScreen.tapToContinue' })}
-              </Text>
-            </View>
-          )}
+          {renderBottomSectionContent()}
         </View>
       </Pressable>
 
@@ -1377,7 +1541,29 @@ export function VerbQuizScreen(): React.JSX.Element {
         onClose={() => setIsSettingsModalVisible(false)}
         speakOnCorrectAnswer={speakOnCorrectAnswer}
         onToggleSpeakOnCorrectAnswer={handleToggleSpeakOnCorrectAnswer}
+        ttsVoiceGender={ttsVoiceGender}
+        onChangeVoiceGender={handleChangeVoiceGender}
+        quizInputMode={quizInputMode}
+        isPremium={isPremium}
+        onChangeInputMode={mode => {
+          trackEvent('settings_quiz_input_mode_changed', { mode });
+          setQuizInputMode(mode);
+          updateSettings({ quizInputMode: mode });
+        }}
+        onRequirePremium={() => {
+          setIsSettingsModalVisible(false);
+          if (isPremiumFeatureEnabled) {
+            setShowPremiumSheet(true);
+          }
+        }}
       />
+      {isPremiumFeatureEnabled && (
+        <PremiumSubscribeSheet
+          visible={showPremiumSheet}
+          onClose={() => setShowPremiumSheet(false)}
+          source="quiz_type_in"
+        />
+      )}
     </ScreenBackground>
   );
 }

@@ -87,6 +87,28 @@ export const createStyles = (colors: ThemeColors) =>
       backgroundColor: colors.blockBorder,
       marginLeft: Spacing.lg + 32 + Spacing.md,
     },
+    dropdownTrigger: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      backgroundColor: colors.headerButtonBackground,
+      borderRadius: 10,
+      paddingVertical: 6,
+      paddingHorizontal: 10,
+      borderWidth: 1,
+      borderColor: colors.blockBorder,
+    },
+    dropdownTriggerText: {
+      fontSize: Typography.fontSize.xs,
+      fontWeight: '600',
+      color: colors.textPrimary,
+      marginRight: Spacing.xs,
+    },
+    dropdownDiamond: {
+      marginRight: 6,
+    },
+    dropdownChevron: {
+      marginLeft: 2,
+    },
     versionText: {
       textAlign: 'center',
       fontSize: Typography.fontSize.xs,

@@ -78,5 +78,10 @@ export function createStyles(colors: ThemeColors) {
     gapSlotTextIncorrect: {
       color: '#EF4444',
     },
+    gapInputText: {
+      padding: 0,
+      margin: 0,
+      minWidth: 40,
+    },
   });
 }

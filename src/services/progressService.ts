@@ -56,6 +56,34 @@ export interface SentenceProgressStats {
   incorrect: number;
 }
 
+export interface VerbProgressSnapshot {
+  verbProgress: Record<string, VerbProgress>;
+  sentenceErrors: Record<string, SentenceProgressStats>;
+  checkpointProgress: Record<string, VerbProgress>;
+  prefixLevelsProgress: Record<string, VerbProgress>;
+  conjugationLevelsProgress: Record<string, VerbProgress>;
+  verbFormsLevelsProgress: Record<string, VerbProgress>;
+  prepositionLevelsProgress: Record<string, VerbProgress>;
+}
+
+function parseStorageRecords<T>(
+  storageInstance: ReturnType<typeof createStorage>,
+): Record<string, T> {
+  const allKeys = storageInstance.getAllKeys();
+  const records: Record<string, T> = {};
+  for (const key of allKeys) {
+    const raw = storageInstance.getString(key);
+    if (raw) {
+      try {
+        records[key] = JSON.parse(raw);
+      } catch {
+        // ignore corrupted json
+      }
+    }
+  }
+  return records;
+}
+
 export const progressService = {
   getVerbProgress(verbId: string): VerbProgress {
     const candidateKeys = getAlternativeKeys(verbId);
@@ -338,5 +366,95 @@ export const progressService = {
       lastPracticedAt: Date.now(),
     };
     prepositionLevelsStorage.set(levelId, JSON.stringify(progressData));
+  },
+
+  getAllProgressSnapshot(): VerbProgressSnapshot {
+    return {
+      verbProgress: parseStorageRecords<VerbProgress>(progressStorage),
+      sentenceErrors: parseStorageRecords<SentenceProgressStats>(sentenceErrorsStorage),
+      checkpointProgress: parseStorageRecords<VerbProgress>(checkpointStorage),
+      prefixLevelsProgress: parseStorageRecords<VerbProgress>(prefixLevelsStorage),
+      conjugationLevelsProgress: parseStorageRecords<VerbProgress>(conjugationLevelsStorage),
+      verbFormsLevelsProgress: parseStorageRecords<VerbProgress>(verbFormsLevelsStorage),
+      prepositionLevelsProgress: parseStorageRecords<VerbProgress>(prepositionLevelsStorage),
+    };
+  },
+
+  restoreAllProgressSnapshot(snapshot: Partial<VerbProgressSnapshot>, merge = false): void {
+    const restoreProgressStore = (
+      storageInstance: ReturnType<typeof createStorage>,
+      records?: Record<string, VerbProgress>,
+    ) => {
+      if (!records) return;
+      Object.entries(records).forEach(([key, record]) => {
+        if (!record || typeof record.score !== 'number') return;
+        let finalScore = Math.max(0, Math.min(100, record.score));
+        let finalLastPracticedAt = record.lastPracticedAt;
+
+        if (merge) {
+          const rawExisting = storageInstance.getString(key);
+          if (rawExisting) {
+            try {
+              const existing = JSON.parse(rawExisting);
+              if (typeof existing.score === 'number') {
+                finalScore = Math.max(existing.score, finalScore);
+              }
+              if (typeof existing.lastPracticedAt === 'number') {
+                finalLastPracticedAt = Math.max(
+                  existing.lastPracticedAt,
+                  finalLastPracticedAt || 0,
+                );
+              }
+            } catch {
+              // ignore
+            }
+          }
+        }
+
+        const toSave: VerbProgress = {
+          score: finalScore,
+          status: calculateVerbStatus(finalScore),
+          lastPracticedAt: finalLastPracticedAt,
+        };
+        storageInstance.set(key, JSON.stringify(toSave));
+      });
+    };
+
+    restoreProgressStore(progressStorage, snapshot.verbProgress);
+    restoreProgressStore(checkpointStorage, snapshot.checkpointProgress);
+    restoreProgressStore(prefixLevelsStorage, snapshot.prefixLevelsProgress);
+    restoreProgressStore(conjugationLevelsStorage, snapshot.conjugationLevelsProgress);
+    restoreProgressStore(verbFormsLevelsStorage, snapshot.verbFormsLevelsProgress);
+    restoreProgressStore(prepositionLevelsStorage, snapshot.prepositionLevelsProgress);
+
+    if (snapshot.sentenceErrors) {
+      Object.entries(snapshot.sentenceErrors).forEach(([key, stats]) => {
+        if (!stats) return;
+        let finalAttempts = stats.attempts || 0;
+        let finalCorrect = stats.correct || 0;
+        let finalIncorrect = stats.incorrect || 0;
+
+        if (merge) {
+          const rawExisting = sentenceErrorsStorage.getString(key);
+          if (rawExisting) {
+            try {
+              const existing = JSON.parse(rawExisting);
+              finalAttempts = Math.max(existing.attempts || 0, finalAttempts);
+              finalCorrect = Math.max(existing.correct || 0, finalCorrect);
+              finalIncorrect = Math.max(existing.incorrect || 0, finalIncorrect);
+            } catch {
+              // ignore
+            }
+          }
+        }
+
+        const toSave: SentenceProgressStats = {
+          attempts: finalAttempts,
+          correct: finalCorrect,
+          incorrect: finalIncorrect,
+        };
+        sentenceErrorsStorage.set(key, JSON.stringify(toSave));
+      });
+    }
   },
 };
