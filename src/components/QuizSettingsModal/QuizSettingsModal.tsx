@@ -6,12 +6,14 @@ import {
   TouchableWithoutFeedback,
   Switch,
   Modal,
+  Alert,
 } from 'react-native';
 import { FontAwesome5, Ionicons } from '@expo/vector-icons';
 import { useIntl } from 'react-intl';
 import { useAppTheme } from '../../context/ThemeContext';
 import { soundService } from '../../services/soundService';
 import { QuizInputMode } from '../../services/settingsService';
+import { isSpeechRecognitionSupported } from '../../services/speechRecognitionService';
 import { createStyles } from './QuizSettingsModal.styles';
 
 export interface QuizSettingsModalProps {
@@ -24,7 +26,7 @@ export interface QuizSettingsModalProps {
   quizInputMode: QuizInputMode;
   isPremium: boolean;
   onChangeInputMode: (mode: QuizInputMode) => void;
-  onRequirePremium: () => void;
+  onRequirePremium: (mode?: QuizInputMode) => void;
 }
 
 export function QuizSettingsModal(props: QuizSettingsModalProps): React.JSX.Element {
@@ -61,9 +63,16 @@ export function QuizSettingsModal(props: QuizSettingsModalProps): React.JSX.Elem
 
   const handleInputModeSelect = (mode: QuizInputMode) => {
     soundService.playTapSound();
-    if (mode === 'type_in' && !isPremium) {
+    if (mode === 'speaking' && !isSpeechRecognitionSupported()) {
+      Alert.alert(
+        intl.formatMessage({ id: 'settingsScreen.speakingModeNotSupportedTitle' }),
+        intl.formatMessage({ id: 'settingsScreen.speakingModeNotSupportedDesc' }),
+      );
+      return;
+    }
+    if ((mode === 'type_in' || mode === 'speaking') && !isPremium) {
       onClose();
-      onRequirePremium();
+      onRequirePremium(mode);
       return;
     }
     onChangeInputMode(mode);
@@ -183,8 +192,8 @@ export function QuizSettingsModal(props: QuizSettingsModalProps): React.JSX.Elem
               <View style={styles.separator} />
 
               {/* Answer Input Mode Selection */}
-              <View style={styles.row}>
-                <View style={styles.rowLeft}>
+              <View style={styles.modeSection}>
+                <View style={styles.modeSectionHeader}>
                   <View style={styles.iconContainer}>
                     <FontAwesome5 name="keyboard" size={14} color={colors.primary} />
                   </View>
@@ -192,64 +201,152 @@ export function QuizSettingsModal(props: QuizSettingsModalProps): React.JSX.Elem
                     {intl.formatMessage({ id: 'quizSettingsModal.quizInputMode' })}
                   </Text>
                 </View>
-                <View style={styles.rowRight}>
-                  <View style={styles.voiceSegmentContainer}>
-                    <TouchableOpacity
-                      style={[
-                        styles.voiceSegmentButton,
-                        quizInputMode === 'choice' && styles.voiceSegmentButtonActive,
-                      ]}
-                      onPress={() => handleInputModeSelect('choice')}
-                      activeOpacity={0.8}
-                      testID="quiz-input-mode-choice-btn"
-                    >
-                      <FontAwesome5
-                        name="th-large"
-                        size={11}
-                        color={quizInputMode === 'choice' ? '#ffffff' : colors.textSecondary}
-                      />
+
+                <View style={styles.modeOptionsList}>
+                  {/* Multiple Choice Option */}
+                  <TouchableOpacity
+                    style={[
+                      styles.modeOptionRow,
+                      quizInputMode === 'choice' && styles.modeOptionRowActive,
+                    ]}
+                    onPress={() => handleInputModeSelect('choice')}
+                    activeOpacity={0.7}
+                    testID="quiz-input-mode-choice-btn"
+                  >
+                    <View style={styles.modeOptionLeft}>
+                      <View
+                        style={[
+                          styles.modeOptionIconContainer,
+                          quizInputMode === 'choice' && styles.modeOptionIconContainerActive,
+                        ]}
+                      >
+                        <FontAwesome5
+                          name="th-large"
+                          size={12}
+                          color={quizInputMode === 'choice' ? '#ffffff' : colors.primary}
+                        />
+                      </View>
                       <Text
                         style={[
-                          styles.voiceSegmentText,
-                          quizInputMode === 'choice' && styles.voiceSegmentTextActive,
+                          styles.modeOptionTitle,
+                          quizInputMode === 'choice' && styles.modeOptionTitleActive,
                         ]}
                       >
                         {intl.formatMessage({ id: 'settingsScreen.quizInputModeChoice' })}
                       </Text>
-                    </TouchableOpacity>
+                    </View>
+                    <View style={styles.radioContainer}>
+                      {quizInputMode === 'choice' ? (
+                        <Ionicons name="checkmark-circle" size={20} color={colors.primary} />
+                      ) : (
+                        <View style={styles.radioUnchecked} />
+                      )}
+                    </View>
+                  </TouchableOpacity>
 
-                    <TouchableOpacity
-                      style={[
-                        styles.voiceSegmentButton,
-                        quizInputMode === 'type_in' && styles.voiceSegmentButtonActive,
-                      ]}
-                      onPress={() => handleInputModeSelect('type_in')}
-                      activeOpacity={0.8}
-                      testID="quiz-input-mode-type-in-btn"
-                    >
-                      <FontAwesome5
-                        name="font"
-                        size={11}
-                        color={quizInputMode === 'type_in' ? '#ffffff' : colors.textSecondary}
-                      />
-                      <Text
+                  {/* Type-in Mode Option */}
+                  <TouchableOpacity
+                    style={[
+                      styles.modeOptionRow,
+                      quizInputMode === 'type_in' && styles.modeOptionRowActive,
+                    ]}
+                    onPress={() => handleInputModeSelect('type_in')}
+                    activeOpacity={0.7}
+                    testID="quiz-input-mode-type-in-btn"
+                  >
+                    <View style={styles.modeOptionLeft}>
+                      <View
                         style={[
-                          styles.voiceSegmentText,
-                          quizInputMode === 'type_in' && styles.voiceSegmentTextActive,
+                          styles.modeOptionIconContainer,
+                          quizInputMode === 'type_in' && styles.modeOptionIconContainerActive,
                         ]}
                       >
-                        {intl.formatMessage({ id: 'settingsScreen.quizInputModeTypeIn' })}
-                      </Text>
-                      {!isPremium && (
                         <FontAwesome5
-                          name="gem"
-                          size={10}
-                          color={colors.premiumDiamond}
-                          style={styles.diamondIcon}
+                          name="font"
+                          size={12}
+                          color={quizInputMode === 'type_in' ? '#ffffff' : colors.primary}
                         />
+                      </View>
+                      <View style={styles.modeOptionTitleWithBadge}>
+                        <Text
+                          style={[
+                            styles.modeOptionTitle,
+                            quizInputMode === 'type_in' && styles.modeOptionTitleActive,
+                          ]}
+                        >
+                          {intl.formatMessage({ id: 'settingsScreen.quizInputModeTypeIn' })}
+                        </Text>
+                        {!isPremium && (
+                          <FontAwesome5
+                            name="gem"
+                            size={10}
+                            color={colors.premiumDiamond}
+                            style={styles.diamondBadge}
+                          />
+                        )}
+                      </View>
+                    </View>
+                    <View style={styles.radioContainer}>
+                      {quizInputMode === 'type_in' ? (
+                        <Ionicons name="checkmark-circle" size={20} color={colors.primary} />
+                      ) : (
+                        <View style={styles.radioUnchecked} />
                       )}
+                    </View>
+                  </TouchableOpacity>
+
+                  {/* Speaking Mode Option */}
+                  {isSpeechRecognitionSupported() && (
+                    <TouchableOpacity
+                      style={[
+                        styles.modeOptionRow,
+                        quizInputMode === 'speaking' && styles.modeOptionRowActive,
+                      ]}
+                      onPress={() => handleInputModeSelect('speaking')}
+                      activeOpacity={0.7}
+                      testID="quiz-input-mode-speaking-btn"
+                    >
+                      <View style={styles.modeOptionLeft}>
+                        <View
+                          style={[
+                            styles.modeOptionIconContainer,
+                            quizInputMode === 'speaking' && styles.modeOptionIconContainerActive,
+                          ]}
+                        >
+                          <FontAwesome5
+                            name="microphone"
+                            size={12}
+                            color={quizInputMode === 'speaking' ? '#ffffff' : colors.primary}
+                          />
+                        </View>
+                        <View style={styles.modeOptionTitleWithBadge}>
+                          <Text
+                            style={[
+                              styles.modeOptionTitle,
+                              quizInputMode === 'speaking' && styles.modeOptionTitleActive,
+                            ]}
+                          >
+                            {intl.formatMessage({ id: 'settingsScreen.quizInputModeSpeaking' })}
+                          </Text>
+                          {!isPremium && (
+                            <FontAwesome5
+                              name="gem"
+                              size={10}
+                              color={colors.premiumDiamond}
+                              style={styles.diamondBadge}
+                            />
+                          )}
+                        </View>
+                      </View>
+                      <View style={styles.radioContainer}>
+                        {quizInputMode === 'speaking' ? (
+                          <Ionicons name="checkmark-circle" size={20} color={colors.primary} />
+                        ) : (
+                          <View style={styles.radioUnchecked} />
+                        )}
+                      </View>
                     </TouchableOpacity>
-                  </View>
+                  )}
                 </View>
               </View>
             </View>

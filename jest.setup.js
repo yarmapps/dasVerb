@@ -444,3 +444,28 @@ jest.mock('posthog-react-native', () => {
   };
 });
 
+jest.mock('expo-speech-recognition', () => ({
+  ExpoSpeechRecognitionModule: {
+    requestPermissionsAsync: jest.fn().mockResolvedValue({ status: 'granted', granted: true }),
+    getPermissionsAsync: jest.fn().mockResolvedValue({ status: 'granted', granted: true }),
+    start: jest.fn().mockResolvedValue(undefined),
+    stop: jest.fn().mockResolvedValue(undefined),
+    abort: jest.fn().mockResolvedValue(undefined),
+    getStateAsync: jest.fn().mockResolvedValue('inactive'),
+  },
+  useSpeechRecognitionEvent: jest.fn(),
+}));
+
+jest.mock('./src/services/speechRecognitionService', () => ({
+  isSpeechRecognitionSupported: jest.fn(() => true),
+  ExpoSpeechRecognitionModule: {
+    requestPermissionsAsync: jest.fn().mockResolvedValue({ status: 'granted', granted: true }),
+    getPermissionsAsync: jest.fn().mockResolvedValue({ status: 'granted', granted: true }),
+    start: jest.fn().mockResolvedValue(undefined),
+    stop: jest.fn().mockResolvedValue(undefined),
+    abort: jest.fn().mockResolvedValue(undefined),
+    getStateAsync: jest.fn().mockResolvedValue('inactive'),
+  },
+  useSpeechRecognitionEvent: jest.fn(),
+}));
+

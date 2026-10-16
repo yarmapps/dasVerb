@@ -5,6 +5,7 @@ import { useIntl } from 'react-intl';
 import { useAppTheme } from '../../context/ThemeContext';
 import { soundService } from '../../services/soundService';
 import { QuizInputMode } from '../../services/settingsService';
+import { isSpeechRecognitionSupported } from '../../services/speechRecognitionService';
 import { BaseDialog } from '../BaseDialog/BaseDialog';
 import { createStyles } from './QuizInputModeModal.styles';
 
@@ -120,6 +121,52 @@ export function QuizInputModeModal({
             )}
           </View>
         </TouchableOpacity>
+
+        {/* Speaking Mode Option */}
+        {isSpeechRecognitionSupported() && (
+          <TouchableOpacity
+            style={[styles.optionItem, currentMode === 'speaking' && styles.optionItemActive]}
+            onPress={() => handleSelect('speaking')}
+            activeOpacity={0.7}
+            testID="settings-input-mode-speaking-btn"
+          >
+            <View style={styles.optionLeft}>
+              <View
+                style={[
+                  styles.optionIconContainer,
+                  currentMode === 'speaking' && styles.optionIconContainerActive,
+                ]}
+              >
+                <FontAwesome5 name="microphone" size={14} color={colors.primary} />
+              </View>
+              <View style={styles.optionTextContainer}>
+                <View style={styles.optionTitleRow}>
+                  <Text style={styles.optionTitle}>
+                    {intl.formatMessage({ id: 'settingsScreen.quizInputModeSpeaking' })}
+                  </Text>
+                  {!isPremium && (
+                    <FontAwesome5
+                      name="gem"
+                      size={11}
+                      color={colors.premiumDiamond}
+                      style={styles.diamondBadge}
+                    />
+                  )}
+                </View>
+                <Text style={styles.optionSubtitle}>
+                  {intl.formatMessage({ id: 'settingsScreen.quizInputModeSpeakingDesc' })}
+                </Text>
+              </View>
+            </View>
+            <View style={styles.radioContainer}>
+              {currentMode === 'speaking' ? (
+                <Ionicons name="checkmark-circle" size={22} color={colors.primary} />
+              ) : (
+                <View style={styles.radioUnchecked} />
+              )}
+            </View>
+          </TouchableOpacity>
+        )}
       </View>
     </BaseDialog>
   );

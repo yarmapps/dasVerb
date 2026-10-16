@@ -120,7 +120,80 @@ export const createStyles = (colors: ThemeColors) =>
       color: '#ffffff',
       fontWeight: '700',
     },
-    diamondIcon: {
-      marginLeft: 5,
+    diamondBadge: {
+      marginLeft: 6,
+    },
+    modeSection: {
+      paddingTop: Spacing.sm,
+      paddingBottom: Spacing.xs,
+    },
+    modeSectionHeader: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      marginBottom: Spacing.sm,
+    },
+    modeOptionsList: {
+      width: '100%',
+      gap: 8,
+    },
+    modeOptionRow: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      paddingVertical: 10,
+      paddingHorizontal: 12,
+      borderRadius: 12,
+      backgroundColor: colors.headerButtonBackground,
+      borderWidth: 1,
+      borderColor: colors.blockBorder,
+    },
+    modeOptionRowActive: {
+      borderColor: colors.primary,
+      backgroundColor: `${colors.primary}12`,
+    },
+    modeOptionLeft: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      flex: 1,
+    },
+    modeOptionIconContainer: {
+      width: 28,
+      height: 28,
+      borderRadius: 8,
+      backgroundColor: `${colors.primary}15`,
+      justifyContent: 'center',
+      alignItems: 'center',
+      marginRight: 10,
+    },
+    modeOptionIconContainerActive: {
+      backgroundColor: colors.primary,
+    },
+    modeOptionTitleWithBadge: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      flex: 1,
+    },
+    modeOptionTitle: {
+      fontSize: Typography.fontSize.sm,
+      fontWeight: '600',
+      color: colors.textPrimary,
+    },
+    modeOptionTitleActive: {
+      color: colors.primary,
+      fontWeight: '700',
+    },
+    radioContainer: {
+      width: 24,
+      height: 24,
+      justifyContent: 'center',
+      alignItems: 'center',
+      marginLeft: 8,
+    },
+    radioUnchecked: {
+      width: 18,
+      height: 18,
+      borderRadius: 9,
+      borderWidth: 1.5,
+      borderColor: colors.blockBorder,
     },
   });

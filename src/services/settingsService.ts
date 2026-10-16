@@ -6,7 +6,7 @@ const storage = createStorage('app-settings');
 const SETTINGS_KEY = 'settings';
 const LANGUAGE_KEY = 'language_settings';
 
-export type QuizInputMode = 'choice' | 'type_in';
+export type QuizInputMode = 'choice' | 'type_in' | 'speaking';
 
 export interface AppSettings {
   soundEffects: boolean;
@@ -113,6 +113,9 @@ export function getEffectiveQuizInputMode(): QuizInputMode {
   const settings = getSettings();
   if (settings.quizInputMode === 'type_in' && isPremiumEnabled()) {
     return 'type_in';
+  }
+  if (settings.quizInputMode === 'speaking' && isPremiumEnabled()) {
+    return 'speaking';
   }
   return 'choice';
 }

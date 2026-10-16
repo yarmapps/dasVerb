@@ -48,7 +48,8 @@
         "expo-build-properties",
         {
           "ios": {
-            "useFrameworks": "static"
+            "useFrameworks": "static",
+            "deploymentTarget": "16.4"
           },
           "android": {
             "useLegacyPackaging": false,
@@ -78,6 +79,13 @@
         {
           "androidAppId": "ca-app-pub-7651822935774581~1012442102",
           "iosAppId": "ca-app-pub-7651822935774581~9648163377"
+        }
+      ],
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Allow das Verb to use your microphone to practice German pronunciation.",
+          "speechRecognitionPermission": "Allow das Verb to recognize spoken German in quiz mode."
         }
       ],
       "expo-localization"

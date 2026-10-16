@@ -204,7 +204,11 @@
     "quizInputModeChoiceDesc": "Выбирайте правильный ответ из вариантов",
     "quizInputModeTypeIn": "Ручной ввод",
     "quizInputModeTypeInDesc": "Вводите ответы прямо в пропуски предложений",
-    "quizInputModeDesc": "Выберите способ ввода ответов в квизах"
+    "quizInputModeSpeaking": "Чтение вслух",
+    "quizInputModeSpeakingDesc": "Проговаривайте предложения или формы целиком в микрофон",
+    "quizInputModeDesc": "Выберите способ ввода ответов в квизах",
+    "speakingModeNotSupportedTitle": "Распознавание речи недоступно",
+    "speakingModeNotSupportedDesc": "Для голосового ввода требуется нативный модуль. Пожалуйста, соберите приложение через npx expo run:ios или используйте сборку Development Client."
   },
   "quizSettingsModal": {
     "title": "Настройки теста",
@@ -582,6 +586,16 @@
     "allTimeStanding": "Общий зачет",
     "allTimeStandingValue": "#{rank} / {total}",
     "continueButton": "Начать новый месяц"
+  },
+  "speakingBar": {
+    "holdToSpeakSentence": "Нажмите и прочитайте предложение",
+    "holdToSpeakForms": "Нажмите и назовите 3 формы",
+    "holdToSpeakConjugation": "Нажмите и назовите спряжения",
+    "recording": "Слушаю... Нажмите для завершения",
+    "evaluating": "Проверяю произношение...",
+    "tryAgain": "Не удалось расслышать. Нажмите и повторите",
+    "permissionRequired": "Требуется разрешение на использование микрофона и распознавание речи",
+    "openSettings": "Открыть настройки"
   },
   "common": {
     "save": "Сохранить"

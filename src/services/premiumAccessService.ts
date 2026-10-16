@@ -3,6 +3,7 @@ import { setUserProperties } from './analyticsService';
 
 const storage = createStorage('premium-access');
 const PREMIUM_KEY = 'is_premium_user';
+const DEBUG_OVERRIDE_KEY = 'debug_premium_override';
 
 type PremiumListener = (enabled: boolean) => void;
 const listeners: Set<PremiumListener> = new Set();
@@ -17,8 +18,44 @@ export function addPremiumListener(fn: PremiumListener): () => void {
   };
 }
 
+export function getDebugPremiumOverride(): boolean | null {
+  try {
+    const raw = storage.getString(DEBUG_OVERRIDE_KEY);
+    if (raw === 'true') return true;
+    if (raw === 'false') return false;
+    return null;
+  } catch {
+    return null;
+  }
+}
+
+export function setDebugPremiumOverride(enabled: boolean | null): void {
+  try {
+    if (enabled === null) {
+      storage.delete(DEBUG_OVERRIDE_KEY);
+    } else {
+      storage.set(DEBUG_OVERRIDE_KEY, String(enabled));
+    }
+  } catch {
+    // ignore
+  }
+
+  const effective = isPremiumEnabled();
+  listeners.forEach(fn => {
+    try {
+      fn(effective);
+    } catch {
+      // ignore
+    }
+  });
+}
+
 export function isPremiumEnabled(): boolean {
   try {
+    const override = getDebugPremiumOverride();
+    if (override !== null) {
+      return override;
+    }
     return storage.getString(PREMIUM_KEY) === 'true';
   } catch {
     return false;

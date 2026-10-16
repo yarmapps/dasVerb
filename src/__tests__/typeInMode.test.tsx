@@ -156,18 +156,21 @@ describe('Type-In Mode', () => {
     });
   });
 
-  describe('VerbQuizScreen toolbar toggle & typing flow', () => {
-    it('opens premium sheet for free user when tapping toolbar toggle button', () => {
+  describe('VerbQuizScreen quiz settings & typing flow', () => {
+    it('opens premium sheet for free user when selecting type-in in quiz settings', () => {
       setPremiumEnabled(false);
       const { getByTestId } = renderWithProviders(<VerbQuizScreen />);
 
-      const toggleBtn = getByTestId('quiz-input-mode-toggle-button');
-      fireEvent.press(toggleBtn);
+      const settingsBtn = getByTestId('quiz-settings-button');
+      fireEvent.press(settingsBtn);
+
+      const typeInBtn = getByTestId('quiz-input-mode-type-in-btn');
+      fireEvent.press(typeInBtn);
 
       expect(getByTestId('premium-subscribe-sheet')).toBeTruthy();
     });
 
-    it('toggles input mode for premium user and presents Check button in Type-In mode', async () => {
+    it('switches input mode for premium user and presents Check button in Type-In mode', async () => {
       setPremiumEnabled(true);
       updateSettings({ quizInputMode: 'choice' });
 
@@ -177,9 +180,16 @@ describe('Type-In Mode', () => {
       expect(getByTestId('option-button-rufe')).toBeTruthy();
       expect(queryByTestId('quiz-check-button')).toBeNull();
 
-      // Tap toolbar toggle to switch to type-in
-      const toggleBtn = getByTestId('quiz-input-mode-toggle-button');
-      fireEvent.press(toggleBtn);
+      // Open quiz settings and switch to type-in
+      const settingsBtn = getByTestId('quiz-settings-button');
+      fireEvent.press(settingsBtn);
+
+      const typeInBtn = getByTestId('quiz-input-mode-type-in-btn');
+      fireEvent.press(typeInBtn);
+
+      // Close settings modal
+      const closeBtn = getByTestId('quiz-settings-close-btn');
+      fireEvent.press(closeBtn);
 
       // Now in type-in mode: Check button should appear
       await waitFor(() => {

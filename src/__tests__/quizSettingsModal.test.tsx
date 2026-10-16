@@ -51,6 +51,7 @@ describe('QuizSettingsModal', () => {
     expect(getByText('Режим ответов')).toBeTruthy();
     expect(getByText('Выбор вариантов')).toBeTruthy();
     expect(getByText('Ручной ввод')).toBeTruthy();
+    expect(getByText('Чтение вслух')).toBeTruthy();
   });
 
   it('should trigger onToggleSpeakOnCorrectAnswer on switch toggle', () => {
@@ -174,5 +175,96 @@ describe('QuizSettingsModal', () => {
     expect(handleClose).toHaveBeenCalled();
     expect(handleRequirePremium).toHaveBeenCalled();
     expect(handleChangeInputMode).not.toHaveBeenCalled();
+  });
+
+  it('should trigger onChangeInputMode when premium user selects speaking', () => {
+    const handleClose = jest.fn();
+    const handleToggleSpeak = jest.fn();
+    const handleToggleVoice = jest.fn();
+    const handleChangeInputMode = jest.fn();
+    const handleRequirePremium = jest.fn();
+
+    const { getByTestId } = render(
+      <TestWrapper>
+        <QuizSettingsModal
+          visible={true}
+          onClose={handleClose}
+          speakOnCorrectAnswer={true}
+          onToggleSpeakOnCorrectAnswer={handleToggleSpeak}
+          ttsVoiceGender="female"
+          onChangeVoiceGender={handleToggleVoice}
+          quizInputMode="choice"
+          isPremium={true}
+          onChangeInputMode={handleChangeInputMode}
+          onRequirePremium={handleRequirePremium}
+        />
+      </TestWrapper>,
+    );
+
+    const speakingBtn = getByTestId('quiz-input-mode-speaking-btn');
+    fireEvent.press(speakingBtn);
+    expect(handleChangeInputMode).toHaveBeenCalledWith('speaking');
+    expect(handleRequirePremium).not.toHaveBeenCalled();
+  });
+
+  it('should call onRequirePremium when free user attempts to select speaking', () => {
+    const handleClose = jest.fn();
+    const handleToggleSpeak = jest.fn();
+    const handleToggleVoice = jest.fn();
+    const handleChangeInputMode = jest.fn();
+    const handleRequirePremium = jest.fn();
+
+    const { getByTestId } = render(
+      <TestWrapper>
+        <QuizSettingsModal
+          visible={true}
+          onClose={handleClose}
+          speakOnCorrectAnswer={true}
+          onToggleSpeakOnCorrectAnswer={handleToggleSpeak}
+          ttsVoiceGender="female"
+          onChangeVoiceGender={handleToggleVoice}
+          quizInputMode="choice"
+          isPremium={false}
+          onChangeInputMode={handleChangeInputMode}
+          onRequirePremium={handleRequirePremium}
+        />
+      </TestWrapper>,
+    );
+
+    const speakingBtn = getByTestId('quiz-input-mode-speaking-btn');
+    fireEvent.press(speakingBtn);
+    expect(handleClose).toHaveBeenCalled();
+    expect(handleRequirePremium).toHaveBeenCalled();
+    expect(handleChangeInputMode).not.toHaveBeenCalled();
+  });
+
+  it('should not render speaking option when speech recognition is not supported', () => {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const speechRecognitionService = require('../services/speechRecognitionService');
+    const spy = jest
+      .spyOn(speechRecognitionService, 'isSpeechRecognitionSupported')
+      .mockReturnValue(false);
+
+    const { queryByTestId, queryByText } = render(
+      <TestWrapper>
+        <QuizSettingsModal
+          visible={true}
+          onClose={jest.fn()}
+          speakOnCorrectAnswer={true}
+          onToggleSpeakOnCorrectAnswer={jest.fn()}
+          ttsVoiceGender="female"
+          onChangeVoiceGender={jest.fn()}
+          quizInputMode="choice"
+          isPremium={true}
+          onChangeInputMode={jest.fn()}
+          onRequirePremium={jest.fn()}
+        />
+      </TestWrapper>,
+    );
+
+    expect(queryByTestId('quiz-input-mode-speaking-btn')).toBeNull();
+    expect(queryByText('Чтение вслух')).toBeNull();
+
+    spy.mockReturnValue(true);
   });
 });

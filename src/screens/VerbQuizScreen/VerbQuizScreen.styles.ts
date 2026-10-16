@@ -78,22 +78,6 @@ export const createStyles = (colors: ThemeColors) =>
       justifyContent: 'center',
       alignItems: 'center',
     },
-    cardHeaderActions: {
-      flexDirection: 'row',
-      alignItems: 'center',
-    },
-    cardHeaderActionButton: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      height: 28,
-      paddingHorizontal: 8,
-      borderRadius: 14,
-      backgroundColor: colors.headerButtonBackground,
-      marginRight: 8,
-    },
-    cardHeaderDiamondIcon: {
-      marginLeft: 4,
-    },
     sentenceRow: {
       paddingHorizontal: 20,
       flexDirection: 'row',

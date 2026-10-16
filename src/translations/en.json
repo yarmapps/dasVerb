@@ -204,7 +204,11 @@
     "quizInputModeChoiceDesc": "Pick the correct answer from options",
     "quizInputModeTypeIn": "Type In",
     "quizInputModeTypeInDesc": "Type answers directly into sentence gaps",
-    "quizInputModeDesc": "Choose how you want to answer questions in quizzes"
+    "quizInputModeSpeaking": "Speaking",
+    "quizInputModeSpeakingDesc": "Speak full sentences or forms aloud using the microphone",
+    "quizInputModeDesc": "Choose how you want to answer questions in quizzes",
+    "speakingModeNotSupportedTitle": "Speech Recognition Unavailable",
+    "speakingModeNotSupportedDesc": "Voice input requires a native development build. Please run the app using a development build (npx expo run:ios)."
   },
   "quizSettingsModal": {
     "title": "Quiz Settings",
@@ -582,6 +586,16 @@
     "allTimeStanding": "All-Time Standing",
     "allTimeStandingValue": "#{rank} / {total}",
     "continueButton": "Start New Month"
+  },
+  "speakingBar": {
+    "holdToSpeakSentence": "Tap to speak full sentence",
+    "holdToSpeakForms": "Tap to speak verb forms",
+    "holdToSpeakConjugation": "Tap to speak all 6 conjugations",
+    "recording": "Listening... Tap when done",
+    "evaluating": "Checking speech...",
+    "tryAgain": "Could not recognize speech. Tap and try again",
+    "permissionRequired": "Microphone and speech recognition permission is required",
+    "openSettings": "Open Settings"
   },
   "common": {
     "save": "Save"

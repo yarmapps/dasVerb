@@ -353,7 +353,11 @@ export interface Translation {
     quizInputModeChoiceDesc?: string;
     quizInputModeTypeIn?: string;
     quizInputModeTypeInDesc?: string;
+    quizInputModeSpeaking?: string;
+    quizInputModeSpeakingDesc?: string;
     quizInputModeDesc?: string;
+    speakingModeNotSupportedTitle?: string;
+    speakingModeNotSupportedDesc?: string;
   };
   notifications?: {
     reminderTitle: string;
@@ -572,6 +576,16 @@ export interface Translation {
     daysRemaining: string;
     dayRemaining: string;
     unlocked: string;
+  };
+  speakingBar?: {
+    holdToSpeakSentence: string;
+    holdToSpeakForms: string;
+    holdToSpeakConjugation: string;
+    recording: string;
+    evaluating: string;
+    tryAgain: string;
+    permissionRequired: string;
+    openSettings: string;
   };
 }
 

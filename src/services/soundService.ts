@@ -1,4 +1,9 @@
-import { createAudioPlayer, setAudioModeAsync, AudioPlayer } from 'expo-audio';
+import {
+  createAudioPlayer,
+  setAudioModeAsync,
+  setIsAudioActiveAsync,
+  AudioPlayer,
+} from 'expo-audio';
 import { getSettings } from './settingsService';
 
 export class SoundService {
@@ -140,23 +145,49 @@ export class SoundService {
   async unload(): Promise<void> {
     try {
       if (this.correctSound) {
+        try {
+          this.correctSound.pause();
+        } catch {
+          // Ignore
+        }
         this.correctSound.remove();
         this.correctSound = null;
       }
 
       if (this.incorrectSound) {
+        try {
+          this.incorrectSound.pause();
+        } catch {
+          // Ignore
+        }
         this.incorrectSound.remove();
         this.incorrectSound = null;
       }
 
       if (this.tapSound) {
+        try {
+          this.tapSound.pause();
+        } catch {
+          // Ignore
+        }
         this.tapSound.remove();
         this.tapSound = null;
       }
 
       if (this.levelFinishedSound) {
+        try {
+          this.levelFinishedSound.pause();
+        } catch {
+          // Ignore
+        }
         this.levelFinishedSound.remove();
         this.levelFinishedSound = null;
+      }
+
+      try {
+        await setIsAudioActiveAsync(false);
+      } catch {
+        // Ignore
       }
 
       this.isInitialized = false;

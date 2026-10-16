@@ -9,6 +9,7 @@ import {
   Easing,
   Platform,
   ActivityIndicator,
+  Alert,
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
@@ -43,6 +44,16 @@ import { getSettings, updateSettings, QuizInputMode } from '../../services/setti
 import { usePremiumStatus } from '../../hooks/usePremiumStatus';
 import { useFeatureFlag } from '../../services/featuresService';
 import { PremiumSubscribeSheet } from '../../components/PremiumSubscribeSheet/PremiumSubscribeSheet';
+import {
+  ExpoSpeechRecognitionModule,
+  useSpeechRecognitionEvent,
+  isSpeechRecognitionSupported,
+} from '../../services/speechRecognitionService';
+import {
+  SpeakingBottomBar,
+  SpeakingState,
+} from '../../components/SpeakingBottomBar/SpeakingBottomBar';
+import { evaluateSpeechForExercise } from '../../utils/speechAlignment';
 import { isAnswerCorrect } from '../../utils/answerValidation';
 import {
   quizGeneratorService,
@@ -357,25 +368,19 @@ export function VerbQuizScreen(): React.JSX.Element {
   const isPremium = usePremiumStatus();
   const isPremiumFeatureEnabled = useFeatureFlag('ENABLE_PREMIUM');
   const [showPremiumSheet, setShowPremiumSheet] = useState(false);
+  const [pendingInputMode, setPendingInputMode] = useState<QuizInputMode | null>(null);
   const [quizInputMode, setQuizInputMode] = useState<QuizInputMode>(
     () => getSettings().quizInputMode,
   );
-  const effectiveInputMode: QuizInputMode =
-    isPremium && quizInputMode === 'type_in' ? 'type_in' : 'choice';
-
-  const handleToggleInputModeQuick = useCallback(() => {
-    soundService.playTapSound();
-    if (!isPremium) {
-      if (isPremiumFeatureEnabled) {
-        setShowPremiumSheet(true);
-      }
-      return;
+  const effectiveInputMode: QuizInputMode = useMemo(() => {
+    if (!isPremium) return 'choice';
+    if (!isSpeechRecognitionSupported() && quizInputMode === 'speaking') {
+      return 'choice';
     }
-    const nextMode: QuizInputMode = quizInputMode === 'choice' ? 'type_in' : 'choice';
-    trackEvent('settings_quiz_input_mode_changed', { mode: nextMode });
-    setQuizInputMode(nextMode);
-    updateSettings({ quizInputMode: nextMode });
-  }, [isPremium, isPremiumFeatureEnabled, quizInputMode]);
+    if (quizInputMode === 'type_in') return 'type_in';
+    if (quizInputMode === 'speaking') return 'speaking';
+    return 'choice';
+  }, [isPremium, quizInputMode]);
 
   const resolvedQuizType = useMemo(
     () =>
@@ -435,6 +440,105 @@ export function VerbQuizScreen(): React.JSX.Element {
   const totalQuestions = exercises.length;
   const currentGap = currentExercise?.gaps?.[activeGapIndex] || currentExercise?.gaps?.[0];
 
+  const [speakingState, setSpeakingState] = useState<SpeakingState>('idle');
+  const speakingStateRef = useRef<SpeakingState>('idle');
+  speakingStateRef.current = speakingState;
+  const speechTranscriptRef = useRef<string>('');
+  const stopTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const finalizeSpeakingRef = useRef<() => void>(() => {});
+
+  useSpeechRecognitionEvent('result', event => {
+    const transcript = event.results?.[0]?.transcript || '';
+    if (!transcript) return;
+    speechTranscriptRef.current = transcript;
+
+    if (currentExercise) {
+      const liveEval = evaluateSpeechForExercise(currentExercise, transcript);
+      const capturedCount = Object.keys(liveEval.capturedAnswers).length;
+      if (capturedCount > 0) {
+        setUserAnswers(prev => {
+          const next = [...prev];
+          Object.entries(liveEval.capturedAnswers).forEach(([idxStr, val]) => {
+            const idx = Number(idxStr);
+            if (!Number.isNaN(idx)) {
+              next[idx] = val;
+            }
+          });
+          return next;
+        });
+      }
+
+      if (speakingStateRef.current === 'evaluating' && (capturedCount > 0 || event.isFinal)) {
+        if (stopTimeoutRef.current) {
+          clearTimeout(stopTimeoutRef.current);
+          stopTimeoutRef.current = null;
+        }
+        finalizeSpeakingRef.current();
+      }
+    }
+  });
+
+  useSpeechRecognitionEvent('error', event => {
+    const errorCode = event?.error;
+    if (
+      (errorCode === 'aborted' || errorCode === 'no-speech') &&
+      speakingStateRef.current !== 'recording'
+    ) {
+      return;
+    }
+    if (__DEV__) {
+      // eslint-disable-next-line no-console
+      console.warn('[SpeakingMode] SpeechRecognition error:', errorCode, event?.message);
+    }
+    if (
+      speakingStateRef.current === 'evaluating' &&
+      speechTranscriptRef.current.trim().length > 0
+    ) {
+      if (stopTimeoutRef.current) {
+        clearTimeout(stopTimeoutRef.current);
+        stopTimeoutRef.current = null;
+      }
+      finalizeSpeakingRef.current();
+      return;
+    }
+    if (speakingStateRef.current === 'recording' || speakingStateRef.current === 'evaluating') {
+      if (stopTimeoutRef.current) {
+        clearTimeout(stopTimeoutRef.current);
+        stopTimeoutRef.current = null;
+      }
+      speakingStateRef.current = 'error';
+      setSpeakingState('error');
+    }
+  });
+
+  useEffect(() => {
+    speakingStateRef.current = 'idle';
+    setSpeakingState('idle');
+    speechTranscriptRef.current = '';
+    if (stopTimeoutRef.current) {
+      clearTimeout(stopTimeoutRef.current);
+      stopTimeoutRef.current = null;
+    }
+    if (effectiveInputMode === 'speaking') {
+      speechService.stop();
+      soundService.unload();
+    }
+  }, [currentExerciseIndex, effectiveInputMode]);
+
+  useEffect(() => {
+    return () => {
+      if (stopTimeoutRef.current) {
+        clearTimeout(stopTimeoutRef.current);
+        stopTimeoutRef.current = null;
+      }
+      try {
+        ExpoSpeechRecognitionModule.abort();
+      } catch {
+        // Ignore
+      }
+    };
+  }, []);
+
   // Анимация пульсации для активного слота
   const [pulseAnim] = useState(() => new Animated.Value(1));
 
@@ -490,13 +594,27 @@ export function VerbQuizScreen(): React.JSX.Element {
       clearTimeout(ttsTimeoutRef.current);
       ttsTimeoutRef.current = null;
     }
-    speechService.stop();
+    if (stopTimeoutRef.current) {
+      clearTimeout(stopTimeoutRef.current);
+      stopTimeoutRef.current = null;
+    }
+    await speechService.stop();
+    if (speakingStateRef.current === 'recording' || speakingStateRef.current === 'evaluating') {
+      speakingStateRef.current = 'idle';
+      try {
+        ExpoSpeechRecognitionModule.abort();
+      } catch {
+        // Ignore
+      }
+    }
     canAdvanceRef.current = true;
     if (currentExerciseIndex + 1 < totalQuestions) {
       setCurrentExerciseIndex(prev => prev + 1);
       setActiveGapIndex(0);
       setUserAnswers([]);
       setStatus('idle');
+      setSpeakingState('idle');
+      speechTranscriptRef.current = '';
     } else {
       const isPrefixQuiz = Boolean(prefixLevelId || isPrefixCheckpoint);
       const isConjugation = Boolean(conjugationLevelId || isConjugationQuiz);
@@ -761,6 +879,7 @@ export function VerbQuizScreen(): React.JSX.Element {
 
         if (
           speakOnCorrectAnswer &&
+          effectiveInputMode !== 'speaking' &&
           currentExercise?.type !== 'conjugation_fill' &&
           currentExercise?.type !== 'verb_forms_fill'
         ) {
@@ -840,6 +959,7 @@ export function VerbQuizScreen(): React.JSX.Element {
       level,
       currentExerciseIndex,
       speakOnCorrectAnswer,
+      effectiveInputMode,
     ],
   );
 
@@ -923,6 +1043,110 @@ export function VerbQuizScreen(): React.JSX.Element {
     },
     [currentExercise, userAnswers, canSubmitTypeIn, handleSubmitTypedAnswers],
   );
+
+  const finalizeSpeaking = useCallback(() => {
+    if (speakingStateRef.current !== 'evaluating' || !currentExercise) {
+      return;
+    }
+
+    const transcript = speechTranscriptRef.current;
+    if (!transcript || transcript.trim().length === 0) {
+      speakingStateRef.current = 'error';
+      setSpeakingState('error');
+      return;
+    }
+
+    const evalResult = evaluateSpeechForExercise(currentExercise, transcript);
+    const capturedCount = Object.keys(evalResult.capturedAnswers).length;
+
+    const nextAnswers = currentExercise.gaps.map((gap, idx) => {
+      if (evalResult.capturedAnswers[idx] !== undefined) {
+        return evalResult.capturedAnswers[idx];
+      }
+      return userAnswers[idx] || '';
+    });
+
+    setUserAnswers(nextAnswers);
+
+    if (capturedCount > 0) {
+      speakingStateRef.current = 'idle';
+      setSpeakingState('idle');
+      processSubmission(nextAnswers);
+    } else {
+      speakingStateRef.current = 'error';
+      setSpeakingState('error');
+    }
+  }, [currentExercise, userAnswers, processSubmission]);
+
+  useEffect(() => {
+    finalizeSpeakingRef.current = finalizeSpeaking;
+  }, [finalizeSpeaking]);
+
+  const handleStartSpeaking = useCallback(async () => {
+    if (status !== 'idle' || !currentExercise) return;
+    if (!isSpeechRecognitionSupported()) {
+      Alert.alert(
+        intl.formatMessage({ id: 'settingsScreen.speakingModeNotSupportedTitle' }),
+        intl.formatMessage({ id: 'settingsScreen.speakingModeNotSupportedDesc' }),
+      );
+      return;
+    }
+    try {
+      await speechService.stop();
+      await soundService.unload();
+
+      const permission = await ExpoSpeechRecognitionModule.requestPermissionsAsync();
+      if (!permission.granted && permission.status !== 'granted') {
+        speakingStateRef.current = 'permission_denied';
+        setSpeakingState('permission_denied');
+        return;
+      }
+      speechTranscriptRef.current = '';
+      speakingStateRef.current = 'recording';
+      setSpeakingState('recording');
+      await ExpoSpeechRecognitionModule.start({
+        lang: 'de-DE',
+        interimResults: true,
+        maxAlternatives: 1,
+        continuous: true,
+        androidIntentOptions: {
+          EXTRA_LANGUAGE: 'de-DE',
+          EXTRA_LANGUAGE_PREFERENCE: 'de-DE',
+        },
+        iosCategory: {
+          category: 'record',
+          categoryOptions: [],
+          mode: 'measurement',
+        },
+      });
+    } catch {
+      speakingStateRef.current = 'error';
+      setSpeakingState('error');
+    }
+  }, [status, currentExercise, intl]);
+
+  const handleStopSpeaking = useCallback(async () => {
+    if (speakingStateRef.current !== 'recording' || !currentExercise) return;
+    speakingStateRef.current = 'evaluating';
+    setSpeakingState('evaluating');
+    try {
+      await ExpoSpeechRecognitionModule.stop();
+    } catch {
+      // Ignore
+    }
+
+    if (stopTimeoutRef.current) {
+      clearTimeout(stopTimeoutRef.current);
+    }
+
+    const hasTranscriptAlready = speechTranscriptRef.current.trim().length > 0;
+    const waitMs = hasTranscriptAlready ? 250 : 900;
+
+    stopTimeoutRef.current = setTimeout(() => {
+      stopTimeoutRef.current = null;
+      finalizeSpeakingRef.current();
+    }, waitMs);
+  }, [currentExercise]);
 
   const renderGrammarHint = useCallback(() => {
     if (status !== 'incorrect') return null;
@@ -1172,7 +1396,7 @@ export function VerbQuizScreen(): React.JSX.Element {
           status={status}
           pulseAnim={pulseAnim}
           onSlotPress={handleSlotPress}
-          inputMode={effectiveInputMode}
+          inputMode={effectiveInputMode === 'type_in' ? 'type_in' : 'choice'}
           onTextChange={handleTextChange}
           onSubmitSlot={handleSubmitSlot}
         />
@@ -1187,7 +1411,7 @@ export function VerbQuizScreen(): React.JSX.Element {
           status={status}
           pulseAnim={pulseAnim}
           onSlotPress={handleSlotPress}
-          inputMode={effectiveInputMode}
+          inputMode={effectiveInputMode === 'type_in' ? 'type_in' : 'choice'}
           onTextChange={handleTextChange}
           onSubmitSlot={handleSubmitSlot}
         />
@@ -1202,7 +1426,7 @@ export function VerbQuizScreen(): React.JSX.Element {
           status={status}
           pulseAnim={pulseAnim}
           onSlotPress={handleSlotPress}
-          inputMode={effectiveInputMode}
+          inputMode={effectiveInputMode === 'type_in' ? 'type_in' : 'choice'}
           onTextChange={handleTextChange}
           onSubmitSlot={handleSubmitSlot}
         />
@@ -1216,7 +1440,7 @@ export function VerbQuizScreen(): React.JSX.Element {
         status={status}
         pulseAnim={pulseAnim}
         onSlotPress={handleSlotPress}
-        inputMode={effectiveInputMode}
+        inputMode={effectiveInputMode === 'type_in' ? 'type_in' : 'choice'}
         onTextChange={handleTextChange}
         onSubmitSlot={handleSubmitSlot}
       />
@@ -1379,6 +1603,17 @@ export function VerbQuizScreen(): React.JSX.Element {
       );
     }
 
+    if (effectiveInputMode === 'speaking') {
+      return (
+        <SpeakingBottomBar
+          state={speakingState}
+          exerciseType={currentExercise?.type}
+          onStartRecording={handleStartSpeaking}
+          onStopRecording={handleStopSpeaking}
+        />
+      );
+    }
+
     return (
       <View style={styles.optionsGrid}>
         {currentGap?.options.map((option, optIdx) => {
@@ -1478,38 +1713,15 @@ export function VerbQuizScreen(): React.JSX.Element {
             <View style={styles.sentenceCard} testID="quiz-sentence-card">
               <View style={styles.cardHeader}>
                 <Text style={styles.sentenceCardLabel}>{cardHeaderTitle}</Text>
-                <View style={styles.cardHeaderActions}>
-                  <TouchableOpacity
-                    style={styles.cardHeaderActionButton}
-                    onPress={handleToggleInputModeQuick}
-                    activeOpacity={0.7}
-                    hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
-                    testID="quiz-input-mode-toggle-button"
-                  >
-                    <FontAwesome5
-                      name={effectiveInputMode === 'type_in' ? 'font' : 'th-large'}
-                      size={12}
-                      color={colors.textSecondary}
-                    />
-                    {!isPremium && (
-                      <FontAwesome5
-                        name="gem"
-                        size={9}
-                        color={colors.premiumDiamond}
-                        style={styles.cardHeaderDiamondIcon}
-                      />
-                    )}
-                  </TouchableOpacity>
-                  <TouchableOpacity
-                    style={styles.cardSettingsButton}
-                    onPress={() => setIsSettingsModalVisible(true)}
-                    activeOpacity={0.7}
-                    hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
-                    testID="quiz-settings-button"
-                  >
-                    <FontAwesome5 name="cog" size={14} color={colors.textSecondary} />
-                  </TouchableOpacity>
-                </View>
+                <TouchableOpacity
+                  style={styles.cardSettingsButton}
+                  onPress={() => setIsSettingsModalVisible(true)}
+                  activeOpacity={0.7}
+                  hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+                  testID="quiz-settings-button"
+                >
+                  <FontAwesome5 name="cog" size={14} color={colors.textSecondary} />
+                </TouchableOpacity>
               </View>
 
               {renderExerciseContent()}
@@ -1550,8 +1762,11 @@ export function VerbQuizScreen(): React.JSX.Element {
           setQuizInputMode(mode);
           updateSettings({ quizInputMode: mode });
         }}
-        onRequirePremium={() => {
+        onRequirePremium={mode => {
           setIsSettingsModalVisible(false);
+          if (mode) {
+            setPendingInputMode(mode);
+          }
           if (isPremiumFeatureEnabled) {
             setShowPremiumSheet(true);
           }
@@ -1560,8 +1775,19 @@ export function VerbQuizScreen(): React.JSX.Element {
       {isPremiumFeatureEnabled && (
         <PremiumSubscribeSheet
           visible={showPremiumSheet}
-          onClose={() => setShowPremiumSheet(false)}
-          source="quiz_type_in"
+          onClose={() => {
+            setShowPremiumSheet(false);
+            setPendingInputMode(null);
+          }}
+          onPurchaseSuccess={() => {
+            if (pendingInputMode) {
+              setQuizInputMode(pendingInputMode);
+              updateSettings({ quizInputMode: pendingInputMode });
+              trackEvent('settings_quiz_input_mode_changed', { mode: pendingInputMode });
+              setPendingInputMode(null);
+            }
+          }}
+          source="quiz_input_mode"
         />
       )}
     </ScreenBackground>

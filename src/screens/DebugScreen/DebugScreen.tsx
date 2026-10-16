@@ -29,7 +29,11 @@ import {
 import { getSettings, updateSettings, resetAllSettings } from '../../services/settingsService';
 import { resetAllStorages } from '../../services/storageService';
 import { progressService } from '../../services/progressService';
-import { setPremiumEnabled, isPremiumEnabled } from '../../services/premiumAccessService';
+import {
+  setPremiumEnabled,
+  isPremiumEnabled,
+  setDebugPremiumOverride,
+} from '../../services/premiumAccessService';
 import {
   isFeatureEnabled,
   getFeatureOverride,
@@ -93,6 +97,7 @@ export function DebugScreen(): React.JSX.Element {
   };
 
   const handleTogglePremiumUser = (enabled: boolean) => {
+    setDebugPremiumOverride(enabled);
     setPremiumEnabled(enabled);
     if (enabled) {
       ensureInitialPremiumBackup(true).catch(() => {});
@@ -198,6 +203,7 @@ export function DebugScreen(): React.JSX.Element {
     resetFirstOpenPaywall();
     resetAllFeatureOverrides();
     progressService.clearAllProgress();
+    setDebugPremiumOverride(null);
     setPremiumEnabled(false);
     setThemeMode('system');
     refreshState();

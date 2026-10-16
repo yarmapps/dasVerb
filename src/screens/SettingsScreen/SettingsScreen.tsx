@@ -23,6 +23,7 @@ import { progressService } from '../../services/progressService';
 import { soundService } from '../../services/soundService';
 import { trackEvent } from '../../services/analyticsService';
 import { openManageSubscriptions } from '../../services/revenueCatService';
+import { isSpeechRecognitionSupported } from '../../services/speechRecognitionService';
 import { openStoreReviewPage } from '../../services/reviewService';
 import { useFeatureFlag } from '../../services/featuresService';
 import { adConsentService } from '../../ads/consentService';
@@ -69,6 +70,7 @@ export function SettingsScreen(): React.JSX.Element {
   const [showNameModal, setShowNameModal] = useState(false);
   const [showInputModeModal, setShowInputModeModal] = useState(false);
   const [showPremiumSheet, setShowPremiumSheet] = useState(false);
+  const [pendingInputMode, setPendingInputMode] = useState<QuizInputMode | null>(null);
   const [quizInputMode, setQuizInputMode] = useState<QuizInputMode>(
     () => getSettings().quizInputMode,
   );
@@ -76,7 +78,15 @@ export function SettingsScreen(): React.JSX.Element {
   const handleInputModeSelect = (mode: QuizInputMode) => {
     soundService.playTapSound();
     setShowInputModeModal(false);
-    if (mode === 'type_in' && !isPremium) {
+    if (mode === 'speaking' && !isSpeechRecognitionSupported()) {
+      Alert.alert(
+        intl.formatMessage({ id: 'settingsScreen.speakingModeNotSupportedTitle' }),
+        intl.formatMessage({ id: 'settingsScreen.speakingModeNotSupportedDesc' }),
+      );
+      return;
+    }
+    if ((mode === 'type_in' || mode === 'speaking') && !isPremium) {
+      setPendingInputMode(mode);
       if (isPremiumFeatureEnabled) {
         setShowPremiumSheet(true);
       }
@@ -165,6 +175,21 @@ export function SettingsScreen(): React.JSX.Element {
     const found = LANGUAGES.find(l => l.code === locale);
     return found ? found.name : 'English';
   }, [locale]);
+
+  const currentInputModeName = useMemo(() => {
+    switch (quizInputMode) {
+      case 'type_in':
+        return intl.formatMessage({ id: 'settingsScreen.quizInputModeTypeIn' });
+      case 'speaking':
+        if (!isSpeechRecognitionSupported()) {
+          return intl.formatMessage({ id: 'settingsScreen.quizInputModeChoice' });
+        }
+        return intl.formatMessage({ id: 'settingsScreen.quizInputModeSpeaking' });
+      case 'choice':
+      default:
+        return intl.formatMessage({ id: 'settingsScreen.quizInputModeChoice' });
+    }
+  }, [quizInputMode, intl]);
 
   const toggleThemeMode = () => {
     const modes: ('light' | 'dark' | 'system')[] = ['system', 'light', 'dark'];
@@ -406,12 +431,8 @@ export function SettingsScreen(): React.JSX.Element {
               'keyboard',
               intl.formatMessage({ id: 'settingsScreen.quizInputMode' }),
               <View style={styles.dropdownTrigger} testID="settings-input-mode-trigger">
-                <Text style={styles.dropdownTriggerText}>
-                  {quizInputMode === 'type_in'
-                    ? intl.formatMessage({ id: 'settingsScreen.quizInputModeTypeIn' })
-                    : intl.formatMessage({ id: 'settingsScreen.quizInputModeChoice' })}
-                </Text>
-                {quizInputMode === 'type_in' && !isPremium && (
+                <Text style={styles.dropdownTriggerText}>{currentInputModeName}</Text>
+                {quizInputMode !== 'choice' && !isPremium && (
                   <FontAwesome5
                     name="gem"
                     size={10}
@@ -595,8 +616,19 @@ export function SettingsScreen(): React.JSX.Element {
       {isPremiumFeatureEnabled && (
         <PremiumSubscribeSheet
           visible={showPremiumSheet}
-          onClose={() => setShowPremiumSheet(false)}
-          source="settings_type_in"
+          onClose={() => {
+            setShowPremiumSheet(false);
+            setPendingInputMode(null);
+          }}
+          onPurchaseSuccess={() => {
+            if (pendingInputMode) {
+              setQuizInputMode(pendingInputMode);
+              updateSettings({ quizInputMode: pendingInputMode });
+              trackEvent('settings_quiz_input_mode_changed', { mode: pendingInputMode });
+              setPendingInputMode(null);
+            }
+          }}
+          source="settings_quiz_input_mode"
         />
       )}
     </ScreenBackground>

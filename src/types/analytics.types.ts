@@ -164,7 +164,7 @@ export interface SettingsLanguageSelectedParams {
 }
 
 export interface SettingsQuizInputModeChangedParams {
-  mode: 'choice' | 'type_in';
+  mode: 'choice' | 'type_in' | 'speaking';
 }
 
 // ==========================================

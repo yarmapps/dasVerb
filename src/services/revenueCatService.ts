@@ -6,7 +6,11 @@ import Purchases, {
   PurchasesOfferings,
   PACKAGE_TYPE,
 } from 'react-native-purchases';
-import { setPremiumEnabled, isPremiumEnabled } from './premiumAccessService';
+import {
+  setPremiumEnabled,
+  isPremiumEnabled,
+  getDebugPremiumOverride,
+} from './premiumAccessService';
 import { setTrialStartDate, getTrialStartDate } from './usageService';
 import { scheduleTrialReminder } from './notificationService';
 import { isFeatureEnabled } from './featuresService';
@@ -23,7 +27,13 @@ export const PREMIUM_ENTITLEMENT = 'premium';
 
 /* ── Helpers ───────────────────────────────────────────────── */
 function isEntitlementActive(info: CustomerInfo): boolean {
-  return info.entitlements.active[PREMIUM_ENTITLEMENT] !== undefined;
+  if (!info || !info.entitlements || !info.entitlements.active) {
+    return false;
+  }
+  return (
+    info.entitlements.active[PREMIUM_ENTITLEMENT] !== undefined ||
+    Object.keys(info.entitlements.active).length > 0
+  );
 }
 
 function updatePremiumFromCustomerInfo(info: CustomerInfo): void {
@@ -31,9 +41,15 @@ function updatePremiumFromCustomerInfo(info: CustomerInfo): void {
   if (__DEV__) {
     console.log('[RevenueCat] updatePremiumFromCustomerInfo:', {
       isPremium,
-      activeEntitlements: Object.keys(info.entitlements.active),
-      allEntitlements: Object.keys(info.entitlements.all),
+      activeEntitlements: Object.keys(info?.entitlements?.active || {}),
+      allEntitlements: Object.keys(info?.entitlements?.all || {}),
     });
+  }
+  if (getDebugPremiumOverride() !== null) {
+    if (__DEV__) {
+      console.log('[RevenueCat] Debug premium override active, skipping automatic update');
+    }
+    return;
   }
   setPremiumEnabled(isPremium);
 }
@@ -106,6 +122,14 @@ export async function initRevenueCat(): Promise<void> {
 export async function checkPremiumStatus(): Promise<boolean> {
   if (!isFeatureEnabled('ENABLE_PREMIUM')) {
     return isPremiumEnabled();
+  }
+
+  const debugOverride = getDebugPremiumOverride();
+  if (debugOverride !== null) {
+    if (__DEV__) {
+      console.log('[RevenueCat] Debug premium override active, returning:', debugOverride);
+    }
+    return debugOverride;
   }
 
   try {
