@@ -7,15 +7,15 @@
     "development": {
       "developmentClient": true,
       "distribution": "internal",
-      "node": "22.12.0"
+      "node": "22.14.0"
     },
     "preview": {
       "distribution": "internal",
-      "node": "22.12.0"
+      "node": "22.14.0"
     },
     "production": {
       "autoIncrement": true,
-      "node": "22.12.0",
+      "node": "22.14.0",
       "env": {
         "GRADLE_OPTS": "-Dorg.gradle.jvmargs=\"-Xmx4096m -XX:MaxMetaspaceSize=1024m -XX:+HeapDumpOnOutOfMemoryError\""
       }
