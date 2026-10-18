@@ -182,7 +182,7 @@ describe('Speaking Mode (Чтение вслух)', () => {
   });
 
   describe('SpeakingBottomBar', () => {
-    it('renders idle prompt for sentence exercises and triggers start/stop recording on press', () => {
+    it('renders idle prompt for sentence exercises and triggers start/stop recording on pressIn/pressOut and press', () => {
       const handleStart = jest.fn();
       const handleStop = jest.fn();
 
@@ -195,13 +195,13 @@ describe('Speaking Mode (Чтение вслух)', () => {
         />,
       );
 
-      expect(getByText('Нажмите и прочитайте предложение')).toBeTruthy();
+      expect(getByText('Удерживайте и прочитайте предложение')).toBeTruthy();
 
       const micBtn = getByTestId('speaking-mic-btn');
-      fireEvent.press(micBtn);
+      fireEvent(micBtn, 'pressIn');
       expect(handleStart).toHaveBeenCalled();
 
-      // Switch to recording state to verify stop on tap
+      // Switch to recording state to verify stop on pressOut
       const { getByTestId: getByTestIdRec } = renderWithProviders(
         <SpeakingBottomBar
           state="recording"
@@ -210,8 +210,44 @@ describe('Speaking Mode (Чтение вслух)', () => {
           onStopRecording={handleStop}
         />,
       );
-      fireEvent.press(getByTestIdRec('speaking-mic-btn'));
+      fireEvent(getByTestIdRec('speaking-mic-btn'), 'pressOut');
       expect(handleStop).toHaveBeenCalled();
+    });
+
+    it('renders Check button and triggers onCheck when canCheck is true', () => {
+      const handleCheck = jest.fn();
+      const { getByTestId, rerender } = renderWithProviders(
+        <SpeakingBottomBar
+          state="idle"
+          exerciseType="sentence_fill"
+          onStartRecording={jest.fn()}
+          onStopRecording={jest.fn()}
+          canCheck={false}
+          onCheck={handleCheck}
+        />,
+      );
+
+      const checkBtn = getByTestId('speaking-check-button');
+      fireEvent.press(checkBtn);
+      expect(handleCheck).not.toHaveBeenCalled();
+
+      rerender(
+        <ThemeProvider>
+          <LocaleProvider>
+            <SpeakingBottomBar
+              state="idle"
+              exerciseType="sentence_fill"
+              onStartRecording={jest.fn()}
+              onStopRecording={jest.fn()}
+              canCheck={true}
+              onCheck={handleCheck}
+            />
+          </LocaleProvider>
+        </ThemeProvider>,
+      );
+
+      fireEvent.press(getByTestId('speaking-check-button'));
+      expect(handleCheck).toHaveBeenCalled();
     });
 
     it('renders verb forms idle prompt when exerciseType is verb_forms_fill', () => {
@@ -224,7 +260,7 @@ describe('Speaking Mode (Чтение вслух)', () => {
         />,
       );
 
-      expect(getByText('Нажмите и назовите 3 формы')).toBeTruthy();
+      expect(getByText('Удерживайте и назовите 3 формы')).toBeTruthy();
     });
 
     it('renders conjugation idle prompt when exerciseType is conjugation_fill', () => {
@@ -237,7 +273,7 @@ describe('Speaking Mode (Чтение вслух)', () => {
         />,
       );
 
-      expect(getByText('Нажмите и назовите спряжения')).toBeTruthy();
+      expect(getByText('Удерживайте и назовите спряжения')).toBeTruthy();
     });
 
     it('renders recording state with hint pill', () => {
@@ -250,7 +286,7 @@ describe('Speaking Mode (Чтение вслух)', () => {
         />,
       );
 
-      expect(getByText('Слушаю... Нажмите для завершения')).toBeTruthy();
+      expect(getByText('Слушаю... Отпустите, когда закончите')).toBeTruthy();
     });
 
     it('renders evaluating state message', () => {
@@ -263,7 +299,7 @@ describe('Speaking Mode (Чтение вслух)', () => {
         />,
       );
 
-      expect(getByText('Проверяю произношение...')).toBeTruthy();
+      expect(getByText('Распознаю речь...')).toBeTruthy();
     });
 
     it('renders error state message on failure', () => {
@@ -276,7 +312,7 @@ describe('Speaking Mode (Чтение вслух)', () => {
         />,
       );
 
-      expect(getByText('Не удалось расслышать. Нажмите и повторите')).toBeTruthy();
+      expect(getByText('Не удалось расслышать. Удерживайте и повторите')).toBeTruthy();
     });
 
     it('renders permission denied message with Open Settings action', () => {
@@ -340,6 +376,27 @@ describe('Speaking Mode (Чтение вслух)', () => {
 
       await waitFor(() => {
         expect(getByTestId('premium-subscribe-sheet')).toBeTruthy();
+      });
+    });
+
+    it('opens TextInput when user taps on a gap slot in speaking mode', async () => {
+      setPremiumEnabled(true);
+      updateSettings({ quizInputMode: 'speaking' });
+
+      const { getByTestId, queryByTestId } = renderWithProviders(<VerbQuizScreen />);
+
+      await waitFor(() => {
+        expect(getByTestId('speaking-bottom-bar')).toBeTruthy();
+      });
+
+      // Initially no TextInput is mounted so keyboard does not auto-open
+      expect(queryByTestId('gap-slot-input-0')).toBeNull();
+
+      // Tapping slot 0 opens TextInput for manual typing
+      fireEvent.press(getByTestId('gap-slot-touch-0'));
+
+      await waitFor(() => {
+        expect(getByTestId('gap-slot-input-0')).toBeTruthy();
       });
     });
   });

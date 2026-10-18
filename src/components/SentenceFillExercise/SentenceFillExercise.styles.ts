@@ -20,6 +20,9 @@ export function createStyles(colors: ThemeColors) {
       marginHorizontal: 3,
       marginVertical: 4,
     },
+    regularWordMatched: {
+      color: '#10B981',
+    },
     punctuationText: {
       fontSize: 22,
       fontWeight: '600',

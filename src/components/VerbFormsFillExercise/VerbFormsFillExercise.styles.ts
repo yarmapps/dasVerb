@@ -22,6 +22,9 @@ export function createStyles(colors: ThemeColors) {
       textAlign: 'center',
       letterSpacing: 0.3,
     },
+    infinitiveTextMatched: {
+      color: '#10B981',
+    },
     formContainer: {
       width: '100%',
     },

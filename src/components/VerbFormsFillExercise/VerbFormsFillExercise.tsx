@@ -25,6 +25,7 @@ export interface VerbFormsFillExerciseProps {
   inputMode?: 'choice' | 'type_in';
   onTextChange?: (slotIndex: number, text: string) => void;
   onSubmitSlot?: (slotIndex: number) => void;
+  isInfinitiveMatched?: boolean;
 }
 
 export function VerbFormsFillExercise({
@@ -37,6 +38,7 @@ export function VerbFormsFillExercise({
   inputMode = 'choice',
   onTextChange,
   onSubmitSlot,
+  isInfinitiveMatched,
 }: VerbFormsFillExerciseProps): React.JSX.Element {
   const intl = useIntl();
   const { colors } = useAppTheme();
@@ -96,7 +98,9 @@ export function VerbFormsFillExercise({
     <View style={styles.container} testID="verb-forms-fill-exercise">
       {/* Verb Header */}
       <View style={styles.headerContainer}>
-        <Text style={styles.infinitiveText}>{infinitive}</Text>
+        <Text style={[styles.infinitiveText, isInfinitiveMatched && styles.infinitiveTextMatched]}>
+          {infinitive}
+        </Text>
       </View>
 
       {/* Slots Form Container */}

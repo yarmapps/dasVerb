@@ -23,6 +23,8 @@ export interface SpeakingBottomBarProps {
   onStartRecording: () => void;
   onStopRecording: () => void;
   onRequestPermission?: () => void;
+  canCheck?: boolean;
+  onCheck?: () => void;
 }
 
 export function SpeakingBottomBar({
@@ -31,6 +33,8 @@ export function SpeakingBottomBar({
   onStartRecording,
   onStopRecording,
   onRequestPermission,
+  canCheck = false,
+  onCheck,
 }: SpeakingBottomBarProps): React.JSX.Element {
   const intl = useIntl();
   const { colors, isDark } = useAppTheme();
@@ -70,13 +74,13 @@ export function SpeakingBottomBar({
       const ripple1Loop = Animated.loop(
         Animated.parallel([
           Animated.timing(ripple1Scale, {
-            toValue: 1.7,
+            toValue: 1.65,
             duration: 1200,
             useNativeDriver: true,
           }),
           Animated.sequence([
             Animated.timing(ripple1Opacity, {
-              toValue: 0.5,
+              toValue: 0.65,
               duration: 200,
               useNativeDriver: true,
             }),
@@ -95,13 +99,13 @@ export function SpeakingBottomBar({
           Animated.delay(600),
           Animated.parallel([
             Animated.timing(ripple2Scale, {
-              toValue: 1.7,
+              toValue: 1.65,
               duration: 1200,
               useNativeDriver: true,
             }),
             Animated.sequence([
               Animated.timing(ripple2Opacity, {
-                toValue: 0.5,
+                toValue: 0.65,
                 duration: 200,
                 useNativeDriver: true,
               }),
@@ -136,24 +140,38 @@ export function SpeakingBottomBar({
     ]).start();
   }, [isRecording, pulseScale, ripple1Scale, ripple1Opacity, ripple2Scale, ripple2Opacity]);
 
+  const handlePressIn = () => {
+    if (isEvaluating || isPermissionDenied || isRecording) {
+      return;
+    }
+    try {
+      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium).catch(() => {});
+    } catch {
+      // Ignore haptics error on simulator
+    }
+    onStartRecording();
+  };
+
+  const handlePressOut = () => {
+    if (!isRecording || isPermissionDenied) {
+      return;
+    }
+    try {
+      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(() => {});
+    } catch {
+      // Ignore haptics error
+    }
+    onStopRecording();
+  };
+
   const handleTogglePress = () => {
     if (isEvaluating || isPermissionDenied) {
       return;
     }
     if (isRecording) {
-      try {
-        Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(() => {});
-      } catch {
-        // Ignore haptics error
-      }
-      onStopRecording();
+      handlePressOut();
     } else {
-      try {
-        Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium).catch(() => {});
-      } catch {
-        // Ignore haptics error on simulator
-      }
-      onStartRecording();
+      handlePressIn();
     }
   };
 
@@ -240,9 +258,6 @@ export function SpeakingBottomBar({
     if (isEvaluating) {
       return <ActivityIndicator size="small" color="#FFFFFF" />;
     }
-    if (isRecording) {
-      return <FontAwesome5 name="stop" size={20} color="#FFFFFF" />;
-    }
     return <FontAwesome5 name="microphone" size={26} color="#FFFFFF" />;
   };
 
@@ -303,6 +318,8 @@ export function SpeakingBottomBar({
         {/* Active Mic Button */}
         <Animated.View style={{ transform: [{ scale: pulseScale }] }}>
           <Pressable
+            onPressIn={handlePressIn}
+            onPressOut={handlePressOut}
             onPress={handleTogglePress}
             disabled={isEvaluating || isPermissionDenied}
             style={[
@@ -316,6 +333,23 @@ export function SpeakingBottomBar({
           </Pressable>
         </Animated.View>
       </View>
+
+      {/* Check Button */}
+      {onCheck && (
+        <View style={styles.checkButtonContainer}>
+          <TouchableOpacity
+            style={[styles.checkButton, !canCheck && styles.checkButtonDisabled]}
+            activeOpacity={0.8}
+            disabled={!canCheck || isRecording || isEvaluating}
+            onPress={onCheck}
+            testID="speaking-check-button"
+          >
+            <Text style={[styles.checkButtonText, !canCheck && styles.checkButtonTextDisabled]}>
+              {intl.formatMessage({ id: 'verbQuizScreen.check' })}
+            </Text>
+          </TouchableOpacity>
+        </View>
+      )}
     </View>
   );
 }

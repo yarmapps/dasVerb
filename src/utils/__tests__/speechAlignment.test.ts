@@ -237,6 +237,48 @@ describe('speechAlignment', () => {
       expect(result.capturedAnswers[5]).toBe('lernen');
     });
 
+    it('evaluates full conjugation when user says all three 3rd-person pronouns (er sie es)', () => {
+      const result = evaluateSpeechForExercise(
+        mockConjugationExercise,
+        'ich lerne, du lernst, er sie es lernt, wir lernen, ihr lernt, sie lernen',
+      );
+      expect(result.isCorrect).toBe(true);
+      expect(result.isCompleted).toBe(true);
+      expect(result.capturedAnswers[0]).toBe('lerne');
+      expect(result.capturedAnswers[1]).toBe('lernst');
+      expect(result.capturedAnswers[2]).toBe('lernt');
+      expect(result.capturedAnswers[3]).toBe('lernen');
+      expect(result.capturedAnswers[4]).toBe('lernt');
+      expect(result.capturedAnswers[5]).toBe('lernen');
+      expect(result.matchedPronounIndices).toEqual([0, 1, 2, 3, 4, 5]);
+    });
+
+    it('never puts subject pronouns (er, sie, es) into verb slots during partial speech', () => {
+      const result = evaluateSpeechForExercise(
+        mockConjugationExercise,
+        'ich lerne, du lernst, er sie es',
+      );
+      expect(result.capturedAnswers[0]).toBe('lerne');
+      expect(result.capturedAnswers[1]).toBe('lernst');
+      expect(result.capturedAnswers[2]).toBeUndefined();
+      expect(result.matchedPronounIndices).toEqual([0, 1, 2]);
+    });
+
+    it('extracts verbs sequentially in order 0..5 even when ASR misrecognizes er/sie/es as ihr/sie/ist', () => {
+      const result = evaluateSpeechForExercise(
+        mockConjugationExercise,
+        'ich lerne, du lernst, ihr sie ist lernt, wir lernen, ja lernt, sie lernen',
+      );
+      expect(result.isCorrect).toBe(true);
+      expect(result.isCompleted).toBe(true);
+      expect(result.capturedAnswers[0]).toBe('lerne');
+      expect(result.capturedAnswers[1]).toBe('lernst');
+      expect(result.capturedAnswers[2]).toBe('lernt');
+      expect(result.capturedAnswers[3]).toBe('lernen');
+      expect(result.capturedAnswers[4]).toBe('lernt');
+      expect(result.capturedAnswers[5]).toBe('lernen');
+    });
+
     it('detects errors in forms', () => {
       const result = evaluateSpeechForExercise(
         mockConjugationExercise,

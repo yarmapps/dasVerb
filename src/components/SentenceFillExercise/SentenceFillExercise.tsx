@@ -12,6 +12,7 @@ import {
 import { QuizExercise } from '../../services/quizGeneratorService';
 import { useAppTheme } from '../../context/ThemeContext';
 import { isAnswerCorrect } from '../../utils/answerValidation';
+import { AlignedSegment } from '../../utils/speechAlignment';
 import { createStyles } from './SentenceFillExercise.styles';
 
 export interface SentenceFillExerciseProps {
@@ -24,6 +25,7 @@ export interface SentenceFillExerciseProps {
   inputMode?: 'choice' | 'type_in';
   onTextChange?: (gapIndex: number, text: string) => void;
   onSubmitSlot?: (gapIndex: number) => void;
+  alignedSegments?: AlignedSegment[];
 }
 
 export function SentenceFillExercise({
@@ -36,6 +38,7 @@ export function SentenceFillExercise({
   inputMode = 'choice',
   onTextChange,
   onSubmitSlot,
+  alignedSegments,
 }: SentenceFillExerciseProps): React.JSX.Element {
   const { colors } = useAppTheme();
   const styles = useMemo(() => createStyles(colors), [colors]);
@@ -164,9 +167,37 @@ export function SentenceFillExercise({
 
     const trimmedText = segment.text?.trim() || '';
     const isPunctuation = Boolean(trimmedText && /^[.,!?:;]+$/.test(trimmedText));
+    const alignedSeg = alignedSegments?.find(s => s.segmentIndex === idx && !s.isGap);
+
+    if (!isPunctuation && alignedSeg && (alignedSeg.matchedWordsCount || 0) > 0) {
+      const words = trimmedText.split(/\s+/).filter(Boolean);
+      if (words.length > 1) {
+        words.forEach((word, wordIdx) => {
+          const isWordMatched = wordIdx < (alignedSeg.matchedWordsCount || 0);
+          elements.push(
+            <Text
+              key={`${idx}_${wordIdx}`}
+              style={[styles.regularWord, isWordMatched && styles.regularWordMatched]}
+            >
+              {word}
+            </Text>,
+          );
+        });
+        return;
+      }
+    }
+
+    const isSegmentMatched = Boolean(!isPunctuation && alignedSeg?.isMatched);
 
     elements.push(
-      <Text key={idx} style={isPunctuation ? styles.punctuationText : styles.regularWord}>
+      <Text
+        key={idx}
+        style={
+          isPunctuation
+            ? styles.punctuationText
+            : [styles.regularWord, isSegmentMatched && styles.regularWordMatched]
+        }
+      >
         {trimmedText}
       </Text>,
     );

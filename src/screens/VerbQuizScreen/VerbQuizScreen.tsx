@@ -10,6 +10,7 @@ import {
   Platform,
   ActivityIndicator,
   Alert,
+  Keyboard,
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
@@ -53,7 +54,11 @@ import {
   SpeakingBottomBar,
   SpeakingState,
 } from '../../components/SpeakingBottomBar/SpeakingBottomBar';
-import { evaluateSpeechForExercise } from '../../utils/speechAlignment';
+import {
+  evaluateSpeechForExercise,
+  SpeechEvaluationResult,
+  tokenizeSpeech,
+} from '../../utils/speechAlignment';
 import { isAnswerCorrect } from '../../utils/answerValidation';
 import {
   quizGeneratorService,
@@ -441,32 +446,81 @@ export function VerbQuizScreen(): React.JSX.Element {
   const currentGap = currentExercise?.gaps?.[activeGapIndex] || currentExercise?.gaps?.[0];
 
   const [speakingState, setSpeakingState] = useState<SpeakingState>('idle');
+  const [speechEval, setSpeechEval] = useState<SpeechEvaluationResult | null>(null);
+  const [isManualSlotEditing, setIsManualSlotEditing] = useState(false);
   const speakingStateRef = useRef<SpeakingState>('idle');
   speakingStateRef.current = speakingState;
   const speechTranscriptRef = useRef<string>('');
+  const finalizedSegmentsRef = useRef<string[]>([]);
+  const currentInterimRef = useRef<string>('');
   const stopTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const finalizeSpeakingRef = useRef<() => void>(() => {});
 
   useSpeechRecognitionEvent('result', event => {
-    const transcript = event.results?.[0]?.transcript || '';
-    if (!transcript) return;
-    speechTranscriptRef.current = transcript;
+    const rawResultTranscript = event.results?.[0]?.transcript || '';
+    const rawSegment = rawResultTranscript.trim();
+
+    if (!rawSegment) {
+      // On iOS 18+, pause metadata often arrives as { isFinal: true, results: [] }
+      if (event.isFinal && currentInterimRef.current.trim().length > 0) {
+        finalizedSegmentsRef.current.push(currentInterimRef.current.trim());
+        currentInterimRef.current = '';
+      }
+      return;
+    }
+
+    // If iOS 18+ prepended a leading space after a pause and we still have uncommitted interim text
+    if (rawResultTranscript.startsWith(' ') && currentInterimRef.current.trim().length > 0) {
+      const prevTokens = tokenizeSpeech(currentInterimRef.current);
+      const currTokens = tokenizeSpeech(rawSegment);
+      if (prevTokens.length > 0 && currTokens.length > 0 && prevTokens[0] !== currTokens[0]) {
+        finalizedSegmentsRef.current.push(currentInterimRef.current.trim());
+        currentInterimRef.current = '';
+      }
+    }
+
+    const existingFinalized = finalizedSegmentsRef.current.join(' ');
+    let normalizedSegment = rawSegment;
+    if (
+      existingFinalized.length > 0 &&
+      rawSegment.toLowerCase().startsWith(`${existingFinalized.toLowerCase()} `)
+    ) {
+      normalizedSegment = rawSegment.slice(existingFinalized.length).trim();
+    }
+
+    if (event.isFinal) {
+      const normTokens = tokenizeSpeech(normalizedSegment).join(' ');
+      if (normTokens.length > 0) {
+        const lastSeg = finalizedSegmentsRef.current[finalizedSegmentsRef.current.length - 1];
+        const lastTokens = lastSeg ? tokenizeSpeech(lastSeg).join(' ') : '';
+        if (
+          currentInterimRef.current.length === 0 &&
+          lastTokens.length > 0 &&
+          (normTokens === lastTokens || normTokens.startsWith(`${lastTokens} `))
+        ) {
+          finalizedSegmentsRef.current[finalizedSegmentsRef.current.length - 1] = normalizedSegment;
+        } else {
+          finalizedSegmentsRef.current.push(normalizedSegment);
+        }
+      }
+      currentInterimRef.current = '';
+    } else {
+      currentInterimRef.current = normalizedSegment;
+    }
+
+    const fullTranscript = [...finalizedSegmentsRef.current, currentInterimRef.current]
+      .filter(Boolean)
+      .join(' ')
+      .trim();
+
+    if (!fullTranscript) return;
+    speechTranscriptRef.current = fullTranscript;
 
     if (currentExercise) {
-      const liveEval = evaluateSpeechForExercise(currentExercise, transcript);
+      const liveEval = evaluateSpeechForExercise(currentExercise, fullTranscript);
+      setSpeechEval(liveEval);
       const capturedCount = Object.keys(liveEval.capturedAnswers).length;
-      if (capturedCount > 0) {
-        setUserAnswers(prev => {
-          const next = [...prev];
-          Object.entries(liveEval.capturedAnswers).forEach(([idxStr, val]) => {
-            const idx = Number(idxStr);
-            if (!Number.isNaN(idx)) {
-              next[idx] = val;
-            }
-          });
-          return next;
-        });
-      }
+      setUserAnswers(currentExercise.gaps.map((_, idx) => liveEval.capturedAnswers[idx] ?? ''));
 
       if (speakingStateRef.current === 'evaluating' && (capturedCount > 0 || event.isFinal)) {
         if (stopTimeoutRef.current) {
@@ -478,11 +532,39 @@ export function VerbQuizScreen(): React.JSX.Element {
     }
   });
 
+  useSpeechRecognitionEvent('end', () => {
+    if (speakingStateRef.current === 'recording') {
+      if (currentInterimRef.current.trim().length > 0) {
+        finalizedSegmentsRef.current.push(currentInterimRef.current.trim());
+        currentInterimRef.current = '';
+      }
+      try {
+        ExpoSpeechRecognitionModule.start({
+          lang: 'de-DE',
+          interimResults: true,
+          maxAlternatives: 1,
+          continuous: true,
+          androidIntentOptions: {
+            EXTRA_LANGUAGE: 'de-DE',
+            EXTRA_LANGUAGE_PREFERENCE: 'de-DE',
+          },
+          iosCategory: {
+            category: 'record',
+            categoryOptions: [],
+            mode: 'measurement',
+          },
+        });
+      } catch {
+        // Ignore restart errors while holding Push-to-Talk
+      }
+    }
+  });
+
   useSpeechRecognitionEvent('error', event => {
     const errorCode = event?.error;
     if (
-      (errorCode === 'aborted' || errorCode === 'no-speech') &&
-      speakingStateRef.current !== 'recording'
+      (errorCode === 'aborted' || errorCode === 'no-speech' || errorCode === 'speech-timeout') &&
+      speakingStateRef.current !== 'evaluating'
     ) {
       return;
     }
@@ -514,7 +596,11 @@ export function VerbQuizScreen(): React.JSX.Element {
   useEffect(() => {
     speakingStateRef.current = 'idle';
     setSpeakingState('idle');
+    setSpeechEval(null);
+    setIsManualSlotEditing(false);
     speechTranscriptRef.current = '';
+    finalizedSegmentsRef.current = [];
+    currentInterimRef.current = '';
     if (stopTimeoutRef.current) {
       clearTimeout(stopTimeoutRef.current);
       stopTimeoutRef.current = null;
@@ -767,6 +853,9 @@ export function VerbQuizScreen(): React.JSX.Element {
       soundService.playTapSound();
 
       setActiveGapIndex(slotIndex);
+      if (effectiveInputMode === 'speaking') {
+        setIsManualSlotEditing(true);
+      }
       setUserAnswers(prev => {
         if (!prev[slotIndex]) return prev;
         const next = [...prev];
@@ -774,7 +863,7 @@ export function VerbQuizScreen(): React.JSX.Element {
         return next;
       });
     },
-    [status],
+    [status, effectiveInputMode],
   );
 
   const handleScreenPress = useCallback(() => {
@@ -1024,6 +1113,24 @@ export function VerbQuizScreen(): React.JSX.Element {
     (gapIndex: number) => {
       if (!currentExercise || !currentExercise.gaps) return;
       const totalGaps = currentExercise.gaps.length;
+
+      if (effectiveInputMode === 'speaking') {
+        const nextUnfilled = currentExercise.gaps.findIndex(
+          (g, idx) =>
+            idx !== gapIndex &&
+            (!userAnswers[idx] || !userAnswers[idx].trim()) &&
+            g.correctValue !== '—' &&
+            g.correctValue !== '-',
+        );
+        if (nextUnfilled !== -1) {
+          setActiveGapIndex(nextUnfilled);
+          return;
+        }
+        setIsManualSlotEditing(false);
+        Keyboard.dismiss();
+        return;
+      }
+
       if (currentExercise.type === 'verb_forms_fill') {
         const nextUnfilled = currentExercise.gaps.findIndex(
           (_, idx) => idx !== gapIndex && !userAnswers[idx],
@@ -1041,7 +1148,7 @@ export function VerbQuizScreen(): React.JSX.Element {
         handleSubmitTypedAnswers();
       }
     },
-    [currentExercise, userAnswers, canSubmitTypeIn, handleSubmitTypedAnswers],
+    [currentExercise, effectiveInputMode, userAnswers, canSubmitTypeIn, handleSubmitTypedAnswers],
   );
 
   const finalizeSpeaking = useCallback(() => {
@@ -1057,9 +1164,10 @@ export function VerbQuizScreen(): React.JSX.Element {
     }
 
     const evalResult = evaluateSpeechForExercise(currentExercise, transcript);
+    setSpeechEval(evalResult);
     const capturedCount = Object.keys(evalResult.capturedAnswers).length;
 
-    const nextAnswers = currentExercise.gaps.map((gap, idx) => {
+    const nextAnswers = currentExercise.gaps.map((_, idx) => {
       if (evalResult.capturedAnswers[idx] !== undefined) {
         return evalResult.capturedAnswers[idx];
       }
@@ -1068,15 +1176,23 @@ export function VerbQuizScreen(): React.JSX.Element {
 
     setUserAnswers(nextAnswers);
 
-    if (capturedCount > 0) {
+    const hasAnyContextMatch =
+      Boolean(evalResult.isInfinitiveMatched) ||
+      Boolean(evalResult.matchedPronounIndices && evalResult.matchedPronounIndices.length > 0) ||
+      Boolean(
+        evalResult.alignedSegments?.some(
+          seg => seg.isMatched || (seg.matchedWordsCount && seg.matchedWordsCount > 0),
+        ),
+      );
+
+    if (capturedCount > 0 || hasAnyContextMatch) {
       speakingStateRef.current = 'idle';
       setSpeakingState('idle');
-      processSubmission(nextAnswers);
     } else {
       speakingStateRef.current = 'error';
       setSpeakingState('error');
     }
-  }, [currentExercise, userAnswers, processSubmission]);
+  }, [currentExercise, userAnswers]);
 
   useEffect(() => {
     finalizeSpeakingRef.current = finalizeSpeaking;
@@ -1092,6 +1208,8 @@ export function VerbQuizScreen(): React.JSX.Element {
       return;
     }
     try {
+      setIsManualSlotEditing(false);
+      Keyboard.dismiss();
       await speechService.stop();
       await soundService.unload();
 
@@ -1102,6 +1220,11 @@ export function VerbQuizScreen(): React.JSX.Element {
         return;
       }
       speechTranscriptRef.current = '';
+      finalizedSegmentsRef.current = [];
+      currentInterimRef.current = '';
+      setSpeechEval(null);
+      setUserAnswers(new Array(currentExercise.gaps.length).fill(''));
+      setActiveGapIndex(0);
       speakingStateRef.current = 'recording';
       setSpeakingState('recording');
       await ExpoSpeechRecognitionModule.start({
@@ -1387,6 +1510,12 @@ export function VerbQuizScreen(): React.JSX.Element {
   }, [currentExercise, intl]);
 
   const renderExerciseContent = () => {
+    const isSpeaking = effectiveInputMode === 'speaking';
+    const slotInputMode =
+      effectiveInputMode === 'type_in' || (isSpeaking && isManualSlotEditing)
+        ? 'type_in'
+        : 'choice';
+
     if (currentExercise?.type === 'verb_forms_fill') {
       return (
         <VerbFormsFillExercise
@@ -1396,9 +1525,10 @@ export function VerbQuizScreen(): React.JSX.Element {
           status={status}
           pulseAnim={pulseAnim}
           onSlotPress={handleSlotPress}
-          inputMode={effectiveInputMode === 'type_in' ? 'type_in' : 'choice'}
+          inputMode={slotInputMode}
           onTextChange={handleTextChange}
           onSubmitSlot={handleSubmitSlot}
+          isInfinitiveMatched={isSpeaking ? speechEval?.isInfinitiveMatched : undefined}
         />
       );
     }
@@ -1411,9 +1541,10 @@ export function VerbQuizScreen(): React.JSX.Element {
           status={status}
           pulseAnim={pulseAnim}
           onSlotPress={handleSlotPress}
-          inputMode={effectiveInputMode === 'type_in' ? 'type_in' : 'choice'}
+          inputMode={slotInputMode}
           onTextChange={handleTextChange}
           onSubmitSlot={handleSubmitSlot}
+          matchedPronounIndices={isSpeaking ? speechEval?.matchedPronounIndices : undefined}
         />
       );
     }
@@ -1426,9 +1557,10 @@ export function VerbQuizScreen(): React.JSX.Element {
           status={status}
           pulseAnim={pulseAnim}
           onSlotPress={handleSlotPress}
-          inputMode={effectiveInputMode === 'type_in' ? 'type_in' : 'choice'}
+          inputMode={slotInputMode}
           onTextChange={handleTextChange}
           onSubmitSlot={handleSubmitSlot}
+          alignedSegments={isSpeaking ? speechEval?.alignedSegments : undefined}
         />
       );
     }
@@ -1440,9 +1572,10 @@ export function VerbQuizScreen(): React.JSX.Element {
         status={status}
         pulseAnim={pulseAnim}
         onSlotPress={handleSlotPress}
-        inputMode={effectiveInputMode === 'type_in' ? 'type_in' : 'choice'}
+        inputMode={slotInputMode}
         onTextChange={handleTextChange}
         onSubmitSlot={handleSubmitSlot}
+        alignedSegments={isSpeaking ? speechEval?.alignedSegments : undefined}
       />
     );
   };
@@ -1610,6 +1743,8 @@ export function VerbQuizScreen(): React.JSX.Element {
           exerciseType={currentExercise?.type}
           onStartRecording={handleStartSpeaking}
           onStopRecording={handleStopSpeaking}
+          canCheck={canSubmitTypeIn}
+          onCheck={handleSubmitTypedAnswers}
         />
       );
     }

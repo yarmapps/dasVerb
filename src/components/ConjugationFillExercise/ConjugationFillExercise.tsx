@@ -24,6 +24,7 @@ export interface ConjugationFillExerciseProps {
   inputMode?: 'choice' | 'type_in';
   onTextChange?: (gapIndex: number, text: string) => void;
   onSubmitSlot?: (gapIndex: number) => void;
+  matchedPronounIndices?: number[];
 }
 
 export function ConjugationFillExercise({
@@ -36,6 +37,7 @@ export function ConjugationFillExercise({
   inputMode = 'choice',
   onTextChange,
   onSubmitSlot,
+  matchedPronounIndices,
 }: ConjugationFillExerciseProps): React.JSX.Element {
   const { colors } = useAppTheme();
   const styles = useMemo(() => createStyles(colors), [colors]);
@@ -56,6 +58,7 @@ export function ConjugationFillExercise({
           ? activeGapIndex === gapIndex
           : activeGapIndex === gapIndex && !userAnswer;
         const isCorrect = isAnswerCorrect(userAnswer, correctValue);
+        const isPronounMatched = Boolean(matchedPronounIndices?.includes(gapIndex));
 
         let slotStyle: StyleProp<ViewStyle> = styles.gapSlot;
         let slotTextStyle: StyleProp<TextStyle> = styles.gapSlotText;
@@ -87,7 +90,11 @@ export function ConjugationFillExercise({
           <View key={`row_${gapIndex}`} style={styles.rowContainer}>
             <View style={styles.pronounContainer}>
               <Text
-                style={[styles.pronounText, isActive && styles.pronounTextActive]}
+                style={[
+                  styles.pronounText,
+                  isActive && styles.pronounTextActive,
+                  isPronounMatched && styles.pronounTextMatched,
+                ]}
                 numberOfLines={1}
               >
                 {pronoun}

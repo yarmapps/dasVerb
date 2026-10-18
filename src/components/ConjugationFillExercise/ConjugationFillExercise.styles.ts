@@ -30,6 +30,10 @@ export function createStyles(colors: ThemeColors) {
       color: colors.primary,
       fontWeight: '700',
     },
+    pronounTextMatched: {
+      color: '#10B981',
+      fontWeight: '700',
+    },
     slotWrapper: {
       flex: 1,
       alignItems: 'flex-end',
