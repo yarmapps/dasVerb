@@ -1,12 +1,12 @@
 {
   "ios": {
     "minimum_version": "1.0.0",
-    "latest_version": "1.0.0",
+    "latest_version": "1.1.0",
     "update_url": "itms-apps://apple.com/app/id6760616325"
   },
   "android": {
     "minimum_version": "1.0.7",
-    "latest_version": "1.0.7",
+    "latest_version": "1.1.0",
     "update_url": "market://details?id=com.yarm.apps.das_verb"
   },
   "features": {
@@ -16,6 +16,6 @@
     "enable_practice_native_ad": false,
     "enable_dictionary_native_ad": true,
     "enable_leaderboard": true,
-    "enable_leaderboard_history_tab": true
+    "enable_leaderboard_history_tab": false
   }
 }

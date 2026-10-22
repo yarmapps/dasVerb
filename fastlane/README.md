@@ -71,6 +71,14 @@ Upload screenshots from fastlane/screenshots/ios to App Store Connect
 
 Upload production build.ipa and metadata to App Store Connect
 
+### ios sync_yearly_subscription_localizations
+
+```sh
+[bundle exec] fastlane ios sync_yearly_subscription_localizations
+```
+
+Sync localizations for Yearly Subscription (dasverb_premium_year) on App Store Connect
+
 ### ios check_iap
 
 ```sh

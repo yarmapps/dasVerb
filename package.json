@@ -1,6 +1,6 @@
 {
   "name": "das-verb",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "main": "expo/AppEntry.js",
   "scripts": {
     "clean-build:android": "expo prebuild --clean && yarn android",
@@ -38,6 +38,7 @@
     "publish:release:android": "fastlane android release_production",
     "publish:metadata:android": "fastlane android sync_metadata",
     "publish:screenshots:android": "fastlane android sync_screenshots",
+    "publish:subscription:yearly": "fastlane ios sync_yearly_subscription_localizations",
     "publish:app-connect": "eas submit --platform ios --path ./build.ipa",
     "============= DOWNLOAD SCRIPTS =============": "================================",
     "download:metadata:ios": "fastlane ios download_metadata",

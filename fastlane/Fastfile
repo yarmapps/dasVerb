@@ -460,25 +460,154 @@ platform :ios do
     )
   end
 
+  desc "Sync localizations for Yearly Subscription (dasverb_premium_year) on App Store Connect"
+  lane :sync_yearly_subscription_localizations do
+    sub_id = "6824538028"
+    token = Spaceship::ConnectAPI.token.text
+    require "net/http"
+    require "json"
+
+    localizations_data = {
+      "ar-SA" => { name: "das Verb: سنة واحدة بريميوم", desc: "بدون إعلانات، جميع الأفعال A1-B2 واختبارات" },
+      "cs" => { name: "das Verb: 1 Rok Premium", desc: "Bez reklam, všechna slovesa A1-B2" },
+      "da" => { name: "das Verb: 1 År Premium", desc: "Reklamefri, alle verber A1-B2 & quiz" },
+      "de-DE" => { name: "das Verb: 1 Jahr Premium", desc: "Werbefrei, alle Verben A1-B2 & Tests" },
+      "el" => { name: "das Verb: Premium 1 Έτος", desc: "Χωρίς διαφημίσεις, ρήματα A1-B2" },
+      "en-US" => { name: "das Verb: 1 Year Premium", desc: "All verbs A1-B2, prepositions & quizzes" },
+      "es-ES" => { name: "das Verb: Premium 1 Año", desc: "Sin anuncios, todos los verbos A1-B2" },
+      "es-MX" => { name: "das Verb: Premium 1 Año", desc: "Sin anuncios, todos los verbos A1-B2" },
+      "fi" => { name: "das Verb: 1 Vuosi Premium", desc: "Ei mainoksia, kaikki verbit A1-B2 & testit" },
+      "fr-CA" => { name: "das Verb: Premium 1 An", desc: "Sans pub, tous les verbes A1-B2 & quiz" },
+      "fr-FR" => { name: "das Verb: Premium 1 An", desc: "Sans pub, tous les verbes A1-B2 & quiz" },
+      "hi" => { name: "das Verb: 1 वर्ष प्रीमियम", desc: "विज्ञापन मुक्त, सभी क्रियाएं A1-B2 और क्विज़" },
+      "hr" => { name: "das Verb: 1 Godina Premium", desc: "Bez reklama, svi glagoli A1-B2" },
+      "hu" => { name: "das Verb: 1 Éves Premium", desc: "Reklámmentes, minden ige A1-B2 & tesztek" },
+      "id" => { name: "das Verb: Premium 1 Tahun", desc: "Bebas iklan, semua kata kerja A1-B2" },
+      "it" => { name: "das Verb: Premium 1 Anno", desc: "No pubblicità, tutti i verbi A1-B2" },
+      "nl-NL" => { name: "das Verb: 1 Jaar Premium", desc: "Reclamevrij, alle werkwoorden A1-B2" },
+      "no" => { name: "das Verb: 1 År Premium", desc: "Reklamefri, alle verb A1-B2 & quiz" },
+      "pl" => { name: "das Verb: Premium 1 Rok", desc: "Bez reklam, wszystkie czasowniki A1-B2" },
+      "pt-BR" => { name: "das Verb: Premium 1 Ano", desc: "Sem anúncios, todos os verbos A1-B2" },
+      "pt-PT" => { name: "das Verb: Premium 1 Ano", desc: "Sem anúncios, todos os verbos A1-B2" },
+      "ro" => { name: "das Verb: Premium 1 An", desc: "Fără reclame, toate verbele A1-B2" },
+      "ru" => { name: "das Verb: Годовой Премиум", desc: "Без рекламы, все глаголы A1-B2 и тесты" },
+      "sk" => { name: "das Verb: 1 Rok Premium", desc: "Bez reklám, všetky slovesá A1-B2" },
+      "sv" => { name: "das Verb: 1 År Premium", desc: "Reklamfritt, alla verb A1-B2 & quiz" },
+      "tr" => { name: "das Verb: 1 Yıllık Premium", desc: "Reklamsız, tüm fiiller A1-B2 ve testler" },
+      "uk" => { name: "das Verb: Річний Преміум", desc: "Без реклами, всі дієслова A1-B2 та квізи" },
+      "vi" => { name: "das Verb: Premium 1 Năm", desc: "Không quảng cáo, toàn bộ động từ A1-B2" }
+    }
+
+    # 1. Fetch existing localizations for the subscription
+    uri = URI("https://api.appstoreconnect.apple.com/v1/subscriptions/#{sub_id}/subscriptionLocalizations")
+    req = Net::HTTP::Get.new(uri)
+    req["Authorization"] = "Bearer #{token}"
+    res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) { |h| h.request(req) }
+    existing = JSON.parse(res.body)["data"] || []
+    existing_map = {}
+    existing.each do |loc|
+      existing_map[loc["attributes"]["locale"]] = loc
+    end
+
+    UI.message("Found #{existing_map.length} existing localizations for subscription #{sub_id}.")
+
+    # 2. Iterate and create or update
+    localizations_data.each do |locale, data|
+      name = data[:name]
+      desc = data[:desc]
+
+      if existing_map.key?(locale)
+        loc_id = existing_map[locale]["id"]
+        current_name = existing_map[locale]["attributes"]["name"]
+        current_desc = existing_map[locale]["attributes"]["description"]
+
+        if current_name == name && current_desc == desc
+          UI.success("Locale '#{locale}' already up to date: '#{name}'")
+          next
+        end
+
+        patch_uri = URI("https://api.appstoreconnect.apple.com/v1/subscriptionLocalizations/#{loc_id}")
+        patch_req = Net::HTTP::Patch.new(patch_uri)
+        patch_req["Authorization"] = "Bearer #{token}"
+        patch_req["Content-Type"] = "application/json"
+        patch_body = {
+          data: {
+            type: "subscriptionLocalizations",
+            id: loc_id,
+            attributes: {
+              name: name,
+              description: desc
+            }
+          }
+        }
+        patch_req.body = JSON.generate(patch_body)
+        patch_res = Net::HTTP.start(patch_uri.hostname, patch_uri.port, use_ssl: true) { |h| h.request(patch_req) }
+
+        if patch_res.code.to_i == 200
+          UI.success("Updated locale '#{locale}': '#{name}' 🎉")
+        else
+          UI.error("Failed to update locale '#{locale}' (#{patch_res.code}): #{patch_res.body}")
+        end
+      else
+        post_uri = URI("https://api.appstoreconnect.apple.com/v1/subscriptionLocalizations")
+        post_req = Net::HTTP::Post.new(post_uri)
+        post_req["Authorization"] = "Bearer #{token}"
+        post_req["Content-Type"] = "application/json"
+        post_body = {
+          data: {
+            type: "subscriptionLocalizations",
+            attributes: {
+              name: name,
+              description: desc,
+              locale: locale
+            },
+            relationships: {
+              subscription: {
+                data: {
+                  type: "subscriptions",
+                  id: sub_id
+                }
+              }
+            }
+          }
+        }
+        post_req.body = JSON.generate(post_body)
+        post_res = Net::HTTP.start(post_uri.hostname, post_uri.port, use_ssl: true) { |h| h.request(post_req) }
+
+        if post_res.code.to_i == 201
+          UI.success("Created locale '#{locale}': '#{name}' 🎉")
+        else
+          UI.error("Failed to create locale '#{locale}' (#{post_res.code}): #{post_res.body}")
+        end
+      end
+    end
+
+    UI.success("All localizations for Yearly Subscription (dasverb_premium_year) synced successfully! 🚀")
+  end
+
   desc "Check existing in-app purchases and subscriptions on App Store Connect"
   lane :check_iap do
     app = Spaceship::ConnectAPI::App.find("com.yarm.apps.dasverb")
     UI.message("Found App: #{app.name} (ID: #{app.id})")
 
-    iaps = Spaceship::ConnectAPI.get_in_app_purchases(filter: { app: app.id }).all_pages rescue []
-    UI.message("Existing In-App Purchases (#{iaps.length}):")
-    iaps.each do |iap|
-      UI.message(" - #{iap.name} (#{iap.product_id}) [#{iap.in_app_purchase_type}] - #{iap.state}")
+    token = Spaceship::ConnectAPI.token.text
+    require "net/http"
+    require "json"
+
+    fetch_api = lambda do |endpoint|
+      uri = URI("https://api.appstoreconnect.apple.com/v1/#{endpoint}")
+      req = Net::HTTP::Get.new(uri)
+      req["Authorization"] = "Bearer #{token}"
+      res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) { |h| h.request(req) }
+      JSON.parse(res.body) rescue { "error" => res.body }
     end
 
-    groups = Spaceship::ConnectAPI.get_subscription_groups(filter: { app: app.id }).all_pages rescue []
-    UI.message("Existing Subscription Groups (#{groups.length}):")
-    groups.each do |group|
-      UI.message(" Group: #{group.reference_name} (ID: #{group.id})")
-      subs = Spaceship::ConnectAPI.get_subscriptions(filter: { subscription_group: group.id }).all_pages rescue []
-      subs.each do |sub|
-        UI.message("   - #{sub.name} (#{sub.product_id}) [#{sub.subscription_period}] - #{sub.state}")
-      end
+    groups = fetch_api.call("apps/#{app.id}/subscriptionGroups")
+    UI.message("Subscription groups: #{groups.inspect}")
+
+    subs = fetch_api.call("subscriptionGroups/22354472/subscriptions")
+    (subs["data"] || []).each do |s|
+      UI.message("Sub: ID=#{s['id']}, name=#{s['attributes']['name']}, productId=#{s['attributes']['productId']}")
     end
   end
 
