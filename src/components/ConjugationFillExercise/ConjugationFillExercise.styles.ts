@@ -6,7 +6,8 @@ export function createStyles(colors: ThemeColors) {
   return StyleSheet.create({
     container: {
       paddingHorizontal: 20,
-      paddingVertical: 2,
+      paddingTop: 14,
+      paddingBottom: 2,
       width: '100%',
     },
     rowContainer: {

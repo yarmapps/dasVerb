@@ -32,7 +32,7 @@ export interface Translation {
     continue: string;
   };
   practiceScreen: {
-    title: string;
+    title?: string;
     subtitle: string;
     featuredBadge: string;
     levelsButtonTitle: string;
@@ -249,7 +249,6 @@ export interface Translation {
     tapToContinue: string;
   };
   quizResultsScreen?: {
-    title: string;
     checkpointResultsTitle?: string;
     smartQuizResultsTitle?: string;
     canDoBetter?: string;
@@ -316,6 +315,7 @@ export interface Translation {
     themeSystem: string;
     notifications: string;
     soundEffects: string;
+    haptics?: string;
     speakOnCorrectAnswer: string;
     voiceGender: string;
     voiceFemale: string;

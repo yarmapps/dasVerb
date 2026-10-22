@@ -47,7 +47,6 @@
     "continue": "ادامه"
   },
   "practiceScreen": {
-    "title": "تمرین",
     "subtitle": "افعال، صرف و ساختار جملات را تمرین کنید",
     "levelsButtonTitle": "تمرین افعال",
     "levelsButtonSubtitle": "از پرکاربردترین تا نادر بر اساس روش گوته",
@@ -158,7 +157,7 @@
   "settingsScreen": {
     "title": "تنظیمات",
     "generalSection": "عمومی",
-    "audioSection": "صدا",
+    "audioSection": "رابط کاربری",
     "supportSection": "پشتیبانی",
     "appLanguage": "زبان برنامه",
     "theme": "پوسته",
@@ -167,6 +166,7 @@
     "themeSystem": "سیستم",
     "notifications": "اعلان‌ها",
     "soundEffects": "افکت‌های صوتی",
+    "haptics": "بازخورد لمسی",
     "speakOnCorrectAnswer": "تلفظ پاسخ صحیح",
     "voiceGender": "صدا",
     "voiceFemale": "زن",
@@ -342,7 +342,6 @@
     "auxiliaryExplanationGeneral": "فعل {verb} زمان Perfekt را با فعل کمکی haben ({form}) می‌سازد."
   },
   "quizResultsScreen": {
-    "title": "نتایج",
     "checkpointResultsTitle": "نتایج آزمون ارزیابی",
     "smartQuizResultsTitle": "نتایج آزمون هوشمند",
     "canDoBetter": "می‌توانید بهتر عمل کنید!",

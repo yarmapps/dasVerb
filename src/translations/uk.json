@@ -47,7 +47,6 @@
     "continue": "Продовжити"
   },
   "practiceScreen": {
-    "title": "Практика",
     "subtitle": "Тренуйте дієслова, відмінювання та порядок слів у реченнях",
     "levelsButtonTitle": "Тренування дієслів",
     "levelsButtonSubtitle": "Від найуживаніших до рідкісних за методикою Goethe",
@@ -158,7 +157,7 @@
   "settingsScreen": {
     "title": "Налаштування",
     "generalSection": "ЗАГАЛЬНІ",
-    "audioSection": "АУДІО",
+    "audioSection": "ІНТЕРФЕЙС",
     "supportSection": "ПІДТРИМКА",
     "appLanguage": "Мова програми",
     "theme": "Тема",
@@ -167,6 +166,7 @@
     "themeSystem": "Системна",
     "notifications": "Сповіщення",
     "soundEffects": "Звукові ефекти",
+    "haptics": "Тактильний відгук",
     "speakOnCorrectAnswer": "Вимова правильної відповіді",
     "voiceGender": "Голос",
     "voiceFemale": "Жіночий",
@@ -342,7 +342,6 @@
     "auxiliaryExplanationGeneral": "Дієслово {verb} утворює Perfekt з допоміжним дієсловом haben ({form})."
   },
   "quizResultsScreen": {
-    "title": "Результати",
     "checkpointResultsTitle": "Результати тесту",
     "smartQuizResultsTitle": "Результати розумного квізу",
     "canDoBetter": "Можна краще!",

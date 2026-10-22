@@ -1,5 +1,6 @@
 import { soundService, SoundService } from '../services/soundService';
 import { updateSettings } from '../services/settingsService';
+import { hapticService } from '../services/hapticService';
 
 describe('SoundService', () => {
   beforeEach(async () => {
@@ -20,8 +21,11 @@ describe('SoundService', () => {
     await expect(soundService.playIncorrectSound()).resolves.not.toThrow();
   });
 
-  it('should play tap sound', async () => {
+  it('should play tap sound and trigger tap haptic feedback', async () => {
+    const hapticSpy = jest.spyOn(hapticService, 'impactTap');
     await expect(soundService.playTapSound()).resolves.not.toThrow();
+    expect(hapticSpy).toHaveBeenCalled();
+    hapticSpy.mockRestore();
   });
 
   it('should play level finished sound', async () => {

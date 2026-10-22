@@ -47,7 +47,6 @@
     "continue": "متابعة"
   },
   "practiceScreen": {
-    "title": "تمرين",
     "subtitle": "تدرب على الأفعال والتصريف وبناء الجمل",
     "levelsButtonTitle": "تدريب الأفعال",
     "levelsButtonSubtitle": "من الأكثر استخداماً إلى النادر وفق منهج غوته",
@@ -158,7 +157,7 @@
   "settingsScreen": {
     "title": "الإعدادات",
     "generalSection": "عام",
-    "audioSection": "الصوت",
+    "audioSection": "الواجهة",
     "supportSection": "الدعم",
     "appLanguage": "لغة التطبيق",
     "theme": "المظهر",
@@ -167,6 +166,7 @@
     "themeSystem": "النظام",
     "notifications": "الإشعارات",
     "soundEffects": "المؤثرات الصوتية",
+    "haptics": "الاستجابة اللمسية",
     "speakOnCorrectAnswer": "نطق الإجابة الصحيحة",
     "voiceGender": "الصوت",
     "voiceFemale": "أنثوي",
@@ -342,7 +342,6 @@
     "auxiliaryExplanationGeneral": "الفعل {verb} يشكل Perfekt مع الفعل المساعد haben ({form})."
   },
   "quizResultsScreen": {
-    "title": "النتائج",
     "checkpointResultsTitle": "نتائج الاختبار المرحلي",
     "smartQuizResultsTitle": "نتائج الاختبار الذكي",
     "canDoBetter": "يمكنك تقديم أداء أفضل!",

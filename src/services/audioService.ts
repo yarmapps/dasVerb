@@ -20,6 +20,10 @@ const ensureCacheDirectory = () => {
 // Track files that are known to not exist on CDN (e.g. returned 404)
 const missingAudioFiles = new Set<string>();
 
+function isSyntheticAudioTrack(fileName: string): boolean {
+  return fileName.includes('_conj_') || fileName.includes('_verb_forms_');
+}
+
 export const audioService = {
   /**
    * Retrieves an audio source (checks local cache first, then downloads from CDN).
@@ -29,7 +33,7 @@ export const audioService = {
    */
   async getAudioSource(fileName: string): Promise<{ uri: string } | null> {
     try {
-      if (missingAudioFiles.has(fileName)) {
+      if (isSyntheticAudioTrack(fileName) || missingAudioFiles.has(fileName)) {
         return null;
       }
 
@@ -62,8 +66,9 @@ export const audioService = {
   async preloadAudioFiles(fileNames: string[]): Promise<void> {
     try {
       ensureCacheDirectory();
+      const validFiles = fileNames.filter(fileName => !isSyntheticAudioTrack(fileName));
       await Promise.all(
-        fileNames.map(async fileName => {
+        validFiles.map(async fileName => {
           try {
             const file = new File(audioCacheDir, fileName);
             if (!file.exists) {
@@ -83,6 +88,9 @@ export const audioService = {
    * Downloads an audio file from the CDN into local cache.
    */
   async downloadAndCacheAudio(fileName: string): Promise<string | null> {
+    if (isSyntheticAudioTrack(fileName)) {
+      return null;
+    }
     try {
       ensureCacheDirectory();
       const remoteUrl = `${REMOTE_AUDIO_BASE_URL}${fileName}`;

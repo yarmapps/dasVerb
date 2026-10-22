@@ -47,7 +47,6 @@
     "continue": "Lanjutkan"
   },
   "practiceScreen": {
-    "title": "Latihan",
     "subtitle": "Latih kata kerja, konjugasi, dan struktur kalimat",
     "levelsButtonTitle": "Latih Kata Kerja",
     "levelsButtonSubtitle": "Dari yang paling umum hingga jarang menggunakan metode Goethe",
@@ -158,7 +157,7 @@
   "settingsScreen": {
     "title": "Pengaturan",
     "generalSection": "UMUM",
-    "audioSection": "AUDIO",
+    "audioSection": "ANTARMUKA",
     "supportSection": "DUKUNGAN",
     "appLanguage": "Bahasa Aplikasi",
     "theme": "Tema",
@@ -167,6 +166,7 @@
     "themeSystem": "Sistem",
     "notifications": "Notifikasi",
     "soundEffects": "Efek Suara",
+    "haptics": "Umpan balik haptik",
     "speakOnCorrectAnswer": "Ucapkan Jawaban Benar",
     "voiceGender": "Suara",
     "voiceFemale": "Wanita",
@@ -342,7 +342,6 @@
     "auxiliaryExplanationGeneral": "Kata kerja {verb} membentuk Perfekt dengan kata kerja bantu haben ({form})."
   },
   "quizResultsScreen": {
-    "title": "Hasil",
     "checkpointResultsTitle": "Hasil Pos Pemeriksaan",
     "smartQuizResultsTitle": "Hasil Kuis Cerdas",
     "canDoBetter": "Anda bisa lebih baik!",

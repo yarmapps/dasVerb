@@ -15,8 +15,8 @@ export const createStyles = (colors: ThemeColors) =>
     },
     pillButton: {
       height: 40,
-      minWidth: 44,
-      paddingHorizontal: Spacing.md,
+      minWidth: 40,
+      paddingHorizontal: Spacing.sm + 2,
       borderRadius: BorderRadius.xl,
       backgroundColor: colors.headerButtonBackground,
       alignItems: 'center',
@@ -27,7 +27,7 @@ export const createStyles = (colors: ThemeColors) =>
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'center',
-      gap: Spacing.xs + 2,
+      gap: Spacing.xs,
     },
     label: {
       fontSize: Typography.fontSize.sm,

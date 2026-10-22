@@ -1,7 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { View, Text, TouchableOpacity, ScrollView } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import * as Haptics from 'expo-haptics';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { useIntl } from 'react-intl';
@@ -16,6 +15,7 @@ import { updateLanguageSettings } from '../../services/settingsService';
 import { shouldShowFirstOpenPaywall } from '../../services/usageService';
 import { trackEvent, setUserProperty } from '../../services/analyticsService';
 import { soundService } from '../../services/soundService';
+import { hapticService } from '../../services/hapticService';
 import { createStyles } from './LanguageSelectorScreen.styles';
 
 export function LanguageSelectorScreen(): React.JSX.Element {
@@ -50,23 +50,13 @@ export function LanguageSelectorScreen(): React.JSX.Element {
 
   const handleLanguageSelect = (languageCode: SupportedLocales) => {
     soundService.playTapSound();
-    try {
-      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    } catch {
-      // Игнорируем в вебе / тестах
-    }
     setSelectedLanguage(languageCode);
   };
 
   const handleContinue = () => {
     if (!selectedLanguage || isSaving) return;
     soundService.playTapSound();
-
-    try {
-      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-    } catch {
-      // Игнорируем
-    }
+    void hapticService.impactMedium();
 
     setIsSaving(true);
 

@@ -1,5 +1,5 @@
 import React, { useMemo, useState, useEffect } from 'react';
-import { View, Text, TouchableOpacity, ScrollView } from 'react-native';
+import { View, Text, ScrollView } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -151,7 +151,6 @@ export function PracticeScreen(): React.JSX.Element {
     <ScreenBackground>
       <StatusBar style={isDark ? 'light' : 'dark'} />
       <ScreenHeader
-        title={intl.formatMessage({ id: 'practiceScreen.title' })}
         showBackButton={false}
         showLeaderboard={true}
         leftContent={

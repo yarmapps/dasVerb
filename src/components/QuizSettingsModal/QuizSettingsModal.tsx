@@ -22,9 +22,9 @@ export interface QuizSettingsModalProps {
   ttsVoiceGender: 'female' | 'male';
   onChangeVoiceGender: (gender: 'female' | 'male') => void;
   quizInputMode: QuizInputMode;
-  isPremium: boolean;
+  isPremium?: boolean;
   onChangeInputMode: (mode: QuizInputMode) => void;
-  onRequirePremium: () => void;
+  onRequirePremium?: () => void;
 }
 
 export function QuizSettingsModal(props: QuizSettingsModalProps): React.JSX.Element {
@@ -36,9 +36,7 @@ export function QuizSettingsModal(props: QuizSettingsModalProps): React.JSX.Elem
     ttsVoiceGender,
     onChangeVoiceGender,
     quizInputMode,
-    isPremium,
     onChangeInputMode,
-    onRequirePremium,
   } = props;
 
   const intl = useIntl();
@@ -61,11 +59,6 @@ export function QuizSettingsModal(props: QuizSettingsModalProps): React.JSX.Elem
 
   const handleInputModeSelect = (mode: QuizInputMode) => {
     soundService.playTapSound();
-    if (mode === 'type_in' && !isPremium) {
-      onClose();
-      onRequirePremium();
-      return;
-    }
     onChangeInputMode(mode);
   };
 
@@ -186,18 +179,18 @@ export function QuizSettingsModal(props: QuizSettingsModalProps): React.JSX.Elem
               <View style={styles.row}>
                 <View style={styles.rowLeft}>
                   <View style={styles.iconContainer}>
-                    <FontAwesome5 name="keyboard" size={14} color={colors.primary} />
+                    <FontAwesome5 name="pencil-alt" size={14} color={colors.primary} />
                   </View>
                   <Text style={styles.rowLabel}>
                     {intl.formatMessage({ id: 'quizSettingsModal.quizInputMode' })}
                   </Text>
                 </View>
                 <View style={styles.rowRight}>
-                  <View style={styles.voiceSegmentContainer}>
+                  <View style={styles.modeSegmentContainer}>
                     <TouchableOpacity
                       style={[
-                        styles.voiceSegmentButton,
-                        quizInputMode === 'choice' && styles.voiceSegmentButtonActive,
+                        styles.modeSegmentButton,
+                        quizInputMode === 'choice' && styles.modeSegmentButtonActive,
                       ]}
                       onPress={() => handleInputModeSelect('choice')}
                       activeOpacity={0.8}
@@ -205,49 +198,25 @@ export function QuizSettingsModal(props: QuizSettingsModalProps): React.JSX.Elem
                     >
                       <FontAwesome5
                         name="th-large"
-                        size={11}
+                        size={13}
                         color={quizInputMode === 'choice' ? '#ffffff' : colors.textSecondary}
                       />
-                      <Text
-                        style={[
-                          styles.voiceSegmentText,
-                          quizInputMode === 'choice' && styles.voiceSegmentTextActive,
-                        ]}
-                      >
-                        {intl.formatMessage({ id: 'settingsScreen.quizInputModeChoice' })}
-                      </Text>
                     </TouchableOpacity>
 
                     <TouchableOpacity
                       style={[
-                        styles.voiceSegmentButton,
-                        quizInputMode === 'type_in' && styles.voiceSegmentButtonActive,
+                        styles.modeSegmentButton,
+                        quizInputMode === 'type_in' && styles.modeSegmentButtonActive,
                       ]}
                       onPress={() => handleInputModeSelect('type_in')}
                       activeOpacity={0.8}
                       testID="quiz-input-mode-type-in-btn"
                     >
                       <FontAwesome5
-                        name="font"
-                        size={11}
+                        name="keyboard"
+                        size={13}
                         color={quizInputMode === 'type_in' ? '#ffffff' : colors.textSecondary}
                       />
-                      <Text
-                        style={[
-                          styles.voiceSegmentText,
-                          quizInputMode === 'type_in' && styles.voiceSegmentTextActive,
-                        ]}
-                      >
-                        {intl.formatMessage({ id: 'settingsScreen.quizInputModeTypeIn' })}
-                      </Text>
-                      {!isPremium && (
-                        <FontAwesome5
-                          name="gem"
-                          size={10}
-                          color={colors.premiumDiamond}
-                          style={styles.diamondIcon}
-                        />
-                      )}
                     </TouchableOpacity>
                   </View>
                 </View>

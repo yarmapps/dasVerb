@@ -47,7 +47,6 @@
     "continue": "Продолжить"
   },
   "practiceScreen": {
-    "title": "Практика",
     "subtitle": "Тренируйте глаголы, спряжения и порядок слов",
     "levelsButtonTitle": "Тренируй глаголы",
     "levelsButtonSubtitle": "От самых употребляемых к редким по методике Goethe",
@@ -158,7 +157,7 @@
   "settingsScreen": {
     "title": "Настройки",
     "generalSection": "ОБЩИЕ",
-    "audioSection": "АУДИО",
+    "audioSection": "ИНТЕРФЕЙС",
     "supportSection": "ПОДДЕРЖКА",
     "appLanguage": "Язык приложения",
     "theme": "Тема",
@@ -167,6 +166,7 @@
     "themeSystem": "Системная",
     "notifications": "Уведомления",
     "soundEffects": "Звуковые эффекты",
+    "haptics": "Тактильный отклик",
     "speakOnCorrectAnswer": "Произношение правильного ответа",
     "voiceGender": "Голос",
     "voiceFemale": "Женский",
@@ -342,7 +342,6 @@
     "auxiliaryExplanationGeneral": "Глагол {verb} образует Perfekt со вспомогательным глаголом haben ({form})."
   },
   "quizResultsScreen": {
-    "title": "Результаты",
     "checkpointResultsTitle": "Результаты теста",
     "smartQuizResultsTitle": "Результаты умного квиза",
     "canDoBetter": "Можно лучше!",

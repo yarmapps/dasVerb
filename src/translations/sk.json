@@ -47,7 +47,6 @@
     "continue": "Pokračovať"
   },
   "practiceScreen": {
-    "title": "Cvičenie",
     "subtitle": "Trénujte slovesá, časovanie a vetné konštrukcie",
     "levelsButtonTitle": "Precvičovať slovesá",
     "levelsButtonSubtitle": "Od najbežnejších po zriedkavé pomocou Goetheho metódy",
@@ -158,7 +157,7 @@
   "settingsScreen": {
     "title": "Nastavenia",
     "generalSection": "VŠEOBECNÉ",
-    "audioSection": "ZVUK",
+    "audioSection": "ROZHRANIE",
     "supportSection": "PODPORA",
     "appLanguage": "Jazyk aplikácie",
     "theme": "Vzhľad",
@@ -167,6 +166,7 @@
     "themeSystem": "Systémový",
     "notifications": "Upozornenia",
     "soundEffects": "Zvukové efekty",
+    "haptics": "Haptická odozva",
     "speakOnCorrectAnswer": "Vysloviť správnu odpoveď",
     "voiceGender": "Hlas",
     "voiceFemale": "Ženský",
@@ -342,7 +342,6 @@
     "auxiliaryExplanationGeneral": "Sloveso {verb} tvorí Perfekt s pomocným slovesom haben ({form})."
   },
   "quizResultsScreen": {
-    "title": "Výsledky",
     "checkpointResultsTitle": "Výsledky kontrolného bodu",
     "smartQuizResultsTitle": "Výsledky inteligentného kvízu",
     "canDoBetter": "Môžete to urobiť lepšie!",

@@ -1,7 +1,6 @@
 import React, { useMemo } from 'react';
-import { View, Text, TouchableOpacity, ViewStyle, TextStyle } from 'react-native';
+import { View, Text, ViewStyle, TextStyle } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { FontAwesome5 } from '@expo/vector-icons';
 import { useAppTheme } from '../../context/ThemeContext';
 import { HeaderIconButton } from '../HeaderIconButton/HeaderIconButton';
 import { Spacing } from '../../styles/spacing';
@@ -59,15 +58,22 @@ export function ScreenHeader({
           </View>
         )}
 
-        <View style={styles.centerContainer}>
-          {typeof title === 'string' ? (
-            <Text style={[styles.title, titleStyle]} testID="header-title">
-              {title}
-            </Text>
-          ) : (
-            title
-          )}
-        </View>
+        {Boolean(title) && (
+          <View style={styles.centerContainer}>
+            {typeof title === 'string' ? (
+              <Text
+                style={[styles.title, titleStyle]}
+                numberOfLines={1}
+                ellipsizeMode="tail"
+                testID="header-title"
+              >
+                {title}
+              </Text>
+            ) : (
+              title
+            )}
+          </View>
+        )}
 
         {(showStreak || rightContent || (showLeaderboard && isLeaderboardEnabled())) && (
           <View style={styles.rightContainer}>

@@ -47,7 +47,6 @@
     "continue": "Devam et"
   },
   "practiceScreen": {
-    "title": "Pratik",
     "subtitle": "Fiilleri, çekimleri ve cümle yapılarını çalışın",
     "levelsButtonTitle": "Fiil Pratiği",
     "levelsButtonSubtitle": "Goethe metoduna göre en sık kullanılandan nadir olana",
@@ -158,7 +157,7 @@
   "settingsScreen": {
     "title": "Ayarlar",
     "generalSection": "GENEL",
-    "audioSection": "SES",
+    "audioSection": "ARAYÜZ",
     "supportSection": "DESTEK",
     "appLanguage": "Uygulama Dili",
     "theme": "Tema",
@@ -167,6 +166,7 @@
     "themeSystem": "Sistem",
     "notifications": "Bildirimler",
     "soundEffects": "Ses Efektleri",
+    "haptics": "Dokunsal geri bildirim",
     "speakOnCorrectAnswer": "Doğru Cevabı Seslendir",
     "voiceGender": "Ses",
     "voiceFemale": "Kadın",
@@ -342,7 +342,6 @@
     "auxiliaryExplanationGeneral": "{verb} fiili Perfekt zamanını haben ({form}) yardımcı fiili ile oluşturur."
   },
   "quizResultsScreen": {
-    "title": "Sonuçlar",
     "checkpointResultsTitle": "Ara Test Sonuçları",
     "smartQuizResultsTitle": "Akıllı Test Sonuçları",
     "canDoBetter": "Daha iyisini yapabilirsin!",

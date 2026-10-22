@@ -47,7 +47,6 @@
     "continue": "Continuă"
   },
   "practiceScreen": {
-    "title": "Practică",
     "subtitle": "Exersează verbe, conjugarea și structura propozițiilor",
     "levelsButtonTitle": "Exersează verbe",
     "levelsButtonSubtitle": "De la cele mai comune la cele mai rare folosind metoda Goethe",
@@ -158,7 +157,7 @@
   "settingsScreen": {
     "title": "Setări",
     "generalSection": "GENERAL",
-    "audioSection": "AUDIO",
+    "audioSection": "INTERFAȚĂ",
     "supportSection": "SUPORT",
     "appLanguage": "Limba aplicației",
     "theme": "Temă",
@@ -167,6 +166,7 @@
     "themeSystem": "Sistem",
     "notifications": "Notificări",
     "soundEffects": "Efecte sonore",
+    "haptics": "Feedback haptic",
     "speakOnCorrectAnswer": "Pronunță răspunsul corect",
     "voiceGender": "Voce",
     "voiceFemale": "Femeie",
@@ -342,7 +342,6 @@
     "auxiliaryExplanationGeneral": "Verbul {verb} formează Perfekt cu verbul auxiliar haben ({form})."
   },
   "quizResultsScreen": {
-    "title": "Rezultate",
     "checkpointResultsTitle": "Rezultate verificare",
     "smartQuizResultsTitle": "Rezultate test inteligent",
     "canDoBetter": "Se poate și mai bine!",

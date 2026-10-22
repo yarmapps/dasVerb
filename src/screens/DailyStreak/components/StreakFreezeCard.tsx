@@ -2,12 +2,12 @@ import React, { useMemo, useState } from 'react';
 import { View, Text, TouchableOpacity, ActivityIndicator } from 'react-native';
 import { FontAwesome5, Ionicons } from '@expo/vector-icons';
 import { useIntl } from 'react-intl';
-import * as Haptics from 'expo-haptics';
 import { ThemeColors } from '../../../styles/themeColors';
 import { SnowflakeIcon } from '../../../components/SnowflakeIcon/SnowflakeIcon';
 import { isPremiumEnabled } from '../../../services/premiumAccessService';
 import { freezeStreakToday } from '../../../services/streakService';
 import { soundService } from '../../../services/soundService';
+import { hapticService } from '../../../services/hapticService';
 import { trackEvent } from '../../../services/analyticsService';
 import { adManager } from '../../../ads/adManager';
 import { createStyles } from './StreakFreezeCard.styles';
@@ -43,7 +43,7 @@ export function StreakFreezeCard({
 
     if (isPremium) {
       freezeStreakToday();
-      Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+      void hapticService.notificationSuccess();
       trackEvent('daily_streak_freeze_success', {
         method: 'premium',
         current_streak: currentStreak,
@@ -57,7 +57,7 @@ export function StreakFreezeCard({
       const isRewardEarned = await adManager.showRewardedOrFallback();
       if (isRewardEarned) {
         freezeStreakToday();
-        Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+        void hapticService.notificationSuccess();
         trackEvent('daily_streak_freeze_success', {
           method: 'rewarded_ad',
           current_streak: currentStreak,

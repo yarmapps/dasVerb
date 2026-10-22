@@ -10,6 +10,7 @@ export type QuizInputMode = 'choice' | 'type_in';
 
 export interface AppSettings {
   soundEffects: boolean;
+  haptics: boolean;
   notifications: boolean;
   themeMode: 'light' | 'dark' | 'system';
   speakOnCorrectAnswer: boolean;
@@ -22,6 +23,7 @@ export interface AppSettings {
 
 const DEFAULT_SETTINGS: AppSettings = {
   soundEffects: true,
+  haptics: true,
   notifications: true,
   themeMode: 'system',
   speakOnCorrectAnswer: true,
@@ -104,17 +106,11 @@ export function resetAllSettings(): void {
 }
 
 /**
- * Returns effective quiz input mode taking into account premium status.
- * If user lacks premium, falls back to 'choice' regardless of saved preference.
+ * Returns effective quiz input mode.
  */
 export function getEffectiveQuizInputMode(): QuizInputMode {
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const { isPremiumEnabled } = require('./premiumAccessService');
   const settings = getSettings();
-  if (settings.quizInputMode === 'type_in' && isPremiumEnabled()) {
-    return 'type_in';
-  }
-  return 'choice';
+  return settings.quizInputMode || 'choice';
 }
 
 export function getNativeLanguage(): SupportedLocales | null {

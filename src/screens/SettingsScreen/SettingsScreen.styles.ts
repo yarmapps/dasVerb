@@ -87,27 +87,28 @@ export const createStyles = (colors: ThemeColors) =>
       backgroundColor: colors.blockBorder,
       marginLeft: Spacing.lg + 32 + Spacing.md,
     },
-    dropdownTrigger: {
+    modeSegmentContainer: {
       flexDirection: 'row',
-      alignItems: 'center',
       backgroundColor: colors.headerButtonBackground,
-      borderRadius: 10,
-      paddingVertical: 6,
-      paddingHorizontal: 10,
+      borderRadius: 12,
+      padding: 3,
       borderWidth: 1,
       borderColor: colors.blockBorder,
     },
-    dropdownTriggerText: {
-      fontSize: Typography.fontSize.xs,
-      fontWeight: '600',
-      color: colors.textPrimary,
-      marginRight: Spacing.xs,
+    modeSegmentButton: {
+      width: 36,
+      height: 32,
+      alignItems: 'center',
+      justifyContent: 'center',
+      borderRadius: 9,
     },
-    dropdownDiamond: {
-      marginRight: 6,
-    },
-    dropdownChevron: {
-      marginLeft: 2,
+    modeSegmentButtonActive: {
+      backgroundColor: colors.primary,
+      shadowColor: '#000000',
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.1,
+      shadowRadius: 4,
+      elevation: 2,
     },
     versionText: {
       textAlign: 'center',

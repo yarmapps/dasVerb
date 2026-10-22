@@ -836,7 +836,7 @@ export function QuizResultsScreen(): React.JSX.Element {
       }
       return intl.formatMessage({ id: 'quizResultsScreen.checkpointResultsTitle' });
     }
-    return intl.formatMessage({ id: 'quizResultsScreen.title' });
+    return undefined;
   }, [isSmartQuiz, isCheckpoint, isPrefixCheckpoint, categoryId, intl]);
 
   const handleBack = useCallback(() => {

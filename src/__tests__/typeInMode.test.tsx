@@ -122,69 +122,33 @@ describe('Type-In Mode', () => {
   });
 
   describe('SettingsScreen', () => {
-    it('opens premium sheet for free user when selecting Type In', () => {
+    it('allows toggling between Multiple Choice and Type In and updates settings', () => {
       setPremiumEnabled(false);
       const { getByTestId } = renderWithProviders(<SettingsScreen />);
 
-      const trigger = getByTestId('settings-input-mode-trigger');
-      fireEvent.press(trigger);
-
       const typeInBtn = getByTestId('settings-input-mode-type-in-btn');
       fireEvent.press(typeInBtn);
 
-      expect(getByTestId('premium-subscribe-sheet')).toBeTruthy();
-      expect(getSettings().quizInputMode).toBe('choice');
-    });
-
-    it('allows premium user to toggle Type In and updates settings', () => {
-      setPremiumEnabled(true);
-      const { getByTestId } = renderWithProviders(<SettingsScreen />);
-
-      const trigger = getByTestId('settings-input-mode-trigger');
-      fireEvent.press(trigger);
-
-      const typeInBtn = getByTestId('settings-input-mode-type-in-btn');
-      fireEvent.press(typeInBtn);
-
-      expect(mockNavigate).not.toHaveBeenCalledWith('FirstOpenPaywall', expect.anything());
       expect(getSettings().quizInputMode).toBe('type_in');
 
-      fireEvent.press(trigger);
       const choiceBtn = getByTestId('settings-input-mode-choice-btn');
       fireEvent.press(choiceBtn);
       expect(getSettings().quizInputMode).toBe('choice');
     });
   });
 
-  describe('VerbQuizScreen toolbar toggle & typing flow', () => {
-    it('opens premium sheet for free user when tapping toolbar toggle button', () => {
+  describe('VerbQuizScreen typing flow', () => {
+    it('presents Check button in Type-In mode and validates correctly', async () => {
       setPremiumEnabled(false);
-      const { getByTestId } = renderWithProviders(<VerbQuizScreen />);
-
-      const toggleBtn = getByTestId('quiz-input-mode-toggle-button');
-      fireEvent.press(toggleBtn);
-
-      expect(getByTestId('premium-subscribe-sheet')).toBeTruthy();
-    });
-
-    it('toggles input mode for premium user and presents Check button in Type-In mode', async () => {
-      setPremiumEnabled(true);
-      updateSettings({ quizInputMode: 'choice' });
+      updateSettings({ quizInputMode: 'type_in' });
 
       const { getByTestId, queryByTestId } = renderWithProviders(<VerbQuizScreen />);
 
-      // Initially choice mode: options grid should be visible
-      expect(getByTestId('option-button-rufe')).toBeTruthy();
-      expect(queryByTestId('quiz-check-button')).toBeNull();
-
-      // Tap toolbar toggle to switch to type-in
-      const toggleBtn = getByTestId('quiz-input-mode-toggle-button');
-      fireEvent.press(toggleBtn);
-
-      // Now in type-in mode: Check button should appear
+      // In type-in mode: Check button should appear, options grid should not appear
       await waitFor(() => {
         expect(getByTestId('quiz-check-button')).toBeTruthy();
       });
+      expect(queryByTestId('option-button-rufe')).toBeNull();
 
       // Check button should be disabled when nothing is typed yet
       const checkBtn = getByTestId('quiz-check-button');
@@ -202,7 +166,7 @@ describe('Type-In Mode', () => {
       // Press Check button
       fireEvent.press(getByTestId('quiz-check-button'));
 
-      // Status should become correct (tap-to-continue bar appears)
+      // Status should become correct (sentence card present)
       await waitFor(() => {
         expect(getByTestId('quiz-sentence-card')).toBeTruthy();
       });

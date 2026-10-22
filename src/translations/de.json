@@ -47,7 +47,6 @@
     "continue": "Weiter"
   },
   "practiceScreen": {
-    "title": "Üben",
     "subtitle": "Trainiere Verben, Konjugation und Satzstrukturen",
     "levelsButtonTitle": "Verben üben",
     "levelsButtonSubtitle": "Von den häufigsten bis zu den seltensten nach der Goethe-Methode",
@@ -158,7 +157,7 @@
   "settingsScreen": {
     "title": "Einstellungen",
     "generalSection": "ALLGEMEIN",
-    "audioSection": "AUDIO",
+    "audioSection": "BENUTZEROBERFLÄCHE",
     "supportSection": "SUPPORT",
     "appLanguage": "App-Sprache",
     "theme": "Erscheinungsbild",
@@ -167,6 +166,7 @@
     "themeSystem": "System",
     "notifications": "Benachrichtigungen",
     "soundEffects": "Soundeffekte",
+    "haptics": "Haptisches Feedback",
     "speakOnCorrectAnswer": "Richtige Antwort vorlesen",
     "voiceGender": "Stimme",
     "voiceFemale": "Weiblich",
@@ -342,7 +342,6 @@
     "auxiliaryExplanationGeneral": "Das Verb {verb} bildet das Perfekt mit dem Hilfsverb haben ({form})."
   },
   "quizResultsScreen": {
-    "title": "Ergebnisse",
     "checkpointResultsTitle": "Checkpoint-Ergebnisse",
     "smartQuizResultsTitle": "Smarte Quiz-Ergebnisse",
     "canDoBetter": "Du kannst es besser!",

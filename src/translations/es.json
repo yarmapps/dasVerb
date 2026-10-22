@@ -47,7 +47,6 @@
     "continue": "Continuar"
   },
   "practiceScreen": {
-    "title": "Práctica",
     "subtitle": "Entrena verbos, conjugaciones y estructuras de oraciones",
     "levelsButtonTitle": "Practicar verbos",
     "levelsButtonSubtitle": "De los más comunes a los más raros según el método Goethe",
@@ -158,7 +157,7 @@
   "settingsScreen": {
     "title": "Ajustes",
     "generalSection": "GENERAL",
-    "audioSection": "AUDIO",
+    "audioSection": "INTERFAZ",
     "supportSection": "SOPORTE",
     "appLanguage": "Idioma de la aplicación",
     "theme": "Tema",
@@ -167,6 +166,7 @@
     "themeSystem": "Sistema",
     "notifications": "Notificaciones",
     "soundEffects": "Efectos de sonido",
+    "haptics": "Respuesta háptica",
     "speakOnCorrectAnswer": "Pronunciar respuesta correcta",
     "voiceGender": "Voz",
     "voiceFemale": "Femenina",
@@ -342,7 +342,6 @@
     "auxiliaryExplanationGeneral": "El verbo {verb} forma el Perfekt con el verbo auxiliar haben ({form})."
   },
   "quizResultsScreen": {
-    "title": "Resultados",
     "checkpointResultsTitle": "Resultados del test",
     "smartQuizResultsTitle": "Resultados del quiz inteligente",
     "canDoBetter": "¡Puedes hacerlo mejor!",

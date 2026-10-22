@@ -120,7 +120,27 @@ export const createStyles = (colors: ThemeColors) =>
       color: '#ffffff',
       fontWeight: '700',
     },
-    diamondIcon: {
-      marginLeft: 5,
+    modeSegmentContainer: {
+      flexDirection: 'row',
+      backgroundColor: colors.headerButtonBackground,
+      borderRadius: 12,
+      padding: 3,
+      borderWidth: 1,
+      borderColor: colors.blockBorder,
+    },
+    modeSegmentButton: {
+      width: 36,
+      height: 32,
+      alignItems: 'center',
+      justifyContent: 'center',
+      borderRadius: 9,
+    },
+    modeSegmentButtonActive: {
+      backgroundColor: colors.primary,
+      shadowColor: '#000000',
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.1,
+      shadowRadius: 4,
+      elevation: 2,
     },
   });

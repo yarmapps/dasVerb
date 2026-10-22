@@ -26,7 +26,7 @@ describe('QuizSettingsModal', () => {
     const handleChangeInputMode = jest.fn();
     const handleRequirePremium = jest.fn();
 
-    const { getByText } = render(
+    const { getByText, getByTestId } = render(
       <TestWrapper>
         <QuizSettingsModal
           visible={true}
@@ -49,8 +49,8 @@ describe('QuizSettingsModal', () => {
     expect(getByText('Женский')).toBeTruthy();
     expect(getByText('Мужской')).toBeTruthy();
     expect(getByText('Режим ответов')).toBeTruthy();
-    expect(getByText('Выбор вариантов')).toBeTruthy();
-    expect(getByText('Ручной ввод')).toBeTruthy();
+    expect(getByTestId('quiz-input-mode-choice-btn')).toBeTruthy();
+    expect(getByTestId('quiz-input-mode-type-in-btn')).toBeTruthy();
   });
 
   it('should trigger onToggleSpeakOnCorrectAnswer on switch toggle', () => {
@@ -142,15 +142,13 @@ describe('QuizSettingsModal', () => {
     const typeInBtn = getByTestId('quiz-input-mode-type-in-btn');
     fireEvent.press(typeInBtn);
     expect(handleChangeInputMode).toHaveBeenCalledWith('type_in');
-    expect(handleRequirePremium).not.toHaveBeenCalled();
   });
 
-  it('should call onRequirePremium when free user attempts to select type_in', () => {
+  it('should switch mode freely for all users without premium restriction', () => {
     const handleClose = jest.fn();
     const handleToggleSpeak = jest.fn();
     const handleToggleVoice = jest.fn();
     const handleChangeInputMode = jest.fn();
-    const handleRequirePremium = jest.fn();
 
     const { getByTestId } = render(
       <TestWrapper>
@@ -162,17 +160,13 @@ describe('QuizSettingsModal', () => {
           ttsVoiceGender="female"
           onChangeVoiceGender={handleToggleVoice}
           quizInputMode="choice"
-          isPremium={false}
           onChangeInputMode={handleChangeInputMode}
-          onRequirePremium={handleRequirePremium}
         />
       </TestWrapper>,
     );
 
     const typeInBtn = getByTestId('quiz-input-mode-type-in-btn');
     fireEvent.press(typeInBtn);
-    expect(handleClose).toHaveBeenCalled();
-    expect(handleRequirePremium).toHaveBeenCalled();
-    expect(handleChangeInputMode).not.toHaveBeenCalled();
+    expect(handleChangeInputMode).toHaveBeenCalledWith('type_in');
   });
 });

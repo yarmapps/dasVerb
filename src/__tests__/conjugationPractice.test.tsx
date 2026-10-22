@@ -544,7 +544,6 @@ describe('Conjugation Practice Suite', () => {
       );
 
       await waitFor(() => {
-        expect(getByText('Результаты')).toBeTruthy();
         expect(getByText('30 из 30')).toBeTruthy();
         expect(setProgressSpy).toHaveBeenCalledWith('conjugation_a1_level_1', 100);
         // When all answers are correct, toggle switch is hidden and all items are displayed

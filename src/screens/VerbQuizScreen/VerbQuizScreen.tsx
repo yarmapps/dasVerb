@@ -17,7 +17,6 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { useIntl } from 'react-intl';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { FontAwesome5, Ionicons, MaterialIcons } from '@expo/vector-icons';
-import * as Haptics from 'expo-haptics';
 import { useAppTheme } from '../../context/ThemeContext';
 import { useLocale } from '../../context/LocaleContext';
 import { ScreenHeader } from '../../components/ScreenHeader/ScreenHeader';
@@ -37,12 +36,11 @@ import { QuizSettingsModal } from '../../components/QuizSettingsModal/QuizSettin
 import { verbDataService } from '../../services/verbDataService';
 import { progressService } from '../../services/progressService';
 import { soundService } from '../../services/soundService';
+import { hapticService } from '../../services/hapticService';
 import { speechService } from '../../services/speechService';
 import { audioService } from '../../services/audioService';
 import { getSettings, updateSettings, QuizInputMode } from '../../services/settingsService';
 import { usePremiumStatus } from '../../hooks/usePremiumStatus';
-import { useFeatureFlag } from '../../services/featuresService';
-import { PremiumSubscribeSheet } from '../../components/PremiumSubscribeSheet/PremiumSubscribeSheet';
 import { isAnswerCorrect } from '../../utils/answerValidation';
 import {
   quizGeneratorService,
@@ -211,7 +209,15 @@ export function VerbQuizScreen(): React.JSX.Element {
           const settings = getSettings();
           const gender = settings.ttsVoiceGender || 'female';
           const filesToPreload = generated
-            .filter(ex => ex.verbCard?.id && ex.sentence?.id)
+            .filter(
+              ex =>
+                ex.type !== 'conjugation_fill' &&
+                ex.type !== 'verb_forms_fill' &&
+                ex.verbCard?.id &&
+                ex.sentence?.id &&
+                !ex.sentence.id.startsWith('conj_') &&
+                !ex.sentence.id.startsWith('verb_forms_'),
+            )
             .map(ex => `${ex.verbCard.id}_${ex.sentence.id}_${gender}.m4a`);
           if (filesToPreload.length > 0) {
             audioService.preloadAudioFiles(filesToPreload).catch(() => {});
@@ -355,27 +361,10 @@ export function VerbQuizScreen(): React.JSX.Element {
     () => getSettings().ttsVoiceGender || 'female',
   );
   const isPremium = usePremiumStatus();
-  const isPremiumFeatureEnabled = useFeatureFlag('ENABLE_PREMIUM');
-  const [showPremiumSheet, setShowPremiumSheet] = useState(false);
   const [quizInputMode, setQuizInputMode] = useState<QuizInputMode>(
     () => getSettings().quizInputMode,
   );
-  const effectiveInputMode: QuizInputMode =
-    isPremium && quizInputMode === 'type_in' ? 'type_in' : 'choice';
-
-  const handleToggleInputModeQuick = useCallback(() => {
-    soundService.playTapSound();
-    if (!isPremium) {
-      if (isPremiumFeatureEnabled) {
-        setShowPremiumSheet(true);
-      }
-      return;
-    }
-    const nextMode: QuizInputMode = quizInputMode === 'choice' ? 'type_in' : 'choice';
-    trackEvent('settings_quiz_input_mode_changed', { mode: nextMode });
-    setQuizInputMode(nextMode);
-    updateSettings({ quizInputMode: nextMode });
-  }, [isPremium, isPremiumFeatureEnabled, quizInputMode]);
+  const effectiveInputMode: QuizInputMode = quizInputMode;
 
   const resolvedQuizType = useMemo(
     () =>
@@ -422,7 +411,15 @@ export function VerbQuizScreen(): React.JSX.Element {
 
       // Preload audio files for the remaining exercises with newly selected voice gender
       const filesToPreload = exercises
-        .filter(ex => ex.verbCard?.id && ex.sentence?.id)
+        .filter(
+          ex =>
+            ex.type !== 'conjugation_fill' &&
+            ex.type !== 'verb_forms_fill' &&
+            ex.verbCard?.id &&
+            ex.sentence?.id &&
+            !ex.sentence.id.startsWith('conj_') &&
+            !ex.sentence.id.startsWith('verb_forms_'),
+        )
         .map(ex => `${ex.verbCard.id}_${ex.sentence.id}_${newGender}.m4a`);
       if (filesToPreload.length > 0) {
         audioService.preloadAudioFiles(filesToPreload).catch(() => {});
@@ -644,8 +641,6 @@ export function VerbQuizScreen(): React.JSX.Element {
   const handleSlotPress = useCallback(
     (slotIndex: number) => {
       if (status !== 'idle') return;
-
-      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
       soundService.playTapSound();
 
       setActiveGapIndex(slotIndex);
@@ -757,7 +752,7 @@ export function VerbQuizScreen(): React.JSX.Element {
         }
 
         soundService.playCorrectSound();
-        Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+        void hapticService.notificationSuccess();
 
         if (
           speakOnCorrectAnswer &&
@@ -791,7 +786,7 @@ export function VerbQuizScreen(): React.JSX.Element {
         }
 
         soundService.playIncorrectSound();
-        Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);
+        void hapticService.errorHeadShake();
 
         let hintType:
           | 'grammar'
@@ -847,7 +842,6 @@ export function VerbQuizScreen(): React.JSX.Element {
     (option: string) => {
       if (status !== 'idle' || !currentExercise) return;
 
-      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
       soundService.playTapSound();
 
       const nextAnswers = [...userAnswers];
@@ -887,7 +881,6 @@ export function VerbQuizScreen(): React.JSX.Element {
 
   const handleSubmitTypedAnswers = useCallback(() => {
     if (status !== 'idle' || !canSubmitTypeIn) return;
-    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     soundService.playTapSound();
     processSubmission(userAnswers);
   }, [status, canSubmitTypeIn, processSubmission, userAnswers]);
@@ -1480,34 +1473,16 @@ export function VerbQuizScreen(): React.JSX.Element {
                 <Text style={styles.sentenceCardLabel}>{cardHeaderTitle}</Text>
                 <View style={styles.cardHeaderActions}>
                   <TouchableOpacity
-                    style={styles.cardHeaderActionButton}
-                    onPress={handleToggleInputModeQuick}
-                    activeOpacity={0.7}
-                    hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
-                    testID="quiz-input-mode-toggle-button"
-                  >
-                    <FontAwesome5
-                      name={effectiveInputMode === 'type_in' ? 'font' : 'th-large'}
-                      size={12}
-                      color={colors.textSecondary}
-                    />
-                    {!isPremium && (
-                      <FontAwesome5
-                        name="gem"
-                        size={9}
-                        color={colors.premiumDiamond}
-                        style={styles.cardHeaderDiamondIcon}
-                      />
-                    )}
-                  </TouchableOpacity>
-                  <TouchableOpacity
                     style={styles.cardSettingsButton}
-                    onPress={() => setIsSettingsModalVisible(true)}
+                    onPress={() => {
+                      soundService.playTapSound();
+                      setIsSettingsModalVisible(true);
+                    }}
                     activeOpacity={0.7}
                     hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
                     testID="quiz-settings-button"
                   >
-                    <FontAwesome5 name="cog" size={14} color={colors.textSecondary} />
+                    <FontAwesome5 name="cog" size={18} color={colors.textSecondary} />
                   </TouchableOpacity>
                 </View>
               </View>
@@ -1550,20 +1525,7 @@ export function VerbQuizScreen(): React.JSX.Element {
           setQuizInputMode(mode);
           updateSettings({ quizInputMode: mode });
         }}
-        onRequirePremium={() => {
-          setIsSettingsModalVisible(false);
-          if (isPremiumFeatureEnabled) {
-            setShowPremiumSheet(true);
-          }
-        }}
       />
-      {isPremiumFeatureEnabled && (
-        <PremiumSubscribeSheet
-          visible={showPremiumSheet}
-          onClose={() => setShowPremiumSheet(false)}
-          source="quiz_type_in"
-        />
-      )}
     </ScreenBackground>
   );
 }

@@ -47,7 +47,6 @@
     "continue": "Doorgaan"
   },
   "practiceScreen": {
-    "title": "Oefenen",
     "subtitle": "Train werkwoorden, vervoeging en zinsstructuren",
     "levelsButtonTitle": "Werkwoorden Oefenen",
     "levelsButtonSubtitle": "Van meest voorkomend tot zeldzaam met de Goethe-methode",
@@ -158,7 +157,7 @@
   "settingsScreen": {
     "title": "Instellingen",
     "generalSection": "ALGEMEEN",
-    "audioSection": "AUDIO",
+    "audioSection": "INTERFACE",
     "supportSection": "ONDERSTEUNING",
     "appLanguage": "App-taal",
     "theme": "Thema",
@@ -167,6 +166,7 @@
     "themeSystem": "Systeem",
     "notifications": "Meldingen",
     "soundEffects": "Geluidseffecten",
+    "haptics": "Haptische feedback",
     "speakOnCorrectAnswer": "Spreek Juist Antwoord Uit",
     "voiceGender": "Stem",
     "voiceFemale": "Vrouwelijk",
@@ -342,7 +342,6 @@
     "auxiliaryExplanationGeneral": "Het werkwoord {verb} vormt de Perfekt met het hulpwerkwoord haben ({form})."
   },
   "quizResultsScreen": {
-    "title": "Resultaten",
     "checkpointResultsTitle": "Checkpoint Resultaten",
     "smartQuizResultsTitle": "Slimme Quiz Resultaten",
     "canDoBetter": "Je kunt het beter!",

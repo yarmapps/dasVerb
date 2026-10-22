@@ -1,5 +1,6 @@
 import { createAudioPlayer, setAudioModeAsync, AudioPlayer } from 'expo-audio';
 import { getSettings } from './settingsService';
+import { hapticService } from './hapticService';
 
 export class SoundService {
   private correctSound: AudioPlayer | null = null;
@@ -96,6 +97,7 @@ export class SoundService {
   }
 
   async playTapSound(): Promise<void> {
+    void hapticService.impactTap();
     if (!this.canPlay()) return;
     try {
       if (!this.isInitialized) {

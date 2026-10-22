@@ -47,7 +47,6 @@
     "continue": "Nadaljuj"
   },
   "practiceScreen": {
-    "title": "Vadba",
     "subtitle": "Vadite glagole, spreganje in strukture stavkov",
     "levelsButtonTitle": "Vadite glagole",
     "levelsButtonSubtitle": "Od najpogostejših do redkih po Goethejevi metodi",
@@ -158,7 +157,7 @@
   "settingsScreen": {
     "title": "Nastavitve",
     "generalSection": "SPLOŠNO",
-    "audioSection": "ZVOK",
+    "audioSection": "VMESNIK",
     "supportSection": "PODPORA",
     "appLanguage": "Jezik aplikacije",
     "theme": "Tema",
@@ -167,6 +166,7 @@
     "themeSystem": "Sistemska",
     "notifications": "Obvestila",
     "soundEffects": "Zvočni učinki",
+    "haptics": "Haptični odziv",
     "speakOnCorrectAnswer": "Izgovori pravilen odgovor",
     "voiceGender": "Glas",
     "voiceFemale": "Ženski",
@@ -342,7 +342,6 @@
     "auxiliaryExplanationGeneral": "Glagol {verb} tvori Perfekt s pomožnim glagolom haben ({form})."
   },
   "quizResultsScreen": {
-    "title": "Rezultati",
     "checkpointResultsTitle": "Rezultati preverjanja",
     "smartQuizResultsTitle": "Rezultati pametnega kviza",
     "canDoBetter": "Lahko bi bilo boljše!",

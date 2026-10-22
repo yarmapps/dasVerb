@@ -147,6 +147,7 @@ describe('cloudSyncService', () => {
         prepositionLevelsProgress: {},
         settings: {
           soundEffects: false,
+          haptics: true,
           notifications: true,
           themeMode: 'dark',
           speakOnCorrectAnswer: false,

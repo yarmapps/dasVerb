@@ -183,6 +183,7 @@ describe('notificationService', () => {
     it('does not schedule if notifications are disabled in settings', async () => {
       jest.spyOn(settingsService, 'getSettings').mockReturnValueOnce({
         soundEffects: true,
+        haptics: true,
         notifications: false,
         themeMode: 'system',
         speakOnCorrectAnswer: true,
@@ -200,6 +201,7 @@ describe('notificationService', () => {
     it('schedules reminders when notifications are enabled and permissions granted', async () => {
       jest.spyOn(settingsService, 'getSettings').mockReturnValueOnce({
         soundEffects: true,
+        haptics: true,
         notifications: true,
         themeMode: 'system',
         speakOnCorrectAnswer: true,

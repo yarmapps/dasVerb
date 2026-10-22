@@ -142,6 +142,10 @@ export interface SettingsSoundToggledParams {
   enabled: boolean;
 }
 
+export interface SettingsHapticsToggledParams {
+  enabled: boolean;
+}
+
 export interface SettingsNotificationsToggledParams {
   enabled: boolean;
 }
@@ -477,6 +481,7 @@ export interface AnalyticsEventMap {
 
   // Settings
   settings_sound_toggled: SettingsSoundToggledParams;
+  settings_haptics_toggled: SettingsHapticsToggledParams;
   settings_notifications_toggled: SettingsNotificationsToggledParams;
   settings_speak_on_correct_toggled: SettingsSpeakOnCorrectToggledParams;
   settings_voice_gender_changed: SettingsVoiceGenderChangedParams;

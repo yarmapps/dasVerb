@@ -47,7 +47,6 @@
     "continue": "Continue"
   },
   "practiceScreen": {
-    "title": "Practice",
     "subtitle": "Train verbs, conjugation and sentence structures",
     "levelsButtonTitle": "Practice Verbs",
     "levelsButtonSubtitle": "From most common to rare using the Goethe method",
@@ -158,7 +157,7 @@
   "settingsScreen": {
     "title": "Settings",
     "generalSection": "GENERAL",
-    "audioSection": "AUDIO",
+    "audioSection": "INTERFACE",
     "supportSection": "SUPPORT",
     "appLanguage": "App Language",
     "theme": "Theme",
@@ -167,6 +166,7 @@
     "themeSystem": "System",
     "notifications": "Notifications",
     "soundEffects": "Sound Effects",
+    "haptics": "Haptic feedback",
     "speakOnCorrectAnswer": "Pronounce Correct Answer",
     "voiceGender": "Voice",
     "voiceFemale": "Female",
@@ -342,7 +342,6 @@
     "auxiliaryExplanationGeneral": "The verb {verb} forms the Perfekt with the auxiliary verb haben ({form})."
   },
   "quizResultsScreen": {
-    "title": "Results",
     "checkpointResultsTitle": "Checkpoint Results",
     "smartQuizResultsTitle": "Smart Quiz Results",
     "canDoBetter": "You can do better!",

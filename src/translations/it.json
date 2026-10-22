@@ -47,7 +47,6 @@
     "continue": "Continua"
   },
   "practiceScreen": {
-    "title": "Pratica",
     "subtitle": "Esercitati con verbi, coniugazioni e struttura della frase",
     "levelsButtonTitle": "Pratica verbi",
     "levelsButtonSubtitle": "Dai più comuni ai più rari secondo il metodo Goethe",
@@ -158,7 +157,7 @@
   "settingsScreen": {
     "title": "Impostazioni",
     "generalSection": "GENERALE",
-    "audioSection": "AUDIO",
+    "audioSection": "INTERFACCIA",
     "supportSection": "SUPPORTO",
     "appLanguage": "Lingua dell'app",
     "theme": "Tema",
@@ -167,6 +166,7 @@
     "themeSystem": "Sistema",
     "notifications": "Notifiche",
     "soundEffects": "Effetti sonori",
+    "haptics": "Feedback aptico",
     "speakOnCorrectAnswer": "Pronuncia risposta corretta",
     "voiceGender": "Voce",
     "voiceFemale": "Femminile",
@@ -342,7 +342,6 @@
     "auxiliaryExplanationGeneral": "Il verbo {verb} forma il Perfekt con il verbo ausiliare haben ({form})."
   },
   "quizResultsScreen": {
-    "title": "Risultati",
     "checkpointResultsTitle": "Risultati del test",
     "smartQuizResultsTitle": "Risultati quiz smart",
     "canDoBetter": "Puoi fare di meglio!",

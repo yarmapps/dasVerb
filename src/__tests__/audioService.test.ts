@@ -52,4 +52,24 @@ describe('audioService and speechService CDN integration', () => {
     // Either played via player or fell back to Speech.speak
     expect(speechService.getIsSpeaking()).toBeDefined();
   });
+
+  it('rejects synthetic conjugation and verb_forms audio tracks immediately without downloading', async () => {
+    const downloadSpy = jest.spyOn(File, 'downloadFileAsync');
+
+    const conjSource = await audioService.getAudioSource('haben_conj_haben_2_male.m4a');
+    expect(conjSource).toBeNull();
+
+    const verbFormsSource = await audioService.getAudioSource(
+      'gehen_verb_forms_gehen_0_female.m4a',
+    );
+    expect(verbFormsSource).toBeNull();
+
+    await audioService.preloadAudioFiles([
+      'haben_conj_haben_2_male.m4a',
+      'werden_conj_werden_0_male.m4a',
+    ]);
+
+    expect(downloadSpy).not.toHaveBeenCalled();
+    downloadSpy.mockRestore();
+  });
 });

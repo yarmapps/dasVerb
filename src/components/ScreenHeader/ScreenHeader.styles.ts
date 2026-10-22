@@ -43,7 +43,7 @@ export const createStyles = (colors: ThemeColors) =>
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'flex-end',
-      gap: Spacing.sm,
+      gap: Spacing.xs + 2,
       zIndex: 2,
     },
 

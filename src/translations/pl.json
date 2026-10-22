@@ -47,7 +47,6 @@
     "continue": "Dalej"
   },
   "practiceScreen": {
-    "title": "Ćwiczenia",
     "subtitle": "Ćwicz czasowniki, koniugację i szyk zdań",
     "levelsButtonTitle": "Ćwicz czasowniki",
     "levelsButtonSubtitle": "Od najczęstszych do rzadkich według metody Goethego",
@@ -158,7 +157,7 @@
   "settingsScreen": {
     "title": "Ustawienia",
     "generalSection": "OGÓLNE",
-    "audioSection": "DŹWIĘK",
+    "audioSection": "INTERFEJS",
     "supportSection": "POMOC",
     "appLanguage": "Język aplikacji",
     "theme": "Motyw",
@@ -167,6 +166,7 @@
     "themeSystem": "Systemowy",
     "notifications": "Powiadomienia",
     "soundEffects": "Efekty dźwiękowe",
+    "haptics": "Wibracje i haptyka",
     "speakOnCorrectAnswer": "Wymawiaj poprawną odpowiedź",
     "voiceGender": "Głos",
     "voiceFemale": "Żeński",
@@ -342,7 +342,6 @@
     "auxiliaryExplanationGeneral": "Czasownik {verb} tworzy czas Perfekt z czasownikiem posiłkowym haben ({form})."
   },
   "quizResultsScreen": {
-    "title": "Wyniki",
     "checkpointResultsTitle": "Wyniki testu kontrolnego",
     "smartQuizResultsTitle": "Wyniki inteligentnego quizu",
     "canDoBetter": "Może być lepiej!",

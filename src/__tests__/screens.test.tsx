@@ -338,7 +338,6 @@ describe('Screens Integration Suite', () => {
         </ScreenWrapper>,
       );
 
-      expect(getByText('Практика')).toBeTruthy();
       expect(getByText('Тренируй глаголы')).toBeTruthy();
       expect(getByText('Умный алгоритм')).toBeTruthy();
       expect(getByText('По режимам')).toBeTruthy();
@@ -924,7 +923,6 @@ describe('Screens Integration Suite', () => {
       );
 
       await waitFor(() => {
-        expect(getByText('Результаты')).toBeTruthy();
         expect(getByText('Вы сделали это!')).toBeTruthy();
         expect(getByText('6 из 6')).toBeTruthy();
         expect(getByTestId('next-level-button')).toBeTruthy();

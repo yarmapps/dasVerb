@@ -47,7 +47,6 @@
     "continue": "Folytatás"
   },
   "practiceScreen": {
-    "title": "Gyakorlás",
     "subtitle": "Gyakorolja az igéket, ragozást és mondatszerkezeteket",
     "levelsButtonTitle": "Igék gyakorlása",
     "levelsButtonSubtitle": "A leggyakoribbtól a ritkábbig a Goethe-módszerrel",
@@ -158,7 +157,7 @@
   "settingsScreen": {
     "title": "Beállítások",
     "generalSection": "ÁLTALÁNOS",
-    "audioSection": "HANG",
+    "audioSection": "KEZELŐFELÜLET",
     "supportSection": "TÁMOGATÁS",
     "appLanguage": "Alkalmazás nyelve",
     "theme": "Téma",
@@ -167,6 +166,7 @@
     "themeSystem": "Rendszer",
     "notifications": "Értesítések",
     "soundEffects": "Hangeffektusok",
+    "haptics": "Haptikus visszajelzés",
     "speakOnCorrectAnswer": "Helyes válasz kiejtése",
     "voiceGender": "Hang",
     "voiceFemale": "Női",
@@ -342,7 +342,6 @@
     "auxiliaryExplanationGeneral": "A(z) {verb} ige a Perfekt alakot a haben ({form}) segédigével képzi."
   },
   "quizResultsScreen": {
-    "title": "Eredmények",
     "checkpointResultsTitle": "Ellenőrző kvíz eredményei",
     "smartQuizResultsTitle": "Okos kvíz eredményei",
     "canDoBetter": "Ezt jobban is tudja!",

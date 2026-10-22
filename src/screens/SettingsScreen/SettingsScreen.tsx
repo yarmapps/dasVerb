@@ -18,9 +18,9 @@ import {
   resetAllSettings,
   QuizInputMode,
 } from '../../services/settingsService';
-import { usePremiumStatus } from '../../hooks/usePremiumStatus';
 import { progressService } from '../../services/progressService';
 import { soundService } from '../../services/soundService';
+import { hapticService } from '../../services/hapticService';
 import { trackEvent } from '../../services/analyticsService';
 import { openManageSubscriptions } from '../../services/revenueCatService';
 import { openStoreReviewPage } from '../../services/reviewService';
@@ -35,7 +35,6 @@ import {
   cancelStreakReminder,
 } from '../../services/notificationService';
 import { UserNameModal } from '../../components/UserNameModal/UserNameModal';
-import { QuizInputModeModal } from '../../components/QuizInputModeModal/QuizInputModeModal';
 import { PremiumSubscribeSheet } from '../../components/PremiumSubscribeSheet/PremiumSubscribeSheet';
 import {
   getStoredDisplayName,
@@ -55,6 +54,7 @@ export function SettingsScreen(): React.JSX.Element {
   const isPremiumFeatureEnabled = useFeatureFlag('ENABLE_PREMIUM');
 
   const [soundEnabled, setSoundEnabled] = useState(() => getSettings().soundEffects);
+  const [hapticsEnabled, setHapticsEnabled] = useState(() => getSettings().haptics);
   const [notificationsEnabled, setNotificationsEnabled] = useState(
     () => getSettings().notifications,
   );
@@ -64,24 +64,16 @@ export function SettingsScreen(): React.JSX.Element {
   const [ttsVoiceGender, setTtsVoiceGender] = useState<'female' | 'male'>(
     () => getSettings().ttsVoiceGender || 'female',
   );
-  const isPremium = usePremiumStatus();
   const [displayName, setDisplayName] = useState(() => getStoredDisplayName() || 'Learner');
   const [showNameModal, setShowNameModal] = useState(false);
-  const [showInputModeModal, setShowInputModeModal] = useState(false);
   const [showPremiumSheet, setShowPremiumSheet] = useState(false);
   const [quizInputMode, setQuizInputMode] = useState<QuizInputMode>(
     () => getSettings().quizInputMode,
   );
 
   const handleInputModeSelect = (mode: QuizInputMode) => {
+    if (mode === quizInputMode) return;
     soundService.playTapSound();
-    setShowInputModeModal(false);
-    if (mode === 'type_in' && !isPremium) {
-      if (isPremiumFeatureEnabled) {
-        setShowPremiumSheet(true);
-      }
-      return;
-    }
     trackEvent('settings_quiz_input_mode_changed', { mode });
     setQuizInputMode(mode);
     updateSettings({ quizInputMode: mode });
@@ -100,6 +92,15 @@ export function SettingsScreen(): React.JSX.Element {
     updateSettings({ soundEffects: value });
     if (value) {
       soundService.playTapSound();
+    }
+  };
+
+  const handleHapticsToggle = (value: boolean) => {
+    trackEvent('settings_haptics_toggled', { enabled: value });
+    setHapticsEnabled(value);
+    updateSettings({ haptics: value });
+    if (value) {
+      void hapticService.impactLight();
     }
   };
 
@@ -256,6 +257,7 @@ export function SettingsScreen(): React.JSX.Element {
           onPress: () => {
             resetAllSettings();
             setSoundEnabled(true);
+            setHapticsEnabled(true);
             setNotificationsEnabled(true);
             setSpeakOnCorrectAnswer(true);
             setTtsVoiceGender('female');
@@ -403,48 +405,40 @@ export function SettingsScreen(): React.JSX.Element {
           intl.formatMessage({ id: 'settingsScreen.practiceSection' }),
           <>
             {renderRow(
-              'keyboard',
+              'pencil-alt',
               intl.formatMessage({ id: 'settingsScreen.quizInputMode' }),
-              <View style={styles.dropdownTrigger} testID="settings-input-mode-trigger">
-                <Text style={styles.dropdownTriggerText}>
-                  {quizInputMode === 'type_in'
-                    ? intl.formatMessage({ id: 'settingsScreen.quizInputModeTypeIn' })
-                    : intl.formatMessage({ id: 'settingsScreen.quizInputModeChoice' })}
-                </Text>
-                {quizInputMode === 'type_in' && !isPremium && (
+              <View style={styles.modeSegmentContainer} testID="settings-input-mode-segment">
+                <TouchableOpacity
+                  style={[
+                    styles.modeSegmentButton,
+                    quizInputMode === 'choice' && styles.modeSegmentButtonActive,
+                  ]}
+                  onPress={() => handleInputModeSelect('choice')}
+                  activeOpacity={0.8}
+                  testID="settings-input-mode-choice-btn"
+                >
                   <FontAwesome5
-                    name="gem"
-                    size={10}
-                    color={colors.premiumDiamond}
-                    style={styles.dropdownDiamond}
+                    name="th-large"
+                    size={14}
+                    color={quizInputMode === 'choice' ? '#ffffff' : colors.textSecondary}
                   />
-                )}
-                <FontAwesome5
-                  name="chevron-down"
-                  size={10}
-                  color={colors.textSecondary}
-                  style={styles.dropdownChevron}
-                />
+                </TouchableOpacity>
+                <TouchableOpacity
+                  style={[
+                    styles.modeSegmentButton,
+                    quizInputMode === 'type_in' && styles.modeSegmentButtonActive,
+                  ]}
+                  onPress={() => handleInputModeSelect('type_in')}
+                  activeOpacity={0.8}
+                  testID="settings-input-mode-type-in-btn"
+                >
+                  <FontAwesome5
+                    name="keyboard"
+                    size={14}
+                    color={quizInputMode === 'type_in' ? '#ffffff' : colors.textSecondary}
+                  />
+                </TouchableOpacity>
               </View>,
-              () => setShowInputModeModal(true),
-              true,
-            )}
-          </>,
-        )}
-
-        {/* AUDIO SECTION */}
-        {renderSection(
-          intl.formatMessage({ id: 'settingsScreen.audioSection' }),
-          <>
-            {renderRow(
-              'volume-up',
-              intl.formatMessage({ id: 'settingsScreen.soundEffects' }),
-              <Switch
-                value={soundEnabled}
-                onValueChange={handleSoundToggle}
-                trackColor={{ false: colors.blockBorder, true: colors.primary }}
-                thumbColor="#ffffff"
-              />,
               undefined,
               false,
             )}
@@ -472,6 +466,38 @@ export function SettingsScreen(): React.JSX.Element {
                 <FontAwesome5 name="chevron-right" size={12} color={colors.textMutedInverted} />
               </View>,
               toggleVoiceGender,
+              true,
+            )}
+          </>,
+        )}
+
+        {/* AUDIO SECTION */}
+        {renderSection(
+          intl.formatMessage({ id: 'settingsScreen.audioSection' }),
+          <>
+            {renderRow(
+              'volume-up',
+              intl.formatMessage({ id: 'settingsScreen.soundEffects' }),
+              <Switch
+                value={soundEnabled}
+                onValueChange={handleSoundToggle}
+                trackColor={{ false: colors.blockBorder, true: colors.primary }}
+                thumbColor="#ffffff"
+              />,
+              undefined,
+              false,
+            )}
+            {renderRow(
+              'mobile-alt',
+              intl.formatMessage({ id: 'settingsScreen.haptics' }),
+              <Switch
+                testID="settings-haptics-switch"
+                value={hapticsEnabled}
+                onValueChange={handleHapticsToggle}
+                trackColor={{ false: colors.blockBorder, true: colors.primary }}
+                thumbColor="#ffffff"
+              />,
+              undefined,
               true,
             )}
           </>,
@@ -584,13 +610,6 @@ export function SettingsScreen(): React.JSX.Element {
         initialValue={displayName}
         onSave={handleSaveDisplayName}
         onClose={() => setShowNameModal(false)}
-      />
-      <QuizInputModeModal
-        visible={showInputModeModal}
-        currentMode={quizInputMode}
-        onClose={() => setShowInputModeModal(false)}
-        onSelectMode={handleInputModeSelect}
-        isPremium={isPremium}
       />
       {isPremiumFeatureEnabled && (
         <PremiumSubscribeSheet
