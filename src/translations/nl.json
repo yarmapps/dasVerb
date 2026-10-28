@@ -371,13 +371,13 @@
     "cancelAnytime": "Altijd opzegbaar"
   },
   "premiumSheets": {
-    "subscribeTitle": "Ontgrendel Premium",
+    "subscribeTitle": "Volledige toegang",
     "subscribeSubtitle": "Geef het leren van Duitse werkwoorden een boost met geavanceerde tools.",
     "subscribeNow": "Abonneer Nu",
     "buyNow": "Koop Nu",
     "viewPlans": "Bekijk Plannen",
     "premiumFeaturesLabel": "PREMIUM FUNCTIES",
-    "disclaimerAutoRenew": "Automatische verlenging voor {price}/{period}. Altijd opzegbaar in uw accountinstellingen.",
+    "disclaimerAutoRenew": "Wordt automatisch verlengd voor {price}/{period}. Altijd opzegbaar.",
     "disclaimerAutoRenewTrial": "Gratis voor {trialDuration}, daarna {price}/{period}. Altijd opzegbaar.",
     "disclaimerOneTime": "Eenmalige aankoop. Geen terugkerende kosten.",
     "freeTrialDays": "{count} dagen gratis uitproberen",
@@ -417,7 +417,13 @@
       "threeMonthLabel": "3 Maanden",
       "sixMonthLabel": "6 Maanden",
       "bestValueBadge": "BESTE WAARDE",
-      "popularBadge": "POPULAIR"
+      "popularBadge": "POPULAIR",
+      "oneYearLabel": "1 Jaar",
+      "usersChoiceBadge": "KEUZE VAN GEBRUIKERS",
+      "yearlySubtitle": "Beste waarde",
+      "threeMonthSubtitle": "Examen- & niveauboost",
+      "monthlySubtitle": "Kortetermijnoefening",
+      "discountBadge": "{percent}% korting"
     },
     "features": {
       "noAdsTitle": "Geen Advertenties",
@@ -438,7 +444,8 @@
       "offlineModeTitle": "Offline Oefenen",
       "offlineModeShort": "Offline\nOefenen",
       "offlineModeDescription": "Oefen werkwoorden altijd en overal zonder internetverbinding."
-    }
+    },
+    "getFullAccess": "Krijg volledige toegang"
   },
   "notifications": {
     "reminderTitle": "Tijd om te oefenen!",
@@ -452,11 +459,11 @@
     "trialBadge": "3 DAGEN GRATIS UITPROBEREN",
     "title": "Probeer Premium Voordat je Betaalt",
     "subtitle": "Hoe je gratis proefperiode werkt.",
-    "cta": "Start Gratis Proefperiode",
+    "cta": "Premium 3 dagen gratis",
     "restore": "Aankopen Herstellen",
     "proceedLimited": "Doorgaan met beperkte versie",
-    "priceYearlyWithCoffee": "{price}/jaar, een koffie/mnd.",
-    "price3MonthsWithCoffee": "Slechts {price} voor 3 maanden — minder dan een koffie per maand",
+    "priceYearlyWithCoffee": "{price}/jaar, ☕/mnd.",
+    "price3MonthsWithCoffee": "Slechts {price} voor 3 maanden — minder dan een ☕ per maand",
     "disclaimer": "Automatische verlenging voor {price}/jaar. Altijd opzegbaar in accountinstellingen.",
     "disclaimerFallback": "Automatisch jaarlijks verlengd. Altijd opzegbaar in instellingen.",
     "priceWithTrial": "Gratis voor {trialDuration}, daarna {price}/jaar",
@@ -498,7 +505,8 @@
         "headline": "3-Maanden Toegang Begint",
         "description": "Je proefperiode wordt omgezet in 3-maanden toegang. Altijd opzegbaar in instellingen."
       }
-    }
+    },
+    "ctaSubline": "Nu {price} • Altijd opzegbaar"
   },
   "offlineModal": {
     "title": "Internet Vereist",

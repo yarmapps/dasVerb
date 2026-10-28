@@ -371,13 +371,13 @@
     "cancelAnytime": "Ακύρωση ανά πάσα στιγμή"
   },
   "premiumSheets": {
-    "subscribeTitle": "Ξεκλειδώστε το Premium",
+    "subscribeTitle": "Πλήρης πρόσβαση",
     "subscribeSubtitle": "Ενισχύστε την εκμάθηση γερμανικών ρημάτων με προηγμένα εργαλεία.",
     "subscribeNow": "Εγγραφείτε Τώρα",
     "buyNow": "Αγοράστε Τώρα",
     "viewPlans": "Προβολή Προγραμμάτων",
     "premiumFeaturesLabel": "ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ PREMIUM",
-    "disclaimerAutoRenew": "Αυτόματη ανανέωση με {price}/{period}. Ακύρωση ανά πάσα στιγμή στις ρυθμίσεις του λογαριασμού σας.",
+    "disclaimerAutoRenew": "Αυτόματη ανανέωση με {price}/{period}. Ακύρωση ανά πάσα στιγμή.",
     "disclaimerAutoRenewTrial": "Δωρεάν για {trialDuration}, μετά {price}/{period}. Ακύρωση ανά πάσα στιγμή.",
     "disclaimerOneTime": "Εφάπαξ αγορά. Χωρίς επαναλαμβανόμενες χρεώσεις.",
     "freeTrialDays": "{count} ημέρες δωρεάν δοκιμή",
@@ -417,7 +417,13 @@
       "threeMonthLabel": "3 Μήνες",
       "sixMonthLabel": "6 Μήνες",
       "bestValueBadge": "ΚΑΛΥΤΕΡΗ ΑΞΙΑ",
-      "popularBadge": "ΔΗΜΟΦΙΛΕΣ"
+      "popularBadge": "ΔΗΜΟΦΙΛΕΣ",
+      "oneYearLabel": "1 Έτος",
+      "usersChoiceBadge": "ΕΠΙΛΟΓΗ ΧΡΗΣΤΩΝ",
+      "yearlySubtitle": "Καλύτερη αξία",
+      "threeMonthSubtitle": "Ώθηση για εξετάσεις & επίπεδο",
+      "monthlySubtitle": "Βραχυπρόθεσμη εξάσκηση",
+      "discountBadge": "{percent}% έκπτωση"
     },
     "features": {
       "noAdsTitle": "Μηδέν Διαφημίσεις",
@@ -438,7 +444,8 @@
       "offlineModeTitle": "Εξάσκηση Εκτός Σύνδεσης",
       "offlineModeShort": "Εκτός\nΣύνδεσης",
       "offlineModeDescription": "Εξασκηθείτε στα ρήματα οποτεδήποτε, οπουδήποτε χωρίς σύνδεση στο διαδίκτυο."
-    }
+    },
+    "getFullAccess": "Αποκτήστε πλήρη πρόσβαση"
   },
   "notifications": {
     "reminderTitle": "Ώρα για εξάσκηση!",
@@ -452,11 +459,11 @@
     "trialBadge": "ΔΩΡΕΑΝ ΔΟΚΙΜΗ 3 ΗΜΕΡΩΝ",
     "title": "Δοκιμάστε το Premium Πριν Πληρώσετε",
     "subtitle": "Πώς λειτουργεί η δωρεάν δοκιμή σας.",
-    "cta": "Έναρξη Δωρεάν Δοκιμής",
+    "cta": "Premium 3 ημέρες δωρεάν",
     "restore": "Επαναφορά Αγορών",
     "proceedLimited": "Συνέχεια με περιορισμένη έκδοση",
-    "priceYearlyWithCoffee": "{price}/έτος, ένας καφές/μήνα.",
-    "price3MonthsWithCoffee": "Μόνο {price} για 3 μήνες — λιγότερο από έναν καφέ τον μήνα",
+    "priceYearlyWithCoffee": "{price}/έτος, ☕/μήνα.",
+    "price3MonthsWithCoffee": "Μόνο {price} για 3 μήνες — λιγότερο από έναν ☕ τον μήνα",
     "disclaimer": "Αυτόματη ανανέωση με {price}/έτος. Ακύρωση ανά πάσα στιγμή στις ρυθμίσεις λογαριασμού.",
     "disclaimerFallback": "Αυτόματη ανανέωση ετησίως. Ακύρωση ανά πάσα στιγμή στις ρυθμίσεις.",
     "priceWithTrial": "Δωρεάν για {trialDuration}, μετά {price}/έτος",
@@ -498,7 +505,8 @@
         "headline": "Έναρξη 3-μηνης Πρόσβασης",
         "description": "Η δοκιμή σας μετατρέπεται σε 3-μηνη πρόσβαση. Ακύρωση ανά πάσα στιγμή στις ρυθμίσεις."
       }
-    }
+    },
+    "ctaSubline": "Καμία χρέωση σήμερα • Ακύρωση ανά πάσα στιγμή"
   },
   "offlineModal": {
     "title": "Απαιτείται Διαδίκτυο",

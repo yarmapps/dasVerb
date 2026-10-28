@@ -123,7 +123,10 @@ export function FirstOpenPaywallScreen(): React.JSX.Element | null {
 
   const handlePurchase = async () => {
     const targetPackage =
-      packages?.threeMonth?.pkg ?? packages?.sixMonth?.pkg ?? packages?.monthly?.pkg;
+      packages?.threeMonth?.pkg ??
+      packages?.yearly?.pkg ??
+      packages?.sixMonth?.pkg ??
+      packages?.monthly?.pkg;
     if (!targetPackage) {
       Alert.alert(
         intl.formatMessage({ id: 'premiumSheets.errorTitle' }),
@@ -241,6 +244,8 @@ export function FirstOpenPaywallScreen(): React.JSX.Element | null {
         return 'ban';
       case 'unlimitedQuizzes':
         return 'infinity';
+      case 'offlineMode':
+        return 'plane';
       case 'allLevels':
         return 'layer-group';
       case 'smartQuizMode':

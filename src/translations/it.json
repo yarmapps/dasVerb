@@ -371,13 +371,13 @@
     "cancelAnytime": "Annulla in qualsiasi momento"
   },
   "premiumSheets": {
-    "subscribeTitle": "Sblocca Premium",
+    "subscribeTitle": "Accesso completo",
     "subscribeSubtitle": "Migliora l'apprendimento dei verbi tedeschi con strumenti avanzati.",
     "subscribeNow": "Abbonati ora",
     "buyNow": "Acquista ora",
     "viewPlans": "Vedi piani",
     "premiumFeaturesLabel": "FUNZIONALITÀ PREMIUM",
-    "disclaimerAutoRenew": "Rinnovo automatico a {price}/{period}. Annulla in qualsiasi momento nelle impostazioni del tuo account.",
+    "disclaimerAutoRenew": "Rinnovo automatico a {price}/{period}. Annulla quando vuoi.",
     "disclaimerAutoRenewTrial": "Gratis per {trialDuration}, poi {price}/{period}. Annulla in qualsiasi momento.",
     "disclaimerOneTime": "Acquisto una tantum. Nessun addebito ricorrente.",
     "freeTrialDays": "Prova gratuita di {count} giorni",
@@ -417,7 +417,13 @@
       "threeMonthLabel": "3 Mesi",
       "sixMonthLabel": "6 Mesi",
       "bestValueBadge": "MIGLIOR VALORE",
-      "popularBadge": "POPOLARE"
+      "popularBadge": "POPOLARE",
+      "oneYearLabel": "1 Anno",
+      "usersChoiceBadge": "SCELTA DEGLI UTENTI",
+      "yearlySubtitle": "Miglior valore",
+      "threeMonthSubtitle": "Boost per esami e livello",
+      "monthlySubtitle": "Pratica a breve termine",
+      "discountBadge": "{percent}% sconto"
     },
     "features": {
       "noAdsTitle": "Zero pubblicità",
@@ -447,7 +453,8 @@
     },
     "trialTitle": "La tua prova Premium di 3 giorni è attiva",
     "trialSubtitle": "Sblocca i tuoi progressi più rapidi con zero annunci e potenti strumenti di apprendimento.",
-    "trialCta": "Andiamo!"
+    "trialCta": "Andiamo!",
+    "getFullAccess": "Ottieni accesso completo"
   },
   "notifications": {
     "reminderTitle": "È ora di esercitarsi!",
@@ -461,11 +468,11 @@
     "trialBadge": "PROVA · 3 GIORNI",
     "title": "Prova Premium prima di pagare",
     "subtitle": "Ecco come funziona la tua prova gratuita.",
-    "cta": "Inizia Premium Gratis",
+    "cta": "Premium 3 giorni gratis",
     "restore": "Ripristina acquisti",
     "proceedLimited": "Continua con la versione limitata",
-    "priceYearlyWithCoffee": "{price}/anno, una tazza di caffè/mese",
-    "price3MonthsWithCoffee": "Solo {price} per 3 mesi — meno di un caffè al mese",
+    "priceYearlyWithCoffee": "{price}/anno, ☕/mese",
+    "price3MonthsWithCoffee": "Solo {price} per 3 mesi — meno di un ☕ al mese",
     "disclaimer": "Rinnovo automatico a {price}/anno. Annulla quando vuoi nelle impostazioni.",
     "disclaimerFallback": "Rinnovo automatico annuale. Annulla quando vuoi nelle impostazioni.",
     "priceWithTrial": "Gratis per {trialDuration}, poi {price}/anno",
@@ -540,7 +547,8 @@
         "headline": "L'abbonamento inizia",
         "description": "Solo se non annulli. Annulla in qualsiasi momento nelle impostazioni."
       }
-    }
+    },
+    "ctaSubline": "Nessun addebito oggi • Annulla quando vuoi"
   },
   "offlineModal": {
     "title": "Internet richiesto",

@@ -371,13 +371,13 @@
     "cancelAnytime": "Anulează oricând"
   },
   "premiumSheets": {
-    "subscribeTitle": "Deblochează Premium",
+    "subscribeTitle": "Acces complet",
     "subscribeSubtitle": "Accelerează-ți învățarea verbelor germane cu instrumente avansate.",
     "subscribeNow": "Abonează-te acum",
     "buyNow": "Cumpără acum",
     "viewPlans": "Vezi planurile",
     "premiumFeaturesLabel": "FUNCȚII PREMIUM",
-    "disclaimerAutoRenew": "Se reînnoiește automat la {price}/{period}. Anulează oricând din setările contului.",
+    "disclaimerAutoRenew": "Se reînnoiește automat la {price}/{period}. Anulează oricând.",
     "disclaimerAutoRenewTrial": "Gratuit pentru {trialDuration}, apoi {price}/{period}. Anulează oricând.",
     "disclaimerOneTime": "Achiziție unică. Fără plăți recurente.",
     "freeTrialDays": "probă gratuită de {count} zile",
@@ -417,7 +417,13 @@
       "threeMonthLabel": "3 Luni",
       "sixMonthLabel": "6 Luni",
       "bestValueBadge": "CEL MAI BUN PREȚ",
-      "popularBadge": "POPULAR"
+      "popularBadge": "POPULAR",
+      "oneYearLabel": "1 An",
+      "usersChoiceBadge": "ALEGEREA UTILIZATORILOR",
+      "yearlySubtitle": "Cea mai bună valoare",
+      "threeMonthSubtitle": "Pregătire de examen și nivel",
+      "monthlySubtitle": "Practică pe termen scurt",
+      "discountBadge": "{percent}% reducere"
     },
     "features": {
       "noAdsTitle": "Zero Reclame",
@@ -438,7 +444,8 @@
       "offlineModeTitle": "Exersare Offline",
       "offlineModeShort": "Exersare\nOffline",
       "offlineModeDescription": "Exersează verbe oricând, oriunde, fără o conexiune la internet."
-    }
+    },
+    "getFullAccess": "Obține acces complet"
   },
   "notifications": {
     "reminderTitle": "Timpul pentru exersare!",
@@ -452,11 +459,11 @@
     "trialBadge": "PROBĂ GRATUITĂ 3 ZILE",
     "title": "Încearcă Premium înainte să plătești",
     "subtitle": "Cum funcționează proba ta gratuită.",
-    "cta": "Începe proba gratuită",
+    "cta": "Premium 3 zile gratuit",
     "restore": "Restaurează achizițiile",
     "proceedLimited": "Continuă cu versiunea limitată",
-    "priceYearlyWithCoffee": "{price}/an, o cafea/lună.",
-    "price3MonthsWithCoffee": "Doar {price} pentru 3 luni — mai puțin decât o cafea pe lună",
+    "priceYearlyWithCoffee": "{price}/an, ☕/lună.",
+    "price3MonthsWithCoffee": "Doar {price} pentru 3 luni — mai puțin decât o ☕ pe lună",
     "disclaimer": "Se reînnoiește automat la {price}/an. Anulează oricând din setările contului.",
     "disclaimerFallback": "Se reînnoiește automat anual. Anulează oricând din setări.",
     "priceWithTrial": "Gratuit pentru {trialDuration}, apoi {price}/an",
@@ -498,7 +505,8 @@
         "headline": "Accesul pe 3 Luni Începe",
         "description": "Proba ta se transformă în acces pe 3 luni. Anulează oricând din setări."
       }
-    }
+    },
+    "ctaSubline": "Nicio plată azi • Anulează oricând"
   },
   "offlineModal": {
     "title": "Internet Necesar",

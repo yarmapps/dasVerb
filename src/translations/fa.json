@@ -371,13 +371,13 @@
     "cancelAnytime": "لغو در هر زمان"
   },
   "premiumSheets": {
-    "subscribeTitle": "باز کردن Premium",
+    "subscribeTitle": "دسترسی کامل",
     "subscribeSubtitle": "یادگیری افعال آلمانی خود را با ابزارهای پیشرفته متحول کنید.",
     "subscribeNow": "اشتراک ویژه",
     "buyNow": "خرید",
     "viewPlans": "مشاهده پلن‌ها",
     "premiumFeaturesLabel": "ویژگی‌های پرمیوم",
-    "disclaimerAutoRenew": "تمدید خودکار با قیمت {price}/{period}. هر زمان که بخواهید می‌توانید در تنظیمات حساب خود لغو کنید.",
+    "disclaimerAutoRenew": "تمدید خودکار با {price}/{period}. لغو در هر زمان.",
     "disclaimerAutoRenewTrial": "{trialDuration} رایگان، سپس {price}/{period}. هر زمان لغو کنید.",
     "disclaimerOneTime": "خرید یک‌باره. بدون هزینه تکراری.",
     "freeTrialDays": "{count} روز آزمایشی رایگان",
@@ -417,7 +417,13 @@
       "threeMonthLabel": "۳ ماه",
       "sixMonthLabel": "۶ ماه",
       "bestValueBadge": "بهترین قیمت",
-      "popularBadge": "محبوب"
+      "popularBadge": "محبوب",
+      "oneYearLabel": "۱ سال",
+      "usersChoiceBadge": "انتخاب کاربران",
+      "yearlySubtitle": "بهترین ارزش",
+      "threeMonthSubtitle": "تقویت سطح و آمادگی آزمون",
+      "monthlySubtitle": "تمرین کوتاه‌مدت",
+      "discountBadge": "{percent}٪ تخفیف"
     },
     "features": {
       "noAdsTitle": "بدون تبلیغات",
@@ -447,7 +453,8 @@
     },
     "trialTitle": "دوره آزمایشی ۳ روزه پرمیوم شما فعال است",
     "trialSubtitle": "با ابزارهای یادگیری قدرتمند و بدون تبلیغات، سریع‌ترین پیشرفت را تجربه کنید.",
-    "trialCta": "بزن بریم!"
+    "trialCta": "بزن بریم!",
+    "getFullAccess": "دریافت دسترسی کامل"
   },
   "notifications": {
     "reminderTitle": "زمان تمرین است!",
@@ -461,11 +468,11 @@
     "trialBadge": "آزمایشی · 3 روز",
     "title": "قبل از پرداخت Premium را امتحان کنید",
     "subtitle": "نحوه کار آزمایش رایگان شما.",
-    "cta": "شروع رایگان Premium",
+    "cta": "پریمیوم ۳ روز رایگان",
     "restore": "بازیابی خریدها",
     "proceedLimited": "ادامه با نسخه محدود",
-    "priceYearlyWithCoffee": "{price}/سال، یک فنجان قهوه/ماه",
-    "price3MonthsWithCoffee": "فقط {price} برای ۳ ماه — کمتر از قیمت یک فنجان قهوه در ماه",
+    "priceYearlyWithCoffee": "{price}/سال، ☕/ماه",
+    "price3MonthsWithCoffee": "فقط {price} برای ۳ ماه — کمتر از قیمت یک ☕ در ماه",
     "disclaimer": "تمدید خودکار با {price}/سال. لغو در هر زمان در تنظیمات حساب.",
     "disclaimerFallback": "تمدید خودکار سالانه. لغو در هر زمان در تنظیمات حساب.",
     "priceWithTrial": "رایگان برای {trialDuration}، سپس {price}/سال",
@@ -540,7 +547,8 @@
         "headline": "شروع اشتراک",
         "description": "فقط اگر لغو نکنید. در هر زمان در تنظیمات حساب لغو کنید."
       }
-    }
+    },
+    "ctaSubline": "امروز پرداختی ندارید • لغو در هر زمان"
   },
   "offlineModal": {
     "title": "اینترنت لازم است",

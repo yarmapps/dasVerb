@@ -371,13 +371,13 @@
     "cancelAnytime": "İstediğin zaman iptal et"
   },
   "premiumSheets": {
-    "subscribeTitle": "Premium'u Açın",
+    "subscribeTitle": "Tam Erişim",
     "subscribeSubtitle": "Gelişmiş araçlarla Almanca fiil öğreniminizi hızlandırın.",
     "subscribeNow": "Şimdi abone ol",
     "buyNow": "Şimdi Satın Al",
     "viewPlans": "Planları görüntüle",
     "premiumFeaturesLabel": "PREMİUM ÖZELLİKLER",
-    "disclaimerAutoRenew": "{price}/{period} otomatik yenilenir. Hesap ayarlarınızdan istediğiniz zaman iptal edebilirsiniz.",
+    "disclaimerAutoRenew": "{price}/{period} karşılığında otomatik yenilenir. İstediğin zaman iptal et.",
     "disclaimerAutoRenewTrial": "{trialDuration} ücretsiz, sonra {price}/{period}. İstediğiniz zaman iptal edin.",
     "disclaimerOneTime": "Tek seferlik satın alma. Yinelenen ücret yok.",
     "freeTrialDays": "{count} gün ücretsiz deneme",
@@ -417,7 +417,13 @@
       "threeMonthLabel": "3 Ay",
       "sixMonthLabel": "6 Ay",
       "bestValueBadge": "EN İYİ FİYAT",
-      "popularBadge": "POPÜLER"
+      "popularBadge": "POPÜLER",
+      "oneYearLabel": "1 Yıl",
+      "usersChoiceBadge": "KULLANICI TERCİHİ",
+      "yearlySubtitle": "En iyi değer",
+      "threeMonthSubtitle": "Sınav ve seviye desteği",
+      "monthlySubtitle": "Kısa süreli pratik",
+      "discountBadge": "%{percent} indirim"
     },
     "features": {
       "noAdsTitle": "Sıfır Reklam",
@@ -447,7 +453,8 @@
     },
     "trialTitle": "3 günlük Premium denemeniz aktif",
     "trialSubtitle": "Reklamsız ve güçlü öğrenme araçlarıyla en hızlı ilerlemenizi açın.",
-    "trialCta": "Hadi gidelim!"
+    "trialCta": "Hadi gidelim!",
+    "getFullAccess": "Tam Erişim Al"
   },
   "notifications": {
     "reminderTitle": "Pratik yapma zamanı!",
@@ -461,11 +468,11 @@
     "trialBadge": "DENEME · 3 GÜN",
     "title": "Ödemeden önce Premium'u deneyin",
     "subtitle": "Ücretsiz deneme süreniz böyle çalışır.",
-    "cta": "Premium'u Ücretsiz Başlat",
+    "cta": "Premium 3 Gün Ücretsiz",
     "restore": "Satın Alımları Geri Yükle",
     "proceedLimited": "Sınırlı sürümle devam et",
-    "priceYearlyWithCoffee": "{price}/yıl, bir fincan kahve/ay",
-    "price3MonthsWithCoffee": "3 ay için yalnızca {price} — ayda bir kahveden daha az",
+    "priceYearlyWithCoffee": "{price}/yıl, ☕/ay",
+    "price3MonthsWithCoffee": "3 ay için yalnızca {price} — ayda bir ☕'den daha az",
     "disclaimer": "Otomatik olarak {price}/yıl yenilenir. İstediğiniz zaman ayarlardan iptal edin.",
     "disclaimerFallback": "Otomatik olarak yıllık yenilenir. İstediğiniz zaman ayarlardan iptal edin.",
     "priceWithTrial": "{trialDuration} için ücretsiz, sonra {price}/yıl",
@@ -540,7 +547,8 @@
         "headline": "Abonelik başlar",
         "description": "Sadece iptal etmezseniz. İstediğiniz zaman hesap ayarlarından iptal edebilirsiniz."
       }
-    }
+    },
+    "ctaSubline": "Bugün ödeme yok • İstediğin zaman iptal et"
   },
   "offlineModal": {
     "title": "İnternet Gerekli",

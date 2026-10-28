@@ -18,6 +18,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useAppTheme } from '../../context/ThemeContext';
 import { ThemeColors } from '../../styles/themeColors';
 import { CloseIconButton } from '../CloseIconButton/CloseIconButton';
+import { DiamondIcon } from '../DiamondIcon/DiamondIcon';
 import {
   getMappedPackages,
   MappedPackages,
@@ -27,6 +28,7 @@ import {
 } from '../../services/revenueCatService';
 import { trackEvent } from '../../services/analyticsService';
 import { soundService } from '../../services/soundService';
+import { cleanPriceString, formatZeroPrice } from '../../utils/formatZeroPrice';
 import { createStyles, SELECTED_GRADIENT_COLORS } from './PremiumSubscribeSheet.styles';
 
 export interface PremiumSubscribeSheetProps {
@@ -36,46 +38,54 @@ export interface PremiumSubscribeSheetProps {
   source?: string;
 }
 
-const SCREEN_HEIGHT = Dimensions.get('window').height;
+const { height: SCREEN_HEIGHT } = Dimensions.get('window');
 
 /* ── Plan definitions ──────────────────────────────────────── */
-type PlanId = 'monthly' | 'threeMonth' | 'sixMonth';
+type PlanId = 'monthly' | 'threeMonth' | 'yearly';
 
 interface Plan {
   id: PlanId;
   labelKey: string;
+  subtitleKey: string;
   fallbackPrice: string;
-  perKey?: string;
-  fallbackPerMonthPrice?: string;
-  perMonthKey?: string;
+  fallbackPerMonthPrice: string;
+  perMonthKey: string;
   badgeKey?: string;
   badgeStyle?: 'yellow' | 'solid';
+  hasDiscountBadge?: boolean;
+  highlightMonthlyPrice?: boolean;
+  fallbackTrialInfo?: FreeTrialInfo;
 }
 
 const PLANS: Plan[] = [
   {
-    id: 'monthly',
-    labelKey: 'premiumSheets.plans.monthlyLabel',
-    fallbackPrice: '€3.99',
-    perKey: 'premiumSheets.plans.monthlyPer',
+    id: 'yearly',
+    labelKey: 'premiumSheets.plans.oneYearLabel',
+    subtitleKey: 'premiumSheets.plans.yearlySubtitle',
+    fallbackPrice: '€24.99',
+    fallbackPerMonthPrice: '€2.08',
+    perMonthKey: 'premiumSheets.plans.perMonth',
+    badgeKey: 'premiumSheets.plans.usersChoiceBadge',
+    badgeStyle: 'yellow',
+    hasDiscountBadge: true,
+    highlightMonthlyPrice: true,
+    fallbackTrialInfo: { count: 3, unit: 'day' },
   },
   {
     id: 'threeMonth',
     labelKey: 'premiumSheets.plans.threeMonthLabel',
+    subtitleKey: 'premiumSheets.plans.threeMonthSubtitle',
     fallbackPrice: '€8.99',
     fallbackPerMonthPrice: '€3.00',
     perMonthKey: 'premiumSheets.plans.perMonth',
-    badgeKey: 'premiumSheets.plans.popularBadge',
-    badgeStyle: 'yellow',
   },
   {
-    id: 'sixMonth',
-    labelKey: 'premiumSheets.plans.sixMonthLabel',
-    fallbackPrice: '€14.99',
-    fallbackPerMonthPrice: '€2.50',
+    id: 'monthly',
+    labelKey: 'premiumSheets.plans.monthlyLabel',
+    subtitleKey: 'premiumSheets.plans.monthlySubtitle',
+    fallbackPrice: '€3.99',
+    fallbackPerMonthPrice: '€3.99',
     perMonthKey: 'premiumSheets.plans.perMonth',
-    badgeKey: 'premiumSheets.plans.bestValueBadge',
-    badgeStyle: 'solid',
   },
 ];
 
@@ -116,14 +126,14 @@ export function PremiumSubscribeSheet({
 }: PremiumSubscribeSheetProps): React.JSX.Element {
   const intl = useIntl();
   const { colors } = useAppTheme();
-  const styles = useMemo(() => createStyles(colors), [colors]);
   const insets = useSafeAreaInsets();
+  const styles = useMemo(() => createStyles(colors, insets), [colors, insets]);
 
   const [translateY] = useState(() => new Animated.Value(SCREEN_HEIGHT));
   const [overlayOpacity] = useState(() => new Animated.Value(0));
   const sheetHeightRef = useRef(SCREEN_HEIGHT);
   const isClosing = useRef(false);
-  const [selectedPlan, setSelectedPlan] = useState<PlanId>('threeMonth');
+  const [selectedPlan, setSelectedPlan] = useState<PlanId>('yearly');
   const [packages, setPackages] = useState<MappedPackages | null>(null);
   const [isLoadingPackages, setIsLoadingPackages] = useState(false);
   const [isPurchasing, setIsPurchasing] = useState(false);
@@ -218,7 +228,7 @@ export function PremiumSubscribeSheet({
   useEffect(() => {
     if (visible) {
       isClosing.current = false;
-      setSelectedPlan('threeMonth');
+      setSelectedPlan('yearly');
       setIsPurchasing(false);
       sheetOpenTimeRef.current = Date.now();
       loadPackages();
@@ -255,6 +265,7 @@ export function PremiumSubscribeSheet({
     if (isClosing.current || isPurchasing) {
       return;
     }
+    soundService.playTapSound();
     isClosing.current = true;
     const timeSpent = Math.max(0, Math.round((Date.now() - sheetOpenTimeRef.current) / 1000));
     trackEvent('paywall_sheet_dismissed', {
@@ -281,33 +292,35 @@ export function PremiumSubscribeSheet({
   /* ── Get price display for a plan ──────────────────── */
   const getPriceForPlan = useCallback(
     (plan: Plan): string => {
-      if (!packages) {
-        return plan.fallbackPrice;
-      }
-      const mapped = packages[plan.id];
-      return mapped?.priceString ?? plan.fallbackPrice;
+      const rawPrice =
+        (!packages ? plan.fallbackPrice : packages[plan.id]?.priceString) ?? plan.fallbackPrice;
+      return cleanPriceString(rawPrice, intl.locale);
     },
-    [packages],
+    [packages, intl.locale],
   );
 
-  const getPerMonthPrice = (plan: Plan): string | undefined => {
-    if (plan.id === 'monthly') {
-      return undefined;
+  const getPerMonthPrice = (plan: Plan): string => {
+    if (!packages) {
+      return cleanPriceString(plan.fallbackPerMonthPrice, intl.locale);
     }
-    const mapped = packages?.[plan.id];
-    if (mapped?.monthlyPriceString) {
-      return mapped.monthlyPriceString;
-    }
-    return plan.fallbackPerMonthPrice;
+    const mapped = packages[plan.id];
+    const rawPrice =
+      plan.id === 'monthly'
+        ? (mapped?.priceString ?? plan.fallbackPerMonthPrice)
+        : (mapped?.monthlyPriceString ?? plan.fallbackPerMonthPrice);
+    return cleanPriceString(rawPrice, intl.locale);
   };
 
   const getTrialInfo = useCallback(
     (plan: Plan): FreeTrialInfo | undefined => {
-      if (!packages) {
+      if (plan.id !== 'yearly') {
         return undefined;
       }
+      if (!packages) {
+        return plan.fallbackTrialInfo;
+      }
       const mapped = packages[plan.id];
-      return mapped?.freeTrialInfo;
+      return mapped?.freeTrialInfo ?? plan.fallbackTrialInfo;
     },
     [packages],
   );
@@ -331,6 +344,27 @@ export function PremiumSubscribeSheet({
       year: 'premiumSheets.freeTrialYears',
     };
     return keys[unit];
+  };
+
+  /* ── Dynamic discount calculation ───────────────────── */
+  const getDiscountPercent = (plan: Plan): number | undefined => {
+    if (!plan.hasDiscountBadge) {
+      return undefined;
+    }
+    const monthlyPackage = packages?.monthly?.pkg;
+    const yearlyPackage = packages?.yearly?.pkg;
+    if (
+      monthlyPackage &&
+      yearlyPackage &&
+      monthlyPackage.product.price > 0 &&
+      yearlyPackage.product.price > 0
+    ) {
+      const annualIfMonthly = monthlyPackage.product.price * 12;
+      const actualAnnual = yearlyPackage.product.price;
+      const discount = Math.round((1 - actualAnnual / annualIfMonthly) * 100);
+      return discount > 0 ? discount : undefined;
+    }
+    return 50;
   };
 
   /* ── Handle purchase ─────────────────────────────────── */
@@ -425,12 +459,11 @@ export function PremiumSubscribeSheet({
   };
 
   const selectedPlanConfig = useMemo(
-    () => PLANS.find(plan => plan.id === selectedPlan) || PLANS[1],
+    () => PLANS.find(plan => plan.id === selectedPlan) || PLANS[0],
     [selectedPlan],
   );
 
   const disclaimerText = useMemo(() => {
-    const trialInfo = getTrialInfo(selectedPlanConfig);
     const planPrice = getPriceForPlan(selectedPlanConfig);
     const getPeriodId = (id: PlanId): string => {
       switch (id) {
@@ -438,28 +471,13 @@ export function PremiumSubscribeSheet({
           return 'premiumSheets.periodMonth';
         case 'threeMonth':
           return 'premiumSheets.period3Months';
-        case 'sixMonth':
-          return 'premiumSheets.period6Months';
+        case 'yearly':
+          return 'premiumSheets.periodYear';
         default:
           return 'premiumSheets.periodMonth';
       }
     };
     const periodString = intl.formatMessage({ id: getPeriodId(selectedPlan) });
-
-    if (trialInfo) {
-      const trialUnitString = intl.formatMessage({
-        id: `premiumSheets.trialUnit.${trialInfo.unit}`,
-      });
-      return intl.formatMessage(
-        { id: 'premiumSheets.disclaimerAutoRenewTrial' },
-        {
-          trialDuration: `${trialInfo.count}\u00A0${trialUnitString}`,
-          price: planPrice,
-          period: periodString,
-        },
-      );
-    }
-
     return intl.formatMessage(
       { id: 'premiumSheets.disclaimerAutoRenew' },
       {
@@ -467,7 +485,42 @@ export function PremiumSubscribeSheet({
         period: periodString,
       },
     );
-  }, [intl, selectedPlan, selectedPlanConfig, getPriceForPlan, getTrialInfo]);
+  }, [intl, selectedPlan, selectedPlanConfig, getPriceForPlan]);
+
+  const renderCtaContent = (): React.JSX.Element => {
+    if (isPurchasing) {
+      return <ActivityIndicator size="small" color={colors.premiumSecondarySurface} />;
+    }
+
+    if (selectedPlan === 'yearly') {
+      const zeroPrice = formatZeroPrice(getPriceForPlan(selectedPlanConfig), intl.locale);
+      return (
+        <>
+          <Text style={styles.ctaText}>{intl.formatMessage({ id: 'firstOpenPaywall.cta' })}</Text>
+          <Text style={styles.ctaSubtext}>
+            {intl.formatMessage(
+              { id: 'firstOpenPaywall.ctaSubline' },
+              { price: zeroPrice, zeroPrice },
+            )}
+          </Text>
+        </>
+      );
+    }
+
+    return (
+      <>
+        <Text style={styles.ctaText}>
+          {intl.formatMessage({ id: 'premiumSheets.getFullAccess' })}
+        </Text>
+        <FontAwesome5
+          name="arrow-right"
+          size={16}
+          color={colors.premiumSecondarySurface}
+          style={styles.ctaArrow}
+        />
+      </>
+    );
+  };
 
   return (
     <Modal visible={visible} animationType="none" transparent onRequestClose={animateClose}>
@@ -480,8 +533,9 @@ export function PremiumSubscribeSheet({
         {/* Sheet */}
         <Animated.View
           style={[styles.sheet, { transform: [{ translateY }] }]}
-          onLayout={e => {
-            sheetHeightRef.current = e.nativeEvent.layout.height;
+          onLayout={event => {
+            const { height } = event.nativeEvent.layout;
+            sheetHeightRef.current = height;
           }}
           testID="premium-subscribe-sheet"
         >
@@ -489,10 +543,7 @@ export function PremiumSubscribeSheet({
             colors={colors.premiumGradient}
             start={{ x: 0.5, y: 0 }}
             end={{ x: 0.5, y: 1 }}
-            style={[
-              styles.gradient,
-              insets.bottom > 0 ? { paddingBottom: insets.bottom + 12 } : null,
-            ]}
+            style={styles.gradient}
           >
             {/* Close button */}
             <CloseIconButton
@@ -518,40 +569,62 @@ export function PremiumSubscribeSheet({
               contentContainerStyle={styles.contentContainer}
               showsVerticalScrollIndicator={false}
               bounces={false}
-              scrollEnabled={sheetHeightRef.current > SCREEN_HEIGHT * 0.9}
-              style={{ maxHeight: SCREEN_HEIGHT * 0.95 }}
             >
-              {/* Diamond icon */}
-              <View style={styles.diamondContainer}>
-                <FontAwesome5 name="gem" size={42} color={colors.premiumDiamond} />
+              {/* Header: Diamond icon + Title & subtitle */}
+              <View style={styles.headerSection}>
+                <View style={styles.diamondContainer}>
+                  <DiamondIcon size={52} />
+                </View>
+
+                <Text style={styles.title}>
+                  {intl.formatMessage({ id: 'premiumSheets.subscribeTitle' })}
+                </Text>
+                <Text style={styles.subtitle}>
+                  {intl.formatMessage({ id: 'premiumSheets.subscribeSubtitle' })}
+                </Text>
               </View>
 
-              {/* Title & subtitle */}
-              <Text style={styles.title}>
-                {intl.formatMessage({ id: 'premiumSheets.subscribeTitle' })}
-              </Text>
-              <Text style={styles.subtitle}>
-                {intl.formatMessage({ id: 'premiumSheets.subscribeSubtitle' })}
-              </Text>
-
-              {/* ── Pricing cards ─────────────────────────── */}
-              <View style={styles.plansRow}>
+              {/* ── Pricing cards (Vertical) ──────────────── */}
+              <View style={styles.plansColumn}>
                 {PLANS.map(plan => {
                   const isSelected = selectedPlan === plan.id;
-                  const price = getPriceForPlan(plan);
                   const perMonthPrice = getPerMonthPrice(plan);
                   const trialInfo = getTrialInfo(plan);
-                  const isLongCurrency = price.replace(/[0-9\s.,]/g, '').length > 2;
+                  const isLongCurrency = perMonthPrice.replace(/[0-9\s.,]/g, '').length > 2;
+
+                  const formattedPerMonth = intl.formatMessage(
+                    { id: plan.perMonthKey },
+                    { price: isLoadingPackages ? '...' : perMonthPrice },
+                  );
+
+                  const topBadgeText = (() => {
+                    if (!plan.badgeKey) {
+                      return undefined;
+                    }
+                    const baseBadge = intl.formatMessage({ id: plan.badgeKey });
+                    if (plan.id === 'yearly' && trialInfo) {
+                      const trialStr = intl
+                        .formatMessage(
+                          { id: getTrialBadgeKey(trialInfo.unit) },
+                          { count: trialInfo.count },
+                        )
+                        .replace(/(\d+)\s+/g, '$1\u00A0');
+                      return `${baseBadge} • ${trialStr}`;
+                    }
+                    return baseBadge;
+                  })();
+
+                  const discountPercent = getDiscountPercent(plan);
 
                   return (
                     <TouchableOpacity
                       key={plan.id}
                       style={[
                         styles.planCard,
-                        plan.id === 'threeMonth' && styles.planCardFeatured,
+                        topBadgeText ? styles.planCardWithBadge : undefined,
                         isSelected && styles.planCardSelected,
                       ]}
-                      activeOpacity={0.8}
+                      activeOpacity={1}
                       onPress={() => handlePlanSelect(plan)}
                     >
                       {isSelected && (
@@ -563,7 +636,7 @@ export function PremiumSubscribeSheet({
                         />
                       )}
 
-                      {plan.badgeKey && (
+                      {topBadgeText && (
                         <View
                           style={[
                             styles.planBadge,
@@ -583,139 +656,150 @@ export function PremiumSubscribeSheet({
                                 : styles.planBadgeTextLight,
                             ]}
                           >
-                            {intl.formatMessage({ id: plan.badgeKey })}
+                            {topBadgeText}
                           </Text>
                         </View>
                       )}
 
-                      <Text style={[styles.planLabel, isSelected && styles.planLabelSelected]}>
-                        {intl.formatMessage({ id: plan.labelKey })}
-                      </Text>
+                      {/* First Row: Plan Name (Left) & Monthly Price (Right) */}
+                      <View style={styles.planCardRow}>
+                        <Text
+                          style={[
+                            styles.planLabel,
+                            plan.id === 'yearly' && styles.planLabelLarge,
+                            isSelected && styles.planLabelSelected,
+                          ]}
+                        >
+                          {intl.formatMessage({ id: plan.labelKey })}
+                        </Text>
 
-                      <Text
+                        <Text
+                          style={[
+                            styles.planPriceRight,
+                            plan.id === 'yearly' && styles.planPriceLarge,
+                            isSelected && styles.planPriceRightSelected,
+                            plan.highlightMonthlyPrice && styles.planPriceHighlighted,
+                            isLongCurrency && styles.planPriceSmall,
+                          ]}
+                        >
+                          {formattedPerMonth}
+                        </Text>
+                      </View>
+
+                      {/* Second Row: Subtitle (Left) & Discount Badge (Right) */}
+                      <View
                         style={[
-                          styles.planPrice,
-                          isSelected && styles.planPriceSelected,
-                          isLongCurrency && styles.planPriceSmall,
+                          styles.planCardRowBottom,
+                          plan.id === 'yearly' && styles.planCardRowBottomLarge,
                         ]}
                       >
-                        {isLoadingPackages ? '...' : price}
-                      </Text>
-
-                      {perMonthPrice && plan.perMonthKey && (
-                        <Text style={[styles.planPer, isSelected && styles.planPerSelected]}>
-                          {intl.formatMessage(
-                            { id: plan.perMonthKey },
-                            { price: isLoadingPackages ? '...' : perMonthPrice },
-                          )}
+                        <Text
+                          style={[
+                            styles.planSubtitle,
+                            plan.id === 'yearly' && styles.planSubtitleLarge,
+                            isSelected && styles.planSubtitleSelected,
+                          ]}
+                        >
+                          {intl.formatMessage({ id: plan.subtitleKey })}
                         </Text>
-                      )}
 
-                      {plan.perKey && (
-                        <Text style={styles.planPer}>
-                          {intl.formatMessage({ id: plan.perKey })}
-                        </Text>
-                      )}
-
-                      {trialInfo && (
-                        <View style={styles.trialBadge}>
-                          <Text style={styles.trialBadgeText}>
-                            {intl
-                              .formatMessage(
-                                { id: getTrialBadgeKey(trialInfo.unit) },
-                                { count: trialInfo.count },
-                              )
-                              .replace(/(\d+)\s+/g, '$1\u00A0')}
-                          </Text>
-                        </View>
-                      )}
+                        {discountPercent ? (
+                          <View style={styles.discountBadge}>
+                            <Text
+                              numberOfLines={1}
+                              adjustsFontSizeToFit
+                              minimumFontScale={0.8}
+                              style={styles.discountBadgeText}
+                            >
+                              {intl.formatMessage(
+                                { id: 'premiumSheets.plans.discountBadge' },
+                                { percent: discountPercent },
+                              )}
+                            </Text>
+                          </View>
+                        ) : null}
+                      </View>
                     </TouchableOpacity>
                   );
                 })}
               </View>
 
               {/* ── Premium Features (horizontal marquee) ─── */}
-              <Text style={styles.featuresSectionTitle}>
-                {intl.formatMessage({ id: 'premiumSheets.premiumFeaturesLabel' })}
-              </Text>
+              <View style={styles.featuresSection}>
+                <Text style={styles.featuresSectionTitle}>
+                  {intl.formatMessage({ id: 'premiumSheets.premiumFeaturesLabel' })}
+                </Text>
 
-              <View
-                style={styles.featuresMarqueeContainer}
-                onLayout={e => {
-                  containerWidth.current = e.nativeEvent.layout.width;
-                  if (visible) {
-                    startScrollAnimation();
-                  }
-                }}
-                pointerEvents="none"
-              >
-                <Animated.View
-                  style={[
-                    styles.featuresRow,
-                    {
-                      transform: [
-                        {
-                          translateX: Animated.multiply(autoScrollValue, -1),
-                        },
-                      ],
-                    },
-                  ]}
-                  onLayout={e => {
-                    contentWidth.current = e.nativeEvent.layout.width;
+                <View
+                  style={styles.featuresMarqueeContainer}
+                  onLayout={event => {
+                    const { width } = event.nativeEvent.layout;
+                    containerWidth.current = width;
                     if (visible) {
                       startScrollAnimation();
                     }
                   }}
+                  pointerEvents="none"
                 >
-                  {getFeatures(colors).map(feature => {
-                    const title = intl.formatMessage({
-                      id: `premiumSheets.features.${feature.key}Short`,
-                    });
+                  <Animated.View
+                    style={[
+                      styles.featuresRow,
+                      {
+                        transform: [
+                          {
+                            translateX: Animated.multiply(autoScrollValue, -1),
+                          },
+                        ],
+                      },
+                    ]}
+                    onLayout={event => {
+                      const { width } = event.nativeEvent.layout;
+                      contentWidth.current = width;
+                      if (visible) {
+                        startScrollAnimation();
+                      }
+                    }}
+                  >
+                    {getFeatures(colors).map(feature => {
+                      const title = intl.formatMessage({
+                        id: `premiumSheets.features.${feature.key}Short`,
+                      });
 
-                    return (
-                      <View key={feature.key} style={styles.featureItem}>
-                        <View
-                          style={[styles.featureIconWrap, { backgroundColor: feature.bgColor }]}
-                        >
-                          {feature.icon}
+                      return (
+                        <View key={feature.key} style={styles.featureItem}>
+                          <View
+                            style={[styles.featureIconWrap, { backgroundColor: feature.bgColor }]}
+                          >
+                            {feature.icon}
+                          </View>
+                          <Text style={styles.featureLabel} numberOfLines={3}>
+                            {title}
+                          </Text>
                         </View>
-                        <Text style={styles.featureLabel} numberOfLines={3}>
-                          {title}
-                        </Text>
-                      </View>
-                    );
-                  })}
-                </Animated.View>
+                      );
+                    })}
+                  </Animated.View>
+                </View>
               </View>
+            </ScrollView>
 
-              {/* ── Subscribe CTA ──────────────────────────── */}
+            {/* ── Pinned Bottom Dock: CTA + Disclaimer + Footer links ── */}
+            <View style={styles.bottomDock}>
               <TouchableOpacity
-                style={[styles.ctaButton, isPurchasing ? styles.ctaButtonDisabled : undefined]}
+                style={[
+                  styles.ctaButton,
+                  selectedPlan === 'yearly' && styles.ctaButtonTwoLine,
+                  isPurchasing ? styles.ctaButtonDisabled : undefined,
+                ]}
                 activeOpacity={0.9}
                 onPress={handlePurchase}
                 disabled={isPurchasing}
               >
-                {isPurchasing ? (
-                  <ActivityIndicator size="small" color={colors.premiumSecondarySurface} />
-                ) : (
-                  <>
-                    <Text style={styles.ctaText}>
-                      {intl.formatMessage({ id: 'premiumSheets.subscribeNow' })}
-                    </Text>
-                    <FontAwesome5
-                      name="arrow-right"
-                      size={16}
-                      color={colors.premiumHighlightText}
-                      style={styles.ctaArrow}
-                    />
-                  </>
-                )}
+                {renderCtaContent()}
               </TouchableOpacity>
 
-              {/* ── Disclaimer ─────────────────────────────── */}
               <Text style={styles.disclaimer}>{disclaimerText}</Text>
 
-              {/* ── Footer links ───────────────────────────── */}
               <View style={styles.footerLinks}>
                 <View style={styles.footerRow}>
                   <TouchableOpacity
@@ -743,7 +827,7 @@ export function PremiumSubscribeSheet({
                   </TouchableOpacity>
                 </View>
               </View>
-            </ScrollView>
+            </View>
           </LinearGradient>
         </Animated.View>
       </View>

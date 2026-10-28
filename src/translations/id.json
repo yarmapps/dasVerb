@@ -371,13 +371,13 @@
     "cancelAnytime": "Batalkan kapan saja"
   },
   "premiumSheets": {
-    "subscribeTitle": "Buka Premium",
+    "subscribeTitle": "Akses Penuh",
     "subscribeSubtitle": "Tingkatkan pembelajaran kata kerja Jerman Anda dengan alat canggih.",
     "subscribeNow": "Berlangganan Sekarang",
     "buyNow": "Beli Sekarang",
     "viewPlans": "Lihat Paket",
     "premiumFeaturesLabel": "FITUR PREMIUM",
-    "disclaimerAutoRenew": "Diperbarui otomatis pada {price}/{period}. Batalkan kapan saja di pengaturan akun Anda.",
+    "disclaimerAutoRenew": "Perpanjangan otomatis seharga {price}/{period}. Batalkan kapan saja.",
     "disclaimerAutoRenewTrial": "Gratis selama {trialDuration}, kemudian {price}/{period}. Batalkan kapan saja.",
     "disclaimerOneTime": "Pembelian satu kali. Tanpa biaya berulang.",
     "freeTrialDays": "Uji coba gratis {count} hari",
@@ -417,7 +417,13 @@
       "threeMonthLabel": "3 Bulan",
       "sixMonthLabel": "6 Bulan",
       "bestValueBadge": "NILAI TERBAIK",
-      "popularBadge": "POPULER"
+      "popularBadge": "POPULER",
+      "oneYearLabel": "1 Tahun",
+      "usersChoiceBadge": "PILIHAN PENGGUNA",
+      "yearlySubtitle": "Nilai terbaik",
+      "threeMonthSubtitle": "Persiapan ujian & naik level",
+      "monthlySubtitle": "Latihan jangka pendek",
+      "discountBadge": "Diskon {percent}%"
     },
     "features": {
       "noAdsTitle": "Nol Iklan",
@@ -438,7 +444,8 @@
       "offlineModeTitle": "Latihan Offline",
       "offlineModeShort": "Latihan\nOffline",
       "offlineModeDescription": "Latih kata kerja kapan saja, di mana saja tanpa koneksi internet."
-    }
+    },
+    "getFullAccess": "Dapatkan Akses Penuh"
   },
   "notifications": {
     "reminderTitle": "Waktunya berlatih!",
@@ -452,11 +459,11 @@
     "trialBadge": "UJI COBA GRATIS 3 HARI",
     "title": "Coba Premium Sebelum Membayar",
     "subtitle": "Cara kerja uji coba gratis Anda.",
-    "cta": "Mulai Uji Coba Gratis",
+    "cta": "Premium 3 Hari Gratis",
     "restore": "Pulihkan Pembelian",
     "proceedLimited": "Lanjutkan dengan versi terbatas",
-    "priceYearlyWithCoffee": "{price}/tahun, secangkir kopi/bln.",
-    "price3MonthsWithCoffee": "Hanya {price} untuk 3 bulan — kurang dari secangkir kopi sebulan",
+    "priceYearlyWithCoffee": "{price}/tahun, ☕/bln.",
+    "price3MonthsWithCoffee": "Hanya {price} untuk 3 bulan — kurang dari ☕ sebulan",
     "disclaimer": "Diperbarui otomatis pada {price}/tahun. Batalkan kapan saja di pengaturan akun.",
     "disclaimerFallback": "Diperbarui otomatis setiap tahun. Batalkan kapan saja di pengaturan.",
     "priceWithTrial": "Gratis selama {trialDuration}, kemudian {price}/tahun",
@@ -498,7 +505,8 @@
         "headline": "Akses 3 Bulan Dimulai",
         "description": "Uji coba Anda akan berubah menjadi akses 3 bulan. Batalkan kapan saja di pengaturan."
       }
-    }
+    },
+    "ctaSubline": "Tidak ada tagihan hari ini • Batalkan kapan saja"
   },
   "offlineModal": {
     "title": "Internet Diperlukan",

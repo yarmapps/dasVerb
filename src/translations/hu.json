@@ -371,13 +371,13 @@
     "cancelAnytime": "Bármikor lemondható"
   },
   "premiumSheets": {
-    "subscribeTitle": "Prémium feloldása",
+    "subscribeTitle": "Teljes hozzáférés",
     "subscribeSubtitle": "Turbózza fel a német igék tanulását fejlett eszközökkel.",
     "subscribeNow": "Előfizetés most",
     "buyNow": "Vásárlás most",
     "viewPlans": "Csomagok megtekintése",
     "premiumFeaturesLabel": "PRÉMIUM FUNKCIÓK",
-    "disclaimerAutoRenew": "Automatikusan megújul ({price}/{period}). Bármikor lemondható a fiókbeállításokban.",
+    "disclaimerAutoRenew": "Automatikusan megújul {price}/{period} áron. Bármikor lemondható.",
     "disclaimerAutoRenewTrial": "Ingyenes {trialDuration} ideig, utána {price}/{period}. Bármikor lemondható.",
     "disclaimerOneTime": "Egyszeri vásárlás. Nincs ismétlődő díj.",
     "freeTrialDays": "{count} napos ingyenes próba",
@@ -417,7 +417,13 @@
       "threeMonthLabel": "3 Hónap",
       "sixMonthLabel": "6 Hónap",
       "bestValueBadge": "LEGJOBB ÁR",
-      "popularBadge": "NÉPSZERŰ"
+      "popularBadge": "NÉPSZERŰ",
+      "oneYearLabel": "1 Év",
+      "usersChoiceBadge": "FELHASZNÁLÓK VÁLASZTÁSA",
+      "yearlySubtitle": "Legjobb ár-érték",
+      "threeMonthSubtitle": "Vizsga- és szintfelkészítő",
+      "monthlySubtitle": "Rövid távú gyakorlás",
+      "discountBadge": "{percent}% kedvezmény"
     },
     "features": {
       "noAdsTitle": "Nincsenek reklámok",
@@ -438,7 +444,8 @@
       "offlineModeTitle": "Offline gyakorlás",
       "offlineModeShort": "Offline\nGyakorlás",
       "offlineModeDescription": "Gyakorolja a német igéket bármikor, bárhol, internetkapcsolat nélkül."
-    }
+    },
+    "getFullAccess": "Teljes hozzáférés"
   },
   "notifications": {
     "reminderTitle": "Itt az idő gyakorolni!",
@@ -452,11 +459,11 @@
     "trialBadge": "3 NAPOS INGYENES PRÓBA",
     "title": "Próbálja ki a Premiumot fizetés előtt",
     "subtitle": "Így működik az ingyenes próbaidőszak.",
-    "cta": "Ingyenes próbaidőszak indítása",
+    "cta": "Premium 3 napig ingyen",
     "restore": "Vásárlások visszaállítása",
     "proceedLimited": "Folytatás a korlátozott verzióval",
-    "priceYearlyWithCoffee": "{price}/év, egy kávé/hó.",
-    "price3MonthsWithCoffee": "Csak {price} 3 hónapra — kevesebb, mint egy kávé havonta",
+    "priceYearlyWithCoffee": "{price}/év, ☕/hó.",
+    "price3MonthsWithCoffee": "Csak {price} 3 hónapra — kevesebb, mint egy ☕ havonta",
     "disclaimer": "Automatikusan megújul ({price}/év). Bármikor lemondható a fiókbeállításokban.",
     "disclaimerFallback": "Automatikusan megújul évente. Bármikor lemondható a beállításokban.",
     "priceWithTrial": "Ingyenes {trialDuration} ideig, utána {price}/év",
@@ -498,7 +505,8 @@
         "headline": "A 3 hónapos hozzáférés elindul",
         "description": "A próbaidőszak 3 hónapos hozzáféréssé alakul át. Bármikor lemondható a beállításokban."
       }
-    }
+    },
+    "ctaSubline": "Ma nem vonunk le semmit • Bármikor lemondható"
   },
   "offlineModal": {
     "title": "Internetkapcsolat szükséges",

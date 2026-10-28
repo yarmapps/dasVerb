@@ -371,13 +371,13 @@
     "cancelAnytime": "Kdykoli zrušit"
   },
   "premiumSheets": {
-    "subscribeTitle": "Odemknout Premium",
+    "subscribeTitle": "Plný přístup",
     "subscribeSubtitle": "Vylepšete své učení německých sloves pomocí pokročilých nástrojů.",
     "subscribeNow": "Předplatit nyní",
     "buyNow": "Koupit nyní",
     "viewPlans": "Zobrazit plány",
     "premiumFeaturesLabel": "PREMIUM FUNKCE",
-    "disclaimerAutoRenew": "Automaticky se obnovuje za {price}/{period}. Zrušte kdykoli v nastavení účtu.",
+    "disclaimerAutoRenew": "Automatické obnovení za {price}/{period}. Zrušení kdykoli.",
     "disclaimerAutoRenewTrial": "Zdarma po dobu {trialDuration}, pak {price}/{period}. Zrušte kdykoli.",
     "disclaimerOneTime": "Jednorázový nákup. Žádné opakované poplatky.",
     "freeTrialDays": "{count}-denní zkušební verze zdarma",
@@ -417,7 +417,13 @@
       "threeMonthLabel": "3 měsíce",
       "sixMonthLabel": "6 měsíců",
       "bestValueBadge": "NEJVÝHODNĚJŠÍ",
-      "popularBadge": "POPULÁRNÍ"
+      "popularBadge": "POPULÁRNÍ",
+      "oneYearLabel": "1 Rok",
+      "usersChoiceBadge": "VOLBA UŽIVATELŮ",
+      "yearlySubtitle": "Nejlepší hodnota",
+      "threeMonthSubtitle": "Příprava na zkoušku a posun",
+      "monthlySubtitle": "Krátkodobé procvičování",
+      "discountBadge": "Sleva {percent}%"
     },
     "features": {
       "noAdsTitle": "Žádné reklamy",
@@ -438,7 +444,8 @@
       "offlineModeTitle": "Procvičování offline",
       "offlineModeShort": "Offline\nprocvičování",
       "offlineModeDescription": "Procvičujte slovesa kdykoli a kdekoli bez připojení k internetu."
-    }
+    },
+    "getFullAccess": "Získat plný přístup"
   },
   "notifications": {
     "reminderTitle": "Čas na procvičování!",
@@ -452,11 +459,11 @@
     "trialBadge": "3DENNÍ ZKUŠEBNÍ VERZE ZDARMA",
     "title": "Vyzkoušejte Premium, než zaplatíte",
     "subtitle": "Jak funguje vaše bezplatná zkušební verze.",
-    "cta": "Zahájit bezplatnou zkušební verzi",
+    "cta": "Premium 3 dny zdarma",
     "restore": "Obnovit nákupy",
     "proceedLimited": "Pokračovat s omezenou verzí",
-    "priceYearlyWithCoffee": "{price}/rok, káva/měs.",
-    "price3MonthsWithCoffee": "Jen {price} na 3 měsíce — méně než káva měsíčně",
+    "priceYearlyWithCoffee": "{price}/rok, ☕/měs.",
+    "price3MonthsWithCoffee": "Jen {price} na 3 měsíce — méně než ☕ měsíčně",
     "disclaimer": "Automaticky se obnovuje za {price}/rok. Zrušte kdykoli v nastavení účtu.",
     "disclaimerFallback": "Automaticky se obnovuje ročně. Zrušte kdykoli v nastavení.",
     "priceWithTrial": "Zdarma po dobu {trialDuration}, pak {price}/rok",
@@ -498,7 +505,8 @@
         "headline": "Začíná 3měsíční přístup",
         "description": "Vaše zkušební verze se převede na 3měsíční přístup. Zrušte kdykoli v nastavení."
       }
-    }
+    },
+    "ctaSubline": "Nyní {price} • Kdykoliv zrušte"
   },
   "offlineModal": {
     "title": "Vyžadován internet",

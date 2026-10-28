@@ -371,13 +371,13 @@
     "cancelAnytime": "Zrušiť kedykoľvek"
   },
   "premiumSheets": {
-    "subscribeTitle": "Odomknúť Premium",
+    "subscribeTitle": "Plný prístup",
     "subscribeSubtitle": "Vylepšite si učenie nemeckých slovies pomocou pokročilých nástrojov.",
     "subscribeNow": "Predplatiť si teraz",
     "buyNow": "Kúpiť teraz",
     "viewPlans": "Zobraziť plány",
     "premiumFeaturesLabel": "PRÉMIOVÉ FUNKCIE",
-    "disclaimerAutoRenew": "Automatické obnovenie za {price}/{period}. Zrušiť môžete kedykoľvek v nastaveniach účtu.",
+    "disclaimerAutoRenew": "Automatické obnovenie za {price}/{period}. Zrušenie kedykoľvek.",
     "disclaimerAutoRenewTrial": "Zadarmo na {trialDuration}, potom {price}/{period}. Zrušiť môžete kedykoľvek.",
     "disclaimerOneTime": "Jednorazový nákup. Žiadne opakujúce sa poplatky.",
     "freeTrialDays": "{count}-dňová bezplatná skúšobná verzia",
@@ -417,7 +417,13 @@
       "threeMonthLabel": "3 mesiace",
       "sixMonthLabel": "6 mesiacov",
       "bestValueBadge": "NAJVÝHODNEJŠIE",
-      "popularBadge": "POPULÁRNE"
+      "popularBadge": "POPULÁRNE",
+      "oneYearLabel": "1 Rok",
+      "usersChoiceBadge": "VOĽBA POUŽÍVATEĽOV",
+      "yearlySubtitle": "Najlepšia hodnota",
+      "threeMonthSubtitle": "Príprava na skúšku a posun",
+      "monthlySubtitle": "Krátkodobé precvičovanie",
+      "discountBadge": "Zľava {percent}%"
     },
     "features": {
       "noAdsTitle": "Žiadne reklamy",
@@ -438,7 +444,8 @@
       "offlineModeTitle": "Offline cvičenie",
       "offlineModeShort": "Offline\ncvičenie",
       "offlineModeDescription": "Precvičujte si slovesá kedykoľvek a kdekoľvek, bez pripojenia na internet."
-    }
+    },
+    "getFullAccess": "Získať plný prístup"
   },
   "notifications": {
     "reminderTitle": "Čas na precvičovanie!",
@@ -452,11 +459,11 @@
     "trialBadge": "3-DŇOVÁ BEZPLATNÁ SKÚŠOBNÁ VERZIA",
     "title": "Vyskúšajte Premium predtým, ako zaplatíte",
     "subtitle": "Ako funguje vaša bezplatná skúšobná verzia.",
-    "cta": "Spustiť bezplatnú skúšobnú verziu",
+    "cta": "Premium 3 dni zadarmo",
     "restore": "Obnoviť nákupy",
     "proceedLimited": "Pokračovať s obmedzenou verziou",
-    "priceYearlyWithCoffee": "{price}/rok, káva/mes.",
-    "price3MonthsWithCoffee": "Len {price} na 3 mesiace — menej ako káva na mesiac",
+    "priceYearlyWithCoffee": "{price}/rok, ☕/mes.",
+    "price3MonthsWithCoffee": "Len {price} na 3 mesiace — menej ako ☕ na mesiac",
     "disclaimer": "Automatické obnovenie za {price}/rok. Zrušiť môžete kedykoľvek v nastaveniach účtu.",
     "disclaimerFallback": "Automatické ročné obnovenie. Zrušiť môžete kedykoľvek v nastaveniach.",
     "priceWithTrial": "Zadarmo na {trialDuration}, potom {price}/rok",
@@ -498,7 +505,8 @@
         "headline": "Začína 3-mesačný prístup",
         "description": "Vaša skúšobná verzia sa zmení na 3-mesačný prístup. Zrušiť môžete kedykoľvek v nastaveniach."
       }
-    }
+    },
+    "ctaSubline": "Teraz {price} • Kedykoľvek zrušte"
   },
   "offlineModal": {
     "title": "Vyžaduje sa internet",

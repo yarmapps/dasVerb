@@ -199,7 +199,8 @@ export interface MappedPackage {
 export type MappedPackages = {
   monthly: MappedPackage | null;
   threeMonth: MappedPackage | null;
-  sixMonth: MappedPackage | null;
+  sixMonth?: MappedPackage | null;
+  yearly: MappedPackage | null;
 };
 
 /**
@@ -239,6 +240,11 @@ export async function getMappedPackages(): Promise<MappedPackages | null> {
       'dasverb_premium_6months',
       'dasverb_premium_6months:dasverb-premium-6months',
     );
+    const yearlyPackage = findPackage(
+      '$rc_annual',
+      'dasverb_premium_year',
+      'dasverb_premium_yearly:dasverb-premium-yearly',
+    );
 
     const userHadTrial = getTrialStartDate() !== null;
 
@@ -276,11 +282,18 @@ export async function getMappedPackages(): Promise<MappedPackages | null> {
       sixMonthMapped.monthlyPriceString = formatPrice(price / 6, currencyCode || 'USD');
     }
 
-    if (monthlyPackage || threeMonthPackage || sixMonthPackage) {
+    const yearlyMapped = buildMapped(yearlyPackage);
+    if (yearlyMapped && yearlyPackage?.product?.price) {
+      const { price, currencyCode } = yearlyPackage.product;
+      yearlyMapped.monthlyPriceString = formatPrice(price / 12, currencyCode || 'USD');
+    }
+
+    if (monthlyPackage || threeMonthPackage || sixMonthPackage || yearlyPackage) {
       return {
         monthly: buildMapped(monthlyPackage),
         threeMonth: threeMonthMapped,
         sixMonth: sixMonthMapped,
+        yearly: yearlyMapped,
       };
     }
   }
@@ -312,16 +325,10 @@ export async function getMappedPackages(): Promise<MappedPackages | null> {
             priceString: '€8.99',
             price: 8.99,
             currencyCode: 'EUR',
-            introPrice: {
-              price: 0,
-              periodNumberOfUnits: 3,
-              periodUnit: 'DAY',
-            },
           },
         } as unknown as PurchasesPackage,
         priceString: '€8.99',
         monthlyPriceString: '€3.00',
-        freeTrialInfo: userHadTrial ? undefined : { count: 3, unit: 'day' },
       },
       sixMonth: {
         pkg: {
@@ -336,6 +343,26 @@ export async function getMappedPackages(): Promise<MappedPackages | null> {
         } as unknown as PurchasesPackage,
         priceString: '€14.99',
         monthlyPriceString: '€2.50',
+      },
+      yearly: {
+        pkg: {
+          identifier: '$rc_annual',
+          packageType: PACKAGE_TYPE.ANNUAL,
+          product: {
+            identifier: 'dasverb_premium_year',
+            priceString: '€24.99',
+            price: 24.99,
+            currencyCode: 'EUR',
+            introPrice: {
+              price: 0,
+              periodNumberOfUnits: 3,
+              periodUnit: 'DAY',
+            },
+          },
+        } as unknown as PurchasesPackage,
+        priceString: '€24.99',
+        monthlyPriceString: '€2.08',
+        freeTrialInfo: userHadTrial ? undefined : { count: 3, unit: 'day' },
       },
     };
   }

@@ -371,13 +371,13 @@
     "cancelAnytime": "Скасування будь-коли"
   },
   "premiumSheets": {
-    "subscribeTitle": "Відкрийте Premium",
+    "subscribeTitle": "Повний доступ",
     "subscribeSubtitle": "Прискорте вивчення німецьких дієслів за допомогою просунутих інструментів.",
     "subscribeNow": "Підписатися зараз",
     "buyNow": "Купити зараз",
     "viewPlans": "Переглянути плани",
     "premiumFeaturesLabel": "ПРЕМІУМ ФУНКЦІЇ",
-    "disclaimerAutoRenew": "Автоматичне поновлення за {price}/{period}. Скасуйте в будь-який час у налаштуваннях облікового запису.",
+    "disclaimerAutoRenew": "Автоподовження за {price}/{period}. Скасування в будь-який момент.",
     "disclaimerAutoRenewTrial": "Безкоштовно {trialDuration}, потім {price}/{period}. Скасуйте в будь-який час.",
     "disclaimerOneTime": "Одноразова покупка. Без регулярних платежів.",
     "freeTrialDays": "Безкоштовно {count} дн.",
@@ -417,7 +417,13 @@
       "threeMonthLabel": "3 місяці",
       "sixMonthLabel": "6 місяців",
       "bestValueBadge": "ВИГІДНО",
-      "popularBadge": "ПОПУЛЯРНИЙ"
+      "popularBadge": "ПОПУЛЯРНИЙ",
+      "oneYearLabel": "1 рік",
+      "usersChoiceBadge": "ВИБІР КОРИСТУВАЧІВ",
+      "yearlySubtitle": "Найкраща вигода",
+      "threeMonthSubtitle": "Підготовка до іспиту",
+      "monthlySubtitle": "Короткострокова практика",
+      "discountBadge": "Знижка {percent}%"
     },
     "features": {
       "noAdsTitle": "Без реклами",
@@ -447,7 +453,8 @@
     },
     "trialTitle": "Ваша 3-денна пробна версія Premium активна",
     "trialSubtitle": "Відкрийте свій найшвидший прогрес без реклами та з потужними інструментами для навчання.",
-    "trialCta": "Поїхали!"
+    "trialCta": "Поїхали!",
+    "getFullAccess": "Отримати повний доступ"
   },
   "notifications": {
     "reminderTitle": "Час практикуватися!",
@@ -461,11 +468,11 @@
     "trialBadge": "ПРОБНА ВЕРСІЯ · 3 ДНІ",
     "title": "Спробуйте Premium перед оплатою",
     "subtitle": "Як працює ваш безкоштовний період.",
-    "cta": "Почати Premium безкоштовно",
+    "cta": "Преміум 3 дні безкоштовно",
     "restore": "Відновити покупки",
     "proceedLimited": "Продовжити з обмеженою версією",
-    "priceYearlyWithCoffee": "{price}/рік, чашка кави/міс.",
-    "price3MonthsWithCoffee": "Всього {price} за 3 місяці — менше чашки кави на місяць",
+    "priceYearlyWithCoffee": "{price}/рік, ☕/міс.",
+    "price3MonthsWithCoffee": "Всього {price} за 3 місяці — менше ☕ на місяць",
     "disclaimer": "Автоподовження за {price}/рік. Скасуйте будь-коли в налаштуваннях.",
     "disclaimerFallback": "Автоподовження раз на рік. Скасуйте будь-коли в налаштуваннях.",
     "priceWithTrial": "Безкоштовно на {trialDuration}, потім {price}/рік",
@@ -540,7 +547,8 @@
         "headline": "Початок підписки",
         "description": "Тільки якщо ви не скасуєте її. Скасовуйте будь-коли в налаштуваннях."
       }
-    }
+    },
+    "ctaSubline": "{price} зараз • Скасування будь-коли"
   },
   "offlineModal": {
     "title": "Потрібен інтернет",

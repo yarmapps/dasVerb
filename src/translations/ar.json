@@ -371,13 +371,13 @@
     "cancelAnytime": "إلغاء في أي وقت"
   },
   "premiumSheets": {
-    "subscribeTitle": "فتح Premium",
+    "subscribeTitle": "وصول كامل",
     "subscribeSubtitle": "عزز تعلم الأفعال الألمانية باستخدام أدوات متقدمة.",
     "subscribeNow": "اشترك الآن",
     "buyNow": "اشترِ الآن",
     "viewPlans": "عرض الخطط",
     "premiumFeaturesLabel": "الميزات المميزة",
-    "disclaimerAutoRenew": "تجديد تلقائي بسعر {price}/{period}. يمكنك الإلغاء في أي وقت من إعدادات حسابك.",
+    "disclaimerAutoRenew": "التجديد التلقائي مقابل {price}/{period}. يمكنك الإلغاء في أي وقت.",
     "disclaimerAutoRenewTrial": "مجاني لمدة {trialDuration}، ثم {price}/{period}. إلغاء في أي وقت.",
     "disclaimerOneTime": "شراء لمرة واحدة. لا توجد رسوم متكررة.",
     "freeTrialDays": "تجربة مجانية {count} أيام",
@@ -417,7 +417,13 @@
       "threeMonthLabel": "3 أشهر",
       "sixMonthLabel": "6 أشهر",
       "bestValueBadge": "أفضل قيمة",
-      "popularBadge": "شائع"
+      "popularBadge": "شائع",
+      "oneYearLabel": "سنة واحدة",
+      "usersChoiceBadge": "اختيار المستخدمين",
+      "yearlySubtitle": "أفضل قيمة",
+      "threeMonthSubtitle": "دفعة للامتحان والمستوى",
+      "monthlySubtitle": "ممارسة قصيرة المدى",
+      "discountBadge": "خصم {percent}%"
     },
     "features": {
       "noAdsTitle": "بدون إعلانات",
@@ -447,7 +453,8 @@
     },
     "trialTitle": "إصدارك التجريبي المميز لمدة 3 أيام نشط",
     "trialSubtitle": "افتح أسرع تقدم لك بدون إعلانات مع أدوات تعليمية قوية.",
-    "trialCta": "لننطلق!"
+    "trialCta": "لننطلق!",
+    "getFullAccess": "احصل على وصول كامل"
   },
   "notifications": {
     "reminderTitle": "حان وقت التمرين!",
@@ -461,11 +468,11 @@
     "trialBadge": "تجربة · 3 أيام",
     "title": "جرب Premium قبل الدفع",
     "subtitle": "إليك كيف تعمل تجربتك المجانية.",
-    "cta": "ابدأ Premium مجانًا",
+    "cta": "بريميوم 3 أيام مجاناً",
     "restore": "استعادة المشتريات",
     "proceedLimited": "المتابعة بالنسخة المحدودة",
-    "priceYearlyWithCoffee": "{price}/سنة، فنجان قهوة/شهر",
-    "price3MonthsWithCoffee": "فقط {price} لمدة 3 أشهر — أقل من ثمن فنجان قهوة شهريًا",
+    "priceYearlyWithCoffee": "{price}/سنة، ☕/شهر",
+    "price3MonthsWithCoffee": "فقط {price} لمدة 3 أشهر — أقل من ثمن ☕ شهريًا",
     "disclaimer": "يتجدد تلقائيًا بسعر {price}/سنة. يمكنك الإلغاء في أي وقت في إعدادات الحساب.",
     "disclaimerFallback": "يتجدد تلقائيًا سنويًا. يمكنك الإلغاء في أي وقت في إعدادات الحساب.",
     "priceWithTrial": "مجانًا لمدة {trialDuration}، ثم {price}/سنة",
@@ -540,7 +547,8 @@
         "headline": "تبدأ الاشتراكات",
         "description": "فقط إذا لم تقم بالإلغاء. يمكنك الإلغاء في أي وقت في إعدادات الحساب."
       }
-    }
+    },
+    "ctaSubline": "لا يوجد دفع اليوم • إلغاء في أي وقت"
   },
   "offlineModal": {
     "title": "الإنترنت مطلوب",

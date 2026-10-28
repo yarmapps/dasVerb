@@ -192,9 +192,9 @@ describe('Premium Subscription Suite', () => {
       );
 
       expect(getByTestId('premium-subscribe-sheet')).toBeTruthy();
-      expect(getByText('Откройте Premium')).toBeTruthy();
+      expect(getByText('Полный доступ')).toBeTruthy();
+      expect(getByText('1 год')).toBeTruthy();
       expect(getByText('3 месяца')).toBeTruthy();
-      expect(getByText('6 месяцев')).toBeTruthy();
       expect(getByText('1 месяц')).toBeTruthy();
 
       const closeButton = getByTestId('close-icon-button');

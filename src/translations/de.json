@@ -371,13 +371,13 @@
     "cancelAnytime": "Jederzeit kündbar"
   },
   "premiumSheets": {
-    "subscribeTitle": "Premium freischalten",
+    "subscribeTitle": "Vollzugriff",
     "subscribeSubtitle": "Optimiere dein Lernen von deutschen Verben mit fortschrittlichen Tools.",
     "subscribeNow": "Jetzt abonnieren",
     "buyNow": "Jetzt kaufen",
     "viewPlans": "Pläne ansehen",
     "premiumFeaturesLabel": "PREMIUM-FUNKTIONEN",
-    "disclaimerAutoRenew": "Verlängert sich automatisch für {price}/{period}. Jederzeit in den Kontoeinstellungen kündbar.",
+    "disclaimerAutoRenew": "Automatische Verlängerung für {price}/{period}. Jederzeit kündbar.",
     "disclaimerAutoRenewTrial": "Kostenlos für {trialDuration}, dann {price}/{period}. Jederzeit kündbar.",
     "disclaimerOneTime": "Einmaliger Kauf. Keine wiederkehrenden Gebühren.",
     "freeTrialDays": "{count}-tägige kostenlose Testversion",
@@ -417,7 +417,13 @@
       "threeMonthLabel": "3 Monate",
       "sixMonthLabel": "6 Monate",
       "bestValueBadge": "BESTER PREIS",
-      "popularBadge": "BELIEBT"
+      "popularBadge": "BELIEBT",
+      "oneYearLabel": "1 Jahr",
+      "usersChoiceBadge": "BELIEBTESTE WAHL",
+      "yearlySubtitle": "Bestes Preis-Leistungs-Verhältnis",
+      "threeMonthSubtitle": "Prüfungs- & Niveau-Boost",
+      "monthlySubtitle": "Kurzzeit-Training",
+      "discountBadge": "{percent}% Rabatt"
     },
     "features": {
       "noAdsTitle": "Keine Werbung",
@@ -438,7 +444,8 @@
       "offlineModeTitle": "Offline-Modus",
       "offlineModeShort": "Offline\nüben",
       "offlineModeDescription": "Übe Verben jederzeit und überall ohne Internetverbindung."
-    }
+    },
+    "getFullAccess": "Vollzugriff erhalten"
   },
   "notifications": {
     "reminderTitle": "Zeit zum Üben!",
@@ -452,11 +459,11 @@
     "trialBadge": "3 TAGE KOSTENLOS TESTEN",
     "title": "Teste Premium, bevor du bezahlst",
     "subtitle": "So funktioniert deine kostenlose Testphase.",
-    "cta": "Kostenlose Testphase starten",
+    "cta": "Premium 3 Tage kostenlos",
     "restore": "Käufe wiederherstellen",
     "proceedLimited": "Mit der eingeschränkten Version fortfahren",
-    "priceYearlyWithCoffee": "{price}/Jahr, ein Kaffee/Monat.",
-    "price3MonthsWithCoffee": "Nur {price} für 3 Monate — weniger als ein Kaffee pro Monat",
+    "priceYearlyWithCoffee": "{price}/Jahr, ☕/Monat.",
+    "price3MonthsWithCoffee": "Nur {price} für 3 Monate — weniger als ein ☕ pro Monat",
     "disclaimer": "Verlängert sich automatisch für {price}/Jahr. Jederzeit in den Kontoeinstellungen kündbar.",
     "disclaimerFallback": "Verlängert sich jährlich automatisch. Jederzeit in den Einstellungen kündbar.",
     "priceWithTrial": "Kostenlos für {trialDuration}, dann {price}/Jahr",
@@ -498,7 +505,8 @@
         "headline": "3-Monats-Zugang beginnt",
         "description": "Deine Testphase wandelt sich in einen 3-Monats-Zugang um. Jederzeit in den Einstellungen kündbar."
       }
-    }
+    },
+    "ctaSubline": "Heute keine Zahlung fällig • Jederzeit kündbar"
   },
   "offlineModal": {
     "title": "Internet erforderlich",

@@ -371,13 +371,13 @@
     "cancelAnytime": "Annuler à tout moment"
   },
   "premiumSheets": {
-    "subscribeTitle": "Débloquez Premium",
+    "subscribeTitle": "Accès complet",
     "subscribeSubtitle": "Accélérez votre apprentissage des verbes allemands avec des outils avancés.",
     "subscribeNow": "S'abonner maintenant",
     "buyNow": "Acheter maintenant",
     "viewPlans": "Voir les offres",
     "premiumFeaturesLabel": "FONCTIONNALITÉS PREMIUM",
-    "disclaimerAutoRenew": "Renouvellement auto à {price}/{period}. Annulez à tout moment dans les paramètres de votre compte.",
+    "disclaimerAutoRenew": "Renouvellement automatique à {price}/{period}. Annulable à tout moment.",
     "disclaimerAutoRenewTrial": "Gratuit pendant {trialDuration}, puis {price}/{period}. Annulez à tout moment.",
     "disclaimerOneTime": "Achat unique. Aucun frais récurrent.",
     "freeTrialDays": "Essai gratuit de {count} jours",
@@ -417,7 +417,13 @@
       "threeMonthLabel": "3 Mois",
       "sixMonthLabel": "6 Mois",
       "bestValueBadge": "MEILLEURE OFFRE",
-      "popularBadge": "POPULAIRE"
+      "popularBadge": "POPULAIRE",
+      "oneYearLabel": "1 An",
+      "usersChoiceBadge": "CHOIX DES UTILISATEURS",
+      "yearlySubtitle": "Meilleure offre",
+      "threeMonthSubtitle": "Boost examen et niveau",
+      "monthlySubtitle": "Pratique à court terme",
+      "discountBadge": "{percent}% réduction"
     },
     "features": {
       "noAdsTitle": "Zéro publicité",
@@ -447,7 +453,8 @@
     },
     "trialTitle": "Votre essai Premium de 3 jours est actif",
     "trialSubtitle": "Débloquez votre progression la plus rapide avec zéro pub et des outils d'apprentissage puissants.",
-    "trialCta": "C'est parti !"
+    "trialCta": "C'est parti !",
+    "getFullAccess": "Obtenir l’accès complet"
   },
   "notifications": {
     "reminderTitle": "C'est l'heure de s'entraîner !",
@@ -461,11 +468,11 @@
     "trialBadge": "ESSAI · 3 JOURS",
     "title": "Essayez Premium avant de payer",
     "subtitle": "Voici comment fonctionne votre essai gratuit.",
-    "cta": "Commencer Premium gratuitement",
+    "cta": "Premium 3 jours gratuits",
     "restore": "Restaurer les achats",
     "proceedLimited": "Continuer avec la version limitée",
-    "priceYearlyWithCoffee": "{price}/an, une tasse de café/mois",
-    "price3MonthsWithCoffee": "Seulement {price} pour 3 mois — moins qu'un café par mois",
+    "priceYearlyWithCoffee": "{price}/an, ☕/mois",
+    "price3MonthsWithCoffee": "Seulement {price} pour 3 mois — moins qu'un ☕ par mois",
     "disclaimer": "Renouvellement automatique à {price}/an. Annulez à tout moment dans les paramètres.",
     "disclaimerFallback": "Renouvellement automatique annuel. Annulez à tout moment dans les paramètres.",
     "priceWithTrial": "Gratuit pendant {trialDuration}, puis {price}/an",
@@ -540,7 +547,8 @@
         "headline": "L'abonnement commence",
         "description": "Seulement si vous n'annulez pas. Annulez à tout moment dans les paramètres."
       }
-    }
+    },
+    "ctaSubline": "Rien à payer aujourd'hui • Annulation facile"
   },
   "offlineModal": {
     "title": "Internet requis",

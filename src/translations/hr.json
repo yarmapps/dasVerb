@@ -371,13 +371,13 @@
     "cancelAnytime": "Otkažite bilo kada"
   },
   "premiumSheets": {
-    "subscribeTitle": "Otključaj Premium",
+    "subscribeTitle": "Potpuni pristup",
     "subscribeSubtitle": "Unaprijedite učenje njemačkih glagola uz napredne alate.",
     "subscribeNow": "Pretplati se sada",
     "buyNow": "Kupi sada",
     "viewPlans": "Pregledajte planove",
     "premiumFeaturesLabel": "PREMIUM ZNAČAJKE",
-    "disclaimerAutoRenew": "Automatski se obnavlja za {price}/{period}. Otkažite bilo kada u postavkama vašeg računa.",
+    "disclaimerAutoRenew": "Automatski se obnavlja za {price}/{period}. Otkažite bilo kada.",
     "disclaimerAutoRenewTrial": "Besplatno {trialDuration}, zatim {price}/{period}. Otkažite bilo kada.",
     "disclaimerOneTime": "Jednokratna kupnja. Bez ponavljajućih troškova.",
     "freeTrialDays": "{count}-dnevno besplatno probno razdoblje",
@@ -417,7 +417,13 @@
       "threeMonthLabel": "3 mjeseca",
       "sixMonthLabel": "6 mjeseci",
       "bestValueBadge": "NAJBOLJA VRIJEDNOST",
-      "popularBadge": "POPULARNO"
+      "popularBadge": "POPULARNO",
+      "oneYearLabel": "1 Godina",
+      "usersChoiceBadge": "IZBOR KORISNIKA",
+      "yearlySubtitle": "Najbolja vrijednost",
+      "threeMonthSubtitle": "Priprema za ispit i razinu",
+      "monthlySubtitle": "Kratkoročna vježba",
+      "discountBadge": "{percent}% popusta"
     },
     "features": {
       "noAdsTitle": "Bez oglasa",
@@ -438,7 +444,8 @@
       "offlineModeTitle": "Izvanmrežna vježba",
       "offlineModeShort": "Izvanmrežna\nvježba",
       "offlineModeDescription": "Vježbajte glagole bilo kada i bilo gdje bez internetske veze."
-    }
+    },
+    "getFullAccess": "Ostvari puni pristup"
   },
   "notifications": {
     "reminderTitle": "Vrijeme je za vježbanje!",
@@ -452,11 +459,11 @@
     "trialBadge": "3-DNEVNO BESPLATNO PROBNO RAZDOBLJE",
     "title": "Isprobajte Premium prije nego platite",
     "subtitle": "Kako funkcionira vaše besplatno probno razdoblje.",
-    "cta": "Započni besplatno probno razdoblje",
+    "cta": "Premium 3 dana besplatno",
     "restore": "Vrati kupnje",
     "proceedLimited": "Nastavite s ograničenom verzijom",
-    "priceYearlyWithCoffee": "{price}/godišnje, kava/mj.",
-    "price3MonthsWithCoffee": "Samo {price} za 3 mjeseca — manje od kave mjesečno",
+    "priceYearlyWithCoffee": "{price}/godišnje, ☕/mj.",
+    "price3MonthsWithCoffee": "Samo {price} za 3 mjeseca — manje od ☕ mjesečno",
     "disclaimer": "Automatski se obnavlja za {price}/godišnje. Otkažite bilo kada u postavkama računa.",
     "disclaimerFallback": "Automatski se obnavlja godišnje. Otkažite bilo kada u postavkama.",
     "priceWithTrial": "Besplatno {trialDuration}, zatim {price}/godišnje",
@@ -498,7 +505,8 @@
         "headline": "Počinje 3-mjesečni pristup",
         "description": "Vaše probno razdoblje pretvara se u 3-mjesečni pristup. Otkažite bilo kada u postavkama."
       }
-    }
+    },
+    "ctaSubline": "Danas bez naplate • Otkažite bilo kada"
   },
   "offlineModal": {
     "title": "Potreban je internet",

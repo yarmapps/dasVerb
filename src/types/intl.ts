@@ -368,6 +368,7 @@ export interface Translation {
     title: string;
     subtitle: string;
     cta: string;
+    ctaSubline?: string;
     restore: string;
     proceedLimited: string;
     priceYearlyWithCoffee?: string;
@@ -443,6 +444,7 @@ export interface Translation {
     periodYear: string;
     period3Months?: string;
     period6Months?: string;
+    getFullAccess?: string;
     restorePurchases: string;
     errorTitle: string;
     errorUnavailable: string;
@@ -467,6 +469,12 @@ export interface Translation {
       sixMonthLabel?: string;
       popularBadge?: string;
       bestValueBadge?: string;
+      oneYearLabel?: string;
+      usersChoiceBadge?: string;
+      yearlySubtitle?: string;
+      threeMonthSubtitle?: string;
+      monthlySubtitle?: string;
+      discountBadge?: string;
     };
     features: {
       noAdsTitle: string;

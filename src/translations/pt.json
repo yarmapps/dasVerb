@@ -371,13 +371,13 @@
     "cancelAnytime": "Cancele a qualquer momento"
   },
   "premiumSheets": {
-    "subscribeTitle": "Desbloqueie o Premium",
+    "subscribeTitle": "Acesso completo",
     "subscribeSubtitle": "Acelere seu aprendizado de verbos em alemão com ferramentas avançadas.",
     "subscribeNow": "Assinar Agora",
     "buyNow": "Comprar Agora",
     "viewPlans": "Ver Planos",
     "premiumFeaturesLabel": "RECURSOS PREMIUM",
-    "disclaimerAutoRenew": "Renovação automática por {price}/{period}. Cancele a qualquer momento nas configurações da sua conta.",
+    "disclaimerAutoRenew": "Renovação automática por {price}/{period}. Cancele a qualquer momento.",
     "disclaimerAutoRenewTrial": "Grátis por {trialDuration}, depois {price}/{period}. Cancele a qualquer momento.",
     "disclaimerOneTime": "Compra única. Sem cobranças recorrentes.",
     "freeTrialDays": "Teste grátis de {count} dias",
@@ -417,7 +417,13 @@
       "threeMonthLabel": "3 Meses",
       "sixMonthLabel": "6 Meses",
       "bestValueBadge": "MELHOR VALOR",
-      "popularBadge": "POPULAR"
+      "popularBadge": "POPULAR",
+      "oneYearLabel": "1 Ano",
+      "usersChoiceBadge": "ESCOLHA DOS USUÁRIOS",
+      "yearlySubtitle": "Melhor valor",
+      "threeMonthSubtitle": "Impulso para exames e nível",
+      "monthlySubtitle": "Prática de curto prazo",
+      "discountBadge": "{percent}% desconto"
     },
     "features": {
       "noAdsTitle": "Zero Anúncios",
@@ -447,7 +453,8 @@
     },
     "trialTitle": "Seu Teste Premium de 3 Dias Está Ativo",
     "trialSubtitle": "Desbloqueie seu progresso mais rápido com zero anúncios e ferramentas poderosas de aprendizado.",
-    "trialCta": "Vamos lá!"
+    "trialCta": "Vamos lá!",
+    "getFullAccess": "Obter acesso completo"
   },
   "notifications": {
     "reminderTitle": "Hora de praticar!",
@@ -461,11 +468,11 @@
     "trialBadge": "TESTE · 3 DIAS",
     "title": "Experimente Premium antes de pagar",
     "subtitle": "Veja como funciona o seu teste gratuito.",
-    "cta": "Iniciar Premium Grátis",
+    "cta": "Premium 3 dias grátis",
     "restore": "Restaurar compras",
     "proceedLimited": "Continuar com a versão limitada",
-    "priceYearlyWithCoffee": "{price}/ano, uma xícara de café/mês",
-    "price3MonthsWithCoffee": "Apenas {price} por 3 meses — menos que um café por mês",
+    "priceYearlyWithCoffee": "{price}/ano, ☕/mês",
+    "price3MonthsWithCoffee": "Apenas {price} por 3 meses — menos que um ☕ por mês",
     "disclaimer": "Renovação automática por {price}/ano. Cancele a qualquer momento nas configurações.",
     "disclaimerFallback": "Renovação automática anual. Cancele a qualquer momento nas configurações.",
     "priceWithTrial": "Grátis por {trialDuration}, depois {price}/ano",
@@ -540,7 +547,8 @@
         "headline": "A assinatura começa",
         "description": "Apenas se você não cancelar. Cancele a qualquer momento nas configurações do seu perfil."
       }
-    }
+    },
+    "ctaSubline": "Sem cobrança hoje • Cancele quando quiser"
   },
   "offlineModal": {
     "title": "Internet necessária",

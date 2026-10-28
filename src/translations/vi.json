@@ -371,13 +371,13 @@
     "cancelAnytime": "Hủy bất cứ lúc nào"
   },
   "premiumSheets": {
-    "subscribeTitle": "Mở khóa Premium",
+    "subscribeTitle": "Toàn quyền truy cập",
     "subscribeSubtitle": "Tăng cường việc học động từ tiếng Đức của bạn với các công cụ nâng cao.",
     "subscribeNow": "Đăng ký ngay",
     "buyNow": "Mua ngay",
     "viewPlans": "Xem các gói",
     "premiumFeaturesLabel": "TÍNH NĂNG PREMIUM",
-    "disclaimerAutoRenew": "Tự động gia hạn với giá {price}/{period}. Hủy bất cứ lúc nào trong cài đặt tài khoản của bạn.",
+    "disclaimerAutoRenew": "Tự động gia hạn với giá {price}/{period}. Hủy bất cứ lúc nào.",
     "disclaimerAutoRenewTrial": "Miễn phí trong {trialDuration}, sau đó {price}/{period}. Hủy bất cứ lúc nào.",
     "disclaimerOneTime": "Mua một lần. Không có phí định kỳ.",
     "freeTrialDays": "Dùng thử miễn phí {count} ngày",
@@ -417,7 +417,13 @@
       "threeMonthLabel": "3 Tháng",
       "sixMonthLabel": "6 Tháng",
       "bestValueBadge": "GIÁ TRỊ TỐT NHẤT",
-      "popularBadge": "PHỔ BIẾN"
+      "popularBadge": "PHỔ BIẾN",
+      "oneYearLabel": "1 Năm",
+      "usersChoiceBadge": "LỰA CHỌN HÀNG ĐẦU",
+      "yearlySubtitle": "Giá trị tốt nhất",
+      "threeMonthSubtitle": "Tăng tốc luyện thi & nâng trình",
+      "monthlySubtitle": "Luyện tập ngắn hạn",
+      "discountBadge": "Giảm {percent}%"
     },
     "features": {
       "noAdsTitle": "Không quảng cáo",
@@ -438,7 +444,8 @@
       "offlineModeTitle": "Luyện tập ngoại tuyến",
       "offlineModeShort": "Luyện tập\nNgoại tuyến",
       "offlineModeDescription": "Luyện tập động từ mọi lúc, mọi nơi mà không cần kết nối internet."
-    }
+    },
+    "getFullAccess": "Nhận toàn quyền truy cập"
   },
   "notifications": {
     "reminderTitle": "Đến lúc luyện tập rồi!",
@@ -452,11 +459,11 @@
     "trialBadge": "DÙNG THỬ MIỄN PHÍ 3 NGÀY",
     "title": "Dùng thử Premium trước khi thanh toán",
     "subtitle": "Cách thức hoạt động của bản dùng thử miễn phí.",
-    "cta": "Bắt đầu dùng thử miễn phí",
+    "cta": "Premium 3 ngày miễn phí",
     "restore": "Khôi phục giao dịch mua",
     "proceedLimited": "Tiếp tục với phiên bản giới hạn",
-    "priceYearlyWithCoffee": "{price}/năm, một ly cà phê/tháng.",
-    "price3MonthsWithCoffee": "Chỉ {price} cho 3 tháng — ít hơn một ly cà phê mỗi tháng",
+    "priceYearlyWithCoffee": "{price}/năm, ☕/tháng.",
+    "price3MonthsWithCoffee": "Chỉ {price} cho 3 tháng — ít hơn một ☕ mỗi tháng",
     "disclaimer": "Tự động gia hạn với giá {price}/năm. Hủy bất cứ lúc nào trong cài đặt tài khoản.",
     "disclaimerFallback": "Tự động gia hạn hàng năm. Hủy bất cứ lúc nào trong cài đặt.",
     "priceWithTrial": "Miễn phí trong {trialDuration}, sau đó {price}/năm",
@@ -498,7 +505,8 @@
         "headline": "Bắt đầu truy cập 3 tháng",
         "description": "Thời gian dùng thử của bạn sẽ chuyển thành quyền truy cập 3 tháng. Hủy bất cứ lúc nào trong cài đặt."
       }
-    }
+    },
+    "ctaSubline": "Hôm nay không tính phí • Hủy bất cứ lúc nào"
   },
   "offlineModal": {
     "title": "Yêu cầu Internet",

@@ -69,6 +69,7 @@ const mockPackages: revenueCatService.MappedPackages = {
   },
   monthly: null,
   sixMonth: null,
+  yearly: null,
 };
 
 describe('First Open Paywall Suite', () => {
@@ -186,6 +187,7 @@ describe('First Open Paywall Suite', () => {
       },
       monthly: null,
       sixMonth: null,
+      yearly: null,
     };
 
     beforeEach(() => {
